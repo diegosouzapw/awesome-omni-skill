@@ -1,0 +1,114 @@
+---
+name: chrome-extension-init-skill
+description: Initialize a Chrome/Chromium browser extension project from an empty folder by having the user choose a scaffolding toolchain (Plasmo, WXT, or Vite + CRXJS), then running the official interactive CLI (e.g., `npm create plasmo`, `npx wxt@latest init`, `npm create crxjs@latest`) to scaffold the project, and finishing with git init + first commit. Use when a user asks to start or bootstrap a browser extension from scratch.
+---
+
+# Chrome Extension Init Skill
+
+## Overview
+
+Guide the user to pick a scaffolding toolchain (Plasmo / WXT / Vite + CRXJS), scaffold via the official CLI (not manual setup), then do minimal verification, git init, and the first commit.
+
+## Workflow
+
+### 1) Confirm Preconditions
+
+- Verify the target directory is empty or get permission to scaffold into it.
+- Confirm target browsers (default to Chrome/Chromium). If the user needs Firefox, note differences and ask before proceeding.
+
+### 2) Choose Scaffolding Toolchain (multi-turn)
+
+Ask these in order; use numeric options for each choice. Do not manually scaffold; rely on the selected toolchain CLI.
+
+- Scaffolding toolchain:
+  - 1) Plasmo
+  - 2) WXT
+  - 3) Vite + CRXJS
+- Target directory (absolute/relative path) and project name.
+- Package manager:
+  - 1) pnpm
+  - 2) npm
+  - 3) yarn
+- Basic extension metadata: name, description, author (or confirm to keep CLI defaults).
+
+Then ask toolchain-specific questions **before** running any interactive CLI:
+
+- If Plasmo:
+  - Starter template:
+    - 1) Default starter (React)
+    - 2) Example template from PlasmoHQ/examples (uses `--with-<example>`): `with-vue`, `with-svelte`, `with-env`, `with-tailwindcss`, `with-antd`
+    - 3) Other example (user provides the exact example name, e.g. `with-ai`)
+  - Initial entry files to include (multi-select; maps to `--entry` comma list; omit extensions):
+    - 1) `popup`
+    - 2) `options`
+    - 3) `newtab`
+    - 4) `background`
+    - 5) `content`
+    - 6) `contents/inline`
+    - 7) `contents/overlay`
+  - If using npm, remind the user that npm requires `--` before passing plasmo flags (npm does not forward args).
+- If WXT:
+  - Starter template (maps to `--template`):
+    - 1) `vanilla`
+    - 2) `vue`
+    - 3) `react`
+    - 4) `svelte`
+    - 5) `solid`
+  - Package manager (maps to `--pm`):
+    - 1) `pnpm`
+    - 2) `npm`
+    - 3) `yarn`
+  - Optional: enable debug mode (maps to `--debug`)
+  - Optional: manifest target for future `wxt` commands: MV3 (default, `--mv3`) or MV2 (`--mv2`)
+- If Vite + CRXJS:
+  - Framework template (maps to `--template`):
+    - 1) Vanilla: `vanilla` (JS) / `vanilla-ts` (TS)
+    - 2) React: `react` (JS) / `react-ts` (TS)
+    - 3) Vue: `vue` (JS) / `vue-ts` (TS)
+    - 4) Svelte: `svelte` (JS) / `svelte-ts` (TS)
+    - 5) Solid: `solid` (JS) / `solid-ts` (TS)
+  - Language:
+    - 1) TypeScript (recommended)
+    - 2) JavaScript
+
+- Confirm whether to proceed with an interactive CLI run now:
+  - 1) Yes, run the CLI and answer prompts
+  - 2) No, ask more questions first
+
+Use toast for user-facing prompts and avoid alert when generating UI scaffolding.
+
+### 3) Scaffold via Official CLI (interactive)
+
+- Treat these CLIs as interactive. Before running them, summarize the expected answers with the user and confirm.
+- Run the CLI in a TTY. If an unexpected prompt appears, stop and ask the user before answering.
+
+Toolchain commands (examples):
+
+- Plasmo:
+  - Default: `pnpm create plasmo "<name>" --entry=options,newtab,contents/inline`
+  - Example: `pnpm create plasmo "<name>" --entry=options,newtab,contents/inline --with-vue`
+  - NPM (note `--`): `npm create plasmo "<name>" -- --entry=options,newtab,contents/inline --with-vue`
+- WXT:
+  - `npx wxt@latest init "<dir>" --template react --pm pnpm`
+- Vite + CRXJS:
+  - Always include `@latest` (avoid cached old versions)
+  - `npm create crxjs@latest "<dir>" -- --template react-ts`
+
+### 4) Verify & Minimal Wiring
+
+- Install dependencies with the chosen package manager.
+- Run the toolchain's build (and dev if available) to ensure it produces a working extension output.
+- Confirm MV3 by default; if the user explicitly requests MV2, ask again and only proceed if the chosen toolchain supports it.
+- Keep Chrome content scripts as classic scripts; avoid ES module imports unless the manifest explicitly loads them as modules.
+
+### 5) Initialize Git and Commit
+
+- Initialize git in the project root if not already initialized by the CLI.
+- Ensure `.gitignore` exists and matches the chosen tooling.
+- Create `AGENTS.md` in the project root with the rule: `- Run build after every change.`
+- Commit all files with a clear message like "chore: initialize extension project".
+
+### 6) Hand-off
+
+- Provide quick start commands (read from the generated `package.json` scripts instead of guessing).
+- Explain where to edit manifest, background/service worker, content scripts, and UI pages as generated by the chosen toolchain.

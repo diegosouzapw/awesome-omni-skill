@@ -140,7 +140,7 @@ Works with:
 
 4. **Include Feature Status** (Hybrid Approach)
    - Brief status line in every summary
-   - Detailed status on demand with `/speckit.status`
+   - Detailed status on demand with `/speckit-status`
    - See "Feature Status Tracking" section below
 
 5. **Offer Feedback Options**
@@ -184,7 +184,7 @@ Use this structured format after ANY SDD command completes:
 **Your options:** [A] Proceed [B] Modify [C] Explain more [D] Show full status
 ```
 
-### Example: Enhanced Summarization After \`/speckit.specify\`
+### Example: Enhanced Summarization After \`/speckit-specify\`
 
 \`\`\`
 ## ✅ Specify Completed - Here's What Just Happened
@@ -207,7 +207,7 @@ Use this structured format after ANY SDD command completes:
 - **GDPR compliance for user data** - How to avoid: Review data retention and user deletion requirements
 
 ### 🔄 What This Enables Next
-- **Option 1:** Run \`/speckit.plan\` to design technical implementation - Best if: Requirements look good
+- **Option 1:** Run \`/speckit-plan\` to design technical implementation - Best if: Requirements look good
 - **Option 2:** Modify specify.md - Best if: You need to adjust requirements or add features
 
 📊 **Feature Status:** user-authentication (Specified) → Next: profile-management
@@ -235,7 +235,7 @@ Only skip the summarization step when:
 
 ### Hybrid Approach
 
-After every SDD command, include a **brief feature status line** in the summary. Provide **detailed status on demand** with `/speckit.status`.
+After every SDD command, include a **brief feature status line** in the summary. Provide **detailed status on demand** with `/speckit-status`.
 
 ### Brief Status Line Format
 
@@ -260,7 +260,7 @@ Include this at the end of every summary:
 
 ### Detailed Status Dashboard
 
-When user requests full status (option D) or runs `/speckit.status`, show:
+When user requests full status (option D) or runs `/speckit-status`, show:
 
 ```
 📊 Project Feature Status Dashboard
@@ -409,12 +409,12 @@ user-authentication
 ### Integration with Workflows
 
 **For Greenfield Projects:**
-- After `/speckit.specify`, ask if there are multiple features
+- After `/speckit-specify`, ask if there are multiple features
 - If yes, list them and track progress through each
 - Show status after each command
 
 **For Brownfield Projects:**
-- After `/speckit.reverse-engineer`, create feature list from discovered functionality
+- After `/speckit-reverse-engineer`, create feature list from discovered functionality
 - Track new features separately from existing documented features
 - Show integration impact on status
 
@@ -477,9 +477,9 @@ For complete feature management guidance, see [Feature Management Guide](referen
 ### Greenfield (New Projects)
 
 \`\`\`
-specify init → /speckit.constitution → [SUMMARIZE] →
-/speckit.specify → [SUMMARIZE] → /speckit.plan → [SUMMARIZE] →
-/speckit.tasks → [SUMMARIZE] → /speckit.implement
+specify init → /speckit-constitution → [SUMMARIZE] →
+/speckit-specify → [SUMMARIZE] → /speckit-plan → [SUMMARIZE] →
+/speckit-tasks → [SUMMARIZE] → /speckit-implement
 \`\`\`
 
 **Full details:** [Greenfield Workflow](references/greenfield.md)
@@ -487,11 +487,11 @@ specify init → /speckit.constitution → [SUMMARIZE] →
 ### Brownfield (Existing Projects)
 
 \`\`\`
-specify init --here → /speckit.brownfield → [SUMMARIZE] →
-/speckit.analyze-codebase → [SUMMARIZE] →
-/speckit.reverse-engineer → [SUMMARIZE] → /speckit.specify → [SUMMARIZE] →
-/speckit.integration-plan → [SUMMARIZE] → /speckit.tasks → [SUMMARIZE] →
-/speckit.implement
+specify init --here → /speckit-brownfield → [SUMMARIZE] →
+/speckit-analyze-codebase → [SUMMARIZE] →
+/speckit-reverse-engineer → [SUMMARIZE] → /speckit-specify → [SUMMARIZE] →
+/speckit-integration-plan → [SUMMARIZE] → /speckit-tasks → [SUMMARIZE] →
+/speckit-implement
 \`\`\`
 
 **Full details:** [Brownfield Workflow](references/brownfield.md)
@@ -524,26 +524,26 @@ specify check                       # Verify installation
 
 ### Greenfield Workflow
 \`\`\`
-/speckit.constitution               # Project principles → SUMMARIZE
-/speckit.specify                    # Define requirements → SUMMARIZE
-/speckit.plan                       # Technical planning → SUMMARIZE
-/speckit.tasks                      # Break down tasks → SUMMARIZE
-/speckit.implement                  # Execute
+/speckit-constitution               # Project principles → SUMMARIZE
+/speckit-specify                    # Define requirements → SUMMARIZE
+/speckit-plan                       # Technical planning → SUMMARIZE
+/speckit-tasks                      # Break down tasks → SUMMARIZE
+/speckit-implement                  # Execute
 \`\`\`
 
 ### Brownfield Workflow
 \`\`\`
-/speckit.brownfield                 # Analyze existing code → SUMMARIZE
-/speckit.analyze-codebase          # Deep analysis & constitution → SUMMARIZE
-/speckit.reverse-engineer          # Document existing features → SUMMARIZE
-/speckit.integration-plan          # Plan new feature integration → SUMMARIZE
+/speckit-brownfield                 # Analyze existing code → SUMMARIZE
+/speckit-analyze-codebase          # Deep analysis & constitution → SUMMARIZE
+/speckit-reverse-engineer          # Document existing features → SUMMARIZE
+/speckit-integration-plan          # Plan new feature integration → SUMMARIZE
 \`\`\`
 
 ### Optional Enhancement Commands
 \`\`\`
-/speckit.clarify                   # Clarify ambiguous requirements
-/speckit.analyze                   # Cross-artifact consistency check
-/speckit.checklist                 # Generate quality checklists
+/speckit-clarify                   # Clarify ambiguous requirements
+/speckit-analyze                   # Cross-artifact consistency check
+/speckit-checklist                 # Generate quality checklists
 \`\`\`
 
 ## Analysis Scripts
@@ -618,7 +618,7 @@ python3 ~/.claude/skills/sdd/scripts/analyze-edge-cases.py
 **Output:** JSON with coverage breakdown, uncovered edge case details
 
 **When to Use:**
-These scripts are automatically invoked during \`/speckit.analyze\` to provide deep consistency validation. They help identify:
+These scripts are automatically invoked during \`/speckit-analyze\` to provide deep consistency validation. They help identify:
 - Requirements without task coverage
 - Success criteria without verification
 - Edge cases that need test coverage
@@ -626,10 +626,10 @@ These scripts are automatically invoked during \`/speckit.analyze\` to provide d
 
 ### Validation Commands (Brownfield)
 \`\`\`
-/speckit.validate-reverse-engineering  # Verify spec accuracy
-/speckit.coverage-check                # Check documentation coverage
-/speckit.validate-constitution         # Verify constitution consistency
-/speckit.trace [feature]               # Map specs to code
+/speckit-validate-reverse-engineering  # Verify spec accuracy
+/speckit-coverage-check                # Check documentation coverage
+/speckit-validate-constitution         # Verify constitution consistency
+/speckit-trace [feature]               # Map specs to code
 \`\`\`
 
 ## Detailed Documentation
