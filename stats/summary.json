@@ -1,18 +1,18 @@
 {
-  "total_skills": 10000,
+  "total_skills": 11920,
   "categories": {
-    "development": 4405,
-    "tools": 1814,
-    "data-ai": 1620,
-    "devops": 718,
-    "testing-security": 497,
-    "design": 342,
-    "documentation": 188,
-    "business": 164,
-    "product": 140,
-    "content-media": 90,
-    "communication": 21,
-    "uncategorized": 1
+    "development": 5255,
+    "tools": 2094,
+    "data-ai": 1965,
+    "devops": 842,
+    "testing-security": 589,
+    "design": 442,
+    "documentation": 235,
+    "product": 188,
+    "business": 175,
+    "content-media": 105,
+    "communication": 27,
+    "uncategorized": 3
   },
   "top_repos": [
     {
@@ -57,12 +57,12 @@
     },
     {
       "repo": "majiayu000/claude-skill-registry",
-      "count": 1537,
+      "count": 1774,
       "stars": 0
     },
     {
       "repo": "majiayu000/claude-skill-registry-data",
-      "count": 2004,
+      "count": 2211,
       "stars": 0
     },
     {
@@ -72,17 +72,17 @@
     },
     {
       "repo": "oimiragieo/agent-studio",
-      "count": 31,
+      "count": 37,
       "stars": 0
     },
     {
       "repo": "Finimo-Solutions/research",
-      "count": 32,
+      "count": 40,
       "stars": 0
     },
     {
       "repo": "cdalsoniii/brightpath-coder",
-      "count": 11,
+      "count": 18,
       "stars": 0
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "repo": "NeverSight/skills_feed",
-      "count": 411,
+      "count": 498,
       "stars": 0
     },
     {
@@ -116,6 +116,6 @@
       "stars": 0
     }
   ],
-  "last_sync_at": "2026-02-27T13:14:58.454Z",
+  "last_sync_at": "2026-02-27T18:17:15.041Z",
   "sync_mode": "incremental"
 }

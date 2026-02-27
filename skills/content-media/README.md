@@ -1,6 +1,6 @@
 # 📂 content-media
 
-> 90 skills in this category
+> 105 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -60,6 +60,8 @@
 | [ffmpeg](ffmpeg/) | nodays-off | ★ 0 | 48% | L3 | Guide for using FFmpeg - a comprehensive multimedia framework for video/audio en… |
 | [image_generation](image_generation/) | majiayu000 | ★ 0 | 48% | L3 | AI图像生成与编辑能力，基于 Nano Banana (Gemini Image) 实现文生图、图生图、图像编辑。适用于创意设计、营销素材、社交媒体内容、演示文… |
 | [nano-image-generate](nano-image-generate/) | fancyboi999 | ★ 0 | 48% | L3 | Generate images using Nano Banana (Flash) or Nano Banana Pro. Use 'flash' for sp… |
+| [whisper-transcription](whisper-transcription/) | majiayu000 | ★ 0 | 48% | L3 | Transcribe audio and video files to text using OpenAI Whisper. Use when: convert… |
+| [whisper-transcription](whisper-transcription/) | guia-matthieu | ★ 0 | 48% | L3 | Transcribe audio and video files to text using OpenAI Whisper. Use when: convert… |
 | [instagram-social-media](instagram-social-media/) | rafaelramosdf | ★ 0 | 45% | L3 | Atua como um especialista em social media para Instagram, criando conteúdos alta… |
 | [publish](publish/) | majiayu000 | ★ 0 | 45% | L2 | Draft email and tweet for a new blog post. Reads the latest post from campederse… |
 | [voice-dna-creator](voice-dna-creator/) | NeverSight | ★ 0 | 45% | L2 | Analyze writing samples to create a comprehensive voice DNA profile. Use when th… |
@@ -94,6 +96,19 @@
 | [blog-writing](blog-writing/) | jcanizalez | ★ 0 | 45% | L2 | Write compelling blog posts with proven structure — hook openings, scannable bod… |
 | [content-outlining](content-outlining/) | jcanizalez | ★ 0 | 45% | L2 | Create structured content outlines for articles, blog posts, documentation, and … |
 | [redbook-creator](redbook-creator/) | NeverSight | ★ 0 | 45% | L3 | Use this skill when the user wants to create Xiaohongshu (小红书/RedBook) posts. Tr… |
+| [ffmpeg-usage](ffmpeg-usage/) | ychoi-kr | ★ 0 | 45% | L3 | ffmpeg recipes and best practices: convert, concatenate, merge, resize, compress… |
+| [seo-content](seo-content/) | anorbert-cmyk | ★ 0 | 45% | L3 | Content quality and E-E-A-T assessment with AI citation readiness scoring. Evalu… |
+| [seedance-20](seedance-20/) | NeverSight | ★ 0 | 45% | L3 | Generate and direct cinematic AI videos with Seedance 2.0 (ByteDance/Dreamina/Ji… |
+| [vidu-video](vidu-video/) | openclaw | ★ 0 | 41% | L2 | 使用 Vidu Q3 Pro 模型生成视频。当用户想要文生视频、生成带音频的视频，或提到 vidu 时使用此 skill。 |
+| [image-publisher](image-publisher/) | maoruibin | ★ 0 | 38% | L3 | Upload local images to image hosting services and get accessible URLs. Use this … |
+| [social-media-scheduler](social-media-scheduler/) | openclaw | ★ 0 | 38% | L3 | Generate a full week of social media content for any topic. Outputs platform-opt… |
+| [youtube-shorts-automation](youtube-shorts-automation/) | openclaw | ★ 0 | 38% | L3 | YouTube Shorts 자동 생성 및 업로드 파이프라인. Deevid AI Agent로 이미지→영상(BGM+음성 포함) 생성 후 YouTub… |
+| [stop](stop/) | terrylica | ★ 0 | 38% | L3 | Disable autonomous loop mode immediately. TRIGGERS - ru stop, stop autonomous, d… |
+| [wechat-content-skill](wechat-content-skill/) | CheeMao | ★ 0 | 38% | L3 | 公众号内容创作助手 - 帮助高效采集素材、筛选选题、创作优质文章 |
+| [refresh-content](refresh-content/) | airopshq | ★ 0 | 34% | L2 | Update existing content with fresh information and improvements. |
+| [veo](veo/) | MagicWifiMoney | ★ 0 | 32% | L2 | Generate video using Google Veo (Veo 3.1 / Veo 3.0). Use when: creating video cl… |
+| [imagegen-gemini](imagegen-gemini/) | bhaidar | ★ 0 | 32% | L3 | Generate/edit images via Gemini API (Nano Banana). Triggers: generate image, cre… |
+| [extract-page](extract-page/) | majiayu000 | ★ 0 | 28% | L3 | Extract a single page from a PDF as a PNG image for quick preview. |
 
 ---
 

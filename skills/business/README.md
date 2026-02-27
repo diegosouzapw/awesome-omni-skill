@@ -1,6 +1,6 @@
 # 📂 business
 
-> 164 skills in this category
+> 175 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -112,6 +112,8 @@
 | [programmatic-seo](programmatic-seo/) | systemifyautomation | ★ 0 | 48% | L2 | When the user wants to create SEO-driven pages at scale using templates and data… |
 | [programmatic-seo](programmatic-seo/) | whyujjwal | ★ 0 | 48% | L2 | When the user wants to create SEO-driven pages at scale using templates and data… |
 | [market-sizing-analysis](market-sizing-analysis/) | harshahosur81 | ★ 0 | 48% | L2 | This skill should be used when the user asks to "calculate TAM", "determine SAM"… |
+| [analytics-tracking](analytics-tracking/) | Jackiexiao | ★ 0 | 48% | L3 | （中文）When the user wants to set up, improve, or audit analytics tracking and meas… |
+| [analytics-tracking](analytics-tracking/) | Jackiexiao | ★ 0 | 48% | L3 | （中文）When the user wants to set up, improve, or audit analytics tracking and meas… |
 | [content-marketer](content-marketer/) | majiayu000 | ★ 0 | 45% | L2 | Expert in content strategy, SEO-driven storytelling, and developer advocacy. Bri… |
 | [bexio](bexio/) | majiayu000 | ★ 0 | 45% | L3 | Bexio Swiss business software API for managing contacts, quotes/offers, invoices… |
 | [Payment Integration](payment-integration/) | ChatAndBuild | ★ 0 | 45% | L3 | Implement Stripe payment processing for robust, PCI-compliant payment flows incl… |
@@ -166,8 +168,17 @@
 | [u07820-attention-management-architecture-for-personal-finance-management](u07820-attention-management-architecture-for-personal-finance-management/) | zwright8 | ★ 0 | 45% | L2 | Build and operate the "Attention Management Architecture for personal finance ma… |
 | [u08871-ethical-dilemma-navigation-for-marketing-and-storytelling](u08871-ethical-dilemma-navigation-for-marketing-and-storytelling/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Ethical Dilemma Navigation for marketing and storytelling" capabili… |
 | [create-an-asset](create-an-asset/) | w95 | ★ 0 | 45% | L3 | Generate tailored sales assets (landing pages, decks, one-pagers, workflow demos… |
+| [analytics-tracking](analytics-tracking/) | jmead | ★ 0 | 45% | L3 | When the user wants to set up, improve, or audit analytics tracking and measurem… |
+| [hubspot-automation](hubspot-automation/) | DarkThreat74 | ★ 0 | 45% | L2 | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties… |
+| [hubspot-automation](hubspot-automation/) | boisenoise | ★ 0 | 45% | L2 | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties… |
+| [hubspot-automation](hubspot-automation/) | javiertarazon | ★ 0 | 45% | L2 | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties… |
+| [seo-content-optimizer](seo-content-optimizer/) | benjaminreder | ★ 0 | 45% | L3 | Analysiert und optimiert bestehende Ratgeber-Artikel durch DataForSEO-Analyse mi… |
+| [edocode-monthly-accounting](edocode-monthly-accounting/) | YMD7 | ★ 0 | 45% | L3 | EDOCODE 株式会社の毎月の経理処理（証憑ファイル回収）を行うスキル。ユーザーから「EDOCODE の経理処理を始めよう」「EDOCODE の月次精算をお願… |
+| [seo-domination](seo-domination/) | Vibe-Marketer | ★ 0 | 45% | L3 | Complete search visibility command center for SaaS companies. Covers SEO, AEO (A… |
 | [Sales Lead Enrichment](sales-lead-enrichment/) | SixtySecondsApp | ★ 0 | 44% | L2 | All sources consulted with data freshness timestamps |
 | [caching-strategy](caching-strategy/) | yeeehaooo | ★ 0 | 41% | L2 | Define explicit caching strategies for different data access patterns and consis… |
+| [sns-patterns](sns-patterns/) | taiyousan15 | ★ 0 | 19% | L2 | SNS posting patterns and strategy |
+| [startup-go-to-market](startup-go-to-market/) | amo-tech-ai | ★ 0 | 18% | L1 | Merged into go-to-market. Use that skill instead. |
 
 ---
 

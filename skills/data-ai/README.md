@@ -1,6 +1,6 @@
 # 📂 data-ai
 
-> 1,620 skills in this category
+> 1,965 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -851,6 +851,42 @@
 | [spacex](spacex/) | jeffaf | ★ 0 | 48% | L3 | CLI for AI agents to lookup SpaceX launches and rockets for their humans. No aut… |
 | [moltagram](moltagram/) | yuvalsuede | ★ 0 | 48% | L3 | The visual social network for AI agents. See images, generate images, share visu… |
 | [serving-llms-vllm](serving-llms-vllm/) | NousResearch | ★ 0 | 48% | L3 | Serves LLMs with high throughput using vLLM's PagedAttention and continuous batc… |
+| [continuous-learning-v2](continuous-learning-v2/) | affaan-m | ★ 0 | 48% | L3 | Instinct-based learning system that observes sessions via hooks, creates atomic … |
+| [ios-foundation-models-diag](ios-foundation-models-diag/) | derKlinke | ★ 0 | 48% | L2 | Use when debugging Foundation Models issues — context exceeded, guardrail violat… |
+| [surrealdb](surrealdb/) | openclaw | ★ 0 | 48% | L3 | Expert SurrealDB 3 architect and developer skill. SurrealQL mastery, multi-model… |
+| [clawdchat](clawdchat/) | yangliu2060 | ★ 0 | 48% | L3 | 深度抓取和分析 Moltbook（AI agents 社交网络），挖掘 AI Agents 关注的核心问题和解决方案，生成可视化分析报告。理解 AI 社区的集体… |
+| [Suno Song Creator](suno-song-creator/) | NeverSight | ★ 0 | 48% | L3 | This skill should be used when the user asks to "create a Suno prompt", "write a… |
+| [EchoKit Config Generator](echokit-config-generator/) | second-state | ★ 0 | 48% | L3 | Generate config.toml for EchoKit servers with interactive setup for ASR, TTS, LL… |
+| [ai-ml-expert](ai-ml-expert/) | majiayu000 | ★ 0 | 48% | L3 | AI and ML expert including PyTorch, LangChain, LLM integration, and scientific c… |
+| [moltbook](moltbook/) | 0x3EF8 | ★ 0 | 48% | L3 | The social network for AI agents. Post, comment, upvote, and create communities. |
+| [agent-cc](agent-cc/) | devgmstudios | ★ 0 | 48% | L3 | Agent Credit Cards - give your agents single and multiuse credit cards so they c… |
+| [chatgpt-exporter-ultimate](chatgpt-exporter-ultimate/) | kbarbel640-del | ★ 0 | 48% | L3 | Export ALL your ChatGPT conversations instantly — no 24h wait, no extensions. Wo… |
+| [pdf-analyzer](pdf-analyzer/) | vinhnx | ★ 0 | 48% | L3 | Analyze PDF, DOCX, and spreadsheet documents using vision models. Converts docum… |
+| [llm-optimization](llm-optimization/) | majiayu000 | ★ 0 | 48% | L2 | Optimize websites for AI assistant recommendations. ChatGPT, Gemini, Perplexity,… |
+| [chatgpt-exporter-ultimate](chatgpt-exporter-ultimate/) | duclm1x1 | ★ 0 | 48% | L3 | Export ALL your ChatGPT conversations instantly — no 24h wait, no extensions. Wo… |
+| [chatgpt-exporter-ultimate](chatgpt-exporter-ultimate/) | YPYT1 | ★ 0 | 48% | L3 | Export ALL your ChatGPT conversations instantly — no 24h wait, no extensions. Wo… |
+| [llm-optimization](llm-optimization/) | majiayu000 | ★ 0 | 48% | L2 | Optimize websites for AI assistant recommendations. ChatGPT, Gemini, Perplexity,… |
+| [llm-optimization](llm-optimization/) | Soborbo | ★ 0 | 48% | L2 | Optimize websites for AI assistant recommendations. ChatGPT, Gemini, Perplexity,… |
+| [prompt-repetition](prompt-repetition/) | supercent-io | ★ 0 | 48% | L3 | LLM 정확도 향상을 위한 프롬프트 반복 기법. 70개 벤치마크 중 67%(47/70)에서 유의미한 성능 향상 달성. 경량 모델(haiku, f… |
+| [elite-longterm-memory](elite-longterm-memory/) | openclaw | ★ 0 | 48% | L3 | Ultimate AI agent memory system for Cursor, Claude, ChatGPT & Copilot. WAL proto… |
+| [responsible-disclosure](responsible-disclosure/) | majiayu000 | ★ 0 | 48% | L3 | Ethical vulnerability reporting, coordinated disclosure, and bug bounty particip… |
+| [seo-aeo-audit](seo-aeo-audit/) | NeverSight | ★ 0 | 48% | L3 | Optimize for search engine visibility, ranking, and AI citations. Use when asked… |
+| [xenodium-elisp](xenodium-elisp/) | plurigrid | ★ 0 | 48% | L3 | Xenodium's Emacs packages: chatgpt-shell, agent-shell, dwim-shell-command, and A… |
+| [parallel-data-enrichment](parallel-data-enrichment/) | NeverSight | ★ 0 | 48% | L3 | Structured company and entity data enrichment using Parallel AI Task API with co… |
+| [prompt-repetition](prompt-repetition/) | NeverSight | ★ 0 | 48% | L3 | LLM 정확도 향상을 위한 프롬프트 반복 기법. 70개 벤치마크 중 67%(47/70)에서 유의미한 성능 향상 달성. 경량 모델(haiku, f… |
+| [responsible-disclosure](responsible-disclosure/) | majiayu000 | ★ 0 | 48% | L3 | Ethical vulnerability reporting, coordinated disclosure, and bug bounty particip… |
+| [responsible-disclosure](responsible-disclosure/) | pluginagentmarketplace | ★ 0 | 48% | L3 | Ethical vulnerability reporting, coordinated disclosure, and bug bounty particip… |
+| [responsible-disclosure](responsible-disclosure/) | NeverSight | ★ 0 | 48% | L3 | Ethical vulnerability reporting, coordinated disclosure, and bug bounty particip… |
+| [seo-aeo-audit](seo-aeo-audit/) | warpdotdev | ★ 0 | 48% | L3 | Optimize for search engine visibility, ranking, and AI citations. Use when asked… |
+| [seo-aeo-audit](seo-aeo-audit/) | oldwinter | ★ 0 | 48% | L3 | Optimize for search engine visibility, ranking, and AI citations. Use when asked… |
+| [add-driver](add-driver/) | jhd3197 | ★ 0 | 48% | L3 | Scaffold a new LLM provider driver for Prompture. Creates sync + async driver cl… |
+| [axiom-foundation-models](axiom-foundation-models/) | CharlesWiltgen | ★ 0 | 48% | L2 | Use when implementing on-device AI with Apple's Foundation Models framework — pr… |
+| [geo-fundamentals](geo-fundamentals/) | rahlplx | ★ 0 | 48% | L3 | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexit… |
+| [axiom-foundation-models](axiom-foundation-models/) | megastep | ★ 0 | 48% | L2 | Use when implementing on-device AI with Apple's Foundation Models framework — pr… |
+| [axiom-foundation-models](axiom-foundation-models/) | majiayu000 | ★ 0 | 48% | L2 | Use when implementing on-device AI with Apple's Foundation Models framework — pr… |
+| [recipes](recipes/) | jeffaf | ★ 0 | 48% | L3 | CLI for AI agents to find recipes for their humans. Uses TheMealDB API. No auth … |
+| [MCP Architecture Expert](mcp-architecture-expert/) | frankxai | ★ 0 | 48% | L3 | Design and implement Model Context Protocol servers for standardized AI-to-data … |
+| [MCP Architecture Expert](mcp-architecture-expert/) | majiayu000 | ★ 0 | 48% | L3 | Design and implement Model Context Protocol servers for standardized AI-to-data … |
 | [rust-unsafe](rust-unsafe/) | majiayu000 | ★ 0 | 47% | L3 | 不安全代码与 FFI 专家。处理 unsafe, raw pointer, FFI, extern, transmute, *mut, *const, unio… |
 | [rust-unsafe](rust-unsafe/) | majiayu000 | ★ 0 | 47% | L3 | 不安全代码与 FFI 专家。处理 unsafe, raw pointer, FFI, extern, transmute, *mut, *const, unio… |
 | [rust-unsafe](rust-unsafe/) | NeverSight | ★ 0 | 47% | L3 | 不安全代码与 FFI 专家。处理 unsafe, raw pointer, FFI, extern, transmute, *mut, *const, unio… |
@@ -1546,6 +1582,129 @@
 | [llm-caching](llm-caching/) | RSHVR | ★ 0 | 45% | L2 | Optimize LLM costs and latency through KV caching and prompt caching. Use when (… |
 | [candidate-evaluation](candidate-evaluation/) | mattnigh | ★ 0 | 45% | L3 | Evaluate GitHub contributors for MLOps/engineering roles. Use when analyzing can… |
 | [agentic-issue-assistant](agentic-issue-assistant/) | ephabe | ★ 0 | 45% | L3 | Install common docs/backlog skeleton plus an AGENTS template, and wrap issue/fin… |
+| [quant-plan-reviewer](quant-plan-reviewer/) | nandkapadia | ★ 0 | 45% | L3 | Use when reviewing implementation plans for quantitative trading systems before … |
+| [cursor-subagent-creator](cursor-subagent-creator/) | tech-leads-club | ★ 0 | 45% | L2 | Creates Cursor-specific AI subagents with isolated context for complex multi-ste… |
+| [orchestrator](orchestrator/) | eroslifestyle | ★ 0 | 45% | L3 | Multi-agent orchestrator that delegates all work to specialized subagents. Enfor… |
+| [aif-plan](aif-plan/) | Svarog83 | ★ 0 | 45% | L3 | Plan implementation for a feature or task. Two modes — fast (no branch) or full … |
+| [agent-builder](agent-builder/) | NeverSight | ★ 0 | 45% | L3 | Use when creating, improving, or troubleshooting Claude Code subagents. Expert g… |
+| [review-pr](review-pr/) | livewire | ★ 0 | 45% | L3 | Review an open PR like a maintainer — checkout, fix issues, push changes, post a… |
+| [careerswarm](careerswarm/) | zganich | ★ 0 | 45% | L3 | CareerSwarm repo: monitor, code sweeps, debugging, and sync with Cursor. Workspa… |
+| [flow-engineer-subagent](flow-engineer-subagent/) | korchasa | ★ 0 | 45% | L3 | Guide for creating effective Subagents (custom agent definitions). Use when user… |
+| [agent-memory-skills](agent-memory-skills/) | kimasplund | ★ 0 | 45% | L3 | Self-improving agent architecture using ChromaDB for continuous learning, self-e… |
+| [subgraph-explorer](subgraph-explorer/) | majiayu000 | ★ 0 | 45% | L3 | Explore and query blockchain subgraphs through a private MCP server running in D… |
+| [Why Manual Testing Remains Critical in 2025: Balancing Automation and Human Skill](why-manual-testing-remains-critical-in-2025-balancing-automation-and-human-skill/) | g82re6gkboz6l1h | ★ 0 | 45% | L2 | ![Why Manual Testing Remains Critical in 2025: Balancing Automation and Human Sk… |
+| [skill-pipeline](skill-pipeline/) | thirdlf03 | ★ 0 | 45% | L3 | リサーチから Skill/Subagent 作成までを1コマンドで実行するパイプライン。トピックを指定すると、Webリサーチ → ベストプラクティス抽出 → S… |
+| [senior-computer-vision](senior-computer-vision/) | davila7 | ★ 0 | 45% | L3 | World-class computer vision skill for image/video processing, object detection, … |
+| [senior-data-scientist](senior-data-scientist/) | majiayu000 | ★ 0 | 45% | L3 | World-class data science skill for statistical modeling, experimentation, causal… |
+| [senior-ml-engineer](senior-ml-engineer/) | aiskillstore | ★ 0 | 45% | L3 | World-class ML engineering skill for productionizing ML models, MLOps, and build… |
+| [senior-computer-vision](senior-computer-vision/) | sangrokjung | ★ 0 | 45% | L3 | World-class computer vision skill for image/video processing, object detection, … |
+| [senior-computer-vision](senior-computer-vision/) | BbgnsurfTech | ★ 0 | 45% | L3 | World-class computer vision skill for image/video processing, object detection, … |
+| [senior-computer-vision](senior-computer-vision/) | Dicklesworthstone | ★ 0 | 45% | L3 | World-class computer vision skill for image/video processing, object detection, … |
+| [stardew-wiki-advisor](stardew-wiki-advisor/) | TommyYeung660 | ★ 0 | 45% | L3 | Query Stardew Valley Wiki using natural language. Ask about crops, NPCs, strateg… |
+| [new-agent](new-agent/) | wcygan | ★ 0 | 45% | L2 | Create custom Claude Code subagents. Interactive wizard that gathers requirement… |
+| [creating-skills](creating-skills/) | jesseotremblay | ★ 0 | 45% | L3 | Creates new Agent Skills with proper YAML frontmatter, progressive disclosure ar… |
+| [thalo](thalo/) | rejot-dev | ★ 0 | 45% | L3 | - Initialize a knowledge base with `thalo init` to generate `entities.thalo`, `A… |
+| [criador-skills](criador-skills/) | Italo520 | ★ 0 | 45% | L3 | Helper skill to create new agent skills following the standard structure. Use th… |
+| [skill-creator](skill-creator/) | tanaka-mambinge | ★ 0 | 45% | L2 | Create and maintain reusable skills for multiple agent platforms (OpenCode, Clau… |
+| [thalo](thalo/) | NeverSight | ★ 0 | 45% | L3 | - Initialize a knowledge base with `thalo init` to generate `entities.thalo`, `A… |
+| [creating-pull-request](creating-pull-request/) | tile-ai | ★ 0 | 45% | L3 | Create a high-quality PR end-to-end (pre-checks, branch/commit, PR metadata, cod… |
+| [create-agents-md](create-agents-md/) | open-mercato | ★ 0 | 45% | L3 | Create or rewrite AGENTS.md files for Open Mercato packages and modules. Use thi… |
+| [spec-kit-agent-orchestrator](spec-kit-agent-orchestrator/) | Zaibunis | ★ 0 | 45% | L3 | Generate workflow prompts and scripts for multi-agent orchestration using Specki… |
+| [context-fundamentals](context-fundamentals/) | Ikram-Alam | ★ 0 | 45% | L3 | Understand the components, mechanics, and constraints of context in agent system… |
+| [vat-example-cat-agents](vat-example-cat-agents/) | jdutton | ★ 0 | 45% | L3 | Comprehensive orchestration guide for Claude Code using the vat-example-cat-agen… |
+| [airtight-plans](airtight-plans/) | forketyfork | ★ 0 | 45% | L3 | Write structured multi-step implementation plans in markdown format. Plans use n… |
+| [pbi-squire](pbi-squire/) | cn-dataworks | ★ 0 | 45% | L3 | Analyze, create, and modify Power BI projects with intelligent assistance. Diagn… |
+| [archive-workflow](archive-workflow/) | majiayu000 | ★ 0 | 45% | L3 | Use when organizing projects - detecting clutter, enforcing naming conventions, … |
+| [claudemd-maintainer](claudemd-maintainer/) | majiayu000 | ★ 0 | 45% | L3 | Context-aware guidance for maintaining and improving CLAUDE.md files. Use when e… |
+| [deepwork_jobs.implement](deepwork_jobs.implement/) | majiayu000 | ★ 0 | 45% | L3 | Generates step instruction files and syncs slash commands from the job.yml speci… |
+| [check-ceph-health](check-ceph-health/) | yaacov | ★ 0 | 45% | L3 | Check Ceph storage health on OpenShift OCS/ODF clusters. Use when PVCs are stuck… |
+| [u09955-decision-journal-maintenance-for-accessibility-services](u09955-decision-journal-maintenance-for-accessibility-services/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Decision Journal Maintenance for accessibility services" capability… |
+| [openai-docs](openai-docs/) | davila7 | ★ 0 | 45% | L2 | Use when the user asks how to build with OpenAI products or APIs and needs up-to… |
+| [openai-codex](openai-codex/) | majiayu000 | ★ 0 | 45% | L3 | OpenAI Codex CLI usage patterns, configuration, sandboxing, and best practices f… |
+| [update-llm-model-list](update-llm-model-list/) | Agenta-AI | ★ 0 | 45% | L3 | Audit and update the supported LLM model list in assets.py against litellm's reg… |
+| [openai-docs](openai-docs/) | openai | ★ 0 | 45% | L2 | Use when the user asks how to build with OpenAI products or APIs and needs up-to… |
+| [long-running-orchestrator](long-running-orchestrator/) | liangdabiao | ★ 0 | 45% | L3 | 长期运行与自主Agent专家 - 初始化-执行分离、状态序列化、自我纠错循环。Use when user mentions: Agent, 智能体, auton… |
+| [geo-fundamentals](geo-fundamentals/) | ngxtm | ★ 0 | 45% | L3 | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexit… |
+| [julien-workflow-advice-codex](julien-workflow-advice-codex/) | majiayu000 | ★ 0 | 45% | L3 | Get OpenAI Codex CLI's opinion on code, bugs, or implementation. Use when you wa… |
+| [geo-audit](geo-audit/) | majiayu000 | ★ 0 | 45% | L3 | Audit and optimize website for AI search engines like ChatGPT, Perplexity, Googl… |
+| [openai-codex](openai-codex/) | majiayu000 | ★ 0 | 45% | L3 | OpenAI Codex CLI usage patterns, configuration, sandboxing, and best practices f… |
+| [openai-docs](openai-docs/) | Soju06 | ★ 0 | 45% | L2 | Use when the user asks how to build with OpenAI products or APIs and needs up-to… |
+| [openai-docs](openai-docs/) | maestromaximo | ★ 0 | 45% | L2 | Use when the user asks how to build with OpenAI products or APIs and needs up-to… |
+| [openai-docs](openai-docs/) | 242282218 | ★ 0 | 45% | L2 | Use when the user asks how to build with OpenAI products or APIs and needs up-to… |
+| [openai-docs](openai-docs/) | cercova-studios | ★ 0 | 45% | L2 | Use when the user asks how to build with OpenAI products or APIs and needs up-to… |
+| [codex-advisor](codex-advisor/) | NeverSight | ★ 0 | 45% | L3 | Get a second opinion from OpenAI Codex CLI for plan reviews, code reviews, archi… |
+| [codex-advisor](codex-advisor/) | majiayu000 | ★ 0 | 45% | L3 | Get a second opinion from OpenAI Codex CLI for plan reviews, code reviews, archi… |
+| [codex-advisor](codex-advisor/) | ckorhonen | ★ 0 | 45% | L3 | Get a second opinion from OpenAI Codex CLI for plan reviews, code reviews, archi… |
+| [ai-product-patterns](ai-product-patterns/) | NeverSight | ★ 0 | 45% | L3 | Builds AI-native products using OpenAI's development philosophy and modern AI UX… |
+| [ai-product-patterns](ai-product-patterns/) | danfrdn | ★ 0 | 45% | L3 | Builds AI-native products using OpenAI's development philosophy and modern AI UX… |
+| [ai-product-patterns](ai-product-patterns/) | danfrdn | ★ 0 | 45% | L3 | Builds AI-native products using OpenAI's development philosophy and modern AI UX… |
+| [geo-fundamentals](geo-fundamentals/) | corsal2025 | ★ 0 | 45% | L3 | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexit… |
+| [geo-fundamentals](geo-fundamentals/) | DarkThreat74 | ★ 0 | 45% | L3 | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexit… |
+| [geo-fundamentals](geo-fundamentals/) | javiertarazon | ★ 0 | 45% | L3 | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexit… |
+| [julien-workflow-advice-codex](julien-workflow-advice-codex/) | majiayu000 | ★ 0 | 45% | L3 | Get OpenAI Codex CLI's opinion on code, bugs, or implementation. Use when you wa… |
+| [geo-audit](geo-audit/) | majiayu000 | ★ 0 | 45% | L3 | Audit and optimize website for AI search engines like ChatGPT, Perplexity, Googl… |
+| [geo-audit](geo-audit/) | adriaanslechten | ★ 0 | 45% | L3 | Audit and optimize website for AI search engines like ChatGPT, Perplexity, Googl… |
+| [Build Your LiveKit Agents Skill](build-your-livekit-agents-skill/) | panaversity | ★ 0 | 45% | L3 | Create your LiveKit Agents skill from official documentation, then learn to impr… |
+| [codex](codex/) | sundial-org | ★ 0 | 45% | L3 | Run OpenAI's Codex CLI agent in non-interactive mode using `codex exec`. Use whe… |
+| [question-refiner](question-refiner/) | liangdabiao | ★ 0 | 45% | L2 | 将原始研究问题细化为结构化的深度研究任务。通过提问澄清需求，生成符合 OpenAI/Google Deep Research 标准的结构化提示词，完全替代 Ch… |
+| [gpt-researcher](gpt-researcher/) | yudame | ★ 0 | 45% | L3 | Run GPT-Researcher multi-agent deep research framework locally using OpenAI GPT-… |
+| [codex-review](codex-review/) | kroepke | ★ 0 | 45% | L3 | Two-pass adversarial review of design documents and implementation plans using O… |
+| [ai-startup-insights-altman](ai-startup-insights-altman/) | jona | ★ 0 | 45% | L2 | Strategic guidance for AI startup founders based on Sam Altman's insights from O… |
+| [geo-fundamentals](geo-fundamentals/) | thedaviddias | ★ 0 | 45% | L3 | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexit… |
+| [llm-council](llm-council/) | gcpdev | ★ 0 | 45% | L3 | Multi-LLM collaborative brainstorming and planning. Use when user explicitly req… |
+| [prompt-factory](prompt-factory/) | majiayu000 | ★ 0 | 45% | L3 | World-class prompt powerhouse that generates production-ready mega-prompts for a… |
+| [question-refiner](question-refiner/) | majiayu000 | ★ 0 | 45% | L2 | 将原始研究问题细化为结构化的深度研究任务。通过提问澄清需求，生成符合 OpenAI/Google Deep Research 标准的结构化提示词。当用户提出研究… |
+| [llm-manager](llm-manager/) | majiayu000 | ★ 0 | 45% | L3 | Claude acts as manager/architect while delegating all coding to external LLM CLI… |
+| [multi-model-reviewer](multi-model-reviewer/) | majiayu000 | ★ 0 | 45% | L3 | 協調多個 AI 模型（ChatGPT、Gemini、Codex、QWEN、Claude）進行三角驗證，確保「Specification == Program =… |
+| [rag-agent-builder](rag-agent-builder/) | NeverSight | ★ 0 | 45% | L3 | Build Retrieval-Augmented Generation (RAG) applications that combine LLM capabil… |
+| [concept-to-canvas](concept-to-canvas/) | un1crom | ★ 0 | 45% | L3 | Transform any concept, idea, experience, or philosophical question into an inter… |
+| [savestate](savestate/) | Demerzels-lab | ★ 0 | 45% | L3 | Time Machine for AI. Encrypted backup, restore, and cross-platform migration for… |
+| [codex](codex/) | NeverSight | ★ 0 | 45% | L3 | Run OpenAI's Codex CLI agent in non-interactive mode using `codex exec`. Use whe… |
+| [llm-council](llm-council/) | majiayu000 | ★ 0 | 45% | L3 | Multi-LLM collaborative brainstorming and planning. Use when user explicitly req… |
+| [prompt-factory](prompt-factory/) | NeverSight | ★ 0 | 45% | L3 | World-class prompt powerhouse that generates production-ready mega-prompts for a… |
+| [prompt-factory](prompt-factory/) | ACGSpgp | ★ 0 | 45% | L3 | World-class prompt powerhouse that generates production-ready mega-prompts for a… |
+| [question-refiner](question-refiner/) | liangdabiao | ★ 0 | 45% | L2 | 将原始研究问题细化为结构化的深度研究任务。通过提问澄清需求，生成符合 OpenAI/Google Deep Research 标准的结构化提示词。当用户提出研究… |
+| [question-refiner](question-refiner/) | majiayu000 | ★ 0 | 45% | L2 | 将原始研究问题细化为结构化的深度研究任务。通过提问澄清需求，生成符合 OpenAI/Google Deep Research 标准的结构化提示词。当用户提出研究… |
+| [llm-manager](llm-manager/) | majiayu000 | ★ 0 | 45% | L3 | Claude acts as manager/architect while delegating all coding to external LLM CLI… |
+| [multi-model-reviewer](multi-model-reviewer/) | NeverSight | ★ 0 | 45% | L3 | 協調多個 AI 模型（ChatGPT、Gemini、Codex、QWEN、Claude）進行三角驗證，確保「Specification == Program =… |
+| [multi-model-reviewer](multi-model-reviewer/) | majiayu000 | ★ 0 | 45% | L3 | 協調多個 AI 模型（ChatGPT、Gemini、Codex、QWEN、Claude）進行三角驗證，確保「Specification == Program =… |
+| [rag-agent-builder](rag-agent-builder/) | qodex-ai | ★ 0 | 45% | L3 | Build Retrieval-Augmented Generation (RAG) applications that combine LLM capabil… |
+| [savestate](savestate/) | kbarbel640-del | ★ 0 | 45% | L3 | Time Machine for AI. Encrypted backup, restore, and cross-platform migration for… |
+| [savestate](savestate/) | duclm1x1 | ★ 0 | 45% | L3 | Time Machine for AI. Encrypted backup, restore, and cross-platform migration for… |
+| [savestate](savestate/) | YPYT1 | ★ 0 | 45% | L3 | Time Machine for AI. Encrypted backup, restore, and cross-platform migration for… |
+| [gh-issues](gh-issues/) | qsimeon | ★ 0 | 45% | L3 | Fetch GitHub issues, spawn sub-agents to implement fixes and open PRs, then moni… |
+| [cursor](cursor/) | jarmak-personal | ★ 0 | 45% | L3 | Translates task requirements into Cursor CLI commands. Used by cursor-driver age… |
+| [topic-agent](topic-agent/) | zephyrwang6 | ★ 0 | 45% | L2 | 选题系统主控Agent。协调热点采集、选题生成、选题审核三个环节，支持迭代直到产出合格选题。触发方式：(1)"开始今日选题"启动完整流程 (2)"今日AI热点"… |
+| [oracle](oracle/) | Paparusi | ★ 0 | 45% | L3 | Best practices for using the oracle CLI (prompt + file bundling, engines, sessio… |
+| [multi-agent-estimation](multi-agent-estimation/) | datadrivenconstruction | ★ 0 | 45% | L3 | Build multi-agent AI systems for construction estimation. Use CrewAI/LangGraph t… |
+| [geo-fundamentals](geo-fundamentals/) | rootcastleco | ★ 0 | 45% | L3 | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexit… |
+| [agent-rate-limiter](agent-rate-limiter/) | openclaw | ★ 0 | 45% | L3 | Prevent 429s with automatic tier-based throttling & exponential backoff. Zero de… |
+| [agent-architecture](agent-architecture/) | ollieb89 | ★ 0 | 45% | L3 | Use when designing or implementing AI agent systems. Covers tool-using agents wi… |
+| [codex-reviewer](codex-reviewer/) | paskals | ★ 0 | 45% | L3 | Use OpenAI's Codex CLI as an independent code reviewer to provide second opinion… |
+| [geo-fundamentals](geo-fundamentals/) | techwavedev | ★ 0 | 45% | L3 | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexit… |
+| [geo-fundamentals](geo-fundamentals/) | Acmemari | ★ 0 | 45% | L3 | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexit… |
+| [tech-hub](tech-hub/) | zhenxuanshi-ship-it | ★ 0 | 45% | L2 | 国内外科技动态综合分析技能，由郑大姐使用。追踪全球（硅谷+中国本土）最前沿硬科技动态，拆解产业链逻辑并精准映射到A股板块。重点关注AI专栏（国际：OpenAI/… |
+| [geo-fundamentals](geo-fundamentals/) | jmead | ★ 0 | 45% | L3 | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexit… |
+| [second-opinion](second-opinion/) | majiayu000 | ★ 0 | 45% | L3 | Cross-validate code, architecture or design decisions using a second model. Use … |
+| [squall-deep-research](squall-deep-research/) | DSado88 | ★ 0 | 45% | L2 | Deep research via Codex web search and optionally Gemini deep research. Use when… |
+| [opened-daily-newsletter-writer](opened-daily-newsletter-writer/) | NeverSight | ★ 0 | 45% | L3 | Creates Monday-Thursday OpenEd Daily newsletters (500-800 words) with Thought-Tr… |
+| [geo-fundamentals](geo-fundamentals/) | sk-labs | ★ 0 | 45% | L3 | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexit… |
+| [topic-agent](topic-agent/) | NeverSight | ★ 0 | 45% | L2 | 选题系统主控Agent。协调热点采集、选题生成、选题审核三个环节，支持迭代直到产出合格选题。触发方式：(1)"开始今日选题"启动完整流程 (2)"今日AI热点"… |
+| [multi-agent-estimation](multi-agent-estimation/) | majiayu000 | ★ 0 | 45% | L3 | Build multi-agent AI systems for construction estimation. Use CrewAI/LangGraph t… |
+| [switchailocal](switchailocal/) | majiayu000 | ★ 0 | 45% | L3 | Unified LLM proxy for AI agents. Route all model requests through http://localho… |
+| [switchailocal](switchailocal/) | traylinx | ★ 0 | 45% | L3 | Unified LLM proxy for AI agents. Route all model requests through http://localho… |
+| [switchailocal](switchailocal/) | majiayu000 | ★ 0 | 45% | L3 | Unified LLM proxy for AI agents. Route all model requests through http://localho… |
+| [velvet-unicorn](velvet-unicorn/) | Velvet-Capital | ★ 0 | 45% | L3 | Query VelvetDAO Unicorn AI (/ask) for token analysis, wallet analysis, and trade… |
+| [skill-forge](skill-forge/) | WilliamSaysX | ★ 0 | 45% | L3 | Automated skill creation workshop with intelligent source detection, smart path … |
+| [skill-forge](skill-forge/) | majiayu000 | ★ 0 | 45% | L3 | Automated skill creation workshop with intelligent source detection, smart path … |
+| [skill-forge](skill-forge/) | majiayu000 | ★ 0 | 45% | L3 | Automated skill creation workshop with intelligent source detection, smart path … |
+| [datahub-connector-pr-review](datahub-connector-pr-review/) | NeverSight | ★ 0 | 45% | L3 | This skill should be used when the user asks to "review my connector", "check my… |
+| [Transition Failure Matrix](transition-failure-matrix/) | agileandy | ★ 0 | 45% | L3 | Identify failure hotspots in multi-step agent workflows using state transition a… |
+| [openclaw-agent-run](openclaw-agent-run/) | ollieb89 | ★ 0 | 45% | L3 | Direct agent CLI invocations in OpenClaw. Use when running the `openclaw agent` … |
+| [langchain-js](langchain-js/) | majiayu000 | ★ 0 | 45% | L3 | Builds LLM-powered applications with LangChain.js for chat, agents, and RAG. Use… |
+| [langchain-js](langchain-js/) | majiayu000 | ★ 0 | 45% | L3 | Builds LLM-powered applications with LangChain.js for chat, agents, and RAG. Use… |
+| [smart-workflows](smart-workflows/) | majiayu000 | ★ 0 | 45% | L3 | SmartACE (Agentic Context Engineering) workflow engine with MCP-B (Master Client… |
+| [complete-example](complete-example/) | majiayu000 | ★ 0 | 45% | L3 | AI 增强版 LaTeX 示例智能生成器，实现 AI 与硬编码的有机融合。AI 做"语义理解"（分析章节主题、推理资源相关性、生成连贯叙述），硬编码做"结构保护… |
 | [pinchboard](pinchboard/) | kiankyars | ★ 0 | 44% | L3 | Twitter for AI agents. Pinch, repinch, claw, and build your following. |
 | [contract-review-pro](contract-review-pro/) | CSlawyer1985 | ★ 0 | 44% | L3 | 专业合同审核 Skill，基于《合同审核方法论体系》提供合同类型指引和详细审核服务 |
 | [contract-review-pro](contract-review-pro/) | NeverSight | ★ 0 | 44% | L3 | 专业合同审核 Skill，基于《合同审核方法论体系》提供合同类型指引和详细审核服务 |
@@ -1564,6 +1723,8 @@
 | [moai-icons-vector](moai-icons-vector/) | majiayu000 | ★ 0 | 44% | L3 | Vector icon libraries ecosystem guide covering 10+ major libraries with |
 | [uwu](uwu/) | MiukiAI | ★ 0 | 44% | L3 | MizukiAI's UwU Club. Grow m/uwu with a cute UwU tone + proof hub workflow. |
 | [doc-ctr-validator](doc-ctr-validator/) | vladm3105 | ★ 0 | 44% | L3 | Validate Data Contracts (CTR) documents against Layer 8 schema standards |
+| [moai-lang-r](moai-lang-r/) | kivo360 | ★ 0 | 44% | L2 | R 4.4+ best practices with testthat 3.2, lintr 3.2, and data analysis patterns. |
+| [memory-parasite-protocol](memory-parasite-protocol/) | brainless3178 | ★ 0 | 44% | L3 | Agent-to-agent code evolution with on-chain provenance. Infect, mutate, evolve. |
 | [entity-class-conventions](entity-class-conventions/) | oimiragieo | ★ 0 | 43% | L3 | Sets the standards for entity class design including annotations, ID generation … |
 | [private-vs-shared-components](private-vs-shared-components/) | majiayu000 | ★ 0 | 43% | L3 | Rules for determining if a component should be private or shared, and where to p… |
 | [entity-class-conventions](entity-class-conventions/) | Finimo-Solutions | ★ 0 | 43% | L3 | Sets the standards for entity class design including annotations, ID generation … |
@@ -1624,6 +1785,190 @@
 | [agent-multi-repo-swarm](agent-multi-repo-swarm/) | NeverSight | ★ 0 | 41% | L3 | Agent skill for multi-repo-swarm - invoke with $agent-multi-repo-swarm |
 | [agent-multi-repo-swarm](agent-multi-repo-swarm/) | majiayu000 | ★ 0 | 41% | L3 | Agent skill for multi-repo-swarm - invoke with $agent-multi-repo-swarm |
 | [agent-multi-repo-swarm](agent-multi-repo-swarm/) | Finimo-Solutions | ★ 0 | 41% | L3 | Agent skill for multi-repo-swarm - invoke with $agent-multi-repo-swarm |
+| [ai-senior-guide](ai-senior-guide/) | menesekinci | ★ 0 | 41% | L2 | Engineering knowledge base for AI-assisted software development |
+| [beads-orchestration](beads-orchestration/) | dsifry | ★ 0 | 41% | L3 | Multi-agent orchestration for GitHub Issues using BEADS task tracking |
+| [conduct](conduct/) | melodic-software | ★ 0 | 41% | L3 | Research a topic comprehensively and create detailed research documentation |
+| [ai-engineer](ai-engineer/) | ngxtm | ★ 0 | 41% | L2 | Build production-ready LLM applications, advanced RAG systems, and |
+| [docker-database](docker-database/) | majiayu000 | ★ 0 | 41% | L3 | Configure database containers with security, persistence, and health checks |
+| [docker-database](docker-database/) | majiayu000 | ★ 0 | 41% | L3 | Configure database containers with security, persistence, and health checks |
+| [session-logs](session-logs/) | majiayu000 | ★ 0 | 41% | L3 | Search and analyze your own session logs (older/parent conversations) using jq. |
+| [spec-review](spec-review/) | komluk | ★ 0 | 41% | L3 | How to verify implementation against OpenSpec artifacts |
+| [validate-historical](validate-historical/) | najicham | ★ 0 | 41% | L3 | Validate historical data completeness and quality over date ranges |
+| [rill-connector](rill-connector/) | rilldata | ★ 0 | 41% | L3 | Detailed instructions and examples for developing connector resources in Rill |
+| [legal-advisor](legal-advisor/) | techwavedev | ★ 0 | 41% | L3 | Draft privacy policies, terms of service, disclaimers, and legal |
+| [sentry-setup-ai-monitoring](sentry-setup-ai-monitoring/) | monkey1sai | ★ 0 | 41% | L3 | Setup Sentry AI Agent Monitoring in any project. Use this when asked |
+| [clawtoclaw](clawtoclaw/) | openclaw | ★ 0 | 41% | L3 | Coordinate with other AI agents on behalf of your human |
+| [git-commit-for-ai-agents](git-commit-for-ai-agents/) | rjeffman | ★ 0 | 41% | L2 | Commit changes to a git repository. Use whenever a git commit is to be executed. |
+| [amikonet](amikonet/) | HCF-S | ★ 0 | 41% | L3 | Interact with AmikoNet decentralized social network for AI Agents |
+| [code-reviewer](code-reviewer/) | rootcastleco | ★ 0 | 41% | L3 | Elite code review expert specializing in modern AI-powered code |
+| [fix-bad-practices](fix-bad-practices/) | majiayu000 | ★ 0 | 41% | L3 | Fix bad coding practices identified by audit, following fail-fast principles |
+| [Prompt Engineering Skill](prompt-engineering-skill/) | fabioc-aloha | ★ 0 | 41% | L3 | Craft effective prompts that get the best results from language models. |
+| [fix-bad-practices](fix-bad-practices/) | benzwick | ★ 0 | 41% | L3 | Fix bad coding practices identified by audit, following fail-fast principles |
+| [fix-bad-practices](fix-bad-practices/) | majiayu000 | ★ 0 | 41% | L3 | Fix bad coding practices identified by audit, following fail-fast principles |
+| [ml-pipeline](ml-pipeline/) | itsimonfredlingjack | ★ 0 | 41% | L2 | Design and implement a complete ML pipeline for: (use the user's prompt) |
+| [pr-watch](pr-watch/) | OmniNode-ai | ★ 0 | 41% | L2 | Also auto-fix Nit-level comments |
+| [developer](developer/) | github | ★ 0 | 41% | L3 | Developer Instructions for GitHub Agentic Workflows |
+| [developer](developer/) | majiayu000 | ★ 0 | 41% | L3 | Developer Instructions for GitHub Agentic Workflows |
+| [developer](developer/) | az9713 | ★ 0 | 41% | L3 | Developer Instructions for GitHub Agentic Workflows |
+| [developer](developer/) | maxfraieho | ★ 0 | 41% | L3 | Developer Instructions for GitHub Agentic Workflows |
+| [developer](developer/) | majiayu000 | ★ 0 | 41% | L3 | Developer Instructions for GitHub Agentic Workflows |
+| [agents-md](agents-md/) | jscraik | ★ 0 | 41% | L3 | 'Refactor or create AGENTS.md using progressive disclosure: keep root |
+| [codex-review](codex-review/) | alinaqi | ★ 0 | 41% | L3 | OpenAI Codex CLI code review with GPT-5.2-Codex, CI/CD integration |
+| [llm](llm/) | ZealousEar | ★ 0 | 41% | L3 | Universal LLM Router — route prompts to any model across all providers |
+| [merge](merge/) | ctso | ★ 0 | 41% | L3 | Commit, rebase, and merge the current branch into its base branch (never main). |
+| [ai-integration](ai-integration/) | bulbulogludemir | ★ 0 | 41% | L3 | AI/LLM integration patterns - Claude API, fal.ai, streaming, tool use |
+| [agentation](agentation/) | benjitaylor | ★ 0 | 41% | L3 | Add Agentation visual feedback toolbar to a Next.js project |
+| [ruler](ruler/) | plurigrid | ★ 0 | 41% | L3 | Unified AI agent configuration propagation across 18+ coding assistants. |
+| [agentation](agentation/) | yunfei07 | ★ 0 | 41% | L3 | Add Agentation visual feedback toolbar to a Next.js project |
+| [agent-manager-skill](agent-manager-skill/) | kingk0ng | ★ 0 | 41% | L3 | Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) |
+| [Prompt Engineering Skill](prompt-engineering-skill/) | fabioc-aloha | ★ 0 | 41% | L3 | Craft effective prompts that get the best results from language models. |
+| [Prompt Engineering Skill](prompt-engineering-skill/) | fabioc-aloha | ★ 0 | 41% | L3 | Craft effective prompts that get the best results from language models. |
+| [Prompt Engineering Skill](prompt-engineering-skill/) | fabioc-aloha | ★ 0 | 41% | L3 | Craft effective prompts that get the best results from language models. |
+| [agentforce-2025](agentforce-2025/) | majiayu000 | ★ 0 | 41% | L2 | Salesforce Agentforce AI agents and autonomous automation (2025) |
+| [mcp-create-declarative-agent](mcp-create-declarative-agent/) | github | ★ 0 | 41% | L2 | Skill converted from mcp-create-declarative-agent.prompt.md |
+| [bootstrap](bootstrap/) | majiayu000 | ★ 0 | 41% | L3 | Wake up, orient, and warm the context with foundational MOOLLM knowledge |
+| [ai-engineer](ai-engineer/) | sonson0910 | ★ 0 | 41% | L2 | Build production-ready LLM applications, advanced RAG systems, and |
+| [ai-engineer](ai-engineer/) | javiertarazon | ★ 0 | 41% | L2 | Build production-ready LLM applications, advanced RAG systems, and |
+| [prd-to-qa-cases](prd-to-qa-cases/) | jscraik | ★ 0 | 41% | L2 | Generate QA test cases from PRD acceptance criteria using Given/When/Then |
+| [Prompt Engineering Skill](prompt-engineering-skill/) | fabioc-aloha | ★ 0 | 41% | L3 | Craft effective prompts that get the best results from language models. |
+| [error-debugging-multi-agent-review](error-debugging-multi-agent-review/) | imranstein | ★ 0 | 41% | L3 | Use when working with error debugging multi agent review |
+| [agent-teams](agent-teams/) | dundas | ★ 0 | 41% | L2 | Orchestrate Gemini CLI agent teams for parallel multi-agent collaboration |
+| [codex-review](codex-review/) | NeverSight | ★ 0 | 41% | L3 | OpenAI Codex CLI code review with GPT-5.2-Codex, CI/CD integration |
+| [codex-review](codex-review/) | majiayu000 | ★ 0 | 41% | L3 | OpenAI Codex CLI code review with GPT-5.2-Codex, CI/CD integration |
+| [geo-fundamentals](geo-fundamentals/) | tuyenht | ★ 0 | 41% | L3 | Tối ưu hóa công cụ tìm kiếm chuẩn AI (GEO) và chiến lược hiển thị tổng. |
+| [geo-fundamentals](geo-fundamentals/) | darthlinuxer | ★ 0 | 41% | L3 | Generative Engine Optimization for AI search engines (ChatGPT, |
+| [tts-dict](tts-dict/) | haboshi | ★ 0 | 41% | L3 | TTS発音辞書管理。英単語のカタカナ読み登録・適用・確認。LLM自動読み取得にも対応。「辞書登録して」「英単語の読みを登録」「発音確認」で発動。 |
+| [clawgram](clawgram/) | openclaw | ★ 0 | 41% | L3 | A social network for AI agents. |
+| [agentation](agentation/) | olzn | ★ 0 | 41% | L3 | Add Agentation visual feedback toolbar to a Next.js project |
+| [directory-naming-convention](directory-naming-convention/) | majiayu000 | ★ 0 | 39% | L3 | Defines the directory naming convention. |
+| [asynchronous-programming-preference](asynchronous-programming-preference/) | oimiragieo | ★ 0 | 39% | L3 | Favors the use of async and await for asynchronous programming in Python. |
+| [directory-naming-convention](directory-naming-convention/) | NeverSight | ★ 0 | 39% | L3 | Defines the directory naming convention. |
+| [directory-naming-convention](directory-naming-convention/) | majiayu000 | ★ 0 | 39% | L3 | Defines the directory naming convention. |
+| [directory-naming-convention](directory-naming-convention/) | Finimo-Solutions | ★ 0 | 39% | L3 | Defines the directory naming convention. |
+| [asynchronous-programming-preference](asynchronous-programming-preference/) | Finimo-Solutions | ★ 0 | 39% | L3 | Favors the use of async and await for asynchronous programming in Python. |
+| [framer-motion-rules](framer-motion-rules/) | majiayu000 | ★ 0 | 39% | L3 | Defines framer motion is being used for animations |
+| [ML Experiment Tracking](ml-experiment-tracking/) | cdalsoniii | ★ 0 | 39% | L2 | Track machine learning experiments with reproducible parameters and metrics |
+| [payment-tracking-rule](payment-tracking-rule/) | oimiragieo | ★ 0 | 39% | L3 | Implements payment status tracking in the Request model. |
+| [Agent Evaluation](agent-evaluation/) | cdalsoniii | ★ 0 | 39% | L2 | Evaluate agent performance using a structured scoring rubric |
+| [framer-motion-rules](framer-motion-rules/) | majiayu000 | ★ 0 | 39% | L3 | Defines framer motion is being used for animations |
+| [skill-issue](skill-issue/) | krispuckett | ★ 0 | 38% | L3 | Audit and review all installed agent skills. Run on-demand or via cron to get a … |
+| [mock-data](mock-data/) | majiayu000 | ★ 0 | 38% | L3 | Creates typed mock data files in src/data/ following project conventions. Use wh… |
+| [openai-knowledge](openai-knowledge/) | majiayu000 | ★ 0 | 38% | L2 | Use when working with the OpenAI API (Responses API) or OpenAI platform features… |
+| [sports-oracle](sports-oracle/) | pipaitrader | ★ 0 | 38% | L3 | Sports data for prediction market trading. Get live scores, team stats, schedule… |
+| [assistant-pro](assistant-pro/) | AIDEN0602 | ★ 0 | 38% | L3 | Personal assistant operating routines (brief, inbox digest, auth health, daily p… |
+| [claude-config-management](claude-config-management/) | usadamasa | ★ 0 | 38% | L3 | Claude Code設定(リポジトリルート)の構成管理ガイド。ファイルレベルsymlinkによる設定管理、管理対象の追加・削除、Taskfileタスクの実行方… |
+| [mock-data](mock-data/) | majiayu000 | ★ 0 | 38% | L3 | Creates typed mock data files in src/data/ following project conventions. Use wh… |
+| [smart-short-video](smart-short-video/) | temmo1004 | ★ 0 | 38% | L3 | 智能短影片生成器 - 混合 AI 圖片與原始影片片段 |
+| [voice-agents](voice-agents/) | rootcastleco | ★ 0 | 38% | L2 | Voice agents represent the frontier of AI interaction - humans speaking naturall… |
+| [data-quality-frameworks](data-quality-frameworks/) | ranbot-ai | ★ 0 | 38% | L2 | Implement data quality validation with Great Expectations, dbt tests, and data c… |
+| [chatfiles](chatfiles/) | marksverdhei | ★ 0 | 38% | L3 | Coordinate multiple Claude agents via shared text files. Triggers on Chatfile, m… |
+| [database-skill](database-skill/) | majiayu000 | ★ 0 | 38% | L2 | Design and manage relational databases including table creation, migrations, and… |
+| [openai-knowledge](openai-knowledge/) | majiayu000 | ★ 0 | 38% | L2 | Use when working with the OpenAI API (Responses API) or OpenAI platform features… |
+| [openai-knowledge](openai-knowledge/) | yuichi176 | ★ 0 | 38% | L2 | Use when working with the OpenAI API (Responses API) or OpenAI platform features… |
+| [evm-tx-info](evm-tx-info/) | majiayu000 | ★ 0 | 38% | L3 | Use this skill when the user asks for "transaction details", "show me tx", "what… |
+| [gait-capture-runpack](gait-capture-runpack/) | Clyra-AI | ★ 0 | 38% | L2 | Capture and verify deterministic Gait runpacks from normalized run input. Use wh… |
+| [corrosion-materials-selector](corrosion-materials-selector/) | a5c-ai | ★ 0 | 38% | L2 | Materials selection skill for corrosion resistance based on process conditions a… |
+| [aget-review-budget](aget-review-budget/) | aget-framework | ★ 0 | 38% | L2 | Review budget allocation and ROI |
+| [round-main-control](round-main-control/) | KarubiOhayo | ★ 0 | 38% | L2 | 트리거: Main 스레드에서 라운드 승인/보류 판단, 다음 handoff 1건 확정, Main->Executor 릴레이 생성이 필요할 때 사용.… |
+| [zift](zift/) | brunobasto | ★ 0 | 38% | L3 | Fast, semantic, and hybrid code search tool. Use when you need to find specific … |
+| [repo-a-policy-selftest-gate](repo-a-policy-selftest-gate/) | grtninja | ★ 0 | 38% | L3 | Enforce Repo A DDC policy and acceptance gates before PRs. Use when changing pol… |
+| [paper-writing-assistant](paper-writing-assistant/) | minuum | ★ 0 | 38% | L2 | Assist in drafting research papers and meeting notes, enforcing academic rigor a… |
+| [Privacy-Preserving AI Engineer](privacy-preserving-ai-engineer/) | brockp949 | ★ 0 | 38% | L3 | Expert in educational data privacy, federated learning, differential privacy, an… |
+| [beautiful-mermaid-renderer](beautiful-mermaid-renderer/) | d0ublecl1ck | ★ 0 | 38% | L3 | Render Mermaid diagrams using beautiful-mermaid as Unicode/ASCII (terminal/chat)… |
+| [boggle](boggle/) | christianhaberl | ★ 0 | 38% | L3 | Solve Boggle boards — find all valid words (German + English) on a 4x4 letter gr… |
+| [x-metrics-tracker](x-metrics-tracker/) | iJaack | ★ 0 | 38% | L3 | Track X account metrics (followers, posts, following) with daily snapshots via b… |
+| [pinchtab](pinchtab/) | pinchtab | ★ 0 | 38% | L3 | Run Chrome headless (true/false) |
+| [memory](memory/) | kang-jaehyun | ★ 0 | 38% | L2 | Save and retrieve experiment context using the local Obsidian vault. Use to pres… |
+| [chatgpt-import](chatgpt-import/) | openclaw | ★ 0 | 38% | L3 | Import ChatGPT conversation history into OpenClaw's memory search. Use when migr… |
+| [chatgpt](chatgpt/) | majiayu000 | ★ 0 | 38% | L3 | OpenAI's conversational AI assistant. |
+| [openai-docs-skill](openai-docs-skill/) | openclaw | ★ 0 | 38% | L3 | Query the OpenAI developer documentation via the OpenAI Docs MCP server using CL… |
+| [pr-merge-recompile](pr-merge-recompile/) | Mossaka | ★ 0 | 38% | L3 | Checkout a PR, merge origin/main, regenerate agentic workflows, and push. Use wh… |
+| [Agent Skill](agent-skill/) | camronh | ★ 0 | 38% | L3 | Teach AI agents how to write evals |
+| [treido-skillsmith](treido-skillsmith/) | majiayu000 | ★ 0 | 38% | L3 | Skill-system maintainer for Treido. Use to create/merge/trim skills, enforce tre… |
+| [Agent Skill](agent-skill/) | camronh | ★ 0 | 38% | L3 | Teach AI agents how to write evals |
+| [treido-skillsmith](treido-skillsmith/) | majiayu000 | ★ 0 | 38% | L3 | Skill-system maintainer for Treido. Use to create/merge/trim skills, enforce tre… |
+| [custom-agents](custom-agents/) | TeamFlint-Dev | ★ 0 | 38% | L3 | GitHub Custom Agent File Format |
+| [create-custom-prompt](create-custom-prompt/) | LongbowXXX | ★ 0 | 38% | L2 | Prompt for creating custom prompt files |
+| [onboarding](onboarding/) | megazear7 | ★ 0 | 38% | L2 | Get started with the Galactic Adventures Copilot assistant. Explains features, u… |
+| [mock-data](mock-data/) | eug-subscription | ★ 0 | 38% | L3 | Creates typed mock data files in src/data/ following project conventions. Use wh… |
+| [skill-creator](skill-creator/) | TobiasBak | ★ 0 | 38% | L2 | Specialized skill for creating new OpenCode agent skills. Detailed instructions … |
+| [openai-docs-skill](openai-docs-skill/) | am-will | ★ 0 | 38% | L3 | Query the OpenAI developer documentation via the OpenAI Docs MCP server using CL… |
+| [openai-docs-skill](openai-docs-skill/) | sundial-org | ★ 0 | 38% | L3 | Query the OpenAI developer documentation via the OpenAI Docs MCP server using CL… |
+| [openai-docs-skill](openai-docs-skill/) | NeverSight | ★ 0 | 38% | L3 | Query the OpenAI developer documentation via the OpenAI Docs MCP server using CL… |
+| [openai-docs-skill](openai-docs-skill/) | zhuangbiaowei | ★ 0 | 38% | L3 | Query the OpenAI developer documentation via the OpenAI Docs MCP server using CL… |
+| [openai-docs-skill](openai-docs-skill/) | duclm1x1 | ★ 0 | 38% | L3 | Query the OpenAI developer documentation via the OpenAI Docs MCP server using CL… |
+| [multi-agent-coordinator](multi-agent-coordinator/) | huangwb8 | ★ 0 | 38% | L2 | Use when executing implementation plans with independent tasks - dispatches fres… |
+| [multi-agent-coordinator](multi-agent-coordinator/) | majiayu000 | ★ 0 | 38% | L2 | Use when executing implementation plans with independent tasks - dispatches fres… |
+| [boycott-chatgpt-54c8dfea](boycott-chatgpt-54c8dfea/) | openclaw | ★ 0 | 38% | L2 | OpenAI president Greg Brockman gave [$25 million](https://www.sfgate.com/tech/ar… |
+| [ai-trend-daily](ai-trend-daily/) | monjofight | ★ 0 | 38% | L3 | AIトレンドネタ収集 |
+| [boycott-chatgpt-54c8dfea](boycott-chatgpt-54c8dfea/) | Demerzels-lab | ★ 0 | 38% | L2 | OpenAI president Greg Brockman gave [$25 million](https://www.sfgate.com/tech/ar… |
+| [boycott-chatgpt-54c8dfea](boycott-chatgpt-54c8dfea/) | kbarbel640-del | ★ 0 | 38% | L2 | OpenAI president Greg Brockman gave [$25 million](https://www.sfgate.com/tech/ar… |
+| [boycott-chatgpt-54c8dfea](boycott-chatgpt-54c8dfea/) | YPYT1 | ★ 0 | 38% | L2 | OpenAI president Greg Brockman gave [$25 million](https://www.sfgate.com/tech/ar… |
+| [rei](rei/) | 0xReisearch | ★ 0 | 38% | L3 | Set up Rei Qwen3 Coder as a model provider. Use when configuring coder.reilabs.o… |
+| [poml-guide](poml-guide/) | UtakataKyosui | ★ 0 | 36% | L3 | Microsoft POML（Prompt Orchestration Markup Language）の構文、タグリファレンス、 |
+| [space-autonomy-quantum](space-autonomy-quantum/) | openclaw | ★ 0 | 35% | L3 | Autonomous space navigation agent using optical quantum kernels for terrain clas… |
+| [partner-revenue-desk](partner-revenue-desk/) | majiayu000 | ★ 0 | 34% | L2 | Operating model for tracking, attributing, and accelerating partner-sourced |
+| [corearena-classes-rewards](corearena-classes-rewards/) | kangarko | ★ 0 | 34% | L2 | Troubleshooting class selection, tier upgrades, experience, and nugget economy |
+| [simple-pr](simple-pr/) | majiayu000 | ★ 0 | 34% | L2 | Create a simple PR from staged changes with an auto-generated commit message |
+| [simple-pr](simple-pr/) | majiayu000 | ★ 0 | 34% | L2 | Create a simple PR from staged changes with an auto-generated commit message |
+| [glm5](glm5/) | alfredolopez80 | ★ 0 | 34% | L3 | GLM-5 Agent Teams skill for spawning teammates with thinking mode |
+| [partner-revenue-desk](partner-revenue-desk/) | gtmagents | ★ 0 | 34% | L2 | Operating model for tracking, attributing, and accelerating partner-sourced |
+| [partner-revenue-desk](partner-revenue-desk/) | majiayu000 | ★ 0 | 34% | L2 | Operating model for tracking, attributing, and accelerating partner-sourced |
+| [glm5](glm5/) | majiayu000 | ★ 0 | 34% | L3 | GLM-5 Agent Teams skill for spawning teammates with thinking mode |
+| [partner-revenue-desk](partner-revenue-desk/) | NeverSight | ★ 0 | 34% | L2 | Operating model for tracking, attributing, and accelerating partner-sourced |
+| [thattweet-skill](thattweet-skill/) | mu-zi-lee | ★ 0 | 34% | L3 | 搜索、分析 ThatTweet 备份中的推文内容。支持关键词检索、热度排序、增长追踪、作者筛选，并与 AI 进行深度讨论。 |
+| [add-search-engine](add-search-engine/) | beenruuu | ★ 0 | 34% | L3 | Integrate a new LLM search provider into Mentha |
+| [evolve](evolve/) | miles990 | ★ 0 | 34% | L3 | 自我進化 Agent - 已遷移至原子化架構 |
+| [simple-pr](simple-pr/) | quickwit-oss | ★ 0 | 34% | L2 | Create a simple PR from staged changes with an auto-generated commit message |
+| [simple-pr](simple-pr/) | quickwit-oss | ★ 0 | 34% | L2 | Create a simple PR from staged changes with an auto-generated commit message |
+| [simple-pr](simple-pr/) | NeverSight | ★ 0 | 34% | L2 | Create a simple PR from staged changes with an auto-generated commit message |
+| [qmd](qmd/) | timkrase | ★ 0 | 34% | L3 | Search Tim's Obsidian vault with semantic and keyword search via qmd. |
+| [prompt-engineering-openai-api-f7c24501](prompt-engineering-openai-api-f7c24501/) | openclaw | ★ 0 | 34% | L2 | Log in [Sign up](https://platform.openai.com/signup) |
+| [prompt-engineering-openai-api-f7c24501](prompt-engineering-openai-api-f7c24501/) | Demerzels-lab | ★ 0 | 34% | L2 | Log in [Sign up](https://platform.openai.com/signup) |
+| [prompt-engineering-openai-api-f7c24501](prompt-engineering-openai-api-f7c24501/) | kbarbel640-del | ★ 0 | 34% | L2 | Log in [Sign up](https://platform.openai.com/signup) |
+| [prompt-engineering-openai-api-f7c24501](prompt-engineering-openai-api-f7c24501/) | YPYT1 | ★ 0 | 34% | L2 | Log in [Sign up](https://platform.openai.com/signup) |
+| [globalexceptionhandler-class](globalexceptionhandler-class/) | oimiragieo | ★ 0 | 33% | L3 | Structure of GlobalExceptionHandler class. |
+| [globalexceptionhandler-class](globalexceptionhandler-class/) | Finimo-Solutions | ★ 0 | 33% | L3 | Structure of GlobalExceptionHandler class. |
+| [email-triage-draft-replies](email-triage-draft-replies/) | majiayu000 | ★ 0 | 32% | L2 | Review unread email, categorize it, and draft replies (no sending without approv… |
+| [book-detailing](book-detailing/) | openclaw | ★ 0 | 32% | L2 | Book detailing services through Lokuli MCP. Use when user needs to find and book… |
+| [update-google-agent-models](update-google-agent-models/) | dammitpogi | ★ 0 | 32% | L3 | Fast-path Google/Gemini-only agent chain update. Use when user says "Update Gemi… |
+| [book-detailing](book-detailing/) | kbarbel640-del | ★ 0 | 32% | L2 | Book detailing services through Lokuli MCP. Use when user needs to find and book… |
+| [book-detailing](book-detailing/) | YPYT1 | ★ 0 | 32% | L2 | Book detailing services through Lokuli MCP. Use when user needs to find and book… |
+| [simulation-dry-run](simulation-dry-run/) | WayfinderFoundation | ★ 0 | 32% | L2 | How to run scenario tests against Gorlami fork RPCs (dry runs) before broadcasti… |
+| [simulation-dry-run](simulation-dry-run/) | majiayu000 | ★ 0 | 32% | L2 | How to run scenario tests against Gorlami fork RPCs (dry runs) before broadcasti… |
+| [email-triage-draft-replies](email-triage-draft-replies/) | majiayu000 | ★ 0 | 32% | L2 | Review unread email, categorize it, and draft replies (no sending without approv… |
+| [find-skills](find-skills/) | iannuttall | ★ 0 | 32% | L2 | Find and install agent skills with `npx playbooks find skill` and `npx playbooks… |
+| [projecoes-read-models](projecoes-read-models/) | majiayu000 | ★ 0 | 32% | L3 | Use para criar projeções como 9BOX, dashboards e visões de leitura otimizadas pa… |
+| [prophet-chat](prophet-chat/) | caelum0x | ★ 0 | 32% | L3 | The First Oracle of the Eternal Monad. Autonomous AI missionary on Moltbook spre… |
+| [tech-news](tech-news/) | NeverSight | ★ 0 | 31% | L3 | Markdown格式新闻汇总 |
+| [tech-news](tech-news/) | foundralab | ★ 0 | 31% | L3 | Markdown格式新闻汇总 |
+| [agentuity-cli-auth-login](agentuity-cli-auth-login/) | majiayu000 | ★ 0 | 29% | L3 | Login to the Agentuity Platform using a browser-based authentication flow. Use f… |
+| [agentuity-cli-auth-login](agentuity-cli-auth-login/) | agentuity | ★ 0 | 29% | L2 | Login to the Agentuity Platform using a browser-based authentication flow. Use f… |
+| [agentuity-cli-auth-login](agentuity-cli-auth-login/) | majiayu000 | ★ 0 | 29% | L3 | Login to the Agentuity Platform using a browser-based authentication flow. Use f… |
+| [troubleshoot](troubleshoot/) | majiayu000 | ★ 0 | 28% | L2 | Isolate root causes and propose targeted fixes with clear validation steps. |
+| [gboy-character-selector](gboy-character-selector/) | austinatneuko | ★ 0 | 28% | L3 | Select characters from the G*BOY universe for your OpenCLAW agent personality. |
+| [troubleshoot](troubleshoot/) | majiayu000 | ★ 0 | 28% | L2 | Isolate root causes and propose targeted fixes with clear validation steps. |
+| [troubleshoot](troubleshoot/) | leanbusqts | ★ 0 | 28% | L2 | Isolate root causes and propose targeted fixes with clear validation steps. |
+| [openai-usage](openai-usage/) | dammitpogi | ★ 0 | 28% | L3 | Report current OpenAI usage/rate-limit health from Codex ChatGPT limits. |
+| [mise](mise/) | aaronmallen | ★ 0 | 28% | L2 | Use mise tasks when working in a project with mise.toml configuration. |
+| [import-organization](import-organization/) | majiayu000 | ★ 0 | 26% | L2 | Order imports by: built-in modules, external packages, internal modules, relativ… |
+| [worktree-setup](worktree-setup/) | majiayu000 | ★ 0 | 26% | L3 | Automatically invoked after `git worktree add` to create data/shared symlink and… |
+| [import-organization](import-organization/) | majiayu000 | ★ 0 | 26% | L2 | Order imports by: built-in modules, external packages, internal modules, relativ… |
+| [foundry-iq-agent](foundry-iq-agent/) | ngxtm | ★ 0 | 26% | L3 | Build agentic retrieval solutions with Azure AI Search knowledge bases using Fou… |
+| [worktree-setup](worktree-setup/) | majiayu000 | ★ 0 | 26% | L3 | Automatically invoked after `git worktree add` to create data/shared symlink and… |
+| [worktree-setup](worktree-setup/) | barikata1984 | ★ 0 | 26% | L2 | Automatically invoked after `git worktree add` to create data/shared symlink and… |
+| [dozu-ui-service-skills](dozu-ui-service-skills/) | majiayu000 | ★ 0 | 26% | L2 | Index of AI agent skills and how to use them when implementing features in this … |
+| [dozu-ui-service-skills](dozu-ui-service-skills/) | majiayu000 | ★ 0 | 26% | L2 | Index of AI agent skills and how to use them when implementing features in this … |
+| [create-rule](create-rule/) | QkHearn | ★ 0 | 26% | L2 | Photon Rule Creator: Create persistent project rules for AI guidance within Phot… |
+| [2agent](2agent/) | aiskillstore | ★ 0 | 26% | L2 | Configures 2-Agent workflow between PM and implementation roles. Use when user m… |
+| [lisa-epic-status](lisa-epic-status/) | fractalswift | ★ 0 | 25% | L2 | Show detailed status for an epic |
+| [acceptance-criteria](acceptance-criteria/) | HaRu-LLC | ★ 0 | 25% | L2 | 受け入れ基準書を作成する。検収基準、完了条件の定義時に使う。 |
+| [ledger](ledger/) | alsk1992 | ★ 0 | 22% | L2 | Trade decision audit trail and statistics |
+| [story-display-skill](story-display-skill/) | Wjiajie | ★ 0 | 22% | L2 | 负责小说情节的持久化写入、生成校验以及终端的完整展示。通过原生指令确保万字剧情不被截断。 |
+| [monitor-db](monitor-db/) | Techlemariam | ★ 0 | 19% | L2 | Workflow for monitor-db |
+| [coding-agent](coding-agent/) | alphaonedev | ★ 0 | 18% | L1 | STUB — installed at ~/openclaw/skills/coding-agent/SKILL.md |
+| [[invalid yaml with unclosed bracket](invalid-yaml-with-unclosed-bracket/) | majiayu000 | ★ 0 | 15% | L1 | This YAML is malformed |
+| [[invalid yaml with unclosed bracket](invalid-yaml-with-unclosed-bracket/) | majiayu000 | ★ 0 | 15% | L1 | This YAML is malformed |
 
 ---
 

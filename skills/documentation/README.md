@@ -1,6 +1,6 @@
 # 📂 documentation
 
-> 188 skills in this category
+> 235 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -93,6 +93,7 @@
 | [openclaw-docs-sync](openclaw-docs-sync/) | TheSethRose | ★ 0 | 48% | L3 | Sync OpenClaw + ClawHub + Skills docs into a local mirror for the QMD memory bac… |
 | [adr-documentation](adr-documentation/) | MadAppGang | ★ 0 | 48% | L3 | Architecture Decision Records (ADR) documentation practice. Use when documenting… |
 | [adr-documentation](adr-documentation/) | MadAppGang | ★ 0 | 48% | L3 | Architecture Decision Records (ADR) documentation practice. Use when documenting… |
+| [docs-manager](docs-manager/) | ealt | ★ 0 | 48% | L3 | Generate and organize repository documentation. Use when the user asks to "creat… |
 | [fix-markdown](fix-markdown/) | majiayu000 | ★ 0 | 45% | L2 | **`GOAL`**: use prettier and vale to fix lint, formatting, and prose issues in m… |
 | [thoroughness](thoroughness/) | majiayu000 | ★ 0 | 45% | L3 | Use when implementing complex multi-step tasks, fixing critical bugs, or when qu… |
 | [research-documentation](research-documentation/) | seungwonme | ★ 0 | 45% | L2 | Searches across your Notion workspace, synthesizes findings from multiple pages,… |
@@ -185,13 +186,59 @@
 | [api-documenter](api-documenter/) | majiayu000 | ★ 0 | 45% | L3 | Auto-generate API documentation from code and comments. Use when API endpoints c… |
 | [api-documenter](api-documenter/) | NeverSight | ★ 0 | 45% | L3 | Auto-generate API documentation from code and comments. Use when API endpoints c… |
 | [api-documenter](api-documenter/) | majiayu000 | ★ 0 | 45% | L3 | Auto-generate API documentation from code and comments. Use when API endpoints c… |
+| [docs-sync](docs-sync/) | sunholo-data | ★ 0 | 45% | L3 | Sync AILANG documentation website with codebase reality. Use after releases, whe… |
+| [typo3-core-contributions](typo3-core-contributions/) | netresearch | ★ 0 | 45% | L3 | Use when analyzing TYPO3 Forge issues, submitting patches to Gerrit, or contribu… |
+| [changelog-automation](changelog-automation/) | Data-Wise | ★ 0 | 45% | L3 | Automate changelog generation from commits, PRs, and releases following Keep a C… |
+| [changelog-automation](changelog-automation/) | kurokeita | ★ 0 | 45% | L3 | Automate changelog generation from commits, PRs, and releases following Keep a C… |
+| [executing-plans](executing-plans/) | aiskillstore | ★ 0 | 45% | L2 | Execute implementation plans with batch processing and review checkpoints. Use w… |
+| [docs-manager](docs-manager/) | QuilibriumNetwork | ★ 0 | 45% | L3 | Automatically manages bugs, tasks, documentation, and reports in the .agents/ fo… |
+| [executing-plans](executing-plans/) | DMJGilbert | ★ 0 | 45% | L2 | Execute implementation plans with batch processing and review checkpoints. Use w… |
+| [write-coding-standards-from-file](write-coding-standards-from-file/) | github | ★ 0 | 45% | L3 | Write a coding standards document for a project using the coding styles from the… |
+| [store-changelog](store-changelog/) | prof18 | ★ 0 | 45% | L2 | Generate release notes for app stores (Android Play Store, iOS App Store, macOS … |
+| [genesis-tools:living-docs](genesis-tools-living-docs/) | genesiscz | ★ 0 | 45% | L3 | Self-maintaining documentation system. Bootstraps, validates, refines, and optim… |
+| [Create LaTeX Notes](create-latex-notes/) | majiayu000 | ★ 0 | 45% | L3 | Generate structured LaTeX exam cheat sheets from course materials. Extracts key … |
+| [write-coding-standards-from-file](write-coding-standards-from-file/) | NeverSight | ★ 0 | 45% | L3 | Write a coding standards document for a project using the coding styles from the… |
+| [write-coding-standards-from-file](write-coding-standards-from-file/) | williamlimasilva | ★ 0 | 45% | L3 | Write a coding standards document for a project using the coding styles from the… |
+| [write-coding-standards-from-file](write-coding-standards-from-file/) | sla-te | ★ 0 | 45% | L3 | Write a coding standards document for a project using the coding styles from the… |
+| [write-coding-standards-from-file](write-coding-standards-from-file/) | sandriaas | ★ 0 | 45% | L3 | Write a coding standards document for a project using the coding styles from the… |
 | [documentation](documentation/) | NeverSight | ★ 0 | 44% | L3 | Technical writing, API docs, and documentation best practices |
 | [documentation](documentation/) | miles990 | ★ 0 | 44% | L3 | Technical writing, API docs, and documentation best practices |
 | [code-documentation](code-documentation/) | plurigrid | ★ 0 | 44% | L3 | Writing effective code documentation - API docs, README files, inline |
 | [deepwiki-mcp](deepwiki-mcp/) | majiayu000 | ★ 0 | 44% | L3 | DeepWiki MCP server for AI-powered GitHub repository documentation and |
 | [deepwiki-mcp](deepwiki-mcp/) | majiayu000 | ★ 0 | 44% | L3 | DeepWiki MCP server for AI-powered GitHub repository documentation and |
+| [CURATE DIRECTORY](curate-directory/) | sddevelopment-be | ★ 0 | 44% | L2 | Prompt for Curator Claire to audit and normalize a target directory |
 | [technical-accuracy-and-usability-rules](technical-accuracy-and-usability-rules/) | oimiragieo | ★ 0 | 43% | L3 | Ensures the documentation is technically accurate and highly usable for the targ… |
 | [technical-accuracy-and-usability-rules](technical-accuracy-and-usability-rules/) | Finimo-Solutions | ★ 0 | 43% | L3 | Ensures the documentation is technically accurate and highly usable for the targ… |
+| [code-documentation](code-documentation/) | Jonathan0823 | ★ 0 | 41% | L3 | Code documentation standards, patterns, and best practices |
+| [Pdf](pdf/) | danielmiessler | ★ 0 | 41% | L3 | PDF processing. USE WHEN pdf, PDF file. SkillSearch('pdf') for docs. |
+| [Pdf](pdf/) | verrio1 | ★ 0 | 41% | L3 | PDF processing. USE WHEN pdf, PDF file. SkillSearch('pdf') for docs. |
+| [Pdf](pdf/) | virtualian | ★ 0 | 41% | L3 | PDF processing. USE WHEN pdf, PDF file. SkillSearch('pdf') for docs. |
+| [readme-generate](readme-generate/) | majiayu000 | ★ 0 | 41% | L3 | Generate comprehensive README files from code analysis |
+| [readme-generate](readme-generate/) | manastalukdar | ★ 0 | 41% | L3 | Generate comprehensive README files from code analysis |
+| [readme-generate](readme-generate/) | majiayu000 | ★ 0 | 41% | L3 | Generate comprehensive README files from code analysis |
+| [Lab 14: Claude Code Skill](lab-14-claude-code-skill/) | fbratten | ★ 0 | 41% | L3 | Create a custom Claude Code skill for natural language orchestration. |
+| [docs-as-code](docs-as-code/) | majiayu000 | ★ 0 | 41% | L3 | Documentation pipeline automation and docs-as-code workflows |
+| [deepwiki-mcp](deepwiki-mcp/) | plurigrid | ★ 0 | 41% | L3 | DeepWiki MCP server for AI-powered GitHub repository documentation and Q&A |
+| [spec-interview](spec-interview/) | NeverSight | ★ 0 | 41% | L2 | 通过系统性访谈完善技术规格文档，访谈完成后自动创建 OpenSpec proposal。适用于需求细化、技术方案设计、规范驱动开发等场景。 |
+| [coder-docs](coder-docs/) | coder | ★ 0 | 41% | L3 | Index + offline snapshot of coder/coder documentation (progressive disclosure). |
+| [claude-guide](claude-guide/) | diegocconsolini | ★ 0 | 41% | L3 | Navigate Claude Code documentation and get quick answers about configuration, MC… |
+| [dd-docs](dd-docs/) | datadog-labs | ★ 0 | 41% | L3 | Datadog docs lookup using docs.datadoghq.com/llms.txt and linked Markdown pages. |
+| [agent-changelog-generator](agent-changelog-generator/) | seqis | ★ 0 | 41% | L2 | Generates changelogs and release notes from changes. |
+| [docs-plugin](docs-plugin/) | udecode | ★ 0 | 40% | L3 | Command: docs-plugin |
+| [idae-db-readme](idae-db-readme/) | medyll | ★ 0 | 38% | L3 | Skill to dynamically retrieve the documentation (README.md) of the idae-db packa… |
+| [documentation-research](documentation-research/) | jpoutrin | ★ 0 | 38% | L2 | Enforces documentation research before implementation. Auto-loads when implement… |
+| [anydocs](anydocs/) | openclaw | ★ 0 | 38% | L3 | URL to sitemap.xml |
+| [crawl-docs-skill](crawl-docs-skill/) | d0ublecl1ck | ★ 0 | 38% | L3 | Run a Crawl4AI-based doc crawler and save internal pages as Markdown using page … |
+| [upgrade-claude-code](upgrade-claude-code/) | popup-studio-ai | ★ 0 | 38% | L3 | Claude Code 설정 업그레이드 |
+| [localization](localization/) | pingqLIN | ★ 0 | 36% | L2 | Guidelines for localizing markdown documents Triggers on: **/*.md |
+| [generate-docstrings](generate-docstrings/) | majiayu000 | ★ 0 | 34% | L3 | Create docstrings for functions and classes. Use when documenting code APIs. |
+| [generate-docstrings](generate-docstrings/) | majiayu000 | ★ 0 | 34% | L3 | Create docstrings for functions and classes. Use when documenting code APIs. |
+| [generate-docstrings](generate-docstrings/) | HomericIntelligence | ★ 0 | 34% | L3 | Create docstrings for functions and classes. Use when documenting code APIs. |
+| [cgr-docs-governance](cgr-docs-governance/) | fermaf | ★ 0 | 32% | L3 | Use this skill when updating project documentation after backend/frontend operat… |
+| [markdowntown-atlas-scan](markdowntown-atlas-scan/) | majiayu000 | ★ 0 | 32% | L2 | Atlas Simulator scan flow and next-step guidance for markdowntown. Use when work… |
+| [documentation-specialist](documentation-specialist/) | huangwb8 | ★ 0 | 28% | L2 | 文档专家。专注于技术文档编写、API 文档生成、README 优化和文档维护。提供清晰的文档结构、规范的格式和用户友好的内容。 |
+| [documentation-specialist](documentation-specialist/) | majiayu000 | ★ 0 | 28% | L2 | 文档专家。专注于技术文档编写、API 文档生成、README 优化和文档维护。提供清晰的文档结构、规范的格式和用户友好的内容。 |
+| [docs](docs/) | aiskillstore | ★ 0 | 26% | L2 | Generates documentation files including NotebookLM YAML and slide content. Use w… |
 
 ---
 
