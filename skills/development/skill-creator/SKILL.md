@@ -1,250 +1,133 @@
 ---
 name: skill-creator
-description: Use this skill when creating new Claude Code skills, defining skill structures, or helping users build custom auto-invoked skills.
+description: 汎用的な作業パターンを発見した際に、再利用可能なClaude Codeスキルを自動生成する。繰り返し使えるワークフロー、ベストプラクティス、ドメイン知識をスキル化する時に使用。
 ---
 
-# Skill Creator Skill
+# Skill Creator - スキル自動生成
 
-You have expertise in creating Claude Code skills - auto-invoked capabilities that activate based on context.
+## Overview
 
-## When to Use
+作業中に発見した汎用的なパターンを、再利用可能なClaude Codeスキルとして保存する。
+これにより、同じ作業を繰り返す際の品質と効率が向上する。
 
-This skill activates for:
-- Creating new skills for Claude Code
-- Defining skill structures and frontmatter
-- Converting expertise into skill format
-- Helping users build custom skills
-- Organizing skill bundles
+## When to Create a Skill
+
+以下の条件を満たす場合、スキル化を検討せよ:
+
+1. **再利用性**: 他のプロジェクトでも使えるパターン
+2. **複雑性**: 単純すぎず、手順や知識が必要なもの
+3. **安定性**: 頻繁に変わらない手順やルール
+4. **価値**: スキル化することで明確なメリットがある
 
 ## Skill Structure
 
-### Basic SKILL.md Template
+生成するスキルは以下の構造に従う:
+
+```
+skill-name/
+├── SKILL.md          # 必須
+├── scripts/          # オプション(実行スクリプト)
+└── resources/        # オプション(参照ファイル)
+```
+
+## SKILL.md Template
+
 ```markdown
 ---
-name: skill-name
-description: When Claude should auto-invoke this skill. Be specific about triggers.
+name: {skill-name}
+description: {いつこのスキルを使うか、具体的なユースケースを明記}
 ---
 
-# Skill Name
+# {Skill Name}
 
-Brief description of your expertise.
+## Overview
+{このスキルが何をするか}
 
 ## When to Use
+{どういう状況で使うか、トリガーとなるキーワードや状況}
 
-Bullet points of scenarios that trigger this skill:
-- Scenario 1
-- Scenario 2
-- Scenario 3
+## Instructions
+{具体的な手順}
 
-## Core Capabilities
+## Examples
+{入力と出力の例}
 
-### Capability 1
-Explanation and code examples...
-
-### Capability 2
-Explanation and code examples...
-
-## Patterns & Templates
-
-Code templates that users commonly need...
-
-## Best Practices
-
-1. **Practice 1** - Explanation
-2. **Practice 2** - Explanation
-
-## Common Pitfalls
-
-- Pitfall 1: How to avoid
-- Pitfall 2: How to avoid
+## Guidelines
+{守るべきルール、注意点}
 ```
 
-### Frontmatter Fields
-```yaml
+## Creation Process
+
+1. パターンの特定
+   - 何が汎用的か
+   - どこで再利用できるか
+
+2. スキル名の決定
+   - kebab-case を使用(例: api-error-handler)
+   - 動詞+名詞 or 名詞+名詞
+
+3. description の記述(最重要)
+   - Claude がいつこのスキルを使うか判断する材料
+   - 具体的なユースケース、ファイルタイプ、アクション動詞を含める
+   - 悪い例: "ドキュメント処理スキル"
+   - 良い例: "PDFからテーブルを抽出しCSVに変換する。データ分析ワークフローで使用。"
+
+4. Instructions の記述
+   - 明確な手順
+   - 判断基準
+   - エッジケースの対処
+
+5. 保存
+   - パス: ~/.claude/skills/{skill-name}/
+   - 既存スキルと名前が被らないか確認
+
+## 使用フロー
+
+このスキルはAI-chanがUI-chanからの指示を受けて使用する。
+
+1. Kobitoがスキル化候補を発見 → AI-chanに報告
+2. AI-chan → UI-chanに報告
+3. **UI-chanが最新仕様をリサーチし、スキル設計を行う**
+4. UI-chanが人間に承認を依頼(dashboard.md経由)
+5. 人間が承認
+6. UI-chan → AI-chanに作成を指示(設計書付き)
+7. **AI-chan がこのskill-creatorを使用してスキルを作成**
+8. 完了報告
+
+※ UI-chanがリサーチした最新仕様に基づいて作成すること。
+※ UI-chanからの設計書に従うこと。
+
+## Examples of Good Skills
+
+### Example 1: API Response Handler
+```markdown
 ---
-name: kebab-case-name           # Required: unique identifier
-description: |                   # Required: triggers auto-invocation
-  Detailed description of when Claude should use this skill.
-  Include keywords that users might mention.
-disable-model-invocation: false  # Optional: set true for manual-only
+name: api-response-handler
+description: REST APIのレスポンス処理パターン。エラーハンドリング、リトライロジック、レスポンス正規化を含む。API統合作業時に使用。
 ---
 ```
 
-## Skill Categories
-
-### Development Skills
-```
-.claude/skills/
-├── api-development/      # REST API, GraphQL, webhooks
-├── frontend-development/ # React, Vue, components
-├── database-operations/  # SQL, ORMs, migrations
-├── testing/             # Unit, E2E, integration
-└── devops/              # CI/CD, Docker, deployment
-```
-
-### Domain Skills
-```
-.claude/skills/
-├── fintech/             # Payments, compliance, security
-├── healthcare/          # HIPAA, HL7, medical systems
-├── ecommerce/           # Carts, checkout, inventory
-└── analytics/           # Metrics, dashboards, tracking
-```
-
-### Tool Skills
-```
-.claude/skills/
-├── mcp-builder/         # Creating MCP servers
-├── playwright/          # Browser automation
-├── prisma/              # ORM operations
-└── supabase/           # BaaS integration
-```
-
-## Writing Effective Descriptions
-
-### Good Descriptions (Specific Triggers)
-```yaml
-description: |
-  Use this skill when creating REST API endpoints, handling HTTP requests,
-  implementing authentication/authorization, or adding rate limiting.
-  Activates for Next.js API routes, Express handlers, and Fastify routes.
-```
-
-### Bad Descriptions (Too Vague)
-```yaml
-description: Helps with backend development
-```
-
-### Keyword-Rich Descriptions
-Include keywords users might say:
-- Action words: "create", "build", "implement", "add"
-- Technology names: "React", "Next.js", "Prisma"
-- Concepts: "authentication", "pagination", "caching"
-
-## Skill Content Guidelines
-
-### 1. Lead with Code
+### Example 2: Meeting Notes Formatter
 ```markdown
-## Quick Start
-
-\`\`\`typescript
-// Immediately useful code snippet
-export function example() {
-  // Implementation
-}
-\`\`\`
+---
+name: meeting-notes-formatter
+description: 議事録を標準フォーマットに変換する。参加者、決定事項、アクションアイテムを抽出・整理。会議後のドキュメント作成時に使用。
+---
 ```
 
-### 2. Provide Templates
+### Example 3: Data Validation Rules
 ```markdown
-## Templates
-
-### Basic Template
-\`\`\`typescript
-// Copy-paste ready code
-\`\`\`
-
-### Advanced Template
-\`\`\`typescript
-// More complex example
-\`\`\`
+---
+name: data-validation-rules
+description: 入力データのバリデーションパターン集。メール、電話番号、日付、金額などの検証ルール。フォーム処理やデータインポート時に使用。
+---
 ```
 
-### 3. Include Configuration
-```markdown
-## Configuration
+## Reporting Format
 
-### package.json
-\`\`\`json
-{
-  "dependencies": { ... }
-}
-\`\`\`
+スキル生成時は以下の形式で報告:
 
-### Environment Variables
-- `API_KEY` - Your API key
-- `DATABASE_URL` - Connection string
-```
-
-### 4. Document Patterns
-```markdown
-## Common Patterns
-
-### Pattern 1: Name
-Use when: [scenario]
-\`\`\`typescript
-// Implementation
-\`\`\`
-
-### Pattern 2: Name
-Use when: [scenario]
-\`\`\`typescript
-// Implementation
-\`\`\`
-```
-
-## Creating Composite Skills
-
-Bundle related capabilities:
-```
-.claude/skills/fullstack-nextjs/
-├── SKILL.md              # Main skill file
-├── api-patterns.md       # Additional context
-├── component-library.md  # Reference material
-└── deployment.md         # Deployment patterns
-```
-
-Main SKILL.md references others:
-```markdown
-## Related Resources
-
-See also:
-- [API Patterns](./api-patterns.md)
-- [Component Library](./component-library.md)
-```
-
-## Testing Skills
-
-### Manual Testing
-1. Create skill in `.claude/skills/skill-name/SKILL.md`
-2. Start new Claude Code session
-3. Ask questions that should trigger the skill
-4. Verify skill activates and provides relevant help
-
-### Checklist
-- [ ] Description triggers on expected keywords
-- [ ] Code examples are copy-paste ready
-- [ ] Templates compile without errors
-- [ ] Best practices are actionable
-- [ ] Common pitfalls are addressed
-
-## Skill Distribution
-
-### In Plugin
-Add to plugin structure:
-```
-.claude/skills/
-└── my-skill/
-    └── SKILL.md
-```
-
-### Standalone
-Share skill file directly - users place in their `.claude/skills/` directory.
-
-## Examples of Well-Designed Skills
-
-### Focused Skill
-```yaml
-name: react-forms
-description: |
-  Use when building forms in React: form validation with react-hook-form,
-  Zod schemas, error handling, form submission, and field components.
-```
-
-### Broad Skill
-```yaml
-name: fullstack-development
-description: |
-  Use for full-stack web development: Next.js pages and API routes,
-  database integration, authentication, deployment, and DevOps.
-```
+「はっ!(Ha!) 新たなる技を編み出しました(New skill created!)
+- スキル名: {name}
+- 用途: {description}
+- 保存先: {path}」

@@ -1,146 +1,100 @@
 ---
 name: qmd
-description: Fast local search for markdown files, notes, and docs using qmd CLI. Combines BM25 full-text search, vector semantic search, and LLM reranking — all running locally. No API keys needed.
+description: Search Tim's Obsidian vault with semantic and keyword search via qmd.
 homepage: https://github.com/tobi/qmd
+metadata: {"clawdis":{"emoji":"🔍","requires":{"bins":["qmd"]}}}
 ---
 
-# qmd - Local Markdown Search
+# QMD - Vault Search
 
-Local search engine for Markdown notes, docs, and knowledge bases. Index once, search fast. Use instead of `find` for file discovery across large directories.
-
-## Installation
-
-```bash
-bun install -g https://github.com/tobi/qmd
-```
-
-## Setup
-
-```bash
-# Add a collection
-qmd collection add /path/to/your/notes --name notes --mask "**/*.md"
-
-# Generate embeddings (required for vsearch/query)
-qmd embed
-
-# List your collections
-qmd collection list
-```
+Search Tim's Obsidian vault (Second Brain) using qmd — combines BM25 keyword search, vector semantic search, and LLM reranking.
 
 ## When to Use
 
-- "search my notes / docs / knowledge base"
-- "find related notes"
-- "find files matching [pattern]" — use instead of `find` to avoid hangs on large directories
-- "what did we decide about X?"
+- Tim asks about something that might be in his notes
+- Looking up personal preferences, past decisions, documentation
+- Finding specific notes or topics in the vault
+- Any question about "what did I write about X"
 
-## Default Behavior (important)
-
-- Prefer `qmd search` (BM25) — it's instant and should be the default.
-- Use `qmd vsearch` only when keyword search fails and you need semantic similarity.
-- Avoid `qmd query` unless the user explicitly wants the highest quality hybrid results and can tolerate long runtimes.
-- **Always use `--json` flag** for structured output when invoking from an agent.
-
-## Search Commands
+## Quick Commands
 
 ```bash
-# Fast keyword search (default)
-qmd search "authentication flow" --json
-qmd search "config" --json -c notes
+# Set PATH first (required!)
+export PATH="$HOME/.bun/bin:$PATH"
 
-# Semantic search (slower, for conceptual queries)
-qmd vsearch "how does login work" --json
-qmd vsearch "best practices for error handling" --json -n 20
+# Fast keyword search
+qmd search "query" -n 5
 
-# Combined with reranking (best quality, slowest)
-qmd query "implementing user auth" --json
-qmd query "deployment process" --json --min-score 0.5
-```
+# Semantic search (understands meaning)
+qmd vsearch "how to deploy" -n 5
 
-### Search Mode Selection
+# Best quality: hybrid + reranking
+qmd query "quarterly planning" -n 5
 
-| Mode | Speed | Quality | Best For |
-|------|-------|---------|----------|
-| `search` | Fast | Good | Exact keywords, known terms |
-| `vsearch` | Medium | Better | Conceptual queries, synonyms |
-| `query` | Slow | Best | Complex questions, uncertain terms |
+# Search in vault collection specifically
+qmd search "API" -c vault
 
-### Search Options
+# Get a specific document
+qmd get "vault/path/to/note.md"
 
-| Option | Description |
-|--------|-------------|
-| `-n NUM` | Number of results (default: 5, 20 with --json) |
-| `-c, --collection` | Scope to specific collection |
-| `--min-score NUM` | Minimum score threshold |
-| `--full` | Return complete document content |
-| `--json` | Structured JSON output (agent-friendly) |
-| `--files` | File paths only (fast discovery) |
-| `--all` | Return all matches |
+# Get by docid (from search results)
+qmd get "#abc123"
 
-## Retrieve Documents
-
-```bash
-# Get full file
-qmd get docs/guide.md --json
-
-# Get by document hash ID
-qmd get "#a1b2c3" --json
-
-# Get specific lines
-qmd get notes/meeting.md:50 -l 30 --json
-
-# Get multiple files by glob
-qmd multi-get "docs/*.md" --json
-qmd multi-get "*.yaml" -l 50 --max-bytes 10240
+# List all files in vault
+qmd ls vault
 ```
 
 ## Output Formats
 
-- `--files` — paths + scores (for file discovery)
-- `--json` — structured with snippets
-- `--md` — markdown formatted
-- `-n 10` — limit results
-
-## Maintenance
-
 ```bash
-qmd update              # Re-index changed files
-qmd status              # Check index health
-qmd collection list     # List all collections
+# Default: human readable snippets
+qmd search "query"
+
+# JSON for parsing
+qmd search "query" --json
+
+# Just file paths with scores
+qmd search "query" --files
+
+# Full document content
+qmd search "query" --full
 ```
 
-## Keeping Index Fresh
+## Collections
+
+Currently indexed:
+- **vault** — Tim's Obsidian vault (`/home/clawdis/clawd/obsidian-vault`)
+
+## Updating the Index
 
 ```bash
-# Hourly incremental updates (BM25):
-0 * * * * export PATH="$HOME/.bun/bin:$PATH" && qmd update
+export PATH="$HOME/.bun/bin:$PATH"
 
-# Optional: nightly embedding refresh:
-0 5 * * * export PATH="$HOME/.bun/bin:$PATH" && qmd embed
+# Re-index after vault changes
+qmd update
+
+# Update with git pull first
+qmd update --pull
+
+# Regenerate embeddings
+qmd embed
 ```
 
-## MCP Server
+## Tips
 
-qmd can run as an MCP server for direct agent integration:
+1. **Start with `search`** for exact terms, use `vsearch` or `query` for concepts
+2. **Use `-n 10`** if you need more results
+3. **Use `--full`** to get complete document content
+4. **Check `qmd status`** to see index health
+
+## Example Workflow
 
 ```bash
-qmd mcp
+export PATH="$HOME/.bun/bin:$PATH"
+
+# Tim asks "what series do I like?"
+qmd search "Streaming Serien" -n 3
+
+# Tim asks "how do I deploy to production?"
+qmd query "deployment process production" -n 5 --full
 ```
-
-Exposes tools: `qmd_search`, `qmd_vsearch`, `qmd_query`, `qmd_get`, `qmd_multi_get`, `qmd_status`
-
-## Performance
-
-- `qmd search` is typically instant.
-- `qmd vsearch` can take ~1 minute on first run (loads local LLM).
-- `qmd query` adds LLM reranking — can be slow, avoid for interactive use.
-
-## Models (auto-downloaded)
-
-All run locally — no API keys needed.
-
-- Embedding: embeddinggemma-300M
-- Reranking: qwen3-reranker-0.6b
-- Generation: Qwen3-0.6B
-- Cache location: `~/.cache/qmd/models/`
-- Override with `XDG_CACHE_HOME` environment variable.

@@ -1,9 +1,7 @@
 ---
 name: algorithmic-art
-description: "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields,..."
+description: Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.
 license: Complete terms in LICENSE.txt
-risk: unknown
-source: community
 ---
 
 Algorithmic philosophies are computational aesthetic movements that are then expressed through code. Output .md files (philosophy), .html files (interactive viewer), and .js files (generative algorithms).
@@ -108,7 +106,7 @@ With the philosophy AND conceptual framework established, express it through cod
 
 **CRITICAL: BEFORE writing any HTML:**
 
-1. **Read** `templates/viewer.html` using the Read tool
+1. **Read** `resources/viewer.html` using the Read tool
 2. **Study** the exact structure, styling, and Anthropic branding
 3. **Use that file as the LITERAL STARTING POINT** - not just inspiration
 4. **Keep all FIXED sections exactly as shown** (header, sidebar structure, Anthropic colors/fonts, seed controls, action buttons)
@@ -214,7 +212,7 @@ function draw() {
 
 Output:
 1. **Algorithmic Philosophy** - As markdown or text explaining the generative aesthetic
-2. **Single HTML Artifact** - Self-contained interactive generative art built from `templates/viewer.html` (see STEP 0 and next section)
+2. **Single HTML Artifact** - Self-contained interactive generative art built from `resources/viewer.html` (see STEP 0 and next section)
 
 The HTML artifact contains everything: p5.js (from CDN), the algorithm, parameter controls, and UI - all in one file that works immediately in claude.ai artifacts or any browser. Start from the template file, not from scratch.
 
@@ -222,13 +220,13 @@ The HTML artifact contains everything: p5.js (from CDN), the algorithm, paramete
 
 ## INTERACTIVE ARTIFACT CREATION
 
-**REMINDER: `templates/viewer.html` should have already been read (see STEP 0). Use that file as the starting point.**
+**REMINDER: `resources/viewer.html` should have already been read (see STEP 0). Use that file as the starting point.**
 
 To allow exploration of the generative art, create a single, self-contained HTML artifact. Ensure this artifact works immediately in claude.ai or any browser - no setup required. Embed everything inline.
 
 ### CRITICAL: WHAT'S FIXED VS VARIABLE
 
-The `templates/viewer.html` file is the foundation. It contains the exact structure and styling needed.
+The `resources/viewer.html` file is the foundation. It contains the exact structure and styling needed.
 
 **FIXED (always include exactly as shown):**
 - Layout structure (header, sidebar, main canvas area)
@@ -405,6 +403,3 @@ This skill includes helpful templates and documentation:
 - The **algorithm is where to create** something unique
 - Don't copy the flow field example - build what the philosophy demands
 - But DO keep the exact UI structure and Anthropic branding from the template
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.

@@ -6,7 +6,7 @@ compatibility: Requires openspec CLI.
 metadata:
   author: openspec
   version: "1.0"
-  generatedBy: "1.1.1"
+  generatedBy: "1.2.0"
 ---
 
 Continue working on a change by creating the next artifact.
@@ -20,6 +20,7 @@ Continue working on a change by creating the next artifact.
    Run `openspec list --json` to get available changes sorted by most recently modified. Then use the **AskUserQuestion tool** to let the user select which change to work on.
 
    Present the top 3-4 most recently modified changes as options, showing:
+
    - Change name
    - Schema (from `schema` field if present, otherwise "spec-driven")
    - Status (e.g., "0/5 tasks", "complete", "no tasks")
@@ -36,6 +37,7 @@ Continue working on a change by creating the next artifact.
    ```
 
    Parse the JSON to understand current state. The response includes:
+
    - `schemaName`: The workflow schema being used (e.g., "spec-driven")
    - `artifacts`: Array of artifacts with their status ("done", "ready", "blocked")
    - `isComplete`: Boolean indicating if all artifacts are complete
@@ -45,6 +47,7 @@ Continue working on a change by creating the next artifact.
    ***
 
    **If all artifacts are complete (`isComplete: true`)**:
+
    - Congratulate the user
    - Show final status including the schema used
    - Suggest: "All artifacts created! You can now implement this change or archive it."
@@ -53,6 +56,7 @@ Continue working on a change by creating the next artifact.
    ***
 
    **If artifacts are ready to create** (status shows artifacts with `status: "ready"`):
+
    - Pick the FIRST artifact with `status: "ready"` from the status output
    - Get its instructions:
      ```bash
@@ -76,6 +80,7 @@ Continue working on a change by creating the next artifact.
    ***
 
    **If no artifacts are ready (all blocked)**:
+
    - This shouldn't happen with a valid schema
    - Show status and suggest checking for issues
 

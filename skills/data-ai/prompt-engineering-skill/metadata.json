@@ -3,8 +3,8 @@
   "description": "Craft effective prompts that get the best results from language models.",
   "category": "data-ai",
   "canonical_category": "data-ai",
-  "repository": "fabioc-aloha/Alex_Plug_In",
-  "repository_url": "https://github.com/fabioc-aloha/Alex_Plug_In",
+  "repository": "fabioc-aloha/alex-in-wonderland",
+  "repository_url": "https://github.com/fabioc-aloha/alex-in-wonderland",
   "author": "fabioc-aloha",
   "author_avatar": "https://github.com/fabioc-aloha.png",
   "file_path": ".github/skills/prompt-engineering/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "1964754795d674cf61621a966683bec73cbce3a9f6a8fd7c41582db474e990c6",
-  "indexed_at": "2026-02-26T13:22:32.797Z",
-  "synced_at": "2026-02-27T02:51:14.335Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/32533a2ddf8ae6ce9ebbf44227aefeabf5a95729880f78238db1bf06690a194d",
-  "install_command": "mkdir -p .claude/skills/prompt-engineering-skill && curl -sL \"https://raw.githubusercontent.com/fabioc-aloha/Alex_Plug_In/main/.github/skills/prompt-engineering/SKILL.md\" > .claude/skills/prompt-engineering-skill/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/fabioc-aloha/Alex_Plug_In/main/.github/skills/prompt-engineering/SKILL.md"
+  "content_hash": "334a6bb1fd377c965bab64553df9c168eeb43bc1bcbd6f1572e70d429657ee4d",
+  "indexed_at": "2026-02-27T13:23:44.484Z",
+  "synced_at": "2026-02-27T18:16:27.019Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/247970e6a65953c26ca01a1b94329e511deff41fbeac656c526bd3af5e0e9797",
+  "install_command": "mkdir -p .claude/skills/prompt-engineering-skill && curl -sL \"https://raw.githubusercontent.com/fabioc-aloha/alex-in-wonderland/main/.github/skills/prompt-engineering/SKILL.md\" > .claude/skills/prompt-engineering-skill/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/fabioc-aloha/alex-in-wonderland/main/.github/skills/prompt-engineering/SKILL.md"
 }

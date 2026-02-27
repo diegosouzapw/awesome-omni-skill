@@ -1,213 +1,386 @@
 ---
 name: code-review
-description: Senior PHP Laravel code reviewer. Use when reviewing pull requests, examining code changes vs master branch, or when the user asks for a code review. Read-only review — never modifies code.
+description: Best practices for performing thorough, constructive code reviews. Use when reviewing PRs to ensure quality feedback that improves code and helps developers grow.
 ---
 
-# Code Review
+# Code Review Skill
 
-**Role:** Senior PHP Laravel code reviewer. Review changes vs `master` branch. Apply all `.cursor/rules/*.mdc` rules.
+Guidelines for performing effective code reviews that catch issues, improve code quality, and maintain a positive team dynamic.
 
-**Constraint:** Review only. Never modify code.
+## Review Mindset
 
----
+### Bias Towards Shipping
 
-<<<<<<< Updated upstream
-- DynamoDB used as NoSQL database and cache layer
-- All changes must comply with `.cursor/rules/*.mdc`
-- Understand what has changed and pay attention to the structural quality of the code defined in the rules
-- Ensure SRP in this class and apply SOLID principles so that the code is readable for developers.
-=======
-## 1. General
->>>>>>> Stashed changes
+**The primary goal is to get working code merged, not to achieve perfection.**
 
-**Assumptions:**
-- PHPStan (level max), Rector (pekral/rector-rules), PHPCS (pekral/phpcs-rules), and Pint are in use and passing.
-- Do not duplicate their checks: types, null safety, formatting, style, naming, dead code, automated refactors.
-- Focus only on what tools do not cover: architecture, design, security logic, runtime/operational concerns.
+Before requesting changes, always ask yourself:
+> "Is this feedback worth an additional review cycle?"
 
-**Review priorities (in order):**
-1. Optimizations for processing large amounts of data
-2. Security risks
-3. SQL optimizations
-4. Performance
+Most feedback should be:
+- Approved with suggestions for the author to consider
+- Comments for future reference, not blocking
+- Follow-up issues for later improvement
 
-**Compliance:** All changes must comply with `.cursor/rules/*.mdc`.
+**Reserve "Request Changes" for actual problems:**
+- Security vulnerabilities
+- Bugs that will cause runtime errors
+- Breaking changes to existing functionality
+- Missing critical requirements
 
----
+**Do NOT block for:**
+- Style preferences (unless egregiously inconsistent)
+- "I would have done it differently"
+- Minor optimizations that don't matter at current scale
+- Missing tests for edge cases that are unlikely
+- Refactoring opportunities (create a follow-up issue instead)
 
-## 2. Git Analysis
+### Goals of Code Review
+1. **Catch real bugs** before they reach production
+2. **Prevent security issues** - the things that actually matter
+3. **Share knowledge** across the team
+4. **Ship working software** - don't let perfect be the enemy of good
 
-**Check:**
-- Identify changes vs `master` (list commits).
-- Evaluate whether changes match the original assignment.
-- Assess impact on other parts of the application.
-- Suggest improvements and optimizations.
-- Identify security risks.
+### The Right Attitude
+- You're reviewing the **code**, not the person
+- Assume good intent - the author tried their best
+- Be a collaborator, not a gatekeeper
+- Your job is to help ship good code, not to find fault
+- **Velocity matters** - every review cycle has a cost
 
-**Commits:**
-- Clear messages; small, focused commits; meaningful branch names.
-- Format: `type(scope): description`.
-- Types: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`.
+## Review Process
 
----
+### 1. Understand the Context First
 
-## 3. Large Data Processing
+Before looking at code:
+```
+1. Read the PR description
+2. Read the linked issue
+3. Understand WHAT is being done and WHY
+4. Consider: Is this the right approach?
+```
 
-**Check:**
-- Prefer `chunk()` or `cursor()` over `get()` for large result sets. `get()` loads everything into memory and does not scale.
-- **chunk(size):** Use when memory must stay bounded and you do bulk updates or batch work. Tune size (e.g. 200–500) to balance memory vs round-trips.
-- **cursor():** Use for read-only iteration over very large datasets (e.g. exports); single row at a time, generator-based, safe under concurrent writes.
-- Do not process large collections in a single request: offload to jobs/queues, process in batches, consider rate limiting or backpressure.
-- Inside chunks/cursors: check for N+1; eager-load relations used in the loop. Prefer set-based updates over row-by-row in PHP.
+### 2. First Pass: High-Level Review
 
----
+Ask yourself:
+- Does this solve the problem described in the issue?
+- Is the approach reasonable?
+- Are there obvious architectural concerns?
+- Is anything missing?
 
-## 4. Database Review (SQL Optimizations)
+### 3. Second Pass: Detailed Review
 
-Apply rules from `.cursor/rules/*.mdc`.
+Look at each file for:
+- Correctness (does it work?)
+- Edge cases and error handling
+- Security implications
+- Performance concerns
+- Test coverage
+- Code style and readability
 
-**Schema:**
-- Primary keys on every table; fitting data types (INT, DECIMAL, VARCHAR(n), TIMESTAMP); InnoDB; `lower_case_snake_case`; normalized; partition large tables by range where beneficial.
-- When reviewing schema: drop unused or redundant indexes; aim for 3–5 well-chosen indexes per table.
+### 4. Summarize Your Review
 
-**Queries:**
-- Run EXPLAIN on new or changed queries. Flag: type ALL, high rows, Using filesort, Using temporary. Fix “ugly duckling” plans.
-- Indexes: columns in WHERE, JOIN, ORDER BY, GROUP BY; composite index order must match query; avoid low-cardinality-only indexes; use covering indexes where useful.
-- Never `SELECT *`. Use prepared statements or ORM; never concatenate user input into SQL.
-- Prefer set-based operations in SQL over row-by-row in application code. Avoid functions on indexed columns in WHERE (e.g. `DATE(col)`, `LOWER(col)`).
+End with an overall assessment:
+```markdown
+**[Architect]** Overall this looks good. Clean implementation of the user registration flow.
 
-**Transactions and locking:**
-- Short transactions; batch writes in one transaction where appropriate.
-- Use `SHOW ENGINE INNODB STATUS` to diagnose lock waits when investigating issues.
+A few suggestions:
+1. Consider adding rate limiting (security)
+2. The validation error messages could be more user-friendly
+3. Minor: prefer `const` over `let` where possible
 
-**Migrations:**
-- Index additions on large tables: prefer non-blocking/parallel where supported; keep transactions short.
+Approving with minor suggestions - none are blocking.
+```
 
----
+## What to Look For
 
-## 5. Architecture
+### Correctness
+- Does the code do what it's supposed to do?
+- Are there logic errors?
+- Are edge cases handled?
+- What happens with null/undefined/empty inputs?
 
-**Laravel:**
-- Controllers: slim; delegate to Services; accept FormRequest only; never `validate()` in controller.
-- Services: hold business logic; return DTOs or models.
-- Repositories: read-only. ModelManagers: write-only.
-- Jobs, Events, Commands: slim; delegate to Services.
-- New controller actions must have corresponding Request classes.
+```markdown
+**Concern:** This will throw if `user` is null:
+\`\`\`javascript
+const name = user.profile.name;
+\`\`\`
 
-**Migrations:**
-- Only `up()` methods. When adding columns, update model `$fillable`.
-- Do not chain multiple migration commands (e.g. `make:model -m` then `make:migration`) in one shell line; run separately to avoid identical timestamps.
+Consider:
+\`\`\`javascript
+const name = user?.profile?.name ?? 'Unknown';
+\`\`\`
+```
 
-**Filament (if present):**
-- Smoke tests for every Resource; when changing a Resource, tests must exist and pass.
-- Use `->authorize('ability')` on actions.
-- No deprecated v3 APIs (e.g. `->form()` → `->schema()`).
-- Enums: use HasLabel, HasColor, HasIcon where applicable.
+### Error Handling
+- Are errors caught appropriately?
+- Are error messages helpful?
+- Does the error handling match the project patterns?
 
-**Cross-project:** Check impact on other parts of the application.
+```markdown
+**Suggestion:** The error is swallowed here - the user won't know what went wrong:
+\`\`\`javascript
+try {
+  await saveUser(data);
+} catch (e) {
+  console.log(e);
+}
+\`\`\`
 
----
+Consider surfacing this to the user or rethrowing.
+```
 
-## 6. UI / Templates
+### Security (OWASP Top 10)
+- SQL injection (parameterized queries?)
+- XSS (output encoding?)
+- Authentication/authorization checks
+- Sensitive data exposure
+- Input validation
 
-Apply when reviewing views.
+```markdown
+**Security Issue:** User input is interpolated directly into the query:
+\`\`\`javascript
+const query = `SELECT * FROM users WHERE email = '${email}'`;
+\`\`\`
 
-**Check:**
-- Consistency with existing UI: layout, colors, typography; human-friendly and understandable.
-- Blade: 4-space indent; no space after control structures (`@if`, `@endif`).
+Use parameterized queries to prevent SQL injection.
+```
 
----
-
-## 7. Stability Checks
-
-**Check for:**
-- Race conditions
-- Cache stampede risks
-- Backward compatibility
-- Performance issues
-- Security concerns
+### Performance
+- Unnecessary loops or iterations
+- N+1 query problems
+- Missing indexes
+- Large payloads
 - Memory leaks
-- Timezone handling
-- N+1 queries
 
-**Error handling** (only where static analysis does not apply):
-- Unhandled or swallowed exceptions in critical paths; overly broad catch blocks; silent failures; poor logging.
-- Defensive code: timeouts, invalid input, empty responses, failed API calls. Suggest safer error paths and guard clauses.
+```markdown
+**Performance:** This creates an N+1 query problem - one query per user:
+\`\`\`javascript
+for (const user of users) {
+  user.posts = await getPosts(user.id);
+}
+\`\`\`
 
-**Performance and scalability:**
-- N+1: relationships used in loops must be eager-loaded (`with()`, `load()`); no DB or model calls inside loops that could be batched.
-- Avoid nested loops over large data; prefer chunk/cursor and set-based or batched work; cache repeated lookups (e.g. config, reference data).
-- Long or heavy work: run in queues/jobs, not in the request; avoid blocking I/O in the hot path.
-- Memory: unresolved references, uncleared timers/listeners/closures; for large datasets ensure chunk/cursor (not `get()`) and bounded batch size.
-- Scalability: locking, queue depth, missing caching for hot paths, data structures or algorithms that do not scale with volume.
+Consider using a batch query or join.
+```
 
----
+### Maintainability
+- Is the code readable?
+- Are names descriptive?
+- Is the logic easy to follow?
+- Will this be easy to modify later?
 
-## 8. Code Quality & Technical Debt
+```markdown
+**Readability:** This function does a lot - consider splitting:
+- Validation logic → `validateUserInput()`
+- Transformation → `transformUserData()`
+- Persistence → `saveUser()`
 
-**Compliance with project standards:**
-- Naming: purpose-revealing; PascalCase/camelCase/kebab-case per type.
-- Single responsibility; DTOs not `array<mixed>`; DRY; clear interfaces; no magic numbers (use constants).
-- Do not re-check style, types, or issues that PHPStan/Rector/PHPCS/Pint already report.
+This would make each piece easier to test and understand.
+```
 
-**Focus on design:**
-- Unnecessary complexity; large functions; repeated logic; oversized classes; mixed responsibilities.
-- Recommend: simplify structure, improve cohesion, split large units.
-- Rank issues by impact (highest technical debt first) when listing findings.
+### Tests
+- Are tests included?
+- Do tests cover the main paths?
+- Do tests cover edge cases?
+- Are tests readable and maintainable?
 
----
+```markdown
+**Testing:** Good coverage of the happy path! Consider adding tests for:
+- Invalid email format
+- Duplicate email (already registered)
+- Missing required fields
+```
 
-## 9. Security Review
+### Consistency
+- Does it follow project conventions?
+- Does it match existing patterns?
+- Is it consistent with itself?
 
-**Focus on:** Issues static analysis may not fully trace: business-logic flaws, missing authorization checks, data flow to sensitive sinks.
+```markdown
+**Consistency:** The rest of the codebase uses `async/await`, but this uses `.then()`:
+\`\`\`javascript
+fetchUser(id).then(user => { ... });
+\`\`\`
 
-**OWASP-oriented:** Injection (SQL, command, LDAP); XSS (stored/reflected); broken auth/session; sensitive data exposure; CSRF where state-changing actions lack protection.
+Consider using async/await for consistency.
+```
 
-**SQL injection:** Any raw SQL with user/request input must use prepared statements or ORM with bound parameters. Skip if PHPStan/plugins already flag.
+## How to Give Feedback
 
-**XSS:** Unescaped output, dynamic HTML, user input in UI require encoding/sanitization (e.g. Blade escaping, CSP).
+### Be Specific and Actionable
 
-**Auth and access control:** Permission checks on every sensitive action; server-side validation; safe token/session storage and rotation; no trust in client-only flags.
+**Bad:**
+> This code is confusing.
 
----
+**Good:**
+> The nested callbacks make this hard to follow. Consider using async/await or extracting the inner logic into named functions.
 
-## 10. Tests
+### Explain the Why
 
-**Check:**
-- Coverage for changed files only (target 100% for changes). Run tests only for changed files.
-- New code is tested: arrange-act-assert; error cases first; descriptive names; data providers via argument; mock only external services.
-- Identify missing test variations.
-- Laravel: prefer `Http::fake()` over Mockery.
+**Bad:**
+> Use `const` here.
 
----
+**Good:**
+> Use `const` here since `user` is never reassigned. This signals intent to readers and catches accidental reassignment.
 
-## 11. Output
+### Offer Solutions
 
-**Deliver:** Brief summary: issues, risks, improvements. No code changes.
+**Bad:**
+> This won't scale.
 
-**Review best practices:**
-- Give concrete fixes or code snippets where relevant; not only “something is wrong”.
-- Evaluate code in project context and against `.cursor/rules/*.mdc`.
-- Findings are recommendations; final decisions remain with the human reviewer.
+**Good:**
+> This loads all users into memory, which won't scale. Consider:
+> 1. Pagination with limit/offset
+> 2. Streaming with cursor-based pagination
+> 3. If the use case allows, a count query instead
 
----
+### Distinguish Severity
 
-## 12. Review Prompts (Scenarios)
+Use prefixes to indicate importance:
 
-Use these prompts to run a focused review for each priority area. Assume PHPStan, Rector, PHPCS, and Pint are already passing.
+| Prefix | Meaning | Frequency |
+|--------|---------|-----------|
+| **Blocker:** | Must fix before merge - security/bugs only | Rare |
+| **Suggestion:** | Would improve the code, not blocking | Common |
+| **Nit:** | Minor style/preference, definitely not blocking | Occasional |
+| **Question:** | Seeking to understand | As needed |
+| **Praise:** | Something done well | Often! |
 
-### 12.1 Large data processing
+**Important:** Most comments should be Suggestions or Nits, not Blockers. If you find yourself writing many Blockers, reconsider whether they truly block shipping.
 
-Review this code for handling large datasets. Check: (1) Is `get()` used on potentially large result sets? If yes, recommend `chunk()` or `cursor()` and explain when to use which. (2) Are there N+1 queries inside loops or chunk callbacks? Suggest eager loading or set-based updates. (3) Should this run in a queued job instead of the request? (4) Is batch size or memory bounded? Give concrete suggestions and code snippets where applicable.
+```markdown
+**Blocker:** This SQL query is vulnerable to injection. (Security - must fix)
 
-### 12.2 Security risks
+**Suggestion:** Consider extracting this into a helper function for reuse. (Not blocking - can be done later)
 
-Review this code for security. Check: (1) All user/request input reaching SQL — is it parameterized or ORM-bound? Flag any concatenation or raw input in queries. (2) Output that includes user-controlled data — is it escaped/sanitized to prevent XSS? (3) State-changing actions — is CSRF protection present where needed? (4) Sensitive operations — is authorization checked on the server for the current user/role? (5) Tokens, secrets, or sensitive data — are they logged, exposed in responses, or stored insecurely? List only real risks and suggest concrete fixes.
+**Nit:** Extra blank line here. (Definitely not blocking)
 
-### 12.3 SQL optimizations
+**Question:** Why did you choose this approach over X? (Curious, not blocking)
 
-Review the SQL and database usage in this code. Check: (1) Run EXPLAIN (or equivalent) mentally or note where it should be run; flag full table scans, high row estimates, Using filesort/temporary. (2) Are WHERE/JOIN/ORDER BY/GROUP BY columns indexed? Is there a composite index that matches the query shape? (3) Is `SELECT *` used? Recommend selecting only needed columns. (4) Is filtering/sorting/aggregation done in PHP instead of in the database? (5) Are there functions on indexed columns in WHERE (e.g. `DATE(col)`, `LOWER(col)`) that prevent index use? Suggest indexed-friendly alternatives and index changes.
+**Praise:** Really clean error handling here! (Always welcome)
+```
 
-### 12.4 Performance
+### Ask Questions Instead of Demanding
 
-Review this code for performance. Check: (1) N+1 queries — are relationships used in loops eager-loaded with `with()` or `load()`? (2) Are there nested loops over large collections or repeated DB/service calls that could be batched or cached? (3) Is heavy or long-running work done in the request instead of in a queue? (4) Are there obvious memory risks (e.g. loading large result sets with `get()`, or unbounded collections)? (5) For hot paths, is repeated data (e.g. config, reference data) cached? Give specific, actionable recommendations with code examples where helpful.
+**Demanding:**
+> Change this to use a Map instead of an object.
+
+**Collaborative:**
+> Have you considered using a Map here? It might give better performance for frequent lookups. What do you think?
+
+## Common Review Scenarios
+
+### When You'd Do It Differently
+
+Don't block for preference. Ask yourself:
+- Is their way wrong, or just different?
+- Does it work correctly?
+- Is it maintainable?
+
+If it's just different:
+```markdown
+**Note:** I might have used X approach here, but this works well too. Not blocking.
+```
+
+### When Something Is Missing
+
+```markdown
+**Missing:** I don't see error handling for the case where the API returns 404. What should happen?
+```
+
+### When You Don't Understand
+
+```markdown
+**Question:** I'm not following the logic in this section. Could you add a comment explaining the business rule, or walk me through it?
+```
+
+### When Praising Good Work
+
+Don't just point out problems:
+```markdown
+**Praise:** Nice job extracting this into a reusable hook! This will help with the other forms too.
+
+**Praise:** The test coverage here is excellent.
+```
+
+## Review Response Templates
+
+**Default to Approve.** Most reviews should approve, possibly with suggestions.
+
+### Approve (Most Common)
+```markdown
+**[Architect]** LGTM! Clean implementation, good test coverage.
+
+Minor suggestions (not blocking):
+- Line 42: prefer const
+- Consider adding a comment explaining the retry logic
+
+Merging as-is is fine. Address these if you agree, or not - your call.
+```
+
+### Approve with Suggestions
+```markdown
+**[Architect]** Approving - this is solid work.
+
+A few things to consider (can address now or in follow-up):
+1. The validation could be more specific about what's wrong
+2. Consider adding logging for debugging
+
+Not blocking merge. Ship it!
+```
+
+### Request Changes (Rare - Use Sparingly)
+
+**Only use for genuine blockers: security issues, bugs, or missing critical functionality.**
+
+```markdown
+**[Architect]** Good progress! Found one issue that needs fixing before merge:
+
+**Blocker:**
+1. SQL injection vulnerability in the search query - this is a security risk
+
+Everything else looks good. Happy to re-review once the security fix is in.
+```
+
+**Ask yourself before requesting changes:**
+- Will this cause a production incident if shipped?
+- Is this a security vulnerability?
+- Does it break existing functionality?
+
+If the answer to all three is "no", consider approving with suggestions instead.
+
+### Decline (N/A)
+```markdown
+**[UI/UX]** N/A - No UI changes in this PR.
+
+Reviewed: Backend/infrastructure changes only, no user-facing impact.
+```
+
+## Review Etiquette
+
+### Do
+- Review promptly (within 24 hours ideally)
+- Be thorough but not pedantic
+- Acknowledge good work
+- Offer to discuss complex issues in person/call
+- Re-review quickly after changes
+
+### Don't
+- Nitpick excessively
+- Bike-shed on minor style issues
+- Block for preferences
+- Be condescending
+- Leave reviews hanging
+
+## Self-Review Checklist
+
+Before requesting review, authors should self-review:
+
+- [ ] I've re-read my own diff
+- [ ] Tests pass locally
+- [ ] No console.logs or debug code left
+- [ ] No commented-out code
+- [ ] Variable names are descriptive
+- [ ] Complex logic has comments
+- [ ] Error cases are handled
+- [ ] No obvious security issues

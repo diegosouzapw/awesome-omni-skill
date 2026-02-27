@@ -1,508 +1,161 @@
 ---
 name: codex-review
-description: OpenAI Codex CLI code review with GPT-5.2-Codex, CI/CD integration
+description: Two-pass adversarial review of design documents and implementation plans using OpenAI Codex CLI. Invokes Codex to review plans section-by-section (pass 1), then holistically (pass 2), feeding critique back for revision. Use when you have a design doc, architecture plan, or implementation plan that should be stress-tested before execution.
 ---
 
-# OpenAI Codex Code Review Skill
+# Codex Adversarial Review
 
-*Load with: base.md + code-review.md*
+Use this skill to get an independent adversarial review of design documents and implementation plans by invoking OpenAI Codex CLI as a reviewer. The review happens in two passes:
 
-Use OpenAI's Codex CLI for specialized code review with GPT-5.2-Codex - trained specifically for detecting bugs, security flaws, and code quality issues.
+1. **Pass 1 — Section Review**: Each major section is reviewed independently for local issues (correctness, completeness, feasibility, internal consistency)
+2. **Pass 2 — Holistic Review**: The full document is reviewed for cross-cutting concerns (contradictions between sections, missing integration points, architectural gaps, unaddressed failure modes)
 
-**Sources:** [Codex CLI](https://developers.openai.com/codex/cli/) | [GitHub](https://github.com/openai/codex) | [Code Review Cookbook](https://cookbook.openai.com/examples/codex/build_code_review_with_codex_sdk)
+After each pass, Claude integrates the feedback and revises the plan before proceeding.
 
----
+## Prerequisites
 
-## Why Codex for Code Review?
+- Python 3.10+ (no extra packages required — stdlib only)
+- `codex` CLI installed and authenticated (`npm i -g @openai/codex`)
+- Authentication configured (ChatGPT auth or `OPENAI_API_KEY` / `CODEX_API_KEY` set)
+- The plan/design document exists as a file (markdown preferred)
 
-| Feature | Benefit |
-|---------|---------|
-| **GPT-5.2-Codex** | Specialized training for code review |
-| **88% detection rate** | Bugs, security flaws, style issues (LiveCodeBench) |
-| **Structured output** | JSON schema for consistent findings |
-| **GitHub native** | `@codex review` in PR comments |
-| **Headless mode** | CI/CD automation without TUI |
+All scripts are Python for cross-platform compatibility (Windows, macOS, Linux).
 
----
+## When to Use
 
-## Installation
+- After drafting a design document or implementation plan
+- Before executing a plan with Claude Code's superpowers/execute-plan
+- When you want a second opinion on architecture decisions
+- When a plan is complex enough that internal inconsistencies are likely
 
-### Prerequisites
+## Workflow
 
-```bash
-# Check Node.js version (requires 22+)
-node --version
+### Step 0: Preparation
 
-# Install Node.js 22 if needed
-# macOS
-brew install node@22
+Before invoking any review, ensure:
+1. The plan document exists as a file. If the plan is only in conversation context, write it to a file first.
+2. Identify the document path — all scripts expect this as input.
+3. Check that `codex` is available: `which codex`
 
-# Or via nvm
-nvm install 22
-nvm use 22
-```
+### Step 1: Section Extraction
 
-### Install Codex CLI
+Split the document into reviewable sections. Use the `scripts/extract-sections.sh` script:
 
 ```bash
-# Via npm (recommended)
-npm install -g @openai/codex
-
-# Via Homebrew (macOS)
-brew install --cask codex
-
-# Verify installation
-codex --version
+python3 /path/to/codex-review/scripts/extract_sections.py <plan-file>
 ```
 
-### Authentication
+This creates a `.codex-review/sections/` directory with individual section files. Each file contains the section content plus minimal surrounding context (the document title and table of contents if present) so Codex can understand where the section fits.
 
-**Option 1: ChatGPT Subscription** (Plus, Pro, Team, Edu, Enterprise)
-```bash
-codex
-# Follow prompts to sign in with ChatGPT account
-```
+### Step 2: Pass 1 — Section Reviews
 
-**Option 2: OpenAI API Key**
-```bash
-# Set environment variable
-export OPENAI_API_KEY=sk-proj-...
-
-# Or add to shell profile
-echo 'export OPENAI_API_KEY=sk-proj-...' >> ~/.zshrc
-
-# Run Codex
-codex
-```
-
-### Shell Completions (Optional)
+For each section, invoke Codex with the section review prompt:
 
 ```bash
-# Bash
-codex completion bash >> ~/.bashrc
-
-# Zsh
-codex completion zsh >> ~/.zshrc
-
-# Fish
-codex completion fish > ~/.config/fish/completions/codex.fish
+python3 /path/to/codex-review/scripts/review_section.py <section-file> [review-type]
 ```
 
----
+Where `review-type` is one of:
+- `architecture` (default) — focuses on structural soundness, component boundaries, data flow
+- `implementation` — focuses on feasibility, ordering, dependencies, edge cases  
+- `api` — focuses on interface contracts, backwards compatibility, error handling
+- `data` — focuses on data models, migrations, consistency, performance
 
-## Interactive Code Review
+Each section review produces a structured feedback file in `.codex-review/feedback/pass1/`.
 
-### Launch Review Mode
+**Review the pass 1 feedback with the user.** Present a summary of findings per section, categorized by severity:
+- 🔴 **Critical** — Blocking issues, correctness problems, missing requirements
+- 🟡 **Warning** — Gaps, potential issues, unclear specifications
+- 🔵 **Suggestion** — Improvements, alternatives worth considering
+
+**Revise the plan** based on pass 1 feedback before proceeding to pass 2. This is important — pass 2 should review the *improved* plan, not the original.
+
+### Step 3: Pass 2 — Holistic Review
+
+After revisions, invoke the holistic review on the full (revised) document:
 
 ```bash
-# Start Codex
-codex
-
-# In the TUI, type:
-/review
+python3 /path/to/codex-review/scripts/review_holistic.py <plan-file> <pass1-feedback-dir>
 ```
 
-### Review Presets
+This pass specifically looks for:
+- Contradictions between sections
+- Missing integration points or handoff gaps
+- Unaddressed failure modes and error propagation
+- Implicit assumptions that aren't documented
+- Ordering and dependency issues across sections
+- Security and operational concerns
 
-| Preset | Use Case |
-|--------|----------|
-| **Review against base branch** | Before opening PR - diffs against upstream |
-| **Review uncommitted changes** | Before committing - staged + unstaged + untracked |
-| **Review a commit** | Analyze specific SHA from history |
-| **Custom instructions** | e.g., "Focus on security vulnerabilities" |
+The holistic review also receives the pass 1 feedback so it can verify that earlier issues were actually addressed.
 
-### Example Session
+Output goes to `.codex-review/feedback/pass2/holistic-review.md`.
 
-```
-$ codex
-> /review
+### Step 4: Final Integration
 
-Select review type:
-❯ Review against a base branch
-  Review uncommitted changes
-  Review a commit
-  Custom review instructions
-
-Select base branch: main
-
-Reviewing changes...
-
-┌─────────────────────────────────────────────────────────────┐
-│ CODE REVIEW FINDINGS                                        │
-├─────────────────────────────────────────────────────────────┤
-│ 🔴 CRITICAL: SQL Injection vulnerability                    │
-│    File: src/api/users.ts:45                                │
-│    Issue: User input directly interpolated in query         │
-│    Fix: Use parameterized queries                           │
-├─────────────────────────────────────────────────────────────┤
-│ 🟠 HIGH: Missing authentication check                       │
-│    File: src/api/admin.ts:23                                │
-│    Issue: Admin endpoint accessible without auth            │
-│    Fix: Add requireAuth middleware                          │
-├─────────────────────────────────────────────────────────────┤
-│ 🟡 MEDIUM: Inefficient database query                       │
-│    File: src/services/orders.ts:89                          │
-│    Issue: N+1 query pattern in loop                         │
-│    Fix: Use batch query or JOIN                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
----
-
-## Headless Mode (Automation)
-
-### Basic Usage
-
-```bash
-# Simple review
-codex exec "review the code for bugs and security issues"
-
-# Review with JSON output
-codex exec --json "review uncommitted changes" > review.json
-
-# Save final message to file
-codex exec --output-last-message review.txt "review the diff against main"
-```
-
-### Full Automation (CI/CD)
-
-```bash
-# Full auto mode (use only in isolated runners!)
-codex exec \
-  --full-auto \
-  --json \
-  --output-last-message findings.txt \
-  --sandbox read-only \
-  -m gpt-5.2-codex \
-  "Review this code for bugs, security issues, and performance problems"
-```
-
-### Structured Output with Schema
-
-```bash
-# Define output schema
-cat > review-schema.json << 'EOF'
-{
-  "type": "object",
-  "properties": {
-    "findings": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "severity": { "enum": ["critical", "high", "medium", "low"] },
-          "title": { "type": "string" },
-          "file": { "type": "string" },
-          "line": { "type": "integer" },
-          "description": { "type": "string" },
-          "suggestion": { "type": "string" }
-        },
-        "required": ["severity", "title", "file", "description"]
-      }
-    },
-    "summary": { "type": "string" },
-    "approved": { "type": "boolean" }
-  },
-  "required": ["findings", "summary", "approved"]
-}
-EOF
-
-# Run with schema validation
-codex exec \
-  --output-schema review-schema.json \
-  --output-last-message review.json \
-  "Review the staged changes and output findings"
-```
-
----
-
-## GitHub Integration
-
-### Option 1: PR Comment Trigger
-
-In any pull request, add a comment:
-```
-@codex review
-```
-
-Codex will respond with a standard GitHub code review.
-
-### Option 2: GitHub Action
-
-```yaml
-# .github/workflows/codex-review.yml
-name: Codex Code Review
-
-on:
-  pull_request:
-    types: [opened, synchronize]
-
-jobs:
-  review:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write
-
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Codex Review
-        uses: openai/codex-action@main
-        with:
-          openai_api_key: ${{ secrets.OPENAI_API_KEY }}
-          model: gpt-5.2-codex
-          safety_strategy: drop-sudo
-```
-
-### Option 3: Manual Headless in CI
-
-```yaml
-# .github/workflows/codex-review.yml
-name: Codex Code Review
-
-on:
-  pull_request:
-
-jobs:
-  review:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-
-      - name: Install Codex CLI
-        run: npm install -g @openai/codex
-
-      - name: Run Review
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          # Get diff
-          git diff origin/${{ github.base_ref }}...HEAD > diff.txt
-
-          # Run Codex review
-          codex exec \
-            --full-auto \
-            --sandbox read-only \
-            --output-last-message review.md \
-            "Review this git diff for bugs, security issues, and code quality: $(cat diff.txt)"
-
-      - name: Post Review Comment
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const fs = require('fs');
-            const review = fs.readFileSync('review.md', 'utf8');
-            github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: `## 🤖 Codex Code Review\n\n${review}`
-            });
-```
-
----
-
-## GitLab CI/CD
-
-```yaml
-# .gitlab-ci.yml
-codex-review:
-  image: node:22
-  stage: review
-  script:
-    - npm install -g @openai/codex
-    - |
-      codex exec \
-        --full-auto \
-        --sandbox read-only \
-        --output-last-message review.md \
-        "Review the merge request changes for bugs and security issues"
-    - cat review.md
-  artifacts:
-    paths:
-      - review.md
-  rules:
-    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
-```
-
----
-
-## Jenkins Pipeline
-
-```groovy
-pipeline {
-    agent any
-
-    environment {
-        OPENAI_API_KEY = credentials('openai-api-key')
-    }
-
-    stages {
-        stage('Install Codex') {
-            steps {
-                sh 'npm install -g @openai/codex'
-            }
-        }
-
-        stage('Code Review') {
-            steps {
-                sh '''
-                    codex exec \
-                      --full-auto \
-                      --sandbox read-only \
-                      --output-last-message review.md \
-                      "Review the code changes for bugs and security issues"
-                '''
-            }
-        }
-
-        stage('Publish Results') {
-            steps {
-                archiveArtifacts artifacts: 'review.md'
-                script {
-                    def review = readFile('review.md')
-                    echo "Code Review Results:\n${review}"
-                }
-            }
-        }
-    }
-}
-```
-
----
+Present the pass 2 findings to the user. Apply final revisions. The complete review trail is preserved in `.codex-review/` for reference.
 
 ## Configuration
 
-### Config File
+The skill respects these environment variables:
 
-```toml
-# ~/.codex/config.toml
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `CODEX_REVIEW_MODEL` | (codex default) | Override the Codex model for reviews |
+| `CODEX_REVIEW_TIMEOUT` | `120` | Timeout in seconds per review invocation |
+| `CODEX_REVIEW_VERBOSE` | `0` | Set to `1` to show Codex stderr output |
 
-[model]
-default = "gpt-5.2-codex"  # Best for code review
+## Tips
 
-[sandbox]
-default = "read-only"  # Safe for reviews
+- For very large documents (>3000 words), section review is essential — Codex gives better feedback on focused chunks
+- The `implementation` review type is best for plans that will be fed to execute-plan
+- You can re-run just pass 2 after manual edits without redoing pass 1
+- If Codex flags something you disagree with, note it as `[ACKNOWLEDGED]` — the holistic pass will see this and won't re-flag it
+- Keep the `.codex-review/` directory around — it's useful for understanding why decisions were made later
 
-[review]
-# Custom review instructions applied to all reviews
-instructions = """
-Focus on:
-1. Security vulnerabilities (OWASP Top 10)
-2. Performance issues (N+1 queries, memory leaks)
-3. Error handling gaps
-4. Type safety issues
-"""
-```
+## Iterating on Subsections
 
-### Per-Project Config
-
-```toml
-# .codex/config.toml (in project root)
-
-[review]
-instructions = """
-This is a Python FastAPI project. Focus on:
-- Async/await correctness
-- Pydantic model validation
-- SQL injection via SQLAlchemy
-- Authentication/authorization gaps
-"""
-```
-
----
-
-## CLI Quick Reference
+If pass 1 reveals major issues in a specific section, use the iteration script to do focused multi-round review using Codex session resume:
 
 ```bash
-# Interactive
-codex                          # Start TUI
-/review                        # Open review presets
-
-# Headless
-codex exec "prompt"            # Non-interactive execution
-codex exec --json "prompt"     # JSON output
-codex exec --full-auto "prompt"  # No approval prompts
-
-# Key Flags
---output-last-message FILE     # Save response to file
---output-schema FILE           # Validate against JSON schema
---sandbox read-only            # Restrict file access
--m gpt-5.2-codex              # Use best review model
---json                         # Machine-readable output
-
-# Resume
-codex exec resume SESSION_ID   # Continue previous session
+python3 /path/to/codex-review/scripts/iterate_section.py <section-file> <revised-section-file> [review-type] [max-rounds]
 ```
 
----
+**How it works:**
 
-## Comparison: Claude vs Codex Review
+1. Round 1: Codex reviews the original section (creates a session)
+2. Claude (or you) revises the section based on feedback
+3. Round 2+: The script resumes the **same Codex session** via `codex exec resume --last`, passing the revised content. Codex evaluates whether its previous concerns were addressed, marks findings as RESOLVED or UNRESOLVED, and flags any new issues introduced by the revision.
+4. Repeats until Codex responds with "✅ SECTION APPROVED" or `max-rounds` (default 3) is reached.
 
-| Aspect | Claude (Built-in) | Codex CLI |
-|--------|-------------------|-----------|
-| **Setup** | None (already in Claude Code) | Install CLI + auth |
-| **Model** | Claude | GPT-5.2-Codex (specialized) |
-| **Context** | Full conversation context | Fresh context per review |
-| **Integration** | Native | GitHub, GitLab, Jenkins |
-| **Output** | Markdown | JSON schema support |
-| **Best for** | Quick reviews, in-flow | CI/CD, critical PRs |
+**Interactive mode (default):** The script pauses between rounds and waits for ENTER after editing the revised file. Press `q` to stop early.
 
----
+**Non-interactive mode (`--no-interactive`):** Runs all rounds without pausing. Useful when Claude Code manages the edit-review loop externally.
 
-## Security Considerations
+**Single-round mode (`--round N`):** Runs only round N. This is the best option when Claude Code drives the loop — it can run round 1, read feedback, revise the file, then run round 2, etc.
 
-### CI/CD Safety
-
-```yaml
-# Always use these flags in CI/CD:
---sandbox read-only           # Prevent file modifications
---safety-strategy drop-sudo   # Revoke elevated permissions
+Example Claude Code workflow:
+```bash
+# Round 1
+python3 scripts/iterate_section.py sections/03-data-model.md revised.md data --round 1
+# Claude reads feedback, revises revised.md
+# Round 2
+python3 scripts/iterate_section.py sections/03-data-model.md revised.md data --round 2
 ```
 
-### API Key Protection
+**Convergence detection:** The script tracks issue counts across rounds. If issues stop decreasing after 3+ rounds, it warns that manual review may be needed.
 
-```yaml
-# GitHub Actions - use secrets
-env:
-  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+**Fallback:** If `codex exec resume --last` fails (e.g., session expired), the script falls back to a fresh `codex exec` with the revision prompt. This loses conversational context but still gets a review.
 
-# Never hardcode keys
-# Never echo keys in logs
-```
+All iteration feedback is preserved in `.codex-review/feedback/iterations/<section-name>/` with a summary file.
 
-### Public Repositories
+### Recommended Workflow
 
-For public repos, use `drop-sudo` safety strategy to prevent Codex from reading its own API key during execution.
+For plans with mixed quality across sections:
 
----
+1. Run pass 1 on all sections
+2. Triage: identify sections with 🔴 critical findings
+3. Use `iterate-section.sh` on critical sections until approved
+4. Re-run pass 1 on remaining 🟡 warning sections if needed
+5. Only then proceed to pass 2 holistic review
 
-## Troubleshooting
-
-| Issue | Solution |
-|-------|----------|
-| `codex: command not found` | Run `npm install -g @openai/codex` |
-| `Node.js version error` | Upgrade to Node.js 22+ |
-| `Authentication failed` | Re-run `codex` and sign in again |
-| `API key invalid` | Check `OPENAI_API_KEY` env var |
-| `Timeout in CI` | Add `--timeout 300` flag |
-| `Rate limited` | Reduce frequency or upgrade plan |
-
----
-
-## Anti-Patterns
-
-- **Using `--dangerously-bypass-approvals-and-sandbox` casually** - Only in isolated CI runners
-- **Exposing API keys in logs** - Use secrets management
-- **Skipping sandbox in CI** - Always use `--sandbox read-only`
-- **Ignoring findings** - Review and address or document exceptions
-- **Running on every commit** - Use on PRs only to save costs
+This avoids burning a holistic review on a document with known local problems.
