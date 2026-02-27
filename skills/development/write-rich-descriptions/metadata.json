@@ -3,8 +3,8 @@
   "description": "Use metadata for system models (business/technical context) and markdown tables for deployment models (infrastructure specs). Makes models queryable and self-documenting.",
   "category": "development",
   "canonical_category": "development",
-  "repository": "a-scolan/c4-template",
-  "repository_url": "https://github.com/a-scolan/c4-template",
+  "repository": "a-scolan/c4-hands-on-demo",
+  "repository_url": "https://github.com/a-scolan/c4-hands-on-demo",
   "author": "a-scolan",
   "author_avatar": "https://github.com/a-scolan.png",
   "file_path": ".github/skills/write-rich-descriptions/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "9a29912bb1454a3395936af1c3cb07ddaf9eb406cafb46e5226f4b63bbd8f85b",
-  "indexed_at": "2026-02-26T05:52:05.130Z",
-  "synced_at": "2026-02-27T02:29:27.388Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4e4f03236ace9b605da78a7b4fd7683e033c69f558fa1d1f2b08780e9ac8fda2",
-  "install_command": "mkdir -p .claude/skills/write-rich-descriptions && curl -sL \"https://raw.githubusercontent.com/a-scolan/c4-template/main/.github/skills/write-rich-descriptions/SKILL.md\" > .claude/skills/write-rich-descriptions/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/a-scolan/c4-template/main/.github/skills/write-rich-descriptions/SKILL.md"
+  "content_hash": "3736b1918805753b77b7800c75d10ead5be19b7ac563ae8989cff0b8beb81f15",
+  "indexed_at": "2026-02-27T05:51:41.582Z",
+  "synced_at": "2026-02-27T13:13:16.131Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d90ec29f2381fe588add3123ccf45595e3ea8a0a7e8f69d46b39df1f98cc792d",
+  "install_command": "mkdir -p .claude/skills/write-rich-descriptions && curl -sL \"https://raw.githubusercontent.com/a-scolan/c4-hands-on-demo/main/.github/skills/write-rich-descriptions/SKILL.md\" > .claude/skills/write-rich-descriptions/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/a-scolan/c4-hands-on-demo/main/.github/skills/write-rich-descriptions/SKILL.md"
 }

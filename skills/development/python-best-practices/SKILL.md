@@ -1,258 +1,303 @@
 ---
 name: python-best-practices
-description: Python development best practices, patterns, and conventions. Use when writing Python code, reviewing .py files, discussing pytest, asyncio, type hints, pydantic, dataclasses, or Python project structure. Triggers on mentions of Python, pytest, mypy, ruff, black, FastAPI, Django, Flask.
+description: Python code review and best practices validation. Comprehensive analysis including type hints, testing, linting, and package management.
 ---
 
 # Python Best Practices Skill
 
-This skill provides guidance on Python development best practices, patterns, and conventions.
+## Purpose
 
-## Code Style
+Comprehensively analyze Python code quality, type safety, test coverage, and linting compliance.
 
-### Naming Conventions
-- **Variables/Functions**: `snake_case`
-- **Classes**: `PascalCase`
-- **Constants**: `UPPER_SNAKE_CASE`
-- **Private**: `_single_leading_underscore`
-- **"Dunder"**: `__double_underscore__` (reserved for Python)
+## When to Use
 
-### Formatting
-- 4 spaces for indentation (never tabs)
-- Max line length: 88-120 characters (project dependent)
-- Use Black or Ruff for auto-formatting
-- Blank lines: 2 between top-level definitions, 1 within classes
+- **Auto-execute** when Python code review requested
+- When analyzing `.py` files
+- When reviewing FastAPI, Django, Flask projects
+- When inspecting package dependencies
 
-## Type Hints
+## Analysis Categories
 
-```python
-# Function signatures
-def process_data(items: list[str], limit: int = 10) -> dict[str, int]:
-    ...
+### 1. Type Hints (25%)
 
-# Optional values
-def find_user(user_id: int) -> User | None:
-    ...
-
-# Complex types
-from typing import TypeVar, Generic, Protocol
-
-T = TypeVar('T')
-
-class Repository(Protocol[T]):
-    def get(self, id: int) -> T | None: ...
-    def save(self, entity: T) -> None: ...
-```
-
-## Error Handling
+**Check Items**:
+- Function parameter type hints
+- Return type annotations
+- Complex types (Generic, Union, Optional)
+- TypedDict, Protocol usage
 
 ```python
-# DO: Specific exceptions
-try:
-    user = get_user(user_id)
-except UserNotFoundError:
-    logger.warning(f"User {user_id} not found")
-    return None
+# ❌ Bad
+def get_user(id):
+    return db.query(id)
 
-# DON'T: Bare except
-try:
-    user = get_user(user_id)
-except:  # Bad - catches everything including KeyboardInterrupt
-    pass
-
-# Custom exceptions
-class DomainError(Exception):
-    """Base class for domain exceptions."""
-    pass
-
-class UserNotFoundError(DomainError):
-    def __init__(self, user_id: int):
-        self.user_id = user_id
-        super().__init__(f"User {user_id} not found")
+# ✅ Good
+def get_user(id: int) -> User | None:
+    return db.query(id)
 ```
 
-## Data Classes and Models
+**Verification Tool**: `mypy --strict`
+
+### 2. Code Quality (25%)
+
+**Check Items**:
+- PEP 8 style compliance
+- Function/class complexity
+- Import organization
+- Docstring presence
 
 ```python
-from dataclasses import dataclass, field
-from datetime import datetime
+# ❌ Bad
+def f(x,y,z): return x+y+z
 
-@dataclass
-class User:
-    id: int
-    name: str
-    email: str
-    created_at: datetime = field(default_factory=datetime.now)
-    tags: list[str] = field(default_factory=list)
-
-    def __post_init__(self):
-        self.email = self.email.lower()
-
-# For validation, use Pydantic
-from pydantic import BaseModel, EmailStr, Field
-
-class UserCreate(BaseModel):
-    name: str = Field(min_length=1, max_length=100)
-    email: EmailStr
-
-    model_config = {"str_strip_whitespace": True}
+# ✅ Good
+def calculate_sum(a: int, b: int, c: int) -> int:
+    """Calculate the sum of three integers."""
+    return a + b + c
 ```
 
-## Async Patterns
+**Verification Tool**: `ruff check`, `ruff format --check`
+
+### 3. Testing (20%)
+
+**Check Items**:
+- Test files exist (`tests/`, `*_test.py`)
+- Test coverage (≥80% recommended)
+- Fixture usage
+- Mocking patterns
 
 ```python
-import asyncio
-from typing import AsyncIterator
+# ✅ Good test structure
+def test_get_user_returns_user(db_session: Session):
+    user = create_user(db_session, name="test")
+    result = get_user(user.id)
+    assert result.name == "test"
 
-# Async context manager
-class AsyncDatabaseConnection:
-    async def __aenter__(self) -> "AsyncDatabaseConnection":
-        await self.connect()
-        return self
-
-    async def __aexit__(self, exc_type, exc_val, exc_tb):
-        await self.close()
-
-# Async generator
-async def stream_results(query: str) -> AsyncIterator[dict]:
-    async with get_connection() as conn:
-        async for row in conn.execute(query):
-            yield dict(row)
-
-# Concurrent execution
-async def fetch_all(urls: list[str]) -> list[Response]:
-    async with aiohttp.ClientSession() as session:
-        tasks = [fetch_one(session, url) for url in urls]
-        return await asyncio.gather(*tasks)
+def test_get_user_returns_none_for_invalid_id():
+    result = get_user(999999)
+    assert result is None
 ```
 
-## Testing
+**Verification Tool**: `pytest --cov`
+
+### 4. Security (15%)
+
+**Check Items**:
+- SQL Injection prevention
+- Hardcoded secrets
+- Unsafe deserialization
+- Input validation
 
 ```python
-import pytest
-from unittest.mock import Mock, patch, AsyncMock
+# ❌ Bad
+query = f"SELECT * FROM users WHERE id = {user_id}"
 
-# Fixtures
-@pytest.fixture
-def sample_user():
-    return User(id=1, name="Test", email="test@example.com")
-
-@pytest.fixture
-def mock_db():
-    with patch("myapp.database.get_connection") as mock:
-        yield mock
-
-# Parametrized tests
-@pytest.mark.parametrize("input,expected", [
-    ("hello", "HELLO"),
-    ("World", "WORLD"),
-    ("", ""),
-])
-def test_uppercase(input: str, expected: str):
-    assert uppercase(input) == expected
-
-# Async tests
-@pytest.mark.asyncio
-async def test_async_fetch():
-    result = await fetch_data("http://example.com")
-    assert result.status == 200
-
-# Exception testing
-def test_invalid_input_raises():
-    with pytest.raises(ValueError, match="must be positive"):
-        process_value(-1)
+# ✅ Good
+query = "SELECT * FROM users WHERE id = :id"
+result = db.execute(query, {"id": user_id})
 ```
 
-## Project Structure
+**Verification Tool**: `bandit`
 
-```
-myproject/
-├── src/
-│   └── myproject/
-│       ├── __init__.py
-│       ├── core/           # Business logic
-│       ├── api/            # API layer
-│       ├── models/         # Data models
-│       └── utils/          # Utilities
-├── tests/
-│   ├── conftest.py         # Shared fixtures
-│   ├── unit/
-│   └── integration/
-├── pyproject.toml          # Project config
-├── README.md
-└── .env.example
-```
+### 5. Dependencies (15%)
 
-## Dependencies
+**Required Rule**: **Use uv** (pip, poetry, pipenv prohibited)
+
+**Check Items**:
+- `pyproject.toml` (PEP 621 standard) exists
+- `uv.lock` exists and committed
+- Version ranges properly specified (`^`, `~`)
+- Development dependency groups separated
 
 ```toml
-# pyproject.toml
+# ✅ Good pyproject.toml (PEP 621 / uv)
 [project]
-name = "myproject"
+name = "my-project"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = [
-    "pydantic>=2.0",
-    "httpx>=0.24",
-]
+dependencies = []
 
-[project.optional-dependencies]
+[dependency-groups]
 dev = [
-    "pytest>=7.0",
-    "pytest-asyncio>=0.21",
+    "pytest>=8.0",
+    "mypy>=1.8",
     "ruff>=0.1",
-    "mypy>=1.0",
 ]
-
-[tool.ruff]
-line-length = 88
-target-version = "py311"
-
-[tool.mypy]
-strict = true
 ```
 
-## Common Anti-Patterns to Avoid
+```toml
+# ❌ Bad - Using requirements.txt or Poetry format
+[tool.poetry]
+dependencies = {python = "^3.11"}
 
-1. **Mutable default arguments**
-   ```python
-   # Bad
-   def add_item(item, items=[]):
-       items.append(item)
-       return items
+# ❌ Bad - Using poetry.lock
+```
 
-   # Good
-   def add_item(item, items=None):
-       if items is None:
-           items = []
-       items.append(item)
-       return items
-   ```
+**Verification Tool**: `uv lock --check`, `uv sync --frozen`
 
-2. **Using `type()` for type checking**
-   ```python
-   # Bad
-   if type(x) == list:
+**Docker Pattern**:
+```dockerfile
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
+COPY pyproject.toml uv.lock ./
+RUN uv sync --frozen --no-dev
+```
 
-   # Good
-   if isinstance(x, list):
-   ```
+---
 
-3. **Catching too broadly**
-   ```python
-   # Bad
-   except Exception:
+## Output Format
 
-   # Good
-   except (ValueError, TypeError):
-   ```
+### High Quality (≥90%)
+```
+📋 Python Best Practices Check:
+   ✅ Type Hints: 95% coverage (mypy strict pass)
+   ✅ Code Quality: A (ruff 0 errors)
+   ✅ Testing: 87% coverage (42 tests)
+   ✅ Security: No issues (bandit clean)
+   ✅ Dependencies: All pinned, no vulnerabilities
 
-4. **String concatenation in loops**
-   ```python
-   # Bad
-   result = ""
-   for item in items:
-       result += str(item)
+📊 Score: 0.94 (94%)
+✅ Production Ready
+```
 
-   # Good
-   result = "".join(str(item) for item in items)
-   ```
+### Needs Improvement (70-89%)
+```
+📋 Python Best Practices Check:
+   ✅ Type Hints: 78% coverage
+   ⚠️  Code Quality: B (12 ruff warnings)
+   ✅ Testing: 72% coverage
+   ⚠️  Security: 2 low-severity issues
+   ✅ Dependencies: OK
+
+📊 Score: 0.76 (76%)
+⚠️  Review Recommended
+
+💡 Improvements Needed:
+1. src/utils.py:45 - Missing type hints
+2. src/api.py:120 - High complexity (refactor recommended)
+3. src/db.py:67 - Caution with SQL string formatting
+```
+
+### Poor Quality (<70%)
+```
+📋 Python Best Practices Check:
+   ❌ Type Hints: 32% coverage
+   ❌ Code Quality: D (47 errors)
+   ❌ Testing: 15% coverage (3 tests)
+   ⚠️  Security: 5 issues
+   ❌ Dependencies: Unpinned versions
+
+📊 Score: 0.42 (42%)
+❌ Not Ready for Review
+
+🚨 Critical Issues:
+1. Insufficient type safety - mypy cannot run
+2. Test coverage critically low
+3. requirements.txt versions not pinned
+```
+
+---
+
+## Verification Commands
+
+```bash
+# Run in uv environment
+
+# Type checking
+uv run mypy --strict src/
+
+# Linting & formatting
+uv run ruff check src/
+uv run ruff format --check src/
+
+# Testing
+uv run pytest --cov=src --cov-report=term-missing
+
+# Security
+uv run bandit -r src/
+
+# Dependencies
+uv lock --check        # Check lock file sync
+uv sync --frozen       # Verify install from lock
+uv pip list --outdated # List updatable packages
+
+# Virtual environment management
+uv venv                # Show/create environment info
+uv sync                # Install dependencies
+uv lock --upgrade      # Upgrade dependencies
+```
+
+---
+
+## Framework-Specific Checks
+
+### FastAPI
+```python
+# ✅ Good patterns
+from fastapi import Depends, HTTPException, status
+from pydantic import BaseModel
+
+class UserCreate(BaseModel):
+    name: str
+    email: EmailStr
+
+@app.post("/users", response_model=UserResponse)
+async def create_user(
+    user: UserCreate,
+    db: Session = Depends(get_db)
+) -> UserResponse:
+    ...
+```
+
+**Additional Checks**:
+- Pydantic model usage
+- Dependency injection pattern
+- Async endpoints
+- OpenAPI documentation
+
+### Django
+```python
+# ✅ Good patterns
+from django.db import models
+from django.core.validators import MinLengthValidator
+
+class User(models.Model):
+    name = models.CharField(max_length=100, validators=[MinLengthValidator(2)])
+    email = models.EmailField(unique=True)
+
+    class Meta:
+        indexes = [models.Index(fields=['email'])]
+```
+
+**Additional Checks**:
+- Model indexes
+- Migration state
+- Security middleware
+- CSRF protection
+
+---
+
+## Integration with Other Skills
+
+```
+/confidence-check     → Verify Python project architecture
+    │
+    ▼
+/python-best-practices → Analyze code quality
+    │
+    ▼
+/verify               → Verify build/tests
+    │
+    ▼
+/learn                → Save patterns
+```
+
+---
+
+## Commands
+
+| Command | Description |
+|---------|-------------|
+| `/python-best-practices` | Full analysis |
+| `/python-best-practices --quick` | Type/lint only |
+| `/python-best-practices --security` | Security focus |
+| `/python-best-practices --deps` | Dependencies focus |

@@ -1,225 +1,329 @@
 ---
 name: api-design
-license: MIT
-compatibility: "Claude Code 2.1.56+."
-description: API design patterns for REST/GraphQL framework design, versioning strategies, and RFC 9457 error handling. Use when designing API endpoints, choosing versioning schemes, implementing Problem Details errors, or building OpenAPI specifications.
-tags: [api-design, rest, graphql, versioning, error-handling, rfc9457, openapi, problem-details]
-context: fork
-agent: backend-system-architect
-version: 2.0.0
-author: OrchestKit
-user-invocable: false
-complexity: medium
-metadata:
-  category: document-asset-creation
+description: "REST and GraphQL API design patterns. Covers endpoint structure, versioning, authentication, error handling, rate limiting, and OpenAPI documentation."
+version: 1.0.0
+triggers:
+  - api design
+  - rest api
+  - graphql
+  - endpoint
+  - api routes
+  - openapi
 ---
 
-# API Design
+# API Design Skill
 
-Comprehensive API design patterns covering REST/GraphQL framework design, versioning strategies, and RFC 9457 error handling. Each category has individual rule files in `rules/` loaded on-demand.
+Design robust, scalable APIs following industry best practices for REST and GraphQL.
 
-## Quick Reference
+## REST API Patterns
 
-| Category | Rules | Impact | When to Use |
-|----------|-------|--------|-------------|
-| [API Framework](#api-framework) | 3 | HIGH | REST conventions, resource modeling, OpenAPI specifications |
-| [Versioning](#versioning) | 3 | HIGH | URL path versioning, header versioning, deprecation/sunset policies |
-| [Error Handling](#error-handling) | 3 | HIGH | RFC 9457 Problem Details, validation errors, error type registries |
-| [GraphQL](#graphql) | 2 | HIGH | Strawberry code-first, DataLoader, permissions, subscriptions |
-| [gRPC](#grpc) | 2 | HIGH | Protobuf services, streaming, interceptors, retry |
-| [Streaming](#streaming) | 2 | HIGH | SSE endpoints, WebSocket bidirectional, async generators |
+### Resource Naming
 
-| [Integrations](#integrations) | 2 | HIGH | Messaging platforms (WhatsApp, Telegram), Payload CMS patterns |
+```
+# Good - Nouns, plural, hierarchical
+GET    /api/v1/users
+GET    /api/v1/users/{id}
+GET    /api/v1/users/{id}/posts
+POST   /api/v1/users
+PUT    /api/v1/users/{id}
+PATCH  /api/v1/users/{id}
+DELETE /api/v1/users/{id}
 
-**Total: 17 rules across 7 categories**
-
-## API Framework
-
-REST and GraphQL API design conventions for consistent, developer-friendly APIs.
-
-| Rule | File | Key Pattern |
-|------|------|-------------|
-| REST Conventions | `rules/framework-rest-conventions.md` | Plural nouns, HTTP methods, status codes, pagination |
-| Resource Modeling | `rules/framework-resource-modeling.md` | Hierarchical URLs, filtering, sorting, field selection |
-| OpenAPI | `rules/framework-openapi.md` | OpenAPI 3.1 specs, documentation, schema definitions |
-
-## Versioning
-
-Strategies for API evolution without breaking clients.
-
-| Rule | File | Key Pattern |
-|------|------|-------------|
-| URL Path | `rules/versioning-url-path.md` | `/api/v1/` prefix routing, version-specific schemas |
-| Header | `rules/versioning-header.md` | `X-API-Version` header, content negotiation |
-| Deprecation | `rules/versioning-deprecation.md` | Sunset headers, lifecycle management, breaking change policy |
-
-## Error Handling
-
-RFC 9457 Problem Details for machine-readable, standardized error responses.
-
-| Rule | File | Key Pattern |
-|------|------|-------------|
-| Problem Details | `rules/errors-problem-details.md` | RFC 9457 schema, `application/problem+json`, exception classes |
-| Validation | `rules/errors-validation.md` | Field-level errors, Pydantic integration, 422 responses |
-| Error Catalog | `rules/errors-error-catalog.md` | Problem type registry, error type URIs, client handling |
-
-## GraphQL
-
-Strawberry GraphQL code-first schema with type-safe resolvers and FastAPI integration.
-
-| Rule | File | Key Pattern |
-|------|------|-------------|
-| Schema Design | `rules/graphql-strawberry.md` | Type-safe schema, DataLoader, union errors, Private fields |
-| Patterns & Auth | `rules/graphql-schema.md` | Permission classes, FastAPI integration, subscriptions |
-
-## gRPC
-
-High-performance gRPC for internal microservice communication.
-
-| Rule | File | Key Pattern |
-|------|------|-------------|
-| Service Definition | `rules/grpc-service.md` | Protobuf, async server, client timeout, code generation |
-| Streaming & Interceptors | `rules/grpc-streaming.md` | Server/bidirectional streaming, auth, retry backoff |
-
-## Streaming
-
-Real-time data streaming with SSE, WebSockets, and proper cleanup.
-
-| Rule | File | Key Pattern |
-|------|------|-------------|
-| SSE | `rules/streaming-sse.md` | SSE endpoints, LLM streaming, reconnection, keepalive |
-| WebSocket | `rules/streaming-websocket.md` | Bidirectional, heartbeat, aclosing(), backpressure |
-
-## Integrations
-
-Messaging platform integrations and headless CMS patterns.
-
-| Rule | File | Key Pattern |
-|------|------|-------------|
-| Messaging Platforms | `rules/messaging-integrations.md` | WhatsApp WAHA, Telegram Bot API, webhook security |
-| Payload CMS | `rules/payload-cms.md` | Payload 3.0 collections, access control, CMS selection |
-
-## Quick Start Example
-
-```python
-# REST endpoint with versioning and RFC 9457 errors
-from fastapi import APIRouter, Depends, Request
-from fastapi.responses import JSONResponse
-
-router = APIRouter()
-
-@router.get("/api/v1/users/{user_id}")
-async def get_user(user_id: str, service: UserService = Depends()):
-    user = await service.get_user(user_id)
-    if not user:
-        raise NotFoundProblem(
-            resource="User",
-            resource_id=user_id,
-        )
-    return UserResponseV1(id=user.id, name=user.full_name)
+# Bad
+GET /api/getUsers          # Verb in URL
+GET /api/user              # Singular
+POST /api/createUser       # Action in URL
 ```
 
-## Key Decisions
+### HTTP Methods
 
-| Decision | Recommendation |
-|----------|----------------|
-| Versioning strategy | URL path (`/api/v1/`) for public APIs |
-| Resource naming | Plural nouns, kebab-case |
-| Pagination | Cursor-based for large datasets |
-| Error format | RFC 9457 Problem Details with `application/problem+json` |
-| Error type URI | Your API domain + `/problems/` prefix |
-| Support window | Current + 1 previous version |
-| Deprecation notice | 3 months minimum before sunset |
-| Sunset period | 6 months after deprecation |
-| GraphQL schema | Code-first with Strawberry types |
-| N+1 prevention | DataLoader for all nested resolvers |
-| GraphQL auth | Permission classes (context-based) |
-| gRPC proto | One service per file, shared common.proto |
-| gRPC streaming | Server stream for lists, bidirectional for real-time |
-| SSE keepalive | Every 30 seconds |
-| WebSocket heartbeat | ping-pong every 30 seconds |
-| Async generator cleanup | aclosing() for all external resources |
+| Method | Purpose | Idempotent | Safe |
+|--------|---------|------------|------|
+| GET | Read | Yes | Yes |
+| POST | Create | No | No |
+| PUT | Replace | Yes | No |
+| PATCH | Update | Yes | No |
+| DELETE | Remove | Yes | No |
 
-## Common Mistakes
+### Response Codes
 
-1. Verbs in URLs (`POST /createUser` instead of `POST /users`)
-2. Inconsistent error formats across endpoints
-3. Breaking contracts without version bump
-4. Plain text error responses instead of Problem Details
-5. Sunsetting versions without deprecation headers
-6. Exposing internal details (stack traces, DB errors) in errors
-7. Missing `Content-Type: application/problem+json` on error responses
-8. Supporting too many concurrent API versions (max 2-3)
-9. Caching without considering version isolation
+```typescript
+// Success
+200 OK              // GET, PUT, PATCH success
+201 Created         // POST success (include Location header)
+204 No Content      // DELETE success
 
-## Evaluations
+// Client Errors
+400 Bad Request     // Invalid input
+401 Unauthorized    // No/invalid auth
+403 Forbidden       // Valid auth, no permission
+404 Not Found       // Resource doesn't exist
+409 Conflict        // State conflict (duplicate)
+422 Unprocessable   // Validation error
+429 Too Many Reqs   // Rate limited
 
-See `test-cases.json` for 9 test cases across all categories.
+// Server Errors
+500 Internal Error  // Unexpected error
+503 Unavailable     // Maintenance/overload
+```
 
-## Related Skills
+### Standard Response Format
 
-- `fastapi-advanced` - FastAPI-specific implementation patterns
-- `rate-limiting` - Advanced rate limiting implementations and algorithms
-- `observability-monitoring` - Version usage metrics and error tracking
-- `input-validation` - Validation patterns beyond API error handling
-- `streaming-api-patterns` - SSE and WebSocket patterns for real-time APIs
+```typescript
+// Success response
+{
+  "data": {
+    "id": "123",
+    "type": "user",
+    "attributes": {
+      "name": "Frank",
+      "email": "frank@frankx.ai"
+    }
+  },
+  "meta": {
+    "timestamp": "2026-01-23T12:00:00Z"
+  }
+}
 
-## Capability Details
+// Error response
+{
+  "error": {
+    "code": "VALIDATION_ERROR",
+    "message": "Email is required",
+    "details": [
+      { "field": "email", "message": "Required field" }
+    ]
+  }
+}
 
-### rest-design
-**Keywords:** rest, restful, http, endpoint, route, path, resource, CRUD
-**Solves:**
-- How do I design RESTful APIs?
-- REST endpoint patterns and conventions
-- HTTP methods and status codes
+// Paginated response
+{
+  "data": [...],
+  "meta": {
+    "total": 100,
+    "page": 1,
+    "perPage": 20,
+    "totalPages": 5
+  },
+  "links": {
+    "self": "/api/v1/users?page=1",
+    "next": "/api/v1/users?page=2",
+    "last": "/api/v1/users?page=5"
+  }
+}
+```
 
-### graphql-design
-**Keywords:** graphql, schema, query, mutation, connection, relay
-**Solves:**
-- How do I design GraphQL APIs?
-- Schema design best practices
-- Connection pattern for pagination
+## Next.js API Routes
 
-### endpoint-design
-**Keywords:** endpoint, route, path, resource, CRUD, openapi
-**Solves:**
-- How do I structure API endpoints?
-- What's the best URL pattern for this resource?
-- RESTful endpoint naming conventions
+### Route Handler Pattern
 
-### url-versioning
-**Keywords:** url version, path version, /v1/, /v2/
-**Solves:**
-- How to version REST APIs?
-- URL-based API versioning
+```typescript
+// app/api/users/route.ts
+import { NextRequest, NextResponse } from 'next/server';
+import { z } from 'zod';
 
-### header-versioning
-**Keywords:** header version, X-API-Version, content negotiation
-**Solves:**
-- Clean URL versioning
-- Header-based API version
+const CreateUserSchema = z.object({
+  name: z.string().min(1),
+  email: z.string().email(),
+});
 
-### deprecation
-**Keywords:** deprecation, sunset, version lifecycle, backward compatible
-**Solves:**
-- How to deprecate API versions?
-- Version sunset policy
-- Breaking vs non-breaking changes
+export async function GET(request: NextRequest) {
+  const { searchParams } = new URL(request.url);
+  const page = parseInt(searchParams.get('page') ?? '1');
+  const limit = parseInt(searchParams.get('limit') ?? '20');
 
-### problem-details
-**Keywords:** problem details, RFC 9457, RFC 7807, structured error, application/problem+json
-**Solves:**
-- How to standardize API error responses?
-- What format for API errors?
+  const users = await db.user.findMany({
+    skip: (page - 1) * limit,
+    take: limit,
+  });
 
-### validation-errors
-**Keywords:** validation, field error, 422, unprocessable, pydantic
-**Solves:**
-- How to handle validation errors in APIs?
-- Field-level error responses
+  return NextResponse.json({
+    data: users,
+    meta: { page, limit },
+  });
+}
 
-### error-registry
-**Keywords:** error registry, problem types, error catalog, error codes
-**Solves:**
-- How to document all API errors?
-- Error type management
+export async function POST(request: NextRequest) {
+  try {
+    const body = await request.json();
+    const validated = CreateUserSchema.parse(body);
+
+    const user = await db.user.create({ data: validated });
+
+    return NextResponse.json(
+      { data: user },
+      { status: 201 }
+    );
+  } catch (error) {
+    if (error instanceof z.ZodError) {
+      return NextResponse.json(
+        { error: { code: 'VALIDATION_ERROR', details: error.errors } },
+        { status: 422 }
+      );
+    }
+    throw error;
+  }
+}
+```
+
+### Dynamic Route
+
+```typescript
+// app/api/users/[id]/route.ts
+import { NextRequest, NextResponse } from 'next/server';
+
+type Params = { params: Promise<{ id: string }> };
+
+export async function GET(request: NextRequest, { params }: Params) {
+  const { id } = await params;
+
+  const user = await db.user.findUnique({ where: { id } });
+
+  if (!user) {
+    return NextResponse.json(
+      { error: { code: 'NOT_FOUND', message: 'User not found' } },
+      { status: 404 }
+    );
+  }
+
+  return NextResponse.json({ data: user });
+}
+```
+
+## Authentication Patterns
+
+### JWT Middleware
+
+```typescript
+// lib/auth.ts
+import { NextRequest, NextResponse } from 'next/server';
+import { jwtVerify } from 'jose';
+
+export async function authMiddleware(request: NextRequest) {
+  const token = request.headers.get('Authorization')?.replace('Bearer ', '');
+
+  if (!token) {
+    return NextResponse.json(
+      { error: { code: 'UNAUTHORIZED', message: 'No token provided' } },
+      { status: 401 }
+    );
+  }
+
+  try {
+    const { payload } = await jwtVerify(
+      token,
+      new TextEncoder().encode(process.env.JWT_SECRET)
+    );
+    return payload;
+  } catch {
+    return NextResponse.json(
+      { error: { code: 'UNAUTHORIZED', message: 'Invalid token' } },
+      { status: 401 }
+    );
+  }
+}
+```
+
+## Rate Limiting
+
+```typescript
+// lib/rate-limit.ts
+import { Ratelimit } from '@upstash/ratelimit';
+import { Redis } from '@upstash/redis';
+
+const ratelimit = new Ratelimit({
+  redis: Redis.fromEnv(),
+  limiter: Ratelimit.slidingWindow(10, '10 s'), // 10 requests per 10 seconds
+});
+
+export async function rateLimitMiddleware(request: NextRequest) {
+  const ip = request.ip ?? '127.0.0.1';
+  const { success, limit, remaining, reset } = await ratelimit.limit(ip);
+
+  if (!success) {
+    return NextResponse.json(
+      { error: { code: 'RATE_LIMITED', message: 'Too many requests' } },
+      {
+        status: 429,
+        headers: {
+          'X-RateLimit-Limit': limit.toString(),
+          'X-RateLimit-Remaining': remaining.toString(),
+          'X-RateLimit-Reset': reset.toString(),
+        },
+      }
+    );
+  }
+}
+```
+
+## API Versioning
+
+```
+# URL versioning (recommended)
+/api/v1/users
+/api/v2/users
+
+# Header versioning
+Accept: application/vnd.frankx.v1+json
+
+# Query parameter (avoid)
+/api/users?version=1
+```
+
+## OpenAPI Documentation
+
+```yaml
+# openapi.yaml
+openapi: 3.0.0
+info:
+  title: FrankX API
+  version: 1.0.0
+  description: API for FrankX creator platform
+
+paths:
+  /api/v1/users:
+    get:
+      summary: List users
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserList'
+
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        email:
+          type: string
+          format: email
+```
+
+## Anti-Patterns
+
+❌ Verbs in URLs (`/getUser`, `/createPost`)
+❌ Inconsistent naming (mix of snake_case and camelCase)
+❌ Returning 200 for errors with error in body
+❌ No pagination for list endpoints
+❌ Exposing internal IDs/structure
+❌ No rate limiting
+
+✅ Noun-based resource URLs
+✅ Consistent response format
+✅ Proper HTTP status codes
+✅ Pagination with cursors or pages
+✅ UUIDs for public IDs
+✅ Rate limiting on all endpoints

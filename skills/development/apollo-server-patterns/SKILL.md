@@ -1,6 +1,5 @@
 ---
 name: apollo-server-patterns
-user-invocable: false
 description: Use when building GraphQL APIs with Apollo Server requiring resolvers, data sources, schema design, and federation.
 allowed-tools:
   - Read

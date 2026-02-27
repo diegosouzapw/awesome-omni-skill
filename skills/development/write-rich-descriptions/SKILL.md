@@ -395,7 +395,7 @@ ProdUploadVm = Node_Vm "prod-upload-vm" {
 ```likec4
 views 'Use Cases' {
   dynamic view usecases_upload_flow {
-    title 'Upload'
+    title 'Use Cases / Upload'
     description """
       Complete upload workflow from user action to secure storage.
       

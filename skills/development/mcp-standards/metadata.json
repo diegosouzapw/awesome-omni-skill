@@ -3,8 +3,8 @@
   "description": "MCP server standardization patterns for Claude Code plugins. Use when implementing MCP servers, designing tool interfaces, configuring MCP transports, or standardizing MCP naming conventions. Trigger keywords - \"MCP\", \"MCP server\", \"MCP tools\", \"MCP transport\", \"tool naming\", \"MCP configuration\".",
   "category": "development",
   "canonical_category": "development",
-  "repository": "MadAppGang/claude-code",
-  "repository_url": "https://github.com/MadAppGang/claude-code",
+  "repository": "MadAppGang/magus",
+  "repository_url": "https://github.com/MadAppGang/magus",
   "author": "MadAppGang",
   "author_avatar": "https://github.com/MadAppGang.png",
   "file_path": "plugins/dev/skills/mcp-standards/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "c736f15d8b5d23755078d86579efacdfedf85d7e0615f2db558af998ad5d5a2e",
-  "indexed_at": "2026-02-26T05:49:55.506Z",
-  "synced_at": "2026-02-27T02:26:36.620Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9c3f3729184e9656fd88b3ed26b1ba304415b1b0b1beb7b6bcc9076486d667db",
-  "install_command": "mkdir -p .claude/skills/mcp-standards && curl -sL \"https://raw.githubusercontent.com/MadAppGang/claude-code/main/plugins/dev/skills/mcp-standards/SKILL.md\" > .claude/skills/mcp-standards/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/MadAppGang/claude-code/main/plugins/dev/skills/mcp-standards/SKILL.md"
+  "content_hash": "4e307277d62f8cdd1d7cfa87972b0ff4552bb218a6cc452dd2db6216f46cb8c7",
+  "indexed_at": "2026-02-27T05:49:28.031Z",
+  "synced_at": "2026-02-27T13:13:00.909Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/354634ac269922ea7ab7b2e0ff793edd7c02ffe3d66b5b03cbe1860979af4730",
+  "install_command": "mkdir -p .claude/skills/mcp-standards && curl -sL \"https://raw.githubusercontent.com/MadAppGang/magus/main/plugins/dev/skills/mcp-standards/SKILL.md\" > .claude/skills/mcp-standards/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/MadAppGang/magus/main/plugins/dev/skills/mcp-standards/SKILL.md"
 }

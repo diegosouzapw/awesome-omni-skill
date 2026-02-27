@@ -1,33 +1,20 @@
 ---
 name: agent-browser
-description: Browser automation for web testing, form filling, screenshots, and data extraction. Use when navigating websites, interacting with web pages, filling forms, taking screenshots, testing web applications, or extracting information from web pages.
-license: Apache-2.0
-compatibility:
-  - claude-code
-  - claude-desktop
-  - gemini-cli
-  - aider
-metadata:
-  version: "1.0.0"
-  author: bentossell
-  repository: https://github.com/bentossell/skill-agent-browser
-allowed-tools:
-  - bash
-  - computer
+description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.
 ---
 
 # Browser Automation with agent-browser
 
-Headless browser automation CLI for AI agents. Fast Rust CLI with Node.js fallback.
-
 ## Installation
+
+### npm (recommended)
 
 ```bash
 npm install -g agent-browser
 agent-browser install  # Download Chromium
 ```
 
-## Quick Start
+## Quick start
 
 ```bash
 agent-browser open <url>        # Navigate to page
@@ -37,12 +24,12 @@ agent-browser fill @e2 "text"   # Fill input by ref
 agent-browser close             # Close browser
 ```
 
-## Core Workflow
+## Core workflow
 
-1. **Navigate**: `agent-browser open <url>`
-2. **Snapshot**: `agent-browser snapshot -i` (returns elements with refs like `@e1`, `@e2`)
-3. **Interact** using refs from the snapshot
-4. **Re-snapshot** after navigation or significant DOM changes
+1. Navigate: `agent-browser open <url>`
+2. Snapshot: `agent-browser snapshot -i` (returns elements with refs like `@e1`, `@e2`)
+3. Interact using refs from the snapshot
+4. Re-snapshot after navigation or significant DOM changes
 
 ## Commands
 
@@ -51,12 +38,12 @@ agent-browser close             # Close browser
 ```bash
 agent-browser open <url>      # Navigate to URL
 agent-browser back            # Go back
-agent-browser forward         # Go forward  
+agent-browser forward         # Go forward
 agent-browser reload          # Reload page
 agent-browser close           # Close browser
 ```
 
-### Snapshot (Page Analysis)
+### Snapshot (page analysis)
 
 ```bash
 agent-browser snapshot        # Full accessibility tree
@@ -65,71 +52,63 @@ agent-browser snapshot -c     # Compact output
 agent-browser snapshot -d 3   # Limit depth to 3
 ```
 
-### Interactions (Use @refs from Snapshot)
+### Interactions (use @refs from snapshot)
 
 ```bash
-agent-browser click @e1                    # Click
-agent-browser dblclick @e1                 # Double-click
-agent-browser fill @e1 "text"              # Fill input
-agent-browser type @e1 "text"              # Type character by character
-agent-browser select @e1 "option"          # Select dropdown option
-agent-browser check @e1                    # Check checkbox
-agent-browser uncheck @e1                  # Uncheck checkbox
-agent-browser hover @e1                    # Hover over element
-agent-browser focus @e1                    # Focus element
-agent-browser press Enter                  # Press key
-agent-browser scroll @e1 down 200          # Scroll element
+agent-browser click @e1           # Click
+agent-browser dblclick @e1        # Double-click
+agent-browser fill @e2 "text"     # Clear and type
+agent-browser type @e2 "text"     # Type without clearing
+agent-browser press Enter         # Press key
+agent-browser press Control+a     # Key combination
+agent-browser hover @e1           # Hover
+agent-browser check @e1           # Check checkbox
+agent-browser uncheck @e1         # Uncheck checkbox
+agent-browser select @e1 "value"  # Select dropdown
+agent-browser scroll down 500     # Scroll page
+agent-browser scrollintoview @e1  # Scroll element into view
 ```
 
-### Screenshots & Media
+### Get information
 
 ```bash
-agent-browser screenshot page.png          # Full page screenshot
-agent-browser screenshot @e1 element.png   # Element screenshot
-agent-browser pdf output.pdf               # Save page as PDF
+agent-browser get text @e1        # Get element text
+agent-browser get value @e1       # Get input value
+agent-browser get title           # Get page title
+agent-browser get url             # Get current URL
 ```
 
-### Getting Data
+### Screenshots
 
 ```bash
-agent-browser get text @e1                 # Get element text
-agent-browser get value @e1                # Get input value
-agent-browser get attr @e1 href            # Get attribute
-agent-browser get html @e1                 # Get inner HTML
-agent-browser eval "document.title"        # Run JavaScript
+agent-browser screenshot          # Screenshot to stdout
+agent-browser screenshot path.png # Save to file
+agent-browser screenshot --full   # Full page
 ```
 
-### Waiting
+### Wait
 
 ```bash
-agent-browser wait --load networkidle      # Wait for network idle
-agent-browser wait --url "**/dashboard"    # Wait for URL pattern
-agent-browser wait --text "Success"        # Wait for text to appear
 agent-browser wait @e1                     # Wait for element
-agent-browser wait @e1 --hidden            # Wait for element to hide
+agent-browser wait 2000                    # Wait milliseconds
+agent-browser wait --text "Success"        # Wait for text
+agent-browser wait --load networkidle      # Wait for network idle
 ```
 
-### Sessions (Parallel Browsers)
+### Semantic locators (alternative to refs)
 
 ```bash
-agent-browser --session test1 open site-a.com
-agent-browser --session test2 open site-b.com
-agent-browser session list
+agent-browser find role button click --name "Submit"
+agent-browser find text "Sign In" click
+agent-browser find label "Email" fill "user@test.com"
 ```
 
-### Authentication State
-
-```bash
-agent-browser state save auth.json         # Save cookies/storage
-agent-browser state load auth.json         # Restore state
-```
-
-## Example: Form Submission
+## Example: Form submission
 
 ```bash
 agent-browser open https://example.com/form
 agent-browser snapshot -i
-# Output: textbox "Email" [ref=e1], textbox "Password" [ref=e2], button "Submit" [ref=e3]
+# Output shows: textbox "Email" [ref=e1], textbox "Password" [ref=e2], button "Submit" [ref=e3]
 
 agent-browser fill @e1 "user@example.com"
 agent-browser fill @e2 "password123"
@@ -138,7 +117,7 @@ agent-browser wait --load networkidle
 agent-browser snapshot -i  # Check result
 ```
 
-## Example: Login and Save State
+## Example: Authentication with saved state
 
 ```bash
 # Login once
@@ -150,46 +129,20 @@ agent-browser click @e3
 agent-browser wait --url "**/dashboard"
 agent-browser state save auth.json
 
-# Later: restore authenticated session
+# Later sessions: load saved state
 agent-browser state load auth.json
 agent-browser open https://app.example.com/dashboard
 ```
 
-## Example: Content Review
-
-Review a web page by taking snapshots and interacting:
+## Sessions (parallel browsers)
 
 ```bash
-# Open page to review
-agent-browser open http://localhost:3456/cookbook/what-is-cli/
-
-# Get interactive elements
-agent-browser snapshot -i
-# Output shows buttons, links, inputs with refs
-
-# Test interactive elements
-agent-browser click @e75  # Click a suggestion button
-
-# Take screenshot for visual review
-agent-browser screenshot review.png
-
-# Re-snapshot to verify state changed
-agent-browser snapshot -i
+agent-browser --session test1 open site-a.com
+agent-browser --session test2 open site-b.com
+agent-browser session list
 ```
 
-## Alternative Selectors
-
-When refs aren't available, use CSS selectors or semantic search:
-
-```bash
-agent-browser click "#submit"
-agent-browser fill "#email" "test@example.com"
-agent-browser find role button click --name "Submit"
-agent-browser find text "Sign In" click
-agent-browser find label "Email" fill "user@test.com"
-```
-
-## JSON Output
+## JSON output (for parsing)
 
 Add `--json` for machine-readable output:
 
@@ -205,11 +158,3 @@ agent-browser open example.com --headed  # Show browser window
 agent-browser console                    # View console messages
 agent-browser errors                     # View page errors
 ```
-
-## Tips
-
-1. **Always snapshot first** - Get refs before interacting
-2. **Re-snapshot after navigation** - Refs change when page updates
-3. **Use `-i` flag** - Interactive-only snapshots are cleaner
-4. **Save auth state** - Avoid re-logging in for each session
-5. **Use `--json`** - When parsing output programmatically

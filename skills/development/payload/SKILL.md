@@ -1,652 +1,393 @@
 ---
 name: payload
-description: Builds full-stack applications with Payload CMS, the Next.js-native headless CMS. Use when creating content-driven apps with TypeScript, code-first configuration, and full control over your backend.
+description: Use when working with Payload projects (payload.config.ts, collections, fields, hooks, access control, Payload API). Use when debugging validation errors, security issues, relationship queries, transactions, or hook behavior.
 ---
 
-# Payload CMS
+# Payload Application Development
 
-Open-source, Next.js-native headless CMS with full TypeScript support. Code-first configuration, self-hosted, with REST and GraphQL APIs.
+Payload is a Next.js native CMS with TypeScript-first architecture, providing admin panel, database management, REST/GraphQL APIs, authentication, and file storage.
+
+## Quick Reference
+
+| Task                     | Solution                                  | Details                                                                                                                          |
+| ------------------------ | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Auto-generate slugs      | `slugField()`                             | [FIELDS.md#slug-field-helper](reference/FIELDS.md#slug-field-helper)                                                             |
+| Restrict content by user | Access control with query                 | [ACCESS-CONTROL.md#row-level-security-with-complex-queries](reference/ACCESS-CONTROL.md#row-level-security-with-complex-queries) |
+| Local API user ops       | `user` + `overrideAccess: false`          | [QUERIES.md#access-control-in-local-api](reference/QUERIES.md#access-control-in-local-api)                                       |
+| Draft/publish workflow   | `versions: { drafts: true }`              | [COLLECTIONS.md#versioning--drafts](reference/COLLECTIONS.md#versioning--drafts)                                                 |
+| Computed fields          | `virtual: true` with afterRead            | [FIELDS.md#virtual-fields](reference/FIELDS.md#virtual-fields)                                                                   |
+| Conditional fields       | `admin.condition`                         | [FIELDS.md#conditional-fields](reference/FIELDS.md#conditional-fields)                                                           |
+| Custom field validation  | `validate` function                       | [FIELDS.md#text-field](reference/FIELDS.md#text-field)                                                                           |
+| Filter relationship list | `filterOptions` on field                  | [FIELDS.md#relationship](reference/FIELDS.md#relationship)                                                                       |
+| Select specific fields   | `select` parameter                        | [QUERIES.md#local-api](reference/QUERIES.md#local-api)                                                                           |
+| Auto-set author/dates    | beforeChange hook                         | [HOOKS.md#collection-hooks](reference/HOOKS.md#collection-hooks)                                                                 |
+| Prevent hook loops       | `req.context` check                       | [HOOKS.md#hook-context](reference/HOOKS.md#hook-context)                                                                         |
+| Cascading deletes        | beforeDelete hook                         | [HOOKS.md#collection-hooks](reference/HOOKS.md#collection-hooks)                                                                 |
+| Geospatial queries       | `point` field with `near`/`within`        | [FIELDS.md#point-geolocation](reference/FIELDS.md#point-geolocation)                                                             |
+| Reverse relationships    | `join` field type                         | [FIELDS.md#join-fields](reference/FIELDS.md#join-fields)                                                                         |
+| Next.js revalidation     | Context control in afterChange            | [HOOKS.md#nextjs-revalidation-with-context-control](reference/HOOKS.md#nextjs-revalidation-with-context-control)                 |
+| Query by relationship    | Nested property syntax                    | [QUERIES.md#nested-properties](reference/QUERIES.md#nested-properties)                                                           |
+| Complex queries          | AND/OR logic                              | [QUERIES.md#andor-logic](reference/QUERIES.md#andor-logic)                                                                       |
+| Transactions             | Pass `req` to operations                  | [ADAPTERS.md#threading-req-through-operations](reference/ADAPTERS.md#threading-req-through-operations)                           |
+| Background jobs          | Jobs queue with tasks                     | [ADVANCED.md#jobs-queue](reference/ADVANCED.md#jobs-queue)                                                                       |
+| Custom API routes        | Collection custom endpoints               | [ADVANCED.md#custom-endpoints](reference/ADVANCED.md#custom-endpoints)                                                           |
+| Cloud storage            | Storage adapter plugins                   | [ADAPTERS.md#storage-adapters](reference/ADAPTERS.md#storage-adapters)                                                           |
+| Multi-language           | `localization` config + `localized: true` | [ADVANCED.md#localization](reference/ADVANCED.md#localization)                                                                   |
+| Create plugin            | `(options) => (config) => Config`         | [PLUGIN-DEVELOPMENT.md#plugin-architecture](reference/PLUGIN-DEVELOPMENT.md#plugin-architecture)                                 |
+| Plugin package setup     | Package structure with SWC                | [PLUGIN-DEVELOPMENT.md#plugin-package-structure](reference/PLUGIN-DEVELOPMENT.md#plugin-package-structure)                       |
+| Add fields to collection | Map collections, spread fields            | [PLUGIN-DEVELOPMENT.md#adding-fields-to-collections](reference/PLUGIN-DEVELOPMENT.md#adding-fields-to-collections)               |
+| Plugin hooks             | Preserve existing hooks in array          | [PLUGIN-DEVELOPMENT.md#adding-hooks](reference/PLUGIN-DEVELOPMENT.md#adding-hooks)                                               |
+| Check field type         | Type guard functions                      | [FIELD-TYPE-GUARDS.md](reference/FIELD-TYPE-GUARDS.md)                                                                           |
 
 ## Quick Start
 
 ```bash
 npx create-payload-app@latest my-app
 cd my-app
-npm run dev
+pnpm dev
 ```
 
-Opens admin at `http://localhost:3000/admin`.
+### Minimal Config
 
-## Project Structure
+```ts
+import { buildConfig } from 'payload'
+import { mongooseAdapter } from '@payloadcms/db-mongodb'
+import { lexicalEditor } from '@payloadcms/richtext-lexical'
+import path from 'path'
+import { fileURLToPath } from 'url'
 
-```
-my-app/
-  app/                    # Next.js app directory
-    (payload)/           # Payload admin routes
-  collections/           # Content type definitions
-  payload.config.ts      # Main configuration
-  payload-types.ts       # Generated types
-```
-
-## Configuration
-
-```typescript
-// payload.config.ts
-import { buildConfig } from 'payload';
-import { mongooseAdapter } from '@payloadcms/db-mongodb';
-// or: import { postgresAdapter } from '@payloadcms/db-postgres';
-
-import { Posts } from './collections/Posts';
-import { Users } from './collections/Users';
-import { Media } from './collections/Media';
+const filename = fileURLToPath(import.meta.url)
+const dirname = path.dirname(filename)
 
 export default buildConfig({
   admin: {
-    user: Users.slug,
+    user: 'users',
+    importMap: {
+      baseDir: path.resolve(dirname),
+    },
   },
-  collections: [Users, Posts, Media],
-  db: mongooseAdapter({
-    url: process.env.MONGODB_URI!,
-  }),
+  collections: [Users, Media],
+  editor: lexicalEditor(),
+  secret: process.env.PAYLOAD_SECRET,
   typescript: {
-    outputFile: 'payload-types.ts',
+    outputFile: path.resolve(dirname, 'payload-types.ts'),
   },
-  secret: process.env.PAYLOAD_SECRET!,
-});
+  db: mongooseAdapter({
+    url: process.env.DATABASE_URL,
+  }),
+})
 ```
 
-## Collections (Content Types)
+## Essential Patterns
 
-```typescript
-// collections/Posts.ts
-import { CollectionConfig } from 'payload';
+### Basic Collection
+
+```ts
+import type { CollectionConfig } from 'payload'
 
 export const Posts: CollectionConfig = {
   slug: 'posts',
   admin: {
     useAsTitle: 'title',
-    defaultColumns: ['title', 'status', 'publishedAt'],
-  },
-  access: {
-    read: () => true,  // Public read
-    create: ({ req }) => !!req.user,  // Authenticated only
-    update: ({ req }) => !!req.user,
-    delete: ({ req }) => !!req.user,
-  },
-  versions: {
-    drafts: true,
+    defaultColumns: ['title', 'author', 'status', 'createdAt'],
   },
   fields: [
-    {
-      name: 'title',
-      type: 'text',
-      required: true,
-    },
-    {
-      name: 'slug',
-      type: 'text',
-      unique: true,
-      admin: {
-        position: 'sidebar',
-      },
-      hooks: {
-        beforeValidate: [
-          ({ value, data }) => value || data?.title?.toLowerCase().replace(/\s+/g, '-'),
-        ],
-      },
-    },
-    {
-      name: 'author',
-      type: 'relationship',
-      relationTo: 'users',
-    },
-    {
-      name: 'publishedAt',
-      type: 'date',
-      admin: {
-        position: 'sidebar',
-      },
-    },
-    {
-      name: 'status',
-      type: 'select',
-      options: [
-        { label: 'Draft', value: 'draft' },
-        { label: 'Published', value: 'published' },
-      ],
-      defaultValue: 'draft',
-      admin: {
-        position: 'sidebar',
-      },
-    },
-    {
-      name: 'content',
-      type: 'richText',
-    },
-    {
-      name: 'featuredImage',
-      type: 'upload',
-      relationTo: 'media',
-    },
-    {
-      name: 'categories',
-      type: 'relationship',
-      relationTo: 'categories',
-      hasMany: true,
-    },
+    { name: 'title', type: 'text', required: true },
+    { name: 'slug', type: 'text', unique: true, index: true },
+    { name: 'content', type: 'richText' },
+    { name: 'author', type: 'relationship', relationTo: 'users' },
   ],
-};
+  timestamps: true,
+}
 ```
 
-## Field Types
+For more collection patterns (auth, upload, drafts, live preview), see [COLLECTIONS.md](reference/COLLECTIONS.md).
 
-```typescript
-// Text
+### Common Fields
+
+```ts
+// Text field
 { name: 'title', type: 'text', required: true }
 
-// Textarea
-{ name: 'excerpt', type: 'textarea' }
+// Relationship
+{ name: 'author', type: 'relationship', relationTo: 'users', required: true }
 
-// Rich Text (Lexical)
-{ name: 'content', type: 'richText' }
-
-// Number
-{ name: 'price', type: 'number', min: 0 }
-
-// Email
-{ name: 'email', type: 'email' }
-
-// Date
-{ name: 'publishedAt', type: 'date' }
-
-// Checkbox
-{ name: 'featured', type: 'checkbox', defaultValue: false }
+// Rich text
+{ name: 'content', type: 'richText', required: true }
 
 // Select
-{
-  name: 'status',
-  type: 'select',
-  options: [
-    { label: 'Draft', value: 'draft' },
-    { label: 'Published', value: 'published' },
-  ],
-}
-
-// Radio
-{
-  name: 'type',
-  type: 'radio',
-  options: ['video', 'article', 'podcast'],
-}
-
-// Relationship
-{
-  name: 'author',
-  type: 'relationship',
-  relationTo: 'users',
-}
+{ name: 'status', type: 'select', options: ['draft', 'published'], defaultValue: 'draft' }
 
 // Upload
-{
-  name: 'image',
-  type: 'upload',
-  relationTo: 'media',
-}
-
-// Array (repeatable)
-{
-  name: 'gallery',
-  type: 'array',
-  fields: [
-    { name: 'image', type: 'upload', relationTo: 'media' },
-    { name: 'caption', type: 'text' },
-  ],
-}
-
-// Group (nested object)
-{
-  name: 'meta',
-  type: 'group',
-  fields: [
-    { name: 'title', type: 'text' },
-    { name: 'description', type: 'textarea' },
-  ],
-}
-
-// Blocks (flexible content)
-{
-  name: 'layout',
-  type: 'blocks',
-  blocks: [HeroBlock, ContentBlock, CTABlock],
-}
+{ name: 'image', type: 'upload', relationTo: 'media' }
 ```
 
-## Blocks
+For all field types (array, blocks, point, join, virtual, conditional, etc.), see [FIELDS.md](reference/FIELDS.md).
 
-```typescript
-// blocks/Hero.ts
-import { Block } from 'payload';
+### Hook Example
 
-export const HeroBlock: Block = {
-  slug: 'hero',
-  labels: {
-    singular: 'Hero',
-    plural: 'Heroes',
-  },
-  fields: [
-    { name: 'heading', type: 'text', required: true },
-    { name: 'subheading', type: 'text' },
-    { name: 'image', type: 'upload', relationTo: 'media' },
-    {
-      name: 'cta',
-      type: 'group',
-      fields: [
-        { name: 'label', type: 'text' },
-        { name: 'link', type: 'text' },
-      ],
-    },
-  ],
-};
-```
-
-## Access Control
-
-```typescript
-export const Posts: CollectionConfig = {
-  slug: 'posts',
-  access: {
-    // Function-based access
-    read: ({ req }) => {
-      // Published posts are public
-      if (!req.user) {
-        return { status: { equals: 'published' } };
-      }
-      // Logged in users see all
-      return true;
-    },
-
-    create: ({ req }) => !!req.user,
-
-    update: ({ req }) => {
-      if (!req.user) return false;
-      // Admins can update all
-      if (req.user.role === 'admin') return true;
-      // Authors can only update own posts
-      return {
-        author: { equals: req.user.id },
-      };
-    },
-
-    delete: ({ req }) => req.user?.role === 'admin',
-  },
-};
-```
-
-## Hooks
-
-```typescript
+```ts
 export const Posts: CollectionConfig = {
   slug: 'posts',
   hooks: {
     beforeChange: [
-      async ({ data, req, operation }) => {
+      async ({ data, operation }) => {
         if (operation === 'create') {
-          data.author = req.user?.id;
+          data.slug = slugify(data.title)
         }
-        return data;
-      },
-    ],
-
-    afterChange: [
-      async ({ doc, operation }) => {
-        if (operation === 'create') {
-          // Send notification, revalidate cache, etc.
-          await revalidatePath('/posts');
-        }
-      },
-    ],
-
-    beforeRead: [
-      async ({ doc, req }) => {
-        // Transform document before returning
-        return doc;
+        return data
       },
     ],
   },
-  fields: [/* ... */],
-};
-```
-
-## REST API
-
-Auto-generated at `/api/{collection}`.
-
-```typescript
-// Get all posts
-const response = await fetch('/api/posts');
-const { docs, totalDocs, page, limit } = await response.json();
-
-// Get single post
-const post = await fetch('/api/posts/123').then(r => r.json());
-
-// Query with parameters
-const params = new URLSearchParams({
-  where: JSON.stringify({
-    status: { equals: 'published' },
-    publishedAt: { less_than: new Date().toISOString() },
-  }),
-  sort: '-publishedAt',
-  limit: '10',
-  page: '1',
-  depth: '2',
-});
-
-const filtered = await fetch(`/api/posts?${params}`).then(r => r.json());
-```
-
-### Query Operators
-
-```typescript
-// Equals
-{ field: { equals: 'value' } }
-
-// Not equals
-{ field: { not_equals: 'value' } }
-
-// Greater/less than
-{ field: { greater_than: 100 } }
-{ field: { less_than: 100 } }
-{ field: { greater_than_equal: 100 } }
-{ field: { less_than_equal: 100 } }
-
-// Contains (string)
-{ field: { contains: 'text' } }
-
-// In array
-{ field: { in: ['a', 'b', 'c'] } }
-
-// Not in array
-{ field: { not_in: ['x', 'y'] } }
-
-// Exists
-{ field: { exists: true } }
-
-// Logical operators
-{
-  or: [
-    { status: { equals: 'published' } },
-    { featured: { equals: true } },
-  ],
-}
-
-{
-  and: [
-    { status: { equals: 'published' } },
-    { category: { equals: 'tech' } },
-  ],
+  fields: [{ name: 'title', type: 'text' }],
 }
 ```
 
-## GraphQL API
+For all hook patterns, see [HOOKS.md](reference/HOOKS.md). For access control, see [ACCESS-CONTROL.md](reference/ACCESS-CONTROL.md).
 
-Available at `/api/graphql`.
+### Access Control with Type Safety
 
-```graphql
-query {
-  Posts(
-    where: { status: { equals: published } }
-    sort: "-publishedAt"
-    limit: 10
-  ) {
-    docs {
-      id
-      title
-      slug
-      author {
-        name
-      }
-    }
-    totalDocs
+```ts
+import type { Access } from 'payload'
+import type { User } from '@/payload-types'
+
+// Type-safe access control
+export const adminOnly: Access = ({ req }) => {
+  const user = req.user as User
+  return user?.roles?.includes('admin') || false
+}
+
+// Row-level access control
+export const ownPostsOnly: Access = ({ req }) => {
+  const user = req.user as User
+  if (!user) return false
+  if (user.roles?.includes('admin')) return true
+
+  return {
+    author: { equals: user.id },
   }
 }
 ```
 
-## Local API (Server-Side)
+### Query Example
 
-Use in Server Components, API routes, or hooks.
-
-```typescript
-import { getPayload } from 'payload';
-import config from '@payload-config';
-
-const payload = await getPayload({ config });
-
-// Find many
+```ts
+// Local API
 const posts = await payload.find({
   collection: 'posts',
   where: {
     status: { equals: 'published' },
+    'author.name': { contains: 'john' },
   },
-  sort: '-publishedAt',
-  limit: 10,
   depth: 2,
-});
+  limit: 10,
+  sort: '-createdAt',
+})
 
-// Find one
+// Query with populated relationships
 const post = await payload.findByID({
   collection: 'posts',
   id: '123',
-  depth: 2,
-});
+  depth: 2, // Populates relationships (default is 2)
+})
+// Returns: { author: { id: "user123", name: "John" } }
 
-// Create
-const newPost = await payload.create({
-  collection: 'posts',
-  data: {
-    title: 'New Post',
-    content: '...',
-  },
-});
-
-// Update
-const updated = await payload.update({
+// Without depth, relationships return IDs only
+const post = await payload.findByID({
   collection: 'posts',
   id: '123',
-  data: {
-    title: 'Updated Title',
-  },
-});
-
-// Delete
-await payload.delete({
-  collection: 'posts',
-  id: '123',
-});
+  depth: 0,
+})
+// Returns: { author: "user123" }
 ```
 
-## TypeScript
+For all query operators and REST/GraphQL examples, see [QUERIES.md](reference/QUERIES.md).
 
-Types are auto-generated to `payload-types.ts`.
+### Getting Payload Instance
 
-```typescript
-import { Post, User } from './payload-types';
+```ts
+// In API routes (Next.js)
+import { getPayload } from 'payload'
+import config from '@payload-config'
 
-// Fully typed
-const posts: Post[] = await payload.find({
-  collection: 'posts',
-});
+export async function GET() {
+  const payload = await getPayload({ config })
 
-posts.forEach((post: Post) => {
-  console.log(post.title);  // TypeScript knows this exists
-});
-```
-
-## Next.js Integration
-
-```typescript
-// app/posts/page.tsx
-import { getPayload } from 'payload';
-import config from '@payload-config';
-
-export default async function PostsPage() {
-  const payload = await getPayload({ config });
-
-  const { docs: posts } = await payload.find({
+  const posts = await payload.find({
     collection: 'posts',
-    where: { status: { equals: 'published' } },
-    sort: '-publishedAt',
-  });
+  })
 
-  return (
-    <ul>
-      {posts.map((post) => (
-        <li key={post.id}>
-          <a href={`/posts/${post.slug}`}>{post.title}</a>
-        </li>
-      ))}
-    </ul>
-  );
+  return Response.json(posts)
+}
+
+// In Server Components
+import { getPayload } from 'payload'
+import config from '@payload-config'
+
+export default async function Page() {
+  const payload = await getPayload({ config })
+  const { docs } = await payload.find({ collection: 'posts' })
+
+  return <div>{docs.map(post => <h1 key={post.id}>{post.title}</h1>)}</div>
 }
 ```
 
-```typescript
-// app/posts/[slug]/page.tsx
-import { getPayload } from 'payload';
-import config from '@payload-config';
-import { notFound } from 'next/navigation';
+## Security Pitfalls
 
-export async function generateStaticParams() {
-  const payload = await getPayload({ config });
-  const { docs } = await payload.find({ collection: 'posts' });
+### 1. Local API Access Control (CRITICAL)
 
-  return docs.map((post) => ({ slug: post.slug }));
-}
+**By default, Local API operations bypass ALL access control**, even when passing a user.
 
-export default async function PostPage({ params }: { params: { slug: string } }) {
-  const payload = await getPayload({ config });
+```ts
+// ❌ SECURITY BUG: Passes user but ignores their permissions
+await payload.find({
+  collection: 'posts',
+  user: someUser, // Access control is BYPASSED!
+})
 
-  const { docs } = await payload.find({
-    collection: 'posts',
-    where: { slug: { equals: params.slug } },
-    depth: 2,
-  });
-
-  if (!docs[0]) notFound();
-
-  const post = docs[0];
-
-  return (
-    <article>
-      <h1>{post.title}</h1>
-      {/* Render content */}
-    </article>
-  );
-}
+// ✅ SECURE: Actually enforces the user's permissions
+await payload.find({
+  collection: 'posts',
+  user: someUser,
+  overrideAccess: false, // REQUIRED for access control
+})
 ```
 
-## Media Collection
+**When to use each:**
 
-```typescript
-// collections/Media.ts
-import { CollectionConfig } from 'payload';
+- `overrideAccess: true` (default) - Server-side operations you trust (cron jobs, system tasks)
+- `overrideAccess: false` - When operating on behalf of a user (API routes, webhooks)
 
-export const Media: CollectionConfig = {
-  slug: 'media',
-  upload: {
-    staticDir: 'public/media',
-    imageSizes: [
-      {
-        name: 'thumbnail',
-        width: 400,
-        height: 300,
-        position: 'centre',
-      },
-      {
-        name: 'card',
-        width: 768,
-        height: 1024,
-        position: 'centre',
-      },
-    ],
-    mimeTypes: ['image/*'],
-  },
-  fields: [
-    { name: 'alt', type: 'text', required: true },
-    { name: 'caption', type: 'text' },
-  ],
-};
-```
+See [QUERIES.md#access-control-in-local-api](reference/QUERIES.md#access-control-in-local-api).
 
-## Globals (Singletons)
+### 2. Transaction Failures in Hooks
 
-```typescript
-// globals/Settings.ts
-import { GlobalConfig } from 'payload';
+**Nested operations in hooks without `req` break transaction atomicity.**
 
-export const Settings: GlobalConfig = {
-  slug: 'settings',
-  access: {
-    read: () => true,
-  },
-  fields: [
-    { name: 'siteName', type: 'text', required: true },
-    { name: 'siteDescription', type: 'textarea' },
-    {
-      name: 'navigation',
-      type: 'array',
-      fields: [
-        { name: 'label', type: 'text' },
-        { name: 'link', type: 'text' },
-      ],
+```ts
+// ❌ DATA CORRUPTION RISK: Separate transaction
+hooks: {
+  afterChange: [
+    async ({ doc, req }) => {
+      await req.payload.create({
+        collection: 'audit-log',
+        data: { docId: doc.id },
+        // Missing req - runs in separate transaction!
+      })
     },
-  ],
-};
+  ]
+}
+
+// ✅ ATOMIC: Same transaction
+hooks: {
+  afterChange: [
+    async ({ doc, req }) => {
+      await req.payload.create({
+        collection: 'audit-log',
+        data: { docId: doc.id },
+        req, // Maintains atomicity
+      })
+    },
+  ]
+}
+```
+
+See [ADAPTERS.md#threading-req-through-operations](reference/ADAPTERS.md#threading-req-through-operations).
+
+### 3. Infinite Hook Loops
+
+**Hooks triggering operations that trigger the same hooks create infinite loops.**
+
+```ts
+// ❌ INFINITE LOOP
+hooks: {
+  afterChange: [
+    async ({ doc, req }) => {
+      await req.payload.update({
+        collection: 'posts',
+        id: doc.id,
+        data: { views: doc.views + 1 },
+        req,
+      }) // Triggers afterChange again!
+    },
+  ]
+}
+
+// ✅ SAFE: Use context flag
+hooks: {
+  afterChange: [
+    async ({ doc, req, context }) => {
+      if (context.skipHooks) return
+
+      await req.payload.update({
+        collection: 'posts',
+        id: doc.id,
+        data: { views: doc.views + 1 },
+        context: { skipHooks: true },
+        req,
+      })
+    },
+  ]
+}
+```
+
+See [HOOKS.md#context](reference/HOOKS.md#context).
+
+## Project Structure
+
+```txt
+src/
+├── app/
+│   ├── (frontend)/
+│   │   └── page.tsx
+│   └── (payload)/
+│       └── admin/[[...segments]]/page.tsx
+├── collections/
+│   ├── Posts.ts
+│   ├── Media.ts
+│   └── Users.ts
+├── globals/
+│   └── Header.ts
+├── components/
+│   └── CustomField.tsx
+├── hooks/
+│   └── slugify.ts
+└── payload.config.ts
+```
+
+## Type Generation
+
+```ts
+// payload.config.ts
+export default buildConfig({
+  typescript: {
+    outputFile: path.resolve(dirname, 'payload-types.ts'),
+  },
+  // ...
+})
 
 // Usage
-const settings = await payload.findGlobal({ slug: 'settings' });
+import type { Post, User } from '@/payload-types'
 ```
 
-## Authentication
+## Reference Documentation
 
-```typescript
-// Login
-const user = await payload.login({
-  collection: 'users',
-  data: {
-    email: 'user@example.com',
-    password: 'password',
-  },
-});
+- **[FIELDS.md](reference/FIELDS.md)** - All field types, validation, admin options
+- **[FIELD-TYPE-GUARDS.md](reference/FIELD-TYPE-GUARDS.md)** - Type guards for runtime field type checking and narrowing
+- **[COLLECTIONS.md](reference/COLLECTIONS.md)** - Collection configs, auth, upload, drafts, live preview
+- **[HOOKS.md](reference/HOOKS.md)** - Collection hooks, field hooks, context patterns
+- **[ACCESS-CONTROL.md](reference/ACCESS-CONTROL.md)** - Collection, field, global access control, RBAC, multi-tenant
+- **[ACCESS-CONTROL-ADVANCED.md](reference/ACCESS-CONTROL-ADVANCED.md)** - Context-aware, time-based, subscription-based access, factory functions, templates
+- **[QUERIES.md](reference/QUERIES.md)** - Query operators, Local/REST/GraphQL APIs
+- **[ENDPOINTS.md](reference/ENDPOINTS.md)** - Custom API endpoints: authentication, helpers, request/response patterns
+- **[ADAPTERS.md](reference/ADAPTERS.md)** - Database, storage, email adapters, transactions
+- **[ADVANCED.md](reference/ADVANCED.md)** - Authentication, jobs, endpoints, components, plugins, localization
+- **[PLUGIN-DEVELOPMENT.md](reference/PLUGIN-DEVELOPMENT.md)** - Plugin architecture, monorepo structure, patterns, best practices
 
-// Current user (in hooks/access control)
-const user = req.user;
+## Resources
 
-// Logout
-await payload.logout({
-  collection: 'users',
-});
-```
-
-## Deployment
-
-```bash
-# Build
-npm run build
-
-# Start production
-npm run start
-```
-
-Deploy to:
-- **Vercel**: One-click with Neon database
-- **Cloudflare**: Workers + D1 + R2
-- **Self-hosted**: Any Node.js host
-
-## Best Practices
-
-1. **Use Local API** in Server Components for performance
-2. **Define access control** for each collection
-3. **Use hooks** for side effects (revalidation, notifications)
-4. **Generate types** after schema changes: `npm run generate:types`
-5. **Use drafts** for preview functionality
-6. **Configure image sizes** to match your frontend needs
+- llms-full.txt: <https://payloadcms.com/llms-full.txt>
+- Docs: <https://payloadcms.com/docs>
+- GitHub: <https://github.com/payloadcms/payload>
+- Examples: <https://github.com/payloadcms/payload/tree/main/examples>
+- Templates: <https://github.com/payloadcms/payload/tree/main/templates>
