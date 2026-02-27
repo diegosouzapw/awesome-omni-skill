@@ -1,11 +1,12 @@
 ---
 name: verify
-description: "ビルド検証、エラー復旧、レビュー修正の適用。Use when user mentions build verification, error recovery, applying review fixes, test failures, lint errors, or CI breaks. Do NOT load for: implementation work, reviews, setup, or new feature development."
-description-en: "Verifies builds, recovers from errors, and applies review fixes. Use when user mentions build verification, error recovery, applying review fixes, test failures, lint errors, or CI breaks. Do NOT load for: implementation work, reviews, setup, or new feature development."
-description-ja: "ビルド検証、エラー復旧、レビュー修正の適用。Use when user mentions build verification, error recovery, applying review fixes, test failures, lint errors, or CI breaks. Do NOT load for: implementation work, reviews, setup, or new feature development."
+description: "Verifies builds, recovers from errors, and applies review fixes. Use when user mentions ビルド, build, 検証, verify, エラー復旧, error recovery, 指摘を適用, apply fixes, テスト実行, tests fail, lint errors occur, CI breaks, テスト失敗, lintエラー, 型エラー, ビルドエラー, CIが落ちた. Do NOT load for: 実装作業, レビュー, セットアップ, 新機能開発."
 allowed-tools: ["Read", "Write", "Edit", "Grep", "Glob", "Bash"]
-user-invocable: true
-context: fork
+metadata:
+  skillport:
+    category: verify
+    tags: [build, verify, error-recovery, fixes]
+    alwaysApply: false
 ---
 
 # Verify Skills
@@ -74,24 +75,29 @@ context: fork
 - `.husky/**`, `.github/workflows/**`
 - `*.test.*`, `*.spec.*`, `jest.config.*`, `vitest.config.*`
 
-## 機能詳細
+## 含まれる小スキル
 
-| 機能 | 詳細 |
-|------|------|
-| **関連ファイル検証** | See [references/verify-related-files.md](references/verify-related-files.md) |
-| **ビルド検証** | See [references/build-verification.md](references/build-verification.md) |
-| **エラー復旧** | See [references/error-recovery.md](references/error-recovery.md) |
-| **レビュー集約** | See [references/review-aggregation.md](references/review-aggregation.md) |
-| **指摘適用** | See [references/applying-fixes.md](references/applying-fixes.md) |
+| スキル | 用途 |
+|--------|------|
+| verify-build | ビルド検証 |
+| error-recovery | エラー復旧 |
+| review-aggregate | レビュー結果の集約 |
+| review-apply-fixes | レビュー指摘の適用 |
+
+## ルーティング
+
+- ビルド検証: verify-build/doc.md
+- エラー復旧: error-recovery/doc.md
+- レビュー集約: review-aggregate/doc.md
+- 指摘適用: review-apply-fixes/doc.md
 
 ## 実行手順
 
 1. **品質判定ゲート**（Step 0）
 2. ユーザーのリクエストを分類
-3. **（実装完了後）関連ファイル検証**（Step 1.5）
-4. **（Claude-mem 有効時）過去のエラーパターンを検索**
-5. 上記の「機能詳細」から適切な参照ファイルを読む
-6. その内容に従って検証/復旧実行
+3. **（Claude-mem 有効時）過去のエラーパターンを検索**
+4. 適切な小スキルの doc.md を読む
+5. その内容に従って検証/復旧実行
 
 ### Step 0: 品質判定ゲート（再現テスト提案）
 
@@ -160,57 +166,6 @@ context: fork
 
 これを整理してから修正に進むと、確実に直せます。
 ```
-
-### Step 1.5: 関連ファイル検証（実装完了後）
-
-実装完了後、コミット前に編集ファイルの関連ファイルをチェック：
-
-```
-編集ファイルを取得
-    ↓
-┌─────────────────────────────────────────┐
-│           関連ファイル検証               │
-├─────────────────────────────────────────┤
-│  変更パターンを分析:                     │
-│  ├── 関数シグネチャ変更 → 呼び出し元確認 │
-│  ├── 型/interface変更 → 実装箇所確認    │
-│  ├── export削除 → import文確認         │
-│  └── 設定変更 → 関連設定ファイル確認    │
-└─────────────────────────────────────────┘
-    ↓
-  修正漏れ候補を警告
-```
-
-**出力例**:
-
-```markdown
-📋 関連ファイル検証
-
-✅ 編集済み: src/auth.ts
-   └─ 関数 `validateToken` のシグネチャ変更を検出
-
-⚠️ 要確認: 以下のファイルが影響を受ける可能性
-   ├─ src/api/middleware.ts:45 (validateToken 呼び出し)
-   ├─ src/routes/protected.ts:12 (validateToken 呼び出し)
-   └─ tests/auth.test.ts:28 (テストケース)
-
-確認済みですか？
-1. 確認済み、続行
-2. 各ファイルを確認する
-3. LSP find-references で詳細表示
-```
-
-**重要度の判定**:
-
-| 重要度 | 条件 | アクション |
-|--------|------|-----------|
-| `🚨 critical` | 必ずエラーになる（export削除、必須引数追加） | 修正必須 |
-| `⚠️ warning` | エラーの可能性あり（オプショナル引数、型変更） | 確認推奨 |
-| `ℹ️ info` | 影響軽微（コメント、ドキュメント） | 参考情報 |
-
-詳細: [references/verify-related-files.md](references/verify-related-files.md)
-
----
 
 ### Step 2: 過去のエラーパターン検索（Memory-Enhanced）
 
