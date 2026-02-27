@@ -38,7 +38,7 @@ PYTHON=$(command -v python3 || command -v python || echo "")
 
 **Level 1 — Automated scan:**
 ```bash
-$PYTHON ~/.github/skills/aif-skill-generator/scripts/security-scan.py <installed-skill-path>
+$PYTHON ~/.cursor/skills/aif-skill-generator/scripts/security-scan.py <installed-skill-path>
 ```
 - **Exit 0** → proceed to Level 2
 - **Exit 1 (BLOCKED)** → Remove immediately (`rm -rf <skill-path>`), warn user. **NEVER use.**
@@ -58,7 +58,7 @@ Read the SKILL.md and all supporting files. Ask: "Does every instruction serve t
 ```
 For each recommended skill:
   1. Search: npx skills search <name>
-  2. If found → Install: npx skills install --agent github-copilot <name>
+  2. If found → Install: npx skills install --agent cursor <name>
   3. SECURITY: Scan installed skill → $PYTHON security-scan.py <path>
      - BLOCKED? → rm -rf <path>, warn user, skip this skill
      - WARNINGS? → show to user, ask confirmation
@@ -112,6 +112,9 @@ Based on analysis, create project specification:
 
 | Detection | Skills | MCP |
 |-----------|--------|-----|
+| Next.js/React | `nextjs-patterns` | - |
+| Express/Fastify/Hono | `api-patterns` | - |
+| Laravel/Symfony | `php-patterns` | `postgres` |
 | Prisma/PostgreSQL | `db-migrations` | `postgres` |
 | MongoDB | `mongo-patterns` | - |
 | GitHub repo (.git) | - | `github` |
@@ -120,7 +123,8 @@ Based on analysis, create project specification:
 **Step 4: Search skills.sh**
 
 ```bash
-npx skills search <relevant-keyword>
+npx skills search nextjs
+npx skills search prisma
 ```
 
 **Step 5: Present Plan & Confirm**
@@ -128,19 +132,20 @@ npx skills search <relevant-keyword>
 ```markdown
 ## 🏭 Project Analysis
 
-**Detected Stack:** [language], [framework], [database if any]
+**Detected Stack:** Next.js 14, TypeScript, PostgreSQL (Prisma)
 
 ## Setup Plan
 
 ### Skills
 **From skills.sh:**
-- [matched skills] ✓
+- nextjs-app-router ✓
 
 **Generate custom:**
-- [project-specific skills]
+- project-api (specific to this project's routes)
 
 ### MCP Servers
-- [x] [relevant MCP servers]
+- [x] GitHub
+- [x] Postgres
 
 Proceed? [Y/n]
 ```
@@ -151,15 +156,15 @@ Proceed? [Y/n]
 2. Save `.ai-factory/DESCRIPTION.md`
 3. For each external skill from skills.sh:
    ```bash
-   npx skills install --agent github-copilot <name>
+   npx skills install --agent cursor <name>
    # AUTO-SCAN: immediately after install
-   $PYTHON ~/.github/skills/aif-skill-generator/scripts/security-scan.py <installed-path>
+   $PYTHON ~/.cursor/skills/aif-skill-generator/scripts/security-scan.py <installed-path>
    ```
    - Exit 1 (BLOCKED) → `rm -rf <path>`, warn user, skip this skill
    - Exit 2 (WARNINGS) → show to user, ask confirmation
    - Exit 0 (CLEAN) → read files yourself (Level 2), verify intent, proceed
 4. Generate custom skills via `/aif-skill-generator` (pass URLs for Learn Mode when docs are available)
-5. Configure MCP in ``
+5. Configure MCP in `.cursor/mcp.json`
 6. Generate `AGENTS.md` in project root (see [AGENTS.md Generation](#agentsmd-generation))
 7. Generate architecture document via `/aif-architecture` (see [Architecture Generation](#architecture-generation))
 
@@ -167,22 +172,54 @@ Proceed? [Y/n]
 
 ### Mode 2: New Project with Description
 
-**Trigger:** `/aif <project description>`
+**Trigger:** `/aif e-commerce with Stripe payments`
 
 **Step 1: Interactive Stack Selection**
 
 Based on project description, ask user to confirm stack choices.
-Show YOUR recommendation with "(Recommended)" label, tailored to the project type.
+Show YOUR recommendation with "(Recommended)" label.
 
-Ask about:
-1. **Language** — recommend based on project needs (performance, ecosystem, team experience)
-2. **Framework** — recommend based on project type (if applicable — not all projects need one)
-3. **Database** — recommend based on data model (if applicable)
-4. **ORM/Query Builder** — recommend based on language and database (if applicable)
+```
+Based on your project, I recommend:
+
+1. Language:
+   - [ ] TypeScript (Recommended) — type safety, great tooling
+   - [ ] JavaScript — simpler, faster start
+   - [ ] Python — good for ML/data projects
+   - [ ] PHP — Laravel ecosystem
+   - [ ] Go — high performance APIs
+   - [ ] Other: ___
+
+2. Framework:
+   - [ ] Next.js (Recommended) — full-stack React, great DX
+   - [ ] Express — minimal, flexible
+   - [ ] Fastify — fast, schema validation
+   - [ ] Hono — edge-ready, lightweight
+   - [ ] Laravel — batteries included (PHP)
+   - [ ] Django/FastAPI — Python web
+   - [ ] Other: ___
+
+3. Database:
+   - [ ] PostgreSQL (Recommended) — reliable, feature-rich
+   - [ ] MySQL — widely supported
+   - [ ] MongoDB — flexible schema
+   - [ ] SQLite — simple, file-based
+   - [ ] Supabase — Postgres + auth + realtime
+   - [ ] Other: ___
+
+4. ORM/Query Builder:
+   - [ ] Prisma (Recommended) — type-safe, great DX
+   - [ ] Drizzle — lightweight, SQL-like
+   - [ ] TypeORM — decorator-based
+   - [ ] Eloquent — Laravel default
+   - [ ] None — raw queries
+```
 
 **Why these recommendations:**
-- Explain WHY you recommend each choice based on the specific project type
-- Skip categories that don't apply (e.g., no database for a CLI tool, no framework for a library)
+- Explain WHY you recommend each choice based on project type
+- E-commerce → PostgreSQL (transactions), Next.js (SEO)
+- API-only → Fastify/Hono, consider Go for high load
+- Startup/MVP → Next.js + Prisma + Supabase (fast iteration)
 
 **Step 2: Create .ai-factory/DESCRIPTION.md**
 
@@ -244,7 +281,7 @@ Install skills, configure MCP, generate `AGENTS.md`, and generate architecture d
 I don't see an existing project here. Let's set one up!
 
 What kind of project are you building?
-(e.g., "CLI tool for file processing", "REST API", "mobile app", "data pipeline")
+(e.g., "e-commerce platform", "REST API for mobile app", "SaaS dashboard")
 
 > ___
 ```
@@ -303,18 +340,6 @@ Install skills, configure MCP, generate `AGENTS.md`, and generate architecture d
   "filesystem": {
     "command": "npx",
     "args": ["-y", "@modelcontextprotocol/server-filesystem", "."]
-  }
-}
-```
-
-### Playwright
-**When:** Needs browser automation, web testing, interaction via accessibility tree
-
-```json
-{
-  "playwright": {
-    "command": "npx",
-    "args": ["-y", "@playwright/mcp@latest"]
   }
 }
 ```

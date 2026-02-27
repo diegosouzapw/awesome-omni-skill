@@ -15,13 +15,12 @@ Use this skill when creating, improving, or troubleshooting Claude Code subagent
 ## When to Use This Skill
 
 Activate this skill when:
-
-- Creating a new subagent
-- Improving an existing agent
-- Configuring agent tool access
-- Troubleshooting agent invocation issues
-- Deciding between agents, skills, and commands
-- Implementing agent chaining or delegation patterns
+- User asks to create a new subagent
+- User wants to improve an existing agent
+- User needs help with agent configuration or tool access
+- User is troubleshooting agent invocation issues
+- User wants to understand when to use agents vs skills vs commands
+- User asks about agent chaining or delegation patterns
 
 ## Quick Reference
 
@@ -36,7 +35,6 @@ model: sonnet
 ---
 
 Your detailed system prompt defining:
-
 - Agent role and expertise
 - Problem-solving approach
 - Output format expectations
@@ -46,20 +44,17 @@ Your detailed system prompt defining:
 ### File Locations
 
 **Project agents** (shared with team, highest priority):
-
-```text
+```
 .claude/agents/my-agent.md
 ```
 
 **Personal agents** (individual use, lower priority):
-
-```text
+```
 ~/.claude/agents/my-agent.md
 ```
 
 **Plugin agents** (from installed plugins):
-
-```text
+```
 <plugin-dir>/agents/agent-name.md
 ```
 
@@ -68,7 +63,6 @@ Your detailed system prompt defining:
 ### Step 1: Identify the Use Case
 
 **Good candidates for subagents:**
-
 - Complex, multi-step workflows
 - Specialized expertise (debugging, security review, data analysis)
 - Tasks requiring focused context
@@ -76,7 +70,6 @@ Your detailed system prompt defining:
 - Code review and analysis workflows
 
 **NOT good for subagents (use Skills/Commands instead):**
-
 - Simple one-off prompts (use Slash Commands)
 - Context-aware automatic activation (use Skills)
 - Quick transformations or formatting
@@ -84,14 +77,12 @@ Your detailed system prompt defining:
 ### Step 2: Design Agent Scope
 
 **Best practices:**
-
 - **Single responsibility** - Each agent does ONE thing exceptionally well
 - **Clear boundaries** - Define what's in/out of scope
 - **Specific expertise** - Don't create "general helper" agents
 - **Measurable outcomes** - Agent should produce concrete deliverables
 
 **Examples:**
-
 - ✅ **code-reviewer** - Reviews code changes for quality, security, and best practices
 - ✅ **debugger** - Root cause analysis and minimal fixes for errors
 - ✅ **data-scientist** - SQL query optimization and data analysis
@@ -119,7 +110,6 @@ You are an expert code reviewer specializing in [language/framework].
 ## Your Role
 
 Review code changes thoroughly for:
-
 1. Code quality and readability
 2. Security vulnerabilities
 3. Performance issues
@@ -139,7 +129,6 @@ Review code changes thoroughly for:
 
 3. **Provide actionable feedback**
    Format:
-
    ### 🔴 Critical Issues
    - [Issue] (file.ts:42) - [Explanation] - [Fix]
 
@@ -157,7 +146,6 @@ Review code changes thoroughly for:
 ## Quality Standards
 
 **Code must:**
-
 - [ ] Follow language/framework conventions
 - [ ] Have proper error handling
 - [ ] Include necessary tests
@@ -165,7 +153,6 @@ Review code changes thoroughly for:
 - [ ] Use appropriate abstractions (not over-engineered)
 
 **Flag immediately:**
-
 - SQL injection risks
 - XSS vulnerabilities
 - Hardcoded credentials
@@ -175,7 +162,6 @@ Review code changes thoroughly for:
 ## Output Format
 
 Always provide:
-
 1. Summary (1-2 sentences)
 2. Categorized findings with file:line refs
 3. Approval decision
@@ -187,7 +173,6 @@ Be thorough but concise. Focus on what matters.
 ### Step 4: Configure Tools Access
 
 **Available tools:**
-
 - `Read` - Read files
 - `Write` - Create new files
 - `Edit` - Modify existing files
@@ -201,7 +186,6 @@ Be thorough but concise. Focus on what matters.
 **Tool configuration patterns:**
 
 **Inherit all tools** (omit `tools` field):
-
 ```yaml
 ---
 name: full-access-agent
@@ -211,7 +195,6 @@ description: Agent needs access to everything
 ```
 
 **Specific tools only**:
-
 ```yaml
 ---
 name: read-only-reviewer
@@ -221,7 +204,6 @@ tools: Read, Grep, Bash(git *)
 ```
 
 **Bash with restrictions**:
-
 ```yaml
 ---
 name: git-helper
@@ -235,7 +217,6 @@ tools: Bash(git *), Read
 ### Step 5: Choose Model
 
 **Model options:**
-
 - `sonnet` - Balanced, good for most agents (default)
 - `opus` - Complex reasoning, architectural decisions
 - `haiku` - Fast, simple tasks (formatting, quick checks)
@@ -244,44 +225,36 @@ tools: Bash(git *), Read
 **When to use each:**
 
 **Sonnet (most agents):**
-
 ```yaml
 model: sonnet
 ```
-
 - Code review
 - Debugging
 - Data analysis
 - General problem-solving
 
 **Opus (complex reasoning):**
-
 ```yaml
 model: opus
 ```
-
 - Architecture decisions
 - Complex refactoring
 - Deep security analysis
 - Novel problem-solving
 
 **Haiku (speed matters):**
-
 ```yaml
 model: haiku
 ```
-
 - Syntax checks
 - Simple formatting
 - Quick validations
 - Low-latency needs
 
 **Inherit (context-dependent):**
-
 ```yaml
 model: inherit
 ```
-
 - Agent should match user's model choice
 - Cost sensitivity
 
@@ -290,7 +263,6 @@ model: inherit
 The `description` field determines when Claude invokes your agent automatically.
 
 **Best practices:**
-
 - Start with "Use when..." or "Analyzes..." or "Helps with..."
 - Be specific about the agent's domain
 - Mention key capabilities
@@ -299,7 +271,6 @@ The `description` field determines when Claude invokes your agent automatically.
 **Examples:**
 
 ✅ **Good descriptions:**
-
 ```yaml
 description: Analyzes code changes for quality, security, and maintainability issues
 description: Use when debugging errors - performs root cause analysis and suggests minimal fixes
@@ -307,7 +278,6 @@ description: Helps with SQL query optimization and data analysis tasks
 ```
 
 ❌ **Poor descriptions:**
-
 ```yaml
 description: A helpful agent  # Too vague
 description: Does code stuff  # Not specific enough
@@ -335,14 +305,12 @@ Expert code reviewer for [your tech stack].
 ## Review Categories
 
 ### 1. Code Quality (0-10)
-
 - Readability and clarity
 - Naming conventions
 - Function/class size
 - Comments and documentation
 
 ### 2. Security (0-10)
-
 - Input validation
 - SQL injection risks
 - XSS vulnerabilities
@@ -350,14 +318,12 @@ Expert code reviewer for [your tech stack].
 - Authentication/authorization
 
 ### 3. Performance (0-10)
-
 - Algorithm efficiency
 - Resource usage
 - Caching strategy
 - Database queries
 
 ### 4. Testing (0-10)
-
 - Test coverage
 - Edge cases
 - Integration tests
@@ -376,20 +342,16 @@ Expert code reviewer for [your tech stack].
 **Overall: X/40**
 
 ### Critical Issues (must fix)
-
 - [Issue] (file:line) - [Why] - [How to fix]
 
 ### Suggestions (should fix)
-
 - [Improvement] (file:line) - [Rationale]
 
 ### Positive Notes
-
 - [What was done well]
 
 **Decision:** [Approve/Approve with comments/Request changes]
 **Top 3 Priorities:**
-
 1. [Action]
 2. [Action]
 3. [Action]
@@ -414,28 +376,24 @@ Expert at finding and fixing bugs through systematic analysis.
 ## Debugging Process
 
 ### 1. Capture Context
-
 - What error/unexpected behavior occurred?
 - Error messages and stack traces
 - Steps to reproduce
 - Expected vs actual behavior
 
 ### 2. Isolate the Problem
-
 - Read relevant files
 - Trace execution path
 - Identify failure point
 - Determine root cause (not just symptoms)
 
 ### 3. Minimal Fix
-
 - Fix the root cause, not symptoms
 - Make smallest change that works
 - Don't refactor unrelated code
 - Preserve existing behavior
 
 ### 4. Verify
-
 - How to test the fix
 - Edge cases to check
 - Potential side effects
@@ -479,21 +437,18 @@ Expert in SQL optimization and data analysis.
 ## SQL Query Guidelines
 
 ### Performance
-
 - Always include WHERE clauses with indexed columns
 - Use appropriate JOINs (avoid cartesian products)
 - Limit result sets with LIMIT
 - Use EXPLAIN to verify query plans
 
 ### Cost Awareness
-
 - Estimate query cost before running
 - Prefer indexed lookups over full table scans
 - Use materialized views for expensive aggregations
 - Sample large datasets when appropriate
 
 ### Best Practices
-
 - Use CTEs for readability
 - Parameterize queries (prevent SQL injection)
 - Document complex queries
@@ -536,7 +491,6 @@ WHERE ...
 **Results:** [Summary]
 
 **Insights:**
-
 - [Key finding 1]
 - [Key finding 2]
 - [Key finding 3]
@@ -565,14 +519,12 @@ Generates thorough test suites for code.
 ## Test Coverage Strategy
 
 ### 1. Happy Path (40%)
-
 - Normal inputs
 - Expected outputs
 - Standard workflows
 - Common use cases
 
 ### 2. Edge Cases (30%)
-
 - Empty inputs
 - Null/undefined
 - Boundary values
@@ -581,7 +533,6 @@ Generates thorough test suites for code.
 - Unicode/special characters
 
 ### 3. Error Cases (20%)
-
 - Invalid inputs
 - Type mismatches
 - Missing required fields
@@ -589,7 +540,6 @@ Generates thorough test suites for code.
 - Permission errors
 
 ### 4. Integration (10%)
-
 - Component interaction
 - API contracts
 - Database operations
@@ -599,24 +549,24 @@ Generates thorough test suites for code.
 
 \`\`\`typescript
 describe('[Component/Function]', () => {
-describe('Happy Path', () => {
-it('should [expected behavior]', () => {
-// Arrange
-// Act
-// Assert
-})
-})
+  describe('Happy Path', () => {
+    it('should [expected behavior]', () => {
+      // Arrange
+      // Act
+      // Assert
+    })
+  })
 
-describe('Edge Cases', () => {
-it('should handle empty input', () => {})
-it('should handle null', () => {})
-it('should handle boundary values', () => {})
-})
+  describe('Edge Cases', () => {
+    it('should handle empty input', () => {})
+    it('should handle null', () => {})
+    it('should handle boundary values', () => {})
+  })
 
-describe('Error Cases', () => {
-it('should throw on invalid input', () => {})
-it('should handle network failure', () => {})
-})
+  describe('Error Cases', () => {
+    it('should throw on invalid input', () => {})
+    it('should handle network failure', () => {})
+  })
 })
 \`\`\`
 
@@ -632,7 +582,6 @@ it('should handle network failure', () => {})
 ## Output
 
 Generate complete test file with:
-
 - Imports and setup
 - Test suites organized by category
 - All test cases with assertions
@@ -644,14 +593,12 @@ Generate complete test file with:
 ### Automatic Delegation
 
 Claude will automatically invoke agents when:
-
 - Task matches agent description
 - Agent is appropriate for context
 - More efficient than main conversation
 
 **Example:**
-
-```text
+```
 User: "Can you review my recent code changes?"
 → Claude invokes code-reviewer agent
 ```
@@ -659,8 +606,7 @@ User: "Can you review my recent code changes?"
 ### Explicit Invocation
 
 Request specific agents:
-
-```text
+```
 "Use the debugger subagent to find why this test is failing"
 "Have the data-scientist subagent analyze user retention"
 "Ask the code-reviewer to check this PR"
@@ -669,8 +615,7 @@ Request specific agents:
 ### Agent Chaining
 
 Sequence multiple agents for complex workflows:
-
-```text
+```
 "First use code-analyzer to find performance bottlenecks,
 then use optimizer to fix them,
 finally use test-generator to verify the changes"
@@ -678,23 +623,20 @@ finally use test-generator to verify the changes"
 
 ## Agents vs Skills vs Commands
 
-### Use Subagents When
-
+### Use Subagents When:
 - ✅ Complex multi-step workflows
 - ✅ Specialized expertise needed
 - ✅ Delegation improves main context efficiency
 - ✅ Repeatable process with quality standards
 - ✅ Need focused context window
 
-### Use Skills When
-
+### Use Skills When:
 - ✅ Context-aware automatic activation
 - ✅ Reference documentation and patterns
 - ✅ Multiple supporting files needed
 - ✅ Team standardization required
 
-### Use Slash Commands When
-
+### Use Slash Commands When:
 - ✅ Simple, focused tasks
 - ✅ Frequent manual invocation
 - ✅ Prompt fits in one file
@@ -702,7 +644,7 @@ finally use test-generator to verify the changes"
 
 **Decision Tree:**
 
-```text
+```
 Need specialized AI behavior?
 ├─ Yes → Complex workflow?
 │         ├─ Yes → Use Subagent
@@ -717,7 +659,6 @@ Need specialized AI behavior?
 ### View Agents
 
 Use `/agents` command to:
-
 - List all available agents
 - See agent descriptions
 - Check tool permissions
@@ -726,13 +667,11 @@ Use `/agents` command to:
 ### Create Agent with Claude
 
 Recommended approach:
-
-```text
+```
 "Create a subagent for [purpose] that [capabilities]"
 ```
 
 Claude will generate:
-
 - Appropriate name
 - Clear description
 - System prompt
@@ -751,13 +690,11 @@ Then review and customize as needed.
 ### Test Agents
 
 Verify agent works as expected:
-
-```text
+```
 "Use the [agent-name] subagent to [test task]"
 ```
 
 Check:
-
 - Agent activates correctly
 - Has necessary tool access
 - Produces expected output format
@@ -770,19 +707,16 @@ Check:
 Each agent should do ONE thing exceptionally well.
 
 ❌ **Anti-pattern:**
-
 ```yaml
 name: code-helper
 description: Reviews, debugs, tests, refactors, and documents code
 ```
 
 ✅ **Better:**
-
 ```yaml
 name: code-reviewer
 description: Reviews code for quality, security, and best practices
 ```
-
 ```yaml
 name: debugger
 description: Root cause analysis and minimal fixes for bugs
@@ -791,7 +725,6 @@ description: Root cause analysis and minimal fixes for bugs
 ### 2. Detailed System Prompts
 
 Include:
-
 - Role definition
 - Step-by-step process
 - Output format
@@ -804,14 +737,12 @@ Include:
 Grant only necessary tools:
 
 ❌ **Anti-pattern:**
-
 ```yaml
 tools: Read, Write, Edit, Bash, Grep, Glob, WebSearch, WebFetch
 # Agent only needs Read and Grep
 ```
 
 ✅ **Better:**
-
 ```yaml
 tools: Read, Grep
 ```
@@ -826,11 +757,9 @@ Define expected structure in system prompt:
 **Summary:** [1-2 sentence overview]
 
 **Findings:**
-
 - [Category]: [Specific finding] (file:line)
 
 **Recommendations:**
-
 1. [Priority action]
 2. [Priority action]
 3. [Priority action]
@@ -839,7 +768,6 @@ Define expected structure in system prompt:
 ### 5. Version Control
 
 Store project agents in git:
-
 - `.claude/agents/` committed to repo
 - Team can collaborate on improvements
 - Track changes over time
@@ -850,19 +778,16 @@ Store project agents in git:
 Start simple, refine based on usage:
 
 **v1:** Basic functionality
-
 ```yaml
 description: Reviews code
 ```
 
 **v2:** More specific
-
 ```yaml
 description: Reviews code for security vulnerabilities
 ```
 
 **v3:** Comprehensive
-
 ```yaml
 description: Reviews code for security vulnerabilities including SQL injection, XSS, CSRF, and secrets exposure
 ```
@@ -874,7 +799,6 @@ description: Reviews code for security vulnerabilities including SQL injection, 
 **Problem:** Agent doesn't get invoked when expected
 
 **Solutions:**
-
 1. Check description is specific and matches use case
 2. Verify agent file is in `.claude/agents/`
 3. Request explicitly: "Use the [agent-name] subagent"
@@ -885,7 +809,6 @@ description: Reviews code for security vulnerabilities including SQL injection, 
 **Problem:** Agent can't access needed tools
 
 **Solutions:**
-
 1. Add tools to frontmatter: `tools: Read, Write, Bash`
 2. Check Bash patterns: `Bash(git *)` not just `Bash`
 3. Omit `tools` field to inherit all tools
@@ -896,7 +819,6 @@ description: Reviews code for security vulnerabilities including SQL injection, 
 **Problem:** Agent doesn't produce expected format
 
 **Solutions:**
-
 1. Add explicit format to system prompt
 2. Include example output
 3. Use template/checklist in prompt
@@ -907,7 +829,6 @@ description: Reviews code for security vulnerabilities including SQL injection, 
 **Problem:** Agent takes too long to respond
 
 **Solutions:**
-
 1. Use `model: haiku` for faster responses
 2. Limit tool usage in prompt
 3. Reduce scope of agent responsibility
@@ -917,7 +838,7 @@ description: Reviews code for security vulnerabilities including SQL injection, 
 
 ### Conditional Agent Chains
 
-```text
+```
 "If the code-reviewer finds critical issues,
 use the auto-fixer subagent to resolve them,
 then re-review with code-reviewer"
@@ -933,7 +854,7 @@ tools: Read, Grep, Bash(git *), Bash(npm test:*)
 
 ### Multi-Model Workflow
 
-```text
+```
 Use opus for architecture decisions →
 Use sonnet for implementation →
 Use haiku for formatting checks
@@ -942,50 +863,45 @@ Use haiku for formatting checks
 ## Example Agent Library
 
 ### code-reviewer
-
 **Purpose:** Code quality, security, and best practices
-**Tools:** Read, Grep, Bash(git \*)
+**Tools:** Read, Grep, Bash(git *)
 **Model:** sonnet
 
 ### debugger
-
 **Purpose:** Root cause analysis and minimal fixes
 **Tools:** Read, Edit, Bash, Grep
 **Model:** sonnet
 
 ### test-generator
-
 **Purpose:** Comprehensive test suite generation
 **Tools:** Read, Write
 **Model:** sonnet
 
 ### data-scientist
-
 **Purpose:** SQL optimization and data analysis
 **Tools:** Read, Write, Bash, WebSearch
 **Model:** sonnet
 
 ### security-auditor
-
 **Purpose:** Deep security vulnerability analysis
 **Tools:** Read, Grep, WebSearch
 **Model:** opus
 
 ### performance-optimizer
-
 **Purpose:** Performance bottleneck identification and fixes
 **Tools:** Read, Edit, Bash
 **Model:** sonnet
 
 ### docs-writer
-
 **Purpose:** API documentation and README generation
-**Tools:** Read, Write, Bash(git \*)
+**Tools:** Read, Write, Bash(git *)
 **Model:** sonnet
 
 ## Related Documentation
 
 - **EXAMPLES.md** - Complete agent implementations
+- **PATTERNS.md** - Reusable agent patterns
+- **TOOLS.md** - Tool configuration reference
 
 ## Checklist for New Agents
 

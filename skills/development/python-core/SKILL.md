@@ -1,264 +1,355 @@
 ---
 name: python-core
-description: Create, write, build, debug, test, refactor, and optimize Python 3.10+ applications across all domains (data science, backend APIs, scripting, automation). Manage dependencies with uv (preferred), poetry, or pip. Implement type hints (typing module, generics, protocols), write tests with pytest (fixtures, parametrize, mocking), work with pandas DataFrames (creation, selection, groupby, merge), use dataclasses and decorators, handle errors with logging integration, and follow TDD workflows (Red-Green-Refactor). Configure virtual environments, pyproject.toml, and static analysis tools (mypy, pyright). Use when implementing Python features, fixing bugs, writing tests, managing packages, analyzing data, or building Python projects.
-license: MIT
-metadata:
-  version: 1.0.0
-  audience: developers
-  workflow: python-development
+description: "Comprehensive Python development expertise covering modern best practices, type hints, FastAPI web development, async/await, testing, and performance optimization. Use when working on Python projects requiring guidance on: (1) Modern Python features and best practices, (2) Type hints and static typing with mypy, (3) FastAPI web development, (4) Async/await and asyncio patterns, (5) Testing with pytest, (6) Data validation with Pydantic, (7) Database integration (SQLAlchemy), (8) Project structure and dependencies, (9) Performance optimization, (10) Logging and observability, or (11) Code reviews and common errors."
 ---
 
-## Quick Start
+# Python Core Development
 
-**Prerequisites:**
-- Python 3.10+ installed (`python --version`)
-- Dependency manager: uv (recommended), poetry, or pip+venv
-- IDE with Python language server (VS Code, PyCharm)
+Comprehensive guidance for modern Python development with focus on FastAPI, type safety, and best practices.
 
-**Tools Used:** Read, Write, Edit, Bash (for uv/poetry/pip commands), LSP diagnostics
+## Quick Reference Guide
 
-**Dependency Management Decision Tree:**
-```
-New project? → Use uv: uv init, uv add, uv sync
-Existing poetry? → Use poetry: poetry install, poetry add
-Legacy/simple? → Use pip+venv: python -m venv, pip install
-```
+### By Task Type
 
-**Basic Usage:**
-1. Set up environment (see decision tree)
-2. Write code with type hints
-3. Write tests first (TDD)
-4. Run tests: `pytest`
-5. Verify types: `mypy .`
+**Getting Started**
+- **New Project**: Use `scripts/init_python_project.sh` for FastAPI or package projects
+- **Core Principles**: See [references/principles.md](references/principles.md) for PEP 8 and Python philosophy
+- **Common Errors**: See [references/common-errors.md](references/common-errors.md) for solutions
 
-## What I Do
+**Writing Code**
+- **Type Hints**: See [references/type-hints.md](references/type-hints.md) for annotations and mypy
+- **Async Programming**: See [references/async-patterns.md](references/async-patterns.md) for asyncio patterns
+- **Testing**: See [references/testing.md](references/testing.md) for pytest strategies
 
-- Create Python 3.10+ applications (data science, backend, scripting, automation)
-- Manage dependencies with uv, poetry, or pip
-- Implement type hints (typing module, generics, protocols)
-- Write tests with pytest (fixtures, parametrize, mocking)
-- Work with pandas DataFrames (selection, groupby, merge)
-- Use Python patterns (decorators, comprehensions, generators, dataclasses)
-- Handle errors with logging integration
-- Follow TDD workflow (Red-Green-Refactor)
+**Web Development (FastAPI)**
+- **FastAPI Guide**: See [references/fastapi-guide.md](references/fastapi-guide.md) for comprehensive tutorial
+- **Essential Libraries**: See [references/common-libraries.md](references/common-libraries.md)
 
-## When to Use Me
+**Code Quality**
+- **Code Review**: See [references/code-review.md](references/code-review.md) for checklist
+- **Performance**: See [references/performance.md](references/performance.md) for optimization
 
-Use this skill when you:
-- Create, refactor, or debug Python 3.10+ code
-- Set up projects with dependency management (uv, poetry, pip)
-- Implement type hints or fix type errors
-- Write pytest tests (fixtures, parametrize, mocking)
-- Work with pandas DataFrames
-- Use Python patterns (decorators, generators, dataclasses)
-- Handle errors with logging
-- Follow TDD workflows
+**Project Management**
+- **Dependencies**: See [references/dependencies.md](references/dependencies.md) for pip, poetry, uv
+- **Project Structure**: See [references/project-structure.md](references/project-structure.md)
 
-## Python Version Features
+### By Question Type
 
-| Version | Features |
-|---------|----------|
-| **3.10** | Pattern matching, union types (`\|`), `TypeAlias` |
-| **3.11** | Exception groups (`except*`), `Self` type |
-| **3.12** | Type parameters (`def func[T]`), f-string improvements |
+| Question | Reference |
+|----------|-----------|
+| "How do I build a FastAPI app?" | [fastapi-guide.md](references/fastapi-guide.md) |
+| "How do I add type hints?" | [type-hints.md](references/type-hints.md) |
+| "How do I use async/await?" | [async-patterns.md](references/async-patterns.md) |
+| "How do I test this?" | [testing.md](references/testing.md) |
+| "What are Python best practices?" | [principles.md](references/principles.md) |
+| "How do I structure my project?" | [project-structure.md](references/project-structure.md) |
+| "What libraries should I use?" | [common-libraries.md](references/common-libraries.md) |
+| "How do I manage dependencies?" | [dependencies.md](references/dependencies.md) |
+| "How do I improve performance?" | [performance.md](references/performance.md) |
+| "Why am I getting this error?" | [common-errors.md](references/common-errors.md) |
 
-## Quick Reference Tables
+## Core Workflows
 
-### Built-in Functions
-| Function | Purpose |
-|----------|---------|
-| `map(func, iterable)` | Apply function to each item |
-| `filter(func, iterable)` | Keep items where condition is True |
-| `zip(*iterables)` | Combine iterables element-wise |
-| `enumerate(iterable)` | Add index to iterable |
+### 1. Starting a FastAPI Project
 
-### String Operations
-| Operation | Example |
-|-----------|---------|
-| f-strings | `f"Hello {name}"` |
-| `.join()` | `", ".join(['a', 'b'])` |
-| `.split()` | `"a,b".split(",")` |
+1. **Initialize Project**
+   ```bash
+   ./scripts/init_python_project.sh my-api fastapi
+   cd my-api
+   ```
 
-### Collection Methods
-| Type | Common Methods |
-|------|----------------|
-| **list** | `.append()`, `.extend()`, `.pop()`, `.sort()` |
-| **dict** | `.get()`, `.keys()`, `.values()`, `.items()` |
-| **set** | `.add()`, `.remove()`, `.union()` |
+2. **Set Up Environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # or `venv\Scripts\activate` on Windows
+   pip install fastapi uvicorn[standard] sqlalchemy pydantic
+   pip install pytest mypy ruff --dev
+   ```
 
-## Type Hints Basics
+3. **Configure Tools**
+   - Copy `assets/configs/ruff.toml` for linting
+   - Copy `assets/configs/mypy.ini` for type checking
+   - Copy `assets/configs/pytest.ini` for testing
 
+4. **Start Development**
+   ```bash
+   uvicorn app.main:app --reload
+   ```
+   Visit `http://localhost:8000/docs` for automatic API documentation
+
+### 2. Building a FastAPI Endpoint
+
+1. **Define Pydantic Models**
+   ```python
+   from pydantic import BaseModel, EmailStr
+
+   class UserCreate(BaseModel):
+       username: str
+       email: EmailStr
+       password: str
+
+   class User(BaseModel):
+       id: int
+       username: str
+       email: EmailStr
+       is_active: bool = True
+   ```
+
+2. **Create Endpoint**
+   ```python
+   from fastapi import FastAPI, Depends, HTTPException
+   from sqlalchemy.orm import Session
+
+   app = FastAPI()
+
+   @app.post("/users/", response_model=User)
+   async def create_user(
+       user: UserCreate,
+       db: Session = Depends(get_db)
+   ):
+       db_user = crud.create_user(db, user)
+       return db_user
+   ```
+
+3. **Add Tests**
+   ```python
+   from fastapi.testclient import TestClient
+
+   def test_create_user():
+       response = client.post(
+           "/users/",
+           json={"username": "test", "email": "test@example.com", "password": "secret"}
+       )
+       assert response.status_code == 200
+       assert response.json()["username"] == "test"
+   ```
+
+### 3. Code Quality Workflow
+
+1. **Type Check**
+   ```bash
+   mypy app/
+   ```
+
+2. **Lint and Format**
+   ```bash
+   ruff check app/
+   ruff format app/
+   ```
+
+3. **Run Tests**
+   ```bash
+   pytest --cov=app
+   ```
+
+4. **Security Audit**
+   ```bash
+   ./scripts/audit_dependencies.sh
+   ```
+
+## Decision Guides
+
+### When to Use FastAPI vs Django vs Flask
+
+**Use FastAPI when:**
+- Building modern REST APIs
+- Need automatic OpenAPI/Swagger docs
+- Want async/await support
+- Type safety is important
+- Performance is critical
+
+**Use Django when:**
+- Building full-stack web applications
+- Need admin interface out of the box
+- Want ORM with migrations
+- Building monolithic applications
+
+**Use Flask when:**
+- Need maximum flexibility
+- Building small to medium APIs
+- Want lightweight framework
+- Learning web development
+
+See [fastapi-guide.md](references/fastapi-guide.md) for comprehensive FastAPI patterns.
+
+### Type Hints Strategy
+
+**Always use type hints for:**
+- Public function signatures
+- Class attributes
+- Function return types
+- Complex data structures
+
+**Example:**
 ```python
 from typing import Optional
 
-def greet(name: str) -> str:
-    return f"Hello {name}"
-
-def process_items(items: list[int]) -> dict[str, int]:
-    return {"count": len(items), "sum": sum(items)}
-
-def find_user(user_id: int) -> Optional[str]:
-    return users.get(user_id)
-
-def parse_value(val: str | int) -> int:  # Python 3.10+
-    return int(val)
+def process_data(
+    items: list[str],
+    filter_fn: Optional[callable] = None
+) -> dict[str, int]:
+    """Process items and return counts."""
+    return {item: len(item) for item in items}
 ```
 
-**See [references/type-hints.md](references/type-hints.md) for Generics and Protocols.**
+See [type-hints.md](references/type-hints.md) for advanced patterns.
 
-## TDD Workflow (Red-Green-Refactor)
+### Async vs Sync
 
-1. **Red**: Write failing test
-2. **Green**: Write minimal code to pass
-3. **Refactor**: Improve while keeping tests green
+**Use async when:**
+- I/O-bound operations (HTTP requests, database queries)
+- Need high concurrency
+- Using FastAPI (built for async)
+- Working with async libraries (httpx, asyncpg)
+
+**Use sync when:**
+- CPU-bound operations
+- Simple scripts
+- Libraries don't support async
+- Complexity isn't justified
+
+See [async-patterns.md](references/async-patterns.md) for asyncio patterns.
+
+## Automation Scripts
+
+### `scripts/init_python_project.sh`
+Initialize a new Python project with best practices:
+- FastAPI or package structure
+- pyproject.toml with modern config
+- Development dependencies (pytest, mypy, ruff)
+- Proper .gitignore
+
+Usage: `./scripts/init_python_project.sh my-project [package|fastapi]`
+
+### `scripts/audit_dependencies.sh`
+Audit dependencies for security vulnerabilities:
+- Runs pip-audit for known CVEs
+- Checks for outdated packages
+
+Usage: `./scripts/audit_dependencies.sh`
+
+### `scripts/setup_logging.sh`
+Set up structured logging with structlog:
+- Installs structlog
+- Creates configuration file
+- JSON logging for production
+
+Usage: `./scripts/setup_logging.sh`
+
+## Configuration Templates
+
+### `assets/configs/ruff.toml`
+Modern Python linter and formatter configuration:
+- 100 character line length
+- Comprehensive rule selection
+- Import sorting
+
+### `assets/configs/mypy.ini`
+Static type checker configuration:
+- Strict mode enabled
+- Python 3.11+ features
+- Comprehensive warnings
+
+### `assets/configs/pytest.ini`
+Testing framework configuration:
+- Coverage reporting
+- Async test support
+- HTML coverage reports
+
+### `assets/configs/pyproject.toml`
+Complete project configuration template:
+- FastAPI dependencies
+- Development tools
+- Tool configurations
+
+## Reference Documentation
+
+### Core Python
+- **[principles.md](references/principles.md)** - PEP 8, Zen of Python, best practices
+- **[type-hints.md](references/type-hints.md)** - Type annotations, mypy, protocols
+- **[async-patterns.md](references/async-patterns.md)** - asyncio, async/await, concurrency
+
+### Development
+- **[testing.md](references/testing.md)** - pytest, fixtures, mocking, coverage
+- **[project-structure.md](references/project-structure.md)** - Package layout, src/ pattern
+- **[dependencies.md](references/dependencies.md)** - pip, poetry, uv, pyproject.toml
+- **[performance.md](references/performance.md)** - Profiling, optimization strategies
+- **[code-review.md](references/code-review.md)** - Review checklist, anti-patterns
+
+### Web Development
+- **[fastapi-guide.md](references/fastapi-guide.md)** - Comprehensive FastAPI tutorial
+- **[common-libraries.md](references/common-libraries.md)** - Essential Python packages
+
+### Troubleshooting
+- **[common-errors.md](references/common-errors.md)** - Common mistakes and solutions
+
+## FastAPI Quick Start
 
 ```python
-# Red: Test fails (function doesn't exist)
-def test_total():
-    assert calculate_total([10, 20, 30]) == 60
+# main.py
+from fastapi import FastAPI
+from pydantic import BaseModel
 
-# Green: Make it pass
-def calculate_total(items):
-    return sum(items)
+app = FastAPI(title="My API")
 
-# Refactor: Add types and edge cases
-def calculate_total(items: list[int]) -> int:
-    return sum(items) if items else 0
-```
-
-**See [references/pytest.md](references/pytest.md) for fixtures and mocking.**
-
-## Error Handling with Logging
-
-```python
-import logging
-
-logger = logging.getLogger(__name__)
-
-# Try/Except/Finally
-try:
-    result = risky_operation()
-except ValueError as e:
-    logger.error(f"Invalid value: {e}")
-    raise
-finally:
-    cleanup_resources()
-
-# Custom Exceptions
-class DataValidationError(Exception):
-    pass
-
-def validate_data(data: dict) -> None:
-    if "required_field" not in data:
-        raise DataValidationError("required_field missing")
-
-# Context Manager for cleanup
-from contextlib import contextmanager
-
-@contextmanager
-def db_connection(url: str):
-    conn = connect(url)
-    try:
-        yield conn
-    finally:
-        conn.close()
-```
-
-## Examples
-
-### Example 1: Dataclass with Type Hints
-```python
-from dataclasses import dataclass
-from typing import List, Optional
-
-@dataclass
-class User:
-    id: int
+class Item(BaseModel):
     name: str
-    email: str
-    tags: List[str] = None
-    
-    def __post_init__(self):
-        if self.tags is None:
-            self.tags = []
+    price: float
+    is_offer: bool = False
 
-# Usage
-user = User(id=1, name="Alice", email="alice@example.com")
-user.tags.append("admin")
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
+
+@app.post("/items/")
+async def create_item(item: Item):
+    return {"item_name": item.name, "item_price": item.price}
+
+@app.get("/items/{item_id}")
+async def read_item(item_id: int, q: str | None = None):
+    return {"item_id": item_id, "q": q}
 ```
 
-### Example 2: Decorator Pattern
-```python
-import functools
-import time
-import logging
+Run: `uvicorn main:app --reload`
 
-logger = logging.getLogger(__name__)
+Docs: `http://localhost:8000/docs`
 
-def timing_decorator(func):
-    @functools.wraps(func)
-    def wrapper(*args, **kwargs):
-        start = time.time()
-        result = func(*args, **kwargs)
-        elapsed = time.time() - start
-        logger.info(f"{func.__name__} took {elapsed:.2f}s")
-        return result
-    return wrapper
+## Best Practices Summary
 
-@timing_decorator
-def slow_function():
-    time.sleep(1)
-    return "done"
-```
+1. **Use type hints everywhere** - Enable mypy strict mode
+2. **Follow PEP 8** - Use ruff for linting and formatting
+3. **Write tests** - Aim for 80%+ coverage with pytest
+4. **Use async for I/O** - FastAPI is built for async
+5. **Validate with Pydantic** - Type-safe data validation
+6. **Structure projects properly** - Use src/ layout
+7. **Document code** - Docstrings and type hints
+8. **Handle errors explicitly** - Specific exception types
+9. **Audit dependencies** - Regular security checks
+10. **Profile before optimizing** - Measure, don't guess
 
-### Example 3: List Comprehension with Filtering
-```python
-# Filter and transform in one line
-numbers = [1, 2, 3, 4, 5, 6]
-even_squares = [x**2 for x in numbers if x % 2 == 0]
-# Result: [4, 16, 36]
+## Example: Complete FastAPI Application
 
-# Dict comprehension
-users = [("alice", 25), ("bob", 30)]
-user_dict = {name: age for name, age in users}
-# Result: {"alice": 25, "bob": 30}
-```
+See [fastapi-guide.md](references/fastapi-guide.md) for:
+- Database integration with SQLAlchemy
+- Authentication with JWT
+- File uploads
+- WebSocket support
+- Background tasks
+- Testing strategies
+- Deployment patterns
+- Project structure
 
-### Example 4: Generator for Memory Efficiency
-```python
-def read_large_file(file_path: str):
-    with open(file_path, 'r') as f:
-        for line in f:
-            yield line.strip()
+## When to Consult References
 
-for line in read_large_file("huge.txt"):
-    process(line)
-```
+**Load references progressively:**
 
-**See [references/patterns.md](references/patterns.md) for more patterns.**
+1. **Starting out**: Read [principles.md](references/principles.md) for Python fundamentals
+2. **Building web API**: Consult [fastapi-guide.md](references/fastapi-guide.md)
+3. **Adding types**: Reference [type-hints.md](references/type-hints.md)
+4. **Going async**: See [async-patterns.md](references/async-patterns.md)
+5. **Testing**: Use [testing.md](references/testing.md)
+6. **Debugging**: Check [common-errors.md](references/common-errors.md)
+7. **Reviewing**: Use [code-review.md](references/code-review.md) checklist
+8. **Optimizing**: See [performance.md](references/performance.md)
 
-## Common Errors
-
-| Error | Solution |
-|-------|----------|
-| `ModuleNotFoundError` | Run `uv add <package>` or `pip install <package>` |
-| `TypeError` | Check types, add type hints |
-| `KeyError` | Use `.get('key', default)` instead of `['key']` |
-| `IndentationError` | Use 4 spaces (PEP 8) |
-| `AttributeError: 'NoneType'` | Check for None: `if obj is not None:` |
-
-## Related Skills
-
-- **pytest-testing**: Fixtures, parametrize, mocking
-- **pandas-data-analysis**: Advanced DataFrame operations
-- **fastapi-backend**: REST APIs with FastAPI
-- **django-web**: Web applications with Django
-- **github-actions**: CI/CD for Python
-
-## References
-
-- [references/patterns.md](references/patterns.md) - Context managers, decorators, comprehensions, generators, dataclasses, async/await
-- [references/type-hints.md](references/type-hints.md) - Advanced typing (Generics, Protocols, TypeVar, type guards)
-- [references/pytest.md](references/pytest.md) - Fixtures, parametrize, mocking, assertions
-- [references/pandas.md](references/pandas.md) - DataFrame operations, groupby, merge, performance
-- [references/dependency-management.md](references/dependency-management.md) - uv, poetry, pip workflows and pyproject.toml
+Don't load all references at once—consult them as needs arise.

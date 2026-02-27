@@ -170,6 +170,59 @@ Example: When agent only needs to read and ask questions
 
 **Most agents use default** - only use others when you have a specific workflow need.
 
+### 5. Agent Hooks
+
+Agent hooks are lifecycle hooks defined in YAML frontmatter, scoped to that specific agent.
+
+**When to use agent hooks**:
+
+- Agent needs specific validation before tool execution
+- Auto-format or lint files after agent edits
+- Log or notify when agent completes tasks
+- Need behavior specific to one agent, not global
+
+**When to use settings.json hooks instead**:
+
+- Behavior applies to all sessions/agents
+- Need events like SessionStart, SubagentStart, UserPromptSubmit
+- Global validation or formatting rules
+
+**Available events**:
+
+| Event         | Trigger                | Use Case                      |
+| ------------- | ---------------------- | ----------------------------- |
+| `PreToolUse`  | Before agent uses tool | Validation, blocking, logging |
+| `PostToolUse` | After tool completes   | Formatting, notifications     |
+| `Stop`        | Agent finishes         | Cleanup, notifications        |
+
+**Configuration syntax**:
+
+```yaml
+---
+name: code-reviewer
+description: Review code with automatic linting
+hooks:
+  PreToolUse:
+    - matcher: "Bash"
+      hooks:
+        - type: command
+          command: "./scripts/validate-command.sh"
+  PostToolUse:
+    - matcher: "Edit|Write"
+      hooks:
+        - type: command
+          command: "./scripts/run-linter.sh"
+          timeout: 10
+---
+```
+
+**Key points**:
+
+- **Matchers** filter which tools trigger hooks (`"Edit|Write"`, `"Bash"`, `"*"`)
+- **Stop** event auto-converts to SubagentStop internally
+- Hooks run with user credentials (same security model as settings.json)
+- Keep hook scripts fast (<30s timeout recommended)
+
 ## Agent Design Patterns
 
 Three proven patterns for building effective agents. Each pattern includes complete templates you can copy and customize.

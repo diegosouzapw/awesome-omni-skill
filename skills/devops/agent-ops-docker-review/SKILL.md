@@ -1,15 +1,13 @@
 ---
 name: agent-ops-docker-review
 description: "Docker image reviews, optimization, and step-building guidance. Analyzes Dockerfiles for best practices, security issues, and anti-patterns."
-category: analysis
-invokes: [agent-ops-state]
-invoked_by: []
-state_files:
-  read: [constitution.md]
-  write: []
-output_files:
-  - .agent/docker-review.md
-  - .agent/references/dockerfile-optimized.md
+license: MIT
+compatibility: [opencode, claude, cursor]
+
+metadata:
+  category: analysis
+  related: [agent-ops-state]
+
 ---
 
 # Docker Review Skill
