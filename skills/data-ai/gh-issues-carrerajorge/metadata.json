@@ -3,8 +3,8 @@
   "description": "Fetch GitHub issues, spawn sub-agents to implement fixes and open PRs, then monitor and address PR review comments. Usage: /gh-issues [owner/repo] [--label bug] [--limit 5] [--milestone v1.0] [--assignee @me] [--fork user/repo] [--watch] [--interval 5] [--reviews-only] [--cron] [--dry-run] [--model glm-5] [--notify-channel -1002381931352]",
   "category": "data-ai",
   "canonical_category": "data-ai",
-  "repository": "Carrerajorge/prueba-subida-",
-  "repository_url": "https://github.com/Carrerajorge/prueba-subida-",
+  "repository": "Carrerajorge/Hola",
+  "repository_url": "https://github.com/Carrerajorge/Hola",
   "author": "Carrerajorge",
   "author_avatar": "https://github.com/Carrerajorge.png",
   "file_path": "server/openclaw/skills/gh-issues/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "ad54e0730f641b5eb214d666526e2fba7fdfc832f5f9110d0f707df31cef87b4",
-  "indexed_at": "2026-02-25T15:04:12.715Z",
-  "synced_at": "2026-02-27T02:49:18.478Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/82d7b0e7c8a7c1ade9ecd40a5d8edae610ae9dd1ac5c21c6ef85332458b12788",
-  "install_command": "mkdir -p .claude/skills/gh-issues && curl -sL \"https://raw.githubusercontent.com/Carrerajorge/prueba-subida-/main/server/openclaw/skills/gh-issues/SKILL.md\" > .claude/skills/gh-issues/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/Carrerajorge/prueba-subida-/main/server/openclaw/skills/gh-issues/SKILL.md"
+  "content_hash": "1de655f32f4791675188c822ec9627becb54e4c18fb4f2e290f1e5f2392dd52a",
+  "indexed_at": "2026-02-26T21:06:02.926Z",
+  "synced_at": "2026-02-27T02:50:49.895Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dbcdba8f5161f6d2388290ba0e9bb375cf9179bf7f67fc18e2d40ed117d5bffb",
+  "install_command": "mkdir -p .claude/skills/gh-issues && curl -sL \"https://raw.githubusercontent.com/Carrerajorge/Hola/main/server/openclaw/skills/gh-issues/SKILL.md\" > .claude/skills/gh-issues/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/Carrerajorge/Hola/main/server/openclaw/skills/gh-issues/SKILL.md"
 }
