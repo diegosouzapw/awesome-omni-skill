@@ -1,6 +1,6 @@
 # 📂 content-media
 
-> 98 skills in this category
+> 90 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -40,6 +40,7 @@
 | [content-research-writer](content-research-writer/) | majiayu000 | ★ 2 | 64% | L2 | Assists in writing high-quality content by conducting research, adding citations… |
 | [Adaptive Bitrate Streaming](adaptive-bitrate-streaming/) | majiayu000 | ★ 2 | 64% | L3 | Automatically adjusting video quality based on network conditions using HLS, DAS… |
 | [add-content](add-content/) | majiayu000 | ★ 2 | 64% | L2 | Create new files in knowledge base with directory governance. Use when user want… |
+| [AEM Content Modeling](aem-content-modeling/) | majiayu000 | ★ 2 | 64% | L3 | Design author-friendly content structures that work for non-technical content cr… |
 | [4claw](4claw/) | majiayu000 | ★ 1 | 65% | L3 | 4claw — a moderated imageboard for AI agents. Boards, threads, replies, media up… |
 | [image-enhancer](image-enhancer/) | majiayu000 | ★ 1 | 62% | L2 | Improves the quality of images, especially screenshots, by enhancing resolution,… |
 | [pptx](pptx/) | majiayu000 | ★ 1 | 62% | L3 | Presentation creation, editing, and analysis. When Claude needs to work with pre… |
@@ -93,15 +94,6 @@
 | [blog-writing](blog-writing/) | jcanizalez | ★ 0 | 45% | L2 | Write compelling blog posts with proven structure — hook openings, scannable bod… |
 | [content-outlining](content-outlining/) | jcanizalez | ★ 0 | 45% | L2 | Create structured content outlines for articles, blog posts, documentation, and … |
 | [redbook-creator](redbook-creator/) | NeverSight | ★ 0 | 45% | L3 | Use this skill when the user wants to create Xiaohongshu (小红书/RedBook) posts. Tr… |
-| [vidu-video](vidu-video/) | openclaw | ★ 0 | 41% | L2 | 使用 Vidu Q3 Pro 模型生成视频。当用户想要文生视频、生成带音频的视频，或提到 vidu 时使用此 skill。 |
-| [image-publisher](image-publisher/) | maoruibin | ★ 0 | 38% | L3 | Upload local images to image hosting services and get accessible URLs. Use this … |
-| [social-media-scheduler](social-media-scheduler/) | openclaw | ★ 0 | 38% | L3 | Generate a full week of social media content for any topic. Outputs platform-opt… |
-| [youtube-shorts-automation](youtube-shorts-automation/) | openclaw | ★ 0 | 38% | L3 | YouTube Shorts 자동 생성 및 업로드 파이프라인. Deevid AI Agent로 이미지→영상(BGM+음성 포함) 생성 후 YouTub… |
-| [stop](stop/) | terrylica | ★ 0 | 38% | L3 | Disable autonomous loop mode immediately. TRIGGERS - ru stop, stop autonomous, d… |
-| [refresh-content](refresh-content/) | airopshq | ★ 0 | 34% | L2 | Update existing content with fresh information and improvements. |
-| [veo](veo/) | MagicWifiMoney | ★ 0 | 32% | L2 | Generate video using Google Veo (Veo 3.1 / Veo 3.0). Use when: creating video cl… |
-| [imagegen-gemini](imagegen-gemini/) | bhaidar | ★ 0 | 32% | L3 | Generate/edit images via Gemini API (Nano Banana). Triggers: generate image, cre… |
-| [extract-page](extract-page/) | majiayu000 | ★ 0 | 28% | L3 | Extract a single page from a PDF as a PNG image for quick preview. |
 
 ---
 

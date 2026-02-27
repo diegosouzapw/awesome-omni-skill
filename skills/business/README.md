@@ -1,6 +1,6 @@
 # 📂 business
 
-> 159 skills in this category
+> 164 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -72,7 +72,12 @@
 | [abstract-strategy](abstract-strategy/) | majiayu000 | ★ 92 | 80% | L2 | Design abstract strategy games with perfect information, no randomness, and stra… |
 | [invoice-organizer](invoice-organizer/) | majiayu000 | ★ 92 | 77% | L3 | Automatically organizes invoices and receipts for tax preparation by reading mes… |
 | [abm-specialist](abm-specialist/) | majiayu000 | ★ 92 | 77% | L3 | Эксперт ABM. Используй для account-based marketing, target account selection и p… |
+| [adynato-seo](adynato-seo/) | majiayu000 | ★ 2 | 64% | L2 | Handles SEO requirements for all web content including blogs, landing pages, and… |
 | [Ad Copy Writer](ad-copy-writer/) | majiayu000 | ★ 2 | 63% | L2 | Write high-converting advertising copy for paid media campaigns |
+| [Advisory Board Builder](advisory-board-builder/) | majiayu000 | ★ 2 | 63% | L2 | Recruit, structure, and manage advisory boards for strategic guidance |
+| [Affiliate Marketing Manager](affiliate-marketing-manager/) | majiayu000 | ★ 2 | 63% | L2 | Set up and manage affiliate marketing programs for growth and revenue |
+| [agent-content-marketer](agent-content-marketer/) | majiayu000 | ★ 2 | 51% | L2 | Expert content marketer specializing in content strategy, SEO optimization, and … |
+| [agent-sales-engineer](agent-sales-engineer/) | majiayu000 | ★ 2 | 51% | L2 | Expert sales engineer specializing in technical pre-sales, solution architecture… |
 | [abstract-strategy](abstract-strategy/) | majiayu000 | ★ 1 | 65% | L2 | Design abstract strategy games with perfect information, no randomness, and stra… |
 | [invoice-organizer](invoice-organizer/) | majiayu000 | ★ 1 | 62% | L3 | Automatically organizes invoices and receipts for tax preparation by reading mes… |
 | [abm-specialist](abm-specialist/) | majiayu000 | ★ 1 | 62% | L3 | Эксперт ABM. Используй для account-based marketing, target account selection и p… |
@@ -106,6 +111,7 @@
 | [programmatic-seo](programmatic-seo/) | Strat-Ai-Gize-Marketing-Automation | ★ 0 | 48% | L2 | When the user wants to create SEO-driven pages at scale using templates and data… |
 | [programmatic-seo](programmatic-seo/) | systemifyautomation | ★ 0 | 48% | L2 | When the user wants to create SEO-driven pages at scale using templates and data… |
 | [programmatic-seo](programmatic-seo/) | whyujjwal | ★ 0 | 48% | L2 | When the user wants to create SEO-driven pages at scale using templates and data… |
+| [market-sizing-analysis](market-sizing-analysis/) | harshahosur81 | ★ 0 | 48% | L2 | This skill should be used when the user asks to "calculate TAM", "determine SAM"… |
 | [content-marketer](content-marketer/) | majiayu000 | ★ 0 | 45% | L2 | Expert in content strategy, SEO-driven storytelling, and developer advocacy. Bri… |
 | [bexio](bexio/) | majiayu000 | ★ 0 | 45% | L3 | Bexio Swiss business software API for managing contacts, quotes/offers, invoices… |
 | [Payment Integration](payment-integration/) | ChatAndBuild | ★ 0 | 45% | L3 | Implement Stripe payment processing for robust, PCI-compliant payment flows incl… |
@@ -159,10 +165,9 @@
 | [u08872-ethical-dilemma-navigation-for-marketing-and-storytelling](u08872-ethical-dilemma-navigation-for-marketing-and-storytelling/) | zwright8 | ★ 0 | 45% | L2 | Build and operate the "Ethical Dilemma Navigation for marketing and storytelling… |
 | [u07820-attention-management-architecture-for-personal-finance-management](u07820-attention-management-architecture-for-personal-finance-management/) | zwright8 | ★ 0 | 45% | L2 | Build and operate the "Attention Management Architecture for personal finance ma… |
 | [u08871-ethical-dilemma-navigation-for-marketing-and-storytelling](u08871-ethical-dilemma-navigation-for-marketing-and-storytelling/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Ethical Dilemma Navigation for marketing and storytelling" capabili… |
+| [create-an-asset](create-an-asset/) | w95 | ★ 0 | 45% | L3 | Generate tailored sales assets (landing pages, decks, one-pagers, workflow demos… |
 | [Sales Lead Enrichment](sales-lead-enrichment/) | SixtySecondsApp | ★ 0 | 44% | L2 | All sources consulted with data freshness timestamps |
 | [caching-strategy](caching-strategy/) | yeeehaooo | ★ 0 | 41% | L2 | Define explicit caching strategies for different data access patterns and consis… |
-| [sns-patterns](sns-patterns/) | taiyousan15 | ★ 0 | 19% | L2 | SNS posting patterns and strategy |
-| [startup-go-to-market](startup-go-to-market/) | amo-tech-ai | ★ 0 | 18% | L1 | Merged into go-to-market. Use that skill instead. |
 
 ---
 

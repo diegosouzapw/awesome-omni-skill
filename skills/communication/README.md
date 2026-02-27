@@ -1,6 +1,6 @@
 # 📂 communication
 
-> 26 skills in this category
+> 21 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -24,12 +24,7 @@
 | [copywriting](copywriting/) | NeverSight | ★ 0 | 45% | L2 | Use when writing headlines, hooks, email copy, landing pages, ads, sales copy, s… |
 | [u09613-writing-and-rhetoric-optimization-for-household-logistics](u09613-writing-and-rhetoric-optimization-for-household-logistics/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Writing And Rhetoric Optimization for household logistics" capabili… |
 | [u08983-ethical-dilemma-navigation-for-multilingual-translation-services](u08983-ethical-dilemma-navigation-for-multilingual-translation-services/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Ethical Dilemma Navigation for multilingual translation services" c… |
-| [brand-voice-consistency](brand-voice-consistency/) | luongnv89 | ★ 0 | 38% | L2 | Ensure all communication matches brand voice and tone guidelines. Use when creat… |
-| [brand-voice-consistency](brand-voice-consistency/) | majiayu000 | ★ 0 | 38% | L2 | Ensure all communication matches brand voice and tone guidelines. Use when creat… |
-| [brand-voice-consistency](brand-voice-consistency/) | majiayu000 | ★ 0 | 38% | L2 | Ensure all communication matches brand voice and tone guidelines. Use when creat… |
-| [generate-component-story](generate-component-story/) | longbridge | ★ 0 | 32% | L2 | Create story examples for components. Use when writing stories, creating example… |
-| [generate-component-story](generate-component-story/) | majiayu000 | ★ 0 | 32% | L2 | Create story examples for components. Use when writing stories, creating example… |
-| [continue](continue/) | 0xharkirat | ★ 0 | 22% | L2 | skill to continue translation with commit, push, continue |
+| [Meeting Notes Taker](meeting-notes-taker/) | majiayu000 | ★ 0 | 44% | L2 | Summarize meetings into clear, actionable notes with decisions and next steps |
 
 ---
 

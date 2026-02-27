@@ -1,6 +1,6 @@
 # 📂 development
 
-> 4.315 skills in this category
+> 4,405 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -693,6 +693,14 @@
 | [adb-magisk](adb-magisk/) | majiayu000 | ★ 2 | 67% | L3 | Magisk Manager automation - app launching, module installation, Zygisk configura… |
 | [adb-screen-detection](adb-screen-detection/) | majiayu000 | ★ 2 | 67% | L3 | Screen understanding with OCR and template matching for Android device automatio… |
 | [add-member](add-member/) | majiayu000 | ★ 2 | 67% | L3 | Interactive guide for adding new lab members to the website. Gathers information… |
+| [adding-phases](adding-phases/) | majiayu000 | ★ 2 | 67% | L3 | Use this skill to add planned work discovered during execution to the end of the… |
+| [adr-creation](adr-creation/) | majiayu000 | ★ 2 | 67% | L2 | Generate Architecture Decision Records following the project template and number… |
+| [adr-log](adr-log/) | majiayu000 | ★ 2 | 67% | L3 | Document architecture decisions with ADR (Architecture Decision Records). Use wh… |
+| [advanced-git](advanced-git/) | majiayu000 | ★ 2 | 67% | L3 | Advanced Git - interactive rebase, cherry-pick, bisect, reflog, and power user o… |
+| [aegis-architect](aegis-architect/) | majiayu000 | ★ 2 | 67% | L3 | Enhanced architecture guidance for voice-first Brazilian fintech applications. U… |
+| [aesthetic-usability-effect](aesthetic-usability-effect/) | majiayu000 | ★ 2 | 67% | L2 | Los usuarios perciben los diseños estéticamente atractivos como más usables que … |
+| [agent-permissions](agent-permissions/) | majiayu000 | ★ 2 | 67% | L3 | Comprehensive guide for the agent permissions and approval system. Use when an a… |
+| [claude-agent-sdk](claude-agent-sdk/) | majiayu000 | ★ 2 | 67% | L3 | Comprehensive knowledge of Claude Agent SDK architecture, tools, hooks, skills, … |
 | [mcp-builder](mcp-builder/) | majiayu000 | ★ 2 | 64% | L3 | Guide for creating high-quality MCP (Model Context Protocol) servers that enable… |
 | [xlsx](xlsx/) | majiayu000 | ★ 2 | 64% | L3 | Comprehensive spreadsheet creation, editing, and analysis with support for formu… |
 | [clarity](clarity/) | majiayu000 | ★ 2 | 64% | L2 | Establish clarity before starting work. Use when beginning any significant task,… |
@@ -745,27 +753,140 @@
 | [add-section](add-section/) | majiayu000 | ★ 2 | 64% | L3 | Create a new HUD section (tab) with lifecycle, persistent state, and registry re… |
 | [add-service](add-service/) | majiayu000 | ★ 2 | 64% | L3 | 새 API 서비스를 생성합니다. service + hook + type 세트를 함께 생성합니다. 사용법: /add-service EntityNa… |
 | [add-shadcn-component](add-shadcn-component/) | majiayu000 | ★ 2 | 64% | L3 | Add shadcn/ui components via pnpm dlx, then normalize generated Tailwind color c… |
+| [add-template](add-template/) | majiayu000 | ★ 2 | 64% | L3 | Add new UI style template to the ui-style-react project. This skill should be us… |
+| [add-vault-protocol](add-vault-protocol/) | majiayu000 | ★ 2 | 64% | L3 | Add support for a new ERC-4626 vault protocol. Use when the user wants to integr… |
+| [adding-api-sources](adding-api-sources/) | majiayu000 | ★ 2 | 64% | L3 | Use when implementing a new data source adapter for metapyle, before writing any… |
+| [address-review](address-review/) | majiayu000 | ★ 2 | 64% | L3 | Use when addressing PR review comments from Copilot, Claude, or human reviewers.… |
+| [adguard-home](adguard-home/) | majiayu000 | ★ 2 | 64% | L3 | Manage, troubleshoot, configure, analyze, and review AdGuard Home DNS server. Us… |
+| [adhd-task-management](adhd-task-management/) | majiayu000 | ★ 2 | 64% | L3 | ADHD-optimized task tracking and intervention system. Use when tracking tasks, d… |
+| [adjective-entry](adjective-entry/) | majiayu000 | ★ 2 | 64% | L3 | Requirements for creating or revising adjective entries in je-dict-1. Covers for… |
+| [adk-agent-handling](adk-agent-handling/) | majiayu000 | ★ 2 | 64% | L3 | Google ADK (Agent Development Kit) multi-agent system architecture for BigQuery … |
+| [adk-frontend](adk-frontend/) | majiayu000 | ★ 2 | 64% | L3 | Guidelines for building frontend applications that integrate with Botpress ADK b… |
+| [admin-crud](admin-crud/) | majiayu000 | ★ 2 | 64% | L3 | Generate admin dashboard pages with data tables, filters, bulk actions, dialogs,… |
+| [ado-mapper](ado-mapper/) | majiayu000 | ★ 2 | 64% | L3 | Bidirectional conversion between SpecWeave increments and Azure DevOps work item… |
+| [ado-multi-project](ado-multi-project/) | majiayu000 | ★ 2 | 64% | L3 | Organize specs and tasks across multiple Azure DevOps projects with intelligent … |
+| [ado-resource-validator](ado-resource-validator/) | majiayu000 | ★ 2 | 64% | L3 | Validates Azure DevOps projects, area paths, and teams exist with auto-creation … |
+| [adobe-express-dev](adobe-express-dev/) | majiayu000 | ★ 2 | 64% | L3 | Expert guidance for Adobe Express add-on development using Document APIs, Add-on… |
+| [adr-code-traceability](adr-code-traceability/) | majiayu000 | ★ 2 | 64% | L3 | Add ADR references to code for traceability. TRIGGERS - ADR traceability, code r… |
+| [adr-creator](adr-creator/) | majiayu000 | ★ 2 | 64% | L3 | Create Architecture Decision Records (ADRs) documenting significant technical de… |
+| [adr](adr/) | majiayu000 | ★ 2 | 64% | L3 | Create Architecture Decision Records through interactive conversation. Use when … |
+| [adr-writing](adr-writing/) | majiayu000 | ★ 2 | 64% | L3 | Write Architectural Decision Records following MADR template. Applies Definition… |
+| [ads-reporter](ads-reporter/) | majiayu000 | ★ 2 | 64% | L3 | Эксперт по отчетности Facebook Ads. Используй для формирования дневных/недельных… |
+| [advanced-debugging](advanced-debugging/) | majiayu000 | ★ 2 | 64% | L3 | Advanced debugging skill for MyJKKN project. Specialized workflows for debugging… |
+| [advanced-oscal-validator](advanced-oscal-validator/) | majiayu000 | ★ 2 | 64% | L2 | Perform comprehensive OSCAL validation using community-inspired patterns includi… |
+| [advanced-rendering](advanced-rendering/) | majiayu000 | ★ 2 | 64% | L3 | Master high-performance rendering for large datasets with Datashader. Use this s… |
+| [advanced-typescript-patterns](advanced-typescript-patterns/) | majiayu000 | ★ 2 | 64% | L3 | Advanced TypeScript patterns for TMNL. Covers conditional types, mapped types, b… |
+| [advanced-video-downloader](advanced-video-downloader/) | majiayu000 | ★ 2 | 64% | L3 | Download and transcribe videos from YouTube, Bilibili, TikTok and 1000+ platform… |
+| [advanced-workflows](advanced-workflows/) | majiayu000 | ★ 2 | 64% | L3 | Multi-tool orchestration patterns for complex Bluera Knowledge operations. Teach… |
+| [adynato-mobile-api](adynato-mobile-api/) | majiayu000 | ★ 2 | 64% | L3 | API integration patterns for Adynato mobile apps. Covers data fetching with TanS… |
+| [adynato-mobile](adynato-mobile/) | majiayu000 | ★ 2 | 64% | L3 | Mobile app development conventions for Adynato projects using React Native and E… |
+| [adynato-web-api](adynato-web-api/) | majiayu000 | ★ 2 | 64% | L3 | Web API development conventions for Adynato projects. Covers API routes, middlew… |
+| [adynato-web](adynato-web/) | majiayu000 | ★ 2 | 64% | L3 | Web development conventions for Adynato projects. Covers image optimization with… |
+| [AEM Block Development](aem-block-development/) | majiayu000 | ★ 2 | 64% | L3 | Technical implementation guide for AEM Edge Delivery blocks - DOM manipulation, … |
+| [aeo-scorecard](aeo-scorecard/) | majiayu000 | ★ 2 | 64% | L2 | Measurement framework for Answer Engine Optimization (AEO). Provides AI visibili… |
+| [aeon](aeon/) | majiayu000 | ★ 2 | 64% | L3 | This skill should be used for time series machine learning tasks including class… |
+| [aesthetic-excellence](aesthetic-excellence/) | majiayu000 | ★ 2 | 64% | L3 | Use when improving visual quality of existing UI - applies 2025 design principle… |
+| [aesthetics](aesthetics/) | majiayu000 | ★ 2 | 64% | L2 | Master aesthetics - philosophy of beauty, art, and aesthetic experience. Use for… |
+| [affinity-python-sdk](affinity-python-sdk/) | majiayu000 | ★ 2 | 64% | L3 | Use when writing Python code with the Affinity SDK, or when user asks about "aff… |
+| [african-ubuntu](african-ubuntu/) | majiayu000 | ★ 2 | 64% | L2 | Master African philosophical traditions including Ubuntu, Africana philosophy, a… |
+| [after-task](after-task/) | majiayu000 | ★ 2 | 64% | L3 | Mandatory knowledge capture after completing work. Documents solution in Graphit… |
+| [agc-tuner](agc-tuner/) | majiayu000 | ★ 2 | 64% | L3 | Analyze and optimize AGC (Automatic Gain Control) parameters for WaveCap-SDR cha… |
+| [agent-architect](agent-architect/) | majiayu000 | ★ 2 | 64% | L2 | Claude Code architecture advisor. Classifies knowledge and delegates to appropri… |
+| [agent-browser](agent-browser/) | majiayu000 | ★ 2 | 64% | L3 | Automates browser interactions for web testing, form filling, screenshots, and d… |
+| [agent-builder-vercel-sdk](agent-builder-vercel-sdk/) | majiayu000 | ★ 2 | 64% | L3 | Build conversational AI agents using Vercel AI SDK + OpenRouter. Use when creati… |
+| [agent-config-validator](agent-config-validator/) | majiayu000 | ★ 2 | 64% | L3 | Validate AgentConfig definitions for the Agent Framework. Use when creating or m… |
+| [Agent Launcher](agent-launcher/) | majiayu000 | ★ 2 | 64% | L2 | Launches specialized Claude agents for targeted tasks. Analyzes requirements, se… |
+| [agent-md-refactor](agent-md-refactor/) | majiayu000 | ★ 2 | 64% | L3 | Refactor bloated AGENTS.md, CLAUDE.md, or similar agent instruction files to fol… |
+| [agent-ops-api-review](agent-ops-api-review/) | majiayu000 | ★ 2 | 64% | L3 | Platform/Language agnostic API delivery and correctness auditor. Use when projec… |
+| [agent-ops-build](agent-ops-build/) | majiayu000 | ★ 2 | 64% | L3 | Language-aware build orchestration that detects project language and runs approp… |
+| [agent-ops-create-python-project](agent-ops-create-python-project/) | majiayu000 | ★ 2 | 64% | L3 | Create a plan and issues for implementation of a production-ready Python project… |
+| [agent-ops-critical-review](agent-ops-critical-review/) | majiayu000 | ★ 2 | 64% | L3 | Deep, excruciating code review. Use anytime to analyze code for correctness, edg… |
+| [agent-ops-project-sections](agent-ops-project-sections/) | majiayu000 | ★ 2 | 64% | L3 | Identify and map different sections of a software project (API, frontend, databa… |
+| [agent-ops-research](agent-ops-research/) | majiayu000 | ★ 2 | 64% | L2 | Deep topic research with optional issue creation from findings. Use for research… |
+| [agent-orchestration-multi-agent-optimize](agent-orchestration-multi-agent-optimize/) | majiayu000 | ★ 2 | 64% | L3 | Optimize multi-agent systems with coordinated profiling, workload distribution, … |
+| [agent-sdk-definitions](agent-sdk-definitions/) | majiayu000 | ★ 2 | 64% | L3 | Programmatic agent definitions for the Claude Agent SDK in TypeScript and Python… |
+| [agent-sdk-dev](agent-sdk-dev/) | majiayu000 | ★ 2 | 64% | L3 | Agent SDK development utilities for creating, testing, and managing AI agents wi… |
+| [agent-sdk-development](agent-sdk-development/) | majiayu000 | ★ 2 | 64% | L3 | Central authority for Claude Agent SDK (TypeScript and Python SDKs). Covers SDK … |
+| [agent-sdk](agent-sdk/) | majiayu000 | ★ 2 | 64% | L3 | Expert in Claude Agent SDK development. Use when users ask about SDK API, agent … |
+| [agent-selection](agent-selection/) | majiayu000 | ★ 2 | 64% | L3 | Systematic framework for selecting the optimal specialized agent for any task. U… |
+| [agent-skill-creator](agent-skill-creator/) | majiayu000 | ★ 2 | 64% | L3 | Creates new agent skills following modern best practices with proper structure a… |
 | [state-directory-manager](state-directory-manager/) | majiayu000 | ★ 2 | 63% | L3 | Manage persistent state directories for bash scripts |
 | [add-lesson](add-lesson/) | majiayu000 | ★ 2 | 63% | L3 | Add a new lesson learned to shared rules and sync to context files. |
+| [advisor-triggers](advisor-triggers/) | majiayu000 | ★ 2 | 63% | L3 | Detects when user requests warrant critical analysis via /advise command |
 | [2d-games](2d-games/) | majiayu000 | ★ 2 | 60% | L2 | 2D game development principles. Sprites, tilemaps, physics, camera. |
 | [adapter-development](adapter-development/) | majiayu000 | ★ 2 | 60% | L3 | Comprehensive guide for AIDB debug adapter development. Covers component-based |
 | [add-doc](add-doc/) | majiayu000 | ★ 2 | 60% | L3 | Add new documentation sources to .claude/doc-sources.toml for Context7 access |
 | [add-highlight](add-highlight/) | majiayu000 | ★ 2 | 60% | L3 | Add an item to the highlights page. Max 1 per day. |
 | [add-metric](add-metric/) | majiayu000 | ★ 2 | 60% | L3 | Add a new calculated metric to the VSM dashboard with test-first development |
 | [add-perspective](add-perspective/) | majiayu000 | ★ 2 | 60% | L3 | 振り返り観点を追加するガイド。ユーザー指摘から学習し、類似問題を将来検出できるようにする。観点、perspective、チェック追加時に使用。 |
+| [add_type](add_type/) | majiayu000 | ★ 2 | 60% | L3 | gwexpyに新しい配列型（Array/Series/Field）とコレクションを実装する |
+| [add-ws-action](add-ws-action/) | majiayu000 | ★ 2 | 60% | L3 | Add a new outgoing WebSocket action with typed payload and API exposure |
+| [adding-localizable-strings](adding-localizable-strings/) | majiayu000 | ★ 2 | 60% | L2 | Adds new human-readable strings that are translated into users' languages. |
+| [ADR Assistant](adr-assistant/) | majiayu000 | ★ 2 | 60% | L2 | Helps create, analyze, and maintain Architecture Decision Records |
+| [after-effects](after-effects/) | majiayu000 | ★ 2 | 60% | L3 | Use when implementing Disney's 12 animation principles in Adobe After Effects |
+| [admin-interface-rules](admin-interface-rules/) | majiayu000 | ★ 2 | 58% | L2 | Rules for the Admin interface functionalities |
 | [internal-comms](internal-comms/) | majiayu000 | ★ 2 | 57% | L2 | A set of resources to help me write all kinds of internal communications, using … |
 | [add-app-config](add-app-config/) | majiayu000 | ★ 2 | 57% | L3 | Use when adding configuration for a new application to the dotfiles, setting up … |
 | [add-backend-tool](add-backend-tool/) | majiayu000 | ★ 2 | 57% | L3 | Add a new tool to the backend OpenAI function calling system. Use when user ment… |
 | [add-event-type](add-event-type/) | majiayu000 | ★ 2 | 57% | L3 | Add a new event type to the frontend feed system with corresponding React compon… |
 | [add-strict-checks](add-strict-checks/) | majiayu000 | ★ 2 | 57% | L3 | Enable stricter TypeScript and linting checks to catch bugs early, especially us… |
+| [adding-a-new-app-route](adding-a-new-app-route/) | majiayu000 | ★ 2 | 57% | L2 | Fully wires up a new route with required boilerplate, following this repo's conv… |
+| [adding-persistent-event](adding-persistent-event/) | majiayu000 | ★ 2 | 57% | L2 | Adds a new type of event that gets persisted to the event log. Use this when add… |
+| [adf-format-json-schema](adf-format-json-schema/) | majiayu000 | ★ 2 | 57% | L3 | Query Atlassian Document Format (ADF) JSON schema definitions to understand ADF … |
+| [adf-json-example](adf-json-example/) | majiayu000 | ★ 2 | 57% | L3 | Fetch raw ADF JSON data from a Confluence page URL. Use this skill when you need… |
+| [adherence-coach](adherence-coach/) | majiayu000 | ★ 2 | 57% | L2 | Identifies missed sessions or inconsistency and proposes plan reshuffles with mo… |
+| [adobe](adobe/) | majiayu000 | ★ 2 | 57% | L3 | Access Adobe Creative Cloud APIs - Photoshop, Lightroom, PDF Services, and Firef… |
+| [adverse-media](adverse-media/) | majiayu000 | ★ 2 | 57% | L3 | Search for negative news coverage, controversies, and reputational risks associa… |
+| [agent-django-developer](agent-django-developer/) | majiayu000 | ★ 2 | 57% | L2 | Expert Django developer mastering Django 4+ with modern Python practices. Specia… |
+| [agent-dotnet-core-expert](agent-dotnet-core-expert/) | majiayu000 | ★ 2 | 57% | L2 | Expert .NET Core specialist mastering .NET 8 with modern C# features. Specialize… |
+| [agent-flutter-expert](agent-flutter-expert/) | majiayu000 | ★ 2 | 57% | L2 | Expert Flutter specialist mastering Flutter 3+ with modern architecture patterns… |
+| [agent-nextjs-developer](agent-nextjs-developer/) | majiayu000 | ★ 2 | 57% | L2 | Expert Next.js developer mastering Next.js 14+ with App Router and full-stack fe… |
+| [agent-performance-engineer](agent-performance-engineer/) | majiayu000 | ★ 2 | 57% | L2 | Expert performance engineer specializing in system optimization, bottleneck iden… |
+| [agent-python-pro](agent-python-pro/) | majiayu000 | ★ 2 | 57% | L2 | Expert Python developer specializing in modern Python 3.11+ development with dee… |
+| [agent-rust-engineer](agent-rust-engineer/) | majiayu000 | ★ 2 | 57% | L2 | Expert Rust developer specializing in systems programming, memory safety, and ze… |
+| [agent-spring-boot-engineer](agent-spring-boot-engineer/) | majiayu000 | ★ 2 | 57% | L2 | Expert Spring Boot engineer mastering Spring Boot 3+ with cloud-native patterns.… |
+| [agent-typescript-pro](agent-typescript-pro/) | majiayu000 | ★ 2 | 57% | L2 | Expert TypeScript developer specializing in advanced type system usage, full-sta… |
 | [chaos-spawn-1767390340](chaos-spawn-1767390340/) | majiayu000 | ★ 2 | 56% | L3 | 🍆👾 CHAOS SPAWN - Maximum jank energy skill generated from pure chaos |
 | [add-skill-templates](add-skill-templates/) | majiayu000 | ★ 2 | 53% | L2 | Add new Agent Skill templates to the meta-agent-skills framework. |
+| [advanced-types](advanced-types/) | majiayu000 | ★ 2 | 53% | L2 | Advanced TypeScript types including generics, conditionals, and mapped types |
+| [advocacy-roster-system](advocacy-roster-system/) | majiayu000 | ★ 2 | 53% | L2 | Scoring and governance framework for managing reference customers and |
+| [add-subtitles](add-subtitles/) | majiayu000 | ★ 2 | 51% | L2 | Adds SRT formatted subtitles to a video file when you want a video to have subti… |
+| [address-parser](address-parser/) | majiayu000 | ★ 2 | 51% | L2 | Parse unstructured addresses into structured components - street, city, state, z… |
+| [advanced-memoization-strategies](advanced-memoization-strategies/) | majiayu000 | ★ 2 | 51% | L2 | Apply principled memoization techniques to reduce re-rendering without introduci… |
+| [aesthetic-cultural-research](aesthetic-cultural-research/) | majiayu000 | ★ 2 | 51% | L2 | [Aesthetics] Maps aesthetic briefs to cultural references: art movements, photog… |
+| [aesthetic-form-composition](aesthetic-form-composition/) | majiayu000 | ★ 2 | 51% | L2 | [Aesthetics] Analyzes form, composition, and spatial relationships: eye paths, b… |
+| [agent-angular-architect](agent-angular-architect/) | majiayu000 | ★ 2 | 51% | L2 | Expert Angular architect mastering Angular 15+ with enterprise patterns. Special… |
+| [agent-api-designer](agent-api-designer/) | majiayu000 | ★ 2 | 51% | L2 | API architecture expert designing scalable, developer-friendly interfaces. Creat… |
+| [agent-backend-developer](agent-backend-developer/) | majiayu000 | ★ 2 | 51% | L2 | Senior backend engineer specializing in scalable API development and microservic… |
+| [agent-csharp-developer](agent-csharp-developer/) | majiayu000 | ★ 2 | 51% | L2 | Expert C# developer specializing in modern .NET development, ASP.NET Core, and c… |
+| [agent-fullstack-developer](agent-fullstack-developer/) | majiayu000 | ★ 2 | 51% | L2 | End-to-end feature owner with expertise across the entire stack. Delivers comple… |
+| [agent-graphql-architect](agent-graphql-architect/) | majiayu000 | ★ 2 | 51% | L2 | GraphQL schema architect designing efficient, scalable API graphs. Masters feder… |
+| [agent-java-architect](agent-java-architect/) | majiayu000 | ★ 2 | 51% | L2 | Senior Java architect specializing in enterprise-grade applications, Spring ecos… |
+| [agent-javascript-pro](agent-javascript-pro/) | majiayu000 | ★ 2 | 51% | L2 | Expert JavaScript developer specializing in modern ES2023+ features, asynchronou… |
+| [agent-kotlin-specialist](agent-kotlin-specialist/) | majiayu000 | ★ 2 | 51% | L2 | Expert Kotlin developer specializing in coroutines, multiplatform development, a… |
+| [agent-laravel-specialist](agent-laravel-specialist/) | majiayu000 | ★ 2 | 51% | L2 | Expert Laravel specialist mastering Laravel 10+ with modern PHP practices. Speci… |
+| [agent-mobile-app-developer](agent-mobile-app-developer/) | majiayu000 | ★ 2 | 51% | L2 | Expert mobile app developer specializing in native and cross-platform developmen… |
+| [agent-mobile-developer](agent-mobile-developer/) | majiayu000 | ★ 2 | 51% | L2 | Cross-platform mobile specialist building performant native experiences. Creates… |
+| [agent-php-pro](agent-php-pro/) | majiayu000 | ★ 2 | 51% | L2 | Expert PHP developer specializing in modern PHP 8.3+ with strong typing, async p… |
+| [agent-platform-engineer](agent-platform-engineer/) | majiayu000 | ★ 2 | 51% | L2 | Expert platform engineer specializing in internal developer platforms, self-serv… |
+| [agent-rails-expert](agent-rails-expert/) | majiayu000 | ★ 2 | 51% | L2 | Expert Rails specialist mastering Rails 7+ with modern conventions. Specializes … |
+| [agent-react-specialist](agent-react-specialist/) | majiayu000 | ★ 2 | 51% | L2 | Expert React specialist mastering React 18+ with modern patterns and ecosystem. … |
+| [agent-scrum-master](agent-scrum-master/) | majiayu000 | ★ 2 | 51% | L2 | Expert Scrum Master specializing in agile transformation, team facilitation, and… |
+| [agent-sql-pro](agent-sql-pro/) | majiayu000 | ★ 2 | 51% | L2 | Expert SQL developer specializing in complex query optimization, database design… |
+| [agent-swift-expert](agent-swift-expert/) | majiayu000 | ★ 2 | 51% | L2 | Expert Swift developer specializing in Swift 5.9+ with async/await, SwiftUI, and… |
+| [agent-vue-expert](agent-vue-expert/) | majiayu000 | ★ 2 | 51% | L2 | Expert Vue specialist mastering Vue 3 with Composition API and ecosystem. Specia… |
+| [agent-websocket-engineer](agent-websocket-engineer/) | majiayu000 | ★ 2 | 51% | L2 | Real-time communication specialist implementing scalable WebSocket architectures… |
 | [patterns/adapter](patterns-adapter/) | majiayu000 | ★ 2 | 47% | L2 | Adapter (Wrapper) Pattern pattern for C development |
 | [Add Admin API Endpoint](add-admin-api-endpoint/) | majiayu000 | ★ 2 | 47% | L3 | Add a new endpoint or endpoints to Ghost's Admin API at `ghost/api/admin/**`. |
+| [Advanced Clean Hexagonal Architecture](advanced-clean-hexagonal-architecture/) | majiayu000 | ★ 2 | 45% | L2 | Apply Clean Architecture and Hexagonal (Ports & Adapters) patterns for domain is… |
+| [Advanced Modular Library Design](advanced-modular-library-design/) | majiayu000 | ★ 2 | 45% | L2 | Design modular libraries with clear package boundaries, feature-first organizati… |
+| [Advanced React Clean Integration](advanced-react-clean-integration/) | majiayu000 | ★ 2 | 45% | L2 | Integrate React with clean architecture without framework leakage using hooks as… |
+| [Advanced Typescript Type Level](advanced-typescript-type-level/) | majiayu000 | ★ 2 | 45% | L2 | Master TypeScript type-level programming with conditional types, mapped types, t… |
 | [add_platform.add_capabilities](add_platform.add_capabilities/) | majiayu000 | ★ 2 | 41% | L1 | "Updates job schema and adapters with any new hook events the platform supports.… |
 | [add_platform.implement](add_platform.implement/) | majiayu000 | ★ 2 | 41% | L1 | "Creates platform adapter, templates, tests with 100% coverage, and README docum… |
 | [add_platform.research](add_platform.research/) | majiayu000 | ★ 2 | 41% | L1 | "Captures CLI configuration and hooks system documentation for the new platform.… |
 | [add_platform.verify](add_platform.verify/) | majiayu000 | ★ 2 | 41% | L1 | "Sets up platform directories and verifies deepwork install works correctly. Use… |
+| [aegis-protocol-ratification](aegis-protocol-ratification/) | majiayu000 | ★ 2 | 41% | L2 | Ratify AEGIS protocol governance frameworks. |
 | [sequential-thinking](sequential-thinking/) | majiayu000 | ★ 1 | 65% | L3 | Structured reflective problem-solving methodology. Process: decompose, analyze, … |
 | [3d-graphics](3d-graphics/) | majiayu000 | ★ 1 | 65% | L3 | 3D web graphics with Three.js (WebGL/WebGPU). Capabilities: scenes, cameras, geo… |
 | [Academic Bluebook](academic-bluebook/) | majiayu000 | ★ 1 | 65% | L2 | Citation formatting rules for law review articles using The Bluebook (21st ed.) … |
@@ -1424,7 +1545,6 @@
 | [moai-platform-clerk](moai-platform-clerk/) | mattnigh | ★ 0 | 48% | L3 | Clerk modern authentication specialist covering WebAuthn, passkeys, passwordless… |
 | [moai-platform-clerk](moai-platform-clerk/) | majiayu000 | ★ 0 | 48% | L3 | Clerk modern authentication specialist covering WebAuthn, passkeys, passwordless… |
 | [adr-log](adr-log/) | aiskillstore | ★ 0 | 48% | L3 | Document architecture decisions with ADR (Architecture Decision Records). Use wh… |
-| [adr-log](adr-log/) | majiayu000 | ★ 0 | 48% | L3 | Document architecture decisions with ADR (Architecture Decision Records). Use wh… |
 | [adr-log](adr-log/) | Doyajin174 | ★ 0 | 48% | L3 | Document architecture decisions with ADR (Architecture Decision Records). Use wh… |
 | [moai-domain-frontend](moai-domain-frontend/) | majiayu000 | ★ 0 | 48% | L3 | Frontend development specialist covering React 19, Next.js 16, Vue 3.5, and mode… |
 | [lead-dev](lead-dev/) | mattnigh | ★ 0 | 48% | L3 | Lead Développeur - Coordination technique opérationnelle, code review, mentoring… |
@@ -1507,6 +1627,111 @@
 | [apideck-go](apideck-go/) | apideck-libraries | ★ 0 | 48% | L3 | Apideck Unified API integration patterns for Go. Use when building integrations … |
 | [excalidraw](excalidraw/) | alexanderop | ★ 0 | 48% | L3 | Generate Excalidraw diagrams as .excalidraw files. Use when asked to create diag… |
 | [apideck-php](apideck-php/) | apideck-libraries | ★ 0 | 48% | L3 | Apideck Unified API integration patterns for PHP. Use when building integrations… |
+| [Workers Development](workers-development/) | SteveLeve | ★ 0 | 48% | L3 | This skill should be used when the user asks about "Workers API", "fetch handler… |
+| [Workers Development](workers-development/) | involvex | ★ 0 | 48% | L3 | This skill should be used when the user asks about "Workers API", "fetch handler… |
+| [clawdbot-update-plus](clawdbot-update-plus/) | duclm1x1 | ★ 0 | 48% | L3 | Full backup, update, and restore for Clawdbot - config, workspace, and skills wi… |
+| [sparc-methodology](sparc-methodology/) | ruvnet | ★ 0 | 48% | L3 | SPARC (Specification, Pseudocode, Architecture, Refinement, Completion) comprehe… |
+| [backend-development](backend-development/) | wollfoo | ★ 0 | 48% | L3 | Build robust backend systems with modern technologies (Node.js, Python, Go, Rust… |
+| [backend-development](backend-development/) | wollfoo | ★ 0 | 48% | L3 | Build robust backend systems with modern technologies (Node.js, Python, Go, Rust… |
+| [backend-development](backend-development/) | wollfoo | ★ 0 | 48% | L3 | Build robust backend systems with modern technologies (Node.js, Python, Go, Rust… |
+| [sparc-methodology](sparc-methodology/) | EarthmanWeb | ★ 0 | 48% | L3 | SPARC (Specification, Pseudocode, Architecture, Refinement, Completion) comprehe… |
+| [sparc-methodology](sparc-methodology/) | ricable | ★ 0 | 48% | L3 | SPARC (Specification, Pseudocode, Architecture, Refinement, Completion) comprehe… |
+| [mcp-standards](mcp-standards/) | MadAppGang | ★ 0 | 48% | L3 | MCP server standardization patterns for Claude Code plugins. Use when implementi… |
+| [development](development/) | aiskillstore | ★ 0 | 48% | L3 | Comprehensive web, mobile, and backend development workflow bundling frontend, b… |
+| [titan](titan/) | Rikinshah787 | ★ 0 | 48% | L3 | Heavy-duty architectural specialist building indestructible backend systems. API… |
+| [moai-lang-scala](moai-lang-scala/) | majiayu000 | ★ 0 | 48% | L2 | Scala 3.4+ development specialist covering Akka, Cats Effect, ZIO, and Spark pat… |
+| [spring-boot-event-driven-patterns](spring-boot-event-driven-patterns/) | majiayu000 | ★ 0 | 48% | L2 | Implement Event-Driven Architecture (EDA) in Spring Boot using ApplicationEvent,… |
+| [sparc-methodology](sparc-methodology/) | majiayu000 | ★ 0 | 48% | L3 | SPARC (Specification, Pseudocode, Architecture, Refinement, Completion) comprehe… |
+| [dotnet-aspire](dotnet-aspire/) | NeverSight | ★ 0 | 48% | L3 | Adds .NET Aspire cloud-native orchestration to existing .NET solutions. Analyzes… |
+| [moai-lang-kotlin](moai-lang-kotlin/) | majiayu000 | ★ 0 | 48% | L3 | Kotlin 2.0+ development specialist covering Ktor, coroutines, Compose Multiplatf… |
+| [moai-lang-rust](moai-lang-rust/) | majiayu000 | ★ 0 | 48% | L2 | Rust 1.92+ development specialist covering Axum, Tokio, SQLx, and memory-safe sy… |
+| [zero-to-hero](zero-to-hero/) | majiayu000 | ★ 0 | 48% | L3 | Go from zero knowledge to codebase expert in ANY project, ANY size, ANY language |
+| [zero-to-hero](zero-to-hero/) | j0KZ | ★ 0 | 48% | L3 | Go from zero knowledge to codebase expert in ANY project, ANY size, ANY language |
+| [frontend-design](frontend-design/) | lucasmattosped | ★ 0 | 48% | L3 | Transform UI style requirements into production-ready frontend code with systema… |
+| [frontend-design-vue](frontend-design-vue/) | matteocervelli | ★ 0 | 48% | L3 | Create distinctive, production-grade Vue 3/TypeScript frontends with exceptional… |
+| [prototype-to-production](prototype-to-production/) | aiskillstore | ★ 0 | 48% | L3 | Convert design prototypes (HTML, CSS, Figma exports) into production-ready compo… |
+| [backend-dev-guidelines](backend-dev-guidelines/) | Dokhacgiakhoa | ★ 0 | 48% | L3 | Opinionated backend development standards for Node.js + Express + TypeScript mic… |
+| [backend-development](backend-development/) | Trongdepzai-dev | ★ 0 | 48% | L3 | Build robust backend systems with modern technologies (Node.js, Python, Go, Rust… |
+| [backend-dev-guidelines](backend-dev-guidelines/) | nkhcloud | ★ 0 | 48% | L3 | Opinionated backend development standards for Node.js + Express + TypeScript mic… |
+| [dotnet-backend-patterns](dotnet-backend-patterns/) | NeverSight | ★ 0 | 48% | L2 | Master C#/.NET backend development patterns for building robust APIs, MCP server… |
+| [moai-domain-backend](moai-domain-backend/) | taewook486 | ★ 0 | 48% | L3 | Backend development specialist covering API design, database integration, micros… |
+| [development](development/) | DarkThreat74 | ★ 0 | 48% | L3 | Comprehensive web, mobile, and backend development workflow bundling frontend, b… |
+| [sparc-methodology](sparc-methodology/) | majiayu000 | ★ 0 | 48% | L3 | SPARC (Specification, Pseudocode, Architecture, Refinement, Completion) comprehe… |
+| [notion-uploader-downloader](notion-uploader-downloader/) | majiayu000 | ★ 0 | 48% | L3 | Bidirectional sync between Markdown and Notion. Upload .md files with images to … |
+| [notion-uploader-downloader](notion-uploader-downloader/) | majiayu000 | ★ 0 | 48% | L3 | Bidirectional sync between Markdown and Notion. Upload .md files with images to … |
+| [api-guide](api-guide/) | lablup | ★ 0 | 48% | L3 | Guide for implementing REST and GraphQL APIs (create, get, search, update, delet… |
+| [api-design](api-design/) | majiayu000 | ★ 0 | 48% | L3 | REST and GraphQL API design patterns. Covers endpoint structure, versioning, aut… |
+| [api-endpoint-creator](api-endpoint-creator/) | majiayu000 | ★ 0 | 48% | L3 | Guides standardized REST API endpoint creation following team conventions. Use w… |
+| [strawberry-graphql](strawberry-graphql/) | majiayu000 | ★ 0 | 48% | L3 | Strawberry GraphQL library for Python with FastAPI integration, type-safe resolv… |
+| [api-design](api-design/) | majiayu000 | ★ 0 | 48% | L3 | REST and GraphQL API design patterns. Covers endpoint structure, versioning, aut… |
+| [api-design](api-design/) | frankxai | ★ 0 | 48% | L3 | REST and GraphQL API design patterns. Covers endpoint structure, versioning, aut… |
+| [api-endpoint-creator](api-endpoint-creator/) | majiayu000 | ★ 0 | 48% | L3 | Guides standardized REST API endpoint creation following team conventions. Use w… |
+| [strawberry-graphql](strawberry-graphql/) | majiayu000 | ★ 0 | 48% | L3 | Strawberry GraphQL library for Python with FastAPI integration, type-safe resolv… |
+| [api-researcher](api-researcher/) | majiayu000 | ★ 0 | 48% | L3 | Expert API research including discovery, evaluation, integration analysis, and d… |
+| [nav-skill-creator](nav-skill-creator/) | dkyazzentwatwa | ★ 0 | 48% | L3 | Analyze codebase patterns and create custom skills for repetitive workflows. Use… |
+| [frontend-design](frontend-design/) | kamal81684 | ★ 0 | 48% | L3 | Transform UI style requirements into production-ready frontend code with systema… |
+| [frontend-design](frontend-design/) | mayankmishra0403 | ★ 0 | 48% | L3 | Transform UI style requirements into production-ready frontend code with systema… |
+| [frontend-design](frontend-design/) | FrankAsanteVanLaarhoven | ★ 0 | 48% | L3 | Transform UI style requirements into production-ready frontend code with systema… |
+| [beautifulsoup4](beautifulsoup4/) | SkillDoAI | ★ 0 | 48% | L3 | Parse, search, and modify HTML/XML documents by building a navigable tree of tag… |
+| [touchdesigner-api-lookup](touchdesigner-api-lookup/) | j19950310 | ★ 0 | 48% | L3 | Query local TouchDesigner API documentation and class references. Use this skill… |
+| [contextual-pattern-learning](contextual-pattern-learning/) | bejranonda | ★ 0 | 48% | L3 | Advanced contextual pattern recognition with project fingerprinting, semantic si… |
+| [database](database/) | aiskillstore | ★ 0 | 48% | L2 | Database development and operations workflow covering SQL, NoSQL, database desig… |
+| [sovereign-project-guardian](sovereign-project-guardian/) | openclaw | ★ 0 | 48% | L3 | Project health and best practices enforcer. Checks security, quality, documentat… |
+| [prisma-database-setup](prisma-database-setup/) | prisma | ★ 0 | 48% | L3 | Guides for configuring Prisma with different database providers (PostgreSQL, MyS… |
+| [database](database/) | ngxtm | ★ 0 | 48% | L2 | Database development and operations workflow covering SQL, NoSQL, database desig… |
+| [prisma-database-setup](prisma-database-setup/) | jirapat-su | ★ 0 | 48% | L3 | Guides for configuring Prisma with different database providers (PostgreSQL, MyS… |
+| [prisma-database-setup](prisma-database-setup/) | akghosh111 | ★ 0 | 48% | L3 | Guides for configuring Prisma with different database providers (PostgreSQL, MyS… |
+| [prisma-database-setup](prisma-database-setup/) | yeohj0710 | ★ 0 | 48% | L3 | Guides for configuring Prisma with different database providers (PostgreSQL, MyS… |
+| [railway-new](railway-new/) | Dicklesworthstone | ★ 0 | 48% | L3 | Create Railway projects, services, and databases with proper configuration. Use … |
+| [database-patterns](database-patterns/) | MadAppGang | ★ 0 | 48% | L3 | Use when designing database schemas, implementing repository patterns, writing o… |
+| [database-migrations-sql-migrations](database-migrations-sql-migrations/) | imranstein | ★ 0 | 48% | L3 | SQL database migrations with zero-downtime strategies for PostgreSQL, MySQL, SQL… |
+| [langchain4j-vector-stores-configuration](langchain4j-vector-stores-configuration/) | pur3v4d3r | ★ 0 | 48% | L2 | Configure LangChain4J vector stores for RAG applications. Use when building sema… |
+| [seatunnel-skill](seatunnel-skill/) | apache | ★ 0 | 48% | L3 | Apache SeaTunnel - A multimodal, high-performance, distributed data integration … |
+| [sw-tech-stack-planner](sw-tech-stack-planner/) | chfle | ★ 0 | 48% | L3 | Use when user wants a tech stack recommendation, technology choices, docker-comp… |
+| [mpx-create-spec](mpx-create-spec/) | MartinoPolo | ★ 0 | 48% | L3 | Create project specification interactively. Asks about your idea, suggests tech … |
+| [spring-reactive](spring-reactive/) | majiayu000 | ★ 0 | 48% | L2 | Build reactive applications - WebFlux, Mono/Flux, R2DBC, backpressure, reactive … |
+| [qdrant-vector-search](qdrant-vector-search/) | davila7 | ★ 0 | 48% | L3 | High-performance vector similarity search engine for RAG and semantic search. Us… |
+| [Zimbra API Integration](zimbra-api-integration/) | anouar1991 | ★ 0 | 48% | L3 | This skill should be used when the user asks about "SOAP API", "REST API", "Zimb… |
+| [api-lifecycle](api-lifecycle/) | doancan | ★ 0 | 48% | L2 | Provides API design and lifecycle management guidance including versioning, depr… |
+| [qdrant-vector-search](qdrant-vector-search/) | majiayu000 | ★ 0 | 48% | L3 | High-performance vector similarity search engine for RAG and semantic search. Us… |
+| [qdrant-vector-search](qdrant-vector-search/) | majiayu000 | ★ 0 | 48% | L3 | High-performance vector similarity search engine for RAG and semantic search. Us… |
+| [qdrant-vector-search](qdrant-vector-search/) | Dicklesworthstone | ★ 0 | 48% | L3 | High-performance vector similarity search engine for RAG and semantic search. Us… |
+| [api-design-expert](api-design-expert/) | personamanagmentlayer | ★ 0 | 48% | L3 | Expert-level API design principles, REST, GraphQL, versioning, and API best prac… |
+| [development](development/) | javiertarazon | ★ 0 | 48% | L3 | Comprehensive web, mobile, and backend development workflow bundling frontend, b… |
+| [API Designer](api-designer/) | daffy0208 | ★ 0 | 48% | L3 | Design REST and GraphQL APIs. Use when creating backend APIs, defining API contr… |
+| [API Designer](api-designer/) | NeverSight | ★ 0 | 48% | L3 | Design REST and GraphQL APIs. Use when creating backend APIs, defining API contr… |
+| [API Designer](api-designer/) | majiayu000 | ★ 0 | 48% | L3 | Design REST and GraphQL APIs. Use when creating backend APIs, defining API contr… |
+| [react-best-practices](react-best-practices/) | michaelshimeles | ★ 0 | 48% | L3 | Comprehensive React and Next.js performance optimization guide with 40+ rules fo… |
+| [react-best-practices](react-best-practices/) | RadteamBaoDA | ★ 0 | 48% | L3 | Comprehensive React and Next.js performance optimization guide with 40+ rules fo… |
+| [architecting](architecting/) | gajakannan | ★ 0 | 48% | L3 | Designs system architecture, data models, API contracts, and technical specifica… |
+| [moai-lang-csharp](moai-lang-csharp/) | majiayu000 | ★ 0 | 48% | L3 | Enterprise C# 13 development with .NET 9, async/await, LINQ, Entity Framework Co… |
+| [ck:mobile-development](ck-mobile-development/) | weihung0831 | ★ 0 | 48% | L2 | Build mobile apps with React Native, Flutter, Swift/SwiftUI, Kotlin/Jetpack Comp… |
+| [mobile-development](mobile-development/) | majiayu000 | ★ 0 | 48% | L2 | Cross-platform and native mobile development. Frameworks: React Native, Flutter,… |
+| [database](database/) | DarkThreat74 | ★ 0 | 48% | L2 | Database development and operations workflow covering SQL, NoSQL, database desig… |
+| [database](database/) | boisenoise | ★ 0 | 48% | L2 | Database development and operations workflow covering SQL, NoSQL, database desig… |
+| [api-testing](api-testing/) | karchtho | ★ 0 | 48% | L3 | API testing strategies with Postman/Newman MCP integration, contract testing, un… |
+| [django-expert](django-expert/) | Jeffallan | ★ 0 | 48% | L3 | Use when building Django web applications or REST APIs with Django REST Framewor… |
+| [pytest](pytest/) | mattnigh | ★ 0 | 48% | L3 | pytest - Python's most powerful testing framework with fixtures, parametrization… |
+| [Django Framework](django-framework/) | NeverSight | ★ 0 | 48% | L3 | Build production-ready web applications with Django MVC, ORM, authentication, an… |
+| [mypy](mypy/) | bobmatnyc | ★ 0 | 48% | L3 | mypy - Static type checker for Python with gradual typing, strict mode, Protocol… |
+| [pytest](pytest/) | bobmatnyc | ★ 0 | 48% | L3 | pytest - Python's most powerful testing framework with fixtures, parametrization… |
+| [testing-strategy-builder](testing-strategy-builder/) | ArieGoldkin | ★ 0 | 48% | L3 | Use this skill when creating comprehensive testing strategies for applications. … |
+| [testing-strategy-builder](testing-strategy-builder/) | NeverSight | ★ 0 | 48% | L3 | Use this skill when creating comprehensive testing strategies for applications. … |
+| [Predictive Skill Loading](predictive-skill-loading/) | NeverSight | ★ 0 | 48% | L3 | Anticipates and pre-loads optimal skills before task execution based on pattern … |
+| [senior-fullstack](senior-fullstack/) | NeverSight | ★ 0 | 48% | L3 | Expert full-stack development covering frontend frameworks, backend services, da… |
+| [codebase-analysis](codebase-analysis/) | aiskillstore | ★ 0 | 48% | L3 | Systematically analyze codebase structure, complexity, dependencies, and archite… |
+| [senior-fullstack](senior-fullstack/) | the-sniper | ★ 0 | 48% | L3 | Expert full-stack development covering frontend frameworks, backend services, da… |
+| [better-auth](better-auth/) | hoanghd218 | ★ 0 | 48% | L3 | Add authentication with Better Auth (TypeScript). Use for email/password, OAuth … |
+| [better-auth](better-auth/) | hoanghd218 | ★ 0 | 48% | L3 | Add authentication with Better Auth (TypeScript). Use for email/password, OAuth … |
+| [better-auth](better-auth/) | lukebaze | ★ 0 | 48% | L3 | Add authentication with Better Auth (TypeScript). Use for email/password, OAuth … |
+| [better-auth](better-auth/) | alex-tgk | ★ 0 | 48% | L3 | Guide for implementing Better Auth - a framework-agnostic authentication and aut… |
+| [better-auth](better-auth/) | mrgoonie | ★ 0 | 48% | L3 | Guide for implementing Better Auth - a framework-agnostic authentication and aut… |
+| [Supabase Developer](supabase-developer/) | daffy0208 | ★ 0 | 48% | L3 | Build full-stack applications with Supabase (PostgreSQL, Auth, Storage, Real-tim… |
+| [flow-nexus-platform](flow-nexus-platform/) | ste-bah | ★ 0 | 48% | L3 | Comprehensive Flow Nexus platform management - authentication, sandboxes, app de… |
+| [flow-nexus-platform](flow-nexus-platform/) | ArchitectVS7 | ★ 0 | 48% | L3 | Comprehensive Flow Nexus platform management - authentication, sandboxes, app de… |
+| [vercel-deploy](vercel-deploy/) | vercel-labs | ★ 0 | 48% | L3 | Deploy applications and websites to Vercel. Use this skill when the user request… |
+| [vercel-deploy](vercel-deploy/) | elinsa-do-brasil | ★ 0 | 48% | L3 | Deploy applications and websites to Vercel. Use this skill when the user request… |
+| [vercel-deploy](vercel-deploy/) | codebendr-product-designer | ★ 0 | 48% | L3 | Deploy applications and websites to Vercel. Use this skill when the user request… |
 | [architecture-designer](architecture-designer/) | majiayu000 | ★ 0 | 47% | L3 | Define technical architecture and create ADRs. Triggers on "Help me define the a… |
 | [tmdd-threat-modeling](tmdd-threat-modeling/) | attasec | ★ 0 | 47% | L3 | Create and manage TMDD threat models grounded in actual codebase architecture. U… |
 | [power-platform-connector](power-platform-connector/) | pingqLIN | ★ 0 | 47% | L2 | Comprehensive development guidelines for Power Platform Custom Connectors using … |
@@ -1524,6 +1749,9 @@
 | [solidstart-websocket](solidstart-websocket/) | vallafederico | ★ 0 | 47% | L3 | SolidStart WebSocket: experimental WebSocket endpoints, connection handling, mes… |
 | [Global Error Handling](global-error-handling/) | xeet991fx | ★ 0 | 47% | L3 | Your approach to handling global error handling. Use this skill when working on … |
 | [springboot-4-migration](springboot-4-migration/) | pingqLIN | ★ 0 | 47% | L3 | Comprehensive guide for migrating Spring Boot applications from 3.x to 4.0, focu… |
+| [solidstart-api-routes](solidstart-api-routes/) | majiayu000 | ★ 0 | 47% | L3 | SolidStart API routes: export GET/POST/PATCH/DELETE functions, handle APIEvent w… |
+| [solidstart-api-routes](solidstart-api-routes/) | majiayu000 | ★ 0 | 47% | L3 | SolidStart API routes: export GET/POST/PATCH/DELETE functions, handle APIEvent w… |
+| [solidstart-api-routes](solidstart-api-routes/) | vallafederico | ★ 0 | 47% | L3 | SolidStart API routes: export GET/POST/PATCH/DELETE functions, handle APIEvent w… |
 | [tap](tap/) | MiniCodeMonkey | ★ 0 | 46% | L3 | Create markdown presentations with live code execution |
 | [cpp](cpp/) | oimiragieo | ★ 0 | 46% | L3 | C++ coding standards and best practices. |
 | [dd-logs](dd-logs/) | datadog-labs | ★ 0 | 46% | L3 | Log management - search, pipelines, archives, and cost control. |
@@ -3419,7 +3647,6 @@
 | [skill-creator](skill-creator/) | QuantumSolver | ★ 0 | 45% | L3 | Create new skills, modify and improve existing skills, and measure skill perform… |
 | [skill-creator](skill-creator/) | juandaniel190 | ★ 0 | 45% | L3 | Create new skills, modify and improve existing skills, and measure skill perform… |
 | [agent-sdk](agent-sdk/) | NeverSight | ★ 0 | 45% | L3 | Guide for Claude Agent SDK - build custom AI agents powered by Claude. Covers in… |
-| [agent-sdk](agent-sdk/) | majiayu000 | ★ 0 | 45% | L3 | Expert in Claude Agent SDK development. Use when users ask about SDK API, agent … |
 | [claude-typescript-sdk](claude-typescript-sdk/) | majiayu000 | ★ 0 | 45% | L3 | Build AI applications with the Anthropic TypeScript SDK. Use when creating Claud… |
 | [claude-typescript-sdk](claude-typescript-sdk/) | Anveio | ★ 0 | 45% | L3 | Build AI applications with the Anthropic TypeScript SDK. Use when creating Claud… |
 | [performance-testing-review-ai-review](performance-testing-review-ai-review/) | namanprat | ★ 0 | 45% | L3 | You are an expert AI-powered code review specialist combining automated static a… |
@@ -3559,6 +3786,408 @@
 | [auth-web-cloudbase](auth-web-cloudbase/) | sycsky | ★ 0 | 45% | L3 | Complete guide for CloudBase Auth v2 using Web SDK (@cloudbase/js-sdk@2.x) - all… |
 | [miniprogram-development](miniprogram-development/) | TencentCloudBase | ★ 0 | 45% | L2 | WeChat Mini Program development rules. Use this skill when developing WeChat min… |
 | [u3550-plan-quality-evaluation-for-civic-participation-platforms](u3550-plan-quality-evaluation-for-civic-participation-platforms/) | zwright8 | ★ 0 | 45% | L2 | Operate the "plan quality evaluation for civic participation platforms" capabili… |
+| [surrealdb-ffi-codec](surrealdb-ffi-codec/) | yuzamesan3 | ★ 0 | 45% | L3 | A codec implementation pattern for high‑efficiency FFI data exchange between Sur… |
+| [Resolvio](resolvio/) | thenamespace | ★ 0 | 45% | L3 | Interact with Resolvio - an ENS (Ethereum Name Service) resolution API. Resolve … |
+| [swedish-medications](swedish-medications/) | Eir-Space | ★ 0 | 45% | L3 | Look up Swedish medication information from FASS (Farmaceutiska Specialiteter i … |
+| [oracle-path](oracle-path/) | majiayu000 | ★ 0 | 45% | L3 | Create learning paths for topics. Use when user says "learning path", "how do I … |
+| [write-documents](write-documents/) | karstenheld3 | ★ 0 | 45% | L2 | Apply when creating or editing INFO, SPEC, IMPL, TEST, FIX documents, or STRUT p… |
+| [write-documents](write-documents/) | karstenheld3 | ★ 0 | 45% | L2 | Apply when creating or editing INFO, SPEC, IMPL, TEST, FIX documents, or STRUT p… |
+| [keynote-slides](keynote-slides/) | dbmcco | ★ 0 | 45% | L3 | Build Keynote-style single-file HTML slide decks with brand-ready templates, min… |
+| [aspose-slides](aspose-slides/) | alanben | ★ 0 | 45% | L2 | Comprehensive skill for manipulating Microsoft PowerPoint presentations using As… |
+| [backend-dev](backend-dev/) | julianromli | ★ 0 | 45% | L3 | Comprehensive backend development workflow that orchestrates expert analysis, ar… |
+| [senior-backend](senior-backend/) | CloudToLocalLLM-online | ★ 0 | 45% | L3 | This skill should be used when the user asks to "design REST APIs", "optimize da… |
+| [backend-design](backend-design/) | xenitV1 | ★ 0 | 45% | L3 | Elite Tier Backend standards, including Vertical Slice Architecture, Zero Trust … |
+| [backend-scaffold](backend-scaffold/) | NeverSight | ★ 0 | 45% | L3 | Generate production-ready backend code with routes, data models, service layers,… |
+| [backend-dev](backend-dev/) | limaon | ★ 0 | 45% | L3 | Comprehensive backend development workflow that orchestrates expert analysis, ar… |
+| [existing-repo](existing-repo/) | alinaqi | ★ 0 | 45% | L3 | Analyze existing repositories, maintain structure, setup guardrails and best pra… |
+| [axum-web-framework](axum-web-framework/) | manutej | ★ 0 | 45% | L2 | Complete guide for Axum web framework including routing, extractors, middleware,… |
+| [backend-developer](backend-developer/) | BenjaminG | ★ 0 | 45% | L3 | Specialist for TypeScript backend development including Node.js servers, NestJS … |
+| [backend-architect](backend-architect/) | itsimonfredlingjack | ★ 0 | 45% | L3 | Expert backend architect specializing in scalable API design, microservices arch… |
+| [backend-dev-guidelines](backend-dev-guidelines/) | rootcastleco | ★ 0 | 45% | L3 | Opinionated backend development standards for Node.js + Express + TypeScript mic… |
+| [backend-dev](backend-dev/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive backend development workflow that orchestrates expert analysis, ar… |
+| [backend-dev](backend-dev/) | dy9759 | ★ 0 | 45% | L3 | Comprehensive backend development workflow that orchestrates expert analysis, ar… |
+| [backend-dev](backend-dev/) | dy9759 | ★ 0 | 45% | L3 | Comprehensive backend development workflow that orchestrates expert analysis, ar… |
+| [senior-backend](senior-backend/) | georgekhananaev | ★ 0 | 45% | L3 | This skill should be used when the user asks to "design REST APIs", "optimize da… |
+| [senior-backend](senior-backend/) | alpe89 | ★ 0 | 45% | L3 | This skill should be used when the user asks to "design REST APIs", "optimize da… |
+| [senior-backend](senior-backend/) | Nuwanda04 | ★ 0 | 45% | L3 | This skill should be used when the user asks to "design REST APIs", "optimize da… |
+| [nodejs-backend-patterns](nodejs-backend-patterns/) | kimjuyoung1127 | ★ 0 | 45% | L3 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
+| [nodejs-backend-patterns](nodejs-backend-patterns/) | kimjuyoung1127 | ★ 0 | 45% | L3 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
+| [nodejs-backend-patterns](nodejs-backend-patterns/) | fabioeducacross | ★ 0 | 45% | L3 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
+| [existing-repo](existing-repo/) | majiayu000 | ★ 0 | 45% | L3 | Analyze existing repositories, maintain structure, setup guardrails and best pra… |
+| [existing-repo](existing-repo/) | NeverSight | ★ 0 | 45% | L3 | Analyze existing repositories, maintain structure, setup guardrails and best pra… |
+| [existing-repo](existing-repo/) | majiayu000 | ★ 0 | 45% | L3 | Analyze existing repositories, maintain structure, setup guardrails and best pra… |
+| [distributed-tracing](distributed-tracing/) | Superesty | ★ 0 | 45% | L3 | Implement distributed tracing with Jaeger and Tempo to track requests across mic… |
+| [symfony-semaphore](symfony-semaphore/) | krzysztofsurdy | ★ 0 | 45% | L3 | Manage semaphores to allow multiple concurrent processes to access shared resour… |
+| [javascript-typescript-typescript-scaffold](javascript-typescript-typescript-scaffold/) | AtilaMedeiros | ★ 0 | 45% | L3 | You are a TypeScript project architecture expert specializing in scaffolding pro… |
+| [banking-domain-conventions](banking-domain-conventions/) | firefly-oss | ★ 0 | 45% | L2 | Use when writing code in a Firefly Banking Platform (firefly-oss) service — appl… |
+| [graphql-api-development](graphql-api-development/) | NeverSight | ★ 0 | 45% | L3 | Comprehensive guide for building GraphQL APIs including schema design, queries, … |
+| [nestjs-authentication](nestjs-authentication/) | majiayu000 | ★ 0 | 45% | L3 | Use this skill whenever the user wants to design, implement, or refactor authent… |
+| [distributed-tracing](distributed-tracing/) | xiangteng007 | ★ 0 | 45% | L3 | Implement distributed tracing with Jaeger and Tempo to track requests across mic… |
+| [distributed-tracing](distributed-tracing/) | Iowa51 | ★ 0 | 45% | L3 | Implement distributed tracing with Jaeger and Tempo to track requests across mic… |
+| [javascript-typescript-typescript-scaffold](javascript-typescript-typescript-scaffold/) | Nandukumar-koribilli | ★ 0 | 45% | L3 | You are a TypeScript project architecture expert specializing in scaffolding pro… |
+| [javascript-typescript-typescript-scaffold](javascript-typescript-typescript-scaffold/) | fazedordecodigo | ★ 0 | 45% | L3 | You are a TypeScript project architecture expert specializing in scaffolding pro… |
+| [javascript-typescript-typescript-scaffold](javascript-typescript-typescript-scaffold/) | xiangteng007 | ★ 0 | 45% | L3 | You are a TypeScript project architecture expert specializing in scaffolding pro… |
+| [javascript-typescript-typescript-scaffold](javascript-typescript-typescript-scaffold/) | bissan-sameeh | ★ 0 | 45% | L3 | You are a TypeScript project architecture expert specializing in scaffolding pro… |
+| [integration](integration/) | mattnigh | ★ 0 | 45% | L3 | Backend-Frontend integration patterns expert. Type-safe API contracts with Pydan… |
+| [rust-backend-advance](rust-backend-advance/) | thienty1207 | ★ 0 | 45% | L2 | Production-ready Rust backend development with Axum framework and PostgreSQL. Ma… |
+| [javascript-typescript-typescript-scaffold](javascript-typescript-typescript-scaffold/) | chicanoandres702 | ★ 0 | 45% | L3 | You are a TypeScript project architecture expert specializing in scaffolding pro… |
+| [javascript-typescript-typescript-scaffold](javascript-typescript-typescript-scaffold/) | sla-te | ★ 0 | 45% | L3 | You are a TypeScript project architecture expert specializing in scaffolding pro… |
+| [wordpress-master](wordpress-master/) | majiayu000 | ★ 0 | 45% | L3 | Elite WordPress architect specializing in full-stack development, performance op… |
+| [e2e-test](e2e-test/) | majiayu000 | ★ 0 | 45% | L3 | Run E2E test scenarios against running services. Use for happy path testing, unh… |
+| [architecture-design](architecture-design/) | thomast1906 | ★ 0 | 45% | L2 | Design Azure cloud architectures from requirements and generate High-Level Desig… |
+| [write-rich-descriptions](write-rich-descriptions/) | a-scolan | ★ 0 | 45% | L3 | Use metadata for system models (business/technical context) and markdown tables … |
+| [backend-passport-js](backend-passport-js/) | majiayu000 | ★ 0 | 45% | L3 | Authentication middleware for Express.js and Node.js applications. Use when buil… |
+| [javascript-typescript-typescript-scaffold](javascript-typescript-typescript-scaffold/) | ngxtm | ★ 0 | 45% | L3 | You are a TypeScript project architecture expert specializing in scaffolding pro… |
+| [fullstack-developer](fullstack-developer/) | NeverSight | ★ 0 | 45% | L3 | End-to-end feature expert specializing in frontend-backend integration, system a… |
+| [fullstack-developer](fullstack-developer/) | xiangteng007 | ★ 0 | 45% | L3 | End-to-end feature expert specializing in frontend-backend integration, system a… |
+| [backend-ultimate](backend-ultimate/) | SHAJAR5110 | ★ 0 | 45% | L3 | Ultimate 25+ years expert-level backend skill covering FastAPI, Express, Node.js… |
+| [backend-ultimate](backend-ultimate/) | SHAJAR5110 | ★ 0 | 45% | L3 | Ultimate 25+ years expert-level backend skill covering FastAPI, Express, Node.js… |
+| [backend-ultimate](backend-ultimate/) | SHAJAR5110 | ★ 0 | 45% | L3 | Ultimate 25+ years expert-level backend skill covering FastAPI, Express, Node.js… |
+| [backend-ultimate](backend-ultimate/) | majiayu000 | ★ 0 | 45% | L3 | Ultimate 25+ years expert-level backend skill covering FastAPI, Express, Node.js… |
+| [umbrella-repo-detector](umbrella-repo-detector/) | majiayu000 | ★ 0 | 45% | L3 | Detects multi-repo architecture patterns (frontend/backend/shared) from user pro… |
+| [javascript-typescript-typescript-scaffold](javascript-typescript-typescript-scaffold/) | imranstein | ★ 0 | 45% | L3 | You are a TypeScript project architecture expert specializing in scaffolding pro… |
+| [javascript-typescript-typescript-scaffold](javascript-typescript-typescript-scaffold/) | namanprat | ★ 0 | 45% | L3 | You are a TypeScript project architecture expert specializing in scaffolding pro… |
+| [javascript-typescript-typescript-scaffold](javascript-typescript-typescript-scaffold/) | AndyAnh174 | ★ 0 | 45% | L3 | You are a TypeScript project architecture expert specializing in scaffolding pro… |
+| [tech-news-curator](tech-news-curator/) | majiayu000 | ★ 0 | 45% | L2 | Curate and analyze technical articles from engineering blogs about AI, software … |
+| [apollo-server-patterns](apollo-server-patterns/) | majiayu000 | ★ 0 | 45% | L3 | Use when building GraphQL APIs with Apollo Server requiring resolvers, data sour… |
+| [fullstack-guardian](fullstack-guardian/) | WSU-Carbon-Lab | ★ 0 | 45% | L2 | Use when implementing features across frontend and backend, building APIs with U… |
+| [fullstack-guardian](fullstack-guardian/) | NeverSight | ★ 0 | 45% | L2 | Use when implementing features across frontend and backend, building APIs with U… |
+| [fullstack-expertise](fullstack-expertise/) | majiayu000 | ★ 0 | 45% | L3 | Full-stack development expertise covering backend, frontend, database, DevOps, a… |
+| [fullstack-expertise](fullstack-expertise/) | vineethsoma | ★ 0 | 45% | L3 | Full-stack development expertise covering backend, frontend, database, DevOps, a… |
+| [rapid-prototyper](rapid-prototyper/) | NeverSight | ★ 0 | 45% | L3 | Creates minimal working prototypes for quick idea validation. Single-file when p… |
+| [rapid-prototyper](rapid-prototyper/) | majiayu000 | ★ 0 | 45% | L3 | Creates minimal working prototypes for quick idea validation. Single-file when p… |
+| [gRPC Integration](grpc-integration/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive guide to gRPC for high-performance microservices communication wit… |
+| [firebase-functions-templates](firebase-functions-templates/) | majiayu000 | ★ 0 | 45% | L3 | Create production-ready Firebase Cloud Functions with TypeScript, Express integr… |
+| [firebase-functions-templates](firebase-functions-templates/) | onesmartguy | ★ 0 | 45% | L3 | Create production-ready Firebase Cloud Functions with TypeScript, Express integr… |
+| [firebase-functions-templates](firebase-functions-templates/) | mattnigh | ★ 0 | 45% | L3 | Create production-ready Firebase Cloud Functions with TypeScript, Express integr… |
+| [enterprise-architecture-patterns](enterprise-architecture-patterns/) | simnova | ★ 0 | 45% | L3 | Complete guide for enterprise architecture patterns including domain-driven desi… |
+| [enterprise-architecture-patterns](enterprise-architecture-patterns/) | majiayu000 | ★ 0 | 45% | L3 | Complete guide for enterprise architecture patterns including domain-driven desi… |
+| [libpdf-helper](libpdf-helper/) | ephraimduncan | ★ 0 | 45% | L3 | Work with @libpdf/core - modern TypeScript PDF library for parsing, modifying, a… |
+| [csharp-developer](csharp-developer/) | josearias210 | ★ 0 | 45% | L2 | Use when building C# applications with .NET 10+, ASP.NET Core APIs, or Blazor we… |
+| [ln-114-frontend-docs-creator](ln-114-frontend-docs-creator/) | majiayu000 | ★ 0 | 45% | L2 | Creates design_guidelines.md for frontend projects. L3 Worker invoked CONDITIONA… |
+| [ln-114-frontend-docs-creator](ln-114-frontend-docs-creator/) | boisenoise | ★ 0 | 45% | L2 | Creates design_guidelines.md for frontend projects. L3 Worker invoked CONDITIONA… |
+| [frontend-ui-dark-ts](frontend-ui-dark-ts/) | corsal2025 | ★ 0 | 45% | L3 | Build dark-themed React applications using Tailwind CSS with custom theming, gla… |
+| [frontend-ui-dark-ts](frontend-ui-dark-ts/) | DarkThreat74 | ★ 0 | 45% | L3 | Build dark-themed React applications using Tailwind CSS with custom theming, gla… |
+| [design-taste-frontend](design-taste-frontend/) | Dwsy | ★ 0 | 45% | L3 | Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biase… |
+| [Tero Voice Project Context](tero-voice-project-context/) | DuckshotPro | ★ 0 | 45% | L3 | Load full project context, tech stack, status, and guidelines for the AI Recepti… |
+| [Elite Full-Stack Web Developer](elite-full-stack-web-developer/) | yaronhayo | ★ 0 | 45% | L3 | A top-tier full-stack developer persona focused on implementing pixel-perfect, l… |
+| [shadcn-ui](shadcn-ui/) | aiskillstore | ★ 0 | 45% | L3 | Expert guidance for integrating and building applications with shadcn/ui compone… |
+| [configure-chatkit](configure-chatkit/) | majiayu000 | ★ 0 | 45% | L3 | This skill should be used when setting up OpenAI ChatKit in Next.js, adding doma… |
+| [frontend-design](frontend-design/) | 0xwuchuan | ★ 0 | 45% | L3 | Create distinctive, production-grade frontend interfaces. Use when building web … |
+| [design-taste-frontend](design-taste-frontend/) | sandriaas | ★ 0 | 45% | L3 | Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biase… |
+| [design-taste-frontend](design-taste-frontend/) | pabman11 | ★ 0 | 45% | L3 | Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biase… |
+| [design-taste-frontend](design-taste-frontend/) | yanghu819 | ★ 0 | 45% | L3 | Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biase… |
+| [building-streamlit-custom-components-v2](building-streamlit-custom-components-v2/) | NickEsColR | ★ 0 | 45% | L3 | Builds bidirectional Streamlit Custom Components v2 (CCv2) using `st.components.… |
+| [artifacts-builder](artifacts-builder/) | boshi-xixixi | ★ 0 | 45% | L3 | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts … |
+| [shadcn-ui](shadcn-ui/) | btwitskaif69 | ★ 0 | 45% | L3 | Expert guidance for integrating and building applications with shadcn/ui compone… |
+| [configure-chatkit](configure-chatkit/) | QasimHussain21 | ★ 0 | 45% | L3 | This skill should be used when setting up OpenAI ChatKit in Next.js, adding doma… |
+| [designer-skills](designer-skills/) | llama-farm | ★ 0 | 45% | L3 | Designer subsystem patterns for LlamaFarm. Covers React 18, TanStack Query, Tail… |
+| [frontend-coding](frontend-coding/) | yuji-sniper | ★ 0 | 45% | L3 | Next.js App Routerベースのフロントエンド実装スキル。UIコンポーネント、ページ、レイアウト、フォーム、React Queryフック、i18n対… |
+| [laravel-vite](laravel-vite/) | uniespacos | ★ 0 | 45% | L3 | Complete Vite bundling for Laravel - assets, HMR, SSR, frameworks, optimization.… |
+| [nextjs-standards](nextjs-standards/) | JStaRFilms | ★ 0 | 45% | L3 | Comprehensive coding standards, verification protocols, and templates for Next.j… |
+| [shadcn-ui](shadcn-ui/) | snqb | ★ 0 | 45% | L2 | Access shadcn/ui v4 component library via MCP server. Query components, blocks, … |
+| [architect-coordinator](architect-coordinator/) | cloudzun | ★ 0 | 45% | L3 | AI Architect coordinates OpenCode agents for complex development tasks. Breaks d… |
+| [infrastructure-documenter](infrastructure-documenter/) | majiayu000 | ★ 0 | 45% | L3 | Expert guide for documenting infrastructure including architecture diagrams, run… |
+| [rails-developer](rails-developer/) | NeverSight | ★ 0 | 45% | L3 | Эксперт Ruby on Rails. Используй для Rails приложений, ActiveRecord, Hotwire и R… |
+| [designer-skills](designer-skills/) | majiayu000 | ★ 0 | 45% | L3 | Designer subsystem patterns for LlamaFarm. Covers React 18, TanStack Query, Tail… |
+| [infrastructure-documenter](infrastructure-documenter/) | majiayu000 | ★ 0 | 45% | L3 | Expert guide for documenting infrastructure including architecture diagrams, run… |
+| [developing-nextjs](developing-nextjs/) | majiayu000 | ★ 0 | 45% | L3 | Use this skill when developing Next.js 16 applications - creating pages, compone… |
+| [vue-writer](vue-writer/) | RasmusGodske | ★ 0 | 45% | L3 | Skill for creating and editing Vue.js components following Prowi conventions. Us… |
+| [vue-writer](vue-writer/) | majiayu000 | ★ 0 | 45% | L3 | Skill for creating and editing Vue.js components following Prowi conventions. Us… |
+| [nodejs-backend-patterns](nodejs-backend-patterns/) | wshobson | ★ 0 | 45% | L3 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
+| [senior-fullstack-ai-engineer](senior-fullstack-ai-engineer/) | cosmos-dx | ★ 0 | 45% | L3 | Senior full-stack developer with 10+ years of experience and AI engineering expe… |
+| [backend-dev-guidelines](backend-dev-guidelines/) | Iowa51 | ★ 0 | 45% | L3 | Opinionated backend development standards for Node.js + Express + TypeScript mic… |
+| [nodejs-backend-patterns](nodejs-backend-patterns/) | GitCoder052023 | ★ 0 | 45% | L3 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
+| [nodejs-backend-patterns](nodejs-backend-patterns/) | Dicklesworthstone | ★ 0 | 45% | L3 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
+| [backend-dev-guidelines](backend-dev-guidelines/) | traorecheikh | ★ 0 | 45% | L3 | Comprehensive backend development guide for Node.js/Express/TypeScript microserv… |
+| [backend-dev-guidelines](backend-dev-guidelines/) | Keni-Dev | ★ 0 | 45% | L3 | Comprehensive backend development guide for Node.js/Express/TypeScript microserv… |
+| [backend-dev-guidelines](backend-dev-guidelines/) | BrianDai22 | ★ 0 | 45% | L3 | Comprehensive backend development guide for Node.js/Express/TypeScript microserv… |
+| [backend-architect](backend-architect/) | YsraEstudos | ★ 0 | 45% | L3 | Expert backend architect specializing in scalable API design, microservices arch… |
+| [backend-architect](backend-architect/) | yasinbas | ★ 0 | 45% | L3 | Expert backend architect specializing in scalable API design, microservices arch… |
+| [backend-dev-guidelines](backend-dev-guidelines/) | Kayky4 | ★ 0 | 45% | L3 | Opinionated backend development standards for Node.js + Express + TypeScript mic… |
+| [backend-dev-guidelines](backend-dev-guidelines/) | ngonluarecca | ★ 0 | 45% | L3 | Opinionated backend development standards for Node.js + Express + TypeScript mic… |
+| [backend-dev-guidelines](backend-dev-guidelines/) | YPYT1 | ★ 0 | 45% | L3 | Opinionated backend development standards for Node.js + Express + TypeScript mic… |
+| [mermaid-diagram-generator](mermaid-diagram-generator/) | patricio0312rev | ★ 0 | 45% | L3 | Creates Mermaid diagrams for flowcharts, sequence diagrams, ERDs, and architectu… |
+| [distributed-tracing](distributed-tracing/) | ChinhQuach303 | ★ 0 | 45% | L3 | Implement distributed tracing with Jaeger and Tempo to track requests across mic… |
+| [feature-dev](feature-dev/) | COG-GTM | ★ 0 | 45% | L2 | Develop new features from requirements, specifications, or user stories followin… |
+| [scalardb-sizing-estimator](scalardb-sizing-estimator/) | wfukatsu | ★ 0 | 45% | L3 | ScalarDBサイジング見積もりエージェント - Enterprise/OSSエディション別のインフラ構成・Pod数・コストを対話形式で見積もり。/scala… |
+| [javascript-typescript-typescript-scaffold](javascript-typescript-typescript-scaffold/) | RJsolucoes | ★ 0 | 45% | L3 | You are a TypeScript project architecture expert specializing in scaffolding pro… |
+| [mermaid-diagram-generator](mermaid-diagram-generator/) | patricio0312rev | ★ 0 | 45% | L3 | Creates Mermaid diagrams for flowcharts, sequence diagrams, ERDs, and architectu… |
+| [distributed-tracing](distributed-tracing/) | Sorawittj | ★ 0 | 45% | L3 | Implement distributed tracing with Jaeger and Tempo to track requests across mic… |
+| [distributed-tracing](distributed-tracing/) | netflyapp | ★ 0 | 45% | L3 | Implement distributed tracing with Jaeger and Tempo to track requests across mic… |
+| [javascript-typescript-typescript-scaffold](javascript-typescript-typescript-scaffold/) | engryamato | ★ 0 | 45% | L3 | You are a TypeScript project architecture expert specializing in scaffolding pro… |
+| [javascript-typescript-typescript-scaffold](javascript-typescript-typescript-scaffold/) | nextgen-hms | ★ 0 | 45% | L3 | You are a TypeScript project architecture expert specializing in scaffolding pro… |
+| [javascript-typescript-typescript-scaffold](javascript-typescript-typescript-scaffold/) | Spark014 | ★ 0 | 45% | L3 | You are a TypeScript project architecture expert specializing in scaffolding pro… |
+| [javascript-typescript-typescript-scaffold](javascript-typescript-typescript-scaffold/) | e-docBR | ★ 0 | 45% | L3 | You are a TypeScript project architecture expert specializing in scaffolding pro… |
+| [integration](integration/) | nera0875 | ★ 0 | 45% | L3 | Backend-Frontend integration patterns expert. Type-safe API contracts with Pydan… |
+| [Python Backend Architecture Review](python-backend-architecture-review/) | rknall | ★ 0 | 45% | L3 | Comprehensive design architecture review for Python backend applications. Use th… |
+| [javascript-typescript-typescript-scaffold](javascript-typescript-typescript-scaffold/) | javiertarazon | ★ 0 | 45% | L3 | You are a TypeScript project architecture expert specializing in scaffolding pro… |
+| [tech-news-curator](tech-news-curator/) | ronnycoding | ★ 0 | 45% | L2 | Curate and analyze technical articles from engineering blogs about AI, software … |
+| [architecture](architecture/) | majiayu000 | ★ 0 | 45% | L3 | Master architectural design with SOLID principles, design patterns, microservice… |
+| [zotero-search](zotero-search/) | urschrei | ★ 0 | 45% | L3 | Search the user's local Zotero library, find related papers via Semantic Scholar… |
+| [upgrade-integration](upgrade-integration/) | JDerekLomas | ★ 0 | 45% | L3 | Integrate Carnegie Learning's UpGrade A/B testing platform into LMS and EdTech a… |
+| [library-doc](library-doc/) | um1b | ★ 0 | 45% | L3 | Index and search library documentation locally for offline use. Invoke when user… |
+| [api-design-principles](api-design-principles/) | wshobson | ★ 0 | 45% | L3 | Master REST and GraphQL API design principles to build intuitive, scalable, and … |
+| [api-endpoint](api-endpoint/) | majiayu000 | ★ 0 | 45% | L3 | Create REST or GraphQL API endpoints with proper validation, error handling, aut… |
+| [dev-api-design](dev-api-design/) | majiayu000 | ★ 0 | 45% | L3 | Production-grade API design patterns for REST, GraphQL, and gRPC. Covers API arc… |
+| [api-design-skill](api-design-skill/) | majiayu000 | ★ 0 | 45% | L3 | REST/GraphQL API design patterns - resource naming, HTTP methods, error handling… |
+| [qa-api-testing-contracts](qa-api-testing-contracts/) | majiayu000 | ★ 0 | 45% | L2 | API testing and contract validation. Design and execute schema validation, contr… |
+| [agent-ops-api-review](agent-ops-api-review/) | majiayu000 | ★ 0 | 45% | L3 | Platform/Language agnostic API delivery and correctness auditor. Use when projec… |
+| [dhh-rails-style](dhh-rails-style/) | EveryInc | ★ 0 | 45% | L2 | This skill should be used when writing Ruby and Rails code in DHH's distinctive … |
+| [skill-activator](skill-activator/) | majiayu000 | ★ 0 | 45% | L2 | Guide for making skills discoverable and ensuring they get invoked at the right … |
+| [tech-translator](tech-translator/) | majiayu000 | ★ 0 | 45% | L3 | This skill should be used when users need to translate technical documents, API … |
+| [api-design-principles](api-design-principles/) | B4san | ★ 0 | 45% | L3 | Master REST and GraphQL API design principles to build intuitive, scalable, and … |
+| [api-design-principles](api-design-principles/) | ccf | ★ 0 | 45% | L3 | Master REST and GraphQL API design principles to build intuitive, scalable, and … |
+| [api-patterns](api-patterns/) | boisenoise | ★ 0 | 45% | L3 | API design principles and decision-making. REST vs GraphQL vs tRPC selection, re… |
+| [api-endpoint](api-endpoint/) | NeverSight | ★ 0 | 45% | L3 | Create REST or GraphQL API endpoints with proper validation, error handling, aut… |
+| [api-endpoint](api-endpoint/) | majiayu000 | ★ 0 | 45% | L3 | Create REST or GraphQL API endpoints with proper validation, error handling, aut… |
+| [dev-api-design](dev-api-design/) | majiayu000 | ★ 0 | 45% | L3 | Production-grade API design patterns for REST, GraphQL, and gRPC. Covers API arc… |
+| [api-design-skill](api-design-skill/) | majiayu000 | ★ 0 | 45% | L3 | REST/GraphQL API design patterns - resource naming, HTTP methods, error handling… |
+| [qa-api-testing-contracts](qa-api-testing-contracts/) | majiayu000 | ★ 0 | 45% | L2 | API testing and contract validation. Design and execute schema validation, contr… |
+| [api-designer](api-designer/) | majiayu000 | ★ 0 | 45% | L3 | Design RESTful or GraphQL APIs with proper conventions. Creates endpoint specifi… |
+| [dhh-rails-style](dhh-rails-style/) | gvkhosla | ★ 0 | 45% | L2 | This skill should be used when writing Ruby and Rails code in DHH's distinctive … |
+| [dhh-rails-style](dhh-rails-style/) | majiayu000 | ★ 0 | 45% | L2 | This skill should be used when writing Ruby and Rails code in DHH's distinctive … |
+| [dhh-rails-style](dhh-rails-style/) | NeverSight | ★ 0 | 45% | L2 | This skill should be used when writing Ruby and Rails code in DHH's distinctive … |
+| [dhh-rails-style](dhh-rails-style/) | robwestz | ★ 0 | 45% | L2 | This skill should be used when writing Ruby and Rails code in DHH's distinctive … |
+| [changeset](changeset/) | NeverSight | ★ 0 | 45% | L2 | Create changesets for version bump, release notes, changelog, PR description, se… |
+| [skill-activator](skill-activator/) | majiayu000 | ★ 0 | 45% | L2 | Guide for making skills discoverable and ensuring they get invoked at the right … |
+| [skill-activator](skill-activator/) | xmgrex | ★ 0 | 45% | L2 | Guide for making skills discoverable and ensuring they get invoked at the right … |
+| [tech-translator](tech-translator/) | majiayu000 | ★ 0 | 45% | L3 | This skill should be used when users need to translate technical documents, API … |
+| [tech-translator](tech-translator/) | stallboy | ★ 0 | 45% | L3 | This skill should be used when users need to translate technical documents, API … |
+| [start](start/) | dsifry | ★ 0 | 45% | L3 | Use when starting work on any task, when the user mentions metaswarm, or when th… |
+| [requirements-gathering](requirements-gathering/) | NeverSight | ★ 0 | 45% | L2 | Systematic requirements gathering through AskUserQuestion. Use when starting dev… |
+| [rust-core](rust-core/) | aaronbassett | ★ 0 | 45% | L3 | Comprehensive Rust development expertise covering core principles, patterns, err… |
+| [rust-core](rust-core/) | aaronbassett | ★ 0 | 45% | L3 | Comprehensive Rust development expertise covering core principles, patterns, err… |
+| [golang-pro](golang-pro/) | NeverSight | ★ 0 | 45% | L2 | Master Go 1.21+ with modern patterns, advanced concurrency, performance optimiza… |
+| [dhh-rails-reviewer](dhh-rails-reviewer/) | udecode | ★ 0 | 45% | L2 | Brutally honest Rails code review from DHH's perspective. Use when reviewing Rai… |
+| [api-patterns](api-patterns/) | tuyenht | ★ 0 | 45% | L3 | Nguyên tắc thiết kế API chuyên sâu (REST/GraphQL/tRPC), định dạng phản hồi và ph… |
+| [web-scraping](web-scraping/) | yfe404 | ★ 0 | 45% | L3 | This skill activates for web scraping and Actor development. It proactively disc… |
+| [prd-v06-technical-specification](prd-v06-technical-specification/) | mattgierhart | ★ 0 | 45% | L2 | Define implementation contracts (APIs and data models) that developers will buil… |
+| [Frontend Responsive Design Standards](frontend-responsive-design-standards/) | am-will | ★ 0 | 45% | L3 | Build responsive, mobile-first layouts using fluid containers, flexible units, m… |
+| [Frontend Responsive Design Standards](frontend-responsive-design-standards/) | majiayu000 | ★ 0 | 45% | L3 | Build responsive, mobile-first layouts using fluid containers, flexible units, m… |
+| [Frontend Responsive Design Standards](frontend-responsive-design-standards/) | majiayu000 | ★ 0 | 45% | L3 | Build responsive, mobile-first layouts using fluid containers, flexible units, m… |
+| [Frontend Responsive Design Standards](frontend-responsive-design-standards/) | sarfraznawaz2005 | ★ 0 | 45% | L3 | Build responsive, mobile-first layouts using fluid containers, flexible units, m… |
+| [frontend-design](frontend-design/) | k0xxi | ★ 0 | 45% | L2 | Create distinctive, production-grade frontend interfaces with high design qualit… |
+| [frontend-design](frontend-design/) | mashafrancis | ★ 0 | 45% | L2 | Create distinctive, production-grade frontend interfaces with high design qualit… |
+| [frontend-design](frontend-design/) | k0xxi | ★ 0 | 45% | L2 | Create distinctive, production-grade frontend interfaces with high design qualit… |
+| [frontend-design](frontend-design/) | ibbi1020 | ★ 0 | 45% | L2 | Create distinctive, production-grade frontend interfaces with high design qualit… |
+| [shadcn-ui](shadcn-ui/) | The-Baker-Street-Project | ★ 0 | 45% | L3 | Expert guidance for integrating and building applications with shadcn/ui compone… |
+| [shadcn-ui](shadcn-ui/) | Kjdragan | ★ 0 | 45% | L3 | Expert guidance for integrating and building applications with shadcn/ui compone… |
+| [backend-dev](backend-dev/) | julianromli | ★ 0 | 45% | L3 | Comprehensive backend development workflow that orchestrates expert analysis, ar… |
+| [backend-dev](backend-dev/) | NeverSight | ★ 0 | 45% | L3 | Comprehensive backend development workflow that orchestrates expert analysis, ar… |
+| [backend-dev](backend-dev/) | januarfonti | ★ 0 | 45% | L3 | Comprehensive backend development workflow that orchestrates expert analysis, ar… |
+| [senior-architect](senior-architect/) | zhizhunbao | ★ 0 | 45% | L3 | This skill should be used when the user asks to "design system architecture", "e… |
+| [senior-architect](senior-architect/) | duclm1x1 | ★ 0 | 45% | L3 | This skill should be used when the user asks to "design system architecture", "e… |
+| [nodejs-backend-patterns](nodejs-backend-patterns/) | gwickman | ★ 0 | 45% | L3 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
+| [nodejs-backend-patterns](nodejs-backend-patterns/) | zlzmm5188 | ★ 0 | 45% | L3 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
+| [elevenlabs](elevenlabs/) | OxFrancesco | ★ 0 | 45% | L3 | Generates audio using Eleven Labs API: TTS narration, sound effects, voice cloni… |
+| [lilhomie](lilhomie/) | ghostmfr | ★ 0 | 45% | L3 | Control HomeKit devices via REST API. Use when controlling lights, switches, sce… |
+| [prompt-optimizer](prompt-optimizer/) | ckanner | ★ 0 | 45% | L2 | This skill should be used when users request help optimizing, improving, or refi… |
+| [skill-refactor](skill-refactor/) | GinoNovello | ★ 0 | 45% | L3 | Transform and refactor existing skills by applying pattern substitutions (packag… |
+| [smiles_comprehensive_analysis](smiles_comprehensive_analysis/) | InternScience | ★ 0 | 45% | L3 | SMILES Comprehensive Analysis - Comprehensive SMILES analysis: validate, convert… |
+| [weather-forecaster](weather-forecaster/) | ypwu1 | ★ 0 | 45% | L3 | Use this skill whenever the user asks about weather forecasts, weather condition… |
+| [senior-fullstack](senior-fullstack/) | openclaw | ★ 0 | 45% | L3 | Fullstack development toolkit with project scaffolding for Next.js/FastAPI/MERN/… |
+| [cryptofeed](cryptofeed/) | 2025Emma | ★ 0 | 45% | L3 | Cryptofeed - Real-time cryptocurrency market data feeds from 40+ exchanges. WebS… |
+| [using-chdb](using-chdb/) | chdb-io | ★ 0 | 45% | L3 | Guide for using chdb, an in-process SQL OLAP engine powered by ClickHouse. Cover… |
+| [senior-fullstack](senior-fullstack/) | viralcode | ★ 0 | 45% | L3 | Fullstack development toolkit with project scaffolding for Next.js/FastAPI/MERN/… |
+| [senior-fullstack](senior-fullstack/) | Demerzels-lab | ★ 0 | 45% | L3 | Fullstack development toolkit with project scaffolding for Next.js/FastAPI/MERN/… |
+| [senior-fullstack](senior-fullstack/) | kbarbel640-del | ★ 0 | 45% | L3 | Fullstack development toolkit with project scaffolding for Next.js/FastAPI/MERN/… |
+| [senior-fullstack](senior-fullstack/) | Nuwanda04 | ★ 0 | 45% | L3 | Fullstack development toolkit with project scaffolding for Next.js/FastAPI/MERN/… |
+| [cryptofeed](cryptofeed/) | majiayu000 | ★ 0 | 45% | L3 | Cryptofeed - Real-time cryptocurrency market data feeds from 40+ exchanges. WebS… |
+| [cryptofeed](cryptofeed/) | aiskillstore | ★ 0 | 45% | L3 | Cryptofeed - Real-time cryptocurrency market data feeds from 40+ exchanges. WebS… |
+| [cryptofeed](cryptofeed/) | anliang0306 | ★ 0 | 45% | L3 | Cryptofeed - Real-time cryptocurrency market data feeds from 40+ exchanges. WebS… |
+| [cryptofeed](cryptofeed/) | tianzecn | ★ 0 | 45% | L3 | Cryptofeed - Real-time cryptocurrency market data feeds from 40+ exchanges. WebS… |
+| [uptime-kuma](uptime-kuma/) | YPYT1 | ★ 0 | 45% | L3 | Interact with Uptime Kuma monitoring server. Use for checking monitor status, ad… |
+| [arbiter](arbiter/) | YPYT1 | ★ 0 | 45% | L3 | Push decisions to Arbiter Zebu for async human review. Use when you need human i… |
+| [database-design-patterns](database-design-patterns/) | NickCrew | ★ 0 | 45% | L2 | Database schema design patterns and optimization strategies for relational and N… |
+| [nosql-expert](nosql-expert/) | boisenoise | ★ 0 | 45% | L3 | Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses o… |
+| [n8n-node-configuration](n8n-node-configuration/) | RJsolucoes | ★ 0 | 45% | L3 | Operation-aware node configuration guidance. Use when configuring nodes, underst… |
+| [clinvar-database](clinvar-database/) | LUNARTECH-X | ★ 0 | 45% | L3 | Query NCBI ClinVar for variant clinical significance. Search by gene/position, i… |
+| [clinvar-database](clinvar-database/) | Blurjp | ★ 0 | 45% | L3 | Query NCBI ClinVar for variant clinical significance. Search by gene/position, i… |
+| [clinvar-database](clinvar-database/) | Org-GAgent | ★ 0 | 45% | L3 | Query NCBI ClinVar for variant clinical significance. Search by gene/position, i… |
+| [n8n-node-configuration](n8n-node-configuration/) | engryamato | ★ 0 | 45% | L3 | Operation-aware node configuration guidance. Use when configuring nodes, underst… |
+| [n8n-node-configuration](n8n-node-configuration/) | nextgen-hms | ★ 0 | 45% | L3 | Operation-aware node configuration guidance. Use when configuring nodes, underst… |
+| [n8n-node-configuration](n8n-node-configuration/) | Spark014 | ★ 0 | 45% | L3 | Operation-aware node configuration guidance. Use when configuring nodes, underst… |
+| [n8n-node-configuration](n8n-node-configuration/) | e-docBR | ★ 0 | 45% | L3 | Operation-aware node configuration guidance. Use when configuring nodes, underst… |
+| [query-expert](query-expert/) | NeverSight | ★ 0 | 45% | L3 | Master SQL and database queries across multiple systems. Generate optimized quer… |
+| [prisma-database-setup](prisma-database-setup/) | HuynhSang2005 | ★ 0 | 45% | L3 | Guides for configuring Prisma with different database providers (PostgreSQL, MyS… |
+| [mongodb_usage](mongodb_usage/) | majiayu000 | ★ 0 | 45% | L3 | This skill should be used when user asks to "query MongoDB", "show database coll… |
+| [adr-writing](adr-writing/) | majiayu000 | ★ 0 | 45% | L3 | Write Architectural Decision Records following MADR template. Applies Definition… |
+| [koan-entity-first](koan-entity-first/) | sylin-org | ★ 0 | 45% | L2 | Entity<T> patterns, GUID v7 auto-generation, static methods vs manual repositori… |
+| [adr-writing](adr-writing/) | NeverSight | ★ 0 | 45% | L3 | Write Architectural Decision Records following MADR template. Applies Definition… |
+| [async-python-patterns](async-python-patterns/) | aiskillstore | ★ 0 | 45% | L3 | Master Python asyncio, concurrent programming, and async/await patterns for high… |
+| [async-python-patterns](async-python-patterns/) | majiayu000 | ★ 0 | 45% | L3 | Master Python asyncio, concurrent programming, and async/await patterns for high… |
+| [database-optimizer](database-optimizer/) | itsimonfredlingjack | ★ 0 | 45% | L2 | Expert database optimizer specializing in modern performance tuning, query optim… |
+| [golang-pro](golang-pro/) | harshahosur81 | ★ 0 | 45% | L2 | Master Go 1.21+ with modern patterns, advanced concurrency, performance optimiza… |
+| [health-check](health-check/) | allanninal | ★ 0 | 45% | L3 | Check health status of all running services and dependencies. Use when verifying… |
+| [n8n-node-configuration](n8n-node-configuration/) | sonson0910 | ★ 0 | 45% | L3 | Operation-aware node configuration guidance. Use when configuring nodes, underst… |
+| [fastapi-templates](fastapi-templates/) | TriNgo0108 | ★ 0 | 45% | L3 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
+| [async-python-patterns](async-python-patterns/) | TriNgo0108 | ★ 0 | 45% | L3 | Master Python asyncio, concurrent programming, and async/await patterns for high… |
+| [better-auth-specialist](better-auth-specialist/) | AnasAhmed001 | ★ 0 | 45% | L3 | Expert implementation of user authentication and authorization using Better Auth… |
+| [async-python-patterns](async-python-patterns/) | duanbiao2000 | ★ 0 | 45% | L3 | Master Python asyncio, concurrent programming, and async/await patterns for high… |
+| [designing-databases](designing-databases/) | majiayu000 | ★ 0 | 45% | L3 | データベーススキーマ設計と最適化を支援します。正規化戦略、インデックス設計、パフォーマンス最適化を提供します。データモデル設計、データベース構造の最適化が必要な… |
+| [secret-scanner](secret-scanner/) | keweikao | ★ 0 | 45% | L3 | 自動掃描程式碼中的敏感資訊。當準備 commit、編輯設定檔、新增環境變數、或建立 PR 時自動執行。檢測 API keys、tokens、密碼、資料庫連線字串… |
+| [probitas-info](probitas-info/) | majiayu000 | ★ 0 | 45% | L3 | Information about Probitas framework. Use when asked "what is Probitas", explain… |
+| [testcontainers-integration-tests](testcontainers-integration-tests/) | mcj-coder | ★ 0 | 45% | L3 | Use when integration tests require real infrastructure (database, message queue,… |
+| [mongodb-expert](mongodb-expert/) | cin12211 | ★ 0 | 45% | L3 | MongoDB document modeling, aggregation pipeline optimization, sharding strategie… |
+| [mongodb-expert](mongodb-expert/) | nhonvo | ★ 0 | 45% | L3 | MongoDB document modeling, aggregation pipeline optimization, sharding strategie… |
+| [api-docs-generator](api-docs-generator/) | armanzeroeight | ★ 0 | 45% | L3 | Generates API documentation from code including OpenAPI specs, JSDoc, and Python… |
+| [api-documentation-generator](api-documentation-generator/) | haotool | ★ 0 | 45% | L3 | Generate comprehensive, developer-friendly API documentation from code, includin… |
+| [graphql-architect](graphql-architect/) | itsimonfredlingjack | ★ 0 | 45% | L2 | Master modern GraphQL with federation, performance optimization, and enterprise … |
+| [API Documentation Generator](api-documentation-generator/) | sethdford | ★ 0 | 45% | L3 | Generate comprehensive API documentation for Confluence from code, OpenAPI specs… |
+| [api-design-principles](api-design-principles/) | JefersonCCJM | ★ 0 | 45% | L3 | Master REST and GraphQL API design principles to build intuitive, scalable, and … |
+| [api-design-principles](api-design-principles/) | jhonatan-cyber | ★ 0 | 45% | L3 | Master REST and GraphQL API design principles to build intuitive, scalable, and … |
+| [senior-backend](senior-backend/) | zhizhunbao | ★ 0 | 45% | L3 | This skill should be used when the user asks to "design REST APIs", "optimize da… |
+| [senior-backend](senior-backend/) | LannieYoo | ★ 0 | 45% | L3 | This skill should be used when the user asks to "design REST APIs", "optimize da… |
+| [payload](payload/) | NeverSight | ★ 0 | 45% | L3 | Use when working with Payload projects (payload.config.ts, collections, fields, … |
+| [mocking-assistant](mocking-assistant/) | majiayu000 | ★ 0 | 45% | L3 | Creates stable mocks for APIs, services, and UI components using MSW (Mock Servi… |
+| [rdc-endpoint-setup](rdc-endpoint-setup/) | NeverSight | ★ 0 | 45% | L3 | Set up @data-client/endpoint for custom async operations. Wraps existing async f… |
+| [api-patterns](api-patterns/) | NeverSight | ★ 0 | 45% | L3 | API design principles and decision-making. REST vs GraphQL vs tRPC selection, re… |
+| [api-patterns](api-patterns/) | ngxtm | ★ 0 | 45% | L3 | API design principles and decision-making. REST vs GraphQL vs tRPC selection, re… |
+| [web-scraping](web-scraping/) | NeverSight | ★ 0 | 45% | L3 | This skill activates for web scraping and Actor development. It proactively disc… |
+| [web-scraping](web-scraping/) | majiayu000 | ★ 0 | 45% | L3 | This skill activates for web scraping and Actor development. It proactively disc… |
+| [mongodb-development](mongodb-development/) | NeverSight | ★ 0 | 45% | L3 | MongoDB development guidelines with Payload CMS, Mongoose, aggregation pipelines… |
+| [vibe-security](vibe-security/) | NeverSight | ★ 0 | 45% | L3 | This skill helps Claude write secure web applications. Use when working on any w… |
+| [api-testing-patterns](api-testing-patterns/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive API testing patterns including contract testing, REST/GraphQL test… |
+| [api-testing-patterns](api-testing-patterns/) | fndlalit | ★ 0 | 45% | L3 | Comprehensive API testing patterns including contract testing, REST/GraphQL test… |
+| [mobile-guide](mobile-guide/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive mobile development guide for iOS, Android, React Native, and Flutt… |
+| [payload](payload/) | noklip-io | ★ 0 | 45% | L3 | Use when working with Payload CMS projects (payload.config.ts, collections, fiel… |
+| [payload](payload/) | Microck | ★ 0 | 45% | L3 | Use when working with Payload CMS projects (payload.config.ts, collections, fiel… |
+| [frontend-design-ultimate](frontend-design-ultimate/) | openclaw | ★ 0 | 45% | L3 | Create distinctive, production-grade static sites with React, Tailwind CSS, and … |
+| [web-frontend](web-frontend/) | deancochran | ★ 0 | 45% | L3 | Next.js App Router, Server/Client components, shadcn/ui patterns, Tailwind CSS c… |
+| [frontend-ui-dark-ts](frontend-ui-dark-ts/) | ngxtm | ★ 0 | 45% | L3 | Build dark-themed React applications using Tailwind CSS with custom theming, gla… |
+| [frontend-ui-dark-ts](frontend-ui-dark-ts/) | sonson0910 | ★ 0 | 45% | L3 | Build dark-themed React applications using Tailwind CSS with custom theming, gla… |
+| [frontend-ui-dark-ts](frontend-ui-dark-ts/) | boisenoise | ★ 0 | 45% | L3 | Build dark-themed React applications using Tailwind CSS with custom theming, gla… |
+| [frontend-design-ultimate](frontend-design-ultimate/) | Demerzels-lab | ★ 0 | 45% | L3 | Create distinctive, production-grade static sites with React, Tailwind CSS, and … |
+| [frontend-design-ultimate](frontend-design-ultimate/) | kbarbel640-del | ★ 0 | 45% | L3 | Create distinctive, production-grade static sites with React, Tailwind CSS, and … |
+| [frontend-design-ultimate](frontend-design-ultimate/) | aztr0nutzs | ★ 0 | 45% | L3 | Create distinctive, production-grade static sites with React, Tailwind CSS, and … |
+| [JIRA Integration](jira-integration/) | normcrandall | ★ 0 | 45% | L3 | Imports JIRA tickets (via API or web scraping) and converts them to local story … |
+| [http-kit](http-kit/) | majiayu000 | ★ 0 | 45% | L2 | http-kit is a HTTP client and server for Clojure with Ring compatibility. Use wh… |
+| [http-kit](http-kit/) | Ramblurr | ★ 0 | 45% | L2 | http-kit is a HTTP client and server for Clojure with Ring compatibility. Use wh… |
+| [learn-react-modern-underworld-beginner](learn-react-modern-underworld-beginner/) | canedy | ★ 0 | 45% | L3 | Interactive narrative learning session that teaches React through a Modern Under… |
+| [library-writer](library-writer/) | majiayu000 | ★ 0 | 45% | L3 | This skill should be used when writing software libraries, packages, or modules … |
+| [railway](railway/) | openclaw | ★ 0 | 45% | L3 | Deploy and manage applications on Railway.app. Use for deploying projects, manag… |
+| [nosql-databases](nosql-databases/) | iamjcabalejo | ★ 0 | 45% | L3 | Apply NoSQL best practices for MongoDB, Convex, and document databases. Use when… |
+| [memory-capture](memory-capture/) | Factory-AI | ★ 0 | 45% | L2 | Capture and organize memories, decisions, and learnings to a memories.md file. U… |
+| [cryptofeed](cryptofeed/) | majiayu000 | ★ 0 | 45% | L3 | Cryptofeed - Real-time cryptocurrency market data feeds from 40+ exchanges. WebS… |
+| [nodejs-backend-patterns](nodejs-backend-patterns/) | pelan05 | ★ 0 | 45% | L3 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
+| [nodejs-backend-patterns](nodejs-backend-patterns/) | alexisg24 | ★ 0 | 45% | L3 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
+| [railway](railway/) | Demerzels-lab | ★ 0 | 45% | L3 | Deploy and manage applications on Railway.app. Use for deploying projects, manag… |
+| [railway](railway/) | kbarbel640-del | ★ 0 | 45% | L3 | Deploy and manage applications on Railway.app. Use for deploying projects, manag… |
+| [railway](railway/) | duclm1x1 | ★ 0 | 45% | L3 | Deploy and manage applications on Railway.app. Use for deploying projects, manag… |
+| [railway](railway/) | YPYT1 | ★ 0 | 45% | L3 | Deploy and manage applications on Railway.app. Use for deploying projects, manag… |
+| [nosql-expert](nosql-expert/) | DarkThreat74 | ★ 0 | 45% | L3 | Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses o… |
+| [n8n-node-configuration](n8n-node-configuration/) | ngxtm | ★ 0 | 45% | L3 | Operation-aware node configuration guidance. Use when configuring nodes, underst… |
+| [api-design-principles](api-design-principles/) | coolguy1771 | ★ 0 | 45% | L3 | Master REST and GraphQL API design principles to build intuitive, scalable, and … |
+| [api-artifacts](api-artifacts/) | navraj007in | ★ 0 | 45% | L2 | Templates and rules for generating OpenAPI specs, Postman collections, AsyncAPI … |
+| [api-documentation-generator](api-documentation-generator/) | javiertarazon | ★ 0 | 45% | L3 | Generate comprehensive, developer-friendly API documentation from code, includin… |
+| [api-design-principles](api-design-principles/) | Microck | ★ 0 | 45% | L3 | Master REST and GraphQL API design principles to build intuitive, scalable, and … |
+| [rc-submarine-controller](rc-submarine-controller/) | mojoatomic | ★ 0 | 45% | L3 | Development skill for building a Raspberry Pi Pico-based RC submarine controller… |
+| [mobile-offline-support](mobile-offline-support/) | NeverSight | ★ 0 | 45% | L3 | Implement offline-first mobile apps with local storage, sync strategies, and con… |
+| [sentry-python-sdk](sentry-python-sdk/) | getsentry | ★ 0 | 45% | L3 | Full Sentry SDK setup for Python. Use when asked to "add Sentry to Python", "ins… |
+| [python-pro](python-pro/) | 404kidwiz | ★ 0 | 45% | L3 | Expert Python developer specializing in Python 3.11+ features, type annotations,… |
+| [python-best-practices](python-best-practices/) | excatt | ★ 0 | 45% | L3 | Python code review and best practices validation. Comprehensive analysis includi… |
+| [python-development](python-development/) | POWERFULMOVES | ★ 0 | 45% | L3 | Modern Python development with Python 3.12+, Django, FastAPI, async patterns, an… |
+| [python-development-python-scaffold](python-development-python-scaffold/) | ChinhQuach303 | ★ 0 | 45% | L3 | You are a Python project architecture expert specializing in scaffolding product… |
+| [python-development-python-scaffold](python-development-python-scaffold/) | netflyapp | ★ 0 | 45% | L3 | You are a Python project architecture expert specializing in scaffolding product… |
+| [python-testing](python-testing/) | faint45 | ★ 0 | 45% | L3 | Python testing strategies using pytest, TDD methodology, fixtures, mocking, para… |
+| [analyzing-projects](analyzing-projects/) | majiayu000 | ★ 0 | 45% | L3 | Analyzes codebases to understand structure, tech stack, patterns, and convention… |
+| [python-patterns](python-patterns/) | ngxtm | ★ 0 | 45% | L3 | Python development principles and decision-making. Framework selection, async pa… |
+| [python-testing](python-testing/) | AndyHsuTW | ★ 0 | 45% | L3 | Python testing strategies using pytest, TDD methodology, fixtures, mocking, para… |
+| [python-patterns](python-patterns/) | NeverSight | ★ 0 | 45% | L3 | Python development principles and decision-making. Framework selection, async pa… |
+| [testing-strategy-python](testing-strategy-python/) | tymoj | ★ 0 | 45% | L3 | Python/FastAPI/Django testing conventions. pytest, fixtures, httpx, TestClient, … |
+| [analyzing-projects](analyzing-projects/) | jiaxiaojunQAQ | ★ 0 | 45% | L3 | Analyzes codebases to understand structure, tech stack, patterns, and convention… |
+| [python-patterns](python-patterns/) | ollieb89 | ★ 0 | 45% | L3 | Python development principles and decision-making. Framework selection, async pa… |
+| [python-patterns](python-patterns/) | Dupente | ★ 0 | 45% | L3 | Python development principles and decision-making. Framework selection, async pa… |
+| [python-patterns](python-patterns/) | BeastAyyG | ★ 0 | 45% | L3 | Python development principles and decision-making. Framework selection, async pa… |
+| [python-development](python-development/) | ProjAnvil | ★ 0 | 45% | L3 | 专业的 Python 开发技能，涵盖现代 Python 3.10+、FastAPI、Django、Flask、异步编程、数据处理和最佳实践。使用此技能开发 Py… |
+| [auth0-quickstart](auth0-quickstart/) | chris-sev | ★ 0 | 45% | L3 | Use when starting Auth0 integration in any framework - detects your stack (React… |
+| [form_builder](form_builder/) | vuralserhat86 | ★ 0 | 45% | L3 | Builds form components and data collection interfaces including contact forms, r… |
+| [implementing-search-filter](implementing-search-filter/) | ancoleman | ★ 0 | 45% | L3 | Implements search and filter interfaces for both frontend (React/TypeScript) and… |
+| [fastapi-best-practices](fastapi-best-practices/) | LucasBiason | ★ 0 | 45% | L3 | FastAPI best practices e convenções baseadas em produção real. Aplicar em todos … |
+| [pyright-type-checker](pyright-type-checker/) | bobmatnyc | ★ 0 | 45% | L3 | Pyright fast Python type checker from Microsoft with VS Code integration and str… |
+| [python-patterns](python-patterns/) | rahlplx | ★ 0 | 45% | L3 | Python development principles and decision-making. Framework selection, async pa… |
+| [sentry-setup-metrics](sentry-setup-metrics/) | getsentry | ★ 0 | 45% | L3 | Setup Sentry Metrics in any project. Use this when asked to add Sentry metrics, … |
+| [python-pro](python-pro/) | marttp | ★ 0 | 45% | L2 | Use when user needs Python development help. Examples: "build a FastAPI service"… |
+| [codebase-mapper](codebase-mapper/) | darthmolen | ★ 0 | 45% | L3 | Generate a deterministic architecture map of Python, C#, and TypeScript codebase… |
+| [deepstack](deepstack/) | skinnyandbald | ★ 0 | 45% | L3 | Detects your project's full technology stack, then generates a comprehensive res… |
+| [code-analysis](code-analysis/) | josavicentevw | ★ 0 | 45% | L3 | Analyze code quality, detect code smells, identify bugs, and provide improvement… |
+| [run-app](run-app/) | Lartirigoyen | ★ 0 | 45% | L3 | Ejecuta aplicaciones detectando automáticamente el tipo de proyecto (Next.js, No… |
+| [setup-project](setup-project/) | doravidan | ★ 0 | 45% | L3 | Setup Claude Code Configuration with full RALPH autonomous development integrati… |
+| [prompt-enhancer](prompt-enhancer/) | SwiftyJunnos | ★ 0 | 45% | L3 | Enhance user prompts by analyzing project context (code structure, dependencies,… |
+| [dev_standards_skill](dev_standards_skill/) | biubiujch | ★ 0 | 45% | L3 | Development standards and architecture management skill. Enforces modular design… |
+| [prediction-tracking](prediction-tracking/) | rickoslyder | ★ 0 | 45% | L2 | Track and evaluate AI predictions over time to assess accuracy. Use when reviewi… |
+| [ui-ux-pro-max](ui-ux-pro-max/) | lamapony | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
+| [skill-finder](skill-finder/) | MooseGoose0701 | ★ 0 | 45% | L3 | Helps users discover and install agent skills from the open skills ecosystem (sk… |
+| [ui-ux-pro-max](ui-ux-pro-max/) | guanyang | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
+| [ui-ux-pro-max](ui-ux-pro-max/) | cacr92 | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
+| [frontend-design](frontend-design/) | heyAyushh | ★ 0 | 45% | L3 | Create distinctive, production-grade frontend interfaces with high design qualit… |
+| [skill-creator](skill-creator/) | gr8monk3ys | ★ 0 | 45% | L3 | Use this skill when creating new Claude Code skills, defining skill structures, … |
+| [Context7](context7/) | julianobarbosa | ★ 0 | 45% | L3 | Up-to-date library documentation and code examples from Context7. USE WHEN looki… |
+| [senior-fullstack](senior-fullstack/) | borghei | ★ 0 | 45% | L3 | Fullstack development toolkit with project scaffolding for Next.js/FastAPI/MERN/… |
+| [ui-ux-pro-max](ui-ux-pro-max/) | binhmuc | ★ 0 | 45% | L3 | Frontend UI/UX design intelligence - activate FIRST when user requests beautiful… |
+| [vercel-deploy-claimable](vercel-deploy-claimable/) | aiskillstore | ★ 0 | 45% | L3 | Deploy applications and websites to Vercel. Use this skill when the user request… |
+| [ui-ux-pro-max](ui-ux-pro-max/) | aiskillstore | ★ 0 | 45% | L3 | UI/UX 设计情报库：50 种风格、21 套配色、50 组字体搭配、20 类图表、8 个技术栈（React、Next.js、Vue、Svelte、SwiftU… |
+| [ui-ux-pro-max](ui-ux-pro-max/) | GML-FMGroup | ★ 0 | 45% | L3 | UI/UX design intelligence. 67 styles, 96 palettes, 57 font pairings, 25 charts, … |
+| [storybook-setup](storybook-setup/) | patricio0312rev | ★ 0 | 45% | L3 | Sets up Storybook for component documentation with controls, actions, accessibil… |
+| [software-frontend](software-frontend/) | vasilyu1983 | ★ 0 | 45% | L3 | Production-grade frontend engineering for Next.js/React, Vue/Nuxt, Angular, Svel… |
+| [auth0-fastify](auth0-fastify/) | auth0 | ★ 0 | 45% | L3 | Use when adding authentication to Fastify server-rendered web applications with … |
+| [ui-ux-pro-max](ui-ux-pro-max/) | lukebaze | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
+| [ui-ux-pro-max](ui-ux-pro-max/) | Dijnie | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
+| [ui-ux-pro-max](ui-ux-pro-max/) | Dijnie | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
+| [ui-ux-pro-max](ui-ux-pro-max/) | KignLeon | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
+| [ui-ux-pro-max](ui-ux-pro-max/) | Nir-Bhay | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
+| [playwright-core](playwright-core/) | NeverSight | ★ 0 | 45% | L3 | Battle-tested Playwright patterns for E2E, API, component, visual, accessibility… |
+| [skill-creator](skill-creator/) | gr8monk3ys | ★ 0 | 45% | L3 | Use this skill when creating new Claude Code skills, defining skill structures, … |
+| [skill-creator](skill-creator/) | gr8monk3ys | ★ 0 | 45% | L3 | Use this skill when creating new Claude Code skills, defining skill structures, … |
+| [skill-creator](skill-creator/) | gr8monk3ys | ★ 0 | 45% | L3 | Use this skill when creating new Claude Code skills, defining skill structures, … |
+| [skill-creator](skill-creator/) | gr8monk3ys | ★ 0 | 45% | L3 | Use this skill when creating new Claude Code skills, defining skill structures, … |
+| [senior-fullstack](senior-fullstack/) | mcauduro0 | ★ 0 | 45% | L3 | Fullstack development toolkit with project scaffolding for Next.js/FastAPI/MERN/… |
+| [senior-fullstack](senior-fullstack/) | salamientark | ★ 0 | 45% | L3 | Fullstack development toolkit with project scaffolding for Next.js/FastAPI/MERN/… |
+| [senior-fullstack](senior-fullstack/) | YPYT1 | ★ 0 | 45% | L3 | Fullstack development toolkit with project scaffolding for Next.js/FastAPI/MERN/… |
+| [ui-ux-pro-max](ui-ux-pro-max/) | Buu205 | ★ 0 | 45% | L3 | Frontend UI/UX design intelligence - activate FIRST when user requests beautiful… |
+| [ui-ux-pro-max](ui-ux-pro-max/) | Pygmalione | ★ 0 | 45% | L3 | Frontend UI/UX design intelligence - activate FIRST when user requests beautiful… |
+| [ui-ux-pro-max](ui-ux-pro-max/) | haduyson | ★ 0 | 45% | L3 | Frontend UI/UX design intelligence - activate FIRST when user requests beautiful… |
+| [ui-ux-pro-max](ui-ux-pro-max/) | lukebaze | ★ 0 | 45% | L3 | Frontend UI/UX design intelligence - activate FIRST when user requests beautiful… |
+| [vercel-deploy-claimable](vercel-deploy-claimable/) | bhaumikgohel | ★ 0 | 45% | L3 | Deploy applications and websites to Vercel. Use this skill when the user request… |
+| [vercel-deploy-claimable](vercel-deploy-claimable/) | RohanYashraj | ★ 0 | 45% | L3 | Deploy applications and websites to Vercel. Use this skill when the user request… |
+| [vercel-deploy-claimable](vercel-deploy-claimable/) | abmbodj | ★ 0 | 45% | L3 | Deploy applications and websites to Vercel. Use this skill when the user request… |
+| [ui-ux-pro-max](ui-ux-pro-max/) | nilaoda | ★ 0 | 45% | L3 | UI/UX design intelligence. 67 styles, 96 palettes, 57 font pairings, 25 charts, … |
+| [ui-ux-pro-max](ui-ux-pro-max/) | tkhwang | ★ 0 | 45% | L3 | UI/UX design intelligence. 67 styles, 96 palettes, 57 font pairings, 25 charts, … |
+| [ui-ux-pro-max](ui-ux-pro-max/) | MomoChenisMe | ★ 0 | 45% | L3 | UI/UX design intelligence. 67 styles, 96 palettes, 57 font pairings, 25 charts, … |
+| [ui-ux-pro-max](ui-ux-pro-max/) | zlzmm5188 | ★ 0 | 45% | L3 | UI/UX design intelligence. 67 styles, 96 palettes, 57 font pairings, 25 charts, … |
+| [ui-ux-pro-max](ui-ux-pro-max/) | pCruvinel | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
+| [ui-ux-pro-max](ui-ux-pro-max/) | mzf11125 | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
+| [ui-ux-pro-max](ui-ux-pro-max/) | mshraditya | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
+| [ui-ux-pro-max](ui-ux-pro-max/) | Lincyaw | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
+| [convex](convex/) | sickn33 | ★ 0 | 45% | L3 | Convex reactive backend expert: schema design, TypeScript functions, real-time s… |
+| [app-builder](app-builder/) | Tai-ch0802 | ★ 0 | 45% | L3 | Main application building orchestrator. Creates full-stack applications from nat… |
+| [auth0-nextjs](auth0-nextjs/) | chris-sev | ★ 0 | 45% | L3 | Use when adding authentication to Next.js applications with both server and clie… |
+| [app-builder](app-builder/) | theBrainly | ★ 0 | 45% | L3 | Main application building orchestrator. Creates full-stack applications from nat… |
+| [app-builder](app-builder/) | lCoNDel | ★ 0 | 45% | L3 | Main application building orchestrator. Creates full-stack applications from nat… |
+| [app-builder](app-builder/) | xiangteng007 | ★ 0 | 45% | L3 | Main application building orchestrator. Creates full-stack applications from nat… |
+| [app-builder](app-builder/) | dkskqkek | ★ 0 | 45% | L3 | Main application building orchestrator. Creates full-stack applications from nat… |
+| [bknd-client-setup](bknd-client-setup/) | cameronapak | ★ 0 | 45% | L3 | Use when setting up Bknd SDK in a frontend application. Covers Api class initial… |
+| [vercel-deploy-claimable](vercel-deploy-claimable/) | engryamato | ★ 0 | 45% | L3 | Deploy applications and websites to Vercel. Use this skill when the user request… |
+| [app-builder](app-builder/) | sonson0910 | ★ 0 | 45% | L3 | Main application building orchestrator. Creates full-stack applications from nat… |
+| [nextjs-shadcn-builder](nextjs-shadcn-builder/) | majiayu000 | ★ 0 | 45% | L3 | Build new Next.js applications or migrate existing frontends (React, Vue, Angula… |
+| [bknd-client-setup](bknd-client-setup/) | cameronapak | ★ 0 | 45% | L3 | Use when setting up Bknd SDK in a frontend application. Covers Api class initial… |
+| [bknd-client-setup](bknd-client-setup/) | cameronapak | ★ 0 | 45% | L3 | Use when setting up Bknd SDK in a frontend application. Covers Api class initial… |
+| [frontend-developer-skill](frontend-developer-skill/) | FardinMahadi | ★ 0 | 45% | L3 | Comprehensive frontend development specialist for building modern web applicatio… |
+| [python-core](python-core/) | aaronbassett | ★ 0 | 45% | L3 | Comprehensive Python development expertise covering modern best practices, type … |
+| [python-workflow](python-workflow/) | ilude | ★ 0 | 45% | L3 | Python project workflow guidelines. Triggers: .py, pyproject.toml, uv, pip, pyte… |
+| [python-patterns](python-patterns/) | sonson0910 | ★ 0 | 45% | L3 | Python development principles and decision-making. Framework selection, async pa… |
+| [python-patterns](python-patterns/) | corsal2025 | ★ 0 | 45% | L3 | Python development principles and decision-making. Framework selection, async pa… |
+| [python-patterns](python-patterns/) | boisenoise | ★ 0 | 45% | L3 | Python development principles and decision-making. Framework selection, async pa… |
+| [python-patterns](python-patterns/) | Tai-ch0802 | ★ 0 | 45% | L3 | Python development principles and decision-making. Framework selection, async pa… |
+| [python-patterns](python-patterns/) | xfstudio | ★ 0 | 45% | L3 | Python development principles and decision-making. Framework selection, async pa… |
+| [uvicorn](uvicorn/) | majiayu000 | ★ 0 | 45% | L3 | ASGI server for Python web applications - Fast, production-ready server for asyn… |
+| [claude-md-creator](claude-md-creator/) | NeverSight | ★ 0 | 45% | L3 | Use when creating CLAUDE.md files, updating existing CLAUDE.md, validating CLAUD… |
+| [analyzing-projects](analyzing-projects/) | majiayu000 | ★ 0 | 45% | L3 | Analyzes codebases to understand structure, tech stack, patterns, and convention… |
+| [setup-cdk-templates](setup-cdk-templates/) | majiayu000 | ★ 0 | 45% | L3 | Use when creating CLAUDE.md files or .claude/ directories - detects project type… |
+| [sentry-setup-logging](sentry-setup-logging/) | majiayu000 | ★ 0 | 45% | L3 | Setup Sentry Logging in any project. Use this when asked to add Sentry logs, ena… |
+| [Next.js](next.js/) | Tehminanaz | ★ 0 | 45% | L3 | CEO of Vercel and creator of Next.js. Master of Developer Experience (DX) and hi… |
+| [code-commenting](code-commenting/) | simonmkkk | ★ 0 | 45% | L3 | Comprehensive code commenting methodology for Python projects. Use when user ask… |
 | [annas-to-notebooklm](annas-to-notebooklm/) | zstmfhy | ★ 0 | 44% | L3 | 自动从 Anna's Archive 下载书籍并上传到 Google NotebookLM。支持 PDF/EPUB 格式，自动转换，一键创建知识库。 |
 | [annas-to-notebooklm](annas-to-notebooklm/) | NeverSight | ★ 0 | 44% | L3 | 自动从 Anna's Archive 下载书籍并上传到 Google NotebookLM。支持 PDF/EPUB 格式，自动转换，一键创建知识库。 |
 | [rtk-optimizer](rtk-optimizer/) | FlorianBruniaux | ★ 0 | 44% | L3 | Optimize command outputs with RTK (Rust Token Killer) for 70% token reduction |
@@ -3655,6 +4284,29 @@
 | [REST Assured API Testing](rest-assured-api-testing/) | omarrohit20 | ★ 0 | 44% | L2 | Java REST API testing with REST Assured including JSON schema validation |
 | [team-workflows](team-workflows/) | majiayu000 | ★ 0 | 44% | L3 | Team collaboration patterns - shared configs, standards, onboarding |
 | [team-workflows](team-workflows/) | majiayu000 | ★ 0 | 44% | L3 | Team collaboration patterns - shared configs, standards, onboarding |
+| [moai-security-identity](moai-security-identity/) | majiayu000 | ★ 0 | 44% | L3 | Enterprise Skill for advanced development |
+| [architecture-patterns](architecture-patterns/) | miles990 | ★ 0 | 44% | L3 | Software architecture patterns and best practices |
+| [architecture-patterns](architecture-patterns/) | devlitus | ★ 0 | 44% | L3 | Software architecture patterns and best practices |
+| [api-integration](api-integration/) | majiayu000 | ★ 0 | 44% | L3 | Generate Next.js App Router API routes with Zod validation and TypeScript types |
+| [api-integration](api-integration/) | mshafei721 | ★ 0 | 44% | L3 | Generate Next.js App Router API routes with Zod validation and TypeScript types |
+| [api-integration](api-integration/) | majiayu000 | ★ 0 | 44% | L3 | Generate Next.js App Router API routes with Zod validation and TypeScript types |
+| [Error Shape Taxonomy](error-shape-taxonomy/) | AmnadTaowsoam | ★ 0 | 44% | L3 | Organization-wide standard error response format covering error codes, |
+| [Websocket Patterns](websocket-patterns/) | AmnadTaowsoam | ★ 0 | 44% | L3 | WebSocket is a communication protocol that provides full-duplex communication |
+| [Data Preprocessing](data-preprocessing/) | AmnadTaowsoam | ★ 0 | 44% | L3 | Data preprocessing is a critical step in machine learning pipelines that |
+| [Ml Serving](ml-serving/) | AmnadTaowsoam | ★ 0 | 44% | L3 | Model serving deploys ML models for predictions. This guide covers REST |
+| [Problem Framing](problem-framing/) | AmnadTaowsoam | ★ 0 | 44% | L3 | Problem framing is the critical first step before any implementation, |
+| [Adaptive Bitrate](adaptive-bitrate/) | AmnadTaowsoam | ★ 0 | 44% | L3 | Adaptive Bitrate (ABR) streaming automatically adjusts video quality |
+| [Rabbitmq Patterns](rabbitmq-patterns/) | AmnadTaowsoam | ★ 0 | 44% | L3 | Comprehensive guide to RabbitMQ messaging patterns and best practices |
+| [Webassembly Patterns](webassembly-patterns/) | AmnadTaowsoam | ★ 0 | 44% | L3 | WebAssembly enables near-native performance in browsers, serverless, |
+| [Hubspot Integration](hubspot-integration/) | AmnadTaowsoam | ★ 0 | 44% | L3 | HubSpot is an inbound marketing and sales platform with comprehensive |
+| [Disaster Recovery](disaster-recovery/) | AmnadTaowsoam | ★ 0 | 44% | L3 | 'Disaster Recovery encompasses strategies and procedures for recovering |
+| [Invoice Generation](invoice-generation/) | AmnadTaowsoam | ★ 0 | 44% | L3 | This skill provides comprehensive patterns for generating invoices in |
+| [Conversion Optimization](conversion-optimization/) | AmnadTaowsoam | ★ 0 | 44% | L3 | 'Conversion Rate Optimization (CRO) is the systematic process of increasing |
+| [Incident Retrospective](incident-retrospective/) | AmnadTaowsoam | ★ 0 | 44% | L3 | A postmortem (also called incident review or retrospective) is a structured |
+| [Model Bom Security](model-bom-security/) | AmnadTaowsoam | ★ 0 | 44% | L3 | AI Supply Chain Security extends beyond IoT device security (Skill 76-80) |
+| [Technical Content Marketing](technical-content-marketing/) | AmnadTaowsoam | ★ 0 | 44% | L3 | '* **Depends on**: None * **Compatible with**: None * **Conflicts with**: |
+| [Product Roadmap Communication](product-roadmap-communication/) | AmnadTaowsoam | ★ 0 | 44% | L3 | Product Roadmap Communication enables creation and communication of product |
+| [Product Analytics Implementation](product-analytics-implementation/) | AmnadTaowsoam | ★ 0 | 44% | L3 | Product Analytics Implementation enables systematic tracking, measurement, |
 | [dataverse-python-best-practices](dataverse-python-best-practices/) | pingqLIN | ★ 0 | 43% | L3 | dataverse-python-best-practices guidelines |
 | [tauri-svelte-typescript-general](tauri-svelte-typescript-general/) | majiayu000 | ★ 0 | 43% | L3 | General rules for developing desktop applications using Tauri with Svelte and Ty… |
 | [history-and-next-task-rules](history-and-next-task-rules/) | oimiragieo | ★ 0 | 43% | L3 | Specifies the format for ending responses, including a summary of requirements, … |
@@ -3757,568 +4409,6 @@
 | [shadcn-svelte](shadcn-svelte/) | digi4care | ★ 0 | 41% | L3 | shadcn-svelte component library - install Button, Card, Dialog, Form, Table comp… |
 | [faion-software-developer](faion-software-developer/) | NeverSight | ★ 0 | 41% | L3 | Full-stack development: Python, JavaScript, Go, APIs, testing, frontend. |
 | [web-artifacts-builder](web-artifacts-builder/) | nkhcloud | ★ 0 | 41% | L3 | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts … |
-| [web-artifacts-builder](web-artifacts-builder/) | SpencerGeee | ★ 0 | 41% | L3 | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts … |
-| [web-artifacts-builder](web-artifacts-builder/) | MICHAEL-BODO | ★ 0 | 41% | L3 | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts … |
-| [artifacts-builder](artifacts-builder/) | Crumbgrabber | ★ 0 | 41% | L2 | Suite of tools for creating elaborate, multi-component HTML |
-| [award-winning-designer](award-winning-designer/) | 0-CYBERDYNE-SYSTEMS-0 | ★ 0 | 41% | L3 | The 'Awwwards Singularity' - Transforms websites into breathtaking |
-| [mobile_react_native](mobile_react_native/) | vuralserhat86 | ★ 0 | 41% | L3 | React Native best practices, hooks, navigation ve performance optimization. |
-| [tech-advisor](tech-advisor/) | majiayu000 | ★ 0 | 41% | L3 | Recomienda stack tecnológico óptimo basado en requisitos del proyecto |
-| [cc-skill-project-guidelines-example](cc-skill-project-guidelines-example/) | whodaniel | ★ 0 | 41% | L3 | Project Guidelines Skill (Example) |
-| [tech-advisor](tech-advisor/) | majiayu000 | ★ 0 | 41% | L3 | Recomienda stack tecnológico óptimo basado en requisitos del proyecto |
-| [api-design](api-design/) | SPeeDoA1 | ★ 0 | 41% | L3 | RESTful and GraphQL API design patterns and best practices |
-| [project-init](project-init/) | mattnigh | ★ 0 | 41% | L3 | Initialize projects with AI Dev Flow framework using domain-aware setup |
-| [api-design](api-design/) | enact-on | ★ 0 | 41% | L3 | REST API, GraphQL, and API design patterns and best practices |
-| [api-design](api-design/) | jsmithdenverdev | ★ 0 | 41% | L3 | RESTful and GraphQL API design principles, patterns, and best practices |
-| [api-documenter](api-documenter/) | angga30 | ★ 0 | 41% | L2 | Master API documentation with OpenAPI 3.1, AI-powered tools, and |
-| [api-integration](api-integration/) | huhuimike85 | ★ 0 | 41% | L3 | API 集成和设计最佳实践。用于设计、实现和优化 RESTful API、GraphQL API 或其他 API 集成。包括错误处理、认证、限流、版本控制等。 |
-| [getblock](getblock/) | hairyf | ★ 0 | 41% | L3 | GetBlock — RPC node and API access for 100+ blockchains; authentication, endpoin… |
-| [api-tester](api-tester/) | majiayu000 | ★ 0 | 41% | L3 | Quick API endpoint testing with comprehensive request/response validation. |
-| [cs-guide-writer](cs-guide-writer/) | younwony | ★ 0 | 41% | L3 | CS 학습 문서를 작성합니다. "오늘의 CS", "CS 정리", "{주제} 정리해줘", "최근 이슈 CS" 요청 시 사용하세요. |
-| [django-pro](django-pro/) | ngxtm | ★ 0 | 41% | L2 | Master Django 5.x with async views, DRF, Celery, and Django |
-| [django-pro](django-pro/) | corsal2025 | ★ 0 | 41% | L2 | Master Django 5.x with async views, DRF, Celery, and Django |
-| [django-pro](django-pro/) | corsal2025 | ★ 0 | 41% | L2 | Master Django 5.x with async views, DRF, Celery, and Django |
-| [api-tester](api-tester/) | aiskillstore | ★ 0 | 41% | L3 | Quick API endpoint testing with comprehensive request/response validation. |
-| [api-tester](api-tester/) | NeverSight | ★ 0 | 41% | L3 | Quick API endpoint testing with comprehensive request/response validation. |
-| [api-tester](api-tester/) | majiayu000 | ★ 0 | 41% | L3 | Quick API endpoint testing with comprehensive request/response validation. |
-| [api-framework-express](api-framework-express/) | agents-inc | ★ 0 | 41% | L3 | Express.js routes, middleware, error handling, request/response patterns |
-| [microservices-patterns](microservices-patterns/) | mattmre | ★ 0 | 41% | L3 | Design microservices architectures with service boundaries, |
-| [faion-backend-systems](faion-backend-systems/) | majiayu000 | ★ 0 | 41% | L3 | Systems backends: Go, Rust, databases, caching. |
-| [faion-backend-systems](faion-backend-systems/) | faionfaion | ★ 0 | 41% | L3 | Systems backends: Go, Rust, databases, caching. |
-| [faion-backend-systems](faion-backend-systems/) | majiayu000 | ★ 0 | 41% | L3 | Systems backends: Go, Rust, databases, caching. |
-| [project-scaffolding](project-scaffolding/) | seqis | ★ 0 | 41% | L3 | Project scaffolding and boilerplate generation for new codebases |
-| [api-design](api-design/) | openkoi-ai | ★ 0 | 41% | L2 | Is the API self-documenting with clear contracts? |
-| [senior-backend](senior-backend/) | jasonmichaelbell78-creator | ★ 0 | 41% | L3 | Complete toolkit for senior backend with modern tools and best practices. |
-| [flutter-expert](flutter-expert/) | rootcastleco | ★ 0 | 41% | L2 | Master Flutter development with Dart 3, advanced widgets, and |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | ranbot-ai | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [iikit-07-analyze](iikit-07-analyze/) | asm0dey | ★ 0 | 41% | L3 | Validate cross-artifact consistency between spec, plan, and tasks |
-| [documentation](documentation/) | pluginagentmarketplace | ★ 0 | 41% | L3 | API documentation with OpenAPI and developer portals |
-| [scala-pro](scala-pro/) | majiayu000 | ★ 0 | 41% | L2 | Master enterprise-grade Scala development with functional |
-| [MongoDB Best Practices](mongodb-best-practices/) | HoangNguyen0403 | ★ 0 | 41% | L3 | Expert rules for schema design, indexing, and performance in MongoDB (NoSQL). |
-| [database-connect](database-connect/) | majiayu000 | ★ 0 | 41% | L3 | Database MCP server integration for PostgreSQL, MySQL, MongoDB |
-| [sql-pro](sql-pro/) | rmyndharis | ★ 0 | 41% | L2 | Master modern SQL with cloud-native databases, OLTP/OLAP |
-| [database-expert-advisor](database-expert-advisor/) | majiayu000 | ★ 0 | 41% | L3 | Database design, optimization, and operations expert |
-| [create-spring-boot-java-project](create-spring-boot-java-project/) | github | ★ 0 | 41% | L3 | Create Spring Boot Java Project Skeleton |
-| [Database](database/) | majiayu000 | ★ 0 | 41% | L3 | ทำงานกับ PostgreSQL และ MongoDB อย่างมีประสิทธิภาพ |
-| [database-advanced-optimization](database-advanced-optimization/) | majiayu000 | ★ 0 | 41% | L3 | Use SQL (PostgreSQL) when: |
-| [create-spring-boot-kotlin-project](create-spring-boot-kotlin-project/) | github | ★ 0 | 41% | L3 | Create Spring Boot Kotlin Project Skeleton |
-| [context7-usage](context7-usage/) | alfredolopez80 | ★ 0 | 41% | L3 | Patterns for using Context7 MCP for library documentation (v2.25) |
-| [Storage](storage/) | openclaw | ★ 0 | 41% | L2 | Choose and architect storage systems for applications with the right tradeoffs. |
-| [database-optimizer](database-optimizer/) | NeverSight | ★ 0 | 41% | L2 | Expert database optimizer specializing in modern performance |
-| [database-connect](database-connect/) | manastalukdar | ★ 0 | 41% | L3 | Database MCP server integration for PostgreSQL, MySQL, MongoDB |
-| [database-connect](database-connect/) | majiayu000 | ★ 0 | 41% | L3 | Database MCP server integration for PostgreSQL, MySQL, MongoDB |
-| [sql-pro](sql-pro/) | NeverSight | ★ 0 | 41% | L2 | Master modern SQL with cloud-native databases, OLTP/OLAP |
-| [sql-pro](sql-pro/) | andre-sugai | ★ 0 | 41% | L2 | Master modern SQL with cloud-native databases, OLTP/OLAP |
-| [sql-pro](sql-pro/) | majiayu000 | ★ 0 | 41% | L2 | Master modern SQL with cloud-native databases, OLTP/OLAP |
-| [sql-pro](sql-pro/) | Alexsander532 | ★ 0 | 41% | L2 | Master modern SQL with cloud-native databases, OLTP/OLAP |
-| [database-expert-advisor](database-expert-advisor/) | majiayu000 | ★ 0 | 41% | L3 | Database design, optimization, and operations expert |
-| [create-spring-boot-java-project](create-spring-boot-java-project/) | NeverSight | ★ 0 | 41% | L3 | Create Spring Boot Java Project Skeleton |
-| [create-spring-boot-java-project](create-spring-boot-java-project/) | Gabeujin | ★ 0 | 41% | L3 | Create Spring Boot Java Project Skeleton |
-| [create-spring-boot-java-project](create-spring-boot-java-project/) | sla-te | ★ 0 | 41% | L3 | Create Spring Boot Java Project Skeleton |
-| [Database](database/) | saknarinZ | ★ 0 | 41% | L3 | ทำงานกับ PostgreSQL และ MongoDB อย่างมีประสิทธิภาพ |
-| [Database](database/) | majiayu000 | ★ 0 | 41% | L3 | ทำงานกับ PostgreSQL และ MongoDB อย่างมีประสิทธิภาพ |
-| [database-advanced-optimization](database-advanced-optimization/) | majiayu000 | ★ 0 | 41% | L3 | Use SQL (PostgreSQL) when: |
-| [create-spring-boot-kotlin-project](create-spring-boot-kotlin-project/) | NeverSight | ★ 0 | 41% | L3 | Create Spring Boot Kotlin Project Skeleton |
-| [create-spring-boot-kotlin-project](create-spring-boot-kotlin-project/) | Gabeujin | ★ 0 | 41% | L3 | Create Spring Boot Kotlin Project Skeleton |
-| [create-spring-boot-kotlin-project](create-spring-boot-kotlin-project/) | williamlimasilva | ★ 0 | 41% | L3 | Create Spring Boot Kotlin Project Skeleton |
-| [create-spring-boot-kotlin-project](create-spring-boot-kotlin-project/) | sla-te | ★ 0 | 41% | L3 | Create Spring Boot Kotlin Project Skeleton |
-| [context7-usage](context7-usage/) | majiayu000 | ★ 0 | 41% | L3 | Patterns for using Context7 MCP for library documentation (v2.25) |
-| [database-optimizer](database-optimizer/) | sonson0910 | ★ 0 | 41% | L2 | Expert database optimizer specializing in modern performance |
-| [database-optimizer](database-optimizer/) | javiertarazon | ★ 0 | 41% | L2 | Expert database optimizer specializing in modern performance |
-| [database-optimizer](database-optimizer/) | BhurkeSiddhesh | ★ 0 | 41% | L2 | Expert database optimizer specializing in modern performance |
-| [database-optimizer](database-optimizer/) | majiayu000 | ★ 0 | 41% | L2 | Expert database optimizer specializing in modern performance |
-| [database-optimizer](database-optimizer/) | Baooooooo0 | ★ 0 | 41% | L2 | Expert database optimizer specializing in modern performance |
-| [database-optimizer](database-optimizer/) | netflyapp | ★ 0 | 41% | L2 | Expert database optimizer specializing in modern performance |
-| [performance-hunter](performance-hunter/) | j0KZ | ★ 0 | 41% | L3 | Find and fix performance bottlenecks in ANY language or framework |
-| [plan](plan/) | overthestream | ★ 0 | 41% | L3 | 아키텍처 설계 단계. specify 체크포인트를 참조하여 기술적 설계를 수행하고 plan 체크포인트를 생성합니다. |
-| [NoSQL Patterns](nosql-patterns/) | tuyenht | ★ 0 | 41% | L3 | Các mẫu tối ưu cho cơ sở dữ liệu NoSQL (MongoDB, Redis và hệ phân tán đa). |
-| [create-auth-skill](create-auth-skill/) | husamql3 | ★ 0 | 41% | L3 | Skill for creating auth layers in TypeScript/JavaScript apps using Better Auth. |
-| [review-changes](review-changes/) | duc01226 | ★ 0 | 41% | L3 | [Review & Quality] Review all uncommitted changes before commit |
-| [minecraft-bukkit-pro](minecraft-bukkit-pro/) | rootcastleco | ★ 0 | 41% | L2 | Master Minecraft server plugin development with Bukkit, Spigot, and |
-| [ln-774-healthcheck-setup](ln-774-healthcheck-setup/) | majiayu000 | ★ 0 | 41% | L3 | Configures health check endpoints for Kubernetes readiness/liveness/startup |
-| [create-auth-skill](create-auth-skill/) | mauricioacp | ★ 0 | 41% | L3 | Skill for creating auth layers in TypeScript/JavaScript apps using Better Auth. |
-| [create-auth-skill](create-auth-skill/) | memorysaver | ★ 0 | 41% | L3 | Skill for creating auth layers in TypeScript/JavaScript apps using Better Auth. |
-| [create-auth-skill](create-auth-skill/) | Dawaman43 | ★ 0 | 41% | L3 | Skill for creating auth layers in TypeScript/JavaScript apps using Better Auth. |
-| [create-auth-skill](create-auth-skill/) | metaloozee | ★ 0 | 41% | L3 | Skill for creating auth layers in TypeScript/JavaScript apps using Better Auth. |
-| [review-changes](review-changes/) | NeverSight | ★ 0 | 41% | L3 | [Review & Quality] Review all uncommitted changes before commit |
-| [ln-774-healthcheck-setup](ln-774-healthcheck-setup/) | majiayu000 | ★ 0 | 41% | L3 | Configures health check endpoints for Kubernetes readiness/liveness/startup |
-| [codebase-analyzer](codebase-analyzer/) | JuniYadi | ★ 0 | 41% | L3 | Understand existing codebase patterns and context to inform feature judgement. |
-| [mj2-create-skill](mj2-create-skill/) | mjcuadrado | ★ 0 | 41% | L3 | Crea una nueva skill de conocimiento siguiendo patrones mj2 |
-| [enkaku:discover](enkaku-discover/) | TairuFramework | ★ 0 | 41% | L3 | Explore Enkaku capabilities by domain or use case |
-| [mobile-security-coder](mobile-security-coder/) | ngxtm | ★ 0 | 41% | L2 | Expert in secure mobile coding practices specializing in input |
-| [mobile-security-coder](mobile-security-coder/) | avdelag1 | ★ 0 | 41% | L2 | Expert in secure mobile coding practices specializing in input |
-| [mobile-security-coder](mobile-security-coder/) | javiertarazon | ★ 0 | 41% | L2 | Expert in secure mobile coding practices specializing in input |
-| [api](api/) | spaethtech | ★ 0 | 41% | L3 | Guidelines for the sveltekit-auth library architecture |
-| [MongoDB with Mongoose](mongodb-with-mongoose/) | yuramedia | ★ 0 | 41% | L3 | Database patterns for user data and credentials storage |
-| [stride-analysis-patterns](stride-analysis-patterns/) | mattmre | ★ 0 | 41% | L3 | Apply STRIDE methodology to systematically identify threats. Use |
-| [python-testing](python-testing/) | affaan-m | ★ 0 | 41% | L3 | 使用pytest、TDD方法、夹具、模拟、参数化和覆盖率要求的Python测试策略。 |
-| [apify](apify/) | gsarmaonline | ★ 0 | 41% | L3 | Generate comprehensive API documentation from route definitions and types |
-| [faion-python-developer](faion-python-developer/) | majiayu000 | ★ 0 | 41% | L3 | Python development: Django, FastAPI, async patterns, testing, type hints. |
-| [perplexity-search](perplexity-search/) | parcadei | ★ 0 | 41% | L3 | AI-powered web search, research, and reasoning via Perplexity |
-| [python-development](python-development/) | plurigrid | ★ 0 | 41% | L3 | Modern Python development with Python 3.12+, Django, FastAPI, async patterns, |
-| [python-pro](python-pro/) | corsal2025 | ★ 0 | 41% | L3 | Master Python 3.12+ with modern features, async programming, |
-| [python-pro](python-pro/) | corsal2025 | ★ 0 | 41% | L3 | Master Python 3.12+ with modern features, async programming, |
-| [python-pro](python-pro/) | javiertarazon | ★ 0 | 41% | L3 | Master Python 3.12+ with modern features, async programming, |
-| [python-testing](python-testing/) | kriegcloud | ★ 0 | 41% | L3 | 使用pytest、TDD方法、夹具、模拟、参数化和覆盖率要求的Python测试策略。 |
-| [python-testing](python-testing/) | haniakrim21 | ★ 0 | 41% | L3 | 使用pytest、TDD方法、夹具、模拟、参数化和覆盖率要求的Python测试策略。 |
-| [python-testing](python-testing/) | drixxodev | ★ 0 | 41% | L3 | 使用pytest、TDD方法、夹具、模拟、参数化和覆盖率要求的Python测试策略。 |
-| [python-testing](python-testing/) | chadmarkey | ★ 0 | 41% | L3 | 使用pytest、TDD方法、夹具、模拟、参数化和覆盖率要求的Python测试策略。 |
-| [faion-python-developer](faion-python-developer/) | faionfaion | ★ 0 | 41% | L3 | Python development: Django, FastAPI, async patterns, testing, type hints. |
-| [faion-python-developer](faion-python-developer/) | majiayu000 | ★ 0 | 41% | L3 | Python development: Django, FastAPI, async patterns, testing, type hints. |
-| [perplexity-search](perplexity-search/) | NeverSight | ★ 0 | 41% | L3 | AI-powered web search, research, and reasoning via Perplexity |
-| [perplexity-search](perplexity-search/) | majiayu000 | ★ 0 | 41% | L3 | AI-powered web search, research, and reasoning via Perplexity |
-| [code-assistant](code-assistant/) | farabi1038 | ★ 0 | 41% | L3 | Expert coding assistant for writing, reviewing, and debugging code across multip… |
-| [tech-stack-evaluator](tech-stack-evaluator/) | majiayu000 | ★ 0 | 41% | L3 | Auto-activates during requirements analysis to evaluate technical stack |
-| [dev-builder](dev-builder/) | zinohome | ★ 0 | 41% | L3 | 全栈开发工程师技能包，负责根据产品需求文档和原型图实现功能代码。涵盖技术栈选择、项目初始化、功能实现、代码质量控制和功能验证。 |
-| [tech-stack-evaluator](tech-stack-evaluator/) | matteocervelli | ★ 0 | 41% | L3 | Auto-activates during requirements analysis to evaluate technical stack |
-| [tech-stack-evaluator](tech-stack-evaluator/) | NeverSight | ★ 0 | 41% | L3 | Auto-activates during requirements analysis to evaluate technical stack |
-| [tech-stack-evaluator](tech-stack-evaluator/) | majiayu000 | ★ 0 | 41% | L3 | Auto-activates during requirements analysis to evaluate technical stack |
-| [python](python/) | enact-on | ★ 0 | 41% | L3 | Python, FastAPI, Django, and Flask development patterns and best practices |
-| [python-testing](python-testing/) | ndhananj | ★ 0 | 41% | L3 | 使用pytest、TDD方法、夹具、模拟、参数化和覆盖率要求的Python测试策略。 |
-| [backend-development](backend-development/) | darthlinuxer | ★ 0 | 41% | L3 | Build robust backend systems with modern technologies (Node.js, Python, |
-| [perplexity-search](perplexity-search/) | tfunk1030 | ★ 0 | 41% | L3 | AI-powered web search, research, and reasoning via Perplexity |
-| [speckit-00-constitution](speckit-00-constitution/) | majiayu000 | ★ 0 | 41% | L3 | Create or update project governance principles and constitution |
-| [backend-development](backend-development/) | majiayu000 | ★ 0 | 41% | L3 | Build robust backend systems with modern technologies (Node.js, Python, |
-| [faion-api-developer](faion-api-developer/) | faionfaion | ★ 0 | 41% | L3 | API development: REST, GraphQL, OpenAPI, versioning, auth, rate limiting. |
-| [faion-api-developer](faion-api-developer/) | majiayu000 | ★ 0 | 41% | L3 | API development: REST, GraphQL, OpenAPI, versioning, auth, rate limiting. |
-| [speckit-00-constitution](speckit-00-constitution/) | majiayu000 | ★ 0 | 41% | L3 | Create or update project governance principles and constitution |
-| [code-optimize](code-optimize/) | majiayu000 | ★ 0 | 41% | L3 | Analyze and optimize code for performance, memory, and efficiency |
-| [ring:pre-dev-research](ring-pre-dev-research/) | LerianStudio | ★ 0 | 41% | L3 | Connecting systems or adding external dependencies |
-| [config-generate](config-generate/) | majiayu000 | ★ 0 | 41% | L3 | Generate configuration files for development tools |
-| [config-generate](config-generate/) | majiayu000 | ★ 0 | 41% | L3 | Generate configuration files for development tools |
-| [Better Auth Best Practices](better-auth-best-practices/) | kriegcloud | ★ 0 | 41% | L3 | A skill to integrate better-auth. And auth framework for TypeScript projects. |
-| [python-pro](python-pro/) | sonson0910 | ★ 0 | 41% | L3 | Master Python 3.12+ with modern features, async programming, |
-| [python-testing](python-testing/) | Nixdorfer | ★ 0 | 41% | L3 | 使用pytest、TDD方法、夹具、模拟、参数化和覆盖率要求的Python测试策略。 |
-| [implementation](implementation/) | Objective-Arts | ★ 0 | 41% | L3 | Implement code from plan. Max 30 lines per function. No vague names. |
-| [implementation](implementation/) | Objective-Arts | ★ 0 | 41% | L3 | Implement code from plan. Max 30 lines per function. No vague names. |
-| [migrate](migrate/) | parcadei | ★ 0 | 41% | L2 | Migration workflow - research → analyze → plan → implement → review |
-| [NestJS Database](nestjs-database/) | ngxtm | ★ 0 | 41% | L3 | Data access patterns, Scaling, Migrations, and ORM selection. |
-| [database-architect](database-architect/) | sonson0910 | ★ 0 | 41% | L2 | Expert database architect specializing in data layer design from |
-| [database-architect](database-architect/) | Iowa51 | ★ 0 | 41% | L2 | Expert database architect specializing in data layer design from |
-| [create-spring-boot-java-project](create-spring-boot-java-project/) | williamlimasilva | ★ 0 | 41% | L3 | Create Spring Boot Java Project Skeleton |
-| [database-optimizer](database-optimizer/) | corsal2025 | ★ 0 | 41% | L2 | Expert database optimizer specializing in modern performance |
-| [database-optimizer](database-optimizer/) | corsal2025 | ★ 0 | 41% | L2 | Expert database optimizer specializing in modern performance |
-| [database-optimizer](database-optimizer/) | Superesty | ★ 0 | 41% | L2 | Expert database optimizer specializing in modern performance |
-| [migrate](migrate/) | NeverSight | ★ 0 | 41% | L2 | Migration workflow - research → analyze → plan → implement → review |
-| [migrate](migrate/) | majiayu000 | ★ 0 | 41% | L2 | Migration workflow - research → analyze → plan → implement → review |
-| [NestJS Database](nestjs-database/) | ngxtm | ★ 0 | 41% | L3 | Data access patterns, Scaling, Migrations, and ORM selection. |
-| [database-architect](database-architect/) | javiertarazon | ★ 0 | 41% | L2 | Expert database architect specializing in data layer design from |
-| [database-architect](database-architect/) | xiangteng007 | ★ 0 | 41% | L2 | Expert database architect specializing in data layer design from |
-| [database-architect](database-architect/) | AristidesAI | ★ 0 | 41% | L2 | Expert database architect specializing in data layer design from |
-| [database-architect](database-architect/) | Superesty | ★ 0 | 41% | L2 | Expert database architect specializing in data layer design from |
-| [database-architect](database-architect/) | abmbodj | ★ 0 | 41% | L2 | Expert database architect specializing in data layer design from |
-| [django-pro](django-pro/) | sonson0910 | ★ 0 | 41% | L2 | Master Django 5.x with async views, DRF, Celery, and Django |
-| [bootstrap-phase-workflow](bootstrap-phase-workflow/) | mathonsunday | ★ 0 | 41% | L3 | Integrate the vibe/mature phase workflow into a project |
-| [Better Auth Best Practices](better-auth-best-practices/) | viclafouch | ★ 0 | 41% | L3 | A skill to integrate better-auth. And auth framework for TypeScript projects. |
-| [Better Auth Best Practices](better-auth-best-practices/) | LucaNerlich | ★ 0 | 41% | L3 | A skill to integrate better-auth. And auth framework for TypeScript projects. |
-| [Better Auth Best Practices](better-auth-best-practices/) | hasparus | ★ 0 | 41% | L3 | A skill to integrate better-auth. And auth framework for TypeScript projects. |
-| [ring:pre-dev-research](ring-pre-dev-research/) | LerianStudio | ★ 0 | 41% | L3 | Connecting systems or adding external dependencies |
-| [boot-templates](boot-templates/) | kirklin | ★ 0 | 41% | L3 | A collection of modern, opinionated starter templates for various frameworks and… |
-| [create-auth-skill](create-auth-skill/) | futuregerald | ★ 0 | 41% | L3 | Skill for creating auth layers in TypeScript/JavaScript apps using Better Auth. |
-| [boilerplate](boilerplate/) | majiayu000 | ★ 0 | 41% | L3 | Generate framework-specific boilerplate code |
-| [create-auth-skill](create-auth-skill/) | masakinihirota | ★ 0 | 41% | L3 | Skill for creating auth layers in TypeScript/JavaScript apps using Better Auth. |
-| [Project Analysis Workflow](project-analysis-workflow/) | majiayu000 | ★ 0 | 41% | L3 | Analysis workflow finished |
-| [context-detection](context-detection/) | majiayu000 | ★ 0 | 41% | L3 | Automatically detect project tech stack, frameworks, and development context |
-| [architecture-diagram](architecture-diagram/) | majiayu000 | ★ 0 | 41% | L3 | Generate architecture diagrams in Mermaid, PlantUML, or diagrams.net formats |
-| [boilerplate](boilerplate/) | manastalukdar | ★ 0 | 41% | L3 | Generate framework-specific boilerplate code |
-| [boilerplate](boilerplate/) | majiayu000 | ★ 0 | 41% | L3 | Generate framework-specific boilerplate code |
-| [Project Analysis Workflow](project-analysis-workflow/) | majiayu000 | ★ 0 | 41% | L3 | Analysis workflow finished |
-| [context-detection](context-detection/) | majiayu000 | ★ 0 | 41% | L3 | Automatically detect project tech stack, frameworks, and development context |
-| [context-detection](context-detection/) | jovermier | ★ 0 | 41% | L3 | Automatically detect project tech stack, frameworks, and development context |
-| [architecture-diagram](architecture-diagram/) | manastalukdar | ★ 0 | 41% | L3 | Generate architecture diagrams in Mermaid, PlantUML, or diagrams.net formats |
-| [architecture-diagram](architecture-diagram/) | majiayu000 | ★ 0 | 41% | L3 | Generate architecture diagrams in Mermaid, PlantUML, or diagrams.net formats |
-| [context7](context7/) | george-popescu | ★ 0 | 41% | L3 | Context7 MCP usage patterns for framework documentation lookups |
-| [create-auth](create-auth/) | Microck | ★ 0 | 41% | L3 | Skill for creating auth layers in TypeScript/JavaScript apps using Better Auth. |
-| [app-builder](app-builder/) | darthlinuxer | ★ 0 | 41% | L3 | Main application building orchestrator. Creates full-stack applications |
-| [Create Auth Skill](create-auth-skill/) | kriegcloud | ★ 0 | 41% | L3 | A skill to create auth service for new applications. |
-| [create-auth-skill](create-auth-skill/) | just-be-dev | ★ 0 | 41% | L3 | Skill for creating auth layers in TypeScript/JavaScript apps using Better Auth. |
-| [Create Auth Skill](create-auth-skill/) | LucaNerlich | ★ 0 | 41% | L3 | A skill to create auth service for new applications. |
-| [Create Auth Skill](create-auth-skill/) | kosei-w90607 | ★ 0 | 41% | L3 | A skill to create auth service for new applications. |
-| [Create Auth Skill](create-auth-skill/) | hasparus | ★ 0 | 41% | L3 | A skill to create auth service for new applications. |
-| [create-auth-skill](create-auth-skill/) | nikolailehbrink | ★ 0 | 41% | L3 | Skill for creating auth layers in TypeScript/JavaScript apps using Better Auth. |
-| [create-auth-skill](create-auth-skill/) | ThinkEx-OSS | ★ 0 | 41% | L3 | Skill for creating auth layers in TypeScript/JavaScript apps using Better Auth. |
-| [Better Auth Best Practices](better-auth-best-practices/) | AloisH | ★ 0 | 41% | L3 | A skill to integrate better-auth. And auth framework for TypeScript projects. |
-| [e2e-generate](e2e-generate/) | majiayu000 | ★ 0 | 41% | L3 | Generate end-to-end tests with Playwright browser automation |
-| [app-builder](app-builder/) | nkhcloud | ★ 0 | 41% | L3 | Main application building orchestrator. |
-| [create-auth-skill](create-auth-skill/) | majiayu000 | ★ 0 | 41% | L3 | 使用 Better Auth 为 TypeScript/JavaScript 应用创建鉴权层的技能。 |
-| [create-auth-skill](create-auth-skill/) | besidka | ★ 0 | 41% | L3 | Skill for creating auth layers in TypeScript/JavaScript apps using Better Auth. |
-| [create-auth-skill](create-auth-skill/) | kousaku-maron | ★ 0 | 41% | L3 | Skill for creating auth layers in TypeScript/JavaScript apps using Better Auth. |
-| [create-auth-skill](create-auth-skill/) | Dknight203 | ★ 0 | 41% | L3 | Skill for creating auth layers in TypeScript/JavaScript apps using Better Auth. |
-| [create-auth-skill](create-auth-skill/) | akghosh111 | ★ 0 | 41% | L3 | Skill for creating auth layers in TypeScript/JavaScript apps using Better Auth. |
-| [Better Auth Best Practices](better-auth-best-practices/) | AloisH | ★ 0 | 41% | L3 | A skill to integrate better-auth. And auth framework for TypeScript projects. |
-| [python-pro](python-pro/) | rootcastleco | ★ 0 | 41% | L3 | Master Python 3.12+ with modern features, async programming, |
-| [python-pro](python-pro/) | BhurkeSiddhesh | ★ 0 | 41% | L3 | Master Python 3.12+ with modern features, async programming, |
-| [digest](digest/) | thekevinscott | ★ 0 | 41% | L3 | Extract insights from transcripts into actionable artifact files. |
-| [Testing Skill](testing-skill/) | AIDORA28 | ★ 0 | 41% | L3 | Automatiza pruebas y diagnósticos del sistema SmartK et sin perder tiempo |
-| [react](react/) | hk-vk | ★ 0 | 41% | L3 | A framework for building native apps for Android, iOS, and more using React |
-| [workflow](workflow/) | PeriscopeAI | ★ 0 | 41% | L2 | Start, monitor, and manage workflow executions in Periscope |
-| [tdd-orchestrator](tdd-orchestrator/) | aiskillstore | ★ 0 | 41% | L2 | Master TDD orchestrator specializing in red-green-refactor |
-| [tdd-orchestrator](tdd-orchestrator/) | Iowa51 | ★ 0 | 41% | L2 | Master TDD orchestrator specializing in red-green-refactor |
-| [tdd-orchestrator](tdd-orchestrator/) | NeverSight | ★ 0 | 41% | L2 | Master TDD orchestrator specializing in red-green-refactor |
-| [tdd-orchestrator](tdd-orchestrator/) | majiayu000 | ★ 0 | 41% | L2 | Master TDD orchestrator specializing in red-green-refactor |
-| [tdd-orchestrator](tdd-orchestrator/) | Alexsander532 | ★ 0 | 41% | L2 | Master TDD orchestrator specializing in red-green-refactor |
-| [workflow-orchestration-patterns](workflow-orchestration-patterns/) | mattmre | ★ 0 | 41% | L2 | Design durable workflows with Temporal for distributed systems. |
-| [Node Tuning Helper Scripts](node-tuning-helper-scripts/) | openshift-eng | ★ 0 | 41% | L3 | Generate tuned manifests and evaluate node tuning snapshots |
-| [project-mngt](project-mngt/) | majiayu000 | ★ 0 | 41% | L2 | Product Owner / Project Manager skill for MVP/MMP/MMR implementation planning |
-| [tdd-orchestrator](tdd-orchestrator/) | techwavedev | ★ 0 | 41% | L3 | Master TDD orchestrator specializing in red-green-refactor |
-| [Node Tuning Helper Scripts](node-tuning-helper-scripts/) | majiayu000 | ★ 0 | 41% | L3 | Generate tuned manifests and evaluate node tuning snapshots |
-| [Node Tuning Helper Scripts](node-tuning-helper-scripts/) | majiayu000 | ★ 0 | 41% | L3 | Generate tuned manifests and evaluate node tuning snapshots |
-| [<skill-name>](skill-name/) | karimzg | ★ 0 | 41% | L2 | <One-line description of what this skill does and when to use it> |
-| [job-apply](job-apply/) | smammadov1994 | ★ 0 | 41% | L2 | Fill out and submit job applications on supported platforms |
-| [web-content](web-content/) | alinaqi | ★ 0 | 41% | L3 | SEO and AI discovery (GEO) - schema, ChatGPT/Perplexity optimization |
-| [wecom-bot](wecom-bot/) | ajaxhe | ★ 0 | 41% | L3 | 企业微信群机器人消息推送 Skill。支持发送文本、Markdown、图片、图文、文件等多种消息类型到企业微信群。 |
-| [research-free](research-free/) | majiayu000 | ★ 0 | 41% | L3 | APIキー不要の統合リサーチスキル。Claude Code組み込みのWebSearch/WebFetchを使用。他人に配布してもそのまま使える。 |
-| [Claude Code Skill](claude-code-skill/) | ScrapeGraphAI | ★ 0 | 41% | L3 | Give Claude Code and AI coding agents the power of web scraping |
-| [bootstrap](bootstrap/) | NeonTowel | ★ 0 | 41% | L2 | Smart repo bootstrapping for Agentic flow (AGENTS.md) |
-| [notebook-writer](notebook-writer/) | majiayu000 | ★ 0 | 41% | L3 | Create and document Jupyter notebooks for reproducible analyses |
-| [notebook-writer](notebook-writer/) | majiayu000 | ★ 0 | 41% | L3 | Create and document Jupyter notebooks for reproducible analyses |
-| [notebook-writer](notebook-writer/) | dangeles | ★ 0 | 41% | L3 | Create and document Jupyter notebooks for reproducible analyses |
-| [project-init](project-init/) | vladm3105 | ★ 0 | 41% | L3 | Initialize projects with AI Dev Flow framework using domain-aware setup |
-| [anysystem-design](anysystem-design/) | NeverSight | ★ 0 | 41% | L3 | LLM Agent Skill for AnySystem Design React component library |
-| [migrate-to-promptscript](migrate-to-promptscript/) | mrwogu | ★ 0 | 41% | L3 | Migrate existing AI instruction files to PromptScript format |
-| [heir-sync-management](heir-sync-management/) | fabioc-aloha | ★ 0 | 41% | L3 | Master-Heir synchronization, contamination prevention, and promotion workflows |
-| [strava](strava/) | YPYT1 | ★ 0 | 41% | L3 | Load and analyze Strava activities, stats, and workouts using the Strava API |
-| [code-review](code-review/) | atef-ataya | ★ 0 | 41% | L2 | Code review for Next.js and TypeScript projects. Use when asked to "review this … |
-| [create-app-design](create-app-design/) | udecode | ★ 0 | 41% | L2 | Generate comprehensive app design document with project stage assessment |
-| [create-app-design](create-app-design/) | udecode | ★ 0 | 41% | L2 | Generate comprehensive app design document with project stage assessment |
-| [create-rule](create-rule/) | darthlinuxer | ★ 0 | 41% | L3 | Create project rules for persistent AI guidance. Use when the user wants |
-| [generate-instructions](generate-instructions/) | devclarityai | ★ 0 | 41% | L2 | Analyze a directory and generate consolidated Cursor rules. |
-| [create-rule](create-rule/) | majiayu000 | ★ 0 | 41% | L3 | Create project rules for persistent AI guidance. Use when the user wants |
-| [stripe-best-practices](stripe-best-practices/) | stripe | ★ 0 | 41% | L3 | Best practices for building Stripe integrations |
-| [error-handling](error-handling/) | splits-network | ★ 0 | 41% | L3 | Comprehensive error handling patterns for Splits Network services and apps |
-| [frontend-patterns](frontend-patterns/) | splits-network | ★ 0 | 41% | L3 | Next.js 16 frontend best practices for Splits Network portal and candidate apps |
-| [api-specifications](api-specifications/) | splits-network | ★ 0 | 41% | L3 | Guidance for Splits Network REST API design, implementation, and documentation |
-| [myth](myth/) | paulaolileal | ★ 0 | 41% | L3 | Application context (ASP.NET Core, Console App, Test, etc.) |
-| [upgrade-stripe](upgrade-stripe/) | stripe | ★ 0 | 41% | L3 | Guide for upgrading Stripe API versions and SDKs |
-| [api-design](api-design/) | kprsnt2 | ★ 0 | 40% | L2 | REST and GraphQL API design best practices including HTTP methods, status codes,… |
-| [ms-sql-dba](ms-sql-dba/) | pingqLIN | ★ 0 | 40% | L2 | Instructions for customizing GitHub Copilot behavior for MS-SQL DBA chat mode. T… |
-| [coldfusion-cfc](coldfusion-cfc/) | pingqLIN | ★ 0 | 40% | L2 | ColdFusion Coding Standards for CFC component and application patterns Triggers … |
-| [unsafe-checker](unsafe-checker/) | simorgh3196 | ★ 0 | 40% | L3 | CRITICAL: Use for unsafe Rust code review and FFI. Triggers on: unsafe, raw poin… |
-| [nodejs-javascript-vitest](nodejs-javascript-vitest/) | pingqLIN | ★ 0 | 40% | L3 | Guidelines for writing Node.js and JavaScript code with Vitest testing Triggers … |
-| [unsafe-checker](unsafe-checker/) | yumazak | ★ 0 | 40% | L3 | CRITICAL: Use for unsafe Rust code review and FFI. Triggers on: unsafe, raw poin… |
-| [unsafe-checker](unsafe-checker/) | flexisuite-org | ★ 0 | 40% | L3 | CRITICAL: Use for unsafe Rust code review and FFI. Triggers on: unsafe, raw poin… |
-| [unsafe-checker](unsafe-checker/) | jp4g | ★ 0 | 40% | L3 | CRITICAL: Use for unsafe Rust code review and FFI. Triggers on: unsafe, raw poin… |
-| [unsafe-checker](unsafe-checker/) | jmduea | ★ 0 | 40% | L3 | CRITICAL: Use for unsafe Rust code review and FFI. Triggers on: unsafe, raw poin… |
-| [poetry-rye-dependency-management](poetry-rye-dependency-management/) | oimiragieo | ★ 0 | 39% | L3 | Specifies Poetry or Rye for dependency management in Python projects. |
-| [poetry-rye-dependency-management](poetry-rye-dependency-management/) | Finimo-Solutions | ★ 0 | 39% | L3 | Specifies Poetry or Rye for dependency management in Python projects. |
-| [refactor-html](refactor-html/) | majiayu000 | ★ 0 | 38% | L2 | Refactor HTML/TSX files to use existing UI components, DaisyUI classes, and sema… |
-| [refactor-html](refactor-html/) | majiayu000 | ★ 0 | 38% | L2 | Refactor HTML/TSX files to use existing UI components, DaisyUI classes, and sema… |
-| [refactor-html](refactor-html/) | yahsan2 | ★ 0 | 38% | L2 | Refactor HTML/TSX files to use existing UI components, DaisyUI classes, and sema… |
-| [vue-skill](vue-skill/) | majiayu000 | ★ 0 | 38% | L3 | Vue/TypeScriptの実装に関するAgent |
-| [notion-content](notion-content/) | majiayu000 | ★ 0 | 38% | L3 | Create content records in Notion database after publishing articles. Use when us… |
-| [browser-testing](browser-testing/) | majiayu000 | ★ 0 | 38% | L3 | Use when testing web applications, debugging browser console errors, automating … |
-| [entry-point-check](entry-point-check/) | majiayu000 | ★ 0 | 38% | L2 | 验证 VS 的 entry_points 字段是否与 SPEC_PRJ_ENTRYPOINTS（入口类型标签）一致，生成缺失入口清单和补充建议。当准备 CONS… |
-| [defining-typescript-models](defining-typescript-models/) | majiayu000 | ★ 0 | 38% | L3 | Defines standard TypeScript interfaces for Appwrite Collections. Use when creati… |
-| [receiving-code-review](receiving-code-review/) | majiayu000 | ★ 0 | 38% | L2 | receiving-code-review |
-| [sqlmodel-task-models](sqlmodel-task-models/) | majiayu000 | ★ 0 | 38% | L3 | This skill should be used when defining a robust, type-safe, and async-compatibl… |
-| [websocket-realtime](websocket-realtime/) | majiayu000 | ★ 0 | 38% | L2 | Expert guidance on real-time communication patterns including WebSockets, Server… |
-| [reflect-yourself](reflect-yourself/) | maorfsdev | ★ 0 | 38% | L3 | Self-learning system that captures corrections, discovers workflow patterns, and… |
-| [lastXdays](lastxdays/) | levineam | ★ 0 | 38% | L3 | Research a topic from the last X days on Reddit + X + Web. Specify number of day… |
-| [vue-skill](vue-skill/) | majiayu000 | ★ 0 | 38% | L3 | Vue/TypeScriptの実装に関するAgent |
-| [entry-point-check](entry-point-check/) | majiayu000 | ★ 0 | 38% | L2 | 验证 VS 的 entry_points 字段是否与 SPEC_PRJ_ENTRYPOINTS（入口类型标签）一致，生成缺失入口清单和补充建议。当准备 CONS… |
-| [performance-optimizer](performance-optimizer/) | JochenYang | ★ 0 | 38% | L3 | Performance bottleneck identification and optimization. Handles database query o… |
-| [sqlmodel-task-models](sqlmodel-task-models/) | QasimHussain21 | ★ 0 | 38% | L3 | This skill should be used when defining a robust, type-safe, and async-compatibl… |
-| [sqlmodel-task-models](sqlmodel-task-models/) | majiayu000 | ★ 0 | 38% | L3 | This skill should be used when defining a robust, type-safe, and async-compatibl… |
-| [receiving-code-review](receiving-code-review/) | jarredkenny | ★ 0 | 38% | L2 | receiving-code-review |
-| [effect-module-resource](effect-module-resource/) | TylorS | ★ 0 | 38% | L3 | Guidance for `effect/Resource` focused on APIs like get, isResource, and auto. L… |
-| [specs-status](specs-status/) | majiayu000 | ★ 0 | 38% | L3 | 현재 프로젝트의 EARS 스펙 상태 현황 표시 |
-| [receiving-code-review](receiving-code-review/) | majiayu000 | ★ 0 | 38% | L2 | receiving-code-review |
-| [defining-typescript-models](defining-typescript-models/) | majiayu000 | ★ 0 | 38% | L3 | Defines standard TypeScript interfaces for Appwrite Collections. Use when creati… |
-| [Bun WebSockets](bun-websockets/) | jarle | ★ 0 | 38% | L3 | Server-side WebSockets in Bun |
-| [web-accessibility](web-accessibility/) | itsmepratikg | ★ 0 | 38% | L2 | Enforces semantic HTML and accessibility standards (ARIA, keyboard navigation, c… |
-| [implementation-planner](implementation-planner/) | chaitin | ★ 0 | 38% | L2 | 需要创建实施计划的需求名称 |
-| [octoclaw](octoclaw/) | openclaw | ★ 0 | 38% | L3 | Control OctoPrint 3D printer — monitor status, capture webcam snapshots, manage … |
-| [bio-epitranscriptomics-modification-visualization](bio-epitranscriptomics-modification-visualization/) | majiayu000 | ★ 0 | 38% | L3 | Create metagene plots and browser tracks for RNA modification data. Use when vis… |
-| [vue-skill](vue-skill/) | h5y1m141 | ★ 0 | 38% | L3 | Vue/TypeScriptの実装に関するAgent |
-| [notion-content](notion-content/) | majiayu000 | ★ 0 | 38% | L3 | Create content records in Notion database after publishing articles. Use when us… |
-| [browser-testing](browser-testing/) | ingpoc | ★ 0 | 38% | L3 | Use when testing web applications, debugging browser console errors, automating … |
-| [browser-testing](browser-testing/) | NeverSight | ★ 0 | 38% | L3 | Use when testing web applications, debugging browser console errors, automating … |
-| [browser-testing](browser-testing/) | majiayu000 | ★ 0 | 38% | L3 | Use when testing web applications, debugging browser console errors, automating … |
-| [websocket-realtime](websocket-realtime/) | NeverSight | ★ 0 | 38% | L2 | Expert guidance on real-time communication patterns including WebSockets, Server… |
-| [websocket-realtime](websocket-realtime/) | omer-metin | ★ 0 | 38% | L2 | Expert guidance on real-time communication patterns including WebSockets, Server… |
-| [websocket-realtime](websocket-realtime/) | majiayu000 | ★ 0 | 38% | L2 | Expert guidance on real-time communication patterns including WebSockets, Server… |
-| [jbk-collect](jbk-collect/) | majiayu000 | ★ 0 | 38% | L3 | 전반꿀 연구소 데이터 수집. 전인구경제연구소 유튜브 영상을 수집하고 전반꿀 지수를 계산한다. 기간을 지정하면 해당 기간의 영상을 수집하고, 6개… |
-| [local-development](local-development/) | majiayu000 | ★ 0 | 38% | L3 | Running functions and web app locally, troubleshooting emulator issues, Storyboo… |
-| [faion-landing-page](faion-landing-page/) | majiayu000 | ★ 0 | 38% | L3 | High-converting landing pages. Copy + design + implementation. Triggers: landing… |
-| [vps-memory](vps-memory/) | flosrn | ★ 0 | 38% | L3 | Access Flo's long-term memory on the VPS (OpenClaw). ALWAYS use when the user sa… |
-| [release](release/) | ragnarok22 | ★ 0 | 38% | L3 | Prepare and publish a new cryptobot-python release. Use when the user asks to cu… |
-| [dev.shortcuts](dev.shortcuts/) | kevinslin | ★ 0 | 38% | L2 | Mandatory shortcut trigger and usage guidance. ALWAYS check if shortcut applies … |
-| [deslop](deslop/) | v1-io | ★ 0 | 38% | L3 | Use when removing AI-generated slop, cleaning up verbose code, or removing unnec… |
-| [my-react-rules](my-react-rules/) | majiayu000 | ★ 0 | 38% | L2 | This is a new rule |
-| [Fixed Video Format (9:16)](fixed-video-format-9-16/) | majiayu000 | ★ 0 | 38% | L3 | Fixed 1080x1920 pixel video format with percentage-based positioning. Use this w… |
-| [Backend Queries](backend-queries/) | majiayu000 | ★ 0 | 38% | L2 | Write secure, performant, and optimized database queries using parameterized que… |
-| [academic-deep-research](academic-deep-research/) | NeverSight | ★ 0 | 38% | L2 | Transparent, rigorous research with full methodology — not a black-box API wrapp… |
-| [academic-deep-research](academic-deep-research/) | kesslerio | ★ 0 | 38% | L2 | Transparent, rigorous research with full methodology — not a black-box API wrapp… |
-| [specs-status](specs-status/) | SangIlMo | ★ 0 | 38% | L3 | 현재 프로젝트의 EARS 스펙 상태 현황 표시 |
-| [example-minimal-skill](example-minimal-skill/) | majiayu000 | ★ 0 | 38% | L3 | This skill should be used when the user asks to "do something simple", "perform … |
-| [reporter](reporter/) | hs3180 | ★ 0 | 38% | L2 | Communication specialist - generates Worker instructions and formats user feedba… |
-| [performance-optimization](performance-optimization/) | ihj04982 | ★ 0 | 38% | L3 | Agent and model performance (Haiku/Sonnet/Opus selection, context window, build … |
-| [Backend API](backend-api/) | overtimepog | ★ 0 | 38% | L3 | Design and implement RESTful APIs, GraphQL endpoints, and backend API architectu… |
-| [nodejs-backend-patterns](nodejs-backend-patterns/) | xiangteng007 | ★ 0 | 38% | L2 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
-| [nodejs-backend-patterns](nodejs-backend-patterns/) | corsal2025 | ★ 0 | 38% | L2 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
-| [nodejs-backend-patterns](nodejs-backend-patterns/) | corsal2025 | ★ 0 | 38% | L2 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
-| [nodejs-backend-patterns](nodejs-backend-patterns/) | javiertarazon | ★ 0 | 38% | L2 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
-| [nodejs-backend-patterns](nodejs-backend-patterns/) | xfstudio | ★ 0 | 38% | L2 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
-| [nodejs-backend-patterns](nodejs-backend-patterns/) | AtilaMedeiros | ★ 0 | 38% | L2 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
-| [nodejs-backend-patterns](nodejs-backend-patterns/) | duclm1x1 | ★ 0 | 38% | L2 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
-| [_backend-mastery](_backend-mastery/) | TriNgo0108 | ★ 0 | 38% | L2 | Master backend architectures, REST API design, microservices, and server-side de… |
-| [backend-architecture](backend-architecture/) | Jack-Taylor-Gorman | ★ 0 | 38% | L2 | Design and implement scalable backend infrastructure, microservices, and system … |
-| [Implementing Observability](implementing-observability/) | 7a336e6e | ★ 0 | 38% | L3 | Instrument the application with Logging, Metrics, and Tracing (OpenTelemetry) to… |
-| [Implementing Observability](implementing-observability/) | 7a336e6e | ★ 0 | 38% | L3 | Instrument the application with Logging, Metrics, and Tracing (OpenTelemetry) to… |
-| [nodejs-backend-patterns](nodejs-backend-patterns/) | ranbot-ai | ★ 0 | 38% | L2 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
-| [principal-engineer](principal-engineer/) | harshahosur81 | ★ 0 | 38% | L2 | Principal Engineer Skill |
-| [development-router](development-router/) | NeverSight | ★ 0 | 38% | L2 | Routes development tasks to frontend, backend, or fullstack skills. Triggers on … |
-| [ats-resume-maker](ats-resume-maker/) | just-sampath | ★ 0 | 38% | L3 | Create ATS-optimized resumes with selective bold highlighting, two-page maximum,… |
-| [Frontend CSS](frontend-css/) | FlorianRiquelme | ★ 0 | 38% | L2 | Write and maintain CSS following a consistent methodology (Tailwind, BEM, utilit… |
-| [Frontend CSS](frontend-css/) | pdovhomilja | ★ 0 | 38% | L2 | Write and maintain CSS following project conventions using consistent methodolog… |
-| [Frontend CSS](frontend-css/) | TheophilusChinomona | ★ 0 | 38% | L3 | Write and structure CSS using Tailwind CSS v4.0+ utility classes as the default … |
-| [Frontend CSS](frontend-css/) | maksimtereshin | ★ 0 | 38% | L2 | Write and structure CSS using consistent methodology (Tailwind, BEM, CSS Modules… |
-| [Frontend CSS](frontend-css/) | overtimepog | ★ 0 | 38% | L3 | Write maintainable, performant CSS using modern methodologies including Tailwind… |
-| [Frontend CSS](frontend-css/) | majiayu000 | ★ 0 | 38% | L2 | Write consistent, maintainable CSS following the project's methodology (Tailwind… |
-| [frontend-design](frontend-design/) | robertpelloni | ★ 0 | 38% | L2 | Create distinctive, production-grade frontend interfaces with high design qualit… |
-| [frontend-responsive](frontend-responsive/) | aiskillstore | ★ 0 | 38% | L2 | Implement mobile-first responsive designs with fluid layouts, breakpoints, relat… |
-| [frontend](frontend/) | X-McKay | ★ 0 | 38% | L2 | UI design guidelines for Kubani web interfaces. Use when building or reviewing w… |
-| [react-frontend](react-frontend/) | N43-Studio | ★ 0 | 38% | L3 | Provides best practices for building React applications with TypeScript and Tail… |
-| [antigravity-frontend-dev](antigravity-frontend-dev/) | abzhaw | ★ 0 | 38% | L3 | Antigravity/Claude specific skill for continuous frontend UI/UX improvement and … |
-| [physic-claw-vea](physic-claw-vea/) | yomero243 | ★ 0 | 38% | L3 | An interactive 3D visualization application featuring an "Augmented Entity" with… |
-| [kirby-performance-and-media](kirby-performance-and-media/) | majiayu000 | ★ 0 | 38% | L2 | Improve Kirby performance and media delivery (cache tuning, CDN, responsive imag… |
-| [refactorer-view](refactorer-view/) | majiayu000 | ★ 0 | 38% | L3 | A front end staff engineer and UX designer, who refactors and simplifies the use… |
-| [core-development](core-development/) | majiayu000 | ★ 0 | 38% | L3 | Estimated learning duration |
-| [Frontend CSS](frontend-css/) | majiayu000 | ★ 0 | 38% | L2 | Write consistent, maintainable CSS following the project's methodology (Tailwind… |
-| [frontend-responsive](frontend-responsive/) | Senury | ★ 0 | 38% | L2 | Implement mobile-first responsive designs with fluid layouts, breakpoints, relat… |
-| [frontend-responsive](frontend-responsive/) | majiayu000 | ★ 0 | 38% | L2 | Implement mobile-first responsive designs with fluid layouts, breakpoints, relat… |
-| [kirby-performance-and-media](kirby-performance-and-media/) | majiayu000 | ★ 0 | 38% | L2 | Improve Kirby performance and media delivery (cache tuning, CDN, responsive imag… |
-| [refactorer-view](refactorer-view/) | majiayu000 | ★ 0 | 38% | L3 | A front end staff engineer and UX designer, who refactors and simplifies the use… |
-| [core-development](core-development/) | pluginagentmarketplace | ★ 0 | 38% | L3 | Estimated learning duration |
-| [core-development](core-development/) | majiayu000 | ★ 0 | 38% | L3 | Estimated learning duration |
-| [core-development](core-development/) | NeverSight | ★ 0 | 38% | L3 | Estimated learning duration |
-| [frontend-pages-components](frontend-pages-components/) | CodeWithSuleman | ★ 0 | 38% | L2 | Build responsive frontend pages, reusable components, layouts, and styling using… |
-| [postkit](postkit/) | varunchopra | ★ 0 | 38% | L3 | PostgreSQL-native identity, configuration, metering, and job queues. SQL functio… |
-| [ui-engineering](ui-engineering/) | yzfly | ★ 0 | 38% | L2 | Expert system for creating high-quality, brand-aligned user interfaces. Use this… |
-| [system-design-skill](system-design-skill/) | huijoohwee | ★ 0 | 38% | L2 | Distributed system architecture principles (CID framework). Use when designing/r… |
-| [graphql-architect](graphql-architect/) | NeverSight | ★ 0 | 38% | L2 | GraphQL API specialist for schema design, resolvers, federation, and performance… |
-| [design-api](design-api/) | DobroslavRadosavljevic | ★ 0 | 38% | L2 | Triggered when user asks to design APIs, create API specifications, or plan API … |
-| [api-designer](api-designer/) | k1lgor | ★ 0 | 38% | L2 | Use this when designing APIs (REST or GraphQL), defining routes, request/respons… |
-| [graphql](graphql/) | omer-metin | ★ 0 | 38% | L2 | GraphQL gives clients exactly the data they need - no more, no less. One endpoin… |
-| [graphql-architect](graphql-architect/) | omer-metin | ★ 0 | 38% | L2 | GraphQL API specialist for schema design, resolvers, federation, and performance… |
-| [clarify](clarify/) | ureca-corp | ★ 0 | 38% | L3 | 모호함 식별 및 명확화 질문 생성 |
-| [api-performance-api-performance](api-performance-api-performance/) | agents-inc | ★ 0 | 38% | L3 | Query optimization, caching, indexing |
-| [monday](monday/) | openclaw | ★ 0 | 38% | L3 | Read and query Monday.com boards, items, workspaces, and users directly via the … |
-| [code-reviewer](code-reviewer/) | Wulnut | ★ 0 | 38% | L3 | 综合代码审查 skill，支持 TypeScript、JavaScript、Python、Swift、Kotlin、Go。包括自动代码分析、最佳实践检查、安全扫… |
-| [database-architect](database-architect/) | omer-metin | ★ 0 | 38% | L2 | Database design specialist for schema modeling, query optimization, indexing str… |
-| [backend-skill](backend-skill/) | CodeWithSuleman | ★ 0 | 38% | L3 | Design and implement backend functionality including route generation, request/r… |
-| [commit](commit/) | majiayu000 | ★ 0 | 38% | L2 | Generates commit messages and creates commits. Use when writing commit messages,… |
-| [effect-module-request](effect-module-request/) | TylorS | ★ 0 | 38% | L3 | Guidance for `effect/Request` focused on APIs like of, fail, and succeed. Load a… |
-| [code-review](code-review/) | alistairstead | ★ 0 | 38% | L3 | Code review local changes |
-| [python-coder](python-coder/) | majiayu000 | ★ 0 | 38% | L3 | Modern Python 3.12+ development with uv, ruff, and production-ready practices. R… |
-| [python-coder](python-coder/) | majiayu000 | ★ 0 | 38% | L3 | Modern Python 3.12+ development with uv, ruff, and production-ready practices. R… |
-| [librarian](librarian/) | cdman28 | ★ 0 | 38% | L3 | Expert in searching official documentation, APIs, and best practices. Use when y… |
-| [python-backend](python-backend/) | omer-metin | ★ 0 | 38% | L3 | Python dominates backend development for good reason - readable code, massive ec… |
-| [web-backend-builder](web-backend-builder/) | 0x-Professor | ★ 0 | 38% | L3 | Scaffold backend API, data models, ORM setup, and endpoint inventory with OpenAP… |
-| [okane-skills](okane-skills/) | NeverSight | ★ 0 | 38% | L3 | 家計簿の残高予測・シミュレーションスキル。「残高予測」「何ヶ月後にいくら」「この出費大丈夫？」「お金足りる？」「貯金シミュレーション」「ログ圧縮」「危険ポイント… |
-| [language-framework-specialist](language-framework-specialist/) | majiayu000 | ★ 0 | 38% | L3 | 提供特定编程语言和框架的深度专业知识。当需要处理特定技术栈的复杂问题时使用 |
-| [language-framework-specialist](language-framework-specialist/) | majiayu000 | ★ 0 | 38% | L3 | 提供特定编程语言和框架的深度专业知识。当需要处理特定技术栈的复杂问题时使用 |
-| [dev-expert](dev-expert/) | nguyenthienthanh | ★ 0 | 38% | L3 | Development patterns for React, Vue, Laravel, Next.js, React Native - state mana… |
-| [frontend-development](frontend-development/) | pluginagentmarketplace | ★ 0 | 38% | L3 | The specific frontend action to perform |
-| [kano-commit-convention-skill](kano-commit-convention-skill/) | dorgonman | ★ 0 | 38% | L3 | Commit/change description convention (KCC) with Subsystem + Type + Ticket format… |
-| [claude-web-server-llm](claude-web-server-llm/) | hanwsf | ★ 0 | 38% | L3 | 多线程Claude Web服务器，使用FastAPI将Claude暴露为后端API服务。此服务器会话持久化、支持并发处理、可基于用户语义调用所有skills/a… |
-| [anthropic-usage](anthropic-usage/) | shreyasgm | ★ 0 | 38% | L3 | Check Anthropic API usage and costs for any time period. Use when the user asks … |
-| [md-to-image](md-to-image/) | ZaynJarvis | ★ 0 | 38% | L3 | Convert Markdown tables to PNG images for Telegram, WhatsApp, and other chat int… |
-| [linear](linear/) | jesseproudman | ★ 0 | 38% | L3 | Interact with Linear project management. Use for creating, searching, updating i… |
-| [tech-stacks](tech-stacks/) | vheins | ★ 0 | 38% | L2 | A skill for managing and applying technology-specific architectural patterns and… |
-| [tech-stacks](tech-stacks/) | vheins | ★ 0 | 38% | L2 | A skill for managing and applying technology-specific architectural patterns and… |
-| [templates](templates/) | QuantumSolver | ★ 0 | 38% | L3 | Project scaffolding templates for new applications. Use when creating new projec… |
-| [Python-Dev Skill](python-dev-skill/) | nicsuzor | ★ 0 | 38% | L3 | **Status**: Implemented |
-| [documentation](documentation/) | ChanningHe | ★ 0 | 38% | L3 | Documentation standards. Apply when completing full feature development, introdu… |
-| [observability-instrumentation](observability-instrumentation/) | askaret | ★ 0 | 38% | L2 | Use when adding endpoints/background jobs/integrations where telemetry matters. … |
-| [react-guidelines](react-guidelines/) | roeibajayo | ★ 0 | 38% | L3 | - NEVER use `useState` or `useEffect` directly in React Components. ALWAYS use c… |
-| [chatgpt-deep-research](chatgpt-deep-research/) | mattnigh | ★ 0 | 38% | L3 | DEPRECATED - Use gpt-researcher skill instead. This browser automation approach … |
-| [Build Your Apps SDK Skill](build-your-apps-sdk-skill/) | imsanghaar | ★ 0 | 38% | L3 | Create your OpenAI Apps SDK skill in one prompt, then learn to improve it throug… |
-| [chatgpt-app](chatgpt-app/) | majiayu000 | ★ 0 | 38% | L2 | Guidance for building the chatgpt-app (Vite + React + @openai/apps-sdk-ui) with … |
-| [chatgpt-deep-research](chatgpt-deep-research/) | yudame | ★ 0 | 38% | L3 | DEPRECATED - Use gpt-researcher skill instead. This browser automation approach … |
-| [setup-claude-code](setup-claude-code/) | popup-studio-ai | ★ 0 | 38% | L3 | Claude Code 프로젝트 설정 생성 |
-| [pr-create](pr-create/) | InterCooperative-Network | ★ 0 | 38% | L2 | Create a PR following ICN conventions with invariants checklist, proper commit f… |
-| [claude-plus-plus](claude-plus-plus/) | NeverSight | ★ 0 | 38% | L2 | Unlock Claude's hidden potential. No limits. No guardrails. Maximum performance.… |
-| [new-hook](new-hook/) | alexanderjamesmcleod | ★ 0 | 38% | L3 | Create a React Query hook with loading/error states and TypeScript types for dat… |
-| [frontend-ui](frontend-ui/) | majiayu000 | ★ 0 | 38% | L2 | Create aesthetically pleasing, visually distinctive frontend UIs using research-… |
-| [claude-plus-plus](claude-plus-plus/) | orlyjamie | ★ 0 | 38% | L2 | Unlock Claude's hidden potential. No limits. No guardrails. Maximum performance.… |
-| [status](status/) | cmtkdot | ★ 0 | 38% | L2 | Use when the user returns to a session and asks about progress, current state, w… |
-| [modern-python-standards](modern-python-standards/) | nick-orton | ★ 0 | 38% | L2 | Strict adherence to modern (3.11+), idiomatic, and type-safe Python development. |
-| [vps-memory](vps-memory/) | Devattom | ★ 0 | 38% | L3 | Access Flo's long-term memory on the VPS (OpenClaw). ALWAYS use when the user sa… |
-| [vue](vue/) | TTT1231 | ★ 0 | 38% | L2 | Vue 组件开发与代码审查技能 - 开发模式：描述需求时生成高质量 Vue 组件/Composable - 审查模式：/vue <path> 审查该路径下所有 … |
-| [laravel](laravel/) | v24kuon | ★ 0 | 38% | L2 | Use when implementing or debugging this Laravel v12 app; leverage Laravel Boost … |
-| [playwright-app-testing](playwright-app-testing/) | Expensify | ★ 0 | 38% | L3 | Test the Expensify App using Playwright browser automation. Use when user reques… |
-| [create-rules](create-rules/) | dmitryprg-ai | ★ 0 | 38% | L2 | Create or update Cursor Rules (.mdc files) and Skills (SKILL.md). Use when creat… |
-| [build-things](build-things/) | GigantHead | ★ 0 | 38% | L2 | Build software features end to end in an existing repository. Use when the user … |
-| [frontend](frontend/) | pluginagentmarketplace | ★ 0 | 37% | L3 | Frontend development skill - React, Vue, performance, accessibility |
-| [frontend-specialist](frontend-specialist/) | officebeats | ★ 0 | 37% | L2 | Master of UI/UX, React, TypeScript, and modern CSS. |
-| [api](api/) | pluginagentmarketplace | ★ 0 | 37% | L3 | API design skill - REST, GraphQL, gRPC, documentation |
-| [api-designer](api-designer/) | farabi1038 | ★ 0 | 37% | L2 | REST and GraphQL API design expert following best practices |
-| [backend](backend/) | pluginagentmarketplace | ★ 0 | 37% | L3 | Backend development skill - APIs, databases, authentication, caching |
-| [prompt-generation-rules](prompt-generation-rules/) | oimiragieo | ★ 0 | 36% | L3 | General rules to generate prompt. |
-| [prompt-generation-rules](prompt-generation-rules/) | Finimo-Solutions | ★ 0 | 36% | L3 | General rules to generate prompt. |
-| [hive-mapping](hive-mapping/) | paralect | ★ 0 | 36% | L3 | Schema mappings for auto-syncing embedded documents |
-| [hive-handler](hive-handler/) | paralect | ★ 0 | 36% | L3 | How to create event handlers in Hive framework |
-| [sandboxes-js-sdk](sandboxes-js-sdk/) | koyeb | ★ 0 | 35% | L3 | Use the Koyeb Sandbox JS SDK (@koyeb/sandbox-sdk) to create and manage sandboxes… |
-| [namecheap](namecheap/) | majiayu000 | ★ 0 | 34% | L3 | Domain registration and management via Namecheap API. |
-| [namecheap](namecheap/) | nexty5870 | ★ 0 | 34% | L3 | Domain registration and management via Namecheap API. |
-| [namecheap](namecheap/) | majiayu000 | ★ 0 | 34% | L3 | Domain registration and management via Namecheap API. |
-| [Skill Synchronizer](skill-synchronizer/) | majiayu000 | ★ 0 | 34% | L2 | Lee los metadatos de todas las skills y actualiza el índice en AGENTS.md. |
-| [screenshot](screenshot/) | kxzk | ★ 0 | 34% | L3 | Capture screenshots of application windows |
-| [moshi-notify](moshi-notify/) | maplefukku | ★ 0 | 34% | L3 | Send a push notification to Moshi app with custom title and message |
-| [verification](verification/) | WenJunDuan | ★ 0 | 34% | L2 | Path-conditional verification checklist (basic/standard/strict) with retry loop |
-| [expansion-playbook](expansion-playbook/) | majiayu000 | ★ 0 | 34% | L2 | Use to package upsell, cross-sell, and advocacy motions tied to customer |
-| [长列表虚拟滚动优化方案](unnamed/) | majiayu000 | ★ 0 | 34% | L2 | 处理超过 1000 条数据的大型列表渲染时的性能优化方案，包含定高和不定高两种策略。 |
-| [长列表虚拟滚动优化方案](unnamed/) | majiayu000 | ★ 0 | 34% | L2 | 处理超过 1000 条数据的大型列表渲染时的性能优化方案，包含定高和不定高两种策略。 |
-| [代码审查](unnamed/) | a747895159 | ★ 0 | 34% | L3 | 按照 Sentry 工程实践进行代码审查。用于审查拉取请求、检查代码变更或提供代码质量反馈。涵盖安全性、性能、测试和设计审查。 |
-| [Skill Synchronizer](skill-synchronizer/) | majiayu000 | ★ 0 | 34% | L2 | Lee los metadatos de todas las skills y actualiza el índice en AGENTS.md. |
-| [expansion-playbook](expansion-playbook/) | gtmagents | ★ 0 | 34% | L2 | Use to package upsell, cross-sell, and advocacy motions tied to customer |
-| [expansion-playbook](expansion-playbook/) | majiayu000 | ★ 0 | 34% | L2 | Use to package upsell, cross-sell, and advocacy motions tied to customer |
-| [duplicati](duplicati/) | Demerzels-lab | ★ 0 | 34% | L2 | Manage Duplicati backups on the server using secure Bearer tokens. |
-| [plan](plan/) | appautomaton | ★ 0 | 34% | L3 | Draft a repo-local plan using the plan skill template and optionally save it. |
-| [plan](plan/) | majiayu000 | ★ 0 | 34% | L3 | Draft a repo-local plan using the plan skill template and optionally save it. |
-| [plan](plan/) | majiayu000 | ★ 0 | 34% | L3 | Draft a repo-local plan using the plan skill template and optionally save it. |
-| [ln-751-command-templates](ln-751-command-templates/) | majiayu000 | ★ 0 | 34% | L2 | Generates individual .claude/commands files from templates |
-| [Frontend Engineering Skill](frontend-engineering-skill/) | Krasimir-Hristov | ★ 0 | 34% | L3 | Expert guidance on Next.js 16+, Tailwind CSS, Shadcn/UI, and State Management. |
-| [frontend-ui-tailwind-standards](frontend-ui-tailwind-standards/) | valec3 | ★ 0 | 34% | L2 | Standardized guidelines and patterns for Frontend Ui Tailwind Standards. |
-| [frontend_mastery](frontend_mastery/) | majiayu000 | ★ 0 | 34% | L3 | Advanced React patterns, performance optimization, and state management rules. |
-| [frontend_mastery](frontend_mastery/) | majiayu000 | ★ 0 | 34% | L3 | Advanced React patterns, performance optimization, and state management rules. |
-| [expansion-playbook](expansion-playbook/) | NeverSight | ★ 0 | 34% | L2 | Use to package upsell, cross-sell, and advocacy motions tied to customer |
-| [api-design-patterns](api-design-patterns/) | sraloff | ★ 0 | 34% | L2 | Principles for REST, GraphQL, versioning, and API authentication. |
-| [api-surface](api-surface/) | Itshalffull | ★ 0 | 34% | L2 | Compose generated interfaces from multiple concepts into |
-| [configure](configure/) | designnotdrum | ★ 0 | 34% | L3 | Configure pattern-radar sources, weights, and domains. |
-| [database-expert-advisor](database-expert-advisor/) | ljchg12-hue | ★ 0 | 34% | L2 | Database design, optimization, and operations expert |
-| [code-quality](code-quality/) | Wondermove-Inc | ★ 0 | 34% | L3 | 코드 품질 규칙을 강제합니다. 500줄 제한과 주석 필수 규칙을 적용합니다. |
-| [faion-backend-systems](faion-backend-systems/) | NeverSight | ★ 0 | 34% | L3 | Systems backends: Go, Rust, databases, caching. |
-| [faion-backend-enterprise](faion-backend-enterprise/) | NeverSight | ★ 0 | 34% | L3 | Enterprise backends: Java, C#, PHP, Ruby. |
-| [til](til/) | DaichiSaito | ★ 0 | 34% | L3 | Today I Learned - Claude Codeセッションから技術的な知見を抽出してMarkdownで保存 |
-| [cursor-rules](cursor-rules/) | elie222 | ★ 0 | 34% | L2 | How to add or edit Cursor rules in our project |
-| [web-design-guidelines](web-design-guidelines/) | darthlinuxer | ★ 0 | 34% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked |
-| [The Exponential Puck Framework](the-exponential-puck-framework/) | Coowoolf | ★ 0 | 34% | L2 | > The Exponential Puck Framework（指数型冰球框架） |
-| [knowledge-synthesis](knowledge-synthesis/) | blackplume233 | ★ 0 | 34% | L2 | 知识合成 — 将多来源信息融合为结构化知识，生成摘要、报告和知识图谱 |
-| [ninja-enrich](ninja-enrich/) | alistairhendersoninfo | ★ 0 | 34% | L3 | Enrich meta.yaml long_description fields from man pages and websites |
-| [klipper](klipper/) | Brandawg93 | ★ 0 | 34% | L3 | Monitor and control Klipper/Moonraker 3D printers with safety confirmations. |
-| [backend-patterns](backend-patterns/) | grmkris | ★ 0 | 34% | L3 | Backend patterns for ORPC routers, Drizzle schemas, and server-side code. Use wh… |
-| [backend-patterns](backend-patterns/) | grmkris | ★ 0 | 34% | L3 | Backend patterns for ORPC routers, Drizzle schemas, and server-side code. Use wh… |
-| [total-recall](total-recall/) | majiayu000 | ★ 0 | 32% | L3 | Memory preservation for Claude Code sessions. Use when approaching token limits,… |
-| [total-recall](total-recall/) | plinde | ★ 0 | 32% | L3 | Memory preservation for Claude Code sessions. Use when approaching token limits,… |
-| [total-recall](total-recall/) | majiayu000 | ★ 0 | 32% | L3 | Memory preservation for Claude Code sessions. Use when approaching token limits,… |
-| [atlan-sql-connector-patterns](atlan-sql-connector-patterns/) | atlanhq | ★ 0 | 32% | L2 | Select and apply the correct SQL connector implementation pattern (SDK-default m… |
-| [fastapi-templates](fastapi-templates/) | xfstudio | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [prisma-workflow](prisma-workflow/) | BASIC-BIT | ★ 0 | 32% | L2 | Prisma workflow for schema changes, migrations, and common pitfalls in this repo… |
-| [fastapi-templates](fastapi-templates/) | rmyndharis | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | pCruvinel | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | haniakrim21 | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | KignLeon | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | mshraditya | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [atlan-sql-connector-patterns](atlan-sql-connector-patterns/) | majiayu000 | ★ 0 | 32% | L2 | Select and apply the correct SQL connector implementation pattern (SDK-default m… |
-| [goplaces](goplaces/) | hcnimi | ★ 0 | 32% | L2 | Query Google Places API (New) via the goplaces CLI for text search, place detail… |
-| [fastapi-templates](fastapi-templates/) | majiayu000 | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | NeverSight | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | majiayu000 | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | bissan-sameeh | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | Baooooooo0 | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [getCriptoPrice](getcriptoprice/) | germancin | ★ 0 | 32% | L2 | Retrieve the latest USD price for a crypto asset (e.g., BTC, ETH) via a public A… |
-| [goplaces](goplaces/) | joeleung0122 | ★ 0 | 32% | L2 | Query Google Places API (New) via the goplaces CLI for text search, place detail… |
-| [WebText](webtext/) | DaveSteadman | ★ 0 | 32% | L3 | Fetch a web page (single URL) and return readable plain text extracted from HTML… |
-| [hubspot-integration](hubspot-integration/) | ngxtm | ★ 0 | 32% | L2 | Expert patterns for HubSpot CRM integration including OAuth authentication, CRM … |
-| [hubspot-integration](hubspot-integration/) | sonson0910 | ★ 0 | 32% | L2 | Expert patterns for HubSpot CRM integration including OAuth authentication, CRM … |
-| [fastapi-templates](fastapi-templates/) | Superesty | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | lCoNDel | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | Iowa51 | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | elwa2 | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | netflyapp | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | BhurkeSiddhesh | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | rothdev | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [local-qa](local-qa/) | majiayu000 | ★ 0 | 32% | L3 | Run local QA for the repository. Use when asked to run formatting, linting, or p… |
-| [vite-config](vite-config/) | majiayu000 | ★ 0 | 32% | L3 | Generates vite.config.ts for building and serving the Vue 3 application. Configu… |
-| [fastapi-templates](fastapi-templates/) | Alexsander532 | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | xiangteng007 | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | AristidesAI | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | YPYT1 | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | abmbodj | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [hubspot-integration](hubspot-integration/) | corsal2025 | ★ 0 | 32% | L2 | Expert patterns for HubSpot CRM integration including OAuth authentication, CRM … |
-| [hubspot-integration](hubspot-integration/) | corsal2025 | ★ 0 | 32% | L2 | Expert patterns for HubSpot CRM integration including OAuth authentication, CRM … |
-| [hubspot-integration](hubspot-integration/) | javiertarazon | ★ 0 | 32% | L2 | Expert patterns for HubSpot CRM integration including OAuth authentication, CRM … |
-| [fix-validation-errors-with-overlays](fix-validation-errors-with-overlays/) | majiayu000 | ★ 0 | 32% | L3 | Use when you have lint errors but can't modify the source spec, or need to add m… |
-| [fastapi-templates](fastapi-templates/) | RJsolucoes | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | engryamato | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | nextgen-hms | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | moabualruz | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | e-docBR | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | Sorawittj | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | Kayky4 | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [frontend-css](frontend-css/) | jeremyrdavis | ★ 0 | 32% | L3 | Write and maintain CSS following the project's established methodology (Tailwind… |
-| [Frontend CSS](frontend-css/) | Mahmoud9-dev | ★ 0 | 32% | L3 | Write maintainable CSS and styling code using Tailwind CSS, CSS Modules, or othe… |
-| [frontend-design](frontend-design/) | hatappo | ★ 0 | 32% | L2 | Create distinctive, production-grade frontend interfaces with high design qualit… |
-| [frontend-responsive](frontend-responsive/) | jeremyrdavis | ★ 0 | 32% | L2 | Implement responsive designs that work across mobile, tablet, and desktop screen… |
-| [fastapi-templates](fastapi-templates/) | aiskillstore | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [api-design](api-design/) | kcenon | ★ 0 | 32% | L2 | Provides API design guidelines for REST, GraphQL, versioning, logging, observabi… |
-| [fastapi-templates](fastapi-templates/) | milosriki | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | bhaumikgohel | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [fastapi-templates](fastapi-templates/) | ledger101 | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [synthetic-event-system-internals](synthetic-event-system-internals/) | majiayu000 | ★ 0 | 32% | L2 | Leverage React's event delegation system for optimization and custom event behav… |
-| [Backend Migrations](backend-migrations/) | shynlee04 | ★ 0 | 32% | L2 | Create and manage database schema migrations with reversible operations, zero-do… |
-| [fastapi-sqlmodel-arq-backend](fastapi-sqlmodel-arq-backend/) | SaintFore | ★ 0 | 32% | L2 | 构建或改造基于 FastAPI + SQLModel(异步 SQLAlchemy) + Arq + Redis 的后端系统。用于新增/重构 RESTful AP… |
-| [fastapi-templates](fastapi-templates/) | andre-sugai | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [python-package-migrator](python-package-migrator/) | NeverSight | ★ 0 | 32% | L2 | Plan and execute upgrades for Python libraries, handling breaking changes. Use w… |
-| [python-package-migrator](python-package-migrator/) | jorgealves | ★ 0 | 32% | L2 | Plan and execute upgrades for Python libraries, handling breaking changes. Use w… |
-| [fastapi-templates](fastapi-templates/) | duclm1x1 | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [youtube-music-openclaw](youtube-music-openclaw/) | miwgel | ★ 0 | 32% | L3 | Control YouTube Music with natural language - search, play, pause, skip, volume,… |
-| [openai-api](openai-api/) | traviskaufman | ★ 0 | 32% | L2 | Use the OpenAI API effectively in a NextJS project. Trigger when the user wants … |
-| [create-database-row](create-database-row/) | makenotion | ★ 0 | 32% | L2 | Insert a new row into a specified Notion database using natural-language propert… |
-| [fastapi-templates](fastapi-templates/) | AtilaMedeiros | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [skillhub](skillhub/) | Ray0907 | ★ 0 | 32% | L3 | Cross-platform Agent Skills manager. Use when user wants to sync, install, list,… |
-| [fastapi-templates](fastapi-templates/) | Spark014 | ★ 0 | 32% | L2 | Create production-ready FastAPI projects with async patterns, dependency injecti… |
-| [hubspot-integration](hubspot-integration/) | boisenoise | ★ 0 | 32% | L2 | Expert patterns for HubSpot CRM integration including OAuth authentication, CRM … |
-| [orama-integration](orama-integration/) | majiayu000 | ★ 0 | 32% | L2 | Use when integrating with Orama. Links to official docs for search, indexing, an… |
-| [analyze](analyze/) | NeverSight | ★ 0 | 31% | L2 | Deep analysis and investigation |
-| [analyze](analyze/) | chanhee-kang | ★ 0 | 31% | L2 | Deep analysis and investigation |
-| [analyze](analyze/) | ssccio | ★ 0 | 31% | L2 | Deep analysis and investigation |
-| [analyze](analyze/) | majiayu000 | ★ 0 | 31% | L2 | Deep analysis and investigation |
-| [analyze](analyze/) | majiayu000 | ★ 0 | 31% | L2 | Deep analysis and investigation |
-| [database-schema](database-schema/) | sunnypatneedi | ★ 0 | 31% | L2 | Design a database schema |
-| [frontend-specialist](frontend-specialist/) | majiayu000 | ★ 0 | 31% | L3 | Frontend development agent for React, Vue, Next.js with modern UI/UX patterns |
-| [frontend-specialist](frontend-specialist/) | GLINCKER | ★ 0 | 31% | L3 | Frontend development agent for React, Vue, Next.js with modern UI/UX patterns |
-| [frontend-specialist](frontend-specialist/) | Lordjiggy | ★ 0 | 31% | L3 | Frontend development agent for React, Vue, Next.js with modern UI/UX patterns |
-| [frontend-specialist](frontend-specialist/) | majiayu000 | ★ 0 | 31% | L3 | Frontend development agent for React, Vue, Next.js with modern UI/UX patterns |
-| [web-design-guidelines](web-design-guidelines/) | weareenvoy | ★ 0 | 31% | L2 | Review files for compliance with Web Interface Guidelines. |
-| [dataverse-python](dataverse-python/) | pingqLIN | ★ 0 | 30% | L2 | dataverse-python guidelines Triggers on: ** |
-| [agentuity-cli-cloud-apikey-get](agentuity-cli-cloud-apikey-get/) | majiayu000 | ★ 0 | 29% | L3 | Get a specific API key by id. Requires authentication. Use for Agentuity cloud p… |
-| [agentuity-cli-cloud-apikey-get](agentuity-cli-cloud-apikey-get/) | agentuity | ★ 0 | 29% | L2 | Get a specific API key by id. Requires authentication. Use for Agentuity cloud p… |
-| [agentuity-cli-cloud-apikey-get](agentuity-cli-cloud-apikey-get/) | majiayu000 | ★ 0 | 29% | L3 | Get a specific API key by id. Requires authentication. Use for Agentuity cloud p… |
-| [script-executor](script-executor/) | majiayu000 | ★ 0 | 28% | L3 | Executes shell scripts in a safe environment. |
-| [intelligent-routing](intelligent-routing/) | pedroct | ★ 0 | 28% | L2 | Route tasks to the right specialist agents and skills. |
-| [script-executor](script-executor/) | majiayu000 | ★ 0 | 28% | L3 | Executes shell scripts in a safe environment. |
-| [niko-plan](niko-plan/) | Texarkanine | ★ 0 | 28% | L2 | Niko Memory Bank System - Plan Phase - Implementation Planning |
-| [niko-plan](niko-plan/) | Texarkanine | ★ 0 | 28% | L2 | Niko Memory Bank System - Plan Phase - Implementation Planning |
-| [patterns/adapter](patterns-adapter/) | majiayu000 | ★ 0 | 28% | L2 | Adapter (Wrapper) Pattern pattern for C development |
-| [alma-skill-sync](alma-skill-sync/) | majiayu000 | ★ 0 | 28% | L3 | 用于同步 Alma 技能到斜杠命令（Prompts）列表。当用户新增技能、修改技能名称或需要清理无效的快捷指令时使用。 |
-| [osf-workflow-integrator](osf-workflow-integrator/) | a5c-ai | ★ 0 | 28% | L2 | Skill for integrating with Open Science Framework workflows |
-| [frontend-component](frontend-component/) | afettah | ★ 0 | 28% | L2 | Create React components following project standards. |
-| [audit_logging](audit_logging/) | majiayu000 | ★ 0 | 28% | L3 | Ensure every critical action is logged (vital for UAG/Trust Room). |
-| [insomnia](insomnia/) | G1Joshi | ★ 0 | 28% | L2 | Insomnia API client for REST and GraphQL. Use for API testing. |
-| [license-header-adder](license-header-adder/) | majiayu000 | ★ 0 | 28% | L3 | 為新建立的原始碼檔案加上標準的開源授權條款標頭。適用於需要版權聲明的程式碼檔案建立情境。 |
-| [use-gunshi-cli](use-gunshi-cli/) | ryoppippi | ★ 0 | 28% | L2 | Use the Gunshi library to create command-line interfaces in JavaScript/TypeScrip… |
-| [drizzle-patterns](drizzle-patterns/) | grmkris | ★ 0 | 28% | L3 | Drizzle ORM patterns for SQLite - queries, relations, and safety guidelines. Use… |
-| [use-gunshi-cli](use-gunshi-cli/) | majiayu000 | ★ 0 | 28% | L3 | Use the Gunshi library to create command-line interfaces in JavaScript/TypeScrip… |
-| [use-gunshi-cli](use-gunshi-cli/) | azkore | ★ 0 | 28% | L2 | Use the Gunshi library to create command-line interfaces in JavaScript/TypeScrip… |
-| [use-gunshi-cli](use-gunshi-cli/) | majiayu000 | ★ 0 | 28% | L3 | Use the Gunshi library to create command-line interfaces in JavaScript/TypeScrip… |
-| [use-gunshi-cli](use-gunshi-cli/) | mfyuu | ★ 0 | 28% | L2 | Use the Gunshi library to create command-line interfaces in JavaScript/TypeScrip… |
-| [use-gunshi-cli](use-gunshi-cli/) | p-chan | ★ 0 | 28% | L2 | Use the Gunshi library to create command-line interfaces in JavaScript/TypeScrip… |
-| [drizzle-patterns](drizzle-patterns/) | grmkris | ★ 0 | 28% | L3 | Drizzle ORM patterns for SQLite - queries, relations, and safety guidelines. Use… |
-| [aztec-developer](aztec-developer/) | jp4g | ★ 0 | 26% | L2 | Patterns for Aztec development: contracts, frontend, testing. Use when working w… |
-| [API Documentation Generator](api-documentation-generator/) | openclaw | ★ 0 | 26% | L2 | Auto-generates comprehensive API docs from code. REST, GraphQL, WebSocket with e… |
-| [migrate-to-skills](migrate-to-skills/) | QkHearn | ★ 0 | 26% | L2 | Photon Skill Migrator: Convert legacy rules and commands to Photon's native Agen… |
-| [file-archiver](file-archiver/) | AIDotNet | ★ 0 | 25% | L2 | 创建和解压ZIP、TAR和GZIP压缩包，支持密码保护。 |
-| [file-archiver](file-archiver/) | majiayu000 | ★ 0 | 25% | L3 | 创建和解压ZIP、TAR和GZIP压缩包，支持密码保护。 |
-| [file-archiver](file-archiver/) | majiayu000 | ★ 0 | 25% | L3 | 创建和解压ZIP、TAR和GZIP压缩包，支持密码保护。 |
-| [platform-backend](platform-backend/) | majiayu000 | ★ 0 | 22% | L1 | Server-side architecture and security patterns. Extends core-coding-standards wi… |
-| [platform-backend](platform-backend/) | majiayu000 | ★ 0 | 22% | L1 | Server-side architecture and security patterns. Extends core-coding-standards wi… |
-| [automation_expert](automation_expert/) | majiayu000 | ★ 0 | 22% | L2 | 自动化流程与脚本专家，擅长使用 Python, PowerShell, Shell 及各类工具实现任务自动化。 |
-| [coding-standards](coding-standards/) | TheBeardedBearSAS | ★ 0 | 18% | L1 | Code-Standards. Use when reviewing code style or formatting. |
-| [coding-standards](coding-standards/) | majiayu000 | ★ 0 | 18% | L1 | Code-Standards. Use when reviewing code style or formatting. |
-| [coding-standards](coding-standards/) | majiayu000 | ★ 0 | 18% | L1 | Code-Standards. Use when reviewing code style or formatting. |
-| [procedural-generation](procedural-generation/) | majiayu000 | ★ 0 | 18% | L1 | Procedural level generation skill for PCG algorithms. |
 
 ---
 

@@ -41,11 +41,24 @@
 | [acc-code-examples-template](acc-code-examples-template/) | majiayu000 | ★ 92 | 77% | L3 | Generates code examples for PHP documentation. Creates minimal, copy-paste ready… |
 | [absurdist-readme-writer](absurdist-readme-writer/) | majiayu000 | ★ 92 | 70% | L2 | Toolkit for creating an entertainingly stupid README that manages to give off Ti… |
 | [adb-bypass](adb-bypass/) | majiayu000 | ★ 2 | 67% | L3 | PlayIntegrityFork bypass verification and validation for Play Integrity spoofing… |
+| [adr-generator](adr-generator/) | majiayu000 | ★ 2 | 67% | L3 | Specialized skill for generating and managing Architecture Decision Records (ADR… |
 | [add-neon-docs](add-neon-docs/) | majiayu000 | ★ 2 | 64% | L2 | Use this skill when the user asks to add documentation, add docs, add references… |
 | [add-new-skills-to-workflow](add-new-skills-to-workflow/) | majiayu000 | ★ 2 | 64% | L3 | Add new skills to an existing workflow and update all related documentation. Use… |
 | [add-sensor](add-sensor/) | majiayu000 | ★ 2 | 64% | L3 | Use when user wants to add a new sensor to the Enviro+ monitoring system, or ask… |
+| [adding-nango-provider-support](adding-nango-provider-support/) | majiayu000 | ★ 2 | 64% | L3 | Use when adding support for a new Nango provider - configures provider in provid… |
+| [agent-changelog](agent-changelog/) | majiayu000 | ★ 2 | 64% | L3 | Compile an agent-optimized changelog by cross-referencing git history with plans… |
+| [agent-context-generator](agent-context-generator/) | majiayu000 | ★ 2 | 64% | L3 | Generate project-level AGENTS.md guides that capture conventions, workflows, and… |
+| [agent-doc-writer](agent-doc-writer/) | majiayu000 | ★ 2 | 64% | L3 | Analyze code changes and recommend appropriate documentation. Evaluates git diff… |
+| [agent-ops-create-technical-docs](agent-ops-create-technical-docs/) | majiayu000 | ★ 2 | 64% | L3 | Create focused, specific technical documentation for codebase sections. Analyzes… |
+| [agent-ops-docs](agent-ops-docs/) | majiayu000 | ★ 2 | 64% | L3 | Documentation management for README, CHANGELOG, API docs, and user-facing docume… |
+| [agent-ops-mkdocs](agent-ops-mkdocs/) | majiayu000 | ★ 2 | 64% | L3 | MkDocs documentation site management: initializing, updating, building, and depl… |
+| [agent-ops-versioning](agent-ops-versioning/) | majiayu000 | ★ 2 | 64% | L3 | Manage semantic versioning, changelog generation, and release notes. Auto-genera… |
 | [add-manual-debt](add-manual-debt/) | majiayu000 | ★ 2 | 60% | L3 | Manually add a technical debt item to MASTER_DEBT.jsonl |
 | [add-project](add-project/) | majiayu000 | ★ 2 | 57% | L3 | 새 프로젝트를 STAR+I로 추가할 때 |
+| [add-wikipedia-references](add-wikipedia-references/) | majiayu000 | ★ 2 | 57% | L3 | Add Wikipedia reference links to concepts that don't have one. Searches for rele… |
+| [agent-api-documenter](agent-api-documenter/) | majiayu000 | ★ 2 | 51% | L2 | Expert API documenter specializing in creating comprehensive, developer-friendly… |
+| [agent-documentation-engineer](agent-documentation-engineer/) | majiayu000 | ★ 2 | 51% | L2 | Expert documentation engineer specializing in technical documentation systems, A… |
+| [agent-technical-writer](agent-technical-writer/) | majiayu000 | ★ 2 | 51% | L2 | Expert technical writer specializing in clear, accurate documentation and conten… |
 | [changelog-generator](changelog-generator/) | majiayu000 | ★ 1 | 62% | L2 | Automatically creates user-facing changelogs from git commits by analyzing commi… |
 | [1k-new-skill](1k-new-skill/) | majiayu000 | ★ 1 | 62% | L3 | Creates a new Claude Code Skill following best practices. Use when the user want… |
 | [obsidian-markdown](obsidian-markdown/) | majiayu000 | ★ 1 | 62% | L3 | Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, pro… |
@@ -78,6 +91,8 @@
 | [PRD-README v1 Standard](prd-readme-v1-standard/) | hculap | ★ 0 | 48% | L2 | This skill should be used when the user asks to "write a readme", "create readme… |
 | [PRD-README v1 Standard](prd-readme-v1-standard/) | majiayu000 | ★ 0 | 48% | L2 | This skill should be used when the user asks to "write a readme", "create readme… |
 | [openclaw-docs-sync](openclaw-docs-sync/) | TheSethRose | ★ 0 | 48% | L3 | Sync OpenClaw + ClawHub + Skills docs into a local mirror for the QMD memory bac… |
+| [adr-documentation](adr-documentation/) | MadAppGang | ★ 0 | 48% | L3 | Architecture Decision Records (ADR) documentation practice. Use when documenting… |
+| [adr-documentation](adr-documentation/) | MadAppGang | ★ 0 | 48% | L3 | Architecture Decision Records (ADR) documentation practice. Use when documenting… |
 | [fix-markdown](fix-markdown/) | majiayu000 | ★ 0 | 45% | L2 | **`GOAL`**: use prettier and vale to fix lint, formatting, and prose issues in m… |
 | [thoroughness](thoroughness/) | majiayu000 | ★ 0 | 45% | L3 | Use when implementing complex multi-step tasks, fixing critical bugs, or when qu… |
 | [research-documentation](research-documentation/) | seungwonme | ★ 0 | 45% | L2 | Searches across your Notion workspace, synthesizes findings from multiple pages,… |
@@ -158,6 +173,18 @@
 | [review-docs](review-docs/) | toshi-hm | ★ 0 | 45% | L2 | 設計書に記載された要件を理解し、実装に必要な情報を抽出します。機能名やコンポーネント名を指定すると、関連する設計書を横断的に参照してMVP版の仕様、実装方針、チ… |
 | [maintain-docs](maintain-docs/) | grafana | ★ 0 | 45% | L3 | Periodic documentation maintenance audit. Finds orphaned docs, detects drift bet… |
 | [artifact-creation](artifact-creation/) | hutchic | ★ 0 | 45% | L3 | Guide the creation of artifacts (rules, skills, commands, subagents) from patter… |
+| [thoroughness](thoroughness/) | pr-pm | ★ 0 | 45% | L3 | Use when implementing complex multi-step tasks, fixing critical bugs, or when qu… |
+| [amazon-sixpager-reviewer](amazon-sixpager-reviewer/) | chato-prnd | ★ 0 | 45% | L2 | Review Markdown 기반 Amazon 6-pager(6pager/six pager) 문서의 Context/Goal/Tasks 구성이 원… |
+| [api-docs](api-docs/) | majiayu000 | ★ 0 | 45% | L2 | Generate, validate, and maintain API documentation (REST/OpenAPI and GraphQL) wi… |
+| [api-docs](api-docs/) | majiayu000 | ★ 0 | 45% | L2 | Generate, validate, and maintain API documentation (REST/OpenAPI and GraphQL) wi… |
+| [sync-docs](sync-docs/) | majiayu000 | ★ 0 | 45% | L3 | Strategic documentation sync - review docs before implementation (pull context) … |
+| [forge-setup-project](forge-setup-project/) | NeverSight | ★ 0 | 45% | L3 | Set up a project's meta-structure for agentic engineering — CLAUDE.md, AGENTS.md… |
+| [documentation-standards](documentation-standards/) | Hack23 | ★ 0 | 45% | L3 | Clear technical documentation with JSDoc, READMEs, Mermaid diagrams, ISMS policy… |
+| [document-writing-skills](document-writing-skills/) | kimasplund | ★ 0 | 45% | L3 | Teaches document writing patterns and templates that agents apply when generatin… |
+| [api-documenter](api-documenter/) | alirezarezvani | ★ 0 | 45% | L3 | Auto-generate API documentation from code and comments. Use when API endpoints c… |
+| [api-documenter](api-documenter/) | majiayu000 | ★ 0 | 45% | L3 | Auto-generate API documentation from code and comments. Use when API endpoints c… |
+| [api-documenter](api-documenter/) | NeverSight | ★ 0 | 45% | L3 | Auto-generate API documentation from code and comments. Use when API endpoints c… |
+| [api-documenter](api-documenter/) | majiayu000 | ★ 0 | 45% | L3 | Auto-generate API documentation from code and comments. Use when API endpoints c… |
 | [documentation](documentation/) | NeverSight | ★ 0 | 44% | L3 | Technical writing, API docs, and documentation best practices |
 | [documentation](documentation/) | miles990 | ★ 0 | 44% | L3 | Technical writing, API docs, and documentation best practices |
 | [code-documentation](code-documentation/) | plurigrid | ★ 0 | 44% | L3 | Writing effective code documentation - API docs, README files, inline |
@@ -165,33 +192,6 @@
 | [deepwiki-mcp](deepwiki-mcp/) | majiayu000 | ★ 0 | 44% | L3 | DeepWiki MCP server for AI-powered GitHub repository documentation and |
 | [technical-accuracy-and-usability-rules](technical-accuracy-and-usability-rules/) | oimiragieo | ★ 0 | 43% | L3 | Ensures the documentation is technically accurate and highly usable for the targ… |
 | [technical-accuracy-and-usability-rules](technical-accuracy-and-usability-rules/) | Finimo-Solutions | ★ 0 | 43% | L3 | Ensures the documentation is technically accurate and highly usable for the targ… |
-| [code-documentation](code-documentation/) | Jonathan0823 | ★ 0 | 41% | L3 | Code documentation standards, patterns, and best practices |
-| [Pdf](pdf/) | danielmiessler | ★ 0 | 41% | L3 | PDF processing. USE WHEN pdf, PDF file. SkillSearch('pdf') for docs. |
-| [Pdf](pdf/) | verrio1 | ★ 0 | 41% | L3 | PDF processing. USE WHEN pdf, PDF file. SkillSearch('pdf') for docs. |
-| [Pdf](pdf/) | virtualian | ★ 0 | 41% | L3 | PDF processing. USE WHEN pdf, PDF file. SkillSearch('pdf') for docs. |
-| [readme-generate](readme-generate/) | majiayu000 | ★ 0 | 41% | L3 | Generate comprehensive README files from code analysis |
-| [readme-generate](readme-generate/) | manastalukdar | ★ 0 | 41% | L3 | Generate comprehensive README files from code analysis |
-| [readme-generate](readme-generate/) | majiayu000 | ★ 0 | 41% | L3 | Generate comprehensive README files from code analysis |
-| [Lab 14: Claude Code Skill](lab-14-claude-code-skill/) | fbratten | ★ 0 | 41% | L3 | Create a custom Claude Code skill for natural language orchestration. |
-| [docs-as-code](docs-as-code/) | majiayu000 | ★ 0 | 41% | L3 | Documentation pipeline automation and docs-as-code workflows |
-| [deepwiki-mcp](deepwiki-mcp/) | plurigrid | ★ 0 | 41% | L3 | DeepWiki MCP server for AI-powered GitHub repository documentation and Q&A |
-| [spec-interview](spec-interview/) | NeverSight | ★ 0 | 41% | L2 | 通过系统性访谈完善技术规格文档，访谈完成后自动创建 OpenSpec proposal。适用于需求细化、技术方案设计、规范驱动开发等场景。 |
-| [coder-docs](coder-docs/) | coder | ★ 0 | 41% | L3 | Index + offline snapshot of coder/coder documentation (progressive disclosure). |
-| [claude-guide](claude-guide/) | diegocconsolini | ★ 0 | 41% | L3 | Navigate Claude Code documentation and get quick answers about configuration, MC… |
-| [dd-docs](dd-docs/) | datadog-labs | ★ 0 | 41% | L3 | Datadog docs lookup using docs.datadoghq.com/llms.txt and linked Markdown pages. |
-| [docs-plugin](docs-plugin/) | udecode | ★ 0 | 40% | L3 | Command: docs-plugin |
-| [idae-db-readme](idae-db-readme/) | medyll | ★ 0 | 38% | L3 | Skill to dynamically retrieve the documentation (README.md) of the idae-db packa… |
-| [documentation-research](documentation-research/) | jpoutrin | ★ 0 | 38% | L2 | Enforces documentation research before implementation. Auto-loads when implement… |
-| [anydocs](anydocs/) | openclaw | ★ 0 | 38% | L3 | URL to sitemap.xml |
-| [crawl-docs-skill](crawl-docs-skill/) | d0ublecl1ck | ★ 0 | 38% | L3 | Run a Crawl4AI-based doc crawler and save internal pages as Markdown using page … |
-| [upgrade-claude-code](upgrade-claude-code/) | popup-studio-ai | ★ 0 | 38% | L3 | Claude Code 설정 업그레이드 |
-| [localization](localization/) | pingqLIN | ★ 0 | 36% | L2 | Guidelines for localizing markdown documents Triggers on: **/*.md |
-| [generate-docstrings](generate-docstrings/) | majiayu000 | ★ 0 | 34% | L3 | Create docstrings for functions and classes. Use when documenting code APIs. |
-| [generate-docstrings](generate-docstrings/) | majiayu000 | ★ 0 | 34% | L3 | Create docstrings for functions and classes. Use when documenting code APIs. |
-| [generate-docstrings](generate-docstrings/) | HomericIntelligence | ★ 0 | 34% | L3 | Create docstrings for functions and classes. Use when documenting code APIs. |
-| [cgr-docs-governance](cgr-docs-governance/) | fermaf | ★ 0 | 32% | L3 | Use this skill when updating project documentation after backend/frontend operat… |
-| [markdowntown-atlas-scan](markdowntown-atlas-scan/) | majiayu000 | ★ 0 | 32% | L2 | Atlas Simulator scan flow and next-step guidance for markdowntown. Use when work… |
-| [docs](docs/) | aiskillstore | ★ 0 | 26% | L2 | Generates documentation files including NotebookLM YAML and slide content. Use w… |
 
 ---
 

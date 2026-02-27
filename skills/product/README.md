@@ -1,6 +1,6 @@
 # 📂 product
 
-> 159 skills in this category
+> 140 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -32,8 +32,15 @@
 | [abandon](abandon/) | majiayu000 | ★ 92 | 73% | L3 | Abandon an incomplete increment (requirements changed, obsolete) |
 | [a-b-testing](a-b-testing/) | majiayu000 | ★ 92 | 70% | L2 | The science of learning through controlled experimentation. A/B testing isn't ab… |
 | [aboutme-index](aboutme-index/) | majiayu000 | ★ 92 | 64% | L2 | Index-based file discovery using ABOUTME headers. Use INSTEAD of grep or Explore… |
+| [Advanced GetX Patterns](advanced-getx-patterns/) | majiayu000 | ★ 2 | 67% | L2 | Advanced GetX features including Workers, GetxService, SmartManagement, GetConne… |
 | [brainstorming](brainstorming/) | majiayu000 | ★ 2 | 64% | L2 | You MUST use this before any creative work - creating features, building compone… |
+| [advanced-text-search-matching](advanced-text-search-matching/) | majiayu000 | ★ 2 | 64% | L3 | Production-grade text search algorithms for finding and matching text in large d… |
+| [AEM Development Workflow](aem-development-workflow/) | majiayu000 | ★ 2 | 64% | L3 | Required workflow for AEM EDS development - linting, testing, preview validation… |
+| [agent-ops-potential-discovery](agent-ops-potential-discovery/) | majiayu000 | ★ 2 | 64% | L2 | Analyze incoming content (text, files, folders, URLs) to extract purpose, create… |
 | [add-new-feature](add-new-feature/) | majiayu000 | ★ 2 | 60% | L2 | SAM-style feature initiation workflow: discovery -> codebase analysis -> archite… |
+| [adr-roadmap](adr-roadmap/) | majiayu000 | ★ 2 | 60% | L3 | Generate phased implementation roadmaps from Architecture Decision Records |
+| [adhd-productivity](adhd-productivity/) | majiayu000 | ★ 2 | 57% | L2 | ADHD-optimized productivity techniques and interventions. Invoke when user shows… |
+| [agent-product-manager](agent-product-manager/) | majiayu000 | ★ 2 | 51% | L2 | Expert product manager specializing in product strategy, user-centric developmen… |
 | [planning](planning/) | majiayu000 | ★ 1 | 62% | L2 | Universal planning for technical and non-technical projects. Domains: software i… |
 | [genomic-feature-annotation](genomic-feature-annotation/) | majiayu000 | ★ 1 | 62% | L3 | This skill is used to perform genomic feature annotation and visualization for a… |
 | [correlation-methylation-epiFeatures](correlation-methylation-epifeatures/) | majiayu000 | ★ 1 | 62% | L3 | This skill provides a complete pipeline for integrating CpG methylation data wit… |
@@ -122,47 +129,21 @@
 | [requesting-code-review](requesting-code-review/) | hugo-berendi | ★ 0 | 45% | L3 | Use when completing tasks, implementing major features, or before merging to ver… |
 | [working-backwards-coach](working-backwards-coach/) | nwadmark | ★ 0 | 45% | L2 | Create rigorous customer-first product documentation for product builders. Use w… |
 | [u0577-observability-regression-sentinel](u0577-observability-regression-sentinel/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Observability Regression Sentinel" capability in production for  wo… |
+| [clavix-refine](clavix-refine/) | majiayu000 | ★ 0 | 45% | L3 | Iterate on existing PRDs or improved prompts to enhance quality. Use when you ha… |
+| [clavix-refine](clavix-refine/) | alysonhower | ★ 0 | 45% | L3 | Iterate on existing PRDs or improved prompts to enhance quality. Use when you ha… |
+| [u07958-attention-management-architecture-for-eldercare-coordination](u07958-attention-management-architecture-for-eldercare-coordination/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Attention Management Architecture for eldercare coordination" capab… |
+| [epic-management](epic-management/) | troykelly | ★ 0 | 45% | L3 | Use for LARGE work requiring feature-level grouping. Creates epic tracking issue… |
+| [fresh-eyes](fresh-eyes/) | NeverSight | ★ 0 | 45% | L3 | Re-reads code you just wrote with fresh perspective to catch bugs, errors, and i… |
+| [software-engineering-lead](software-engineering-lead/) | majiayu000 | ★ 0 | 45% | L3 | Expert software engineering lead who translates product requirements into compre… |
+| [plan-feature](plan-feature/) | andrewvaughan | ★ 0 | 45% | L3 | Plan a new feature from concept to approved implementation plan. Activates Produ… |
+| [prd-documentation](prd-documentation/) | foolpoet44 | ★ 0 | 45% | L3 | Product Requirements Document creation and feature specification writing. Use wh… |
+| [gspec-epic](gspec-epic/) | gballer77 | ★ 0 | 45% | L2 | Break down a large epic into multiple focused feature PRDs with dependency mappi… |
 | [strict-user-requirements-adherence](strict-user-requirements-adherence/) | majiayu000 | ★ 0 | 43% | L3 | Strictly adheres to specified user flow and game rules, making sure to follow do… |
 | [strict-user-requirements-adherence](strict-user-requirements-adherence/) | majiayu000 | ★ 0 | 43% | L3 | Strictly adheres to specified user flow and game rules, making sure to follow do… |
 | [ask-questions-if-underspecified](ask-questions-if-underspecified/) | majiayu000 | ★ 0 | 41% | L2 | Clarify requirements before implementing. Use when serious doubts arise. |
 | [ask-questions-if-underspecified](ask-questions-if-underspecified/) | majiayu000 | ★ 0 | 41% | L2 | Clarify requirements before implementing. Use when serious doubts arise. |
 | [ask-questions-if-underspecified](ask-questions-if-underspecified/) | petebarbosa | ★ 0 | 41% | L2 | Clarify requirements before implementing. Use when serious doubts arise. |
 | [new-product](new-product/) | artsmc | ★ 0 | 41% | L3 | Path to documentation files or product description |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | rmyndharis | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | KignLeon | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | mshraditya | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | Sorawittj | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | Baooooooo0 | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [iikit-03-plan](iikit-03-plan/) | asm0dey | ★ 0 | 41% | L3 | Create technical implementation plan from feature specification |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | pCruvinel | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | haniakrim21 | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [backlog](backlog/) | cyotee | ★ 0 | 41% | L3 | Manage tasks/ backlogs and worktrees created by the cyotee Claude plugin set. |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | xiangteng007 | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | xfstudio | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | AtilaMedeiros | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | Nandukumar-koribilli | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | bissan-sameeh | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | harshahosur81 | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | imranstein | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | chicanoandres702 | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | namanprat | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | NeverSight | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | Iowa51 | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | elwa2 | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [full-stack-orchestration-full-stack-feature](full-stack-orchestration-full-stack-feature/) | Superesty | ★ 0 | 41% | L3 | Use when working with full stack orchestration full stack feature |
-| [workflows-work](workflows-work/) | ratacat | ★ 0 | 41% | L3 | Execute work plans efficiently while maintaining quality and finishing features |
-| [pm-interview](pm-interview/) | jscraik | ★ 0 | 41% | L2 | Plan and review product scope, value, metrics, and rollout via a structured |
-| [commit](commit/) | MetaMask | ★ 0 | 34% | L2 | Optionally checks, then commits code to the current or a new feature branch. |
-| [commit](commit/) | majiayu000 | ★ 0 | 34% | L3 | Optionally checks, then commits code to the current or a new feature branch. |
-| [roadmap-guide](roadmap-guide/) | majiayu000 | ★ 0 | 31% | L3 | 在编写、更新、维护 roadmap.md 的时候触发 |
-| [roadmap-guide](roadmap-guide/) | majiayu000 | ★ 0 | 31% | L3 | 在编写、更新、维护 roadmap.md 的时候触发 |
-| [roadmap-guide](roadmap-guide/) | MMorit00 | ★ 0 | 31% | L3 | 在编写、更新、维护 roadmap.md 的时候触发 |
-| [vcf](vcf/) | majiayu000 | ★ 0 | 26% | L2 | Short alias for vc-phase-loop. Use when the user invokes "vcf:" or "use vcf:" an… |
-| [vcf](vcf/) | majiayu000 | ★ 0 | 26% | L2 | Short alias for vc-phase-loop. Use when the user invokes "vcf:" or "use vcf:" an… |
-| [feature-engineering](feature-engineering/) | root-5 | ★ 0 | 25% | L2 | モデルの性能を向上させるために、既存のデータから新しい特徴量を作成する。 |
-| [code-discovery](code-discovery/) | majiayu000 | ★ 0 | 22% | L3 | Helpers to discover, rank, and invoke repository symbols from natural language w… |
-| [code-discovery](code-discovery/) | majiayu000 | ★ 0 | 22% | L3 | Helpers to discover, rank, and invoke repository symbols from natural language w… |
-| [code-discovery](code-discovery/) | idealley | ★ 0 | 22% | L3 | Helpers to discover, rank, and invoke repository symbols from natural language w… |
 
 ---
 

@@ -1,6 +1,6 @@
 # 📂 tools
 
-> 1.843 skills in this category
+> 1,814 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -871,6 +871,11 @@
 | [terragrunt-validator](terragrunt-validator/) | akin-ozer | ★ 77 | 76% | L3 | Comprehensive toolkit for validating, linting, testing, and automating Terragrun… |
 | [skill-creator](skill-creator/) | abhaymundhara | ★ 4 | 63% | L3 | Create new skills for ChatDock |
 | [adb-builder](adb-builder/) | majiayu000 | ★ 2 | 67% | L3 | **Tier**: Tier 0 (Meta-Generation Framework) **Purpose**: Automated scaffolding … |
+| [adding-milestones](adding-milestones/) | majiayu000 | ★ 2 | 67% | L3 | Use this skill when adding a milestone to an existing project, starting a new mi… |
+| [advanced-elicitation](advanced-elicitation/) | majiayu000 | ★ 2 | 67% | L3 | Use when you want to improve response quality through meta-cognitive reasoning. … |
+| [affiliate-marketing](affiliate-marketing/) | majiayu000 | ★ 2 | 67% | L2 | Build high-converting SaaS affiliate programs with 20-40% commissions, KOL/KOC p… |
+| [affordances](affordances/) | majiayu000 | ★ 2 | 67% | L2 | Las affordances son propiedades de un objeto que sugieren cómo puede ser usado. … |
+| [agent-client-protocol](agent-client-protocol/) | majiayu000 | ★ 2 | 67% | L3 | Agent Client Protocol (ACP) - Standardized communication between code editors an… |
 | [Build Your Pipecat Skill](build-your-pipecat-skill/) | majiayu000 | ★ 2 | 64% | L3 | Create your Pipecat skill from official documentation, then learn to improve it … |
 | [second-brain](second-brain/) | majiayu000 | ★ 2 | 64% | L3 | Personal knowledge base powered by Ensue for capturing and retrieving understand… |
 | [identify](identify/) | majiayu000 | ★ 2 | 64% | L3 | Identify friction points, bottlenecks, bugs, and technical debt. Use for audits,… |
@@ -884,18 +889,76 @@
 | [add-new-file](add-new-file/) | majiayu000 | ★ 2 | 64% | L3 | Guide for adding new files to this codebase while respecting architectural princ… |
 | [add-nixvim-plugin](add-nixvim-plugin/) | majiayu000 | ★ 2 | 64% | L2 | Add Neovim plugins not available in NixVim's official plugin set using extraPlug… |
 | [add-social-media-header](add-social-media-header/) | majiayu000 | ★ 2 | 64% | L2 | Add professional social media headers to README files and documentation to enhan… |
+| [add-url](add-url/) | majiayu000 | ★ 2 | 64% | L3 | Add source URLs to workdesk/sources.md one-by-one with validation and duplicatio… |
+| [add-video-to-collection](add-video-to-collection/) | majiayu000 | ★ 2 | 64% | L3 | Manually add individual YouTube URLs to a custom collection CSV. Use when adding… |
+| [add-workflow](add-workflow/) | majiayu000 | ★ 2 | 64% | L3 | Guide for adding a new RolloutWorkflow to AReaL. Use when user wants to create a… |
+| [adding-new-metric](adding-new-metric/) | majiayu000 | ★ 2 | 64% | L3 | Guides systematic implementation of new sustainability metrics in OSS Sustain Gu… |
+| [adding-notes](adding-notes/) | majiayu000 | ★ 2 | 64% | L3 | Add new notes to the Second Brain knowledge base. Use when the user provides a r… |
+| [adding-stacks](adding-stacks/) | majiayu000 | ★ 2 | 64% | L3 | Use when adding a new framework/stack to create-faster CLI tool - addresses copy… |
+| [adding-tweets](adding-tweets/) | majiayu000 | ★ 2 | 64% | L3 | Add tweets to the Second Brain. Use when the user provides a Twitter/X URL and p… |
+| [address-pr-comments](address-pr-comments/) | majiayu000 | ★ 2 | 64% | L3 | Addresses PR review comments by making code changes and posting replies. Takes a… |
+| [addressing-pr-feedback](addressing-pr-feedback/) | majiayu000 | ★ 2 | 64% | L3 | Fetches, organizes, and addresses PR review comments from GitHub. Use when user … |
+| [adk](adk/) | majiayu000 | ★ 2 | 64% | L3 | a set of guidelines to build with Botpress's Agent Development Kit (ADK) - use t… |
+| [admin-dashboard](admin-dashboard/) | majiayu000 | ★ 2 | 64% | L3 | Extend and modify the admin dashboard, developer portal, and operations console.… |
+| [admin-panel-builder](admin-panel-builder/) | majiayu000 | ★ 2 | 64% | L3 | Expert assistant for creating and maintaining admin panel pages in the KR92 Bibl… |
+| [adr-management](adr-management/) | majiayu000 | ★ 2 | 64% | L3 | Create and manage Architecture Decision Records (ADRs). Use when documenting tec… |
+| [adr-scaffold](adr-scaffold/) | majiayu000 | ★ 2 | 64% | L3 | Specializes in generating Action-Domain-Responder (ADR) boilerplate for Gravito … |
+| [adr-writer](adr-writer/) | majiayu000 | ★ 2 | 64% | L3 | Creates Architecture Decision Records documenting key technical decisions with c… |
+| [advanced-memory-skill-creator](advanced-memory-skill-creator/) | majiayu000 | ★ 2 | 64% | L3 | Use when planning, scaffolding, validating, or packaging Claude skills inside Ad… |
+| [adw-design](adw-design/) | majiayu000 | ★ 2 | 64% | L3 | Guide creation of AI Developer Workflows (ADWs) that combine deterministic orche… |
+| [adynato-github](adynato-github/) | majiayu000 | ★ 2 | 64% | L3 | GitHub workflow conventions for Adynato projects. Covers creating PRs with gh CL… |
+| [AEM Block Reusability](aem-block-reusability/) | majiayu000 | ★ 2 | 64% | L2 | Check Block Collection and Block Party BEFORE implementing blocks - avoid reinve… |
+| [aesthetic](aesthetic/) | majiayu000 | ★ 2 | 64% | L3 | Visual design intelligence and UI aesthetics. Integrates: chrome-devtools, ai-mu… |
+| [aesthetic-dreaming](aesthetic-dreaming/) | majiayu000 | ★ 2 | 64% | L2 | Create aesthetic templates without first creating a plugin - capture visual desi… |
+| [affinity-mcp-workflows](affinity-mcp-workflows/) | majiayu000 | ★ 2 | 64% | L3 | Use when working with Affinity CRM via MCP tools - find entities, manage workflo… |
+| [ag-grid-patterns](ag-grid-patterns/) | majiayu000 | ★ 2 | 64% | L3 | AG-Grid v34 integration patterns for TMNL. Invoke when implementing data grids, … |
+| [agency-workflow-patterns](agency-workflow-patterns/) | majiayu000 | ★ 2 | 64% | L2 | Master orchestration patterns, multi-agent coordination, and effective workflow … |
+| [agency](agency/) | majiayu000 | ★ 2 | 64% | L3 | Use Agency CLI to run parallel AI coding tasks in isolated Git worktrees. Invoke… |
+| [agent-ops-debugging](agent-ops-debugging/) | majiayu000 | ★ 2 | 64% | L3 | Systematic debugging approaches for isolating and fixing software defects. Use w… |
+| [agent-ops-dependencies](agent-ops-dependencies/) | majiayu000 | ★ 2 | 64% | L3 | Dependency management, updates, and security advisory handling. Use when adding,… |
+| [agent-ops-focus-scan](agent-ops-focus-scan/) | majiayu000 | ★ 2 | 64% | L2 | Analyze issues to identify the next work item and update focus.md. Enforces issu… |
+| [agent-ops-git-analysis](agent-ops-git-analysis/) | majiayu000 | ★ 2 | 64% | L3 | Analyze git repository for insights: contributor stats, commit patterns, branch … |
+| [agent-ops-git-worktree](agent-ops-git-worktree/) | majiayu000 | ★ 2 | 64% | L3 | Manage git worktrees for isolated development. Create, list, remove, and work in… |
+| [agent-ops-git](agent-ops-git/) | majiayu000 | ★ 2 | 64% | L3 | Manage git operations safely. Includes stale state detection, branch/commit mana… |
+| [agent-ops-guide](agent-ops-guide/) | majiayu000 | ★ 2 | 64% | L2 | Interactive workflow guide. Use when user is unsure what to do next, needs help … |
+| [agent-ops-housekeeping](agent-ops-housekeeping/) | majiayu000 | ★ 2 | 64% | L3 | Comprehensive project hygiene: archive issues, validate schema, clean clutter, a… |
+| [agent-ops-idea](agent-ops-idea/) | majiayu000 | ★ 2 | 64% | L2 | Capture loosely structured ideas, enrich with research, and create backlog issue… |
+| [agent-ops-interview](agent-ops-interview/) | majiayu000 | ★ 2 | 64% | L2 | Conduct structured interviews with the user. Use when multiple decisions need us… |
+| [agent-ops-planning](agent-ops-planning/) | majiayu000 | ★ 2 | 64% | L3 | Produce a thorough plan before implementation. Use for planning tasks: clarify u… |
+| [prove-your-worth](prove-your-worth/) | majiayu000 | ★ 2 | 64% | L3 | Ruthlessly audit project features for justification. Challenge every feature to … |
+| [agent-ops-tools](agent-ops-tools/) | majiayu000 | ★ 2 | 64% | L3 | Detect available development tools at session start. Saves to .agent/tools.json … |
+| [agent-tool](agent-tool/) | majiayu000 | ★ 2 | 64% | L3 | Define tools for the support agent. Use when adding new capabilities like refund… |
+| [agent-tools](agent-tools/) | majiayu000 | ★ 2 | 64% | L3 | Reference for configuring tool permissions when launching Claude Code agents. Us… |
 | [adb-skill-generator](adb-skill-generator/) | majiayu000 | ★ 2 | 63% | L3 | Meta-tool for rapid adb-* skill creation from templates |
+| [additional-htmx-and-flask-instructions](additional-htmx-and-flask-instructions/) | majiayu000 | ★ 2 | 62% | L3 | Provides additional instructions for HTMX and Flask, primarily related to templa… |
 | [3d-games](3d-games/) | majiayu000 | ★ 2 | 60% | L2 | 3D game development principles. Rendering, shaders, physics, cameras. |
 | [add-deferred-debt](add-deferred-debt/) | majiayu000 | ★ 2 | 60% | L3 | Add deferred technical debt items identified during PR review |
 | [add-icon](add-icon/) | majiayu000 | ★ 2 | 60% | L3 | Add a new Tabler icon to the project. Use when adding icons to the UI. |
 | [add-mouse-profile](add-mouse-profile/) | majiayu000 | ★ 2 | 60% | L2 | Create a new mouse profile for a mouse model not yet supported |
+| [adventure](adventure/) | majiayu000 | ★ 2 | 60% | L3 | Room-based exploration with narrative evidence collection |
+| [agent-ops-github](agent-ops-github/) | majiayu000 | ★ 2 | 60% | L3 | Bidirectional sync between agent-ops issues and GitHub Issues |
 | [Build Your Google ADK Skill](build-your-google-adk-skill/) | majiayu000 | ★ 2 | 57% | L3 | Create your Google Agent Development Kit skill in one prompt, then learn to impr… |
 | [1password](1password/) | majiayu000 | ★ 2 | 57% | L3 | Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop… |
 | [add-fish-alias](add-fish-alias/) | majiayu000 | ★ 2 | 57% | L3 | Use when creating a new fish shell alias, function, or command shortcut, or when… |
 | [add-mcp-primitive](add-mcp-primitive/) | majiayu000 | ★ 2 | 57% | L3 | Add new MCP primitives (Tool, Resource, Prompt). Use when asked to add a new too… |
+| [address-github-comments](address-github-comments/) | majiayu000 | ★ 2 | 57% | L2 | Use when you need to address review or issue comments on an open GitHub Pull Req… |
+| [adhd-accountability](adhd-accountability/) | majiayu000 | ★ 2 | 57% | L2 | ADHD-optimized accountability for task tracking, abandonment detection, and inte… |
+| [agent-guidelines](agent-guidelines/) | majiayu000 | ★ 2 | 57% | L3 | When you need to understand the project's core mandate, operational rules, or "C… |
+| [agent-md-generator](agent-md-generator/) | majiayu000 | ★ 2 | 57% | L2 | 交互式生成 GitHub Copilot agents.md 文件的工作流。当用户请求创建代理、构建自定义 Copilot 代理、生成 agents.md 或需… |
 | [add-review-comment](add-review-comment/) | majiayu000 | ★ 2 | 53% | L3 | Add a review comment to a GitHub pull request. |
+| [admin](admin/) | majiayu000 | ★ 2 | 53% | L3 | Admin panel - RBAC, config, admin tools. Use when building admin UI. |
+| [advocate-sourcing](advocate-sourcing/) | majiayu000 | ★ 2 | 53% | L2 | Use to identify, score, and prioritize customer advocates for programs. |
+| [agent-ide](agent-ide/) | majiayu000 | ★ 2 | 53% | L3 | TS/JS 程式碼智能重構工具。重命名、移動檔案、清理 dead code、修改函式簽章時自動更新所有引用。 |
 | [add-check](add-check/) | majiayu000 | ★ 2 | 51% | L2 | Add a new code quality check to CI, justfile, and pre-commit hooks. Use when add… |
+| [aesthetic-critic-historian](aesthetic-critic-historian/) | majiayu000 | ★ 2 | 51% | L2 | [Aesthetics] Positions aesthetics within art/design history, identifies what tra… |
+| [agent-build-engineer](agent-build-engineer/) | majiayu000 | ★ 2 | 51% | L2 | Expert build engineer specializing in build system optimization, compilation str… |
+| [agent-cli-developer](agent-cli-developer/) | majiayu000 | ★ 2 | 51% | L2 | Expert CLI developer specializing in command-line interface design, developer to… |
+| [agent-dx-optimizer](agent-dx-optimizer/) | majiayu000 | ★ 2 | 51% | L2 | Expert developer experience optimizer specializing in build performance, tooling… |
+| [agent-sre-engineer](agent-sre-engineer/) | majiayu000 | ★ 2 | 51% | L2 | Expert Site Reliability Engineer balancing feature velocity with system stabilit… |
+| [agent-tooling-engineer](agent-tooling-engineer/) | majiayu000 | ★ 2 | 51% | L2 | Expert tooling engineer specializing in developer tool creation, CLI development… |
+| [agent-wordpress-master](agent-wordpress-master/) | majiayu000 | ★ 2 | 51% | L2 | Expert WordPress developer specializing in theme development, plugin architectur… |
 | [gsd:add-phase](gsd-add-phase/) | majiayu000 | ★ 2 | 41% | L2 | Add a new phase to the project |
+| [gsd:add-todo](gsd-add-todo/) | majiayu000 | ★ 2 | 41% | L2 | Add a todo item to track tasks |
 | [acf-block-registration](acf-block-registration/) | majiayu000 | ★ 1 | 65% | L3 | Guide for creating ACF PRO blocks with field groups in Oh My Brand! FSE theme. U… |
 | [open-eth-terminal-action-generator](open-eth-terminal-action-generator/) | majiayu000 | ★ 1 | 65% | L3 | You are an expert action generator for the open-eth-terminal application. Your g… |
 | [activepieces](activepieces/) | majiayu000 | ★ 1 | 65% | L3 | Self-hosted no-code automation platform with visual flow builder, type-safe cust… |
@@ -1118,6 +1181,10 @@
 | [building-github-index](building-github-index/) | majiayu000 | ★ 0 | 48% | L3 | Generate progressive disclosure indexes for GitHub repositories to use as Claude… |
 | [vibe-coding-guardian](vibe-coding-guardian/) | kanyun-inc | ★ 0 | 48% | L2 | Behavioral modifier for AI coding assistants working with non-developers. Adapts… |
 | [skilleval](skilleval/) | mluckydream | ★ 0 | 48% | L3 | Professional skills assessment system for evidence-based evaluation across techn… |
+| [spec-workflow-orchestrator](spec-workflow-orchestrator/) | majiayu000 | ★ 0 | 48% | L3 | Orchestrate comprehensive planning phase from ideation to development-ready spec… |
+| [planning](planning/) | 23blocks-OS | ★ 0 | 48% | L3 | Use persistent markdown files for complex task execution. Creates task_plan.md, … |
+| [setup-pm](setup-pm/) | foomakers | ★ 0 | 48% | L2 | Configures the project management tool by guiding selection from supported optio… |
+| [code-quality](code-quality/) | oborchers | ★ 0 | 48% | L3 | This skill should be used when the user is configuring Ruff, setting up mypy, ad… |
 | [statusline-customization](statusline-customization/) | MadAppGang | ★ 0 | 47% | L3 | Configuration reference and troubleshooting for the statusline plugin — sections… |
 | [typespec-m365-copilot](typespec-m365-copilot/) | pingqLIN | ★ 0 | 47% | L3 | Guidelines and best practices for building TypeSpec-based declarative agents and… |
 | [declarative-agents-microsoft365](declarative-agents-microsoft365/) | pingqLIN | ★ 0 | 47% | L3 | Comprehensive development guidelines for Microsoft 365 Copilot declarative agent… |
@@ -1376,7 +1443,6 @@
 | [agent-creator](agent-creator/) | majiayu000 | ★ 0 | 45% | L3 | Interview-based system for creating specialized Claude Code agents. Use when use… |
 | [claude-code-analyzer](claude-code-analyzer/) | NeverSight | ★ 0 | 45% | L3 | Analyzes Claude Code usage patterns and provides comprehensive recommendations. … |
 | [agent-creator](agent-creator/) | tswicegood | ★ 0 | 45% | L3 | Interview-based system for creating specialized Claude Code agents. Use when use… |
-| [agent-creator](agent-creator/) | majiayu000 | ★ 0 | 45% | L3 | Interview-based system for creating specialized Claude Code agents. Use when use… |
 | [claude-code-analyzer](claude-code-analyzer/) | Xpos587 | ★ 0 | 45% | L3 | Analyzes Claude Code usage patterns and provides comprehensive recommendations. … |
 | [claude-code-analyzer](claude-code-analyzer/) | mattnigh | ★ 0 | 45% | L3 | Analyzes Claude Code usage patterns and provides comprehensive recommendations. … |
 | [claude-code-analyzer](claude-code-analyzer/) | majiayu000 | ★ 0 | 45% | L3 | Analyzes Claude Code usage patterns and provides comprehensive recommendations. … |
@@ -1669,6 +1735,47 @@
 | [self-review](self-review/) | andrewneilson | ★ 0 | 45% | L3 | Local code review comparing branches/diffs without GitHub integration. Use when … |
 | [u0048-planning-dependency-dag-planner](u0048-planning-dependency-dag-planner/) | zwright8 | ★ 0 | 45% | L2 | Build and operate the "Planning Dependency DAG Planner" capability for Strategic… |
 | [chrome-automation](chrome-automation/) | jameingh | ★ 0 | 45% | L3 | Connect to and control Google Chrome browser using agent-browser with CDP (Chrom… |
+| [permission-manager](permission-manager/) | NeverSight | ★ 0 | 45% | L3 | 管理Claude Code的全局工具权限配置，自动将MCP命令或其他工具添加到allowedTools中，避免每次使用时都需要手动批准。工作流程：确认用户需要添… |
+| [python-github-actions](python-github-actions/) | JosiahSiegel | ★ 0 | 45% | L3 | Complete Python GitHub Actions system. PROACTIVELY activate for: (1) uv-based CI… |
+| [beads](beads/) | arttttt | ★ 0 | 45% | L3 | Issue tracking with Beads (bd CLI). Use when commands need to create, query, upd… |
+| [beads](beads/) | majiayu000 | ★ 0 | 45% | L3 | Issue tracking with Beads (bd CLI). Use when commands need to create, query, upd… |
+| [xlsx-verify](xlsx-verify/) | witanlabs | ★ 0 | 45% | L3 | Verify Excel spreadsheets — render to check layout, calc to check formulas, lint… |
+| [developing-skills](developing-skills/) | mikekelly | ★ 0 | 45% | L3 | MUST be loaded before working with any Skill. Covers creating, building, reviewi… |
+| [implementation-guide](implementation-guide/) | NeverSight | ★ 0 | 45% | L2 | Generate comprehensive implementation guides for coding tasks instead of writing… |
+| [project-concept-funnel](project-concept-funnel/) | stonelyd | ★ 0 | 45% | L3 | Use when evaluating project ideas, deciding which projects to pursue, filtering … |
+| [Using GitHub API with gh CLI](using-github-api-with-gh-cli/) | majiayu000 | ★ 0 | 45% | L3 | This skill teaches how to access GitHub's REST and GraphQL APIs via gh api for i… |
+| [Using GitHub API with gh CLI](using-github-api-with-gh-cli/) | mattnigh | ★ 0 | 45% | L3 | This skill teaches how to access GitHub's REST and GraphQL APIs via gh api for i… |
+| [Using GitHub API with gh CLI](using-github-api-with-gh-cli/) | johnnymo87 | ★ 0 | 45% | L3 | This skill teaches how to access GitHub's REST and GraphQL APIs via gh api for i… |
+| [Using GitHub API with gh CLI](using-github-api-with-gh-cli/) | majiayu000 | ★ 0 | 45% | L3 | This skill teaches how to access GitHub's REST and GraphQL APIs via gh api for i… |
+| [github-navigator](github-navigator/) | NeverSight | ★ 0 | 45% | L3 | GitHub operations via gh CLI. CRITICAL: Always use instead of WebFetch for ANY g… |
+| [claude-skill-creator](claude-skill-creator/) | majiayu000 | ★ 0 | 45% | L3 | Guide for creating effective Claude Code skills with proper YAML frontmatter, di… |
+| [claude-skill-creator](claude-skill-creator/) | nishiyuki0501-wanto | ★ 0 | 45% | L3 | Guide for creating effective Claude Code skills with proper YAML frontmatter, di… |
+| [claude-skill-creator](claude-skill-creator/) | uta-a | ★ 0 | 45% | L3 | Guide for creating effective Claude Code skills with proper YAML frontmatter, di… |
+| [market-maker](market-maker/) | glitch003 | ★ 0 | 45% | L3 | Create a market maker bot for Turbine's BTC 15-minute prediction markets. Use wh… |
+| [create-project](create-project/) | lando-labs | ★ 0 | 45% | L3 | Initialize new projects with CAMI capabilities and recommended agent teams. Trig… |
+| [configuring-devenv](configuring-devenv/) | lucasilverentand | ★ 0 | 45% | L3 | Initializes and configures devenv development environments. Searches packages, s… |
+| [github-pr-review-comments](github-pr-review-comments/) | NeverSight | ★ 0 | 45% | L3 | Comprehensive workflow for managing GitHub PR review comments using gh CLI and G… |
+| [when-managing-github-projects-use-github-project-management](when-managing-github-projects-use-github-project-management/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive GitHub project management with swarm-coordinated issue tracking, p… |
+| [phase-2-outline](phase-2-outline/) | majiayu000 | ★ 0 | 45% | L3 | Architecture-driven solution outline creation with intelligent module selection … |
+| [youtube-transcripter](youtube-transcripter/) | TylonHH | ★ 0 | 45% | L3 | Extract a YouTube video transcript from a URL and summarize it into important co… |
+| [github-issue-resolver](github-issue-resolver/) | KubeHeal | ★ 0 | 45% | L3 | Strategically resolves GitHub Actions failures, failed pull requests, and Depend… |
+| [baton](baton/) | mgerasolo | ★ 0 | 45% | L3 | Context management system for solving compaction problems. Provides TLDR summari… |
+| [flow-interview](flow-interview/) | gmickel | ★ 0 | 45% | L3 | Interview user in-depth about a spec, bead, or feature idea to extract complete … |
+| [flow-interview](flow-interview/) | majiayu000 | ★ 0 | 45% | L3 | Interview user in-depth about a spec, bead, or feature idea to extract complete … |
+| [flow-interview](flow-interview/) | majiayu000 | ★ 0 | 45% | L3 | Interview user in-depth about a spec, bead, or feature idea to extract complete … |
+| [copilot-instructions-blueprint-generator](copilot-instructions-blueprint-generator/) | sandriaas | ★ 0 | 45% | L3 | Technology-agnostic blueprint generator for creating comprehensive copilot-instr… |
+| [claude-code-analyzer](claude-code-analyzer/) | majiayu000 | ★ 0 | 45% | L3 | Analyzes Claude Code usage patterns and provides comprehensive recommendations. … |
+| [agents-md-generator](agents-md-generator/) | do-ob-io | ★ 0 | 45% | L3 | Generate AGENTS.md files for software projects by analyzing project structure, d… |
+| [repo-docs-generator](repo-docs-generator/) | DiversioTeam | ★ 0 | 45% | L3 | Generate comprehensive AGENTS.md, README.md, and CLAUDE.md documentation for any… |
+| [skill-claude-code](skill-claude-code/) | skyswordw | ★ 0 | 45% | L2 | Use when the user asks to run Claude Code CLI (claude) for code analysis, refact… |
+| [claude-code-analyzer](claude-code-analyzer/) | Microck | ★ 0 | 45% | L3 | Analyzes Claude Code usage patterns and provides comprehensive recommendations. … |
+| [claude-code-analyzer](claude-code-analyzer/) | Activer007 | ★ 0 | 45% | L3 | Analyzes Claude Code usage patterns and provides comprehensive recommendations. … |
+| [project-scaffold](project-scaffold/) | mdmagnuson-creator | ★ 0 | 45% | L3 | Generate project boilerplate from scaffold templates. Use when creating a new pr… |
+| [bigquery-cli](bigquery-cli/) | majiayu000 | ★ 0 | 45% | L3 | Use when working with BigQuery from command line using bq tool, including queryi… |
+| [bigquery-cli](bigquery-cli/) | majiayu000 | ★ 0 | 45% | L3 | Use when working with BigQuery from command line using bq tool, including queryi… |
+| [ppt-to-video-workflow](ppt-to-video-workflow/) | majiayu000 | ★ 0 | 45% | L3 | PPT/슬라이드를 나레이션과 자막이 포함된 영상으로 변환합니다. PPTX 파일 또는 slides.json에서 슬라이드 이미지를 추출/렌더링하고,… |
+| [ppt-to-video-workflow](ppt-to-video-workflow/) | majiayu000 | ★ 0 | 45% | L3 | PPT/슬라이드를 나레이션과 자막이 포함된 영상으로 변환합니다. PPTX 파일 또는 slides.json에서 슬라이드 이미지를 추출/렌더링하고,… |
+| [ppt-to-video-workflow](ppt-to-video-workflow/) | jkf87 | ★ 0 | 45% | L3 | PPT/슬라이드를 나레이션과 자막이 포함된 영상으로 변환합니다. PPTX 파일 또는 slides.json에서 슬라이드 이미지를 추출/렌더링하고,… |
 | [maven-build](maven-build/) | majiayu000 | ★ 0 | 44% | L3 | Maven build configuration for the crypto-scout multi-module Java 25 project |
 | [maven-build](maven-build/) | majiayu000 | ★ 0 | 44% | L3 | Maven build configuration for the crypto-scout multi-module Java 25 project |
 | [buildlog](buildlog/) | buildlogai | ★ 0 | 44% | L2 | Record, export, and share your AI coding sessions as replayable buildlogs |
@@ -1711,142 +1818,6 @@
 | [bicep-what-if-analysis](bicep-what-if-analysis/) | majiayu000 | ★ 0 | 41% | L3 | azd up/azd provisionの影響分析、Bicep what-if実行とノイズフィルタリング。インフラ変更・デプロイ前の影響確認時に使用。 |
 | [customer-health-scorecard](customer-health-scorecard/) | majiayu000 | ★ 0 | 41% | L2 | Create or update a customer health scorecard |
 | [Strong's Concordance Lookup](strong-s-concordance-lookup/) | majiayu000 | ★ 0 | 41% | L2 | Use this skill when the user asks about biblical Greek or Hebrew words, Strong's… |
-| [3-identifying-architecture](3-identifying-architecture/) | bitovi | ★ 0 | 41% | L3 | Third step in building instruction context for codebase |
-| [code-review](code-review/) | sontek | ★ 0 | 41% | L3 | Follow these guidelines when reviewing code changes. |
-| [drug-target-validation](drug-target-validation/) | lamm-mit | ★ 0 | 41% | L3 | ToolUniverse workflow — Drug Target Validation |
-| [uv2nix](uv2nix/) | olafkfreund | ★ 0 | 41% | L3 | uv2nix Skill |
-| [conductor-setup](conductor-setup/) | majiayu000 | ★ 0 | 41% | L3 | Initialize project with Conductor artifacts (product definition, |
-| [end-session](end-session/) | bretstarr2024 | ★ 0 | 41% | L3 | Session closeout — canonicalize, verify, commit, produce handoff artifacts |
-| [sage-workspace-detection](sage-workspace-detection/) | majiayu000 | ★ 0 | 41% | L3 | Sage 工作区检测开发指南，涵盖项目类型检测、语言识别、依赖分析、Git 信息 |
-| [conductor-setup](conductor-setup/) | milosriki | ★ 0 | 41% | L3 | Initialize project with Conductor artifacts (product definition, |
-| [conductor-setup](conductor-setup/) | bhaumikgohel | ★ 0 | 41% | L3 | Initialize project with Conductor artifacts (product definition, |
-| [conductor-setup](conductor-setup/) | Kayky4 | ★ 0 | 41% | L3 | Initialize project with Conductor artifacts (product definition, |
-| [conductor-setup](conductor-setup/) | ledger101 | ★ 0 | 41% | L3 | Initialize project with Conductor artifacts (product definition, |
-| [mcp-builder](mcp-builder/) | darthlinuxer | ★ 0 | 41% | L3 | Guide for creating high-quality MCP (Model Context Protocol) servers |
-| [planning](planning/) | inocan-group | ★ 0 | 41% | L3 | Provides expertise on how to plan for work in this repo |
-| [setup-automation](setup-automation/) | Rorical | ★ 0 | 41% | L3 | Set up GitHub Actions + WandB Automation for automatic result analysis |
-| [LuaSkill](luaskill/) | lua-ai-global | ★ 0 | 41% | L3 | Collection of related tools that give your AI specific capabilities |
-| [spec-generator](spec-generator/) | shunkakinoki | ★ 0 | 41% | L2 | Interview user in-depth to create a detailed spec |
-| [done](done/) | majiayu000 | ★ 0 | 41% | L3 | Finish a task by committing changes, rebasing on main, and creating a PR |
-| [done](done/) | renato0307 | ★ 0 | 41% | L3 | Finish a task by committing changes, rebasing on main, and creating a PR |
-| [done](done/) | majiayu000 | ★ 0 | 41% | L3 | Finish a task by committing changes, rebasing on main, and creating a PR |
-| [release](release/) | trasta298 | ★ 0 | 41% | L3 | Create a new release with tag, GitHub release, and homebrew-tap update |
-| [commit](commit/) | thuyavan00 | ★ 0 | 41% | L3 | Create a git commit with a well-crafted message following project conventions |
-| [moai-lang-rust](moai-lang-rust/) | Ven0m0 | ★ 0 | 41% | L2 | Rust specialist for async services, safe systems programming, and production too… |
-| [surface-theme-scaffold-gen](surface-theme-scaffold-gen/) | Itshalffull | ★ 0 | 41% | L3 | Generate Clef Surface design system theme scaffolds including palette |
-| [github-copilot-agent-tips-and-tricks](github-copilot-agent-tips-and-tricks/) | github | ★ 0 | 41% | L3 | Tips and Tricks for Working with GitHub Copilot Agent PRs |
-| [find-newsletter-articles](find-newsletter-articles/) | ColinEberhardt | ★ 0 | 41% | L2 | Identifies potential newsletter articles from Hacker News. |
-| [lead-research-assistant](lead-research-assistant/) | NeverSight | ★ 0 | 41% | L2 | 通过分析您的业务、搜索目标公司并提供可行的联系策略，为您的产品或服务识别高质量潜在客户。非常适合销售、业务开发和营销专业人士。 |
-| [github-copilot-agent-tips-and-tricks](github-copilot-agent-tips-and-tricks/) | TeamFlint-Dev | ★ 0 | 41% | L3 | Tips and Tricks for Working with GitHub Copilot Agent PRs |
-| [twitter-stock-sentiment](twitter-stock-sentiment/) | Malm | ★ 0 | 41% | L3 | Analyze Twitter/X sentiment for stocks using $cashtags. Track mentions, sentimen… |
-| [idea-wizard](idea-wizard/) | Dicklesworthstone | ★ 0 | 41% | L3 | Generate 30 improvement ideas, rigorously evaluate each, distill to the very bes… |
-| [create-target](create-target/) | fabis94 | ★ 0 | 41% | L3 | Scaffold a new target type (e.g., Zed, Windsurf) for universal-ai-config |
-| [jj-vcs-workflow](jj-vcs-workflow/) | UtakataKyosui | ★ 0 | 40% | L2 | Jujutsu (jj) VCS の総合ガイド。基本コマンド・Git移行・並列開発・履歴操作・PRレビュー・安全な push ワークフローをカバー。以下の場合に… |
-| [Incident Response](incident-response/) | cdalsoniii | ★ 0 | 39% | L2 | Guide structured incident response following severity-based protocols |
-| [pca-skill-manager](pca-skill-manager/) | majiayu000 | ★ 0 | 38% | L3 | Acelera a criacao e manutencao de skills do Claude. Automatiza o scaffolding de … |
-| [pca-skill-manager](pca-skill-manager/) | majiayu000 | ★ 0 | 38% | L3 | Acelera a criacao e manutencao de skills do Claude. Automatiza o scaffolding de … |
-| [pca-skill-manager](pca-skill-manager/) | narcisolcf | ★ 0 | 38% | L3 | Acelera a criacao e manutencao de skills do Claude. Automatiza o scaffolding de … |
-| [git-pr-merge](git-pr-merge/) | majiayu000 | ★ 0 | 38% | L2 | Conducts an audit of a Pull Request, merges it into main, and synchronizes the l… |
-| [splunk-analyzer](splunk-analyzer/) | majiayu000 | ★ 0 | 38% | L3 | Automate Splunk queries and analyze results using Chrome DevTools MCP. Use when … |
-| [browser](browser/) | factory-ben | ★ 0 | 38% | L2 | Control a Chrome session via Stagehand to browse, act, extract, and screenshot o… |
-| [moltrouter-protocol](moltrouter-protocol/) | thorthur22 | ★ 0 | 38% | L2 | Design, implement, or document Moltrouter Protocol (MRP) for agent-native discov… |
-| [video-to-claude](video-to-claude/) | rohunvora | ★ 0 | 38% | L3 | Analyze videos with Gemini and get build instructions for Claude. Supports YouTu… |
-| [plan-reduce-max-lines](plan-reduce-max-lines/) | CodySwannGT | ★ 0 | 38% | L3 | This skill should be used when reducing the maximum class/module lines threshold… |
-| [git-pr-merge](git-pr-merge/) | majiayu000 | ★ 0 | 38% | L2 | Conducts an audit of a Pull Request, merges it into main, and synchronizes the l… |
-| [xrd-crystallography-analyzer](xrd-crystallography-analyzer/) | a5c-ai | ★ 0 | 38% | L2 | X-ray Diffraction skill for crystal structure, phase identification, and crystal… |
-| [mcporter](mcporter/) | ThinkfleetAI | ★ 0 | 38% | L2 | Use the mcporter CLI to list, configure, auth, and call MCP servers/tools direct… |
-| [check-duplicates](check-duplicates/) | dandye | ★ 0 | 38% | L2 | Check for duplicate or similar cases. Use before deep analysis to avoid investig… |
-| [context-session-end](context-session-end/) | yt3trees | ★ 0 | 38% | L2 | AI behavioral guideline for autonomously detecting work session boundaries and p… |
-| [splunk-analyzer](splunk-analyzer/) | majiayu000 | ★ 0 | 38% | L3 | Automate Splunk queries and analyze results using Chrome DevTools MCP. Use when … |
-| [math-router](math-router/) | majiayu000 | ★ 0 | 38% | L3 | Deterministic router for math cognitive stack - maps user intent to exact CLI co… |
-| [splunk-analyzer](splunk-analyzer/) | srsubramanian | ★ 0 | 38% | L3 | Automate Splunk queries and analyze results using Chrome DevTools MCP. Use when … |
-| [fdc-expert](fdc-expert/) | majiayu000 | ★ 0 | 38% | L2 | Expert on NEC µPD765 Floppy Disk Controller for ES-1841. Provides guidance on fl… |
-| [check-duplicates](check-duplicates/) | majiayu000 | ★ 0 | 38% | L2 | Check for duplicate or similar cases. Use before deep analysis to avoid investig… |
-| [check-duplicates](check-duplicates/) | majiayu000 | ★ 0 | 38% | L2 | Check for duplicate or similar cases. Use before deep analysis to avoid investig… |
-| [commit](commit/) | jmfontaine | ★ 0 | 38% | L2 | Git commit guidelines. Use when creating, amending, squashing, or rewording git … |
-| [committing-staged-with-message](committing-staged-with-message/) | qte77 | ★ 0 | 38% | L2 | Generate commit message for staged changes, pause for approval, then commit. Sta… |
-| [gh-ci-triage](gh-ci-triage/) | PLeVasseur | ★ 0 | 38% | L2 | Triage failing PR checks with gh CLI, identify first actionable root cause, and … |
-| [cli](cli/) | majiayu000 | ★ 0 | 38% | L3 | Use this when you need to perform mutations on plyr.fm - uploading, deleting, li… |
-| [committing-staged-with-message](committing-staged-with-message/) | qte77 | ★ 0 | 38% | L2 | Generate commit message for staged changes, pause for approval, then commit. Sta… |
-| [committing-staged-with-message](committing-staged-with-message/) | qte77 | ★ 0 | 38% | L2 | Generate commit message for staged changes, pause for approval, then commit. Sta… |
-| [git-commit](git-commit/) | k-negishi | ★ 0 | 38% | L3 | Gitコミット時に変更内容を分析し、コミットprefix（add/fix/docs/refactor/test/chore/perf/build/ci/reve… |
-| [git-commit](git-commit/) | majiayu000 | ★ 0 | 38% | L3 | Gitコミット時に変更内容を分析し、コミットprefix（add/fix/docs/refactor/test/chore/perf/build/ci/reve… |
-| [math-router](math-router/) | NeverSight | ★ 0 | 38% | L3 | Deterministic router for math cognitive stack - maps user intent to exact CLI co… |
-| [math-router](math-router/) | majiayu000 | ★ 0 | 38% | L3 | Deterministic router for math cognitive stack - maps user intent to exact CLI co… |
-| [w3rt-swap-safe](w3rt-swap-safe/) | majiayu000 | ★ 0 | 38% | L3 | Execute a safe two-step Solana swap (quote/simulate then explicit confirm/execut… |
-| [github-issue-creator](github-issue-creator/) | majiayu000 | ★ 0 | 38% | L2 | Creates well-structured GitHub issues for the MCPSpy project using the gh CLI to… |
-| [git-commit](git-commit/) | majiayu000 | ★ 0 | 38% | L3 | Create conventional commit messages. Use when committing changes or writing comm… |
-| [u0060-planning-semantic-retrieval-ranker](u0060-planning-semantic-retrieval-ranker/) | zwright8 | ★ 0 | 38% | L2 | Build and operate the "Planning Semantic Retrieval Ranker" capability for Strate… |
-| [doubao-watermark-remover](doubao-watermark-remover/) | zhengsuanfa | ★ 0 | 38% | L3 | Remove the visible Doubao (豆包) AI watermark from images. Use when asked to remov… |
-| [workflow-new-plugin](workflow-new-plugin/) | hollis-labs | ★ 0 | 38% | L2 | Guided workflow for creating a new Volon plugin — ideation, requirements, spec, … |
-| [fdc-expert](fdc-expert/) | majiayu000 | ★ 0 | 38% | L2 | Expert on NEC µPD765 Floppy Disk Controller for ES-1841. Provides guidance on fl… |
-| [status](status/) | TheWizardsCode | ★ 0 | 38% | L3 | Provide concise project / bead status and run Beads/waif helpers to augment resu… |
-| [vimango-cli](vimango-cli/) | slzatz | ★ 0 | 38% | L3 | Manage vimango notes from the command line. Use when you need to create, search,… |
-| [x402-client](x402-client/) | second-state | ★ 0 | 38% | L3 | Client for interacting with the x402 payment service when receiving HTTP 402 res… |
-| [agents-md-guidelines](agents-md-guidelines/) | drevantonder | ★ 0 | 38% | L2 | Guidelines for writing small, stable AGENTS.md files. Use when creating, refacto… |
-| [commit](commit/) | hyperlane-xyz | ★ 0 | 38% | L3 | Commit changes following project quality gates and best practices. Run before cr… |
-| [git-workflow](git-workflow/) | ebongard | ★ 0 | 38% | L3 | Git workflow rules for Renfield. Commit message format, issue numbering, branch … |
-| [url-content-loading](url-content-loading/) | majiayu000 | ★ 0 | 38% | L3 | A URL content loading tool that extracts text or metadata from URLs across multi… |
-| [`but skill`](but-skill/) | gitbutlerapp | ★ 0 | 38% | L2 | Manage Claude AI skills for GitButler. |
-| [update-tool-plugin](update-tool-plugin/) | KrystianJonca | ★ 0 | 38% | L3 | Update an existing LNAI tool plugin |
-| [`but skill`](but-skill/) | open-commander | ★ 0 | 38% | L2 | Manage Claude AI skills for GitButler. |
-| [awesome-copilot-meta-agentic-project-scaffold](awesome-copilot-meta-agentic-project-scaffold/) | sla-te | ★ 0 | 38% | L2 | Meta agentic project creation assistant to help users create and manage project … |
-| [awesome-copilot-root-meta-agentic-project-scaffold](awesome-copilot-root-meta-agentic-project-scaffold/) | sla-te | ★ 0 | 38% | L2 | Meta agentic project creation assistant to help users create and manage project … |
-| [hook-development](hook-development/) | CANTAGESTUDIO | ★ 0 | 38% | L3 | [Utility] Guide for developing Claude Code hooks - shell commands that execute a… |
-| [vibecoder-guide-legacy](vibecoder-guide-legacy/) | majiayu000 | ★ 0 | 38% | L2 | Guides VibeCoder (non-technical users) through natural language development (leg… |
-| [idea-plan](idea-plan/) | riemac | ★ 0 | 38% | L2 | 科研idea规划与跨对话追踪skill。将科研需求转化为 Milestone-Keypoint 两级任务体系，以 .plan 文件结构支持跨对话状态追踪。触发场… |
-| [git-workflow](git-workflow/) | agno-agi | ★ 0 | 37% | L3 | Git workflow guidance for commits, branches, and pull requests |
-| [sync-rules](sync-rules/) | majiayu000 | ★ 0 | 37% | L3 | Synchronize shared rules into agent context files and headers. |
-| [git-workflow](git-workflow/) | sudocarlos | ★ 0 | 37% | L3 | Git workflow guidance for commits, branches, and pull requests |
-| [git-workflow](git-workflow/) | NovaAI-innovation | ★ 0 | 37% | L3 | Git workflow guidance for commits, branches, and pull requests |
-| [git-workflow](git-workflow/) | ajshedivy | ★ 0 | 37% | L3 | Git workflow guidance for commits, branches, and pull requests |
-| [git-workflow](git-workflow/) | wang93wei | ★ 0 | 37% | L3 | Git workflow guidance for commits, branches, and pull requests |
-| [git-workflow](git-workflow/) | zjunlp | ★ 0 | 37% | L3 | Git workflow guidance for commits, branches, and pull requests |
-| [activitypub-c2s](activitypub-c2s/) | UtakataKyosui | ★ 0 | 36% | L2 | ActivityPub Client-to-Server (C2S) インタラクションの実装ガイド。概要とリファレンスを提供する。詳細はサブファイルを参照。 |
-| [clawhub-ytm-cast](clawhub-ytm-cast/) | simplefarmer69 | ★ 0 | 35% | L2 | --- name: youtube-music-cast description: Download music from YouTube/YouTube Mu… |
-| [browser-dev-tools](browser-dev-tools/) | majiayu000 | ★ 0 | 34% | L2 | 使用 Chrome DevTools MCP 进行前端页面调试、布局优化、性能诊断及交互验证。 |
-| [rollback](rollback/) | g-zenr | ★ 0 | 34% | L3 | Roll back a bad release to the previous known-good version (Marcus workflow) |
-| [conductor-validator](conductor-validator/) | rothdev | ★ 0 | 34% | L2 | Validates Conductor project artifacts for completeness, |
-| [browser-dev-tools](browser-dev-tools/) | majiayu000 | ★ 0 | 34% | L2 | 使用 Chrome DevTools MCP 进行前端页面调试、布局优化、性能诊断及交互验证。 |
-| [catalyst-identification](catalyst-identification/) | HuskyDanny | ★ 0 | 34% | L2 | Identify upcoming and recent catalysts that could move the stock |
-| [youtube-generate](youtube-generate/) | aebonlee | ★ 0 | 34% | L3 | 유튜브 영상 올인원 생성 - 소재 파일 → 리서치 → 대본 → 재료 생성 → 블로그 |
-| [videocut:自更新](videocut/) | majiayu000 | ★ 0 | 34% | L2 | 自更新 skills。记录用户反馈，更新方法论和规则。触发词：更新规则、记录反馈、改进skill |
-| [pr-and-cleanup](pr-and-cleanup/) | majiayu000 | ★ 0 | 34% | L3 | worktree での開発完了後に PR を作成し、worktree を自動削除する。ローカル/リモートブランチは保持。 |
-| [disk-cleaner](disk-cleaner/) | majiayu000 | ★ 0 | 34% | L3 | Mac 智能磁盘清理助手，基于 Mole (https://github.com/tw93/Mole) 的用户友好包装器 |
-| [commit](commit/) | chriswickett | ★ 0 | 34% | L2 | Create atomic git commits following the three-pass methodology. |
-| [linearite](linearite/) | kxzk | ★ 0 | 34% | L3 | CLI tool for creating Linear issues and checking velocity rankings |
-| [github-commit](github-commit/) | hemilabs | ★ 0 | 34% | L2 | Create a well-formatted git commit following best practices |
-| [commit](commit/) | wakepon | ★ 0 | 34% | L3 | 現在の変更をgit commitする。変更内容を分析し、適切なコミットメッセージを自動生成してコミットを作成する。 |
-| [dev.gh](dev.gh/) | kevinslin | ★ 0 | 34% | L2 | GitHub CLI operations |
-| [git-workflow](git-workflow/) | kprsnt2 | ★ 0 | 34% | L2 | Git best practices and workflows including conventional commits, branching strat… |
-| [protobuf-tools](protobuf-tools/) | UtakataKyosui | ★ 0 | 34% | L2 | Protocol Buffers (protobuf) の使用ガイド。概要と各ガイド（Style Guide, Best Practices, Tools）への… |
-| [rust](rust/) | kprsnt2 | ★ 0 | 34% | L2 | Best practices for Rust development including ownership, error handling, and asy… |
-| [ckeditor-rules](ckeditor-rules/) | majiayu000 | ★ 0 | 33% | L3 | Defines CKEditor is being used for text editing |
-| [ckeditor-rules](ckeditor-rules/) | majiayu000 | ★ 0 | 33% | L3 | Defines CKEditor is being used for text editing |
-| [makefile](makefile/) | SebastienElet | ★ 0 | 33% | L2 | Makefile structure and install workflow |
-| [vloj](vloj/) | majiayu000 | ★ 0 | 32% | L2 | LibreOJ题目抓取与解题工作流。用户输入形如loj1/loj001或https://loj.ac/p/1 等题号或URL时触发；创建以题号命名的空文件夹，使… |
-| [plugin-scaffolder](plugin-scaffolder/) | Fu-Jie | ★ 0 | 32% | L3 | Generates a standardized single-file i18n Python plugin template based on projec… |
-| [bugfix](bugfix/) | PlutoMining | ★ 0 | 32% | L2 | Create and manage non-urgent bugfix branches in a git worktree with standard PR … |
-| [omega-claude-cli](omega-claude-cli/) | oimiragieo | ★ 0 | 32% | L2 | Use when the user wants to use Claude (Claude Code CLI) for analysis or brainsto… |
-| [ace-tool](ace-tool/) | Dwsy | ★ 0 | 32% | L3 | Semantic code search tool. Use `ace search "query"` for codebase search, `ace en… |
-| [gsd-progress](gsd-progress/) | shoootyou | ★ 0 | 32% | L2 | Check project progress, show context, and route to next action (execute or plan) |
-| [skill-creator](skill-creator/) | ShunsukeHayashi | ★ 0 | 32% | L2 | Create new Claude Code skills with proper structure. Use when building custom sk… |
-| [definition.tech_spike](definition.tech_spike/) | majiayu000 | ★ 0 | 31% | L3 | Roles or teams partnering on the spike. |
-| [ralph](ralph/) | 1molchuan | ★ 0 | 31% | L2 | 持久化执行-验证-修复循环，直到任务完成 |
-| [Skill Generator](skill-generator/) | agentfront | ★ 0 | 31% | L2 | Generate a @Skill class |
-| [semantic-release](semantic-release/) | ERP-CORE-DEV | ★ 0 | 28% | L2 | Automate versioning and release notes from conventional commits |
-| [commit](commit/) | haihvdev | ★ 0 | 28% | L2 | Tạo git commit với message tiếng Việt theo quy tắc trong CLAUDE.md |
-| [cc-soul-setup](cc-soul-setup/) | genomewalker | ★ 0 | 28% | L2 | Build cc-soul from source (requires cmake, make, C++ compiler) |
-| [voice-call](voice-call/) | kaivyy | ★ 0 | 28% | L2 | Start voice calls via the Kabot voice-call plugin. |
-| [skill-launcher](skill-launcher/) | majiayu000 | ★ 0 | 26% | L2 | Search and select a Claude Code skill in the terminal, then copy /skill to clipb… |
-| [skill-launcher](skill-launcher/) | majiayu000 | ★ 0 | 26% | L2 | Search and select a Claude Code skill in the terminal, then copy /skill to clipb… |
-| [drive-get-permissions](drive-get-permissions/) | majiayu000 | ★ 0 | 26% | L3 | Google Drive のファイルの共有設定を確認する。「共有状況確認」「誰がアクセスできる」「共有設定を見せて」「アクセス権確認」「権限一覧」「共有中のユー… |
-| [literature-review](literature-review/) | fcistud | ★ 0 | 26% | L2 | Build a systematic literature map with query planning, source triage, synthesis,… |
-| [discovery](discovery/) | GobbyAI | ★ 0 | 26% | L2 | Skill and MCP tool discovery guide — teaches agents how to find skills and tools… |
-| [commit](commit/) | sakuro | ★ 0 | 25% | L2 | Git Commit Command |
-| [skill-name](skill-name/) | paulund | ★ 0 | 22% | L3 | Use when [describe trigger conditions — when should this skill auto-activate?] |
-| [Swiss Phone Directory](swiss-phone-directory/) | ChatAndBuild | ★ 0 | 22% | L2 | Step-by-step guidance for swiss phone directory. |
-| [remember-plan](remember-plan/) | ykpythemind | ★ 0 | 19% | L2 | Remember a plan with git commit |
 
 ---
 

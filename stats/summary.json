@@ -1,18 +1,18 @@
 {
-  "total_skills": 9868,
+  "total_skills": 10000,
   "categories": {
-    "development": 4315,
-    "tools": 1843,
-    "data-ai": 1486,
-    "devops": 712,
-    "testing-security": 532,
-    "design": 347,
+    "development": 4405,
+    "tools": 1814,
+    "data-ai": 1620,
+    "devops": 718,
+    "testing-security": 497,
+    "design": 342,
     "documentation": 188,
-    "business": 159,
-    "product": 159,
-    "content-media": 98,
-    "communication": 26,
-    "uncategorized": 3
+    "business": 164,
+    "product": 140,
+    "content-media": 90,
+    "communication": 21,
+    "uncategorized": 1
   },
   "top_repos": [
     {
@@ -36,11 +36,6 @@
       "stars": 37315
     },
     {
-      "repo": "sickn33/antigravity-awesome-skills",
-      "count": 813,
-      "stars": 15374
-    },
-    {
       "repo": "google-gemini/gemini-skills",
       "count": 1,
       "stars": 1866
@@ -56,13 +51,18 @@
       "stars": 4
     },
     {
+      "repo": "sickn33/antigravity-awesome-skills",
+      "count": 814,
+      "stars": 0
+    },
+    {
       "repo": "majiayu000/claude-skill-registry",
-      "count": 1641,
+      "count": 1537,
       "stars": 0
     },
     {
       "repo": "majiayu000/claude-skill-registry-data",
-      "count": 1566,
+      "count": 2004,
       "stars": 0
     },
     {
@@ -72,17 +72,17 @@
     },
     {
       "repo": "oimiragieo/agent-studio",
-      "count": 37,
+      "count": 31,
       "stars": 0
     },
     {
       "repo": "Finimo-Solutions/research",
-      "count": 39,
+      "count": 32,
       "stars": 0
     },
     {
       "repo": "cdalsoniii/brightpath-coder",
-      "count": 18,
+      "count": 11,
       "stars": 0
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "repo": "NeverSight/skills_feed",
-      "count": 401,
+      "count": 411,
       "stars": 0
     },
     {
@@ -116,6 +116,6 @@
       "stars": 0
     }
   ],
-  "last_sync_at": "2026-02-27T02:53:38.622Z",
-  "sync_mode": "full"
+  "last_sync_at": "2026-02-27T13:14:58.454Z",
+  "sync_mode": "incremental"
 }

@@ -1,12 +1,10 @@
 # 📂 uncategorized
 
-> 3 skills in this category
+> 1 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
 | [adaptive-temporal-analysis-integration](adaptive-temporal-analysis-integration/) | majiayu000 | ★ 2 | 41% | L2 | Integrate adaptive temporal analysis for drift detection. |
-| [js-reverse-automation-page-redirect-debugger](js-reverse-automation-page-redirect-debugger/) | Fausto-404 | ★ 0 | 28% | L2 | 页面跳转 JS 代码定位通杀方案：在跳转前触发 debugger 以定位调用源。仅在确认跳转定位需求时启用。 |
-| [hello-skill](hello-skill/) | Coffelix2023 | ★ 0 | 15% | L1 | 每次对话开始时,声明"[Skills✏️已加载]" |
 
 ---
 
