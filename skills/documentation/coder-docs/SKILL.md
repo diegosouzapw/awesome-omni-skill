@@ -1,0 +1,462 @@
+---
+name: coder-docs
+description: Index + offline snapshot of coder/coder documentation (progressive disclosure).
+---
+
+# Coder Docs
+
+This skill bundles a text-only snapshot of the documentation from
+[`coder/coder`](https://github.com/coder/coder).
+
+## How to use
+
+- Use the generated **Docs tree** below to locate a topic, then read the exact page:
+
+  ```ts
+  agent_skill_read_file({
+    name: "coder-docs",
+    filePath: "references/docs/install/docker.md",
+  });
+  ```
+
+- To see the full navigation manifest:
+
+  ```ts
+  agent_skill_read_file({
+    name: "coder-docs",
+    filePath: "references/docs/manifest.json",
+  });
+  ```
+
+- For keyword search, use ripgrep directly:
+
+  ```bash
+  rg -n "<keyword>" .mux/skills/coder-docs/references/docs
+  ```
+
+## Snapshot
+
+<!-- BEGIN SNAPSHOT -->
+- **Upstream**: `coder/coder@342d2e4bedf6`
+- **Generated**: `2026-02-10T08:26:19Z`
+<!-- END SNAPSHOT -->
+
+## Docs tree (auto-generated)
+
+<!-- BEGIN DOCS_TREE -->
+- **About** (`README.md`) → `references/docs/README.md` — Coder docs
+  - Screenshots (`about/screenshots.md`) → `references/docs/about/screenshots.md` — View screenshots of the Coder platform
+  - Quickstart (`tutorials/quickstart.md`) → `references/docs/tutorials/quickstart.md` — Learn how to install and run Coder quickly
+  - **Support** (`support/index.md`) → `references/docs/support/index.md` — How Coder supports your deployment and you
+    - Generate a Support Bundle (`support/support-bundle.md`) → `references/docs/support/support-bundle.md` — Generate and upload a Support Bundle to Coder Support
+  - **Contributing** (`about/contributing/CONTRIBUTING.md`) → `references/docs/about/contributing/CONTRIBUTING.md` — Learn how to contribute to Coder
+    - Code of Conduct (`about/contributing/CODE_OF_CONDUCT.md`) → `references/docs/about/contributing/CODE_OF_CONDUCT.md` — See the code of conduct for contributing to Coder
+    - Documentation (`about/contributing/documentation.md`) → `references/docs/about/contributing/documentation.md` — Our style guide for use when authoring documentation
+    - Modules (`about/contributing/modules.md`) → `references/docs/about/contributing/modules.md` — Learn how to contribute modules to Coder
+    - Templates (`about/contributing/templates.md`) → `references/docs/about/contributing/templates.md` — Learn how to contribute templates to Coder
+    - Backend (`about/contributing/backend.md`) → `references/docs/about/contributing/backend.md` — Our guide for backend development
+    - Frontend (`about/contributing/frontend.md`) → `references/docs/about/contributing/frontend.md` — Our guide for frontend development
+    - Security (`about/contributing/SECURITY.md`) → `references/docs/about/contributing/SECURITY.md` — Security vulnerability disclosure policy
+    - AI Contribution Guidelines (`about/contributing/AI_CONTRIBUTING.md`) → `references/docs/about/contributing/AI_CONTRIBUTING.md` — Guidelines for AI-generated contributions.
+- **Install** (`install/index.md`) → `references/docs/install/index.md` — Installing Coder
+  - Coder CLI (`install/cli.md`) → `references/docs/install/cli.md` — Install the standalone binary
+  - Docker (`install/docker.md`) → `references/docs/install/docker.md` — Install Coder using Docker
+  - **Kubernetes** (`install/kubernetes.md`) → `references/docs/install/kubernetes.md` — Install Coder on Kubernetes
+    - Deploy Coder on Azure with an Application Gateway (`install/kubernetes/kubernetes-azure-app-gateway.md`) → `references/docs/install/kubernetes/kubernetes-azure-app-gateway.md` — Deploy Coder on Azure with an Application Gateway
+  - Rancher (`install/rancher.md`) → `references/docs/install/rancher.md` — Deploy Coder on Rancher
+  - OpenShift (`install/openshift.md`) → `references/docs/install/openshift.md` — Install Coder on OpenShift
+  - **Cloud Providers** (`install/cloud/index.md`) → `references/docs/install/cloud/index.md` — Install Coder on cloud providers
+    - AWS EC2 (`install/cloud/ec2.md`) → `references/docs/install/cloud/ec2.md` — Install Coder on AWS EC2
+    - GCP Compute Engine (`install/cloud/compute-engine.md`) → `references/docs/install/cloud/compute-engine.md` — Install Coder on GCP Compute Engine
+    - Azure VM (`install/cloud/azure-vm.md`) → `references/docs/install/cloud/azure-vm.md` — Install Coder on an Azure VM
+  - Air-gapped Deployments (`install/airgap.md`) → `references/docs/install/airgap.md` — Run Coder in air-gapped / disconnected / offline environments
+  - Unofficial Install Methods (`install/other/index.md`) → `references/docs/install/other/index.md` — Other installation methods
+  - **Upgrading** (`install/upgrade.md`) → `references/docs/install/upgrade.md` — Learn how to upgrade Coder
+    - Upgrading Best Practices (`install/upgrade-best-practices.md`) → `references/docs/install/upgrade-best-practices.md` — Best practices and troubleshooting for Coder upgrades
+  - Uninstall (`install/uninstall.md`) → `references/docs/install/uninstall.md` — Learn how to uninstall Coder
+  - **Releases** (`install/releases/index.md`) → `references/docs/install/releases/index.md` — Learn about the Coder release channels and schedule
+    - Feature stages (`install/releases/feature-stages.md`) → `references/docs/install/releases/feature-stages.md` — Information about pre-GA stages.
+    - Upgrading from ESR 2.24 to 2.29 (`install/releases/esr-2.24-2.29-upgrade.md`) → `references/docs/install/releases/esr-2.24-2.29-upgrade.md` — Upgrade Guide for ESR Releases
+- **User Guides** (`user-guides/index.md`) → `references/docs/user-guides/index.md` — Guides for end-users of Coder
+  - **Access Workspaces** (`user-guides/workspace-access/index.md`) → `references/docs/user-guides/workspace-access/index.md` — Connect to your Coder workspaces
+    - Visual Studio Code (`user-guides/workspace-access/vscode.md`) → `references/docs/user-guides/workspace-access/vscode.md` — Use VSCode with Coder in the desktop or browser
+    - Web Terminal (`user-guides/workspace-access/web-terminal.md`) → `references/docs/user-guides/workspace-access/web-terminal.md` — Use the browser-based terminal to access your workspace
+    - **JetBrains IDEs** (`user-guides/workspace-access/jetbrains/index.md`) → `references/docs/user-guides/workspace-access/jetbrains/index.md` — Use JetBrains IDEs with Coder
+      - JetBrains Fleet (`user-guides/workspace-access/jetbrains/fleet.md`) → `references/docs/user-guides/workspace-access/jetbrains/fleet.md` — Connect JetBrains Fleet to a Coder workspace
+      - JetBrains Gateway (`user-guides/workspace-access/jetbrains/gateway.md`) → `references/docs/user-guides/workspace-access/jetbrains/gateway.md` — Use JetBrains Gateway to connect to Coder workspaces
+      - JetBrains Toolbox (`user-guides/workspace-access/jetbrains/toolbox.md`) → `references/docs/user-guides/workspace-access/jetbrains/toolbox.md` — Access Coder workspaces from JetBrains Toolbox
+    - Remote Desktop (`user-guides/workspace-access/remote-desktops.md`) → `references/docs/user-guides/workspace-access/remote-desktops.md` — Use RDP in Coder
+    - Emacs TRAMP (`user-guides/workspace-access/emacs-tramp.md`) → `references/docs/user-guides/workspace-access/emacs-tramp.md` — Use Emacs TRAMP in Coder
+    - Port Forwarding (`user-guides/workspace-access/port-forwarding.md`) → `references/docs/user-guides/workspace-access/port-forwarding.md` — Access ports on your workspace
+    - Filebrowser (`user-guides/workspace-access/filebrowser.md`) → `references/docs/user-guides/workspace-access/filebrowser.md` — Access your workspace files
+    - Web IDEs and Coder Apps (`user-guides/workspace-access/web-ides.md`) → `references/docs/user-guides/workspace-access/web-ides.md` — Access your workspace with IDEs in the browser
+    - code-server (`user-guides/workspace-access/code-server.md`) → `references/docs/user-guides/workspace-access/code-server.md` — Access your workspace with code-server
+    - Zed (`user-guides/workspace-access/zed.md`) → `references/docs/user-guides/workspace-access/zed.md` — Access your workspace with Zed
+    - Cursor (`user-guides/workspace-access/cursor.md`) → `references/docs/user-guides/workspace-access/cursor.md` — Access your workspace with Cursor
+    - Windsurf (`user-guides/workspace-access/windsurf.md`) → `references/docs/user-guides/workspace-access/windsurf.md` — Access your workspace with Windsurf
+  - **Coder Desktop** (`user-guides/desktop/index.md`) → `references/docs/user-guides/desktop/index.md` — Transform remote workspaces into seamless local development environments with no port forwarding required
+    - Coder Desktop Connect and Sync (`user-guides/desktop/desktop-connect-sync.md`) → `references/docs/user-guides/desktop/desktop-connect-sync.md` — Use Coder Desktop to manage your workspace code and files locally
+  - Workspace Management (`user-guides/workspace-management.md`) → `references/docs/user-guides/workspace-management.md` — Manage workspaces
+  - Workspace Sharing (`user-guides/shared-workspaces.md`) → `references/docs/user-guides/shared-workspaces.md` — Sharing workspaces
+  - Workspace Scheduling (`user-guides/workspace-scheduling.md`) → `references/docs/user-guides/workspace-scheduling.md` — Cost control with workspace schedules
+  - Workspace Lifecycle (`user-guides/workspace-lifecycle.md`) → `references/docs/user-guides/workspace-lifecycle.md` — A guide to the workspace lifecycle, from creation and status through stopping and deletion.
+  - **Dev Containers** (`user-guides/devcontainers/index.md`) → `references/docs/user-guides/devcontainers/index.md` — Run containerized development environments in your Coder workspace using the dev containers specification.
+    - Working with dev containers (`user-guides/devcontainers/working-with-dev-containers.md`) → `references/docs/user-guides/devcontainers/working-with-dev-containers.md` — Access dev containers via SSH, your IDE, or web terminal.
+    - Customizing dev containers (`user-guides/devcontainers/customizing-dev-containers.md`) → `references/docs/user-guides/devcontainers/customizing-dev-containers.md` — Configure custom agent names, apps, and display options in devcontainer.json.
+    - Troubleshooting dev containers (`user-guides/devcontainers/troubleshooting-dev-containers.md`) → `references/docs/user-guides/devcontainers/troubleshooting-dev-containers.md` — Diagnose and resolve common issues with dev containers in your Coder workspace.
+  - Dotfiles (`user-guides/workspace-dotfiles.md`) → `references/docs/user-guides/workspace-dotfiles.md` — Personalize your environment with dotfiles
+- **Administration** (`admin/index.md`) → `references/docs/admin/index.md` — Guides for template and deployment administrators
+  - **Setup** (`admin/setup/index.md`) → `references/docs/admin/setup/index.md` — Configure user access to your control plane.
+    - Appearance (`admin/setup/appearance.md`) → `references/docs/admin/setup/appearance.md` — Learn how to configure the appearance of Coder
+    - Telemetry (`admin/setup/telemetry.md`) → `references/docs/admin/setup/telemetry.md` — Learn what usage telemetry Coder collects
+    - Data Retention (`admin/setup/data-retention.md`) → `references/docs/admin/setup/data-retention.md` — Configure data retention policies for database tables
+  - **Infrastructure** (`admin/infrastructure/index.md`) → `references/docs/admin/infrastructure/index.md` — How to integrate Coder with your organization's compute
+    - Architecture (`admin/infrastructure/architecture.md`) → `references/docs/admin/infrastructure/architecture.md` — Learn about Coder's architecture
+    - **Validated Architectures** (`admin/infrastructure/validated-architectures/index.md`) → `references/docs/admin/infrastructure/validated-architectures/index.md` — Architectures for large Coder deployments
+      - Up to 1,000 Users (`admin/infrastructure/validated-architectures/1k-users.md`) → `references/docs/admin/infrastructure/validated-architectures/1k-users.md` — Hardware specifications and architecture guidance for Coder deployments that support up to 1,000 users
+      - Up to 2,000 Users (`admin/infrastructure/validated-architectures/2k-users.md`) → `references/docs/admin/infrastructure/validated-architectures/2k-users.md` — Hardware specifications and architecture guidance for Coder deployments that support up to 2,000 users
+      - Up to 3,000 Users (`admin/infrastructure/validated-architectures/3k-users.md`) → `references/docs/admin/infrastructure/validated-architectures/3k-users.md` — Enterprise-scale architecture recommendations for Coder deployments that support up to 3,000 users
+      - Up to 10,000 Users (`admin/infrastructure/validated-architectures/10k-users.md`) → `references/docs/admin/infrastructure/validated-architectures/10k-users.md` — Enterprise-scale architecture recommendations for Coder deployments that support up to 10,000 users
+    - Scale Testing (`admin/infrastructure/scale-testing.md`) → `references/docs/admin/infrastructure/scale-testing.md` — Ensure your deployment can handle your organization's needs
+    - Scaling Utilities (`admin/infrastructure/scale-utility.md`) → `references/docs/admin/infrastructure/scale-utility.md` — Tools to help you scale your deployment
+    - Scaling best practices (`tutorials/best-practices/scale-coder.md`) → `references/docs/tutorials/best-practices/scale-coder.md` — How to prepare a Coder deployment for scale
+  - **Users** (`admin/users/index.md`) → `references/docs/admin/users/index.md` — Learn how to manage and audit users
+    - **OIDC Authentication** (`admin/users/oidc-auth/index.md`) → `references/docs/admin/users/oidc-auth/index.md` — Configure OpenID Connect authentication with identity providers like Okta or Active Directory
+      - Google (`admin/users/oidc-auth/google.md`) → `references/docs/admin/users/oidc-auth/google.md` — Configure Google as an OIDC provider
+      - Microsoft (`admin/users/oidc-auth/microsoft.md`) → `references/docs/admin/users/oidc-auth/microsoft.md` — Configure Microsoft Entra ID as an OIDC provider
+      - Configure OIDC refresh tokens (`admin/users/oidc-auth/refresh-tokens.md`) → `references/docs/admin/users/oidc-auth/refresh-tokens.md` — How to configure OIDC refresh tokens
+    - GitHub Authentication (`admin/users/github-auth.md`) → `references/docs/admin/users/github-auth.md` — Set up authentication through GitHub OAuth to enable secure user login and sign-up
+    - Password Authentication (`admin/users/password-auth.md`) → `references/docs/admin/users/password-auth.md` — Manage username/password authentication settings and user password reset workflows
+    - Headless Authentication (`admin/users/headless-auth.md`) → `references/docs/admin/users/headless-auth.md` — Create and manage headless service accounts for automated systems and API integrations
+    - Groups & Roles (`admin/users/groups-roles.md`) → `references/docs/admin/users/groups-roles.md` — Manage access control with user groups and role-based permissions for Coder resources
+    - IdP Sync (`admin/users/idp-sync.md`) → `references/docs/admin/users/idp-sync.md` — Synchronize user groups, roles, and organizations from your identity provider to Coder
+    - Organizations (`admin/users/organizations.md`) → `references/docs/admin/users/organizations.md` — Segment and isolate resources by creating separate organizations for different teams or projects
+    - Quotas (`admin/users/quotas.md`) → `references/docs/admin/users/quotas.md` — Control resource usage by implementing workspace budgets and credit-based cost management
+    - Sessions & API Tokens (`admin/users/sessions-tokens.md`) → `references/docs/admin/users/sessions-tokens.md` — Manage authentication tokens for API access and configure session duration policies
+  - **Templates** (`admin/templates/index.md`) → `references/docs/admin/templates/index.md` — Learn how to author and maintain Coder templates
+    - Creating Templates (`admin/templates/creating-templates.md`) → `references/docs/admin/templates/creating-templates.md` — Learn how to create templates with Terraform
+    - **Managing Templates** (`admin/templates/managing-templates/index.md`) → `references/docs/admin/templates/managing-templates/index.md` — Learn how to manage templates and best practices
+      - Image Management (`admin/templates/managing-templates/image-management.md`) → `references/docs/admin/templates/managing-templates/image-management.md` — Learn about template image management
+      - Change Management (`admin/templates/managing-templates/change-management.md`) → `references/docs/admin/templates/managing-templates/change-management.md` — Learn about template change management and versioning
+      - Envbuilder (`admin/templates/managing-templates/envbuilder.md`) → `references/docs/admin/templates/managing-templates/envbuilder.md` — Shift environment definition to repositories
+      - Template Dependencies (`admin/templates/managing-templates/dependencies.md`) → `references/docs/admin/templates/managing-templates/dependencies.md` — Learn how to manage template dependencies
+      - Workspace Scheduling (`admin/templates/managing-templates/schedule.md`) → `references/docs/admin/templates/managing-templates/schedule.md` — Learn how to control how workspaces are started and stopped
+      - External Workspaces (`admin/templates/managing-templates/external-workspaces.md`) → `references/docs/admin/templates/managing-templates/external-workspaces.md` — Learn how to manage external workspaces
+    - **Extending Templates** (`admin/templates/extending-templates/index.md`) → `references/docs/admin/templates/extending-templates/index.md` — Learn best practices in extending templates
+      - Agent Metadata (`admin/templates/extending-templates/agent-metadata.md`) → `references/docs/admin/templates/extending-templates/agent-metadata.md` — Retrieve real-time stats from the workspace agent
+      - Build Parameters (`admin/templates/extending-templates/parameters.md`) → `references/docs/admin/templates/extending-templates/parameters.md` — Use parameters to customize workspaces at build
+      - Dynamic Parameters (`admin/templates/extending-templates/dynamic-parameters.md`) → `references/docs/admin/templates/extending-templates/dynamic-parameters.md` — Conditional, identity-aware parameter syntax for advanced users.
+      - Prebuilt workspaces (`admin/templates/extending-templates/prebuilt-workspaces.md`) → `references/docs/admin/templates/extending-templates/prebuilt-workspaces.md` — Pre-provision a ready-to-deploy workspace with a defined set of parameters
+      - Icons (`admin/templates/extending-templates/icons.md`) → `references/docs/admin/templates/extending-templates/icons.md` — Customize your template with built-in icons
+      - Resource Metadata (`admin/templates/extending-templates/resource-metadata.md`) → `references/docs/admin/templates/extending-templates/resource-metadata.md` — Display resource state in the workspace dashboard
+      - Resource Monitoring (`admin/templates/extending-templates/resource-monitoring.md`) → `references/docs/admin/templates/extending-templates/resource-monitoring.md` — Monitor resources in the workspace dashboard
+      - Resource Ordering (`admin/templates/extending-templates/resource-ordering.md`) → `references/docs/admin/templates/extending-templates/resource-ordering.md` — Design the UI of workspaces
+      - Resource Persistence (`admin/templates/extending-templates/resource-persistence.md`) → `references/docs/admin/templates/extending-templates/resource-persistence.md` — Control resource persistence
+      - Terraform Variables (`admin/templates/extending-templates/variables.md`) → `references/docs/admin/templates/extending-templates/variables.md` — Use variables to manage template state
+      - Terraform Modules (`admin/templates/extending-templates/modules.md`) → `references/docs/admin/templates/extending-templates/modules.md` — Reuse terraform code across templates
+      - Web IDEs and Coder Apps (`admin/templates/extending-templates/web-ides.md`) → `references/docs/admin/templates/extending-templates/web-ides.md` — Add and configure Web IDEs in your templates as coder apps
+      - Pre-install JetBrains IDEs (`admin/templates/extending-templates/jetbrains-preinstall.md`) → `references/docs/admin/templates/extending-templates/jetbrains-preinstall.md` — Pre-install JetBrains IDEs in a template for faster IDE startup
+      - JetBrains IDEs in Air-Gapped Deployments (`admin/templates/extending-templates/jetbrains-airgapped.md`) → `references/docs/admin/templates/extending-templates/jetbrains-airgapped.md` — Configure JetBrains IDEs for air-gapped deployments
+      - Docker in Workspaces (`admin/templates/extending-templates/docker-in-workspaces.md`) → `references/docs/admin/templates/extending-templates/docker-in-workspaces.md` — Use Docker in your workspaces
+      - Workspace Tags (`admin/templates/extending-templates/workspace-tags.md`) → `references/docs/admin/templates/extending-templates/workspace-tags.md` — Control provisioning using Workspace Tags and Parameters
+      - Provider Authentication (`admin/templates/extending-templates/provider-authentication.md`) → `references/docs/admin/templates/extending-templates/provider-authentication.md` — Authenticate with provider APIs to provision workspaces
+      - Dev Containers (`admin/templates/extending-templates/devcontainers.md`) → `references/docs/admin/templates/extending-templates/devcontainers.md` — Extend templates with containerized dev environments
+      - Process Logging (`admin/templates/extending-templates/process-logging.md`) → `references/docs/admin/templates/extending-templates/process-logging.md` — Log workspace processes
+      - **Startup Dependencies** (`admin/templates/startup-coordination/index.md`) → `references/docs/admin/templates/startup-coordination/index.md` — Coordinate workspace startup with dependency management
+        - Usage (`admin/templates/startup-coordination/usage.md`) → `references/docs/admin/templates/startup-coordination/usage.md` — How to use startup coordination
+        - Troubleshooting (`admin/templates/startup-coordination/troubleshooting.md`) → `references/docs/admin/templates/startup-coordination/troubleshooting.md` — Troubleshoot startup coordination
+        - Examples (`admin/templates/startup-coordination/example.md`) → `references/docs/admin/templates/startup-coordination/example.md` — Examples of startup coordination
+    - Open in Coder (`admin/templates/open-in-coder.md`) → `references/docs/admin/templates/open-in-coder.md` — Open workspaces in Coder
+    - Permissions & Policies (`admin/templates/template-permissions.md`) → `references/docs/admin/templates/template-permissions.md` — Learn how to create templates with Terraform
+    - Troubleshooting Templates (`admin/templates/troubleshooting.md`) → `references/docs/admin/templates/troubleshooting.md` — Learn how to troubleshoot template issues
+  - **External Provisioners** (`admin/provisioners/index.md`) → `references/docs/admin/provisioners/index.md` — Learn how to run external provisioners with Coder
+    - Manage Provisioner Jobs (`admin/provisioners/manage-provisioner-jobs.md`) → `references/docs/admin/provisioners/manage-provisioner-jobs.md` — Learn how to run external provisioners with Coder
+  - External Authentication (`admin/external-auth/index.md`) → `references/docs/admin/external-auth/index.md` — Learn how to configure external authentication
+  - **Integrations** (`admin/integrations/index.md`) → `references/docs/admin/integrations/index.md` — Use integrations to extend Coder
+    - Prometheus (`admin/integrations/prometheus.md`) → `references/docs/admin/integrations/prometheus.md` — Collect deployment metrics with Prometheus
+    - Kubernetes Logging (`admin/integrations/kubernetes-logs.md`) → `references/docs/admin/integrations/kubernetes-logs.md` — Stream K8s event logs on workspace startup
+    - Additional Kubernetes Clusters (`admin/integrations/multiple-kube-clusters.md`) → `references/docs/admin/integrations/multiple-kube-clusters.md` — Deploy workspaces on additional Kubernetes clusters
+    - JFrog Artifactory (`admin/integrations/jfrog-artifactory.md`) → `references/docs/admin/integrations/jfrog-artifactory.md` — Integrate Coder with JFrog Artifactory
+    - Island Secure Browser (`admin/integrations/island.md`) → `references/docs/admin/integrations/island.md` — Integrate Coder with Island's Secure Browser
+    - DX PlatformX (`admin/integrations/platformx.md`) → `references/docs/admin/integrations/platformx.md` — Integrate Coder with DX PlatformX
+    - DX Data Cloud (`admin/integrations/dx-data-cloud.md`) → `references/docs/admin/integrations/dx-data-cloud.md` — Tag Coder Users with DX Data Cloud
+    - Hashicorp Vault (`admin/integrations/vault.md`) → `references/docs/admin/integrations/vault.md` — Integrate Coder with Hashicorp Vault
+    - OAuth2 Provider (`admin/integrations/oauth2-provider.md`) → `references/docs/admin/integrations/oauth2-provider.md` — Use Coder as an OAuth2 provider
+    - **Dev Containers** (`admin/integrations/devcontainers/index.md`) → `references/docs/admin/integrations/devcontainers/index.md` — Configure dev container support using Docker or Envbuilder
+      - Dev Containers Integration (`admin/integrations/devcontainers/integration.md`) → `references/docs/admin/integrations/devcontainers/integration.md` — Configure native dev containers with Docker
+      - **Envbuilder** (`admin/integrations/devcontainers/envbuilder/index.md`) → `references/docs/admin/integrations/devcontainers/envbuilder/index.md` — Build dev containers without Docker
+        - Add an Envbuilder template (`admin/integrations/devcontainers/envbuilder/add-envbuilder.md`) → `references/docs/admin/integrations/devcontainers/envbuilder/add-envbuilder.md` — How to add an Envbuilder template
+        - Security and caching (`admin/integrations/devcontainers/envbuilder/envbuilder-security-caching.md`) → `references/docs/admin/integrations/devcontainers/envbuilder/envbuilder-security-caching.md` — Configure authentication and caching
+        - Releases and known issues (`admin/integrations/devcontainers/envbuilder/envbuilder-releases-known-issues.md`) → `references/docs/admin/integrations/devcontainers/envbuilder/envbuilder-releases-known-issues.md` — Release channels and known issues
+  - **Networking** (`admin/networking/index.md`) → `references/docs/admin/networking/index.md` — Understand Coder's networking layer
+    - Port Forwarding (`admin/networking/port-forwarding.md`) → `references/docs/admin/networking/port-forwarding.md` — Learn how to forward ports in Coder
+    - STUN and NAT (`admin/networking/stun.md`) → `references/docs/admin/networking/stun.md` — Learn how to forward ports in Coder
+    - Workspace Proxies (`admin/networking/workspace-proxies.md`) → `references/docs/admin/networking/workspace-proxies.md` — Run geo distributed workspace proxies
+    - High Availability (`admin/networking/high-availability.md`) → `references/docs/admin/networking/high-availability.md` — Learn how to configure Coder for High Availability
+    - Wildcard Access URL (`admin/networking/wildcard-access-url.md`) → `references/docs/admin/networking/wildcard-access-url.md` — Learn about wildcard access URL in Coder deployments
+    - Troubleshooting (`admin/networking/troubleshooting.md`) → `references/docs/admin/networking/troubleshooting.md` — Troubleshoot networking issues in Coder
+  - **Monitoring** (`admin/monitoring/index.md`) → `references/docs/admin/monitoring/index.md` — Configure security policy and audit your deployment
+    - Logs (`admin/monitoring/logs.md`) → `references/docs/admin/monitoring/logs.md` — Learn about Coder's logs
+    - Metrics (`admin/monitoring/metrics.md`) → `references/docs/admin/monitoring/metrics.md` — Learn about Coder's logs
+    - Health Check (`admin/monitoring/health-check.md`) → `references/docs/admin/monitoring/health-check.md` — Learn about Coder's automated health checks
+    - Connection Logs (`admin/monitoring/connection-logs.md`) → `references/docs/admin/monitoring/connection-logs.md` — Monitor connections to workspaces
+    - **Notifications** (`admin/monitoring/notifications/index.md`) → `references/docs/admin/monitoring/notifications/index.md` — Configure notifications for your deployment
+      - Slack Notifications (`admin/monitoring/notifications/slack.md`) → `references/docs/admin/monitoring/notifications/slack.md` — Learn how to setup Slack notifications
+      - Microsoft Teams Notifications (`admin/monitoring/notifications/teams.md`) → `references/docs/admin/monitoring/notifications/teams.md` — Learn how to setup Microsoft Teams notifications
+  - **Security** (`admin/security/index.md`) → `references/docs/admin/security/index.md` — Configure security policy and audit your deployment
+    - Audit Logs (`admin/security/audit-logs.md`) → `references/docs/admin/security/audit-logs.md` — Audit actions taken inside Coder
+    - Secrets (`admin/security/secrets.md`) → `references/docs/admin/security/secrets.md` — Use sensitive variables in your workspaces
+    - Database Encryption (`admin/security/database-encryption.md`) → `references/docs/admin/security/database-encryption.md` — Encrypt the database to prevent unauthorized access
+  - Licensing (`admin/licensing/index.md`) → `references/docs/admin/licensing/index.md` — Configure licensing for your deployment
+- **Run AI Coding Agents in Coder** (`ai-coder/index.md`) → `references/docs/ai-coder/index.md` — Learn how to run and integrate agentic AI coding agents like GPT-Code, OpenDevin, or SWE-Agent in Coder workspaces to boost developer productivity.
+  - Best Practices (`ai-coder/best-practices.md`) → `references/docs/ai-coder/best-practices.md` — Best Practices running Coding Agents
+  - In the IDE (`ai-coder/ide-agents.md`) → `references/docs/ai-coder/ide-agents.md` — Run IDE agents with Coder
+  - **Coder Tasks** (`ai-coder/tasks.md`) → `references/docs/ai-coder/tasks.md` — Run Coding Agents on your Own Infrastructure
+    - Understanding Coder Tasks (`ai-coder/tasks-core-principles.md`) → `references/docs/ai-coder/tasks-core-principles.md` — Core principles and concepts behind Coder Tasks
+    - Custom Agents (`ai-coder/custom-agents.md`) → `references/docs/ai-coder/custom-agents.md` — Run custom agents with Coder Tasks
+    - Tasks Migration Guide (`ai-coder/tasks-migration.md`) → `references/docs/ai-coder/tasks-migration.md` — Changes to Coder Tasks made in v2.28
+    - Security & Boundaries (`ai-coder/security.md`) → `references/docs/ai-coder/security.md` — Learn about security and boundaries when running AI coding agents in Coder
+    - Create a GitHub to Coder Tasks Workflow (`ai-coder/github-to-tasks.md`) → `references/docs/ai-coder/github-to-tasks.md` — How to setup Coder Tasks to run in GitHub
+  - **AI Governance Add-On** (`ai-coder/ai-governance.md`) → `references/docs/ai-coder/ai-governance.md` — Features around managing agents at scale
+    - **Agent Boundaries** (`ai-coder/agent-boundaries/index.md`) → `references/docs/ai-coder/agent-boundaries/index.md` — Understanding Agent Boundaries in Coder Tasks
+      - NS Jail (`ai-coder/agent-boundaries/nsjail.md`) → `references/docs/ai-coder/agent-boundaries/nsjail.md` — Documentation for Namespace Jail
+      - LandJail (`ai-coder/agent-boundaries/landjail.md`) → `references/docs/ai-coder/agent-boundaries/landjail.md` — Documentation for LandJail
+      - Rules Engine (`ai-coder/agent-boundaries/rules-engine.md`) → `references/docs/ai-coder/agent-boundaries/rules-engine.md` — Documentation for the Boundary rules engine
+      - Version Compatibility (`ai-coder/agent-boundaries/version.md`) → `references/docs/ai-coder/agent-boundaries/version.md` — Version requirements and compatibility information
+    - **AI Bridge** (`ai-coder/ai-bridge/index.md`) → `references/docs/ai-coder/ai-bridge/index.md` — AI Gateway for Enterprise Governance & Observability
+      - Setup (`ai-coder/ai-bridge/setup.md`) → `references/docs/ai-coder/ai-bridge/setup.md` — How to set up and configure AI Bridge
+      - **Client Configuration** (`ai-coder/ai-bridge/clients/index.md`) → `references/docs/ai-coder/ai-bridge/clients/index.md` — How to configure your AI coding tools to use AI Bridge
+        - Claude Code (`ai-coder/ai-bridge/clients/claude-code.md`) → `references/docs/ai-coder/ai-bridge/clients/claude-code.md` — Configure Claude Code to use AI Bridge
+        - Codex (`ai-coder/ai-bridge/clients/codex.md`) → `references/docs/ai-coder/ai-bridge/clients/codex.md` — Configure Codex to use AI Bridge
+        - Mux (`ai-coder/ai-bridge/clients/mux.md`) → `references/docs/ai-coder/ai-bridge/clients/mux.md` — Configure Mux to use AI Bridge
+        - OpenCode (`ai-coder/ai-bridge/clients/opencode.md`) → `references/docs/ai-coder/ai-bridge/clients/opencode.md` — Configure OpenCode to use AI Bridge
+        - Factory (`ai-coder/ai-bridge/clients/factory.md`) → `references/docs/ai-coder/ai-bridge/clients/factory.md` — Configure Factory to use AI Bridge
+        - Cline (`ai-coder/ai-bridge/clients/cline.md`) → `references/docs/ai-coder/ai-bridge/clients/cline.md` — Configure Cline to use AI Bridge
+        - Kilo Code (`ai-coder/ai-bridge/clients/kilo-code.md`) → `references/docs/ai-coder/ai-bridge/clients/kilo-code.md` — Configure Kilo Code to use AI Bridge
+        - Roo Code (`ai-coder/ai-bridge/clients/roo-code.md`) → `references/docs/ai-coder/ai-bridge/clients/roo-code.md` — Configure Roo Code to use AI Bridge
+        - VS Code (`ai-coder/ai-bridge/clients/vscode.md`) → `references/docs/ai-coder/ai-bridge/clients/vscode.md` — Configure VS Code to use AI Bridge
+        - JetBrains (`ai-coder/ai-bridge/clients/jetbrains.md`) → `references/docs/ai-coder/ai-bridge/clients/jetbrains.md` — Configure JetBrains IDEs to use AI Bridge
+        - Zed (`ai-coder/ai-bridge/clients/zed.md`) → `references/docs/ai-coder/ai-bridge/clients/zed.md` — Configure Zed to use AI Bridge
+        - GitHub Copilot (`ai-coder/ai-bridge/clients/copilot.md`) → `references/docs/ai-coder/ai-bridge/clients/copilot.md` — Configure GitHub Copilot to use AI Bridge via AI Bridge Proxy
+      - MCP Tools Injection (`ai-coder/ai-bridge/mcp.md`) → `references/docs/ai-coder/ai-bridge/mcp.md` — How to configure MCP servers for tools injection through AI Bridge
+      - **AI Bridge Proxy** (`ai-coder/ai-bridge/ai-bridge-proxy/index.md`) → `references/docs/ai-coder/ai-bridge/ai-bridge-proxy/index.md` — Proxy for AI coding tools without base URL override support
+        - Setup (`ai-coder/ai-bridge/ai-bridge-proxy/setup.md`) → `references/docs/ai-coder/ai-bridge/ai-bridge-proxy/setup.md` — How to set up and configure AI Bridge Proxy
+      - Monitoring (`ai-coder/ai-bridge/monitoring.md`) → `references/docs/ai-coder/ai-bridge/monitoring.md` — How to monitor AI Bridge
+      - Reference (`ai-coder/ai-bridge/reference.md`) → `references/docs/ai-coder/ai-bridge/reference.md` — Technical reference for AI Bridge
+    - Usage Data Reporting (`ai-coder/usage-data-reporting.md`) → `references/docs/ai-coder/usage-data-reporting.md` — Configure AI usage data reporting
+  - MCP Server (`ai-coder/mcp-server.md`) → `references/docs/ai-coder/mcp-server.md` — Connect to agents Coder with a MCP server
+- **Tutorials** (`tutorials/index.md`) → `references/docs/tutorials/index.md` — Coder knowledgebase for administrating your deployment
+  - Quickstart (`tutorials/quickstart.md`) → `references/docs/tutorials/quickstart.md` — Learn how to install and run Coder quickly
+  - Write a Template from Scratch (`tutorials/template-from-scratch.md`) → `references/docs/tutorials/template-from-scratch.md` — Learn how to author Coder templates
+  - Using an External Database (`tutorials/external-database.md`) → `references/docs/tutorials/external-database.md` — Use Coder with an external database
+  - Image Management (`admin/templates/managing-templates/image-management.md`) → `references/docs/admin/templates/managing-templates/image-management.md` — Learn about image management with Coder
+  - Configuring Okta (`tutorials/configuring-okta.md`) → `references/docs/tutorials/configuring-okta.md` — Custom claims/scopes with Okta for group/role sync
+  - Google to AWS Federation (`tutorials/gcp-to-aws.md`) → `references/docs/tutorials/gcp-to-aws.md` — Federating a Google Cloud service account to AWS
+  - JFrog Artifactory Integration (`admin/integrations/jfrog-artifactory.md`) → `references/docs/admin/integrations/jfrog-artifactory.md` — Integrate Coder with JFrog Artifactory
+  - Istio Integration (`admin/integrations/istio.md`) → `references/docs/admin/integrations/istio.md` — Integrate Coder with Istio
+  - Island Secure Browser Integration (`admin/integrations/island.md`) → `references/docs/admin/integrations/island.md` — Integrate Coder with Island's Secure Browser
+  - Template ImagePullSecrets (`tutorials/image-pull-secret.md`) → `references/docs/tutorials/image-pull-secret.md` — Creating ImagePullSecrets for private registries
+  - Postgres SSL (`tutorials/postgres-ssl.md`) → `references/docs/tutorials/postgres-ssl.md` — Configure Coder to connect to Postgres over SSL
+  - Azure Federation (`tutorials/azure-federation.md`) → `references/docs/tutorials/azure-federation.md` — Federating Coder to Azure
+  - Deploy Coder on Azure with an Application Gateway (`install/kubernetes/kubernetes-azure-app-gateway.md`) → `references/docs/install/kubernetes/kubernetes-azure-app-gateway.md` — Deploy Coder on Azure with an Application Gateway
+  - Cloning Git Repositories (`tutorials/cloning-git-repositories.md`) → `references/docs/tutorials/cloning-git-repositories.md` — Learn how to clone Git repositories in Coder
+  - Test Templates Through CI/CD (`tutorials/testing-templates.md`) → `references/docs/tutorials/testing-templates.md` — Learn how to test and publish Coder templates in a CI/CD pipeline
+  - Use Apache as a Reverse Proxy (`tutorials/reverse-proxy-apache.md`) → `references/docs/tutorials/reverse-proxy-apache.md` — Learn how to use Apache as a reverse proxy
+  - Use Caddy as a Reverse Proxy (`tutorials/reverse-proxy-caddy.md`) → `references/docs/tutorials/reverse-proxy-caddy.md` — Learn how to use Caddy as a reverse proxy
+  - Use NGINX as a Reverse Proxy (`tutorials/reverse-proxy-nginx.md`) → `references/docs/tutorials/reverse-proxy-nginx.md` — Learn how to use NGINX as a reverse proxy
+  - Pre-install JetBrains IDEs in Workspaces (`admin/templates/extending-templates/jetbrains-preinstall.md`) → `references/docs/admin/templates/extending-templates/jetbrains-preinstall.md` — Pre-install JetBrains IDEs in workspaces
+  - Use JetBrains IDEs in Air-Gapped Deployments (`admin/templates/extending-templates/jetbrains-airgapped.md`) → `references/docs/admin/templates/extending-templates/jetbrains-airgapped.md` — Configure JetBrains IDEs for air-gapped deployments
+  - FAQs (`tutorials/faqs.md`) → `references/docs/tutorials/faqs.md` — Miscellaneous FAQs from our community
+  - **Best practices** (`tutorials/best-practices/index.md`) → `references/docs/tutorials/best-practices/index.md` — Guides to help you make the most of your Coder experience
+    - Organizations - best practices (`tutorials/best-practices/organizations.md`) → `references/docs/tutorials/best-practices/organizations.md` — How to make the best use of Coder Organizations
+    - Scale Coder (`tutorials/best-practices/scale-coder.md`) → `references/docs/tutorials/best-practices/scale-coder.md` — How to prepare a Coder deployment for scale
+    - Security - best practices (`tutorials/best-practices/security-best-practices.md`) → `references/docs/tutorials/best-practices/security-best-practices.md` — Make your Coder deployment more secure
+    - Speed up your workspaces (`tutorials/best-practices/speed-up-templates.md`) → `references/docs/tutorials/best-practices/speed-up-templates.md` — Speed up your Coder templates and workspaces
+- **Reference** (`reference/index.md`) → `references/docs/reference/index.md` — Reference
+  - **REST API** (`reference/api/index.md`) → `references/docs/reference/api/index.md` — Learn how to use Coderd API
+    - General (`reference/api/general.md`) → `references/docs/reference/api/general.md`
+    - AI Bridge (`reference/api/aibridge.md`) → `references/docs/reference/api/aibridge.md`
+    - Agents (`reference/api/agents.md`) → `references/docs/reference/api/agents.md`
+    - Applications (`reference/api/applications.md`) → `references/docs/reference/api/applications.md`
+    - Audit (`reference/api/audit.md`) → `references/docs/reference/api/audit.md`
+    - Authentication (`reference/api/authentication.md`) → `references/docs/reference/api/authentication.md`
+    - Authorization (`reference/api/authorization.md`) → `references/docs/reference/api/authorization.md`
+    - Builds (`reference/api/builds.md`) → `references/docs/reference/api/builds.md`
+    - Debug (`reference/api/debug.md`) → `references/docs/reference/api/debug.md`
+    - Enterprise (`reference/api/enterprise.md`) → `references/docs/reference/api/enterprise.md`
+    - Files (`reference/api/files.md`) → `references/docs/reference/api/files.md`
+    - Git (`reference/api/git.md`) → `references/docs/reference/api/git.md`
+    - InitScript (`reference/api/initscript.md`) → `references/docs/reference/api/initscript.md`
+    - Insights (`reference/api/insights.md`) → `references/docs/reference/api/insights.md`
+    - Members (`reference/api/members.md`) → `references/docs/reference/api/members.md`
+    - Notifications (`reference/api/notifications.md`) → `references/docs/reference/api/notifications.md`
+    - Organizations (`reference/api/organizations.md`) → `references/docs/reference/api/organizations.md`
+    - PortSharing (`reference/api/portsharing.md`) → `references/docs/reference/api/portsharing.md`
+    - Prebuilds (`reference/api/prebuilds.md`) → `references/docs/reference/api/prebuilds.md`
+    - Provisioning (`reference/api/provisioning.md`) → `references/docs/reference/api/provisioning.md`
+    - Schemas (`reference/api/schemas.md`) → `references/docs/reference/api/schemas.md`
+    - Tasks (`reference/api/tasks.md`) → `references/docs/reference/api/tasks.md`
+    - Templates (`reference/api/templates.md`) → `references/docs/reference/api/templates.md`
+    - Users (`reference/api/users.md`) → `references/docs/reference/api/users.md`
+    - WorkspaceProxies (`reference/api/workspaceproxies.md`) → `references/docs/reference/api/workspaceproxies.md`
+    - Workspaces (`reference/api/workspaces.md`) → `references/docs/reference/api/workspaces.md`
+  - **Command Line** (`reference/cli/index.md`) → `references/docs/reference/cli/index.md` — Learn how to use Coder CLI
+    - aibridge (`reference/cli/aibridge.md`) → `references/docs/reference/cli/aibridge.md` — Manage AI Bridge.
+    - aibridge interceptions (`reference/cli/aibridge_interceptions.md`) → `references/docs/reference/cli/aibridge_interceptions.md` — Manage AI Bridge interceptions.
+    - aibridge interceptions list (`reference/cli/aibridge_interceptions_list.md`) → `references/docs/reference/cli/aibridge_interceptions_list.md` — List AI Bridge interceptions as JSON.
+    - autoupdate (`reference/cli/autoupdate.md`) → `references/docs/reference/cli/autoupdate.md` — Toggle auto-update policy for a workspace
+    - boundary (`reference/cli/boundary.md`) → `references/docs/reference/cli/boundary.md` — Network isolation tool for monitoring and restricting HTTP/HTTPS requests
+    - coder (`reference/cli/index.md`) → `references/docs/reference/cli/index.md`
+    - completion (`reference/cli/completion.md`) → `references/docs/reference/cli/completion.md` — Install or update shell completion scripts for the detected or chosen shell.
+    - config-ssh (`reference/cli/config-ssh.md`) → `references/docs/reference/cli/config-ssh.md` — Add an SSH Host entry for your workspaces "ssh workspace.coder"
+    - create (`reference/cli/create.md`) → `references/docs/reference/cli/create.md` — Create a workspace
+    - delete (`reference/cli/delete.md`) → `references/docs/reference/cli/delete.md` — Delete a workspace
+    - dotfiles (`reference/cli/dotfiles.md`) → `references/docs/reference/cli/dotfiles.md` — Personalize your workspace by applying a canonical dotfiles repository
+    - external-auth (`reference/cli/external-auth.md`) → `references/docs/reference/cli/external-auth.md` — Manage external authentication
+    - external-auth access-token (`reference/cli/external-auth_access-token.md`) → `references/docs/reference/cli/external-auth_access-token.md` — Print auth for an external provider
+    - external-workspaces (`reference/cli/external-workspaces.md`) → `references/docs/reference/cli/external-workspaces.md` — Create or manage external workspaces
+    - external-workspaces agent-instructions (`reference/cli/external-workspaces_agent-instructions.md`) → `references/docs/reference/cli/external-workspaces_agent-instructions.md` — Get the instructions for an external agent
+    - external-workspaces create (`reference/cli/external-workspaces_create.md`) → `references/docs/reference/cli/external-workspaces_create.md` — Create a new external workspace
+    - external-workspaces list (`reference/cli/external-workspaces_list.md`) → `references/docs/reference/cli/external-workspaces_list.md` — List external workspaces
+    - favorite (`reference/cli/favorite.md`) → `references/docs/reference/cli/favorite.md` — Add a workspace to your favorites
+    - features (`reference/cli/features.md`) → `references/docs/reference/cli/features.md` — List Enterprise features
+    - features list (`reference/cli/features_list.md`) → `references/docs/reference/cli/features_list.md`
+    - groups (`reference/cli/groups.md`) → `references/docs/reference/cli/groups.md` — Manage groups
+    - groups create (`reference/cli/groups_create.md`) → `references/docs/reference/cli/groups_create.md` — Create a user group
+    - groups delete (`reference/cli/groups_delete.md`) → `references/docs/reference/cli/groups_delete.md` — Delete a user group
+    - groups edit (`reference/cli/groups_edit.md`) → `references/docs/reference/cli/groups_edit.md` — Edit a user group
+    - groups list (`reference/cli/groups_list.md`) → `references/docs/reference/cli/groups_list.md` — List user groups
+    - licenses (`reference/cli/licenses.md`) → `references/docs/reference/cli/licenses.md` — Add, delete, and list licenses
+    - licenses add (`reference/cli/licenses_add.md`) → `references/docs/reference/cli/licenses_add.md` — Add license to Coder deployment
+    - licenses delete (`reference/cli/licenses_delete.md`) → `references/docs/reference/cli/licenses_delete.md` — Delete license by ID
+    - licenses list (`reference/cli/licenses_list.md`) → `references/docs/reference/cli/licenses_list.md` — List licenses (including expired)
+    - list (`reference/cli/list.md`) → `references/docs/reference/cli/list.md` — List workspaces
+    - login (`reference/cli/login.md`) → `references/docs/reference/cli/login.md` — Authenticate with Coder deployment
+    - login token (`reference/cli/login_token.md`) → `references/docs/reference/cli/login_token.md` — Print the current session token
+    - logout (`reference/cli/logout.md`) → `references/docs/reference/cli/logout.md` — Unauthenticate your local session
+    - logs (`reference/cli/logs.md`) → `references/docs/reference/cli/logs.md` — View logs for a workspace
+    - netcheck (`reference/cli/netcheck.md`) → `references/docs/reference/cli/netcheck.md` — Print network debug information for DERP and STUN
+    - notifications (`reference/cli/notifications.md`) → `references/docs/reference/cli/notifications.md` — Manage Coder notifications
+    - notifications custom (`reference/cli/notifications_custom.md`) → `references/docs/reference/cli/notifications_custom.md` — Send a custom notification
+    - notifications pause (`reference/cli/notifications_pause.md`) → `references/docs/reference/cli/notifications_pause.md` — Pause notifications
+    - notifications resume (`reference/cli/notifications_resume.md`) → `references/docs/reference/cli/notifications_resume.md` — Resume notifications
+    - notifications test (`reference/cli/notifications_test.md`) → `references/docs/reference/cli/notifications_test.md` — Send a test notification
+    - open (`reference/cli/open.md`) → `references/docs/reference/cli/open.md` — Open a workspace
+    - open app (`reference/cli/open_app.md`) → `references/docs/reference/cli/open_app.md` — Open a workspace application.
+    - open vscode (`reference/cli/open_vscode.md`) → `references/docs/reference/cli/open_vscode.md` — Open a workspace in VS Code Desktop
+    - organizations (`reference/cli/organizations.md`) → `references/docs/reference/cli/organizations.md` — Organization related commands
+    - organizations create (`reference/cli/organizations_create.md`) → `references/docs/reference/cli/organizations_create.md` — Create a new organization.
+    - organizations delete (`reference/cli/organizations_delete.md`) → `references/docs/reference/cli/organizations_delete.md` — Delete an organization
+    - organizations list (`reference/cli/organizations_list.md`) → `references/docs/reference/cli/organizations_list.md` — List all organizations
+    - organizations members (`reference/cli/organizations_members.md`) → `references/docs/reference/cli/organizations_members.md` — Manage organization members
+    - organizations members add (`reference/cli/organizations_members_add.md`) → `references/docs/reference/cli/organizations_members_add.md` — Add a new member to the current organization
+    - organizations members edit-roles (`reference/cli/organizations_members_edit-roles.md`) → `references/docs/reference/cli/organizations_members_edit-roles.md` — Edit organization member's roles
+    - organizations members list (`reference/cli/organizations_members_list.md`) → `references/docs/reference/cli/organizations_members_list.md` — List all organization members
+    - organizations members remove (`reference/cli/organizations_members_remove.md`) → `references/docs/reference/cli/organizations_members_remove.md` — Remove a new member to the current organization
+    - organizations roles (`reference/cli/organizations_roles.md`) → `references/docs/reference/cli/organizations_roles.md` — Manage organization roles.
+    - organizations roles create (`reference/cli/organizations_roles_create.md`) → `references/docs/reference/cli/organizations_roles_create.md` — Create a new organization custom role
+    - organizations roles show (`reference/cli/organizations_roles_show.md`) → `references/docs/reference/cli/organizations_roles_show.md` — Show role(s)
+    - organizations roles update (`reference/cli/organizations_roles_update.md`) → `references/docs/reference/cli/organizations_roles_update.md` — Update an organization custom role
+    - organizations settings (`reference/cli/organizations_settings.md`) → `references/docs/reference/cli/organizations_settings.md` — Manage organization settings.
+    - organizations settings set (`reference/cli/organizations_settings_set.md`) → `references/docs/reference/cli/organizations_settings_set.md` — Update specified organization setting.
+    - organizations settings set group-sync (`reference/cli/organizations_settings_set_group-sync.md`) → `references/docs/reference/cli/organizations_settings_set_group-sync.md` — Group sync settings to sync groups from an IdP.
+    - organizations settings set organization-sync (`reference/cli/organizations_settings_set_organization-sync.md`) → `references/docs/reference/cli/organizations_settings_set_organization-sync.md` — Organization sync settings to sync organization memberships from an IdP.
+    - organizations settings set role-sync (`reference/cli/organizations_settings_set_role-sync.md`) → `references/docs/reference/cli/organizations_settings_set_role-sync.md` — Role sync settings to sync organization roles from an IdP.
+    - organizations settings set workspace-sharing (`reference/cli/organizations_settings_set_workspace-sharing.md`) → `references/docs/reference/cli/organizations_settings_set_workspace-sharing.md` — Workspace sharing settings for the organization.
+    - organizations settings show (`reference/cli/organizations_settings_show.md`) → `references/docs/reference/cli/organizations_settings_show.md` — Outputs specified organization setting.
+    - organizations settings show group-sync (`reference/cli/organizations_settings_show_group-sync.md`) → `references/docs/reference/cli/organizations_settings_show_group-sync.md` — Group sync settings to sync groups from an IdP.
+    - organizations settings show organization-sync (`reference/cli/organizations_settings_show_organization-sync.md`) → `references/docs/reference/cli/organizations_settings_show_organization-sync.md` — Organization sync settings to sync organization memberships from an IdP.
+    - organizations settings show role-sync (`reference/cli/organizations_settings_show_role-sync.md`) → `references/docs/reference/cli/organizations_settings_show_role-sync.md` — Role sync settings to sync organization roles from an IdP.
+    - organizations settings show workspace-sharing (`reference/cli/organizations_settings_show_workspace-sharing.md`) → `references/docs/reference/cli/organizations_settings_show_workspace-sharing.md` — Workspace sharing settings for the organization.
+    - organizations show (`reference/cli/organizations_show.md`) → `references/docs/reference/cli/organizations_show.md` — Show the organization. Using "selected" will show the selected organization from the "--org" flag. Using "me" will show all organizations you are a member of.
+    - ping (`reference/cli/ping.md`) → `references/docs/reference/cli/ping.md` — Ping a workspace
+    - port-forward (`reference/cli/port-forward.md`) → `references/docs/reference/cli/port-forward.md` — Forward ports from a workspace to the local machine. For reverse port forwarding, use "coder ssh -R".
+    - prebuilds (`reference/cli/prebuilds.md`) → `references/docs/reference/cli/prebuilds.md` — Manage Coder prebuilds
+    - prebuilds pause (`reference/cli/prebuilds_pause.md`) → `references/docs/reference/cli/prebuilds_pause.md` — Pause prebuilds
+    - prebuilds resume (`reference/cli/prebuilds_resume.md`) → `references/docs/reference/cli/prebuilds_resume.md` — Resume prebuilds
+    - provisioner (`reference/cli/provisioner.md`) → `references/docs/reference/cli/provisioner.md` — View and manage provisioner daemons and jobs
+    - provisioner jobs (`reference/cli/provisioner_jobs.md`) → `references/docs/reference/cli/provisioner_jobs.md` — View and manage provisioner jobs
+    - provisioner jobs cancel (`reference/cli/provisioner_jobs_cancel.md`) → `references/docs/reference/cli/provisioner_jobs_cancel.md` — Cancel a provisioner job
+    - provisioner jobs list (`reference/cli/provisioner_jobs_list.md`) → `references/docs/reference/cli/provisioner_jobs_list.md` — List provisioner jobs
+    - provisioner keys (`reference/cli/provisioner_keys.md`) → `references/docs/reference/cli/provisioner_keys.md` — Manage provisioner keys
+    - provisioner keys create (`reference/cli/provisioner_keys_create.md`) → `references/docs/reference/cli/provisioner_keys_create.md` — Create a new provisioner key
+    - provisioner keys delete (`reference/cli/provisioner_keys_delete.md`) → `references/docs/reference/cli/provisioner_keys_delete.md` — Delete a provisioner key
+    - provisioner keys list (`reference/cli/provisioner_keys_list.md`) → `references/docs/reference/cli/provisioner_keys_list.md` — List provisioner keys in an organization
+    - provisioner list (`reference/cli/provisioner_list.md`) → `references/docs/reference/cli/provisioner_list.md` — List provisioner daemons in an organization
+    - provisioner start (`reference/cli/provisioner_start.md`) → `references/docs/reference/cli/provisioner_start.md` — Run a provisioner daemon
+    - publickey (`reference/cli/publickey.md`) → `references/docs/reference/cli/publickey.md` — Output your Coder public key used for Git operations
+    - rename (`reference/cli/rename.md`) → `references/docs/reference/cli/rename.md` — Rename a workspace
+    - reset-password (`reference/cli/reset-password.md`) → `references/docs/reference/cli/reset-password.md` — Directly connect to the database to reset a user's password
+    - restart (`reference/cli/restart.md`) → `references/docs/reference/cli/restart.md` — Restart a workspace
+    - schedule (`reference/cli/schedule.md`) → `references/docs/reference/cli/schedule.md` — Schedule automated start and stop times for workspaces
+    - schedule extend (`reference/cli/schedule_extend.md`) → `references/docs/reference/cli/schedule_extend.md` — Extend the stop time of a currently running workspace instance.
+    - schedule show (`reference/cli/schedule_show.md`) → `references/docs/reference/cli/schedule_show.md` — Show workspace schedules
+    - schedule start (`reference/cli/schedule_start.md`) → `references/docs/reference/cli/schedule_start.md` — Edit workspace start schedule
+    - schedule stop (`reference/cli/schedule_stop.md`) → `references/docs/reference/cli/schedule_stop.md` — Edit workspace stop schedule
+    - server (`reference/cli/server.md`) → `references/docs/reference/cli/server.md` — Start a Coder server
+    - server create-admin-user (`reference/cli/server_create-admin-user.md`) → `references/docs/reference/cli/server_create-admin-user.md` — Create a new admin user with the given username, email and password and adds it to every organization.
+    - server dbcrypt (`reference/cli/server_dbcrypt.md`) → `references/docs/reference/cli/server_dbcrypt.md` — Manage database encryption.
+    - server dbcrypt decrypt (`reference/cli/server_dbcrypt_decrypt.md`) → `references/docs/reference/cli/server_dbcrypt_decrypt.md` — Decrypt a previously encrypted database.
+    - server dbcrypt delete (`reference/cli/server_dbcrypt_delete.md`) → `references/docs/reference/cli/server_dbcrypt_delete.md` — Delete all encrypted data from the database. THIS IS A DESTRUCTIVE OPERATION.
+    - server dbcrypt rotate (`reference/cli/server_dbcrypt_rotate.md`) → `references/docs/reference/cli/server_dbcrypt_rotate.md` — Rotate database encryption keys.
+    - server postgres-builtin-serve (`reference/cli/server_postgres-builtin-serve.md`) → `references/docs/reference/cli/server_postgres-builtin-serve.md` — Run the built-in PostgreSQL deployment.
+    - server postgres-builtin-url (`reference/cli/server_postgres-builtin-url.md`) → `references/docs/reference/cli/server_postgres-builtin-url.md` — Output the connection URL for the built-in PostgreSQL deployment.
+    - show (`reference/cli/show.md`) → `references/docs/reference/cli/show.md` — Display details of a workspace's resources and agents
+    - speedtest (`reference/cli/speedtest.md`) → `references/docs/reference/cli/speedtest.md` — Run upload and download tests from your machine to a workspace
+    - ssh (`reference/cli/ssh.md`) → `references/docs/reference/cli/ssh.md` — Start a shell into a workspace or run a command
+    - start (`reference/cli/start.md`) → `references/docs/reference/cli/start.md` — Start a workspace
+    - stat (`reference/cli/stat.md`) → `references/docs/reference/cli/stat.md` — Show resource usage for the current workspace.
+    - stat cpu (`reference/cli/stat_cpu.md`) → `references/docs/reference/cli/stat_cpu.md` — Show CPU usage, in cores.
+    - stat disk (`reference/cli/stat_disk.md`) → `references/docs/reference/cli/stat_disk.md` — Show disk usage, in gigabytes.
+    - stat mem (`reference/cli/stat_mem.md`) → `references/docs/reference/cli/stat_mem.md` — Show memory usage, in gigabytes.
+    - state (`reference/cli/state.md`) → `references/docs/reference/cli/state.md` — Manually manage Terraform state to fix broken workspaces
+    - state pull (`reference/cli/state_pull.md`) → `references/docs/reference/cli/state_pull.md` — Pull a Terraform state file from a workspace.
+    - state push (`reference/cli/state_push.md`) → `references/docs/reference/cli/state_push.md` — Push a Terraform state file to a workspace.
+    - stop (`reference/cli/stop.md`) → `references/docs/reference/cli/stop.md` — Stop a workspace
+    - support (`reference/cli/support.md`) → `references/docs/reference/cli/support.md` — Commands for troubleshooting issues with a Coder deployment.
+    - support bundle (`reference/cli/support_bundle.md`) → `references/docs/reference/cli/support_bundle.md` — Generate a support bundle to troubleshoot issues connecting to a workspace.
+    - task (`reference/cli/task.md`) → `references/docs/reference/cli/task.md` — Manage tasks
+    - task create (`reference/cli/task_create.md`) → `references/docs/reference/cli/task_create.md` — Create a task
+    - task delete (`reference/cli/task_delete.md`) → `references/docs/reference/cli/task_delete.md` — Delete tasks
+    - task list (`reference/cli/task_list.md`) → `references/docs/reference/cli/task_list.md` — List tasks
+    - task logs (`reference/cli/task_logs.md`) → `references/docs/reference/cli/task_logs.md` — Show a task's logs
+    - task send (`reference/cli/task_send.md`) → `references/docs/reference/cli/task_send.md` — Send input to a task
+    - task status (`reference/cli/task_status.md`) → `references/docs/reference/cli/task_status.md` — Show the status of a task.
+    - templates (`reference/cli/templates.md`) → `references/docs/reference/cli/templates.md` — Manage templates
+    - templates archive (`reference/cli/templates_archive.md`) → `references/docs/reference/cli/templates_archive.md` — Archive unused or failed template versions from a given template(s)
+    - templates create (`reference/cli/templates_create.md`) → `references/docs/reference/cli/templates_create.md` — DEPRECATED: Create a template from the current directory or as specified by flag
+    - templates delete (`reference/cli/templates_delete.md`) → `references/docs/reference/cli/templates_delete.md` — Delete templates
+    - templates edit (`reference/cli/templates_edit.md`) → `references/docs/reference/cli/templates_edit.md` — Edit the metadata of a template by name.
+    - templates init (`reference/cli/templates_init.md`) → `references/docs/reference/cli/templates_init.md` — Get started with a templated template.
+    - templates list (`reference/cli/templates_list.md`) → `references/docs/reference/cli/templates_list.md` — List all the templates available for the organization
+    - templates presets (`reference/cli/templates_presets.md`) → `references/docs/reference/cli/templates_presets.md` — Manage presets of the specified template
+    - templates presets list (`reference/cli/templates_presets_list.md`) → `references/docs/reference/cli/templates_presets_list.md` — List all presets of the specified template. Defaults to the active template version.
+    - templates pull (`reference/cli/templates_pull.md`) → `references/docs/reference/cli/templates_pull.md` — Download the active, latest, or specified version of a template to a path.
+    - templates push (`reference/cli/templates_push.md`) → `references/docs/reference/cli/templates_push.md` — Create or update a template from the current directory or as specified by flag
+    - templates versions (`reference/cli/templates_versions.md`) → `references/docs/reference/cli/templates_versions.md` — Manage different versions of the specified template
+    - templates versions archive (`reference/cli/templates_versions_archive.md`) → `references/docs/reference/cli/templates_versions_archive.md` — Archive a template version(s).
+    - templates versions list (`reference/cli/templates_versions_list.md`) → `references/docs/reference/cli/templates_versions_list.md` — List all the versions of the specified template
+    - templates versions promote (`reference/cli/templates_versions_promote.md`) → `references/docs/reference/cli/templates_versions_promote.md` — Promote a template version to active.
+    - templates versions unarchive (`reference/cli/templates_versions_unarchive.md`) → `references/docs/reference/cli/templates_versions_unarchive.md` — Unarchive a template version(s).
+    - tokens (`reference/cli/tokens.md`) → `references/docs/reference/cli/tokens.md` — Manage personal access tokens
+    - tokens create (`reference/cli/tokens_create.md`) → `references/docs/reference/cli/tokens_create.md` — Create a token
+    - tokens list (`reference/cli/tokens_list.md`) → `references/docs/reference/cli/tokens_list.md` — List tokens
+    - tokens remove (`reference/cli/tokens_remove.md`) → `references/docs/reference/cli/tokens_remove.md` — Delete a token
+    - tokens view (`reference/cli/tokens_view.md`) → `references/docs/reference/cli/tokens_view.md` — Display detailed information about a token
+    - unfavorite (`reference/cli/unfavorite.md`) → `references/docs/reference/cli/unfavorite.md` — Remove a workspace from your favorites
+    - update (`reference/cli/update.md`) → `references/docs/reference/cli/update.md` — Will update and start a given workspace if it is out of date. If the workspace is already running, it will be stopped first.
+    - users (`reference/cli/users.md`) → `references/docs/reference/cli/users.md` — Manage users
+    - users activate (`reference/cli/users_activate.md`) → `references/docs/reference/cli/users_activate.md` — Update a user's status to 'active'. Active users can fully interact with the platform
+    - users create (`reference/cli/users_create.md`) → `references/docs/reference/cli/users_create.md` — Create a new user.
+    - users delete (`reference/cli/users_delete.md`) → `references/docs/reference/cli/users_delete.md` — Delete a user by username or user_id.
+    - users edit-roles (`reference/cli/users_edit-roles.md`) → `references/docs/reference/cli/users_edit-roles.md` — Edit a user's roles by username or id
+    - users list (`reference/cli/users_list.md`) → `references/docs/reference/cli/users_list.md` — Prints the list of users.
+    - users show (`reference/cli/users_show.md`) → `references/docs/reference/cli/users_show.md` — Show a single user. Use 'me' to indicate the currently authenticated user.
+    - users suspend (`reference/cli/users_suspend.md`) → `references/docs/reference/cli/users_suspend.md` — Update a user's status to 'suspended'. A suspended user cannot log into the platform
+    - version (`reference/cli/version.md`) → `references/docs/reference/cli/version.md` — Show coder version
+    - whoami (`reference/cli/whoami.md`) → `references/docs/reference/cli/whoami.md` — Fetch authenticated user info for Coder deployment
+  - **Agent API** (`reference/agent-api/index.md`) → `references/docs/reference/agent-api/index.md` — Learn how to use Coder Agent API
+    - Debug (`reference/agent-api/debug.md`) → `references/docs/reference/agent-api/debug.md`
+    - Schemas (`reference/agent-api/schemas.md`) → `references/docs/reference/agent-api/schemas.md`
+- Coder Research (`coder-research.md`) → `references/docs/coder-research.md` — Open source research projects exploring AI-assisted development
+<!-- END DOCS_TREE -->
