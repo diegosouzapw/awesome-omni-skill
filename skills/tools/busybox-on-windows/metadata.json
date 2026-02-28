@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c1d45f96fcb18087293efaac5ff3a8939906d304c09d29cf72c16f105a7905c4",
   "indexed_at": "2026-02-25T15:25:15.583Z",
-  "synced_at": "2026-02-27T02:43:37.723Z",
+  "synced_at": "2026-02-28T04:13:11.115Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/94cad973bdb9e3c3bb5138b14be67d11c7a20bd34233dfceddfef798a5b8cd34",
   "install_command": "mkdir -p .claude/skills/busybox-on-windows && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/busybox-on-windows/SKILL.md\" > .claude/skills/busybox-on-windows/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/busybox-on-windows/SKILL.md"

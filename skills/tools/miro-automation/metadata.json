@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "92cdd0fd86cd12f17d48f21908d3c56a111aee02a667905ea822f7ab2ee00715",
   "indexed_at": "2026-02-25T17:25:28.624Z",
-  "synced_at": "2026-02-27T02:43:26.394Z",
+  "synced_at": "2026-02-28T04:13:00.320Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2267d5ff3c8d60b41642c0ea6e45767d9433f9aad8d8864276f8ec3d95d897d0",
   "install_command": "mkdir -p .claude/skills/miro-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/miro-automation/SKILL.md\" > .claude/skills/miro-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/miro-automation/SKILL.md"

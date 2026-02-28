@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aca979af007eeca4a318bc9b1d078db06146f8faf1a3d40ea817cab839806abf",
   "indexed_at": "2026-02-24T22:54:08.042Z",
-  "synced_at": "2026-02-27T02:43:04.620Z",
+  "synced_at": "2026-02-28T04:12:40.268Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ff5f4026d341f9f6dd9fd4fa4bd208aefd9f3d6acf5a4e2162e0222ec7e52c70",
   "install_command": "mkdir -p .claude/skills/encodian-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/encodian-automation/SKILL.md\" > .claude/skills/encodian-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/encodian-automation/SKILL.md"

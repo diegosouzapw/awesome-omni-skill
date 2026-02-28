@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "534c107c5e1d42b81897caaee6ca22c7dde6a92c22623a20190cbb7f84a31ac6",
   "indexed_at": "2026-02-24T22:51:01.941Z",
-  "synced_at": "2026-02-27T02:42:50.853Z",
+  "synced_at": "2026-02-28T04:12:26.924Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cae22b975dc1199109275d20823e7745f8092e6d488557277142cfc58bd1039d",
   "install_command": "mkdir -p .claude/skills/browserhub-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/browserhub-automation/SKILL.md\" > .claude/skills/browserhub-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/browserhub-automation/SKILL.md"

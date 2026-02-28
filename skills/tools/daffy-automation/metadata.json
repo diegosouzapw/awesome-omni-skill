@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2a22a95e41a369a14cdc28432bf4c760f9aee10611a401dca58e30365b5dbddc",
   "indexed_at": "2026-02-24T22:52:56.581Z",
-  "synced_at": "2026-02-27T02:42:58.874Z",
+  "synced_at": "2026-02-28T04:12:34.780Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a79dc46cd1972329a2de946f1d5c00ce6e195ace5ad04070cfa982924711b9f8",
   "install_command": "mkdir -p .claude/skills/daffy-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/daffy-automation/SKILL.md\" > .claude/skills/daffy-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/daffy-automation/SKILL.md"

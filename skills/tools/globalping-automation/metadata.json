@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7223a6b778ad69beb3556ff0a1363bb4204a2225213bcd086a707c820ba2a99b",
   "indexed_at": "2026-02-24T22:56:00.250Z",
-  "synced_at": "2026-02-27T02:43:13.228Z",
+  "synced_at": "2026-02-28T04:12:48.856Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/06159570b4f4f2c82735161bfdd27d0ba453c3d788ce30130b4ad8090f8f61fb",
   "install_command": "mkdir -p .claude/skills/globalping-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/globalping-automation/SKILL.md\" > .claude/skills/globalping-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/globalping-automation/SKILL.md"

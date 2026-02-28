@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "727428db1d75ab442fd7020610537e0025f2af5e6bbdeee87df4347bfb67e40b",
   "indexed_at": "2026-02-24T23:37:21.383Z",
-  "synced_at": "2026-02-27T02:43:52.094Z",
+  "synced_at": "2026-02-28T04:13:29.718Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d1fa6596cf1478cc34b545abc3c7f77120581dde5021e07a865a5fa18fe094de",
   "install_command": "mkdir -p .claude/skills/build-your-persona-tuning-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/65-identity-persona-tuning/SKILL.md\" > .claude/skills/build-your-persona-tuning-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/65-identity-persona-tuning/SKILL.md"

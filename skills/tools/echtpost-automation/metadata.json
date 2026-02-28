@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a6f9060df9177b545fe3cd0f36972d47f621b57b8876e28d4f69413fcb60db26",
   "indexed_at": "2026-02-24T22:53:58.628Z",
-  "synced_at": "2026-02-27T02:43:04.166Z",
+  "synced_at": "2026-02-28T04:12:39.829Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9fa9a7af529926ab72fc2eadb47076e8161a1667f7f4af15f09baf8b608b6875",
   "install_command": "mkdir -p .claude/skills/echtpost-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/echtpost-automation/SKILL.md\" > .claude/skills/echtpost-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/echtpost-automation/SKILL.md"

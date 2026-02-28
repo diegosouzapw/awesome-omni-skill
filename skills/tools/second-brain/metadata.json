@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ea593f59b9ffaaf2b740f926fe72a2d3ac884f6a4bf230da08382d63ded69c50",
   "indexed_at": "2026-02-25T10:36:21.685Z",
-  "synced_at": "2026-02-27T02:43:45.522Z",
+  "synced_at": "2026-02-28T04:13:24.036Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fff8fd5b1295d0e5ba263b76107777265c4d4aef2b4080e49b44e3520cc388da",
   "install_command": "mkdir -p .claude/skills/second-brain && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1/SKILL.md\" > .claude/skills/second-brain/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b5861de91316d799054c62d5b1d101641153aa0a51bf58258cec602604768e80",
   "indexed_at": "2026-02-24T22:54:56.584Z",
-  "synced_at": "2026-02-27T02:43:08.367Z",
+  "synced_at": "2026-02-28T04:12:44.005Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7c033bb9f99ceb50b0b32855710bd25e808d23698881be7c051b69475436d276",
   "install_command": "mkdir -p .claude/skills/finerworks-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/finerworks-automation/SKILL.md\" > .claude/skills/finerworks-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/finerworks-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e72262469347b0489fc886a58623d5038839addc284bf2f4eacab4c48b43e3f8",
   "indexed_at": "2026-02-24T22:51:54.953Z",
-  "synced_at": "2026-02-27T02:42:55.072Z",
+  "synced_at": "2026-02-28T04:12:30.944Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ea46f0388e4480ed4b6e25b51e5f0b911755dd32698f9b8a5b384bdf62ffa15f",
   "install_command": "mkdir -p .claude/skills/clearout-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/clearout-automation/SKILL.md\" > .claude/skills/clearout-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/clearout-automation/SKILL.md"

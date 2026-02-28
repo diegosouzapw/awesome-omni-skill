@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "efe22fde304c41864f28508665c76a6cd170881d17ab36f106185e54f5fc3e1c",
   "indexed_at": "2026-02-24T22:55:00.451Z",
-  "synced_at": "2026-02-27T02:43:08.819Z",
+  "synced_at": "2026-02-28T04:12:44.459Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/82731d8a17a921c348f4fa2950ea24b5a1eafafb1352a209a35732f7a10d7299",
   "install_command": "mkdir -p .claude/skills/fireberry-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/fireberry-automation/SKILL.md\" > .claude/skills/fireberry-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/fireberry-automation/SKILL.md"

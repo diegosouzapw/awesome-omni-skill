@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a4ac8f4e5383f2a98fd820f1ea18cfea6600a5990b2d91557c4aec759f25e2d1",
   "indexed_at": "2026-02-25T19:25:48.293Z",
-  "synced_at": "2026-02-27T02:43:19.115Z",
+  "synced_at": "2026-02-28T04:12:53.602Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9d6acb3ca5c89fcda13c461df3825033f9b009525578b9400387795db55b2d2f",
   "install_command": "mkdir -p .claude/skills/varlock-claude-skill && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/varlock-claude-skill/SKILL.md\" > .claude/skills/varlock-claude-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/varlock-claude-skill/SKILL.md"

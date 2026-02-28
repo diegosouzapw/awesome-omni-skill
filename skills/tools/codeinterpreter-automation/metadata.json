@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f8e560891d7ef1aa09227f98cceeba734997475ead3ecec003f7a82c69dce7a6",
   "indexed_at": "2026-02-24T22:52:12.577Z",
-  "synced_at": "2026-02-27T02:42:55.671Z",
+  "synced_at": "2026-02-28T04:12:31.530Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7c2b410d6f0377a97f2c71a94d6a649af5d8fbc3c78925337152af704177d00d",
   "install_command": "mkdir -p .claude/skills/codeinterpreter-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/codeinterpreter-automation/SKILL.md\" > .claude/skills/codeinterpreter-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/codeinterpreter-automation/SKILL.md"

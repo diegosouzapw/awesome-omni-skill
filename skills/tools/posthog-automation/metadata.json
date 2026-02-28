@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b2a3f36a952ce5cbe3346ec80356c6c8f1061614008b6daa6d3ccab8e0f7c3f1",
   "indexed_at": "2026-02-25T18:23:38.452Z",
-  "synced_at": "2026-02-27T02:43:20.851Z",
+  "synced_at": "2026-02-28T04:12:55.117Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/92647b8d37b061f0182cd2da295344cd1f35cc92d94c09be3737e9ce391d7b01",
   "install_command": "mkdir -p .claude/skills/posthog-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/posthog-automation/SKILL.md\" > .claude/skills/posthog-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/posthog-automation/SKILL.md"

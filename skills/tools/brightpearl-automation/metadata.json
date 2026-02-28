@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d0b32dc9b7cf353497cca77e7e6aa6818f76bdd479c7b62cbc455cb4ef3b3e2b",
   "indexed_at": "2026-02-24T22:50:55.161Z",
-  "synced_at": "2026-02-27T02:42:50.252Z",
+  "synced_at": "2026-02-28T04:12:26.337Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/37a6016c4de68ff7f06c793218b5f149b83ae931a7b216c1dde7f3222896a02f",
   "install_command": "mkdir -p .claude/skills/brightpearl-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/brightpearl-automation/SKILL.md\" > .claude/skills/brightpearl-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/brightpearl-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6239f5495489887540b83d0de35f479b4a72457fad22398561cb2dbbd13f52e5",
   "indexed_at": "2026-02-24T23:38:35.784Z",
-  "synced_at": "2026-02-27T02:43:53.489Z",
+  "synced_at": "2026-02-28T04:13:31.223Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e5eb23bb57aa15c2c4b4300e2bbe11341eef9515e5172443165bf845df418519",
   "install_command": "mkdir -p .claude/skills/a2a-mcp-integration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/a2a-mcp-integration/SKILL.md\" > .claude/skills/a2a-mcp-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/a2a-mcp-integration/SKILL.md"

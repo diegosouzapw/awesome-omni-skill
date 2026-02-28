@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0c898e1cb7d49e9166e9971fb74f51fc429b297a76dbf190ec811e2e52247575",
   "indexed_at": "2026-02-24T22:51:33.473Z",
-  "synced_at": "2026-02-27T02:42:53.385Z",
+  "synced_at": "2026-02-28T04:12:29.314Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e5cf19ede6341045be3be998f54020c7e0c194a9be55f277ca8ddd06d805c289",
   "install_command": "mkdir -p .claude/skills/carbone-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/carbone-automation/SKILL.md\" > .claude/skills/carbone-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/carbone-automation/SKILL.md"

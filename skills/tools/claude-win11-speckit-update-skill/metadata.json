@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c8372dfe80e4254ae4361f715772ae7c95a30ff7c3db0ac847a8bb82fcdbddac",
   "indexed_at": "2026-02-25T13:27:35.085Z",
-  "synced_at": "2026-02-27T02:43:38.684Z",
+  "synced_at": "2026-02-28T04:13:12.123Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7f9b32ae8c712364285a6ca10c41461d8830d5418d8f54481baa094f8da75de7",
   "install_command": "mkdir -p .claude/skills/claude-win11-speckit-update-skill && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/claude-win11-speckit-update-skill/SKILL.md\" > .claude/skills/claude-win11-speckit-update-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/claude-win11-speckit-update-skill/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0cc2966eedda1a6cb5613eebaab4d85ba4f25f37f81bd36e2668b866e2709edc",
   "indexed_at": "2026-02-24T23:40:49.658Z",
-  "synced_at": "2026-02-27T02:43:54.688Z",
+  "synced_at": "2026-02-28T04:13:32.356Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/758548151eb011830769cccc35f8a9fab725ea57e22297982d182a49bebb238d",
   "install_command": "mkdir -p .claude/skills/academic-letter-architect && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/academic-letter-architect/SKILL.md\" > .claude/skills/academic-letter-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/academic-letter-architect/SKILL.md"

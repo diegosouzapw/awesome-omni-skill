@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c5dfd66775aed446bc11ae9f80a7e3f53f1d3a999664cc8970875d5770f3f828",
   "indexed_at": "2026-02-25T19:24:12.239Z",
-  "synced_at": "2026-02-27T02:43:18.332Z",
+  "synced_at": "2026-02-28T04:12:52.872Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ce094c130d7d767bfaff6a8d4f9621e735829ee5350b1838b024de290a2d3088",
   "install_command": "mkdir -p .claude/skills/team-collaboration-issue && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/team-collaboration-issue/SKILL.md\" > .claude/skills/team-collaboration-issue/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/team-collaboration-issue/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3addf8169168139f7dd67f8c1c1a1bcbe2cb57f42c2f5e15807e30010a952083",
   "indexed_at": "2026-02-24T23:42:05.910Z",
-  "synced_at": "2026-02-27T02:44:00.567Z",
+  "synced_at": "2026-02-28T04:13:36.746Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/adbe4628b0b8e1caeef5cc24310ed833dd65ff35039bdacddb3aec4d2e15aeee",
   "install_command": "mkdir -p .claude/skills/bash-script-validator && curl -sL \"https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/bash-script-validator/SKILL.md\" > .claude/skills/bash-script-validator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/bash-script-validator/SKILL.md"

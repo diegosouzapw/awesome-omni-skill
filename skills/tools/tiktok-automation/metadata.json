@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6fca9f89aa8fabc58ceecbe5d2462f0f9a999baa9693ce83363e715c4a4d26e7",
   "indexed_at": "2026-02-25T19:24:55.912Z",
-  "synced_at": "2026-02-27T02:43:16.240Z",
+  "synced_at": "2026-02-28T04:12:50.941Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5e9c81eac250e1a651373f737c1d49810f124b6e82a58da32543dfe1ba815527",
   "install_command": "mkdir -p .claude/skills/tiktok-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/tiktok-automation/SKILL.md\" > .claude/skills/tiktok-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/tiktok-automation/SKILL.md"

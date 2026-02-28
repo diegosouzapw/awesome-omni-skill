@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "63a3d80fea3797181a5fc25b5e8540516c76d8c496ed9be4099eac88446378d6",
   "indexed_at": "2026-02-27T01:45:39.153Z",
-  "synced_at": "2026-02-27T02:44:04.005Z",
+  "synced_at": "2026-02-28T04:13:41.224Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/25dafb0758f677e44915d5464cc513b7c73a0ee40f7d81d1781b1beb575ffaf5",
   "install_command": "mkdir -p .claude/skills/build-your-pipecat-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/applied/81-pipecat/SKILL.md\" > .claude/skills/build-your-pipecat-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/applied/81-pipecat/SKILL.md"

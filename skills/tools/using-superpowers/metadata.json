@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d120667293f938c200c9b45ac4383767410fc2eb1481cf30a8aa85cc97a23418",
   "indexed_at": "2026-02-25T19:25:45.056Z",
-  "synced_at": "2026-02-27T02:43:16.715Z",
+  "synced_at": "2026-02-28T04:12:51.389Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/25bada55292409cbbdd71b4da676ef0146405603f86b5052f0754077e3bda1e4",
   "install_command": "mkdir -p .claude/skills/using-superpowers && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/using-superpowers/SKILL.md\" > .claude/skills/using-superpowers/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/using-superpowers/SKILL.md"

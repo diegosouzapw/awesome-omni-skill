@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c6ec737547fc1e67e82af202badbe52d2554a134844670c3e9be4afedab3d39d",
   "indexed_at": "2026-02-25T16:23:52.564Z",
-  "synced_at": "2026-02-27T02:43:32.552Z",
+  "synced_at": "2026-02-28T04:13:06.136Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bb05366f96ea4f5abdaa1b3fb3fc45e873785743702127c135af1f61e8fd83c4",
   "install_command": "mkdir -p .claude/skills/debugging-toolkit-smart-debug && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/debugging-toolkit-smart-debug/SKILL.md\" > .claude/skills/debugging-toolkit-smart-debug/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/debugging-toolkit-smart-debug/SKILL.md"

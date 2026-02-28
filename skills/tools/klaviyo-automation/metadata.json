@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "11462d33004d261b1eb424d7fd6ecff7fa92608697190961142acb61bc93d989",
   "indexed_at": "2026-02-25T17:23:54.611Z",
-  "synced_at": "2026-02-27T02:43:25.276Z",
+  "synced_at": "2026-02-28T04:12:59.259Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8fc5008b9982b5bc913ca7029c9d275cdff57f20ef78c1f0c0e687cfd0149de7",
   "install_command": "mkdir -p .claude/skills/klaviyo-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/klaviyo-automation/SKILL.md\" > .claude/skills/klaviyo-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/klaviyo-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b2dbf89ee45115e5a3bcb10d790e0c5b3fc299eeade869272fe920c138cbee01",
   "indexed_at": "2026-02-27T02:53:55.741Z",
-  "synced_at": "2026-02-27T13:14:26.795Z",
+  "synced_at": "2026-02-28T04:13:46.952Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7b66524a8e20d0083386ca47f4300309c61702f1821ac7ceba1c95dec3d27abb",
   "install_command": "mkdir -p .claude/skills/aem-block-reusability && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aem-block-reusability/SKILL.md\" > .claude/skills/aem-block-reusability/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aem-block-reusability/SKILL.md"

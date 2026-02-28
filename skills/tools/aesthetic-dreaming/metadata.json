@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1d8ab2976ae7252e234a134467385edcc68e85573d0844bc8ef5816c00286709",
   "indexed_at": "2026-02-27T02:54:26.778Z",
-  "synced_at": "2026-02-27T13:14:27.023Z",
+  "synced_at": "2026-02-28T04:13:47.361Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/247181d48925274ce6cfa7f07cd15d27b9ce344d6c2f9d6b972b694ab216c26c",
   "install_command": "mkdir -p .claude/skills/aesthetic-dreaming && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aesthetic-dreaming/SKILL.md\" > .claude/skills/aesthetic-dreaming/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aesthetic-dreaming/SKILL.md"

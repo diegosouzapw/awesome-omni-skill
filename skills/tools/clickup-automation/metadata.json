@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9e13e2886a6934789acb4a9a6a545b8bc344c1206aa7be3ceef957a797552251",
   "indexed_at": "2026-02-25T15:26:12.233Z",
-  "synced_at": "2026-02-27T02:43:36.009Z",
+  "synced_at": "2026-02-28T04:13:09.428Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1240be9fc7c1538de6f1155d5402977eaf78f2df85ea9b32259e28fcf02345cb",
   "install_command": "mkdir -p .claude/skills/clickup-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/clickup-automation/SKILL.md\" > .claude/skills/clickup-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/clickup-automation/SKILL.md"

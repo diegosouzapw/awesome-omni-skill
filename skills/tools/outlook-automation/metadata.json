@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e51409189639678fb3ec47891b4435af5bf8963e5a96dae6c08eafb9d316baf6",
   "indexed_at": "2026-02-25T17:27:03.546Z",
-  "synced_at": "2026-02-27T02:43:27.991Z",
+  "synced_at": "2026-02-28T04:13:01.847Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2e94076a0b201ba2bc2318bd44f40570f522f1887f10c3d185c071ed275e9591",
   "install_command": "mkdir -p .claude/skills/outlook-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/outlook-automation/SKILL.md\" > .claude/skills/outlook-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/outlook-automation/SKILL.md"

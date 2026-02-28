@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3021d696ab4bf0e60ea138e296ac9136d2368530548ded42b1be22a291b5d23f",
   "indexed_at": "2026-02-24T22:53:55.937Z",
-  "synced_at": "2026-02-27T02:43:04.002Z",
+  "synced_at": "2026-02-28T04:12:39.676Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ce49936838a8f8dbcc4d4d7d0e1761d3deea5c17d0e614b63b05e2bf32d9bac3",
   "install_command": "mkdir -p .claude/skills/dungeon-fighter-online-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dungeon-fighter-online-automation/SKILL.md\" > .claude/skills/dungeon-fighter-online-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dungeon-fighter-online-automation/SKILL.md"

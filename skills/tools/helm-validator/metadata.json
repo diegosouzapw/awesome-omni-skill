@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4b03e4d8ab45674123c6ca3a944515aa2635191cc2d85dc0d6483c6201e804f6",
   "indexed_at": "2026-02-24T23:42:18.934Z",
-  "synced_at": "2026-02-27T02:44:01.947Z",
+  "synced_at": "2026-02-28T04:13:38.042Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a376fb6465d7951aa5c9941948eb3a9836a2252c25b65330b5dc8f9000c940ed",
   "install_command": "mkdir -p .claude/skills/helm-validator && curl -sL \"https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/helm-validator/SKILL.md\" > .claude/skills/helm-validator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/helm-validator/SKILL.md"

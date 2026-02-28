@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "31bf3ad14f82f14de2279f6b9809e64a52b8646c567176ed7b5dd5353515262d",
   "indexed_at": "2026-02-24T22:51:07.273Z",
-  "synced_at": "2026-02-27T02:42:51.418Z",
+  "synced_at": "2026-02-28T04:12:27.369Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f7d13d7ec4db019981b6164e5eb2eed03c80d1a966edcafc39dda969ef4692ef",
   "install_command": "mkdir -p .claude/skills/bubble-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bubble-automation/SKILL.md\" > .claude/skills/bubble-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bubble-automation/SKILL.md"

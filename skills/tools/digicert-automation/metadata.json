@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "df0b912d36e7381f3022a2f7f6fbca1d91a19b1b68e9e11e68e9d42835de777d",
   "indexed_at": "2026-02-24T22:53:15.566Z",
-  "synced_at": "2026-02-27T02:43:00.486Z",
+  "synced_at": "2026-02-28T04:12:36.255Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/14eb178e778742924bb7547b51d83670d9c98e6057b1743a39d47523dddc7781",
   "install_command": "mkdir -p .claude/skills/digicert-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/digicert-automation/SKILL.md\" > .claude/skills/digicert-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/digicert-automation/SKILL.md"

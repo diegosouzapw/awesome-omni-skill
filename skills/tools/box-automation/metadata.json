@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "df750a1cd9bcbf0c007751e87d1d070287b524f8744f56e2e2131caa6336d50b",
   "indexed_at": "2026-02-25T15:24:50.691Z",
-  "synced_at": "2026-02-27T02:43:35.375Z",
+  "synced_at": "2026-02-28T04:13:08.834Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/932980b8ea0d8ade4475405144f8142090b7bce7ab76edb64e33a8fd1886ed47",
   "install_command": "mkdir -p .claude/skills/box-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/box-automation/SKILL.md\" > .claude/skills/box-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/box-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f0a8ef1c6a1014dd3218ace4b87907aee98c0418b350f4c1b8de18b137ff9389",
   "indexed_at": "2026-02-24T22:52:25.192Z",
-  "synced_at": "2026-02-27T02:42:56.585Z",
+  "synced_at": "2026-02-28T04:12:32.420Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f704a3bff6b2295f7009f8af5b682e8b43198adfa0d207e7071e723a682b2283",
   "install_command": "mkdir -p .claude/skills/composio-search-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/composio-search-automation/SKILL.md\" > .claude/skills/composio-search-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/composio-search-automation/SKILL.md"

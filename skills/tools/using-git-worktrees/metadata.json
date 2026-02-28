@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9a6f89c83adc936c653db4a584dd8203d02ec0d024479601f17152c9f96ba0cc",
   "indexed_at": "2026-02-25T19:25:41.242Z",
-  "synced_at": "2026-02-27T02:43:16.557Z",
+  "synced_at": "2026-02-28T04:12:51.246Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bcf70feb67c824158335dd7f8cfc84c60b2103b621eca377308d5cf3a6a4b266",
   "install_command": "mkdir -p .claude/skills/using-git-worktrees && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/using-git-worktrees/SKILL.md\" > .claude/skills/using-git-worktrees/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/using-git-worktrees/SKILL.md"

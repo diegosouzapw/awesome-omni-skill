@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "877e28b5f37824b1f65873cb33cf9ba4b2598a9ccd5c1bbada128d24fbfa5672",
   "indexed_at": "2026-02-24T22:53:20.696Z",
-  "synced_at": "2026-02-27T02:43:01.114Z",
+  "synced_at": "2026-02-28T04:12:36.845Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2601370fb68d24c89d479a1aeecc8f58ba50a958ddaa6605360385776a00b20d",
   "install_command": "mkdir -p .claude/skills/dock-certs-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dock-certs-automation/SKILL.md\" > .claude/skills/dock-certs-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dock-certs-automation/SKILL.md"

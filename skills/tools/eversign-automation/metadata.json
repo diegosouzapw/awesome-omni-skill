@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b09b964ee4335aad5c531f3f6ddc19430bf240d5d6901651c798adb3606f1a60",
   "indexed_at": "2026-02-24T22:54:30.534Z",
-  "synced_at": "2026-02-27T02:43:06.436Z",
+  "synced_at": "2026-02-28T04:12:42.147Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aecad87eb44d58d4499b36071323ed53f6aee00e884d77c9c8a7a169d2d14511",
   "install_command": "mkdir -p .claude/skills/eversign-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/eversign-automation/SKILL.md\" > .claude/skills/eversign-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/eversign-automation/SKILL.md"

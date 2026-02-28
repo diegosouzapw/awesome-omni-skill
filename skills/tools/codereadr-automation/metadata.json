@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2a5aaa982f57c78f1a49c2fe1fcfa456eb93fa571b2174ff5777a42325cc9747",
   "indexed_at": "2026-02-24T22:52:13.901Z",
-  "synced_at": "2026-02-27T02:42:55.818Z",
+  "synced_at": "2026-02-28T04:12:31.674Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bbf89163789e449ec0d02e408c6175efcc0acef4699d53370ff57cd66d00225b",
   "install_command": "mkdir -p .claude/skills/codereadr-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/codereadr-automation/SKILL.md\" > .claude/skills/codereadr-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/codereadr-automation/SKILL.md"

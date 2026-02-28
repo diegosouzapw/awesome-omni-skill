@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "01ffa652b2095db0a047af40e55706fc6a8077888d0097ca8dabceb60f5c1003",
   "indexed_at": "2026-02-24T22:53:04.826Z",
-  "synced_at": "2026-02-27T02:42:59.427Z",
+  "synced_at": "2026-02-28T04:12:35.226Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9aaf3f04d1bbabefa6b55873df5873285212d67dfdbaffa65c95d3e6af36ead5",
   "install_command": "mkdir -p .claude/skills/deepgram-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/deepgram-automation/SKILL.md\" > .claude/skills/deepgram-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/deepgram-automation/SKILL.md"

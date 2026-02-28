@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bfd7b926f5419f7a2ed44396e879707b28f4f4258cba1c47e4fc1b6f0050fc5b",
   "indexed_at": "2026-02-24T22:55:35.630Z",
-  "synced_at": "2026-02-27T02:43:11.396Z",
+  "synced_at": "2026-02-28T04:12:46.994Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a3044c5515d9e9664ef692812749af140d17b4a08fe9a5a22b37d90599adb774",
   "install_command": "mkdir -p .claude/skills/gatherup-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/gatherup-automation/SKILL.md\" > .claude/skills/gatherup-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/gatherup-automation/SKILL.md"

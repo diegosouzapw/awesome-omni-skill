@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "45f421ce004c1270ad50a8c7f2cbab3a42c0f5206ec41246cd5a4956e895882c",
   "indexed_at": "2026-02-24T22:51:43.140Z",
-  "synced_at": "2026-02-27T02:42:54.170Z",
+  "synced_at": "2026-02-28T04:12:30.050Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2cb54bba6d3fea95909dfd1140f5bbb8aac6c89275e2e521ea1679e5d53b2158",
   "install_command": "mkdir -p .claude/skills/certifier-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/certifier-automation/SKILL.md\" > .claude/skills/certifier-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/certifier-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d45d8e4659b1a7ff343b2eafab9c059a0a03d34a3af61c5d2184488566a83d55",
   "indexed_at": "2026-02-25T16:27:32.648Z",
-  "synced_at": "2026-02-27T02:43:32.401Z",
+  "synced_at": "2026-02-28T04:13:05.991Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a7c10073d13c56b54e583c9449bbfe8332bce2718770a8941a02d7d8ebb69820",
   "install_command": "mkdir -p .claude/skills/helpdesk-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/helpdesk-automation/SKILL.md\" > .claude/skills/helpdesk-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/helpdesk-automation/SKILL.md"

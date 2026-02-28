@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "edd21db4c0dda9a7ba80ce2dd614967b5a8cf9397b9e36f735a5edcbc5f8e5de",
   "indexed_at": "2026-02-24T22:50:56.608Z",
-  "synced_at": "2026-02-27T02:42:50.404Z",
+  "synced_at": "2026-02-28T04:12:26.484Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1de4702795c7805dab671695e7fc3e16883538af0f83079746272e5986f56f87",
   "install_command": "mkdir -p .claude/skills/brilliant-directories-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/brilliant-directories-automation/SKILL.md\" > .claude/skills/brilliant-directories-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/brilliant-directories-automation/SKILL.md"

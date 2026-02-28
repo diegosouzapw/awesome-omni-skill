@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "89e5c6428d3354a981a68845f30528bee6c77677df9f7ea028618a3604d86513",
   "indexed_at": "2026-02-25T19:27:14.429Z",
-  "synced_at": "2026-02-27T02:43:17.695Z",
+  "synced_at": "2026-02-28T04:12:52.276Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/703ce4de6defdefcbe402251ec0ef5b79fb45a97116f41bfebbc597a00050deb",
   "install_command": "mkdir -p .claude/skills/zendesk-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/zendesk-automation/SKILL.md\" > .claude/skills/zendesk-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/zendesk-automation/SKILL.md"

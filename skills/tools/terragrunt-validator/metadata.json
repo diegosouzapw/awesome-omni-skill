@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3329fffdee947fbcf1871b2ce6d6cf57faa0de65ab809cc63c2efb068295449b",
   "indexed_at": "2026-02-24T23:51:19.298Z",
-  "synced_at": "2026-02-27T02:44:03.506Z",
+  "synced_at": "2026-02-28T04:13:39.534Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0a0719b9c295014d5f7125f611dc46c4d4edd137820a9c692943e558e5340522",
   "install_command": "mkdir -p .claude/skills/terragrunt-validator && curl -sL \"https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/terragrunt-validator/SKILL.md\" > .claude/skills/terragrunt-validator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/terragrunt-validator/SKILL.md"

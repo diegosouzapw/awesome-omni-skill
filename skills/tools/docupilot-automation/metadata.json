@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2d5625680b2612f00bb997854aff9bb8a3a728faa7c9517c873c15e4ec224c91",
   "indexed_at": "2026-02-24T22:53:36.030Z",
-  "synced_at": "2026-02-27T02:43:02.022Z",
+  "synced_at": "2026-02-28T04:12:37.732Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/024a0ab6380515cf73ec1f18f656d2d976c7a243f2b59412b0e1263cb98cc8d3",
   "install_command": "mkdir -p .claude/skills/docupilot-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/docupilot-automation/SKILL.md\" > .claude/skills/docupilot-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/docupilot-automation/SKILL.md"

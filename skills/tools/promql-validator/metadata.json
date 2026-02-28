@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "578ca62a8fdc90a7b285fbfff265a1475e3c96fbdf90c9aebb1cc043c55e3a8b",
   "indexed_at": "2026-02-24T23:42:33.721Z",
-  "synced_at": "2026-02-27T02:44:03.133Z",
+  "synced_at": "2026-02-28T04:13:39.203Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/044e1d6d4aa78bf8d18acbe96c4e621d2b633edbb4f0414c72b374394526d635",
   "install_command": "mkdir -p .claude/skills/promql-validator && curl -sL \"https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/promql-validator/SKILL.md\" > .claude/skills/promql-validator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/promql-validator/SKILL.md"

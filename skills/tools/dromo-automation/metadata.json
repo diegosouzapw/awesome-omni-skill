@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "09c3707c0207bbf73d321399a827ff803071cdd34eadc33caf2e7c6eaf1aba1c",
   "indexed_at": "2026-02-24T22:53:51.372Z",
-  "synced_at": "2026-02-27T02:43:03.557Z",
+  "synced_at": "2026-02-28T04:12:39.224Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8224693217373b742d7e573238db270ca72005ed70976ba1ef51e3447510e4ff",
   "install_command": "mkdir -p .claude/skills/dromo-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dromo-automation/SKILL.md\" > .claude/skills/dromo-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dromo-automation/SKILL.md"

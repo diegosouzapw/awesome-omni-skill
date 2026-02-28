@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "91a5d1da9202a4e6c681d7a2cbae8b42d1f077431be88aff43ff5b9bb7cf600d",
   "indexed_at": "2026-02-24T22:53:16.861Z",
-  "synced_at": "2026-02-27T02:43:00.637Z",
+  "synced_at": "2026-02-28T04:12:36.402Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/71df09f11c419bde7ff1e05da181d2f01247c94990ee4540c3365ad28b2308c5",
   "install_command": "mkdir -p .claude/skills/digital-ocean-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/digital-ocean-automation/SKILL.md\" > .claude/skills/digital-ocean-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/digital-ocean-automation/SKILL.md"

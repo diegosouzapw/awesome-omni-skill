@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d504ade8cc7b8b61be5f2d453376cdfa5d3891b7d0e12368bd231a0a53ce72f3",
   "indexed_at": "2026-02-24T22:51:34.891Z",
-  "synced_at": "2026-02-27T02:42:53.535Z",
+  "synced_at": "2026-02-28T04:12:29.459Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/54fda67ebbafef1a5b73b6844c3788e199f813f86f1562146d5c7a17e75410aa",
   "install_command": "mkdir -p .claude/skills/cardly-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/cardly-automation/SKILL.md\" > .claude/skills/cardly-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/cardly-automation/SKILL.md"

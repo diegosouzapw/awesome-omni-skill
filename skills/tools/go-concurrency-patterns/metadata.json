@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bb512de2bbe27bc28a86e68af621f9500b5643b20ed9aa1e98510e4b962a24ba",
   "indexed_at": "2026-02-25T16:27:07.062Z",
-  "synced_at": "2026-02-27T02:43:34.121Z",
+  "synced_at": "2026-02-28T04:13:07.648Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/369f87066351fad1a1f81298cf4bee4c3c97af8f803d32da0d0038f311bb69c4",
   "install_command": "mkdir -p .claude/skills/go-concurrency-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/go-concurrency-patterns/SKILL.md\" > .claude/skills/go-concurrency-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/go-concurrency-patterns/SKILL.md"

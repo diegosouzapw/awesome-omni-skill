@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "83c0d2477c847b0c0798e111bef40e5698d0bb5bfdf6d3f2b042d9bdfe8fe318",
   "indexed_at": "2026-02-24T22:54:09.376Z",
-  "synced_at": "2026-02-27T02:43:04.768Z",
+  "synced_at": "2026-02-28T04:12:40.414Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/397f55ffa5f9996277bf2635122665d21c003f66ed1efdbef1c3c200b115f5e7",
   "install_command": "mkdir -p .claude/skills/endorsal-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/endorsal-automation/SKILL.md\" > .claude/skills/endorsal-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/endorsal-automation/SKILL.md"

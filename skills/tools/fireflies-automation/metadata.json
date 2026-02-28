@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "70a766d01c2d9fc945a196c503d9fab09d2c4bccdbb3b9902dccaedb048d9186",
   "indexed_at": "2026-02-24T22:55:03.290Z",
-  "synced_at": "2026-02-27T02:43:08.966Z",
+  "synced_at": "2026-02-28T04:12:44.609Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6a77e1a36cdca3553788627d9edba53ef14e2bda655a76a4d97845ce227860b1",
   "install_command": "mkdir -p .claude/skills/fireflies-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/fireflies-automation/SKILL.md\" > .claude/skills/fireflies-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/fireflies-automation/SKILL.md"

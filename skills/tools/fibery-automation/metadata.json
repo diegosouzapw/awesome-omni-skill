@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6d6e43ce2d179cd0c3f82061966fd09cc739f33313f927ad12b630d56488e1c5",
   "indexed_at": "2026-02-24T22:54:47.240Z",
-  "synced_at": "2026-02-27T02:43:07.771Z",
+  "synced_at": "2026-02-28T04:12:43.409Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b9badda2353255202de50ff1f2276577e2677af07fc87a4c931808447a777ec1",
   "install_command": "mkdir -p .claude/skills/fibery-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/fibery-automation/SKILL.md\" > .claude/skills/fibery-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/fibery-automation/SKILL.md"

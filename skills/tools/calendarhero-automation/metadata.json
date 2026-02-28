@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "398d68ecb3ce0f839a346fcca8fa45a0929af9ce48ad022c099c5214b1b0e218",
   "indexed_at": "2026-02-24T22:51:19.856Z",
-  "synced_at": "2026-02-27T02:42:52.482Z",
+  "synced_at": "2026-02-28T04:12:28.425Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/60df0a3e0876c1598c83b659c1e906619003cb716a01815b1236ab94bd3de539",
   "install_command": "mkdir -p .claude/skills/calendarhero-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/calendarhero-automation/SKILL.md\" > .claude/skills/calendarhero-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/calendarhero-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ed6b885697be2eba283cc23afd1281557916e0454e9d74b69e0f0b162aaedbed",
   "indexed_at": "2026-02-25T19:25:53.511Z",
-  "synced_at": "2026-02-27T02:43:16.872Z",
+  "synced_at": "2026-02-28T04:12:51.533Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/96e50728826e1b20ab037c8cbd47f97cc4dec308229d5904f0aaa8a1be82b6cb",
   "install_command": "mkdir -p .claude/skills/vercel-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/vercel-automation/SKILL.md\" > .claude/skills/vercel-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/vercel-automation/SKILL.md"

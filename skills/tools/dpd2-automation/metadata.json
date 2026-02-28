@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2dda96118b805203d68e2c66998ae8de3e9e2bf865397a4745b67be8374a6fc7",
   "indexed_at": "2026-02-24T22:53:44.838Z",
-  "synced_at": "2026-02-27T02:43:02.798Z",
+  "synced_at": "2026-02-28T04:12:38.480Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/839706a0a9139f3cd7f22ea4e655adf7323a40a56851fb79359899e4837f1b1c",
   "install_command": "mkdir -p .claude/skills/dpd2-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dpd2-automation/SKILL.md\" > .claude/skills/dpd2-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dpd2-automation/SKILL.md"

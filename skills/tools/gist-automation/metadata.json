@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "97b8ea5ee795f2913bcd56d5f162ee40ed48205cd2b222466d3b1cea21a97b83",
   "indexed_at": "2026-02-24T22:55:55.125Z",
-  "synced_at": "2026-02-27T02:43:12.629Z",
+  "synced_at": "2026-02-28T04:12:48.167Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/98493253b88f98802966596dec086122238a5b2d4a9b9b6be4e23bdc4907c97d",
   "install_command": "mkdir -p .claude/skills/gist-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/gist-automation/SKILL.md\" > .claude/skills/gist-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/gist-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b119ac15762ac0094590c68f550b38a94df9fb9b43ffacefde3c3c2178ae44e1",
   "indexed_at": "2026-02-25T16:22:11.128Z",
-  "synced_at": "2026-02-27T02:43:29.402Z",
+  "synced_at": "2026-02-28T04:13:03.178Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c66c2c128d81b72f0cfe93f5c120ea5a6ac68660efacc1e0d55bfbc9103a718d",
   "install_command": "mkdir -p .claude/skills/bevy-ecs-expert && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/bevy-ecs-expert/SKILL.md\" > .claude/skills/bevy-ecs-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/bevy-ecs-expert/SKILL.md"

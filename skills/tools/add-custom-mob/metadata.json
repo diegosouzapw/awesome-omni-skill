@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "77d045e371d9cacc616d4c5bf58985a7917368f478dbf0ced74e07d03b2284ee",
   "indexed_at": "2026-02-27T01:53:23.632Z",
-  "synced_at": "2026-02-27T02:44:05.200Z",
+  "synced_at": "2026-02-28T04:13:42.751Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6281cc01139e29b0669df6a2c7b30b8db563b4e2c7c5fb0ebcc263487e2e788e",
   "install_command": "mkdir -p .claude/skills/add-custom-mob && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-custom-mob/SKILL.md\" > .claude/skills/add-custom-mob/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-custom-mob/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "27458deafceddde43c1cfea5c2fd61473f5203f27472b72604771e7831c9c6a4",
   "indexed_at": "2026-02-27T01:51:09.696Z",
-  "synced_at": "2026-02-27T02:44:04.753Z",
+  "synced_at": "2026-02-28T04:13:42.171Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/89d6a0de3d8b9083ad57a8f6ee54a5757012151548a5c4740e71e06a6809a01b",
   "install_command": "mkdir -p .claude/skills/adaptation_guide && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/adaptation-guide/SKILL.md\" > .claude/skills/adaptation_guide/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/adaptation-guide/SKILL.md"

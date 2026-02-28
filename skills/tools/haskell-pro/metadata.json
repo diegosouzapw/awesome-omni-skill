@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "42a39173381f3eb1cfef4025b92322dd2b6256429a30bb34ac941f2e96fb4770",
   "indexed_at": "2026-02-25T16:27:28.894Z",
-  "synced_at": "2026-02-27T02:43:33.025Z",
+  "synced_at": "2026-02-28T04:13:06.573Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b37c348c004c138f1af8fdf4a56649e4eef01905797d97602276f3c05751e6b5",
   "install_command": "mkdir -p .claude/skills/haskell-pro && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/haskell-pro/SKILL.md\" > .claude/skills/haskell-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/haskell-pro/SKILL.md"

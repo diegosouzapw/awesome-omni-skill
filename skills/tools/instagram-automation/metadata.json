@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "17c31434b4fa5a5f27f7899a991afbf145b1b86d24635e7f9aa5886eb071fa27",
   "indexed_at": "2026-02-25T17:23:21.438Z",
-  "synced_at": "2026-02-27T02:43:24.339Z",
+  "synced_at": "2026-02-28T04:12:58.313Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e27ce7126d444877093d79df52aaca783f9d6fed445afc0e6ae39f9dccece439",
   "install_command": "mkdir -p .claude/skills/instagram-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/instagram-automation/SKILL.md\" > .claude/skills/instagram-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/instagram-automation/SKILL.md"

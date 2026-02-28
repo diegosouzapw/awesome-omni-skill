@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ec0d3ff409d1b3ecf12b18937515005837beb13d50bfd7ce080117a73d696c82",
   "indexed_at": "2026-02-24T22:53:41.038Z",
-  "synced_at": "2026-02-27T02:43:02.480Z",
+  "synced_at": "2026-02-28T04:12:38.177Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2465fa65e4b5c6e5e0b82d640afcacdcf6d8cd153410d836be163d2939c75cf6",
   "install_command": "mkdir -p .claude/skills/doppler-secretops-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/doppler-secretops-automation/SKILL.md\" > .claude/skills/doppler-secretops-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/doppler-secretops-automation/SKILL.md"

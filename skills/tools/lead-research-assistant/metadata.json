@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2fa267b97f920f59342208022ac507c0a6420ad17eac058c2557060251a6fcec",
   "indexed_at": "2026-02-24T18:57:53.630Z",
-  "synced_at": "2026-02-27T02:43:15.315Z",
+  "synced_at": "2026-02-28T04:12:50.045Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b6bba4b9a68d90e3716dc1ac426f72001cb398ec6257d67960ec090da6ffdc5f",
   "install_command": "mkdir -p .claude/skills/lead-research-assistant && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/lead-research-assistant/SKILL.md\" > .claude/skills/lead-research-assistant/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/lead-research-assistant/SKILL.md"

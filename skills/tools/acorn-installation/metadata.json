@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d3a236534b9f91586773a58bd9d90a9ca3a4986418eff717eb66b7e19987608c",
   "indexed_at": "2026-02-27T00:54:26.133Z",
-  "synced_at": "2026-02-27T02:43:45.119Z",
+  "synced_at": "2026-02-28T04:13:23.057Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ef49beaefc4b3ae149363ad5a6b5f187c1b5676e487790708e4b63fa45129e5b",
   "install_command": "mkdir -p .claude/skills/acorn-installation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acorn-installation/SKILL.md\" > .claude/skills/acorn-installation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acorn-installation/SKILL.md"

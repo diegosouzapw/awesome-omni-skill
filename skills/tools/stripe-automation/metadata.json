@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7c66db890069df80c69ddc7d21adf37c5e7e745f9c40ff5e32bd654b4a4b173c",
   "indexed_at": "2026-02-25T19:23:38.752Z",
-  "synced_at": "2026-02-27T02:43:15.766Z",
+  "synced_at": "2026-02-28T04:12:50.484Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f35a5c007e87db7fce4a2ac7eb0fd3264aa65db20f9bc980ff83fc0bf71bc634",
   "install_command": "mkdir -p .claude/skills/stripe-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/stripe-automation/SKILL.md\" > .claude/skills/stripe-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/stripe-automation/SKILL.md"

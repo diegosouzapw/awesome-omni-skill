@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d28e3542fdb8bba2f18bf88ebd8182c4292ab17e9395802885f8dee2e5020825",
   "indexed_at": "2026-02-24T22:54:27.940Z",
-  "synced_at": "2026-02-27T02:43:06.137Z",
+  "synced_at": "2026-02-28T04:12:41.846Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/78fbc615d35e31d3c9a6f200360370b8ce6f11d89881b50b2fe20885b3c9c5a2",
   "install_command": "mkdir -p .claude/skills/eventzilla-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/eventzilla-automation/SKILL.md\" > .claude/skills/eventzilla-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/eventzilla-automation/SKILL.md"

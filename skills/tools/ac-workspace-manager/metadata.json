@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3153a50bd85dcf3149d7d6ca24e9354d2d95488456ecf5304c253b3e3f8c55af",
   "indexed_at": "2026-02-24T23:40:39.540Z",
-  "synced_at": "2026-02-27T02:43:58.096Z",
+  "synced_at": "2026-02-28T04:13:34.483Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/08508d73d19bde8cf19edb7c29e4622382b118ed8e716ed9effa5132b787dc2e",
   "install_command": "mkdir -p .claude/skills/ac-workspace-manager && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ac-workspace-manager/SKILL.md\" > .claude/skills/ac-workspace-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ac-workspace-manager/SKILL.md"

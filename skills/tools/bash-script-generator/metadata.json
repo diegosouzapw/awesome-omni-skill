@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "48d1b7272e0c99970e4dd61f7d64ee3e3a3f7f0a651f7bda4eb3af5b9e4d6b1e",
   "indexed_at": "2026-02-24T23:42:04.549Z",
-  "synced_at": "2026-02-27T02:44:00.401Z",
+  "synced_at": "2026-02-28T04:13:36.580Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/07281feee5c9face1661c6ca935d369f0172e926938db1e4ab436991242f2d7c",
   "install_command": "mkdir -p .claude/skills/bash-script-generator && curl -sL \"https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/bash-script-generator/SKILL.md\" > .claude/skills/bash-script-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/bash-script-generator/SKILL.md"

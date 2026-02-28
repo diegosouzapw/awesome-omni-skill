@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "815623a8859ed6b714fa9ec0ff8b5edd32ee57f969ed125a39e044e75f591e2c",
   "indexed_at": "2026-02-27T01:57:04.033Z",
-  "synced_at": "2026-02-27T02:44:05.803Z",
+  "synced_at": "2026-02-28T04:13:43.522Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0ff52c019be54a04d0d56d6e8324ce221f34aefe26566a1e951c9442e019fd85",
   "install_command": "mkdir -p .claude/skills/add-social-media-header && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-social-media-header/SKILL.md\" > .claude/skills/add-social-media-header/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-social-media-header/SKILL.md"

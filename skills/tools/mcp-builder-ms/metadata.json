@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2a66a4b68e3709d64a48939fb276c144b3fca55c37c9c88ca67f63794726cdba",
   "indexed_at": "2026-02-25T17:25:06.622Z",
-  "synced_at": "2026-02-27T02:43:25.913Z",
+  "synced_at": "2026-02-28T04:12:59.859Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/14c09505ee745cffb44f5911b0698152a1f1fc255f60b13ff0f60b8eb4de1151",
   "install_command": "mkdir -p .claude/skills/mcp-builder-ms && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/mcp-builder-ms/SKILL.md\" > .claude/skills/mcp-builder-ms/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/mcp-builder-ms/SKILL.md"

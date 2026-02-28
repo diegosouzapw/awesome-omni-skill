@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "60413d32a0ee8d78ad80680f922d86e749ca1187801d1dfee758a8e116df6340",
   "indexed_at": "2026-02-24T23:42:15.039Z",
-  "synced_at": "2026-02-27T02:44:01.613Z",
+  "synced_at": "2026-02-28T04:13:37.711Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5f8539c1eaf3364f61109731aefe5bc375b95dcb0806b009299bfeba5ffd8ba3",
   "install_command": "mkdir -p .claude/skills/gitlab-ci-generator && curl -sL \"https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/gitlab-ci-generator/SKILL.md\" > .claude/skills/gitlab-ci-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/gitlab-ci-generator/SKILL.md"

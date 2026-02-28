@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "44cb61a199f33833732ba7b6a66ec4175deadf1380ac068dd020c211d22e5950",
   "indexed_at": "2026-02-24T23:42:32.499Z",
-  "synced_at": "2026-02-27T02:44:02.958Z",
+  "synced_at": "2026-02-28T04:13:39.034Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/20518b677f9933c05d00040422b14bb98fe4a654c2da8afc85d11e7ec192ce3a",
   "install_command": "mkdir -p .claude/skills/promql-generator && curl -sL \"https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/promql-generator/SKILL.md\" > .claude/skills/promql-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/promql-generator/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c6d1e68d71a5fdeee80512b6cac28e3a8c9515385943cda1a8251ae3470004a",
   "indexed_at": "2026-02-25T16:24:48.983Z",
-  "synced_at": "2026-02-27T02:43:30.038Z",
+  "synced_at": "2026-02-28T04:13:03.896Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/915074ef6adc4df2943c92d278b24aae97d613bb63b46d328a1cc0d4a49fcfb5",
   "install_command": "mkdir -p .claude/skills/dropbox-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/dropbox-automation/SKILL.md\" > .claude/skills/dropbox-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/dropbox-automation/SKILL.md"

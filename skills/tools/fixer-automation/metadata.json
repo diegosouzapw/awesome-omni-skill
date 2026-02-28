@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2a3a3fa005a4aee521506a12812ce80e6d559997688a4b0f3001a6901f59fc9b",
   "indexed_at": "2026-02-24T22:55:07.258Z",
-  "synced_at": "2026-02-27T02:43:09.421Z",
+  "synced_at": "2026-02-28T04:12:45.058Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/817969322b0d9bd3b23939f54902ffcee0b64f7f78bafdbce3f63680397d15e4",
   "install_command": "mkdir -p .claude/skills/fixer-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/fixer-automation/SKILL.md\" > .claude/skills/fixer-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/fixer-automation/SKILL.md"

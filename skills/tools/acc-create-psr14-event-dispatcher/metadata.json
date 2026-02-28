@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aa054700f4e543400a9900e46e0d5416f259811e95c85b1a10378ce81a1da810",
   "indexed_at": "2026-02-27T00:48:17.890Z",
-  "synced_at": "2026-02-27T02:43:40.177Z",
+  "synced_at": "2026-02-28T04:13:14.192Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e6a733b977517650ce4f337bb8d8d632eff158f9be2c5814535874d9012dc05a",
   "install_command": "mkdir -p .claude/skills/acc-create-psr14-event-dispatcher && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-psr14-event-dispatcher/SKILL.md\" > .claude/skills/acc-create-psr14-event-dispatcher/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-psr14-event-dispatcher/SKILL.md"

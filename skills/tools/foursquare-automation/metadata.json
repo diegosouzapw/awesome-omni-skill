@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bd600c5f88ce2b82c98565e8f14e77b5d8bb97bb35f37eb5c53e9c25aafc9523",
   "indexed_at": "2026-02-24T22:55:24.766Z",
-  "synced_at": "2026-02-27T02:43:10.480Z",
+  "synced_at": "2026-02-28T04:12:46.106Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/77569687f607ea367789155f2ee6d7957bce7faadcf07a020dae97a38a30c896",
   "install_command": "mkdir -p .claude/skills/foursquare-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/foursquare-automation/SKILL.md\" > .claude/skills/foursquare-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/foursquare-automation/SKILL.md"

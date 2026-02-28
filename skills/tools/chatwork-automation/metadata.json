@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f47687ee64db74a0d8358848e5ba887a8b961b6a4837fc7cbe197c5cbfda3be7",
   "indexed_at": "2026-02-24T22:51:48.185Z",
-  "synced_at": "2026-02-27T02:42:54.626Z",
+  "synced_at": "2026-02-28T04:12:30.493Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d2d014d7cedb5c824879098ef4b11f8f679f49a2f765b948b52016953a2f6084",
   "install_command": "mkdir -p .claude/skills/chatwork-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/chatwork-automation/SKILL.md\" > .claude/skills/chatwork-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/chatwork-automation/SKILL.md"

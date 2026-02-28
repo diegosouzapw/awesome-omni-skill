@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f80b36fa8d126ff645532e16c7f98ea7acad8f1a1540bbacf986be77f45cfc62",
   "indexed_at": "2026-02-24T22:53:07.462Z",
-  "synced_at": "2026-02-27T02:42:59.729Z",
+  "synced_at": "2026-02-28T04:12:35.520Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f2275f1669c68fafcbdf76b20c4e35a2da5bbbb4269c0589738bf14cafcd1295",
   "install_command": "mkdir -p .claude/skills/desktime-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/desktime-automation/SKILL.md\" > .claude/skills/desktime-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/desktime-automation/SKILL.md"

@@ -1,6 +1,7 @@
 ---
 name: julia-pro
-description: "Master Julia 1.10+ with modern features, performance optimization,"
+description: |
+  Master Julia 1.10+ with modern features, performance optimization,
   multiple dispatch, and production-ready practices. Expert in the Julia
   ecosystem including package management, scientific computing, and
   high-performance numerical code. Use PROACTIVELY for Julia development,

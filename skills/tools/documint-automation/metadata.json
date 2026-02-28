@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c9f857ea3fa702ee80c588119f72569fcd3f49c9201bdd75ce78a1561a29edeb",
   "indexed_at": "2026-02-24T22:53:34.514Z",
-  "synced_at": "2026-02-27T02:43:01.864Z",
+  "synced_at": "2026-02-28T04:12:37.587Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7e5183ad5baf1028829e1ef65ff34fc6fa6fbd5d7941a7123ccc1e86a6fd6587",
   "install_command": "mkdir -p .claude/skills/documint-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/documint-automation/SKILL.md\" > .claude/skills/documint-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/documint-automation/SKILL.md"

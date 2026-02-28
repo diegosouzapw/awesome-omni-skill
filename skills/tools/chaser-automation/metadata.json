@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e7b431e9b5f8ade248f0b1540fbc730653eee9155cf6a1029f6c3c65e9793169",
   "indexed_at": "2026-02-24T22:51:44.405Z",
-  "synced_at": "2026-02-27T02:42:54.318Z",
+  "synced_at": "2026-02-28T04:12:30.194Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7dbd015c419e1a6fee8b68af4fb026d309a7026ccf55683885b67b46c60c236e",
   "install_command": "mkdir -p .claude/skills/chaser-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/chaser-automation/SKILL.md\" > .claude/skills/chaser-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/chaser-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eea638e57d7ecf9aa34f0198de818ce624697de0c64be6780453f95fec1dff1d",
   "indexed_at": "2026-02-25T17:25:45.670Z",
-  "synced_at": "2026-02-27T02:43:26.717Z",
+  "synced_at": "2026-02-28T04:13:00.633Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b492165b9aeb2b4a2b081d53a2ae7cce4afa36d08c093df377b4146a6fd7e295",
   "install_command": "mkdir -p .claude/skills/monday-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/monday-automation/SKILL.md\" > .claude/skills/monday-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/monday-automation/SKILL.md"

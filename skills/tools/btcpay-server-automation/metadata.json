@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3c78c1ae511ce4bda9ff5251a5960c903f0a115df7f823b778fdfb760c0f4b42",
   "indexed_at": "2026-02-24T22:51:06.013Z",
-  "synced_at": "2026-02-27T02:42:51.167Z",
+  "synced_at": "2026-02-28T04:12:27.224Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4680fc9e91f628e113148f5295d95e3adfa916abbe0b60073f70d54a779f7da8",
   "install_command": "mkdir -p .claude/skills/btcpay-server-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/btcpay-server-automation/SKILL.md\" > .claude/skills/btcpay-server-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/btcpay-server-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "389b12ec4f0f3031e41daeb8cc2c66c930bd6cb10924a51998e99de95d38b160",
   "indexed_at": "2026-02-24T22:54:59.165Z",
-  "synced_at": "2026-02-27T02:43:08.671Z",
+  "synced_at": "2026-02-28T04:12:44.307Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6471f2c37d60df2f5b70d5cde0d9b9585e00a5416e77069bff7b24b1b10b0c34",
   "install_command": "mkdir -p .claude/skills/finmei-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/finmei-automation/SKILL.md\" > .claude/skills/finmei-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/finmei-automation/SKILL.md"

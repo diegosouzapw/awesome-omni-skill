@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "40ba261ed9330ab60cb1c41e0616c42f9bb88bbb14741a7723baf4f0d8e5d4be",
   "indexed_at": "2026-02-25T16:26:50.614Z",
-  "synced_at": "2026-02-27T02:43:33.963Z",
+  "synced_at": "2026-02-28T04:13:07.494Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1f0f0dbbf6fff4487bde019f9bc106cce929c348ec5b1db3b19b1da91f9b4168",
   "install_command": "mkdir -p .claude/skills/git-pushing && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/git-pushing/SKILL.md\" > .claude/skills/git-pushing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/git-pushing/SKILL.md"

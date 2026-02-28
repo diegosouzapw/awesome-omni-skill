@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "195ea388fe85ba1684307219b1ed3fad5d99ba50bc52462494664edca258cd7a",
   "indexed_at": "2026-02-24T22:53:18.127Z",
-  "synced_at": "2026-02-27T02:43:00.789Z",
+  "synced_at": "2026-02-28T04:12:36.550Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e1b7b1de7f104279e9347dc4e75b91d383f3bfd2e388e555d83139ac6113b48e",
   "install_command": "mkdir -p .claude/skills/discordbot-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/discordbot-automation/SKILL.md\" > .claude/skills/discordbot-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/discordbot-automation/SKILL.md"

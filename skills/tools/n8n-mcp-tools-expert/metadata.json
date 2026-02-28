@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1d2b8a42c1b5ee244533ce8e3c6e9699385962128fc6c71e42e3560883794705",
   "indexed_at": "2026-02-25T17:26:05.161Z",
-  "synced_at": "2026-02-27T02:43:27.042Z",
+  "synced_at": "2026-02-28T04:13:00.931Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7ff213f5c93a068b48bacc18600124adaba8af4938052d8476876c5f16c0f255",
   "install_command": "mkdir -p .claude/skills/n8n-mcp-tools-expert && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/n8n-mcp-tools-expert/SKILL.md\" > .claude/skills/n8n-mcp-tools-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/n8n-mcp-tools-expert/SKILL.md"

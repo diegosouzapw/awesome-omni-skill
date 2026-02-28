@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bf40a359a1340ace48a0aa2d81fb92ccebc3956346bccf37e930736e956c1ded",
   "indexed_at": "2026-02-24T22:55:06.006Z",
-  "synced_at": "2026-02-27T02:43:09.266Z",
+  "synced_at": "2026-02-28T04:12:44.908Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/25feacc340fe76a8abc59ddedad7daf1d34d3aa72a01ca268c9ce4388dbfb75d",
   "install_command": "mkdir -p .claude/skills/fitbit-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/fitbit-automation/SKILL.md\" > .claude/skills/fitbit-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/fitbit-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "27e568224c3c2f217aece00d3efc61fa3147e61e64bb0db764f5507e0af5c748",
   "indexed_at": "2026-02-24T22:50:52.508Z",
-  "synced_at": "2026-02-27T02:42:50.101Z",
+  "synced_at": "2026-02-28T04:12:26.177Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9a3edfe30e4f4b788af0226349d72d4f1fca0ad794515a3f9425845a9f773af5",
   "install_command": "mkdir -p .claude/skills/brex-staging-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/brex-staging-automation/SKILL.md\" > .claude/skills/brex-staging-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/brex-staging-automation/SKILL.md"

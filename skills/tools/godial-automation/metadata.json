@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0c1652eaac658397d98464853023017831fda93522e348209260b71f111a0690",
   "indexed_at": "2026-02-24T22:56:03.313Z",
-  "synced_at": "2026-02-27T02:43:13.401Z",
+  "synced_at": "2026-02-28T04:12:49.004Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b1c7f8be6d82a8843c3d80c5e301ba0fd4d0f1b97b0f1548c795e06d2a7c85ea",
   "install_command": "mkdir -p .claude/skills/godial-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/godial-automation/SKILL.md\" > .claude/skills/godial-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/godial-automation/SKILL.md"

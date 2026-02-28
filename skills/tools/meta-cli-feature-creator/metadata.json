@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7f0f093d63142fa317c7b3afd25c99ba45e9ec577d8d811007f00f61f596d843",
   "indexed_at": "2026-02-24T23:38:53.668Z",
-  "synced_at": "2026-02-27T02:43:59.361Z",
+  "synced_at": "2026-02-28T04:13:35.642Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3c51de79a7182ae8aa23baf065b42e8d9d15ff19acbfef14131d15d682667e8d",
   "install_command": "mkdir -p .claude/skills/meta-cli-feature-creator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/aaa-feature-wizard/SKILL.md\" > .claude/skills/meta-cli-feature-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/aaa-feature-wizard/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2e3895d514c8e93b9a4f358035478cd299a1dbc290aab3d9cd9d2b11d9baba8b",
   "indexed_at": "2026-02-25T15:21:25.002Z",
-  "synced_at": "2026-02-27T02:43:34.908Z",
+  "synced_at": "2026-02-28T04:13:08.388Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f1739afe741aab8e6be4059b74a3c58657aed83c4cc6dbe3b0b6ec05fbac1e06",
   "install_command": "mkdir -p .claude/skills/asana-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/asana-automation/SKILL.md\" > .claude/skills/asana-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/asana-automation/SKILL.md"

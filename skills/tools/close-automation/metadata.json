@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ab9564a9b00b05a77532e51c59cd5ee890d92fad8b07016bebe8c68ec62d4551",
   "indexed_at": "2026-02-25T15:26:14.150Z",
-  "synced_at": "2026-02-27T02:43:36.164Z",
+  "synced_at": "2026-02-28T04:13:09.578Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4b84f86ed77f0156f8eda8737c1f028b6e9d97bdb76433ed1ee79697e6d05642",
   "install_command": "mkdir -p .claude/skills/close-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/close-automation/SKILL.md\" > .claude/skills/close-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/close-automation/SKILL.md"

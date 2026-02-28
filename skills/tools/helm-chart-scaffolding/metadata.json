@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3257f81f0e5f9daff723cac07b9157d48fe008024a3b9f2c9926205527f1fa55",
   "indexed_at": "2026-02-25T16:27:30.608Z",
-  "synced_at": "2026-02-27T02:43:34.435Z",
+  "synced_at": "2026-02-28T04:13:07.955Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/31aef077bb6ccbca9fb00678202c62eb192887958c7906a9bc572fa6ffe2e0c4",
   "install_command": "mkdir -p .claude/skills/helm-chart-scaffolding && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/helm-chart-scaffolding/SKILL.md\" > .claude/skills/helm-chart-scaffolding/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/helm-chart-scaffolding/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3db714f3fc0ff34f99a86c08743ef49f00c9fa5dad2178603c76b6d201055c28",
   "indexed_at": "2026-02-24T23:37:19.759Z",
-  "synced_at": "2026-02-27T02:43:51.885Z",
+  "synced_at": "2026-02-28T04:13:29.512Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5f1881c871098ee3ed3407ff4495b894bfb8786c109e5a27b3356e039d9697fb",
   "install_command": "mkdir -p .claude/skills/build-your-fine-tuning-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/64-supervised-fine-tuning/SKILL.md\" > .claude/skills/build-your-fine-tuning-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/64-supervised-fine-tuning/SKILL.md"

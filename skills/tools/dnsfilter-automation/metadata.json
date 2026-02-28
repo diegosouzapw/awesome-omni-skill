@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9f81a6a5b5fe8bca7732f8685ee624b88b01ba7400d5c030cea033fb670e865c",
   "indexed_at": "2026-02-24T22:53:19.430Z",
-  "synced_at": "2026-02-27T02:43:00.956Z",
+  "synced_at": "2026-02-28T04:12:36.698Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/50f10b6dd6f6886331e5a02ec9973d176ee66e75fef44336638eda2f887d2655",
   "install_command": "mkdir -p .claude/skills/dnsfilter-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dnsfilter-automation/SKILL.md\" > .claude/skills/dnsfilter-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dnsfilter-automation/SKILL.md"

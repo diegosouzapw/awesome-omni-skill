@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f8576946faa8e3b99ab25274c3c89ade5b81197279084b928ff638ce7a465c21",
   "indexed_at": "2026-02-24T22:52:40.704Z",
-  "synced_at": "2026-02-27T02:42:57.663Z",
+  "synced_at": "2026-02-28T04:12:33.565Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c9bce0d04122c95fa410dec0bd48a10bd75f58b4c31a6620cd0d1a8335ed18ce",
   "install_command": "mkdir -p .claude/skills/craftmypdf-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/craftmypdf-automation/SKILL.md\" > .claude/skills/craftmypdf-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/craftmypdf-automation/SKILL.md"

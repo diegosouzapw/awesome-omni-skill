@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c64e641229517cff28d2efebefae7c2586472a8ea9d362078959049ec10d5bf8",
   "indexed_at": "2026-02-25T17:25:49.335Z",
-  "synced_at": "2026-02-27T02:43:29.076Z",
+  "synced_at": "2026-02-28T04:13:02.884Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/af130ae0efc3c4ee7d024d72a8e0026d897b8471390289a59fe008bb56b40d08",
   "install_command": "mkdir -p .claude/skills/monorepo-management && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/monorepo-management/SKILL.md\" > .claude/skills/monorepo-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/monorepo-management/SKILL.md"

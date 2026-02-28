@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c4f9f8854ae76ca6741e0fb9c8a06949e0b799533aa7135f7d78a56ec980a8c3",
   "indexed_at": "2026-02-24T22:52:18.881Z",
-  "synced_at": "2026-02-27T02:42:55.975Z",
+  "synced_at": "2026-02-28T04:12:31.825Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dba270ff91125b804e1d869b458aff8225258f0249a0e4be21a35821909d9c92",
   "install_command": "mkdir -p .claude/skills/coinmarketcal-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/coinmarketcal-automation/SKILL.md\" > .claude/skills/coinmarketcal-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/coinmarketcal-automation/SKILL.md"

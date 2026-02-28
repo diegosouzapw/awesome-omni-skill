@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7abf2432f75b949bd73cccd6842a852b46f49b833b3ee928e124c0325357919b",
   "indexed_at": "2026-02-24T22:55:48.161Z",
-  "synced_at": "2026-02-27T02:43:12.017Z",
+  "synced_at": "2026-02-28T04:12:47.581Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1ac0d1ca930103c4a57e377a5da9fedb159a82ff62dda03ddf130fd6d60fa090",
   "install_command": "mkdir -p .claude/skills/geokeo-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/geokeo-automation/SKILL.md\" > .claude/skills/geokeo-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/geokeo-automation/SKILL.md"

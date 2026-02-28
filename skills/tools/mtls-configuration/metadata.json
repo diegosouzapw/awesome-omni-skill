@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3f0270eb81e245a8a0f798e1027d81b28036281cb565210ebd2434aa25d87d55",
   "indexed_at": "2026-02-25T17:25:53.535Z",
-  "synced_at": "2026-02-27T02:43:26.882Z",
+  "synced_at": "2026-02-28T04:13:00.780Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eeec91423f8a271f46d3a467faebe4342ba9825d57c88edbc3dc65df1934a9c9",
   "install_command": "mkdir -p .claude/skills/mtls-configuration && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/mtls-configuration/SKILL.md\" > .claude/skills/mtls-configuration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/mtls-configuration/SKILL.md"

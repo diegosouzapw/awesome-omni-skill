@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1ab175fb8c321ed8fe8504fe2c8c38c9c7d15e906166b2d8d34de0da40c3f158",
   "indexed_at": "2026-02-25T17:27:08.177Z",
-  "synced_at": "2026-02-27T02:43:28.296Z",
+  "synced_at": "2026-02-28T04:13:02.135Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1b83811975d74418f9941f2bc4fe03bba203867266131670bf397b2ff89c091a",
   "install_command": "mkdir -p .claude/skills/pagerduty-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/pagerduty-automation/SKILL.md\" > .claude/skills/pagerduty-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/pagerduty-automation/SKILL.md"

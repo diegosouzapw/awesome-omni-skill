@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "98a6b864a2a3bc78e86e19f5af51db5adc655b1c1fb98d2ba7dda377d59ef866",
   "indexed_at": "2026-02-25T17:23:24.857Z",
-  "synced_at": "2026-02-27T02:43:24.656Z",
+  "synced_at": "2026-02-28T04:12:58.635Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0e02e0c685b4e5d02d607582fb2b33e119bb65b85ba665c9ba97f01ac554b43e",
   "install_command": "mkdir -p .claude/skills/intercom-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/intercom-automation/SKILL.md\" > .claude/skills/intercom-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/intercom-automation/SKILL.md"

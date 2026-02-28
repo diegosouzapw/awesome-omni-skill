@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bf6dbb82588785cf50c2973a2482bfac78fe9ffdea295873b73c89e006232c88",
   "indexed_at": "2026-02-25T15:25:30.642Z",
-  "synced_at": "2026-02-27T02:43:35.691Z",
+  "synced_at": "2026-02-28T04:13:09.141Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c91daf9bdc7c43b49c9a51f17f404317639db0fede46b28998384ec202f2b597",
   "install_command": "mkdir -p .claude/skills/calendly-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/calendly-automation/SKILL.md\" > .claude/skills/calendly-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/calendly-automation/SKILL.md"

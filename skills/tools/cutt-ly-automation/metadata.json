@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a6b5531ed3ca10b5a4a26e73b6338435d13c510322925b81a89bebc4bda5c7cd",
   "indexed_at": "2026-02-24T22:52:52.475Z",
-  "synced_at": "2026-02-27T02:42:58.572Z",
+  "synced_at": "2026-02-28T04:12:34.481Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2eebd597d0d6e1cf7a73d7604470a27415563e948d7d16eb09e8794f53653955",
   "install_command": "mkdir -p .claude/skills/cutt-ly-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/cutt-ly-automation/SKILL.md\" > .claude/skills/cutt-ly-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/cutt-ly-automation/SKILL.md"

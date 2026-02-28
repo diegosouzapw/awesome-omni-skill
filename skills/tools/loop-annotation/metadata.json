@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8fc141e9ccd2a10e05d1f1e7871c11ccc7c354118c43601709bc958bf3b0c939",
   "indexed_at": "2026-02-24T23:35:23.361Z",
-  "synced_at": "2026-02-27T02:43:49.558Z",
+  "synced_at": "2026-02-28T04:13:27.754Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d226a25bf6294e12d3702187cf4e8aace4c7fd855acd0b076a37e195b9bb8d1a",
   "install_command": "mkdir -p .claude/skills/loop-annotation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/33-loop-annotation/SKILL.md\" > .claude/skills/loop-annotation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/33-loop-annotation/SKILL.md"

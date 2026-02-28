@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6348061a4e95de62de64e0534f6c579b727f751008d79d0b5f3147c5c1d009a4",
   "indexed_at": "2026-02-25T19:24:18.315Z",
-  "synced_at": "2026-02-27T02:43:16.082Z",
+  "synced_at": "2026-02-28T04:12:50.785Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/22a603298bbd63d2e74fcc38921757893182f3aa36a622f74d3a667bd638324a",
   "install_command": "mkdir -p .claude/skills/telegram-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/telegram-automation/SKILL.md\" > .claude/skills/telegram-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/telegram-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "51c845cf9ec1474d22db1f9cd0aac6b1c82b309c0b654dd63f17c6401fa58953",
   "indexed_at": "2026-02-24T23:39:21.568Z",
-  "synced_at": "2026-02-27T02:43:54.074Z",
+  "synced_at": "2026-02-28T04:13:31.770Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e01abba4bc5d32853e0792c29693202629be38b328bd43585d5b27ea3b2ce6df",
   "install_command": "mkdir -p .claude/skills/abaqus-fatigue-analysis && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/abaqus-fatigue-analysis/SKILL.md\" > .claude/skills/abaqus-fatigue-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/abaqus-fatigue-analysis/SKILL.md"

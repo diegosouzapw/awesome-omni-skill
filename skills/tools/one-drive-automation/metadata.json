@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7cf67d8210f8ee248e63ba9e48fc2c66283010dfd41ff0f3101419e7085e8097",
   "indexed_at": "2026-02-25T17:26:55.666Z",
-  "synced_at": "2026-02-27T02:43:27.676Z",
+  "synced_at": "2026-02-28T04:13:01.555Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/99855cb24bfb1773d58ef43f20f0e77bf5ba6ea3f9cdacd57b65b7f76fcc8598",
   "install_command": "mkdir -p .claude/skills/one-drive-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/one-drive-automation/SKILL.md\" > .claude/skills/one-drive-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/one-drive-automation/SKILL.md"

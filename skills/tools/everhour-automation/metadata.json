@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5bb5489630fe3f5d8208e742419fa13e3a28d9021b4fc0bcc4fb2ca9e9dee05b",
   "indexed_at": "2026-02-24T22:54:29.143Z",
-  "synced_at": "2026-02-27T02:43:06.286Z",
+  "synced_at": "2026-02-28T04:12:41.999Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cb168d7273e00a077d1da84c0d8da34b9216ee6a10dab245abd9a9937e993d8d",
   "install_command": "mkdir -p .claude/skills/everhour-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/everhour-automation/SKILL.md\" > .claude/skills/everhour-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/everhour-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "14d2808167e131af4f6565f492dd42ab7a3ca09883d676345de079a4ae9c2ddf",
   "indexed_at": "2026-02-27T02:54:48.428Z",
-  "synced_at": "2026-02-27T13:14:26.340Z",
+  "synced_at": "2026-02-28T04:13:40.542Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c9a999ae31eefd1e1e9f4813f9afae74a3aff9297ea9b2651065f69ac20eece9",
   "install_command": "mkdir -p .claude/skills/affiliate-marketing && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/affiliate-marketing/SKILL.md\" > .claude/skills/affiliate-marketing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/affiliate-marketing/SKILL.md"

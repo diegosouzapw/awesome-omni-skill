@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cd1208aeab3d46b86ff6545902600bf7c24693a8ef87db6a6004cde9f6c35ec7",
   "indexed_at": "2026-02-24T23:42:28.292Z",
-  "synced_at": "2026-02-27T02:44:02.448Z",
+  "synced_at": "2026-02-28T04:13:38.539Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/911a7fb545c4df3c9e1116d7642fa1af53634ca07ee0b7d81a8ca34d33a2ff8c",
   "install_command": "mkdir -p .claude/skills/loki-config-generator && curl -sL \"https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/loki-config-generator/SKILL.md\" > .claude/skills/loki-config-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/loki-config-generator/SKILL.md"

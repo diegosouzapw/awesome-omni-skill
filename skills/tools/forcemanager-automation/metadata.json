@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d0c0b33d1b9f45bac5850adb78bb663ecb0d740d3828fad64deaff8dfada2917",
   "indexed_at": "2026-02-24T22:55:18.323Z",
-  "synced_at": "2026-02-27T02:43:10.326Z",
+  "synced_at": "2026-02-28T04:12:45.955Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a966da6a076008930afb9d9053e692b83573848d706a89daecd501d0708ae794",
   "install_command": "mkdir -p .claude/skills/forcemanager-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/forcemanager-automation/SKILL.md\" > .claude/skills/forcemanager-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/forcemanager-automation/SKILL.md"

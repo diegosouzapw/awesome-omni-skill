@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fbbc1b607fa8fce5f04c617efb3c1771f5f8670e130b54ebe58130b8921c7a5b",
   "indexed_at": "2026-02-24T22:55:43.434Z",
-  "synced_at": "2026-02-27T02:43:11.863Z",
+  "synced_at": "2026-02-28T04:12:47.433Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/714a62d98029d79c1df8bbd2d0c30fc1128c6487cb9bbe04423b202316b82531",
   "install_command": "mkdir -p .claude/skills/geocodio-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/geocodio-automation/SKILL.md\" > .claude/skills/geocodio-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/geocodio-automation/SKILL.md"

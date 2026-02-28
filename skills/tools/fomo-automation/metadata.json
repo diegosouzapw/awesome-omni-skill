@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d5fe3217aaf5ea8fdcd17bd3662b3b5d130f1cfb51c6555412b758dc13aa273a",
   "indexed_at": "2026-02-24T22:55:16.624Z",
-  "synced_at": "2026-02-27T02:43:10.178Z",
+  "synced_at": "2026-02-28T04:12:45.803Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3a183172a8e45b27293cf56636c54a2db9e764183200325f429b266c4e37ef48",
   "install_command": "mkdir -p .claude/skills/fomo-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/fomo-automation/SKILL.md\" > .claude/skills/fomo-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/fomo-automation/SKILL.md"

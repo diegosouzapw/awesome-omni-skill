@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a4ea986b8af69770818263c56f6d5f69d6b6c128f717355e7a28550abda94f3c",
   "indexed_at": "2026-02-24T22:55:40.958Z",
-  "synced_at": "2026-02-27T02:43:11.702Z",
+  "synced_at": "2026-02-28T04:12:47.289Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e1dc8b414753653b9f67cb0fb3848489c6358aaf1a3eb0eb63f4e9e3c967cae1",
   "install_command": "mkdir -p .claude/skills/genderize-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/genderize-automation/SKILL.md\" > .claude/skills/genderize-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/genderize-automation/SKILL.md"

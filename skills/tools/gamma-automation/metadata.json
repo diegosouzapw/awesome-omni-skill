@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "af4861bad52d31811846875d9ed2e46f7c94651a2bc3062367153baab0843d86",
   "indexed_at": "2026-02-24T22:55:32.907Z",
-  "synced_at": "2026-02-27T02:43:11.247Z",
+  "synced_at": "2026-02-28T04:12:46.851Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/42438f565b790f35901b3a5da1d72d45f3a3ad3c6241e9c633f536be48d20797",
   "install_command": "mkdir -p .claude/skills/gamma-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/gamma-automation/SKILL.md\" > .claude/skills/gamma-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/gamma-automation/SKILL.md"

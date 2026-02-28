@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d71155dc3cc5d3f7fcd434e1bd075515f5763688ff7b9fe3fa27424c00797d21",
   "indexed_at": "2026-02-24T22:53:52.660Z",
-  "synced_at": "2026-02-27T02:43:03.705Z",
+  "synced_at": "2026-02-28T04:12:39.368Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/23bfa3f6672f96d567ab73ccce01ca283fd69dc6ede685dc3f8205967be30924",
   "install_command": "mkdir -p .claude/skills/dropbox-sign-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dropbox-sign-automation/SKILL.md\" > .claude/skills/dropbox-sign-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dropbox-sign-automation/SKILL.md"

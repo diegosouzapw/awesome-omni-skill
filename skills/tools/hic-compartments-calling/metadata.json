@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f3ed40ed2bab5d3df0f405c015052da852626158db8bdb607d9ad286c91c0611",
   "indexed_at": "2026-02-24T23:25:15.920Z",
-  "synced_at": "2026-02-27T02:43:47.317Z",
+  "synced_at": "2026-02-28T04:13:25.578Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/57f11c2816829feb3b1382e24036c06d6d422cbc4a7482658a6bdf9b152a8b26",
   "install_command": "mkdir -p .claude/skills/hic-compartments-calling && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/17-toolbased-hic-compartments-calling/SKILL.md\" > .claude/skills/hic-compartments-calling/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/17-toolbased-hic-compartments-calling/SKILL.md"

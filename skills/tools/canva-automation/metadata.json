@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6d74f9969cc0f06f1afc19dfca7e3ea51674107d50f86db6773bec6d8dd454a4",
   "indexed_at": "2026-02-25T15:25:32.475Z",
-  "synced_at": "2026-02-27T02:43:35.850Z",
+  "synced_at": "2026-02-28T04:13:09.285Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b22f32149024e28f5a5db217075bfe17f53b4a6f2bb283ae5261a9a1e3dd793c",
   "install_command": "mkdir -p .claude/skills/canva-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/canva-automation/SKILL.md\" > .claude/skills/canva-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/canva-automation/SKILL.md"

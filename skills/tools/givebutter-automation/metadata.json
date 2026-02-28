@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1979b2aa0d5cad62fd23ac875bcadda8d0bb31ff52e9b4db8db37ab2be30ec37",
   "indexed_at": "2026-02-24T22:55:56.457Z",
-  "synced_at": "2026-02-27T02:43:12.777Z",
+  "synced_at": "2026-02-28T04:12:48.316Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/793816e2ce0307d00b92b2569dee989d4d26e63de093fc269e58118c59c8223c",
   "install_command": "mkdir -p .claude/skills/givebutter-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/givebutter-automation/SKILL.md\" > .claude/skills/givebutter-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/givebutter-automation/SKILL.md"

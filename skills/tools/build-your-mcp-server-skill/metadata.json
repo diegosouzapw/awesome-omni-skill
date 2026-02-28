@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e116c7660caa07be5b58077a679fe3bedfb40a8e385e3493e102c884058a7210",
   "indexed_at": "2026-02-24T23:35:33.888Z",
-  "synced_at": "2026-02-27T02:43:56.508Z",
+  "synced_at": "2026-02-28T04:13:33.906Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5ba962bf138b9bb569abf5053b6bb831b7e2715d9ee34a470e762a12ffd0478f",
   "install_command": "mkdir -p .claude/skills/build-your-mcp-server-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/38-custom-mcp-servers/SKILL.md\" > .claude/skills/build-your-mcp-server-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/38-custom-mcp-servers/SKILL.md"

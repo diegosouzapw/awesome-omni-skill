@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "972952ffbbc1b980e0e91601ed8a043c3742b88632a5a3f484fd7d262b730bf7",
   "indexed_at": "2026-02-24T22:51:45.627Z",
-  "synced_at": "2026-02-27T02:42:54.467Z",
+  "synced_at": "2026-02-28T04:12:30.340Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b11e4183e38ec87ca0c7e7f1b1e24e87512fadba0e0b380bf3168558893e5711",
   "install_command": "mkdir -p .claude/skills/chatbotkit-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/chatbotkit-automation/SKILL.md\" > .claude/skills/chatbotkit-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/chatbotkit-automation/SKILL.md"

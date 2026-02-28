@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1cb1b346b8e5533bd2fd97e603294036c76ebb98246d461cb2ce99cfc20f7850",
   "indexed_at": "2026-02-25T16:27:10.779Z",
-  "synced_at": "2026-02-27T02:43:32.243Z",
+  "synced_at": "2026-02-28T04:13:05.838Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1109ecabc8219541b091dba3dafa04006e4c3d9925964600ff4c65c20ed12f00",
   "install_command": "mkdir -p .claude/skills/godot-4-migration && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/godot-4-migration/SKILL.md\" > .claude/skills/godot-4-migration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/godot-4-migration/SKILL.md"

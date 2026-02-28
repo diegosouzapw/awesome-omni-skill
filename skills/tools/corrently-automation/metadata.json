@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1872ca3ce219fa82cb66d435a78fc213722e7f4cf34d9e17822c42698d13d807",
   "indexed_at": "2026-02-24T22:52:36.955Z",
-  "synced_at": "2026-02-27T02:42:57.354Z",
+  "synced_at": "2026-02-28T04:12:33.164Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7f98f031d65eed5ac2aca62f098a7d37561ce75d80921eec0e8e319d386f6aac",
   "install_command": "mkdir -p .claude/skills/corrently-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/corrently-automation/SKILL.md\" > .claude/skills/corrently-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/corrently-automation/SKILL.md"

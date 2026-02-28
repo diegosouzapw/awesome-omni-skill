@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b7e730d937fd3c505885e24df4c6344c1fee94c3ab949ab2bd2844a6e4196ce0",
   "indexed_at": "2026-02-24T22:53:42.285Z",
-  "synced_at": "2026-02-27T02:43:02.628Z",
+  "synced_at": "2026-02-28T04:12:38.323Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3097206a06403c2dee01c4cc67f843fad6f37c432b11b618fed8cead04e3446b",
   "install_command": "mkdir -p .claude/skills/dotsimple-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dotsimple-automation/SKILL.md\" > .claude/skills/dotsimple-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dotsimple-automation/SKILL.md"

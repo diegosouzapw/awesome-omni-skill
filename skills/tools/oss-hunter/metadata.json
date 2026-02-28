@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a1aec26cc4f0104019beb80fc7813d2e73ab32097b890f46ef959e226fb49f65",
   "indexed_at": "2026-02-25T17:27:01.714Z",
-  "synced_at": "2026-02-27T02:43:27.832Z",
+  "synced_at": "2026-02-28T04:13:01.702Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ec4993a3071c7464a45e5ccda0144486b005076a9831bb32c648a4d560dcd8f8",
   "install_command": "mkdir -p .claude/skills/oss-hunter && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/oss-hunter/SKILL.md\" > .claude/skills/oss-hunter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/oss-hunter/SKILL.md"

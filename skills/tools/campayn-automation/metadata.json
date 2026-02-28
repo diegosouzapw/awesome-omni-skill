@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0abede4c07f389ee4fb399224cf27c9463be44700dff55fa1c8b5e757dc6709d",
   "indexed_at": "2026-02-24T22:51:26.963Z",
-  "synced_at": "2026-02-27T02:42:52.937Z",
+  "synced_at": "2026-02-28T04:12:28.873Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed28cbe8c806d686c37b14118668118e937f6a69bedc3c900d9ab04024a45ba6",
   "install_command": "mkdir -p .claude/skills/campayn-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/campayn-automation/SKILL.md\" > .claude/skills/campayn-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/campayn-automation/SKILL.md"

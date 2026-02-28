@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7efab71173de42858f0e77ab9c7e7da4aa5b5b4329aef412000ea7d019074bad",
   "indexed_at": "2026-02-25T15:24:45.017Z",
-  "synced_at": "2026-02-27T02:43:35.219Z",
+  "synced_at": "2026-02-28T04:13:08.686Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fda24b9436cf92f38fb185c1bce0027740ba538f6fda7a07c5aa811db49f3b14",
   "install_command": "mkdir -p .claude/skills/bitbucket-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/bitbucket-automation/SKILL.md\" > .claude/skills/bitbucket-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/bitbucket-automation/SKILL.md"

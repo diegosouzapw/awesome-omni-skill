@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "434398c3cdb88b56dc6c55c48a94561de92f865ac671bc117ba8c3883b3f7b4e",
   "indexed_at": "2026-02-24T22:52:34.364Z",
-  "synced_at": "2026-02-27T02:42:57.195Z",
+  "synced_at": "2026-02-28T04:12:33.010Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/695fdf161a5c0778260d402c4bdbeba8d2b9eaf2a53741ca31d7251efc4fbae4",
   "install_command": "mkdir -p .claude/skills/conveyor-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/conveyor-automation/SKILL.md\" > .claude/skills/conveyor-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/conveyor-automation/SKILL.md"

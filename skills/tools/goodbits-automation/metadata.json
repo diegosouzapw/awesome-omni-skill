@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4489bd4cf1921e0234c0f6540732957c09a8e72f8cc139219d0a08964157e479",
   "indexed_at": "2026-02-24T22:56:06.143Z",
-  "synced_at": "2026-02-27T02:43:13.553Z",
+  "synced_at": "2026-02-28T04:12:49.149Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b2c3819d37a40eb6f844591528e05cc532d51a126f9e8df9165cbab412b13c4c",
   "install_command": "mkdir -p .claude/skills/goodbits-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/goodbits-automation/SKILL.md\" > .claude/skills/goodbits-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/goodbits-automation/SKILL.md"

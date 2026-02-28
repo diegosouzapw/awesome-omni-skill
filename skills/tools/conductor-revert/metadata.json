@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f35828d6f259dcba59b5e360e6e4c945a7bed9b77c92f03f9046f101caf0582d",
   "indexed_at": "2026-02-25T15:27:14.401Z",
-  "synced_at": "2026-02-27T02:43:36.643Z",
+  "synced_at": "2026-02-28T04:13:10.033Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/44614eed10d2705ffa7cea2b60631aedf01c20b09e8cffc6d94182f7561ba412",
   "install_command": "mkdir -p .claude/skills/conductor-revert && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/conductor-revert/SKILL.md\" > .claude/skills/conductor-revert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/conductor-revert/SKILL.md"

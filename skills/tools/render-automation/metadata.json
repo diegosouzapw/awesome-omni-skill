@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7d89ea2d315855dd8964e1c0b93e47487fbdc21986a99b0e14c0adf177980967",
   "indexed_at": "2026-02-25T18:25:01.776Z",
-  "synced_at": "2026-02-27T02:43:21.176Z",
+  "synced_at": "2026-02-28T04:12:55.411Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4848b9a0826a25d4eda487331c1556b7bb6103f42fcc008406344bd9521b70a4",
   "install_command": "mkdir -p .claude/skills/render-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/render-automation/SKILL.md\" > .claude/skills/render-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/render-automation/SKILL.md"

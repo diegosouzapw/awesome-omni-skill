@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b62b150613f87d03a3d2b6c244acadba7a8b4976ed6d1fb29b63484326be801e",
   "indexed_at": "2026-02-24T22:54:43.267Z",
-  "synced_at": "2026-02-27T02:43:07.305Z",
+  "synced_at": "2026-02-28T04:12:42.942Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fb04639bf50fb9f0ec869b682084bc32fc51e6de9403af1c9982e593b22b3d1c",
   "install_command": "mkdir -p .claude/skills/factorial-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/factorial-automation/SKILL.md\" > .claude/skills/factorial-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/factorial-automation/SKILL.md"

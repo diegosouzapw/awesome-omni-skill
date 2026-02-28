@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4d2989ba04623181005acfdd4871c7a32a37194bbc27d78b1669ad9b1c570fd6",
   "indexed_at": "2026-02-25T17:25:10.622Z",
-  "synced_at": "2026-02-27T02:43:26.231Z",
+  "synced_at": "2026-02-28T04:13:00.168Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d27170c49849c2792b069f87ec123166255868d1bd1419a2f08d754d0b60e1cd",
   "install_command": "mkdir -p .claude/skills/memory-forensics && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/memory-forensics/SKILL.md\" > .claude/skills/memory-forensics/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/memory-forensics/SKILL.md"

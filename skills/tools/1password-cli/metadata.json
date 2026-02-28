@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f6f724ae1f79b31ea90ab9f64a8d17de3fa36e24e393a53abf762299e19ea418",
   "indexed_at": "2026-02-24T23:25:57.788Z",
-  "synced_at": "2026-02-27T02:43:47.925Z",
+  "synced_at": "2026-02-28T04:13:26.172Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/94f9563e33dfe04ff11b76aa1cd58fefbec4e6f1df44494195c803916de6fe03",
   "install_command": "mkdir -p .claude/skills/1password-cli && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1password-cli/SKILL.md\" > .claude/skills/1password-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1password-cli/SKILL.md"

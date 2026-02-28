@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "824dde5555036a80f75a75a53804e5127c8112185f2e99f83fba593bc529ac97",
   "indexed_at": "2026-02-24T23:41:59.597Z",
-  "synced_at": "2026-02-27T02:44:00.233Z",
+  "synced_at": "2026-02-28T04:13:36.413Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f218f7542043f2ad98ca33afae6ec3d0c1d4cd0a86c059fdc51321ef693175a3",
   "install_command": "mkdir -p .claude/skills/ansible-generator && curl -sL \"https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/ansible-generator/SKILL.md\" > .claude/skills/ansible-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/ansible-generator/SKILL.md"

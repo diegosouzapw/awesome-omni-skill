@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b289b845b0d13b1cc7469e946f28ae4e664151f90b9e3924d38d911000b15008",
   "indexed_at": "2026-02-24T22:51:12.224Z",
-  "synced_at": "2026-02-27T02:42:52.032Z",
+  "synced_at": "2026-02-28T04:12:27.967Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4662e7c5fbef9e2b534e824e7cd06d10d129a98ebe73ee588ec698a441180250",
   "install_command": "mkdir -p .claude/skills/buildkite-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/buildkite-automation/SKILL.md\" > .claude/skills/buildkite-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/buildkite-automation/SKILL.md"

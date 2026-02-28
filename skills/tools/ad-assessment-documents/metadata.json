@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "72e5e289664c7f340ca6789964fe248280e81121e1e54dfe72a8831f8cd01cbb",
   "indexed_at": "2026-02-27T00:56:53.967Z",
-  "synced_at": "2026-02-27T02:43:43.942Z",
+  "synced_at": "2026-02-28T04:13:17.695Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bc9c99bd1ef06c0348786ce7274e5095a992c4855652ca334e2636e5bbc964c5",
   "install_command": "mkdir -p .claude/skills/ad-assessment-documents && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ad-assessment-documents/SKILL.md\" > .claude/skills/ad-assessment-documents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ad-assessment-documents/SKILL.md"

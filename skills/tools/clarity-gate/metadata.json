@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "60bab3edda00bb186695cc93e819abfab90cc3eb8028f1851b6c0734b5e9859f",
   "indexed_at": "2026-02-25T13:27:23.336Z",
-  "synced_at": "2026-02-27T02:43:38.359Z",
+  "synced_at": "2026-02-28T04:13:11.831Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5ffee10a583ae4b9be14be7170a25eaa8e910842ed126871e5fa790721a96369",
   "install_command": "mkdir -p .claude/skills/clarity-gate && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/clarity-gate/SKILL.md\" > .claude/skills/clarity-gate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/clarity-gate/SKILL.md"

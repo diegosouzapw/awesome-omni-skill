@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e58d4e462b20acbd84c53716609dfb5dcfef5812f17b6f297965ccf4bd626776",
   "indexed_at": "2026-02-25T16:18:54.715Z",
-  "synced_at": "2026-02-27T02:43:29.240Z",
+  "synced_at": "2026-02-28T04:13:03.030Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0ea545f39165823669a49e7a40a264446da4abda3276c85bad0522139b14772f",
   "install_command": "mkdir -p .claude/skills/linkedin-cli && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/linkedin-cli/SKILL.md\" > .claude/skills/linkedin-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/linkedin-cli/SKILL.md"

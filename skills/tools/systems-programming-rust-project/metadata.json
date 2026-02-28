@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "46610c740bd995ad2a12d820f38b8b9b781fce38e5237b0542bed2aa1c20ee5a",
   "indexed_at": "2026-02-25T19:23:52.206Z",
-  "synced_at": "2026-02-27T02:43:15.922Z",
+  "synced_at": "2026-02-28T04:12:50.634Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/31f41238b2cd3cf35bba5e96d267e90b59537c2c19c64daa16dd1cb75eede404",
   "install_command": "mkdir -p .claude/skills/systems-programming-rust-project && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/systems-programming-rust-project/SKILL.md\" > .claude/skills/systems-programming-rust-project/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/systems-programming-rust-project/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0202ae63b062c5cba4a9f5b0d93b7da1b8cfcfb22f0356f6352bebd33a13f8d3",
   "indexed_at": "2026-02-24T22:53:11.373Z",
-  "synced_at": "2026-02-27T02:43:00.188Z",
+  "synced_at": "2026-02-28T04:12:35.957Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c12b47fd80a769dac5320a823a25b7927c76ce5eecfec8bd914e22e6f57f8f0c",
   "install_command": "mkdir -p .claude/skills/dialpad-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dialpad-automation/SKILL.md\" > .claude/skills/dialpad-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dialpad-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "432c34eac938a5c70a8c3f2a3efdb8479761cebffe93151d67a4b86b1ef1a670",
   "indexed_at": "2026-02-24T22:51:53.623Z",
-  "synced_at": "2026-02-27T02:42:54.923Z",
+  "synced_at": "2026-02-28T04:12:30.786Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/52cfc5ff999b894345210b5fbc11d773c9c92048377a052fd340aa0d29d02c44",
   "install_command": "mkdir -p .claude/skills/classmarker-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/classmarker-automation/SKILL.md\" > .claude/skills/classmarker-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/classmarker-automation/SKILL.md"

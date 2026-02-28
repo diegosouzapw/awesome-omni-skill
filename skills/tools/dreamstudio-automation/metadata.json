@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "46aeb43b4059b619514254d401e5046d73e305e341aac46edb2ddd0f522a7bdc",
   "indexed_at": "2026-02-24T22:53:47.482Z",
-  "synced_at": "2026-02-27T02:43:03.114Z",
+  "synced_at": "2026-02-28T04:12:38.777Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7203274e03dcb088ee3d4ea21e7d69f9058cbcbc18d039933f25906f1568485c",
   "install_command": "mkdir -p .claude/skills/dreamstudio-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dreamstudio-automation/SKILL.md\" > .claude/skills/dreamstudio-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dreamstudio-automation/SKILL.md"

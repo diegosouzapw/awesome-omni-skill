@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e31736b1cc9face6e9f9a0ce4296c0f49011a8d7d91947b250a631c3d6830665",
   "indexed_at": "2026-02-24T22:55:53.883Z",
-  "synced_at": "2026-02-27T02:43:12.475Z",
+  "synced_at": "2026-02-28T04:12:48.015Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f628b8450258e09acc6b1c9f78d30023c571e07bb9fe0f4f5d8e038bcbf6bbb1",
   "install_command": "mkdir -p .claude/skills/giphy-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/giphy-automation/SKILL.md\" > .claude/skills/giphy-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/giphy-automation/SKILL.md"

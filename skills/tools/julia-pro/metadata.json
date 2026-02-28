@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1598a246d721b1946f7ed780d9bed0b44c55ca65499e636729343eb62b6695b5",
   "indexed_at": "2026-02-25T17:23:47.463Z",
-  "synced_at": "2026-02-27T02:43:28.611Z",
+  "synced_at": "2026-02-28T04:13:02.438Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bed654459ef332eb03040ef6c818a8ad1caaafc5bf804417ca1bbeba6d16b871",
   "install_command": "mkdir -p .claude/skills/julia-pro && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/julia-pro/SKILL.md\" > .claude/skills/julia-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/julia-pro/SKILL.md"

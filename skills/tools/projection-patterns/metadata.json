@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "541b64e2ce6b106c99a706ff381d9431da70ad186f5ecdb3ae90418f51597753",
   "indexed_at": "2026-02-25T18:23:56.832Z",
-  "synced_at": "2026-02-27T02:43:23.370Z",
+  "synced_at": "2026-02-28T04:12:57.431Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e038cc3d5d7c1b7238a9192f98bb32f2b9793df225fe28abd4128fc502edeb81",
   "install_command": "mkdir -p .claude/skills/projection-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/projection-patterns/SKILL.md\" > .claude/skills/projection-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/projection-patterns/SKILL.md"

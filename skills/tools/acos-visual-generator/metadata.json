@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bc48b958ee86c3d074a56b6b14ce608cde6210fd229fdc806e0acaf46dbbe7bb",
   "indexed_at": "2026-02-27T00:54:29.063Z",
-  "synced_at": "2026-02-27T02:43:42.902Z",
+  "synced_at": "2026-02-28T04:13:16.718Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e3a27885ed5f1b4031161657948c817ecc4b99e124de0fdc67f461cf4ded6714",
   "install_command": "mkdir -p .claude/skills/acos-visual-generator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acos-visual-gen/SKILL.md\" > .claude/skills/acos-visual-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acos-visual-gen/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "96d2c83252c0dc32d76e33b03978c1d498a7273d7d1fa3a4fccf1450517ce7f0",
   "indexed_at": "2026-02-25T18:23:24.171Z",
-  "synced_at": "2026-02-27T02:43:20.058Z",
+  "synced_at": "2026-02-28T04:12:54.518Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/02ac6939930e76f15c814ed6bbcffcdb2af97a7b57a65e7eeada20f54a51435d",
   "install_command": "mkdir -p .claude/skills/planning-with-files && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/planning-with-files/SKILL.md\" > .claude/skills/planning-with-files/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/planning-with-files/SKILL.md"

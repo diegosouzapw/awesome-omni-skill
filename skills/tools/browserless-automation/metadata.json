@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1f7e577192da1195548c0d3a00c5a2878d9adf3392c3d8c32ff9d7101b5a0eac",
   "indexed_at": "2026-02-24T22:51:03.235Z",
-  "synced_at": "2026-02-27T02:42:51.006Z",
+  "synced_at": "2026-02-28T04:12:27.080Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/48c8da30703f6cf23b9cbb5f3b7273f057bc6a61dabac7d93af5ceb245707835",
   "install_command": "mkdir -p .claude/skills/browserless-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/browserless-automation/SKILL.md\" > .claude/skills/browserless-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/browserless-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7a64d2a50bbd2b330a434b1dafcc1f4045a0ad2fbc97062f745ae5573892dab6",
   "indexed_at": "2026-02-24T22:51:08.515Z",
-  "synced_at": "2026-02-27T02:42:51.571Z",
+  "synced_at": "2026-02-28T04:12:27.518Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/61e4cee1ff879709f1a72fdb302ad8b848746a6ebdd32d29af8cc3e6b97a8459",
   "install_command": "mkdir -p .claude/skills/bugbug-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bugbug-automation/SKILL.md\" > .claude/skills/bugbug-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bugbug-automation/SKILL.md"

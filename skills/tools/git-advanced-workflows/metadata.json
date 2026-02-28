@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33e472133827c9b1012f5cf3880229dceec1b3bcc5498ce07026ecfe29a15f87",
   "indexed_at": "2026-02-25T16:26:43.020Z",
-  "synced_at": "2026-02-27T02:43:31.005Z",
+  "synced_at": "2026-02-28T04:13:04.795Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cb4fe2d7e21c9a5586cde273296f3f7c0aa6e8a2bcb54cecbb13859a620acfd1",
   "install_command": "mkdir -p .claude/skills/git-advanced-workflows && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/git-advanced-workflows/SKILL.md\" > .claude/skills/git-advanced-workflows/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/git-advanced-workflows/SKILL.md"

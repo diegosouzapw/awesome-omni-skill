@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cf4927b3e61c918842a8ca19ac3f6af19e7b128f4f6ab9eeea9606bcad2b95f9",
   "indexed_at": "2026-02-24T22:55:12.428Z",
-  "synced_at": "2026-02-27T02:43:09.872Z",
+  "synced_at": "2026-02-28T04:12:45.498Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c42ae279545a640134728ec534ff79772b36d180c6d6e8131f1cfd7863b4d5e2",
   "install_command": "mkdir -p .claude/skills/flutterwave-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/flutterwave-automation/SKILL.md\" > .claude/skills/flutterwave-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/flutterwave-automation/SKILL.md"

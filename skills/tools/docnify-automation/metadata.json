@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fc8cc1eb37dc8b03e02c293fba7fce61582889d617fff79cbd7a667d0ae25c69",
   "indexed_at": "2026-02-24T22:53:27.491Z",
-  "synced_at": "2026-02-27T02:43:01.412Z",
+  "synced_at": "2026-02-28T04:12:37.138Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e813f7804d2772384e11d04ede5c98470c3c408074231ad19a90e8956733d708",
   "install_command": "mkdir -p .claude/skills/docnify-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/docnify-automation/SKILL.md\" > .claude/skills/docnify-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/docnify-automation/SKILL.md"

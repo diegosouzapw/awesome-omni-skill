@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "daa66c2463120f7e8e6b4dcfdddc5ff7dbb15286e0dd2237aa57371b54d59fc9",
   "indexed_at": "2026-02-25T15:18:04.025Z",
-  "synced_at": "2026-02-27T02:43:34.589Z",
+  "synced_at": "2026-02-28T04:13:08.099Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2fd0bbfb9f60d79b4a50cc8c4245a06fa57583882b0f4c7d91c50bf85d736668",
   "install_command": "mkdir -p .claude/skills/grpc-golang && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/grpc-golang/SKILL.md\" > .claude/skills/grpc-golang/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/grpc-golang/SKILL.md"

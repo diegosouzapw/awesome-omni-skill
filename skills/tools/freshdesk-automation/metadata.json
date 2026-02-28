@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "edd37ea79bd833ffaf4b8427f73142bb94de70c3145a38fe68bc3f653fe9bd51",
   "indexed_at": "2026-02-25T16:26:13.495Z",
-  "synced_at": "2026-02-27T02:43:30.694Z",
+  "synced_at": "2026-02-28T04:13:04.499Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/33a6c19625860f9017ccb7226b0086e283fa0d422febaffd9fd3c5fa7e5ab9dd",
   "install_command": "mkdir -p .claude/skills/freshdesk-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/freshdesk-automation/SKILL.md\" > .claude/skills/freshdesk-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/freshdesk-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "00ecd6cdfbdd91c1e13b5e754907737db67e560746dbc79a5e0a31e4d8b667cf",
   "indexed_at": "2026-02-25T19:25:32.600Z",
-  "synced_at": "2026-02-27T02:43:18.008Z",
+  "synced_at": "2026-02-28T04:12:52.580Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1c08d07cc9cb24b4bfda75b22a700ea50ac38088030d02f1a767eaddcaff504d",
   "install_command": "mkdir -p .claude/skills/unity-developer && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/unity-developer/SKILL.md\" > .claude/skills/unity-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/unity-developer/SKILL.md"

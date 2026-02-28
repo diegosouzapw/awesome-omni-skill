@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e12ff13642ef5f727268bd5aeae3d70b3913b074f1c286a04ce5918781512b2e",
   "indexed_at": "2026-02-25T17:26:37.801Z",
-  "synced_at": "2026-02-27T02:43:27.376Z",
+  "synced_at": "2026-02-28T04:13:01.223Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bd4d0f58390b45e94eff64c4f11dc6814b7af702faf13ea45781c647789bf74f",
   "install_command": "mkdir -p .claude/skills/notion-template-business && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/notion-template-business/SKILL.md\" > .claude/skills/notion-template-business/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/notion-template-business/SKILL.md"

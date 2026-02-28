@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "df9640f2a342c1a0da2200b6b35c828583e787d170cd8586c5f59001ca49e231",
   "indexed_at": "2026-02-25T17:26:47.982Z",
-  "synced_at": "2026-02-27T02:43:27.530Z",
+  "synced_at": "2026-02-28T04:13:01.386Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2e3208afd37352b61d7f84f585b9f6985809ec066d8fb7f8db06ebf599235425",
   "install_command": "mkdir -p .claude/skills/obsidian-clipper-template-creator && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/obsidian-clipper-template-creator/SKILL.md\" > .claude/skills/obsidian-clipper-template-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/obsidian-clipper-template-creator/SKILL.md"

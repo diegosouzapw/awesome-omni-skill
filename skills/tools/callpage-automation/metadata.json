@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "02bf78852b178a8bd7e6c93bf0bd36953a10c99325a959ae627eb01f1396351d",
   "indexed_at": "2026-02-24T22:51:23.947Z",
-  "synced_at": "2026-02-27T02:42:52.789Z",
+  "synced_at": "2026-02-28T04:12:28.723Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1d9c0f7b6ca464d6917001feed15cb9462e930f9a9ed727c246b6216c5ec1d5c",
   "install_command": "mkdir -p .claude/skills/callpage-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/callpage-automation/SKILL.md\" > .claude/skills/callpage-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/callpage-automation/SKILL.md"

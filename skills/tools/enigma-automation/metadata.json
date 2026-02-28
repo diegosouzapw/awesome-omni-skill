@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1bd1d405afdda19bd1133d4367d1f492b5e41a6e0b6c2f2129667df8fea541a1",
   "indexed_at": "2026-02-24T22:54:12.567Z",
-  "synced_at": "2026-02-27T02:43:04.928Z",
+  "synced_at": "2026-02-28T04:12:40.565Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cbd9ce86f040a55f402fdf887e85ab217a59cbe978ef932d69d46c077cab6bca",
   "install_command": "mkdir -p .claude/skills/enigma-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/enigma-automation/SKILL.md\" > .claude/skills/enigma-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/enigma-automation/SKILL.md"

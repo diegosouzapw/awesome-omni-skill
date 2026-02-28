@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2fdde5b67651f8085a5a464c113dd4b5450f637d4afd101f64210e6904bb7c2c",
   "indexed_at": "2026-02-25T14:23:03.712Z",
-  "synced_at": "2026-02-27T02:43:38.048Z",
+  "synced_at": "2026-02-28T04:13:11.522Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/33b4e02dd2904037129fd563a995a19ca9ac6cc0e482ede04d0b40ea9bc915b1",
   "install_command": "mkdir -p .claude/skills/create-pr && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/create-pr/SKILL.md\" > .claude/skills/create-pr/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/create-pr/SKILL.md"

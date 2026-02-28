@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "be3bd9152806aedb779acb7ae5b11f31b3b77cf46a296065f44903d9be007baf",
   "indexed_at": "2026-02-25T19:23:36.850Z",
-  "synced_at": "2026-02-27T02:43:18.807Z",
+  "synced_at": "2026-02-28T04:12:53.303Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c9e14a8800371e927c1d8d0bb049fd71952d5072e661332b81b7310646461e5e",
   "install_command": "mkdir -p .claude/skills/stride-analysis-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/stride-analysis-patterns/SKILL.md\" > .claude/skills/stride-analysis-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/stride-analysis-patterns/SKILL.md"
