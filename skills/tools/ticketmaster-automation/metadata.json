@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9298364aa791e8765d7475f0c3129a11f05000494fa02423a73ae39d0c979ef8",
   "indexed_at": "2026-02-26T00:26:22.608Z",
-  "synced_at": "2026-02-27T02:41:46.246Z",
+  "synced_at": "2026-02-28T04:11:24.146Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6f38ae767659497bf58659cf31e9e716c0303ae91eeb5b3152d9d6a148ea6ea5",
   "install_command": "mkdir -p .claude/skills/ticketmaster-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ticketmaster-automation/SKILL.md\" > .claude/skills/ticketmaster-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ticketmaster-automation/SKILL.md"

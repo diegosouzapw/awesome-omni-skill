@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c07d6df28fbdaf86b681e77ff306572b9510e56f3abee1224fa4f8e9965d5288",
   "indexed_at": "2026-02-24T22:49:28.467Z",
-  "synced_at": "2026-02-27T02:42:43.179Z",
+  "synced_at": "2026-02-28T04:12:16.749Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5f9c56f52093d338a831b0317d2c2d7bda6a26fd45933a593d2e0bdcdf842c3f",
   "install_command": "mkdir -p .claude/skills/aryn-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/aryn-automation/SKILL.md\" > .claude/skills/aryn-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/aryn-automation/SKILL.md"

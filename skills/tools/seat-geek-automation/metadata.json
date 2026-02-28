@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "37f54816790c9c2ff97d0f3e39842e7a52a461791a347f93c11ab509b385ff24",
   "indexed_at": "2026-02-25T22:27:11.796Z",
-  "synced_at": "2026-02-27T02:42:06.337Z",
+  "synced_at": "2026-02-28T04:11:42.250Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/23ec2c51f5092c42646766f6b5c2de391131332b9152bed57b596a5484ed0ffb",
   "install_command": "mkdir -p .claude/skills/seat-geek-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/seat-geek-automation/SKILL.md\" > .claude/skills/seat-geek-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/seat-geek-automation/SKILL.md"

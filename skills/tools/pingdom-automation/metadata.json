@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cde59cfce116a21cb365e0c66833b1002387c1b9e17f08aa28b6f88f57de5511",
   "indexed_at": "2026-02-25T21:26:56.925Z",
-  "synced_at": "2026-02-27T02:42:13.730Z",
+  "synced_at": "2026-02-28T04:11:49.051Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/73e1ba3747fbbbfc5ab1fd46a791e9379a517aec0f6fe9e11aac179c006b3888",
   "install_command": "mkdir -p .claude/skills/pingdom-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/pingdom-automation/SKILL.md\" > .claude/skills/pingdom-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/pingdom-automation/SKILL.md"

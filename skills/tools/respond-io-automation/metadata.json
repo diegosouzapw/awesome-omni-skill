@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6f780c2fef727fe5f665535268dc822b38ab451d5251578a606601d3ff903659",
   "indexed_at": "2026-02-25T22:26:25.282Z",
-  "synced_at": "2026-02-27T02:42:03.159Z",
+  "synced_at": "2026-02-28T04:11:39.433Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cdbd38e9db299e08436a71bf887ec0286f2f868dd833762b206347fcd77bc7ed",
   "install_command": "mkdir -p .claude/skills/respond-io-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/respond-io-automation/SKILL.md\" > .claude/skills/respond-io-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/respond-io-automation/SKILL.md"

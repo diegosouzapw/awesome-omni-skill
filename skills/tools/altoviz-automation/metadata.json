@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7ee46db93d80f07da7875a01237058ceebab18f324a83bfc966adcdf73966e6b",
   "indexed_at": "2026-02-24T22:48:49.354Z",
-  "synced_at": "2026-02-27T02:42:41.331Z",
+  "synced_at": "2026-02-28T04:12:14.971Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/029c6b9cb0d2f8ac08c1f242f5c7b0c063c23a37cb9c0ffee8595af540c0562b",
   "install_command": "mkdir -p .claude/skills/altoviz-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/altoviz-automation/SKILL.md\" > .claude/skills/altoviz-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/altoviz-automation/SKILL.md"

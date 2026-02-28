@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d1e616bac70687f1ae3e29c489defe57a7ddac8fa170737d8e8acd1356c4f529",
   "indexed_at": "2026-02-26T12:18:55.318Z",
-  "synced_at": "2026-02-27T02:41:36.269Z",
+  "synced_at": "2026-02-28T04:11:14.361Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f53cbf68ef520d7bd0e895ee7e68d55ccc7e14b0e5856c5d4f1475665b23a188",
   "install_command": "mkdir -p .claude/skills/find-skills && curl -sL \"https://raw.githubusercontent.com/Stevenwang112/rag_agent/main/.agent/skills/find-skills/SKILL.md\" > .claude/skills/find-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Stevenwang112/rag_agent/main/.agent/skills/find-skills/SKILL.md"

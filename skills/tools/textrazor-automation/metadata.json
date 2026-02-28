@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b05f26d54c91d19253fbf8d4452b6a8fdf467a55d87e9a86abca9e38dfd8443a",
   "indexed_at": "2026-02-26T00:26:17.585Z",
-  "synced_at": "2026-02-27T02:41:45.811Z",
+  "synced_at": "2026-02-28T04:11:23.849Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f6f176b2aaaea69afac10ec68084835d7ba07ed7fc3c29989e6c99ff3979b178",
   "install_command": "mkdir -p .claude/skills/textrazor-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/textrazor-automation/SKILL.md\" > .claude/skills/textrazor-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/textrazor-automation/SKILL.md"

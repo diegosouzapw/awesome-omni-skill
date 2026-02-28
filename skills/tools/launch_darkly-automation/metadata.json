@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2812d93447d011a15cabb367a105f0a70216b8a7cc3ac33d20457e16186d271f",
   "indexed_at": "2026-02-24T23:04:56.937Z",
-  "synced_at": "2026-02-27T02:42:34.031Z",
+  "synced_at": "2026-02-28T04:12:08.108Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e33dcb92c21f50eae1fb2e2ea966bf78cca2d8469b7eb3c8efbc47df7de5af08",
   "install_command": "mkdir -p .claude/skills/launch_darkly-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/launch_darkly-automation/SKILL.md\" > .claude/skills/launch_darkly-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/launch_darkly-automation/SKILL.md"

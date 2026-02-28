@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c43c4884f48b702a2e4fd82d19f3533ff29d495aa7280955e072f970aadd49f",
   "indexed_at": "2026-02-25T21:27:20.993Z",
-  "synced_at": "2026-02-27T02:42:15.651Z",
+  "synced_at": "2026-02-28T04:11:50.825Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/329515da8859afc6228b0b62bc11b19b8d3cce03f8ba0c6e262e759201c2e333",
   "install_command": "mkdir -p .claude/skills/printautopilot-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/printautopilot-automation/SKILL.md\" > .claude/skills/printautopilot-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/printautopilot-automation/SKILL.md"

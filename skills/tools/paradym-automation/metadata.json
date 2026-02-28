@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6dcafce27ef1ee1d82554226bc3cf68c12eeb26beb554b2831e7d1de5e56999e",
   "indexed_at": "2026-02-25T21:26:19.986Z",
-  "synced_at": "2026-02-27T02:42:10.570Z",
+  "synced_at": "2026-02-28T04:11:46.228Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a3df7941c94b2b1d813981e52f08b46b3a148009debb5e69d9739056a82aa53d",
   "install_command": "mkdir -p .claude/skills/paradym-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/paradym-automation/SKILL.md\" > .claude/skills/paradym-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/paradym-automation/SKILL.md"

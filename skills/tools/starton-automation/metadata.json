@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8344172cc0ec05edba244caaa32a3f5dae8770658427a2045a0b70ca1a50112c",
   "indexed_at": "2026-02-25T23:27:03.276Z",
-  "synced_at": "2026-02-27T02:41:57.664Z",
+  "synced_at": "2026-02-28T04:11:34.283Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2df473ba19053381e20cd7f55c684d172f5dc65ebb81c712e41830fd1f3b90a2",
   "install_command": "mkdir -p .claude/skills/starton-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/starton-automation/SKILL.md\" > .claude/skills/starton-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/starton-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6541cacc3a8d14f8750f6cf540ad46704e05ed3a78ca0ffd6de9268541c84773",
   "indexed_at": "2026-02-24T23:03:35.480Z",
-  "synced_at": "2026-02-27T02:42:26.860Z",
+  "synced_at": "2026-02-28T04:12:01.412Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/47a96d7338127517ee19776dd8629cad2c2a9d750362d7668f97ca675fad0df4",
   "install_command": "mkdir -p .claude/skills/heyreach-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/heyreach-automation/SKILL.md\" > .claude/skills/heyreach-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/heyreach-automation/SKILL.md"

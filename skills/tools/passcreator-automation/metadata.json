@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ec6efd2c903d0560e1ba87a53800f497e734720a20f895110be589fca8d72dac",
   "indexed_at": "2026-02-25T21:26:29.039Z",
-  "synced_at": "2026-02-27T02:42:11.631Z",
+  "synced_at": "2026-02-28T04:11:47.107Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/558f30355cead056602afe3a3d1456d6a6a91115b9686cc65c07490fe92f68c9",
   "install_command": "mkdir -p .claude/skills/passcreator-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/passcreator-automation/SKILL.md\" > .claude/skills/passcreator-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/passcreator-automation/SKILL.md"

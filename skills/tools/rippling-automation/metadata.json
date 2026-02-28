@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8331fc6bad5fc37fcc264b033c1b8bbf7795a3e4f6a4b5e33dc8d432864da603",
   "indexed_at": "2026-02-25T22:26:38.558Z",
-  "synced_at": "2026-02-27T02:42:04.070Z",
+  "synced_at": "2026-02-28T04:11:40.169Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7782328293826ae4666d62d3bd560d8215c1a2d773c61d571b688e3dd33fb03d",
   "install_command": "mkdir -p .claude/skills/rippling-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/rippling-automation/SKILL.md\" > .claude/skills/rippling-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/rippling-automation/SKILL.md"

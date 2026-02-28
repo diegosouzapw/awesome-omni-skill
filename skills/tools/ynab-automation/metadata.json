@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e47c167ce316f415f41f3a759b5dfbfadb4e76b40c90e3fc30c23445e4f1b559",
   "indexed_at": "2026-02-26T01:26:45.166Z",
-  "synced_at": "2026-02-27T02:41:41.918Z",
+  "synced_at": "2026-02-28T04:11:20.131Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/31a6b0eab8c9abc4036db5894811942f42ebd5298cfe66a1a8d856afd067c2f7",
   "install_command": "mkdir -p .claude/skills/ynab-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ynab-automation/SKILL.md\" > .claude/skills/ynab-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ynab-automation/SKILL.md"

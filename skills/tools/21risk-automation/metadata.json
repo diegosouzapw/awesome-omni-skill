@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "242a457d0de961159dcd8ac673b01c754564d8cb12483fbbc691eed3472d5790",
   "indexed_at": "2026-02-24T22:48:04.129Z",
-  "synced_at": "2026-02-27T02:42:38.116Z",
+  "synced_at": "2026-02-28T04:12:11.833Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6e7e7fe08b9416a96be89e52bf8ecad497f6fc0eae02fb47a06837cabf33773f",
   "install_command": "mkdir -p .claude/skills/21risk-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/-21risk-automation/SKILL.md\" > .claude/skills/21risk-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/-21risk-automation/SKILL.md"

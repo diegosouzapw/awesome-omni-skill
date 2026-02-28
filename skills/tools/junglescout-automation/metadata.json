@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "96a423294a7843ce00eeb8c5f43c71c24d5023bfd8994e34fb85c0b1e4d1efb4",
   "indexed_at": "2026-02-24T23:04:32.603Z",
-  "synced_at": "2026-02-27T02:42:31.432Z",
+  "synced_at": "2026-02-28T04:12:05.608Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/51dd3b9fa3247f300f34b8a5ae55a0476d5a519951b38f94724888c4bba80dfe",
   "install_command": "mkdir -p .claude/skills/junglescout-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/junglescout-automation/SKILL.md\" > .claude/skills/junglescout-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/junglescout-automation/SKILL.md"

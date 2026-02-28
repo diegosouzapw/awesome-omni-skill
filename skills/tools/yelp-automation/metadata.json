@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "82bcfa3a041f4959d1b16a66ebce0bbb3c886a24e3f07cfe5cb84f58fba70d3e",
   "indexed_at": "2026-02-26T01:26:43.361Z",
-  "synced_at": "2026-02-27T02:41:41.760Z",
+  "synced_at": "2026-02-28T04:11:19.986Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/67c3998f0dd6dbbdcd2f3b3e3ceca87a1d376a929b6b2259d9a08bf19b9652da",
   "install_command": "mkdir -p .claude/skills/yelp-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/yelp-automation/SKILL.md\" > .claude/skills/yelp-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/yelp-automation/SKILL.md"

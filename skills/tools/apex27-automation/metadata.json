@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "31025884af79a7660aec9bce802645d526c084384ed9589716fd60cbae5ff2b0",
   "indexed_at": "2026-02-24T22:49:05.087Z",
-  "synced_at": "2026-02-27T02:42:42.825Z",
+  "synced_at": "2026-02-28T04:12:16.605Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3ef472018c9777146ba33612d9404037f4425d56149d469d5f2e770073887c25",
   "install_command": "mkdir -p .claude/skills/apex27-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/apex27-automation/SKILL.md\" > .claude/skills/apex27-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/apex27-automation/SKILL.md"

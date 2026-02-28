@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e6e8a744ea400929e69ffb9e6b03859736e25e95e36df8778b21db9d73b2d2af",
   "indexed_at": "2026-02-26T00:26:04.989Z",
-  "synced_at": "2026-02-27T02:41:44.662Z",
+  "synced_at": "2026-02-28T04:11:22.826Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8b7f3888f2c72cf071878226da22bf4b6a23d59ea7e6407cafe15db133c32bb3",
   "install_command": "mkdir -p .claude/skills/teamcamp-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/teamcamp-automation/SKILL.md\" > .claude/skills/teamcamp-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/teamcamp-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1ac3267f610ba00b20e1ce3c1869296b3e8cd8a4df9c6445da0785455c18ca37",
   "indexed_at": "2026-02-25T20:26:30.592Z",
-  "synced_at": "2026-02-27T02:42:18.374Z",
+  "synced_at": "2026-02-28T04:11:53.454Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/45e3a75e15251f5fd6be34175ec61781362de117e7f1dcfd9a57bfdf13234ae4",
   "install_command": "mkdir -p .claude/skills/metaphor-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/metaphor-automation/SKILL.md\" > .claude/skills/metaphor-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/metaphor-automation/SKILL.md"

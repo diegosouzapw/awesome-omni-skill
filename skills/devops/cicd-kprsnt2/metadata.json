@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4cf6671c739fef90bfd0d592cd9ec94eab1b926e419cceee9036b0e61748515a",
   "indexed_at": "2026-02-26T22:40:28.639Z",
-  "synced_at": "2026-02-27T02:41:36.798Z",
+  "synced_at": "2026-02-28T04:11:14.883Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/17ceab3dbfc56539be6ce0b0025472c284db09dbb82969e8fd57b3b4f32d0cbe",
   "install_command": "mkdir -p .claude/skills/cicd && curl -sL \"https://raw.githubusercontent.com/kprsnt2/MyLocalCLI/main/src/skills/builtin/cicd/SKILL.md\" > .claude/skills/cicd/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kprsnt2/MyLocalCLI/main/src/skills/builtin/cicd/SKILL.md"

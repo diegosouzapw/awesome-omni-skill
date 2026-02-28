@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "02c7245ff7ac3e3933dc46b56595656ab4bb6813f3f4c9eb4e6971ecb9a062b9",
   "indexed_at": "2026-02-25T20:26:24.230Z",
-  "synced_at": "2026-02-27T02:42:17.728Z",
+  "synced_at": "2026-02-28T04:11:52.846Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3d57eae2729ae0aa8c574a78d47da9810e783c4dd0c79b2a508b4898351193fc",
   "install_command": "mkdir -p .claude/skills/memberspot-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/memberspot-automation/SKILL.md\" > .claude/skills/memberspot-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/memberspot-automation/SKILL.md"

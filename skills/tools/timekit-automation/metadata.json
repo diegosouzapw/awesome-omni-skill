@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e920660d9fb7fbcc2df403d99a0fc4bf7a197f4c5c20808529ac4e1ae2a4b5f0",
   "indexed_at": "2026-02-26T00:26:27.304Z",
-  "synced_at": "2026-02-27T02:41:46.744Z",
+  "synced_at": "2026-02-28T04:11:24.607Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1bc87d186062e9b9795b721319ea86345ab1d5dfb68378fde02ca97d081377a2",
   "install_command": "mkdir -p .claude/skills/timekit-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/timekit-automation/SKILL.md\" > .claude/skills/timekit-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/timekit-automation/SKILL.md"

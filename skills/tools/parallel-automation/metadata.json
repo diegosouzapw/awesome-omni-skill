@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "557480eebd102da1cbe165351ae52c68bb56b26826d6a3771318feab819947b9",
   "indexed_at": "2026-02-25T21:26:21.458Z",
-  "synced_at": "2026-02-27T02:42:10.731Z",
+  "synced_at": "2026-02-28T04:11:46.376Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/36d5ee58f2ac7399913c66a94a4305116ff240e10f20496b2107512f2cb8436c",
   "install_command": "mkdir -p .claude/skills/parallel-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/parallel-automation/SKILL.md\" > .claude/skills/parallel-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/parallel-automation/SKILL.md"

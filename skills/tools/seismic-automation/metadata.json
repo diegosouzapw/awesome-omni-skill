@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0746f61f37e80beb39a9b4c378f8511dff5f93145b19518e9e392da4aebdca30",
   "indexed_at": "2026-02-25T22:27:16.224Z",
-  "synced_at": "2026-02-27T02:42:06.685Z",
+  "synced_at": "2026-02-28T04:11:42.553Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/748f6f76200ed2aad629b25b9bccf8d871604988c62f72d44e25990622192068",
   "install_command": "mkdir -p .claude/skills/seismic-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/seismic-automation/SKILL.md\" > .claude/skills/seismic-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/seismic-automation/SKILL.md"

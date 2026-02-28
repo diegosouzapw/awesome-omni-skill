@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "da3aa59a784bbbd7979186c6794564a66775e1079453fac4b18915647f4dab10",
   "indexed_at": "2026-02-24T23:04:55.554Z",
-  "synced_at": "2026-02-27T02:42:33.873Z",
+  "synced_at": "2026-02-28T04:12:07.953Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/319b83e9c2cc51a72bed640514f4fc98ae831071993a4c7dee7d8ae844e8fe8e",
   "install_command": "mkdir -p .claude/skills/lastpass-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/lastpass-automation/SKILL.md\" > .claude/skills/lastpass-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/lastpass-automation/SKILL.md"

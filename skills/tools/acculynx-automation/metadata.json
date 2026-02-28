@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6063c045485073c6d708e387b624e7c47360f21cc21c1fc422e6677ca4f01e7b",
   "indexed_at": "2026-02-24T22:48:15.009Z",
-  "synced_at": "2026-02-27T02:42:39.338Z",
+  "synced_at": "2026-02-28T04:12:13.065Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/efadb2faffc60195b2d9994efb3720a04ca090c71b123400700092c9dd86789a",
   "install_command": "mkdir -p .claude/skills/acculynx-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/acculynx-automation/SKILL.md\" > .claude/skills/acculynx-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/acculynx-automation/SKILL.md"

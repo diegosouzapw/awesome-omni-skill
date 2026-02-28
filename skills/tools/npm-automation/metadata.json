@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9b37ac9790b709144bd4832fe3e2c2c8e762558b919e9a04167804ce08127658",
   "indexed_at": "2026-02-25T21:25:45.599Z",
-  "synced_at": "2026-02-27T02:42:08.483Z",
+  "synced_at": "2026-02-28T04:11:44.179Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/57914adb6c1eca44cccd5f3110fda24dac90672599ace235ad88e33a0b0ffb98",
   "install_command": "mkdir -p .claude/skills/npm-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/npm-automation/SKILL.md\" > .claude/skills/npm-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/npm-automation/SKILL.md"

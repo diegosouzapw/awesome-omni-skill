@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "42caca3b44b7c31c6ed327ce7d8bd1ad29a910d461fddadf9b5f687759e99346",
   "indexed_at": "2026-02-26T00:26:03.459Z",
-  "synced_at": "2026-02-27T02:41:44.506Z",
+  "synced_at": "2026-02-28T04:11:22.676Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/554bcc9055861b38f0bfac4be6669d205684cba50f2512e404d747659b4df30f",
   "install_command": "mkdir -p .claude/skills/taxjar-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/taxjar-automation/SKILL.md\" > .claude/skills/taxjar-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/taxjar-automation/SKILL.md"

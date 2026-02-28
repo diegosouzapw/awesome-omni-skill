@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9f4479ad408d31c8f460c5739ca3d173b309c341a80eb6d1d6b51b0aa56e7be0",
   "indexed_at": "2026-02-24T23:03:06.314Z",
-  "synced_at": "2026-02-27T02:42:24.466Z",
+  "synced_at": "2026-02-28T04:11:59.060Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/69313ea857621c915962716ac127349c3da799b71cdda5a1f6d7c8afe81a20b0",
   "install_command": "mkdir -p .claude/skills/googleslides-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/googleslides-automation/SKILL.md\" > .claude/skills/googleslides-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/googleslides-automation/SKILL.md"

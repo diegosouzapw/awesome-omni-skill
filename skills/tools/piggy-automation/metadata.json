@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d4111a97f35af4681d98b41df623f82a6210a418ac85da712c4e731811f268cc",
   "indexed_at": "2026-02-25T21:26:51.974Z",
-  "synced_at": "2026-02-27T02:42:13.258Z",
+  "synced_at": "2026-02-28T04:11:48.608Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/97666ea938f340a21e956f3e9fe38fc5b9f8e8e44bf8ea492d237ca9c192471d",
   "install_command": "mkdir -p .claude/skills/piggy-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/piggy-automation/SKILL.md\" > .claude/skills/piggy-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/piggy-automation/SKILL.md"

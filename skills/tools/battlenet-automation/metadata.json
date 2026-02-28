@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "469bd1fdd726236711d8ab26b145afae622f1416d8576c914d08abfc8f5aef9c",
   "indexed_at": "2026-02-24T22:49:58.412Z",
-  "synced_at": "2026-02-27T02:42:45.245Z",
+  "synced_at": "2026-02-28T04:12:18.720Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f2c332308ff9dc41c875bee70ea6909cd7bce42e48f68fa4a61aa4ecceb26f7b",
   "install_command": "mkdir -p .claude/skills/battlenet-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/battlenet-automation/SKILL.md\" > .claude/skills/battlenet-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/battlenet-automation/SKILL.md"

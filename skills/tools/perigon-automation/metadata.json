@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fdea3b3ab08ad27c1fc48013ca29b3b6281095b5f604cfa1ba0d3693a4f081d1",
   "indexed_at": "2026-02-25T21:26:43.922Z",
-  "synced_at": "2026-02-27T02:42:12.776Z",
+  "synced_at": "2026-02-28T04:11:48.144Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/05df07ed07c7d0a84e1605c491ff132ac9cefb6dedf46ce03ff7c4c50e1bf45f",
   "install_command": "mkdir -p .claude/skills/perigon-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/perigon-automation/SKILL.md\" > .claude/skills/perigon-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/perigon-automation/SKILL.md"

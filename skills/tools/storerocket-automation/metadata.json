@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4d6f98f7b432ebb3e1b73c82afb268a7239b3abb0604dd5db5cb24b894c1d7bb",
   "indexed_at": "2026-02-25T23:27:08.057Z",
-  "synced_at": "2026-02-27T02:41:58.137Z",
+  "synced_at": "2026-02-28T04:11:34.722Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f6034588a82b2377af15a3bc677f9661797ebad4bf496e98bbedca5a7687c31f",
   "install_command": "mkdir -p .claude/skills/storerocket-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/storerocket-automation/SKILL.md\" > .claude/skills/storerocket-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/storerocket-automation/SKILL.md"

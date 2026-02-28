@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1c3b8ef4aa9bd728d02973130246d9f177629db3f3842f513e240871c2126957",
   "indexed_at": "2026-02-25T21:27:00.531Z",
-  "synced_at": "2026-02-27T02:42:13.888Z",
+  "synced_at": "2026-02-28T04:11:49.196Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c3162b87b571a0092b05887f2447c67ae227c60e191c75f681b0959f15f68e4b",
   "install_command": "mkdir -p .claude/skills/placekey-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/placekey-automation/SKILL.md\" > .claude/skills/placekey-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/placekey-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f86e875a63f163deae7198c9181e70809bfb43a3eec73e55e2146f8a3386a66f",
   "indexed_at": "2026-02-24T22:50:10.372Z",
-  "synced_at": "2026-02-27T02:42:46.311Z",
+  "synced_at": "2026-02-28T04:12:19.762Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dabf0c49e5f110c7545e14950cc24169f31b4ab9262aa8ebf68f6ae6b715cea8",
   "install_command": "mkdir -p .claude/skills/better-proposals-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/better-proposals-automation/SKILL.md\" > .claude/skills/better-proposals-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/better-proposals-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1c1634bf6fab5d989f625da5f120a86de71d10b3b2c0b57f0cebca07eb44f2fe",
   "indexed_at": "2026-02-24T23:04:01.760Z",
-  "synced_at": "2026-02-27T02:42:29.185Z",
+  "synced_at": "2026-02-28T04:12:03.488Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6a66cd4ff23de7cd6b9cbfd39d78cf1194cce30744564374fcca24ac7d796ce5",
   "install_command": "mkdir -p .claude/skills/idea-scale-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/idea-scale-automation/SKILL.md\" > .claude/skills/idea-scale-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/idea-scale-automation/SKILL.md"

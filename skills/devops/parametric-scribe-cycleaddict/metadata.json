@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d3e514bde296ed65be7e0735a98a0289f4eb06857454e2560747bd60670ea65c",
   "indexed_at": "2026-02-25T14:11:14.821Z",
-  "synced_at": "2026-02-27T02:41:31.296Z",
+  "synced_at": "2026-02-28T04:11:09.649Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4a7e7d1dd7ab80c95ec03662a5fc349ffef143d9b2d066c5db6ad118acb1a890",
   "install_command": "mkdir -p .claude/skills/parametric-scribe && curl -sL \"https://raw.githubusercontent.com/Cycleaddict/parametric-scribe/main/SKILL.md\" > .claude/skills/parametric-scribe/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Cycleaddict/parametric-scribe/main/SKILL.md"

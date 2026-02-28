@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fc28ad307a240334f86028d74b3cb7ebdba2b4e659707dad5d517b024165beba",
   "indexed_at": "2026-02-27T17:37:46.661Z",
-  "synced_at": "2026-02-27T18:17:09.517Z",
+  "synced_at": "2026-02-28T04:11:13.419Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a4a3f0c44c8961b369d62e50681a05894f4c8372a0e953918386ae2e56f78704",
   "install_command": "mkdir -p .claude/skills/azure-iam && curl -sL \"https://raw.githubusercontent.com/alphaonedev/openclaw-graph/main/skills/cloud-azure/azure-iam/SKILL.md\" > .claude/skills/azure-iam/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alphaonedev/openclaw-graph/main/skills/cloud-azure/azure-iam/SKILL.md"

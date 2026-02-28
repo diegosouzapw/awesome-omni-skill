@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "85ef51372671921519df6b0cc0b4ba019c2d650ccd6baa0d250482933eba13f5",
   "indexed_at": "2026-02-24T23:04:38.988Z",
-  "synced_at": "2026-02-27T02:42:32.240Z",
+  "synced_at": "2026-02-28T04:12:06.349Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/90a8d68825b23a14fe4990028dec61cff2f1621a0f55cc97664cb2c91f7aabfe",
   "install_command": "mkdir -p .claude/skills/keen-io-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/keen-io-automation/SKILL.md\" > .claude/skills/keen-io-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/keen-io-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3b03f5f1b5545da99d0fa2f22f393bc23b7f6ae157e3debc621e7791d24a5f21",
   "indexed_at": "2026-02-27T14:09:34.366Z",
-  "synced_at": "2026-02-27T18:17:09.784Z",
+  "synced_at": "2026-02-28T04:11:15.051Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/55c6753d3c2033052483c3dc48b167374699702b5c9e0a1b1a587664dc08a0d3",
   "install_command": "mkdir -p .claude/skills/nestjs-deployment && curl -sL \"https://raw.githubusercontent.com/HoangNguyen0403/agent-skills-standard/main/skills/nestjs/deployment/SKILL.md\" > .claude/skills/nestjs-deployment/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HoangNguyen0403/agent-skills-standard/main/skills/nestjs/deployment/SKILL.md"

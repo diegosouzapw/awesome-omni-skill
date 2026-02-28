@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f8b1d98820c0f43c70265acc14efbd99672b450c1d291849382d152048e214c9",
   "indexed_at": "2026-02-24T23:03:14.643Z",
-  "synced_at": "2026-02-27T02:42:25.375Z",
+  "synced_at": "2026-02-28T04:11:59.969Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/358816c97adcdc264bb6ae42da5db12c0365fd238c363ddca8fda75e6a73bb1a",
   "install_command": "mkdir -p .claude/skills/graphhopper-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/graphhopper-automation/SKILL.md\" > .claude/skills/graphhopper-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/graphhopper-automation/SKILL.md"

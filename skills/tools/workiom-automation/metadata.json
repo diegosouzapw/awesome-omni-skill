@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3fafb090b6124a4a7855c286061c2e1479bb697e0dbc8bfaee4e6a6dfdd6d6c0",
   "indexed_at": "2026-02-26T01:26:33.516Z",
-  "synced_at": "2026-02-27T02:41:40.960Z",
+  "synced_at": "2026-02-28T04:11:19.249Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/26d79a3e45e7de3edaee4a4c1183c462cc57771c217eadee22bb69c428f98969",
   "install_command": "mkdir -p .claude/skills/workiom-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/workiom-automation/SKILL.md\" > .claude/skills/workiom-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/workiom-automation/SKILL.md"

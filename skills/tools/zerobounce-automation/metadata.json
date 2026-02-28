@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dbef0054d4f3bdda89abe7d8c751e75c78b22f90fd2c2481d9aebc989d514d7d",
   "indexed_at": "2026-02-26T01:26:52.632Z",
-  "synced_at": "2026-02-27T02:41:42.735Z",
+  "synced_at": "2026-02-28T04:11:20.877Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/df3af66604dfdf0c1d7ff2bfadec1a380d2750502b965c96d7d99ab5fa3a161b",
   "install_command": "mkdir -p .claude/skills/zerobounce-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/zerobounce-automation/SKILL.md\" > .claude/skills/zerobounce-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/zerobounce-automation/SKILL.md"

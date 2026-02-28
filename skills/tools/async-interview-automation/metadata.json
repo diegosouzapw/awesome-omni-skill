@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "228dc81eae33316f9b0151e6f0aba8630f9ceea5836130af95ae352a66515edb",
   "indexed_at": "2026-02-24T22:49:35.483Z",
-  "synced_at": "2026-02-27T02:42:43.481Z",
+  "synced_at": "2026-02-28T04:12:17.039Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2ddc6b732cdbf0fe8e1f700e1e52b0e417019737a3d88c925cbebc48fdf45162",
   "install_command": "mkdir -p .claude/skills/async-interview-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/async-interview-automation/SKILL.md\" > .claude/skills/async-interview-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/async-interview-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3bdd650c05857b098293a0f4d7348f0e0b0dd400cc45a302881e4bf631da599e",
   "indexed_at": "2026-02-26T00:26:40.111Z",
-  "synced_at": "2026-02-27T02:41:47.873Z",
+  "synced_at": "2026-02-28T04:11:25.659Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9d4153ba7f9222ec71c90b9211c9f40dd380e7b9d52fbaa9d876ee8fc19df6dc",
   "install_command": "mkdir -p .claude/skills/tomba-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/tomba-automation/SKILL.md\" > .claude/skills/tomba-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/tomba-automation/SKILL.md"

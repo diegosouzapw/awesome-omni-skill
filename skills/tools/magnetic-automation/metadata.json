@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "39f2c6827df6f532ee5b4947061546e9e6f2978b3b141fbc1e03b4c50290e5e3",
   "indexed_at": "2026-02-24T23:05:31.147Z",
-  "synced_at": "2026-02-27T02:42:37.482Z",
+  "synced_at": "2026-02-28T04:12:11.242Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d5c9fbe9d4423abb0275c018a492ebe4d923824977f02a214178a13545a94464",
   "install_command": "mkdir -p .claude/skills/magnetic-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/magnetic-automation/SKILL.md\" > .claude/skills/magnetic-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/magnetic-automation/SKILL.md"

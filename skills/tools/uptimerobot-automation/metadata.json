@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "790f24172f29e238c6f4641750bed325215f136adef5b7a07d2fd1bdbce39914",
   "indexed_at": "2026-02-26T00:27:07.279Z",
-  "synced_at": "2026-02-27T02:41:50.135Z",
+  "synced_at": "2026-02-28T04:11:27.743Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e8282554fa4d6c33c1f7abf7392d78423ecd7d5754a2e88f5d61ebda8a18ecea",
   "install_command": "mkdir -p .claude/skills/uptimerobot-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/uptimerobot-automation/SKILL.md\" > .claude/skills/uptimerobot-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/uptimerobot-automation/SKILL.md"

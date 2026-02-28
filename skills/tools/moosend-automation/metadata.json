@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "05bd858393ef5507962abb82c3ff1e6731af5f4770fa183d1736f0c9f285a9cd",
   "indexed_at": "2026-02-25T20:26:53.547Z",
-  "synced_at": "2026-02-27T02:42:20.065Z",
+  "synced_at": "2026-02-28T04:11:54.923Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c397a8ce07a234aff663318d5999a3db6712b072fdd6872c1191205e311c2567",
   "install_command": "mkdir -p .claude/skills/moosend-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/moosend-automation/SKILL.md\" > .claude/skills/moosend-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/moosend-automation/SKILL.md"

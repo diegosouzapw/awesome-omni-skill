@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6a6449c2e2f5ec5f67455b1f3dc81c8b25cad75f11412e442947b51bde7af572",
   "indexed_at": "2026-02-25T22:27:03.908Z",
-  "synced_at": "2026-02-27T02:42:05.846Z",
+  "synced_at": "2026-02-28T04:11:41.810Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b8cb8af46cb0f535b4520e29ada531cbd0746dc290b472270c839d6f70a0d4d0",
   "install_command": "mkdir -p .claude/skills/scrapfly-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/scrapfly-automation/SKILL.md\" > .claude/skills/scrapfly-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/scrapfly-automation/SKILL.md"

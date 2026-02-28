@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5ee44e7b5ecc6bafddf524f8d9fd78410eb73b2aadcfcfd423c0649171b49366",
   "indexed_at": "2026-02-24T23:03:43.412Z",
-  "synced_at": "2026-02-27T02:42:27.913Z",
+  "synced_at": "2026-02-28T04:12:02.293Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/be854fc235c8244ceea2996d6c0640d4b01e802ede29e8201b3ed8762cc6fd2d",
   "install_command": "mkdir -p .claude/skills/hookdeck-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/hookdeck-automation/SKILL.md\" > .claude/skills/hookdeck-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/hookdeck-automation/SKILL.md"

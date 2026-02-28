@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2ba91a789af3b77180330bdc390400ad638cd35435e5c6df0ae6c59a26fb71f5",
   "indexed_at": "2026-02-24T23:03:48.033Z",
-  "synced_at": "2026-02-27T02:42:28.234Z",
+  "synced_at": "2026-02-28T04:12:02.599Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5766fc9fe67266e52c5d6e73fb4ad7ccad2a329c3e97839493173e1966e97ae8",
   "install_command": "mkdir -p .claude/skills/humanitix-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/humanitix-automation/SKILL.md\" > .claude/skills/humanitix-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/humanitix-automation/SKILL.md"

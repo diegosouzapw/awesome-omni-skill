@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "69f06d786b1a933d2ef586cecd3c361fe2f6d121e888c5cb3cc080977fee3e12",
   "indexed_at": "2026-02-26T00:26:51.086Z",
-  "synced_at": "2026-02-27T02:41:48.838Z",
+  "synced_at": "2026-02-28T04:11:26.556Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1b785c7054dfd2f33b630f66b1b34bb9604e48ccdd09bc946b8422038a62a48a",
   "install_command": "mkdir -p .claude/skills/turso-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/turso-automation/SKILL.md\" > .claude/skills/turso-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/turso-automation/SKILL.md"

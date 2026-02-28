@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f0bd47d86c005a12f36bd864bb2cb80d7472706e71e2c58e6e1c4927f6ce15d3",
   "indexed_at": "2026-02-25T23:26:22.262Z",
-  "synced_at": "2026-02-27T02:41:54.007Z",
+  "synced_at": "2026-02-28T04:11:31.507Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6619a9d21ac46ac70b88e622b0dca732f259408692018d87cfbe1da5fd97f531",
   "install_command": "mkdir -p .claude/skills/signaturely-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/signaturely-automation/SKILL.md\" > .claude/skills/signaturely-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/signaturely-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8e76f2609dc794921665ce72c2e81b7cd6c547a3892e1cf4631afd48a2b5305a",
   "indexed_at": "2026-02-25T22:26:47.751Z",
-  "synced_at": "2026-02-27T02:42:04.855Z",
+  "synced_at": "2026-02-28T04:11:40.916Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0ca6b0b531f32c90146cea8c90655d87ea0383b2243ab14a7ed6cda456c0bc0e",
   "install_command": "mkdir -p .claude/skills/route4me-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/route4me-automation/SKILL.md\" > .claude/skills/route4me-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/route4me-automation/SKILL.md"

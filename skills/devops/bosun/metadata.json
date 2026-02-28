@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f48dfa1d417856476e388706dedbba55c8594dd5221014e005e9a5d5564e8d1e",
   "indexed_at": "2026-02-26T12:18:49.688Z",
-  "synced_at": "2026-02-27T02:41:27.669Z",
+  "synced_at": "2026-02-28T04:11:05.679Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/915703c9658bf692f9125957b861963377494c8fbec7027eca43d1a341896292",
   "install_command": "mkdir -p .claude/skills/bosun && curl -sL \"https://raw.githubusercontent.com/cameronsjo/bosun/main/skills/onboard/SKILL.md\" > .claude/skills/bosun/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cameronsjo/bosun/main/skills/onboard/SKILL.md"

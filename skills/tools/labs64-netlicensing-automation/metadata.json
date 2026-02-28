@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e2c8ad67ffdb8130bf74aadddff5962a9a1acad531db8c9068c2a90743836ed7",
   "indexed_at": "2026-02-24T23:04:51.732Z",
-  "synced_at": "2026-02-27T02:42:33.393Z",
+  "synced_at": "2026-02-28T04:12:07.385Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1c9b17625e1ce8a236c4ae71c8085f518f2e0f3864d8462eb53fa22af01251e7",
   "install_command": "mkdir -p .claude/skills/labs64-netlicensing-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/labs64-netlicensing-automation/SKILL.md\" > .claude/skills/labs64-netlicensing-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/labs64-netlicensing-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c5e38f0bbb844de590fbb081bc08ad8f7803ac24a380432e25bf0ade6efd533d",
   "indexed_at": "2026-02-25T22:26:39.970Z",
-  "synced_at": "2026-02-27T02:42:04.230Z",
+  "synced_at": "2026-02-28T04:11:40.323Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eea89051298d68e451eae7553910884e97532d5dc58a2a23de6f2f94ccd2b945",
   "install_command": "mkdir -p .claude/skills/ritekit-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ritekit-automation/SKILL.md\" > .claude/skills/ritekit-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ritekit-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "843fe6b9bd833a6be338c8e2d3ecf5e76dd2336fa94a4b86886c459f921f315b",
   "indexed_at": "2026-02-24T23:03:16.166Z",
-  "synced_at": "2026-02-27T02:42:25.553Z",
+  "synced_at": "2026-02-28T04:12:00.121Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/598c44983838e71f9e744bdca4b5a79ac9a1030e2aa7ccb83da4dcf1f7326fe0",
   "install_command": "mkdir -p .claude/skills/griptape-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/griptape-automation/SKILL.md\" > .claude/skills/griptape-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/griptape-automation/SKILL.md"

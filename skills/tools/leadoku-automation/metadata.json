@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "238a6041bb215194fea34e4fc41fc8714962362de0b4e84e81e80464a1df71ac",
   "indexed_at": "2026-02-24T23:05:00.897Z",
-  "synced_at": "2026-02-27T02:42:34.347Z",
+  "synced_at": "2026-02-28T04:12:08.410Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a64d2726e14a297e8b34c5974baee902fb835e0b1d1bc81ec4a99ba462c59c11",
   "install_command": "mkdir -p .claude/skills/leadoku-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/leadoku-automation/SKILL.md\" > .claude/skills/leadoku-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/leadoku-automation/SKILL.md"

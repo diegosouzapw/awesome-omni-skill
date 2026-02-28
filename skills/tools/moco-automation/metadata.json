@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dd08237e3d3e4464f9f965d3e01ca543c9b0ef63655ffc1e061177f3de4bc1f7",
   "indexed_at": "2026-02-25T20:26:47.285Z",
-  "synced_at": "2026-02-27T02:42:19.479Z",
+  "synced_at": "2026-02-28T04:11:54.488Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a65e020b1cacb72cb5dabd676ffee7fb9ed57cc300387347740d9b659fff748b",
   "install_command": "mkdir -p .claude/skills/moco-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/moco-automation/SKILL.md\" > .claude/skills/moco-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/moco-automation/SKILL.md"

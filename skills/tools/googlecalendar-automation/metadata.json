@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c5e41b9e34a1c90657c7e8b147dfa164c70e7eb1a918b19e0bee15eeae21ea71",
   "indexed_at": "2026-02-24T23:02:59.165Z",
-  "synced_at": "2026-02-27T02:42:24.021Z",
+  "synced_at": "2026-02-28T04:11:58.623Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/10aa598cfc038e0f5f87a37165eb81cf8efa7926d844c2d64dc4de0845281934",
   "install_command": "mkdir -p .claude/skills/googlecalendar-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/googlecalendar-automation/SKILL.md\" > .claude/skills/googlecalendar-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/googlecalendar-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1e4c95e236ea093130756108c7aaf1b0aed6dc7246cffc4640fb436aa19b548d",
   "indexed_at": "2026-02-25T22:26:33.519Z",
-  "synced_at": "2026-02-27T02:42:03.576Z",
+  "synced_at": "2026-02-28T04:11:39.726Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a77bc3dbdf8475a9ecd3e4f33ca01de4781467f3eda138cbe9c62b6e6dae8ef2",
   "install_command": "mkdir -p .claude/skills/revolt-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/revolt-automation/SKILL.md\" > .claude/skills/revolt-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/revolt-automation/SKILL.md"

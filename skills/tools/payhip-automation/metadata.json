@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "543b1c214bd4e1bd5373e11d6c6c3a3d6b445895b0c9d32a5fcb29fa38ee9896",
   "indexed_at": "2026-02-25T21:26:32.493Z",
-  "synced_at": "2026-02-27T02:42:11.959Z",
+  "synced_at": "2026-02-28T04:11:47.408Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c11ec5fd38918e13cc26cdd7b28d5a9e5c6d12e3f6ea5988131e1762e867945a",
   "install_command": "mkdir -p .claude/skills/payhip-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/payhip-automation/SKILL.md\" > .claude/skills/payhip-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/payhip-automation/SKILL.md"

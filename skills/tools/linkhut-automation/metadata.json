@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "28d2b6aebb8ddec41da64e0f3b0ac255239ff32cd6c73a096f9968f8963286d4",
   "indexed_at": "2026-02-24T23:05:17.863Z",
-  "synced_at": "2026-02-27T02:42:35.876Z",
+  "synced_at": "2026-02-28T04:12:09.641Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fce95ec889e6764691dd66c2a2e15c689de3846b127241488e0e66fda4243cc7",
   "install_command": "mkdir -p .claude/skills/linkhut-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/linkhut-automation/SKILL.md\" > .claude/skills/linkhut-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/linkhut-automation/SKILL.md"

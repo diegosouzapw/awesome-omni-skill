@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9c8a9d7fbdb7731ca91d75e20d9702f88dc485bb33931b09e83a532120615abf",
   "indexed_at": "2026-02-25T21:26:05.169Z",
-  "synced_at": "2026-02-27T02:42:09.453Z",
+  "synced_at": "2026-02-28T04:11:45.068Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/27a8ecee6c8f513d794b3035cda7505162f507033cda77dd65472f927824f614",
   "install_command": "mkdir -p .claude/skills/opencage-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/opencage-automation/SKILL.md\" > .claude/skills/opencage-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/opencage-automation/SKILL.md"

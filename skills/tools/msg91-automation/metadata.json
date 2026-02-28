@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d83f1348a3df9a4684d20c7db9113c4aafc23861714e123e0379640e4de7c808",
   "indexed_at": "2026-02-25T20:27:01.837Z",
-  "synced_at": "2026-02-27T02:42:20.843Z",
+  "synced_at": "2026-02-28T04:11:55.671Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2ae99a3a8b820b5a8b3ab27af9266b866535668ff97c341bf06855d3c26a0e3f",
   "install_command": "mkdir -p .claude/skills/msg91-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/msg91-automation/SKILL.md\" > .claude/skills/msg91-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/msg91-automation/SKILL.md"

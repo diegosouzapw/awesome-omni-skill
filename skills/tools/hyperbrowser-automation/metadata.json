@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c5b86c3bd4f32645270a1e1d712a2c1f92ac6c16b948b1bbb8fa901ea2a03ccb",
   "indexed_at": "2026-02-24T23:03:53.668Z",
-  "synced_at": "2026-02-27T02:42:28.550Z",
+  "synced_at": "2026-02-28T04:12:02.898Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b05742346acfde06730713cc0351c051bb3a0ce91919f43f57cb1d29d293605c",
   "install_command": "mkdir -p .claude/skills/hyperbrowser-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/hyperbrowser-automation/SKILL.md\" > .claude/skills/hyperbrowser-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/hyperbrowser-automation/SKILL.md"

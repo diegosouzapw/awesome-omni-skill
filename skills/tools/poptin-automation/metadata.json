@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e1b782fc96342715c83c62c12a25b6d4ec63827f73f07ee1bfaef7a24441c8ef",
   "indexed_at": "2026-02-25T21:27:13.325Z",
-  "synced_at": "2026-02-27T02:42:14.841Z",
+  "synced_at": "2026-02-28T04:11:50.089Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b89f99fd40e8b55af11749d88898d05756917a3bf713258321a2859706efae1c",
   "install_command": "mkdir -p .claude/skills/poptin-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/poptin-automation/SKILL.md\" > .claude/skills/poptin-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/poptin-automation/SKILL.md"

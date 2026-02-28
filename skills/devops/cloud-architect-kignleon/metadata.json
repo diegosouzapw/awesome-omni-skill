@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3221c15dfededcd575451809a8d3c6af3a4916f6d08468a06c88ee77d213b55f",
   "indexed_at": "2026-02-26T14:26:05.102Z",
-  "synced_at": "2026-02-27T02:41:29.068Z",
+  "synced_at": "2026-02-28T04:11:06.693Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8cdf33c06eb18e727f56025d90dde177dbb57dc97dc7588280c5afe91b3ec9c2",
   "install_command": "mkdir -p .claude/skills/cloud-architect && curl -sL \"https://raw.githubusercontent.com/KignLeon/joesmith-website/main/skills/cloud-architect/SKILL.md\" > .claude/skills/cloud-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/KignLeon/joesmith-website/main/skills/cloud-architect/SKILL.md"

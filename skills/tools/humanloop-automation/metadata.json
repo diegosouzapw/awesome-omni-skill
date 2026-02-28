@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c9efa4bc261da52c5ebf1c56fab33e51a9ed090f14a62f6f29b70ec248486c47",
   "indexed_at": "2026-02-24T23:03:49.303Z",
-  "synced_at": "2026-02-27T02:42:28.391Z",
+  "synced_at": "2026-02-28T04:12:02.748Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/610cc5047ef1d585e9c471747e9a3a2569c8c0960b1bf4d9d7dc4199fa3f80ad",
   "install_command": "mkdir -p .claude/skills/humanloop-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/humanloop-automation/SKILL.md\" > .claude/skills/humanloop-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/humanloop-automation/SKILL.md"

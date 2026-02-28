@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3b3aa20c4aaf644384213d313a211a971c5692d359c24121b8b2955b72db24d9",
   "indexed_at": "2026-02-25T13:10:55.761Z",
-  "synced_at": "2026-02-27T02:41:35.728Z",
+  "synced_at": "2026-02-28T04:11:13.753Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9ba7ca56ddeea9be18c48184ff3b777cd6ceb83de3e315a1126b4a0219dc97c0",
   "install_command": "mkdir -p .claude/skills/azure-networking && curl -sL \"https://raw.githubusercontent.com/alphaonedev/openclaw-graph/main/skills/cloud-azure/azure-networking/SKILL.md\" > .claude/skills/azure-networking/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alphaonedev/openclaw-graph/main/skills/cloud-azure/azure-networking/SKILL.md"

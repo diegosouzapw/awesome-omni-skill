@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b120d1fe59a1688b8cafefdc371d70840028cfbed59ee8a8dc9d8d44c8a645fb",
   "indexed_at": "2026-02-24T23:05:23.070Z",
-  "synced_at": "2026-02-27T02:42:36.517Z",
+  "synced_at": "2026-02-28T04:12:10.281Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6cacfefb5d2ca5e909ceb8abd333ad8059db13b66abfe6107c59f48de8203090",
   "install_command": "mkdir -p .claude/skills/livesession-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/livesession-automation/SKILL.md\" > .claude/skills/livesession-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/livesession-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9091293459502f29f642a34aaadfea339dce11a63d811450187f05060c15b9c2",
   "indexed_at": "2026-02-24T22:50:30.774Z",
-  "synced_at": "2026-02-27T02:42:47.974Z",
+  "synced_at": "2026-02-28T04:12:21.430Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5572cdd577f21df33a8e61730ca15b7950be5a3c03c6540d9d9abebe0053ee4b",
   "install_command": "mkdir -p .claude/skills/bolt-iot-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bolt-iot-automation/SKILL.md\" > .claude/skills/bolt-iot-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bolt-iot-automation/SKILL.md"

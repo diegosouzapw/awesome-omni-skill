@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "76f8d94848dd73b44e89ca89b866fcedffdf4ccd55f9acfe4d4b0de57ec1c692",
   "indexed_at": "2026-02-24T22:47:50.331Z",
-  "synced_at": "2026-02-27T02:42:37.648Z",
+  "synced_at": "2026-02-28T04:12:11.388Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d7b8caed61e4bf7023dc3678f0830ba77609e18bbd465fdf9342d55b032c7158",
   "install_command": "mkdir -p .claude/skills/meeting-insights-analyzer && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/meeting-insights-analyzer/SKILL.md\" > .claude/skills/meeting-insights-analyzer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/meeting-insights-analyzer/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e1118854344bdb6d23143019205c54593eac8f539489ed7cda6a61e84f802b38",
   "indexed_at": "2026-02-25T23:27:16.372Z",
-  "synced_at": "2026-02-27T02:41:58.623Z",
+  "synced_at": "2026-02-28T04:11:35.179Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6d832e431b65406e81751cd21055c295a377692935fd58ef224dec8ae4525f3a",
   "install_command": "mkdir -p .claude/skills/superchat-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/superchat-automation/SKILL.md\" > .claude/skills/superchat-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/superchat-automation/SKILL.md"

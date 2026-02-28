@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "67aaa8fb1308dd4420d836628c93e0427bdcee958875d33a3ee939def4a65f75",
   "indexed_at": "2026-02-26T04:25:40.526Z",
-  "synced_at": "2026-02-27T02:41:31.834Z",
+  "synced_at": "2026-02-28T04:11:10.184Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f3e32d550a26054035de6fca4eba795846158702ef29563b11bb3cb3be541505",
   "install_command": "mkdir -p .claude/skills/cdd-gather-context && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/cdd-gather-context-yutaro0915-cdd-workflow/SKILL.md\" > .claude/skills/cdd-gather-context/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/cdd-gather-context-yutaro0915-cdd-workflow/SKILL.md"

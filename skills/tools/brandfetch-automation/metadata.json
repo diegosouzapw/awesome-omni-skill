@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e7e2f684c8eeac702d52cd481a2c14b1c50873a126ff1d5444f8d6ee636f5c64",
   "indexed_at": "2026-02-24T22:50:47.007Z",
-  "synced_at": "2026-02-27T02:42:49.497Z",
+  "synced_at": "2026-02-28T04:12:22.951Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a0525d1c6a4223c94ee980ca0e98fa6e2c4a42c7bfd062c913f879b543e73138",
   "install_command": "mkdir -p .claude/skills/brandfetch-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/brandfetch-automation/SKILL.md\" > .claude/skills/brandfetch-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/brandfetch-automation/SKILL.md"

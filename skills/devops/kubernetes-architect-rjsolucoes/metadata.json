@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "30ccef572187f0888e5d2a38bd372cbea41a3fdad3baecbe92385423cfef2cce",
   "indexed_at": "2026-02-26T12:18:51.081Z",
-  "synced_at": "2026-02-27T02:41:27.837Z",
+  "synced_at": "2026-02-28T04:11:05.847Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d2166e5481a50c01cadea053ba16dd1dcb5ad03fa852a453e1e001b3ce6c21f6",
   "install_command": "mkdir -p .claude/skills/kubernetes-architect && curl -sL \"https://raw.githubusercontent.com/RJsolucoes/RJChronosConnect/main/.agent/skills/kubernetes-architect/SKILL.md\" > .claude/skills/kubernetes-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/RJsolucoes/RJChronosConnect/main/.agent/skills/kubernetes-architect/SKILL.md"

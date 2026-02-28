@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "311e1024931c4a2ddc02193932de91f142ab9cabfc5db184fb7debdb27290176",
   "indexed_at": "2026-02-24T22:48:07.030Z",
-  "synced_at": "2026-02-27T02:42:38.415Z",
+  "synced_at": "2026-02-28T04:12:12.152Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/61b23db1ed25b47fd127cbb2ac6125686b30f867fcecc9fed9c96530d078bc1c",
   "install_command": "mkdir -p .claude/skills/ably-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ably-automation/SKILL.md\" > .claude/skills/ably-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ably-automation/SKILL.md"

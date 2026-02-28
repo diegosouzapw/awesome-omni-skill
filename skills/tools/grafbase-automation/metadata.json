@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4da7ad3769b0e59ab40d2ba82f0c31d3f1b3b833c4aefd6ab849972e004ffd24",
   "indexed_at": "2026-02-24T23:03:13.171Z",
-  "synced_at": "2026-02-27T02:42:25.219Z",
+  "synced_at": "2026-02-28T04:11:59.809Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c10b3d8afeceaf457cca42f67e49b24b0d6e291b6f0bfb08868136f97361b746",
   "install_command": "mkdir -p .claude/skills/grafbase-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/grafbase-automation/SKILL.md\" > .claude/skills/grafbase-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/grafbase-automation/SKILL.md"

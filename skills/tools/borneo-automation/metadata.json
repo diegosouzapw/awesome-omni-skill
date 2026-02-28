@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c46b7b92e097c90c5bbdada5b5c04ffa7363c38e9da3672b5bb07b30c660e607",
   "indexed_at": "2026-02-24T22:50:36.247Z",
-  "synced_at": "2026-02-27T02:42:48.435Z",
+  "synced_at": "2026-02-28T04:12:21.898Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d038d9b20bb3d0bff1d4ccef4be7938257c1fe1c7f3fbdaf21f3f6be3505c2cd",
   "install_command": "mkdir -p .claude/skills/borneo-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/borneo-automation/SKILL.md\" > .claude/skills/borneo-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/borneo-automation/SKILL.md"

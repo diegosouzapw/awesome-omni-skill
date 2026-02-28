@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4243477ce78984b60de08c3d290fbb386302a6d9794bde603f308a9752168c6d",
   "indexed_at": "2026-02-24T22:48:05.669Z",
-  "synced_at": "2026-02-27T02:42:38.265Z",
+  "synced_at": "2026-02-28T04:12:11.977Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/44feb94a1546cadb861eb1db6cc32b012d89ec8d6f5434b308b7955402df6270",
   "install_command": "mkdir -p .claude/skills/2chat-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/-2chat-automation/SKILL.md\" > .claude/skills/2chat-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/-2chat-automation/SKILL.md"

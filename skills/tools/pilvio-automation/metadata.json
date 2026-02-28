@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d73a1b6d190002b49bc9ec09db6a77f6c4a1adafc3adf48f96e2e0d4b48e2ebf",
   "indexed_at": "2026-02-25T21:26:55.493Z",
-  "synced_at": "2026-02-27T02:42:13.574Z",
+  "synced_at": "2026-02-28T04:11:48.902Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b2f96dec05cd6440120a2948ceb38e93a5362e4eb5877fdc36864cb5c536a24c",
   "install_command": "mkdir -p .claude/skills/pilvio-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/pilvio-automation/SKILL.md\" > .claude/skills/pilvio-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/pilvio-automation/SKILL.md"

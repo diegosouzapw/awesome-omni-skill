@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "822116c29f69df6ea9330c6d1c2895f85366533bf98b4376421de8dbb9bf8d29",
   "indexed_at": "2026-02-24T22:49:37.038Z",
-  "synced_at": "2026-02-27T02:42:43.736Z",
+  "synced_at": "2026-02-28T04:12:17.183Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dc2937ae194a0e383622c3a12516c3cafe3516c49592029d7a3191de3113e82f",
   "install_command": "mkdir -p .claude/skills/atlassian-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/atlassian-automation/SKILL.md\" > .claude/skills/atlassian-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/atlassian-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7c01133d1609bd4bba8a63fbf7446ad4836c0645c447170c6f7edef3c49e5b3c",
   "indexed_at": "2026-02-26T01:26:49.773Z",
-  "synced_at": "2026-02-27T02:41:42.412Z",
+  "synced_at": "2026-02-28T04:11:20.574Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6833357d532be4f9732f77118a27d79a2aafa1f46c2c7404d5fe9f878f75e9d7",
   "install_command": "mkdir -p .claude/skills/zenserp-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/zenserp-automation/SKILL.md\" > .claude/skills/zenserp-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/zenserp-automation/SKILL.md"

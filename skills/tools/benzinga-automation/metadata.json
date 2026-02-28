@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "55ff6d778c2957b6994d282bd5922408e0c70f759324d69934f35ab0685ae4b7",
   "indexed_at": "2026-02-24T22:50:07.862Z",
-  "synced_at": "2026-02-27T02:42:45.996Z",
+  "synced_at": "2026-02-28T04:12:19.466Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2b82e58b58cffdd36366eb57707f461bc8acee63ff338a822cabf56c0c16fae6",
   "install_command": "mkdir -p .claude/skills/benzinga-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/benzinga-automation/SKILL.md\" > .claude/skills/benzinga-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/benzinga-automation/SKILL.md"

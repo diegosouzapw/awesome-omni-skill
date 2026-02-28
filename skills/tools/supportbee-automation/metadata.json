@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dd6fe1fe9347415130569ee2b177a7bb705010e4bc9bf310fd651d562976ef04",
   "indexed_at": "2026-02-25T23:27:17.890Z",
-  "synced_at": "2026-02-27T02:41:58.782Z",
+  "synced_at": "2026-02-28T04:11:35.325Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fdf354c3fec4b3767182fea7fcfd0286e43329ddb63bd470c8e48108fc644e3e",
   "install_command": "mkdir -p .claude/skills/supportbee-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/supportbee-automation/SKILL.md\" > .claude/skills/supportbee-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/supportbee-automation/SKILL.md"

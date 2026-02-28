@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8eda87893c55673c439b7bd7b778e3525531b42bcdae01ba6c2432b388b167b5",
   "indexed_at": "2026-02-25T23:27:06.301Z",
-  "synced_at": "2026-02-27T02:41:57.981Z",
+  "synced_at": "2026-02-28T04:11:34.577Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4deab0b1cc852c67a1486d12c5ebf76622663b71739a119c817b478b7de53468",
   "install_command": "mkdir -p .claude/skills/storeganise-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/storeganise-automation/SKILL.md\" > .claude/skills/storeganise-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/storeganise-automation/SKILL.md"

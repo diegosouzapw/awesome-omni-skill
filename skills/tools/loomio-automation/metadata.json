@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1000525eb2b283068e132933d1702771f30059ac705d9240948868682a602bee",
   "indexed_at": "2026-02-24T23:05:28.602Z",
-  "synced_at": "2026-02-27T02:42:37.162Z",
+  "synced_at": "2026-02-28T04:12:10.876Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/32d97dc68408c9b5b96db7b0c616aef23bf42bed63434658e74fd8a41d21cdfb",
   "install_command": "mkdir -p .claude/skills/loomio-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/loomio-automation/SKILL.md\" > .claude/skills/loomio-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/loomio-automation/SKILL.md"

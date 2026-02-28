@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "90f46e10f627b7cba6eda36719a1980355f590ac1a50d925b44a84d3b5213cd5",
   "indexed_at": "2026-02-26T14:24:04.424Z",
-  "synced_at": "2026-02-27T02:41:28.615Z",
+  "synced_at": "2026-02-28T04:11:06.494Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8aacdf665d6391520704c8a3bc800b69ed4777222c91a398e1ec1dc8c4b9505b",
   "install_command": "mkdir -p .claude/skills/faion-cicd-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/faion-cicd-engineer/SKILL.md\" > .claude/skills/faion-cicd-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/faion-cicd-engineer/SKILL.md"

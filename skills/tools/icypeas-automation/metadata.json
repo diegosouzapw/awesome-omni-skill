@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d8c1274b65814cf854b79b3430d37483e2f97c77e290dd6e37d449a18b08c229",
   "indexed_at": "2026-02-24T23:04:00.489Z",
-  "synced_at": "2026-02-27T02:42:29.031Z",
+  "synced_at": "2026-02-28T04:12:03.338Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cbb72a1014f9c3975fdb3c10cd9947637fe695f685a4f752c33e7c38831d9de8",
   "install_command": "mkdir -p .claude/skills/icypeas-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/icypeas-automation/SKILL.md\" > .claude/skills/icypeas-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/icypeas-automation/SKILL.md"

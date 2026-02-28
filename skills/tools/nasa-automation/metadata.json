@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7b77d0e2105915aaaf4949e592fd44438da35db62ce2321bac39900929191284",
   "indexed_at": "2026-02-25T20:27:11.722Z",
-  "synced_at": "2026-02-27T02:42:21.803Z",
+  "synced_at": "2026-02-28T04:11:56.561Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/91a398f0341d8c67e50267af869e66c7ea95368d32aa7dfe04ed9ce9f0500ce9",
   "install_command": "mkdir -p .claude/skills/nasa-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/nasa-automation/SKILL.md\" > .claude/skills/nasa-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/nasa-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6f5c26869e07c2ab6b6aae3b4b878a49db9b5c20e20fc4d5c13022483a781824",
   "indexed_at": "2026-02-24T23:02:42.960Z",
-  "synced_at": "2026-02-27T02:42:23.273Z",
+  "synced_at": "2026-02-28T04:11:57.893Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0552314bd0b2867b4f9fa5118d9a6a81bb6c9579c0bc935b3927376c8959cf47",
   "install_command": "mkdir -p .claude/skills/google-address-validation-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/google-address-validation-automation/SKILL.md\" > .claude/skills/google-address-validation-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/google-address-validation-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4b385a571af16c3abe916497b3bfb9f05eba594135355b8968aeb9993f802b36",
   "indexed_at": "2026-02-24T22:48:13.585Z",
-  "synced_at": "2026-02-27T02:42:39.185Z",
+  "synced_at": "2026-02-28T04:12:12.917Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9821a651f48a57da9e713f64c17105e6640896efc8db7f4ad91837ae0e2d18e4",
   "install_command": "mkdir -p .claude/skills/accredible-certificates-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/accredible-certificates-automation/SKILL.md\" > .claude/skills/accredible-certificates-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/accredible-certificates-automation/SKILL.md"

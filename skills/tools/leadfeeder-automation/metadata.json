@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "21b6d4a8a20df26e3f70ce35da17f0a7f7ab4fc5831e24c81b9e2c486fd56fc4",
   "indexed_at": "2026-02-24T23:04:59.685Z",
-  "synced_at": "2026-02-27T02:42:34.190Z",
+  "synced_at": "2026-02-28T04:12:08.257Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/70d13298448e8cb98caa2c11955350f6ab856cf2fd313efc0d03b39f3aa51970",
   "install_command": "mkdir -p .claude/skills/leadfeeder-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/leadfeeder-automation/SKILL.md\" > .claude/skills/leadfeeder-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/leadfeeder-automation/SKILL.md"

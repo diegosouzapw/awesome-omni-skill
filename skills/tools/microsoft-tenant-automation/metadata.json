@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e4f70bcbd93970f18864e87617e4ca53219d24ac4e4c8749bab92c2d91271d4d",
   "indexed_at": "2026-02-25T20:26:37.113Z",
-  "synced_at": "2026-02-27T02:42:18.843Z",
+  "synced_at": "2026-02-28T04:11:53.893Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/28b498d3cdf7db8203b80fdb59ef62b2adf955a38f187294280808021ecff542",
   "install_command": "mkdir -p .claude/skills/microsoft-tenant-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/microsoft-tenant-automation/SKILL.md\" > .claude/skills/microsoft-tenant-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/microsoft-tenant-automation/SKILL.md"

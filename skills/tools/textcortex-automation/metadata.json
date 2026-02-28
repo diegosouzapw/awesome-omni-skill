@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f134ab0fe575ab7daf7da9708c46f225c8430ae9aea02819d86accb5777a15b2",
   "indexed_at": "2026-02-26T00:26:14.651Z",
-  "synced_at": "2026-02-27T02:41:45.490Z",
+  "synced_at": "2026-02-28T04:11:23.558Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cdfa22d2a36028103fdec3cad1b793f033b32885b92669c0af7496a8f4331f98",
   "install_command": "mkdir -p .claude/skills/textcortex-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/textcortex-automation/SKILL.md\" > .claude/skills/textcortex-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/textcortex-automation/SKILL.md"

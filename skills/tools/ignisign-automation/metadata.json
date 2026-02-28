@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6180ca444895fd3a34384f5acdc697f3e744fd58b34004e9da5e6db69dda38be",
   "indexed_at": "2026-02-24T23:04:04.473Z",
-  "synced_at": "2026-02-27T02:42:29.507Z",
+  "synced_at": "2026-02-28T04:12:03.790Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/de3593af7ec89c9b3850c7e6749e53d35d8a0bf7250bbaed16acf5c4f8945a6d",
   "install_command": "mkdir -p .claude/skills/ignisign-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ignisign-automation/SKILL.md\" > .claude/skills/ignisign-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ignisign-automation/SKILL.md"

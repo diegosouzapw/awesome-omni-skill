@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4895cc2788bfbaa0c1af7816bfbe83d2e48df0dfd3562e108a8067b91de2b8c3",
   "indexed_at": "2026-02-26T01:27:11.341Z",
-  "synced_at": "2026-02-27T02:41:43.850Z",
+  "synced_at": "2026-02-28T04:11:21.982Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1f6caeb457ddf1fee9087fb2ca4b2c8d8f4ba7a6e070139bc7e68aff1f116629",
   "install_command": "mkdir -p .claude/skills/zoho-inventory-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/zoho-inventory-automation/SKILL.md\" > .claude/skills/zoho-inventory-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/zoho-inventory-automation/SKILL.md"

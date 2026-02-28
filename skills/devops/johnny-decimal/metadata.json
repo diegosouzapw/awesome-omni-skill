@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3e0d835ad8ec96ca9fa73679f0debe3c26c3f4c62ef1a53383931b26de9c5247",
   "indexed_at": "2026-02-26T22:37:17.953Z",
-  "synced_at": "2026-02-27T02:41:35.558Z",
+  "synced_at": "2026-02-28T04:11:13.252Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2122f43f45129a3e69aef883f98f13df5a9890998d570dd0d081e3372dad5cbf",
   "install_command": "mkdir -p .claude/skills/johnny-decimal && curl -sL \"https://raw.githubusercontent.com/SebastienElet/dotfiles/main/.cursor/skills/johnny-decimal/SKILL.md\" > .claude/skills/johnny-decimal/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/SebastienElet/dotfiles/main/.cursor/skills/johnny-decimal/SKILL.md"

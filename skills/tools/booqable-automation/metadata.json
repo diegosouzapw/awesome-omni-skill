@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a879e7df4489fb3ebf5bf8ecaf6c6443b2f618b350b5fe8664bebb7f061daf84",
   "indexed_at": "2026-02-24T22:50:34.915Z",
-  "synced_at": "2026-02-27T02:42:48.282Z",
+  "synced_at": "2026-02-28T04:12:21.752Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/534cecd252853a30a62d70df59ce28883f38642904d9c35aabce0aa73befbf36",
   "install_command": "mkdir -p .claude/skills/booqable-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/booqable-automation/SKILL.md\" > .claude/skills/booqable-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/booqable-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d673d602deb1c080808df134f1b31651784fca5bc51f995b9d1311e1a8ab96be",
   "indexed_at": "2026-02-25T23:27:21.058Z",
-  "synced_at": "2026-02-27T02:41:59.094Z",
+  "synced_at": "2026-02-28T04:11:35.617Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/231866676ebc2b80d1ac47c620d7a55a7e765d5657880640babf237e66f89f29",
   "install_command": "mkdir -p .claude/skills/survey_monkey-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/survey_monkey-automation/SKILL.md\" > .claude/skills/survey_monkey-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/survey_monkey-automation/SKILL.md"

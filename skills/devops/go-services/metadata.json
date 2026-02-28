@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2096898a19e424a6934c9de52776226d1ca06475b3018b4bffcbd0284921c00b",
   "indexed_at": "2026-02-26T05:51:32.987Z",
-  "synced_at": "2026-02-27T02:41:32.072Z",
+  "synced_at": "2026-02-28T04:11:10.388Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7c4bfdc93f977fb78a703deead67eb44ebd51a10926f7d2dea275ebd39b97ac0",
   "install_command": "mkdir -p .claude/skills/go-services && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/go-services/SKILL.md\" > .claude/skills/go-services/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/go-services/SKILL.md"

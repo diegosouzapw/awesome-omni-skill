@@ -19,7 +19,7 @@
   "downloads": 1,
   "content_hash": "ae3c7e814426a3cf7d2d36176567b48686e39de75c8095758efd5e109b2904ab",
   "indexed_at": "2026-02-24T23:04:07.190Z",
-  "synced_at": "2026-02-27T02:42:29.672Z",
+  "synced_at": "2026-02-28T04:12:03.940Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cadb086c070446b6505c6a55d669d54078de7e0858d40f0ced97fa89a86a2a6b",
   "install_command": "mkdir -p .claude/skills/imgbb-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/imgbb-automation/SKILL.md\" > .claude/skills/imgbb-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/imgbb-automation/SKILL.md"

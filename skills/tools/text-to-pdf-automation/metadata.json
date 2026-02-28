@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "949e612c3c3772c981a5f3df0d2ef96c746c3f4819bdef8b72eddfbc9080ab9a",
   "indexed_at": "2026-02-26T00:26:13.076Z",
-  "synced_at": "2026-02-27T02:41:45.309Z",
+  "synced_at": "2026-02-28T04:11:23.411Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b51d546fcae141d50175c938cc215e3a65c9c082a25ad7875f9fb47a112f25c4",
   "install_command": "mkdir -p .claude/skills/text-to-pdf-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/text-to-pdf-automation/SKILL.md\" > .claude/skills/text-to-pdf-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/text-to-pdf-automation/SKILL.md"

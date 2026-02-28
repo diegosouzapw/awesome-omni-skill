@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0967a4337830b6257efe2459c21cea697a6d7a9b49a2fae3a66313a65af31845",
   "indexed_at": "2026-02-26T00:26:56.063Z",
-  "synced_at": "2026-02-27T02:41:49.162Z",
+  "synced_at": "2026-02-28T04:11:26.858Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/857ffd7bcb31b73d3566b83bfec86b4378cb4a513703c4415e7bfee79e100f6e",
   "install_command": "mkdir -p .claude/skills/twocaptcha-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/twocaptcha-automation/SKILL.md\" > .claude/skills/twocaptcha-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/twocaptcha-automation/SKILL.md"

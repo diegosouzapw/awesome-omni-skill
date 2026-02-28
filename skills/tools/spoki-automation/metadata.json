@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a720589adcd125b7b0471712f135a678fdbb2dff1adf81df1f84ac65fa109f48",
   "indexed_at": "2026-02-25T23:26:52.379Z",
-  "synced_at": "2026-02-27T02:41:56.867Z",
+  "synced_at": "2026-02-28T04:11:33.554Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b913a56c4b4ec07a87b2cfe29304b1ada85f1751631149bdad2d5498c6bf3113",
   "install_command": "mkdir -p .claude/skills/spoki-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/spoki-automation/SKILL.md\" > .claude/skills/spoki-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/spoki-automation/SKILL.md"

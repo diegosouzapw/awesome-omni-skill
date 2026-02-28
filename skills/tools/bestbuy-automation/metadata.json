@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "55e2698f3318a631e062d61137d0378faba908493cbdd86d7d58381a71c14920",
   "indexed_at": "2026-02-24T22:50:09.091Z",
-  "synced_at": "2026-02-27T02:42:46.152Z",
+  "synced_at": "2026-02-28T04:12:19.617Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/45a708d896dd9d85cbb6be7dc3d45a9d1f65490736cd7572f8b66eb3a94faddf",
   "install_command": "mkdir -p .claude/skills/bestbuy-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bestbuy-automation/SKILL.md\" > .claude/skills/bestbuy-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bestbuy-automation/SKILL.md"

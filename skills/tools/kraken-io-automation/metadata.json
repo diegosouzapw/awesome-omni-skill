@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a6c5482300eb2f7dc738d3c077d87ea23bf2cc32597e3d570cae4f4782205fd8",
   "indexed_at": "2026-02-24T23:04:49.005Z",
-  "synced_at": "2026-02-27T02:42:33.062Z",
+  "synced_at": "2026-02-28T04:12:07.094Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/06cdc6499e86e9b3e507eafdd9f706f259edce3ef6e46705a867fadcc8a4397a",
   "install_command": "mkdir -p .claude/skills/kraken-io-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/kraken-io-automation/SKILL.md\" > .claude/skills/kraken-io-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/kraken-io-automation/SKILL.md"

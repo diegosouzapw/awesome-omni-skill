@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "62ce4cc1573f6ab73b1b35f03742607e8be83aa50f3401437e6877513e2e12f5",
   "indexed_at": "2026-02-25T22:27:33.408Z",
-  "synced_at": "2026-02-27T02:42:07.994Z",
+  "synced_at": "2026-02-28T04:11:43.732Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7cefd68a4a7ed5430ba42b04c39315d038beaf5ccb17c759d2fadcf97d01a091",
   "install_command": "mkdir -p .claude/skills/seqera-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/seqera-automation/SKILL.md\" > .claude/skills/seqera-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/seqera-automation/SKILL.md"

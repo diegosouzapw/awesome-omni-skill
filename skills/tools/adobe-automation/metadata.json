@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ccafa2d15e743cecfa4b7aff040991ed2d5b657b74ca4a447b4278f294b3e5c4",
   "indexed_at": "2026-02-24T22:48:18.817Z",
-  "synced_at": "2026-02-27T02:42:39.638Z",
+  "synced_at": "2026-02-28T04:12:13.360Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0eb230b052cefd92ea1e3e3b2eefb8f93936d468fe874676bf83bea12f191cea",
   "install_command": "mkdir -p .claude/skills/adobe-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/adobe-automation/SKILL.md\" > .claude/skills/adobe-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/adobe-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0871e7ecd2e32f4220c4e3e534ea9401ef4951933260988b3950655f4b0896c8",
   "indexed_at": "2026-02-25T23:26:50.739Z",
-  "synced_at": "2026-02-27T02:41:56.698Z",
+  "synced_at": "2026-02-28T04:11:33.409Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6d564a5324979ba9a362d52612c27b45d5c398b20721de9905ac9e9b0134a9e9",
   "install_command": "mkdir -p .claude/skills/splitwise-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/splitwise-automation/SKILL.md\" > .claude/skills/splitwise-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/splitwise-automation/SKILL.md"

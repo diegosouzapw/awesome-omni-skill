@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "009137e85e056753ae754ee0645a8f252fe8d5bb0455eb3fc48377fb9b85ed4f",
   "indexed_at": "2026-02-24T23:05:16.580Z",
-  "synced_at": "2026-02-27T02:42:35.617Z",
+  "synced_at": "2026-02-28T04:12:09.480Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/351144a89e156adddf0411f472857cc061abfe0ea48ee337f98f65e2822b3c57",
   "install_command": "mkdir -p .claude/skills/linguapop-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/linguapop-automation/SKILL.md\" > .claude/skills/linguapop-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/linguapop-automation/SKILL.md"

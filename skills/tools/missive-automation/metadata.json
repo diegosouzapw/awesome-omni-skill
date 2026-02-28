@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2465c47e0df605714f0b0142fd7975a02fa4bd77ba2155fda470f59c884fb1e1",
   "indexed_at": "2026-02-25T20:26:40.507Z",
-  "synced_at": "2026-02-27T02:42:19.163Z",
+  "synced_at": "2026-02-28T04:11:54.194Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d0bf5e43e8a061079a8ab53a105f0b508be44674515230335a62d8abc05ce0bb",
   "install_command": "mkdir -p .claude/skills/missive-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/missive-automation/SKILL.md\" > .claude/skills/missive-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/missive-automation/SKILL.md"

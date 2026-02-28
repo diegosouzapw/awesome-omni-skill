@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c2f9393283f95108e3e4e20ffebb2d3389d378d9fac5a76f6face62df08727a9",
   "indexed_at": "2026-02-24T22:48:57.090Z",
-  "synced_at": "2026-02-27T02:42:42.080Z",
+  "synced_at": "2026-02-28T04:12:15.842Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d9795cfcd79dbf23bc85035c931f3247113423495734e4aa232e8546968ef912",
   "install_command": "mkdir -p .claude/skills/amcards-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/amcards-automation/SKILL.md\" > .claude/skills/amcards-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/amcards-automation/SKILL.md"

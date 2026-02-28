@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d0c9e60ad6cfab1044595403d103cd5ecac5f56b6b2bab91df4530896bb97972",
   "indexed_at": "2026-02-26T12:16:41.528Z",
-  "synced_at": "2026-02-27T02:41:33.449Z",
+  "synced_at": "2026-02-28T04:11:11.513Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9e75df54f579c59a8a00d64de6fcbfa3445c4d6efba2d5d0555e92e863d86be0",
   "install_command": "mkdir -p .claude/skills/k8s-simple-deploy && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/k8s-simple-deploy/SKILL.md\" > .claude/skills/k8s-simple-deploy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/k8s-simple-deploy/SKILL.md"

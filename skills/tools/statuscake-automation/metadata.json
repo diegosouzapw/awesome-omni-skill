@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c24b54d56e48869bce16051700500e16b3b02e083c98230db6b70374adadc0f",
   "indexed_at": "2026-02-25T23:27:04.735Z",
-  "synced_at": "2026-02-27T02:41:57.824Z",
+  "synced_at": "2026-02-28T04:11:34.432Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1f78548ec02c293cc10525210bc974d6808edaa2c0908ac998935ccb139b356e",
   "install_command": "mkdir -p .claude/skills/statuscake-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/statuscake-automation/SKILL.md\" > .claude/skills/statuscake-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/statuscake-automation/SKILL.md"

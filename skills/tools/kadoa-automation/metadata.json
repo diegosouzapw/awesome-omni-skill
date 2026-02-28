@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "51d3c5d710fa3538d23df58fddc165638f2f1ac9a9577fe3e7a59864b4befa04",
   "indexed_at": "2026-02-24T23:04:33.870Z",
-  "synced_at": "2026-02-27T02:42:31.590Z",
+  "synced_at": "2026-02-28T04:12:05.756Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9ce53f925775fea6797ae71f4b9ea7734678d51f6081feb646dbc9dbd9285384",
   "install_command": "mkdir -p .claude/skills/kadoa-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/kadoa-automation/SKILL.md\" > .claude/skills/kadoa-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/kadoa-automation/SKILL.md"

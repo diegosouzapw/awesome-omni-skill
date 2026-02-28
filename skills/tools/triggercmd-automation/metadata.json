@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "293bc6a3c948775571c059dd3ed6ec61b35e17f2b859ce38f2571aa5696c31ff",
   "indexed_at": "2026-02-26T00:26:46.206Z",
-  "synced_at": "2026-02-27T02:41:48.522Z",
+  "synced_at": "2026-02-28T04:11:26.255Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/93b24cb73a3f4c5f52db9a92ad9e6fd5b0ef2fe48dee88718933c0171d0e261d",
   "install_command": "mkdir -p .claude/skills/triggercmd-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/triggercmd-automation/SKILL.md\" > .claude/skills/triggercmd-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/triggercmd-automation/SKILL.md"

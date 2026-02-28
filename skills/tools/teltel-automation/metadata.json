@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8563dda0f432995180d95b6db47b685bb51210017f613dc48d9acf9d088829b6",
   "indexed_at": "2026-02-26T00:26:08.398Z",
-  "synced_at": "2026-02-27T02:41:44.986Z",
+  "synced_at": "2026-02-28T04:11:23.119Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/87a2175c889e616beb1c658bfbf5e91fd5e8142a57916b6b2828581d148db543",
   "install_command": "mkdir -p .claude/skills/teltel-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/teltel-automation/SKILL.md\" > .claude/skills/teltel-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/teltel-automation/SKILL.md"

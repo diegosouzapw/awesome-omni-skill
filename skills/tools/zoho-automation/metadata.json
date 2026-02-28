@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "deb222000c7ad0a852c745b7bc790decd603471cf6009a1218afa8a0d8e30e06",
   "indexed_at": "2026-02-26T01:27:04.722Z",
-  "synced_at": "2026-02-27T02:41:43.380Z",
+  "synced_at": "2026-02-28T04:11:21.478Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5bb2f52a965cea2d0a61c7402bad7079dfaf3c66528c8bfb013c5aa28be62620",
   "install_command": "mkdir -p .claude/skills/zoho-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/zoho-automation/SKILL.md\" > .claude/skills/zoho-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/zoho-automation/SKILL.md"

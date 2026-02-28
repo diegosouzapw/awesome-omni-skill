@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a931961a3834ac44c77840e12d1f65b15fab5535c9843664edbc87289da9631c",
   "indexed_at": "2026-02-25T20:26:55.372Z",
-  "synced_at": "2026-02-27T02:42:20.218Z",
+  "synced_at": "2026-02-28T04:11:55.067Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/19a47359a83a52d23111513593600f25fd57e75183d137426d6932e678d24a00",
   "install_command": "mkdir -p .claude/skills/mopinion-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mopinion-automation/SKILL.md\" > .claude/skills/mopinion-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mopinion-automation/SKILL.md"

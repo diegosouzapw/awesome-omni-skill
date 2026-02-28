@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c2e237b607702efe724e8a51faf7c965492da6445e393fcd57be1c8d695e88c6",
   "indexed_at": "2026-02-26T00:26:01.946Z",
-  "synced_at": "2026-02-27T02:41:44.336Z",
+  "synced_at": "2026-02-28T04:11:22.528Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3749fdfab7c59dda35d0a7fbbb7d50445de0f6b4ac7061432de3a2497b015c90",
   "install_command": "mkdir -p .claude/skills/tavily-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/tavily-automation/SKILL.md\" > .claude/skills/tavily-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/tavily-automation/SKILL.md"

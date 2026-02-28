@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b813f3867e143800f9cea984bff4274fb2d41ae33703f7dc3f3a397d8cbbd2f9",
   "indexed_at": "2026-02-24T23:03:10.451Z",
-  "synced_at": "2026-02-27T02:42:24.925Z",
+  "synced_at": "2026-02-28T04:11:59.513Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/712ac1d3afd128580ea8bde2fd71cecb2ef2d064906d3c216fd0c1b4b2bb6418",
   "install_command": "mkdir -p .claude/skills/gorgias-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/gorgias-automation/SKILL.md\" > .claude/skills/gorgias-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/gorgias-automation/SKILL.md"

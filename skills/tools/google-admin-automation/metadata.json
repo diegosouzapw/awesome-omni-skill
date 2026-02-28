@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c8fd30d0a81f7ea7d29b5d53ac28ecba8ab70a07d51046ddc34161fd06e473bb",
   "indexed_at": "2026-02-24T23:02:49.600Z",
-  "synced_at": "2026-02-27T02:42:23.418Z",
+  "synced_at": "2026-02-28T04:11:58.039Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0316b91d0810b64dd01c813ec397b5d81f42794e7293d225b4df8dfc14c92bef",
   "install_command": "mkdir -p .claude/skills/google-admin-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/google-admin-automation/SKILL.md\" > .claude/skills/google-admin-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/google-admin-automation/SKILL.md"

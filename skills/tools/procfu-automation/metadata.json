@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bf6517ffb3f0a0ac2130dab678f2374b1df9811d921c88795e056f2d6207820e",
   "indexed_at": "2026-02-25T21:27:28.608Z",
-  "synced_at": "2026-02-27T02:42:16.134Z",
+  "synced_at": "2026-02-28T04:11:51.269Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e2105f5f86c32184ca8b49ee773a860d6a21d8e2b63150fe51f8e6470168f037",
   "install_command": "mkdir -p .claude/skills/procfu-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/procfu-automation/SKILL.md\" > .claude/skills/procfu-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/procfu-automation/SKILL.md"

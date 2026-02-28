@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f721d1f5488f7a449ec8777f8a516e1d4a659534a919c871963962299b365aa7",
   "indexed_at": "2026-02-24T22:48:42.998Z",
-  "synced_at": "2026-02-27T02:42:41.014Z",
+  "synced_at": "2026-02-28T04:12:14.681Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/14143896dce5077f399c1a58cb3859acbb495bf3886a0f814d005e4eef841c87",
   "install_command": "mkdir -p .claude/skills/algolia-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/algolia-automation/SKILL.md\" > .claude/skills/algolia-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/algolia-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5b138191571c365a889a521c716b8c075c3d24b9fc08d890a60d33d87690fa08",
   "indexed_at": "2026-02-25T21:27:18.084Z",
-  "synced_at": "2026-02-27T02:42:15.331Z",
+  "synced_at": "2026-02-28T04:11:50.525Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/51cd9785660a8b6098c7fd93845f038d00140c00452ec640afa580b76f44d2ab",
   "install_command": "mkdir -p .claude/skills/precoro-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/precoro-automation/SKILL.md\" > .claude/skills/precoro-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/precoro-automation/SKILL.md"

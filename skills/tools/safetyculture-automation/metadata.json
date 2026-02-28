@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1c5385883d567c8f2b379615e7d56136eeba0f70ec7c599c159ec634c9303ff2",
   "indexed_at": "2026-02-25T22:26:49.300Z",
-  "synced_at": "2026-02-27T02:42:05.038Z",
+  "synced_at": "2026-02-28T04:11:41.063Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6de61be32783f2f8790420f979028471e29c24376794b5b7d809076efa22eb03",
   "install_command": "mkdir -p .claude/skills/safetyculture-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/safetyculture-automation/SKILL.md\" > .claude/skills/safetyculture-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/safetyculture-automation/SKILL.md"

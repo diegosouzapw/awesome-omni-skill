@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3e23a39597f74d27ccc729f5b5f31df2b8f608ef2d21fee0fea0eef6720ffb5e",
   "indexed_at": "2026-02-24T22:48:52.002Z",
-  "synced_at": "2026-02-27T02:42:41.480Z",
+  "synced_at": "2026-02-28T04:12:15.125Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/665f52d961c0760c864bcd88aceed90d325e63520d77ce6ec2bceaff4943802d",
   "install_command": "mkdir -p .claude/skills/amara-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/amara-automation/SKILL.md\" > .claude/skills/amara-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/amara-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d3edda69d5b3a69b312091fd158690c163598583249080407b09e55dd9a805a1",
   "indexed_at": "2026-02-25T21:25:53.930Z",
-  "synced_at": "2026-02-27T02:42:08.965Z",
+  "synced_at": "2026-02-28T04:11:44.624Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a552b78c451ab14ceead21820b6cb4d2e32be6fca0c5f3baefba3067af30c393",
   "install_command": "mkdir -p .claude/skills/onedesk-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/onedesk-automation/SKILL.md\" > .claude/skills/onedesk-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/onedesk-automation/SKILL.md"

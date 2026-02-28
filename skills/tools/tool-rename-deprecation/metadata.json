@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0992134e57cefd7c396d4b38319c8f5ae78c86db5db9a02cc9e92eb3b3bd501e",
   "indexed_at": "2026-02-24T23:51:32.933Z",
-  "synced_at": "2026-02-27T02:41:39.113Z",
+  "synced_at": "2026-02-28T04:11:17.564Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed4a0b557385d0a195ccf8d9fcd7a45cd5134a8d27565859616f5782e220a85e",
   "install_command": "mkdir -p .claude/skills/tool-rename-deprecation && curl -sL \"https://raw.githubusercontent.com/microsoft/vscode/main/.github/skills/tool-rename-deprecation/SKILL.md\" > .claude/skills/tool-rename-deprecation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/microsoft/vscode/main/.github/skills/tool-rename-deprecation/SKILL.md"

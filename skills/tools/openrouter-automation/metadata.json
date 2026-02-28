@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "17ca8d216940b7943cede1f5ab380b51d43de541139cce7b8daf93edd942575f",
   "indexed_at": "2026-02-25T21:26:10.237Z",
-  "synced_at": "2026-02-27T02:42:09.936Z",
+  "synced_at": "2026-02-28T04:11:45.617Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/44c745d17c512d5c9a9c9de758b5127572ab3d0b9f0889b155e13b59d2ae65fa",
   "install_command": "mkdir -p .claude/skills/openrouter-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/openrouter-automation/SKILL.md\" > .claude/skills/openrouter-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/openrouter-automation/SKILL.md"

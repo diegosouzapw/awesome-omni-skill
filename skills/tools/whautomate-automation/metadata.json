@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "39d63c1fe689c7349c520740650cd1ff42dd843d67458013fc4df5cb584f181c",
   "indexed_at": "2026-02-26T01:26:21.439Z",
-  "synced_at": "2026-02-27T02:41:40.292Z",
+  "synced_at": "2026-02-28T04:11:18.662Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d7c2dd87b5bfdb752e6cae52b2aef3726897ef12a505d5fb42059eb41767ad76",
   "install_command": "mkdir -p .claude/skills/whautomate-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/whautomate-automation/SKILL.md\" > .claude/skills/whautomate-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/whautomate-automation/SKILL.md"

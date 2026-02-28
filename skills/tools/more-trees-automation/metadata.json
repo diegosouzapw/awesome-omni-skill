@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4e2401bddd133c1be54723c4a750cde64f960328699ea666b9aeb18de44437ab",
   "indexed_at": "2026-02-25T20:26:56.873Z",
-  "synced_at": "2026-02-27T02:42:20.374Z",
+  "synced_at": "2026-02-28T04:11:55.219Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c6dd3faf20e10d221ba93c7c2e67948a1a78e2cb76776f5d7130a5ba74eb62bd",
   "install_command": "mkdir -p .claude/skills/more-trees-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/more-trees-automation/SKILL.md\" > .claude/skills/more-trees-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/more-trees-automation/SKILL.md"

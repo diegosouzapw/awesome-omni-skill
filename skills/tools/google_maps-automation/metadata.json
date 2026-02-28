@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "899a651bf29f2075dd043fa5c4c84ba086e97417288d2e217c93c33507aa82ef",
   "indexed_at": "2026-02-24T23:02:40.117Z",
-  "synced_at": "2026-02-27T02:42:23.123Z",
+  "synced_at": "2026-02-28T04:11:57.750Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b127f956df623007ae47dbfe0be6a9be97fa184d7978a2c0e57d650b6ffa296f",
   "install_command": "mkdir -p .claude/skills/google_maps-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/google_maps-automation/SKILL.md\" > .claude/skills/google_maps-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/google_maps-automation/SKILL.md"

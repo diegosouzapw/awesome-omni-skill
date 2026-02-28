@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eb66ca8009156d2cef2ca0c7762d0a306ea64baa2156669e432913e8c359a1b1",
   "indexed_at": "2026-02-25T22:27:30.110Z",
-  "synced_at": "2026-02-27T02:42:07.655Z",
+  "synced_at": "2026-02-28T04:11:43.441Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/370e2f4379637dfd6f9514ded147ee2420e195fd13944aa84188b90923fe7ba8",
   "install_command": "mkdir -p .claude/skills/sendspark-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sendspark-automation/SKILL.md\" > .claude/skills/sendspark-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sendspark-automation/SKILL.md"

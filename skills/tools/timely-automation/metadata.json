@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2ca2e7ff5596424d50929a891dbffebc8ba0aed7217baa401faebd595cade53f",
   "indexed_at": "2026-02-26T00:26:31.893Z",
-  "synced_at": "2026-02-27T02:41:47.060Z",
+  "synced_at": "2026-02-28T04:11:24.922Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f98a62240933b78f10a3103b386418036175bf8f5012d551d13acead0f90c63f",
   "install_command": "mkdir -p .claude/skills/timely-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/timely-automation/SKILL.md\" > .claude/skills/timely-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/timely-automation/SKILL.md"

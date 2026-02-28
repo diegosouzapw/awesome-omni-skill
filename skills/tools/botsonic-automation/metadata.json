@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3b11d78a2b3c3840253e4a226cbb7ea74a273ff83f255bbe874ebc9664687e1b",
   "indexed_at": "2026-02-24T22:50:40.185Z",
-  "synced_at": "2026-02-27T02:42:48.889Z",
+  "synced_at": "2026-02-28T04:12:22.339Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e997733e7ac875165a71666dba9e566c40eefe15b36de0a1aea1ed214c81c9c9",
   "install_command": "mkdir -p .claude/skills/botsonic-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/botsonic-automation/SKILL.md\" > .claude/skills/botsonic-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/botsonic-automation/SKILL.md"

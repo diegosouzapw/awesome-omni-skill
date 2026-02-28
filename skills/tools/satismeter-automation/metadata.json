@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2a2ef90f74d1aa3100c513841c52fb02e34a86a611b24da5543a5600bf15e04b",
   "indexed_at": "2026-02-25T22:26:59.215Z",
-  "synced_at": "2026-02-27T02:42:05.518Z",
+  "synced_at": "2026-02-28T04:11:41.507Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eb6bbe29a14145b5f4a25c469caaec8aa903f3714eb84f2a59a207ccaca684df",
   "install_command": "mkdir -p .claude/skills/satismeter-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/satismeter-automation/SKILL.md\" > .claude/skills/satismeter-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/satismeter-automation/SKILL.md"

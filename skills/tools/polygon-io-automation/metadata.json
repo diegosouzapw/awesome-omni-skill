@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3c38ec9ea6d0a45ab93f0f2f8312004598e276e2a2be2e542d44146691e63e13",
   "indexed_at": "2026-02-25T21:27:11.771Z",
-  "synced_at": "2026-02-27T02:42:14.687Z",
+  "synced_at": "2026-02-28T04:11:49.943Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c5fac6d146dd7da77bbfe8f214a611f59e5214be2cbba95a2ec804c2020f73c9",
   "install_command": "mkdir -p .claude/skills/polygon-io-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/polygon-io-automation/SKILL.md\" > .claude/skills/polygon-io-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/polygon-io-automation/SKILL.md"

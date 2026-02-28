@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a0c0c1469c31cd89d83a839e28d509a9247677b26fec5b1145c16c78b5923085",
   "indexed_at": "2026-02-25T23:27:11.241Z",
-  "synced_at": "2026-02-27T02:41:58.300Z",
+  "synced_at": "2026-02-28T04:11:34.872Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1a4bbfd5c871794d4f079cde3b1844fb64784a9f1578daae0008f2895ef79229",
   "install_command": "mkdir -p .claude/skills/strava-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/strava-automation/SKILL.md\" > .claude/skills/strava-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/strava-automation/SKILL.md"

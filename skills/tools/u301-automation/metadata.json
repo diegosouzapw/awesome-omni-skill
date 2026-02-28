@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fa69bf6502ed0bc8d790b7fb9d7bbed265a5d59127fd712a49bfc53664c8a946",
   "indexed_at": "2026-02-26T00:27:00.809Z",
-  "synced_at": "2026-02-27T02:41:49.641Z",
+  "synced_at": "2026-02-28T04:11:27.298Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3e775ccf81afaa90167b02f79245f1a01c704e0b3127f1e78d2ec79219b6c574",
   "install_command": "mkdir -p .claude/skills/u301-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/u301-automation/SKILL.md\" > .claude/skills/u301-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/u301-automation/SKILL.md"

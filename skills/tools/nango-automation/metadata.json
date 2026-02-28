@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cba22a69015f59ad4ee8f9f5498de900123a30afe471abdef176a93a752aee25",
   "indexed_at": "2026-02-25T20:27:08.519Z",
-  "synced_at": "2026-02-27T02:42:21.479Z",
+  "synced_at": "2026-02-28T04:11:56.267Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b717a4606feb7ed4c7cbd810b82848b0acd722d9139ba88645c34833eee5e818",
   "install_command": "mkdir -p .claude/skills/nango-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/nango-automation/SKILL.md\" > .claude/skills/nango-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/nango-automation/SKILL.md"

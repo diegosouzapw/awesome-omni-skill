@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a260027bdc7bfe7ed13e7b72b3fac9b5a2fa50cbed58b95948627ce64ac8b1bb",
   "indexed_at": "2026-02-25T23:26:33.487Z",
-  "synced_at": "2026-02-27T02:41:55.416Z",
+  "synced_at": "2026-02-28T04:11:31.953Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/459cd4c536feb28e3a44221059717e2fa1654f3ee97609ab91240051712bc39e",
   "install_command": "mkdir -p .claude/skills/simplesat-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/simplesat-automation/SKILL.md\" > .claude/skills/simplesat-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/simplesat-automation/SKILL.md"

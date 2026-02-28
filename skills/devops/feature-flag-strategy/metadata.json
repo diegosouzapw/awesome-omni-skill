@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "68fbd9ba140110e3d479d019d8ec0e2490c951095fd56057cb69e93b61d9ce1b",
   "indexed_at": "2026-02-26T22:32:48.802Z",
-  "synced_at": "2026-02-27T02:41:30.818Z",
+  "synced_at": "2026-02-28T04:11:09.188Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/66707f35d7d0848854002ab6537f9ffded9575323b95b95aa135e86cc2cb09c1",
   "install_command": "mkdir -p .claude/skills/feature-flag-strategy && curl -sL \"https://raw.githubusercontent.com/cdalsoniii/brightpath-coder/main/.cursor/skills/feature-flag-strategy/SKILL.md\" > .claude/skills/feature-flag-strategy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cdalsoniii/brightpath-coder/main/.cursor/skills/feature-flag-strategy/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2052f52c17cb2695b27aade5bd766204c11918068ff6a8feeb85fb23f3c2e7f8",
   "indexed_at": "2026-02-24T23:03:17.458Z",
-  "synced_at": "2026-02-27T02:42:25.743Z",
+  "synced_at": "2026-02-28T04:12:00.378Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e68b5d32bec335ccdb5efdc49f104e48b92ed10a447895dc41221ba246d393d9",
   "install_command": "mkdir -p .claude/skills/grist-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/grist-automation/SKILL.md\" > .claude/skills/grist-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/grist-automation/SKILL.md"

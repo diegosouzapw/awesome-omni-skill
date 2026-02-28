@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "17c333e2a3d0ee839e5c08337c14709dc24de0afc79fdfee138131ea65c559e4",
   "indexed_at": "2026-02-24T23:04:53.052Z",
-  "synced_at": "2026-02-27T02:42:33.551Z",
+  "synced_at": "2026-02-28T04:12:07.536Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0728089ab533f3e2a71493aa1d3f7f9114f017940d05404b7686feeb9c0adbae",
   "install_command": "mkdir -p .claude/skills/landbot-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/landbot-automation/SKILL.md\" > .claude/skills/landbot-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/landbot-automation/SKILL.md"

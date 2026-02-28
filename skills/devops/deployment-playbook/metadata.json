@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d929dcf5d1d6b071e988c212187a196ce0b41a623179bb3d26f5cf1688ce83fc",
   "indexed_at": "2026-02-25T16:08:56.041Z",
-  "synced_at": "2026-02-27T02:41:38.776Z",
+  "synced_at": "2026-02-28T04:11:17.249Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aecb3d66f7bb5ddce559a464501b6522d1e320b56b1c0a9a27d2cacfa766ed14",
   "install_command": "mkdir -p .claude/skills/deployment-playbook && curl -sL \"https://raw.githubusercontent.com/pedroct/treit-kit-agentes/main/.agents/skills/deployment-playbook/SKILL.md\" > .claude/skills/deployment-playbook/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pedroct/treit-kit-agentes/main/.agents/skills/deployment-playbook/SKILL.md"

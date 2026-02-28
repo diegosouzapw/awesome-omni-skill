@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7e70eedb19bdb710b939aea777b3af64b02aa29c7d5781c45afbab1f8e946837",
   "indexed_at": "2026-02-24T22:50:20.108Z",
-  "synced_at": "2026-02-27T02:42:46.936Z",
+  "synced_at": "2026-02-28T04:12:20.360Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8ee12313a3df902e73b1b1bf7db7a77b3062dc3c302233d93483277b1de47c7a",
   "install_command": "mkdir -p .claude/skills/bitquery-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bitquery-automation/SKILL.md\" > .claude/skills/bitquery-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bitquery-automation/SKILL.md"

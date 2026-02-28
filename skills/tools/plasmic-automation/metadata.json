@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b93ac9ee9e517cdd7083d9e114204d9138e24bf8055c4e9e4c812f9618663445",
   "indexed_at": "2026-02-25T21:27:05.735Z",
-  "synced_at": "2026-02-27T02:42:14.045Z",
+  "synced_at": "2026-02-28T04:11:49.341Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/742d451dddf4ed5a94fcd66238a435e3a1181acdc6be239848eac6852e7549e5",
   "install_command": "mkdir -p .claude/skills/plasmic-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/plasmic-automation/SKILL.md\" > .claude/skills/plasmic-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/plasmic-automation/SKILL.md"

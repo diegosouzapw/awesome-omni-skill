@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7be3d1e21434b462e3b4f9a4cf92595f3be27b4808e7c17a36e8ef5adddaba1d",
   "indexed_at": "2026-02-25T23:27:28.833Z",
-  "synced_at": "2026-02-27T02:41:59.592Z",
+  "synced_at": "2026-02-28T04:11:36.059Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ea5a721fe2950760c8e9e5020c5b0f2e00bd61e06b33f91d8e03a95aafad07b5",
   "install_command": "mkdir -p .claude/skills/taggun-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/taggun-automation/SKILL.md\" > .claude/skills/taggun-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/taggun-automation/SKILL.md"

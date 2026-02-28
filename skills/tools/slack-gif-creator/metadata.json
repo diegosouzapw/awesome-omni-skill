@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a0183ea94a5d513aea192b1fff395118f9628715c05b3f190b0771bccf367095",
   "indexed_at": "2026-02-24T22:47:55.706Z",
-  "synced_at": "2026-02-27T02:42:37.968Z",
+  "synced_at": "2026-02-28T04:12:11.681Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dd0e37a801cfbad53aba3e980b838aa1481f37f47962b8b1ad4183bcd78a2cf9",
   "install_command": "mkdir -p .claude/skills/slack-gif-creator && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/slack-gif-creator/SKILL.md\" > .claude/skills/slack-gif-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/slack-gif-creator/SKILL.md"

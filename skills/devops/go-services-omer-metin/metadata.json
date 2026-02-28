@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "529cf1bde4714dd7181fc287ea51d23cfc30ecace97c79739d6e4a1aeb99be5c",
   "indexed_at": "2026-02-26T05:53:57.937Z",
-  "synced_at": "2026-02-27T02:41:32.275Z",
+  "synced_at": "2026-02-28T04:11:10.597Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5c1f47c7eadd93271c95fe78a40b88604326f6ce58e9ffc1d13a44d9cc43864c",
   "install_command": "mkdir -p .claude/skills/go-services && curl -sL \"https://raw.githubusercontent.com/omer-metin/skills-for-antigravity/main/skills/go-services/SKILL.md\" > .claude/skills/go-services/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/omer-metin/skills-for-antigravity/main/skills/go-services/SKILL.md"

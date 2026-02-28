@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0fc8406a9dc79544b0a4ce2c83381ca36142fa16a6d3f9b3e60a6974f89edaf5",
   "indexed_at": "2026-02-25T22:25:50.437Z",
-  "synced_at": "2026-02-27T02:42:01.038Z",
+  "synced_at": "2026-02-28T04:11:37.400Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7e0dbaac33fbabd2c34cd3e466b4b1d67a2fd10ef29e6485667207948d56e5a4",
   "install_command": "mkdir -p .claude/skills/radar-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/radar-automation/SKILL.md\" > .claude/skills/radar-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/radar-automation/SKILL.md"

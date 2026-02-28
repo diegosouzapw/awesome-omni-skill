@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4a8f5ae5b035f15b4db28c781d6f6f7839b55f61f2ddd68cb68d19fc0bdda067",
   "indexed_at": "2026-02-26T14:24:09.583Z",
-  "synced_at": "2026-02-27T02:41:35.368Z",
+  "synced_at": "2026-02-28T04:11:13.084Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4e90a8c4ce23fc71a05ffc74fd2571c7083f2b3a97ac5957ea045486e39a4c76",
   "install_command": "mkdir -p .claude/skills/cicd-pipeline && curl -sL \"https://raw.githubusercontent.com/amo-tech-ai/rocket-path-ai/main/.agents/skills/devops/cicd-pipeline/SKILL.md\" > .claude/skills/cicd-pipeline/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/amo-tech-ai/rocket-path-ai/main/.agents/skills/devops/cicd-pipeline/SKILL.md"

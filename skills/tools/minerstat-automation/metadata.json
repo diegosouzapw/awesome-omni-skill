@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cad819d729a38a231409a62e8fd2a87e15255827fdbd2f72001bbd9c236b1697",
   "indexed_at": "2026-02-25T20:26:39.049Z",
-  "synced_at": "2026-02-27T02:42:19.007Z",
+  "synced_at": "2026-02-28T04:11:54.036Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/048fef5cbe5bd615f8d66a9a2e974f049d417b18e0a4e88765a38c497fe79427",
   "install_command": "mkdir -p .claude/skills/minerstat-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/minerstat-automation/SKILL.md\" > .claude/skills/minerstat-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/minerstat-automation/SKILL.md"

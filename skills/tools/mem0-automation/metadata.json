@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "80dcdd3bbd675241f40f84619cfecd9e531383f47ec47f1ebeee64ea96e7b8bc",
   "indexed_at": "2026-02-25T20:26:22.406Z",
-  "synced_at": "2026-02-27T02:42:17.574Z",
+  "synced_at": "2026-02-28T04:11:52.601Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4edad4e51d559469b51d09bc33275b2e84c4d45da4de66979bff47a3eba1d66e",
   "install_command": "mkdir -p .claude/skills/mem0-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mem0-automation/SKILL.md\" > .claude/skills/mem0-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mem0-automation/SKILL.md"

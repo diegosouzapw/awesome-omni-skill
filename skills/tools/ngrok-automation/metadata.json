@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7f9c62dee0ec2e9d9eab610eb89f88f7e08618d7c8f0f9edac65f9c4eecbf44b",
   "indexed_at": "2026-02-25T21:25:40.914Z",
-  "synced_at": "2026-02-27T02:42:08.159Z",
+  "synced_at": "2026-02-28T04:11:43.888Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/44e0e751e0cd1d6d3ba327e6ca0bffbfdd8a6919391d7c9410837e08f068e90a",
   "install_command": "mkdir -p .claude/skills/ngrok-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ngrok-automation/SKILL.md\" > .claude/skills/ngrok-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ngrok-automation/SKILL.md"

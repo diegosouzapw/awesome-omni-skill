@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7a36d2a1598a25c175ad5d80875f084d61202068c0f4b1f0e16eb01bc7c9cce3",
   "indexed_at": "2026-02-24T22:50:13.070Z",
-  "synced_at": "2026-02-27T02:42:46.621Z",
+  "synced_at": "2026-02-28T04:12:20.063Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/10788cfa3aa9cfe6e6bf4202e0826b47692a821122e9b92a3fb66a4eed62c0af",
   "install_command": "mkdir -p .claude/skills/bidsketch-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bidsketch-automation/SKILL.md\" > .claude/skills/bidsketch-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bidsketch-automation/SKILL.md"

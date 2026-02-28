@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d92a7d1615c164d905388bb61b523dc351cd74e3a0fb2ace404dd535dd5e84b9",
   "indexed_at": "2026-02-26T16:37:37.642Z",
-  "synced_at": "2026-02-27T02:41:30.114Z",
+  "synced_at": "2026-02-28T04:11:07.700Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a17a145f892918ca04ffbe1c9e772fe51c9698c46684951296eb6574a3c3a79b",
   "install_command": "mkdir -p .claude/skills/slack-integration && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/yonatangross/orchestkit/slack-integration/SKILL.md\" > .claude/skills/slack-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/yonatangross/orchestkit/slack-integration/SKILL.md"

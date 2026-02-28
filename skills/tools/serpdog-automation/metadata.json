@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "13959d3aebcf66c960dd68d99a6dea1480f74947a6a5b6907cd10ad2d2ce28dc",
   "indexed_at": "2026-02-25T23:25:59.845Z",
-  "synced_at": "2026-02-27T02:41:52.222Z",
+  "synced_at": "2026-02-28T04:11:29.718Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b37ce99786b9651b09eb129bb75ae0462d8bca392f4e1bf258b282ca70aba798",
   "install_command": "mkdir -p .claude/skills/serpdog-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/serpdog-automation/SKILL.md\" > .claude/skills/serpdog-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/serpdog-automation/SKILL.md"

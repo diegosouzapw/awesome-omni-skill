@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5ffcf99393dad98d8c9b08e6156637a91c0484017d3cf8a0cdb219185036678b",
   "indexed_at": "2026-02-24T22:48:54.544Z",
-  "synced_at": "2026-02-27T02:42:41.779Z",
+  "synced_at": "2026-02-28T04:12:15.437Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7c139b6fd574aa28769ebee8b5b1473df2ed7dd36c606d4d6f93f6c475ca9593",
   "install_command": "mkdir -p .claude/skills/ambee-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ambee-automation/SKILL.md\" > .claude/skills/ambee-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ambee-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1604ed50cf35d7ad33461a53a30c04960fe636c204074dea595fd40fea6e4905",
   "indexed_at": "2026-02-26T12:18:14.285Z",
-  "synced_at": "2026-02-27T02:41:34.636Z",
+  "synced_at": "2026-02-28T04:11:12.400Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1b621456e9901da89a84c0573018dd3f8edd99f7369953196222482c3e17560d",
   "install_command": "mkdir -p .claude/skills/k8s-gen && curl -sL \"https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/lxgicstudios/k8s-config-gen/SKILL.md\" > .claude/skills/k8s-gen/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/lxgicstudios/k8s-config-gen/SKILL.md"

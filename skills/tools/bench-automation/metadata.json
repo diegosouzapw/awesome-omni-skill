@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6da2fef2ffb9224eb44cfe149c2d2fb7e00a918382bbb505b2de98a9b157ccd5",
   "indexed_at": "2026-02-24T22:50:05.391Z",
-  "synced_at": "2026-02-27T02:42:45.849Z",
+  "synced_at": "2026-02-28T04:12:19.320Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a573717882939253b56bead75ed760a1f6e76b54a6483fffe0c7c8836b6bbeda",
   "install_command": "mkdir -p .claude/skills/bench-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bench-automation/SKILL.md\" > .claude/skills/bench-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bench-automation/SKILL.md"

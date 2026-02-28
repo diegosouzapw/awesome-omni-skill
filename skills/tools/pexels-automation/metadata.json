@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "11f6bdad25c0c8ac987d8ef68b89a1c97d273f1ac5100c8bcd68d3ff915e7471",
   "indexed_at": "2026-02-25T21:26:48.700Z",
-  "synced_at": "2026-02-27T02:42:13.096Z",
+  "synced_at": "2026-02-28T04:11:48.441Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/54600d247a04429015493291e965c837fb0afee03ab752dd9640939f7b5ec4d1",
   "install_command": "mkdir -p .claude/skills/pexels-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/pexels-automation/SKILL.md\" > .claude/skills/pexels-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/pexels-automation/SKILL.md"

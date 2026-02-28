@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b61571fa2481c034a4e43ee82656c9a803e21a3667cf158983a5d3422a815ebf",
   "indexed_at": "2026-02-26T00:27:12.537Z",
-  "synced_at": "2026-02-27T02:41:50.618Z",
+  "synced_at": "2026-02-28T04:11:28.194Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1a09c55cf5e395fc3dcb0c01a78416c1f8ffb1dc3d97248c1d844a984276a985",
   "install_command": "mkdir -p .claude/skills/venly-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/venly-automation/SKILL.md\" > .claude/skills/venly-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/venly-automation/SKILL.md"

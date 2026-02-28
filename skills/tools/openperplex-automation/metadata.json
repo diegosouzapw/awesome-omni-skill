@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d71731c5441fe3030d38dfcb3b879d7d4f2f1eacfde887dfa2409594ad628f56",
   "indexed_at": "2026-02-25T21:26:08.498Z",
-  "synced_at": "2026-02-27T02:42:09.778Z",
+  "synced_at": "2026-02-28T04:11:45.469Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f1d413c8c25c69e6468fb8b78f3ecee0bd2e5a285bad257a4dfb300681da7f35",
   "install_command": "mkdir -p .claude/skills/openperplex-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/openperplex-automation/SKILL.md\" > .claude/skills/openperplex-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/openperplex-automation/SKILL.md"

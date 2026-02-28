@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "858398af5f11a98745c6a4b0206243ba20e96bf244b3a229bef3f359f5016b7e",
   "indexed_at": "2026-02-26T00:27:04.010Z",
-  "synced_at": "2026-02-27T02:41:49.978Z",
+  "synced_at": "2026-02-28T04:11:27.598Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/baa8027db1c452d01e9ddb99c3a047b6c5cfb77f8e07145ac65dfc1cf7d484bd",
   "install_command": "mkdir -p .claude/skills/updown-io-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/updown-io-automation/SKILL.md\" > .claude/skills/updown-io-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/updown-io-automation/SKILL.md"

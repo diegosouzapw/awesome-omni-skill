@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a37dd0f6d5028f89e088cc6cb958af9bb01e1e060405c2f39dd8e2ed7ccd84cd",
   "indexed_at": "2026-02-25T23:26:09.899Z",
-  "synced_at": "2026-02-27T02:41:53.039Z",
+  "synced_at": "2026-02-28T04:11:30.602Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8a74e7f77777259c1e13ec7f36b05281796f4403484004af37662f54c35729da",
   "install_command": "mkdir -p .claude/skills/shipengine-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/shipengine-automation/SKILL.md\" > .claude/skills/shipengine-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/shipengine-automation/SKILL.md"

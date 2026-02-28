@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b0cecc66a4f7f0876600fec1c2a1158fb9e02a71e1e60633b96e09465b6de0a6",
   "indexed_at": "2026-02-25T21:26:22.966Z",
-  "synced_at": "2026-02-27T02:42:10.890Z",
+  "synced_at": "2026-02-28T04:11:46.529Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cff63f039bd75799fad1f18f351977a85840e84b080c899a274d8e83776c6e7a",
   "install_command": "mkdir -p .claude/skills/parma-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/parma-automation/SKILL.md\" > .claude/skills/parma-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/parma-automation/SKILL.md"

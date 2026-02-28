@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9a7391b4626b2235e6efbf311961082d876f2cd13f4ab6897a0eacb0674f87a3",
   "indexed_at": "2026-02-27T00:31:14.271Z",
-  "synced_at": "2026-02-27T02:41:37.155Z",
+  "synced_at": "2026-02-28T04:11:15.865Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/676d9a2930d42c986006e4ace3495632f87b58b42b77ceedf2bee7e0946605b5",
   "install_command": "mkdir -p .claude/skills/update-notes && curl -sL \"https://raw.githubusercontent.com/andrewimm/take-notes/main/SKILL.md\" > .claude/skills/update-notes/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/andrewimm/take-notes/main/SKILL.md"

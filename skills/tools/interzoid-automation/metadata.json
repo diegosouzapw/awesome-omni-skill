@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e6bbeb6149f76b3257f26efa6cb40e6ec5d01be287c27581ecf85e4451ddd24a",
   "indexed_at": "2026-02-24T23:04:16.567Z",
-  "synced_at": "2026-02-27T02:42:30.314Z",
+  "synced_at": "2026-02-28T04:12:04.553Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2a3bd5abc5816308bbccf7899679ee660777a9168f2452b1c617011bd2e81a75",
   "install_command": "mkdir -p .claude/skills/interzoid-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/interzoid-automation/SKILL.md\" > .claude/skills/interzoid-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/interzoid-automation/SKILL.md"

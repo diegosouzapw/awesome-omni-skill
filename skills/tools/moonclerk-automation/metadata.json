@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cb58d92fa1377dc79afd4d1206b5e2f0dfa35f33b09307f9369fdf98921800a3",
   "indexed_at": "2026-02-25T20:26:52.031Z",
-  "synced_at": "2026-02-27T02:42:19.904Z",
+  "synced_at": "2026-02-28T04:11:54.775Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/42699c992e9a39a8a6b038db53e2c3c6e9d4ef25c2ff77f06e9af99fb7e43a98",
   "install_command": "mkdir -p .claude/skills/moonclerk-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/moonclerk-automation/SKILL.md\" > .claude/skills/moonclerk-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/moonclerk-automation/SKILL.md"

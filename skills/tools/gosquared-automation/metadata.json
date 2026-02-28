@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5e1216fae27afdacc7d2c345b154191f38e58a7ca5d0b0405cdb16d73b5a7783",
   "indexed_at": "2026-02-24T23:03:11.609Z",
-  "synced_at": "2026-02-27T02:42:25.072Z",
+  "synced_at": "2026-02-28T04:11:59.662Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f73e1e57a97e0d284923e0eb79d09e240babfce6c8945e916728eac2504c780b",
   "install_command": "mkdir -p .claude/skills/gosquared-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/gosquared-automation/SKILL.md\" > .claude/skills/gosquared-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/gosquared-automation/SKILL.md"

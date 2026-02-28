@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "763a34cdd35ea6030f45303f50837cf35051737240db4dedebfc6dbdcb22ca5c",
   "indexed_at": "2026-02-26T00:26:36.922Z",
-  "synced_at": "2026-02-27T02:41:47.548Z",
+  "synced_at": "2026-02-28T04:11:25.365Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fb7364bb41b7688cbd07fc071383721355e478a12efd4e1c4c705b701d121ed7",
   "install_command": "mkdir -p .claude/skills/toggl-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/toggl-automation/SKILL.md\" > .claude/skills/toggl-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/toggl-automation/SKILL.md"

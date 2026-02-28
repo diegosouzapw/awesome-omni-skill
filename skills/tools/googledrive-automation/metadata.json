@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8bc417b9bbbb775709872b643c14af55abf510c459e05946ab3c12b97fdf2e62",
   "indexed_at": "2026-02-24T23:03:01.661Z",
-  "synced_at": "2026-02-27T02:42:24.170Z",
+  "synced_at": "2026-02-28T04:11:58.773Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bce735c21c6cfef3ea9484bb0ccb17b9437caa98e8a77495c4474abe57b89350",
   "install_command": "mkdir -p .claude/skills/googledrive-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/googledrive-automation/SKILL.md\" > .claude/skills/googledrive-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/googledrive-automation/SKILL.md"

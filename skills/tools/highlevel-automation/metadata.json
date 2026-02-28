@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e060b58dbf1a110e27d010d742bcf1ae13e1a8eb411057e400c1332d17b57856",
   "indexed_at": "2026-02-24T23:03:39.534Z",
-  "synced_at": "2026-02-27T02:42:27.342Z",
+  "synced_at": "2026-02-28T04:12:01.851Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/36cfb1a3f41551659b9ba9975125cafbf9b03422edeb6456293dad099688b433",
   "install_command": "mkdir -p .claude/skills/highlevel-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/highlevel-automation/SKILL.md\" > .claude/skills/highlevel-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/highlevel-automation/SKILL.md"

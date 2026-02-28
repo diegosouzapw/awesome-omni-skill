@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dd8f0c78b8507dd2dd766bd32d3e82aab82e56eb87941b93c5e1889f7b4f1dae",
   "indexed_at": "2026-02-24T22:50:33.224Z",
-  "synced_at": "2026-02-27T02:42:48.129Z",
+  "synced_at": "2026-02-28T04:12:21.605Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8f9c5fc1a6f49060994acb1ea476bc893789e038364de26af4328018d23ce729",
   "install_command": "mkdir -p .claude/skills/bookingmood-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bookingmood-automation/SKILL.md\" > .claude/skills/bookingmood-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bookingmood-automation/SKILL.md"

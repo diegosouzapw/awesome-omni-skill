@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "07348a1f52c192fb79c38610327c127572e6696a7bfea5cd97897d2b22cc6b68",
   "indexed_at": "2026-02-25T20:26:58.632Z",
-  "synced_at": "2026-02-27T02:42:20.527Z",
+  "synced_at": "2026-02-28T04:11:55.379Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8b3c451fa87c34ee6882f1157b9a951e0f785c87d1da54157d04fca03102d80c",
   "install_command": "mkdir -p .claude/skills/moxie-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/moxie-automation/SKILL.md\" > .claude/skills/moxie-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/moxie-automation/SKILL.md"

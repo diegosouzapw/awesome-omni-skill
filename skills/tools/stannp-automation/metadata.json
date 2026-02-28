@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "484656142ec6bde8cb88b5db81c9940c90c4c86fb19c1131443030190e5bdd32",
   "indexed_at": "2026-02-25T23:27:01.661Z",
-  "synced_at": "2026-02-27T02:41:57.504Z",
+  "synced_at": "2026-02-28T04:11:34.136Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ba4618f98bd0086baa2718efe5b16b0805baa5dac53bfc55fe5d465d412e61e6",
   "install_command": "mkdir -p .claude/skills/stannp-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/stannp-automation/SKILL.md\" > .claude/skills/stannp-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/stannp-automation/SKILL.md"

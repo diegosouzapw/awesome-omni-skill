@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b26df8ee956787a560db4136202056cd6e29df383ccd9fd1f69104f6e27d601a",
   "indexed_at": "2026-02-25T23:26:17.726Z",
-  "synced_at": "2026-02-27T02:41:53.523Z",
+  "synced_at": "2026-02-28T04:11:31.056Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/43bf3d6a8edec80f0864cca22fc57284f71793a598b804c26f2b5dc0847843fd",
   "install_command": "mkdir -p .claude/skills/shortpixel-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/shortpixel-automation/SKILL.md\" > .claude/skills/shortpixel-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/shortpixel-automation/SKILL.md"

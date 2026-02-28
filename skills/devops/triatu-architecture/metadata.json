@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d0f98b2dccbcf79aa056490c22150fe99476db21601a6515b7dc76d608bdf480",
   "indexed_at": "2026-02-25T21:40:46.899Z",
-  "synced_at": "2026-02-27T02:41:31.444Z",
+  "synced_at": "2026-02-28T04:11:09.803Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d48850bda3514279043a5e2ac811cc1a49505afc3ce36d507cb0857cff9d4c43",
   "install_command": "mkdir -p .claude/skills/triatu-architecture && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/triatu-architecture/SKILL.md\" > .claude/skills/triatu-architecture/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/triatu-architecture/SKILL.md"

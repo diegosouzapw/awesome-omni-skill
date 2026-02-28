@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b59d7768aa41d8cf7576f245c63425010f0bbe0e3c86fe63ec32edf21daf7b29",
   "indexed_at": "2026-02-25T23:26:01.732Z",
-  "synced_at": "2026-02-27T02:41:52.382Z",
+  "synced_at": "2026-02-28T04:11:29.969Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/888655753d723465f2d541e78161694140475b841439b5cc9d428127fe18c859",
   "install_command": "mkdir -p .claude/skills/serply-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/serply-automation/SKILL.md\" > .claude/skills/serply-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/serply-automation/SKILL.md"

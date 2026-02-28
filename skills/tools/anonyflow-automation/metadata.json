@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "df0733c931bed25b7c8577c0ab0449240ae4da0d36c0c3e01167ad019e10e74e",
   "indexed_at": "2026-02-24T22:48:59.781Z",
-  "synced_at": "2026-02-27T02:42:42.378Z",
+  "synced_at": "2026-02-28T04:12:16.154Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b940f71ebcae7c3eec85a997ba0d9668131aa70b673974554269b79cb5843112",
   "install_command": "mkdir -p .claude/skills/anonyflow-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/anonyflow-automation/SKILL.md\" > .claude/skills/anonyflow-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/anonyflow-automation/SKILL.md"

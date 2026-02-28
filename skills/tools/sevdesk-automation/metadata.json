@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "78a22d7c96d17dd882c40ffca2a08de8ff83adc7e116373875d7948054c27c6a",
   "indexed_at": "2026-02-25T23:26:04.881Z",
-  "synced_at": "2026-02-27T02:41:52.718Z",
+  "synced_at": "2026-02-28T04:11:30.267Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8ce5d6f060597f96c0403e1ba54ec3aa1e98ce01904ea59b3b8c578b541801b6",
   "install_command": "mkdir -p .claude/skills/sevdesk-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sevdesk-automation/SKILL.md\" > .claude/skills/sevdesk-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sevdesk-automation/SKILL.md"

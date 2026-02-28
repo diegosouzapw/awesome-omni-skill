@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6d65a3c182dd0431b1816c535febc5f962fd8bd2d7532c5963535a2ebc598d70",
   "indexed_at": "2026-02-25T21:25:48.885Z",
-  "synced_at": "2026-02-27T02:42:08.640Z",
+  "synced_at": "2026-02-28T04:11:44.324Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/04639760ba92ed3ea0d328338e7404958abf84b8dd74e68dbfc5edddf409e3ca",
   "install_command": "mkdir -p .claude/skills/ocrspace-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ocrspace-automation/SKILL.md\" > .claude/skills/ocrspace-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ocrspace-automation/SKILL.md"

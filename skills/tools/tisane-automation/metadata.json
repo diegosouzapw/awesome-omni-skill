@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e4c6a1210a103049a1d7118fb64f73cbef8e79c5d55f96167f24ec1face10111",
   "indexed_at": "2026-02-26T00:26:35.208Z",
-  "synced_at": "2026-02-27T02:41:47.386Z",
+  "synced_at": "2026-02-28T04:11:25.215Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a38ff4251e9f93bc221a71143bc5bf30512f666d902ad043a114651789e2cbe6",
   "install_command": "mkdir -p .claude/skills/tisane-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/tisane-automation/SKILL.md\" > .claude/skills/tisane-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/tisane-automation/SKILL.md"

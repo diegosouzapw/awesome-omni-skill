@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e4d3bcec619f470bd6dccdafe16c74bd11798f7202b51da7507e7aaae8e87723",
   "indexed_at": "2026-02-25T23:26:53.900Z",
-  "synced_at": "2026-02-27T02:41:57.030Z",
+  "synced_at": "2026-02-28T04:11:33.698Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0b475a9dab0b1cd60b5a221967953560d6b5258b33d2b2e42af6a5a794dfbada",
   "install_command": "mkdir -p .claude/skills/spondyr-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/spondyr-automation/SKILL.md\" > .claude/skills/spondyr-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/spondyr-automation/SKILL.md"

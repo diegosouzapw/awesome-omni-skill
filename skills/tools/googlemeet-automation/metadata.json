@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b83813cacd9bf2bb228612a50e355c858e0683dd90d55690ea4190e6eb1d2a61",
   "indexed_at": "2026-02-24T23:03:03.761Z",
-  "synced_at": "2026-02-27T02:42:24.317Z",
+  "synced_at": "2026-02-28T04:11:58.917Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2dc209b942bf7555b83ede0b5bd758683b0a15b9e0c276c1f2012b3545b668fd",
   "install_command": "mkdir -p .claude/skills/googlemeet-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/googlemeet-automation/SKILL.md\" > .claude/skills/googlemeet-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/googlemeet-automation/SKILL.md"

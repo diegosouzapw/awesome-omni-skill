@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a58e03fa43e69841112617fdcc44b97126cd05885ff674693eb919d96a458cef",
   "indexed_at": "2026-02-25T22:26:51.011Z",
-  "synced_at": "2026-02-27T02:42:05.197Z",
+  "synced_at": "2026-02-28T04:11:41.208Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ccecce1fc5bb9ebdcb1637a97e6a4406b1006a4860454cd6d279d9b85aade16a",
   "install_command": "mkdir -p .claude/skills/sage-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sage-automation/SKILL.md\" > .claude/skills/sage-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sage-automation/SKILL.md"

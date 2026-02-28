@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "35bd018580b0f4d9040dc1f41054844a1154ae5d4a9f95f64d43838097ef9845",
   "indexed_at": "2026-02-24T23:04:35.139Z",
-  "synced_at": "2026-02-27T02:42:31.770Z",
+  "synced_at": "2026-02-28T04:12:05.903Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/11f2bc591f26381407978a0d15cf2681cfae5771eeef6f89cd4104e7cd3166c0",
   "install_command": "mkdir -p .claude/skills/kaggle-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/kaggle-automation/SKILL.md\" > .claude/skills/kaggle-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/kaggle-automation/SKILL.md"

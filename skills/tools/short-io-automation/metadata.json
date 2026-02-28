@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2ba17f20dd8a963c10d568ef7e69e206896c1dfb0c89f91028c53505e1cf106b",
   "indexed_at": "2026-02-25T23:26:11.442Z",
-  "synced_at": "2026-02-27T02:41:53.200Z",
+  "synced_at": "2026-02-28T04:11:30.747Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/632154414f3a215dfc08045b2b3cc5b9ecf4504adc4a8333fe8855c082c15f73",
   "install_command": "mkdir -p .claude/skills/short-io-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/short-io-automation/SKILL.md\" > .claude/skills/short-io-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/short-io-automation/SKILL.md"

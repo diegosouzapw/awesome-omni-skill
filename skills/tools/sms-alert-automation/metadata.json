@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4e66ff5e3aea1cb8f5a1b7b3be93133fb4b9fc9f85a92964ae57476e972f0132",
   "indexed_at": "2026-02-25T23:26:42.878Z",
-  "synced_at": "2026-02-27T02:41:56.063Z",
+  "synced_at": "2026-02-28T04:11:32.558Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0f69220dc7055687fa97877559d5dc595d233ebd1f66f8b71430e418ab95e52d",
   "install_command": "mkdir -p .claude/skills/sms-alert-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sms-alert-automation/SKILL.md\" > .claude/skills/sms-alert-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sms-alert-automation/SKILL.md"

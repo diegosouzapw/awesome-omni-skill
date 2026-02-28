@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "969f410aa2105902beb243b30124ad09aa5ece69d92ba7d7ed1c1a9ebd6c8b25",
   "indexed_at": "2026-02-25T22:25:51.902Z",
-  "synced_at": "2026-02-27T02:42:01.204Z",
+  "synced_at": "2026-02-28T04:11:37.558Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ef153ee261a7cef55456de5f1fd17eb7b7ad9f7464338a1f5cc2dde74ec3b287",
   "install_command": "mkdir -p .claude/skills/rafflys-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/rafflys-automation/SKILL.md\" > .claude/skills/rafflys-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/rafflys-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1a6073556f34dd8951545d09aebd56ca126c2d92c4945db3d625c63226e7a0a2",
   "indexed_at": "2026-02-24T22:50:27.932Z",
-  "synced_at": "2026-02-27T02:42:47.827Z",
+  "synced_at": "2026-02-28T04:12:21.278Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1a4b77f094365fa47ee93d37ef3eee973688e3d706068063fb168a369ea8e807",
   "install_command": "mkdir -p .claude/skills/bolna-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bolna-automation/SKILL.md\" > .claude/skills/bolna-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bolna-automation/SKILL.md"

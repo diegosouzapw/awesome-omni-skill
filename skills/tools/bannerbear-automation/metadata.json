@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cfd07d5d23414ada9d5bb5d464d46faa45a9640f7687921546f969047ff7cca1",
   "indexed_at": "2026-02-24T22:49:48.082Z",
-  "synced_at": "2026-02-27T02:42:44.480Z",
+  "synced_at": "2026-02-28T04:12:17.931Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c7e1f3b543dab2c731b8b7c8717e9e0dce8834ce6cba01abf04fdd6bdc479ec2",
   "install_command": "mkdir -p .claude/skills/bannerbear-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bannerbear-automation/SKILL.md\" > .claude/skills/bannerbear-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bannerbear-automation/SKILL.md"

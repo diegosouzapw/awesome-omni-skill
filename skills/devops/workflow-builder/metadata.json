@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bdb5bc09f9d7572f07f7b9f6a86c36acd8a4d93849c4c5eaf8995813c10c69e5",
   "indexed_at": "2026-02-26T14:16:34.461Z",
-  "synced_at": "2026-02-27T02:41:36.966Z",
+  "synced_at": "2026-02-28T04:11:15.694Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f6fb6581aa42f4e6d3d0e937d2701f0ca66b899b3390d1f52664494d9c65796f",
   "install_command": "mkdir -p .claude/skills/workflow-builder && curl -sL \"https://raw.githubusercontent.com/ShunsukeHayashi/ppal-skill-library/main/automation/workflow-builder/SKILL.md\" > .claude/skills/workflow-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ShunsukeHayashi/ppal-skill-library/main/automation/workflow-builder/SKILL.md"

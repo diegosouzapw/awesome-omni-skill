@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b64d06fd5e8ebc369f0395aedc5e2619b1f8863b0ac586ddfffc5e5e2873ca92",
   "indexed_at": "2026-02-25T22:27:25.246Z",
-  "synced_at": "2026-02-27T02:42:07.162Z",
+  "synced_at": "2026-02-28T04:11:42.999Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/19a425f051d453ecd9a84a9869b9f02974a407d03d11fbe119e20dba078ccdd2",
   "install_command": "mkdir -p .claude/skills/sendfox-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sendfox-automation/SKILL.md\" > .claude/skills/sendfox-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sendfox-automation/SKILL.md"

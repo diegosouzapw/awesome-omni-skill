@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9db16cab43732469c120c12789594dcb5ff176655a5ef00e46057935ee56eeb1",
   "indexed_at": "2026-02-25T23:26:06.634Z",
-  "synced_at": "2026-02-27T02:41:52.882Z",
+  "synced_at": "2026-02-28T04:11:30.412Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0e3abd3aa76f938ddae698cff18547b2549dfd2fdd7d24b0bf3dc30fea23a9b8",
   "install_command": "mkdir -p .claude/skills/share_point-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/share_point-automation/SKILL.md\" > .claude/skills/share_point-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/share_point-automation/SKILL.md"

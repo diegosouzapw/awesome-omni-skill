@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ab38c1fa657f430a3ab955e14b954ec9ea366a8ed230574450a40bde84ae636a",
   "indexed_at": "2026-02-26T00:26:38.562Z",
-  "synced_at": "2026-02-27T02:41:47.704Z",
+  "synced_at": "2026-02-28T04:11:25.510Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2b5a715ca68166d523cf5057731d98b3c920c5b382a48d14274cd60e4f5be2c3",
   "install_command": "mkdir -p .claude/skills/token-metrics-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/token-metrics-automation/SKILL.md\" > .claude/skills/token-metrics-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/token-metrics-automation/SKILL.md"

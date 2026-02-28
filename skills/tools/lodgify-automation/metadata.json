@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "01d5e093cb14ae4aadec5256bb223c91865a5ac5b8d8398fc29e51842137f675",
   "indexed_at": "2026-02-24T23:05:26.070Z",
-  "synced_at": "2026-02-27T02:42:36.843Z",
+  "synced_at": "2026-02-28T04:12:10.576Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b229de339dd085c2f2d8573e832206dd76d7bfb63baa0ef4e779856b7116d5f7",
   "install_command": "mkdir -p .claude/skills/lodgify-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/lodgify-automation/SKILL.md\" > .claude/skills/lodgify-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/lodgify-automation/SKILL.md"

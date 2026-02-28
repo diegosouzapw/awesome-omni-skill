@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8cfdec84fdee796b6ca146fffd325772cbdbc882f436ac6ac7a1c58f0d696033",
   "indexed_at": "2026-02-26T01:26:48.341Z",
-  "synced_at": "2026-02-27T02:41:42.236Z",
+  "synced_at": "2026-02-28T04:11:20.421Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2a0cb20bf7e429dd1f79471d1100a45cdfe3411635cf49e63c4d40ac0335efcb",
   "install_command": "mkdir -p .claude/skills/zenrows-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/zenrows-automation/SKILL.md\" > .claude/skills/zenrows-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/zenrows-automation/SKILL.md"

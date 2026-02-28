@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b5ba372be615d00218989d1065b1b90fb0cec6c92339948d5f1d51393729604e",
   "indexed_at": "2026-02-24T23:04:54.305Z",
-  "synced_at": "2026-02-27T02:42:33.706Z",
+  "synced_at": "2026-02-28T04:12:07.701Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/79af08238361e176afc543f11ed1f04755ff214b3d0720ee62abf14b991c587a",
   "install_command": "mkdir -p .claude/skills/langbase-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/langbase-automation/SKILL.md\" > .claude/skills/langbase-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/langbase-automation/SKILL.md"

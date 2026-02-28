@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "66ec6d8e1d0e054c1fe036beb1af11ceee52d172fe7541a975ac07db5a1fcbce",
   "indexed_at": "2026-02-26T21:30:24.506Z",
-  "synced_at": "2026-02-27T02:41:30.293Z",
+  "synced_at": "2026-02-28T04:11:07.869Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3bc00203fb37676e3b04eeaa1838c5d47c845d7086c9364d070b77f8f8b59235",
   "install_command": "mkdir -p .claude/skills/tasknet && curl -sL \"https://raw.githubusercontent.com/0xStoneyStark/TaskNet/main/tasknet.skill.md/SKILL.md\" > .claude/skills/tasknet/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/0xStoneyStark/TaskNet/main/tasknet.skill.md/SKILL.md"

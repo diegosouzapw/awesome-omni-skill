@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "30a0568f59fa5576254597bb876eb5e5541dbb215a0df4ed3998d8ce6edc45e1",
   "indexed_at": "2026-02-24T23:05:20.394Z",
-  "synced_at": "2026-02-27T02:42:36.190Z",
+  "synced_at": "2026-02-28T04:12:09.991Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d3736ed38c8178e4a46a33dee0fa97f097940a077ad8e9e04829e8e14e35a982",
   "install_command": "mkdir -p .claude/skills/listclean-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/listclean-automation/SKILL.md\" > .claude/skills/listclean-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/listclean-automation/SKILL.md"

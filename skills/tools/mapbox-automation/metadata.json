@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "265506b08020aad1edc6086be268d4ee695e2e3cfe9c11e4945212c0433a5ec2",
   "indexed_at": "2026-02-25T20:26:13.527Z",
-  "synced_at": "2026-02-27T02:42:16.761Z",
+  "synced_at": "2026-02-28T04:11:51.861Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2d1abb6ae612fd75bc8cda8692ffa694adaa68e7f40bc7319e2093543c0056bc",
   "install_command": "mkdir -p .claude/skills/mapbox-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mapbox-automation/SKILL.md\" > .claude/skills/mapbox-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mapbox-automation/SKILL.md"

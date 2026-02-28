@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "60561cd9e081cf04ad1e3cc9cb2d638d9c85d422867dec7e8dea5e3f6a8ead8f",
   "indexed_at": "2026-02-25T20:27:24.263Z",
-  "synced_at": "2026-02-27T02:42:22.632Z",
+  "synced_at": "2026-02-28T04:11:57.304Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3ba88a6a8ea8aee24f469ecf75da4efec474ccad75b27132e753c916bb4477f2",
   "install_command": "mkdir -p .claude/skills/neutrino-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/neutrino-automation/SKILL.md\" > .claude/skills/neutrino-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/neutrino-automation/SKILL.md"

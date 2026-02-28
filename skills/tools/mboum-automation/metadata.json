@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c264cebd28c668b713072a5f9bcd7fb30758d0fe32334ec50cb397b4555e1d27",
   "indexed_at": "2026-02-25T20:26:16.932Z",
-  "synced_at": "2026-02-27T02:42:17.088Z",
+  "synced_at": "2026-02-28T04:11:52.162Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ae93cbdc80d34dc2b8aff8121cc0ed3b7e1920069a68ee40246ac96da34a0dfe",
   "install_command": "mkdir -p .claude/skills/mboum-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mboum-automation/SKILL.md\" > .claude/skills/mboum-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mboum-automation/SKILL.md"

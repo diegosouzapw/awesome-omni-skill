@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cb70df361c36db5b85071c5d105822382e15c0cd520ed0d6e8bbcec6121f1260",
   "indexed_at": "2026-02-25T20:27:33.032Z",
-  "synced_at": "2026-02-27T02:42:22.964Z",
+  "synced_at": "2026-02-28T04:11:57.602Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0f2eadd9061ec3454eab3bd926c4aa4f38d4061f3207e153b58694a167337dea",
   "install_command": "mkdir -p .claude/skills/nextdns-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/nextdns-automation/SKILL.md\" > .claude/skills/nextdns-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/nextdns-automation/SKILL.md"

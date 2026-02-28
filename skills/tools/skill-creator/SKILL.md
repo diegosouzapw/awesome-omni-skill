@@ -1,274 +1,209 @@
 ---
 name: skill-creator
-description: Guide for creating effective skills. Use when users want to create a new skill or update an existing skill that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.
+description: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.
 license: Complete terms in LICENSE.txt
 ---
 
 # Skill Creator
 
-This skill provides guidance for creating effective skills that extend Claude's capabilities.
+This skill provides guidance for creating effective skills.
 
 ## About Skills
 
-Skills are self-contained packages providing specialized knowledge, workflows, and tools. They transform Claude from general-purpose to domain-specific agent.
+Skills are modular, self-contained packages that extend Claude's capabilities by providing
+specialized knowledge, workflows, and tools. Think of them as "onboarding guides" for specific
+domains or tasks—they transform Claude from a general-purpose agent into a specialized agent
+equipped with procedural knowledge that no model can fully possess.
 
-### Core Principles
+### What Skills Provide
 
-**1. Concise is Key**: Context window is shared resource. Only add what Claude doesn't already know.
+1. Specialized workflows - Multi-step procedures for specific domains
+2. Tool integrations - Instructions for working with specific file formats or APIs
+3. Domain expertise - Company-specific knowledge, schemas, business logic
+4. Bundled resources - Scripts, references, and assets for complex and repetitive tasks
 
-**2. Set Appropriate Freedom**:
-- High freedom: Multiple valid approaches, context-dependent decisions
-- Medium freedom: Preferred patterns with some variation
-- Low freedom: Fragile operations requiring specific sequences
+### Anatomy of a Skill
 
-## Skill Structure
+Every skill consists of a required SKILL.md file and optional bundled resources:
 
 ```
 skill-name/
 ├── SKILL.md (required)
-│   ├── YAML frontmatter (name, description)
-│   └── Markdown instructions
-└── Optional Resources
-    ├── scripts/      - Executable code
-    ├── references/   - Documentation for context
-    └── assets/       - Output templates/files
-        └── templates/ - Template files (for skill-creator only)
+│   ├── YAML frontmatter metadata (required)
+│   │   ├── name: (required)
+│   │   └── description: (required)
+│   └── Markdown instructions (required)
+└── Bundled Resources (optional)
+    ├── scripts/          - Executable code (Python/Bash/etc.)
+    ├── references/       - Documentation intended to be loaded into context as needed
+    └── assets/           - Files used in output (templates, icons, fonts, etc.)
 ```
 
-## Creation Workflow
+#### SKILL.md (required)
 
-### 1. Initialize Skill
+**Metadata Quality:** The `name` and `description` in YAML frontmatter determine when Claude will use the skill. Be specific about what the skill does and when to use it. Use the third-person (e.g. "This skill should be used when..." instead of "Use this skill when...").
+
+#### Bundled Resources (optional)
+
+##### Scripts (`scripts/`)
+
+Executable code (Python/Bash/etc.) for tasks that require deterministic reliability or are repeatedly rewritten.
+
+- **When to include**: When the same code is being rewritten repeatedly or deterministic reliability is needed
+- **Example**: `scripts/rotate_pdf.py` for PDF rotation tasks
+- **Benefits**: Token efficient, deterministic, may be executed without loading into context
+- **Note**: Scripts may still need to be read by Claude for patching or environment-specific adjustments
+
+##### References (`references/`)
+
+Documentation and reference material intended to be loaded as needed into context to inform Claude's process and thinking.
+
+- **When to include**: For documentation that Claude should reference while working
+- **Examples**: `references/finance.md` for financial schemas, `references/mnda.md` for company NDA template, `references/policies.md` for company policies, `references/api_docs.md` for API specifications
+- **Use cases**: Database schemas, API documentation, domain knowledge, company policies, detailed workflow guides
+- **Benefits**: Keeps SKILL.md lean, loaded only when Claude determines it's needed
+- **Best practice**: If files are large (>10k words), include grep search patterns in SKILL.md
+- **Avoid duplication**: Information should live in either SKILL.md or references files, not both. Prefer references files for detailed information unless it's truly core to the skill—this keeps SKILL.md lean while making information discoverable without hogging the context window. Keep only essential procedural instructions and workflow guidance in SKILL.md; move detailed reference material, schemas, and examples to references files.
+
+##### Assets (`assets/`)
+
+Files not intended to be loaded into context, but rather used within the output Claude produces.
+
+- **When to include**: When the skill needs files that will be used in the final output
+- **Examples**: `assets/logo.png` for brand assets, `assets/slides.pptx` for PowerPoint templates, `assets/frontend-template/` for HTML/React boilerplate, `assets/font.ttf` for typography
+- **Use cases**: Templates, images, icons, boilerplate code, fonts, sample documents that get copied or modified
+- **Benefits**: Separates output resources from documentation, enables Claude to use files without loading them into context
+
+### Progressive Disclosure Design Principle
+
+Skills use a three-level loading system to manage context efficiently:
+
+1. **Metadata (name + description)** - Always in context (~100 words)
+2. **SKILL.md body** - When skill triggers (<5k words)
+3. **Bundled resources** - As needed by Claude (Unlimited*)
+
+*Unlimited because scripts can be executed without reading into context window.
+
+## Skill Creation Process
+
+To create a skill, follow the "Skill Creation Process" in order, skipping steps only if there is a clear reason why they are not applicable.
+
+### Step 1: Understanding the Skill with Concrete Examples
+
+Skip this step only when the skill's usage patterns are already clearly understood. It remains valuable even when working with an existing skill.
+
+To create an effective skill, clearly understand concrete examples of how the skill will be used. This understanding can come from either direct user examples or generated examples that are validated with user feedback.
+
+For example, when building an image-editor skill, relevant questions include:
+
+- "What functionality should the image-editor skill support? Editing, rotating, anything else?"
+- "Can you give some examples of how this skill would be used?"
+- "I can imagine users asking for things like 'Remove the red-eye from this image' or 'Rotate this image'. Are there other ways you imagine this skill being used?"
+- "What would a user say that should trigger this skill?"
+
+To avoid overwhelming users, avoid asking too many questions in a single message. Start with the most important questions and follow up as needed for better effectiveness.
+
+Conclude this step when there is a clear sense of the functionality the skill should support.
+
+### Step 2: Planning the Reusable Skill Contents
+
+To turn concrete examples into an effective skill, analyze each example by:
+
+1. Considering how to execute on the example from scratch
+2. Identifying what scripts, references, and assets would be helpful when executing these workflows repeatedly
+
+Example: When building a `pdf-editor` skill to handle queries like "Help me rotate this PDF," the analysis shows:
+
+1. Rotating a PDF requires re-writing the same code each time
+2. A `scripts/rotate_pdf.py` script would be helpful to store in the skill
+
+Example: When designing a `frontend-webapp-builder` skill for queries like "Build me a todo app" or "Build me a dashboard to track my steps," the analysis shows:
+
+1. Writing a frontend webapp requires the same boilerplate HTML/React each time
+2. An `assets/hello-world/` template containing the boilerplate HTML/React project files would be helpful to store in the skill
+
+Example: When building a `big-query` skill to handle queries like "How many users have logged in today?" the analysis shows:
+
+1. Querying BigQuery requires re-discovering the table schemas and relationships each time
+2. A `references/schema.md` file documenting the table schemas would be helpful to store in the skill
+
+To establish the skill's contents, analyze each concrete example to create a list of the reusable resources to include: scripts, references, and assets.
+
+### Step 3: Initializing the Skill
+
+At this point, it is time to actually create the skill.
+
+Skip this step only if the skill being developed already exists, and iteration or packaging is needed. In this case, continue to the next step.
+
+When creating a new skill from scratch, always run the `init_skill.py` script. The script conveniently generates a new template skill directory that automatically includes everything a skill requires, making the skill creation process much more efficient and reliable.
+
+Usage:
 
 ```bash
-# Interactive mode (recommended)
-uv run scripts/init_skill.py my-skill-name
-
-# Non-interactive mode
-uv run scripts/init_skill.py my-skill-name --non-interactive
-
-# Custom path
-uv run scripts/init_skill.py my-skill-name --path ./custom/location
+scripts/init_skill.py <skill-name> --path <output-directory>
 ```
 
-### 2. Edit SKILL.md
+The script:
 
-**Frontmatter Requirements**:
-- `name`: skill-name (hyphen-case, lowercase)
-- `description`: What it does + when to use it (this triggers skill selection)
+- Creates the skill directory at the specified path
+- Generates a SKILL.md template with proper frontmatter and TODO placeholders
+- Creates example resource directories: `scripts/`, `references/`, and `assets/`
+- Adds example files in each directory that can be customized or deleted
 
-**Body Guidelines**:
-- Keep under 500 lines
-- Use imperative form
-- Include essential workflows only
-- Reference bundled resources clearly
+After initialization, customize or remove the generated SKILL.md and example files as needed.
 
-### 3. Add Resources (Optional)
+### Step 4: Edit the Skill
 
-**Scripts** (`scripts/`): Executable code for deterministic tasks
+When editing the (newly-generated or existing) skill, remember that the skill is being created for another instance of Claude to use. Focus on including information that would be beneficial and non-obvious to Claude. Consider what procedural knowledge, domain-specific details, or reusable assets would help another Claude instance execute these tasks more effectively.
 
-Each generated skill includes dependency management:
-- `pyproject.toml` - Defines required packages
-- `scripts/check_dependencies.py` - Checks and installs dependencies
+#### Start with Reusable Skill Contents
 
-```python
-#!/usr/bin/env python3
-def process_file(input_path):
-    # Implementation here
-    pass
-```
+To begin implementation, start with the reusable resources identified above: `scripts/`, `references/`, and `assets/` files. Note that this step may require user input. For example, when implementing a `brand-guidelines` skill, the user may need to provide brand assets or templates to store in `assets/`, or documentation to store in `references/`.
 
-**Dependency Management Workflow:**
-```bash
-# First time or when dependencies change
-uv run scripts/check_dependencies.py --install
+Also, delete any example files and directories not needed for the skill. The initialization script creates example files in `scripts/`, `references/`, and `assets/` to demonstrate structure, but most skills won't need all of them.
 
-# Before using any scripts
-uv run scripts/check_dependencies.py
+#### Update SKILL.md
 
-# Run scripts
-uv run scripts/helper.py
-```
+**Writing Style:** Write the entire skill using **imperative/infinitive form** (verb-first instructions), not second person. Use objective, instructional language (e.g., "To accomplish X, do Y" rather than "You should do X" or "If you need to do X"). This maintains consistency and clarity for AI consumption.
 
-**References** (`references/`): Detailed documentation loaded on-demand
-```markdown
-# API Reference
-## Endpoints
-- GET /users - List users
-- POST /users - Create user
-```
+To complete SKILL.md, answer the following questions:
 
-**Assets** (`assets/`): Templates, images, boilerplate for output
-- PowerPoint templates
-- HTML boilerplate directories
-- Configuration files
-- `templates/` (skill-creator only) - Template files for skill generation:
-  - `skill.md.template` - Main SKILL.md template
-  - `helper_script.py.template` - Python script template  
-  - `reference.md.template` - Reference documentation template
-  - `asset_readme.md.template` - Asset directory template
-  - `pyproject.toml.template` - Python project configuration
-  - `check_dependencies.py.template` - Dependency management script
+1. What is the purpose of the skill, in a few sentences?
+2. When should the skill be used?
+3. In practice, how should Claude use the skill? All reusable skill contents developed above should be referenced so that Claude knows how to use them.
 
-### 4. Package Skill
+### Step 5: Packaging a Skill
+
+Once the skill is ready, it should be packaged into a distributable zip file that gets shared with the user. The packaging process automatically validates the skill first to ensure it meets all requirements:
 
 ```bash
-# Package to current directory
-uv run scripts/package_skill.py path/to/my-skill
-
-# Package to specific output directory
-uv run scripts/package_skill.py path/to/my-skill ./dist
+scripts/package_skill.py <path/to/skill-folder>
 ```
 
-## Best Practices
-
-### Progressive Disclosure
-1. **Metadata** (name/description) - Always loaded (~100 words)
-2. **SKILL.md body** - When skill triggers (<5k words)  
-3. **Bundled resources** - As needed by Claude
-
-### Content Organization
-- Keep core workflow in SKILL.md
-- Move detailed examples to references/
-- Split by domain for multi-domain skills:
-  ```
-  bigquery-skill/
-  ├── SKILL.md (overview + navigation)
-  └── references/
-      ├── finance.md
-      ├── sales.md
-      └── product.md
-  ```
-
-### What NOT to Include
-- README.md files
-- Installation guides  
-- Auxiliary documentation
-- Only include files Claude needs to do the job
-
-**Note**: 
-- **Python skills**: Dependency management (pyproject.toml + check_dependencies.py) is automatically included for seamless setup
-- **Other language skills**: Include appropriate config files (package.json, Gemfile, go.mod, etc.) and setup instructions in SKILL.md to guide Claude on dependency management
-
-## Using Skills with Dependencies
-
-When Claude encounters a skill with scripts in any programming language:
-
-### General Dependency Management Principles
-
-**Always check for dependency files first:**
-- `pyproject.toml` (Python with uv/pip)
-- `package.json` (Node.js/JavaScript)
-- `Gemfile` (Ruby)
-- `go.mod` (Go)
-- `Cargo.toml` (Rust)  
-- `requirements.txt` (Python legacy)
-- `composer.json` (PHP)
-- `pom.xml`/`build.gradle` (Java/JVM)
-
-**Common dependency setup patterns:**
-```bash
-# Python (modern)
-uv run scripts/check_dependencies.py --install
-uv run scripts/script.py
-
-# Node.js
-npm install  # or yarn install, pnpm install
-npm run script
-
-# Ruby
-bundle install
-bundle exec ruby script.rb
-
-# Go
-go mod tidy
-go run script.go
-
-# Rust
-cargo build
-cargo run --bin script
-```
-
-### 1. Python Skills (Automated)
-```bash
-# Always run this before using Python skill scripts
-uv run scripts/check_dependencies.py --install
-```
-
-### 2. Other Language Skills (Manual Check)
-For non-Python skills, check the skill directory for:
-
-1. **Look for dependency files** (package.json, Gemfile, go.mod, etc.)
-2. **Check SKILL.md** for setup instructions
-3. **Run standard dependency commands** for that language
-4. **Follow any custom setup scripts** provided
-
-### 3. Standard Skill Usage Pattern
-```bash
-# Step 1: Navigate to skill directory
-cd path/to/skill
-
-# Step 2: Check for and install dependencies
-# (Language-specific command based on what files are present)
-
-# Step 3: Use skill scripts/tools
-# (Follow instructions in SKILL.md)
-```
-
-### 3. Troubleshooting Dependencies
-If dependency issues occur:
-```bash
-# Clean and reinstall
-rm -rf .venv
-uv sync --reinstall
-
-# Check specific package versions
-uv tree
-```
-
-## Validation
+Optional output directory specification:
 
 ```bash
-# Validate skill structure
-uv run scripts/quick_validate.py path/to/skill
+scripts/package_skill.py <path/to/skill-folder> ./dist
 ```
 
-Validates:
-- YAML frontmatter format
-- Required fields (name, description)
-- Naming conventions
-- File structure
+The packaging script will:
 
-## Common Patterns
+1. **Validate** the skill automatically, checking:
+   - YAML frontmatter format and required fields
+   - Skill naming conventions and directory structure
+   - Description completeness and quality
+   - File organization and resource references
 
-**Task-Based**: Different operations
-```markdown
-## Quick Start
-## Merge PDFs  
-## Split PDFs
-## Extract Text
-```
+2. **Package** the skill if validation passes, creating a zip file named after the skill (e.g., `my-skill.zip`) that includes all files and maintains the proper directory structure for distribution.
 
-**Workflow-Based**: Sequential processes
-```markdown
-## Overview
-## Step 1: Preparation
-## Step 2: Processing
-## Step 3: Output
-```
+If validation fails, the script will report the errors and exit without creating a package. Fix any validation errors and run the packaging command again.
 
-**Reference-Based**: Standards/specifications
-```markdown
-## Guidelines
-## Color Specifications
-## Typography Rules
-## Usage Examples
-```
+### Step 6: Iterate
 
-## Examples
+After testing the skill, users may request improvements. Often this happens right after using the skill, with fresh context of how the skill performed.
 
-See existing skills for patterns:
-- **python**: Development workflow with uv
-- **slidev**: Presentation creation
-- **code-styleguide**: Coding standards
-
-Start simple, iterate based on actual usage.
+**Iteration workflow:**
+1. Use the skill on real tasks
+2. Notice struggles or inefficiencies
+3. Identify how SKILL.md or bundled resources should be updated
+4. Implement changes and test again

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e050f65d43a07d6c9e38bd3a95f0806f4a2f6c48eb9c691846e490756c9f29f0",
   "indexed_at": "2026-02-25T22:27:26.833Z",
-  "synced_at": "2026-02-27T02:42:07.328Z",
+  "synced_at": "2026-02-28T04:11:43.145Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/06e0fbf082b4845b7232818f7458f4b6d2f819f6d0aa69e2259625453dca8cd4",
   "install_command": "mkdir -p .claude/skills/sendlane-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sendlane-automation/SKILL.md\" > .claude/skills/sendlane-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sendlane-automation/SKILL.md"

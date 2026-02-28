@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1dec933d42042d31b5d97b52840a2fb2c0da0db10d131d21e68abec8861523ae",
   "indexed_at": "2026-02-25T20:26:15.050Z",
-  "synced_at": "2026-02-27T02:42:16.929Z",
+  "synced_at": "2026-02-28T04:11:52.011Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0a2f1bad2a0accde3f9bc21ad03807ff3fcc63ea97da737bafeeaaa504efa265",
   "install_command": "mkdir -p .claude/skills/mapulus-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mapulus-automation/SKILL.md\" > .claude/skills/mapulus-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mapulus-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "800096351e13b1457513c4e83ffe45acca4406d462f146cb1bb01be1844201d2",
   "indexed_at": "2026-02-24T22:48:23.938Z",
-  "synced_at": "2026-02-27T02:42:40.104Z",
+  "synced_at": "2026-02-28T04:12:13.803Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/21fd76c777358b696fa20eabfb9d89394dd8e7740c14371b125a6f7b7c5e615a",
   "install_command": "mkdir -p .claude/skills/aeroleads-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/aeroleads-automation/SKILL.md\" > .claude/skills/aeroleads-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/aeroleads-automation/SKILL.md"

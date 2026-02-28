@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5587f53493684e8836dd71dea42355f1860a6df7b00aee954abfd9eec39d10e2",
   "indexed_at": "2026-02-26T00:27:18.928Z",
-  "synced_at": "2026-02-27T02:41:51.102Z",
+  "synced_at": "2026-02-28T04:11:28.652Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/30d308ddd29779788c3a7774da05b8b2f0d65cbaf8820d8c829f278651b47776",
   "install_command": "mkdir -p .claude/skills/vero-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/vero-automation/SKILL.md\" > .claude/skills/vero-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/vero-automation/SKILL.md"

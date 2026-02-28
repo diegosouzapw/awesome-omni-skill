@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ce3cc3f1a8c30e6ef7720ecd3341f5b84e429d4fe8cacb38fc444978cc35d48f",
   "indexed_at": "2026-02-25T20:27:06.678Z",
-  "synced_at": "2026-02-27T02:42:21.315Z",
+  "synced_at": "2026-02-28T04:11:56.119Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1914706af56962aa073dd3a2218747a57b849a577c787f864e705811635099b5",
   "install_command": "mkdir -p .claude/skills/mx-toolbox-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mx-toolbox-automation/SKILL.md\" > .claude/skills/mx-toolbox-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mx-toolbox-automation/SKILL.md"

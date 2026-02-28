@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3b24ea98d0ff76187d54300d454eec3401a9ee119728c69bbecbbb989c7bf5a7",
   "indexed_at": "2026-02-25T20:27:03.421Z",
-  "synced_at": "2026-02-27T02:42:20.997Z",
+  "synced_at": "2026-02-28T04:11:55.818Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1cbb1d0607a1cd226a81a492947403dd8100da963498c4fd25329b2ddf335454",
   "install_command": "mkdir -p .claude/skills/mural-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mural-automation/SKILL.md\" > .claude/skills/mural-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mural-automation/SKILL.md"

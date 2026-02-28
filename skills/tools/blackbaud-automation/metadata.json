@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "99443f13327f745043c956c99da283ce8572e9d2f2eec840bf22ab875b06ad08",
   "indexed_at": "2026-02-24T22:50:22.662Z",
-  "synced_at": "2026-02-27T02:42:47.234Z",
+  "synced_at": "2026-02-28T04:12:20.683Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d2159625121adb710eb5b26e98bdefe35dda2ee7af8aff82581598f0568ccff8",
   "install_command": "mkdir -p .claude/skills/blackbaud-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/blackbaud-automation/SKILL.md\" > .claude/skills/blackbaud-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/blackbaud-automation/SKILL.md"

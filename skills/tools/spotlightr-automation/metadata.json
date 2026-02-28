@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5e4dbd4f2916a2f00a2353bf0541d299a3dcc8b64b5d73cca113ec99ce0ade58",
   "indexed_at": "2026-02-25T23:26:57.198Z",
-  "synced_at": "2026-02-27T02:41:57.188Z",
+  "synced_at": "2026-02-28T04:11:33.847Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2b4448feefcc34b53ac2f2a02167812a49d4658749ea87c7b3a2c417b9699f3b",
   "install_command": "mkdir -p .claude/skills/spotlightr-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/spotlightr-automation/SKILL.md\" > .claude/skills/spotlightr-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/spotlightr-automation/SKILL.md"

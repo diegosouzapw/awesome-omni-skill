@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "78ed6f97e2e336f6bca99a20ecb4766fd1acbe4bb0bafc492576c77990f45f3b",
   "indexed_at": "2026-02-25T22:25:45.622Z",
-  "synced_at": "2026-02-27T02:42:00.710Z",
+  "synced_at": "2026-02-28T04:11:37.109Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2b92bac9d3570fb94b604c3c61b4c6740b121669e5f1b096891b193577d02da3",
   "install_command": "mkdir -p .claude/skills/quaderno-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/quaderno-automation/SKILL.md\" > .claude/skills/quaderno-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/quaderno-automation/SKILL.md"

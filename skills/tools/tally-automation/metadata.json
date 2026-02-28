@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4d3b5484bed26778fcd5edec621805441407695c6e7eb07b4f0a15d81fe8dbc5",
   "indexed_at": "2026-02-25T23:27:32.838Z",
-  "synced_at": "2026-02-27T02:41:59.909Z",
+  "synced_at": "2026-02-28T04:11:36.365Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5de61c98c0cdfaad7b19aecc9902d78a7296ccf7efb4bb688422a22d283fb25d",
   "install_command": "mkdir -p .claude/skills/tally-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/tally-automation/SKILL.md\" > .claude/skills/tally-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/tally-automation/SKILL.md"

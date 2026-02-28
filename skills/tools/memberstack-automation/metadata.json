@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0dffa4a35955e3292d75623f38b05219c309aa5d7ce7f2c1edf0f265094002e1",
   "indexed_at": "2026-02-25T20:26:25.741Z",
-  "synced_at": "2026-02-27T02:42:17.888Z",
+  "synced_at": "2026-02-28T04:11:53.000Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4c01de3669929bdcbd709200df07fc260bf617618eb0be0aa69a4200416f3300",
   "install_command": "mkdir -p .claude/skills/memberstack-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/memberstack-automation/SKILL.md\" > .claude/skills/memberstack-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/memberstack-automation/SKILL.md"

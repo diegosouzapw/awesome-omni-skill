@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "288d6874d278f0d6a73240eb4b87eb74e478f75efd9d69ac47c75d1170060218",
   "indexed_at": "2026-02-25T23:26:49.229Z",
-  "synced_at": "2026-02-27T02:41:56.543Z",
+  "synced_at": "2026-02-28T04:11:32.997Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aa0e2c23686963745d95b7d2467ecc17b77bc39107f1a6ff104afa52dd3e9373",
   "install_command": "mkdir -p .claude/skills/sourcegraph-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sourcegraph-automation/SKILL.md\" > .claude/skills/sourcegraph-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sourcegraph-automation/SKILL.md"

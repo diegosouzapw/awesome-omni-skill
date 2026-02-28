@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7146208323cf28c19d08fe405476b068a85ad3db2f5e0196119eaaa413df97bc",
   "indexed_at": "2026-02-25T21:27:07.241Z",
-  "synced_at": "2026-02-27T02:42:14.205Z",
+  "synced_at": "2026-02-28T04:11:49.498Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ccdb6d2e83187d9dfadfbec649094ac240c41127c49fc34c53c8d62b583df952",
   "install_command": "mkdir -p .claude/skills/platerecognizer-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/platerecognizer-automation/SKILL.md\" > .claude/skills/platerecognizer-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/platerecognizer-automation/SKILL.md"

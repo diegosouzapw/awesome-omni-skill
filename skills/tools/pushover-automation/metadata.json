@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "95823c1e7f2828c44e12f5b657e10d5c7745770f4f46b254cd2e7d37eb3fc02e",
   "indexed_at": "2026-02-25T22:25:44.170Z",
-  "synced_at": "2026-02-27T02:42:00.550Z",
+  "synced_at": "2026-02-28T04:11:36.965Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6f770b40f73e2978b60453295a49a52a692c44a8af7aeb9a04a820d649baf700",
   "install_command": "mkdir -p .claude/skills/pushover-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/pushover-automation/SKILL.md\" > .claude/skills/pushover-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/pushover-automation/SKILL.md"

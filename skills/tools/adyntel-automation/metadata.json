@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "21b9ff7317b672d75c88f1f54a3bdf04311d30470c325b50ea4d7bf1a96fcb8f",
   "indexed_at": "2026-02-24T22:48:21.388Z",
-  "synced_at": "2026-02-27T02:42:39.786Z",
+  "synced_at": "2026-02-28T04:12:13.505Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e0df8795ec8fcac0b261d6fffae83ef43298d93107c03cb9802cc8c38201e8f3",
   "install_command": "mkdir -p .claude/skills/adyntel-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/adyntel-automation/SKILL.md\" > .claude/skills/adyntel-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/adyntel-automation/SKILL.md"

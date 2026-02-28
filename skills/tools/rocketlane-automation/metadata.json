@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "42056de6c8f437de5f078bb90fe78bc05c70db0d44e205ad7f16bf8dcd410518",
   "indexed_at": "2026-02-25T22:26:43.062Z",
-  "synced_at": "2026-02-27T02:42:04.541Z",
+  "synced_at": "2026-02-28T04:11:40.612Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b01026697c7639f482f3c24d6bee3dca145550a9d7a7f43f8d40290173e3f23a",
   "install_command": "mkdir -p .claude/skills/rocketlane-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/rocketlane-automation/SKILL.md\" > .claude/skills/rocketlane-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/rocketlane-automation/SKILL.md"

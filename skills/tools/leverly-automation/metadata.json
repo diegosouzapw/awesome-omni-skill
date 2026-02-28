@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2d61660e16f52e2b02f30e98adc34a55ed2c4af1fcc65e7ac959d02a3323d911",
   "indexed_at": "2026-02-24T23:05:14.042Z",
-  "synced_at": "2026-02-27T02:42:35.299Z",
+  "synced_at": "2026-02-28T04:12:09.183Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6bcb38f6e925714953a1c013d77a4ceb9fb9576f61562380630134f90a794456",
   "install_command": "mkdir -p .claude/skills/leverly-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/leverly-automation/SKILL.md\" > .claude/skills/leverly-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/leverly-automation/SKILL.md"

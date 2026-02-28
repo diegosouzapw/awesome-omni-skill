@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3d84cf0225886a255b84529f6d518eca38fd5b7ff3066bf03da6126206dcd9ee",
   "indexed_at": "2026-02-25T20:27:10.282Z",
-  "synced_at": "2026-02-27T02:42:21.638Z",
+  "synced_at": "2026-02-28T04:11:56.416Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/40c6cfff3c210f2b0cea0f9ff2d894aa1d7e7a5cb1c5a896a2975f8d4f151d90",
   "install_command": "mkdir -p .claude/skills/nano-nets-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/nano-nets-automation/SKILL.md\" > .claude/skills/nano-nets-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/nano-nets-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "295fa001da7912332bdae468085267acbecaf9f1998831bbd480459ed5080704",
   "indexed_at": "2026-02-25T21:27:14.928Z",
-  "synced_at": "2026-02-27T02:42:14.998Z",
+  "synced_at": "2026-02-28T04:11:50.235Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/51dbc3edf6760a337aa63161025672904435df7d2fa0014fef0b2692e3483afa",
   "install_command": "mkdir -p .claude/skills/postgrid-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/postgrid-automation/SKILL.md\" > .claude/skills/postgrid-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/postgrid-automation/SKILL.md"

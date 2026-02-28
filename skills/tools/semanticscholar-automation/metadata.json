@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "48e47f60edc36a2d0bcdcef42164732dffd17d14924eb35955ef34757776b7b6",
   "indexed_at": "2026-02-25T22:27:17.939Z",
-  "synced_at": "2026-02-27T02:42:06.842Z",
+  "synced_at": "2026-02-28T04:11:42.706Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3f350c70ef137219f36a14ab056afd42d03b979d710d1603143ec2681c49603f",
   "install_command": "mkdir -p .claude/skills/semanticscholar-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/semanticscholar-automation/SKILL.md\" > .claude/skills/semanticscholar-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/semanticscholar-automation/SKILL.md"

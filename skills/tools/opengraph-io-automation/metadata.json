@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b4ed3232ba848f04c9b81dbd03db5ec4443fb20f4ecce2c420ea7e4ebf4fa261",
   "indexed_at": "2026-02-25T21:26:06.683Z",
-  "synced_at": "2026-02-27T02:42:09.622Z",
+  "synced_at": "2026-02-28T04:11:45.323Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a40fd17fee31013b880e924d3e62cb05d246da6ba87122326488330dce81e49e",
   "install_command": "mkdir -p .claude/skills/opengraph-io-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/opengraph-io-automation/SKILL.md\" > .claude/skills/opengraph-io-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/opengraph-io-automation/SKILL.md"

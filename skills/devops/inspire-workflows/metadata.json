@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fe840d2ace71cf610e37df96469ea43453f5daf317fb55113f0c791434e9bebb",
   "indexed_at": "2026-02-26T04:25:36.966Z",
-  "synced_at": "2026-02-27T02:41:31.671Z",
+  "synced_at": "2026-02-28T04:11:10.023Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/22a135cf878bd764a93535f212d826d60a6454207b1f6dfa380bf515e7719639",
   "install_command": "mkdir -p .claude/skills/inspire-workflows && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/inspire-workflows/SKILL.md\" > .claude/skills/inspire-workflows/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/inspire-workflows/SKILL.md"

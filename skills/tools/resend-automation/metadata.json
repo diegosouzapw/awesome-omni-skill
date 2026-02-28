@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fa728b42438d6ee7391b874fa39ae9082bced3f9f0a70bb1cc5c600a52b34550",
   "indexed_at": "2026-02-25T22:26:23.669Z",
-  "synced_at": "2026-02-27T02:42:03.001Z",
+  "synced_at": "2026-02-28T04:11:39.281Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/af11e832cf8140c702884d00097f8c02a1e80aabb820ad76be43c1bcebbd0b40",
   "install_command": "mkdir -p .claude/skills/resend-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/resend-automation/SKILL.md\" > .claude/skills/resend-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/resend-automation/SKILL.md"

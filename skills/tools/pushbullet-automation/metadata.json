@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0b46a1b7323afb89ffeab0b32732223375c599920699cc46f60b6da42fe2c6e4",
   "indexed_at": "2026-02-25T22:25:42.337Z",
-  "synced_at": "2026-02-27T02:42:00.390Z",
+  "synced_at": "2026-02-28T04:11:36.818Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f7404445075b80068fd449225d0fc503d0b3758f3b5ccbd7ff73710f09242cc0",
   "install_command": "mkdir -p .claude/skills/pushbullet-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/pushbullet-automation/SKILL.md\" > .claude/skills/pushbullet-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/pushbullet-automation/SKILL.md"

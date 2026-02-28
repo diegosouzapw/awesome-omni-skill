@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2ecdc7a8dfcc337c6e8a709d4ba1cce0626df40568129496af328d32625acffb",
   "indexed_at": "2026-02-25T22:26:57.705Z",
-  "synced_at": "2026-02-27T02:42:05.355Z",
+  "synced_at": "2026-02-28T04:11:41.360Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2d859568fc8cd9b4b7b46c03bada2b789bd48b0ad909e59968c204755efde334",
   "install_command": "mkdir -p .claude/skills/sap-successfactors-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sap-successfactors-automation/SKILL.md\" > .claude/skills/sap-successfactors-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sap-successfactors-automation/SKILL.md"

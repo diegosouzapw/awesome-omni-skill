@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c6c448e3671ffb8f325f4c0a98cc2183b411dd4e9e05aeddf4c4483e79379018",
   "indexed_at": "2026-02-25T21:26:27.552Z",
-  "synced_at": "2026-02-27T02:42:11.373Z",
+  "synced_at": "2026-02-28T04:11:46.964Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2e639514241477ffcdd9a07295b3b2b124c694c166b8e0c9593f22210148606c",
   "install_command": "mkdir -p .claude/skills/parseur-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/parseur-automation/SKILL.md\" > .claude/skills/parseur-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/parseur-automation/SKILL.md"

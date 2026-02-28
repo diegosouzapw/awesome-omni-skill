@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "58cf28d9247fba0d11995f8e67a09ad249d32ee2ad8b16e698049942ad83edfa",
   "indexed_at": "2026-02-24T23:04:28.322Z",
-  "synced_at": "2026-02-27T02:42:31.266Z",
+  "synced_at": "2026-02-28T04:12:05.459Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/763048c2dc2c4a1fbebf6578eb238a09917cabf4606905114d8666a28ae918de",
   "install_command": "mkdir -p .claude/skills/jobnimbus-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/jobnimbus-automation/SKILL.md\" > .claude/skills/jobnimbus-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/jobnimbus-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "549b4da9f6852ba3a3afeaffddaf172d92b24990c630ec98a7d167096bcf5940",
   "indexed_at": "2026-02-25T23:27:13.121Z",
-  "synced_at": "2026-02-27T02:41:58.462Z",
+  "synced_at": "2026-02-28T04:11:35.034Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/63e58541ad3f7814c64680aa0f974089ec69b43526dda41c60f3dc5a25b7b77a",
   "install_command": "mkdir -p .claude/skills/streamtime-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/streamtime-automation/SKILL.md\" > .claude/skills/streamtime-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/streamtime-automation/SKILL.md"

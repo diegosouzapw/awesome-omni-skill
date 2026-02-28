@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "09b3fd6c941c8d1f063778392d046c867a201e202243c8276df029b1d51d8f30",
   "indexed_at": "2026-02-26T01:26:41.788Z",
-  "synced_at": "2026-02-27T02:41:41.601Z",
+  "synced_at": "2026-02-28T04:11:19.832Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3f3b0d7fc9cf7d4f7cc2af5b6bb7e97644f299bf27cb260ce7c95aa4bc9d78fc",
   "install_command": "mkdir -p .claude/skills/yandex-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/yandex-automation/SKILL.md\" > .claude/skills/yandex-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/yandex-automation/SKILL.md"

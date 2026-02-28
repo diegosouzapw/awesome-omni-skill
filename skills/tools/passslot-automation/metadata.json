@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "29c89e4f4e3f38d2e14ca96fd23100cff1c1af7b7ed102b77ceccbe6187307a4",
   "indexed_at": "2026-02-25T21:26:30.954Z",
-  "synced_at": "2026-02-27T02:42:11.798Z",
+  "synced_at": "2026-02-28T04:11:47.257Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5ec20f79c88af9b349dd55ca99cc3048305163e2f8f57d92e7ff03132827c596",
   "install_command": "mkdir -p .claude/skills/passslot-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/passslot-automation/SKILL.md\" > .claude/skills/passslot-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/passslot-automation/SKILL.md"
