@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/other/docker-vigil-orchestration-tbartel74-vigil-code/SKILL.md",
+  "file_path": "skills/data/docker-vigil-orchestration/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "7dee301b127d52cdec7d435c20f4a18aaad700ba4d36a45146588a017ee5fe22",
-  "indexed_at": "2026-02-26T05:51:08.388Z",
-  "synced_at": "2026-02-28T04:09:14.630Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0f1d68234e5d26d4df53a93723b43dac4b0a342b6e257b15f01703ac4ae37948",
-  "install_command": "mkdir -p .claude/skills/docker-vigil-orchestration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/docker-vigil-orchestration-tbartel74-vigil-code/SKILL.md\" > .claude/skills/docker-vigil-orchestration/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/docker-vigil-orchestration-tbartel74-vigil-code/SKILL.md"
+  "content_hash": "6b85d8bea57139550408b5a0eb8770ca2a148363e0732a7bf9fa5adebff4a8bb",
+  "indexed_at": "2026-02-28T05:17:14.510Z",
+  "synced_at": "2026-02-28T06:12:55.564Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7dff57656558100d9d59c7cdef5e1309055fa913acc7862c2599c159c430689e",
+  "install_command": "mkdir -p .claude/skills/docker-vigil-orchestration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/docker-vigil-orchestration/SKILL.md\" > .claude/skills/docker-vigil-orchestration/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/docker-vigil-orchestration/SKILL.md"
 }

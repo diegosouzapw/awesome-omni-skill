@@ -7,9 +7,9 @@
   "repository_url": "https://github.com/sickn33/antigravity-awesome-skills",
   "author": "sickn33",
   "author_avatar": "https://github.com/sickn33.png",
-  "file_path": "web-app/public/skills/azd-deployment/SKILL.md",
+  "file_path": "skills/azd-deployment/SKILL.md",
   "source": "github_curated_repos",
-  "stars": 15423,
+  "stars": 16719,
   "quality_score": 95,
   "best_practices_score": 75,
   "skill_level": 3,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "6ea865307d30664c866c576395fb23add00dadde50c7205fddda2eb04b817d4c",
-  "indexed_at": "2026-02-25T15:21:53.364Z",
-  "synced_at": "2026-02-28T04:08:37.329Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f822fdbc916b37f443a764266bf94f8c7662bd1d7f918f910f45b351098392b2",
-  "install_command": "mkdir -p .claude/skills/azd-deployment && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azd-deployment/SKILL.md\" > .claude/skills/azd-deployment/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azd-deployment/SKILL.md"
+  "content_hash": "c2af3614d46897ea5ff7326073cc15ad847fcb72bdca2806d7559fa7148b5c50",
+  "indexed_at": "2026-02-28T04:31:58.868Z",
+  "synced_at": "2026-02-28T06:12:51.944Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/331cabfd545112f2f2b32a3df5af2fca5401aa10a2a076b154a2cdf1e9933c15",
+  "install_command": "mkdir -p .claude/skills/azd-deployment && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/azd-deployment/SKILL.md\" > .claude/skills/azd-deployment/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/azd-deployment/SKILL.md"
 }

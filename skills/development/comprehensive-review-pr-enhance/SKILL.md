@@ -1,7 +1,9 @@
 ---
-version: 4.1.0-fractal
 name: comprehensive-review-pr-enhance
-description: "You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews. Generate comprehensive PR descriptions, automate review processes, and ensure PRs follow best practices for clarity, size, and reviewability."
+description: "You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews. Generate comprehensive PR descriptions, automate review processes, and e..."
+risk: unknown
+source: community
+date_added: "2026-02-27"
 ---
 
 # Pull Request Enhancement
@@ -45,8 +47,3 @@ $ARGUMENTS
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed templates and examples.
-
-
-## 🧠 Knowledge Modules (Fractal Skills)
-
-### 1. [implementation-playbook](./sub-skills/implementation-playbook.md)

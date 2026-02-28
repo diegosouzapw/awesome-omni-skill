@@ -1,130 +1,74 @@
 ---
 name: domain-driven-design
-description: Domain-Driven Design system for software development. Use when designing new systems with DDD principles, refactoring existing codebases toward DDD, generating code scaffolding (entities, aggregates, repositories, domain events), facilitating Event Storming sessions, creating bounded context maps, or performing code reviews with a DDD lens. Covers both strategic design (bounded contexts, subdomains, context maps, ubiquitous language) and tactical design (entities, value objects, aggregates, domain services, repositories). Supports all major architecture patterns (Hexagonal/Ports & Adapters, CQRS, Event Sourcing, Clean Architecture) with language-agnostic guidance and concrete examples in Python and TypeScript.
+description: "Plan and route Domain-Driven Design work from strategic modeling to tactical implementation and evented architecture patterns."
+risk: safe
+source: self
+tags: "[ddd, domain, bounded-context, architecture]"
+date_added: "2026-02-27"
 ---
 
-# Domain-Driven Design Skill
+# Domain-Driven Design
 
-Apply DDD to build software that reflects deep understanding of the business domain.
+## Use this skill when
 
-## Quick Reference
+- You need to model a complex business domain with explicit boundaries.
+- You want to decide whether full DDD is worth the added complexity.
+- You need to connect strategic design decisions to implementation patterns.
+- You are planning CQRS, event sourcing, sagas, or projections from domain needs.
 
-| Task | Reference |
-|------|-----------|
-| Bounded contexts, subdomains, context maps | [strategic-design.md](references/strategic-design.md) |
-| Entities, value objects, aggregates, repositories | [tactical-design.md](references/tactical-design.md) |
-| Hexagonal, CQRS, Event Sourcing, Clean Architecture | [architecture-patterns.md](references/architecture-patterns.md) |
-| Event Storming facilitation & documentation | [event-storming.md](references/event-storming.md) |
-| Python implementations (Pydantic, SQLAlchemy, FastAPI) | [python-patterns.md](references/python-patterns.md) |
-| TypeScript implementations (NestJS, TypeORM, Prisma) | [typescript-patterns.md](references/typescript-patterns.md) |
-| DDD code review criteria | [code-review.md](references/code-review.md) |
+## Do not use this skill when
 
-## Core Workflow
+- The problem is simple CRUD with low business complexity.
+- You only need localized bug fixes.
+- There is no access to domain knowledge and no proxy product expert.
 
-### 1. Identify the Task Type
+## Instructions
 
-**Designing new system?** → Start with strategic design, then tactical
-**Refactoring existing code?** → Assess current state, identify bounded contexts, refactor incrementally
-**Generating scaffolding?** → Determine patterns needed, generate code
-**Event Storming?** → Follow facilitation guide
-**Code review?** → Apply DDD checklist
+1. Run a viability check before committing to full DDD.
+2. Produce strategic artifacts first: subdomains, bounded contexts, language glossary.
+3. Route to specialized skills based on current task.
+4. Define success criteria and evidence for each stage.
 
-### 2. Strategic Before Tactical
+### Viability check
 
-Always establish strategic design first:
-1. Identify **subdomains** (Core, Supporting, Generic)
-2. Define **bounded contexts** and their boundaries
-3. Map **context relationships** (upstream/downstream, conformist, ACL, etc.)
-4. Establish **ubiquitous language** per context
+Use full DDD only when at least two of these are true:
 
-### 3. Select Architecture Pattern
+- Business rules are complex or fast-changing.
+- Multiple teams are causing model collisions.
+- Integration contracts are unstable.
+- Auditability and explicit invariants are critical.
 
-Choose based on domain complexity and requirements:
+### Routing map
 
-| Pattern | When to Use |
-|---------|-------------|
-| **Layered** | Simple CRUD, low complexity |
-| **Hexagonal** | Need to isolate domain from infrastructure |
-| **Clean Architecture** | Complex business rules, multiple delivery mechanisms |
-| **CQRS** | Different read/write models, complex queries |
-| **Event Sourcing** | Audit trail required, temporal queries, event-driven |
+- Strategic model and boundaries: `@ddd-strategic-design`
+- Cross-context integrations and translation: `@ddd-context-mapping`
+- Tactical code modeling: `@ddd-tactical-patterns`
+- Read/write separation: `@cqrs-implementation`
+- Event history as source of truth: `@event-sourcing-architect` and `@event-store-design`
+- Long-running workflows: `@saga-orchestration`
+- Read models: `@projection-patterns`
+- Decision log: `@architecture-decision-records`
 
-Patterns can be combined (e.g., Hexagonal + CQRS + Event Sourcing).
+If templates are needed, open `references/ddd-deliverables.md`.
 
-### 4. Apply Tactical Patterns
+## Output requirements
 
-Select tactical building blocks based on needs:
+Always return:
 
-| Building Block | Purpose |
-|----------------|---------|
-| **Entity** | Identity matters, mutable, lifecycle |
-| **Value Object** | Defined by attributes, immutable, no identity |
-| **Aggregate** | Consistency boundary, transactional unit |
-| **Domain Service** | Stateless operations spanning multiple aggregates |
-| **Repository** | Collection-like interface for aggregate persistence |
-| **Domain Event** | Record of something significant that happened |
-| **Factory** | Complex object creation logic |
-| **Specification** | Encapsulated business rules for querying/validation |
+- Scope and assumptions
+- Current stage (strategic, tactical, or evented)
+- Explicit artifacts produced
+- Open risks and next step recommendation
 
-### 5. Implementation Guidelines
+## Examples
 
-**General principles:**
-- Domain layer has ZERO infrastructure dependencies
-- Depend on abstractions (interfaces/protocols), not concretions
-- One aggregate = one repository = one transaction
-- Aggregates reference other aggregates by ID only
-- Validate invariants within aggregate boundaries
-- Use domain events for cross-aggregate communication
-
-**Language selection:**
-- Read [python-patterns.md](references/python-patterns.md) for Python with Pydantic, SQLAlchemy, FastAPI
-- Read [typescript-patterns.md](references/typescript-patterns.md) for TypeScript with NestJS, TypeORM, Prisma
-
-## Project Structure Template
-
-```
-src/
-├── domain/                    # Pure domain logic (no dependencies)
-│   ├── model/                 # Entities, Value Objects, Aggregates
-│   ├── service/               # Domain Services
-│   ├── event/                 # Domain Events
-│   ├── repository/            # Repository interfaces (ports)
-│   └── specification/         # Business rule specifications
-├── application/               # Use cases, orchestration
-│   ├── command/               # Command handlers (write)
-│   ├── query/                 # Query handlers (read)
-│   ├── dto/                   # Data transfer objects
-│   └── service/               # Application services
-├── infrastructure/            # External concerns
-│   ├── persistence/           # Repository implementations
-│   ├── messaging/             # Event bus, message queue
-│   └── external/              # Third-party integrations
-└── interface/                 # Delivery mechanisms
-    ├── api/                   # REST/GraphQL controllers
-    ├── cli/                   # Command-line interface
-    └── event/                 # Event consumers
+```text
+Use @domain-driven-design to assess if this billing platform should adopt full DDD.
+Then route to the right next skill and list artifacts we must produce this week.
 ```
 
-## Anti-Patterns to Avoid
+## Limitations
 
-- **Anemic Domain Model**: Entities with only getters/setters, logic in services
-- **God Aggregate**: Too many entities in one aggregate
-- **Shared Kernel Abuse**: Overusing shared code between contexts
-- **Infrastructure Leak**: Database concerns in domain layer
-- **Missing Ubiquitous Language**: Technical terms instead of domain terms
-- **Aggregate Reference by Object**: Should reference by ID only
-- **Transaction Across Aggregates**: Violates consistency boundaries
-
-## When NOT to Use DDD
-
-DDD adds complexity. Avoid for:
-- Simple CRUD applications
-- Technical/infrastructure projects without complex business logic
-- Prototypes or throwaway code
-- Teams unfamiliar with the domain (learn domain first)
-
-Use DDD when:
-- Complex, evolving business logic
-- Long-lived systems requiring maintainability
-- Multiple teams working on related domains
-- Domain experts available for collaboration
+- This skill does not replace direct workshops with domain experts.
+- It does not provide framework-specific code generation.
+- It should not be used as a justification to over-engineer simple systems.

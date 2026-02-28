@@ -1,522 +1,206 @@
 ---
 name: finishing-a-development-branch
-description: "Use when ready to merge feature branch. Complete checklist before creating PR/MR. Ensures professional quality and prevents embarrassing mistakes."
+description: "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup"
+risk: unknown
+source: community
+date_added: "2026-02-27"
 ---
 
 # Finishing a Development Branch
 
-## Core Principle
+## Overview
 
-Before creating a Pull/Merge Request, complete a comprehensive checklist to ensure professional quality work.
+Guide completion of development work by presenting clear options and handling chosen workflow.
 
-## When to Use This Skill
+**Core principle:** Verify tests → Present options → Execute choice → Clean up.
 
-- Feature is implemented and tested
-- Ready to create PR/MR
-- About to merge branch to main/develop
-- User says "it's done, let's merge"
-- Before marking work as complete
+**Announce at start:** "I'm using the finishing-a-development-branch skill to complete this work."
 
-## The Iron Law
+## The Process
 
-**NEVER create a PR/MR without completing the finish checklist.**
+### Step 1: Verify Tests
 
-Incomplete PRs waste reviewer time and damage your reputation.
-
-## Complete Finish Checklist
-
-### 1. Code Completion
-
-- [ ] All planned features implemented
-- [ ] All requirements met
-- [ ] No TODO comments remaining
-- [ ] No commented-out code
-- [ ] No debugging statements (console.log, dd(), var_dump())
-- [ ] No temporary/experimental code
-
-### 2. Testing
-
-- [ ] All tests pass locally
-- [ ] New tests added for new functionality
-- [ ] Edge cases tested
-- [ ] Error cases tested
-- [ ] Test coverage adequate (>80%)
-- [ ] Database backup before tests (used `./scripts/safe-test.sh`)
-- [ ] Integration tests pass
-- [ ] No skipped or pending tests
-
-### 3. Code Quality
-
-- [ ] No linter errors
-- [ ] Code formatted consistently
-- [ ] No compiler warnings
-- [ ] DRY principle followed (no duplication)
-- [ ] Functions are single-purpose
-- [ ] Meaningful variable names
-- [ ] Complex logic has comments
-- [ ] No magic numbers
-
-### 4. Security
-
-- [ ] No SQL injection vulnerabilities
-- [ ] No XSS vulnerabilities
-- [ ] Input validation comprehensive
-- [ ] Authentication/authorization correct
-- [ ] No hardcoded secrets
-- [ ] Sensitive data not logged
-- [ ] CSRF protection enabled
-
-### 5. Performance
-
-- [ ] No N+1 query problems
-- [ ] Appropriate database indexes
-- [ ] Efficient algorithms used
-- [ ] No memory leaks
-- [ ] Large datasets paginated
-- [ ] Caching used where appropriate
-
-### 6. Documentation
-
-- [ ] PHPDoc/JSDoc comments on public methods
-- [ ] Complex logic explained
-- [ ] API endpoints documented
-- [ ] README updated (if needed)
-- [ ] CHANGELOG updated
-- [ ] .env.example updated (new variables)
-- [ ] Migration instructions (if applicable)
-
-### 7. Git Hygiene
-
-- [ ] All changes committed
-- [ ] Commit messages follow convention
-- [ ] Branch up to date with base branch
-- [ ] No merge conflicts
-- [ ] No unintended file changes
-- [ ] .gitignore correct (no secrets committed)
-- [ ] Sensible commit history (consider squashing if messy)
-
-### 8. Integration
-
-- [ ] No existing functionality broken
-- [ ] API contracts maintained (backwards compatible)
-- [ ] Database migrations reversible
-- [ ] No conflicts with other features
-- [ ] Works with other branches (if known)
-
-### 9. CI/CD
-
-- [ ] CI pipeline passes (if configured)
-- [ ] Build succeeds
-- [ ] Deployment script works (if applicable)
-- [ ] Environment variables documented
-
-### 10. Review Preparation
-
-- [ ] PR/MR title is descriptive
-- [ ] PR/MR description complete
-- [ ] Screenshots/videos (if UI changes)
-- [ ] Test plan included
-- [ ] Breaking changes noted
-- [ ] Related issues linked
-
-## Pre-PR/MR Protocol
-
-### Step 1: Final Self-Review
-
-```
-I'm using the finishing-a-development-branch skill before creating PR.
-
-Running through complete checklist...
-
-Code Completion:
-✅ All features implemented
-✅ No TODO comments
-✅ No debugging code
-
-Testing:
-✅ Running final test suite with backup
-✅ All 127 tests pass
-✅ Coverage: 87%
-
-[... complete all sections ...]
-
-Ready to create PR ✅
-```
-
-### Step 2: Update Branch with Latest Changes
+**Before presenting options, verify tests pass:**
 
 ```bash
-# Ensure branch is up to date
-git checkout main
-git pull origin main
-
-git checkout feature/authentication
-git merge main
-
-# Or use rebase for cleaner history
-git rebase main
-
-# Resolve any conflicts
-[if conflicts, resolve them]
-
-# Run tests again after merge/rebase
-./scripts/safe-test.sh vendor/bin/paratest
+# Run project's test suite
+npm test / cargo test / pytest / go test ./...
 ```
 
-### Step 3: Clean Up Commits (Optional)
+**If tests fail:**
+```
+Tests failing (<N> failures). Must fix before completing:
 
-If commit history is messy:
+[Show failures]
+
+Cannot proceed with merge/PR until tests pass.
+```
+
+Stop. Don't proceed to Step 2.
+
+**If tests pass:** Continue to Step 2.
+
+### Step 2: Determine Base Branch
 
 ```bash
-# Interactive rebase to squash/reword commits
-git rebase -i main
-
-# Squash all commits into one (if appropriate)
-# Or clean up commit messages
-# Or split large commits
-
-# Force push after rebase (ONLY on feature branches)
-git push --force-with-lease origin feature/authentication
+# Try common base branches
+git merge-base HEAD main 2>/dev/null || git merge-base HEAD master 2>/dev/null
 ```
 
-### Step 4: Write PR/MR Description
+Or ask: "This branch split from main - is that correct?"
 
-**Template:**
+### Step 3: Present Options
 
-```markdown
-## What
+Present exactly these 4 options:
 
-Brief description of what this PR does
+```
+Implementation complete. What would you like to do?
 
-## Why
+1. Merge back to <base-branch> locally
+2. Push and create a Pull Request
+3. Keep the branch as-is (I'll handle it later)
+4. Discard this work
 
-Why is this change needed? What problem does it solve?
-
-## Changes
-
-- Bullet point list of major changes
-- Added X
-- Modified Y
-- Removed Z
-
-## Testing
-
-How to test these changes:
-1. Step 1
-2. Step 2
-3. Expected result
-
-Test results:
-- All tests pass (X tests)
-- Manual testing completed
-- No regressions detected
-
-## Screenshots/Videos
-
-(If applicable, add screenshots or video demonstrating changes)
-
-## Breaking Changes
-
-(If any, list them with migration instructions)
-
-## Checklist
-
-- [ ] Tests pass
-- [ ] Documentation updated
-- [ ] No merge conflicts
-- [ ] Reviewed own code
-
-Closes #123
+Which option?
 ```
 
-**Example:**
+**Don't add explanation** - keep options concise.
 
-```markdown
-## What
+### Step 4: Execute Choice
 
-Implements JWT token-based authentication for API using Laravel Sanctum
+#### Option 1: Merge Locally
 
-## Why
-
-Needed stateless authentication to support mobile app. Session-based auth doesn't work well for mobile clients.
-
-## Changes
-
-- Added Laravel Sanctum package
-- Created AuthController with register/login/logout endpoints
-- Added auth:sanctum middleware to protected routes
-- Implemented token generation and revocation
-- Added 15 tests covering auth flows
-- Updated API documentation
-
-## Testing
-
-How to test:
-1. POST /api/register with email/password
-2. Receive token in response
-3. Use token in Authorization header for protected routes
-4. POST /api/logout to revoke token
-
-Test results:
-- All 127 tests pass (added 15 new auth tests)
-- Manual testing completed with Postman
-- Tested token expiration
-- Tested invalid credentials
-- Tested protected route access
-
-## API Endpoints
-
-New endpoints:
-- POST /api/register - User registration
-- POST /api/login - User login (returns token)
-- POST /api/logout - Token revocation (protected)
-
-Protected endpoints now require:
-```
-Authorization: Bearer {token}
-```
-
-## Breaking Changes
-
-None. Existing endpoints unchanged. New auth is opt-in for protected routes.
-
-## Migration Instructions
-
-1. Run migrations: `php artisan migrate`
-2. Publish Sanctum config (optional): `php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"`
-3. Add `SANCTUM_STATEFUL_DOMAINS` to .env (for SPA, optional)
-
-## Rollback Plan
-
-If issues occur:
 ```bash
-php artisan migrate:rollback --step=2
-composer remove laravel/sanctum
+# Switch to base branch
+git checkout <base-branch>
+
+# Pull latest
+git pull
+
+# Merge feature branch
+git merge <feature-branch>
+
+# Verify tests on merged result
+<test command>
+
+# If tests pass
+git branch -d <feature-branch>
 ```
 
-## Checklist
+Then: Cleanup worktree (Step 5)
 
-- [x] All tests pass
-- [x] API documentation updated
-- [x] README updated with auth setup
-- [x] CHANGELOG updated
-- [x] .env.example includes Sanctum variables
-- [x] No merge conflicts
-- [x] Self-reviewed code
-- [x] Database migrations reversible
+#### Option 2: Push and Create PR
 
-Closes #45
-```
-
-### Step 5: Create PR/MR
-
-**GitHub:**
 ```bash
-# Using GitHub CLI
-gh pr create \
-  --title "feat(auth): Add JWT token authentication" \
-  --body-file pr-description.md \
-  --base main \
-  --head feature/authentication
+# Push branch
+git push -u origin <feature-branch>
 
-# Or interactively
-gh pr create
+# Create PR
+gh pr create --title "<title>" --body "$(cat <<'EOF'
+## Summary
+<2-3 bullets of what changed>
+
+## Test Plan
+- [ ] <verification steps>
+EOF
+)"
 ```
 
-**GitLab:**
+Then: Cleanup worktree (Step 5)
+
+#### Option 3: Keep As-Is
+
+Report: "Keeping branch <name>. Worktree preserved at <path>."
+
+**Don't cleanup worktree.**
+
+#### Option 4: Discard
+
+**Confirm first:**
+```
+This will permanently delete:
+- Branch <name>
+- All commits: <commit-list>
+- Worktree at <path>
+
+Type 'discard' to confirm.
+```
+
+Wait for exact confirmation.
+
+If confirmed:
 ```bash
-# Using GitLab CLI
-glab mr create \
-  --title "feat(auth): Add JWT token authentication" \
-  --description "$(cat pr-description.md)" \
-  --source-branch feature/authentication \
-  --target-branch main
-
-# Or interactively
-glab mr create
+git checkout <base-branch>
+git branch -D <feature-branch>
 ```
 
-### Step 6: Post-PR Actions
+Then: Cleanup worktree (Step 5)
 
-After creating PR:
+### Step 5: Cleanup Worktree
 
-```
-PR created: #156
+**For Options 1, 2, 4:**
 
-Post-PR checklist:
-- [ ] Link to related issues
-- [ ] Request reviewers
-- [ ] Add labels (feature, enhancement, etc.)
-- [ ] Assign to milestone (if applicable)
-- [ ] Add to project board (if applicable)
-- [ ] Notify team in chat/email
-
-Monitoring:
-- Watch for CI/CD results
-- Address reviewer comments promptly
-- Keep branch up to date if base changes
+Check if in worktree:
+```bash
+git worktree list | grep $(git branch --show-current)
 ```
 
-## Common PR/MR Mistakes to Avoid
-
-### ❌ Incomplete PRs
-
-```
-Bad PR:
-Title: "Update"
-Description: "Fixed stuff"
-Changes: 50 files modified, no explanation
+If yes:
+```bash
+git worktree remove <worktree-path>
 ```
 
-**Why bad**: Reviewers have no context, can't review effectively
+**For Option 3:** Keep worktree.
 
-**Fix**: Complete title, thorough description, explain changes
+## Quick Reference
 
-### ❌ Huge PRs
+| Option | Merge | Push | Keep Worktree | Cleanup Branch |
+|--------|-------|------|---------------|----------------|
+| 1. Merge locally | ✓ | - | - | ✓ |
+| 2. Create PR | - | ✓ | ✓ | - |
+| 3. Keep as-is | - | - | ✓ | - |
+| 4. Discard | - | - | - | ✓ (force) |
 
-```
-Bad PR:
-Title: "Add authentication, payment, and notification systems"
-Changes: 150 files, 5000 lines
-```
+## Common Mistakes
 
-**Why bad**: Too large to review effectively, high chance of bugs
+**Skipping test verification**
+- **Problem:** Merge broken code, create failing PR
+- **Fix:** Always verify tests before offering options
 
-**Fix**: Split into multiple smaller PRs
+**Open-ended questions**
+- **Problem:** "What should I do next?" → ambiguous
+- **Fix:** Present exactly 4 structured options
 
-**Good size**: < 400 lines of actual code changes
+**Automatic worktree cleanup**
+- **Problem:** Remove worktree when might need it (Option 2, 3)
+- **Fix:** Only cleanup for Options 1 and 4
 
-### ❌ PRs with Failing Tests
+**No confirmation for discard**
+- **Problem:** Accidentally delete work
+- **Fix:** Require typed "discard" confirmation
 
-```
-Bad PR:
-- Tests: 5 passing, 3 failing
-- CI: ❌ Failed
-- Description: "Tests will pass after merge"
-```
+## Red Flags
 
-**Why bad**: Breaks the build, unprofessional
+**Never:**
+- Proceed with failing tests
+- Merge without verifying tests on result
+- Delete work without confirmation
+- Force-push without explicit request
 
-**Fix**: Make tests pass BEFORE creating PR
+**Always:**
+- Verify tests before offering options
+- Present exactly 4 options
+- Get typed confirmation for Option 4
+- Clean up worktree for Options 1 & 4 only
 
-### ❌ PRs with Merge Conflicts
+## Integration
 
-```
-Bad PR:
-- Status: Has merge conflicts with main
-- Comment: "Can someone resolve the conflicts?"
-```
+**Called by:**
+- **subagent-driven-development** (Step 7) - After all tasks complete
+- **executing-plans** (Step 5) - After all batches complete
 
-**Why bad**: PR author should resolve conflicts
+**Pairs with:**
+- **using-git-worktrees** - Cleans up worktree created by that skill
 
-**Fix**: Merge main into your branch, resolve conflicts, test, push
-
-### ❌ PRs without Context
-
-```
-Bad PR:
-Title: "Fix bug"
-Description: (empty)
-Changes: Modified 3 files
-```
-
-**Why bad**: Reviewers don't know what bug or how it was fixed
-
-**Fix**: Explain the bug, root cause, and solution
-
-## Handling PR Feedback
-
-### When Reviewer Requests Changes
-
-```
-Reviewer comment:
-"This AuthController method is 100 lines. Can you split it?"
-
-Good response:
-"Good catch! I'll refactor this into:
-- validateCredentials() method
-- generateToken() method
-- logAuthEvent() method
-
-Will push update today."
-
-[Make changes, push, notify reviewer]
-"Updated! AuthController methods now < 30 lines each."
-```
-
-### When You Disagree with Feedback
-
-```
-Reviewer comment:
-"Use bcrypt instead of argon2"
-
-Your response (if you disagree):
-"I chose argon2 because:
-1. More secure (2015 Password Hashing Competition winner)
-2. Better resistance to GPU attacks
-3. Laravel default since 5.8
-
-However, happy to switch to bcrypt if there's a specific concern. What do you think?"
-
-[Discuss, reach consensus, implement agreed solution]
-```
-
-## Integration with Skills
-
-**Prerequisites:**
-- `code-review` - Self-review before PR
-- `verification-before-completion` - Final checks
-- `executing-plans` - Implementation complete
-
-**Use with:**
-- `git-workflow` - Commit conventions
-- `database-backup` - Test before PR
-- `systematic-debugging` - If issues found
-
-**After PR created:**
-- Monitor CI/CD results
-- Address reviewer feedback
-- Merge after approval
-
-## Red Flags (Not Ready for PR)
-
-- ❌ Tests don't pass
-- ❌ Contains TODO comments
-- ❌ Has merge conflicts
-- ❌ No description
-- ❌ Includes debugging code
-- ❌ Secrets committed
-- ❌ CI/CD fails
-- ❌ No new tests for new features
-
-## Common Rationalizations to Reject
-
-- ❌ "I'll fix it after merge" → Fix BEFORE merge
-- ❌ "The reviewer will catch issues" → Catch them yourself first
-- ❌ "It's just a small change" → Small changes still need quality
-- ❌ "I'm in a hurry" → Rushing creates bugs
-- ❌ "Tests will pass in production" → Tests must pass now
-
-## Authority
-
-**This skill is based on:**
-- Professional software development practices
-- Code review best practices
-- Industry standard: All major companies require thorough PR process
-- Git workflow conventions
-- Team collaboration efficiency
-
-**Social Proof**: Google, Facebook, Microsoft all have rigorous PR processes.
-
-## Your Commitment
-
-Before creating PR/MR:
-- [ ] I will complete the entire finish checklist
-- [ ] I will ensure all tests pass
-- [ ] I will write a thorough PR description
-- [ ] I will review my own code first
-- [ ] I will address all red flags
-
----
-
-**Bottom Line**: Your PR represents you. Make it professional, complete, and easy to review. Reviewers' time is valuable - respect it by submitting quality work.
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

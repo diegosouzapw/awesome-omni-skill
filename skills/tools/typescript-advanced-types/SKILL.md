@@ -1,7 +1,9 @@
 ---
-version: 4.1.0-fractal
 name: typescript-advanced-types
-description: Master TypeScript's advanced type system including generics, conditional types, mapped types, template literals, and utility types for building type-safe applications. Use when implementing complex type logic, creating reusable type utilities, or ensuring compile-time type safety in TypeScript projects.
+description: "Master TypeScript's advanced type system including generics, conditional types, mapped types, template literals, and utility types for building type-safe applications. Use when implementing complex..."
+risk: unknown
+source: community
+date_added: "2026-02-27"
 ---
 
 # TypeScript Advanced Types
@@ -34,8 +36,3 @@ Comprehensive guidance for mastering TypeScript's advanced type system including
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
-
-
-## 🧠 Knowledge Modules (Fractal Skills)
-
-### 1. [implementation-playbook](./sub-skills/implementation-playbook.md)

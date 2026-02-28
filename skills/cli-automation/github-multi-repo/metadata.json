@@ -3,8 +3,8 @@
   "description": "Multi-repository coordination, synchronization, and architecture management with AI swarm orchestration",
   "category": "cli-automation",
   "canonical_category": "cli-automation",
-  "repository": "ruvnet/claude-flow",
-  "repository_url": "https://github.com/ruvnet/claude-flow",
+  "repository": "ruvnet/ruflo",
+  "repository_url": "https://github.com/ruvnet/ruflo",
   "author": "ruvnet",
   "author_avatar": "https://github.com/ruvnet.png",
   "file_path": ".agents/skills/github-multi-repo/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "69977af7d8096146e8d3444facd90d322b7afceac567d6547fa18ee6534d247e",
-  "indexed_at": "2026-02-26T05:45:51.307Z",
-  "synced_at": "2026-02-28T04:26:55.829Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/33bb9d83ccf1b1fe436c24af66388a4a555cac91ae61ded9e264a9d58158580c",
-  "install_command": "mkdir -p .claude/skills/github-multi-repo && curl -sL \"https://raw.githubusercontent.com/ruvnet/claude-flow/main/.agents/skills/github-multi-repo/SKILL.md\" > .claude/skills/github-multi-repo/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/ruvnet/claude-flow/main/.agents/skills/github-multi-repo/SKILL.md"
+  "content_hash": "41ef3f68d94886b499227a79ebe9be1ad0e6e7c7fb59d18ba4f84a937c316602",
+  "indexed_at": "2026-02-28T05:15:25.777Z",
+  "synced_at": "2026-02-28T06:12:32.928Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3447c7f0bbbeed95eea6c07171b0acd27a1e7600f139e5e61544ef1a2a2db765",
+  "install_command": "mkdir -p .claude/skills/github-multi-repo && curl -sL \"https://raw.githubusercontent.com/ruvnet/ruflo/main/.agents/skills/github-multi-repo/SKILL.md\" > .claude/skills/github-multi-repo/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/ruvnet/ruflo/main/.agents/skills/github-multi-repo/SKILL.md"
 }

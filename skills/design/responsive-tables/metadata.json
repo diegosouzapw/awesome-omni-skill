@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/CleanExpo/CCW-CRM",
   "author": "CleanExpo",
   "author_avatar": "https://github.com/CleanExpo.png",
-  "file_path": "skills/design/responsive-tables.skill.md",
+  "file_path": "NodeJS-Starter-V1/skills/design/responsive-tables.skill.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "a3ee57dca1c5d35f535fdc3fce318521049192f3283298886d2540ebdd51546f",
-  "indexed_at": "2026-02-26T06:45:27.195Z",
-  "synced_at": "2026-02-28T04:05:22.600Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/976ce244237011003d427cc9a7749d73f90578cb11840847395527d957ad6b19",
-  "install_command": "mkdir -p .claude/skills/responsive-tables && curl -sL \"https://raw.githubusercontent.com/CleanExpo/CCW-CRM/main/skills/design/responsive-tables.skill.md/SKILL.md\" > .claude/skills/responsive-tables/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/CleanExpo/CCW-CRM/main/skills/design/responsive-tables.skill.md/SKILL.md"
+  "content_hash": "ad5256a4efffb072ce076c25b247f19433ba89b7c7d26cbb9e44dc8b65e587a2",
+  "indexed_at": "2026-02-28T05:46:29.209Z",
+  "synced_at": "2026-02-28T06:12:37.472Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b89c77e99f58dcc99df4d8e3a2c97e99642540f7fe0dba3bcdcd07676a823194",
+  "install_command": "mkdir -p .claude/skills/responsive-tables && curl -sL \"https://raw.githubusercontent.com/CleanExpo/CCW-CRM/main/NodeJS-Starter-V1/skills/design/responsive-tables.skill.md/SKILL.md\" > .claude/skills/responsive-tables/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/CleanExpo/CCW-CRM/main/NodeJS-Starter-V1/skills/design/responsive-tables.skill.md/SKILL.md"
 }

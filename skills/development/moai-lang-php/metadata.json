@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/other/moai-lang-php/SKILL.md",
+  "file_path": "skills/other/moai-lang-php-zellycloud-zyflow/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "a8dad0864198525f1dcf11ad57e0f77332cdbc9bbfb982ff8405263f48177a01",
-  "indexed_at": "2026-02-26T05:51:38.661Z",
-  "synced_at": "2026-02-28T03:52:06.100Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/95606675d6614c0a312fc937e6ff922d21a6ac74cb918310323ef4e30239f110",
-  "install_command": "mkdir -p .claude/skills/moai-lang-php && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/moai-lang-php/SKILL.md\" > .claude/skills/moai-lang-php/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/moai-lang-php/SKILL.md"
+  "content_hash": "81b3bc1013b787017ef5a13f111267c3718341977b034460dc14bf32678a0437",
+  "indexed_at": "2026-02-28T05:52:20.839Z",
+  "synced_at": "2026-02-28T06:12:48.098Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3b8ec7a70995bc71472aee3ba0faa3eea515c6781d12f199e52c5f4f23c8e35b",
+  "install_command": "mkdir -p .claude/skills/moai-lang-php && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/moai-lang-php-zellycloud-zyflow/SKILL.md\" > .claude/skills/moai-lang-php/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/moai-lang-php-zellycloud-zyflow/SKILL.md"
 }

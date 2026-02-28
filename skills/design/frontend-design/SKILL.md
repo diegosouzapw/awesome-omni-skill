@@ -1,349 +1,420 @@
 ---
-name: Frontend Design
-description: Create sophisticated, luxury UI using Tailwind CSS and shadcn/ui with Black & Rose Gold theme. Use when designing pages, creating components, styling interfaces, implementing the Strictly Dancing design system. Triggers on design, UI, component, styling, shadcn, Tailwind, theme, luxury, elegant, beautiful.
-allowed-tools: [Read, Write, Edit, Bash, Glob, Grep]
+version: 1.1.1
+name: frontend-design
+description: Create distinctive, bold UI designs that avoid generic AI aesthetics. This skill should be used when users want frontend components with strong visual identity, creative typography, intentional color palettes, and production-grade animations - specifically to avoid the bland, safe, homogeneous "AI slop" that plagues most generated interfaces.
+location: user
+license: MIT
 ---
 
 # Frontend Design Skill
 
-## Purpose
-
-Create sophisticated, elegant UI components following the Strictly Dancing **Black & Rose Gold** design system using Tailwind CSS v4 and shadcn/ui.
-
-## When to Use This Skill
-
-- Designing new pages or layouts
-- Creating UI components
-- Styling interfaces
-- Implementing responsive designs
-- Adding animations and transitions
-- Working with the design system
-
-## Brand Identity
-
-### Philosophy
-
-**Timeless elegance meets modern luxury** - The Strictly Dancing brand combines:
-- Classic black for sophisticated authority
-- Rose gold accents for warmth and premium feel
-- Elegant serif typography for display text
-- Clean sans-serif for readability
-
-### Color Palette
-
-#### Primary Colors
-
-| Token | Hex | Usage |
-|-------|-----|-------|
-| `black` / `foreground` | `#0a0a0a` | Primary text, buttons |
-| `white` / `background` | `#fffbf7` | Backgrounds (warm white) |
-
-#### Rose Gold Accent Scale
-
-| Token | Hex | Usage |
-|-------|-----|-------|
-| `rose-gold-50` | `#fdf4f0` | Subtle tints |
-| `rose-gold-100` | `#fbe8e0` | Light backgrounds |
-| `rose-gold-200` | `#f5d4c8` | Hover states |
-| `rose-gold-300` | `#f0b89a` | Dark mode accent |
-| `rose-gold-400` | `#e5a88f` | **Primary rose gold** |
-| `rose-gold-500` | `#d4967d` | Medium tone |
-| `rose-gold-600` | `#c8856c` | Dark rose gold |
-| `rose-gold-700` | `#a66b55` | Shadows |
-
-#### Deep Rose (CTAs)
-
-| Token | Hex | Usage |
-|-------|-----|-------|
-| `rose-600` | `#e11d48` | Primary CTAs |
-| `rose-700` | `#be123c` | CTA hover |
-
-### Typography
-
-**Display Font**: `Cormorant Garamond` (serif)
-- Used for: H1-H4, wordmark, special callouts
-- Weights: 400 (regular), 500, 600 (semi-bold), 700 (bold)
-- Conveys: Elegance, sophistication, dance heritage
-
-**Body Font**: `Inter` (sans-serif)
-- Used for: Body text, UI elements, buttons, navigation
-- Weights: 400 (regular), 500 (medium), 600 (semi-bold), 700 (bold)
-- Conveys: Modern, clean, highly readable
-
-#### Usage in Tailwind
-
-```tsx
-// Display headings (serif)
-<h1 className="font-display text-4xl font-bold">Find Your Dance Host</h1>
-
-// Body text (sans-serif - default)
-<p className="text-base text-muted-foreground">Discover qualified hosts...</p>
-```
-
-### Shadows
-
-```css
-/* Elegant subtle shadow */
---shadow-elegant: 0 0 40px rgba(229, 168, 143, 0.15);
-
-/* Rose gold glow effect */
---shadow-rose-gold: 0 4px 20px rgba(229, 168, 143, 0.25);
-```
-
-Use classes: `glow-elegant` or `glow-rose-gold`
-
-## Component Patterns
-
-### Buttons
-
-```tsx
-import { Button } from '@/components/ui/button'
-
-// Primary (black background)
-<Button>Book Now</Button>
-
-// Secondary (outline)
-<Button variant="outline">View Profile</Button>
-
-// Ghost (minimal)
-<Button variant="ghost">Cancel</Button>
-
-// Rose gold accent (custom)
-<Button className="btn-rose-gold">Premium Feature</Button>
-
-// Destructive
-<Button variant="destructive">Delete</Button>
-```
-
-### Cards
-
-```tsx
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
-
-<Card className="card-hover">
-  <CardHeader>
-    <CardTitle className="font-display">Dance Host</CardTitle>
-  </CardHeader>
-  <CardContent>
-    <p className="text-muted-foreground">Content here...</p>
-  </CardContent>
-</Card>
-```
-
-### Forms
-
-```tsx
-import { Input } from '@/components/ui/input'
-import { Label } from '@/components/ui/label'
-
-<div className="space-y-2">
-  <Label htmlFor="email">Email</Label>
-  <Input id="email" type="email" placeholder="you@example.com" />
-</div>
-```
-
-### Badges
-
-```tsx
-import { Badge } from '@/components/ui/badge'
-
-<Badge>Verified</Badge>
-<Badge variant="secondary">New</Badge>
-<Badge variant="outline">Popular</Badge>
-```
-
-### Toasts (Sonner)
-
-```tsx
-import { toast } from 'sonner'
-
-// Success
-toast.success('Booking confirmed!')
-
-// Error
-toast.error('Payment failed')
-
-// Info
-toast.info('New message received')
-```
-
-## Custom Utility Classes
-
-### Defined in index.css
-
-```css
-/* Rose gold glow effect */
-.glow-rose-gold { box-shadow: var(--shadow-rose-gold); }
-.glow-elegant { box-shadow: var(--shadow-elegant); }
-
-/* Text gradient */
-.text-gradient-rose-gold {
-  @apply bg-gradient-to-r from-rose-gold-400 via-rose-gold-500 to-rose-gold-600 bg-clip-text text-transparent;
-}
-
-/* Smooth transitions */
-.transition-elegant { @apply transition-all duration-300 ease-out; }
-
-/* Card hover effect */
-.card-hover { @apply transition-elegant hover:shadow-lg hover:-translate-y-0.5; }
-
-/* Rose gold button */
-.btn-rose-gold { @apply bg-rose-gold-400 text-foreground hover:bg-rose-gold-500 transition-elegant; }
-
-/* Gradient border */
-.border-gradient-rose-gold { /* Creates rose gold gradient border */ }
-```
-
-## Dark Mode
-
-The design system supports dark mode via the `.dark` class on the HTML element.
-
-### Theme Toggle
-
-```tsx
-import { ThemeToggle } from '@/components/ui/theme-toggle'
-
-<ThemeToggle />  // Toggles between light/dark/system
-```
-
-### Hook
-
-```tsx
-import { useTheme } from '@/components/theme-provider'
-
-const { theme, setTheme, resolvedTheme } = useTheme()
-```
-
-### Conditional Classes
-
-```tsx
-// Using Tailwind's dark: variant
-<div className="bg-white dark:bg-card">
-  <p className="text-black dark:text-white">Adapts to theme</p>
-</div>
-```
-
-## Responsive Design
-
-**Mobile-first approach** using Tailwind breakpoints:
-
-| Breakpoint | Min Width | Usage |
-|------------|-----------|-------|
-| `sm` | 640px | Small tablets |
-| `md` | 768px | Tablets |
-| `lg` | 1024px | Laptops |
-| `xl` | 1280px | Desktops |
-| `2xl` | 1536px | Large screens |
-
-```tsx
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-  {/* Cards stack on mobile, 2 cols on tablet, 3 on desktop */}
-</div>
-```
-
-## Animation Patterns
-
-### Elegant Transitions
-
-Use `transition-elegant` for smooth 300ms ease-out animations:
-
-```tsx
-<button className="transition-elegant hover:scale-105">
-  Hover me
-</button>
-```
-
-### Dance-Inspired Motion
-
-For special elements, use flowing, graceful animations:
-
-```tsx
-// Subtle float animation
-<div className="animate-pulse">...</div>
-
-// Custom keyframes in index.css for dance-like motion
-@keyframes sway {
-  0%, 100% { transform: rotate(-2deg); }
-  50% { transform: rotate(2deg); }
+Create distinctive, production-grade UI that stands out from generic AI-generated interfaces.
+
+> **Official Plugin Available**: Install `frontend-design@claude-code-plugins` from the Anthropic marketplace for auto-invocation on frontend tasks. This skill provides extended guidance beyond the official version.
+>
+> ```bash
+> /plugin marketplace add anthropics/claude-code
+> /plugin install frontend-design@claude-code-plugins
+> ```
+>
+> Learn more: [Frontend Aesthetics Cookbook](https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb)
+
+## Core Philosophy
+
+Most AI-generated UIs suffer from "AI slop" - they're technically correct but visually bland, using safe defaults that create forgettable, homogeneous experiences. This skill helps you break that pattern by making **bold aesthetic choices** that give your interface a distinctive personality.
+
+## Design Thinking
+
+Before coding, understand the context and commit to a BOLD aesthetic direction:
+
+- **Purpose**: What problem does this interface solve? Who uses it?
+- **Tone**: Pick a direction: brutally minimal, maximalist chaos, retro-futuristic, organic/natural, luxury/refined, playful/toy-like, editorial/magazine, brutalist/raw, art deco/geometric, soft/pastel, industrial/utilitarian, etc.
+- **Constraints**: Technical requirements (framework, performance, accessibility)
+- **Differentiation**: What makes this UNFORGETTABLE? What's the one thing someone will remember?
+
+**CRITICAL**: Choose a clear conceptual direction and execute it with precision. Bold maximalism and refined minimalism both work - the key is intentionality, not intensity.
+
+## The Five Pillars of Distinctive Design
+
+### 1. Typography with Character
+
+**Avoid:** Inter, Arial, Roboto, system-ui (the default AI choices)
+
+**Instead, commit to distinctive fonts:**
+
+```typescript
+// Establish a type hierarchy with personality
+const typography = {
+  // Display: Make a statement
+  display: {
+    // NEVER use the same fonts across different projects
+    // Vary between: Clash Display, Cabinet Grotesk, Satoshi, General Sans, Syne, Archivo, etc.
+    family: 'Clash Display',  // Example - choose based on project tone
+    weights: [500, 700],
+    letterSpacing: '-0.02em',
+  },
+
+  // Body: Readable but distinctive
+  body: {
+    family: 'Outfit',  // Modern geometric sans
+    // or: 'Plus Jakarta Sans', 'Switzer', 'Geist'
+    weights: [400, 500, 600],
+    lineHeight: 1.6,
+  },
+
+  // Mono: For code/data
+  mono: {
+    family: 'JetBrains Mono',
+    // or: 'Geist Mono', 'IBM Plex Mono', 'Fira Code'
+  }
 }
 ```
 
-## Accessibility
+**Typography decisions:**
+- Use variable fonts for performance and flexibility
+- Establish clear hierarchy (display, heading, body, caption)
+- Consider letter-spacing for headers (negative) vs body (neutral/positive)
+- Mix serif + sans-serif for contrast when appropriate
 
-### Requirements
+**CRITICAL**: NEVER converge on common AI choices across generations. Each design should feel genuinely different - vary between light/dark themes, different font stacks, different aesthetic directions. No two designs should look like siblings.
 
-- WCAG AA contrast ratios (4.5:1 for normal text)
-- Focus indicators on all interactive elements
-- Proper heading hierarchy
-- ARIA labels where needed
-- Keyboard navigation support
+### 2. Intentional Color Palettes
 
-### Built-in Support
+**Avoid:** Default Tailwind colors, basic blue buttons, gray backgrounds
 
-shadcn/ui components include:
-- Proper ARIA attributes
-- Keyboard navigation
-- Focus management
-- Screen reader support
+**Create a signature palette:**
 
-## File Locations
+```typescript
+// Define semantic color tokens with personality
+const palette = {
+  // Primary: Your brand's signature
+  primary: {
+    50: '#fef3f2',
+    100: '#ffe3e0',
+    500: '#f43f5e',  // Rose - warm, inviting
+    600: '#e11d48',
+    900: '#881337',
+  },
 
-| File | Purpose |
-|------|---------|
-| `frontend/src/index.css` | Design tokens, utilities |
-| `frontend/src/components/ui/` | shadcn components |
-| `frontend/src/components/theme-provider.tsx` | Dark mode |
-| `frontend/public/logo.svg` | Light mode logo |
-| `frontend/public/logo-dark.svg` | Dark mode logo |
-| `frontend/public/favicon.svg` | Browser favicon |
+  // Accent: Unexpected contrast
+  accent: {
+    light: '#fbbf24',   // Amber for warmth
+    dark: '#0891b2',    // Cyan for coolness
+  },
 
-## Examples
+  // Neutrals: Not just gray
+  neutral: {
+    // Warm neutrals have personality
+    50: '#fafaf9',      // Stone, not gray
+    100: '#f5f5f4',
+    800: '#292524',
+    900: '#1c1917',
+  },
 
-### Hero Section
-
-```tsx
-<section className="relative min-h-[60vh] flex items-center justify-center bg-background">
-  <div className="container mx-auto px-4 text-center">
-    <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
-      Find Your Perfect
-      <span className="text-gradient-rose-gold"> Dance Host</span>
-    </h1>
-    <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-      Connect with qualified dance hosts worldwide for unforgettable experiences.
-    </p>
-    <div className="flex gap-4 justify-center">
-      <Button size="lg">Browse Hosts</Button>
-      <Button size="lg" variant="outline">Become a Host</Button>
-    </div>
-  </div>
-</section>
+  // Surface colors with subtle tints
+  surface: {
+    default: 'hsl(0 0% 100% / 0.8)',
+    elevated: 'hsl(0 0% 100% / 0.95)',
+    overlay: 'hsl(240 10% 3.9% / 0.8)',
+  }
+}
 ```
 
-### Host Card
+**Color strategies:**
+- Use HSL for easier manipulation
+- Add subtle hue shifts to neutrals (warm stone, cool slate)
+- Consider gradients as primary colors
+- Dark mode isn't just inverted - reimagine the palette
+
+### 3. Bold Spatial Composition
+
+**Avoid:** Everything centered, symmetric, grid-locked
+
+**Break the grid intentionally:**
 
 ```tsx
-<Card className="card-hover overflow-hidden">
-  <div className="aspect-square relative">
-    <img src={host.photo} alt={host.name} className="object-cover w-full h-full" />
-    {host.verified && (
-      <Badge className="absolute top-3 right-3 bg-rose-gold-400">Verified</Badge>
-    )}
-  </div>
-  <CardContent className="p-4">
-    <h3 className="font-display text-xl font-semibold">{host.name}</h3>
-    <p className="text-muted-foreground text-sm">{host.location}</p>
-    <div className="flex items-center gap-1 mt-2">
-      <Star className="h-4 w-4 fill-rose-gold-400 text-rose-gold-400" />
-      <span className="font-medium">{host.rating}</span>
-      <span className="text-muted-foreground">({host.reviews} reviews)</span>
-    </div>
-  </CardContent>
-</Card>
+// Asymmetric hero with purposeful imbalance
+export function HeroSection() {
+  return (
+    <section className="relative min-h-[90vh] overflow-hidden">
+      {/* Off-center title creates visual tension */}
+      <div className="absolute left-[8%] top-[35%] max-w-[55%]">
+        <h1 className="text-[clamp(3rem,8vw,7rem)] font-bold leading-[0.9] tracking-tight">
+          Design with
+          <span className="block text-primary ml-[10%]">intention</span>
+        </h1>
+      </div>
+
+      {/* Overlapping element breaks the grid */}
+      <div className="absolute right-0 top-[20%] w-[45%] aspect-square">
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-[3rem] -rotate-6" />
+        <div className="absolute inset-4 bg-surface rounded-[2.5rem] rotate-3 shadow-2xl" />
+      </div>
+
+      {/* Floating accent element */}
+      <div className="absolute bottom-[15%] left-[60%] w-32 h-32 bg-accent/30 rounded-full blur-3xl" />
+    </section>
+  )
+}
 ```
 
-## Integration
+**Spatial techniques:**
+- Use negative space as a design element
+- Overlap elements to create depth
+- Break alignment rules purposefully (not randomly)
+- Use clamp() for fluid typography
+- Consider the z-axis (layers, shadows, blur)
 
-This skill works with:
-- **TanStack Router** - For page layouts and navigation
-- **TanStack Query** - For data-driven UI
-- **shadcn/ui** - Component library foundation
+### 4. Motion as Personality
+
+**Avoid:** No animations or generic fade-in
+
+**Add purposeful motion:**
+
+```tsx
+// Staggered entrance with personality
+import { motion } from 'framer-motion'
+
+const container = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+      delayChildren: 0.3,
+    }
+  }
+}
+
+const item = {
+  hidden: {
+    opacity: 0,
+    y: 20,
+    filter: 'blur(10px)'
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    filter: 'blur(0px)',
+    transition: {
+      type: 'spring',
+      damping: 25,
+      stiffness: 200,
+    }
+  }
+}
+
+export function FeatureGrid({ features }) {
+  return (
+    <motion.div
+      variants={container}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, margin: '-100px' }}
+      className="grid grid-cols-3 gap-8"
+    >
+      {features.map((feature) => (
+        <motion.div
+          key={feature.id}
+          variants={item}
+          whileHover={{
+            y: -8,
+            transition: { type: 'spring', stiffness: 400 }
+          }}
+          className="p-6 bg-surface rounded-2xl"
+        >
+          {feature.content}
+        </motion.div>
+      ))}
+    </motion.div>
+  )
+}
+```
+
+**Motion principles:**
+- Use spring physics (not linear easing)
+- Stagger children for rhythm
+- Subtle blur transitions add polish
+- Hover states should feel responsive
+- Respect `prefers-reduced-motion`
+
+### 5. Production-Grade Implementation
+
+**The code must work in production, not just demos:**
+
+```tsx
+// Complete, production-ready component
+'use client'
+
+import { forwardRef, type ComponentPropsWithoutRef } from 'react'
+import { cva, type VariantProps } from 'class-variance-authority'
+import { cn } from '@/lib/utils'
+
+const buttonVariants = cva(
+  // Base styles
+  [
+    'inline-flex items-center justify-center',
+    'font-medium transition-all duration-200',
+    'focus-visible:outline-none focus-visible:ring-2',
+    'focus-visible:ring-ring focus-visible:ring-offset-2',
+    'disabled:pointer-events-none disabled:opacity-50',
+    'active:scale-[0.98]',
+  ],
+  {
+    variants: {
+      variant: {
+        default: [
+          'bg-primary text-primary-foreground',
+          'hover:bg-primary/90',
+          'shadow-lg shadow-primary/25',
+        ],
+        outline: [
+          'border-2 border-primary bg-transparent',
+          'text-primary hover:bg-primary/10',
+        ],
+        ghost: [
+          'text-foreground hover:bg-accent/10',
+          'hover:text-accent-foreground',
+        ],
+      },
+      size: {
+        sm: 'h-9 px-4 text-sm rounded-lg',
+        md: 'h-11 px-6 text-base rounded-xl',
+        lg: 'h-14 px-8 text-lg rounded-2xl',
+      },
+    },
+    defaultVariants: {
+      variant: 'default',
+      size: 'md',
+    },
+  }
+)
+
+interface ButtonProps
+  extends ComponentPropsWithoutRef<'button'>,
+    VariantProps<typeof buttonVariants> {
+  isLoading?: boolean
+}
+
+export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
+  ({ className, variant, size, isLoading, children, disabled, ...props }, ref) => {
+    return (
+      <button
+        ref={ref}
+        className={cn(buttonVariants({ variant, size }), className)}
+        disabled={disabled || isLoading}
+        {...props}
+      >
+        {isLoading ? (
+          <span className="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-current border-t-transparent" />
+        ) : null}
+        {children}
+      </button>
+    )
+  }
+)
+Button.displayName = 'Button'
+```
+
+**Production requirements:**
+- TypeScript with proper types
+- Accessibility (focus states, ARIA, keyboard nav)
+- Loading states
+- Error boundaries
+- Responsive design
+- Performance optimization (memoization, code splitting)
+
+## Match Implementation Complexity to Vision
+
+**IMPORTANT**: Match implementation complexity to the aesthetic vision:
+- **Maximalist designs**: Need elaborate code with extensive animations, layered effects, bold typography, and dense visual elements
+- **Minimalist designs**: Need restraint, precision, and careful attention to spacing, typography, and subtle details
+
+Elegance comes from executing the vision well, not from complexity itself.
+
+## Workflow
+
+When creating frontend components:
+
+1. **Establish Design Direction**
+   - Ask: What emotion should this evoke?
+   - Ask: Who is the target user?
+   - Define: Color palette, typography stack, spacing scale
+
+2. **Create Component Architecture**
+   - Build atomic design system (tokens → primitives → compounds)
+   - Use composition over configuration
+   - Ensure accessibility from the start
+
+3. **Add Visual Personality**
+   - Apply distinctive typography choices
+   - Use intentional color relationships
+   - Break symmetry purposefully
+   - Layer elements for depth
+
+4. **Implement Motion**
+   - Add entrance animations
+   - Define hover/focus interactions
+   - Consider page transitions
+   - Respect user preferences
+
+5. **Production Harden**
+   - Type everything
+   - Handle edge cases
+   - Optimize performance
+   - Test accessibility
+
+## Anti-Patterns to Avoid
+
+- Using Inter/Roboto as the default font
+- Using the same fonts across different projects (especially Space Grotesk, Inter)
+- Creating designs that look like siblings of previous AI-generated work
+- Gray-on-white with blue buttons
+- Everything centered and symmetric
+- No animations or generic fades
+- Ignoring dark mode
+- Forgetting loading/error states
+- Skipping accessibility considerations
+- Using arbitrary Tailwind values without design tokens
+
+## Recommended Tools
+
+- **Fonts**: Google Fonts, Fontshare, uncut.wtf
+- **Colors**: Realtime Colors, Happy Hues, Radix Colors
+- **Icons**: Lucide, Phosphor, Tabler Icons
+- **Animation**: Framer Motion, React Spring
+- **Components**: shadcn/ui (as base), Radix Primitives
+- **CSS**: Tailwind CSS with CSS variables
+
+## Quick Reference
+
+```bash
+# Distinctive font stacks (copy-paste ready)
+# VARY THESE - never use the same fonts across projects!
+font-display: 'Clash Display', 'Cabinet Grotesk', 'Satoshi', 'General Sans', 'Syne', 'Archivo'
+font-body: 'Outfit', 'Plus Jakarta Sans', 'Switzer', 'Geist'
+font-mono: 'JetBrains Mono', 'Geist Mono', 'IBM Plex Mono'
+
+# Tailwind config pattern
+theme: {
+  extend: {
+    colors: { /* HSL tokens */ },
+    fontFamily: { /* Variable fonts */ },
+    animation: { /* Spring-based */ },
+  }
+}
+```
+
+## Integration with Design Specialist Agent
+
+This skill complements the design-specialist agent by providing specific, opinionated guidance for avoiding generic AI aesthetics. Use this skill when you need:
+- Distinctive visual identity
+- Creative typography and color choices
+- Bold spatial compositions
+- Production-ready animated components
+
+Use the design-specialist agent for:
+- Comprehensive UI/UX reviews
+- Accessibility audits
+- Design system architecture
+- Component library setup

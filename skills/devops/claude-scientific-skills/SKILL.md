@@ -1,8 +1,9 @@
 ---
 name: claude-scientific-skills
 description: "Scientific research and analysis skills"
-source: "https://github.com/K-Dense-AI/claude-scientific-skills"
 risk: safe
+source: "https://github.com/K-Dense-AI/claude-scientific-skills"
+date_added: "2026-02-27"
 ---
 
 # Claude Scientific Skills

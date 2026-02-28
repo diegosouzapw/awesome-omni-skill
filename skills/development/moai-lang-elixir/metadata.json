@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/other/moai-lang-elixir/SKILL.md",
+  "file_path": "skills/other/moai-lang-elixir-zellycloud-zyflow/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "70ddbb71163d0e86bb0bd217fd63ec0467e7b0556a4e23087fa3f80c5f652302",
-  "indexed_at": "2026-02-26T05:51:15.893Z",
-  "synced_at": "2026-02-28T03:52:05.921Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d7bf411f59f115b1ea6dbf7b4e0c204f1068e8dd3e323012f4b8dc5981c21101",
-  "install_command": "mkdir -p .claude/skills/moai-lang-elixir && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/moai-lang-elixir/SKILL.md\" > .claude/skills/moai-lang-elixir/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/moai-lang-elixir/SKILL.md"
+  "content_hash": "962b2fe4552d6b4dc14f79364806326d0a97e6b93ae79bafcdcd2ad00cbf276a",
+  "indexed_at": "2026-02-28T05:51:38.799Z",
+  "synced_at": "2026-02-28T06:12:48.048Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bf0f77f4a29e545b7a562d6389658ef6807768cdfb8f10f610538a6134caabbd",
+  "install_command": "mkdir -p .claude/skills/moai-lang-elixir && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/moai-lang-elixir-zellycloud-zyflow/SKILL.md\" > .claude/skills/moai-lang-elixir/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/moai-lang-elixir-zellycloud-zyflow/SKILL.md"
 }
