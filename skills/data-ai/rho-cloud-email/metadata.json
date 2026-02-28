@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "782935b9c6a8f0ea6c1491d554081cae0cd4ced31fc77540cd2e5afc66203419",
   "indexed_at": "2026-02-25T12:35:48.928Z",
-  "synced_at": "2026-02-27T02:48:23.149Z",
+  "synced_at": "2026-02-28T04:19:37.715Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/90f9d504e9b79f41d8a4af6770d1a681a618c7bcbad78649e60bb9626ebd34d4",
   "install_command": "mkdir -p .claude/skills/rho-cloud-email && curl -sL \"https://raw.githubusercontent.com/mikeyobrien/cloud-runrho-dev/main/SKILL.md\" > .claude/skills/rho-cloud-email/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mikeyobrien/cloud-runrho-dev/main/SKILL.md"

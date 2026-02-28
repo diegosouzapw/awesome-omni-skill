@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7e3705bc826041da815ede2a5cf6d5685a06515d1c7d6100c3b0260e95166c13",
   "indexed_at": "2026-02-25T14:03:25.066Z",
-  "synced_at": "2026-02-27T02:48:28.908Z",
+  "synced_at": "2026-02-28T04:19:43.050Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/042f201e312aa160480ea51e646086f244ac82becd4153315c9b4dc1ceef28c9",
   "install_command": "mkdir -p .claude/skills/nova-act-usability && curl -sL \"https://raw.githubusercontent.com/adityak6798/OpenClaw_NovaActWebsiteUsabilityTest_Skill/main/SKILL.md\" > .claude/skills/nova-act-usability/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/adityak6798/OpenClaw_NovaActWebsiteUsabilityTest_Skill/main/SKILL.md"

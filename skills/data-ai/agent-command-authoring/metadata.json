@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7caa813cdc7182d88646dfcc9e987c8fac709b95352d5e6b340d719bb21977a9",
   "indexed_at": "2026-02-27T02:56:40.680Z",
-  "synced_at": "2026-02-27T13:13:58.524Z",
+  "synced_at": "2026-02-28T04:18:46.150Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7783a63e17e8c94c6ab1abcc5a9ea2fe2563a690a61585230ed1bce7cfd9cfc9",
   "install_command": "mkdir -p .claude/skills/agent-command-authoring && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-command-authoring/SKILL.md\" > .claude/skills/agent-command-authoring/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-command-authoring/SKILL.md"

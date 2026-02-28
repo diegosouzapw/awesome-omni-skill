@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "88ff95c2f58d8988491499a86fd9597ff21b4e97c5b53af1ea46993a548c712b",
   "indexed_at": "2026-02-27T04:55:54.650Z",
-  "synced_at": "2026-02-27T13:14:07.929Z",
+  "synced_at": "2026-02-28T04:18:55.423Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9125c1775cbea2f9549f016529177d0e68864ac974b78aa2cf1d96ab7ff53960",
   "install_command": "mkdir -p .claude/skills/agent-self-correction && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-self-correction/SKILL.md\" > .claude/skills/agent-self-correction/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-self-correction/SKILL.md"

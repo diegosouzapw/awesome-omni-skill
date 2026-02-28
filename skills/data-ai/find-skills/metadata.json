@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9c3200dafabd4be851b32d6ddb7c79bbba4262b9de2df0f740ca4f3382b27c4a",
   "indexed_at": "2026-02-26T11:31:32.126Z",
-  "synced_at": "2026-02-27T02:48:42.620Z",
+  "synced_at": "2026-02-28T04:19:55.123Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/edfdeceb9d8935efe650ab6ddd408211923ab06046cdb5fc50dd04e8e0df4b13",
   "install_command": "mkdir -p .claude/skills/find-skills && curl -sL \"https://raw.githubusercontent.com/kanyun-inc/reskill/main/skills/find-skills/SKILL.md\" > .claude/skills/find-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kanyun-inc/reskill/main/skills/find-skills/SKILL.md"

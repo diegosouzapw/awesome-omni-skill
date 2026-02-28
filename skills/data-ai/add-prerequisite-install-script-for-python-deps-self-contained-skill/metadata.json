@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "076284e6a90394b2ed5a354f91b084e37864c69772daa0e06d2280a8b5bba273",
   "indexed_at": "2026-02-24T23:24:08.777Z",
-  "synced_at": "2026-02-27T02:47:56.219Z",
+  "synced_at": "2026-02-28T04:18:33.054Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/30e0791f4f8cea2abe2e88ffee68160863cc13c13a05a709f81256fb572a726a",
   "install_command": "mkdir -p .claude/skills/add-prerequisite-install-script-for-python-deps-self-contained-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/0100/SKILL.md\" > .claude/skills/add-prerequisite-install-script-for-python-deps-self-contained-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/0100/SKILL.md"

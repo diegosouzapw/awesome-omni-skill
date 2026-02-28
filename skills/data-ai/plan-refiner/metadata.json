@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "60dce98e159370eab441c58c06983eefca04d1de19577d0531b2cae0a3ab5d85",
   "indexed_at": "2026-02-25T20:42:04.255Z",
-  "synced_at": "2026-02-27T02:48:31.080Z",
+  "synced_at": "2026-02-28T04:19:45.256Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e3afee13904f75f3a919581a3ab10a05299b6f1fc7d8eb3342f09e06b88b605b",
   "install_command": "mkdir -p .claude/skills/plan-refiner && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/dreambound/plan-refiner-skill/plan-refiner/SKILL.md\" > .claude/skills/plan-refiner/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/dreambound/plan-refiner-skill/plan-refiner/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "198813af74efd09633e33359921124e2d4c1cca684b1fd0316e210189f560ea2",
   "indexed_at": "2026-02-24T23:26:58.390Z",
-  "synced_at": "2026-02-27T02:47:47.504Z",
+  "synced_at": "2026-02-28T04:18:27.501Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9cdd95735fddf18fa15e3f3b353de61d4aa491370ec1f87329a6d175ac7c324f",
   "install_command": "mkdir -p .claude/skills/peak-calling && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/3-peak-calling/SKILL.md\" > .claude/skills/peak-calling/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/3-peak-calling/SKILL.md"

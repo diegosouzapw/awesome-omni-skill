@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "992fffecf3a55bc6c3af962b852b6559cbf87a9e00489d97f7290eabdce40a3f",
   "indexed_at": "2026-02-25T12:50:28.277Z",
-  "synced_at": "2026-02-27T02:48:24.658Z",
+  "synced_at": "2026-02-28T04:19:39.125Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b4768dcf4445de1c75f2b32864e749779f98fc0a6f0f3bdd7315ab26b789c79b",
   "install_command": "mkdir -p .claude/skills/canonical-data-map && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/satoshistackalotto/canonical-data-map/SKILL.md\" > .claude/skills/canonical-data-map/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/satoshistackalotto/canonical-data-map/SKILL.md"

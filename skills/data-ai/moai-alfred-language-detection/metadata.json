@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "410d8ec7330ea5ff8be2499c68732189335d6d8c8163207ee9fb0a45d1eabef5",
   "indexed_at": "2026-02-26T13:19:45.865Z",
-  "synced_at": "2026-02-27T02:48:46.409Z",
+  "synced_at": "2026-02-28T04:19:58.579Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/21f4046606b97a99592d3386db9cd2b7b244dd910b0612b30fb38a07cd82c02e",
   "install_command": "mkdir -p .claude/skills/moai-alfred-language-detection && curl -sL \"https://raw.githubusercontent.com/kivo360/quickhooks/main/.claude/skills/moai-alfred-language-detection/SKILL.md\" > .claude/skills/moai-alfred-language-detection/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kivo360/quickhooks/main/.claude/skills/moai-alfred-language-detection/SKILL.md"

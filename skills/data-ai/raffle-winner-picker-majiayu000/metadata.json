@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c84e99e8bb6aaba6b9f33d883ce29a154200d8a4d20d35eb787c26334b17a04e",
   "indexed_at": "2026-02-24T23:09:26.531Z",
-  "synced_at": "2026-02-27T02:48:07.562Z",
+  "synced_at": "2026-02-28T04:19:24.323Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7704a6820dedf335aef6d109f593542cbb9c2d639e1a618be69298e3bff77809",
   "install_command": "mkdir -p .claude/skills/raffle-winner-picker && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c/SKILL.md\" > .claude/skills/raffle-winner-picker/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ca7176a2d5f0630ec3fd42a7031adf9bbbde9820a15cd70dc2d20a5f2d8676e5",
   "indexed_at": "2026-02-27T04:56:39.006Z",
-  "synced_at": "2026-02-27T13:14:09.163Z",
+  "synced_at": "2026-02-28T04:18:56.988Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/78e27de014e5aa4923815c0fae5efc99a6aa8c3487b985d9b51caa4448896761",
   "install_command": "mkdir -p .claude/skills/agent-swarm-orchestrator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-swarm-orchestrator/SKILL.md\" > .claude/skills/agent-swarm-orchestrator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-swarm-orchestrator/SKILL.md"

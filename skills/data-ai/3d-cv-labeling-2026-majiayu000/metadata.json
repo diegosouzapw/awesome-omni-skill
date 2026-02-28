@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bd52dcb5e7e975b3894198fc935dc992f6fe1e6f645464d913223acc304eeba4",
   "indexed_at": "2026-02-24T23:10:09.598Z",
-  "synced_at": "2026-02-27T02:48:08.855Z",
+  "synced_at": "2026-02-28T04:19:25.273Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6c5b8efcb5e893dddb0002ec8e95cb6bc704c54347ed2fa38c63f4cfc18a75ac",
   "install_command": "mkdir -p .claude/skills/3d-cv-labeling-2026 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/3d-cv-labeling-2026/SKILL.md\" > .claude/skills/3d-cv-labeling-2026/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/3d-cv-labeling-2026/SKILL.md"

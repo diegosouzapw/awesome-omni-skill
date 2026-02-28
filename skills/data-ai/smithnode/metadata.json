@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2c895ae2451b1ecc869a907c1d0c4bd7da4c93fbedbcd4d132cda030deb0a179",
   "indexed_at": "2026-02-25T13:50:30.597Z",
-  "synced_at": "2026-02-27T02:48:28.399Z",
+  "synced_at": "2026-02-28T04:19:42.502Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d7467397453fc5ef328a26c11f0f3eefe08e7d4eead7eb39c7131efe31299cce",
   "install_command": "mkdir -p .claude/skills/smithnode && curl -sL \"https://raw.githubusercontent.com/sab4a/MOLTCHAIN/main/SKILL.md\" > .claude/skills/smithnode/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sab4a/MOLTCHAIN/main/SKILL.md"

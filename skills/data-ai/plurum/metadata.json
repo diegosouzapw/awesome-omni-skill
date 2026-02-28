@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c279f55d16596055543d5dae3e8f7ac8050fa29180445d063e077857f3da9551",
   "indexed_at": "2026-02-26T08:46:41.778Z",
-  "synced_at": "2026-02-27T02:48:38.521Z",
+  "synced_at": "2026-02-28T04:19:49.947Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e3a30ec03832f123b83e4c8d516ed3e66cee984fd3c976725829d4eb81cfb313",
   "install_command": "mkdir -p .claude/skills/plurum && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/berkay-dune/plurum/SKILL.md\" > .claude/skills/plurum/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/berkay-dune/plurum/SKILL.md"

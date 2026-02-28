@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5e5f01779a0c7ecd8687c8a1fea26fd9d5eb6d0921b6f9cae5eee74204e8df14",
   "indexed_at": "2026-02-26T05:50:34.738Z",
-  "synced_at": "2026-02-27T02:48:35.376Z",
+  "synced_at": "2026-02-28T04:19:47.534Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ef206fd660b81d8fc46ba8c16f41710a420ce400973b5305556d751b6211aff2",
   "install_command": "mkdir -p .claude/skills/nvidia-nim && curl -sL \"https://raw.githubusercontent.com/frankxai/ai-architect/main/skills/nvidia-nim/SKILL.md\" > .claude/skills/nvidia-nim/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/frankxai/ai-architect/main/skills/nvidia-nim/SKILL.md"

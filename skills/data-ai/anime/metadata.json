@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "88901f61b6a01363ffeebd39b9d2d1dc95f449643f17d325c63d72986bd471ff",
   "indexed_at": "2026-02-26T06:30:41.768Z",
-  "synced_at": "2026-02-27T02:48:36.997Z",
+  "synced_at": "2026-02-28T04:19:48.396Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fc15cb96610b1f452c01756a8fd2be1714af3a12ac568f9704465f682a23f0ac",
   "install_command": "mkdir -p .claude/skills/anime && curl -sL \"https://raw.githubusercontent.com/jeffaf/anime-skill/main/SKILL.md\" > .claude/skills/anime/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jeffaf/anime-skill/main/SKILL.md"

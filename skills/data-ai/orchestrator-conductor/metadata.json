@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a6af77bffb4d2489a16a33301a0ea68eb87c2823747768b97f3120ddc8a61a17",
   "indexed_at": "2026-02-26T08:53:17.765Z",
-  "synced_at": "2026-02-27T02:48:39.620Z",
+  "synced_at": "2026-02-28T04:19:51.114Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/23ae49c42eed1a0a75b9d8c0390393e77be4d61764f55b1879bcfc8e0ff5e911",
   "install_command": "mkdir -p .claude/skills/orchestrator-conductor && curl -sL \"https://raw.githubusercontent.com/bigadamknight/brainsteam-cc-mp/main/plugins/brainsteam-skills/skills/orchestrator-conductor/SKILL.md\" > .claude/skills/orchestrator-conductor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bigadamknight/brainsteam-cc-mp/main/plugins/brainsteam-skills/skills/orchestrator-conductor/SKILL.md"

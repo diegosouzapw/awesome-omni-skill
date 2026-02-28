@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b06a882bf398541dda66acf52302d3dbfb16bd7b1ed25b82e0ea555ab719e24e",
   "indexed_at": "2026-02-24T23:37:18.252Z",
-  "synced_at": "2026-02-27T02:47:51.278Z",
+  "synced_at": "2026-02-28T04:18:29.262Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d15adb04e98a31aa214ffd6620bc4e233fb7e1984f089420031db34fcb93f18f",
   "install_command": "mkdir -p .claude/skills/build-your-data-engineering-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/63-data-engineering-fine-tuning/SKILL.md\" > .claude/skills/build-your-data-engineering-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/63-data-engineering-fine-tuning/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "202cbcfbdac118f7a0ab3a633654c3c7ff468b9ec9e0db93a070b2b93f692185",
   "indexed_at": "2026-02-26T08:56:10.860Z",
-  "synced_at": "2026-02-27T02:48:40.171Z",
+  "synced_at": "2026-02-28T04:19:51.468Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aaa651d0e77bf5c0e9dd4cca02e9de5b90159e0f15ac88850b92364afd915f9e",
   "install_command": "mkdir -p .claude/skills/moai-core-rules && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/jg-chalk-io__Nora-LiveKit__claude__skills__moai-core-rules__SKILL.md/SKILL.md\" > .claude/skills/moai-core-rules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/jg-chalk-io__Nora-LiveKit__claude__skills__moai-core-rules__SKILL.md/SKILL.md"

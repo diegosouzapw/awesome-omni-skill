@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1c908477de84ce3ee4e59374ca50d3014ed930a9aa113977117da05349a2c9be",
   "indexed_at": "2026-02-27T03:53:12.021Z",
-  "synced_at": "2026-02-27T13:14:16.602Z",
+  "synced_at": "2026-02-28T04:19:14.715Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/28683cb75f3f9cec02cd964a51f9d1e72291f42a9dc4dcefad5c2e1dab8459e7",
   "install_command": "mkdir -p .claude/skills/agent-microservices-architect && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-microservices-architect/SKILL.md\" > .claude/skills/agent-microservices-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-microservices-architect/SKILL.md"

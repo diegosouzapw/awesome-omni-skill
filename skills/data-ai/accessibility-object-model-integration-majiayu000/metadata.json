@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d02ec8eed7f291a026413fbc0e439117816fe1847db3cae341a349a45352f287",
   "indexed_at": "2026-02-26T05:10:02.296Z",
-  "synced_at": "2026-02-27T02:48:20.492Z",
+  "synced_at": "2026-02-28T04:19:34.862Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/07579875e948130aea59bc449d8ea28c7f69d50f28cf25c40d3030c87d2c0fc0",
   "install_command": "mkdir -p .claude/skills/accessibility-object-model-integration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/accessibility-object-model-integration/SKILL.md\" > .claude/skills/accessibility-object-model-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/accessibility-object-model-integration/SKILL.md"

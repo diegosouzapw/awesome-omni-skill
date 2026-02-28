@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5042649d9064859d42407418f66429fc3536143671b4841346736aee57f34e48",
   "indexed_at": "2026-02-27T03:51:45.565Z",
-  "synced_at": "2026-02-27T13:14:00.570Z",
+  "synced_at": "2026-02-28T04:18:49.620Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7ee87ea9acbd406d1e41ee169c67cbd5a3f63c59b7449af6c577ec2c6168f4ba",
   "install_command": "mkdir -p .claude/skills/agent-generator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-generator/SKILL.md\" > .claude/skills/agent-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-generator/SKILL.md"

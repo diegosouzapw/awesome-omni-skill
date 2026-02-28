@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "351d6b7021212256bfd2e01b5c507003f0bd60db3213330064343a884e8be8de",
   "indexed_at": "2026-02-26T05:10:31.361Z",
-  "synced_at": "2026-02-27T02:48:16.305Z",
+  "synced_at": "2026-02-28T04:19:31.379Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d7f9c6011c32a89977e8e0db0d4fc17b443ae28bcff8605b24d11fb173e45507",
   "install_command": "mkdir -p .claude/skills/account-aware-training && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/account-aware-training/SKILL.md\" > .claude/skills/account-aware-training/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/account-aware-training/SKILL.md"

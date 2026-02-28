@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "152e3d14743d2a887d48d60711ffbe2b119334e8295706cc589f43f53c0f93ad",
   "indexed_at": "2026-02-24T23:35:19.450Z",
-  "synced_at": "2026-02-27T02:47:47.922Z",
+  "synced_at": "2026-02-28T04:18:27.897Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f5b2ffe7ff1f12e01d8655f7262498d97f4056991596bec99b24c40291b89da0",
   "install_command": "mkdir -p .claude/skills/32-analyze-verify-150 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/32-analyze-verify-150/SKILL.md\" > .claude/skills/32-analyze-verify-150/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/32-analyze-verify-150/SKILL.md"

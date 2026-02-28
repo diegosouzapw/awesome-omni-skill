@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aeb4458ce1166326ad71c790ac132d90663fb7e3d93b6db19b1167841c3c04ce",
   "indexed_at": "2026-02-26T10:30:35.981Z",
-  "synced_at": "2026-02-27T02:48:42.089Z",
+  "synced_at": "2026-02-28T04:19:53.348Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/59ba798a66bdeb3d2660de10bd30d2d3125104693ec92f9ab4cb33a72db6836d",
   "install_command": "mkdir -p .claude/skills/moltex-pro && curl -sL \"https://raw.githubusercontent.com/dazeb/openclaw-skill-moltex-trader/main/SKILL.md\" > .claude/skills/moltex-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dazeb/openclaw-skill-moltex-trader/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "32e4f68fa0cccf47c498262421a1f1e931e293100a29e74156ddf09cb1ea4704",
   "indexed_at": "2026-02-24T23:36:02.209Z",
-  "synced_at": "2026-02-27T02:47:50.447Z",
+  "synced_at": "2026-02-28T04:18:28.877Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/87a4cfc2e7883d32bba778f8d9e67ad32ac145ee40c9ee3ad98689860408e6f2",
   "install_command": "mkdir -p .claude/skills/4-step-program && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/4-step-program/SKILL.md\" > .claude/skills/4-step-program/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/4-step-program/SKILL.md"

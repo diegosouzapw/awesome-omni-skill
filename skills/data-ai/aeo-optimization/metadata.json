@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "360c9e862b461d1f1ef460ce088ba2097cbc04bc8c26da9058e23a368e58b4a7",
   "indexed_at": "2026-02-27T02:54:04.405Z",
-  "synced_at": "2026-02-27T13:13:57.048Z",
+  "synced_at": "2026-02-28T04:18:43.561Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0a900f290985e63cfe083eb73455a27ed2f2de8bb9e8ecb969090672eb3d03f0",
   "install_command": "mkdir -p .claude/skills/aeo-optimization && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aeo-optimization/SKILL.md\" > .claude/skills/aeo-optimization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aeo-optimization/SKILL.md"

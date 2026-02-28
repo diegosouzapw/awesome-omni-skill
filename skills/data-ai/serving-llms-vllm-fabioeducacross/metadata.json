@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "321f7bcd8e8c7399e5097b61fedd6ab58680df524a35df3dc5f453ba8b005913",
   "indexed_at": "2026-02-26T12:18:21.979Z",
-  "synced_at": "2026-02-27T02:48:44.702Z",
+  "synced_at": "2026-02-28T04:19:57.016Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/94decd4b3ca37affc6705e912d1064711ab1d600ab197482f4ca3f0448d39ce2",
   "install_command": "mkdir -p .claude/skills/serving-llms-vllm && curl -sL \"https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.agents/skills/serving-llms-vllm/SKILL.md\" > .claude/skills/serving-llms-vllm/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.agents/skills/serving-llms-vllm/SKILL.md"

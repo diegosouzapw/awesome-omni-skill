@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "acebcc2ddd648d31a743e6c7064006c4f6bd2dd9d3c7e2b18bf26afdad57dab3",
   "indexed_at": "2026-02-26T08:46:07.469Z",
-  "synced_at": "2026-02-27T02:48:38.176Z",
+  "synced_at": "2026-02-28T04:19:49.608Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9045ee2c02d68b7778b1ef1445d03ca797a827f93833d9e28443fcdf99154f70",
   "install_command": "mkdir -p .claude/skills/mongodb-schema-design && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/mongodb-schema-design/SKILL.md\" > .claude/skills/mongodb-schema-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/mongodb-schema-design/SKILL.md"

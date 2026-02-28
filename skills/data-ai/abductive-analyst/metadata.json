@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8bc10a576bba93baad0a0212b16182d88cd6b2b34318872027a2ce97d3aecc25",
   "indexed_at": "2026-02-24T23:39:46.829Z",
-  "synced_at": "2026-02-27T02:47:53.575Z",
+  "synced_at": "2026-02-28T04:18:30.863Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3c118d9463fa79da4e583721f55f312b037523e3d1fd43adf2257e1ee19dd457",
   "install_command": "mkdir -p .claude/skills/abductive-analyst && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/abductive-analyst/SKILL.md\" > .claude/skills/abductive-analyst/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/abductive-analyst/SKILL.md"

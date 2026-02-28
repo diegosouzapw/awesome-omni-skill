@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f41782a061c485a6522e656edc0b406e9442cfc31d1d102e3494d44d68d02d5e",
   "indexed_at": "2026-02-27T03:52:40.876Z",
-  "synced_at": "2026-02-27T13:14:15.803Z",
+  "synced_at": "2026-02-28T04:19:13.554Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ff13657dae49ca0f91417ecdd14fb0082f4eaf8852724136d1c0daef651610fe",
   "install_command": "mkdir -p .claude/skills/agent-legal-advisor && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-legal-advisor/SKILL.md\" > .claude/skills/agent-legal-advisor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-legal-advisor/SKILL.md"

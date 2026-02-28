@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "98ac9e0680486d5935282723cbf0fa23a276d8dfb311234ccb0e16c0255ee534",
   "indexed_at": "2026-02-27T02:56:48.320Z",
-  "synced_at": "2026-02-27T13:13:55.753Z",
+  "synced_at": "2026-02-28T04:18:36.014Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c548876b2b9c6069525a2c3777d484a93d4a8e079eca278f435d34c6b3a02d0b",
   "install_command": "mkdir -p .claude/skills/agent-communication-protocol && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-communication-protocol/SKILL.md\" > .claude/skills/agent-communication-protocol/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-communication-protocol/SKILL.md"

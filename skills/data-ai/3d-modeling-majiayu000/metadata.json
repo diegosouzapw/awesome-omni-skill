@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8c90f96687cacabd43a9df1edf2eff9cac622e1f834d636f406d6ab4fc2dad36",
   "indexed_at": "2026-02-24T23:10:15.272Z",
-  "synced_at": "2026-02-27T02:48:09.055Z",
+  "synced_at": "2026-02-28T04:19:25.470Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4980aa7f235640b79d0336fce87eb2c3a4698f10b09bde9332319510ce1700d1",
   "install_command": "mkdir -p .claude/skills/3d-modeling && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/3d-modeling/SKILL.md\" > .claude/skills/3d-modeling/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/3d-modeling/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bd28f6195e6c57fdd140be30befce0deb0f6ab0c6da8ca0627709c55ff6c4fdb",
   "indexed_at": "2026-02-24T23:20:27.175Z",
-  "synced_at": "2026-02-27T02:48:11.451Z",
+  "synced_at": "2026-02-28T04:19:26.803Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3e159bca255acba9770b479f332b76626823362ddd850321e13e1a65b743bcd5",
   "install_command": "mkdir -p .claude/skills/ab-test-framework-ml && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ab-test-framework-ml/SKILL.md\" > .claude/skills/ab-test-framework-ml/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ab-test-framework-ml/SKILL.md"

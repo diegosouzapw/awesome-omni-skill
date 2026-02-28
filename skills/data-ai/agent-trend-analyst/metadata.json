@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dbb7a5e2e937f7274c9761639cf35a11a803968bd57e9f43ba600472391b7f9b",
   "indexed_at": "2026-02-27T04:57:08.890Z",
-  "synced_at": "2026-02-27T13:14:13.039Z",
+  "synced_at": "2026-02-28T04:19:07.694Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1851a29d77cf304b94e8fdef9ad994477052994673fac5fdded2ff6a16980dc0",
   "install_command": "mkdir -p .claude/skills/agent-trend-analyst && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-trend-analyst/SKILL.md\" > .claude/skills/agent-trend-analyst/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-trend-analyst/SKILL.md"

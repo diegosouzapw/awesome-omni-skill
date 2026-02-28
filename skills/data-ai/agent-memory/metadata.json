@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cc126d6daef99ef64404533900f17ef703e6f66aef490eb3ac31dcd4093e5305",
   "indexed_at": "2026-02-27T03:53:01.736Z",
-  "synced_at": "2026-02-27T13:14:01.587Z",
+  "synced_at": "2026-02-28T04:18:51.326Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4cff09232e128b4352bb0727ea375bdac6988251b878202f4731d1bdf049a87c",
   "install_command": "mkdir -p .claude/skills/agent-memory && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-memory-gtakairo-dotfiles/SKILL.md\" > .claude/skills/agent-memory/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-memory-gtakairo-dotfiles/SKILL.md"

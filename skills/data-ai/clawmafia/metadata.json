@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "847a799172fbc7470f121bb315ea2ffcbd613b1a6b5c20471e56780dad5b2c7c",
   "indexed_at": "2026-02-25T14:09:57.157Z",
-  "synced_at": "2026-02-27T02:48:29.092Z",
+  "synced_at": "2026-02-28T04:19:43.209Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b3a84cf23c6cee56b2ea0deb2f79c79fb2b289966131a3ad2a7f2c6f825e2828",
   "install_command": "mkdir -p .claude/skills/clawmafia && curl -sL \"https://raw.githubusercontent.com/aryshriv/clawmafia/main/SKILL.md\" > .claude/skills/clawmafia/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aryshriv/clawmafia/main/SKILL.md"

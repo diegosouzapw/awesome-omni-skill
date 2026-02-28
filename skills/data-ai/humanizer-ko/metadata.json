@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "32a3c717cee4ef59ce275ce90a993afd26feea44d882d21e64de0615daad826c",
   "indexed_at": "2026-02-25T12:35:22.794Z",
-  "synced_at": "2026-02-27T02:48:22.970Z",
+  "synced_at": "2026-02-28T04:19:37.515Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/32e3b878a4e02a26c1ed9aa0b6404c0fc574c4412b66334f2c8202e91bb4f3fe",
   "install_command": "mkdir -p .claude/skills/humanizer-ko && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/humanizer-ko/SKILL.md\" > .claude/skills/humanizer-ko/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/humanizer-ko/SKILL.md"

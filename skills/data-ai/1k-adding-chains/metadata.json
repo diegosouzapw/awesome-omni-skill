@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b2701af46b2b07c43fd09786ac47fbaca620ada74a73302a29e0761637e70830",
   "indexed_at": "2026-02-24T23:25:29.022Z",
-  "synced_at": "2026-02-27T02:47:46.042Z",
+  "synced_at": "2026-02-28T04:18:26.119Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fd2774f6a6432db42530107e410aeecd962dfb63b5dbed282355d313b3b5598f",
   "install_command": "mkdir -p .claude/skills/1k-adding-chains && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1k-adding-chains/SKILL.md\" > .claude/skills/1k-adding-chains/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1k-adding-chains/SKILL.md"

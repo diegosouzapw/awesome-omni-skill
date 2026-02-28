@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eed124e31c1ddc10928f56e2e364f15f1ce771946eee4d2a4c6114a20e826607",
   "indexed_at": "2026-02-26T11:11:52.064Z",
-  "synced_at": "2026-02-27T02:48:42.259Z",
+  "synced_at": "2026-02-28T04:19:54.811Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b7e85b013cdf3196245bc057a5209458eb36954da490d15278799d9f99cdde11",
   "install_command": "mkdir -p .claude/skills/juicefs-skill && curl -sL \"https://raw.githubusercontent.com/yuhr123/juicefs-skill/main/SKILL.md\" > .claude/skills/juicefs-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yuhr123/juicefs-skill/main/SKILL.md"

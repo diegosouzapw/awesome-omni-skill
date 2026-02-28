@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "462f9d0e5992356b355daced1c64cb1958f6457f47927fa9939ccbb40c0b812c",
   "indexed_at": "2026-02-26T22:40:45.516Z",
-  "synced_at": "2026-02-27T02:48:22.132Z",
+  "synced_at": "2026-02-28T04:19:36.658Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/93b55cd17261f77069206ef64bfa9a7b195645b86620faaae91d61c05799ec06",
   "install_command": "mkdir -p .claude/skills/async-operations && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/async-operations/SKILL.md\" > .claude/skills/async-operations/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/async-operations/SKILL.md"

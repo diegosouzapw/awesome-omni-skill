@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a5f1d4a43510a65256cc2b198d30f1c83cfb05d709243e7abe56a9e38ec819a3",
   "indexed_at": "2026-02-26T05:11:09.322Z",
-  "synced_at": "2026-02-27T02:48:04.809Z",
+  "synced_at": "2026-02-28T04:19:21.750Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/52ecf63c9e35d63f84460e58e80ceb92a121758af3bd3bf2b5a346f451acf85f",
   "install_command": "mkdir -p .claude/skills/acsets-hatchery && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acsets-hatchery/SKILL.md\" > .claude/skills/acsets-hatchery/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acsets-hatchery/SKILL.md"

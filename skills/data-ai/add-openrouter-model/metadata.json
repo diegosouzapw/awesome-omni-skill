@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "de05c2f279f23d5ad231ed327ebcc0dab120f11a4d04876c2dde5714ca87be3c",
   "indexed_at": "2026-02-27T01:55:38.801Z",
-  "synced_at": "2026-02-27T02:48:01.487Z",
+  "synced_at": "2026-02-28T04:18:39.749Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e83dff9bc8f9ed735bb4bbd4eccb742c63cf261760fc209ba3e737b15edd0b69",
   "install_command": "mkdir -p .claude/skills/add-openrouter-model && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-openrouter-model/SKILL.md\" > .claude/skills/add-openrouter-model/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-openrouter-model/SKILL.md"

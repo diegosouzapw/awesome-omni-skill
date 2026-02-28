@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5a4b2f1899cb4d012cf8a888a93efe2634cc96d297d04ef1da5c2c1362b12d91",
   "indexed_at": "2026-02-26T11:23:24.494Z",
-  "synced_at": "2026-02-27T02:48:42.430Z",
+  "synced_at": "2026-02-28T04:19:54.972Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/16a7d5712df1c02f7012c501d25d9d12b98a198aaa65ec8b203e25b22a703c9b",
   "install_command": "mkdir -p .claude/skills/prompt-optimization && curl -sL \"https://raw.githubusercontent.com/cnyet/my-note-book/main/.agent/skills/prompt-optimization/SKILL.md\" > .claude/skills/prompt-optimization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cnyet/my-note-book/main/.agent/skills/prompt-optimization/SKILL.md"

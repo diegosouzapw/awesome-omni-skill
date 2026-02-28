@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b5fa96c1a0bc84d2814989c9a6f6be57e62351f773ad51f51287726ba4d796c8",
   "indexed_at": "2026-02-27T01:50:46.726Z",
-  "synced_at": "2026-02-27T02:47:58.518Z",
+  "synced_at": "2026-02-28T04:18:35.152Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/231760b5eeba308a26761f655df50ae28e5670340b288eb1ab4f425156633705",
   "install_command": "mkdir -p .claude/skills/active-directory-attacks && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/active-directory-attacks/SKILL.md\" > .claude/skills/active-directory-attacks/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/active-directory-attacks/SKILL.md"

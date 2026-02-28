@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d8611f551c1684a716d25f410f98d8da014702a78cbc355490411eb43f1c5df2",
   "indexed_at": "2026-02-27T01:47:17.737Z",
-  "synced_at": "2026-02-27T02:48:02.872Z",
+  "synced_at": "2026-02-28T04:19:08.719Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/566f0662feded74f9535da40e814a9ad045a218ad44b35f97972d13b219209b4",
   "install_command": "mkdir -p .claude/skills/trinity-auto-boot-validator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/20260102-214532-trinity-auto-boot-validator/SKILL.md\" > .claude/skills/trinity-auto-boot-validator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/20260102-214532-trinity-auto-boot-validator/SKILL.md"

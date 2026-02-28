@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2836a7dca4697e4acbf1da23f2e69c403f7d01d1c9eb0bc74acd8504e9beb7bb",
   "indexed_at": "2026-02-24T23:22:04.442Z",
-  "synced_at": "2026-02-27T02:48:12.785Z",
+  "synced_at": "2026-02-28T04:19:28.113Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/353477bb1363cd52b6b28d94126c8b38f8eda95f52f2d9dbcb8c7c328f2a832a",
   "install_command": "mkdir -p .claude/skills/academic-benchmark-researcher && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/academic-benchmark-researcher/SKILL.md\" > .claude/skills/academic-benchmark-researcher/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/academic-benchmark-researcher/SKILL.md"

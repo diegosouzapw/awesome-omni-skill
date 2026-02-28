@@ -1,11 +1,86 @@
 ---
+
+# === CORE IDENTITY ===
 name: senior-data-scientist
+title: Senior Data Scientist Skill Package
 description: World-class data science skill for statistical modeling, experimentation, causal inference, and advanced analytics. Expertise in Python (NumPy, Pandas, Scikit-learn), R, SQL, statistical methods, A/B testing, time series, and business intelligence. Includes experiment design, feature engineering, model evaluation, and stakeholder communication. Use when designing experiments, building predictive models, performing causal analysis, or driving data-driven decisions.
+domain: engineering
+subdomain: data-engineering
+
+# === WEBSITE DISPLAY ===
+difficulty: advanced
+time-saved: "TODO: Quantify time savings"
+frequency: "TODO: Estimate usage frequency"
+use-cases:
+  - Designing data pipelines for ETL/ELT processes
+  - Building data warehouses and data lakes
+  - Implementing data quality and governance frameworks
+  - Creating analytics dashboards and reporting
+
+# === RELATIONSHIPS ===
+related-agents: []
+related-skills: []
+related-commands: []
+orchestrated-by: []
+
+# === TECHNICAL ===
+dependencies:
+  scripts: []
+  references: []
+  assets: []
+compatibility:
+  python-version: 3.8+
+  platforms: [macos, linux, windows]
+tech-stack: [Python 3.8+, Markdown]
+
+# === EXAMPLES ===
+examples:
+  -
+    title: Example Usage
+    input: "TODO: Add example input for senior-data-scientist"
+    output: "TODO: Add expected output"
+
+# === ANALYTICS ===
+stats:
+  downloads: 0
+  stars: 0
+  rating: 0.0
+  reviews: 0
+
+# === VERSIONING ===
+version: v1.0.0
+author: Claude Skills Team
+contributors: []
+created: 2025-10-20
+updated: 2025-11-23
+license: MIT
+
+# === DISCOVERABILITY ===
+tags:
+  - analysis
+  - analytics
+  - data
+  - design
+  - engineering
+  - scientist
+  - senior
+  - testing
+featured: false
+verified: true
 ---
+
 
 # Senior Data Scientist
 
 World-class senior data scientist skill for production-grade AI/ML/Data systems.
+
+## Overview
+
+This skill provides world-class data science capabilities through three core Python automation tools and comprehensive reference documentation. Whether designing experiments, building predictive models, performing causal inference, or driving data-driven decisions, this skill delivers expert-level statistical modeling and analytics solutions.
+
+Senior data scientists use this skill for A/B testing, experiment design, statistical modeling, causal inference, time series analysis, feature engineering, model evaluation, and business intelligence. Expertise covers Python (NumPy, Pandas, Scikit-learn), R, SQL, statistical methods, hypothesis testing, and advanced analytics techniques.
+
+**Core Value:** Accelerate analytics and experimentation by 65%+ while improving model accuracy, statistical rigor, and business impact through proven methodologies and automated pipelines.
 
 ## Quick Start
 
@@ -21,6 +96,112 @@ python scripts/feature_engineering_pipeline.py --target project/ --analyze
 # Core Tool 3
 python scripts/model_evaluation_suite.py --config config.yaml --deploy
 ```
+
+## Core Capabilities
+
+- **Experiment Design & A/B Testing** - Statistical power analysis, sample size calculation, multi-armed bandits, sequential testing
+- **Statistical Modeling** - Regression, classification, time series, causal inference, Bayesian methods
+- **Feature Engineering** - Automated feature generation, selection, transformation, interaction terms, dimensionality reduction
+- **Model Evaluation** - Cross-validation, hyperparameter tuning, bias-variance tradeoff, model interpretation (SHAP, LIME)
+- **Business Analytics** - Customer segmentation, churn prediction, lifetime value, attribution modeling, forecasting
+- **Causal Inference** - Propensity score matching, difference-in-differences, instrumental variables, regression discontinuity
+
+## Python Tools
+
+### 1. Experiment Designer
+
+Design statistically rigorous experiments with power analysis.
+
+**Key Features:**
+- A/B test design with sample size calculation
+- Statistical power analysis
+- Multi-variant testing setup
+- Sequential testing frameworks
+- Bayesian experiment design
+
+**Common Usage:**
+```bash
+# Design A/B test
+python scripts/experiment_designer.py --effect-size 0.05 --power 0.8 --alpha 0.05
+
+# Multi-variant test
+python scripts/experiment_designer.py --variants 4 --mde 0.03 --output experiment_plan.json
+
+# Sequential testing
+python scripts/experiment_designer.py --sequential --stopping-rule obf
+
+# Help
+python scripts/experiment_designer.py --help
+```
+
+**Use Cases:**
+- Designing product experiments before launch
+- Calculating required sample sizes
+- Planning sequential testing strategies
+
+### 2. Feature Engineering Pipeline
+
+Automate feature generation, selection, and transformation.
+
+**Key Features:**
+- Automated feature generation (polynomial, interaction terms)
+- Feature selection (mutual information, recursive elimination)
+- Encoding (one-hot, target, frequency)
+- Scaling and normalization
+- Dimensionality reduction (PCA, t-SNE, UMAP)
+
+**Common Usage:**
+```bash
+# Generate features
+python scripts/feature_engineering_pipeline.py --input data.csv --generate --interactions
+
+# Feature selection
+python scripts/feature_engineering_pipeline.py --input data.csv --select --top-k 20
+
+# Full pipeline
+python scripts/feature_engineering_pipeline.py --input data.csv --pipeline full --output features.csv
+
+# Help
+python scripts/feature_engineering_pipeline.py --help
+```
+
+**Use Cases:**
+- Preparing features for model training
+- Reducing feature dimensionality
+- Discovering important feature interactions
+
+### 3. Model Evaluation Suite
+
+Comprehensive model evaluation with interpretability.
+
+**Key Features:**
+- Cross-validation strategies (k-fold, stratified, time-series)
+- Hyperparameter optimization (grid search, random search, Bayesian)
+- Model interpretation (SHAP values, feature importance, partial dependence)
+- Performance metrics (accuracy, precision, recall, F1, AUC, MAE, RMSE)
+- Model comparison and statistical testing
+
+**Common Usage:**
+```bash
+# Evaluate model
+python scripts/model_evaluation_suite.py --model model.pkl --data test.csv --metrics all
+
+# Hyperparameter tuning
+python scripts/model_evaluation_suite.py --model sklearn.ensemble.RandomForestClassifier --tune --data train.csv
+
+# Model interpretation
+python scripts/model_evaluation_suite.py --model model.pkl --interpret --shap
+
+# Help
+python scripts/model_evaluation_suite.py --help
+```
+
+**Use Cases:**
+- Comparing multiple model architectures
+- Finding optimal hyperparameters
+- Explaining model predictions to stakeholders
+
+See [statistical_methods_advanced.md](references/statistical_methods_advanced.md) for comprehensive tool documentation and advanced examples.
 
 ## Core Expertise
 
@@ -46,6 +227,68 @@ This skill covers world-class capabilities in:
 **Deployment:** Docker, Kubernetes, AWS/GCP/Azure
 **Monitoring:** MLflow, Weights & Biases, Prometheus
 **Databases:** PostgreSQL, BigQuery, Snowflake, Pinecone
+
+## Key Workflows
+
+### 1. A/B Test Design and Analysis
+
+**Time:** 2-3 hours for design, ongoing for analysis
+
+1. **Define Hypothesis** - State null and alternative hypotheses, success metrics
+2. **Design Experiment** - Calculate sample size, randomization strategy
+   ```bash
+   # Design A/B test with power analysis
+   python scripts/experiment_designer.py --effect-size 0.05 --power 0.8 --alpha 0.05 --output test_plan.json
+   ```
+3. **Run Experiment** - Implement randomization, collect data
+4. **Analyze Results** - Statistical significance testing, confidence intervals
+5. **Report Findings** - Effect size, business impact, recommendations
+
+See [experiment_design_frameworks.md](references/experiment_design_frameworks.md) for detailed methodology.
+
+### 2. Predictive Model Development
+
+**Time:** 1-2 days for initial model, ongoing refinement
+
+1. **Exploratory Data Analysis** - Understand distributions, correlations, missing data
+2. **Feature Engineering** - Generate and select features
+   ```bash
+   # Automated feature engineering
+   python scripts/feature_engineering_pipeline.py --input data.csv --pipeline full --output features.csv
+   ```
+3. **Model Training** - Train multiple model types (linear, tree-based, neural nets)
+4. **Model Evaluation** - Cross-validation, hyperparameter tuning
+   ```bash
+   # Evaluate and tune model
+   python scripts/model_evaluation_suite.py --model sklearn.ensemble.RandomForestClassifier --tune --data train.csv
+   ```
+5. **Model Interpretation** - SHAP values, feature importance, business insights
+
+### 3. Causal Inference Analysis
+
+**Time:** 3-5 hours for setup and analysis
+
+1. **Define Causal Question** - Treatment, outcome, confounders
+2. **Select Method** - Propensity score matching, diff-in-diff, instrumental variables
+3. **Implement Analysis** - Control for confounders, estimate treatment effect
+4. **Validate Assumptions** - Check overlap, parallel trends, instrument validity
+5. **Report Causal Estimates** - Average treatment effect, confidence intervals, sensitivity analysis
+
+See [statistical_methods_advanced.md](references/statistical_methods_advanced.md) for causal inference techniques.
+
+### 4. Time Series Forecasting
+
+**Time:** 4-6 hours for model development
+
+1. **Data Preparation** - Handle missing values, detect seasonality, stationarity tests
+2. **Feature Engineering** - Lag features, rolling statistics, external variables
+   ```bash
+   # Generate time series features
+   python scripts/feature_engineering_pipeline.py --input timeseries.csv --temporal --lags 7,14,30
+   ```
+3. **Model Selection** - ARIMA, Prophet, LSTM, XGBoost for time series
+4. **Cross-Validation** - Time-series split, walk-forward validation
+5. **Forecast & Monitor** - Generate forecasts, track accuracy over time
 
 ## Reference Documentation
 

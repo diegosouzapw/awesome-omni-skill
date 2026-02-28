@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c6db6704936e871a2719516ac71f8ccd617b7c8bfc57ce88bc4f1dbd32e29869",
   "indexed_at": "2026-02-24T23:25:19.066Z",
-  "synced_at": "2026-02-27T02:47:45.837Z",
+  "synced_at": "2026-02-28T04:18:25.928Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/49e2adb1353b24e0f0bb64690a7ab66fd0119f830752b606fa7e9209fd50cec5",
   "install_command": "mkdir -p .claude/skills/hic-tad-calling && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/18-toolbased-hic-tad-calling/SKILL.md\" > .claude/skills/hic-tad-calling/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/18-toolbased-hic-tad-calling/SKILL.md"

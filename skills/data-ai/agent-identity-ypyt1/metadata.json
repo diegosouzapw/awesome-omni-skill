@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "10b75159b0fd5acc2554f59f1b8f1ead46458bf486e36c449472dfea34397dad",
   "indexed_at": "2026-02-25T12:53:30.825Z",
-  "synced_at": "2026-02-27T02:48:25.523Z",
+  "synced_at": "2026-02-28T04:19:39.979Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/30f6d0c10321fba290831a53f3312456fbfd9283e54d4903977cafed881a8c5c",
   "install_command": "mkdir -p .claude/skills/agent-identity && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/rosepuppy/agent-identity/SKILL.md\" > .claude/skills/agent-identity/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/rosepuppy/agent-identity/SKILL.md"

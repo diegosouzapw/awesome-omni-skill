@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fbeca05baccc392610c5a230dbcb59f823646118b15341923cb6a79432cb166a",
   "indexed_at": "2026-02-26T06:30:59.069Z",
-  "synced_at": "2026-02-27T02:48:37.321Z",
+  "synced_at": "2026-02-28T04:19:48.744Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2df8ffcde52a988dff517837276d6e49e4334adc7b7206abc70d36b7af61301f",
   "install_command": "mkdir -p .claude/skills/agent-architect && curl -sL \"https://raw.githubusercontent.com/niveshdandyan/agent-architect-skill/main/SKILL.md\" > .claude/skills/agent-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/niveshdandyan/agent-architect-skill/main/SKILL.md"

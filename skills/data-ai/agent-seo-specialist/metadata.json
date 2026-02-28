@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "577d9fe6279153401e856c5d6ab143921667514b8a892d58e871c9b36c9fcf06",
   "indexed_at": "2026-02-27T04:55:56.978Z",
-  "synced_at": "2026-02-27T13:14:18.237Z",
+  "synced_at": "2026-02-28T04:19:17.349Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cb9f81b71d0bd421b662736623478cd53a34de056ba5d7e85429e7349069cd6a",
   "install_command": "mkdir -p .claude/skills/agent-seo-specialist && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-seo-specialist/SKILL.md\" > .claude/skills/agent-seo-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-seo-specialist/SKILL.md"

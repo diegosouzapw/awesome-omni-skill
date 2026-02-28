@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "32cd69e19bbeb2ccd9e6621b02c8787d8fa2487f7278804d2646a5b8a0fb0af7",
   "indexed_at": "2026-02-27T03:53:34.975Z",
-  "synced_at": "2026-02-27T13:14:09.426Z",
+  "synced_at": "2026-02-28T04:18:59.913Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/25b4f7a682c4ac29c16806542b46cbbb2a0a9a32359816a0f84482bd1e127b8f",
   "install_command": "mkdir -p .claude/skills/agent-o-rama && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-o-rama/SKILL.md\" > .claude/skills/agent-o-rama/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-o-rama/SKILL.md"

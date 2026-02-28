@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3bfe6eecb6fda901543d401b5ccd229d71ef5749b6f7d4e74186c1ade33d603a",
   "indexed_at": "2026-02-25T13:02:47.252Z",
-  "synced_at": "2026-02-27T02:48:26.697Z",
+  "synced_at": "2026-02-28T04:19:41.023Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b27a5e74a85b01c78378d44cf3600111323a93c60d27240b6dc7993c3c03167e",
   "install_command": "mkdir -p .claude/skills/convex-component-authoring && curl -sL \"https://raw.githubusercontent.com/waynesutton/convexskills/main/skills/convex-component-authoring/SKILL.md\" > .claude/skills/convex-component-authoring/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/waynesutton/convexskills/main/skills/convex-component-authoring/SKILL.md"

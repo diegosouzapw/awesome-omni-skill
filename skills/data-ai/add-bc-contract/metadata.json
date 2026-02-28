@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "84259dcec8a7acc34dbbbc708d565ddc65b71bf0efbc68d35c98726984728c21",
   "indexed_at": "2026-02-27T01:53:00.806Z",
-  "synced_at": "2026-02-27T02:48:00.431Z",
+  "synced_at": "2026-02-28T04:18:38.412Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9abebcd779c3c353ffd7cfd18e5a356e71262a2da6e9f667e5313d91eaeb88e6",
   "install_command": "mkdir -p .claude/skills/add-bc-contract && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-bc-contract/SKILL.md\" > .claude/skills/add-bc-contract/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-bc-contract/SKILL.md"

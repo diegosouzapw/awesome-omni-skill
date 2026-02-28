@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a9461da363dcf6073c25dffa31b223f03c7c046bdd41f7afb2a6e5b1affbb6e5",
   "indexed_at": "2026-02-24T23:22:39.826Z",
-  "synced_at": "2026-02-27T02:48:13.556Z",
+  "synced_at": "2026-02-28T04:19:28.882Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9bb3e8b6341c35134548953218c44e90c72ad57208cd5c9793014c4d4c7b02fc",
   "install_command": "mkdir -p .claude/skills/acc-check-immutability && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-check-immutability/SKILL.md\" > .claude/skills/acc-check-immutability/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-check-immutability/SKILL.md"

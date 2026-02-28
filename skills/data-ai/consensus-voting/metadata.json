@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3141c81d5d78b2c2defe2eb8a19aade1aea149ee757b8f29248e37cfbd120635",
   "indexed_at": "2026-02-25T12:52:50.183Z",
-  "synced_at": "2026-02-27T02:48:25.017Z",
+  "synced_at": "2026-02-28T04:19:39.525Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d40dcfe117912c8da105c220554f003bc14299bb854d0d1af8b0682e365bd06b",
   "install_command": "mkdir -p .claude/skills/consensus-voting && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/oimiragieo/agent-studio/consensus-voting/SKILL.md\" > .claude/skills/consensus-voting/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/oimiragieo/agent-studio/consensus-voting/SKILL.md"

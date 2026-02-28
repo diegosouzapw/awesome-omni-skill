@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5a17b695dac6254bb8c3f8bc8b1740dbe73bf37c7a16288eb099e6da46f35c81",
   "indexed_at": "2026-02-24T23:08:29.257Z",
-  "synced_at": "2026-02-27T02:48:06.708Z",
+  "synced_at": "2026-02-28T04:19:23.570Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8da879cc9d347070d8a300845a8cec3372b00cc79ea2cbf238f11fa4c8a39a82",
   "install_command": "mkdir -p .claude/skills/1k-state-management && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/1k-state-management/SKILL.md\" > .claude/skills/1k-state-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/1k-state-management/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d4550ecf60d8bacd8864e8abf6301ee2259cf1b7895a36678d3b72db4e55c5b1",
   "indexed_at": "2026-02-27T02:56:27.308Z",
-  "synced_at": "2026-02-27T13:14:13.849Z",
+  "synced_at": "2026-02-28T04:19:10.387Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b5a7f61fffab1e89f348a33bbaf7a31578ecca2946e7e572ae67f7343a9f3e19",
   "install_command": "mkdir -p .claude/skills/agent-chaos-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-chaos-engineer/SKILL.md\" > .claude/skills/agent-chaos-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-chaos-engineer/SKILL.md"

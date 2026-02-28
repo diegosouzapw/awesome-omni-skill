@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9ba84ae9b4c5508d771e5bf6d021a68d63935e7d7ed557a212e37b24437e97d9",
   "indexed_at": "2026-02-27T01:47:14.753Z",
-  "synced_at": "2026-02-27T02:48:02.721Z",
+  "synced_at": "2026-02-28T04:19:08.527Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f325424d9813f642482ada0a168d3c62e78289a3193d1cb70a11ec4fc11e6b40",
   "install_command": "mkdir -p .claude/skills/pattern-emergence-detector && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/20260102-214104-pattern-emergence-detector/SKILL.md\" > .claude/skills/pattern-emergence-detector/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/20260102-214104-pattern-emergence-detector/SKILL.md"

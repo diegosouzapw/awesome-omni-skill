@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0e58ac244f95c054da59378759360f494048757a843d6c6d3b0c6a43836b8f2a",
   "indexed_at": "2026-02-26T13:19:40.894Z",
-  "synced_at": "2026-02-27T02:48:46.250Z",
+  "synced_at": "2026-02-28T04:19:58.408Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a7a58d17bb729956f69477fbe1c92b6581a5b0703189ca1b4b2a6f6488eb47e1",
   "install_command": "mkdir -p .claude/skills/architect-agent && curl -sL \"https://raw.githubusercontent.com/SpillwaveSolutions/architect-agent/main/SKILL.md\" > .claude/skills/architect-agent/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/SpillwaveSolutions/architect-agent/main/SKILL.md"

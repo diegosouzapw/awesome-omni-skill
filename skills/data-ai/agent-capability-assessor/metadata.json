@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "71cc782e399f628d14b430b60a8a1b47bbe9430135126d3fce5d026973ad2530",
   "indexed_at": "2026-02-27T02:56:17.763Z",
-  "synced_at": "2026-02-27T13:13:58.203Z",
+  "synced_at": "2026-02-28T04:18:45.577Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0ee005e4446dbacd2255fd8543578d87b67f908c7549db947d6fae270be498b0",
   "install_command": "mkdir -p .claude/skills/agent-capability-assessor && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-capability-assessor/SKILL.md\" > .claude/skills/agent-capability-assessor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-capability-assessor/SKILL.md"

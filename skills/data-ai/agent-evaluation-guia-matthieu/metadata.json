@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dcbcb904b18fd15599a1d024ca0b49624bde5be64010e45d19f9946f74554612",
   "indexed_at": "2026-02-26T13:20:07.783Z",
-  "synced_at": "2026-02-27T02:48:46.557Z",
+  "synced_at": "2026-02-28T04:19:58.747Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d1a4ef51ded6de650d3cd933ebc4578680e78e2a8bf40607313e8bcd8e4f8aae",
   "install_command": "mkdir -p .claude/skills/agent-evaluation && curl -sL \"https://raw.githubusercontent.com/guia-matthieu/clawfu-skills/main/skills/meta/agent-evaluation/SKILL.md\" > .claude/skills/agent-evaluation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/guia-matthieu/clawfu-skills/main/skills/meta/agent-evaluation/SKILL.md"

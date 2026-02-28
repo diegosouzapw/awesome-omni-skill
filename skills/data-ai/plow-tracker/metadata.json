@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "219542deb7d944d7e71beb18dc87c67fde832999e8945b5773ef556a1ee63410",
   "indexed_at": "2026-02-26T06:30:56.139Z",
-  "synced_at": "2026-02-27T02:48:37.169Z",
+  "synced_at": "2026-02-28T04:19:48.587Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/13021647166f87e020c9ef8bbcf952e591d173f20018da70180c8f8101958025",
   "install_command": "mkdir -p .claude/skills/plow-tracker && curl -sL \"https://raw.githubusercontent.com/ianpcook/plow-tracker/main/SKILL.md\" > .claude/skills/plow-tracker/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ianpcook/plow-tracker/main/SKILL.md"

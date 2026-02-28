@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e5e41dcdbd9101924c76a739e16653b68bc7692e3b2e34e95bccff7c0dc73dfc",
   "indexed_at": "2026-02-27T01:50:55.907Z",
-  "synced_at": "2026-02-27T02:47:59.693Z",
+  "synced_at": "2026-02-28T04:18:37.668Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d7048f683ef2ac1435c52305fc198796e0db54b4d5a57882eb1b2ad0582ca5d2",
   "install_command": "mkdir -p .claude/skills/acuantia-dataform && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acuantia-dataform/SKILL.md\" > .claude/skills/acuantia-dataform/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acuantia-dataform/SKILL.md"

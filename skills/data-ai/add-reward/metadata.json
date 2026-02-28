@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0d3d5655db60cd05c9cded71c3b37a0e63d809e37269e48c4efd4965de870e14",
   "indexed_at": "2026-02-27T01:56:43.640Z",
-  "synced_at": "2026-02-27T02:48:01.795Z",
+  "synced_at": "2026-02-28T04:18:40.114Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0cc57a88f3862117fd35f2dc083acc7248d57a856c3155d765d433a095dad38b",
   "install_command": "mkdir -p .claude/skills/add-reward && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-reward/SKILL.md\" > .claude/skills/add-reward/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-reward/SKILL.md"

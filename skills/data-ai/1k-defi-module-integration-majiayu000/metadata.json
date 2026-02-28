@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "93e7fed70b29fc988108d250bbfdaf7839c0bc935a4fba96007aa9529f573f66",
   "indexed_at": "2026-02-24T23:08:13.773Z",
-  "synced_at": "2026-02-27T02:48:06.517Z",
+  "synced_at": "2026-02-28T04:19:23.375Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/33c690b368da8c9a10c6919fe3095b6e7bea0a6e3832804b3222d9bfe736048f",
   "install_command": "mkdir -p .claude/skills/1k-defi-module-integration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/1k-defi-module-integration/SKILL.md\" > .claude/skills/1k-defi-module-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/1k-defi-module-integration/SKILL.md"

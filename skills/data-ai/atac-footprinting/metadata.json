@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "730f488ed92c8239921bbb4a3dbd542bfd8ca2b34ce8a05ccb3af18928923d33",
   "indexed_at": "2026-02-24T23:26:40.465Z",
-  "synced_at": "2026-02-27T02:47:47.074Z",
+  "synced_at": "2026-02-28T04:18:27.111Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/43cc3a0054fdfbcd633b1353f8ac5327cd33049d1d2f31fa8e004dda2d03402a",
   "install_command": "mkdir -p .claude/skills/atac-footprinting && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/28-atacseq-footprint/SKILL.md\" > .claude/skills/atac-footprinting/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/28-atacseq-footprint/SKILL.md"

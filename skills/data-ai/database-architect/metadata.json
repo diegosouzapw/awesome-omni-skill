@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d5da49cf7a5ebcbf7da92175e3d1c8b2263e0a7f80a1882f72eee517dd5fd587",
   "indexed_at": "2026-02-26T08:53:05.824Z",
-  "synced_at": "2026-02-27T02:48:39.435Z",
+  "synced_at": "2026-02-28T04:19:50.961Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8d6bcf0bb1fe13b63af1faffca41679e8e3ddb0674ffe28d40d75c3139ed104f",
   "install_command": "mkdir -p .claude/skills/database-architect && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/database-architect/SKILL.md\" > .claude/skills/database-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/database-architect/SKILL.md"

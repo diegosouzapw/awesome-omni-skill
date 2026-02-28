@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "20e79536ccedce93ec976511770bee612c98018be7f1f2dd7c63fc1f6c5609d2",
   "indexed_at": "2026-02-26T08:54:32.477Z",
-  "synced_at": "2026-02-27T02:48:39.983Z",
+  "synced_at": "2026-02-28T04:19:51.301Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3c96810a5a568d11b3fe9ede0fabefd8821835b4cde0616cd136c14ab2d2195d",
   "install_command": "mkdir -p .claude/skills/database-architect && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/database-architect/SKILL.md\" > .claude/skills/database-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/database-architect/SKILL.md"

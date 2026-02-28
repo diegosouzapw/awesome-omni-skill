@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "97e708e4c2f365dc48f8e66b0276e44c7d86b65fafff342e664c16234be2b302",
   "indexed_at": "2026-02-26T23:40:26.882Z",
-  "synced_at": "2026-02-27T02:48:22.475Z",
+  "synced_at": "2026-02-28T04:19:36.985Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0be30cf0ca8a958d86a58d92fbbcbe874ec789a355701a1f06ed8bf4fcb8db57",
   "install_command": "mkdir -p .claude/skills/plotly-visualization && curl -sL \"https://raw.githubusercontent.com/vamseeachanta/workspace-hub/main/.claude/skills/data/visualization/plotly-visualization/SKILL.md\" > .claude/skills/plotly-visualization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/vamseeachanta/workspace-hub/main/.claude/skills/data/visualization/plotly-visualization/SKILL.md"

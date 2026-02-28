@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b96f377b6028778d32a20842dab8746a92bc341e12f031999f46a5b848b3fb0f",
   "indexed_at": "2026-02-26T11:33:53.733Z",
-  "synced_at": "2026-02-27T02:48:42.959Z",
+  "synced_at": "2026-02-28T04:19:55.449Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/105590e0b254cbf8e774797b98c2cb0b50bf9ddde5c4208eb230c4bbaa07740e",
   "install_command": "mkdir -p .claude/skills/agent-dispatch && curl -sL \"https://raw.githubusercontent.com/userFRM/agent-dispatch/main/skills/agent-dispatch/SKILL.md\" > .claude/skills/agent-dispatch/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/userFRM/agent-dispatch/main/skills/agent-dispatch/SKILL.md"

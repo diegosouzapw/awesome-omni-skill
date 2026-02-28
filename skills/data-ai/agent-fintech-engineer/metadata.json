@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "95f2d8ab5c0446be7dedf328bb1ddbf94addc5ab66d0a1968419049b0574d8b4",
   "indexed_at": "2026-02-27T03:51:31.459Z",
-  "synced_at": "2026-02-27T13:14:15.477Z",
+  "synced_at": "2026-02-28T04:19:12.985Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7f82d70907ede36da31df61b278c93f2ca0b9afc66f2d32979a17e4de383f913",
   "install_command": "mkdir -p .claude/skills/agent-fintech-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-fintech-engineer/SKILL.md\" > .claude/skills/agent-fintech-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-fintech-engineer/SKILL.md"

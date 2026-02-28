@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7245398168657e59d1f4998e6633cd08aed37ebd7776e3f99c6dd077bcbe89ef",
   "indexed_at": "2026-02-26T04:26:12.242Z",
-  "synced_at": "2026-02-27T02:48:33.230Z",
+  "synced_at": "2026-02-28T04:19:46.420Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3356777ed03984266e6eb8a119a30028e51cbe4893241c7a6139bab6a8401783",
   "install_command": "mkdir -p .claude/skills/genai-integration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/genai-integration/SKILL.md\" > .claude/skills/genai-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/genai-integration/SKILL.md"

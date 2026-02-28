@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "39c854c792c745258e302cda39bfffad93769929167fededb2121102cc13c66b",
   "indexed_at": "2026-02-26T05:11:23.940Z",
-  "synced_at": "2026-02-27T02:48:17.065Z",
+  "synced_at": "2026-02-28T04:19:32.265Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/23544dc62ee483953d4052fc1a21056c31bd4ef9462b444a6169e71280c1a73e",
   "install_command": "mkdir -p .claude/skills/synapse-action-development && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/action-development/SKILL.md\" > .claude/skills/synapse-action-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/action-development/SKILL.md"

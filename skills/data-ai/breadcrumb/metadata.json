@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0d8908870f4765acdc74e3f5d5aaf4790d5b1c82f0aa7ccf022f89f2cc755870",
   "indexed_at": "2026-02-26T07:30:45.773Z",
-  "synced_at": "2026-02-27T02:48:37.691Z",
+  "synced_at": "2026-02-28T04:19:49.290Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4f2ff3cd2c2714505c70f04d1b6fc4b49a27de2b2e5cde848e5f2272e329aaad",
   "install_command": "mkdir -p .claude/skills/breadcrumb && curl -sL \"https://raw.githubusercontent.com/tylergibbs1/breadcrumb/main/SKILL.md\" > .claude/skills/breadcrumb/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tylergibbs1/breadcrumb/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7a989e32eb42dfd3144cbb4a51adcc5b266d01694ba7b3fbd2fc4d345386a18c",
   "indexed_at": "2026-02-25T13:56:47.679Z",
-  "synced_at": "2026-02-27T02:48:28.740Z",
+  "synced_at": "2026-02-28T04:19:42.858Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/417312a4b96eb9a8bc2a06b0c9081d0a9a2245c77204e2b796b8e191473e2c58",
   "install_command": "mkdir -p .claude/skills/octave-mythology && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/octave-mythology/SKILL.md\" > .claude/skills/octave-mythology/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/octave-mythology/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b8d9a4dc2d5032c823afefdfb1a0f6b5d282f4faaed8e3f36462447c4abf15ce",
   "indexed_at": "2026-02-26T12:18:21.153Z",
-  "synced_at": "2026-02-27T02:48:44.497Z",
+  "synced_at": "2026-02-28T04:19:56.806Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/de84959e8f9c1eaf034eda87b279e717709aaaa760806bc0380d5b5b6a42cee2",
   "install_command": "mkdir -p .claude/skills/serving-llms-vllm && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/vllm-orchestra-research-ai-research-skills/SKILL.md\" > .claude/skills/serving-llms-vllm/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/vllm-orchestra-research-ai-research-skills/SKILL.md"

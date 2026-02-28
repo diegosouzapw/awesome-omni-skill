@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "145ed9bf2aab531480de0fd80c05b449ea00d93063673d130e27e169a22317a7",
   "indexed_at": "2026-02-26T08:30:15.111Z",
-  "synced_at": "2026-02-27T02:48:37.998Z",
+  "synced_at": "2026-02-28T04:19:49.438Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/85aa1922c6d285eb903f1563cdab0ae9c9859b3a367a085d7617e0e423d4cef5",
   "install_command": "mkdir -p .claude/skills/agent-zero && curl -sL \"https://raw.githubusercontent.com/wheattoast11/agent-zero-openclaw/main/SKILL.md\" > .claude/skills/agent-zero/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wheattoast11/agent-zero-openclaw/main/SKILL.md"

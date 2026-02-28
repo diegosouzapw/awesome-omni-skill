@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "28c36c6bad04e4e17678ae00fa00ecb9bb70f9e23a4024ebc4f50badb537c37a",
   "indexed_at": "2026-02-27T03:56:53.135Z",
-  "synced_at": "2026-02-27T13:14:18.003Z",
+  "synced_at": "2026-02-28T04:19:16.970Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/62cc50287a8379942d2d3a6fad425abfc245bc6f1975099b27b38e9960b8894f",
   "install_command": "mkdir -p .claude/skills/agent-risk-manager && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-risk-manager/SKILL.md\" > .claude/skills/agent-risk-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-risk-manager/SKILL.md"

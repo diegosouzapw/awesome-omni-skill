@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "49296fae7b13bf883e82cd3c65deed5cf25861eace16aad8c39bb58e1d1a8d72",
   "indexed_at": "2026-02-27T01:51:25.100Z",
-  "synced_at": "2026-02-27T02:47:59.945Z",
+  "synced_at": "2026-02-28T04:18:37.852Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/302f348d0c55bc5d68735588baf487db833a566778fc48aa800867a4a2cd6527",
   "install_command": "mkdir -p .claude/skills/bio-read-qc-adapter-trimming && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/adapter-trimming/SKILL.md\" > .claude/skills/bio-read-qc-adapter-trimming/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/adapter-trimming/SKILL.md"

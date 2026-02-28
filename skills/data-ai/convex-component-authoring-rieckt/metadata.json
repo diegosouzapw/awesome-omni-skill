@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "03b91fc3a15abfa7df2729b36e8289b45be665426708279c2ae9010375c3385e",
   "indexed_at": "2026-02-26T05:20:38.956Z",
-  "synced_at": "2026-02-27T02:48:33.401Z",
+  "synced_at": "2026-02-28T04:19:46.626Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a78126e38b8a7936e3d865d3d6ac3c3ee982b672d7c08a758c63424a3a6362f6",
   "install_command": "mkdir -p .claude/skills/convex-component-authoring && curl -sL \"https://raw.githubusercontent.com/rieckt/create-loumi-app/main/template/skills/convex/convex-component-authoring/SKILL.md\" > .claude/skills/convex-component-authoring/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rieckt/create-loumi-app/main/template/skills/convex/convex-component-authoring/SKILL.md"

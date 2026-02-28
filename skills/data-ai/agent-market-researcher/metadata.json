@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e3f44be6e9b471cd5b5c52f16e300684e0bca14ae6e826167840ceb0f2928c97",
   "indexed_at": "2026-02-27T03:52:53.323Z",
-  "synced_at": "2026-02-27T13:14:16.293Z",
+  "synced_at": "2026-02-28T04:19:14.320Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d8d4981c5dbe155b32aac9f4e798822031f5efb60168e0ee67e15ae396f6a079",
   "install_command": "mkdir -p .claude/skills/agent-market-researcher && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-market-researcher/SKILL.md\" > .claude/skills/agent-market-researcher/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-market-researcher/SKILL.md"

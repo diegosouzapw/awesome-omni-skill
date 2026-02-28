@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eba6d4a061e565eab294906b66b0c78ebad5df66bd290342da229b581a8ad6bd",
   "indexed_at": "2026-02-26T05:11:10.450Z",
-  "synced_at": "2026-02-27T02:48:16.873Z",
+  "synced_at": "2026-02-28T04:19:31.975Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/31660b0be386f0765c570e6a1f54a0d468cb843c45967d3745433b0f7997dd64",
   "install_command": "mkdir -p .claude/skills/acsets-algebraic-databases && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acsets/SKILL.md\" > .claude/skills/acsets-algebraic-databases/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acsets/SKILL.md"

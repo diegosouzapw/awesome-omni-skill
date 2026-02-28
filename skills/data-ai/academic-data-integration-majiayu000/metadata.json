@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ede6ce8ff6d49288a527b03e82fc1a8f1e38acf234f63d5e99784d3671b6ce29",
   "indexed_at": "2026-02-24T23:22:09.732Z",
-  "synced_at": "2026-02-27T02:48:13.174Z",
+  "synced_at": "2026-02-28T04:19:28.487Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/15a3d38316ae264bf95432b88d40a5db3d7fd70ca60959f95f0b1902e5c19ea2",
   "install_command": "mkdir -p .claude/skills/academic-data-integration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/academic-data-integration/SKILL.md\" > .claude/skills/academic-data-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/academic-data-integration/SKILL.md"

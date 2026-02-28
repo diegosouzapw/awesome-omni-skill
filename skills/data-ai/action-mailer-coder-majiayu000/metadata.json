@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9e4c54fc9b429e9eab94756333003c00fa4e1023bb79dea759cbecd02c3661af",
   "indexed_at": "2026-02-26T05:11:28.878Z",
-  "synced_at": "2026-02-27T02:48:17.251Z",
+  "synced_at": "2026-02-28T04:19:32.445Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/51d7c51cc83d5b6fc0832a994a829147f4e6704f7b8395f9fab792f8658ed3ff",
   "install_command": "mkdir -p .claude/skills/action-mailer-coder && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/action-mailer-coder/SKILL.md\" > .claude/skills/action-mailer-coder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/action-mailer-coder/SKILL.md"

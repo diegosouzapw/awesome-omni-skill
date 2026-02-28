@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5cc45c722f08338465acbec836f07ffb1a06ac3fb923b11042aca29f547c0263",
   "indexed_at": "2026-02-26T09:56:37.245Z",
-  "synced_at": "2026-02-27T02:48:41.906Z",
+  "synced_at": "2026-02-28T04:19:53.174Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e87f6b40cf49a47450707a45e6f83d5accee14fa9f9f0bd58e0ca094a43b12ca",
   "install_command": "mkdir -p .claude/skills/data-privacy && curl -sL \"https://raw.githubusercontent.com/manolakis/agents-and-skills/main/.github/skills/data-privacy/SKILL.md\" > .claude/skills/data-privacy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/manolakis/agents-and-skills/main/.github/skills/data-privacy/SKILL.md"

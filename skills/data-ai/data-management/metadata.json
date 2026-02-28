@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c76eab98b42d6f9ef48daff84190f7ff001ba348492b837567bb3b755b34ffa3",
   "indexed_at": "2026-02-26T23:41:23.684Z",
-  "synced_at": "2026-02-27T02:48:22.638Z",
+  "synced_at": "2026-02-28T04:19:37.148Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3f3fb9c69b4fc6ac8692f5b841caedc769295795bf8c622df8e408aeccd9ec83",
   "install_command": "mkdir -p .claude/skills/data-management && curl -sL \"https://raw.githubusercontent.com/vamseeachanta/workspace-hub/main/.claude/skills/data/analysis/data-management/SKILL.md\" > .claude/skills/data-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/vamseeachanta/workspace-hub/main/.claude/skills/data/analysis/data-management/SKILL.md"

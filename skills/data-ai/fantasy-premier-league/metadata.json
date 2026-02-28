@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "20796a6e40b5f23bf53674711bfe53450b4be122e50f874651e75948b62aec69",
   "indexed_at": "2026-02-25T18:46:46.864Z",
-  "synced_at": "2026-02-27T02:48:30.692Z",
+  "synced_at": "2026-02-28T04:19:44.902Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1ddb59a1fd6faa4fc2b3f1603922ffc584867be13a047c2f4a6a9b00dce5449d",
   "install_command": "mkdir -p .claude/skills/fantasy-premier-league && curl -sL \"https://raw.githubusercontent.com/FarazPatankar/fantasy-premier-league-skill/main/SKILL.md\" > .claude/skills/fantasy-premier-league/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/FarazPatankar/fantasy-premier-league-skill/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f735fd03dad452774d3b24e712f8cc7c7d5b08459cc3ebb62b835a6472f3cf77",
   "indexed_at": "2026-02-26T08:49:03.404Z",
-  "synced_at": "2026-02-27T02:48:39.065Z",
+  "synced_at": "2026-02-28T04:19:50.595Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3f21460b69d516afdcef8aacd6e18712098e14ffd10899bb74adf8bc6fbe6970",
   "install_command": "mkdir -p .claude/skills/context-assembler && curl -sL \"https://raw.githubusercontent.com/mehdic/CDC/main/.claude/skills/context-assembler/SKILL.md\" > .claude/skills/context-assembler/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mehdic/CDC/main/.claude/skills/context-assembler/SKILL.md"

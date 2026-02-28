@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3288cfa657ddb1a5f566beacc852f4aeb8d677b9b5629f8f9980caf04b114b22",
   "indexed_at": "2026-02-24T23:06:39.971Z",
-  "synced_at": "2026-02-27T02:48:19.920Z",
+  "synced_at": "2026-02-28T04:19:34.299Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/28e91c9f028e629f098390509a506b450a33620ebdb78429cdfbae99d8fb8ae2",
   "install_command": "mkdir -p .claude/skills/enforce-agent-identity-in-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/0000/SKILL.md\" > .claude/skills/enforce-agent-identity-in-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/0000/SKILL.md"

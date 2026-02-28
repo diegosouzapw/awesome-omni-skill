@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "16a815ea71816f37d94bbb5e6d68e1bbbb40cf4951e74516b3fd31294b620e4e",
   "indexed_at": "2026-02-27T02:57:22.848Z",
-  "synced_at": "2026-02-27T13:14:11.013Z",
+  "synced_at": "2026-02-28T04:19:05.017Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/623fe7fd542500720c61f9baed0e710c24c11b1c88ebace1830af518640d35b5",
   "install_command": "mkdir -p .claude/skills/agent-cpp-pro && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-cpp-pro/SKILL.md\" > .claude/skills/agent-cpp-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-cpp-pro/SKILL.md"

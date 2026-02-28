@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2b1252b80d488cf0ebc492fe482bc267173abce0e403067be97e37de8bb4b87c",
   "indexed_at": "2026-02-24T23:09:56.749Z",
-  "synced_at": "2026-02-27T02:48:08.336Z",
+  "synced_at": "2026-02-28T04:19:25.091Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f8cb603c92953655d685ca40c1e317a95bc033c919b801a24f8657df8e85df5f",
   "install_command": "mkdir -p .claude/skills/37signals-rails-style && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/37signals-rails-style/SKILL.md\" > .claude/skills/37signals-rails-style/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/37signals-rails-style/SKILL.md"

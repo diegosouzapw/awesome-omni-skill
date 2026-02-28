@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9820b4f5157799af3fee044304981ce94ca18d8fe4c53ddca76de0e0c650b58e",
   "indexed_at": "2026-02-24T23:26:34.408Z",
-  "synced_at": "2026-02-27T02:47:46.871Z",
+  "synced_at": "2026-02-28T04:18:26.913Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1617fc7b83891d2d0aa638b176b7f2edf57639607a65b64826b6707230dec606",
   "install_command": "mkdir -p .claude/skills/methylation-variability-analysis && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/25-methylation-variability/SKILL.md\" > .claude/skills/methylation-variability-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/25-methylation-variability/SKILL.md"

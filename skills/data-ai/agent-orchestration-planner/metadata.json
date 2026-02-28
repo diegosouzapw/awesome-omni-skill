@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a9747936904141d53f147b37c87ea7d738a2b70adc44b966f01d727a6a6fb306",
   "indexed_at": "2026-02-27T03:55:34.417Z",
-  "synced_at": "2026-02-27T13:14:05.636Z",
+  "synced_at": "2026-02-28T04:18:52.271Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f3d6ccdf4b990bb6c0120a381812289ca1c51a0392487e26a430f1f70932182e",
   "install_command": "mkdir -p .claude/skills/agent-orchestration-planner && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-orchestration-planner/SKILL.md\" > .claude/skills/agent-orchestration-planner/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-orchestration-planner/SKILL.md"

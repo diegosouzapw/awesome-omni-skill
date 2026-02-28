@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "338ab17b7e37033bf76628a4788d62a57cbe802f81cd6b4c8f5d71fc8a22ccc8",
   "indexed_at": "2026-02-27T02:54:16.141Z",
-  "synced_at": "2026-02-27T13:13:57.160Z",
+  "synced_at": "2026-02-28T04:18:43.745Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9f0e33c79d83d3c881105047b8ffc10bdb1fe4db68b02743fd8aaf65644611d8",
   "install_command": "mkdir -p .claude/skills/aerospace-supply-chain && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aerospace-supply-chain/SKILL.md\" > .claude/skills/aerospace-supply-chain/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aerospace-supply-chain/SKILL.md"

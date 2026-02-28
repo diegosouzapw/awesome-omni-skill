@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cbd38572edd81829e9657716bdb7742989fc61973a3635968edd7a5bfb548a0c",
   "indexed_at": "2026-02-27T03:51:41.026Z",
-  "synced_at": "2026-02-27T13:14:15.583Z",
+  "synced_at": "2026-02-28T04:19:13.176Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e3eebef6336057c05b9fc9e34dd5a5cbeb3d1f4db602671d25acb90eb0d2e9c6",
   "install_command": "mkdir -p .claude/skills/agent-game-developer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-game-developer/SKILL.md\" > .claude/skills/agent-game-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-game-developer/SKILL.md"

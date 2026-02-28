@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f0260034a161251eab2588b7ac9396ce617b7e90331a8242cb6341eae9ef625a",
   "indexed_at": "2026-02-24T23:27:04.986Z",
-  "synced_at": "2026-02-27T02:47:47.722Z",
+  "synced_at": "2026-02-28T04:18:27.694Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b5491e59e216a3fed52101f35b5901b8c76d84f68fd561860507879df45b1034",
   "install_command": "mkdir -p .claude/skills/302ai-api-integration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/302AI-API-Integration-Skill/SKILL.md\" > .claude/skills/302ai-api-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/302AI-API-Integration-Skill/SKILL.md"

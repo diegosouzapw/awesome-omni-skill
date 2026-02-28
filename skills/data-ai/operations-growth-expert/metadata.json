@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7024884fc3c84ea3c9541b5336e18ac0adc5309a103b63da6f3e62e185b17149",
   "indexed_at": "2026-02-24T23:24:48.966Z",
-  "synced_at": "2026-02-27T02:47:57.392Z",
+  "synced_at": "2026-02-28T04:18:33.999Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3925ea46371a677cae99c7291e4a8284dbfe29e96c876135f8c74f53ed7bbf56",
   "install_command": "mkdir -p .claude/skills/operations-growth-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/09-operations-growth/SKILL.md\" > .claude/skills/operations-growth-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/09-operations-growth/SKILL.md"

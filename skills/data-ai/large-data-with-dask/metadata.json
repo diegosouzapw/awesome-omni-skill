@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "40146354024cded5188cc1175dc9579f8e3f9548df6f1e5b197e454f3a0b93f9",
   "indexed_at": "2026-02-26T22:32:08.016Z",
-  "synced_at": "2026-02-27T02:48:21.644Z",
+  "synced_at": "2026-02-28T04:19:36.166Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/caf4d9df5f305ffaa8cb459ed9e0f3ae5ed787a3e0b56bf621db53436221e24f",
   "install_command": "mkdir -p .claude/skills/large-data-with-dask && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/large-data-with-dask/SKILL.md\" > .claude/skills/large-data-with-dask/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/large-data-with-dask/SKILL.md"

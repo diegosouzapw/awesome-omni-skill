@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f1a582db29aa0de609711afd1409e4d7608b11265bcab3a29c94c29172e3cc96",
   "indexed_at": "2026-02-24T23:21:55.152Z",
-  "synced_at": "2026-02-27T02:48:20.297Z",
+  "synced_at": "2026-02-28T04:19:34.669Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/007783098b2d73c85dbd79def37fbbeb598c2114113d4ba3f822faf9db00dbb4",
   "install_command": "mkdir -p .claude/skills/ac-parallel-coordinator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ac-parallel-coordinator/SKILL.md\" > .claude/skills/ac-parallel-coordinator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ac-parallel-coordinator/SKILL.md"

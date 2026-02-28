@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ff390d2a582dec22b904ebff20680b1345994c30fd9e579adbf55594e215e799",
   "indexed_at": "2026-02-26T13:17:59.868Z",
-  "synced_at": "2026-02-27T02:48:45.594Z",
+  "synced_at": "2026-02-28T04:19:57.881Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ece337e98092f36c464acb047631a8ec9288f5102a7ee93847331f77dc309af8",
   "install_command": "mkdir -p .claude/skills/naiba-openai-engineers && curl -sL \"https://raw.githubusercontent.com/zstmfhy/naiba-openai-work-assistant/main/skills/naiba-openai-engineers/SKILL.md\" > .claude/skills/naiba-openai-engineers/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zstmfhy/naiba-openai-work-assistant/main/skills/naiba-openai-engineers/SKILL.md"

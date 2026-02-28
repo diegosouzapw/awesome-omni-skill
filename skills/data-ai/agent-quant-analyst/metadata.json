@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3e37ae1d87f27b65075ed3fe093d9873bd79e86f5ab7d48759022e86901e00fc",
   "indexed_at": "2026-02-27T03:56:31.342Z",
-  "synced_at": "2026-02-27T13:14:17.645Z",
+  "synced_at": "2026-02-28T04:19:16.419Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/74509098a14276da9339f34d82b649db80af0daa0138282eb31973d1ae52e37e",
   "install_command": "mkdir -p .claude/skills/agent-quant-analyst && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-quant-analyst/SKILL.md\" > .claude/skills/agent-quant-analyst/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-quant-analyst/SKILL.md"

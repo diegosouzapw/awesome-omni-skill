@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "829610bd5c3a9d933a78490382aa3c0d4b3799e518e73004307f58f0bfe89ad1",
   "indexed_at": "2026-02-26T05:09:07.200Z",
-  "synced_at": "2026-02-27T02:48:15.921Z",
+  "synced_at": "2026-02-28T04:19:31.177Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/813da454a77ecf93acb7f3b48a88343d0435cb620cdfa7256a4ec088c60c6933",
   "install_command": "mkdir -p .claude/skills/acc-mermaid-template && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-mermaid-template/SKILL.md\" > .claude/skills/acc-mermaid-template/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-mermaid-template/SKILL.md"

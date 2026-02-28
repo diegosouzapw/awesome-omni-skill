@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e6887f85e20d8fa42291ed96c22aa643e82311bf7ca6026500fcd6a2ddcf92af",
   "indexed_at": "2026-02-27T02:55:50.856Z",
-  "synced_at": "2026-02-27T13:14:13.616Z",
+  "synced_at": "2026-02-28T04:19:09.990Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b84c7c393813269d44d14556451203e6c184341390cf2c5a3beabf4d1dc2f9a7",
   "install_command": "mkdir -p .claude/skills/agent-blockchain-developer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-blockchain-developer/SKILL.md\" > .claude/skills/agent-blockchain-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-blockchain-developer/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1891aca6edcb590b92f70f1dd613f2e9928c54af435be4a703a4d32a65d2d51a",
   "indexed_at": "2026-02-27T02:55:52.661Z",
-  "synced_at": "2026-02-27T13:13:57.874Z",
+  "synced_at": "2026-02-28T04:18:44.890Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5f5c40f14c33d3023d72f3c85d79b6c1aad44ff074fa5959e705d22a8530a677",
   "install_command": "mkdir -p .claude/skills/agent-bricks && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-bricks/SKILL.md\" > .claude/skills/agent-bricks/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-bricks/SKILL.md"

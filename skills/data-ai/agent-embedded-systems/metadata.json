@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "62d718254a846d02333851a2e7e31448d33c791790cabd4658bfe6c79d1ad61a",
   "indexed_at": "2026-02-27T03:51:04.591Z",
-  "synced_at": "2026-02-27T13:14:15.226Z",
+  "synced_at": "2026-02-28T04:19:12.485Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/55c049c776fac8152aaa8f32630b84a354d9b8b70209e340d06ad1491bb31038",
   "install_command": "mkdir -p .claude/skills/agent-embedded-systems && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-embedded-systems/SKILL.md\" > .claude/skills/agent-embedded-systems/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-embedded-systems/SKILL.md"

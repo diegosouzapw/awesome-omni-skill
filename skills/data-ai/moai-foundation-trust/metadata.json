@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e55b63f998b5ccc2ba13b8a1ff9695e2ff18a911d3e025fb6bed02804b3789f1",
   "indexed_at": "2026-02-26T09:49:38.700Z",
-  "synced_at": "2026-02-27T02:48:41.178Z",
+  "synced_at": "2026-02-28T04:19:52.460Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e92dfe75de2081637ff6a325cdccc45c2d36f94ccd0640c0406e8a331284fb01",
   "install_command": "mkdir -p .claude/skills/moai-foundation-trust && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/moai-foundation-trust/SKILL.md\" > .claude/skills/moai-foundation-trust/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/moai-foundation-trust/SKILL.md"

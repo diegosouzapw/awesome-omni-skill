@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fcfa205f35208d29e9b441ba4c2039d4d386ec1efc2045c7e876024c62847ee1",
   "indexed_at": "2026-02-24T23:21:13.835Z",
-  "synced_at": "2026-02-27T02:48:12.594Z",
+  "synced_at": "2026-02-28T04:19:27.934Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f6fa4efb4de450c0ce609c4f32216aa72ad7624f3eb4976b8a5269873b06a9f7",
   "install_command": "mkdir -p .claude/skills/abductive-repl && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abductive-repl/SKILL.md\" > .claude/skills/abductive-repl/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abductive-repl/SKILL.md"

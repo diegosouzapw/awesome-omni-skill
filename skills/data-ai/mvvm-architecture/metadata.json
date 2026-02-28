@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d4919596805b68b87d8ecd67a5f81eb52b02da3668b96897310c98e1ad321822",
   "indexed_at": "2026-02-26T13:21:51.720Z",
-  "synced_at": "2026-02-27T02:48:46.720Z",
+  "synced_at": "2026-02-28T04:19:58.913Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f53f213d441456a3d9ad4b5bc0bf264bbe59131368c4d5e08674b5a22f4a8eaf",
   "install_command": "mkdir -p .claude/skills/mvvm-architecture && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/mvvm-architecture/SKILL.md\" > .claude/skills/mvvm-architecture/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/mvvm-architecture/SKILL.md"

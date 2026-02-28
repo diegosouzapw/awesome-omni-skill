@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "229d8844bb5a0a9320ff5df0a002a5112804ac2c5c5bf666bde719c8cdfa1ddb",
   "indexed_at": "2026-02-26T06:55:44.542Z",
-  "synced_at": "2026-02-27T02:48:37.488Z",
+  "synced_at": "2026-02-28T04:19:49.091Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e4f2987787114a33cbd44b92d7ac155247f31a0cc422498a382d91093782dd8c",
   "install_command": "mkdir -p .claude/skills/ai-ad-code-factory && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ai-ad-code-factory/SKILL.md\" > .claude/skills/ai-ad-code-factory/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ai-ad-code-factory/SKILL.md"

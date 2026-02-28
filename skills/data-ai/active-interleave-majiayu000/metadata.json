@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "af579e58017140e5ba2b8f69d8bc013654e49c91d0f31058dffd465a453385e0",
   "indexed_at": "2026-02-26T05:11:51.097Z",
-  "synced_at": "2026-02-27T02:48:18.423Z",
+  "synced_at": "2026-02-28T04:19:33.192Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2921e80b7361237474cb12b271a225e6274b50f3e4fa10978b23b6f7930afb40",
   "install_command": "mkdir -p .claude/skills/active-interleave && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/active-interleave/SKILL.md\" > .claude/skills/active-interleave/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/active-interleave/SKILL.md"

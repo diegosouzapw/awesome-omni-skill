@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fc1bdd598d153b3310c5f71b0dcf5363c003cd3e49da3bde54ad2454fb208070",
   "indexed_at": "2026-02-27T03:56:15.396Z",
-  "synced_at": "2026-02-27T13:14:06.297Z",
+  "synced_at": "2026-02-28T04:18:53.235Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bdd1ad536500a85efbf68cf09354db7425c851e76bdc47eca5a2dfd990240315",
   "install_command": "mkdir -p .claude/skills/agent-prompt-design && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-prompt-design/SKILL.md\" > .claude/skills/agent-prompt-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-prompt-design/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0648a7a6f9fb994a58850d86478c614aec13c4ca1553b8bf3d9250d2feaa55d4",
   "indexed_at": "2026-02-27T02:56:52.689Z",
-  "synced_at": "2026-02-27T13:14:13.956Z",
+  "synced_at": "2026-02-28T04:19:10.575Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cd62cf91257b6dd4ea953e2081da59ab1a19f7b683332cee7f06a2163b1761c9",
   "install_command": "mkdir -p .claude/skills/agent-competitive-analyst && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-competitive-analyst/SKILL.md\" > .claude/skills/agent-competitive-analyst/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-competitive-analyst/SKILL.md"

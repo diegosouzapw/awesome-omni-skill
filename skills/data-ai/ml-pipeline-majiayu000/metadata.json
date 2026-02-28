@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "34ac44bb0d2674dcaaa79a09eea1bbf77a03defd9f5c71a7cc10fc99ba412743",
   "indexed_at": "2026-02-26T12:17:47.683Z",
-  "synced_at": "2026-02-27T02:48:44.290Z",
+  "synced_at": "2026-02-28T04:19:56.614Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e84925b70f99b4b92a55eec6e77f7d51602e21eb5f64588c273e42672700fa69",
   "install_command": "mkdir -p .claude/skills/ml-pipeline && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ml-pipeline/SKILL.md\" > .claude/skills/ml-pipeline/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ml-pipeline/SKILL.md"

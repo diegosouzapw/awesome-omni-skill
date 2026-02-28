@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e3b4758f0aeff08013bdd72e41e59b4f5f2b9b239b00dd60bad9887c6aec5096",
   "indexed_at": "2026-02-27T02:57:12.992Z",
-  "synced_at": "2026-02-27T13:13:58.954Z",
+  "synced_at": "2026-02-28T04:18:46.911Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/731467c9f039a51aa3825fe02ea9a688c194d00a6cc1bea595b77ab7bc19ea9a",
   "install_command": "mkdir -p .claude/skills/agent-coordination && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-coordination-bybren-llc-safe-agentic-workflo/SKILL.md\" > .claude/skills/agent-coordination/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-coordination-bybren-llc-safe-agentic-workflo/SKILL.md"

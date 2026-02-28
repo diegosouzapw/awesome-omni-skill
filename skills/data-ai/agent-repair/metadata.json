@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9bd9bb6a00d21baaefb3454de8be14e29a1438bf4d36d6eeb9d5d58079de92a7",
   "indexed_at": "2026-02-27T03:56:42.120Z",
-  "synced_at": "2026-02-27T13:14:07.236Z",
+  "synced_at": "2026-02-28T04:18:54.380Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3c143fb55bc5387396c589983121421783eae9936c87f71e056cdd7cc0ede0ec",
   "install_command": "mkdir -p .claude/skills/agent-repair && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-repair-dglowacki-mega-agent-v2/SKILL.md\" > .claude/skills/agent-repair/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-repair-dglowacki-mega-agent-v2/SKILL.md"

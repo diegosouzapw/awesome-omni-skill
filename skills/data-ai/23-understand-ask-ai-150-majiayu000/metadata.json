@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7bbb57aea8e7eb6d4bb17fe3a3acfed0a249755745d2e5b3f2f3ba940e2385f0",
   "indexed_at": "2026-02-24T23:09:04.516Z",
-  "synced_at": "2026-02-27T02:48:06.974Z",
+  "synced_at": "2026-02-28T04:19:23.760Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d4ffe12250b68fbdab6977ec50d1a10aef6d88770be77a4dadc0703bc3c0d6b4",
   "install_command": "mkdir -p .claude/skills/23-understand-ask-ai-150 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/23-understand-ask-ai-150/SKILL.md\" > .claude/skills/23-understand-ask-ai-150/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/23-understand-ask-ai-150/SKILL.md"

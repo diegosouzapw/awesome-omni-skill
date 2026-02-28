@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1f97138eb8447d9a8fc7b477c1db15b5f901ba2942720eb4f2586066041131d3",
   "indexed_at": "2026-02-27T01:54:58.213Z",
-  "synced_at": "2026-02-27T02:48:01.180Z",
+  "synced_at": "2026-02-28T04:18:39.355Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/80cd1cf5b600f4e9ea70ada59d5c2c94b9624930bbf01818a56cf35db2dd07c5",
   "install_command": "mkdir -p .claude/skills/add-model-property && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-model-property/SKILL.md\" > .claude/skills/add-model-property/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-model-property/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "61662ce493c9a08fa4ce319836dbb8771af05e25a102fd8c4971ab734aaed154",
   "indexed_at": "2026-02-27T02:54:41.043Z",
-  "synced_at": "2026-02-27T13:13:57.287Z",
+  "synced_at": "2026-02-28T04:18:43.941Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c79e0f2821636bb7d25a973a47fed68610c20bcdd1e7ab8110f5b41f75c7f8a0",
   "install_command": "mkdir -p .claude/skills/aether-temporal-collective && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aether-temporal-collective/SKILL.md\" > .claude/skills/aether-temporal-collective/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aether-temporal-collective/SKILL.md"
