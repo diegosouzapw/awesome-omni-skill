@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7e002a29443d517aeca5206330cdf34481ac884aa239cd88308add74d0bab181",
   "indexed_at": "2026-02-25T19:26:41.873Z",
-  "synced_at": "2026-02-27T02:23:33.562Z",
+  "synced_at": "2026-02-28T03:48:09.307Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1660b8113eccadf1cfa40e1494fa92440d2200aa977f1b175315862b5f41c8b4",
   "install_command": "mkdir -p .claude/skills/wireshark-analysis && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/wireshark-analysis/SKILL.md\" > .claude/skills/wireshark-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/wireshark-analysis/SKILL.md"

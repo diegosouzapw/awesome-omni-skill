@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9807d13a1b9d740a746cf73f573cd763b988d217c0bf9c0db5a6638859e1fbef",
   "indexed_at": "2026-02-25T15:23:00.827Z",
-  "synced_at": "2026-02-27T02:24:24.482Z",
+  "synced_at": "2026-02-28T03:48:59.901Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f6a9c83d7d7b412bb5cfdaee675173a0a4015a7809e40d5c3214a2f7c8a1234a",
   "install_command": "mkdir -p .claude/skills/azure-functions && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-functions/SKILL.md\" > .claude/skills/azure-functions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-functions/SKILL.md"

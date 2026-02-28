@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cb9fc6b98698148bafc8c14eee7bf5a3bc2b8947f1c1a954d0b3e198db3b3898",
   "indexed_at": "2026-02-24T22:49:23.353Z",
-  "synced_at": "2026-02-27T02:23:24.808Z",
+  "synced_at": "2026-02-28T03:48:02.421Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0658c806e370a672053004fc75e26dd7dd1c50e84774446aee6bbed2c741be92",
   "install_command": "mkdir -p .claude/skills/appdrag-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/appdrag-automation/SKILL.md\" > .claude/skills/appdrag-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/appdrag-automation/SKILL.md"

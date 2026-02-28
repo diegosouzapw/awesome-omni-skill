@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8828c98176d0230a0e57da3f70aefa0d2e116dece1a289599d6f68fbdc866809",
   "indexed_at": "2026-02-25T15:22:36.422Z",
-  "synced_at": "2026-02-27T02:24:15.263Z",
+  "synced_at": "2026-02-28T03:48:50.683Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f434675abfaee9d222131124dd5062b98c75734ef98897ecf52efbeae2e4aaf2",
   "install_command": "mkdir -p .claude/skills/azure-communication-chat-java && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-communication-chat-java/SKILL.md\" > .claude/skills/azure-communication-chat-java/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-communication-chat-java/SKILL.md"

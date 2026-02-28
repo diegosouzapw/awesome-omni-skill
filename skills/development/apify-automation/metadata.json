@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2985e1ef6047ab357ac25fef81e13e4302aa45bc1dbaca793a6507e1b4e533a8",
   "indexed_at": "2026-02-24T22:49:14.286Z",
-  "synced_at": "2026-02-27T02:23:23.762Z",
+  "synced_at": "2026-02-28T03:48:01.524Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/845fa846a86b4d5000458011038f03fc2eae9227e81ea04e1ab422b4d3b01d1a",
   "install_command": "mkdir -p .claude/skills/apify-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/apify-automation/SKILL.md\" > .claude/skills/apify-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/apify-automation/SKILL.md"

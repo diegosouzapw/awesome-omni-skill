@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a35b483f9dce0b03095b1cc3ed52592901916c2dd2f6d1ddbbe6474d7ecbae6d",
   "indexed_at": "2026-02-25T16:22:34.678Z",
-  "synced_at": "2026-02-27T02:24:05.048Z",
+  "synced_at": "2026-02-28T03:48:40.131Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c102641b81e72c1aa3d9dbe5b5f1621bd04c90207ae2845372e5b43f5c91cf52",
   "install_command": "mkdir -p .claude/skills/context-optimization && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/context-optimization/SKILL.md\" > .claude/skills/context-optimization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/context-optimization/SKILL.md"

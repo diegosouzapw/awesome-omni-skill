@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "35d80504cec691a3b25c3b6188ce67bc3dcde501784cd1aa9163335fc6763193",
   "indexed_at": "2026-02-25T15:20:48.030Z",
-  "synced_at": "2026-02-27T02:24:12.225Z",
+  "synced_at": "2026-02-28T03:48:47.498Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/799d4aad349fabf754fbd65f14e363ada78b26c4ecc87c4bd8fff2d1b1e79905",
   "install_command": "mkdir -p .claude/skills/angular-ui-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/angular-ui-patterns/SKILL.md\" > .claude/skills/angular-ui-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/angular-ui-patterns/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "daa553d35bc27452b05f4d2a15ce15527b9ae334e643b1baa3d1892a5b081f75",
   "indexed_at": "2026-02-26T20:45:13.345Z",
-  "synced_at": "2026-02-27T02:23:13.020Z",
+  "synced_at": "2026-02-28T03:47:51.971Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/17c6ae9478ede7958e5111ecf7a6416a5ffec8127cdad1ce188aaf5e00161fba",
   "install_command": "mkdir -p .claude/skills/component-fixtures && curl -sL \"https://raw.githubusercontent.com/microsoft/vscode/main/.github/skills/component-fixtures/SKILL.md\" > .claude/skills/component-fixtures/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/microsoft/vscode/main/.github/skills/component-fixtures/SKILL.md"

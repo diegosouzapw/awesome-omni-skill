@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "282d96d75405d2b71bf06c0d7a26d35e8aca0a8cbbd5580857607ba605b70f22",
   "indexed_at": "2026-02-25T17:26:23.497Z",
-  "synced_at": "2026-02-27T02:23:53.177Z",
+  "synced_at": "2026-02-28T03:48:28.456Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8ff996b0e71fe610e8b5800e104624952480212627d056ae1bd8fbcefb3f0045",
   "install_command": "mkdir -p .claude/skills/nextjs-best-practices && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/nextjs-best-practices/SKILL.md\" > .claude/skills/nextjs-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/nextjs-best-practices/SKILL.md"

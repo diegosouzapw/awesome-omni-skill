@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "46290c5e176f51cb6ad3392e2e9460dfbc25a8036167bebe50a74a17edbdb14d",
   "indexed_at": "2026-02-25T16:23:41.599Z",
-  "synced_at": "2026-02-27T02:24:07.085Z",
+  "synced_at": "2026-02-28T03:48:42.336Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b8029c87a77bc712d0b2afade69ab0bd2a51d7a072dc7a5e721d88090a8544a1",
   "install_command": "mkdir -p .claude/skills/dbt-transformation-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/dbt-transformation-patterns/SKILL.md\" > .claude/skills/dbt-transformation-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/dbt-transformation-patterns/SKILL.md"

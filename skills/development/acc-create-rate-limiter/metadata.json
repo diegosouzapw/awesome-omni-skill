@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "21011ae178fac77dbcb9e19004892be6e45003051e7f79efbaaac9859897c600",
   "indexed_at": "2026-02-27T00:48:44.000Z",
-  "synced_at": "2026-02-27T02:24:30.972Z",
+  "synced_at": "2026-02-28T03:49:06.998Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7e8a3e41537a86b0597719521b15a57cf514bbd1458e477cee31955f7230eee3",
   "install_command": "mkdir -p .claude/skills/acc-create-rate-limiter && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-rate-limiter/SKILL.md\" > .claude/skills/acc-create-rate-limiter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-rate-limiter/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e16f85b9ea03762ff9714f9c494d41c861b9093f53f8270615d99dba60e9409d",
   "indexed_at": "2026-02-25T18:26:43.687Z",
-  "synced_at": "2026-02-27T02:23:49.831Z",
+  "synced_at": "2026-02-28T03:48:25.294Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/27341b8aaf1878555ba243c49873a8aca1f0430c1f816be63792265910a87d12",
   "install_command": "mkdir -p .claude/skills/similarity-search-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/similarity-search-patterns/SKILL.md\" > .claude/skills/similarity-search-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/similarity-search-patterns/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6827c18a622c4406ffccc9821730b8897987e8abdf3425cf17f875040378c445",
   "indexed_at": "2026-02-25T19:27:21.975Z",
-  "synced_at": "2026-02-27T02:23:39.227Z",
+  "synced_at": "2026-02-28T03:48:15.071Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b9ae641899f7f3173d34e8a2532cb36096f190c80a4fcf3edbd5007fa15c86d5",
   "install_command": "mkdir -p .claude/skills/2d-games && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/game-development/2d-games/SKILL.md\" > .claude/skills/2d-games/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/game-development/2d-games/SKILL.md"

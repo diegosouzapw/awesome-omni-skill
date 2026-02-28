@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "155a29bd326f80631ae45d0fff1322eca40b42caf5e0e23b96f3140fd3c3a437",
   "indexed_at": "2026-02-24T23:51:31.629Z",
-  "synced_at": "2026-02-27T02:23:13.415Z",
+  "synced_at": "2026-02-28T03:47:52.365Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d6dcf2762d5c5f93dbf3995f2e1ad8490e1af3121683fbb16973a549214461fd",
   "install_command": "mkdir -p .claude/skills/sessions && curl -sL \"https://raw.githubusercontent.com/microsoft/vscode/main/.github/skills/sessions/SKILL.md\" > .claude/skills/sessions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/microsoft/vscode/main/.github/skills/sessions/SKILL.md"

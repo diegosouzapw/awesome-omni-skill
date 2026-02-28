@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "65753cd225c76e177274785bcfb5d14eeae9556ba97e07aea21a40bb9c3f4bd7",
   "indexed_at": "2026-02-25T16:26:18.765Z",
-  "synced_at": "2026-02-27T02:24:02.659Z",
+  "synced_at": "2026-02-28T03:48:37.692Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6bc8d92c989f1e26cef0d096285448bec282581eb782eaebd4ce45b1a18b6695",
   "install_command": "mkdir -p .claude/skills/frontend-dev-guidelines && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/frontend-dev-guidelines/SKILL.md\" > .claude/skills/frontend-dev-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/frontend-dev-guidelines/SKILL.md"

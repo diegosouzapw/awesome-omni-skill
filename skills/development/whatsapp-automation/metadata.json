@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "43b14b260acde914c04a8fb8a2be3da478a9883c6b7db7ef81427094d35cdfc3",
   "indexed_at": "2026-02-25T19:26:25.339Z",
-  "synced_at": "2026-02-27T02:23:37.463Z",
+  "synced_at": "2026-02-28T03:48:13.399Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6ed386328994a148f1197c7b805df69843938268713aa63e6bf5a4b573aca446",
   "install_command": "mkdir -p .claude/skills/whatsapp-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/whatsapp-automation/SKILL.md\" > .claude/skills/whatsapp-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/whatsapp-automation/SKILL.md"

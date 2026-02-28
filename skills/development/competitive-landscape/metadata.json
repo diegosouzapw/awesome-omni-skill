@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b00b31360f5964c716db729638b17b69424e41dc28fcac111596f1ba2967ef0f",
   "indexed_at": "2026-02-25T15:26:55.701Z",
-  "synced_at": "2026-02-27T02:24:25.098Z",
+  "synced_at": "2026-02-28T03:49:00.508Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1ad96482e2f4bf452f692c7afebc0f0a647e960bd24b90d30d1fdc4252632934",
   "install_command": "mkdir -p .claude/skills/competitive-landscape && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/competitive-landscape/SKILL.md\" > .claude/skills/competitive-landscape/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/competitive-landscape/SKILL.md"

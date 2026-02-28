@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "03a0d451e566ba0bbc47a105498046157ca9a7ce9319af697c7f15418470a4f4",
   "indexed_at": "2026-02-25T16:27:21.793Z",
-  "synced_at": "2026-02-27T02:24:04.382Z",
+  "synced_at": "2026-02-28T03:48:39.350Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/32ed97a31a4d717f3d7160c1ee173c22adae289a83b087ff0db7d58a89a0f687",
   "install_command": "mkdir -p .claude/skills/googlesheets-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/googlesheets-automation/SKILL.md\" > .claude/skills/googlesheets-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/googlesheets-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d8d5b972b1eb3bba3b0d3839e43023e4374b06972197374081bccef45e5552f4",
   "indexed_at": "2026-02-27T00:48:58.352Z",
-  "synced_at": "2026-02-27T02:24:31.775Z",
+  "synced_at": "2026-02-28T03:49:07.782Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a98a7f331a82d8b73c04c5a3913ef2bc2f47d3f90df85ee9fedeefdd09f264f5",
   "install_command": "mkdir -p .claude/skills/acc-create-saga-pattern && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-saga-pattern/SKILL.md\" > .claude/skills/acc-create-saga-pattern/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-saga-pattern/SKILL.md"

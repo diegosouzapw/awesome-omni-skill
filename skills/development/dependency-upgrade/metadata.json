@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "768df5cf060302255aa97b859a18f267e8a3dbab224f4ef475d4f07fe829dc3f",
   "indexed_at": "2026-02-25T16:24:00.511Z",
-  "synced_at": "2026-02-27T02:24:00.843Z",
+  "synced_at": "2026-02-28T03:48:35.893Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a2ffff3ad3e6a3d8e7b067f25a20151102d73938c7fdf1797991e7c422e594c8",
   "install_command": "mkdir -p .claude/skills/dependency-upgrade && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/dependency-upgrade/SKILL.md\" > .claude/skills/dependency-upgrade/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/dependency-upgrade/SKILL.md"

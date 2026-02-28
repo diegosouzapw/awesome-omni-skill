@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9d9bbfad12991acd87b6c4204f2dcb5638ef6793f9bc646b07bcff77f7e13ab9",
   "indexed_at": "2026-02-25T19:24:58.320Z",
-  "synced_at": "2026-02-27T02:23:35.496Z",
+  "synced_at": "2026-02-28T03:48:11.445Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9f7e7b4e42769eaa59d53ba5826859306a330151f5ee9d7a2d318bfa8db77cd1",
   "install_command": "mkdir -p .claude/skills/todoist-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/todoist-automation/SKILL.md\" > .claude/skills/todoist-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/todoist-automation/SKILL.md"

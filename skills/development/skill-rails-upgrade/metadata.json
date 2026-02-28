@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c7e33ba2a019dfba8f02487deb942bc6d668f2d993d7751015a1e8465bc48430",
   "indexed_at": "2026-02-25T18:26:50.675Z",
-  "synced_at": "2026-02-27T02:23:47.563Z",
+  "synced_at": "2026-02-28T03:48:22.942Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0f6e567267ddfac6e9e4e5fcd3caa2ca7ddb28cbf82bd0f274dace93a85c1418",
   "install_command": "mkdir -p .claude/skills/skill-rails-upgrade && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/skill-rails-upgrade/SKILL.md\" > .claude/skills/skill-rails-upgrade/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/skill-rails-upgrade/SKILL.md"

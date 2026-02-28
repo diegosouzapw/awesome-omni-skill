@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "86b21dea30ae9901f0abc6f3c8aedf97295a856d0a271c8feb1c69a2ebb194c7",
   "indexed_at": "2026-02-25T18:24:38.608Z",
-  "synced_at": "2026-02-27T02:23:49.164Z",
+  "synced_at": "2026-02-28T03:48:24.637Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fb7e7abe520a470854618ec7c617f158a1a8e85f839f35fc3adede4c2dcdcc1c",
   "install_command": "mkdir -p .claude/skills/react-modernization && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/react-modernization/SKILL.md\" > .claude/skills/react-modernization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/react-modernization/SKILL.md"

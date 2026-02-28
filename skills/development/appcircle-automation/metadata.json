@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cd46e0fae73bfb2efa6abd70cb9dd748b6deb299f024ece2bd9f54a565d211c6",
   "indexed_at": "2026-02-24T22:49:22.014Z",
-  "synced_at": "2026-02-27T02:23:24.641Z",
+  "synced_at": "2026-02-28T03:48:02.265Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/755a8eadca2fdd4662f4fc5e536f9f15d8dd37ded148549e9417279fbca4bd73",
   "install_command": "mkdir -p .claude/skills/appcircle-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/appcircle-automation/SKILL.md\" > .claude/skills/appcircle-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/appcircle-automation/SKILL.md"

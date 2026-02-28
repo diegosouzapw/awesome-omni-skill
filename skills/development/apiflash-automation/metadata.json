@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f95b47b9dddb4ffe9cb29c7c49c9b68eb4cc4c00926e851344723b2c7ccd04d4",
   "indexed_at": "2026-02-24T22:49:12.893Z",
-  "synced_at": "2026-02-27T02:23:23.595Z",
+  "synced_at": "2026-02-28T03:48:01.354Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c2ef58a6eaca9131dcbb815120897054d48b227da11f5868d76936d0d18a5e1f",
   "install_command": "mkdir -p .claude/skills/apiflash-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/apiflash-automation/SKILL.md\" > .claude/skills/apiflash-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/apiflash-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9ce53e7e04e9379a98abf5f69d418a906b764f9ad9457455181f646dc7fb9bf4",
   "indexed_at": "2026-02-24T22:49:16.839Z",
-  "synced_at": "2026-02-27T02:23:24.124Z",
+  "synced_at": "2026-02-28T03:48:01.822Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/711b02b8f20cff47bff21f73f04f72d8152d5ef7a5519043d47ba6f6e564bafc",
   "install_command": "mkdir -p .claude/skills/apipie-ai-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/apipie-ai-automation/SKILL.md\" > .claude/skills/apipie-ai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/apipie-ai-automation/SKILL.md"

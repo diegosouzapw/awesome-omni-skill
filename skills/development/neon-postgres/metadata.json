@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "633c2626fadf71ce50e9bc88e4af5e13b03144448794f45871e684454320169d",
   "indexed_at": "2026-02-25T17:26:10.535Z",
-  "synced_at": "2026-02-27T02:23:57.622Z",
+  "synced_at": "2026-02-28T03:48:32.953Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fdce3a5efbfd019173d2953923e3524b8e9c098b750098ce65f99239485b0010",
   "install_command": "mkdir -p .claude/skills/neon-postgres && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/neon-postgres/SKILL.md\" > .claude/skills/neon-postgres/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/neon-postgres/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2f70365159ce3920d6e25d80a0055dc41de2023862babf782f5acd580acc4baf",
   "indexed_at": "2026-02-24T23:02:55.280Z",
-  "synced_at": "2026-02-27T02:23:19.992Z",
+  "synced_at": "2026-02-28T03:47:58.257Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6e145d8bab82489ff10d5f3266b10b4ed1e5ce9cb7e3f19d4cff9a2e12b585d0",
   "install_command": "mkdir -p .claude/skills/google-search-console-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/google-search-console-automation/SKILL.md\" > .claude/skills/google-search-console-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/google-search-console-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "86f7744d1c195f7dcebf876f3ff7341e9736ade4756781f2ebbb100ff6069501",
   "indexed_at": "2026-02-24T22:49:06.349Z",
-  "synced_at": "2026-02-27T02:23:22.732Z",
+  "synced_at": "2026-02-28T03:48:00.600Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/50e14d4d9320837fa37adf9b5aa039fc1edf7c180da776f6f16d4b462600dea9",
   "install_command": "mkdir -p .claude/skills/api-bible-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/api-bible-automation/SKILL.md\" > .claude/skills/api-bible-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/api-bible-automation/SKILL.md"

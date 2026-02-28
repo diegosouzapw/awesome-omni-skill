@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3c3f0d31edea00d0d233042f46eddb24b6e283b3905fe248daa5f068edb6b2e0",
   "indexed_at": "2026-02-25T14:21:03.774Z",
-  "synced_at": "2026-02-27T02:24:10.630Z",
+  "synced_at": "2026-02-28T03:48:46.017Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/933b44cf95a933d6ea096e2697e83c8e96050dd5dc53b40aeb3f8428df1fe042",
   "install_command": "mkdir -p .claude/skills/brand-guidelines-community && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/brand-guidelines-community/SKILL.md\" > .claude/skills/brand-guidelines-community/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/brand-guidelines-community/SKILL.md"

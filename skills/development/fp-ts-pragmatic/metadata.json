@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d3fab4a34309ade0573aec76c31e04af74e34ce84460eb70326f9ef9f56cfc7d",
   "indexed_at": "2026-02-25T16:26:02.712Z",
-  "synced_at": "2026-02-27T02:24:02.004Z",
+  "synced_at": "2026-02-28T03:48:37.035Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/663a28adc192942d1006038c8eeac7e5fb8d357af908e46b482e51f90085058c",
   "install_command": "mkdir -p .claude/skills/fp-ts-pragmatic && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/fp-ts-pragmatic/SKILL.md\" > .claude/skills/fp-ts-pragmatic/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/fp-ts-pragmatic/SKILL.md"

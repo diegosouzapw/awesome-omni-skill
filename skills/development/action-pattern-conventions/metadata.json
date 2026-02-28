@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b1ac34a9b3c3106244cebb7da337ca460e0d55ceeca919ee795cb7871f49ccd1",
   "indexed_at": "2026-02-27T00:55:23.755Z",
-  "synced_at": "2026-02-27T02:24:27.360Z",
+  "synced_at": "2026-02-28T03:49:02.716Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a627eb688b1d2cb884180d1086b8a5295ab9a8dd0698decbd7707e33b0419b64",
   "install_command": "mkdir -p .claude/skills/action-pattern-conventions && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/action-pattern-conventions/SKILL.md\" > .claude/skills/action-pattern-conventions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/action-pattern-conventions/SKILL.md"

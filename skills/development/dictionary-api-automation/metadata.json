@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2821715073c3f848babf03c0614462a0eb1114a5167855bed4f7bdef2923ec59",
   "indexed_at": "2026-02-24T22:53:12.974Z",
-  "synced_at": "2026-02-27T02:23:27.936Z",
+  "synced_at": "2026-02-28T03:48:05.110Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c522c8a32781113d0a3d35c69437a98ad541dc41229983af25580767965e34d4",
   "install_command": "mkdir -p .claude/skills/dictionary-api-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dictionary-api-automation/SKILL.md\" > .claude/skills/dictionary-api-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dictionary-api-automation/SKILL.md"

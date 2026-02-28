@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "582edfbf29e655401011aee065056c72b2b59d7eacb7d6c9d06fa32fe70e2914",
   "indexed_at": "2026-02-25T17:26:53.856Z",
-  "synced_at": "2026-02-27T02:23:54.452Z",
+  "synced_at": "2026-02-28T03:48:29.745Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/db98d1d5285a33bd364f566f30cd675414eeff46f4b4ceacb1fc03a4989dcfc0",
   "install_command": "mkdir -p .claude/skills/onboarding-cro && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/onboarding-cro/SKILL.md\" > .claude/skills/onboarding-cro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/onboarding-cro/SKILL.md"

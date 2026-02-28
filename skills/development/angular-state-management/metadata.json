@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "734d28bf7a31718240a80c6b721b2898c3d6bdf15068990246687694195cca28",
   "indexed_at": "2026-02-25T15:20:46.213Z",
-  "synced_at": "2026-02-27T02:24:12.061Z",
+  "synced_at": "2026-02-28T03:48:47.327Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9dca4a3746363a687775e464985946f13217d385a49ce5ae6fa07ed50a9f9517",
   "install_command": "mkdir -p .claude/skills/angular-state-management && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/angular-state-management/SKILL.md\" > .claude/skills/angular-state-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/angular-state-management/SKILL.md"

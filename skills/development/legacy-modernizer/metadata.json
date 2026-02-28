@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f2160ea4b953bf41be9e08b0c9676128c341a2f10d08034cb5f6c286d0383f1b",
   "indexed_at": "2026-02-25T17:24:15.882Z",
-  "synced_at": "2026-02-27T02:23:58.104Z",
+  "synced_at": "2026-02-28T03:48:33.447Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7d37cb0ad9aa8105fa9e65690ef55cbf81145d01b252ba9e54409a7d8bf52c31",
   "install_command": "mkdir -p .claude/skills/legacy-modernizer && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/legacy-modernizer/SKILL.md\" > .claude/skills/legacy-modernizer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/legacy-modernizer/SKILL.md"

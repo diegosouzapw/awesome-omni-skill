@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "30c248eb8d082f39931a1f68210101aa4148951c6309468d0cfbbe3f4a1bd833",
   "indexed_at": "2026-02-25T17:25:41.824Z",
-  "synced_at": "2026-02-27T02:23:56.181Z",
+  "synced_at": "2026-02-28T03:48:31.376Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eacfe7d7356c265877d57bbd68c8587b44ae4c9083428f9d7db159129f1c0f63",
   "install_command": "mkdir -p .claude/skills/mobile-security-coder && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/mobile-security-coder/SKILL.md\" > .claude/skills/mobile-security-coder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/mobile-security-coder/SKILL.md"

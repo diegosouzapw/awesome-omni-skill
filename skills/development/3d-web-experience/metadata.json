@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a5b6706db388b517706a6e6036ed409241bba28275d5bb1439fc5576e98a9862",
   "indexed_at": "2026-02-25T15:19:49.298Z",
-  "synced_at": "2026-02-27T02:24:10.789Z",
+  "synced_at": "2026-02-28T03:48:46.180Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/efc825edf8c5213e6a5c3e0f0ee127493a7b7e479c60fa27b11458b9b97be55a",
   "install_command": "mkdir -p .claude/skills/3d-web-experience && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/3d-web-experience/SKILL.md\" > .claude/skills/3d-web-experience/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/3d-web-experience/SKILL.md"

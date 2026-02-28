@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "10bc275730cf1658327bf153de343d85d258e5385984f4ea20a45819aa9d954e",
   "indexed_at": "2026-02-24T22:52:33.067Z",
-  "synced_at": "2026-02-27T02:23:27.402Z",
+  "synced_at": "2026-02-28T03:48:04.658Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/654029262a377211183a39b94b38dc3968942ccfad27fee9619ff15e1fced649",
   "install_command": "mkdir -p .claude/skills/convertapi-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/convertapi-automation/SKILL.md\" > .claude/skills/convertapi-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/convertapi-automation/SKILL.md"

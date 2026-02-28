@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e5bf23e32c9e1bab210fb63011364b88768531128a2a75b8f557522ff4e3b39a",
   "indexed_at": "2026-02-24T22:49:27.128Z",
-  "synced_at": "2026-02-27T02:23:25.334Z",
+  "synced_at": "2026-02-28T03:48:02.866Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f46707c16ce785b16b50b76e3dfcab369e1b0a3c5de8abca2db3a717cbaecd52",
   "install_command": "mkdir -p .claude/skills/appveyor-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/appveyor-automation/SKILL.md\" > .claude/skills/appveyor-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/appveyor-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d5ad3ee50db712d9f705b183ef66bb617ca88da3dad9e5028bba099efd79e884",
   "indexed_at": "2026-02-25T18:23:43.752Z",
-  "synced_at": "2026-02-27T02:23:42.561Z",
+  "synced_at": "2026-02-28T03:48:17.902Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/39db004c1b6e59525ff7d5e638f40b0c38dca090abce683e21be930b154896c2",
   "install_command": "mkdir -p .claude/skills/powershell-windows && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/powershell-windows/SKILL.md\" > .claude/skills/powershell-windows/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/powershell-windows/SKILL.md"

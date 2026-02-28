@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "037f6abb224491bab83eb7369f554fbd2b2eca5c791e7ad52cdb5cf9e337cf8a",
   "indexed_at": "2026-02-25T16:24:47.321Z",
-  "synced_at": "2026-02-27T02:24:01.516Z",
+  "synced_at": "2026-02-28T03:48:36.541Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/072db5646cae3f53ef0736cc46dfd210bcf0f873b0661a4d415faedd9bb9f0bc",
   "install_command": "mkdir -p .claude/skills/dotnet-backend && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/dotnet-backend/SKILL.md\" > .claude/skills/dotnet-backend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/dotnet-backend/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "66f3d1fdf78e669858d60897b70fe6eac9579a8e192f6843ec890b3726797ea5",
   "indexed_at": "2026-02-25T17:26:39.459Z",
-  "synced_at": "2026-02-27T02:23:53.974Z",
+  "synced_at": "2026-02-28T03:48:29.243Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3e9620bc48c201e0fa8b4eef764f424391c5ef015b2a17114926508db138705a",
   "install_command": "mkdir -p .claude/skills/nx-workspace-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/nx-workspace-patterns/SKILL.md\" > .claude/skills/nx-workspace-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/nx-workspace-patterns/SKILL.md"

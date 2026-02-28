@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b86d4efb8bdfc224cadcad052558ac0f1d6a77d24127ead921a547b3e4c4aa6c",
   "indexed_at": "2026-02-24T22:55:19.572Z",
-  "synced_at": "2026-02-27T02:23:29.096Z",
+  "synced_at": "2026-02-28T03:48:06.160Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1aaad3f4347f4ab4b4435b20b8b251263b604cd32fee8e472ed21461bd2e9915",
   "install_command": "mkdir -p .claude/skills/formbricks-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/formbricks-automation/SKILL.md\" > .claude/skills/formbricks-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/formbricks-automation/SKILL.md"

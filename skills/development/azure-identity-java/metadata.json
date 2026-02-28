@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b6a3c760d0f0c863966f4b45b1b15b5bfd07e80369207c30d209c4bcaf7f5102",
   "indexed_at": "2026-02-25T15:23:03.405Z",
-  "synced_at": "2026-02-27T02:24:16.575Z",
+  "synced_at": "2026-02-28T03:48:51.990Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dab018930dde8c324e9fc35932b4ecb72f5d727461b3c8814309b12ee19651ee",
   "install_command": "mkdir -p .claude/skills/azure-identity-java && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-identity-java/SKILL.md\" > .claude/skills/azure-identity-java/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-identity-java/SKILL.md"

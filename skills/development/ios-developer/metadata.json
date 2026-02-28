@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "52e7229f5e07b542cbb966cd811e70e0c707b79b18b99435a880cd8af58b8ef5",
   "indexed_at": "2026-02-25T17:23:30.148Z",
-  "synced_at": "2026-02-27T02:23:55.357Z",
+  "synced_at": "2026-02-28T03:48:30.561Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/823cabfe3d54acb6c361717ed21cf44f990d0374787e6d04f123b99c45a402ac",
   "install_command": "mkdir -p .claude/skills/ios-developer && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/ios-developer/SKILL.md\" > .claude/skills/ios-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/ios-developer/SKILL.md"

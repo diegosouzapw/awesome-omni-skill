@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "18bd4c266d7b28605a91729e90ec92b787989febe0da340adb8da80d65da9ccb",
   "indexed_at": "2026-02-25T20:27:29.967Z",
-  "synced_at": "2026-02-27T02:23:19.501Z",
+  "synced_at": "2026-02-28T03:47:57.803Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6e1081f1157671b72e4fa160300b44a3d91c7f89dd7f10f83f945a67d1cf79ab",
   "install_command": "mkdir -p .claude/skills/new-relic-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/new-relic-automation/SKILL.md\" > .claude/skills/new-relic-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/new-relic-automation/SKILL.md"

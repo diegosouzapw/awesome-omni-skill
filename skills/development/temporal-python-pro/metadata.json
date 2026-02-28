@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ca83d35793918d16d4f6aebdc177a9e2b552adc99200dcd5839f0f5f2f50b31a",
   "indexed_at": "2026-02-25T19:24:24.281Z",
-  "synced_at": "2026-02-27T02:23:39.053Z",
+  "synced_at": "2026-02-28T03:48:14.900Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bfc3bf8ef3f9e464935d0c8102a86f3643b034b3fa1c0bc29d0515a989cf5eff",
   "install_command": "mkdir -p .claude/skills/temporal-python-pro && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/temporal-python-pro/SKILL.md\" > .claude/skills/temporal-python-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/temporal-python-pro/SKILL.md"

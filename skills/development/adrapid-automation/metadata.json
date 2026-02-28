@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7df3da1caaad37e1ee90428b4e6e6238897dbeb74166cbd90cef0101e29741a8",
   "indexed_at": "2026-02-24T22:48:20.110Z",
-  "synced_at": "2026-02-27T02:23:22.216Z",
+  "synced_at": "2026-02-28T03:48:00.157Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2739d23c031b5723c24b7f3a3a2d384a95356d58f1b79b76705dc8f460e1141c",
   "install_command": "mkdir -p .claude/skills/adrapid-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/adrapid-automation/SKILL.md\" > .claude/skills/adrapid-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/adrapid-automation/SKILL.md"

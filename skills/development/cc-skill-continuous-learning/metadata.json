@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "97ec4ec16debd02d65e3271e39542dff2a4a5bea1636db32f6510af8d856a3b1",
   "indexed_at": "2026-02-25T15:25:44.536Z",
-  "synced_at": "2026-02-27T02:24:25.262Z",
+  "synced_at": "2026-02-28T03:49:00.671Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6fc61f31702549ea6c62be691d1fc1f26720fcf8a3131d1a81013901e6cfbb13",
   "install_command": "mkdir -p .claude/skills/cc-skill-continuous-learning && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/cc-skill-continuous-learning/SKILL.md\" > .claude/skills/cc-skill-continuous-learning/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/cc-skill-continuous-learning/SKILL.md"

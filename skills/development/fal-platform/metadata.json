@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "98d1d5f8ba822e3c1600f33b23c041ab5b2ff14fa5c91a597b2b9993b9ae895e",
   "indexed_at": "2026-02-25T14:25:39.152Z",
-  "synced_at": "2026-02-27T02:24:25.732Z",
+  "synced_at": "2026-02-28T03:49:01.128Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fccd9fbed5806d5c21c3b6f23419cb79ec25b65eade186f5bd137e7207ff1c08",
   "install_command": "mkdir -p .claude/skills/fal-platform && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/fal-platform/SKILL.md\" > .claude/skills/fal-platform/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/fal-platform/SKILL.md"

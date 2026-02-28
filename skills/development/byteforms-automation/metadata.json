@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d03244f5d47ba53df5d9b2011ee9a90e53eee0efa2d94850c23a1cc0a6a0898f",
   "indexed_at": "2026-02-24T22:51:15.995Z",
-  "synced_at": "2026-02-27T02:23:26.190Z",
+  "synced_at": "2026-02-28T03:48:03.618Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1cd8738f13c96d1bfcc79fa366e61d18fdc488ae97fb3f84329e5c92014a9d61",
   "install_command": "mkdir -p .claude/skills/byteforms-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/byteforms-automation/SKILL.md\" > .claude/skills/byteforms-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/byteforms-automation/SKILL.md"

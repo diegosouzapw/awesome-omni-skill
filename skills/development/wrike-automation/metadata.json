@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "06fd2e9a6a1a07371514043c144936a6422321c907921af8ce236e5e1b85b12b",
   "indexed_at": "2026-02-25T19:26:57.683Z",
-  "synced_at": "2026-02-27T02:23:37.624Z",
+  "synced_at": "2026-02-28T03:48:13.569Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/168185cad408344363892df0633435cb09dc4a3f0c12f2b82657c8e2eafd4ada",
   "install_command": "mkdir -p .claude/skills/wrike-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/wrike-automation/SKILL.md\" > .claude/skills/wrike-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/wrike-automation/SKILL.md"

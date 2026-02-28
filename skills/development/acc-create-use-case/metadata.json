@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e08cc33b92fdfcd8afa0d4db1d61254eda16276d247ee8149a67df8170a2ede2",
   "indexed_at": "2026-02-27T00:49:17.930Z",
-  "synced_at": "2026-02-27T02:24:32.188Z",
+  "synced_at": "2026-02-28T03:49:08.169Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/37be8b87fd9d31e0254f179a904cde738d3573c6b6301a25c9c68f0beed08f6c",
   "install_command": "mkdir -p .claude/skills/acc-create-use-case && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-use-case/SKILL.md\" > .claude/skills/acc-create-use-case/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-use-case/SKILL.md"

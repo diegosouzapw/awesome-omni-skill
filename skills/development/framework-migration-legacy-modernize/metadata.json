@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "14f58844b10c6a587cf418ec95d9c62b4d0b01804da7f44bef1ea8e2d13cdb91",
   "indexed_at": "2026-02-25T16:26:09.836Z",
-  "synced_at": "2026-02-27T02:24:02.329Z",
+  "synced_at": "2026-02-28T03:48:37.368Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5f0fc11b8acd1811857d200f1439504c80e4c9455acfc07fb58d90fabe0cd37d",
   "install_command": "mkdir -p .claude/skills/framework-migration-legacy-modernize && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/framework-migration-legacy-modernize/SKILL.md\" > .claude/skills/framework-migration-legacy-modernize/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/framework-migration-legacy-modernize/SKILL.md"

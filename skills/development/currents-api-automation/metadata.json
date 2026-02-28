@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "69a7f020135d520093da3da03171b15ab6d4dee09d91d28235cf97595c5cc36f",
   "indexed_at": "2026-02-24T22:52:47.282Z",
-  "synced_at": "2026-02-27T02:23:27.751Z",
+  "synced_at": "2026-02-28T03:48:04.953Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/99014831d6dacbf2c8b0ec463e91748ebbcb19d7d83c847f33d8913d929c3986",
   "install_command": "mkdir -p .claude/skills/currents-api-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/currents-api-automation/SKILL.md\" > .claude/skills/currents-api-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/currents-api-automation/SKILL.md"

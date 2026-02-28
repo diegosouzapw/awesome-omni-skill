@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "858c8314e5430b1166cffcdd94ae37b2133aaec879c602e28f69414c5a7cf5da",
   "indexed_at": "2026-02-24T22:55:23.512Z",
-  "synced_at": "2026-02-27T02:23:29.597Z",
+  "synced_at": "2026-02-28T03:48:06.607Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/998e77a44ff5050436fe165124bb4732d698341ca932b78ac7988e237dbb71b3",
   "install_command": "mkdir -p .claude/skills/formsite-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/formsite-automation/SKILL.md\" > .claude/skills/formsite-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/formsite-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "076e5b709aebf35a352769bddad68bdfcd86d90dde5aa3a6052f4c26df3a6785",
   "indexed_at": "2026-02-26T01:27:25.328Z",
-  "synced_at": "2026-02-27T02:23:14.987Z",
+  "synced_at": "2026-02-28T03:47:53.736Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ead6556eaca574c99748fd7bf6dbdcae2a5fa2825d2074c375b8bbd2cc5760fe",
   "install_command": "mkdir -p .claude/skills/xlsx && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/document-skills/xlsx/SKILL.md\" > .claude/skills/xlsx/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/document-skills/xlsx/SKILL.md"

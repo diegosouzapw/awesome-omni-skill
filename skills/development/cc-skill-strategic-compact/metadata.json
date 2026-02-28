@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8c4f0d5af83fa6b295ce83e9e7aaf3c6fe092d529d93414e35630239b87498d8",
   "indexed_at": "2026-02-25T15:25:54.052Z",
-  "synced_at": "2026-02-27T02:24:25.422Z",
+  "synced_at": "2026-02-28T03:49:00.826Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1ed27502103d15037c7c09f36453526a87521284604b51db4f05b74e0d764552",
   "install_command": "mkdir -p .claude/skills/cc-skill-strategic-compact && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/cc-skill-strategic-compact/SKILL.md\" > .claude/skills/cc-skill-strategic-compact/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/cc-skill-strategic-compact/SKILL.md"

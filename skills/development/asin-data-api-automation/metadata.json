@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "66d9538a9316bae2683c9bcdfcd28b1e312d1bd7aeea2de57ac4ee4a474cfa52",
   "indexed_at": "2026-02-24T22:49:32.981Z",
-  "synced_at": "2026-02-27T02:23:25.685Z",
+  "synced_at": "2026-02-28T03:48:03.163Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e3988a782f238f1377706184d75569d33cc320b97c11f8aea57556957f0b84ba",
   "install_command": "mkdir -p .claude/skills/asin-data-api-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/asin-data-api-automation/SKILL.md\" > .claude/skills/asin-data-api-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/asin-data-api-automation/SKILL.md"

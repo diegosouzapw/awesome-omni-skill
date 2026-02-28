@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "42a956eaae7467d37b600cc978351d3561c761f1535d0f053a8c553a3d65cbda",
   "indexed_at": "2026-02-24T22:48:00.094Z",
-  "synced_at": "2026-02-27T02:23:21.721Z",
+  "synced_at": "2026-02-28T03:47:59.710Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d8516b65d4193b7b6c1ba720abf9df28187c2c529844b68d84da279091fdefd4",
   "install_command": "mkdir -p .claude/skills/twitter-algorithm-optimizer && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/twitter-algorithm-optimizer/SKILL.md\" > .claude/skills/twitter-algorithm-optimizer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/twitter-algorithm-optimizer/SKILL.md"

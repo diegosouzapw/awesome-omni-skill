@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0735c4a5b6fda36566a90f462b8190b16b246bac94fadb827b98554de8264b36",
   "indexed_at": "2026-02-25T15:21:09.075Z",
-  "synced_at": "2026-02-27T02:24:23.842Z",
+  "synced_at": "2026-02-28T03:48:59.268Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/28ac71fe6aa61ee0fe21527725f8ce862a2aabef8a33a3eaf124dd67eab044e0",
   "install_command": "mkdir -p .claude/skills/api-testing-observability-api-mock && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/api-testing-observability-api-mock/SKILL.md\" > .claude/skills/api-testing-observability-api-mock/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/api-testing-observability-api-mock/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eecb04a360b1228e7bbd9a31dc9b83e18b76dd733f673714ac93c37d192b0be6",
   "indexed_at": "2026-02-26T00:27:25.022Z",
-  "synced_at": "2026-02-27T02:23:15.822Z",
+  "synced_at": "2026-02-28T03:47:54.512Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/87bd30003389e73cb33419fabdf5265fc657d092467744a424c7af37bbe53cfb",
   "install_command": "mkdir -p .claude/skills/waboxapp-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/waboxapp-automation/SKILL.md\" > .claude/skills/waboxapp-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/waboxapp-automation/SKILL.md"

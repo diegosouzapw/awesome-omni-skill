@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ebaa845ff889de392c42ea6d4d83538f4fd25515796a38076dd5859d73a1d0c4",
   "indexed_at": "2026-02-25T17:25:20.321Z",
-  "synced_at": "2026-02-27T02:23:51.894Z",
+  "synced_at": "2026-02-28T03:48:27.195Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ddc76251922bc8745a25e91b5fc125d25d0a6deb194db821bafb430b57cc5242",
   "install_command": "mkdir -p .claude/skills/micro-saas-launcher && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/micro-saas-launcher/SKILL.md\" > .claude/skills/micro-saas-launcher/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/micro-saas-launcher/SKILL.md"

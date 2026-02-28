@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "19f58156637e92a523999d08ea5677c9e322c2fac772ffd0dc77f7fe33f267c1",
   "indexed_at": "2026-02-27T00:47:53.510Z",
-  "synced_at": "2026-02-27T02:24:28.890Z",
+  "synced_at": "2026-02-28T03:49:04.940Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6899d168d7f9ea77e04387f553cf20c1fca8337ffe1a78880deb7bd34915b8f3",
   "install_command": "mkdir -p .claude/skills/acc-create-integration-test && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-integration-test/SKILL.md\" > .claude/skills/acc-create-integration-test/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-integration-test/SKILL.md"

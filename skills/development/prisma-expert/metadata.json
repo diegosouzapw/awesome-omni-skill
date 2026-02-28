@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d63c55eb7ba1247c7c313cd6a0e8a66da3e8f84f5c5f8c411e03af875b627d01",
   "indexed_at": "2026-02-25T18:23:49.056Z",
-  "synced_at": "2026-02-27T02:23:42.713Z",
+  "synced_at": "2026-02-28T03:48:18.054Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a5878f7ad8812c39e25d80662232c29002930458bd52f17b858de9d06facfd9a",
   "install_command": "mkdir -p .claude/skills/prisma-expert && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/prisma-expert/SKILL.md\" > .claude/skills/prisma-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/prisma-expert/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "69b08249b08525f697d42652235249ab52d3ebd0fdfbbb5863c84ee51d1f2af1",
   "indexed_at": "2026-02-25T15:20:42.335Z",
-  "synced_at": "2026-02-27T02:24:11.714Z",
+  "synced_at": "2026-02-28T03:48:46.998Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7f292e20f6039e0f0c35e2e4e12615e9fbb535c2b460b60f94b0d6fe80ee7627",
   "install_command": "mkdir -p .claude/skills/angular-best-practices && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/angular-best-practices/SKILL.md\" > .claude/skills/angular-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/angular-best-practices/SKILL.md"

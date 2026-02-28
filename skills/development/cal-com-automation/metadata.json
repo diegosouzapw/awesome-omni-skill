@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f78d3fa6575ce739b099f4ce4e791036bbe4fc290197416db0e50e238557b7f5",
   "indexed_at": "2026-02-25T15:25:28.777Z",
-  "synced_at": "2026-02-27T02:24:20.337Z",
+  "synced_at": "2026-02-28T03:48:55.590Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3337f0167abb963c19b529633a8ff2568cf026f8a112df1d45408102ee7d5cb4",
   "install_command": "mkdir -p .claude/skills/cal-com-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/cal-com-automation/SKILL.md\" > .claude/skills/cal-com-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/cal-com-automation/SKILL.md"

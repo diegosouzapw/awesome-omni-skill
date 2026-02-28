@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "843ba48d8ae2ed9c4179170a41ff7f87e1bf72114a621469281ea85a98fbd7a0",
   "indexed_at": "2026-02-25T23:26:08.304Z",
-  "synced_at": "2026-02-27T02:23:15.986Z",
+  "synced_at": "2026-02-28T03:47:54.663Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b56d61671d4345ae538526fea2c65b8803b1ae923a4ec077d7f875c3ecac0849",
   "install_command": "mkdir -p .claude/skills/sharepoint-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/share-point-automation/SKILL.md\" > .claude/skills/sharepoint-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/share-point-automation/SKILL.md"

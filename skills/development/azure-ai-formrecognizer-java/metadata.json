@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7e1ee31852f5f2dd4ff9510ff685eebeafa6720eaa353634bdde015000538635",
   "indexed_at": "2026-02-25T15:22:07.052Z",
-  "synced_at": "2026-02-27T02:24:13.971Z",
+  "synced_at": "2026-02-28T03:48:49.355Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fe438a36728a39244ffc6660506f0b2874b8427af03320f2f6029f73be7b984a",
   "install_command": "mkdir -p .claude/skills/azure-ai-formrecognizer-java && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-ai-formrecognizer-java/SKILL.md\" > .claude/skills/azure-ai-formrecognizer-java/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-ai-formrecognizer-java/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "50cf3f08c4f20ceaf1e116a004bd1c894592afeb467b2c0f3eef90f2c4e11804",
   "indexed_at": "2026-02-24T23:03:46.344Z",
-  "synced_at": "2026-02-27T02:23:20.973Z",
+  "synced_at": "2026-02-28T03:47:59.013Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/22ea58d61d1e65b71f0e39757e405b8c8d1c4c7d8be3a00eae634894d4ea2f7e",
   "install_command": "mkdir -p .claude/skills/html-to-image-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/html-to-image-automation/SKILL.md\" > .claude/skills/html-to-image-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/html-to-image-automation/SKILL.md"

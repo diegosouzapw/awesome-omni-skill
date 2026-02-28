@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0c622da66d76b91caad702bda54476d862514ca615dc4d65c495c565e8e92be6",
   "indexed_at": "2026-02-25T21:25:58.760Z",
-  "synced_at": "2026-02-27T02:23:18.507Z",
+  "synced_at": "2026-02-28T03:47:56.915Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/367c47fbc0670573a33007835d6c52a04d619f6bcf1547d4ca880b0d75de4da0",
   "install_command": "mkdir -p .claude/skills/onesignal-rest-api-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/onesignal-rest-api-automation/SKILL.md\" > .claude/skills/onesignal-rest-api-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/onesignal-rest-api-automation/SKILL.md"

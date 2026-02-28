@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a9df30ec026ca2b5f547269b6136025ce9fba0cf7c1f178642e3037eecf20cd5",
   "indexed_at": "2026-02-25T18:23:54.402Z",
-  "synced_at": "2026-02-27T02:23:42.870Z",
+  "synced_at": "2026-02-28T03:48:18.199Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5422b2698e4f980fb86386013c411f1b5357f1b492c1be11979873b4cc694bf9",
   "install_command": "mkdir -p .claude/skills/production-code-audit && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/production-code-audit/SKILL.md\" > .claude/skills/production-code-audit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/production-code-audit/SKILL.md"

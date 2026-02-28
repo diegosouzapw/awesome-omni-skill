@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4c0788076a467510214e67b27fa09ead602559ba4aad1a03e46c1ca9e4f93f46",
   "indexed_at": "2026-02-25T16:26:00.781Z",
-  "synced_at": "2026-02-27T02:24:01.841Z",
+  "synced_at": "2026-02-28T03:48:36.874Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/06fe04d9d72422c5626025fb55c069ce7eab8c5ff5894c5552eb525396fda91c",
   "install_command": "mkdir -p .claude/skills/fp-ts-errors && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/fp-ts-errors/SKILL.md\" > .claude/skills/fp-ts-errors/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/fp-ts-errors/SKILL.md"

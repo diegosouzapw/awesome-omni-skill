@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b2f0445e649fd6e3e2df20c06ea40c6de1cfde0ef408a7a3950a9658cef5e59c",
   "indexed_at": "2026-02-25T16:23:50.829Z",
-  "synced_at": "2026-02-27T02:24:08.697Z",
+  "synced_at": "2026-02-28T03:48:43.991Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/585bc91980f1fc98c128f2f698b58ca218f964a4cffb2ca58bbb50196244a308",
   "install_command": "mkdir -p .claude/skills/debugging-strategies && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/debugging-strategies/SKILL.md\" > .claude/skills/debugging-strategies/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/debugging-strategies/SKILL.md"

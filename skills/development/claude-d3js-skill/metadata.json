@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d916d0aed4f177217a53d2a11023aa493e8f66826b6c263d8fec890f033e2ef7",
   "indexed_at": "2026-02-25T13:27:29.293Z",
-  "synced_at": "2026-02-27T02:24:10.467Z",
+  "synced_at": "2026-02-28T03:48:45.849Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/943f0aedc9b8c4a9f0e2517a29c33204900b5c7cb615d9514358904dcc6a7dcc",
   "install_command": "mkdir -p .claude/skills/claude-d3js-skill && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/claude-d3js-skill/SKILL.md\" > .claude/skills/claude-d3js-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/claude-d3js-skill/SKILL.md"

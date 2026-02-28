@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a9b4e2f4b9627081078e8f7e95b25457fa5edd220df454009c7291f2939d6d62",
   "indexed_at": "2026-02-25T17:26:03.525Z",
-  "synced_at": "2026-02-27T02:23:52.686Z",
+  "synced_at": "2026-02-28T03:48:27.999Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/480475acd9169d91f068b7504312aa2cef412a0f1c40cb08df420cecfee38670",
   "install_command": "mkdir -p .claude/skills/n8n-code-python && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/n8n-code-python/SKILL.md\" > .claude/skills/n8n-code-python/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/n8n-code-python/SKILL.md"

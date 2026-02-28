@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "63c51e5da960bcbbdfefc20be9d492a71cc2ebe501a58b3e74b525f0e9ae4eff",
   "indexed_at": "2026-02-25T18:24:36.917Z",
-  "synced_at": "2026-02-27T02:23:48.689Z",
+  "synced_at": "2026-02-28T03:48:24.152Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/692492b2a7800793d5f16b93fe53a2239538ddc2a3108d2734c2242c509f4f72",
   "install_command": "mkdir -p .claude/skills/react-flow-node-ts && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/react-flow-node-ts/SKILL.md\" > .claude/skills/react-flow-node-ts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/react-flow-node-ts/SKILL.md"

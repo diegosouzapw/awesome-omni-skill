@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c242b0c8b1efbf32ffc42f0147a20ba2406c453ce84ab4e963eec90e9c32a14a",
   "indexed_at": "2026-02-24T22:52:29.152Z",
-  "synced_at": "2026-02-27T02:23:27.232Z",
+  "synced_at": "2026-02-28T03:48:04.512Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2796829a0ac84aa9be0c666cd6c81b124c1d3c06cd96c1a7d9ab2624507cc11e",
   "install_command": "mkdir -p .claude/skills/contentful-graphql-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/contentful-graphql-automation/SKILL.md\" > .claude/skills/contentful-graphql-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/contentful-graphql-automation/SKILL.md"

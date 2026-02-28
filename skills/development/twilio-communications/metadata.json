@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f71632c6b9b4d7a88282e5f11e17b6f6cc0781e2d779a7872b6c2bee0a4318ce",
   "indexed_at": "2026-02-25T19:25:14.427Z",
-  "synced_at": "2026-02-27T02:23:35.996Z",
+  "synced_at": "2026-02-28T03:48:11.941Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/685c1eef4f5d7005d543f86dc071f9ae8e5b66df99ede4251deb040bf7670fc3",
   "install_command": "mkdir -p .claude/skills/twilio-communications && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/twilio-communications/SKILL.md\" > .claude/skills/twilio-communications/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/twilio-communications/SKILL.md"

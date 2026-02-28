@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "12abee59602b76d1e4b71284a0f4301dee96581214687709e32e6d2b1c35d7ea",
   "indexed_at": "2026-02-24T22:55:22.263Z",
-  "synced_at": "2026-02-27T02:23:29.431Z",
+  "synced_at": "2026-02-28T03:48:06.455Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/56ddc6103b7212b0f40518147fa64859e20c3d2790c4f83c0658484ebb924150",
   "install_command": "mkdir -p .claude/skills/formdesk-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/formdesk-automation/SKILL.md\" > .claude/skills/formdesk-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/formdesk-automation/SKILL.md"

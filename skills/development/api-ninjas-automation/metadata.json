@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8abaa10027a1876b41c0482324eb69c6475a90fd9007927068a50aad21c6c404",
   "indexed_at": "2026-02-24T22:49:08.912Z",
-  "synced_at": "2026-02-27T02:23:23.077Z",
+  "synced_at": "2026-02-28T03:48:00.893Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bf9f3183b1adf1bef3150d29b163c3213d250b8d9cb7307df0212ea3443b558e",
   "install_command": "mkdir -p .claude/skills/api-ninjas-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/api-ninjas-automation/SKILL.md\" > .claude/skills/api-ninjas-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/api-ninjas-automation/SKILL.md"

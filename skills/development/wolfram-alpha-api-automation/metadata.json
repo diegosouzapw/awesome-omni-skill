@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7355d1d9957c4924d101f2e825227051d94d8edd7e6c9e1c58f67a69cb02f96c",
   "indexed_at": "2026-02-26T01:26:27.476Z",
-  "synced_at": "2026-02-27T02:23:14.301Z",
+  "synced_at": "2026-02-28T03:47:53.109Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dfdb23c97bf49afa2a8f068ae759056112b937a28d35170af53aff1cac1e947e",
   "install_command": "mkdir -p .claude/skills/wolfram-alpha-api-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/wolfram-alpha-api-automation/SKILL.md\" > .claude/skills/wolfram-alpha-api-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/wolfram-alpha-api-automation/SKILL.md"

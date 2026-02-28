@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d8afa025c34182d15fdb4b406eb07ca3b1b6f3f5da085ce6f1da638be5491f8b",
   "indexed_at": "2026-02-27T00:48:36.219Z",
-  "synced_at": "2026-02-27T02:24:30.772Z",
+  "synced_at": "2026-02-28T03:49:06.800Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cc0e8cfde0bb00d8a14ae2c9aed8ee497abac4c022160840c3aed960f7b2801f",
   "install_command": "mkdir -p .claude/skills/acc-create-psr6-cache && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-psr6-cache/SKILL.md\" > .claude/skills/acc-create-psr6-cache/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-psr6-cache/SKILL.md"

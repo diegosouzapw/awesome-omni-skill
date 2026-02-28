@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "67884ac83f513044c6476118db323cfc9ed47fd419420c3cdc9b6224e9bab608",
   "indexed_at": "2026-02-25T15:27:21.899Z",
-  "synced_at": "2026-02-27T02:24:20.979Z",
+  "synced_at": "2026-02-28T03:48:56.227Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7b87e29e42b2f7736c603b0f6fe0e56a143d1ee92eb72dafd9e9ad5852fac2c5",
   "install_command": "mkdir -p .claude/skills/confluence-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/confluence-automation/SKILL.md\" > .claude/skills/confluence-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/confluence-automation/SKILL.md"

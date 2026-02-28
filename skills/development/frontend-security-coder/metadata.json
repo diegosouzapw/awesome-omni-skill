@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "233e02cece6b118df77eece2122bba13cfd814f4c225c07b200aceb0c32f0320",
   "indexed_at": "2026-02-25T16:26:26.003Z",
-  "synced_at": "2026-02-27T02:24:06.465Z",
+  "synced_at": "2026-02-28T03:48:41.698Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f79e872207ad9db605f1be4042225293c5cc5724b2b65063e02740ef765b82f1",
   "install_command": "mkdir -p .claude/skills/frontend-security-coder && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/frontend-security-coder/SKILL.md\" > .claude/skills/frontend-security-coder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/frontend-security-coder/SKILL.md"

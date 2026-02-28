@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "166e41ef2d5d02cdba1cab8e59c08368ec4bd0ca0461af651fc82cbd956e3746",
   "indexed_at": "2026-02-25T18:23:36.689Z",
-  "synced_at": "2026-02-27T02:23:42.390Z",
+  "synced_at": "2026-02-28T03:48:17.738Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9c727361ae437420528056bb91aad6aaef628fb47dff74ccdb1ac022d9dd2986",
   "install_command": "mkdir -p .claude/skills/postgresql && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/postgresql/SKILL.md\" > .claude/skills/postgresql/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/postgresql/SKILL.md"

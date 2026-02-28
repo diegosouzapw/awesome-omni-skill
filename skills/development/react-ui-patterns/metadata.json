@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ae9128a55413a5467f6c85c24049e449b575d28be2f51e07b102f993a8823078",
   "indexed_at": "2026-02-25T18:24:47.239Z",
-  "synced_at": "2026-02-27T02:23:44.295Z",
+  "synced_at": "2026-02-28T03:48:19.663Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/520780370caa08ed1e7c26704e5325918083f92d3e6c85ad6997aaa676f68c0e",
   "install_command": "mkdir -p .claude/skills/react-ui-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/react-ui-patterns/SKILL.md\" > .claude/skills/react-ui-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/react-ui-patterns/SKILL.md"

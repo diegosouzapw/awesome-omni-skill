@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7877937191a53e8c4261957eb26d84a3bcbbbd2a7b94eb92628892b2bea7da02",
   "indexed_at": "2026-02-27T00:49:51.392Z",
-  "synced_at": "2026-02-27T02:24:32.385Z",
+  "synced_at": "2026-02-28T03:49:08.364Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bc1b0ba164852006af0a6ceb02e5edce9ba9d16f4c38cc694fa9350d0e42e0e2",
   "install_command": "mkdir -p .claude/skills/acc-layer-arch-knowledge && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-layer-arch-knowledge/SKILL.md\" > .claude/skills/acc-layer-arch-knowledge/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-layer-arch-knowledge/SKILL.md"

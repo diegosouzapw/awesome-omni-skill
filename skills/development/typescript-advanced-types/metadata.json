@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "06bb7988512c0df6cafbfe2aef549e44219397a4405db022ca65325bdf07d246",
   "indexed_at": "2026-02-25T19:25:18.103Z",
-  "synced_at": "2026-02-27T02:23:39.563Z",
+  "synced_at": "2026-02-28T03:48:15.500Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/39426c51af1df4cedfd386f17c45fa061d20e1e3f93ae6d6115b28c98d4c7df5",
   "install_command": "mkdir -p .claude/skills/typescript-advanced-types && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/typescript-advanced-types/SKILL.md\" > .claude/skills/typescript-advanced-types/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/typescript-advanced-types/SKILL.md"

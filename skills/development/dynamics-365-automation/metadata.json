@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ce75a88f0d500f192c4960c0e4f0f5e66ac1fe1b9587f9f102163baea001bfb5",
   "indexed_at": "2026-02-24T22:53:57.366Z",
-  "synced_at": "2026-02-27T02:23:28.118Z",
+  "synced_at": "2026-02-28T03:48:05.257Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f814cf53b61db83720709940a39dc182c3e86b8c6fbaebbc32600da1a82c23fe",
   "install_command": "mkdir -p .claude/skills/dynamics-365-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dynamics365-automation/SKILL.md\" > .claude/skills/dynamics-365-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dynamics365-automation/SKILL.md"

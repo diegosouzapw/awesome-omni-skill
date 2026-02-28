@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0d8c8d605d4926678292dc36f86047a8f61728b78b6900789d80f1343f332651",
   "indexed_at": "2026-02-25T17:23:56.379Z",
-  "synced_at": "2026-02-27T02:23:51.409Z",
+  "synced_at": "2026-02-28T03:48:26.735Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/743988889c89db8a73fdaba32088d0613629f3b683c1e4d7e46277a7aea6d6ea",
   "install_command": "mkdir -p .claude/skills/kotlin-coroutines-expert && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/kotlin-coroutines-expert/SKILL.md\" > .claude/skills/kotlin-coroutines-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/kotlin-coroutines-expert/SKILL.md"

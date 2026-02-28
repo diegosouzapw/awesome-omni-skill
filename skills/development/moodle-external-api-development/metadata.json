@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "397ba18a5e946f5d689abefaf776b2e1ca05f22f0f25a47d59981ee3909e7b5e",
   "indexed_at": "2026-02-25T17:25:51.643Z",
-  "synced_at": "2026-02-27T02:23:52.364Z",
+  "synced_at": "2026-02-28T03:48:27.677Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/36993e518d6cffe50b90b9ee3bb4ebf0f2bf1f65c59816b9818905116b3f13a4",
   "install_command": "mkdir -p .claude/skills/moodle-external-api-development && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/moodle-external-api-development/SKILL.md\" > .claude/skills/moodle-external-api-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/moodle-external-api-development/SKILL.md"

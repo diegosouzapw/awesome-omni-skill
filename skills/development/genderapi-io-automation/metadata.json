@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c733fac9bb795c01ec99e052ebe32f64d40a13ecc3dce89bb48399b08b90aed2",
   "indexed_at": "2026-02-24T22:55:39.682Z",
-  "synced_at": "2026-02-27T02:23:29.938Z",
+  "synced_at": "2026-02-28T03:48:06.928Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/be1be47aa425d00be94e110aa1d1db372c25ec3a2c76ee979160b3142ba37936",
   "install_command": "mkdir -p .claude/skills/genderapi-io-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/genderapi-io-automation/SKILL.md\" > .claude/skills/genderapi-io-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/genderapi-io-automation/SKILL.md"

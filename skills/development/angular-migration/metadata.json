@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ac72afb23f47466ed0231d8f99ab609dfe2aae2b88f586f07386d626fea1a02d",
   "indexed_at": "2026-02-25T15:20:44.412Z",
-  "synced_at": "2026-02-27T02:24:11.883Z",
+  "synced_at": "2026-02-28T03:48:47.171Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/946e4b9fe64a84c39aca0c300f36a4fdc86a6ab1e1fecc787bc9c203309e7313",
   "install_command": "mkdir -p .claude/skills/angular-migration && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/angular-migration/SKILL.md\" > .claude/skills/angular-migration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/angular-migration/SKILL.md"

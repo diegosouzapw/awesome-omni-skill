@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "536c8f809685b4c31a2f06959f285b9e289e0df72a1ce8e15935827757a1a52b",
   "indexed_at": "2026-02-25T15:20:03.046Z",
-  "synced_at": "2026-02-27T02:24:10.946Z",
+  "synced_at": "2026-02-28T03:48:46.332Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0536b17dd641e2d4ffe45c9733e91cd34f1e327cba304f4b7f4e76ec8f5351e0",
   "install_command": "mkdir -p .claude/skills/agent-framework-azure-ai-py && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/agent-framework-azure-ai-py/SKILL.md\" > .claude/skills/agent-framework-azure-ai-py/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/agent-framework-azure-ai-py/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ee6f580abb475368b19ee40f41a269761ed337cc905cf8c930ffa7917272d334",
   "indexed_at": "2026-02-27T00:48:30.614Z",
-  "synced_at": "2026-02-27T02:24:30.364Z",
+  "synced_at": "2026-02-28T03:49:06.405Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/431a00af54ace43329176c3cde7d15a979e374379dfadb3a3f3d5b4898632921",
   "install_command": "mkdir -p .claude/skills/acc-create-psr20-clock && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-psr20-clock/SKILL.md\" > .claude/skills/acc-create-psr20-clock/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-psr20-clock/SKILL.md"

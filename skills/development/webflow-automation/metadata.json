@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a441c77e6bcf50a96ba92f604ac597212404c97fd30c4cfbc23dd7122aa24313",
   "indexed_at": "2026-02-25T19:26:23.656Z",
-  "synced_at": "2026-02-27T02:23:37.305Z",
+  "synced_at": "2026-02-28T03:48:13.232Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/23f8e2667b1d2dd00c0732bdabb22ebf48e29cf97dbac16b126ad05d684bf313",
   "install_command": "mkdir -p .claude/skills/webflow-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/webflow-automation/SKILL.md\" > .claude/skills/webflow-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/webflow-automation/SKILL.md"

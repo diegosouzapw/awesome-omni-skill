@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f697c26e365ba331db4c42200ed44761585f2bfdfa4ac36378de90830e537581",
   "indexed_at": "2026-02-25T17:25:26.777Z",
-  "synced_at": "2026-02-27T02:23:55.860Z",
+  "synced_at": "2026-02-28T03:48:31.037Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9d0c25848c5910b5c1c4a53c3908bcfad7ce4f1b0ea7c385edd7f6394f5732d3",
   "install_command": "mkdir -p .claude/skills/minecraft-bukkit-pro && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/minecraft-bukkit-pro/SKILL.md\" > .claude/skills/minecraft-bukkit-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/minecraft-bukkit-pro/SKILL.md"

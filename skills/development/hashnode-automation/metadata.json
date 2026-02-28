@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a7945f729d1f4b1768ae898795cbc05a58c62e9aa3357350058c8a8573239f23",
   "indexed_at": "2026-02-24T23:03:27.116Z",
-  "synced_at": "2026-02-27T02:23:20.661Z",
+  "synced_at": "2026-02-28T03:47:58.714Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/673d4d6b9044a6ccc69d6c6e229615cfc5f663c6d0ec7f5412f5daf49d1f0989",
   "install_command": "mkdir -p .claude/skills/hashnode-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/hashnode-automation/SKILL.md\" > .claude/skills/hashnode-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/hashnode-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "83c32c4bb26521403e449f8ccdf0ec7c01a46b4fa3067513d2bbfdfe5294d568",
   "indexed_at": "2026-02-25T15:22:55.394Z",
-  "synced_at": "2026-02-27T02:24:16.234Z",
+  "synced_at": "2026-02-28T03:48:51.669Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f42e7955479f6db5f4bbd292b9fd9383af0fae6c86dbec015811185d226686a0",
   "install_command": "mkdir -p .claude/skills/azure-eventhub-java && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-eventhub-java/SKILL.md\" > .claude/skills/azure-eventhub-java/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-eventhub-java/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "355955758dc8e1312c0bf377743f448a7bc6dfab4b4af7ae5adc28688730e44b",
   "indexed_at": "2026-02-25T19:27:12.301Z",
-  "synced_at": "2026-02-27T02:23:39.928Z",
+  "synced_at": "2026-02-28T03:48:15.813Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2b1364913244db7351bb6081d4950ac590c158ef6045b89f974da081c9659dc0",
   "install_command": "mkdir -p .claude/skills/zapier-make-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/zapier-make-patterns/SKILL.md\" > .claude/skills/zapier-make-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/zapier-make-patterns/SKILL.md"

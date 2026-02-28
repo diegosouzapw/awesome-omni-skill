@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "38b9fc2d280770c4b0b69aff670e3fe0035b11d6ec585be719f8cc53af640016",
   "indexed_at": "2026-02-24T18:57:37.019Z",
-  "synced_at": "2026-02-27T02:23:31.030Z",
+  "synced_at": "2026-02-28T03:48:07.905Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f88d5d4c84a0af083fe271454826f62db7abe38a6537c427519f22d35f927020",
   "install_command": "mkdir -p .claude/skills/connect-apps && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/connect-apps/SKILL.md\" > .claude/skills/connect-apps/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/connect-apps/SKILL.md"

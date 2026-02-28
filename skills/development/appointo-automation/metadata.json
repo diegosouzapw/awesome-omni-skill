@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "95b9b3544bf0707892ac976bc03b581613c1b6bf8b8875780ac584e78a330df0",
   "indexed_at": "2026-02-24T22:49:24.592Z",
-  "synced_at": "2026-02-27T02:23:24.990Z",
+  "synced_at": "2026-02-28T03:48:02.568Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aef986ced655066d1416a5c6046d86310a4cef814a8575da48754d590c20a178",
   "install_command": "mkdir -p .claude/skills/appointo-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/appointo-automation/SKILL.md\" > .claude/skills/appointo-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/appointo-automation/SKILL.md"

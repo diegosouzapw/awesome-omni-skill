@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "93a19ea4b5d83e7d99b031420fe47118dc30f009d41e671dc6a10a7b8628e594",
   "indexed_at": "2026-02-25T17:26:57.559Z",
-  "synced_at": "2026-02-27T02:23:58.753Z",
+  "synced_at": "2026-02-28T03:48:34.096Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b82c17adacb2ca5a3e3bdd1839aaf54af8204c549c6dc693da6ace22cae4a27c",
   "install_command": "mkdir -p .claude/skills/openapi-spec-generation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/openapi-spec-generation/SKILL.md\" > .claude/skills/openapi-spec-generation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/openapi-spec-generation/SKILL.md"

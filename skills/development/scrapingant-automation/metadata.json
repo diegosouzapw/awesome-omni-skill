@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8fb97947e54051840242a348a218a65f207f275a9ee00e60d42315805a1e5108",
   "indexed_at": "2026-02-25T22:27:05.450Z",
-  "synced_at": "2026-02-27T02:23:17.659Z",
+  "synced_at": "2026-02-28T03:47:56.155Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7117899de3b43f5d1b84be958007d64db0e36f94df60396a7358559971867ba3",
   "install_command": "mkdir -p .claude/skills/scrapingant-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/scrapingant-automation/SKILL.md\" > .claude/skills/scrapingant-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/scrapingant-automation/SKILL.md"

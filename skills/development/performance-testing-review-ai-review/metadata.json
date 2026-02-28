@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "92f17cad334a3978a3ac04d1ff7257794a5bc9b1a66904d55dbea846a1bc5ea4",
   "indexed_at": "2026-02-25T17:27:29.962Z",
-  "synced_at": "2026-02-27T02:23:55.184Z",
+  "synced_at": "2026-02-28T03:48:30.398Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a5aa124713ad4b6ee54df6183e0fb08a5f4383376acbbb50405ceacc7b073290",
   "install_command": "mkdir -p .claude/skills/performance-testing-review-ai-review && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/performance-testing-review-ai-review/SKILL.md\" > .claude/skills/performance-testing-review-ai-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/performance-testing-review-ai-review/SKILL.md"

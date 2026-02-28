@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f16a529e2044ea2366cf64330afbf092cca084f74d1d2d758337778d458be130",
   "indexed_at": "2026-02-25T17:26:30.192Z",
-  "synced_at": "2026-02-27T02:23:53.333Z",
+  "synced_at": "2026-02-28T03:48:28.606Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5ae09a0b4f728f17efb4a0a2789e16e7429e114bc379aa7b5d3b654a873e6ab6",
   "install_command": "mkdir -p .claude/skills/nodejs-best-practices && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/nodejs-best-practices/SKILL.md\" > .claude/skills/nodejs-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/nodejs-best-practices/SKILL.md"

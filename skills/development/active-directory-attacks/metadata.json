@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "14285389a40255f163b95588ce5242a7e6d32c584a99939d34e558fc46669f5a",
   "indexed_at": "2026-02-25T13:21:41.444Z",
-  "synced_at": "2026-02-27T02:24:09.340Z",
+  "synced_at": "2026-02-28T03:48:44.665Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6427750b2da5fb3336db5b119f457aef076bf5abe5d3ae2a51592918e71fcf3a",
   "install_command": "mkdir -p .claude/skills/active-directory-attacks && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/active-directory-attacks/SKILL.md\" > .claude/skills/active-directory-attacks/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/active-directory-attacks/SKILL.md"

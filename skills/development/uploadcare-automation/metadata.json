@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fa87b386a745465563029867744e9904367d87655f2c5a8579d1d5906fbf0dba",
   "indexed_at": "2026-02-26T00:27:05.755Z",
-  "synced_at": "2026-02-27T02:23:15.663Z",
+  "synced_at": "2026-02-28T03:47:54.362Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6e739c47c95c0702e29cdf12a1e09dd27c1090f3530b92ad28624cb3eaa0ac2c",
   "install_command": "mkdir -p .claude/skills/uploadcare-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/uploadcare-automation/SKILL.md\" > .claude/skills/uploadcare-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/uploadcare-automation/SKILL.md"

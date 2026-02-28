@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "98341a72b0ea8443d03059fe1e1f401909ce9c8b96d15c5eb48a348c722a4183",
   "indexed_at": "2026-02-25T15:23:55.025Z",
-  "synced_at": "2026-02-27T02:24:17.944Z",
+  "synced_at": "2026-02-28T03:48:53.322Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/43c527e596bf1707374ee6189bfa63990ce823a3d3e37238dae9456b20281ae6",
   "install_command": "mkdir -p .claude/skills/azure-security-keyvault-secrets-java && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-security-keyvault-secrets-java/SKILL.md\" > .claude/skills/azure-security-keyvault-secrets-java/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-security-keyvault-secrets-java/SKILL.md"

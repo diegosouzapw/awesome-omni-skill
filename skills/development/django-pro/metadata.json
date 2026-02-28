@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c2201dd06eb10bca018ff208767f8961605d67caa925c277f4e990a54787931b",
   "indexed_at": "2026-02-25T16:24:25.287Z",
-  "synced_at": "2026-02-27T02:24:05.540Z",
+  "synced_at": "2026-02-28T03:48:40.745Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2d7fcdc76a7ef38bf4056f77123f82dcb37dcac53f1e45d77525607c71851860",
   "install_command": "mkdir -p .claude/skills/django-pro && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/django-pro/SKILL.md\" > .claude/skills/django-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/django-pro/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dffcd91dbd0ea14af20be8ceb130630d0adc1c5c3d09ee8807128646e22ad1eb",
   "indexed_at": "2026-02-25T23:26:47.647Z",
-  "synced_at": "2026-02-27T02:23:16.811Z",
+  "synced_at": "2026-02-28T03:47:55.414Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e03b7a1b8b2a1291687e86510494f79b82ff7c2b789b46bf6a67d6dda35e3b1f",
   "install_command": "mkdir -p .claude/skills/snowflake-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/snowflake-automation/SKILL.md\" > .claude/skills/snowflake-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/snowflake-automation/SKILL.md"

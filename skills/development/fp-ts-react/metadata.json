@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8daba6ae41805751871f67db71642c26315ff91ad7d0efe04de2bb4884d5b0ab",
   "indexed_at": "2026-02-25T16:26:04.509Z",
-  "synced_at": "2026-02-27T02:24:02.162Z",
+  "synced_at": "2026-02-28T03:48:37.198Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/516cb4356234ade8a32177a1c03e370e8946e2d012b616a90122134218790180",
   "install_command": "mkdir -p .claude/skills/fp-ts-react && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/fp-ts-react/SKILL.md\" > .claude/skills/fp-ts-react/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/fp-ts-react/SKILL.md"

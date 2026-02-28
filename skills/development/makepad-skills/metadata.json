@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a0976494f6d23f2ea776e34bf455012c57e66d3916109f7b00ff743b143c934a",
   "indexed_at": "2026-02-25T17:24:55.416Z",
-  "synced_at": "2026-02-27T02:23:58.422Z",
+  "synced_at": "2026-02-28T03:48:33.764Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8c7f66a297ec058a9e8fe1f569874b1fa4b355f3fe3bdaa513ed2d43454567b3",
   "install_command": "mkdir -p .claude/skills/makepad-skills && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/makepad-skills/SKILL.md\" > .claude/skills/makepad-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/makepad-skills/SKILL.md"

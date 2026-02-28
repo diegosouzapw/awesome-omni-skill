@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "067934cb78a9109dc849a67f18a381ec3ea70088ece8a2fde5f53cb14cc42b57",
   "indexed_at": "2026-02-25T19:24:49.395Z",
-  "synced_at": "2026-02-27T02:23:40.585Z",
+  "synced_at": "2026-02-28T03:48:16.461Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8fa0d2414b3ab755ce710705866c59dd92219df32e326d30913384b8324b591f",
   "install_command": "mkdir -p .claude/skills/threat-mitigation-mapping && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/threat-mitigation-mapping/SKILL.md\" > .claude/skills/threat-mitigation-mapping/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/threat-mitigation-mapping/SKILL.md"

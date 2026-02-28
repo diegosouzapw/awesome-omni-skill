@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "66ef4967cc7db51a315e9887cc05eb9390ce6601ff7a9e1cea05baf20b579e2f",
   "indexed_at": "2026-02-27T00:52:59.471Z",
-  "synced_at": "2026-02-27T02:24:34.840Z",
+  "synced_at": "2026-02-28T03:49:10.720Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4929ca3634fa23f6b5196b3ba792abb923bd0b4cf904849225634acd91ed20d3",
   "install_command": "mkdir -p .claude/skills/accli && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/accli-moltbot-skills/SKILL.md\" > .claude/skills/accli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/accli-moltbot-skills/SKILL.md"

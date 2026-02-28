@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a3eab865c04a1c792a8f8effb7c84c038ac267d26daf4468b34c1800d4e24c52",
   "indexed_at": "2026-02-25T17:25:18.620Z",
-  "synced_at": "2026-02-27T02:23:50.629Z",
+  "synced_at": "2026-02-28T03:48:26.103Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b9a433d24aafa0767ca8f2d889e67de8d89493ef1879c637ca3f34d85e140509",
   "install_command": "mkdir -p .claude/skills/metasploit-framework && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/metasploit-framework/SKILL.md\" > .claude/skills/metasploit-framework/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/metasploit-framework/SKILL.md"

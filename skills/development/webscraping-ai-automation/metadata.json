@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7380b0eee9db6a22cb0f052c0e1f453584d63af001a4805a03539310e7c810a7",
   "indexed_at": "2026-02-26T01:26:18.427Z",
-  "synced_at": "2026-02-27T02:23:13.964Z",
+  "synced_at": "2026-02-28T03:47:52.809Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5626230d9ac9981252847bad93b598e9a3dfda03cdda56f732747865ffd2373f",
   "install_command": "mkdir -p .claude/skills/webscraping-ai-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/webscraping-ai-automation/SKILL.md\" > .claude/skills/webscraping-ai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/webscraping-ai-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3e281c9bea47923018f02b50840e6c1895178dfaa2dd18c8b36588c58b362a44",
   "indexed_at": "2026-02-25T19:25:06.462Z",
-  "synced_at": "2026-02-27T02:23:35.676Z",
+  "synced_at": "2026-02-28T03:48:11.624Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/336328e488f2719ed0f059775611d0edb3f406c107460fd7c11ff5d5dfaa6c4b",
   "install_command": "mkdir -p .claude/skills/trello-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/trello-automation/SKILL.md\" > .claude/skills/trello-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/trello-automation/SKILL.md"

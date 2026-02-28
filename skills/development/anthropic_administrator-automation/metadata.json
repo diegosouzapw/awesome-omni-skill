@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8e6ae6dae345c7052aaf2c90018113823949836b38ba1d1c5ac39095926c5431",
   "indexed_at": "2026-02-24T22:49:01.213Z",
-  "synced_at": "2026-02-27T02:23:22.549Z",
+  "synced_at": "2026-02-28T03:48:00.457Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c53cee1f2800525cc2156ff8acc27ccc6cbd55cc5fb9ebd0021515d7fe1af9b6",
   "install_command": "mkdir -p .claude/skills/anthropic_administrator-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/anthropic_administrator-automation/SKILL.md\" > .claude/skills/anthropic_administrator-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/anthropic_administrator-automation/SKILL.md"

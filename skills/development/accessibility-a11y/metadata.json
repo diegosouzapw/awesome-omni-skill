@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "caca0bdb6b6a5bf2cce9c37e89ac803ef82e9044da651f936447af93249fdd85",
   "indexed_at": "2026-02-27T00:51:01.708Z",
-  "synced_at": "2026-02-27T02:24:33.423Z",
+  "synced_at": "2026-02-28T03:49:09.330Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e2edc7050821b52bab3f4afcb505ee98bee0fdb50f2b30082c2ff78ce76dae0d",
   "install_command": "mkdir -p .claude/skills/accessibility-a11y && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/accessibility-a11y/SKILL.md\" > .claude/skills/accessibility-a11y/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/accessibility-a11y/SKILL.md"

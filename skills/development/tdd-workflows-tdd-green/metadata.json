@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aa6b20ee60023f9c76bcb0bfd8a4dc83fea86236bf707d71e24ec3855cd0491e",
   "indexed_at": "2026-02-25T19:24:06.413Z",
-  "synced_at": "2026-02-27T02:23:39.405Z",
+  "synced_at": "2026-02-28T03:48:15.240Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aa82fb5edfd34177ecd9b32e4c85bf26a057c49bcac05c5b49844ed0684a3fc1",
   "install_command": "mkdir -p .claude/skills/tdd-workflows-tdd-green && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/tdd-workflows-tdd-green/SKILL.md\" > .claude/skills/tdd-workflows-tdd-green/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/tdd-workflows-tdd-green/SKILL.md"

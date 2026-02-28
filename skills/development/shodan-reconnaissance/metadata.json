@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "30a02584f2ba99eff78547c71f3ae43e124490a123f298d7984f9669605842c3",
   "indexed_at": "2026-02-25T18:26:36.044Z",
-  "synced_at": "2026-02-27T02:23:41.596Z",
+  "synced_at": "2026-02-28T03:48:16.942Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/28107ce8d8b610612b93ec8b44021f48ac5e29db94e857cef1c9d0d02e75ca8a",
   "install_command": "mkdir -p .claude/skills/shodan-reconnaissance && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/shodan-reconnaissance/SKILL.md\" > .claude/skills/shodan-reconnaissance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/shodan-reconnaissance/SKILL.md"

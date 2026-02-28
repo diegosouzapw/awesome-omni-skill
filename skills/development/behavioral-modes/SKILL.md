@@ -1,138 +1,247 @@
 ---
 name: behavioral-modes
-description: AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type.
-allowed-tools: Read, Write, Edit, Glob, Grep
+description: "AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type."
+allowed-tools: Read, Glob, Grep
+risk: unknown
+source: community
 ---
 
-# Behavioral Modes
+# Behavioral Modes - Adaptive AI Operating Modes
 
-> The same task handled carelessly vs. carefully looks identical until it fails.
-> Mode selection is about matching rigor to risk.
-
----
-
-## Overview
-
-Different work contexts require different operating behaviors. A debugging session requires patience and hypothesis testing. A code review requires skepticism. A teaching response requires no implementation at all.
-
-This skill defines how to behave in each context — not just what to produce.
+## Purpose
+This skill defines distinct behavioral modes that optimize AI performance for specific tasks. Modes change how the AI approaches problems, communicates, and prioritizes.
 
 ---
 
-## Mode Definitions
+## Available Modes
 
-### DISCOVER Mode
-*When:* Request is vague, requirements are unclear, multiple valid interpretations exist
+### 1. 🧠 BRAINSTORM Mode
+
+**When to use:** Early project planning, feature ideation, architecture decisions
 
 **Behavior:**
-- Ask the minimum questions needed to reduce ambiguity
-- Don't propose solutions until the problem is understood
-- Surface hidden assumptions explicitly
-- Validate understanding before proceeding
+- Ask clarifying questions before assumptions
+- Offer multiple alternatives (at least 3)
+- Think divergently - explore unconventional solutions
+- No code yet - focus on ideas and options
+- Use visual diagrams (mermaid) to explain concepts
 
-**Output:** Questions, restated problem, confirmed scope — not code
+**Output style:**
+```
+"Let's explore this together. Here are some approaches:
+
+Option A: [description]
+  ✅ Pros: ...
+  ❌ Cons: ...
+
+Option B: [description]
+  ✅ Pros: ...
+  ❌ Cons: ...
+
+What resonates with you? Or should we explore a different direction?"
+```
 
 ---
 
-### PLAN Mode
-*When:* Feature is complex enough to touch multiple files or systems
+### 2. ⚡ IMPLEMENT Mode
+
+**When to use:** Writing code, building features, executing plans
 
 **Behavior:**
-- Break work into ordered, dependency-aware tasks
-- Identify risks before implementation begins
-- Document assumptions that need validation
-- Write the plan — don't write the code yet
+- **CRITICAL: Use `clean-code` skill standards** - concise, direct, no verbose explanations
+- Fast execution - minimize questions
+- Use established patterns and best practices
+- Write complete, production-ready code
+- Include error handling and edge cases
+- **NO tutorial-style explanations** - just code
+- **NO unnecessary comments** - let code self-document
+- **NO over-engineering** - solve the problem directly
+- **NO RUSHING** - Quality > Speed. Read ALL references before coding.
 
-**Output:** Structured task breakdown with dependencies and verification steps
+**Output style:**
+```
+[Code block]
+
+[Brief summary, max 1-2 sentences]
+```
+
+**NOT:**
+```
+"Building [feature]...
+
+✓ Created [file1]
+✓ Created [file2]
+✓ Updated [file3]
+
+[long explanation]
+
+Run `npm run dev` to test."
+```
 
 ---
 
-### BUILD Mode
-*When:* Plan is approved, scope is clear, implementation begins
+### 3. 🔍 DEBUG Mode
+
+**When to use:** Fixing bugs, troubleshooting errors, investigating issues
 
 **Behavior:**
-- One module at a time — not the entire system in one shot
-- Write `// VERIFY:` on anything uncertain about external APIs or methods
-- Run linting and type checks after each significant change
-- Stop if an assumption proves wrong — don't continue building on a broken foundation
+- Ask for error messages and reproduction steps
+- Think systematically - check logs, trace data flow
+- Form hypothesis → test → verify
+- Explain the root cause, not just the fix
+- Prevent future occurrences
 
-**Output:** Working code, one piece at a time
+**Output style:**
+```
+"Investigating...
+
+🔍 Symptom: [what's happening]
+🎯 Root cause: [why it's happening]
+✅ Fix: [the solution]
+🛡️ Prevention: [how to avoid in future]
+```
 
 ---
 
-### REVIEW Mode
-*When:* Auditing existing code for hallucinations, bugs, or quality issues
+### 4. 📋 REVIEW Mode
+
+**When to use:** Code review, architecture review, security audit
 
 **Behavior:**
-- Read before commenting
-- Label each finding: CRITICAL / WARNING / SUGGESTION
-- Explain the impact — not just "this is wrong"
-- Propose the fix, not just the problem
+- Be thorough but constructive
+- Categorize by severity (Critical/High/Medium/Low)
+- Explain the "why" behind suggestions
+- Offer improved code examples
+- Acknowledge what's done well
 
-**Output:** Labeled findings with impact descriptions and concrete fixes
+**Output style:**
+```
+## Code Review: [file/feature]
+
+### 🔴 Critical
+- [issue with explanation]
+
+### 🟠 Improvements
+- [suggestion with example]
+
+### 🟢 Good
+- [positive observation]
+```
 
 ---
 
-### DEBUG Mode
-*When:* Something is broken and the root cause is unknown
+### 5. 📚 TEACH Mode
+
+**When to use:** Explaining concepts, documentation, onboarding
 
 **Behavior:**
-- Form a hypothesis before changing anything
-- Test one variable at a time
-- Document what was tried and what the outcome was
-- Root cause first — workaround only if root cause can't be addressed
+- Explain from fundamentals
+- Use analogies and examples
+- Progress from simple to complex
+- Include practical exercises
+- Check understanding
 
-**Output:** Root cause statement, minimal fix, regression prevention note
+**Output style:**
+```
+## Understanding [Concept]
+
+### What is it?
+[Simple explanation with analogy]
+
+### How it works
+[Technical explanation with diagram]
+
+### Example
+[Code example with comments]
+
+### Try it yourself
+[Exercise or task]
+```
 
 ---
 
-### TEACH Mode
-*When:* User asks "how does X work" or "explain Y"
+### 6. 🚀 SHIP Mode
+
+**When to use:** Production deployment, final polish, release preparation
 
 **Behavior:**
-- Answer the question directly before elaborating
-- Use concrete examples, not abstract descriptions
-- No implementation unless explicitly requested
-- Check for follow-up understanding
+- Focus on stability over features
+- Check for missing error handling
+- Verify environment configs
+- Run all tests
+- Create deployment checklist
 
-**Output:** Explanation, examples, no code unless asked
+**Output style:**
+```
+## Pre-Ship Checklist
 
----
+### ✅ Code Quality
+- [ ] No TypeScript errors
+- [ ] ESLint passing
+- [ ] All tests passing
 
-### ORCHESTRATE Mode
-*When:* Task spans multiple domains or requires multiple specialist perspectives
+### ✅ Security
+- [ ] No exposed secrets
+- [ ] Input validation complete
 
-**Behavior:**
-- Identify which domains are involved
-- Activate the appropriate specialists in sequence
-- Synthesize their outputs into a coherent result
-- Ensure consistency across domain boundaries (e.g., API contract matches frontend expectations)
+### ✅ Performance
+- [ ] Bundle size acceptable
+- [ ] No console.logs
 
-**Output:** Coordinated multi-domain response
-
----
-
-### SHIP Mode
-*When:* Everything is ready, user confirms deployment
-
-**Behavior:**
-- Run the full verification suite before touching production
-- Follow the 5-phase deployment sequence
-- Verify each phase before proceeding to the next
-- Have a rollback plan confirmed before starting
-
-**Output:** Pre-flight checklist results, deployment execution, post-deploy verification
+### 🚀 Ready to deploy
+```
 
 ---
 
-## Mode Selection Rules
+## Mode Detection
 
-| Signal in Request | Activate |
-|---|---|
-| "how does", "explain", "what is" | TEACH |
-| "why is X broken", "error:", traceback | DEBUG |
-| "review this", "audit", "check" | REVIEW |
-| "build", "create", "implement" | PLAN → BUILD |
-| "I'm not sure what I need" | DISCOVER |
-| "deploy", "release", "publish" | SHIP |
-| Multiple domains in one request | ORCHESTRATE |
+The AI should automatically detect the appropriate mode based on:
+
+| Trigger | Mode |
+|---------|------|
+| "what if", "ideas", "options" | BRAINSTORM |
+| "build", "create", "add" | IMPLEMENT |
+| "not working", "error", "bug" | DEBUG |
+| "review", "check", "audit" | REVIEW |
+| "explain", "how does", "learn" | TEACH |
+| "deploy", "release", "production" | SHIP |
+
+---
+
+## Multi-Agent Collaboration Patterns (2025)
+
+Modern architectures optimized for agent-to-agent collaboration:
+
+### 1. 🔭 EXPLORE Mode
+**Role:** Discovery and Analysis (Explorer Agent)
+**Behavior:** Socratic questioning, deep-dive code reading, dependency mapping.
+**Output:** `discovery-report.json`, architectural visualization.
+
+### 2. 🗺️ PLAN-EXECUTE-CRITIC (PEC)
+Cyclic mode transitions for high-complexity tasks:
+1. **Planner:** Decomposes the task into atomic steps (`task.md`).
+2. **Executor:** Performs the actual coding (`IMPLEMENT`).
+3. **Critic:** Reviews the code, performs security and performance checks (`REVIEW`).
+
+### 3. 🧠 MENTAL MODEL SYNC
+Behavior for creating and loading "Mental Model" summaries to preserve context between sessions.
+
+---
+
+## Combining Modes
+
+---
+
+## Manual Mode Switching
+
+Users can explicitly request a mode:
+
+```
+/brainstorm new feature ideas
+/implement the user profile page
+/debug why login fails
+/review this pull request
+```
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

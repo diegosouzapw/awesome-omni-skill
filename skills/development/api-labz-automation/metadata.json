@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d76b3e777d37273ef01c7e637a4c4cc35e74adf477cf2f76e88198afc2da655e",
   "indexed_at": "2026-02-24T22:49:07.647Z",
-  "synced_at": "2026-02-27T02:23:22.908Z",
+  "synced_at": "2026-02-28T03:48:00.750Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5f9bfeb954a6005b6b8e316596a47fad2e963fb5e4956f5246c24c063fde4021",
   "install_command": "mkdir -p .claude/skills/api-labz-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/api-labz-automation/SKILL.md\" > .claude/skills/api-labz-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/api-labz-automation/SKILL.md"

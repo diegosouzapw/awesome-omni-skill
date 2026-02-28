@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "29f312fdabc857817628fbeac9ba7ff068ef88e2ec3f811ed98100b7f816abf0",
   "indexed_at": "2026-02-25T19:25:43.065Z",
-  "synced_at": "2026-02-27T02:23:36.319Z",
+  "synced_at": "2026-02-28T03:48:12.245Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/48d605f58ebec92372cced4bf415f0a92b38fa8d56bcd340c01a291f2cf8817d",
   "install_command": "mkdir -p .claude/skills/using-neon && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/using-neon/SKILL.md\" > .claude/skills/using-neon/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/using-neon/SKILL.md"

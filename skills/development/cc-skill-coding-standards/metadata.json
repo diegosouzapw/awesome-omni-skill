@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1d5b870f5376ed395a63d8591fae8a24886289807019fa366495339307facec4",
   "indexed_at": "2026-02-25T13:27:05.411Z",
-  "synced_at": "2026-02-27T02:24:09.989Z",
+  "synced_at": "2026-02-28T03:48:45.328Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/411106f2cc4f51c292bc8ecca4587f63876dd2eed152e9199ba33c7aed33f160",
   "install_command": "mkdir -p .claude/skills/cc-skill-coding-standards && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/cc-skill-coding-standards/SKILL.md\" > .claude/skills/cc-skill-coding-standards/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/cc-skill-coding-standards/SKILL.md"

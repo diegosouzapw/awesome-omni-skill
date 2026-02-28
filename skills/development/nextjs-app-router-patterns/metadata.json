@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "260dda1add34148ccf0448dea14243330a9a7437b19309137f8cbd95a606b709",
   "indexed_at": "2026-02-25T17:26:21.794Z",
-  "synced_at": "2026-02-27T02:23:58.582Z",
+  "synced_at": "2026-02-28T03:48:33.908Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c5fe64b50b86ee87ec6cd10225e15f7a2a5ba02d4db51b6a3d491034ad6c952c",
   "install_command": "mkdir -p .claude/skills/nextjs-app-router-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/nextjs-app-router-patterns/SKILL.md\" > .claude/skills/nextjs-app-router-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/nextjs-app-router-patterns/SKILL.md"

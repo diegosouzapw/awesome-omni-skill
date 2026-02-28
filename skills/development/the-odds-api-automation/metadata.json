@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "181e765f013f219443b3769844019bda38401c738f36f1400fb5374e09434929",
   "indexed_at": "2026-02-26T00:26:21.094Z",
-  "synced_at": "2026-02-27T02:23:15.329Z",
+  "synced_at": "2026-02-28T03:47:54.062Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8b8edc36b93c53e167fbf495dd20a630c40f5ee342c3136624a5a0ee497cacc5",
   "install_command": "mkdir -p .claude/skills/the-odds-api-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/the-odds-api-automation/SKILL.md\" > .claude/skills/the-odds-api-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/the-odds-api-automation/SKILL.md"

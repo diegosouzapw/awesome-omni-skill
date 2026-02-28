@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9427088710cb50a038a9060d1c2c5f867ea2bf46aab91c7048b973acdfc3e2dd",
   "indexed_at": "2026-02-25T16:25:52.148Z",
-  "synced_at": "2026-02-27T02:24:07.900Z",
+  "synced_at": "2026-02-28T03:48:43.190Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/be58bb63cb033c1417db3ff7d594df089ccb45842c7d93a07e1019b96d5dcd95",
   "install_command": "mkdir -p .claude/skills/firebase && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/firebase/SKILL.md\" > .claude/skills/firebase/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/firebase/SKILL.md"

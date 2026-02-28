@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d47e347d37a2586303ebd6618150d9670aa37679a24f55afe286a1a090ddff4b",
   "indexed_at": "2026-02-24T22:52:38.199Z",
-  "synced_at": "2026-02-27T02:23:27.570Z",
+  "synced_at": "2026-02-28T03:48:04.804Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ff6c85ce61d700b87b6a9f74b3d08560f5853d1433ea791f41c65b10e2a0af4d",
   "install_command": "mkdir -p .claude/skills/countdown-api-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/countdown-api-automation/SKILL.md\" > .claude/skills/countdown-api-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/countdown-api-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c6f70a92aa35fb1636ced82a2061c195e7a4396b4b398f8c60f4b502712ce6e0",
   "indexed_at": "2026-02-25T16:23:35.937Z",
-  "synced_at": "2026-02-27T02:23:59.203Z",
+  "synced_at": "2026-02-28T03:48:34.410Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b8321f47367307de69e5b2e4f8da434b98a257c0a586df1a479d2cf4515592db",
   "install_command": "mkdir -p .claude/skills/dbos-golang && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/dbos-golang/SKILL.md\" > .claude/skills/dbos-golang/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/dbos-golang/SKILL.md"

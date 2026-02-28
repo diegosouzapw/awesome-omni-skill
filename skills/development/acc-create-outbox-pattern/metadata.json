@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "796dc12a20fc7ad82a080b1566297cb73d37e32a0b2027512b2c60b3946e68f1",
   "indexed_at": "2026-02-27T00:48:07.043Z",
-  "synced_at": "2026-02-27T02:24:29.304Z",
+  "synced_at": "2026-02-28T03:49:05.333Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/691cdf739c5cf15b1bd84e1f71de86bb74e537cd484b50bc76af504fe0cca065",
   "install_command": "mkdir -p .claude/skills/acc-create-outbox-pattern && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-outbox-pattern/SKILL.md\" > .claude/skills/acc-create-outbox-pattern/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-outbox-pattern/SKILL.md"

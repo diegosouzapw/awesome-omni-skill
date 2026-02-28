@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "964177c1d0bf1aa6b2911a1d14ccc24b9b52d4d48cb0001734290c76ac06a8e6",
   "indexed_at": "2026-02-25T16:27:18.205Z",
-  "synced_at": "2026-02-27T02:24:04.045Z",
+  "synced_at": "2026-02-28T03:48:39.016Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/182d1fc1b23f8c95cbf22e1e95d7d210418ff57c1ae9708334089b5edd8e7dfb",
   "install_command": "mkdir -p .claude/skills/google-calendar-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/google-calendar-automation/SKILL.md\" > .claude/skills/google-calendar-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/google-calendar-automation/SKILL.md"

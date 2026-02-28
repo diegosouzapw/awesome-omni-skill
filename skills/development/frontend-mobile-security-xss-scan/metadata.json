@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2b392b8acfd8eb88c8279bcacd4e2c3196736e40d6aa5dd16f4382815c891ade",
   "indexed_at": "2026-02-25T16:26:24.131Z",
-  "synced_at": "2026-02-27T02:24:03.074Z",
+  "synced_at": "2026-02-28T03:48:38.012Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9f7a3dc3170041af5cde039d7177d04de3b7e462f3dd7e0f3544559e28c556c1",
   "install_command": "mkdir -p .claude/skills/frontend-mobile-security-xss-scan && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/frontend-mobile-security-xss-scan/SKILL.md\" > .claude/skills/frontend-mobile-security-xss-scan/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/frontend-mobile-security-xss-scan/SKILL.md"

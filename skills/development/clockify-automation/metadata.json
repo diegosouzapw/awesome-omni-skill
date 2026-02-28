@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "76ac2a182de2a20f4bb53650c9b29a9bd35aa36d17aef33f18fb393c33457758",
   "indexed_at": "2026-02-24T22:51:57.650Z",
-  "synced_at": "2026-02-27T02:23:26.707Z",
+  "synced_at": "2026-02-28T03:48:04.062Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d6c08c47cbed2173835fd636a3c7da63d39de39b417218cfc67bb232b1f98175",
   "install_command": "mkdir -p .claude/skills/clockify-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/clockify-automation/SKILL.md\" > .claude/skills/clockify-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/clockify-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "86d331e76b34dcab1b393462b2009c614b4638652c405ffc0c1a0d9018cdf9a9",
   "indexed_at": "2026-02-25T23:26:26.972Z",
-  "synced_at": "2026-02-27T02:23:16.485Z",
+  "synced_at": "2026-02-28T03:47:55.114Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/32c7135dff2a231d91c0d241ace5e00b9ec6cb9cba59752fb256beaea3fb174f",
   "install_command": "mkdir -p .claude/skills/similarweb_digitalrank_api-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/similarweb_digitalrank_api-automation/SKILL.md\" > .claude/skills/similarweb_digitalrank_api-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/similarweb_digitalrank_api-automation/SKILL.md"

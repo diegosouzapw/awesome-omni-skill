@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4ab7aa0cd901fd4a7a7510cc9a7b47121672c0048f5ac68fb73823dee0be1a0a",
   "indexed_at": "2026-02-27T00:55:33.327Z",
-  "synced_at": "2026-02-27T02:24:36.498Z",
+  "synced_at": "2026-02-28T03:49:12.297Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7a776642e709b9f0e3b226b6545f515474e1b36dd9a755a2d3877408d022a36f",
   "install_command": "mkdir -p .claude/skills/actionable-review-format-standards && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/actionable-review-format-standards/SKILL.md\" > .claude/skills/actionable-review-format-standards/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/actionable-review-format-standards/SKILL.md"

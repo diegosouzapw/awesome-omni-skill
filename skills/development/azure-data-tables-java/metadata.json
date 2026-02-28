@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8a074e7c44222297ee4f30bcbbe6689bc3c4d9b10b1536db0c0530bcabd9b2d5",
   "indexed_at": "2026-02-25T15:22:48.608Z",
-  "synced_at": "2026-02-27T02:24:15.910Z",
+  "synced_at": "2026-02-28T03:48:51.337Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2571ac8266e50325fc2035c1a8d31ad3167d1f47a82f25e881bf686ab2a7a7fe",
   "install_command": "mkdir -p .claude/skills/azure-data-tables-java && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-data-tables-java/SKILL.md\" > .claude/skills/azure-data-tables-java/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-data-tables-java/SKILL.md"

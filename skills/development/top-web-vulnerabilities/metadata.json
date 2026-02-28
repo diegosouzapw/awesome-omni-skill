@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3fae49efe33a51aebc765336a426c4f8e0f60b2d206784f276d7781b16b7d1dc",
   "indexed_at": "2026-02-25T19:25:02.668Z",
-  "synced_at": "2026-02-27T02:23:33.391Z",
+  "synced_at": "2026-02-28T03:48:09.141Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e15a7e005ad22657f595f2775fbe71ca8a6e45658a2b0e4003e061dfcd8370b2",
   "install_command": "mkdir -p .claude/skills/top-web-vulnerabilities && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/top-web-vulnerabilities/SKILL.md\" > .claude/skills/top-web-vulnerabilities/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/top-web-vulnerabilities/SKILL.md"

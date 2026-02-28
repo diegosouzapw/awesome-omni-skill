@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1c0b2fb7609fcdcbceb7bc878c182055dff37f54fec8b8c553c0934ea14da4f8",
   "indexed_at": "2026-02-25T14:24:40.774Z",
-  "synced_at": "2026-02-27T02:23:59.853Z",
+  "synced_at": "2026-02-28T03:48:34.903Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7fcc677e2ca97e187d7fe9d929501b40d4281593ccf5e2c7f12aab774186cabb",
   "install_command": "mkdir -p .claude/skills/docx-official && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/docx-official/SKILL.md\" > .claude/skills/docx-official/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/docx-official/SKILL.md"

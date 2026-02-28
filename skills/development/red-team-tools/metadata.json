@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "99afc8fb1fad2f5eca4874ec3970de92689d73230d437244b1f9338f28b46e9b",
   "indexed_at": "2026-02-25T18:24:53.150Z",
-  "synced_at": "2026-02-27T02:23:41.293Z",
+  "synced_at": "2026-02-28T03:48:16.622Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/33cc73bb6ca26e70eda07499920894f76030736bf1ea63a68a99d92bd515f22d",
   "install_command": "mkdir -p .claude/skills/red-team-tools && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/red-team-tools/SKILL.md\" > .claude/skills/red-team-tools/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/red-team-tools/SKILL.md"

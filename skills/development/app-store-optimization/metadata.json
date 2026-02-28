@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "88b776893852eb26e2c6a34d3bb6d1e21134275754f95f8e04f4b5ca323dc573",
   "indexed_at": "2026-02-25T15:21:12.586Z",
-  "synced_at": "2026-02-27T02:24:12.985Z",
+  "synced_at": "2026-02-28T03:48:48.275Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ae737195f7438ebb4beaf8869621384eb0f6033df0c85a49064ef77b0ea888f5",
   "install_command": "mkdir -p .claude/skills/app-store-optimization && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/app-store-optimization/SKILL.md\" > .claude/skills/app-store-optimization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/app-store-optimization/SKILL.md"

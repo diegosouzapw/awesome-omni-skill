@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e03d20af83b470063bd62ac9082b56789ffebe2561721913a119affa1cefa003",
   "indexed_at": "2026-02-25T15:21:56.839Z",
-  "synced_at": "2026-02-27T02:24:13.459Z",
+  "synced_at": "2026-02-28T03:48:48.851Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/76aa3d8470681d56e75b4ff1c64015e988612b581da988c56e46eb255dfd1002",
   "install_command": "mkdir -p .claude/skills/azure-ai-anomalydetector-java && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-ai-anomalydetector-java/SKILL.md\" > .claude/skills/azure-ai-anomalydetector-java/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-ai-anomalydetector-java/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ff43042d233c42489528f79f1bd8efcaff054559dd802ed6ade984567b045182",
   "indexed_at": "2026-02-24T22:48:02.680Z",
-  "synced_at": "2026-02-27T02:23:22.050Z",
+  "synced_at": "2026-02-28T03:48:00.003Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3b18df9a2a8e51de6d2aaab4bf90d0f1a277e54be7b1a54944b18911f9c54a04",
   "install_command": "mkdir -p .claude/skills/webapp-testing && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/webapp-testing/SKILL.md\" > .claude/skills/webapp-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/webapp-testing/SKILL.md"

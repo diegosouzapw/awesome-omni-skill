@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9a2bf2881eeb81c4e5faa2d881f7cbf9a9331f06c3e3ea3a01cf57a13f31656e",
   "indexed_at": "2026-02-25T16:27:19.978Z",
-  "synced_at": "2026-02-27T02:24:04.215Z",
+  "synced_at": "2026-02-28T03:48:39.181Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ca99be105940dc2255ad4cbfc8bd0d9c289a6cc44ff50aefd3849e757225c4be",
   "install_command": "mkdir -p .claude/skills/google-drive-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/google-drive-automation/SKILL.md\" > .claude/skills/google-drive-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/google-drive-automation/SKILL.md"

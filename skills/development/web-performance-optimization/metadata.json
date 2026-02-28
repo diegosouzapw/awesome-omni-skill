@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9c4a85593607442af6f4afeb4fc4a5821769fc7000553b5425a0a8907f58c0df",
   "indexed_at": "2026-02-25T19:26:16.129Z",
-  "synced_at": "2026-02-27T02:23:36.803Z",
+  "synced_at": "2026-02-28T03:48:12.741Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4b306d8655998b55b61122c51f580bc85845a0b0b74e03a875073fa98d1270a0",
   "install_command": "mkdir -p .claude/skills/web-performance-optimization && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/web-performance-optimization/SKILL.md\" > .claude/skills/web-performance-optimization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/web-performance-optimization/SKILL.md"

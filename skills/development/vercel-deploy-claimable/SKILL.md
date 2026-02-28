@@ -1,6 +1,6 @@
 ---
 name: vercel-deploy-claimable
-description: "Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as 'Deploy my app', 'Deploy this to production', 'Create a preview deployment', 'Deploy and give me the link', or 'Push this live'. No authentication required - returns preview URL and claimable deployment link."
+description: "Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as 'Deploy my app', 'Deploy this to production', 'Create a preview deployment', 'Deploy and..."
 source: "https://github.com/vercel-labs/agent-skills/tree/main/skills/claude.ai/vercel-deploy-claimable"
 risk: safe
 ---

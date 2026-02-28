@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bc3fc7ce4137abc9aba0986f3b4fe732c4c3bc46a5e8082c72269cfad8414245",
   "indexed_at": "2026-02-25T15:23:50.524Z",
-  "synced_at": "2026-02-27T02:24:17.581Z",
+  "synced_at": "2026-02-28T03:48:52.980Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e0046ea63a433e84e4e49bc8f53fa3b78afb9d97502e300e723d878d10bae2b0",
   "install_command": "mkdir -p .claude/skills/azure-search-documents-ts && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-search-documents-ts/SKILL.md\" > .claude/skills/azure-search-documents-ts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-search-documents-ts/SKILL.md"

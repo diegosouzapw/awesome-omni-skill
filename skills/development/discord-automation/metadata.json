@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "796f9b9c765ecf063e0c921fab31eba1fe31675aa9989c9a468d6c2a3ac471c6",
   "indexed_at": "2026-02-25T16:24:15.901Z",
-  "synced_at": "2026-02-27T02:24:01.042Z",
+  "synced_at": "2026-02-28T03:48:36.062Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4e26c46557c8088bb9d9e1a2133eeaf41fe642ef39986e424d83b2277afc28b6",
   "install_command": "mkdir -p .claude/skills/discord-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/discord-automation/SKILL.md\" > .claude/skills/discord-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/discord-automation/SKILL.md"

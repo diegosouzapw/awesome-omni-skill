@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "15b577ca9baa3430caaa4ca21a7287bdfcaa8a0cb60f18d19064c52d688163f9",
   "indexed_at": "2026-02-24T23:02:57.886Z",
-  "synced_at": "2026-02-27T02:23:20.167Z",
+  "synced_at": "2026-02-28T03:47:58.412Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/caa2b2989d2fa4b4293bd1b22cae6aa2a6e0bdac4d9c69497eccf1814adb1a52",
   "install_command": "mkdir -p .claude/skills/googlebigquery-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/googlebigquery-automation/SKILL.md\" > .claude/skills/googlebigquery-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/googlebigquery-automation/SKILL.md"

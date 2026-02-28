@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a433cd00e6ffb36825fc47925860adbc0d98eb5e01bc1b24e985d030bc6e88ce",
   "indexed_at": "2026-02-25T21:26:12.019Z",
-  "synced_at": "2026-02-27T02:23:18.673Z",
+  "synced_at": "2026-02-28T03:47:57.061Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7c9220e8235ae710962f56d70d13c90f009d2c33392e21bcfa248d6dc6d942e2",
   "install_command": "mkdir -p .claude/skills/openweather-api-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/openweather-api-automation/SKILL.md\" > .claude/skills/openweather-api-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/openweather-api-automation/SKILL.md"

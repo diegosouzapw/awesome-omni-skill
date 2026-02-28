@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d8093644b1ad0037cc61b42d494de0e0c3f84dd81a7072ed1cc872530c5dcdea",
   "indexed_at": "2026-02-25T16:26:22.352Z",
-  "synced_at": "2026-02-27T02:24:02.810Z",
+  "synced_at": "2026-02-28T03:48:37.847Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a7382ad965e16f623bb4b929aaba5d1cf2663f0612cda784370282eacf2944be",
   "install_command": "mkdir -p .claude/skills/frontend-mobile-development-component-scaffold && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/frontend-mobile-development-component-scaffold/SKILL.md\" > .claude/skills/frontend-mobile-development-component-scaffold/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/frontend-mobile-development-component-scaffold/SKILL.md"

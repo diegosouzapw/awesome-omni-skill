@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ff2ab1439635342ac3033d099701db797e99a6ff176d7a268944e43db0242854",
   "indexed_at": "2026-02-24T22:51:39.385Z",
-  "synced_at": "2026-02-27T02:23:26.535Z",
+  "synced_at": "2026-02-28T03:48:03.916Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e0668491379ae029b2db3667500d8ef5e0bc5e0fcf247f1e69e99e5f74898a1b",
   "install_command": "mkdir -p .claude/skills/cdr-platform-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/cdr-platform-automation/SKILL.md\" > .claude/skills/cdr-platform-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/cdr-platform-automation/SKILL.md"

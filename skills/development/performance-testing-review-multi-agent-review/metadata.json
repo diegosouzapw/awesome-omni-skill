@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dbc2f40ae04eb8d59e82c141d11d783ac929f00164f7040530a6cc30227e2169",
   "indexed_at": "2026-02-25T17:27:31.678Z",
-  "synced_at": "2026-02-27T02:23:56.659Z",
+  "synced_at": "2026-02-28T03:48:31.954Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/15fd730ca9906b19ead785d5b6c3697134040c42290f41bc585a8138b864eee1",
   "install_command": "mkdir -p .claude/skills/performance-testing-review-multi-agent-review && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/performance-testing-review-multi-agent-review/SKILL.md\" > .claude/skills/performance-testing-review-multi-agent-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/performance-testing-review-multi-agent-review/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "94dfaef6b63f52f8b655954b5acb36ed76d03bbb35d824c707530d53d0e932e6",
   "indexed_at": "2026-02-24T22:47:56.953Z",
-  "synced_at": "2026-02-27T02:23:21.295Z",
+  "synced_at": "2026-02-28T03:47:59.313Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/025d26d2a627dd5098075cfa21c8c6e83ee8800ba6ab0a5e44e85d9d0258ac55",
   "install_command": "mkdir -p .claude/skills/tailored-resume-generator && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/tailored-resume-generator/SKILL.md\" > .claude/skills/tailored-resume-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/tailored-resume-generator/SKILL.md"

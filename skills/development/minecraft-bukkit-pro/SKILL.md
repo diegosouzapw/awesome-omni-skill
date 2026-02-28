@@ -1,6 +1,7 @@
 ---
 name: minecraft-bukkit-pro
-description: "Master Minecraft server plugin development with Bukkit, Spigot, and"
+description: |
+  Master Minecraft server plugin development with Bukkit, Spigot, and
   Paper APIs. Specializes in event-driven architecture, command systems, world
   manipulation, player management, and performance optimization. Use PROACTIVELY
   for plugin architecture, gameplay mechanics, server-side features, or

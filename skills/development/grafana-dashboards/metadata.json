@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8880c54c1827683f4db5743e923bf5e3f233e898c8a2a76e239b7fcd3f075026",
   "indexed_at": "2026-02-25T16:27:23.588Z",
-  "synced_at": "2026-02-27T02:24:04.546Z",
+  "synced_at": "2026-02-28T03:48:39.520Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9fe0f0a08c9f2570c72bc91241dbc6b6abedf71a04ed5aa109204b807280a690",
   "install_command": "mkdir -p .claude/skills/grafana-dashboards && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/grafana-dashboards/SKILL.md\" > .claude/skills/grafana-dashboards/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/grafana-dashboards/SKILL.md"

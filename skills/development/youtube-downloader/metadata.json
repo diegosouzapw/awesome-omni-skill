@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9ccdfe48971bf3a01992b8522bd256ffbaf63a4137f19bc858d75b265f3c84b0",
   "indexed_at": "2026-02-24T22:48:01.352Z",
-  "synced_at": "2026-02-27T02:23:21.884Z",
+  "synced_at": "2026-02-28T03:47:59.855Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/15e5e17d6f4ddfa2efc68d7a60619a77622da0a12fc1bca8753b6486eaf2c473",
   "install_command": "mkdir -p .claude/skills/youtube-downloader && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/video-downloader/SKILL.md\" > .claude/skills/youtube-downloader/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/video-downloader/SKILL.md"

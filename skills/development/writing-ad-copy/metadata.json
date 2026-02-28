@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2268dfbd6250a1cc5d9aadfa905ef87ed5c6bb5dbe5fe136a3122d692fde078c",
   "indexed_at": "2026-02-27T00:56:56.783Z",
-  "synced_at": "2026-02-27T02:24:37.540Z",
+  "synced_at": "2026-02-28T03:49:13.295Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9e648b228b37cf4942e32e92cd77e8f3617208ddd4ad3c316d18c3bfe0f0d76c",
   "install_command": "mkdir -p .claude/skills/writing-ad-copy && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ad-copy-generator/SKILL.md\" > .claude/skills/writing-ad-copy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ad-copy-generator/SKILL.md"

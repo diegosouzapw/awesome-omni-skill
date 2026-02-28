@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c9546421c6a93aec710fca1413aabffb9dbc79ee022a8ae9491ede2501de45fa",
   "indexed_at": "2026-02-25T19:24:16.070Z",
-  "synced_at": "2026-02-27T02:23:38.552Z",
+  "synced_at": "2026-02-28T03:48:14.407Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3db475274b16885548bc5263a7334c95767592511d0c70d54f63596736788efd",
   "install_command": "mkdir -p .claude/skills/team-composition-analysis && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/team-composition-analysis/SKILL.md\" > .claude/skills/team-composition-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/team-composition-analysis/SKILL.md"

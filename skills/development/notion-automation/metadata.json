@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4ad68ae5849d4bb32b9aa381449521b763f256a9a704d0d1fecbf612ea31ce09",
   "indexed_at": "2026-02-25T17:26:36.017Z",
-  "synced_at": "2026-02-27T02:23:53.814Z",
+  "synced_at": "2026-02-28T03:48:29.082Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1addc4cfeec3091e8e816cba4d91a9ad9fb773ba1cdbae11b9a1bf9ebf642823",
   "install_command": "mkdir -p .claude/skills/notion-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/notion-automation/SKILL.md\" > .claude/skills/notion-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/notion-automation/SKILL.md"

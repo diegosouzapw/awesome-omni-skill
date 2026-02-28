@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8fe21603da88e53af09101c54a4c524a2e36887bb434de2f56b2f80e9e812bf8",
   "indexed_at": "2026-02-25T15:22:59.032Z",
-  "synced_at": "2026-02-27T02:24:16.406Z",
+  "synced_at": "2026-02-28T03:48:51.830Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6a82e60df678fcd31ba111d90a465e6f45e8d0abcb5fb019973726a585997298",
   "install_command": "mkdir -p .claude/skills/azure-eventhub-ts && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-eventhub-ts/SKILL.md\" > .claude/skills/azure-eventhub-ts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-eventhub-ts/SKILL.md"

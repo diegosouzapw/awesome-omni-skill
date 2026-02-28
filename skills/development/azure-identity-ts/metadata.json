@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0790abac970663fceee0f999579722cca86de7e08d9ec57a2b33320218244da6",
   "indexed_at": "2026-02-25T15:23:06.872Z",
-  "synced_at": "2026-02-27T02:24:16.740Z",
+  "synced_at": "2026-02-28T03:48:52.155Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/73b7bb83b6e5f6f05f3108e62fbda08bbe71cebadec028b665071fe0cddc7331",
   "install_command": "mkdir -p .claude/skills/azure-identity-ts && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-identity-ts/SKILL.md\" > .claude/skills/azure-identity-ts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-identity-ts/SKILL.md"

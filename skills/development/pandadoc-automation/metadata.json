@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "855f7509886188a945ebde39ea8f010e7b7d2b54bb360023c2bdf5ce79508304",
   "indexed_at": "2026-02-25T21:26:18.435Z",
-  "synced_at": "2026-02-27T02:23:18.832Z",
+  "synced_at": "2026-02-28T03:47:57.215Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/59007530d954170caca4ebd8f1f71dafede70a9c4049633f55a0893b608ee352",
   "install_command": "mkdir -p .claude/skills/pandadoc-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/pandadoc-automation/SKILL.md\" > .claude/skills/pandadoc-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/pandadoc-automation/SKILL.md"

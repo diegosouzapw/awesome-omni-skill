@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "791c4424116025023b4bf03d79c39dd310c734ea705030f835ee0a171ddab6f7",
   "indexed_at": "2026-02-25T18:23:27.880Z",
-  "synced_at": "2026-02-27T02:23:42.214Z",
+  "synced_at": "2026-02-28T03:48:17.574Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2bccfa43d60f7cac5b763737a95951cb40d47aa8cd4f3fe9240fea757481c2b4",
   "install_command": "mkdir -p .claude/skills/podcast-generation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/podcast-generation/SKILL.md\" > .claude/skills/podcast-generation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/podcast-generation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4042f76e438df4255c5244ce2a70d691ecd2cf6504f4daa8d6527013866a4635",
   "indexed_at": "2026-02-27T00:47:59.352Z",
-  "synced_at": "2026-02-27T02:24:29.105Z",
+  "synced_at": "2026-02-28T03:49:05.139Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/78c8aeae9f3dac932a1ab6ec8ffceae17b422e78f7d8fea805069f091ef66306",
   "install_command": "mkdir -p .claude/skills/acc-create-mock-repository && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-mock-repository/SKILL.md\" > .claude/skills/acc-create-mock-repository/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-mock-repository/SKILL.md"

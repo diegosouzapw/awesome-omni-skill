@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "386ce2811792924687a68526a3084660761d111d1d0759529cf19f92ecbeb18d",
   "indexed_at": "2026-02-25T15:23:38.417Z",
-  "synced_at": "2026-02-27T02:24:17.421Z",
+  "synced_at": "2026-02-28T03:48:52.817Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/98d7b12720330c87b996ff99902e73e5610d9a344eee946f008878c6fdcba080",
   "install_command": "mkdir -p .claude/skills/azure-monitor-opentelemetry-ts && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-monitor-opentelemetry-ts/SKILL.md\" > .claude/skills/azure-monitor-opentelemetry-ts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-monitor-opentelemetry-ts/SKILL.md"

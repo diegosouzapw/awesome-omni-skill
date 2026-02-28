@@ -1,526 +1,292 @@
 ---
 name: accessibility
-description: Audit and improve web accessibility following WCAG 2.1 guidelines. Use when asked to "improve accessibility", "a11y audit", "WCAG compliance", "screen reader support", "keyboard navigation", or "make accessible". Do NOT use for SEO (use seo), performance (use core-web-vitals), or comprehensive site audits covering multiple areas (use web-quality-audit).
+description: Accessibility guidelines for VS Code features — covers accessibility help dialogs, accessible views, verbosity settings, accessibility signals, ARIA alerts/status announcements, keyboard navigation, and ARIA labels/roles. Applies to both new interactive UI surfaces and updates to existing features. Use when creating new UI or updating existing UI features.
 ---
 
-# Accessibility (a11y)
+When adding a **new interactive UI surface** to VS Code — a panel, view, widget, editor overlay, dialog, or any rich focusable component the user interacts with — you **must** provide three accessibility components (if they do not already exist for the feature):
 
-Comprehensive accessibility guidelines based on WCAG 2.1 and Lighthouse accessibility audits. Goal: make content usable by everyone, including people with disabilities.
+1. **An Accessibility Help Dialog** — opened via the accessibility help keybinding when the feature has focus.
+2. **An Accessible View** — a plain-text read-only editor that presents the feature's content to screen reader users (when the feature displays non-trivial visual content).
+3. **An Accessibility Verbosity Setting** — a boolean setting that controls whether the "open accessibility help" hint is announced.
 
-## WCAG Principles: POUR
+Examples of existing features that have all three: the **terminal**, **chat panel**, **notebook**, **diff editor**, **inline completions**, **comments**, **debug REPL**, **hover**, and **notifications**. Features with only a help dialog (no accessible view) include **find widgets**, **source control input**, **keybindings editor**, **problems panel**, and **walkthroughs**.
 
-| Principle          | Description                                       |
-| ------------------ | ------------------------------------------------- |
-| **P**erceivable    | Content can be perceived through different senses |
-| **O**perable       | Interface can be operated by all users            |
-| **U**nderstandable | Content and interface are understandable          |
-| **R**obust         | Content works with assistive technologies         |
+Sections 4–7 below (signals, ARIA announcements, keyboard navigation, ARIA labels) apply more broadly to **any UI change**, including modifications to existing features.
 
-## Conformance levels
-
-| Level   | Requirement            | Target                                                |
-| ------- | ---------------------- | ----------------------------------------------------- |
-| **A**   | Minimum accessibility  | Must pass                                             |
-| **AA**  | Standard compliance    | Should pass (legal requirement in many jurisdictions) |
-| **AAA** | Enhanced accessibility | Nice to have                                          |
+When **updating an existing feature** — for example, adding new commands, keyboard shortcuts, or interactive capabilities — you must also update the feature's existing accessibility help dialog (`provideContent()`) to document the new functionality. Screen reader users rely on the help dialog as the primary way to discover available actions.
 
 ---
 
-## Perceivable
+## 1. Accessibility Help Dialog
 
-### Text alternatives (1.1)
+An accessibility help dialog tells the user what the feature does, which keyboard shortcuts are available, and how to interact with it via a screen reader.
 
-**Images require alt text:**
+### Steps
 
-```html
-<!-- ❌ Missing alt -->
-<img src="chart.png" />
+1. **Create a class implementing `IAccessibleViewImplementation`** with `type = AccessibleViewType.Help`.
+   - Set a `priority` (higher = shown first when multiple providers match).
+   - Set `when` to a `ContextKeyExpression` that matches when the feature is focused.
+   - `getProvider(accessor)` returns an `AccessibleContentProvider`.
 
-<!-- ✅ Descriptive alt -->
-<img src="chart.png" alt="Bar chart showing 40% increase in Q3 sales" />
+2. **Create a content-provider class** implementing `IAccessibleViewContentProvider`.
+   - `id` — add a new entry in the `AccessibleViewProviderId` enum in `src/vs/platform/accessibility/browser/accessibleView.ts`.
+   - `verbositySettingKey` — reference the new `AccessibilityVerbositySettingId` entry (see §3).
+   - `options` — `{ type: AccessibleViewType.Help }`.
+   - `provideContent()` — return localized, multi-line help text.
 
-<!-- ✅ Decorative image (empty alt) -->
-<img src="decorative-border.png" alt="" role="presentation" />
+3. **Implement `onClose()`** to restore focus to whatever element was focused before the help dialog opened. This ensures keyboard users and screen reader users return to their previous context.
 
-<!-- ✅ Complex image with longer description -->
-<figure>
-  <img src="infographic.png" alt="2024 market trends infographic" aria-describedby="infographic-desc" />
-  <figcaption id="infographic-desc">
-    <!-- Detailed description -->
-  </figcaption>
-</figure>
-```
+4. **Register** the implementation:
+   ```ts
+   AccessibleViewRegistry.register(new MyFeatureAccessibilityHelp());
+   ```
+   in the feature's `*.contribution.ts` file.
 
-**Icon buttons need accessible names:**
+### Example skeleton
 
-```html
-<!-- ❌ No accessible name -->
-<button>
-  <svg><!-- menu icon --></svg>
-</button>
+The simplest approach is to return an `AccessibleContentProvider` directly from `getProvider()`. This is the most common pattern in the codebase (used by chat, inline chat, quick chat, etc.):
 
-<!-- ✅ Using aria-label -->
-<button aria-label="Open menu">
-  <svg aria-hidden="true"><!-- menu icon --></svg>
-</button>
+```ts
+import { AccessibleViewType, AccessibleContentProvider, AccessibleViewProviderId } from '…/accessibleView.js';
+import { IAccessibleViewImplementation } from '…/accessibleViewRegistry.js';
+import { AccessibilityVerbositySettingId } from '…/accessibilityConfiguration.js';
+import { AccessibleViewType, AccessibleContentProvider, AccessibleViewProviderId, IAccessibleViewContentProvider, IAccessibleViewOptions } from '../../../../platform/accessibility/browser/accessibleView.js';
+import { IAccessibleViewImplementation } from '../../../../platform/accessibility/browser/accessibleViewRegistry.js';
+import { AccessibilityVerbositySettingId } from '../../../../platform/accessibility/common/accessibilityConfiguration.js';
 
-<!-- ✅ Using visually hidden text -->
-<button>
-  <svg aria-hidden="true"><!-- menu icon --></svg>
-  <span class="visually-hidden">Open menu</span>
-</button>
-```
+export class MyFeatureAccessibilityHelp implements IAccessibleViewImplementation {
+	readonly priority = 100;
+	readonly name = 'my-feature';
+	readonly type = AccessibleViewType.Help;
+	readonly when = MyFeatureContextKeys.isFocused;
 
-**Visually hidden class:**
-
-```css
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
+	getProvider(accessor: ServicesAccessor) {
+		const helpText = [
+			localize('myFeature.help.overview', "You are in My Feature. …"),
+			localize('myFeature.help.key1', "- {0}: Do something", '<keybinding:myFeature.doSomething>'),
+		].join('\n');
+		return new AccessibleContentProvider(
+			AccessibleViewProviderId.MyFeature,
+			{ type: AccessibleViewType.Help },
+			() => helpText,
+			() => { /* onClose — refocus whatever was focused before */ },
+			AccessibilityVerbositySettingId.MyFeature,
+		);
+	}
 }
 ```
 
-### Color contrast (1.4.3, 1.4.6)
+Alternatively, if the provider needs injected services or must track state (e.g., storing a reference to the previously focused element), create a custom class that extends `Disposable` and implements `IAccessibleViewContentProvider`, then instantiate it via `IInstantiationService` (see `CommentsAccessibilityHelpProvider` for an example):
 
-| Text Size                          | AA minimum | AAA enhanced |
-| ---------------------------------- | ---------- | ------------ |
-| Normal text (< 18px / < 14px bold) | 4.5:1      | 7:1          |
-| Large text (≥ 18px / ≥ 14px bold)  | 3:1        | 4.5:1        |
-| UI components & graphics           | 3:1        | 3:1          |
+```ts
+class MyFeatureAccessibilityHelpProvider extends Disposable implements IAccessibleViewContentProvider {
+	readonly id = AccessibleViewProviderId.MyFeature;
+	readonly verbositySettingKey = AccessibilityVerbositySettingId.MyFeature;
+	readonly options: IAccessibleViewOptions = { type: AccessibleViewType.Help };
 
-```css
-/* ❌ Low contrast (2.5:1) */
-.low-contrast {
-  color: #999;
-  background: #fff;
+	provideContent(): string { /* … */ }
+	onClose(): void { /* … */ }
 }
 
-/* ✅ Sufficient contrast (7:1) */
-.high-contrast {
-  color: #333;
-  background: #fff;
-}
-
-/* ✅ Focus states need contrast too */
-:focus-visible {
-  outline: 2px solid #005fcc;
-  outline-offset: 2px;
-}
-```
-
-**Don't rely on color alone:**
-
-```html
-<!-- ❌ Only color indicates error -->
-<input class="error-border" />
-<style>
-  .error-border {
-    border-color: red;
-  }
-</style>
-
-<!-- ✅ Color + icon + text -->
-<div class="field-error">
-  <input aria-invalid="true" aria-describedby="email-error" />
-  <span id="email-error" class="error-message">
-    <svg aria-hidden="true"><!-- error icon --></svg>
-    Please enter a valid email address
-  </span>
-</div>
-```
-
-### Media alternatives (1.2)
-
-```html
-<!-- Video with captions -->
-<video controls>
-  <source src="video.mp4" type="video/mp4" />
-  <track kind="captions" src="captions.vtt" srclang="en" label="English" default />
-  <track kind="descriptions" src="descriptions.vtt" srclang="en" label="Descriptions" />
-</video>
-
-<!-- Audio with transcript -->
-<audio controls>
-  <source src="podcast.mp3" type="audio/mp3" />
-</audio>
-<details>
-  <summary>Transcript</summary>
-  <p>Full transcript text...</p>
-</details>
-```
-
----
-
-## Operable
-
-### Keyboard accessible (2.1)
-
-**All functionality must be keyboard accessible:**
-
-```javascript
-// ❌ Only handles click
-element.addEventListener('click', handleAction)
-
-// ✅ Handles both click and keyboard
-element.addEventListener('click', handleAction)
-element.addEventListener('keydown', (e) => {
-  if (e.key === 'Enter' || e.key === ' ') {
-    e.preventDefault()
-    handleAction()
-  }
-})
-```
-
-**No keyboard traps:**
-
-```javascript
-// Modal focus management
-function openModal(modal) {
-  const focusableElements = modal.querySelectorAll(
-    'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])',
-  )
-  const firstElement = focusableElements[0]
-  const lastElement = focusableElements[focusableElements.length - 1]
-
-  // Trap focus within modal
-  modal.addEventListener('keydown', (e) => {
-    if (e.key === 'Tab') {
-      if (e.shiftKey && document.activeElement === firstElement) {
-        e.preventDefault()
-        lastElement.focus()
-      } else if (!e.shiftKey && document.activeElement === lastElement) {
-        e.preventDefault()
-        firstElement.focus()
-      }
-    }
-    if (e.key === 'Escape') {
-      closeModal()
-    }
-  })
-
-  firstElement.focus()
-}
-```
-
-### Focus visible (2.4.7)
-
-```css
-/* ❌ Never remove focus outlines */
-*:focus {
-  outline: none;
-}
-
-/* ✅ Use :focus-visible for keyboard-only focus */
-:focus {
-  outline: none;
-}
-
-:focus-visible {
-  outline: 2px solid #005fcc;
-  outline-offset: 2px;
-}
-
-/* ✅ Or custom focus styles */
-button:focus-visible {
-  box-shadow: 0 0 0 3px rgba(0, 95, 204, 0.5);
-}
-```
-
-### Skip links (2.4.1)
-
-```html
-<body>
-  <a href="#main-content" class="skip-link">Skip to main content</a>
-  <header><!-- navigation --></header>
-  <main id="main-content" tabindex="-1">
-    <!-- main content -->
-  </main>
-</body>
-```
-
-```css
-.skip-link {
-  position: absolute;
-  top: -40px;
-  left: 0;
-  background: #000;
-  color: #fff;
-  padding: 8px 16px;
-  z-index: 100;
-}
-
-.skip-link:focus {
-  top: 0;
-}
-```
-
-### Timing (2.2)
-
-```javascript
-// Allow users to extend time limits
-function showSessionWarning() {
-  const modal = createModal({
-    title: 'Session Expiring',
-    content: 'Your session will expire in 2 minutes.',
-    actions: [
-      { label: 'Extend session', action: extendSession },
-      { label: 'Log out', action: logout },
-    ],
-    timeout: 120000, // 2 minutes to respond
-  })
-}
-```
-
-### Motion (2.3)
-
-```css
-/* Respect reduced motion preference */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
+// In getProvider():
+getProvider(accessor: ServicesAccessor) {
+	return accessor.get(IInstantiationService).createInstance(MyFeatureAccessibilityHelpProvider);
 }
 ```
 
 ---
 
-## Understandable
+## 2. Accessible View
 
-### Page language (3.1.1)
+An accessible view presents the feature's visual content as plain text in a read-only editor. It is required when the feature renders rich or visual content that a screen reader cannot directly read (for example: chat responses, hover tooltips, notifications, terminal output, inline completions).
 
-```html
-<!-- ❌ No language specified -->
-<html>
-  <!-- ✅ Language specified -->
-  <html lang="en">
-    <!-- ✅ Language changes within page -->
-    <p>The French word for hello is <span lang="fr">bonjour</span>.</p>
-  </html>
-</html>
-```
+If the feature is purely keyboard-driven with native text input/output (e.g., a simple input field), an accessible view is not needed — only an accessibility help dialog is required.
 
-### Consistent navigation (3.2.3)
+### Steps
 
-```html
-<!-- Navigation should be consistent across pages -->
-<nav aria-label="Main">
-  <ul>
-    <li><a href="/" aria-current="page">Home</a></li>
-    <li><a href="/products">Products</a></li>
-    <li><a href="/about">About</a></li>
-  </ul>
-</nav>
-```
+1. **Create a class implementing `IAccessibleViewImplementation`** with `type = AccessibleViewType.View`.
+2. **Create a content-provider** similar to the help dialog, but:
+   - `options` — `{ type: AccessibleViewType.View }`, optionally with a `language` for syntax highlighting.
+   - `provideContent()` — return the feature's current content as plain text.
+   - Optionally implement `provideNextContent()` / `providePreviousContent()` for item-by-item navigation.
+   - Implement `onClose()` to restore focus to whatever was focused before the accessible view was opened.
+   - Optionally provide `actions` for actions the user can take from the accessible view.
+3. **Register** alongside the help dialog:
+   ```ts
+   AccessibleViewRegistry.register(new MyFeatureAccessibleView());
+   ```
 
-### Form labels (3.3.2)
+### Example skeleton
 
-```html
-<!-- ❌ No label association -->
-<input type="email" placeholder="Email" />
+```ts
+export class MyFeatureAccessibleView implements IAccessibleViewImplementation {
+	readonly priority = 100;
+	readonly name = 'my-feature';
+	readonly type = AccessibleViewType.View;
+	readonly when = MyFeatureContextKeys.isFocused;
 
-<!-- ✅ Explicit label -->
-<label for="email">Email address</label>
-<input type="email" id="email" name="email" autocomplete="email" required />
-
-<!-- ✅ Implicit label -->
-<label>
-  Email address
-  <input type="email" name="email" autocomplete="email" required />
-</label>
-
-<!-- ✅ With instructions -->
-<label for="password">Password</label>
-<input type="password" id="password" aria-describedby="password-requirements" />
-<p id="password-requirements">Must be at least 8 characters with one number.</p>
-```
-
-### Error handling (3.3.1, 3.3.3)
-
-```html
-<!-- Announce errors to screen readers -->
-<form novalidate>
-  <div class="field" aria-live="polite">
-    <label for="email">Email</label>
-    <input type="email" id="email" aria-invalid="true" aria-describedby="email-error" />
-    <p id="email-error" class="error" role="alert">Please enter a valid email address (e.g., name@example.com)</p>
-  </div>
-</form>
-```
-
-```javascript
-// Focus first error on submit
-form.addEventListener('submit', (e) => {
-  const firstError = form.querySelector('[aria-invalid="true"]')
-  if (firstError) {
-    e.preventDefault()
-    firstError.focus()
-
-    // Announce error summary
-    const errorSummary = document.getElementById('error-summary')
-    errorSummary.textContent = `${errors.length} errors found. Please fix them and try again.`
-    errorSummary.focus()
-  }
-})
-```
-
----
-
-## Robust
-
-### Valid HTML (4.1.1)
-
-```html
-<!-- ❌ Duplicate IDs -->
-<div id="content">...</div>
-<div id="content">...</div>
-
-<!-- ❌ Invalid nesting -->
-<a href="/"><button>Click</button></a>
-
-<!-- ✅ Unique IDs -->
-<div id="main-content">...</div>
-<div id="sidebar-content">...</div>
-
-<!-- ✅ Proper nesting -->
-<a href="/" class="button-link">Click</a>
-```
-
-### ARIA usage (4.1.2)
-
-**Prefer native elements:**
-
-```html
-<!-- ❌ ARIA role on div -->
-<div role="button" tabindex="0">Click me</div>
-
-<!-- ✅ Native button -->
-<button>Click me</button>
-
-<!-- ❌ ARIA checkbox -->
-<div role="checkbox" aria-checked="false">Option</div>
-
-<!-- ✅ Native checkbox -->
-<label><input type="checkbox" /> Option</label>
-```
-
-**When ARIA is needed:**
-
-```html
-<!-- Custom tabs component -->
-<div role="tablist" aria-label="Product information">
-  <button role="tab" id="tab-1" aria-selected="true" aria-controls="panel-1">Description</button>
-  <button role="tab" id="tab-2" aria-selected="false" aria-controls="panel-2" tabindex="-1">Reviews</button>
-</div>
-<div role="tabpanel" id="panel-1" aria-labelledby="tab-1">
-  <!-- Panel content -->
-</div>
-<div role="tabpanel" id="panel-2" aria-labelledby="tab-2" hidden>
-  <!-- Panel content -->
-</div>
-```
-
-### Live regions (4.1.3)
-
-```html
-<!-- Status updates -->
-<div aria-live="polite" aria-atomic="true" class="status">
-  <!-- Content updates announced to screen readers -->
-</div>
-
-<!-- Urgent alerts -->
-<div role="alert" aria-live="assertive">
-  <!-- Interrupts current announcement -->
-</div>
-```
-
-```javascript
-// Announce dynamic content changes
-function showNotification(message, type = 'polite') {
-  const container = document.getElementById(`${type}-announcer`)
-  container.textContent = '' // Clear first
-  requestAnimationFrame(() => {
-    container.textContent = message
-  })
+	getProvider(accessor: ServicesAccessor) {
+		// Retrieve services, build content from the feature's current state
+		const content = getMyFeatureContent();
+		if (!content) {
+			return undefined;
+		}
+		return new AccessibleContentProvider(
+			AccessibleViewProviderId.MyFeature,
+			{ type: AccessibleViewType.View },
+			() => content,
+			() => { /* onClose — refocus whatever was focused before the accessible view opened */ },
+			AccessibilityVerbositySettingId.MyFeature,
+		);
+	}
 }
 ```
 
 ---
 
-## Testing checklist
+## 3. Accessibility Verbosity Setting
 
-### Automated testing
+A verbosity setting controls whether a hint such as "press Alt+F1 for accessibility help" is announced when the feature gains focus. Users who already know the shortcut can disable it.
 
-```bash
-# Lighthouse accessibility audit
-npx lighthouse https://example.com --only-categories=accessibility
+### Steps
 
-# axe-core
-npm install @axe-core/cli -g
-axe https://example.com
-```
+1. **Add an entry** to `AccessibilityVerbositySettingId` in
+   `src/vs/workbench/contrib/accessibility/browser/accessibilityConfiguration.ts`:
+   ```ts
+   export const enum AccessibilityVerbositySettingId {
+       // … existing entries …
+       MyFeature = 'accessibility.verbosity.myFeature'
+   }
+   ```
 
-### Manual testing
+2. **Register the configuration property** in the same file's `configuration.properties` object:
+   ```ts
+   [AccessibilityVerbositySettingId.MyFeature]: {
+       description: localize('verbosity.myFeature.description',
+           'Provide information about how to access the My Feature accessibility help menu when My Feature is focused.'),
+       ...baseVerbosityProperty
+   },
+   ```
+   The `baseVerbosityProperty` gives it `type: 'boolean'`, `default: true`, and `tags: ['accessibility']`.
 
-- [ ] **Keyboard navigation:** Tab through entire page, use Enter/Space to activate
-- [ ] **Screen reader:** Test with VoiceOver (Mac), NVDA (Windows), or TalkBack (Android)
-- [ ] **Zoom:** Content usable at 200% zoom
-- [ ] **High contrast:** Test with Windows High Contrast Mode
-- [ ] **Reduced motion:** Test with `prefers-reduced-motion: reduce`
-- [ ] **Focus order:** Logical and follows visual order
-
-### Screen reader commands
-
-| Action        | VoiceOver (Mac)     | NVDA (Windows) |
-| ------------- | ------------------- | -------------- |
-| Start/Stop    | ⌘ + F5              | Ctrl + Alt + N |
-| Next item     | VO + →              | ↓              |
-| Previous item | VO + ←              | ↑              |
-| Activate      | VO + Space          | Enter          |
-| Headings list | VO + U, then arrows | H / Shift + H  |
-| Links list    | VO + U              | K / Shift + K  |
+3. **Reference the setting key** in both the help-dialog provider (`verbositySettingKey`) and the accessible-view provider so the runtime can check whether to show the hint.
 
 ---
 
-## Common issues by impact
+## 4. Accessibility Signals (Sounds & Announcements)
 
-### Critical (fix immediately)
+Accessibility signals provide audible and spoken feedback for events that happen visually. Use `IAccessibilitySignalService` to play signals when something important occurs (e.g., an error appears, a task completes, content changes).
 
-1. Missing form labels
-2. Missing image alt text
-3. Insufficient color contrast
-4. Keyboard traps
-5. No focus indicators
+### When to use
 
-### Serious (fix before launch)
+- **Use an existing signal** when the event already has one defined (see `AccessibilitySignal.*` static members — e.g., `AccessibilitySignal.error`, `AccessibilitySignal.terminalQuickFix`, `AccessibilitySignal.clear`).
+- **If no existing signal fits**, reach out to @meganrogge to discuss adding a new one. Do not register new signals without coordinating first.
 
-1. Missing page language
-2. Missing heading structure
-3. Non-descriptive link text
-4. Auto-playing media
-5. Missing skip links
+### How signals work
 
-### Moderate (fix soon)
+Each signal has two modalities controlled by user settings:
+- **Sound** — a short audio cue, configurable to `auto` (on when screen reader attached), `on`, or `off`.
+- **Announcement** — a spoken message via `aria-live`, configurable to `auto` or `off`.
 
-1. Missing ARIA labels on icons
-2. Inconsistent navigation
-3. Missing error identification
-4. Timing without controls
-5. Missing landmark regions
+### Usage
 
-## References
+```ts
+// Inject the service via constructor parameter
+constructor(
+	@IAccessibilitySignalService private readonly _accessibilitySignalService: IAccessibilitySignalService
+) { }
 
-- [WCAG 2.1 Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/)
-- [WAI-ARIA Authoring Practices](https://www.w3.org/WAI/ARIA/apg/)
-- [Deque axe Rules](https://dequeuniversity.com/rules/axe/)
+// Play a signal
+this._accessibilitySignalService.playSignal(AccessibilitySignal.terminalQuickFix);
+
+// Play with options
+this._accessibilitySignalService.playSignal(AccessibilitySignal.error, { userGesture: true });
+```
+
+---
+
+## 5. ARIA Alerts vs. Status Messages
+
+Use the `alert()` and `status()` functions from `src/vs/base/browser/ui/aria/aria.ts` to announce dynamic changes to screen readers.
+
+### `alert(msg)` — Assertive live region (`role="alert"`)
+- **Use for**: Urgent, important information that the user must know immediately.
+- **Examples**: Errors, warnings, critical state changes, results of a user-initiated action.
+- **Behavior**: Interrupts the screen reader's current speech.
+
+### `status(msg)` — Polite live region (`aria-live="polite"`)
+- **Use for**: Non-urgent, informational updates that should be spoken when the screen reader is idle.
+- **Examples**: Progress updates, search result counts, background state changes.
+- **Behavior**: Queued and spoken after the screen reader finishes its current output.
+
+### Guidelines
+
+- **Prefer `status()` over `alert()`** unless the information is time-sensitive or the result of a direct user action. Overusing `alert()` creates a noisy, disruptive experience.
+- **Keep messages concise.** Screen readers read the entire message; long messages delay the user.
+- **Do not duplicate** — if an accessibility signal already announces the event, do not also call `alert()` / `status()` for the same information.
+- **Localize** all messages with `nls.localize()`.
+
+---
+
+## 6. Keyboard Navigation
+
+Every interactive UI element must be fully operable via the keyboard.
+
+### Requirements
+
+- **Tab order**: All interactive elements must be reachable via `Tab` / `Shift+Tab` in a logical order.
+- **Arrow key navigation**: Lists, trees, grids, and toolbars must support arrow key navigation following WAI-ARIA patterns.
+- **Focus visibility**: Focused elements must have a visible focus indicator (VS Code's theme system provides this via `focusBorder`).
+- **No mouse-only interactions**: Every action reachable by click or hover must also be reachable via keyboard (context menus, buttons, toggles, etc.).
+- **Escape to dismiss**: Overlays, dialogs, and popups must be dismissable with `Escape`, returning focus to the previous element.
+- **Focus trapping**: Modal dialogs must trap focus within the dialog until dismissed.
+
+---
+
+## 7. ARIA Labels and Roles
+
+All interactive UI elements must have appropriate ARIA attributes so screen readers can identify and describe them.
+
+### Requirements
+
+- **`aria-label`**: Every interactive element without visible text (icon buttons, icon-only actions, custom widgets) must have a descriptive `aria-label`. Labels should be localized.
+- **`aria-labelledby`** / **`aria-describedby`**: Use these to associate elements with existing visible text rather than duplicating strings.
+- **`role`**: Custom widgets that do not use native HTML elements must declare the correct ARIA role (e.g., `role="button"`, `role="tree"`, `role="tablist"`).
+- **`aria-expanded`**, **`aria-selected`**, **`aria-checked`**: Toggle and selection states must be communicated via the appropriate ARIA state attributes.
+- **`aria-hidden="true"`**: Decorative or redundant elements (icons next to text labels, decorative separators) must be hidden from the accessibility tree.
+
+### Guidelines
+
+- Avoid generic labels like "button" or "icon" — describe the action: "Close panel", "Toggle sidebar", "Run task".
+- Test with a screen reader (VoiceOver on macOS, NVDA on Windows) to verify labels are spoken correctly in context.
+- Lists and trees should use `aria-setsize` and `aria-posinset` when virtualized so screen readers report the correct count.
+
+---
+
+## Checklist for Every New Feature
+
+- [ ] New `AccessibleViewProviderId` entry added in `accessibleView.ts`
+- [ ] New `AccessibilityVerbositySettingId` entry added in `accessibilityConfiguration.ts`
+- [ ] Verbosity setting registered in the configuration properties with `...baseVerbosityProperty`
+- [ ] `IAccessibleViewImplementation` with `type = Help` created and registered
+- [ ] Content provider references the correct `verbositySettingKey`
+- [ ] Help text is fully localized using `nls.localize()`
+- [ ] Keybindings in help text use `<keybinding:commandId>` syntax for dynamic resolution
+- [ ] `when` context key is set so the dialog only appears when the feature is focused
+- [ ] If the feature has rich/visual content: `IAccessibleViewImplementation` with `type = View` created and registered
+- [ ] Registration calls in the feature's `*.contribution.ts` file
+- [ ] Accessibility signal played for important events (use existing `AccessibilitySignal.*` or register a new one)
+- [ ] `aria.alert()` or `aria.status()` used appropriately for dynamic changes (prefer `status()` unless urgent)
+- [ ] All interactive elements reachable and operable via keyboard
+- [ ] All interactive elements without visible text have a localized `aria-label`
+- [ ] Custom widgets declare the correct ARIA `role` and state attributes
+- [ ] Decorative elements are hidden with `aria-hidden="true"`
+
+## Key Files
+
+- `src/vs/platform/accessibility/browser/accessibleView.ts` — `AccessibleViewProviderId`, `AccessibleContentProvider`, `IAccessibleViewContentProvider`
+- `src/vs/platform/accessibility/browser/accessibleViewRegistry.ts` — `AccessibleViewRegistry`, `IAccessibleViewImplementation`
+- `src/vs/workbench/contrib/accessibility/browser/accessibilityConfiguration.ts` — `AccessibilityVerbositySettingId`, verbosity setting registration
+- `src/vs/platform/accessibilitySignal/browser/accessibilitySignalService.ts` — `IAccessibilitySignalService`, `AccessibilitySignal`
+- `src/vs/base/browser/ui/aria/aria.ts` — `alert()`, `status()` for ARIA live region announcements
+

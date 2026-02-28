@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fc675712505501b8509ffe7b7f420dfd9238c2c1423dbe4f38ceecea53e070ba",
   "indexed_at": "2026-02-25T19:25:36.051Z",
-  "synced_at": "2026-02-27T02:23:36.155Z",
+  "synced_at": "2026-02-28T03:48:12.089Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/024902ec0660e1b3e95678bf22ae4021c57e74a17b4abdb5711f7d9f7cc50885",
   "install_command": "mkdir -p .claude/skills/unreal-engine-cpp-pro && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/unreal-engine-cpp-pro/SKILL.md\" > .claude/skills/unreal-engine-cpp-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/unreal-engine-cpp-pro/SKILL.md"

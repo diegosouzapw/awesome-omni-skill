@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "295e9d77a05a7a47f59c0041b0fdf2d3a5f112126f9e3c1f8e214f2e5276ad7a",
   "indexed_at": "2026-02-25T16:24:43.829Z",
-  "synced_at": "2026-02-27T02:24:05.687Z",
+  "synced_at": "2026-02-28T03:48:40.911Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0b80d3a49ff72ca632040a9b335b8f30d16ad44dba369ce954ecc2936af763e5",
   "install_command": "mkdir -p .claude/skills/dotnet-architect && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/dotnet-architect/SKILL.md\" > .claude/skills/dotnet-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/dotnet-architect/SKILL.md"

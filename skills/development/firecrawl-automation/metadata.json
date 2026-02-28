@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9a612670f2a1a06f52aa4009b8a9bf0e593aeb4120bc7259d7bd67f3e83f139f",
   "indexed_at": "2026-02-24T22:55:01.999Z",
-  "synced_at": "2026-02-27T02:23:28.925Z",
+  "synced_at": "2026-02-28T03:48:06.012Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ffa2d3beca5ff4ab78906af1d9b7ad5d2f0311f86418a476ae0fb9d4d61995c7",
   "install_command": "mkdir -p .claude/skills/firecrawl-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/firecrawl-automation/SKILL.md\" > .claude/skills/firecrawl-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/firecrawl-automation/SKILL.md"

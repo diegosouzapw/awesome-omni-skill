@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "097d533643e28abea0e38d204047ac1a9e043edd677d2fccd3131696ca2f6807",
   "indexed_at": "2026-02-25T22:27:34.807Z",
-  "synced_at": "2026-02-27T02:23:18.009Z",
+  "synced_at": "2026-02-28T03:47:56.462Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8d4377b2c9781c6bccc02d52d91e16618402ba8e04257670e2495e222fe4c003",
   "install_command": "mkdir -p .claude/skills/serpapi-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/serpapi-automation/SKILL.md\" > .claude/skills/serpapi-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/serpapi-automation/SKILL.md"

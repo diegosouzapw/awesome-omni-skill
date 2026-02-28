@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1484196dc55c071531355f882640ec2db98e8afdd4a53f28b594c33195b4c89b",
   "indexed_at": "2026-02-24T22:49:18.045Z",
-  "synced_at": "2026-02-27T02:23:24.303Z",
+  "synced_at": "2026-02-28T03:48:01.967Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d125943d08dfa41aaca3b036e15f7eea64034199246596b6217f0725f55ddd0b",
   "install_command": "mkdir -p .claude/skills/apitemplate-io-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/apitemplate-io-automation/SKILL.md\" > .claude/skills/apitemplate-io-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/apitemplate-io-automation/SKILL.md"

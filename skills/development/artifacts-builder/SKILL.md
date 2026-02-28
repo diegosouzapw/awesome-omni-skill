@@ -41,7 +41,6 @@ This creates a fully configured project with:
 ### Step 2: Develop Your Artifact
 
 To build the artifact, edit the generated files. See **Common Development Tasks** below for guidance.
-If you need to confirm design choices or functionality with the user during development, use `mcp-feedback-enhanced` (e.g., `ask_followup_question`) if available.
 
 ### Step 3: Bundle to Single HTML File
 

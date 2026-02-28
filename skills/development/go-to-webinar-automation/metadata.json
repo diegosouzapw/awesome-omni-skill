@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "448c499b3601ac848bddd715461a1dbd21fbc46bc64f4fe8fe516629bfc2834d",
   "indexed_at": "2026-02-24T22:56:01.448Z",
-  "synced_at": "2026-02-27T02:23:30.525Z",
+  "synced_at": "2026-02-28T03:48:07.465Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/43ad71a98f59dcb8b669866fc4c063803e79f9f676fe6a60d85831f6d8deacc5",
   "install_command": "mkdir -p .claude/skills/go-to-webinar-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/go-to-webinar-automation/SKILL.md\" > .claude/skills/go-to-webinar-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/go-to-webinar-automation/SKILL.md"

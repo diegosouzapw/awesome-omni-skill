@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c746e6a9991ace2c67c64d41811c5b8bc74e69abc8cf8ade7c28ff0d4e4a3361",
   "indexed_at": "2026-02-25T16:23:23.334Z",
-  "synced_at": "2026-02-27T02:24:06.776Z",
+  "synced_at": "2026-02-28T03:48:42.008Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2d1be4b012dffe5ae4075e498887d75242cb7798e44533a4648e4149fbaddcd8",
   "install_command": "mkdir -p .claude/skills/database-design && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/database-design/SKILL.md\" > .claude/skills/database-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/database-design/SKILL.md"

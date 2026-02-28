@@ -1,7 +1,8 @@
 ---
-version: 4.1.0-fractal
 name: backend-dev-guidelines
-description: Opinionated backend development standards for Node.js + Express + TypeScript microservices. Covers layered architecture, BaseController pattern, dependency injection, Prisma repositories, Zod validation, unifiedConfig, Sentry error tracking, async safety, and testing discipline.
+description: "Opinionated backend development standards for Node.js + Express + TypeScript microservices. Covers layered architecture, BaseController pattern, dependency injection, Prisma repositories, Zod valid..."
+risk: unknown
+source: community
 ---
 
 # Backend Development Guidelines
@@ -342,17 +343,5 @@ Before finalizing backend work:
 **Intended Use:** Long-lived Node.js microservices with real traffic and real risk
 ---
 
-
-## 🧠 Knowledge Modules (Fractal Skills)
-
-### 1. [architecture-overview](./sub-skills/architecture-overview.md)
-### 2. [async-and-errors](./sub-skills/async-and-errors.md)
-### 3. [complete-examples](./sub-skills/complete-examples.md)
-### 4. [configuration](./sub-skills/configuration.md)
-### 5. [database-patterns](./sub-skills/database-patterns.md)
-### 6. [middleware-guide](./sub-skills/middleware-guide.md)
-### 7. [routing-and-controllers](./sub-skills/routing-and-controllers.md)
-### 8. [sentry-and-monitoring](./sub-skills/sentry-and-monitoring.md)
-### 9. [services-and-repositories](./sub-skills/services-and-repositories.md)
-### 10. [testing-guide](./sub-skills/testing-guide.md)
-### 11. [validation-patterns](./sub-skills/validation-patterns.md)
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "793aa59cfd2493743fea659ede9e8f4ea8adfdf5952d96287d3ff4cdb5e8272a",
   "indexed_at": "2026-02-25T19:27:18.360Z",
-  "synced_at": "2026-02-27T02:23:37.950Z",
+  "synced_at": "2026-02-28T03:48:13.901Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f4772480eddf4a86c7e34745dd30822c5b0308860fa103ab6101f7d6aeed94b0",
   "install_command": "mkdir -p .claude/skills/zoom-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/zoom-automation/SKILL.md\" > .claude/skills/zoom-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/zoom-automation/SKILL.md"

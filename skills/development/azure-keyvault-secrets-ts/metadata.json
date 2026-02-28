@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6651853b5d4eee32b67b0edd50ff69823358af967fdba6e7047304b03e59ec14",
   "indexed_at": "2026-02-25T15:23:14.779Z",
-  "synced_at": "2026-02-27T02:24:17.085Z",
+  "synced_at": "2026-02-28T03:48:52.477Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/62154a31fe47779f2a9d7f00d5abc96b2898e2a1605b0867e085dec819dfe47e",
   "install_command": "mkdir -p .claude/skills/azure-keyvault-secrets-ts && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-keyvault-secrets-ts/SKILL.md\" > .claude/skills/azure-keyvault-secrets-ts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-keyvault-secrets-ts/SKILL.md"

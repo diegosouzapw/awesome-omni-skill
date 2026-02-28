@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6f3a85661b95f7419c4daa3909994fcaffe23eeb2899921f6885ac38bf6e68ff",
   "indexed_at": "2026-02-24T22:49:19.362Z",
-  "synced_at": "2026-02-27T02:23:24.472Z",
+  "synced_at": "2026-02-28T03:48:02.112Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a0916ddf99de24372e3d0561bcc18d79cec3517428712a84518e1436cb85a8ba",
   "install_command": "mkdir -p .claude/skills/apiverve-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/apiverve-automation/SKILL.md\" > .claude/skills/apiverve-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/apiverve-automation/SKILL.md"

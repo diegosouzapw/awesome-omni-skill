@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b7a8ba9e583981266dc2d391a288c15ace2aa8e8a91eb57410dd11c7050684e6",
   "indexed_at": "2026-02-25T15:24:17.536Z",
-  "synced_at": "2026-02-27T02:24:21.598Z",
+  "synced_at": "2026-02-28T03:48:56.948Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/acbdee3ca4e9f479045c844c5d7c9788790009cdc5e5502a56e3314c257b90d6",
   "install_command": "mkdir -p .claude/skills/backend-security-coder && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/backend-security-coder/SKILL.md\" > .claude/skills/backend-security-coder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/backend-security-coder/SKILL.md"

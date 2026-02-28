@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "16865019243fce14b31cc70f71e0b2cb39dcf18cd7a9fd2842a87c53ed9cc40a",
   "indexed_at": "2026-02-25T17:24:26.616Z",
-  "synced_at": "2026-02-27T02:23:57.307Z",
+  "synced_at": "2026-02-28T03:48:32.625Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b7958f54d040fbba967a33784009f6bcecd38136a426eb508a5f1b79650d6293",
   "install_command": "mkdir -p .claude/skills/lint-and-validate && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/lint-and-validate/SKILL.md\" > .claude/skills/lint-and-validate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/lint-and-validate/SKILL.md"

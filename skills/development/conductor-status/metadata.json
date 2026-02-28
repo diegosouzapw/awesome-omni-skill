@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "74e2264a98e069575f2d0246f399e6d3204d9ea673adce50ba4638324abf372c",
   "indexed_at": "2026-02-25T15:27:18.200Z",
-  "synced_at": "2026-02-27T02:24:23.350Z",
+  "synced_at": "2026-02-28T03:48:58.751Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ab59df714f54a1dce871fd9b4d5f5f45463539c877ceca9264a03d2fd10792ec",
   "install_command": "mkdir -p .claude/skills/conductor-status && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/conductor-status/SKILL.md\" > .claude/skills/conductor-status/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/conductor-status/SKILL.md"

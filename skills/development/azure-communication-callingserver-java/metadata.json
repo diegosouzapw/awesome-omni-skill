@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b2a6ffc65ef84485324a05fe0174cb60d11054500ee3e2b9e4daffc1b30be75f",
   "indexed_at": "2026-02-25T15:22:34.285Z",
-  "synced_at": "2026-02-27T02:24:15.096Z",
+  "synced_at": "2026-02-28T03:48:50.515Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8db108d2b8c50f30c95fbcd4232baac12da75c71775b1352c4329c58f1915a3d",
   "install_command": "mkdir -p .claude/skills/azure-communication-callingserver-java && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-communication-callingserver-java/SKILL.md\" > .claude/skills/azure-communication-callingserver-java/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-communication-callingserver-java/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2c18e4875d1b7444b0fda19df6afbf4be921035393b0c00fcf8ce4dccf29ff57",
   "indexed_at": "2026-02-26T01:26:19.932Z",
-  "synced_at": "2026-02-27T02:23:14.139Z",
+  "synced_at": "2026-02-28T03:47:52.957Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e5879ffe460b3a7bf88d4e36292689b0e6c87f1a3a3d90db677412828e225699",
   "install_command": "mkdir -p .claude/skills/webvizio-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/webvizio-automation/SKILL.md\" > .claude/skills/webvizio-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/webvizio-automation/SKILL.md"

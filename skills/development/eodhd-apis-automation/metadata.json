@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "633bffb158a01fda6ddd6f6edea9eb779a709241f971c83d82475688599a79bf",
   "indexed_at": "2026-02-24T22:54:15.511Z",
-  "synced_at": "2026-02-27T02:23:28.282Z",
+  "synced_at": "2026-02-28T03:48:05.404Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/45e37e98a73710e9befcde4a76b6a2d8bdbe7a110ff042fd40aedbc7db85bb4c",
   "install_command": "mkdir -p .claude/skills/eodhd-apis-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/eodhd-apis-automation/SKILL.md\" > .claude/skills/eodhd-apis-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/eodhd-apis-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fabb5434a15c16e32057c0768ae89558cd2de52d0a8f0f8a0ed864ab9656ee31",
   "indexed_at": "2026-02-24T22:49:10.234Z",
-  "synced_at": "2026-02-27T02:23:23.246Z",
+  "synced_at": "2026-02-28T03:48:01.048Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/75ef90871e586bd23ea8af7fea75985623326c4a910f6dff42a9c00f98b240e6",
   "install_command": "mkdir -p .claude/skills/api-sports-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/api-sports-automation/SKILL.md\" > .claude/skills/api-sports-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/api-sports-automation/SKILL.md"

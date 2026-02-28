@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "03824b7bee78a7c17410a1a44f7b646982dd13aea21c1c5e7122f778a6440012",
   "indexed_at": "2026-02-25T17:24:08.505Z",
-  "synced_at": "2026-02-27T02:23:51.574Z",
+  "synced_at": "2026-02-28T03:48:26.901Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/21d621ed5d474d216c8194bc21690fabe7d431124952e93010d36e2d7cc4f11c",
   "install_command": "mkdir -p .claude/skills/laravel-expert && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/laravel-expert/SKILL.md\" > .claude/skills/laravel-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/laravel-expert/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2d4930b65163f4db8c76da35fe542047bcad2560aac76a7e9baee5e951909bcf",
   "indexed_at": "2026-02-25T18:24:10.628Z",
-  "synced_at": "2026-02-27T02:23:48.196Z",
+  "synced_at": "2026-02-28T03:48:23.660Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d588f27dd37c5b5e8cd0747bc744666050ddbbf86f046fbaddaf1df77254c167",
   "install_command": "mkdir -p .claude/skills/pydantic-models-py && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/pydantic-models-py/SKILL.md\" > .claude/skills/pydantic-models-py/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/pydantic-models-py/SKILL.md"

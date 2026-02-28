@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b2acb2071d1136916e1b4f72e72601fb73ab15ca1ea90a953ba9425347f564a3",
   "indexed_at": "2026-02-25T19:27:30.833Z",
-  "synced_at": "2026-02-27T02:23:38.117Z",
+  "synced_at": "2026-02-28T03:48:14.066Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1698585f2a3669bc66bfb514c7bb8635e0294c71ba679d35cb8ec3beb66631e4",
   "install_command": "mkdir -p .claude/skills/mobile-games && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/game-development/mobile-games/SKILL.md\" > .claude/skills/mobile-games/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/game-development/mobile-games/SKILL.md"

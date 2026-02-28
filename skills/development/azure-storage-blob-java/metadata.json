@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8be999ef581df6b99c967f3384b9277356355b66b3af308fb0818375c6b807e0",
   "indexed_at": "2026-02-25T15:24:01.442Z",
-  "synced_at": "2026-02-27T02:24:18.255Z",
+  "synced_at": "2026-02-28T03:48:53.649Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/34d05056a6768d32967c6f42e3a32a1706ddaec4709a346287633017ea9c2d0f",
   "install_command": "mkdir -p .claude/skills/azure-storage-blob-java && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-storage-blob-java/SKILL.md\" > .claude/skills/azure-storage-blob-java/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-storage-blob-java/SKILL.md"

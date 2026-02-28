@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9bb6dab35aa5590e578ebd05f225e3f3efe8697af03a8c4fdcb90f5adef0dec9",
   "indexed_at": "2026-02-25T15:25:19.397Z",
-  "synced_at": "2026-02-27T02:24:20.129Z",
+  "synced_at": "2026-02-28T03:48:55.416Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2ca65945a0f0e8f4794716acf88fe6f2936f0908a52dcb478960a9edcc60a913",
   "install_command": "mkdir -p .claude/skills/c4-architecture-c4-architecture && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/c4-architecture-c4-architecture/SKILL.md\" > .claude/skills/c4-architecture-c4-architecture/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/c4-architecture-c4-architecture/SKILL.md"

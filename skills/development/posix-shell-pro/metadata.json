@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ca76304c27df88be8bf58f0feef19a7e4af8ea59d17cfb9076b2420102d9a440",
   "indexed_at": "2026-02-25T18:23:31.485Z",
-  "synced_at": "2026-02-27T02:23:46.338Z",
+  "synced_at": "2026-02-28T03:48:21.757Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed694bab677d5a8c9b65b0d590b6d63be26ec9cb33e7da5620939b188dda5269",
   "install_command": "mkdir -p .claude/skills/posix-shell-pro && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/posix-shell-pro/SKILL.md\" > .claude/skills/posix-shell-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/posix-shell-pro/SKILL.md"

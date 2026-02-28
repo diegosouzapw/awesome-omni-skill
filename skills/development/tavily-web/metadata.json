@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "106945d72d0af8a808b669c88510fbb6d014d3a7c99ccc2b9d79e590e2a93b45",
   "indexed_at": "2026-02-25T19:23:58.353Z",
-  "synced_at": "2026-02-27T02:23:40.421Z",
+  "synced_at": "2026-02-28T03:48:16.295Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a2595a06b4621f945a1aaa32bcc48715ae935e011a6bd29fe3b852e490829617",
   "install_command": "mkdir -p .claude/skills/tavily-web && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/tavily-web/SKILL.md\" > .claude/skills/tavily-web/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/tavily-web/SKILL.md"

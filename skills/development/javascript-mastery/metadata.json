@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "14f5d2dc4367b342515318b2c51d9c358a0f4cb605d2f35a5dfc557a4cafebfd",
   "indexed_at": "2026-02-25T17:23:37.892Z",
-  "synced_at": "2026-02-27T02:23:51.096Z",
+  "synced_at": "2026-02-28T03:48:26.419Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fd9514070e820c63dfa98431bcef79fa9a916857d9d901e9b4e43d2a920b5f0d",
   "install_command": "mkdir -p .claude/skills/javascript-mastery && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/javascript-mastery/SKILL.md\" > .claude/skills/javascript-mastery/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/javascript-mastery/SKILL.md"

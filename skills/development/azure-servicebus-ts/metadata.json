@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e5e33577f489e4729bb787fedeb7b4f0065219bcfbbfe58331d30e6f69a843d9",
   "indexed_at": "2026-02-25T15:23:58.732Z",
-  "synced_at": "2026-02-27T02:24:18.098Z",
+  "synced_at": "2026-02-28T03:48:53.487Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/35cd5210bd1298d01941030d2f906e38a4b8a33fb4d05435a57115d8ddd5e7d2",
   "install_command": "mkdir -p .claude/skills/azure-servicebus-ts && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-servicebus-ts/SKILL.md\" > .claude/skills/azure-servicebus-ts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-servicebus-ts/SKILL.md"

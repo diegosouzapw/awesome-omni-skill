@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8113955c01daef978f99dd11625408766e75eeaf532d1cce9869f45b9ee6fb6b",
   "indexed_at": "2026-02-25T16:22:38.402Z",
-  "synced_at": "2026-02-27T02:24:08.539Z",
+  "synced_at": "2026-02-28T03:48:43.818Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5007f2c175d8b9575187b7daa825542269de5870076d17ba48f32a4f7304322b",
   "install_command": "mkdir -p .claude/skills/context7-auto-research && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/context7-auto-research/SKILL.md\" > .claude/skills/context7-auto-research/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/context7-auto-research/SKILL.md"

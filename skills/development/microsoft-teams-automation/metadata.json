@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6068f962a7b6c1cb3dfee40c2e90d813d68af6fbd9dc24a18ae96035aa6d43a2",
   "indexed_at": "2026-02-25T17:25:24.961Z",
-  "synced_at": "2026-02-27T02:23:52.048Z",
+  "synced_at": "2026-02-28T03:48:27.341Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/795b14773cc0c1f88f731701536237afe6658c7a9f6d37e72d732660a077e0f0",
   "install_command": "mkdir -p .claude/skills/microsoft-teams-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/microsoft-teams-automation/SKILL.md\" > .claude/skills/microsoft-teams-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/microsoft-teams-automation/SKILL.md"

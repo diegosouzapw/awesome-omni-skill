@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "16903e9fe908db6f199e4e24a8d3ec6a7620ab80498e5b5d488eacb34540658e",
   "indexed_at": "2026-02-25T18:25:22.917Z",
-  "synced_at": "2026-02-27T02:23:48.859Z",
+  "synced_at": "2026-02-28T03:48:24.318Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b49700e261c18c4ff44b35a91ac07ccf4b09f41deb4b00354594a2f04ae9e5f9",
   "install_command": "mkdir -p .claude/skills/salesforce-development && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/salesforce-development/SKILL.md\" > .claude/skills/salesforce-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/salesforce-development/SKILL.md"

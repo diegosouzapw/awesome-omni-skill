@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6249a0bb2712613edc0304890cd2680f314a4d4e88251c77b9b03386c0274fb7",
   "indexed_at": "2026-02-25T15:25:48.832Z",
-  "synced_at": "2026-02-27T02:24:22.731Z",
+  "synced_at": "2026-02-28T03:48:58.104Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5f574f6f22d3c6d1bf8275106d2c8d4b40c3dba073c81650ca4b5064cb999167",
   "install_command": "mkdir -p .claude/skills/cc-skill-project-guidelines-example && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/cc-skill-project-guidelines-example/SKILL.md\" > .claude/skills/cc-skill-project-guidelines-example/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/cc-skill-project-guidelines-example/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3bf1ed605ba3548e70db0d7673fb1cd312ce238463813cf69d47065c6267514e",
   "indexed_at": "2026-02-25T16:25:54.003Z",
-  "synced_at": "2026-02-27T02:24:09.184Z",
+  "synced_at": "2026-02-28T03:48:44.506Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/20cbda76934e282dd2475272720a5c2878c90cb6787ebec2ce7b118810a06078",
   "install_command": "mkdir -p .claude/skills/firecrawl-scraper && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/firecrawl-scraper/SKILL.md\" > .claude/skills/firecrawl-scraper/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/firecrawl-scraper/SKILL.md"

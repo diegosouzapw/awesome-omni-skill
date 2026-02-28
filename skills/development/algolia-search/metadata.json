@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3c10713d745dcc5d41e950c8aa00ce3bb2fba35c8c7427d9d33c23cde0a1fb43",
   "indexed_at": "2026-02-25T15:20:33.679Z",
-  "synced_at": "2026-02-27T02:24:23.526Z",
+  "synced_at": "2026-02-28T03:48:58.910Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/537822e0473f6e546c2109444ed889fd946dffefc95742f47a005b7f040bf587",
   "install_command": "mkdir -p .claude/skills/algolia-search && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/algolia-search/SKILL.md\" > .claude/skills/algolia-search/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/algolia-search/SKILL.md"

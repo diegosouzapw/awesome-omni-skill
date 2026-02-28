@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "200591de966e6a7026c893b3e9407699d94e81e59f13b6431b0133a132eda933",
   "indexed_at": "2026-02-25T15:24:58.734Z",
-  "synced_at": "2026-02-27T02:24:19.807Z",
+  "synced_at": "2026-02-28T03:48:55.093Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4f9dd8b58f2ed4dd341e0c7328fa51e7638196c5e01cfc8a2efe288185c331bd",
   "install_command": "mkdir -p .claude/skills/brevo-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/brevo-automation/SKILL.md\" > .claude/skills/brevo-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/brevo-automation/SKILL.md"

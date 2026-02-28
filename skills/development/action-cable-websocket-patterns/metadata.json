@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ff00ca966dc063ac39d5856f003e92e969ca03bbbc400bb45531a69b46d3ef73",
   "indexed_at": "2026-02-27T00:54:57.862Z",
-  "synced_at": "2026-02-27T02:24:27.148Z",
+  "synced_at": "2026-02-28T03:49:02.519Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3a2e24f2db68b077777404d55562c2ad5b123d25c1ca2b390586cd3bae8c06a2",
   "install_command": "mkdir -p .claude/skills/action-cable-websocket-patterns && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/action-cable-patterns/SKILL.md\" > .claude/skills/action-cable-websocket-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/action-cable-patterns/SKILL.md"
