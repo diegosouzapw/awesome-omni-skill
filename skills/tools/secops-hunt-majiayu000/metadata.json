@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry-data",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "other/other/hunt/SKILL.md",
+  "file_path": "other/hunt-google-mcp-security/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": false,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "3e04ca5ca7fb2c5189406536cd8348a7aa28b84a57f4153c098a464d115038bb",
-  "indexed_at": "2026-02-25T15:55:25.953Z",
-  "synced_at": "2026-02-28T04:15:08.041Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c449a769fa69706ff7870fc7b4cb53d53d53ef01df0b444790b884633f0a5060",
-  "install_command": "mkdir -p .claude/skills/secops-hunt && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/hunt/SKILL.md\" > .claude/skills/secops-hunt/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/hunt/SKILL.md"
+  "content_hash": "4517bc93aa124a24482d74704ff81aa8bb8d03a4ec68faf2a719bb27f630df5b",
+  "indexed_at": "2026-02-27T22:50:09.892Z",
+  "synced_at": "2026-02-28T04:17:02.579Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a08b9a7efa2442e582b002a4720f27bfbb24e99f5b9daea43030b22d118e5ab0",
+  "install_command": "mkdir -p .claude/skills/secops-hunt && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/hunt-google-mcp-security/SKILL.md\" > .claude/skills/secops-hunt/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/hunt-google-mcp-security/SKILL.md"
 }

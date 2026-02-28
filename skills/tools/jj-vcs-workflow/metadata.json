@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cbdcac45a78f5d1745f45133bf2d02fb0a788560e0d01e50809e67597cc980fc",
   "indexed_at": "2026-02-26T22:36:30.378Z",
-  "synced_at": "2026-02-27T02:46:47.315Z",
+  "synced_at": "2026-02-28T04:17:23.088Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bbbb5bb52b54df712f62542a4fd9250d53fe4034f79405389a7250cfea7eb9fd",
   "install_command": "mkdir -p .claude/skills/jj-vcs-workflow && curl -sL \"https://raw.githubusercontent.com/UtakataKyosui/C2Lab/main/plugins/jj-vcs-workflow/skills/jj-vcs-workflow/SKILL.md\" > .claude/skills/jj-vcs-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/UtakataKyosui/C2Lab/main/plugins/jj-vcs-workflow/skills/jj-vcs-workflow/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e49f768dbc2ff7311cce110861fc0fbef2fe68dafa245ffbecc9ff904488a830",
   "indexed_at": "2026-02-25T23:27:27.427Z",
-  "synced_at": "2026-02-27T02:47:08.976Z",
+  "synced_at": "2026-02-28T04:17:48.880Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/71bcd8cfa01e4c94408f27746730b6d3e25d62b9bab53cf7bd81fd3ce226b3c0",
   "install_command": "mkdir -p .claude/skills/synthflow-ai-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/synthflow-ai-automation/SKILL.md\" > .claude/skills/synthflow-ai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/synthflow-ai-automation/SKILL.md"

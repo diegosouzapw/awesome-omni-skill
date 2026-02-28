@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7f4e31fa56de05d8bc0773e5eb9483f9c2af411caed82dfa1f05b361d99f9ca5",
   "indexed_at": "2026-02-24T23:04:25.857Z",
-  "synced_at": "2026-02-27T02:47:13.294Z",
+  "synced_at": "2026-02-28T04:17:53.296Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aa176253a9f8519292522d24e6e6fe087e2a6f5fad712566e1c184f52a11196d",
   "install_command": "mkdir -p .claude/skills/iqair-airvisual-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/iqair-airvisual-automation/SKILL.md\" > .claude/skills/iqair-airvisual-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/iqair-airvisual-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "563f264e4c0a1160b7062d383726136e85546f09ded85cb7cc13c94f0623de63",
   "indexed_at": "2026-02-26T13:55:02.698Z",
-  "synced_at": "2026-02-27T02:47:05.311Z",
+  "synced_at": "2026-02-28T04:17:44.723Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5668ca7dc6951e6a862755833a9949fd9aac01c450695c82d8e72eb20caa1329",
   "install_command": "mkdir -p .claude/skills/drive-get-permissions && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/drive-get-permissions/SKILL.md\" > .claude/skills/drive-get-permissions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/drive-get-permissions/SKILL.md"

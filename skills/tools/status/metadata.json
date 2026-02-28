@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bc77c4ca76f7ffd35cbff747868548672d669034f0e8eb5c5339ed74ce850027",
   "indexed_at": "2026-02-26T11:56:44.605Z",
-  "synced_at": "2026-02-27T02:46:54.461Z",
+  "synced_at": "2026-02-28T04:17:29.872Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fcda66b9b41ec58a867637a186e641049a66e76b17542872dcb04cde01a453e5",
   "install_command": "mkdir -p .claude/skills/status && curl -sL \"https://raw.githubusercontent.com/TheWizardsCode/GEngine/main/SKILL.md\" > .claude/skills/status/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TheWizardsCode/GEngine/main/SKILL.md"

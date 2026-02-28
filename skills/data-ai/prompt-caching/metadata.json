@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "46e767a41a80ae70a83ff987c05901fb4231a06bde9b6fb2b19be6d4e034c760",
   "indexed_at": "2026-02-25T18:24:00.305Z",
-  "synced_at": "2026-02-27T02:47:21.899Z",
+  "synced_at": "2026-02-28T04:18:01.214Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5b3755fa1b5b45cffc6111e35f5edfe82c8d2fa205d7eda9a897c8fc14c6b1a2",
   "install_command": "mkdir -p .claude/skills/prompt-caching && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/prompt-caching/SKILL.md\" > .claude/skills/prompt-caching/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/prompt-caching/SKILL.md"

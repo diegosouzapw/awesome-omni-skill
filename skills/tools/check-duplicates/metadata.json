@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cede8ad0bfea96e87c1b57069d0f961ec18a0463238c0851bcfe71c6d9bb498e",
   "indexed_at": "2026-02-25T13:11:12.902Z",
-  "synced_at": "2026-02-27T02:46:49.825Z",
+  "synced_at": "2026-02-28T04:17:25.489Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3741ccd4b3c96d3bab0db1068dbb75257dec82f22101ff957b561c8ebe1da32c",
   "install_command": "mkdir -p .claude/skills/check-duplicates && curl -sL \"https://raw.githubusercontent.com/dandye/ai-runbooks/main/skills/check-duplicates/SKILL.md\" > .claude/skills/check-duplicates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dandye/ai-runbooks/main/skills/check-duplicates/SKILL.md"

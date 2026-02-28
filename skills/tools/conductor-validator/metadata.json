@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "26656a2bee4b7b080ce16e1e45f29d867a617acbccbb3d0e99dfd0b39df21740",
   "indexed_at": "2026-02-25T13:11:02.027Z",
-  "synced_at": "2026-02-27T02:46:59.198Z",
+  "synced_at": "2026-02-28T04:17:37.675Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8a62a46549d4a5844e8e0109a78268f469bbeb701ad38c7b2f82d09f41c0cb7f",
   "install_command": "mkdir -p .claude/skills/conductor-validator && curl -sL \"https://raw.githubusercontent.com/rothdev/catalyst-os/main/tools/telegram/TC3-jarvis-hybrid/catalyst-skills/community/sickn33-antigravity/skills/conductor-validator/SKILL.md\" > .claude/skills/conductor-validator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rothdev/catalyst-os/main/tools/telegram/TC3-jarvis-hybrid/catalyst-skills/community/sickn33-antigravity/skills/conductor-validator/SKILL.md"

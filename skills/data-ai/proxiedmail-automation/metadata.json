@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "50dc0369a071daf82c5bb4c5bd72e08ad2b8c1aa5d80cf46584ccca8ade994ee",
   "indexed_at": "2026-02-25T22:25:40.669Z",
-  "synced_at": "2026-02-27T02:47:09.133Z",
+  "synced_at": "2026-02-28T04:17:49.024Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/286fbe81867f5ab2357269affa477449a6769ef5526d79105e55d05d7392ce00",
   "install_command": "mkdir -p .claude/skills/proxiedmail-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/proxiedmail-automation/SKILL.md\" > .claude/skills/proxiedmail-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/proxiedmail-automation/SKILL.md"

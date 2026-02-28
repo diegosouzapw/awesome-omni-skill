@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "735240e5db027f67bf9bffa42de6cee330762f88b5d9147c788e9f2e2d057121",
   "indexed_at": "2026-02-25T16:10:33.578Z",
-  "synced_at": "2026-02-27T02:46:51.652Z",
+  "synced_at": "2026-02-28T04:17:27.214Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/62b61292bff2f3df9d8cc14b5acd39722ba2258ae6e439f1e3241b6bd2aded41",
   "install_command": "mkdir -p .claude/skills/gh-ci-triage && curl -sL \"https://raw.githubusercontent.com/PLeVasseur/opencode-project-agents/main/up-streamer-rust/skills/gh-ci-triage/SKILL.md\" > .claude/skills/gh-ci-triage/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/PLeVasseur/opencode-project-agents/main/up-streamer-rust/skills/gh-ci-triage/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3ea44d9decc32769b5f90249c158720171e8ff69d20534828123ca70c258639b",
   "indexed_at": "2026-02-25T17:24:05.444Z",
-  "synced_at": "2026-02-27T02:47:23.127Z",
+  "synced_at": "2026-02-28T04:18:02.286Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f3a0dd425244779903845c2560feb126b2692b57b4d5b0e64899cd4484162dce",
   "install_command": "mkdir -p .claude/skills/langfuse && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/langfuse/SKILL.md\" > .claude/skills/langfuse/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/langfuse/SKILL.md"

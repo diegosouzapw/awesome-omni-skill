@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c28dfbdda1e0563a0286ddbb194b3dd21dbbeda47e1d65a8a6ef669a1e5953dc",
   "indexed_at": "2026-02-26T10:20:48.632Z",
-  "synced_at": "2026-02-27T02:47:03.438Z",
+  "synced_at": "2026-02-28T04:17:42.115Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cf5b942e7c7edf6858c5d406af5f41ca21f8c5b2bfba3897f46bef43448706d2",
   "install_command": "mkdir -p .claude/skills/gsd-progress && curl -sL \"https://raw.githubusercontent.com/shoootyou/get-shit-done-multi/main/templates/skills/gsd-progress/SKILL.md\" > .claude/skills/gsd-progress/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/shoootyou/get-shit-done-multi/main/templates/skills/gsd-progress/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5dec8d5e4f5331247e9aa19254d011601f3596bb364342c55942d8ba49665df6",
   "indexed_at": "2026-02-27T18:05:42.528Z",
-  "synced_at": "2026-02-27T18:16:02.237Z",
+  "synced_at": "2026-02-28T04:16:57.667Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/42796d4a3b03864e9678b6c40e03cc3076fb5cf130f5544584b835ddfadfc641",
   "install_command": "mkdir -p .claude/skills/spec-driven-development && curl -sL \"https://raw.githubusercontent.com/HundredBillion/promiseKits/main/SKILL.md\" > .claude/skills/spec-driven-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HundredBillion/promiseKits/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "56325260919bf1cd322c08e07072b2d602e120847f9f50fc3dffcd6dccc37c90",
   "indexed_at": "2026-02-24T22:52:22.712Z",
-  "synced_at": "2026-02-27T02:47:17.207Z",
+  "synced_at": "2026-02-28T04:17:57.016Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c7d3c10913b3426cda7d2b0d113ec3803b4aa33f1fc70a5c0cf248afa192b0d2",
   "install_command": "mkdir -p .claude/skills/college-football-data-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/college-football-data-automation/SKILL.md\" > .claude/skills/college-football-data-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/college-football-data-automation/SKILL.md"

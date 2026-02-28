@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c117be4bbe796dcf41a74e6e9c78876d1994114b57c0aebd3648e283764a329",
   "indexed_at": "2026-02-24T23:35:24.802Z",
-  "synced_at": "2026-02-27T02:47:44.049Z",
+  "synced_at": "2026-02-28T04:18:21.690Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/57a1ff4038cf7b863aaca21adfac844bf8229086bc7a87f00417521f841a0a6d",
   "install_command": "mkdir -p .claude/skills/33god-system-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/33god-system-expert/SKILL.md\" > .claude/skills/33god-system-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/33god-system-expert/SKILL.md"

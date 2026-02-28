@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d3aaedcb24ae8326936f07c45452ba1fc688260c6d2b3a20807eab0614772102",
   "indexed_at": "2026-02-26T11:18:25.225Z",
-  "synced_at": "2026-02-27T02:46:54.229Z",
+  "synced_at": "2026-02-28T04:17:29.663Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/80413d4554228e2e1a2bd182f1ad657cea0590b7a0471093427df7a83bb7f03b",
   "install_command": "mkdir -p .claude/skills/fdc-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/fdc-expert/SKILL.md\" > .claude/skills/fdc-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/fdc-expert/SKILL.md"

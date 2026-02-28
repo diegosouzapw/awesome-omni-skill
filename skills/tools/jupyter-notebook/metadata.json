@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ee3652d6e491f94a71c00c3f3acba21d737443c22e5d0d74e27661210a98405a",
   "indexed_at": "2026-02-27T15:50:17.053Z",
-  "synced_at": "2026-02-27T18:16:03.416Z",
+  "synced_at": "2026-02-28T04:17:20.456Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d388f3c3ed19190c7c266b2278e3db691b34a6c6c2db3bb8f76364d504fe598d",
   "install_command": "mkdir -p .claude/skills/jupyter-notebook && curl -sL \"https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/main/translations/sw/.agents/skills/jupyter-notebook/SKILL.md\" > .claude/skills/jupyter-notebook/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/main/translations/sw/.agents/skills/jupyter-notebook/SKILL.md"

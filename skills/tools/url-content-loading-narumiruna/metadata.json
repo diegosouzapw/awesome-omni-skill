@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8bc1a21be5e72de1360b6e816a142898b9f18f5303221a365c3d6301b74678e2",
   "indexed_at": "2026-02-27T17:41:37.924Z",
-  "synced_at": "2026-02-27T18:16:04.455Z",
+  "synced_at": "2026-02-28T04:17:34.164Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ee53e84610b54bf4f4f8bbad338fb0d24a731b23f4b828a0c41ca42416be97cd",
   "install_command": "mkdir -p .claude/skills/url-content-loading && curl -sL \"https://raw.githubusercontent.com/narumiruna/kabigon/main/skills/url-content-loading/SKILL.md\" > .claude/skills/url-content-loading/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/narumiruna/kabigon/main/skills/url-content-loading/SKILL.md"

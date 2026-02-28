@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dc25f553240c931b10f4002f9bcf16daee0a25a341d6edbd09498a9699af477b",
   "indexed_at": "2026-02-26T05:41:33.564Z",
-  "synced_at": "2026-02-27T02:47:00.508Z",
+  "synced_at": "2026-02-28T04:17:38.933Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1eeae91fda180689f68524f3bb8cd410f74a043e593e471033b9c95f9542f281",
   "install_command": "mkdir -p .claude/skills/commit && curl -sL \"https://raw.githubusercontent.com/chriswickett/agentic-github/main/skills/commit/SKILL.md\" > .claude/skills/commit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chriswickett/agentic-github/main/skills/commit/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "469bfe41926baa4c77ceedacfe0ffd6dbc676249308b87fd039cc4af68027736",
   "indexed_at": "2026-02-25T14:05:02.735Z",
-  "synced_at": "2026-02-27T02:46:59.510Z",
+  "synced_at": "2026-02-28T04:17:37.997Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c3686fae371b9c9602153562caea2599164211ea250f4afa62e7233d7b6ba74c",
   "install_command": "mkdir -p .claude/skills/catalyst-identification && curl -sL \"https://raw.githubusercontent.com/HuskyDanny/FinancialAgent/main/backend/src/agent/skills/news/catalyst-identification/SKILL.md\" > .claude/skills/catalyst-identification/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HuskyDanny/FinancialAgent/main/backend/src/agent/skills/news/catalyst-identification/SKILL.md"

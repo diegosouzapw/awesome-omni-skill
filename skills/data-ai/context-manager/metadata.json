@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "518925d7b4b115c164f46c9699c469018fb41f634b2fe208817f4145e60d999d",
   "indexed_at": "2026-02-25T16:22:32.793Z",
-  "synced_at": "2026-02-27T02:47:28.164Z",
+  "synced_at": "2026-02-28T04:18:07.265Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3451f0c56eb15d9776960e208ce195429d1ab8db5c22a4d6dcb01b39335897fc",
   "install_command": "mkdir -p .claude/skills/context-manager && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/context-manager/SKILL.md\" > .claude/skills/context-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/context-manager/SKILL.md"

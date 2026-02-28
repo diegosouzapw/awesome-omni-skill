@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "920c03ebf6962285b45a74f7d77154d3a18feb6a2f121d27b81194f048a5d7be",
   "indexed_at": "2026-02-26T13:09:09.716Z",
-  "synced_at": "2026-02-27T02:47:06.311Z",
+  "synced_at": "2026-02-28T04:17:46.295Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b30d7b89d35c85d81e7cd53336de443c5e084d17428e1f6f510a2ea082d57984",
   "install_command": "mkdir -p .claude/skills/remember-plan && curl -sL \"https://raw.githubusercontent.com/ykpythemind/dotfiles/main/claude/skills/remember-plan/SKILL.md\" > .claude/skills/remember-plan/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ykpythemind/dotfiles/main/claude/skills/remember-plan/SKILL.md"

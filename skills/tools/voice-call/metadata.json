@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "65319b2b82d6f448211e707f491bb0458b690e257b9a432e94fe6fbac09461e6",
   "indexed_at": "2026-02-26T18:17:34.499Z",
-  "synced_at": "2026-02-27T02:47:04.808Z",
+  "synced_at": "2026-02-28T04:17:43.698Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3e0b39b30256a40a7b0a73cbb9d42e5e2c59a7bfee5e04443d00f24b004f5cf4",
   "install_command": "mkdir -p .claude/skills/voice-call && curl -sL \"https://raw.githubusercontent.com/kaivyy/kabot/main/kabot/skills/voice-call/SKILL.md\" > .claude/skills/voice-call/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kaivyy/kabot/main/kabot/skills/voice-call/SKILL.md"

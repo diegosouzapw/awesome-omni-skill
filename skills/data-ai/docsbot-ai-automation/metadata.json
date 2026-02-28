@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "357975b7daec1fdf48398261c99dbba366b48013b17c46dd05705cdecad91d91",
   "indexed_at": "2026-02-24T22:53:28.831Z",
-  "synced_at": "2026-02-27T02:47:18.277Z",
+  "synced_at": "2026-02-28T04:17:58.152Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a0ee2d5113685e1e613ad0121357c0030ee43452c26138260c8487b2b1c952b6",
   "install_command": "mkdir -p .claude/skills/docsbot-ai-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/docsbot-ai-automation/SKILL.md\" > .claude/skills/docsbot-ai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/docsbot-ai-automation/SKILL.md"

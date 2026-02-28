@@ -1,8 +1,15 @@
 ---
 name: context-fundamentals
-description: Understand the components, mechanics, and constraints of context in agent systems. Use when designing agent architectures, debugging context-related failures, or optimizing context usage.
+description: "Understand what context is, why it matters, and the anatomy of context in agent systems"
+source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-fundamentals"
+risk: safe
 ---
 
+## When to Use This Skill
+
+Understand what context is, why it matters, and the anatomy of context in agent systems
+
+Use this skill when working with understand what context is, why it matters, and the anatomy of context in agent systems.
 # Context Engineering Fundamentals
 
 Context is the complete state available to a language model at inference time. It includes everything the model can attend to when generating responses: system instructions, tool definitions, retrieved documents, message history, and tool outputs. Understanding context fundamentals is prerequisite to effective context engineering.
@@ -164,7 +171,7 @@ This skill provides foundational context that all other skills build upon. It sh
 ## References
 
 Internal reference:
-- [Context Components Reference](./references/context-components.md) - Detailed technical reference
+- Context Components Reference - Detailed technical reference
 
 Related skills in this collection:
 - context-degradation - Understanding context failure patterns

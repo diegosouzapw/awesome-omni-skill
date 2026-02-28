@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d114ebda13af1b3f8a05dace3c787f946474d25271461dded1961ade333a7ed3",
   "indexed_at": "2026-02-26T18:41:58.819Z",
-  "synced_at": "2026-02-27T02:46:36.540Z",
+  "synced_at": "2026-02-28T04:17:05.843Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ffa1625172d8ba43688a4376a14122d84a32d623a519adfab5193c79e42e63a3",
   "install_command": "mkdir -p .claude/skills/lead-research-assistant && curl -sL \"https://raw.githubusercontent.com/89jobrien/steve/main/steve/skills/lead-research-assistant/SKILL.md\" > .claude/skills/lead-research-assistant/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/89jobrien/steve/main/steve/skills/lead-research-assistant/SKILL.md"

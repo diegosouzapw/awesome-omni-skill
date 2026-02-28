@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6b0e9c74538efb6991c5cef5caff00a9791353e5e4a2ad70365dba1c470f6535",
   "indexed_at": "2026-02-25T14:54:39.426Z",
-  "synced_at": "2026-02-27T02:46:50.529Z",
+  "synced_at": "2026-02-28T04:17:26.190Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2397ce1fc7e5602e0c8a1d5f8da5c414484171f3c8e83a18c621155bea6a1430",
   "install_command": "mkdir -p .claude/skills/splunk-analyzer && curl -sL \"https://raw.githubusercontent.com/srsubramanian/splunk-analyzer-skill/main/.github/skills/splunk-analyzer/SKILL.md\" > .claude/skills/splunk-analyzer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/srsubramanian/splunk-analyzer-skill/main/.github/skills/splunk-analyzer/SKILL.md"

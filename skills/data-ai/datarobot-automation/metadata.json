@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5044a34c01a7de7d568345da9e7abca98e3e03deeba750e1e3ab2994c7b260a1",
   "indexed_at": "2026-02-24T22:53:00.467Z",
-  "synced_at": "2026-02-27T02:47:18.112Z",
+  "synced_at": "2026-02-28T04:17:57.899Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/542763f8d048892992de983da67dabf5c635bc317754909ebadc22e82cf71d18",
   "install_command": "mkdir -p .claude/skills/datarobot-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/datarobot-automation/SKILL.md\" > .claude/skills/datarobot-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/datarobot-automation/SKILL.md"

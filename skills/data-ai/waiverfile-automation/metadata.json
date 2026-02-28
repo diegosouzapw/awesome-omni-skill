@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dfedee583bc3706e1fabea763968922b951ba3e32379d384c94f01dbf682fd1e",
   "indexed_at": "2026-02-26T00:27:28.277Z",
-  "synced_at": "2026-02-27T02:47:08.395Z",
+  "synced_at": "2026-02-28T04:17:48.287Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bd1ed1f01a198141a9d9d3e087fce8bbd9313ec2803fcb1ea88d20b785fb7ed5",
   "install_command": "mkdir -p .claude/skills/waiverfile-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/waiverfile-automation/SKILL.md\" > .claude/skills/waiverfile-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/waiverfile-automation/SKILL.md"

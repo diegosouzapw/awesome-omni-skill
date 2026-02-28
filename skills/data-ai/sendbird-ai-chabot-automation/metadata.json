@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "01d7fd4ee204111a23ba655eb76d460d4ea24fbd2363916df24ff89fa3566aa7",
   "indexed_at": "2026-02-25T22:27:21.469Z",
-  "synced_at": "2026-02-27T02:47:10.509Z",
+  "synced_at": "2026-02-28T04:17:50.374Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c9b94e299ac20b5af2dcf0e9535b1e42326db9c1271ec914b55f4bea4d9617f7",
   "install_command": "mkdir -p .claude/skills/sendbird-ai-chabot-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sendbird-ai-chabot-automation/SKILL.md\" > .claude/skills/sendbird-ai-chabot-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sendbird-ai-chabot-automation/SKILL.md"

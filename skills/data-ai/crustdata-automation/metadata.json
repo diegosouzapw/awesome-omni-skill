@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2d3af3a48261d65edd62b0ff2df50d0f80042ea432be0c046680cb1d2906a89b",
   "indexed_at": "2026-02-24T22:52:43.367Z",
-  "synced_at": "2026-02-27T02:47:17.508Z",
+  "synced_at": "2026-02-28T04:17:57.306Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0ccd80c855971848566adb1d87f8cf44f3a781e702b58d1cc480d6a22f584acd",
   "install_command": "mkdir -p .claude/skills/crustdata-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/crustdata-automation/SKILL.md\" > .claude/skills/crustdata-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/crustdata-automation/SKILL.md"

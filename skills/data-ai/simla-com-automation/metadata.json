@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "864c10ef4dc6dc43c54302c0da6cfe68c85dbcfa25122f8ebd25620015a3474f",
   "indexed_at": "2026-02-25T23:26:30.409Z",
-  "synced_at": "2026-02-27T02:47:08.529Z",
+  "synced_at": "2026-02-28T04:17:48.439Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/32b15672a1d41154cc667e4bedcca79b494dab7ce189d09c3c63a08014d1f235",
   "install_command": "mkdir -p .claude/skills/simla-com-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/simla-com-automation/SKILL.md\" > .claude/skills/simla-com-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/simla-com-automation/SKILL.md"

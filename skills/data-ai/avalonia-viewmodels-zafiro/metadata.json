@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7f43b328356d1816cc5e79ccf145f25ddded5a5be15c5cb766f8f111c179899b",
   "indexed_at": "2026-02-25T15:21:41.635Z",
-  "synced_at": "2026-02-27T02:47:34.209Z",
+  "synced_at": "2026-02-28T04:18:12.784Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/29bdf9575756dc88f137be80773030634ce7abdae5f33e63062b322f25f3423e",
   "install_command": "mkdir -p .claude/skills/avalonia-viewmodels-zafiro && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/avalonia-viewmodels-zafiro/SKILL.md\" > .claude/skills/avalonia-viewmodels-zafiro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/avalonia-viewmodels-zafiro/SKILL.md"

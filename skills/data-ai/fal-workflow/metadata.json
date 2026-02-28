@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a65b56199a8471a157de3239f73dc3d721ca9f55adc3b4527982e9e338b0e7ca",
   "indexed_at": "2026-02-25T14:25:42.754Z",
-  "synced_at": "2026-02-27T02:47:35.291Z",
+  "synced_at": "2026-02-28T04:18:14.010Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a25b5d2e587bf80547ca962735c40264f0707c548b49753b6708bc1efb70985b",
   "install_command": "mkdir -p .claude/skills/fal-workflow && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/fal-workflow/SKILL.md\" > .claude/skills/fal-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/fal-workflow/SKILL.md"

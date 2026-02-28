@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d1631dfd60fd8864588ad43e13e565068923c54013148077ef5bc5ad0775dd76",
   "indexed_at": "2026-02-25T13:26:06.916Z",
-  "synced_at": "2026-02-27T02:47:35.612Z",
+  "synced_at": "2026-02-28T04:18:14.294Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aee965ff0ea6d8a5e2b84455ff1af0e53b84e3f3b55eec3556c95892e7eb48ef",
   "install_command": "mkdir -p .claude/skills/beautiful-prose && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/beautiful-prose/SKILL.md\" > .claude/skills/beautiful-prose/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/beautiful-prose/SKILL.md"

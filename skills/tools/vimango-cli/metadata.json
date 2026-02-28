@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "70d74bacf6080b6cac168ae65f8f687739f5567f1a8dcfc1c87bced1e59af2fd",
   "indexed_at": "2026-02-26T12:01:18.235Z",
-  "synced_at": "2026-02-27T02:46:54.647Z",
+  "synced_at": "2026-02-28T04:17:30.044Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ee194e7588b6fba291006164fc5ebd8913d27327475e1ba750990ed2b420f930",
   "install_command": "mkdir -p .claude/skills/vimango-cli && curl -sL \"https://raw.githubusercontent.com/slzatz/vimango_mcp_remote/main/SKILL.md\" > .claude/skills/vimango-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/slzatz/vimango_mcp_remote/main/SKILL.md"

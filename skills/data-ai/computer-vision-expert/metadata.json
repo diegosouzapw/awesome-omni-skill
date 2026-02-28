@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "913adb57730bc23578e7b3a8b4f33c4912300eda8cd26464f05a2220a8c9a90d",
   "indexed_at": "2026-02-25T15:27:04.841Z",
-  "synced_at": "2026-02-27T02:47:32.651Z",
+  "synced_at": "2026-02-28T04:18:11.236Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/317648c957b4a01b56e1a8b513f99e84c3d32eb49f7fb610bdc128e43d35c9f8",
   "install_command": "mkdir -p .claude/skills/computer-vision-expert && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/computer-vision-expert/SKILL.md\" > .claude/skills/computer-vision-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/computer-vision-expert/SKILL.md"

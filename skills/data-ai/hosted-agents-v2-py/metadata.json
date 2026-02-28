@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "53c5fad24c68ae46fb0242fbac7ade54ee5c5e5ee245a9cdb99a69c2a91e68a3",
   "indexed_at": "2026-02-25T17:22:47.258Z",
-  "synced_at": "2026-02-27T02:47:22.787Z",
+  "synced_at": "2026-02-28T04:18:01.963Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/499511d0c5107b693662cdae6293ac67b3ef9913381d39c842790853480202bf",
   "install_command": "mkdir -p .claude/skills/hosted-agents-v2-py && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/hosted-agents-v2-py/SKILL.md\" > .claude/skills/hosted-agents-v2-py/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/hosted-agents-v2-py/SKILL.md"

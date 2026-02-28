@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8bf5df272ba4871adb500e1e4e615abb2a40b411e95c5295953e7953285a3b66",
   "indexed_at": "2026-02-25T17:25:55.555Z",
-  "synced_at": "2026-02-27T02:47:24.072Z",
+  "synced_at": "2026-02-28T04:18:03.272Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/604cfc988b7e20bfd0ddeb56df9e2994181c03d622946de5ffa95c2b08f87f4b",
   "install_command": "mkdir -p .claude/skills/multi-agent-brainstorming && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/multi-agent-brainstorming/SKILL.md\" > .claude/skills/multi-agent-brainstorming/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/multi-agent-brainstorming/SKILL.md"

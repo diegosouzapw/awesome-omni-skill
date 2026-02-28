@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4c1145d59c16c14cf2a61ed79c1ff7167232c22e8df0cff71d45b480a472d2bc",
   "indexed_at": "2026-02-25T21:41:37.806Z",
-  "synced_at": "2026-02-27T02:46:41.492Z",
+  "synced_at": "2026-02-28T04:17:11.220Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/693f631c5224201b4238af3b901df290c5d680a5822c56efabe2114272f620dc",
   "install_command": "mkdir -p .claude/skills/customer-health-scorecard && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/customer-health-scorecard/SKILL.md\" > .claude/skills/customer-health-scorecard/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/customer-health-scorecard/SKILL.md"

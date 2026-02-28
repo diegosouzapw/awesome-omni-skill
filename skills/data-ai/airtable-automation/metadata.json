@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1c09a4f072275a427abfea7c9e30cdbe64d785b560e3491dc5e7f584fae05e00",
   "indexed_at": "2026-02-25T15:20:31.825Z",
-  "synced_at": "2026-02-27T02:47:32.009Z",
+  "synced_at": "2026-02-28T04:18:10.633Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/205b1ea1516cd18d5aaa97d6a61d78233a139bd1f7ebb5c3e09dd4b9f67ba982",
   "install_command": "mkdir -p .claude/skills/airtable-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/airtable-automation/SKILL.md\" > .claude/skills/airtable-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/airtable-automation/SKILL.md"

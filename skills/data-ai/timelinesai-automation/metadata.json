@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "474c0efc5c9e6d534d2ceabcba9c368c54a38f73e674ed889cd3b31a1ad7babb",
   "indexed_at": "2026-02-26T00:26:28.878Z",
-  "synced_at": "2026-02-27T02:47:08.097Z",
+  "synced_at": "2026-02-28T04:17:47.991Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5d5ec3f036cbdba16a72b913687853750ea48901911947f50aea65a6b409112c",
   "install_command": "mkdir -p .claude/skills/timelinesai-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/timelinesai-automation/SKILL.md\" > .claude/skills/timelinesai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/timelinesai-automation/SKILL.md"

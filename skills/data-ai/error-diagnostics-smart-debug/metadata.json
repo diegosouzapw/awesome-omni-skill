@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "28068e31f1f6a364716eca7914278bd933b3e3954e425492511d06a2fc032656",
   "indexed_at": "2026-02-25T16:25:18.980Z",
-  "synced_at": "2026-02-27T02:47:28.946Z",
+  "synced_at": "2026-02-28T04:18:08.037Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8a3409251f45a262dd9a55e7f1cd5c68bb0b51d1c30873c7da3537bf1a5c45ce",
   "install_command": "mkdir -p .claude/skills/error-diagnostics-smart-debug && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/error-diagnostics-smart-debug/SKILL.md\" > .claude/skills/error-diagnostics-smart-debug/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/error-diagnostics-smart-debug/SKILL.md"

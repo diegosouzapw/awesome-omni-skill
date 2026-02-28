@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cffca6e1cdc74736e6be5a40f13ad416ea88aed59f6d231a3398ec9da5ce458c",
   "indexed_at": "2026-02-26T05:41:31.792Z",
-  "synced_at": "2026-02-27T02:46:58.679Z",
+  "synced_at": "2026-02-28T04:17:36.458Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b51271d6078933f177ff433d701b5255f5761fffbdacbecd65cde5a4b3d83fa2",
   "install_command": "mkdir -p .claude/skills/clawhub-ytm-cast && curl -sL \"https://raw.githubusercontent.com/simplefarmer69/ape-claw/main/data/forge-skills/clawhub-ytm-cast/SKILL.md\" > .claude/skills/clawhub-ytm-cast/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/simplefarmer69/ape-claw/main/data/forge-skills/clawhub-ytm-cast/SKILL.md"

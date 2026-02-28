@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "755caa362b8789b875adb667e3aedd0fb934490d46fb3aace5f9fd6af4cf42d5",
   "indexed_at": "2026-02-24T23:41:49.183Z",
-  "synced_at": "2026-02-27T02:47:06.939Z",
+  "synced_at": "2026-02-28T04:17:46.783Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e95e9c07598b46f6d82143ce3a2cb3cc9540a71593283bf40074dc1356885958",
   "install_command": "mkdir -p .claude/skills/command-development && curl -sL \"https://raw.githubusercontent.com/anthropics/claude-code/main/plugins/plugin-dev/skills/command-development/SKILL.md\" > .claude/skills/command-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/anthropics/claude-code/main/plugins/plugin-dev/skills/command-development/SKILL.md"

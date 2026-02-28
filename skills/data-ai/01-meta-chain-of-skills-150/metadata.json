@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c4432675ce83181c8d106be5aad3470112102a4132175ab4fe633933eae155f4",
   "indexed_at": "2026-02-24T23:24:04.806Z",
-  "synced_at": "2026-02-27T02:47:45.443Z",
+  "synced_at": "2026-02-28T04:18:22.820Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/332d1ae98dea4ea37789dd66e5bb5db708f4f72fdd750be4efb1f276e656009f",
   "install_command": "mkdir -p .claude/skills/01-meta-chain-of-skills-150 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/01-meta-chain-of-skills-150/SKILL.md\" > .claude/skills/01-meta-chain-of-skills-150/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/01-meta-chain-of-skills-150/SKILL.md"

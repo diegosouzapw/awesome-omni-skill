@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b47425bbb00ed770513e043d83a0797edbe467401da332de6d744fd93e94ebb7",
   "indexed_at": "2026-02-25T20:26:35.557Z",
-  "synced_at": "2026-02-27T02:47:12.307Z",
+  "synced_at": "2026-02-28T04:17:52.263Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ff78f790547744aa1444ed4566cb1723d2ebe8c82bbbc503b41f5ee510b5f1b1",
   "install_command": "mkdir -p .claude/skills/microsoft-clarity-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/microsoft-clarity-automation/SKILL.md\" > .claude/skills/microsoft-clarity-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/microsoft-clarity-automation/SKILL.md"

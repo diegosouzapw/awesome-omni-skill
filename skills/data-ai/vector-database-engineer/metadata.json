@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "74e469c9ad18b2af43cffc5507aa3ff59495675481c5d63c8404f6d5e9d6355a",
   "indexed_at": "2026-02-25T19:25:50.099Z",
-  "synced_at": "2026-02-27T02:47:20.622Z",
+  "synced_at": "2026-02-28T04:18:00.124Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fca8e3e497b874a276e4ace7989732e835b7fcd1d239d406c6f45f662e88ab3c",
   "install_command": "mkdir -p .claude/skills/vector-database-engineer && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/vector-database-engineer/SKILL.md\" > .claude/skills/vector-database-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/vector-database-engineer/SKILL.md"

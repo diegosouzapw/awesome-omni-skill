@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6bd82947ae019344bd2264f1a07b4377c52a1127aecd41243e4c3a426f65b429",
   "indexed_at": "2026-02-25T17:27:34.702Z",
-  "synced_at": "2026-02-27T02:47:25.322Z",
+  "synced_at": "2026-02-28T04:18:04.493Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ac2e15f7175b915282cf3a3580608b4517384a73461ecc28c120b505b45340b0",
   "install_command": "mkdir -p .claude/skills/php-pro && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/php-pro/SKILL.md\" > .claude/skills/php-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/php-pro/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "182f89a784d9270a34bc22d7700a2ea7e0bcf0eae2a09046a26e1f575173bc2f",
   "indexed_at": "2026-02-24T22:51:46.860Z",
-  "synced_at": "2026-02-27T02:47:16.908Z",
+  "synced_at": "2026-02-28T04:17:56.707Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/15c7177f6ce2747ba8a32342cdf74e797ee164210a686be52c20e987e64fcbb6",
   "install_command": "mkdir -p .claude/skills/chatfai-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/chatfai-automation/SKILL.md\" > .claude/skills/chatfai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/chatfai-automation/SKILL.md"

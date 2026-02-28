@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1f5be717c92ad4aafe83a3f33df607059fecdb0e2c6c404fd5fb88bda06d0fe9",
   "indexed_at": "2026-02-25T13:52:01.362Z",
-  "synced_at": "2026-02-27T02:46:49.997Z",
+  "synced_at": "2026-02-28T04:17:25.635Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b612ad6fd5b589e6eaf06360db63b5ef4b349286a2962780a83383d8c7eddda5",
   "install_command": "mkdir -p .claude/skills/context-session-end && curl -sL \"https://raw.githubusercontent.com/yt3trees/ai-collab-folder-structure/main/Projects/_projectTemplate/context-compression-layer/skills/context-session-end/SKILL.md\" > .claude/skills/context-session-end/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yt3trees/ai-collab-folder-structure/main/Projects/_projectTemplate/context-compression-layer/skills/context-session-end/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ca962c7fd0c75643400b08af2725687db7cc424912af0f59064ba878615f187b",
   "indexed_at": "2026-02-25T15:10:37.785Z",
-  "synced_at": "2026-02-27T02:46:39.726Z",
+  "synced_at": "2026-02-28T04:17:09.659Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/219629e896b625d4d19c3e4ff63df18d6dca45e1ea0c269bba628d90c38de0e7",
   "install_command": "mkdir -p .claude/skills/refresh-tarkovdev-schema && curl -sL \"https://raw.githubusercontent.com/sjtw/tarkov-build-optimiser/main/.cursor/skills/refresh-tarkovdev-schema/SKILL.md\" > .claude/skills/refresh-tarkovdev-schema/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sjtw/tarkov-build-optimiser/main/.cursor/skills/refresh-tarkovdev-schema/SKILL.md"

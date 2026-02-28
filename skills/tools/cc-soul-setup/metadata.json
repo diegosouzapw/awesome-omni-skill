@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aa18460f5b0e673327c4c13c6f98ec94174a77ab1dd735529f80e7af0ce27ef8",
   "indexed_at": "2026-02-26T13:09:17.780Z",
-  "synced_at": "2026-02-27T02:47:04.631Z",
+  "synced_at": "2026-02-28T04:17:43.529Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cac70102019b3d3a8eb36c96b014ca5f0405a3ee662f092f4a4b9fe26367261a",
   "install_command": "mkdir -p .claude/skills/cc-soul-setup && curl -sL \"https://raw.githubusercontent.com/genomewalker/cc-soul/main/skills/cc-soul-setup/SKILL.md\" > .claude/skills/cc-soul-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/genomewalker/cc-soul/main/skills/cc-soul-setup/SKILL.md"

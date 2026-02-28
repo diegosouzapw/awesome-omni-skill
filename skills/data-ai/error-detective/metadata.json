@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e2c79044f621e30887206cd933de7cbf5b0bcfc3816c18130cb477c6a3f58554",
   "indexed_at": "2026-02-25T16:25:13.443Z",
-  "synced_at": "2026-02-27T02:47:30.274Z",
+  "synced_at": "2026-02-28T04:18:09.248Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2ea77c79ff31d90ea44ef5b34028dc7e9ef1a809a04eaa7e6f24a93bcd243529",
   "install_command": "mkdir -p .claude/skills/error-detective && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/error-detective/SKILL.md\" > .claude/skills/error-detective/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/error-detective/SKILL.md"

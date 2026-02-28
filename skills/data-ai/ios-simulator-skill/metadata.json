@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ec17e7770cc2cb731712c06e7e52992599769051b8dfc08538721fbd5e3ecd37",
   "indexed_at": "2026-02-24T23:37:52.452Z",
-  "synced_at": "2026-02-27T02:47:44.263Z",
+  "synced_at": "2026-02-28T04:18:21.888Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7f4370f5415b3ff19707c2453c867997806d472227828a5f5f188f309f1373a8",
   "install_command": "mkdir -p .claude/skills/ios-simulator-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f/SKILL.md\" > .claude/skills/ios-simulator-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c99edca9c4c3eaeeae1987460625a4c3455f6ae6eb950e10bc5f28ed36996db",
   "indexed_at": "2026-02-26T00:26:52.838Z",
-  "synced_at": "2026-02-27T02:47:08.244Z",
+  "synced_at": "2026-02-28T04:17:48.141Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2b5656ec411801b8139f520000e30228718b8ba68c9a2fc0a92d2ded04b7eb3c",
   "install_command": "mkdir -p .claude/skills/twelve-data-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/twelve-data-automation/SKILL.md\" > .claude/skills/twelve-data-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/twelve-data-automation/SKILL.md"

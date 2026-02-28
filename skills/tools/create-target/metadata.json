@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c785016b85a17c21ade8c12e43c1ed4d5c8a57de63dbf60e32590ebad370778c",
   "indexed_at": "2026-02-26T23:30:28.276Z",
-  "synced_at": "2026-02-27T02:46:47.103Z",
+  "synced_at": "2026-02-28T04:17:18.284Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/60216fbd1d03d2f05d6a59ac338c7d79fa1ec3713b704e1850c1eed1e2bd7e15",
   "install_command": "mkdir -p .claude/skills/create-target && curl -sL \"https://raw.githubusercontent.com/fabis94/universal-ai-config/main/.universal-ai-config/skills/create-target/SKILL.md\" > .claude/skills/create-target/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fabis94/universal-ai-config/main/.universal-ai-config/skills/create-target/SKILL.md"

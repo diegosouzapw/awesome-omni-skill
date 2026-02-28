@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6246ba3e627cef6c5cd36bc7c0eb1b4a5710d7d2529f1d6676e74410652a30c2",
   "indexed_at": "2026-02-25T17:38:36.033Z",
-  "synced_at": "2026-02-27T02:46:52.361Z",
+  "synced_at": "2026-02-28T04:17:27.875Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/995487f586b5f91e24c12b22d23ecee883900d898bae05d5c3d1c08b42a60b72",
   "install_command": "mkdir -p .claude/skills/git-commit && curl -sL \"https://raw.githubusercontent.com/k-negishi/calendar-auto-register/main/.claude.bk/skills/git-commit/SKILL.md\" > .claude/skills/git-commit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/k-negishi/calendar-auto-register/main/.claude.bk/skills/git-commit/SKILL.md"

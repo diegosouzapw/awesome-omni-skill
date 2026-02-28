@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5cadb59b8a04cc97880a9533c52680f495d32b446614380e8a7e16af67c5e303",
   "indexed_at": "2026-02-25T23:26:34.963Z",
-  "synced_at": "2026-02-27T02:47:08.675Z",
+  "synced_at": "2026-02-28T04:17:48.586Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fd781fef6e584fa23dda7525f43a245349e14752bdf5e9cc7e7757245381fbcf",
   "install_command": "mkdir -p .claude/skills/sitespeakai-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sitespeakai-automation/SKILL.md\" > .claude/skills/sitespeakai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/sitespeakai-automation/SKILL.md"

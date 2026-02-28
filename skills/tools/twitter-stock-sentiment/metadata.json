@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4018b95082edcbc95cfdb78105062f627f78f257a936a815738de803c4840a8f",
   "indexed_at": "2026-02-26T19:31:04.658Z",
-  "synced_at": "2026-02-27T02:46:46.779Z",
+  "synced_at": "2026-02-28T04:17:17.962Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/89956184d15aa23702e30bad5587024c8441fed9987c85f3dc18184b212997bc",
   "install_command": "mkdir -p .claude/skills/twitter-stock-sentiment && curl -sL \"https://raw.githubusercontent.com/Malm/twitter-stock-sentiment/main/SKILL.md\" > .claude/skills/twitter-stock-sentiment/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Malm/twitter-stock-sentiment/main/SKILL.md"

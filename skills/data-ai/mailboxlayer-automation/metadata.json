@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "83b3641a203020bf7df175bed0bd33b50f87b953e146170efbf2fb0295c4853a",
   "indexed_at": "2026-02-25T20:25:56.283Z",
-  "synced_at": "2026-02-27T02:47:11.253Z",
+  "synced_at": "2026-02-28T04:17:51.216Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a5d4458550199fca7a75994e2502d942d1c4e49acc955a7b3fb0eb4315832743",
   "install_command": "mkdir -p .claude/skills/mailboxlayer-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mailboxlayer-automation/SKILL.md\" > .claude/skills/mailboxlayer-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mailboxlayer-automation/SKILL.md"

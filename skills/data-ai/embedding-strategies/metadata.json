@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bcd3c8298e7facc60318ef2acc2858be554629e78c33319651d34214a199ccaf",
   "indexed_at": "2026-02-25T16:25:02.015Z",
-  "synced_at": "2026-02-27T02:47:27.541Z",
+  "synced_at": "2026-02-28T04:18:06.661Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/597d0ba6c8814a4cb2ad8ef17776f37e534b100783e3eecc3ea67b22144eb050",
   "install_command": "mkdir -p .claude/skills/embedding-strategies && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/embedding-strategies/SKILL.md\" > .claude/skills/embedding-strategies/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/embedding-strategies/SKILL.md"

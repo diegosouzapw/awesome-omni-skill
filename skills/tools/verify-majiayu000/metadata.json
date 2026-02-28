@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry-data",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "other/other/verify-chachamaru127-claude-code-harness-2/SKILL.md",
+  "file_path": "other/other/verify-chachamaru127-claude-code-harness/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "c41b16e93f543d3475053647f7f0049848a38923ecce03211abafa43257d65ed",
-  "indexed_at": "2026-02-25T15:08:15.810Z",
-  "synced_at": "2026-02-28T04:15:05.693Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f0de7795c564e47cbc700a6deb9d68b2282e840202322ec1746c4a520b20fd6b",
-  "install_command": "mkdir -p .claude/skills/verify && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/verify-chachamaru127-claude-code-harness-2/SKILL.md\" > .claude/skills/verify/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/verify-chachamaru127-claude-code-harness-2/SKILL.md"
+  "content_hash": "3c0c9bf62f0d4ef4b53c72ddfe642a6f7aca15a0f7567c4274f6816c69bbb822",
+  "indexed_at": "2026-02-27T22:11:03.546Z",
+  "synced_at": "2026-02-28T04:17:01.732Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/30a467f01800542af59588c760fcf0bdccc1df44346239264c1fe38f0ecbdc26",
+  "install_command": "mkdir -p .claude/skills/verify && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/verify-chachamaru127-claude-code-harness/SKILL.md\" > .claude/skills/verify/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/verify-chachamaru127-claude-code-harness/SKILL.md"
 }

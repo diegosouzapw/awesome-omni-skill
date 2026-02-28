@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b21557c9c24a921300da7d7e5f83aba7c875272bf663b38e8f29f5f8e22acdd3",
   "indexed_at": "2026-02-25T22:26:31.985Z",
-  "synced_at": "2026-02-27T02:47:10.223Z",
+  "synced_at": "2026-02-28T04:17:50.067Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/53a76890528652930f82062cf9d650fb367d54462cefb4148057466455d50897",
   "install_command": "mkdir -p .claude/skills/rev-ai-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/rev-ai-automation/SKILL.md\" > .claude/skills/rev-ai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/rev-ai-automation/SKILL.md"

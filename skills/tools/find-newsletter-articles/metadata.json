@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "985a9df3ca54eac86b6ac989846b2d21c54e67c2772c7e19c9d3ba8b20745d64",
   "indexed_at": "2026-02-26T18:30:28.942Z",
-  "synced_at": "2026-02-27T02:46:46.209Z",
+  "synced_at": "2026-02-28T04:17:15.811Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2c42c67d8ae4917ee187237cf1a41866401b077fb5c38ae3227b9f0c0bdd9c50",
   "install_command": "mkdir -p .claude/skills/find-newsletter-articles && curl -sL \"https://raw.githubusercontent.com/ColinEberhardt/augmented-coding-weekly/main/.claude/skills/find-newsletter-articles/SKILL.md\" > .claude/skills/find-newsletter-articles/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ColinEberhardt/augmented-coding-weekly/main/.claude/skills/find-newsletter-articles/SKILL.md"

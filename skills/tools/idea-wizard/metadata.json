@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9ee612c615fc23856879fecb25a4beca746bc0e42f29802e5cb230b081a26617",
   "indexed_at": "2026-02-26T21:30:17.740Z",
-  "synced_at": "2026-02-27T02:46:46.959Z",
+  "synced_at": "2026-02-28T04:17:18.139Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9f54f4d56d29b3d93c1299a86d3532f6c42a4f7410bf06e1415b3e1fee2f3f78",
   "install_command": "mkdir -p .claude/skills/idea-wizard && curl -sL \"https://raw.githubusercontent.com/Dicklesworthstone/jeffreysprompts.com/main/idea-wizard-SKILL.md/SKILL.md\" > .claude/skills/idea-wizard/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Dicklesworthstone/jeffreysprompts.com/main/idea-wizard-SKILL.md/SKILL.md"

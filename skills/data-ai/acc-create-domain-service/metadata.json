@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2f2ef8ad288f8edfdc51f06b896581c0085c9f0829e60da4929350184a2755dc",
   "indexed_at": "2026-02-27T00:47:43.108Z",
-  "synced_at": "2026-02-27T02:47:37.046Z",
+  "synced_at": "2026-02-28T04:18:15.793Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7221f6846642e22185036848cc95de8b675178767ebd6c52091e888b61d7a903",
   "install_command": "mkdir -p .claude/skills/acc-create-domain-service && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-domain-service/SKILL.md\" > .claude/skills/acc-create-domain-service/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-domain-service/SKILL.md"

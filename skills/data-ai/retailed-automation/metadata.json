@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c0a107fc59bc02343ce29551913b3a961936c4a765cdf5533c66a0a90e7d1568",
   "indexed_at": "2026-02-25T22:26:26.804Z",
-  "synced_at": "2026-02-27T02:47:09.911Z",
+  "synced_at": "2026-02-28T04:17:49.772Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b0135d462fc46aa09d558c9e84a6c699ef3e497f5ad12c98e181b9af06020a9e",
   "install_command": "mkdir -p .claude/skills/retailed-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/retailed-automation/SKILL.md\" > .claude/skills/retailed-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/retailed-automation/SKILL.md"

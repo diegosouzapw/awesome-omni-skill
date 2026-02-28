@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "333849b3649f64a7d91442c4ebdb0be5d53c3b99d82f634d6f941ba5ec175e62",
   "indexed_at": "2026-02-25T17:39:04.522Z",
-  "synced_at": "2026-02-27T02:47:06.148Z",
+  "synced_at": "2026-02-28T04:17:45.803Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4150b0a0a9b789d9573c9c21813be4de5574b3755e96d1324c46c34601d913ed",
   "install_command": "mkdir -p .claude/skills/swiss-phone-directory && curl -sL \"https://raw.githubusercontent.com/ChatAndBuild/chatchat-skills/main/skills/swiss-phone-directory/SKILL.md\" > .claude/skills/swiss-phone-directory/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ChatAndBuild/chatchat-skills/main/skills/swiss-phone-directory/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f8f642631103ed58f3b31137158eaa19258293fdde0e373f717629d248a6e87b",
   "indexed_at": "2026-02-25T16:23:14.073Z",
-  "synced_at": "2026-02-27T02:47:26.737Z",
+  "synced_at": "2026-02-28T04:18:05.929Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/58d2e1f7e53bb3c587bfd925b3c6d3f85e194d66bd0cfeaa62743d417504e8fc",
   "install_command": "mkdir -p .claude/skills/data-storytelling && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/data-storytelling/SKILL.md\" > .claude/skills/data-storytelling/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/data-storytelling/SKILL.md"

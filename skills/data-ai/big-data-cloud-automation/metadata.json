@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3cb722b3ec2676122d1b22ec8ed3f6aaa6cd183944717b4b9f205a679d9dcf68",
   "indexed_at": "2026-02-24T22:50:14.366Z",
-  "synced_at": "2026-02-27T02:47:15.660Z",
+  "synced_at": "2026-02-28T04:17:55.530Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/004185f6b213a9d0829c085861319c0a2a48ecc6ee13b79a4af945dd28c236d0",
   "install_command": "mkdir -p .claude/skills/big-data-cloud-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/big-data-cloud-automation/SKILL.md\" > .claude/skills/big-data-cloud-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/big-data-cloud-automation/SKILL.md"

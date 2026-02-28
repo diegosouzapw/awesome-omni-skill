@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c17dd68d6d76b96c1fc4a87b3b6eb884a9b5560251295b2c2141019d73092af9",
   "indexed_at": "2026-02-25T17:27:11.545Z",
-  "synced_at": "2026-02-27T02:47:24.379Z",
+  "synced_at": "2026-02-28T04:18:03.576Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/03a1dc0ac875921e072e578e151e992eb3fe1185aa50a018c0efcce3c1488523",
   "install_command": "mkdir -p .claude/skills/parallel-agents && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/parallel-agents/SKILL.md\" > .claude/skills/parallel-agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/parallel-agents/SKILL.md"

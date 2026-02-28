@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "114545d6f419d8ba12e535303b956acee5f71a3ceca52e0a9423acf3c283f16c",
   "indexed_at": "2026-02-25T15:20:16.496Z",
-  "synced_at": "2026-02-27T02:47:31.704Z",
+  "synced_at": "2026-02-28T04:18:10.329Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/52aa790f6dfd542b7765ea838dac0bf1377ebf2f37ded790f379d71bebefb054",
   "install_command": "mkdir -p .claude/skills/agents-v2-py && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/agents-v2-py/SKILL.md\" > .claude/skills/agents-v2-py/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/agents-v2-py/SKILL.md"

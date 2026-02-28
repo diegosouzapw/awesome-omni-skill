@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "29d8c2064ca1d2c6e5dba49b4df5c0d11979211f0fb8872d9677e64d3e64e94a",
   "indexed_at": "2026-02-25T15:20:20.454Z",
-  "synced_at": "2026-02-27T02:47:31.860Z",
+  "synced_at": "2026-02-28T04:18:10.473Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/678992fe36b54705baa23029677adaba7bba9837a1de14f76f8fb021c6b63522",
   "install_command": "mkdir -p .claude/skills/ai-agents-architect && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/ai-agents-architect/SKILL.md\" > .claude/skills/ai-agents-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/ai-agents-architect/SKILL.md"

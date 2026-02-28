@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8aed4b43da97c62aaae91a06b40b82ba276be58bfae9959026ab89d3a082a797",
   "indexed_at": "2026-02-24T22:49:59.671Z",
-  "synced_at": "2026-02-27T02:47:15.509Z",
+  "synced_at": "2026-02-28T04:17:55.378Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2e577dc8e015cdab6d8d9fd06e86cf1df96d1b01922395a219e69c9314ea2035",
   "install_command": "mkdir -p .claude/skills/beaconchain-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/beaconchain-automation/SKILL.md\" > .claude/skills/beaconchain-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/beaconchain-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cbc10dcf1af1e89413152199003a571f2428e5526260c70af9469517dae40f26",
   "indexed_at": "2026-02-25T19:42:08.944Z",
-  "synced_at": "2026-02-27T02:47:02.714Z",
+  "synced_at": "2026-02-28T04:17:41.468Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/300a00b570e0ced4c76330178778eefd89d8c4a97c2ca81f624b233d3399863c",
   "install_command": "mkdir -p .claude/skills/plugin-scaffolder && curl -sL \"https://raw.githubusercontent.com/Fu-Jie/openwebui-extensions/main/.gemini/skills/plugin-scaffolder/SKILL.md\" > .claude/skills/plugin-scaffolder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Fu-Jie/openwebui-extensions/main/.gemini/skills/plugin-scaffolder/SKILL.md"

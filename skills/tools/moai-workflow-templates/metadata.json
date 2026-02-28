@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8caa3809b3540a4b065611186815682cbc6391c0290a86a7ebdf8dd41f9c8a64",
   "indexed_at": "2026-02-26T12:20:36.570Z",
-  "synced_at": "2026-02-27T02:46:34.974Z",
+  "synced_at": "2026-02-28T04:17:04.641Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/54c7a643788cb5e7a85794115c046f264ccb0639abb7176462031d84afe3a70c",
   "install_command": "mkdir -p .claude/skills/moai-workflow-templates && curl -sL \"https://raw.githubusercontent.com/rdmptv/AdbAutoPlayer/main/.moai/backups/.claude.backup.1764591304/skills/moai-workflow-templates/SKILL.md\" > .claude/skills/moai-workflow-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rdmptv/AdbAutoPlayer/main/.moai/backups/.claude.backup.1764591304/skills/moai-workflow-templates/SKILL.md"

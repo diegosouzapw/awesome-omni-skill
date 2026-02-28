@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "83c4712969a9bfadea17997039c663ee7cdbac6a70335f0fe7a72a3a3c23031d",
   "indexed_at": "2026-02-25T15:20:29.972Z",
-  "synced_at": "2026-02-27T02:47:33.900Z",
+  "synced_at": "2026-02-28T04:18:12.475Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4c83824f557ea19b43c13d94aaa6b0f150ea75200e8cc3e41c5e7f153c6e9170",
   "install_command": "mkdir -p .claude/skills/airflow-dag-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/airflow-dag-patterns/SKILL.md\" > .claude/skills/airflow-dag-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/airflow-dag-patterns/SKILL.md"

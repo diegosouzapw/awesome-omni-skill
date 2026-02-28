@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1736b2b7e39088744b8d3d07f48224ad5a65dea6530eb82b1bf8e82ef6b1e5e6",
   "indexed_at": "2026-02-24T22:51:52.158Z",
-  "synced_at": "2026-02-27T02:47:17.060Z",
+  "synced_at": "2026-02-28T04:17:56.856Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/195e60f08ce7c42e97d0a033afb47943391e9984e2811c3c3c52f0f20fbfe583",
   "install_command": "mkdir -p .claude/skills/claid-ai-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/claid-ai-automation/SKILL.md\" > .claude/skills/claid-ai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/claid-ai-automation/SKILL.md"

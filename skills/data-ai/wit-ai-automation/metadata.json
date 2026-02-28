@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e72e88e66f581ef26fe95b89030e8221d4ce06038f7819e42ce813327ab84a63",
   "indexed_at": "2026-02-26T01:26:24.409Z",
-  "synced_at": "2026-02-27T02:47:07.412Z",
+  "synced_at": "2026-02-28T04:17:47.250Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9a3079f16769764ac1025fda0bd6cd0e269b5ed6bdc85c7e9dbb9f35f72516af",
   "install_command": "mkdir -p .claude/skills/wit-ai-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/wit-ai-automation/SKILL.md\" > .claude/skills/wit-ai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/wit-ai-automation/SKILL.md"

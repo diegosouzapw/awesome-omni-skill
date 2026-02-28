@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "120c55dab5ade71479da07586ca3f4b2a5bc9230c551b7670754b96fb8eef4a3",
   "indexed_at": "2026-02-25T12:40:52.299Z",
-  "synced_at": "2026-02-27T02:46:38.200Z",
+  "synced_at": "2026-02-28T04:17:08.204Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a2ff7dccfafe71edbe72905c48855182e69ea336122225836a3032f95a0fbb85",
   "install_command": "mkdir -p .claude/skills/refresh-tarkovdev-schema && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/refresh-tarkovdev-schema/SKILL.md\" > .claude/skills/refresh-tarkovdev-schema/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/refresh-tarkovdev-schema/SKILL.md"

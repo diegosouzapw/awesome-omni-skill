@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f07595ae0c270afd193964363dc5e7f5ae101818078a79da2bc0b88a3000cace",
   "indexed_at": "2026-02-26T12:27:20.138Z",
-  "synced_at": "2026-02-27T02:46:43.138Z",
+  "synced_at": "2026-02-28T04:17:12.954Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/57802148896de95c2b7181fb663628eeead329ab4d8019c36fb860a0036ae9cf",
   "install_command": "mkdir -p .claude/skills/conductor-setup && curl -sL \"https://raw.githubusercontent.com/milosriki/client-vital-suite/main/.agent/skills/skills/conductor-setup/SKILL.md\" > .claude/skills/conductor-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/milosriki/client-vital-suite/main/.agent/skills/skills/conductor-setup/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fa8713c284ed90e88dd7a39de56300d258e56cce1c8fce56407f510cc31a1aec",
   "indexed_at": "2026-02-26T12:01:13.887Z",
-  "synced_at": "2026-02-27T02:46:34.790Z",
+  "synced_at": "2026-02-28T04:17:04.460Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2154b4c56f87d271681b2729d373d30641515f76e22f91540cc0b2094726d9cb",
   "install_command": "mkdir -p .claude/skills/buildlog && curl -sL \"https://raw.githubusercontent.com/buildlogai/openclaw-skill/main/SKILL.md\" > .claude/skills/buildlog/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/buildlogai/openclaw-skill/main/SKILL.md"

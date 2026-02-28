@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "db1803f86bef50023514a9c366e99929d8aa57e1087ab595d6c6686a61dff236",
   "indexed_at": "2026-02-24T22:50:53.864Z",
-  "synced_at": "2026-02-27T02:47:16.412Z",
+  "synced_at": "2026-02-28T04:17:56.259Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/839fa24fcea6aea11934af55bcd7d02b26f5bec3ff7a97d957d5976c7ba4cb3f",
   "install_command": "mkdir -p .claude/skills/brightdata-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/brightdata-automation/SKILL.md\" > .claude/skills/brightdata-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/brightdata-automation/SKILL.md"

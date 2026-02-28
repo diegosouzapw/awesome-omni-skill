@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "29221abaa3f1e76767af7e5b48b25c786a64e2193ba51fa0ebe3ffb3b61db5cc",
   "indexed_at": "2026-02-26T01:26:31.955Z",
-  "synced_at": "2026-02-27T02:47:07.544Z",
+  "synced_at": "2026-02-28T04:17:47.402Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fb864d66ff84f5e26ba5323a50d5a6870a1f06bb01add50b16c0453ce312f13d",
   "install_command": "mkdir -p .claude/skills/workday-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/workday-automation/SKILL.md\" > .claude/skills/workday-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/workday-automation/SKILL.md"

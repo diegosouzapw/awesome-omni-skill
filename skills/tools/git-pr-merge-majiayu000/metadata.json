@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e8c64406dc3adf2f820cbf4454f608989943a6ad84473eedccb79443e03fe447",
   "indexed_at": "2026-02-25T12:56:39.286Z",
-  "synced_at": "2026-02-27T02:46:49.301Z",
+  "synced_at": "2026-02-28T04:17:24.909Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d621def40157f91b2698d5b7fe28cb406a1eb70554cbaa196eacd848608c31fc",
   "install_command": "mkdir -p .claude/skills/git-pr-merge && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/git-pr-merge/SKILL.md\" > .claude/skills/git-pr-merge/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/git-pr-merge/SKILL.md"

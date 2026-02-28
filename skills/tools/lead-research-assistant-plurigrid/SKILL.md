@@ -1,9 +1,11 @@
 ---
 name: lead-research-assistant
 description: Identifies high-quality leads for your product or service by analyzing
-version: 1.0.0
+  your business, searching for target companies, and providing actionable contact
+  strategies. Perfect for sales, business development, and marketing professionals.
+metadata:
+  trit: 1
 ---
-
 
 # Lead Research Assistant
 
@@ -199,38 +201,3 @@ When a user requests lead research:
 - Researching specific companies in detail
 - Analyzing competitor customer bases
 - Identifying partnership opportunities
-
-
-
-## Scientific Skill Interleaving
-
-This skill connects to the K-Dense-AI/claude-scientific-skills ecosystem:
-
-### Graph Theory
-- **networkx** [○] via bicomodule
-  - Universal graph hub
-
-### Bibliography References
-
-- `algorithms`: 19 citations in bib.duckdb
-
-## Cat# Integration
-
-This skill maps to **Cat# = Comod(P)** as a bicomodule in the equipment structure:
-
-```
-Trit: 0 (ERGODIC)
-Home: Prof
-Poly Op: ⊗
-Kan Role: Adj
-Color: #26D826
-```
-
-### GF(3) Naturality
-
-The skill participates in triads satisfying:
-```
-(-1) + (0) + (+1) ≡ 0 (mod 3)
-```
-
-This ensures compositional coherence in the Cat# equipment structure.

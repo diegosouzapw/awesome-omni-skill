@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "81a147ecb91a22ccc09cbfa511e92646af84348eeb47b672a3b830d0f46c2e58",
   "indexed_at": "2026-02-25T17:25:12.319Z",
-  "synced_at": "2026-02-27T02:47:25.956Z",
+  "synced_at": "2026-02-28T04:18:05.076Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1871408042cb7a926e3e3add6dc81ff0297e559617e834aaebc6d540b6ef7421",
   "install_command": "mkdir -p .claude/skills/memory-safety-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/memory-safety-patterns/SKILL.md\" > .claude/skills/memory-safety-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/memory-safety-patterns/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ff96a682854929bcbd09075533af2119b4e361ceab676305315d9941c4144f2a",
   "indexed_at": "2026-02-27T13:17:20.075Z",
-  "synced_at": "2026-02-27T18:16:03.876Z",
+  "synced_at": "2026-02-28T04:17:33.186Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5799efa4a5b5208414e0b1c533c7357b662463e452e6861287e8ea704bfe66c2",
   "install_command": "mkdir -p .claude/skills/mcp-development && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/fabriciofs/mcp-postgres/mcp-development/SKILL.md\" > .claude/skills/mcp-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/fabriciofs/mcp-postgres/mcp-development/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "35ea7a16250413fd20ad584d0c855ea9b6689d960fc3460370f893e980e09883",
   "indexed_at": "2026-02-25T21:26:42.265Z",
-  "synced_at": "2026-02-27T02:47:10.789Z",
+  "synced_at": "2026-02-28T04:17:50.772Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/48a1dbefdd20d80a6c26faf3d01080795de3ebcf3d8e387a192442ebc5744e29",
   "install_command": "mkdir -p .claude/skills/peopledatalabs-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/peopledatalabs-automation/SKILL.md\" > .claude/skills/peopledatalabs-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/peopledatalabs-automation/SKILL.md"

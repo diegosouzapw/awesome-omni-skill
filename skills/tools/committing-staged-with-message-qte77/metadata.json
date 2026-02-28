@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1109cdb9bc614accd15b83d12d5fec7c391492fa57a3563750be21d8238e6a01",
   "indexed_at": "2026-02-25T17:11:45.631Z",
-  "synced_at": "2026-02-27T02:46:52.182Z",
+  "synced_at": "2026-02-28T04:17:27.713Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d0d1d7904778691833d71fc7133d006782cf9b321c7127a5f89826f36f1bd2ae",
   "install_command": "mkdir -p .claude/skills/committing-staged-with-message && curl -sL \"https://raw.githubusercontent.com/qte77/claude-code-utils/main/.claude/skills/committing-staged-with-message/SKILL.md\" > .claude/skills/committing-staged-with-message/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/qte77/claude-code-utils/main/.claude/skills/committing-staged-with-message/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e922ef00e045616868af6ec6e432e3bc93c93fea8addcf6506f6056df4945f12",
   "indexed_at": "2026-02-25T17:24:03.491Z",
-  "synced_at": "2026-02-27T02:47:22.951Z",
+  "synced_at": "2026-02-28T04:18:02.139Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ec0bf60e18440c5e2cff5d75a6c10ae0bc41a21e32ac9693600e3b04f198237c",
   "install_command": "mkdir -p .claude/skills/langchain-architecture && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/langchain-architecture/SKILL.md\" > .claude/skills/langchain-architecture/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/langchain-architecture/SKILL.md"

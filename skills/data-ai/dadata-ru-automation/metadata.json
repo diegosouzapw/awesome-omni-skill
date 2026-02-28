@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6f570ddf13e10adf0a3b0d5e430d59355fe22014717bb1993196d99f9ec77ec2",
   "indexed_at": "2026-02-24T22:52:55.045Z",
-  "synced_at": "2026-02-27T02:47:17.654Z",
+  "synced_at": "2026-02-28T04:17:57.454Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b5579985252aedb63a0837c07da269fb8a515c53e86ffda3ca824e3dbf54b6d5",
   "install_command": "mkdir -p .claude/skills/dadata-ru-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dadata-ru-automation/SKILL.md\" > .claude/skills/dadata-ru-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dadata-ru-automation/SKILL.md"

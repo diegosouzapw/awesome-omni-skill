@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3931e0bc161e7293b6e8eea47fdc196b00f412a74e9fbfd5c6d9be529d1c624b",
   "indexed_at": "2026-02-24T22:50:17.627Z",
-  "synced_at": "2026-02-27T02:47:15.963Z",
+  "synced_at": "2026-02-28T04:17:55.822Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/43b45a9641f3246d13fe22428ce028f01a3eb14c86a2b1132e8d93e95771430a",
   "install_command": "mkdir -p .claude/skills/bigml-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bigml-automation/SKILL.md\" > .claude/skills/bigml-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bigml-automation/SKILL.md"

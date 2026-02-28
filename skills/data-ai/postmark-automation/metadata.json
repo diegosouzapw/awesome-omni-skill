@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a50650aa9f0d9bf8eb3b985fd755460c2bbd35e29fec49bb631b658b5bf814aa",
   "indexed_at": "2026-02-25T18:23:40.104Z",
-  "synced_at": "2026-02-27T02:47:21.425Z",
+  "synced_at": "2026-02-28T04:18:00.739Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9dbadc32569476f3dcebbf11e76e81506c633e668110081a9ce6816bcf4a6b9b",
   "install_command": "mkdir -p .claude/skills/postmark-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/postmark-automation/SKILL.md\" > .claude/skills/postmark-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/postmark-automation/SKILL.md"

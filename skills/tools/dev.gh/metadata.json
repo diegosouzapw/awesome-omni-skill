@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "74f0a63376382e8304d21f830568569b5dadc30d9ca77b9825aee5ea5a06ee8d",
   "indexed_at": "2026-02-26T21:30:33.508Z",
-  "synced_at": "2026-02-27T02:47:01.240Z",
+  "synced_at": "2026-02-28T04:17:39.622Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6acbfe0f2ae1ce965b78b6cb829d54f8dadbd12a3ef59a7a4c2901057100b2ec",
   "install_command": "mkdir -p .claude/skills/dev.gh && curl -sL \"https://raw.githubusercontent.com/kevinslin/llm/main/skills/dev.gh/SKILL.md\" > .claude/skills/dev.gh/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kevinslin/llm/main/skills/dev.gh/SKILL.md"

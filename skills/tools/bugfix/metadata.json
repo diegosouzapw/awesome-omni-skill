@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7d863c612410f8450f7a892494178b6081463a871a186da9de8ae80f77ea8e30",
   "indexed_at": "2026-02-25T20:41:15.499Z",
-  "synced_at": "2026-02-27T02:47:02.882Z",
+  "synced_at": "2026-02-28T04:17:41.634Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/32f0feb6fe85eea823368c986afae20e318d03d3c12723693feff5372f606e2a",
   "install_command": "mkdir -p .claude/skills/bugfix && curl -sL \"https://raw.githubusercontent.com/PlutoMining/pluto/main/.opencode/skills/bugfix/SKILL.md\" > .claude/skills/bugfix/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/PlutoMining/pluto/main/.opencode/skills/bugfix/SKILL.md"

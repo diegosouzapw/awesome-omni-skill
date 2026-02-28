@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "617df2db1174c7b632f17be59e56f3dd9dd14ff2cd4f3b529cfb6da7ba137676",
   "indexed_at": "2026-02-26T21:09:37.383Z",
-  "synced_at": "2026-02-27T02:46:58.109Z",
+  "synced_at": "2026-02-28T04:17:35.972Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/50df667336c8e531a3d810adf1aa28482ed10811f7bad60dda73c5f9ae24a013",
   "install_command": "mkdir -p .claude/skills/git-workflow && curl -sL \"https://raw.githubusercontent.com/wang93wei/SwiftMTP/main/.iflow/skills/git-workflow/SKILL.md\" > .claude/skills/git-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wang93wei/SwiftMTP/main/.iflow/skills/git-workflow/SKILL.md"

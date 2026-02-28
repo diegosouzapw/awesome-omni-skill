@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a34f20fde802c0674d2a78ce6d935589ead7c45795e7f80a30aceb32c66614f6",
   "indexed_at": "2026-02-26T22:31:13.782Z",
-  "synced_at": "2026-02-27T02:47:01.385Z",
+  "synced_at": "2026-02-28T04:17:39.766Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2b3bde92050e23278aaa418592177c86d2b94ee34386715120dc34c97b40cc00",
   "install_command": "mkdir -p .claude/skills/git-workflow && curl -sL \"https://raw.githubusercontent.com/kprsnt2/MyLocalCLI/main/src/skills/builtin/git-workflow/SKILL.md\" > .claude/skills/git-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kprsnt2/MyLocalCLI/main/src/skills/builtin/git-workflow/SKILL.md"

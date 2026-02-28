@@ -1,37 +1,36 @@
 ---
 name: skill-name
-description: Use when [describe trigger conditions — when should this skill auto-activate?]
+description: A clear description of when this skill should activate and what it does
+version: 1.0.0
 ---
 
 # Skill Name
 
-## Core Workflow
+## Overview
+Provide a brief overview of what this skill does and when it should be used.
 
-1. [Step 1]
-2. [Step 2]
-3. [Step 3]
-4. [Step 4]
-5. [Step 5]
+## Instructions
+Detailed step-by-step instructions for how to use this skill:
 
-## Reference Guide
+1. First step
+2. Second step
+3. Third step
 
-Load the detailed guidance based on context:
+## Examples
+Provide examples of inputs and expected outputs.
 
-| Topic | Reference | Load When |
-|-------|-----------|-----------|
-| [Topic 1] | `references/file.md` | [Condition 1] |
-| [Topic 2] | `references/file.md` | [Condition 2] |
+### Example 1
+**Input:**
+```
+[Example input]
+```
 
-## Constraints
+**Output:**
+```
+[Expected output]
+```
 
-### MUST DO
-
-- [Constraint 1]
-- [Constraint 2]
-- [Constraint 3]
-
-### MUST NOT DO
-
-- [Constraint 1]
-- [Constraint 2]
-- [Constraint 3]
+## Notes
+- Any additional notes or considerations
+- Edge cases to be aware of
+- Best practices

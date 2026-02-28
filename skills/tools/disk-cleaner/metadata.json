@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33c28c7a757298566db6648d670d9e93794fc0b7d62f144000d967b5e9e3aa40",
   "indexed_at": "2026-02-26T04:26:02.419Z",
-  "synced_at": "2026-02-27T02:47:00.342Z",
+  "synced_at": "2026-02-28T04:17:38.765Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3c0988de7341a6aee039f81b8033f12b0837252605aad3d5254b9fce4e852a66",
   "install_command": "mkdir -p .claude/skills/disk-cleaner && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/product/disk-cleaner/SKILL.md\" > .claude/skills/disk-cleaner/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/product/disk-cleaner/SKILL.md"

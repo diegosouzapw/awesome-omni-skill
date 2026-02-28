@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "73abbf0fac1428a90e20c62ba7a7dae1c000ffc022b1029a935d8e48a8469363",
   "indexed_at": "2026-02-25T14:09:45.966Z",
-  "synced_at": "2026-02-27T02:46:39.569Z",
+  "synced_at": "2026-02-28T04:17:09.505Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a428ecf39951c3be135208e5ff15e6acdafdad77dec88616047bd5aa90785840",
   "install_command": "mkdir -p .claude/skills/card-note && curl -sL \"https://raw.githubusercontent.com/mashimarro/Zettelkasten-skill/main/SKILL.md\" > .claude/skills/card-note/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mashimarro/Zettelkasten-skill/main/SKILL.md"

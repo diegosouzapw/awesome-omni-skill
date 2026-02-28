@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "50dc85dfd22f8c70e8291e1b493139f42be55808ff93d0d8fc9c1ad1e20e90eb",
   "indexed_at": "2026-02-26T17:33:24.856Z",
-  "synced_at": "2026-02-27T02:46:56.104Z",
+  "synced_at": "2026-02-28T04:17:31.557Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c6003ca594f57db47926ccdf6fda560a91fd2b5297058b4bd8810d37eb2b30b9",
   "install_command": "mkdir -p .claude/skills/but-skill && curl -sL \"https://raw.githubusercontent.com/open-commander/open-commander/main/docs/gitbutler/commands/but-skill.mdx/SKILL.md\" > .claude/skills/but-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/open-commander/open-commander/main/docs/gitbutler/commands/but-skill.mdx/SKILL.md"

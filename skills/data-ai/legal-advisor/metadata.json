@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e54c2705926abd22bf7fe83276ecd2581a3e1ada64ba00cc99b76d7b11fbf0b3",
   "indexed_at": "2026-02-25T17:24:17.527Z",
-  "synced_at": "2026-02-27T02:47:24.689Z",
+  "synced_at": "2026-02-28T04:18:03.887Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/18eadd2f7ffdbde4397a3aee3f6112747d021f3f8cf68a22d375e61ac556a6e9",
   "install_command": "mkdir -p .claude/skills/legal-advisor && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/legal-advisor/SKILL.md\" > .claude/skills/legal-advisor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/legal-advisor/SKILL.md"

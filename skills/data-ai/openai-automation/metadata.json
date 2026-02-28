@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "03fef1ea54c6155504ee590a45ca496c0afeae2474ac5ad9a37aade75a1609df",
   "indexed_at": "2026-02-25T21:26:03.594Z",
-  "synced_at": "2026-02-27T02:47:10.643Z",
+  "synced_at": "2026-02-28T04:17:50.625Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/186dc0155e3396acad4399af02b2f54ec48ff42f2e107d6ff4efc634e57e2c2a",
   "install_command": "mkdir -p .claude/skills/openai-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/openai-automation/SKILL.md\" > .claude/skills/openai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/openai-automation/SKILL.md"

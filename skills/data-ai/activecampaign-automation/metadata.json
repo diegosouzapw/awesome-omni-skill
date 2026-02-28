@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "488b456c0af089f50e33e02aed2d5f9414fc032b91924cb7bde9f80f082106a6",
   "indexed_at": "2026-02-25T15:19:57.397Z",
-  "synced_at": "2026-02-27T02:47:31.248Z",
+  "synced_at": "2026-02-28T04:18:09.873Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/79480b10c53177d1afb7094f4c61ca399e6d63a64180d9a690a3977add0f2679",
   "install_command": "mkdir -p .claude/skills/activecampaign-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/activecampaign-automation/SKILL.md\" > .claude/skills/activecampaign-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/activecampaign-automation/SKILL.md"

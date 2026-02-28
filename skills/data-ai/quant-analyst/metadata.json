@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1fd46c7efa82d6d5140ecd768c5fda9a0762e75c17ec12eea749387100e433a6",
   "indexed_at": "2026-02-25T18:24:26.280Z",
-  "synced_at": "2026-02-27T02:47:22.147Z",
+  "synced_at": "2026-02-28T04:18:01.367Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1931f400eb9e3b6ff9214e0840dd0133766d57a61122b149826db600a53c8fac",
   "install_command": "mkdir -p .claude/skills/quant-analyst && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/quant-analyst/SKILL.md\" > .claude/skills/quant-analyst/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/quant-analyst/SKILL.md"

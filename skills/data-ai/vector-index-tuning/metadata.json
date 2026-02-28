@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "885b83a434f894eb5371f3b5e6b61750805389910201f34e18a640c44c9b5c79",
   "indexed_at": "2026-02-25T19:25:51.716Z",
-  "synced_at": "2026-02-27T02:47:20.772Z",
+  "synced_at": "2026-02-28T04:18:00.281Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f1f1d11425142e55edeb98ff1f139347fbc16181829456f228e28f551d941230",
   "install_command": "mkdir -p .claude/skills/vector-index-tuning && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/vector-index-tuning/SKILL.md\" > .claude/skills/vector-index-tuning/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/vector-index-tuning/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d6e3fb8c9581a8de8b32b5cd16c2931f80b8c8db89cf755d7b47189c579e758d",
   "indexed_at": "2026-02-25T20:39:45.004Z",
-  "synced_at": "2026-02-27T02:46:37.025Z",
+  "synced_at": "2026-02-28T04:17:07.048Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/47707e3f8b93d6f0d5743f7a2d8f3dc31780a650a85d1103ef6bf799d4d36d94",
   "install_command": "mkdir -p .claude/skills/provide-real-file-links-rule && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/provide-real-file-links-rule/SKILL.md\" > .claude/skills/provide-real-file-links-rule/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/provide-real-file-links-rule/SKILL.md"

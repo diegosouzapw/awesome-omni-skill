@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7a1cf3c706b87b28edd5e524834bc3748e3f4d333fd51f80de3f0ce68dffb146",
   "indexed_at": "2026-02-25T18:24:12.244Z",
-  "synced_at": "2026-02-27T02:47:22.626Z",
+  "synced_at": "2026-02-28T04:18:01.813Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9166261a5bf71248bcd3f7a5d675fdcc0bb2e8b599d71fa759211c2648d95e9c",
   "install_command": "mkdir -p .claude/skills/pypict-skill && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/pypict-skill/SKILL.md\" > .claude/skills/pypict-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/pypict-skill/SKILL.md"

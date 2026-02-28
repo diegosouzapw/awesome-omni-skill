@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "169d2ee4210d150c3f6ff573b541a4472fc2b2b0086501cde59036a1c1c290c6",
   "indexed_at": "2026-02-24T22:48:29.086Z",
-  "synced_at": "2026-02-27T02:47:14.279Z",
+  "synced_at": "2026-02-28T04:17:54.195Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3c607ce3df6228ce5407c3a33c1c756a553ed8b0cadf97555a75ff4d5ca648b8",
   "install_command": "mkdir -p .claude/skills/agent-mail-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/agent-mail-automation/SKILL.md\" > .claude/skills/agent-mail-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/agent-mail-automation/SKILL.md"

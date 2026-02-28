@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3bced530f5ddbe3cdad40113ebed8d0278b7ae2c06378f42a3244bb38ec7e3f3",
   "indexed_at": "2026-02-25T19:41:37.150Z",
-  "synced_at": "2026-02-27T02:46:53.109Z",
+  "synced_at": "2026-02-28T04:17:28.562Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5395db8b28a6b66bce936e81c3c104d84b7489e3b385c376c9c4c8270cdbe502",
   "install_command": "mkdir -p .claude/skills/w3rt-swap-safe && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/w3rt-swap-safe/SKILL.md\" > .claude/skills/w3rt-swap-safe/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/w3rt-swap-safe/SKILL.md"

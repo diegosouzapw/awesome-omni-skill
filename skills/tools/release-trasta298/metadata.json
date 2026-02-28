@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c5d562144fb13f617b7b238546f526a0518ecb8f21e2889f3f28cec26d95303a",
   "indexed_at": "2026-02-26T16:31:29.704Z",
-  "synced_at": "2026-02-27T02:46:45.358Z",
+  "synced_at": "2026-02-28T04:17:15.146Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/680ef96f27419f6adbf1eda33016afa94d1977add5591efe48736f6703ca2595",
   "install_command": "mkdir -p .claude/skills/release && curl -sL \"https://raw.githubusercontent.com/trasta298/keifu/main/.claude/skills/release/SKILL.md\" > .claude/skills/release/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/trasta298/keifu/main/.claude/skills/release/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fd86b3da772a3b4ad0df8197380490565ca0661871d2345b6809f7f3c03bf6b5",
   "indexed_at": "2026-02-26T22:34:50.275Z",
-  "synced_at": "2026-02-27T02:46:37.380Z",
+  "synced_at": "2026-02-28T04:17:07.372Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b2922089bc2d67d20c25f6245876318f8e3eb973d51d42bc9d318cd40ebef98e",
   "install_command": "mkdir -p .claude/skills/tooling && curl -sL \"https://raw.githubusercontent.com/DaisukeYoda/japan-fiscal-simulator/main/.claude/skills/tooling/SKILL.md\" > .claude/skills/tooling/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/DaisukeYoda/japan-fiscal-simulator/main/.claude/skills/tooling/SKILL.md"

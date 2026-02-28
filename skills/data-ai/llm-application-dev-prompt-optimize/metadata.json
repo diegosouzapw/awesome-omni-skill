@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "80700cd743d52d7d1d820d5a252ac21947139e62333923c37e895d7a23936644",
   "indexed_at": "2026-02-25T17:24:41.487Z",
-  "synced_at": "2026-02-27T02:47:25.635Z",
+  "synced_at": "2026-02-28T04:18:04.787Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c4b0b218854943ae33d9d9122334e115f13ae8a793b4324884e14826152f96fa",
   "install_command": "mkdir -p .claude/skills/llm-application-dev-prompt-optimize && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/llm-application-dev-prompt-optimize/SKILL.md\" > .claude/skills/llm-application-dev-prompt-optimize/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/llm-application-dev-prompt-optimize/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4729383b09febe7036a66b97a382930a7f63242a26551b56cd93da203cab1c17",
   "indexed_at": "2026-02-24T23:03:18.849Z",
-  "synced_at": "2026-02-27T02:47:12.865Z",
+  "synced_at": "2026-02-28T04:17:52.855Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ea26a79636b61f030cb71a61ef1f9dd0c451d01d705efeaec099e516edd0ac90",
   "install_command": "mkdir -p .claude/skills/groqcloud-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/groqcloud-automation/SKILL.md\" > .claude/skills/groqcloud-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/groqcloud-automation/SKILL.md"

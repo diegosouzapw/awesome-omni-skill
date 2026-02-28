@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5deb7ac51efcf4e905d55f9ea97793d9d5bd542122e8cb8a96d0cce34644e85e",
   "indexed_at": "2026-02-26T12:24:57.667Z",
-  "synced_at": "2026-02-27T02:46:42.956Z",
+  "synced_at": "2026-02-28T04:17:12.626Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b992255f01f80df3045c87aacc1c6cec6e036daf1fff26dcb092f81bb3cc5e72",
   "install_command": "mkdir -p .claude/skills/sage-workspace-detection && curl -sL \"https://raw.githubusercontent.com/majiayu000/sage/main/.sage/skills/sage-workspace-detection/SKILL.md\" > .claude/skills/sage-workspace-detection/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/sage/main/.sage/skills/sage-workspace-detection/SKILL.md"

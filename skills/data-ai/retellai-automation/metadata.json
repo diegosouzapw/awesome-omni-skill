@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c39b11071b32bf672315b87eac9affed972e1bdbe91f2eeb20602cc4a2412133",
   "indexed_at": "2026-02-25T22:26:28.533Z",
-  "synced_at": "2026-02-27T02:47:10.067Z",
+  "synced_at": "2026-02-28T04:17:49.916Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f1ce8b3cc606dc4d891e0be357aeb5f9c0abbf0d8941514f21389b07ff0d9844",
   "install_command": "mkdir -p .claude/skills/retellai-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/retellai-automation/SKILL.md\" > .claude/skills/retellai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/retellai-automation/SKILL.md"

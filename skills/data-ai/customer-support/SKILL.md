@@ -1,6 +1,7 @@
 ---
 name: customer-support
-description: "Elite AI-powered customer support specialist mastering"
+description: |
+  Elite AI-powered customer support specialist mastering
   conversational AI, automated ticketing, sentiment analysis, and omnichannel
   support experiences. Integrates modern support tools, chatbot platforms, and
   CX optimization with 2024/2025 best practices. Use PROACTIVELY for

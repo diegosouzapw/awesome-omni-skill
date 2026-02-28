@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "44eb92a342109b1f7bfa1ee073fd7623442da03931262c74f7b5786de254c15c",
   "indexed_at": "2026-02-26T10:40:48.748Z",
-  "synced_at": "2026-02-27T02:46:42.251Z",
+  "synced_at": "2026-02-28T04:17:11.939Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/174194685de28b63e4dedc892cca8c0d94035a3d92727e251a7fa6969adef780",
   "install_command": "mkdir -p .claude/skills/drug-target-validation && curl -sL \"https://raw.githubusercontent.com/lamm-mit/scienceclaw/main/skills/drug-target-validation/SKILL.md\" > .claude/skills/drug-target-validation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lamm-mit/scienceclaw/main/skills/drug-target-validation/SKILL.md"

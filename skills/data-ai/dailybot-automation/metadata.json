@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "16c5e719e34cb933ad1ffbe2a906d348c95f1df97bc219ca174372ada8e4ee1a",
   "indexed_at": "2026-02-24T22:52:57.978Z",
-  "synced_at": "2026-02-27T02:47:17.811Z",
+  "synced_at": "2026-02-28T04:17:57.600Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5b2bdfbb0505465dd543fda14e06efffcb9926565f990dd606eb606bcbb1f4c1",
   "install_command": "mkdir -p .claude/skills/dailybot-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dailybot-automation/SKILL.md\" > .claude/skills/dailybot-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dailybot-automation/SKILL.md"

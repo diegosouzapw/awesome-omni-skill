@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "63dcd601ab1a665503713830c5ea371251d8e5fa162935fed6cc1a2b1db966d6",
   "indexed_at": "2026-02-25T16:22:56.529Z",
-  "synced_at": "2026-02-27T02:47:26.276Z",
+  "synced_at": "2026-02-28T04:18:05.368Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fcfb55f8b0d8fb9b5a2816001a18cfd420ee4971aa263d2439786d0e2bfddc58",
   "install_command": "mkdir -p .claude/skills/crewai && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/crewai/SKILL.md\" > .claude/skills/crewai/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/crewai/SKILL.md"

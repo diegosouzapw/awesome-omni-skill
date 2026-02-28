@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a8dd577ffcddc3d0dd76205ecad794d1a406d4595207b981b79ff72fa631aec8",
   "indexed_at": "2026-02-26T12:27:38.732Z",
-  "synced_at": "2026-02-27T02:46:43.485Z",
+  "synced_at": "2026-02-28T04:17:13.282Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6f4ece9f7ce77eb66c0c00a3da32dd1e62c96b26d95992ce89616d5b56ce9536",
   "install_command": "mkdir -p .claude/skills/conductor-setup && curl -sL \"https://raw.githubusercontent.com/Kayky4/hold.ai/main/.agent/skills/skills/conductor-setup/SKILL.md\" > .claude/skills/conductor-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Kayky4/hold.ai/main/.agent/skills/skills/conductor-setup/SKILL.md"

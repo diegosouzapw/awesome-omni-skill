@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "880286d5c9393a9ef01a92bed60bf461bb44601cd59c1b5efea24c41dc8e8719",
   "indexed_at": "2026-02-26T17:31:02.719Z",
-  "synced_at": "2026-02-27T02:46:55.931Z",
+  "synced_at": "2026-02-28T04:17:31.390Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c42930348a4bb96f6a1e6ca12b27886562ddc98a02ff92226effacaa4da9df8f",
   "install_command": "mkdir -p .claude/skills/update-tool-plugin && curl -sL \"https://raw.githubusercontent.com/KrystianJonca/lnai/main/.ai/skills/update-tool-plugin/SKILL.md\" > .claude/skills/update-tool-plugin/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/KrystianJonca/lnai/main/.ai/skills/update-tool-plugin/SKILL.md"

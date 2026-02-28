@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8decf22e47efba9db50fafc0e41eb86f248e519d2178adef681e8e44b90d6616",
   "indexed_at": "2026-02-26T23:40:31.111Z",
-  "synced_at": "2026-02-27T02:47:05.646Z",
+  "synced_at": "2026-02-28T04:17:45.017Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/62ae6295e40722a33f2c6832bd5c64b91b624ea22d3cb91641d453ce2009acef",
   "install_command": "mkdir -p .claude/skills/discovery && curl -sL \"https://raw.githubusercontent.com/GobbyAI/gobby/main/src/gobby/install/shared/skills/discovery/SKILL.md\" > .claude/skills/discovery/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/GobbyAI/gobby/main/src/gobby/install/shared/skills/discovery/SKILL.md"

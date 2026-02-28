@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cc77f3b7871ca51e04b2b099e3db50efe3a2185141b3260d53b45859f27fb631",
   "indexed_at": "2026-02-27T18:05:44.902Z",
-  "synced_at": "2026-02-27T18:16:02.494Z",
+  "synced_at": "2026-02-28T04:16:57.835Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bdbbdc6668839956274dd5c94fee1d2abbea89c9d3405fe6c47f620b961320e3",
   "install_command": "mkdir -p .claude/skills/spec-driven-development && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/productivity/spec-driven-development/SKILL.md\" > .claude/skills/spec-driven-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/productivity/spec-driven-development/SKILL.md"

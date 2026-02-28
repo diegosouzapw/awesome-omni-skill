@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1d3b8248de8df71a266b43ce59d9f8ad2b7ef68e03fbf6d729c025736e2c5dec",
   "indexed_at": "2026-02-25T20:26:44.118Z",
-  "synced_at": "2026-02-27T02:47:12.585Z",
+  "synced_at": "2026-02-28T04:17:52.554Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/32715300bca5d6fd45888133b8b1b45596c852a9232f82284fb813e774e9df5e",
   "install_command": "mkdir -p .claude/skills/mistral-ai-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mistral-ai-automation/SKILL.md\" > .claude/skills/mistral-ai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/mistral-ai-automation/SKILL.md"

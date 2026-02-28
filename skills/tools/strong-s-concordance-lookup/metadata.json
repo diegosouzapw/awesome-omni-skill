@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "26895cf23d99ecfbc5b597ba027a657037287e9cbd663bc21ff824e6b4dd4b60",
   "indexed_at": "2026-02-26T04:25:52.256Z",
-  "synced_at": "2026-02-27T02:46:41.708Z",
+  "synced_at": "2026-02-28T04:17:11.417Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/89cd3be72a5b6313c6d15200ebe4bc60004b20e5449a6c2ee4c0b7588660b78c",
   "install_command": "mkdir -p .claude/skills/strong-s-concordance-lookup && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/concordance/SKILL.md\" > .claude/skills/strong-s-concordance-lookup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/concordance/SKILL.md"

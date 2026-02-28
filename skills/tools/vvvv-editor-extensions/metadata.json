@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0839fa14bae6266f76c00e23fc6dd4ec85d79fd290091e3c7aa9f57512bae531",
   "indexed_at": "2026-02-25T12:42:26.242Z",
-  "synced_at": "2026-02-27T02:46:38.367Z",
+  "synced_at": "2026-02-28T04:17:08.406Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d56a894b3d1ff66aaad3e9d86d433df9f91d2163bb73e42c3390c5eca5eb8de8",
   "install_command": "mkdir -p .claude/skills/vvvv-editor-extensions && curl -sL \"https://raw.githubusercontent.com/tebjan/vvvv-skills/main/skills/vvvv-editor-extensions/SKILL.md\" > .claude/skills/vvvv-editor-extensions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tebjan/vvvv-skills/main/skills/vvvv-editor-extensions/SKILL.md"

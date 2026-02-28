@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c065fb76649d91b4b2ed45056b4ae8e376aa6e71f43118c81f131d55f69d1951",
   "indexed_at": "2026-02-25T17:25:57.369Z",
-  "synced_at": "2026-02-27T02:47:25.159Z",
+  "synced_at": "2026-02-28T04:18:04.348Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4051d91e959ac8ff243e370bde7ab8ee6488ab5b62baa63e18e9d6f22c9aef23",
   "install_command": "mkdir -p .claude/skills/multi-agent-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/multi-agent-patterns/SKILL.md\" > .claude/skills/multi-agent-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/multi-agent-patterns/SKILL.md"

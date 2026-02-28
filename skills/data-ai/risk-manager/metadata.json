@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "155de927f85e95e1c5f390ac592207307099d9a39755596871a986a2130c0c57",
   "indexed_at": "2026-02-25T18:25:08.972Z",
-  "synced_at": "2026-02-27T02:47:22.302Z",
+  "synced_at": "2026-02-28T04:18:01.512Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/21940842b034a6fe2f4b0b33372bef5a69bf5f17c159a729df6bb5171b23312e",
   "install_command": "mkdir -p .claude/skills/risk-manager && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/risk-manager/SKILL.md\" > .claude/skills/risk-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/risk-manager/SKILL.md"

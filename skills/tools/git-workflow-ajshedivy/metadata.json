@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "265aa2a0a2e493f7917566944ddc863b436a6b2be3fc85d5946743172fac2329",
   "indexed_at": "2026-02-26T14:09:51.789Z",
-  "synced_at": "2026-02-27T02:46:57.934Z",
+  "synced_at": "2026-02-28T04:17:35.801Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6527f1dcf6d46e6dd78c4316cc903a1c54b72329733de63f1cef4778d823da9d",
   "install_command": "mkdir -p .claude/skills/git-workflow && curl -sL \"https://raw.githubusercontent.com/ajshedivy/agno-cookbook/main/cookbook/02_agents/16_skills/sample_skills/git-workflow/SKILL.md\" > .claude/skills/git-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ajshedivy/agno-cookbook/main/cookbook/02_agents/16_skills/sample_skills/git-workflow/SKILL.md"

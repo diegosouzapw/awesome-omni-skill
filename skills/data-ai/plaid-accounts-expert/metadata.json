@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a03d6227b2df803ea293bcde604eabd2c8d77429e9839686f7f55bd71bc72538",
   "indexed_at": "2026-02-27T00:53:52.858Z",
-  "synced_at": "2026-02-27T02:47:39.373Z",
+  "synced_at": "2026-02-28T04:18:17.735Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/485ca70159178f9ac4ab223c8e56ac9f312e5b20e86af9e271260bd433af3e4b",
   "install_command": "mkdir -p .claude/skills/plaid-accounts-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/accounts/SKILL.md\" > .claude/skills/plaid-accounts-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/accounts/SKILL.md"

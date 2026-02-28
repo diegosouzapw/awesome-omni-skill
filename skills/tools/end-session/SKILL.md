@@ -85,6 +85,17 @@ EOF
 git push origin main
 ```
 
+### 3d. Deploy to Railway
+After pushing, deploy the latest code to Railway production:
+```
+Use the Railway MCP deploy tool with workspacePath="/Volumes/Queen Amara/The Long Walk"
+```
+Wait for deployment to complete. Verify the health endpoint responds:
+```bash
+curl -s https://the-long-walk-production.up.railway.app/api/health
+```
+**Gate:** Health check must return `{"status":"ok"}`. If it fails, check Railway logs via the MCP `get-logs` tool.
+
 ---
 
 ## Step 4: Generate session ledger (YAML)
@@ -190,6 +201,7 @@ Run through this checklist:
 - [ ] All durable knowledge persisted (MEMORY.md, CHANGELOG updated as needed)
 - [ ] Working tree clean (`git status` shows nothing)
 - [ ] Pushed to remote (`git log origin/main..HEAD` shows nothing)
+- [ ] Deployed to Railway (health check passes)
 - [ ] Session ledger saved to `docs/sessions/`
 - [ ] Session handoff saved to `docs/sessions/`
 - [ ] MEMORY.md is under 200 lines

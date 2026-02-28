@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c00aa9e1f575437b5fe045191f0080cdcb60aef9f6574c940867e83544295450",
   "indexed_at": "2026-02-25T16:23:34.189Z",
-  "synced_at": "2026-02-27T02:47:27.052Z",
+  "synced_at": "2026-02-28T04:18:06.220Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b94f50987fb755b8080feab9337b503eb9e77c917b15989f28fc33a2a828961d",
   "install_command": "mkdir -p .claude/skills/datadog-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/datadog-automation/SKILL.md\" > .claude/skills/datadog-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/datadog-automation/SKILL.md"

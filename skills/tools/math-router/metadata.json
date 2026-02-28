@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a3ebd724fcab723db53786da82762b13d6cc91fb23212a4a84d46b11e13aa4c7",
   "indexed_at": "2026-02-25T14:35:48.315Z",
-  "synced_at": "2026-02-27T02:46:50.358Z",
+  "synced_at": "2026-02-28T04:17:26.022Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d07c8b3f550b0d8745dc118ccf50908b9500c68135b10a14b53a34553cb8c4a0",
   "install_command": "mkdir -p .claude/skills/math-router && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/math-router/SKILL.md\" > .claude/skills/math-router/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/math-router/SKILL.md"

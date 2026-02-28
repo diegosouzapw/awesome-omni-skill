@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "32d0e40264fe88761d9ebde5af2db61208afd5150ad92dd9f7c7e2acc0e25577",
   "indexed_at": "2026-02-25T16:27:14.350Z",
-  "synced_at": "2026-02-27T02:47:29.090Z",
+  "synced_at": "2026-02-28T04:18:08.187Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c89fa9423b219ac35d987a64d722bb1dd4f1b0fdc18cfc38ac86ee625d6f9382",
   "install_command": "mkdir -p .claude/skills/golang-pro && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/golang-pro/SKILL.md\" > .claude/skills/golang-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/golang-pro/SKILL.md"

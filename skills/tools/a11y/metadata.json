@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5bbdedcc7eb09c0970fa8d2b162c973eaaa85ad9ee3efa6b95b353bee2a17e0a",
   "indexed_at": "2026-02-26T22:40:07.699Z",
-  "synced_at": "2026-02-27T02:46:37.742Z",
+  "synced_at": "2026-02-28T04:17:07.741Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/631bd5352e55a50fa2a3d6b4ee9032b1b52538c0f40df1be88a6a5edf0cb279b",
   "install_command": "mkdir -p .claude/skills/a11y && curl -sL \"https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/a11y/SKILL.md\" > .claude/skills/a11y/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/a11y/SKILL.md"

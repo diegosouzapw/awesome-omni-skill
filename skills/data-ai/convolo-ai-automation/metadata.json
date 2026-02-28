@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9ba58104b59dfcf3374db679db09132d77f3e8f71540697cb5ef1af79b952e81",
   "indexed_at": "2026-02-24T22:52:35.693Z",
-  "synced_at": "2026-02-27T02:47:17.356Z",
+  "synced_at": "2026-02-28T04:17:57.161Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/590a46c913062feca67ca643885371ebe21f75b5a008b47ef4944fafd88d920f",
   "install_command": "mkdir -p .claude/skills/convolo-ai-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/convolo-ai-automation/SKILL.md\" > .claude/skills/convolo-ai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/convolo-ai-automation/SKILL.md"

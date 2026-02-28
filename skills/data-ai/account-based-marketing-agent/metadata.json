@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c4fc0d0fe9664a23161cb12a3297237e04c503a3cdf92d97a57c3ae3be3ee8c",
   "indexed_at": "2026-02-27T00:53:09.081Z",
-  "synced_at": "2026-02-27T02:47:39.176Z",
+  "synced_at": "2026-02-28T04:18:17.539Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e0b947cb5ffe9c1af2c2c3664d956c9b635fb2969f7964098d131e68025c2afc",
   "install_command": "mkdir -p .claude/skills/account-based-marketing-agent && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/account-based-marketing-agent/SKILL.md\" > .claude/skills/account-based-marketing-agent/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/account-based-marketing-agent/SKILL.md"

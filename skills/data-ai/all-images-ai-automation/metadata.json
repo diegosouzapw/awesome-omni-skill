@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "50852427ffe483bdce7c691bf31c634eaacf42909e7f9db440ed7037d008a86d",
   "indexed_at": "2026-02-24T22:48:46.597Z",
-  "synced_at": "2026-02-27T02:47:15.039Z",
+  "synced_at": "2026-02-28T04:17:54.934Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/227408b3edc9354e3e7ba28bf36e0ebd037d1b5e3d016127e3171530e8d3682c",
   "install_command": "mkdir -p .claude/skills/all-images-ai-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/all-images-ai-automation/SKILL.md\" > .claude/skills/all-images-ai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/all-images-ai-automation/SKILL.md"

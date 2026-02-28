@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5917a59df118f6bd64128a5fb084606c5b0f4b55df120b2fc4f93082a323b567",
   "indexed_at": "2026-02-27T13:20:14.450Z",
-  "synced_at": "2026-02-27T18:16:02.938Z",
+  "synced_at": "2026-02-28T04:17:06.558Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/144e40546d36e7a334ef75bb716ff5b682cc210392dd87809e35dc80231db518",
   "install_command": "mkdir -p .claude/skills/dotnet-advisor && curl -sL \"https://raw.githubusercontent.com/rudironsoni/dotnet-agent-harness/main/.rulesync/skills/dotnet-advisor/SKILL.md\" > .claude/skills/dotnet-advisor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rudironsoni/dotnet-agent-harness/main/.rulesync/skills/dotnet-advisor/SKILL.md"

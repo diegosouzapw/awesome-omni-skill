@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "717755aca8494109fdabef0cae539fa2285b4db9efc0baf1517ced6d97230918",
   "indexed_at": "2026-02-27T00:49:26.026Z",
-  "synced_at": "2026-02-27T02:47:38.058Z",
+  "synced_at": "2026-02-28T04:18:16.767Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5e510ff935a92a0dd3dfe5425099b705bce9c5913be4a61e2ffd39b4d5daf593",
   "install_command": "mkdir -p .claude/skills/acc-detect-code-smells && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-detect-code-smells/SKILL.md\" > .claude/skills/acc-detect-code-smells/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-detect-code-smells/SKILL.md"

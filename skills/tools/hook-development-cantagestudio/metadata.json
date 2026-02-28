@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "82d125f18b890ae6f893c09491195823f1de9045dc382465cdf6dd96c0db2136",
   "indexed_at": "2026-02-26T19:11:11.836Z",
-  "synced_at": "2026-02-27T02:46:56.604Z",
+  "synced_at": "2026-02-28T04:17:32.018Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c38d996a6624a3168a94badb34cbc7ed2be83cf58a3d2957ff8d1ebb3e88fe21",
   "install_command": "mkdir -p .claude/skills/hook-development && curl -sL \"https://raw.githubusercontent.com/CANTAGESTUDIO/CosmicAtlasPacker/main/.claude/skills/hook-development/SKILL.md\" > .claude/skills/hook-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/CANTAGESTUDIO/CosmicAtlasPacker/main/.claude/skills/hook-development/SKILL.md"

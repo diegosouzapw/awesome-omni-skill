@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f73d8fbfdf8f935c0a0a27816d539ae58d243d1626fcb10a2986a1851a0e6526",
   "indexed_at": "2026-02-25T17:24:43.593Z",
-  "synced_at": "2026-02-27T02:47:23.591Z",
+  "synced_at": "2026-02-28T04:18:02.777Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f8a1d3a5554347e0ffdfb2baadabb20587aff7fce13717e9dd9bf1c7cf82f14f",
   "install_command": "mkdir -p .claude/skills/llm-evaluation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/llm-evaluation/SKILL.md\" > .claude/skills/llm-evaluation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/llm-evaluation/SKILL.md"

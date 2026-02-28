@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7d102c239345c36625140de9e6a7684c745339ab0a48ce1339da52ce82efc632",
   "indexed_at": "2026-02-25T16:23:03.248Z",
-  "synced_at": "2026-02-27T02:47:26.423Z",
+  "synced_at": "2026-02-28T04:18:05.538Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3ec989a2f1a0b6ee0c4d6e30faccac8e4a635be0d93f6961d61d4434c1fdb91c",
   "install_command": "mkdir -p .claude/skills/daily-news-report && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/daily-news-report/SKILL.md\" > .claude/skills/daily-news-report/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/daily-news-report/SKILL.md"

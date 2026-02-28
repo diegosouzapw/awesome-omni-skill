@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "80773f7a8ba02ccbd7fd2e0ce8d58ef808e25f8948e2254c76d30c8ec4f975e8",
   "indexed_at": "2026-02-25T19:24:04.442Z",
-  "synced_at": "2026-02-27T02:47:20.157Z",
+  "synced_at": "2026-02-28T04:17:59.811Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d9780fcca981148cc637683f854c4591fd0a6f2b564ca87863f935792c748a28",
   "install_command": "mkdir -p .claude/skills/tdd-workflows-tdd-cycle && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/tdd-workflows-tdd-cycle/SKILL.md\" > .claude/skills/tdd-workflows-tdd-cycle/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/tdd-workflows-tdd-cycle/SKILL.md"

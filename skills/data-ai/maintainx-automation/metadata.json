@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c38b8329c8eb5f4269315772042248d16a69b8bde2363f97af8a3ed2050a9bf",
   "indexed_at": "2026-02-25T20:26:08.265Z",
-  "synced_at": "2026-02-27T02:47:12.152Z",
+  "synced_at": "2026-02-28T04:17:52.119Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d31ff4d9c76d3b997a8fe19ff50c14d8698124bc6224361be9f48a66a040735c",
   "install_command": "mkdir -p .claude/skills/maintainx-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/maintainx-automation/SKILL.md\" > .claude/skills/maintainx-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/maintainx-automation/SKILL.md"

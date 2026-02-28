@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33841e26b86f9d6e9eca29904e12598d659ca1c2ff31739635ace6b21c698ab0",
   "indexed_at": "2026-02-25T19:26:04.041Z",
-  "synced_at": "2026-02-27T02:47:20.933Z",
+  "synced_at": "2026-02-28T04:18:00.431Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d0115662694b97040585e5e2f3067499ea4eac4b0ed6ba30df0eec287cb878c9",
   "install_command": "mkdir -p .claude/skills/voice-agents && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/voice-agents/SKILL.md\" > .claude/skills/voice-agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/voice-agents/SKILL.md"

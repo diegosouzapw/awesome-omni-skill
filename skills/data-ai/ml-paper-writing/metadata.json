@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "306c998b181b44c6e642fd4233af8e63b4be23de718fa24390b0fbc1b48ca379",
   "indexed_at": "2026-02-25T10:36:38.603Z",
-  "synced_at": "2026-02-27T02:47:42.033Z",
+  "synced_at": "2026-02-28T04:18:21.085Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e397158a46d1952c0e8666a020c7bd615ef8146492192ab58877395ce0093847",
   "install_command": "mkdir -p .claude/skills/ml-paper-writing && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/20-ml-paper-writing/SKILL.md\" > .claude/skills/ml-paper-writing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/20-ml-paper-writing/SKILL.md"

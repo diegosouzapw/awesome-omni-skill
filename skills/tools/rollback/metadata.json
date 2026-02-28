@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9ef125d69cc0af62326f6147d281c8da0cdcef33a15bf092b7d5b0326b62aae7",
   "indexed_at": "2026-02-25T13:08:39.911Z",
-  "synced_at": "2026-02-27T02:46:59.048Z",
+  "synced_at": "2026-02-28T04:17:37.487Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/873bf8ce5d84e6b20f7f1f5eb12106a82546ca3c651ec0d4f6ab80fcb919dabc",
   "install_command": "mkdir -p .claude/skills/rollback && curl -sL \"https://raw.githubusercontent.com/g-zenr/relay-api/main/.claude/skills/rollback/SKILL.md\" > .claude/skills/rollback/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/g-zenr/relay-api/main/.claude/skills/rollback/SKILL.md"

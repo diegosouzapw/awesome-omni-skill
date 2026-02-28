@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "182d2bc643d88fe6d8e6b9efb0d0367c9abb272764029448192dc93fc19cff35",
   "indexed_at": "2026-02-27T00:56:45.911Z",
-  "synced_at": "2026-02-27T02:47:41.007Z",
+  "synced_at": "2026-02-28T04:18:19.715Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5e5294e404e72546fba9eb8e610c3fa334a2ec44486e9c9eed7f631e7f53401c",
   "install_command": "mkdir -p .claude/skills/actor-critic-methods && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/actor-critic-methods/SKILL.md\" > .claude/skills/actor-critic-methods/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/actor-critic-methods/SKILL.md"

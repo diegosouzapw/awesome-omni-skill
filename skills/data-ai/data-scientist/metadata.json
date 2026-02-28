@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "676f4b597ec8ff9a5cc7bdd828adee39519ad0b7bf0f3bc0807a8232a9b5d928",
   "indexed_at": "2026-02-25T16:23:12.193Z",
-  "synced_at": "2026-02-27T02:47:28.640Z",
+  "synced_at": "2026-02-28T04:18:07.713Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/483f3870f6fbcf1f171c7846b58a150ba745e56e4905bc006f417b914cc7b4d6",
   "install_command": "mkdir -p .claude/skills/data-scientist && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/data-scientist/SKILL.md\" > .claude/skills/data-scientist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/data-scientist/SKILL.md"

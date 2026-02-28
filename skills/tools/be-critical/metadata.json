@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "668025e1cb1171cebd785d38e6d6ee8e9d38600f527eb77ef00e0a92f9d70755",
   "indexed_at": "2026-02-25T12:34:19.424Z",
-  "synced_at": "2026-02-27T02:46:37.905Z",
+  "synced_at": "2026-02-28T04:17:07.915Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/77e7b396c7cf1c976b3d3ca7ab7d6e480ce12b4c8bcc5b06d5a90bc92135df3a",
   "install_command": "mkdir -p .claude/skills/be-critical && curl -sL \"https://raw.githubusercontent.com/pem725/be-critical/main/SKILL.md\" > .claude/skills/be-critical/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pem725/be-critical/main/SKILL.md"

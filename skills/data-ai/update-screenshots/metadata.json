@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "52b1451a2e2d1bf27a7470c350a657edf476411c90ac636e38bbeb4fece6c187",
   "indexed_at": "2026-02-24T23:51:35.594Z",
-  "synced_at": "2026-02-27T02:47:06.481Z",
+  "synced_at": "2026-02-28T04:17:46.466Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5841f8fa61d8dc46545d734636c8426302b8c939bc0418f663c17fbc6070ae3a",
   "install_command": "mkdir -p .claude/skills/update-screenshots && curl -sL \"https://raw.githubusercontent.com/microsoft/vscode/main/.github/skills/update-screenshots/SKILL.md\" > .claude/skills/update-screenshots/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/microsoft/vscode/main/.github/skills/update-screenshots/SKILL.md"

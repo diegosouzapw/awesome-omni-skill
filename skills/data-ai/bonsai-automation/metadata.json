@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9fddd8aeca4cb59ad0443e6234144d88494693d433a7c43c5d3e9d873eb475ad",
   "indexed_at": "2026-02-24T22:50:32.032Z",
-  "synced_at": "2026-02-27T02:47:16.111Z",
+  "synced_at": "2026-02-28T04:17:55.967Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/892165ac18d7708f5bb1b6ad9f2d701ee2b28939cbe7f2a9b307dc7c11b069d9",
   "install_command": "mkdir -p .claude/skills/bonsai-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bonsai-automation/SKILL.md\" > .claude/skills/bonsai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/bonsai-automation/SKILL.md"

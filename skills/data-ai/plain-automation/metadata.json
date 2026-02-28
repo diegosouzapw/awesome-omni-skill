@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "32fb614bb81b5658141a2e1ae3c47a4b0808e448e47e1d1eeb385743c436c0b2",
   "indexed_at": "2026-02-25T21:27:04.073Z",
-  "synced_at": "2026-02-27T02:47:11.098Z",
+  "synced_at": "2026-02-28T04:17:51.069Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e02c999a597c82a62bb498cf481027779f74d41f5ae3b8753d02616c9ba74728",
   "install_command": "mkdir -p .claude/skills/plain-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/plain-automation/SKILL.md\" > .claude/skills/plain-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/plain-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bd5749f25fdfad8699093142822747da9045029a4794772d8e28a4f3d84cb69c",
   "indexed_at": "2026-02-25T18:25:12.400Z",
-  "synced_at": "2026-02-27T02:47:22.465Z",
+  "synced_at": "2026-02-28T04:18:01.667Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7ac35850cee724d0abbbd33fd8cda798c996f886bdc873ce0a468eb10d9a25dc",
   "install_command": "mkdir -p .claude/skills/ruby-pro && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/ruby-pro/SKILL.md\" > .claude/skills/ruby-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/ruby-pro/SKILL.md"

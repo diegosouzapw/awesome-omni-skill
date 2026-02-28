@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "45283fa8686524fbcb81ca1f2e1541deeef58f93bbf7601ccf1ced08bcb26bb3",
   "indexed_at": "2026-02-24T22:53:43.549Z",
-  "synced_at": "2026-02-27T02:47:18.424Z",
+  "synced_at": "2026-02-28T04:17:58.304Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/03095283748177461f3f6cdb094cb88a713a6cdd1aa3fedd404b5cd04d70cdaf",
   "install_command": "mkdir -p .claude/skills/dovetail-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dovetail-automation/SKILL.md\" > .claude/skills/dovetail-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/dovetail-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "edeea59aff0d26cadbd8309dcb155fe74a7cfb84b325f18ddaa8655f4527c7a2",
   "indexed_at": "2026-02-26T15:17:39.943Z",
-  "synced_at": "2026-02-27T02:47:00.867Z",
+  "synced_at": "2026-02-28T04:17:39.294Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d402f28540e09bae6ef9fe70c910142f36e007e90932ca2c436ba5939ddc498e",
   "install_command": "mkdir -p .claude/skills/github-commit && curl -sL \"https://raw.githubusercontent.com/hemilabs/ui-monorepo/main/portal/.claude/skills/github-commit/SKILL.md\" > .claude/skills/github-commit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hemilabs/ui-monorepo/main/portal/.claude/skills/github-commit/SKILL.md"

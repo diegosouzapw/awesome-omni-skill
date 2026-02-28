@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6f906fab1bdb8801a2feef2caa52a3c088c9bc28a1b42d92aff8c82c399bb4f8",
   "indexed_at": "2026-02-24T23:04:23.468Z",
-  "synced_at": "2026-02-27T02:47:13.161Z",
+  "synced_at": "2026-02-28T04:17:53.151Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c6a5325304096d1254f4db35a377bfa8b34ad43037b07984427c5964486963fc",
   "install_command": "mkdir -p .claude/skills/ipdata-co-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ipdata-co-automation/SKILL.md\" > .claude/skills/ipdata-co-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ipdata-co-automation/SKILL.md"

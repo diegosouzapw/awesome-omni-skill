@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ef91f5c721b5336572dc03d9c99bd093f649a6776e293ab9bf1a40c9d8eafa65",
   "indexed_at": "2026-02-26T16:32:38.272Z",
-  "synced_at": "2026-02-27T02:47:03.607Z",
+  "synced_at": "2026-02-28T04:17:42.264Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dc76bc64ace4c504cbec72913aba9aae0d31e3a81f90742c611803147cc42a9e",
   "install_command": "mkdir -p .claude/skills/skill-creator && curl -sL \"https://raw.githubusercontent.com/ShunsukeHayashi/ppal-skill-library/main/basic/skill-creator/SKILL.md\" > .claude/skills/skill-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ShunsukeHayashi/ppal-skill-library/main/basic/skill-creator/SKILL.md"

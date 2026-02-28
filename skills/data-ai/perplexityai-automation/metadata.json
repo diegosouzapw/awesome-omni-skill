@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eb74fcff0df43fbf450724c9f5afa3d89a29ff554f3dc1db4cbdcc19d4e1f62d",
   "indexed_at": "2026-02-25T21:26:45.589Z",
-  "synced_at": "2026-02-27T02:47:10.943Z",
+  "synced_at": "2026-02-28T04:17:50.924Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d5be062d579ff708de5ca6f6a779cb6c2ccdfba5ffcba7bb96cd1efab1a7ba80",
   "install_command": "mkdir -p .claude/skills/perplexityai-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/perplexityai-automation/SKILL.md\" > .claude/skills/perplexityai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/perplexityai-automation/SKILL.md"

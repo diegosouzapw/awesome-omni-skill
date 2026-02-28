@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0edfe4e202a0d418bc9a16ccff594b752361faab9f4cd50c1d0c79356e322b04",
   "indexed_at": "2026-02-25T17:38:32.015Z",
-  "synced_at": "2026-02-27T02:47:05.820Z",
+  "synced_at": "2026-02-28T04:17:45.181Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/efc4b49f33a173fffdc9990506a65f23ca6cc31a695df02fe1bd067cd0e5952f",
   "install_command": "mkdir -p .claude/skills/commit && curl -sL \"https://raw.githubusercontent.com/sakuro/dotfiles/main/.config/claude/skills/commit/SKILL.md\" > .claude/skills/commit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sakuro/dotfiles/main/.config/claude/skills/commit/SKILL.md"

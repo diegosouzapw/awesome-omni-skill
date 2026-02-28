@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c8fd180374dec6ebab42be7667171e2b40a1a2ca123f414e15915f5646105795",
   "indexed_at": "2026-02-27T01:30:51.397Z",
-  "synced_at": "2026-02-27T02:46:56.943Z",
+  "synced_at": "2026-02-28T04:17:32.198Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2821290350bdcfd66ed0bbaef8c2dc295d5a650d9746f57569da4e68a01ef819",
   "install_command": "mkdir -p .claude/skills/idea-plan && curl -sL \"https://raw.githubusercontent.com/riemac/idea-plan/main/SKILL.md\" > .claude/skills/idea-plan/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/riemac/idea-plan/main/SKILL.md"

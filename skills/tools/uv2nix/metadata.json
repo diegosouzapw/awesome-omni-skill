@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4dd51650fa65ce4411e3430e018c8431969d25933ea0f7ff5d2ab1f9f8b284d1",
   "indexed_at": "2026-02-26T10:54:07.381Z",
-  "synced_at": "2026-02-27T02:46:42.404Z",
+  "synced_at": "2026-02-28T04:17:12.096Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5553884814e5ce74c437961e2acb4cc023d3a3c8a6c08f498a5ad7676ed1d38c",
   "install_command": "mkdir -p .claude/skills/uv2nix && curl -sL \"https://raw.githubusercontent.com/olafkfreund/nixos_config/main/.gemini/skills/uv2nix/SKILL.md\" > .claude/skills/uv2nix/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/olafkfreund/nixos_config/main/.gemini/skills/uv2nix/SKILL.md"

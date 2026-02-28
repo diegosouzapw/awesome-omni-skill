@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f6e57878812c5733a81573dd47d564874c7d8bddcee10dde9ea3ea315e52b64e",
   "indexed_at": "2026-02-26T15:17:24.561Z",
-  "synced_at": "2026-02-27T02:46:44.510Z",
+  "synced_at": "2026-02-28T04:17:14.288Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9ecb860c793224e0bbb9b5ccfc6cba9fde41782d5617756c9f91b8e275d6ecd4",
   "install_command": "mkdir -p .claude/skills/spec-generator && curl -sL \"https://raw.githubusercontent.com/shunkakinoki/dotagents/main/skills/spec-generator/SKILL.md\" > .claude/skills/spec-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/shunkakinoki/dotagents/main/skills/spec-generator/SKILL.md"

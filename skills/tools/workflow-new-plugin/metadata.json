@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1015ca192ad10ad6d881233f07ae29f7caf44223f8b70736f6bd0f4160b8b997",
   "indexed_at": "2026-02-26T09:35:56.086Z",
-  "synced_at": "2026-02-27T02:46:54.043Z",
+  "synced_at": "2026-02-28T04:17:29.516Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dbee1eda73abaf089c28781b18c6a6637181f0524be2ec5f64771a24898997a6",
   "install_command": "mkdir -p .claude/skills/workflow-new-plugin && curl -sL \"https://raw.githubusercontent.com/hollis-labs/volon/main/plugins/workflows/skills/workflow-new-plugin/SKILL.md\" > .claude/skills/workflow-new-plugin/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hollis-labs/volon/main/plugins/workflows/skills/workflow-new-plugin/SKILL.md"

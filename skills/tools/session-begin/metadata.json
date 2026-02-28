@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6732da10323fe1ecb04843e559cb00d9894b88f8b450f7d05ae420da51661369",
   "indexed_at": "2026-02-25T16:10:18.857Z",
-  "synced_at": "2026-02-27T02:46:40.427Z",
+  "synced_at": "2026-02-28T04:17:10.348Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/26350f13cb3f1f7ae394c5996fa61e09d7df3330c532d194f9e4434896bd6b5b",
   "install_command": "mkdir -p .claude/skills/session-begin && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/session-begin-jasonmichaelbell78-c-sonash-v0-2/SKILL.md\" > .claude/skills/session-begin/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/session-begin-jasonmichaelbell78-c-sonash-v0-2/SKILL.md"

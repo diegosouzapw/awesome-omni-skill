@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e084e18ffdfd5114bc88a52c5e003453a12c9fcd2b535a6950dbf06b0f308012",
   "indexed_at": "2026-02-25T13:11:22.979Z",
-  "synced_at": "2026-02-27T02:46:39.420Z",
+  "synced_at": "2026-02-28T04:17:09.355Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/56417fc8da80fcdcf35d22d539e71aa63054a88beec31de9190d51ca6c2862a4",
   "install_command": "mkdir -p .claude/skills/gql-guide && curl -sL \"https://raw.githubusercontent.com/whatasoda/soda-gql/main/claude-code-plugin/skills/gql-guide/SKILL.md\" > .claude/skills/gql-guide/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/whatasoda/soda-gql/main/claude-code-plugin/skills/gql-guide/SKILL.md"

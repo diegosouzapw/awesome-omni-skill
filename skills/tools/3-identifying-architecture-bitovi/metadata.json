@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d668f0fa3da12452dbd6a984b4ae18fad418b56bb4ba48ed87e549819057cc5e",
   "indexed_at": "2026-02-26T07:50:54.313Z",
-  "synced_at": "2026-02-27T02:46:41.886Z",
+  "synced_at": "2026-02-28T04:17:11.579Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/40777fc123aae56ff25c9ddf456971e4b5af212d54e15b495919014300a93e84",
   "install_command": "mkdir -p .claude/skills/3-identifying-architecture && curl -sL \"https://raw.githubusercontent.com/bitovi/context-generation-mvp/main/.claude/skills/3-identifying-architecture/SKILL.md\" > .claude/skills/3-identifying-architecture/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bitovi/context-generation-mvp/main/.claude/skills/3-identifying-architecture/SKILL.md"

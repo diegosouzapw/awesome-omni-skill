@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7c8601714f606db941aa74b83951ac580f62c042792d2e2ddeea80e010c3b606",
   "indexed_at": "2026-02-25T22:26:14.719Z",
-  "synced_at": "2026-02-27T02:47:09.592Z",
+  "synced_at": "2026-02-28T04:17:49.480Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bf512e28faa2acd8dc05eb472b3fa16c654f494ae9bad6e22c101e0293ddf0e4",
   "install_command": "mkdir -p .claude/skills/repairshopr-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/repairshopr-automation/SKILL.md\" > .claude/skills/repairshopr-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/repairshopr-automation/SKILL.md"

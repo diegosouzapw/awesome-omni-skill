@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0670875bddf1e5d31f1c27e63032fe5606abf555b24192a3010446c5dcfd18f4",
   "indexed_at": "2026-02-25T12:50:36.223Z",
-  "synced_at": "2026-02-27T02:46:49.135Z",
+  "synced_at": "2026-02-28T04:17:24.749Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7ae21d450bd837731ab240bbdf6f79c81c8c8ae426ac5eaadc3e7d41f0618edc",
   "install_command": "mkdir -p .claude/skills/plan-reduce-max-lines && curl -sL \"https://raw.githubusercontent.com/CodySwannGT/lisa/main/rails/copy-overwrite/.claude/skills/plan-reduce-max-lines/SKILL.md\" > .claude/skills/plan-reduce-max-lines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/CodySwannGT/lisa/main/rails/copy-overwrite/.claude/skills/plan-reduce-max-lines/SKILL.md"
