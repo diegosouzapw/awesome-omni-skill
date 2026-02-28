@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7dcd1fd357e3b1a1af4756f295ef6637e37449e5fd32df0a937d6164dbb1ef17",
   "indexed_at": "2026-02-27T07:52:28.249Z",
-  "synced_at": "2026-02-27T13:14:53.047Z",
+  "synced_at": "2026-02-28T04:05:27.903Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7578946bae8f185d993fd329eaaf8c712828d53f5a36a1ec1b631fbabb88521a",
   "install_command": "mkdir -p .claude/skills/inspiration && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/ivangdavila/inspiration/SKILL.md\" > .claude/skills/inspiration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ivangdavila/inspiration/SKILL.md"

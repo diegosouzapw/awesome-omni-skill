@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6715be97fca1eedf114d606b39f0b3ce23382e7f482c93b3c122df2c5751fd31",
   "indexed_at": "2026-02-25T15:54:57.368Z",
-  "synced_at": "2026-02-27T02:37:06.578Z",
+  "synced_at": "2026-02-28T04:05:21.160Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c2560d52df89723119863f617bceafa6260900fbb9c2ed9c31363b0a8b658129",
   "install_command": "mkdir -p .claude/skills/quit-weed && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/jhillin8/quit-weed/SKILL.md\" > .claude/skills/quit-weed/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/jhillin8/quit-weed/SKILL.md"

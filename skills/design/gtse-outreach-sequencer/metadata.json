@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "200cc593fb3c5d5d7ab4aba290cf47527958b93035dcf8d006c0079cd0478d57",
   "indexed_at": "2026-02-26T22:36:05.844Z",
-  "synced_at": "2026-02-27T02:37:05.007Z",
+  "synced_at": "2026-02-28T04:05:19.530Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/54db6a94875d4ed83198bf36240976ca37a22d4078fca31d4035ebca53b6c19d",
   "install_command": "mkdir -p .claude/skills/gtse-outreach-sequencer && curl -sL \"https://raw.githubusercontent.com/mk-162/162-Demo-Handbook/main/OLD- docs/skills/b2b/outreach-sequencer/SKILL.md\" > .claude/skills/gtse-outreach-sequencer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mk-162/162-Demo-Handbook/main/OLD- docs/skills/b2b/outreach-sequencer/SKILL.md"

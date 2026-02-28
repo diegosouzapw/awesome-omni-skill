@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "31521ba050e033db1e748c09b8706261dfce06bfbb1d172ba31c6849c118c6b4",
   "indexed_at": "2026-02-26T09:20:18.858Z",
-  "synced_at": "2026-02-27T02:37:45.796Z",
+  "synced_at": "2026-02-28T04:06:16.723Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a9dbd9991cb21a0b8c2f617138d5438ab5cfebeb481b91c041656aca77b26861",
   "install_command": "mkdir -p .claude/skills/epic-ui-guidelines && curl -sL \"https://raw.githubusercontent.com/walbuc/iac-sorteios/main/docs/skills/epic-ui-guidelines/SKILL.md\" > .claude/skills/epic-ui-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/walbuc/iac-sorteios/main/docs/skills/epic-ui-guidelines/SKILL.md"

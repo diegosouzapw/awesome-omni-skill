@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "108e5d59ca72ae09be9c8ef06c9d184f639cf6a2e49893898c590c39d84325a6",
   "indexed_at": "2026-02-25T12:42:28.147Z",
-  "synced_at": "2026-02-27T02:37:12.982Z",
+  "synced_at": "2026-02-28T04:05:31.475Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/675ce392cf26b0271b9d1df5ecc12a85006f135666d360db1849372866a2a376",
   "install_command": "mkdir -p .claude/skills/oiloil-ui-ux-guide && curl -sL \"https://raw.githubusercontent.com/OpenDCAI/leonai/main/.claude/skills/oiloil-ui-ux-guide/SKILL.md\" > .claude/skills/oiloil-ui-ux-guide/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/OpenDCAI/leonai/main/.claude/skills/oiloil-ui-ux-guide/SKILL.md"

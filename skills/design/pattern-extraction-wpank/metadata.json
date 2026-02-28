@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dc5683f54b383e40fab628d793fd4c531b6b2779db49063676c419d8c70501ca",
   "indexed_at": "2026-02-26T12:18:16.987Z",
-  "synced_at": "2026-02-27T02:37:32.733Z",
+  "synced_at": "2026-02-28T04:05:50.097Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed564a0a784323018ef2c33de720fec3464820f0035572cf6bb71ee298c014ea",
   "install_command": "mkdir -p .claude/skills/pattern-extraction && curl -sL \"https://raw.githubusercontent.com/wpank/ai/main/skills/extraction/SKILL.md\" > .claude/skills/pattern-extraction/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wpank/ai/main/skills/extraction/SKILL.md"

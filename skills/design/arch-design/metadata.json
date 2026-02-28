@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6bf00f2275d25a1a45d0315e5cadf7884d213a16a8c2863320e6ca1c3628323e",
   "indexed_at": "2026-02-26T07:51:20.143Z",
-  "synced_at": "2026-02-27T02:37:28.867Z",
+  "synced_at": "2026-02-28T04:05:45.850Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5a9f8b36f3f7037e591922ff708116f243c85001cb31472edd1b29dbee5cdea2",
   "install_command": "mkdir -p .claude/skills/arch-design && curl -sL \"https://raw.githubusercontent.com/andreibesleaga/GABBE/main/agents/skills/architecture/arch-design.skill.md/SKILL.md\" > .claude/skills/arch-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/andreibesleaga/GABBE/main/agents/skills/architecture/arch-design.skill.md/SKILL.md"

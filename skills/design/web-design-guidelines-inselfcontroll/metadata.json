@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b046f88e9f9052947efa5879c6f9916702f8a527cd376281daf8f24ee46ee37c",
   "indexed_at": "2026-02-26T15:16:23.673Z",
-  "synced_at": "2026-02-27T02:37:09.605Z",
+  "synced_at": "2026-02-28T04:05:25.401Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0f9170c8d4602b77ff2889b72d427d5288cd4f52e3ae991e249cfd64a4886024",
   "install_command": "mkdir -p .claude/skills/web-design-guidelines && curl -sL \"https://raw.githubusercontent.com/InSelfControll/ai-agent-skills/main/web-design-guidelines/SKILL.md\" > .claude/skills/web-design-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/InSelfControll/ai-agent-skills/main/web-design-guidelines/SKILL.md"

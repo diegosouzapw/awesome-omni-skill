@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ecf8185c0eade99a969afa917be3410263b501f162133f95409e8766cb8116e1",
   "indexed_at": "2026-02-26T06:49:15.978Z",
-  "synced_at": "2026-02-27T02:37:23.921Z",
+  "synced_at": "2026-02-28T04:05:41.715Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/18917e1d53541157f733faf197b5d24e51265a038552715057b6200d77222ac4",
   "install_command": "mkdir -p .claude/skills/lp-design-spec && curl -sL \"https://raw.githubusercontent.com/PeterCowling/base-shop/main/.claude/skills/lp-design-spec/SKILL.md\" > .claude/skills/lp-design-spec/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/PeterCowling/base-shop/main/.claude/skills/lp-design-spec/SKILL.md"

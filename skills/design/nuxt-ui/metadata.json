@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ff4ff1786e09759208df830fd5c6986305f2ce68894e3ea9e15e38dd72e1c6cf",
   "indexed_at": "2026-02-26T06:55:48.181Z",
-  "synced_at": "2026-02-27T02:37:08.222Z",
+  "synced_at": "2026-02-28T04:05:24.000Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4f1876b2db6eff7be306e96bb9737002cdc4465c953ba3eca38495b3c05636be",
   "install_command": "mkdir -p .claude/skills/nuxt-ui && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/baotoq/agent-skills/nuxt-ui/SKILL.md\" > .claude/skills/nuxt-ui/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/baotoq/agent-skills/nuxt-ui/SKILL.md"

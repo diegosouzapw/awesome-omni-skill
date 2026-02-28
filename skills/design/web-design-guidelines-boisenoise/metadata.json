@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "24ab5ae2237abca8a11e77ab7d49a9ae6924eaa2e382bf84e6a60276c6a8758d",
   "indexed_at": "2026-02-26T15:18:24.147Z",
-  "synced_at": "2026-02-27T02:37:46.335Z",
+  "synced_at": "2026-02-28T04:06:17.247Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/632cb31505418092502194d60d1a6b351c0f5cf95740e67827706724ea9463b0",
   "install_command": "mkdir -p .claude/skills/web-design-guidelines && curl -sL \"https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-web-design-guidelines/SKILL.md\" > .claude/skills/web-design-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-web-design-guidelines/SKILL.md"

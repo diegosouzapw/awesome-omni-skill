@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6e3e91e29ad3e18e66b638d99d556131f91eddbe709bdc42d80888ae3faab59d",
   "indexed_at": "2026-02-25T19:26:11.047Z",
-  "synced_at": "2026-02-27T02:37:52.969Z",
+  "synced_at": "2026-02-28T04:06:26.611Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6cc9e350a335e356150457f77adceaf7463e9ee472f96ea87616675afa8075c8",
   "install_command": "mkdir -p .claude/skills/wcag-audit-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/wcag-audit-patterns/SKILL.md\" > .claude/skills/wcag-audit-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/wcag-audit-patterns/SKILL.md"

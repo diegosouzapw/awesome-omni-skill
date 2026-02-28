@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1e51947716d3dc5b95e7b8f459a2c8a5aca4604dca65cdf5864ab3d078df7e14",
   "indexed_at": "2026-02-26T12:25:05.433Z",
-  "synced_at": "2026-02-27T02:37:34.952Z",
+  "synced_at": "2026-02-28T04:05:52.028Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1af9fc99b0f52857646f07ab55387a73d5d89e39f2df35a1df2d6b219cb2ef39",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/Brite-Nites/britenites-claude-plugins/main/plugins/britenites/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Brite-Nites/britenites-claude-plugins/main/plugins/britenites/skills/ui-ux-pro-max/SKILL.md"

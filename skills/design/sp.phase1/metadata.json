@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9aa3a45e05eb877fe37ac646d6f86f665cb36bd96dc913a1ffd4fe9a951dabbc",
   "indexed_at": "2026-02-26T15:17:44.586Z",
-  "synced_at": "2026-02-27T02:37:09.902Z",
+  "synced_at": "2026-02-28T04:05:25.575Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b6957347d36d87e74613c9b2d5a1a12879060d574560a935bc1919683720d844",
   "install_command": "mkdir -p .claude/skills/sp.phase1 && curl -sL \"https://raw.githubusercontent.com/SahirAhmedSheikh814/The-Evolution-of-Todo/main/.claude/skills/sp.phase1.SKILL.md/SKILL.md\" > .claude/skills/sp.phase1/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/SahirAhmedSheikh814/The-Evolution-of-Todo/main/.claude/skills/sp.phase1.SKILL.md/SKILL.md"

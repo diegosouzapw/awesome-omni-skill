@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1ed4beefecd99e56c2b9eb38a37d77c2262820097476b482ed1375b77b191267",
   "indexed_at": "2026-02-26T06:49:46.399Z",
-  "synced_at": "2026-02-27T02:37:24.707Z",
+  "synced_at": "2026-02-28T04:05:42.463Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/54affa95f7e126f3861edb289cc9eda0b6e3c20d4b45f697f4c87ca82adf67e4",
   "install_command": "mkdir -p .claude/skills/mockup-to-code && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/mockup-to-code/SKILL.md\" > .claude/skills/mockup-to-code/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/mockup-to-code/SKILL.md"

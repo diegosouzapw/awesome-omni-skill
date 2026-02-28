@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4568b8ed643b4fd654a8c53ddf6b3b7aeb32ff703b8890162e0b2095786036e9",
   "indexed_at": "2026-02-26T11:32:11.704Z",
-  "synced_at": "2026-02-27T02:37:30.705Z",
+  "synced_at": "2026-02-28T04:05:48.100Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/03f151da6ec7951f48f24692790a0c938758cf43450b2e67e975059989a4b579",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/corsal2025/NUTRI-AGENDA2026/main/.agent/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/corsal2025/NUTRI-AGENDA2026/main/.agent/skills/ui-ux-pro-max/SKILL.md"

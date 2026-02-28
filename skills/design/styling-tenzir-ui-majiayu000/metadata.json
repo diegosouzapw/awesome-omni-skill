@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1b6554869758811f768cbe27bb0a9b63fe57d63071580aae7a9dd9321495478b",
   "indexed_at": "2026-02-27T06:50:30.455Z",
-  "synced_at": "2026-02-27T13:14:54.266Z",
+  "synced_at": "2026-02-28T04:05:57.677Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f691ea78dda1d52a83b04b5bfbe95e83c299763be4a40bc0f23c80554a18f37e",
   "install_command": "mkdir -p .claude/skills/styling-tenzir-ui && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/styling-tenzir-ui/SKILL.md\" > .claude/skills/styling-tenzir-ui/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/styling-tenzir-ui/SKILL.md"

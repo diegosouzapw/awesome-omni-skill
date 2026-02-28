@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9e80ce10487a52dbdea96d7f0fce6e1865c42435ba6a774ace8b89bcf895f71b",
   "indexed_at": "2026-02-26T06:55:37.656Z",
-  "synced_at": "2026-02-27T02:37:07.861Z",
+  "synced_at": "2026-02-28T04:05:23.647Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c8b3ed4a7db1e704762d176366bc4f6615a74b47277a9752b2c40afa3ad9a7f5",
   "install_command": "mkdir -p .claude/skills/refactoring-ui && curl -sL \"https://raw.githubusercontent.com/yono92/KeyWork/main/.agents/skills/refactoring-ui/SKILL.md\" > .claude/skills/refactoring-ui/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yono92/KeyWork/main/.agents/skills/refactoring-ui/SKILL.md"

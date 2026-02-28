@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "835b1430883e8effcb79c2b09d7f67d67d11f4e08613cee39e154dda469c4fb0",
   "indexed_at": "2026-02-26T11:31:10.555Z",
-  "synced_at": "2026-02-27T02:37:30.042Z",
+  "synced_at": "2026-02-28T04:05:47.479Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6a24406f50b38880e61589206b25312ea00646b230ce7ffa4ee85a0e373c500e",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max-skill && curl -sL \"https://raw.githubusercontent.com/Candlest/mac-agent-system-runbook/main/ui-ux-pro-max-skill.md/SKILL.md\" > .claude/skills/ui-ux-pro-max-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Candlest/mac-agent-system-runbook/main/ui-ux-pro-max-skill.md/SKILL.md"

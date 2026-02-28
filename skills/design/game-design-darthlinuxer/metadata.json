@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/darthlinuxer/Agentic-Skills",
   "author": "darthlinuxer",
   "author_avatar": "https://github.com/darthlinuxer.png",
-  "file_path": ".cursor/skills/game-design/SKILL.md",
+  "file_path": ".claude/skills/game-design/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 41,
@@ -17,10 +17,10 @@
   "has_scripts": false,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "a60277c126d73c92ae26a646d6cc9645769065ed9654560daa77a2420bd86bab",
-  "indexed_at": "2026-02-25T12:54:17.285Z",
-  "synced_at": "2026-02-27T02:37:39.825Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d3ed235e465f2eabc2f8cf17e3dbd5e3d99de42219f3198276efb62c69c2f0ce",
-  "install_command": "mkdir -p .claude/skills/game-design && curl -sL \"https://raw.githubusercontent.com/darthlinuxer/Agentic-Skills/main/.cursor/skills/game-design/SKILL.md\" > .claude/skills/game-design/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/darthlinuxer/Agentic-Skills/main/.cursor/skills/game-design/SKILL.md"
+  "content_hash": "84d8cabfad5c56c2c096e7f025bbd5725f8a884afa4f2b61fe824cf09017f985",
+  "indexed_at": "2026-02-27T21:52:29.816Z",
+  "synced_at": "2026-02-28T04:06:14.455Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eb4c316afb91893a658a299e50fa0daf2b735de0da0d353eae3f90c4b1f1e18f",
+  "install_command": "mkdir -p .claude/skills/game-design && curl -sL \"https://raw.githubusercontent.com/darthlinuxer/Agentic-Skills/main/.claude/skills/game-design/SKILL.md\" > .claude/skills/game-design/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/darthlinuxer/Agentic-Skills/main/.claude/skills/game-design/SKILL.md"
 }

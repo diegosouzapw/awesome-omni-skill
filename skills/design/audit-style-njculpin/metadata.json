@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "181bfb0f8355bcdb953da6321b3dc7fd4f3b7b1cba5a790f2ec66242672e81cf",
   "indexed_at": "2026-02-25T14:53:46.484Z",
-  "synced_at": "2026-02-27T02:37:15.891Z",
+  "synced_at": "2026-02-28T04:05:34.534Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6e1f57abc78b1f4ae2a520024ad045368d1f08ee72c0d2d3079a45e8e036e9d6",
   "install_command": "mkdir -p .claude/skills/audit-style && curl -sL \"https://raw.githubusercontent.com/njculpin/BudgetZero/main/.claude/skills/audit-style/SKILL.md\" > .claude/skills/audit-style/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/njculpin/BudgetZero/main/.claude/skills/audit-style/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2d3c7d71a74ccbe3d8b184b83056bb12aaa748dc5956da57a5f8b38c432c6af0",
   "indexed_at": "2026-02-25T16:11:15.586Z",
-  "synced_at": "2026-02-27T02:37:47.533Z",
+  "synced_at": "2026-02-28T04:06:20.097Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fe3f4da9d0a08ee34d839ad16e517af9a50b29d7cbf06f19c9e65b8266620311",
   "install_command": "mkdir -p .claude/skills/dev-server-sandbox && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/dev-server-sandbox/SKILL.md\" > .claude/skills/dev-server-sandbox/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/dev-server-sandbox/SKILL.md"

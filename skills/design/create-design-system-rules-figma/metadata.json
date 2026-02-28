@@ -17,9 +17,9 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "f93207473de06f6f44337767dd7a8164528f2d879c2a511a262e9a09536ed9f6",
+  "content_hash": "be40f0d9b2ebc51de8939f45ec987141f2d63ea2489a335071689d0c60ae83f0",
   "indexed_at": "2026-02-26T23:39:41.815Z",
-  "synced_at": "2026-02-27T02:37:38.481Z",
+  "synced_at": "2026-02-28T04:05:55.416Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3486b05d741614a1d55bd1bd8f56526a0c3388acb4724a4b773cafe984b3a655",
   "install_command": "mkdir -p .claude/skills/create-design-system-rules && curl -sL \"https://raw.githubusercontent.com/figma/mcp-server-guide/main/skills/create-design-system-rules/SKILL.md\" > .claude/skills/create-design-system-rules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/figma/mcp-server-guide/main/skills/create-design-system-rules/SKILL.md"

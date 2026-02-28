@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b31b83b059ef741fb459028337671c0ce4cff2750dc7e0f0836499d2a24de91b",
   "indexed_at": "2026-02-26T06:55:45.919Z",
-  "synced_at": "2026-02-27T02:37:28.241Z",
+  "synced_at": "2026-02-28T04:05:45.482Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/026eff91231ef2b80e5e85c9fcc4c75d7ac3070a214c673083a2c2245b807890",
   "install_command": "mkdir -p .claude/skills/minimalist-portfolio-design && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/minimalist-portfolio-design/SKILL.md\" > .claude/skills/minimalist-portfolio-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/minimalist-portfolio-design/SKILL.md"

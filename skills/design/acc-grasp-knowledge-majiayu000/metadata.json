@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "35dc686c6451c856d6947bbf7bf52cf6f98473bbde262d28646861e24f44cc56",
   "indexed_at": "2026-02-26T05:09:03.595Z",
-  "synced_at": "2026-02-27T02:37:01.599Z",
+  "synced_at": "2026-02-28T04:05:15.147Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/761d43024e4d2e8d499bc34fc8bb09c1ead4b5b1e9feaddfb7c28bb5eb4f1851",
   "install_command": "mkdir -p .claude/skills/acc-grasp-knowledge && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-grasp-knowledge/SKILL.md\" > .claude/skills/acc-grasp-knowledge/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-grasp-knowledge/SKILL.md"

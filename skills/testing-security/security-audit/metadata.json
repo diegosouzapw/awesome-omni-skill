@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "54f0633a933292ab36729bea0041c4c978acde457cefd282346d8d7fa78dfbd1",
   "indexed_at": "2026-02-25T18:25:40.400Z",
-  "synced_at": "2026-02-27T02:37:53.129Z",
+  "synced_at": "2026-02-28T04:06:26.756Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dce126f4aca53083a76d5eb7209dbe0fd0b90ba3de33cbc1eee5dc13da34d697",
   "install_command": "mkdir -p .claude/skills/security-audit && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/security-audit/SKILL.md\" > .claude/skills/security-audit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/security-audit/SKILL.md"

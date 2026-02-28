@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ed713d064b6194347fab0823b0d3440662048e13a6ebd5049bc2aefbb2ef201a",
   "indexed_at": "2026-02-26T11:33:55.938Z",
-  "synced_at": "2026-02-27T02:37:32.157Z",
+  "synced_at": "2026-02-28T04:05:49.507Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a90f9b26392746dac148ad97f19f8ab0f2243cd9b19a4a951af93d7a4eab1d48",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/MrJavokhir/studentOS-Bobur/main/.agent/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MrJavokhir/studentOS-Bobur/main/.agent/skills/ui-ux-pro-max/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "312e467bc72a3d92eaec9ef6d1192e8a9b8ab5c364b9af6958ed0cc1c13728a7",
   "indexed_at": "2026-02-27T15:02:26.162Z",
-  "synced_at": "2026-02-27T18:16:59.788Z",
+  "synced_at": "2026-02-28T04:06:01.756Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/43456d568e6c93c4bcd5c4f4ff8818ac5149155083e8480d4ad5dfb627848222",
   "install_command": "mkdir -p .claude/skills/ux-audit && curl -sL \"https://raw.githubusercontent.com/viralcode/openwhale/main/skills/ux-audit/SKILL.md\" > .claude/skills/ux-audit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/viralcode/openwhale/main/skills/ux-audit/SKILL.md"

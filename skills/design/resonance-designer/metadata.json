@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "30d5c8cb8e66a35bc9d8dd6fbb5e8408df82f87c996a690257385a404a38d266",
   "indexed_at": "2026-02-26T06:55:49.606Z",
-  "synced_at": "2026-02-27T02:37:28.469Z",
+  "synced_at": "2026-02-28T04:05:45.686Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/20bd7fe2874ca8f248e4a15779ad2feee6faf3b2a0fa63ba577b43a7a4315f4d",
   "install_command": "mkdir -p .claude/skills/resonance-designer && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/manusco/resonance/resonance-designer/SKILL.md\" > .claude/skills/resonance-designer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/manusco/resonance/resonance-designer/SKILL.md"

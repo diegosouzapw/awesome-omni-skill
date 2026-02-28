@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2f132d7539d2ee20183dbdc2bd248568e01aec4a993995614ac8eb816d41d0d4",
   "indexed_at": "2026-02-25T15:11:12.727Z",
-  "synced_at": "2026-02-27T02:37:16.791Z",
+  "synced_at": "2026-02-28T04:05:35.402Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/32b29be217ee2645afcaa86b8846a1243e98aa3451b686015e47aa6231eb4911",
   "install_command": "mkdir -p .claude/skills/trent-tmux && curl -sL \"https://raw.githubusercontent.com/trentshaines/dotfiles/main/dot_claude/skills/trent-tmux/SKILL.md\" > .claude/skills/trent-tmux/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/trentshaines/dotfiles/main/dot_claude/skills/trent-tmux/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2618f21aefa2abc644492883cf5e9adbc2aedd81d051558911002b7c2affd0ba",
   "indexed_at": "2026-02-25T19:24:41.593Z",
-  "synced_at": "2026-02-27T02:37:52.371Z",
+  "synced_at": "2026-02-28T04:06:25.901Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5db045aa910948a926c40622b7ef71a3349e3d3463b609efc6e75f03f31a5b29",
   "install_command": "mkdir -p .claude/skills/test-fixing && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/test-fixing/SKILL.md\" > .claude/skills/test-fixing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/test-fixing/SKILL.md"

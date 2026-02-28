@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3a86e689bdfeedf7193c650c2955f761e7fdde338a7eb167dcb35b5e69a1f853",
   "indexed_at": "2026-02-25T19:41:01.364Z",
-  "synced_at": "2026-02-27T02:37:17.773Z",
+  "synced_at": "2026-02-28T04:05:36.515Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/45aec48f41c58da81a6781118049151d4ecd9735d671b7f55003828274c86b47",
   "install_command": "mkdir -p .claude/skills/combat-design && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/combat-design/SKILL.md\" > .claude/skills/combat-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/combat-design/SKILL.md"

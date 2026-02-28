@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3b87bf0adcfd08c922224e207e95a394eb508eccd673aab2b2af6200d2b52f3a",
   "indexed_at": "2026-02-25T20:40:49.442Z",
-  "synced_at": "2026-02-27T02:37:40.152Z",
+  "synced_at": "2026-02-28T04:06:07.948Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ad2ef9799bf9dd6f1dac3217f521abd8246547051c25b54e9db775ebd4adcbcc",
   "install_command": "mkdir -p .claude/skills/ui-potion-discovery && curl -sL \"https://raw.githubusercontent.com/uiPotion/uipotion/main/src/statics/skills/ui-potion-discovery/SKILL.md\" > .claude/skills/ui-potion-discovery/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/uiPotion/uipotion/main/src/statics/skills/ui-potion-discovery/SKILL.md"

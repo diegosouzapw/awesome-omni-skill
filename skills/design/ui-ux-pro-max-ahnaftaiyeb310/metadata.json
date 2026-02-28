@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f75e0487ac2b35430e5c7031739cdbf5855b3b0cc7e10de93dbb16e3ad4f64f8",
   "indexed_at": "2026-02-26T11:32:57.117Z",
-  "synced_at": "2026-02-27T02:37:42.660Z",
+  "synced_at": "2026-02-28T04:06:10.578Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e0abba232f2c0d6b3cdb7cee510e7d4a75e62183f9021236c6e4697304cc54b3",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/AhnafTaiyeb310/blog-app/main/.gemini/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AhnafTaiyeb310/blog-app/main/.gemini/skills/ui-ux-pro-max/SKILL.md"

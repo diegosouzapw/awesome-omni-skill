@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "847429d861e7451276cf0df9168871b1cd03f18f9a71c1b73166daf77f0803e3",
   "indexed_at": "2026-02-26T06:53:40.218Z",
-  "synced_at": "2026-02-27T02:37:27.508Z",
+  "synced_at": "2026-02-28T04:05:44.767Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0790144c4a000d7ee22d40e839e2435f560aa331c766412293376559bd02057b",
   "install_command": "mkdir -p .claude/skills/frontend-design && curl -sL \"https://raw.githubusercontent.com/mccarthysean/strictly-dancing/main/.claude/skills/frontend-design/SKILL.md\" > .claude/skills/frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mccarthysean/strictly-dancing/main/.claude/skills/frontend-design/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f4ca8a2e45342627de25aafefc164f071d8ea21f1caa5dec135138f0c45230e9",
   "indexed_at": "2026-02-27T15:07:29.731Z",
-  "synced_at": "2026-02-27T18:16:58.600Z",
+  "synced_at": "2026-02-28T04:05:28.425Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/efe9e5a17642785ef08328b5884586992e877766abaa02507466bebe0edd805a",
   "install_command": "mkdir -p .claude/skills/accessibility-design && curl -sL \"https://raw.githubusercontent.com/I2olanD/dotfiles/main/.config/opencode/skill/accessibility-design/SKILL.md\" > .claude/skills/accessibility-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/I2olanD/dotfiles/main/.config/opencode/skill/accessibility-design/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0377fb76c2514af346b6efd352e9e13b51e3958b1b5c88daf10fe97e83b1abb9",
   "indexed_at": "2026-02-26T12:24:58.540Z",
-  "synced_at": "2026-02-27T02:37:34.608Z",
+  "synced_at": "2026-02-28T04:05:51.681Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d0916f90ed4500059a91ba308b3ee69af2c4a2b0b4f4e49a6b2fdd2d98cdb636",
   "install_command": "mkdir -p .claude/skills/ui-ux && curl -sL \"https://raw.githubusercontent.com/INK666/myGal/main/.trae/skills/ui-ux/SKILL.md\" > .claude/skills/ui-ux/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/INK666/myGal/main/.trae/skills/ui-ux/SKILL.md"

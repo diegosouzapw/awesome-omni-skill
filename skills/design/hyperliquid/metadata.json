@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5891fe228cce2ed6c97243d1b3fac06b0d438dbf0fdc1477c6add67e6e6d7209",
   "indexed_at": "2026-02-27T11:35:04.306Z",
-  "synced_at": "2026-02-27T13:14:54.534Z",
+  "synced_at": "2026-02-28T04:05:58.358Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0e6b2b369d3d2be903d05a7828069363a968c75306268d730dd67936db588457",
   "install_command": "mkdir -p .claude/skills/hyperliquid && curl -sL \"https://raw.githubusercontent.com/anajuliabit/clawdbot-hyperliquid-skill/main/SKILL.md\" > .claude/skills/hyperliquid/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/anajuliabit/clawdbot-hyperliquid-skill/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f5a390ff671c002e114623a5fbcbf574c1cd8ffa2a8d91cf9dbfac3b58883556",
   "indexed_at": "2026-02-26T05:41:44.340Z",
-  "synced_at": "2026-02-27T02:37:21.531Z",
+  "synced_at": "2026-02-28T04:05:39.371Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/549f14a455af7912cebd6e3e7af59b72e73508faee5f0d579b604304a8492ce6",
   "install_command": "mkdir -p .claude/skills/design-system-guard && curl -sL \"https://raw.githubusercontent.com/lucidlabs-hq/agent-kit/main/.claude/skills/design-system-guard/SKILL.md\" > .claude/skills/design-system-guard/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lucidlabs-hq/agent-kit/main/.claude/skills/design-system-guard/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a1aa40f9a0ab1b5ba80216485c2f4af9c906371e77a9088081186031f633e1e9",
   "indexed_at": "2026-02-27T11:46:56.682Z",
-  "synced_at": "2026-02-27T13:14:54.846Z",
+  "synced_at": "2026-02-28T04:05:59.024Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ba4daf1b718ebfeeab5a6e7961d2b1e736bc53427a1810f7a59dcd55e52320a4",
   "install_command": "mkdir -p .claude/skills/tool-design-style-selector && curl -sL \"https://raw.githubusercontent.com/harshil-l/webClaw/main/skills/tool-design-style-selector/SKILL.md\" > .claude/skills/tool-design-style-selector/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/harshil-l/webClaw/main/skills/tool-design-style-selector/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "45f779057412ebfd247bc2ecfe82889a3c58657e5a6bb507caa18b7fcfbf148b",
   "indexed_at": "2026-02-26T15:22:24.060Z",
-  "synced_at": "2026-02-27T02:37:37.087Z",
+  "synced_at": "2026-02-28T04:05:54.103Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/236d918499ef4485d629a52cc6ece29a4e25136775b232549db9a327db8c4dc8",
   "install_command": "mkdir -p .claude/skills/ui-ux-principles && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ui-ux-principles-housegarofalo-claude-code-base/SKILL.md\" > .claude/skills/ui-ux-principles/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ui-ux-principles-housegarofalo-claude-code-base/SKILL.md"

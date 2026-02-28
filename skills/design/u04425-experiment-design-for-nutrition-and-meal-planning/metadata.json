@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eaeaf7c58c809da06a435d361a45007cd343a241e9169ae555775d4868f24987",
   "indexed_at": "2026-02-27T01:22:00.410Z",
-  "synced_at": "2026-02-27T02:37:39.071Z",
+  "synced_at": "2026-02-28T04:05:55.914Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6ead92454bfb4c4a21b975d482e6bb900045e9ded6beb92e3ead9319ab4682ae",
   "install_command": "mkdir -p .claude/skills/u04425-experiment-design-for-nutrition-and-meal-planning && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/04/4425-experiment-design-for-nutrition-and-meal-planning/SKILL.md\" > .claude/skills/u04425-experiment-design-for-nutrition-and-meal-planning/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/04/4425-experiment-design-for-nutrition-and-meal-planning/SKILL.md"

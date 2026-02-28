@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3ddb491f32e491921388b2593682ef7efd1bfcd65174be8aaeefc2f33dae4b65",
   "indexed_at": "2026-02-26T06:48:08.224Z",
-  "synced_at": "2026-02-27T02:37:23.395Z",
+  "synced_at": "2026-02-28T04:05:41.208Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/203c5f617cb6056ecbcd38cebcc321dde78d0918f1b1d48491788698f68c39af",
   "install_command": "mkdir -p .claude/skills/project-frontend-design && curl -sL \"https://raw.githubusercontent.com/homywu/meatballs/main/.agent/skills/frontend-design/SKILL.md\" > .claude/skills/project-frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/homywu/meatballs/main/.agent/skills/frontend-design/SKILL.md"

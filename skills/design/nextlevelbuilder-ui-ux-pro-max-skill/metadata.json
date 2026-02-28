@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7df0bcf9f29988b7fadd1b9bc037de9a739b0a3ae758d9137817ce3e54863abc",
   "indexed_at": "2026-02-26T18:30:35.969Z",
-  "synced_at": "2026-02-27T02:37:46.670Z",
+  "synced_at": "2026-02-28T04:06:17.584Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d034e1fb4685ed9c7aa6dde38ed4c638f56c28cf2f2d62206512ad776986893c",
   "install_command": "mkdir -p .claude/skills/nextlevelbuilder-ui-ux-pro-max-skill && curl -sL \"https://raw.githubusercontent.com/nguyenvanduocit/autosocial-trends/main/2025/12/2025-12-24-content/trendshift_nextlevelbuilder-ui-ux-pro-max-skill.md/SKILL.md\" > .claude/skills/nextlevelbuilder-ui-ux-pro-max-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nguyenvanduocit/autosocial-trends/main/2025/12/2025-12-24-content/trendshift_nextlevelbuilder-ui-ux-pro-max-skill.md/SKILL.md"

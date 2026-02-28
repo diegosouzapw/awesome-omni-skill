@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1c4d067627a258866e9fbebb63a419d194c7f757eea1c1544cadc3894b59dcf2",
   "indexed_at": "2026-02-26T06:54:57.114Z",
-  "synced_at": "2026-02-27T02:37:07.489Z",
+  "synced_at": "2026-02-28T04:05:23.283Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5af32adccef0abcff30ea7331f1e5807b7beb487953016e603e8bd5d2cfbb339",
   "install_command": "mkdir -p .claude/skills/design-expert && curl -sL \"https://raw.githubusercontent.com/rahlplx/elite-astro-workforce-template/main/.agent/skills/design-expert/SKILL.md\" > .claude/skills/design-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rahlplx/elite-astro-workforce-template/main/.agent/skills/design-expert/SKILL.md"

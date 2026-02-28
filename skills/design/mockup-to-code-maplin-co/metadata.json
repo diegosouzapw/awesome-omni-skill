@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5fc540ca36c4b85ab91d716733cc69f1d0651089737d89a09690432777c1b0c6",
   "indexed_at": "2026-02-26T06:52:12.968Z",
-  "synced_at": "2026-02-27T02:37:26.150Z",
+  "synced_at": "2026-02-28T04:05:44.051Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e4c168c464627c377f0677168df395a2ef273b0d25d9fad955ff7f8be0c512e9",
   "install_command": "mkdir -p .claude/skills/mockup-to-code && curl -sL \"https://raw.githubusercontent.com/maplin-co/ai-course/main/.opencode/skill/mockup-to-code/SKILL.md\" > .claude/skills/mockup-to-code/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/maplin-co/ai-course/main/.opencode/skill/mockup-to-code/SKILL.md"

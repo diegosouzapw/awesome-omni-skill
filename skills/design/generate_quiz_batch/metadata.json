@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fd1aac8c88909c32006ea03bccac95eb95f3135859023ef580425f8b0c23695c",
   "indexed_at": "2026-02-25T20:41:39.211Z",
-  "synced_at": "2026-02-27T02:37:18.536Z",
+  "synced_at": "2026-02-28T04:05:37.286Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fe19fd4ffd98891d78185a9001bb8ccd33040f99aca5e7da222e87b04312035c",
   "install_command": "mkdir -p .claude/skills/generate_quiz_batch && curl -sL \"https://raw.githubusercontent.com/BlindsidedGames/BlindsidedGames/main/_agents/skills/generate_quiz_batch/SKILL.md\" > .claude/skills/generate_quiz_batch/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/BlindsidedGames/BlindsidedGames/main/_agents/skills/generate_quiz_batch/SKILL.md"

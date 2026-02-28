@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ec041e10031a8e4b4ea3feaed7c3e04d530a7b56fec42ee0844f7afa0b44efd5",
   "indexed_at": "2026-02-26T16:02:08.584Z",
-  "synced_at": "2026-02-27T02:37:37.795Z",
+  "synced_at": "2026-02-28T04:05:54.761Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/24e09a560aa2b8e5e9aa6849b411586e30f33b11e0a30a79bcd3049def735ad7",
   "install_command": "mkdir -p .claude/skills/zero-to-launch && curl -sL \"https://raw.githubusercontent.com/menkesu/awesome-pm-skills/main/zero-to-launch/SKILL.md\" > .claude/skills/zero-to-launch/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/menkesu/awesome-pm-skills/main/zero-to-launch/SKILL.md"

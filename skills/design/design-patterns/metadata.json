@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3ee82123b2d94a96c5f60f9a134380245bce0acecf2d42ccc0329f349095539d",
   "indexed_at": "2026-02-26T05:49:18.040Z",
-  "synced_at": "2026-02-27T02:37:21.868Z",
+  "synced_at": "2026-02-28T04:05:39.728Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f797cf76c0245f1c3af85cca05002219a1a1a4b94789a38191598fc32fbdf9ea",
   "install_command": "mkdir -p .claude/skills/design-patterns && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/tencentblueking/bk-ci/design-patterns/SKILL.md\" > .claude/skills/design-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/tencentblueking/bk-ci/design-patterns/SKILL.md"

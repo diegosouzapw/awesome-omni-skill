@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "450be7af62ac2cec02ab498ecc766880dcd3125197ad3e79765490530d585465",
   "indexed_at": "2026-02-26T11:34:01.249Z",
-  "synced_at": "2026-02-27T02:37:43.018Z",
+  "synced_at": "2026-02-28T04:06:10.941Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f02db69af5f2759d7b84e20b3485428f1bf19cd555ca39538b0707069a178238",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/dainsiahtill-dev/TauriHands/main/.qoder/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dainsiahtill-dev/TauriHands/main/.qoder/skills/ui-ux-pro-max/SKILL.md"

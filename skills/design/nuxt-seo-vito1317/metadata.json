@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b889591a18eff1d849ddf08b9ded1aff1395cca192915bb150ea7b75304cee6e",
   "indexed_at": "2026-02-25T14:53:32.077Z",
-  "synced_at": "2026-02-27T02:37:15.714Z",
+  "synced_at": "2026-02-28T04:05:34.351Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/741b6aaea73d35343887483053a81f8e998e4f79ecaa9d1b543576e57c0411e4",
   "install_command": "mkdir -p .claude/skills/nuxt-seo && curl -sL \"https://raw.githubusercontent.com/vito1317/security-one-waf-website/main/.tessl/tiles/onmax/nuxt-skills/skills/nuxt-seo/SKILL.md\" > .claude/skills/nuxt-seo/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/vito1317/security-one-waf-website/main/.tessl/tiles/onmax/nuxt-skills/skills/nuxt-seo/SKILL.md"

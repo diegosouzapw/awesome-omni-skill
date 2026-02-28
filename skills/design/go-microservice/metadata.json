@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "45b0660c7aa953172adcc792d6f83cce631ce1d391c8d5dd7c2b594f961d5376",
   "indexed_at": "2026-02-26T05:46:51.949Z",
-  "synced_at": "2026-02-27T02:37:21.685Z",
+  "synced_at": "2026-02-28T04:05:39.548Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2f7af47473c3dd8370435af05c65cd4408414dc614311a9668632726e6a45dc2",
   "install_command": "mkdir -p .claude/skills/go-microservice && curl -sL \"https://raw.githubusercontent.com/Conte777/config_for_claude_code/main/src/skills/go-microservice/SKILL.md\" > .claude/skills/go-microservice/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Conte777/config_for_claude_code/main/src/skills/go-microservice/SKILL.md"

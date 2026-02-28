@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "acef95606f235decc6f2c29fe14f45afb7a89f1721097f22fa714cc8b571a486",
   "indexed_at": "2026-02-26T07:56:17.814Z",
-  "synced_at": "2026-02-27T02:37:29.017Z",
+  "synced_at": "2026-02-28T04:05:46.010Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4e58a87e2464ae541bf046d2bb2a36e7872fdef461ca1591d4caa540ee3398fd",
   "install_command": "mkdir -p .claude/skills/microservices-patterns && curl -sL \"https://raw.githubusercontent.com/ma1orek/replay/main/skills/microservices-patterns/SKILL.md\" > .claude/skills/microservices-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ma1orek/replay/main/skills/microservices-patterns/SKILL.md"

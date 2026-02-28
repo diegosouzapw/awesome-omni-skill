@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "46ec7c9d6b6a8fad07a6e07ff27fdea5f1f39d291a2274ef2981920ed1c8decc",
   "indexed_at": "2026-02-26T16:32:02.558Z",
-  "synced_at": "2026-02-27T02:37:46.504Z",
+  "synced_at": "2026-02-28T04:06:17.413Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/78862b5ce8b910c0a2b79643cd3e2d51b485c6cccbadafa22573d19ff90e9531",
   "install_command": "mkdir -p .claude/skills/sample-basic && curl -sL \"https://raw.githubusercontent.com/svelte-society/sveltesociety.dev/main/.claude/skills/sample-basic/SKILL.md\" > .claude/skills/sample-basic/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/svelte-society/sveltesociety.dev/main/.claude/skills/sample-basic/SKILL.md"

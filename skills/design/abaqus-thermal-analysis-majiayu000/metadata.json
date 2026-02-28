@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "289c03dd952c169162cc6db0f6d40b59b81e975bbf1718aa82ca466e7b9ce1dd",
   "indexed_at": "2026-02-24T23:21:07.581Z",
-  "synced_at": "2026-02-27T02:37:00.598Z",
+  "synced_at": "2026-02-28T04:05:14.181Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed29279edc14ece12471fd7412d906764476f39d5edd3b2385247d3975512156",
   "install_command": "mkdir -p .claude/skills/abaqus-thermal-analysis && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abaqus-thermal-analysis/SKILL.md\" > .claude/skills/abaqus-thermal-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abaqus-thermal-analysis/SKILL.md"

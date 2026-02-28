@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0b32283e19c48cc40f09f33a31452f31bed503edcd99d052ab7fd7cdb0de5f14",
   "indexed_at": "2026-02-26T06:50:15.254Z",
-  "synced_at": "2026-02-27T02:37:40.505Z",
+  "synced_at": "2026-02-28T04:06:08.300Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6d8a38aab9be4bfc863e92e2faa5a2b14a66ffb6c3fe75cd96b06c188c7c9118",
   "install_command": "mkdir -p .claude/skills/design_responsive && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/design-responsive-vuralserhat86-antigravity-agentic/SKILL.md\" > .claude/skills/design_responsive/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/design-responsive-vuralserhat86-antigravity-agentic/SKILL.md"

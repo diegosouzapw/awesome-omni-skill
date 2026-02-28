@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "593073ae2123dc4b776995af70a045c2968dfb3165c306275d0a82a7ac721714",
   "indexed_at": "2026-02-26T22:35:43.994Z",
-  "synced_at": "2026-02-27T02:37:04.840Z",
+  "synced_at": "2026-02-28T04:05:19.369Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a782446a5f5f8b6300255583e4a01d795924e6407a084a99ea075b423999dbbc",
   "install_command": "mkdir -p .claude/skills/pyqt6-ui-development-rules && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/pyqt6-ui-development-rules/SKILL.md\" > .claude/skills/pyqt6-ui-development-rules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/pyqt6-ui-development-rules/SKILL.md"

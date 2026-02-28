@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ebcd6d1dfadfffaa63a68286062e777e45db3db30da1937560de7e37dd8b3e15",
   "indexed_at": "2026-02-26T05:37:25.441Z",
-  "synced_at": "2026-02-27T02:37:20.896Z",
+  "synced_at": "2026-02-28T04:05:38.749Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a0cf8a4419a1531f33ce8f98a295ee17a02a94095b4479543d1f3c5d1b7a2b31",
   "install_command": "mkdir -p .claude/skills/quicksave && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/quicksave-ktg-one-quicksave/SKILL.md\" > .claude/skills/quicksave/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/quicksave-ktg-one-quicksave/SKILL.md"

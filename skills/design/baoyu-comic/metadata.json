@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "18489584397a1a9b78c58bcdae5348a43e85a9a9c653fc31b9b66fe9fd4418a7",
   "indexed_at": "2026-02-26T15:20:07.553Z",
-  "synced_at": "2026-02-27T02:37:36.733Z",
+  "synced_at": "2026-02-28T04:05:53.777Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b3349ccdc42578649fe2d6ad54834468382efe7d19812963cf1b75192c384db2",
   "install_command": "mkdir -p .claude/skills/baoyu-comic && curl -sL \"https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/jimliu/baoyu-comic/SKILL.md\" > .claude/skills/baoyu-comic/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/jimliu/baoyu-comic/SKILL.md"

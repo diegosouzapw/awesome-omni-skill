@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "087afc42d2433308a5482e83dd16af37cff3b1c461f7f727bdef3de3c16e847f",
   "indexed_at": "2026-02-26T12:25:19.088Z",
-  "synced_at": "2026-02-27T02:37:35.286Z",
+  "synced_at": "2026-02-28T04:05:52.427Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3ab8162a4cac20c40fdf4a57ba10db1752723e80b8dcd3e3dd02d5074995b6f4",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/enriquemoya/Electron-Pos/main/.codex/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/enriquemoya/Electron-Pos/main/.codex/skills/ui-ux-pro-max/SKILL.md"

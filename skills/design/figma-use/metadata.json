@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d8384128139802449f8e033a9758fe57677e2b05dc32c8015d283df63fb7d5be",
   "indexed_at": "2026-02-27T14:38:45.998Z",
-  "synced_at": "2026-02-27T18:16:59.666Z",
+  "synced_at": "2026-02-28T04:06:01.594Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b614c7af9cace664fd3fe101b5802f816b4f1b1ef9b558c2b77fddf67d5da56c",
   "install_command": "mkdir -p .claude/skills/figma-use && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/dannote/figma-use/figma-use/SKILL.md\" > .claude/skills/figma-use/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/dannote/figma-use/figma-use/SKILL.md"

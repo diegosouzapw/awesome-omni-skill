@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c1b67f3675d08c2f18453766e95937dd636e7fc5e01d228e2d9ce3ba77eae770",
   "indexed_at": "2026-02-27T09:17:07.561Z",
-  "synced_at": "2026-02-27T13:14:54.382Z",
+  "synced_at": "2026-02-28T04:05:57.867Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/54491f50896904fd18803ff52a24af328a0c63b225dd168a073ac21dcc58f229",
   "install_command": "mkdir -p .claude/skills/design-request-en && curl -sL \"https://raw.githubusercontent.com/ousiass/claude-config/main/skills/design-request-en/SKILL.md\" > .claude/skills/design-request-en/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ousiass/claude-config/main/skills/design-request-en/SKILL.md"

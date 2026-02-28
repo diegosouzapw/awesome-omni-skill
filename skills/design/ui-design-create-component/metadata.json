@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cf44d6f3b19337d8f7bc5c24660cdb8824dd266c8a0a504a6aaa117d2d327a1a",
   "indexed_at": "2026-02-27T15:07:39.158Z",
-  "synced_at": "2026-02-27T18:17:00.847Z",
+  "synced_at": "2026-02-28T04:06:03.140Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ab6cb76403286b202187738494d9cd9005fce7287858c6544c56178f25578673",
   "install_command": "mkdir -p .claude/skills/ui-design-create-component && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/ui-design-codex-pack/.agents/skills/ui-design-create-component/SKILL.md\" > .claude/skills/ui-design-create-component/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/ui-design-codex-pack/.agents/skills/ui-design-create-component/SKILL.md"

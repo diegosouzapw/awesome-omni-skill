@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dba0f8a17de5e382d1535a0f3b34a7049449375d109b6cc211475f201d3f6d96",
   "indexed_at": "2026-02-27T16:54:57.073Z",
-  "synced_at": "2026-02-27T18:17:01.262Z",
+  "synced_at": "2026-02-28T04:06:03.782Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7132d1117683ad42536c5965e4e4c6c2a978e62d191db1e475945e9ac85455c1",
   "install_command": "mkdir -p .claude/skills/voxanne-branding-expert && curl -sL \"https://raw.githubusercontent.com/Odiabackend099/Callwaiting-AI-Voxanne-2026/main/.claude/skills/voxanne-branding-expert/SKILL.md\" > .claude/skills/voxanne-branding-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Odiabackend099/Callwaiting-AI-Voxanne-2026/main/.claude/skills/voxanne-branding-expert/SKILL.md"

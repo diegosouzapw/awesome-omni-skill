@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3c9794465d07b02de87d461b63231d1bab5611e5b2d66b617dbf3d27a1f6bfcd",
   "indexed_at": "2026-02-27T06:50:17.052Z",
-  "synced_at": "2026-02-27T13:14:54.105Z",
+  "synced_at": "2026-02-28T04:05:57.359Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aa36cbc59863dc3be52800e510caaec693f47289e4d4b3ccb7eafca6f595dd94",
   "install_command": "mkdir -p .claude/skills/detect-design && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/parhumm/jaan-to/detect-design/SKILL.md\" > .claude/skills/detect-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/parhumm/jaan-to/detect-design/SKILL.md"

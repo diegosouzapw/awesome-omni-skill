@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "39da88961646050ca0095981739db84c0e20f2bdc3e29a87bdfe514e0800eb4d",
   "indexed_at": "2026-02-26T16:40:58.387Z",
-  "synced_at": "2026-02-27T02:37:10.641Z",
+  "synced_at": "2026-02-28T04:05:26.280Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed1e80b25f8f579b44da2d8d1810697e54ad22cd1a03b0835be71e0c558672fd",
   "install_command": "mkdir -p .claude/skills/skill-protocol-mastery && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/design/skill-protocol-mastery/SKILL.md\" > .claude/skills/skill-protocol-mastery/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/design/skill-protocol-mastery/SKILL.md"

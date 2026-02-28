@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "41287b39ec14c9b15ee02946966159636c0b8391411855c5ce269fb2c03b4ab4",
   "indexed_at": "2026-02-26T06:53:38.804Z",
-  "synced_at": "2026-02-27T02:37:27.335Z",
+  "synced_at": "2026-02-28T04:05:44.598Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ecf8f087e41fa47a78a609ef6ea5591bebf95305c960fa02b31d842548dedc03",
   "install_command": "mkdir -p .claude/skills/frontend-styleguide && curl -sL \"https://raw.githubusercontent.com/wzkariampuzha/claude-skills/main/skills/frontend-styleguide/SKILL.md\" > .claude/skills/frontend-styleguide/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wzkariampuzha/claude-skills/main/skills/frontend-styleguide/SKILL.md"

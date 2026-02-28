@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ea23f6324f3648d71d3a637d0747eb32c57d5732d8122e8330a9de899ed3eac0",
   "indexed_at": "2026-02-26T11:33:12.821Z",
-  "synced_at": "2026-02-27T02:37:31.217Z",
+  "synced_at": "2026-02-28T04:05:48.601Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8db9979e1f3c54871c06a7f539b987c13d8258927280102c819710c0b5783232",
   "install_command": "mkdir -p .claude/skills/design-lab && curl -sL \"https://raw.githubusercontent.com/powxenv/focus/main/.claude/skills/design-lab/SKILL.md\" > .claude/skills/design-lab/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/powxenv/focus/main/.claude/skills/design-lab/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "777435d7d443a5359a01cd4fda899b5c63013f9202f42ec4a7bffaca8011eb64",
   "indexed_at": "2026-02-25T19:26:17.831Z",
-  "synced_at": "2026-02-27T02:37:52.057Z",
+  "synced_at": "2026-02-28T04:06:25.615Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c6deb4636a4c56e2fc9535a7099937bfd6b23cf18395d181a0e0fa3c50c74ffb",
   "install_command": "mkdir -p .claude/skills/web-security-testing && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/web-security-testing/SKILL.md\" > .claude/skills/web-security-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/web-security-testing/SKILL.md"

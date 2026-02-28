@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6854e2f60b56e9ab9dea113b2b3179f8a9815749ed8d2a2f80a23fd5fd26f369",
   "indexed_at": "2026-02-27T16:56:33.418Z",
-  "synced_at": "2026-02-27T18:17:01.354Z",
+  "synced_at": "2026-02-28T04:06:03.953Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/77675de80379c29fbf0f67409355c66faaf0a4595c795d2d0d26e228e342cb56",
   "install_command": "mkdir -p .claude/skills/widget-design && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/xmcp-dev/skills/widget-design/SKILL.md\" > .claude/skills/widget-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/xmcp-dev/skills/widget-design/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "498a7795a265be5ed839a202df19e98a37672e374126ee4d121215e0517a0dfe",
   "indexed_at": "2026-02-24T23:05:39.160Z",
-  "synced_at": "2026-02-27T02:36:57.944Z",
+  "synced_at": "2026-02-28T04:05:04.704Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d74c2cb4ef0398a5dbc9ab51c5e3880202db8e2864401da7cc892f158bcf0185",
   "install_command": "mkdir -p .claude/skills/tmux && curl -sL \"https://raw.githubusercontent.com/abhaymundhara/ChatDock/main/src/server/skills/tmux/SKILL.md\" > .claude/skills/tmux/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/abhaymundhara/ChatDock/main/src/server/skills/tmux/SKILL.md"

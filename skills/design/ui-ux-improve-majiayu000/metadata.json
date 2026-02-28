@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "937165508d6b805e9bf12f5c5b74c2aa3aef5475cd52af8015bfe6447b74ceca",
   "indexed_at": "2026-02-26T06:51:59.735Z",
-  "synced_at": "2026-02-27T02:37:25.731Z",
+  "synced_at": "2026-02-28T04:05:43.612Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dcbcddea10af81fdfd28f5430f134fac3a92e6866d5fbb721633bc5dcddbab58",
   "install_command": "mkdir -p .claude/skills/ui-ux-improve && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/ui-ux-improve/SKILL.md\" > .claude/skills/ui-ux-improve/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/ui-ux-improve/SKILL.md"

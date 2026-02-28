@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "44e49239349b2e7bb419510611f43d8f41412ea80ebc264a8674f57f03e33395",
   "indexed_at": "2026-02-26T06:54:44.694Z",
-  "synced_at": "2026-02-27T02:37:41.456Z",
+  "synced_at": "2026-02-28T04:06:09.260Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5acde4e686576cf3736809b42e31b315b521acb9f07bfef072fa816eede0775f",
   "install_command": "mkdir -p .claude/skills/priya && curl -sL \"https://raw.githubusercontent.com/jonnyallum/Antigravity_Orchestra/main/.agent/skills/priya/SKILL.md\" > .claude/skills/priya/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jonnyallum/Antigravity_Orchestra/main/.agent/skills/priya/SKILL.md"

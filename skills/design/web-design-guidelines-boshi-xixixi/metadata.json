@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4a5f727d273ace9cbd1a36e6f2eab212955ad746c4f9a5504ee4f528df4d26de",
   "indexed_at": "2026-02-26T15:27:08.859Z",
-  "synced_at": "2026-02-27T02:37:48.578Z",
+  "synced_at": "2026-02-28T04:06:20.982Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fda6a275667ef2149f5b281ebf0185bcbe7b2af501157ae1677491680cc60463",
   "install_command": "mkdir -p .claude/skills/web-design-guidelines && curl -sL \"https://raw.githubusercontent.com/boshi-xixixi/TraeSkill/main/.trae/Skills/02_Designer_WebGuidelines/SKILL.md\" > .claude/skills/web-design-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boshi-xixixi/TraeSkill/main/.trae/Skills/02_Designer_WebGuidelines/SKILL.md"

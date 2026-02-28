@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "678b184775a0ab4a352484098abdcc0de2496868ba60391c923a7b1f897b30b3",
   "indexed_at": "2026-02-24T23:09:38.981Z",
-  "synced_at": "2026-02-27T02:36:59.522Z",
+  "synced_at": "2026-02-28T04:05:13.229Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e2882e45b3fc2da31af4e4fe30879aa33f4d2f88353e9a0ccbcbfd0ceb21594e",
   "install_command": "mkdir -p .claude/skills/31-analyze-think-150 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/31-analyze-think-150/SKILL.md\" > .claude/skills/31-analyze-think-150/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/31-analyze-think-150/SKILL.md"

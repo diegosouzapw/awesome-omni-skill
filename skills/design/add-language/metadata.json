@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f3c657f956ffebb25f504b8b07772f395ed10f251e76dda972defeb525b8e02c",
   "indexed_at": "2026-02-27T01:54:35.099Z",
-  "synced_at": "2026-02-27T02:36:58.420Z",
+  "synced_at": "2026-02-28T04:05:05.597Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a94e57ff9675ab00303a70711914888fc93dfe049ae89a2f2bfc7bd40bfeb218",
   "install_command": "mkdir -p .claude/skills/add-language && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-language-madeinoz67-madeinoz-knowledge-s/SKILL.md\" > .claude/skills/add-language/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-language-madeinoz67-madeinoz-knowledge-s/SKILL.md"

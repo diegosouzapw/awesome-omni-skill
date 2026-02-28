@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a6687bdb5f9aadd248fb3b75b91b7cd9f493c9d61d1bf1ee84ada5f670f5f55c",
   "indexed_at": "2026-02-25T12:46:42.974Z",
-  "synced_at": "2026-02-27T02:37:13.149Z",
+  "synced_at": "2026-02-28T04:05:31.665Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f2fb52ec0ec25d5c301490d48c3cbab217b4cecc300670502a58a6f725522b4f",
   "install_command": "mkdir -p .claude/skills/compose-ui-control && curl -sL \"https://raw.githubusercontent.com/forketyfork/compose-ui-test-server/main/SKILL.md\" > .claude/skills/compose-ui-control/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/forketyfork/compose-ui-test-server/main/SKILL.md"

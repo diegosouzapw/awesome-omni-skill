@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8a4b8083c7908edd74e8f304c99d0286a26f0041f694f95cf006ff61b99b97f8",
   "indexed_at": "2026-02-24T23:51:30.412Z",
-  "synced_at": "2026-02-27T02:37:50.436Z",
+  "synced_at": "2026-02-28T04:06:23.958Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4430f532bcbc295f0b518a1de543fd3af25d2271dd3d9f6b24ede78aa59cd579",
   "install_command": "mkdir -p .claude/skills/memory-leak-audit && curl -sL \"https://raw.githubusercontent.com/microsoft/vscode/main/.github/skills/memory-leak-audit/SKILL.md\" > .claude/skills/memory-leak-audit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/microsoft/vscode/main/.github/skills/memory-leak-audit/SKILL.md"

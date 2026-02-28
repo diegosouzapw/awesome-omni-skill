@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ea81ecb59871ad474733517e4b55123bda0efb4f7fad2c35ac49028688e4e121",
   "indexed_at": "2026-02-25T17:09:46.313Z",
-  "synced_at": "2026-02-27T02:37:39.971Z",
+  "synced_at": "2026-02-28T04:06:07.746Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4378c5e5fde4af430a7f38afb979e21cd777d1440b995e5efdba55e189458eb7",
   "install_command": "mkdir -p .claude/skills/roast && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/roast/SKILL.md\" > .claude/skills/roast/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/roast/SKILL.md"

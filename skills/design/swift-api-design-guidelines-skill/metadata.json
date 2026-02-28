@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "775360d1c764ced9867079cf1af4c50ef6cced10bb350b30a2f772d4a52de636",
   "indexed_at": "2026-02-26T15:20:04.011Z",
-  "synced_at": "2026-02-27T02:37:36.554Z",
+  "synced_at": "2026-02-28T04:05:53.607Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/568d76e01807aeeb2ecb026161cb5d1ce67c9f6436e69e27f8932ba31adeae6f",
   "install_command": "mkdir -p .claude/skills/swift-api-design-guidelines-skill && curl -sL \"https://raw.githubusercontent.com/Erikote04/Swift-API-Design-Guidelines-Agent-Skill/main/swift-api-design-guidelines-skill/SKILL.md\" > .claude/skills/swift-api-design-guidelines-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Erikote04/Swift-API-Design-Guidelines-Agent-Skill/main/swift-api-design-guidelines-skill/SKILL.md"

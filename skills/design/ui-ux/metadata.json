@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6ef361b9b4fa5fecb80c6e6d3df297cad4dd6e367ef1b7a25ce527bef1bf7e9f",
   "indexed_at": "2026-02-26T11:33:22.940Z",
-  "synced_at": "2026-02-27T02:37:31.423Z",
+  "synced_at": "2026-02-28T04:05:48.801Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6e8f719444f1041ccc31459c333421965f4f803aca5ecac95204dc2ec42a2ff2",
   "install_command": "mkdir -p .claude/skills/ui-ux && curl -sL \"https://raw.githubusercontent.com/SharafMawjood/Antigravity-Skills/main/ui-ux/SKILL.md\" > .claude/skills/ui-ux/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/SharafMawjood/Antigravity-Skills/main/ui-ux/SKILL.md"

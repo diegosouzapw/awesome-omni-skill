@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c1e426569bf9a3ccafda858c707778fc2668433b6abb205258e6ce9f271a6a49",
   "indexed_at": "2026-02-25T12:51:11.429Z",
-  "synced_at": "2026-02-27T02:37:05.339Z",
+  "synced_at": "2026-02-28T04:05:19.853Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/50afa20d95a8eba42ab37dd6f8b99efcca2f05daae8ffb532520a4b2c9bd3795",
   "install_command": "mkdir -p .claude/skills/image-to-3d-pipeline && curl -sL \"https://raw.githubusercontent.com/guia-matthieu/clawfu-skills/main/skills/ai-design/image-to-3d-pipeline/SKILL.md\" > .claude/skills/image-to-3d-pipeline/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/guia-matthieu/clawfu-skills/main/skills/ai-design/image-to-3d-pipeline/SKILL.md"

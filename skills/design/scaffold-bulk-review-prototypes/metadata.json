@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4d64ef6e08aa7a328d0b4d62c65941c0751f70e34e9f2d8e52dc153f7e012006",
   "indexed_at": "2026-02-25T13:11:33.670Z",
-  "synced_at": "2026-02-27T02:37:14.451Z",
+  "synced_at": "2026-02-28T04:05:32.988Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d4de2a5ba2a8ff4d9edc15f506c8990fd6f180e7877c9812d0766fd1ea037a0d",
   "install_command": "mkdir -p .claude/skills/scaffold-bulk-review-prototypes && curl -sL \"https://raw.githubusercontent.com/rmans/ClaudeScaffold/main/Install/.claude/skills/scaffold-bulk-review-prototypes/SKILL.md\" > .claude/skills/scaffold-bulk-review-prototypes/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rmans/ClaudeScaffold/main/Install/.claude/skills/scaffold-bulk-review-prototypes/SKILL.md"

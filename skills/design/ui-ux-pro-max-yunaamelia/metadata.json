@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2c5a4d6ed6c44df63dabc08c2042a76fb37ddcb5e7df1932f2ce021f166944d0",
   "indexed_at": "2026-02-26T12:25:17.560Z",
-  "synced_at": "2026-02-27T02:37:35.124Z",
+  "synced_at": "2026-02-28T04:05:52.272Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/77ff6acc3b8483527e1de521eebc0cccd29477cdd71ce1cb44244e324cf81f81",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/yunaamelia/apex-fast/main/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yunaamelia/apex-fast/main/skills/ui-ux-pro-max/SKILL.md"

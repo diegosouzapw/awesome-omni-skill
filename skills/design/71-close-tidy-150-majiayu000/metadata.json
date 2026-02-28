@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0b60178d74718226384a6cbeb822ddcf1577d9ad0949067af431e26f8f877a29",
   "indexed_at": "2026-02-24T23:19:05.301Z",
-  "synced_at": "2026-02-27T02:36:59.718Z",
+  "synced_at": "2026-02-28T04:05:13.415Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/548dc006b8b3634671c867ef4d914e0f53817c082da128638cb7cfa8595c54d6",
   "install_command": "mkdir -p .claude/skills/71-close-tidy-150 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/71-close-tidy-150/SKILL.md\" > .claude/skills/71-close-tidy-150/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/71-close-tidy-150/SKILL.md"

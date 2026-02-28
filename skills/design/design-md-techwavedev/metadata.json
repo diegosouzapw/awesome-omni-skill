@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f5686b937dfdc072211429c324cdb55b8dfd5fb4d20ecbfa6bd861d417c88848",
   "indexed_at": "2026-02-26T15:20:53.240Z",
-  "synced_at": "2026-02-27T02:37:36.913Z",
+  "synced_at": "2026-02-28T04:05:53.940Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7d25a8c0f44970a41292b07ca975ca389741a6811c9345165ae05e75dfe462da",
   "install_command": "mkdir -p .claude/skills/design-md && curl -sL \"https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/knowledge/frontend/design-md/SKILL.md\" > .claude/skills/design-md/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/knowledge/frontend/design-md/SKILL.md"

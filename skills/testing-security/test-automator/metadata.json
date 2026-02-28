@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "24374cda64dc90c8373e501d3f88084d8b391697ff4e241efe2109b4d8dc6886",
   "indexed_at": "2026-02-25T19:24:37.606Z",
-  "synced_at": "2026-02-27T02:37:52.817Z",
+  "synced_at": "2026-02-28T04:06:26.446Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f24b2f2cacc6ca069096bf32a733cb4444ae1494440330cd8c2a8fc53e4ad027",
   "install_command": "mkdir -p .claude/skills/test-automator && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/test-automator/SKILL.md\" > .claude/skills/test-automator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/test-automator/SKILL.md"

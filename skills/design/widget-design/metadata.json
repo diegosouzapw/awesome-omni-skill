@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4c7c4eeeff7e61121bb84c59eb65408ea85be7729dcdac84e71d010c44e0f20f",
   "indexed_at": "2026-02-27T16:54:41.142Z",
-  "synced_at": "2026-02-27T18:17:01.163Z",
+  "synced_at": "2026-02-28T04:06:03.603Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/518f486a24325aa4c819ee0822b6f919fa82b09ef2da9ebf8a5ca53fd256c85d",
   "install_command": "mkdir -p .claude/skills/widget-design && curl -sL \"https://raw.githubusercontent.com/xmcp-dev/skills/main/skills/widget-design/SKILL.md\" > .claude/skills/widget-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/xmcp-dev/skills/main/skills/widget-design/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8c52d1a363b89e6112f41a2226823809f725e6ff75429e8815eab00f745880ce",
   "indexed_at": "2026-02-25T15:57:01.276Z",
-  "synced_at": "2026-02-27T02:37:17.271Z",
+  "synced_at": "2026-02-28T04:05:36.002Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/10fb5b69bab6332f281e7c55038d9f12b7b6b9b8ddbc78ff1485d539c9f8441c",
   "install_command": "mkdir -p .claude/skills/nano-banana && curl -sL \"https://raw.githubusercontent.com/horuz-ai/claude-plugins/main/plugins/google/skills/nano-banana/SKILL.md\" > .claude/skills/nano-banana/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/horuz-ai/claude-plugins/main/plugins/google/skills/nano-banana/SKILL.md"

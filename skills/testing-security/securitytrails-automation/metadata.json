@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c3e9706edcf878d23efc00c2b4784aab3a6efa09952f4fd0f525744d012857c5",
   "indexed_at": "2026-02-25T22:27:13.234Z",
-  "synced_at": "2026-02-27T02:37:50.766Z",
+  "synced_at": "2026-02-28T04:06:24.279Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f85e9206c89bb9d5bb4c6d111c4de24ca4828ab24eaca8a731ed91f16d48fa77",
   "install_command": "mkdir -p .claude/skills/securitytrails-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/securitytrails-automation/SKILL.md\" > .claude/skills/securitytrails-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/securitytrails-automation/SKILL.md"

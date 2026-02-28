@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "07ffbcedb1b5c4b49a2b7d3ddd14d3e94088b2ddb6721582e06a33237a260fc7",
   "indexed_at": "2026-02-25T19:42:30.036Z",
-  "synced_at": "2026-02-27T02:37:44.658Z",
+  "synced_at": "2026-02-28T04:06:15.453Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/63297c22d1b73f95d7ea963466f9ff56ea554b582ae2090920d6d4cc411d242f",
   "install_command": "mkdir -p .claude/skills/epic-ui-guidelines && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/epic-ui-guidelines/SKILL.md\" > .claude/skills/epic-ui-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/epic-ui-guidelines/SKILL.md"

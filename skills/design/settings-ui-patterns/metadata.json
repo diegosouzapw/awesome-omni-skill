@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4cf18c35b0e5739f6ae88943b9d3a1d73b23b7dc2df2d2f15cab0819aecb8001",
   "indexed_at": "2026-02-27T15:07:54.082Z",
-  "synced_at": "2026-02-27T18:17:00.960Z",
+  "synced_at": "2026-02-28T04:06:03.296Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cc92babd370011a06961934a57fab73c67f12a2c75f32b3edae61e829a0950c3",
   "install_command": "mkdir -p .claude/skills/settings-ui-patterns && curl -sL \"https://raw.githubusercontent.com/btriapitsyn/openchamber/main/.opencode/skills/settings-ui-patterns/SKILL.md\" > .claude/skills/settings-ui-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/btriapitsyn/openchamber/main/.opencode/skills/settings-ui-patterns/SKILL.md"

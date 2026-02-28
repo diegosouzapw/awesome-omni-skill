@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eb01cb0d8397d9acee916c2df4eb2d2bc6c961da028a931f409bd69fba236b1e",
   "indexed_at": "2026-02-26T11:31:17.222Z",
-  "synced_at": "2026-02-27T02:37:41.624Z",
+  "synced_at": "2026-02-28T04:06:09.460Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0e661ebb223b0d3f2d2775c61b75aed6a2a96cbeeb2e2d7dd8b500dc8b21749e",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/Draculabo/AntigravityManager/main/.codex/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Draculabo/AntigravityManager/main/.codex/skills/ui-ux-pro-max/SKILL.md"

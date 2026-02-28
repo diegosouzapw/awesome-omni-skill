@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8a5190e9bf29938f9b4cf49c30518458f92df96f83b763ad8b5397928f30c119",
   "indexed_at": "2026-02-26T22:40:04.651Z",
-  "synced_at": "2026-02-27T02:37:11.545Z",
+  "synced_at": "2026-02-28T04:05:29.492Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/66c6abc2c26acbd0aec5819ecfd828711c8c49d0a04ea8d89ab39675ea00b8b2",
   "install_command": "mkdir -p .claude/skills/power-bi-report-design-best-practices && curl -sL \"https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/power-bi-report-design-best-practices/SKILL.md\" > .claude/skills/power-bi-report-design-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/power-bi-report-design-best-practices/SKILL.md"

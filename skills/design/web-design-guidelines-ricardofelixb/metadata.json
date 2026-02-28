@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "67813fd2e25a8feecd8423324ebb2a381c0fedf4cce84fc3b4dd35dca75905b5",
   "indexed_at": "2026-02-27T15:03:37.284Z",
-  "synced_at": "2026-02-27T18:17:02.680Z",
+  "synced_at": "2026-02-28T04:06:19.751Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/850f357f9136df7efe8e6241c1455dd7d1a8a7ba24fc873a192b96022ff29dac",
   "install_command": "mkdir -p .claude/skills/web-design-guidelines && curl -sL \"https://raw.githubusercontent.com/ricardofelixb/modern-quickstart/main/.claude/skills/web-design-guidelines/SKILL.md\" > .claude/skills/web-design-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ricardofelixb/modern-quickstart/main/.claude/skills/web-design-guidelines/SKILL.md"

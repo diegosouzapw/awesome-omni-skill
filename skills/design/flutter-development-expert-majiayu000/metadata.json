@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "82962d6b90a1412655b01baf4a3ea2e6b7e9c905b68228bc473cc948e3af4b92",
   "indexed_at": "2026-02-24T23:06:59.966Z",
-  "synced_at": "2026-02-27T02:37:02.779Z",
+  "synced_at": "2026-02-28T04:05:16.597Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f3b0c18826f07ab4acc2ad6e9a1b3df2420bc4abe21fc8feb48df6dd4e5d19c5",
   "install_command": "mkdir -p .claude/skills/flutter-development-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/03-mobile-flutter/SKILL.md\" > .claude/skills/flutter-development-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/03-mobile-flutter/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cf24f08a26442f18927eb60328bcdbf0a1d85c57a2ff3727ffa7cfbfeedbed9a",
   "indexed_at": "2026-02-26T09:30:25.777Z",
-  "synced_at": "2026-02-27T02:37:29.442Z",
+  "synced_at": "2026-02-28T04:05:46.387Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ad13f288ad56069aa96a085579de35eeadd61f890ff052b2705b4620909d3d02",
   "install_command": "mkdir -p .claude/skills/curriculum-designer && curl -sL \"https://raw.githubusercontent.com/weihaoqu/gemini-curriculum-designer/main/SKILL.md\" > .claude/skills/curriculum-designer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/weihaoqu/gemini-curriculum-designer/main/SKILL.md"

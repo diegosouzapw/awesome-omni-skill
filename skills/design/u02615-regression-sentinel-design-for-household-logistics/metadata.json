@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5e0b52a78863c206e9c01b4658cee29a6dbe68cfe0f48acb2e6d36f234f79a85",
   "indexed_at": "2026-02-26T23:22:39.563Z",
-  "synced_at": "2026-02-27T02:37:38.112Z",
+  "synced_at": "2026-02-28T04:05:55.067Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bc1b39928eb40c013b11e6968c645534aaa6834b2fbc82afa8b81bce42a5e871",
   "install_command": "mkdir -p .claude/skills/u02615-regression-sentinel-design-for-household-logistics && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/02/2615-regression-sentinel-design-for-household-logistics/SKILL.md\" > .claude/skills/u02615-regression-sentinel-design-for-household-logistics/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/02/2615-regression-sentinel-design-for-household-logistics/SKILL.md"

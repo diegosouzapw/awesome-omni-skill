@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c570d8d2d6f96cb3eb35c553e946fc8634aaf25cbd3c2adc4cebc095a7b35b4f",
   "indexed_at": "2026-02-26T21:30:30.046Z",
-  "synced_at": "2026-02-27T02:37:10.970Z",
+  "synced_at": "2026-02-28T04:05:26.638Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e34ae08aa3e79c6aa7e63d1e47ea7e42ef5759eb213341b99760f6ff86bae915",
   "install_command": "mkdir -p .claude/skills/master-skill && curl -sL \"https://raw.githubusercontent.com/tai-pucrs/modulo6-plataforma/main/MASTER-SKILL.md/SKILL.md\" > .claude/skills/master-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tai-pucrs/modulo6-plataforma/main/MASTER-SKILL.md/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4aa96ed74079f55927d1f35a5b17b34b47c0b9f1a9c601edeb6c340360aa0998",
   "indexed_at": "2026-02-25T13:50:45.118Z",
-  "synced_at": "2026-02-27T02:37:14.637Z",
+  "synced_at": "2026-02-28T04:05:33.160Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c782d78b2ea92eddae18f13ed6ee05b0eaa2bc222c1012226d1550688cb3823b",
   "install_command": "mkdir -p .claude/skills/understando && curl -sL \"https://raw.githubusercontent.com/theclaymethod/understando/main/SKILL.md\" > .claude/skills/understando/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/theclaymethod/understando/main/SKILL.md"

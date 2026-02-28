@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e9b7e07273d5e9d4cd645636eaf11cfde34ea51ba0c2f81ca77d0b41577d9f43",
   "indexed_at": "2026-02-24T23:24:14.520Z",
-  "synced_at": "2026-02-27T02:36:56.924Z",
+  "synced_at": "2026-02-28T04:05:03.706Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/20a8a4174832ef895256436a34dcaf8c0d13b68a043c23839dbaade1bc0e6c5a",
   "install_command": "mkdir -p .claude/skills/ui-ux-intelligence-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/02-designer-uiuxintelligence/SKILL.md\" > .claude/skills/ui-ux-intelligence-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/02-designer-uiuxintelligence/SKILL.md"

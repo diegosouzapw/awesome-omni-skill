@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "117c370ddb56e4840d4b7fd19a1beb45b57d3063572e043bbc2b1688c42ce2eb",
   "indexed_at": "2026-02-25T17:11:11.942Z",
-  "synced_at": "2026-02-27T02:37:47.014Z",
+  "synced_at": "2026-02-28T04:06:18.091Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/86a929f6f3ce46a2859941e1ede4739fa1ba89d9266fdf5910ed62ba864d0502",
   "install_command": "mkdir -p .claude/skills/leak && curl -sL \"https://raw.githubusercontent.com/nordeim/openclaw-curated-skills/main/integrations-connectors/leak/SKILL.md\" > .claude/skills/leak/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nordeim/openclaw-curated-skills/main/integrations-connectors/leak/SKILL.md"

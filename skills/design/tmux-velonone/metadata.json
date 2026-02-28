@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9234ed5ab3c34a7b4e4b2ac577612cbbf8674841f544e38540e3e7fbd3743fe2",
   "indexed_at": "2026-02-25T20:41:35.597Z",
-  "synced_at": "2026-02-27T02:37:18.352Z",
+  "synced_at": "2026-02-28T04:05:37.123Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed49de831a0ebf7f83d596683b5abaa19ed0492832d003d90de2941e17c3f312",
   "install_command": "mkdir -p .claude/skills/tmux && curl -sL \"https://raw.githubusercontent.com/velonone/Aeonsage/main/skills/tmux/SKILL.md\" > .claude/skills/tmux/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/velonone/Aeonsage/main/skills/tmux/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "76ba18af8c8c9d3a60c095f2697617771b6ea92b2816ed947d2b65d8e2eb4ab0",
   "indexed_at": "2026-02-24T23:20:49.107Z",
-  "synced_at": "2026-02-27T02:37:00.112Z",
+  "synced_at": "2026-02-28T04:05:13.805Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b4113f7b9fccca5a03016c0dcbdda25c9d86b738d668f54dadcb658c37c604c8",
   "install_command": "mkdir -p .claude/skills/abaqus-geometry && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abaqus-geometry/SKILL.md\" > .claude/skills/abaqus-geometry/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abaqus-geometry/SKILL.md"

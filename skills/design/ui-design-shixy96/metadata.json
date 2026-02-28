@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bf0ae5d588d219858edc22a5aea22a1ff56b66169e932022191fceb3e0c27d44",
   "indexed_at": "2026-02-27T00:41:34.466Z",
-  "synced_at": "2026-02-27T02:37:38.802Z",
+  "synced_at": "2026-02-28T04:05:55.739Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9264ae681aaabeff59ca0d689a6909b54988ebabd3923500a9737fbfa06a7af0",
   "install_command": "mkdir -p .claude/skills/ui-design && curl -sL \"https://raw.githubusercontent.com/shixy96/tokenmeter/main/.claude/skills/ui-design/SKILL.md\" > .claude/skills/ui-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/shixy96/tokenmeter/main/.claude/skills/ui-design/SKILL.md"

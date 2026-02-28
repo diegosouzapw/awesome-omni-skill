@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "64375a247e5fb45f3d448372b174ab56b5a6aa117d630bab75e818ed11d67135",
   "indexed_at": "2026-02-25T15:09:49.955Z",
-  "synced_at": "2026-02-27T02:37:16.470Z",
+  "synced_at": "2026-02-28T04:05:35.112Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4fe5889a9625d32d505fca319003f77584a6dd683c79bb5974d9d46a5f3d490e",
   "install_command": "mkdir -p .claude/skills/worklog && curl -sL \"https://raw.githubusercontent.com/taewook486/real-estate-mcp/main/.claude/skills/worklog/SKILL.md\" > .claude/skills/worklog/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/taewook486/real-estate-mcp/main/.claude/skills/worklog/SKILL.md"

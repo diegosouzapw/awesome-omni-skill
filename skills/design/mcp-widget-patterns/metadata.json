@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2a3dba11b677b47d1b0ebdd44add6391f9e719dbd1496e205e64535dc0addae8",
   "indexed_at": "2026-02-27T16:09:31.977Z",
-  "synced_at": "2026-02-27T18:16:58.724Z",
+  "synced_at": "2026-02-28T04:05:28.615Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dc45e2fdc57cc2b30564ddcc93ddad43e6091e7e36b59e29358da9194342f95b",
   "install_command": "mkdir -p .claude/skills/mcp-widget-patterns && curl -sL \"https://raw.githubusercontent.com/mberto10/mberto-compound/main/plugins/openai-apps-sdk/skills/mcp-widget-patterns/SKILL.md\" > .claude/skills/mcp-widget-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mberto10/mberto-compound/main/plugins/openai-apps-sdk/skills/mcp-widget-patterns/SKILL.md"

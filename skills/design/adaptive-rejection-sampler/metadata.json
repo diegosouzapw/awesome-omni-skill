@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e540ff5ef3cb643be2238b30bd75c5d6c48860f706029cf520483fd6db02e392",
   "indexed_at": "2026-02-27T01:51:38.006Z",
-  "synced_at": "2026-02-27T02:36:58.267Z",
+  "synced_at": "2026-02-28T04:05:05.406Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/825071b9220c20918eea4ccbf7f2ffb4a9c57a68f2137317885f22a5f5b16b2d",
   "install_command": "mkdir -p .claude/skills/adaptive-rejection-sampler && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/adaptive-rejection-sampler/SKILL.md\" > .claude/skills/adaptive-rejection-sampler/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/adaptive-rejection-sampler/SKILL.md"

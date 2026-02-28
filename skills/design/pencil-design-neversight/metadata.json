@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e8529768022cede9ccbc43db777d8a8a8d9f5673b76b61f63a90eb5e0f7c295c",
   "indexed_at": "2026-02-26T06:56:24.210Z",
-  "synced_at": "2026-02-27T02:37:08.379Z",
+  "synced_at": "2026-02-28T04:05:24.167Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f26da346ae1ba9a5d85f68bd1f74528f855033241037471f4b92040bae5f9158",
   "install_command": "mkdir -p .claude/skills/pencil-design && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/chiroro-jr/pencil-design-skill/pencil-design/SKILL.md\" > .claude/skills/pencil-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/chiroro-jr/pencil-design-skill/pencil-design/SKILL.md"

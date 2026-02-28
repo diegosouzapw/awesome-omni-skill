@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "527e18bfb7c476af4aa1995c3a2b5bd657191d022c1dfa6086d1053148e7eb14",
   "indexed_at": "2026-02-25T12:37:45.150Z",
-  "synced_at": "2026-02-27T02:37:12.243Z",
+  "synced_at": "2026-02-28T04:05:30.823Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f748e32b8e053f15bc37b6317a9d9ce8534701978cda5b99a8ee8166d8307c15",
   "install_command": "mkdir -p .claude/skills/antiquities-extractor && curl -sL \"https://raw.githubusercontent.com/shawngraham/claude_antiquities_extractor_skill/main/SKILL.md\" > .claude/skills/antiquities-extractor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/shawngraham/claude_antiquities_extractor_skill/main/SKILL.md"

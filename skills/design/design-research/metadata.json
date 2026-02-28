@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "491c20d7d0b13c298eb555983126efca597d8fe275bfa5687644e5fb6a3a5f86",
   "indexed_at": "2026-02-26T06:48:10.885Z",
-  "synced_at": "2026-02-27T02:37:23.580Z",
+  "synced_at": "2026-02-28T04:05:41.388Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8cc1d6be1ab39f8602b614f33261404ab056b307073df41fb1ece9d98940e8ac",
   "install_command": "mkdir -p .claude/skills/design-research && curl -sL \"https://raw.githubusercontent.com/wcygan/dotfiles/main/config/claude/skills/design-research/SKILL.md\" > .claude/skills/design-research/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wcygan/dotfiles/main/config/claude/skills/design-research/SKILL.md"

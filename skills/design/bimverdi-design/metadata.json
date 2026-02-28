@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5a8e687598db5f057b925e2239eb9c98e3e17c0e1ee79ff58d2bc0a286d8ee0e",
   "indexed_at": "2026-02-25T19:41:34.001Z",
-  "synced_at": "2026-02-27T02:37:17.979Z",
+  "synced_at": "2026-02-28T04:05:36.712Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/17625da683904691f695430678f143ee8ea8b9aacd362e1fb61c069eb0db5fde",
   "install_command": "mkdir -p .claude/skills/bimverdi-design && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/bimverdi-design/SKILL.md\" > .claude/skills/bimverdi-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/bimverdi-design/SKILL.md"

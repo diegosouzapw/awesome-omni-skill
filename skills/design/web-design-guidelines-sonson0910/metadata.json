@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "99ed26ca9dca190578d6802c98059a396eee8006b483aad3a564f657a2d06901",
   "indexed_at": "2026-02-26T15:18:21.143Z",
-  "synced_at": "2026-02-27T02:37:46.165Z",
+  "synced_at": "2026-02-28T04:06:17.081Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3fb9b6406975e81e26832942d8e7e7e8d0761972ff86ed728dcabb5e245a6484",
   "install_command": "mkdir -p .claude/skills/web-design-guidelines && curl -sL \"https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/web-design-guidelines/SKILL.md\" > .claude/skills/web-design-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/web-design-guidelines/SKILL.md"

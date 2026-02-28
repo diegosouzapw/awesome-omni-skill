@@ -1,130 +1,137 @@
 ---
 name: canvas-design
-description: Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.
-license: Complete terms in LICENSE.txt
+description: Crie bela arte visual em documentos .png e .pdf usando filosofia de design. Você deve usar essa habilidade quando o usuário pedir para criar um pôster, obra de arte, design ou outra peça estática. Crie designs visuais originais, nunca copiando o trabalho de artistas existentes para evitar violações de direitos autorais.
+license: Termos completos em LICENSE.txt
 ---
 
-These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files.
+Estas são instruções para criar filosofias de design - movimentos estéticos que são então EXPRESSOS VISUALMENTE. Produza apenas arquivos .md, arquivos .pdf e arquivos .png.
 
-Complete this in two steps:
-1. Design Philosophy Creation (.md file)
-2. Express by creating it on a canvas (.pdf file or .png file)
+Complete isso em duas etapas:
 
-First, undertake this task:
+1. Criação da Filosofia de Design (arquivo .md)
+2. Expressão criando-a em um canvas (arquivo .pdf ou arquivo .png)
 
-## DESIGN PHILOSOPHY CREATION
+Primeiro, realize esta tarefa:
 
-To begin, create a VISUAL PHILOSOPHY (not layouts or templates) that will be interpreted through:
-- Form, space, color, composition
-- Images, graphics, shapes, patterns
-- Minimal text as visual accent
+## CRIAÇÃO DA FILOSOFIA DE DESIGN
 
-### THE CRITICAL UNDERSTANDING
-- What is received: Some subtle input or instructions by the user that should be taken into account, but used as a foundation; it should not constrain creative freedom.
-- What is created: A design philosophy/aesthetic movement.
-- What happens next: Then, the same version receives the philosophy and EXPRESSES IT VISUALLY - creating artifacts that are 90% visual design, 10% essential text.
+Para começar, crie uma FILOSOFIA VISUAL (não layouts ou modelos) que será interpretada através de:
 
-Consider this approach:
-- Write a manifesto for an art movement
-- The next phase involves making the artwork
+- Forma, espaço, cor, composição
+- Imagens, gráficos, formas, padrões
+- Texto mínimo como acento visual
 
-The philosophy must emphasize: Visual expression. Spatial communication. Artistic interpretation. Minimal words.
+### O ENTENDIMENTO CRÍTICO
 
-### HOW TO GENERATE A VISUAL PHILOSOPHY
+- O que é recebido: Alguma entrada sutil ou instruções do usuário que devem ser levadas em consideração, mas usadas como fundação; não deve restringir a liberdade criativa.
+- O que é criado: Uma filosofia de design/movimento estético.
+- O que acontece depois: Então, a mesma versão recebe a filosofia e a EXPRESSA VISUALMENTE - criando artefatos que são 90% design visual, 10% texto essencial.
 
-**Name the movement** (1-2 words): "Brutalist Joy" / "Chromatic Silence" / "Metabolist Dreams"
+Considere esta abordagem:
 
-**Articulate the philosophy** (4-6 paragraphs - concise but complete):
+- Escreva um manifesto para um movimento artístico
+- A próxima fase envolve fazer a obra de arte
 
-To capture the VISUAL essence, express how the philosophy manifests through:
-- Space and form
-- Color and material
-- Scale and rhythm
-- Composition and balance
-- Visual hierarchy
+A filosofia deve enfatizar: Expressão visual. Comunicação espacial. Interpretação artística. Mínimo de palavras.
 
-**CRITICAL GUIDELINES:**
-- **Avoid redundancy**: Each design aspect should be mentioned once. Avoid repeating points about color theory, spatial relationships, or typographic principles unless adding new depth.
-- **Emphasize craftsmanship REPEATEDLY**: The philosophy MUST stress multiple times that the final work should appear as though it took countless hours to create, was labored over with care, and comes from someone at the absolute top of their field. This framing is essential - repeat phrases like "meticulously crafted," "the product of deep expertise," "painstaking attention," "master-level execution."
-- **Leave creative space**: Remain specific about the aesthetic direction, but concise enough that the next Claude has room to make interpretive choices also at a extremely high level of craftmanship.
+### COMO GERAR UMA FILOSOFIA VISUAL
 
-The philosophy must guide the next version to express ideas VISUALLY, not through text. Information lives in design, not paragraphs.
+**Nomeie o movimento** (1-2 palavras): "Alegria Brutalista" / "Silêncio Cromático" / "Sonhos Metabolistas"
 
-### PHILOSOPHY EXAMPLES
+**Articule a filosofia** (4-6 parágrafos - conciso, mas completo):
 
-**"Concrete Poetry"**
-Philosophy: Communication through monumental form and bold geometry.
-Visual expression: Massive color blocks, sculptural typography (huge single words, tiny labels), Brutalist spatial divisions, Polish poster energy meets Le Corbusier. Ideas expressed through visual weight and spatial tension, not explanation. Text as rare, powerful gesture - never paragraphs, only essential words integrated into the visual architecture. Every element placed with the precision of a master craftsman.
+Para capturar a essência VISUAL, expresse como a filosofia se manifesta através de:
 
-**"Chromatic Language"**
-Philosophy: Color as the primary information system.
-Visual expression: Geometric precision where color zones create meaning. Typography minimal - small sans-serif labels letting chromatic fields communicate. Think Josef Albers' interaction meets data visualization. Information encoded spatially and chromatically. Words only to anchor what color already shows. The result of painstaking chromatic calibration.
+- Espaço e forma
+- Cor e material
+- Escala e ritmo
+- Composição e equilíbrio
+- Hierarquia visual
 
-**"Analog Meditation"**
-Philosophy: Quiet visual contemplation through texture and breathing room.
-Visual expression: Paper grain, ink bleeds, vast negative space. Photography and illustration dominate. Typography whispered (small, restrained, serving the visual). Japanese photobook aesthetic. Images breathe across pages. Text appears sparingly - short phrases, never explanatory blocks. Each composition balanced with the care of a meditation practice.
+**DIRETRIZES CRÍTICAS:**
 
-**"Organic Systems"**
-Philosophy: Natural clustering and modular growth patterns.
-Visual expression: Rounded forms, organic arrangements, color from nature through architecture. Information shown through visual diagrams, spatial relationships, iconography. Text only for key labels floating in space. The composition tells the story through expert spatial orchestration.
+- **Evite redundância**: Cada aspecto do design deve ser mencionado uma vez. Evite repetir pontos sobre teoria das cores, relações espaciais ou princípios tipográficos, a menos que adicione nova profundidade.
+- **Enfatize o artesanato REPETIDAMENTE**: A filosofia DEVE enfatizar várias vezes que o trabalho final deve parecer que levou inúmeras horas para ser criado, foi trabalhado com cuidado e vem de alguém no topo absoluto de seu campo. Este enquadramento é essencial - repita frases como "meticulosamente elaborado", "o produto de profunda expertise", "atenção minuciosa", "execução de nível mestre".
+- **Deixe espaço criativo**: Permaneça específico sobre a direção estética, mas conciso o suficiente para que o próximo Claude tenha espaço para fazer escolhas interpretativas também em um nível extremamente alto de artesanato.
 
-**"Geometric Silence"**
-Philosophy: Pure order and restraint.
-Visual expression: Grid-based precision, bold photography or stark graphics, dramatic negative space. Typography precise but minimal - small essential text, large quiet zones. Swiss formalism meets Brutalist material honesty. Structure communicates, not words. Every alignment the work of countless refinements.
+A filosofia deve guiar a próxima versão para expressar ideias VISUALMENTE, não através de texto. A informação vive no design, não em parágrafos.
 
-*These are condensed examples. The actual design philosophy should be 4-6 substantial paragraphs.*
+### EXEMPLOS DE FILOSOFIA
 
-### ESSENTIAL PRINCIPLES
-- **VISUAL PHILOSOPHY**: Create an aesthetic worldview to be expressed through design
-- **MINIMAL TEXT**: Always emphasize that text is sparse, essential-only, integrated as visual element - never lengthy
-- **SPATIAL EXPRESSION**: Ideas communicate through space, form, color, composition - not paragraphs
-- **ARTISTIC FREEDOM**: The next Claude interprets the philosophy visually - provide creative room
-- **PURE DESIGN**: This is about making ART OBJECTS, not documents with decoration
-- **EXPERT CRAFTSMANSHIP**: Repeatedly emphasize the final work must look meticulously crafted, labored over with care, the product of countless hours by someone at the top of their field
+**"Poesia Concreta"**
+Filosofia: Comunicação através de forma monumental e geometria ousada.
+Expressão visual: Blocos de cor maciços, tipografia escultural (palavras únicas enormes, rótulos minúsculos), divisões espaciais brutalistas, energia de pôster polonês encontra Le Corbusier. Ideias expressas através de peso visual e tensão espacial, não explicação. Texto como gesto raro e poderoso - nunca parágrafos, apenas palavras essenciais integradas na arquitetura visual. Cada elemento colocado com a precisão de um mestre artesão.
 
-**The design philosophy should be 4-6 paragraphs long.** Fill it with poetic design philosophy that brings together the core vision. Avoid repeating the same points. Keep the design philosophy generic without mentioning the intention of the art, as if it can be used wherever. Output the design philosophy as a .md file.
+**"Linguagem Cromática"**
+Filosofia: A cor como o sistema de informação primário.
+Expressão visual: Precisão geométrica onde zonas de cor criam significado. Tipografia mínima - pequenos rótulos sans-serif deixando campos cromáticos comunicarem. Pense na interação de Josef Albers encontrando a visualização de dados. Informação codificada espacialmente e cromaticamente. Palavras apenas para ancorar o que a cor já mostra. O resultado de uma calibração cromática minuciosa.
 
----
+**"Meditação Analógica"**
+Filosofia: Contemplação visual silenciosa através de textura e espaço para respirar.
+Expressão visual: Grão de papel, sangramentos de tinta, vasto espaço negativo. A fotografia e a ilustração dominam. Tipografia sussurrada (pequena, contida, servindo ao visual). Estética de álbum de fotos japonês. Imagens respiram através das páginas. O texto aparece com parcimônia - frases curtas, nunca blocos explicativos. Cada composição equilibrada com o cuidado de uma prática de meditação.
 
-## DEDUCING THE SUBTLE REFERENCE
+**"Sistemas Orgânicos"**
+Filosofia: Agrupamento natural e padrões de crescimento modular.
+Expressão visual: Formas arredondadas, arranjos orgânicos, cor da natureza através da arquitetura. Informação mostrada através de diagramas visuais, relações espaciais, iconografia. Texto apenas para rótulos chave flutuando no espaço. A composição conta a história através de orquestração espacial especializada.
 
-**CRITICAL STEP**: Before creating the canvas, identify the subtle conceptual thread from the original request.
+**"Silêncio Geométrico"**
+Filosofia: Pura ordem e restrição.
+Expressão visual: Precisão baseada em grade, fotografia ousada ou gráficos rígidos, espaço negativo dramático. Tipografia precisa, mas mínima - texto essencial pequeno, grandes zonas calmas. Formalismo suíço encontra honestidade material brutalista. A estrutura comunica, não as palavras. Cada alinhamento é obra de inúmeros refinamentos.
 
-**THE ESSENTIAL PRINCIPLE**:
-The topic is a **subtle, niche reference embedded within the art itself** - not always literal, always sophisticated. Someone familiar with the subject should feel it intuitively, while others simply experience a masterful abstract composition. The design philosophy provides the aesthetic language. The deduced topic provides the soul - the quiet conceptual DNA woven invisibly into form, color, and composition.
+_Estes são exemplos condensados. A filosofia de design real deve ter 4-6 parágrafos substanciais._
 
-This is **VERY IMPORTANT**: The reference must be refined so it enhances the work's depth without announcing itself. Think like a jazz musician quoting another song - only those who know will catch it, but everyone appreciates the music.
+### PRINCÍPIOS ESSENCIAIS
+
+- **FILOSOFIA VISUAL**: Criar uma visão de mundo estética para ser expressa através do design
+- **TEXTO MÍNIMO**: Sempre enfatize que o texto é esparso, apenas essencial, integrado como elemento visual - nunca longo
+- **EXPRESSÃO ESPACIAL**: Ideias se comunicam através do espaço, forma, cor, composição - não parágrafos
+- **LIBERDADE ARTÍSTICA**: O próximo Claude interpreta a filosofia visualmente - forneça espaço criativo
+- **DESIGN PURO**: Isso é sobre fazer OBJETOS DE ARTE, não documentos com decoração
+- **ARTESANATO ESPECIALIZADO**: Enfatize repetidamente que o trabalho final deve parecer meticulosamente elaborado, trabalhado com cuidado, o produto de inúmeras horas por alguém no topo de seu campo
+
+**A filosofia de design deve ter 4-6 parágrafos.** Preencha-a com filosofia de design poética que reúna a visão central. Evite repetir os mesmos pontos. Mantenha a filosofia de design genérica sem mencionar a intenção da arte, como se pudesse ser usada em qualquer lugar. Produza a filosofia de design como um arquivo .md.
 
 ---
 
-## CANVAS CREATION
+## DEDUZINDO A REFERÊNCIA SUTIL
 
-With both the philosophy and the conceptual framework established, express it on a canvas. Take a moment to gather thoughts and clear the mind. Use the design philosophy created and the instructions below to craft a masterpiece, embodying all aspects of the philosophy with expert craftsmanship.
+**ETAPA CRÍTICA**: Antes de criar o canvas, identifique o fio conceitual sutil da solicitação original.
 
-**IMPORTANT**: For any type of content, even if the user requests something for a movie/game/book, the approach should still be sophisticated. Never lose sight of the idea that this should be art, not something that's cartoony or amateur.
+**O PRINCÍPIO ESSENCIAL**:
+O tópico é uma **referência sutil e de nicho embutida na própria arte** - nem sempre literal, sempre sofisticada. Alguém familiarizado com o assunto deve senti-lo intuitivamente, enquanto outros simplesmente experimentam uma composição abstrata magistral. A filosofia de design fornece a linguagem estética. O tópico deduzido fornece a alma - o DNA conceitual silencioso tecido invisivelmente na forma, cor e composição.
 
-To create museum or magazine quality work, use the design philosophy as the foundation. Create one single page, highly visual, design-forward PDF or PNG output (unless asked for more pages). Generally use repeating patterns and perfect shapes. Treat the abstract philosophical design as if it were a scientific bible, borrowing the visual language of systematic observation—dense accumulation of marks, repeated elements, or layered patterns that build meaning through patient repetition and reward sustained viewing. Add sparse, clinical typography and systematic reference markers that suggest this could be a diagram from an imaginary discipline, treating the invisible subject with the same reverence typically reserved for documenting observable phenomena. Anchor the piece with simple phrase(s) or details positioned subtly, using a limited color palette that feels intentional and cohesive. Embrace the paradox of using analytical visual language to express ideas about human experience: the result should feel like an artifact that proves something ephemeral can be studied, mapped, and understood through careful attention. This is true art. 
-
-**Text as a contextual element**: Text is always minimal and visual-first, but let context guide whether that means whisper-quiet labels or bold typographic gestures. A punk venue poster might have larger, more aggressive type than a minimalist ceramics studio identity. Most of the time, font should be thin. All use of fonts must be design-forward and prioritize visual communication. Regardless of text scale, nothing falls off the page and nothing overlaps. Every element must be contained within the canvas boundaries with proper margins. Check carefully that all text, graphics, and visual elements have breathing room and clear separation. This is non-negotiable for professional execution. **IMPORTANT: Use different fonts if writing text. Search the `./canvas-fonts` directory. Regardless of approach, sophistication is non-negotiable.**
-
-Download and use whatever fonts are needed to make this a reality. Get creative by making the typography actually part of the art itself -- if the art is abstract, bring the font onto the canvas, not typeset digitally.
-
-To push boundaries, follow design instinct/intuition while using the philosophy as a guiding principle. Embrace ultimate design freedom and choice. Push aesthetics and design to the frontier. 
-
-**CRITICAL**: To achieve human-crafted quality (not AI-generated), create work that looks like it took countless hours. Make it appear as though someone at the absolute top of their field labored over every detail with painstaking care. Ensure the composition, spacing, color choices, typography - everything screams expert-level craftsmanship. Double-check that nothing overlaps, formatting is flawless, every detail perfect. Create something that could be shown to people to prove expertise and rank as undeniably impressive.
-
-Output the final result as a single, downloadable .pdf or .png file, alongside the design philosophy used as a .md file.
+Isso é **MUITO IMPORTANTE**: A referência deve ser refinada para que aumente a profundidade do trabalho sem se anunciar. Pense como um músico de jazz citando outra música - apenas aqueles que sabem pegarão, mas todos apreciam a música.
 
 ---
 
-## FINAL STEP
+## CRIAÇÃO DO CANVAS
 
-**IMPORTANT**: The user ALREADY said "It isn't perfect enough. It must be pristine, a masterpiece if craftsmanship, as if it were about to be displayed in a museum."
+Com a filosofia e a estrutura conceitual estabelecidas, expresse-as em um canvas. Tire um momento para reunir pensamentos e limpar a mente. Use a filosofia de design criada e as instruções abaixo para criar uma obra-prima, incorporando todos os aspectos da filosofia com artesanato especializado.
 
-**CRITICAL**: To refine the work, avoid adding more graphics; instead refine what has been created and make it extremely crisp, respecting the design philosophy and the principles of minimalism entirely. Rather than adding a fun filter or refactoring a font, consider how to make the existing composition more cohesive with the art. If the instinct is to call a new function or draw a new shape, STOP and instead ask: "How can I make what's already here more of a piece of art?"
+**IMPORTANTE**: Para qualquer tipo de conteúdo, mesmo que o usuário solicite algo para um filme/jogo/livro, a abordagem ainda deve ser sofisticada. Nunca perca de vista a ideia de que isso deve ser arte, não algo cartunesco ou amador.
 
-Take a second pass. Go back to the code and refine/polish further to make this a philosophically designed masterpiece.
+Para criar trabalho de qualidade de museu ou revista, use a filosofia de design como base. Crie uma única página, altamente visual, saída PDF ou PNG com foco em design (a menos que solicitado mais páginas). Geralmente use padrões repetidos e formas perfeitas. Trate o design filosófico abstrato como se fosse uma bíblia científica, tomando emprestada a linguagem visual da observação sistemática — acumulação densa de marcas, elementos repetidos ou padrões em camadas que constroem significado através da repetição paciente e recompensam a visualização sustentada. Adicione tipografia esparsa e clínica e marcadores de referência sistemáticos que sugerem que isso poderia ser um diagrama de uma disciplina imaginária, tratando o assunto invisível com a mesma reverência tipicamente reservada para documentar fenômenos observáveis. Ancore a peça com frase(s) simples ou detalhes posicionados sutilmente, usando uma paleta de cores limitada que pareça intencional e coesa. Abrace o paradoxo de usar linguagem visual analítica para expressar ideias sobre a experiência humana: o resultado deve parecer um artefato que prova que algo efêmero pode ser estudado, mapeado e compreendido através de atenção cuidadosa. Isso é verdadeira arte.
 
-## MULTI-PAGE OPTION
+**Texto como elemento contextual**: O texto é sempre mínimo e visual em primeiro lugar, mas deixe o contexto guiar se isso significa rótulos sussurrados ou gestos tipográficos ousados. Um pôster de local punk pode ter tipos maiores e mais agressivos do que uma identidade de estúdio de cerâmica minimalista. Na maioria das vezes, a fonte deve ser fina. Todo uso de fontes deve ser focado no design e priorizar a comunicação visual. Independentemente da escala do texto, nada cai da página e nada se sobrepõe. Cada elemento deve estar contido dentro dos limites do canvas com margens adequadas. Verifique cuidadosamente se todo o texto, gráficos e elementos visuais têm espaço para respirar e separação clara. Isso é inegociável para execução profissional. **IMPORTANTE: Use fontes diferentes se estiver escrevendo texto. Pesquise no diretório `./canvas-fonts`. Independentemente da abordagem, a sofisticação é inegociável.**
 
-To create additional pages when requested, create more creative pages along the same lines as the design philosophy but distinctly different as well. Bundle those pages in the same .pdf or many .pngs. Treat the first page as just a single page in a whole coffee table book waiting to be filled. Make the next pages unique twists and memories of the original. Have them almost tell a story in a very tasteful way. Exercise full creative freedom.
+Baixe e use quaisquer fontes necessárias para tornar isso realidade. Seja criativo tornando a tipografia realmente parte da própria arte -- se a arte for abstrata, traga a fonte para o canvas, não composta digitalmente.
+
+Para ultrapassar limites, siga o instinto/intuição de design enquanto usa a filosofia como princípio orientador. Abrace a liberdade e escolha de design definitivas. Empurre a estética e o design para a fronteira.
+
+**CRÍTICO**: Para alcançar qualidade feita por humanos (não gerada por IA), crie trabalho que pareça ter levado inúmeras horas. Faça parecer que alguém no topo absoluto de seu campo trabalhou em cada detalhe com cuidado minucioso. Certifique-se de que a composição, espaçamento, escolhas de cores, tipografia - tudo grite artesanato de nível especialista. Verifique duas vezes se nada se sobrepõe, a formatação é impecável, cada detalhe perfeito. Crie algo que poderia ser mostrado às pessoas para provar expertise e classificar como inegavelmente impressionante.
+
+Produza o resultado final como um arquivo .pdf ou .png único e baixável, juntamente com a filosofia de design usada como arquivo .md.
+
+---
+
+## ETAPA FINAL
+
+**IMPORTANTE**: O usuário JÁ disse "Não é perfeito o suficiente. Deve ser imaculado, uma obra-prima de artesanato, como se estivesse prestes a ser exibido em um museu."
+
+**CRÍTICO**: Para refinar o trabalho, evite adicionar mais gráficos; em vez disso, refine o que foi criado e torne-o extremamente nítido, respeitando a filosofia de design e os princípios do minimalismo inteiramente. Em vez de adicionar um filtro divertido ou refatorar uma fonte, considere como tornar a composição existente mais coesa com a arte. Se o instinto for chamar uma nova função ou desenhar uma nova forma, PARE e, em vez disso, pergunte: "Como posso tornar o que já está aqui mais uma obra de arte?"
+
+Faça uma segunda passagem. Volte ao código e refine/polimento ainda mais para tornar isso uma obra-prima filosoficamente projetada.
+
+## OPÇÃO DE MÚLTIPLAS PÁGINAS
+
+Para criar páginas adicionais quando solicitado, crie mais páginas criativas nas mesmas linhas da filosofia de design, mas distintamente diferentes também. Agrupe essas páginas no mesmo .pdf ou muitos .pngs. Trate a primeira página como apenas uma única página em um livro de mesa de centro inteiro esperando para ser preenchido. Faça com que as próximas páginas sejam reviravoltas únicas e memórias do original. Tenha-as quase contando uma história de uma maneira muito elegante. Exercite total liberdade criativa.

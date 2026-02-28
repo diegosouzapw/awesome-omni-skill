@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8e7ad2f26ff921c409c59ee53a2a5946a6cc9a93f19c58cf2410fcc12cdc5188",
   "indexed_at": "2026-02-26T06:49:39.888Z",
-  "synced_at": "2026-02-27T02:37:24.275Z",
+  "synced_at": "2026-02-28T04:05:42.067Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6a67b80a413fe9f101f22aea000eb0c1421ddaefa47831ce5740043bc198ee6e",
   "install_command": "mkdir -p .claude/skills/brutalist-academic-ui && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/brutalist-academic-ui/SKILL.md\" > .claude/skills/brutalist-academic-ui/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/brutalist-academic-ui/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f46213bcc6bf85ff7f6bd25192047ac2a439dd6a8463808b69eede88b42800d9",
   "indexed_at": "2026-02-27T15:04:37.719Z",
-  "synced_at": "2026-02-27T18:17:00.308Z",
+  "synced_at": "2026-02-28T04:06:02.409Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/194bb21d02cbda9c4b7e46c768100054a860c9df04567106288cb2f68a1ffa60",
   "install_command": "mkdir -p .claude/skills/ux-audit && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/tommygeoco/ux-audit/SKILL.md\" > .claude/skills/ux-audit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/tommygeoco/ux-audit/SKILL.md"

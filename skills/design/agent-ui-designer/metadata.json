@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0762ca31a7778f45e9f6cf87af944e8ffffb6e575b2b2ab70f7525e68e7b30b8",
   "indexed_at": "2026-02-27T04:57:15.681Z",
-  "synced_at": "2026-02-27T13:14:52.210Z",
+  "synced_at": "2026-02-28T04:05:11.597Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/217679bbbc7c84972efa9a06210de16703d20132931a4793df171222bfb6714a",
   "install_command": "mkdir -p .claude/skills/agent-ui-designer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-ui-designer/SKILL.md\" > .claude/skills/agent-ui-designer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-ui-designer/SKILL.md"

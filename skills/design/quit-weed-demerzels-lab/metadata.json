@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c8d84aa4cf9d0f23ed6e992d62c55cfda1cd684cf6b425bb08f282a02d578c03",
   "indexed_at": "2026-02-25T15:54:51.506Z",
-  "synced_at": "2026-02-27T02:37:06.089Z",
+  "synced_at": "2026-02-28T04:05:20.690Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/42ef1b13a87fe6b6f53357ca2df4858d98e7775dbd310e2bce5dd3299ea3d475",
   "install_command": "mkdir -p .claude/skills/quit-weed && curl -sL \"https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/jhillin8/quit-weed/SKILL.md\" > .claude/skills/quit-weed/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/jhillin8/quit-weed/SKILL.md"
