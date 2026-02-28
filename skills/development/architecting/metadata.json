@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8516a3f8f86d079bb7a376d2deb9a255f964ac4adc7d3d9a6389b8ed4e659661",
   "indexed_at": "2026-02-27T09:47:24.471Z",
-  "synced_at": "2026-02-27T13:13:08.548Z",
+  "synced_at": "2026-02-28T03:53:23.003Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/067133dc648ae8a1a1debf7e907fdce118ee4fc393b3e9c7bff83fbf458e9571",
   "install_command": "mkdir -p .claude/skills/architecting && curl -sL \"https://raw.githubusercontent.com/gajakannan/nebula-crm/main/agents/architect/SKILL.md\" > .claude/skills/architecting/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/gajakannan/nebula-crm/main/agents/architect/SKILL.md"

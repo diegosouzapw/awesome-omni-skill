@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0bbe664a4e4eaaca03378e1162c1b5684ba2019c64383a7c51f7977be3dcc737",
   "indexed_at": "2026-02-25T12:50:24.633Z",
-  "synced_at": "2026-02-27T02:28:10.185Z",
+  "synced_at": "2026-02-28T03:53:56.652Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a0f1cf863b91c89fd621fd331305f7209813c052c381526c5044f786faa1fc5a",
   "install_command": "mkdir -p .claude/skills/moltmoon-sdk && curl -sL \"https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/enstest1/moltmoon-sdk/SKILL.md\" > .claude/skills/moltmoon-sdk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/enstest1/moltmoon-sdk/SKILL.md"

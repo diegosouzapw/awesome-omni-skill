@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c79648e1b3db7449cae10aaf0ea689f42161c762179290106da9926d4b7b5ef2",
   "indexed_at": "2026-02-26T11:31:14.410Z",
-  "synced_at": "2026-02-27T02:27:18.929Z",
+  "synced_at": "2026-02-28T03:52:43.108Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a1f51876cb80f6b5b8d7a16d7cfcc028930861f167912930447e5248af33ef1a",
   "install_command": "mkdir -p .claude/skills/moai-workflow-templates && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/tjdwls101010__seongjin_extension_youtube-summarize__claude__skills__moai-workflow-templates__SKILL.md/SKILL.md\" > .claude/skills/moai-workflow-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/tjdwls101010__seongjin_extension_youtube-summarize__claude__skills__moai-workflow-templates__SKILL.md/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "50370cf38ff35bff90beaafee89268aa7985e94c9ce66ef415eb4b376ebfa9bb",
   "indexed_at": "2026-02-26T17:36:20.589Z",
-  "synced_at": "2026-02-27T02:27:47.520Z",
+  "synced_at": "2026-02-28T03:53:06.540Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/802f08cef1d5cb78c6136e922e131dad9eb11dfa0bd331cc07b0e0cc808fdeb0",
   "install_command": "mkdir -p .claude/skills/java-doctor && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ajaywadhara/java-doctor/java-doctor/SKILL.md\" > .claude/skills/java-doctor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ajaywadhara/java-doctor/java-doctor/SKILL.md"

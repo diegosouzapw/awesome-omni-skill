@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1a609e80c503b0bfe2466234168b809c2050fcd52c3a23f18dcab638960fc74b",
   "indexed_at": "2026-02-25T12:37:30.458Z",
-  "synced_at": "2026-02-27T02:28:00.985Z",
+  "synced_at": "2026-02-28T03:53:46.926Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fc006e804b3d33b6b54db4d36653c27cc499237e618dbc612e941bf00a4a46a1",
   "install_command": "mkdir -p .claude/skills/moqui-service-writer && curl -sL \"https://raw.githubusercontent.com/schue/moqui-skill/main/SKILL.md\" > .claude/skills/moqui-service-writer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/schue/moqui-skill/main/SKILL.md"

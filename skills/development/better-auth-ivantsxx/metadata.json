@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "039d0964bec3314a62d784b7c34aed61d9eead518e71b762511fe1fb2e6b5c45",
   "indexed_at": "2026-02-26T12:20:23.619Z",
-  "synced_at": "2026-02-27T02:27:32.955Z",
+  "synced_at": "2026-02-28T03:52:55.007Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cc5a3fa3f443d1613e80cda82c9b7d9b47919a8e7a2c7a10c16ebe70f74fb8cd",
   "install_command": "mkdir -p .claude/skills/better-auth && curl -sL \"https://raw.githubusercontent.com/IvanTsxx/Lules-Market/main/.agent/skills/better-auth/SKILL.md\" > .claude/skills/better-auth/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/IvanTsxx/Lules-Market/main/.agent/skills/better-auth/SKILL.md"

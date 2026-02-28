@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "04f4fa3270cd958449e72ba0d36df743ff53d793ad440cb5c2684157cf0a96e6",
   "indexed_at": "2026-02-26T09:51:02.192Z",
-  "synced_at": "2026-02-27T02:27:06.167Z",
+  "synced_at": "2026-02-28T03:52:32.455Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a5c811e3ab462c2b9df8bbccc81e973099dd1f49a564e1ba613f537a151bbfec",
   "install_command": "mkdir -p .claude/skills/binary-analysis-and-reverse-engineering && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/binary-analysis/SKILL.md\" > .claude/skills/binary-analysis-and-reverse-engineering/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/binary-analysis/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a7599b7894f58e3fbd48a872362c822ccd5da56f87ae103da9817383292a5361",
   "indexed_at": "2026-02-26T12:24:14.725Z",
-  "synced_at": "2026-02-27T02:27:40.404Z",
+  "synced_at": "2026-02-28T03:53:00.073Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f4b85bbd9043fef746fe8e5a5699c7107ca7124d96646cce6498df92e7eb5d35",
   "install_command": "mkdir -p .claude/skills/vercel-deploy && curl -sL \"https://raw.githubusercontent.com/EugenMoser/Portfolio/main/.github/instructions/skills/claude.ai/vercel-deploy-claimable/SKILL.md\" > .claude/skills/vercel-deploy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/EugenMoser/Portfolio/main/.github/instructions/skills/claude.ai/vercel-deploy-claimable/SKILL.md"

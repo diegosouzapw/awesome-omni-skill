@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a548f0e36a1847f484feaa12573b034ee9ccc5637bdedf23190111961df4a88d",
   "indexed_at": "2026-02-27T16:09:45.216Z",
-  "synced_at": "2026-02-27T18:16:31.621Z",
+  "synced_at": "2026-02-28T03:53:28.696Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/78e59d2bfc3be937dbb0c0008dca84f43885d237e0480966db7d6573efb7a5b3",
   "install_command": "mkdir -p .claude/skills/acset-taxonomy && curl -sL \"https://raw.githubusercontent.com/plurigrid/asi/main/skills/acset-taxonomy/SKILL.md\" > .claude/skills/acset-taxonomy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/plurigrid/asi/main/skills/acset-taxonomy/SKILL.md"

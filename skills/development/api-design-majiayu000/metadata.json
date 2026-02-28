@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7a159a7ee061205cb506b5dd165e8e351d48812dc6c372640ab154c50b64c9ce",
   "indexed_at": "2026-02-27T07:46:41.463Z",
-  "synced_at": "2026-02-27T13:13:04.124Z",
+  "synced_at": "2026-02-28T03:53:17.037Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1ce58d771f09a60e80066a564a335a91bd35468a557900035fa4391fe6ca724f",
   "install_command": "mkdir -p .claude/skills/api-design && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/api-design-frankxai-agentic-creator-os/SKILL.md\" > .claude/skills/api-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/api-design-frankxai-agentic-creator-os/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f98d3764ad4e418d3a88a86655903daa6cb043841ba5981687b8b54726c7dd4b",
   "indexed_at": "2026-02-26T18:37:52.278Z",
-  "synced_at": "2026-02-27T02:27:49.135Z",
+  "synced_at": "2026-02-28T03:53:08.189Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/43cfbc1b97becd97f94cf1c07386824f39a24e86250536e2b18903b6d1869b42",
   "install_command": "mkdir -p .claude/skills/github-copilot-sdk && curl -sL \"https://raw.githubusercontent.com/rysweet/amplihack/main/.claude/skills/github-copilot-sdk/SKILL.md\" > .claude/skills/github-copilot-sdk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rysweet/amplihack/main/.claude/skills/github-copilot-sdk/SKILL.md"

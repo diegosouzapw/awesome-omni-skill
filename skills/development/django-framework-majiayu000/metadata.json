@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "05009bdd40844220aeefd1d001e9c8edfb5f593d7faf2124fff0079fda09ec64",
   "indexed_at": "2026-02-26T10:52:33.305Z",
-  "synced_at": "2026-02-27T02:27:14.714Z",
+  "synced_at": "2026-02-28T03:52:39.204Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9816031d92c5f0370ffdb5d3aae43a95d44e71929bdeecb658b679f380149a58",
   "install_command": "mkdir -p .claude/skills/django-framework && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/django-framework-pluginagentmarketpla-custom-plugin-python/SKILL.md\" > .claude/skills/django-framework/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/django-framework-pluginagentmarketpla-custom-plugin-python/SKILL.md"

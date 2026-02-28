@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "05549f900b23cd486b997ddfae56237b36bd1145e2c2ddfa75f8623952bb0345",
   "indexed_at": "2026-02-26T12:56:59.684Z",
-  "synced_at": "2026-02-27T02:27:42.826Z",
+  "synced_at": "2026-02-28T03:53:01.417Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/526df3e3f70423fd3367c8aeadf911070d2557354980ff9dd9608d5a066faaba",
   "install_command": "mkdir -p .claude/skills/lit-best-practices && curl -sL \"https://raw.githubusercontent.com/artmsilva/lit-best-practices/main/SKILL.md\" > .claude/skills/lit-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/artmsilva/lit-best-practices/main/SKILL.md"

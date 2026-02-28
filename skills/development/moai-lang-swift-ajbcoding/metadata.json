@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "35f0043a0284eb09f51138b16fcd064484152174064b51fe7e36718f5a767042",
   "indexed_at": "2026-02-26T09:56:52.764Z",
-  "synced_at": "2026-02-27T02:27:09.079Z",
+  "synced_at": "2026-02-28T03:52:35.348Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ad9c5551184e30fd4196f30728376c92bafa53f3968fd9166da0c6d9a36f9f41",
   "install_command": "mkdir -p .claude/skills/moai-lang-swift && curl -sL \"https://raw.githubusercontent.com/AJBcoding/claude-skill-eval/main/moai-adk-main/src/moai_adk/templates/.claude/skills/moai-lang-swift/SKILL.md\" > .claude/skills/moai-lang-swift/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AJBcoding/claude-skill-eval/main/moai-adk-main/src/moai_adk/templates/.claude/skills/moai-lang-swift/SKILL.md"

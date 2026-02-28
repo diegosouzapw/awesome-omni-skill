@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "20d7906cdc7ecfca15af0c19e9950980ebd2c5fb1c29fbd42788c7d6cbe1e29a",
   "indexed_at": "2026-02-26T12:23:42.871Z",
-  "synced_at": "2026-02-27T02:27:39.036Z",
+  "synced_at": "2026-02-28T03:52:58.981Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e717fe54a6d617df561c8bdc83b33f8e73e80980f098399b65c60ea3c6be1f01",
   "install_command": "mkdir -p .claude/skills/app-builder && curl -sL \"https://raw.githubusercontent.com/rahlplx/elite-astro-workforce-template/main/.agent/skills/app-builder/SKILL.md\" > .claude/skills/app-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rahlplx/elite-astro-workforce-template/main/.agent/skills/app-builder/SKILL.md"

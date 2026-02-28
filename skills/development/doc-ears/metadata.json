@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "371bb8cc5b72f58f7f26766d16cbe8dcdafe1a0f6f06767d035ecd66995f9bf6",
   "indexed_at": "2026-02-26T09:51:41.147Z",
-  "synced_at": "2026-02-27T02:27:06.504Z",
+  "synced_at": "2026-02-28T03:52:32.816Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/059e839efb0c22e370e6b0dbc69469fa24f5495a5fcc09d0608d4978053a1a0d",
   "install_command": "mkdir -p .claude/skills/doc-ears && curl -sL \"https://raw.githubusercontent.com/vladm3105/aidoc-flow-framework/main/.claude/skills/doc-ears/SKILL.md\" > .claude/skills/doc-ears/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/vladm3105/aidoc-flow-framework/main/.claude/skills/doc-ears/SKILL.md"

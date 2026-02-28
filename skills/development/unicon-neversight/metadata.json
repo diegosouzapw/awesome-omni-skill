@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "31a00b1b6170b4b65c4d4f596ae0e36c58d8960dcc23a5201b008ab91d021b09",
   "indexed_at": "2026-02-26T17:37:44.631Z",
-  "synced_at": "2026-02-27T02:27:48.039Z",
+  "synced_at": "2026-02-28T03:53:07.041Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/19a7769a9d067ed30009e5d4fca7b85369e2791fdd4734eb053eb87d5afbe396",
   "install_command": "mkdir -p .claude/skills/unicon && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/webrenew/unicon/unicon/SKILL.md\" > .claude/skills/unicon/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/webrenew/unicon/unicon/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2fb9e2f1f326db29c549dada67a2515e93d09b61af999e0d4fd6f2527b1c32be",
   "indexed_at": "2026-02-27T07:46:43.526Z",
-  "synced_at": "2026-02-27T13:13:04.243Z",
+  "synced_at": "2026-02-28T03:53:17.236Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f96fe8ebc7f2741454c0a0077c5df5c5753d9835d3db167075cb4dfbb287aef1",
   "install_command": "mkdir -p .claude/skills/api-design && curl -sL \"https://raw.githubusercontent.com/frankxai/agentic-creator-os/main/skills/technical/api-design/SKILL.md\" > .claude/skills/api-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/frankxai/agentic-creator-os/main/skills/technical/api-design/SKILL.md"

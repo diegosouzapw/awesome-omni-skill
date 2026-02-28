@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2514a27b228b89d20abe8034ad1de6eeb616bf610c29d8bf679f97e88be220f4",
   "indexed_at": "2026-02-26T22:38:25.636Z",
-  "synced_at": "2026-02-27T02:27:54.533Z",
+  "synced_at": "2026-02-28T03:53:37.637Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/507db9d22e655e658faf54c3e23046da4e14e03d4b7d270a5a46e35724173cad",
   "install_command": "mkdir -p .claude/skills/vuejs3 && curl -sL \"https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/vuejs3/SKILL.md\" > .claude/skills/vuejs3/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/vuejs3/SKILL.md"

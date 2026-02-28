@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3741797ffe80452aebf6292f3c914c7eb72e54f30105d7fcccdb18382908e837",
   "indexed_at": "2026-02-27T14:41:59.088Z",
-  "synced_at": "2026-02-27T18:16:30.838Z",
+  "synced_at": "2026-02-28T03:53:27.615Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/77a55158ad0e7506bcbacd398ed28e1a0f2026e4ac6317d83f3bddc82077e3e9",
   "install_command": "mkdir -p .claude/skills/gpui && curl -sL \"https://raw.githubusercontent.com/justjavac/gpui-memory-game/main/.github/skills/gpui/SKILL.md\" > .claude/skills/gpui/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/justjavac/gpui-memory-game/main/.github/skills/gpui/SKILL.md"

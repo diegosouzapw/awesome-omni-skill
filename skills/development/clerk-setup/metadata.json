@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "58af618b6489d90698f5eb999ef919e0951e418ddd94f0fcfbb9bbb62bae7a7a",
   "indexed_at": "2026-02-26T11:31:36.356Z",
-  "synced_at": "2026-02-27T02:27:19.609Z",
+  "synced_at": "2026-02-28T03:52:43.601Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0c23353a728cf6eab2662dbbba6cf3e552a96c7d8e5363a0bfac7afb637c63a4",
   "install_command": "mkdir -p .claude/skills/clerk-setup && curl -sL \"https://raw.githubusercontent.com/growupanand/ConvoForm/main/.agents/skills/clerk-setup/SKILL.md\" > .claude/skills/clerk-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/growupanand/ConvoForm/main/.agents/skills/clerk-setup/SKILL.md"

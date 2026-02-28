@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b6ec4431dba809054075a2e29fd8f4ef9ce1a8fb194a4599758b28c46dbd7a6e",
   "indexed_at": "2026-02-26T10:56:48.133Z",
-  "synced_at": "2026-02-27T02:27:18.059Z",
+  "synced_at": "2026-02-28T03:52:42.435Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/01311887efd7de0858b76f77e36545dbe5faf394c5b9a9063f6a6595f8846834",
   "install_command": "mkdir -p .claude/skills/backend-development && curl -sL \"https://raw.githubusercontent.com/zircote/agents/main/skills/backend-development/SKILL.md\" > .claude/skills/backend-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zircote/agents/main/skills/backend-development/SKILL.md"

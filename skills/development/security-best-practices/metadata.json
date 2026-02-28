@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "396a7b03434ed82ee3db58aa89873140773d6f72f97ce5962b18247966b6937c",
   "indexed_at": "2026-02-26T13:19:24.499Z",
-  "synced_at": "2026-02-27T02:27:43.612Z",
+  "synced_at": "2026-02-28T03:53:02.113Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dde2ad3a9d79dfea2850ccbfbdb97d970aaedf480a992852f3b5cc4c68dffaca",
   "install_command": "mkdir -p .claude/skills/security-best-practices && curl -sL \"https://raw.githubusercontent.com/tech-leads-club/agent-skills/main/packages/skills-catalog/skills/(security)/security-best-practices/SKILL.md\" > .claude/skills/security-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tech-leads-club/agent-skills/main/packages/skills-catalog/skills/(security)/security-best-practices/SKILL.md"

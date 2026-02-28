@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7c7b678f0636cfa325c5d6f1f8befc3fc75f8dcb35deb20960b5f6251cd4b00c",
   "indexed_at": "2026-02-26T12:22:17.920Z",
-  "synced_at": "2026-02-27T02:27:36.500Z",
+  "synced_at": "2026-02-28T03:52:57.235Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f8902b85eed76b3339572ec5e8abca11752990de17b5b0513b4a30eeee4d41a2",
   "install_command": "mkdir -p .claude/skills/react-expert && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/truchot__claude-skills-test__claude__skills__react-expert__SKILL.md/SKILL.md\" > .claude/skills/react-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/truchot__claude-skills-test__claude__skills__react-expert__SKILL.md/SKILL.md"

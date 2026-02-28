@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "347d1a773867fa6c6c7a865c738ff30e35a36ada7d18f09e1626e8d7bc4213cd",
   "indexed_at": "2026-02-25T12:48:04.277Z",
-  "synced_at": "2026-02-27T02:28:07.985Z",
+  "synced_at": "2026-02-28T03:53:54.630Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e05ee1b19b7a86b5165a7c6ac18ebefcbffd4e70053971e7265d545f0202a69f",
   "install_command": "mkdir -p .claude/skills/widget-studio && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/art-of-technology/widget-studio-skill/widget-studio/SKILL.md\" > .claude/skills/widget-studio/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/art-of-technology/widget-studio-skill/widget-studio/SKILL.md"

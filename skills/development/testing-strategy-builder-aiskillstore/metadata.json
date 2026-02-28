@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "03d8cd1ff04cd9153ab750b3cb730435a9c0b5e0aa1facd67ecf901fde762068",
   "indexed_at": "2026-02-26T10:53:04.417Z",
-  "synced_at": "2026-02-27T02:27:15.063Z",
+  "synced_at": "2026-02-28T03:52:39.555Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cc768be2af385e71ccf5e6abfa7f96b4a2f72f2c442d26b0bd99d8c8c6ed49e5",
   "install_command": "mkdir -p .claude/skills/testing-strategy-builder && curl -sL \"https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/ariegoldkin/testing-strategy-builder/SKILL.md\" > .claude/skills/testing-strategy-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/ariegoldkin/testing-strategy-builder/SKILL.md"

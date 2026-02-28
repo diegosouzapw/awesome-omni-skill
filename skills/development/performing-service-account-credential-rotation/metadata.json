@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "12ea25c325c0764389e51fd234b5735ab7d53b05439bc0bea9bb491a68b84000",
   "indexed_at": "2026-02-26T11:39:10.460Z",
-  "synced_at": "2026-02-27T02:27:28.716Z",
+  "synced_at": "2026-02-28T03:52:51.360Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d9fedae7541424e825b51422a50b7ce65120b0e559d89403dab45cc54cb43950",
   "install_command": "mkdir -p .claude/skills/performing-service-account-credential-rotation && curl -sL \"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/performing-service-account-credential-rotation/SKILL.md\" > .claude/skills/performing-service-account-credential-rotation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/performing-service-account-credential-rotation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3cf610abe96185e41c1f97860dec3850b136be6034dad016d7f1a5c10c802a49",
   "indexed_at": "2026-02-27T08:46:10.469Z",
-  "synced_at": "2026-02-27T13:13:05.758Z",
+  "synced_at": "2026-02-28T03:53:19.024Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6ea7cf16beb18085b624f008422c5db400f244dd0722ba9375904c8e8870dbd9",
   "install_command": "mkdir -p .claude/skills/sovereign-project-guardian && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/ryudi84/sovereign-project-guardian/SKILL.md\" > .claude/skills/sovereign-project-guardian/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ryudi84/sovereign-project-guardian/SKILL.md"

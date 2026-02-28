@@ -19,7 +19,7 @@
   "downloads": 1,
   "content_hash": "e770659750b01acff70e025e8cc99b131fa02d5fe021602b160c70fd4bc10e1b",
   "indexed_at": "2026-02-26T19:30:33.273Z",
-  "synced_at": "2026-02-27T02:27:50.154Z",
+  "synced_at": "2026-02-28T03:53:09.206Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1c84ecee185a7d5009cb8f6b8e655ba0c0071c51161da237959e7c76a186c90e",
   "install_command": "mkdir -p .claude/skills/unified-canvas && curl -sL \"https://raw.githubusercontent.com/metaweavehq/universal-document-studio/main/SKILL.md\" > .claude/skills/unified-canvas/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/metaweavehq/universal-document-studio/main/SKILL.md"

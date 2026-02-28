@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7da4512df40772bf4c2b7272ef88bdbd75bf9fb2966d7e27bdd3085a23166e4a",
   "indexed_at": "2026-02-26T09:51:33.510Z",
-  "synced_at": "2026-02-27T02:27:06.358Z",
+  "synced_at": "2026-02-28T03:52:32.642Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fa2193030060c29a1d92722bd599634a10f6eb43249f1a521c89104568f00c44",
   "install_command": "mkdir -p .claude/skills/mssql && curl -sL \"https://raw.githubusercontent.com/sanjay3290/ai-skills/main/skills/mssql/SKILL.md\" > .claude/skills/mssql/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sanjay3290/ai-skills/main/skills/mssql/SKILL.md"

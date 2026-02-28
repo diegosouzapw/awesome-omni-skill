@@ -90,8 +90,8 @@ Always show both URLs:
 ```
 ✓ Deployment successful!
 
-Preview URL: https://skill-deploy-abc123.vercel.app
-Claim URL:   https://vercel.com/claim-deployment?code=...
+- [Preview URL](https://skill-deploy-abc123.vercel.app)
+- [Claim URL](https://vercel.com/claim-deployment?code=...)
 
 View your site at the Preview URL.
 To transfer this deployment to your Vercel account, visit the Claim URL.

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0685d96ba90fdc6441372f4060fbc11040e06a764862d48498a8c07210591c17",
   "indexed_at": "2026-02-25T12:35:55.340Z",
-  "synced_at": "2026-02-27T02:27:58.276Z",
+  "synced_at": "2026-02-28T03:53:43.922Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4d97f2b2e4e64253e42bb7455b1b1521e42d49252def1b1a855563bd099c0f7c",
   "install_command": "mkdir -p .claude/skills/rhetorical-analysis && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/rhetorical-analysis/SKILL.md\" > .claude/skills/rhetorical-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/rhetorical-analysis/SKILL.md"

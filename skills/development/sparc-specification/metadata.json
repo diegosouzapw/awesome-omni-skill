@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a9f6af92f3c97d927c37c97d2c6e993dfb5579eb3871cc2293060e026299283b",
   "indexed_at": "2026-02-26T11:39:14.405Z",
-  "synced_at": "2026-02-27T02:27:28.888Z",
+  "synced_at": "2026-02-28T03:52:51.529Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3f1f8197ac530bee991266432eb631bc2c1f6f0e9d0e83e2a31ed27c6db32a99",
   "install_command": "mkdir -p .claude/skills/sparc-specification && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/sparc-specification/SKILL.md\" > .claude/skills/sparc-specification/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/sparc-specification/SKILL.md"

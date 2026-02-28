@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "75c2d60f162cfd5195f51d401752d54c76e308cd7b09713a8e75cc34459ab440",
   "indexed_at": "2026-02-27T08:52:32.155Z",
-  "synced_at": "2026-02-27T13:13:07.388Z",
+  "synced_at": "2026-02-28T03:53:21.353Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/23a8dd78ad6b1e4890b292d468c98df74e11078e771c0c1606bc3638d7ac4328",
   "install_command": "mkdir -p .claude/skills/api-lifecycle && curl -sL \"https://raw.githubusercontent.com/doancan/mags/main/skills/api-lifecycle/SKILL.md\" > .claude/skills/api-lifecycle/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/doancan/mags/main/skills/api-lifecycle/SKILL.md"

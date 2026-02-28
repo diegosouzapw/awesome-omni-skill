@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c53e926fb257bb1e1fb2218507128ba1f90caa038736a93a74c213169b94d67c",
   "indexed_at": "2026-02-26T11:34:43.558Z",
-  "synced_at": "2026-02-27T02:27:27.340Z",
+  "synced_at": "2026-02-28T03:52:49.930Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/de34d9d22740fbcb105a90c6e470caebedf97456809e70c00584c8004baa3abc",
   "install_command": "mkdir -p .claude/skills/better-auth && curl -sL \"https://raw.githubusercontent.com/untangledfinance/untangled-web/main/.claude/skills/better-auth/SKILL.md\" > .claude/skills/better-auth/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/untangledfinance/untangled-web/main/.claude/skills/better-auth/SKILL.md"

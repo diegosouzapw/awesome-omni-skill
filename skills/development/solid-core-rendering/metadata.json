@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "31eef9201d46054ccc58e7da8c2678e4666edaa627781b6fcb5fbf5d9b3b03bc",
   "indexed_at": "2026-02-26T22:37:54.526Z",
-  "synced_at": "2026-02-27T02:27:54.327Z",
+  "synced_at": "2026-02-28T03:53:37.433Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f2e505b8df12052447713c3008798f79b584047c03454377485973ef454e4ff9",
   "install_command": "mkdir -p .claude/skills/solid-core-rendering && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/solid-core-rendering/SKILL.md\" > .claude/skills/solid-core-rendering/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/solid-core-rendering/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fa56100bd0c7221e0c796f9bacc109d1f7fa7eb245d6e00cf435dcd62788cb1a",
   "indexed_at": "2026-02-26T17:36:51.848Z",
-  "synced_at": "2026-02-27T02:27:47.692Z",
+  "synced_at": "2026-02-28T03:53:06.705Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3aa24fbde0702e942b008184bd350366cb1d10fe52face59e9b51811cc5635a8",
   "install_command": "mkdir -p .claude/skills/advanced-playwright-e2e-framework && curl -sL \"https://raw.githubusercontent.com/omarrohit20/ui_automation/main/.github/copilot-instructions/playwright-8-layer-test-architecture/SKILL.md\" > .claude/skills/advanced-playwright-e2e-framework/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/omarrohit20/ui_automation/main/.github/copilot-instructions/playwright-8-layer-test-architecture/SKILL.md"

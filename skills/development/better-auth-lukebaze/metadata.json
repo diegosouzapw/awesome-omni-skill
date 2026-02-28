@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "63d0ac9113a8082cbe0891bb485aa575f0779e7cd22fc15174257517d41c3adf",
   "indexed_at": "2026-02-27T11:48:24.229Z",
-  "synced_at": "2026-02-27T13:13:10.483Z",
+  "synced_at": "2026-02-28T03:53:25.933Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/396af82a469869e6ad8bc7ae84a58faf8f04b9c10b0f08f7a391a1f2b8aaf1ac",
   "install_command": "mkdir -p .claude/skills/better-auth && curl -sL \"https://raw.githubusercontent.com/lukebaze/forex-rebate-bot/main/.claude/skills/better-auth/SKILL.md\" > .claude/skills/better-auth/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lukebaze/forex-rebate-bot/main/.claude/skills/better-auth/SKILL.md"

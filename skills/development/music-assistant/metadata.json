@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7557991e938ea8d5a0916bfed4d2e89ca855b6424b984cfa3eedda37d29db995",
   "indexed_at": "2026-02-26T11:56:43.124Z",
-  "synced_at": "2026-02-27T02:27:30.549Z",
+  "synced_at": "2026-02-28T03:52:53.149Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/69739962a4a93a244a8e2cbb85955964fc63ce4e19111939ea16a2148200d6d9",
   "install_command": "mkdir -p .claude/skills/music-assistant && curl -sL \"https://raw.githubusercontent.com/troykelly/openclaw-skill-music-assistant/main/SKILL.md\" > .claude/skills/music-assistant/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/troykelly/openclaw-skill-music-assistant/main/SKILL.md"

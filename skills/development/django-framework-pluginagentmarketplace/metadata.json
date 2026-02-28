@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b7eb131c1fb3391011a39230a47d3f09bdf9caa2320fe58a02adc092602ef642",
   "indexed_at": "2026-02-26T10:52:34.777Z",
-  "synced_at": "2026-02-27T02:27:14.898Z",
+  "synced_at": "2026-02-28T03:52:39.386Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/405574660d9a67469b82ed999fa2a364f7bf4948da293de4c40da3473f0fd330",
   "install_command": "mkdir -p .claude/skills/django-framework && curl -sL \"https://raw.githubusercontent.com/pluginagentmarketplace/custom-plugin-python/main/skills/django-framework/SKILL.md\" > .claude/skills/django-framework/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pluginagentmarketplace/custom-plugin-python/main/skills/django-framework/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7ad23ec92807bdd668938228df709d9b3b5ea8120164bd7234abbbc58293cd9a",
   "indexed_at": "2026-02-27T08:46:13.353Z",
-  "synced_at": "2026-02-27T13:13:05.848Z",
+  "synced_at": "2026-02-28T03:53:19.229Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5084edb98d6988c31e51f86a6b711672de88c3d573de8881667ef1e98d61e32e",
   "install_command": "mkdir -p .claude/skills/prisma-database-setup && curl -sL \"https://raw.githubusercontent.com/prisma/skills/main/prisma-database-setup/SKILL.md\" > .claude/skills/prisma-database-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/prisma/skills/main/prisma-database-setup/SKILL.md"

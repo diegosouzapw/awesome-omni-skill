@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d0cb2e3961fe8b3fcac44faf4da1abdb56f982d32c915ff167038fac98b88a6e",
   "indexed_at": "2026-02-27T13:24:27.779Z",
-  "synced_at": "2026-02-27T18:16:30.363Z",
+  "synced_at": "2026-02-28T03:53:26.951Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3c55fa87e2561ccff8f243e27b3a46694cb744f367008f9a157870d38e60ce0e",
   "install_command": "mkdir -p .claude/skills/adk-skill && curl -sL \"https://raw.githubusercontent.com/miticojo/adk-skill/main/adk-skill/SKILL.md\" > .claude/skills/adk-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/miticojo/adk-skill/main/adk-skill/SKILL.md"

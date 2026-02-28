@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c0740f998760b70d91b6a4a4dc017260edb7419cb4f0469061b56d30c9336e63",
   "indexed_at": "2026-02-26T12:23:20.790Z",
-  "synced_at": "2026-02-27T02:27:37.953Z",
+  "synced_at": "2026-02-28T03:52:57.887Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/efa992fefc4e1a320787815ce0ca82dbd5fffdc90b155d46bc249362c24135ca",
   "install_command": "mkdir -p .claude/skills/lead-dev && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/truchot__claude-skills-test__claude__skills__lead-dev__SKILL.md/SKILL.md\" > .claude/skills/lead-dev/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/truchot__claude-skills-test__claude__skills__lead-dev__SKILL.md/SKILL.md"

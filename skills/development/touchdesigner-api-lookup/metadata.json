@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c920609058b893d0d295940415180db5ee4d5b5eed0b4fa28c4d495a4c69af1c",
   "indexed_at": "2026-02-27T08:25:06.504Z",
-  "synced_at": "2026-02-27T13:13:05.448Z",
+  "synced_at": "2026-02-28T03:53:18.684Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/724eb487fc1ad4f93e039753b7d901a65f9462fd6373ce3a6e9361ae9c604929",
   "install_command": "mkdir -p .claude/skills/touchdesigner-api-lookup && curl -sL \"https://raw.githubusercontent.com/j19950310/TouchDesignerNodeAgentSkills/main/SKILL.md\" > .claude/skills/touchdesigner-api-lookup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/j19950310/TouchDesignerNodeAgentSkills/main/SKILL.md"

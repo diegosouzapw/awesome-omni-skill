@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5ce3731974f416a47f3efdbf248a6cc2a0bafb776c942ab615b72f66d9f95b0f",
   "indexed_at": "2026-02-26T11:39:33.882Z",
-  "synced_at": "2026-02-27T02:27:29.474Z",
+  "synced_at": "2026-02-28T03:52:52.124Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/40b12b0615ca417342e7d196acd336237b974dda5b4f18e6708d3ff2f05484ea",
   "install_command": "mkdir -p .claude/skills/mobile-development && curl -sL \"https://raw.githubusercontent.com/brixtonpham/claude-config/main/skills/mobile-development/SKILL.md\" > .claude/skills/mobile-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/brixtonpham/claude-config/main/skills/mobile-development/SKILL.md"

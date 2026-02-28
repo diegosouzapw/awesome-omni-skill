@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bf5f46e72fe088d1e76be7639633d4fb517d45a17906e12fa9b5a282dfb353f2",
   "indexed_at": "2026-02-27T05:47:17.573Z",
-  "synced_at": "2026-02-27T13:13:00.400Z",
+  "synced_at": "2026-02-28T03:53:12.422Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/74999d353f1c6aea09444bd1752fcaec40a8e091d7f68a4c08fffd3a79291b43",
   "install_command": "mkdir -p .claude/skills/backend-development && curl -sL \"https://raw.githubusercontent.com/wollfoo/setup-opencode/main/skills/backend-development/SKILL.md\" > .claude/skills/backend-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wollfoo/setup-opencode/main/skills/backend-development/SKILL.md"

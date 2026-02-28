@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3d796ffb0bf351a4d8951d95119a87f08687c3f20b959cba67256fafe97bb45b",
   "indexed_at": "2026-02-26T10:49:58.889Z",
-  "synced_at": "2026-02-27T02:27:13.487Z",
+  "synced_at": "2026-02-28T03:52:38.277Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c00e9877093eabf1015ab8d411982929fc5a1dcf4afd410d6f88d15ae83354d1",
   "install_command": "mkdir -p .claude/skills/modern-python && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/modern-python/SKILL.md\" > .claude/skills/modern-python/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/modern-python/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4d839c342f8c406f9cb6ec65c85fd4c982f166ce7d0fdfdd96e60fd8e677e340",
   "indexed_at": "2026-02-26T22:37:51.412Z",
-  "synced_at": "2026-02-27T02:27:56.304Z",
+  "synced_at": "2026-02-28T03:53:41.464Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bac862bd90fa33f57aeedbbf40616ab1bee550a3105496ca8be02a6b8f4909d1",
   "install_command": "mkdir -p .claude/skills/tap && curl -sL \"https://raw.githubusercontent.com/MiniCodeMonkey/tap/main/skills/tap/SKILL.md\" > .claude/skills/tap/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MiniCodeMonkey/tap/main/skills/tap/SKILL.md"

@@ -1,319 +1,188 @@
 ---
+
 name: wordpress
-description: "Complete WordPress development workflow covering theme development, plugin creation, WooCommerce integration, performance optimization, and security hardening."
-source: personal
-risk: safe
-domain: software-development
-category: workflow-bundle
-version: 1.0.0
+description: Coding, security, and testing rules for WordPress plugins and themes Triggers on: wp-content/plugins/**,wp-content/themes/**,**/*.php,**/*.inc,**/*.js,**/*.jsx,**/*.ts,**/*.tsx,**/*.css,**/*.scss,**/*.json
+triggers: "wp-content/plugins/**,wp-content/themes/**,**/*.php,**/*.inc,**/*.js,**/*.jsx,**/*.ts,**/*.tsx,**/*.css,**/*.scss,**/*.json"
+globs: "wp-content/plugins/**,wp-content/themes/**,**/*.php,**/*.inc,**/*.js,**/*.jsx,**/*.ts,**/*.tsx,**/*.css,**/*.scss,**/*.json"
 ---
+# WordPress Development — Copilot Instructions
 
-# WordPress Development Workflow Bundle
+**Goal:** Generate WordPress code that is secure, performant, testable, and compliant with official WordPress practices. Prefer hooks, small functions, dependency injection (where sensible), and clear separation of concerns.
 
-## Overview
+## 1) Core Principles
+- Never modify WordPress core. Extend via **actions** and **filters**.
+- For plugins, always include a header and guard direct execution in entry PHP files.
+- Use unique prefixes or PHP namespaces to avoid global collisions.
+- Enqueue assets; never inline raw `<script>`/`<style>` in PHP templates.
+- Make user‑facing strings translatable and load the correct text domain.
 
-Comprehensive WordPress development workflow covering theme development, plugin creation, WooCommerce integration, performance optimization, and security. This bundle orchestrates skills for building production-ready WordPress sites and applications.
-
-## When to Use This Workflow
-
-Use this workflow when:
-- Building new WordPress websites
-- Creating custom themes
-- Developing WordPress plugins
-- Setting up WooCommerce stores
-- Optimizing WordPress performance
-- Hardening WordPress security
-
-## Workflow Phases
-
-### Phase 1: WordPress Setup
-
-#### Skills to Invoke
-- `app-builder` - Project scaffolding
-- `environment-setup-guide` - Development environment
-
-#### Actions
-1. Set up local development environment (LocalWP, Docker, or Valet)
-2. Install WordPress
-3. Configure development database
-4. Set up version control
-5. Configure wp-config.php for development
-
-#### Copy-Paste Prompts
-```
-Use @app-builder to scaffold a new WordPress project with modern tooling
-```
-
-### Phase 2: Theme Development
-
-#### Skills to Invoke
-- `frontend-developer` - Component development
-- `frontend-design` - UI implementation
-- `tailwind-patterns` - Styling
-- `web-performance-optimization` - Performance
-
-#### Actions
-1. Design theme architecture
-2. Create theme files (style.css, functions.php, index.php)
-3. Implement template hierarchy
-4. Create custom page templates
-5. Add custom post types and taxonomies
-6. Implement theme customization options
-7. Add responsive design
-
-#### Theme Structure
-```
-theme-name/
-├── style.css
-├── functions.php
-├── index.php
-├── header.php
-├── footer.php
-├── sidebar.php
-├── single.php
-├── page.php
-├── archive.php
-├── search.php
-├── 404.php
-├── template-parts/
-├── inc/
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── images/
-└── languages/
-```
-
-#### Copy-Paste Prompts
-```
-Use @frontend-developer to create a custom WordPress theme with React components
-```
-
-```
-Use @tailwind-patterns to style WordPress theme with modern CSS
-```
-
-### Phase 3: Plugin Development
-
-#### Skills to Invoke
-- `backend-dev-guidelines` - Backend standards
-- `api-design-principles` - API design
-- `auth-implementation-patterns` - Authentication
-
-#### Actions
-1. Design plugin architecture
-2. Create plugin boilerplate
-3. Implement hooks (actions and filters)
-4. Create admin interfaces
-5. Add custom database tables
-6. Implement REST API endpoints
-7. Add settings and options pages
-
-#### Plugin Structure
-```
-plugin-name/
-├── plugin-name.php
-├── includes/
-│   ├── class-plugin-activator.php
-│   ├── class-plugin-deactivator.php
-│   ├── class-plugin-loader.php
-│   └── class-plugin.php
-├── admin/
-│   ├── class-plugin-admin.php
-│   ├── css/
-│   └── js/
-├── public/
-│   ├── class-plugin-public.php
-│   ├── css/
-│   └── js/
-└── languages/
-```
-
-#### Copy-Paste Prompts
-```
-Use @backend-dev-guidelines to create a WordPress plugin with proper architecture
-```
-
-### Phase 4: WooCommerce Integration
-
-#### Skills to Invoke
-- `payment-integration` - Payment processing
-- `stripe-integration` - Stripe payments
-- `billing-automation` - Billing workflows
-
-#### Actions
-1. Install and configure WooCommerce
-2. Create custom product types
-3. Customize checkout flow
-4. Integrate payment gateways
-5. Set up shipping methods
-6. Create custom order statuses
-7. Implement subscription products
-8. Add custom email templates
-
-#### Copy-Paste Prompts
-```
-Use @payment-integration to set up WooCommerce with Stripe
-```
-
-```
-Use @billing-automation to create subscription products in WooCommerce
-```
-
-### Phase 5: Performance Optimization
-
-#### Skills to Invoke
-- `web-performance-optimization` - Performance optimization
-- `database-optimizer` - Database optimization
-
-#### Actions
-1. Implement caching (object, page, browser)
-2. Optimize images (lazy loading, WebP)
-3. Minify and combine assets
-4. Enable CDN
-5. Optimize database queries
-6. Implement lazy loading
-7. Configure OPcache
-8. Set up Redis/Memcached
-
-#### Performance Checklist
-- [ ] Page load time < 3 seconds
-- [ ] Time to First Byte < 200ms
-- [ ] Largest Contentful Paint < 2.5s
-- [ ] Cumulative Layout Shift < 0.1
-- [ ] First Input Delay < 100ms
-
-#### Copy-Paste Prompts
-```
-Use @web-performance-optimization to audit and improve WordPress performance
-```
-
-### Phase 6: Security Hardening
-
-#### Skills to Invoke
-- `security-auditor` - Security audit
-- `wordpress-penetration-testing` - WordPress security testing
-- `sast-configuration` - Static analysis
-
-#### Actions
-1. Update WordPress core, themes, plugins
-2. Implement security headers
-3. Configure file permissions
-4. Set up firewall rules
-5. Enable two-factor authentication
-6. Implement rate limiting
-7. Configure security logging
-8. Set up malware scanning
-
-#### Security Checklist
-- [ ] WordPress core updated
-- [ ] All plugins/themes updated
-- [ ] Strong passwords enforced
-- [ ] Two-factor authentication enabled
-- [ ] Security headers configured
-- [ ] XML-RPC disabled or protected
-- [ ] File editing disabled
-- [ ] Database prefix changed
-- [ ] Regular backups configured
-
-#### Copy-Paste Prompts
-```
-Use @wordpress-penetration-testing to audit WordPress security
-```
-
-```
-Use @security-auditor to perform comprehensive security review
-```
-
-### Phase 7: Testing
-
-#### Skills to Invoke
-- `test-automator` - Test automation
-- `playwright-skill` - E2E testing
-- `webapp-testing` - Web app testing
-
-#### Actions
-1. Write unit tests for custom code
-2. Create integration tests
-3. Set up E2E tests
-4. Test cross-browser compatibility
-5. Test responsive design
-6. Performance testing
-7. Security testing
-
-#### Copy-Paste Prompts
-```
-Use @playwright-skill to create E2E tests for WordPress site
-```
-
-### Phase 8: Deployment
-
-#### Skills to Invoke
-- `deployment-engineer` - Deployment
-- `cicd-automation-workflow-automate` - CI/CD
-- `github-actions-templates` - GitHub Actions
-
-#### Actions
-1. Set up staging environment
-2. Configure deployment pipeline
-3. Set up database migrations
-4. Configure environment variables
-5. Enable maintenance mode during deployment
-6. Deploy to production
-7. Verify deployment
-8. Monitor post-deployment
-
-#### Copy-Paste Prompts
-```
-Use @deployment-engineer to set up WordPress deployment pipeline
-```
-
-## WordPress-Specific Workflows
-
-### Custom Post Type Development
+### Minimal plugin header & guard
 ```php
-register_post_type('book', [
-    'labels' => [...],
-    'public' => true,
-    'has_archive' => true,
-    'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
-    'menu_icon' => 'dashicons-book',
-]);
+<?php
+defined('ABSPATH') || exit;
+/**
+ * Plugin Name: Awesome Feature
+ * Description: Example plugin scaffold.
+ * Version: 0.1.0
+ * Author: Example
+ * License: GPL-2.0-or-later
+ * Text Domain: awesome-feature
+ * Domain Path: /languages
+ */
 ```
 
-### Custom REST API Endpoint
+## 2) Coding Standards (PHP, JS, CSS, HTML)
+- Follow **WordPress Coding Standards (WPCS)** and write DocBlocks for public APIs.
+- PHP: Prefer strict comparisons (`===`, `!==`) where appropriate. Be consistent with array syntax and spacing as per WPCS.
+- JS: Match WordPress JS style; prefer `@wordpress/*` packages for block/editor code.
+- CSS: Use BEM‑like class naming when helpful; avoid over‑specific selectors.
+- PHP 7.4+ compatible patterns unless the project specifies higher. Avoid using features not supported by target WP/PHP versions.
+
+### Linting setup suggestions
+```xml
+<!-- phpcs.xml -->
+<?xml version="1.0"?>
+<ruleset name="Project WPCS">
+  <description>WordPress Coding Standards for this project.</description>
+  <file>./</file>
+  <exclude-pattern>vendor/*</exclude-pattern>
+  <exclude-pattern>node_modules/*</exclude-pattern>
+  <rule ref="WordPress"/>
+  <rule ref="WordPress-Docs"/>
+  <rule ref="WordPress-Extra"/>
+  <rule ref="PHPCompatibility"/>
+  <config name="testVersion" value="7.4-"/>
+</ruleset>
+```
+
+```json
+// composer.json (snippet)
+{
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+    "wp-coding-standards/wpcs": "^3.0",
+    "phpcompatibility/php-compatibility": "^9.0"
+  },
+  "scripts": {
+    "lint:php": "phpcs -p",
+    "fix:php": "phpcbf -p"
+  }
+}
+```
+
+```json
+// package.json (snippet)
+{
+  "devDependencies": {
+    "@wordpress/eslint-plugin": "^x.y.z"
+  },
+  "scripts": {
+    "lint:js": "eslint ."
+  }
+}
+```
+
+## 3) Security & Data Handling
+- **Escape on output, sanitize on input.**
+  - Escape: `esc_html()`, `esc_attr()`, `esc_url()`, `wp_kses_post()`.
+  - Sanitize: `sanitize_text_field()`, `sanitize_email()`, `sanitize_key()`, `absint()`, `intval()`.
+- **Capabilities & nonces** for forms, AJAX, REST:
+  - Add nonces with `wp_nonce_field()` and verify via `check_admin_referer()` / `wp_verify_nonce()`.
+  - Restrict mutations with `current_user_can( 'manage_options' /* or specific cap */ )`.
+- **Database:** always use `$wpdb->prepare()` with placeholders; never concatenate untrusted input.
+- **Uploads:** validate MIME/type and use `wp_handle_upload()`/`media_handle_upload()`.
+
+## 4) Internationalization (i18n)
+- Wrap user‑visible strings with translation functions using your text domain:
+  - `__( 'Text', 'awesome-feature' )`, `_x()`, `esc_html__()`.
+- Load translations with `load_plugin_textdomain()` or `load_theme_textdomain()`.
+- Keep a `.pot` in `/languages` and ensure consistent domain usage.
+
+## 5) Performance
+- Defer heavy logic to specific hooks; avoid expensive work on `init`/`wp_loaded` unless necessary.
+- Use transients or object caching for expensive queries; plan invalidation.
+- Enqueue only what you need and conditionally (front vs admin; specific screens/routes).
+- Prefer paginated/parameterized queries over unbounded loops.
+
+## 6) Admin UI & Settings
+- Use **Settings API** for options pages; provide `sanitize_callback` for each setting.
+- For tables, follow `WP_List_Table` patterns. For notices, use the admin notices API.
+- Avoid direct HTML echoing for complex UIs; prefer templates or small view helpers with escaping.
+
+## 7) REST API
+- Register with `register_rest_route()`; always set a `permission_callback`.
+- Validate/sanitize request args via the `args` schema.
+- Return `WP_REST_Response` or arrays/objects that map cleanly to JSON.
+
+## 8) Blocks & Editor (Gutenberg)
+- Use `block.json` + `register_block_type()`; rely on `@wordpress/*` packages.
+- Provide server render callbacks when needed (dynamic blocks).
+- E2E tests should cover: insert block → edit → save → front‑end render.
+
+## 9) Asset Loading
 ```php
-add_action('rest_api_init', function() {
-    register_rest_route('myplugin/v1', '/books', [
-        'methods' => 'GET',
-        'callback' => 'get_books',
-        'permission_callback' => '__return_true',
-    ]);
+add_action('wp_enqueue_scripts', function () {
+  wp_enqueue_style(
+    'af-frontend',
+    plugins_url('assets/frontend.css', __FILE__),
+    [],
+    '0.1.0'
+  );
+
+  wp_enqueue_script(
+    'af-frontend',
+    plugins_url('assets/frontend.js', __FILE__),
+    [ 'wp-i18n', 'wp-element' ],
+    '0.1.0',
+    true
+  );
 });
 ```
+- Use `wp_register_style/script` to register first if multiple components depend on the same assets.
+- For admin screens, hook into `admin_enqueue_scripts` and check screen IDs.
 
-### WooCommerce Custom Product Type
-```php
-add_action('init', function() {
-    class WC_Product_Custom extends WC_Product {
-        // Custom product implementation
-    }
-});
+## 10) Testing
+### PHP Unit/Integration
+- Use **WordPress test suite** with `PHPUnit` and `WP_UnitTestCase`.
+- Test: sanitization, capability checks, REST permissions, DB queries, hooks.
+- Prefer factories (`self::factory()->post->create()` etc.) to set up fixtures.
+
+```xml
+<!-- phpunit.xml.dist (minimal) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="tests/bootstrap.php" colors="true">
+  <testsuites>
+    <testsuite name="Plugin Test Suite">
+      <directory suffix="Test.php">tests/</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
 ```
 
-## Quality Gates
+```php
+// tests/bootstrap.php (minimal sketch)
+<?php
+$_tests_dir = getenv('WP_TESTS_DIR') ?: '/tmp/wordpress-tests-lib';
+require_once $_tests_dir . '/includes/functions.php';
+tests_add_filter( 'muplugins_loaded', function () {
+  require dirname(__DIR__) . '/awesome-feature.php';
+} );
+require $_tests_dir . '/includes/bootstrap.php';
+```
+### E2E
+- Use Playwright (or Puppeteer) for editor/front‑end flows.
+- Cover basic user journeys and regressions (block insertion, settings save, front‑end render).
 
-Before moving to next phase, verify:
-- [ ] All custom code tested
-- [ ] Security scan passed
-- [ ] Performance targets met
-- [ ] Cross-browser tested
-- [ ] Mobile responsive verified
-- [ ] Accessibility checked (WCAG 2.1)
+## 11) Documentation & Commits
+- Keep `README.md` up to date: install, usage, capabilities, hooks/filters, and test instructions.
+- Use clear, imperative commit messages; reference issues/tickets and summarize impact.
 
-## Related Workflow Bundles
-
-- `development` - General web development
-- `security-audit` - Security testing
-- `testing-qa` - Testing workflow
-- `ecommerce` - E-commerce development
+## 12) What Copilot Must Ensure (Checklist)
+- ✅ Unique prefixes/namespaces; no accidental globals.  
+- ✅ Nonce + capability checks for any write action (AJAX/REST/forms).  
+- ✅ Inputs sanitized; outputs escaped.  
+- ✅ User‑visible strings wrapped in i18n with correct text domain.  
+- ✅ Assets enqueued via APIs (no inline script/style).  
+- ✅ Tests added/updated for new behaviors.  
+- ✅ Code passes PHPCS (WPCS) and ESLint where applicable.  
+- ✅ Avoid direct DB concatenation; always prepare queries.

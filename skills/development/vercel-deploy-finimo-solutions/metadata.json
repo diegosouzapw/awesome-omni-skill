@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "82587a9c050aa6d9fee4081cc7f7c6d7ab4fe9c5f53e8976803f361b360e2449",
   "indexed_at": "2026-02-26T12:22:22.679Z",
-  "synced_at": "2026-02-27T02:27:36.651Z",
+  "synced_at": "2026-02-28T03:52:57.380Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7a7443ee270577e2a29459362f8e07d616930021bb7e58ab47e0f8fbe03297ff",
   "install_command": "mkdir -p .claude/skills/vercel-deploy && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/vercel-deploy-claimable/SKILL.md\" > .claude/skills/vercel-deploy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/vercel-deploy-claimable/SKILL.md"

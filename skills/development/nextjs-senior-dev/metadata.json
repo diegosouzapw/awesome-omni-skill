@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dd00d48e38a6c37e3c0f728b74d65888c67c8f2ad473356acdac07c522056574",
   "indexed_at": "2026-02-26T13:21:10.367Z",
-  "synced_at": "2026-02-27T02:27:43.947Z",
+  "synced_at": "2026-02-28T03:53:02.462Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/624d79810cc77f973caa75d8ae816c74d5c3f21fb93a7b7e7f56c8847f7691ec",
   "install_command": "mkdir -p .claude/skills/nextjs-senior-dev && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/nextjs-senior-dev/SKILL.md\" > .claude/skills/nextjs-senior-dev/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/nextjs-senior-dev/SKILL.md"

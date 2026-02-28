@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bc055fbec5a564d410d9cd4b8883011cacf8097d7e7555b5477731ffdcbd8da1",
   "indexed_at": "2026-02-25T12:39:43.159Z",
-  "synced_at": "2026-02-27T02:28:03.224Z",
+  "synced_at": "2026-02-28T03:53:49.725Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e15304ca41eb434b02ae985a957c71c597c182fbd1bff75dd30aa6dd51da5d33",
   "install_command": "mkdir -p .claude/skills/sop-code-review && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/sop-code-review/SKILL.md\" > .claude/skills/sop-code-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/sop-code-review/SKILL.md"

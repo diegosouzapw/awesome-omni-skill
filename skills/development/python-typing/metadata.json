@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e43a0022486b3964593021c24a252099980ef478ff5bfb277539f64b2af1a62d",
   "indexed_at": "2026-02-25T12:47:49.624Z",
-  "synced_at": "2026-02-27T02:28:07.834Z",
+  "synced_at": "2026-02-28T03:53:54.465Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e5480c32432427df2d44436a25afbefee24d072d07ccbae1fa9bc0558633cc9a",
   "install_command": "mkdir -p .claude/skills/python-typing && curl -sL \"https://raw.githubusercontent.com/tmustier/python-typing/main/SKILL.md\" > .claude/skills/python-typing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tmustier/python-typing/main/SKILL.md"

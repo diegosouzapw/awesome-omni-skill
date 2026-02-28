@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e3db417571e4dd08a1b79a52d7ed04f86cd0ac26df1c3bb6b7e0a3d0a22a2b3e",
   "indexed_at": "2026-02-26T12:19:54.492Z",
-  "synced_at": "2026-02-27T02:27:31.573Z",
+  "synced_at": "2026-02-28T03:52:54.148Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/22bfc9493885421547ff6788b90a485c2a2a09fcceca164e5943ac7e80b90747",
   "install_command": "mkdir -p .claude/skills/custom-project-standards && curl -sL \"https://raw.githubusercontent.com/teodevlor/agent-kit-skill/main/.agent/skills/SKILL.md\" > .claude/skills/custom-project-standards/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/teodevlor/agent-kit-skill/main/.agent/skills/SKILL.md"

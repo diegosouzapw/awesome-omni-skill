@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fe3098504f93579e9c33e73c09c3f7a1622ed8730c7648ec6e693c3e6e242074",
   "indexed_at": "2026-02-26T10:37:06.273Z",
-  "synced_at": "2026-02-27T02:27:09.265Z",
+  "synced_at": "2026-02-28T03:52:35.528Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f9dbaf0d14c085f9aa53a4335e91b5aae9951cfa002d016f81e4b3bedfa07bb4",
   "install_command": "mkdir -p .claude/skills/governance && curl -sL \"https://raw.githubusercontent.com/wrsmith108/governance-claude-skill/main/SKILL.md\" > .claude/skills/governance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wrsmith108/governance-claude-skill/main/SKILL.md"

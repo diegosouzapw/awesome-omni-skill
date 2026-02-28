@@ -1,225 +1,161 @@
 ---
 name: secret-scanner
-description: 自動掃描程式碼中的敏感資訊。當準備 commit、編輯設定檔、新增環境變數、或建立 PR 時自動執行。檢測 API keys、tokens、密碼、資料庫連線字串等敏感資訊，防止意外洩漏。
-allowed-tools:
-  - Read
-  - Glob
-  - Grep
-  - Bash(git diff *)
-  - Bash(git status *)
+description: Scans files, repos, and directories for leaked secrets — API keys, tokens, passwords, connection strings, private keys, and credentials. Detects 40+ secret patterns across all major cloud providers and services.
+version: 0.1.0
 ---
 
-# Secret Scanner - 敏感資訊掃描
+# Secret Scanner
 
-## 自動觸發時機
+Security skill that scans code, config files, and repos for accidentally leaked secrets and credentials.
 
-Claude 會在以下情況**自動執行**此 skill：
+## When to Use This Skill
 
-| 觸發情境 | 說明 |
-|---------|------|
-| 準備 Commit | 在 commit 前檢查 staged 檔案 |
-| 編輯設定檔 | 修改 `.env`、`config` 等檔案 |
-| 新增環境變數 | 任何涉及環境變數的變更 |
-| 建立 PR | PR 建立前的最終檢查 |
-| 新增檔案 | 建立新檔案時檢查內容 |
+Use this skill when the user:
 
-## 掃描模式
+- Asks to "check for leaked secrets" or "scan for API keys"
+- Wants to audit a repo or folder before committing or publishing
+- Says "are there any hardcoded passwords in this code?"
+- Asks to "find credentials" or "check for exposed tokens"
+- Wants pre-commit or pre-publish security checks
+- Mentions concern about accidentally checking in secrets
 
-### 1. API Keys & Tokens
+## Capabilities
 
-```regex
-# AWS
-AKIA[0-9A-Z]{16}
-aws[_-]?(secret[_-]?access[_-]?key|access[_-]?key[_-]?id)
+- Detect **40+ secret patterns** including:
+  - AWS Access Keys, Secret Keys, Session Tokens
+  - Azure Storage Keys, Connection Strings, SAS Tokens
+  - GCP Service Account Keys, API Keys
+  - GitHub / GitLab / Bitbucket Personal Access Tokens
+  - OpenAI, Anthropic, Hugging Face API Keys
+  - Slack Bot Tokens, Webhooks
+  - Stripe, Twilio, SendGrid Keys
+  - Database connection strings (MongoDB, PostgreSQL, MySQL, Redis)
+  - SSH Private Keys, PEM/PFX Certificates
+  - JWT Tokens, Bearer Tokens
+  - Generic passwords in config files (password=, secret=, token=)
+- Scan individual files, directories, or entire repos recursively
+- Ignore binary files, node_modules, .git, and other non-relevant paths
+- Output results as Markdown report or JSON
+- Provide severity ratings (Critical, High, Medium, Low)
+- Suggest remediation for each finding
 
-# Anthropic
-sk-ant-[a-zA-Z0-9-_]{40,}
+## How to Scan
 
-# OpenAI
-sk-[a-zA-Z0-9]{48}
-
-# Gemini/Google
-AIza[0-9A-Za-z-_]{35}
-
-# Groq
-gsk_[a-zA-Z0-9]{52}
-
-# Slack
-xox[baprs]-[0-9]{10,13}-[a-zA-Z0-9-]+
-
-# GitHub
-gh[pousr]_[A-Za-z0-9_]{36,}
-github_pat_[a-zA-Z0-9]{22}_[a-zA-Z0-9]{59}
-
-# Generic
-api[_-]?key\s*[:=]\s*['"][^'"]{20,}['"]
-secret[_-]?key\s*[:=]\s*['"][^'"]{20,}['"]
-```
-
-### 2. 資料庫連線
-
-```regex
-# PostgreSQL
-postgres(ql)?://[^:]+:[^@]+@[^/]+/\w+
-
-# MySQL
-mysql://[^:]+:[^@]+@[^/]+/\w+
-
-# MongoDB
-mongodb(\+srv)?://[^:]+:[^@]+@[^/]+
-
-# Redis
-redis://[^:]+:[^@]+@[^:]+:\d+
-```
-
-### 3. 私鑰與憑證
-
-```regex
-# Private Keys
------BEGIN (RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----
------BEGIN PGP PRIVATE KEY BLOCK-----
-
-# Certificates
------BEGIN CERTIFICATE-----
-```
-
-### 4. 密碼模式
-
-```regex
-password\s*[:=]\s*['"][^'"]+['"]
-passwd\s*[:=]\s*['"][^'"]+['"]
-pwd\s*[:=]\s*['"][^'"]+['"]
-```
-
-## 執行流程
-
-### 步驟 1: 識別掃描範圍
-
+### Scan a directory
 ```bash
-# 查看 staged 檔案
-git diff --cached --name-only
-
-# 或掃描特定目錄
-find . -type f \( -name "*.ts" -o -name "*.js" -o -name "*.env*" -o -name "*.json" \)
+python secret_scanner.py /path/to/project
 ```
 
-### 步驟 2: 排除安全檔案
+### Scan with JSON output
+```bash
+python secret_scanner.py /path/to/project --json
+```
 
-**白名單（不掃描）：**
-- `.env.example` - 範例檔案（無真實值）
-- `*.test.ts` - 測試檔案中的 mock 值
-- `node_modules/` - 第三方套件
-- `.git/` - Git 內部檔案
+### Scan and save report
+```bash
+python secret_scanner.py /path/to/project --output report.md
+```
 
-### 步驟 3: 執行掃描
+### Within an Agent
+```
+"Scan this project for leaked secrets"
+"Check if there are any API keys in the codebase"
+"Run secret-scanner on the current directory"
+"Find hardcoded passwords in my config files"
+"Audit this repo before I push to GitHub"
+```
 
-對每個檔案：
-1. 讀取內容
-2. 執行所有敏感模式匹配
-3. 記錄發現的問題
+## Secret Patterns Detected
 
-### 步驟 4: 驗證發現
+### Cloud Provider Keys
+| Provider | Secrets Detected |
+|----------|-----------------|
+| **AWS** | Access Key ID (`AKIA...`), Secret Access Key, Session Token |
+| **Azure** | Storage Account Key, Connection String, SAS Token, Client Secret |
+| **GCP** | API Key (`AIza...`), Service Account JSON, OAuth Client Secret |
 
-區分真正的敏感資訊和誤報：
+### AI / LLM Keys
+| Service | Pattern |
+|---------|---------|
+| **OpenAI** | `sk-` prefixed API keys |
+| **Anthropic** | `sk-ant-` prefixed keys |
+| **Hugging Face** | `hf_` prefixed tokens |
+| **Cohere** | API keys in config |
 
-| 類型 | 處理方式 |
+### Developer Platforms
+| Platform | Secrets Detected |
+|----------|-----------------|
+| **GitHub** | `ghp_`, `gho_`, `ghu_`, `ghs_`, `ghr_` tokens |
+| **GitLab** | `glpat-` tokens |
+| **Slack** | `xoxb-`, `xoxp-`, `xoxs-` tokens, webhook URLs |
+| **Stripe** | `sk_live_`, `sk_test_`, `rk_live_` keys |
+| **Twilio** | Account SID, Auth Token |
+| **SendGrid** | `SG.` prefixed API keys |
+
+### Databases & Infrastructure
+| Type | Pattern |
 |------|---------|
-| 真實 API Key | 🔴 立即警告，阻止提交 |
-| 環境變數引用 | ✅ 安全（如 `process.env.API_KEY`）|
-| 範例/Mock 值 | ✅ 安全（如 `sk-test-xxx`）|
-| 文件說明 | ✅ 安全（文檔中的格式說明）|
+| **MongoDB** | `mongodb://` or `mongodb+srv://` with credentials |
+| **PostgreSQL** | `postgresql://` with embedded password |
+| **MySQL** | `mysql://` with embedded password |
+| **Redis** | `redis://` with password |
+| **SSH** | `-----BEGIN (RSA\|EC\|OPENSSH) PRIVATE KEY-----` |
+| **Certificates** | PEM, PFX, P12 with embedded keys |
 
-## 輸出格式
+### Generic Patterns
+| Pattern | Description |
+|---------|-------------|
+| **password=** | Hardcoded passwords in config/env files |
+| **secret=** | Hardcoded secrets |
+| **token=** | Hardcoded tokens |
+| **Bearer** | Bearer tokens in code |
+| **Basic Auth** | Base64-encoded basic auth headers |
+| **JWT** | `eyJ` prefixed JWT tokens |
+| **High Entropy** | Long random strings that look like secrets |
 
-### 發現敏感資訊
+## Severity Levels
 
-```markdown
-## 🚨 Secret Scanner 警告
+| Severity | Description | Examples |
+|----------|-------------|----------|
+| 🔴 **Critical** | Active production credentials | AWS Secret Key, Private Keys, DB passwords |
+| 🟠 **High** | Service tokens with broad access | GitHub PAT, Slack Bot Token, Stripe Live Key |
+| 🟡 **Medium** | Keys that may be test/dev | Test API keys, example tokens |
+| 🟢 **Low** | Potential false positives | Generic password= in comments, placeholder values |
 
-### 發現敏感資訊！
+## Files Scanned
 
-| 檔案 | 行號 | 類型 | 風險等級 |
-|------|------|------|---------|
-| `apps/server/config.ts` | 15 | API Key | 🔴 高 |
-| `packages/env/index.ts` | 42 | DB Password | 🔴 高 |
+Scans these file types by default:
+- Source code: `.py`, `.js`, `.ts`, `.java`, `.go`, `.rb`, `.php`, `.cs`, `.rs`
+- Config: `.json`, `.yaml`, `.yml`, `.toml`, `.ini`, `.cfg`, `.conf`
+- Environment: `.env`, `.env.local`, `.env.production`
+- Shell: `.sh`, `.bash`, `.zsh`, `.ps1`
+- Docs: `.md`, `.txt`
+- Other: `Dockerfile`, `docker-compose.yml`, `Makefile`
 
-### 詳細資訊
+## Ignored Paths
 
-#### 🔴 apps/server/config.ts:15
-**類型**: Gemini API Key
-**發現內容**: `AIzaSyB...`（已遮蔽）
-**建議**: 移至環境變數
+Automatically skips:
+- `node_modules/`, `vendor/`, `venv/`, `.venv/`
+- `.git/`, `.svn/`
+- `__pycache__/`, `.pytest_cache/`
+- Binary files, images, compiled outputs
+- `package-lock.json`, `yarn.lock`
 
-\`\`\`typescript
-// ❌ 不安全
-const apiKey = "AIzaSyB...";
+## Remediation Guidance
 
-// ✅ 安全
-const apiKey = process.env.GEMINI_API_KEY;
-\`\`\`
+When secrets are found, the skill recommends:
+1. **Rotate the secret immediately** — assume it's compromised
+2. **Remove from code** — use environment variables or a secrets manager instead
+3. **Add to .gitignore** — prevent `.env` and credential files from being committed
+4. **Use git-filter-repo** — to remove secrets from git history
+5. **Enable pre-commit hooks** — to catch secrets before they're committed
 
-### ⛔ 行動要求
-1. **不要提交這些變更**
-2. 將敏感資訊移至 `.env` 檔案
-3. 確保 `.env` 在 `.gitignore` 中
-4. 重新掃描確認安全
-```
+## Requirements
+- Python 3.7+
+- No additional dependencies (uses Python standard library)
 
-### 掃描通過
+## Entry Point
+- **CLI:** `secret_scanner.py`
 
-```markdown
-## ✅ Secret Scanner 通過
-
-**掃描範圍**: X 個檔案
-**掃描時間**: YYYY-MM-DD HH:mm
-
-### 檢查項目
-- [x] API Keys & Tokens
-- [x] 資料庫連線字串
-- [x] 私鑰與憑證
-- [x] 硬編碼密碼
-
-### 白名單排除
-- `.env.example` (範例檔案)
-- `tests/**` (測試 mock)
-
-**結論**: 未發現敏感資訊，可以安全提交。
-```
-
-## 專案特定規則
-
-### 此專案的敏感資訊位置
-
-| 環境變數 | 用途 | 應在檔案 |
-|---------|------|---------|
-| `GEMINI_API_KEY` | Gemini AI | `.env` |
-| `GROQ_API_KEY` | Groq Whisper | `.env` |
-| `SLACK_BOT_TOKEN` | Slack Bot | Cloudflare Secrets |
-| `DATABASE_URL` | PostgreSQL | `.env` / Cloudflare |
-| `BETTER_AUTH_SECRET` | Auth 加密 | `.env` |
-
-### 安全的引用方式
-
-```typescript
-// ✅ 正確：從環境變數讀取
-import { env } from "@sales-ai/env";
-const apiKey = env.GEMINI_API_KEY;
-
-// ❌ 錯誤：硬編碼
-const apiKey = "AIzaSyB...";
-```
-
-## 整合的工具
-
-| 工具 | 用途 |
-|------|------|
-| `Grep` | 執行正則匹配 |
-| `Read` | 讀取檔案內容 |
-| `Glob` | 找出需掃描的檔案 |
-| `Bash(git)` | 識別變更範圍 |
-
-## 相關 Skills
-
-- `/commit` - Commit 前自動執行掃描
-- `/pr-review` - PR 前執行掃描
-- `/security-audit` - 完整安全審計
+## Tags
+#security #secrets #credentials #api-keys #tokens #passwords #scanner #audit #pre-commit #leak-detection #cloud #aws #azure #gcp #devops

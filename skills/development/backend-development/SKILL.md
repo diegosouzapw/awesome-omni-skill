@@ -1,6 +1,6 @@
 ---
 name: backend-development
-description: Build robust backend systems with modern technologies (Node.js, Python, Go, Rust), frameworks (NestJS, FastAPI, Django), databases (PostgreSQL, MongoDB, Redis), APIs (REST, GraphQL, gRPC), authentication (OAuth 2.1, JWT), testing strategies, security best practices (OWASP Top 10), performance optimization, scalability patterns (microservices, caching, sharding), DevOps practices (Docker, Kubernetes, CI/CD), and monitoring. Use when designing APIs, implementing authentication, optimizing database queries, setting up CI/CD pipelines, handling security vulnerabilities, building microservices, or developing production-ready backend systems. | Sử dụng khi xây dựng API, server, backend, máy chủ, xử lý dữ liệu, endpoint, microservices.
+description: Build robust backend systems with modern technologies (Node.js, Python, Go, Rust), frameworks (NestJS, FastAPI, Django), databases (PostgreSQL, MongoDB, Redis), APIs (REST, GraphQL, gRPC), authentication (OAuth 2.1, JWT), testing strategies, security best practices (OWASP Top 10), performance optimization, scalability patterns (microservices, caching, sharding), DevOps practices (Docker, Kubernetes, CI/CD), and monitoring. Use when designing APIs, implementing authentication, optimizing database queries, setting up CI/CD pipelines, handling security vulnerabilities, building microservices, or developing production-ready backend systems.
 license: MIT
 version: 1.0.0
 ---
@@ -9,17 +9,17 @@ version: 1.0.0
 
 Production-ready backend development with modern technologies, best practices, and proven patterns.
 
-## When to Use
-
-- Designing RESTful, GraphQL, or gRPC APIs
-- Building authentication/authorization systems
-- Optimizing database queries and schemas
-- Implementing caching and performance optimization
-- OWASP Top 10 security mitigation
-- Designing scalable microservices
-- Testing strategies (unit, integration, E2E)
-- CI/CD pipelines and deployment
-- Monitoring and debugging production systems
+<triggers>
+<trigger>Designing RESTful, GraphQL, or gRPC APIs</trigger>
+<trigger>Building authentication/authorization systems</trigger>
+<trigger>Optimizing database queries and schemas</trigger>
+<trigger>Implementing caching and performance optimization</trigger>
+<trigger>OWASP Top 10 security mitigation</trigger>
+<trigger>Designing scalable microservices</trigger>
+<trigger>Testing strategies (unit, integration, E2E)</trigger>
+<trigger>CI/CD pipelines and deployment</trigger>
+<trigger>Monitoring and debugging production systems</trigger>
+</triggers>
 
 ## Technology Selection Guide
 
@@ -78,15 +78,24 @@ See: `references/backend-technologies.md` for detailed comparisons
 
 ## Implementation Checklist
 
-**API:** Choose style → Design schema → Validate input → Add auth → Rate limiting → Documentation → Error handling
+**API:** Choose style -> Design schema -> Validate input -> Add auth -> Rate limiting -> Documentation -> Error handling
 
-**Database:** Choose DB → Design schema → Create indexes → Connection pooling → Migration strategy → Backup/restore → Test performance
+**Database:** Choose DB -> Design schema -> Create indexes -> Connection pooling -> Migration strategy -> Backup/restore -> Test performance
 
-**Security:** OWASP Top 10 → Parameterized queries → OAuth 2.1 + JWT → Security headers → Rate limiting → Input validation → Argon2id passwords
+**Security:** OWASP Top 10 -> Parameterized queries -> OAuth 2.1 + JWT -> Security headers -> Rate limiting -> Input validation -> Argon2id passwords
 
-**Testing:** Unit 70% → Integration 20% → E2E 10% → Load tests → Migration tests → Contract tests (microservices)
+**Testing:** Unit 70% -> Integration 20% -> E2E 10% -> Load tests -> Migration tests -> Contract tests (microservices)
 
-**Deployment:** Docker → CI/CD → Blue-green/canary → Feature flags → Monitoring → Logging → Health checks
+**Deployment:** Docker -> CI/CD -> Blue-green/canary -> Feature flags -> Monitoring -> Logging -> Health checks
+
+<constraints>
+<constraint severity="critical">Never store plain-text passwords - always use Argon2id or bcrypt</constraint>
+<constraint severity="critical">Always use parameterized queries to prevent SQL injection</constraint>
+<constraint severity="high">Implement rate limiting on all public endpoints</constraint>
+<constraint severity="high">Use HTTPS/TLS for all production traffic</constraint>
+<constraint severity="medium">Database migrations must have rollback procedures</constraint>
+<constraint severity="medium">All API endpoints must have input validation</constraint>
+</constraints>
 
 ## Resources
 

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "03fa14bb837dbbc2909ead1a348c7f7814c010554d92ff0856aa9eacebe079e8",
   "indexed_at": "2026-02-27T04:07:59.598Z",
-  "synced_at": "2026-02-27T13:12:59.968Z",
+  "synced_at": "2026-02-28T03:53:11.587Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e5be087b4d0f86cf509083c104e615e0353b7eb196c5ff08252b86f9747421a2",
   "install_command": "mkdir -p .claude/skills/workers-development && curl -sL \"https://raw.githubusercontent.com/involvex/involvex-claude-marketplace/main/plugins/cloudflare-expert/skills/workers-development/SKILL.md\" > .claude/skills/workers-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/involvex/involvex-claude-marketplace/main/plugins/cloudflare-expert/skills/workers-development/SKILL.md"

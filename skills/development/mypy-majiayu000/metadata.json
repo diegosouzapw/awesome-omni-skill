@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6f660704e79997764c0a6336cbf5c6be2cae63f7185787ed8d23112105905e58",
   "indexed_at": "2026-02-26T10:47:00.297Z",
-  "synced_at": "2026-02-27T02:27:10.957Z",
+  "synced_at": "2026-02-28T03:52:36.746Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9ed89f24f327ac94e00e70afd28bd675d65330ad9417bd184bca5801c1faae96",
   "install_command": "mkdir -p .claude/skills/mypy && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/testing/mypy-bobmatnyc-terminator-a0021c5c/SKILL.md\" > .claude/skills/mypy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/testing/mypy-bobmatnyc-terminator-a0021c5c/SKILL.md"

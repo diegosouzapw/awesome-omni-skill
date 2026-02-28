@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "719de7731df5e36a2c7e1496a49662086b985d35afeb71fcf67ef690a00acce3",
   "indexed_at": "2026-02-27T16:07:10.184Z",
-  "synced_at": "2026-02-27T18:16:31.486Z",
+  "synced_at": "2026-02-28T03:53:28.526Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c93209a29f03bc1358bea60de29da5756ba42f14a1bdcb3a51ac66c21dc98bcf",
   "install_command": "mkdir -p .claude/skills/mcp-ux-brainstorming && curl -sL \"https://raw.githubusercontent.com/mberto10/mberto-compound/main/plugins/openai-apps-sdk/skills/mcp-ux-brainstorming/SKILL.md\" > .claude/skills/mcp-ux-brainstorming/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mberto10/mberto-compound/main/plugins/openai-apps-sdk/skills/mcp-ux-brainstorming/SKILL.md"

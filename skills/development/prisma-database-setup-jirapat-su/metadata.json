@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "40ef3064caf35140a74f78eadbc6f69ab356ce4b31bd21e559f07bfaa32ddf0c",
   "indexed_at": "2026-02-27T08:47:11.359Z",
-  "synced_at": "2026-02-27T13:13:05.988Z",
+  "synced_at": "2026-02-28T03:53:19.381Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/97b44a65645fc612583b7fa4b0fcebe1307995ed3478286f74f242cdf95c857d",
   "install_command": "mkdir -p .claude/skills/prisma-database-setup && curl -sL \"https://raw.githubusercontent.com/jirapat-su/NextJS-ElysiaJS-Monorepo/main/.agents/skills/prisma-database-setup/SKILL.md\" > .claude/skills/prisma-database-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jirapat-su/NextJS-ElysiaJS-Monorepo/main/.agents/skills/prisma-database-setup/SKILL.md"

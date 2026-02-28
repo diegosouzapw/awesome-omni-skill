@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f2627e50582281dbf0489b30d685d3401de26653a03d0f2aed79164dc5f80f1a",
   "indexed_at": "2026-02-26T22:36:15.688Z",
-  "synced_at": "2026-02-27T02:27:53.903Z",
+  "synced_at": "2026-02-28T03:53:37.065Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a0e455c26f00a7ee21a0c3a2d458e37696da584b14061db37a709180c7fdad32",
   "install_command": "mkdir -p .claude/skills/pcf-overview && curl -sL \"https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/pcf-overview/SKILL.md\" > .claude/skills/pcf-overview/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/pcf-overview/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9a066e9997cb0fa392a88e958a0542cf4a153766df67d8b7c5606af3704d520b",
   "indexed_at": "2026-02-26T11:32:49.584Z",
-  "synced_at": "2026-02-27T02:27:22.316Z",
+  "synced_at": "2026-02-28T03:52:45.722Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3ae595d1b9be5eb2817f8d89146abe560cddeeeae7e9b4dd6c328ab35ce555ea",
   "install_command": "mkdir -p .claude/skills/vercel-deploy && curl -sL \"https://raw.githubusercontent.com/seungwonme/.claude/main/skills/dev-frontend/vercel-deploy-claimable/SKILL.md\" > .claude/skills/vercel-deploy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/seungwonme/.claude/main/skills/dev-frontend/vercel-deploy-claimable/SKILL.md"

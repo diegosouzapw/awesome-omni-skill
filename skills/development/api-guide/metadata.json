@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "38fcbbf3be073a4d572ad5185065ed6e91f300f8ed0b290d19f7bd73511fc103",
   "indexed_at": "2026-02-27T07:45:41.891Z",
-  "synced_at": "2026-02-27T13:13:03.601Z",
+  "synced_at": "2026-02-28T03:53:16.350Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/139af98fa5648364ae73d6f8d4d13ac5b33fde7ec21bfdd5935d1a8c2ee73ff3",
   "install_command": "mkdir -p .claude/skills/api-guide && curl -sL \"https://raw.githubusercontent.com/lablup/backend.ai/main/.claude/skills/api-guide/SKILL.md\" > .claude/skills/api-guide/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lablup/backend.ai/main/.claude/skills/api-guide/SKILL.md"

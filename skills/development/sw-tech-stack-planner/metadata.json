@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "40d9efde39a937fb4164b2ad94fdea854e8c5e1cb42b98a95d2ed4ece99ee0cf",
   "indexed_at": "2026-02-27T08:50:58.706Z",
-  "synced_at": "2026-02-27T13:13:06.885Z",
+  "synced_at": "2026-02-28T03:53:20.637Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0892d3f483ce86a9471d5777be4ad6511cf920dd9c52f9100a605aab1b293192",
   "install_command": "mkdir -p .claude/skills/sw-tech-stack-planner && curl -sL \"https://raw.githubusercontent.com/chfle/lehnert-claude-skills/main/skills/sw-tech-stack-planner/SKILL.md\" > .claude/skills/sw-tech-stack-planner/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chfle/lehnert-claude-skills/main/skills/sw-tech-stack-planner/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fac12bb6b9e4d33d2085fde4fe753fd5ebfdd6d0f2a57b6f6e6199d4f38899b1",
   "indexed_at": "2026-02-26T12:20:01.039Z",
-  "synced_at": "2026-02-27T02:27:31.966Z",
+  "synced_at": "2026-02-28T03:52:54.479Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/93ff7f7102062f9dca088c49105927f8465fcaa0cefe964d1d5858001a594965",
   "install_command": "mkdir -p .claude/skills/better-auth && curl -sL \"https://raw.githubusercontent.com/HsnSaboor/open-engineer/main/src/skills/bundled/better-auth-unified/SKILL.md\" > .claude/skills/better-auth/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HsnSaboor/open-engineer/main/src/skills/bundled/better-auth-unified/SKILL.md"

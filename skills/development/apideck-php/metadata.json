@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0efd9b4b838649f0097009bee475fc896925502901501e440b832515978b3b1e",
   "indexed_at": "2026-02-27T00:41:50.389Z",
-  "synced_at": "2026-02-27T02:27:52.981Z",
+  "synced_at": "2026-02-28T03:53:11.257Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/413b581fd14fa243d7063881078246fe1ce9c5bc3f1ac53e3350f28258f192bb",
   "install_command": "mkdir -p .claude/skills/apideck-php && curl -sL \"https://raw.githubusercontent.com/apideck-libraries/api-skills/main/skills/apideck-php/SKILL.md\" > .claude/skills/apideck-php/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/apideck-libraries/api-skills/main/skills/apideck-php/SKILL.md"

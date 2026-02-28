@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c03d7565b382d096040f539901639c6a996e7e0a6b06a4bfa3e43b3f834d018d",
   "indexed_at": "2026-02-25T12:37:08.857Z",
-  "synced_at": "2026-02-27T02:27:59.804Z",
+  "synced_at": "2026-02-28T03:53:45.620Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d2152f9272470c323d59d81b32b848279e7934af8f28279ac55f6992ae6a9cea",
   "install_command": "mkdir -p .claude/skills/datasette-plugins && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/datasette-plugins/SKILL.md\" > .claude/skills/datasette-plugins/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/datasette-plugins/SKILL.md"

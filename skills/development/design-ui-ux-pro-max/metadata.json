@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2a46e4c2d27a9a1b1c36425c6735a4eebeb62cf683f06276ed027440ce033843",
   "indexed_at": "2026-02-26T11:32:00.577Z",
-  "synced_at": "2026-02-27T02:27:19.951Z",
+  "synced_at": "2026-02-28T03:52:43.920Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cd9f3d39a570c430cf35d8dc2ee97d753a211af60e30d70db680c293816fa75b",
   "install_command": "mkdir -p .claude/skills/design-ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/baotoq/agent-skills/design-ui-ux-pro-max/SKILL.md\" > .claude/skills/design-ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/baotoq/agent-skills/design-ui-ux-pro-max/SKILL.md"

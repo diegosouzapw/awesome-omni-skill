@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b44200f4b519a6adee08da2286a05a5b1f5e28df0a2326296e65be559d0fb1a3",
   "indexed_at": "2026-02-25T12:38:08.395Z",
-  "synced_at": "2026-02-27T02:28:01.417Z",
+  "synced_at": "2026-02-28T03:53:47.725Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c835595dbe4d9669e643224a539c8f79b92e04249183cb3190a2fcac69281006",
   "install_command": "mkdir -p .claude/skills/origram && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/matbalez/origram/SKILL.md\" > .claude/skills/origram/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/matbalez/origram/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6eb8f553e18a2c880560d800c2bf9112d1a793a44e5e2af236e19ea898151458",
   "indexed_at": "2026-02-25T12:53:58.892Z",
-  "synced_at": "2026-02-27T02:28:12.505Z",
+  "synced_at": "2026-02-28T03:53:58.959Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3409343d96a04fff58f79fba442b590b87acf18307180bd5b2b17a5f1f00b7bd",
   "install_command": "mkdir -p .claude/skills/clawpod && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/joinmassive/clawpod/clawpod/SKILL.md\" > .claude/skills/clawpod/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/joinmassive/clawpod/clawpod/SKILL.md"

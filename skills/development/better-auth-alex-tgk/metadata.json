@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2166aa84eb97b9ff260451eb45e17075e5f7d364d74e179ae863a6c45577cb0d",
   "indexed_at": "2026-02-27T11:49:22.297Z",
-  "synced_at": "2026-02-27T13:13:10.577Z",
+  "synced_at": "2026-02-28T03:53:26.105Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2303b2c01517a58ec5bc5f048d9fd0fb8a2cd499b54b61b7e3f5c55bc38df499",
   "install_command": "mkdir -p .claude/skills/better-auth && curl -sL \"https://raw.githubusercontent.com/alex-tgk/saasquatch/main/.claude/skills/better-auth/SKILL.md\" > .claude/skills/better-auth/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alex-tgk/saasquatch/main/.claude/skills/better-auth/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b1e7310908b08bc8b12de186be060fc588c5f1dffa06a9fcdb99a82f2551ffe2",
   "indexed_at": "2026-02-26T16:39:52.018Z",
-  "synced_at": "2026-02-27T02:27:47.009Z",
+  "synced_at": "2026-02-28T03:53:05.841Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/741b3e95b4c15bf5b61b92c048cf797dc69bd7fe3f4cd65cdce5562e3f1920c5",
   "install_command": "mkdir -p .claude/skills/venice-router && curl -sL \"https://raw.githubusercontent.com/PlusOne/venice.ai-router-openclaw/main/SKILL.md\" > .claude/skills/venice-router/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/PlusOne/venice.ai-router-openclaw/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d1fb18dc574dec805927e5a3e92d6e0957a7bb9496ae9584b3dc91aae76fa56a",
   "indexed_at": "2026-02-26T19:04:23.149Z",
-  "synced_at": "2026-02-27T02:27:49.996Z",
+  "synced_at": "2026-02-28T03:53:09.067Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f867b71fd1791a5e017cc6e59a890a894d4d7f80f6bbda071068690ec842144d",
   "install_command": "mkdir -p .claude/skills/solidworks-cad-addin-iswaddin && curl -sL \"https://raw.githubusercontent.com/kilwizac/solidworks-addin-skills/main/skills/solidworks-cad-addin-iswaddin.skill.md/SKILL.md\" > .claude/skills/solidworks-cad-addin-iswaddin/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kilwizac/solidworks-addin-skills/main/skills/solidworks-cad-addin-iswaddin.skill.md/SKILL.md"

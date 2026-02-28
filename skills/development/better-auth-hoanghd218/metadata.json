@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "846b9472312c09994d05660560ee8d078fbb57ab6888e219a2d09d5aafbf7b19",
   "indexed_at": "2026-02-27T11:48:21.424Z",
-  "synced_at": "2026-02-27T13:13:10.420Z",
+  "synced_at": "2026-02-28T03:53:25.649Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/64c3fe73b2b8a465b50c4a83af6d0c6b6955a450aa40d337e1b6d7b1d2dedc01",
   "install_command": "mkdir -p .claude/skills/better-auth && curl -sL \"https://raw.githubusercontent.com/hoanghd218/tranvanhoang.com/main/.claude/skills/better-auth/SKILL.md\" > .claude/skills/better-auth/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hoanghd218/tranvanhoang.com/main/.claude/skills/better-auth/SKILL.md"

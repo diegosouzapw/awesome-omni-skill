@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2d10bd01776700b65cf2f60ffc560e1f7b151f12a9a93b79e43c72d167240752",
   "indexed_at": "2026-02-26T14:16:43.320Z",
-  "synced_at": "2026-02-27T02:27:45.049Z",
+  "synced_at": "2026-02-28T03:53:03.568Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a4adaaf84cf6efa9c0baf0fb77aa2b39dc4c0294baf44caa39fa5aaa58815b4c",
   "install_command": "mkdir -p .claude/skills/autogpt-agents && curl -sL \"https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/main/14-agents/autogpt/SKILL.md\" > .claude/skills/autogpt-agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/main/14-agents/autogpt/SKILL.md"

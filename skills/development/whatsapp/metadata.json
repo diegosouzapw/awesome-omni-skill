@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "105ee574d1bca9f71d5fe49b6c222f8f69576feeff230d08bd785c5e950f507f",
   "indexed_at": "2026-02-25T12:47:15.749Z",
-  "synced_at": "2026-02-27T02:28:07.325Z",
+  "synced_at": "2026-02-28T03:53:53.952Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0a8c133aef1485bdd3798adf029eb69bc457e9a6a550e6d18ec810b837f30c50",
   "install_command": "mkdir -p .claude/skills/whatsapp && curl -sL \"https://raw.githubusercontent.com/eddmann/whatsapp-cli/main/SKILL.md\" > .claude/skills/whatsapp/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/eddmann/whatsapp-cli/main/SKILL.md"

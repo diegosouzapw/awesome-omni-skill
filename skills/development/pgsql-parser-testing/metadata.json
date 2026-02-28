@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "db0476ffb5495839f168e553789cb19c982085c907bbea41e1324d241690396e",
   "indexed_at": "2026-02-26T13:17:28.900Z",
-  "synced_at": "2026-02-27T02:27:43.439Z",
+  "synced_at": "2026-02-28T03:53:01.943Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1c2900a0f63064dea73569bab7b13543f463d779621f6e562c10f96205d984a6",
   "install_command": "mkdir -p .claude/skills/pgsql-parser-testing && curl -sL \"https://raw.githubusercontent.com/constructive-io/constructive-skills/main/skills/pgsql-parser-testing/SKILL.md\" > .claude/skills/pgsql-parser-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/constructive-io/constructive-skills/main/skills/pgsql-parser-testing/SKILL.md"

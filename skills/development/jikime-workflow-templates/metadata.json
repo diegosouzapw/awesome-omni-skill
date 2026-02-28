@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a159135f90af9e687e611c2d20153ff5ff59ff027c4ea87135d446f0e0b2e6d7",
   "indexed_at": "2026-02-26T12:20:02.364Z",
-  "synced_at": "2026-02-27T02:27:32.160Z",
+  "synced_at": "2026-02-28T03:52:54.649Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3ad1b0e25bf7a9d33717cc32c341ae350691023025ba7fbba347bb885e9cb95a",
   "install_command": "mkdir -p .claude/skills/jikime-workflow-templates && curl -sL \"https://raw.githubusercontent.com/jikime/jikime-adk/main/templates/.claude/skills/jikime-workflow-templates/SKILL.md\" > .claude/skills/jikime-workflow-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jikime/jikime-adk/main/templates/.claude/skills/jikime-workflow-templates/SKILL.md"

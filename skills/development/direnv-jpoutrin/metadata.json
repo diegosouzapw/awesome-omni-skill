@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1edba68d9cdd3a41cf16406390ecb6f4393fd88ec87028d7b214b6836987dd9e",
   "indexed_at": "2026-02-25T12:56:21.469Z",
-  "synced_at": "2026-02-27T02:28:14.725Z",
+  "synced_at": "2026-02-28T03:54:01.396Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d9055691c9a9a14609d907061ca7cdf879265385190c815528e1b39c10d8b238",
   "install_command": "mkdir -p .claude/skills/direnv && curl -sL \"https://raw.githubusercontent.com/jpoutrin/product-forge/main/plugins/devops-data/skills/direnv/SKILL.md\" > .claude/skills/direnv/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jpoutrin/product-forge/main/plugins/devops-data/skills/direnv/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7c297ae378bd186a3d03f0ba8de2a2bfa147347c01961a04a8e20150fd42166a",
   "indexed_at": "2026-02-25T12:49:24.618Z",
-  "synced_at": "2026-02-27T02:28:09.109Z",
+  "synced_at": "2026-02-28T03:53:55.738Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ae9c65c92d3a31ae5496f17e69ee6757a0556ce74afddf5aa3bd7fffae1ab7a1",
   "install_command": "mkdir -p .claude/skills/architecture-decision-records && curl -sL \"https://raw.githubusercontent.com/kumaran-is/claude-code-onboarding/main/.claude/skills/architecture-decision-records/SKILL.md\" > .claude/skills/architecture-decision-records/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kumaran-is/claude-code-onboarding/main/.claude/skills/architecture-decision-records/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b485d5f9ec625be35e8f8554c57a986916d409c7e1a385f203acff2ac5c10159",
   "indexed_at": "2026-02-26T11:31:16.418Z",
-  "synced_at": "2026-02-27T02:27:19.082Z",
+  "synced_at": "2026-02-28T03:52:43.251Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/88e7b6e6ffd67faf3bf325c4536d268f530235703c0f917ce4176d4252fe77b6",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/Galaxy-Dawn/claude-scholar/main/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Galaxy-Dawn/claude-scholar/main/skills/ui-ux-pro-max/SKILL.md"

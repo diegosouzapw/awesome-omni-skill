@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2e9aecd1b011ebc86f46b89c87f81b6422989e40e146afb96e07178ce25ba3a6",
   "indexed_at": "2026-02-26T22:38:15.884Z",
-  "synced_at": "2026-02-27T02:27:56.491Z",
+  "synced_at": "2026-02-28T03:53:41.645Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ee99853dd3ddec56fcc8d8d50fefdbf3ca54b664c5ae67feabea5f15b4d54ef4",
   "install_command": "mkdir -p .claude/skills/cpp && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/cpp/SKILL.md\" > .claude/skills/cpp/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/cpp/SKILL.md"

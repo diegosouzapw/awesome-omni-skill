@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d9b9b39618d2a5d9ad42d86914c0fa96add759f17f3f5fdb00032fe274f7e010",
   "indexed_at": "2026-02-26T14:19:02.552Z",
-  "synced_at": "2026-02-27T02:27:45.395Z",
+  "synced_at": "2026-02-28T03:53:03.906Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8bfdd8d0397d978aa48257acedb2ee52c41f54121584f08f64620ebc2bc9cfb3",
   "install_command": "mkdir -p .claude/skills/autogpt-agents && curl -sL \"https://raw.githubusercontent.com/Datakult0r/ai-grant-crawler-a2a-pro/main/.claude/skills/agents-autogpt/SKILL.md\" > .claude/skills/autogpt-agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Datakult0r/ai-grant-crawler-a2a-pro/main/.claude/skills/agents-autogpt/SKILL.md"

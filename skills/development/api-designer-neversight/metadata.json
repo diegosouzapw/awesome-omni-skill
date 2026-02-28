@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1092909bc1c11b1e5aea35598922e34226d162589b3aa65917dcb2db0a1da7d0",
   "indexed_at": "2026-02-27T08:56:17.008Z",
-  "synced_at": "2026-02-27T13:13:08.104Z",
+  "synced_at": "2026-02-28T03:53:22.301Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/271df81c39c85f0dbc3e109afa14ede73287da11898232e10b23f5ae61b94c52",
   "install_command": "mkdir -p .claude/skills/api-designer && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/daffy0208/ai-dev-standards/api-designer/SKILL.md\" > .claude/skills/api-designer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/daffy0208/ai-dev-standards/api-designer/SKILL.md"

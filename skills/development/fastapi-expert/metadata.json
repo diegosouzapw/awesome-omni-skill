@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7d0f3a87f049e834c2687e298646fc60ae2179d008dc77d9964df5fbaf86394a",
   "indexed_at": "2026-02-26T10:45:19.674Z",
-  "synced_at": "2026-02-27T02:27:09.605Z",
+  "synced_at": "2026-02-28T03:52:35.863Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5fd418c26eba7fcb2827bae7483b912ef8453777ee98bafa60fbfe7a9e90b49e",
   "install_command": "mkdir -p .claude/skills/fastapi-expert && curl -sL \"https://raw.githubusercontent.com/Jeffallan/claude-skills/main/skills/fastapi-expert/SKILL.md\" > .claude/skills/fastapi-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/main/skills/fastapi-expert/SKILL.md"

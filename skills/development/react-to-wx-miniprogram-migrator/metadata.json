@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9c228df9d788d2e11efeee722abe81085f0078b2a8ffdeb569526936bf6f00f3",
   "indexed_at": "2026-02-26T13:19:38.719Z",
-  "synced_at": "2026-02-27T02:27:43.773Z",
+  "synced_at": "2026-02-28T03:53:02.289Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d7af97ea2d6ea27daea967449d00dcb27ce81e5e04801ee69b5cde770f6baf6d",
   "install_command": "mkdir -p .claude/skills/react-to-wx-miniprogram-migrator && curl -sL \"https://raw.githubusercontent.com/dafang/react-to-weapp-skills/main/SKILL.md\" > .claude/skills/react-to-wx-miniprogram-migrator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dafang/react-to-weapp-skills/main/SKILL.md"

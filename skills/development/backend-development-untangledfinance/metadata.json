@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bb037a74c5cc721057d7d4965b5772bb7eac2e0f37ada51cd3fa671d92b30a73",
   "indexed_at": "2026-02-26T10:56:53.824Z",
-  "synced_at": "2026-02-27T02:27:18.232Z",
+  "synced_at": "2026-02-28T03:52:42.602Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/21bf195b04e61593d11da8047b4a698a7c8802593657a7094a0d8ed0d95603b6",
   "install_command": "mkdir -p .claude/skills/backend-development && curl -sL \"https://raw.githubusercontent.com/untangledfinance/untangled-web/main/.claude/skills/backend-development/SKILL.md\" > .claude/skills/backend-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/untangledfinance/untangled-web/main/.claude/skills/backend-development/SKILL.md"

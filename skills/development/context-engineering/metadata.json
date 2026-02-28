@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fd575b409b86d8aa373964023198b1fefc67315908cc42305aa0a379a0794a94",
   "indexed_at": "2026-02-27T13:25:38.684Z",
-  "synced_at": "2026-02-27T18:16:30.477Z",
+  "synced_at": "2026-02-28T03:53:27.123Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/af7785959546851c92b260c23cf72c8472ec182fe005a683143974be761adcb4",
   "install_command": "mkdir -p .claude/skills/context-engineering && curl -sL \"https://raw.githubusercontent.com/get-caio/harness/main/.claude/skills/context-engineering/SKILL.md\" > .claude/skills/context-engineering/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/get-caio/harness/main/.claude/skills/context-engineering/SKILL.md"

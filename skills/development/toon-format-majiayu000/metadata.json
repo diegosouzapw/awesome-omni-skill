@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "84a686d988c135d8565463abf4e80976fd4cb60d4bb65ed757b9ce4444cd5cbc",
   "indexed_at": "2026-02-25T12:36:37.418Z",
-  "synced_at": "2026-02-27T02:27:59.486Z",
+  "synced_at": "2026-02-28T03:53:45.249Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/51342569df6cd1b6250ba186f4e5ed41ade580f36842d64ec4ff48cc21ba8e1a",
   "install_command": "mkdir -p .claude/skills/toon-format && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/toon-format/SKILL.md\" > .claude/skills/toon-format/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/toon-format/SKILL.md"

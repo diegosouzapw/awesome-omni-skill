@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "df709a1a893dce5945d0b59c52122102dfe1f3109afa9bc69b0d7ad8286f0cae",
   "indexed_at": "2026-02-26T12:23:59.110Z",
-  "synced_at": "2026-02-27T02:27:39.583Z",
+  "synced_at": "2026-02-28T03:52:59.371Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9bbcba333397297aef9ef8b3f610d63efecf5ea37496cb3cf2bb0f5ec6d18012",
   "install_command": "mkdir -p .claude/skills/ipai-ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/Insightpulseai/odoo/main/.claude/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ipai-ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Insightpulseai/odoo/main/.claude/skills/ui-ux-pro-max/SKILL.md"

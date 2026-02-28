@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "355c9d905a5082b2bca59698fa5ad41113d211c68aecb92f8cebef7f7b97695f",
   "indexed_at": "2026-02-26T11:40:45.024Z",
-  "synced_at": "2026-02-27T02:27:30.191Z",
+  "synced_at": "2026-02-28T03:52:52.812Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4c54e10bf8e17f62972e9642da8a7cf6dddf33d41d94e4a58ac13a485999c851",
   "install_command": "mkdir -p .claude/skills/database-query && curl -sL \"https://raw.githubusercontent.com/Lordjiggy/claude-code-marketplace/main/skills/integrations/database-query/SKILL.md\" > .claude/skills/database-query/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Lordjiggy/claude-code-marketplace/main/skills/integrations/database-query/SKILL.md"

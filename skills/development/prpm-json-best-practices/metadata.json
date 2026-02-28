@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d098f5bbfb8b2cd29156cec73943cd595d8a1aadd40defaea5b2ac9fca96e499",
   "indexed_at": "2026-02-26T12:16:30.365Z",
-  "synced_at": "2026-02-27T02:27:30.908Z",
+  "synced_at": "2026-02-28T03:52:53.495Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/939d866c6a89a8f85650f99a384160c1e31bd852f10cf28adfdddeca57d92003",
   "install_command": "mkdir -p .claude/skills/prpm-json-best-practices && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/NangoHQ__ai-ide-prompts__claude__skills__prpm-json-best-practices-skill__SKILL.md/SKILL.md\" > .claude/skills/prpm-json-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/NangoHQ__ai-ide-prompts__claude__skills__prpm-json-best-practices-skill__SKILL.md/SKILL.md"

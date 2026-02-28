@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "62bab392cf5e0ebe58ebb4f7c75b4122fb7e7d8d3a6edb6dc0c6f5a8921d24f6",
   "indexed_at": "2026-02-25T12:51:48.147Z",
-  "synced_at": "2026-02-27T02:28:11.285Z",
+  "synced_at": "2026-02-28T03:53:57.739Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d530f5c3934d2a755e18b6f959bb864e0487f103cc7a4bf948b68f53cce3964e",
   "install_command": "mkdir -p .claude/skills/coding-kotlin && curl -sL \"https://raw.githubusercontent.com/alphaonedev/openclaw-graph/main/skills/coding/coding-kotlin/SKILL.md\" > .claude/skills/coding-kotlin/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alphaonedev/openclaw-graph/main/skills/coding/coding-kotlin/SKILL.md"

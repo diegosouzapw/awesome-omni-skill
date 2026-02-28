@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8b3dc04e44bebe7c24b71f38eba9518ee92fb3e44365380e410d237eca0f1491",
   "indexed_at": "2026-02-26T12:25:41.233Z",
-  "synced_at": "2026-02-27T02:27:41.867Z",
+  "synced_at": "2026-02-28T03:53:01.082Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c02f961c815cfe79cc0ffee3fc667500d02c5fa6c25c991a8a048ca0360f76c2",
   "install_command": "mkdir -p .claude/skills/project-analyzer && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/project-analyzer/SKILL.md\" > .claude/skills/project-analyzer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/project-analyzer/SKILL.md"

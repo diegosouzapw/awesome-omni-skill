@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "61a4ee447602d210e8b5f03afd5ca143794a199656ecf6b0fd820ef63436cbd1",
   "indexed_at": "2026-02-26T09:49:05.803Z",
-  "synced_at": "2026-02-27T02:27:53.373Z",
+  "synced_at": "2026-02-28T03:53:36.540Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1f73bb0cb0afca8a86842da181ff2cf66e04c68f1be153c4d5f7df382ad17565",
   "install_command": "mkdir -p .claude/skills/tmdd-threat-modeling && curl -sL \"https://raw.githubusercontent.com/attasec/tmdd/main/.cursor/skills/threat-model/SKILL.md\" > .claude/skills/tmdd-threat-modeling/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/attasec/tmdd/main/.cursor/skills/threat-model/SKILL.md"

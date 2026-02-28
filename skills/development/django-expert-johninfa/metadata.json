@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "290fcc5116567d2c42b9639d698c0583ae0aa6e97e2a2898abc305ff781b17f3",
   "indexed_at": "2026-02-26T10:48:15.303Z",
-  "synced_at": "2026-02-27T02:27:12.377Z",
+  "synced_at": "2026-02-28T03:52:37.575Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e0402144eee48cd52c9afbecfe39bc3f897b3a21239c8ce25d4b6a349f02bf62",
   "install_command": "mkdir -p .claude/skills/django-expert && curl -sL \"https://raw.githubusercontent.com/JOHNINFA/crm-fabrica/main/.agents/skills/django-expert/SKILL.md\" > .claude/skills/django-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/JOHNINFA/crm-fabrica/main/.agents/skills/django-expert/SKILL.md"

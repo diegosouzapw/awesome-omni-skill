@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "70c9c9416a61b5274d48b23672444168490a705674fb8794a45dd668802a6609",
   "indexed_at": "2026-02-25T12:54:03.032Z",
-  "synced_at": "2026-02-27T02:28:12.832Z",
+  "synced_at": "2026-02-28T03:53:59.288Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/39416eac584d9d4d30f289a627dcbc9d35fb614a492e1bf43c244364859bbef5",
   "install_command": "mkdir -p .claude/skills/go-functional-options && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/go-functional-options/SKILL.md\" > .claude/skills/go-functional-options/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/go-functional-options/SKILL.md"

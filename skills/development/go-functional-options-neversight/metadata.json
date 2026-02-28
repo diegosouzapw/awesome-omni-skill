@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "315b0873c9e7033f2d16587ecb04f5335446f273858dbd2ec7701854ee9c492d",
   "indexed_at": "2026-02-25T12:54:00.930Z",
-  "synced_at": "2026-02-27T02:28:12.670Z",
+  "synced_at": "2026-02-28T03:53:59.124Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f6ad6f09ffbf8ee33100f4a78677a0f2b9ec9648ffe0905c04bb0a1d2dded173",
   "install_command": "mkdir -p .claude/skills/go-functional-options && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/cxuu/golang-skills/go-functional-options/SKILL.md\" > .claude/skills/go-functional-options/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/cxuu/golang-skills/go-functional-options/SKILL.md"

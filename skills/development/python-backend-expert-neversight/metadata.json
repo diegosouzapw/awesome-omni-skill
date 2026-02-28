@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "538ae11aafdbb80342bc63787d367f116001bf455f96d130c84b7e2e383c53d4",
   "indexed_at": "2026-02-26T10:48:31.526Z",
-  "synced_at": "2026-02-27T02:27:12.587Z",
+  "synced_at": "2026-02-28T03:52:37.746Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/75275b3b5998223d48d2ce28e61c29ad99eec0a6b3de9d7c160b1c7804753a1c",
   "install_command": "mkdir -p .claude/skills/python-backend-expert && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/oimiragieo/agent-studio/python-backend-expert/SKILL.md\" > .claude/skills/python-backend-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/oimiragieo/agent-studio/python-backend-expert/SKILL.md"

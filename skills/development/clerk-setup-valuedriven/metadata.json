@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33cf39d74c59d3baac68a522cb66f812a9783568c5e8e1e143e042e8b9ae5abc",
   "indexed_at": "2026-02-26T11:32:45.287Z",
-  "synced_at": "2026-02-27T02:27:21.564Z",
+  "synced_at": "2026-02-28T03:52:44.997Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cf3805161dc9ea30acd451860125e4a47708676be1689a12a21085898359c3ed",
   "install_command": "mkdir -p .claude/skills/clerk-setup && curl -sL \"https://raw.githubusercontent.com/valuedriven/sewai/main/.agent/skills/clerk-setup/SKILL.md\" > .claude/skills/clerk-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/valuedriven/sewai/main/.agent/skills/clerk-setup/SKILL.md"

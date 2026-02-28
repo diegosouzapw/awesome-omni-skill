@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e4441979cb8e9a4e14e8ae65b4246050fe362a5bafba562f8b26b8814a987b5c",
   "indexed_at": "2026-02-25T12:56:57.960Z",
-  "synced_at": "2026-02-27T02:28:15.032Z",
+  "synced_at": "2026-02-28T03:54:01.774Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2620631623b6fd84217136b0f58dc97702b94febe5357364fce8cad6b47fc682",
   "install_command": "mkdir -p .claude/skills/policyengine-aggregation && curl -sL \"https://raw.githubusercontent.com/PolicyEngine/policyengine-claude/main/skills/technical-patterns/policyengine-aggregation-skill/SKILL.md\" > .claude/skills/policyengine-aggregation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/PolicyEngine/policyengine-claude/main/skills/technical-patterns/policyengine-aggregation-skill/SKILL.md"

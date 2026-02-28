@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d0c25f41b9d7b6bbf671b878186f767cc300e6c9df944e51a9b4b976e67f3ff9",
   "indexed_at": "2026-02-26T22:40:01.232Z",
-  "synced_at": "2026-02-27T02:27:55.214Z",
+  "synced_at": "2026-02-28T03:53:38.308Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8b6cac04cd9611b5302d0c32fc1a5460f29e2052ea596ea4d4321eef44d43d62",
   "install_command": "mkdir -p .claude/skills/dotnet-framework && curl -sL \"https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/dotnet-framework/SKILL.md\" > .claude/skills/dotnet-framework/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/dotnet-framework/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "22db55aa3f4f713a4c5849b32be2188a9aac9bb8550da83455b402940752df9f",
   "indexed_at": "2026-02-26T15:20:22.698Z",
-  "synced_at": "2026-02-27T02:27:53.557Z",
+  "synced_at": "2026-02-28T03:53:36.731Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b897d4dfe8752195048e0308c5304b691419dc850e9a2dbc53ff68c6ba60eeb2",
   "install_command": "mkdir -p .claude/skills/power-platform-connector && curl -sL \"https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/power-platform-connector/SKILL.md\" > .claude/skills/power-platform-connector/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/power-platform-connector/SKILL.md"

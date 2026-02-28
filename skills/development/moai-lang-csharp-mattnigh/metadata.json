@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "63d81f068395a983aba26a0f292dcc0d989a7d6400f6a8bcfe72bb9d95e2fd24",
   "indexed_at": "2026-02-26T09:53:32.504Z",
-  "synced_at": "2026-02-27T02:27:07.711Z",
+  "synced_at": "2026-02-28T03:52:34.022Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0d82b82466166f7e6a9dc3f6d89ff6ee8511a148715371bdae2d8d776b978608",
   "install_command": "mkdir -p .claude/skills/moai-lang-csharp && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/dolsoon__my-awesome-project__claude__skills__moai-lang-csharp__SKILL.md/SKILL.md\" > .claude/skills/moai-lang-csharp/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/dolsoon__my-awesome-project__claude__skills__moai-lang-csharp__SKILL.md/SKILL.md"

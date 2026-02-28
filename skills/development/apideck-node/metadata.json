@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f0d59eee63e1599eaa842afcb3cd82b407dbdd5c0d24e3a6dabaf3fdc605c50a",
   "indexed_at": "2026-02-26T23:32:16.273Z",
-  "synced_at": "2026-02-27T02:27:50.877Z",
+  "synced_at": "2026-02-28T03:53:09.906Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/41f07453fe2492002eb5f1fc98ad978932408f7900fa4cab4afc131b102489f1",
   "install_command": "mkdir -p .claude/skills/apideck-node && curl -sL \"https://raw.githubusercontent.com/apideck-libraries/api-skills/main/skills/apideck-node/SKILL.md\" > .claude/skills/apideck-node/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/apideck-libraries/api-skills/main/skills/apideck-node/SKILL.md"

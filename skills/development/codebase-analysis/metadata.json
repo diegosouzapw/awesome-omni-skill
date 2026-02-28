@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "82d3f9be13cf2eae7ac16ecf58cefdb033c4a08fe4ae705466075073425aeff1",
   "indexed_at": "2026-02-27T11:46:21.971Z",
-  "synced_at": "2026-02-27T13:13:10.192Z",
+  "synced_at": "2026-02-28T03:53:25.110Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3cad22a9af7f5243303815137e37ec0cb634184498116e92285b7d0de28df1ae",
   "install_command": "mkdir -p .claude/skills/codebase-analysis && curl -sL \"https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/atman36/codebase-analysis/SKILL.md\" > .claude/skills/codebase-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/atman36/codebase-analysis/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "496e71535da422d5e8e6bf8a98e975cd6b27f74723b301f721dfbf5d07aff37c",
   "indexed_at": "2026-02-25T12:36:30.438Z",
-  "synced_at": "2026-02-27T02:27:59.150Z",
+  "synced_at": "2026-02-28T03:53:44.909Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/11b0474478181285ae06513dbbc8dae4c1a65979355efe40dc031183625b118b",
   "install_command": "mkdir -p .claude/skills/zotero-mcp && curl -sL \"https://raw.githubusercontent.com/kerim/zotero-mcp-skill/main/SKILL.md\" > .claude/skills/zotero-mcp/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kerim/zotero-mcp-skill/main/SKILL.md"

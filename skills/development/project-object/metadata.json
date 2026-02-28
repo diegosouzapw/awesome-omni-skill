@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "639c3cd1e5ba15bea05a2d78ecf165a447e94b053d482254f3b92113fdf6cb71",
   "indexed_at": "2026-02-26T17:31:30.727Z",
-  "synced_at": "2026-02-27T02:27:47.178Z",
+  "synced_at": "2026-02-28T03:53:06.214Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/24c7932efb9c48f42803cdaa6f5035dbe56f638090d628741a50998fa23ec8f5",
   "install_command": "mkdir -p .claude/skills/project-object && curl -sL \"https://raw.githubusercontent.com/Equilateral-AI/equilateral-agents-open-core/main/.agents/skills/project-object/SKILL.md\" > .claude/skills/project-object/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Equilateral-AI/equilateral-agents-open-core/main/.agents/skills/project-object/SKILL.md"

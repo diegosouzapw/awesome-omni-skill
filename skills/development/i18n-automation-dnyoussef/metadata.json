@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1a3b300f5be8cd1c192d90892afa575b67e079f31bce811b6e557cddf554fdaf",
   "indexed_at": "2026-02-26T11:34:03.223Z",
-  "synced_at": "2026-02-27T02:27:24.997Z",
+  "synced_at": "2026-02-28T03:52:48.018Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cfe1109638128db6a0e17f8382184b802b08f636143b320e529c62158f16ac6d",
   "install_command": "mkdir -p .claude/skills/i18n-automation && curl -sL \"https://raw.githubusercontent.com/DNYoussef/ai-chrome-extension/main/.claude/skills/i18n-automation/SKILL.md\" > .claude/skills/i18n-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/DNYoussef/ai-chrome-extension/main/.claude/skills/i18n-automation/SKILL.md"

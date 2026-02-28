@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fb5e8a6c63e8086d4b05b1f478e0932ac77b949dccade8238f820cf6d9f1caac",
   "indexed_at": "2026-02-27T15:08:18.568Z",
-  "synced_at": "2026-02-27T18:16:31.216Z",
+  "synced_at": "2026-02-28T03:53:27.998Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e0faa9622c0df95ab79c11e1bec5147ed41b1cb3feb065024930d0543591193d",
   "install_command": "mkdir -p .claude/skills/babysit && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/babysit/SKILL.md\" > .claude/skills/babysit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/babysit/SKILL.md"

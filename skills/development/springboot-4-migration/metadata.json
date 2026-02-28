@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "802ceecd4fc78b912090aa62dbde7b834e67a883923f03979bb49fc7cb11ed76",
   "indexed_at": "2026-02-26T23:36:00.418Z",
-  "synced_at": "2026-02-27T02:27:56.134Z",
+  "synced_at": "2026-02-28T03:53:39.135Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/df409f15b475c49cef8a2b8e5a4ddc752d54479bbdcf62a8b2dc3dbd14271700",
   "install_command": "mkdir -p .claude/skills/springboot-4-migration && curl -sL \"https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/springboot-4-migration/SKILL.md\" > .claude/skills/springboot-4-migration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/springboot-4-migration/SKILL.md"

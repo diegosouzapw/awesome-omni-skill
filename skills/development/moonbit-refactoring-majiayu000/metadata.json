@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "258316517c9b2e18f10044a07bd0aed428e2e7a1477dd6889abec36bfa2f6517",
   "indexed_at": "2026-02-25T12:37:22.826Z",
-  "synced_at": "2026-02-27T02:28:00.796Z",
+  "synced_at": "2026-02-28T03:53:46.728Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/12e80decaa07fdc145cda7170abf2c28b0d9e2adb9f9c88011864eb63716de00",
   "install_command": "mkdir -p .claude/skills/moonbit-refactoring && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/moonbit-refactoring/SKILL.md\" > .claude/skills/moonbit-refactoring/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/moonbit-refactoring/SKILL.md"

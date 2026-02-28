@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "60386903d7cc5ce1df7315e6335cd280d8a01f91ea8eb174600e3ff979994dcd",
   "indexed_at": "2026-02-25T12:41:50.933Z",
-  "synced_at": "2026-02-27T02:28:06.193Z",
+  "synced_at": "2026-02-28T03:53:52.862Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ad2a2291d41d0b03871f9f61e785ca30de9999e783ca0f6ecc19a1af25c907a5",
   "install_command": "mkdir -p .claude/skills/updated-sweep-through-your-contacts-with-speed-and-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/posts-techidaily-site-facebook-clips/SKILL.md\" > .claude/skills/updated-sweep-through-your-contacts-with-speed-and-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/posts-techidaily-site-facebook-clips/SKILL.md"

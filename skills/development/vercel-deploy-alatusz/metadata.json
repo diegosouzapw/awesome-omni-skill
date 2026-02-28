@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "62a033f86cd16522d50a78a30ba3c664141052c7a22ff4f217d3978c9c848b79",
   "indexed_at": "2026-02-26T12:24:13.891Z",
-  "synced_at": "2026-02-27T02:27:40.186Z",
+  "synced_at": "2026-02-28T03:52:59.898Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/471f6105b7cadb4d96857ba51a7bc6f8b13fa25b047230f86fb089613d160a90",
   "install_command": "mkdir -p .claude/skills/vercel-deploy && curl -sL \"https://raw.githubusercontent.com/Alatusz/weather-app/main/.agent/skills/claude.ai/vercel-deploy-claimable/SKILL.md\" > .claude/skills/vercel-deploy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Alatusz/weather-app/main/.agent/skills/claude.ai/vercel-deploy-claimable/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fbab8fd62d45ae1d1c06b3f9acde59e8521c950584ff8a94fdde631e0fb6a58c",
   "indexed_at": "2026-02-26T14:18:59.885Z",
-  "synced_at": "2026-02-27T02:27:45.216Z",
+  "synced_at": "2026-02-28T03:53:03.731Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eabfb217469e126999a0e342d879e514a484e610b33affa56c9c79607eb24b5c",
   "install_command": "mkdir -p .claude/skills/autogpt-agents && curl -sL \"https://raw.githubusercontent.com/tianhao909/AI-Research-SKILLs-cn/main/14-agents/autogpt/SKILL.md\" > .claude/skills/autogpt-agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tianhao909/AI-Research-SKILLs-cn/main/14-agents/autogpt/SKILL.md"

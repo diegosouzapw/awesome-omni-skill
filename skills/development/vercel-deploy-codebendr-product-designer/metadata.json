@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e8a991bef5cb670dd2f46a59cbd04f97ff29a61006aedf395a9a16c4076359a3",
   "indexed_at": "2026-02-27T11:50:36.984Z",
-  "synced_at": "2026-02-27T13:13:11.230Z",
+  "synced_at": "2026-02-28T03:53:26.767Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fed8bf88bcb54d531e2e865ef96bdc7d20f0a27f5938009e2d96030d5e6d7130",
   "install_command": "mkdir -p .claude/skills/vercel-deploy && curl -sL \"https://raw.githubusercontent.com/codebendr-product-designer/plume-agent-skills/main/skills/claude.ai/vercel-deploy-claimable/SKILL.md\" > .claude/skills/vercel-deploy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/codebendr-product-designer/plume-agent-skills/main/skills/claude.ai/vercel-deploy-claimable/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "20d578045e88c8363abd89e69e26e01edf32e7fe276ebffec2ef25f19ae573d3",
   "indexed_at": "2026-02-26T11:38:49.695Z",
-  "synced_at": "2026-02-27T02:27:28.393Z",
+  "synced_at": "2026-02-28T03:52:51.061Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/03a65c63e72767fda3a35fa8b8e098fac6b5df4b225190f5b7dca6666fc95eb6",
   "install_command": "mkdir -p .claude/skills/api-and-web-service-websocket && curl -sL \"https://raw.githubusercontent.com/duhd-vnpay/Agentic-Coding/main/referents/standards/security/owasp-asvs/api-and-web-service/websocket/SKILL.md\" > .claude/skills/api-and-web-service-websocket/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duhd-vnpay/Agentic-Coding/main/referents/standards/security/owasp-asvs/api-and-web-service/websocket/SKILL.md"

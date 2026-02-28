@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "37367e4ab252f6a545e538b4a6d06f9ed625dd0a93d80dcb54b0b9126b76d310",
   "indexed_at": "2026-02-26T11:38:45.649Z",
-  "synced_at": "2026-02-27T02:27:28.051Z",
+  "synced_at": "2026-02-28T03:52:50.733Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e5a1bbf6da58f1691dfa652758e53f499d2f983b1f76edef283f2f6b9ec212ed",
   "install_command": "mkdir -p .claude/skills/top-100-web-vulnerabilities-reference && curl -sL \"https://raw.githubusercontent.com/zebbern/SecOps-CLI-Guides/main/skills/top-web-vulnerabilities/SKILL.md\" > .claude/skills/top-100-web-vulnerabilities-reference/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zebbern/SecOps-CLI-Guides/main/skills/top-web-vulnerabilities/SKILL.md"

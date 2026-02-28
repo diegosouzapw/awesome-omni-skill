@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bef2f1df932ed6edab0dce1648896e6edddfb143197641f08186c904bcf7e7d0",
   "indexed_at": "2026-02-26T12:17:07.435Z",
-  "synced_at": "2026-02-27T02:27:31.234Z",
+  "synced_at": "2026-02-28T03:52:53.802Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/319b7fde6d6d5fdab2d376b2c235668c445b89e65f85d6f5568d51dfa7a29042",
   "install_command": "mkdir -p .claude/skills/k8s-kind && curl -sL \"https://raw.githubusercontent.com/rohitg00/kubectl-mcp-server/main/kubernetes-skills/claude/k8s-kind/SKILL.md\" > .claude/skills/k8s-kind/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rohitg00/kubectl-mcp-server/main/kubernetes-skills/claude/k8s-kind/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fa483829b4ba368ef29bc702cd9998f551a6186505448d681366d07f3f559975",
   "indexed_at": "2026-02-26T11:32:48.800Z",
-  "synced_at": "2026-02-27T02:27:22.139Z",
+  "synced_at": "2026-02-28T03:52:45.547Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/97d9de1760ca49877656d1498451f243129e1bcf8725409690c400bb4aae3895",
   "install_command": "mkdir -p .claude/skills/vercel-deploy && curl -sL \"https://raw.githubusercontent.com/maplin-co/ai-course/main/.opencode/skill/vercel-deploy-claimable/SKILL.md\" > .claude/skills/vercel-deploy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/maplin-co/ai-course/main/.opencode/skill/vercel-deploy-claimable/SKILL.md"

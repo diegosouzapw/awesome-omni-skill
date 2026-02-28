@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e8678e5cae2552c829f9ba94e340904b099d29845288799e95f0b8ebefc4403c",
   "indexed_at": "2026-02-26T12:22:50.416Z",
-  "synced_at": "2026-02-27T02:27:37.603Z",
+  "synced_at": "2026-02-28T03:52:57.721Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eb1a21fbdaa5e68d7e7747ff7615945cea0c70962262efbdc5ce2b1e70ab06fc",
   "install_command": "mkdir -p .claude/skills/adr-log && curl -sL \"https://raw.githubusercontent.com/Doyajin174/myskills/main/.public/skills/adr-log/SKILL.md\" > .claude/skills/adr-log/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Doyajin174/myskills/main/.public/skills/adr-log/SKILL.md"

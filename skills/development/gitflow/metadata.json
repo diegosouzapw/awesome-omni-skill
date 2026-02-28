@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a26a48c86d0d6c877f3cc3518140d751c9d0f19b1ad7b3006c08c301603bf8a9",
   "indexed_at": "2026-02-27T15:07:36.813Z",
-  "synced_at": "2026-02-27T18:16:31.068Z",
+  "synced_at": "2026-02-28T03:53:27.802Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0e4bc4e8e60193d53d99a9d16cefa81a38b3b56d2c95cc218a40df1f81bb68ee",
   "install_command": "mkdir -p .claude/skills/gitflow && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/gitflow/SKILL.md\" > .claude/skills/gitflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/gitflow/SKILL.md"

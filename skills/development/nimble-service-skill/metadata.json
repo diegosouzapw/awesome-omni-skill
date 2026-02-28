@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0ae4a94607e9353af066bc1b59e5f7af889835a950bf2256612a0cf848988034",
   "indexed_at": "2026-02-26T11:56:56.583Z",
-  "synced_at": "2026-02-27T02:27:30.713Z",
+  "synced_at": "2026-02-28T03:52:53.321Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/29c780751c5b9a4f46264f0fa1d0d32159cf683acac3cf187f4c0a7d764405cc",
   "install_command": "mkdir -p .claude/skills/nimble-service-skill && curl -sL \"https://raw.githubusercontent.com/LeeorNahum/nimble-service-skill/main/SKILL.md\" > .claude/skills/nimble-service-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/LeeorNahum/nimble-service-skill/main/SKILL.md"

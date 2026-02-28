@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3a1605af094f34227d419341fe0170568a46b0da107c62e0c152dfdcfc7a5fd2",
   "indexed_at": "2026-02-26T13:23:11.100Z",
-  "synced_at": "2026-02-27T02:27:44.498Z",
+  "synced_at": "2026-02-28T03:53:03.019Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/169be231149b06bd874b05d2e39106c67ad55f3f53b6e9fd9058c35c8da0c5c2",
   "install_command": "mkdir -p .claude/skills/security-best-practices && curl -sL \"https://raw.githubusercontent.com/skrodrigo/pumkin/main/.cursor/skills/security-best-practices/SKILL.md\" > .claude/skills/security-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/skrodrigo/pumkin/main/.cursor/skills/security-best-practices/SKILL.md"

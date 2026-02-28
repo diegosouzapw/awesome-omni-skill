@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7b8999623588b50712387a163c5b802db706837e2b4dca903071000c50d461c4",
   "indexed_at": "2026-02-27T05:48:02.242Z",
-  "synced_at": "2026-02-27T13:13:00.499Z",
+  "synced_at": "2026-02-28T03:53:12.596Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1ad66bf15de525888d09b021bb235ed9a7524b8af28f30332ca953aaa439e50f",
   "install_command": "mkdir -p .claude/skills/sparc-methodology && curl -sL \"https://raw.githubusercontent.com/EarthmanWeb/claude-flow-plugin/main/v3/@claude-flow/cli/.claude/skills/sparc-methodology/SKILL.md\" > .claude/skills/sparc-methodology/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/EarthmanWeb/claude-flow-plugin/main/v3/@claude-flow/cli/.claude/skills/sparc-methodology/SKILL.md"

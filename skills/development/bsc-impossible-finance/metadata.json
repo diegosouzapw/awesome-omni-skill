@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b5f53b7356324e57c3b16fd38d11cedfeef9dee24b94fa51856e904230d7a784",
   "indexed_at": "2026-02-26T09:54:59.342Z",
-  "synced_at": "2026-02-27T02:27:08.046Z",
+  "synced_at": "2026-02-28T03:52:34.340Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/07b62551af5babdbc7ea0bc83f3aea3dfee207db7ff88d80b0a7a17a07a6bdef",
   "install_command": "mkdir -p .claude/skills/bsc-impossible-finance && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/kj-script/impossible-finance-skill/SKILL.md\" > .claude/skills/bsc-impossible-finance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kj-script/impossible-finance-skill/SKILL.md"

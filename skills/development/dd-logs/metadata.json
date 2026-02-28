@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4a4435ed9afbcf544754be658199a32295d3e579311782f442abb5eca841dc5f",
   "indexed_at": "2026-02-26T23:30:31.915Z",
-  "synced_at": "2026-02-27T02:27:56.655Z",
+  "synced_at": "2026-02-28T03:53:41.801Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/67e2c363c98877ae1691b811ae867d72544590868dbc312eb4fdf9ae184eaf06",
   "install_command": "mkdir -p .claude/skills/dd-logs && curl -sL \"https://raw.githubusercontent.com/datadog-labs/agent-skills/main/dd-logs/SKILL.md\" > .claude/skills/dd-logs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/datadog-labs/agent-skills/main/dd-logs/SKILL.md"

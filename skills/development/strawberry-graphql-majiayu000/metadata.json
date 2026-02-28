@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8a8f067a08c10cd99f8c3fbcb53291e6b322ef7ce47720424e73e354369dce05",
   "indexed_at": "2026-02-27T07:47:38.367Z",
-  "synced_at": "2026-02-27T13:13:04.437Z",
+  "synced_at": "2026-02-28T03:53:17.433Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5a51064618eb95540d2e643598a203db2d0381d8f56d35ad439aabb64c902f57",
   "install_command": "mkdir -p .claude/skills/strawberry-graphql && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/strawberry-graphql/SKILL.md\" > .claude/skills/strawberry-graphql/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/strawberry-graphql/SKILL.md"

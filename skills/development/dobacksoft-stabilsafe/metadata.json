@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "19136c6f0f60e38fe94ba780a119d0ea0989d77a18c21591b52d6b3b23d24e29",
   "indexed_at": "2026-02-26T22:38:45.294Z",
-  "synced_at": "2026-02-27T02:27:54.703Z",
+  "synced_at": "2026-02-28T03:53:37.805Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4819e875c5893ae8f106a2f3fe13b08b9fc6ec758db39e79f28e99b37836cb4b",
   "install_command": "mkdir -p .claude/skills/dobacksoft-stabilsafe && curl -sL \"https://raw.githubusercontent.com/hermoso92/dobackv2/main/.cursor/skills/dobacksoft-stabilsafe/SKILL.md\" > .claude/skills/dobacksoft-stabilsafe/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hermoso92/dobackv2/main/.cursor/skills/dobacksoft-stabilsafe/SKILL.md"

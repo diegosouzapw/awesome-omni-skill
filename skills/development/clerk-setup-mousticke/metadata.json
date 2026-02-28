@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "01bfeabf1e166a1b963ff8ffd04bc3ed744e6ef8169c89d8e61f94df595b8021",
   "indexed_at": "2026-02-26T11:32:47.143Z",
-  "synced_at": "2026-02-27T02:27:21.946Z",
+  "synced_at": "2026-02-28T03:52:45.375Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2c62fb4b511e8cae3a5e833d1b5ef1209bffc7df56223814488b6ed06981089c",
   "install_command": "mkdir -p .claude/skills/clerk-setup && curl -sL \"https://raw.githubusercontent.com/Mousticke/next-real-estate-app/main/.agents/skills/clerk-setup/SKILL.md\" > .claude/skills/clerk-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Mousticke/next-real-estate-app/main/.agents/skills/clerk-setup/SKILL.md"

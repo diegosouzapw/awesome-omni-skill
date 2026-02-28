@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bb4b7bcc31f541a920e3927ac41373fae56ee5d3963cbb2eec1a2be28c43f2d9",
   "indexed_at": "2026-02-26T18:39:30.855Z",
-  "synced_at": "2026-02-27T02:27:49.508Z",
+  "synced_at": "2026-02-28T03:53:08.546Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0bb478db3472f10005644a03e6bc0aa7d7bb3cf22fd3b1d1a6c57ed1464a1ca4",
   "install_command": "mkdir -p .claude/skills/last30days && curl -sL \"https://raw.githubusercontent.com/BrianRWagner/ai-marketing-claude-code-skills/main/last30days/SKILL.md\" > .claude/skills/last30days/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/BrianRWagner/ai-marketing-claude-code-skills/main/last30days/SKILL.md"

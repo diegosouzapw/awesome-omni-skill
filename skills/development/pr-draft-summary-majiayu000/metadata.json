@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "87d5e1e4d2c6c94bb14379d48a864e8d84e38382a2ec0ebc918fe4bafbfbd4d6",
   "indexed_at": "2026-02-25T12:55:57.660Z",
-  "synced_at": "2026-02-27T02:28:14.338Z",
+  "synced_at": "2026-02-28T03:54:01.000Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/037b87032bef3319843d6510e07e94f4ebfa8a2a445f2159f9aa97d01e36c29e",
   "install_command": "mkdir -p .claude/skills/pr-draft-summary && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/pr-draft-summary-novaai-innovation-infinite-agency/SKILL.md\" > .claude/skills/pr-draft-summary/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/pr-draft-summary-novaai-innovation-infinite-agency/SKILL.md"

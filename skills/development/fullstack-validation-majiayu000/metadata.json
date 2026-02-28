@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c707174215b91fa966fb4dca9de58b6c8eacc213060632db883f578161efad09",
   "indexed_at": "2026-02-26T10:56:46.797Z",
-  "synced_at": "2026-02-27T02:27:17.876Z",
+  "synced_at": "2026-02-28T03:52:42.264Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/654131a27452b090038bd2e0d8ed8b2f372c845871fce79eba0a09f21c00f623",
   "install_command": "mkdir -p .claude/skills/fullstack-validation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/design/fullstack-validation/SKILL.md\" > .claude/skills/fullstack-validation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/design/fullstack-validation/SKILL.md"

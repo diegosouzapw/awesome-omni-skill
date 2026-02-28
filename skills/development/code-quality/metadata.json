@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "52a917f0e1c74933dc1a912da6ed9a902ee5a11d4055b6f71b9ef3f6968aae36",
   "indexed_at": "2026-02-26T18:41:23.105Z",
-  "synced_at": "2026-02-27T02:27:49.829Z",
+  "synced_at": "2026-02-28T03:53:08.908Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2b8a9a117a98eecaee417108e5442d86f433ebd1e455afa3ebba917bdd58e4c0",
   "install_command": "mkdir -p .claude/skills/code-quality && curl -sL \"https://raw.githubusercontent.com/kabroxiko/DeepGlow/main/.github/skills/code-quality/SKILL.md\" > .claude/skills/code-quality/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kabroxiko/DeepGlow/main/.github/skills/code-quality/SKILL.md"

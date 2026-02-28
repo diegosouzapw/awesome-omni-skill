@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d6cc5dd9d02bc5a640cad46e294ed34a65607dfd5af95176d2b399ecc1dc6696",
   "indexed_at": "2026-02-25T12:56:00.629Z",
-  "synced_at": "2026-02-27T02:28:14.551Z",
+  "synced_at": "2026-02-28T03:54:01.222Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bd51bcd4f5650ef422c6d4482f01974990aa9c2d5dfe5e30da14c4f849dfa476",
   "install_command": "mkdir -p .claude/skills/pr-draft-summary && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent/openai-agents/.agents/skills/pr-draft-summary/SKILL.md\" > .claude/skills/pr-draft-summary/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent/openai-agents/.agents/skills/pr-draft-summary/SKILL.md"

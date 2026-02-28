@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b5a91f890b7f0c3926a5aa92496cd0bb77c545f5cb619be74296eb68da15e422",
   "indexed_at": "2026-02-25T12:35:57.325Z",
-  "synced_at": "2026-02-27T02:27:58.452Z",
+  "synced_at": "2026-02-28T03:53:44.129Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7f890f3b4488e57d41e02bf0176371d5bb465df44e3bc0b04ba39852f9a53af5",
   "install_command": "mkdir -p .claude/skills/rails-inertia-stack && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/rails-inertia-stack/SKILL.md\" > .claude/skills/rails-inertia-stack/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/rails-inertia-stack/SKILL.md"

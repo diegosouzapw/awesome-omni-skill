@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4e2177e3a1b731cf8c4b0e64b5905e8d15ec3ed9c0510f670a58534524a99ede",
   "indexed_at": "2026-02-26T11:42:07.824Z",
-  "synced_at": "2026-02-27T02:27:30.366Z",
+  "synced_at": "2026-02-28T03:52:52.974Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eb32f32380941a68fe84ea4177b07953e66c05ccc75f93530d7de97f52bf8481",
   "install_command": "mkdir -p .claude/skills/api-fuzzing-bug-bounty && curl -sL \"https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/api-fuzzing-bug-bounty/SKILL.md\" > .claude/skills/api-fuzzing-bug-bounty/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/api-fuzzing-bug-bounty/SKILL.md"

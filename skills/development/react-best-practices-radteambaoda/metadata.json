@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a33edb62739655c2bb38638f3d38759ce752a5e40b33b3f9feedbadb6cec316f",
   "indexed_at": "2026-02-27T09:31:26.465Z",
-  "synced_at": "2026-02-27T13:13:08.421Z",
+  "synced_at": "2026-02-28T03:53:22.823Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cdd8ffdbbf882052c0af020a52dd26513264b59436cc8e6198a13ec50fdcf717",
   "install_command": "mkdir -p .claude/skills/react-best-practices && curl -sL \"https://raw.githubusercontent.com/RadteamBaoDA/ragflow-simple-ui/main/.agent/skills/react-best-practices/SKILL.md\" > .claude/skills/react-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/RadteamBaoDA/ragflow-simple-ui/main/.agent/skills/react-best-practices/SKILL.md"

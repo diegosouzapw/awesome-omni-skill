@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3d9216491f683028f13513ae0252df16e8865d54503614ee0e65450316930649",
   "indexed_at": "2026-02-26T12:23:30.326Z",
-  "synced_at": "2026-02-27T02:27:38.472Z",
+  "synced_at": "2026-02-28T03:52:58.384Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/503744fe932ab3917a68ef5216f3c2d6e7d692b346059741a75c563b01b4db36",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/Geargrindadmin/geargrind-agent-kit/main/.agent/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Geargrindadmin/geargrind-agent-kit/main/.agent/skills/ui-ux-pro-max/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3cfb8ac9c4623597395988552a0ab5b1a899ddc5d65dc4192bf248a49b27489f",
   "indexed_at": "2026-02-27T05:51:56.589Z",
-  "synced_at": "2026-02-27T13:13:01.631Z",
+  "synced_at": "2026-02-28T03:53:13.814Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/51095a0d85954110fac52641fc11a8ee34cc0d8ddb635cff3ecb453dfe35c197",
   "install_command": "mkdir -p .claude/skills/dotnet-aspire && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/baotoq/agent-skills/dotnet-aspire/SKILL.md\" > .claude/skills/dotnet-aspire/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/baotoq/agent-skills/dotnet-aspire/SKILL.md"

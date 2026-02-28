@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7da38ff6ca07f39be170db1683e5becca2f13a59ae89ad99b2ebc847225b3556",
   "indexed_at": "2026-02-27T00:30:46.010Z",
-  "synced_at": "2026-02-27T02:27:52.830Z",
+  "synced_at": "2026-02-28T03:53:11.075Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4d78134e82ebe9d01f8fcb10d8f4c15332a58e0668f04cfe0587f77d9c94d9b5",
   "install_command": "mkdir -p .claude/skills/excalidraw && curl -sL \"https://raw.githubusercontent.com/alexanderop/excalidraw-skill/main/SKILL.md\" > .claude/skills/excalidraw/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alexanderop/excalidraw-skill/main/SKILL.md"

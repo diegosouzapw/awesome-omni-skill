@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c87d1a61c0afd7d77fd8d6b5326be08bf6b7a82f06f2117487f470714806ad1",
   "indexed_at": "2026-02-25T12:49:29.068Z",
-  "synced_at": "2026-02-27T02:28:09.276Z",
+  "synced_at": "2026-02-28T03:53:55.894Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1fcf26b41979c5a6d5e32ca9bdbc95615e15dddfc829815a3485d586518ed2b1",
   "install_command": "mkdir -p .claude/skills/nock-interpreter-engineer-assistant && curl -sL \"https://raw.githubusercontent.com/toplyr-narfur/urbit-skills/main/skills/nock-interpreter-engineer-assistant/SKILL.md\" > .claude/skills/nock-interpreter-engineer-assistant/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/toplyr-narfur/urbit-skills/main/skills/nock-interpreter-engineer-assistant/SKILL.md"

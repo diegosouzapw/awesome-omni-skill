@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "867bcedead734b63c2c54f2c2af2bdf558e86b70a82a1a0fee7f4a54c7d53098",
   "indexed_at": "2026-02-27T07:52:59.050Z",
-  "synced_at": "2026-02-27T13:13:05.280Z",
+  "synced_at": "2026-02-28T03:53:18.374Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/41ef10b7f4478707c0c58eb3aa2e70067f0256e6b7881ea55d5e68aa5fbc7125",
   "install_command": "mkdir -p .claude/skills/frontend-design && curl -sL \"https://raw.githubusercontent.com/FrankAsanteVanLaarhoven/navarobotic-learn/main/skills/frontend-design/SKILL.md\" > .claude/skills/frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/FrankAsanteVanLaarhoven/navarobotic-learn/main/skills/frontend-design/SKILL.md"

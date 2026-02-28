@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ead7640f7f718096f804b6ff753b2f7e281c67cb91362a785a9c105fab0d7839",
   "indexed_at": "2026-02-27T08:52:38.875Z",
-  "synced_at": "2026-02-27T13:13:07.603Z",
+  "synced_at": "2026-02-28T03:53:21.755Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/85b2a0bdfbcb8451b3d29ed307b3dedf0b1dee94fcbbd351e66a5dfe1b6509ad",
   "install_command": "mkdir -p .claude/skills/qdrant-vector-search && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/qdrant/SKILL.md\" > .claude/skills/qdrant-vector-search/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/qdrant/SKILL.md"

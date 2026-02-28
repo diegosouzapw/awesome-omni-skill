@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9b7873fb12664270a4dba8e73de5dece934c209d50ebd5eb071f3a59cffbaf4a",
   "indexed_at": "2026-02-27T07:47:48.167Z",
-  "synced_at": "2026-02-27T13:13:11.487Z",
+  "synced_at": "2026-02-28T03:53:39.515Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c9db86e450289789fd5b9a43889d867f81b9e7d4ffb3460a7de2486f5ada62f4",
   "install_command": "mkdir -p .claude/skills/solidstart-api-routes && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/solidstart-api-routes/SKILL.md\" > .claude/skills/solidstart-api-routes/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/solidstart-api-routes/SKILL.md"

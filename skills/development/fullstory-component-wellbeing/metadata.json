@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "836389f4b8427ac81e02c8c55038b7ce79b655e8f4584ecb5a1934b608800294",
   "indexed_at": "2026-02-26T12:22:02.604Z",
-  "synced_at": "2026-02-27T02:27:35.958Z",
+  "synced_at": "2026-02-28T03:52:56.711Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5b513dba846a3ecb515f7d1535959f6e610535fce55a4b9168bcf9b35cfe6208",
   "install_command": "mkdir -p .claude/skills/fullstory-component-wellbeing && curl -sL \"https://raw.githubusercontent.com/fullstorydev/fs-skills/main/framework/fullstory-component-wellbeing/SKILL.md\" > .claude/skills/fullstory-component-wellbeing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fullstorydev/fs-skills/main/framework/fullstory-component-wellbeing/SKILL.md"

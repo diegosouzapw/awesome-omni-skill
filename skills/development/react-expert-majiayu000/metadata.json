@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "437314ebc87fbbc2ef7abd69867229f2f0d3962172e0f4135bfe6e8f7d12159b",
   "indexed_at": "2026-02-26T12:22:16.725Z",
-  "synced_at": "2026-02-27T02:27:36.316Z",
+  "synced_at": "2026-02-28T03:52:57.067Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c6cac506b19867f7c9a27e0dfa1d4c806afc954ec5349f7aa5c224c50c5e450c",
   "install_command": "mkdir -p .claude/skills/react-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/testing/react-expert/SKILL.md\" > .claude/skills/react-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/testing/react-expert/SKILL.md"

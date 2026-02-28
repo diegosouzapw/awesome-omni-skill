@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d74033608db5bfc0da439af05f5d9376dcface0d12a795e462ea89bd8d61616e",
   "indexed_at": "2026-02-27T05:54:13.352Z",
-  "synced_at": "2026-02-27T13:13:02.173Z",
+  "synced_at": "2026-02-28T03:53:14.576Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fecac8e75fedae7e283bfbbc5cd40257eeee2be5db012fed59ecca82ce89d24e",
   "install_command": "mkdir -p .claude/skills/zero-to-hero && curl -sL \"https://raw.githubusercontent.com/j0KZ/mcp-agents/main/starter-kit/.claude/skills/zero-to-hero/SKILL.md\" > .claude/skills/zero-to-hero/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/j0KZ/mcp-agents/main/starter-kit/.claude/skills/zero-to-hero/SKILL.md"

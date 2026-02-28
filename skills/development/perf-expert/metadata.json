@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ec1dc0628f0dc7a2a6d1e4c4a38fa20e3c174d6dfdcc2dcfde04f56379037760",
   "indexed_at": "2026-02-25T12:46:41.203Z",
-  "synced_at": "2026-02-27T02:28:06.686Z",
+  "synced_at": "2026-02-28T03:53:53.220Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c09efc475951146ef89cba2cffd07c065ad24f7afaf6aef292df4a454b45e73b",
   "install_command": "mkdir -p .claude/skills/perf-expert && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/hardikpandya/perf-analyzer/perf-expert/SKILL.md\" > .claude/skills/perf-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/hardikpandya/perf-analyzer/perf-expert/SKILL.md"

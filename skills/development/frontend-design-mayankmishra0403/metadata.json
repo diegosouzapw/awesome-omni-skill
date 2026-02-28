@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e6199198074fe55aafb75abaf75170e8f380cc3d97edd8bfe1a5273756c763a4",
   "indexed_at": "2026-02-27T07:52:57.740Z",
-  "synced_at": "2026-02-27T13:13:05.164Z",
+  "synced_at": "2026-02-28T03:53:18.186Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2acda152334ac463965d0e954efc2cd001a55dc2fad6e4fbf058d9d50c1c9134",
   "install_command": "mkdir -p .claude/skills/frontend-design && curl -sL \"https://raw.githubusercontent.com/mayankmishra0403/printhub/main/skills/frontend-design/SKILL.md\" > .claude/skills/frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mayankmishra0403/printhub/main/skills/frontend-design/SKILL.md"

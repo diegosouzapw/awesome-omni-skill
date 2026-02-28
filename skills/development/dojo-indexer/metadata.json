@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d29a5b89758b6301ba121dcacac8639034cfbc1cfbce5a848076cf3263b617b8",
   "indexed_at": "2026-02-25T12:49:16.423Z",
-  "synced_at": "2026-02-27T02:28:08.641Z",
+  "synced_at": "2026-02-28T03:53:55.287Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a51418d3e30ea9ee95763df4166182065a3cbebe0c660d674ce66a69ba026ea2",
   "install_command": "mkdir -p .claude/skills/dojo-indexer && curl -sL \"https://raw.githubusercontent.com/dojoengine/book/main/skills/dojo-indexer/SKILL.md\" > .claude/skills/dojo-indexer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dojoengine/book/main/skills/dojo-indexer/SKILL.md"

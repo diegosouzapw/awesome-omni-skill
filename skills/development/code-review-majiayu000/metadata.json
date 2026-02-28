@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "35ca6b016d6ad071814626abf92e01783e96b65b19e972fe18b772229c27f33a",
   "indexed_at": "2026-02-25T12:57:03.002Z",
-  "synced_at": "2026-02-27T02:28:15.382Z",
+  "synced_at": "2026-02-28T03:54:02.126Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/549b2884bf5a9ce7a93a1897939c45502af3feddf4c79de359b4d01d87a8f9ff",
   "install_command": "mkdir -p .claude/skills/code-review && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/code-review-pekral-cursor-rules/SKILL.md\" > .claude/skills/code-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/code-review-pekral-cursor-rules/SKILL.md"

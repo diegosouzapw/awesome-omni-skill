@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1f142651e6376581a7fb72c56ab5d5ed3df8b813c852a84b003f7871443f3cdb",
   "indexed_at": "2026-02-25T12:34:53.327Z",
-  "synced_at": "2026-02-27T02:27:57.601Z",
+  "synced_at": "2026-02-28T03:53:43.056Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bd5fabd907cb10a671acda22616e4d710a2403d9f6d194f870a083eb53057110",
   "install_command": "mkdir -p .claude/skills/frontend-design && curl -sL \"https://raw.githubusercontent.com/lchenrique/politron-ide/main/SKILL.md\" > .claude/skills/frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lchenrique/politron-ide/main/SKILL.md"

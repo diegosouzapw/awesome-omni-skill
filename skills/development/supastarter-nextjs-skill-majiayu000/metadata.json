@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a8bbdf4c1851ace54d4eb85565ec07b9474aee6ddbb3db2af1efba211f21e5d9",
   "indexed_at": "2026-02-26T11:33:52.623Z",
-  "synced_at": "2026-02-27T02:27:24.758Z",
+  "synced_at": "2026-02-28T03:52:47.783Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/35f9661355db073e8dfe5f3914ecf61342eaeba74626a81abdd64b0db5bce312",
   "install_command": "mkdir -p .claude/skills/supastarter-nextjs-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/supastarter-nextjs-skill/SKILL.md\" > .claude/skills/supastarter-nextjs-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/supastarter-nextjs-skill/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "92a0f508351f01e407b2d1cc0497f170404b4bbbb4d919d62c245b9057912626",
   "indexed_at": "2026-02-26T11:32:08.909Z",
-  "synced_at": "2026-02-27T02:27:20.309Z",
+  "synced_at": "2026-02-28T03:52:44.256Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/697e6b61338c8f31ac9c40f510b6bdfb0e1d5627f64c43fa7891b5eaf7c43b7b",
   "install_command": "mkdir -p .claude/skills/storyblok-best-practices && curl -sL \"https://raw.githubusercontent.com/bartundmett/skills/main/skills/storyblok/SKILL.md\" > .claude/skills/storyblok-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bartundmett/skills/main/skills/storyblok/SKILL.md"

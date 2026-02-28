@@ -1,131 +1,116 @@
 ---
 name: commit
-description: Safe commit workflow with multi-contributor awareness and structured message format.
-user-invocable: false
+description: Analyze unstaged and staged changes, suggest atomic commit groups with conventional commit messages. NEVER pushes to remote.
+license: MIT
+compatibility:
+  - vcs:git
+allowed-tools:
+  - Read
+  - Glob
+  - Grep
+  - Bash(git:status)
+  - Bash(git:diff)
+  - Bash(git:log)
+  - Bash(git:add)
+  - Bash(git:commit)
+metadata:
+  author: thoreinstein
+  version: 1.0.0
 ---
 
 # Commit
 
-Safe commit workflow with multi-contributor awareness. All commits in the Workaholic workflow should use this skill.
+Analyze unstaged changes and organize them into atomic, well-documented commits.
 
-## Multi-Contributor Awareness
+## When to Use This Skill
 
-**Context**: You are not the only one working in this repository. Multiple developers and agents may have uncommitted changes in the working directory.
+- After completing work that spans multiple logical changes
+- When working tree has mixed changes (features, fixes, refactors)
+- To ensure clean, reviewable git history
+- Before creating a pull request
 
-Before committing:
+## Workflow
 
-1. **Run pre-flight check** to understand what will be committed
-2. **Review staged changes** to ensure only intended files are included
-3. **Identify unintended changes** that may belong to other contributors
-4. **Ask user if uncertain** about whether to include changes
+1. **Analyze current state:**
+   - Check `git status` to see all staged and unstaged changes
+   - Review `git diff` to understand what changed
 
-## Usage
+2. **Group changes into atomic units:**
+   - Each group should represent one logical change (feature, fix, refactor, docs, etc.)
+   - Group related files and hunks together
+   - Keep changes that depend on each other in the same commit or note the dependency
 
-```bash
-bash ~/.claude/plugins/marketplaces/workaholic/plugins/core/skills/commit/sh/commit.sh \
-  "<title>" "<description>" "<changes>" "<test-plan>" "<release-prep>" [files...]
-```
+3. **For each group, provide:**
+   - List of files/hunks to stage
+   - Commit message following project conventions
+   - Brief rationale for the grouping
 
-### Parameters
+4. **Note dependencies:**
+   - If commits must be applied in a specific order, document this
+   - Identify any commits that could be applied independently
 
-Each section (except title) should be a short paragraph of 3-5 sentences. See the Message Format section below for detailed guidance on what to cover in each section.
+5. **Execute commits:**
+   - Stage and commit each group in the appropriate order
+   - Proceed unless there are questions or ambiguities
 
-- `title` - Commit title (present-tense verb, 50 chars max)
-- `description` - Why this change was needed: the problem, what triggered it, the chosen approach and rationale (from ticket Overview)
-- `changes` - What users will experience differently: concrete before-and-after differences, or "None" with brief explanation
-- `test-plan` - What verification was done or should be done: manual checks, automated tests, edge cases considered
-- `release-prep` - What is needed to ship and support: migration steps, config changes, documentation updates, or "None" with brief explanation
-- `files...` - Optional: specific files to stage (if omitted, stages all tracked changes)
+## Optional Focus
 
-### Staging Behavior
+You can provide a focus to filter which changes to consider:
 
-- If files are specified: stages only those files
-- If no files specified: stages all modified tracked files (`git add -u`)
-- **Never uses `git add -A`** to avoid accidentally staging untracked files from other contributors
+- `"frontend only"` - only consider frontend-related changes
+- `"exclude tests"` - skip test file changes
+- `"api changes"` - focus on API-related files
+- Any other relevant filter for the codebase
 
-## Pre-Commit Checks
+## Constraints
 
-The commit script performs safety checks:
-
-1. **Verify branch exists** - Cannot commit in detached HEAD state
-2. **Check for staged changes** - Warns if nothing to commit
-3. **Review what will be committed** - Shows diff summary before proceeding
-
-## Message Format
-
-Each section should be a short paragraph (3-5 sentences) that gives lead agents enough signal to act without reading the full diff.
-
-```
-<title>
-
-Description: <why this change was needed, including motivation and rationale>
-
-Changes: <what users will experience differently>
-
-Test Planning: <what verification was done or should be done>
-
-Release Preparation: <what is needed to ship and support afterward>
-
-Co-Authored-By: Claude <noreply@anthropic.com>
-```
-
-### Title
-
-Present-tense verb, what changed (50 chars max). No prefixes like `feat:` or `[fix]`.
-
-Examples:
-- Add session-based authentication
-- Fix Mermaid slash character in labels
-- Remove unused RegisterTool type
-
-### Description
-
-Why this change was needed, including the motivation and rationale. Start with the problem or gap that existed before this change. Explain what triggered the work -- a user report, a downstream dependency, a missing capability, or a design decision. State the chosen approach and why it was preferred over alternatives. Extract context from the ticket Overview. Target 3-5 sentences so that a lead agent can understand the full intent without reading the diff.
-
-### Changes
-
-What users will experience differently after this change. Describe each observable difference concretely -- new commands, altered output format, changed error messages, new options, or modified default behavior. Explain the before-and-after for each difference so that a reader who has never seen the code can understand the impact. If the change is internal only, write "None" and briefly explain why there is no user-facing impact (e.g., "None -- this is a refactor of internal shell scripts with no change to CLI behavior").
-
-### Test Planning
-
-What verification was done or should be done to confirm this change works correctly. Describe manual checks that were performed and their results. List automated tests that were added, modified, or run. Identify edge cases that were considered and whether they were covered or deferred. If the change interacts with external systems, note how those interactions were validated. Write "None" only if the change is trivial (e.g., typo fix, comment update) and requires no special verification.
-
-### Release Preparation
-
-What is needed to ship this change and support it afterward. Cover migration steps or data format changes that consumers must adopt. Note configuration or environment changes required for the change to take effect. Identify documentation that needs updating (READMEs, specs, terms, changelogs). Flag any monitoring, alerting, or rollback considerations. If the change is straightforward to ship with no special requirements, write "None" and briefly explain why (e.g., "None -- backward-compatible addition with no migration needed").
+- **NEVER push to remote** - this skill only creates local commits
+- **Atomic commits** - each commit should be a single logical unit that could be reverted independently
+- **Respect project conventions** - match existing commit message style in the repository
+- **Ask before proceeding** - if grouping is ambiguous, ask for clarification rather than guessing
 
 ## Examples
 
-### Implementation commit (with specific files)
+### Example: Mixed Working Tree
 
-```bash
-bash ~/.claude/plugins/marketplaces/workaholic/plugins/core/skills/commit/sh/commit.sh \
-  "Add session-based authentication" \
-  "Users needed persistent login state across browser sessions. Previously, every page refresh required re-authentication, causing friction for returning users. Added cookie-based session management with configurable TTL, chosen over JWT tokens for simplicity and server-side revocation support." \
-  "New 'Remember me' checkbox on the login form that persists sessions for 30 days. When unchecked, sessions expire when the browser closes. Session expiry now shows a friendly redirect to login instead of a raw 401 error." \
-  "Manual login/logout flow tested across Chrome and Firefox. Verified session persistence across page refreshes and browser restarts. Tested session expiry by setting TTL to 5 seconds and confirming redirect behavior. Cookie security flags (HttpOnly, Secure, SameSite) verified in browser dev tools." \
-  "None -- backward-compatible addition. No existing auth flows are affected since session support is opt-in via the checkbox." \
-  src/auth/session.ts src/middleware/auth.ts
+**Situation:** Working tree has changes to API handler, its tests, a bug fix in an unrelated util, and a README update.
+
+**git status output:**
+```
+modified:   internal/api/users.go
+modified:   internal/api/users_test.go
+modified:   internal/util/strings.go
+modified:   README.md
 ```
 
-### Archive commit (stage all changes)
+**Proposed commit groups:**
 
-```bash
-bash ~/.claude/plugins/marketplaces/workaholic/plugins/core/skills/commit/sh/commit.sh \
-  "Archive ticket: add-authentication" \
-  "" \
-  "None" \
-  "None" \
-  "None"
+**Group 1: Bug fix (independent)**
+```
+Files: internal/util/strings.go
+Message: fix: handle empty string edge case in TrimSafe
+
+Rationale: Standalone fix, no dependencies on other changes
 ```
 
-### Abandonment commit
-
-```bash
-bash ~/.claude/plugins/marketplaces/workaholic/plugins/core/skills/commit/sh/commit.sh \
-  "Abandon: add-authentication" \
-  "Implementation proved unworkable due to API limitations" \
-  "None" \
-  "None" \
-  "Ticket moved to abandoned with failure analysis"
+**Group 2: Feature (with tests)**
 ```
+Files: internal/api/users.go, internal/api/users_test.go
+Message: feat: add email validation to user creation endpoint
+
+Rationale: Handler and its tests belong together as one logical unit
+```
+
+**Group 3: Documentation (independent)**
+```
+Files: README.md
+Message: docs: add API usage examples
+
+Rationale: Documentation update, independent of code changes
+```
+
+**Suggested order:** Group 1 → Group 2 → Group 3 (no strict dependencies)
+
+---
+
+Begin by running git status and git diff to analyze the current working tree state.

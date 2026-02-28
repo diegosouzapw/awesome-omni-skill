@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "404bf8f3c0212e08af47322a281a6014b158fedabccd2bef33d0d24aef9f9730",
   "indexed_at": "2026-02-26T12:26:42.856Z",
-  "synced_at": "2026-02-27T02:27:42.609Z",
+  "synced_at": "2026-02-28T03:53:01.249Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/935da4672354dcdfa03604cf8893ebf2e9714e80f80346c2361c8cb1db46c46d",
   "install_command": "mkdir -p .claude/skills/project-bootstrap && curl -sL \"https://raw.githubusercontent.com/didacrios/ai-coding-protocols/main/skills/project-bootstrap/SKILL.md\" > .claude/skills/project-bootstrap/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/didacrios/ai-coding-protocols/main/skills/project-bootstrap/SKILL.md"

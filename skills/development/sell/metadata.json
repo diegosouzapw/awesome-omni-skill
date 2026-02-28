@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8636a56ca9bbca4aee442eda323a13d9ccd8875d343e461ff1f8acfe7609c70d",
   "indexed_at": "2026-02-27T17:31:01.366Z",
-  "synced_at": "2026-02-27T18:16:31.839Z",
+  "synced_at": "2026-02-28T03:53:28.851Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cec1c7a3a9b961b2f45d3b7da28c13d0658d085fdcef898bfe18d76246cec557",
   "install_command": "mkdir -p .claude/skills/sell && curl -sL \"https://raw.githubusercontent.com/popmechanic/vibes-cli/main/skills/sell/SKILL.md\" > .claude/skills/sell/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/popmechanic/vibes-cli/main/skills/sell/SKILL.md"

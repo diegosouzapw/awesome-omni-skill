@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b34f4ad2c3bb5a157d3071fa2a6df42901a58c6dd82f8c42136ed21f655eeeb0",
   "indexed_at": "2026-02-26T12:21:01.459Z",
-  "synced_at": "2026-02-27T02:27:34.514Z",
+  "synced_at": "2026-02-28T03:52:55.863Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/50776eed708fcad3f8ed651951067360e4511d2322bb9e7018933c996ce73e24",
   "install_command": "mkdir -p .claude/skills/better-auth && curl -sL \"https://raw.githubusercontent.com/akornmeier/claude-config/main/skills/better-auth/SKILL.md\" > .claude/skills/better-auth/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akornmeier/claude-config/main/skills/better-auth/SKILL.md"

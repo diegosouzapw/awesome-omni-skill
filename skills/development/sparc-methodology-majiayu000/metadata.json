@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5d68253d5086ce9bb7701f9941d0459564641e4ac060df301e8e6729cc98e4f4",
   "indexed_at": "2026-02-27T06:55:42.764Z",
-  "synced_at": "2026-02-27T13:13:03.173Z",
+  "synced_at": "2026-02-28T03:53:15.767Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2e75de0a1ee9346548cdce2e8912c7d97029a0d13f5371a7a8fdcd01c33f76a0",
   "install_command": "mkdir -p .claude/skills/sparc-methodology && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/sparc-methodology-dnyoussef-ai-chrome-extension/SKILL.md\" > .claude/skills/sparc-methodology/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/sparc-methodology-dnyoussef-ai-chrome-extension/SKILL.md"

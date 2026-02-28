@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d5b28c0db200c2c352bbdbbcc1cbfe56cabb6cf1326701d7c2597b1d70ce1caf",
   "indexed_at": "2026-02-26T22:41:14.802Z",
-  "synced_at": "2026-02-27T02:27:55.561Z",
+  "synced_at": "2026-02-28T03:53:38.631Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f1ab987929d7a7dca6cae406c9a02a9225f05557eeac522847df02d4449fedad",
   "install_command": "mkdir -p .claude/skills/solidstart-websocket && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/solidstart-websocket/SKILL.md\" > .claude/skills/solidstart-websocket/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/solidstart-websocket/SKILL.md"

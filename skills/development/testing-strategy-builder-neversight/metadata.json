@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6d0130079ccb4a1427abb8995416bcd4347ee0be306a2dbb4ebe8a12b36047d9",
   "indexed_at": "2026-02-27T10:51:00.958Z",
-  "synced_at": "2026-02-27T13:13:09.963Z",
+  "synced_at": "2026-02-28T03:53:24.600Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a7aa5e018be713a8169951b654f23df024a6f2ce2120c8d0c74edd034b99d30f",
   "install_command": "mkdir -p .claude/skills/testing-strategy-builder && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ariegoldkin/ai-agent-hub/testing-strategy-builder/SKILL.md\" > .claude/skills/testing-strategy-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ariegoldkin/ai-agent-hub/testing-strategy-builder/SKILL.md"

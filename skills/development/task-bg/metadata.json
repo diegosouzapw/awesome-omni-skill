@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cbd21f4643286060568da705602b0ae297e2adbf37b19285526f6a8c5149ab0c",
   "indexed_at": "2026-02-25T12:50:38.129Z",
-  "synced_at": "2026-02-27T02:28:10.519Z",
+  "synced_at": "2026-02-28T03:53:56.973Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f8007b64c0e956c1a191499bec96d2f8def016e3fb6adca0c95cc3302f46f4d7",
   "install_command": "mkdir -p .claude/skills/task-bg && curl -sL \"https://raw.githubusercontent.com/qazz92/oh-my-droid/main/oh-my-droid/skills/task-bg/SKILL.md\" > .claude/skills/task-bg/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/qazz92/oh-my-droid/main/oh-my-droid/skills/task-bg/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8115b350c84324b3975e559069602b0805d15236f9517414a31cadf774d0f7de",
   "indexed_at": "2026-02-25T12:46:54.941Z",
-  "synced_at": "2026-02-27T02:28:06.859Z",
+  "synced_at": "2026-02-28T03:53:53.391Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8558cd6f89a71291f0f71bff0af74304ad300aeb327320d9e323fffe76294f50",
   "install_command": "mkdir -p .claude/skills/winuse && curl -sL \"https://raw.githubusercontent.com/nedos/winuse/main/SKILL.md\" > .claude/skills/winuse/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nedos/winuse/main/SKILL.md"

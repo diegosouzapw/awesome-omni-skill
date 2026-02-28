@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fc0759273ec33fdfdbabde56f96a5ef1dcd9207f39beeb315cd838b68cb7f45c",
   "indexed_at": "2026-02-27T08:50:40.626Z",
-  "synced_at": "2026-02-27T13:13:06.768Z",
+  "synced_at": "2026-02-28T03:53:20.451Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4b581d1246271d92d5504b2dafdebfa8eaeca3418bd7220e939f9fd931517f63",
   "install_command": "mkdir -p .claude/skills/seatunnel-skill && curl -sL \"https://raw.githubusercontent.com/apache/seatunnel-tools/main/seatunnel-skill/SKILL.md\" > .claude/skills/seatunnel-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/apache/seatunnel-tools/main/seatunnel-skill/SKILL.md"

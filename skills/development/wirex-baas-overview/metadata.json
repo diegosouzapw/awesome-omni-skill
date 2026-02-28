@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9f7b35d7a3253c622eb494443c10ed0e4e068894f3a00c9e047688fd14026463",
   "indexed_at": "2026-02-26T17:35:57.668Z",
-  "synced_at": "2026-02-27T02:27:47.351Z",
+  "synced_at": "2026-02-28T03:53:06.371Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/031d6e56579a54b0b515c2b2c720cd808b65d72d12f83950a7818ac346ef7719",
   "install_command": "mkdir -p .claude/skills/wirex-baas-overview && curl -sL \"https://raw.githubusercontent.com/wirexapp/wirex-baas-agent-skills/main/skills/wirex-baas-overview/SKILL.md\" > .claude/skills/wirex-baas-overview/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wirexapp/wirex-baas-agent-skills/main/skills/wirex-baas-overview/SKILL.md"

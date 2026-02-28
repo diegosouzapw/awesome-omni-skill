@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "806e0edadf5e095f91cbb23c65112cae92a98b73bc94c8b18c97a5ec14a6c8e0",
   "indexed_at": "2026-02-26T11:39:07.604Z",
-  "synced_at": "2026-02-27T02:27:28.533Z",
+  "synced_at": "2026-02-28T03:52:51.193Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3b2636d467d4e32ac82aa54365a6d9faa43a481398110b6bf7c98fc5f2404de6",
   "install_command": "mkdir -p .claude/skills/moai-baas-cloudflare-ext && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/testing/moai-baas-cloudflare-ext/SKILL.md\" > .claude/skills/moai-baas-cloudflare-ext/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/testing/moai-baas-cloudflare-ext/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8cc60b9e245d149eec75b54e18b810ef0efbc6cddda899ccbe649dace1926ea4",
   "indexed_at": "2026-02-26T23:37:33.717Z",
-  "synced_at": "2026-02-27T02:27:51.388Z",
+  "synced_at": "2026-02-28T03:53:10.409Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b75cd0f833e66d43b356d44e0db384010d9f3b1b181e5ddc161a0d1290e7c966",
   "install_command": "mkdir -p .claude/skills/linkedin && curl -sL \"https://raw.githubusercontent.com/skillhq/linkedin/main/SKILL.md\" > .claude/skills/linkedin/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/skillhq/linkedin/main/SKILL.md"
