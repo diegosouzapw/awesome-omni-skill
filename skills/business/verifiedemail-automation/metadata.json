@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f978b132da814a6e87c4c6ff5bea0ef10dfff6040bcfef7fc241074dafce8eba",
   "indexed_at": "2026-02-26T00:27:15.761Z",
-  "synced_at": "2026-02-27T02:51:42.143Z",
+  "synced_at": "2026-02-28T04:23:54.149Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c20b01e3240f9866a90f19c28789f450cf4c21b9e36daff1f07a971fe0ac223b",
   "install_command": "mkdir -p .claude/skills/verifiedemail-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/verifiedemail-automation/SKILL.md\" > .claude/skills/verifiedemail-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/verifiedemail-automation/SKILL.md"

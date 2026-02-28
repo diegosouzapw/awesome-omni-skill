@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c5d3f6f2fe59833d36cc264bffc2b41c13b16e749585139474561a62dee85a93",
   "indexed_at": "2026-02-25T19:40:21.433Z",
-  "synced_at": "2026-02-27T02:51:32.897Z",
+  "synced_at": "2026-02-28T04:23:43.465Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8f28621e98ee23e182e7132f20287b13eb857c8143aa1fca6b8bcb31da29442a",
   "install_command": "mkdir -p .claude/skills/glm5 && curl -sL \"https://raw.githubusercontent.com/alfredolopez80/multi-agent-ralph-loop/main/.claude/skills/glm5/SKILL.md\" > .claude/skills/glm5/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alfredolopez80/multi-agent-ralph-loop/main/.claude/skills/glm5/SKILL.md"

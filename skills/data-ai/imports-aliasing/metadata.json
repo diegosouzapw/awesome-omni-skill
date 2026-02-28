@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7763e0e259788d495ed9e8d57fb8feb11a0c104b97c04bd6ce93c4acdc1f30c2",
   "indexed_at": "2026-02-26T22:37:03.844Z",
-  "synced_at": "2026-02-27T02:51:02.490Z",
+  "synced_at": "2026-02-28T04:23:10.109Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e0fe5c008f77c02c6a0946f747bc428d7542ae4c735fb54242b1d20fc7d79b0c",
   "install_command": "mkdir -p .claude/skills/imports-aliasing && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/imports-aliasing/SKILL.md\" > .claude/skills/imports-aliasing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/imports-aliasing/SKILL.md"

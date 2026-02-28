@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "681584875f2569a8215aeefc3c449965242c65cfcfea55f7f666f76e319c4468",
   "indexed_at": "2026-02-25T18:27:27.036Z",
-  "synced_at": "2026-02-27T02:51:48.371Z",
+  "synced_at": "2026-02-28T04:23:59.548Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ca39a01a96c7cfaa32f43777f03d6ac82e665c51c1f0a1c20304daaf7eb5d8d0",
   "install_command": "mkdir -p .claude/skills/startup-business-analyst-business-case && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/startup-business-analyst-business-case/SKILL.md\" > .claude/skills/startup-business-analyst-business-case/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/startup-business-analyst-business-case/SKILL.md"

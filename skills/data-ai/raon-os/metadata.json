@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "14402ae1751c0e9acd5c1405138eec9668b9dc89addb5ee63aa2547bbb48935f",
   "indexed_at": "2026-02-26T16:36:33.187Z",
-  "synced_at": "2026-02-27T02:50:59.236Z",
+  "synced_at": "2026-02-28T04:23:04.878Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/da397d253d5097a3860fefef72170143aac8d4090e067b6a9ad33c30c405d40a",
   "install_command": "mkdir -p .claude/skills/raon-os && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/lifeissea/zero-to-one-startup/clawhub-raon-os/SKILL.md\" > .claude/skills/raon-os/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/lifeissea/zero-to-one-startup/clawhub-raon-os/SKILL.md"

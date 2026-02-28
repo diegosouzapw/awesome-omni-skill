@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c3bdc0762284ae174d6807e15d93eb5205540a26a213ecdd3ba57d1965b6ec2a",
   "indexed_at": "2026-02-25T12:42:08.607Z",
-  "synced_at": "2026-02-27T02:51:59.382Z",
+  "synced_at": "2026-02-28T04:24:15.069Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/69a8612404e939b8e7ae77634f4098e64b789661e1f327ef554d3adf043c7b11",
   "install_command": "mkdir -p .claude/skills/bexio && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/bexio/SKILL.md\" > .claude/skills/bexio/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/bexio/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c4e2b0a81c2873487cf02533832375afbbc527549630eb0ef92084f8dda27bd6",
   "indexed_at": "2026-02-26T10:30:37.346Z",
-  "synced_at": "2026-02-27T02:52:04.633Z",
+  "synced_at": "2026-02-28T04:24:20.274Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b226a4ae57821cbd7a2905e58b3607a9eb7d373507a58620a93500b5000fec9e",
   "install_command": "mkdir -p .claude/skills/investment-strategy-cskill && curl -sL \"https://raw.githubusercontent.com/azizikri/investment-strategy-cskill/main/SKILL.md\" > .claude/skills/investment-strategy-cskill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/azizikri/investment-strategy-cskill/main/SKILL.md"

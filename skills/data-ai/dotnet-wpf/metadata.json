@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "26118ed775b3bb56a68d5ab4d70523d1216fadb7e8a695cd3b0bc03ca97a3a85",
   "indexed_at": "2026-02-26T22:39:45.474Z",
-  "synced_at": "2026-02-27T02:51:03.935Z",
+  "synced_at": "2026-02-28T04:23:11.482Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a3e5c2dec1de6364460c3262cec8a9f838063d8df7433d7380477c9b15d5b83a",
   "install_command": "mkdir -p .claude/skills/dotnet-wpf && curl -sL \"https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/dotnet-wpf/SKILL.md\" > .claude/skills/dotnet-wpf/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/dotnet-wpf/SKILL.md"

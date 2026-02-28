@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c56281a006aeb75f5501359d0b08ad2987e9a64ae4e37c2023ed01df0a43e3dc",
   "indexed_at": "2026-02-26T15:26:49.761Z",
-  "synced_at": "2026-02-27T02:51:00.880Z",
+  "synced_at": "2026-02-28T04:23:08.700Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0796d50f6b066ba1806aa199f22bc3c4d7e87712fcc388df661aaf7f5c0ea9bf",
   "install_command": "mkdir -p .claude/skills/private-vs-shared-components && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/private-vs-shared-components/SKILL.md\" > .claude/skills/private-vs-shared-components/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/private-vs-shared-components/SKILL.md"

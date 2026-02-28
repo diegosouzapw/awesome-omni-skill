@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "49c66c6947086f1da7c5c94485dff601626dbc31adb6a90924d3b3a613fd65b2",
   "indexed_at": "2026-02-25T12:52:58.436Z",
-  "synced_at": "2026-02-27T02:51:41.162Z",
+  "synced_at": "2026-02-28T04:23:53.247Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bef77d4629fb60d0d8ae215b3341eb7693cb51e85cc230fabc510b42b4fecba4",
   "install_command": "mkdir -p .claude/skills/invalid-yaml-with-unclosed-bracket && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/invalid-yaml-syntax-majiayu000-claude-skill-registr/SKILL.md\" > .claude/skills/invalid-yaml-with-unclosed-bracket/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/invalid-yaml-syntax-majiayu000-claude-skill-registr/SKILL.md"

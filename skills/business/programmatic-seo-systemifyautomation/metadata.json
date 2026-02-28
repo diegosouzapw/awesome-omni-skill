@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a24ec21884043b4a01e6d59a32d44b3b62c54248ddf6aac250bdd8f12427c167",
   "indexed_at": "2026-02-26T21:11:05.688Z",
-  "synced_at": "2026-02-27T02:51:58.873Z",
+  "synced_at": "2026-02-28T04:24:13.457Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dcbcb347881786a0778adcab37b2b361f8ca97bcd650a1042d5f84a12c2a4508",
   "install_command": "mkdir -p .claude/skills/programmatic-seo && curl -sL \"https://raw.githubusercontent.com/systemifyautomation/claude-marketing-skills/main/skills/programmatic-seo/SKILL.md\" > .claude/skills/programmatic-seo/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/systemifyautomation/claude-marketing-skills/main/skills/programmatic-seo/SKILL.md"

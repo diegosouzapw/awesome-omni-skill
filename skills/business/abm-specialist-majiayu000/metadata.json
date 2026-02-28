@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c3bc891ffdc0a7a05fbe89538caf74fec6ffe2fc32f0b2389472ce5f65ef7556",
   "indexed_at": "2026-02-24T23:21:21.188Z",
-  "synced_at": "2026-02-27T02:51:53.552Z",
+  "synced_at": "2026-02-28T04:24:08.033Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8ca3d4b28ba6635451267077dbbf2e25891644ee22092cb0e8a2bec6935db8a3",
   "install_command": "mkdir -p .claude/skills/abm-specialist && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abm-specialist/SKILL.md\" > .claude/skills/abm-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abm-specialist/SKILL.md"

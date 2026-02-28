@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d22f594d46b52151c3f769bc7c1bcc8f786c4a93c2b3c9aa184be847dcb6c33d",
   "indexed_at": "2026-02-26T05:11:55.583Z",
-  "synced_at": "2026-02-27T02:51:54.132Z",
+  "synced_at": "2026-02-28T04:24:08.650Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5c926d570ebc83b9d3b09da4ababe28b73764c4af06e186dd3f0ea8fa988fe81",
   "install_command": "mkdir -p .claude/skills/activecampaign-email-marketing && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/activecampaign-email-marketing/SKILL.md\" > .claude/skills/activecampaign-email-marketing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/activecampaign-email-marketing/SKILL.md"

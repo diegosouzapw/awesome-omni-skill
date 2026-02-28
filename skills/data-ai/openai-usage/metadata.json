@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "28257013b27039cb82f4093906db344304940bcfe0d36f432c9c266a0b23907b",
   "indexed_at": "2026-02-26T16:02:14.712Z",
-  "synced_at": "2026-02-27T02:51:38.024Z",
+  "synced_at": "2026-02-28T04:23:50.707Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/04082f7d3ae54707af9cf4c63fa44a53cf0ffc2dccdd73089703555844eaf825",
   "install_command": "mkdir -p .claude/skills/openai-usage && curl -sL \"https://raw.githubusercontent.com/dammitpogi/P4NTH30N/main/plugins/theseues/skills/openai-usage/SKILL.md\" > .claude/skills/openai-usage/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dammitpogi/P4NTH30N/main/plugins/theseues/skills/openai-usage/SKILL.md"

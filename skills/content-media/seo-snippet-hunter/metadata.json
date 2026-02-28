@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fad5fab62fd4bec91827f5b1937b6be1ec54f5995cc228481295b4759fb16d12",
   "indexed_at": "2026-02-25T18:26:21.046Z",
-  "synced_at": "2026-02-27T02:52:12.415Z",
+  "synced_at": "2026-02-28T04:24:29.856Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e3c9926230a2a041ffbc9c3845e54f75954218f4dbccce5298d93672c6a2d1d2",
   "install_command": "mkdir -p .claude/skills/seo-snippet-hunter && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/seo-snippet-hunter/SKILL.md\" > .claude/skills/seo-snippet-hunter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/seo-snippet-hunter/SKILL.md"

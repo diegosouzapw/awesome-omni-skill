@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6fcb6509bb842ddb92d268af38a6eb30407b71c1554af6b1918843a8b6e339f6",
   "indexed_at": "2026-02-26T07:45:54.225Z",
-  "synced_at": "2026-02-27T02:51:11.192Z",
+  "synced_at": "2026-02-28T04:23:19.269Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b6109a8ec612131724c8deaa222d620f49131b50fb27e5c649282ccb53a8198f",
   "install_command": "mkdir -p .claude/skills/ai-senior-guide && curl -sL \"https://raw.githubusercontent.com/menesekinci/ai-senior-guide/main/SKILL.md\" > .claude/skills/ai-senior-guide/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/menesekinci/ai-senior-guide/main/SKILL.md"

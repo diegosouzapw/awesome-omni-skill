@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1c3d4821e4def156444cec01a0683bb2b468dd0ce6c98e2fc088f08f65ea4c11",
   "indexed_at": "2026-02-26T22:41:44.432Z",
-  "synced_at": "2026-02-27T02:51:20.657Z",
+  "synced_at": "2026-02-28T04:23:30.936Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ec91793114e0ad4caed7da7c02ddf4452709550cb2afe84489358cee5e6739c6",
   "install_command": "mkdir -p .claude/skills/framer-motion-rules && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/framer-motion-rules/SKILL.md\" > .claude/skills/framer-motion-rules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/framer-motion-rules/SKILL.md"

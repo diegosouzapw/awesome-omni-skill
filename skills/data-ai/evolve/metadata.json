@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0673e2aa0ea2a9c1ab563570b32232ce1e2dd43aea31c1eeee66fd7daa04f06e",
   "indexed_at": "2026-02-26T19:31:19.747Z",
-  "synced_at": "2026-02-27T02:51:34.101Z",
+  "synced_at": "2026-02-28T04:23:44.661Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/61cae2caee74262d298528ff104ef20ae18e7ddffcfc6cb8a6fc5187220307c0",
   "install_command": "mkdir -p .claude/skills/evolve && curl -sL \"https://raw.githubusercontent.com/miles990/self-evolving-agent/main/SKILL.md\" > .claude/skills/evolve/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/miles990/self-evolving-agent/main/SKILL.md"

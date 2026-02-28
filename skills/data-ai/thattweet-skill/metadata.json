@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "60380d726df9b1e8467ac62f5f4fa3c64aae3574385127de08d0a426555d109a",
   "indexed_at": "2026-02-26T11:57:36.569Z",
-  "synced_at": "2026-02-27T02:51:33.739Z",
+  "synced_at": "2026-02-28T04:23:44.312Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/927a23323da71ce410f973a67d1e043d3c289f13c9fd82394339cf4a3f9d799b",
   "install_command": "mkdir -p .claude/skills/thattweet-skill && curl -sL \"https://raw.githubusercontent.com/mu-zi-lee/that-tweet-skill/main/SKILL.md\" > .claude/skills/thattweet-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mu-zi-lee/that-tweet-skill/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e8d75643b89d6ae924ba8f7a4d0679e671570200f865eabc3e0c5bcfdd482c0b",
   "indexed_at": "2026-02-25T12:50:57.316Z",
-  "synced_at": "2026-02-27T02:51:21.589Z",
+  "synced_at": "2026-02-28T04:23:31.931Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f0535acf9029eae1acaa4661c9a29f5681545f6adb7d950481d5afba1606419b",
   "install_command": "mkdir -p .claude/skills/assistant-pro && curl -sL \"https://raw.githubusercontent.com/AIDEN0602/openclaw/main/skills/assistant-pro/SKILL.md\" > .claude/skills/assistant-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AIDEN0602/openclaw/main/skills/assistant-pro/SKILL.md"

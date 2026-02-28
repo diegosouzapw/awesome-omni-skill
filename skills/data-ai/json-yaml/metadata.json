@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7483fd147ef3373942e1aaf7ee54c1879244c159f88c50a84d7dc97b28e5a8a6",
   "indexed_at": "2026-02-25T12:41:58.505Z",
-  "synced_at": "2026-02-27T02:51:06.962Z",
+  "synced_at": "2026-02-28T04:23:15.043Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3e6c17690954650e615804b690cd45a39fcb7006e896cc5bdd24bd8d3e3d1d8a",
   "install_command": "mkdir -p .claude/skills/json-yaml && curl -sL \"https://raw.githubusercontent.com/linanwx/nagobot/main/cmd/templates/skills/json-yaml/SKILL.md\" > .claude/skills/json-yaml/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/linanwx/nagobot/main/cmd/templates/skills/json-yaml/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f6f655c209f72c415febdfef0f097f27be5acfa7c671a8517e9e6d9d3043e0cb",
   "indexed_at": "2026-02-25T18:42:28.503Z",
-  "synced_at": "2026-02-27T02:52:02.172Z",
+  "synced_at": "2026-02-28T04:24:17.799Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6c3001a6c2274b65c68af34d212ad8999eba3e7c8ce2e0ff4617f1b081d74fdd",
   "install_command": "mkdir -p .claude/skills/content-marketer && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/404kidwiz/claude-supercode-skills/content-marketer/SKILL.md\" > .claude/skills/content-marketer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/404kidwiz/claude-supercode-skills/content-marketer/SKILL.md"

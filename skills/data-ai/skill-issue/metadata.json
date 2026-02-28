@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "50418322e25d2e06891425dee9e61333e6e2009cce22c614a37b881f5608c7ac",
   "indexed_at": "2026-02-25T12:36:03.747Z",
-  "synced_at": "2026-02-27T02:51:20.875Z",
+  "synced_at": "2026-02-28T04:23:31.127Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/965b4e9223e30b67fb40671fdfa0131314e8f4a754ecea8d125f89b025342b06",
   "install_command": "mkdir -p .claude/skills/skill-issue && curl -sL \"https://raw.githubusercontent.com/krispuckett/skill-issue/main/SKILL.md\" > .claude/skills/skill-issue/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/krispuckett/skill-issue/main/SKILL.md"

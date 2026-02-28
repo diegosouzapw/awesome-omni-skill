@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "364d4200208f083417489a142af82e9a1e1caed63af9e799e9afc0f5912f48cd",
   "indexed_at": "2026-02-24T22:53:39.739Z",
-  "synced_at": "2026-02-27T02:51:45.457Z",
+  "synced_at": "2026-02-28T04:23:56.797Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ac9dfbacf557db7b2970771841c6f02195fda7905671ee38eb6653d9c5fcdd0e",
   "install_command": "mkdir -p .claude/skills/doppler-marketing-automation-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/doppler-marketing-automation-automation/SKILL.md\" > .claude/skills/doppler-marketing-automation-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/doppler-marketing-automation-automation/SKILL.md"

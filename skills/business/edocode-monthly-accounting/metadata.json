@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "798af939e57cfe0fd04bc1f2d26a871de59b628f0917e3bd50441133d39c9269",
   "indexed_at": "2026-02-27T16:08:53.903Z",
-  "synced_at": "2026-02-27T18:16:05.811Z",
+  "synced_at": "2026-02-28T04:24:24.998Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/07c9306e7a2cd02891620b5cc6121d8d64dfc3157aed876781b1fa92c0abfa07",
   "install_command": "mkdir -p .claude/skills/edocode-monthly-accounting && curl -sL \"https://raw.githubusercontent.com/YMD7/dotfiles/main/.claude/skills/edocode-accounting/SKILL.md\" > .claude/skills/edocode-monthly-accounting/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YMD7/dotfiles/main/.claude/skills/edocode-accounting/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d2f7678ebe3cb92d11e8226be8d94fd87bb2c1f3f5a2f248e23a0c4aa13c0cd4",
   "indexed_at": "2026-02-25T18:26:08.138Z",
-  "synced_at": "2026-02-27T02:51:47.422Z",
+  "synced_at": "2026-02-28T04:23:58.661Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a57b5e8db170ba539bff52db15bcefb68449feb8719f44f929dfbe6735f3c402",
   "install_command": "mkdir -p .claude/skills/seo-cannibalization-detector && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/seo-cannibalization-detector/SKILL.md\" > .claude/skills/seo-cannibalization-detector/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/seo-cannibalization-detector/SKILL.md"

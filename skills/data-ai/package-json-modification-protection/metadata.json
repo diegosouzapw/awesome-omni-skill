@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e49a98b2eed152f5037066a666f5d3d339374e26ef30fa351c5aeef46363efc5",
   "indexed_at": "2026-02-26T22:37:58.315Z",
-  "synced_at": "2026-02-27T02:51:03.282Z",
+  "synced_at": "2026-02-28T04:23:10.854Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c12ab3f5a9fdb5c00302464e9d285f93f673d45ed29c21e1ae810721b7eb8f08",
   "install_command": "mkdir -p .claude/skills/package-json-modification-protection && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/package-json-modification-protection/SKILL.md\" > .claude/skills/package-json-modification-protection/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/package-json-modification-protection/SKILL.md"

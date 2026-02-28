@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "09592763509bf8bb115417c798bb950a40cd2c056c11e0895fd4d5f05cc3bc3f",
   "indexed_at": "2026-02-25T19:40:31.568Z",
-  "synced_at": "2026-02-27T02:51:23.470Z",
+  "synced_at": "2026-02-28T04:23:33.658Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/39dff8b492fd3a4fa12e6e6bbad8975454f24bf669c832cceb22a6bc24de2c40",
   "install_command": "mkdir -p .claude/skills/evm-tx-info && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/evm-tx-info/SKILL.md\" > .claude/skills/evm-tx-info/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/evm-tx-info/SKILL.md"

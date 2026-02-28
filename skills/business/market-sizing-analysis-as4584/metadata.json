@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "227f1f7cc5b25df2a4f3cab5f9d1d12d371bef628d823ded45e003b890a3f054",
   "indexed_at": "2026-02-26T17:09:14.465Z",
-  "synced_at": "2026-02-27T02:51:58.371Z",
+  "synced_at": "2026-02-28T04:24:12.968Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/68fb5ca3f2d71373c2f9f315f20309c4db325d60e5b56305f1c7f7dd0b816852",
   "install_command": "mkdir -p .claude/skills/market-sizing-analysis && curl -sL \"https://raw.githubusercontent.com/as4584/antigravity-skills/main/agents-wshobson/plugins/startup-business-analyst/skills/market-sizing-analysis/SKILL.md\" > .claude/skills/market-sizing-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/as4584/antigravity-skills/main/agents-wshobson/plugins/startup-business-analyst/skills/market-sizing-analysis/SKILL.md"

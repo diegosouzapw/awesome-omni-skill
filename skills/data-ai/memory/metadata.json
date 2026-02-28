@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7de049809a48e68d9a5b223528f842eed0246ff2a6250b37016b393cab4029af",
   "indexed_at": "2026-02-26T15:52:10.393Z",
-  "synced_at": "2026-02-27T02:51:25.758Z",
+  "synced_at": "2026-02-28T04:23:35.662Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b34ba75cf7343ecf4ad3e3efab3d2149120e0e5324a20c47f7ead63d55cfb6aa",
   "install_command": "mkdir -p .claude/skills/memory && curl -sL \"https://raw.githubusercontent.com/kang-jaehyun/Mac-the-researcher/main/.claude/skills/memory/SKILL.md\" > .claude/skills/memory/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kang-jaehyun/Mac-the-researcher/main/.claude/skills/memory/SKILL.md"

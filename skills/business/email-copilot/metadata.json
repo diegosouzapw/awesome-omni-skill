@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dc4400619c7917ed3cbe526bb91abe9489b57c5e226e4a43252e079844547ff8",
   "indexed_at": "2026-02-25T14:10:07.873Z",
-  "synced_at": "2026-02-27T02:51:59.889Z",
+  "synced_at": "2026-02-28T04:24:15.609Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e1d72f9e83cc241b820747a304b1b5b5b055d942d51e7073aec9d408360192e8",
   "install_command": "mkdir -p .claude/skills/email-copilot && curl -sL \"https://raw.githubusercontent.com/Leechael/email-copilot-skill/main/SKILL.md\" > .claude/skills/email-copilot/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Leechael/email-copilot-skill/main/SKILL.md"

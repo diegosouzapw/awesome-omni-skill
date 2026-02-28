@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bf8fa9271b290cad80d493fbed77a07729ed6700daf41402f2d07504469ce37c",
   "indexed_at": "2026-02-24T22:54:05.452Z",
-  "synced_at": "2026-02-27T02:51:45.909Z",
+  "synced_at": "2026-02-28T04:23:57.237Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/af7ae9dbba3a27c98ccd3efbf427f9583f9046b76d864676d536a51e7b22c717",
   "install_command": "mkdir -p .claude/skills/emailoctopus-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/emailoctopus-automation/SKILL.md\" > .claude/skills/emailoctopus-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/emailoctopus-automation/SKILL.md"

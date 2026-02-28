@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0e10343193e24e60231ad353c27cfd691d915e60c5272b5214c6f8e91e1b0c5e",
   "indexed_at": "2026-02-25T17:25:02.765Z",
-  "synced_at": "2026-02-27T02:51:49.166Z",
+  "synced_at": "2026-02-28T04:24:00.260Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bc6ef3c765ca2e45d78bfcf9780dba10d74273a4b8328fedde88d9cc6ca41a40",
   "install_command": "mkdir -p .claude/skills/marketing-ideas && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/marketing-ideas/SKILL.md\" > .claude/skills/marketing-ideas/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/marketing-ideas/SKILL.md"

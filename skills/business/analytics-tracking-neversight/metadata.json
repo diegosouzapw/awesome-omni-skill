@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "06dc04a1ecf4ad51f6deb8dd7b8aa61987d646032303036c5fa3077102f90155",
   "indexed_at": "2026-02-26T13:22:04.375Z",
-  "synced_at": "2026-02-27T02:51:56.539Z",
+  "synced_at": "2026-02-28T04:24:11.224Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b9f1ec673141e6521ab8d1e67a7386749cd8b98075e4dc0c11ffb0ff07e38101",
   "install_command": "mkdir -p .claude/skills/analytics-tracking && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/jackiexiao/jackie-skills-marketing/analytics-tracking/SKILL.md\" > .claude/skills/analytics-tracking/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/jackiexiao/jackie-skills-marketing/analytics-tracking/SKILL.md"

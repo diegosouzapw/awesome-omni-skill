@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c1f23186a49c1ab39c0e02befe3f36783f701f1bd8c68ebf023c68322324e627",
   "indexed_at": "2026-02-26T18:41:33.573Z",
-  "synced_at": "2026-02-27T02:51:31.448Z",
+  "synced_at": "2026-02-28T04:23:37.304Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d5754797bdf970593f053bb742701d598d013beb311add2a8e39326ddf38abc8",
   "install_command": "mkdir -p .claude/skills/create-custom-prompt && curl -sL \"https://raw.githubusercontent.com/LongbowXXX/terraformer/main/.github/skills/arc-create-custom-prompt/SKILL.md\" > .claude/skills/create-custom-prompt/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/LongbowXXX/terraformer/main/.github/skills/arc-create-custom-prompt/SKILL.md"

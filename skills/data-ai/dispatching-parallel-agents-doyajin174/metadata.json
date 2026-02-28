@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "76bf6675eb7a522e0805911c913d383aeb6b5cc06b81c0a9885ca7ab03a89ab3",
   "indexed_at": "2026-02-25T15:08:53.390Z",
-  "synced_at": "2026-02-27T02:51:09.168Z",
+  "synced_at": "2026-02-28T04:23:17.256Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3aeabadeb01128d996764e33359152641d299aae5a9731ddb0b04ed4f8bcf96c",
   "install_command": "mkdir -p .claude/skills/dispatching-parallel-agents && curl -sL \"https://raw.githubusercontent.com/Doyajin174/myskills/main/.public/skills/dispatching-parallel-agents/SKILL.md\" > .claude/skills/dispatching-parallel-agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Doyajin174/myskills/main/.public/skills/dispatching-parallel-agents/SKILL.md"

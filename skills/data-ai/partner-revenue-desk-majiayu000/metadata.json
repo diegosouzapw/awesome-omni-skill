@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6437aceeeb36fe2d31bb58417892344aa72a354c91409b9045f2e5de4a611199",
   "indexed_at": "2026-02-25T23:42:24.631Z",
-  "synced_at": "2026-02-27T02:51:33.210Z",
+  "synced_at": "2026-02-28T04:23:43.784Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d19bdd17c6d8569314b355396224027498a67837898e3049a9a64fca18df94fb",
   "install_command": "mkdir -p .claude/skills/partner-revenue-desk && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/partner-revenue-desk-gtmagents-gtm-agents/SKILL.md\" > .claude/skills/partner-revenue-desk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/partner-revenue-desk-gtmagents-gtm-agents/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "81d1dbe6415cc8f912908615371653b4c52f4f5bd30372907716a747af72ec59",
   "indexed_at": "2026-02-26T01:27:13.065Z",
-  "synced_at": "2026-02-27T02:51:41.996Z",
+  "synced_at": "2026-02-28T04:23:54.003Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6e5e439c0e472cd3e8219b111815e60c58e74f99e9981c0c1032ae43532f3d01",
   "install_command": "mkdir -p .claude/skills/zoho-invoice-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/zoho-invoice-automation/SKILL.md\" > .claude/skills/zoho-invoice-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/zoho-invoice-automation/SKILL.md"

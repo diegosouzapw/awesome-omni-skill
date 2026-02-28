@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fd65c5f06c255db74c3dc640218a40cbc58ab80c348d65df64fcbb756bb3f0b2",
   "indexed_at": "2026-02-26T15:07:03.926Z",
-  "synced_at": "2026-02-27T02:51:57.021Z",
+  "synced_at": "2026-02-28T04:24:11.741Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8f96366bacf8691264db7aad80b2d00d839f8f93063c028f308a1cc2c0763d2c",
   "install_command": "mkdir -p .claude/skills/market-sizing-analysis && curl -sL \"https://raw.githubusercontent.com/simplysmartai/5cypressautomation/main/agents/plugins/startup-business-analyst/skills/market-sizing-analysis/SKILL.md\" > .claude/skills/market-sizing-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/simplysmartai/5cypressautomation/main/agents/plugins/startup-business-analyst/skills/market-sizing-analysis/SKILL.md"

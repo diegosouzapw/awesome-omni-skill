@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "77b59cee623c7f16c36f30dff991476b8049623716e38c4851f47e161c24505b",
   "indexed_at": "2026-02-25T23:26:55.641Z",
-  "synced_at": "2026-02-27T02:52:09.594Z",
+  "synced_at": "2026-02-28T04:24:27.326Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f66312405924f1506a31e91bc7f6f93e315df6dcaeff643c77d242bde1d7b49a",
   "install_command": "mkdir -p .claude/skills/spotify-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/spotify-automation/SKILL.md\" > .claude/skills/spotify-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/spotify-automation/SKILL.md"

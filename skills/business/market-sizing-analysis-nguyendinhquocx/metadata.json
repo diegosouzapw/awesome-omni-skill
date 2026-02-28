@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9193fcef6dd65654b7ff1039d972f69acc1e0c0dfcbf2ae10a605caa7fa8d74e",
   "indexed_at": "2026-02-26T15:07:05.993Z",
-  "synced_at": "2026-02-27T02:51:57.169Z",
+  "synced_at": "2026-02-28T04:24:11.909Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e903788f73191dbb37d83579f32c28b8d1faa54e2406f74e49c0a7a5ce8ae86e",
   "install_command": "mkdir -p .claude/skills/market-sizing-analysis && curl -sL \"https://raw.githubusercontent.com/nguyendinhquocx/code-ai/main/skills/startup-business-analyst/skills/market-sizing-analysis/SKILL.md\" > .claude/skills/market-sizing-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nguyendinhquocx/code-ai/main/skills/startup-business-analyst/skills/market-sizing-analysis/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "90840f75b0fb5a5bdfe9191d0c484df87666ec24ec4751c026d3d5b0a66eb355",
   "indexed_at": "2026-02-25T21:27:25.177Z",
-  "synced_at": "2026-02-27T02:52:09.742Z",
+  "synced_at": "2026-02-28T04:24:27.475Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/37ffbf392b38a8eb0035c271c3464dc2ea574a9589a41f6df01e85cf504ed0d2",
   "install_command": "mkdir -p .claude/skills/prismic-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/prismic-automation/SKILL.md\" > .claude/skills/prismic-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/prismic-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "db2c4112bf8c555f087f709b2779bd4e50c96376d8ab62e7ca4809c4952ca9cf",
   "indexed_at": "2026-02-25T22:27:19.830Z",
-  "synced_at": "2026-02-27T02:51:43.208Z",
+  "synced_at": "2026-02-28T04:23:55.168Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/def8ae876b14129806354db43ebd85a5feb04ad374dbee101350d355813e33b5",
   "install_command": "mkdir -p .claude/skills/semrush-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/semrush-automation/SKILL.md\" > .claude/skills/semrush-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/semrush-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "57bbb624c8318da1974591e036086507340383f7b6d5caeab0059f55c97c3cbc",
   "indexed_at": "2026-02-26T14:22:03.485Z",
-  "synced_at": "2026-02-27T02:52:07.338Z",
+  "synced_at": "2026-02-28T04:24:22.439Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/92b700d0ce00c11760ecbb01b44e3bbacfc8b73cb7731827018da6da9a42b653",
   "install_command": "mkdir -p .claude/skills/ghl-reporting-analytics && curl -sL \"https://raw.githubusercontent.com/Justin322322/GHL-Skills/main/ghl-reporting-analytics/SKILL.md\" > .claude/skills/ghl-reporting-analytics/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Justin322322/GHL-Skills/main/ghl-reporting-analytics/SKILL.md"

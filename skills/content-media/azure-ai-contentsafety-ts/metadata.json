@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a0208e6e6ff1a2095a1231a0dcdcdcac146c6cf0763a462078468de2a419f983",
   "indexed_at": "2026-02-25T15:22:01.338Z",
-  "synced_at": "2026-02-27T02:52:13.059Z",
+  "synced_at": "2026-02-28T04:24:30.456Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0b6736ab117829431eb4cb20d89e6bac437e2f88de933647a434e09f6e7c2cbc",
   "install_command": "mkdir -p .claude/skills/azure-ai-contentsafety-ts && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-ai-contentsafety-ts/SKILL.md\" > .claude/skills/azure-ai-contentsafety-ts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-ai-contentsafety-ts/SKILL.md"

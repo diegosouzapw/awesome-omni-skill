@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7430c3565d75a69e224b2071a535de835346e253b813976bc13ff2affdeba4ba",
   "indexed_at": "2026-02-26T15:09:48.902Z",
-  "synced_at": "2026-02-27T02:51:40.335Z",
+  "synced_at": "2026-02-28T04:23:52.452Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2a86219f33452f86f84e68509eaf8bc97430076922dd87536ed2a3b20b7f60d0",
   "install_command": "mkdir -p .claude/skills/acceptance-criteria && curl -sL \"https://raw.githubusercontent.com/HaRu-LLC/ai-pm_system_notebooklmuse/main/.agent/skills/pm/planning/acceptance-criteria/SKILL.md\" > .claude/skills/acceptance-criteria/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HaRu-LLC/ai-pm_system_notebooklmuse/main/.agent/skills/pm/planning/acceptance-criteria/SKILL.md"

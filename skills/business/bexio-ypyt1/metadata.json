@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "84679ca25d7b740ffae2631b94d44c4608d92ed3cef84bfc3dcc388ef1a4c4a4",
   "indexed_at": "2026-02-25T15:55:37.279Z",
-  "synced_at": "2026-02-27T02:52:00.671Z",
+  "synced_at": "2026-02-28T04:24:16.364Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/73d4a0c66557d34ab6ac2388821bbf0a5fd182f3f8f5ee4d13042f01d9b0e8b3",
   "install_command": "mkdir -p .claude/skills/bexio && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/rdewolff/bexio/SKILL.md\" > .claude/skills/bexio/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/rdewolff/bexio/SKILL.md"

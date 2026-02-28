@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "26a67236d05aa5574155efd2235f5a3b6840c272a001163d50e6234c372b2e7b",
   "indexed_at": "2026-02-25T21:25:44.107Z",
-  "synced_at": "2026-02-27T02:51:43.363Z",
+  "synced_at": "2026-02-28T04:23:55.312Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6eefca3219c8230e1df17e7808119bc5ebc6977b527cf0a7761295a0f6abcb63",
   "install_command": "mkdir -p .claude/skills/nocrm-io-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/nocrm-io-automation/SKILL.md\" > .claude/skills/nocrm-io-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/nocrm-io-automation/SKILL.md"

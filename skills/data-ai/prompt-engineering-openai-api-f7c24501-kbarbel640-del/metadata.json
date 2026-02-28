@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f7d1f07adeadab390c95c16857c7589f55df64be4fd154a77c0edb950f2fc659",
   "indexed_at": "2026-02-27T16:56:58.155Z",
-  "synced_at": "2026-02-27T18:16:30.176Z",
+  "synced_at": "2026-02-28T04:23:45.815Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f3578beb771fe0f1e78c6fc04296d2a40d893bfdba24b61d9b1038b17f10ebce",
   "install_command": "mkdir -p .claude/skills/prompt-engineering-openai-api-f7c24501 && curl -sL \"https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/hhhh124hhhh/prompt-engineering-openai-api-f7c24501/SKILL.md\" > .claude/skills/prompt-engineering-openai-api-f7c24501/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/hhhh124hhhh/prompt-engineering-openai-api-f7c24501/SKILL.md"

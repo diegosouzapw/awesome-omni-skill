@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e69b294784a05e6d6886c3ec2061ba5a9ff5f267f5fa272c411d7530b3d52da2",
   "indexed_at": "2026-02-25T12:54:24.530Z",
-  "synced_at": "2026-02-27T02:51:35.381Z",
+  "synced_at": "2026-02-28T04:23:47.359Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6db0ef52e736f173e1887cb047529c8d03e6075096b8f1db58aa9136439a4150",
   "install_command": "mkdir -p .claude/skills/book-detailing && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/edwardrodriguez703-design/book-detailing/SKILL.md\" > .claude/skills/book-detailing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/edwardrodriguez703-design/book-detailing/SKILL.md"

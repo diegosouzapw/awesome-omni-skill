@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ce7853b57365213805e59eafdfa92ae9230874a210bea2a9bfd2534843f0b8e0",
   "indexed_at": "2026-02-25T12:52:45.262Z",
-  "synced_at": "2026-02-27T02:51:21.762Z",
+  "synced_at": "2026-02-28T04:23:32.116Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/18944fc7254d3443f49de0dc9173196072c75185292e7c2acb5e1bb7e9c7bebf",
   "install_command": "mkdir -p .claude/skills/claude-config-management && curl -sL \"https://raw.githubusercontent.com/usadamasa/claude-config/main/.claude/skills/claude-config-management/SKILL.md\" > .claude/skills/claude-config-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/usadamasa/claude-config/main/.claude/skills/claude-config-management/SKILL.md"

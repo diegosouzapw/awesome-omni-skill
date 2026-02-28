@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2df39c5f92174ec6ca3760b31d4e7f7448705d28b6e1a07b98a8886dac0f4a8a",
   "indexed_at": "2026-02-26T22:37:30.281Z",
-  "synced_at": "2026-02-27T02:51:03.079Z",
+  "synced_at": "2026-02-28T04:23:10.649Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1d215776d3edd7a870eeedc2e2a520e43862dec3624dbc400db26af5cb96c70e",
   "install_command": "mkdir -p .claude/skills/virtual-environment-usage && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/virtual-environment-usage/SKILL.md\" > .claude/skills/virtual-environment-usage/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/virtual-environment-usage/SKILL.md"

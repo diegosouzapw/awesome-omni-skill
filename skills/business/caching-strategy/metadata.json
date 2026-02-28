@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5bb6baaa16f9215d2230c15675f5eceae75a1cd1137b2cace8eb34982fdf5f6e",
   "indexed_at": "2026-02-26T05:41:03.274Z",
-  "synced_at": "2026-02-27T02:52:08.865Z",
+  "synced_at": "2026-02-28T04:24:26.399Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/578e982fd03552399b1187df3e6897e553d18a75ce26d12c988734edaade4ac8",
   "install_command": "mkdir -p .claude/skills/caching-strategy && curl -sL \"https://raw.githubusercontent.com/yeeehaooo/WorkSpace/main/skills/dotnet/patterns/caching-strategy/skill.mdc/SKILL.md\" > .claude/skills/caching-strategy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yeeehaooo/WorkSpace/main/skills/dotnet/patterns/caching-strategy/skill.mdc/SKILL.md"

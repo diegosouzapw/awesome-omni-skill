@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6a3e06712473799eb772150bac6a63f3dd1a12648c57923bc9f3f9ffce8836dc",
   "indexed_at": "2026-02-26T22:35:07.583Z",
-  "synced_at": "2026-02-27T02:51:19.776Z",
+  "synced_at": "2026-02-28T04:23:30.393Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a7e2145a0cacc4144b2b2a0ceab05aa0dc3411ff71e10cbc88a05c12add159b7",
   "install_command": "mkdir -p .claude/skills/asynchronous-programming-preference && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/asynchronous-programming-preference/SKILL.md\" > .claude/skills/asynchronous-programming-preference/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/asynchronous-programming-preference/SKILL.md"

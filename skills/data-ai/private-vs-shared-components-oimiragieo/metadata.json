@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9e7d17625029ca4283047b9ac18f664b6db2fa365d29d7466754152c5bbebc61",
   "indexed_at": "2026-02-26T15:26:47.618Z",
-  "synced_at": "2026-02-27T02:51:00.709Z",
+  "synced_at": "2026-02-28T04:23:08.542Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a9f294a69ced0cc6140d3ddeb1253a0717f20c6ed8407574037ca67367dd7190",
   "install_command": "mkdir -p .claude/skills/private-vs-shared-components && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/private-vs-shared-components/SKILL.md\" > .claude/skills/private-vs-shared-components/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/private-vs-shared-components/SKILL.md"

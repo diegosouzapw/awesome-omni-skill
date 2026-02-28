@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d9eef7c6eaf34a7b1c94663c1d78a735e16286fefa045e58f7c20832f6c74d42",
   "indexed_at": "2026-02-26T17:36:09.441Z",
-  "synced_at": "2026-02-27T02:50:59.809Z",
+  "synced_at": "2026-02-28T04:23:05.449Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/061e5a6fd9416d91cb53c14bd92461581e322a5b9c01c04b14980457b17f5957",
   "install_command": "mkdir -p .claude/skills/prediction-markets-gina && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/sidshekhar/prediction-markets-gina/SKILL.md\" > .claude/skills/prediction-markets-gina/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sidshekhar/prediction-markets-gina/SKILL.md"

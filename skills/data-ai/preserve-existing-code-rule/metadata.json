@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2351e05e5dfe60d85573a93f3418f3fbfe2d4152822d2ec1ed48bf28269823be",
   "indexed_at": "2026-02-26T22:39:40.345Z",
-  "synced_at": "2026-02-27T02:51:03.717Z",
+  "synced_at": "2026-02-28T04:23:11.272Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fbefb0839df0494822ef479f69fedf43176e62da4af76cde2bd83d2f8ebfd893",
   "install_command": "mkdir -p .claude/skills/preserve-existing-code-rule && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/preserve-existing-code-rule-oimiragieo-agent-studio/SKILL.md\" > .claude/skills/preserve-existing-code-rule/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/preserve-existing-code-rule-oimiragieo-agent-studio/SKILL.md"

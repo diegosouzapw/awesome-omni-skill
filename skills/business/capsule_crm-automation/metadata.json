@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6542f29bd69c49ad60b890ef9c8ac571ca5f0975380e584958f27a9175a65086",
   "indexed_at": "2026-02-24T22:51:30.778Z",
-  "synced_at": "2026-02-27T02:51:44.819Z",
+  "synced_at": "2026-02-28T04:23:56.203Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/03ac14e777ed1d2ab19ba1159b06e00a955d5c512f785f2532c520b5dc411042",
   "install_command": "mkdir -p .claude/skills/capsule_crm-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/capsule_crm-automation/SKILL.md\" > .claude/skills/capsule_crm-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/capsule_crm-automation/SKILL.md"

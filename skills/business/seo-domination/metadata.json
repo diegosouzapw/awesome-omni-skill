@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "71fed8d4b649139cefbd120657b9339bf73045630c6ad5ff497b98735ac3353e",
   "indexed_at": "2026-02-27T16:56:14.408Z",
-  "synced_at": "2026-02-27T18:16:06.011Z",
+  "synced_at": "2026-02-28T04:24:25.178Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed3cd6eff17dad79ac85c5936afd323f8e4090db4b2c2c4a671c6e3dcd3655b3",
   "install_command": "mkdir -p .claude/skills/seo-domination && curl -sL \"https://raw.githubusercontent.com/Vibe-Marketer/brain/main/.planning/archive/legacy-tooling/2026-02-11/.claude/skills/seo-domination-system/SKILL.md\" > .claude/skills/seo-domination/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Vibe-Marketer/brain/main/.planning/archive/legacy-tooling/2026-02-11/.claude/skills/seo-domination-system/SKILL.md"

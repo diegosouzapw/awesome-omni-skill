@@ -7,23 +7,24 @@ description: "Claude Code設定(リポジトリルート)の構成管理ガイ�
 
 ## アーキテクチャ
 
-`~/.claude` は実ディレクトリ。リポジトリルート内の管理対象ファイルだけを個別に symlink する。
+`~/.claude` は実ディレクトリ。リポジトリの `dotclaude/` 配下の管理対象ファイルだけを個別に symlink する。
 ランタイムファイル(cache, debug, history 等)はリポジトリに含まれない。
 
 ```
 ~/.claude/                       (実ディレクトリ)
-├── CLAUDE.md               -> <repo>/CLAUDE.md
-├── settings.json           -> <repo>/settings.json
-├── hooks/                  -> <repo>/hooks/
+├── CLAUDE.md               -> <repo>/dotclaude/CLAUDE-global.md
+├── settings.json           -> <repo>/dotclaude/settings.json
+├── env.sh                  -> <repo>/dotclaude/env.sh
+├── hooks/                  -> <repo>/dotclaude/hooks/
 ├── skills/
-│   ├── <skill-name>/       -> <repo>/skills/<skill-name>/  (symlink)
+│   ├── <skill-name>/       -> <repo>/dotclaude/skills/<skill-name>/  (symlink)
 │   └── <plugin-skills>/       (実ディレクトリ、管理外)
 ├── cache/                     (ランタイム、管理外)
 ├── projects/                  (ランタイム、管理外)
 └── ...
 ```
 
-**管理方針**: リポジトリルートの `.gitignore` で除外されていないもの = 管理対象。
+**管理方針**: `dotclaude/` 配下のファイル・ディレクトリが symlink 対象｡リポジトリルートの他のファイルは管理外｡
 
 ## タスク
 
@@ -39,20 +40,20 @@ task clean    # symlink 削除
 
 ### トップレベルファイルを追加
 
-1. リポジトリルートに `<filename>` を配置
-2. `Taskfile.yml` の `setup` タスクの `for file in CLAUDE.md settings.json` に追加
+1. `dotclaude/` に `<filename>` を配置
+2. `Taskfile.yml` の `setup` タスクの `for file in dotclaude/settings.json dotclaude/env.sh` に追加
 3. `task setup` を実行
 
 ### トップレベルディレクトリを追加
 
-1. リポジトリルートに `<dirname>/` を配置
-2. `Taskfile.yml` の `setup` タスクの `for dir in hooks` に追加
+1. `dotclaude/` に `<dirname>/` を配置
+2. `Taskfile.yml` の `setup` タスクの `for dir in dotclaude/hooks` に追加
 3. `task setup` を実行
 
 ### グローバルスキルを追加 (git管理対象)
 
-1. `skills/<skill-name>/SKILL.md` を作成
-2. `task setup` を実行 (`skills/*/` を自動検出、Taskfile変更不要)
+1. `dotclaude/skills/<skill-name>/SKILL.md` を作成
+2. `task setup` を実行 (`dotclaude/skills/*/` を自動検出、Taskfile変更不要)
 
 ### プロジェクトスコープのスキルを追加
 

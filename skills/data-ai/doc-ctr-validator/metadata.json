@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0dbf6216d181cd7c1772db02b0fe5781e2f35316ecbf543b895da8ad65484fbe",
   "indexed_at": "2026-02-27T07:49:50.603Z",
-  "synced_at": "2026-02-27T13:14:26.253Z",
+  "synced_at": "2026-02-28T04:23:06.422Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/213f21364be7eb0c0d146efb88d331f7721a8c7fd6847eb22057ecf22d425e14",
   "install_command": "mkdir -p .claude/skills/doc-ctr-validator && curl -sL \"https://raw.githubusercontent.com/vladm3105/aidoc-flow-framework/main/.claude/skills/doc-ctr-validator/SKILL.md\" > .claude/skills/doc-ctr-validator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/vladm3105/aidoc-flow-framework/main/.claude/skills/doc-ctr-validator/SKILL.md"

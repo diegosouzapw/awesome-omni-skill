@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cf520600a22f41cdfaf086e6f769e36e20cbbcd29dc1aca1d2aa55dfffb2e6bb",
   "indexed_at": "2026-02-27T03:57:03.633Z",
-  "synced_at": "2026-02-27T13:14:35.932Z",
+  "synced_at": "2026-02-28T04:24:07.345Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e8c7fccbd825eed6296d1b2edc6eb590a02611da17a980fbcaf9909957149532",
   "install_command": "mkdir -p .claude/skills/agent-sales-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-sales-engineer/SKILL.md\" > .claude/skills/agent-sales-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-sales-engineer/SKILL.md"

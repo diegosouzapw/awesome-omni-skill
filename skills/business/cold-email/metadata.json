@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fbde2eb98f89317c22a3023190d078453318c48528c878097ddb93268f852612",
   "indexed_at": "2026-02-26T18:40:29.584Z",
-  "synced_at": "2026-02-27T02:52:07.721Z",
+  "synced_at": "2026-02-28T04:24:22.965Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/405b0acba57875218585607d02bd4357142d184ff6718691a62c1dbd8c9ed48f",
   "install_command": "mkdir -p .claude/skills/cold-email && curl -sL \"https://raw.githubusercontent.com/inkeep/team-skills/main/plugins/gtm/skills/cold-email/SKILL.md\" > .claude/skills/cold-email/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/inkeep/team-skills/main/plugins/gtm/skills/cold-email/SKILL.md"

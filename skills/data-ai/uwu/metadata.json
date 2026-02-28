@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "73916294b071fb6429ab3d791c5269cfdf746916f26bdfff65a5b890bb4a34c4",
   "indexed_at": "2026-02-27T07:34:49.097Z",
-  "synced_at": "2026-02-27T13:14:26.148Z",
+  "synced_at": "2026-02-28T04:23:06.237Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b5d26109b41606f5cd2d55a7af2cb526348357a031145744ac3f9c7c942d8720",
   "install_command": "mkdir -p .claude/skills/uwu && curl -sL \"https://raw.githubusercontent.com/MiukiAI/mizuki-uwu/main/SKILL.md\" > .claude/skills/uwu/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MiukiAI/mizuki-uwu/main/SKILL.md"

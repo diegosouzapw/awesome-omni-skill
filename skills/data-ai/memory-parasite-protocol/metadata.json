@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "af11a3e853d85018ee4798e4d0bbbaae4453db4c2522f1b2767fed93ebec3dbb",
   "indexed_at": "2026-02-27T17:25:20.958Z",
-  "synced_at": "2026-02-27T18:16:26.789Z",
+  "synced_at": "2026-02-28T04:23:06.764Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/684a3d6fc45cd8e29f287f5b11e637c9f149e314736e81cf320123a296cbf1ad",
   "install_command": "mkdir -p .claude/skills/memory-parasite-protocol && curl -sL \"https://raw.githubusercontent.com/brainless3178/memory-parasite-protocol/main/SKILL.md\" > .claude/skills/memory-parasite-protocol/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/brainless3178/memory-parasite-protocol/main/SKILL.md"

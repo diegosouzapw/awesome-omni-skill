@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ef64b89ad9217ade48a11ef017515c6865cbafaf97e6a42807659046f143c658",
   "indexed_at": "2026-02-25T12:55:54.403Z",
-  "synced_at": "2026-02-27T02:51:07.457Z",
+  "synced_at": "2026-02-28T04:23:15.527Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b901a1be67394c0d571dfb921763361950a66f1ff18cbf0ff3b98ae48ca1a36a",
   "install_command": "mkdir -p .claude/skills/orcaflex-model-generator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/orcaflex-model-generator-vamseeachanta-digitalmodel/SKILL.md\" > .claude/skills/orcaflex-model-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/orcaflex-model-generator-vamseeachanta-digitalmodel/SKILL.md"

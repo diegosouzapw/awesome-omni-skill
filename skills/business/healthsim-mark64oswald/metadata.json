@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5daa87ef22efef92c046c75f2250bdf1be065185226f742a220fdc48ce49d4b5",
   "indexed_at": "2026-02-26T03:05:07.966Z",
-  "synced_at": "2026-02-27T02:52:02.898Z",
+  "synced_at": "2026-02-28T04:24:18.503Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/242fa1c4916d70037dc29db5bdbb36a812401d28780b7ef205f45d2595ec2f35",
   "install_command": "mkdir -p .claude/skills/healthsim && curl -sL \"https://raw.githubusercontent.com/mark64oswald/healthsim-agent/main/skills/SKILL.md\" > .claude/skills/healthsim/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mark64oswald/healthsim-agent/main/skills/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f83b9de1deabcbeeef776358130fe44d421013a9b5e8ba81b176d3a8f7c776c1",
   "indexed_at": "2026-02-25T12:46:56.781Z",
-  "synced_at": "2026-02-27T02:51:07.116Z",
+  "synced_at": "2026-02-28T04:23:15.218Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dcbafb356036f02b94b2c24a275b6a9c6ffc2710cf3f86392b0b14652afd6e68",
   "install_command": "mkdir -p .claude/skills/rsmap && curl -sL \"https://raw.githubusercontent.com/zfedoran/rsmap/main/SKILL.md\" > .claude/skills/rsmap/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zfedoran/rsmap/main/SKILL.md"

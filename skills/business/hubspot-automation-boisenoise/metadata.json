@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4d1de8188e07d8d0ef3308e81bc2356ae953d959f9225dc7058e0a4bdfe6870f",
   "indexed_at": "2026-02-27T14:03:23.920Z",
-  "synced_at": "2026-02-27T18:16:05.378Z",
+  "synced_at": "2026-02-28T04:24:24.511Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ea666a4d3a5c623e800ce856b8bdbfe576b98f92244ec5c724bc5f6337b28c98",
   "install_command": "mkdir -p .claude/skills/hubspot-automation && curl -sL \"https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-hubspot-automation/SKILL.md\" > .claude/skills/hubspot-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-hubspot-automation/SKILL.md"

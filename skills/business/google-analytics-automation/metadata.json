@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2f264b59767a290c3f8b7c9f6b7ae2061090d1d294e00c45aaf7ce43e00a0be7",
   "indexed_at": "2026-02-25T16:27:16.308Z",
-  "synced_at": "2026-02-27T02:51:49.813Z",
+  "synced_at": "2026-02-28T04:24:00.863Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/54b46056c96ae2c0a639b586ca7098ef805d02e116bd61f076630648282eb1d1",
   "install_command": "mkdir -p .claude/skills/google-analytics-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/google-analytics-automation/SKILL.md\" > .claude/skills/google-analytics-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/google-analytics-automation/SKILL.md"

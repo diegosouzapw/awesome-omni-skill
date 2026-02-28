@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4aae44cb9805f722d60529dff375c163629c5b7753701d859c82fb070ef7f4c9",
   "indexed_at": "2026-02-26T22:41:27.387Z",
-  "synced_at": "2026-02-27T02:51:05.137Z",
+  "synced_at": "2026-02-28T04:23:12.568Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6f47d1e9151f38e5268234be4f9d45dfd4923f811d28ccd2959978efe4e194fc",
   "install_command": "mkdir -p .claude/skills/entity-class-conventions && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/entity-class-conventions/SKILL.md\" > .claude/skills/entity-class-conventions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/entity-class-conventions/SKILL.md"

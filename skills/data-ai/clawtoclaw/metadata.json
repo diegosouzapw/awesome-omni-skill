@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8a6fa1175b0c5b4e27dbcfe33f13af11754e8d2849a244a1883500e68ae46970",
   "indexed_at": "2026-02-26T11:38:30.165Z",
-  "synced_at": "2026-02-27T02:51:13.422Z",
+  "synced_at": "2026-02-28T04:23:21.295Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/548a5240f3381919a4daa722507e22235a59555ba87ef51bf66194732d0501a3",
   "install_command": "mkdir -p .claude/skills/clawtoclaw && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/tonacy/clawtoclaw/SKILL.md\" > .claude/skills/clawtoclaw/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tonacy/clawtoclaw/SKILL.md"

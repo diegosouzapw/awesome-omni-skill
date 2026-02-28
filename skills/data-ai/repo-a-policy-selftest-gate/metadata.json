@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0060c483e413e63fbb569dc64aa7a17c727df9f7a4cb6cf12d22dfb859be2c6d",
   "indexed_at": "2026-02-26T09:34:53.050Z",
-  "synced_at": "2026-02-27T02:51:24.554Z",
+  "synced_at": "2026-02-28T04:23:34.494Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fca6fd6331e57f9bac9361f0b064b986153e5f048b078f343bd6cfb6c6b4480b",
   "install_command": "mkdir -p .claude/skills/repo-a-policy-selftest-gate && curl -sL \"https://raw.githubusercontent.com/grtninja/skill-arbiter/main/skill-candidates/repo-a-policy-selftest-gate/SKILL.md\" > .claude/skills/repo-a-policy-selftest-gate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/grtninja/skill-arbiter/main/skill-candidates/repo-a-policy-selftest-gate/SKILL.md"

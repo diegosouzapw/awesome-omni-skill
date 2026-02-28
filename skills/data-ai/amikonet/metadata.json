@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6209c08dfa89b0d36e7344ab9d5795fc1af2a3258b9f9186164433a6581996fe",
   "indexed_at": "2026-02-26T12:01:19.315Z",
-  "synced_at": "2026-02-27T02:51:13.788Z",
+  "synced_at": "2026-02-28T04:23:21.633Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8872940ed8ee1f224ec3c8939ba624eefd190c765cb06b3667df09f0ca1eff5c",
   "install_command": "mkdir -p .claude/skills/amikonet && curl -sL \"https://raw.githubusercontent.com/HCF-S/amikonet-skill/main/SKILL.md\" > .claude/skills/amikonet/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HCF-S/amikonet-skill/main/SKILL.md"

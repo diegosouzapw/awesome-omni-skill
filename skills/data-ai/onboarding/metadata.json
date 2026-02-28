@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d30e59765640ed8cea96f94c5fdeae0e63a4845eac98968d2d8c11615d862a3e",
   "indexed_at": "2026-02-26T18:41:43.862Z",
-  "synced_at": "2026-02-27T02:51:31.643Z",
+  "synced_at": "2026-02-28T04:23:37.480Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ac0ae9098f74a9109815490a800967a4a7b6c358f0deede6cb3a5c9be1eb94b5",
   "install_command": "mkdir -p .claude/skills/onboarding && curl -sL \"https://raw.githubusercontent.com/megazear7/galactic-adventures-assistant/main/.github/skills/onboarding/SKILL.md\" > .claude/skills/onboarding/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/megazear7/galactic-adventures-assistant/main/.github/skills/onboarding/SKILL.md"

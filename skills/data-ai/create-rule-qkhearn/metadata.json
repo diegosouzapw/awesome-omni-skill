@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fc598d24a0f35139a6aff7c6f15ccbc962e976fad590bb7bf7d8c5fad5c8c4c1",
   "indexed_at": "2026-02-26T23:35:14.783Z",
-  "synced_at": "2026-02-27T02:51:39.794Z",
+  "synced_at": "2026-02-28T04:23:52.125Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bdedc5dac5327b08704b4f8c0193390bed8543b3de4dbabb926946cf649db23f",
   "install_command": "mkdir -p .claude/skills/create-rule && curl -sL \"https://raw.githubusercontent.com/QkHearn/Photon/main/builtin_skills/create-rule/SKILL.md\" > .claude/skills/create-rule/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/QkHearn/Photon/main/builtin_skills/create-rule/SKILL.md"

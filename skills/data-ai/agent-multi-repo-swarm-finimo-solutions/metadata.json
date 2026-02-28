@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5ca93f0adda59b334d41116a26d9827cb211b48e0f619a1a0424e4f096721e54",
   "indexed_at": "2026-02-26T05:48:01.328Z",
-  "synced_at": "2026-02-27T02:51:11.015Z",
+  "synced_at": "2026-02-28T04:23:19.104Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/22c9c95d1f49be8788d5af6314508917dd37e21083be91f8761890b23fd800e8",
   "install_command": "mkdir -p .claude/skills/agent-multi-repo-swarm && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/mcp-agent/claude-flow/.agents/skills/agent-multi-repo-swarm/SKILL.md\" > .claude/skills/agent-multi-repo-swarm/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/mcp-agent/claude-flow/.agents/skills/agent-multi-repo-swarm/SKILL.md"

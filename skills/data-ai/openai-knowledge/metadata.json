@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9eed4f0639a985463118a4fc9f60a1dbc6af746a4f04dbc3c9e6a68ded4b1bb6",
   "indexed_at": "2026-02-25T12:41:32.019Z",
-  "synced_at": "2026-02-27T02:51:21.249Z",
+  "synced_at": "2026-02-28T04:23:31.494Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4c9ede4e0482ed5083f028c541035faa5a112d87f28d782ded37322a4b14ac92",
   "install_command": "mkdir -p .claude/skills/openai-knowledge && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/openai-knowledge-yuichi176-artlyst/SKILL.md\" > .claude/skills/openai-knowledge/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/openai-knowledge-yuichi176-artlyst/SKILL.md"

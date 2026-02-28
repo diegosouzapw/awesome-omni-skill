@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b9c8c98de3b45600ff5a1ece9703181ff2f0a96eb9bf440bcff023efe1f8ec6d",
   "indexed_at": "2026-02-26T14:20:08.772Z",
-  "synced_at": "2026-02-27T02:52:06.992Z",
+  "synced_at": "2026-02-28T04:24:22.122Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/725b1bf2b9e35ac9398183c4846d98fa39b69425d656b8a20ac5ca7f03bd425c",
   "install_command": "mkdir -p .claude/skills/capsule_crm-automation && curl -sL \"https://raw.githubusercontent.com/jarbitechture/claude-skills/main/skills/capsule_crm-automation/SKILL.md\" > .claude/skills/capsule_crm-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jarbitechture/claude-skills/main/skills/capsule_crm-automation/SKILL.md"

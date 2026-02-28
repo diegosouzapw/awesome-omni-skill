@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "807e488fa3569f149c9bb696356d60ef4d1e15c42712391fdda45143a36f00ba",
   "indexed_at": "2026-02-25T15:21:30.399Z",
-  "synced_at": "2026-02-27T02:52:12.907Z",
+  "synced_at": "2026-02-28T04:24:30.306Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3f2017c153b85ff4872224b7740cd02cfb268b3e29becc33e08b0814e0e23509",
   "install_command": "mkdir -p .claude/skills/audio-transcriber && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/audio-transcriber/SKILL.md\" > .claude/skills/audio-transcriber/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/audio-transcriber/SKILL.md"

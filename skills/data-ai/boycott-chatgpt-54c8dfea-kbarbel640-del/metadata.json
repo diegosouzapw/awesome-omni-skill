@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "798ddc40f7395d6ab329440b0d97cff68b50ac8bc205740d881473b326652d6a",
   "indexed_at": "2026-02-27T16:57:48.311Z",
-  "synced_at": "2026-02-27T18:16:29.562Z",
+  "synced_at": "2026-02-28T04:23:39.352Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/942d7e5b5f6bede34b441298829e6d437a625a6e342df9a1344ce0ee85e61e00",
   "install_command": "mkdir -p .claude/skills/boycott-chatgpt-54c8dfea && curl -sL \"https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/hhhh124hhhh/boycott-chatgpt-54c8dfea/SKILL.md\" > .claude/skills/boycott-chatgpt-54c8dfea/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/hhhh124hhhh/boycott-chatgpt-54c8dfea/SKILL.md"

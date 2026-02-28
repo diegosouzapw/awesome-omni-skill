@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e1db7781117dd4fd4377b83725704175096ed59b7313109ee00ab5d433cb806b",
   "indexed_at": "2026-02-27T01:16:35.257Z",
-  "synced_at": "2026-02-27T02:52:08.550Z",
+  "synced_at": "2026-02-28T04:24:23.893Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1150358adc786aade31ed31274c67ff4b044a06e6f303baacf8ad47d059ffa30",
   "install_command": "mkdir -p .claude/skills/u08871-ethical-dilemma-navigation-for-marketing-and-storytelling && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/08/8871-ethical-dilemma-navigation-for-marketing-and-storytelling/SKILL.md\" > .claude/skills/u08871-ethical-dilemma-navigation-for-marketing-and-storytelling/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/08/8871-ethical-dilemma-navigation-for-marketing-and-storytelling/SKILL.md"

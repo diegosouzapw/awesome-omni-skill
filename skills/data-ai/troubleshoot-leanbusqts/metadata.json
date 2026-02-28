@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "03938ab554a22f2570918284767f60e1a9aa8d0b1ef97a95a3d36ee5931936ce",
   "indexed_at": "2026-02-25T12:54:56.407Z",
-  "synced_at": "2026-02-27T02:51:37.855Z",
+  "synced_at": "2026-02-28T04:23:50.534Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8671aedf9269a8e4a2f86ea354186ff61a68ee959faf8257acff16388d247689",
   "install_command": "mkdir -p .claude/skills/troubleshoot && curl -sL \"https://raw.githubusercontent.com/leanbusqts/agent47/main/templates/skills/troubleshoot/SKILL.md\" > .claude/skills/troubleshoot/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/leanbusqts/agent47/main/templates/skills/troubleshoot/SKILL.md"

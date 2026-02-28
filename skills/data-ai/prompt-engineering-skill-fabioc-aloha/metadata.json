@@ -3,8 +3,8 @@
   "description": "Craft effective prompts that get the best results from language models.",
   "category": "data-ai",
   "canonical_category": "data-ai",
-  "repository": "fabioc-aloha/Lithium",
-  "repository_url": "https://github.com/fabioc-aloha/Lithium",
+  "repository": "fabioc-aloha/youtube-mcp-vscode",
+  "repository_url": "https://github.com/fabioc-aloha/youtube-mcp-vscode",
   "author": "fabioc-aloha",
   "author_avatar": "https://github.com/fabioc-aloha.png",
   "file_path": ".github/skills/prompt-engineering/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "cd5f0bfe29c01a8551f3bb056ebe31036358d3e4a174841421ae80092bf44f8f",
-  "indexed_at": "2026-02-26T18:38:59.579Z",
-  "synced_at": "2026-02-27T02:51:18.152Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f4fc55c280cfaa07a87c691d829cd0c9948a59230d1434258f6b87e56b14387b",
-  "install_command": "mkdir -p .claude/skills/prompt-engineering-skill && curl -sL \"https://raw.githubusercontent.com/fabioc-aloha/Lithium/main/.github/skills/prompt-engineering/SKILL.md\" > .claude/skills/prompt-engineering-skill/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/fabioc-aloha/Lithium/main/.github/skills/prompt-engineering/SKILL.md"
+  "content_hash": "226303b8a0ac70b9280c3fbb7f24c2954c47aba84374d2f5c60642385fc04c01",
+  "indexed_at": "2026-02-27T18:36:13.098Z",
+  "synced_at": "2026-02-28T04:23:28.992Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/938a22d60e9414aaec268e917fcda68821f917596b6d1ece3b564a1940415428",
+  "install_command": "mkdir -p .claude/skills/prompt-engineering-skill && curl -sL \"https://raw.githubusercontent.com/fabioc-aloha/youtube-mcp-vscode/main/.github/skills/prompt-engineering/SKILL.md\" > .claude/skills/prompt-engineering-skill/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/fabioc-aloha/youtube-mcp-vscode/main/.github/skills/prompt-engineering/SKILL.md"
 }

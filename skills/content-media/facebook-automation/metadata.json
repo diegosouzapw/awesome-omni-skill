@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e0f584c87367f0fe5b973e156e0a4b1b7fecaed78358eeff5b21190173b4d5cb",
   "indexed_at": "2026-02-24T22:54:40.679Z",
-  "synced_at": "2026-02-27T02:52:10.636Z",
+  "synced_at": "2026-02-28T04:24:28.214Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9841275e2938fab5804063e411f323a69516b1f0e5f34b580828caa080930b0c",
   "install_command": "mkdir -p .claude/skills/facebook-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/facebook-automation/SKILL.md\" > .claude/skills/facebook-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/facebook-automation/SKILL.md"

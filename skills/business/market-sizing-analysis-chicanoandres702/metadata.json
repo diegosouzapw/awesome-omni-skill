@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2b566e238186d4b334336aadaa7d39f39ea25236f51241c8f02ae04a4fe62f94",
   "indexed_at": "2026-02-26T17:09:09.087Z",
-  "synced_at": "2026-02-27T02:51:58.033Z",
+  "synced_at": "2026-02-28T04:24:12.628Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/13ac3dbea8af5c6f28b99450008dc30d1c1136d2959ff95a0f397589cdb6a3a2",
   "install_command": "mkdir -p .claude/skills/market-sizing-analysis && curl -sL \"https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agent/skills/market-sizing-analysis/SKILL.md\" > .claude/skills/market-sizing-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agent/skills/market-sizing-analysis/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aeea84fa3f8a10cab539cb3de667f7b25d0ebb46df631a51cd438508797e96b8",
   "indexed_at": "2026-02-25T17:38:46.461Z",
-  "synced_at": "2026-02-27T02:51:36.056Z",
+  "synced_at": "2026-02-28T04:23:48.120Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/457b8933828bd4c951520bcbb6f29ead3f4db1af086981fd03e4f34748ab81ef",
   "install_command": "mkdir -p .claude/skills/find-skills && curl -sL \"https://raw.githubusercontent.com/iannuttall/skills/main/skills/find-skills/SKILL.md\" > .claude/skills/find-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/iannuttall/skills/main/skills/find-skills/SKILL.md"

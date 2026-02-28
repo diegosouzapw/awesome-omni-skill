@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e33fd8f97249fc1c6cd675462574622f3f48e142603cc8e209e5af14d6465709",
   "indexed_at": "2026-02-25T19:27:10.393Z",
-  "synced_at": "2026-02-27T02:52:11.120Z",
+  "synced_at": "2026-02-28T04:24:28.659Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dd4a0076de5e8a831fc0f74ea324395af86e3d9aed32ada3bed311416b701491",
   "install_command": "mkdir -p .claude/skills/youtube-summarizer && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/youtube-summarizer/SKILL.md\" > .claude/skills/youtube-summarizer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/youtube-summarizer/SKILL.md"

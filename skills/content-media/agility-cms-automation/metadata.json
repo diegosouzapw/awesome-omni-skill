@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7566c8716e12920ca3eeac2dd4efd7fc514e1578519a4b43ad23aa5652d9d73f",
   "indexed_at": "2026-02-24T22:48:34.998Z",
-  "synced_at": "2026-02-27T02:52:10.205Z",
+  "synced_at": "2026-02-28T04:24:27.924Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a34f1c45107c8e3dcc2e69f674b3ce9a137d4076c947bf7cfce764844627e397",
   "install_command": "mkdir -p .claude/skills/agility-cms-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/agility-cms-automation/SKILL.md\" > .claude/skills/agility-cms-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/agility-cms-automation/SKILL.md"

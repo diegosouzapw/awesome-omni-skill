@@ -1,7 +1,6 @@
 ---
-category: Business
-id: lead-research-assistant
-name: Lead Research Assistant
+name: lead-research-assistant
+category: business-productivity
 description: Identifies high-quality leads for your product or service by analyzing your business, searching for target companies, and providing actionable contact strategies. Perfect for sales, business development, and marketing professionals.
 ---
 

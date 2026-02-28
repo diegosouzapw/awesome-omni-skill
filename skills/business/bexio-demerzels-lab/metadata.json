@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cf7b381da4908652419da98a4fb28d8a723465e316b20e38d5b5754b482ae5e6",
   "indexed_at": "2026-02-26T01:53:43.684Z",
-  "synced_at": "2026-02-27T02:52:02.421Z",
+  "synced_at": "2026-02-28T04:24:17.969Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3fb5034868f75bca35a754b90bb7ca44f8fb97890bfe8369cb20ad186e1a0145",
   "install_command": "mkdir -p .claude/skills/bexio && curl -sL \"https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/rdewolff/bexio/SKILL.md\" > .claude/skills/bexio/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/rdewolff/bexio/SKILL.md"

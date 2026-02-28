@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4734af341383e6b61624b5d5ad49da27bb1061770889ad1150f5d72d8a282677",
   "indexed_at": "2026-02-26T09:49:45.486Z",
-  "synced_at": "2026-02-27T02:52:04.056Z",
+  "synced_at": "2026-02-28T04:24:19.709Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4cf7b988112cd3ebb09c2fbb533827fd879d3072c7054d4c3d31bea420afb888",
   "install_command": "mkdir -p .claude/skills/apex && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/apex/SKILL.md\" > .claude/skills/apex/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/apex/SKILL.md"

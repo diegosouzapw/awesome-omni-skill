@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "67fe8f706a960c5767a0f26caa0fb76dfe5a98800fbbb6d124989dc46ce4f0c8",
   "indexed_at": "2026-02-26T19:10:54.821Z",
-  "synced_at": "2026-02-27T02:51:40.843Z",
+  "synced_at": "2026-02-28T04:23:52.921Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/94d76927fe7d019f6c6c16cd0a30637897b239aad19ea6db7836d639b353b62d",
   "install_command": "mkdir -p .claude/skills/monitor-db && curl -sL \"https://raw.githubusercontent.com/Techlemariam/IronForge/main/skills/monitor-db/SKILL.md\" > .claude/skills/monitor-db/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Techlemariam/IronForge/main/skills/monitor-db/SKILL.md"

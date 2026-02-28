@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a4e1462bc334bb48c1814046a5de456d38685ff087ae1e43ecd06891aa641bd8",
   "indexed_at": "2026-02-27T16:08:01.923Z",
-  "synced_at": "2026-02-27T18:16:27.681Z",
+  "synced_at": "2026-02-28T04:23:27.767Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/72a01a695c23614ffcffbc9181631cf640ef4443244cde71c6a5ed86e53a02bb",
   "install_command": "mkdir -p .claude/skills/geo-fundamentals && curl -sL \"https://raw.githubusercontent.com/tuyenht/Antigravity-Core/main/.agent/skills/geo-fundamentals/SKILL.md\" > .claude/skills/geo-fundamentals/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tuyenht/Antigravity-Core/main/.agent/skills/geo-fundamentals/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "59857d4fa4708549dee0aa9870ee5ab2a8844e520dc7de76a7e916f7711dc627",
   "indexed_at": "2026-02-24T18:57:46.355Z",
-  "synced_at": "2026-02-27T02:52:10.964Z",
+  "synced_at": "2026-02-28T04:24:28.509Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ae1c6ade84ae4ca7a301569df14a2163bfaca02d232ebc3f1518cc8a1f3ca02d",
   "install_command": "mkdir -p .claude/skills/image-enhancer && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/image-enhancer/SKILL.md\" > .claude/skills/image-enhancer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/image-enhancer/SKILL.md"

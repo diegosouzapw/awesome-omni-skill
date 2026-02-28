@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3749940b6c4bee3596d83f1675a4347a083f270ae6e3594a8f48d773f43f3fa4",
   "indexed_at": "2026-02-27T16:57:45.961Z",
-  "synced_at": "2026-02-27T18:16:29.471Z",
+  "synced_at": "2026-02-28T04:23:39.187Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/74f2e5960d5c11b690425589e22050582ee8715ecaca1743a529d14897e44df0",
   "install_command": "mkdir -p .claude/skills/boycott-chatgpt-54c8dfea && curl -sL \"https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/hhhh124hhhh/boycott-chatgpt-54c8dfea/SKILL.md\" > .claude/skills/boycott-chatgpt-54c8dfea/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/hhhh124hhhh/boycott-chatgpt-54c8dfea/SKILL.md"

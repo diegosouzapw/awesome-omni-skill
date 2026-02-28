@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a00d0f9e0e65b8a7e8ec73261a6b0177f81ab7c56a88af7e9208a57ec7b3c2b1",
   "indexed_at": "2026-02-26T00:40:58.941Z",
-  "synced_at": "2026-02-27T02:51:10.266Z",
+  "synced_at": "2026-02-28T04:23:18.358Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a48ec7d1e41c3c1a89c0509c7347f7bc934ac8ae09c95f39f846c3d2f02a11f6",
   "install_command": "mkdir -p .claude/skills/session-logs && curl -sL \"https://raw.githubusercontent.com/geezerrrr/motive/main/Motive/Resources/Skills.bundle/session-logs/SKILL.md\" > .claude/skills/session-logs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/geezerrrr/motive/main/Motive/Resources/Skills.bundle/session-logs/SKILL.md"

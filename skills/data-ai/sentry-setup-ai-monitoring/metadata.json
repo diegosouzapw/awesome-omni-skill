@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eff98d780a0a3046d9cec750e85805ea276b57cd136549c79320382177ff1f32",
   "indexed_at": "2026-02-26T10:50:53.274Z",
-  "synced_at": "2026-02-27T02:51:13.140Z",
+  "synced_at": "2026-02-28T04:23:21.134Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d124f21ce3a0551ba444afb4995d954357f1040940e3e19c45b0c819f418528e",
   "install_command": "mkdir -p .claude/skills/sentry-setup-ai-monitoring && curl -sL \"https://raw.githubusercontent.com/monkey1sai/openai-cli/main/skills/codex/sentry-setup-ai-monitoring/SKILL.md\" > .claude/skills/sentry-setup-ai-monitoring/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/monkey1sai/openai-cli/main/skills/codex/sentry-setup-ai-monitoring/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f1a94a581f8fc098837d0b4954b44c3aed53b6e5d7005c73ae353a0c5a3bdfa7",
   "indexed_at": "2026-02-25T22:26:53.007Z",
-  "synced_at": "2026-02-27T02:51:42.906Z",
+  "synced_at": "2026-02-28T04:23:54.878Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c7fc4717b0687df494e19a3a10cfb7c3c4b640ddcacdabc07057083bcda71826",
   "install_command": "mkdir -p .claude/skills/salesforce-marketing-cloud-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/salesforce-marketing-cloud-automation/SKILL.md\" > .claude/skills/salesforce-marketing-cloud-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/salesforce-marketing-cloud-automation/SKILL.md"

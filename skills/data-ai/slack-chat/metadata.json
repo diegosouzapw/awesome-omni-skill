@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "52a7ce73f9dab1a30e282595f9948b0a91cd1eb81b739e761be042fcc8b74bda",
   "indexed_at": "2026-02-25T13:50:14.415Z",
-  "synced_at": "2026-02-27T02:51:07.656Z",
+  "synced_at": "2026-02-28T04:23:15.739Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4b94a291b741b8bccb1768dc646a1dc3b0f4d5959d94c7e4ef1352f67ce4e0bb",
   "install_command": "mkdir -p .claude/skills/slack-chat && curl -sL \"https://raw.githubusercontent.com/mikesmullin/slack/main/SKILL.md\" > .claude/skills/slack-chat/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mikesmullin/slack/main/SKILL.md"

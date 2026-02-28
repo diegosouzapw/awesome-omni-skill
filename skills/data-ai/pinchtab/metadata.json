@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "329cdd3f7b2b31bd56a84779c98b3472da6e558dfdaef06735dbd3c57c7d6fc1",
   "indexed_at": "2026-02-26T13:54:13.916Z",
-  "synced_at": "2026-02-27T02:51:25.602Z",
+  "synced_at": "2026-02-28T04:23:35.514Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8075600eafce3750784d326e43f453cb8921725d724738d4bbc9285b066a6c5b",
   "install_command": "mkdir -p .claude/skills/pinchtab && curl -sL \"https://raw.githubusercontent.com/pinchtab/pinchtab/main/skill/pinchtab/SKILL.md\" > .claude/skills/pinchtab/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pinchtab/pinchtab/main/skill/pinchtab/SKILL.md"

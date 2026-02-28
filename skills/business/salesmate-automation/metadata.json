@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0f4452de6b8f67807d60e348caf740fd70477c6ae02f9a834fd4cded4b09d8ca",
   "indexed_at": "2026-02-25T22:26:56.124Z",
-  "synced_at": "2026-02-27T02:51:43.058Z",
+  "synced_at": "2026-02-28T04:23:55.023Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/864291dcb664c742b6dbf3a7feaa54b176c3e997aaa54196985ac152bbdd4ae4",
   "install_command": "mkdir -p .claude/skills/salesmate-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/salesmate-automation/SKILL.md\" > .claude/skills/salesmate-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/salesmate-automation/SKILL.md"

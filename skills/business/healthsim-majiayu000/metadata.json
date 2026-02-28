@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4f693f82d1fb2df4a3d700acc2e041c67f06894790f5da81e3e6ec7a385e798b",
   "indexed_at": "2026-02-26T03:05:09.746Z",
-  "synced_at": "2026-02-27T02:52:03.047Z",
+  "synced_at": "2026-02-28T04:24:18.680Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e38d946f25336811c72d9e41f5e4243b7e534178cf2124a343cf31c81ed84d0e",
   "install_command": "mkdir -p .claude/skills/healthsim && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/healthsim-networksim/SKILL.md\" > .claude/skills/healthsim/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/healthsim-networksim/SKILL.md"

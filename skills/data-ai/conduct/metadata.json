@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "276147d59615b35e1a8e2d53dd7867ff2f0d12111c529377fa33542ba00031fd",
   "indexed_at": "2026-02-26T07:55:46.485Z",
-  "synced_at": "2026-02-27T02:51:11.545Z",
+  "synced_at": "2026-02-28T04:23:19.586Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4f6e063d4645aa53afac6f1d072d910834f38603cc59e6b295ea59d1ae210631",
   "install_command": "mkdir -p .claude/skills/conduct && curl -sL \"https://raw.githubusercontent.com/melodic-software/claude-code-plugins/main/plugins/research/skills/conduct/SKILL.md\" > .claude/skills/conduct/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/melodic-software/claude-code-plugins/main/plugins/research/skills/conduct/SKILL.md"

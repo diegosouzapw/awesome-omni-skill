@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2b3ba8ccde83c947a7b86c8c34acc277c98fecaa9b6186484c44c5bae1b5c15b",
   "indexed_at": "2026-02-24T22:54:19.372Z",
-  "synced_at": "2026-02-27T02:51:46.205Z",
+  "synced_at": "2026-02-28T04:23:57.631Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4b4a6d23278be4545e87ca7a6e3eee62aeea98b00940e5fd8f9968064a3cfc5e",
   "install_command": "mkdir -p .claude/skills/espocrm-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/espocrm-automation/SKILL.md\" > .claude/skills/espocrm-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/espocrm-automation/SKILL.md"

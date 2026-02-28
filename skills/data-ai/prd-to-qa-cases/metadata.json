@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5405eea14675cf8360d672b1d34f5451f890a8c50b2ff7b1561521fd4b86e489",
   "indexed_at": "2026-02-27T13:18:59.547Z",
-  "synced_at": "2026-02-27T18:16:26.874Z",
+  "synced_at": "2026-02-28T04:23:26.860Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b5baa51e17f609aaf2cce185549499226ead68501278d74994c64512cc9d9c2d",
   "install_command": "mkdir -p .claude/skills/prd-to-qa-cases && curl -sL \"https://raw.githubusercontent.com/jscraik/Agent-Skills/main/product/specs/_archive/prd-to-qa-cases/SKILL.md\" > .claude/skills/prd-to-qa-cases/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jscraik/Agent-Skills/main/product/specs/_archive/prd-to-qa-cases/SKILL.md"

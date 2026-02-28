@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "10ac60c611035373ba3373c0ee25c08dae63a6dbcdafd0d92eb09b2aa1720532",
   "indexed_at": "2026-02-26T12:01:21.940Z",
-  "synced_at": "2026-02-27T02:51:25.069Z",
+  "synced_at": "2026-02-28T04:23:34.998Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d75f297f93bfee871b1eb5ad48771ec1bea45cd9c82bae51269b677011ccbdfb",
   "install_command": "mkdir -p .claude/skills/beautiful-mermaid-renderer && curl -sL \"https://raw.githubusercontent.com/d0ublecl1ck/beautiful-mermaid-renderer/main/SKILL.md\" > .claude/skills/beautiful-mermaid-renderer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/d0ublecl1ck/beautiful-mermaid-renderer/main/SKILL.md"

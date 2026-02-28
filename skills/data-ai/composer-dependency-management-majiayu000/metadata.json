@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8980bf291c49dd9c5ab267d03437da589240ab6d11723e2afa5740cb26197d6f",
   "indexed_at": "2026-02-26T22:40:41.208Z",
-  "synced_at": "2026-02-27T02:51:04.374Z",
+  "synced_at": "2026-02-28T04:23:11.829Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6826fd88e9acc3de9c06ee728c2761b39f6ba905f9652af37e7736d9d09c0a95",
   "install_command": "mkdir -p .claude/skills/composer-dependency-management && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/composer-dependency-management/SKILL.md\" > .claude/skills/composer-dependency-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/composer-dependency-management/SKILL.md"

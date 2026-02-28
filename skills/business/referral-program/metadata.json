@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "15e04a88f7f4cdb19a5649ac6770a57e8f70377acb34c2ebe01fd447832a8201",
   "indexed_at": "2026-02-25T18:24:58.098Z",
-  "synced_at": "2026-02-27T02:51:46.817Z",
+  "synced_at": "2026-02-28T04:23:58.217Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d63310929f53867fd72771bfcd13058cdc0c8ce97395e2696ca32a5ec2dd636f",
   "install_command": "mkdir -p .claude/skills/referral-program && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/referral-program/SKILL.md\" > .claude/skills/referral-program/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/referral-program/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e56f78d12b0d548b4ea55370a53165b238455141eac57b181599f2f235a17378",
   "indexed_at": "2026-02-25T20:41:23.308Z",
-  "synced_at": "2026-02-27T02:51:23.686Z",
+  "synced_at": "2026-02-28T04:23:33.858Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/09c3a0c3a977e55eab35e38353ced2d5f00781661b5ab592668aecd82f1ad9ff",
   "install_command": "mkdir -p .claude/skills/gait-capture-runpack && curl -sL \"https://raw.githubusercontent.com/Clyra-AI/gait/main/.agents/skills/gait-capture-runpack/SKILL.md\" > .claude/skills/gait-capture-runpack/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Clyra-AI/gait/main/.agents/skills/gait-capture-runpack/SKILL.md"

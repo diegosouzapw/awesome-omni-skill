@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1528b3898a7bdc798988c1877f52234ebfb80a0bbc7fdc20a0f4be48356926a6",
   "indexed_at": "2026-02-26T05:10:48.146Z",
-  "synced_at": "2026-02-27T02:51:54.318Z",
+  "synced_at": "2026-02-28T04:24:08.845Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7fcd19feaa25b7f6fb0a27b6a808595a490c6a0dac818d7eb4bfb60f8f7cfdbf",
   "install_command": "mkdir -p .claude/skills/accountant-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/accountant-expert/SKILL.md\" > .claude/skills/accountant-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/accountant-expert/SKILL.md"

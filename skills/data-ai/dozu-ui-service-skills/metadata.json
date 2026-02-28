@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d2a9b64f20722214007a763cf1f3c09dbd6809490809b428d5edda4eef60d70f",
   "indexed_at": "2026-02-26T05:36:56.695Z",
-  "synced_at": "2026-02-27T02:51:39.396Z",
+  "synced_at": "2026-02-28T04:23:51.743Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1b28ff83239ad6bb95427afe2ff31dc4beb3dfc9236c81fdb14ba71e0222a4e9",
   "install_command": "mkdir -p .claude/skills/dozu-ui-service-skills && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/dozu-ui-service-skills/SKILL.md\" > .claude/skills/dozu-ui-service-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/dozu-ui-service-skills/SKILL.md"

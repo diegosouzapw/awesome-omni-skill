@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8091f983a577618981caf5bba72b157a8221ac7f464cafa2b24b81a7f6539d30",
   "indexed_at": "2026-02-26T17:34:10.004Z",
-  "synced_at": "2026-02-27T02:51:27.203Z",
+  "synced_at": "2026-02-28T04:23:36.914Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3a615cf0aec0f0c9e686341efafd788ff1e5fc27f74241c58222fb12e9bf52ca",
   "install_command": "mkdir -p .claude/skills/treido-skillsmith && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/treido-skillsmith/SKILL.md\" > .claude/skills/treido-skillsmith/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/treido-skillsmith/SKILL.md"

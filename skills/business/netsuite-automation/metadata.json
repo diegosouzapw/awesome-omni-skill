@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8cbd3a5c6fdb3eaf6b4a7f0a29e6e16dff3a2404ee7b2ab900338dbc834ab4d5",
   "indexed_at": "2026-02-25T20:27:20.606Z",
-  "synced_at": "2026-02-27T02:51:43.918Z",
+  "synced_at": "2026-02-28T04:23:55.758Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/91f4abac979182af0159ba315ca81bca278ed0ca1a0eabb0aa09085c780ab572",
   "install_command": "mkdir -p .claude/skills/netsuite-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/netsuite-automation/SKILL.md\" > .claude/skills/netsuite-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/netsuite-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "98fd37904bc44465617bda17f643cd960d6f307dcd20826baf4cc8e83307401e",
   "indexed_at": "2026-02-25T13:54:16.936Z",
-  "synced_at": "2026-02-27T02:51:07.841Z",
+  "synced_at": "2026-02-28T04:23:15.917Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4906297998ca4646bf30c2863177aea532aac3cc7cdc7e15636eae8e495c546b",
   "install_command": "mkdir -p .claude/skills/ddd-check && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/ddd-check-foie0222-baken-kaigi/SKILL.md\" > .claude/skills/ddd-check/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/ddd-check-foie0222-baken-kaigi/SKILL.md"

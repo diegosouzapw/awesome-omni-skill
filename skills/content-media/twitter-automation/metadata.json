@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a56b7cfe7a6b3e9c7f90ae552f98c02f6f2ae6658fd2d5f8dec2e4db54efa7fe",
   "indexed_at": "2026-02-25T19:25:16.291Z",
-  "synced_at": "2026-02-27T02:52:11.275Z",
+  "synced_at": "2026-02-28T04:24:28.818Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/56e4ef8ee02c8335c8a4c6a56928464ae43c855fec69ce4174f3fde0cfb9f653",
   "install_command": "mkdir -p .claude/skills/twitter-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/twitter-automation/SKILL.md\" > .claude/skills/twitter-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/twitter-automation/SKILL.md"

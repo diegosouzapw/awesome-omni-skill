@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "425213e42905eb8976e8e6259edb11acd399df8dd9356ac2231e56db5777bdd7",
   "indexed_at": "2026-02-26T11:42:09.482Z",
-  "synced_at": "2026-02-27T02:52:05.686Z",
+  "synced_at": "2026-02-28T04:24:21.273Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ebe47ac74bfacb1567d84be94c01af51043dfb8fd9dd00761a000b19239d6e14",
   "install_command": "mkdir -p .claude/skills/create-an-asset && curl -sL \"https://raw.githubusercontent.com/lohasle/knowledge-work-plugins/main/sales/skills/create-an-asset/SKILL.md\" > .claude/skills/create-an-asset/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lohasle/knowledge-work-plugins/main/sales/skills/create-an-asset/SKILL.md"

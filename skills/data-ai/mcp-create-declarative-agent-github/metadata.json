@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6125ea2f911b9617a2788080867850859933b610226538868d22bbf69de1179b",
   "indexed_at": "2026-02-26T20:41:26.030Z",
-  "synced_at": "2026-02-27T02:51:18.517Z",
+  "synced_at": "2026-02-28T04:23:26.182Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/738ac888180fc79e223480dd01c7497ffe0f12cb08f90374e2c1154c81b46db9",
   "install_command": "mkdir -p .claude/skills/mcp-create-declarative-agent && curl -sL \"https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/mcp-m365-copilot/skills/mcp-create-declarative-agent/SKILL.md\" > .claude/skills/mcp-create-declarative-agent/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/github/awesome-copilot/main/plugins/mcp-m365-copilot/skills/mcp-create-declarative-agent/SKILL.md"

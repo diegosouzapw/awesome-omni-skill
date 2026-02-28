@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3a16bb498978d5a4942294bae0cda40591238efd1c204eb5f56978a1bb82d72b",
   "indexed_at": "2026-02-25T17:25:04.775Z",
-  "synced_at": "2026-02-27T02:51:49.329Z",
+  "synced_at": "2026-02-28T04:24:00.411Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/938af83737c8f8d8d941804541fcc8cfac07430691006320b0ebafb97f5f7f92",
   "install_command": "mkdir -p .claude/skills/marketing-psychology && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/marketing-psychology/SKILL.md\" > .claude/skills/marketing-psychology/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/marketing-psychology/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "958ba7ecc58bd6d42a64824f854e6f4be21bb900bcad1d6944f84fe8ebd6d263",
   "indexed_at": "2026-02-26T15:23:18.837Z",
-  "synced_at": "2026-02-27T02:51:57.635Z",
+  "synced_at": "2026-02-28T04:24:12.222Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/654ec4785cd52671760a765e622ebee53ae8cf1bd5e2e20e0baeb78f48369515",
   "install_command": "mkdir -p .claude/skills/internal-linking-optimizer && curl -sL \"https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/main/optimize/internal-linking-optimizer/SKILL.md\" > .claude/skills/internal-linking-optimizer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/main/optimize/internal-linking-optimizer/SKILL.md"

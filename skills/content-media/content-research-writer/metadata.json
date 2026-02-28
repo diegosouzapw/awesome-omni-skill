@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "be4ae5355e9199455cfedbe0454ed933652f64737530bd321461e9cea011c0a4",
   "indexed_at": "2026-02-24T18:57:40.329Z",
-  "synced_at": "2026-02-27T02:52:10.810Z",
+  "synced_at": "2026-02-28T04:24:28.359Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/afc8abe26f0f8040401d7b8de4e690a67eafaed3e9b1bb8a1fbddf611efdf74f",
   "install_command": "mkdir -p .claude/skills/content-research-writer && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/content-research-writer/SKILL.md\" > .claude/skills/content-research-writer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/content-research-writer/SKILL.md"

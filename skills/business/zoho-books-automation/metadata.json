@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d564487806f918a08dc4683b6bb72b4fcbe0d439528869c0aac08142683d9dec",
   "indexed_at": "2026-02-26T01:27:08.041Z",
-  "synced_at": "2026-02-27T02:51:41.844Z",
+  "synced_at": "2026-02-28T04:23:53.852Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/77536da4639ba1b0d3b8f47c9c4cfde55af8e955e1571d22bc85bb428db9c984",
   "install_command": "mkdir -p .claude/skills/zoho-books-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/zoho-books-automation/SKILL.md\" > .claude/skills/zoho-books-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/zoho-books-automation/SKILL.md"

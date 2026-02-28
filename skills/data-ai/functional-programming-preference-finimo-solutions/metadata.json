@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "17a8fb72e0455d9226f1df261bda9451b9ec7ba9be4f1ab1c31dc82c413239d5",
   "indexed_at": "2026-02-26T22:40:54.083Z",
-  "synced_at": "2026-02-27T02:51:04.783Z",
+  "synced_at": "2026-02-28T04:23:12.230Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a95a6911934b3b1885638d21557013d7511280479304d142e73986458a8cefae",
   "install_command": "mkdir -p .claude/skills/functional-programming-preference && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/functional-programming-preference/SKILL.md\" > .claude/skills/functional-programming-preference/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/functional-programming-preference/SKILL.md"

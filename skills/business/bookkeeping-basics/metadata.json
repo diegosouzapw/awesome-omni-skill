@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9560c6a60d580b1ec5b440465f21f0d156aa58c4f56c9eebff4c32017fa7942a",
   "indexed_at": "2026-02-25T13:11:54.654Z",
-  "synced_at": "2026-02-27T02:51:59.716Z",
+  "synced_at": "2026-02-28T04:24:15.442Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/93561240303c2f4cfd241feead443dad7561b1b1a2d6a5a1fcb77344a95a43db",
   "install_command": "mkdir -p .claude/skills/bookkeeping-basics && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/jk-0001/bookkeeping-basics/SKILL.md\" > .claude/skills/bookkeeping-basics/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jk-0001/bookkeeping-basics/SKILL.md"

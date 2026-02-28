@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "30229e50d2ebdd8141e8a78c68c78c76ea100b0e5f39dca5813aa249f90c9bd5",
   "indexed_at": "2026-02-26T09:52:04.632Z",
-  "synced_at": "2026-02-27T02:51:24.899Z",
+  "synced_at": "2026-02-28T04:23:34.831Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/306b04f859a93c6c62dd77abba5f51cd9c5cfec7c5e215eb6def4d3b3275daf1",
   "install_command": "mkdir -p .claude/skills/privacy-preserving-ai-engineer && curl -sL \"https://raw.githubusercontent.com/brockp949/NerdLearn/main/skills/privacy_guardian/SKILL.md\" > .claude/skills/privacy-preserving-ai-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/brockp949/NerdLearn/main/skills/privacy_guardian/SKILL.md"

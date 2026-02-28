@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2fefa825f1a2edb8bf46af946d5ba1bb76c0e0a71239bd6b6c1c1a92874466fb",
   "indexed_at": "2026-02-25T13:08:53.621Z",
-  "synced_at": "2026-02-27T02:51:22.300Z",
+  "synced_at": "2026-02-28T04:23:32.640Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/532e18c4e3982be93caae475966f0d7aeda40a4037e50603dfaa23dee96a9107",
   "install_command": "mkdir -p .claude/skills/voice-agents && curl -sL \"https://raw.githubusercontent.com/rootcastleco/rei-skills/main/skills/voice-agents/SKILL.md\" > .claude/skills/voice-agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rootcastleco/rei-skills/main/skills/voice-agents/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7f8aee687ab5810304f4fdc8b13f0f10ef03b6c2e40a1d3dfba2cfe8b86a3a89",
   "indexed_at": "2026-02-26T23:32:08.705Z",
-  "synced_at": "2026-02-27T02:51:38.188Z",
+  "synced_at": "2026-02-28T04:23:50.869Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d053345a8a45c828e5bd7d5d7426a5340ec4baafbf2412c84a660dab327f02af",
   "install_command": "mkdir -p .claude/skills/mise && curl -sL \"https://raw.githubusercontent.com/aaronmallen/dotfiles/main/home/private_dot_config/private_agents/private_skills/private_mise/private_SKILL.md/SKILL.md\" > .claude/skills/mise/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aaronmallen/dotfiles/main/home/private_dot_config/private_agents/private_skills/private_mise/private_SKILL.md/SKILL.md"

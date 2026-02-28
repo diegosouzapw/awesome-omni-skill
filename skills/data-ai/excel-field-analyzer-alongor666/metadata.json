@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6527fe6682ed0140855e3688426290fea690a09e4c382ffe8d30bab22f829b9a",
   "indexed_at": "2026-02-25T12:37:34.353Z",
-  "synced_at": "2026-02-27T02:51:06.063Z",
+  "synced_at": "2026-02-28T04:23:14.104Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d9c0d6ec19defb4bbaa31e534b6fbb1bae80d62e4fda7f238215c1aad5529b39",
   "install_command": "mkdir -p .claude/skills/excel-field-analyzer && curl -sL \"https://raw.githubusercontent.com/alongor666/excel-field-analyzer/main/SKILL.md\" > .claude/skills/excel-field-analyzer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alongor666/excel-field-analyzer/main/SKILL.md"

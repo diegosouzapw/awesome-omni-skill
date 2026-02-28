@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "56bd2442a542895510dc25287451da44e4d1c6b8eae41056ca116385aba511b4",
   "indexed_at": "2026-02-27T14:03:28.712Z",
-  "synced_at": "2026-02-27T18:16:05.600Z",
+  "synced_at": "2026-02-28T04:24:24.680Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d8535d84a70e340ab2ee0f1a579558fa4d25fed6c832401578d3ac536b9c13b8",
   "install_command": "mkdir -p .claude/skills/hubspot-automation && curl -sL \"https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/hubspot-automation/SKILL.md\" > .claude/skills/hubspot-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/hubspot-automation/SKILL.md"

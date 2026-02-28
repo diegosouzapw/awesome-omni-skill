@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b5ddb41df316afa04c41f1aa521cd52525fd8ea7c160aa73be5e03eccdd1cf61",
   "indexed_at": "2026-02-27T15:02:23.837Z",
-  "synced_at": "2026-02-27T18:16:28.250Z",
+  "synced_at": "2026-02-28T04:23:37.821Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8724f701f1f7b84d5a8835a963ad9857abc924f7b2f9cf893e44a9b8e61465b8",
   "install_command": "mkdir -p .claude/skills/skill-creator && curl -sL \"https://raw.githubusercontent.com/TobiasBak/dotfiles/main/agent-files/skills/skill-creator/SKILL.md\" > .claude/skills/skill-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TobiasBak/dotfiles/main/agent-files/skills/skill-creator/SKILL.md"

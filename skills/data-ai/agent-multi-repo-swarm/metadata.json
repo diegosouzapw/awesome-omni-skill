@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "26e2fdf9b145091237dfa4aa5d978b2bf90190ba047638c8860a8a02f2f3fdbe",
   "indexed_at": "2026-02-26T05:45:48.908Z",
-  "synced_at": "2026-02-27T02:51:10.436Z",
+  "synced_at": "2026-02-28T04:23:18.531Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/645e203eaf49f12f3b519cfaadafb0d24388efd57cb720460b21c33464e841be",
   "install_command": "mkdir -p .claude/skills/agent-multi-repo-swarm && curl -sL \"https://raw.githubusercontent.com/ruvnet/claude-flow/main/.agents/skills/agent-multi-repo-swarm/SKILL.md\" > .claude/skills/agent-multi-repo-swarm/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ruvnet/claude-flow/main/.agents/skills/agent-multi-repo-swarm/SKILL.md"

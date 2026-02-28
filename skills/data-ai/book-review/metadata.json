@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e32b437e9e2facc3da8e85447436784c93309dfbc99a85cb6f01df3060c7a0f3",
   "indexed_at": "2026-02-25T20:40:20.343Z",
-  "synced_at": "2026-02-27T02:51:09.731Z",
+  "synced_at": "2026-02-28T04:23:17.812Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/61f451a786267564de7b7a7f9a79577864e4339f9c4f860c70d4ac0f5dc76dc5",
   "install_command": "mkdir -p .claude/skills/book-review && curl -sL \"https://raw.githubusercontent.com/tachyon-zcash/ragu/main/.claude/skills/book-review/SKILL.md\" > .claude/skills/book-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tachyon-zcash/ragu/main/.claude/skills/book-review/SKILL.md"

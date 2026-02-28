@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6104763e307850244e110f67980f0490c314deb15668407e584b08c63577dc95",
   "indexed_at": "2026-02-26T15:26:06.001Z",
-  "synced_at": "2026-02-27T02:51:00.357Z",
+  "synced_at": "2026-02-28T04:23:08.207Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aecddc53617e341f13e8f0936764f06ed02c238fe875eb2689425bd5cfc15928",
   "install_command": "mkdir -p .claude/skills/entity-class-conventions && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/entity-class-conventions/SKILL.md\" > .claude/skills/entity-class-conventions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/entity-class-conventions/SKILL.md"

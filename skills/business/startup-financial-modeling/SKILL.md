@@ -1,6 +1,7 @@
 ---
 name: startup-financial-modeling
-description: "This skill should be used when the user asks to \\\"create financial"
+description: |
+  This skill should be used when the user asks to \\\"create financial
   projections", "build a financial model", "forecast revenue", "calculate burn
   rate", "estimate runway", "model cash flow", or requests 3-5 year financial
   planning for a startup.

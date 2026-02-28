@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4be4819e3c80f7b77a26b3b186183fe314e1cfb5e12ae8a24524870223acd75a",
   "indexed_at": "2026-02-26T22:38:48.264Z",
-  "synced_at": "2026-02-27T02:51:03.498Z",
+  "synced_at": "2026-02-28T04:23:11.064Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5ea91138b881092192c44952aa79ffa4942723181f5217baa86ab25f211c93fa",
   "install_command": "mkdir -p .claude/skills/rust-dpdk && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/rust-dpdk/SKILL.md\" > .claude/skills/rust-dpdk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/rust-dpdk/SKILL.md"

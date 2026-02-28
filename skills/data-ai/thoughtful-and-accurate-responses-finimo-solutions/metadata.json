@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d0152fe30a84e8079fd1f119cb0db87c170ab84807e5819c88b0e15e01205cc2",
   "indexed_at": "2026-02-26T22:34:56.872Z",
-  "synced_at": "2026-02-27T02:51:01.908Z",
+  "synced_at": "2026-02-28T04:23:09.524Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/431d5f849364171edcc2da1eef69d447747865bdbccf381e10c98f7e794119d2",
   "install_command": "mkdir -p .claude/skills/thoughtful-and-accurate-responses && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/thoughtful-and-accurate-responses/SKILL.md\" > .claude/skills/thoughtful-and-accurate-responses/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/thoughtful-and-accurate-responses/SKILL.md"

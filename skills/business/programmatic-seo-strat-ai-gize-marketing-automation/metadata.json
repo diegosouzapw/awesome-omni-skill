@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "12c8fa1a39a59e9c4605ac429ab550cdd3b03fc95b9582f2fa2b130dfa4760fc",
   "indexed_at": "2026-02-26T21:11:03.552Z",
-  "synced_at": "2026-02-27T02:51:58.686Z",
+  "synced_at": "2026-02-28T04:24:13.289Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a8ae5c7aab9c243fb5a380e6941a7387ed4dd19e3554405b19510b3a71f4bae1",
   "install_command": "mkdir -p .claude/skills/programmatic-seo && curl -sL \"https://raw.githubusercontent.com/Strat-Ai-Gize-Marketing-Automation/marketing-skills/main/skills/programmatic-seo/SKILL.md\" > .claude/skills/programmatic-seo/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Strat-Ai-Gize-Marketing-Automation/marketing-skills/main/skills/programmatic-seo/SKILL.md"

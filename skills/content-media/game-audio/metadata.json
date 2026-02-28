@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "de1a19d0a26216bbe5eacfd3c3ea8298b50c4bfe702b18741da10547c60c47be",
   "indexed_at": "2026-02-25T19:27:27.482Z",
-  "synced_at": "2026-02-27T02:52:11.439Z",
+  "synced_at": "2026-02-28T04:24:28.962Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/70e68ecac489718d38502b4708431a0ddd81040c6c23e674117a569e4bdb7d8d",
   "install_command": "mkdir -p .claude/skills/game-audio && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/game-development/game-audio/SKILL.md\" > .claude/skills/game-audio/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/game-development/game-audio/SKILL.md"

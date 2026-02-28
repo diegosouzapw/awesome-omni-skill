@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a602de34cb19780e2850cf73400de582c91532d24b342afd496ff165fb2d46bc",
   "indexed_at": "2026-02-26T04:25:19.058Z",
-  "synced_at": "2026-02-27T02:51:24.211Z",
+  "synced_at": "2026-02-28T04:23:34.165Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0ac4db60fd7c9c9d0b9fe32e7d9051fdc938130bdf798f046aa98bc9a9377040",
   "install_command": "mkdir -p .claude/skills/round-main-control && curl -sL \"https://raw.githubusercontent.com/KarubiOhayo/Dev-Agent-Orchestrator/main/.agents/skills/round-main-control/SKILL.md\" > .claude/skills/round-main-control/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/KarubiOhayo/Dev-Agent-Orchestrator/main/.agents/skills/round-main-control/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a1fef938273f0062314aa4d1dc5e031f4d6a562adf5c3dba27ecffff11cd7302",
   "indexed_at": "2026-02-25T20:40:56.626Z",
-  "synced_at": "2026-02-27T02:51:09.886Z",
+  "synced_at": "2026-02-28T04:23:18.003Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/36db69abf6369a2aabbb4eb0abb10165b5cbb02a8d87b93f746b32fba3b9ebc0",
   "install_command": "mkdir -p .claude/skills/type-inference-validation && curl -sL \"https://raw.githubusercontent.com/plurigrid/asi/main/skills/type-inference-validation/SKILL.md\" > .claude/skills/type-inference-validation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/plurigrid/asi/main/skills/type-inference-validation/SKILL.md"

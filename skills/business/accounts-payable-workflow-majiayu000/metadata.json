@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "38398159e4cce7d11974b12f314ba4318c951406810bea93d38e59d97d25cf35",
   "indexed_at": "2026-02-26T05:10:49.307Z",
-  "synced_at": "2026-02-27T02:51:53.946Z",
+  "synced_at": "2026-02-28T04:24:08.454Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7781afb59185f5b103f41edd7f392d0448313a3c7c0a87db45f787d2c3ba5b3b",
   "install_command": "mkdir -p .claude/skills/accounts-payable-workflow && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/accounts-payable-workflow/SKILL.md\" > .claude/skills/accounts-payable-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/accounts-payable-workflow/SKILL.md"

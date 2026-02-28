@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "84ced146651b7f3344d348d4538cd1e60df471ffc7349a3f6a6be083d6c4cba7",
   "indexed_at": "2026-02-27T13:25:40.891Z",
-  "synced_at": "2026-02-27T18:16:05.117Z",
+  "synced_at": "2026-02-28T04:24:24.214Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1deff58516572f4dced41f183505c51fbbb406d311db14376262a430ef2edb4b",
   "install_command": "mkdir -p .claude/skills/analytics-tracking && curl -sL \"https://raw.githubusercontent.com/jmead/cursor-config/main/skills/analytics-tracking/SKILL.md\" > .claude/skills/analytics-tracking/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jmead/cursor-config/main/skills/analytics-tracking/SKILL.md"

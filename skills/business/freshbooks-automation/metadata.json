@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "072c2c19ff8e9fac40e69c42059edb8b6562b39ee0f6f66a6e34dc4dbff730f9",
   "indexed_at": "2026-02-24T22:55:27.523Z",
-  "synced_at": "2026-02-27T02:51:46.354Z",
+  "synced_at": "2026-02-28T04:23:57.777Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/49650bfc33789c582f584ce41aba38d1c667b28ed238c1bcd987a7c655843ae4",
   "install_command": "mkdir -p .claude/skills/freshbooks-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/freshbooks-automation/SKILL.md\" > .claude/skills/freshbooks-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/freshbooks-automation/SKILL.md"

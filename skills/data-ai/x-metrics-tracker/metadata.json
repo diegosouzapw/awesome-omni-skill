@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "52a513654c13f845235183eae954f1449988f763bcf2dce865d6bfe2de32530a",
   "indexed_at": "2026-02-26T12:01:30.853Z",
-  "synced_at": "2026-02-27T02:51:25.419Z",
+  "synced_at": "2026-02-28T04:23:35.346Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed8880b74c6050c5cee09ed63467694869c1e0eaf8e1cefc1c2e416040d674d6",
   "install_command": "mkdir -p .claude/skills/x-metrics-tracker && curl -sL \"https://raw.githubusercontent.com/iJaack/x-metrics-tracker/main/SKILL.md\" > .claude/skills/x-metrics-tracker/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/iJaack/x-metrics-tracker/main/SKILL.md"

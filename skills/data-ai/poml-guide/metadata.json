@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "460aa8e9aa07199c08d889ea8b03b974679cd4af372b8d2c18e6c67e83c3aaa4",
   "indexed_at": "2026-02-26T22:39:23.757Z",
-  "synced_at": "2026-02-27T02:51:31.823Z",
+  "synced_at": "2026-02-28T04:23:41.933Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/989d4fc3be85cec9301d884d2d61fbc7319df82ccc23284a65259dd8adc303a2",
   "install_command": "mkdir -p .claude/skills/poml-guide && curl -sL \"https://raw.githubusercontent.com/UtakataKyosui/C2Lab/main/plugins/poml-assist/skills/poml-guide/SKILL.md\" > .claude/skills/poml-guide/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/UtakataKyosui/C2Lab/main/plugins/poml-assist/skills/poml-guide/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0bd3a709326ee8d5867d5f4c3f96a3f6174b41fcf2bf749a9fa5eabded1cecb7",
   "indexed_at": "2026-02-25T15:05:27.642Z",
-  "synced_at": "2026-02-27T02:51:40.507Z",
+  "synced_at": "2026-02-28T04:23:52.597Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/12d00e3ed02c1842246a85fa1d3455db6a980c9012fc3506ed848df9070a0c4a",
   "install_command": "mkdir -p .claude/skills/ledger && curl -sL \"https://raw.githubusercontent.com/alsk1992/CloddsBot/main/src/skills/bundled/ledger/SKILL.md\" > .claude/skills/ledger/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alsk1992/CloddsBot/main/src/skills/bundled/ledger/SKILL.md"

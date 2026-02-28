@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "98a49665d8010ccc19ca867a809afebf58531c3ba02413741791f63e786a9f96",
   "indexed_at": "2026-02-25T14:25:40.969Z",
-  "synced_at": "2026-02-27T02:52:13.526Z",
+  "synced_at": "2026-02-28T04:24:30.910Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/146ed4ce865ddcd8b31f41c366865e76821b21fc4bed7c7c5a7bcf6b4c0ab242",
   "install_command": "mkdir -p .claude/skills/fal-upscale && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/fal-upscale/SKILL.md\" > .claude/skills/fal-upscale/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/fal-upscale/SKILL.md"

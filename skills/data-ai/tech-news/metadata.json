@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7e940b645c4c0efef0921e2dd17996f46cec187929a4e5f5e670ed800d3a99ed",
   "indexed_at": "2026-02-25T20:41:09.847Z",
-  "synced_at": "2026-02-27T02:51:36.507Z",
+  "synced_at": "2026-02-28T04:23:49.034Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ff0db075a124a5aa0eeaba8f98bb82524ae9f7340d67df2f1e4d969716c9b79b",
   "install_command": "mkdir -p .claude/skills/tech-news && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/foundralab/my-skills/tech-news/SKILL.md\" > .claude/skills/tech-news/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/foundralab/my-skills/tech-news/SKILL.md"

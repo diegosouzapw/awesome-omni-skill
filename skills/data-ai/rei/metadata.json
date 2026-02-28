@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "12253e7f23ac89376e179eb083f17241884c4d25c0eac0d157877c611ab297a7",
   "indexed_at": "2026-02-27T18:04:23.415Z",
-  "synced_at": "2026-02-27T18:16:29.747Z",
+  "synced_at": "2026-02-28T04:23:39.688Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8edb7337e1e75047a5a76edbf98a64ede150f63ff888d676883dc990b80a0881",
   "install_command": "mkdir -p .claude/skills/rei && curl -sL \"https://raw.githubusercontent.com/0xReisearch/rei-moltbot/main/SKILL.md\" > .claude/skills/rei/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/0xReisearch/rei-moltbot/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ffb7c5519187115d11e83d5f42279f59523363a95212564b8bbf67e0dc1682ae",
   "indexed_at": "2026-02-26T17:33:27.262Z",
-  "synced_at": "2026-02-27T02:51:27.049Z",
+  "synced_at": "2026-02-28T04:23:36.755Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7432c984625839f4b9d834df79d6df5483a9ad8f77176b0ff5b7c440a7fb7038",
   "install_command": "mkdir -p .claude/skills/agent-skill && curl -sL \"https://raw.githubusercontent.com/camronh/evals-skill/main/ezvals-docs/agent-skill.mdx/SKILL.md\" > .claude/skills/agent-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/camronh/evals-skill/main/ezvals-docs/agent-skill.mdx/SKILL.md"

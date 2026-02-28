@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e9e6a7697026234e20aacd1b2110e3f5985ca847ba06f9aaccac6d4c23f91f6a",
   "indexed_at": "2026-02-24T22:50:06.651Z",
-  "synced_at": "2026-02-27T02:51:44.671Z",
+  "synced_at": "2026-02-28T04:23:56.059Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/342ce036460ed9e3ba2ee80333beaa35aa56be17f8de990d97882c9b180e46ad",
   "install_command": "mkdir -p .claude/skills/benchmark-email-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/benchmark-email-automation/SKILL.md\" > .claude/skills/benchmark-email-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/benchmark-email-automation/SKILL.md"

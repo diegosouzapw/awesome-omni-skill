@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "68e3ccd788d5b62a19e7c4063b098dd76e952dcdc6691469f719741a3776ae49",
   "indexed_at": "2026-02-26T17:09:11.942Z",
-  "synced_at": "2026-02-27T02:51:58.200Z",
+  "synced_at": "2026-02-28T04:24:12.794Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/46d4f27d38a64c9097c2d2f5068f276cda828c16b03a7a59740882a061b2dbd8",
   "install_command": "mkdir -p .claude/skills/market-sizing-analysis && curl -sL \"https://raw.githubusercontent.com/imranstein/ValuAdis/main/.agent/skills/market-sizing-analysis/SKILL.md\" > .claude/skills/market-sizing-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/imranstein/ValuAdis/main/.agent/skills/market-sizing-analysis/SKILL.md"

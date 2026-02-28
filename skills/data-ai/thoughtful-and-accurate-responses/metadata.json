@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d52207c0fecc223d7573263f8fd7d705bf0c4b31e11ea83012bddaac6b9d8d1f",
   "indexed_at": "2026-02-26T22:32:00.534Z",
-  "synced_at": "2026-02-27T02:51:01.388Z",
+  "synced_at": "2026-02-28T04:23:09.193Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/739ae638204d25ada29c2f82525326649907779abf28c174ff78c008a80de695",
   "install_command": "mkdir -p .claude/skills/thoughtful-and-accurate-responses && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/thoughtful-and-accurate-responses/SKILL.md\" > .claude/skills/thoughtful-and-accurate-responses/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/thoughtful-and-accurate-responses/SKILL.md"
