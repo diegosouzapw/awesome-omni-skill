@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "38300c872c7c46574bd0c780d3a725ddc5b027993143ba88d44f7a9a6cce3719",
   "indexed_at": "2026-02-27T10:46:42.821Z",
-  "synced_at": "2026-02-27T13:14:57.853Z",
+  "synced_at": "2026-02-28T04:26:17.223Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ab7c3478a5b8bc782827ead6d4ecbb105ce37f35bf2dcad05c7c85fb6fc53320",
   "install_command": "mkdir -p .claude/skills/api-documenter && curl -sL \"https://raw.githubusercontent.com/alirezarezvani/claude-code-tresor/main/skills/documentation/api-documenter/SKILL.md\" > .claude/skills/api-documenter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alirezarezvani/claude-code-tresor/main/skills/documentation/api-documenter/SKILL.md"

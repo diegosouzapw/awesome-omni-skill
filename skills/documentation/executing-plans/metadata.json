@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bd4b005230ee9a3f886c7adbf4fffc992bb711cf28cb34bcf1d61a482cdfb8d4",
   "indexed_at": "2026-02-27T15:01:30.105Z",
-  "synced_at": "2026-02-27T18:17:10.992Z",
+  "synced_at": "2026-02-28T04:26:18.576Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/308b78fd6fef736ca5efc28c5a5e65a08bfd1fe61eb49240aa3bd10c99b05c17",
   "install_command": "mkdir -p .claude/skills/executing-plans && curl -sL \"https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/dmjgilbert/executing-plans/SKILL.md\" > .claude/skills/executing-plans/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/dmjgilbert/executing-plans/SKILL.md"

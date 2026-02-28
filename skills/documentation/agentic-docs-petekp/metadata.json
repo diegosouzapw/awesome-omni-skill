@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f761594ca654fca01aababb0c0153f2d6b225ecf7a29cfdd27291a08222417e6",
   "indexed_at": "2026-02-26T18:38:27.914Z",
-  "synced_at": "2026-02-27T02:53:24.930Z",
+  "synced_at": "2026-02-28T04:26:14.062Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b890d658689152960b72ddf80f9bd0fb03e229a51feb69b3fad84aeb5d3d79da",
   "install_command": "mkdir -p .claude/skills/agentic-docs && curl -sL \"https://raw.githubusercontent.com/petekp/agent-skills/main/skills/agentic-docs/SKILL.md\" > .claude/skills/agentic-docs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/petekp/agent-skills/main/skills/agentic-docs/SKILL.md"

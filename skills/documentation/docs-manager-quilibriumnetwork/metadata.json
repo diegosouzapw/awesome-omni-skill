@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8bcce75a39369e6c799747b5787d6a9be5125f4ddbec1829af1991732ea40302",
   "indexed_at": "2026-02-27T15:02:53.679Z",
-  "synced_at": "2026-02-27T18:17:11.117Z",
+  "synced_at": "2026-02-28T04:26:18.737Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e0c984761b2f58033a7e8fdc343d8feaefd88d40710218066f3c34a841786685",
   "install_command": "mkdir -p .claude/skills/docs-manager && curl -sL \"https://raw.githubusercontent.com/QuilibriumNetwork/quorum-desktop/main/.claude/skills/docs-manager/SKILL.md\" > .claude/skills/docs-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/QuilibriumNetwork/quorum-desktop/main/.claude/skills/docs-manager/SKILL.md"

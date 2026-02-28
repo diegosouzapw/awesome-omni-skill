@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "58529a4303a2cda892483f4608c98935e6a6549d843087b61c82bc2474614426",
   "indexed_at": "2026-02-26T23:31:47.557Z",
-  "synced_at": "2026-02-27T02:53:26.716Z",
+  "synced_at": "2026-02-28T04:26:15.608Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/072c0d8f9a3b76f1255953e7b7fb7e40d27eac5f63fa747fd668b9a7077010ad",
   "install_command": "mkdir -p .claude/skills/artifact-creation && curl -sL \"https://raw.githubusercontent.com/hutchic/.cursor/main/.cursor/skills/meta/artifact-creation/SKILL.md\" > .claude/skills/artifact-creation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hutchic/.cursor/main/.cursor/skills/meta/artifact-creation/SKILL.md"

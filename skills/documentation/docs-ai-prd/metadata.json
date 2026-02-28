@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "630670e0bd379a12f967d061101254d17d3be2628a4a5587d00e7ac690d939b1",
   "indexed_at": "2026-02-26T18:39:59.938Z",
-  "synced_at": "2026-02-27T02:53:25.107Z",
+  "synced_at": "2026-02-28T04:26:14.230Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6d51e2c4489aa1ee64a67bd1b8c34926079db2475e13ca6a855262c0f72415e5",
   "install_command": "mkdir -p .claude/skills/docs-ai-prd && curl -sL \"https://raw.githubusercontent.com/vasilyu1983/AI-Agents-public/main/frameworks/shared-skills/skills/docs-ai-prd/SKILL.md\" > .claude/skills/docs-ai-prd/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/vasilyu1983/AI-Agents-public/main/frameworks/shared-skills/skills/docs-ai-prd/SKILL.md"

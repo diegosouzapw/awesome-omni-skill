@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2a3460712b38c2dfb68346b703c07eb9a20e8288daae51c441c48f04cca2e09c",
   "indexed_at": "2026-02-27T15:08:51.380Z",
-  "synced_at": "2026-02-27T18:17:12.344Z",
+  "synced_at": "2026-02-28T04:26:20.360Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/67644d6461215504e55638b5900b2c67cb4b6d4f57e14f66dfffefb1b2f078b0",
   "install_command": "mkdir -p .claude/skills/write-coding-standards-from-file && curl -sL \"https://raw.githubusercontent.com/sandriaas/_dotfiles/main/.agents/skills/write-coding-standards-from-file/SKILL.md\" > .claude/skills/write-coding-standards-from-file/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sandriaas/_dotfiles/main/.agents/skills/write-coding-standards-from-file/SKILL.md"

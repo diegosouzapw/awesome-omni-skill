@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "415d0ff8e9302df85b49cdc6b5c088fa2a2fff2510dc2f4d6cb3cd9f19e1ab8a",
   "indexed_at": "2026-02-26T18:40:27.529Z",
-  "synced_at": "2026-02-27T02:53:25.687Z",
+  "synced_at": "2026-02-28T04:26:14.729Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bb7d9e3affaf994fc50aeec3ac1288d7c56aceb524c32d64e4453a0e6f55ef33",
   "install_command": "mkdir -p .claude/skills/humanizer && curl -sL \"https://raw.githubusercontent.com/thurstonsand/ansiblonomicon/main/agents/project-management/skills/humanizer/SKILL.md\" > .claude/skills/humanizer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/thurstonsand/ansiblonomicon/main/agents/project-management/skills/humanizer/SKILL.md"

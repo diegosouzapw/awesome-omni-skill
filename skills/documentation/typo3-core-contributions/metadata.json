@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fc56825c545a155fe22b912159b654ec62fd2a4c34bb83c25af4121a5f4b2f8f",
   "indexed_at": "2026-02-27T13:25:01.252Z",
-  "synced_at": "2026-02-27T18:17:10.406Z",
+  "synced_at": "2026-02-28T04:26:18.066Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5bde12d59250c585b95c866a690c426fe9fedad18fc796e5118e460ba7bc9934",
   "install_command": "mkdir -p .claude/skills/typo3-core-contributions && curl -sL \"https://raw.githubusercontent.com/netresearch/typo3-core-contributions-skill/main/skills/typo3-core-contributions/SKILL.md\" > .claude/skills/typo3-core-contributions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/netresearch/typo3-core-contributions-skill/main/skills/typo3-core-contributions/SKILL.md"

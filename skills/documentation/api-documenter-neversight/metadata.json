@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c4a9ab297ae7f5792ca4e423c3f542784423f6024fa9692f15735c1aae326375",
   "indexed_at": "2026-02-27T10:49:48.971Z",
-  "synced_at": "2026-02-27T13:14:58.025Z",
+  "synced_at": "2026-02-28T04:26:17.551Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2e3f60a3ecb9936bf9789a233a628d2951a3ced02c53bff872e6f37972d489b1",
   "install_command": "mkdir -p .claude/skills/api-documenter && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ovachiever/droid-tings/api-documenter/SKILL.md\" > .claude/skills/api-documenter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ovachiever/droid-tings/api-documenter/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "38e8d0c4bea4ca8bdbfeb351656df7a75142a2e739ba39f702852c2432d44d9c",
   "indexed_at": "2026-02-26T18:40:18.414Z",
-  "synced_at": "2026-02-27T02:53:25.275Z",
+  "synced_at": "2026-02-28T04:26:14.381Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f517b3c284411b0ae71f7f9618df3e604cda50fe90b7d90f558747e00467e999",
   "install_command": "mkdir -p .claude/skills/humanizer && curl -sL \"https://raw.githubusercontent.com/chekos/bns-marketplace/main/tdd-editor/skills/humanizer/SKILL.md\" > .claude/skills/humanizer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chekos/bns-marketplace/main/tdd-editor/skills/humanizer/SKILL.md"

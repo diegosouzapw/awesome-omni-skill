@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "595f7029c8a73143c78eff7fc894b9f18b3131ae48ba9b9af97f7d4200024637",
   "indexed_at": "2026-02-26T11:41:12.368Z",
-  "synced_at": "2026-02-27T02:53:19.266Z",
+  "synced_at": "2026-02-28T04:26:08.727Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/70658d819ace31bf0daea7b81776211e8ed09a1783d50b67c728c5062f4d24b3",
   "install_command": "mkdir -p .claude/skills/ln-120-reference-docs-creator && curl -sL \"https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/levn-ln-120-reference-docs-creator/SKILL.md\" > .claude/skills/ln-120-reference-docs-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/levn-ln-120-reference-docs-creator/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c23b0bbf5140f62baa7cb0983d183c3ecf744e36809956c54586494f2311a033",
   "indexed_at": "2026-02-27T08:55:50.083Z",
-  "synced_at": "2026-02-27T13:14:57.656Z",
+  "synced_at": "2026-02-28T04:26:16.781Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fb5b98a4be8acc1251cbbee38b17b6a68bd6eb6f0172887ff498d9799d3b6edc",
   "install_command": "mkdir -p .claude/skills/documentation-standards && curl -sL \"https://raw.githubusercontent.com/Hack23/European-Parliament-MCP-Server/main/.github/skills/documentation-standards/SKILL.md\" > .claude/skills/documentation-standards/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Hack23/European-Parliament-MCP-Server/main/.github/skills/documentation-standards/SKILL.md"

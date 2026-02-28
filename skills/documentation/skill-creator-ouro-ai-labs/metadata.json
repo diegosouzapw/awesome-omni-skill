@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dc89eaa8e0bcbf1a252ef1fa8427d0efc2e6072e7601f6888445851192ac38f8",
   "indexed_at": "2026-02-26T14:21:07.952Z",
-  "synced_at": "2026-02-27T02:53:21.287Z",
+  "synced_at": "2026-02-28T04:26:10.644Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/165638931da0ae5a86df3a6909951954068b8d49c4d61f391b6e759eb7efea48",
   "install_command": "mkdir -p .claude/skills/skill-creator && curl -sL \"https://raw.githubusercontent.com/ouro-ai-labs/ouro/main/agent/skills/system/skill-creator/SKILL.md\" > .claude/skills/skill-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ouro-ai-labs/ouro/main/agent/skills/system/skill-creator/SKILL.md"

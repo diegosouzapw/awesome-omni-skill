@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8d8f60d0027732fdb43261232e931b72b56e1f444bf22f1443ede616efe00393",
   "indexed_at": "2026-02-26T13:18:16.432Z",
-  "synced_at": "2026-02-27T02:53:20.339Z",
+  "synced_at": "2026-02-28T04:26:09.785Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/506a0109a6a9987ba9f046000ef497943c2d3aa1715e4df96a161761707a0d00",
   "install_command": "mkdir -p .claude/skills/shipping-methodology && curl -sL \"https://raw.githubusercontent.com/elb-pr/claudikins-kernel/main/skills/shipping-methodology/SKILL.md\" > .claude/skills/shipping-methodology/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/elb-pr/claudikins-kernel/main/skills/shipping-methodology/SKILL.md"

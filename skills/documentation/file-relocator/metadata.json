@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "34b6cd5056746ff8fab18a89adab6ad984fe1767986d10fa85c633251b7f6760",
   "indexed_at": "2026-02-26T14:15:58.185Z",
-  "synced_at": "2026-02-27T02:53:20.943Z",
+  "synced_at": "2026-02-28T04:26:10.326Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/46b9bb8d702c7497d76c8a861faaa9664df02e027ab3b4290a81e2604c80c7dc",
   "install_command": "mkdir -p .claude/skills/file-relocator && curl -sL \"https://raw.githubusercontent.com/Ryno-Crypto-Mining-Services/ryno-assets/main/.claude/skills/file-relocator/SKILL.md\" > .claude/skills/file-relocator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Ryno-Crypto-Mining-Services/ryno-assets/main/.claude/skills/file-relocator/SKILL.md"

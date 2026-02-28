@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dacf413220a7eebc8d31b65910c64f6b65ac7e5c6e4ca4208d77af2b302fa626",
   "indexed_at": "2026-02-26T08:50:26.700Z",
-  "synced_at": "2026-02-27T02:53:28.235Z",
+  "synced_at": "2026-02-28T04:26:24.218Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c7c4711e726ab78b9ab6faefff876f331b94f95590648d351be93e7a541dc46f",
   "install_command": "mkdir -p .claude/skills/code-documentation && curl -sL \"https://raw.githubusercontent.com/Jonathan0823/opencode-config/main/skills/code-documentation/SKILL.md\" > .claude/skills/code-documentation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Jonathan0823/opencode-config/main/skills/code-documentation/SKILL.md"

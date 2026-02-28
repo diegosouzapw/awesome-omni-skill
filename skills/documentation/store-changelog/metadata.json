@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4a2bae17d00e1dd1d433ed23d08cc3d942d441cebb49da2bc8e361a86d811104",
   "indexed_at": "2026-02-27T15:05:53.300Z",
-  "synced_at": "2026-02-27T18:17:11.564Z",
+  "synced_at": "2026-02-28T04:26:19.227Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e3611180af5dc01be434debe0f233319c7a41edaf7e402e0244f2f6c52acb4d7",
   "install_command": "mkdir -p .claude/skills/store-changelog && curl -sL \"https://raw.githubusercontent.com/prof18/feed-flow/main/.ai/skills/store-changelog/SKILL.md\" > .claude/skills/store-changelog/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/prof18/feed-flow/main/.ai/skills/store-changelog/SKILL.md"

@@ -152,7 +152,7 @@ For each technology with complex configuration:
 2. **Create Guide if justified**:
    - Determine next guide number: `NN-{technology-slug}-patterns.md`
    - Use template: `shared/templates/guide_template.md`
-   - MCP Research: `mcp__Ref__ref_search_documentation("{technology} patterns 2025")`
+   - MCP Research: `mcp__Ref__ref_search_documentation("{technology} patterns {current_year}")`
    - Fill template:
      - Principle: Industry standard from research
      - Our Implementation: How project uses it

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "82b03da9b8c22944c81f553aea251aae3df0b13acb05afa191758da1125e847e",
   "indexed_at": "2026-02-27T15:08:44.348Z",
-  "synced_at": "2026-02-27T18:17:11.985Z",
+  "synced_at": "2026-02-28T04:26:19.750Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ea94a810dc9ce5e18dc0fca8a869934c33f3023a848a993b04720328dd0e61d1",
   "install_command": "mkdir -p .claude/skills/write-coding-standards-from-file && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/github/awesome-copilot/write-coding-standards-from-file/SKILL.md\" > .claude/skills/write-coding-standards-from-file/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/github/awesome-copilot/write-coding-standards-from-file/SKILL.md"

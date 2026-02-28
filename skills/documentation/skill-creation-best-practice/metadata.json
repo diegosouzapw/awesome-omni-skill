@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "679695a917c527d153f020ea57a2dae8a276f0d8f32223bd8f994066bad945e5",
   "indexed_at": "2026-02-26T13:20:56.136Z",
-  "synced_at": "2026-02-27T02:53:20.716Z",
+  "synced_at": "2026-02-28T04:26:10.124Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b178a4afbab79ea00806a9b60707091b6ceeb02288aa9f650587b6b4f989c1bb",
   "install_command": "mkdir -p .claude/skills/skill-creation-best-practice && curl -sL \"https://raw.githubusercontent.com/madogiwa0124/my-agents-collection/main/skills/skill-creation-best-practice/SKILL.md\" > .claude/skills/skill-creation-best-practice/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/madogiwa0124/my-agents-collection/main/skills/skill-creation-best-practice/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "43c58fa5fb57fbf57337a9ca3d4d60278cde8a604e188e607d61ea8564424e97",
   "indexed_at": "2026-02-27T16:09:04.122Z",
-  "synced_at": "2026-02-27T18:17:12.708Z",
+  "synced_at": "2026-02-28T04:26:29.592Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1e1e10b8fea8c84a1631b8dc7b87181081cc794e92d98732af6613b43dfe6a02",
   "install_command": "mkdir -p .claude/skills/documentation-specialist && curl -sL \"https://raw.githubusercontent.com/huangwb8/skills/main/awesome-code/agents/documentation-specialist/SKILL.md\" > .claude/skills/documentation-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/huangwb8/skills/main/awesome-code/agents/documentation-specialist/SKILL.md"

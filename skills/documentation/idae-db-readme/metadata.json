@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "58b51b9e55791dc87ea7d58c4fc999455ed06891b68d0d4213102dbd9abc6c59",
   "indexed_at": "2026-02-26T08:56:30.831Z",
-  "synced_at": "2026-02-27T02:53:30.900Z",
+  "synced_at": "2026-02-28T04:26:27.385Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/91b5253ced978d7fc063c9f454df98de19f3a71707eb2442c794ecd62844ed12",
   "install_command": "mkdir -p .claude/skills/idae-db-readme && curl -sL \"https://raw.githubusercontent.com/medyll/idae/main/packages/idae-db/SKILL.md\" > .claude/skills/idae-db-readme/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/medyll/idae/main/packages/idae-db/SKILL.md"

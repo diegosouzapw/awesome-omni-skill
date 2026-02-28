@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fd6c35e9794bed0dec2a560121306cf86e1e73513bd170c0bdd8141647ce4ad9",
   "indexed_at": "2026-02-27T15:04:46.689Z",
-  "synced_at": "2026-02-27T18:17:12.597Z",
+  "synced_at": "2026-02-28T04:26:26.720Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/93a686b9b797bf7d78307c30e9bf2d5d6dee967e0d0ba5e301deeed3722fa3c3",
   "install_command": "mkdir -p .claude/skills/agent-changelog-generator && curl -sL \"https://raw.githubusercontent.com/seqis/OpenClaw-Skills-Converted-From-Claude-Code/main/skills_flat/agent-changelog-generator.SKILL.md/SKILL.md\" > .claude/skills/agent-changelog-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/seqis/OpenClaw-Skills-Converted-From-Claude-Code/main/skills_flat/agent-changelog-generator.SKILL.md/SKILL.md"

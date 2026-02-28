@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ddf461476301ae2b6484d07a313ea275fa3043977bf56c61637e5e4977286482",
   "indexed_at": "2026-02-26T22:35:28.359Z",
-  "synced_at": "2026-02-27T02:53:28.061Z",
+  "synced_at": "2026-02-28T04:26:24.059Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c71e184795e113a7095ad4f8936639cfb5de967a3d210a590efa609c7ee9faee",
   "install_command": "mkdir -p .claude/skills/technical-accuracy-and-usability-rules && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/technical-accuracy-and-usability-rules/SKILL.md\" > .claude/skills/technical-accuracy-and-usability-rules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/technical-accuracy-and-usability-rules/SKILL.md"

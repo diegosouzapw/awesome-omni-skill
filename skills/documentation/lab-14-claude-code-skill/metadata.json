@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "69bfb80a61635cc9b973177e944c67c56a7f5753d2cde4782460ecba00a38cf4",
   "indexed_at": "2026-02-26T13:15:36.973Z",
-  "synced_at": "2026-02-27T02:53:29.514Z",
+  "synced_at": "2026-02-28T04:26:25.452Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ba3506bae246a01568a6931aed65c620af62c3031db3e5782b04128e8dfe001c",
   "install_command": "mkdir -p .claude/skills/lab-14-claude-code-skill && curl -sL \"https://raw.githubusercontent.com/fbratten/8me-showcase/main/labs/14-skill.md/SKILL.md\" > .claude/skills/lab-14-claude-code-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fbratten/8me-showcase/main/labs/14-skill.md/SKILL.md"

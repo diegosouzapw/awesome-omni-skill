@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e1a0058c473766c2b35a88ec53e87bea5bcf65efe51fc1a748b47aed60bdb53b",
   "indexed_at": "2026-02-26T08:54:24.882Z",
-  "synced_at": "2026-02-27T02:53:26.899Z",
+  "synced_at": "2026-02-28T04:26:22.600Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d2b8a0e1b1eca3afbc2f879a384698761cc5d0a641d660c240bac6da67fae9dd",
   "install_command": "mkdir -p .claude/skills/documentation && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/miles990/claude-software-skills/documentation/SKILL.md\" > .claude/skills/documentation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/miles990/claude-software-skills/documentation/SKILL.md"

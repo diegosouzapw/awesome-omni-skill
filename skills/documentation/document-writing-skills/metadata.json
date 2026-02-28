@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "31e7fa44af19cecc2acd912d5932ee1c6215524c15203f36dfde0a27b2252a45",
   "indexed_at": "2026-02-27T08:56:14.077Z",
-  "synced_at": "2026-02-27T13:14:57.758Z",
+  "synced_at": "2026-02-28T04:26:17.062Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d08f4bcc451296bbe6f83f974f9ab0a62120ebea78a2fd3a246bb800ae45c87d",
   "install_command": "mkdir -p .claude/skills/document-writing-skills && curl -sL \"https://raw.githubusercontent.com/kimasplund/clawdbot-skills-pack/main/development-skills/document-writing/SKILL.md\" > .claude/skills/document-writing-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kimasplund/clawdbot-skills-pack/main/development-skills/document-writing/SKILL.md"

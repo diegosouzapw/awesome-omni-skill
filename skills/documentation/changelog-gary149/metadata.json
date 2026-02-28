@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "59ad308bfafc043eec6dc3f3e4750b2720a05385968b2c6f27ccc753d6a6321e",
   "indexed_at": "2026-02-26T12:54:42.621Z",
-  "synced_at": "2026-02-27T02:53:20.185Z",
+  "synced_at": "2026-02-28T04:26:09.634Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/39de268029eb29e60378385fc6d85f77c14ca19acbfb44442baef30ada7e5e54",
   "install_command": "mkdir -p .claude/skills/changelog && curl -sL \"https://raw.githubusercontent.com/gary149/hf-changelog-skill/main/SKILL.md\" > .claude/skills/changelog/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/gary149/hf-changelog-skill/main/SKILL.md"

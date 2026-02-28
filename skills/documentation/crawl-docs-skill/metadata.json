@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33b5bd27a98dd1ec7b116140a29c23d60bd46ea9ed4336fa76222bc2c7b8607a",
   "indexed_at": "2026-02-26T11:56:48.207Z",
-  "synced_at": "2026-02-27T02:53:31.412Z",
+  "synced_at": "2026-02-28T04:26:27.926Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f20f0f7d03f8ad069b24d167f541e87e714ac209426f3b59d2412b63eddfe1b3",
   "install_command": "mkdir -p .claude/skills/crawl-docs-skill && curl -sL \"https://raw.githubusercontent.com/d0ublecl1ck/crawl-docs-skill/main/SKILL.md\" > .claude/skills/crawl-docs-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/d0ublecl1ck/crawl-docs-skill/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "64d9a4631b7766112a7a2ac9b6b59495157b4c98e16371689ea3df41f3c8577f",
   "indexed_at": "2026-02-26T11:41:01.881Z",
-  "synced_at": "2026-02-27T02:53:18.903Z",
+  "synced_at": "2026-02-28T04:26:08.378Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/30c45fc67849ed15299864c4bf0b38052411776aa1f0ae9471f46057956abcbd",
   "install_command": "mkdir -p .claude/skills/code-documentation && curl -sL \"https://raw.githubusercontent.com/ngxtm/devkit/main/skills/code-documentation/SKILL.md\" > .claude/skills/code-documentation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ngxtm/devkit/main/skills/code-documentation/SKILL.md"

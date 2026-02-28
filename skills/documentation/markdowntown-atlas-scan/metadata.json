@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3d52490caa63360f52af974f6385906cf9d95e0deb0c4efa60e74857c71fc4a2",
   "indexed_at": "2026-02-26T00:40:30.281Z",
-  "synced_at": "2026-02-27T02:53:32.553Z",
+  "synced_at": "2026-02-28T04:26:29.245Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dc4b41ed141983e6bebb96f6d563771caa431a66618d3bd81e9594dc3fd2ba69",
   "install_command": "mkdir -p .claude/skills/markdowntown-atlas-scan && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/markdowntown-atlas-scan/SKILL.md\" > .claude/skills/markdowntown-atlas-scan/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/markdowntown-atlas-scan/SKILL.md"

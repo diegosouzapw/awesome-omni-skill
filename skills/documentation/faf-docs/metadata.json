@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a9b07dd1710f1f4c37c96b627b06b96f299f23efe99b2672c8d41415aec4c0a4",
   "indexed_at": "2026-02-26T17:32:21.083Z",
-  "synced_at": "2026-02-27T02:53:23.982Z",
+  "synced_at": "2026-02-28T04:26:13.172Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bbdfc648e9a42aa5be44d354ba70b3698fe6aba41c75ceb91df11c5d47dd0da7",
   "install_command": "mkdir -p .claude/skills/faf-docs && curl -sL \"https://raw.githubusercontent.com/Wolfe-Jam/faf-skills/main/skills/faf-docs/SKILL.md\" > .claude/skills/faf-docs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Wolfe-Jam/faf-skills/main/skills/faf-docs/SKILL.md"

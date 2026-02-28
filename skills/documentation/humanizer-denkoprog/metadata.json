@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f12875c7bfea6abb9d9c45629d86153ab86f27134809ba15654ae6c122f4bed4",
   "indexed_at": "2026-02-26T18:40:22.434Z",
-  "synced_at": "2026-02-27T02:53:25.461Z",
+  "synced_at": "2026-02-28T04:26:14.552Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ba816b2538a06040f67b2a6d99bfbc24f38ce9cf809ce08dabbc23f129bcb886",
   "install_command": "mkdir -p .claude/skills/humanizer && curl -sL \"https://raw.githubusercontent.com/DenkoProg/surdo-perevodchik/main/.claude/skills/humanizer/SKILL.md\" > .claude/skills/humanizer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/DenkoProg/surdo-perevodchik/main/.claude/skills/humanizer/SKILL.md"

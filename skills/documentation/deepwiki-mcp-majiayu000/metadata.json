@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "17da877a1551dfc6982dd3e354fe694fcd67935853bed6f9f820cfd90947d8fd",
   "indexed_at": "2026-02-26T17:35:03.150Z",
-  "synced_at": "2026-02-27T02:53:27.641Z",
+  "synced_at": "2026-02-28T04:26:23.490Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/27c8374eabb0404bdbd6e21ae8fe0cb5aa1ab7349d51e9c199e601016529ca71",
   "install_command": "mkdir -p .claude/skills/deepwiki-mcp && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/deepwiki-mcp/SKILL.md\" > .claude/skills/deepwiki-mcp/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/deepwiki-mcp/SKILL.md"

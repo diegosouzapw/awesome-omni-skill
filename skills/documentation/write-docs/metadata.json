@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "65f98ced0d9e2e63c6d5f543b1a4cd7a2cc31fb0bcd9a73f6117ef905baf1a52",
   "indexed_at": "2026-02-26T12:16:14.514Z",
-  "synced_at": "2026-02-27T02:53:19.681Z",
+  "synced_at": "2026-02-28T04:26:09.127Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/17e0dac447e3948e29fb9a1e02f59d6134c630dc92080e445df2618b76f1195a",
   "install_command": "mkdir -p .claude/skills/write-docs && curl -sL \"https://raw.githubusercontent.com/PrefectHQ/prefect/main/.claude/skills/write-docs/SKILL.md\" > .claude/skills/write-docs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/PrefectHQ/prefect/main/.claude/skills/write-docs/SKILL.md"

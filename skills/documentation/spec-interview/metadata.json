@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "66a7681fb7e0c2fc63fdcfbc92aa5f9ac03e20a12e43767159eeeb298b924535",
   "indexed_at": "2026-02-26T17:36:31.717Z",
-  "synced_at": "2026-02-27T02:53:30.049Z",
+  "synced_at": "2026-02-28T04:26:26.074Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1b1d0cef96ebcbe3c33581083b1e28d3d15bef10efd0ad4547c2257128b18e1f",
   "install_command": "mkdir -p .claude/skills/spec-interview && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/bahayonghang/my-claude-code-settings/spec-interview/SKILL.md\" > .claude/skills/spec-interview/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/bahayonghang/my-claude-code-settings/spec-interview/SKILL.md"

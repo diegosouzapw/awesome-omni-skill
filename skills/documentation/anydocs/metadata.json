@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c3cf8770d33c4fb7fcbffc1814732754a79b2aab1535abb81382c20e9e5c743e",
   "indexed_at": "2026-02-26T11:33:30.747Z",
-  "synced_at": "2026-02-27T02:53:31.243Z",
+  "synced_at": "2026-02-28T04:26:27.746Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b23176cba76e053145440e869846ade4748de7c5e7be81db9e42ed68cd92f860",
   "install_command": "mkdir -p .claude/skills/anydocs && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/pektech/anydocs/SKILL.md\" > .claude/skills/anydocs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pektech/anydocs/SKILL.md"

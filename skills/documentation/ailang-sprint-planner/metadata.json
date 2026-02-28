@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9b35c6735c6028fb61628aecdc16a28a803b76fee21a4d962d3d0078ae78c1f6",
   "indexed_at": "2026-02-26T16:35:06.976Z",
-  "synced_at": "2026-02-27T02:53:23.276Z",
+  "synced_at": "2026-02-28T04:26:12.490Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f3f0d28ff7442e7013b1f76f2da4259cf495ee9cdd6ca44ff09b80d2f84a2807",
   "install_command": "mkdir -p .claude/skills/ailang-sprint-planner && curl -sL \"https://raw.githubusercontent.com/sunholo-data/ailang/main/.claude/skills/sprint-planner/SKILL.md\" > .claude/skills/ailang-sprint-planner/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sunholo-data/ailang/main/.claude/skills/sprint-planner/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "55abc5dca28b012d8adbb11983da656eb9b24fdb5ad61ed25d83bc1de25e8064",
   "indexed_at": "2026-02-26T15:22:00.771Z",
-  "synced_at": "2026-02-27T02:53:22.252Z",
+  "synced_at": "2026-02-28T04:26:11.571Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8c8a148922e5bb0651d593c26e8b40840c70830be9a30a8027f39059e216957b",
   "install_command": "mkdir -p .claude/skills/showroom-create-lab && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/create-lab/SKILL.md\" > .claude/skills/showroom-create-lab/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/create-lab/SKILL.md"

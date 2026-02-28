@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2267da72bca4312e11d24643978a1198b966a94b57e83f26ca34703be14a8618",
   "indexed_at": "2026-02-27T07:35:03.540Z",
-  "synced_at": "2026-02-27T13:14:57.178Z",
+  "synced_at": "2026-02-28T04:26:15.923Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1428e26210ceb53ada152e07d607c11f823107e0a3e823c17ab95d4b8fc84ee9",
   "install_command": "mkdir -p .claude/skills/amazon-sixpager-reviewer && curl -sL \"https://raw.githubusercontent.com/chato-prnd/amazon-sixpager-reviewer/main/SKILL.md\" > .claude/skills/amazon-sixpager-reviewer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chato-prnd/amazon-sixpager-reviewer/main/SKILL.md"

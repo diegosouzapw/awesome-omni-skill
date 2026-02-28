@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e9a21b04596778044300d91a985237e4773a9fcf1e2c6a761bc9ee60708b451b",
   "indexed_at": "2026-02-26T17:30:34.908Z",
-  "synced_at": "2026-02-27T02:53:23.813Z",
+  "synced_at": "2026-02-28T04:26:13.025Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/22703449efb5820b09a6aa8f7ebce5f7785b5a6e97ae0d1bee8dd064b4a95bdb",
   "install_command": "mkdir -p .claude/skills/documentation && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/youdotcom-oss__dx-toolkit__claude__skills__documentation__SKILL.md/SKILL.md\" > .claude/skills/documentation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/youdotcom-oss__dx-toolkit__claude__skills__documentation__SKILL.md/SKILL.md"
