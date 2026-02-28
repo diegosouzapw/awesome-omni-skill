@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "14056cebeec807a19d9b396ee0221f5b9a1345d63bc446564b5f5e64ededdfba",
   "indexed_at": "2026-02-26T14:22:11.711Z",
-  "synced_at": "2026-02-27T02:40:12.271Z",
+  "synced_at": "2026-02-28T04:09:25.667Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6b85e2746acfc790958f641cf127a3903763c944359cd2377bb8f53f5bd26cb3",
   "install_command": "mkdir -p .claude/skills/sast-scanning && curl -sL \"https://raw.githubusercontent.com/BagelHole/DevOps-Security-Agent-Skills/main/security/scanning/sast-scanning/SKILL.md\" > .claude/skills/sast-scanning/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/BagelHole/DevOps-Security-Agent-Skills/main/security/scanning/sast-scanning/SKILL.md"

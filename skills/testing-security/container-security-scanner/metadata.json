@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f7906f10ade9279a876339dc54cc0bd1133542fb97592499fe0430a9f63554bf",
   "indexed_at": "2026-02-25T12:41:03.516Z",
-  "synced_at": "2026-02-27T02:39:12.962Z",
+  "synced_at": "2026-02-28T04:08:05.765Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/795399e559c1260455779047d9df9f31b66077847ffba99e6bb571cb1fa84005",
   "install_command": "mkdir -p .claude/skills/container-security-scanner && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/container-security-scanner/SKILL.md\" > .claude/skills/container-security-scanner/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/container-security-scanner/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6851b514f98e47074aac6e6c8eff3fdd87c92ff07d18c32d33fa18bf487f657d",
   "indexed_at": "2026-02-26T09:51:30.039Z",
-  "synced_at": "2026-02-27T02:40:03.673Z",
+  "synced_at": "2026-02-28T04:09:17.694Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d3c08708d47819f402075c73869fb55ec0966af3db284c9764c455ffe529b4a9",
   "install_command": "mkdir -p .claude/skills/config-scan && curl -sL \"https://raw.githubusercontent.com/jwynia/agent-skills/main/skills/tech/security/config-scan/SKILL.md\" > .claude/skills/config-scan/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jwynia/agent-skills/main/skills/tech/security/config-scan/SKILL.md"

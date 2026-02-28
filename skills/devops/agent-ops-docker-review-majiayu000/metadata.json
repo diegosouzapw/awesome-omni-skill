@@ -7,10 +7,10 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry-data",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "analysis/agent-ops-docker-review/SKILL.md",
+  "file_path": "data/agent-ops-docker-review/SKILL.md",
   "source": "github_curated_repos",
-  "stars": 1,
-  "quality_score": 62,
+  "stars": 2,
+  "quality_score": 64,
   "best_practices_score": 60,
   "skill_level": 3,
   "skill_level_label": "resources",
@@ -18,9 +18,9 @@
   "has_extra_files": false,
   "downloads": 0,
   "content_hash": "da2ced48555d0fc6a5701b0342fa346f75df4dbafde815e44e867ffc780007e4",
-  "indexed_at": "2026-02-24T23:05:57.973Z",
-  "synced_at": "2026-02-27T02:39:53.443Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/378c5a341b2fee494093355b85f19d23b00d62b7cf2c47fb584377ccebdc26ea",
-  "install_command": "mkdir -p .claude/skills/agent-ops-docker-review && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/analysis/agent-ops-docker-review/SKILL.md\" > .claude/skills/agent-ops-docker-review/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/analysis/agent-ops-docker-review/SKILL.md"
+  "indexed_at": "2026-02-27T03:54:09.433Z",
+  "synced_at": "2026-02-28T04:08:55.403Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0a9c53efd93d6949576b0ce176072b17750df06174da8303b1f664a8e05ba1b3",
+  "install_command": "mkdir -p .claude/skills/agent-ops-docker-review && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-ops-docker-review/SKILL.md\" > .claude/skills/agent-ops-docker-review/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-ops-docker-review/SKILL.md"
 }

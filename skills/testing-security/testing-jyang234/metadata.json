@@ -17,9 +17,9 @@
   "has_scripts": false,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "f44aa42a6d75afc3e1c1102505db18c1f108f8a2264aa37d0a7f63a2246c7a4b",
+  "content_hash": "e53e20a0a900f448cb3096988b33f03065d7fb5d330b866753ac8ddf2e1f1e8a",
   "indexed_at": "2026-02-25T15:11:08.190Z",
-  "synced_at": "2026-02-27T02:39:19.444Z",
+  "synced_at": "2026-02-28T04:08:13.091Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0810778603eb2d00b720c6f0050b98634f9fba85972ee5dbd2446b2d91f89afd",
   "install_command": "mkdir -p .claude/skills/testing && curl -sL \"https://raw.githubusercontent.com/jyang234/ai-engineering-framework/main/edi/internal/assets/skills/testing/SKILL.md\" > .claude/skills/testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jyang234/ai-engineering-framework/main/edi/internal/assets/skills/testing/SKILL.md"

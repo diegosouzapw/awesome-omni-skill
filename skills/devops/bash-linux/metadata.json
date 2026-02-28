@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f0c04a4288437af1d8379409794bf238cbc59115d53f394dced2fc4cd916e622",
   "indexed_at": "2026-02-25T15:24:26.849Z",
-  "synced_at": "2026-02-27T02:39:42.953Z",
+  "synced_at": "2026-02-28T04:08:37.768Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/55b089d269dd966e414b334abe1af30439f48cc4a150b0847240fdda0f855ba2",
   "install_command": "mkdir -p .claude/skills/bash-linux && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/bash-linux/SKILL.md\" > .claude/skills/bash-linux/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/bash-linux/SKILL.md"

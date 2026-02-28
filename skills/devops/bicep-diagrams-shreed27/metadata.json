@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d8f8d63a5b8e5f9ac5a06a4ad9cfe62ba6af920fcbd011c49bb94fe4077a550e",
   "indexed_at": "2026-02-27T16:10:22.650Z",
-  "synced_at": "2026-02-27T18:17:04.229Z",
+  "synced_at": "2026-02-28T04:09:29.987Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e7c7c92c96555aa5411f36b452400abff2d1bf3de7f653644d0d67dd847b84fd",
   "install_command": "mkdir -p .claude/skills/bicep-diagrams && curl -sL \"https://raw.githubusercontent.com/shreed27/Archon.AI/main/.agents/skills/bicep-diagrams/SKILL.md\" > .claude/skills/bicep-diagrams/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/shreed27/Archon.AI/main/.agents/skills/bicep-diagrams/SKILL.md"

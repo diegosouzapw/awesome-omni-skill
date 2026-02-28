@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4d8b09f9743926e4d4a4e15aba2ae38ec9cc2c3f20e5e5274230cf66810141b0",
   "indexed_at": "2026-02-24T23:42:16.310Z",
-  "synced_at": "2026-02-27T02:39:51.382Z",
+  "synced_at": "2026-02-28T04:08:50.180Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/47f80fcf153c8d068d72b808bec3e2e13e642cdb95abe47924ec83a36650ac66",
   "install_command": "mkdir -p .claude/skills/gitlab-ci-validator && curl -sL \"https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/gitlab-ci-validator/SKILL.md\" > .claude/skills/gitlab-ci-validator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/gitlab-ci-validator/SKILL.md"

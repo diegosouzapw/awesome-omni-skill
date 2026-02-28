@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c985bd78e36cc6fdba067c57f75daecd819aefcbd2afc1f17feaf312e0253166",
   "indexed_at": "2026-02-26T08:45:45.526Z",
-  "synced_at": "2026-02-27T02:40:02.275Z",
+  "synced_at": "2026-02-28T04:09:16.262Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ec6e81b600900d81116c3c8bd6ae6f4cfe3ffbf04c7b66c0e21248595f57193b",
   "install_command": "mkdir -p .claude/skills/julien-infra-hostinger-database && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/julien-infra-hostinger-database/SKILL.md\" > .claude/skills/julien-infra-hostinger-database/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/julien-infra-hostinger-database/SKILL.md"

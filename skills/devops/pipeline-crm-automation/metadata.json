@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "77a479cbc2bfe4c05ed4352ebb57279761c89e1fe90ed441f302b874cd301b82",
   "indexed_at": "2026-02-25T21:26:58.853Z",
-  "synced_at": "2026-02-27T02:39:28.845Z",
+  "synced_at": "2026-02-28T04:08:24.395Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/802eefeef24acc0d8d5419fe79880b2a5fad45855359b876f1b8899b69ab9723",
   "install_command": "mkdir -p .claude/skills/pipeline-crm-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/pipeline-crm-automation/SKILL.md\" > .claude/skills/pipeline-crm-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/pipeline-crm-automation/SKILL.md"

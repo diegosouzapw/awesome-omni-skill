@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9a977b3c6e5f9e706d00c327e9befd915f5eaf3da94193865407ec816fef8a38",
   "indexed_at": "2026-02-25T17:23:14.208Z",
-  "synced_at": "2026-02-27T02:39:35.908Z",
+  "synced_at": "2026-02-28T04:08:31.119Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c3b5a84db6f77e49f127100c33713ae097ef4db14bb49ab463c1a9389a2103c8",
   "install_command": "mkdir -p .claude/skills/incident-response-smart-fix && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/incident-response-smart-fix/SKILL.md\" > .claude/skills/incident-response-smart-fix/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/incident-response-smart-fix/SKILL.md"

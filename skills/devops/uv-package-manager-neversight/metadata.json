@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ccfd389b3f18a2910a5b19c43e345913bb9fe408edad447e89c691103c9e96df",
   "indexed_at": "2026-02-26T10:51:59.141Z",
-  "synced_at": "2026-02-27T02:40:06.203Z",
+  "synced_at": "2026-02-28T04:09:19.683Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b1da8348e41e334005570bd771ff9e815ddf2fe27d69327fcb105e1e9ef2e20b",
   "install_command": "mkdir -p .claude/skills/uv-package-manager && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/galaxy-dawn/claude-scholar/uv-package-manager/SKILL.md\" > .claude/skills/uv-package-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/galaxy-dawn/claude-scholar/uv-package-manager/SKILL.md"

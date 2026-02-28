@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a4dc5d64be087fefff4ac0ed021b215f4e9858e9a5b0889116cb6b8a87af8363",
   "indexed_at": "2026-02-25T16:23:08.623Z",
-  "synced_at": "2026-02-27T02:39:38.688Z",
+  "synced_at": "2026-02-28T04:08:33.646Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/92d00264af06dda897b2eea7586aee477cf439240eb09ac07958c00526a05c97",
   "install_command": "mkdir -p .claude/skills/data-engineering-data-pipeline && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/data-engineering-data-pipeline/SKILL.md\" > .claude/skills/data-engineering-data-pipeline/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/data-engineering-data-pipeline/SKILL.md"

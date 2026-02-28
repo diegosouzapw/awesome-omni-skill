@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a6fab12d43000905d814a220b2bc8291c37ad7b333d13c07bab5b1dfba8f431f",
   "indexed_at": "2026-02-26T11:39:12.218Z",
-  "synced_at": "2026-02-27T02:40:07.495Z",
+  "synced_at": "2026-02-28T04:09:20.937Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/960c68783029b7fb88e29e9fcc19fb611c878d5a0c0d7d9104e8565e9d1e2053",
   "install_command": "mkdir -p .claude/skills/none && curl -sL \"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/implementing-privileged-access-management-with-cyberark/SKILL.md\" > .claude/skills/none/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/implementing-privileged-access-management-with-cyberark/SKILL.md"

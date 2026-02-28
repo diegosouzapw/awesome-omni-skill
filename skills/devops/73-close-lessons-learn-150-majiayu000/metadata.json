@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "38e6871ec6c85832448b7e89b99e2fa6d14abffa7d65f3c2b4dc22bba0738351",
   "indexed_at": "2026-02-24T23:19:11.317Z",
-  "synced_at": "2026-02-27T02:39:55.037Z",
+  "synced_at": "2026-02-28T04:09:10.083Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a4cc9e2707b19f4d611fc2330e91a2f2224e9fba9fbab3e3a5f99dfb7c6dacbd",
   "install_command": "mkdir -p .claude/skills/73-close-lessons-learn-150 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/73-close-lessons-learn-150/SKILL.md\" > .claude/skills/73-close-lessons-learn-150/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/73-close-lessons-learn-150/SKILL.md"

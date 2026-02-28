@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7f74589260eac1f56861deb28d004d0930447add502184443bc4a83330d608c9",
   "indexed_at": "2026-02-26T04:12:39.859Z",
-  "synced_at": "2026-02-27T02:39:14.318Z",
+  "synced_at": "2026-02-28T04:08:07.122Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7e867e8b13ce022de2dc6efdc97398e46e43be3badd5809ebf947c9dee65654a",
   "install_command": "mkdir -p .claude/skills/vitest-testing && curl -sL \"https://raw.githubusercontent.com/kabaka/cpap-analyzer/main/.github/skills/vitest-testing/SKILL.md\" > .claude/skills/vitest-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kabaka/cpap-analyzer/main/.github/skills/vitest-testing/SKILL.md"

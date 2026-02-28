@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "182bfa45a31296d258bef39bc06171bc3cf1c55e65f8ee312f5188f34550bcc3",
   "indexed_at": "2026-02-24T23:03:28.484Z",
-  "synced_at": "2026-02-27T02:39:29.538Z",
+  "synced_at": "2026-02-28T04:08:25.022Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/39291daf62d45ce82885d971170e54c963bb41e237a4aacb2f4a7a0384cb42cb",
   "install_command": "mkdir -p .claude/skills/helcim-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/helcim-automation/SKILL.md\" > .claude/skills/helcim-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/helcim-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "565f619920ee8c06493734a85a43b0e3767db0e310a8cad7bddb1208e5d2545a",
   "indexed_at": "2026-02-26T14:22:44.910Z",
-  "synced_at": "2026-02-27T02:40:12.445Z",
+  "synced_at": "2026-02-28T04:09:25.830Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3b499add96abed3cc842ce08e4cb4adb5cca6b36bee969285ef29dead080806c",
   "install_command": "mkdir -p .claude/skills/playwright-expert && curl -sL \"https://raw.githubusercontent.com/tundraray/overture/main/playwright-expert/skills/playwright-expert/SKILL.md\" > .claude/skills/playwright-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tundraray/overture/main/playwright-expert/skills/playwright-expert/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "73c9f0f8245b2fa73c26949a10617b3b295b46ad135b7f187a703db4a73bea3e",
   "indexed_at": "2026-02-25T19:25:10.353Z",
-  "synced_at": "2026-02-27T02:39:32.455Z",
+  "synced_at": "2026-02-28T04:08:27.808Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9a79cbbd59b3dab8e194876ffcaccf6659a002e38799bfe7c9c16822abd33b6b",
   "install_command": "mkdir -p .claude/skills/turborepo-caching && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/turborepo-caching/SKILL.md\" > .claude/skills/turborepo-caching/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/turborepo-caching/SKILL.md"

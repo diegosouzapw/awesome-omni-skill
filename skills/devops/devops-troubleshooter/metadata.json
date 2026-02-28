@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7e026fadb9179255f1563ca85d9bc9fa87aeedebf942a328ebe43a8ef9014ee2",
   "indexed_at": "2026-02-25T16:24:13.875Z",
-  "synced_at": "2026-02-27T02:39:40.447Z",
+  "synced_at": "2026-02-28T04:08:35.346Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dc0320158f49c88b7279fcbb38edfe9f3fc418b52bed99b10f89baddb9b47167",
   "install_command": "mkdir -p .claude/skills/devops-troubleshooter && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/devops-troubleshooter/SKILL.md\" > .claude/skills/devops-troubleshooter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/devops-troubleshooter/SKILL.md"

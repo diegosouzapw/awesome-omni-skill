@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bc4ed6d1e0af17d1c3df8e18c5563608653053d66f367e958cca4b0605748639",
   "indexed_at": "2026-02-26T12:18:12.346Z",
-  "synced_at": "2026-02-27T02:40:10.719Z",
+  "synced_at": "2026-02-28T04:09:24.315Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8febbb2c739e75db4ceecc9c17b9e8b97091b0302a53d5ed1239c9896e8a1410",
   "install_command": "mkdir -p .claude/skills/kubernetes-deployment && curl -sL \"https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/kubernetes-deployment/SKILL.md\" > .claude/skills/kubernetes-deployment/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/kubernetes-deployment/SKILL.md"

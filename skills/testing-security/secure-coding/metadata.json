@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "78eeff91c634c4a9777c003c2890b3cc88c9f8e61f328bb229747cd9f7824c87",
   "indexed_at": "2026-02-26T09:52:39.125Z",
-  "synced_at": "2026-02-27T02:39:21.145Z",
+  "synced_at": "2026-02-28T04:08:14.646Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ace44ce075fe226052b9e344f524b525529782a19de86ce76e229d414c36e411",
   "install_command": "mkdir -p .claude/skills/secure-coding && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/coding-andreibesleaga-gabbe-7/SKILL.md\" > .claude/skills/secure-coding/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/coding-andreibesleaga-gabbe-7/SKILL.md"

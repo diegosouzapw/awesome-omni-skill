@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9460c503eb7e7de41310c92c6633dd8404ce083cc5510150ae5d5c7b848341aa",
   "indexed_at": "2026-02-26T05:49:52.594Z",
-  "synced_at": "2026-02-27T02:40:00.238Z",
+  "synced_at": "2026-02-28T04:09:14.287Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7786ca097a5e8bbfd21fee0089664e35b55cc11a819ee1b0b6e6af0408ae2455",
   "install_command": "mkdir -p .claude/skills/k8s-manifest-generator && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/k8s-manifest-generator/SKILL.md\" > .claude/skills/k8s-manifest-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/k8s-manifest-generator/SKILL.md"

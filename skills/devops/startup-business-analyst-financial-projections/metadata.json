@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8cfd942b6d4b15697e79b2411c6184d17e0b8dffd645e947e857debc2ab4a1fa",
   "indexed_at": "2026-02-25T18:27:28.635Z",
-  "synced_at": "2026-02-27T02:39:34.924Z",
+  "synced_at": "2026-02-28T04:08:30.372Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/563cc18d61a91e342af12b55345c19567503aa9d34d3367f3a5ffa8463036047",
   "install_command": "mkdir -p .claude/skills/startup-business-analyst-financial-projections && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/startup-business-analyst-financial-projections/SKILL.md\" > .claude/skills/startup-business-analyst-financial-projections/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/startup-business-analyst-financial-projections/SKILL.md"

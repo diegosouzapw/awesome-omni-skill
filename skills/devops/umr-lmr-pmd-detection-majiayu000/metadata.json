@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eadb81b86fb22cd4d4e1a78418b0d472def5c71def259ee33e9336c7fbaf2191",
   "indexed_at": "2026-02-24T23:09:08.569Z",
-  "synced_at": "2026-02-27T02:39:54.180Z",
+  "synced_at": "2026-02-28T04:09:09.321Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/78bd9cc4a97d202e93fe8afadb577c97c5af06bca8972a14a2530c9aede96eb7",
   "install_command": "mkdir -p .claude/skills/umr-lmr-pmd-detection && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/26-umr-lmr-pmd-detection/SKILL.md\" > .claude/skills/umr-lmr-pmd-detection/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/26-umr-lmr-pmd-detection/SKILL.md"

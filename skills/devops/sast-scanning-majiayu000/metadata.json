@@ -19,7 +19,7 @@
   "downloads": 2,
   "content_hash": "63d36ce79c1ceea24c1ac5701170a3d595f8423db233e85e59a939e3f0e80f1d",
   "indexed_at": "2026-02-26T14:26:44.915Z",
-  "synced_at": "2026-02-27T02:40:13.157Z",
+  "synced_at": "2026-02-28T04:09:26.562Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b17780ed1a1736cff62cdaeabdd4b82a9fe6f7be7aaed6f53660971d529fb051",
   "install_command": "mkdir -p .claude/skills/sast-scanning && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/sast-scanning/SKILL.md\" > .claude/skills/sast-scanning/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/sast-scanning/SKILL.md"

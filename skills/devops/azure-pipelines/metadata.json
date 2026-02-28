@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9f73a3b26b3459e1c26bb4073bbe22ab23c09c21e1c3a1c07fe7ea38c8175653",
   "indexed_at": "2026-02-24T23:51:27.271Z",
-  "synced_at": "2026-02-27T02:39:28.379Z",
+  "synced_at": "2026-02-28T04:08:23.915Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b9ee93ceacd6b2c0b5688c4df85b596c6138cc9cde0d6c751cb3aedc0bfe7ebf",
   "install_command": "mkdir -p .claude/skills/azure-pipelines && curl -sL \"https://raw.githubusercontent.com/microsoft/vscode/main/.github/skills/azure-pipelines/SKILL.md\" > .claude/skills/azure-pipelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/microsoft/vscode/main/.github/skills/azure-pipelines/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e118957d4933013afc2319e00291d09080160953a43ecc03c6c9f1e1856a0fb5",
   "indexed_at": "2026-02-26T11:38:16.111Z",
-  "synced_at": "2026-02-27T02:40:06.981Z",
+  "synced_at": "2026-02-28T04:09:20.426Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/928a767fd360adee14b506ce3e71821e0ba3b64caaddb6e307e987489136d133",
   "install_command": "mkdir -p .claude/skills/aws-cloudformation-elasticache && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aws-cloudformation-elasticache/SKILL.md\" > .claude/skills/aws-cloudformation-elasticache/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aws-cloudformation-elasticache/SKILL.md"

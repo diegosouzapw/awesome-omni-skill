@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b53708fc343df9be8d26b2097d3d87a1f3845e28bc037e6866c485b71e038175",
   "indexed_at": "2026-02-25T15:23:30.050Z",
-  "synced_at": "2026-02-27T02:39:42.639Z",
+  "synced_at": "2026-02-28T04:08:37.475Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/14f51da75db3e0da325421574b9040484728a2d703ccd65de643b7daeba0eb31",
   "install_command": "mkdir -p .claude/skills/azure-mgmt-mongodbatlas-dotnet && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-mgmt-mongodbatlas-dotnet/SKILL.md\" > .claude/skills/azure-mgmt-mongodbatlas-dotnet/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-mgmt-mongodbatlas-dotnet/SKILL.md"

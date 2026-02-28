@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f4845e2a5a5b84ae0d5eb8341b4b0621add277f99cb56d71a3b0f648bad04887",
   "indexed_at": "2026-02-26T12:18:41.596Z",
-  "synced_at": "2026-02-27T02:40:10.881Z",
+  "synced_at": "2026-02-28T04:09:24.478Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e36c5064cd1e6ed2aeb5d4ab1f69ffd147c38d2b610fd5be8f629cfce3ecbcb1",
   "install_command": "mkdir -p .claude/skills/kubernetes-architect && curl -sL \"https://raw.githubusercontent.com/herdiansah/Antigravity-Skills-Master/main/.agent/skills/kubernetes-architect/SKILL.md\" > .claude/skills/kubernetes-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/herdiansah/Antigravity-Skills-Master/main/.agent/skills/kubernetes-architect/SKILL.md"

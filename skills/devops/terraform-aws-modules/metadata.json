@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "46d831accb61082ec3ef5bf47705549bc3cd0b35f0dee8082ff96b3059a0e50c",
   "indexed_at": "2026-02-25T19:24:28.028Z",
-  "synced_at": "2026-02-27T02:39:32.143Z",
+  "synced_at": "2026-02-28T04:08:27.518Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cad43bc8c206520a7a1925d200a68d2105a29ea7f155ed9a0f482fe3cf9b9713",
   "install_command": "mkdir -p .claude/skills/terraform-aws-modules && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/terraform-aws-modules/SKILL.md\" > .claude/skills/terraform-aws-modules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/terraform-aws-modules/SKILL.md"

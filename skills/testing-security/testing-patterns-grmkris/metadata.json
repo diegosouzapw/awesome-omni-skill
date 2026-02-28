@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "832c6df444b07a2193ef9932d5e67de1ba6f95d1edca5bfae0dbff3fe0e53abd",
   "indexed_at": "2026-02-26T22:35:37.671Z",
-  "synced_at": "2026-02-27T02:39:26.890Z",
+  "synced_at": "2026-02-28T04:08:21.466Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/27fe7f05a76d928a68530943d00cd94c75f12bf9d89d1d2c32e09ad0ea0cb250",
   "install_command": "mkdir -p .claude/skills/testing-patterns && curl -sL \"https://raw.githubusercontent.com/grmkris/agent-next-app/main/.claude/skills/testing-patterns/SKILL.md\" > .claude/skills/testing-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/grmkris/agent-next-app/main/.claude/skills/testing-patterns/SKILL.md"

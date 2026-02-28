@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f242a52c983c941282ab15df7f9515b0ad716d23307d4262378121114619a19c",
   "indexed_at": "2026-02-25T18:25:38.749Z",
-  "synced_at": "2026-02-27T02:39:34.151Z",
+  "synced_at": "2026-02-28T04:08:29.592Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/70b8dc7560fdbeae82b7fb5577519316ddb6689bd14f8cfd47cb93d4d09e7195",
   "install_command": "mkdir -p .claude/skills/secrets-management && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/secrets-management/SKILL.md\" > .claude/skills/secrets-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/secrets-management/SKILL.md"

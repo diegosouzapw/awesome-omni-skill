@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6607dd70d37a2370592cbb39956898d3114c6c905f9105a9dd2de7ec94a7a471",
   "indexed_at": "2026-02-26T13:17:56.381Z",
-  "synced_at": "2026-02-27T02:39:17.399Z",
+  "synced_at": "2026-02-28T04:08:10.166Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/242ae52442cf10352814e8b0bc3e743987b697c77819317c2b6fa1f42ba6d209",
   "install_command": "mkdir -p .claude/skills/testing-strategies && curl -sL \"https://raw.githubusercontent.com/Jonathan0823/opencode-config/main/skills/testing-strategies/SKILL.md\" > .claude/skills/testing-strategies/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Jonathan0823/opencode-config/main/skills/testing-strategies/SKILL.md"

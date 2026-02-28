@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fcefc4a0eb1da61f26be453d5a3debeb5c86e23fb0209906cb1fec41c7e42d82",
   "indexed_at": "2026-02-25T21:27:02.088Z",
-  "synced_at": "2026-02-27T02:39:28.978Z",
+  "synced_at": "2026-02-28T04:08:24.557Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c1cae66d4ecef8b0825e5a282d533dde1f72bdb16fffd34bf0c5e976d56ce24a",
   "install_command": "mkdir -p .claude/skills/placid-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/placid-automation/SKILL.md\" > .claude/skills/placid-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/placid-automation/SKILL.md"

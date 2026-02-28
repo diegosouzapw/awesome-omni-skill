@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "88ced33a2a4a6f6ffc39373045648fd7d4ed16d4f195c697fad2c36cb2419501",
   "indexed_at": "2026-02-25T16:50:17.137Z",
-  "synced_at": "2026-02-27T02:39:19.602Z",
+  "synced_at": "2026-02-28T04:08:13.255Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c3540ce658b35fe093330ac08d7d0ab870368eefab7e3f16942d9488abef4430",
   "install_command": "mkdir -p .claude/skills/dotnet && curl -sL \"https://raw.githubusercontent.com/darrenoakey/claude-skill-dotnet/main/SKILL.md\" > .claude/skills/dotnet/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/darrenoakey/claude-skill-dotnet/main/SKILL.md"

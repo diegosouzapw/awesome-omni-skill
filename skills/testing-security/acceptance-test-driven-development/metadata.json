@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9f57081ee96c74df0015cb28c481157c02f4028c350763dcc127db8d00d92f67",
   "indexed_at": "2026-02-26T22:40:17.630Z",
-  "synced_at": "2026-02-27T02:39:18.112Z",
+  "synced_at": "2026-02-28T04:08:11.227Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/347e2c23e9438d2a82ae387adf35559627a2288c3a74bccf5c521a296a32b8d3",
   "install_command": "mkdir -p .claude/skills/acceptance-test-driven-development && curl -sL \"https://raw.githubusercontent.com/coctostan/pi-superteam/main/skills/acceptance-test-driven-development/SKILL.md\" > .claude/skills/acceptance-test-driven-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/coctostan/pi-superteam/main/skills/acceptance-test-driven-development/SKILL.md"

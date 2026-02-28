@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b5acdce043b257a7498e3cd9def135bd418a778819a118a085dc63425590c6ad",
   "indexed_at": "2026-02-25T17:25:59.104Z",
-  "synced_at": "2026-02-27T02:39:36.550Z",
+  "synced_at": "2026-02-28T04:08:31.702Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b90ba7f59b6ef0108e772dccde22cba6e129071cc7b50b6ac23e26a5741511fd",
   "install_command": "mkdir -p .claude/skills/multi-cloud-architecture && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/multi-cloud-architecture/SKILL.md\" > .claude/skills/multi-cloud-architecture/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/multi-cloud-architecture/SKILL.md"

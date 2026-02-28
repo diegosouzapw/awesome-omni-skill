@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5686175a257646b0733c7003250d0e6fe2211dba88ff0e697ef627ad968e9715",
   "indexed_at": "2026-02-26T14:22:47.097Z",
-  "synced_at": "2026-02-27T02:40:12.618Z",
+  "synced_at": "2026-02-28T04:09:26.014Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7b9769b9803b5a8d92f17a3b87a2cc3f3c1f6d4f2b2d4627b119cf08a6b90945",
   "install_command": "mkdir -p .claude/skills/cicd-workflows && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/cicd-workflows/SKILL.md\" > .claude/skills/cicd-workflows/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/cicd-workflows/SKILL.md"

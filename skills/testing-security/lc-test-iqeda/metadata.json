@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "02718b0a7ae83dc371e2f226135428c792070adbef6f06a08aec9b557095951b",
   "indexed_at": "2026-02-25T16:55:41.801Z",
-  "synced_at": "2026-02-27T02:39:28.210Z",
+  "synced_at": "2026-02-28T04:08:23.551Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fca249e6ff886194a678dff41206fc2eb1b14aa3093802b7ccc70a3b3a3b802f",
   "install_command": "mkdir -p .claude/skills/lc-test && curl -sL \"https://raw.githubusercontent.com/iQeda/MyRust-NeetCode/main/.claude/skills/lc-test/SKILL.md\" > .claude/skills/lc-test/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/iQeda/MyRust-NeetCode/main/.claude/skills/lc-test/SKILL.md"

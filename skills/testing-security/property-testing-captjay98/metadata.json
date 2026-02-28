@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9fbd5a848b3cd3ecbad80a9bfcd89ad6d9f7f4d1aa431f125de831da78eb84bb",
   "indexed_at": "2026-02-25T18:40:18.840Z",
-  "synced_at": "2026-02-27T02:39:13.334Z",
+  "synced_at": "2026-02-28T04:08:06.149Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d7888b6d92d7f53bfb0a2a885cb9b852655950edd61a1d07b41aaa8440cfd146",
   "install_command": "mkdir -p .claude/skills/property-testing && curl -sL \"https://raw.githubusercontent.com/captjay98/gemini-livestockai/main/.kiro/skills/property-testing/SKILL.md\" > .claude/skills/property-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/captjay98/gemini-livestockai/main/.kiro/skills/property-testing/SKILL.md"

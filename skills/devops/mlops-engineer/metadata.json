@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2c9589efafec2ba51a5a92175ea31d2b3492f87af159b0312aab82273d9766ff",
   "indexed_at": "2026-02-25T17:25:35.954Z",
-  "synced_at": "2026-02-27T02:39:37.449Z",
+  "synced_at": "2026-02-28T04:08:32.451Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a4d25e13f42dbca6e00fb91932032e6b9521ed9bb5e26a8c57201616f412675b",
   "install_command": "mkdir -p .claude/skills/mlops-engineer && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/mlops-engineer/SKILL.md\" > .claude/skills/mlops-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/mlops-engineer/SKILL.md"

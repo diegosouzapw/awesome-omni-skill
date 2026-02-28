@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3406e015ce4188bcc30f313bdcfa8cd66a1f007758268447e2bf55946956ca51",
   "indexed_at": "2026-02-25T12:49:48.367Z",
-  "synced_at": "2026-02-27T02:39:18.799Z",
+  "synced_at": "2026-02-28T04:08:12.458Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e9efde6dd84d373c44db589630b18f54690e8188d92c25f516acd4485c54e0ab",
   "install_command": "mkdir -p .claude/skills/zendesk-customer-context && curl -sL \"https://raw.githubusercontent.com/djinilabs/helpmaton/main/apps/backend/src/skills/zendesk-customer-context/SKILL.md\" > .claude/skills/zendesk-customer-context/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/djinilabs/helpmaton/main/apps/backend/src/skills/zendesk-customer-context/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9b3a80a283d88a22392bc2d7e54748812a8388b644b51fcda6cf48b21fb5e229",
   "indexed_at": "2026-02-27T16:07:04.999Z",
-  "synced_at": "2026-02-27T18:17:03.851Z",
+  "synced_at": "2026-02-28T04:09:29.486Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e9b5879415c4d72e54bc33c5559560ebf8dfe91a67472c0d2d9b913ee78f6e0b",
   "install_command": "mkdir -p .claude/skills/terraform-diagrams && curl -sL \"https://raw.githubusercontent.com/eraserlabs/eraser-io/main/skills/terraform-diagrams/SKILL.md\" > .claude/skills/terraform-diagrams/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/eraserlabs/eraser-io/main/skills/terraform-diagrams/SKILL.md"

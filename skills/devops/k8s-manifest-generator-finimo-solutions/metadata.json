@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "19d9f7f48d7d8afb755c55c6c2706e8a36ccc19e7de3af34a8f9ea7383b3a940",
   "indexed_at": "2026-02-26T05:52:19.997Z",
-  "synced_at": "2026-02-27T02:40:01.192Z",
+  "synced_at": "2026-02-28T04:09:15.199Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eb1cc26dc355750d70d62eb269415b6a2d74112d4df1639f4d448055e14251d0",
   "install_command": "mkdir -p .claude/skills/k8s-manifest-generator && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/k8s-manifest-generator/SKILL.md\" > .claude/skills/k8s-manifest-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/k8s-manifest-generator/SKILL.md"

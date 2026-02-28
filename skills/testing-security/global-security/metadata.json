@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b8e713d4e11044dd6c1ed98cc2a35d499294ffbf522142ff4a0784308552fc02",
   "indexed_at": "2026-02-25T12:41:48.822Z",
-  "synced_at": "2026-02-27T02:39:27.063Z",
+  "synced_at": "2026-02-28T04:08:21.779Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b5b9506d18f74c8aa799fbbaf442e35057fc6d3861595ad43e34b7241825dc01",
   "install_command": "mkdir -p .claude/skills/global-security && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/global-security-jaypaulb-canvusapi-llmdemo/SKILL.md\" > .claude/skills/global-security/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/global-security-jaypaulb-canvusapi-llmdemo/SKILL.md"

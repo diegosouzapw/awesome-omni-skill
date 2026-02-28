@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "89321c6e66e67c7ad1caeb4fccb60a1b2bbb46228491c7f41f4be859624e745b",
   "indexed_at": "2026-02-27T11:56:18.421Z",
-  "synced_at": "2026-02-27T13:14:38.622Z",
+  "synced_at": "2026-02-28T04:09:28.238Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/70f05da0524814effe7c2c2ce1e8ebff8548677c0635abd7b21e4918b98b777d",
   "install_command": "mkdir -p .claude/skills/deployment-advisor && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/deployment-advisor-daffy0208-ai-dev-standards/SKILL.md\" > .claude/skills/deployment-advisor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/deployment-advisor-daffy0208-ai-dev-standards/SKILL.md"

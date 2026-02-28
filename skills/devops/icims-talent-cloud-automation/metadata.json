@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "03292480dbe19959a3bbf13b68bde54c70a30ce901b4eec777b6ff92024ab399",
   "indexed_at": "2026-02-24T23:03:59.223Z",
-  "synced_at": "2026-02-27T02:39:29.692Z",
+  "synced_at": "2026-02-28T04:08:25.170Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6225e289882459408912f35d77e4fc98be52c2cd4a85638b340c32eca9776496",
   "install_command": "mkdir -p .claude/skills/icims-talent-cloud-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/icims-talent-cloud-automation/SKILL.md\" > .claude/skills/icims-talent-cloud-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/icims-talent-cloud-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b9116044f5a4b9539899792a904e12c647d19cb846f5f49fb969783b225e93da",
   "indexed_at": "2026-02-25T15:25:56.187Z",
-  "synced_at": "2026-02-27T02:39:43.101Z",
+  "synced_at": "2026-02-28T04:08:37.933Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3d2ea09c7cc6387f53748412252c0077c396cbb9da58787a75f481d7788941da",
   "install_command": "mkdir -p .claude/skills/cdk-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/cdk-patterns/SKILL.md\" > .claude/skills/cdk-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/cdk-patterns/SKILL.md"

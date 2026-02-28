@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e550aa32422f5caecad49b93e1f82807acd7cc54ca21ad8be43c84ecee54b831",
   "indexed_at": "2026-02-26T05:42:55.844Z",
-  "synced_at": "2026-02-27T02:39:20.217Z",
+  "synced_at": "2026-02-28T04:08:13.792Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d5fac48357610669b8342828518551b7e93702c06dc072c83c29d9c6e52d72ff",
   "install_command": "mkdir -p .claude/skills/wcag-audit-patterns && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/wcag-audit-patterns-projecteuropa-europa/SKILL.md\" > .claude/skills/wcag-audit-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/wcag-audit-patterns-projecteuropa-europa/SKILL.md"

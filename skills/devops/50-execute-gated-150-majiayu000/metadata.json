@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7d8edd28987c3460f14c50d0468849a9b49fffc6a5bf2fe9e448fdc260458e89",
   "indexed_at": "2026-02-24T23:11:12.606Z",
-  "synced_at": "2026-02-27T02:39:54.661Z",
+  "synced_at": "2026-02-28T04:09:09.706Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/041b5d48f1730bc4a5bf6b25eb2e9d4271b65ad0866ad483ce2e526fe91f2b44",
   "install_command": "mkdir -p .claude/skills/50-execute-gated-150 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/50-execute-gated-150/SKILL.md\" > .claude/skills/50-execute-gated-150/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/50-execute-gated-150/SKILL.md"

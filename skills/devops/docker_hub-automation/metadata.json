@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "142dbd32918b41aa63c0002a0116858cb97dff4332924f50c42ce0369c189bce",
   "indexed_at": "2026-02-24T22:53:22.116Z",
-  "synced_at": "2026-02-27T02:39:31.682Z",
+  "synced_at": "2026-02-28T04:08:27.082Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cbcb1e599b96e74276b67b8a17719cedfbcaef17648af96d72e63a1240e322cb",
   "install_command": "mkdir -p .claude/skills/docker_hub-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/docker_hub-automation/SKILL.md\" > .claude/skills/docker_hub-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/docker_hub-automation/SKILL.md"

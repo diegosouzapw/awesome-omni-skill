@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8b3356ebb8941cdba982f6a37bc640d2880e1fad58aa45bf69334c0e45e31fa9",
   "indexed_at": "2026-02-26T17:38:01.450Z",
-  "synced_at": "2026-02-27T02:39:11.372Z",
+  "synced_at": "2026-02-28T04:08:03.349Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/575f4a4905b49a96d61ea9facff2b0394ed285c0374eb5803dab75f67c857e94",
   "install_command": "mkdir -p .claude/skills/owasp-security-testing && curl -sL \"https://raw.githubusercontent.com/omarrohit20/ui_automation/main/.github/copilot-instructions/owasp-security/SKILL.md\" > .claude/skills/owasp-security-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/omarrohit20/ui_automation/main/.github/copilot-instructions/owasp-security/SKILL.md"

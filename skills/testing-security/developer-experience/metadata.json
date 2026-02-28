@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a3f5c73f4a378c1079ef099b2c944c93c4478baa96a5f373e6c31e37aaff3031",
   "indexed_at": "2026-02-27T13:24:54.933Z",
-  "synced_at": "2026-02-27T18:15:46.271Z",
+  "synced_at": "2026-02-28T04:08:19.343Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5d08adaa5d8f0fcea75f87876296f3fd91fd325ef0f3d696fd6aa10e69328e76",
   "install_command": "mkdir -p .claude/skills/developer-experience && curl -sL \"https://raw.githubusercontent.com/henryhawke/skills/main/developer-experience/SKILL.md\" > .claude/skills/developer-experience/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/henryhawke/skills/main/developer-experience/SKILL.md"

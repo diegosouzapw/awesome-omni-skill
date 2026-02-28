@@ -1,6 +1,6 @@
 ---
 name: devops
-description: "[DevOps & Infra] Deploy and manage cloud infrastructure on Cloudflare (Workers, R2, D1, KV, Pages, Durable Objects, Browser Rendering), Docker containers, and Google Cloud Platform (Compute Engine, GKE, Cloud Run, App Engine, Cloud Storage). Use when deploying serverless functions to the edge, configuring edge computing solutions, managing Docker containers and images, setting up CI/CD pipelines, optimizing cloud infrastructure costs, implementing global caching strategies, working with cloud databases, or building cloud-native applications."
+description: Deploy and manage cloud infrastructure on Cloudflare (Workers, R2, D1, KV, Pages, Durable Objects, Browser Rendering), Docker containers, and Google Cloud Platform (Compute Engine, GKE, Cloud Run, App Engine, Cloud Storage). Use when deploying serverless functions to the edge, configuring edge computing solutions, managing Docker containers and images, setting up CI/CD pipelines, optimizing cloud infrastructure costs, implementing global caching strategies, working with cloud databases, or building cloud-native applications.
 license: MIT
 version: 1.0.0
 ---
@@ -8,23 +8,6 @@ version: 1.0.0
 # DevOps Skill
 
 Comprehensive guide for deploying and managing cloud infrastructure across Cloudflare edge platform, Docker containerization, and Google Cloud Platform.
-
-## Summary
-
-**Goal:** Deploy and manage cloud infrastructure across Cloudflare (edge), Docker (containers), and Google Cloud Platform (managed services).
-
-| Step | Action | Key Notes |
-|------|--------|-----------|
-| 1 | Platform selection | Cloudflare (edge/low-latency), Docker (microservices), GCP (managed) |
-| 2 | Configure infrastructure | Workers, containers, or GCP services |
-| 3 | Set up CI/CD | Automated build, test, deploy pipelines |
-| 4 | Deploy | Multi-region, zero-downtime strategies |
-| 5 | Monitor | Health checks, logging, cost optimization |
-
-**Key Principles:**
-- Choose platform based on latency, cost, and architecture requirements
-- Cloudflare for edge-first with zero egress; Docker for portable microservices; GCP for managed scale
-- Always automate deployments — no manual production changes
 
 ## When to Use This Skill
 

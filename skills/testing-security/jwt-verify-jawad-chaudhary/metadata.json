@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e821c8f53cd842dfeecc43dce65139df50c434832bc42e9454c163beb5d81498",
   "indexed_at": "2026-02-25T19:07:42.398Z",
-  "synced_at": "2026-02-27T02:39:24.661Z",
+  "synced_at": "2026-02-28T04:08:18.648Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1de02bbb837aaa9638c34da76bd4f5ab6c13fd4811a35ff90a3226047c3cac13",
   "install_command": "mkdir -p .claude/skills/jwt-verify && curl -sL \"https://raw.githubusercontent.com/Jawad-Chaudhary/Hackathone-2-TODO-Spec-Driven-Development/main/Phase02/.claude/skills/jwt-verify/SKILL.md\" > .claude/skills/jwt-verify/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Jawad-Chaudhary/Hackathone-2-TODO-Spec-Driven-Development/main/Phase02/.claude/skills/jwt-verify/SKILL.md"

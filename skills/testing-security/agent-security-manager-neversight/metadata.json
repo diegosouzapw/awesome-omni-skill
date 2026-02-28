@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4550acc972f93b8ed986420b2351f879c4bf899e46650f1b7feb11f2772b24be",
   "indexed_at": "2026-02-26T09:46:57.885Z",
-  "synced_at": "2026-02-27T02:39:15.823Z",
+  "synced_at": "2026-02-28T04:08:08.623Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0080eceac4fe3ed2ee8bd6fe7520904e3ee72069551ce48cc4d74d8fab31a6bf",
   "install_command": "mkdir -p .claude/skills/agent-security-manager && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ruvnet/claude-flow/agent-security-manager/SKILL.md\" > .claude/skills/agent-security-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ruvnet/claude-flow/agent-security-manager/SKILL.md"

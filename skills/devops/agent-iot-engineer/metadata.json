@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cab3fe087c0baf4caa032df816ab78eca42d2262c0ed2d6f7b1518cc248f7654",
   "indexed_at": "2026-02-27T03:52:21.366Z",
-  "synced_at": "2026-02-27T13:14:37.680Z",
+  "synced_at": "2026-02-28T04:09:08.165Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1872659e9c14e86b42dcda90475b988d52e9af7574d25873cdbec7d18b32f933",
   "install_command": "mkdir -p .claude/skills/agent-iot-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-iot-engineer/SKILL.md\" > .claude/skills/agent-iot-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-iot-engineer/SKILL.md"

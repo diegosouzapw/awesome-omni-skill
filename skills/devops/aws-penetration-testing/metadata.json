@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f6acb875670f539d00a15c358d466e5b14e9f6f152ec6e8e01a6ab3a34697e46",
   "indexed_at": "2026-02-25T13:23:24.049Z",
-  "synced_at": "2026-02-27T02:39:41.389Z",
+  "synced_at": "2026-02-28T04:08:36.367Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0d1ddf15cab6ea4ea2b53fa4ab7b3288db3151e5558e0f6aaefd07c343d68f6f",
   "install_command": "mkdir -p .claude/skills/aws-penetration-testing && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/aws-penetration-testing/SKILL.md\" > .claude/skills/aws-penetration-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/aws-penetration-testing/SKILL.md"

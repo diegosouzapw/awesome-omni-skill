@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "64635d791e1d0f4252f55386cdfe7e6ff9a34ebb228ea8eaf0572eb3fcea6659",
   "indexed_at": "2026-02-26T22:31:28.855Z",
-  "synced_at": "2026-02-27T02:39:11.720Z",
+  "synced_at": "2026-02-28T04:08:04.239Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/af2ea27cb39bdc37139fef18a0c09d2ea91405de368e4764d7d8c5310cfc94fd",
   "install_command": "mkdir -p .claude/skills/bdd-from-api-spec && curl -sL \"https://raw.githubusercontent.com/cdalsoniii/brightpath-coder/main/.cursor/skills/bdd-from-api-spec/SKILL.md\" > .claude/skills/bdd-from-api-spec/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cdalsoniii/brightpath-coder/main/.cursor/skills/bdd-from-api-spec/SKILL.md"

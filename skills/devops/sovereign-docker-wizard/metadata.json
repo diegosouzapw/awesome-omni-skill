@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "02e5585b81665e87c7f4e12c9e33e15c84cb85cf3f4237cb0bc08455e2a3e77d",
   "indexed_at": "2026-02-27T12:37:29.680Z",
-  "synced_at": "2026-02-27T13:14:38.731Z",
+  "synced_at": "2026-02-28T04:09:28.408Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c114433446da0ec764c47b30417804f0306624696cf8635674cb1d560401262a",
   "install_command": "mkdir -p .claude/skills/sovereign-docker-wizard && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/ryudi84/sovereign-docker-wizard/SKILL.md\" > .claude/skills/sovereign-docker-wizard/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ryudi84/sovereign-docker-wizard/SKILL.md"

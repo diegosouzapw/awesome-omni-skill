@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e2ab646beab8052122d762c2a085219fe3afd061f395e82c8163c999c9e46ff2",
   "indexed_at": "2026-02-25T14:25:31.679Z",
-  "synced_at": "2026-02-27T02:39:45.226Z",
+  "synced_at": "2026-02-28T04:08:39.898Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/04822bd5b6bb051c3bf584fc83c9e1dd8791e3be8fc70e86143249a8d24380d4",
   "install_command": "mkdir -p .claude/skills/expo-deployment && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/expo-deployment/SKILL.md\" > .claude/skills/expo-deployment/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/expo-deployment/SKILL.md"

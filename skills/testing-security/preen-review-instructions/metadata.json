@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d4d76d6fd357ce11cb1328d6e65f658597f38acd0dacf59d29f78fdd3539e7f3",
   "indexed_at": "2026-02-26T15:21:24.212Z",
-  "synced_at": "2026-02-27T02:39:17.744Z",
+  "synced_at": "2026-02-28T04:08:10.509Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/31597015a6614b39fe54fdd972f6074ebdc2647a5bb6af5f1ae7dad4bae14d47",
   "install_command": "mkdir -p .claude/skills/preen-review-instructions && curl -sL \"https://raw.githubusercontent.com/a2f0/tearleads/main/.gemini/skills/preen-review-instructions/SKILL.md\" > .claude/skills/preen-review-instructions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/a2f0/tearleads/main/.gemini/skills/preen-review-instructions/SKILL.md"

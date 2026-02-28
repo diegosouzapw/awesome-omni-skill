@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7e1f421296043497358e9e6891d3f700ea35a2abe268e4c8012f58332a478218",
   "indexed_at": "2026-02-24T23:37:11.074Z",
-  "synced_at": "2026-02-27T02:39:50.662Z",
+  "synced_at": "2026-02-28T04:08:49.458Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/673ee118519bab784f5a08d655e89782b7a06d489f515ae73e8cf2636506ff39",
   "install_command": "mkdir -p .claude/skills/build-your-cloud-deployment-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/60-real-cloud-deployment/SKILL.md\" > .claude/skills/build-your-cloud-deployment-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/60-real-cloud-deployment/SKILL.md"

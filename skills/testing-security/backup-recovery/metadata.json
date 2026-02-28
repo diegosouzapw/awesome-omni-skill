@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5d13ded9bec4aa25b9046c5246199141d84b2b820bff9da60a110fc6a2911f6b",
   "indexed_at": "2026-02-26T11:38:27.624Z",
-  "synced_at": "2026-02-27T02:39:17.069Z",
+  "synced_at": "2026-02-28T04:08:09.852Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ca5d26c8c1000abbfb7fccd38dd8d0b6992ce7fda28aa19b67a25c91302e72cd",
   "install_command": "mkdir -p .claude/skills/backup-recovery && curl -sL \"https://raw.githubusercontent.com/andreibesleaga/GABBE/main/agents/skills/security/backup-recovery.skill.md/SKILL.md\" > .claude/skills/backup-recovery/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/andreibesleaga/GABBE/main/agents/skills/security/backup-recovery.skill.md/SKILL.md"

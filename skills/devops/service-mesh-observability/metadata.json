@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3d1abe6f302375b4231338767c62aaf26e707ea3dccae1f28f61e40173f979bc",
   "indexed_at": "2026-02-25T18:26:28.164Z",
-  "synced_at": "2026-02-27T02:39:34.613Z",
+  "synced_at": "2026-02-28T04:08:30.076Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aee88fda9ecbaaf90248afecc30bb8e1265b1b1fd1a5822a4c90169910c3cf0b",
   "install_command": "mkdir -p .claude/skills/service-mesh-observability && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/service-mesh-observability/SKILL.md\" > .claude/skills/service-mesh-observability/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/service-mesh-observability/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6d8f3aeff2c1c9019d5cd8db0067a52e8b21e5a966f91afa02296899a7f11393",
   "indexed_at": "2026-02-26T12:17:31.872Z",
-  "synced_at": "2026-02-27T02:40:08.963Z",
+  "synced_at": "2026-02-28T04:09:22.584Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/504c9c960827c009420404c3be5328adea7b34c70b05cfad4ce548cce513c565",
   "install_command": "mkdir -p .claude/skills/devops-engineer && curl -sL \"https://raw.githubusercontent.com/jdiegosierra/sre-agent-plugin/main/skills/devops-engineer/SKILL.md\" > .claude/skills/devops-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jdiegosierra/sre-agent-plugin/main/skills/devops-engineer/SKILL.md"

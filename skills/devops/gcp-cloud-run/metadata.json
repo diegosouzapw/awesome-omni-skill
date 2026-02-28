@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0c400d7d753ea62d268bc9614adaa2aa99e3d2ce4e4e9278352c9bdb5e9fe190",
   "indexed_at": "2026-02-25T16:26:35.722Z",
-  "synced_at": "2026-02-27T02:39:39.481Z",
+  "synced_at": "2026-02-28T04:08:34.445Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d97ea93824574baa8c5a5909b3a0451eef091499915d2bac484055b37478eeb2",
   "install_command": "mkdir -p .claude/skills/gcp-cloud-run && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/gcp-cloud-run/SKILL.md\" > .claude/skills/gcp-cloud-run/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/gcp-cloud-run/SKILL.md"

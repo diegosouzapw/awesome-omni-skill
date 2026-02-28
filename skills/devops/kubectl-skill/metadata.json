@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5997191bd39459751ea4e1f82a59e89522552be8c33191b53d85787b798934f6",
   "indexed_at": "2026-02-26T12:16:26.979Z",
-  "synced_at": "2026-02-27T02:40:08.045Z",
+  "synced_at": "2026-02-28T04:09:21.483Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a69405ccefd92e4fa27aeebe48aedb5a2c24c0e4d05bcb268726db65f837232f",
   "install_command": "mkdir -p .claude/skills/kubectl-skill && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/ddevaal/kubectl/SKILL.md\" > .claude/skills/kubectl-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ddevaal/kubectl/SKILL.md"

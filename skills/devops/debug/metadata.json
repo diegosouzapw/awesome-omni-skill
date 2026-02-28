@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1e3b5aaab4ffffd767a1828175a705f81cf5aba26072e381fbcc175b1c3c4ce9",
   "indexed_at": "2026-02-26T13:20:27.940Z",
-  "synced_at": "2026-02-27T02:40:11.385Z",
+  "synced_at": "2026-02-28T04:09:24.983Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/078e3bd8990e66af995df39a2ec890f5d2a47be2ca5289414c184354af2b33cf",
   "install_command": "mkdir -p .claude/skills/debug && curl -sL \"https://raw.githubusercontent.com/outfitter-dev/outfitter/main/packages/claude-plugin/skills/debug/SKILL.md\" > .claude/skills/debug/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/outfitter-dev/outfitter/main/packages/claude-plugin/skills/debug/SKILL.md"

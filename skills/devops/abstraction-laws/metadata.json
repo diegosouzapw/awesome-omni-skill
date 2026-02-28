@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4266c0d6ee2a23ba99c27ad11f7b922a703195d24dd1db011b3a2f64fda95ca7",
   "indexed_at": "2026-02-24T23:40:19.285Z",
-  "synced_at": "2026-02-27T02:39:49.831Z",
+  "synced_at": "2026-02-28T04:08:48.682Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/831a8140836fede814ebf63b78558a5d8c88b35896729f49d2a65b2af76cdbc6",
   "install_command": "mkdir -p .claude/skills/abstraction-laws && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/abstraction-laws/SKILL.md\" > .claude/skills/abstraction-laws/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/abstraction-laws/SKILL.md"

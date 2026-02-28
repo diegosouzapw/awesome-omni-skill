@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "44ca3ea4c4b6901c7ddcff0d7a0892885b8822c426b247605790b68a4a0b0f0f",
   "indexed_at": "2026-02-25T18:23:47.159Z",
-  "synced_at": "2026-02-27T02:39:33.691Z",
+  "synced_at": "2026-02-28T04:08:29.110Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d87daa0aa9e99e3396992951617cc87d937d75e4e75d1d073641afcc1bcfe7d9",
   "install_command": "mkdir -p .claude/skills/pricing-strategy && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/pricing-strategy/SKILL.md\" > .claude/skills/pricing-strategy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/pricing-strategy/SKILL.md"

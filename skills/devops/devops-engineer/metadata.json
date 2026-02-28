@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6b0ed1dd8c232c79ffa08ac4a80b402c5986a79e8724bef8f434d3de893ebdff",
   "indexed_at": "2026-02-26T12:16:23.870Z",
-  "synced_at": "2026-02-27T02:40:07.892Z",
+  "synced_at": "2026-02-28T04:09:21.338Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fc55b0c871039d01069dae4129026c9383b105ebc2de1ef054c64b5dbc2bf3fe",
   "install_command": "mkdir -p .claude/skills/devops-engineer && curl -sL \"https://raw.githubusercontent.com/Jeffallan/claude-skills/main/skills/devops-engineer/SKILL.md\" > .claude/skills/devops-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/main/skills/devops-engineer/SKILL.md"

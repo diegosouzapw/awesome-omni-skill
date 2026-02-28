@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "633f95c5d06a9b77ed6979c92bab500020a0f8f22b897403e6e98623f2f413cd",
   "indexed_at": "2026-02-26T08:51:27.095Z",
-  "synced_at": "2026-02-27T02:40:02.662Z",
+  "synced_at": "2026-02-28T04:09:16.645Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1d058e99634e0467e83350dd239f67beed956317bd3db894112e338666f4ddf6",
   "install_command": "mkdir -p .claude/skills/docker-test-environments && curl -sL \"https://raw.githubusercontent.com/a5c-ai/babysitter/main/plugins/babysitter/skills/babysit/process/specializations/qa-testing-automation/skills/docker-test-environments/SKILL.md\" > .claude/skills/docker-test-environments/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/a5c-ai/babysitter/main/plugins/babysitter/skills/babysit/process/specializations/qa-testing-automation/skills/docker-test-environments/SKILL.md"

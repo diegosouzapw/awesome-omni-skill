@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "735f62316ca40b689dbe21e6916924ac64289b4b94b760948223df31bee43589",
   "indexed_at": "2026-02-26T13:19:50.796Z",
-  "synced_at": "2026-02-27T02:39:17.573Z",
+  "synced_at": "2026-02-28T04:08:10.339Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/65af08b94909c83db5a1c06a1941ea8dbff802866bb41fcc8596418290d3928a",
   "install_command": "mkdir -p .claude/skills/ultrathink && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/ultrathink/SKILL.md\" > .claude/skills/ultrathink/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/ultrathink/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "66ca3c4a6dcd642d8b480e9dcf27d3e789970ad0f15bd14d681a556be389b139",
   "indexed_at": "2026-02-24T22:52:04.269Z",
-  "synced_at": "2026-02-27T02:39:31.046Z",
+  "synced_at": "2026-02-28T04:08:26.489Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7517fe5ddb39c1b8e68eb4e3354f45f3f7977071786c142f80fa7992a0b46096",
   "install_command": "mkdir -p .claude/skills/cloudflare-browser-rendering-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/cloudflare-browser-rendering-automation/SKILL.md\" > .claude/skills/cloudflare-browser-rendering-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/cloudflare-browser-rendering-automation/SKILL.md"

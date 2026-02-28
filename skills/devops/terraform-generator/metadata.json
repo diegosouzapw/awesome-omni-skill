@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fd48deea7a9586fb48441ba9226354b337d31db548869ee9c6474964bb42dc8c",
   "indexed_at": "2026-02-24T23:42:35.186Z",
-  "synced_at": "2026-02-27T02:39:52.208Z",
+  "synced_at": "2026-02-28T04:08:50.994Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7e520c94f0a19ea451aaf2ff2e2c90b2f65c502947201d4d1f3bc5a685c24963",
   "install_command": "mkdir -p .claude/skills/terraform-generator && curl -sL \"https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/terraform-generator/SKILL.md\" > .claude/skills/terraform-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/terraform-generator/SKILL.md"

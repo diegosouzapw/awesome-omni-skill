@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7471f5feb43f8fd7a0605c90a8d2a821d3e74bb436adf2785d39cd24e003e186",
   "indexed_at": "2026-02-26T07:56:51.189Z",
-  "synced_at": "2026-02-27T02:39:15.169Z",
+  "synced_at": "2026-02-28T04:08:07.953Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/de1659bc59e1d7266de787ce61a485d23322dfa752357190833c02596e691a60",
   "install_command": "mkdir -p .claude/skills/openspec-bulk-archive-change && curl -sL \"https://raw.githubusercontent.com/DanielShuguang/tool-box/main/.opencode/skills/openspec-bulk-archive-change/SKILL.md\" > .claude/skills/openspec-bulk-archive-change/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/DanielShuguang/tool-box/main/.opencode/skills/openspec-bulk-archive-change/SKILL.md"

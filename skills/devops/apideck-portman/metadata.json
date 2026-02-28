@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a7bfa43c4f436e772ba242f1234a87a2103e96f867f37bef95b98f84b620af7f",
   "indexed_at": "2026-02-26T23:32:44.811Z",
-  "synced_at": "2026-02-27T02:40:14.014Z",
+  "synced_at": "2026-02-28T04:09:27.314Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9abe52a13644a6113392016688cf09d711d5bf5e9c368211c8a5f2839ea94be4",
   "install_command": "mkdir -p .claude/skills/apideck-portman && curl -sL \"https://raw.githubusercontent.com/apideck-libraries/api-skills/main/skills/apideck-portman/SKILL.md\" > .claude/skills/apideck-portman/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/apideck-libraries/api-skills/main/skills/apideck-portman/SKILL.md"

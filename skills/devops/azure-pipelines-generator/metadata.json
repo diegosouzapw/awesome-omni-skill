@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cc774c8ae82de810da6075fc7fedbf0f58a6676e4b9fb15c03589a1dd3909b9e",
   "indexed_at": "2026-02-24T23:42:02.124Z",
-  "synced_at": "2026-02-27T02:39:51.035Z",
+  "synced_at": "2026-02-28T04:08:49.846Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/057b0cb73df0b88f654725eca71647e29e69ab96c5c0a0d9500543a10a53b511",
   "install_command": "mkdir -p .claude/skills/azure-pipelines-generator && curl -sL \"https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/azure-pipelines-generator/SKILL.md\" > .claude/skills/azure-pipelines-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/azure-pipelines-generator/SKILL.md"

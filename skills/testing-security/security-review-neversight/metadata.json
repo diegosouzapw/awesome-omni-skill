@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "40cab742e37f7ecd3534bfdc3e1ea44852adf699b878535387d1453e726b2875",
   "indexed_at": "2026-02-26T09:46:28.977Z",
-  "synced_at": "2026-02-27T02:39:20.789Z",
+  "synced_at": "2026-02-28T04:08:14.303Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/10a767ec55bb5748f3a775c15716562080151beb868c96d58fa6e103320f11f0",
   "install_command": "mkdir -p .claude/skills/security-review && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/bselee/murp/security-review/SKILL.md\" > .claude/skills/security-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/bselee/murp/security-review/SKILL.md"

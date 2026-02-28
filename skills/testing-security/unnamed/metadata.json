@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dc0f1a46c5ebd64cd3bed9305847454d5613246364149bd3e64a8b9c70a5396a",
   "indexed_at": "2026-02-26T09:56:43.553Z",
-  "synced_at": "2026-02-27T02:39:25.387Z",
+  "synced_at": "2026-02-28T04:08:19.652Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6e8ad22509aaefc539fe09af8359125ca717bd465c9c496569a4898913ca5270",
   "install_command": "mkdir -p .claude/skills/unnamed && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/bk-security-redlines/SKILL.md\" > .claude/skills/unnamed/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/bk-security-redlines/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0a0a0aab2dc709269a6651bb441b43c103726167fd554fb06db531e2444f26c8",
   "indexed_at": "2026-02-27T03:51:47.351Z",
-  "synced_at": "2026-02-27T13:14:37.572Z",
+  "synced_at": "2026-02-28T04:09:07.972Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6f2f96a2ca08c2b56dac8ccc2999af424b84005add01e52b8c96849649aa7876",
   "install_command": "mkdir -p .claude/skills/agent-golang-pro && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-golang-pro/SKILL.md\" > .claude/skills/agent-golang-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-golang-pro/SKILL.md"

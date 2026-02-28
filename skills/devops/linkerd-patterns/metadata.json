@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7278ca445d109684e9397bf94d154df11992df0f72fa8504c08b6b598cc7cac3",
   "indexed_at": "2026-02-25T17:24:24.826Z",
-  "synced_at": "2026-02-27T02:39:36.388Z",
+  "synced_at": "2026-02-28T04:08:31.558Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c212fb7a5ee9afdded128f263b07db0d8d26c256a456699416261224f34bf614",
   "install_command": "mkdir -p .claude/skills/linkerd-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/linkerd-patterns/SKILL.md\" > .claude/skills/linkerd-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/linkerd-patterns/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4932a518c0c94ee53a6651c304a637c83aa1e593eca50230462a53d4cbcc86f9",
   "indexed_at": "2026-02-27T03:50:43.989Z",
-  "synced_at": "2026-02-27T13:14:37.118Z",
+  "synced_at": "2026-02-28T04:09:05.311Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/743747fddafd2ddbd939e8243f89eeb5276c069d61ef690bffd3ba7a86eb5f85",
   "install_command": "mkdir -p .claude/skills/agent-devops-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-devops-engineer/SKILL.md\" > .claude/skills/agent-devops-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-devops-engineer/SKILL.md"

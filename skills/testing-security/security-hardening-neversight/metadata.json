@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "71b4523522fcd65f9868a411d0f7b57223daf9cfc0300f88c31ec0f223a13e2f",
   "indexed_at": "2026-02-26T11:38:26.809Z",
-  "synced_at": "2026-02-27T02:39:21.410Z",
+  "synced_at": "2026-02-28T04:08:14.885Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a6e2f4ef7bf77d8f3c31222739ccce728b4e4317b31d108fdacf331e0c7df955",
   "install_command": "mkdir -p .claude/skills/security-hardening && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/omer-metin/skills-for-antigravity/security-hardening/SKILL.md\" > .claude/skills/security-hardening/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/omer-metin/skills-for-antigravity/security-hardening/SKILL.md"

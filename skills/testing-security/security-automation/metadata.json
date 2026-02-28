@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "de065e22e8b91123f14014f627c63baceb42d8ac87f785109d3bd898fce68d89",
   "indexed_at": "2026-02-26T09:46:38.890Z",
-  "synced_at": "2026-02-27T02:39:15.658Z",
+  "synced_at": "2026-02-28T04:08:08.476Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b38505f65c9eb71aa23a5715123069c704f575e11e6c871eb2f9fbaaeb80b194",
   "install_command": "mkdir -p .claude/skills/security-automation && curl -sL \"https://raw.githubusercontent.com/Ed1s0nZ/CyberStrikeAI/main/skills/security-automation/SKILL.md\" > .claude/skills/security-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Ed1s0nZ/CyberStrikeAI/main/skills/security-automation/SKILL.md"

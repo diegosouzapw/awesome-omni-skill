@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7f2b0c93610fd829a1b15c795a7e8b01b5999b6df801cd7e4710375c4f201d1a",
   "indexed_at": "2026-02-26T09:48:16.668Z",
-  "synced_at": "2026-02-27T02:40:03.289Z",
+  "synced_at": "2026-02-28T04:09:17.341Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cdfa50788d2fb5e0a774b7ca7676a12005d08a8f3a0b1b0088652329febd3482",
   "install_command": "mkdir -p .claude/skills/terraform-engineer && curl -sL \"https://raw.githubusercontent.com/jdiegosierra/sre-agent-plugin/main/skills/terraform-engineer/SKILL.md\" > .claude/skills/terraform-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jdiegosierra/sre-agent-plugin/main/skills/terraform-engineer/SKILL.md"

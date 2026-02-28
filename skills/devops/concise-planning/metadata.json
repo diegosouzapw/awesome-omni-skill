@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c9dda7c8f3340eb2aff872bf6aa000a0a8a9b406cd9352a475b51a6962470015",
   "indexed_at": "2026-02-25T15:27:06.656Z",
-  "synced_at": "2026-02-27T02:39:44.979Z",
+  "synced_at": "2026-02-28T04:08:39.732Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/698ba344ae82b9d8979c86ba0a1a0052e71a42485e4b20f643d697e2ee1ecf3c",
   "install_command": "mkdir -p .claude/skills/concise-planning && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/concise-planning/SKILL.md\" > .claude/skills/concise-planning/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/concise-planning/SKILL.md"

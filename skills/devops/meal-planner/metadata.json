@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f1b7de03bbeda79a9e8cd981a02124ff3203913ac50113dbbfe9434566db7aee",
   "indexed_at": "2026-02-26T15:15:50.370Z",
-  "synced_at": "2026-02-27T02:40:13.399Z",
+  "synced_at": "2026-02-28T04:09:26.790Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/933840a7a3c55de3ddf819147447fa83006f9fca323c766eebd5163cd6eeff8c",
   "install_command": "mkdir -p .claude/skills/meal-planner && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/ivangdavila/meal-planner/SKILL.md\" > .claude/skills/meal-planner/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ivangdavila/meal-planner/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "de02bd0b0cfce73c82a8e25b211884e40cc264e99183edb09a8cedd4b8161172",
   "indexed_at": "2026-02-25T17:24:33.460Z",
-  "synced_at": "2026-02-27T02:39:35.241Z",
+  "synced_at": "2026-02-28T04:08:30.683Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/88394167f81e0b8e99517680ed727063edee2b480dcd10fa4b68651f5bc19091",
   "install_command": "mkdir -p .claude/skills/linux-troubleshooting && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/linux-troubleshooting/SKILL.md\" > .claude/skills/linux-troubleshooting/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/linux-troubleshooting/SKILL.md"

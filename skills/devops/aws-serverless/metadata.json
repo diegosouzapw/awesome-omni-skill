@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7759f9d60356c81a71f631b5be0ba49a83243303b9a76bd446c74937f46d5d60",
   "indexed_at": "2026-02-25T15:21:51.195Z",
-  "synced_at": "2026-02-27T02:39:42.324Z",
+  "synced_at": "2026-02-28T04:08:37.165Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5ac1379789e559bbb89d9dabace1c80994ba3ceb1b2bb36a08e7c2614156bed1",
   "install_command": "mkdir -p .claude/skills/aws-serverless && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/aws-serverless/SKILL.md\" > .claude/skills/aws-serverless/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/aws-serverless/SKILL.md"

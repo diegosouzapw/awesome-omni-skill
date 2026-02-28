@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "93434dc723e3a8ac3d07edf9a8bdbb2116161b958003b1f5e9bb9599346caabe",
   "indexed_at": "2026-02-26T10:46:10.342Z",
-  "synced_at": "2026-02-27T02:40:05.185Z",
+  "synced_at": "2026-02-28T04:09:18.636Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/23e1ad0e063447c31abbbd81634416ea8e368db98ca8cbba46353836cb92555e",
   "install_command": "mkdir -p .claude/skills/modal-serverless-gpu && curl -sL \"https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/main/09-infrastructure/modal/SKILL.md\" > .claude/skills/modal-serverless-gpu/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/main/09-infrastructure/modal/SKILL.md"

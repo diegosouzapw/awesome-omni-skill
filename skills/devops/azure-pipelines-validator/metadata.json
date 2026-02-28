@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1af71b8c6c803920dc6ce7f0c001c5b19797101a5c2c32cd0f6a31cb70a5e41b",
   "indexed_at": "2026-02-24T23:42:03.331Z",
-  "synced_at": "2026-02-27T02:39:51.218Z",
+  "synced_at": "2026-02-28T04:08:50.013Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6c19065b0fb65e92277e4dadf63cbf25b2ed5732fc8c62c50e8ea26cb49376bb",
   "install_command": "mkdir -p .claude/skills/azure-pipelines-validator && curl -sL \"https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/azure-pipelines-validator/SKILL.md\" > .claude/skills/azure-pipelines-validator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/azure-pipelines-validator/SKILL.md"

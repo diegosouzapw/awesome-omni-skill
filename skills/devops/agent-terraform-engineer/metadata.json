@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c0d5ba9120de6cbf47e84a3dfa0c8c28eab1bdc6f4105c5bd5af3b5600db5a17",
   "indexed_at": "2026-02-27T04:56:54.026Z",
-  "synced_at": "2026-02-27T13:14:37.332Z",
+  "synced_at": "2026-02-28T04:09:05.693Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e0d8c75189d9f401eda455c069ea32ff415717688d3f4948014b92acf5180d9c",
   "install_command": "mkdir -p .claude/skills/agent-terraform-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-terraform-engineer/SKILL.md\" > .claude/skills/agent-terraform-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-terraform-engineer/SKILL.md"

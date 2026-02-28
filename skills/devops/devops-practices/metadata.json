@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "15dda24e8b0dced82aae4875bc63e908043e7aaad6bbb9bdd3ee6d749257a25e",
   "indexed_at": "2026-02-25T19:05:06.035Z",
-  "synced_at": "2026-02-27T02:39:59.480Z",
+  "synced_at": "2026-02-28T04:09:13.884Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ac7be8368142454ee122796f63afed6f26f1c86f8a377d04a07856c83c98c80f",
   "install_command": "mkdir -p .claude/skills/devops-practices && curl -sL \"https://raw.githubusercontent.com/markus41/claude/main/plugins/team-accelerator/skills/devops-practices/SKILL.md\" > .claude/skills/devops-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/markus41/claude/main/plugins/team-accelerator/skills/devops-practices/SKILL.md"

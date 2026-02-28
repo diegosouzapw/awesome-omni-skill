@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4913ffa294723c366e909671280c13c07cb83fb19c898f7cb5d799af3be8fd7c",
   "indexed_at": "2026-02-26T10:52:03.337Z",
-  "synced_at": "2026-02-27T02:40:06.808Z",
+  "synced_at": "2026-02-28T04:09:20.256Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a65b80d306ad6b773c28841f7edccdeff046ba40ba5107f8b21b4980d65b07f6",
   "install_command": "mkdir -p .claude/skills/modal-serverless-gpu && curl -sL \"https://raw.githubusercontent.com/AXGZ21/hermes-agent-railway/main/skills/mlops/modal/SKILL.md\" > .claude/skills/modal-serverless-gpu/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AXGZ21/hermes-agent-railway/main/skills/mlops/modal/SKILL.md"

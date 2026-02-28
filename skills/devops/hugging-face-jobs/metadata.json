@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d561c0fda5abdc991797f59fd71a602ded6cd454e97fadbc1bdabd3c8af5b66d",
   "indexed_at": "2026-02-25T17:22:58.445Z",
-  "synced_at": "2026-02-27T02:39:35.576Z",
+  "synced_at": "2026-02-28T04:08:30.829Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6de7e048a3e34271f92c173fe5ef2c791200bbf3471c8e516f1e725edc4edcfc",
   "install_command": "mkdir -p .claude/skills/hugging-face-jobs && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/hugging-face-jobs/SKILL.md\" > .claude/skills/hugging-face-jobs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/hugging-face-jobs/SKILL.md"

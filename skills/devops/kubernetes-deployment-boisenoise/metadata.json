@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ac98d21d2ab7a7ed5a0f7508788734ddcdd14aa7986e23ace34d7103b87df2a8",
   "indexed_at": "2026-02-26T12:18:11.482Z",
-  "synced_at": "2026-02-27T02:40:10.551Z",
+  "synced_at": "2026-02-28T04:09:24.151Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c19cbbb37e86ec052f0303715ad8e2d551985151539823101c47edca8654babd",
   "install_command": "mkdir -p .claude/skills/kubernetes-deployment && curl -sL \"https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-kubernetes-deployment/SKILL.md\" > .claude/skills/kubernetes-deployment/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-kubernetes-deployment/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7902e2f9c479b806f494a7f90f18b71cc19bc92fd15cfb356a3de63bac7db194",
   "indexed_at": "2026-02-25T12:40:05.639Z",
-  "synced_at": "2026-02-27T02:39:12.717Z",
+  "synced_at": "2026-02-28T04:08:05.525Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/37fb11fed10def6048d2bdf21f30d0ad51efce610cac6e4fb2db9b117e02ee7c",
   "install_command": "mkdir -p .claude/skills/property-testing && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/property-testing/SKILL.md\" > .claude/skills/property-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/property-testing/SKILL.md"

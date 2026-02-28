@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "246002de1bc8f8c23c9582110b590ed192531e95ed022bfffd4c0b72e4aae8ef",
   "indexed_at": "2026-02-26T05:09:01.142Z",
-  "synced_at": "2026-02-27T02:39:56.368Z",
+  "synced_at": "2026-02-28T04:09:11.411Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/241e04097487c98ebaad63342523c59d1f76e5e4094213f6b8c3e3f7f9361487",
   "install_command": "mkdir -p .claude/skills/acc-event-sourcing-knowledge && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-event-sourcing-knowledge/SKILL.md\" > .claude/skills/acc-event-sourcing-knowledge/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-event-sourcing-knowledge/SKILL.md"

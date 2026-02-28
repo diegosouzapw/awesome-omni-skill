@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "da46133dbad1b4d084b14f6a91695ee6bef10c480a0e0b2f5159f816c6e17504",
   "indexed_at": "2026-02-27T00:49:56.976Z",
-  "synced_at": "2026-02-27T02:39:46.123Z",
+  "synced_at": "2026-02-28T04:08:41.135Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/69e960af11f7d1ec7b74ec27e3ce2742577802272859083a59435feca2c72f6e",
   "install_command": "mkdir -p .claude/skills/acc-outbox-pattern-knowledge && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-outbox-pattern-knowledge/SKILL.md\" > .claude/skills/acc-outbox-pattern-knowledge/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-outbox-pattern-knowledge/SKILL.md"

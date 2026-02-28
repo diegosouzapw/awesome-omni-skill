@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5d70cd8897f722375ceccda54b815db92bd7c68881a8c8fd3a5cf09f387d8885",
   "indexed_at": "2026-02-25T19:27:25.809Z",
-  "synced_at": "2026-02-27T02:39:32.909Z",
+  "synced_at": "2026-02-28T04:08:28.249Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a6e6c0a5bd27f5bae9431dbb901bd4feffce204d4c95b48b3f11e07d0ca45080",
   "install_command": "mkdir -p .claude/skills/game-art && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/game-development/game-art/SKILL.md\" > .claude/skills/game-art/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/game-development/game-art/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f1c2ef44f51133f5b017ecc3f1b6487d94040e01ae2afcfd9a882914179c7839",
   "indexed_at": "2026-02-26T22:31:54.250Z",
-  "synced_at": "2026-02-27T02:39:11.881Z",
+  "synced_at": "2026-02-28T04:08:04.399Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c3d867978f51da00a94fe8c5657326931fcb985b00caf0075389c7a58a637ac9",
   "install_command": "mkdir -p .claude/skills/aidf-developer && curl -sL \"https://raw.githubusercontent.com/rubenmavarezb/aidf/main/templates/.ai/skills/aidf-developer/SKILL.md\" > .claude/skills/aidf-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rubenmavarezb/aidf/main/templates/.ai/skills/aidf-developer/SKILL.md"

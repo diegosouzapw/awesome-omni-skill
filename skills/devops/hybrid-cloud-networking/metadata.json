@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "76039bd7a78c23182744da47505f46adc14434d53138b9c803da8cf68df08ee4",
   "indexed_at": "2026-02-25T17:23:02.497Z",
-  "synced_at": "2026-02-27T02:39:35.741Z",
+  "synced_at": "2026-02-28T04:08:30.975Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/858c2347cfd0232f8e357ee91aab69fb3351f84d1f459abac37491f6cdacfd97",
   "install_command": "mkdir -p .claude/skills/hybrid-cloud-networking && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/hybrid-cloud-networking/SKILL.md\" > .claude/skills/hybrid-cloud-networking/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/hybrid-cloud-networking/SKILL.md"

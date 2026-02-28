@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e53d5681c4d2798a23207f1289486bbf2238591a86048706f32a0bd1ac6291e0",
   "indexed_at": "2026-02-26T09:47:00.619Z",
-  "synced_at": "2026-02-27T02:39:16.231Z",
+  "synced_at": "2026-02-28T04:08:09.042Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7336710eba165f2a06cb974f9c28283d9207a3c77dc79235fb0ef6a1ae076c86",
   "install_command": "mkdir -p .claude/skills/agent-security-manager && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/mcp-agent/claude-flow/.agents/skills/agent-security-manager/SKILL.md\" > .claude/skills/agent-security-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/mcp-agent/claude-flow/.agents/skills/agent-security-manager/SKILL.md"

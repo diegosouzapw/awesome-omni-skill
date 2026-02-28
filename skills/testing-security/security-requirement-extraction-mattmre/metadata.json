@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "98fedd98f6e2177e0dca5a47287feaad0178cc5e2b3fa3fd3752778dc8710f9c",
   "indexed_at": "2026-02-26T09:51:43.016Z",
-  "synced_at": "2026-02-27T02:39:16.574Z",
+  "synced_at": "2026-02-28T04:08:09.383Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9aefe22f206de713fb137750df47d6b4c73a3aaea50b47a500c0f5484b1fa2a2",
   "install_command": "mkdir -p .claude/skills/security-requirement-extraction && curl -sL \"https://raw.githubusercontent.com/mattmre/EVOKORE-MCP/main/SKILLS/WSHOBSON PLUGINS/security-scanning/security-requirement-extraction/SKILL.md\" > .claude/skills/security-requirement-extraction/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattmre/EVOKORE-MCP/main/SKILLS/WSHOBSON PLUGINS/security-scanning/security-requirement-extraction/SKILL.md"

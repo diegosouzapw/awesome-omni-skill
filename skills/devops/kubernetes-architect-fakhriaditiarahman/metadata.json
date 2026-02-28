@@ -19,7 +19,7 @@
   "downloads": 1,
   "content_hash": "cbf9144aa84fc817e6fa697100a90b91c1c48fdfd564eda59d192a3d9d859439",
   "indexed_at": "2026-02-26T14:26:40.489Z",
-  "synced_at": "2026-02-27T02:40:12.984Z",
+  "synced_at": "2026-02-28T04:09:26.389Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c054b93af8ce6746a48412cf7fa625095e3477f472ed4a5050224240b38c9da9",
   "install_command": "mkdir -p .claude/skills/kubernetes-architect && curl -sL \"https://raw.githubusercontent.com/fakhriaditiarahman/Your-Skill-Agent/main/.agent/skills/kubernetes-architect/SKILL.md\" > .claude/skills/kubernetes-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fakhriaditiarahman/Your-Skill-Agent/main/.agent/skills/kubernetes-architect/SKILL.md"

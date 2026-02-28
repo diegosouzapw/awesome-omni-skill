@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d3e59f462ea89f5e32c6e308ae529d6da2183f3b5606a3cacbae9b3518779ff5",
   "indexed_at": "2026-02-25T18:40:21.600Z",
-  "synced_at": "2026-02-27T02:39:13.518Z",
+  "synced_at": "2026-02-28T04:08:06.314Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/10a06122fea303325cfb6e3bebee47af88aacc61e802205bdb08eea60ed63f61",
   "install_command": "mkdir -p .claude/skills/property-testing && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/property-testing-captjay98-gemini-livestockai-3/SKILL.md\" > .claude/skills/property-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/property-testing-captjay98-gemini-livestockai-3/SKILL.md"

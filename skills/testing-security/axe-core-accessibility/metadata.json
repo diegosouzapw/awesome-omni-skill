@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "66dae1c273feb2312d064f38d6015bc3027980e4fc58b3bc65e9193ade9dae03",
   "indexed_at": "2026-02-26T17:36:46.789Z",
-  "synced_at": "2026-02-27T02:39:11.094Z",
+  "synced_at": "2026-02-28T04:08:03.181Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/606db075fc7c3d75f0ab23413c867248f2c847e6491b76c1219e3771c78771ea",
   "install_command": "mkdir -p .claude/skills/axe-core-accessibility && curl -sL \"https://raw.githubusercontent.com/omarrohit20/ui_automation/main/.github/copilot-instructions/axe-accessibility/SKILL.md\" > .claude/skills/axe-core-accessibility/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/omarrohit20/ui_automation/main/.github/copilot-instructions/axe-accessibility/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1ca0257f445cca979bc82634a2e2bb6f0faf0d6a5965fb8b7543a14eab683565",
   "indexed_at": "2026-02-27T14:09:41.186Z",
-  "synced_at": "2026-02-27T18:17:03.446Z",
+  "synced_at": "2026-02-28T04:09:28.966Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9a5aa70503926cf932cf4b9a3721563ff3e47e3eb4b818d86dfbf32944be3d6c",
   "install_command": "mkdir -p .claude/skills/terradev-gpu-cloud && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/theoddden/terradev-gpu-cloud/SKILL.md\" > .claude/skills/terradev-gpu-cloud/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/theoddden/terradev-gpu-cloud/SKILL.md"

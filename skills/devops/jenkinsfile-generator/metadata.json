@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "378fd80363ec54f855a5405c8fc19d7db0e7d7eba202cab882d0e71c09b0c2b8",
   "indexed_at": "2026-02-24T23:42:20.174Z",
-  "synced_at": "2026-02-27T02:39:51.548Z",
+  "synced_at": "2026-02-28T04:08:50.341Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d12e15410cbaec1475ac54d6015a1bd2a5d6df5f53d1971e7e2348291abd19f1",
   "install_command": "mkdir -p .claude/skills/jenkinsfile-generator && curl -sL \"https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/jenkinsfile-generator/SKILL.md\" > .claude/skills/jenkinsfile-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/jenkinsfile-generator/SKILL.md"

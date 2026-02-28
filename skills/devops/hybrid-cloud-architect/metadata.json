@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a765d5bbb381a09b765b6838f1f2de9a887fa7b1d5e65a69e28d349a712b167d",
   "indexed_at": "2026-02-25T17:23:00.543Z",
-  "synced_at": "2026-02-27T02:39:36.707Z",
+  "synced_at": "2026-02-28T04:08:31.846Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7bb119c88811f2e4c9d07b2190cf14dd646ff5b410c04a5e0f78e23bb6369f74",
   "install_command": "mkdir -p .claude/skills/hybrid-cloud-architect && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/hybrid-cloud-architect/SKILL.md\" > .claude/skills/hybrid-cloud-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/hybrid-cloud-architect/SKILL.md"

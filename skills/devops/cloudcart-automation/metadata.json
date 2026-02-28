@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b63c1fea0510fc4c969b587071e6da803af73f5c805b4109593935842dba2f9d",
   "indexed_at": "2026-02-24T22:51:59.034Z",
-  "synced_at": "2026-02-27T02:39:30.590Z",
+  "synced_at": "2026-02-28T04:08:26.051Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/17dc399936589ffd56d72429df5f82af9acb5f4459872bb27235cbf78b44fc35",
   "install_command": "mkdir -p .claude/skills/cloudcart-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/cloudcart-automation/SKILL.md\" > .claude/skills/cloudcart-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/cloudcart-automation/SKILL.md"

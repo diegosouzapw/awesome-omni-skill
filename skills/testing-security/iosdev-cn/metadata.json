@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6983441bb3661d0fbc88be28c2100ddedbf8c9f3d80db70642ad7786f533fd83",
   "indexed_at": "2026-02-26T11:12:05.477Z",
-  "synced_at": "2026-02-27T02:39:25.062Z",
+  "synced_at": "2026-02-28T04:08:19.028Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/38b078cee4de91260eb92318380d2e7be38652ee9321ffe21b775b353700d2d1",
   "install_command": "mkdir -p .claude/skills/iosdev-cn && curl -sL \"https://raw.githubusercontent.com/kuangre123/iosdev/main/SKILL.md\" > .claude/skills/iosdev-cn/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kuangre123/iosdev/main/SKILL.md"

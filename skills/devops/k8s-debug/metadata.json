@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1698a413499e881e84c1e7e33c931ac7a6be2c3fa587259814de6a98060f177d",
   "indexed_at": "2026-02-24T23:42:22.769Z",
-  "synced_at": "2026-02-27T02:39:51.723Z",
+  "synced_at": "2026-02-28T04:08:50.507Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c34e98f754054e69f9eeb2735112ca731a6297686e2b663c6ae80deb3feb596f",
   "install_command": "mkdir -p .claude/skills/k8s-debug && curl -sL \"https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/k8s-debug/SKILL.md\" > .claude/skills/k8s-debug/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/main/devops-skills-plugin/skills/k8s-debug/SKILL.md"

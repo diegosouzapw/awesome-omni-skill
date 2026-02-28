@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "23e8bc75d3099890ff59419407d6c6e9d621f69e11e8fa0f387bca93f245796a",
   "indexed_at": "2026-02-25T15:25:59.962Z",
-  "synced_at": "2026-02-27T02:39:44.668Z",
+  "synced_at": "2026-02-28T04:08:39.439Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f38e3e68658e08ebb47972c64f4ffcf52d1fba5d22e4b67c31040f025f39690b",
   "install_command": "mkdir -p .claude/skills/cicd-automation-workflow-automate && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/cicd-automation-workflow-automate/SKILL.md\" > .claude/skills/cicd-automation-workflow-automate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/cicd-automation-workflow-automate/SKILL.md"

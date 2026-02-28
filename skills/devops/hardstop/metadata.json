@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a6e75dfb04402b989251058ace8e33a30a34cff79be7098349d01534f9534008",
   "indexed_at": "2026-02-27T08:51:21.963Z",
-  "synced_at": "2026-02-27T13:14:38.490Z",
+  "synced_at": "2026-02-28T04:09:28.041Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6dde1557c6f55e1d8bca650abef9a441de9c482803b192a2b9a0fc04570804df",
   "install_command": "mkdir -p .claude/skills/hardstop && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/hardstop/SKILL.md\" > .claude/skills/hardstop/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/hardstop/SKILL.md"

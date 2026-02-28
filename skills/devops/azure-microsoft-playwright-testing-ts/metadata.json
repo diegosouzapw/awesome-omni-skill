@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8073805120045af752f1c4fb882c32541336cc4d6eb077a0076102f4e9a4ab54",
   "indexed_at": "2026-02-25T15:23:32.522Z",
-  "synced_at": "2026-02-27T02:39:42.798Z",
+  "synced_at": "2026-02-28T04:08:37.621Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2e8c6009636bea1472717b7d869de305adf945d64a3d53782f15f2bf20bd16eb",
   "install_command": "mkdir -p .claude/skills/azure-microsoft-playwright-testing-ts && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-microsoft-playwright-testing-ts/SKILL.md\" > .claude/skills/azure-microsoft-playwright-testing-ts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/azure-microsoft-playwright-testing-ts/SKILL.md"

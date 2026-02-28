@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "50b640b2d10e7299ca6a19297522d711b46b781093481c989e6bf5f911889229",
   "indexed_at": "2026-02-27T01:53:29.679Z",
-  "synced_at": "2026-02-27T02:39:52.997Z",
+  "synced_at": "2026-02-28T04:09:04.561Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/767ded4ab82eb3a50329ba49fd4d82dfc081c9df699efd68e007343d0793787f",
   "install_command": "mkdir -p .claude/skills/add-datalake-consumer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-datalake-consumer/SKILL.md\" > .claude/skills/add-datalake-consumer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-datalake-consumer/SKILL.md"

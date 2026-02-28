@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c6906f602c97ad193d4a1476856f2982dc72ecf91297ab3ce45c406e3426cdbb",
   "indexed_at": "2026-02-24T23:25:59.189Z",
-  "synced_at": "2026-02-27T02:39:48.003Z",
+  "synced_at": "2026-02-28T04:08:46.918Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1cd70254f54a92597b5b5e1efd7e409f8882d0b856791ea368e107f363da8ea8",
   "install_command": "mkdir -p .claude/skills/1password-direnv-secrets && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1password-direnv-secrets/SKILL.md\" > .claude/skills/1password-direnv-secrets/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1password-direnv-secrets/SKILL.md"

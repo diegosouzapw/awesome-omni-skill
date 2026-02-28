@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f4d8876ee1860c21280fe24c134dc54e50283e8bb590d466adbf8dee795be4e9",
   "indexed_at": "2026-02-25T16:25:03.906Z",
-  "synced_at": "2026-02-27T02:39:40.775Z",
+  "synced_at": "2026-02-28T04:08:35.647Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8daf6118205a4be46c38659aa401a64ef8bbd8bbb61ae9ab3df04e7574875d69",
   "install_command": "mkdir -p .claude/skills/employment-contract-templates && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/employment-contract-templates/SKILL.md\" > .claude/skills/employment-contract-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/employment-contract-templates/SKILL.md"

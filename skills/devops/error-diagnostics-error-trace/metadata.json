@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cbaa1e4302022334645735779a3b8cbd1b5d6c069450afe133f0a674e6ede4dd",
   "indexed_at": "2026-02-25T16:25:17.151Z",
-  "synced_at": "2026-02-27T02:39:41.087Z",
+  "synced_at": "2026-02-28T04:08:35.942Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/94d591fe84f28050cc382041881dbdbe64d0994a27ba2b92963920a5386d9531",
   "install_command": "mkdir -p .claude/skills/error-diagnostics-error-trace && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/error-diagnostics-error-trace/SKILL.md\" > .claude/skills/error-diagnostics-error-trace/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/error-diagnostics-error-trace/SKILL.md"

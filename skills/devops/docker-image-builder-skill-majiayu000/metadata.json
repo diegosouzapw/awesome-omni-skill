@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6bf164da81f8e206bbf7f78ac73e82329e68b0ac2160ffdf4cbb3bfefa0def67",
   "indexed_at": "2026-02-24T23:10:56.430Z",
-  "synced_at": "2026-02-27T02:39:54.373Z",
+  "synced_at": "2026-02-28T04:09:09.515Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f1e7becb66ca6d6f92a5a30821e2d89f9e48653a3db1162a508ed181a55622c9",
   "install_command": "mkdir -p .claude/skills/docker-image-builder-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/49-docker-for-ai-services-panaversity-agentfactory/SKILL.md\" > .claude/skills/docker-image-builder-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/49-docker-for-ai-services-panaversity-agentfactory/SKILL.md"

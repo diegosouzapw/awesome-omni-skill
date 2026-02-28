@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a70af2a567d8b308172538ad98ad661da313690a64c74c5569c0af65b899f942",
   "indexed_at": "2026-02-25T12:38:52.754Z",
-  "synced_at": "2026-02-27T02:39:23.878Z",
+  "synced_at": "2026-02-28T04:08:17.974Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4566aa8a2c33b57bd19593efac4f75d1302536b4b1175f51c58d040e0c4f7617",
   "install_command": "mkdir -p .claude/skills/jwt-verify && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/jwt-verify/SKILL.md\" > .claude/skills/jwt-verify/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/jwt-verify/SKILL.md"

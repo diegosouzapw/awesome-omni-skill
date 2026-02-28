@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "61731ecec87daad7f6b3246bfa1a3d744138120b385d2a837ac63d559cf7b412",
   "indexed_at": "2026-02-26T22:36:48.999Z",
-  "synced_at": "2026-02-27T02:39:12.229Z",
+  "synced_at": "2026-02-28T04:08:04.736Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9d1d5b24dac4db7232bbeaa014a43c448d7d54cb9f159b2fa3b6510f5ebc3e13",
   "install_command": "mkdir -p .claude/skills/authorization-matrix && curl -sL \"https://raw.githubusercontent.com/cdalsoniii/brightpath-coder/main/.cursor/skills/authorization-matrix/SKILL.md\" > .claude/skills/authorization-matrix/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cdalsoniii/brightpath-coder/main/.cursor/skills/authorization-matrix/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c53d1978c68ef65397e0a4494452d4efdaaf617e34afe9ac0d095c444678b8c5",
   "indexed_at": "2026-02-27T14:48:54.399Z",
-  "synced_at": "2026-02-27T18:15:46.384Z",
+  "synced_at": "2026-02-28T04:08:19.501Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1e051398ab1e01176db278cbe8070533b3241815b12006ff64e1d860d8d0ae99",
   "install_command": "mkdir -p .claude/skills/py-review-orchestrator && curl -sL \"https://raw.githubusercontent.com/SatoryKono/BioactivityDataAcquisition/main/.codex/skills/py-review-orchestrator/SKILL.md\" > .claude/skills/py-review-orchestrator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/SatoryKono/BioactivityDataAcquisition/main/.codex/skills/py-review-orchestrator/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c0876f5502920a7f8699dd25dc253bedd5d59cb659ebe8452840a07ec7144514",
   "indexed_at": "2026-02-24T22:52:08.378Z",
-  "synced_at": "2026-02-27T02:39:31.534Z",
+  "synced_at": "2026-02-28T04:08:26.937Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c63d48ce2ad6b3327ea7765a1394fb6f98bc0863f359a0fcbbf8334d3449c198",
   "install_command": "mkdir -p .claude/skills/cloudpress-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/cloudpress-automation/SKILL.md\" > .claude/skills/cloudpress-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/cloudpress-automation/SKILL.md"

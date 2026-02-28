@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "910486d546bbc5aa2528b4cede9ef44078012bf5abd1209963d9f5416515702c",
   "indexed_at": "2026-02-26T12:18:56.260Z",
-  "synced_at": "2026-02-27T02:40:11.211Z",
+  "synced_at": "2026-02-28T04:09:24.817Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/78faa66d2548b51103ceb189218cdc7f32f09b24c4785203c194c1fd81be0417",
   "install_command": "mkdir -p .claude/skills/implementing-aqua-security-for-container-scanning && curl -sL \"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/implementing-aqua-security-for-container-scanning/SKILL.md\" > .claude/skills/implementing-aqua-security-for-container-scanning/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/implementing-aqua-security-for-container-scanning/SKILL.md"

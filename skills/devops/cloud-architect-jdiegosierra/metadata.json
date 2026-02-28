@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ee81c9138b6f5c96add25da2e8a4931b39d4d1afa6569e22695761c27fb6dd9d",
   "indexed_at": "2026-02-27T14:12:07.034Z",
-  "synced_at": "2026-02-27T18:17:03.730Z",
+  "synced_at": "2026-02-28T04:09:29.289Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ea91252ac4bc0b5b2a15812bafba7e148ca5cffa943c52037fe9e980c4261818",
   "install_command": "mkdir -p .claude/skills/cloud-architect && curl -sL \"https://raw.githubusercontent.com/jdiegosierra/sre-agent-plugin/main/skills/cloud-architect/SKILL.md\" > .claude/skills/cloud-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jdiegosierra/sre-agent-plugin/main/skills/cloud-architect/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "801d63f918521ecb08c46163d8eb7ae31127bc9ba6f512080034024ad02a5be9",
   "indexed_at": "2026-02-24T23:36:38.037Z",
-  "synced_at": "2026-02-27T02:39:50.454Z",
+  "synced_at": "2026-02-28T04:08:49.255Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b3d4d8298c7c13738dc03df05c77d1587ba37f74106b2a686f61cfa5cf0c3c53",
   "install_command": "mkdir -p .claude/skills/build-your-kubernetes-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/50-kubernetes-for-ai-services-panaversity-agentfactory/SKILL.md\" > .claude/skills/build-your-kubernetes-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/50-kubernetes-for-ai-services-panaversity-agentfactory/SKILL.md"

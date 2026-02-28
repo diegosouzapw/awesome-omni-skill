@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cabb86a405318e3e41ece9f5c2ac2fa6e25c0233ea5dd51847db31f94653f1db",
   "indexed_at": "2026-02-24T23:05:11.100Z",
-  "synced_at": "2026-02-27T02:39:30.139Z",
+  "synced_at": "2026-02-28T04:08:25.609Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2b4545043298afbe6cd99a5c4a65aba4f504f9290a8df8e0b24ffc2c6bc31afa",
   "install_command": "mkdir -p .claude/skills/lever-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/lever-automation/SKILL.md\" > .claude/skills/lever-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/lever-automation/SKILL.md"

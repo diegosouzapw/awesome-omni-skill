@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3d05b7b657ba6953fbcb4848363fc7d56574fc4a8e5a2e883a954b7c89844b55",
   "indexed_at": "2026-02-26T13:55:04.860Z",
-  "synced_at": "2026-02-27T02:39:23.698Z",
+  "synced_at": "2026-02-28T04:08:17.804Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/15043883ee2722216f4153b740d1aafddb04e89ebd3ee89237b7f39a2198fcb4",
   "install_command": "mkdir -p .claude/skills/jules-audit-request && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/jules-audit-request/SKILL.md\" > .claude/skills/jules-audit-request/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/jules-audit-request/SKILL.md"
