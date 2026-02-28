@@ -1,133 +1,173 @@
 ---
 name: mcp-builder
-description: Guia para criar servidores MCP (Model Context Protocol) de alta qualidade que permitem que LLMs interajam com serviços externos através de ferramentas bem projetadas. Use ao construir servidores MCP para integrar APIs ou serviços externos, seja em Python (FastMCP) ou Node/TypeScript (MCP SDK).
-license: Termos completos em LICENSE.txt
+description: Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP), Node/TypeScript (MCP SDK), or C#/.NET (Microsoft MCP SDK).
 ---
 
-# Guia de Desenvolvimento de Servidor MCP
+# MCP Server Development Guide
 
-## Visão Geral
+## Overview
 
-Crie servidores MCP (Model Context Protocol) que permitam que LLMs interajam com serviços externos através de ferramentas bem projetadas. A qualidade de um servidor MCP é medida por quão bem ele permite que LLMs realizem tarefas do mundo real.
-
----
-
-# Processo
-
-## 🚀 Fluxo de Trabalho de Alto Nível
-
-Criar um servidor MCP de alta qualidade envolve quatro fases principais:
-
-### Fase 1: Pesquisa Profunda e Planejamento
-
-#### 1.1 Entenda o Design Moderno do MCP
-
-**Cobertura de API vs. Ferramentas de Fluxo de Trabalho:**
-Equilibre a cobertura abrangente de endpoint de API com ferramentas de fluxo de trabalho especializadas. Ferramentas de fluxo de trabalho podem ser mais convenientes para tarefas específicas, enquanto a cobertura abrangente dá aos agentes flexibilidade para compor operações. O desempenho varia de acordo com o cliente—alguns clientes se beneficiam da execução de código que combina ferramentas básicas, enquanto outros funcionam melhor com fluxos de trabalho de nível superior. Quando incerto, priorize a cobertura abrangente da API.
-
-**Nomeação de Ferramentas e Descoberta:**
-Nomes de ferramentas claros e descritivos ajudam os agentes a encontrar as ferramentas certas rapidamente. Use prefixos consistentes (por exemplo, `github_create_issue`, `github_list_repos`) e nomenclatura orientada para ação.
-
-**Gerenciamento de Contexto:**
-Os agentes se beneficiam de descrições concisas de ferramentas e da capacidade de filtrar/paginar resultados. Projete ferramentas que retornem dados focados e relevantes. Alguns clientes suportam execução de código, o que pode ajudar os agentes a filtrar e processar dados de forma eficiente.
-
-**Mensagens de Erro Acionáveis:**
-As mensagens de erro devem guiar os agentes em direção a soluções com sugestões e próximos passos específicos.
-
-#### 1.2 Estude a Documentação do Protocolo MCP
-
-**Navegue pela especificação MCP:**
-
-Comece com o sitemap para encontrar páginas relevantes: `https://modelcontextprotocol.io/sitemap.xml`
-
-Em seguida, busque páginas específicas com sufixo `.md` para formato markdown (por exemplo, `https://modelcontextprotocol.io/specification/draft.md`).
-
-Páginas principais para revisar:
-
-- Visão geral da especificação e arquitetura
-- Mecanismos de transporte (HTTP streamable, stdio)
-- Definições de ferramenta, recurso e prompt
-
-#### 1.3 Estude a Documentação do Framework
-
-**Stack recomendada:**
-
-- **Linguagem**: TypeScript (suporte SDK de alta qualidade e boa compatibilidade em muitos ambientes de execução, por exemplo, MCPB. Além disso, os modelos de IA são bons em gerar código TypeScript, beneficiando-se de seu amplo uso, tipagem estática e boas ferramentas de linting)
-- **Transporte**: HTTP streamable para servidores remotos, usando JSON sem estado (mais simples de escalar e manter, em oposição a sessões com monitoramento de estado e respostas de streaming). stdio para servidores locais.
-
-**Carregar documentação do framework:**
-
-- **Melhores Práticas MCP**: [📋 Ver Melhores Práticas](./reference/mcp_best_practices.md) - Diretrizes principais
-
-**Para TypeScript (recomendado):**
-
-- **TypeScript SDK**: Use WebFetch para carregar `https://raw.githubusercontent.com/modelcontextprotocol/typescript-sdk/main/README.md`
-- [⚡ Guia TypeScript](./reference/node_mcp_server.md) - Padrões e exemplos TypeScript
-
-**Para Python:**
-
-- **Python SDK**: Use WebFetch para carregar `https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/main/README.md`
-- [🐍 Guia Python](./reference/python_mcp_server.md) - Padrões e exemplos Python
-
-#### 1.4 Planeje Sua Implementação
-
-**Entenda a API:**
-Revise a documentação da API do serviço para identificar pontos de extremidade chave, requisitos de autenticação e modelos de dados. Use pesquisa na web e WebFetch conforme necessário.
-
-**Seleção de Ferramentas:**
-Priorize a cobertura abrangente da API. Liste os pontos de extremidade a serem implementados, começando com as operações mais comuns.
+Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.
 
 ---
 
-### Fase 2: Implementação
+## Microsoft MCP Ecosystem
 
-#### 2.1 Configure a Estrutura do Projeto
+Microsoft provides extensive MCP infrastructure for Azure and Foundry services. Understanding this ecosystem helps you decide whether to build custom servers or leverage existing ones.
 
-Veja os guias específicos da linguagem para configuração do projeto:
+### Server Types
 
-- [⚡ Guia TypeScript](./reference/node_mcp_server.md) - Estrutura do projeto, package.json, tsconfig.json
-- [🐍 Guia Python](./reference/python_mcp_server.md) - Organização do módulo, dependências
+| Type | Transport | Use Case | Example |
+|------|-----------|----------|---------|
+| **Local** | stdio | Desktop apps, single-user, local dev | Azure MCP Server via NPM/Docker |
+| **Remote** | Streamable HTTP | Cloud services, multi-tenant, Agent Service | `https://mcp.ai.azure.com` (Foundry) |
 
-#### 2.2 Implemente a Infraestrutura Central
+### Microsoft MCP Servers
 
-Crie utilitários compartilhados:
+Before building a custom server, check if Microsoft already provides one:
 
-- Cliente API com autenticação
-- Auxiliares de tratamento de erros
-- Formatação de resposta (JSON/Markdown)
-- Suporte a paginação
+| Server | Type | Description |
+|--------|------|-------------|
+| **Azure MCP** | Local | 48+ Azure services (Storage, KeyVault, Cosmos, SQL, etc.) |
+| **Foundry MCP** | Remote | `https://mcp.ai.azure.com` - Models, deployments, evals, agents |
+| **Fabric MCP** | Local | Microsoft Fabric APIs, OneLake, item definitions |
+| **Playwright MCP** | Local | Browser automation and testing |
+| **GitHub MCP** | Remote | `https://api.githubcopilot.com/mcp` |
 
-#### 2.3 Implemente Ferramentas
+**Full ecosystem:** See [🔷 Microsoft MCP Patterns](./reference/microsoft_mcp_patterns.md) for complete server catalog and patterns.
 
-Para cada ferramenta:
+### When to Use Microsoft vs Custom
 
-**Esquema de Entrada:**
+| Scenario | Recommendation |
+|----------|----------------|
+| Azure service integration | Use **Azure MCP Server** (48 services covered) |
+| AI Foundry agents/evals | Use **Foundry MCP** remote server |
+| Custom internal APIs | Build **custom server** (this guide) |
+| Third-party SaaS integration | Build **custom server** (this guide) |
+| Extending Azure MCP | Follow [Microsoft MCP Patterns](./reference/microsoft_mcp_patterns.md) |
 
-- Use Zod (TypeScript) ou Pydantic (Python)
-- Inclua restrições e descrições claras
-- Adicione exemplos nas descrições dos campos
+---
 
-**Esquema de Saída:**
+## Process
 
-- Defina `outputSchema` sempre que possível para dados estruturados
-- Use `structuredContent` nas respostas da ferramenta (recurso TypeScript SDK)
-- Ajuda os clientes a entender e processar as saídas da ferramenta
+## 🚀 High-Level Workflow
 
-**Descrição da Ferramenta:**
+Creating a high-quality MCP server involves four main phases:
 
-- Resumo conciso da funcionalidade
-- Descrições de parâmetros
-- Esquema do tipo de retorno
+### Phase 1: Deep Research and Planning
 
-**Implementação:**
+#### 1.1 Understand Modern MCP Design
 
-- Async/await para operações de E/S
-- Tratamento de erros adequado com mensagens acionáveis
-- Suporte a paginação onde aplicável
-- Retorne tanto conteúdo de texto quanto dados estruturados ao usar SDKs modernos
+**API Coverage vs. Workflow Tools:**
+Balance comprehensive API endpoint coverage with specialized workflow tools. Workflow tools can be more convenient for specific tasks, while comprehensive coverage gives agents flexibility to compose operations. Performance varies by client—some clients benefit from code execution that combines basic tools, while others work better with higher-level workflows. When uncertain, prioritize comprehensive API coverage.
 
-**Anotações:**
+**Tool Naming and Discoverability:**
+Clear, descriptive tool names help agents find the right tools quickly. Use consistent prefixes (e.g., `github_create_issue`, `github_list_repos`) and action-oriented naming.
 
+**Context Management:**
+Agents benefit from concise tool descriptions and the ability to filter/paginate results. Design tools that return focused, relevant data. Some clients support code execution which can help agents filter and process data efficiently.
+
+**Actionable Error Messages:**
+Error messages should guide agents toward solutions with specific suggestions and next steps.
+
+#### 1.2 Study MCP Protocol Documentation
+
+**Navigate the MCP specification:**
+
+Start with the sitemap to find relevant pages: `https://modelcontextprotocol.io/sitemap.xml`
+
+Then fetch specific pages with `.md` suffix for markdown format (e.g., `https://modelcontextprotocol.io/specification/draft.md`).
+
+Key pages to review:
+- Specification overview and architecture
+- Transport mechanisms (streamable HTTP, stdio)
+- Tool, resource, and prompt definitions
+
+#### 1.3 Study Framework Documentation
+
+**Language Selection:**
+
+| Language | Best For | SDK |
+|----------|----------|-----|
+| **TypeScript** (recommended) | General MCP servers, broad compatibility | `@modelcontextprotocol/sdk` |
+| **Python** | Data/ML pipelines, FastAPI integration | `mcp` (FastMCP) |
+| **C#/.NET** | Azure/Microsoft ecosystem, enterprise | `Microsoft.Mcp.Core` |
+
+**Transport Selection:**
+
+| Transport | Use Case | Characteristics |
+|-----------|----------|-----------------|
+| **Streamable HTTP** | Remote servers, multi-tenant, Agent Service | Stateless, scalable, requires auth |
+| **stdio** | Local servers, desktop apps | Simple, single-user, no network |
+
+**Load framework documentation:**
+
+- **MCP Best Practices**: [📋 View Best Practices](./reference/mcp_best_practices.md) - Core guidelines
+
+**For TypeScript (recommended):**
+- **TypeScript SDK**: Use WebFetch to load `https://raw.githubusercontent.com/modelcontextprotocol/typescript-sdk/main/README.md`
+- [⚡ TypeScript Guide](./reference/node_mcp_server.md) - TypeScript patterns and examples
+
+**For Python:**
+- **Python SDK**: Use WebFetch to load `https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/main/README.md`
+- [🐍 Python Guide](./reference/python_mcp_server.md) - Python patterns and examples
+
+**For C#/.NET (Microsoft ecosystem):**
+- [🔷 Microsoft MCP Patterns](./reference/microsoft_mcp_patterns.md) - C# patterns, Azure MCP architecture, command hierarchy
+
+#### 1.4 Plan Your Implementation
+
+**Understand the API:**
+Review the service's API documentation to identify key endpoints, authentication requirements, and data models. Use web search and WebFetch as needed.
+
+**Tool Selection:**
+Prioritize comprehensive API coverage. List endpoints to implement, starting with the most common operations.
+
+---
+
+### Phase 2: Implementation
+
+#### 2.1 Set Up Project Structure
+
+See language-specific guides for project setup:
+- [⚡ TypeScript Guide](./reference/node_mcp_server.md) - Project structure, package.json, tsconfig.json
+- [🐍 Python Guide](./reference/python_mcp_server.md) - Module organization, dependencies
+- [🔷 Microsoft MCP Patterns](./reference/microsoft_mcp_patterns.md) - C# project structure, command hierarchy
+
+#### 2.2 Implement Core Infrastructure
+
+Create shared utilities:
+- API client with authentication
+- Error handling helpers
+- Response formatting (JSON/Markdown)
+- Pagination support
+
+#### 2.3 Implement Tools
+
+For each tool:
+
+**Input Schema:**
+- Use Zod (TypeScript) or Pydantic (Python)
+- Include constraints and clear descriptions
+- Add examples in field descriptions
+
+**Output Schema:**
+- Define `outputSchema` where possible for structured data
+- Use `structuredContent` in tool responses (TypeScript SDK feature)
+- Helps clients understand and process tool outputs
+
+**Tool Description:**
+- Concise summary of functionality
+- Parameter descriptions
+- Return type schema
+
+**Implementation:**
+- Async/await for I/O operations
+- Proper error handling with actionable messages
+- Support pagination where applicable
+- Return both text content and structured data when using modern SDKs
+
+**Annotations:**
 - `readOnlyHint`: true/false
 - `destructiveHint`: true/false
 - `idempotentHint`: true/false
@@ -135,121 +175,129 @@ Para cada ferramenta:
 
 ---
 
-### Fase 3: Revisão e Teste
+### Phase 3: Review and Test
 
-#### 3.1 Qualidade do Código
+#### 3.1 Code Quality
 
-Revise para:
+Review for:
+- No duplicated code (DRY principle)
+- Consistent error handling
+- Full type coverage
+- Clear tool descriptions
 
-- Sem código duplicado (princípio DRY)
-- Tratamento de erros consistente
-- Cobertura de tipo completa
-- Descrições de ferramentas claras
-
-#### 3.2 Construir e Testar
+#### 3.2 Build and Test
 
 **TypeScript:**
-
-- Execute `npm run build` para verificar a compilação
-- Teste com MCP Inspector: `npx @modelcontextprotocol/inspector`
+- Run `npm run build` to verify compilation
+- Test with MCP Inspector: `npx @modelcontextprotocol/inspector`
 
 **Python:**
+- Verify syntax: `python -m py_compile your_server.py`
+- Test with MCP Inspector
 
-- Verifique a sintaxe: `python -m py_compile your_server.py`
-- Teste com MCP Inspector
-
-Veja os guias específicos da linguagem para abordagens de teste detalhadas e listas de verificação de qualidade.
+See language-specific guides for detailed testing approaches and quality checklists.
 
 ---
 
-### Fase 4: Criar Avaliações
+### Phase 4: Create Evaluations
 
-Após implementar seu servidor MCP, crie avaliações abrangentes para testar sua eficácia.
+After implementing your MCP server, create comprehensive evaluations to test its effectiveness.
 
-**Carregue [✅ Guia de Avaliação](./reference/evaluation.md) para diretrizes de avaliação completas.**
+**Load [✅ Evaluation Guide](./reference/evaluation.md) for complete evaluation guidelines.**
 
-#### 4.1 Entenda o Objetivo da Avaliação
+#### 4.1 Understand Evaluation Purpose
 
-Use avaliações para testar se os LLMs podem usar efetivamente seu servidor MCP para responder a perguntas realistas e complexas.
+Use evaluations to test whether LLMs can effectively use your MCP server to answer realistic, complex questions.
 
-#### 4.2 Crie 10 Perguntas de Avaliação
+#### 4.2 Create 10 Evaluation Questions
 
-Para criar avaliações eficazes, siga o processo descrito no guia de avaliação:
+To create effective evaluations, follow the process outlined in the evaluation guide:
 
-1. **Inspeção de Ferramentas**: Liste as ferramentas disponíveis e entenda suas capacidades
-2. **Exploração de Conteúdo**: Use operações SOMENTE LEITURA para explorar os dados disponíveis
-3. **Geração de Perguntas**: Crie 10 perguntas complexas e realistas
-4. **Verificação de Resposta**: Resolva cada pergunta você mesmo para verificar as respostas
+1. **Tool Inspection**: List available tools and understand their capabilities
+2. **Content Exploration**: Use READ-ONLY operations to explore available data
+3. **Question Generation**: Create 10 complex, realistic questions
+4. **Answer Verification**: Solve each question yourself to verify answers
 
-#### 4.3 Requisitos de Avaliação
+#### 4.3 Evaluation Requirements
 
-Certifique-se de que cada pergunta seja:
+Ensure each question is:
+- **Independent**: Not dependent on other questions
+- **Read-only**: Only non-destructive operations required
+- **Complex**: Requiring multiple tool calls and deep exploration
+- **Realistic**: Based on real use cases humans would care about
+- **Verifiable**: Single, clear answer that can be verified by string comparison
+- **Stable**: Answer won't change over time
 
-- **Independente**: Não dependente de outras perguntas
-- **Somente leitura**: Apenas operações não destrutivas necessárias
-- **Complexa**: Exigindo múltiplas chamadas de ferramenta e exploração profunda
-- **Realista**: Baseada em casos de uso reais com os quais os humanos se importariam
-- **Verificável**: Resposta única e clara que pode ser verificada por comparação de strings
-- **Estável**: A resposta não mudará com o tempo
+#### 4.4 Output Format
 
-#### 4.4 Formato de Saída
-
-Crie um arquivo XML com esta estrutura:
+Create an XML file with this structure:
 
 ```xml
 <evaluation>
   <qa_pair>
-    <question>Encontre discussões sobre lançamentos de modelos de IA com codinomes de animais. Um modelo precisava de uma designação de segurança específica que usa o formato ASL-X. Qual número X estava sendo determinado para o modelo nomeado após um gato selvagem malhado?</question>
+    <question>Find discussions about AI model launches with animal codenames. One model needed a specific safety designation that uses the format ASL-X. What number X was being determined for the model named after a spotted wild cat?</question>
     <answer>3</answer>
   </qa_pair>
-<!-- Mais qa_pairs... -->
+<!-- More qa_pairs... -->
 </evaluation>
 ```
 
 ---
 
-# Arquivos de Referência
+## Reference Files
 
-## 📚 Biblioteca de Documentação
+## 📚 Documentation Library
 
-Carregue esses recursos conforme necessário durante o desenvolvimento:
+Load these resources as needed during development:
 
-### Documentação Principal do MCP (Carregar Primeiro)
+### Core MCP Documentation (Load First)
+- **MCP Protocol**: Start with sitemap at `https://modelcontextprotocol.io/sitemap.xml`, then fetch specific pages with `.md` suffix
+- [📋 MCP Best Practices](./reference/mcp_best_practices.md) - Universal MCP guidelines including:
+  - Server and tool naming conventions
+  - Response format guidelines (JSON vs Markdown)
+  - Pagination best practices
+  - Transport selection (streamable HTTP vs stdio)
+  - Security and error handling standards
 
-- **Protocolo MCP**: Comece com o sitemap em `https://modelcontextprotocol.io/sitemap.xml`, depois busque páginas específicas com sufixo `.md`
-- [📋 Melhores Práticas MCP](./reference/mcp_best_practices.md) - Diretrizes universais MCP, incluindo:
-  - Convenções de nomenclatura de servidor e ferramenta
-  - Diretrizes de formato de resposta (JSON vs Markdown)
-  - Melhores práticas de paginação
-  - Seleção de transporte (HTTP streamable vs stdio)
-  - Padrões de segurança e tratamento de erros
+### Microsoft MCP Documentation (For Azure/Foundry)
+- [🔷 Microsoft MCP Patterns](./reference/microsoft_mcp_patterns.md) - Microsoft-specific patterns including:
+  - Azure MCP Server architecture (48+ Azure services)
+  - C#/.NET command implementation patterns
+  - Remote MCP with Foundry Agent Service
+  - Authentication (Entra ID, OBO flow, Managed Identity)
+  - Testing infrastructure with Bicep templates
 
-### Documentação SDK (Carregar Durante a Fase 1/2)
+### SDK Documentation (Load During Phase 1/2)
+- **Python SDK**: Fetch from `https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/main/README.md`
+- **TypeScript SDK**: Fetch from `https://raw.githubusercontent.com/modelcontextprotocol/typescript-sdk/main/README.md`
+- **Microsoft MCP SDK**: See [Microsoft MCP Patterns](./reference/microsoft_mcp_patterns.md) for C#/.NET
 
-- **Python SDK**: Busque em `https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/main/README.md`
-- **TypeScript SDK**: Busque em `https://raw.githubusercontent.com/modelcontextprotocol/typescript-sdk/main/README.md`
+### Language-Specific Implementation Guides (Load During Phase 2)
+- [🐍 Python Implementation Guide](./reference/python_mcp_server.md) - Complete Python/FastMCP guide with:
+  - Server initialization patterns
+  - Pydantic model examples
+  - Tool registration with `@mcp.tool`
+  - Complete working examples
+  - Quality checklist
 
-### Guias de Implementação Específicos da Linguagem (Carregar Durante a Fase 2)
+- [⚡ TypeScript Implementation Guide](./reference/node_mcp_server.md) - Complete TypeScript guide with:
+  - Project structure
+  - Zod schema patterns
+  - Tool registration with `server.registerTool`
+  - Complete working examples
+  - Quality checklist
 
-- [🐍 Guia de Implementação Python](./reference/python_mcp_server.md) - Guia completo Python/FastMCP com:
-  - Padrões de inicialização de servidor
-  - Exemplos de modelo Pydantic
-  - Registro de ferramenta com `@mcp.tool`
-  - Exemplos de trabalho completos
-  - Lista de verificação de qualidade
+- [🔷 Microsoft MCP Patterns](./reference/microsoft_mcp_patterns.md) - Complete C#/.NET guide with:
+  - Command hierarchy (BaseCommand → GlobalCommand → SubscriptionCommand)
+  - Naming conventions (`{Resource}{Operation}Command`)
+  - Option handling with `.AsRequired()` / `.AsOptional()`
+  - Azure Functions remote MCP deployment
+  - Live test patterns with Bicep
 
-- [⚡ Guia de Implementação TypeScript](./reference/node_mcp_server.md) - Guia completo TypeScript com:
-  - Estrutura do projeto
-  - Padrões de esquema Zod
-  - Registro de ferramenta com `server.registerTool`
-  - Exemplos de trabalho completos
-  - Lista de verificação de qualidade
-
-### Guia de Avaliação (Carregar Durante a Fase 4)
-
-- [✅ Guia de Avaliação](./reference/evaluation.md) - Guia completo de criação de avaliação com:
-  - Diretrizes de criação de perguntas
-  - Estratégias de verificação de resposta
-  - Especificações de formato XML
-  - Perguntas e respostas de exemplo
-  - Executando uma avaliação com os scripts fornecidos
+### Evaluation Guide (Load During Phase 4)
+- [✅ Evaluation Guide](./reference/evaluation.md) - Complete evaluation creation guide with:
+  - Question creation guidelines
+  - Answer verification strategies
+  - XML format specifications
+  - Example questions and answers
+  - Running an evaluation with the provided scripts

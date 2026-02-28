@@ -1,14 +1,15 @@
 ---
 name: pipedrive-automation
-description: "Automate Pipedrive CRM operations including deals, contacts, organizations, activities, notes, and pipeline management via Rube MCP (Composio). Always search tools first for current schemas."
-risk: unknown
-source: community
-date_added: "2026-02-27"
+description: Automate Pipedrive CRM operations including deals, contacts, organizations, activities, notes, and pipeline management via Rube MCP (Composio). Always search tools first for current schemas.
+requires:
+  mcp: [rube]
 ---
 
 # Pipedrive Automation via Rube MCP
 
 Automate Pipedrive CRM workflows including deal management, contact and organization operations, activity scheduling, notes, and pipeline/stage queries through Composio's Pipedrive toolkit.
+
+**Toolkit docs**: [composio.dev/toolkits/pipedrive](https://composio.dev/toolkits/pipedrive)
 
 ## Prerequisites
 
@@ -19,7 +20,6 @@ Automate Pipedrive CRM workflows including deal management, contact and organiza
 ## Setup
 
 **Get Rube MCP**: Add `https://rube.app/mcp` as an MCP server in your client configuration. No API keys needed — just add the endpoint and it works.
-
 
 1. Verify Rube MCP is available by confirming `RUBE_SEARCH_TOOLS` responds
 2. Call `RUBE_MANAGE_CONNECTIONS` with toolkit `pipedrive`
@@ -224,5 +224,5 @@ Most list endpoints use offset-based pagination:
 | Deals in stage | `PIPEDRIVE_GET_DEALS_IN_A_STAGE` | `id`, `start`, `limit` |
 | Add product to deal | `PIPEDRIVE_ADD_A_PRODUCT_TO_A_DEAL` | `id`, `product_id`, `item_price` |
 
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+---
+*Powered by [Composio](https://composio.dev)*

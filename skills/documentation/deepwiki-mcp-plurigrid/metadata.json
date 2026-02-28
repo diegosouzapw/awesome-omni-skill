@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/plurigrid/asi",
   "author": "plurigrid",
   "author_avatar": "https://github.com/plurigrid.png",
-  "file_path": "ies/music-topos/.codex/skills/deepwiki-mcp/SKILL.md",
+  "file_path": "ies/music-topos/.ruler/skills/deepwiki-mcp/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 41,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "c9764562d247d0eae1593c14790bf441d53cdeb0f7cb58b8f9cd2997086235b2",
-  "indexed_at": "2026-02-26T17:32:08.503Z",
-  "synced_at": "2026-02-28T04:26:25.910Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fbbd78eea5ef84c16c037e8103ca29288fa2a2161400a5636d6106de9499ca2f",
-  "install_command": "mkdir -p .claude/skills/deepwiki-mcp && curl -sL \"https://raw.githubusercontent.com/plurigrid/asi/main/ies/music-topos/.codex/skills/deepwiki-mcp/SKILL.md\" > .claude/skills/deepwiki-mcp/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/plurigrid/asi/main/ies/music-topos/.codex/skills/deepwiki-mcp/SKILL.md"
+  "content_hash": "2fa32c96ae1631d7bc0ceb4199aba57954a29f8a59c4b8798054d1f848b827fa",
+  "indexed_at": "2026-02-28T17:47:30.766Z",
+  "synced_at": "2026-02-28T18:11:20.318Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ce7b2afb199154a2898159c4818d19acf1ae10a5c619a6a06899a840f7a22bfe",
+  "install_command": "mkdir -p .claude/skills/deepwiki-mcp && curl -sL \"https://raw.githubusercontent.com/plurigrid/asi/main/ies/music-topos/.ruler/skills/deepwiki-mcp/SKILL.md\" > .claude/skills/deepwiki-mcp/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/plurigrid/asi/main/ies/music-topos/.ruler/skills/deepwiki-mcp/SKILL.md"
 }

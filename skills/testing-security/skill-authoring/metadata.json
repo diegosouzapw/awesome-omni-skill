@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/z3z1ma/agent-loom",
   "author": "z3z1ma",
   "author_avatar": "https://github.com/z3z1ma.png",
-  "file_path": "src/agent_loom/pack/packs/loom-compound-core/files/.claude/skills/skill-authoring/SKILL.md",
+  "file_path": "src/agent_loom/pack/packs/loom-compound-core/files/.opencode/skills/skill-authoring/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "fbedb9235c18a9323965000512f46029a32a7f18ecefb6b35291c965052d5595",
-  "indexed_at": "2026-02-27T15:06:12.816Z",
-  "synced_at": "2026-02-28T04:07:11.975Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a63731820fc3785b28719c666607fff4acfbd824c252096ff292dd8be53da6e1",
-  "install_command": "mkdir -p .claude/skills/skill-authoring && curl -sL \"https://raw.githubusercontent.com/z3z1ma/agent-loom/main/src/agent_loom/pack/packs/loom-compound-core/files/.claude/skills/skill-authoring/SKILL.md\" > .claude/skills/skill-authoring/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/z3z1ma/agent-loom/main/src/agent_loom/pack/packs/loom-compound-core/files/.claude/skills/skill-authoring/SKILL.md"
+  "content_hash": "28e591bdfdcd6a7c4fb6689eb2e87bb64a6fc91632854f48cdb03d19b42380e9",
+  "indexed_at": "2026-02-28T15:50:43.699Z",
+  "synced_at": "2026-02-28T18:11:13.666Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ee8e8f6700a5c41f5100e1b6db492fdf246f7e5c4c6c79a46383488d55d9b514",
+  "install_command": "mkdir -p .claude/skills/skill-authoring && curl -sL \"https://raw.githubusercontent.com/z3z1ma/agent-loom/main/src/agent_loom/pack/packs/loom-compound-core/files/.opencode/skills/skill-authoring/SKILL.md\" > .claude/skills/skill-authoring/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/z3z1ma/agent-loom/main/src/agent_loom/pack/packs/loom-compound-core/files/.opencode/skills/skill-authoring/SKILL.md"
 }

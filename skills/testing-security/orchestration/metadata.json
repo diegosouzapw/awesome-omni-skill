@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/sebastianspicker/phased-agent-orchestration",
   "author": "sebastianspicker",
   "author_avatar": "https://github.com/sebastianspicker.png",
-  "file_path": ".codex/skills/orchestration/SKILL.md",
+  "file_path": "adapters/templates/skills/orchestration/SKILL.md.tmpl",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": false,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "f1bf199b009e4e69f8cdab0d975206556e0ede28403351644b4620b1d4514ecf",
-  "indexed_at": "2026-02-26T14:21:22.902Z",
-  "synced_at": "2026-02-28T04:07:50.147Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/03fd4a0a99b1e5cf5a867f95e27fff0807c2913d38aedf64263d17957fb53d7c",
-  "install_command": "mkdir -p .claude/skills/orchestration && curl -sL \"https://raw.githubusercontent.com/sebastianspicker/phased-agent-orchestration/main/.codex/skills/orchestration/SKILL.md\" > .claude/skills/orchestration/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/sebastianspicker/phased-agent-orchestration/main/.codex/skills/orchestration/SKILL.md"
+  "content_hash": "f8534e822713dba1195ce0272f97f779c039f2872145ce70aae67ffa4927fae2",
+  "indexed_at": "2026-02-28T13:47:29.054Z",
+  "synced_at": "2026-02-28T18:11:14.275Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/22bfcbced0b86d8af584a4972c98acb00cd9bceeea5298c571f9ba2134a7c412",
+  "install_command": "mkdir -p .claude/skills/orchestration && curl -sL \"https://raw.githubusercontent.com/sebastianspicker/phased-agent-orchestration/main/adapters/templates/skills/orchestration/SKILL.md.tmpl/SKILL.md\" > .claude/skills/orchestration/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/sebastianspicker/phased-agent-orchestration/main/adapters/templates/skills/orchestration/SKILL.md.tmpl/SKILL.md"
 }

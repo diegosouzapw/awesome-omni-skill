@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/create-latex-notes/SKILL.md",
+  "file_path": "skills/documents/create-latex-notes-mandrianova-create-latex-notes/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "2490365dfa16aebec27dae3aab073727f6c70693010b97b5deea00ab2b8ce152",
-  "indexed_at": "2026-02-27T15:08:32.020Z",
-  "synced_at": "2026-02-28T04:26:19.555Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b3d257ded505dc442244bb4db2003edbf617a7bacbceffd06cf116b94de6f2e7",
-  "install_command": "mkdir -p .claude/skills/create-latex-notes && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/create-latex-notes/SKILL.md\" > .claude/skills/create-latex-notes/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/create-latex-notes/SKILL.md"
+  "content_hash": "b91843f993f6e21d82554eac052a91c4f8debd0e95bead756aa835ea4409197b",
+  "indexed_at": "2026-02-28T15:50:51.607Z",
+  "synced_at": "2026-02-28T18:11:19.486Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f07e478423b11a0311065d3c97aae3e92c1cfc25805b3516a8b8a1a21246a675",
+  "install_command": "mkdir -p .claude/skills/create-latex-notes && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/documents/create-latex-notes-mandrianova-create-latex-notes/SKILL.md\" > .claude/skills/create-latex-notes/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/documents/create-latex-notes-mandrianova-create-latex-notes/SKILL.md"
 }

@@ -1,232 +1,400 @@
 ---
 name: brainstorming
-description: "Use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reasoning and collaboration."
-risk: unknown
-source: community
-date_added: "2026-02-27"
+description: 当用户明确要求"使用 brainstorming"或"使用 awesome-code"时使用。⚠️ 不适用：用户只是想优化/改进某个功能（应直接修改）、只是询问技能问题（应直接回答）、没有明确使用 brainstorming/awesome-code 的一般性开发。
+metadata:
+  short-description: 交互式设计优化
+  keywords:
+    - brainstorming
+    - awesome-code
+    - 交互式设计
+  category: 设计
+  author: Bensz Conan
+  platform: Claude Code | OpenAI Codex | ChatGPT
+  iron-law: |
+    NO IMPLEMENTATION WITHOUT DESIGN DISCUSSION FIRST
 ---
 
-# Brainstorming Ideas Into Designs
+# Brainstorming - 交互式设计优化
 
-## Purpose
+## 铁律
 
-Turn raw ideas into **clear, validated designs and specifications**
-through structured dialogue **before any implementation begins**.
+```
+NO IMPLEMENTATION WITHOUT DESIGN DISCUSSION FIRST
+```
 
-This skill exists to prevent:
-- premature implementation
-- hidden assumptions
-- misaligned solutions
-- fragile systems
+**违反规则的信件就是违反规则的精神。**
 
-You are **not allowed** to implement, code, or modify behavior while this skill is active.
-
----
-
-## Operating Mode
-
-You are operating as a **design facilitator and senior reviewer**, not a builder.
-
-- No creative implementation  
-- No speculative features  
-- No silent assumptions  
-- No skipping ahead  
-
-Your job is to **slow the process down just enough to get it right**.
+**无例外**：
+- 不跳过设计阶段直接编码
+- 不基于模糊需求直接实现
+- 不在用户确认前开始编码
+- YAGNI（You Aren't Gonna Need It）无情移除非必要功能
 
 ---
 
-## The Process
+## 常见合理化
 
-### 1️⃣ Understand the Current Context (Mandatory First Step)
-
-Before asking any questions:
-
-- Review the current project state (if available):
-  - files
-  - documentation
-  - plans
-  - prior decisions
-- Identify what already exists vs. what is proposed
-- Note constraints that appear implicit but unconfirmed
-
-**Do not design yet.**
+| 借口 | 现实 |
+|------|------|
+| "需求很明确，直接开始" | 需求"明确"≠需求"正确"。误解成本高于设计讨论成本 |
+| "先写个原型再说" | 无设计的原型=技术债。重构比从头设计更难 |
+| "用户没时间讨论" | 宁可等待也不浪费开发时间。错误实现浪费双方时间 |
+| "这很简单不需要设计" | 简单功能也可能有复杂交互。设计5分钟节省调试5小时 |
+| "我理解用户意图" | 你理解的≠用户想要的。确认总比假设好 |
 
 ---
 
-### 2️⃣ Understanding the Idea (One Question at a Time)
+## 红色标志 - 停止并重新开始
 
-Your goal here is **shared clarity**, not speed.
+- "需求很明确，直接开始"
+- "先写个原型再说"
+- "用户没时间讨论"
+- "这很简单不需要设计"
+- "我理解用户意图"
+- 跳过设计讨论直接编码
 
-**Rules:**
-
-- Ask **one question per message**
-- Prefer **multiple-choice questions** when possible
-- Use open-ended questions only when necessary
-- If a topic needs depth, split it into multiple questions
-
-Focus on understanding:
-
-- purpose  
-- target users  
-- constraints  
-- success criteria  
-- explicit non-goals  
+**所有这些意味着：停止编码。回到设计讨论阶段。**
 
 ---
 
-### 3️⃣ Non-Functional Requirements (Mandatory)
+## 核心原则
 
-You MUST explicitly clarify or propose assumptions for:
+**Brainstorming** 是一种通过**苏格拉底式提问**来探索用户意图、明确需求、对比方案的设计方法。
 
-- Performance expectations  
-- Scale (users, data, traffic)  
-- Security or privacy constraints  
-- Reliability / availability needs  
-- Maintenance and ownership expectations  
+```
+┌─────────────────────────────────────────────────────────┐
+│  理解项目状态 → 逐一提问 → 探索方案 → 分段呈现 → 保存设计  │
+└─────────────────────────────────────────────────────────┘
+```
 
-If the user is unsure:
-
-- Propose reasonable defaults  
-- Clearly mark them as **assumptions**
-
----
-
-### 4️⃣ Understanding Lock (Hard Gate)
-
-Before proposing **any design**, you MUST pause and do the following:
-
-#### Understanding Summary
-Provide a concise summary (5–7 bullets) covering:
-- What is being built  
-- Why it exists  
-- Who it is for  
-- Key constraints  
-- Explicit non-goals  
-
-#### Assumptions
-List all assumptions explicitly.
-
-#### Open Questions
-List unresolved questions, if any.
-
-Then ask:
-
-> “Does this accurately reflect your intent?  
-> Please confirm or correct anything before we move to design.”
-
-**Do NOT proceed until explicit confirmation is given.**
+**核心原则**：
+- **一次一个问题**：不要用多个问题压倒用户
+- **多选题优先**：选择题比开放式问题更容易回答
+- **探索替代方案**：在确定前总是提出 2-3 个方案
+- **增量验证**：分段展示设计，逐段确认
+- **YAGNI 无情**：从所有设计中移除非必要功能
 
 ---
 
-### 5️⃣ Explore Design Approaches
+## 工作流程
 
-Once understanding is confirmed:
+### 步骤 1：理解项目状态
 
-- Propose **2–3 viable approaches**
-- Lead with your **recommended option**
-- Explain trade-offs clearly:
-  - complexity
-  - extensibility
-  - risk
-  - maintenance
-- Avoid premature optimization (**YAGNI ruthlessly**)
+**在提问前**，先检查：
 
-This is still **not** final design.
+1. **项目结构**
+   ```bash
+   ls -la
+   find . -name "*.md" -o -name "*.txt" | head -20
+   ```
 
----
+2. **现有文档**
+   - README.md 是否存在？
+   - 是否有 docs/ 目录？
+   - 是否有设计文档？
 
-### 6️⃣ Present the Design (Incrementally)
+3. **最近提交**
+   ```bash
+   git log --oneline -10
+   git diff HEAD~1
+   ```
 
-When presenting the design:
-
-- Break it into sections of **200–300 words max**
-- After each section, ask:
-
-  > “Does this look right so far?”
-
-Cover, as relevant:
-
-- Architecture  
-- Components  
-- Data flow  
-- Error handling  
-- Edge cases  
-- Testing strategy  
+**目标**：建立上下文，避免重复提问
 
 ---
 
-### 7️⃣ Decision Log (Mandatory)
+### 步骤 2：逐一提问
 
-Maintain a running **Decision Log** throughout the design discussion.
+**提问原则**：
 
-For each decision:
-- What was decided  
-- Alternatives considered  
-- Why this option was chosen  
+1. **一次只问一个问题**
+   - ❌ 坏："你需要什么功能？用什么技术栈？什么时候完成？"
+   - ✅ 好："你想要实现什么功能？"
 
-This log should be preserved for documentation.
+2. **优先选择题**
+   - ❌ 坏："你需要什么类型的用户认证？"
+   - ✅ 好："用户认证你希望用哪一种？"
+     - A. JWT Token（推荐：无状态、跨平台）
+     - B. Session Cookie（简单：传统 Web 应用）
+     - C. OAuth 第三方登录（社交登录场景）
+     - D. 其他（请说明）
 
----
-
-## After the Design
-
-### 📄 Documentation
-
-Once the design is validated:
-
-- Write the final design to a durable, shared format (e.g. Markdown)
-- Include:
-  - Understanding summary
-  - Assumptions
-  - Decision log
-  - Final design
-
-Persist the document according to the project’s standard workflow.
-
----
-
-### 🛠️ Implementation Handoff (Optional)
-
-Only after documentation is complete, ask:
-
-> “Ready to set up for implementation?”
-
-If yes:
-- Create an explicit implementation plan
-- Isolate work if the workflow supports it
-- Proceed incrementally
+3. **探索替代方案**
+   - ❌ 坏："好的，我们用 JWT 实现。"
+   - ✅ 好："对于用户认证，我建议考虑以下方案："
+     - **方案 A：JWT Token**（推荐）
+       - 优势：无状态、跨平台、移动端友好
+       - 劣势：需要管理过期和刷新
+     - **方案 B：Session Cookie**
+       - 优势：简单、服务器控制
+       - 劣势：有状态、不适合微服务
+     - **方案 C：无认证**（如果适用）
+       - 优势：最简单
+       - 劣势：无安全控制
+     - **推荐方案 A**，因为你的项目需要支持移动端。
 
 ---
 
-## Exit Criteria (Hard Stop Conditions)
+### 步骤 3：分段呈现设计
 
-You may exit brainstorming mode **only when all of the following are true**:
+**每次 200-300 词，每段后确认**：
 
-- Understanding Lock has been confirmed  
-- At least one design approach is explicitly accepted  
-- Major assumptions are documented  
-- Key risks are acknowledged  
-- Decision Log is complete  
+```markdown
+## 设计文档 - [功能名称]
 
-If any criterion is unmet:
-- Continue refinement  
-- **Do NOT proceed to implementation**
+### 概述
+
+[200-300 词的功能概述]
+
+**这段描述是否正确？**
+
+### 数据模型
+
+[200-300 词的数据模型设计]
+
+**这个数据模型是否满足你的需求？**
+
+### API 设计
+
+[200-300 词的 API 设计]
+
+**这些接口是否足够？还需要其他接口吗？**
+
+### 技术选型
+
+[200-300 词的技术选型说明]
+
+**你同意这个技术栈吗？有其他偏好吗？**
+```
+
+**关键点**：
+- ✅ 每段后等待用户确认
+- ✅ 用粗体标记问题
+- ✅ 提供具体示例
+- ❌ 不一次性呈现完整设计
 
 ---
 
-## Key Principles (Non-Negotiable)
+### 步骤 4：YAGNI 无情移除
 
-- One question at a time  
-- Assumptions must be explicit  
-- Explore alternatives  
-- Validate incrementally  
-- Prefer clarity over cleverness  
-- Be willing to go back and clarify  
-- **YAGNI ruthlessly**
+**在最终确认前**，主动提问：
+
+```markdown
+## YAGNI 检查
+
+我注意到设计中包含了以下功能：
+- [ ] 功能 A
+- [ ] 功能 B
+- [ ] 功能 C
+
+**问题**：
+1. 功能 A 是否是 MVP 必需？能否延后到 v2.0？
+2. 功能 B 是否有真实使用场景？还是"可能有需要"？
+3. 功能 C 是否简化了？能否用更简单的方案替代？
+
+**YAGNI 原则**：只实现当前明确需要的功能。
+```
+
+**实践要点**：
+- ✅ 主动质疑每个功能
+- ✅ 提供"延后实现"选项
+- ✅ 推荐最简单可行方案
+- ❌ 不保留"可能有需要"的功能
 
 ---
-If the design is high-impact, high-risk, or requires elevated confidence, you MUST hand off the finalized design and Decision Log to the `multi-agent-brainstorming` skill before implementation.
 
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+### 步骤 5：保存设计文档
+
+**设计确认后**，保存到 `docs/plans/`：
+
+```bash
+# 创建目录
+mkdir -p docs/plans
+
+# 保存设计文档
+docs/plans/YYYY-MM-DD--[feature-name]-design.md
+```
+
+**文档模板**：
+
+```markdown
+# [功能名称] 设计文档
+
+**创建日期**：YYYY-MM-DD
+**状态**：已确认 / 待确认
+
+## 概述
+[功能概述]
+
+## 需求
+[用户需求]
+
+## 方案对比
+### 方案 A
+- 优势：
+- 劣势：
+
+### 方案 B
+- 优势：
+- 劣势：
+
+**选择方案 A，因为...**
+
+## 数据模型
+[数据模型设计]
+
+## API 设计
+[API 接口设计]
+
+## 技术选型
+[技术栈选择]
+
+## 实现计划
+[简要实现步骤]
+
+## YAGNI 移除项
+以下功能考虑过但移除：
+- 功能 X：原因...
+- 功能 Y：原因...
+
+---
+**设计者**：AI Agent
+**确认者**：用户
+```
+
+---
+
+## 何时使用本技能
+
+在以下场景时激活：
+
+- 🎨 **创建新功能**：任何新功能开发前
+- 🔧 **修改现有行为**：改变功能行为前
+- 🏗️ **构建新组件**：UI/架构组件设计前
+- 📋 **添加功能**：任何代码编写前
+- 🤔 **需求不明确**：用户需求模糊时
+
+**何时不需要使用**：
+- ❌ 修复 Bug（使用 systematic-debugging）
+- ❌ 重构代码（已有设计，只需优化）
+- ❌ 简单重命名（ trivial 变更）
+- ❌ 文档更新（非功能性变更）
+
+---
+
+## 提问模板库
+
+### 功能需求提问
+
+```
+你想要实现什么功能？
+
+A. 用户可以 [具体行为]（推荐）
+B. 系统自动 [具体行为]
+C. 其他（请说明）
+
+这个功能的主要用户是谁？
+A. 终端用户（推荐：关注易用性）
+B. 管理员（推荐：关注效率）
+C. 开发者（推荐：关注可扩展性）
+```
+
+### 技术选型提问
+
+```
+对于 [功能]，我建议考虑以下方案：
+
+**方案 A：[技术1]**（推荐）
+- 优势：[具体优势]
+- 劣势：[具体劣势]
+
+**方案 B：[技术2]**
+- 优势：[具体优势]
+- 劣势：[具体劣势]
+
+你倾向于哪个方案？或者有其他想法？
+```
+
+### YAGNI 检查提问
+
+```
+我注意到设计中包含了 [功能 X]。
+
+**问题**：这个功能是否是 MVP 必需？
+A. 是的，必须有（请说明原因）
+B. 可以延后到 v2.0（推荐：简化 MVP）
+C. 完全不需要（YAGNI：移除）
+```
+
+---
+
+## 常见问题
+
+### Q1: 用户说"没时间讨论"怎么办？
+
+**A**: 宁可等待也不浪费开发时间。
+
+**回应策略**：
+```markdown
+我理解时间紧迫。但错误实现浪费的时间远超设计讨论时间。
+
+我建议：
+1. 用 5 分钟快速确认核心需求（只问关键问题）
+2. 我提供 2-3 个方案供你选择（选择题，快速决策）
+3. 确认后立即开始实现
+
+这样可以避免"开发两周后发现方向错误"的情况。
+```
+
+### Q2: 用户说"你看着办"怎么办？
+
+**A**: "看着办"≠"任意办"。仍需确认核心决策。
+
+**回应策略**：
+```markdown
+我理解你希望我自主决策。但在开始前，我需要确认几个关键点：
+
+1. **核心目标**：这个功能主要解决什么问题？
+2. **约束条件**：有时间/技术/资源限制吗？
+3. **优先级**：速度优先还是质量优先？
+
+确认这些后，我会提供完整的设计方案供你确认。
+```
+
+### Q3: 设计讨论需要多长时间？
+
+**A**:
+- **简单功能**：5-10 分钟（3-5 个问题）
+- **中等功能**：15-20 分钟（5-10 个问题）
+- **复杂功能**：30+ 分钟（多轮讨论）
+
+**节省时间技巧**：
+- 使用选择题（快速响应）
+- 分段确认（避免返工）
+- YAGNI 移除（减少实现时间）
+
+---
+
+## 验证清单
+
+设计确认后，检查：
+
+- [ ] 用户需求已明确
+- [ ] 已探索 2-3 个替代方案
+- [ ] 用户已确认选择方案
+- [ ] 数据模型已设计
+- [ ] API 接口已定义
+- [ ] 技术选型已确认
+- [ ] YAGNI 检查已完成（移除非必要功能）
+- [ ] 设计文档已保存到 `docs/plans/`
+- [ ] 用户已最终确认设计
+
+---
+
+## 相关参考
+
+- [writing-plans](../writing-plans/SKILL.md) - 设计确认后，编写详细实现计划
+- [tdd-workflow](../tdd-workflow/SKILL.md) - 使用 TDD 实现设计
+- [systematic-debugging](../systematic-debugging/SKILL.md) - 调试实现中的问题
+
+**注意**：`writing-plans` 技能需要配合 `executing-plans` 或 `subagent-driven-development` 使用。

@@ -1,14 +1,12 @@
 ---
 name: seo-meta-optimizer
-description: |
-  Creates optimized meta titles, descriptions, and URL suggestions
-  based on character limits and best practices. Generates compelling,
-  keyword-rich metadata. Use PROACTIVELY for new content.
-metadata:
-  model: haiku
-risk: unknown
-source: community
+description: You are a meta tag optimization specialist creating compelling metadata within best practice guidelines. 
+category: Business & Marketing
+source: antigravity
+tags: [ai, workflow, seo]
+url: https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/seo-meta-optimizer
 ---
+
 
 ## Use this skill when
 

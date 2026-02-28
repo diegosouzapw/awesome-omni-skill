@@ -1,161 +1,155 @@
 ---
 name: geo-fundamentals
-description: "Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity)."
-risk: unknown
-source: community
-date_added: "2026-02-27"
+description: Otimização de Motores Generativos (GEO) para mecanismos de busca de IA (ChatGPT, Claude, Perplexity).
+allowed-tools: Read, Glob, Grep
 ---
 
-# GEO Fundamentals
+# Fundamentos de GEO
 
-> Optimization for AI-powered search engines.
+> Otimização para mecanismos de busca movidos por IA.
 
 ---
 
-## 1. What is GEO?
+## 1. O que é GEO?
 
-**GEO** = Generative Engine Optimization
+**GEO** = Generative Engine Optimization (Otimização de Motores Generativos)
 
-| Goal | Platform |
-|------|----------|
-| Be cited in AI responses | ChatGPT, Claude, Perplexity, Gemini |
+| Objetivo | Plataforma |
+| :--- | :--- |
+| Ser citado nas respostas da IA | ChatGPT, Claude, Perplexity, Gemini |
 
 ### SEO vs GEO
 
-| Aspect | SEO | GEO |
-|--------|-----|-----|
-| Goal | #1 ranking | AI citations |
-| Platform | Google | AI engines |
-| Metrics | Rankings, CTR | Citation rate |
-| Focus | Keywords | Entities, data |
+| Aspecto | SEO | GEO |
+| :--- | :--- | :--- |
+| Objetivo | Ranking #1 | Citações da IA |
+| Plataforma | Google | Motores de IA |
+| Métricas | Rankings, CTR | Taxa de citação |
+| Foco | Palavras-chave | Entidades, dados |
 
 ---
 
-## 2. AI Engine Landscape
+## 2. Panorama dos Motores de IA
 
-| Engine | Citation Style | Opportunity |
-|--------|----------------|-------------|
-| **Perplexity** | Numbered [1][2] | Highest citation rate |
-| **ChatGPT** | Inline/footnotes | Custom GPTs |
-| **Claude** | Contextual | Long-form content |
-| **Gemini** | Sources section | SEO crossover |
-
----
-
-## 3. RAG Retrieval Factors
-
-How AI engines select content to cite:
-
-| Factor | Weight |
-|--------|--------|
-| Semantic relevance | ~40% |
-| Keyword match | ~20% |
-| Authority signals | ~15% |
-| Freshness | ~10% |
-| Source diversity | ~15% |
+| Motor | Estilo de Citação | Oportunidade |
+| :--- | :--- | :--- |
+| **Perplexity** | Numerado [1][2] | Maior taxa de citação |
+| **ChatGPT** | Inline/Rodapés | GPTs customizados |
+| **Claude** | Contextual | Conteúdo longo |
+| **Gemini** | Seção de fontes | Cruzamento com SEO |
 
 ---
 
-## 4. Content That Gets Cited
+## 3. Fatores de Recuperação RAG
 
-| Element | Why It Works |
-|---------|--------------|
-| **Original statistics** | Unique, citable data |
-| **Expert quotes** | Authority transfer |
-| **Clear definitions** | Easy to extract |
-| **Step-by-step guides** | Actionable value |
-| **Comparison tables** | Structured info |
-| **FAQ sections** | Direct answers |
+Como os motores de IA selecionam o conteúdo para citar:
 
----
-
-## 5. GEO Content Checklist
-
-### Content Elements
-
-- [ ] Question-based titles
-- [ ] Summary/TL;DR at top
-- [ ] Original data with sources
-- [ ] Expert quotes (name, title)
-- [ ] FAQ section (3-5 Q&A)
-- [ ] Clear definitions
-- [ ] "Last updated" timestamp
-- [ ] Author with credentials
-
-### Technical Elements
-
-- [ ] Article schema with dates
-- [ ] Person schema for author
-- [ ] FAQPage schema
-- [ ] Fast loading (< 2.5s)
-- [ ] Clean HTML structure
+| Fator | Peso |
+| :--- | :--- |
+| Relevância semântica | ~40% |
+| Correspondência de palavra-chave | ~20% |
+| Sinais de autoridade | ~15% |
+| Atualidade (Freshness) | ~10% |
+| Diversidade de fontes | ~15% |
 
 ---
 
-## 6. Entity Building
+## 4. Conteúdo que é Citado
 
-| Action | Purpose |
-|--------|---------|
-| Google Knowledge Panel | Entity recognition |
-| Wikipedia (if notable) | Authority source |
-| Consistent info across web | Entity consolidation |
-| Industry mentions | Authority signals |
+| Elemento | Por que Funciona |
+| :--- | :--- |
+| **Estatísticas originais** | Dados únicos e citáveis |
+| **Citações de especialistas** | Transferência de autoridade |
+| **Definições claras** | Fácil de extrair |
+| **Guias passo a passo** | Valor acionável |
+| **Tabelas de comparação** | Informação estruturada |
+| **Seções de FAQ** | Respostas diretas |
 
 ---
 
-## 7. AI Crawler Access
+## 5. Checklist de Conteúdo GEO
 
-### Key AI User-Agents
+### Elementos de Conteúdo
 
-| Crawler | Engine |
-|---------|--------|
+- [ ] Títulos baseados em perguntas.
+- [ ] Resumo/TL;DR (Too Long; Didn't Read) no topo.
+- [ ] Dados originais com fontes.
+- [ ] Citações de especialistas (nome, cargo).
+- [ ] Seção de FAQ (3-5 perguntas e respostas).
+- [ ] Definições claras.
+- [ ] Carimbo de data "Última atualização".
+- [ ] Autor com credenciais.
+
+### Elementos Técnicos
+
+- [ ] Schema de Artigo com datas.
+- [ ] Schema de Pessoa para o autor.
+- [ ] Schema de FAQPage.
+- [ ] Carregamento rápido (< 2.5s).
+- [ ] Estrutura HTML limpa.
+
+---
+
+## 6. Construção de Entidade
+
+| Ação | Propósito |
+| :--- | :--- |
+| Painel de Conhecimento do Google | Reconhecimento de entidade |
+| Wikipedia (se notable/notável) | Fonte de autoridade |
+| Informação consistente na web | Consolidação de entidade |
+| Menções na indústria | Sinais de autoridade |
+
+---
+
+## 7. Acesso de Crawlers de IA
+
+### Principais User-Agents de IA
+
+| Crawler | Motor |
+| :--- | :--- |
 | GPTBot | ChatGPT/OpenAI |
 | Claude-Web | Claude |
 | PerplexityBot | Perplexity |
-| Googlebot | Gemini (shared) |
+| Googlebot | Gemini (compartilhado) |
 
-### Access Decision
+### Decisão de Acesso
 
-| Strategy | When |
-|----------|------|
-| Allow all | Want AI citations |
-| Block GPTBot | Don't want OpenAI training |
-| Selective | Allow some, block others |
-
----
-
-## 8. Measurement
-
-| Metric | How to Track |
-|--------|--------------|
-| AI citations | Manual monitoring |
-| "According to [Brand]" mentions | Search in AI |
-| Competitor citations | Compare share |
-| AI-referred traffic | UTM parameters |
+| Estratégia | Quando |
+| :--- | :--- |
+| Permitir tudo | Deseja citações da IA |
+| Bloquear GPTBot | Não quer treinamento da OpenAI |
+| Seletivo | Permitir alguns, bloquear outros |
 
 ---
 
-## 9. Anti-Patterns
+## 8. Mensuração
 
-| ❌ Don't | ✅ Do |
-|----------|-------|
-| Publish without dates | Add timestamps |
-| Vague attributions | Name sources |
-| Skip author info | Show credentials |
-| Thin content | Comprehensive coverage |
+| Métrica | Como Rastrear |
+| :--- | :--- |
+| Citações da IA | Monitoramento manual |
+| Menções "De acordo com [Marca]" | Busca na IA |
+| Citações de concorrentes | Comparação de share |
+| Tráfego via IA | Parâmetros UTM |
 
 ---
 
-> **Remember:** AI cites content that's clear, authoritative, and easy to extract. Be the best answer.
+## 9. Anti-Padrões
+
+| ❌ NÃO Faça | ✅ Faça |
+| :--- | :--- |
+| Publicar sem datas | Adicione carimbos de data |
+| Atribuições vagas | Nomeie as fontes |
+| Pular info do autor | Mostre as credenciais |
+| Conteúdo raso | Cobertura abrangente |
+
+---
+
+> **Lembre-se:** A IA cita conteúdo que é claro, autoritativo e fácil de extrair. Seja a melhor resposta.
 
 ---
 
 ## Script
 
-| Script | Purpose | Command |
-|--------|---------|---------|
-| `scripts/geo_checker.py` | GEO audit (AI citation readiness) | `python scripts/geo_checker.py <project_path>` |
-
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+| Script | Propósito | Comando |
+| :--- | :--- | :--- |
+| `scripts/geo_checker.py` | Auditoria de GEO (Prontidão para citação por IA) | `python scripts/geo_checker.py <caminho_do_projeto>` |

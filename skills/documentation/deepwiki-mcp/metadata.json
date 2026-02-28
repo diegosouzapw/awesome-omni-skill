@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/other/deepwiki-mcp/SKILL.md",
+  "file_path": "skills/data/deepwiki-mcp/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 44,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "e3c31f926aeb61f5f18faa57dc5549a00e276a305edc75c9b3d795add6a954cd",
-  "indexed_at": "2026-02-26T17:32:30.600Z",
-  "synced_at": "2026-02-28T04:26:23.255Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5f78267219fcfea4ada4f75e8745541187e566ae8d182a8db32f3798b9b56f23",
-  "install_command": "mkdir -p .claude/skills/deepwiki-mcp && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/deepwiki-mcp/SKILL.md\" > .claude/skills/deepwiki-mcp/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/deepwiki-mcp/SKILL.md"
+  "content_hash": "016d54aba6ad099a848446717c7cdf24db953453c5f8b1723bb6bcc49a77ee42",
+  "indexed_at": "2026-02-28T17:47:38.225Z",
+  "synced_at": "2026-02-28T18:11:20.099Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/729fe1fb1d07c6d8848218ac7be2dbd1a04525c6713ccda54931acc164bd45a4",
+  "install_command": "mkdir -p .claude/skills/deepwiki-mcp && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/deepwiki-mcp/SKILL.md\" > .claude/skills/deepwiki-mcp/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/deepwiki-mcp/SKILL.md"
 }

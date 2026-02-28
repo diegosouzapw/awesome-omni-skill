@@ -3,8 +3,8 @@
   "description": "Agent skill for security-manager - invoke with $agent-security-manager",
   "category": "testing-security",
   "canonical_category": "testing-security",
-  "repository": "ruvnet/claude-flow",
-  "repository_url": "https://github.com/ruvnet/claude-flow",
+  "repository": "ruvnet/ruflo",
+  "repository_url": "https://github.com/ruvnet/ruflo",
   "author": "ruvnet",
   "author_avatar": "https://github.com/ruvnet.png",
   "file_path": ".agents/skills/agent-security-manager/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "d9a70a50a8b64c5d6e974ab867464282d4a5f92d481b7a570e67eab9e9627e92",
-  "indexed_at": "2026-02-26T09:45:08.459Z",
-  "synced_at": "2026-02-28T04:08:08.315Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1a0bdd60223daff8965b2463df6c9192298558257439588d3b46338d92358ef2",
-  "install_command": "mkdir -p .claude/skills/agent-security-manager && curl -sL \"https://raw.githubusercontent.com/ruvnet/claude-flow/main/.agents/skills/agent-security-manager/SKILL.md\" > .claude/skills/agent-security-manager/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/ruvnet/claude-flow/main/.agents/skills/agent-security-manager/SKILL.md"
+  "content_hash": "8ed069f5e198b7818b824ebe278f74f1d391674561f2f130c63a04fe5ee09f20",
+  "indexed_at": "2026-02-28T13:54:27.605Z",
+  "synced_at": "2026-02-28T18:11:16.368Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/92de9439414fbfb8fe59af6ca951fb9ffecbc38b9d8c1f135053910f233cc93c",
+  "install_command": "mkdir -p .claude/skills/agent-security-manager && curl -sL \"https://raw.githubusercontent.com/ruvnet/ruflo/main/.agents/skills/agent-security-manager/SKILL.md\" > .claude/skills/agent-security-manager/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/ruvnet/ruflo/main/.agents/skills/agent-security-manager/SKILL.md"
 }
