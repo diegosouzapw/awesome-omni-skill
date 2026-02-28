@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "668d5a4895c0171f967d8c190039af70371e50a8d9c415329463d8f7688b4f1a",
   "indexed_at": "2026-02-25T17:54:04.834Z",
-  "synced_at": "2026-02-27T02:36:28.092Z",
+  "synced_at": "2026-02-28T04:04:20.764Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e796bd6f8ea8e0383c26a575902f07276870f1ced00fa42b3520d72fc3e1210c",
   "install_command": "mkdir -p .claude/skills/fastapi-templates && curl -sL \"https://raw.githubusercontent.com/lCoNDel/shimmer.llm/main/proyectos/.llm/repositorio/fastapi-templates/SKILL.md\" > .claude/skills/fastapi-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lCoNDel/shimmer.llm/main/proyectos/.llm/repositorio/fastapi-templates/SKILL.md"

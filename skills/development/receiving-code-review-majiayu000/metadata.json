@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry-data",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "other/other/receiving-code-review-jarredkenny-agency-ai/SKILL.md",
+  "file_path": "other/other/receiving-code-review-jarredkenny-agency-ai-2/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 38,
@@ -17,10 +17,10 @@
   "has_scripts": false,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "8b0d3e0fa0ef38df23a0fabd868bb76d55fe22ab46926297ef16cc8a0e78fe9f",
-  "indexed_at": "2026-02-25T15:57:14.814Z",
-  "synced_at": "2026-02-27T02:35:51.087Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eea04063c14ca1456b2919d9edf8f802881d788cc372baec5a48e5afec437457",
-  "install_command": "mkdir -p .claude/skills/receiving-code-review && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/receiving-code-review-jarredkenny-agency-ai/SKILL.md\" > .claude/skills/receiving-code-review/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/receiving-code-review-jarredkenny-agency-ai/SKILL.md"
+  "content_hash": "81939e20e8da22470c82aa4387d62343066f8bc80e6a627c07651f432b58f328",
+  "indexed_at": "2026-02-27T22:23:24.663Z",
+  "synced_at": "2026-02-28T04:04:06.621Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed71e9cdc657b8264d675d79bedb4000d2b13441a4dc5aa363d0d4dd7b914162",
+  "install_command": "mkdir -p .claude/skills/receiving-code-review && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/receiving-code-review-jarredkenny-agency-ai-2/SKILL.md\" > .claude/skills/receiving-code-review/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/receiving-code-review-jarredkenny-agency-ai-2/SKILL.md"
 }

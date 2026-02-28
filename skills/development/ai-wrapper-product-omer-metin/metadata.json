@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c1e120ba914c36d42b9c01ede5d14d424e691dceabbb70c36008f1c1c1262516",
   "indexed_at": "2026-02-27T16:11:40.885Z",
-  "synced_at": "2026-02-27T18:16:57.549Z",
+  "synced_at": "2026-02-28T04:04:04.829Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c5f86db524a847551907195f3d82e38b61c4834b0ce68bf3f2c16e202569422e",
   "install_command": "mkdir -p .claude/skills/ai-wrapper-product && curl -sL \"https://raw.githubusercontent.com/omer-metin/skills-for-antigravity/main/skills/ai-wrapper-product/SKILL.md\" > .claude/skills/ai-wrapper-product/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/omer-metin/skills-for-antigravity/main/skills/ai-wrapper-product/SKILL.md"

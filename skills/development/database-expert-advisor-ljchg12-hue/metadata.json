@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9892d07a8c16ad73c4c5f8a185d36d11039f5f474ce09faeb7609bf953bfe2fd",
   "indexed_at": "2026-02-26T08:53:16.195Z",
-  "synced_at": "2026-02-27T02:36:21.615Z",
+  "synced_at": "2026-02-28T04:04:14.152Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3bf42c7e063ec3c7f397ac7348e87f97352158272a0573c888a9080a06018540",
   "install_command": "mkdir -p .claude/skills/database-expert-advisor && curl -sL \"https://raw.githubusercontent.com/ljchg12-hue/dotfiles/main/skills/database-expert-advisor/SKILL.md\" > .claude/skills/database-expert-advisor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ljchg12-hue/dotfiles/main/skills/database-expert-advisor/SKILL.md"

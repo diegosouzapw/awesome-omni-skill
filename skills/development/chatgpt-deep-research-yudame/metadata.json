@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6bd5306480805dc1101b27efe8a196c30f1db855cad18473f6c9e1c8d3604fda",
   "indexed_at": "2026-02-26T16:02:22.723Z",
-  "synced_at": "2026-02-27T02:36:11.670Z",
+  "synced_at": "2026-02-28T04:03:58.159Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ea68a7c178788f01a43edd6a947b88d7e0b80350432bbad179eba96c50725011",
   "install_command": "mkdir -p .claude/skills/chatgpt-deep-research && curl -sL \"https://raw.githubusercontent.com/yudame/research/main/.claude/skills/chatgpt-deep-research/SKILL.md\" > .claude/skills/chatgpt-deep-research/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yudame/research/main/.claude/skills/chatgpt-deep-research/SKILL.md"

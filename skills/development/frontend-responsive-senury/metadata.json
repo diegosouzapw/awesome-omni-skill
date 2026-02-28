@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6125e6f52b313957d619acb88773608bdb45576d1b999c21149a8c8022b5cca9",
   "indexed_at": "2026-02-26T06:50:32.456Z",
-  "synced_at": "2026-02-27T02:36:02.607Z",
+  "synced_at": "2026-02-28T04:03:49.658Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e023a311e3c37f1391edb41d4f41ae8b5a4135746468c00dbafcff3f0e1d4e86",
   "install_command": "mkdir -p .claude/skills/frontend-responsive && curl -sL \"https://raw.githubusercontent.com/Senury/lawyer-ai/main/.claude/skills/frontend-responsive/SKILL.md\" > .claude/skills/frontend-responsive/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Senury/lawyer-ai/main/.claude/skills/frontend-responsive/SKILL.md"

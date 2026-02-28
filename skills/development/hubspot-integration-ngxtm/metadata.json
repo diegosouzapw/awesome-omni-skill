@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5ae79a263abc185f1ffedf19e39fa23b92a4a81b8371f237b359cda0f9beedd6",
   "indexed_at": "2026-02-25T17:39:43.011Z",
-  "synced_at": "2026-02-27T02:36:27.566Z",
+  "synced_at": "2026-02-28T04:04:20.268Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/692687e94dc0c439b4713ca36fc56caccc164c3baa3506256697987d18b5a428",
   "install_command": "mkdir -p .claude/skills/hubspot-integration && curl -sL \"https://raw.githubusercontent.com/ngxtm/devkit/main/skills/hubspot-integration/SKILL.md\" > .claude/skills/hubspot-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ngxtm/devkit/main/skills/hubspot-integration/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0f5cb085e9ce0a890ff2b5d033073a92bd0585069b6fcc27abd3caa34d27aeef",
   "indexed_at": "2026-02-26T05:42:16.665Z",
-  "synced_at": "2026-02-27T02:35:56.538Z",
+  "synced_at": "2026-02-28T04:03:43.978Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a688d854a56263be98fc38429928fa912b7d258309dd21674c364415dda2df63",
   "install_command": "mkdir -p .claude/skills/performance-optimization && curl -sL \"https://raw.githubusercontent.com/ihj04982/my-cursor-settings/main/skills/performance-optimization/SKILL.md\" > .claude/skills/performance-optimization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ihj04982/my-cursor-settings/main/skills/performance-optimization/SKILL.md"

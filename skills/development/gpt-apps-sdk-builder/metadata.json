@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4b3180254ba988f0caceed9ece703bddb027e0284ef0a8df9574f7f74e1e0905",
   "indexed_at": "2026-02-27T16:56:09.186Z",
-  "synced_at": "2026-02-27T18:16:57.778Z",
+  "synced_at": "2026-02-28T04:04:05.178Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4507c627f700e1a8302eb3b9f3cabc77600851ba90661fbe752c16f070ee1d3d",
   "install_command": "mkdir -p .claude/skills/gpt-apps-sdk-builder && curl -sL \"https://raw.githubusercontent.com/cruujon/SubsidyPayment/main/.trae/skills/gpt-apps-sdk-builder/SKILL.md\" > .claude/skills/gpt-apps-sdk-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cruujon/SubsidyPayment/main/.trae/skills/gpt-apps-sdk-builder/SKILL.md"

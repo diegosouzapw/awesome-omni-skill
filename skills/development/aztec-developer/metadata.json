@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6391292e4e39b9087b92e887976fd4a5b69716ef7317009f30ab7cb01497cd96",
   "indexed_at": "2026-02-25T12:35:51.766Z",
-  "synced_at": "2026-02-27T02:36:43.178Z",
+  "synced_at": "2026-02-28T04:04:39.806Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8fd3fee167b16191b8e8e75e3871d791e342ec6f9fa413576cd2254cb6fefa2c",
   "install_command": "mkdir -p .claude/skills/aztec-developer && curl -sL \"https://raw.githubusercontent.com/jp4g/aztec-claude-skill/main/SKILL.md\" > .claude/skills/aztec-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jp4g/aztec-claude-skill/main/SKILL.md"

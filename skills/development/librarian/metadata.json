@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b23be0d28ee7d899567f683f7d53f88a91ec07e0726b4587f2f8f135d5b4b787",
   "indexed_at": "2026-02-26T10:51:09.638Z",
-  "synced_at": "2026-02-27T02:36:07.613Z",
+  "synced_at": "2026-02-28T04:03:54.495Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f3ca4e77b2a0f80afea0acb9ff34e6001f7f3692bc5079db9bc5bf822ef19639",
   "install_command": "mkdir -p .claude/skills/librarian && curl -sL \"https://raw.githubusercontent.com/cdman28/antigravity-devkit/main/.agent/skills/librarian/SKILL.md\" > .claude/skills/librarian/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cdman28/antigravity-devkit/main/.agent/skills/librarian/SKILL.md"

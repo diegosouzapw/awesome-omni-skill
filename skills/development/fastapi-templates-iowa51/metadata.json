@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9be65a3b8f615ed866ed5ef4e4fa746b828ac1ad35ee57adce5ff306f5440424",
   "indexed_at": "2026-02-25T18:52:30.619Z",
-  "synced_at": "2026-02-27T02:36:28.316Z",
+  "synced_at": "2026-02-28T04:04:20.932Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3bb0bd0f30afb2364638311706c259142d3e0ee6f164c039cc1210c5c6d58bd9",
   "install_command": "mkdir -p .claude/skills/fastapi-templates && curl -sL \"https://raw.githubusercontent.com/Iowa51/ChartSparkOG/main/agent/skills/awesome/fastapi-templates/SKILL.md\" > .claude/skills/fastapi-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Iowa51/ChartSparkOG/main/agent/skills/awesome/fastapi-templates/SKILL.md"

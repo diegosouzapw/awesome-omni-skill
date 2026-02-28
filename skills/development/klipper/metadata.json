@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "695485648d2a7a86c2964b0bb75edc344189f50a87bdcb5c496b77027874f57d",
   "indexed_at": "2026-02-26T19:31:16.749Z",
-  "synced_at": "2026-02-27T02:36:23.339Z",
+  "synced_at": "2026-02-28T04:04:15.834Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bc3e601cb51a573fa777c413f038359fd10756ad43a50e3a72db8a44ed536853",
   "install_command": "mkdir -p .claude/skills/klipper && curl -sL \"https://raw.githubusercontent.com/Brandawg93/clawhub-klipper/main/SKILL.md\" > .claude/skills/klipper/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Brandawg93/clawhub-klipper/main/SKILL.md"

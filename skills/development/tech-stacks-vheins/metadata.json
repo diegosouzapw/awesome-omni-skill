@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1121f5e4ba0c8871525111f8526f11dfd0736291c2307f1bdd6969292a7c91be",
   "indexed_at": "2026-02-26T12:22:23.778Z",
-  "synced_at": "2026-02-27T02:36:10.144Z",
+  "synced_at": "2026-02-28T04:03:56.836Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/335022b452cd409adca3de03e277ffeb33ef51bbc85df88ff02ee295f5764c24",
   "install_command": "mkdir -p .claude/skills/tech-stacks && curl -sL \"https://raw.githubusercontent.com/vheins/laravel-mcp-memory/main/.agent/skills/tech-stacks/SKILL.md\" > .claude/skills/tech-stacks/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/vheins/laravel-mcp-memory/main/.agent/skills/tech-stacks/SKILL.md"

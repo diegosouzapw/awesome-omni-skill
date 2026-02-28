@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "481664979a58df290695b5896490867950962a4793faa8a043b9132f48205523",
   "indexed_at": "2026-02-26T19:31:13.409Z",
-  "synced_at": "2026-02-27T02:36:35.751Z",
+  "synced_at": "2026-02-28T04:04:28.965Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/55148398096676082c74a10003b060d0be8136ad2ca4121ca8ca1abd721387b1",
   "install_command": "mkdir -p .claude/skills/skillhub && curl -sL \"https://raw.githubusercontent.com/Ray0907/skillhub/main/SKILL.md\" > .claude/skills/skillhub/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Ray0907/skillhub/main/SKILL.md"

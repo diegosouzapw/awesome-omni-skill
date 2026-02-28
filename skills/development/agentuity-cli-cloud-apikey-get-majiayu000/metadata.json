@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "119e34073ad561cb3e13921c37d147a56c8e1cb0692906e1c601fd89efe2997b",
   "indexed_at": "2026-02-25T18:53:01.305Z",
-  "synced_at": "2026-02-27T02:36:39.227Z",
+  "synced_at": "2026-02-28T04:04:34.761Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fe6822c503839941d974501e06b65f977f7bbda7bb8c9f3906e8e3099d99a326",
   "install_command": "mkdir -p .claude/skills/agentuity-cli-cloud-apikey-get && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/agentuity-cli-cloud-apikey-get/SKILL.md\" > .claude/skills/agentuity-cli-cloud-apikey-get/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/agentuity-cli-cloud-apikey-get/SKILL.md"

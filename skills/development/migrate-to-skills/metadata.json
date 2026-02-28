@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f5558ceabc305e6a1a1466c85f113c38537576f79f363a872d9e32b9dbebcdc3",
   "indexed_at": "2026-02-26T23:40:15.042Z",
-  "synced_at": "2026-02-27T02:36:43.506Z",
+  "synced_at": "2026-02-28T04:04:41.243Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9158f6cc2ff9942882203110a3edd50f0158ebcbe69859768cf8fdc4b9fb3d5b",
   "install_command": "mkdir -p .claude/skills/migrate-to-skills && curl -sL \"https://raw.githubusercontent.com/QkHearn/Photon/main/builtin_skills/migrate-to-skills/SKILL.md\" > .claude/skills/migrate-to-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/QkHearn/Photon/main/builtin_skills/migrate-to-skills/SKILL.md"

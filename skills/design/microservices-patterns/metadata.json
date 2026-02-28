@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "00ff568041e0f2e24768fbfdaee933d31126b04e428c201ddc6183f4e49e7858",
   "indexed_at": "2026-02-25T17:25:22.059Z",
-  "synced_at": "2026-02-27T02:36:49.241Z",
+  "synced_at": "2026-02-28T04:04:47.727Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f8d7f320651a7a4679988d15d9d5de652698d95e577892104cd282f6cfcd0524",
   "install_command": "mkdir -p .claude/skills/microservices-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/microservices-patterns/SKILL.md\" > .claude/skills/microservices-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/microservices-patterns/SKILL.md"

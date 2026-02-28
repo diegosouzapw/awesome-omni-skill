@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aa3aea7216a2addd2773fb238b689f0240612ee54192cb7844cecd0a4499bd4f",
   "indexed_at": "2026-02-25T17:54:02.818Z",
-  "synced_at": "2026-02-27T02:36:27.925Z",
+  "synced_at": "2026-02-28T04:04:20.587Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eb722a8932e3617687213315399d4912acd1f6f5020b91af1be0eedc18fbc809",
   "install_command": "mkdir -p .claude/skills/fastapi-templates && curl -sL \"https://raw.githubusercontent.com/Superesty/unified-ag-kit/main/library/skills/fastapi-templates/SKILL.md\" > .claude/skills/fastapi-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Superesty/unified-ag-kit/main/library/skills/fastapi-templates/SKILL.md"

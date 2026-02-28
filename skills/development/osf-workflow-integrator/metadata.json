@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b1ff16e8977a94c9e02ecaacbb7c6cdde00d8c2d824f91aae74e1b17f07a385d",
   "indexed_at": "2026-02-25T20:41:27.644Z",
-  "synced_at": "2026-02-27T02:36:40.711Z",
+  "synced_at": "2026-02-28T04:04:36.183Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4a4e401a118920bd8b1a35c4dd0bdeec24f5c38f817129ce60ab373b432b8445",
   "install_command": "mkdir -p .claude/skills/osf-workflow-integrator && curl -sL \"https://raw.githubusercontent.com/a5c-ai/babysitter/main/plugins/babysitter/skills/babysit/process/specializations/domains/science/scientific-discovery/skills/osf-workflow-integrator/SKILL.md\" > .claude/skills/osf-workflow-integrator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/a5c-ai/babysitter/main/plugins/babysitter/skills/babysit/process/specializations/domains/science/scientific-discovery/skills/osf-workflow-integrator/SKILL.md"

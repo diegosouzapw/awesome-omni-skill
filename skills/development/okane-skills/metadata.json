@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5e641f409d3e30cae19b37a8cbd3462cbceb0729e40e9a9ad36c8f551c496511",
   "indexed_at": "2026-02-26T11:16:01.766Z",
-  "synced_at": "2026-02-27T02:36:08.137Z",
+  "synced_at": "2026-02-28T04:03:54.843Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/53458e2788c40e7ab21a2363dad38d2c5d8eafc75008adc6aa647e26df6221fe",
   "install_command": "mkdir -p .claude/skills/okane-skills && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/inoue2002/okane-skills/okane-skills/SKILL.md\" > .claude/skills/okane-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/inoue2002/okane-skills/okane-skills/SKILL.md"

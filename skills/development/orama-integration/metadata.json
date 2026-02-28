@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c6f2ac85b3c013f446eaae9b61f19b6e6c7c1b0b7c7e034275f5bc315469e077",
   "indexed_at": "2026-02-26T23:41:54.269Z",
-  "synced_at": "2026-02-27T02:36:36.276Z",
+  "synced_at": "2026-02-28T04:04:29.465Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/185c8741af2b69b680dbc3938a502543a5afeb93cb23ef2749ef20b1f2093cbc",
   "install_command": "mkdir -p .claude/skills/orama-integration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/testing/orama-integration-stackonehq-stackone-ai-node/SKILL.md\" > .claude/skills/orama-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/testing/orama-integration-stackonehq-stackone-ai-node/SKILL.md"

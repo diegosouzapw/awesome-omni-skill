@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f0e27225440bcf70cbc9c541b9a672f93d5f2cb2845837b568c62c5baeb1e5d4",
   "indexed_at": "2026-02-26T01:54:26.046Z",
-  "synced_at": "2026-02-27T02:35:55.973Z",
+  "synced_at": "2026-02-28T04:03:43.412Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0af97b519398a53088622203fe2e62a3d707bb02a7645ac489566440f6ec5337",
   "install_command": "mkdir -p .claude/skills/specs-status && curl -sL \"https://raw.githubusercontent.com/SangIlMo/.dotfiles/main/.claude/skills/specs-status/SKILL.md\" > .claude/skills/specs-status/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/SangIlMo/.dotfiles/main/.claude/skills/specs-status/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d047f5a3a85f6620339733e9567b7faa0615e4abfef266c9dd38ecabf7fd6ce1",
   "indexed_at": "2026-02-26T06:45:43.038Z",
-  "synced_at": "2026-02-27T02:36:32.225Z",
+  "synced_at": "2026-02-28T04:04:24.750Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fd419910f2553021889da59e88bf11dff66106f848caa2d290d128e37eb1851a",
   "install_command": "mkdir -p .claude/skills/frontend-css && curl -sL \"https://raw.githubusercontent.com/jeremyrdavis/coffeeshop26/main/.claude/skills/frontend-css/SKILL.md\" > .claude/skills/frontend-css/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jeremyrdavis/coffeeshop26/main/.claude/skills/frontend-css/SKILL.md"

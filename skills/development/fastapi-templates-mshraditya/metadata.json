@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "763411b7e9b9124bc6d748d08f7c0723930bcc90db81668546e63aba640dcc5a",
   "indexed_at": "2026-02-25T15:08:31.138Z",
-  "synced_at": "2026-02-27T02:36:25.635Z",
+  "synced_at": "2026-02-28T04:04:18.222Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/92198c5aa0eee5d24af2658ecafef98259ff82c0d2a23fb906ac0b9e8b90e33b",
   "install_command": "mkdir -p .claude/skills/fastapi-templates && curl -sL \"https://raw.githubusercontent.com/mshraditya/SkillsForAgentRegistry/main/skills/fastapi-templates/SKILL.md\" > .claude/skills/fastapi-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mshraditya/SkillsForAgentRegistry/main/skills/fastapi-templates/SKILL.md"

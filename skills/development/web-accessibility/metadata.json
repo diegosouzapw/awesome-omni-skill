@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f9e281dc6f7239206c8adb3841f3c7752394ec2c28e7f73cf648b5fdaa38fecc",
   "indexed_at": "2026-02-25T16:09:23.920Z",
-  "synced_at": "2026-02-27T02:35:51.637Z",
+  "synced_at": "2026-02-28T04:03:38.928Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7245facacb954de88de6364e5ca290d0aece43c69be376ecde11c6d608d39345",
   "install_command": "mkdir -p .claude/skills/web-accessibility && curl -sL \"https://raw.githubusercontent.com/itsmepratikg/MapRecruit.ai-TypeScript/main/.maprecruit-skills/web-accessibility/SKILL.md\" > .claude/skills/web-accessibility/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/itsmepratikg/MapRecruit.ai-TypeScript/main/.maprecruit-skills/web-accessibility/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7402be0402533a4636ffb1df99aa3f0c5303f268533a83865515a81f4e5c5e7c",
   "indexed_at": "2026-02-25T17:09:29.167Z",
-  "synced_at": "2026-02-27T02:35:52.132Z",
+  "synced_at": "2026-02-28T04:03:39.452Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5fb781fccf715c768a5fe20e59370a84104a89081bee2e32a57ec8c0a4eece9e",
   "install_command": "mkdir -p .claude/skills/bio-epitranscriptomics-modification-visualization && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/bio-epitranscriptomics-modification-visualization/SKILL.md\" > .claude/skills/bio-epitranscriptomics-modification-visualization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/bio-epitranscriptomics-modification-visualization/SKILL.md"

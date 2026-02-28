@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "68d71d4bb96b4991c3db5d0798f6a08345e9450809f791f4e4c4facbb1d9a605",
   "indexed_at": "2026-02-26T07:30:41.548Z",
-  "synced_at": "2026-02-27T02:36:04.355Z",
+  "synced_at": "2026-02-28T04:03:51.334Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/62d88fbd495cbc3f17cf44660ad904b24d0deffb610a595233b513448e814782",
   "install_command": "mkdir -p .claude/skills/ui-engineering && curl -sL \"https://raw.githubusercontent.com/yzfly/pro-ui-engineering-skill/main/SKILL.md\" > .claude/skills/ui-engineering/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yzfly/pro-ui-engineering-skill/main/SKILL.md"

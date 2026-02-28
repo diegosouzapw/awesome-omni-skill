@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "894e7d79114e1de005fb88466c28e0a5e7895d8e183cec163df74bc68e77db0b",
   "indexed_at": "2026-02-25T14:06:49.087Z",
-  "synced_at": "2026-02-27T02:35:50.127Z",
+  "synced_at": "2026-02-28T04:03:37.405Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5e9d2a8a0dedfa0525fb7ec5415ed8461aeb4c938c44b4748aee3905832a46cb",
   "install_command": "mkdir -p .claude/skills/sqlmodel-task-models && curl -sL \"https://raw.githubusercontent.com/QasimHussain21/Giaic-hackathon/main/Hackathon 2 phase V/.claude/skills/sqlmodel-task-models/SKILL.md\" > .claude/skills/sqlmodel-task-models/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/QasimHussain21/Giaic-hackathon/main/Hackathon 2 phase V/.claude/skills/sqlmodel-task-models/SKILL.md"

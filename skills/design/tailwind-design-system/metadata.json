@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "10e9dc0f41715de798936c2e10ebd70921ddc514fd90677951aa3e170325902b",
   "indexed_at": "2026-02-25T19:23:54.319Z",
-  "synced_at": "2026-02-27T02:36:48.319Z",
+  "synced_at": "2026-02-28T04:04:46.797Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ac62c0e148b5da1b6ce53e9b37f4c9109b9f2c9c67af3d6586ee06339da3d056",
   "install_command": "mkdir -p .claude/skills/tailwind-design-system && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/tailwind-design-system/SKILL.md\" > .claude/skills/tailwind-design-system/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/tailwind-design-system/SKILL.md"

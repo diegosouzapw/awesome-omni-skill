@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "24c10aa6f7030decead94ed46aaf9d8939f75b474bbdf9bbd1e0bc575b9b2155",
   "indexed_at": "2026-02-26T12:01:31.638Z",
-  "synced_at": "2026-02-27T02:36:09.629Z",
+  "synced_at": "2026-02-28T04:03:56.317Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/38225ee814683adb439208a8e48227e83b9a0c2b1d054b84ad8519c4c0b4d4b0",
   "install_command": "mkdir -p .claude/skills/md-to-image && curl -sL \"https://raw.githubusercontent.com/ZaynJarvis/md-img-skill/main/SKILL.md\" > .claude/skills/md-to-image/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ZaynJarvis/md-img-skill/main/SKILL.md"

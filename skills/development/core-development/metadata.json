@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6bb06de2970f29c0c3b55ea60a15d80ca3dbb4d0f586c5667c4c722c41463838",
   "indexed_at": "2026-02-26T06:50:01.131Z",
-  "synced_at": "2026-02-27T02:36:02.150Z",
+  "synced_at": "2026-02-28T04:03:49.205Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3e9f7eb27daeb75543f1c0a1155389dca70e16b3638581b6b7733fd1dd0ef3e5",
   "install_command": "mkdir -p .claude/skills/core-development && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/core-development-pluginagentmarketpla-custom-plugin-cloudf/SKILL.md\" > .claude/skills/core-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/core-development-pluginagentmarketpla-custom-plugin-cloudf/SKILL.md"

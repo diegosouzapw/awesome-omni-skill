@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "544dcff4236bdf41d8134de6f522cd824cdd54074d144ed81739348a90ab51ba",
   "indexed_at": "2026-02-25T16:23:45.336Z",
-  "synced_at": "2026-02-27T02:36:50.699Z",
+  "synced_at": "2026-02-28T04:04:49.037Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1432c9bfe30243bb6456b8ddce06be6b123c5551fef1e3349fd5872e2ad73221",
   "install_command": "mkdir -p .claude/skills/ddd-strategic-design && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/ddd-strategic-design/SKILL.md\" > .claude/skills/ddd-strategic-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/ddd-strategic-design/SKILL.md"

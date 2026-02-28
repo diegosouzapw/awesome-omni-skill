@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "29d7f1043b0f6a0827cf2c3e20d0c15af8967b47f9a4d82f656ce6d47ace5358",
   "indexed_at": "2026-02-26T07:56:23.045Z",
-  "synced_at": "2026-02-27T02:36:05.914Z",
+  "synced_at": "2026-02-28T04:03:52.933Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4b1b19d5ea55b808c7634bf5479db51f33eacbc0b4b7a97805d6edb588163ea1",
   "install_command": "mkdir -p .claude/skills/monday && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/codeninja23/native-monday/SKILL.md\" > .claude/skills/monday/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/codeninja23/native-monday/SKILL.md"

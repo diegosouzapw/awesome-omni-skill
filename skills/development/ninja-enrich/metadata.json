@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "583191d67d5575265473c547c80b1f3f1ad6b6f48da2609709e6b43ea5caae15",
   "indexed_at": "2026-02-26T19:10:52.584Z",
-  "synced_at": "2026-02-27T02:36:23.163Z",
+  "synced_at": "2026-02-28T04:04:15.650Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cb59d06bea4373bd285a2ab59e1c6b212e6bb7a1493be42120081b85182579cb",
   "install_command": "mkdir -p .claude/skills/ninja-enrich && curl -sL \"https://raw.githubusercontent.com/alistairhendersoninfo/ninja_toolbox/main/.claude/skills/ninja-enrich/SKILL.md\" > .claude/skills/ninja-enrich/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alistairhendersoninfo/ninja_toolbox/main/.claude/skills/ninja-enrich/SKILL.md"

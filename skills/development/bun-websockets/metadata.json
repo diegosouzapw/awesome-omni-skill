@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4dfb537738b87e7daa24e9ffdf6e62e9d82dcf6786029efc84d015625232afb8",
   "indexed_at": "2026-02-25T16:08:58.122Z",
-  "synced_at": "2026-02-27T02:35:51.472Z",
+  "synced_at": "2026-02-28T04:03:38.771Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6dd382bd4e91d799d48c5edd68f1019fea802e58b2a3f54a008876623486edab",
   "install_command": "mkdir -p .claude/skills/bun-websockets && curl -sL \"https://raw.githubusercontent.com/jarle/bun-skills/main/skills/bun-runtime-http-websockets/SKILL.md\" > .claude/skills/bun-websockets/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jarle/bun-skills/main/skills/bun-runtime-http-websockets/SKILL.md"

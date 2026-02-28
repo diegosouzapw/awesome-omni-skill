@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c1cb384437870aef6ac4e8d1f745fb6125b39cd313007f1ffc7073505ffb6578",
   "indexed_at": "2026-02-27T14:02:16.940Z",
-  "synced_at": "2026-02-27T18:16:56.211Z",
+  "synced_at": "2026-02-28T04:03:26.723Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6ab51868a3544dace2a81d14c8b0e76cd6b7271eb0e6630aa0be1427dff376bf",
   "install_command": "mkdir -p .claude/skills/workflow-coordinator && curl -sL \"https://raw.githubusercontent.com/longkeyy/software-dev-agents/main/skills/workflow-coordinator/SKILL.md\" > .claude/skills/workflow-coordinator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/longkeyy/software-dev-agents/main/skills/workflow-coordinator/SKILL.md"

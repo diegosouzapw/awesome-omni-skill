@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9e83074a0895335abcae6d92d4e6490542766bd7cc0b579f0426463dd62ada7c",
   "indexed_at": "2026-02-26T16:00:50.222Z",
-  "synced_at": "2026-02-27T02:36:11.493Z",
+  "synced_at": "2026-02-28T04:03:57.988Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/af5e2bd9d3158e0a6a9855b0f0c540078f3f0d57dc98e77c6c001f6ba9ba03e1",
   "install_command": "mkdir -p .claude/skills/chatgpt-app && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/chatgpt-app/SKILL.md\" > .claude/skills/chatgpt-app/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/chatgpt-app/SKILL.md"

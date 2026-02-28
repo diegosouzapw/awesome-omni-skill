@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3890420bb0ebee24c0b912b07042ab71b0ef963fac500634fcfa25a22ebde7a2",
   "indexed_at": "2026-02-26T07:51:32.604Z",
-  "synced_at": "2026-02-27T02:36:15.470Z",
+  "synced_at": "2026-02-28T04:04:07.975Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/25ba9f8a64fc29f8aaad8ef4d84c36d0e8f67b4b770b0f5f352bfa892e887aed",
   "install_command": "mkdir -p .claude/skills/api-designer && curl -sL \"https://raw.githubusercontent.com/farabi1038/farabi_gone_autonomous/main/agent_farabi/skills/bundled/coding/api-designer/SKILL.md\" > .claude/skills/api-designer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/farabi1038/farabi_gone_autonomous/main/agent_farabi/skills/bundled/coding/api-designer/SKILL.md"

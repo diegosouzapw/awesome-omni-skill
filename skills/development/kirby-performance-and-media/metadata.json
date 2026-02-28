@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "21799fe52170596b363c007f275de9dfec9fced4d1ad908bddab02985f49c483",
   "indexed_at": "2026-02-26T06:49:48.534Z",
-  "synced_at": "2026-02-27T02:36:01.748Z",
+  "synced_at": "2026-02-28T04:03:48.781Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d815575c17acb0b44b769162bf4404bdbc565bfb2d528430a941e7633b221901",
   "install_command": "mkdir -p .claude/skills/kirby-performance-and-media && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/kirby-performance-and-media/SKILL.md\" > .claude/skills/kirby-performance-and-media/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/kirby-performance-and-media/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7821d68395a7b77cd833fa0bcc02f60cf85ea3955e4056911fd02fbd0153ad98",
   "indexed_at": "2026-02-26T22:31:34.686Z",
-  "synced_at": "2026-02-27T02:36:38.702Z",
+  "synced_at": "2026-02-28T04:04:34.239Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/720aebdb6f3cab3e7ac0c4fb85ef804d4d274f0719ec5db86724b993acb45e8f",
   "install_command": "mkdir -p .claude/skills/dataverse-python && curl -sL \"https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/dataverse-python/SKILL.md\" > .claude/skills/dataverse-python/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/dataverse-python/SKILL.md"

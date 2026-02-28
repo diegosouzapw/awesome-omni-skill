@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d26c62ccf0ceac6cd6256c23b1baabacac9b82cd313ac0e4d2ddcd321581ecee",
   "indexed_at": "2026-02-26T07:45:21.491Z",
-  "synced_at": "2026-02-27T02:36:04.506Z",
+  "synced_at": "2026-02-28T04:03:51.482Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d4c5171865d3aef23183ceb2e9740674526a746c02711331859feeb8cd8d037f",
   "install_command": "mkdir -p .claude/skills/system-design-skill && curl -sL \"https://raw.githubusercontent.com/huijoohwee/huijoohwee.github.io/main/guidelines/system-design-skill.md/SKILL.md\" > .claude/skills/system-design-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/huijoohwee/huijoohwee.github.io/main/guidelines/system-design-skill.md/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c5bf9696e9c6279d48d71d5a9a301071eca1817e0d3abd0a486c4a1a744e148b",
   "indexed_at": "2026-02-26T06:48:01.946Z",
-  "synced_at": "2026-02-27T02:36:01.390Z",
+  "synced_at": "2026-02-28T04:03:48.439Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/54d2f8116459357747453f9142b488791d750bcdaa09e3a612f3dd14f6f48faf",
   "install_command": "mkdir -p .claude/skills/antigravity-frontend-dev && curl -sL \"https://raw.githubusercontent.com/abzhaw/juliaz_agents/main/.agent/skills/antigravity-frontend-dev/SKILL.md\" > .claude/skills/antigravity-frontend-dev/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/abzhaw/juliaz_agents/main/.agent/skills/antigravity-frontend-dev/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "92ba7667fc07c50d3bfde345e259dec012ee8a5729039352832b02fa2090ad6e",
   "indexed_at": "2026-02-25T17:23:58.166Z",
-  "synced_at": "2026-02-27T02:36:48.928Z",
+  "synced_at": "2026-02-28T04:04:47.427Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fddbe17c5f853134d55ffbf19639fa4015fe7966db34b455302072a7bee1d2b5",
   "install_command": "mkdir -p .claude/skills/kpi-dashboard-design && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/kpi-dashboard-design/SKILL.md\" > .claude/skills/kpi-dashboard-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/kpi-dashboard-design/SKILL.md"

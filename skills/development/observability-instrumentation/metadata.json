@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ddabc9f2a39520382761d55005009a0ea829d68467d3ec4d55a087a4e75d9e03",
   "indexed_at": "2026-02-26T15:09:45.455Z",
-  "synced_at": "2026-02-27T02:36:10.835Z",
+  "synced_at": "2026-02-28T04:03:57.507Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/641764dd6b8d0f5286d9b6dc31c019d4c32ef12742a80b80e0815748ae34aed1",
   "install_command": "mkdir -p .claude/skills/observability-instrumentation && curl -sL \"https://raw.githubusercontent.com/askaret/codex-skills/main/.agents/skills/observability-instrumentation/SKILL.md\" > .claude/skills/observability-instrumentation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/askaret/codex-skills/main/.agents/skills/observability-instrumentation/SKILL.md"

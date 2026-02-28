@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "31305991b8eceba727f23f85a8873f6ef041975a0fd0a2c5bf5707c35f3cbebd",
   "indexed_at": "2026-02-27T16:55:23.767Z",
-  "synced_at": "2026-02-27T18:16:57.033Z",
+  "synced_at": "2026-02-28T04:03:27.834Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f06ea120b37fb63afb4cf72d25408be77ce1697a64e02760c7e90cb6e567db07",
   "install_command": "mkdir -p .claude/skills/chaterimo && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/caebixus/chaterimo-openclaw-skill/SKILL.md\" > .claude/skills/chaterimo/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/caebixus/chaterimo-openclaw-skill/SKILL.md"

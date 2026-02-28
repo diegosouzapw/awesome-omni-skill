@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1d4f44ed3b9b4ed34d26687b5891b5e8373f783399b393a2721eb7beada9b7e1",
   "indexed_at": "2026-02-27T16:04:31.775Z",
-  "synced_at": "2026-02-27T18:16:56.789Z",
+  "synced_at": "2026-02-28T04:03:27.477Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d24779e6261b970148b907c0b47be4e3575f1217d2f720313ef0680485956dd8",
   "install_command": "mkdir -p .claude/skills/web-content && curl -sL \"https://raw.githubusercontent.com/artofrawr/claude-control/main/skills/web-content/SKILL.md\" > .claude/skills/web-content/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/artofrawr/claude-control/main/skills/web-content/SKILL.md"

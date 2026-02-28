@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "505e40cba57868c5aefe078f70e8dcb94481e2dbd9051474f0634674342232bc",
   "indexed_at": "2026-02-25T17:24:31.135Z",
-  "synced_at": "2026-02-27T02:36:48.767Z",
+  "synced_at": "2026-02-28T04:04:47.279Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d297a609ccf31ebfc03760b3625f8e3e5d737a3b30caae9ffcee01f2fd2aafb7",
   "install_command": "mkdir -p .claude/skills/linux-shell-scripting && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/linux-shell-scripting/SKILL.md\" > .claude/skills/linux-shell-scripting/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/linux-shell-scripting/SKILL.md"

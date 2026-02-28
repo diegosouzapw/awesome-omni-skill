@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b4c09497a037958576d3b7739eb100cf184c3fb17830a3a6ab214def9b8ceada",
   "indexed_at": "2026-02-26T22:33:12.060Z",
-  "synced_at": "2026-02-27T02:35:45.045Z",
+  "synced_at": "2026-02-28T04:03:30.759Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/728ebe83948a7847ac5148c61cffec26ed52b9867a8717573309ef316741bc43",
   "install_command": "mkdir -p .claude/skills/nodejs-javascript-vitest && curl -sL \"https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/nodejs-javascript-vitest/SKILL.md\" > .claude/skills/nodejs-javascript-vitest/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/nodejs-javascript-vitest/SKILL.md"

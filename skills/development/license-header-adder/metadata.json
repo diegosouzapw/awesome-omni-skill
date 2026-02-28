@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1371dc6753c169df2c2dac563713d5eb57bde56ae9f27aacb934b6373efd8177",
   "indexed_at": "2026-02-26T11:18:22.031Z",
-  "synced_at": "2026-02-27T02:36:41.420Z",
+  "synced_at": "2026-02-28T04:04:37.098Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0e8b7e23eb4234d65e6f8fb7ceb597c6757a0ec4de6d81d364e7cb3086e8dce6",
   "install_command": "mkdir -p .claude/skills/license-header-adder && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/license-header-adder/SKILL.md\" > .claude/skills/license-header-adder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/license-header-adder/SKILL.md"

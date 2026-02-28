@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c437cf0a6c82f527dd45801d86ee27da6512d951c26fc3f86737ea81718bd1d5",
   "indexed_at": "2026-02-26T08:49:16.161Z",
-  "synced_at": "2026-02-27T02:36:06.377Z",
+  "synced_at": "2026-02-28T04:03:53.269Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/74a732fc5f8735758d709a4f0079f9fe9830a8454a4de6015f615a934d3e88c1",
   "install_command": "mkdir -p .claude/skills/database-architect && curl -sL \"https://raw.githubusercontent.com/omer-metin/skills-for-antigravity/main/skills/database-architect/SKILL.md\" > .claude/skills/database-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/omer-metin/skills-for-antigravity/main/skills/database-architect/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "751dbeb8d2afa2d79e9545a6e1c5c7c4d1e28493400e7d82ac7fc8fc3ae8c5b9",
   "indexed_at": "2026-02-25T17:40:21.239Z",
-  "synced_at": "2026-02-27T02:36:19.779Z",
+  "synced_at": "2026-02-28T04:04:12.321Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a5b94af60b113f20b21dde2ea19727f130a3b87efe9c7b8b97ed00a77681acbe",
   "install_command": "mkdir -p .claude/skills/plan && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/plan-bnufw-lear-by-ai/SKILL.md\" > .claude/skills/plan/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/plan-bnufw-lear-by-ai/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "927f87d18c575e56eb1b39f5faa7827073b5cc48c1d31db8ef0132f11cd96a0d",
   "indexed_at": "2026-02-26T05:41:35.197Z",
-  "synced_at": "2026-02-27T02:35:56.339Z",
+  "synced_at": "2026-02-28T04:03:43.807Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/375f1855ba1d23f5b5d2f30caa639a48da8448d40df3d8a2164a567d39111239",
   "install_command": "mkdir -p .claude/skills/reporter && curl -sL \"https://raw.githubusercontent.com/hs3180/disclaude/main/skills/reporter/SKILL.md\" > .claude/skills/reporter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hs3180/disclaude/main/skills/reporter/SKILL.md"

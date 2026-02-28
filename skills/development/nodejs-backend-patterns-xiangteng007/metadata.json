@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6aa391f8aba7fefae8655c365008c07c11413c847cc74023a8fafba38d363b7f",
   "indexed_at": "2026-02-26T05:46:34.991Z",
-  "synced_at": "2026-02-27T02:35:56.853Z",
+  "synced_at": "2026-02-28T04:03:44.309Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/76fe67e3bc9e949428041221902478eb1b2eaa4e7b5353cf2582dcc2b83fdbe9",
   "install_command": "mkdir -p .claude/skills/nodejs-backend-patterns && curl -sL \"https://raw.githubusercontent.com/xiangteng007/XXT-AGENT/main/.continue/skills/nodejs-backend-patterns/SKILL.md\" > .claude/skills/nodejs-backend-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/xiangteng007/XXT-AGENT/main/.continue/skills/nodejs-backend-patterns/SKILL.md"

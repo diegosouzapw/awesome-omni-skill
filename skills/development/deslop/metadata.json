@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "925cace30e5468597f877cfd5eeb056513715a34be38a345dbe44c36419a44db",
   "indexed_at": "2026-02-25T20:41:30.352Z",
-  "synced_at": "2026-02-27T02:35:54.834Z",
+  "synced_at": "2026-02-28T04:03:42.201Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/112d625600e1f17acc430bb4d028e78edba55c9306d15c21022979f9332e2c39",
   "install_command": "mkdir -p .claude/skills/deslop && curl -sL \"https://raw.githubusercontent.com/v1-io/v1tamins/main/claude/skills/deslop/SKILL.md\" > .claude/skills/deslop/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/v1-io/v1tamins/main/claude/skills/deslop/SKILL.md"

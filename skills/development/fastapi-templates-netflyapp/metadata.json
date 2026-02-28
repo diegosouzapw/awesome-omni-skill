@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b82d952a9e717e7d7529d71cb3d96d5b6ef27acdae284ab5eff4f40f89937b20",
   "indexed_at": "2026-02-25T18:54:40.735Z",
-  "synced_at": "2026-02-27T02:36:28.650Z",
+  "synced_at": "2026-02-28T04:04:21.267Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f848aa6d559df41067b92e28e2e2c5965094dfbd7676b1d0066c233a44066186",
   "install_command": "mkdir -p .claude/skills/fastapi-templates && curl -sL \"https://raw.githubusercontent.com/netflyapp/hexos-dashboard/main/03_ui/antigravity-awesome-skills-main-2/skills/fastapi-templates/SKILL.md\" > .claude/skills/fastapi-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/netflyapp/hexos-dashboard/main/03_ui/antigravity-awesome-skills-main-2/skills/fastapi-templates/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5b754dcf4fc4989db23dc2359f581ccbec157b2203e0aae1883f72705b919eab",
   "indexed_at": "2026-02-26T16:38:41.532Z",
-  "synced_at": "2026-02-27T02:36:12.714Z",
+  "synced_at": "2026-02-28T04:03:59.208Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2680ed3385fb29d71e6b9bfde915c420d5adccfa98b51a97413d3b41092bca1b",
   "install_command": "mkdir -p .claude/skills/claude-plus-plus && curl -sL \"https://raw.githubusercontent.com/orlyjamie/claude-plus-plus/main/skills/claude-plus-plus/SKILL.md\" > .claude/skills/claude-plus-plus/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/orlyjamie/claude-plus-plus/main/skills/claude-plus-plus/SKILL.md"

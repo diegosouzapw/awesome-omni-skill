@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a097684bd51ec3dcc54c6d4845bc344265752d74ec0b6d641a381426310a4b28",
   "indexed_at": "2026-02-25T15:27:27.560Z",
-  "synced_at": "2026-02-27T02:36:51.605Z",
+  "synced_at": "2026-02-28T04:04:49.771Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/635f3844f4c1cf8a0450a51798faf52c95407aaf800af309f85944b613565720",
   "install_command": "mkdir -p .claude/skills/context-compression && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/context-compression/SKILL.md\" > .claude/skills/context-compression/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/context-compression/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b8fc813e01a4cb6682c77b499a61db814215d608bd439e8817a5b20b9874320c",
   "indexed_at": "2026-02-25T19:42:25.906Z",
-  "synced_at": "2026-02-27T02:36:29.325Z",
+  "synced_at": "2026-02-28T04:04:21.896Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/57a8a258960f995b4cf3ec73f1728d68b45f9467d5416420c3fcc6e2d4818c56",
   "install_command": "mkdir -p .claude/skills/vite-config && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/vite-config/SKILL.md\" > .claude/skills/vite-config/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/vite-config/SKILL.md"

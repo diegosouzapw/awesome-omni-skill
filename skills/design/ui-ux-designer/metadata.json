@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5049848838785fa5539b0738c9dcd5464f4e46ec8d2c8928ae4427593f6b2799",
   "indexed_at": "2026-02-25T19:25:24.416Z",
-  "synced_at": "2026-02-27T02:36:47.832Z",
+  "synced_at": "2026-02-28T04:04:46.355Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2ebcac2692b6511fbf10d7f1429c8b77e392e95e3a5173a4632d349f07e05b67",
   "install_command": "mkdir -p .claude/skills/ui-ux-designer && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/ui-ux-designer/SKILL.md\" > .claude/skills/ui-ux-designer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/ui-ux-designer/SKILL.md"

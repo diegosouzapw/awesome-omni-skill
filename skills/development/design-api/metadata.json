@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "85dcca521e49e0aff44d9bb6107aea96f00beb9fb9c7dca06d77135f64dc892a",
   "indexed_at": "2026-02-26T07:46:03.081Z",
-  "synced_at": "2026-02-27T02:36:04.847Z",
+  "synced_at": "2026-02-28T04:03:51.812Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cfdc5e2222f76331d9b9a13849ff96a07f02172459a708f089eda46a92b57def",
   "install_command": "mkdir -p .claude/skills/design-api && curl -sL \"https://raw.githubusercontent.com/DobroslavRadosavljevic/ogie/main/.claude/skills/design-api/SKILL.md\" > .claude/skills/design-api/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/DobroslavRadosavljevic/ogie/main/.claude/skills/design-api/SKILL.md"

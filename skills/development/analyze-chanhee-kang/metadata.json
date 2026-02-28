@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "47043eb791fcf94832c6a926308673e349eba74ac33e09ddc7598bd534b639ba",
   "indexed_at": "2026-02-25T17:06:58.189Z",
-  "synced_at": "2026-02-27T02:36:36.982Z",
+  "synced_at": "2026-02-28T04:04:32.084Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fa5353e152c46b2f914eb14e33f7b0e3bfb8a11fd95ba4dad7e80ad0b64b349e",
   "install_command": "mkdir -p .claude/skills/analyze && curl -sL \"https://raw.githubusercontent.com/chanhee-kang/oh-my-gemini/main/skills/analyze/SKILL.md\" > .claude/skills/analyze/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chanhee-kang/oh-my-gemini/main/skills/analyze/SKILL.md"

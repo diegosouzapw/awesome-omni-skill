@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e40737b1bbeb66243928bdbf60bb73ea7de335ba7d4667d076818d202ab268aa",
   "indexed_at": "2026-02-25T15:08:29.262Z",
-  "synced_at": "2026-02-27T02:36:25.479Z",
+  "synced_at": "2026-02-28T04:04:18.057Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d7758ab398363bf0898dd6004c4373649411e2dbc3df1e1f4fbf629fc0fefe9b",
   "install_command": "mkdir -p .claude/skills/fastapi-templates && curl -sL \"https://raw.githubusercontent.com/KignLeon/joesmith-website/main/skills/fastapi-templates/SKILL.md\" > .claude/skills/fastapi-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/KignLeon/joesmith-website/main/skills/fastapi-templates/SKILL.md"

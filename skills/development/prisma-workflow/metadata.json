@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2c43c0b608dfeee521f7564c90158ef095c90a812eaa8f1ff96a9459bbc756f6",
   "indexed_at": "2026-02-25T13:10:41.923Z",
-  "synced_at": "2026-02-27T02:36:24.807Z",
+  "synced_at": "2026-02-28T04:04:17.387Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/68954d8b0dbb43bc719cf2775bb18344d0238da307159facefeb573aa7284389",
   "install_command": "mkdir -p .claude/skills/prisma-workflow && curl -sL \"https://raw.githubusercontent.com/BASIC-BIT/drasil/main/.opencode/skills/prisma-workflow/SKILL.md\" > .claude/skills/prisma-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/BASIC-BIT/drasil/main/.opencode/skills/prisma-workflow/SKILL.md"

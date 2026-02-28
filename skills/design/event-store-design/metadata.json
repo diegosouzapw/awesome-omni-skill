@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a558f0686dabc189de965bcc9ab990c01336201de49dcd48903b1af8a20302bd",
   "indexed_at": "2026-02-25T16:25:28.815Z",
-  "synced_at": "2026-02-27T02:36:50.354Z",
+  "synced_at": "2026-02-28T04:04:48.744Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b88f232f8f921543fdd7e1a287966cfbe8402799d85a22e124602ae88779584d",
   "install_command": "mkdir -p .claude/skills/event-store-design && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/event-store-design/SKILL.md\" > .claude/skills/event-store-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/event-store-design/SKILL.md"

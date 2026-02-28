@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "042145d3e9410be6c2aca2caabe9a1c9672369553e9545ed20a45536abf846c3",
   "indexed_at": "2026-02-25T15:57:21.293Z",
-  "synced_at": "2026-02-27T02:35:51.288Z",
+  "synced_at": "2026-02-28T04:03:38.575Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f1d690cacc0edc6880aeada5cbfee8ddaf25bc2e9784c4328fd1810ed70d9cd3",
   "install_command": "mkdir -p .claude/skills/defining-typescript-models && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/defining-typescript-models/SKILL.md\" > .claude/skills/defining-typescript-models/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/defining-typescript-models/SKILL.md"

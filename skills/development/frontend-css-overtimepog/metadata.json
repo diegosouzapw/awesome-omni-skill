@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1e7efddbd95d8a2f281316e5be61c6d7c5e2341a1fe9f737a17c69ceab9a5820",
   "indexed_at": "2026-02-26T06:46:42.085Z",
-  "synced_at": "2026-02-27T02:36:00.345Z",
+  "synced_at": "2026-02-28T04:03:47.392Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0f86e3159926a02864d26a5771e17f39c0bfefe1a96dd5cff6b5bae0cfac0b68",
   "install_command": "mkdir -p .claude/skills/frontend-css && curl -sL \"https://raw.githubusercontent.com/overtimepog/AgentTheo/main/.claude/skills/frontend-css/SKILL.md\" > .claude/skills/frontend-css/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/overtimepog/AgentTheo/main/.claude/skills/frontend-css/SKILL.md"

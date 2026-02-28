@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "49f14b12b1cfdf7dfdc3f9f7c6b4de80dfca955c7cf763151bb491e8fd8ac149",
   "indexed_at": "2026-02-26T19:11:09.272Z",
-  "synced_at": "2026-02-27T02:36:13.035Z",
+  "synced_at": "2026-02-28T04:03:59.540Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5c73edeaf7dbd92bbde20db75122140e0cc577d57e6c6e516abf84392c8ced41",
   "install_command": "mkdir -p .claude/skills/modern-python-standards && curl -sL \"https://raw.githubusercontent.com/nick-orton/vybz/main/src/vybz/library/skills/modern-python-standards/SKILL.md\" > .claude/skills/modern-python-standards/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nick-orton/vybz/main/src/vybz/library/skills/modern-python-standards/SKILL.md"

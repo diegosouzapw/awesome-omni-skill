@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9a83ea3dc02413822f1987f14448e3f34e60d79bf334d816038b77a061480075",
   "indexed_at": "2026-02-25T19:37:15.861Z",
-  "synced_at": "2026-02-27T02:36:29.024Z",
+  "synced_at": "2026-02-28T04:04:21.598Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/177d42ee2a7d1f2c053f3e0569904ab76cae0e48a894ef2a3dd7eeda07d96272",
   "install_command": "mkdir -p .claude/skills/fastapi-templates && curl -sL \"https://raw.githubusercontent.com/rothdev/catalyst-os/main/tools/telegram/TC3-jarvis-hybrid/catalyst-skills/community/sickn33-antigravity/skills/fastapi-templates/SKILL.md\" > .claude/skills/fastapi-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rothdev/catalyst-os/main/tools/telegram/TC3-jarvis-hybrid/catalyst-skills/community/sickn33-antigravity/skills/fastapi-templates/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3a2701330f669c299c8a2870337be2863e5d361e6ee17103d61439f8c36ba20a",
   "indexed_at": "2026-02-26T12:01:26.458Z",
-  "synced_at": "2026-02-27T02:36:09.453Z",
+  "synced_at": "2026-02-28T04:03:56.137Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2dfe36b77e714e9852752299de13e895aa43230f3092d62d394c5afc6afe0bd0",
   "install_command": "mkdir -p .claude/skills/anthropic-usage && curl -sL \"https://raw.githubusercontent.com/shreyasgm/anthropic-usage-skill/main/SKILL.md\" > .claude/skills/anthropic-usage/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/shreyasgm/anthropic-usage-skill/main/SKILL.md"

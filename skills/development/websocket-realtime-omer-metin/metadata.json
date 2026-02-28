@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8c89331c400c934bc5c7e756b024464907e5ba1936e5ef4f9143ff57afe4ab7c",
   "indexed_at": "2026-02-25T18:56:28.917Z",
-  "synced_at": "2026-02-27T02:35:53.300Z",
+  "synced_at": "2026-02-28T04:03:40.694Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/885e7cb788789dc5045c87664c03a6a10beb0f1e60a22be9052c3ca64f0a370c",
   "install_command": "mkdir -p .claude/skills/websocket-realtime && curl -sL \"https://raw.githubusercontent.com/omer-metin/skills-for-antigravity/main/skills/websocket-realtime/SKILL.md\" > .claude/skills/websocket-realtime/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/omer-metin/skills-for-antigravity/main/skills/websocket-realtime/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eddefb6554a242b4edc927105f6216512bd4618609204908939e24819245f8ac",
   "indexed_at": "2026-02-26T07:46:25.955Z",
-  "synced_at": "2026-02-27T02:36:05.206Z",
+  "synced_at": "2026-02-28T04:03:52.142Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0842eba2adc42dd231ef38f7ef88d7764e693a06495bd27fadd0898d6f17ad87",
   "install_command": "mkdir -p .claude/skills/graphql && curl -sL \"https://raw.githubusercontent.com/omer-metin/skills-for-antigravity/main/skills/graphql/SKILL.md\" > .claude/skills/graphql/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/omer-metin/skills-for-antigravity/main/skills/graphql/SKILL.md"

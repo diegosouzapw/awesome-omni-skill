@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a0cf8c3baddb23c721d7095dbd8149588c265e6e5ca82104324662e55d4894cb",
   "indexed_at": "2026-02-25T22:26:05.008Z",
-  "synced_at": "2026-02-27T02:36:46.113Z",
+  "synced_at": "2026-02-28T04:04:44.619Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/46099b6423be846c1527ddf904381ae85c1eef70589998f83c9f6c3254cf0ac2",
   "install_command": "mkdir -p .claude/skills/recruitee-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/recruitee-automation/SKILL.md\" > .claude/skills/recruitee-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/recruitee-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1dd7b2016be686455e61479435d8867b82bc486f8177601788161a3930b03dc2",
   "indexed_at": "2026-02-25T23:46:41.169Z",
-  "synced_at": "2026-02-27T02:35:55.822Z",
+  "synced_at": "2026-02-28T04:03:43.159Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6712a55f65a6ebe27b54249091272bdd371d121c31f73fd9b530ead6025be121",
   "install_command": "mkdir -p .claude/skills/academic-deep-research && curl -sL \"https://raw.githubusercontent.com/kesslerio/academic-deep-research-clawhub-skill/main/SKILL.md\" > .claude/skills/academic-deep-research/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kesslerio/academic-deep-research-clawhub-skill/main/SKILL.md"

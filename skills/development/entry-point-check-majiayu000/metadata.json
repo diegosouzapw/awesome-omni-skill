@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "da1da18ada24f5688be209dee00041bbe657b79a1ac9838eb6be70521c414dfc",
   "indexed_at": "2026-02-25T13:56:40.115Z",
-  "synced_at": "2026-02-27T02:35:49.785Z",
+  "synced_at": "2026-02-28T04:03:37.049Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1537591eaf81b39c207a7afc7b4ee903f29450595f3b5314e79077b85477f7e8",
   "install_command": "mkdir -p .claude/skills/entry-point-check && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/entry-point-check/SKILL.md\" > .claude/skills/entry-point-check/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/entry-point-check/SKILL.md"

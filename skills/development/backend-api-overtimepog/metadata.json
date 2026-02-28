@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c0eb665c000f846e4eb8b3b2632e5c0585e347f3ddc79ddbefe377479ea354fd",
   "indexed_at": "2026-02-26T05:46:31.853Z",
-  "synced_at": "2026-02-27T02:35:56.689Z",
+  "synced_at": "2026-02-28T04:03:44.146Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7772f5122c87ebfcf40d981f9724088eeeb6cd5382fa8b66170bb40a4f4ad7d0",
   "install_command": "mkdir -p .claude/skills/backend-api && curl -sL \"https://raw.githubusercontent.com/overtimepog/AgentTheo/main/.claude/skills/backend-api/SKILL.md\" > .claude/skills/backend-api/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/overtimepog/AgentTheo/main/.claude/skills/backend-api/SKILL.md"

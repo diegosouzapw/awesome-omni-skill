@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "989343a1506a5b220217620e2b6510313d9d30426b0e9c5acf51465f36d10421",
   "indexed_at": "2026-02-25T12:36:55.689Z",
-  "synced_at": "2026-02-27T02:35:46.608Z",
+  "synced_at": "2026-02-28T04:03:34.681Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d5db68034e6851b7646905055ef106c700f8d7097382cdb14b2ced5f2130789b",
   "install_command": "mkdir -p .claude/skills/refactor-html && curl -sL \"https://raw.githubusercontent.com/yahsan2/static-admin/main/.claude/skills/refactor-html/SKILL.md\" > .claude/skills/refactor-html/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yahsan2/static-admin/main/.claude/skills/refactor-html/SKILL.md"

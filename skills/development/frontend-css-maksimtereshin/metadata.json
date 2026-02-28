@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7f86d581bf198468f47baa3117776762f0052b1e5c4ef83e5b37b874b2cfa111",
   "indexed_at": "2026-02-26T06:45:41.535Z",
-  "synced_at": "2026-02-27T02:36:00.156Z",
+  "synced_at": "2026-02-28T04:03:47.212Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2c61bbd47184d8ef4c407c1d1589c3067c76d464b4b83840b01a50ed1395c83a",
   "install_command": "mkdir -p .claude/skills/frontend-css && curl -sL \"https://raw.githubusercontent.com/maksimtereshin/biz-assess-platform/main/.claude/skills/frontend-css/SKILL.md\" > .claude/skills/frontend-css/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/maksimtereshin/biz-assess-platform/main/.claude/skills/frontend-css/SKILL.md"

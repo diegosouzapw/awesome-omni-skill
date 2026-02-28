@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f10dfb2069db5f1458a24a877302907152807047a4ae48b50af01b88fc4a7ae1",
   "indexed_at": "2026-02-26T05:50:27.410Z",
-  "synced_at": "2026-02-27T02:35:58.522Z",
+  "synced_at": "2026-02-28T04:03:45.816Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/418657e410e73c1f224df87c4a655070394b49bc02275a05f73fbdba410a3e8b",
   "install_command": "mkdir -p .claude/skills/implementing-observability && curl -sL \"https://raw.githubusercontent.com/7a336e6e/skills/main/devops/implementing-observability/SKILL.md\" > .claude/skills/implementing-observability/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/7a336e6e/skills/main/devops/implementing-observability/SKILL.md"

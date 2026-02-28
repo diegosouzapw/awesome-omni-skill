@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6a4840e04d9261d9f015ab9614459ac41215791e31ec5f94f49e17ab27bb97db",
   "indexed_at": "2026-02-26T06:47:55.579Z",
-  "synced_at": "2026-02-27T02:36:01.215Z",
+  "synced_at": "2026-02-28T04:03:48.266Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/382ff5b8a0cf48da482cab07ddd4dd6a89f4d257d77389dea9e6b76dfe57add3",
   "install_command": "mkdir -p .claude/skills/react-frontend && curl -sL \"https://raw.githubusercontent.com/N43-Studio/n43-cursor/main/skills/react-frontend/SKILL.md\" > .claude/skills/react-frontend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/N43-Studio/n43-cursor/main/skills/react-frontend/SKILL.md"

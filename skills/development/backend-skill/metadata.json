@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "af7a01d2419f4e64cd4a1b917464769fab9c6e06882bbbac55f11f0f733ecd62",
   "indexed_at": "2026-02-26T08:56:47.166Z",
-  "synced_at": "2026-02-27T02:36:06.552Z",
+  "synced_at": "2026-02-28T04:03:53.429Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/db5d70e41e923f4295cfafed947f65cf5248e4a587a01085f390ad22bea966f2",
   "install_command": "mkdir -p .claude/skills/backend-skill && curl -sL \"https://raw.githubusercontent.com/CodeWithSuleman/giaic-hackathon-2-phase-II/main/.claude/skills/backend-skill/SKILL.md\" > .claude/skills/backend-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/CodeWithSuleman/giaic-hackathon-2-phase-II/main/.claude/skills/backend-skill/SKILL.md"

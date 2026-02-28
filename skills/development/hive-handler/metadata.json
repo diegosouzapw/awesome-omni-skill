@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d5f032aef4e167583748016dce3c0ada00424e04995c101504ad7be3643463e6",
   "indexed_at": "2026-02-26T22:37:26.643Z",
-  "synced_at": "2026-02-27T02:36:16.407Z",
+  "synced_at": "2026-02-28T04:04:08.945Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aec96b8b3a9aa6163297d42153a393e82ffb40a0eea576a6c8e0eee29951a278",
   "install_command": "mkdir -p .claude/skills/hive-handler && curl -sL \"https://raw.githubusercontent.com/paralect/hive/main/starter/.cursor/skills/hive-handler/SKILL.md\" > .claude/skills/hive-handler/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/paralect/hive/main/starter/.cursor/skills/hive-handler/SKILL.md"

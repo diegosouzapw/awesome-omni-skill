@@ -3,8 +3,8 @@
   "description": "Write maintainable CSS and styling code using Tailwind CSS, CSS Modules, or other CSS methodologies. Use this skill when styling components, defining design tokens, or working with any CSS-related code. Apply when working on files like *.css, *.scss, *.module.css, tailwind.config.js, components with className props, or any styling code. Essential for following consistent CSS methodologies (Tailwind utilities, BEM, CSS-in-JS), avoiding framework style overrides, maintaining design system tokens (colors, spacing, typography), minimizing custom CSS in favor of framework utilities, and optimizing CSS for production with purging/tree-shaking.",
   "category": "development",
   "canonical_category": "development",
-  "repository": "Mahmoud9-dev/eqraa-center-hub",
-  "repository_url": "https://github.com/Mahmoud9-dev/eqraa-center-hub",
+  "repository": "Mahmoud9-dev/eqraa-desktop",
+  "repository_url": "https://github.com/Mahmoud9-dev/eqraa-desktop",
   "author": "Mahmoud9-dev",
   "author_avatar": "https://github.com/Mahmoud9-dev.png",
   "file_path": ".claude/skills/frontend-css/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "dcaa67810614d8206d893e0bdae6c07719d5dfd18488716bde3e58b22334ec63",
-  "indexed_at": "2026-02-26T06:46:04.182Z",
-  "synced_at": "2026-02-27T02:36:32.394Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/df23162d64415ce838de2918914b37e787aefada49663ab60856cad4318954c4",
-  "install_command": "mkdir -p .claude/skills/frontend-css && curl -sL \"https://raw.githubusercontent.com/Mahmoud9-dev/eqraa-center-hub/main/.claude/skills/frontend-css/SKILL.md\" > .claude/skills/frontend-css/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/Mahmoud9-dev/eqraa-center-hub/main/.claude/skills/frontend-css/SKILL.md"
+  "content_hash": "ce9242f709e10364a051aac1950d6bdf8112f984db1f5ae178c8d96f71512d54",
+  "indexed_at": "2026-02-27T06:46:26.799Z",
+  "synced_at": "2026-02-28T04:04:29.987Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3eae5e13be944717ac9ddbb55543838f8a161999281a2d110e24be29640c4fa6",
+  "install_command": "mkdir -p .claude/skills/frontend-css && curl -sL \"https://raw.githubusercontent.com/Mahmoud9-dev/eqraa-desktop/main/.claude/skills/frontend-css/SKILL.md\" > .claude/skills/frontend-css/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/Mahmoud9-dev/eqraa-desktop/main/.claude/skills/frontend-css/SKILL.md"
 }

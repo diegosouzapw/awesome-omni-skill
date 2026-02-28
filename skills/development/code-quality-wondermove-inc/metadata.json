@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5fc5dd5c724c97de33ded47c8d5ff731cfa6b6fa94fb169d86e99b1410f47347",
   "indexed_at": "2026-02-26T09:35:02.496Z",
-  "synced_at": "2026-02-27T02:36:21.785Z",
+  "synced_at": "2026-02-28T04:04:14.311Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/99d160c659e1bd89d9436c6963cef31ff083af0cf4346851c53d42714902deb7",
   "install_command": "mkdir -p .claude/skills/code-quality && curl -sL \"https://raw.githubusercontent.com/Wondermove-Inc/calab-claude-plugin/main/plugins/calab-plugin/skills/code-quality/SKILL.md\" > .claude/skills/code-quality/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Wondermove-Inc/calab-claude-plugin/main/plugins/calab-plugin/skills/code-quality/SKILL.md"

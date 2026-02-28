@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5844be30dd22ec48fc2024f52059fc8862fd3d0f2a4ce79bc8522ca3af74954c",
   "indexed_at": "2026-02-26T06:31:05.584Z",
-  "synced_at": "2026-02-27T02:35:59.393Z",
+  "synced_at": "2026-02-28T04:03:46.520Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/56f1a52e171e59706937a5e915b76424fc7b7bf042bf68854948b947fb99fb83",
   "install_command": "mkdir -p .claude/skills/ats-resume-maker && curl -sL \"https://raw.githubusercontent.com/just-sampath/ats-resume-maker-skill/main/SKILL.md\" > .claude/skills/ats-resume-maker/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/just-sampath/ats-resume-maker-skill/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3fb1470c5bee9cec756b41263cca006faf9c4f5493c2d5fb88f1ab819ceabd06",
   "indexed_at": "2026-02-25T14:11:32.012Z",
-  "synced_at": "2026-02-27T02:35:50.514Z",
+  "synced_at": "2026-02-28T04:03:37.798Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c12d7c3cac067a9979812fe7530ac5779ead05b35aff7818598d28bfe6852644",
   "install_command": "mkdir -p .claude/skills/receiving-code-review && curl -sL \"https://raw.githubusercontent.com/jarredkenny/agency-ai/main/roles/solo/skills/receiving-code-review/SKILL.md\" > .claude/skills/receiving-code-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jarredkenny/agency-ai/main/roles/solo/skills/receiving-code-review/SKILL.md"

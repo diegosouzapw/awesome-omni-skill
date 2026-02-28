@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33e326d858f9987cd930a3edef720bf8e8eedd955bc701fe64cf0052de7c2e3d",
   "indexed_at": "2026-02-26T05:49:16.629Z",
-  "synced_at": "2026-02-27T02:35:57.978Z",
+  "synced_at": "2026-02-28T04:03:45.301Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bf54c8a4104fb50d2fb6652cdb170564c18a20af7d71d9149023a69326919057",
   "install_command": "mkdir -p .claude/skills/nodejs-backend-patterns && curl -sL \"https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/docs/v19.7/configuration/agent/skills_external/antigravity-awesome-skills-main/skills/nodejs-backend-patterns/SKILL.md\" > .claude/skills/nodejs-backend-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/docs/v19.7/configuration/agent/skills_external/antigravity-awesome-skills-main/skills/nodejs-backend-patterns/SKILL.md"

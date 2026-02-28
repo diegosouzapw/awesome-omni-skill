@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2a8dfde6c3ba9821a6a82d2c72fae79cccb7bc71fb751a31004b641526339d03",
   "indexed_at": "2026-02-24T18:57:32.242Z",
-  "synced_at": "2026-02-27T02:36:46.756Z",
+  "synced_at": "2026-02-28T04:04:45.217Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/327479bd4c795e2ccfa62223a1e1f66dca8d99181f35ad4a0d6234d1faccfea8",
   "install_command": "mkdir -p .claude/skills/canvas-design && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/canvas-design/SKILL.md\" > .claude/skills/canvas-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/canvas-design/SKILL.md"

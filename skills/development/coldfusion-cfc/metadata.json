@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "adcd6b02d144772a9e1423116c43d8f63024950e6df62bb75b742c08fc2868f4",
   "indexed_at": "2026-02-26T22:31:17.104Z",
-  "synced_at": "2026-02-27T02:35:44.700Z",
+  "synced_at": "2026-02-28T04:03:30.420Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/43d1ca5100d55674d168115a24258ebeb23579c53b99d5de411f1d78109ac951",
   "install_command": "mkdir -p .claude/skills/coldfusion-cfc && curl -sL \"https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/coldfusion-cfc/SKILL.md\" > .claude/skills/coldfusion-cfc/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/coldfusion-cfc/SKILL.md"

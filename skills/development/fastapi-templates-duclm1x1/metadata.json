@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d11fea3ea3a503487187e1019cd163dffeae68992bd3c9e965af8b484d72e322",
   "indexed_at": "2026-02-26T11:51:47.127Z",
-  "synced_at": "2026-02-27T02:36:34.908Z",
+  "synced_at": "2026-02-28T04:04:27.382Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9b127380b891de8c44136b05c0f59a445173e324ac06cd3ac1248d13bc102077",
   "install_command": "mkdir -p .claude/skills/fastapi-templates && curl -sL \"https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/docs/v19.7/configuration/agent/skills_external/antigravity-awesome-skills-main/skills/fastapi-templates/SKILL.md\" > .claude/skills/fastapi-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/docs/v19.7/configuration/agent/skills_external/antigravity-awesome-skills-main/skills/fastapi-templates/SKILL.md"

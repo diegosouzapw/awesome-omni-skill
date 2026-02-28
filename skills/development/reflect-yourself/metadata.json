@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "818ffd98e6bff0a386210fd251d9515f76fcf6aaacfc679b3bc43fa38ca46f7c",
   "indexed_at": "2026-02-25T12:46:13.427Z",
-  "synced_at": "2026-02-27T02:35:49.292Z",
+  "synced_at": "2026-02-28T04:03:36.529Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/51ffca600ce1bc6a540de6c57cd5f40a877194594f20e3a51c103adf72e46c24",
   "install_command": "mkdir -p .claude/skills/reflect-yourself && curl -sL \"https://raw.githubusercontent.com/maorfsdev/reflect-yourself/main/SKILL.md\" > .claude/skills/reflect-yourself/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/maorfsdev/reflect-yourself/main/SKILL.md"

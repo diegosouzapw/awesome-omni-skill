@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "abf1ec8d16a7da0c18837769a293a95f573670fa1bd6bfd0cc5c18c73c8a98d9",
   "indexed_at": "2026-02-26T11:33:29.642Z",
-  "synced_at": "2026-02-27T02:36:08.747Z",
+  "synced_at": "2026-02-28T04:03:55.453Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ae0c3b61367c22d07f111d893c8dc5e693d160efd54ab517e2d01684492dcba7",
   "install_command": "mkdir -p .claude/skills/dev-expert && curl -sL \"https://raw.githubusercontent.com/nguyenthienthanh/aura-frog/main/aura-frog/skills/dev-expert/SKILL.md\" > .claude/skills/dev-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nguyenthienthanh/aura-frog/main/aura-frog/skills/dev-expert/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fa93f2b773adbe54528aa14e55b3aa48f6884c75e8564d230c390edd4a38f497",
   "indexed_at": "2026-02-26T06:46:17.705Z",
-  "synced_at": "2026-02-27T02:36:20.369Z",
+  "synced_at": "2026-02-28T04:04:12.871Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6e5619153eef5c7414bf6243deedbb3c497a4d14e036f864b08c2f6776867f9a",
   "install_command": "mkdir -p .claude/skills/frontend-ui-tailwind-standards && curl -sL \"https://raw.githubusercontent.com/valec3/Agents.skills.md/main/.agent/skills/frontend-ui-tailwind-standards/SKILL.md\" > .claude/skills/frontend-ui-tailwind-standards/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/valec3/Agents.skills.md/main/.agent/skills/frontend-ui-tailwind-standards/SKILL.md"

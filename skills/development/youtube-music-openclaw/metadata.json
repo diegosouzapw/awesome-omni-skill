@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fdc9c76d9b1e0147fcf351cc77dbce12029dbf4d178bc18be404f8cf66ec1a26",
   "indexed_at": "2026-02-26T11:56:53.143Z",
-  "synced_at": "2026-02-27T02:36:35.090Z",
+  "synced_at": "2026-02-28T04:04:27.546Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e4ab2d47226d0aff66f8187a3245e7eaaf10e6b3c17ba23bd158515253663c5a",
   "install_command": "mkdir -p .claude/skills/youtube-music-openclaw && curl -sL \"https://raw.githubusercontent.com/miwgel/youtube-music-openclaw/main/SKILL.md\" > .claude/skills/youtube-music-openclaw/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/miwgel/youtube-music-openclaw/main/SKILL.md"

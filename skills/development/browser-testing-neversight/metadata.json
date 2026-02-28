@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a2dad40bcb337797ba19a53285b5f3d5d21430740ad2c1f4143d7272103ebb33",
   "indexed_at": "2026-02-25T18:40:25.998Z",
-  "synced_at": "2026-02-27T02:35:52.786Z",
+  "synced_at": "2026-02-28T04:03:40.169Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cb2813e6a59ddb039e09448fcc6383f53a3e514c60e9b79b28ddc8da965c363e",
   "install_command": "mkdir -p .claude/skills/browser-testing && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ingpoc/skills/browser-testing/SKILL.md\" > .claude/skills/browser-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ingpoc/skills/browser-testing/SKILL.md"

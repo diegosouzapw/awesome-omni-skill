@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6bacb8c15ea85cb47f136db4942b4c25d2b9e173b1c17a7b3bc95feb461d4ee8",
   "indexed_at": "2026-02-26T23:32:32.635Z",
-  "synced_at": "2026-02-27T02:36:13.705Z",
+  "synced_at": "2026-02-28T04:04:00.243Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d9d136d7ddb2bc6f0c464d617f79bec9008f2f2ed35b14782d40c95087ec64a1",
   "install_command": "mkdir -p .claude/skills/playwright-app-testing && curl -sL \"https://raw.githubusercontent.com/Expensify/App/main/.claude/skills/playwright-app-testing/SKILL.md\" > .claude/skills/playwright-app-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Expensify/App/main/.claude/skills/playwright-app-testing/SKILL.md"

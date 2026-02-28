@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "63ba419d8d0a3b5f5a84dacfa513f873b7bdd765fe083f66e36da31ef585c65b",
   "indexed_at": "2026-02-25T20:40:39.266Z",
-  "synced_at": "2026-02-27T02:35:54.518Z",
+  "synced_at": "2026-02-28T04:03:41.877Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b12baad837742ac9da353a00a6369c1c204054d43a11005b2a4275b3f383cd41",
   "install_command": "mkdir -p .claude/skills/release && curl -sL \"https://raw.githubusercontent.com/ragnarok22/cryptobot_python/main/skills/release/SKILL.md\" > .claude/skills/release/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ragnarok22/cryptobot_python/main/skills/release/SKILL.md"

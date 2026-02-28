@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a5823dec229826503859230471237bb8699ad9dc44e1928b954d38fca8f2f2fc",
   "indexed_at": "2026-02-25T12:49:38.496Z",
-  "synced_at": "2026-02-27T02:36:17.739Z",
+  "synced_at": "2026-02-28T04:04:10.848Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/87128b4db7e947acd9d79d24f27a9199129a73c2341f6269548b4faf68fbf375",
   "install_command": "mkdir -p .claude/skills/verification && curl -sL \"https://raw.githubusercontent.com/WenJunDuan/Rlues/main/vibeCoding/old version/config-agent_v8.2/.claude/skills/verification/SKILL.md\" > .claude/skills/verification/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/WenJunDuan/Rlues/main/vibeCoding/old version/config-agent_v8.2/.claude/skills/verification/SKILL.md"

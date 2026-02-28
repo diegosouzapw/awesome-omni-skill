@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b590fae2774afb8d8e51f911ef23273bf69ef2d45afd58345a46cb4d5ffd7d5e",
   "indexed_at": "2026-02-26T07:30:25.801Z",
-  "synced_at": "2026-02-27T02:36:04.180Z",
+  "synced_at": "2026-02-28T04:03:51.169Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/111924d1de029a2d0dabaae9dbad18f522c71f480a3eb35449876507dd6bd90f",
   "install_command": "mkdir -p .claude/skills/postkit && curl -sL \"https://raw.githubusercontent.com/varunchopra/postkit/main/SKILL.md\" > .claude/skills/postkit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/varunchopra/postkit/main/SKILL.md"

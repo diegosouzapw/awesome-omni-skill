@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9f0364f9c88d3e5091256039b51b79497850ab417468e1de947c396af0503366",
   "indexed_at": "2026-02-26T19:10:50.010Z",
-  "synced_at": "2026-02-27T02:36:23.008Z",
+  "synced_at": "2026-02-28T04:04:15.479Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ba071ade1d5f0bc5ab8872869b59066a84a833be0b25aaa066e93c518070d6ec",
   "install_command": "mkdir -p .claude/skills/knowledge-synthesis && curl -sL \"https://raw.githubusercontent.com/blackplume233/actant-hub/main/skills/knowledge-synthesis/SKILL.md\" > .claude/skills/knowledge-synthesis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/blackplume233/actant-hub/main/skills/knowledge-synthesis/SKILL.md"

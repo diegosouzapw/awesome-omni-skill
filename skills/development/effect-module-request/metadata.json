@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aa6da6db4b839f148d9597dcfdd59361bfd19e0f80301aa34a5ed86e3e9d0b5a",
   "indexed_at": "2026-02-26T09:35:39.688Z",
-  "synced_at": "2026-02-27T02:36:06.900Z",
+  "synced_at": "2026-02-28T04:03:53.778Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ac294c86fa94ea301ff5a72d24bc585e9f4c9036110acd2a672dd35928321611",
   "install_command": "mkdir -p .claude/skills/effect-module-request && curl -sL \"https://raw.githubusercontent.com/TylorS/typed-smol/main/.cursor/skills/effect-module-request/SKILL.md\" > .claude/skills/effect-module-request/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TylorS/typed-smol/main/.cursor/skills/effect-module-request/SKILL.md"

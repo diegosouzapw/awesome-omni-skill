@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c88cc106a2a61ec720244e67ba0240d19b22ee9d0bb90da178cf7cc408adb287",
   "indexed_at": "2026-02-27T16:47:41.925Z",
-  "synced_at": "2026-02-27T18:16:57.675Z",
+  "synced_at": "2026-02-28T04:04:05.002Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0d3dfaee6349fb6ad4a650652f096960decdf0c289680785e4e3ca4476a9c8e3",
   "install_command": "mkdir -p .claude/skills/guide && curl -sL \"https://raw.githubusercontent.com/leepokai/claude-code-guide/main/skills/claude-code-guide/SKILL.md\" > .claude/skills/guide/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/leepokai/claude-code-guide/main/skills/claude-code-guide/SKILL.md"

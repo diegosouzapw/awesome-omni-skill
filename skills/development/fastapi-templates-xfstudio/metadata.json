@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b1ca4e24f32ea54c171f513396b8da201aead73446293b3f8c85ffcb660c92ff",
   "indexed_at": "2026-02-25T13:10:24.954Z",
-  "synced_at": "2026-02-27T02:36:24.544Z",
+  "synced_at": "2026-02-28T04:04:17.225Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7e2015ebd217bfe8b56571009a339d25480f010e185ca5f28adc530b9291e1cb",
   "install_command": "mkdir -p .claude/skills/fastapi-templates && curl -sL \"https://raw.githubusercontent.com/xfstudio/skills/main/fastapi-templates/SKILL.md\" > .claude/skills/fastapi-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/xfstudio/skills/main/fastapi-templates/SKILL.md"

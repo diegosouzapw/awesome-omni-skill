@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2e4d130e2581e605d1559f24f8384a63e1936f39fc7d71b2a097e6b2a548a9d2",
   "indexed_at": "2026-02-26T15:16:31.746Z",
-  "synced_at": "2026-02-27T02:36:11.010Z",
+  "synced_at": "2026-02-28T04:03:57.668Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/de7cb385369e2c712aee4633125c615ec59ce7191c2262157eef9014305d82aa",
   "install_command": "mkdir -p .claude/skills/react-guidelines && curl -sL \"https://raw.githubusercontent.com/roeibajayo/polygent-tools/main/.claude/skills/react-guidelines/SKILL.md\" > .claude/skills/react-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/roeibajayo/polygent-tools/main/.claude/skills/react-guidelines/SKILL.md"

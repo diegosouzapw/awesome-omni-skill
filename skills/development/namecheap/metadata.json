@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bbf80bfd90d12db342ff98e88e474584cebe322649380c2bd4ee6614374d3a84",
   "indexed_at": "2026-02-25T12:35:12.360Z",
-  "synced_at": "2026-02-27T02:36:16.745Z",
+  "synced_at": "2026-02-28T04:04:09.667Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/334205e267cb4eb65521a45fb4b015b30d8e19c00e8a45255666adbe7d5c3324",
   "install_command": "mkdir -p .claude/skills/namecheap && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/namecheap/SKILL.md\" > .claude/skills/namecheap/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/namecheap/SKILL.md"

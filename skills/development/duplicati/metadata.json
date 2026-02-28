@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "755268503c9dab30c8bef336673731a451408719a4b889e8e4b5ef66c734128a",
   "indexed_at": "2026-02-25T16:09:02.722Z",
-  "synced_at": "2026-02-27T02:36:19.259Z",
+  "synced_at": "2026-02-28T04:04:11.851Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/67b01877e8b6263c0af34c68b487fffe91d4bb5dda2e273a807ea4a8253de281",
   "install_command": "mkdir -p .claude/skills/duplicati && curl -sL \"https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/robnew/duplicati-skill/SKILL.md\" > .claude/skills/duplicati/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/robnew/duplicati-skill/SKILL.md"

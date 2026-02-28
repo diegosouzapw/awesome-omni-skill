@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bb15c2821d56d3d0d856a6ccef5107d9a18f5ad9352e7f50ceee94ef16c6ff98",
   "indexed_at": "2026-02-26T05:47:04.540Z",
-  "synced_at": "2026-02-27T02:35:57.460Z",
+  "synced_at": "2026-02-28T04:03:44.794Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f3905561875b8d8a4ef8c1616e216f4dd79d1c1642f34caeba75b753ae007315",
   "install_command": "mkdir -p .claude/skills/nodejs-backend-patterns && curl -sL \"https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/nodejs-backend-patterns/SKILL.md\" > .claude/skills/nodejs-backend-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/nodejs-backend-patterns/SKILL.md"

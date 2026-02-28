@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33f847b565bed04e7549c3c22f7b4be2202422c4c07a33d6594d9d930890f877",
   "indexed_at": "2026-02-26T05:55:34.951Z",
-  "synced_at": "2026-02-27T02:35:59.038Z",
+  "synced_at": "2026-02-28T04:03:46.173Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f0feb9d043b7852fee0498f0dbc49bbc08ceb740f27d14fa7a21c488b0e69bf1",
   "install_command": "mkdir -p .claude/skills/principal-engineer && curl -sL \"https://raw.githubusercontent.com/harshahosur81/ag-opencode-skills/main/skills/principal-engineer/SKILL.md\" > .claude/skills/principal-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/harshahosur81/ag-opencode-skills/main/skills/principal-engineer/SKILL.md"

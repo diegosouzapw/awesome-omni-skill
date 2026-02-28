@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b99d49df2fd1af608415b482c0485d3786ff6017a7e490d8678fb11fba8045a0",
   "indexed_at": "2026-02-26T22:35:40.995Z",
-  "synced_at": "2026-02-27T02:36:23.712Z",
+  "synced_at": "2026-02-28T04:04:16.199Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2d4b84c50afa8e8ad15c10ee98497e68dfa087a8784e875694c90b2f8a028644",
   "install_command": "mkdir -p .claude/skills/backend-patterns && curl -sL \"https://raw.githubusercontent.com/grmkris/agent-next-app/main/.claude/skills/backend-patterns/SKILL.md\" > .claude/skills/backend-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/grmkris/agent-next-app/main/.claude/skills/backend-patterns/SKILL.md"

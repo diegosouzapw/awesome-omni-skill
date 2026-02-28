@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f8bcf756091bf171298abba12bcdc875f3b98774a1c8de4671392d2612605104",
   "indexed_at": "2026-02-27T16:07:52.370Z",
-  "synced_at": "2026-02-27T18:16:56.922Z",
+  "synced_at": "2026-02-28T04:03:27.652Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d00e841b9b85f02baad390f1d95477494521878183d44e479cdd0fe93a63c678",
   "install_command": "mkdir -p .claude/skills/atlas && curl -sL \"https://raw.githubusercontent.com/ClementWalter/claudine/main/.claude/skills/atlas/SKILL.md\" > .claude/skills/atlas/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ClementWalter/claudine/main/.claude/skills/atlas/SKILL.md"

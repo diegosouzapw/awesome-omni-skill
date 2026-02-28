@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d80637981550ce332d76cc192b732108d1d2b42b3882457fe4aeece316624720",
   "indexed_at": "2026-02-25T16:25:27.018Z",
-  "synced_at": "2026-02-27T02:36:50.861Z",
+  "synced_at": "2026-02-28T04:04:49.181Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e07a6aa3101124cb092a7c428af0eaa7996e02c35bbc2884ba7e384d2fe21ac4",
   "install_command": "mkdir -p .claude/skills/event-sourcing-architect && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/event-sourcing-architect/SKILL.md\" > .claude/skills/event-sourcing-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/event-sourcing-architect/SKILL.md"

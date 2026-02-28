@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c17ca77366dbd18dd27dc581c927af34cac67baf754f096811e34c0f79d1208b",
   "indexed_at": "2026-02-26T15:19:52.102Z",
-  "synced_at": "2026-02-27T02:36:22.670Z",
+  "synced_at": "2026-02-28T04:04:15.129Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/853d072c9cebd84362e2546a515b0bf596106fb74fcd5bf0ce95305887b92616",
   "install_command": "mkdir -p .claude/skills/web-design-guidelines && curl -sL \"https://raw.githubusercontent.com/darthlinuxer/Agentic-Skills/main/.agent/skills/web-design-guidelines/SKILL.md\" > .claude/skills/web-design-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/darthlinuxer/Agentic-Skills/main/.agent/skills/web-design-guidelines/SKILL.md"

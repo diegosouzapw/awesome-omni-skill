@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ae3e96057b981f548dcb95abbcb2f466b614b777ab82f1bc5fdde705ec41c7a0",
   "indexed_at": "2026-02-26T05:49:51.325Z",
-  "synced_at": "2026-02-27T02:35:58.162Z",
+  "synced_at": "2026-02-28T04:03:45.466Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c7c055a357a4de22ea8fe254e0166af7936634ec43c811f4e1c9200c13595bd4",
   "install_command": "mkdir -p .claude/skills/_backend-mastery && curl -sL \"https://raw.githubusercontent.com/TriNgo0108/z-command/main/templates/skills/_backend-mastery/SKILL.md\" > .claude/skills/_backend-mastery/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TriNgo0108/z-command/main/templates/skills/_backend-mastery/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f1da10f7095c6567244516ecf6db3bee95326fb68503adc38731cfab95a021c8",
   "indexed_at": "2026-02-26T10:25:58.097Z",
-  "synced_at": "2026-02-27T02:36:34.371Z",
+  "synced_at": "2026-02-28T04:04:26.766Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/767d2aad73c374259cc60ac3096a567d2a77803893a906a84c0482f8da3c80fc",
   "install_command": "mkdir -p .claude/skills/fastapi-templates && curl -sL \"https://raw.githubusercontent.com/andre-sugai/cine-explorer-mvp-block/main/.agents/skills/skills/fastapi-templates/SKILL.md\" > .claude/skills/fastapi-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/andre-sugai/cine-explorer-mvp-block/main/.agents/skills/skills/fastapi-templates/SKILL.md"

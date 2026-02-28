@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "42583dc735e097f9294f330ef8fbe713fca2cb8591ac765427e394a391c5e183",
   "indexed_at": "2026-02-25T16:25:41.372Z",
-  "synced_at": "2026-02-27T02:36:50.528Z",
+  "synced_at": "2026-02-28T04:04:48.888Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5d6e5eca87cbc2435e7f6ea3a5e7120a1a3d2f2e393f05a827f54d9d3c903e4f",
   "install_command": "mkdir -p .claude/skills/figma-automation && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/figma-automation/SKILL.md\" > .claude/skills/figma-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/figma-automation/SKILL.md"

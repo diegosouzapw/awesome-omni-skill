@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1317e9b749fb0e698739f8acf7cd1e2410f74739d1758892b0cb4a5f2e56cd3a",
   "indexed_at": "2026-02-25T16:15:40.329Z",
-  "synced_at": "2026-02-27T02:36:49.888Z",
+  "synced_at": "2026-02-28T04:04:48.304Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ff51b82c6ab391672498f20b60cd7319b6f6683e1760c5175a1ba9d2cf54a05c",
   "install_command": "mkdir -p .claude/skills/20-andruia-niche-intelligence && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/20-andruia-niche-intelligence/SKILL.md\" > .claude/skills/20-andruia-niche-intelligence/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/20-andruia-niche-intelligence/SKILL.md"

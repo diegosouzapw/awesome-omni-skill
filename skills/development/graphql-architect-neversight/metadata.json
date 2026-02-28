@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "628a58cf2fcaf6da579e40853ec8c6bfd7a813bec35efa7c93e7bfad13ff7504",
   "indexed_at": "2026-02-26T07:46:00.465Z",
-  "synced_at": "2026-02-27T02:36:04.669Z",
+  "synced_at": "2026-02-28T04:03:51.644Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/36fdbc9afae9e49558b06ca1439e00aa2020449f50c78e31a821b05deec7d0dd",
   "install_command": "mkdir -p .claude/skills/graphql-architect && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/omer-metin/skills-for-antigravity/graphql-architect/SKILL.md\" > .claude/skills/graphql-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/omer-metin/skills-for-antigravity/graphql-architect/SKILL.md"

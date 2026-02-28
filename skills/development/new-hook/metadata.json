@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "07dbc89a20fcdb37cee597f07776292409ccb7a1e0086eed6a16e93ab087d0e0",
   "indexed_at": "2026-02-26T16:36:40.909Z",
-  "synced_at": "2026-02-27T02:36:12.331Z",
+  "synced_at": "2026-02-28T04:03:58.833Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/73d6a8e7c0f35b709ca4b267c84518b068e1056803571e74ced98e6e080a8e8a",
   "install_command": "mkdir -p .claude/skills/new-hook && curl -sL \"https://raw.githubusercontent.com/alexanderjamesmcleod/makecents/main/src/skills/automation/new-hook.skill/SKILL.md\" > .claude/skills/new-hook/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alexanderjamesmcleod/makecents/main/src/skills/automation/new-hook.skill/SKILL.md"

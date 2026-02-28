@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "92d3788f6b20e2b84d3f0a27daba0ac023973edc94f15bc7b3141e6f73c19ff1",
   "indexed_at": "2026-02-26T11:32:35.475Z",
-  "synced_at": "2026-02-27T02:36:08.310Z",
+  "synced_at": "2026-02-28T04:03:55.014Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/16d60e3f77dde69ea4727828364dc34eb37160a716bbf13a34ecdefe9fc82023",
   "install_command": "mkdir -p .claude/skills/language-framework-specialist && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/language-framework-specialist-prorise-cool-claude-code-multi-ag-278233e9/SKILL.md\" > .claude/skills/language-framework-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/language-framework-specialist-prorise-cool-claude-code-multi-ag-278233e9/SKILL.md"

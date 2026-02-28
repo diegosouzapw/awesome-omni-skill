@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6767f63ad4f1139e77e27bba3abb203d0a52b01be21a5bedbb011a37d7b40c99",
   "indexed_at": "2026-02-26T12:57:15.491Z",
-  "synced_at": "2026-02-27T02:36:22.310Z",
+  "synced_at": "2026-02-28T04:04:14.792Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/052b2fcc3f44d29befcbe04983e093d85fa899d0b348b0de72cd5fd63da2c01c",
   "install_command": "mkdir -p .claude/skills/til && curl -sL \"https://raw.githubusercontent.com/DaichiSaito/claude-skill-til/main/SKILL.md\" > .claude/skills/til/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/DaichiSaito/claude-skill-til/main/SKILL.md"

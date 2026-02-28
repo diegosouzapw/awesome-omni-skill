@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3469560514c53c719ae37c62d130482e35e8863a7df75453056a9a52643c7494",
   "indexed_at": "2026-02-24T18:57:30.697Z",
-  "synced_at": "2026-02-27T02:36:46.908Z",
+  "synced_at": "2026-02-28T04:04:45.463Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/503f89e4dd4fba2917e494cb32837e5f26c157172c614a715b5c8de11abc7a51",
   "install_command": "mkdir -p .claude/skills/brand-guidelines && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/brand-guidelines/SKILL.md\" > .claude/skills/brand-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/brand-guidelines/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "71f8c1d7018828a545a816aa0c19c21635bb95aa5d5060e2b41018a63f83740c",
   "indexed_at": "2026-02-26T22:35:34.479Z",
-  "synced_at": "2026-02-27T02:36:42.991Z",
+  "synced_at": "2026-02-28T04:04:38.608Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e8e14d2126a3010a1f0c97395de5018a3351c7c6aa418bd3c92536f77db9b0ae",
   "install_command": "mkdir -p .claude/skills/drizzle-patterns && curl -sL \"https://raw.githubusercontent.com/grmkris/agent-next-app/main/.claude/skills/drizzle-patterns/SKILL.md\" > .claude/skills/drizzle-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/grmkris/agent-next-app/main/.claude/skills/drizzle-patterns/SKILL.md"

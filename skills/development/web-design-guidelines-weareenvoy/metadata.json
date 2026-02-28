@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e5e46d8cfeecdeb83f45e1a92ba863263d369b255517b19a76d89cbfadf8cc84",
   "indexed_at": "2026-02-26T15:16:05.476Z",
-  "synced_at": "2026-02-27T02:36:38.524Z",
+  "synced_at": "2026-02-28T04:04:33.664Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e13d56f3e3d03a0966ca4d21b9d6b6afef19aab75d4ce8e1cae7b4e48f3b52d1",
   "install_command": "mkdir -p .claude/skills/web-design-guidelines && curl -sL \"https://raw.githubusercontent.com/weareenvoy/iron-mountain-web/main/.agents/skills/web-design-guidelines/SKILL.md\" > .claude/skills/web-design-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/weareenvoy/iron-mountain-web/main/.agents/skills/web-design-guidelines/SKILL.md"

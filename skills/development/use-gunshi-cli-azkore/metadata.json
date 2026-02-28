@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f067754af4133ea45feca5a786a21b8064e53441353f935e9734610ac62cfa34",
   "indexed_at": "2026-02-26T22:33:56.993Z",
-  "synced_at": "2026-02-27T02:36:42.169Z",
+  "synced_at": "2026-02-28T04:04:37.893Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/99d509a13f2a7bd708b421148a05f8794b041a360142468531c10a48d7c9046c",
   "install_command": "mkdir -p .claude/skills/use-gunshi-cli && curl -sL \"https://raw.githubusercontent.com/azkore/ccusage/main/.claude/skills/use-gunshi-cli/SKILL.md\" > .claude/skills/use-gunshi-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/azkore/ccusage/main/.claude/skills/use-gunshi-cli/SKILL.md"

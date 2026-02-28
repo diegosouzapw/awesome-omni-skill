@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "992f00327bccfac275b23c3e729c774c5f58d0dd0a5b269aacae97320d3c53ca",
   "indexed_at": "2026-02-25T17:07:00.555Z",
-  "synced_at": "2026-02-27T02:36:37.130Z",
+  "synced_at": "2026-02-28T04:04:32.247Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/543be608619a5fc081ded99dbcf9426a998011e79c43d07d2613ad67667afe9c",
   "install_command": "mkdir -p .claude/skills/analyze && curl -sL \"https://raw.githubusercontent.com/ssccio/cc-on-web-base/main/skills/analyze/SKILL.md\" > .claude/skills/analyze/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ssccio/cc-on-web-base/main/skills/analyze/SKILL.md"

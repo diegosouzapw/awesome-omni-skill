@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aea4aa06e70245e6a385ef76babb2ec0f637acbc79bf979fc7618ef8f97aa808",
   "indexed_at": "2026-02-25T21:41:57.788Z",
-  "synced_at": "2026-02-27T02:36:20.014Z",
+  "synced_at": "2026-02-28T04:04:12.494Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b8551d1cce59c52af7f2f838eb55e71a549eece2050aea8b504c39145681c033",
   "install_command": "mkdir -p .claude/skills/ln-751-command-templates && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/levn-ln-751-command-templates/SKILL.md\" > .claude/skills/ln-751-command-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/levn-ln-751-command-templates/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "61c4ed4ded6b4eaa031f6f8fcf64fa0ab05595a76d863d084f4a3acc6b11e55d",
   "indexed_at": "2026-02-25T12:51:37.184Z",
-  "synced_at": "2026-02-27T02:36:16.589Z",
+  "synced_at": "2026-02-28T04:04:09.281Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7bb4a105cb17fd22efdca298ee7d55c497e4d822668c712a9cab94f41e7f2184",
   "install_command": "mkdir -p .claude/skills/sandboxes-js-sdk && curl -sL \"https://raw.githubusercontent.com/koyeb/koyeb-skills/main/plugins/koyeb/skills/sandboxes-js-sdk/SKILL.md\" > .claude/skills/sandboxes-js-sdk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/koyeb/koyeb-skills/main/plugins/koyeb/skills/sandboxes-js-sdk/SKILL.md"

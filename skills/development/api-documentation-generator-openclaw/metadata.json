@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a941db6a56feb74ec9ada9b830c07d80b8db0158d62480c2a94e60c23f4541b5",
   "indexed_at": "2026-02-26T07:55:17.852Z",
-  "synced_at": "2026-02-27T02:36:43.322Z",
+  "synced_at": "2026-02-28T04:04:40.335Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/771bc338ea5425349a8acaed3ad3f961624bdd2efc2868187d929e308d98f200",
   "install_command": "mkdir -p .claude/skills/api-documentation-generator && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/ryudi84/sovereign-api-docs-generator/SKILL.md\" > .claude/skills/api-documentation-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ryudi84/sovereign-api-docs-generator/SKILL.md"

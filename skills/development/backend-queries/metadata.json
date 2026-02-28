@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "45bc5328c6ab09f54f4aa02d75573fe8b8158453ae6c3263defb05883f0be0c7",
   "indexed_at": "2026-02-25T21:42:08.679Z",
-  "synced_at": "2026-02-27T02:35:55.405Z",
+  "synced_at": "2026-02-28T04:03:42.763Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/daac41e9977417f6a0313c6c71b0008f2fbe272a7f88525755ec45638b0dcd56",
   "install_command": "mkdir -p .claude/skills/backend-queries && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/backend-queries-devanb-lucidlog/SKILL.md\" > .claude/skills/backend-queries/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/backend-queries-devanb-lucidlog/SKILL.md"

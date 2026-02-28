@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "86b592bf8c87288cf45a2f359fa9a85056abb7d15f62f125afca9decdfe2abef",
   "indexed_at": "2026-02-26T16:02:24.969Z",
-  "synced_at": "2026-02-27T02:36:35.247Z",
+  "synced_at": "2026-02-28T04:04:27.693Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3b9c7105b9351a08018a5606657ecfecb0a6960dc6958601235a45909dcfc693",
   "install_command": "mkdir -p .claude/skills/openai-api && curl -sL \"https://raw.githubusercontent.com/traviskaufman/info-t/main/.claude/skills/openai-api/SKILL.md\" > .claude/skills/openai-api/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/traviskaufman/info-t/main/.claude/skills/openai-api/SKILL.md"

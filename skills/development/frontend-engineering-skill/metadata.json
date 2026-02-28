@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6e043e4553941d42a9e55d8391de966a79eec7cdaab2835f78dc8afe2ed733b2",
   "indexed_at": "2026-02-26T06:45:14.640Z",
-  "synced_at": "2026-02-27T02:36:20.213Z",
+  "synced_at": "2026-02-28T04:04:12.696Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3171c862a3a52068835438c1d2a63938396001ea5da7ed8c04f00c9b71e1e6c5",
   "install_command": "mkdir -p .claude/skills/frontend-engineering-skill && curl -sL \"https://raw.githubusercontent.com/Krasimir-Hristov/mmd_zentrum/main/.agent/skills/frontend_skill.md/SKILL.md\" > .claude/skills/frontend-engineering-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Krasimir-Hristov/mmd_zentrum/main/.agent/skills/frontend_skill.md/SKILL.md"

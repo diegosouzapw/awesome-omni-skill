@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "910caa09cc2427a3f95d9cf57677f4d204e9ba2607d1f58fe8970b41eb1c47f2",
   "indexed_at": "2026-02-26T03:36:37.048Z",
-  "synced_at": "2026-02-27T02:36:31.884Z",
+  "synced_at": "2026-02-28T04:04:24.436Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/badb01c356a87d4cf359c718704a0712274b5a7bba8cf1de91173896edd92e61",
   "install_command": "mkdir -p .claude/skills/fastapi-templates && curl -sL \"https://raw.githubusercontent.com/Sorawittj/Kaprao-app/main/.agents/skils/skills/fastapi-templates/SKILL.md\" > .claude/skills/fastapi-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Sorawittj/Kaprao-app/main/.agents/skils/skills/fastapi-templates/SKILL.md"

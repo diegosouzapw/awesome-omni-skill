@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "19eca7ce2b81cf65986948df694d58c21e7616e404b8792c69e26f70382634c2",
   "indexed_at": "2026-02-27T15:05:16.807Z",
-  "synced_at": "2026-02-27T18:16:56.352Z",
+  "synced_at": "2026-02-28T04:03:26.903Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/be8ab4f6fa28836cb5cbfe1a8672e3945b11d4ff822134d3553223de5eb7bb2a",
   "install_command": "mkdir -p .claude/skills/workshop-review-technical && curl -sL \"https://raw.githubusercontent.com/neo4j-graphacademy/courses/main/.claude/skills/workshop-review-technical/SKILL.md\" > .claude/skills/workshop-review-technical/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/neo4j-graphacademy/courses/main/.claude/skills/workshop-review-technical/SKILL.md"

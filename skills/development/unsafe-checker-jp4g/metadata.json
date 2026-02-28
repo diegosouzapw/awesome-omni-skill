@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4c00f7e6251ba2751a37236c92bd63611b5abc3345e7cc3e64f544bdbd3ba263",
   "indexed_at": "2026-02-26T22:35:19.480Z",
-  "synced_at": "2026-02-27T02:35:45.557Z",
+  "synced_at": "2026-02-28T04:03:31.290Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/35bf9c9eee73b04b7e46d696089fb7a845022628be5783464a7f2c3768b14d30",
   "install_command": "mkdir -p .claude/skills/unsafe-checker && curl -sL \"https://raw.githubusercontent.com/jp4g/barrustenburg/main/.agents/skills/unsafe-checker/SKILL.md\" > .claude/skills/unsafe-checker/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jp4g/barrustenburg/main/.agents/skills/unsafe-checker/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4389b387490fe22979748973aaf0ab120c6b995f5b1fad20d84853b621d94843",
   "indexed_at": "2026-02-26T22:35:16.329Z",
-  "synced_at": "2026-02-27T02:35:45.385Z",
+  "synced_at": "2026-02-28T04:03:31.097Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d8a7d1a59fc08e0ba7e537a479d21f19e5c8ac9d17f1cde55f5ea2d3a3b16f2e",
   "install_command": "mkdir -p .claude/skills/unsafe-checker && curl -sL \"https://raw.githubusercontent.com/flexisuite-org/FlexiSuite_Kernel/main/.agents/skills/unsafe-checker/SKILL.md\" > .claude/skills/unsafe-checker/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/flexisuite-org/FlexiSuite_Kernel/main/.agents/skills/unsafe-checker/SKILL.md"

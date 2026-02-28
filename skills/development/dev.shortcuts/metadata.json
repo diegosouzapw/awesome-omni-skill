@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "249ac719a8b92f75e6ea72e1a6fd8f66850027d1b98b0c3e3c4e9740bf73a1be",
   "indexed_at": "2026-02-25T20:40:45.740Z",
-  "synced_at": "2026-02-27T02:35:54.671Z",
+  "synced_at": "2026-02-28T04:03:42.025Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f080f2ecab7a5e1de51a973417eb8b1b105576f815c9141be65fbbcdbe540357",
   "install_command": "mkdir -p .claude/skills/dev.shortcuts && curl -sL \"https://raw.githubusercontent.com/kevinslin/skills/main/active/dev.shortcuts/SKILL.md\" > .claude/skills/dev.shortcuts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kevinslin/skills/main/active/dev.shortcuts/SKILL.md"

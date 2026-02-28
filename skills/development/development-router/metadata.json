@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "debb17272ee255659826c031acc71f6a9a156ba60792b606edbedff88a01332e",
   "indexed_at": "2026-02-26T05:56:05.144Z",
-  "synced_at": "2026-02-27T02:35:59.218Z",
+  "synced_at": "2026-02-28T04:03:46.345Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/45300a964ed5475cffda9110469a69bcc6fd0362f44c7ca19ebda5dbfce7e841",
   "install_command": "mkdir -p .claude/skills/development-router && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/zpankz/mcp-skillset/development-router/SKILL.md\" > .claude/skills/development-router/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/zpankz/mcp-skillset/development-router/SKILL.md"

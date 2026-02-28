@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "97f95f2bdbaea07bab4ec294d1f7084d368ff1f60779df6327242ecc50533b95",
   "indexed_at": "2026-02-26T06:47:43.358Z",
-  "synced_at": "2026-02-27T02:36:00.856Z",
+  "synced_at": "2026-02-28T04:03:47.865Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d02119c31f53358581ec9e9cac15cf00064cc4c4fd6a66fe84c9bf4317286474",
   "install_command": "mkdir -p .claude/skills/frontend-responsive && curl -sL \"https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/devanb/frontend-responsive/SKILL.md\" > .claude/skills/frontend-responsive/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/devanb/frontend-responsive/SKILL.md"

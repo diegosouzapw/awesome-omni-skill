@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "79bc7b1c4ff65ec2b5caf46beb243f633cbcae46f5f194787bccd9a845be7338",
   "indexed_at": "2026-02-26T06:51:32.061Z",
-  "synced_at": "2026-02-27T02:36:40.884Z",
+  "synced_at": "2026-02-28T04:04:36.477Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d4e9dc4bbd279c15d05e98438c0d77026060bcc6c6fa36dd990fe85b3b70ede1",
   "install_command": "mkdir -p .claude/skills/frontend-component && curl -sL \"https://raw.githubusercontent.com/afettah/git-coupling-analyzer/main/.claude/skills/frontend-component/SKILL.md\" > .claude/skills/frontend-component/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/afettah/git-coupling-analyzer/main/.claude/skills/frontend-component/SKILL.md"

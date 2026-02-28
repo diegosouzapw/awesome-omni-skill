@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b9d98ac344cff1eaf9dc2ed73cde7bc67320709e9383ab8d297b96b4550d8aa7",
   "indexed_at": "2026-02-25T12:52:25.988Z",
-  "synced_at": "2026-02-27T02:36:17.893Z",
+  "synced_at": "2026-02-28T04:04:11.012Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/49610ef972f83e360ecc14eb26e11ab5998c1ecbc6f5779d5014bc8556d91559",
   "install_command": "mkdir -p .claude/skills/expansion-playbook && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/expansion-playbook-gtmagents-gtm-agents/SKILL.md\" > .claude/skills/expansion-playbook/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/expansion-playbook-gtmagents-gtm-agents/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9852902adadc76ebc6fdee0d67efddf8873e5e1b6d2e5bb160d4ca159a9aadef",
   "indexed_at": "2026-02-25T17:40:15.761Z",
-  "synced_at": "2026-02-27T02:36:45.109Z",
+  "synced_at": "2026-02-28T04:04:43.645Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cf38b968c9b380115a97fc866e9a777ea26175e665ddae7ebe2958e8f9b408f3",
   "install_command": "mkdir -p .claude/skills/coding-standards && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/coding-standards-thebeardedbearsas-claude-craft/SKILL.md\" > .claude/skills/coding-standards/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/coding-standards-thebeardedbearsas-claude-craft/SKILL.md"

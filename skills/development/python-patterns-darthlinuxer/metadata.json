@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/darthlinuxer/Agentic-Skills",
   "author": "darthlinuxer",
   "author_avatar": "https://github.com/darthlinuxer.png",
-  "file_path": ".cursor/skills/python-patterns/SKILL.md",
+  "file_path": ".claude/skills/python-patterns/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 41,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "05f014e0e8fcbad5a67a274e1582e22aa2522e298417ea5872c288b328facd99",
-  "indexed_at": "2026-02-25T16:08:43.446Z",
-  "synced_at": "2026-02-28T04:02:22.766Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/77a16d72de9556719468f76fe554868ed4c4808e103a3b2d51f53d880dda3c9d",
-  "install_command": "mkdir -p .claude/skills/python-patterns && curl -sL \"https://raw.githubusercontent.com/darthlinuxer/Agentic-Skills/main/.cursor/skills/python-patterns/SKILL.md\" > .claude/skills/python-patterns/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/darthlinuxer/Agentic-Skills/main/.cursor/skills/python-patterns/SKILL.md"
+  "content_hash": "2601d04a57581cc3eec3a8d380cb97134027d10366f5df85c21c9e92e867d8a7",
+  "indexed_at": "2026-02-27T22:10:28.002Z",
+  "synced_at": "2026-02-28T04:03:29.258Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7c1c365b32fc8747e7dbd0bdaed25e587fb7d8e301531ca0643c0b53ead42294",
+  "install_command": "mkdir -p .claude/skills/python-patterns && curl -sL \"https://raw.githubusercontent.com/darthlinuxer/Agentic-Skills/main/.claude/skills/python-patterns/SKILL.md\" > .claude/skills/python-patterns/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/darthlinuxer/Agentic-Skills/main/.claude/skills/python-patterns/SKILL.md"
 }

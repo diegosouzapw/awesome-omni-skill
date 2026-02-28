@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "76aad1476010d2b8f52489f4c03c66608b4145ab783c4a558975e31167f122d3",
   "indexed_at": "2026-02-26T06:50:28.184Z",
-  "synced_at": "2026-02-27T02:36:02.371Z",
+  "synced_at": "2026-02-28T04:03:49.418Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eb2bbca2caac252bee31f4132219491f1d3846bc91468b774809f4fd5636fccc",
   "install_command": "mkdir -p .claude/skills/frontend-css && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/frontend-css-devanb-lucidlog/SKILL.md\" > .claude/skills/frontend-css/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/frontend-css-devanb-lucidlog/SKILL.md"

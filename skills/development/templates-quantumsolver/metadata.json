@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "585e41b64e3fac4bf98e4a78d19f0c6e040b4137e8095e77e04f4b54ef2e94e1",
   "indexed_at": "2026-02-26T12:25:15.814Z",
-  "synced_at": "2026-02-27T02:36:10.337Z",
+  "synced_at": "2026-02-28T04:03:57.017Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/be6723180d88eee46c5e77913b05b0159dde8d60c344ec90d9adfb055ad7ff45",
   "install_command": "mkdir -p .claude/skills/templates && curl -sL \"https://raw.githubusercontent.com/QuantumSolver/e-health-kit/main/.agent/skills/app-builder/templates/SKILL.md\" > .claude/skills/templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/QuantumSolver/e-health-kit/main/.agent/skills/app-builder/templates/SKILL.md"

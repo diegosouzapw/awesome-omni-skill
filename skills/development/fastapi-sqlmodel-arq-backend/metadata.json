@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f725fa7cf90324ee563c51a82f0cbcdb5f31727d2b9f6873643ad72f9600d3c9",
   "indexed_at": "2026-02-26T09:35:08.133Z",
-  "synced_at": "2026-02-27T02:36:34.221Z",
+  "synced_at": "2026-02-28T04:04:26.594Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/99c0470b65cdd57362c1aa291f56609730ff46140a88c921b7df69a24eab8f8f",
   "install_command": "mkdir -p .claude/skills/fastapi-sqlmodel-arq-backend && curl -sL \"https://raw.githubusercontent.com/SaintFore/OpenCodeSettings/main/skills/fastapi-sqlmodel-arq-backend/SKILL.md\" > .claude/skills/fastapi-sqlmodel-arq-backend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/SaintFore/OpenCodeSettings/main/skills/fastapi-sqlmodel-arq-backend/SKILL.md"

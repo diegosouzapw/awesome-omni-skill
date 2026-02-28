@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9abb110ff41a61c7eef571e79527a60e6d024266ef341135f4a21953433361b9",
   "indexed_at": "2026-02-27T13:25:55.083Z",
-  "synced_at": "2026-02-27T18:16:56.099Z",
+  "synced_at": "2026-02-28T04:03:26.553Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ddf81d27c75a9f19a64f32651c583dd5da5844fa59059dd9e68a697a86fabc02",
   "install_command": "mkdir -p .claude/skills/claude-flow-hook-customizing && curl -sL \"https://raw.githubusercontent.com/delorenj/00_ceiling/main/claude-flow-hook-customizing/SKILL.md\" > .claude/skills/claude-flow-hook-customizing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/delorenj/00_ceiling/main/claude-flow-hook-customizing/SKILL.md"

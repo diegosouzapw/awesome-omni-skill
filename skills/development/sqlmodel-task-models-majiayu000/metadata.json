@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f0d822e0c30b4162e7e9c9cbaa9157c3f3778e6e2860f4be9a75c55660d86b4c",
   "indexed_at": "2026-02-25T14:06:51.059Z",
-  "synced_at": "2026-02-27T02:35:50.297Z",
+  "synced_at": "2026-02-28T04:03:37.572Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a844685b20495a0866629f1c5258ef8330feb2eddb86022b64c4dc5d458bb106",
   "install_command": "mkdir -p .claude/skills/sqlmodel-task-models && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/sqlmodel-task-models-sobansaud-hackhathon-2-350f594e/SKILL.md\" > .claude/skills/sqlmodel-task-models/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/sqlmodel-task-models-sobansaud-hackhathon-2-350f594e/SKILL.md"

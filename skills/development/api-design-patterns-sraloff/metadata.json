@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9d372f495a2830e20d0826a43768298328347e0bf366320ba8c6631e58d988c7",
   "indexed_at": "2026-02-26T07:46:27.879Z",
-  "synced_at": "2026-02-27T02:36:21.109Z",
+  "synced_at": "2026-02-28T04:04:13.623Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7ba0a18a4c5ec69325c254a7354469977d73bd02d9edb2f118544791bf9f5e2b",
   "install_command": "mkdir -p .claude/skills/api-design-patterns && curl -sL \"https://raw.githubusercontent.com/sraloff/gravityboots/main/.agent/skills/api-design-patterns/SKILL.md\" > .claude/skills/api-design-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sraloff/gravityboots/main/.agent/skills/api-design-patterns/SKILL.md"

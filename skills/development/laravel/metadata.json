@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5b8520d613a8341b02f1b4c4c1a56867bfc97207a9b4b1d3d2043f958b884a57",
   "indexed_at": "2026-02-26T23:31:38.229Z",
-  "synced_at": "2026-02-27T02:36:13.509Z",
+  "synced_at": "2026-02-28T04:04:00.049Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/74e91649095eb94fe50857c506f10d0ba8a9f22991a8be1fbb1a43d6873483fb",
   "install_command": "mkdir -p .claude/skills/laravel && curl -sL \"https://raw.githubusercontent.com/v24kuon/KomaFull/main/.cursor/skills/laravel/SKILL.md\" > .claude/skills/laravel/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/v24kuon/KomaFull/main/.cursor/skills/laravel/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bd720f293287dea18ef6cfa8e27b6f341e3187644e43bc54b6b5fa3b7d7b0ba5",
   "indexed_at": "2026-02-25T17:26:14.033Z",
-  "synced_at": "2026-02-27T02:36:49.557Z",
+  "synced_at": "2026-02-28T04:04:48.016Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d6b0a9392c517d1579e648783aeb805d9f6243951c437ef8126e0b4f3f1f8b6a",
   "install_command": "mkdir -p .claude/skills/nerdzao-elite && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/nerdzao-elite/SKILL.md\" > .claude/skills/nerdzao-elite/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/nerdzao-elite/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f668512d78e34d65f8581052639d7e1bbe57cb7f54a6cdb4d0aaad3dc6bed861",
   "indexed_at": "2026-02-26T12:01:24.367Z",
-  "synced_at": "2026-02-27T02:36:09.277Z",
+  "synced_at": "2026-02-28T04:03:55.968Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/30d04a989ad47a1d0547410f6762eefcf1c9b77cef339135721e954a6aa97917",
   "install_command": "mkdir -p .claude/skills/claude-web-server-llm && curl -sL \"https://raw.githubusercontent.com/hanwsf/web_server/main/SKILL.md\" > .claude/skills/claude-web-server-llm/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hanwsf/web_server/main/SKILL.md"

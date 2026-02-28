@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "290198c64dae549f03dd9e34c7efb28f16de2a6c078b5b8805c6870a059f7cd7",
   "indexed_at": "2026-02-25T20:35:47.547Z",
-  "synced_at": "2026-02-27T02:35:54.368Z",
+  "synced_at": "2026-02-28T04:03:41.693Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/59938aaa72e967126bbe9103adf64b5d43dc602a905b9fb6a29d63afbdce2412",
   "install_command": "mkdir -p .claude/skills/vps-memory && curl -sL \"https://raw.githubusercontent.com/flosrn/.claude/main/skills/vps-memory/SKILL.md\" > .claude/skills/vps-memory/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/flosrn/.claude/main/skills/vps-memory/SKILL.md"

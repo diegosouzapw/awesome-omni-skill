@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "69a510be401023eccbba9dded92c52b3b095f61a3dfb987a7af6130ebf9cf466",
   "indexed_at": "2026-02-25T16:10:09.640Z",
-  "synced_at": "2026-02-27T02:35:51.958Z",
+  "synced_at": "2026-02-28T04:03:39.249Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aec2e73d1490bcda5554e851a8aacf15827ab0ff134fba819d7b8b8531b69d9e",
   "install_command": "mkdir -p .claude/skills/octoclaw && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/peterhanily/octoclaw-print/SKILL.md\" > .claude/skills/octoclaw/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/peterhanily/octoclaw-print/SKILL.md"

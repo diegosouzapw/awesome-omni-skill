@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2c05d64c5bf61ba699f1de4f9e9d6214ea8199618ad9a5ec1506f303f1f56c7f",
   "indexed_at": "2026-02-27T15:06:29.123Z",
-  "synced_at": "2026-02-27T18:16:56.466Z",
+  "synced_at": "2026-02-28T04:03:27.076Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/29a8c5c2f3fbc17e5533061e2debf07921a68f9324aef492a70f189d24516cae",
   "install_command": "mkdir -p .claude/skills/session-start && curl -sL \"https://raw.githubusercontent.com/dusktreader/site-nine/main/.opencode/skills/session-start/SKILL.md\" > .claude/skills/session-start/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dusktreader/site-nine/main/.opencode/skills/session-start/SKILL.md"

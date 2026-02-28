@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dda9bc4f8dd396286026253b94dc16811d809e3ce4a32b3138aed2848c337394",
   "indexed_at": "2026-02-25T17:39:09.125Z",
-  "synced_at": "2026-02-27T02:36:39.943Z",
+  "synced_at": "2026-02-28T04:04:35.465Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/471c0e21c65674a8852c9028c70e349f3487fab3f0a735b4935568461e6717d1",
   "install_command": "mkdir -p .claude/skills/niko-plan && curl -sL \"https://raw.githubusercontent.com/Texarkanine/ai-rizz/main/.cursor/skills/shared/niko-plan/SKILL.md\" > .claude/skills/niko-plan/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Texarkanine/ai-rizz/main/.cursor/skills/shared/niko-plan/SKILL.md"

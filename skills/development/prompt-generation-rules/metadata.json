@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "58fd9eef707085a5978bf92a4d01c3aac62eb81c293b4bbc958bd36d491c34de",
   "indexed_at": "2026-02-26T15:19:59.561Z",
-  "synced_at": "2026-02-27T02:36:15.890Z",
+  "synced_at": "2026-02-28T04:04:08.461Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/66773d7037f43373cf27f9b16e185dad392b7b858410c94b2b118af8e6c799fa",
   "install_command": "mkdir -p .claude/skills/prompt-generation-rules && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/prompt-generation-rules/SKILL.md\" > .claude/skills/prompt-generation-rules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/prompt-generation-rules/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "618175fb7197e91c71c76590f52e7b7923c646b36eeb09dd06d13ace67269f59",
   "indexed_at": "2026-02-25T20:37:25.363Z",
-  "synced_at": "2026-02-27T02:36:30.149Z",
+  "synced_at": "2026-02-28T04:04:22.776Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d697758cb9ca0b409fc59d3e844d243dd815538c601c554b2158da6f36738a30",
   "install_command": "mkdir -p .claude/skills/fastapi-templates && curl -sL \"https://raw.githubusercontent.com/abmbodj/Riven-Mobile/main/.github/skills/fastapi-templates/SKILL.md\" > .claude/skills/fastapi-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/abmbodj/Riven-Mobile/main/.github/skills/fastapi-templates/SKILL.md"

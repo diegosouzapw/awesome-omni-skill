@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2a02cf7ecca46752d38e33e46294064f54d57b21f2f9479ed389abc85703d182",
   "indexed_at": "2026-02-25T20:37:23.617Z",
-  "synced_at": "2026-02-27T02:36:29.987Z",
+  "synced_at": "2026-02-28T04:04:22.617Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cc2214e58e1f5f872b62251127b977128243e18c654f53d0422ac14589528568",
   "install_command": "mkdir -p .claude/skills/fastapi-templates && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/antigravity-awesome-skills/fastapi-templates/SKILL.md\" > .claude/skills/fastapi-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/antigravity-awesome-skills/fastapi-templates/SKILL.md"

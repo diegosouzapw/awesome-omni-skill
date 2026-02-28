@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2068c6edae4a231096efbeb9cdf9b2ef789fd6271ebc9e1f165885e1e1593115",
   "indexed_at": "2026-02-25T12:36:53.784Z",
-  "synced_at": "2026-02-27T02:35:46.441Z",
+  "synced_at": "2026-02-28T04:03:34.493Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eccec6ccc5c8a2b3d9664a0ec93eeaf5b35da3ecefeae08d4648eea885380383",
   "install_command": "mkdir -p .claude/skills/refactor-html && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/refactor-html/SKILL.md\" > .claude/skills/refactor-html/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/refactor-html/SKILL.md"
