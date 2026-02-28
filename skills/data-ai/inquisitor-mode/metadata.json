@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "114dab2f089d75cb2ffce1ee628a2e7aab365deae622b48885b6abe72d44c53f",
   "indexed_at": "2026-02-27T09:24:16.721Z",
-  "synced_at": "2026-02-27T13:14:23.727Z",
+  "synced_at": "2026-02-28T04:22:26.566Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/611ad0b626d30cb9c17249322f9667dc47353e8627b6435de0fd36c9ab8917aa",
   "install_command": "mkdir -p .claude/skills/inquisitor-mode && curl -sL \"https://raw.githubusercontent.com/ispyridis/inquisitor-mode/main/SKILL.md\" > .claude/skills/inquisitor-mode/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ispyridis/inquisitor-mode/main/SKILL.md"

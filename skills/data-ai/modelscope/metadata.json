@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "467fde33279d647504e65c666905b9ad5f49abd40c1c447c8c5bc338d0f64e93",
   "indexed_at": "2026-02-27T00:30:31.407Z",
-  "synced_at": "2026-02-27T02:50:57.052Z",
+  "synced_at": "2026-02-28T04:22:21.269Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ac5b29693e0f5032451b383d8d3bf358df56414d57be22ac4880f132424cb2ab",
   "install_command": "mkdir -p .claude/skills/modelscope && curl -sL \"https://raw.githubusercontent.com/zzylanmengqingchuan/modelscope-Z-Image-Turbo-skill/main/SKILL.md\" > .claude/skills/modelscope/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zzylanmengqingchuan/modelscope-Z-Image-Turbo-skill/main/SKILL.md"

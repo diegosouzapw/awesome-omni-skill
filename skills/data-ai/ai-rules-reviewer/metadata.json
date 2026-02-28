@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "397a46e3fd2376b84b3bf38b36655d01dea24e949612ecdc80f1b599c04e97a4",
   "indexed_at": "2026-02-26T23:40:37.623Z",
-  "synced_at": "2026-02-27T02:50:56.673Z",
+  "synced_at": "2026-02-28T04:22:20.888Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6356c64c906a1e7af58a86c532f61f7b7366e24aeabfbc96279e70a0430fbe13",
   "install_command": "mkdir -p .claude/skills/ai-rules-reviewer && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/jthoms1/builder-skills/ai-rules-reviewer/SKILL.md\" > .claude/skills/ai-rules-reviewer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/jthoms1/builder-skills/ai-rules-reviewer/SKILL.md"

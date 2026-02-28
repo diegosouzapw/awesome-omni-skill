@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5d90818764da7cd3f4ea524d1ca784a5724ece002ec4dfd0b3fad119e7abb655",
   "indexed_at": "2026-02-26T16:33:56.905Z",
-  "synced_at": "2026-02-27T02:50:27.004Z",
+  "synced_at": "2026-02-28T04:21:53.740Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/83e9eb695d5d5aca4be9e063d922ec0a7989566f895ff8c5f881a72fe93d71de",
   "install_command": "mkdir -p .claude/skills/capture && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/brennan-wilkerson/second-brain-public/capture/SKILL.md\" > .claude/skills/capture/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/brennan-wilkerson/second-brain-public/capture/SKILL.md"

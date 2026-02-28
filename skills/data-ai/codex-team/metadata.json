@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "47ab2b74c029753e29c794c25cafd27e03d8339d58695feb93c4c4785b5a4466",
   "indexed_at": "2026-02-26T16:02:53.794Z",
-  "synced_at": "2026-02-27T02:50:23.026Z",
+  "synced_at": "2026-02-28T04:21:49.917Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f7092a506db9a986c3d8d55bdab3ef37f794d3c3b19501c258e0da7cf081d734",
   "install_command": "mkdir -p .claude/skills/codex-team && curl -sL \"https://raw.githubusercontent.com/boshu2/agentops/main/skills/codex-team/SKILL.md\" > .claude/skills/codex-team/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boshu2/agentops/main/skills/codex-team/SKILL.md"

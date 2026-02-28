@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7dc85286fc7a6497827663494787397bffa6720c67820ed955353c80387a1e6c",
   "indexed_at": "2026-02-27T16:08:17.353Z",
-  "synced_at": "2026-02-27T18:16:20.446Z",
+  "synced_at": "2026-02-28T04:22:42.145Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/caa504a101492f63996c492425955fc978a15e380b900d3ff0eb5aa306bb6661",
   "install_command": "mkdir -p .claude/skills/llm-council && curl -sL \"https://raw.githubusercontent.com/gcpdev/llm-council-skill/main/llm-council/SKILL.md\" > .claude/skills/llm-council/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/gcpdev/llm-council-skill/main/llm-council/SKILL.md"

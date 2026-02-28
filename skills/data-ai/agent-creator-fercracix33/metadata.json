@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "efa3ddad5bfad778b2280c151a9583fe1f03af506f13ae7f0a365a26e948c391",
   "indexed_at": "2026-02-26T13:24:48.752Z",
-  "synced_at": "2026-02-27T02:50:08.965Z",
+  "synced_at": "2026-02-28T04:21:36.440Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f5ac2979197d1ea7ec22abe2ecebcecbe309a48bfb15b74ad08b0a3b68b64817",
   "install_command": "mkdir -p .claude/skills/agent-creator && curl -sL \"https://raw.githubusercontent.com/fercracix33/poli2-clean-architecture/main/.claude/skills/agent-creator/SKILL.md\" > .claude/skills/agent-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fercracix33/poli2-clean-architecture/main/.claude/skills/agent-creator/SKILL.md"

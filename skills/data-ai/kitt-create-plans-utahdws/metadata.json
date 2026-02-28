@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c91fb233dd64e9bc49bc02443e64e9dcc0d763ef623333558feb39a3357e9163",
   "indexed_at": "2026-02-27T06:50:55.475Z",
-  "synced_at": "2026-02-27T13:14:22.257Z",
+  "synced_at": "2026-02-28T04:22:24.355Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/68d303f3bda34145ec8ef87386c35304f9be51fe9c72041902e575a76e0267e3",
   "install_command": "mkdir -p .claude/skills/kitt-create-plans && curl -sL \"https://raw.githubusercontent.com/utahdws/webteam-ai-tools/main/src/ai_cli_mcp/resources/skills/kitt-create-plans/SKILL.md\" > .claude/skills/kitt-create-plans/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/utahdws/webteam-ai-tools/main/src/ai_cli_mcp/resources/skills/kitt-create-plans/SKILL.md"

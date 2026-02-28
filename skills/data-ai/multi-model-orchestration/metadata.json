@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d711d604d4ab7152be7561308306caca6f7b25da6c0e5b47e3f7702494487f62",
   "indexed_at": "2026-02-26T16:01:27.597Z",
-  "synced_at": "2026-02-27T02:50:21.490Z",
+  "synced_at": "2026-02-28T04:21:48.397Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/66d4d6e4a4f0d594832ab56d37e44e28bb0e7d9f5d002ef63da3e360f8867e19",
   "install_command": "mkdir -p .claude/skills/multi-model-orchestration && curl -sL \"https://raw.githubusercontent.com/RazonIn4K/Red-Team-Learning/main/.claude/skills/multi-model-orchestration/SKILL.md\" > .claude/skills/multi-model-orchestration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/RazonIn4K/Red-Team-Learning/main/.claude/skills/multi-model-orchestration/SKILL.md"

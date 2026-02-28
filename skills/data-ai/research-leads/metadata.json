@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f738d29c82077b08f8970af41230054c87a63d0c0be1eb31f426c000ff9fc4eb",
   "indexed_at": "2026-02-26T18:37:13.738Z",
-  "synced_at": "2026-02-27T02:50:45.215Z",
+  "synced_at": "2026-02-28T04:22:10.691Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5c0dae3b8ef57ac8b148daa27ea6429e8f91cd0875bf0b3b200ecc744f8b7dcc",
   "install_command": "mkdir -p .claude/skills/research-leads && curl -sL \"https://raw.githubusercontent.com/earchibald/ai-agent-capabilities/main/.github/skills/research-leads/SKILL.md\" > .claude/skills/research-leads/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/earchibald/ai-agent-capabilities/main/.github/skills/research-leads/SKILL.md"

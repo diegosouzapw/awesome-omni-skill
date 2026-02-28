@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0bdf19dfbdbd7ea3507e44f5e2da4271c9eae6e925410dc837c487373433608a",
   "indexed_at": "2026-02-26T18:31:52.183Z",
-  "synced_at": "2026-02-27T02:50:40.567Z",
+  "synced_at": "2026-02-28T04:22:06.337Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/821d2feede895d19fa9c38ce7de39085855fa5e5f6be1b181c54e3dcf6fb77a8",
   "install_command": "mkdir -p .claude/skills/openclaw-json-editing && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/avirweb/openclaw-json-editing/SKILL.md\" > .claude/skills/openclaw-json-editing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/avirweb/openclaw-json-editing/SKILL.md"

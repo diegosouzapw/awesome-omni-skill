@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bd5d6d90423926dd0caf384810faf65563d08d5a8ce6ac51a8407a5b66301bc2",
   "indexed_at": "2026-02-27T17:36:13.859Z",
-  "synced_at": "2026-02-27T18:16:26.113Z",
+  "synced_at": "2026-02-28T04:22:50.713Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ee0bbcc76f1f1def2caa5f824540b4f82e972cfce5ed2f9ea6e536c643c99541",
   "install_command": "mkdir -p .claude/skills/transition-failure-matrix && curl -sL \"https://raw.githubusercontent.com/agileandy/transition-matrix/main/SKILL.md\" > .claude/skills/transition-failure-matrix/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/agileandy/transition-matrix/main/SKILL.md"

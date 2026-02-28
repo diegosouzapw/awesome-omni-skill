@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "56b0c7b2f1b83e03a4240951b3501ff496fc423a9735c5ac606fcee2fdea133b",
   "indexed_at": "2026-02-27T16:09:34.208Z",
-  "synced_at": "2026-02-27T18:16:21.384Z",
+  "synced_at": "2026-02-28T04:22:43.472Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/40c3d5821a2410036a477436ae70225e29c3329a7e5dc3bf42aaab6f4b608606",
   "install_command": "mkdir -p .claude/skills/savestate && curl -sL \"https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/dbhurley/savestate/SKILL.md\" > .claude/skills/savestate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/dbhurley/savestate/SKILL.md"

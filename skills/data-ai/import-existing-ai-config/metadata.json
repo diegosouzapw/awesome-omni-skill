@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "66a719ed87522201152199170b56020ab2b411e51930e19bf5a47538d02b01c6",
   "indexed_at": "2026-02-26T23:32:24.293Z",
-  "synced_at": "2026-02-27T02:50:52.337Z",
+  "synced_at": "2026-02-28T04:22:17.851Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/16b0fa781a3194a992f1c6be8484e0b2060ecd38e0178f9815cd494bc0e74a5b",
   "install_command": "mkdir -p .claude/skills/import-existing-ai-config && curl -sL \"https://raw.githubusercontent.com/fabis94/fabis-ralph-loop/main/.universal-ai-config/skills/import-existing-ai-config/SKILL.md\" > .claude/skills/import-existing-ai-config/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fabis94/fabis-ralph-loop/main/.universal-ai-config/skills/import-existing-ai-config/SKILL.md"

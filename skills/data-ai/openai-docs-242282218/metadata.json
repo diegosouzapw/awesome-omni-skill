@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5f17ebf9a6ef05a5c9c52d360048021c6a4c238283a6fd8120b3969ac8e7c24e",
   "indexed_at": "2026-02-27T16:03:39.662Z",
-  "synced_at": "2026-02-27T18:16:17.678Z",
+  "synced_at": "2026-02-28T04:22:38.637Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6134d1ff3fd3419a100f1e32dfd31db89af1f1867ca4cdab1d7886ffac43978d",
   "install_command": "mkdir -p .claude/skills/openai-docs && curl -sL \"https://raw.githubusercontent.com/242282218/strm_test/main/.ai/skills/openai-docs/SKILL.md\" > .claude/skills/openai-docs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/242282218/strm_test/main/.ai/skills/openai-docs/SKILL.md"

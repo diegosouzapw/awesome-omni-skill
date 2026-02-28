@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c15f6f67c80cb4e6faef8ed097a0bdfe4b0f277f1d4137e0dcb5d34511eefd03",
   "indexed_at": "2026-02-27T09:50:41.559Z",
-  "synced_at": "2026-02-27T13:14:24.627Z",
+  "synced_at": "2026-02-28T04:22:28.139Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d220b94603f8ae66b6a903ffdc2aac8e2b6f1da273376d7af4952dd67a736727",
   "install_command": "mkdir -p .claude/skills/banking-domain-reviewer && curl -sL \"https://raw.githubusercontent.com/firefly-oss/firefly-oss-claude-skills/main/agents/banking-domain-reviewer/SKILL.md\" > .claude/skills/banking-domain-reviewer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/firefly-oss/firefly-oss-claude-skills/main/agents/banking-domain-reviewer/SKILL.md"

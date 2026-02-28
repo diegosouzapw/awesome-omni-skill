@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dc47c77cde9a14a29e743c8bec8872134dc9751bb23a37e650e9192e80f94df7",
   "indexed_at": "2026-02-26T17:30:44.719Z",
-  "synced_at": "2026-02-27T02:50:31.719Z",
+  "synced_at": "2026-02-28T04:21:57.789Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/54f6eb722d846d9b75ed8b4f3697dff9d64a590815cd0dc6da89e73ef45968eb",
   "install_command": "mkdir -p .claude/skills/extracting-ai-context && curl -sL \"https://raw.githubusercontent.com/square/workflow-kotlin/main/.agents/skills/extracting-ai-context/SKILL.md\" > .claude/skills/extracting-ai-context/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/square/workflow-kotlin/main/.agents/skills/extracting-ai-context/SKILL.md"

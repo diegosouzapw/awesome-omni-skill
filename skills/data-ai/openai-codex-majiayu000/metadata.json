@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a72743c82d401948fa87716fa8c32a9a7acd547fc8ef8fbcac432bd327186a89",
   "indexed_at": "2026-02-27T16:03:01.605Z",
-  "synced_at": "2026-02-27T18:16:17.292Z",
+  "synced_at": "2026-02-28T04:22:38.120Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eaca7c91a469c877656852e0e10e57cd2dd68eabaa7c6b1dd648b6cb8c58de70",
   "install_command": "mkdir -p .claude/skills/openai-codex && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/openai-codex/SKILL.md\" > .claude/skills/openai-codex/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/openai-codex/SKILL.md"

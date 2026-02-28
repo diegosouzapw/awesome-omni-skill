@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "557e554b4bb196078547abc5760f4d5f9c3380c6fa87d4fe0370754a88e85024",
   "indexed_at": "2026-02-27T17:27:19.698Z",
-  "synced_at": "2026-02-27T18:16:25.430Z",
+  "synced_at": "2026-02-28T04:22:49.556Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/00a189d5bb26ad131bb36b2b5b8487a14e5431227870f23f5d3ddc0d9fa9bfbf",
   "install_command": "mkdir -p .claude/skills/switchailocal && curl -sL \"https://raw.githubusercontent.com/traylinx/switchAILocal/main/SKILL.md\" > .claude/skills/switchailocal/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/traylinx/switchAILocal/main/SKILL.md"

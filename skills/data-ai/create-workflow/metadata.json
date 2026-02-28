@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0e759c8eadd7f8531f58e77f976b37f634615dc0a968e2fd0452bcea5eab4514",
   "indexed_at": "2026-02-26T15:17:05.120Z",
-  "synced_at": "2026-02-27T02:50:16.599Z",
+  "synced_at": "2026-02-28T04:21:43.785Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a19e084db789fd546ed1998c974278ec1fdba0783491cc4aad374e35138fdbb0",
   "install_command": "mkdir -p .claude/skills/create-workflow && curl -sL \"https://raw.githubusercontent.com/lvndry/jazz/main/skills/create-workflow/SKILL.md\" > .claude/skills/create-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lvndry/jazz/main/skills/create-workflow/SKILL.md"

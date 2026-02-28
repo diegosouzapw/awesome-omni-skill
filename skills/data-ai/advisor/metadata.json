@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f64b78fc3a01d84f32373ff2329e568c51b72bd762bc65f23450ec1e0655f1fe",
   "indexed_at": "2026-02-26T18:37:05.923Z",
-  "synced_at": "2026-02-27T02:50:45.040Z",
+  "synced_at": "2026-02-28T04:22:10.508Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/846a881a6a44193f9afc5f198979279390b309e560f2c2047d018ea9948740e8",
   "install_command": "mkdir -p .claude/skills/advisor && curl -sL \"https://raw.githubusercontent.com/agentconfig/agentconfig.org/main/.github/skills/advisor/SKILL.md\" > .claude/skills/advisor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/agentconfig/agentconfig.org/main/.github/skills/advisor/SKILL.md"

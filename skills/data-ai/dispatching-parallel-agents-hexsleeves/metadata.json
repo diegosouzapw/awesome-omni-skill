@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b74793cb31e97005c7c166bf35771caf1b0137f2b7f7599f5f8000723a86ca48",
   "indexed_at": "2026-02-26T13:24:42.555Z",
-  "synced_at": "2026-02-27T02:50:08.811Z",
+  "synced_at": "2026-02-28T04:21:36.278Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b60f590e6d6235abdd5527af94a1be2e704e3208c5de08819c52889eb64ceeb8",
   "install_command": "mkdir -p .claude/skills/dispatching-parallel-agents && curl -sL \"https://raw.githubusercontent.com/HexSleeves/dotfiles/main/home/dot_config/opencode/skill/dispatching-parallel-agents/SKILL.md\" > .claude/skills/dispatching-parallel-agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HexSleeves/dotfiles/main/home/dot_config/opencode/skill/dispatching-parallel-agents/SKILL.md"

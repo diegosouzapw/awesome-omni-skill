@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "68a4247384f5639414d82f4126321dc4b3a0d6a97e57a7a91537c88934ea5a8c",
   "indexed_at": "2026-02-26T13:19:03.913Z",
-  "synced_at": "2026-02-27T02:50:06.275Z",
+  "synced_at": "2026-02-28T04:21:34.182Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/83a9646a5070b59d43f3c65bdd09426dc66f97b73e9f51722b8d2fb519b06fde",
   "install_command": "mkdir -p .claude/skills/writing-skills && curl -sL \"https://raw.githubusercontent.com/DYAI2025/Stoppclock-page/main/stoppclock_speckit/.claude/commands/skills/writing-skills/SKILL.md\" > .claude/skills/writing-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/DYAI2025/Stoppclock-page/main/stoppclock_speckit/.claude/commands/skills/writing-skills/SKILL.md"

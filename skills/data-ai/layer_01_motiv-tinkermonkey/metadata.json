@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c18c3c25ce6fbb5060adc00d4cb50688594e2630240d717d43f47707c35fae0b",
   "indexed_at": "2026-02-26T09:51:07.022Z",
-  "synced_at": "2026-02-27T02:50:58.913Z",
+  "synced_at": "2026-02-28T04:23:01.741Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/10fd9c76de10d28d45552d9ffd4e105409fd0d6f3261544bf41d4c133ad96335",
   "install_command": "mkdir -p .claude/skills/layer_01_motiv && curl -sL \"https://raw.githubusercontent.com/tinkermonkey/documentation_robotics/main/cli-validation/test-project/baseline/.claude/skills/dr_01_motivation_layer/SKILL.md\" > .claude/skills/layer_01_motiv/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tinkermonkey/documentation_robotics/main/cli-validation/test-project/baseline/.claude/skills/dr_01_motivation_layer/SKILL.md"

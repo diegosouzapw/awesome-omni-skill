@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d59ab68e3090d3679df6a07f3fff3d2e9c7d85f6beec10ac3174510c0c865142",
   "indexed_at": "2026-02-26T14:19:11.190Z",
-  "synced_at": "2026-02-27T02:50:13.630Z",
+  "synced_at": "2026-02-28T04:21:40.783Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dfec8251258fa224d38928e54283a22e262aaad288433cfb2e95a8010c4a4081",
   "install_command": "mkdir -p .claude/skills/ml-pipeline-workflow && curl -sL \"https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/ml-pipeline-workflow/SKILL.md\" > .claude/skills/ml-pipeline-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/ml-pipeline-workflow/SKILL.md"

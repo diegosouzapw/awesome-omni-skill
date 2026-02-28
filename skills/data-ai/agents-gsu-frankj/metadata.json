@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "caa78e53e11d29711ed052393d0171e6fb76735c5cdf2c42ebf78140b1e35335",
   "indexed_at": "2026-02-26T17:37:32.623Z",
-  "synced_at": "2026-02-27T02:50:39.069Z",
+  "synced_at": "2026-02-28T04:22:05.019Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/168613a325d1c9fd44fdbf2b0bfd87ef21599d5e572a102fba97cd4a9fd8f806",
   "install_command": "mkdir -p .claude/skills/agents && curl -sL \"https://raw.githubusercontent.com/GSU-FrankJ/tournament_experiment/main/.agents/skills/agents/SKILL.md\" > .claude/skills/agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/GSU-FrankJ/tournament_experiment/main/.agents/skills/agents/SKILL.md"

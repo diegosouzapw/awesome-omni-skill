@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2eebfb4b09f32bbeccb67a1d74a9c31b4893479d6a0f77f7d3663647ca349831",
   "indexed_at": "2026-02-26T18:35:07.469Z",
-  "synced_at": "2026-02-27T02:50:42.857Z",
+  "synced_at": "2026-02-28T04:22:08.378Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7e0b68ca3f67766f4155201d35387b2deecae6ce8f31f627eee9447f67c2d7ea",
   "install_command": "mkdir -p .claude/skills/prospect-investigation && curl -sL \"https://raw.githubusercontent.com/qodex-ai/ai-agent-skills/main/skills/prospect-investigation/SKILL.md\" > .claude/skills/prospect-investigation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/qodex-ai/ai-agent-skills/main/skills/prospect-investigation/SKILL.md"

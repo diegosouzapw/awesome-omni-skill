@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "969c3666cc5800b921a78a6ba31a3d8757903bd634e8471212f0472b33fce942",
   "indexed_at": "2026-02-26T19:04:33.034Z",
-  "synced_at": "2026-02-27T02:50:49.272Z",
+  "synced_at": "2026-02-28T04:22:14.730Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9bf35d20d1ae819b9b4f3d327910e411f91e014d0d1d5ea2056010565184c444",
   "install_command": "mkdir -p .claude/skills/nereid && curl -sL \"https://raw.githubusercontent.com/bnomei/nereid/main/skills/nereid/SKILL.md\" > .claude/skills/nereid/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bnomei/nereid/main/skills/nereid/SKILL.md"

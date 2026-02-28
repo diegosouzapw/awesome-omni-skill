@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3b61549a7e8f95cfc7ff694302a9591c0c7809e73829c61469fc5892611f9051",
   "indexed_at": "2026-02-27T16:05:51.367Z",
-  "synced_at": "2026-02-27T18:16:18.889Z",
+  "synced_at": "2026-02-28T04:22:40.212Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5d8935a23af162f3d48879e79826f9ac8560e2bf0a06bda00896146b4b5e630c",
   "install_command": "mkdir -p .claude/skills/geo-fundamentals && curl -sL \"https://raw.githubusercontent.com/DarkThreat74/CozyNest/main/.agent/skills/geo-fundamentals/SKILL.md\" > .claude/skills/geo-fundamentals/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/DarkThreat74/CozyNest/main/.agent/skills/geo-fundamentals/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "467b0a6f2a4725e6d0ae218020968a8462ce64ca7a270957aea70d1dd353932f",
   "indexed_at": "2026-02-26T15:53:50.782Z",
-  "synced_at": "2026-02-27T02:50:20.556Z",
+  "synced_at": "2026-02-28T04:21:47.486Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d4bfbff575c157138696e9f3713d7f9f5a1ecd5c741e29fdd3520f9415c33220",
   "install_command": "mkdir -p .claude/skills/agentmemory && curl -sL \"https://raw.githubusercontent.com/webzler/agentMemory/main/SKILL.md\" > .claude/skills/agentmemory/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/webzler/agentMemory/main/SKILL.md"

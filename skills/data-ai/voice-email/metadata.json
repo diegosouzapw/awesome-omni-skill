@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1f8289bfc6e7fecf3c636e41d511977b2fecac0a196ec6493bee802eb09a40df",
   "indexed_at": "2026-02-26T13:19:17.047Z",
-  "synced_at": "2026-02-27T02:50:59.060Z",
+  "synced_at": "2026-02-28T04:23:01.906Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4b8ce03af318c547ea813306dedf796a360d506c237020b152adca59209c802e",
   "install_command": "mkdir -p .claude/skills/voice-email && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/sundiver1/voice-email/SKILL.md\" > .claude/skills/voice-email/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sundiver1/voice-email/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d039c9366a95c6fa1dd23906beb9366fdced3fe79cd4f8242e4122c717b367b2",
   "indexed_at": "2026-02-26T17:35:09.591Z",
-  "synced_at": "2026-02-27T02:50:37.415Z",
+  "synced_at": "2026-02-28T04:22:03.457Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b1110994df3698f7308adee5abcb45a352b5b30c1c9c94a0a9d78964d4a89fb5",
   "install_command": "mkdir -p .claude/skills/kano-agent-backlog-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/kano-agent-backlog-skill-dorgonman-kano-agent-backlog-s/SKILL.md\" > .claude/skills/kano-agent-backlog-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/kano-agent-backlog-skill-dorgonman-kano-agent-backlog-s/SKILL.md"

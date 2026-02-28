@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3ef1926c2294b9fa1c7fce7276a8d462a28742e9cddb056c2130317f6240f03c",
   "indexed_at": "2026-02-27T15:52:06.441Z",
-  "synced_at": "2026-02-27T18:16:16.186Z",
+  "synced_at": "2026-02-28T04:22:36.592Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/760f5a26b356c08ad47e598f997fcaed9cd1fcc860e695711d5c0bb8636223ee",
   "install_command": "mkdir -p .claude/skills/u09955-decision-journal-maintenance-for-accessibility-services && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/09/9955-decision-journal-maintenance-for-accessibility-services/SKILL.md\" > .claude/skills/u09955-decision-journal-maintenance-for-accessibility-services/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/09/9955-decision-journal-maintenance-for-accessibility-services/SKILL.md"

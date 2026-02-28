@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7aa0d2e62392732fcdb3a51321c20512abbbaff3ae3b852b6091f3fae16c8406",
   "indexed_at": "2026-02-26T14:04:19.184Z",
-  "synced_at": "2026-02-27T02:50:10.956Z",
+  "synced_at": "2026-02-28T04:21:38.132Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aa10606aabbeb468ceec29f5b35e2002ec57b34457653f30c22848a8f92faefe",
   "install_command": "mkdir -p .claude/skills/ck-project-management && curl -sL \"https://raw.githubusercontent.com/weihung0831/claudekit/main/.claude/skills/project-management/SKILL.md\" > .claude/skills/ck-project-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/weihung0831/claudekit/main/.claude/skills/project-management/SKILL.md"

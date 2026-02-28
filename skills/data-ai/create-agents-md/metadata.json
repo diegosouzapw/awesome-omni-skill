@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9ccec6d20b61636fc6fc55b1cd8ada92d702b5ba347e155d11a57e25a94edc4d",
   "indexed_at": "2026-02-27T15:05:25.642Z",
-  "synced_at": "2026-02-27T18:16:14.730Z",
+  "synced_at": "2026-02-28T04:22:34.497Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8e86abc1eaf9e8dd1b97f2cce9a52b7c39c58f4f3fec1fbf6bd332d54f731e77",
   "install_command": "mkdir -p .claude/skills/create-agents-md && curl -sL \"https://raw.githubusercontent.com/open-mercato/open-mercato/main/.ai/skills/create-agents-md/SKILL.md\" > .claude/skills/create-agents-md/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/open-mercato/open-mercato/main/.ai/skills/create-agents-md/SKILL.md"

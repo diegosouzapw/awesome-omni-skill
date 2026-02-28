@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b5de2ae00826026517722557e3d9110cf6b86f17ac1f1aa1a74a03773ce64ae3",
   "indexed_at": "2026-02-27T13:18:30.453Z",
-  "synced_at": "2026-02-27T18:16:11.447Z",
+  "synced_at": "2026-02-28T04:22:30.375Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/227112726d7fc75077323b55940d01d9cc1aaa3f1523f1728d8b46d59c5ad766",
   "install_command": "mkdir -p .claude/skills/orchestrator && curl -sL \"https://raw.githubusercontent.com/eroslifestyle/Claude-Orchestrator-Plugin/main/skills/orchestrator/SKILL.md\" > .claude/skills/orchestrator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/eroslifestyle/Claude-Orchestrator-Plugin/main/skills/orchestrator/SKILL.md"

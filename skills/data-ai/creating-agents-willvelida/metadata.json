@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "13e2c99b1422ba01477f613b9cbeaf40939da0185de596109f7854445fcfd608",
   "indexed_at": "2026-02-26T18:37:39.110Z",
-  "synced_at": "2026-02-27T02:50:45.566Z",
+  "synced_at": "2026-02-28T04:22:11.051Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d2c75bc70df4966f4bfb82e1600653fcbb3cac970c5734e5a981db05cc840dba",
   "install_command": "mkdir -p .claude/skills/creating-agents && curl -sL \"https://raw.githubusercontent.com/willvelida/MinionsHub/main/packages/creating-agents/skills/creating-agents/SKILL.md\" > .claude/skills/creating-agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/willvelida/MinionsHub/main/packages/creating-agents/skills/creating-agents/SKILL.md"

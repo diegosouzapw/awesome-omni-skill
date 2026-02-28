@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d5ba4cb5bbb7074e343a6fa993246b85f0d78484651706495d548548213c5bda",
   "indexed_at": "2026-02-26T17:34:58.019Z",
-  "synced_at": "2026-02-27T02:50:37.059Z",
+  "synced_at": "2026-02-28T04:22:03.121Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0dd9fca3b796f34a9deae23efdf5569bbd538b19791649c761ee564ea9319ed4",
   "install_command": "mkdir -p .claude/skills/managing-skills && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/mikekelly/managing-skills/managing-skills/SKILL.md\" > .claude/skills/managing-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/mikekelly/managing-skills/managing-skills/SKILL.md"

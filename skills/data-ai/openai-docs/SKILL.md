@@ -1,8 +1,8 @@
 ---
-name: "openai-docs"
-description: "Use when the user asks how to build with OpenAI products or APIs and needs up-to-date official documentation with citations (for example: Codex, Responses API, Chat Completions, Apps SDK, Agents SDK, Realtime, model capabilities or limits); prioritize OpenAI docs MCP tools and restrict any fallback browsing to official OpenAI domains."
-author: openai
+name: openai-docs
+description: '"Use when the user asks how to build with OpenAI products or APIs and needs up-to-date official documentation with citations (for example: Codex, Responses API, Chat Completions, Apps SDK, Agents SDK, Realtime, model capabilities or limits); prioritize OpenAI docs MCP tools and restrict any fallback browsing to official OpenAI domains."'
 ---
+
 
 
 # OpenAI Docs
@@ -29,11 +29,25 @@ Provide authoritative, current guidance from OpenAI developer docs using the dev
 
 If MCP tools fail or no OpenAI docs resources are available:
 
-1. Run the install command yourself: `codex mcp add openaiDeveloperDocs --url https://developers.openai.com/mcp`
-2. If it fails due to permissions/sandboxing, immediately retry the same command with escalated permissions and include a 1-sentence justification for approval. Do not ask the user to run it yet.
-3. Only if the escalated attempt fails, ask the user to run the install command.
-4. Ask the user to restart Codex.
-5. Re-run the doc search/fetch after restart.
+**In Codex:**
+1. Run: `codex mcp add openaiDeveloperDocs --url https://developers.openai.com/mcp`
+2. If it fails due to permissions/sandboxing, retry with escalated permissions.
+3. Ask the user to restart Codex, then re-run doc search/fetch.
+
+1. Add the MCP server to `~/.codex/settings.json` under `"mcpServers"`:
+   ```json
+   {
+     "mcpServers": {
+       "openaiDeveloperDocs": {
+         "type": "url",
+         "url": "https://developers.openai.com/mcp"
+       }
+     }
+   }
+   ```
+2. Restart Codex, then re-run doc search/fetch.
+
+**In other agents:** Ask the user to configure the MCP server per their agent's documentation.
 
 ## Workflow
 
@@ -55,3 +69,40 @@ If MCP tools fail or no OpenAI docs resources are available:
 - Always use MCP doc tools before any web search for OpenAI-related questions.
 - If the MCP server is installed but returns no meaningful results, then use web search as a fallback.
 - When falling back to web search, restrict to official OpenAI domains (developers.openai.com, platform.openai.com) and cite sources.
+
+## Examples
+
+### OpenAI API Guidance
+
+**User says:** "How do I use tool calls with the Responses API?"
+
+**What happens:**
+1. Search OpenAI docs MCP for "Responses API tools".
+2. Fetch the most relevant section.
+3. Return implementation guidance with citations.
+
+### Codex Capability Check
+
+**User says:** "Does Codex support read-only review workflows?"
+
+**What happens:**
+1. Query Codex docs via MCP.
+2. Fetch flag/sandbox references.
+3. Answer with source-backed guidance and constraints.
+
+## Troubleshooting
+
+| Problem | Cause | Solution |
+|---------|-------|----------|
+| MCP docs search returns nothing | MCP server not installed | Install `openaiDeveloperDocs` MCP, restart Codex, retry search |
+| Results are stale/unclear | Query too broad | Narrow query by product + feature, then fetch exact page section |
+| Need citation-ready answer | Source not fetched | Fetch specific doc section before answering |
+| Docs do not cover question | Gap in official docs | State gap explicitly and provide safe best-effort guidance |
+
+## Local Resources
+
+### scripts/
+
+- `scripts/validate.sh`
+
+

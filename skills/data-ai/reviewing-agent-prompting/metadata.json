@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bc1de2d58e9231f7cca61595612989b43b330d7fa5b7794ebcdb49a093488ae3",
   "indexed_at": "2026-02-27T06:31:06.105Z",
-  "synced_at": "2026-02-27T13:14:22.002Z",
+  "synced_at": "2026-02-28T04:22:23.990Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ae7cba05cba372e86c394f830d74f247b7f49f9ee29c18d71c0fe3b06c2cb6fb",
   "install_command": "mkdir -p .claude/skills/reviewing-agent-prompting && curl -sL \"https://raw.githubusercontent.com/mikekelly/reviewing-agent-prompting/main/SKILL.md\" > .claude/skills/reviewing-agent-prompting/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mikekelly/reviewing-agent-prompting/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0f9111cf79e970df74bae916f2bba2e71990993e3fafbe9099f0ecb83a9cc93b",
   "indexed_at": "2026-02-27T15:02:28.899Z",
-  "synced_at": "2026-02-27T18:16:14.211Z",
+  "synced_at": "2026-02-28T04:22:33.788Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/661598b4834d5fd0058f52faad079255270414871255fbfca58b81a2f46d5ca0",
   "install_command": "mkdir -p .claude/skills/criador-skills && curl -sL \"https://raw.githubusercontent.com/Italo520/erp_archflow_arquiteture/main/.agent/skills/criador-skills/SKILL.md\" > .claude/skills/criador-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Italo520/erp_archflow_arquiteture/main/.agent/skills/criador-skills/SKILL.md"

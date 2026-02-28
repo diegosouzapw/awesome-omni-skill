@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b38566d788791813e713866fb55894e9a33b3a6118aa1135214f2b16a76884ab",
   "indexed_at": "2026-02-27T16:12:07.457Z",
-  "synced_at": "2026-02-27T18:16:22.779Z",
+  "synced_at": "2026-02-28T04:22:45.332Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/813ccda98036f4bae34eebc6ac02550957c5be58fb83ba82fce3092d8239ec9f",
   "install_command": "mkdir -p .claude/skills/rag-agent-builder && curl -sL \"https://raw.githubusercontent.com/qodex-ai/ai-agent-skills/main/skills/rag-agent-builder/SKILL.md\" > .claude/skills/rag-agent-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/qodex-ai/ai-agent-skills/main/skills/rag-agent-builder/SKILL.md"

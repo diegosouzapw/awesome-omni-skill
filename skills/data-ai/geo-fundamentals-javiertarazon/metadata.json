@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3aa0608be7c3db3d3926f20d441b62505948d0aa2b6a92c72227f5c8df91e682",
   "indexed_at": "2026-02-27T16:05:53.658Z",
-  "synced_at": "2026-02-27T18:16:19.002Z",
+  "synced_at": "2026-02-28T04:22:40.352Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1f635796ef5cee78b1df0e8d64f2459a841a3d6331f574d96c1a376fb8e8efad",
   "install_command": "mkdir -p .claude/skills/geo-fundamentals && curl -sL \"https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/geo-fundamentals/SKILL.md\" > .claude/skills/geo-fundamentals/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/geo-fundamentals/SKILL.md"

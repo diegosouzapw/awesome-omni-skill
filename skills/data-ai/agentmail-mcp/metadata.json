@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f0e40f3380a357484aafde0de0e7b173adec5b1f2b14aeea778db43158e5a997",
   "indexed_at": "2026-02-26T17:36:16.108Z",
-  "synced_at": "2026-02-27T02:50:38.241Z",
+  "synced_at": "2026-02-28T04:22:04.203Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/322fc5579f904fa650abdb172dfe5ee963f4cad2f84e4a1886d920f03235e6b3",
   "install_command": "mkdir -p .claude/skills/agentmail-mcp && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/agentmail-to/agentmail-skills/agentmail-mcp/SKILL.md\" > .claude/skills/agentmail-mcp/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/agentmail-to/agentmail-skills/agentmail-mcp/SKILL.md"

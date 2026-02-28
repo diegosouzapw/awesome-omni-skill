@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "515236db99528d58ecd6a52562f1a778c836f78008dc93ce91596e5bbb4274c7",
   "indexed_at": "2026-02-27T16:11:14.486Z",
-  "synced_at": "2026-02-27T18:16:22.148Z",
+  "synced_at": "2026-02-28T04:22:44.445Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5f5a533678e2d44acff5be350441be3ecd2fb28edc28b9f5bf9d738890fc61f5",
   "install_command": "mkdir -p .claude/skills/question-refiner && curl -sL \"https://raw.githubusercontent.com/liangdabiao/Claude-Code-Deep-Research-main/main/.claude/skills/question-refiner/SKILL.md\" > .claude/skills/question-refiner/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/liangdabiao/Claude-Code-Deep-Research-main/main/.claude/skills/question-refiner/SKILL.md"

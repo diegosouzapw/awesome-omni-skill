@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d388d92917ecfc9b9c960b77058da61c39b7c2795bb333fa7e46b230398b61c9",
   "indexed_at": "2026-02-26T18:39:05.096Z",
-  "synced_at": "2026-02-27T02:50:46.632Z",
+  "synced_at": "2026-02-28T04:22:12.098Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/049053e3e754e51328597c17b6ede0abfa8e1d2c3b67936154b0e9aa0953a71c",
   "install_command": "mkdir -p .claude/skills/custom-agent-creator && curl -sL \"https://raw.githubusercontent.com/prulloac/going-authy/main/.agents/skills/custom-agent-creator/SKILL.md\" > .claude/skills/custom-agent-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/prulloac/going-authy/main/.agents/skills/custom-agent-creator/SKILL.md"

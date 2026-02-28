@@ -1,6 +1,6 @@
 ---
 name: pss-agent-toml
-description: "Build .agent.toml configuration profiles for Claude Code agents. An AI agent MUST evaluate, compare, and select elements — no mechanical script can reason about conflicts, overlaps, or use cases. Search indexed elements (skills, agents, commands, rules, MCP, LSP), add from local/marketplace/GitHub/network sources, validate cross-type coherence, and produce a conflict-free agent profile."
+description: "Use when creating .agent.toml profiles for Claude Code agents. Trigger with /pss-setup-agent. AI selects elements across 6 types, validates coherence, produces conflict-free profiles."
 argument-hint: "<agent-path> [--requirements PATH...]"
 user-invocable: false
 ---
@@ -142,7 +142,7 @@ Scan the working directory for:
 
 This determines LSP server assignment.
 
-**Phase 1 Completion Checklist** (ALL items must be checked before proceeding to Phase 2):
+**Phase 1 Completion Checklist** — Copy this checklist and track your progress (ALL items must be checked before proceeding to Phase 2):
 
 - [ ] Agent `.md` file has been read in full (not just frontmatter)
 - [ ] `name` extracted (from frontmatter `name:` or filename stem)
@@ -368,163 +368,17 @@ If skill A covers everything skill B does plus more, remove skill B. Example: `e
 
 ### Phase 4: Add Elements from External Sources
 
-The user, orchestrator, or the agent's own gap analysis may identify elements not in the current index. These can come from ANY source:
+Elements not in the current index can be added from local paths, installed plugins, marketplace plugins, GitHub repos, network shares, or raw URLs. For each source, read and evaluate the element using the same Phase 3 criteria before adding.
 
-**4.1 From a local file or folder**
-
-```
-"Add the skill at /path/to/my-custom-skill/SKILL.md"
-```
-
-Action:
-1. Read the file at the specified path
-2. Extract name, description, keywords from frontmatter/content
-3. **Evaluate** it using the same criteria as indexed candidates (relevance, compatibility, conflicts)
-4. Verify it doesn't conflict with already-selected elements
-5. Add to the appropriate section and tier in `.agent.toml`
-
-**4.2 From an installed plugin**
-
-```
-"Add the agent from the multi-platform-apps plugin"
-```
-
-Action:
-1. Search plugin cache: `~/.claude/plugins/cache/*/multi-platform-apps/*/agents/*.md`
-2. Also check: `~/.claude/plugins/multi-platform-apps/agents/*.md`
-3. Read each available agent's `.md` file
-4. **Evaluate** relevance and compatibility — don't blindly add everything
-5. Add only the elements that pass evaluation
-
-**4.3 From a marketplace plugin (not installed)**
-
-```
-"Add skills from the claude-plugins-validation plugin on the marketplace"
-```
-
-Action:
-1. Fetch the plugin manifest: `gh api repos/<owner>/<repo>/contents/.claude-plugin/plugin.json`
-2. Fetch individual skill/agent files: `gh api repos/<owner>/<repo>/contents/skills/<name>/SKILL.md`
-3. **Read and evaluate** each element before adding
-4. Add with `source = "plugin:<name>"` in the `[agent]` section comment
-5. Note: The plugin must be installed for the agent to actually USE these elements at runtime
-
-**4.4 From a GitHub/git repository URL**
-
-```
-"Add the security skill from https://github.com/user/repo"
-```
-
-Action:
-1. Fetch repo contents: `gh api repos/<owner>/<repo>/contents/skills` or `/agents`
-2. Or clone to temp: `git clone --depth 1 <url> /tmp/pss-fetch-<hash>`
-3. Read `.md` files in standard locations (skills/, agents/, commands/, rules/)
-4. **Evaluate** each element — read the content, check compatibility, detect conflicts
-5. Add qualified elements with a comment noting the source URL
-
-**4.5 From a network shared folder**
-
-```
-"Add agents from /mnt/shared/team-agents/"
-```
-
-Action:
-1. List `.md` files in the directory
-2. Read each, extract metadata and understand capabilities
-3. **Evaluate** against the same criteria as all other candidates
-4. Add qualified elements to `.agent.toml`
-
-**4.6 From a URL to a raw file**
-
-```
-"Add the skill at https://raw.githubusercontent.com/user/repo/main/skills/my-skill/SKILL.md"
-```
-
-Action:
-1. Fetch the file content via WebFetch
-2. **Read and evaluate** the content — understand what it does, check compatibility
-3. Add to `.agent.toml` only if it passes evaluation
-
-**Phase 4 Completion Checklist** (ALL items must be checked before proceeding to Phase 5):
-
-- [ ] Every external element has been read in full (not just accepted based on name/source)
-- [ ] Every external element evaluated against Phase 3 criteria (relevance, compatibility, conflicts)
-- [ ] No external element added without checking for conflicts with already-selected elements
-- [ ] For plugin sources: correct version and path confirmed
-- [ ] For GitHub/URL sources: content fetched and read (not assumed from URL alone)
-- [ ] For network share sources: file exists and is readable
-- [ ] All added external elements assigned to correct tier (primary/secondary/specialized)
-- [ ] `agent.source` field value prepared for any plugin-sourced elements
-
-**If no external elements were requested: mark all items N/A and proceed.**
+See [references/external-sources.md](references/external-sources.md) for detailed instructions and the Phase 4 Completion Checklist.
 
 ---
 
 ### Phase 5: Cross-Type Coherence Validation
 
-**This is the most critical phase.** The Rust binary scores candidates within each type independently. It does NOT check for overlaps or conflicts BETWEEN types. You MUST validate coherence across ALL sections before finalizing.
+**This is the most critical phase.** Validate that no overlaps or conflicts exist BETWEEN types (skill<->MCP, skill<->agent, agent<->agent, MCP<->MCP, rule<->rule). Check all 13 items on the coherence checklist.
 
-**5.1 Cross-type overlap detection**
-
-Compare every element in the profile against every other element across ALL types:
-
-**Skill ↔ MCP overlap**: A skill and an MCP server providing the same capability.
-- Example: A "database-management" skill AND a "postgres-mcp" server — the MCP gives direct DB access, making parts of the skill redundant. Keep the MCP (it provides actual tools), demote or remove the skill.
-- Example: A "chrome-devtools" skill AND a "chrome-devtools" MCP — the MCP provides tools, the skill provides instructions on how to use them. Both are valid (keep both).
-
-**Skill ↔ Agent overlap**: A skill that teaches what an agent already does.
-- Example: A "python-test-writer" skill AND a "python-test-writer" agent — the agent IS the executor. Keep the agent, remove the skill (the agent loads its own skills).
-- Example: A "security" skill AND an "aegis" agent — different scope (skill = instructions, agent = executor), both valid.
-
-**Agent ↔ Agent overlap**: Two agents with the same capabilities.
-- Example: "sleuth" agent AND "debug-agent" — both do debugging. Keep ONE based on which better matches the project. Document the other in `[skills.excluded]`.
-
-**Skill ↔ Command overlap**: A skill that automates what a command does manually.
-- Generally keep both — commands are user-invoked, skills are auto-suggested. But remove the skill if its ONLY purpose is to invoke the command.
-
-**MCP ↔ MCP overlap**: Two MCP servers providing the same tools.
-- Example: Two browser automation MCPs — keep the one matching the project's existing config.
-
-**Rule ↔ Rule conflict**: Two rules that contradict each other.
-- Example: A "always-use-mocks" rule AND a "never-use-mocks" rule. Remove the one contradicting the project's testing philosophy.
-
-**5.2 Coherence checklist**
-
-Before writing the final `.agent.toml`, verify ALL of these:
-
-- [ ] No skill duplicates the capability of an MCP server already in `[mcp]`
-- [ ] No skill duplicates the capability of an agent already in `[agents]`
-- [ ] No two agents in `[agents]` serve the same role
-- [ ] No two MCP servers in `[mcp]` provide overlapping tool sets
-- [ ] No two rules in `[rules]` contradict each other
-- [ ] No skill in primary tier is a strict subset of another primary skill
-- [ ] Every command in `[commands]` is relevant to the agent's actual workflow
-- [ ] Every rule in `[rules]` applies to the agent's domain (not a different domain)
-- [ ] LSP servers match the project's actual languages (not guessed)
-- [ ] Framework-specific elements all target the SAME framework (no React + Vue mix)
-- [ ] Runtime-specific elements all target the SAME runtime (no Node + Deno mix)
-- [ ] All selected elements are compatible with the agent's tech stack
-- [ ] No obsolete or deprecated elements remain
-
-**5.3 Resolution strategy**
-
-When an overlap or conflict is found:
-1. **Read both elements' SKILL.md/agent.md** to understand exact scope
-2. **Determine which provides more value** for this specific agent + project combination
-3. **Keep the higher-value element**, remove or demote the other
-4. **Document the exclusion** in `[skills.excluded]` with the reason
-5. If truly undecidable (both equally valuable, different trade-offs), **ask the user/orchestrator** — but only in this case
-
-**5.4 Autonomous vs Interactive mode**
-
-**Autonomous (default)**: Execute the full pipeline, apply all evaluation and coherence validation, resolve conflicts using the rules above, produce the final `.agent.toml`, and report the result. Only surface truly unresolvable conflicts to the user.
-
-**Interactive (when requested)**: Present the draft profile with a comparison table, accept modifications (add/remove/move/replace elements), re-validate after each change, and confirm before writing.
-
-Interactive mode activates only when:
-- The user explicitly asks for review ("let me review the profile first")
-- An orchestrator requests collaboration ("present options for approval")
-- Truly unresolvable conflicts are detected (equal alternatives with no deciding factor)
+See [references/cross-type-coherence.md](references/cross-type-coherence.md) for detailed overlap detection rules, the coherence checklist, and resolution strategies.
 
 ---
 
@@ -588,112 +442,36 @@ This command spawns the `pss-agent-profiler` agent, which follows the full Phase
 
 ## Scoring Reference
 
-The Rust binary uses weighted scoring to generate candidates:
+See [references/example-and-scoring.md](references/example-and-scoring.md) for the scoring weight table, tier thresholds, troubleshooting guide, and a complete worked example of profiling a React frontend developer agent.
 
-| Evidence Type | Weight | Description |
-|--------------|--------|-------------|
-| `keyword` | +2 | Direct keyword match |
-| `intent` | +4 | Intent category match |
-| `pattern` | +3 | Regex pattern match |
-| `directory` | +5 | Working directory match |
-| `path` | +4 | File path pattern match |
-| `first_match` | +10 | First match bonus |
-| `original_bonus` | +3 | Match on original (uncorrected) query |
+## Instructions
 
-**Tier thresholds** (relative to max score):
-- **Primary** (max 7): score >= 60% of maximum
-- **Secondary** (max 12): score 30-59% of maximum
-- **Specialized** (max 8): score 15-29% of maximum
+1. **Phase 1 — Gather Requirements**: Read agent `.md` file, identify target domain, languages, frameworks, platforms, and constraints. Complete the Phase 1 checklist.
+2. **Phase 2 — Search & Score**: Run the Rust binary in `--agent-profile` mode to score all indexed elements. Use the multi-field index search to find additional candidates. Complete the Phase 2 checklist.
+3. **Phase 3 — AI Post-Filtering**: Apply mutual exclusivity, stack compatibility, and redundancy pruning. Remove conflicting, redundant, or off-stack elements. Complete the Phase 3 checklist.
+4. **Phase 4 — Cross-Type Coherence**: Verify skill-MCP overlap, agent-command alignment, and rule-agent compatibility. Complete the Phase 4 checklist.
+5. **Phase 5 — TOML Assembly**: Assemble the `.agent.toml` with all sections populated, tier assignments justified, and exclusion comments documented. Complete the Phase 5 checklist.
+6. **Phase 6 — Validation & Delivery**: Run `pss_validate_agent_toml.py`, fix all errors, deliver the validated file. Complete the Phase 6 checklist.
 
-**Remember**: These scores are heuristic starting points. The AI agent's evaluation in Phase 3 may promote low-scored elements or demote high-scored ones based on actual content analysis.
+## Output
 
----
+The final output is a validated `.agent.toml` file written to `~/.claude/agents/<agent-name>.agent.toml`. The file conforms to the JSON Schema at `${CLAUDE_PLUGIN_ROOT}/schemas/pss-agent-toml-schema.json` and passes `pss_validate_agent_toml.py` with exit code 0.
 
-## Troubleshooting
+## Error Handling
 
-| Problem | Solution |
-|---------|----------|
-| "Skill index not found" | Run `/pss-reindex-skills` to build the index |
-| "Binary not found" | Build with `cd rust/skill-suggester && cargo build --release` |
-| "Unsupported platform" | Check `platform.system()` and `platform.machine()` match PLATFORM_MAP |
-| "TOML validation failed" | Read validator errors — common: missing quotes, duplicate skills across tiers |
-| "No candidates returned" | Agent description too vague — add more specific duties and domains |
-| "All candidates low confidence" | Requirements may not match indexed keywords — try more specific terms |
-| Empty `[commands]` or `[rules]` | These types may not be indexed yet — run `/pss-reindex-skills` |
+- If the Rust binary is not found or not executable, abort with an explicit error message — do not fall back to manual scoring.
+- If the skill index (`~/.claude/cache/skill-index.json`) does not exist, instruct the user to run `/pss-reindex-skills` first.
+- If validation fails (exit code != 0), fix all errors and re-validate — do not deliver an invalid `.agent.toml`.
+- If `CLAUDE_PLUGIN_ROOT` is not set, abort immediately with instructions to set it.
 
----
+## Examples
 
-## Complete Example
+See [references/example-and-scoring.md](references/example-and-scoring.md) for a full `.agent.toml` output for a React frontend developer agent, showing all sections populated with reasoned selections and exclusion comments.
 
-**Input**: Profile a "frontend-developer" agent for a React/Next.js e-commerce project.
+## Resources
 
-**Agent file** (`agents/frontend-developer.md`):
-```markdown
----
-name: frontend-developer
-description: Build React components, implement responsive layouts, and handle client-side state management
-tools: [Bash, Read, Write, Edit, Grep, Glob, WebSearch, WebFetch, Task]
----
-# Frontend Developer
-Builds UI components, manages state, handles routing and data fetching.
-```
-
-**Requirements** (`prd.md`): "E-commerce platform with React 19, Next.js 15, Tailwind CSS, PostgreSQL, Stripe payments, i18n support."
-
-**Command**:
-```
-/pss-setup-agent agents/frontend-developer.md --requirements prd.md
-```
-
-**Profiler reasoning** (Phase 3):
-- Binary returned `building-with-bun` (HIGH) — Bun is the standard JS runtime, matches Next.js. KEEP as primary.
-- Binary returned `jest-testing` (MEDIUM) AND `vitest-testing` (MEDIUM) — CONFLICT: Requirements use Next.js 15 which uses Turbopack, Vitest integrates better. KEEP vitest, EXCLUDE jest.
-- Binary returned `vue-frontend` (LOW) — CONFLICT: Requirements specify React. REMOVE.
-- Requirements mention "i18n" but no i18n skill was returned — GAP. Search index for "internationalization" → found `i18n-react` skill. ADD to secondary.
-- `chrome-devtools` appears as both skill and MCP — OVERLAP: MCP provides actual DevTools protocol access, skill provides instructions. KEEP both (complementary).
-
-**Output** (`team/agents-cfg/frontend-developer.agent.toml`):
-```toml
-# Auto-generated by PSS Agent Profiler
-# Agent: frontend-developer
-# Generated: 2026-02-27T10:30:00+00:00
-# Requirements: prd.md
-
-[agent]
-name = "frontend-developer"
-source = "path"
-path = "/abs/path/to/agents/frontend-developer.md"
-
-[requirements]
-files = ["prd.md"]
-project_type = "web-app"
-tech_stack = ["react", "nextjs", "tailwind", "postgresql", "stripe"]
-
-[skills]
-primary = ["building-with-bun", "css-to-svg-conversion", "development-standards"]
-secondary = ["exhaustive-testing", "handle-deprecation-warnings", "dependency-management", "git-workflow", "i18n-react"]
-specialized = ["accessibility-compliance", "responsive-design"]
-
-[skills.excluded]
-# "jest-testing" = "Excluded: Vitest preferred for Next.js 15 / Turbopack"
-# "vue-frontend" = "Excluded: Conflicts with React (requirements specify React 19)"
-# "angular-dev" = "Excluded: Conflicts with React (requirements specify React 19)"
-
-[agents]
-recommended = ["ui-ux-designer", "e2e-tester"]
-
-[commands]
-recommended = ["commit", "describe-pr"]
-
-[rules]
-recommended = ["claim-verification", "observe-before-editing"]
-
-[mcp]
-recommended = ["chrome-devtools"]
-
-[hooks]
-recommended = []
-
-[lsp]
-recommended = ["typescript-lsp"]
-```
+- **JSON Schema**: `${CLAUDE_PLUGIN_ROOT}/schemas/pss-agent-toml-schema.json`
+- **Validator**: `${CLAUDE_PLUGIN_ROOT}/scripts/pss_validate_agent_toml.py`
+- **Categories**: `${CLAUDE_PLUGIN_ROOT}/schemas/pss-categories.json` (16 predefined categories)
+- **Skill Index**: `~/.claude/cache/skill-index.json`
+- **Rust Binary**: `${CLAUDE_PLUGIN_ROOT}/rust/skill-suggester/bin/pss-<platform>`

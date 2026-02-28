@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "67e1894181dedb00824f36a61133da940ccf0a626047bfdfaaed60ca5be038dc",
   "indexed_at": "2026-02-26T23:36:59.271Z",
-  "synced_at": "2026-02-27T02:50:55.129Z",
+  "synced_at": "2026-02-28T04:22:19.430Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/77759256dc471129a59908e938f70eb5d7ae1a76733e16bc8959c403c69929ae",
   "install_command": "mkdir -p .claude/skills/data-model-creation && curl -sL \"https://raw.githubusercontent.com/sycsky/Soncho/main/.codebuddy/rules/tcb/rules/data-model-creation-skill/SKILL.md\" > .claude/skills/data-model-creation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sycsky/Soncho/main/.codebuddy/rules/tcb/rules/data-model-creation-skill/SKILL.md"

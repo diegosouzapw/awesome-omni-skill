@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "450c1f4d1cce676f4870ae7de2c5cc58f555bebb143713dc5b8c5488fc5aa6b5",
   "indexed_at": "2026-02-26T13:55:29.523Z",
-  "synced_at": "2026-02-27T02:50:10.807Z",
+  "synced_at": "2026-02-28T04:21:37.969Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a01641cf11b440f571e7f7d70bdecf206913c1ff7cc174dafd60a89730cdebd6",
   "install_command": "mkdir -p .claude/skills/scientific-schematics && curl -sL \"https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/davila7/scientific-schematics/SKILL.md\" > .claude/skills/scientific-schematics/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/davila7/scientific-schematics/SKILL.md"

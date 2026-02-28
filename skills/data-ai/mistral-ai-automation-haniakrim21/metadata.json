@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "91e3b93ac989847055b2f6eeef21f11a2f356fbd68c663744abdee2636ef9f33",
   "indexed_at": "2026-02-26T14:18:14.424Z",
-  "synced_at": "2026-02-27T02:50:12.939Z",
+  "synced_at": "2026-02-28T04:21:40.108Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/285dcfaeb0c2bda02842a8cd373d5f893ded3a93343fe61007b80be9c856f63c",
   "install_command": "mkdir -p .claude/skills/mistral-ai-automation && curl -sL \"https://raw.githubusercontent.com/haniakrim21/everything-claude-code/main/skills/mistral-ai-automation/SKILL.md\" > .claude/skills/mistral-ai-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/haniakrim21/everything-claude-code/main/skills/mistral-ai-automation/SKILL.md"

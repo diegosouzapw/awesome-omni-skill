@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c75a53e920339ca125ccb10657a64fca173f20505f3a2701da9041e5d7fec60a",
   "indexed_at": "2026-02-27T16:47:36.103Z",
-  "synced_at": "2026-02-27T18:16:23.392Z",
+  "synced_at": "2026-02-28T04:22:46.142Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/990eecb483255c2ee2019105b1ad602cf1dce71e580a5a79ac7a93a5a31afaac",
   "install_command": "mkdir -p .claude/skills/cursor && curl -sL \"https://raw.githubusercontent.com/jarmak-personal/agent-skills/main/.claude/skills/cursor/SKILL.md\" > .claude/skills/cursor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jarmak-personal/agent-skills/main/.claude/skills/cursor/SKILL.md"

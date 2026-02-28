@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "acbe5ec5b4f814db7b367a98dc8aa2bf136932870ce12daacb5c0da7fc2a3d65",
   "indexed_at": "2026-02-27T14:10:34.947Z",
-  "synced_at": "2026-02-27T18:16:13.588Z",
+  "synced_at": "2026-02-28T04:22:32.946Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/30c2250dacb0d69d7b01cef8f7313dff23da737dd6f55110c130d02df0ab64a7",
   "install_command": "mkdir -p .claude/skills/senior-computer-vision && curl -sL \"https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/templates-davila7/cli-tool/components/skills/development/senior-computer-vision/SKILL.md\" > .claude/skills/senior-computer-vision/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/templates-davila7/cli-tool/components/skills/development/senior-computer-vision/SKILL.md"

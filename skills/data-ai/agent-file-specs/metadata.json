@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "be68ff6a6b2b769e07749203f667ea2413a2be47ccaab016eea5eaa8c97999de",
   "indexed_at": "2026-02-26T18:39:12.562Z",
-  "synced_at": "2026-02-27T02:50:46.822Z",
+  "synced_at": "2026-02-28T04:22:12.278Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fdd55957d8af0e06de761d3c78325e7ec49c49b878eff1d124da9aba4a5bd028",
   "install_command": "mkdir -p .claude/skills/agent-file-specs && curl -sL \"https://raw.githubusercontent.com/Alzakath/Ruilhenn/main/.gemini/skills/agent-file-specs/SKILL.md\" > .claude/skills/agent-file-specs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Alzakath/Ruilhenn/main/.gemini/skills/agent-file-specs/SKILL.md"

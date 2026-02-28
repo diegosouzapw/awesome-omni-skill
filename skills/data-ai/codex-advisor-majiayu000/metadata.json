@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e68ba31d01cfe56e26d2986cc78fa2fd1f57a025be2ac0b744025635d1949254",
   "indexed_at": "2026-02-27T16:04:08.751Z",
-  "synced_at": "2026-02-27T18:16:18.094Z",
+  "synced_at": "2026-02-28T04:22:39.159Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3b17b377cb05c8576287ede03ba1149d37130be1be546446633d0c7f0eb4b208",
   "install_command": "mkdir -p .claude/skills/codex-advisor && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/codex-advisor/SKILL.md\" > .claude/skills/codex-advisor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/codex-advisor/SKILL.md"

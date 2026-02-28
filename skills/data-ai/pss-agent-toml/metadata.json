@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "04e6aab84761372a39d4838f149b30bfb86893c83f73e7b8c472a50f28792ae7",
   "indexed_at": "2026-02-27T05:48:38.404Z",
-  "synced_at": "2026-02-27T13:14:21.700Z",
+  "synced_at": "2026-02-28T04:22:23.640Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6965ed298f24d135871b1f6c2a1753aff1feb01a4a0fe44cb158f4897c3e627e",
   "install_command": "mkdir -p .claude/skills/pss-agent-toml && curl -sL \"https://raw.githubusercontent.com/Emasoft/perfect-skill-suggester/main/skills/pss-agent-toml/SKILL.md\" > .claude/skills/pss-agent-toml/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Emasoft/perfect-skill-suggester/main/skills/pss-agent-toml/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c14c9e42e1c4fc6e74c8fad941bb6f693123a656b6e254afed49441519d7d52f",
   "indexed_at": "2026-02-27T13:18:08.147Z",
-  "synced_at": "2026-02-27T18:16:11.336Z",
+  "synced_at": "2026-02-28T04:22:30.196Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3f54d6fb9af656d32455ab058e8f6e3bf77177c02fde8641e75322fd9922dd41",
   "install_command": "mkdir -p .claude/skills/cursor-subagent-creator && curl -sL \"https://raw.githubusercontent.com/tech-leads-club/agent-skills/main/packages/skills-catalog/skills/(creation)/cursor-subagent-creator/SKILL.md\" > .claude/skills/cursor-subagent-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tech-leads-club/agent-skills/main/packages/skills-catalog/skills/(creation)/cursor-subagent-creator/SKILL.md"

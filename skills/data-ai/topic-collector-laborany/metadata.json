@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fc69a878b47a9fe84df4ada37456e39c882d31e0912de15b2c2f6322185b8b40",
   "indexed_at": "2026-02-26T16:02:51.779Z",
-  "synced_at": "2026-02-27T02:50:22.861Z",
+  "synced_at": "2026-02-28T04:21:49.738Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/307aedf2c460d971a8eb3185f0e07dd6685c70b5e9cb0e1f1df610f0a83eb4b8",
   "install_command": "mkdir -p .claude/skills/topic-collector && curl -sL \"https://raw.githubusercontent.com/laborany/laborany/main/skills/topic-collector/SKILL.md\" > .claude/skills/topic-collector/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/laborany/laborany/main/skills/topic-collector/SKILL.md"

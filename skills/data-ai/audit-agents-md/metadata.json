@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5bbab6246a4c949690b778e3ea9cb2645a79f4947c4e14d33605536f8256a055",
   "indexed_at": "2026-02-26T23:39:37.599Z",
-  "synced_at": "2026-02-27T02:50:55.492Z",
+  "synced_at": "2026-02-28T04:22:19.774Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a4ec0dff1440406e6dccabf997b7a2e95b67bacece5305163bb52a7b0e005916",
   "install_command": "mkdir -p .claude/skills/audit-agents-md && curl -sL \"https://raw.githubusercontent.com/eivindeb/agent-skills/main/audit-agents-md/SKILL.md\" > .claude/skills/audit-agents-md/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/eivindeb/agent-skills/main/audit-agents-md/SKILL.md"

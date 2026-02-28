@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3f851dc82d9a4db8e8d56d6474bab1ea964557a0ecb3e143bb2f0201aeb46956",
   "indexed_at": "2026-02-26T15:17:26.800Z",
-  "synced_at": "2026-02-27T02:50:16.806Z",
+  "synced_at": "2026-02-28T04:21:43.953Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c1b4f051e60be9c42d873e26978680d348a2107cdb6241d3995932ad5dd6ba09",
   "install_command": "mkdir -p .claude/skills/skill-evaluator && curl -sL \"https://raw.githubusercontent.com/lhohan/claude-code-plugins/main/skill-evaluator/skills/skill-evaluator/SKILL.md\" > .claude/skills/skill-evaluator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lhohan/claude-code-plugins/main/skill-evaluator/skills/skill-evaluator/SKILL.md"

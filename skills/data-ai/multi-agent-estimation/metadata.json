@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b5314fab7bf05bb90bc2f8db620607a2e8a9a82ebc282ee8e5d09b8a087e83bd",
   "indexed_at": "2026-02-27T16:54:22.909Z",
-  "synced_at": "2026-02-27T18:16:23.705Z",
+  "synced_at": "2026-02-28T04:22:46.667Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f71b428c398e95f2896ced5c62b145e69afc2398d930ee6a559fc6195683f164",
   "install_command": "mkdir -p .claude/skills/multi-agent-estimation && curl -sL \"https://raw.githubusercontent.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction/main/3_DDC_Insights/AI-Agents/multi-agent-estimation/SKILL.md\" > .claude/skills/multi-agent-estimation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction/main/3_DDC_Insights/AI-Agents/multi-agent-estimation/SKILL.md"

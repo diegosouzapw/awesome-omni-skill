@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a1b548f29a00a69a3e9a8d06196d1589aa2d44d41930c03f869c5454031339e5",
   "indexed_at": "2026-02-27T16:02:20.947Z",
-  "synced_at": "2026-02-27T18:16:16.992Z",
+  "synced_at": "2026-02-28T04:22:37.729Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4eae003c8e9043e916e0ec2c23a06c4e82b8b50bb781bb53f5950b613b75b32c",
   "install_command": "mkdir -p .claude/skills/julien-workflow-advice-codex && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/julien-workflow-advice-codex/SKILL.md\" > .claude/skills/julien-workflow-advice-codex/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/julien-workflow-advice-codex/SKILL.md"

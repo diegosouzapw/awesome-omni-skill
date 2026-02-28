@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9510b1f7e79c85a3a60f588750a5102fba5260e591a65b0c2542079d3deef854",
   "indexed_at": "2026-02-26T18:42:08.473Z",
-  "synced_at": "2026-02-27T02:50:49.080Z",
+  "synced_at": "2026-02-28T04:22:14.524Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/55e9cc27247e29fae381e19a5ebb22d9f393b0d04902a68c2e90b27dbb54a2c4",
   "install_command": "mkdir -p .claude/skills/building-with-llms && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/building-with-llms-refoundai-lenny-skills/SKILL.md\" > .claude/skills/building-with-llms/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/building-with-llms-refoundai-lenny-skills/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3eb3653a6ec7869c754f9f1ea2130648d1669b184878cfd7ce652b036b912b05",
   "indexed_at": "2026-02-26T23:31:51.480Z",
-  "synced_at": "2026-02-27T02:50:52.165Z",
+  "synced_at": "2026-02-28T04:22:17.675Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7c1aeaec31d43e19e337b087425475a6538451ee54d4e4d551da7d0117b35d0f",
   "install_command": "mkdir -p .claude/skills/rules-vs-skills && curl -sL \"https://raw.githubusercontent.com/macho715/inventory_master/main/.cursor/skills/rules-vs-skills/SKILL.md\" > .claude/skills/rules-vs-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/macho715/inventory_master/main/.cursor/skills/rules-vs-skills/SKILL.md"

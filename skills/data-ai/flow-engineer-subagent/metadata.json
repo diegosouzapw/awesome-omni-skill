@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d277c231b6aadce1421d6738ec67a4a7247bda269d07a92943bc2b13e4a4172e",
   "indexed_at": "2026-02-27T13:25:23.403Z",
-  "synced_at": "2026-02-27T18:16:12.151Z",
+  "synced_at": "2026-02-28T04:22:31.243Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b9c53888a7dd050fa6d7fc0e0103eaaf394db297ca76f7d3ea8488b05dcb39c7",
   "install_command": "mkdir -p .claude/skills/flow-engineer-subagent && curl -sL \"https://raw.githubusercontent.com/korchasa/flow/main/catalog/skills/flow-engineer-subagent/SKILL.md\" > .claude/skills/flow-engineer-subagent/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/korchasa/flow/main/catalog/skills/flow-engineer-subagent/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a86038b82ff0409816ba0973c66cf2615b071ad1bf798c8b2d91bab108014a7f",
   "indexed_at": "2026-02-27T16:11:53.635Z",
-  "synced_at": "2026-02-27T18:16:22.538Z",
+  "synced_at": "2026-02-28T04:22:44.971Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ec671d6eeba00b0045c3a9488bf0d3405b7f68f9a0e703e650da2c52fc9d5ecb",
   "install_command": "mkdir -p .claude/skills/multi-model-reviewer && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/knowlet/skills/multi-model-reviewer/SKILL.md\" > .claude/skills/multi-model-reviewer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/knowlet/skills/multi-model-reviewer/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e7d2f5bd1e8c8df6af8247118e8cbeb4840c54bf1770e89282b8667e3979a27d",
   "indexed_at": "2026-02-26T17:34:52.256Z",
-  "synced_at": "2026-02-27T02:50:36.647Z",
+  "synced_at": "2026-02-28T04:22:02.721Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a46f3590fe820125723291dbc9ed16e9cac14fe3b91fe4d16ab673cfb85f0aef",
   "install_command": "mkdir -p .claude/skills/nexus-bootstrap && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/nexus-bootstrap/SKILL.md\" > .claude/skills/nexus-bootstrap/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/nexus-bootstrap/SKILL.md"

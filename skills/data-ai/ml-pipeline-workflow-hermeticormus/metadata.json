@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0194a65c519f933a21abe7db7d194157a54b5425af945fc144bd6c7a7b1ff526",
   "indexed_at": "2026-02-26T14:20:37.038Z",
-  "synced_at": "2026-02-27T02:50:13.993Z",
+  "synced_at": "2026-02-28T04:21:41.104Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5563075996add5f856d55393688e0e6b48ccc95ca0c8e4ab7ef1a74d662f47b9",
   "install_command": "mkdir -p .claude/skills/ml-pipeline-workflow && curl -sL \"https://raw.githubusercontent.com/HermeticOrmus/FloreSerLife/main/plugins/machine-learning-ops/skills/ml-pipeline-workflow/SKILL.md\" > .claude/skills/ml-pipeline-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HermeticOrmus/FloreSerLife/main/plugins/machine-learning-ops/skills/ml-pipeline-workflow/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6923cc171cdb872478745d35582fd6f433e5646eb4b55c8e0e94908bc957e7a3",
   "indexed_at": "2026-02-26T18:34:33.254Z",
-  "synced_at": "2026-02-27T02:50:42.672Z",
+  "synced_at": "2026-02-28T04:22:08.204Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/99f2519c85ea0361717c32a3a11b2f89c59d3be673a9036e716a8a2554487122",
   "install_command": "mkdir -p .claude/skills/kimmo-agent-friendly-score && curl -sL \"https://raw.githubusercontent.com/ihmissuti/ai-search-optimization-cursor-skills/main/kimmo-agent-friendly-score/SKILL.md\" > .claude/skills/kimmo-agent-friendly-score/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ihmissuti/ai-search-optimization-cursor-skills/main/kimmo-agent-friendly-score/SKILL.md"

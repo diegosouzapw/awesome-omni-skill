@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "004dd0ccbb9d7ef6b34e4c47c51992766bcd7cd4dbd5574e8a717cab1a74eb20",
   "indexed_at": "2026-02-26T19:07:28.637Z",
-  "synced_at": "2026-02-27T02:50:49.425Z",
+  "synced_at": "2026-02-28T04:22:14.917Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a55a9e8bfff617f3ddf0df69d5ac66b1d704ff901958720d6a59bd4e1fb05b42",
   "install_command": "mkdir -p .claude/skills/agenttodo && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ericstrohmaier/agenttodo/agenttodo/SKILL.md\" > .claude/skills/agenttodo/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ericstrohmaier/agenttodo/agenttodo/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "28573e249e18b68b606bfac5fab8b0463d18d2725055c906c7c8a1a7a8042552",
   "indexed_at": "2026-02-27T12:38:09.572Z",
-  "synced_at": "2026-02-27T13:14:25.473Z",
+  "synced_at": "2026-02-28T04:22:29.694Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fb301103ecf5f5f6be6a460cae7268273c55b601b732d35b23aec9ce1b03862d",
   "install_command": "mkdir -p .claude/skills/candidate-evaluation && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/pollinations__pollinations__claude__skills__candidate-evaluation__SKILL.md/SKILL.md\" > .claude/skills/candidate-evaluation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/pollinations__pollinations__claude__skills__candidate-evaluation__SKILL.md/SKILL.md"

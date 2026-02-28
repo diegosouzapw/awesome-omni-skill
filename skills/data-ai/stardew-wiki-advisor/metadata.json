@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "04a57340d3475262e19ea1bf0d7c01a4e94e45801cdd391e0b9ba790f87da533",
   "indexed_at": "2026-02-27T14:45:51.400Z",
-  "synced_at": "2026-02-27T18:16:13.712Z",
+  "synced_at": "2026-02-28T04:22:33.111Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4666624ceead17baf9b6f6390beb7f73a36b1d817aaf52e679f4a36b759406d1",
   "install_command": "mkdir -p .claude/skills/stardew-wiki-advisor && curl -sL \"https://raw.githubusercontent.com/TommyYeung660/openclaw-stardew-wiki-agent/main/SKILL.md\" > .claude/skills/stardew-wiki-advisor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TommyYeung660/openclaw-stardew-wiki-agent/main/SKILL.md"

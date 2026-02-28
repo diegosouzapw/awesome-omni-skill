@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "48dc117e5323729489606e65e01b07f49fac949c9155eb3d7e64e3470df41757",
   "indexed_at": "2026-02-26T18:41:39.786Z",
-  "synced_at": "2026-02-27T02:50:48.704Z",
+  "synced_at": "2026-02-28T04:22:14.149Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/157d394c933b91dad95b0b7f2f2b59ef6a91748431f315c6d83d3094eabf2fda",
   "install_command": "mkdir -p .claude/skills/jetbrains-marketplace-reviews && curl -sL \"https://raw.githubusercontent.com/chagong/IssueLens/main/.github/skills/jetbrains-marketplace-reviews/SKILL.md\" > .claude/skills/jetbrains-marketplace-reviews/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chagong/IssueLens/main/.github/skills/jetbrains-marketplace-reviews/SKILL.md"

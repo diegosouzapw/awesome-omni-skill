@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d2dba1e45566ad12ddd79040ca32d25358eb8a4c042a09d2358d7091d56ef267",
   "indexed_at": "2026-02-27T07:34:43.005Z",
-  "synced_at": "2026-02-27T13:14:22.328Z",
+  "synced_at": "2026-02-28T04:22:24.550Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/51670b2016773e52148803fd537f64091ecac14674684f560381223e355aa0e2",
   "install_command": "mkdir -p .claude/skills/nlss && curl -sL \"https://raw.githubusercontent.com/docmh/nlss/main/SKILL.md\" > .claude/skills/nlss/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/docmh/nlss/main/SKILL.md"

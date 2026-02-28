@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "534bce9dbe74db7dc3b5c761640a0efc7746c6870f8e333b5ba571aeb868fc02",
   "indexed_at": "2026-02-26T23:35:54.462Z",
-  "synced_at": "2026-02-27T02:50:53.684Z",
+  "synced_at": "2026-02-28T04:22:19.103Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8b93586d8d1cf70233532dc084bd348424b149223290d6343c4000814ce6b222",
   "install_command": "mkdir -p .claude/skills/writing-agents && curl -sL \"https://raw.githubusercontent.com/evatt-harvey-salinger/dotfiles/main/claude/skills/writing-agents/SKILL.md\" > .claude/skills/writing-agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/evatt-harvey-salinger/dotfiles/main/claude/skills/writing-agents/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "48395aa8a9dcd36c10a556c0a3545351486ef5ccd5efc6ce098338022e719fa3",
   "indexed_at": "2026-02-26T15:24:29.634Z",
-  "synced_at": "2026-02-27T02:50:19.950Z",
+  "synced_at": "2026-02-28T04:21:46.903Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eec1f289056e9de796d7507ac13166a720b10a9dc6889d956139ea20aca0faea",
   "install_command": "mkdir -p .claude/skills/kramme-agents-md && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/kramme-agents-md/SKILL.md\" > .claude/skills/kramme-agents-md/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/kramme-agents-md/SKILL.md"

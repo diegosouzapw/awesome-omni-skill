@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ff0973aca9c558706fccaf51fd8a5679b6f717f762b880bad2c5b289e032d677",
   "indexed_at": "2026-02-26T17:31:10.314Z",
-  "synced_at": "2026-02-27T02:50:32.119Z",
+  "synced_at": "2026-02-28T04:21:58.159Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1ce36381902297a2cc2183a861e7da1b3f2fc0f3fdb9e1dd96d08122b32f3bdb",
   "install_command": "mkdir -p .claude/skills/agent-canvas-setup && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agent-canvas-setup/SKILL.md\" > .claude/skills/agent-canvas-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agent-canvas-setup/SKILL.md"

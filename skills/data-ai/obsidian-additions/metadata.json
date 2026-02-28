@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "52ebd3cffe5485f29c274658bd4567ce9ea63dfea4ea5889207118529feb10fa",
   "indexed_at": "2026-02-26T15:09:51.292Z",
-  "synced_at": "2026-02-27T02:50:16.079Z",
+  "synced_at": "2026-02-28T04:21:43.251Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/87ced1e75ce3aa00909707dc8c74c0963b89562b99d841deedd2741085b5e8a7",
   "install_command": "mkdir -p .claude/skills/obsidian-additions && curl -sL \"https://raw.githubusercontent.com/flowing-abyss/obsidian-vault-skills/main/skills/obsidian-additions/SKILL.md\" > .claude/skills/obsidian-additions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/flowing-abyss/obsidian-vault-skills/main/skills/obsidian-additions/SKILL.md"

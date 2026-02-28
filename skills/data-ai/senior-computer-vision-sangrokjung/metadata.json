@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "18249857a660cbec09a4354500f7af79621d103afac3f78e092b3ae12195af00",
   "indexed_at": "2026-02-27T14:10:26.041Z",
-  "synced_at": "2026-02-27T18:16:13.352Z",
+  "synced_at": "2026-02-28T04:22:32.608Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7119831929bd057e20f54f27cecf4f82c57e5b6f9cd1c5a71b838d169ee3e165",
   "install_command": "mkdir -p .claude/skills/senior-computer-vision && curl -sL \"https://raw.githubusercontent.com/sangrokjung/claude-code-config-public/main/commands/senior-computer-vision/SKILL.md\" > .claude/skills/senior-computer-vision/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sangrokjung/claude-code-config-public/main/commands/senior-computer-vision/SKILL.md"

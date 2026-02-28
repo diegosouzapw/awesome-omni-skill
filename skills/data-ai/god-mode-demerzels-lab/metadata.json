@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d403798eed78a7def7e7e608c1bf8e30c981796cd426051cb7b5cfddeaf8bf02",
   "indexed_at": "2026-02-26T18:40:07.033Z",
-  "synced_at": "2026-02-27T02:50:47.854Z",
+  "synced_at": "2026-02-28T04:22:13.298Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cbc3107335592573092d5ff56fcbc2fa0310bc2cc4423efce156bb6e05b37c26",
   "install_command": "mkdir -p .claude/skills/god-mode && curl -sL \"https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/infantlab/god-mode/SKILL.md\" > .claude/skills/god-mode/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/infantlab/god-mode/SKILL.md"

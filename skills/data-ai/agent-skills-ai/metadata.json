@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a6c12b6b89dbe019915c5321fcb1463cc901244ae47bd18b5793385c2687b510",
   "indexed_at": "2026-02-26T16:31:53.438Z",
-  "synced_at": "2026-02-27T02:50:24.656Z",
+  "synced_at": "2026-02-28T04:21:51.601Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4ad2c8838d3a7715dee4953ef322e4ae79063dcc9a1259fddb4118bf6b04263f",
   "install_command": "mkdir -p .claude/skills/agent-skills-ai && curl -sL \"https://raw.githubusercontent.com/harryzhu313/zhuwanyu-personal-website/main/articles/agent-skill.md/SKILL.md\" > .claude/skills/agent-skills-ai/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/harryzhu313/zhuwanyu-personal-website/main/articles/agent-skill.md/SKILL.md"

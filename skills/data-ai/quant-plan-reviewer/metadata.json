@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "29000faf2506469fc694be188f889333a2397a8f67501b8b6004cbf5127a91e1",
   "indexed_at": "2026-02-27T13:17:28.166Z",
-  "synced_at": "2026-02-27T18:16:11.197Z",
+  "synced_at": "2026-02-28T04:22:30.022Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d1669b5cc4f9a01326027b73e70a01e7a26c4d1b7a9c3f5938c5a50f26f7e787",
   "install_command": "mkdir -p .claude/skills/quant-plan-reviewer && curl -sL \"https://raw.githubusercontent.com/nandkapadia/claude-skills-agents/main/skills/quant-plan-reviewer/SKILL.md\" > .claude/skills/quant-plan-reviewer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nandkapadia/claude-skills-agents/main/skills/quant-plan-reviewer/SKILL.md"

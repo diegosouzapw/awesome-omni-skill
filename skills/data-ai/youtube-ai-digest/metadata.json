@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "93beb29aa01df28729ce07dfb462423a0803e3b6234368bd3626689d2331aa9c",
   "indexed_at": "2026-02-26T19:30:42.097Z",
-  "synced_at": "2026-02-27T02:50:49.747Z",
+  "synced_at": "2026-02-28T04:22:15.231Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e101ce175dc48bb656786598a8aec75dd87632caaa417903d34492fa72d81445",
   "install_command": "mkdir -p .claude/skills/youtube-ai-digest && curl -sL \"https://raw.githubusercontent.com/yizhiyanhua-ai/youtube-ai-digest/main/SKILL.md\" > .claude/skills/youtube-ai-digest/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yizhiyanhua-ai/youtube-ai-digest/main/SKILL.md"

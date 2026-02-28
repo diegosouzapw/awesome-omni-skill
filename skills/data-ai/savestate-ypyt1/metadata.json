@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9c03b4dafa591ee09fd4103e055e4da5160d38fc4872e2cec85a75727de0378f",
   "indexed_at": "2026-02-27T16:12:18.900Z",
-  "synced_at": "2026-02-27T18:16:23.137Z",
+  "synced_at": "2026-02-28T04:22:45.831Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aa3c9187d75a85cf95c871631e99b3461198aa00a66ae39ec4372de24c905ee0",
   "install_command": "mkdir -p .claude/skills/savestate && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/dbhurley/savestate/SKILL.md\" > .claude/skills/savestate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/dbhurley/savestate/SKILL.md"

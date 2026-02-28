@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "66a783a926bcf1a4110223f6dfe79bd6413992ebb7bc3662c33215e76a42c273",
   "indexed_at": "2026-02-27T16:08:32.402Z",
-  "synced_at": "2026-02-27T18:16:20.562Z",
+  "synced_at": "2026-02-28T04:22:42.321Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d722035cdaad5f53fe4719628256d7e27006d4985ddf58bbdeef5761844d03f9",
   "install_command": "mkdir -p .claude/skills/prompt-factory && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/prompt-factory/SKILL.md\" > .claude/skills/prompt-factory/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/prompt-factory/SKILL.md"

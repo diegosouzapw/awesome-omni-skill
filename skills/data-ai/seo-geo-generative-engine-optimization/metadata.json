@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "73fe66c35fa5628cb41f37e55de15b3ff49de6c4fb0ec2f7faf8334de93b9884",
   "indexed_at": "2026-02-26T18:39:41.222Z",
-  "synced_at": "2026-02-27T02:50:47.659Z",
+  "synced_at": "2026-02-28T04:22:13.093Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/69a1899787bd00fbc92badf8deb660bcd60a075604bbdba42894acf7cf419d96",
   "install_command": "mkdir -p .claude/skills/seo-geo-generative-engine-optimization && curl -sL \"https://raw.githubusercontent.com/anorbert-cmyk/validatestrategylive/main/.agent/skills/seo-geo/SKILL.md\" > .claude/skills/seo-geo-generative-engine-optimization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/anorbert-cmyk/validatestrategylive/main/.agent/skills/seo-geo/SKILL.md"

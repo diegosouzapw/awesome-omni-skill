@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1eed6e82c79c97ec132238d9315227026554adb611123f9b3f41942cf2e18def",
   "indexed_at": "2026-02-27T16:08:41.841Z",
-  "synced_at": "2026-02-27T18:16:20.857Z",
+  "synced_at": "2026-02-28T04:22:42.721Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7de0bfc01c60be9ea2e4281cadc64acaa5cc7a3de1ddbdf34920d1e769686252",
   "install_command": "mkdir -p .claude/skills/llm-manager && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/llm-manager/SKILL.md\" > .claude/skills/llm-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/llm-manager/SKILL.md"

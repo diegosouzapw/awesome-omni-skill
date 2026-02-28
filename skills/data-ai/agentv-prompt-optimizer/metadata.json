@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f04dc9c295279a841d1111a954c42203023ef05ad22fd6c8396f217c0a1c958b",
   "indexed_at": "2026-02-26T15:20:15.918Z",
-  "synced_at": "2026-02-27T02:50:18.842Z",
+  "synced_at": "2026-02-28T04:21:45.802Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/052a0575156f4ba9df000c76070484f0f00c61ab41993a5b8a1549ff1ed3e7a8",
   "install_command": "mkdir -p .claude/skills/agentv-prompt-optimizer && curl -sL \"https://raw.githubusercontent.com/EntityProcess/agentv/main/plugins/agentv-dev/skills/agentv-prompt-optimizer/SKILL.md\" > .claude/skills/agentv-prompt-optimizer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/EntityProcess/agentv/main/plugins/agentv-dev/skills/agentv-prompt-optimizer/SKILL.md"

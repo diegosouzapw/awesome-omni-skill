@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5e58e96b68fd7a25fdd0430401a208d29f66be94a0342279d303b7835fa6ed9e",
   "indexed_at": "2026-02-27T16:56:41.017Z",
-  "synced_at": "2026-02-27T18:16:24.748Z",
+  "synced_at": "2026-02-28T04:22:48.446Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f4fd64ca43e1dd1f355046be32e4e4f50572c150057454357c0372e24922ffba",
   "install_command": "mkdir -p .claude/skills/squall-deep-research && curl -sL \"https://raw.githubusercontent.com/DSado88/squall/main/.claude/skills/squall-deep-research/SKILL.md\" > .claude/skills/squall-deep-research/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/DSado88/squall/main/.claude/skills/squall-deep-research/SKILL.md"

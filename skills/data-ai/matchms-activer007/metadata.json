@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7d3e7ba3d10ff79c342ac4a51fa0f44de0ac33c25652901710e5287b05aacb41",
   "indexed_at": "2026-02-27T04:32:25.766Z",
-  "synced_at": "2026-02-27T13:14:21.442Z",
+  "synced_at": "2026-02-28T04:22:23.142Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fbe71c2fb860e57c08b44525a8fb0c62a1a13a2f97202bd2104a52262db08578",
   "install_command": "mkdir -p .claude/skills/matchms && curl -sL \"https://raw.githubusercontent.com/Activer007/ordinary-claude-skills/main/skills_all/claude-scientific-skills/scientific-skills/matchms/SKILL.md\" > .claude/skills/matchms/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Activer007/ordinary-claude-skills/main/skills_all/claude-scientific-skills/scientific-skills/matchms/SKILL.md"

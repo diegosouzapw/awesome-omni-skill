@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4e3ffc9b6861c28d001628fab8ee1b7fef31c0ded763f6c555ab7cb6c6a65514",
   "indexed_at": "2026-02-26T23:41:27.026Z",
-  "synced_at": "2026-02-27T02:50:56.838Z",
+  "synced_at": "2026-02-28T04:22:21.063Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2c4b12bee2562daefea2f51b04faee3f1fd007f7e8ad8c161b4141d5bcedb926",
   "install_command": "mkdir -p .claude/skills/verify-claude-setup && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/verify-claude-setup-dexploarer-hyper-forge/SKILL.md\" > .claude/skills/verify-claude-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/verify-claude-setup-dexploarer-hyper-forge/SKILL.md"

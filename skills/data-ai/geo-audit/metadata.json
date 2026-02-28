@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "80344c1bb29fdb85c139df80fb53edb218e4fb47e6ca6ac739612dfba5d26f68",
   "indexed_at": "2026-02-27T16:02:23.283Z",
-  "synced_at": "2026-02-27T18:16:17.140Z",
+  "synced_at": "2026-02-28T04:22:37.926Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0b3c53a9b6d3bb275d93df77895d114028c490fd3a7e41ecda776abcd3ff18df",
   "install_command": "mkdir -p .claude/skills/geo-audit && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/geo-audit/SKILL.md\" > .claude/skills/geo-audit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/geo-audit/SKILL.md"

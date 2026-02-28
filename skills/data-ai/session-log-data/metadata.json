@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bcb907748cd4bef0416c099fc550d5d5cbe1c4fa92543104b91b1be0ac3b515d",
   "indexed_at": "2026-02-26T18:37:15.732Z",
-  "synced_at": "2026-02-27T02:50:45.391Z",
+  "synced_at": "2026-02-28T04:22:10.873Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/45ee40be2646190c78654f2cd8c80ff383d444707598da9c82887405c0e8aa9a",
   "install_command": "mkdir -p .claude/skills/session-log-data && curl -sL \"https://raw.githubusercontent.com/rajbos/github-copilot-token-usage/main/.github/skills/session-log-data/SKILL.md\" > .claude/skills/session-log-data/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rajbos/github-copilot-token-usage/main/.github/skills/session-log-data/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "14ba39cc96cfcac481ecd29445f3f8f9c88175e9f2b8fec2b3ff2992ab17b0b7",
   "indexed_at": "2026-02-26T23:36:08.763Z",
-  "synced_at": "2026-02-27T02:50:54.956Z",
+  "synced_at": "2026-02-28T04:22:19.268Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/64c1c671b9cf2e6fce055122912e97dd8306fc2132652e7406d1ec85a265ea62",
   "install_command": "mkdir -p .claude/skills/command-to-subagent && curl -sL \"https://raw.githubusercontent.com/patrickclery/ruly/main/.claude/ruly/skills/command-to-subagent/SKILL.md\" > .claude/skills/command-to-subagent/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/patrickclery/ruly/main/.claude/ruly/skills/command-to-subagent/SKILL.md"

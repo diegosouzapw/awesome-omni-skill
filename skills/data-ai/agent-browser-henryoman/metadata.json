@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4199e970b5441992c536f0ee5265f644c20f5860fbff1bf9df9ad9e0c9d8b9af",
   "indexed_at": "2026-02-27T09:46:37.001Z",
-  "synced_at": "2026-02-27T13:14:24.317Z",
+  "synced_at": "2026-02-28T04:22:27.628Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1545b33769d3035d66a841e65501aa50b5ca15faa3ad7b8e3ff30a24b3bf49a5",
   "install_command": "mkdir -p .claude/skills/agent-browser && curl -sL \"https://raw.githubusercontent.com/henryoman/TrenchClaw/main/apps/trenchclaw/src/ai/brain/knowledge/skills/agent-browser/SKILL.md\" > .claude/skills/agent-browser/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/henryoman/TrenchClaw/main/apps/trenchclaw/src/ai/brain/knowledge/skills/agent-browser/SKILL.md"

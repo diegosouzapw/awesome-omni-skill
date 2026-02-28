@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b5e9e859a288db92e7041be16d854141c92e3dd445108a640a76280fb7ecd39c",
   "indexed_at": "2026-02-27T13:02:00.990Z",
-  "synced_at": "2026-02-27T13:14:25.537Z",
+  "synced_at": "2026-02-28T04:22:29.840Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d9d5efdfb1e7a519021bae295ec2eb82349de407370f5cb41d2c1deb5906f004",
   "install_command": "mkdir -p .claude/skills/agentic-issue-assistant && curl -sL \"https://raw.githubusercontent.com/ephabe/agentic-issue-assistant/main/SKILL.md\" > .claude/skills/agentic-issue-assistant/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ephabe/agentic-issue-assistant/main/SKILL.md"

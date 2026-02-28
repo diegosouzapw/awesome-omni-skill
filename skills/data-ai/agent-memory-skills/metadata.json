@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2a1d9b28092b2222ba6f98322b9efcd10d5d65fabcac222af77e345a1ce09dfc",
   "indexed_at": "2026-02-27T13:25:31.602Z",
-  "synced_at": "2026-02-27T18:16:12.279Z",
+  "synced_at": "2026-02-28T04:22:31.394Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d8b74b63da47a044591e34ae626d13b137710dcbecba6d2be304a02a6251d81a",
   "install_command": "mkdir -p .claude/skills/agent-memory-skills && curl -sL \"https://raw.githubusercontent.com/kimasplund/clawdbot-skills-pack/main/agent-skills/agent-memory/SKILL.md\" > .claude/skills/agent-memory-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kimasplund/clawdbot-skills-pack/main/agent-skills/agent-memory/SKILL.md"

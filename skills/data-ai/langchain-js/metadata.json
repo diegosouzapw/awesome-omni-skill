@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "963f5c004098309cbf97e7b156ccd1ebc1b020ee821b79835293558763f6f99c",
   "indexed_at": "2026-02-27T17:38:15.981Z",
-  "synced_at": "2026-02-27T18:16:26.300Z",
+  "synced_at": "2026-02-28T04:22:51.053Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4106efd66d4ae077db76727f23077c7a681405027bb81635e9753d198c6c0abc",
   "install_command": "mkdir -p .claude/skills/langchain-js && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/langchain-js/SKILL.md\" > .claude/skills/langchain-js/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/langchain-js/SKILL.md"

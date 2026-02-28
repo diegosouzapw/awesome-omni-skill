@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "04f63d0d4aebcf6d1d6ad20e967ec2421532666103dea4861b71de1db06aecdd",
   "indexed_at": "2026-02-26T17:35:06.323Z",
-  "synced_at": "2026-02-27T02:50:37.236Z",
+  "synced_at": "2026-02-28T04:22:03.285Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8dc33c78e63f00fb6b2d61a68907f0d64d44b6c06c1aeb90f76549826fa1fa04",
   "install_command": "mkdir -p .claude/skills/sync-agents && curl -sL \"https://raw.githubusercontent.com/NoahJenkins/noahjenkins.com-v2/main/.github/skills/sync-agents/SKILL.md\" > .claude/skills/sync-agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NoahJenkins/noahjenkins.com-v2/main/.github/skills/sync-agents/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ef39f9bcceb887724b00a61e1cd2f6a0a6a23364c4c367bf47f2d7997d204183",
   "indexed_at": "2026-02-27T15:04:27.947Z",
-  "synced_at": "2026-02-27T18:16:14.497Z",
+  "synced_at": "2026-02-28T04:22:34.145Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0d2a92e859537fb22639de3c1e15e31e2ad5cdd4fdf7098f14ec065f5aa9c170",
   "install_command": "mkdir -p .claude/skills/thalo && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/rejot-dev/thalo/thalo/SKILL.md\" > .claude/skills/thalo/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/rejot-dev/thalo/thalo/SKILL.md"

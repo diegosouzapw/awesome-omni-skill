@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "385e91377d025778249714ae5ab8f77dd26405fbf0ea38a4db153e67e290f623",
   "indexed_at": "2026-02-27T16:57:13.011Z",
-  "synced_at": "2026-02-27T18:16:25.059Z",
+  "synced_at": "2026-02-28T04:22:48.968Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4bc835c0cb4b518716b17613d48cd05753d215e7b35189212e30ec73041c6d9e",
   "install_command": "mkdir -p .claude/skills/topic-agent && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/zephyrwang6/myskill/topic-agent/SKILL.md\" > .claude/skills/topic-agent/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/zephyrwang6/myskill/topic-agent/SKILL.md"

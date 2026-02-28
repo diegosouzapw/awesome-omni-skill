@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7a125280fd535f51696fbc5d6bd28f0f0d79a1dda27185b94119090a0317c515",
   "indexed_at": "2026-02-27T16:55:46.863Z",
-  "synced_at": "2026-02-27T18:16:24.423Z",
+  "synced_at": "2026-02-28T04:22:47.902Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6af0ff2d96a7cd67fc27e4ad18527afd814a22fb63e7e252849c5ba249bdaef1",
   "install_command": "mkdir -p .claude/skills/tech-hub && curl -sL \"https://raw.githubusercontent.com/zhenxuanshi-ship-it/meatpiegua_skills/main/tech-hub/SKILL.md\" > .claude/skills/tech-hub/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zhenxuanshi-ship-it/meatpiegua_skills/main/tech-hub/SKILL.md"

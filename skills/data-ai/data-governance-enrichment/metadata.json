@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cfc1049c7b414c0fbe7c569d575c2b95da0d93787aca9a908220dbcb0d595abf",
   "indexed_at": "2026-02-26T14:23:28.103Z",
-  "synced_at": "2026-02-27T02:50:14.685Z",
+  "synced_at": "2026-02-28T04:21:41.842Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/885e89c577160a492f60098c8221f9993511aec7a75fd9d8ed45c9e4e229c45e",
   "install_command": "mkdir -p .claude/skills/data-governance-enrichment && curl -sL \"https://raw.githubusercontent.com/juandaniel190/personal-projects/main/.claude/skills/revops/data-governance-enrichment/SKILL.md\" > .claude/skills/data-governance-enrichment/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/juandaniel190/personal-projects/main/.claude/skills/revops/data-governance-enrichment/SKILL.md"

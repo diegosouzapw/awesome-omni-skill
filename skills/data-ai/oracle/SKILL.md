@@ -1,125 +1,133 @@
 ---
 name: oracle
-description: Best practices for using the oracle CLI (prompt + file bundling, engines, sessions, and file attachment patterns).
-homepage: https://askoracle.dev
-metadata:
-  {
-    "omniagent":
-      {
-        "emoji": "🧿",
-        "requires": { "bins": ["oracle"] },
-        "install":
-          [
-            {
-              "id": "node",
-              "kind": "node",
-              "package": "@steipete/oracle",
-              "bins": ["oracle"],
-              "label": "Install oracle (node)",
-            },
-          ],
-      },
-  }
+description: Invoke a powerful reasoning model for complex analysis tasks. Use when facing difficult bugs, reviewing critical code, designing complex refactors, needing architectural analysis, or seeking consensus on decisions. Also use for 'ask the oracle', 'get a second opinion', 'consult oracle', or 'deep analysis'.
 ---
 
-# oracle — best use
+# Oracle - Second Opinion Model
 
-Oracle bundles your prompt + selected files into one “one-shot” request so another model can answer with real repo context (API or browser automation). Treat output as advisory: verify against code + tests.
+Invokes OpenAI's GPT-5.2 extra high reasoning model via CLI for complex analysis tasks. It excels at debugging, code review, architecture analysis, and finding better solutions.
 
-## Main use case (browser, GPT‑5.2 Pro)
+**Prerequisite:** Codex CLI installed and authenticated (`codex login`).
 
-Default workflow here: `--engine browser` with GPT‑5.2 Pro in ChatGPT. This is the common “long think” path: ~10 minutes to ~1 hour is normal; expect a stored session you can reattach to.
+**Trade-offs:** Slower and more expensive than the main agent, but significantly better at complex reasoning. Use deliberately, not for every task.
 
-Recommended defaults:
+## Invocation
 
-- Engine: browser (`--engine browser`)
-- Model: GPT‑5.2 Pro (`--model gpt-5.2-pro` or `--model "5.2 Pro"`)
+Use `codex exec --profile oracle` to run the reasoning model:
 
-## Golden path
+```bash
+codex exec --profile oracle "Review @src/auth/jwt.ts for security vulnerabilities"
+```
 
-1. Pick a tight file set (fewest files that still contain the truth).
-2. Preview payload + token spend (`--dry-run` + `--files-report`).
-3. Use browser mode for the usual GPT‑5.2 Pro workflow; use API only when you explicitly want it.
-4. If the run detaches/timeouts: reattach to the stored session (don’t re-run).
+### Examples
 
-## Commands (preferred)
+```bash
+# Security review
+codex exec --profile oracle "Review @src/auth/jwt.ts for security vulnerabilities. Provide specific fixes."
 
-- Help:
-  - `oracle --help`
-  - If the binary isn’t installed: `npx -y @steipete/oracle --help` (avoid `pnpx` here; sqlite bindings).
+# Debugging
+codex exec --profile oracle "Find why memory leak in @src/DataFetcher.tsx. Component doesn't clean up on unmount."
 
-- Preview (no tokens):
-  - `oracle --dry-run summary -p "<task>" --file "src/**" --file "!**/*.test.*"`
-  - `oracle --dry-run full -p "<task>" --file "src/**"`
+# Architecture analysis
+codex exec --profile oracle "Analyze how @src/services/payment.ts and @src/services/order.ts interact. Propose refactoring plan."
 
-- Token sanity:
-  - `oracle --dry-run summary --files-report -p "<task>" --file "src/**"`
+# Complex bug investigation
+codex exec --profile oracle "Bug: Users see stale data after updates. Check @src/cache/invalidation.ts for race conditions."
+```
 
-- Browser run (main path; long-running is normal):
-  - `oracle --engine browser --model gpt-5.2-pro -p "<task>" --file "src/**"`
+## Prompting for Reasoning Models
 
-- Manual paste fallback:
-  - `oracle --render --copy -p "<task>" --file "src/**"`
-  - Note: `--copy` is a hidden alias for `--copy-markdown`.
+Reasoning models work differently from completion models. Follow these guidelines:
 
-## Attaching files (`--file`)
+**Keep prompts simple and direct:**
 
-`--file` accepts files, directories, and globs. You can pass it multiple times; entries can be comma-separated.
+- State the goal clearly without excessive context
+- Let the model explore and discover relevant information
+- Avoid step-by-step instructions - the model reasons on its own
 
-- Include:
-  - `--file "src/**"`
-  - `--file src/index.ts`
-  - `--file docs --file README.md`
+**Focus on WHAT, not HOW:**
 
-- Exclude:
-  - `--file "src/**" --file "!src/**/*.test.ts" --file "!**/*.snap"`
+- Bad: "First read the file, then analyze each function, then check for..."
+- Good: "Review this code for security vulnerabilities"
 
-- Defaults (implementation behavior):
-  - Default-ignored dirs: `node_modules`, `dist`, `coverage`, `.git`, `.turbo`, `.next`, `build`, `tmp` (skipped unless explicitly passed as literal dirs/files).
-  - Honors `.gitignore` when expanding globs.
-  - Does not follow symlinks.
-  - Dotfiles filtered unless opted in via pattern (e.g. `--file ".github/**"`).
-  - Files > 1 MB rejected.
+**Use `@` syntax for file references:**
 
-## Engines (API vs browser)
+- Include relevant files directly: `@src/auth/login.ts`
+- The model will read and understand the code
 
-- Auto-pick: `api` when `OPENAI_API_KEY` is set; otherwise `browser`.
-- Browser supports GPT + Gemini only; use `--engine api` for Claude/Grok/Codex or multi-model runs.
-- Browser attachments:
-  - `--browser-attachments auto|never|always` (auto pastes inline up to ~60k chars then uploads).
-- Remote browser host:
-  - Host: `oracle serve --host 0.0.0.0 --port 9473 --token <secret>`
-  - Client: `oracle --engine browser --remote-host <host:port> --remote-token <secret> -p "<task>" --file "src/**"`
+**Be specific about expected output:**
 
-## Sessions + slugs
+- "Provide specific fixes" > "Is this correct?"
+- "List all race conditions" > "Are there any bugs?"
 
-- Stored under `~/.oracle/sessions` (override with `ORACLE_HOME_DIR`).
-- Runs may detach or take a long time (browser + GPT‑5.2 Pro often does). If the CLI times out: don’t re-run; reattach.
-  - List: `oracle status --hours 72`
-  - Attach: `oracle session <id> --render`
-- Use `--slug "<3-5 words>"` to keep session IDs readable.
-- Duplicate prompt guard exists; use `--force` only when you truly want a fresh run.
+## Example Prompts
 
-## Prompt template (high signal)
+### Security Review
 
-Oracle starts with **zero** project knowledge. Assume the model cannot infer your stack, build tooling, conventions, or “obvious” paths. Include:
+```text
+Review @src/auth/jwt.ts for security vulnerabilities.
+Provide specific fixes for any issues found.
+```
 
-- Project briefing (stack + build/test commands + platform constraints).
-- “Where things live” (key directories, entrypoints, config files, boundaries).
-- Exact question + what you tried + the error text (verbatim).
-- Constraints (“don’t change X”, “must keep public API”, etc).
-- Desired output (“return patch plan + tests”, “give 3 options with tradeoffs”).
+### Debugging
 
-## Safety
+```text
+Find why the memory leak occurs in @src/components/DataFetcher.tsx.
+The component fetches data but doesn't clean up on unmount.
+```
 
-- Don’t attach secrets by default (`.env`, key files, auth tokens). Redact aggressively; share only what’s required.
+### Architecture Analysis
 
-## “Exhaustive prompt” restoration pattern
+```text
+Analyze how @src/services/payment.ts and @src/services/order.ts interact.
+Propose a refactoring plan that maintains backward compatibility.
+```
 
-For long investigations, write a standalone prompt + file set so you can rerun days later:
+### Complex Bug Investigation
 
-- 6–30 sentence project briefing + the goal.
-- Repro steps + exact errors + what you tried.
-- Attach all context files needed (entrypoints, configs, key modules, docs).
+```text
+Bug: Users intermittently see stale data after updates.
+Related files: @src/api/update.ts @src/cache/invalidation.ts @src/hooks/useData.ts
 
-Oracle runs are one-shot; the model doesn’t remember prior runs. “Restoring context” means re-running with the same prompt + `--file …` set (or reattaching a still-running stored session).
+Identify race conditions or cache invalidation issues and provide a fix.
+```
+
+## Workflow
+
+Think step-by-step:
+
+1. **Gather context first**: Identify relevant files and the specific problem
+2. **Formulate a focused prompt**: Include file references with `@`, state the goal directly
+3. **Invoke the oracle**: Run `codex exec --profile oracle "prompt"`
+4. **Continue if needed**: Use `codex exec resume SESSION_ID "follow-up"` to refine analysis
+5. **Act on the analysis**: Implement recommendations from the oracle's response
+
+## Continuing Conversations
+
+Use `codex exec resume SESSION_ID` to continue until satisfied. The session ID is returned from the initial invocation.
+
+```bash
+# Initial analysis (returns session ID)
+codex exec --profile oracle "Review @src/auth/jwt.ts for security vulnerabilities"
+# Output includes: Session ID: abc123...
+
+# Continue with follow-up questions using the session ID
+codex exec resume abc123 "Also check for timing attacks in the token validation"
+
+# Keep refining with the same session
+codex exec resume abc123 "What about the refresh token rotation logic?"
+```
+
+| Argument | Description |
+| -------- | ----------- |
+| `SESSION_ID` | Session ID returned from the initial invocation |
+| `PROMPT` | Follow-up instruction to send after resuming |
+
+## Rules
+
+- Use the oracle for complex problems that require deep reasoning
+- Keep prompts focused - one problem per invocation
+- Include file references with `@` syntax for relevant code
+- Request specific, actionable output
+- Chain with main agent: oracle for analysis, main agent for implementation
+- Oracle is read-only; use the main agent to implement changes

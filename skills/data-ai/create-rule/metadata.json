@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "642b255ee9e1702a858621237a2c7f4b53a5d15055a9d46d7248c0a98a9e804b",
   "indexed_at": "2026-02-26T22:36:02.728Z",
-  "synced_at": "2026-02-27T02:50:51.096Z",
+  "synced_at": "2026-02-28T04:22:16.526Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/29b61adab39f8e8c9e5b2da9afefccca4193b029a180cca663e00ca8d6e0ef8a",
   "install_command": "mkdir -p .claude/skills/create-rule && curl -sL \"https://raw.githubusercontent.com/Ephasme/ai-sync-config-example/main/skills/create-rule/SKILL.md\" > .claude/skills/create-rule/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Ephasme/ai-sync-config-example/main/skills/create-rule/SKILL.md"

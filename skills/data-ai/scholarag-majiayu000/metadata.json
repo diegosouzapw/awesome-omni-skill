@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1a4ba739b7bc273246ed8b8f7fa53dbeeb40cfb62520890e2d0d70c973637f01",
   "indexed_at": "2026-02-26T16:33:30.588Z",
-  "synced_at": "2026-02-27T02:50:25.571Z",
+  "synced_at": "2026-02-28T04:21:52.439Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ca6be2cf9341b2c607693043d42a5b09934effe80bd728c2480a3d389ee5d750",
   "install_command": "mkdir -p .claude/skills/scholarag && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/scholarag/SKILL.md\" > .claude/skills/scholarag/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/scholarag/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f2f439e018c8001ed01c0b58df349ee492be1351a710c0faf845e8bb6fbdd15f",
   "indexed_at": "2026-02-27T15:07:01.061Z",
-  "synced_at": "2026-02-27T18:16:15.283Z",
+  "synced_at": "2026-02-28T04:22:35.319Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/521a4f211722cdda1eb77542b8a4a45347e33aecbbf89ec642ae8300177630ff",
   "install_command": "mkdir -p .claude/skills/airtight-plans && curl -sL \"https://raw.githubusercontent.com/forketyfork/agentic-skills/main/skills/airtight-plans/skills/airtight-plans/SKILL.md\" > .claude/skills/airtight-plans/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/forketyfork/agentic-skills/main/skills/airtight-plans/skills/airtight-plans/SKILL.md"

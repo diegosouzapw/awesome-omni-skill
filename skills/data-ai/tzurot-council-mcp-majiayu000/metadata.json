@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ab7aebabc1d5a140b4358385481877366bbd2307b18d59eaf15038d93464765a",
   "indexed_at": "2026-02-26T13:25:54.172Z",
-  "synced_at": "2026-02-27T02:50:09.499Z",
+  "synced_at": "2026-02-28T04:21:36.923Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8c763b95dced15e92f4339d0f8a3717de6a0b3f1e685c16a8fc88c2beeb6cfc1",
   "install_command": "mkdir -p .claude/skills/tzurot-council-mcp && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/tzurot-council-mcp/SKILL.md\" > .claude/skills/tzurot-council-mcp/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/tzurot-council-mcp/SKILL.md"

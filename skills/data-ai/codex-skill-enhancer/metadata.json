@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b979f4343fd928654a4ea5e9a35f62d565692db895009f9bd6d5aaa4157a81c3",
   "indexed_at": "2026-02-26T18:39:36.099Z",
-  "synced_at": "2026-02-27T02:50:47.503Z",
+  "synced_at": "2026-02-28T04:22:12.935Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/23f3a8a4f41ef377055079802319b4aed550a48f0db4f17c4bbeebd6dfe8ed09",
   "install_command": "mkdir -p .claude/skills/codex-skill-enhancer && curl -sL \"https://raw.githubusercontent.com/cromesdk/ai-skills/main/skills/codex/codex-skill-enhancer/SKILL.md\" > .claude/skills/codex-skill-enhancer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cromesdk/ai-skills/main/skills/codex/codex-skill-enhancer/SKILL.md"

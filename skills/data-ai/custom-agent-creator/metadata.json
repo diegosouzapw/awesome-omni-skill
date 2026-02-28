@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7bf2ec9a53df0abd835a99b7402661c2ecc9db95936e187f68768a418a05e48d",
   "indexed_at": "2026-02-26T18:30:59.141Z",
-  "synced_at": "2026-02-27T02:50:39.819Z",
+  "synced_at": "2026-02-28T04:22:05.701Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b80d63c6d071466a8eff0f89fb3f5a0fc80ead5069865b5215379970373afbed",
   "install_command": "mkdir -p .claude/skills/custom-agent-creator && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/prulloac/agent-skills/custom-agent-creator/SKILL.md\" > .claude/skills/custom-agent-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/prulloac/agent-skills/custom-agent-creator/SKILL.md"

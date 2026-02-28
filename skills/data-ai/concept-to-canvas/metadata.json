@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d5df55070eaaa0a3bcd89fd885255be5eeacd3faea7755dee9ec370d67b63cf5",
   "indexed_at": "2026-02-27T16:09:29.462Z",
-  "synced_at": "2026-02-27T18:16:21.265Z",
+  "synced_at": "2026-02-28T04:22:43.293Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/073d670a454de170f8377ba7e26edca0386692655014fb0e6a752c34d37b3851",
   "install_command": "mkdir -p .claude/skills/concept-to-canvas && curl -sL \"https://raw.githubusercontent.com/un1crom/agent_skills/main/skills/concept-to-canvas/SKILL.md\" > .claude/skills/concept-to-canvas/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/un1crom/agent_skills/main/skills/concept-to-canvas/SKILL.md"

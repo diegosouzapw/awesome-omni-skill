@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1a9e65434596aab01d8561b712be99686e90dff37f4e70641294eca595edbd83",
   "indexed_at": "2026-02-26T17:35:25.589Z",
-  "synced_at": "2026-02-27T02:50:37.840Z",
+  "synced_at": "2026-02-28T04:22:03.838Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eff0c9350b79865deaa75e5616e5581e59594a6ac6be522eb08758c2016551ed",
   "install_command": "mkdir -p .claude/skills/review-agents-md && curl -sL \"https://raw.githubusercontent.com/richtabor/agent-skills/main/skills/review-agents-md/SKILL.md\" > .claude/skills/review-agents-md/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/richtabor/agent-skills/main/skills/review-agents-md/SKILL.md"

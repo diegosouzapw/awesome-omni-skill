@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "89f8450f3c722746764352ee82e31913a2f3302e6b1a5a7429a1a10f84c879e0",
   "indexed_at": "2026-02-26T18:32:57.732Z",
-  "synced_at": "2026-02-27T02:50:41.066Z",
+  "synced_at": "2026-02-28T04:22:06.840Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b11d71f1bce531744e0e1fad80c855fb2b12d5baf68b7705cdb4e4d89593c55d",
   "install_command": "mkdir -p .claude/skills/mcp-m365-copilot-mcp-m365-agent-expert && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/mcp-m365-copilot-codex-pack/.agents/skills/mcp-m365-copilot-mcp-m365-agent-expert/SKILL.md\" > .claude/skills/mcp-m365-copilot-mcp-m365-agent-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/mcp-m365-copilot-codex-pack/.agents/skills/mcp-m365-copilot-mcp-m365-agent-expert/SKILL.md"

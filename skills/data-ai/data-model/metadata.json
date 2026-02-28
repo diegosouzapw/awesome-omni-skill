@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "567335a72e0e68872c83f3f8157b3397c9874ba2f066369603731fc2f1d9979e",
   "indexed_at": "2026-02-27T10:53:20.504Z",
-  "synced_at": "2026-02-27T13:14:24.919Z",
+  "synced_at": "2026-02-28T04:22:28.641Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6cc7b8bf584e94f175d6d3ded1bb898a914a38afe499211df48bfa2112e6ea10",
   "install_command": "mkdir -p .claude/skills/data-model && curl -sL \"https://raw.githubusercontent.com/thoreinstein/opencode-config/main/skill/data-model/SKILL.md\" > .claude/skills/data-model/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/thoreinstein/opencode-config/main/skill/data-model/SKILL.md"

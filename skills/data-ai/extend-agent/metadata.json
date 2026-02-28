@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7472332545e9b7110f3c07ceb8e661ee828c9fbbbd06166a1b976895aa97ed57",
   "indexed_at": "2026-02-26T23:40:06.984Z",
-  "synced_at": "2026-02-27T02:50:56.101Z",
+  "synced_at": "2026-02-28T04:22:20.398Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ebec6a470f261df7851b37323d5fd4e2337f1ff5e3e6dc13df53822c1a79e054",
   "install_command": "mkdir -p .claude/skills/extend-agent && curl -sL \"https://raw.githubusercontent.com/shir-bruchim/agent-runtime-kit/main/skills/extend-agent/SKILL.md\" > .claude/skills/extend-agent/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/shir-bruchim/agent-runtime-kit/main/skills/extend-agent/SKILL.md"

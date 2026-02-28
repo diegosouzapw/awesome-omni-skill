@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "54a124279589bf2470cf9a5edd1ade03e52013f55d7370df8bca0a4d2400b7cf",
   "indexed_at": "2026-02-27T16:56:16.793Z",
-  "synced_at": "2026-02-27T18:16:24.638Z",
+  "synced_at": "2026-02-28T04:22:48.243Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7cf55b28d811b65c4da8763624857e36a9e9194f8ed4807eaccc3a5918e108e2",
   "install_command": "mkdir -p .claude/skills/second-opinion && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/second-opinion/SKILL.md\" > .claude/skills/second-opinion/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/second-opinion/SKILL.md"

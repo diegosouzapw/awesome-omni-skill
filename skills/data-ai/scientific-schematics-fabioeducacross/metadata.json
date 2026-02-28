@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1906221df2b939f72849199a335c660f752a32d693d97112ab1c945ad6aaca0e",
   "indexed_at": "2026-02-26T14:10:19.906Z",
-  "synced_at": "2026-02-27T02:50:11.456Z",
+  "synced_at": "2026-02-28T04:21:38.608Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/83952696c912cf790eb2257b5828eaa35f5a3cfb8397b34b713dcc7d93af5966",
   "install_command": "mkdir -p .claude/skills/scientific-schematics && curl -sL \"https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.agents/skills/scientific-schematics/SKILL.md\" > .claude/skills/scientific-schematics/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.agents/skills/scientific-schematics/SKILL.md"

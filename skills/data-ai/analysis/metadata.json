@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b93e307db4f7744090231987483ab22882cb3c1763b0f36e0a5a3ce291cae994",
   "indexed_at": "2026-02-26T23:35:31.098Z",
-  "synced_at": "2026-02-27T02:50:53.266Z",
+  "synced_at": "2026-02-28T04:22:18.751Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ac2d54c782783899d7d7d68aa9fca8013bc215852394ae489f629123b13af27d",
   "install_command": "mkdir -p .claude/skills/analysis && curl -sL \"https://raw.githubusercontent.com/TransluceAI/claude-code-plugins/main/plugins/docent/skills/analysis/SKILL.md\" > .claude/skills/analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TransluceAI/claude-code-plugins/main/plugins/docent/skills/analysis/SKILL.md"

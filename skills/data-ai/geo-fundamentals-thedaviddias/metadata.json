@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "782990db70a7d3a9ab9add46f3f7c5b22aeffa249b6046abf2d5b4d77c8da942",
   "indexed_at": "2026-02-27T16:08:09.403Z",
-  "synced_at": "2026-02-27T18:16:20.307Z",
+  "synced_at": "2026-02-28T04:22:41.981Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dbe24aa379416dca92e9e0757e5235b5360f8e363be8b4ba8e5a26221cf3080e",
   "install_command": "mkdir -p .claude/skills/geo-fundamentals && curl -sL \"https://raw.githubusercontent.com/thedaviddias/agent-forge/main/web/skills/geo-fundamentals/SKILL.md\" > .claude/skills/geo-fundamentals/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/thedaviddias/agent-forge/main/web/skills/geo-fundamentals/SKILL.md"

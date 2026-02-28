@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7ee962e54478ac624a31d573d9d398243811a6d0add909c8cc11d5f3741b4a30",
   "indexed_at": "2026-02-27T15:06:58.721Z",
-  "synced_at": "2026-02-27T18:16:15.127Z",
+  "synced_at": "2026-02-28T04:22:35.042Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6cf2f7d296a686abe70859c3a89174fc42645e29aac43de7d7c3f8a5f740c719",
   "install_command": "mkdir -p .claude/skills/vat-example-cat-agents && curl -sL \"https://raw.githubusercontent.com/jdutton/vibe-agent-toolkit/main/packages/vat-example-cat-agents/resources/skills/SKILL.md\" > .claude/skills/vat-example-cat-agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jdutton/vibe-agent-toolkit/main/packages/vat-example-cat-agents/resources/skills/SKILL.md"

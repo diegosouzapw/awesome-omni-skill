@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e99e2aef8ec4097f8a374cc27bc81893f99c24f1fbacc0d32e3a33d87ff3261f",
   "indexed_at": "2026-02-26T14:19:08.387Z",
-  "synced_at": "2026-02-27T02:50:13.445Z",
+  "synced_at": "2026-02-28T04:21:40.615Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a986e4971ee0da1f551f78999a99d97262d9c0a62e1c6e3ab331cd94bc75d576",
   "install_command": "mkdir -p .claude/skills/ml-pipeline-workflow && curl -sL \"https://raw.githubusercontent.com/corsal2025/NUTRI-AGENDA2026/main/.agent/skills/ml-pipeline-workflow/SKILL.md\" > .claude/skills/ml-pipeline-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/corsal2025/NUTRI-AGENDA2026/main/.agent/skills/ml-pipeline-workflow/SKILL.md"

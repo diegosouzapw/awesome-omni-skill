@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2ffb8f47178ffaf627e6049a5a52a19e5024ea80468adaa7b2758cd08665f64f",
   "indexed_at": "2026-02-27T16:56:50.686Z",
-  "synced_at": "2026-02-27T18:16:24.966Z",
+  "synced_at": "2026-02-28T04:22:48.787Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/07741a45f367a49568be8d881544a2e60ee23d86465c1c448182c4421fe0053b",
   "install_command": "mkdir -p .claude/skills/geo-fundamentals && curl -sL \"https://raw.githubusercontent.com/sk-labs/copilot-kit/main/.github/skills/geo-fundamentals/SKILL.md\" > .claude/skills/geo-fundamentals/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sk-labs/copilot-kit/main/.github/skills/geo-fundamentals/SKILL.md"

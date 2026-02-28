@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "41f6fa6b28ebe9efe754642263a5732b547de2871ac38b545895e6fb2064bd1c",
   "indexed_at": "2026-02-26T17:32:40.436Z",
-  "synced_at": "2026-02-27T02:50:34.192Z",
+  "synced_at": "2026-02-28T04:22:00.371Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/13fb55a29d845a85bf5f411bc036ae12ece995c94717dd0224139684c6b3d487",
   "install_command": "mkdir -p .claude/skills/speckit-initial && curl -sL \"https://raw.githubusercontent.com/partme-ai/speckit-skills/main/skills/speckit-initial/SKILL.md\" > .claude/skills/speckit-initial/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/partme-ai/speckit-skills/main/skills/speckit-initial/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ea87283f6f8948e2f4d3a948c2741bd863332f3fb270ebd3c6e8dcecc49c3f52",
   "indexed_at": "2026-02-27T16:10:17.375Z",
-  "synced_at": "2026-02-27T18:16:21.490Z",
+  "synced_at": "2026-02-28T04:22:43.635Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a4f790174d52387c251de34458a9de9e84f58ffd7ea536a3153e84b9a7e6cdfa",
   "install_command": "mkdir -p .claude/skills/codex && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/sundial-org/skills/codex/SKILL.md\" > .claude/skills/codex/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/sundial-org/skills/codex/SKILL.md"

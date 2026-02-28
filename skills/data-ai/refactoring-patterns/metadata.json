@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ae4c8451f731634f563b77081feace2c63c5d5f652a9ec13ec10067337df68c3",
   "indexed_at": "2026-02-26T13:52:26.034Z",
-  "synced_at": "2026-02-27T02:50:10.625Z",
+  "synced_at": "2026-02-28T04:21:37.799Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/57ca3033fb4276208c0f36fab431ecaebfbc021bb3f3b42714d3ac0f0e9d70f2",
   "install_command": "mkdir -p .claude/skills/refactoring-patterns && curl -sL \"https://raw.githubusercontent.com/semirm-dev/agent-army/main/claude/skills/refactoring-patterns/SKILL.md\" > .claude/skills/refactoring-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/semirm-dev/agent-army/main/claude/skills/refactoring-patterns/SKILL.md"

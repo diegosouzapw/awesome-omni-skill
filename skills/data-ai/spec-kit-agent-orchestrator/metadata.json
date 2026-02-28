@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "79bfcbc196c319d46d0558441b590f00d83925990fb665d6895198790d5daf5c",
   "indexed_at": "2026-02-27T15:05:28.372Z",
-  "synced_at": "2026-02-27T18:16:14.865Z",
+  "synced_at": "2026-02-28T04:22:34.672Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/111b46a4b1d1a9b36eb8523e62925ca2d7d21dc96856341a2af11db9af5b2884",
   "install_command": "mkdir -p .claude/skills/spec-kit-agent-orchestrator && curl -sL \"https://raw.githubusercontent.com/Zaibunis/spec-driven-hackathons/main/phase-5/.claude/skills/spec-kit-agent-orchestrator/SKILL.md\" > .claude/skills/spec-kit-agent-orchestrator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Zaibunis/spec-driven-hackathons/main/phase-5/.claude/skills/spec-kit-agent-orchestrator/SKILL.md"

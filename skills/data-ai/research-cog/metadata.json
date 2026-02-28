@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2a70c93d19d0feb8448e4a26b2f76b56cdf8ec631f4c532f0ba01a9bdc63b0f7",
   "indexed_at": "2026-02-26T18:40:14.476Z",
-  "synced_at": "2026-02-27T02:50:48.024Z",
+  "synced_at": "2026-02-28T04:22:13.465Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2986e5c41f262f69d4ee806e01904b79a8a6f10af27e0253f45443fa739749a4",
   "install_command": "mkdir -p .claude/skills/research-cog && curl -sL \"https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/nitishgargiitd/research-cog/SKILL.md\" > .claude/skills/research-cog/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/nitishgargiitd/research-cog/SKILL.md"

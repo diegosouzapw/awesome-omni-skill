@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d18046162a4161beb542a2740f112a0701231212dee802c06aaad13148b4590f",
   "indexed_at": "2026-02-27T16:11:08.227Z",
-  "synced_at": "2026-02-27T18:16:21.770Z",
+  "synced_at": "2026-02-28T04:22:44.015Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/27f63e0ce2b9d197c5ce1915af0e41c0439f31c8ef1f2c3dbda1b3d16402169e",
   "install_command": "mkdir -p .claude/skills/prompt-factory && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/alirezarezvani/claude-code-skill-factory/prompt-factory/SKILL.md\" > .claude/skills/prompt-factory/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/alirezarezvani/claude-code-skill-factory/prompt-factory/SKILL.md"

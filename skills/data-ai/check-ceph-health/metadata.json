@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9ecd7e51167594352716818b403ef4c613afe6570b40bd4f22585f2bb26fa399",
   "indexed_at": "2026-02-27T15:51:34.592Z",
-  "synced_at": "2026-02-27T18:16:16.055Z",
+  "synced_at": "2026-02-28T04:22:36.313Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/13eda5215306501ad1d859eae31e951d818cf8a79f44ddba60fdbf5b545a711d",
   "install_command": "mkdir -p .claude/skills/check-ceph-health && curl -sL \"https://raw.githubusercontent.com/yaacov/forklift-skills/main/skills/check-ceph-health/SKILL.md\" > .claude/skills/check-ceph-health/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yaacov/forklift-skills/main/skills/check-ceph-health/SKILL.md"

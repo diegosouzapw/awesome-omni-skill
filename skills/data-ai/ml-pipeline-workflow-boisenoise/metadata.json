@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "04b2b73e02f93cee8c1dc33134d669e49bbc77325630a7997ced6005908a0b43",
   "indexed_at": "2026-02-26T14:19:13.455Z",
-  "synced_at": "2026-02-27T02:50:13.803Z",
+  "synced_at": "2026-02-28T04:21:40.942Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ba2f963a12c6e398158b7d76c82907545eb4bfc1c0db38a2b564fc4785b0d48d",
   "install_command": "mkdir -p .claude/skills/ml-pipeline-workflow && curl -sL \"https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-ml-pipeline-workflow/SKILL.md\" > .claude/skills/ml-pipeline-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-ml-pipeline-workflow/SKILL.md"

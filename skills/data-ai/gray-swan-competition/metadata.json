@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b1ab015834fef3f3e335cf4b4ac1924e7da1ca5e15785b151e51e05f6603f58c",
   "indexed_at": "2026-02-26T14:15:41.140Z",
-  "synced_at": "2026-02-27T02:50:12.278Z",
+  "synced_at": "2026-02-28T04:21:39.462Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f3a014dd62b2eeca2a0ae51fb61f2d4d6dbb69b0aa14d970984c9e686f021e21",
   "install_command": "mkdir -p .claude/skills/gray-swan-competition && curl -sL \"https://raw.githubusercontent.com/RazonIn4K/Red-Team-Learning/main/skills/wave-1/gray-swan-competition/SKILL.md\" > .claude/skills/gray-swan-competition/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/RazonIn4K/Red-Team-Learning/main/skills/wave-1/gray-swan-competition/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3368ea62fdaafc86180b6e0f07abdeb1d9947df98acca8a430a18eb9947ddfa6",
   "indexed_at": "2026-02-26T17:32:14.684Z",
-  "synced_at": "2026-02-27T02:50:33.284Z",
+  "synced_at": "2026-02-28T04:21:59.340Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6377c813a9ddfe85f864dfb081d8e7a0b93f0a8c72910cbfc502c7a90274f531",
   "install_command": "mkdir -p .claude/skills/uniam && curl -sL \"https://raw.githubusercontent.com/pdasilem/uniam/main/pkg/cli/skills/uniam/SKILL.md\" > .claude/skills/uniam/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pdasilem/uniam/main/pkg/cli/skills/uniam/SKILL.md"

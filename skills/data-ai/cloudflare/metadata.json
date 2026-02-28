@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "41a270919659e07d6cc4761042154fff0d9b9831ae820adaf589669e4527f03d",
   "indexed_at": "2026-02-27T07:50:21.415Z",
-  "synced_at": "2026-02-27T13:14:23.022Z",
+  "synced_at": "2026-02-28T04:22:25.472Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3545d6621bad0fe7fc215e7a9aa4f9bdf657e0f6f33ec2fe4dd387b852bbb590",
   "install_command": "mkdir -p .claude/skills/cloudflare && curl -sL \"https://raw.githubusercontent.com/cloudflare/skills/main/skills/cloudflare/SKILL.md\" > .claude/skills/cloudflare/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cloudflare/skills/main/skills/cloudflare/SKILL.md"

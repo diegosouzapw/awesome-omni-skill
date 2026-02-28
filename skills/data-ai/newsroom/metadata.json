@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b985ec2532e6771a32b43e752580e59a5f906d7dfdd7487e1b3c43c07c525dfa",
   "indexed_at": "2026-02-27T09:24:18.151Z",
-  "synced_at": "2026-02-27T13:14:23.840Z",
+  "synced_at": "2026-02-28T04:22:26.742Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4fa5cd8f5af88f5db9848d43bbe49574f0545bada02fdc4000adc1f7c1444fcf",
   "install_command": "mkdir -p .claude/skills/newsroom && curl -sL \"https://raw.githubusercontent.com/buddyh/newsroom/main/SKILL.md\" > .claude/skills/newsroom/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/buddyh/newsroom/main/SKILL.md"

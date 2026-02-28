@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7e0501be74b7223e13d5b72a378232eb5049402852cada7741b7f2a5257aadd8",
   "indexed_at": "2026-02-26T16:41:17.070Z",
-  "synced_at": "2026-02-27T02:50:30.724Z",
+  "synced_at": "2026-02-28T04:21:57.216Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ef00fcafc771c6a016b9fa5fcddb7b7a5dc54b1631aa346920b23753012c104b",
   "install_command": "mkdir -p .claude/skills/prompt-engineer-llm && curl -sL \"https://raw.githubusercontent.com/DonNigami/eddication.io/main/.claude/skills/prompt-engineer-llm/SKILL.md\" > .claude/skills/prompt-engineer-llm/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/DonNigami/eddication.io/main/.claude/skills/prompt-engineer-llm/SKILL.md"

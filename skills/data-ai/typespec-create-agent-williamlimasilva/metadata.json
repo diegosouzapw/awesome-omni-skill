@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "480e11424fff58111d398a86480af58388cdf85442e113bf7e0e1d1ccc32c783",
   "indexed_at": "2026-02-26T18:33:24.774Z",
-  "synced_at": "2026-02-27T02:50:41.781Z",
+  "synced_at": "2026-02-28T04:22:07.518Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e6a1d062abcfce71bfe9ddb22fe9934ba393119bf4e835ae78a3d9d3d348a641",
   "install_command": "mkdir -p .claude/skills/typespec-create-agent && curl -sL \"https://raw.githubusercontent.com/williamlimasilva/.copilot/main/skills/typespec-create-agent/SKILL.md\" > .claude/skills/typespec-create-agent/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/williamlimasilva/.copilot/main/skills/typespec-create-agent/SKILL.md"

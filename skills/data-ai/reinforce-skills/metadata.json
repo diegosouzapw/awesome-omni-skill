@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "810cec6268465cae8b165e87974db90da2afbf91522340abac278c6248b4ebec",
   "indexed_at": "2026-02-26T22:37:46.556Z",
-  "synced_at": "2026-02-27T02:50:51.464Z",
+  "synced_at": "2026-02-28T04:22:16.898Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0ac8f82c76b6ee92cf4b58b58a1f6f4c78c49e10e133f95a67f24fb811b6f1cc",
   "install_command": "mkdir -p .claude/skills/reinforce-skills && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/b-open-io/prompts/reinforce-skills/SKILL.md\" > .claude/skills/reinforce-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/b-open-io/prompts/reinforce-skills/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "465ec76cf01c1016d844842ae7d1e449ff56893b8b3da1780512de3b98614d4d",
   "indexed_at": "2026-02-26T16:38:08.374Z",
-  "synced_at": "2026-02-27T02:50:29.469Z",
+  "synced_at": "2026-02-28T04:21:55.969Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/089364aaa4e6996beb995549a800fafc5573400647abd0cf8fc46c5303045666",
   "install_command": "mkdir -p .claude/skills/debug && curl -sL \"https://raw.githubusercontent.com/wientjes/gforce-nanoclaw/main/.claude/skills/debug/SKILL.md\" > .claude/skills/debug/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wientjes/gforce-nanoclaw/main/.claude/skills/debug/SKILL.md"

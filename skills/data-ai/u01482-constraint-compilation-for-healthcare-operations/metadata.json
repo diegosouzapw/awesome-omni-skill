@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "af2f745ee2319b0c30303ce46a896f1b887bd7e5a413a4584c728768aaff71e4",
   "indexed_at": "2026-02-27T02:20:39.499Z",
-  "synced_at": "2026-02-27T02:50:57.560Z",
+  "synced_at": "2026-02-28T04:22:21.594Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e53d1983a172fb14d1bff40e6da7bf5ff12361297a48123762bfe2b0ac3e9e2a",
   "install_command": "mkdir -p .claude/skills/u01482-constraint-compilation-for-healthcare-operations && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/01/1482-constraint-compilation-for-healthcare-operations/SKILL.md\" > .claude/skills/u01482-constraint-compilation-for-healthcare-operations/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/01/1482-constraint-compilation-for-healthcare-operations/SKILL.md"

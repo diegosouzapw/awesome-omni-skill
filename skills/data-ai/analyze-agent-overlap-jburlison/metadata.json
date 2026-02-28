@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7dd8d2fed1fa7465ad5e7d8270af755e0ecac3d019a66bc333f8bea30342bac9",
   "indexed_at": "2026-02-26T18:35:14.876Z",
-  "synced_at": "2026-02-27T02:50:43.377Z",
+  "synced_at": "2026-02-28T04:22:08.987Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c0f61b07fdaf17396f6e18bf74b8bba8d3980ac4df842ee66838a53f84cd7e0d",
   "install_command": "mkdir -p .claude/skills/analyze-agent-overlap && curl -sL \"https://raw.githubusercontent.com/JBurlison/AlwayRun/main/.github/skills/analyze-agent-overlap/SKILL.md\" > .claude/skills/analyze-agent-overlap/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/JBurlison/AlwayRun/main/.github/skills/analyze-agent-overlap/SKILL.md"

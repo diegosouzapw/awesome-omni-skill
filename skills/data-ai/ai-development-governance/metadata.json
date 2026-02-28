@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4446bf205e330208b2b6eed4f0b70be38489d157cc6920dac77f75ae5cd1aa72",
   "indexed_at": "2026-02-26T18:41:20.679Z",
-  "synced_at": "2026-02-27T02:50:48.363Z",
+  "synced_at": "2026-02-28T04:22:13.805Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/85b328685db6bec51c0478a9022b90617d9921382303dbf56d7ada146fc3d580",
   "install_command": "mkdir -p .claude/skills/ai-development-governance && curl -sL \"https://raw.githubusercontent.com/Hack23/European-Parliament-MCP-Server/main/.github/skills/ai-development-governance/SKILL.md\" > .claude/skills/ai-development-governance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Hack23/European-Parliament-MCP-Server/main/.github/skills/ai-development-governance/SKILL.md"

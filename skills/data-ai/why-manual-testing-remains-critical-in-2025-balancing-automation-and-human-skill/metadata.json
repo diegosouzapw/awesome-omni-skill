@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1a31f9e19c0f5e86d3d3ddf2b17460de93ea72347ea0e33e7171f27aee956f4c",
   "indexed_at": "2026-02-27T14:00:49.032Z",
-  "synced_at": "2026-02-27T18:16:12.705Z",
+  "synced_at": "2026-02-28T04:22:31.769Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2373be208e9123b9013c900246a9602e9ac71b6a66e9da90f5e7ba4ba5e30170",
   "install_command": "mkdir -p .claude/skills/why-manual-testing-remains-critical-in-2025-balancing-automation-and-human-skill && curl -sL \"https://raw.githubusercontent.com/g82re6gkboz6l1h/odirey/main/_posts/why-manual-testing-remains-critical-in-2025-balancing-automation-and-human-skill.md/SKILL.md\" > .claude/skills/why-manual-testing-remains-critical-in-2025-balancing-automation-and-human-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/g82re6gkboz6l1h/odirey/main/_posts/why-manual-testing-remains-critical-in-2025-balancing-automation-and-human-skill.md/SKILL.md"

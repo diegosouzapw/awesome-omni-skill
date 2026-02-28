@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c3c67e0785996c2e08d5daeb5c33b84285043e0810156a3d3f7cbd0e93dfcf9d",
   "indexed_at": "2026-02-26T13:18:38.101Z",
-  "synced_at": "2026-02-27T02:50:05.692Z",
+  "synced_at": "2026-02-28T04:21:33.625Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f266d4ab648985e29209ae7cf4ebde7e4d241fcc4ffa495a3ff0b2d0c46f3130",
   "install_command": "mkdir -p .claude/skills/ailang-sprint-executor && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/skill-md-backup/SKILL.md\" > .claude/skills/ailang-sprint-executor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/skill-md-backup/SKILL.md"

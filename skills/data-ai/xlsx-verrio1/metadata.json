@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9baaabcacd3245095aa7bd89bf5a73174ad6624d6e6c4e8d276b2e7980c04271",
   "indexed_at": "2026-02-26T15:19:36.493Z",
-  "synced_at": "2026-02-27T02:50:18.316Z",
+  "synced_at": "2026-02-28T04:21:45.306Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8412523117790c6d1942147b90757950c20340ba774079dd71f5f1cfdf53cd47",
   "install_command": "mkdir -p .claude/skills/xlsx && curl -sL \"https://raw.githubusercontent.com/verrio1/vaughn-pai/main/skills/Documents/Xlsx/SKILL.md\" > .claude/skills/xlsx/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/verrio1/vaughn-pai/main/skills/Documents/Xlsx/SKILL.md"

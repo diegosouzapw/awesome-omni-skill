@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e185990550655eaf5a83af44e561e5d902e03431204864afa2fddc62cf405542",
   "indexed_at": "2026-02-25T12:46:16.622Z",
-  "synced_at": "2026-02-27T02:50:57.851Z",
+  "synced_at": "2026-02-28T04:23:00.687Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/04c5646934d168dceeb4ced19723b5fe00079f10dde799adce0b4a6907793400",
   "install_command": "mkdir -p .claude/skills/contract-review-pro && curl -sL \"https://raw.githubusercontent.com/CSlawyer1985/contract-review-pro/main/SKILL.md\" > .claude/skills/contract-review-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/CSlawyer1985/contract-review-pro/main/SKILL.md"

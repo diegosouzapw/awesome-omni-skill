@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fb3bfe21dc9bc76ba127789c70533310f73ea7cc154dac5b117dd90facf20719",
   "indexed_at": "2026-02-27T16:03:36.832Z",
-  "synced_at": "2026-02-27T18:16:17.555Z",
+  "synced_at": "2026-02-28T04:22:38.463Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1e8773554f48a36bfc76923b1f65322267eea282442fcb862c1ff8e095cd38e2",
   "install_command": "mkdir -p .claude/skills/openai-docs && curl -sL \"https://raw.githubusercontent.com/maestromaximo/codex-local-sdk-python/main/.agents/skills/openai-docs/SKILL.md\" > .claude/skills/openai-docs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/maestromaximo/codex-local-sdk-python/main/.agents/skills/openai-docs/SKILL.md"

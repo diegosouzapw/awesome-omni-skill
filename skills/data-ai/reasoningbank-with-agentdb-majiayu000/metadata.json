@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b302e1991e7c23ee15eb8d6b5ad9945009dad89e8f99d699e66fac0ac6f6af22",
   "indexed_at": "2026-02-26T13:26:18.218Z",
-  "synced_at": "2026-02-27T02:50:10.217Z",
+  "synced_at": "2026-02-28T04:21:37.427Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d0de44733a595b6a8c877c37cd0a43187c5de79588b5adffd31d724cd8a5e9d1",
   "install_command": "mkdir -p .claude/skills/reasoningbank-with-agentdb && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/devops/reasoningbank-with-agentdb/SKILL.md\" > .claude/skills/reasoningbank-with-agentdb/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/devops/reasoningbank-with-agentdb/SKILL.md"

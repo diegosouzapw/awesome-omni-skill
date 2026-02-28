@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6736efd1fa2676e1609a77e693f7cb1cf43e87faa9501afd996e4afaeb680a18",
   "indexed_at": "2026-02-27T14:02:08.840Z",
-  "synced_at": "2026-02-27T18:16:12.813Z",
+  "synced_at": "2026-02-28T04:22:31.935Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/170642e587106d51c26949014b12680c55565e6ab6ef696a156bfd43293f2b1a",
   "install_command": "mkdir -p .claude/skills/skill-pipeline && curl -sL \"https://raw.githubusercontent.com/thirdlf03/claude-dev-toolkit/main/skills/skill-pipeline/SKILL.md\" > .claude/skills/skill-pipeline/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/thirdlf03/claude-dev-toolkit/main/skills/skill-pipeline/SKILL.md"

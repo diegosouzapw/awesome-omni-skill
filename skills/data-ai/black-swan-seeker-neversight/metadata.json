@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0b583f1902c5bb0eeb4c08fa83a07091e523a7db9376c64e1b960a970f48c638",
   "indexed_at": "2026-02-27T08:35:28.249Z",
-  "synced_at": "2026-02-27T13:14:23.366Z",
+  "synced_at": "2026-02-28T04:22:25.919Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b614758e56e138307471c6eaf48989575155ae6fa30b7a20cd3889fc6f4133e1",
   "install_command": "mkdir -p .claude/skills/black-swan-seeker && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/prodbybuddha/black-swan-seeker/black-swan-seeker/SKILL.md\" > .claude/skills/black-swan-seeker/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/prodbybuddha/black-swan-seeker/black-swan-seeker/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f19ea8b8bf4aaaee1430ef41a391c3bc1504f67e4948352fc5d00dceca286c64",
   "indexed_at": "2026-02-26T23:40:24.397Z",
-  "synced_at": "2026-02-27T02:50:56.486Z",
+  "synced_at": "2026-02-28T04:22:20.748Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1b21fd054ae73d9cea32de9edeb0a94901d0bff3da5a3d906c362f96a264b4c9",
   "install_command": "mkdir -p .claude/skills/flow-engineer-rule && curl -sL \"https://raw.githubusercontent.com/korchasa/flow/main/catalog/skills/flow-engineer-rule/SKILL.md\" > .claude/skills/flow-engineer-rule/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/korchasa/flow/main/catalog/skills/flow-engineer-rule/SKILL.md"

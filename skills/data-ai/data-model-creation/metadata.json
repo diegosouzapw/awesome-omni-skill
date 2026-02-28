@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "580bbc5dfa440d807d7f6d19cec57bf17d80ea3c71fc0cfdf2a8d3a2c0fa02c3",
   "indexed_at": "2026-02-26T23:33:14.440Z",
-  "synced_at": "2026-02-27T02:50:52.698Z",
+  "synced_at": "2026-02-28T04:22:18.196Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9a124b5b2d8cccc005eca170d162dda62f13fbcaad8dba8bd50e4293d68a511c",
   "install_command": "mkdir -p .claude/skills/data-model-creation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/data-model-creation-baiyongping-cowork-platform-2/SKILL.md\" > .claude/skills/data-model-creation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/data-model-creation-baiyongping-cowork-platform-2/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6d5c60f04a3852fdc3e139ebf3cfad3176f48f82ec5dc63e054f37287986bb12",
   "indexed_at": "2026-02-26T18:31:22.319Z",
-  "synced_at": "2026-02-27T02:50:40.163Z",
+  "synced_at": "2026-02-28T04:22:06.017Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8f3a04d477c49a4c11e5daf368d67a5c910abf3f558a313f06e5475fdf673ae3",
   "install_command": "mkdir -p .claude/skills/awesome-copilot-root-agent-governance && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/awesome-copilot-root-codex-pack/.agents/skills/awesome-copilot-root-agent-governance/SKILL.md\" > .claude/skills/awesome-copilot-root-agent-governance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/awesome-copilot-root-codex-pack/.agents/skills/awesome-copilot-root-agent-governance/SKILL.md"

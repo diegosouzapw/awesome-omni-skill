@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "918a46b50b60755c855d5b8a0a3cedc63c84191f60e3104c3afc150787953258",
   "indexed_at": "2026-02-26T21:10:32.486Z",
-  "synced_at": "2026-02-27T02:50:50.073Z",
+  "synced_at": "2026-02-28T04:22:15.549Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2853805b3c23074e708c77b9d6002dcb84e09747891f28169a2b9b2a34d2741a",
   "install_command": "mkdir -p .claude/skills/agent-monitor && curl -sL \"https://raw.githubusercontent.com/louis030195/bigbrother/main/.pi/skills/agent-monitor/SKILL.md\" > .claude/skills/agent-monitor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/louis030195/bigbrother/main/.pi/skills/agent-monitor/SKILL.md"

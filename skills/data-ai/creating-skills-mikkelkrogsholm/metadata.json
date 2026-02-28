@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b400a527fa1885a5f4830d0f9e5272304868d7bfe18b464fbae55ed711907791",
   "indexed_at": "2026-02-26T15:19:12.309Z",
-  "synced_at": "2026-02-27T02:50:17.749Z",
+  "synced_at": "2026-02-28T04:21:44.761Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ce646b6300ee7fead5356fd852bfe284043bc39f1f3a3f18ea6da48e20b559c4",
   "install_command": "mkdir -p .claude/skills/creating-skills && curl -sL \"https://raw.githubusercontent.com/mikkelkrogsholm/wp-plugins/main/.claude/skills/creating-skills/SKILL.md\" > .claude/skills/creating-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mikkelkrogsholm/wp-plugins/main/.claude/skills/creating-skills/SKILL.md"

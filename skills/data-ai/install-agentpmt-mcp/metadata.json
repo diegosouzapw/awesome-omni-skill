@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "46aeddb0062a08bac35ee39018c4dd6b766f0c4ef90404be627037b987cbf2e1",
   "indexed_at": "2026-02-26T17:32:47.819Z",
-  "synced_at": "2026-02-27T02:50:34.359Z",
+  "synced_at": "2026-02-28T04:22:00.541Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/01364c1c774e5428ae8073bb8e57ee03b1514fdb77d205b24dfa131d23149e74",
   "install_command": "mkdir -p .claude/skills/install-agentpmt-mcp && curl -sL \"https://raw.githubusercontent.com/AgentPMT/agent-skills/main/skills/install-agentpmt-mcp/SKILL.md\" > .claude/skills/install-agentpmt-mcp/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AgentPMT/agent-skills/main/skills/install-agentpmt-mcp/SKILL.md"
