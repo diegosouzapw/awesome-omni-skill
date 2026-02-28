@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ec43cf3b4ae428984a1ad36d4814bf6f95e590ada0c997fab9f1ecb4c89b2886",
   "indexed_at": "2026-02-25T19:40:17.443Z",
-  "synced_at": "2026-02-27T02:40:24.228Z",
+  "synced_at": "2026-02-28T04:09:42.439Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/27fec53067f2a7ff89a65128ed8a407f2e5f7a042d2891790054748048e9f33b",
   "install_command": "mkdir -p .claude/skills/karpathy && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/karpathy/SKILL.md\" > .claude/skills/karpathy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/karpathy/SKILL.md"

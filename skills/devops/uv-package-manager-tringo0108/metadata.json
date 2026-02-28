@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "93d769b8fa84b8a633757202e88b8f15fb943a2304c6c298d9635d66d4aa8a83",
   "indexed_at": "2026-02-26T10:51:15.512Z",
-  "synced_at": "2026-02-27T02:40:47.804Z",
+  "synced_at": "2026-02-28T04:10:05.479Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0104f5e8f7320aeef4d5c84b36a57ccacbb100c0dfeb2a701319b5c5944c501c",
   "install_command": "mkdir -p .claude/skills/uv-package-manager && curl -sL \"https://raw.githubusercontent.com/TriNgo0108/z-command/main/templates/skills/uv-package-manager/SKILL.md\" > .claude/skills/uv-package-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TriNgo0108/z-command/main/templates/skills/uv-package-manager/SKILL.md"

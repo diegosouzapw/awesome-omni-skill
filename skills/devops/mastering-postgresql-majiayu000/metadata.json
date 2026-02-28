@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3f3872bb0eb9fe7f7b8204e157c30866314d13540aecf8eadc37cf3e0e38cec0",
   "indexed_at": "2026-02-26T08:49:43.629Z",
-  "synced_at": "2026-02-27T02:40:35.869Z",
+  "synced_at": "2026-02-28T04:09:53.914Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6b72b06e67b12a423e9248a961fe1fea3153f8e9e972054cbb7279a8ae5ebc7d",
   "install_command": "mkdir -p .claude/skills/mastering-postgresql && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/mastering-postgresql/SKILL.md\" > .claude/skills/mastering-postgresql/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/mastering-postgresql/SKILL.md"

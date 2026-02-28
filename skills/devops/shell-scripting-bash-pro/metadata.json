@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e05859e3afcf98a3a69d5a7be8907dcf28dce933cec89df1c2b44ec80efde026",
   "indexed_at": "2026-02-26T14:23:43.826Z",
-  "synced_at": "2026-02-27T02:41:10.295Z",
+  "synced_at": "2026-02-28T04:10:27.280Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c30e3373988536a249ab9336f73ffd375d64773b2753593f53ec3a2532df9eb3",
   "install_command": "mkdir -p .claude/skills/shell-scripting-bash-pro && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/shell-scripting-codex-pack/.agents/skills/shell-scripting-bash-pro/SKILL.md\" > .claude/skills/shell-scripting-bash-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/shell-scripting-codex-pack/.agents/skills/shell-scripting-bash-pro/SKILL.md"

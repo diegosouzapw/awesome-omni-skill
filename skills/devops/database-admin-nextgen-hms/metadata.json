@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "60a7f20533e018066173ada31c5878b82725a338f73cf3b1f4787a5d09c1515f",
   "indexed_at": "2026-02-26T08:49:47.116Z",
-  "synced_at": "2026-02-27T02:41:23.817Z",
+  "synced_at": "2026-02-28T04:10:59.119Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a831ee314d715cdc74ab3261af1c70ae217651fba72783eb8e84a92c3642c8f9",
   "install_command": "mkdir -p .claude/skills/database-admin && curl -sL \"https://raw.githubusercontent.com/nextgen-hms/hms/main/.agent/skills/database-admin/SKILL.md\" > .claude/skills/database-admin/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nextgen-hms/hms/main/.agent/skills/database-admin/SKILL.md"

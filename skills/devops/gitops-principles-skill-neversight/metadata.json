@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8768c11d7f4b00f5761ed6cecd994dca70137e6a4107d97ef5bc2b8a4580c9b4",
   "indexed_at": "2026-02-26T09:54:23.969Z",
-  "synced_at": "2026-02-27T02:40:45.250Z",
+  "synced_at": "2026-02-28T04:10:03.019Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a13c74c6474f217b62b2a597556bd6c618015c9c85281887ffe408d9907803aa",
   "install_command": "mkdir -p .claude/skills/gitops-principles-skill && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/julianobarbosa/claude-code-skills/gitops-principles-skill/SKILL.md\" > .claude/skills/gitops-principles-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/julianobarbosa/claude-code-skills/gitops-principles-skill/SKILL.md"

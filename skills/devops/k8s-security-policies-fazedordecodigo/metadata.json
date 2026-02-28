@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5e1259b340ebee2592b541d663ee3ddc648a1b081bcf62a02bc8e4f0e520593b",
   "indexed_at": "2026-02-27T10:56:54.920Z",
-  "synced_at": "2026-02-27T13:14:46.324Z",
+  "synced_at": "2026-02-28T04:10:41.362Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2892b9940c4d29fa9e53f2b20dfcbe39dc8072571a39c6e562e7785218f783b6",
   "install_command": "mkdir -p .claude/skills/k8s-security-policies && curl -sL \"https://raw.githubusercontent.com/fazedordecodigo/skills/main/k8s-security-policies/SKILL.md\" > .claude/skills/k8s-security-policies/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fazedordecodigo/skills/main/k8s-security-policies/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "817630adb5d1ada07ef1eac21904fbe4db1610313a7edb17dc7a07d11c81f492",
   "indexed_at": "2026-02-26T12:17:28.046Z",
-  "synced_at": "2026-02-27T02:40:58.662Z",
+  "synced_at": "2026-02-28T04:10:16.273Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f5b487994690f992d3d7148c1df18dc7638e52bc73ff26e45170f1f3e3c440e9",
   "install_command": "mkdir -p .claude/skills/checking-deploy && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/alexei-led/claude-code-config/checking-deploy/SKILL.md\" > .claude/skills/checking-deploy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/alexei-led/claude-code-config/checking-deploy/SKILL.md"

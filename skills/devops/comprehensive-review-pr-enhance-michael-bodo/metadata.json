@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d3531c5bd89aca0f0ff895189daa188d6a1d9eceec593fcd45aab083b12078e1",
   "indexed_at": "2026-02-25T12:53:56.765Z",
-  "synced_at": "2026-02-27T02:41:22.136Z",
+  "synced_at": "2026-02-28T04:10:57.446Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7a0837eef63d76a67b5f40e99d2d5ee5806c2c98775dd8c8cb3c2b7285eb55c7",
   "install_command": "mkdir -p .claude/skills/comprehensive-review-pr-enhance && curl -sL \"https://raw.githubusercontent.com/MICHAEL-BODO/LT-MISSION-CONTROL/main/.agent/skills/comprehensive-review-pr-enhance/SKILL.md\" > .claude/skills/comprehensive-review-pr-enhance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MICHAEL-BODO/LT-MISSION-CONTROL/main/.agent/skills/comprehensive-review-pr-enhance/SKILL.md"

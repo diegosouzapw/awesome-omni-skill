@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b04a71797351fd1ae33b0bdcf9931af1c9b526bf219cecccc2d8c7903d213a14",
   "indexed_at": "2026-02-26T09:49:55.516Z",
-  "synced_at": "2026-02-27T02:40:40.927Z",
+  "synced_at": "2026-02-28T04:09:58.773Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c8e8c4f282eaa5f19bf5859cc83502c4d5e244f48ccec3cd312a0d653c90b6ed",
   "install_command": "mkdir -p .claude/skills/checkov-security-scan && curl -sL \"https://raw.githubusercontent.com/alxayo/sec-check/main/.github/skills/checkov-security-scan/SKILL.md\" > .claude/skills/checkov-security-scan/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alxayo/sec-check/main/.github/skills/checkov-security-scan/SKILL.md"

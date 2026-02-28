@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "86d2df9734983133b1591050040f2f8eb6ee34fa4dd327adae04394f705ca35b",
   "indexed_at": "2026-02-26T09:54:25.303Z",
-  "synced_at": "2026-02-27T02:40:45.426Z",
+  "synced_at": "2026-02-28T04:10:03.182Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/998f5c2f9682c87a5197a0f0940835ad125bbbe76877ab40c2afdec5cacbc328",
   "install_command": "mkdir -p .claude/skills/gitops-principles-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/devops/gitops-principles-skill/SKILL.md\" > .claude/skills/gitops-principles-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/devops/gitops-principles-skill/SKILL.md"

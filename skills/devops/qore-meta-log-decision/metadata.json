@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "09a93281fd4c7aed4a79dca654759508dd22844bf63e72478789cebeee120aee",
   "indexed_at": "2026-02-26T08:56:55.803Z",
-  "synced_at": "2026-02-27T02:40:37.705Z",
+  "synced_at": "2026-02-28T04:09:55.652Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/15e0e6d70253bf78d64399907bb97605a23397cfdfa57f755112da8d2e5cbae8",
   "install_command": "mkdir -p .claude/skills/qore-meta-log-decision && curl -sL \"https://raw.githubusercontent.com/MythologIQ/Zo-Qore/main/.codex/skills/custom/qore-meta-log-decision/SKILL.md\" > .claude/skills/qore-meta-log-decision/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MythologIQ/Zo-Qore/main/.codex/skills/custom/qore-meta-log-decision/SKILL.md"

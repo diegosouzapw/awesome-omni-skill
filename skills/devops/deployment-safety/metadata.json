@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6e29c414a1957765fd5731b425f5744cc6535df47c8bd6cca5d97b5bf755e7cb",
   "indexed_at": "2026-02-26T23:36:15.990Z",
-  "synced_at": "2026-02-27T02:41:15.314Z",
+  "synced_at": "2026-02-28T04:10:32.258Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2d6170fbcff514ba2fdc43d987316e6bcf4f72f5b4ff86d51e4c8787b2fa32c8",
   "install_command": "mkdir -p .claude/skills/deployment-safety && curl -sL \"https://raw.githubusercontent.com/jcanizalez/fourmis-marketplace/main/plugins/devops-skills/skills/deployment-safety/SKILL.md\" > .claude/skills/deployment-safety/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jcanizalez/fourmis-marketplace/main/plugins/devops-skills/skills/deployment-safety/SKILL.md"

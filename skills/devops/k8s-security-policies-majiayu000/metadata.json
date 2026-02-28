@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "05b066dec8f1748300eec460cd0cb386da63ba998962652e4178d32df6bf2102",
   "indexed_at": "2026-02-27T09:46:21.380Z",
-  "synced_at": "2026-02-27T13:14:42.391Z",
+  "synced_at": "2026-02-28T04:10:38.971Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e21f41758e92d1b9d1f621d355f9b1ea41a597d5e4fa9ce64b75248943ccfe93",
   "install_command": "mkdir -p .claude/skills/k8s-security-policies && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/k8s-security-policies-duanbiao2000-obsidiandoc26/SKILL.md\" > .claude/skills/k8s-security-policies/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/k8s-security-policies-duanbiao2000-obsidiandoc26/SKILL.md"

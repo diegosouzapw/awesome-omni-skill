@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "77b0b93291c10c7e2c9a546c645570c3dec5d3292d9134c71c81dc45e672f19e",
   "indexed_at": "2026-02-27T13:01:16.306Z",
-  "synced_at": "2026-02-27T13:14:46.829Z",
+  "synced_at": "2026-02-28T04:10:42.420Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5d0f89762f7ad4d629be474605422f4f278f8cd3c6b6b9381fe58f44df208dd9",
   "install_command": "mkdir -p .claude/skills/moodle-mirror && curl -sL \"https://raw.githubusercontent.com/wousp112/moodle-mirror-skill/main/SKILL.md\" > .claude/skills/moodle-mirror/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wousp112/moodle-mirror-skill/main/SKILL.md"

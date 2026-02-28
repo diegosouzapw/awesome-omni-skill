@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1a7e8d3a64ea5df30c0669f3c1767dbe1dd50dcaa577c06acf64576249795c28",
   "indexed_at": "2026-02-26T14:20:21.224Z",
-  "synced_at": "2026-02-27T02:41:09.108Z",
+  "synced_at": "2026-02-28T04:10:26.276Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e5f4b55642339bb0fc3cb13babf81f68b07ad10c512eed26e1eefd5ade76b6a7",
   "install_command": "mkdir -p .claude/skills/senior-devops && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/hainamchung/agent-assistant/senior-devops/SKILL.md\" > .claude/skills/senior-devops/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/hainamchung/agent-assistant/senior-devops/SKILL.md"

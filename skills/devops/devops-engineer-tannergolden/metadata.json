@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "732f214a42e3d471c79aaf3f50e9d10473b8735b79c4a0f05f88d93f75e4ee65",
   "indexed_at": "2026-02-26T14:23:30.674Z",
-  "synced_at": "2026-02-27T02:41:10.099Z",
+  "synced_at": "2026-02-28T04:10:27.106Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/33b8648d6745160b6f2927104a6c4c286ae13d58909d1da04af18eb63de03aaa",
   "install_command": "mkdir -p .claude/skills/devops-engineer && curl -sL \"https://raw.githubusercontent.com/tannergolden/repository/main/.agent/storage/skills/development-operations/SKILL.md\" > .claude/skills/devops-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tannergolden/repository/main/.agent/storage/skills/development-operations/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4b8bbf5e93e0529e720d7d6f7ae3515be36f8b079db3c8afeb9d84560ac7e495",
   "indexed_at": "2026-02-26T15:25:23.861Z",
-  "synced_at": "2026-02-27T02:41:20.174Z",
+  "synced_at": "2026-02-28T04:10:54.558Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1a4902b449f7b7fd49d1513812ce1f3c4c161138bd5fe76eadbaba8de9e18a99",
   "install_command": "mkdir -p .claude/skills/fiber-logging-and-project-structure && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/oimiragieo/agent-studio/fiber-logging-and-project-structure/SKILL.md\" > .claude/skills/fiber-logging-and-project-structure/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/oimiragieo/agent-studio/fiber-logging-and-project-structure/SKILL.md"

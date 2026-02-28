@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "642dcad1531c10a83ff7691ff6ec3186992a7b5fca99e4ad5fd9270d0bb69308",
   "indexed_at": "2026-02-25T22:55:26.336Z",
-  "synced_at": "2026-02-27T02:40:27.537Z",
+  "synced_at": "2026-02-28T04:09:45.753Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/95d40abf0c2e2ec64b61071e1e0734d4d3540d46abbbed43b7df7032389c6eaa",
   "install_command": "mkdir -p .claude/skills/bats-testing-patterns && curl -sL \"https://raw.githubusercontent.com/imranstein/ValuAdis/main/.agent/skills/bats-testing-patterns/SKILL.md\" > .claude/skills/bats-testing-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/imranstein/ValuAdis/main/.agent/skills/bats-testing-patterns/SKILL.md"

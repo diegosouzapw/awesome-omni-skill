@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "31f28492de0a6e15bd26df5d14a18e06bdce3edac76980cecc9a7a806c3a00c3",
   "indexed_at": "2026-02-26T14:23:22.641Z",
-  "synced_at": "2026-02-27T02:41:09.820Z",
+  "synced_at": "2026-02-28T04:10:26.895Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dfa110033cdf4fbb0a0b06ee78ad8b093e7227955382817899512f2f9139ddb6",
   "install_command": "mkdir -p .claude/skills/ptc-orchestration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/productivity/ptc-orchestration/SKILL.md\" > .claude/skills/ptc-orchestration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/productivity/ptc-orchestration/SKILL.md"

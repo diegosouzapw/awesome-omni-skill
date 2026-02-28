@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "632600e0838380afb66c87d35fbb569aabd09f171a6f68d815ae012883bf6b3b",
   "indexed_at": "2026-02-26T06:55:07.797Z",
-  "synced_at": "2026-02-27T02:40:32.353Z",
+  "synced_at": "2026-02-28T04:09:50.431Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/42e270f108d8eb4ac5b5949e746aa786419aa29b96375616836b637c3fda2dd1",
   "install_command": "mkdir -p .claude/skills/start && curl -sL \"https://raw.githubusercontent.com/AlanLang/sing-box-config-generator/main/.claude/skills/start/SKILL.md\" > .claude/skills/start/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AlanLang/sing-box-config-generator/main/.claude/skills/start/SKILL.md"

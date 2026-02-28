@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bdcdd79f63048a9f8b0bc82f4cb7bb73ea618788fc26dc365cafe9bdaa02f13c",
   "indexed_at": "2026-02-26T08:45:29.110Z",
-  "synced_at": "2026-02-27T02:40:33.993Z",
+  "synced_at": "2026-02-28T04:09:52.041Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/229b829349c3e8593ddec4cdba1dffd5c3330283603b51f2c6cf202270f32bd7",
   "install_command": "mkdir -p .claude/skills/architecture-decision-records && curl -sL \"https://raw.githubusercontent.com/wshobson/agents/main/plugins/documentation-generation/skills/architecture-decision-records/SKILL.md\" > .claude/skills/architecture-decision-records/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/documentation-generation/skills/architecture-decision-records/SKILL.md"

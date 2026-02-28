@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "03bada349d4ec9d9f1772e46572f8ad9d0b2d5bf5cb78dfea2f80bffbf7407fb",
   "indexed_at": "2026-02-25T13:07:12.772Z",
-  "synced_at": "2026-02-27T02:40:19.010Z",
+  "synced_at": "2026-02-28T04:09:38.190Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5a5ddd676a9cccd2fbfe61650c34011cfd9f929e256d3cf0c1549d11d31150ab",
   "install_command": "mkdir -p .claude/skills/infrastructure-verification && curl -sL \"https://raw.githubusercontent.com/Awannaphasch2016/jousef-landing/main/.claude/skills/infrastructure-verification/SKILL.md\" > .claude/skills/infrastructure-verification/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Awannaphasch2016/jousef-landing/main/.claude/skills/infrastructure-verification/SKILL.md"

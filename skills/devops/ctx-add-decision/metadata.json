@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e4c9ba0057c16e8d18f2f27511d9cc90163258852a848f0d5fee2f72766d2ea6",
   "indexed_at": "2026-02-26T08:53:29.406Z",
-  "synced_at": "2026-02-27T02:40:37.530Z",
+  "synced_at": "2026-02-28T04:09:55.483Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2a23005f52fbae69862842ba13fdf48426f387f47f5dd080ef5b9229e0ab0df0",
   "install_command": "mkdir -p .claude/skills/ctx-add-decision && curl -sL \"https://raw.githubusercontent.com/ActiveMemory/ctx/main/internal/assets/claude/skills/ctx-add-decision/SKILL.md\" > .claude/skills/ctx-add-decision/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ActiveMemory/ctx/main/internal/assets/claude/skills/ctx-add-decision/SKILL.md"

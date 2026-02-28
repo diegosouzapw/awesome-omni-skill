@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d167ee7925d272eed513376ec01d8b11619b8742fc08e73f40911385824ca282",
   "indexed_at": "2026-02-26T08:47:11.578Z",
-  "synced_at": "2026-02-27T02:40:34.847Z",
+  "synced_at": "2026-02-28T04:09:52.908Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/67fa85fe402b43f7d1335847afffac2b9c5995ef377a99295e4bc349444bc78c",
   "install_command": "mkdir -p .claude/skills/architecture-decision-records && curl -sL \"https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.cursor/skills/architecture-decision-records/SKILL.md\" > .claude/skills/architecture-decision-records/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.cursor/skills/architecture-decision-records/SKILL.md"

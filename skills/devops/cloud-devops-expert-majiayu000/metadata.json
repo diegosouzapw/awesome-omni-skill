@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d5a35fa58cdd0e5322551e1ff3c7300c36abe1577c0eab2fecec5b7715109edb",
   "indexed_at": "2026-02-26T05:54:09.351Z",
-  "synced_at": "2026-02-27T02:41:16.777Z",
+  "synced_at": "2026-02-28T04:10:50.919Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/de75624eddc7afaaa69239bab40e6b606a009647c83d908201a043921b5ef195",
   "install_command": "mkdir -p .claude/skills/cloud-devops-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/cloud-devops-expert/SKILL.md\" > .claude/skills/cloud-devops-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/cloud-devops-expert/SKILL.md"

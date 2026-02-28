@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f5ed78d9ec8e7c56cd13f8d1b7e2ed42b2aa03fefcb1f9b302f0c3d39bbd6e58",
   "indexed_at": "2026-02-25T15:03:58.923Z",
-  "synced_at": "2026-02-27T02:40:20.981Z",
+  "synced_at": "2026-02-28T04:09:40.153Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/08b33603f5ff7ebb3007493ab3e626b7ab7268f93f36fc25245988cf9ca90c95",
   "install_command": "mkdir -p .claude/skills/bats-testing-patterns && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/microck/ordinary-claude-skills/bats-testing-patterns/SKILL.md\" > .claude/skills/bats-testing-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/microck/ordinary-claude-skills/bats-testing-patterns/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d39718cafba77aafa393a3442a9b4b298345d1e44e953da8cac07ba9407bf5bd",
   "indexed_at": "2026-02-25T13:01:30.930Z",
-  "synced_at": "2026-02-27T02:40:17.527Z",
+  "synced_at": "2026-02-28T04:09:36.620Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7feeab40af5d2771ac1c293269e323a37eee1c2a49b95967cb60940aa5aace64",
   "install_command": "mkdir -p .claude/skills/docker-optimize && curl -sL \"https://raw.githubusercontent.com/vnnkl/docker-optimize-skill/main/SKILL.md\" > .claude/skills/docker-optimize/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/vnnkl/docker-optimize-skill/main/SKILL.md"

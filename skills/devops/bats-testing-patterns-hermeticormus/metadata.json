@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1db3d3dba67b1dc948b46f1180c8d1e301e29aaa6e024b2c53f957b9ebd64d19",
   "indexed_at": "2026-02-27T03:25:52.415Z",
-  "synced_at": "2026-02-27T13:14:39.256Z",
+  "synced_at": "2026-02-28T04:10:33.674Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/495ed64c2645dd5b61c66ecdaeaa023fc326c735af72b586233be08c790126e5",
   "install_command": "mkdir -p .claude/skills/bats-testing-patterns && curl -sL \"https://raw.githubusercontent.com/HermeticOrmus/LibreUIUX-Claude-Code/main/plugins/shell-scripting/skills/bats-testing-patterns/SKILL.md\" > .claude/skills/bats-testing-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HermeticOrmus/LibreUIUX-Claude-Code/main/plugins/shell-scripting/skills/bats-testing-patterns/SKILL.md"

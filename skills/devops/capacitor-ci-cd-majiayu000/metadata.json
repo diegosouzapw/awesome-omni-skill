@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry-data",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "data/capacitor-ci-cd/SKILL.md",
+  "file_path": "other/capacitor-ci-cd/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "250331313ae00090622e0d7a0d0a3664c9eeb836f2818b93b90367a9c2701336",
-  "indexed_at": "2026-02-25T16:04:39.719Z",
-  "synced_at": "2026-02-27T02:40:21.982Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cec99d6e5de37a836cc76d23ff8c197830a9b4f764eba35a4cdb297b6c29301c",
-  "install_command": "mkdir -p .claude/skills/capacitor-ci-cd && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/capacitor-ci-cd/SKILL.md\" > .claude/skills/capacitor-ci-cd/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/capacitor-ci-cd/SKILL.md"
+  "content_hash": "bc54a9d73bb7fe4a8902a018de6d182e49dd1c2b7c2c680f2b4ddf60d47e512c",
+  "indexed_at": "2026-02-27T22:22:38.817Z",
+  "synced_at": "2026-02-28T04:10:48.441Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a8e29c0a5eceb8c6c067037b55cd84d9af5f3eae2e7e0ef8ed00bceeb12875ee",
+  "install_command": "mkdir -p .claude/skills/capacitor-ci-cd && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/capacitor-ci-cd/SKILL.md\" > .claude/skills/capacitor-ci-cd/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/capacitor-ci-cd/SKILL.md"
 }

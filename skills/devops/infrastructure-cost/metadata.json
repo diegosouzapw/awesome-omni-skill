@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3001a05ac006ac66f401ea89364b155936371c0641587f160aad81a69ac7fa04",
   "indexed_at": "2026-02-26T23:41:57.372Z",
-  "synced_at": "2026-02-27T02:41:16.234Z",
+  "synced_at": "2026-02-28T04:10:33.185Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9e529fa4013c79d1bbf4a9a22bfd031568f1d1ed7cee508ab29d53d2d67b39a8",
   "install_command": "mkdir -p .claude/skills/infrastructure-cost && curl -sL \"https://raw.githubusercontent.com/jcanizalez/fourmis-marketplace/main/plugins/devops-skills/skills/infrastructure-cost/SKILL.md\" > .claude/skills/infrastructure-cost/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jcanizalez/fourmis-marketplace/main/plugins/devops-skills/skills/infrastructure-cost/SKILL.md"

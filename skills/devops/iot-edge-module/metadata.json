@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9ec834d3ebb52887123474d62f5153491de154db31315d6c6bdcd1aeabdd3e89",
   "indexed_at": "2026-02-25T19:42:05.035Z",
-  "synced_at": "2026-02-27T02:40:25.230Z",
+  "synced_at": "2026-02-28T04:09:43.514Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dfba538f7978b9b27c411f096a31e92e646a2d9fb569ee3def5f7deb4b68c8a9",
   "install_command": "mkdir -p .claude/skills/iot-edge-module && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/iot-edge-module/SKILL.md\" > .claude/skills/iot-edge-module/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/iot-edge-module/SKILL.md"

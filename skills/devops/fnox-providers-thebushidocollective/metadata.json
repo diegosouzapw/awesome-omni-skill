@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bc958a1af041a8dcedf6a3449342eb484d349d6c9c741f28fffce92a05f21a3e",
   "indexed_at": "2026-02-26T11:38:13.516Z",
-  "synced_at": "2026-02-27T02:40:50.648Z",
+  "synced_at": "2026-02-28T04:10:08.384Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/40e93ba6f4186150f9263dfe33f2a4497610235e603e2eb7c3ef668574a9ca8a",
   "install_command": "mkdir -p .claude/skills/fnox-providers && curl -sL \"https://raw.githubusercontent.com/TheBushidoCollective/han/main/plugins/specialized/fnox/skills/providers/SKILL.md\" > .claude/skills/fnox-providers/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TheBushidoCollective/han/main/plugins/specialized/fnox/skills/providers/SKILL.md"

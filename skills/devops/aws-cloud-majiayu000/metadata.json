@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3f52315b9f7f882c25b0a09dc2c64f83425d69872ebe827011d509056f7cafb6",
   "indexed_at": "2026-02-27T06:56:34.930Z",
-  "synced_at": "2026-02-27T13:14:41.620Z",
+  "synced_at": "2026-02-28T04:10:38.062Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b218798792db1dc40a978ad4ebbfdeedd516d1474ab665d77507467593bddcd6",
   "install_command": "mkdir -p .claude/skills/aws-cloud && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/aws-cloud-dauquangthanh-hanoi-rainbow/SKILL.md\" > .claude/skills/aws-cloud/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/aws-cloud-dauquangthanh-hanoi-rainbow/SKILL.md"

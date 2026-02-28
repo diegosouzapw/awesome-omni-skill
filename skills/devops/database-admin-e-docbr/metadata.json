@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "241f6ac9cdcfb59c020a25bbff5d32cebbe977665ce8d84729eae8777950fc0a",
   "indexed_at": "2026-02-26T08:49:49.662Z",
-  "synced_at": "2026-02-27T02:41:24.158Z",
+  "synced_at": "2026-02-28T04:10:59.474Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/260864be8bba2b37e03d0152906923fd0d0d4fb375d2a16d09c14520d8ad8a5f",
   "install_command": "mkdir -p .claude/skills/database-admin && curl -sL \"https://raw.githubusercontent.com/e-docBR/colaboraEdu-produc/main/.agent/skills/database-admin/SKILL.md\" > .claude/skills/database-admin/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/e-docBR/colaboraEdu-produc/main/.agent/skills/database-admin/SKILL.md"

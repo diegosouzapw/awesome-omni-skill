@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6ecc15d6def583bc7943bc80daf766b9c8e28423915a5600a05ca3c6d14d85e0",
   "indexed_at": "2026-02-26T11:40:54.962Z",
-  "synced_at": "2026-02-27T02:41:17.457Z",
+  "synced_at": "2026-02-28T04:10:51.614Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a8e1610070337a4ef20fea6249349119324587e39e1a000c104818e3fffbeaf0",
   "install_command": "mkdir -p .claude/skills/database-migrations-migration-observability && curl -sL \"https://raw.githubusercontent.com/BhurkeSiddhesh/Agent-Central/main/agency-hq/skills/database-migrations-migration-observability/SKILL.md\" > .claude/skills/database-migrations-migration-observability/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/BhurkeSiddhesh/Agent-Central/main/agency-hq/skills/database-migrations-migration-observability/SKILL.md"

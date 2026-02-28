@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d112edfd8d7f1d80891736461d32eb05817f4b7dc3b2a9e0157bd6e48bd8d463",
   "indexed_at": "2026-02-26T14:25:28.594Z",
-  "synced_at": "2026-02-27T02:41:10.784Z",
+  "synced_at": "2026-02-28T04:10:27.855Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cba2b9f00d1979011ea69475797f9dcf6b06298e9085915fdf9678f3a1266bc7",
   "install_command": "mkdir -p .claude/skills/circleci-automation && curl -sL \"https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/circleci-automation/SKILL.md\" > .claude/skills/circleci-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/circleci-automation/SKILL.md"

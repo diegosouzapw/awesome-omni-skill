@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "78febeef734b438bf2025631a1ecc3983f7347dd82ef9dce7eadff4420f8fc83",
   "indexed_at": "2026-02-26T12:18:40.811Z",
-  "synced_at": "2026-02-27T02:41:02.951Z",
+  "synced_at": "2026-02-28T04:10:20.269Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4354cfac149e4473677a52850fd5f3a4c360bf4f4bdb95e51fb7e4930e359fb0",
   "install_command": "mkdir -p .claude/skills/docker-expert && curl -sL \"https://raw.githubusercontent.com/yunaamelia/apex-fast/main/skills/docker-expert/SKILL.md\" > .claude/skills/docker-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yunaamelia/apex-fast/main/skills/docker-expert/SKILL.md"

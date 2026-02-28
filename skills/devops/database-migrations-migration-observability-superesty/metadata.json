@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0b7156965662e6ec71fea40059ae0278a9a0292dfde5d00d3cc3ad026871f7a2",
   "indexed_at": "2026-02-26T11:40:14.104Z",
-  "synced_at": "2026-02-27T02:41:17.280Z",
+  "synced_at": "2026-02-28T04:10:51.450Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3192cc2703d56750ca7e70ad46792a63f8fd72cbd8d8e053662a5499f553980b",
   "install_command": "mkdir -p .claude/skills/database-migrations-migration-observability && curl -sL \"https://raw.githubusercontent.com/Superesty/unified-ag-kit/main/library/skills/database-migrations-migration-observability/SKILL.md\" > .claude/skills/database-migrations-migration-observability/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Superesty/unified-ag-kit/main/library/skills/database-migrations-migration-observability/SKILL.md"

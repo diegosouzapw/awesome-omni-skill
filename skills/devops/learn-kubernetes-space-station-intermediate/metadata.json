@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4be2a90a3b55d42165d137de57a212b7512be4eff5661d815bd1a94d935bbaa3",
   "indexed_at": "2026-02-27T09:49:12.315Z",
-  "synced_at": "2026-02-27T13:14:42.950Z",
+  "synced_at": "2026-02-28T04:10:39.673Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d0d6391a905a8fbc39e650d507302f89fa2721d9bfb8d8cca1d66796f8705072",
   "install_command": "mkdir -p .claude/skills/learn-kubernetes-space-station-intermediate && curl -sL \"https://raw.githubusercontent.com/canedy/devrecess-skills/main/sessions/learn-kubernetes-space-station-intermediate/SKILL.md\" > .claude/skills/learn-kubernetes-space-station-intermediate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/canedy/devrecess-skills/main/sessions/learn-kubernetes-space-station-intermediate/SKILL.md"

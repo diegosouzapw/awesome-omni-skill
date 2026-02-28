@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8a333e39d4306629e73dbf78f2b56b06943c5a13011298643a0459e1289416d7",
   "indexed_at": "2026-02-25T12:48:17.129Z",
-  "synced_at": "2026-02-27T02:40:15.283Z",
+  "synced_at": "2026-02-28T04:09:34.359Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/50998c073bf7ecabbd2b00727ac18ebb04145b33166cdb0e5a47801e470678e0",
   "install_command": "mkdir -p .claude/skills/telegram-reminders && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/alexskuznetsov/claude-skill-telegram/telegram-reminders/SKILL.md\" > .claude/skills/telegram-reminders/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/alexskuznetsov/claude-skill-telegram/telegram-reminders/SKILL.md"

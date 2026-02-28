@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ac27719ec4b916e716f81c5646d4358fc26a0475a8e2ddb3841be201aebf906a",
   "indexed_at": "2026-02-26T12:18:18.114Z",
-  "synced_at": "2026-02-27T02:41:01.515Z",
+  "synced_at": "2026-02-28T04:10:18.899Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c2716eeecb6c5ab748146c6788d5355797e7ffd1e4a2ce126f2a998f94ac8cec",
   "install_command": "mkdir -p .claude/skills/kubernetes-operators && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/kubernetes-operators/SKILL.md\" > .claude/skills/kubernetes-operators/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/kubernetes-operators/SKILL.md"

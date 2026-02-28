@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9b16d3c2888a524183722f76c5d632becca353a373d3f7b358ac288c5aa573fb",
   "indexed_at": "2026-02-27T05:53:06.189Z",
-  "synced_at": "2026-02-27T13:14:40.479Z",
+  "synced_at": "2026-02-28T04:10:35.934Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dad30eec4e56e68da3c7dd544c3108f05d6d0a109d0ef46219a6965570502faf",
   "install_command": "mkdir -p .claude/skills/nvidia-nim && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/rish2jain__paperresearchagent__claude__skills__nvidia-nim__SKILL.md/SKILL.md\" > .claude/skills/nvidia-nim/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/rish2jain__paperresearchagent__claude__skills__nvidia-nim__SKILL.md/SKILL.md"

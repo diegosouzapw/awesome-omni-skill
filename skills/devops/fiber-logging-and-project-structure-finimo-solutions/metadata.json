@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "14dea7a42f62cc0eaaf10bd082492b920c1b271928d0b5e29950f30bf104cb9d",
   "indexed_at": "2026-02-26T15:25:30.706Z",
-  "synced_at": "2026-02-27T02:41:20.706Z",
+  "synced_at": "2026-02-28T04:10:55.056Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7d32d93c987e554b1a17aeae63daf440d3373b0be8977ee8181c5ffe15503e28",
   "install_command": "mkdir -p .claude/skills/fiber-logging-and-project-structure && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/fiber-logging-and-project-structure/SKILL.md\" > .claude/skills/fiber-logging-and-project-structure/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/fiber-logging-and-project-structure/SKILL.md"

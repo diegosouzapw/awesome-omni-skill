@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "46469859fae96174686c3449f97bb21708512ba29c0a632cfe8b0a4c4f7a5f10",
   "indexed_at": "2026-02-26T07:54:16.855Z",
-  "synced_at": "2026-02-27T02:40:33.317Z",
+  "synced_at": "2026-02-28T04:09:51.281Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/726b8f13f5a87ea070a8e2fd1ec40bbc80e2f8492410505f49d44ea8a8c55f93",
   "install_command": "mkdir -p .claude/skills/devops-troubleshooter && curl -sL \"https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/devops-troubleshooter/SKILL.md\" > .claude/skills/devops-troubleshooter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/devops-troubleshooter/SKILL.md"

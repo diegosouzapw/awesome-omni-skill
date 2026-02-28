@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "29fb0a6f6947154d8b3841adbcbb2d2932b75f5191af10970d3d8b5c9c28ec77",
   "indexed_at": "2026-02-27T14:10:57.560Z",
-  "synced_at": "2026-02-27T18:17:06.308Z",
+  "synced_at": "2026-02-28T04:10:44.489Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f33a229b0f48092bda5c97c9a49518b8beaec97dd0adc15e802600eb82356b6a",
   "install_command": "mkdir -p .claude/skills/deployment-pipeline-design && curl -sL \"https://raw.githubusercontent.com/bananayong/agent-sandbox/main/skills/deployment-pipeline-design/SKILL.md\" > .claude/skills/deployment-pipeline-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bananayong/agent-sandbox/main/skills/deployment-pipeline-design/SKILL.md"

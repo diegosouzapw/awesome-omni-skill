@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9f0d5bf8c6e6bfe1889f70bbe6a88728b0ade0626128018233693e8af10de7a8",
   "indexed_at": "2026-02-27T10:56:51.989Z",
-  "synced_at": "2026-02-27T13:14:46.118Z",
+  "synced_at": "2026-02-28T04:10:41.030Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ea240f656fca5439a0a7a59eaeeed8f4d660279d779219f891276408485e2e68",
   "install_command": "mkdir -p .claude/skills/k8s-security-policies && curl -sL \"https://raw.githubusercontent.com/AtilaMedeiros/skills/main/k8s-security-policies/SKILL.md\" > .claude/skills/k8s-security-policies/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AtilaMedeiros/skills/main/k8s-security-policies/SKILL.md"

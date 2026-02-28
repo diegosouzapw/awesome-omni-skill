@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e7711396dbd934ae63d642dd3c01cd26efeb376ed097f7a3760c6ac9aaece878",
   "indexed_at": "2026-02-26T05:55:05.145Z",
-  "synced_at": "2026-02-27T02:40:29.392Z",
+  "synced_at": "2026-02-28T04:09:47.561Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/80f839dfe57262fab3f154aeab56aa9334bb578e880a5d90a13c6194caacd4a3",
   "install_command": "mkdir -p .claude/skills/payram-agent-onboarding && curl -sL \"https://raw.githubusercontent.com/PayRam/payram-mcp/main/skills/payram-agent-onboarding/SKILL.md\" > .claude/skills/payram-agent-onboarding/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/PayRam/payram-mcp/main/skills/payram-agent-onboarding/SKILL.md"

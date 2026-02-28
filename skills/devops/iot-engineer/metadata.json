@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ae19caafdfc94fd5b4915118f940eb1273560b274cc3afc9cdd93df5b3fe13ce",
   "indexed_at": "2026-02-26T11:39:18.323Z",
-  "synced_at": "2026-02-27T02:40:51.803Z",
+  "synced_at": "2026-02-28T04:10:09.524Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bf26e77f9543883576785b22fc09bab226960d2cb3c48f554836cb2fcf2564c8",
   "install_command": "mkdir -p .claude/skills/iot-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/iot-engineer-zenobi-us-dotfiles/SKILL.md\" > .claude/skills/iot-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/iot-engineer-zenobi-us-dotfiles/SKILL.md"

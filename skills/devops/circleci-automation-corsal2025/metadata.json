@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "297fade37eef2aeed9d1cdcf57ff51ae4a612c964d3ca48bd4b0025901a7d7e7",
   "indexed_at": "2026-02-26T14:25:24.094Z",
-  "synced_at": "2026-02-27T02:41:10.464Z",
+  "synced_at": "2026-02-28T04:10:27.434Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fa7e6d354aaf3be1594c42c5b8501920facb1bbda61e2fceee826dd596946dd5",
   "install_command": "mkdir -p .claude/skills/circleci-automation && curl -sL \"https://raw.githubusercontent.com/corsal2025/TESIS-MAGISTER-/main/.agent/skills/circleci-automation/SKILL.md\" > .claude/skills/circleci-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/corsal2025/TESIS-MAGISTER-/main/.agent/skills/circleci-automation/SKILL.md"

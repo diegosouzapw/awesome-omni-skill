@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b06da068d78a3204bafdc83be06e50660cf289ba413303cbb7bf3c856424ca4f",
   "indexed_at": "2026-02-26T09:54:14.300Z",
-  "synced_at": "2026-02-27T02:40:45.029Z",
+  "synced_at": "2026-02-28T04:10:02.802Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e865e59933b2b6eba32d6835a4fd46d80e576566fc98c30944cdc5eef436f480",
   "install_command": "mkdir -p .claude/skills/bicep && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/bicep/SKILL.md\" > .claude/skills/bicep/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/bicep/SKILL.md"

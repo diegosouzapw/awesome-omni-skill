@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e322fa4addf00f23764f26cad2e642fdc3a31271f4b5f225fe4d21200a3a8256",
   "indexed_at": "2026-02-26T05:41:09.025Z",
-  "synced_at": "2026-02-27T02:40:28.364Z",
+  "synced_at": "2026-02-28T04:09:46.592Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7aeb7cbc6d34a1850401d2076c2060338c673193acabc0e8402e88b6b85a35d4",
   "install_command": "mkdir -p .claude/skills/monitoring && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/ivangdavila/monitoring/SKILL.md\" > .claude/skills/monitoring/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ivangdavila/monitoring/SKILL.md"

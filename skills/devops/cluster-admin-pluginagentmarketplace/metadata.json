@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "079285b9c11d2d0f2c5eb6a678685c24625265ac44ffb11118ea38fd15c92837",
   "indexed_at": "2026-02-26T09:54:45.571Z",
-  "synced_at": "2026-02-27T02:40:45.596Z",
+  "synced_at": "2026-02-28T04:10:03.354Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/46e4c6be221d7514a568139445440525eacbf50ad4400b356f683302c044280b",
   "install_command": "mkdir -p .claude/skills/cluster-admin && curl -sL \"https://raw.githubusercontent.com/pluginagentmarketplace/custom-plugin-kubernetes/main/skills/cluster-admin/SKILL.md\" > .claude/skills/cluster-admin/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pluginagentmarketplace/custom-plugin-kubernetes/main/skills/cluster-admin/SKILL.md"

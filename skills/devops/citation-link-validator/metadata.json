@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "22118878e60aae947460b6f4cd04a9fc17315ad407ff0c08495ca911b6e2bbbc",
   "indexed_at": "2026-02-25T13:49:47.593Z",
-  "synced_at": "2026-02-27T02:40:19.563Z",
+  "synced_at": "2026-02-28T04:09:38.778Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7abb6227639174cbbbdb965f56bea723811545ce845770e311a1a7524fd02079",
   "install_command": "mkdir -p .claude/skills/citation-link-validator && curl -sL \"https://raw.githubusercontent.com/FanG198202/citation-link-validator/main/SKILL.md\" > .claude/skills/citation-link-validator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/FanG198202/citation-link-validator/main/SKILL.md"

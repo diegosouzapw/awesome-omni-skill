@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1cf00f14a638fc2acabd723de219aeda23c1aec6fc64a9c95f436f21fd2223d5",
   "indexed_at": "2026-02-27T16:07:27.876Z",
-  "synced_at": "2026-02-27T18:17:07.781Z",
+  "synced_at": "2026-02-28T04:10:45.940Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cb555616357afc27ae19bcccc9e9f91c900b44d0d0c0c1d5e71b6d7fc4f73d80",
   "install_command": "mkdir -p .claude/skills/acdc-badge-sniper && curl -sL \"https://raw.githubusercontent.com/Puzzlepart/ACDC-26/main/skills/acdc-badge-sniper/SKILL.md\" > .claude/skills/acdc-badge-sniper/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Puzzlepart/ACDC-26/main/skills/acdc-badge-sniper/SKILL.md"

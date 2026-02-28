@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6a81c883de8eaad86907cc5d86e978837159b41f4979162a7b9a77d4943b1bde",
   "indexed_at": "2026-02-26T14:17:28.670Z",
-  "synced_at": "2026-02-27T02:41:08.398Z",
+  "synced_at": "2026-02-28T04:10:25.602Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d3b80a92dbd359d089429641b10e53f9f1611ae5831815c61ee0719bcb5023d2",
   "install_command": "mkdir -p .claude/skills/workflow-automate && curl -sL \"https://raw.githubusercontent.com/itsimonfredlingjack/codex-dev-plugin/main/.codex/skills/workflow-automate/SKILL.md\" > .claude/skills/workflow-automate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/itsimonfredlingjack/codex-dev-plugin/main/.codex/skills/workflow-automate/SKILL.md"

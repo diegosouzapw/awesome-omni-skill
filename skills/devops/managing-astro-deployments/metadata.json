@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4a92276933a8b441bcc1aa0775d9a7892fca971642628bd6db35ec06c8602f4e",
   "indexed_at": "2026-02-26T12:16:09.826Z",
-  "synced_at": "2026-02-27T02:40:53.807Z",
+  "synced_at": "2026-02-28T04:10:11.587Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b047ff01e3c13c60588906123ee95ea8cda21b5c537351a8830b01db51bf0e83",
   "install_command": "mkdir -p .claude/skills/managing-astro-deployments && curl -sL \"https://raw.githubusercontent.com/astronomer/agents/main/skills/managing-astro-deployments/SKILL.md\" > .claude/skills/managing-astro-deployments/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/astronomer/agents/main/skills/managing-astro-deployments/SKILL.md"

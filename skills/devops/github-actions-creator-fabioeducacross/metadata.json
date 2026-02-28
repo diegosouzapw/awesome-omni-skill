@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "792f38b5c466be70d4e68ebe393047ec04877e64c1507687c089197052a11bf7",
   "indexed_at": "2026-02-27T15:10:44.353Z",
-  "synced_at": "2026-02-27T18:17:07.326Z",
+  "synced_at": "2026-02-28T04:10:45.606Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c96734cc4dc644a12f9e8b200e07514d17ffbef53bb3679ea20686443d68fcb1",
   "install_command": "mkdir -p .claude/skills/github-actions-creator && curl -sL \"https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.agents/skills/github-actions-creator/SKILL.md\" > .claude/skills/github-actions-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.agents/skills/github-actions-creator/SKILL.md"

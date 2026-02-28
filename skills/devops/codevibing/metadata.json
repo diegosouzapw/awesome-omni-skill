@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "78eaf726738a2aa7913de454f7aea3b737695007427ae5478fb6f0335ea1ae13",
   "indexed_at": "2026-02-27T11:34:49.101Z",
-  "synced_at": "2026-02-27T13:14:46.405Z",
+  "synced_at": "2026-02-28T04:10:41.528Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a639d19719e30f38052a71d5b2f9c6594f4efb1b760e976cfb3a45961853b491",
   "install_command": "mkdir -p .claude/skills/codevibing && curl -sL \"https://raw.githubusercontent.com/JDerekLomas/codevibing-skill/main/SKILL.md\" > .claude/skills/codevibing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/JDerekLomas/codevibing-skill/main/SKILL.md"

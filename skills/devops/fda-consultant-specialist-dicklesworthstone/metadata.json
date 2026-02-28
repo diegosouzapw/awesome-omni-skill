@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fce07e3ceeca83b2cd2bc2c36ccc69c82c09aff90d26b0d9922d09ee9afccb4a",
   "indexed_at": "2026-02-26T11:36:28.255Z",
-  "synced_at": "2026-02-27T02:40:49.650Z",
+  "synced_at": "2026-02-28T04:10:07.387Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cca2bb9cbb516d7a62b924beffc2c4ed941d75e22a42ef4467eee65d5132be98",
   "install_command": "mkdir -p .claude/skills/fda-consultant-specialist && curl -sL \"https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/templates-davila7/cli-tool/components/skills/enterprise-communication/fda-consultant-specialist/SKILL.md\" > .claude/skills/fda-consultant-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/templates-davila7/cli-tool/components/skills/enterprise-communication/fda-consultant-specialist/SKILL.md"

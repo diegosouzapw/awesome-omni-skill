@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4c84d7d025381e8704f71aa29a7369bcf40e01f31eebc3edf474a2fe958e31f6",
   "indexed_at": "2026-02-26T16:35:27.873Z",
-  "synced_at": "2026-02-27T02:41:12.784Z",
+  "synced_at": "2026-02-28T04:10:29.778Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c054323bea476c93c54cf7e63896b47b805f4c277d38fe4bddd6760e893330ce",
   "install_command": "mkdir -p .claude/skills/hatch && curl -sL \"https://raw.githubusercontent.com/collinschaafsma/hatch/main/skills/hatch/SKILL.md\" > .claude/skills/hatch/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/collinschaafsma/hatch/main/skills/hatch/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8b0e2a0f4177b51cfbaea958e38373808e0179ec2bacaef33a9f2b7be67b741e",
   "indexed_at": "2026-02-26T08:49:48.410Z",
-  "synced_at": "2026-02-27T02:41:23.990Z",
+  "synced_at": "2026-02-28T04:10:59.295Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f57b0b6f9d6b7baa413dd0186cc3d05e72791bbdff9083ad64da135e21e0a59a",
   "install_command": "mkdir -p .claude/skills/database-admin && curl -sL \"https://raw.githubusercontent.com/moabualruz/EdgeRush-LootMan/main/.agent/skills/database-admin/SKILL.md\" > .claude/skills/database-admin/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/moabualruz/EdgeRush-LootMan/main/.agent/skills/database-admin/SKILL.md"

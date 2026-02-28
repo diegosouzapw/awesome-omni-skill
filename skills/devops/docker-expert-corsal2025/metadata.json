@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d3bc352b2c263121e4b22c48642c435776832f1ae3b9830798318d34c0b82ef6",
   "indexed_at": "2026-02-26T12:17:12.402Z",
-  "synced_at": "2026-02-27T02:40:58.150Z",
+  "synced_at": "2026-02-28T04:10:15.773Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/67cac6bfbcafffb94b569e6bcc4425205f312af979b2e8d78c9fff7f2240e820",
   "install_command": "mkdir -p .claude/skills/docker-expert && curl -sL \"https://raw.githubusercontent.com/corsal2025/NUTRI-AGENDA2026/main/.agent/skills/docker-expert/SKILL.md\" > .claude/skills/docker-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/corsal2025/NUTRI-AGENDA2026/main/.agent/skills/docker-expert/SKILL.md"

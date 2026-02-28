@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9ada3a4ff9f1f70a0e962a2dd21d038818a213d9c84904fff1713f45fa2c69f5",
   "indexed_at": "2026-02-25T12:53:50.771Z",
-  "synced_at": "2026-02-27T02:41:21.635Z",
+  "synced_at": "2026-02-28T04:10:56.960Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b57d5d3216762f7c3ad7d2098317b30c6c70602e18b4d9ee253ede64e132a5d2",
   "install_command": "mkdir -p .claude/skills/comprehensive-review-pr-enhance && curl -sL \"https://raw.githubusercontent.com/nkhcloud/exclude/main/.agent/skills/comprehensive-review-pr-enhance/SKILL.md\" > .claude/skills/comprehensive-review-pr-enhance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nkhcloud/exclude/main/.agent/skills/comprehensive-review-pr-enhance/SKILL.md"

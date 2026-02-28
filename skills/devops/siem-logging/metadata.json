@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e32bba1f50efc7cb1cdaeceb3316be65afa023d5c48f773c8b5e6b5b7e8f9a38",
   "indexed_at": "2026-02-26T12:17:00.476Z",
-  "synced_at": "2026-02-27T02:40:56.975Z",
+  "synced_at": "2026-02-28T04:10:14.771Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2f4e507a9a6c11accc890b4e1213381e7b10ab10707802544ffa18b8131cff84",
   "install_command": "mkdir -p .claude/skills/siem-logging && curl -sL \"https://raw.githubusercontent.com/ancoleman/ai-design-components/main/skills/siem-logging/SKILL.md\" > .claude/skills/siem-logging/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ancoleman/ai-design-components/main/skills/siem-logging/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b42c99801a00f52b02ce8b4082c2ef4ae7c58e6cded0e227f9bf00550cad7c26",
   "indexed_at": "2026-02-26T09:47:58.447Z",
-  "synced_at": "2026-02-27T02:40:39.540Z",
+  "synced_at": "2026-02-28T04:09:57.466Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/082bfebee04f07bb1ab7e30e5b3a20ab2ebada68bd058fc84b926184cbd865f8",
   "install_command": "mkdir -p .claude/skills/eks && curl -sL \"https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/aws-eks/SKILL.md\" > .claude/skills/eks/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/aws-eks/SKILL.md"

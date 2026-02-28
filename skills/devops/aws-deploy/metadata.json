@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "300847cbb2c2d87fd51485103cd29e18e3bb0493e4e62ae5b5ec854e2087a47a",
   "indexed_at": "2026-02-26T10:45:23.981Z",
-  "synced_at": "2026-02-27T02:40:46.845Z",
+  "synced_at": "2026-02-28T04:10:04.578Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/47d3b8576de0226810e8cf4bc18182a0fa5c030533ac8e64d031210b0301cf4d",
   "install_command": "mkdir -p .claude/skills/aws-deploy && curl -sL \"https://raw.githubusercontent.com/NotDannyCrawford/aws-deploy-skill/main/SKILL.md\" > .claude/skills/aws-deploy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NotDannyCrawford/aws-deploy-skill/main/SKILL.md"

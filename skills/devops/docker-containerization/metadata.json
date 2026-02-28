@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "61ce1fac04d5e001bab90c9438fcfb3d34bc0475452514e2c66d677d9f0fff97",
   "indexed_at": "2026-02-26T12:16:08.681Z",
-  "synced_at": "2026-02-27T02:40:53.648Z",
+  "synced_at": "2026-02-28T04:10:11.442Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/982bd661677fc5ea2273a623fb2cd9637fb9bcb4d1accc77ee7143f2d8e7b77a",
   "install_command": "mkdir -p .claude/skills/docker-containerization && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/Euda1mon1a__Autonomous-Assignment-Program-Manager__claude__skills__docker-containerization__SKILL.md/SKILL.md\" > .claude/skills/docker-containerization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/Euda1mon1a__Autonomous-Assignment-Program-Manager__claude__skills__docker-containerization__SKILL.md/SKILL.md"

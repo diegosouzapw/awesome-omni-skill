@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9ea7936ba451a38102d4e02526e93a96e840740485a0387be746906b08735514",
   "indexed_at": "2026-02-26T08:53:12.330Z",
-  "synced_at": "2026-02-27T02:40:37.354Z",
+  "synced_at": "2026-02-28T04:09:55.322Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ccf68c70a88c8fffa35dd8d49b60e9a3e9c4d5bd6a498dae56de96fb086a7cd7",
   "install_command": "mkdir -p .claude/skills/database-admin && curl -sL \"https://raw.githubusercontent.com/ranbot-ai/awesome-skills/main/skills/database-admin/SKILL.md\" > .claude/skills/database-admin/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ranbot-ai/awesome-skills/main/skills/database-admin/SKILL.md"

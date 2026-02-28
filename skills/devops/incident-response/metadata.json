@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7edd20be16f4a2625a2aa8d033e853abb6d9a68739b14ad5b9fe585b7d510849",
   "indexed_at": "2026-02-26T23:41:42.117Z",
-  "synced_at": "2026-02-27T02:41:15.904Z",
+  "synced_at": "2026-02-28T04:10:32.856Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2ad502f0c8cad5983e5d974a7670e2feaf3ea3878c419aaa4b310adcf6858f1b",
   "install_command": "mkdir -p .claude/skills/incident-response && curl -sL \"https://raw.githubusercontent.com/jcanizalez/fourmis-marketplace/main/plugins/devops-skills/skills/incident-response/SKILL.md\" > .claude/skills/incident-response/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jcanizalez/fourmis-marketplace/main/plugins/devops-skills/skills/incident-response/SKILL.md"

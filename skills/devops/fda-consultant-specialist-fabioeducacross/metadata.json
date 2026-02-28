@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4fb160800e7d8c2ccab0b3447e9c73e20d52bd8c4d66898be714a2eb2b6fdae0",
   "indexed_at": "2026-02-26T11:36:26.224Z",
-  "synced_at": "2026-02-27T02:40:49.300Z",
+  "synced_at": "2026-02-28T04:10:07.042Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bdac36158c2a33de3ca99d9f72d711684ece2ab741a694c970016a98532b4384",
   "install_command": "mkdir -p .claude/skills/fda-consultant-specialist && curl -sL \"https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.agents/skills/fda-consultant-specialist/SKILL.md\" > .claude/skills/fda-consultant-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.agents/skills/fda-consultant-specialist/SKILL.md"

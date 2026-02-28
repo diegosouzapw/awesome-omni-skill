@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry-data",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "data/fiber-logging-and-project-structure/SKILL.md",
+  "file_path": "other/fiber-logging-and-project-structure/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 43,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "d6fc77325143a5a132bddad124020edede83c905eac802401e36423b2e600b70",
-  "indexed_at": "2026-02-26T15:25:28.451Z",
-  "synced_at": "2026-02-27T02:41:20.506Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9eaeb74d6880adc7b6425034277961f95d8bc287864083b724afee46a4eec3bc",
-  "install_command": "mkdir -p .claude/skills/fiber-logging-and-project-structure && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/fiber-logging-and-project-structure/SKILL.md\" > .claude/skills/fiber-logging-and-project-structure/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/fiber-logging-and-project-structure/SKILL.md"
+  "content_hash": "a3c9aa6ec2909c68a957491e0a0c1ad04ee8e89730bd7826ce1438f2f036eea1",
+  "indexed_at": "2026-02-28T00:22:13.835Z",
+  "synced_at": "2026-02-28T04:10:55.856Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a4e80cb44e06213f343845f3c85b5096be6b8080c072ba64afcc7a0e0aec7cc4",
+  "install_command": "mkdir -p .claude/skills/fiber-logging-and-project-structure && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/fiber-logging-and-project-structure/SKILL.md\" > .claude/skills/fiber-logging-and-project-structure/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/fiber-logging-and-project-structure/SKILL.md"
 }

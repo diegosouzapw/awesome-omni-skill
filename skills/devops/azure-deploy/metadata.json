@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9138660d42cf602c7270417beef1e72c76940ca52f85a6ecdb682de6e748e4d0",
   "indexed_at": "2026-02-25T14:02:57.948Z",
-  "synced_at": "2026-02-27T02:40:19.926Z",
+  "synced_at": "2026-02-28T04:09:39.136Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1eb69c6311c6cb1ae9f8abfe450789adbcbaf26580093c31ecf73a7731a80f9b",
   "install_command": "mkdir -p .claude/skills/azure-deploy && curl -sL \"https://raw.githubusercontent.com/spboyer/azure-deploy/main/SKILL.md\" > .claude/skills/azure-deploy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/spboyer/azure-deploy/main/SKILL.md"

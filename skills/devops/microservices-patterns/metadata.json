@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "47f714cbc8467926d44b713eabcf2c4d6e5cd972679d69e19ebdc3c24daec226",
   "indexed_at": "2026-02-26T05:46:45.267Z",
-  "synced_at": "2026-02-27T02:40:28.896Z",
+  "synced_at": "2026-02-28T04:09:47.057Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed6858a86893ecc66f045ff4e9e164e86a7d6b141dbc9aa41829d749f05dc088",
   "install_command": "mkdir -p .claude/skills/microservices-patterns && curl -sL \"https://raw.githubusercontent.com/manutej/luxor-claude-marketplace/main/plugins/luxor-devops-suite/skills/microservices-patterns/SKILL.md\" > .claude/skills/microservices-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/manutej/luxor-claude-marketplace/main/plugins/luxor-devops-suite/skills/microservices-patterns/SKILL.md"

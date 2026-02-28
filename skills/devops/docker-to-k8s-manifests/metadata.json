@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1064956b7870c30863183355c71062135080e737d1a25d7e6bc5dfb12875684f",
   "indexed_at": "2026-02-26T12:16:20.790Z",
-  "synced_at": "2026-02-27T02:41:25.868Z",
+  "synced_at": "2026-02-28T04:11:01.179Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/904a5c6437a212fbbd951fb04e7b74efe5dea57e3ce726e3c94b2f572e0c7f85",
   "install_command": "mkdir -p .claude/skills/docker-to-k8s-manifests && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/martinforsulu/neo-docker-to-k8s-manifests/SKILL.md\" > .claude/skills/docker-to-k8s-manifests/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/martinforsulu/neo-docker-to-k8s-manifests/SKILL.md"

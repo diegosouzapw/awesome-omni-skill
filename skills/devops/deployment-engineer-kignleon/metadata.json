@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5838e1b5059055ab2c5ce0123d33c14b7b7b1d9691797d0c673d1d4531f5ea37",
   "indexed_at": "2026-02-26T12:18:24.120Z",
-  "synced_at": "2026-02-27T02:41:26.994Z",
+  "synced_at": "2026-02-28T04:11:02.317Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/67531c162d0c5d17a68ef08cdf9866d65f58ba7da20c7753dcf17217e27c34c0",
   "install_command": "mkdir -p .claude/skills/deployment-engineer && curl -sL \"https://raw.githubusercontent.com/KignLeon/joesmith-website/main/skills/deployment-engineer/SKILL.md\" > .claude/skills/deployment-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/KignLeon/joesmith-website/main/skills/deployment-engineer/SKILL.md"

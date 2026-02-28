@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "97da01079ee73c0ff379f45ee978c5b8809648279b090804c75529da69b1d32c",
   "indexed_at": "2026-02-26T12:16:42.315Z",
-  "synced_at": "2026-02-27T02:40:56.049Z",
+  "synced_at": "2026-02-28T04:10:13.830Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e1495337d367cd1d69792b68127425e441da28d3a6434154e79ca7a8366d345c",
   "install_command": "mkdir -p .claude/skills/kubernetes-deployment && curl -sL \"https://raw.githubusercontent.com/syeda-hoorain-ali/todo-spec-driven-hackathon/main/.claude/skills/kubernetes-deployment/SKILL.md\" > .claude/skills/kubernetes-deployment/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/syeda-hoorain-ali/todo-spec-driven-hackathon/main/.claude/skills/kubernetes-deployment/SKILL.md"

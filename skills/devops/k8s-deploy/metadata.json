@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4120163760a9ca19c79fa4ec61c7b06e3c5fb082f58fa6a44e9a23ab7eeba9fa",
   "indexed_at": "2026-02-26T12:16:12.223Z",
-  "synced_at": "2026-02-27T02:40:54.144Z",
+  "synced_at": "2026-02-28T04:10:11.913Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0450facd41b43e50c56eec04830c40b0a0281632afb9d3c0ccd8aea68e1d3f2c",
   "install_command": "mkdir -p .claude/skills/k8s-deploy && curl -sL \"https://raw.githubusercontent.com/ryanmaclean/vibecode-webgui/main/.claude/skills/k8s-deploy/SKILL.md\" > .claude/skills/k8s-deploy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ryanmaclean/vibecode-webgui/main/.claude/skills/k8s-deploy/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "30cbbf58aba39942d98d3b242452d00f5b036bb538426cdf30a9cb191e2d0f4c",
   "indexed_at": "2026-02-26T12:18:48.429Z",
-  "synced_at": "2026-02-27T02:41:03.927Z",
+  "synced_at": "2026-02-28T04:10:21.204Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/add98a0c48fb3a25bfee3ce37d0ae60d9bcf9ed0c5011a405eaf3775aa4e3f54",
   "install_command": "mkdir -p .claude/skills/deployment-pipeline-design && curl -sL \"https://raw.githubusercontent.com/rootcastleco/rei-skills/main/skills/deployment-pipeline-design/SKILL.md\" > .claude/skills/deployment-pipeline-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rootcastleco/rei-skills/main/skills/deployment-pipeline-design/SKILL.md"

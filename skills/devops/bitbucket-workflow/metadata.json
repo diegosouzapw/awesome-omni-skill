@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a9708a280a3f92023d0b329689080f15314149de6d887a4f94ab46c26220a085",
   "indexed_at": "2026-02-25T20:40:40.998Z",
-  "synced_at": "2026-02-27T02:40:25.453Z",
+  "synced_at": "2026-02-28T04:09:43.738Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c2799443640195810873db44f065b5825268ab1fec11ef66b8fb23e068e81b2e",
   "install_command": "mkdir -p .claude/skills/bitbucket-workflow && curl -sL \"https://raw.githubusercontent.com/Mindrally/skills/main/bitbucket-workflow/SKILL.md\" > .claude/skills/bitbucket-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Mindrally/skills/main/bitbucket-workflow/SKILL.md"

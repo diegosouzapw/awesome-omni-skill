@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "62a6bb39b3bf4f79d327104af6e37adbe2cba40b68f881afd6de8bd69acd373c",
   "indexed_at": "2026-02-26T02:07:39.643Z",
-  "synced_at": "2026-02-27T02:40:28.022Z",
+  "synced_at": "2026-02-28T04:09:46.270Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b6fb6c345a953d12a8aec2bdf0eca10c05fdd8699bc527bbd5893218fa9c80d6",
   "install_command": "mkdir -p .claude/skills/azure-diagnostics && curl -sL \"https://raw.githubusercontent.com/microsoft/GitHub-Copilot-for-Azure/main/plugin/skills/azure-diagnostics/SKILL.md\" > .claude/skills/azure-diagnostics/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/microsoft/GitHub-Copilot-for-Azure/main/plugin/skills/azure-diagnostics/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c1265e8f842c858587975068a700ced7291433d254170a45ea1a3d04d1bbdce",
   "indexed_at": "2026-02-26T11:18:19.806Z",
-  "synced_at": "2026-02-27T02:40:48.722Z",
+  "synced_at": "2026-02-28T04:10:06.367Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/635210240530710a4adf34d8712bd6010c789737397edf49505cf3a28b50acc8",
   "install_command": "mkdir -p .claude/skills/bio-ribo-seq-translation-efficiency && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/bio-ribo-seq-translation-efficiency/SKILL.md\" > .claude/skills/bio-ribo-seq-translation-efficiency/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/bio-ribo-seq-translation-efficiency/SKILL.md"

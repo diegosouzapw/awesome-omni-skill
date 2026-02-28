@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cf4cefc8c5173a8e3a8106f341661a1cdea020d83a5d141bf31693ca6534e348",
   "indexed_at": "2026-02-26T12:16:40.408Z",
-  "synced_at": "2026-02-27T02:40:55.870Z",
+  "synced_at": "2026-02-28T04:10:13.656Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cfea27a569724b151dfe9e5141cfd70c2c03862fa3dc7ce7033949b50531ca10",
   "install_command": "mkdir -p .claude/skills/kubernetes-deployer && curl -sL \"https://raw.githubusercontent.com/rabiasohail098/todo-app-hackthon2/main/.claude/skills/kubernetes-deployer/SKILL.md\" > .claude/skills/kubernetes-deployer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rabiasohail098/todo-app-hackthon2/main/.claude/skills/kubernetes-deployer/SKILL.md"

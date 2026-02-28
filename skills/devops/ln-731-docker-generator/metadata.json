@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "22f89438f658d239e07e236e00f21fee35604ae689064518794f44c4340521ec",
   "indexed_at": "2026-02-26T10:50:12.282Z",
-  "synced_at": "2026-02-27T02:40:47.002Z",
+  "synced_at": "2026-02-28T04:10:04.734Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e30c2b1d1052457e6b31ed93cc3006f2f52c5aab138849e746016e5ba64e6a6d",
   "install_command": "mkdir -p .claude/skills/ln-731-docker-generator && curl -sL \"https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/levn-ln-731-docker-generator/SKILL.md\" > .claude/skills/ln-731-docker-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/levn-ln-731-docker-generator/SKILL.md"

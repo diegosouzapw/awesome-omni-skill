@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5e83c886e56366894f163195feda399d3778a303f5ee8a80b6dbf6181191e134",
   "indexed_at": "2026-02-27T10:56:53.612Z",
-  "synced_at": "2026-02-27T13:14:46.215Z",
+  "synced_at": "2026-02-28T04:10:41.194Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d392f522f6853e2c7408dd04c1ea74379b8c9722e704b49aa5ff748b46e5b8f0",
   "install_command": "mkdir -p .claude/skills/k8s-security-policies && curl -sL \"https://raw.githubusercontent.com/Nandukumar-koribilli/skills-/main/k8s-security-policies/SKILL.md\" > .claude/skills/k8s-security-policies/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Nandukumar-koribilli/skills-/main/k8s-security-policies/SKILL.md"

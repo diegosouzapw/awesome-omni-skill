@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "383efb6de82d78fb4827e683c87a6a033b32346b2fb6d9c7b5d340afc2b8e245",
   "indexed_at": "2026-02-27T12:38:24.954Z",
-  "synced_at": "2026-02-27T13:14:46.760Z",
+  "synced_at": "2026-02-28T04:10:42.261Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/52b1fdb7f5a73c8c23a89dd7f0b255556d947b183aa8a2b5573dbaf1934c5efa",
   "install_command": "mkdir -p .claude/skills/deploying-airflow && curl -sL \"https://raw.githubusercontent.com/astronomer/agents/main/skills/deploying-airflow/SKILL.md\" > .claude/skills/deploying-airflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/astronomer/agents/main/skills/deploying-airflow/SKILL.md"

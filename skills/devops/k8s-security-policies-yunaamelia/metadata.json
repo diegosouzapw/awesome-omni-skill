@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "72a62d44677b37cc6147e1f993d01bd41a8e4e0d3b44de5f7784c03e60a1316c",
   "indexed_at": "2026-02-26T09:35:21.309Z",
-  "synced_at": "2026-02-27T02:40:38.057Z",
+  "synced_at": "2026-02-28T04:09:55.988Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bbf30428316be650d5313f89deced1cb2ad72c9ce6f155d970c4031e13115dc7",
   "install_command": "mkdir -p .claude/skills/k8s-security-policies && curl -sL \"https://raw.githubusercontent.com/yunaamelia/apex-fast/main/skills/k8s-security-policies/SKILL.md\" > .claude/skills/k8s-security-policies/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yunaamelia/apex-fast/main/skills/k8s-security-policies/SKILL.md"

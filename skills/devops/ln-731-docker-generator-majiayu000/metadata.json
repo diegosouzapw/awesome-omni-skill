@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5449bc1a80134ca05f6b7b9bf871961623b0667463b21f5829d2ffcdfa4b20bb",
   "indexed_at": "2026-02-26T11:34:59.171Z",
-  "synced_at": "2026-02-27T02:40:48.924Z",
+  "synced_at": "2026-02-28T04:10:06.698Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3e4064afe1bcd926c38cc982150255068e3ec69a658dcd31a085b9e7aa31040e",
   "install_command": "mkdir -p .claude/skills/ln-731-docker-generator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ln-731-docker-generator/SKILL.md\" > .claude/skills/ln-731-docker-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ln-731-docker-generator/SKILL.md"

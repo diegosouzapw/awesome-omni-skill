@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ce239034027bd38b60a18397335dd2e21c5f8ca2d208266c869d578700c67386",
   "indexed_at": "2026-02-25T12:55:49.792Z",
-  "synced_at": "2026-02-27T02:41:22.303Z",
+  "synced_at": "2026-02-28T04:10:57.613Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fc59df7beb6014e415c7da2f137a0cd1c04e87e91940c60e161f31382400d641",
   "install_command": "mkdir -p .claude/skills/pronunciation-specialist && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/pronunciation-specialist/SKILL.md\" > .claude/skills/pronunciation-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/pronunciation-specialist/SKILL.md"

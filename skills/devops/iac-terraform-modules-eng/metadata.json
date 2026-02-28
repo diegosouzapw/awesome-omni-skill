@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8ad628119c5a15b04f0f46b14a7eb7f25e72e73a17781a1a9102bdbae6e53a5d",
   "indexed_at": "2026-02-26T08:50:25.204Z",
-  "synced_at": "2026-02-27T02:40:36.245Z",
+  "synced_at": "2026-02-28T04:09:54.291Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0a39a5f9b0ff9edde527cdb0d05b781b0e7f3ba946d901a84368319192e39198",
   "install_command": "mkdir -p .claude/skills/iac-terraform-modules-eng && curl -sL \"https://raw.githubusercontent.com/aRustyDev/ai/main/context/skills/iac-terraform-modules-eng/SKILL.md\" > .claude/skills/iac-terraform-modules-eng/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aRustyDev/ai/main/context/skills/iac-terraform-modules-eng/SKILL.md"

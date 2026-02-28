@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3b19e0e5ee02daf47e40aa6fa78ca2d4512d0948819926b7ffa8c5a444b7d810",
   "indexed_at": "2026-02-26T10:54:40.315Z",
-  "synced_at": "2026-02-27T02:41:17.114Z",
+  "synced_at": "2026-02-28T04:10:51.281Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/097e6e200946fa9842dd96842ddef2b319f943494f913b5f0abc042b2b8de8be",
   "install_command": "mkdir -p .claude/skills/specialist-devops-infra && curl -sL \"https://raw.githubusercontent.com/Matheus-Gama-deluna/Maestro/main/content/skills/specialist-devops-infra/SKILL.md\" > .claude/skills/specialist-devops-infra/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Matheus-Gama-deluna/Maestro/main/content/skills/specialist-devops-infra/SKILL.md"

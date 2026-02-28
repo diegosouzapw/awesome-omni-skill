@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "47d2edc06995e259c14996b5a34955134e40bf64824b9cafd363bbd58b3d7220",
   "indexed_at": "2026-02-26T11:38:14.657Z",
-  "synced_at": "2026-02-27T02:40:50.820Z",
+  "synced_at": "2026-02-28T04:10:08.548Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f789147d6b74ca06a09e424c66b259bff9a020ca1d577b8b4eb78d8a6cdf0871",
   "install_command": "mkdir -p .claude/skills/fnox-providers && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/devops/fnox-providers/SKILL.md\" > .claude/skills/fnox-providers/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/devops/fnox-providers/SKILL.md"

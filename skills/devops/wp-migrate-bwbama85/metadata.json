@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "88c798c58b70f9033f647e894a6d022d786efef5394c651898cd31040cf36c9d",
   "indexed_at": "2026-02-26T13:25:32.448Z",
-  "synced_at": "2026-02-27T02:41:07.706Z",
+  "synced_at": "2026-02-28T04:10:24.915Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1678da71e6d0b9f501b9894307952f56386250c6c4f9e987aecbb1ffeaa567f7",
   "install_command": "mkdir -p .claude/skills/wp-migrate && curl -sL \"https://raw.githubusercontent.com/BWBama85/wp-migrate.sh/main/.claude/skills/wp-migrate/SKILL.md\" > .claude/skills/wp-migrate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/BWBama85/wp-migrate.sh/main/.claude/skills/wp-migrate/SKILL.md"

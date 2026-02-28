@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f41521f9b42b3b3ed16230d3ee6eaaa7ea6a9c344090482f8e683db063d26df5",
   "indexed_at": "2026-02-26T05:54:07.804Z",
-  "synced_at": "2026-02-27T02:41:16.597Z",
+  "synced_at": "2026-02-28T04:10:50.755Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8d59116789226f893d5b93c6b1aadd53a5bd7d9476540262dcc3f5078228a29c",
   "install_command": "mkdir -p .claude/skills/cloud-devops-expert && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/oimiragieo/agent-studio/cloud-devops-expert/SKILL.md\" > .claude/skills/cloud-devops-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/oimiragieo/agent-studio/cloud-devops-expert/SKILL.md"

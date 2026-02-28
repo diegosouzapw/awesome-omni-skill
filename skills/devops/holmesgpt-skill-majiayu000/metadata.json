@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "69d5d597325e1feaa1e358ce11ca36b97af9dd6c6e805ac2bd944ada6d5bf3d9",
   "indexed_at": "2026-02-27T16:48:58.468Z",
-  "synced_at": "2026-02-27T18:17:08.653Z",
+  "synced_at": "2026-02-28T04:10:46.469Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/69d89e303f81cc9eb9aa3505f78836747c4e278f00759aa0c3b7aaa17b5ccec9",
   "install_command": "mkdir -p .claude/skills/holmesgpt-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/holmesgpt-skill/SKILL.md\" > .claude/skills/holmesgpt-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/holmesgpt-skill/SKILL.md"

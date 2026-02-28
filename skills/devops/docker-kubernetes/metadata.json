@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2625cd3707c3131abdddb13b88eafe74b9b5fa8aafb793745c03715d75f86186",
   "indexed_at": "2026-02-26T12:16:47.089Z",
-  "synced_at": "2026-02-27T02:41:26.033Z",
+  "synced_at": "2026-02-28T04:11:01.347Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/02eb695969fac11d5d2f8b708c15dcfe7ee5a40f359e9abfb46879ae897b2ce8",
   "install_command": "mkdir -p .claude/skills/docker-kubernetes && curl -sL \"https://raw.githubusercontent.com/Smarter-Poker/Smarter-Poker-World-Hub/main/.agent/skills/docker-kubernetes/SKILL.md\" > .claude/skills/docker-kubernetes/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Smarter-Poker/Smarter-Poker-World-Hub/main/.agent/skills/docker-kubernetes/SKILL.md"

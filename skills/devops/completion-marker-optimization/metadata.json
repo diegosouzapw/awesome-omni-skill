@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "04ba83bec529151c127be3effb6e02987f760ee9e216175302ec158384c975ad",
   "indexed_at": "2026-02-27T15:07:11.921Z",
-  "synced_at": "2026-02-27T18:17:06.952Z",
+  "synced_at": "2026-02-28T04:10:45.426Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6a84d905df49ae865af0678e30d611812328ba48fc3f17b3ab91ac9c149952f3",
   "install_command": "mkdir -p .claude/skills/completion-marker-optimization && curl -sL \"https://raw.githubusercontent.com/pmarashian/cursor-agent-skills/main/completion-marker-optimization/SKILL.md\" > .claude/skills/completion-marker-optimization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pmarashian/cursor-agent-skills/main/completion-marker-optimization/SKILL.md"

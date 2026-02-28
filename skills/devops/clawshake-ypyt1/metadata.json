@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ad7059edde90ae71f788a6be0dfd1bab2e40fbf8aefa3feaa0d741e7c93972e4",
   "indexed_at": "2026-02-26T11:37:52.632Z",
-  "synced_at": "2026-02-27T02:40:50.149Z",
+  "synced_at": "2026-02-28T04:10:07.879Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cb8d93dc932db01b7797924955b467ae1252308d613c5d9711ce0cbbf7e0633d",
   "install_command": "mkdir -p .claude/skills/clawshake && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/star-ga/clawshake/SKILL.md\" > .claude/skills/clawshake/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/star-ga/clawshake/SKILL.md"

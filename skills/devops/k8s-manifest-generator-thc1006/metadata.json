@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5f46dbe37cf2eb2caa82d371835a6241e4aae853435fca93963be8d03feea780",
   "indexed_at": "2026-02-26T05:54:46.546Z",
-  "synced_at": "2026-02-27T02:40:29.230Z",
+  "synced_at": "2026-02-28T04:09:47.382Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cf98c9db7082a13baaa0bc7b0c565f7a3f0ee91a79913715ad210d992d5456a0",
   "install_command": "mkdir -p .claude/skills/k8s-manifest-generator && curl -sL \"https://raw.githubusercontent.com/thc1006/nephoran-intent-operator/main/.claude/skills/k8s-manifest-generator/SKILL.md\" > .claude/skills/k8s-manifest-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/thc1006/nephoran-intent-operator/main/.claude/skills/k8s-manifest-generator/SKILL.md"

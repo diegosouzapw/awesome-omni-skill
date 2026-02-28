@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "318b672ddf04593d2c3e1839682008d7cb95ae05cfc9478f9c7847cf5a811d90",
   "indexed_at": "2026-02-27T13:25:19.381Z",
-  "synced_at": "2026-02-27T18:17:04.605Z",
+  "synced_at": "2026-02-28T04:10:42.935Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6e7b04089d8885069506d0ce732ba5b68f3455cff6af3e5bc3bac7b1d1f219ce",
   "install_command": "mkdir -p .claude/skills/mastering-aws-cdk && curl -sL \"https://raw.githubusercontent.com/SpillwaveSolutions/mastering-aws-cdk-plugin/main/skills/mastering-aws-cdk/SKILL.md\" > .claude/skills/mastering-aws-cdk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/SpillwaveSolutions/mastering-aws-cdk-plugin/main/skills/mastering-aws-cdk/SKILL.md"

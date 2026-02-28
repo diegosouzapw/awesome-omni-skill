@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c059c8143948385d5a87cc7aa4f0ac6348ba38656985ec6e351c7a4b944e1b5",
   "indexed_at": "2026-02-26T09:47:51.833Z",
-  "synced_at": "2026-02-27T02:40:39.081Z",
+  "synced_at": "2026-02-28T04:09:57.016Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2922fd4cf6458548ae82be93779fcd69644956ee3a793b1dd43bc64c5a333ba2",
   "install_command": "mkdir -p .claude/skills/tiledbvcf && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/tiledbvcf/SKILL.md\" > .claude/skills/tiledbvcf/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/tiledbvcf/SKILL.md"

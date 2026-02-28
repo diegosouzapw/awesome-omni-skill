@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "93cc38bbcc029dba0433564899431e51004b5e548393c78f0e69e8169f6f63b0",
   "indexed_at": "2026-02-25T17:10:36.767Z",
-  "synced_at": "2026-02-27T02:40:22.176Z",
+  "synced_at": "2026-02-28T04:09:41.341Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2327226d86b5262b45975337a94cd5ece5a9d7a19af2ff0ff0f878a6f0ea13ae",
   "install_command": "mkdir -p .claude/skills/team-lifecycle && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/catlog22/claude-code-workflow/team-lifecycle/SKILL.md\" > .claude/skills/team-lifecycle/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/catlog22/claude-code-workflow/team-lifecycle/SKILL.md"

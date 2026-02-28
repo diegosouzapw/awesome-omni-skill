@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aab88add67035c1056025965c3df1f652693044c3bf757ec83061986d72296b3",
   "indexed_at": "2026-02-26T11:40:57.528Z",
-  "synced_at": "2026-02-27T02:41:17.978Z",
+  "synced_at": "2026-02-28T04:10:52.121Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7bd92fdb389bc6602baa1debdc21335903eb5ef339e8133ba32af5ab1a67dd23",
   "install_command": "mkdir -p .claude/skills/database-migrations-migration-observability && curl -sL \"https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/docs/v19.7/configuration/agent/skills_external/antigravity-awesome-skills-main/skills/database-migrations-migration-observability/SKILL.md\" > .claude/skills/database-migrations-migration-observability/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/docs/v19.7/configuration/agent/skills_external/antigravity-awesome-skills-main/skills/database-migrations-migration-observability/SKILL.md"

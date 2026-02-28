@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a989f63f24d125c2adfd0f2757ac842155f305500ff862e7b63f6887a2bec420",
   "indexed_at": "2026-02-26T17:36:35.674Z",
-  "synced_at": "2026-02-27T02:41:13.356Z",
+  "synced_at": "2026-02-28T04:10:30.353Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8ab0dbd2dec5cfd16b7f4e62fbeb1fe2fb3b054aba71ac58f01f8c10b75c04d0",
   "install_command": "mkdir -p .claude/skills/simplify-and-harden && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/pskoett/simplify-and-harden/SKILL.md\" > .claude/skills/simplify-and-harden/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pskoett/simplify-and-harden/SKILL.md"

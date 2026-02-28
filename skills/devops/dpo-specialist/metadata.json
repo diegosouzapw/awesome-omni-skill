@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "19a01d48c28b8c934735d65112d028692020dfeb8ac4b36722fc265a7b7a2dcf",
   "indexed_at": "2026-02-26T09:49:52.248Z",
-  "synced_at": "2026-02-27T02:40:40.718Z",
+  "synced_at": "2026-02-28T04:09:58.591Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b0957961a73a26e6ce8dd346e9500a017165fbdb49d0f19c86a43fde0b2b6c61",
   "install_command": "mkdir -p .claude/skills/dpo-specialist && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/dpo-specialist/SKILL.md\" > .claude/skills/dpo-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/dpo-specialist/SKILL.md"

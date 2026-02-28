@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c7e58ccae9d482cdcef4d5082804db41de93e41aba67ddf13f2cdb1fb1113174",
   "indexed_at": "2026-02-26T09:55:59.879Z",
-  "synced_at": "2026-02-27T02:40:45.971Z",
+  "synced_at": "2026-02-28T04:10:03.738Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d681ef873fffbf0be8293708448c720e5a0dd7995ab4732a1a200dca3ee34414",
   "install_command": "mkdir -p .claude/skills/terraform-engineer && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/veeramanikandanr48/terraform-engineer/SKILL.md\" > .claude/skills/terraform-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/veeramanikandanr48/terraform-engineer/SKILL.md"

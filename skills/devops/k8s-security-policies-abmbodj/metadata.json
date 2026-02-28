@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "688ddfc1dd317a74d08b9cc0900e37a72656c3b81a481cb32b50d5c1093d5eba",
   "indexed_at": "2026-02-26T11:37:08.910Z",
-  "synced_at": "2026-02-27T02:40:49.994Z",
+  "synced_at": "2026-02-28T04:10:07.722Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0fdbdf2041f118c5e8f7f297aeeb61c8007cb3a38b1f99e46dac16f6df2a364d",
   "install_command": "mkdir -p .claude/skills/k8s-security-policies && curl -sL \"https://raw.githubusercontent.com/abmbodj/Riven-Mobile/main/.github/skills/k8s-security-policies/SKILL.md\" > .claude/skills/k8s-security-policies/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/abmbodj/Riven-Mobile/main/.github/skills/k8s-security-policies/SKILL.md"

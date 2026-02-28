@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0ff832947d57ecae6e40bd2dcfd6db03158f2447b7be8e1fbe739be107773557",
   "indexed_at": "2026-02-26T12:17:03.895Z",
-  "synced_at": "2026-02-27T02:40:57.268Z",
+  "synced_at": "2026-02-28T04:10:14.936Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4bd92d3d6defe74b45f63a0e2f633e0e9a0a8c313a1a21ff3f82d8b3eaccd5ea",
   "install_command": "mkdir -p .claude/skills/devops-cicd && curl -sL \"https://raw.githubusercontent.com/buildworksai/EUCORA/main/.agents/skills/devops-cicd/SKILL.md\" > .claude/skills/devops-cicd/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/buildworksai/EUCORA/main/.agents/skills/devops-cicd/SKILL.md"

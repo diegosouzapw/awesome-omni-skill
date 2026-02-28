@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b98aba98ffc07725ed52651c87d695e53db09d6107580ffb349ac6d28aca2899",
   "indexed_at": "2026-02-26T12:23:35.551Z",
-  "synced_at": "2026-02-27T02:41:05.367Z",
+  "synced_at": "2026-02-28T04:10:22.605Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/32267dce96e3cb0791085c2843ba5116a1410bb86b3c28ceb5b32a9daf7df195",
   "install_command": "mkdir -p .claude/skills/tech-detection && curl -sL \"https://raw.githubusercontent.com/nbarthelemy/simdeck/main/.claude/skills/tech-detection/SKILL.md\" > .claude/skills/tech-detection/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nbarthelemy/simdeck/main/.claude/skills/tech-detection/SKILL.md"

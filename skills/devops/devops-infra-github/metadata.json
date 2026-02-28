@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8842448b0e77defb93415f7fa3f2d8eb4865f96a27d227c03da42cfb15824a13",
   "indexed_at": "2026-02-25T13:02:06.714Z",
-  "synced_at": "2026-02-27T02:40:17.702Z",
+  "synced_at": "2026-02-28T04:09:36.806Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ab52b03013ec2398ac0b093c2baec67f2646cc7100765e7fb4909fc9f2c46e2b",
   "install_command": "mkdir -p .claude/skills/devops-infra-github && curl -sL \"https://raw.githubusercontent.com/lcaparros/cicd-github-bun/main/SKILL.md\" > .claude/skills/devops-infra-github/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lcaparros/cicd-github-bun/main/SKILL.md"

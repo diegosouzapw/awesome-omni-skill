@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b8ad6b37c830af0c9fb7ed91f7b0230d1ee831831c623c057275430fd1de86e9",
   "indexed_at": "2026-02-26T12:16:59.298Z",
-  "synced_at": "2026-02-27T02:41:26.442Z",
+  "synced_at": "2026-02-28T04:11:01.783Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a69d55c0e932b0303b6ceaaef1761c7e801c4501c2a229b9a6695b7a78eec8a4",
   "install_command": "mkdir -p .claude/skills/deployment-engineer && curl -sL \"https://raw.githubusercontent.com/rmyndharis/antigravity-skills/main/skills/deployment-engineer/SKILL.md\" > .claude/skills/deployment-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rmyndharis/antigravity-skills/main/skills/deployment-engineer/SKILL.md"

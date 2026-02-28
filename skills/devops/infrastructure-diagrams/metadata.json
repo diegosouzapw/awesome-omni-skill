@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "549e7efd2295859f8cad11d530a1ef52bff6a9c99822ea205c9f67bb6d120b7f",
   "indexed_at": "2026-02-26T08:50:33.718Z",
-  "synced_at": "2026-02-27T02:40:36.587Z",
+  "synced_at": "2026-02-28T04:09:54.647Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0c31a16bf858f9c9245982976f10cd9ab5f721bae80c50b812d8ba50414a58b9",
   "install_command": "mkdir -p .claude/skills/infrastructure-diagrams && curl -sL \"https://raw.githubusercontent.com/kroegha/infrastructure-diagrams/main/packages/claude-code-linux/infrastructure-diagrams/SKILL.md\" > .claude/skills/infrastructure-diagrams/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kroegha/infrastructure-diagrams/main/packages/claude-code-linux/infrastructure-diagrams/SKILL.md"

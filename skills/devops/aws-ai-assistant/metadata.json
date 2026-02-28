@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5fed84fb22f23b15f83611fbd581ce236a52349092ddda1626ebd23ac20503f3",
   "indexed_at": "2026-02-26T18:35:39.546Z",
-  "synced_at": "2026-02-27T02:41:14.076Z",
+  "synced_at": "2026-02-28T04:10:31.017Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5c3c9d4ca8e7ede5eb73f1c6097a269716b751c8e722cc4df03966eb0a49ef7f",
   "install_command": "mkdir -p .claude/skills/aws-ai-assistant && curl -sL \"https://raw.githubusercontent.com/diegouis/provectus-marketplace/main/plugins/proagent-aws-ai/skills/aws-ai-assistant/SKILL.md\" > .claude/skills/aws-ai-assistant/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/diegouis/provectus-marketplace/main/plugins/proagent-aws-ai/skills/aws-ai-assistant/SKILL.md"

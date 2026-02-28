@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6d3445f9b58477426714a286db625d79bda137f4a3d2f82dab1628bcef741321",
   "indexed_at": "2026-02-26T08:56:44.116Z",
-  "synced_at": "2026-02-27T02:41:24.494Z",
+  "synced_at": "2026-02-28T04:10:59.795Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6ddd6a908f54f8a4285ce8a41240f024ccbc8203880e618e47fbee44317e0ccd",
   "install_command": "mkdir -p .claude/skills/devops-troubleshooter && curl -sL \"https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/extended/debugging/devops-troubleshooter/SKILL.md\" > .claude/skills/devops-troubleshooter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/extended/debugging/devops-troubleshooter/SKILL.md"

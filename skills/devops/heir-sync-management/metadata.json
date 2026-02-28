@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "04689ec25256a3fb40584c831345c6f2199b47b77a38b987774211ce4e83cb28",
   "indexed_at": "2026-02-26T18:41:18.094Z",
-  "synced_at": "2026-02-27T02:41:14.606Z",
+  "synced_at": "2026-02-28T04:10:31.528Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/06768c1bcc715f5ec254d70e08f213e756acceb3002cbb6de2e970b1d33f8a9e",
   "install_command": "mkdir -p .claude/skills/heir-sync-management && curl -sL \"https://raw.githubusercontent.com/fabioc-aloha/Alex_Plug_In/main/.github/skills/heir-sync-management/SKILL.md\" > .claude/skills/heir-sync-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fabioc-aloha/Alex_Plug_In/main/.github/skills/heir-sync-management/SKILL.md"

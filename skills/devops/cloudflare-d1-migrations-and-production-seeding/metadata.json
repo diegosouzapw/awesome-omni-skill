@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c131754790953d7f9ebaa76559b2e6d8d531b6099070ac8bd404e4b6f5f2d53f",
   "indexed_at": "2026-02-25T12:51:45.956Z",
-  "synced_at": "2026-02-27T02:40:16.069Z",
+  "synced_at": "2026-02-28T04:09:35.164Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e680ee89e97af74604100f3f1f2fa34b0931ca251b9326fadb2ea9fc6ac40939",
   "install_command": "mkdir -p .claude/skills/cloudflare-d1-migrations-and-production-seeding && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/cloudflare-d1-migrations-and-production-seeding-majiayu000-claud/SKILL.md\" > .claude/skills/cloudflare-d1-migrations-and-production-seeding/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/cloudflare-d1-migrations-and-production-seeding-majiayu000-claud/SKILL.md"

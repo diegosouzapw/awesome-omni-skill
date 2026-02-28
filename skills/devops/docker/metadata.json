@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c786635ee5865bf8a8a60844070561b5dc307b884842ec4d05cdbb47c692a27d",
   "indexed_at": "2026-02-26T12:17:09.445Z",
-  "synced_at": "2026-02-27T02:40:57.839Z",
+  "synced_at": "2026-02-28T04:10:15.464Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/808c889cb353142962f7a0f9b6142aa49338c793aac204c65e3c9bd65ac29d9a",
   "install_command": "mkdir -p .claude/skills/docker && curl -sL \"https://raw.githubusercontent.com/cosmix/loom/main/skills/docker/SKILL.md\" > .claude/skills/docker/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cosmix/loom/main/skills/docker/SKILL.md"

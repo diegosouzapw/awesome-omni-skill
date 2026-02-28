@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "807e983fe2ada1a544b8a77abb6c0138586d65388e5eb27f15538b67147d1dc7",
   "indexed_at": "2026-02-26T08:50:52.588Z",
-  "synced_at": "2026-02-27T02:40:36.932Z",
+  "synced_at": "2026-02-28T04:09:54.989Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aeabf90f22451d744955589cb613945c3e4bd9d946f0d1d411a434ae95ae5b14",
   "install_command": "mkdir -p .claude/skills/scaffold-docker && curl -sL \"https://raw.githubusercontent.com/MichaelLeeHobbs/mission-critical-ts/main/.claude/skills/scaffold-docker/SKILL.md\" > .claude/skills/scaffold-docker/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MichaelLeeHobbs/mission-critical-ts/main/.claude/skills/scaffold-docker/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bf93b9660125283d19f24b037a6f96b355b6777b95889a6f6fb813ee9c07cad9",
   "indexed_at": "2026-02-26T12:17:42.137Z",
-  "synced_at": "2026-02-27T02:40:59.377Z",
+  "synced_at": "2026-02-28T04:10:16.967Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f4d1c7405c03f0bfbde010632229edcd13e7da1c034f445c7fc1347cf73d8d3a",
   "install_command": "mkdir -p .claude/skills/docker-k8s && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/docker-k8s/SKILL.md\" > .claude/skills/docker-k8s/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/docker-k8s/SKILL.md"

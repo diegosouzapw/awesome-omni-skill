@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dd3003bbf9fef01996cbfee281be2b823ae1f4bd10c49c3ccd9644efe0791ea5",
   "indexed_at": "2026-02-26T09:50:40.576Z",
-  "synced_at": "2026-02-27T02:40:41.251Z",
+  "synced_at": "2026-02-28T04:09:59.120Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0bdb5b63d4c88d773fe1d6cb333af48ee580e97d42f19d47ba6b7a3a0c947ac1",
   "install_command": "mkdir -p .claude/skills/write-rfc && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/write-rfc-stacklok-toolhive-rfcs-2/SKILL.md\" > .claude/skills/write-rfc/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/write-rfc-stacklok-toolhive-rfcs-2/SKILL.md"

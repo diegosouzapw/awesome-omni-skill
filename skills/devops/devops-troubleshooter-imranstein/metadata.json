@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1d744c266ed56c76b190553e6d400f7d01eb40e931389c4bdbc7a30d1bad5ca2",
   "indexed_at": "2026-02-26T07:54:18.159Z",
-  "synced_at": "2026-02-27T02:40:33.489Z",
+  "synced_at": "2026-02-28T04:09:51.441Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/38a9c196d3a88495d670cffcc008770202d2239a1f7dbf94f5fc2b1f604a6063",
   "install_command": "mkdir -p .claude/skills/devops-troubleshooter && curl -sL \"https://raw.githubusercontent.com/imranstein/ValuAdis/main/.agent/skills/devops-troubleshooter/SKILL.md\" > .claude/skills/devops-troubleshooter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/imranstein/ValuAdis/main/.agent/skills/devops-troubleshooter/SKILL.md"

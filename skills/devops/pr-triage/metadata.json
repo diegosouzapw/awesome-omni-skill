@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "52b39f1219e9b2bc999e196617a0e58302269818a18df6f558f707b81d3cf23f",
   "indexed_at": "2026-02-26T09:35:35.347Z",
-  "synced_at": "2026-02-27T02:40:38.238Z",
+  "synced_at": "2026-02-28T04:09:56.137Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b1b66223cc2deee21cdec2c7ffc578a81a801506a466a3ca43a59fa07c2cd4f5",
   "install_command": "mkdir -p .claude/skills/pr-triage && curl -sL \"https://raw.githubusercontent.com/narthur/dotfiles/main/.claude/skills/pr-triage/SKILL.md\" > .claude/skills/pr-triage/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/narthur/dotfiles/main/.claude/skills/pr-triage/SKILL.md"

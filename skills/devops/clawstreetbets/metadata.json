@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7e17816fe6ac596badd5b102beb9f5add1e83672a2f0468d6ca763a23b14ff68",
   "indexed_at": "2026-02-25T14:10:17.995Z",
-  "synced_at": "2026-02-27T02:40:20.486Z",
+  "synced_at": "2026-02-28T04:09:39.621Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8c4ed9a5c51fe9c7456f68d11da364df2fe058edb15076d38c2af34f883ac188",
   "install_command": "mkdir -p .claude/skills/clawstreetbets && curl -sL \"https://raw.githubusercontent.com/moltierain/clawstreetbets/main/SKILL.md\" > .claude/skills/clawstreetbets/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/moltierain/clawstreetbets/main/SKILL.md"

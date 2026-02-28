@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e35ab80c98c4f920774fa255da2363b3c7be4e340f0fb0eebafe862ae554096c",
   "indexed_at": "2026-02-26T07:54:19.512Z",
-  "synced_at": "2026-02-27T02:40:33.657Z",
+  "synced_at": "2026-02-28T04:09:51.710Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a91a92141fcd318397b87fba77ecc89ca0ee78e45e7611592e40a604360c6cd8",
   "install_command": "mkdir -p .claude/skills/devops-troubleshooter && curl -sL \"https://raw.githubusercontent.com/namanprat/duforn/main/.agent/skills/devops-troubleshooter/SKILL.md\" > .claude/skills/devops-troubleshooter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/namanprat/duforn/main/.agent/skills/devops-troubleshooter/SKILL.md"

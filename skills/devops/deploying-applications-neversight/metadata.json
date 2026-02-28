@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "56f1b9fedab668f4254f405be3727de431e5b5f85e9a74cd7f3f501be719fbd1",
   "indexed_at": "2026-02-26T12:17:50.133Z",
-  "synced_at": "2026-02-27T02:40:59.797Z",
+  "synced_at": "2026-02-28T04:10:17.380Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b942d8e9b4a932261491bc7486c38fcfef8ba03a38a3ae39c6ec4f6e8e33e831",
   "install_command": "mkdir -p .claude/skills/deploying-applications && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ancoleman/ai-design-components/deploying-applications/SKILL.md\" > .claude/skills/deploying-applications/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ancoleman/ai-design-components/deploying-applications/SKILL.md"

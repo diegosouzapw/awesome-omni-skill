@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "10f603081878497176acf4aec3a32d6b8d41f00cea3b640e236a399af00d9555",
   "indexed_at": "2026-02-26T10:51:57.837Z",
-  "synced_at": "2026-02-27T02:40:48.380Z",
+  "synced_at": "2026-02-28T04:10:06.048Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/96cb1fdb9820117c7a7da8f3aa73f963650e1b7c6dd06852d0b251578c5e5e1b",
   "install_command": "mkdir -p .claude/skills/ln-730-devops-setup && curl -sL \"https://raw.githubusercontent.com/mcauduro0/Macro_Trading/main/.claude/skills/ln-730-devops-setup/SKILL.md\" > .claude/skills/ln-730-devops-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mcauduro0/Macro_Trading/main/.claude/skills/ln-730-devops-setup/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5699c995a24b589edd0dabd882f031a3fdbcf25b4e852644dd34380bb1ad368f",
   "indexed_at": "2026-02-25T13:08:55.790Z",
-  "synced_at": "2026-02-27T02:40:19.416Z",
+  "synced_at": "2026-02-28T04:09:38.610Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f4baf4220ebe7763002ed2de33d342a0bf182b95c5c69fad8f5037875754f833",
   "install_command": "mkdir -p .claude/skills/dev-workflow && curl -sL \"https://raw.githubusercontent.com/jaminitachi/SuperClaw/main/skills/dev-workflow/SKILL.md\" > .claude/skills/dev-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jaminitachi/SuperClaw/main/skills/dev-workflow/SKILL.md"

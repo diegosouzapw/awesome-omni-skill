@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "742e600a9878e9229cbec676a061572921f13d2dffc5d1408ab415a179adaf7f",
   "indexed_at": "2026-02-27T06:53:23.747Z",
-  "synced_at": "2026-02-27T13:14:41.123Z",
+  "synced_at": "2026-02-28T04:10:37.246Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f2ede9751f8f4752c4bc7c7ab8a6104d9ee9505abb7520c838c52c17d5735c95",
   "install_command": "mkdir -p .claude/skills/design-infrastructure && curl -sL \"https://raw.githubusercontent.com/wfukatsu/architecture-redesign-agent/main/.claude/skills/design-infrastructure/SKILL.md\" > .claude/skills/design-infrastructure/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wfukatsu/architecture-redesign-agent/main/.claude/skills/design-infrastructure/SKILL.md"

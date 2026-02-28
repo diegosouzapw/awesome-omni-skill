@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d322014551283261df0e0386b858d93d51b124bb6c855a9f999988d4d7e3f482",
   "indexed_at": "2026-02-26T12:17:41.227Z",
-  "synced_at": "2026-02-27T02:40:59.209Z",
+  "synced_at": "2026-02-28T04:10:16.798Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e0950c6839f8f235eb46c6e99dc1fbc654cec3bc435a3fc9929e90adaee2361c",
   "install_command": "mkdir -p .claude/skills/docker-k8s && curl -sL \"https://raw.githubusercontent.com/enact-on/super-ai-github/main/.opencode/skill/docker-k8s/SKILL.md\" > .claude/skills/docker-k8s/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/enact-on/super-ai-github/main/.opencode/skill/docker-k8s/SKILL.md"

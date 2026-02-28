@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "64d3790d3c9845593bc3773fe59f81ce32aafd90b31508b93ef1310fec59c570",
   "indexed_at": "2026-02-27T05:47:56.219Z",
-  "synced_at": "2026-02-27T13:14:39.833Z",
+  "synced_at": "2026-02-28T04:10:34.854Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/04a0782258139b1f543f7cca6c5c365b42f194a7ca29bbe29a57ac9159dbb899",
   "install_command": "mkdir -p .claude/skills/express-microservices-architecture && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/express-microservices-architecture-manutej-luxor-claude-marketp/SKILL.md\" > .claude/skills/express-microservices-architecture/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/express-microservices-architecture-manutej-luxor-claude-marketp/SKILL.md"

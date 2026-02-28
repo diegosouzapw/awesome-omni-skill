@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6efba32c8c453a68d3e7e45e6ed244d4dc0514dd1f102cfabefb8b16bde1d629",
   "indexed_at": "2026-02-27T05:53:33.833Z",
-  "synced_at": "2026-02-27T13:14:40.651Z",
+  "synced_at": "2026-02-28T04:10:36.361Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/55493dbcd7fac32cdcf532fd63ceb6479ccbc00bc793f2b68a09f8a0631dafaf",
   "install_command": "mkdir -p .claude/skills/codebase-architecture-analysis && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/codebase-architecture-analysis-thomasgauvin-claude-agent-sdk-in-/SKILL.md\" > .claude/skills/codebase-architecture-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/codebase-architecture-analysis-thomasgauvin-claude-agent-sdk-in-/SKILL.md"

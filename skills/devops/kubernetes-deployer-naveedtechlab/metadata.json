@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "58c64dbbc5e97e88bf7c106761606c6b2e96f9542b7ba184629724a4444ef503",
   "indexed_at": "2026-02-26T12:16:39.579Z",
-  "synced_at": "2026-02-27T02:40:55.717Z",
+  "synced_at": "2026-02-28T04:10:13.502Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c5bc911c6e4cd15e039eeb471cc5c3a106b89dedd1d1d99649c29169309e8708",
   "install_command": "mkdir -p .claude/skills/kubernetes-deployer && curl -sL \"https://raw.githubusercontent.com/NaveedTechLab/Naveed-Tech-Lab_Skills/main/.claude/skills/kubernetes-deployer/SKILL.md\" > .claude/skills/kubernetes-deployer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NaveedTechLab/Naveed-Tech-Lab_Skills/main/.claude/skills/kubernetes-deployer/SKILL.md"

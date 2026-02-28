@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d67b85bb7689565abe79b696c7d8075a24a9dc0b54dd89e1b07a02a50acd1933",
   "indexed_at": "2026-02-26T09:53:06.265Z",
-  "synced_at": "2026-02-27T02:40:44.095Z",
+  "synced_at": "2026-02-28T04:10:01.854Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9358359fbd8b88bc8e0ab3e846fcbd1d5828e7b51c81989ba0c262bc56d26d13",
   "install_command": "mkdir -p .claude/skills/k8s-security-policies && curl -sL \"https://raw.githubusercontent.com/MatLumber/Polybot/main/.agents/skills/k8s-security-policies/SKILL.md\" > .claude/skills/k8s-security-policies/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MatLumber/Polybot/main/.agents/skills/k8s-security-policies/SKILL.md"

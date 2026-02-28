@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3035fcf975c34c4ace80dcd10a86690673972ad1cf0dfc999e587fba356001d8",
   "indexed_at": "2026-02-26T14:17:47.975Z",
-  "synced_at": "2026-02-27T02:41:18.143Z",
+  "synced_at": "2026-02-28T04:10:52.292Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d790e9c2b6601cdc2668bc2085eb814a7191f3c55327217b895198cbb7280f7f",
   "install_command": "mkdir -p .claude/skills/ci-cd-automation && curl -sL \"https://raw.githubusercontent.com/rahlplx/elite-astro-workforce-template/main/.agent/skills/cicd-automation/SKILL.md\" > .claude/skills/ci-cd-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rahlplx/elite-astro-workforce-template/main/.agent/skills/cicd-automation/SKILL.md"

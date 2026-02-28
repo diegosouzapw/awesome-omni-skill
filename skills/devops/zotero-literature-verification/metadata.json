@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c117d4461f0e72587aafc665ff13a6f7c14834c1dfbd374ccccbab29b8630c8f",
   "indexed_at": "2026-02-25T14:03:09.460Z",
-  "synced_at": "2026-02-27T02:40:20.117Z",
+  "synced_at": "2026-02-28T04:09:39.300Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4f6a03d14010342a4226e1df215c0022b35e2dbfc0d73e9621188a448823aa8f",
   "install_command": "mkdir -p .claude/skills/zotero-literature-verification && curl -sL \"https://raw.githubusercontent.com/KellanLow/Zotero-MCP-Usage/main/SKILL.md\" > .claude/skills/zotero-literature-verification/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/KellanLow/Zotero-MCP-Usage/main/SKILL.md"

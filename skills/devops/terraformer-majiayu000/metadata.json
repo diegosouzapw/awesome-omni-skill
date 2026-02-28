@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7b3ece20a2aadb0818f45a628649c263709ea8ba8b46177aa6d039dad88382d7",
   "indexed_at": "2026-02-26T09:50:53.492Z",
-  "synced_at": "2026-02-27T02:40:41.486Z",
+  "synced_at": "2026-02-28T04:09:59.336Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/257e48560ff09e4e85516567d997d813ce2e4725a2fd108e6e33ce9e48c193f2",
   "install_command": "mkdir -p .claude/skills/terraformer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/terraformer/SKILL.md\" > .claude/skills/terraformer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/terraformer/SKILL.md"

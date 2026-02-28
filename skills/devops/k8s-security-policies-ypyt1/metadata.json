@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "698dda3ed9e515c4d0d758509dfece651c60936e048650d5768e933995920f8a",
   "indexed_at": "2026-02-27T09:49:32.893Z",
-  "synced_at": "2026-02-27T13:14:43.134Z",
+  "synced_at": "2026-02-28T04:10:40.034Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/133f62b588e48d6d2cf159df97dfab5c4cce94aadc9a1e537950a61f632e65b1",
   "install_command": "mkdir -p .claude/skills/k8s-security-policies && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/antigravity-awesome-skills/k8s-security-policies/SKILL.md\" > .claude/skills/k8s-security-policies/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/antigravity-awesome-skills/k8s-security-policies/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7ec825af694ad4417489b51827a9a6419ad25d096322fa86d67197d32f7b5b8d",
   "indexed_at": "2026-02-26T10:30:46.210Z",
-  "synced_at": "2026-02-27T02:40:46.662Z",
+  "synced_at": "2026-02-28T04:10:04.403Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c946cdf87286b4c2eac442c44791c1a052a5f9f2a2cd1e3f9aa7d2e005cfffff",
   "install_command": "mkdir -p .claude/skills/citedresearch && curl -sL \"https://raw.githubusercontent.com/LeoMaslyak/CitedResearch/main/SKILL.md\" > .claude/skills/citedresearch/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/LeoMaslyak/CitedResearch/main/SKILL.md"

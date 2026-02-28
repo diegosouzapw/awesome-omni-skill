@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "69951a57b3f8ae716dc078d09fc2c47bcb34a619eb78063b5c80bb1fdc6b4cf6",
   "indexed_at": "2026-02-25T18:48:53.257Z",
-  "synced_at": "2026-02-27T02:40:24.062Z",
+  "synced_at": "2026-02-28T04:09:42.295Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d29258cb7d5e775ec821dc1e5245b9edc6707eeef63d3d5255ceba4b57d3f477",
   "install_command": "mkdir -p .claude/skills/bats-testing-patterns && curl -sL \"https://raw.githubusercontent.com/GaitanS/AI-Mancare/main/.claude/skills/plugins/shell-scripting/skills/bats-testing-patterns/SKILL.md\" > .claude/skills/bats-testing-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/GaitanS/AI-Mancare/main/.claude/skills/plugins/shell-scripting/skills/bats-testing-patterns/SKILL.md"

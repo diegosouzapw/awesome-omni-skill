@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "522054cc873e7ff072db1ff1b52212a1d3f6770c02837fb4f206accefe1fe503",
   "indexed_at": "2026-02-26T05:55:36.286Z",
-  "synced_at": "2026-02-27T02:40:30.086Z",
+  "synced_at": "2026-02-28T04:09:48.216Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4952b194825bc1ec856b5ef0c2e0ae66e207b5fcd1c409924b67f377a3fe336a",
   "install_command": "mkdir -p .claude/skills/analyze-source-material && curl -sL \"https://raw.githubusercontent.com/iriusrisk/iriusrisk-cli/main/skills/general-models/analyze-source-material/SKILL.md\" > .claude/skills/analyze-source-material/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/iriusrisk/iriusrisk-cli/main/skills/general-models/analyze-source-material/SKILL.md"

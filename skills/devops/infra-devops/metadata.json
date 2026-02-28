@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cd2740b9d594ce49c91a5a0d495b73998b878b072e2e43fc53934e61c33d519e",
   "indexed_at": "2026-02-26T09:48:55.004Z",
-  "synced_at": "2026-02-27T02:41:24.667Z",
+  "synced_at": "2026-02-28T04:10:59.956Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/45fcd3cbba76c981da97d87f5d22a6d7f0fd19217250a1ffd97952ff9ff415a9",
   "install_command": "mkdir -p .claude/skills/infra-devops && curl -sL \"https://raw.githubusercontent.com/andreibesleaga/GABBE/main/agents/skills/ops/infra-devops.skill.md/SKILL.md\" > .claude/skills/infra-devops/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/andreibesleaga/GABBE/main/agents/skills/ops/infra-devops.skill.md/SKILL.md"

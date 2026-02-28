@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f7acb530d22dcf80eafa2c9836ff73b365c0dace8e4ba2a3653bfecc12c703f5",
   "indexed_at": "2026-02-26T10:51:08.313Z",
-  "synced_at": "2026-02-27T02:40:47.629Z",
+  "synced_at": "2026-02-28T04:10:05.313Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3dfee028d72ff065615f85efd9ef45d8e9b998d8ca45f641551ef4dc8f501ce1",
   "install_command": "mkdir -p .claude/skills/uv-package-manager && curl -sL \"https://raw.githubusercontent.com/duanbiao2000/obsidianDoc26/main/agents-main/plugins/python-development/skills/uv-package-manager/SKILL.md\" > .claude/skills/uv-package-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duanbiao2000/obsidianDoc26/main/agents-main/plugins/python-development/skills/uv-package-manager/SKILL.md"

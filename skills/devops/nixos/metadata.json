@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eb47bfbadf739efab67d9b70d597b5926304bd0495b286d2c6ee8d9ab468c4e0",
   "indexed_at": "2026-02-25T17:42:25.995Z",
-  "synced_at": "2026-02-27T02:40:22.566Z",
+  "synced_at": "2026-02-28T04:09:41.695Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4b73cba350f17cf1c16b82b4a151a76d1f062dbcf0b4dafb902ddfdb8e1f8f16",
   "install_command": "mkdir -p .claude/skills/nixos && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/nixos/SKILL.md\" > .claude/skills/nixos/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/nixos/SKILL.md"

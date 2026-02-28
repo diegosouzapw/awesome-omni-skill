@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b90a6b2160d1908632239215656d79cc8f65d77860a29c1b045cacd561203950",
   "indexed_at": "2026-02-26T11:56:49.465Z",
-  "synced_at": "2026-02-27T02:40:53.127Z",
+  "synced_at": "2026-02-28T04:10:10.922Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3aa3329a2a1d5edd2d0936770b0ddbe0add0fb0a45617c86cc8fa7be036237e6",
   "install_command": "mkdir -p .claude/skills/mad-logic && curl -sL \"https://raw.githubusercontent.com/salem221094/antigravity-maker-reliability/main/SKILL.md\" > .claude/skills/mad-logic/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/salem221094/antigravity-maker-reliability/main/SKILL.md"

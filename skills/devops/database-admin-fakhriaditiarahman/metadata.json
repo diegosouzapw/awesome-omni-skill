@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7988f25ccfe24df25a875f33fb13f84a138a45ff24d06a3fd6c22fe8d6a86889",
   "indexed_at": "2026-02-26T08:48:36.628Z",
-  "synced_at": "2026-02-27T02:40:35.183Z",
+  "synced_at": "2026-02-28T04:09:53.235Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3795c1d1bb15bdd6d5588d13ec74ff9ace2d4e562bfe8900e73aeb33ac420b8a",
   "install_command": "mkdir -p .claude/skills/database-admin && curl -sL \"https://raw.githubusercontent.com/fakhriaditiarahman/Your-Skill-Agent/main/.agent/skills/database-admin/SKILL.md\" > .claude/skills/database-admin/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fakhriaditiarahman/Your-Skill-Agent/main/.agent/skills/database-admin/SKILL.md"

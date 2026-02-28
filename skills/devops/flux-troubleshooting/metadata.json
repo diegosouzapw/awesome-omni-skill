@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cfe6b2552b55706bb55d118d6f103ebda8498a92d5204885bd0c8a6c2c3bc2a7",
   "indexed_at": "2026-02-26T12:18:59.608Z",
-  "synced_at": "2026-02-27T02:41:04.434Z",
+  "synced_at": "2026-02-28T04:10:21.702Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/de65a9a226c34e281df3b77e84d31a1e9772b4e29c3d374ff26e564c62bdffb1",
   "install_command": "mkdir -p .claude/skills/flux-troubleshooting && curl -sL \"https://raw.githubusercontent.com/foxj77/claude-code-skills/main/flux-troubleshooting/SKILL.md\" > .claude/skills/flux-troubleshooting/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/foxj77/claude-code-skills/main/flux-troubleshooting/SKILL.md"

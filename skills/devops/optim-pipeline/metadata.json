@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c769506cb35cec6a9dd7461682a7d3852ec3a4ee77d3d29da828b3889ce0e559",
   "indexed_at": "2026-02-26T14:17:54.030Z",
-  "synced_at": "2026-02-27T02:41:08.920Z",
+  "synced_at": "2026-02-28T04:10:26.093Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8f6f94e2f3a0c00d0b512f006cf98ab5b9b126e673b7ed8f566e2ebd4ab95e29",
   "install_command": "mkdir -p .claude/skills/optim-pipeline && curl -sL \"https://raw.githubusercontent.com/sbstndb/subsetix_kokkos/main/.claude/skills/optim-pipeline/SKILL.md\" > .claude/skills/optim-pipeline/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sbstndb/subsetix_kokkos/main/.claude/skills/optim-pipeline/SKILL.md"

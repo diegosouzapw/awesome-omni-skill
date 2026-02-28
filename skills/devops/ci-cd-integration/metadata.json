@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d73fa98df9f1647c8cf37d36f1bbf9346c15c1edfe28b92de7840a2bb5bb28f7",
   "indexed_at": "2026-02-26T09:36:23.816Z",
-  "synced_at": "2026-02-27T02:41:16.961Z",
+  "synced_at": "2026-02-28T04:10:51.106Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1b172aa50c006e15a299ba4c3caf20d2170dfc54b468f5c0c93329d2350dd8ee",
   "install_command": "mkdir -p .claude/skills/ci-cd-integration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/ci-cd-integration-hgeldenhuys-claude-code-sdk-72707f89/SKILL.md\" > .claude/skills/ci-cd-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/ci-cd-integration-hgeldenhuys-claude-code-sdk-72707f89/SKILL.md"

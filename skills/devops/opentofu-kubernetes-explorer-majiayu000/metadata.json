@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b0f23283dd1358fefe92200781681ab41f92c0b9ce9ecbb1d38f01aaeab42b49",
   "indexed_at": "2026-02-26T12:18:06.036Z",
-  "synced_at": "2026-02-27T02:41:26.796Z",
+  "synced_at": "2026-02-28T04:11:02.124Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/86b37533e13d5903c6ad6fd6f200f290c6f728f5d480583aeb328d380d7d4ec7",
   "install_command": "mkdir -p .claude/skills/opentofu-kubernetes-explorer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/opentofu-kubernetes-explorer/SKILL.md\" > .claude/skills/opentofu-kubernetes-explorer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/opentofu-kubernetes-explorer/SKILL.md"

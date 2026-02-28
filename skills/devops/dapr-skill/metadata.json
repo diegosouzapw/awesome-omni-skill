@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "26968cc2d9b1c7bd53ae499d4ad78bf22771a48fdbcb08a0b5cfe40893178a9f",
   "indexed_at": "2026-02-26T05:55:48.143Z",
-  "synced_at": "2026-02-27T02:40:30.437Z",
+  "synced_at": "2026-02-28T04:09:48.574Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0c3f01dc525344ab2e15d8fa8fa011ecb836cc44ebcb6bbd76713709896390b3",
   "install_command": "mkdir -p .claude/skills/dapr-skill && curl -sL \"https://raw.githubusercontent.com/fajshah/hackhathone-2-phase-5/main/skills/dapr-skill/SKILL.md\" > .claude/skills/dapr-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fajshah/hackhathone-2-phase-5/main/skills/dapr-skill/SKILL.md"

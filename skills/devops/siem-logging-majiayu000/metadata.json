@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33b5cf979de2e4361ac55628eeb4783d1e749b8a897a81585e6d2db8aba314b9",
   "indexed_at": "2026-02-26T12:18:29.358Z",
-  "synced_at": "2026-02-27T02:41:02.111Z",
+  "synced_at": "2026-02-28T04:10:19.480Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/30b5f138abcf3945e2ec518d2f9f7fa9452bbeaf85b6459f39c0ff321c406176",
   "install_command": "mkdir -p .claude/skills/siem-logging && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/siem-logging/SKILL.md\" > .claude/skills/siem-logging/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/siem-logging/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "59598f0069b8bde46d3e3d54b2bdc5ae7851d9a6fe69e0c25ca2ce3e60b264cd",
   "indexed_at": "2026-02-26T11:36:27.095Z",
-  "synced_at": "2026-02-27T02:40:49.476Z",
+  "synced_at": "2026-02-28T04:10:07.203Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/caf87441fc525269dda6c1c94ae46dd4e7fdfc6a234cc3c8f5e4d42dcd37a205",
   "install_command": "mkdir -p .claude/skills/fda-consultant-specialist && curl -sL \"https://raw.githubusercontent.com/jackychenlu/skill-demo/main/.agents/skills/fda-consultant-specialist/SKILL.md\" > .claude/skills/fda-consultant-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jackychenlu/skill-demo/main/.agents/skills/fda-consultant-specialist/SKILL.md"

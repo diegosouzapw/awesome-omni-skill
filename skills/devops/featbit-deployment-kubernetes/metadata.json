@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "871273b14f6538791b92f519b1d5848813748fe2755342e53f0169405b09fa07",
   "indexed_at": "2026-02-26T08:50:20.297Z",
-  "synced_at": "2026-02-27T02:40:36.072Z",
+  "synced_at": "2026-02-28T04:09:54.119Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1bcc390d78adaa24820847bd81427007b03241c3da9f5a2b2dcf0fb20f053663",
   "install_command": "mkdir -p .claude/skills/featbit-deployment-kubernetes && curl -sL \"https://raw.githubusercontent.com/featbit/featbit-skills/main/skills/featbit-deployment-kubernetes/SKILL.md\" > .claude/skills/featbit-deployment-kubernetes/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/featbit/featbit-skills/main/skills/featbit-deployment-kubernetes/SKILL.md"

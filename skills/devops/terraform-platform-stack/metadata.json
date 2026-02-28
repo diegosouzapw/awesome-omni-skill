@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cf6880e85f38f864e4d034646793b6ca6e75273623d00913e6732b0138d2ce3b",
   "indexed_at": "2026-02-26T15:22:59.833Z",
-  "synced_at": "2026-02-27T02:41:12.003Z",
+  "synced_at": "2026-02-28T04:10:28.976Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3a98544cfca5ea003860c347d03bd2710bb9f48c961f3b4f51a64469caf03183",
   "install_command": "mkdir -p .claude/skills/terraform-platform-stack && curl -sL \"https://raw.githubusercontent.com/orafaelferreiraa/platform-as-a-service-stack/main/.github/skills/terraform-platform-stack/SKILL.md\" > .claude/skills/terraform-platform-stack/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/orafaelferreiraa/platform-as-a-service-stack/main/.github/skills/terraform-platform-stack/SKILL.md"

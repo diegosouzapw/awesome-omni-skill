@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0ba511e711e3a60677e2f5f7428a9a56f16dda31dffbb92c8f87e7f608e7c9c3",
   "indexed_at": "2026-02-26T08:49:24.565Z",
-  "synced_at": "2026-02-27T02:40:35.514Z",
+  "synced_at": "2026-02-28T04:09:53.561Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/835ad02df012d426499fd5e29679f8f170e01e8353d5b9f0a1766230d60c8d5f",
   "install_command": "mkdir -p .claude/skills/mongodb && curl -sL \"https://raw.githubusercontent.com/akornmeier/claude-config/main/skills/mongodb/SKILL.md\" > .claude/skills/mongodb/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akornmeier/claude-config/main/skills/mongodb/SKILL.md"

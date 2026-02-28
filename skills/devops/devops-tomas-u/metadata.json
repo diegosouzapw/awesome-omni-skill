@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3531801bcef5e08fdc3bb263a770cdd1dc6e1fdabe46a66431391a395b0e59a0",
   "indexed_at": "2026-02-26T05:55:20.521Z",
-  "synced_at": "2026-02-27T02:40:29.734Z",
+  "synced_at": "2026-02-28T04:09:47.891Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b191b75e45dd43fe4b19497619041330953570538ef117d9c70fd86ec694ffca",
   "install_command": "mkdir -p .claude/skills/devops && curl -sL \"https://raw.githubusercontent.com/tomas-u/claude-skills/main/devops/SKILL.md\" > .claude/skills/devops/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tomas-u/claude-skills/main/devops/SKILL.md"

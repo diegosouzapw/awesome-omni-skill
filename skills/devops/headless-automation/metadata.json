@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b2a072ca5e7546192874eb8b4bc5234472a049de7407fbc97067c358aba80109",
   "indexed_at": "2026-02-26T14:17:38.839Z",
-  "synced_at": "2026-02-27T02:41:08.572Z",
+  "synced_at": "2026-02-28T04:10:25.769Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/029ea0a9d383aaf9c381286facac48d7843b10bccb126aec24b8f15f409cc496",
   "install_command": "mkdir -p .claude/skills/headless-automation && curl -sL \"https://raw.githubusercontent.com/rahulsub/code-practices-plugin/main/skills/headless-automation/SKILL.md\" > .claude/skills/headless-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rahulsub/code-practices-plugin/main/skills/headless-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "76435ab7afea0bc4985428ed4f05fec765bcb6b8aab64445f596f2f55d5ebfbb",
   "indexed_at": "2026-02-25T13:04:29.301Z",
-  "synced_at": "2026-02-27T02:40:17.851Z",
+  "synced_at": "2026-02-28T04:09:36.961Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dae5ed8f6cb0648f2b62d6a8eeaac6203addbed1cf504fb2f0da077fd0263916",
   "install_command": "mkdir -p .claude/skills/ecosystem-patterns && curl -sL \"https://raw.githubusercontent.com/delorenj/00_ceiling/main/ecosystem-patterns/SKILL.md\" > .claude/skills/ecosystem-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/delorenj/00_ceiling/main/ecosystem-patterns/SKILL.md"

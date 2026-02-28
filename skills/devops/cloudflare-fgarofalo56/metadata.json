@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ddd1af0caca99fb382cab1207f1ad0978bbc57f0d9d6c68d66755f2690c6ac91",
   "indexed_at": "2026-02-26T09:53:58.123Z",
-  "synced_at": "2026-02-27T02:40:44.510Z",
+  "synced_at": "2026-02-28T04:10:02.268Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5563b0f727832485b6fbf3d73e278babc7985d620b4643c1fe0c286b7d8bef35",
   "install_command": "mkdir -p .claude/skills/cloudflare && curl -sL \"https://raw.githubusercontent.com/fgarofalo56/Suppercharge_Microsoft_Fabric/main/.github/skills/cloudflare/SKILL.md\" > .claude/skills/cloudflare/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fgarofalo56/Suppercharge_Microsoft_Fabric/main/.github/skills/cloudflare/SKILL.md"

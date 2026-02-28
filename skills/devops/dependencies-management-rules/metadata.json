@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e67e72d60defd14daa2c255f1f8a0f3b8212515898002ecf05c790b894c5ba0b",
   "indexed_at": "2026-02-26T15:21:56.889Z",
-  "synced_at": "2026-02-27T02:41:19.968Z",
+  "synced_at": "2026-02-28T04:10:54.360Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b0c6eee88a82249a5500fa3a89b67eca057a77c073ed33bd058678cb76461016",
   "install_command": "mkdir -p .claude/skills/dependencies-management-rules && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/dependencies-management-rules/SKILL.md\" > .claude/skills/dependencies-management-rules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/dependencies-management-rules/SKILL.md"

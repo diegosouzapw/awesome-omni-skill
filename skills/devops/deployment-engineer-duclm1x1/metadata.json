@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3139eb27b944bfc88b08381acc7a42f5b5acdd4b6bec96edc1ec63cfeb0b815b",
   "indexed_at": "2026-02-26T12:18:25.862Z",
-  "synced_at": "2026-02-27T02:41:27.334Z",
+  "synced_at": "2026-02-28T04:11:02.656Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1e747e84fdeb15c48dcd896e4fc7fde095aa43ab07eac777f6a5ca3f474b55eb",
   "install_command": "mkdir -p .claude/skills/deployment-engineer && curl -sL \"https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/docs/v19.7/configuration/agent/skills_external/antigravity-awesome-skills-main/skills/deployment-engineer/SKILL.md\" > .claude/skills/deployment-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/docs/v19.7/configuration/agent/skills_external/antigravity-awesome-skills-main/skills/deployment-engineer/SKILL.md"

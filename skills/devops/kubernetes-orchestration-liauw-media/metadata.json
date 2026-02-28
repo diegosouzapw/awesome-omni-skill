@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7606fa973fd7e03f30ef77e316d6ff6a141b09d3b19530db845f1e8dde777ddd",
   "indexed_at": "2026-02-26T12:18:07.497Z",
-  "synced_at": "2026-02-27T02:41:01.136Z",
+  "synced_at": "2026-02-28T04:10:18.443Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/298d10425c2080cabeea04dfac2d38c3a5e44dc784db1885bfcd34cc54d6f062",
   "install_command": "mkdir -p .claude/skills/kubernetes-orchestration && curl -sL \"https://raw.githubusercontent.com/liauw-media/CodeAssist/main/skills/infrastructure/kubernetes/SKILL.md\" > .claude/skills/kubernetes-orchestration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/liauw-media/CodeAssist/main/skills/infrastructure/kubernetes/SKILL.md"

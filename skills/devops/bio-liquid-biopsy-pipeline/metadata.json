@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6be03b8520d4c5aa124a90f71b95b8c7f6a9596c1266e5d169d44db6a1d9b9cd",
   "indexed_at": "2026-02-25T21:41:11.006Z",
-  "synced_at": "2026-02-27T02:40:26.905Z",
+  "synced_at": "2026-02-28T04:09:45.141Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cfd7c896f987d253a31aae892e534ebf858e757a3d221812decfeb332100e778",
   "install_command": "mkdir -p .claude/skills/bio-liquid-biopsy-pipeline && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/liquid-biopsy-pipeline/SKILL.md\" > .claude/skills/bio-liquid-biopsy-pipeline/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/liquid-biopsy-pipeline/SKILL.md"

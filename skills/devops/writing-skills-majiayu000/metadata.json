@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "095bfa6408829b5f8f9c3f93043ea418bb58680620f43e40944f3ca650d72ae7",
   "indexed_at": "2026-02-26T13:23:09.041Z",
-  "synced_at": "2026-02-27T02:41:07.345Z",
+  "synced_at": "2026-02-28T04:10:24.582Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eaed78ca93d5437542dcae23c2d114a4233ebda39750c6e88bd6b8118c75d706",
   "install_command": "mkdir -p .claude/skills/writing-skills && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/writing-skills-trevoke-org-gtd-el/SKILL.md\" > .claude/skills/writing-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/writing-skills-trevoke-org-gtd-el/SKILL.md"
