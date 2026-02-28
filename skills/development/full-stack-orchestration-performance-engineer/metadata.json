@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "25d600f92d3aae538222ceb2f14c1772e9e679bd61175062fa84c7c00e4d2c57",
   "indexed_at": "2026-02-26T05:51:59.281Z",
-  "synced_at": "2026-02-27T02:29:26.701Z",
+  "synced_at": "2026-02-28T03:55:14.760Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/efad21c3d043b02d07625c623a138a1c2365653d06f12f0cd364fd406d31424a",
   "install_command": "mkdir -p .claude/skills/full-stack-orchestration-performance-engineer && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/full-stack-orchestration-codex-pack/.agents/skills/full-stack-orchestration-performance-engineer/SKILL.md\" > .claude/skills/full-stack-orchestration-performance-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/full-stack-orchestration-codex-pack/.agents/skills/full-stack-orchestration-performance-engineer/SKILL.md"

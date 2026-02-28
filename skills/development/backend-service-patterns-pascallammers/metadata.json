@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b0b01c076e358998dac5812ab01ec72e0babb6c3f4240fa1bd7a2a033e836412",
   "indexed_at": "2026-02-26T05:47:53.630Z",
-  "synced_at": "2026-02-27T02:29:14.464Z",
+  "synced_at": "2026-02-28T03:55:03.355Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7147da71e8c5d0dc5a2816276229117b6b838c789e59bca0dfacbfca45ad8762",
   "install_command": "mkdir -p .claude/skills/backend-service-patterns && curl -sL \"https://raw.githubusercontent.com/pascallammers/mylo-travel-concierge-v2/main/.factory/skills/backend-service-patterns/SKILL.md\" > .claude/skills/backend-service-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pascallammers/mylo-travel-concierge-v2/main/.factory/skills/backend-service-patterns/SKILL.md"

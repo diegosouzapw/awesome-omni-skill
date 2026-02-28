@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dc71b71c7852d9617fa86da078a888764f7e402acffe1a231cd148b0b4cd3f8a",
   "indexed_at": "2026-02-26T05:53:03.817Z",
-  "synced_at": "2026-02-27T02:29:29.829Z",
+  "synced_at": "2026-02-28T03:55:17.816Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/155984721353c7632a67e0dfc91b6734f692f46822ed85f2f76a6b4f0726b90d",
   "install_command": "mkdir -p .claude/skills/azure-functions && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/azure-functions/SKILL.md\" > .claude/skills/azure-functions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/azure-functions/SKILL.md"

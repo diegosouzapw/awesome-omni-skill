@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8215834b0e08d0422bacb1ce59278ec2013114a5f47472ef5306869596cb1f35",
   "indexed_at": "2026-02-25T14:03:11.894Z",
-  "synced_at": "2026-02-27T02:28:26.441Z",
+  "synced_at": "2026-02-28T03:54:16.488Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/99513f623281f8a3354485185e410e9e63266b540d265aa8ce77b9521b60a839",
   "install_command": "mkdir -p .claude/skills/python-dev && curl -sL \"https://raw.githubusercontent.com/darrenoakey/claude-skill-python/main/SKILL.md\" > .claude/skills/python-dev/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/darrenoakey/claude-skill-python/main/SKILL.md"

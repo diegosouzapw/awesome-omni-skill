@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "956a78bcef4eb72047af89c51f0566f99a1ac29f379c4f0167fd5e1d31e21fd4",
   "indexed_at": "2026-02-25T13:05:18.648Z",
-  "synced_at": "2026-02-27T02:28:18.234Z",
+  "synced_at": "2026-02-28T03:54:08.337Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8216ea46eecb5d35a502e41d92cc67ad0158e1b86dc60c13928df7fe7149d3b7",
   "install_command": "mkdir -p .claude/skills/reviewing-python-architecture && curl -sL \"https://raw.githubusercontent.com/outcomeengineering/spx-claude/main/plugins/python/skills/reviewing-python-architecture/SKILL.md\" > .claude/skills/reviewing-python-architecture/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/outcomeengineering/spx-claude/main/plugins/python/skills/reviewing-python-architecture/SKILL.md"

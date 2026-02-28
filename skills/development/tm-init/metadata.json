@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8e903afca65c4ea6953b1a9fea843ae5d9c5f170277839227af49696a69a658a",
   "indexed_at": "2026-02-26T05:50:07.142Z",
-  "synced_at": "2026-02-27T02:29:20.691Z",
+  "synced_at": "2026-02-28T03:55:09.863Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/baa96aea4111599bf85697b1fdbfa682ce6aa429fbfa429db62290d5e6eb6ce9",
   "install_command": "mkdir -p .claude/skills/tm-init && curl -sL \"https://raw.githubusercontent.com/josemlopez/threat-modeling-toolkit/main/skills/tm-init/SKILL.md\" > .claude/skills/tm-init/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/josemlopez/threat-modeling-toolkit/main/skills/tm-init/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2cd10f538ede1beb2270daac7821ca56c5364f5269b907ccab7faabc89f6075f",
   "indexed_at": "2026-02-25T14:10:53.778Z",
-  "synced_at": "2026-02-27T02:28:28.809Z",
+  "synced_at": "2026-02-28T03:54:18.852Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d8d11de407548caa99b514d62cb003d3bb7c88735ffcf4ecc286b3071c511bf6",
   "install_command": "mkdir -p .claude/skills/workout-tracker && curl -sL \"https://raw.githubusercontent.com/marswangyang/workout-tracker/main/SKILL.md\" > .claude/skills/workout-tracker/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/marswangyang/workout-tracker/main/SKILL.md"

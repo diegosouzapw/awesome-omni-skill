@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7b60b9841114af1c9ee912a8549074735fc653426833357b4472a45c689763fd",
   "indexed_at": "2026-02-25T13:56:37.047Z",
-  "synced_at": "2026-02-27T02:28:25.654Z",
+  "synced_at": "2026-02-28T03:54:15.531Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e7300e78ac253e15213e554ce71bf58398f553cdf7b5ee691e73e37689dd657f",
   "install_command": "mkdir -p .claude/skills/notion-management && curl -sL \"https://raw.githubusercontent.com/JordiNodeJS/.github-config/main/.github/skills/notion-management/SKILL.md\" > .claude/skills/notion-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/JordiNodeJS/.github-config/main/.github/skills/notion-management/SKILL.md"

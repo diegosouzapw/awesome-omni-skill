@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "552127a00060e6695307b91dd8f28d160eba184d23ae84307cb4b5a81f9a60bf",
   "indexed_at": "2026-02-25T14:03:28.802Z",
-  "synced_at": "2026-02-27T02:28:26.957Z",
+  "synced_at": "2026-02-28T03:54:17.103Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8267b9c9e0e30007bf382dbbcc32dbaf1ecf454e1d00c1a1704fd22153ce90e3",
   "install_command": "mkdir -p .claude/skills/gsap && curl -sL \"https://raw.githubusercontent.com/Hendo10X/gsap-skills/main/SKILL.md\" > .claude/skills/gsap/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Hendo10X/gsap-skills/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4e43590f979f2837e712c3cb5ccfdeb956ed617076189a0f1319650435e005af",
   "indexed_at": "2026-02-26T05:46:36.382Z",
-  "synced_at": "2026-02-27T02:29:11.088Z",
+  "synced_at": "2026-02-28T03:54:59.951Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/79265ad167cb4f2a71a8bfbb523a67edabdea0969523318d59caf17d51181573",
   "install_command": "mkdir -p .claude/skills/backend-architect && curl -sL \"https://raw.githubusercontent.com/arosenkranz/claude-code-config/main/skills/backend-architect/SKILL.md\" > .claude/skills/backend-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/arosenkranz/claude-code-config/main/skills/backend-architect/SKILL.md"

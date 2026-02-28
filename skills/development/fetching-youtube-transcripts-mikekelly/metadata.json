@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7c0915cddc615519dd2120be047175235452f4b101efaee2b3217748fe37fa91",
   "indexed_at": "2026-02-26T05:37:55.724Z",
-  "synced_at": "2026-02-27T02:29:04.328Z",
+  "synced_at": "2026-02-28T03:54:53.505Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1d49be7076b407613394c48a137b3b4ba472dbef1213f516bd6069db7cdb18e0",
   "install_command": "mkdir -p .claude/skills/fetching-youtube-transcripts && curl -sL \"https://raw.githubusercontent.com/mikekelly/fetching-youtube-transcripts/main/SKILL.md\" > .claude/skills/fetching-youtube-transcripts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mikekelly/fetching-youtube-transcripts/main/SKILL.md"

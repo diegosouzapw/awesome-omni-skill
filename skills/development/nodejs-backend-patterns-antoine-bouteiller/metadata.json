@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e879c0b0d2666506376eba5a45d5606d845488f02775b48a3c350a356fc4ac28",
   "indexed_at": "2026-02-26T05:46:13.198Z",
-  "synced_at": "2026-02-27T02:29:09.601Z",
+  "synced_at": "2026-02-28T03:54:58.646Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/15e67cc8725d62457c6a27bcc3a8a98ce236083c886aeabd9eb0c47c57c119e1",
   "install_command": "mkdir -p .claude/skills/nodejs-backend-patterns && curl -sL \"https://raw.githubusercontent.com/antoine-bouteiller/autoscan/main/.agents/skills/nodejs-backend-patterns/SKILL.md\" > .claude/skills/nodejs-backend-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/antoine-bouteiller/autoscan/main/.agents/skills/nodejs-backend-patterns/SKILL.md"

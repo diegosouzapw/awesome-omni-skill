@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ded8aeb818d5a1ae708e1c8b2117a93e9f69566d449455331b6bca2c1149a1d0",
   "indexed_at": "2026-02-26T05:49:35.436Z",
-  "synced_at": "2026-02-27T02:29:18.926Z",
+  "synced_at": "2026-02-28T03:55:07.752Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a007486ad04ed976789485354366487adf4ebf969efe29cfbff40af96b5a2627",
   "install_command": "mkdir -p .claude/skills/aws-serverless-eda && curl -sL \"https://raw.githubusercontent.com/zach-source/claude-plugins/main/plugins/cloud-and-observability/skills/aws-skills/skills/aws-serverless-eda/SKILL.md\" > .claude/skills/aws-serverless-eda/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zach-source/claude-plugins/main/plugins/cloud-and-observability/skills/aws-skills/skills/aws-serverless-eda/SKILL.md"

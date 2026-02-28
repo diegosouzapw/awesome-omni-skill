@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "87c9a229bded818496dcbeb660858a577fae25465f50e440ea5f0c1d0a704a8e",
   "indexed_at": "2026-02-25T17:11:20.222Z",
-  "synced_at": "2026-02-27T02:28:43.089Z",
+  "synced_at": "2026-02-28T03:54:32.506Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3a1fadabb61677e68fcd13b0cc967e87aba6d422b767a801891f50d99f0d48b3",
   "install_command": "mkdir -p .claude/skills/testing-tauri-apps && curl -sL \"https://raw.githubusercontent.com/dchuk/claude-code-tauri-skills/main/tauri/tauri-testing/SKILL.md\" > .claude/skills/testing-tauri-apps/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dchuk/claude-code-tauri-skills/main/tauri/tauri-testing/SKILL.md"

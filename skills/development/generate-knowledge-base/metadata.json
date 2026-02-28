@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "188f3a60678cbd6681a0756e669032cba2559ad7b3abb2c38fd94f6da45fcaa8",
   "indexed_at": "2026-02-26T05:55:33.072Z",
-  "synced_at": "2026-02-27T02:29:35.116Z",
+  "synced_at": "2026-02-28T03:55:22.766Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4a2e11bc2b6447ed6ff83ca010c4b02bf14a2350a173fa88fcc5c6eea80cf8c7",
   "install_command": "mkdir -p .claude/skills/generate-knowledge-base && curl -sL \"https://raw.githubusercontent.com/pmTouchedTheCode/product-knowledge/main/.claude/skills/generate-knowledge-base/SKILL.md\" > .claude/skills/generate-knowledge-base/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pmTouchedTheCode/product-knowledge/main/.claude/skills/generate-knowledge-base/SKILL.md"

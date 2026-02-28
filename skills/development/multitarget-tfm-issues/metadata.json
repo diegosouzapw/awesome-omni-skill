@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "68c79910df1d7fcabd4345ff53655e01505ccb49a1e790085208df2a8f8f5224",
   "indexed_at": "2026-02-25T16:09:11.784Z",
-  "synced_at": "2026-02-27T02:28:37.501Z",
+  "synced_at": "2026-02-28T03:54:27.035Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6b5989bf74980b9bf1375d402ba4c7018bd72648185d70a3ff0e832ad6782ebd",
   "install_command": "mkdir -p .claude/skills/multitarget-tfm-issues && curl -sL \"https://raw.githubusercontent.com/ViktorHofer/dotnet-skills/main/src/msbuild-skills/skills/multitarget-tfm-issues/SKILL.md\" > .claude/skills/multitarget-tfm-issues/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ViktorHofer/dotnet-skills/main/src/msbuild-skills/skills/multitarget-tfm-issues/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5705469d6866255640814a4323ab209bd09476b4b5afcaf69fc1f2c4b0e3de5d",
   "indexed_at": "2026-02-25T17:36:54.808Z",
-  "synced_at": "2026-02-27T02:28:43.427Z",
+  "synced_at": "2026-02-28T03:54:32.901Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fa6f92b3a329d704d7726270bb2ef71afcfbc0db79ec1f2c0c017287262f76cd",
   "install_command": "mkdir -p .claude/skills/psi && curl -sL \"https://raw.githubusercontent.com/siviter-xyz/dot-agent/main/skills/psi/SKILL.md\" > .claude/skills/psi/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/siviter-xyz/dot-agent/main/skills/psi/SKILL.md"

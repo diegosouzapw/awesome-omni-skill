@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b758898dc497f94d9925586ebeefb527fadcd62b6da1b9f4215c4c65294a54e1",
   "indexed_at": "2026-02-25T13:11:17.419Z",
-  "synced_at": "2026-02-27T02:28:21.251Z",
+  "synced_at": "2026-02-28T03:54:10.940Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4b9b63adb206c8fd306fe55130d599739efe5a45001a3a1d7f9d076320d75647",
   "install_command": "mkdir -p .claude/skills/next-best-practices && curl -sL \"https://raw.githubusercontent.com/jiggoo0/JP-Online/main/.agents/skills/next-best-practices/SKILL.md\" > .claude/skills/next-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jiggoo0/JP-Online/main/.agents/skills/next-best-practices/SKILL.md"

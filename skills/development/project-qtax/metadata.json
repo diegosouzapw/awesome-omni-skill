@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ce3b998ac270b747e5bcb57eba8f456f171fdd4615683102aae51bea5620b0fb",
   "indexed_at": "2026-02-25T19:40:49.238Z",
-  "synced_at": "2026-02-27T02:28:51.093Z",
+  "synced_at": "2026-02-28T03:54:40.507Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d49aa6adb54005a7270144ff15ebfd8a8294b713cec4472f75323d5eafa413da",
   "install_command": "mkdir -p .claude/skills/project-qtax && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/project-qtax/SKILL.md\" > .claude/skills/project-qtax/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/project-qtax/SKILL.md"

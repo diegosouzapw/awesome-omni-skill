@@ -1456,13 +1456,8 @@ export default function ATTPermissionScreen() {
     }
   }, []);
 
-  const handleAllow = async () => {
-    await requestTrackingPermissionsAsync(); // Triggers iOS system dialog
-    globalThis.localStorage.setItem("att_shown", "true");
-    router.replace("/onboarding");
-  };
-
-  const handleSkip = async () => {
+  const handleContinue = async () => {
+    await requestTrackingPermissionsAsync(); // Triggers iOS system dialog; proceeds regardless of allow/deny
     globalThis.localStorage.setItem("att_shown", "true");
     router.replace("/onboarding");
   };
@@ -1498,12 +1493,12 @@ export default function ATTPermissionScreen() {
 
         {/* Buttons */}
         <View style={styles.buttonContainer}>
-          <TouchableOpacity style={styles.allowButton} onPress={handleAllow}>
-            <Text style={styles.allowButtonText}>{t("att.allow")}</Text>
-          </TouchableOpacity>
-
-          <TouchableOpacity style={styles.skipButton} onPress={handleSkip}>
-            <Text style={styles.skipButtonText}>{t("att.skip")}</Text>
+          <TouchableOpacity
+            testID="continue-button"
+            style={styles.allowButton}
+            onPress={handleContinue}
+          >
+            <Text style={styles.allowButtonText}>{t("att.continue")}</Text>
           </TouchableOpacity>
         </View>
       </SafeAreaView>
@@ -1601,14 +1596,6 @@ const styles = StyleSheet.create({
     fontSize: 17,
     fontWeight: "700",
   },
-  skipButton: {
-    alignItems: "center",
-    padding: 12,
-  },
-  skipButtonText: {
-    color: "rgba(255,255,255,0.5)",
-    fontSize: 15,
-  },
 });
 ```
 
@@ -1623,9 +1610,8 @@ const styles = StyleSheet.create({
   "benefit1": "See ads that are relevant to you",
   "benefit2": "Your data is never sold to third parties",
   "benefit3": "You can change this anytime in Settings",
-  "privacyNote": "Tapping \"Allow\" will show Apple's permission dialog.",
-  "allow": "Allow Tracking",
-  "skip": "No Thanks"
+  "privacyNote": "Tapping \"Continue\" will show Apple's permission dialog. You can allow or deny.",
+  "continue": "Continue"
 }
 ```
 
@@ -1638,9 +1624,8 @@ const styles = StyleSheet.create({
   "benefit1": "Size ilgili reklamlar görün",
   "benefit2": "Verileriniz asla üçüncü taraflara satılmaz",
   "benefit3": "Bunu Ayarlar'dan istediğiniz zaman değiştirebilirsiniz",
-  "privacyNote": "\"İzin Ver\" tuşuna basınca Apple'ın izin diyaloğu görünecektir.",
-  "allow": "Takibe İzin Ver",
-  "skip": "Hayır, Teşekkürler"
+  "privacyNote": "\"Devam Et\" tuşuna basınca Apple'ın izin diyaloğu görünecektir. İzin verebilir veya reddedebilirsiniz.",
+  "continue": "Devam Et"
 }
 ```
 
@@ -1993,15 +1978,19 @@ export default function PaywallScreen() {
 
           <Text style={styles.autoRenewText}>{t("paywall.autoRenew")}</Text>
 
+          <TouchableOpacity
+            onPress={handleRestore}
+            disabled={restoring}
+            style={styles.restoreRow}
+          >
+            {restoring ? (
+              <ActivityIndicator size="small" color="rgba(255,255,255,0.4)" />
+            ) : (
+              <Text style={styles.linkText}>{t("paywall.restore")}</Text>
+            )}
+          </TouchableOpacity>
+
           <View style={styles.linksRow}>
-            <TouchableOpacity onPress={handleRestore} disabled={restoring}>
-              {restoring ? (
-                <ActivityIndicator size="small" color="rgba(255,255,255,0.4)" />
-              ) : (
-                <Text style={styles.linkText}>{t("paywall.restore")}</Text>
-              )}
-            </TouchableOpacity>
-            <Text style={styles.linkDot}>·</Text>
             <TouchableOpacity
               onPress={() => WebBrowser.openBrowserAsync(TERMS_URL)}
             >
@@ -2165,7 +2154,13 @@ const styles = StyleSheet.create({
     color: "rgba(255,255,255,0.3)",
     fontSize: 11,
     textAlign: "center",
-    marginBottom: 10,
+    marginBottom: 8,
+  },
+  restoreRow: {
+    alignItems: "center",
+    justifyContent: "center",
+    paddingVertical: 4,
+    marginBottom: 8,
   },
   linksRow: {
     flexDirection: "row",
@@ -2800,8 +2795,13 @@ Maestro is an open-source mobile UI testing framework using YAML flow files. Aft
 
 ### Installation
 
+> **SECURITY NOTE**: Do NOT pipe remote scripts directly to `bash`. Download first, inspect, then execute.
+
 ```bash
-curl -fsSL "https://get.maestro.mobile.dev" | bash
+# Safe two-step install (download, review, then execute)
+curl -fsSL "https://get.maestro.mobile.dev" -o install-maestro.sh
+# Optionally inspect: cat install-maestro.sh
+bash install-maestro.sh
 maestro --version   # requires Java 17+
 ```
 
@@ -2868,9 +2868,9 @@ appId: com.company.appname
 ---
 - launchApp:
     clearState: true
-- assertVisible: "Allow Tracking"
+- assertVisible: "Continue"
 - takeScreenshot: att_screen
-- tapOn: "Allow Tracking"
+- tapOn: "Continue"
 - tapOn:
     text: "Allow"
     optional: true
@@ -2887,7 +2887,7 @@ appId: com.company.appname
     clearState: true
 # Dismiss ATT if present (iOS)
 - tapOn:
-    text: "Allow Tracking"
+    text: "Continue"
     optional: true
 - tapOn:
     text: "Allow"
@@ -3054,7 +3054,9 @@ jobs:
 
       - name: Install Maestro
         run: |
-          curl -fsSL "https://get.maestro.mobile.dev" | bash
+          # Download first, then execute (avoids curl|bash anti-pattern)
+          curl -fsSL "https://get.maestro.mobile.dev" -o install-maestro.sh
+          bash install-maestro.sh
           echo "$HOME/.maestro/bin" >> $GITHUB_PATH
 
       - name: Enable KVM (Android emulator acceleration)
@@ -3134,7 +3136,9 @@ jobs:
 
       - name: Install Maestro
         run: |
-          curl -fsSL "https://get.maestro.mobile.dev" | bash
+          # Download first, then execute (avoids curl|bash anti-pattern)
+          curl -fsSL "https://get.maestro.mobile.dev" -o install-maestro.sh
+          bash install-maestro.sh
           echo "$HOME/.maestro/bin" >> $GITHUB_PATH
 
       - name: Select Xcode

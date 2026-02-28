@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "385a332575b564524b97d79ddc2445b6ef22dc4a4e60593f15d511ba356183a2",
   "indexed_at": "2026-02-26T05:54:39.581Z",
-  "synced_at": "2026-02-27T02:29:32.965Z",
+  "synced_at": "2026-02-28T03:55:20.782Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/687f54fbb46462db76a2fed2050db5e701edca6ac8db7a923e770c613eff8164",
   "install_command": "mkdir -p .claude/skills/senior-backend && curl -sL \"https://raw.githubusercontent.com/Quan-Vo-Dinh/e-invoice/main/.agent/skills/senior-backend/SKILL.md\" > .claude/skills/senior-backend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Quan-Vo-Dinh/e-invoice/main/.agent/skills/senior-backend/SKILL.md"

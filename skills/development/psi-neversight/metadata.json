@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "850df501d41b0aa9a06de10169ef79dde51b824e773fa9e84dd3762c2e05829b",
   "indexed_at": "2026-02-25T17:36:57.001Z",
-  "synced_at": "2026-02-27T02:28:43.576Z",
+  "synced_at": "2026-02-28T03:54:33.069Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1259ab2dd9e5161fb59d7c9c04d2937b167cac4eac12d60d8cfd6abe866caa37",
   "install_command": "mkdir -p .claude/skills/psi && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/siviter-xyz/dot-agent/psi/SKILL.md\" > .claude/skills/psi/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/siviter-xyz/dot-agent/psi/SKILL.md"

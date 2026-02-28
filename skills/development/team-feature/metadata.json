@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "60fbeac637afb6370e873b6fb273c7372350ae83bd70f138fa02f891dfdfb1bb",
   "indexed_at": "2026-02-26T06:20:37.376Z",
-  "synced_at": "2026-02-27T02:29:39.246Z",
+  "synced_at": "2026-02-28T03:55:26.746Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/35a8ce2ecc3b93390adcf754999f97ea7f0f206099a640695163772b7c3dcabd",
   "install_command": "mkdir -p .claude/skills/team-feature && curl -sL \"https://raw.githubusercontent.com/izmailovilya/ilia-izmailov-plugins/main/plugins/agent-teams/skills/team-feature/SKILL.md\" > .claude/skills/team-feature/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/izmailovilya/ilia-izmailov-plugins/main/plugins/agent-teams/skills/team-feature/SKILL.md"

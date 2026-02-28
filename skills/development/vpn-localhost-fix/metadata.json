@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e3a1a9563c692b172e7112f72295a2acdebbc4b07c36a65a8e61d2350726c091",
   "indexed_at": "2026-02-25T13:49:39.807Z",
-  "synced_at": "2026-02-27T02:28:22.943Z",
+  "synced_at": "2026-02-28T03:54:12.594Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/82a5fbd9efc4021aa74f3b7e0f14bc52468059850396e9adba914aba0af3b5bb",
   "install_command": "mkdir -p .claude/skills/vpn-localhost-fix && curl -sL \"https://raw.githubusercontent.com/UFOyyds/vpn-localhost-fix/main/SKILL.md\" > .claude/skills/vpn-localhost-fix/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/UFOyyds/vpn-localhost-fix/main/SKILL.md"

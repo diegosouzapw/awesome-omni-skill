@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "295982a4e2bcf9666b90718f6915b591fe6f4db233ed14bb514e32bb3d56252e",
   "indexed_at": "2026-02-26T06:46:36.538Z",
-  "synced_at": "2026-02-27T02:29:45.323Z",
+  "synced_at": "2026-02-28T03:55:32.633Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2ca432ddc0dc481f7e20f72d7141011a1d0f4a64958faa63e9f631886f66c08d",
   "install_command": "mkdir -p .claude/skills/auditor-frontend-ui-ux && curl -sL \"https://raw.githubusercontent.com/MuhammedAlkhudiry/ai-concise-guidelines/main/output/claude/skills/auditor-frontend-ui-ux/SKILL.md\" > .claude/skills/auditor-frontend-ui-ux/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MuhammedAlkhudiry/ai-concise-guidelines/main/output/claude/skills/auditor-frontend-ui-ux/SKILL.md"

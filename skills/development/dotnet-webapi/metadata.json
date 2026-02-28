@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "76533c74325feaad72d057ae2db48b5d734c6356b77d2e3698e0e174bdedab26",
   "indexed_at": "2026-02-26T05:56:12.157Z",
-  "synced_at": "2026-02-27T02:29:37.227Z",
+  "synced_at": "2026-02-28T03:55:24.806Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eb8c061d2e21edf77a83678161ebd5e3468cff2d9a23318e66111334624e1a47",
   "install_command": "mkdir -p .claude/skills/dotnet-webapi && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/racar/racar_agent_skills/dotnet-webapi/SKILL.md\" > .claude/skills/dotnet-webapi/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/racar/racar_agent_skills/dotnet-webapi/SKILL.md"

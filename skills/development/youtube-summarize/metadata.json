@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "76927fa2bf6da3fe67e1d88cb490c07ddf37709065b51640c3ba886da453c149",
   "indexed_at": "2026-02-25T13:01:26.915Z",
-  "synced_at": "2026-02-27T02:28:16.133Z",
+  "synced_at": "2026-02-28T03:54:06.335Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/21f81bc7204f5f471bfe2907c0a0190104f305151ec0f1301682ad5598fdbf85",
   "install_command": "mkdir -p .claude/skills/youtube-summarize && curl -sL \"https://raw.githubusercontent.com/stets/nifty_claude_skills/main/SKILL.md\" > .claude/skills/youtube-summarize/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/stets/nifty_claude_skills/main/SKILL.md"

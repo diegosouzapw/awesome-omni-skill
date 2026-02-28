@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9339b786cf28227473ceceb660ef945a593da3d4bc1bdd2dae4cc2bfcb6cbfb2",
   "indexed_at": "2026-02-25T13:00:56.766Z",
-  "synced_at": "2026-02-27T02:28:15.759Z",
+  "synced_at": "2026-02-28T03:54:05.977Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/81e1f5785adb7652e2520a3c217780700afade5b7fd46f909228061fcbe72940",
   "install_command": "mkdir -p .claude/skills/typescript-esm-utils-developer-maintainer && curl -sL \"https://raw.githubusercontent.com/clemeno/cme-utils/main/SKILL.md\" > .claude/skills/typescript-esm-utils-developer-maintainer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/clemeno/cme-utils/main/SKILL.md"

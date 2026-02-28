@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "af411c5d0cb70eb8fe308c219c27f172a5d910cb0d07f7b9bc8666f81f01b3d3",
   "indexed_at": "2026-02-26T05:50:36.418Z",
-  "synced_at": "2026-02-27T02:29:23.311Z",
+  "synced_at": "2026-02-28T03:55:11.371Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9b4905400d8ac5cd9c70363133bda53ac2d4120439fad01109f02fba76e66ba2",
   "install_command": "mkdir -p .claude/skills/fastapi && curl -sL \"https://raw.githubusercontent.com/shmlaiq/Task-Managment-API/main/.claude/skills/fastapi/SKILL.md\" > .claude/skills/fastapi/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/shmlaiq/Task-Managment-API/main/.claude/skills/fastapi/SKILL.md"

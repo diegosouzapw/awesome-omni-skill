@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "03452b244cfe1e067bcb272ec1562baeaab6c09584438183735184a4122381dd",
   "indexed_at": "2026-02-26T05:49:47.164Z",
-  "synced_at": "2026-02-27T02:29:19.586Z",
+  "synced_at": "2026-02-28T03:55:08.395Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a198a677a4f2dee6bffb878445772aa449b2c3413826eaa71309e2f4c85c5078",
   "install_command": "mkdir -p .claude/skills/fullstack-backend-master && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/fullstack-backend-master/SKILL.md\" > .claude/skills/fullstack-backend-master/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/fullstack-backend-master/SKILL.md"

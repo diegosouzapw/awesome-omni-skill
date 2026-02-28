@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e95076052a6761551e11473c36cf74a4304baedbf816bffbcc88184cc68b8ee3",
   "indexed_at": "2026-02-26T05:45:09.756Z",
-  "synced_at": "2026-02-27T02:29:06.220Z",
+  "synced_at": "2026-02-28T03:54:55.355Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/16e764767122c892bdbee0a20474fa9ec54aa7fca6e26f0ee1389c1f2fd138db",
   "install_command": "mkdir -p .claude/skills/nestjs-backend && curl -sL \"https://raw.githubusercontent.com/codewizwit/human-in-the-loop/main/lib/skills/nestjs-backend/claude-skill.md/SKILL.md\" > .claude/skills/nestjs-backend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/codewizwit/human-in-the-loop/main/lib/skills/nestjs-backend/claude-skill.md/SKILL.md"

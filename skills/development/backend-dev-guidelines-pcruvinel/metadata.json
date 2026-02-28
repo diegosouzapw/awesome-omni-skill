@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d1478897bad4403e867238d296bf1218e9c46d9502d56b71c1841f5a35f128fe",
   "indexed_at": "2026-02-26T05:48:52.818Z",
-  "synced_at": "2026-02-27T02:29:17.459Z",
+  "synced_at": "2026-02-28T03:55:06.339Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a651cf6980e38d94345d2a8aa161b130a574be0e1237f61928f323e21d3c6043",
   "install_command": "mkdir -p .claude/skills/backend-dev-guidelines && curl -sL \"https://raw.githubusercontent.com/pCruvinel/antig/main/skills/backend-dev-guidelines/SKILL.md\" > .claude/skills/backend-dev-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pCruvinel/antig/main/skills/backend-dev-guidelines/SKILL.md"

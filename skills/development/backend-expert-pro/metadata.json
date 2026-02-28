@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9065beb5b02b3cd20a67564d61007c6ccb8ad30a4e67fb336d3d4160acd353d3",
   "indexed_at": "2026-02-26T05:49:49.224Z",
-  "synced_at": "2026-02-27T02:29:19.798Z",
+  "synced_at": "2026-02-28T03:55:08.608Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a80b55417ed56bcb178a77da0519114c49b725402ac5786b663160565176e290",
   "install_command": "mkdir -p .claude/skills/backend-expert-pro && curl -sL \"https://raw.githubusercontent.com/euwebertdefreitas/Parametrus-AI-Skills/main/.agent/skills/backend_expert_pro/SKILL.md\" > .claude/skills/backend-expert-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/euwebertdefreitas/Parametrus-AI-Skills/main/.agent/skills/backend_expert_pro/SKILL.md"

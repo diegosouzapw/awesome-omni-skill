@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1a19adc65b1ff5266c3f3e3aae2a127447f34ab969637b973ec0acf5acba2a02",
   "indexed_at": "2026-02-26T05:48:31.385Z",
-  "synced_at": "2026-02-27T02:29:16.260Z",
+  "synced_at": "2026-02-28T03:55:05.128Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0e27d87489fadd41454c97ce97deff0b8e96fec48fe5730b9a86ae2bdbe5b2d7",
   "install_command": "mkdir -p .claude/skills/backend-architect && curl -sL \"https://raw.githubusercontent.com/namanprat/duforn/main/.agent/skills/backend-architect/SKILL.md\" > .claude/skills/backend-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/namanprat/duforn/main/.agent/skills/backend-architect/SKILL.md"

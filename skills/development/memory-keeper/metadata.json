@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "099ebb2d2fb14c86c56644e1a4be8d73264ddc279fa2ba66120cb59c58e06099",
   "indexed_at": "2026-02-26T05:45:38.585Z",
-  "synced_at": "2026-02-27T02:29:07.519Z",
+  "synced_at": "2026-02-28T03:54:56.644Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/27fec034618914854313a7faf03a0b41b0c2037705ce479da8f2535f260c023d",
   "install_command": "mkdir -p .claude/skills/memory-keeper && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/AlexBaum-ai__NEURM__claude__skills__memory-keeper__SKILL.md/SKILL.md\" > .claude/skills/memory-keeper/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/AlexBaum-ai__NEURM__claude__skills__memory-keeper__SKILL.md/SKILL.md"

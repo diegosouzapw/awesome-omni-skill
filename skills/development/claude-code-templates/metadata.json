@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9c60e06821653343ccda7fa72dcf638925bd5389ff3c9a8835259e769681b24e",
   "indexed_at": "2026-02-26T05:50:17.564Z",
-  "synced_at": "2026-02-27T02:29:21.421Z",
+  "synced_at": "2026-02-28T03:55:10.572Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e37b38ee1078eba473d676cb40a00affaef2fb41bc34120fa9903ecadafbc31a",
   "install_command": "mkdir -p .claude/skills/claude-code-templates && curl -sL \"https://raw.githubusercontent.com/happycapy-ai/Happycapy-skills/main/skills/claude-code-templates/SKILL.md\" > .claude/skills/claude-code-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/happycapy-ai/Happycapy-skills/main/skills/claude-code-templates/SKILL.md"

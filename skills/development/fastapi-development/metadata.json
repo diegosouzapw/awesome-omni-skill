@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ea8e063a508a55b094e7414a95a4daabd84a31d6d38915842cf2d5ffe7664137",
   "indexed_at": "2026-02-26T05:54:49.517Z",
-  "synced_at": "2026-02-27T02:29:33.153Z",
+  "synced_at": "2026-02-28T03:55:20.968Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ca2b2f6edc307d0cfe671f8717b9c0682941b816e91a6687cd86918e5d9d4800",
   "install_command": "mkdir -p .claude/skills/fastapi-development && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/manutej/crush-mcp-server/fastapi-development/SKILL.md\" > .claude/skills/fastapi-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/manutej/crush-mcp-server/fastapi-development/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4fa44e0171591ec715eceb3c67535c297d0f85ffb8e4650106061cf17555638d",
   "indexed_at": "2026-02-26T06:45:21.018Z",
-  "synced_at": "2026-02-27T02:29:40.972Z",
+  "synced_at": "2026-02-28T03:55:28.495Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f510acdcfc4f1a7c8aa10077d16e51b409baaa8e37a2b0ebd60b49867a813e1e",
   "install_command": "mkdir -p .claude/skills/sveltekit-frontend-patterns && curl -sL \"https://raw.githubusercontent.com/AdamAugustinsky/a3-stack-kysely/main/.claude/skills/sveltekit-frontend/SKILL.md\" > .claude/skills/sveltekit-frontend-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AdamAugustinsky/a3-stack-kysely/main/.claude/skills/sveltekit-frontend/SKILL.md"

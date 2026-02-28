@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7a86466afac2fff3606135ec8eae162de35da44f954ee685ede398b9c30f8641",
   "indexed_at": "2026-02-26T05:48:28.718Z",
-  "synced_at": "2026-02-27T02:29:15.902Z",
+  "synced_at": "2026-02-28T03:55:04.793Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dd76f58352cb535b8ad637b61bf45fd8a8634527e29fd5585365dc7d88e6373a",
   "install_command": "mkdir -p .claude/skills/backend-architect && curl -sL \"https://raw.githubusercontent.com/Next-ofkin/birthday-automation/main/.agent/skills/backend-architect/SKILL.md\" > .claude/skills/backend-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Next-ofkin/birthday-automation/main/.agent/skills/backend-architect/SKILL.md"

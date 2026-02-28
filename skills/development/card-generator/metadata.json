@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "76fbc5074d6fc97c1aaa9add822563c23ec684d19474363c8a4de5d229ad3e1b",
   "indexed_at": "2026-02-25T20:42:23.569Z",
-  "synced_at": "2026-02-27T02:28:54.472Z",
+  "synced_at": "2026-02-28T03:54:43.854Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7d30ae60745e2b45d5f9a464d2b3d85f2af8aa89460fc30f2adc6b737dce0c5e",
   "install_command": "mkdir -p .claude/skills/card-generator && curl -sL \"https://raw.githubusercontent.com/wensia/xiaohongshu-poster-generator/main/skills/card-generator/SKILL.md\" > .claude/skills/card-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wensia/xiaohongshu-poster-generator/main/skills/card-generator/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3dfdbde7e047c377f264dc34fe3b81c93e743f460c02bae0872494568d24576f",
   "indexed_at": "2026-02-25T13:56:55.027Z",
-  "synced_at": "2026-02-27T02:28:25.954Z",
+  "synced_at": "2026-02-28T03:54:15.922Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6816040b055e5efd199ba777bdb86dae93edbff782a71ea29ea155457178d008",
   "install_command": "mkdir -p .claude/skills/dapr-integration && curl -sL \"https://raw.githubusercontent.com/maneeshanif/todo-spec-driven/main/.claude/skills/dapr-integration/SKILL.md\" > .claude/skills/dapr-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/maneeshanif/todo-spec-driven/main/.claude/skills/dapr-integration/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e18d36bab12f2ed333be7c0bd29068a899c35b57c690ff81460a48cec6876d18",
   "indexed_at": "2026-02-26T05:37:57.094Z",
-  "synced_at": "2026-02-27T02:29:04.493Z",
+  "synced_at": "2026-02-28T03:54:53.674Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a2752d246bfe0f5475106da353ddfa66a5cf7b190b7896c88d8626a3e515439f",
   "install_command": "mkdir -p .claude/skills/fetching-youtube-transcripts && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/fetching-youtube-transcripts/SKILL.md\" > .claude/skills/fetching-youtube-transcripts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/fetching-youtube-transcripts/SKILL.md"

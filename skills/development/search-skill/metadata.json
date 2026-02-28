@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ca7e6dd945880030dc7525939cb1bf7503d9f775ce9bab17ba60229e8353176e",
   "indexed_at": "2026-02-25T14:03:26.909Z",
-  "synced_at": "2026-02-27T02:28:26.787Z",
+  "synced_at": "2026-02-28T03:54:16.811Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c623dd9cb4f00b7cd6b617b78c237867407312c6433e19a3a95168e5151e5be5",
   "install_command": "mkdir -p .claude/skills/search-skill && curl -sL \"https://raw.githubusercontent.com/thruthesky/search-skill/main/SKILL.md\" > .claude/skills/search-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/thruthesky/search-skill/main/SKILL.md"

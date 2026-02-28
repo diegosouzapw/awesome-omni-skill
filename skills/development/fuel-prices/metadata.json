@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "742ccf7a89785c5cc4dd3c22a490e2fce7400b5c1ca0e88b3ae350f725966294",
   "indexed_at": "2026-02-25T13:01:25.008Z",
-  "synced_at": "2026-02-27T02:28:15.956Z",
+  "synced_at": "2026-02-28T03:54:06.163Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/90ae5fcf814fb5f4f5294faff1e5cc918eb2ff23e0706defd13b6c580ac0a4d6",
   "install_command": "mkdir -p .claude/skills/fuel-prices && curl -sL \"https://raw.githubusercontent.com/twttr/fuel-skill/main/SKILL.md\" > .claude/skills/fuel-prices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/twttr/fuel-skill/main/SKILL.md"

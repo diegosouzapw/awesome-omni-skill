@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f5314d09b1640a161f57cf974c9bd2ce6bf5cc624fc1e59ac51bea42b0985b31",
   "indexed_at": "2026-02-25T19:10:22.123Z",
-  "synced_at": "2026-02-27T02:28:50.071Z",
+  "synced_at": "2026-02-28T03:54:39.568Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/531397e8682117b8f3d36ac24d73d7b7c2756ea032d38a85170f3ec37ccda6ff",
   "install_command": "mkdir -p .claude/skills/angular-forms && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/angular-forms-analogjs-angular-skills/SKILL.md\" > .claude/skills/angular-forms/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/angular-forms-analogjs-angular-skills/SKILL.md"

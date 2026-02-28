@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2eceadca58445c5e3b844ef0fd066bf5aca5081e30e256d0c31aa5a548f84678",
   "indexed_at": "2026-02-25T17:42:23.953Z",
-  "synced_at": "2026-02-27T02:28:45.458Z",
+  "synced_at": "2026-02-28T03:54:35.018Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8540014325fb3c8a64a41afbf7687b0d618c9ca0b6f95325248c9c00c04f0563",
   "install_command": "mkdir -p .claude/skills/v3-core-implementation && curl -sL \"https://raw.githubusercontent.com/ruvnet/agentic-flow/main/.claude/skills/v3-core-implementation/SKILL.md\" > .claude/skills/v3-core-implementation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ruvnet/agentic-flow/main/.claude/skills/v3-core-implementation/SKILL.md"

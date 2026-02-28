@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dd3a099d0f5d4f703fa1a41d2e0d0cfc4af7c1961414442f44aac9d70e55b634",
   "indexed_at": "2026-02-26T06:46:46.403Z",
-  "synced_at": "2026-02-27T02:29:46.425Z",
+  "synced_at": "2026-02-28T03:55:33.659Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cc969bcdd2c786be10806e95dbade974499fb460833f1bdd882e4afa6ab7d4d1",
   "install_command": "mkdir -p .claude/skills/frontend-dev-guidelines && curl -sL \"https://raw.githubusercontent.com/bcl1713/ChoreQuest/main/.claude/skills/frontend-dev-guidelines/SKILL.md\" > .claude/skills/frontend-dev-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bcl1713/ChoreQuest/main/.claude/skills/frontend-dev-guidelines/SKILL.md"

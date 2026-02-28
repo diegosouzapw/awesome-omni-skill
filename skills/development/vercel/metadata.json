@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a2c4f96637897118df93a5ba8611d1da241f3ab426c243ce49a8bad6eb42cdcf",
   "indexed_at": "2026-02-25T20:42:34.099Z",
-  "synced_at": "2026-02-27T02:28:54.631Z",
+  "synced_at": "2026-02-28T03:54:44.000Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/31d0a5ef77ee7e0d9fee83e20f0a808c6f58ae13ebb657e8e02e881f3dc0bc43",
   "install_command": "mkdir -p .claude/skills/vercel && curl -sL \"https://raw.githubusercontent.com/mgd34msu/goodvibes-gemini/main/skills/vercel/SKILL.md\" > .claude/skills/vercel/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mgd34msu/goodvibes-gemini/main/skills/vercel/SKILL.md"

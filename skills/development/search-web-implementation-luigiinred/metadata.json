@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ce349541ce068c4fbbf7dc38a7fd96bef08ed84cac850ed6e9f3311e5a28defd",
   "indexed_at": "2026-02-25T15:10:21.599Z",
-  "synced_at": "2026-02-27T02:28:35.029Z",
+  "synced_at": "2026-02-28T03:54:24.936Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/54bd45283ad12c3ca0df42cb73ec4745d12058b9bb4f309efb3ace8395cb1d85",
   "install_command": "mkdir -p .claude/skills/search-web-implementation && curl -sL \"https://raw.githubusercontent.com/luigiinred/dotfiles/main/dot_cursor/skills/search-web-implementation/SKILL.md\" > .claude/skills/search-web-implementation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/luigiinred/dotfiles/main/dot_cursor/skills/search-web-implementation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "57c0d6efc63a28b5ab5442fb89e003cd71bc3829954752767eacda64c6ed6488",
   "indexed_at": "2026-02-25T13:01:47.097Z",
-  "synced_at": "2026-02-27T02:28:16.687Z",
+  "synced_at": "2026-02-28T03:54:06.850Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/335c726831519e60685ff6f553e799545befe1ffbc40c474b6370a274681216d",
   "install_command": "mkdir -p .claude/skills/deep-reading && curl -sL \"https://raw.githubusercontent.com/the-waste-land/vibe-reading/main/SKILL.md\" > .claude/skills/deep-reading/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/the-waste-land/vibe-reading/main/SKILL.md"

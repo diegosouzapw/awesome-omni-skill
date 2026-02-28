@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f189897c815dd5300c43a205fa594d547c198231a42a21660457228b1e65998c",
   "indexed_at": "2026-02-26T06:46:19.050Z",
-  "synced_at": "2026-02-27T02:29:43.883Z",
+  "synced_at": "2026-02-28T03:55:31.236Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/025820bdace753d3caacfb601842af9f3651bc1f3b8877e584ccb90b5d2e9d51",
   "install_command": "mkdir -p .claude/skills/frontend-dev-guidelines && curl -sL \"https://raw.githubusercontent.com/Miehau/ai-assistant/main/.claude/skills/frontend-dev-guidelines/SKILL.md\" > .claude/skills/frontend-dev-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Miehau/ai-assistant/main/.claude/skills/frontend-dev-guidelines/SKILL.md"

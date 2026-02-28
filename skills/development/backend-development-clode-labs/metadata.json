@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0d2488101bb881680b15eba802f32e07e4204989f1a59e7c09d27d87388f08f9",
   "indexed_at": "2026-02-26T05:46:18.192Z",
-  "synced_at": "2026-02-27T02:29:09.797Z",
+  "synced_at": "2026-02-28T03:54:58.837Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/949083f07d9770968e4b71657243d7c55576d6fbffd3eb83d71c1890de248831",
   "install_command": "mkdir -p .claude/skills/backend-development && curl -sL \"https://raw.githubusercontent.com/clode-labs/aramb-skills/main/backend-development/SKILL.md\" > .claude/skills/backend-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/clode-labs/aramb-skills/main/backend-development/SKILL.md"

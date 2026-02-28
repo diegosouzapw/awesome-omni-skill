@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aab1e164f4ee6a04c0cca0fd0b454d7be852a0b512a930864ae8706aad98f2e3",
   "indexed_at": "2026-02-26T05:55:03.557Z",
-  "synced_at": "2026-02-27T02:29:34.056Z",
+  "synced_at": "2026-02-28T03:55:21.786Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ee43a42d994352a1951d70d09744016426175b76bce43ba69281bfca534269d0",
   "install_command": "mkdir -p .claude/skills/aspire-evaluator && curl -sL \"https://raw.githubusercontent.com/bnayae/bnaya-agent-skills/main/.claude/skills/advisor/stack-evaluation/aspire-evaluator/SKILL.md\" > .claude/skills/aspire-evaluator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bnayae/bnaya-agent-skills/main/.claude/skills/advisor/stack-evaluation/aspire-evaluator/SKILL.md"

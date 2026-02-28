@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f29c6febb562edf7a4a48a148a2fd5d9461cb21d99831f00208d4ac4148c34be",
   "indexed_at": "2026-02-26T05:47:44.056Z",
-  "synced_at": "2026-02-27T02:29:13.429Z",
+  "synced_at": "2026-02-28T03:55:02.321Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9e6181393e31de702e7b3e8bb5566ba0bf67f22335bf49c2ddfcfb32aa951c0d",
   "install_command": "mkdir -p .claude/skills/nestjs-authentication && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/nestjs-authentication/SKILL.md\" > .claude/skills/nestjs-authentication/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/nestjs-authentication/SKILL.md"

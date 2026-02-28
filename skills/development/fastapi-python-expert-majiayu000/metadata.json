@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "32cfeacf44734cc1265fff88d09b89eb58846650958b25bd4568442544fa579f",
   "indexed_at": "2026-02-26T03:05:12.532Z",
-  "synced_at": "2026-02-27T02:28:59.924Z",
+  "synced_at": "2026-02-28T03:54:49.101Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b059ca8a6919283b584f8de3ddd1a5fede6a4890b30b0a8232c27dc4b6e4c666",
   "install_command": "mkdir -p .claude/skills/fastapi-python-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/fastapi-python-expert/SKILL.md\" > .claude/skills/fastapi-python-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/fastapi-python-expert/SKILL.md"

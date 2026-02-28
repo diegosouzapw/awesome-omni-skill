@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ce0e041f85a3cf708881eabf5378c0b6e861da0313e35bfceeb565439e5e3cbe",
   "indexed_at": "2026-02-25T15:08:03.136Z",
-  "synced_at": "2026-02-27T02:28:33.921Z",
+  "synced_at": "2026-02-28T03:54:23.801Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/17acff59ec5994d71f1252e02a55651b69424ff17167e2f7736c3e52c3e4e1c1",
   "install_command": "mkdir -p .claude/skills/gleam-erlang-interop && curl -sL \"https://raw.githubusercontent.com/rothdev/catalyst-os/main/tools/telegram/TC3-jarvis-hybrid/catalyst-skills/community/thebushidocollective-han/plugins/languages/gleam/skills/gleam-interop/SKILL.md\" > .claude/skills/gleam-erlang-interop/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rothdev/catalyst-os/main/tools/telegram/TC3-jarvis-hybrid/catalyst-skills/community/thebushidocollective-han/plugins/languages/gleam/skills/gleam-interop/SKILL.md"

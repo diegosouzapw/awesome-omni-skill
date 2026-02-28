@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5716443d356a395f20230239740115033a1777fb4d3f1142960dbdf638cceedb",
   "indexed_at": "2026-02-25T19:06:26.190Z",
-  "synced_at": "2026-02-27T02:28:49.442Z",
+  "synced_at": "2026-02-28T03:54:38.920Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b860f685d2b0d991e1abf84d80945c4bdadebc64fdf58d64d49ff36a3ee52c17",
   "install_command": "mkdir -p .claude/skills/ssh-server-admin && curl -sL \"https://raw.githubusercontent.com/fgarofalo56/Suppercharge_Microsoft_Fabric/main/.github/skills/ssh-server-admin/SKILL.md\" > .claude/skills/ssh-server-admin/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fgarofalo56/Suppercharge_Microsoft_Fabric/main/.github/skills/ssh-server-admin/SKILL.md"

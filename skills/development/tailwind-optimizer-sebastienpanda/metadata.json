@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5666630addd9f38b4eae912af73940e8d0c7bf2f28486d6f03d0d1e512987ff2",
   "indexed_at": "2026-02-26T06:46:57.083Z",
-  "synced_at": "2026-02-27T02:29:47.766Z",
+  "synced_at": "2026-02-28T03:55:34.181Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/38bb32975b940115a3c7d52a0bf66f8a456561790f6350e5d85a01c3343b6d40",
   "install_command": "mkdir -p .claude/skills/tailwind-optimizer && curl -sL \"https://raw.githubusercontent.com/Sebastienpanda/kanbano-bis/main/.claude/skills/tailwind-optimizer-SKILL.md/SKILL.md\" > .claude/skills/tailwind-optimizer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Sebastienpanda/kanbano-bis/main/.claude/skills/tailwind-optimizer-SKILL.md/SKILL.md"

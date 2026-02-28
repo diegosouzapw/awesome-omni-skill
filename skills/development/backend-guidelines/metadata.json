@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "687125dc7dc070ec2656f3e035c6878a74e035fe730524295f11c8a59a9a1299",
   "indexed_at": "2026-02-26T05:46:24.256Z",
-  "synced_at": "2026-02-27T02:29:10.166Z",
+  "synced_at": "2026-02-28T03:54:59.194Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6268d1976f0c7ad6481924fba357513242c9542e021f520e863f45ffc00d12ff",
   "install_command": "mkdir -p .claude/skills/backend-guidelines && curl -sL \"https://raw.githubusercontent.com/Italo520/erp_archflow_arquiteture/main/.agent/skills/backend-guidelines/SKILL.md\" > .claude/skills/backend-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Italo520/erp_archflow_arquiteture/main/.agent/skills/backend-guidelines/SKILL.md"

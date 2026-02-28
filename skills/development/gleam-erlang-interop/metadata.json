@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "488ad1cfabeb10b5914f584d497cc47fb3ac85c1ceb10b9610b7adde026bc5db",
   "indexed_at": "2026-02-25T15:05:03.440Z",
-  "synced_at": "2026-02-27T02:28:32.961Z",
+  "synced_at": "2026-02-28T03:54:22.804Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3037fdf9a2aa704a8618c814d082f7f9548089936d7126fbbc5c884e53e5a50b",
   "install_command": "mkdir -p .claude/skills/gleam-erlang-interop && curl -sL \"https://raw.githubusercontent.com/TheBushidoCollective/han/main/plugins/languages/gleam/skills/gleam-interop/SKILL.md\" > .claude/skills/gleam-erlang-interop/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TheBushidoCollective/han/main/plugins/languages/gleam/skills/gleam-interop/SKILL.md"

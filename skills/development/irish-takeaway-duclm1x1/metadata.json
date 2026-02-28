@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "38fa6f1186e8b522bc0ac1a1e6deb23e04ddfa50a5805a4a0d56b846f4adf25b",
   "indexed_at": "2026-02-25T17:41:56.079Z",
-  "synced_at": "2026-02-27T02:28:45.113Z",
+  "synced_at": "2026-02-28T03:54:34.653Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e14556e6b80f56ad8b5b6c0dc735299838d1b8acff720167b05d07381cd29f82",
   "install_command": "mkdir -p .claude/skills/irish-takeaway && curl -sL \"https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/skills_library/shopping_e_commerce/irish-takeaway/SKILL.md\" > .claude/skills/irish-takeaway/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/skills_library/shopping_e_commerce/irish-takeaway/SKILL.md"

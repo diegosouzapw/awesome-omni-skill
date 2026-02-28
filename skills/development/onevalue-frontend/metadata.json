@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3ac8d6b1a2c073fd2e46f444ee72fbb5dd9964a6ea856cebf3eb75fd831657a9",
   "indexed_at": "2026-02-26T06:45:10.960Z",
-  "synced_at": "2026-02-27T02:29:40.458Z",
+  "synced_at": "2026-02-28T03:55:28.020Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4e407877dbfb109f8cca2f0586ae3388814f03c3cd7c2922270d9cc31006a459",
   "install_command": "mkdir -p .claude/skills/onevalue-frontend && curl -sL \"https://raw.githubusercontent.com/nithinvaradaraj-crypto/OneValue-Console/main/onevalue-frontend-SKILL.md/SKILL.md\" > .claude/skills/onevalue-frontend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nithinvaradaraj-crypto/OneValue-Console/main/onevalue-frontend-SKILL.md/SKILL.md"

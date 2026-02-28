@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c13541db70f19df598e53dadf34a7ba4ff92bca8be71c9bc949671b5f110b6c6",
   "indexed_at": "2026-02-25T20:40:32.529Z",
-  "synced_at": "2026-02-27T02:28:53.155Z",
+  "synced_at": "2026-02-28T03:54:42.556Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dc634d7550b5f02b186735504727a3b9442f3d691bdfc9e1ffbdaa0336be115a",
   "install_command": "mkdir -p .claude/skills/tailwind-configuration && curl -sL \"https://raw.githubusercontent.com/TheBushidoCollective/han/main/plugins/tools/tailwind/skills/tailwind-configuration/SKILL.md\" > .claude/skills/tailwind-configuration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TheBushidoCollective/han/main/plugins/tools/tailwind/skills/tailwind-configuration/SKILL.md"

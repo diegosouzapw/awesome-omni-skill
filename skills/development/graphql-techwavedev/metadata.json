@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f185ce9752ae2dc30919c52115910220a1ce7c490c37f1e52f002a8afd4d7451",
   "indexed_at": "2026-02-26T05:50:02.039Z",
-  "synced_at": "2026-02-27T02:29:20.519Z",
+  "synced_at": "2026-02-28T03:55:09.701Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/726f571f5f3883d74c5a198a3a613866f5cb0f40c0d5d07f662701e87025a054",
   "install_command": "mkdir -p .claude/skills/graphql && curl -sL \"https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/extended/backend/graphql/SKILL.md\" > .claude/skills/graphql/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/extended/backend/graphql/SKILL.md"

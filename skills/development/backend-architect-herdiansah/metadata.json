@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "71709457f91e7339366b27702bf164cb0cd491a3a553b9810c745328cd33b77e",
   "indexed_at": "2026-02-26T05:46:05.221Z",
-  "synced_at": "2026-02-27T02:29:08.876Z",
+  "synced_at": "2026-02-28T03:54:57.941Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/05e45d3bad83d2deda650f7d1e6ac055cf73bb499cba675eb5063c859a20f06c",
   "install_command": "mkdir -p .claude/skills/backend-architect && curl -sL \"https://raw.githubusercontent.com/herdiansah/Antigravity-Skills-Master/main/.agent/skills/backend-architect/SKILL.md\" > .claude/skills/backend-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/herdiansah/Antigravity-Skills-Master/main/.agent/skills/backend-architect/SKILL.md"

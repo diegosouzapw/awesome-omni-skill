@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "65494d0adbebfa56cb264270d278a4373d148393dd6f981f04bc39b353f5f82d",
   "indexed_at": "2026-02-25T18:46:48.819Z",
-  "synced_at": "2026-02-27T02:28:48.891Z",
+  "synced_at": "2026-02-28T03:54:38.751Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7422171547ee202ffd87557cff9739d957c463dd0e020789725e5f4168675de3",
   "install_command": "mkdir -p .claude/skills/manifold-analysis && curl -sL \"https://raw.githubusercontent.com/dmoskov/manifold-analyzer/main/SKILL.md\" > .claude/skills/manifold-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dmoskov/manifold-analyzer/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f34d58bc67e94635bda03059979fc64b38914c75265c556862befe13eacf3bf2",
   "indexed_at": "2026-02-26T04:26:37.356Z",
-  "synced_at": "2026-02-27T02:29:02.683Z",
+  "synced_at": "2026-02-28T03:54:52.004Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eff1e57b22849bf9630f58c3a30f789d25eaf81fb2323e274929687cd4247010",
   "install_command": "mkdir -p .claude/skills/clawdhub-contributor && curl -sL \"https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/starbuck100/clawdhub-contributor/SKILL.md\" > .claude/skills/clawdhub-contributor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/starbuck100/clawdhub-contributor/SKILL.md"

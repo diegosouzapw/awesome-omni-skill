@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "071b3e351f33d3725d2acf0c65f1a3bb121c5bb167192af61473632333b97950",
   "indexed_at": "2026-02-26T05:46:38.856Z",
-  "synced_at": "2026-02-27T02:29:11.262Z",
+  "synced_at": "2026-02-28T03:55:00.234Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d8b333e41a4cbb3b3abca14e7785bfc6367f128ef12a17a2b024de2f0f36054e",
   "install_command": "mkdir -p .claude/skills/workspace && curl -sL \"https://raw.githubusercontent.com/alinaqi/claude-bootstrap/main/skills/workspace/SKILL.md\" > .claude/skills/workspace/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alinaqi/claude-bootstrap/main/skills/workspace/SKILL.md"

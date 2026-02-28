@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "460a44bdef8e042bf12626b68f5fbdec3a987be33d8d98307055f43158f6055c",
   "indexed_at": "2026-02-26T06:45:54.093Z",
-  "synced_at": "2026-02-27T02:29:42.494Z",
+  "synced_at": "2026-02-28T03:55:29.807Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/77e52c75af7ad341b7f806314075e3cbe9c80d22e9f88646f5d482c595cc4364",
   "install_command": "mkdir -p .claude/skills/frontend-ui-integration && curl -sL \"https://raw.githubusercontent.com/NicktheQuickFTW/FlexTime/main/.factory/skills/frontend-ui-integration/SKILL.md\" > .claude/skills/frontend-ui-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NicktheQuickFTW/FlexTime/main/.factory/skills/frontend-ui-integration/SKILL.md"

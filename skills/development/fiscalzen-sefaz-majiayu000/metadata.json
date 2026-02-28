@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2ff0a3c2870b070a46a1010547dd5f16e2f325bad82891780d2ac8c8231a241f",
   "indexed_at": "2026-02-25T13:06:26.202Z",
-  "synced_at": "2026-02-27T02:28:19.020Z",
+  "synced_at": "2026-02-28T03:54:09.042Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f86297d8bd6a4d5c05065f5590e97c2293f29d8db6ab557483faebbab4a59b88",
   "install_command": "mkdir -p .claude/skills/fiscalzen-sefaz && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/fiscalzen-sefaz/SKILL.md\" > .claude/skills/fiscalzen-sefaz/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/fiscalzen-sefaz/SKILL.md"

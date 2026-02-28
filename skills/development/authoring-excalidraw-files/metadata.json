@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "947ed7fa0e9c6bb70f2b64afe82dfffb190f78138f8f6513247a435c02427dd3",
   "indexed_at": "2026-02-26T05:50:37.786Z",
-  "synced_at": "2026-02-27T02:29:23.485Z",
+  "synced_at": "2026-02-28T03:55:11.543Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/11663f9ee4d224200257427bc21ad78860edce65c8aa989d6ecde1781e046733",
   "install_command": "mkdir -p .claude/skills/authoring-excalidraw-files && curl -sL \"https://raw.githubusercontent.com/indiosmo/skills/main/skills/authoring-excalidraw-files/SKILL.md\" > .claude/skills/authoring-excalidraw-files/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/indiosmo/skills/main/skills/authoring-excalidraw-files/SKILL.md"

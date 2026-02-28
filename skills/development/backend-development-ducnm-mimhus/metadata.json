@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cac966bd9e1056887eca295fa0506dfd8cf5e370105f74ec10464fe45baad6e9",
   "indexed_at": "2026-02-26T05:46:56.137Z",
-  "synced_at": "2026-02-27T02:29:12.094Z",
+  "synced_at": "2026-02-28T03:55:01.109Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e9d17fe59f30a52b3a08b777779793f5fb8cf1ef738d1b95841738563aa6c483",
   "install_command": "mkdir -p .claude/skills/backend-development && curl -sL \"https://raw.githubusercontent.com/ducnm-mimhus/Avada-Simple-Sales-Pop/main/.claude/skills/backend/SKILL.md\" > .claude/skills/backend-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ducnm-mimhus/Avada-Simple-Sales-Pop/main/.claude/skills/backend/SKILL.md"

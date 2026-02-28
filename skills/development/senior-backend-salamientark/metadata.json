@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "96a7a4e8efedac6b0d8636843257a09e2675416abceea511870ae053ff3e8e71",
   "indexed_at": "2026-02-26T05:48:12.377Z",
-  "synced_at": "2026-02-27T02:29:15.165Z",
+  "synced_at": "2026-02-28T03:55:04.071Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d99b3c141045ff2242b029f6cb9a223abffcb5cba321f9e69f77528f9a26aad2",
   "install_command": "mkdir -p .claude/skills/senior-backend && curl -sL \"https://raw.githubusercontent.com/salamientark/dotfiles/main/claude/skills/engineering-team/senior-backend/SKILL.md\" > .claude/skills/senior-backend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/salamientark/dotfiles/main/claude/skills/engineering-team/senior-backend/SKILL.md"

@@ -3,8 +3,8 @@
   "description": "Backend-Frontend integration patterns expert. Type-safe API contracts with Pydantic-Zod validation sync (Python FastAPI) or Prisma-TypeScript native (Next.js). Shadcn forms connected to backend, error handling, loading states. Use when creating full-stack features.",
   "category": "development",
   "canonical_category": "development",
-  "repository": "nera0875/BUILDER",
-  "repository_url": "https://github.com/nera0875/BUILDER",
+  "repository": "nera0875/blv_htmx",
+  "repository_url": "https://github.com/nera0875/blv_htmx",
   "author": "nera0875",
   "author_avatar": "https://github.com/nera0875.png",
   "file_path": ".claude/skills/integration/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "ad78a11645101a79bfb4c14cd7d3b9aefd877482863c8fb55bda93e25e615562",
-  "indexed_at": "2026-02-27T06:54:14.036Z",
-  "synced_at": "2026-02-27T13:13:25.420Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/57dc90b6d91fd37661b055ca7b91d852aacb46ab6be1601980b77e71233d8dc7",
-  "install_command": "mkdir -p .claude/skills/integration && curl -sL \"https://raw.githubusercontent.com/nera0875/BUILDER/main/.claude/skills/integration/SKILL.md\" > .claude/skills/integration/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/nera0875/BUILDER/main/.claude/skills/integration/SKILL.md"
+  "content_hash": "481700c1864ba25bcc78b229295eedd3906be484b0a3739c3fd0a44b422cad72",
+  "indexed_at": "2026-02-26T05:53:55.810Z",
+  "synced_at": "2026-02-28T03:55:19.717Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f4ace0addab7d931592cb734f9ed9320ba070024c4d6c727d4d14a38cb0ff356",
+  "install_command": "mkdir -p .claude/skills/integration && curl -sL \"https://raw.githubusercontent.com/nera0875/blv_htmx/main/.claude/skills/integration/SKILL.md\" > .claude/skills/integration/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/nera0875/blv_htmx/main/.claude/skills/integration/SKILL.md"
 }

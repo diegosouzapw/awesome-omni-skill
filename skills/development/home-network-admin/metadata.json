@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7368519a913090edb707db13282ab197633350b5ae93ec2581a78521b42b179a",
   "indexed_at": "2026-02-25T19:42:22.372Z",
-  "synced_at": "2026-02-27T02:28:52.603Z",
+  "synced_at": "2026-02-28T03:54:41.931Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a0753f9d90f43d2a27c1bc52e29df563ec7555899871539eb4624cce66046c6d",
   "install_command": "mkdir -p .claude/skills/home-network-admin && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/home-network-admin/SKILL.md\" > .claude/skills/home-network-admin/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/home-network-admin/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e8548c54efa9ca517c4dd500e77626a5f659195c56f7c334fc691cf8acb4de73",
   "indexed_at": "2026-02-25T13:11:04.788Z",
-  "synced_at": "2026-02-27T02:28:21.096Z",
+  "synced_at": "2026-02-28T03:54:10.805Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/97b47b14a2505856d001a114a33e59efe167f61ce2e992bc331e649f660895df",
   "install_command": "mkdir -p .claude/skills/dansk-qa && curl -sL \"https://raw.githubusercontent.com/fiatkongen/saurun-marketplace/main/plugins/saurun/skills/dansk-qa/SKILL.md\" > .claude/skills/dansk-qa/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fiatkongen/saurun-marketplace/main/plugins/saurun/skills/dansk-qa/SKILL.md"

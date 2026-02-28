@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7e17693e60314b6b204852e8c55b52062f911e65cb238f09c709936065b06df6",
   "indexed_at": "2026-02-25T20:42:11.740Z",
-  "synced_at": "2026-02-27T02:28:54.137Z",
+  "synced_at": "2026-02-28T03:54:43.536Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8ba542d95610ada0d3664d892f2af0989767a57295041a7c4dd4538fa089cbd0",
   "install_command": "mkdir -p .claude/skills/inf && curl -sL \"https://raw.githubusercontent.com/jysh1214/inf/main/SKILL.md\" > .claude/skills/inf/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jysh1214/inf/main/SKILL.md"

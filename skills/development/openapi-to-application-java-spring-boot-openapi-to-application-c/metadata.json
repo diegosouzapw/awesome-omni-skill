@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "829278d9ac9e6428e7988a425c2091819948cd809916659c3661ca4aa2a14dba",
   "indexed_at": "2026-02-25T14:56:43.630Z",
-  "synced_at": "2026-02-27T02:28:32.200Z",
+  "synced_at": "2026-02-28T03:54:22.020Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8cff3ce12da7b516cee3fc087a0cfc9b134506784e46af0c7e3cdf0f9bb37d62",
   "install_command": "mkdir -p .claude/skills/openapi-to-application-java-spring-boot-openapi-to-application-c && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/openapi-to-application-java-spring-boot-codex-pack/.agents/skills/openapi-to-application-java-spring-boot-openapi-to-application-c/SKILL.md\" > .claude/skills/openapi-to-application-java-spring-boot-openapi-to-application-c/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/openapi-to-application-java-spring-boot-codex-pack/.agents/skills/openapi-to-application-java-spring-boot-openapi-to-application-c/SKILL.md"

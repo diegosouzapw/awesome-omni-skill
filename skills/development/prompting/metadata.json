@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4ab33f2cf9de0d2046678a8332bda4621ac4954e2c94ad6787655d76511171e5",
   "indexed_at": "2026-02-25T15:10:50.463Z",
-  "synced_at": "2026-02-27T02:28:35.345Z",
+  "synced_at": "2026-02-28T03:54:25.242Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b687dff83cc469e6a47c701c5b53e63d735436a0b0c666a151bedc7bdfb507e4",
   "install_command": "mkdir -p .claude/skills/prompting && curl -sL \"https://raw.githubusercontent.com/danielmiessler/Personal_AI_Infrastructure/main/Releases/v2.5/.claude/skills/Prompting/SKILL.md\" > .claude/skills/prompting/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/danielmiessler/Personal_AI_Infrastructure/main/Releases/v2.5/.claude/skills/Prompting/SKILL.md"

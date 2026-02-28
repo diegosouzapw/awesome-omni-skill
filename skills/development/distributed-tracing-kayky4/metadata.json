@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3f559884d56bac6fbf8af70c5984607af0c4cf3c8df94fc69fb837255f31c48d",
   "indexed_at": "2026-02-26T05:52:44.093Z",
-  "synced_at": "2026-02-27T02:29:28.757Z",
+  "synced_at": "2026-02-28T03:55:16.736Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9a573406f26604ebd61b73928a988602f71471dda0d693db3110983c999b4790",
   "install_command": "mkdir -p .claude/skills/distributed-tracing && curl -sL \"https://raw.githubusercontent.com/Kayky4/hold.ai/main/.agent/skills/skills/distributed-tracing/SKILL.md\" > .claude/skills/distributed-tracing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Kayky4/hold.ai/main/.agent/skills/skills/distributed-tracing/SKILL.md"

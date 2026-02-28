@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "39503274f425fca6715cadd78c3a1222cbddc1983d41ff30742ecdd2ac809bcc",
   "indexed_at": "2026-02-26T05:50:30.408Z",
-  "synced_at": "2026-02-27T02:29:21.912Z",
+  "synced_at": "2026-02-28T03:55:10.883Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/058a462d93dac866dc21450153a7b76c21d731c79dbbc9cf3b792330458e7684",
   "install_command": "mkdir -p .claude/skills/vibe-coding && curl -sL \"https://raw.githubusercontent.com/bhska/shopify-laravel/main/.factory/skills/vibe-coding/SKILL.md\" > .claude/skills/vibe-coding/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bhska/shopify-laravel/main/.factory/skills/vibe-coding/SKILL.md"

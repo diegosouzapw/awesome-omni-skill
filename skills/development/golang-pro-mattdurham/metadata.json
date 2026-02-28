@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0516c1f88994f1873f3de3fac275b7ed0d58b84bba3e258496ed3058e66c78c3",
   "indexed_at": "2026-02-26T05:50:33.280Z",
-  "synced_at": "2026-02-27T02:29:23.123Z",
+  "synced_at": "2026-02-28T03:55:11.199Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/300e818008a857be7cccac9e90851c1080ee7d4e3332e56a72a054e340bc7670",
   "install_command": "mkdir -p .claude/skills/golang-pro && curl -sL \"https://raw.githubusercontent.com/mattdurham/bob/main/agents/go-reviewer/SKILL.md\" > .claude/skills/golang-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattdurham/bob/main/agents/go-reviewer/SKILL.md"

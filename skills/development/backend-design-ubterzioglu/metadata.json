@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9cb95d99931a6afe02df3bab5f7a777eb017d8b4fabb1b5f5896ae4b2ab95749",
   "indexed_at": "2026-02-26T05:48:37.108Z",
-  "synced_at": "2026-02-27T02:29:16.775Z",
+  "synced_at": "2026-02-28T03:55:05.643Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a2026704fb44c726b39311bd347a3a384bfe151d20fb1f06442deebcca4bf5c5",
   "install_command": "mkdir -p .claude/skills/backend-design && curl -sL \"https://raw.githubusercontent.com/ubterzioglu/desiremap/main/.cline/skills/maestro/skills/backend-design/SKILL.md\" > .claude/skills/backend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ubterzioglu/desiremap/main/.cline/skills/maestro/skills/backend-design/SKILL.md"

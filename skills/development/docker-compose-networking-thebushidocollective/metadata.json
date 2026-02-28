@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "55b02487872cb5b215e93ee43f8e5a6f51600772fa542c4e6609b10d0bc7380e",
   "indexed_at": "2026-02-26T05:51:42.142Z",
-  "synced_at": "2026-02-27T02:29:26.335Z",
+  "synced_at": "2026-02-28T03:55:14.401Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c88ca79d889762dbdb7860dc5d6913071d3a796bf228320b8d88c95a21db7202",
   "install_command": "mkdir -p .claude/skills/docker-compose-networking && curl -sL \"https://raw.githubusercontent.com/TheBushidoCollective/han/main/plugins/tools/docker-compose/skills/docker-compose-networking/SKILL.md\" > .claude/skills/docker-compose-networking/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TheBushidoCollective/han/main/plugins/tools/docker-compose/skills/docker-compose-networking/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4da36109846b784bed7bb5e04c90983de4c6f39255d63fce86c486b8994b0148",
   "indexed_at": "2026-02-25T17:07:47.641Z",
-  "synced_at": "2026-02-27T02:28:40.579Z",
+  "synced_at": "2026-02-28T03:54:30.021Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ea473c44a75e1a827ae9fd6d304cffebc7df82791b38860cca4bc3da30adb8aa",
   "install_command": "mkdir -p .claude/skills/thirdweb && curl -sL \"https://raw.githubusercontent.com/0xkemcho/AutoClaw/main/.claude/skills/thirdweb/SKILL.md\" > .claude/skills/thirdweb/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/0xkemcho/AutoClaw/main/.claude/skills/thirdweb/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c68e4323ce6894cba005fd550efeef5cede6b9e691447d227a4641d79b96f51c",
   "indexed_at": "2026-02-26T05:52:46.829Z",
-  "synced_at": "2026-02-27T02:29:29.123Z",
+  "synced_at": "2026-02-28T03:55:17.090Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f9ae3251b81d0ad09230235bc346e83d897beb2f983609df8751ac8e20f182be",
   "install_command": "mkdir -p .claude/skills/performance-engineer && curl -sL \"https://raw.githubusercontent.com/TheGreatL/ojt-time-tracker/main/.agent/skills/performance-engineer/SKILL.md\" > .claude/skills/performance-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TheGreatL/ojt-time-tracker/main/.agent/skills/performance-engineer/SKILL.md"

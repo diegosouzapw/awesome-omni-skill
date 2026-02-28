@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ad94c9febfaaecff90278c35bc2e19c802991278bffaf16fc2e9e8623a2a76e6",
   "indexed_at": "2026-02-26T06:46:26.902Z",
-  "synced_at": "2026-02-27T02:29:44.614Z",
+  "synced_at": "2026-02-28T03:55:31.944Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/675ebc23779a33f91d142c6e208ef5489beafa25bbc2b430e2dc6e210aa36f0a",
   "install_command": "mkdir -p .claude/skills/frontend-design && curl -sL \"https://raw.githubusercontent.com/orient-bot/orient/main/.claude/skills/frontend-design/SKILL.md\" > .claude/skills/frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/orient-bot/orient/main/.claude/skills/frontend-design/SKILL.md"

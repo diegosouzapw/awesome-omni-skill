@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b45e4391392170334ec7125659f88104fcddf30f9485736d6bc9b18f5878a79d",
   "indexed_at": "2026-02-25T13:09:18.443Z",
-  "synced_at": "2026-02-27T02:28:20.126Z",
+  "synced_at": "2026-02-28T03:54:10.193Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4dbb488ada2c8f81ae0e3ccd3c2c5842b1ab12ddc8abd7cf6dd90e363322e6c2",
   "install_command": "mkdir -p .claude/skills/laravel-type-bridge-development && curl -sL \"https://raw.githubusercontent.com/GaiaTools/laravel-type-bridge/main/boost/skills/laravel-type-bridge/SKILL.md\" > .claude/skills/laravel-type-bridge-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/GaiaTools/laravel-type-bridge/main/boost/skills/laravel-type-bridge/SKILL.md"

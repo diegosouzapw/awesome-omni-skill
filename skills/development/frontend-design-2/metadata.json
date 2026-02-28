@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cc7931a8083280b6f8be34ff1beb875a8edf59e2f050d5dfc417b1a75b3a4230",
   "indexed_at": "2026-02-26T06:46:40.682Z",
-  "synced_at": "2026-02-27T02:29:45.875Z",
+  "synced_at": "2026-02-28T03:55:33.127Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ecd79ab7b8e244df9fb769e84c7ca1c542219bb183bd47c2f3d064c3b20bb9c7",
   "install_command": "mkdir -p .claude/skills/frontend-design-2 && curl -sL \"https://raw.githubusercontent.com/sundial-org/awesome-openclaw-skills/main/skills/frontend-design-2/SKILL.md\" > .claude/skills/frontend-design-2/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sundial-org/awesome-openclaw-skills/main/skills/frontend-design-2/SKILL.md"

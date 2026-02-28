@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6b9ad1aa002738da5c7f7093ccc9141516143bf0e8b754fa0373aae76d815129",
   "indexed_at": "2026-02-26T06:31:07.102Z",
-  "synced_at": "2026-02-27T02:29:39.958Z",
+  "synced_at": "2026-02-28T03:55:27.431Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7da1a1a071a36e5050ea9ba3e30c17c8862d665ec0e7eb557859709ed3d5eac9",
   "install_command": "mkdir -p .claude/skills/fly-deploy && curl -sL \"https://raw.githubusercontent.com/ianpcook/fly-deploy/main/SKILL.md\" > .claude/skills/fly-deploy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ianpcook/fly-deploy/main/SKILL.md"

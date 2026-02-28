@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6beff9392d1f6b63577667104cb92f2fdf855b582692cd0d063b5ed5010b1c37",
   "indexed_at": "2026-02-26T04:25:31.718Z",
-  "synced_at": "2026-02-27T02:29:01.045Z",
+  "synced_at": "2026-02-28T03:54:50.175Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed8f9da485d0826e8a2f9e52ba3007b9e829d82a71f49e9eb75a110ad9078fe1",
   "install_command": "mkdir -p .claude/skills/workflow-analyzer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/workflow-analyzer/SKILL.md\" > .claude/skills/workflow-analyzer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/workflow-analyzer/SKILL.md"

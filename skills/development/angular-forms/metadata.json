@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ebd9945e02b97bb56101ea6674854e7a46553c22dbf6977fc746f2f1f7eef809",
   "indexed_at": "2026-02-25T19:10:18.098Z",
-  "synced_at": "2026-02-27T02:28:49.757Z",
+  "synced_at": "2026-02-28T03:54:39.259Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/16f9fe3764395a37f06151d5189b67a454cca35b53e83c114b986cf48ef607c9",
   "install_command": "mkdir -p .claude/skills/angular-forms && curl -sL \"https://raw.githubusercontent.com/ROU-Technology/ng-utils/main/.agents/skills/angular-forms/SKILL.md\" > .claude/skills/angular-forms/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ROU-Technology/ng-utils/main/.agents/skills/angular-forms/SKILL.md"

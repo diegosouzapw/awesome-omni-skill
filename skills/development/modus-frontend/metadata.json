@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ab4c24694ca554cc48b019bbadf75504f46de2d94ff4995b994fee7b18b94c96",
   "indexed_at": "2026-02-26T06:46:05.682Z",
-  "synced_at": "2026-02-27T02:29:43.154Z",
+  "synced_at": "2026-02-28T03:55:30.458Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9ae3a6550cfd8ca687aac7372e25e6e327942d48c4b8e5ec4264d11fd5d107c3",
   "install_command": "mkdir -p .claude/skills/modus-frontend && curl -sL \"https://raw.githubusercontent.com/julianoczkowski/create-trimble-app/main/templates/react/.cursor/skills/modus-frontend/SKILL.md\" > .claude/skills/modus-frontend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/julianoczkowski/create-trimble-app/main/templates/react/.cursor/skills/modus-frontend/SKILL.md"

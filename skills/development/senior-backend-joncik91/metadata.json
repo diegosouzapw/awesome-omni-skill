@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "025aeeb80245e42664e1ea592d54d285fffdc7c02f82634f9f9816884faf82ce",
   "indexed_at": "2026-02-26T05:45:18.473Z",
-  "synced_at": "2026-02-27T02:29:06.699Z",
+  "synced_at": "2026-02-28T03:54:55.850Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c851bb85bfdbb157af9f1718a989404a5258ea68c2625a5da9e610f7ac1c4d02",
   "install_command": "mkdir -p .claude/skills/senior-backend && curl -sL \"https://raw.githubusercontent.com/Joncik91/ucai/main/skills/senior-backend/SKILL.md\" > .claude/skills/senior-backend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Joncik91/ucai/main/skills/senior-backend/SKILL.md"

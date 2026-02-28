@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8e37829c55887ef71b4bf704839228950223db2f4132b57998b2323513b765ef",
   "indexed_at": "2026-02-26T05:37:37.072Z",
-  "synced_at": "2026-02-27T02:29:03.912Z",
+  "synced_at": "2026-02-28T03:54:53.180Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a29b1cb1f0d7f8abddbecfea5b9c02648c71dc4a1c9e584740904416804f1f0e",
   "install_command": "mkdir -p .claude/skills/typefully && curl -sL \"https://raw.githubusercontent.com/synapz-org/typefully-claude-skill/main/SKILL.md\" > .claude/skills/typefully/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/synapz-org/typefully-claude-skill/main/SKILL.md"

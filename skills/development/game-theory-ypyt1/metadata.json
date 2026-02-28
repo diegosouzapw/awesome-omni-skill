@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d0370ce8e2ef2235b247c507a538598a79b1c39b18d993c2029e1a144b00986d",
   "indexed_at": "2026-02-25T17:41:33.607Z",
-  "synced_at": "2026-02-27T02:28:44.435Z",
+  "synced_at": "2026-02-28T03:54:33.955Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b3ff9b4c336c78a925613fcecdfa0473eb440f9e553fee1876ab54d7b411ab74",
   "install_command": "mkdir -p .claude/skills/game-theory && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/sp0oby/game-theory/SKILL.md\" > .claude/skills/game-theory/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/sp0oby/game-theory/SKILL.md"

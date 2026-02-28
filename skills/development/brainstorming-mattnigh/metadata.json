@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "799b74af16ba1859b8ce13e0f0a42fde6bf132955c15763a2c8eba02a82963b9",
   "indexed_at": "2026-02-26T05:52:29.527Z",
-  "synced_at": "2026-02-27T02:29:28.395Z",
+  "synced_at": "2026-02-28T03:55:16.339Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8103fa93820f0d0fb05d72c94b9b239a7d5b0c6b3a823ce1f26a3e33e18c277b",
   "install_command": "mkdir -p .claude/skills/brainstorming && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/yonatangross__create-yg-app__claude__skills__brainstorming__SKILL.md/SKILL.md\" > .claude/skills/brainstorming/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/yonatangross__create-yg-app__claude__skills__brainstorming__SKILL.md/SKILL.md"

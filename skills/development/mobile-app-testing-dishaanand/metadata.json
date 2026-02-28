@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "16ce21a003fae869624dfaad9de77025a20cb5725f5a76725a12d5061ebd1c79",
   "indexed_at": "2026-02-26T05:42:50.992Z",
-  "synced_at": "2026-02-27T02:29:05.601Z",
+  "synced_at": "2026-02-28T03:54:54.753Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d71fec1f743e55bbb5a4816b5e7cd6f6f796a5ae238cabd7b7cd0e421eb43572",
   "install_command": "mkdir -p .claude/skills/mobile-app-testing && curl -sL \"https://raw.githubusercontent.com/DishaAnand/FocusNest/main/.agents/skills/mobile-app-testing/SKILL.md\" > .claude/skills/mobile-app-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/DishaAnand/FocusNest/main/.agents/skills/mobile-app-testing/SKILL.md"

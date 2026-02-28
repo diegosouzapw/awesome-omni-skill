@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "896f553ba8fe538e0eae20b14b69b07ce0f55ac1dec0bb1ae5558fc4e3e987c2",
   "indexed_at": "2026-02-26T05:48:33.764Z",
-  "synced_at": "2026-02-27T02:29:16.436Z",
+  "synced_at": "2026-02-28T03:55:05.309Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5d21802a7a699ee334e2f1ff6378a2271ab2a4c69d678869658b1e0175053bc7",
   "install_command": "mkdir -p .claude/skills/backend-dev-guidelines && curl -sL \"https://raw.githubusercontent.com/ngxtm/devkit/main/skills/backend-dev-guidelines/SKILL.md\" > .claude/skills/backend-dev-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ngxtm/devkit/main/skills/backend-dev-guidelines/SKILL.md"

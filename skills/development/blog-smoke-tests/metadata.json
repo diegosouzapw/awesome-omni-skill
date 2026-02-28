@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6141d846f9e61017860e633c3f30be88d5c0505c465ed103f86b8ed6aca8deda",
   "indexed_at": "2026-02-26T04:12:36.524Z",
-  "synced_at": "2026-02-27T02:29:00.502Z",
+  "synced_at": "2026-02-28T03:54:49.651Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/06d28b4668f7bcbc45dc3329ff9c24398b8fad82010b248761f4564ea4cc1aa5",
   "install_command": "mkdir -p .claude/skills/blog-smoke-tests && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/blog-smoke-tests/SKILL.md\" > .claude/skills/blog-smoke-tests/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/blog-smoke-tests/SKILL.md"

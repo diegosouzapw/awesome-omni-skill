@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e11a74092990bcaba030be23c96c28af5b2901df7cb2fa372ad68049a39709d3",
   "indexed_at": "2026-02-26T05:53:33.247Z",
-  "synced_at": "2026-02-27T02:29:31.137Z",
+  "synced_at": "2026-02-28T03:55:19.138Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/db6379c5dc8563665dbdb16991081f96b9754ec6b98666b85f85daeccfce5852",
   "install_command": "mkdir -p .claude/skills/graphql-developer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/graphql-developer/SKILL.md\" > .claude/skills/graphql-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/graphql-developer/SKILL.md"

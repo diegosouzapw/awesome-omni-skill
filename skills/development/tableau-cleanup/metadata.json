@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0d255c1d168841d93585fd8441646552aab0dfa356038f7f7fc6452c58d57dd5",
   "indexed_at": "2026-02-25T16:50:07.530Z",
-  "synced_at": "2026-02-27T02:28:38.801Z",
+  "synced_at": "2026-02-28T03:54:28.308Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/891058043638a1710afc6e633d7904d9ec10e7254613623cd04a7320a8ad0f0c",
   "install_command": "mkdir -p .claude/skills/tableau-cleanup && curl -sL \"https://raw.githubusercontent.com/brettenf-UW/Tableau-Workbook-Cleanup-Agent/main/claude-skill/SKILL.md\" > .claude/skills/tableau-cleanup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/brettenf-UW/Tableau-Workbook-Cleanup-Agent/main/claude-skill/SKILL.md"

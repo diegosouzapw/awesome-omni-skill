@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3a62ea97ba5742c4ded6daa44b44203f795825ea5249b83f24b9682cca14cb82",
   "indexed_at": "2026-02-25T13:49:52.364Z",
-  "synced_at": "2026-02-27T02:28:23.475Z",
+  "synced_at": "2026-02-28T03:54:13.128Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/48183233c16bd7e2f61252f0068e4ad92292d5d2be53582b9ed40cdabe1c3472",
   "install_command": "mkdir -p .claude/skills/spring-boot-migrator && curl -sL \"https://raw.githubusercontent.com/addozhang/spring-boot-migrator-skill/main/SKILL.md\" > .claude/skills/spring-boot-migrator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/addozhang/spring-boot-migrator-skill/main/SKILL.md"

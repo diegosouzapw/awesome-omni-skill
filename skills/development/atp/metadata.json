@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9ae592333b5436fbcffd8d55058c9e8a20032a7bcee146b1995b5427a6a9a317",
   "indexed_at": "2026-02-25T14:10:03.986Z",
-  "synced_at": "2026-02-27T02:28:28.269Z",
+  "synced_at": "2026-02-28T03:54:18.310Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c617aa40c431f8287f4553b78800fb9c3443a51cce0f8a725724672b415e61c4",
   "install_command": "mkdir -p .claude/skills/atp && curl -sL \"https://raw.githubusercontent.com/The-Swarm-Corporation/ATP-Protocol/main/SKILL.md\" > .claude/skills/atp/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/The-Swarm-Corporation/ATP-Protocol/main/SKILL.md"

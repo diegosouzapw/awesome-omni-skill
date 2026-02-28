@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1eca7ce7269f47046606c3695af6d426e59c250b052929f717f8465390c883c2",
   "indexed_at": "2026-02-25T18:37:19.760Z",
-  "synced_at": "2026-02-27T02:28:46.081Z",
+  "synced_at": "2026-02-28T03:54:35.541Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1d02bc2015af1a9593bb8945863f94024e2070f99b0eab89916feb6f2b82e20f",
   "install_command": "mkdir -p .claude/skills/pr-draft-summary && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/openai/openai-agents-python/pr-draft-summary/SKILL.md\" > .claude/skills/pr-draft-summary/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/openai/openai-agents-python/pr-draft-summary/SKILL.md"

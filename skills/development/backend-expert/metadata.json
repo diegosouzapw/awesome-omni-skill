@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fe1dc1d52ca9db14475341918e6502832840a6e249c7e239cf99c1aecec9015b",
   "indexed_at": "2026-02-26T05:46:07.294Z",
-  "synced_at": "2026-02-27T02:29:09.040Z",
+  "synced_at": "2026-02-28T03:54:58.110Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4077a9fc7a60598d3560fb8cfb5169306a04c933a4395ac9475609b66609d41c",
   "install_command": "mkdir -p .claude/skills/backend-expert && curl -sL \"https://raw.githubusercontent.com/louishuyng/dotfiles/main/opencode/skills/backend-expert/SKILL.md\" > .claude/skills/backend-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/louishuyng/dotfiles/main/opencode/skills/backend-expert/SKILL.md"

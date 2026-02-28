@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "222a951a4327fd1e21c1bcc7c5d24b5b1aac89d2b9d1f4c12b509dc5f5ce7d31",
   "indexed_at": "2026-02-26T05:46:03.896Z",
-  "synced_at": "2026-02-27T02:29:08.695Z",
+  "synced_at": "2026-02-28T03:54:57.750Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c223c91126a61a2e9afdabb9fb1fb91fe40ac837fe5eab335093a4b08418f18a",
   "install_command": "mkdir -p .claude/skills/backend-dev-guidelines && curl -sL \"https://raw.githubusercontent.com/weirdgme/Claude-code-infrastructure-showcase/main/.claude/skills/backend-dev-guidelines/SKILL.md\" > .claude/skills/backend-dev-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/weirdgme/Claude-code-infrastructure-showcase/main/.claude/skills/backend-dev-guidelines/SKILL.md"

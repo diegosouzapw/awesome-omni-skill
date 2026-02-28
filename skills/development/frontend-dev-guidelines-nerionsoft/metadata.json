@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "94b12de0284f750708b2eaa217d455178f8540785ed1ca9d66436452f0dc60cd",
   "indexed_at": "2026-02-26T06:47:11.830Z",
-  "synced_at": "2026-02-27T02:29:50.433Z",
+  "synced_at": "2026-02-28T03:55:35.375Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/10a85d6e68872d5406bfdf16b408427fcf69b03ed4040bd40f142cd50f1c5019",
   "install_command": "mkdir -p .claude/skills/frontend-dev-guidelines && curl -sL \"https://raw.githubusercontent.com/NerionSoft/nuit-de-l-info/main/.claude/skills/frontend-dev-guidelines/SKILL.md\" > .claude/skills/frontend-dev-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NerionSoft/nuit-de-l-info/main/.claude/skills/frontend-dev-guidelines/SKILL.md"

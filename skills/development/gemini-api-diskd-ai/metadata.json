@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2a673b19f946db6746a4170679853db5820074e6639f9373d2562fe1c1af29c6",
   "indexed_at": "2026-02-25T18:40:58.125Z",
-  "synced_at": "2026-02-27T02:28:47.350Z",
+  "synced_at": "2026-02-28T03:54:36.950Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bc5ad7d0ae236efb3685f9c14c24714a3fd819fca52b07b2a4de511ebfdefc55",
   "install_command": "mkdir -p .claude/skills/gemini-api && curl -sL \"https://raw.githubusercontent.com/diskd-ai/gemini-api/main/SKILL.md\" > .claude/skills/gemini-api/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/diskd-ai/gemini-api/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c5be15a99cefa011d95bc611e2d4a29883d4221da20d858498f80991c6d003f7",
   "indexed_at": "2026-02-25T20:40:53.160Z",
-  "synced_at": "2026-02-27T02:28:53.646Z",
+  "synced_at": "2026-02-28T03:54:42.873Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/20ead3139a60c9de8efe6ea168f64bb2553e795a49ff82c1746b89dd1198647e",
   "install_command": "mkdir -p .claude/skills/frontend-playbook && curl -sL \"https://raw.githubusercontent.com/ObolNetwork/obol-stack/main/internal/embed/skills/frontend-playbook/SKILL.md\" > .claude/skills/frontend-playbook/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ObolNetwork/obol-stack/main/internal/embed/skills/frontend-playbook/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "230727220f9f1d8336190697a3197775e2db14b3cbe543555ff86e7c7b26ad35",
   "indexed_at": "2026-02-25T21:40:50.664Z",
-  "synced_at": "2026-02-27T02:28:55.509Z",
+  "synced_at": "2026-02-28T03:54:44.736Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cd97b5e536a53ec40e74f5ee633ab156be6d6f44f02cb3794dbaa62d14fb0683",
   "install_command": "mkdir -p .claude/skills/wcag-validator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/wcag-validator/SKILL.md\" > .claude/skills/wcag-validator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/wcag-validator/SKILL.md"

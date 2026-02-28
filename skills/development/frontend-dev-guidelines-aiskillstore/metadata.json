@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d3a2991bfe8416c387e638f85a0665ec5319d26d38ed821dd3604179cfe364b8",
   "indexed_at": "2026-02-26T06:45:47.013Z",
-  "synced_at": "2026-02-27T02:29:41.914Z",
+  "synced_at": "2026-02-28T03:55:29.311Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8ba6d68d99fbab16912a1728809fccfa9997ba4faa938b6861fb9d02f0561d55",
   "install_command": "mkdir -p .claude/skills/frontend-dev-guidelines && curl -sL \"https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/bom-98/frontend-dev-guidelines/SKILL.md\" > .claude/skills/frontend-dev-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/bom-98/frontend-dev-guidelines/SKILL.md"

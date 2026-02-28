@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b2893e64f2a80384916a3b28bc66d8fdaf86a61e64b183cf8ab013ffce4566d9",
   "indexed_at": "2026-02-26T00:41:20.021Z",
-  "synced_at": "2026-02-27T02:28:58.767Z",
+  "synced_at": "2026-02-28T03:54:47.989Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ceb9c49bdeae03e4b8392d9504db3d67ef828598bb3cd700254a1bf04a9b11c1",
   "install_command": "mkdir -p .claude/skills/database-management && curl -sL \"https://raw.githubusercontent.com/Sir-chawakorn/power-ranger-toolkit/main/src/skills/database-management/SKILL.md\" > .claude/skills/database-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Sir-chawakorn/power-ranger-toolkit/main/src/skills/database-management/SKILL.md"

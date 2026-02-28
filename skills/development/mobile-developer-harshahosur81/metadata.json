@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d4ad56ae17fee4ef71baa07f4d7588bb981f3e6b18d7bbaa8c37245e86b63a58",
   "indexed_at": "2026-02-26T05:55:24.285Z",
-  "synced_at": "2026-02-27T02:29:34.587Z",
+  "synced_at": "2026-02-28T03:55:22.128Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9f3953c527f4cf003aee0f7d135431d7b23caac95db7c4460c0b054e5b5a3e13",
   "install_command": "mkdir -p .claude/skills/mobile-developer && curl -sL \"https://raw.githubusercontent.com/harshahosur81/ag-opencode-skills/main/skills/mobile-developer/SKILL.md\" > .claude/skills/mobile-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/harshahosur81/ag-opencode-skills/main/skills/mobile-developer/SKILL.md"

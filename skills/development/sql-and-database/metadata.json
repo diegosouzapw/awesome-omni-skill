@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "76dd2d1c62f61ceb1f52c3e73fa1e3e21ba73046e876475be428520da0592fd0",
   "indexed_at": "2026-02-26T05:52:03.777Z",
-  "synced_at": "2026-02-27T02:29:27.215Z",
+  "synced_at": "2026-02-28T03:55:15.255Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ba8b7699edc4e66c86777b88c6bcb0b7d83a048300f25bc4e88e93cc4648ba1c",
   "install_command": "mkdir -p .claude/skills/sql-and-database && curl -sL \"https://raw.githubusercontent.com/TheSoftwareHouse/copilot-collections/main/.github/skills/sql-and-database/SKILL.md\" > .claude/skills/sql-and-database/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TheSoftwareHouse/copilot-collections/main/.github/skills/sql-and-database/SKILL.md"

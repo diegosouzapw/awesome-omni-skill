@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7a4cb73743b97b9e08e7bc7dc2d811e842362c079395230f70f76b65bd104e30",
   "indexed_at": "2026-02-26T06:45:50.874Z",
-  "synced_at": "2026-02-27T02:29:42.132Z",
+  "synced_at": "2026-02-28T03:55:29.457Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e1e1e7b0ee7339581330a5caa4e8115330cb952b8e442b8db26375291e734c2a",
   "install_command": "mkdir -p .claude/skills/deno-frontend && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/donjo/denoland/deno-frontend/SKILL.md\" > .claude/skills/deno-frontend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/donjo/denoland/deno-frontend/SKILL.md"

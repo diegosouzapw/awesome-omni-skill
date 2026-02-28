@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3c8ec0179ec27525202ad62bbcc37bfbf91374525d272c9ca749edeff9577ecf",
   "indexed_at": "2026-02-26T05:48:51.395Z",
-  "synced_at": "2026-02-27T02:29:17.296Z",
+  "synced_at": "2026-02-28T03:55:06.168Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a704df56e3c30ce159041b97fcb88116b7289e91a602706b03e039106cc11c22",
   "install_command": "mkdir -p .claude/skills/backend-dev-guidelines && curl -sL \"https://raw.githubusercontent.com/SamarthaKV29/antigravity-god-mode/main/skills/backend-dev-guidelines/SKILL.md\" > .claude/skills/backend-dev-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/SamarthaKV29/antigravity-god-mode/main/skills/backend-dev-guidelines/SKILL.md"

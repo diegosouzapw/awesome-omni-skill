@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "347177d784a94e5acce5c67ceb59209005da7806a2817a1e0af2c354dad3f443",
   "indexed_at": "2026-02-26T05:48:39.172Z",
-  "synced_at": "2026-02-27T02:29:16.953Z",
+  "synced_at": "2026-02-28T03:55:05.820Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fbd903b8b36c39627f22961bcf41ce9bde76dd63723cab6764dbdacee413569b",
   "install_command": "mkdir -p .claude/skills/backend-design && curl -sL \"https://raw.githubusercontent.com/HexAI-inc/v0-futuristic-website-design/main/.agents/skills/maestro/skills/backend-design/SKILL.md\" > .claude/skills/backend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HexAI-inc/v0-futuristic-website-design/main/.agents/skills/maestro/skills/backend-design/SKILL.md"

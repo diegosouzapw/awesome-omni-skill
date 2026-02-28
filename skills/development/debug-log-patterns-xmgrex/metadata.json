@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "71661e2299add1e55b13fc191d64d8f3a4cf46a729395263e9ee5b65151c0049",
   "indexed_at": "2026-02-26T04:08:41.736Z",
-  "synced_at": "2026-02-27T02:29:00.319Z",
+  "synced_at": "2026-02-28T03:54:49.478Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d85799905c3a7b610869247f06330548d2a448f7bd607ecb71ac9aab57feccea",
   "install_command": "mkdir -p .claude/skills/debug-log-patterns && curl -sL \"https://raw.githubusercontent.com/xmgrex/ccx-arsenal/main/plugins/pdca-debug-suite/skills/debug-log-patterns/SKILL.md\" > .claude/skills/debug-log-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/xmgrex/ccx-arsenal/main/plugins/pdca-debug-suite/skills/debug-log-patterns/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f8b16428ad0f1abbd53fe8c0e9a98814ded1803bde5abc0d6c065ca348919262",
   "indexed_at": "2026-02-25T13:08:15.849Z",
-  "synced_at": "2026-02-27T02:28:19.359Z",
+  "synced_at": "2026-02-28T03:54:09.377Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ca7b260453496b4d5b02320ae10a2cf7841ef5a1e1574a0de58ea3aead28c2d0",
   "install_command": "mkdir -p .claude/skills/seo-audit && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/mattvalenta/pls-seo-audit/SKILL.md\" > .claude/skills/seo-audit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mattvalenta/pls-seo-audit/SKILL.md"

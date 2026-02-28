@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "465e8f59b2ee1bee574db159e65fd80625a78534d59ade80333f6d1045c4b650",
   "indexed_at": "2026-02-26T05:52:02.098Z",
-  "synced_at": "2026-02-27T02:29:27.043Z",
+  "synced_at": "2026-02-28T03:55:15.079Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/15b786cb9db0d5fda705850b33d0bcc385f8c136091af0ac6f3253cdac5af0c8",
   "install_command": "mkdir -p .claude/skills/database-architect && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/plugins/database-cloud-optimization/skills/database-architect/SKILL.md\" > .claude/skills/database-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/plugins/database-cloud-optimization/skills/database-architect/SKILL.md"

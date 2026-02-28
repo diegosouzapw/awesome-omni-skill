@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "102fc4ce9a26636540ae9a18b2d03c1746c58c5bc62aab0ae806374056937798",
   "indexed_at": "2026-02-25T14:09:49.994Z",
-  "synced_at": "2026-02-27T02:28:27.917Z",
+  "synced_at": "2026-02-28T03:54:17.951Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fc4c545a887e29ed9688df4c895d8e1e475069a36aedf77ffd595eb89927cea0",
   "install_command": "mkdir -p .claude/skills/swedish-medications && curl -sL \"https://raw.githubusercontent.com/BirgerMoell/swedish-medications/main/SKILL.md\" > .claude/skills/swedish-medications/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/BirgerMoell/swedish-medications/main/SKILL.md"

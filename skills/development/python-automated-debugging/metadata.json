@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "74feee6ba5bee439b5b3bfcafc51ba96a0ba23b84cc8493880d283648a927504",
   "indexed_at": "2026-02-25T13:57:25.554Z",
-  "synced_at": "2026-02-27T02:28:26.112Z",
+  "synced_at": "2026-02-28T03:54:16.105Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9a8a9fa2c005377a53f2518b348549896264650164eefd475e39f97bdd67a3c5",
   "install_command": "mkdir -p .claude/skills/python-automated-debugging && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/python-automated-debugging-tpott-pub-musings/SKILL.md\" > .claude/skills/python-automated-debugging/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/python-automated-debugging-tpott-pub-musings/SKILL.md"

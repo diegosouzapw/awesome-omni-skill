@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a33111852f40c0823f6f244ed4281d93448d0faae4e3361d4452047ed02afbdc",
   "indexed_at": "2026-02-26T05:45:54.718Z",
-  "synced_at": "2026-02-27T02:29:08.055Z",
+  "synced_at": "2026-02-28T03:54:57.132Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b10c074313d4f205732f1bbeb4a5af1da47b4173f4319bca3d2590b32c6014b2",
   "install_command": "mkdir -p .claude/skills/senior-backend && curl -sL \"https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/alirezarezvani/senior-backend/SKILL.md\" > .claude/skills/senior-backend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/alirezarezvani/senior-backend/SKILL.md"

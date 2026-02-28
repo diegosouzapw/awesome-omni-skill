@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "81fc7a96d0d96b1d472922fbdb472f1908e0cbf3272f234f1e380714c41bae6e",
   "indexed_at": "2026-02-26T05:51:00.406Z",
-  "synced_at": "2026-02-27T02:29:23.999Z",
+  "synced_at": "2026-02-28T03:55:12.065Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4d63d2530bc13c5008793f2dead72bd6bc2a6f1176bf138ddadb73d446760ae3",
   "install_command": "mkdir -p .claude/skills/serena && curl -sL \"https://raw.githubusercontent.com/kryota-dev/dotfiles/main/.bin/.claude/skills/serena/SKILL.md\" > .claude/skills/serena/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kryota-dev/dotfiles/main/.bin/.claude/skills/serena/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4053138b98375818fa1569df76ce57ac42b7702ae51d6240e29d348a875a08ab",
   "indexed_at": "2026-02-26T05:52:48.763Z",
-  "synced_at": "2026-02-27T02:29:29.309Z",
+  "synced_at": "2026-02-28T03:55:17.278Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ca65123eeff77c7125fec2c75e321ee13c97e3db10d30fdad6c4cbed3f4bc583",
   "install_command": "mkdir -p .claude/skills/performance-engineer && curl -sL \"https://raw.githubusercontent.com/imranstein/ValuAdis/main/.agent/skills/performance-engineer/SKILL.md\" > .claude/skills/performance-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/imranstein/ValuAdis/main/.agent/skills/performance-engineer/SKILL.md"

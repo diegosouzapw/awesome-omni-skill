@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b82a02d5852f0983b51294f1bc73ac99379f5df3b4df947c126a76d9d00e203f",
   "indexed_at": "2026-02-26T06:45:18.016Z",
-  "synced_at": "2026-02-27T02:29:40.643Z",
+  "synced_at": "2026-02-28T03:55:28.193Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8996884ed375af3f0e78ad665c13a7effd346286d2feb63fe32567e87a10c5a0",
   "install_command": "mkdir -p .claude/skills/eduskill-landing-page && curl -sL \"https://raw.githubusercontent.com/bforbilly24/bforbilly/main/src/content/projects/eduskill.mdx/SKILL.md\" > .claude/skills/eduskill-landing-page/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bforbilly24/bforbilly/main/src/content/projects/eduskill.mdx/SKILL.md"

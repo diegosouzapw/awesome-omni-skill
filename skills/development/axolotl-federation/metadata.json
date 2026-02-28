@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fdd3bcc57f5667c1573897fabd1b62f1d5c07d3aee092980ae87c6014d63a61d",
   "indexed_at": "2026-02-26T05:50:11.751Z",
-  "synced_at": "2026-02-27T02:29:20.877Z",
+  "synced_at": "2026-02-28T03:55:10.045Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2c7d7863c7c4297f2c3e4fbc349ef1d588336ea485b9e8ddbca657de0a3a3279",
   "install_command": "mkdir -p .claude/skills/axolotl-federation && curl -sL \"https://raw.githubusercontent.com/aexol-studio/axolotl/main/examples/new/.opencode/skills/axolotl-federation/SKILL.md\" > .claude/skills/axolotl-federation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aexol-studio/axolotl/main/examples/new/.opencode/skills/axolotl-federation/SKILL.md"

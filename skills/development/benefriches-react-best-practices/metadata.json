@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4141fac8f39e73f127dc39c177150b95271ad5c8154b33d0470188cdf8037046",
   "indexed_at": "2026-02-25T14:56:58.439Z",
-  "synced_at": "2026-02-27T02:28:32.365Z",
+  "synced_at": "2026-02-28T03:54:22.175Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b727f0295eda76ea2b44ac01d245cddc2b5295f437cdfd616f89aad2ae6d9564",
   "install_command": "mkdir -p .claude/skills/benefriches-react-best-practices && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/react-best-practices-incubateur-ademe-benefriches/SKILL.md\" > .claude/skills/benefriches-react-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/react-best-practices-incubateur-ademe-benefriches/SKILL.md"

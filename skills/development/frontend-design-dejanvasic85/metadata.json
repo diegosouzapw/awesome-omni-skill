@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "80427c01b18f91488f5a4989284f10ac9ea0e8cfb92aa07b3d55f6c894cc22e5",
   "indexed_at": "2026-02-26T06:46:39.279Z",
-  "synced_at": "2026-02-27T02:29:45.695Z",
+  "synced_at": "2026-02-28T03:55:32.952Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0b779a7f95163d488e00a58fce820208829fd3d762a53336fdc2da8554d0b7e1",
   "install_command": "mkdir -p .claude/skills/frontend-design && curl -sL \"https://raw.githubusercontent.com/dejanvasic85/jlc-carpentry/main/.claude/skills/frontend-design/SKILL.md\" > .claude/skills/frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dejanvasic85/jlc-carpentry/main/.claude/skills/frontend-design/SKILL.md"

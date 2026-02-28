@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "05f1f7d8c182be994fb457d1690703fa583c9af7aebe4d4ada0b19bc6fc14657",
   "indexed_at": "2026-02-25T20:40:47.550Z",
-  "synced_at": "2026-02-27T02:28:53.485Z",
+  "synced_at": "2026-02-28T03:54:42.704Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9650ac26e6a784e63dfd77a4e3398d78a2a18982c33a8de5f9dce4dff8e236bf",
   "install_command": "mkdir -p .claude/skills/mobai && curl -sL \"https://raw.githubusercontent.com/MobAI-App/mobai-marketplace/main/plugins/mobai/skills/mobai/SKILL.md\" > .claude/skills/mobai/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MobAI-App/mobai-marketplace/main/plugins/mobai/skills/mobai/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a5399dd008cc493622aed12db9bea7647a892a173f35a64dfadc8d0b2210ccb8",
   "indexed_at": "2026-02-26T05:54:04.232Z",
-  "synced_at": "2026-02-27T02:29:32.139Z",
+  "synced_at": "2026-02-28T03:55:20.083Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2b27596d6ed80bf992a8eb8dc8862c4e07fb40a1a142d7ab0cbb3e4554606b8c",
   "install_command": "mkdir -p .claude/skills/graphql-api-development && curl -sL \"https://raw.githubusercontent.com/manutej/crush-mcp-server/main/.claude/skills/graphql-api-development/SKILL.md\" > .claude/skills/graphql-api-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/manutej/crush-mcp-server/main/.claude/skills/graphql-api-development/SKILL.md"

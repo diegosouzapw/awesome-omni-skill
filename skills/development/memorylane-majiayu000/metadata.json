@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "204c49bc28e0c9611e07025b0e95343e07d8fc4dd02f90fc4c192a8b2315cd7c",
   "indexed_at": "2026-02-25T13:06:19.108Z",
-  "synced_at": "2026-02-27T02:28:18.848Z",
+  "synced_at": "2026-02-28T03:54:08.836Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9c607e0419d80efb4470ffc23f871167ef5a86bc50b16f8a69997abf6f06945f",
   "install_command": "mkdir -p .claude/skills/memorylane && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/memorylane/SKILL.md\" > .claude/skills/memorylane/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/memorylane/SKILL.md"

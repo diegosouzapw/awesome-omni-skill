@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8ad97df71e883cb33b5d1f33338ced76d416dad7e0cd07576894babda9e0d771",
   "indexed_at": "2026-02-25T17:10:18.334Z",
-  "synced_at": "2026-02-27T02:28:41.748Z",
+  "synced_at": "2026-02-28T03:54:31.152Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2af9c8050bb26a04c51df8a4d4b65db4e0ff2629db547769310f9bdbb9481794",
   "install_command": "mkdir -p .claude/skills/prompting && curl -sL \"https://raw.githubusercontent.com/virtualian/pai/main/Releases/v3.0/.claude/skills/Prompting/SKILL.md\" > .claude/skills/prompting/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/virtualian/pai/main/Releases/v3.0/.claude/skills/Prompting/SKILL.md"

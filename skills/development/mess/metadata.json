@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "86548d01c12bbeb2e950d03c00d7660250927544dd81e2d62b8403e575d22a31",
   "indexed_at": "2026-02-25T13:01:44.636Z",
-  "synced_at": "2026-02-27T02:28:16.517Z",
+  "synced_at": "2026-02-28T03:54:06.682Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f1eed234bb50f18ca495826b3de363700c56e47c6fb3f25d352c4b1090179e4e",
   "install_command": "mkdir -p .claude/skills/mess && curl -sL \"https://raw.githubusercontent.com/teaguesterling/git-messe-af/main/SKILL.md\" > .claude/skills/mess/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/teaguesterling/git-messe-af/main/SKILL.md"

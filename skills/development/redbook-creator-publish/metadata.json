@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2e301174ecd6c263aa00c81b5adde9b398609412c88aa51ca9c658b44c9e2b69",
   "indexed_at": "2026-02-25T13:49:34.717Z",
-  "synced_at": "2026-02-27T02:28:22.614Z",
+  "synced_at": "2026-02-28T03:54:12.236Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bc353ad989c03ea9fc95ac817868c26003574eee086299e96c305aa7011eeaf8",
   "install_command": "mkdir -p .claude/skills/redbook-creator-publish && curl -sL \"https://raw.githubusercontent.com/yanquankun/redbook-creator-publish/main/SKILL.md\" > .claude/skills/redbook-creator-publish/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yanquankun/redbook-creator-publish/main/SKILL.md"

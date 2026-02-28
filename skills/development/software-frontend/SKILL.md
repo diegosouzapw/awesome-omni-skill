@@ -1,381 +1,315 @@
 ---
 name: software-frontend
-description: Production-grade frontend engineering for Next.js/React, Vue/Nuxt, Angular, Svelte/SvelteKit, Remix, and Vite+React. Use for framework selection, App Router/RSC patterns, TypeScript strict-mode UI code, Tailwind CSS v4 + shadcn/ui, state/data flows (TanStack Query, Zustand), forms validation, testing (Vitest/Testing Library/Playwright), performance (Core Web Vitals), and accessibility (WCAG 2.2).
+description: Production-grade frontend development with Next.js 16 App Router, TypeScript 5.9+ strict mode, Tailwind CSS v4, shadcn/ui, React 19.2 Server Components, state management (Zustand/Recoil), performance optimization (Turbopack stable, ISR/SSR/SSG), and accessibility best practices. Includes TanStack Query for server-state, Vitest for testing, and modern React patterns.
 ---
 
-# Frontend Engineering
+# Frontend Engineering Skill — Quick Reference
 
-Production-ready patterns for modern web applications.
+This skill equips frontend engineers with execution-ready patterns for building modern web applications with Next.js, React, TypeScript, and Tailwind CSS. Apply these patterns when you need component design, state management, routing, forms, data fetching, animations, accessibility, or production-grade UI architectures.
 
-**Modern Best Practices (January 2026)**: Next.js 16 + Turbopack, React 19.x + Server Components, TypeScript 5.9+ (strict), Tailwind CSS v4, TanStack Query, Zustand, Vitest (browser mode).
+**Modern Best Practices (December 2025)**: Next.js 16 with Turbopack (stable, default bundler), **middleware.ts → proxy.ts migration** (clarifies network boundary, runs on Node.js runtime), React 19.2 with Server Components, Actions, Activity component, and useEffectEvent hook, enhanced ISR/SSR/SSG, partial prerendering (PPR), stable caching APIs (`cacheLife`, `cacheTag`, `updateTag`), Zustand/Recoil as Redux alternatives, TanStack Query (React Query) for server-state, TypeScript 5.9+ strict mode enforcement (TypeScript 7 "Corsa" Go-based compiler in preview), `satisfies` operator, Tailwind CSS v4 (CSS-first config, 5x faster builds), Vitest for testing, and progressive enhancement patterns.
 
-**Breaking Changes**: [Next.js 16 Upgrade Guide](https://nextjs.org/docs/app/guides/upgrading/version-16)
+**Next.js 16 Breaking Changes**: [Upgrade Guide](https://nextjs.org/docs/app/guides/upgrading/version-16)
 
-Shared release gates: `../software-clean-code-standard/assets/checklists/frontend-performance-a11y-checklist.md`
-
-If you use React Server Components (RSC), treat security advisories as blocking: see `data/sources.json` (React RSC advisories).
+---
 
 ## Quick Reference
 
-| Task | Tool | Command |
-|------|------|---------|
-| Next.js App | Next.js 16 + Turbopack | `npx create-next-app@latest` |
-| Vue App | Nuxt 4 | `npx nuxi@latest init` |
-| Angular App | Angular 21 | `ng new` |
-| Svelte App | SvelteKit 2.49+ | `npm create svelte@latest` |
-| React SPA | Vite + React | `npm create vite@latest` |
-| UI Components | shadcn/ui | `npx shadcn@latest init` |
+| Task | Tool/Framework | Command | When to Use |
+|------|----------------|---------|-------------|
+| Next.js App | Next.js 16 + Turbopack | `npx create-next-app@latest` | Full-stack React apps, SEO, SSR/SSG |
+| Vue App | Nuxt 4 | `npx nuxi@latest init` | Vue ecosystem, auto-imports, Nitro server |
+| Angular App | Angular 21 | `ng new` | Enterprise apps, zoneless change detection, esbuild |
+| Svelte App | SvelteKit 2.49+ | `npm create svelte@latest` | Performance-first, minimal JS, Svelte 5 runes |
+| React SPA | Vite + React | `npm create vite@latest` | Client-side apps, fast dev server |
+| UI Components | shadcn/ui + Radix UI | `npx shadcn@latest init` | Accessible components, Tailwind v4 styling |
+| Forms | React Hook Form + Zod | `npm install react-hook-form zod` | Type-safe validation, performance |
+| State Management | Zustand/Recoil | `npm install zustand` | Lightweight global state |
+| Server State | TanStack Query | `npm install @tanstack/react-query` | API caching, server-state sync |
+| Testing | Vitest + Testing Library | `vitest run` | Unit/component tests, fast execution |
 
-## Workflow
+# When to Use This Skill
 
-1. Pick a framework using the decision tree.
-2. Start from a matching template in `assets/`.
-3. Implement feature-specific patterns from `references/`.
-4. Treat accessibility and performance as release gates (shared checklist above).
+Use this skill when you need:
 
-## Framework Decision Tree
+- Next.js 16 application architecture and setup (Turbopack stable, App Router, React 19)
+- React component design and patterns (functional components, hooks, Server Components)
+- TypeScript type definitions for UI (strict mode, `satisfies` operator, discriminated unions)
+- Tailwind CSS styling and responsive design (utility-first, dark mode variants)
+- shadcn/ui component integration (Radix UI + Tailwind)
+- Form handling and validation (React Hook Form + Zod, Server Actions)
+- State management (Zustand/Recoil for client state, TanStack Query for server state)
+- Data fetching (Server Components, TanStack Query/SWR, Server Actions, streaming)
+- Authentication flows (NextAuth.js, Clerk, Auth0)
+- Route handling and navigation (App Router, parallel routes, intercepting routes)
+- Performance optimization (Turbopack, Image optimization, code splitting, ISR/SSR/SSG)
+- Accessibility (WCAG 2.2, ARIA, keyboard navigation, screen reader testing) https://www.w3.org/TR/WCAG22/
+- Animation and transitions (Framer Motion, Tailwind animations)
+- Testing (Vitest for unit tests, Testing Library for components, Playwright for E2E)
+
+## Decision Tree: Frontend Framework Selection
 
 ```text
-Project needs:
-|-- React ecosystem?
-|   |-- Full-stack + SEO -> Next.js 16
-|   |-- Progressive enhancement -> Remix
-|   `-- Client-side SPA -> Vite + React
-|
-|-- Vue ecosystem?
-|   |-- Full-stack -> Nuxt 4
-|   `-- SPA -> Vite + Vue 3.5+
-|
-|-- State management?
-|   |-- Server data -> TanStack Query
-|   |-- Global client -> Zustand
-|   `-- WARNING: DECLINING: Redux
-|
-`-- Styling?
-    |-- Utility-first -> Tailwind CSS v4
-    `-- WARNING: DECLINING: CSS-in-JS
+Project needs: [Framework Choice]
+    ├─ React ecosystem?
+    │   ├─ Full-stack + SEO → Next.js 16 (App Router, React 19.2, Turbopack stable)
+    │   ├─ Progressive enhancement → Remix (loaders, actions, nested routes)
+    │   └─ Client-side SPA → Vite + React (fast dev, minimal config)
+    │
+    ├─ Vue ecosystem?
+    │   ├─ Full-stack + SSR → Nuxt 4 (auto-imports, Nitro server, file-based routing)
+    │   └─ Client-side SPA → Vite + Vue 3.5+ (Composition API, script setup)
+    │
+    ├─ Angular preferred?
+    │   └─ Enterprise app → Angular 21 (zoneless change detection, esbuild, signals)
+    │
+    ├─ Performance-first?
+    │   └─ Minimal JS bundle → SvelteKit 2.49+ (Svelte 5.45 runes, compiler magic)
+    │
+    ├─ Component library?
+    │   ├─ Headless + customizable → shadcn/ui + Radix UI + Tailwind
+    │   ├─ Material Design → MUI (Material-UI)
+    │   └─ Enterprise UI → Ant Design
+    │
+    ├─ State management?
+    │   ├─ Server data → TanStack Query/SWR (caching, sync)
+    │   ├─ Global client state → Zustand (lightweight) or Recoil (React-first)
+    │   ├─ Complex state logic → XState (state machines)
+    │   └─ URL-based state → useSearchParams (shareable filters)
+    │
+    ├─ Styling approach?
+    │   ├─ Utility-first → Tailwind CSS v4 (CSS-first config, 5x faster builds)
+    │   ├─ CSS-in-JS → Styled Components or Emotion
+    │   └─ CSS Modules → Built-in CSS Modules
+    │
+    └─ Testing strategy?
+        ├─ Unit/Component → Vitest + Testing Library (fast, modern)
+        ├─ E2E → Playwright (cross-browser, reliable)
+        └─ Visual regression → Chromatic or Percy
 ```
 
-## Next.js 16 Changes
+**Framework Selection Factors:**
 
-### middleware.ts -> proxy.ts
+- **Team experience**: Choose what the team knows or can learn quickly
+- **SSR/SSG requirements**: Next.js, Nuxt, Remix for server-side rendering
+- **Performance constraints**: SvelteKit for minimal JS, Next.js for optimization
+- **Ecosystem maturity**: React has largest ecosystem, Vue/Angular are also mature
+
+See [resources/](resources/) for framework-specific best practices.
+
+---
+
+## Next.js 16 Migration: middleware.ts → proxy.ts
+
+**Breaking Change (Dec 2025)**: The `middleware` convention is renamed to `proxy` in Next.js 16.
+
+### Why the Change?
+
+- **Clarity**: "Proxy" better describes the network boundary behavior (runs in front of the app)
+- **Runtime**: `proxy.ts` runs on **Node.js runtime** (not Edge by default)
+- **Avoid confusion**: Prevents confusion with Express.js middleware patterns
+
+### Migration Steps
 
 ```bash
-# Run codemod
+# 1. Run the codemod (recommended)
 npx @next/codemod@canary upgrade latest
 
-# Or manually rename
+# 2. Or manually rename
 mv middleware.ts proxy.ts
 ```
 
 ```typescript
+// Before (Next.js 15)
+export function middleware(request: Request) {
+  // ... logic
+}
+
 // After (Next.js 16)
 export function proxy(request: Request) {
   // ... logic
 }
 ```
 
-### Cache Components (`"use cache"`)
-
 ```typescript
-export default async function Page() {
-  "use cache";
-  const data = await fetchData();
-  return <ProductList data={data} />;
+// next.config.ts - Update config option
+const nextConfig: NextConfig = {
+  skipProxyUrlNormalize: true, // was: skipMiddlewareUrlNormalize
 }
 ```
 
-### React Compiler
+### Runtime Considerations
+
+| Feature | proxy.ts (Next.js 16) | middleware.ts (legacy) |
+| ------- | --------------------- | ---------------------- |
+| Default Runtime | Node.js | Edge |
+| Edge Support | Not supported | Supported |
+| Use Case | Auth, rewrites, redirects | Edge-first apps |
+
+**⚠️ Keep using `middleware.ts`** if you need Edge Runtime. The `proxy` convention does NOT support Edge.
+
+### Related Changes in Next.js 16
+
+- **Async Request APIs**: `cookies()`, `headers()`, `params`, `searchParams` are now async
+- **Turbopack default**: Remove `--turbopack` flags from scripts
+- **Parallel routes**: Require explicit `default.js` files
+- **Image changes**: `domains` deprecated (use `remotePatterns`), new default cache TTL
+
+---
+
+## React 19.2 Patterns (Dec 2025)
+
+### Security Note (React Server Components)
+
+- Track and patch React Server Components vulnerabilities quickly (RCE/DoS/source exposure advisories in Dec 2025) https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components and https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components
+
+### Partial Prerendering (PPR)
+
+Pre-render static shell, stream dynamic content.
 
 ```typescript
-// next.config.ts
-const nextConfig: NextConfig = {
+// Next.js 16 with PPR enabled
+// next.config.js
+export default {
   experimental: {
-    reactCompiler: true,
+    ppr: true, // Enable Partial Prerendering
   },
 };
+
+// Page component
+export default async function Page() {
+  return (
+    <main>
+      <Header /> {/* Static: pre-rendered */}
+      <Suspense fallback={<Skeleton />}>
+        <DynamicContent /> {/* Dynamic: streamed */}
+      </Suspense>
+      <Footer /> {/* Static: pre-rendered */}
+    </main>
+  );
+}
 ```
 
-## Performance Budgets
+### use() Hook Pattern
 
-| Metric | Target |
-|--------|--------|
-| LCP | <= 2.5s |
-| INP | <= 200ms |
-| CLS | <= 0.1 |
-| TTFB | < 600ms |
-
-## Deployment Checklist
-
-### Pre-Deployment
-
-- [ ] `npm run build` - no errors
-- [ ] `npm run lint` - zero ESLint errors
-- [ ] `vitest run` - all tests passing
-- [ ] Bundle size within budget
-- [ ] Environment variables set
-
-### Accessibility
-
-- [ ] axe DevTools - zero critical issues
-- [ ] Keyboard navigation works
-- [ ] Color contrast >= 4.5:1
-- [ ] Screen reader tested
-
-### SEO
-
-- [ ] Metadata configured
-- [ ] sitemap.xml generated
-- [ ] robots.txt configured
-
-## Resources
-
-| Resource | Purpose |
-|----------|---------|
-| [references/fullstack-patterns.md](references/fullstack-patterns.md) | Server/client components, data fetching |
-| [references/vue-nuxt-patterns.md](references/vue-nuxt-patterns.md) | Vue 3, Nuxt, Pinia |
-| [references/angular-patterns.md](references/angular-patterns.md) | Angular 21, signals |
-| [references/svelte-sveltekit-patterns.md](references/svelte-sveltekit-patterns.md) | Svelte 5, SvelteKit |
-| [references/remix-react-patterns.md](references/remix-react-patterns.md) | Remix loaders, actions |
-| [references/operational-playbook.md](references/operational-playbook.md) | Architecture, security |
-| [references/state-management-patterns.md](references/state-management-patterns.md) | TanStack Query, Zustand, Jotai, Redux Toolkit |
-| [references/testing-frontend-patterns.md](references/testing-frontend-patterns.md) | Vitest, Testing Library, Playwright, MSW |
-| [references/performance-optimization.md](references/performance-optimization.md) | Core Web Vitals, code splitting, image/font optimization |
-
-## Templates
-
-| Framework | Template |
-|-----------|----------|
-| Next.js | [assets/nextjs/template-nextjs-tailwind-shadcn.md](assets/nextjs/template-nextjs-tailwind-shadcn.md) |
-| Vue/Nuxt | [assets/vue-nuxt/template-nuxt4-tailwind.md](assets/vue-nuxt/template-nuxt4-tailwind.md) |
-| Angular | [assets/angular/template-angular21-standalone.md](assets/angular/template-angular21-standalone.md) |
-| Svelte | [assets/svelte/template-sveltekit-runes.md](assets/svelte/template-sveltekit-runes.md) |
-
-## Related Skills
-
-| Skill | Purpose |
-|-------|---------|
-| [software-backend](../software-backend/SKILL.md) | Backend API |
-| [dev-api-design](../dev-api-design/SKILL.md) | REST/GraphQL |
-| [software-code-review](../software-code-review/SKILL.md) | Code review |
-| [ops-devops-platform](../ops-devops-platform/SKILL.md) | CI/CD |
-
----
-
-## React 19 + Frontend Ops Addendum (Feb 2026)
-
-### Frequent Lint/Type Pitfalls (Operational)
-
-Treat these as first-class fix targets during frontend work:
-- `react-hooks/set-state-in-effect`
-- `react-hooks/purity`
-- `react-hooks/rules-of-hooks`
-- `react/no-unescaped-entities`
-
-### Frontend Verification Order
-
-1. Lint edited files only.
-2. Type-check edited feature surface.
-3. Run full project lint/type/build once before handoff.
-
-Avoid repeated full builds while known local lint/type failures remain.
-
-### CLI Drift Guard (ESLint/Vitest)
-
-Do not assume flags from older setups.
-
-Use:
-```bash
-npx eslint --help
-npx vitest --help
-```
-
-Then run commands compatible with the detected CLI mode.
-
-### Frontend Handoff Requirements
-
-Include in final output:
-- exact files changed,
-- lint/type/build commands run,
-- whether failures are new or baseline,
-- one prevention note for any repeated class of issue.
-
-### Route Deletion Link Audit
-
-After deleting or renaming any page/route/component file:
-
-1. Grep the codebase for the old path/import (e.g., `rg "from.*old-module"`, `rg "href.*old-route"`).
-2. Update or remove all references (imports, `<Link>` hrefs, redirects, sitemap entries).
-3. Check navigation components, breadcrumbs, and cross-link cards for stale references.
-
-Skipping this creates runtime 404s and broken imports that surface only in production.
-
-### Architecture Pre-Check Before New Infrastructure
-
-Before adding new infrastructure (new context providers, new API routes, new state stores):
-
-1. Search for existing patterns that already solve the problem (`rg "createContext"`, `rg "useQuery"`).
-2. Prefer extending existing infrastructure over creating parallel systems.
-3. If new infrastructure is truly needed, document why the existing pattern is insufficient.
-
-### Route Migration Checklist
-
-When consolidating or restructuring routes (e.g., many pages → tabbed architecture):
-
-1. Map all existing routes to their new destinations.
-2. Add redirects for removed routes (Next.js `redirects` in config or middleware).
-3. Update all internal `<Link>` components, `router.push()` calls, and shared navigation configs.
-4. Update sitemap, robots.txt, and any SEO metadata referencing old routes.
-5. Run a full-app link audit: `rg "href=" --glob "*.tsx"` to verify no stale paths remain.
-
----
-
-## React 19 + Next.js 16 Production Gotchas (Feb 2026)
-
-Seven patterns learned from real production sessions.
-
-### 1. Hydration Safety Pattern
-
-In Next.js 16 + React 19 SSR, server components run in Node.js (UTC, no `window`) while client components hydrate in the browser. Every `new Date()`, `localStorage`, and browser API call is a potential mismatch.
+Promise resolution in components with Suspense.
 
 ```typescript
-// PASS: useState(null) + useEffect — server renders skeleton, client fills real value
-const [moonPhase, setMoonPhase] = useState<string | null>(null);
+// Before: useEffect + useState
+const [data, setData] = useState(null);
 useEffect(() => {
-  setMoonPhase(calculateMoonPhase(new Date()));
+  fetchData().then(setData);
 }, []);
-if (!moonPhase) return <Skeleton />;
 
-// FAIL: useMemo with Date() — server (UTC midnight) !== client (user timezone)
-const moonPhase = useMemo(() => calculateMoonPhase(new Date()), []);
-// Causes React Error #418 (hydration mismatch), 53 occurrences in production
+// After: use() hook (React 19+)
+const data = use(fetchDataPromise);
 ```
 
-**Rule**: Use `useState(null) + useEffect` for ANY computation depending on:
-- `new Date()` (timezone-dependent)
-- `localStorage` / `sessionStorage` (not available on server)
-- `window.*` properties (navigator, screen, location)
-- Any browser-only API
-
-### 2. Safe Storage Access (String Discriminator Pattern)
-
-JavaScript evaluates function arguments BEFORE the function body executes. Passing `localStorage` to a safe wrapper defeats the try/catch:
+### Error Boundary Patterns
 
 ```typescript
-// FAIL: localStorage is evaluated at the CALL SITE, before try/catch
-function safeGet(storage: Storage, key: string) {
-  try { return storage.getItem(key); } // too late — already threw
-  catch { return null; }
+'use client';
+
+import { ErrorBoundary } from 'react-error-boundary';
+
+function ErrorFallback({ error, resetErrorBoundary }) {
+  return (
+    <div role="alert">
+      <p>Something went wrong:</p>
+      <pre>{error.message}</pre>
+      <button onClick={resetErrorBoundary}>Try again</button>
+    </div>
+  );
 }
-safeGet(localStorage, 'theme'); // SecurityError in Firefox (cookies disabled)
 
-// PASS: String discriminator — storage access inside try/catch
-function safeGet(type: 'local' | 'session', key: string) {
-  try {
-    const storage = type === 'local' ? window.localStorage : window.sessionStorage;
-    return storage.getItem(key);
-  } catch { return null; }
-}
-safeGet('local', 'theme'); // Safe — never throws
-```
-
-### 3. React Three Fiber (R3F) Prop Spreading
-
-Never rest-spread props onto R3F/Three.js elements. Unknown props corrupt Three.js internal state silently:
-
-```typescript
-// FAIL: Spreads isHovered, color, etc. onto <mesh> — breaks click handlers
-<mesh {...handlers} position={pos}>
-
-// PASS: Destructure and pass only known R3F event props
-const { onClick, onPointerOver, onPointerOut } = handlers;
-<mesh onClick={onClick} onPointerOver={onPointerOver} onPointerOut={onPointerOut} position={pos}>
-```
-
-### 4. Defensive Response Parsing
-
-Dev servers, CDNs, and proxies can return HTML error pages. Never call `.json()` without guards:
-
-```typescript
-// FAIL: Throws SyntaxError when server returns HTML error page
-const data = await response.json();
-
-// PASS: Check response.ok + try/catch json()
-if (!response.ok) {
-  throw new Error(`API error: ${response.status}`);
-}
-let data;
-try {
-  data = await response.json();
-} catch {
-  throw new Error('Invalid JSON response — server may have returned an error page');
+export default function App() {
+  return (
+    <ErrorBoundary FallbackComponent={ErrorFallback}>
+      <MyComponent />
+    </ErrorBoundary>
+  );
 }
 ```
 
-### 5. The Truthy `||` Fallback Trap
+### Performance Budgets
 
-`data.field || []` does NOT protect against truthy non-array objects:
+| Metric | Target | Tool |
+|--------|--------|------|
+| LCP (Largest Contentful Paint) | <= 2.5s | Lighthouse / web-vitals |
+| INP (Interaction to Next Paint) | <= 200ms | Chrome DevTools / web-vitals https://web.dev/vitals/ |
+| CLS (Cumulative Layout Shift) | <= 0.1 | Lighthouse / web-vitals |
+| TTFB (Time to First Byte) | Project SLO [Inference] | Lighthouse |
+| Bundle size (JS) | Project budget [Inference] | bundle analyzer |
 
-```typescript
-// FAIL: { __gated: true, teaser: "..." } is truthy — passes through as "the array"
-const items = data.transits || [];
-items.sort(); // TypeError: items.sort is not a function
+---
 
-// PASS: Array.isArray() at system boundaries
-const items = Array.isArray(data.transits) ? data.transits : [];
-```
+### Optional: AI/Automation Extensions
 
-### 6. Turbopack + macOS File Descriptor Limit
+> **Note**: AI design and development tools. Skip if not using AI tooling.
 
-macOS default ulimit (~256) is too low for Turbopack in large Next.js projects. Causes:
-- `EMFILE: too many open files` errors
-- `build-manifest.json` ENOENT panics
-- Stale chunk loading failures in browser
+#### AI Design Tools
 
-Fix:
-```bash
-# Add to ~/.zshrc or ~/.bashrc
-ulimit -n 10240
+| Tool | Use Case |
+|------|----------|
+| v0.dev | UI generation from prompts |
+| Vercel AI SDK | Streaming UI, chat interfaces |
+| Figma AI | Design-to-code prototypes |
+| Visily | Wireframe generation |
 
-# Emergency recovery when .next is corrupted
-# 1. Kill dev server
-# 2. rm -rf .next
-# 3. npm run dev
-```
+#### AI-Powered Testing
 
-### 7. Procedural Generation over External Assets (WebGL)
+| Tool | Use Case |
+|------|----------|
+| Playwright AI | Self-healing selectors |
+| Testim | AI-generated test maintenance |
+| Applitools | Visual AI testing |
 
-For WebGL/Three.js visuals, procedural generation (GLSL shaders) is more robust than external texture files:
-- No 404 errors from missing textures
-- No sandbox/CORS issues
-- No loading states or error cascades
-- Zero external file dependencies
-- Often more visually striking (simplex noise patterns)
+#### Optional Related Skills
 
-## Ops Runbook: SEO-Safe UI and Copy Refresh
+- [../ai-llm/SKILL.md](../ai-llm/SKILL.md) — Optional: AI-powered features and LLM integration patterns
 
-Use this for redesigns, pricing-copy updates, and landing refreshes that must not break indexed routes.
+---
 
-### Command Checklist
+## Navigation
 
-```bash
-# 1) Verify route/link impact
-rg -n "href=|router\.push\(|redirect\(" src app
+**Resources** (Framework-specific best practices)
+- [resources/fullstack-patterns.md](resources/fullstack-patterns.md) — Universal patterns: Server vs client components, data fetching, TypeScript
+- [resources/vue-nuxt-patterns.md](resources/vue-nuxt-patterns.md) — Vue 3 Composition API, Nuxt 3, Pinia state management
+- [resources/angular-patterns.md](resources/angular-patterns.md) — Angular 18 standalone components, signals, RxJS patterns
+- [resources/svelte-sveltekit-patterns.md](resources/svelte-sveltekit-patterns.md) — Svelte 5 runes, SvelteKit loaders/actions
+- [resources/remix-react-patterns.md](resources/remix-react-patterns.md) — Remix loaders, actions, progressive enhancement
+- [resources/vite-react-patterns.md](resources/vite-react-patterns.md) — Vite setup, React hooks, TanStack Query
+- [resources/artifacts-builder.md](resources/artifacts-builder.md) — React/Tailwind/shadcn artifact workflow and bundling to single HTML
+- [README.md](README.md) — Folder overview and usage notes
+- [data/sources.json](data/sources.json) — 106 curated resources for all frameworks (Next.js, Vue/Nuxt, Angular, Svelte, Remix, Vite)
+- Shared checklist: [../software-clean-code-standard/templates/checklists/frontend-performance-a11y-checklist.md](../software-clean-code-standard/templates/checklists/frontend-performance-a11y-checklist.md)
 
-# 2) Verify metadata/sitemap/robots touchpoints
-rg -n "metadata|sitemap|robots|canonical|hreflang|alternates" src app
+**Shared Utilities** (Centralized patterns — extract, don't duplicate)
+- [../software-clean-code-standard/utilities/error-handling.md](../software-clean-code-standard/utilities/error-handling.md) — Effect Result types, correlation IDs
+- [../software-clean-code-standard/utilities/config-validation.md](../software-clean-code-standard/utilities/config-validation.md) — Zod 3.24+, Valibot for client validation
+- [../software-clean-code-standard/utilities/logging-utilities.md](../software-clean-code-standard/utilities/logging-utilities.md) — Structured logging patterns
+- [../software-clean-code-standard/utilities/testing-utilities.md](../software-clean-code-standard/utilities/testing-utilities.md) — Vitest, MSW v2, factories, fixtures
+- [../software-clean-code-standard/utilities/observability-utilities.md](../software-clean-code-standard/utilities/observability-utilities.md) — OpenTelemetry SDK, tracing, metrics
+- [../software-clean-code-standard/resources/clean-code-standard.md](../software-clean-code-standard/resources/clean-code-standard.md) — Canonical clean code rules (`CC-*`) for citation
 
-# 3) Sweep for stale phrases (pricing/trial/campaign copy)
-rg -n "free trial|7-day|old-price|legacy-plan-name" src/messages src/components
+**Templates** (Production-ready starters by framework)
+- **Next.js**: [templates/nextjs/template-nextjs-tailwind-shadcn.md](templates/nextjs/template-nextjs-tailwind-shadcn.md)
+- **Vue/Nuxt**: [templates/vue-nuxt/template-nuxt3-tailwind.md](templates/vue-nuxt/template-nuxt3-tailwind.md)
+- **Angular**: [templates/angular/template-angular21-standalone.md](templates/angular/template-angular21-standalone.md)
+- **Svelte/SvelteKit**: [templates/svelte/template-sveltekit-runes.md](templates/svelte/template-sveltekit-runes.md)
+- **Remix**: [templates/remix/template-remix-react.md](templates/remix/template-remix-react.md)
+- **Vite + React**: [templates/vite-react/template-vite-react-ts.md](templates/vite-react/template-vite-react-ts.md)
 
-# 4) Build to catch route/import regressions
-npm run build
-```
+**Related Skills**
+- [../dev-api-design/SKILL.md](../dev-api-design/SKILL.md) — REST/GraphQL API patterns, OpenAPI, versioning
+- [../git-workflow/SKILL.md](../git-workflow/SKILL.md) — Git branching, PR workflow, commit conventions
+- [../software-backend/SKILL.md](../software-backend/SKILL.md) — Backend API development, Node.js, Prisma, authentication
+- [../software-architecture-design/SKILL.md](../software-architecture-design/SKILL.md) — System design, scalability, microservices patterns
+- [../software-code-review/SKILL.md](../software-code-review/SKILL.md) — Code review best practices, PR workflow
+- [../ops-devops-platform/SKILL.md](../ops-devops-platform/SKILL.md) — Deployment, CI/CD, containerization, Kubernetes
+- [../data-sql-optimization/SKILL.md](../data-sql-optimization/SKILL.md) — Database design, SQL optimization, Prisma/Drizzle
 
-### No-Regressions Rules
+---
 
-- Do not remove or rename indexed routes without explicit redirect mapping.
-- Keep locale routes and metadata aligned; no mixed-language metadata.
-- Update copy and analytics labels together when pricing language changes.
-- Run link audit after deleting/renaming components used by navigation cards.
-
+## Operational Playbooks
+- [resources/operational-playbook.md](resources/operational-playbook.md) — Framework-specific architecture patterns, TypeScript guides, and security/performance checklists

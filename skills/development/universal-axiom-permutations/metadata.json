@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3bcd471a704e10dc67db857d34e51489e2145a9cf46f3aa7d7933c988deecb1d",
   "indexed_at": "2026-02-25T13:50:07.990Z",
-  "synced_at": "2026-02-27T02:28:23.827Z",
+  "synced_at": "2026-02-28T03:54:13.495Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/48318f4df3f4c52efc6bbd8e407576bb7175ab36a3c46c027808965e45205043",
   "install_command": "mkdir -p .claude/skills/universal-axiom-permutations && curl -sL \"https://raw.githubusercontent.com/TheUniversalAxiom/pointy-stick/main/SKILL.md\" > .claude/skills/universal-axiom-permutations/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TheUniversalAxiom/pointy-stick/main/SKILL.md"

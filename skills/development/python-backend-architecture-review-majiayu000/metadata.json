@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8ab5b97b36b39024bce6bf093777ab4fee4c62cb91eeaedf7990fe7ba5eee30f",
   "indexed_at": "2026-02-26T05:53:36.498Z",
-  "synced_at": "2026-02-27T02:29:31.334Z",
+  "synced_at": "2026-02-28T03:55:19.329Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/63bd7a875f589e32cec6ed1af4833a1ece00234bfb6c7ffec6cfb411f48d325e",
   "install_command": "mkdir -p .claude/skills/python-backend-architecture-review && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/python-architecture-review/SKILL.md\" > .claude/skills/python-backend-architecture-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/python-architecture-review/SKILL.md"

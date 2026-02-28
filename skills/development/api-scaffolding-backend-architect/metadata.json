@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "03c60a152016209975fa59f5dd942cfa6d92ac30ef7e27d65804e806f85cc8e1",
   "indexed_at": "2026-02-26T05:54:52.631Z",
-  "synced_at": "2026-02-27T02:29:33.325Z",
+  "synced_at": "2026-02-28T03:55:21.135Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d4b3bdc8300796422a1e6faa2eb7cb1353593ffed3800a54568b3471cab26aec",
   "install_command": "mkdir -p .claude/skills/api-scaffolding-backend-architect && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/api-scaffolding-codex-pack/.agents/skills/api-scaffolding-backend-architect/SKILL.md\" > .claude/skills/api-scaffolding-backend-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/api-scaffolding-codex-pack/.agents/skills/api-scaffolding-backend-architect/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "684ca8b4e47107804de04520ee74cb6ead1c01e02d491e94903225172a82b428",
   "indexed_at": "2026-02-26T05:52:50.095Z",
-  "synced_at": "2026-02-27T02:29:29.490Z",
+  "synced_at": "2026-02-28T03:55:17.447Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ae6c8cc1971283a83c76b881c6df0b3f49d087782e9cfe2c73965bd6f2db1406",
   "install_command": "mkdir -p .claude/skills/performance-engineer && curl -sL \"https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/performance-engineer/SKILL.md\" > .claude/skills/performance-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/performance-engineer/SKILL.md"

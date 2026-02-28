@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0566265bf82707619b5184bbfa4b347a9ae2d98a6f299043a474aac4713d4da7",
   "indexed_at": "2026-02-25T14:04:18.907Z",
-  "synced_at": "2026-02-27T02:28:27.611Z",
+  "synced_at": "2026-02-28T03:54:17.648Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/af3d0d2740a415273f8e3fdd0483cdd2b58b1b0d3ec2c9a3a624efae9900ff80",
   "install_command": "mkdir -p .claude/skills/workflow && curl -sL \"https://raw.githubusercontent.com/johnlindquist/workflow-skill/main/SKILL.md\" > .claude/skills/workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/johnlindquist/workflow-skill/main/SKILL.md"

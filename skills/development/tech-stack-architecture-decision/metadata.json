@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7d09c1b136c2faca88202746c297b2954e823bebb55c8d34576ac441ba36e591",
   "indexed_at": "2026-02-26T05:50:31.868Z",
-  "synced_at": "2026-02-27T02:29:22.103Z",
+  "synced_at": "2026-02-28T03:55:11.028Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/10aa941cd0620ed76fa525ccc5a31e804688b75b121282b962ff8d91f5b18920",
   "install_command": "mkdir -p .claude/skills/tech-stack-architecture-decision && curl -sL \"https://raw.githubusercontent.com/menma977/PrimbonJava/main/.agent/skills/tech-stack/SKILL.md\" > .claude/skills/tech-stack-architecture-decision/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/menma977/PrimbonJava/main/.agent/skills/tech-stack/SKILL.md"

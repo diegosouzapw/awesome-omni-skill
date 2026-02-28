@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f803505ea126585a8f4a4585dd6393cd0245d5aa1f3326a8304ddf06e833d18c",
   "indexed_at": "2026-02-26T05:50:00.699Z",
-  "synced_at": "2026-02-27T02:29:20.350Z",
+  "synced_at": "2026-02-28T03:55:09.539Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e85f8463748c67b5a34025b3590648d3dd4a8eceb206ce8020c3f6830c48e6d5",
   "install_command": "mkdir -p .claude/skills/data-engineering-backend-architect && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/data-engineering-codex-pack/.agents/skills/data-engineering-backend-architect/SKILL.md\" > .claude/skills/data-engineering-backend-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/data-engineering-codex-pack/.agents/skills/data-engineering-backend-architect/SKILL.md"

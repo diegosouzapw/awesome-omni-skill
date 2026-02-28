@@ -1,33 +1,27 @@
 ---
 name: dev-api-design
-description: Production-grade API design patterns for REST, GraphQL, and gRPC. Covers API architecture, OpenAPI/Swagger specs, versioning strategies, authentication flows, rate limiting, pagination, error handling, and documentation best practices for modern API development.
+description: Production-grade API design patterns for REST, GraphQL, gRPC, and tRPC. Covers API architecture, OpenAPI/Swagger specs, versioning/deprecation, authentication/authorization, rate limiting, pagination, error models, contract testing, and developer documentation.
 ---
 
 # API Development & Design — Quick Reference
 
-This skill provides execution-ready patterns for designing, implementing, and documenting production-grade APIs. Claude should apply these patterns when users need REST API design, GraphQL schemas, OpenAPI specifications, API versioning, authentication flows, or API documentation.
+Use this skill to design, implement, and document production-grade APIs (REST, GraphQL, gRPC, and tRPC). Apply it for contract design (OpenAPI), versioning/deprecation, authentication/authorization, rate limiting, pagination, error models, and developer documentation.
 
-**Modern Best Practices (Dec 2025)**: HTTP semantics and cacheability (RFC 9110), Problem Details error model (RFC 9457), OpenAPI 3.1, API-first + contract testing, strong AuthN/Z boundaries, explicit versioning/deprecation, and operable-by-default APIs (rate limits, idempotency, observability).
+**Modern best practices (Jan 2026)**: HTTP semantics and cacheability (RFC 9110), Problem Details error model (RFC 9457), OpenAPI 3.1+, contract-first + breaking-change detection, strong AuthN/Z boundaries, explicit versioning/deprecation, and operable-by-default APIs (idempotency, rate limits, observability, trace context).
 
 ---
 
-## When to Use This Skill
+## Default Execution Checklist
 
-Claude should invoke this skill when a user requests:
-
-- REST API design and endpoint structure
-- GraphQL schema design and resolver patterns
-- gRPC service definitions and protocol buffers
-- OpenAPI/Swagger specification creation
-- API versioning strategies (URL, header, content negotiation)
-- Authentication and authorization flows (JWT, OAuth2, API keys)
-- Rate limiting, throttling, and quota management
-- API pagination, filtering, and sorting patterns
-- Error response standardization
-- API documentation and developer portals
-- API security best practices (OWASP API Security Top 10)
-- API testing strategies (contract testing, mock servers)
-- API gateway configuration and management
+- Choose an API style based on constraints (public vs internal, performance, client query flexibility).
+- Define the contract first (OpenAPI or GraphQL schema; protobuf for gRPC).
+- Define the error model (RFC 9457 + stable error codes + trace IDs).
+- Define AuthN/AuthZ boundaries (scopes/roles/tenancy) and threat model.
+- Define pagination/filter/sort for all list endpoints.
+- Define rate limits/quotas, idempotency strategy (esp. POST), and retries/backoff guidance.
+- Define observability (W3C Trace Context, request IDs, metrics, logs) and SLOs.
+- Add contract tests + breaking-change checks in CI.
+- Publish docs with examples + migration/deprecation policy.
 
 ---
 
@@ -44,6 +38,8 @@ Claude should invoke this skill when a user requests:
 | **Document API** | OpenAPI 3.1 | Swagger UI, Redoc, code samples | Interactive docs, client SDKs |
 | **Flexible queries** | GraphQL | Schema-first, resolvers, DataLoader | Client-driven data fetching |
 | **High-performance** | gRPC + Protobuf | Binary protocol, streaming | Internal microservices |
+| **TypeScript-first** | tRPC | End-to-end type safety, no codegen | Monorepos, internal tools |
+| **AI agent APIs** | REST + MCP | Agent experience, machine-readable | LLM/agent consumption |
 
 ---
 
@@ -58,6 +54,9 @@ User needs: [API Type]
     │   ├─ High throughput required? → **gRPC** (binary, fast)
     │   └─ Simple CRUD? → **REST** (easy to debug)
     │
+    ├─ TypeScript monorepo (frontend + backend)?
+    │   └─ **tRPC** (end-to-end type safety, no codegen)
+    │
     ├─ Client needs flexible queries?
     │   ├─ Real-time updates? → **GraphQL Subscriptions** or **WebSockets**
     │   └─ Complex data fetching? → **GraphQL** (avoid over-fetching)
@@ -65,6 +64,9 @@ User needs: [API Type]
     ├─ Mobile/web clients?
     │   ├─ Many entity types? → **GraphQL** (single endpoint)
     │   └─ Simple resources? → **REST** (cacheable)
+    │
+    ├─ AI agents consuming API?
+    │   └─ REST + **MCP** wrapper (agent experience)
     │
     └─ Streaming or bidirectional?
         └─ **gRPC** (HTTP/2 streaming) or **WebSockets**
@@ -76,7 +78,7 @@ User needs: [API Type]
 
 ### RESTful API Design
 
-**Resource:** [resources/restful-design-patterns.md](resources/restful-design-patterns.md)
+**Resource:** [references/restful-design-patterns.md](references/restful-design-patterns.md)
 
 - Resource-based URLs with proper HTTP methods (GET, POST, PUT, PATCH, DELETE)
 - HTTP status code semantics (200, 201, 404, 422, 500)
@@ -89,7 +91,7 @@ User needs: [API Type]
 
 ### Pagination, Filtering & Sorting
 
-**Resource:** [resources/pagination-filtering.md](resources/pagination-filtering.md)
+**Resource:** [references/pagination-filtering.md](references/pagination-filtering.md)
 
 - Offset-based pagination (simple, static datasets)
 - Cursor-based pagination (real-time feeds, recommended)
@@ -102,7 +104,7 @@ User needs: [API Type]
 
 ### Error Handling
 
-**Resource:** [resources/error-handling-patterns.md](resources/error-handling-patterns.md)
+**Resource:** [references/error-handling-patterns.md](references/error-handling-patterns.md)
 
 - RFC 9457 Problem Details standard
 - HTTP status code reference (4xx client errors, 5xx server errors)
@@ -115,7 +117,7 @@ User needs: [API Type]
 
 ### Authentication & Authorization
 
-**Resource:** [resources/authentication-patterns.md](resources/authentication-patterns.md)
+**Resource:** [references/authentication-patterns.md](references/authentication-patterns.md)
 
 - JWT (JSON Web Tokens) with refresh token rotation
 - OAuth2 Authorization Code Flow for third-party auth
@@ -128,7 +130,7 @@ User needs: [API Type]
 
 ### Rate Limiting & Throttling
 
-**Resource:** [resources/rate-limiting-patterns.md](resources/rate-limiting-patterns.md)
+**Resource:** [references/rate-limiting-patterns.md](references/rate-limiting-patterns.md)
 
 - Token Bucket algorithm (recommended, allows bursts)
 - Fixed Window vs Sliding Window
@@ -143,23 +145,42 @@ User needs: [API Type]
 
 ### API Design & Best Practices
 
-- **[api-design-best-practices.md](resources/api-design-best-practices.md)** - Comprehensive API design principles
-- **[versioning-strategies.md](resources/versioning-strategies.md)** - URL, header, and query parameter versioning
-- **[api-security-checklist.md](resources/api-security-checklist.md)** - OWASP API Security Top 10
+- **[api-design-best-practices.md](references/api-design-best-practices.md)** - Comprehensive API design principles
+- **[versioning-strategies.md](references/versioning-strategies.md)** - URL, header, and query parameter versioning
+- **[api-security-checklist.md](references/api-security-checklist.md)** - OWASP API Security Top 10
 
 ### GraphQL & gRPC
 
-- **[graphql-patterns.md](resources/graphql-patterns.md)** - Schema design, resolvers, N+1 queries, DataLoader
+- **[graphql-patterns.md](references/graphql-patterns.md)** - Schema design, resolvers, N+1 queries, DataLoader
 - **gRPC patterns** - See [software-backend](../software-backend/SKILL.md) for Protocol Buffers and service definitions
+
+### tRPC (TypeScript-First)
+
+- **[trpc-patterns.md](references/trpc-patterns.md)** - End-to-end type safety, procedures, React Query integration
+  - When to use tRPC vs GraphQL vs REST
+  - Auth middleware patterns
+  - Server-side rendering with Next.js
 
 ### OpenAPI & Documentation
 
-- **[openapi-guide.md](resources/openapi-guide.md)** - OpenAPI 3.1 specifications, Swagger UI, Redoc
-- **Templates:** [templates/openapi-template.yaml](templates/openapi-template.yaml) - Complete OpenAPI spec example
+- **[openapi-guide.md](references/openapi-guide.md)** - OpenAPI 3.1 specifications, Swagger UI, Redoc
+- **Templates:** [assets/openapi-template.yaml](assets/openapi-template.yaml) - Complete OpenAPI spec example
+
+### Webhooks & Event-Driven APIs
+
+- **[webhook-patterns.md](references/webhook-patterns.md)** - Webhook design, delivery guarantees, signature verification, retry policies, DLQs
+
+### Real-Time APIs
+
+- **[real-time-api-patterns.md](references/real-time-api-patterns.md)** - WebSockets, SSE, long polling, gRPC streaming, protocol selection guide
+
+### API Testing
+
+- **[api-testing-patterns.md](references/api-testing-patterns.md)** - Contract testing, integration testing, load testing, chaos testing for APIs
 
 ### Optional: AI/Automation (LLM/Agent APIs)
 
-- **[llm-agent-api-contracts.md](resources/llm-agent-api-contracts.md)** - Streaming, long-running jobs, safety guardrails, observability
+- **[llm-agent-api-contracts.md](references/llm-agent-api-contracts.md)** - Streaming, long-running jobs, safety guardrails, observability
 
 ---
 
@@ -169,26 +190,26 @@ Production-ready, copy-paste API implementations with authentication, database, 
 
 ### Framework-Specific Templates
 
-- **FastAPI (Python)**: [templates/fastapi/fastapi-complete-api.md](templates/fastapi/fastapi-complete-api.md)
+- **FastAPI (Python)**: [assets/fastapi/fastapi-complete-api.md](assets/fastapi/fastapi-complete-api.md)
   - Async/await, Pydantic v2, JWT auth, SQLAlchemy 2.0, pagination, OpenAPI docs
 
-- **Express.js (Node/TypeScript)**: [templates/express-nodejs/express-complete-api.md](templates/express-nodejs/express-complete-api.md)
+- **Express.js (Node/TypeScript)**: [assets/express-nodejs/express-complete-api.md](assets/express-nodejs/express-complete-api.md)
   - TypeScript, Zod validation, Prisma ORM, JWT refresh tokens, rate limiting
 
-- **Django REST Framework**: [templates/django-rest/django-rest-complete-api.md](templates/django-rest/django-rest-complete-api.md)
+- **Django REST Framework**: [assets/django-rest/django-rest-complete-api.md](assets/django-rest/django-rest-complete-api.md)
   - ViewSets, serializers, Simple JWT, permissions, DRF filtering/pagination
 
-- **Spring Boot (Java)**: [templates/spring-boot/spring-boot-complete-api.md](templates/spring-boot/spring-boot-complete-api.md)
+- **Spring Boot (Java)**: [assets/spring-boot/spring-boot-complete-api.md](assets/spring-boot/spring-boot-complete-api.md)
   - Spring Security JWT, Spring Data JPA, Bean Validation, Springdoc OpenAPI
 
 ### Cross-Platform Patterns
 
-- **[api-patterns-universal.md](templates/cross-platform/api-patterns-universal.md)** - Universal patterns for all frameworks
+- **[api-patterns-universal.md](assets/cross-platform/api-patterns-universal.md)** - Universal patterns for all frameworks
   - Authentication strategies, pagination, caching, versioning, validation
-- **[template-api-governance.md](templates/cross-platform/template-api-governance.md)** - **NEW** API governance, deprecation, multi-tenancy
+- **[template-api-governance.md](assets/cross-platform/template-api-governance.md)** - API governance, deprecation, multi-tenancy
   - Deprecation policy (90-day timeline), backward compatibility rules, error model templates
-- **[template-api-design-review-checklist.md](templates/cross-platform/template-api-design-review-checklist.md)** - Production API review checklist (security, reliability, operability)
-- **[template-api-error-model.md](templates/cross-platform/template-api-error-model.md)** - RFC 9457 Problem Details + stable error code registry
+- **[template-api-design-review-checklist.md](assets/cross-platform/template-api-design-review-checklist.md)** - Production API review checklist (security, reliability, operability)
+- **[template-api-error-model.md](assets/cross-platform/template-api-error-model.md)** - RFC 9457 Problem Details + stable error code registry
 
 ---
 
@@ -198,7 +219,7 @@ Production-ready, copy-paste API implementations with authentication, database, 
 
 - Version APIs from day one
 - Document deprecation policy before first deprecation
-- Use semantic versioning for API versions
+- Treat breaking changes as a major version (and keep minor changes backward compatible)
 - Include trace IDs in all error responses
 - Return appropriate HTTP status codes
 - Implement rate limiting with clear headers
@@ -259,34 +280,6 @@ See [data/sources.json](data/sources.json) for:
 
 ---
 
-## Quick Decision Matrix
-
-| Scenario | Recommendation |
-|----------|----------------|
-| Public API for third parties | REST with OpenAPI docs |
-| Internal microservices | gRPC for performance, REST for simplicity |
-| Client needs flexible queries | GraphQL |
-| Real-time updates | GraphQL Subscriptions or WebSockets |
-| Simple CRUD operations | REST |
-| Complex data fetching | GraphQL |
-| High throughput required | gRPC |
-| Mobile/web clients | REST or GraphQL |
-
----
-
-## Anti-Patterns to Avoid
-
-- **Verbs in URLs**: `/getUserById` → `/users/:id`
-- **Ignoring HTTP methods**: Using GET for mutations
-- **No versioning**: Breaking changes without version bump
-- **Inconsistent error format**: Different error structures per endpoint
-- **Missing pagination**: Returning unbounded lists
-- **No rate limiting**: Allowing unlimited requests
-- **Poor documentation**: Missing examples, outdated specs
-- **Security by obscurity**: Not using HTTPS, weak auth
-
----
-
 ## Related Skills
 
 This skill works best when combined with other specialized skills:
@@ -343,7 +336,7 @@ This skill works best when combined with other specialized skills:
 
 ## Usage Notes
 
-**For Claude:**
+**For the agent:**
 
 - Apply RESTful principles by default unless user requests GraphQL/gRPC
 - Always include pagination for list endpoints
@@ -353,3 +346,9 @@ This skill works best when combined with other specialized skills:
 - Link to relevant resources for deep-dive guidance
 
 **Success Criteria:** APIs are discoverable, consistent, well-documented, secure, and follow HTTP/GraphQL semantics correctly.
+
+---
+
+## Time-Sensitive Recommendations
+
+If a user asks for "best" tools/frameworks, "latest" standards, or whether something is still relevant in 2026, do a quick web search using whatever browsing/search tool is available in the current environment. If web access is unavailable, answer from stable principles, state assumptions (traffic, latency, team skills, ecosystem), and avoid overstating currency.

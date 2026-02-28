@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dd79a81ebbfa39ce520347f414b43e7ffcef67b2afde64f4ce744eee50ef424a",
   "indexed_at": "2026-02-26T05:52:45.467Z",
-  "synced_at": "2026-02-27T02:29:28.941Z",
+  "synced_at": "2026-02-28T03:55:16.914Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b96315c435e8d2b09557bbd50e8048e9a5e080a4d14a9cfc7a862b026030e1cd",
   "install_command": "mkdir -p .claude/skills/distributed-tracing && curl -sL \"https://raw.githubusercontent.com/ledger101/apt/main/.agent/skills/skills/distributed-tracing/SKILL.md\" > .claude/skills/distributed-tracing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ledger101/apt/main/.agent/skills/skills/distributed-tracing/SKILL.md"

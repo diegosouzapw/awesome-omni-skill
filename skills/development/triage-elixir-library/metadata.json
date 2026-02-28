@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4d68983e422fdc5d544b2f13076477c30d08dc50f553904f73d12d87b4b608c1",
   "indexed_at": "2026-02-25T18:46:36.332Z",
-  "synced_at": "2026-02-27T02:28:48.711Z",
+  "synced_at": "2026-02-28T03:54:38.564Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d607452299342191513596e3ae70621fcce4aaaa9eddb5116abee8784743d8f2",
   "install_command": "mkdir -p .claude/skills/triage-elixir-library && curl -sL \"https://raw.githubusercontent.com/cheerfulstoic/triage/main/SKILL.md\" > .claude/skills/triage-elixir-library/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cheerfulstoic/triage/main/SKILL.md"

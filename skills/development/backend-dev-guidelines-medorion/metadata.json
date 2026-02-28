@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a6f43297dd5a9f3dae383be7767c71be27e0489a6e6de008f61983aef14784b9",
   "indexed_at": "2026-02-26T05:45:46.115Z",
-  "synced_at": "2026-02-27T02:29:07.856Z",
+  "synced_at": "2026-02-28T03:54:56.953Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/455b8bb4c4a4d18f7dae3289b70b4f79a878a179601ec2db76546ad393f0a40a",
   "install_command": "mkdir -p .claude/skills/backend-dev-guidelines && curl -sL \"https://raw.githubusercontent.com/medorion/ai-nx-starter/main/.claude/skills/backend-dev-guidelines/SKILL.md\" > .claude/skills/backend-dev-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/medorion/ai-nx-starter/main/.claude/skills/backend-dev-guidelines/SKILL.md"

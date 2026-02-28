@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5f5a3d14d7cfd16c84ddd05a0625830cc1a3e43c04237ed40d22d95cdbf14147",
   "indexed_at": "2026-02-26T05:51:28.890Z",
-  "synced_at": "2026-02-27T02:29:25.775Z",
+  "synced_at": "2026-02-28T03:55:13.847Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/059e05d8af19ebbb99526b391733d6a5e08a51aa46919b0491add90942ac0d79",
   "install_command": "mkdir -p .claude/skills/telegram-bot-creator && curl -sL \"https://raw.githubusercontent.com/0-CYBERDYNE-SYSTEMS-0/FFT_nano/main/skills/runtime/telegram-bot-creator/SKILL.md\" > .claude/skills/telegram-bot-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/0-CYBERDYNE-SYSTEMS-0/FFT_nano/main/skills/runtime/telegram-bot-creator/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4a67e0b30848edac18bfdacc2ed7b6854872b002082d0616c0a2b0eb2648b9b0",
   "indexed_at": "2026-02-26T06:45:30.416Z",
-  "synced_at": "2026-02-27T02:29:41.309Z",
+  "synced_at": "2026-02-28T03:55:28.828Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/62e2672f774e19a16d9e3780b932126082043e75ef7d175ae7016bcfb9a76258",
   "install_command": "mkdir -p .claude/skills/sp.nextjs && curl -sL \"https://raw.githubusercontent.com/KulsumShaikh16/Todo-full-stack-web-application-hackathon-02/main/.claude/skills/NextJSSkill.md/SKILL.md\" > .claude/skills/sp.nextjs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/KulsumShaikh16/Todo-full-stack-web-application-hackathon-02/main/.claude/skills/NextJSSkill.md/SKILL.md"

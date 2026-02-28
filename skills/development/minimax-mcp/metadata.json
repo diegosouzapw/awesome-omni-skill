@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4ba7326d824868b7d72aa61f16051f3992ffc7de7713951fe552c91104dfde2d",
   "indexed_at": "2026-02-25T14:11:21.810Z",
-  "synced_at": "2026-02-27T02:28:29.142Z",
+  "synced_at": "2026-02-28T03:54:19.164Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ebe7f42d89429f904ddab561d1a1d2407bda908301cb34773bff38545f4b60fc",
   "install_command": "mkdir -p .claude/skills/minimax-mcp && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/minimax-mcp/SKILL.md\" > .claude/skills/minimax-mcp/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/minimax-mcp/SKILL.md"

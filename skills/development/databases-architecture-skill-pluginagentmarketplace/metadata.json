@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c0b0691831e3dd0e483408425e5176ec216e0d752029a90c96a7e329b16f6d40",
   "indexed_at": "2026-02-26T05:54:28.907Z",
-  "synced_at": "2026-02-27T02:29:32.609Z",
+  "synced_at": "2026-02-28T03:55:20.437Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5b593cd38dcba571caf7624f624db81739dae337f12c8605008ff926e072fa38",
   "install_command": "mkdir -p .claude/skills/databases-architecture-skill && curl -sL \"https://raw.githubusercontent.com/pluginagentmarketplace/custom-plugin-nextjs/main/developer-roadmap-plugin/skills/databases-architecture/SKILL.md\" > .claude/skills/databases-architecture-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pluginagentmarketplace/custom-plugin-nextjs/main/developer-roadmap-plugin/skills/databases-architecture/SKILL.md"

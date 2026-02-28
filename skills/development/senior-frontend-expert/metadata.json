@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "79115614bae58241861d5f8bb854bd2a399ccb9b819df318ed5a57709b5b3b1a",
   "indexed_at": "2026-02-26T06:46:00.645Z",
-  "synced_at": "2026-02-27T02:29:42.973Z",
+  "synced_at": "2026-02-28T03:55:30.281Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e50cc254d42a7eab49532893981aeb177121f654709ccbfdc5dafb0b92d0ccb5",
   "install_command": "mkdir -p .claude/skills/senior-frontend-expert && curl -sL \"https://raw.githubusercontent.com/EvanAgee/frontend-expert/main/skills/senior-frontend-expert/SKILL.md\" > .claude/skills/senior-frontend-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/EvanAgee/frontend-expert/main/skills/senior-frontend-expert/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3b626961b42c4be630f9ca1b73f60e33c45ed1a20869fac287cb0cf4a6e51785",
   "indexed_at": "2026-02-26T05:46:00.085Z",
-  "synced_at": "2026-02-27T02:29:08.551Z",
+  "synced_at": "2026-02-28T03:54:57.608Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dbfc1ef1d5b166c6f7959c01312984670cff05421dd314aa31dcee1da41c7a23",
   "install_command": "mkdir -p .claude/skills/architecture-documentation && curl -sL \"https://raw.githubusercontent.com/normcrandall/claudeskills/main/architecture/SKILL.md\" > .claude/skills/architecture-documentation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/normcrandall/claudeskills/main/architecture/SKILL.md"

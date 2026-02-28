@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "08a3ad74aad0595a9ca1ee117f044cf81a3fb449d1982ec8f6ffb10052a06ec3",
   "indexed_at": "2026-02-25T19:40:05.061Z",
-  "synced_at": "2026-02-27T02:28:50.287Z",
+  "synced_at": "2026-02-28T03:54:39.774Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/85b10027fe9235771230b4198a8095c9b9583e382dfbd3c9b6eed1dfa3da5930",
   "install_command": "mkdir -p .claude/skills/beazley-deep-python && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/beazley/SKILL.md\" > .claude/skills/beazley-deep-python/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/beazley/SKILL.md"

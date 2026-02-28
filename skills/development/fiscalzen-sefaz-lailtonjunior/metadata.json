@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e0d5845ab1d7de0a75396544bc1565c7200f2011950c9009fea31b0baf67bfa8",
   "indexed_at": "2026-02-25T13:06:29.644Z",
-  "synced_at": "2026-02-27T02:28:19.199Z",
+  "synced_at": "2026-02-28T03:54:09.208Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/afb11c58dfb4104ead945866e3a139a1d46038b50a88c11ee7b85e72b7a68dad",
   "install_command": "mkdir -p .claude/skills/fiscalzen-sefaz && curl -sL \"https://raw.githubusercontent.com/lailtonjunior/fiscalzen-project/main/.context/skills/fiscalzen-sefaz/SKILL.md\" > .claude/skills/fiscalzen-sefaz/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lailtonjunior/fiscalzen-project/main/.context/skills/fiscalzen-sefaz/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e08634f79f194b918a1c2ee15319342eac2f6dc847b9d1157266b785829d2e16",
   "indexed_at": "2026-02-26T05:48:35.552Z",
-  "synced_at": "2026-02-27T02:29:16.608Z",
+  "synced_at": "2026-02-28T03:55:05.476Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b3a097d111892db3c6f94bab2a8f3476042c0c47478b294934a3ace2a7af06a5",
   "install_command": "mkdir -p .claude/skills/backend-dev-guidelines && curl -sL \"https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/backend-dev-guidelines/SKILL.md\" > .claude/skills/backend-dev-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/backend-dev-guidelines/SKILL.md"

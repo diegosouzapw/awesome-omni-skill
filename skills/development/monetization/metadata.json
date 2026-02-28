@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "806dd1fedace8eb884f3042000291ef8e38c006b18317193fd9482ea232851d5",
   "indexed_at": "2026-02-25T15:11:19.922Z",
-  "synced_at": "2026-02-27T02:28:35.670Z",
+  "synced_at": "2026-02-28T03:54:25.533Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/22c811928fe356dcdcf2a38b07e33dae58e41a8bf9c70762be2a2960fb449f3b",
   "install_command": "mkdir -p .claude/skills/monetization && curl -sL \"https://raw.githubusercontent.com/rshankras/claude-code-apple-skills/main/skills/monetization/SKILL.md\" > .claude/skills/monetization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rshankras/claude-code-apple-skills/main/skills/monetization/SKILL.md"

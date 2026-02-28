@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8ff3363688b65805859744324d14a3aa50ff87b1836e266a495cd879ea411a5d",
   "indexed_at": "2026-02-26T05:47:13.271Z",
-  "synced_at": "2026-02-27T02:29:12.953Z",
+  "synced_at": "2026-02-28T03:55:01.951Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/57e72c31a35b65f5c5632c26941cc8e944b543e5139336eea89f2f194b36673e",
   "install_command": "mkdir -p .claude/skills/backend-coding && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/backend-coding-dauquangthanh-hanoi-rainbow-79dadc21/SKILL.md\" > .claude/skills/backend-coding/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/backend-coding-dauquangthanh-hanoi-rainbow-79dadc21/SKILL.md"

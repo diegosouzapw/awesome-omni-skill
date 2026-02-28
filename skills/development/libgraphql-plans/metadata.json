@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f71c30fa49c34181a08735d2c317e7cc3400573513f9153c2894b67c4cf1ebd5",
   "indexed_at": "2026-02-26T04:26:09.789Z",
-  "synced_at": "2026-02-27T02:29:02.335Z",
+  "synced_at": "2026-02-28T03:54:51.634Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4f85c853966fae789e54f13286739ea9bc7b0461424b706c1c97628f31367273",
   "install_command": "mkdir -p .claude/skills/libgraphql-plans && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/libgraphql-plans/SKILL.md\" > .claude/skills/libgraphql-plans/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/libgraphql-plans/SKILL.md"

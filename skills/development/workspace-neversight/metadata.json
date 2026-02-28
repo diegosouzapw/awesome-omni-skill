@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b893d7a37613759ce5900457f8b32695ae255b545fe9f31e98ca20fc1bac4a8d",
   "indexed_at": "2026-02-26T05:49:22.051Z",
-  "synced_at": "2026-02-27T02:29:17.980Z",
+  "synced_at": "2026-02-28T03:55:06.871Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e2a8a4257bbed6efd032fcb780860fc44a4d759ecb094da0dcfd4a943f6bb9a4",
   "install_command": "mkdir -p .claude/skills/workspace && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/alinaqi/claude-bootstrap/workspace/SKILL.md\" > .claude/skills/workspace/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/alinaqi/claude-bootstrap/workspace/SKILL.md"

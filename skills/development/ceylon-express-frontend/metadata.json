@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "16a214cd9ad6fed3e3c1e0fe742130889179bb11e6dc7635ba0abe3818ab617a",
   "indexed_at": "2026-02-26T06:45:34.312Z",
-  "synced_at": "2026-02-27T02:29:41.637Z",
+  "synced_at": "2026-02-28T03:55:29.154Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e3f934b0f94166d0a09184cbe4bf7d606f69846a6892d3f59631ff28de03df44",
   "install_command": "mkdir -p .claude/skills/ceylon-express-frontend && curl -sL \"https://raw.githubusercontent.com/cjmki/ceylonexpress/main/.ai/front-end.skill.md/SKILL.md\" > .claude/skills/ceylon-express-frontend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cjmki/ceylonexpress/main/.ai/front-end.skill.md/SKILL.md"

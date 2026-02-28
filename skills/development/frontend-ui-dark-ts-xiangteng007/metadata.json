@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3851b7c8dba694cf9c05bd61436680992c687b0d42e0e081c19d11b4d7dcba55",
   "indexed_at": "2026-02-26T06:47:27.456Z",
-  "synced_at": "2026-02-27T02:29:50.978Z",
+  "synced_at": "2026-02-28T03:55:35.902Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c06cbf63dcb49e71865199be3e2b26af522754b7c6a3c5bec807f101e52e621f",
   "install_command": "mkdir -p .claude/skills/frontend-ui-dark-ts && curl -sL \"https://raw.githubusercontent.com/xiangteng007/XXT-AGENT/main/.agent/skills/frontend-ui-dark-ts/SKILL.md\" > .claude/skills/frontend-ui-dark-ts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/xiangteng007/XXT-AGENT/main/.agent/skills/frontend-ui-dark-ts/SKILL.md"

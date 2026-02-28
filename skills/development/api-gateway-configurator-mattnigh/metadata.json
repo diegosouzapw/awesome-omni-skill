@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "69a1592fa1d974a67aa338dd46c159623921f25999623069ba1f053e7d013702",
   "indexed_at": "2026-02-26T05:53:06.152Z",
-  "synced_at": "2026-02-27T02:29:30.058Z",
+  "synced_at": "2026-02-28T03:55:18.010Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c1cf923c6c7353ecf4ddf04edd7d49e5427114d43da4681ce29e906af2f56672",
   "install_command": "mkdir -p .claude/skills/api-gateway-configurator && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/Dexploarer__hyper-forge__claude__skills__api-gateway-configurator__SKILL.md/SKILL.md\" > .claude/skills/api-gateway-configurator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/Dexploarer__hyper-forge__claude__skills__api-gateway-configurator__SKILL.md/SKILL.md"

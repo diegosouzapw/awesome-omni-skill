@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dc35fc88d6f9c399415923fbf1b28997fd1a91fd52506b55a947338fcaec7207",
   "indexed_at": "2026-02-26T05:51:06.877Z",
-  "synced_at": "2026-02-27T02:29:24.372Z",
+  "synced_at": "2026-02-28T03:55:12.434Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fa9ab3b2d74ec458791798b343385ac3ef07a17114e625d0a92ee74e5ca8597a",
   "install_command": "mkdir -p .claude/skills/distributed-tracing && curl -sL \"https://raw.githubusercontent.com/carlopezzuto/agents/main/plugins/observability-monitoring/skills/distributed-tracing/SKILL.md\" > .claude/skills/distributed-tracing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/carlopezzuto/agents/main/plugins/observability-monitoring/skills/distributed-tracing/SKILL.md"

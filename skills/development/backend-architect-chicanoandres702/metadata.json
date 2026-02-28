@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a5c784387e3bdf88eb957bc0d5f67e878f31eb9b090f7aa3899efbb5e65e4692",
   "indexed_at": "2026-02-26T05:48:27.215Z",
-  "synced_at": "2026-02-27T02:29:15.731Z",
+  "synced_at": "2026-02-28T03:55:04.627Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2d8cf3672619d054d3f189e752f6ed9db7d776e9a943aacc400b7723b6c4fa3c",
   "install_command": "mkdir -p .claude/skills/backend-architect && curl -sL \"https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/backend-architect/SKILL.md\" > .claude/skills/backend-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/backend-architect/SKILL.md"

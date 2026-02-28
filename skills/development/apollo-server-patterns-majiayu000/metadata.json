@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cda8ba8a7301899b024f9f643b4712cfa75753cf27f0af084e5581c71e4fb6ae",
   "indexed_at": "2026-02-26T05:56:01.124Z",
-  "synced_at": "2026-02-27T02:29:36.874Z",
+  "synced_at": "2026-02-28T03:55:24.473Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b80351f9f168aebc5d375ca7b8839cff73401bd1775f5f92340be0ef9674b90e",
   "install_command": "mkdir -p .claude/skills/apollo-server-patterns && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/apollo-server-patterns/SKILL.md\" > .claude/skills/apollo-server-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/apollo-server-patterns/SKILL.md"

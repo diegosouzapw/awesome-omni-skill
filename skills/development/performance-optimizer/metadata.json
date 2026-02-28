@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "215fcc46154103915203ddec3e4b1d140c359e522d4609f2fb8bec4fb05a53d4",
   "indexed_at": "2026-02-25T13:05:51.750Z",
-  "synced_at": "2026-02-27T02:28:18.385Z",
+  "synced_at": "2026-02-28T03:54:08.499Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/558735fa5d70c4057e6e712b67edc5d806cb10744d6ce969ab5c7c2d145fd94a",
   "install_command": "mkdir -p .claude/skills/performance-optimizer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/performance-optimizer-einverne-dotfiles/SKILL.md\" > .claude/skills/performance-optimizer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/performance-optimizer-einverne-dotfiles/SKILL.md"

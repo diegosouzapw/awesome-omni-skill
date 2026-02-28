@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d840801ff99b7c1a583f75856f93b3aa986bd7acfe5f6a624213c709ce6da9ef",
   "indexed_at": "2026-02-25T20:42:18.860Z",
-  "synced_at": "2026-02-27T02:28:54.289Z",
+  "synced_at": "2026-02-28T03:54:43.687Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a5e8bb0e6d35316e59bbbe1f4fc324b69220ece09384c8edad7515a5ec7b1ab5",
   "install_command": "mkdir -p .claude/skills/arc-debugging && curl -sL \"https://raw.githubusercontent.com/GregoryHo/arcforge/main/skills/arc-debugging/SKILL.md\" > .claude/skills/arc-debugging/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/GregoryHo/arcforge/main/skills/arc-debugging/SKILL.md"

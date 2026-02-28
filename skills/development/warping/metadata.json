@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d7a8b5c2715b66f98fb057957ab33f338444cafc9b9720d7e236191e8ae31807",
   "indexed_at": "2026-02-25T13:50:06.132Z",
-  "synced_at": "2026-02-27T02:28:23.657Z",
+  "synced_at": "2026-02-28T03:54:13.302Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7cdeb82b1b3d1dc04168e099f0ba0a780f92d5c4ce4adf43b5d42c52ced2ef7e",
   "install_command": "mkdir -p .claude/skills/warping && curl -sL \"https://raw.githubusercontent.com/sighthoundinc/hw-savings/main/SKILL.md\" > .claude/skills/warping/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sighthoundinc/hw-savings/main/SKILL.md"

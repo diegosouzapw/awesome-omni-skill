@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "127efab41b54b96f2134d9105460591d202188f866ac6dc5b2ce2b47b5a41ab7",
   "indexed_at": "2026-02-25T13:49:37.970Z",
-  "synced_at": "2026-02-27T02:28:22.762Z",
+  "synced_at": "2026-02-28T03:54:12.406Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/96da6d6236cac22206134d22dd8685be16383e28a64144d8c684bbf683a90e57",
   "install_command": "mkdir -p .claude/skills/genesis && curl -sL \"https://raw.githubusercontent.com/BellyBook/genesis/main/SKILL.md\" > .claude/skills/genesis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/BellyBook/genesis/main/SKILL.md"

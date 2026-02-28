@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "54e297a690854bbc1ca353790522eb99c6879d8aaa96eaf5bf270f9b57760a9b",
   "indexed_at": "2026-02-25T16:50:23.673Z",
-  "synced_at": "2026-02-27T02:28:38.972Z",
+  "synced_at": "2026-02-28T03:54:28.510Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ec1fd524ce49c76e944ac9b9995900bb790fbf63581efefbb901045019fc69dc",
   "install_command": "mkdir -p .claude/skills/hono && curl -sL \"https://raw.githubusercontent.com/tlq5l/hono-skill/main/SKILL.md\" > .claude/skills/hono/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tlq5l/hono-skill/main/SKILL.md"

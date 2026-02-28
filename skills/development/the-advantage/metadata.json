@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "82a0a45343677355ce98ccc41f073ebc1c1272010edf9cc0c6de7d7ea8818472",
   "indexed_at": "2026-02-25T13:11:49.485Z",
-  "synced_at": "2026-02-27T02:28:21.759Z",
+  "synced_at": "2026-02-28T03:54:11.436Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/832219c86ae6ee4f466c516efa04f3dba6229830e8b3371671c556471f8c4937",
   "install_command": "mkdir -p .claude/skills/the-advantage && curl -sL \"https://raw.githubusercontent.com/lev-os/agents/main/skills-db/thinking/patterns/the-advantage/SKILL.md\" > .claude/skills/the-advantage/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lev-os/agents/main/skills-db/thinking/patterns/the-advantage/SKILL.md"

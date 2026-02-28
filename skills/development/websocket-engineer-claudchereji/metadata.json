@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4632e6343546e97b82269af465c9b5d6771672987b19becd06ad65f905c02c26",
   "indexed_at": "2026-02-26T05:55:50.102Z",
-  "synced_at": "2026-02-27T02:29:35.855Z",
+  "synced_at": "2026-02-28T03:55:23.475Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/870f1e59f67e854a7f9fd15ff81393b0a3157d79b888d693c84b9253a43ae3c6",
   "install_command": "mkdir -p .claude/skills/websocket-engineer && curl -sL \"https://raw.githubusercontent.com/claudchereji/VisualVerses/main/.opencode/skills/websocket-engineer/SKILL.md\" > .claude/skills/websocket-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/claudchereji/VisualVerses/main/.opencode/skills/websocket-engineer/SKILL.md"

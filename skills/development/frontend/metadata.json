@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6772d8048666b77fe69c543b3f0792bf9039794c7ae24499cfea99f9ffb9f3c3",
   "indexed_at": "2026-02-26T06:46:21.214Z",
-  "synced_at": "2026-02-27T02:29:44.071Z",
+  "synced_at": "2026-02-28T03:55:31.418Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a553876d1b08842656fb313ec162f780d4f7878467b496d2071794e0de361f73",
   "install_command": "mkdir -p .claude/skills/frontend && curl -sL \"https://raw.githubusercontent.com/sudo-vaibhav/ondc-vaatun/main/.claude/skills/frontend/SKILL.md\" > .claude/skills/frontend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sudo-vaibhav/ondc-vaatun/main/.claude/skills/frontend/SKILL.md"

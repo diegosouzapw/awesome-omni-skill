@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bedc729aa00e18a9ab86fba0f6cf93b193693f226d2403b61b7664d7613bd1b0",
   "indexed_at": "2026-02-25T13:05:11.591Z",
-  "synced_at": "2026-02-27T02:28:18.059Z",
+  "synced_at": "2026-02-28T03:54:08.173Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/09b57e01007c7f608bb24d0ac4d93362378c9ad5cc8c83baa039f4dfe5c18862",
   "install_command": "mkdir -p .claude/skills/window-controller && curl -sL \"https://raw.githubusercontent.com/smykla-skalski/sai/main/window-controller/skills/window-controller/SKILL.md\" > .claude/skills/window-controller/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/smykla-skalski/sai/main/window-controller/skills/window-controller/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8bd1d86cd0dbd709409a1f62e40d0ef2174bd2bf0267ce001427368620fa725b",
   "indexed_at": "2026-02-26T05:46:54.635Z",
-  "synced_at": "2026-02-27T02:29:11.917Z",
+  "synced_at": "2026-02-28T03:55:00.925Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/36e4bb80d7a70eb255f0627211dea8d388c7e61436ca1865e4f29e9da6041f6d",
   "install_command": "mkdir -p .claude/skills/backend-development && curl -sL \"https://raw.githubusercontent.com/trantuananh-17/product-reviews/main/.claude/skills/backend/SKILL.md\" > .claude/skills/backend-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/trantuananh-17/product-reviews/main/.claude/skills/backend/SKILL.md"

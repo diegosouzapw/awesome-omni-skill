@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c28a708d5ade18ca986211a7bdec26adf89daa4f391a9b5a6bc8e804384eca2a",
   "indexed_at": "2026-02-26T05:52:00.627Z",
-  "synced_at": "2026-02-27T02:29:26.877Z",
+  "synced_at": "2026-02-28T03:55:14.916Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f69ca4010d1164818efdc979f28049e7c033357a9b5c4d12310d4ab1c835909f",
   "install_command": "mkdir -p .claude/skills/observability-monitoring-performance-engineer && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/observability-monitoring-codex-pack/.agents/skills/observability-monitoring-performance-engineer/SKILL.md\" > .claude/skills/observability-monitoring-performance-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/observability-monitoring-codex-pack/.agents/skills/observability-monitoring-performance-engineer/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7a1e3ef609d8908404c2f0915e349253ce9e53ad2aa6ff4475de985128f12d2d",
   "indexed_at": "2026-02-25T14:52:23.367Z",
-  "synced_at": "2026-02-27T02:28:31.037Z",
+  "synced_at": "2026-02-28T03:54:21.009Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f8acda6b4da9c0061fa33f08d139d57a5f59c8417c05bff70e1f6c40cb0f2108",
   "install_command": "mkdir -p .claude/skills/pr-draft-summary && curl -sL \"https://raw.githubusercontent.com/sisyphus1212/codex-fusion-starter-template/main/scaffold/.agents/skills/pr-draft-summary/SKILL.md\" > .claude/skills/pr-draft-summary/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sisyphus1212/codex-fusion-starter-template/main/scaffold/.agents/skills/pr-draft-summary/SKILL.md"

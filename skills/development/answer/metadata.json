@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "98f6d8c164c6966b4aea9e83d6d1cd82a1e4a8fd1619caf4aa12a152f3841e67",
   "indexed_at": "2026-02-25T13:03:24.676Z",
-  "synced_at": "2026-02-27T02:28:17.174Z",
+  "synced_at": "2026-02-28T03:54:07.331Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cd9e3c09193e336fad3d84183190920b66a39cb2a9fdb2b1e1eef7f70b60fd3e",
   "install_command": "mkdir -p .claude/skills/answer && curl -sL \"https://raw.githubusercontent.com/ajayjohn/tars-work-assistant/main/.claude-plugin/skills/answer/SKILL.md\" > .claude/skills/answer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ajayjohn/tars-work-assistant/main/.claude-plugin/skills/answer/SKILL.md"

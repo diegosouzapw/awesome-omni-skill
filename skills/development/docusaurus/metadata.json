@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e505d32a29d23939912811923b8766978745437d11f5bf41b12f476a32539d1f",
   "indexed_at": "2026-02-26T04:25:48.803Z",
-  "synced_at": "2026-02-27T02:29:01.566Z",
+  "synced_at": "2026-02-28T03:54:50.742Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4bb77ac4976818d0626223374ecd5c4dc831bec3a6c7b3777045e1387680a020",
   "install_command": "mkdir -p .claude/skills/docusaurus && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/docusaurus/SKILL.md\" > .claude/skills/docusaurus/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/docusaurus/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3b680ee2376102bb97b4decc83cec5dad0d8009f73408c3f118850ea4ebcea45",
   "indexed_at": "2026-02-25T19:40:08.024Z",
-  "synced_at": "2026-02-27T02:28:50.503Z",
+  "synced_at": "2026-02-28T03:54:39.942Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a72cd185182b9934878cd36e82807c975ba23aa5ef53e7684bdd81a06992602c",
   "install_command": "mkdir -p .claude/skills/docx && curl -sL \"https://raw.githubusercontent.com/LeastBit/Claude_skills_zh-CN/main/skills/docx/SKILL.md\" > .claude/skills/docx/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/LeastBit/Claude_skills_zh-CN/main/skills/docx/SKILL.md"

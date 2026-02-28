@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "21b0e40d20779e58348ae61ee5ec76991092af007cb0f17b564ec02ffa1adacf",
   "indexed_at": "2026-02-25T13:01:34.911Z",
-  "synced_at": "2026-02-27T02:28:16.333Z",
+  "synced_at": "2026-02-28T03:54:06.504Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3b9c244b431f1c05edb53c1c23622b8eb9e7ad41578053235345ccdce1370199",
   "install_command": "mkdir -p .claude/skills/og-creator-skill && curl -sL \"https://raw.githubusercontent.com/d0ublecl1ck/og-creator-skill/main/SKILL.md\" > .claude/skills/og-creator-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/d0ublecl1ck/og-creator-skill/main/SKILL.md"

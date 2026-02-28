@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3cf42dc4eee4ce417aa34dc5361e9b9296a044960be39560ee66cec5a60648f1",
   "indexed_at": "2026-02-25T13:11:43.625Z",
-  "synced_at": "2026-02-27T02:28:21.597Z",
+  "synced_at": "2026-02-28T03:54:11.270Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7bc8a24d3bba5727d26aa6cf6a0f0e0ce4001eea1906d14c76029a7558519846",
   "install_command": "mkdir -p .claude/skills/openapi-to-application-code && curl -sL \"https://raw.githubusercontent.com/tae0y/python-project-template/main/.claude/skills.nouse/openapi-to-application-code/SKILL.md\" > .claude/skills/openapi-to-application-code/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tae0y/python-project-template/main/.claude/skills.nouse/openapi-to-application-code/SKILL.md"

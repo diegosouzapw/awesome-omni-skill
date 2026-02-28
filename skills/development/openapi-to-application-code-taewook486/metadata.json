@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "563efc43300d453e3aab36628ed6f483136f47fac36a61516d5c69d91cceb026",
   "indexed_at": "2026-02-25T15:10:23.698Z",
-  "synced_at": "2026-02-27T02:28:35.173Z",
+  "synced_at": "2026-02-28T03:54:25.083Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/341110f64f6e27b3870db7f9bca78afc93213cbf4897a3dad83e6d345d4e8500",
   "install_command": "mkdir -p .claude/skills/openapi-to-application-code && curl -sL \"https://raw.githubusercontent.com/taewook486/real-estate-mcp/main/.claude/skills.nouse/openapi-to-application-code/SKILL.md\" > .claude/skills/openapi-to-application-code/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/taewook486/real-estate-mcp/main/.claude/skills.nouse/openapi-to-application-code/SKILL.md"

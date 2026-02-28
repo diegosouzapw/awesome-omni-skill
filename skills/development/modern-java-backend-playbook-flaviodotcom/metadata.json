@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9656b8c0d4db64a7ac973273f35caee3ea06652ee4eb4da9aec3ee55cfa81a4a",
   "indexed_at": "2026-02-26T05:49:41.424Z",
-  "synced_at": "2026-02-27T02:29:19.108Z",
+  "synced_at": "2026-02-28T03:55:07.919Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/807e0678c5f8962c130471a213d843237298a3d8cde1c2f15aa8a75e14e47c17",
   "install_command": "mkdir -p .claude/skills/modern-java-backend-playbook && curl -sL \"https://raw.githubusercontent.com/flaviodotcom/modern-java-backend-playbook/main/SKILL.md\" > .claude/skills/modern-java-backend-playbook/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/flaviodotcom/modern-java-backend-playbook/main/SKILL.md"

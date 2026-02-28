@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d2aaa0e3805eac5e728d11acf5ea8a5908fc8291b018eac347978e15bc036f24",
   "indexed_at": "2026-02-26T05:49:42.894Z",
-  "synced_at": "2026-02-27T02:29:19.259Z",
+  "synced_at": "2026-02-28T03:55:08.072Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/76a33408e23019c9cd3c5b941b2c4cf3acec4b076e170374b8cd2db2376da033",
   "install_command": "mkdir -p .claude/skills/dr-jskill && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/jdubois/dr-jskill/dr-jskill/SKILL.md\" > .claude/skills/dr-jskill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/jdubois/dr-jskill/dr-jskill/SKILL.md"

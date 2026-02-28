@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c2c5b6c1992ca6edfb29f3988de87f2bad620373c4c38f1c32b9ca506333ee16",
   "indexed_at": "2026-02-26T06:45:59.340Z",
-  "synced_at": "2026-02-27T02:29:42.810Z",
+  "synced_at": "2026-02-28T03:55:30.112Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/133ce1816893b4a24049bb567773bf8873a2e7abb0ba564a39d4f38d398858cb",
   "install_command": "mkdir -p .claude/skills/agentic-jumpstart-frontend && curl -sL \"https://raw.githubusercontent.com/webdevcody/agentic-jumpstart/main/.claude/skills/agentic-jumpstart-frontend/SKILL.md\" > .claude/skills/agentic-jumpstart-frontend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/webdevcody/agentic-jumpstart/main/.claude/skills/agentic-jumpstart-frontend/SKILL.md"

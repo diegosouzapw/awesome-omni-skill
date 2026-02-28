@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ed998afad3369b72934fa448eab091d2f344efb3f3db20a8c9946fddc5f1e202",
   "indexed_at": "2026-02-26T06:47:06.006Z",
-  "synced_at": "2026-02-27T02:29:48.417Z",
+  "synced_at": "2026-02-28T03:55:34.795Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cb80e46485935633a4f92af96037d0113cafe9915cc3fcdc6708739ed089d9d7",
   "install_command": "mkdir -p .claude/skills/senior-fullstack && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/senior-fullstack/SKILL.md\" > .claude/skills/senior-fullstack/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/senior-fullstack/SKILL.md"

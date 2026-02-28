@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "28d2d6c97275535c8c4b1dcc4c6d0f2f2b759c9c8cee3eebf010bd6d16afa0fb",
   "indexed_at": "2026-02-26T05:48:13.804Z",
-  "synced_at": "2026-02-27T02:29:15.357Z",
+  "synced_at": "2026-02-28T03:55:04.258Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e423b42ac75782855effface4a0f67db3148020f5405d560b6ec340ef1fd14b0",
   "install_command": "mkdir -p .claude/skills/senior-backend && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/alirezarezvani/senior-backend/SKILL.md\" > .claude/skills/senior-backend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/alirezarezvani/senior-backend/SKILL.md"

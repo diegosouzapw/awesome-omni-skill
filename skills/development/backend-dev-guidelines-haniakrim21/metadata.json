@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ee722750d3d9092997a33f345b6b46b5571e2b88500068d5cf9c85d8188015f9",
   "indexed_at": "2026-02-26T05:48:54.304Z",
-  "synced_at": "2026-02-27T02:29:17.624Z",
+  "synced_at": "2026-02-28T03:55:06.515Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f909f9c48f85d02b1147720f3db02de56dd1bc1967955d71de43059fa477edcd",
   "install_command": "mkdir -p .claude/skills/backend-dev-guidelines && curl -sL \"https://raw.githubusercontent.com/haniakrim21/everything-claude-code/main/skills/backend-dev-guidelines/SKILL.md\" > .claude/skills/backend-dev-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/haniakrim21/everything-claude-code/main/skills/backend-dev-guidelines/SKILL.md"

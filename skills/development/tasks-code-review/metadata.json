@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f22f44b72922d24d84d1d05f5bdbc50637f68ca21d9a97b3fa3d1af880fa8206",
   "indexed_at": "2026-02-25T13:09:14.456Z",
-  "synced_at": "2026-02-27T02:28:19.817Z",
+  "synced_at": "2026-02-28T03:54:09.871Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7f0fe9fe14b261345e8eec4ab5470ed4d209a6aa3fb7881f214bb59c35fd43c3",
   "install_command": "mkdir -p .claude/skills/tasks-code-review && curl -sL \"https://raw.githubusercontent.com/CongDon1207/AGENTS.md/main/.codex/skills/tasks-code-review/SKILL.md\" > .claude/skills/tasks-code-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/CongDon1207/AGENTS.md/main/.codex/skills/tasks-code-review/SKILL.md"

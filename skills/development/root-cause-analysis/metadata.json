@@ -3,8 +3,8 @@
   "description": "Find the true source, not symptoms — systematic debugging from observation to permanent fix",
   "category": "development",
   "canonical_category": "development",
-  "repository": "fabioc-aloha/youtube-mcp-vscode",
-  "repository_url": "https://github.com/fabioc-aloha/youtube-mcp-vscode",
+  "repository": "fabioc-aloha/Alex_Plug_In",
+  "repository_url": "https://github.com/fabioc-aloha/Alex_Plug_In",
   "author": "fabioc-aloha",
   "author_avatar": "https://github.com/fabioc-aloha.png",
   "file_path": ".github/skills/root-cause-analysis/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": false,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "fbb851c9351e0d0f5dd597f2595375171bbafb520f8ddfb6f5c8d4cade3aa4ef",
-  "indexed_at": "2026-02-27T18:10:47.632Z",
-  "synced_at": "2026-02-27T18:16:55.069Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5947d7faeac4dea2e54fbe287eccbc35ac06824896291c7eb64407874b798888",
-  "install_command": "mkdir -p .claude/skills/root-cause-analysis && curl -sL \"https://raw.githubusercontent.com/fabioc-aloha/youtube-mcp-vscode/main/.github/skills/root-cause-analysis/SKILL.md\" > .claude/skills/root-cause-analysis/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/fabioc-aloha/youtube-mcp-vscode/main/.github/skills/root-cause-analysis/SKILL.md"
+  "content_hash": "d97049a79f13ea88d1ba4f9b517fd603f4cc1754a13739f3ed84ccff7ff386bc",
+  "indexed_at": "2026-02-26T04:12:38.011Z",
+  "synced_at": "2026-02-28T03:54:49.847Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d30844386e6fcdec311050e3eae05ef98f9924d719b8496264796eec7c4440e0",
+  "install_command": "mkdir -p .claude/skills/root-cause-analysis && curl -sL \"https://raw.githubusercontent.com/fabioc-aloha/Alex_Plug_In/main/.github/skills/root-cause-analysis/SKILL.md\" > .claude/skills/root-cause-analysis/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/fabioc-aloha/Alex_Plug_In/main/.github/skills/root-cause-analysis/SKILL.md"
 }

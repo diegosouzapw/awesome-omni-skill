@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "02a749c89f58da0df14b913de681bf9082f9247e41edd962213a7243c90205a6",
   "indexed_at": "2026-02-26T05:46:57.576Z",
-  "synced_at": "2026-02-27T02:29:12.285Z",
+  "synced_at": "2026-02-28T03:55:01.275Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3c1eb8481e369a6e3591c541a6149ee418f13a76542b3c2acc09c1afdd79a55e",
   "install_command": "mkdir -p .claude/skills/developing-backend-services && curl -sL \"https://raw.githubusercontent.com/Chogos/claude-skills/main/developing-backend-services/SKILL.md\" > .claude/skills/developing-backend-services/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Chogos/claude-skills/main/developing-backend-services/SKILL.md"

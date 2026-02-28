@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b0e2917d6153d4fcd53690d342da24ce50ab906459f03e145599f1a42840b5b8",
   "indexed_at": "2026-02-26T04:26:03.767Z",
-  "synced_at": "2026-02-27T02:29:01.980Z",
+  "synced_at": "2026-02-28T03:54:51.127Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e6739b4130b4820b3bb76699ac18dc03bb8849888bf315e49b3e31a5cd68d3a3",
   "install_command": "mkdir -p .claude/skills/bio-read-qc-quality-reports && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/quality-reports/SKILL.md\" > .claude/skills/bio-read-qc-quality-reports/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/quality-reports/SKILL.md"

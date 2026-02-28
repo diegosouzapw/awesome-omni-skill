@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d0d30f90111b33a9e33ed4fb2ac369dd7c4faa1838fe0a807520adcca456dd5f",
   "indexed_at": "2026-02-26T05:45:29.811Z",
-  "synced_at": "2026-02-27T02:29:07.038Z",
+  "synced_at": "2026-02-28T03:54:56.203Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4fd694a4b4a419d188e60312b0d33d56d75ea959b20317805c7367a198332699",
   "install_command": "mkdir -p .claude/skills/project-scaffold-skill && curl -sL \"https://raw.githubusercontent.com/gaurangrshah/gsc-plugins/main/plugins/appgen/skills/project-scaffold/SKILL.md\" > .claude/skills/project-scaffold-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/gaurangrshah/gsc-plugins/main/plugins/appgen/skills/project-scaffold/SKILL.md"

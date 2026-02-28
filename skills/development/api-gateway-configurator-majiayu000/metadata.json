@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "be215bfd76d88439964995ee788df10ae4ef19e977d34a3a6e4b382a313d7023",
   "indexed_at": "2026-02-26T05:53:08.857Z",
-  "synced_at": "2026-02-27T02:29:30.391Z",
+  "synced_at": "2026-02-28T03:55:18.308Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c662b2d4d3e02149a84062507fc85a028067ea8c66904bc11fa9683bcf3efc02",
   "install_command": "mkdir -p .claude/skills/api-gateway-configurator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/api-gateway-configurator/SKILL.md\" > .claude/skills/api-gateway-configurator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/api-gateway-configurator/SKILL.md"

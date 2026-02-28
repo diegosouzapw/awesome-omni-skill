@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "35ead79f363c8ae418d910b864ab3c653f744dfcaaecc66e08db1cd91684d684",
   "indexed_at": "2026-02-25T21:41:24.105Z",
-  "synced_at": "2026-02-27T02:28:56.115Z",
+  "synced_at": "2026-02-28T03:54:45.330Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f66b865a6c83346dc917cc602bfbfe3faf3caaa301e3598d470666ae78360cab",
   "install_command": "mkdir -p .claude/skills/terway-troubleshooting && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/terway-troubleshooting/SKILL.md\" > .claude/skills/terway-troubleshooting/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/terway-troubleshooting/SKILL.md"

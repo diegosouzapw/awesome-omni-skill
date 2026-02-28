@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f31332a0332eb5c5b4edae93a86219183d9cc0ed19e273153db14400d1bce795",
   "indexed_at": "2026-02-25T15:07:48.747Z",
-  "synced_at": "2026-02-27T02:28:33.675Z",
+  "synced_at": "2026-02-28T03:54:23.577Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/10cdbe1fc1a59bed1c70e86b5e5b40c75f2ba2777bca1e2029a7763aa42c4419",
   "install_command": "mkdir -p .claude/skills/ssh-server-admin && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/ssh-server-admin/SKILL.md\" > .claude/skills/ssh-server-admin/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/ssh-server-admin/SKILL.md"

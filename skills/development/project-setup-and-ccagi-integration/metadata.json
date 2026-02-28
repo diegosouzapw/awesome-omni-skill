@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "97b6f53ece87f9479b6e4152ca6264af741f3e3898a0f3ad6f511eec8b8cf1a5",
   "indexed_at": "2026-02-25T21:42:28.175Z",
-  "synced_at": "2026-02-27T02:28:56.928Z",
+  "synced_at": "2026-02-28T03:54:46.089Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9c977fd6ea61c7598264ed81ee5cf6ab56ce19856e096ad803b520f704794ba4",
   "install_command": "mkdir -p .claude/skills/project-setup-and-ccagi-integration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/project-setup-and-ccagi-integration/SKILL.md\" > .claude/skills/project-setup-and-ccagi-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/project-setup-and-ccagi-integration/SKILL.md"

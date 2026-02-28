@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "07067e9dc8f9d84764329ab409fd8c78dad2cf30df72116c473f3b20c449cbe5",
   "indexed_at": "2026-02-25T14:03:22.794Z",
-  "synced_at": "2026-02-27T02:28:26.632Z",
+  "synced_at": "2026-02-28T03:54:16.656Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d86854601bd2a0e0e69faad954dbbc27ac12af2d011f50d9007b62e8939c96fb",
   "install_command": "mkdir -p .claude/skills/apprun-skills && curl -sL \"https://raw.githubusercontent.com/yysun/apprun-skills/main/SKILL.md\" > .claude/skills/apprun-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yysun/apprun-skills/main/SKILL.md"
