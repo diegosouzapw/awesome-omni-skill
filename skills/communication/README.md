@@ -1,9 +1,13 @@
 # 📂 communication
 
-> 39 skills in this category
+> 29 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
+| [twilio-communications](twilio-communications/) | sickn33 | ★ 16.8k | 95% | L3 | Build communication features with Twilio: SMS messaging, voice calls, WhatsApp B… |
+| [postmortem-writing](postmortem-writing/) | sickn33 | ★ 16.7k | 95% | L2 | Write effective blameless postmortems with root cause analysis, timelines, and a… |
+| [i18n-localization](i18n-localization/) | sickn33 | ★ 16.7k | 95% | L3 | Internationalization and localization patterns. Detecting hardcoded strings, man… |
+| [beautiful-prose](beautiful-prose/) | sickn33 | ★ 16.7k | 82% | L2 | Hard-edged writing style contract for timeless, forceful English prose without A… |
 | [writing-skills](writing-skills/) | sickn33 | ★ 15.5k | 91% | L3 | Use when creating, updating, or improving agent skills. |
 | [postmortem-writing](postmortem-writing/) | sickn33 | ★ 15.5k | 95% | L2 | Write effective blameless postmortems with root cause analysis, timelines, and a… |
 | [i18n-localization](i18n-localization/) | sickn33 | ★ 15.5k | 95% | L3 | Internationalization and localization patterns. Detecting hardcoded strings, man… |
@@ -29,20 +33,6 @@
 | [i18n-translate](i18n-translate/) | CofficLab | ★ 0 | 45% | L3 | 管理 iOS/macOS 应用的 *.xcstrings 本地化翻译文件。自动清理过期条目、检测缺失翻译、添加简繁体中文翻译。当用户需要处理翻译、补充缺失的 z… |
 | [i18n-translate](i18n-translate/) | majiayu000 | ★ 0 | 45% | L3 | 管理 iOS/macOS 应用的 *.xcstrings 本地化翻译文件。自动清理过期条目、检测缺失翻译、添加简繁体中文翻译。当用户需要处理翻译、补充缺失的 z… |
 | [writing-project-technical-writing](writing-project-technical-writing/) | majiayu000 | ★ 0 | 45% | L3 | Writes technical prose (READMEs, ADRs, code comments) in the project's establish… |
-| [eos-style](eos-style/) | neurofoo | ★ 0 | 45% | L2 | Strunk & White style review using the 21 reminders from "Elements of Style" Chap… |
-| [eos-style](eos-style/) | NeverSight | ★ 0 | 45% | L2 | Strunk & White style review using the 21 reminders from "Elements of Style" Chap… |
-| [copywriting](copywriting/) | NeverSight | ★ 0 | 45% | L2 | Use when writing headlines, hooks, email copy, landing pages, ads, sales copy, s… |
-| [u09613-writing-and-rhetoric-optimization-for-household-logistics](u09613-writing-and-rhetoric-optimization-for-household-logistics/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Writing And Rhetoric Optimization for household logistics" capabili… |
-| [u08983-ethical-dilemma-navigation-for-multilingual-translation-services](u08983-ethical-dilemma-navigation-for-multilingual-translation-services/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Ethical Dilemma Navigation for multilingual translation services" c… |
-| [Meeting Notes Taker](meeting-notes-taker/) | majiayu000 | ★ 0 | 44% | L2 | Summarize meetings into clear, actionable notes with decisions and next steps |
-| [paraglide-js-internationalization-i18n](paraglide-js-internationalization-i18n/) | oimiragieo | ★ 0 | 39% | L3 | Details Paraglide.js i18n implementations. |
-| [communication-tone](communication-tone/) | majiayu000 | ★ 0 | 39% | L3 | Establish a professional and concise style for all AI communication and output. |
-| [brand-voice-consistency](brand-voice-consistency/) | luongnv89 | ★ 0 | 38% | L2 | Ensure all communication matches brand voice and tone guidelines. Use when creat… |
-| [brand-voice-consistency](brand-voice-consistency/) | majiayu000 | ★ 0 | 38% | L2 | Ensure all communication matches brand voice and tone guidelines. Use when creat… |
-| [brand-voice-consistency](brand-voice-consistency/) | majiayu000 | ★ 0 | 38% | L2 | Ensure all communication matches brand voice and tone guidelines. Use when creat… |
-| [generate-component-story](generate-component-story/) | longbridge | ★ 0 | 32% | L2 | Create story examples for components. Use when writing stories, creating example… |
-| [generate-component-story](generate-component-story/) | majiayu000 | ★ 0 | 32% | L2 | Create story examples for components. Use when writing stories, creating example… |
-| [continue](continue/) | 0xharkirat | ★ 0 | 22% | L2 | skill to continue translation with commit, push, continue |
 
 ---
 

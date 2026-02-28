@@ -1,9 +1,15 @@
 # 📂 machine-learning
 
-> 39 skills in this category
+> 33 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
+| [threat-modeling-expert](threat-modeling-expert/) | sickn33 | ★ 16.8k | 88% | L2 | Expert in threat modeling methodologies, security architecture review, and risk … |
+| [ml-pipeline-workflow](ml-pipeline-workflow/) | sickn33 | ★ 16.7k | 95% | L3 | Build end-to-end MLOps pipelines from data preparation through model training, v… |
+| [computer-vision-expert](computer-vision-expert/) | sickn33 | ★ 16.7k | 95% | L2 | SOTA Computer Vision Expert (2026). Specialized in YOLO26, Segment Anything 3 (S… |
+| [machine-learning-ops-ml-pipeline](machine-learning-ops-ml-pipeline/) | sickn33 | ★ 16.7k | 91% | L2 | Design and implement a complete ML pipeline for: $ARGUMENTS |
+| [avalonia-viewmodels-zafiro](avalonia-viewmodels-zafiro/) | sickn33 | ★ 16.7k | 88% | L2 | Optimal ViewModel and Wizard creation patterns for Avalonia using Zafiro and Rea… |
+| [fal-workflow](fal-workflow/) | sickn33 | ★ 16.7k | 72% | L2 | Generate workflow JSON files for chaining AI models |
 | [Add Model Property](add-model-property/) | majiayu000 | ★ 94 | 77% | L3 | Add a new property to an existing data model and propagate changes through model… |
 | [add-openrouter-model](add-openrouter-model/) | majiayu000 | ★ 94 | 77% | L3 | Fetch OpenRouter model details and provide guidance for adding models to acai-ts… |
 | [aeon](aeon/) | majiayu000 | ★ 94 | 77% | L3 | This skill should be used for time series machine learning tasks including class… |
@@ -31,18 +37,6 @@
 | [Build Your Model Serving Skill](build-your-model-serving-skill/) | majiayu000 | ★ 1 | 62% | L3 | Create your model-serving skill from Ollama documentation before learning deploy… |
 | [Creating Models](creating-models/) | havmedia | ★ 0 | 47% | L3 | Step-by-step guide to create a new Odoo model with fields, constraints, and meth… |
 | [ml-engineer](ml-engineer/) | ranbot-ai | ★ 0 | 45% | L3 | Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML framewor… |
-| [training-hub](training-hub/) | majiayu000 | ★ 0 | 45% | L3 | Fine-tune LLMs using Red Hat training-hub library with SFT, LoRA, and OSFT algor… |
-| [sap-rpt1-oss-predictor](sap-rpt1-oss-predictor/) | majiayu000 | ★ 0 | 45% | L3 | Use SAP-RPT-1-OSS open source tabular foundation model for predictive analytics … |
-| [training-hub](training-hub/) | RobbieJ | ★ 0 | 45% | L3 | Fine-tune LLMs using Red Hat training-hub library with SFT, LoRA, and OSFT algor… |
-| [sap-rpt1-oss-predictor](sap-rpt1-oss-predictor/) | amitlals | ★ 0 | 45% | L3 | Use SAP-RPT-1-OSS open source tabular foundation model for predictive analytics … |
-| [summarize-experiment](summarize-experiment/) | niznik-dev | ★ 0 | 45% | L3 | Create a lightweight summary of experiment results from a completed (fine-tuned … |
-| [chat-migration-bridge-v45](chat-migration-bridge-v45/) | svend4 | ★ 0 | 45% | L3 | Quantum-classical hybrid checkpoint система. Используй когда (1) нужны cutting-e… |
-| [chat-migration-bridge-v45](chat-migration-bridge-v45/) | svend4 | ★ 0 | 45% | L2 | Quantum-classical hybrid checkpoint система. Используй когда (1) нужны cutting-e… |
-| [inter-model-arbitration](inter-model-arbitration/) | starwreckntx | ★ 0 | 44% | L3 | Resolves disputes and conflicts between AI models during collaborative tasks |
-| [orcaflex-model-generator](orcaflex-model-generator/) | majiayu000 | ★ 0 | 41% | L3 | Generate OrcaFlex models from templates using component assembly with |
-| [ML Experiment Tracking](ml-experiment-tracking/) | cdalsoniii | ★ 0 | 39% | L2 | Track machine learning experiments with reproducible parameters and metrics |
-| [chatgpt](chatgpt/) | majiayu000 | ★ 0 | 38% | L3 | OpenAI's conversational AI assistant. |
-| [[invalid yaml with unclosed bracket](invalid-yaml-with-unclosed-bracket/) | majiayu000 | ★ 0 | 15% | L1 | This YAML is malformed |
 
 ---
 

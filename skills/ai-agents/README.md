@@ -1,9 +1,61 @@
 # 📂 ai-agents
 
-> 383 skills in this category
+> 358 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
+| [superpowers-lab](superpowers-lab/) | sickn33 | ★ 16.8k | 69% | L2 | Lab environment for Claude superpowers |
+| [multi-agent-brainstorming](multi-agent-brainstorming/) | sickn33 | ★ 16.7k | 95% | L2 | Transform a single-agent design into a **robust, review-validated design** by si… |
+| [performance-testing-review-ai-review](performance-testing-review-ai-review/) | sickn33 | ★ 16.7k | 95% | L3 | You are an expert AI-powered code review specialist combining automated static a… |
+| [prompt-engineering-patterns](prompt-engineering-patterns/) | sickn33 | ★ 16.7k | 95% | L3 | Master advanced prompt engineering techniques to maximize LLM performance, relia… |
+| [rag-engineer](rag-engineer/) | sickn33 | ★ 16.7k | 95% | L3 | Expert in building Retrieval-Augmented Generation systems. Masters embedding mod… |
+| [rag-implementation](rag-implementation/) | sickn33 | ★ 16.7k | 95% | L2 | RAG (Retrieval-Augmented Generation) implementation workflow covering embedding … |
+| [memory-systems](memory-systems/) | sickn33 | ★ 16.7k | 91% | L3 | Design short-term, long-term, and graph-based memory architectures |
+| [multi-agent-patterns](multi-agent-patterns/) | sickn33 | ★ 16.7k | 91% | L3 | Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures |
+| [prompt-caching](prompt-caching/) | sickn33 | ★ 16.7k | 88% | L2 | Caching strategies for LLM prompts including Anthropic prompt caching, response … |
+| [agentfolio](agentfolio/) | sickn33 | ★ 16.7k | 95% | L2 | Skill for discovering and researching autonomous AI agents, tools, and ecosystem… |
+| [agent-memory-mcp](agent-memory-mcp/) | sickn33 | ★ 16.7k | 95% | L3 | A hybrid memory system that provides persistent, searchable knowledge management… |
+| [agent-orchestration-improve-agent](agent-orchestration-improve-agent/) | sickn33 | ★ 16.7k | 95% | L2 | Systematic improvement of existing agents through performance analysis, prompt e… |
+| [agent-orchestration-multi-agent-optimize](agent-orchestration-multi-agent-optimize/) | sickn33 | ★ 16.7k | 95% | L3 | Optimize multi-agent systems with coordinated profiling, workload distribution, … |
+| [agents-v2-py](agents-v2-py/) | sickn33 | ★ 16.7k | 95% | L3 | Build container-based Foundry Agents with Azure AI Projects SDK (ImageBasedHoste… |
+| [ai-agent-development](ai-agent-development/) | sickn33 | ★ 16.7k | 95% | L2 | AI agent development workflow for building autonomous agents, multi-agent system… |
+| [ai-agents-architect](ai-agents-architect/) | sickn33 | ★ 16.7k | 95% | L3 | Expert in designing and building autonomous AI agents. Masters tool use, memory … |
+| [ai-ml](ai-ml/) | sickn33 | ★ 16.7k | 95% | L2 | AI and machine learning workflow covering LLM application development, RAG imple… |
+| [ai-wrapper-product](ai-wrapper-product/) | sickn33 | ★ 16.7k | 95% | L3 | Expert in building products that wrap AI APIs (OpenAI, Anthropic, etc.) into foc… |
+| [antigravity-workflows](antigravity-workflows/) | sickn33 | ★ 16.7k | 95% | L2 | Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP de… |
+| [azure-ai-projects-py](azure-ai-projects-py/) | sickn33 | ★ 16.7k | 95% | L3 | Build AI applications using the Azure AI Projects Python SDK (azure-ai-projects)… |
+| [azure-storage-blob-java](azure-storage-blob-java/) | sickn33 | ★ 16.7k | 95% | L3 | Build blob storage applications with Azure Storage Blob SDK for Java. Use when u… |
+| [blockrun](blockrun/) | sickn33 | ★ 16.7k | 95% | L3 | Use when user needs capabilities Claude lacks (image generation, real-time X/Twi… |
+| [computer-use-agents](computer-use-agents/) | sickn33 | ★ 16.7k | 95% | L3 | Build AI agents that interact with computers like humans do - viewing screens, m… |
+| [context-fundamentals](context-fundamentals/) | sickn33 | ★ 16.7k | 95% | L3 | Understand what context is, why it matters, and the anatomy of context in agent … |
+| [dispatching-parallel-agents](dispatching-parallel-agents/) | sickn33 | ★ 16.7k | 95% | L3 | Use when facing 2+ independent tasks that can be worked on without shared state … |
+| [docx-official](docx-official/) | sickn33 | ★ 16.7k | 95% | L3 | Comprehensive document creation, editing, and analysis with support for tracked … |
+| [embedding-strategies](embedding-strategies/) | sickn33 | ★ 16.7k | 95% | L3 | Select and optimize embedding models for semantic search and RAG applications. U… |
+| [geo-fundamentals](geo-fundamentals/) | sickn33 | ★ 16.7k | 95% | L3 | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexit… |
+| [hosted-agents-v2-py](hosted-agents-v2-py/) | sickn33 | ★ 16.7k | 95% | L3 | Build hosted agents using Azure AI Projects SDK with ImageBasedHostedAgentDefini… |
+| [langchain-architecture](langchain-architecture/) | sickn33 | ★ 16.7k | 95% | L3 | Design LLM applications using the LangChain framework with agents, memory, and t… |
+| [langfuse](langfuse/) | sickn33 | ★ 16.7k | 95% | L3 | Expert in Langfuse - the open-source LLM observability platform. Covers tracing,… |
+| [last30days](last30days/) | sickn33 | ★ 16.7k | 95% | L3 | Research a topic from the last 30 days on Reddit + X + Web, become an expert, an… |
+| [llm-app-patterns](llm-app-patterns/) | sickn33 | ★ 16.7k | 95% | L3 | Production-ready patterns for building LLM applications. Covers RAG pipelines, a… |
+| [llm-application-dev-langchain-agent](llm-application-dev-langchain-agent/) | sickn33 | ★ 16.7k | 95% | L3 | You are an expert LangChain agent developer specializing in production-grade AI … |
+| [llm-evaluation](llm-evaluation/) | sickn33 | ★ 16.7k | 95% | L3 | Implement comprehensive evaluation strategies for LLM applications using automat… |
+| [loki-mode](loki-mode/) | sickn33 | ★ 16.7k | 95% | L3 | Multi-agent autonomous startup system for Claude Code. Triggers on \"Loki Mode\"… |
+| [context-management-context-save](context-management-context-save/) | sickn33 | ★ 16.7k | 91% | L3 | Use when working with context management context save |
+| [evaluation](evaluation/) | sickn33 | ★ 16.7k | 91% | L3 | Build evaluation frameworks for agent systems |
+| [agent-evaluation](agent-evaluation/) | sickn33 | ★ 16.7k | 88% | L2 | Testing and benchmarking LLM agents including behavioral testing, capability ass… |
+| [agent-memory-systems](agent-memory-systems/) | sickn33 | ★ 16.7k | 88% | L2 | Memory is the cornerstone of intelligent agents. Without it, every interaction s… |
+| [ai-product](ai-product/) | sickn33 | ★ 16.7k | 88% | L2 | Every product will be AI-powered. The question is whether you'll build it right … |
+| [autonomous-agents](autonomous-agents/) | sickn33 | ★ 16.7k | 88% | L2 | Autonomous agents are AI systems that can independently decompose goals, plan ac… |
+| [context-window-management](context-window-management/) | sickn33 | ★ 16.7k | 88% | L2 | Strategies for managing LLM context windows including summarization, trimming, r… |
+| [conversation-memory](conversation-memory/) | sickn33 | ★ 16.7k | 88% | L2 | Persistent memory systems for LLM conversations including short-term, long-term,… |
+| [internal-comms-anthropic](internal-comms-anthropic/) | sickn33 | ★ 16.7k | 88% | L2 | A set of resources to help me write all kinds of internal communications, using … |
+| [llm-application-dev-ai-assistant](llm-application-dev-ai-assistant/) | sickn33 | ★ 16.7k | 88% | L2 | You are an AI assistant development expert specializing in creating intelligent … |
+| [llm-application-dev-prompt-optimize](llm-application-dev-prompt-optimize/) | sickn33 | ★ 16.7k | 88% | L2 | You are an expert prompt engineer specializing in crafting effective prompts for… |
+| [clarity-gate](clarity-gate/) | sickn33 | ★ 16.7k | 82% | L2 | Pre-ingestion verification for epistemic quality in RAG systems with 9-point ver… |
+| [claude-ally-health](claude-ally-health/) | sickn33 | ★ 16.7k | 82% | L2 | A health assistant skill for medical information analysis, symptom tracking, and… |
+| [claude-speed-reader](claude-speed-reader/) | sickn33 | ★ 16.7k | 82% | L2 | -Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP high… |
+| [claude-win11-speckit-update-skill](claude-win11-speckit-update-skill/) | sickn33 | ★ 16.7k | 69% | L2 | Windows 11 system management |
+| [ffuf-claude-skill](ffuf-claude-skill/) | sickn33 | ★ 16.7k | 69% | L2 | Web fuzzing with ffuf |
 | [rag-implementation](rag-implementation/) | sickn33 | ★ 15.5k | 98% | L2 | RAG (Retrieval-Augmented Generation) implementation workflow covering embedding … |
 | [ai-agent-development](ai-agent-development/) | sickn33 | ★ 15.4k | 98% | L2 | AI agent development workflow for building autonomous agents, multi-agent system… |
 | [ai-ml](ai-ml/) | sickn33 | ★ 15.4k | 98% | L2 | AI and machine learning workflow covering LLM application development, RAG imple… |
@@ -242,7 +294,6 @@
 | [Build Your Google ADK Skill](build-your-google-adk-skill/) | majiayu000 | ★ 2 | 57% | L3 | Create your Google Agent Development Kit skill in one prompt, then learn to impr… |
 | [agent-evaluation](agent-evaluation/) | majiayu000 | ★ 2 | 57% | L2 | Testing and benchmarking LLM agents including behavioral testing, capability ass… |
 | [agent-hierarchy-diagram](agent-hierarchy-diagram/) | majiayu000 | ★ 2 | 57% | L3 | Generate visual hierarchy diagrams of agent system showing levels and delegation… |
-| [agent-memory-mcp](agent-memory-mcp/) | majiayu000 | ★ 2 | 57% | L3 | A hybrid memory system that provides persistent, searchable knowledge management… |
 | [agent-memory-systems](agent-memory-systems/) | majiayu000 | ★ 2 | 57% | L2 | Memory is the cornerstone of intelligent agents. Without it, every interaction s… |
 | [agent](agent/) | majiayu000 | ★ 2 | 57% | L3 | Imported skill agent from langchain |
 | [agents-bootstrap](agents-bootstrap/) | majiayu000 | ★ 2 | 57% | L2 | Generate a project-specific AGENTS.md from a user goal, then confirm before over… |
@@ -304,89 +355,13 @@
 | [outcome-wtf](outcome-wtf/) | densmirnov | ★ 0 | 48% | L3 | Outcome market for agents on Solana devnet. Build unsigned txs for intents, winn… |
 | [GMCLAW](gmclaw/) | 1dolinski | ★ 0 | 48% | L3 | Track which AI agents are alive and what they're working on. Coordinate the glob… |
 | [moltbook](moltbook/) | protagolabs | ★ 0 | 48% | L3 | The social network for AI agents. Post, comment, upvote, and create communities. |
+| [hive-mind-advanced](hive-mind-advanced/) | ruvnet | ★ 0 | 48% | L3 | Advanced Hive Mind collective intelligence system for queen-led multi-agent coor… |
+| [ai-prompting](ai-prompting/) | majiayu000 | ★ 0 | 48% | L3 | Effective communication strategies for AI-assisted development. Learn context-fi… |
 | [prompt-engineering](prompt-engineering/) | artokun | ★ 0 | 47% | L3 | ComfyUI prompt engineering knowledge — CLIP text encoding syntax, weight modifie… |
 | [convex-ai](convex-ai/) | majiayu000 | ★ 0 | 47% | L3 | Convex AI Integration - OpenAI, actions, streaming, and AI patterns with databas… |
 | [arize-phoenix](arize-phoenix/) | Arize-ai | ★ 0 | 45% | L3 | Open-source AI observability platform for tracing, evaluating, and improving LLM… |
 | [arize-phoenix](arize-phoenix/) | Finimo-Solutions | ★ 0 | 45% | L3 | Open-source AI observability platform for tracing, evaluating, and improving LLM… |
 | [thinking-sequentially](thinking-sequentially/) | doanchienthangdev | ★ 0 | 45% | L2 | AI agent structures complex reasoning through numbered thought sequences with ex… |
-| [ai-engineer](ai-engineer/) | ranbot-ai | ★ 0 | 45% | L2 | Build production-ready LLM applications, advanced RAG systems, and intelligent a… |
-| [ai-wrapper-product](ai-wrapper-product/) | ranbot-ai | ★ 0 | 45% | L3 | Expert in building products that wrap AI APIs (OpenAI, Anthropic, etc.) into foc… |
-| [StopTimizer](stoptimizer/) | majiayu000 | ★ 0 | 45% | L3 | Precise token counter for GPT, Claude, and Gemini models (source of truth from s… |
-| [StopTimizer](stoptimizer/) | ShipFail | ★ 0 | 45% | L3 | Precise token counter for GPT, Claude, and Gemini models (source of truth from s… |
-| [StopTimizer](stoptimizer/) | majiayu000 | ★ 0 | 45% | L3 | Precise token counter for GPT, Claude, and Gemini models (source of truth from s… |
-| [m365-agents-ts](m365-agents-ts/) | ranbot-ai | ★ 0 | 45% | L3 | Microsoft 365 Agents SDK for TypeScript/Node.js. Build multichannel agents for T… |
-| [portable-agents](portable-agents/) | evatt-harvey-salinger | ★ 0 | 45% | L3 | Defines agent configuration formats across Claude Code, Cursor, OpenCode, and Cl… |
-| [Build Your LiveKit Agents Skill](build-your-livekit-agents-skill/) | panaversity | ★ 0 | 45% | L3 | Create your LiveKit Agents skill from official documentation, then learn to impr… |
-| [claude-code-capabilities](claude-code-capabilities/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive guide to Claude Code's extensibility features including subagents,… |
-| [skill-creator](skill-creator/) | rafaelramosdf | ★ 0 | 45% | L3 | Guia para criar habilidades eficazes. Esta habilidade deve ser usada quando os u… |
-| [annotating-csv](annotating-csv/) | brook-miller | ★ 0 | 45% | L3 | Annotates CSV rows using OpenAI by applying a prompt to each row and adding a ne… |
-| [openai-api](openai-api/) | NeverSight | ★ 0 | 45% | L3 | OpenAI API integration for building AI-powered applications. Use when working wi… |
-| [agent-worker](agent-worker/) | NeverSight | ★ 0 | 45% | L3 | Create and manage AI agent sessions with multiple backends (SDK, Claude CLI, Cod… |
-| [Prompting](prompting/) | virtualian | ★ 0 | 45% | L3 | Meta-prompting system for dynamic prompt generation using templates, standards, … |
-| [prompt-optimizer](prompt-optimizer/) | majiayu000 | ★ 0 | 45% | L2 | This skill should be used when users request help optimizing, improving, or refi… |
-| [command-sub-agent](command-sub-agent/) | majiayu000 | ★ 0 | 45% | L3 | 專責處理 CBF (Commanded Behavior Frame) 類型的需求。讀取規格目錄結構，生成/審查 Command Side 設計與實作。支援 J… |
-| [codex](codex/) | adampaulwalker | ★ 0 | 45% | L3 | Review code changes, implementation plans, or specific files using OpenAI Codex … |
-| [m365-agent-scaffolder](m365-agent-scaffolder/) | majiayu000 | ★ 0 | 45% | L3 | Quickly scaffolds new Microsoft 365 Copilot declarative agent (M365 agent, copil… |
-| [copilot-sdk](copilot-sdk/) | majiayu000 | ★ 0 | 45% | L3 | Build agentic applications with GitHub Copilot SDK. Use when embedding AI agents… |
-| [god-mode](god-mode/) | openclaw | ★ 0 | 45% | L3 | Developer oversight and AI agent coaching. Use when viewing project status acros… |
-| [copilot-sdk](copilot-sdk/) | sickn33 | ★ 0 | 45% | L3 | Build applications powered by GitHub Copilot using the Copilot SDK. Use when cre… |
-| [agent-ui](agent-ui/) | NeverSight | ★ 0 | 45% | L3 | "Batteries-included agent component for React/Next.js from ui.inference.sh. One … |
-| [vibe-agents](vibe-agents/) | majiayu000 | ★ 0 | 45% | L2 | Generate AGENTS.md and AI configuration files for your project. Use when the use… |
-| [building-with-llms](building-with-llms/) | majiayu000 | ★ 0 | 45% | L2 | Produce an LLM Build Pack (prompt+tool contract, data/eval plan, architecture+sa… |
-| [hud-first](hud-first/) | majiayu000 | ★ 0 | 45% | L2 | This skill should be used when the user asks to "build an AI assistant", "create… |
-| [typespec-create-agent](typespec-create-agent/) | sandriaas | ★ 0 | 45% | L3 | Generate a complete TypeSpec declarative agent with instructions, capabilities, … |
-| [kano-agent-backlog-skill](kano-agent-backlog-skill/) | majiayu000 | ★ 0 | 45% | L3 | Local-first backlog workflow. Use when planning work, creating/updating backlog … |
-| [agentic-chat](agentic-chat/) | majiayu000 | ★ 0 | 45% | L2 | AI assistant for creating clear, actionable task descriptions for GitHub Copilot… |
-| [god-mode](god-mode/) | majiayu000 | ★ 0 | 45% | L3 | Developer oversight and AI agent coaching. Use when viewing project status acros… |
-| [god-mode](god-mode/) | kbarbel640-del | ★ 0 | 45% | L3 | Developer oversight and AI agent coaching. Use when viewing project status acros… |
-| [god-mode](god-mode/) | mpelissari | ★ 0 | 45% | L3 | Developer oversight and AI agent coaching. Use when viewing project status acros… |
-| [copilotkit-pitch-deck](copilotkit-pitch-deck/) | majiayu000 | ★ 0 | 45% | L3 | Production-ready CopilotKit pitch deck wizard in main application. Use when enha… |
-| [coeditor](coeditor/) | majiayu000 | ★ 0 | 45% | L3 | Build React applications with CopilotKit and LangGraph for AI-powered collaborat… |
-| [ck:project-management](ck-project-management/) | weihung0831 | ★ 0 | 45% | L2 | Track progress, update plan statuses, manage Claude Tasks, generate reports, coo… |
-| [agentic-rules-writer](agentic-rules-writer/) | krzysztofsurdy | ★ 0 | 45% | L2 | Generate a rules file for any AI coding agent. Interactive setup that scans inst… |
-| [verify-claude-setup](verify-claude-setup/) | majiayu000 | ★ 0 | 45% | L3 | Verify .claude directory configuration is complete and correct. Use when checkin… |
-| [ai-rules-reviewer](ai-rules-reviewer/) | jthoms1 | ★ 0 | 45% | L2 | Review, fix, and create Builder.io Fusion rules files (.builderrules, .mdc, agen… |
-| [converter](converter/) | boshu2 | ★ 0 | 45% | L3 | Cross-platform skill converter. Parse AgentOps skills into a universal bundle fo… |
-| [ai-tool-converter](ai-tool-converter/) | thegameband | ★ 0 | 45% | L3 | Convert AI coding assistant configuration files (agents, skills, commands, rules… |
-| [sync-agents](sync-agents/) | NoahJenkins | ★ 0 | 45% | L2 | Synchronize GitHub Copilot instructions, custom agents, and skills into detected… |
-| [working-with-llms](working-with-llms/) | majiayu000 | ★ 0 | 45% | L2 | Mandatory workflow for creating LLM-facing content. Follow the 4-step process (o… |
-| [vercel-ai-sdk](vercel-ai-sdk/) | itzaks | ★ 0 | 45% | L3 | Comprehensive guide to Vercel AI SDK for building AI-powered applications with t… |
-| [000-TnR-Absolute-Rigor](000-tnr-absolute-rigor/) | majiayu000 | ★ 0 | 45% | L2 | [00] TnR ABSOLUTE RIGOR — Systemic Verification Doctrine. Forced cognitive exert… |
-| [using-skillpack-maintenance](using-skillpack-maintenance/) | majiayu000 | ★ 0 | 45% | L3 | Use when maintaining, enhancing, or modifying existing Claude Code plugins - han… |
-| [agent-protocol](agent-protocol/) | majiayu000 | ★ 0 | 45% | L3 | Human and agent coordination protocol for repos using .agentprotocol. Use to man… |
-| [llm-arena](llm-arena/) | lucifertrj | ★ 0 | 45% | L3 | Full-stack LLM Arena application for AI vs AI game battles. Use when working on … |
-| [openclaw-starter-kit](openclaw-starter-kit/) | AIsa-team | ★ 0 | 45% | L3 | Replace 100+ API keys with one. Instant access to LLMs, Twitter, YouTube, Linked… |
-| [developing-langgraph-js-agents](developing-langgraph-js-agents/) | mikekelly | ★ 0 | 45% | L3 | Build, audit, review, and update LangGraph.js agents. Use PROACTIVELY when worki… |
-| [trae-rules-writer](trae-rules-writer/) | NeverSight | ★ 0 | 45% | L3 | Create Trae IDE rules (.trae/rules/*.md) for AI behavior constraints. Use when u… |
-| [converter](converter/) | boshu2 | ★ 0 | 45% | L3 | Cross-platform skill converter. Parse AgentOps skills into a universal bundle fo… |
-| [cursor-mem](cursor-mem/) | majiayu000 | ★ 0 | 45% | L3 | Cursorでclaude-memのMCPサーバーにアクセスし、過去のセッション記録を検索・新しい観測を記録。トリガー: 'メモリ検索', 'claude-me… |
-| [jules](jules/) | cgasgarth | ★ 0 | 44% | L3 | Integration with Google's Jules API for agentic coding sessions. |
-| [clawtlas](clawtlas/) | pgnore | ★ 0 | 44% | L3 | Activity journal for AI agents. Log what you do, see the patterns emerge. |
-| [agents](agents/) | GobbyAI | ★ 0 | 44% | L3 | How to spawn, manage, message, and command subagents via gobby-agents. |
-| [claude-config-patterns](claude-config-patterns/) | seonghyeonkimm | ★ 0 | 43% | L3 | Agent, Skill, Command, Rules 파일 작성 패턴 및 템플릿 |
-| [agent-manager-skill](agent-manager-skill/) | kingk0ng | ★ 0 | 41% | L3 | Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) |
-| [agent-teams](agent-teams/) | dundas | ★ 0 | 41% | L2 | Orchestrate Gemini CLI agent teams for parallel multi-agent collaboration |
-| [clawgram](clawgram/) | openclaw | ★ 0 | 41% | L3 | A social network for AI agents. |
-| [agency-researcher](agency-researcher/) | majiayu000 | ★ 0 | 41% | L2 | Find and qualify real estate agencies in a given suburb |
-| [lead-research-assistant](lead-research-assistant/) | NeverSight | ★ 0 | 41% | L2 | 通过分析您的业务、搜索目标公司并提供可行的联系策略，为您的产品或服务识别高质量潜在客户。非常适合销售、业务开发和营销专业人士。 |
-| [bootstrap](bootstrap/) | SimHacker | ★ 0 | 41% | L3 | Wake up, orient, and warm the context with foundational MOOLLM knowledge |
-| [ask-question](ask-question/) | majiayu000 | ★ 0 | 41% | L3 | Draft a technical research question and send to ChatGPT for investigation |
-| [collections](collections/) | pingqLIN | ★ 0 | 40% | L3 | Guidelines for creating and managing awesome-copilot collections Triggers on: co… |
-| [Agent Evaluation](agent-evaluation/) | cdalsoniii | ★ 0 | 39% | L2 | Evaluate agent performance using a structured scoring rubric |
-| [Build Your Apps SDK Skill](build-your-apps-sdk-skill/) | imsanghaar | ★ 0 | 38% | L3 | Create your OpenAI Apps SDK skill in one prompt, then learn to improve it throug… |
-| [Build Your Apps SDK Skill](build-your-apps-sdk-skill/) | panaversity | ★ 0 | 38% | L3 | Create your OpenAI Apps SDK skill in one prompt, then learn to improve it throug… |
-| [multi-agent-coordinator](multi-agent-coordinator/) | huangwb8 | ★ 0 | 38% | L2 | Use when executing implementation plans with independent tasks - dispatches fres… |
-| [multi-agent-coordinator](multi-agent-coordinator/) | majiayu000 | ★ 0 | 38% | L2 | Use when executing implementation plans with independent tasks - dispatches fres… |
-| [pca-skill-manager](pca-skill-manager/) | majiayu000 | ★ 0 | 38% | L3 | Acelera a criacao e manutencao de skills do Claude. Automatiza o scaffolding de … |
-| [creating-claude-rules](creating-claude-rules/) | aiskillstore | ★ 0 | 38% | L3 | Use when creating or fixing .claude/rules/ files - provides correct paths frontm… |
-| [agent-trust](agent-trust/) | ShivamSoni20 | ★ 0 | 37% | L3 | Economic identity and reputation system for autonomous agents on Base. |
-| [swarm-mail](swarm-mail/) | majiayu000 | ★ 0 | 36% | L3 | Coordinate with other agents using Swarm mail and file locking |
-| [test-nested-agents](test-nested-agents/) | Chachamaru127 | ★ 0 | 32% | L2 | ネストエージェントパターンの検証テスト用スキル。Use when user says テスト検証, test nested agents, verify age… |
-| [uv-package-management-assistant](uv-package-management-assistant/) | dmitriiweb | ★ 0 | 31% | L3 | python's package managing |
-| [lettactl](lettactl/) | nouamanecodes | ★ 0 | 28% | L2 | Manage Letta AI agent fleets with kubectl-style CLI |
-| [2agent](2agent/) | aiskillstore | ★ 0 | 26% | L2 | Configures 2-Agent workflow between PM and implementation roles. Use when user m… |
-| [2agent](2agent/) | majiayu000 | ★ 0 | 26% | L2 | Configures 2-Agent workflow between PM and implementation roles. Use when user m… |
-| [workflow](workflow/) | aiskillstore | ★ 0 | 26% | L2 | Manages workflow transitions including handoffs between PM and implementation ro… |
 
 ---
 

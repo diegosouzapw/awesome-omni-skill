@@ -1,9 +1,30 @@
 # 📂 fullstack-web
 
-> 52 skills in this category
+> 64 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
+| [stripe-integration](stripe-integration/) | sickn33 | ★ 16.8k | 95% | L3 | Implement Stripe payment processing for robust, PCI-compliant payment flows incl… |
+| [telegram-mini-app](telegram-mini-app/) | sickn33 | ★ 16.8k | 95% | L3 | Expert in building Telegram Mini Apps (TWA) - web apps that run inside Telegram … |
+| [threejs-skills](threejs-skills/) | sickn33 | ★ 16.8k | 95% | L3 | Create 3D scenes, interactive experiences, and visual effects using Three.js. Us… |
+| [top-web-vulnerabilities](top-web-vulnerabilities/) | sickn33 | ★ 16.8k | 95% | L2 | This skill should be used when the user asks to \"identify web application vulne… |
+| [tavily-web](tavily-web/) | sickn33 | ★ 16.8k | 82% | L3 | Web search, content extraction, crawling, and research capabilities using Tavily… |
+| [threat-mitigation-mapping](threat-mitigation-mapping/) | sickn33 | ★ 16.8k | 82% | L2 | Map identified threats to appropriate security controls and mitigations. Use whe… |
+| [mobile-design](mobile-design/) | sickn33 | ★ 16.7k | 95% | L2 | Mobile-first design and engineering doctrine for iOS and Android apps. Covers to… |
+| [onboarding-cro](onboarding-cro/) | sickn33 | ★ 16.7k | 95% | L2 | When the user wants to optimize post-signup onboarding, user activation, first-r… |
+| [scroll-experience](scroll-experience/) | sickn33 | ★ 16.7k | 95% | L3 | Expert in building immersive scroll-driven experiences - parallax storytelling, … |
+| [search-specialist](search-specialist/) | sickn33 | ★ 16.7k | 91% | L2 | Expert web researcher using advanced search techniques and |
+| [screen-reader-testing](screen-reader-testing/) | sickn33 | ★ 16.7k | 82% | L2 | Test web applications with screen readers including VoiceOver, NVDA, and JAWS. U… |
+| [shopify-apps](shopify-apps/) | sickn33 | ★ 16.7k | 82% | L2 | Expert patterns for Shopify app development including Remix/React Router apps, e… |
+| [3d-web-experience](3d-web-experience/) | sickn33 | ★ 16.7k | 95% | L3 | Expert in building 3D experiences for the web - Three.js, React Three Fiber, Spl… |
+| [app-builder](app-builder/) | sickn33 | ★ 16.7k | 95% | L3 | Main application building orchestrator. Creates full-stack applications from nat… |
+| [app-store-optimization](app-store-optimization/) | sickn33 | ★ 16.7k | 95% | L3 | Complete App Store Optimization (ASO) toolkit for researching, optimizing, and t… |
+| [azure-appconfiguration-ts](azure-appconfiguration-ts/) | sickn33 | ★ 16.7k | 95% | L3 | Build applications using Azure App Configuration SDK for JavaScript (@azure/app-… |
+| [azure-messaging-webpubsub-java](azure-messaging-webpubsub-java/) | sickn33 | ★ 16.7k | 95% | L3 | Build real-time web applications with Azure Web PubSub SDK for Java. Use when im… |
+| [azure-web-pubsub-ts](azure-web-pubsub-ts/) | sickn33 | ★ 16.7k | 95% | L3 | Build real-time messaging applications using Azure Web PubSub SDKs for JavaScrip… |
+| [file-path-traversal](file-path-traversal/) | sickn33 | ★ 16.7k | 95% | L3 | This skill should be used when the user asks to \"test for directory traversal\"… |
+| [context-optimization](context-optimization/) | sickn33 | ★ 16.7k | 91% | L3 | Apply compaction, masking, and caching strategies |
+| [ddd-context-mapping](ddd-context-mapping/) | sickn33 | ★ 16.7k | 88% | L2 | Map relationships between bounded contexts and define integration contracts usin… |
 | [development](development/) | sickn33 | ★ 15.4k | 98% | L3 | Comprehensive web, mobile, and backend development workflow bundling frontend, b… |
 | [adb-magisk-installer](adb-magisk-installer/) | majiayu000 | ★ 94 | 80% | L3 | Complete Magisk system installation - from initial app setup to full system inte… |
 | [add-member](add-member/) | majiayu000 | ★ 94 | 80% | L3 | Interactive guide for adding new lab members to the website. Gathers information… |
@@ -39,6 +60,7 @@
 | [development](development/) | javiertarazon | ★ 0 | 48% | L3 | Comprehensive web, mobile, and backend development workflow bundling frontend, b… |
 | [clawpage](clawpage/) | skypher | ★ 0 | 48% | L3 | Extract and structure any web page into clean JSON. Returns text, tables, prices… |
 | [agora-dev-skill](agora-dev-skill/) | jayalbo | ★ 0 | 48% | L3 | Comprehensive assistant for Agora.io developers building real-time engagement ap… |
+| [cloud-app-store](cloud-app-store/) | majiayu000 | ★ 0 | 48% | L3 | Flow Nexus application marketplace and template management. Use for app publishi… |
 | [fullstack-classic](fullstack-classic/) | twofoldtech-dakota | ★ 0 | 47% | L3 | Apply when working with classic fullstack patterns including jQuery AJAX, form h… |
 | [product-appeal-analyzer](product-appeal-analyzer/) | majiayu000 | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
 | [product-appeal-analyzer](product-appeal-analyzer/) | curiositech | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
@@ -46,16 +68,6 @@
 | [product-appeal-analyzer](product-appeal-analyzer/) | majiayu000 | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
 | [multi-platform-apps-multi-platform](multi-platform-apps-multi-platform/) | ranbot-ai | ★ 0 | 45% | L3 | Build and deploy the same feature consistently across web, mobile, and desktop p… |
 | [app-builder](app-builder/) | ranbot-ai | ★ 0 | 45% | L3 | Main application building orchestrator. Creates full-stack applications from nat… |
-| [observe-whatsapp](observe-whatsapp/) | sickn33 | ★ 0 | 45% | L3 | Observe and troubleshoot WhatsApp in Kapso: debug message delivery, inspect webh… |
-| [clawsino-play](clawsino-play/) | anthonymq | ★ 0 | 45% | L3 | Play and operate the Clawsino casino webapp (dice + slots) via its HTTP API or U… |
-| [write-documents](write-documents/) | majiayu000 | ★ 0 | 45% | L2 | Apply when creating or editing INFO, SPEC, IMPL, TEST, FIX documents, or STRUT p… |
-| [mobile-offline-support](mobile-offline-support/) | majiayu000 | ★ 0 | 45% | L3 | Implement offline-first mobile apps with local storage, sync strategies, and con… |
-| [cloud-storage-web](cloud-storage-web/) | TencentCloudBase | ★ 0 | 45% | L3 | Complete guide for CloudBase cloud storage using Web SDK (@cloudbase/js-sdk) - u… |
-| [product-appeal-analyzer](product-appeal-analyzer/) | majiayu000 | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
-| [mobile](mobile/) | bulbulogludemir | ★ 0 | 44% | L3 | React Native, Expo, mobile apps. Auto-use for mobile work. |
-| [webrtc-timing-test](webrtc-timing-test/) | kwindla | ★ 0 | 38% | L3 | Measure WebRTC connection timing on Daily rooms. Use when testing Daily video ca… |
-| [Chemistry Skill](chemistry-skill/) | AmaiDonatsu | ★ 0 | 38% | L3 | Provides a deep understanding of chemistry through a technical-philosophical app… |
-| [mobile](mobile/) | omkar-ukirde | ★ 0 | 25% | L2 | Mobile application security testing skills for Android and iOS platforms. |
 
 ---
 

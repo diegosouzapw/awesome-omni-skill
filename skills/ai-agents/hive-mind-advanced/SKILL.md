@@ -5,62 +5,28 @@ version: 1.0.0
 category: coordination
 tags: [hive-mind, swarm, queen-worker, consensus, collective-intelligence, multi-agent, coordination]
 author: Claude Flow Team
+hooks:
+  pre: |
+    echo "🧠 Hive Mind Advanced activated"
+    if [ -d "/workspaces/ruvector/.claude/intelligence" ]; then
+      cd /workspaces/ruvector/.claude/intelligence
+      INTELLIGENCE_MODE=treatment node cli.js pre-edit "$FILE" 2>/dev/null || true
+    fi
+  post: |
+    echo "✅ Hive Mind Advanced complete"
+    if [ -d "/workspaces/ruvector/.claude/intelligence" ]; then
+      cd /workspaces/ruvector/.claude/intelligence
+      INTELLIGENCE_MODE=treatment node cli.js post-edit "$FILE" "true" 2>/dev/null || true
+    fi
 ---
 
 # Hive Mind Advanced Skill
 
 Master the advanced Hive Mind collective intelligence system for sophisticated multi-agent coordination using queen-led architecture, Byzantine consensus, and collective memory.
 
-## CRITICAL: Tool Permissions for Background Agents (SMI-1823)
-
-**WARNING**: Background agents spawned with `Task()` can lose tool permissions mid-execution, causing "Permission to use Read has been auto-denied" errors.
-
-**ALWAYS specify `allowed_tools` explicitly in ALL Task() calls:**
-
-```javascript
-// CORRECT - Always include allowed_tools
-Task({
-  description: "Implement feature",
-  prompt: "...",
-  allowed_tools: ["Read", "Edit", "Write", "Bash", "Grep", "Glob"],  // REQUIRED
-  run_in_background: true
-})
-
-// INCORRECT - Will fail with permission errors
-Task({
-  description: "Implement feature",
-  prompt: "...",
-  run_in_background: true  // Missing allowed_tools!
-})
-```
-
-### Default Tool Lists by Agent Type
-
-| Agent Type | Default `allowed_tools` |
-|------------|-------------------------|
-| `coder` | `["Read", "Edit", "Write", "Bash", "Grep", "Glob"]` |
-| `tester` | `["Read", "Bash", "Grep", "Glob"]` |
-| `reviewer` | `["Read", "Grep", "Glob"]` |
-| `researcher` | `["Read", "WebFetch", "WebSearch", "Grep", "Glob"]` |
-| `architect` | `["Read", "Write", "Grep", "Glob"]` |
-| `analyst` | `["Read", "Grep", "Glob"]` |
-| `optimizer` | `["Read", "Edit", "Bash", "Grep", "Glob"]` |
-| `documenter` | `["Read", "Write", "Grep", "Glob"]` |
-
-**Copy-paste ready tool arrays:**
-```javascript
-// Coder tools
-const CODER_TOOLS = ["Read", "Edit", "Write", "Bash", "Grep", "Glob"];
-
-// Tester tools
-const TESTER_TOOLS = ["Read", "Bash", "Grep", "Glob"];
-
-// Reviewer tools
-const REVIEWER_TOOLS = ["Read", "Grep", "Glob"];
-
-// Researcher tools
-const RESEARCHER_TOOLS = ["Read", "WebFetch", "WebSearch", "Grep", "Glob"];
-```
+## 🧠 Self-Learning Intelligence
+Integrates with RuVector's Q-learning and vector memory for improved performance.
+CLI: `node .claude/intelligence/cli.js stats`
 
 ## Overview
 
@@ -103,62 +69,10 @@ Queen vote counts as 3x weight, providing strategic guidance.
 **Byzantine Fault Tolerance**
 Requires 2/3 majority for decision approval, ensuring robust consensus even with faulty agents.
 
-## Prerequisites (REQUIRED for MCP Integration)
-
-### Claude-Flow MCP Server Configuration
-
-For MCP-based agent spawning (recommended), the claude-flow MCP server must be configured:
-
-**Option A - Via CLI:**
-```bash
-claude mcp add claude-flow -- npx claude-flow@alpha mcp start
-```
-
-**Option B - Via .mcp.json (recommended for projects):**
-```json
-{
-  "mcpServers": {
-    "claude-flow": {
-      "command": "npx",
-      "args": ["claude-flow@alpha", "mcp", "start"],
-      "env": {
-        "CLAUDE_FLOW_LOG_LEVEL": "info",
-        "CLAUDE_FLOW_MEMORY_BACKEND": "sqlite"
-      }
-    }
-  }
-}
-```
-
-**Verify configuration:**
-```bash
-claude mcp list | grep claude-flow
-```
-
-### MCP vs CLI Usage
-
-| Method | Command | When to Use |
-|--------|---------|-------------|
-| **MCP** | `mcp__claude-flow__swarm_init()` | Within Claude Code sessions (recommended) |
-| **CLI** | `npx claude-flow hive-mind init` | Terminal scripts, CI/CD, standalone |
-
-MCP provides tighter integration with Claude Code's agent system and enables proper specialist agent spawning.
-
 ## Getting Started
 
 ### 1. Initialize Hive Mind
 
-**Via MCP (within Claude Code):**
-```javascript
-mcp__claude-flow__swarm_init({
-  topology: "hierarchical",
-  maxAgents: 4,
-  queen_model: "sonnet",
-  worker_model: "haiku"
-})
-```
-
-**Via CLI (terminal):**
 ```bash
 # Basic initialization
 npx claude-flow hive-mind init
@@ -332,32 +246,12 @@ Generate Claude Code spawn commands directly:
 npx claude-flow hive-mind spawn "Build REST API" --claude
 ```
 
-Output (with required allowed_tools):
+Output:
 ```javascript
-Task({
-  description: "Queen Coordinator",
-  prompt: "Orchestrate REST API development...",
-  allowed_tools: ["Read", "Write", "Grep", "Glob"],  // REQUIRED
-  run_in_background: true
-})
-Task({
-  description: "Backend Developer",
-  prompt: "Implement Express routes...",
-  allowed_tools: ["Read", "Edit", "Write", "Bash", "Grep", "Glob"],  // REQUIRED
-  run_in_background: true
-})
-Task({
-  description: "Database Architect",
-  prompt: "Design PostgreSQL schema...",
-  allowed_tools: ["Read", "Write", "Grep", "Glob"],  // REQUIRED
-  run_in_background: true
-})
-Task({
-  description: "Test Engineer",
-  prompt: "Create Jest test suite...",
-  allowed_tools: ["Read", "Bash", "Grep", "Glob"],  // REQUIRED
-  run_in_background: true
-})
+Task("Queen Coordinator", "Orchestrate REST API development...", "coordinator")
+Task("Backend Developer", "Implement Express routes...", "backend-dev")
+Task("Database Architect", "Design PostgreSQL schema...", "code-analyzer")
+Task("Test Engineer", "Create Jest test suite...", "tester")
 ```
 
 ### With SPARC Methodology

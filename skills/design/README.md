@@ -1,6 +1,6 @@
 # 📂 design
 
-> 539 skills in this category
+> 385 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -14,6 +14,28 @@
 | [fluxguard-automation](fluxguard-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Fluxguard tasks via Rube MCP (Composio). Always search tools first for … |
 | [canvas-design](canvas-design/) | ComposioHQ | ★ 37.3k | 95% | L2 | Create beautiful visual art in .png and .pdf documents using design philosophy. … |
 | [brand-guidelines](brand-guidelines/) | ComposioHQ | ★ 37.3k | 88% | L2 | Applies Anthropic's official brand colors and typography to any sort of artifact… |
+| [stitch-ui-design](stitch-ui-design/) | sickn33 | ★ 16.8k | 95% | L2 | Expert guide for creating effective prompts for Google Stitch AI UI design tool.… |
+| [swiftui-expert-skill](swiftui-expert-skill/) | sickn33 | ★ 16.8k | 95% | L2 | Write, review, or improve SwiftUI code following best practices for state manage… |
+| [telegram-bot-builder](telegram-bot-builder/) | sickn33 | ★ 16.8k | 95% | L3 | Expert in building Telegram bots that solve real problems - from simple automati… |
+| [notion-template-business](notion-template-business/) | sickn33 | ★ 16.7k | 95% | L3 | Expert in building and selling Notion templates as a business - not just making … |
+| [radix-ui-design-system](radix-ui-design-system/) | sickn33 | ★ 16.7k | 95% | L3 | Build accessible design systems with Radix UI primitives. Headless component cus… |
+| [00-andruia-consultant](00-andruia-consultant/) | sickn33 | ★ 16.7k | 95% | L2 | Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia. Diagnost… |
+| [20-andruia-niche-intelligence](20-andruia-niche-intelligence/) | sickn33 | ★ 16.7k | 95% | L2 | Estratega de Inteligencia de Dominio de Andru.ia. Analiza el nicho específico de… |
+| [android-jetpack-compose-expert](android-jetpack-compose-expert/) | sickn33 | ★ 16.7k | 95% | L2 | Expert guidance for building modern Android UIs with Jetpack Compose, covering s… |
+| [avalonia-layout-zafiro](avalonia-layout-zafiro/) | sickn33 | ★ 16.7k | 95% | L2 | Guidelines for modern Avalonia UI layout using Zafiro.Avalonia, emphasizing shar… |
+| [brand-guidelines-anthropic](brand-guidelines-anthropic/) | sickn33 | ★ 16.7k | 95% | L2 | Applies Anthropic's official brand colors and typography to any sort of artifact… |
+| [brand-guidelines-community](brand-guidelines-community/) | sickn33 | ★ 16.7k | 95% | L2 | Applies Anthropic's official brand colors and typography to any sort of artifact… |
+| [canvas-design](canvas-design/) | sickn33 | ★ 16.7k | 95% | L2 | Create beautiful visual art in .png and .pdf documents using design philosophy. … |
+| [core-components](core-components/) | sickn33 | ★ 16.7k | 95% | L2 | Core component library and design system patterns. Use when building UI, using d… |
+| [design-md](design-md/) | sickn33 | ★ 16.7k | 95% | L2 | Analyze Stitch projects and synthesize a semantic design system into DESIGN.md f… |
+| [design-orchestration](design-orchestration/) | sickn33 | ★ 16.7k | 95% | L2 | Ensure that **ideas become designs**, **designs are reviewed**, and **only valid… |
+| [event-store-design](event-store-design/) | sickn33 | ★ 16.7k | 95% | L3 | Design and implement event stores for event-sourced systems. Use when building e… |
+| [figma-automation](figma-automation/) | sickn33 | ★ 16.7k | 95% | L3 | Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, … |
+| [interactive-portfolio](interactive-portfolio/) | sickn33 | ★ 16.7k | 95% | L3 | Expert in building portfolios that actually land jobs and clients - not just sho… |
+| [kpi-dashboard-design](kpi-dashboard-design/) | sickn33 | ★ 16.7k | 95% | L3 | Design effective KPI dashboards with metrics selection, visualization best pract… |
+| [context-compression](context-compression/) | sickn33 | ★ 16.7k | 91% | L3 | Design and evaluate compression strategies for long-running sessions |
+| [ddd-strategic-design](ddd-strategic-design/) | sickn33 | ★ 16.7k | 88% | L2 | Design DDD strategic artifacts including subdomains, bounded contexts, and ubiqu… |
+| [gdpr-data-handling](gdpr-data-handling/) | sickn33 | ★ 16.7k | 82% | L2 | Implement GDPR-compliant data handling with consent management, data subject rig… |
 | [stitch-ui-design](stitch-ui-design/) | sickn33 | ★ 15.5k | 95% | L2 | Expert guide for creating effective prompts for Google Stitch AI UI design tool.… |
 | [swiftui-expert-skill](swiftui-expert-skill/) | sickn33 | ★ 15.5k | 95% | L2 | Write, review, or improve SwiftUI code following best practices for state manage… |
 | [ui-ux-pro-max](ui-ux-pro-max/) | sickn33 | ★ 15.5k | 95% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
@@ -31,8 +53,6 @@
 | [microservices-patterns](microservices-patterns/) | sickn33 | ★ 15.5k | 88% | L2 | Design microservices architectures with service boundaries, event-driven communi… |
 | [nerdzao-elite-gemini-high](nerdzao-elite-gemini-high/) | sickn33 | ★ 15.5k | 88% | L2 | Modo Elite Coder + UX Pixel-Perfect otimizado especificamente para Gemini 3.1 Pr… |
 | [nerdzao-elite](nerdzao-elite/) | sickn33 | ★ 15.5k | 88% | L2 | Senior Elite Software Engineer (15+) and Senior Product Designer. Full workflow … |
-| [00-andruia-consultant](00-andruia-consultant/) | sickn33 | ★ 15.4k | 95% | L2 | Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia. Diagnost… |
-| [20-andruia-niche-intelligence](20-andruia-niche-intelligence/) | sickn33 | ★ 15.4k | 95% | L2 | Estratega de Inteligencia de Dominio de Andru.ia. Analiza el nicho específico de… |
 | [core-components](core-components/) | sickn33 | ★ 15.4k | 95% | L2 | Core component library and design system patterns. Use when building UI, using d… |
 | [design-orchestration](design-orchestration/) | sickn33 | ★ 15.4k | 95% | L2 | Ensure that **ideas become designs**, **designs are reviewed**, and **only valid… |
 | [event-store-design](event-store-design/) | sickn33 | ★ 15.4k | 95% | L3 | Design and implement event stores for event-sourced systems. Use when building e… |
@@ -237,6 +257,9 @@
 | [MCP Widget Patterns](mcp-widget-patterns/) | mberto10 | ★ 0 | 48% | L3 | This skill should be used when the user asks to "design a widget", "what widget … |
 | [quit-weed](quit-weed/) | decimasudo | ★ 0 | 48% | L2 | Take a tolerance break or quit cannabis with streak tracking and craving support |
 | [zoonk-design](zoonk-design/) | zoonk | ★ 0 | 48% | L2 | Design philosophy and UI/UX guidelines inspired by Apple, Linear, and Vercel. Us… |
+| [cofounder-im](cofounder-im/) | openclaw | ★ 0 | 48% | L3 | Pull startup project data and AI-generated build specifications from CoFounder.i… |
+| [frontend-design](frontend-design/) | NeverSight | ★ 0 | 48% | L3 | Create distinctive, bold UI designs that avoid generic AI aesthetics. This skill… |
+| [responsive-tables](responsive-tables/) | CleanExpo | ★ 0 | 48% | L3 | Mobile-responsive table patterns that transform into card layouts on small scree… |
 | [solidstart-optimistic-ui](solidstart-optimistic-ui/) | majiayu000 | ★ 0 | 47% | L2 | SolidStart optimistic UI: use useSubmissions to show pending data immediately, c… |
 | [cheat-sheets](cheat-sheets/) | majiayu000 | ★ 0 | 47% | L3 | Expert knowledge for creating effective cheat sheets with PDF export. Activate w… |
 | [power-bi-report-design-best-practices](power-bi-report-design-best-practices/) | pingqLIN | ★ 0 | 47% | L2 | Comprehensive Power BI report design and visualization best practices based on M… |
@@ -366,183 +389,6 @@
 | [ui-ux-pro-max](ui-ux-pro-max/) | yunaamelia | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
 | [ui-ux-pro-max](ui-ux-pro-max/) | enriquemoya | ★ 0 | 45% | L3 | Comprehensive UI/UX design system guidance with searchable style and UX patterns… |
 | [cc-routine-and-class-design](cc-routine-and-class-design/) | majiayu000 | ★ 0 | 45% | L3 | Evaluate routine and class design quality using Code Complete checklists (43 ite… |
-| [workflow-orchestration-patterns](workflow-orchestration-patterns/) | rootcastleco | ★ 0 | 45% | L2 | Design durable workflows with Temporal for distributed systems. Covers workflow … |
-| [web-design-guidelines](web-design-guidelines/) | fellyph | ★ 0 | 45% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to "revie… |
-| [skill-creator](skill-creator/) | HyunjunJeon | ★ 0 | 45% | L3 | Create new skills following a structured 4-phase workflow. Use when you need to … |
-| [create-design-system-rules](create-design-system-rules/) | round | ★ 0 | 45% | L3 | Generates custom design system rules for the user's codebase. Use when user says… |
-| [create-design-system-rules](create-design-system-rules/) | round | ★ 0 | 45% | L3 | Generates custom design system rules for the user's codebase. Use when user says… |
-| [swift-api-design-guidelines-skill](swift-api-design-guidelines-skill/) | Erikote04 | ★ 0 | 45% | L2 | Write, review, or improve Swift APIs using Swift API Design Guidelines for namin… |
-| [baoyu-comic](baoyu-comic/) | aiskillstore | ★ 0 | 45% | L3 | Knowledge comic creator supporting multiple styles (Logicomix/Ligne Claire, Ohms… |
-| [design-md](design-md/) | techwavedev | ★ 0 | 45% | L3 | Analyze Stitch projects and synthesize a semantic design system into DESIGN.md f… |
-| [ui-ux-principles](ui-ux-principles/) | majiayu000 | ★ 0 | 45% | L2 | Apply core UI/UX design principles for intuitive, beautiful interfaces. Covers v… |
-| [baoyu-comic](baoyu-comic/) | majiayu000 | ★ 0 | 45% | L3 | Knowledge comic creator supporting multiple styles (Logicomix/Ligne Claire, Ohms… |
-| [ui-ux-principles](ui-ux-principles/) | majiayu000 | ★ 0 | 45% | L2 | Apply core UI/UX design principles for intuitive, beautiful interfaces. Covers v… |
-| [zero-to-launch](zero-to-launch/) | menkesu | ★ 0 | 45% | L2 | Guides Claude from idea to working prototype using frameworks from OpenAI, Figma… |
-| [u04569-experiment-design-for-arts-and-culture-programming](u04569-experiment-design-for-arts-and-culture-programming/) | zwright8 | ★ 0 | 45% | L2 | Build and operate the "Experiment Design for arts and culture programming" capab… |
-| [u02615-regression-sentinel-design-for-household-logistics](u02615-regression-sentinel-design-for-household-logistics/) | zwright8 | ★ 0 | 45% | L2 | Build and operate the "Regression Sentinel Design for household logistics" capab… |
-| [ui-design](ui-design/) | sycsky | ★ 0 | 45% | L3 | Professional UI design and frontend interface guidelines. Use this skill when cr… |
-| [create-design-system-rules](create-design-system-rules/) | figma | ★ 0 | 45% | L3 | Generates custom design system rules for the user's codebase. Use when user says… |
-| [figma-make-website-builder](figma-make-website-builder/) | 0xkynz | ★ 0 | 45% | L2 | Structured 9-phase workflow for building production-ready websites using Claude … |
-| [ui-design](ui-design/) | shixy96 | ★ 0 | 45% | L3 | Professional UI design and frontend interface guidelines. Use this skill when cr… |
-| [u04425-experiment-design-for-nutrition-and-meal-planning](u04425-experiment-design-for-nutrition-and-meal-planning/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Experiment design for nutrition and meal planning" capability in pr… |
-| [microservices-architecture](microservices-architecture/) | majiayu000 | ★ 0 | 45% | L3 | Microservices architecture patterns and best practices. Use when designing distr… |
-| [d2-diagram](d2-diagram/) | majiayu000 | ★ 0 | 45% | L2 | Comprehensive tool for creating D2 diagrams based on descriptions and requiremen… |
-| [radix-ui-design-system](radix-ui-design-system/) | richardadonnell | ★ 0 | 45% | L3 | Build accessible design systems with Radix UI primitives. Headless component cus… |
-| [radix-ui-design-system](radix-ui-design-system/) | RobertJonnyTiger | ★ 0 | 45% | L3 | Build accessible design systems with Radix UI primitives. Headless component cus… |
-| [radix-ui-design-system](radix-ui-design-system/) | datamonsterr | ★ 0 | 45% | L3 | Build accessible design systems with Radix UI primitives. Headless component cus… |
-| [setup-design-system](setup-design-system/) | andrewvaughan | ★ 0 | 45% | L3 | Initialize the design system or create new UI components with accessibility, Tai… |
-| [styling-tenzir-ui](styling-tenzir-ui/) | tenzir | ★ 0 | 45% | L2 | Provides Tenzir design system tokens and component specifications. Use when buil… |
-| [detect-design](detect-design/) | NeverSight | ★ 0 | 45% | L3 | Design system detection with drift findings and evidence blocks. Use when auditi… |
-| [ui-implementer](ui-implementer/) | MadAppGang | ★ 0 | 45% | L3 | Implements UI components from scratch based on design references (Figma, screens… |
-| [styling-tenzir-ui](styling-tenzir-ui/) | majiayu000 | ★ 0 | 45% | L2 | Provides Tenzir design system tokens and component specifications. Use when buil… |
-| [design-request-en](design-request-en/) | ousiass | ★ 0 | 45% | L2 | Gather design change requests through interactive dialog and create a structured… |
-| [prd-v06-architecture-design](prd-v06-architecture-design/) | mattgierhart | ★ 0 | 45% | L3 | Define how system components connect, establishing boundaries, patterns, and int… |
-| [form_builder](form_builder/) | vuralserhat86 | ★ 0 | 45% | L3 | Builds form components and data collection interfaces including contact forms, r… |
-| [hyperliquid](hyperliquid/) | anajuliabit | ★ 0 | 45% | L3 | Trade and monitor Hyperliquid perpetual futures. Check balances, view positions … |
-| [tool-design-style-selector](tool-design-style-selector/) | Heyvhuang | ★ 0 | 45% | L3 | Use when you need to define or converge a project's visual direction. Scan proje… |
-| [tool-design-style-selector](tool-design-style-selector/) | NeverSight | ★ 0 | 45% | L3 | Use when you need to define or converge a project's visual direction. Scan proje… |
-| [tool-design-style-selector](tool-design-style-selector/) | enuno | ★ 0 | 45% | L3 | Use when you need to define or converge a project's visual direction. Scan proje… |
-| [tool-design-style-selector](tool-design-style-selector/) | harshil-l | ★ 0 | 45% | L3 | Use when you need to define or converge a project's visual direction. Scan proje… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | JStaRFilms | ★ 0 | 45% | L3 | Comprehensive design guide for web and mobile applications. Contains 50+ styles,… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | Donsearle | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | ledger101 | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | NhiLe-Team-Webs | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | DilshanTG | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | alexsandrocruz | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | sltc-dev | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [cc-routine-and-class-design](cc-routine-and-class-design/) | ryanthedev | ★ 0 | 45% | L3 | Evaluate routine and class design quality using Code Complete checklists (43 ite… |
-| [cc-routine-and-class-design](cc-routine-and-class-design/) | majiayu000 | ★ 0 | 45% | L3 | Evaluate routine and class design quality using Code Complete checklists (43 ite… |
-| [browser-debugger](browser-debugger/) | MadAppGang | ★ 0 | 45% | L3 | Systematically tests UI functionality, validates design fidelity with AI visual … |
-| [building-a-work-plan](building-a-work-plan/) | cyarie | ★ 0 | 45% | L3 | Use when orchestrating the creation of a work plan from a design document. Manag… |
-| [workflow-creator](workflow-creator/) | NeverSight | ★ 0 | 45% | L3 | Meta-skill for designing and creating Antigravity workflows. Interviews user, pr… |
-| [workflow-creator](workflow-creator/) | ydnikolaev | ★ 0 | 45% | L3 | Meta-skill for designing and creating Antigravity workflows. Interviews user, pr… |
-| [figma-use](figma-use/) | NeverSight | ★ 0 | 45% | L3 | Control Figma via CLI — create shapes, frames, text, components, set styles, lay… |
-| [ux-audit](ux-audit/) | viralcode | ★ 0 | 45% | L2 | AI skill for automated design audits. Evaluate interfaces against proven UX prin… |
-| [ux-audit](ux-audit/) | Demerzels-lab | ★ 0 | 45% | L2 | AI skill for automated design audits. Evaluate interfaces against proven UX prin… |
-| [ux-audit](ux-audit/) | mmcmedia | ★ 0 | 45% | L2 | AI skill for automated design audits. Evaluate interfaces against proven UX prin… |
-| [ux-audit](ux-audit/) | duclm1x1 | ★ 0 | 45% | L2 | AI skill for automated design audits. Evaluate interfaces against proven UX prin… |
-| [ux-audit](ux-audit/) | YPYT1 | ★ 0 | 45% | L2 | AI skill for automated design audits. Evaluate interfaces against proven UX prin… |
-| [latex-research-posters](latex-research-posters/) | jaechang-hits | ★ 0 | 45% | L3 | Create professional research posters in LaTeX using beamerposter, tikzposter, or… |
-| [process-needs-action](process-needs-action/) | Ameen-Alam | ★ 0 | 45% | L3 | This skill should be used when you need to process pending action items from a d… |
-| [skills-creator](skills-creator/) | majiayu000 | ★ 0 | 45% | L3 | Creates new Claude Code skills in the .claude/skills/ directory. Specializes in … |
-| [ui-design-create-component](ui-design-create-component/) | sla-te | ★ 0 | 45% | L3 | Guided component creation with proper patterns Use when: the user asks to run th… |
-| [settings-ui-patterns](settings-ui-patterns/) | btriapitsyn | ★ 0 | 45% | L3 | Use when creating or modifying UI components, styling, or visual elements relate… |
-| [marketplace-liquidity](marketplace-liquidity/) | RefoundAI | ★ 0 | 45% | L2 | Help users build and manage marketplace liquidity. Use when someone is working o… |
-| [widget-design](widget-design/) | xmcp-dev | ★ 0 | 45% | L3 | Best practices for designing UI widgets in xmcp. Use when creating interactive w… |
-| [voxanne-branding-expert](voxanne-branding-expert/) | Odiabackend099 | ★ 0 | 45% | L3 | Strategic branding, business development, and UI/UX design expertise for Voxanne… |
-| [widget-design](widget-design/) | NeverSight | ★ 0 | 45% | L3 | Best practices for designing UI widgets in xmcp. Use when creating interactive w… |
-| [ui-design-styles](ui-design-styles/) | NeverSight | ★ 0 | 45% | L2 | Comprehensive guidance for applying modern UI design styles, including Soft UI, … |
-| [ai-interaction-patterns](ai-interaction-patterns/) | Integrum-Global | ★ 0 | 45% | L2 | AI-specific interaction design patterns covering wayfinding, prompt UX, human-in… |
-| [remotion-visual-debug](remotion-visual-debug/) | Hokyjack | ★ 0 | 45% | L3 | Visual debugging for Remotion video projects. Use when working with Remotion com… |
-| [figma](figma/) | vm0-ai | ★ 0 | 45% | L3 | Figma REST API for accessing design files, comments, components, and projects. U… |
-| [ui-iteration](ui-iteration/) | renanliberato | ★ 0 | 45% | L3 | Iterate on UI visuals by editing code, hot reloading, capturing screenshots, and… |
-| [figma](figma/) | NeverSight | ★ 0 | 45% | L3 | Figma REST API for accessing design files, comments, components, and projects. U… |
-| [mastergo](mastergo/) | jeasonstudio | ★ 0 | 45% | L3 | Retrieve and analyze MasterGo design DSL data. Use when users provide MasterGo l… |
-| [mastergo](mastergo/) | NeverSight | ★ 0 | 45% | L3 | Retrieve and analyze MasterGo design DSL data. Use when users provide MasterGo l… |
-| [nuxt-seo](nuxt-seo/) | majiayu000 | ★ 0 | 45% | L3 | Nuxt SEO meta-module with robots, sitemap, og-image, schema-org. Use when config… |
-| [pdf](pdf/) | diegofornalha | ★ 0 | 45% | L3 | Kit de ferramentas abrangente para manipulação de PDFs, incluindo extração de te… |
-| [nano-banana](nano-banana/) | majiayu000 | ★ 0 | 45% | L3 | AI image generation using Nano Banana PRO (Gemini 3 Pro Image) and Nano Banana (… |
-| [audit-style](audit-style/) | majiayu000 | ★ 0 | 45% | L2 | Audit and refactor CSS to comply with Game Loopers design system and BEM methodo… |
-| [epic-management](epic-management/) | majiayu000 | ★ 0 | 45% | L3 | Use for LARGE work requiring feature-level grouping. Creates epic tracking issue… |
-| [ui-design](ui-design/) | maikCyphlock | ★ 0 | 45% | L3 | Professional UI design and frontend interface guidelines. Use this skill when cr… |
-| [frontend-design](frontend-design/) | tom237ttkk | ★ 0 | 45% | L2 | 「Clarity / Deference / Depth」と、1プロダクト=1焦点の構成・大きいタイポ・余白・最小CTAを抽象化して、Web UI設計に適用する… |
-| [root-level-project-instructions](root-level-project-instructions/) | majiayu000 | ★ 0 | 43% | L3 | Root level project guidelines and initial steps to start and implement EEG proce… |
-| [mobile-first-design-rules](mobile-first-design-rules/) | NeverSight | ★ 0 | 43% | L3 | Focuses on rules and best practices for mobile-first design and responsive typog… |
-| [design-and-user-experience-guidelines](design-and-user-experience-guidelines/) | oimiragieo | ★ 0 | 43% | L3 | Specifies design and user experience guidelines, including dark mode compatibili… |
-| [game-design](game-design/) | majiayu000 | ★ 0 | 41% | L2 | Game design principles. GDD structure, balancing, player psychology, |
-| [Empirical Validation](empirical-validation/) | hGriff0n | ★ 0 | 41% | L2 | Requires proof before marking work complete — no "trust me, it works" |
-| [game-design](game-design/) | darthlinuxer | ★ 0 | 41% | L2 | Game design principles. GDD structure, balancing, player psychology, |
-| [roast](roast/) | majiayu000 | ★ 0 | 41% | L3 | Multi-perspective UI/UX roasting workflow with iterative improvement cycles |
-| [ui-potion-discovery](ui-potion-discovery/) | uiPotion | ★ 0 | 41% | L2 | Identify the best UI Potion guide for a requested component, layout, or feature … |
-| [faion-ui-designer](faion-ui-designer/) | majiayu000 | ★ 0 | 41% | L3 | UI design: wireframes, prototypes, design systems, visual design. |
-| [design_responsive](design_responsive/) | majiayu000 | ★ 0 | 41% | L3 | Breakpoints, fluid typography, container queries ve modern CSS features. |
-| [faion-ui-designer](faion-ui-designer/) | NeverSight | ★ 0 | 41% | L2 | UI design: wireframes, prototypes, design systems, visual design. |
-| [faion-ui-designer](faion-ui-designer/) | faionfaion | ★ 0 | 41% | L3 | UI design: wireframes, prototypes, design systems, visual design. |
-| [faion-ui-designer](faion-ui-designer/) | majiayu000 | ★ 0 | 41% | L3 | UI design: wireframes, prototypes, design systems, visual design. |
-| [design_responsive](design_responsive/) | majiayu000 | ★ 0 | 41% | L3 | Breakpoints, fluid typography, container queries ve modern CSS features. |
-| [@priya](priya/) | jonnyallum | ★ 0 | 41% | L3 | UI/UX & Visual Design Specialist — Priya Sharma |
-| [ui-ux-pro-max](ui-ux-pro-max/) | Draculabo | ★ 0 | 41% | L3 | UI/UX design intelligence with searchable database |
-| [ui-ux-pro-max](ui-ux-pro-max/) | AxelMrak | ★ 0 | 41% | L3 | UI and UX design intelligence for building and reviewing interfaces. |
-| [ui-ux-pro-max](ui-ux-pro-max/) | huangjien | ★ 0 | 41% | L3 | UI/UX design intelligence with searchable database |
-| [ui-ux-pro-max](ui-ux-pro-max/) | DarkHighness | ★ 0 | 41% | L3 | UI/UX design intelligence with searchable database |
-| [ui-ux-pro-max](ui-ux-pro-max/) | bl1nk-bot | ★ 0 | 41% | L3 | UI/UX design intelligence with searchable database |
-| [ui-ux-pro-max](ui-ux-pro-max/) | xiangteng007 | ★ 0 | 41% | L3 | UI/UX design intelligence with searchable database |
-| [ui-ux-pro-max](ui-ux-pro-max/) | AhnafTaiyeb310 | ★ 0 | 41% | L3 | UI/UX design intelligence with searchable database |
-| [ui-ux-pro-max](ui-ux-pro-max/) | aaravjj2 | ★ 0 | 41% | L3 | UI/UX design intelligence with searchable database |
-| [ui-ux-pro-max](ui-ux-pro-max/) | dainsiahtill-dev | ★ 0 | 41% | L3 | UI/UX design intelligence with searchable database |
-| [ui-ux-pro-max](ui-ux-pro-max/) | bl1nk-bot | ★ 0 | 41% | L3 | UI/UX design intelligence with searchable database |
-| [UI/UX Intelligence Expert](ui-ux-intelligence-expert/) | boshi-xixixi | ★ 0 | 41% | L3 | UI/UX 设计智能库与推荐专家。包含 67 种风格、96 种配色方案、57 种字体搭配、99 条 UX 指南，支持跨技术栈的设计系统生成。 |
-| [UI/UX Intelligence Expert](ui-ux-intelligence-expert/) | boshi-xixixi | ★ 0 | 41% | L3 | UI/UX 设计智能库与推荐专家。包含 67 种风格、96 种配色方案、57 种字体搭配、99 条 UX 指南，支持跨技术栈的设计系统生成。 |
-| [pr-review](pr-review/) | tvdavies | ★ 0 | 41% | L2 | Guidelines for conducting thorough pull request code reviews |
-| [web-design-guidelines](web-design-guidelines/) | rahlplx | ★ 0 | 41% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to "revie… |
-| [web-design-guidelines](web-design-guidelines/) | rahlplx | ★ 0 | 41% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to "revie… |
-| [design_responsive](design_responsive/) | vuralserhat86 | ★ 0 | 41% | L3 | Breakpoints, fluid typography, container queries ve modern CSS features. |
-| [api-design-agent](api-design-agent/) | majiayu000 | ★ 0 | 41% | L2 | Designs RESTful and GraphQL APIs with clear contracts and documentation |
-| [api-design-agent](api-design-agent/) | majiayu000 | ★ 0 | 41% | L2 | Designs RESTful and GraphQL APIs with clear contracts and documentation |
-| [ui-ux-pro-max](ui-ux-pro-max/) | IvanLi-CN | ★ 0 | 41% | L3 | UI/UX design intelligence with searchable database |
-| [ui-ux-pro-max](ui-ux-pro-max/) | nic519 | ★ 0 | 41% | L3 | UI/UX design intelligence with searchable database |
-| [ui-ux-pro-max](ui-ux-pro-max/) | wonderslife | ★ 0 | 41% | L3 | UI/UX design intelligence with searchable database |
-| [ui-ux-pro-max](ui-ux-pro-max/) | Jackiexiao | ★ 0 | 41% | L3 | QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS |
-| [ui-ux-pro-max](ui-ux-pro-max/) | Jackiexiao | ★ 0 | 41% | L3 | QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS |
-| [ui-ux-pro-max](ui-ux-pro-max/) | Jackiexiao | ★ 0 | 41% | L3 | QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS |
-| [design](design/) | cyotee | ★ 0 | 41% | L2 | Interactive task/PRD design workflows adapted from the cyotee Claude plugin. |
-| [frontend-uiux](frontend-uiux/) | q27913588 | ★ 0 | 41% | L3 | [TODO: 1-2 sentences explaining what this skill enables] |
-| [swarm-dashboard](swarm-dashboard/) | niveshdandyan | ★ 0 | 41% | L3 | Live real-time dashboard for monitoring AI agent swarms with smart completion de… |
-| [Quick Query](quick-query/) | majiayu000 | ★ 0 | 41% | L2 | Execute simple network status queries that require 1-2 commands. Use when user a… |
-| [game-design](game-design/) | darthlinuxer | ★ 0 | 41% | L2 | Game design principles. GDD structure, balancing, player psychology, |
-| [create-rule](create-rule/) | darthlinuxer | ★ 0 | 41% | L3 | Create Cursor rules for persistent AI guidance. Use when the user wants |
-| [stripe-best-practices](stripe-best-practices/) | stripe | ★ 0 | 41% | L3 | Best practices for building Stripe integrations |
-| [create-rule](create-rule/) | majiayu000 | ★ 0 | 41% | L3 | Create project rules for persistent AI guidance. Use when the user wants |
-| [growth-loops](growth-loops/) | NeverSight | ★ 0 | 38% | L2 | Use when asked to "growth loops", "build a growth engine", "design a viral loop"… |
-| [ux-visualizer](ux-visualizer/) | famaoai-creator | ★ 0 | 38% | L2 | Analyzes source code or requirements to generate high-fidelity screen and state … |
-| [epic-ui-guidelines](epic-ui-guidelines/) | majiayu000 | ★ 0 | 38% | L3 | Use this skill when you need to: |
-| [plan-issue](plan-issue/) | kesslerio | ★ 0 | 38% | L2 | Plan-only workflow for issue/repo changes. Use when user asks to plan, scope, es… |
-| [corrosion-materials-selector](corrosion-materials-selector/) | a5c-ai | ★ 0 | 38% | L2 | Materials selection skill for corrosion resistance based on process conditions a… |
-| [quick](quick/) | cyberswat | ★ 0 | 38% | L2 | Lightweight analysis for straightforward decisions. Compresses research, evaluat… |
-| [epic-ui-guidelines](epic-ui-guidelines/) | epicweb-dev | ★ 0 | 38% | L3 | Use this skill when you need to: |
-| [epic-ui-guidelines](epic-ui-guidelines/) | epicweb-dev | ★ 0 | 38% | L3 | Use this skill when you need to: |
-| [epic-ui-guidelines](epic-ui-guidelines/) | majiayu000 | ★ 0 | 38% | L3 | Use this skill when you need to: |
-| [epic-ui-guidelines](epic-ui-guidelines/) | walbuc | ★ 0 | 38% | L3 | Use this skill when you need to: |
-| [epic-ui-guidelines](epic-ui-guidelines/) | zjunlp | ★ 0 | 38% | L3 | Use this skill when you need to: |
-| [web-design-guidelines](web-design-guidelines/) | sonson0910 | ★ 0 | 38% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to \\\"re… |
-| [web-design-guidelines](web-design-guidelines/) | boisenoise | ★ 0 | 38% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to \\\"re… |
-| [sample-basic](sample-basic/) | svelte-society | ★ 0 | 38% | L2 | A minimal example skill demonstrating the required structure. Use this as a temp… |
-| [nextlevelbuilder/ui-ux-pro-max-skill](nextlevelbuilder-ui-ux-pro-max-skill/) | nguyenvanduocit | ★ 0 | 38% | L3 | [Skip to content](#start-of-content) |
-| [web-design-guidelines](web-design-guidelines/) | ntuan2502 | ★ 0 | 37% | L2 | Review UI code for Web Interface Guidelines compliance. |
-| [leak](leak/) | openclaw | ★ 0 | 35% | L2 | Compatibility stub for migrating from the legacy mixed leak skill to split harde… |
-| [leak](leak/) | nordeim | ★ 0 | 35% | L2 | Compatibility stub for migrating from the legacy mixed leak skill to split harde… |
-| [web-design-guidelines](web-design-guidelines/) | claude4062024-afk | ★ 0 | 35% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to "revie… |
-| [web-design-guidelines](web-design-guidelines/) | anntnzrb | ★ 0 | 35% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to "revie… |
-| [web-design-guidelines](web-design-guidelines/) | corvo007 | ★ 0 | 35% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to "revie… |
-| [web-design-guidelines](web-design-guidelines/) | NeverSight | ★ 0 | 35% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to "revie… |
-| [web-design-guidelines](web-design-guidelines/) | pascalandy | ★ 0 | 35% | L2 | Review UI code for Web Interface Guidelines compliance. Use when user says "revi… |
-| [web-design-guidelines](web-design-guidelines/) | eve0415 | ★ 0 | 35% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to "revie… |
-| [web-design-guidelines](web-design-guidelines/) | lbavendanos | ★ 0 | 35% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to "revie… |
-| [web-design-guidelines](web-design-guidelines/) | BenavidesMichael | ★ 0 | 35% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to "revie… |
-| [web-design-guidelines](web-design-guidelines/) | ricardofelixb | ★ 0 | 35% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to "revie… |
-| [web-design-guidelines](web-design-guidelines/) | AbianS | ★ 0 | 35% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to "revie… |
-| [dev-server-sandbox](dev-server-sandbox/) | majiayu000 | ★ 0 | 34% | L3 | Run multiple isolated mux dev-server instances (temp MUX_ROOT + free ports) |
-| [ship](ship/) | majiayu000 | ★ 0 | 34% | L2 | Quickly add, commit, and push changes to the current branch |
-| [ship](ship/) | majiayu000 | ★ 0 | 34% | L2 | Quickly add, commit, and push changes to the current branch |
-| [web-design-guidelines](web-design-guidelines/) | runkids | ★ 0 | 32% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to "revie… |
-| [web-design-guidelines](web-design-guidelines/) | sreenivasanac | ★ 0 | 32% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to "revie… |
-| [web-design-guidelines](web-design-guidelines/) | boshi-xixixi | ★ 0 | 32% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to "revie… |
-| [daisyui-5](daisyui-5/) | hk-vk | ★ 0 | 32% | L2 | daisyUI 5 documentation and resources. Use this skill when working with daisyUI … |
-| [admin-chat-ui-flow](admin-chat-ui-flow/) | deveclipsy007 | ★ 0 | 31% | L3 | Padroniza UX visual e fluxo da tela de chat admin com estilo da area cliente. |
-| [agentuity-cli-project-list](agentuity-cli-project-list/) | agentuity | ★ 0 | 29% | L2 | List all projects. Requires authentication. Use for project management operation… |
-| [gen_ui_dashboard_skill](gen_ui_dashboard_skill/) | nicolasnorton | ★ 0 | 28% | L2 | Instructions for generating 'Gen UI' JSON payloads for dynamic dashboards. |
-| [tmux](tmux/) | openxjarvis | ★ 0 | 28% | L2 | Tmux terminal multiplexer control |
-| [tmux](tmux/) | openxjarvis | ★ 0 | 28% | L2 | Tmux terminal multiplexer control |
-| [tmux](tmux/) | futurewithvibe | ★ 0 | 28% | L2 | Tmux terminal multiplexer control |
-| [example-skill](example-skill/) | majiayu000 | ★ 0 | 26% | L3 | Example skill demonstrating the full skill directory structure with scripts, ref… |
-| [cc-get-session-id](cc-get-session-id/) | majiayu000 | ★ 0 | 26% | L3 | Get the current Claude Code session ID. Use when you need to reference or displa… |
-| [cc-get-session-id](cc-get-session-id/) | majiayu000 | ★ 0 | 26% | L3 | Get the current Claude Code session ID. Use when you need to reference or displa… |
-| [example-skill](example-skill/) | majiayu000 | ★ 0 | 26% | L3 | Example skill demonstrating the full skill directory structure with scripts, ref… |
-| [example-skill](example-skill/) | Stacked-Labs | ★ 0 | 26% | L3 | Example skill demonstrating the full skill directory structure with scripts, ref… |
-| [skill_design](skill_design/) | joshband | ★ 0 | 26% | L2 | Alias router for the design phase skill in LocusQ. Use when user references `ski… |
-| [ui-design-a11y](ui-design-a11y/) | majiayu000 | ★ 0 | 25% | L3 | 无障碍设计审查与修复能力。 |
-| [quieter](quieter/) | cpoepke | ★ 0 | 22% | L2 | Decrease system volume by 10% during voice chat |
-| [design-agent](design-agent/) | Frisdahl | ★ 0 | 19% | L2 | Generates UI based on inspiration.md |
 
 ---
 

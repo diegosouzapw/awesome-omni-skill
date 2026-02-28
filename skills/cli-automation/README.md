@@ -1,6 +1,6 @@
 # 📂 cli-automation
 
-> 221 skills in this category
+> 252 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -11,6 +11,97 @@
 | [Apollo Automation](apollo-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Apollo.io lead generation -- search organizations, discover contacts, e… |
 | [Attio Automation](attio-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Attio CRM operations -- search records, query contacts and companies wi… |
 | [Gong Automation](gong-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Gong conversation intelligence -- retrieve call recordings, transcripts… |
+| [square-automation](square-automation/) | sickn33 | ★ 16.8k | 95% | L2 | Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locat… |
+| [stripe-automation](stripe-automation/) | sickn33 | ★ 16.8k | 95% | L2 | Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions… |
+| [telegram-automation](telegram-automation/) | sickn33 | ★ 16.8k | 95% | L2 | Automate Telegram tasks via Rube MCP (Composio): send messages, manage chats, sh… |
+| [todoist-automation](todoist-automation/) | sickn33 | ★ 16.8k | 95% | L2 | Automate Todoist task management, projects, sections, filtering, and bulk operat… |
+| [trello-automation](trello-automation/) | sickn33 | ★ 16.8k | 95% | L2 | Automate Trello boards, cards, and workflows via Rube MCP (Composio). Create car… |
+| [trigger-dev](trigger-dev/) | sickn33 | ★ 16.8k | 95% | L3 | Trigger.dev expert for background jobs, AI workflows, and reliable async executi… |
+| [twitter-automation](twitter-automation/) | sickn33 | ★ 16.8k | 95% | L2 | Automate Twitter/X tasks via Rube MCP (Composio): posts, search, users, bookmark… |
+| [microsoft-teams-automation](microsoft-teams-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage ch… |
+| [miro-automation](miro-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames… |
+| [monday-automation](monday-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Monday.com work management including boards, items, columns, groups, su… |
+| [obsidian-clipper-template-creator](obsidian-clipper-template-creator/) | sickn33 | ★ 16.7k | 95% | L2 | Guide for creating templates for the Obsidian Web Clipper. Use when you want to … |
+| [one-drive-automation](one-drive-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate OneDrive file management, search, uploads, downloads, sharing, permissi… |
+| [os-scripting](os-scripting/) | sickn33 | ★ 16.7k | 95% | L3 | Operating system and shell scripting troubleshooting workflow for Linux, macOS, … |
+| [oss-hunter](oss-hunter/) | sickn33 | ★ 16.7k | 95% | L3 | Automatically hunt for high-impact OSS contribution opportunities in trending re… |
+| [outlook-automation](outlook-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Outlook tasks via Rube MCP (Composio): emails, calendar, contacts, fold… |
+| [outlook-calendar-automation](outlook-calendar-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Outlook Calendar tasks via Rube MCP (Composio): create events, manage a… |
+| [pipedrive-automation](pipedrive-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Pipedrive CRM operations including deals, contacts, organizations, acti… |
+| [posthog-automation](posthog-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate PostHog tasks via Rube MCP (Composio): events, feature flags, projects,… |
+| [postmark-automation](postmark-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Postmark email delivery tasks via Rube MCP (Composio): send templated e… |
+| [powershell-windows](powershell-windows/) | sickn33 | ★ 16.7k | 95% | L2 | PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling. |
+| [prompt-engineer](prompt-engineer/) | sickn33 | ★ 16.7k | 95% | L2 | Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Cha… |
+| [reddit-automation](reddit-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, … |
+| [render-automation](render-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Render tasks via Rube MCP (Composio): services, deployments, projects. … |
+| [sentry-automation](sentry-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure a… |
+| [shellcheck-configuration](shellcheck-configuration/) | sickn33 | ★ 16.7k | 95% | L3 | Master ShellCheck static analysis configuration and usage for shell script quali… |
+| [shopify-automation](shopify-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inv… |
+| [skill-creator](skill-creator/) | sickn33 | ★ 16.7k | 95% | L3 | This skill should be used when the user asks to create a new skill, build a skil… |
+| [slack-automation](slack-automation/) | sickn33 | ★ 16.7k | 95% | L3 | Automate Slack messaging, channel management, search, reactions, and threads via… |
+| [skill-seekers](skill-seekers/) | sickn33 | ★ 16.7k | 82% | L2 | -Automatically convert documentation websites, GitHub repositories, and PDFs int… |
+| [linkedin-cli](linkedin-cli/) | sickn33 | ★ 16.7k | 95% | L3 | Use when automating LinkedIn via CLI: fetch profiles, search people/companies, s… |
+| [active-directory-attacks](active-directory-attacks/) | sickn33 | ★ 16.7k | 95% | L3 | This skill should be used when the user asks to \"attack Active Directory\", \"e… |
+| [activecampaign-automation](activecampaign-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate ActiveCampaign tasks via Rube MCP (Composio): manage contacts, tags, li… |
+| [airtable-automation](airtable-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Airtable tasks via Rube MCP (Composio): records, bases, tables, fields,… |
+| [amplitude-automation](amplitude-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Amplitude tasks via Rube MCP (Composio): events, user activity, cohorts… |
+| [asana-automation](asana-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, … |
+| [azure-communication-callautomation-java](azure-communication-callautomation-java/) | sickn33 | ★ 16.7k | 95% | L3 | Build call automation workflows with Azure Communication Services Call Automatio… |
+| [bamboohr-automation](bamboohr-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, … |
+| [basecamp-automation](basecamp-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Basecamp project management, to-dos, messages, people, and to-do list o… |
+| [bash-linux](bash-linux/) | sickn33 | ★ 16.7k | 95% | L3 | Bash/Linux terminal patterns. Critical commands, piping, error handling, scripti… |
+| [bash-scripting](bash-scripting/) | sickn33 | ★ 16.7k | 95% | L3 | Bash scripting workflow for creating production-ready shell scripts with defensi… |
+| [bitbucket-automation](bitbucket-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Bitbucket repositories, pull requests, branches, issues, and workspace … |
+| [box-automation](box-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Box cloud storage operations including file upload/download, search, fo… |
+| [cal-com-automation](cal-com-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availabil… |
+| [calendly-automation](calendly-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Calendly scheduling, event management, invitee tracking, availability c… |
+| [canva-automation](canva-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand t… |
+| [circleci-automation](circleci-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor work… |
+| [clickup-automation](clickup-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate ClickUp project management including tasks, spaces, folders, lists, com… |
+| [close-automation](close-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS… |
+| [confluence-automation](confluence-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Confluence page creation, content search, space management, labels, and… |
+| [convertkit-automation](convertkit-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tag… |
+| [create-pr](create-pr/) | sickn33 | ★ 16.7k | 95% | L3 | Create pull requests following Sentry conventions. Use when opening PRs, writing… |
+| [datadog-automation](datadog-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Datadog tasks via Rube MCP (Composio): query metrics, search logs, mana… |
+| [dbos-typescript](dbos-typescript/) | sickn33 | ★ 16.7k | 95% | L3 | DBOS TypeScript SDK for building reliable, fault-tolerant applications with dura… |
+| [discord-automation](discord-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webho… |
+| [discord-bot-architect](discord-bot-architect/) | sickn33 | ★ 16.7k | 95% | L3 | Specialized skill for building production-ready Discord bots. Covers Discord.js … |
+| [docusign-automation](docusign-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signature… |
+| [dropbox-automation](dropbox-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Dropbox file management, sharing, search, uploads, downloads, and folde… |
+| [freshdesk-automation](freshdesk-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Freshdesk helpdesk operations including tickets, contacts, companies, n… |
+| [freshservice-automation](freshservice-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Freshservice ITSM tasks via Rube MCP (Composio): create/update tickets,… |
+| [git-advanced-workflows](git-advanced-workflows/) | sickn33 | ★ 16.7k | 95% | L3 | Master advanced Git workflows including rebasing, cherry-picking, bisect, worktr… |
+| [git-pr-workflows-git-workflow](git-pr-workflows-git-workflow/) | sickn33 | ★ 16.7k | 95% | L2 | Orchestrate a comprehensive git workflow from code review through PR creation, l… |
+| [git-pr-workflows-onboard](git-pr-workflows-onboard/) | sickn33 | ★ 16.7k | 95% | L2 | You are an **expert onboarding specialist and knowledge transfer architect** wit… |
+| [github-automation](github-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate GitHub repositories, issues, pull requests, branches, CI/CD, and permis… |
+| [github-issue-creator](github-issue-creator/) | sickn33 | ★ 16.7k | 95% | L2 | Convert raw notes, error logs, voice dictation, or screenshots into crisp GitHub… |
+| [gitlab-automation](gitlab-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate GitLab project management, issues, merge requests, pipelines, branches,… |
+| [gmail-automation](gmail-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Gmail tasks via Rube MCP (Composio): send/reply, search, labels, drafts… |
+| [google-calendar-automation](google-calendar-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Google Calendar events, scheduling, availability checks, and attendee m… |
+| [google-drive-automation](google-drive-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Google Drive file operations (upload, download, search, share, organize… |
+| [helpdesk-automation](helpdesk-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate HelpDesk tasks via Rube MCP (Composio): list tickets, manage views, use… |
+| [hubspot-automation](hubspot-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties… |
+| [hugging-face-cli](hugging-face-cli/) | sickn33 | ★ 16.7k | 95% | L3 | Execute Hugging Face Hub operations using the `hf` CLI. Use when the user needs … |
+| [instagram-automation](instagram-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manag… |
+| [intercom-automation](intercom-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Intercom tasks via Rube MCP (Composio): conversations, contacts, compan… |
+| [javascript-mastery](javascript-mastery/) | sickn33 | ★ 16.7k | 95% | L3 | Comprehensive JavaScript reference covering 33+ essential concepts every develop… |
+| [jira-automation](jira-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Jira tasks via Rube MCP (Composio): issues, projects, sprints, boards, … |
+| [klaviyo-automation](klaviyo-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS campaigns, insp… |
+| [linear-automation](linear-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Linear tasks via Rube MCP (Composio): issues, projects, cycles, teams, … |
+| [linkedin-automation](linkedin-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate LinkedIn tasks via Rube MCP (Composio): create posts, manage profile, c… |
+| [linux-shell-scripting](linux-shell-scripting/) | sickn33 | ★ 16.7k | 95% | L3 | This skill should be used when the user asks to \"create bash scripts\", \"autom… |
+| [make-automation](make-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, lan… |
+| [conductor-revert](conductor-revert/) | sickn33 | ★ 16.7k | 91% | L3 | Git-aware undo by logical work unit (track, phase, or task) |
+| [linear-claude-skill](linear-claude-skill/) | sickn33 | ★ 16.7k | 91% | L3 | Manage Linear issues, projects, and teams |
+| [address-github-comments](address-github-comments/) | sickn33 | ★ 16.7k | 88% | L2 | Use when you need to address review or issue comments on an open GitHub Pull Req… |
+| [bash-defensive-patterns](bash-defensive-patterns/) | sickn33 | ★ 16.7k | 88% | L2 | Master defensive Bash programming techniques for production-grade scripts. Use w… |
+| [bats-testing-patterns](bats-testing-patterns/) | sickn33 | ★ 16.7k | 88% | L2 | Master Bash Automated Testing System (Bats) for comprehensive shell script testi… |
+| [browser-automation](browser-automation/) | sickn33 | ★ 16.7k | 88% | L2 | Browser automation powers web testing, scraping, and AI agent interactions. The … |
+| [cicd-automation-workflow-automate](cicd-automation-workflow-automate/) | sickn33 | ★ 16.7k | 88% | L2 | You are a workflow automation expert specializing in creating efficient CI/CD pi… |
+| [git-pr-workflows-pr-enhance](git-pr-workflows-pr-enhance/) | sickn33 | ★ 16.7k | 88% | L2 | You are a PR optimization expert specializing in creating high-quality pull requ… |
+| [agent-manager-skill](agent-manager-skill/) | sickn33 | ★ 16.7k | 82% | L2 | Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) w… |
+| [firecrawl-scraper](firecrawl-scraper/) | sickn33 | ★ 16.7k | 82% | L3 | Deep web scraping, screenshots, PDF parsing, and website crawling using Firecraw… |
+| [git-pushing](git-pushing/) | sickn33 | ★ 16.7k | 82% | L2 | Stage, commit, and push git changes with conventional commit messages. Use when … |
 | [prompt-engineer](prompt-engineer/) | sickn33 | ★ 15.5k | 98% | L2 | Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Cha… |
 | [os-scripting](os-scripting/) | sickn33 | ★ 15.5k | 98% | L3 | Operating system and shell scripting troubleshooting workflow for Linux, macOS, … |
 | [bash-scripting](bash-scripting/) | sickn33 | ★ 15.4k | 98% | L3 | Bash scripting workflow for creating production-ready shell scripts with defensi… |
@@ -48,7 +139,6 @@
 | [adobesign](adobesign/) | majiayu000 | ★ 94 | 73% | L3 | Manage enterprise e-signatures with Adobe Sign's document signing solution. |
 | [add-fish-alias](add-fish-alias/) | majiayu000 | ★ 94 | 70% | L3 | Use when creating a new fish shell alias, function, or command shortcut, or when… |
 | [add-strict-checks](add-strict-checks/) | majiayu000 | ★ 94 | 70% | L3 | Enable stricter TypeScript and linting checks to catch bugs early, especially us… |
-| [address-github-comments](address-github-comments/) | majiayu000 | ★ 94 | 70% | L2 | Use when you need to address review or issue comments on an open GitHub Pull Req… |
 | [add-review-comment](add-review-comment/) | majiayu000 | ★ 94 | 66% | L3 | Add a review comment to a GitHub pull request. |
 | [agent-cli-developer](agent-cli-developer/) | majiayu000 | ★ 94 | 64% | L2 | Expert CLI developer specializing in command-line interface design, developer to… |
 | [adaptive-temporal-analysis-integration](adaptive-temporal-analysis-integration/) | majiayu000 | ★ 94 | 54% | L2 | Integrate adaptive temporal analysis for drift detection. |
@@ -119,7 +209,6 @@
 | [agentuity-cli-profile-create](agentuity-cli-profile-create/) | majiayu000 | ★ 2 | 53% | L2 | Create a new configuration profile |
 | [agentuity-cli-profile-show](agentuity-cli-profile-show/) | majiayu000 | ★ 2 | 53% | L2 | Show the configuration of a profile |
 | [ai-news-aggregator](ai-news-aggregator/) | majiayu000 | ★ 2 | 53% | L3 | 获取最新的AI行业新闻，进行智能总结和筛选，最多展示10条最重要的新闻资讯。当用户需要了解AI行业最新动态时使用此skill。 |
-| [agent-manager-skill](agent-manager-skill/) | majiayu000 | ★ 2 | 51% | L2 | Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) w… |
 | [agentuity-cli-git-account-add](agentuity-cli-git-account-add/) | majiayu000 | ★ 2 | 50% | L2 | Add a GitHub account to your organization. Requires authentication |
 | [agentuity-cli-git-unlink](agentuity-cli-git-unlink/) | majiayu000 | ★ 2 | 50% | L2 | Unlink a project from its GitHub repository. Requires authentication |
 | [agentuity-cli-profile-use](agentuity-cli-profile-use/) | majiayu000 | ★ 2 | 50% | L2 | Switch to a different configuration profile |
@@ -160,71 +249,13 @@
 | [git-log](git-log/) | hyper-light | ★ 0 | 48% | L2 | Show commit history for a file or the entire repository. Returns commit informat… |
 | [localsetup-context](localsetup-context/) | cptnfren | ★ 0 | 48% | L3 | Localsetup v2 framework context  - overview, invariants, and skills index. Load … |
 | [github-copilot-cli-expert](github-copilot-cli-expert/) | majiayu000 | ★ 0 | 48% | L3 | Expert knowledge of GitHub Copilot CLI - installation, configuration, usage, cus… |
+| [things3](things3/) | GregBParker | ★ 0 | 48% | L3 | This skill should be used when the user asks to "create a task in Things", "add … |
+| [github-multi-repo](github-multi-repo/) | ruvnet | ★ 0 | 48% | L3 | Multi-repository coordination, synchronization, and architecture management with… |
+| [GitOps Patterns](gitops-patterns/) | majiayu000 | ★ 0 | 48% | L3 | ArgoCD ApplicationSets, progressive delivery, Harness GitX, and multi-cluster Gi… |
 | [domain-cli](domain-cli/) | actionbook | ★ 0 | 47% | L2 | Use when building CLI tools. Keywords: CLI, command line, terminal, clap, struct… |
 | [makefile](makefile/) | pingqLIN | ★ 0 | 47% | L3 | Best practices for authoring GNU Make Makefiles Triggers on: **/Makefile, **/mak… |
 | [power-bi-security-rls-best-practices](power-bi-security-rls-best-practices/) | pingqLIN | ★ 0 | 47% | L2 | Comprehensive Power BI Row-Level Security (RLS) and advanced security patterns i… |
 | [dd-monitors](dd-monitors/) | datadog-labs | ★ 0 | 46% | L3 | Monitor management - create, update, mute, and alerting best practices. |
-| [hubspot-automation](hubspot-automation/) | davepoon | ★ 0 | 45% | L2 | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties… |
-| [hubspot-automation](hubspot-automation/) | majiayu000 | ★ 0 | 45% | L2 | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties… |
-| [session-init](session-init/) | aiskillstore | ★ 0 | 45% | L3 | Initializes session with environment check and task status overview. Use when us… |
-| [session-init](session-init/) | majiayu000 | ★ 0 | 45% | L3 | Initializes session with environment check and task status overview. Use when us… |
-| [session-init](session-init/) | majiayu000 | ★ 0 | 45% | L3 | Initializes session with environment check and task status overview. Use when us… |
-| [templar-miner-claude-skill](templar-miner-claude-skill/) | majiayu000 | ★ 0 | 45% | L3 | This skill should be used when setting up, optimizing, or managing Templar AI mi… |
-| [skill-forge](skill-forge/) | majiayu000 | ★ 0 | 45% | L3 | Automated skill creation workshop with intelligent source detection, smart path … |
-| [templar-miner-claude-skill](templar-miner-claude-skill/) | synapz-org | ★ 0 | 45% | L3 | This skill should be used when setting up, optimizing, or managing Templar AI mi… |
-| [bigquery-cli](bigquery-cli/) | majiayu000 | ★ 0 | 45% | L3 | Use when working with BigQuery from command line using bq tool, including queryi… |
-| [git-workflow-automation](git-workflow-automation/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive Git workflow automation including branching strategies, pull reque… |
-| [bats-testing-patterns](bats-testing-patterns/) | majiayu000 | ★ 0 | 45% | L3 | Master Bash Automated Testing System (Bats) for comprehensive shell script testi… |
-| [pr-draft-summary](pr-draft-summary/) | majiayu000 | ★ 0 | 45% | L2 | Create a PR title and draft description after substantive code changes are finis… |
-| [bluesky](bluesky/) | majiayu000 | ★ 0 | 45% | L3 | Read from and post to Bluesky social network using the AT Protocol. Use this ski… |
-| [chezmoi-chef](chezmoi-chef/) | fonnesbeck | ★ 0 | 45% | L3 | Manage dotfiles and secrets with chezmoi. Use for initializing chezmoi, adding/e… |
-| [molt-planner](molt-planner/) | teop23 | ★ 0 | 45% | L3 | MoltPlanner is a Google Calendar integration skill enabling agents to collaborat… |
-| [obsidian-cli](obsidian-cli/) | flowing-abyss | ★ 0 | 45% | L3 | Interact with Obsidian vaults using the Obsidian CLI to read, create, search, an… |
-| [outlook-calendar-automation](outlook-calendar-automation/) | javiertarazon | ★ 0 | 45% | L2 | Automate Outlook Calendar tasks via Rube MCP (Composio): create events, manage a… |
-| [exe](exe/) | majiayu000 | ★ 0 | 45% | L3 | Deploy a Vibes app to exe.dev VM hosting. Uses nginx on persistent VMs with SSH … |
-| [bg-remover](bg-remover/) | majiayu000 | ★ 0 | 45% | L3 | Remove backgrounds from images using FAL.ai's BiRefNet model. Use when users ask… |
-| [deleting-op-secrets](deleting-op-secrets/) | majiayu000 | ★ 0 | 45% | L3 | Deletes or archives secrets in 1Password using the op CLI. Use when the user nee… |
-| [github-search](github-search/) | majiayu000 | ★ 0 | 45% | L3 | Search GitHub for repos, code, and usage examples using gh CLI. Capabilities: re… |
-| [search-operations](search-operations/) | majiayu000 | ★ 0 | 45% | L3 | Search GitHub - find code, issues, users, and repositories across GitHub using g… |
-| [release](release/) | majiayu000 | ★ 0 | 45% | L2 | Create a professional release using GitHub CLI (gh). Generate SemVer version, cl… |
-| [gh-issues](gh-issues/) | fufankeji | ★ 0 | 45% | L3 | Fetch GitHub issues, spawn sub-agents to implement fixes and open PRs, then moni… |
-| [paas-overview](paas-overview/) | majiayu000 | ★ 0 | 45% | L3 | Overview of the PaaS stack - health checks, service URLs, and common operations. |
-| [cursor-rules-synchronizer](cursor-rules-synchronizer/) | majiayu000 | ★ 0 | 45% | L3 | Synchronizes Cursor Rules (.mdc files in .cursor/rules/) to CLAUDE.md by generat… |
-| [session-init](session-init/) | majiayu000 | ★ 0 | 45% | L3 | Initializes session with environment check and task status overview. Use when us… |
-| [shell-scripting](shell-scripting/) | aiskillstore | ★ 0 | 45% | L3 | Specialized knowledge of Bash and Zsh scripting, shell automation, command-line … |
-| [tmux](tmux/) | scaryrawr | ★ 0 | 45% | L3 | Remote control tmux sessions for interactive CLIs (python, gdb, etc.) by sending… |
-| [obsidian-daily](obsidian-daily/) | majiayu000 | ★ 0 | 45% | L3 | Manage Obsidian Daily Notes via obsidian-cli. Create and open daily notes, appen… |
-| [clawdbot-config](clawdbot-config/) | tumf | ★ 0 | 45% | L3 | Comprehensive Clawdbot configuration and skills system management. Use when work… |
-| [beads](beads/) | majiayu000 | ★ 0 | 45% | L3 | Issue tracking with Beads (bd CLI). Use when commands need to create, query, upd… |
-| [srgn-cli](srgn-cli/) | OutlineDriven | ★ 0 | 45% | L3 | Practical guide for building safe, syntax-aware srgn CLI commands for source-cod… |
-| [github-code-review](github-code-review/) | frankxai | ★ 0 | 44% | L3 | Comprehensive GitHub code review with AI-powered swarm coordination |
-| [github-code-review](github-code-review/) | frankxai | ★ 0 | 44% | L3 | Comprehensive GitHub code review with AI-powered swarm coordination |
-| [reddit](reddit/) | NeverSight | ★ 0 | 44% | L3 | Enables Claude to manage Reddit posts, comments, and community engagement |
-| [git-worktree](git-worktree/) | opensrcdevelop | ★ 0 | 44% | L3 | Git Worktree 管理命令。提供 init、list、remove 三个子命令来管理项目 worktree。 |
-| [claw-daw](claw-daw/) | sdiaoune | ★ 0 | 44% | L3 | Offline, deterministic, terminal-first MIDI DAW (TUI + headless scripts) |
-| [rust-dpdk](rust-dpdk/) | majiayu000 | ★ 0 | 43% | L2 | 用户态网络专家。处理 DPDK, 用户态驱动, 高性能网络, packet processing, 零拷贝, RSS 负载均衡 |
-| [bug](bug/) | GobbyAI | ★ 0 | 41% | L3 | Quickly create a bug task. Usage: /gobby:bug <title> [description] |
-| [pr-watch](pr-watch/) | OmniNode-ai | ★ 0 | 41% | L2 | Also auto-fix Nit-level comments |
-| [auxiliary-scripts](auxiliary-scripts/) | majiayu000 | ★ 0 | 41% | L2 | Auxiliary script management rules for Ralph agents |
-| [repoint-branch](repoint-branch/) | ahoym | ★ 0 | 41% | L3 | Extract independent changes from a feature branch into a new PR targeting main. |
-| [attention-please](attention-please/) | majiayu000 | ★ 0 | 38% | L3 | Play an alert sound and speak "Project NAME needs your attention." Always use at… |
-| [upstash/workflow TypeScript SDK Skill](upstash-workflow-typescript-sdk-skill/) | upstash | ★ 0 | 38% | L3 | Lightweight guidance for using the Upstash Workflow SDK to define, trigger, and … |
-| [wash](wash/) | cosmonic-labs | ★ 0 | 38% | L3 | Expert in wasmCloud Shell (wash) CLI tool for building, running, and managing We… |
-| [git-pr-merge](git-pr-merge/) | majiayu000 | ★ 0 | 38% | L2 | Conducts an audit of a Pull Request, merges it into main, and synchronizes the l… |
-| [defining-typescript-models](defining-typescript-models/) | majiayu000 | ★ 0 | 38% | L3 | Defines standard TypeScript interfaces for Appwrite Collections. Use when creati… |
-| [order-analysis](order-analysis/) | heimanba | ★ 0 | 38% | L2 | 分析产品升级工单，识别共性问题并提出产品改进建议。通过 agent-browser工具 访问工单系统，提取工单数据，进行问题分类、趋势分析和根因定位，输出改进方… |
-| [stripe-checkout-subscriptions](stripe-checkout-subscriptions/) | Ras3uCat | ★ 0 | 38% | L2 | Guide for creating Stripe Checkout Sessions for subscriptions in Flutter/Supabas… |
-| [work-issue](work-issue/) | s-hirano-ist | ★ 0 | 36% | L2 | issues/ディレクトリのタスクを1つ実装し、ブランチ作成・コミット・PR作成を行なうワークフロー |
-| [skill-name](skill-name/) | myDevicesIoT | ★ 0 | 35% | L3 | A clear description of what this skill does and when to use it. Include specific… |
-| [db-bahn](db-bahn/) | majiayu000 | ★ 0 | 34% | L3 | Query Deutsche Bahn train connections and prices. |
-| [simple-pr](simple-pr/) | majiayu000 | ★ 0 | 34% | L2 | Create a simple PR from staged changes with an auto-generated commit message |
-| [version-control-rule](version-control-rule/) | majiayu000 | ★ 0 | 33% | L3 | Applies to git related files, specifies to always use git for version control. |
-| [genaiscript](genaiscript/) | pingqLIN | ★ 0 | 30% | L2 | AI-powered script generation guidelines Triggers on: **/*.genai.* |
-| [script-executor](script-executor/) | majiayu000 | ★ 0 | 28% | L3 | Executes shell scripts in a safe environment. |
-| [use-gunshi-cli](use-gunshi-cli/) | izumin5210 | ★ 0 | 28% | L2 | Use the Gunshi library to create command-line interfaces in JavaScript/TypeScrip… |
-| [skill-launcher](skill-launcher/) | majiayu000 | ★ 0 | 26% | L2 | Search and select a Claude Code skill in the terminal, then copy /skill to clipb… |
-| [typescript](typescript/) | GoldenPanda1104 | ★ 0 | 24% | L2 | TypeScript. Proyecto usa este skill; contenido canónico en .ai-system. |
-| [gsd:workflow:resume-project](gsd-workflow-resume-project/) | majiayu000 | ★ 0 | 22% | L2 | Workflow for resuming a paused project |
 
 ---
 
