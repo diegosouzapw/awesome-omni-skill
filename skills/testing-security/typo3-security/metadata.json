@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/other/typo3-security-dirnbauer-claude-cursor-typo3-/SKILL.md",
+  "file_path": "skills/other/typo3-security/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "9aa84b97c0de113f0bf86af974a1047d641fd7e08a6345307a85c0338969e3cc",
-  "indexed_at": "2026-02-26T09:45:39.486Z",
-  "synced_at": "2026-02-28T04:07:02.187Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c49f1b19fcfc590d8883b2440fed389f3c2b181c4bd28e38856dd6514fb72711",
-  "install_command": "mkdir -p .claude/skills/typo3-security && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/typo3-security-dirnbauer-claude-cursor-typo3-/SKILL.md\" > .claude/skills/typo3-security/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/typo3-security-dirnbauer-claude-cursor-typo3-/SKILL.md"
+  "content_hash": "6f46aaa34a71acb0be4de86416c784cab08e106af28d06bea5ac51c592ec4920",
+  "indexed_at": "2026-02-28T08:48:33.064Z",
+  "synced_at": "2026-02-28T12:11:27.268Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9a324b4e5f033309f8a9990dc350c7d11256599366d0a55bd4673b0e9c7b23ea",
+  "install_command": "mkdir -p .claude/skills/typo3-security && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/typo3-security/SKILL.md\" > .claude/skills/typo3-security/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/typo3-security/SKILL.md"
 }

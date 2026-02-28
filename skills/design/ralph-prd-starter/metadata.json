@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/ralph-prd-starter/SKILL.md",
+  "file_path": "skills/other/ralph-prd-starter/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "ab92148a632bb4a4abfd735e5d513a716fda053616925864aa9cb894f6756b08",
-  "indexed_at": "2026-02-26T05:56:13.963Z",
-  "synced_at": "2026-02-28T04:05:22.187Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/258fe31ec06a7c4e6cec7e5f43546ffd1c2471bc71d9ee1484db3a1d87bf82b5",
-  "install_command": "mkdir -p .claude/skills/ralph-prd-starter && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ralph-prd-starter/SKILL.md\" > .claude/skills/ralph-prd-starter/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ralph-prd-starter/SKILL.md"
+  "content_hash": "ceb885b7faefb2128a136c0ca993590733503e07e52080c927e2286718abeb03",
+  "indexed_at": "2026-02-28T11:55:51.775Z",
+  "synced_at": "2026-02-28T12:11:29.221Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3331bfd6846d8c61ebd366a8c4fcba296a34cefc6fb51ad2890a916069147a08",
+  "install_command": "mkdir -p .claude/skills/ralph-prd-starter && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/ralph-prd-starter/SKILL.md\" > .claude/skills/ralph-prd-starter/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/ralph-prd-starter/SKILL.md"
 }

@@ -1,6 +1,6 @@
 # 📂 business
 
-> 180 skills in this category
+> 181 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -34,6 +34,7 @@
 | [espocrm-automation](espocrm-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Espocrm tasks via Rube MCP (Composio). Always search tools first for cu… |
 | [FreshBooks Automation](freshbooks-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | FreshBooks Automation: manage businesses, projects, time tracking, and billing i… |
 | [invoice-organizer](invoice-organizer/) | ComposioHQ | ★ 37.3k | 95% | L3 | Automatically organizes invoices and receipts for tax preparation by reading mes… |
+| [zoho-crm-automation](zoho-crm-automation/) | sickn33 | ★ 16.9k | 95% | L2 | Automate Zoho CRM tasks via Rube MCP (Composio): create/update records, search c… |
 | [marketing-ideas](marketing-ideas/) | sickn33 | ★ 16.7k | 95% | L2 | Provide proven marketing strategies and growth ideas for SaaS and software produ… |
 | [marketing-psychology](marketing-psychology/) | sickn33 | ★ 16.7k | 95% | L2 | Apply behavioral science and mental models to marketing decisions, prioritized u… |
 | [referral-program](referral-program/) | sickn33 | ★ 16.7k | 95% | L2 | When the user wants to create, optimize, or analyze a referral program, affiliat… |

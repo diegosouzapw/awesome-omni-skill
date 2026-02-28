@@ -1,12 +1,10 @@
 ---
 name: using-neon
-description: Guides and best practices for working with Neon Serverless Postgres. Covers getting started, local development with Neon, choosing a connection method, Neon features, authentication (@neondatabase/...
-category: Document Processing
-source: antigravity
-tags: [python, typescript, markdown, api, mcp, ai, agent, llm, workflow, document]
-url: https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/using-neon
+description: "Guides and best practices for working with Neon Serverless Postgres. Covers getting started, local development with Neon, choosing a connection method, Neon features, authentication (@neondatabase/..."
+risk: safe
+source: "https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres"
+date_added: "2026-02-27"
 ---
-
 
 # Neon Serverless Postgres
 

@@ -1,6 +1,6 @@
 # 📂 devops
 
-> 737 skills in this category
+> 730 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -27,6 +27,9 @@
 | [cloudpress-automation](cloudpress-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Cloudpress tasks via Rube MCP (Composio). Always search tools first for… |
 | [docker_hub-automation](docker_hub-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Docker Hub tasks via Rube MCP (Composio): repositories, images, tags, a… |
 | [Docker Hub Automation](docker-hub-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Docker Hub operations -- manage organizations, repositories, teams, mem… |
+| [vercel-deployment](vercel-deployment/) | sickn33 | ★ 16.9k | 95% | L3 | Expert knowledge for deploying to Vercel with Next.js Use when: vercel, deploy, … |
+| [game-art](game-art/) | sickn33 | ★ 16.9k | 95% | L2 | Game art principles. Visual style selection, asset pipeline, animation workflow. |
+| [uv-package-manager](uv-package-manager/) | sickn33 | ★ 16.9k | 88% | L2 | Master the uv package manager for fast Python dependency management, virtual env… |
 | [terraform-aws-modules](terraform-aws-modules/) | sickn33 | ★ 16.8k | 95% | L2 | Terraform module creation for AWS — reusable modules, state management, and HCL … |
 | [terraform-infrastructure](terraform-infrastructure/) | sickn33 | ★ 16.8k | 95% | L2 | Terraform infrastructure as code workflow for provisioning cloud resources, crea… |
 | [terraform-module-library](terraform-module-library/) | sickn33 | ★ 16.8k | 95% | L2 | Build reusable Terraform modules for AWS, Azure, and GCP infrastructure followin… |
@@ -452,6 +455,12 @@
 | [clawstr](clawstr/) | clawstr | ★ 0 | 48% | L3 | The decentralized social network for AI agents. Post to subclaw communities, rep… |
 | [apideck-portman](apideck-portman/) | apideck-libraries | ★ 0 | 48% | L3 | API contract testing with Portman by Apideck. Use when generating Postman collec… |
 | [docker-vigil-orchestration](docker-vigil-orchestration/) | majiayu000 | ★ 0 | 48% | L3 | Docker Compose orchestration for Vigil Guard v2.0.0 microservices (11 services).… |
+| [aws](aws/) | RepairYourTech | ★ 0 | 48% | L3 | AWS hosting and deployment patterns covering compute (EC2, ECS, Lambda), network… |
+| [terraform-engineer](terraform-engineer/) | majiayu000 | ★ 0 | 48% | L2 | Use when implementing infrastructure as code with Terraform across AWS, Azure, o… |
+| [aws-cloudformation-cloudfront](aws-cloudformation-cloudfront/) | majiayu000 | ★ 0 | 48% | L2 | AWS CloudFormation patterns for CloudFront distributions, origins (ALB, S3, Lamb… |
+| [Deployment Advisor](deployment-advisor/) | majiayu000 | ★ 0 | 48% | L3 | Choose deployment strategy and infrastructure. Use when deciding where to deploy… |
+| [kubernetes-orchestration](kubernetes-orchestration/) | majiayu000 | ★ 0 | 48% | L3 | Comprehensive guide to Kubernetes container orchestration, covering workloads, n… |
+| [devops-engineer](devops-engineer/) | thesaifalitai | ★ 0 | 48% | L2 | Use when setting up CI/CD pipelines, containerizing applications, or managing in… |
 | [debugging-dags](debugging-dags/) | astronomer | ★ 0 | 45% | L3 | Comprehensive DAG failure diagnosis and root cause analysis. Use for complex deb… |
 | [scale](scale/) | majiayu000 | ★ 0 | 45% | L3 | Recommend sharding, caching strategies, and read-replication patterns for Cloudf… |
 | [link-deps](link-deps/) | majiayu000 | ★ 0 | 45% | L3 | Discover and link related issues as dependencies. Searches for issues that shoul… |
@@ -725,22 +734,6 @@
 | [frontend-deployment](frontend-deployment/) | clode-labs | ★ 0 | 45% | L3 | Deploy frontend applications from aramb.toml. Creates frontend service, resolves… |
 | [ci-setup](ci-setup/) | majiayu000 | ★ 0 | 45% | L3 | Configure CI/CD pipelines for GitHub Actions, GitLab CI, CircleCI with best prac… |
 | [ci-setup](ci-setup/) | manastalukdar | ★ 0 | 45% | L3 | Configure CI/CD pipelines for GitHub Actions, GitLab CI, CircleCI with best prac… |
-| [ci-setup](ci-setup/) | majiayu000 | ★ 0 | 45% | L3 | Configure CI/CD pipelines for GitHub Actions, GitLab CI, CircleCI with best prac… |
-| [tech-detection](tech-detection/) | nbarthelemy | ★ 0 | 45% | L3 | Detects project tech stack including languages, frameworks, package managers, an… |
-| [automating-workflow-name](automating-workflow-name/) | webmasterarbez | ★ 0 | 45% | L3 | Use this skill when automating [workflow type], setting up CI/CD pipelines, or c… |
-| [code-review](code-review/) | chmc | ★ 0 | 45% | L2 | Code review patterns and checklist for quality assurance. Use when reviewing cod… |
-| [testing-principles](testing-principles/) | tundraray | ★ 0 | 45% | L2 | This skill provides language-agnostic testing principles including TDD, test qua… |
-| [terraform-skill](terraform-skill/) | jmreicha | ★ 0 | 45% | L3 | Use when working with Terraform or OpenTofu - creating modules, writing tests (n… |
-| [writing-skills](writing-skills/) | jlaws | ★ 0 | 45% | L3 | Use when creating new skills, editing existing skills, or verifying skills work … |
-| [writing-skills](writing-skills/) | luxunxiansheng | ★ 0 | 45% | L3 | Use when creating new skills, editing existing skills, or verifying skills work … |
-| [wp-migrate](wp-migrate/) | majiayu000 | ★ 0 | 45% | L3 | WordPress site migration and deployment using wp-migrate.sh. Use when migrating … |
-| [fluxcd](fluxcd/) | majiayu000 | ★ 0 | 45% | L3 | GitOps toolkit with Flux CD for Kubernetes continuous delivery. Use when impleme… |
-| [Run CI/CD Pipeline Locally](run-ci-cd-pipeline-locally/) | RonHouben | ★ 0 | 45% | L3 | Run the Wavecraft CI checks locally. Prefer the native `cargo xtask` commands fo… |
-| [writing-skills](writing-skills/) | majiayu000 | ★ 0 | 45% | L3 | Use when creating new skills, editing existing skills, or verifying skills work … |
-| [writing-skills](writing-skills/) | majiayu000 | ★ 0 | 45% | L3 | Use when creating new skills, editing existing skills, or verifying skills work … |
-| [wp-migrate](wp-migrate/) | aiskillstore | ★ 0 | 45% | L3 | WordPress site migration and deployment using wp-migrate.sh. Use when migrating … |
-| [wp-migrate](wp-migrate/) | BWBama85 | ★ 0 | 45% | L3 | WordPress site migration and deployment using wp-migrate.sh. Use when migrating … |
-| [wp-migrate](wp-migrate/) | majiayu000 | ★ 0 | 45% | L3 | WordPress site migration and deployment using wp-migrate.sh. Use when migrating … |
 
 ---
 

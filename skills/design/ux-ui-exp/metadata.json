@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/development/ux-ui-exp/SKILL.md",
+  "file_path": "skills/data/ux-ui-experience/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "170972afd196662fcd7267fa7d3c7a49d0d5b1127f3077dbc665575652716e1f",
-  "indexed_at": "2026-02-25T17:09:52.056Z",
-  "synced_at": "2026-02-28T04:05:21.310Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/08e2c85d97844db3912a12adbaea27186749e82bf5f02eb2569fb302f438871d",
-  "install_command": "mkdir -p .claude/skills/ux-ui-exp && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/ux-ui-exp/SKILL.md\" > .claude/skills/ux-ui-exp/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/ux-ui-exp/SKILL.md"
+  "content_hash": "715af0f1165c264194dceceafafe30ee24edfb7b1acabecd2a9685b91efa5f74",
+  "indexed_at": "2026-02-28T10:46:14.939Z",
+  "synced_at": "2026-02-28T12:11:29.052Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fd03aa49cb823efe145f755d748130997d0864052ff5678cd624c31f37d16635",
+  "install_command": "mkdir -p .claude/skills/ux-ui-exp && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ux-ui-experience/SKILL.md\" > .claude/skills/ux-ui-exp/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ux-ui-experience/SKILL.md"
 }

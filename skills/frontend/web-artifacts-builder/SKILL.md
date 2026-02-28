@@ -1,79 +1,79 @@
 ---
 name: web-artifacts-builder
-description: Conjunto de ferramentas para criar artefatos HTML claude.ai elaborados e multi-componentes usando tecnologias web frontend modernas (React, Tailwind CSS, shadcn/ui). Use para artefatos complexos que requerem gerenciamento de estado, roteamento ou componentes shadcn/ui - não para artefatos HTML/JSX simples de arquivo único.
-license: Termos completos em LICENSE.txt
+description: "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state ma..."
+risk: unknown
+source: community
+date_added: "2026-02-27"
 ---
 
-# Construtor de Artefatos Web
+# Web Artifacts Builder
 
-Para construir artefatos frontend claude.ai poderosos, siga estas etapas:
-
-1. Inicialize o repositório frontend usando `scripts/init-artifact.sh`
-2. Desenvolva seu artefato editando o código gerado
-3. Empacote todo o código em um único arquivo HTML usando `scripts/bundle-artifact.sh`
-4. Exiba o artefato para o usuário
-5. (Opcional) Teste o artefato
+To build powerful frontend claude.ai artifacts, follow these steps:
+1. Initialize the frontend repo using `scripts/init-artifact.sh`
+2. Develop your artifact by editing the generated code
+3. Bundle all code into a single HTML file using `scripts/bundle-artifact.sh`
+4. Display artifact to user
+5. (Optional) Test the artifact
 
 **Stack**: React 18 + TypeScript + Vite + Parcel (bundling) + Tailwind CSS + shadcn/ui
 
-## Diretrizes de Design e Estilo
+## Design & Style Guidelines
 
-MUITO IMPORTANTE: Para evitar o que é frequentemente referido como "gororoba de IA", evite usar layouts centralizados excessivos, gradientes roxos, cantos arredondados uniformes e fonte Inter.
+VERY IMPORTANT: To avoid what is often referred to as "AI slop", avoid using excessive centered layouts, purple gradients, uniform rounded corners, and Inter font.
 
-## Início Rápido
+## Quick Start
 
-### Passo 1: Inicializar Projeto
+### Step 1: Initialize Project
 
-Execute o script de inicialização para criar um novo projeto React:
-
+Run the initialization script to create a new React project:
 ```bash
 bash scripts/init-artifact.sh <project-name>
 cd <project-name>
 ```
 
-Isso cria um projeto totalmente configurado com:
-
+This creates a fully configured project with:
 - ✅ React + TypeScript (via Vite)
-- ✅ Tailwind CSS 3.4.1 com sistema de temas shadcn/ui
-- ✅ Aliases de caminho (`@/`) configurados
-- ✅ 40+ componentes shadcn/ui pré-instalados
-- ✅ Todas as dependências Radix UI incluídas
-- ✅ Parcel configurado para empacotamento (via .parcelrc)
-- ✅ Compatibilidade com Node 18+ (detecta e fixa automaticamente a versão do Vite)
+- ✅ Tailwind CSS 3.4.1 with shadcn/ui theming system
+- ✅ Path aliases (`@/`) configured
+- ✅ 40+ shadcn/ui components pre-installed
+- ✅ All Radix UI dependencies included
+- ✅ Parcel configured for bundling (via .parcelrc)
+- ✅ Node 18+ compatibility (auto-detects and pins Vite version)
 
-### Passo 2: Desenvolva Seu Artefato
+### Step 2: Develop Your Artifact
 
-Para construir o artefato, edite os arquivos gerados. Veja **Tarefas Comuns de Desenvolvimento** abaixo para orientação.
+To build the artifact, edit the generated files. See **Common Development Tasks** below for guidance.
 
-### Passo 3: Pacote para Arquivo HTML Único
+### Step 3: Bundle to Single HTML File
 
-Para empacotar o aplicativo React em um único artefato HTML:
-
+To bundle the React app into a single HTML artifact:
 ```bash
 bash scripts/bundle-artifact.sh
 ```
 
-Isso cria `bundle.html` - um artefato autocontido com todo o JavaScript, CSS e dependências embutidos. Este arquivo pode ser compartilhado diretamente em conversas do Claude como um artefato.
+This creates `bundle.html` - a self-contained artifact with all JavaScript, CSS, and dependencies inlined. This file can be directly shared in Claude conversations as an artifact.
 
-**Requisitos**: Seu projeto deve ter um `index.html` no diretório raiz.
+**Requirements**: Your project must have an `index.html` in the root directory.
 
-**O que o script faz**:
+**What the script does**:
+- Installs bundling dependencies (parcel, @parcel/config-default, parcel-resolver-tspaths, html-inline)
+- Creates `.parcelrc` config with path alias support
+- Builds with Parcel (no source maps)
+- Inlines all assets into single HTML using html-inline
 
-- Instala dependências de empacotamento (parcel, @parcel/config-default, parcel-resolver-tspaths, html-inline)
-- Cria configuração `.parcelrc` com suporte a alias de caminho
-- Compila com Parcel (sem mapas de origem)
-- Incorpora todos os ativos em HTML único usando html-inline
+### Step 4: Share Artifact with User
 
-### Passo 4: Compartilhe o Artefato com o Usuário
+Finally, share the bundled HTML file in conversation with the user so they can view it as an artifact.
 
-Finalmente, compartilhe o arquivo HTML empacotado na conversa com o usuário para que ele possa visualizá-lo como um artefato.
+### Step 5: Testing/Visualizing the Artifact (Optional)
 
-### Passo 5: Testando/Visualizando o Artefato (Opcional)
+Note: This is a completely optional step. Only perform if necessary or requested.
 
-Nota: Esta é uma etapa completamente opcional. Execute apenas se necessário ou solicitado.
+To test/visualize the artifact, use available tools (including other Skills or built-in tools like Playwright or Puppeteer). In general, avoid testing the artifact upfront as it adds latency between the request and when the finished artifact can be seen. Test later, after presenting the artifact, if requested or if issues arise.
 
-Para testar/visualizar o artefato, use as ferramentas disponíveis (incluindo outras Habilidades ou ferramentas integradas como Playwright ou Puppeteer). Em geral, evite testar o artefato antecipadamente, pois isso adiciona latência entre a solicitação e quando o artefato final pode ser visto. Teste mais tarde, após apresentar o artefato, se solicitado ou se surgirem problemas.
+## Reference
 
-## Referência
+- **shadcn/ui components**: https://ui.shadcn.com/docs/components
 
-- **Componentes shadcn/ui**: https://ui.shadcn.com/docs/components
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

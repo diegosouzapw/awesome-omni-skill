@@ -1,9 +1,12 @@
 # 📂 frontend
 
-> 118 skills in this category
+> 133 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
+| [web-artifacts-builder](web-artifacts-builder/) | sickn33 | ★ 16.9k | 95% | L3 | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts … |
+| [wiki-vitepress](wiki-vitepress/) | sickn33 | ★ 16.9k | 95% | L3 | Packages generated wiki Markdown into a VitePress static site with dark theme, d… |
+| [zustand-store-ts](zustand-store-ts/) | sickn33 | ★ 16.9k | 88% | L3 | Create Zustand stores with TypeScript, subscribeWithSelector middleware, and pro… |
 | [tailwind-patterns](tailwind-patterns/) | sickn33 | ★ 16.8k | 95% | L3 | Tailwind CSS v4 principles. CSS-first configuration, container queries, modern p… |
 | [ui-ux-pro-max](ui-ux-pro-max/) | sickn33 | ★ 16.8k | 95% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
 | [tailwind-design-system](tailwind-design-system/) | sickn33 | ★ 16.8k | 82% | L2 | Build scalable design systems with Tailwind CSS, design tokens, component librar… |
@@ -104,6 +107,17 @@
 | [Creating Cursor Rules](creating-cursor-rules/) | majiayu000 | ★ 0 | 48% | L3 | Expert guidance for creating effective Cursor IDE rules with best practices, pat… |
 | [Frontend Design](frontend-design/) | openclaw | ★ 0 | 48% | L3 | Frontend development with React, Next.js, Tailwind CSS. Build landing pages, das… |
 | [frontend-trends-2026](frontend-trends-2026/) | Dokhacgiakhoa | ★ 0 | 48% | L2 | Collection of 2026 Frontend Design Formulas (Liquid Glass, Bento, Neo-Brutalism,… |
+| [frontend-design](frontend-design/) | TIAN0517 | ★ 0 | 48% | L3 | Transform UI style requirements into production-ready frontend code with systema… |
+| [frontend-design-fixlify](frontend-design-fixlify/) | majiayu000 | ★ 0 | 48% | L3 | Create distinctive, production-grade frontend interfaces for Fixlify. Automatica… |
+| [shadcn-tailwind](shadcn-tailwind/) | majiayu000 | ★ 0 | 48% | L3 | React component library skill for shadcn/ui + Tailwind CSS. Use for React/Next.j… |
+| [moai-domain-frontend](moai-domain-frontend/) | majiayu000 | ★ 0 | 48% | L3 | Frontend development specialist covering React 19, Next.js 16, Vue 3.5, and mode… |
+| [pricing-app-frontend](pricing-app-frontend/) | majiayu000 | ★ 0 | 48% | L3 | React frontend patterns for Pricing App - Zustand, CSS Modules, Tesla Design Sys… |
+| [moai-domain-frontend](moai-domain-frontend/) | NeverSight | ★ 0 | 48% | L3 | Frontend development specialist covering React 19, Next.js 16, Vue 3.5, and mode… |
+| [react-expert](react-expert/) | majiayu000 | ★ 0 | 48% | L3 | Expert React - Hooks, composants, state management, data fetching, testing, styl… |
+| [fullstory-stable-selectors](fullstory-stable-selectors/) | majiayu000 | ★ 0 | 48% | L3 | Framework-agnostic guide for implementing stable, semantic selectors in any web … |
+| [moai-domain-frontend](moai-domain-frontend/) | majiayu000 | ★ 0 | 48% | L3 | Enterprise Frontend Development with AI-powered modern architecture, Context7 in… |
+| [prototype-to-production](prototype-to-production/) | majiayu000 | ★ 0 | 48% | L3 | Convert design prototypes (HTML, CSS, Figma exports) into production-ready compo… |
+| [frontend-design-vue](frontend-design-vue/) | majiayu000 | ★ 0 | 48% | L3 | Create distinctive, production-grade Vue 3/TypeScript frontends with exceptional… |
 | [pcf-tooling](pcf-tooling/) | pingqLIN | ★ 0 | 47% | L2 | Get Microsoft Power Platform CLI tooling for Power Apps Component Framework Trig… |
 | [Frontend Pages](frontend-pages/) | raffaeler | ★ 0 | 47% | L3 | Create or modify React pages using MUI components, React Router, and the HATEOAS… |
 | [solid-core-rendering](solid-core-rendering/) | majiayu000 | ★ 0 | 47% | L2 | SolidJS rendering: render for client apps, hydrate for SSR, renderToString for s… |
@@ -119,9 +133,10 @@
 | [starknet-react-rules](starknet-react-rules/) | oimiragieo | ★ 0 | 46% | L3 | Specific rules for Starknet React projects, focusing on blockchain integration. |
 | [react](react/) | mae616 | ★ 0 | 45% | L3 | React/Next.jsのプロジェクトで、UI=計算モデル（コンポーネント/状態/レンダリング）を軸に、設計・実装・レビュー・性能改善の判断を整理する。doc… |
 | [default-planner](default-planner/) | clode-labs | ★ 0 | 45% | L3 | Analyze user requests and create executable task plans for any type of work. Use… |
+| [nextjs-frontend-guidelines](nextjs-frontend-guidelines/) | chacha95 | ★ 0 | 45% | L3 | Next.js 15 frontend development guidelines for YGS (영영사) React 19/TypeScript app… |
 | [responsive-design-patterns](responsive-design-patterns/) | majiayu000 | ★ 0 | 45% | L3 | Mobile-first responsive design patterns with breakpoints, fluid layouts, and ada… |
 | [ui-ux-pro-max](ui-ux-pro-max/) | ranbot-ai | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [frontend-specialist](frontend-specialist/) | huangwb8 | ★ 0 | 45% | L3 | 前端开发专家。精通 React/Vue/Next.js/Nuxt 等现代前端框架，专注于组件化开发、状态管理、响应式设计、性能优化和用户体验。用于前端应用开发、… |
+| [kuroco-frontend-integration](kuroco-frontend-integration/) | diverta | ★ 0 | 45% | L3 | Kurocoとフロントエンドフレームワークの統合パターンおよびAI自動デプロイメント。使用キーワード：「Kuroco Nuxt」「Kuroco Next.js」… |
 
 ---
 

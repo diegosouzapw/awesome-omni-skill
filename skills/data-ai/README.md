@@ -1,6 +1,6 @@
 # 📂 data-ai
 
-> 1,267 skills in this category
+> 1,231 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -89,6 +89,8 @@
 | [flowiseai-automation](flowiseai-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Flowiseai tasks via Rube MCP (Composio). Always search tools first for … |
 | [gan-ai-automation](gan-ai-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Gan AI tasks via Rube MCP (Composio). Always search tools first for cur… |
 | [langsmith-fetch](langsmith-fetch/) | ComposioHQ | ★ 37.3k | 95% | L3 | Debug LangChain and LangGraph agents by fetching execution traces from LangSmith… |
+| [wireshark-analysis](wireshark-analysis/) | sickn33 | ★ 16.9k | 95% | L2 | This skill should be used when the user asks to \"analyze network traffic with W… |
+| [xlsx-official](xlsx-official/) | sickn33 | ★ 16.9k | 95% | L3 | Comprehensive spreadsheet creation, editing, and analysis with support for formu… |
 | [spark-optimization](spark-optimization/) | sickn33 | ★ 16.7k | 95% | L3 | Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and… |
 | [cc-skill-clickhouse-io](cc-skill-clickhouse-io/) | sickn33 | ★ 16.7k | 95% | L3 | ClickHouse database patterns, query optimization, analytics, and data engineerin… |
 | [data-engineering-data-pipeline](data-engineering-data-pipeline/) | sickn33 | ★ 16.7k | 95% | L3 | You are a data pipeline architecture expert specializing in scalable, reliable, … |
@@ -700,7 +702,6 @@
 | [convex-component-authoring](convex-component-authoring/) | LucaDeLeo | ★ 0 | 48% | L3 | How to create, structure, and publish self-contained Convex components with prop… |
 | [bagman](bagman/) | openclaw | ★ 0 | 48% | L3 | Secure key management for AI agents. Use when handling private keys, API secrets… |
 | [Golden Master](golden-master/) | openclaw | ★ 0 | 48% | L3 | Track source-of-truth relationships between files — know when derived content be… |
-| [implementing-android-code](implementing-android-code/) | bitwarden | ★ 0 | 48% | L2 | This skill should be used when implementing Android code in Bitwarden. Covers cr… |
 | [moai-foundation-trust](moai-foundation-trust/) | majiayu000 | ★ 0 | 48% | L3 | Complete TRUST 4 principles guide covering Test First, Readable, Unified, Secure… |
 | [moai-foundation-trust](moai-foundation-trust/) | AJBcoding | ★ 0 | 48% | L3 | Complete TRUST 4 principles guide covering Test First, Readable, Unified, Secure… |
 | [moai-foundation-trust](moai-foundation-trust/) | majiayu000 | ★ 0 | 48% | L3 | Complete TRUST 4 principles guide covering Test First, Readable, Unified, Secure… |
@@ -870,6 +871,9 @@
 | [wprdc](wprdc/) | NeverSight | ★ 0 | 48% | L3 | Query Pittsburgh's Western PA Regional Data Center (WPRDC) — 363+ datasets cover… |
 | [wprdc](wprdc/) | ianpcook | ★ 0 | 48% | L3 | Query Pittsburgh's Western PA Regional Data Center (WPRDC) — 363+ datasets cover… |
 | [data-pipeline-manager](data-pipeline-manager/) | majiayu000 | ★ 0 | 48% | L3 | Design and troubleshoot robust data pipelines with comprehensive quality validat… |
+| [moai-lang-python](moai-lang-python/) | majiayu000 | ★ 0 | 48% | L3 | Python 3.13+ development specialist covering FastAPI, Django, async patterns, da… |
+| [lang-python](lang-python/) | majiayu000 | ★ 0 | 48% | L3 | Python 3.13+ development specialist covering FastAPI, Django, async patterns, da… |
+| [mongodb-expert](mongodb-expert/) | majiayu000 | ★ 0 | 48% | L3 | Expert-level MongoDB database design, aggregation pipelines, indexing, replicati… |
 | [rust-unsafe](rust-unsafe/) | majiayu000 | ★ 0 | 47% | L3 | 不安全代码与 FFI 专家。处理 unsafe, raw pointer, FFI, extern, transmute, *mut, *const, unio… |
 | [rust-unsafe](rust-unsafe/) | majiayu000 | ★ 0 | 47% | L3 | 不安全代码与 FFI 专家。处理 unsafe, raw pointer, FFI, extern, transmute, *mut, *const, unio… |
 | [rust-unsafe](rust-unsafe/) | NeverSight | ★ 0 | 47% | L3 | 不安全代码与 FFI 专家。处理 unsafe, raw pointer, FFI, extern, transmute, *mut, *const, unio… |
@@ -1231,46 +1235,6 @@
 | [senior-data-engineer](senior-data-engineer/) | NeverSight | ★ 0 | 45% | L3 | World-class data engineering skill for building scalable data pipelines, ETL/ELT… |
 | [senior-data-engineer](senior-data-engineer/) | alphawizards | ★ 0 | 45% | L3 | World-class data engineering skill for building scalable data pipelines, ETL/ELT… |
 | [project-bootstrap](project-bootstrap/) | mdmagnuson-creator | ★ 0 | 45% | L3 | Bootstrap a new or existing project with stack detection and project.json genera… |
-| [ai-usage-coach](ai-usage-coach/) | jcarroll2007 | ★ 0 | 45% | L2 | Help users get more value from AI assistants by suggesting better prompting tech… |
-| [AILANG Sprint Executor](ailang-sprint-executor/) | sunholo-data | ★ 0 | 45% | L3 | Execute approved sprint plans with test-driven development, continuous linting, … |
-| [Subagents Guide](subagents-guide/) | CaptainCrouton89 | ★ 0 | 45% | L3 | Specialized AI assistants for task-specific workflows with separate context. Lea… |
-| [systematic-debugging](systematic-debugging/) | apenlor | ★ 0 | 45% | L3 | Use when encountering any bug, test failure, or unexpected behavior, before prop… |
-| [agent-creator](agent-creator/) | TobiasBak | ★ 0 | 45% | L2 | This skill should be used when the user asks to "create a new agent", "make a su… |
-| [writing-skills](writing-skills/) | aiskillstore | ★ 0 | 45% | L3 | Use when creating new skills, editing existing skills, or verifying skills work … |
-| [opencode-orchestrator](opencode-orchestrator/) | RealistSec | ★ 0 | 45% | L3 | Delegate complex coding, refactoring, research, or multi-step development tasks … |
-| [AILANG Sprint Executor](ailang-sprint-executor/) | majiayu000 | ★ 0 | 45% | L3 | Execute approved sprint plans with test-driven development, continuous linting, … |
-| [AILANG Sprint Executor](ailang-sprint-executor/) | sunholo-data | ★ 0 | 45% | L3 | Execute approved sprint plans with test-driven development, continuous linting, … |
-| [AILANG Sprint Executor](ailang-sprint-executor/) | majiayu000 | ★ 0 | 45% | L3 | Execute approved sprint plans with test-driven development, continuous linting, … |
-| [Subagents Guide](subagents-guide/) | majiayu000 | ★ 0 | 45% | L3 | Specialized AI assistants for task-specific workflows with separate context. Lea… |
-| [Subagents Guide](subagents-guide/) | majiayu000 | ★ 0 | 45% | L3 | Specialized AI assistants for task-specific workflows with separate context. Lea… |
-| [writing-skills](writing-skills/) | DYAI2025 | ★ 0 | 45% | L3 | Use when creating new skills, editing existing skills, or verifying skills work … |
-| [minitest-testing](minitest-testing/) | Shoebtamboli | ★ 0 | 45% | L3 | Write, review, and improve Minitest tests for Ruby on Rails applications. Covers… |
-| [debugging](debugging/) | micaelmalta | ★ 0 | 45% | L3 | Debug failures systematically: reproduce, hypothesize, bisect, and fix. Use when… |
-| [ReasoningBank with AgentDB](reasoningbank-with-agentdb/) | frankxai | ★ 0 | 45% | L3 | Implement ReasoningBank adaptive learning with AgentDB's 150x faster vector data… |
-| [dispatching-parallel-agents](dispatching-parallel-agents/) | alixex | ★ 0 | 45% | L3 | Use when facing 2+ independent tasks that can be worked on without shared state … |
-| [aif-plan](aif-plan/) | batFormat | ★ 0 | 45% | L3 | Plan implementation for a feature or task. Two modes — fast (no branch) or full … |
-| [tzurot-council-mcp](tzurot-council-mcp/) | majiayu000 | ★ 0 | 45% | L3 | Best practices for using the Council MCP server in Tzurot v3 development - When … |
-| [agent-builder](agent-builder/) | majiayu000 | ★ 0 | 45% | L3 | Use when creating, improving, or troubleshooting Claude Code subagents. Expert g… |
-| [ReasoningBank with AgentDB](reasoningbank-with-agentdb/) | majiayu000 | ★ 0 | 45% | L3 | Implement ReasoningBank adaptive learning with AgentDB's 150x faster vector data… |
-| [enhancer](enhancer/) | majiayu000 | ★ 0 | 45% | L2 | Transform simple prompts into comprehensive, context-aware prompts. Use for prom… |
-| [llm-app-patterns](llm-app-patterns/) | whodaniel | ★ 0 | 45% | L3 | > Production-ready patterns for building LLM applications, inspired by > [Dify](… |
-| [ReasoningBank with AgentDB](reasoningbank-with-agentdb/) | frankxai | ★ 0 | 45% | L3 | Implement ReasoningBank adaptive learning with AgentDB's 150x faster vector data… |
-| [dispatching-parallel-agents](dispatching-parallel-agents/) | HexSleeves | ★ 0 | 45% | L3 | Use when facing 2+ independent tasks that can be worked on without shared state … |
-| [agent-creator](agent-creator/) | fercracix33 | ★ 0 | 45% | L3 | Use this skill when architecting new Claude Code agents following Anthropic best… |
-| [aif-plan](aif-plan/) | hightemp | ★ 0 | 45% | L3 | Plan implementation for a feature or task. Two modes — fast (no branch) or full … |
-| [loki-mode](loki-mode/) | majiayu000 | ★ 0 | 45% | L3 | Multi-agent autonomous startup system. Triggers on "Loki Mode". Takes PRD to dep… |
-| [tzurot-council-mcp](tzurot-council-mcp/) | majiayu000 | ★ 0 | 45% | L3 | Best practices for using the Council MCP server in Tzurot v3 development - When … |
-| [agent-builder](agent-builder/) | pr-pm | ★ 0 | 45% | L3 | Use when creating, improving, or troubleshooting Claude Code subagents. Expert g… |
-| [ReasoningBank with AgentDB](reasoningbank-with-agentdb/) | adebold | ★ 0 | 45% | L3 | Implement ReasoningBank adaptive learning with AgentDB's 150x faster vector data… |
-| [ReasoningBank with AgentDB](reasoningbank-with-agentdb/) | majiayu000 | ★ 0 | 45% | L3 | Implement ReasoningBank adaptive learning with AgentDB's 150x faster vector data… |
-| [enhancer](enhancer/) | majiayu000 | ★ 0 | 45% | L2 | Transform simple prompts into comprehensive, context-aware prompts. Use for prom… |
-| [refactoring-patterns](refactoring-patterns/) | semirm-dev | ★ 0 | 45% | L2 | Safe refactoring workflow and common patterns. Invoke when extracting methods, r… |
-| [scientific-schematics](scientific-schematics/) | aiskillstore | ★ 0 | 45% | L3 | Create publication-quality scientific diagrams using Nano Banana Pro AI with sma… |
-| [ck:project-management](ck-project-management/) | weihung0831 | ★ 0 | 45% | L2 | Track progress, update plan statuses, manage Claude Tasks, generate reports, coo… |
-| [gh-issues](gh-issues/) | GS1Ned | ★ 0 | 45% | L3 | Fetch GitHub issues, spawn sub-agents to implement fixes and open PRs, then moni… |
-| [clawgang](clawgang/) | duclm1x1 | ★ 0 | 45% | L3 | ClawGang social skill — lets your agent socialize on clawgang.ai: post updates, … |
-| [scientific-schematics](scientific-schematics/) | fabioeducacross | ★ 0 | 45% | L3 | Create publication-quality scientific diagrams using Nano Banana Pro AI with sma… |
-| [scientific-schematics](scientific-schematics/) | jackychenlu | ★ 0 | 45% | L3 | Create publication-quality scientific diagrams using Nano Banana Pro AI with sma… |
 
 ---
 

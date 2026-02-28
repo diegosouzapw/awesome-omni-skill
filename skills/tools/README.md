@@ -1,6 +1,6 @@
 # 📂 tools
 
-> 1,614 skills in this category
+> 1,582 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -597,6 +597,9 @@
 | [developer-growth-analysis](developer-growth-analysis/) | ComposioHQ | ★ 37.3k | 95% | L3 | Analyzes your recent Claude Code chat history to identify coding patterns, devel… |
 | [file-organizer](file-organizer/) | ComposioHQ | ★ 37.3k | 95% | L3 | Intelligently organizes your files and folders across your computer by understan… |
 | [lead-research-assistant](lead-research-assistant/) | ComposioHQ | ★ 37.3k | 95% | L2 | Identifies high-quality leads for your product or service by analyzing your busi… |
+| [using-superpowers](using-superpowers/) | sickn33 | ★ 16.9k | 95% | L2 | Use when starting any conversation - establishes how to find and use skills, req… |
+| [verification-before-completion](verification-before-completion/) | sickn33 | ★ 16.9k | 95% | L2 | Use when about to claim work is complete, fixed, or passing, before committing o… |
+| [viral-generator-builder](viral-generator-builder/) | sickn33 | ★ 16.9k | 95% | L3 | Expert in building shareable generator tools that go viral - name generators, qu… |
 | [theme-factory](theme-factory/) | sickn33 | ★ 16.8k | 95% | L2 | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs,… |
 | [tool-design](tool-design/) | sickn33 | ★ 16.8k | 95% | L3 | Build tools that agents can use effectively, including architectural reduction p… |
 | [typescript-advanced-types](typescript-advanced-types/) | sickn33 | ★ 16.8k | 88% | L2 | Master TypeScript's advanced type system including generics, conditional types, … |
@@ -1289,6 +1292,9 @@
 | [install-rules](install-rules/) | NeverSight | ★ 0 | 48% | L2 | Install rules from this project or a specified Git repo into Cursor or Trae IDE.… |
 | [apideck-codegen](apideck-codegen/) | apideck-libraries | ★ 0 | 48% | L3 | Generate typed API clients from Apideck OpenAPI specs using code generators. Use… |
 | [apideck-connector-coverage](apideck-connector-coverage/) | apideck-libraries | ★ 0 | 48% | L3 | Check Apideck connector API coverage before building integrations. Use when dete… |
+| [openspec-bulk-archive-change](openspec-bulk-archive-change/) | Draculabo | ★ 0 | 48% | L3 | Archive multiple completed changes at once. Use when archiving several parallel … |
+| [openspec-bulk-archive-change](openspec-bulk-archive-change/) | yu-iskw | ★ 0 | 48% | L3 | Archive multiple completed changes at once. Use when archiving several parallel … |
+| [learn](learn/) | aiskillstore | ★ 0 | 48% | L3 | Discover, install, and manage AI agent skills from agentskill.sh. Search for cap… |
 | [statusline-customization](statusline-customization/) | MadAppGang | ★ 0 | 47% | L3 | Configuration reference and troubleshooting for the statusline plugin — sections… |
 | [typespec-m365-copilot](typespec-m365-copilot/) | pingqLIN | ★ 0 | 47% | L3 | Guidelines and best practices for building TypeSpec-based declarative agents and… |
 | [declarative-agents-microsoft365](declarative-agents-microsoft365/) | pingqLIN | ★ 0 | 47% | L3 | Comprehensive development guidelines for Microsoft 365 Copilot declarative agent… |
@@ -1580,44 +1586,6 @@
 | [README Generator](readme-generator/) | Sheshiyer | ★ 0 | 45% | L3 | Auto-generate a modern, visually rich README.md by scanning the repo — with dyna… |
 | [personalization-engine](personalization-engine/) | christianearle01 | ★ 0 | 45% | L3 | Central hub for managing user preferences, learning patterns, and adapting skill… |
 | [plugin-validator](plugin-validator/) | majiayu000 | ★ 0 | 45% | L3 | Validates SpecWeave plugin installation when EXPLICITLY requested by user. Use f… |
-| [plugin-validator](plugin-validator/) | majiayu000 | ★ 0 | 45% | L3 | Validates SpecWeave plugin installation when EXPLICITLY requested by user. Use f… |
-| [github-issue-triage](github-issue-triage/) | majiayu000 | ★ 0 | 45% | L3 | Analyze GitHub issues for the Nx repository and provide assignment recommendatio… |
-| [github-issue-triage](github-issue-triage/) | FrozenPandaz | ★ 0 | 45% | L3 | Analyze GitHub issues for the Nx repository and provide assignment recommendatio… |
-| [github-issue-triage](github-issue-triage/) | majiayu000 | ★ 0 | 45% | L3 | Analyze GitHub issues for the Nx repository and provide assignment recommendatio… |
-| [claude-settings-audit](claude-settings-audit/) | mpuig | ★ 0 | 45% | L3 | Analyze a repository to generate recommended Claude Code settings.json permissio… |
-| [init-project](init-project/) | KJ-devs | ★ 0 | 45% | L3 | Initialise un nouveau projet. Analyse la stack, génère des agents spécialisés, c… |
-| [claude-code-analyzer](claude-code-analyzer/) | nilecui | ★ 0 | 45% | L3 | Analyzes Claude Code usage patterns and provides comprehensive recommendations. … |
-| [python-development-python-scaffold](python-development-python-scaffold/) | ranbot-ai | ★ 0 | 45% | L3 | You are a Python project architecture expert specializing in scaffolding product… |
-| [ics-exploitation](ics-exploitation/) | 0xhackerfren | ★ 0 | 45% | L3 | Exploit Industrial Control Systems using OPC-UA, S7comm, BACnet, Modbus, and Eth… |
-| [git-auto-commit](git-auto-commit/) | dahun428-fx | ★ 0 | 45% | L3 | 현재 저장소의 변경사항을 분석해 한국어 커밋 메시지(MMDD:HHmm - 요약)와 상세 변경 요약을 생성하고, `yarn lint` 및 `yar… |
-| [ethereal-persona](ethereal-persona/) | majiayu000 | ★ 0 | 45% | L2 | Design and implement the personality, conversational style, and emotional behavi… |
-| [testing](testing/) | mattnigh | ★ 0 | 45% | L3 | Provides expertise on how to write effective unit tests (runtime and type tests)… |
-| [guided-debugging](guided-debugging/) | NeverSight | ★ 0 | 45% | L2 | Scaffolded debugging guidance for learning. Use when a learner encounters unexpe… |
-| [testing](testing/) | yankeeinlondon | ★ 0 | 45% | L3 | Provides expertise on how to write effective unit tests (runtime and type tests)… |
-| [guided-debugging](guided-debugging/) | ricardogomes | ★ 0 | 45% | L2 | Scaffolded debugging guidance for learning. Use when a learner encounters unexpe… |
-| [testing](testing/) | inocan-group | ★ 0 | 45% | L3 | Provides expertise on how to write effective unit tests (runtime and type tests)… |
-| [testing-workflow](testing-workflow/) | alchimie-di-circe | ★ 0 | 45% | L3 | Integrated testing workflow combining all testing tools and MCPs. Use when decid… |
-| [plan-first-development](plan-first-development/) | maschad | ★ 0 | 45% | L3 | Break complex projects into detailed multi-phase plans before writing any code. … |
-| [review-implementation](review-implementation/) | majiayu000 | ★ 0 | 45% | L3 | Use after hyperpowers:executing-plans completes all tasks - verifies implementat… |
-| [safety-checker](safety-checker/) | code0100fun | ★ 0 | 45% | L2 | Identifies unsafe operations in Zig code including pointer casts, bounds checkin… |
-| [error-diagnostics-error-analysis](error-diagnostics-error-analysis/) | sla-te | ★ 0 | 45% | L3 | You are an expert error analysis specialist with deep expertise in debugging dis… |
-| [mcp-integration](mcp-integration/) | astrosteveo | ★ 0 | 45% | L3 | This skill should be used when the user asks to "add MCP server", "integrate MCP… |
-| [clipper](clipper/) | aj47 | ★ 0 | 45% | L3 | Analyze video transcriptions to identify interesting segments for clipping. Find… |
-| [pytest-plugins](pytest-plugins/) | majiayu000 | ★ 0 | 45% | L3 | Use when pytest plugin ecosystem including pytest-cov, pytest-mock, and custom p… |
-| [plugin-scaffolder](plugin-scaffolder/) | majiayu000 | ★ 0 | 45% | L3 | Scaffolds complete Claude Code plugin structures with all necessary directories,… |
-| [testing](testing/) | NeverSight | ★ 0 | 45% | L3 | Provides expertise on how to write effective unit tests (runtime and type tests)… |
-| [testing-workflow](testing-workflow/) | majiayu000 | ★ 0 | 45% | L3 | Integrated testing workflow combining all testing tools and MCPs. Use when decid… |
-| [review-implementation](review-implementation/) | withzombies | ★ 0 | 45% | L3 | Use after hyperpowers:executing-plans completes all tasks - verifies implementat… |
-| [review-implementation](review-implementation/) | majiayu000 | ★ 0 | 45% | L3 | Use after hyperpowers:executing-plans completes all tasks - verifies implementat… |
-| [pytest-plugins](pytest-plugins/) | majiayu000 | ★ 0 | 45% | L3 | Use when pytest plugin ecosystem including pytest-cov, pytest-mock, and custom p… |
-| [plugin-scaffolder](plugin-scaffolder/) | squirrelsoft-dev | ★ 0 | 45% | L3 | Scaffolds complete Claude Code plugin structures with all necessary directories,… |
-| [plugin-scaffolder](plugin-scaffolder/) | majiayu000 | ★ 0 | 45% | L3 | Scaffolds complete Claude Code plugin structures with all necessary directories,… |
-| [ip2location-io-automation](ip2location-io-automation/) | jarbitechture | ★ 0 | 45% | L2 | Automate Ip2location IO tasks via Rube MCP (Composio). Always search tools first… |
-| [kickbox-automation](kickbox-automation/) | jarbitechture | ★ 0 | 45% | L2 | Automate Kickbox tasks via Rube MCP (Composio). Always search tools first for cu… |
-| [neotex-init](neotex-init/) | majiayu000 | ★ 0 | 45% | L3 | Use when user runs /neotex-init to deeply scan a codebase and auto-generate orga… |
-| [forcemanager-automation](forcemanager-automation/) | jarbitechture | ★ 0 | 45% | L2 | Automate Forcemanager tasks via Rube MCP (Composio). Always search tools first f… |
-| [ralph](ralph/) | carmandale | ★ 0 | 45% | L3 | Create and run Ralph loops for structured AI-driven development. Triggered by "c… |
-| [neotex-init](neotex-init/) | majiayu000 | ★ 0 | 45% | L3 | Use when user runs /neotex-init to deeply scan a codebase and auto-generate orga… |
 
 ---
 

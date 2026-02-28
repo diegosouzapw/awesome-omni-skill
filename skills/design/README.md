@@ -1,6 +1,6 @@
 # 📂 design
 
-> 385 skills in this category
+> 386 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -14,12 +14,16 @@
 | [fluxguard-automation](fluxguard-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Fluxguard tasks via Rube MCP (Composio). Always search tools first for … |
 | [canvas-design](canvas-design/) | ComposioHQ | ★ 37.3k | 95% | L2 | Create beautiful visual art in .png and .pdf documents using design philosophy. … |
 | [brand-guidelines](brand-guidelines/) | ComposioHQ | ★ 37.3k | 88% | L2 | Applies Anthropic's official brand colors and typography to any sort of artifact… |
+| [game-design](game-design/) | sickn33 | ★ 16.9k | 95% | L2 | Game design principles. GDD structure, balancing, player psychology, progression… |
+| [00-andruia-consultant](00-andruia-consultant/) | sickn33 | ★ 16.9k | 95% | L2 | Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia. Diagnost… |
+| [web-design-guidelines](web-design-guidelines/) | sickn33 | ★ 16.9k | 88% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to \\\"re… |
+| [10-andruia-skill-smith](10-andruia-skill-smith/) | sickn33 | ★ 16.9k | 88% | L2 | Ingeniero de Sistemas de Andru.ia. Diseña, redacta y despliega nuevas habilidade… |
+| [android_ui_verification](android_ui_verification/) | sickn33 | ★ 16.8k | 95% | L3 | Automated end-to-end UI testing and verification on an Android Emulator using AD… |
 | [stitch-ui-design](stitch-ui-design/) | sickn33 | ★ 16.8k | 95% | L2 | Expert guide for creating effective prompts for Google Stitch AI UI design tool.… |
 | [swiftui-expert-skill](swiftui-expert-skill/) | sickn33 | ★ 16.8k | 95% | L2 | Write, review, or improve SwiftUI code following best practices for state manage… |
 | [telegram-bot-builder](telegram-bot-builder/) | sickn33 | ★ 16.8k | 95% | L3 | Expert in building Telegram bots that solve real problems - from simple automati… |
 | [notion-template-business](notion-template-business/) | sickn33 | ★ 16.7k | 95% | L3 | Expert in building and selling Notion templates as a business - not just making … |
 | [radix-ui-design-system](radix-ui-design-system/) | sickn33 | ★ 16.7k | 95% | L3 | Build accessible design systems with Radix UI primitives. Headless component cus… |
-| [00-andruia-consultant](00-andruia-consultant/) | sickn33 | ★ 16.7k | 95% | L2 | Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia. Diagnost… |
 | [20-andruia-niche-intelligence](20-andruia-niche-intelligence/) | sickn33 | ★ 16.7k | 95% | L2 | Estratega de Inteligencia de Dominio de Andru.ia. Analiza el nicho específico de… |
 | [android-jetpack-compose-expert](android-jetpack-compose-expert/) | sickn33 | ★ 16.7k | 95% | L2 | Expert guidance for building modern Android UIs with Jetpack Compose, covering s… |
 | [avalonia-layout-zafiro](avalonia-layout-zafiro/) | sickn33 | ★ 16.7k | 95% | L2 | Guidelines for modern Avalonia UI layout using Zafiro.Avalonia, emphasizing shar… |
@@ -260,6 +264,11 @@
 | [cofounder-im](cofounder-im/) | openclaw | ★ 0 | 48% | L3 | Pull startup project data and AI-generated build specifications from CoFounder.i… |
 | [frontend-design](frontend-design/) | NeverSight | ★ 0 | 48% | L3 | Create distinctive, bold UI designs that avoid generic AI aesthetics. This skill… |
 | [responsive-tables](responsive-tables/) | CleanExpo | ★ 0 | 48% | L3 | Mobile-responsive table patterns that transform into card layouts on small scree… |
+| [canvas](canvas/) | patniko | ★ 0 | 48% | L3 | Spawn interactive terminal TUI components (calendars, documents, flight bookings… |
+| [ux-ui-exp](ux-ui-exp/) | majiayu000 | ★ 0 | 48% | L3 | UI/UX design intelligence with Bootstrap 5, Font Awesome, SweetAlert2. Use: /ux-… |
+| [super-skills](super-skills/) | NeverSight | ★ 0 | 48% | L3 | Decomposes complex user requests into executable subtasks, identifies required c… |
+| [design-expert](design-expert/) | majiayu000 | ★ 0 | 48% | L3 | Expert-level system design, architecture patterns, scalability, and distributed … |
+| [ralph-prd-starter](ralph-prd-starter/) | majiayu000 | ★ 0 | 48% | L3 | Project-agnostic agent setup wizard for Ralph Orchestra with Quick Start, Standa… |
 | [solidstart-optimistic-ui](solidstart-optimistic-ui/) | majiayu000 | ★ 0 | 47% | L2 | SolidStart optimistic UI: use useSubmissions to show pending data immediately, c… |
 | [cheat-sheets](cheat-sheets/) | majiayu000 | ★ 0 | 47% | L3 | Expert knowledge for creating effective cheat sheets with PDF export. Activate w… |
 | [power-bi-report-design-best-practices](power-bi-report-design-best-practices/) | pingqLIN | ★ 0 | 47% | L2 | Comprehensive Power BI report design and visualization best practices based on M… |
@@ -360,6 +369,7 @@
 | [form_builder](form_builder/) | NeverSight | ★ 0 | 45% | L3 | Builds form components and data collection interfaces including contact forms, r… |
 | [form_builder](form_builder/) | majiayu000 | ★ 0 | 45% | L3 | Builds form components and data collection interfaces including contact forms, r… |
 | [UI UX Pro Max Skill 安装与配置](ui-ux-pro-max-skill/) | Candlest | ★ 0 | 45% | L3 | 安装 UI UX Pro Max design system skill 到 OpenCode 全局环境,提供专业 UI/UX 设计指导,包括 67 种样式、9… |
+| [team-frontend](team-frontend/) | catlog22 | ★ 0 | 45% | L2 | Unified team skill for frontend development team. All roles invoke this skill wi… |
 | [ui-ux-pro-max](ui-ux-pro-max/) | derKlinke | ★ 0 | 45% | L3 | Use when designing/reviewing UI or UX for web/mobile products, selecting style/c… |
 | [design-lab](design-lab/) | 0xdesign | ★ 0 | 45% | L3 | Conduct design interviews, generate five distinct UI variations in a temporary d… |
 | [ui-ux-pro-max](ui-ux-pro-max/) | corsal2025 | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
@@ -380,15 +390,6 @@
 | [ui-ux-pro-max](ui-ux-pro-max/) | GrupoUS | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
 | [ui-ux-pro-max](ui-ux-pro-max/) | Jimmy1987s | ★ 0 | 45% | L3 | UI/UX 設計智能助手。50 種風格、21 套配色、50 組字體搭配、20 種圖表、8 種技術棧（React、Next.js、Vue、Svelte、Swift… |
 | [ui-designer](ui-designer/) | ynitto | ★ 0 | 45% | L3 | UI/UX デザインインテリジェンス。Webアプリの画面構成、レイアウト、コンポーネント、スタイル方針をまとめる。50以上のスタイル、97カラーパレット、57フ… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | tuyenht | ★ 0 | 45% | L3 | Trí tuệ thiết kế UI/UX đẳng cấp Pro Max, thư viện giao diện và phong cách hiện đ… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | northseadl | ★ 0 | 45% | L3 | UI/UX design intelligence. 67 styles, 96 palettes, 57 font pairings, 25 charts, … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | zero-rehq | ★ 0 | 45% | L3 | 57 UI styles + 95 color palettes + 56 font pairings + 24 charts + 98 UX guidelin… |
-| [ui ux](ui-ux/) | INK666 | ★ 0 | 45% | L3 | Searchable database of UI styles, color palettes, font pairings, chart types, pr… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | TriNgo0108 | ★ 0 | 45% | L3 | AI-powered design intelligence for building professional UI/UX across multiple p… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | Brite-Nites | ★ 0 | 45% | L3 | Design system generation and UI/UX planning intelligence. Use when the user need… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | yunaamelia | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | enriquemoya | ★ 0 | 45% | L3 | Comprehensive UI/UX design system guidance with searchable style and UX patterns… |
-| [cc-routine-and-class-design](cc-routine-and-class-design/) | majiayu000 | ★ 0 | 45% | L3 | Evaluate routine and class design quality using Code Complete checklists (43 ite… |
 
 ---
 

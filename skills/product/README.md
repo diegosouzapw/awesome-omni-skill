@@ -1,6 +1,6 @@
 # 📂 product
 
-> 150 skills in this category
+> 151 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -95,6 +95,7 @@
 | [Requirements Definition](requirements-definition/) | mtaku3 | ★ 0 | 48% | L2 | This skill should be used when the user asks to "define requirements", "create s… |
 | [agile-product-owner](agile-product-owner/) | arielperez82 | ★ 0 | 48% | L3 | Agile product ownership toolkit for Senior Product Owner including INVEST-compli… |
 | [spec-prd-creator](spec-prd-creator/) | VictorHueni | ★ 0 | 48% | L3 | Generate a Product Requirements Document (PRD) for a new feature. Use when plann… |
+| [doc-ears](doc-ears/) | vladm3105 | ★ 0 | 48% | L3 | Create EARS (Easy Approach to Requirements Syntax) formal requirements - Layer 3… |
 | [fresh-eyes](fresh-eyes/) | majiayu000 | ★ 0 | 45% | L3 | Re-reads code you just wrote with fresh perspective to catch bugs, errors, and i… |
 | [epic-management](epic-management/) | majiayu000 | ★ 0 | 45% | L3 | Use for LARGE work requiring feature-level grouping. Creates epic tracking issue… |
 | [meeting-prep](meeting-prep/) | ahmedkhaledmohamed | ★ 0 | 45% | L2 | Meeting preparation assistant for Product Managers. Use when the user needs to p… |

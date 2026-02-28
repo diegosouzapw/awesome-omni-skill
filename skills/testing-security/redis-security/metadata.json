@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/security/redis-security-pluginagentmarketpla-custom-plugin-redis/SKILL.md",
+  "file_path": "skills/data/redis-security/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "6402271e95a7264236d23784779db99654794968c54b30e1a5c6a543d4ad1be3",
-  "indexed_at": "2026-02-26T09:49:19.254Z",
-  "synced_at": "2026-02-28T04:07:03.575Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1e53fd1d205c2ef129eaaa8766fa2c6b69248f8a4dc1f8fbfeaf91806fb7316a",
-  "install_command": "mkdir -p .claude/skills/redis-security && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/security/redis-security-pluginagentmarketpla-custom-plugin-redis/SKILL.md\" > .claude/skills/redis-security/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/security/redis-security-pluginagentmarketpla-custom-plugin-redis/SKILL.md"
+  "content_hash": "926371d0ce3fdab7eb9f0d53bfc3872094180374307f12553671b6846160461c",
+  "indexed_at": "2026-02-28T08:47:33.291Z",
+  "synced_at": "2026-02-28T12:11:27.030Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/229dce28a041dee58d9edfea65e87dfbc63e161afbac7379f9073ddc2ed0eeb4",
+  "install_command": "mkdir -p .claude/skills/redis-security && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/redis-security/SKILL.md\" > .claude/skills/redis-security/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/redis-security/SKILL.md"
 }

@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/other/security-audit-scanner-tbartel74-vigil-code/SKILL.md",
+  "file_path": "skills/security/security-audit-scanner/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "145aa4ae1e28ba2d2fc5ab92764c381ab14d65608cf9bd33377be665df7afe8e",
-  "indexed_at": "2026-02-26T09:49:33.746Z",
-  "synced_at": "2026-02-28T04:07:03.757Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b76855c43805564ce042bb1641359f97c5daea05e15f5e304627aa6caffc71d3",
-  "install_command": "mkdir -p .claude/skills/security-audit-scanner && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/security-audit-scanner-tbartel74-vigil-code/SKILL.md\" > .claude/skills/security-audit-scanner/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/security-audit-scanner-tbartel74-vigil-code/SKILL.md"
+  "content_hash": "cb8ea1a530c8c57beb0a8db2a99c8cda40b9ec211dfe2632ef7256d8676dc11d",
+  "indexed_at": "2026-02-28T08:47:50.150Z",
+  "synced_at": "2026-02-28T12:11:27.203Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bc3da2de2becc65e3889afbc14b98a3ac0dd855f9c9ff9fa3a6befd04953576c",
+  "install_command": "mkdir -p .claude/skills/security-audit-scanner && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/security/security-audit-scanner/SKILL.md\" > .claude/skills/security-audit-scanner/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/security/security-audit-scanner/SKILL.md"
 }

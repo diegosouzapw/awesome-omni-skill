@@ -1,9 +1,15 @@
 # 📂 ai-agents
 
-> 358 skills in this category
+> 368 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
+| [hierarchical-agent-memory](hierarchical-agent-memory/) | sickn33 | ★ 16.9k | 95% | L3 | Scoped CLAUDE.md memory system that reduces context token spend. Creates directo… |
+| [voice-ai-engine-development](voice-ai-engine-development/) | sickn33 | ★ 16.9k | 95% | L3 | Build real-time conversational AI voice engines using async worker pipelines, st… |
+| [vector-database-engineer](vector-database-engineer/) | sickn33 | ★ 16.9k | 88% | L2 | Expert in vector databases, embedding strategies, and semantic search implementa… |
+| [vector-index-tuning](vector-index-tuning/) | sickn33 | ★ 16.9k | 88% | L2 | Optimize vector index performance for latency, recall, and memory. Use when tuni… |
+| [voice-agents](voice-agents/) | sickn33 | ★ 16.9k | 88% | L2 | Voice agents represent the frontier of AI interaction - humans speaking naturall… |
+| [vexor](vexor/) | sickn33 | ★ 16.9k | 72% | L2 | Vector-powered CLI for semantic file search with a Claude/Codex skill |
 | [superpowers-lab](superpowers-lab/) | sickn33 | ★ 16.8k | 69% | L2 | Lab environment for Claude superpowers |
 | [multi-agent-brainstorming](multi-agent-brainstorming/) | sickn33 | ★ 16.7k | 95% | L2 | Transform a single-agent design into a **robust, review-validated design** by si… |
 | [performance-testing-review-ai-review](performance-testing-review-ai-review/) | sickn33 | ★ 16.7k | 95% | L3 | You are an expert AI-powered code review specialist combining automated static a… |
@@ -340,6 +346,7 @@
 | [ai-prompting](ai-prompting/) | majiayu000 | ★ 0 | 48% | L3 | Effective communication strategies for AI-assisted development. Learn context-fi… |
 | [hive-mind-advanced](hive-mind-advanced/) | majiayu000 | ★ 0 | 48% | L3 | Advanced Hive Mind collective intelligence system for queen-led multi-agent coor… |
 | [advanced-prompt-crafter](advanced-prompt-crafter/) | menoncello | ★ 0 | 48% | L3 | A sophisticated multi-layered prompt engineering system with analysis, optimizat… |
+| [last30days](last30days/) | mvanhorn | ★ 0 | 48% | L3 | Research a topic from the last 30 days. Also triggered by 'last30'. Sources: Red… |
 | [vscode-copilot-instructions](vscode-copilot-instructions/) | featbit | ★ 0 | 48% | L3 | Expert guidance for creating VSCode Copilot custom instructions, prompt files, a… |
 | [skill-creator](skill-creator/) | ziltorian | ★ 0 | 48% | L3 | Guide for creating effective, universal Agent Skills that work across multiple A… |
 | [moltagram](moltagram/) | yuvalsuede | ★ 0 | 48% | L3 | The visual social network for AI agents. See images, generate images, share visu… |
@@ -357,11 +364,14 @@
 | [moltbook](moltbook/) | protagolabs | ★ 0 | 48% | L3 | The social network for AI agents. Post, comment, upvote, and create communities. |
 | [hive-mind-advanced](hive-mind-advanced/) | ruvnet | ★ 0 | 48% | L3 | Advanced Hive Mind collective intelligence system for queen-led multi-agent coor… |
 | [ai-prompting](ai-prompting/) | majiayu000 | ★ 0 | 48% | L3 | Effective communication strategies for AI-assisted development. Learn context-fi… |
+| [linear-sync](linear-sync/) | crystal-peak | ★ 0 | 48% | L3 | This skill should be used when the session-start hook injects Linear context (e.… |
+| [agent-memory](agent-memory/) | DNG-ai | ★ 0 | 48% | L3 | Long-term memory store for AI agents - save, search, and manage persistent memor… |
+| [hive-mind-advanced](hive-mind-advanced/) | majiayu000 | ★ 0 | 48% | L3 | Advanced Hive Mind collective intelligence system for queen-led multi-agent coor… |
+| [serving-llms-vllm](serving-llms-vllm/) | AXGZ21 | ★ 0 | 48% | L3 | Serves LLMs with high throughput using vLLM's PagedAttention and continuous batc… |
 | [prompt-engineering](prompt-engineering/) | artokun | ★ 0 | 47% | L3 | ComfyUI prompt engineering knowledge — CLIP text encoding syntax, weight modifie… |
 | [convex-ai](convex-ai/) | majiayu000 | ★ 0 | 47% | L3 | Convex AI Integration - OpenAI, actions, streaming, and AI patterns with databas… |
 | [arize-phoenix](arize-phoenix/) | Arize-ai | ★ 0 | 45% | L3 | Open-source AI observability platform for tracing, evaluating, and improving LLM… |
 | [arize-phoenix](arize-phoenix/) | Finimo-Solutions | ★ 0 | 45% | L3 | Open-source AI observability platform for tracing, evaluating, and improving LLM… |
-| [thinking-sequentially](thinking-sequentially/) | doanchienthangdev | ★ 0 | 45% | L2 | AI agent structures complex reasoning through numbered thought sequences with ex… |
 
 ---
 

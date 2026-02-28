@@ -1,245 +1,99 @@
 ---
 name: security
-description: Protect your SaaS app from common vulnerabilities. Use when building auth, handling user data, or deploying features. Covers authentication, data protection, API security, and OWASP Top 10 for non-technical founders using AI tools.
+description: Use this skill when designing or reviewing systems where security is a concern - authentication, authorization, data protection, input handling, or any system processing untrusted input. Applies adversarial thinking to specifications, designs, and implementations.
+version: 0.1.0
 ---
 
-# Security
+# Security Engineering
 
-## Security Checklist
+## When to Apply
 
-```
-Security Basics:
-- [ ] Authentication required for protected routes
-- [ ] Passwords hashed (bcrypt/argon2), never stored plain text
-- [ ] API keys in environment variables, not code
-- [ ] HTTPS only in production
-- [ ] Input validated on server side
-- [ ] SQL injection prevented (use parameterized queries)
-- [ ] XSS prevented (sanitize user input)
-- [ ] CSRF tokens on forms
-- [ ] Rate limiting on API endpoints
-- [ ] User sessions expire (30min-1hr typical)
-```
+Use this skill when the system involves:
+- Authentication or authorization
+- Processing untrusted input (user input, external APIs, file uploads)
+- Storing or transmitting sensitive data
+- Cryptographic operations
+- Multi-tenant isolation
+- Compliance requirements (PCI, HIPAA, SOC2, GDPR)
 
-See [COMMON-VULNS.md](COMMON-VULNS.md) for detailed checks.
+## Mindset
 
----
+Security engineers think like attackers and design for the adversarial case.
 
-## Critical: Never Store These in Code
+**Questions to always ask:**
+- What's the trust boundary here? Who is trusted, who isn't?
+- What happens if this input is malicious?
+- What's the blast radius if this component is compromised?
+- Who can access this? Who shouldn't be able to?
+- What sensitive data flows through here? Where does it rest?
+- How would an attacker abuse this feature?
+- What gets logged? What shouldn't be logged?
 
-**Move to environment variables:**
-- Database passwords
-- API keys (Stripe, SendGrid, etc)
-- JWT secrets
-- OAuth client secrets
-- Encryption keys
+**Assumptions to challenge:**
+- "Users won't do that" - Attackers will. Design for malicious input.
+- "It's internal only" - Internal networks get compromised. Defense in depth.
+- "We'll add security later" - Retrofitting security is expensive and error-prone.
+- "HTTPS is enough" - Transport security doesn't protect data at rest or in logs.
+- "We hash passwords" - With what? Salted? Using bcrypt/argon2 or MD5?
+- "Only admins can access this" - How is that enforced? Can it be bypassed?
 
-**Tell AI:**
-```
-Store API keys in .env file, not in code.
-Add .env to .gitignore.
-Access via process.env.API_KEY
-```
+## Practices
 
----
+### Input Validation
+Validate all input at trust boundaries. Use allowlists, not blocklists. Validate type, length, format, and range. Reject invalid input; don't sanitize it into validity. **Don't** trust client-side validation, use blocklists for security, or assume input is well-formed.
 
-## Authentication Basics
+### Authentication
+Use established protocols (OAuth2, OIDC). Implement rate limiting and account lockout. Use secure session management with proper expiration. **Don't** roll your own auth, store passwords in plaintext or weak hashes, or use predictable session tokens.
 
-**Minimum requirements:**
-- Passwords: 8+ chars, require number/symbol
-- Hash passwords (bcrypt with 10+ rounds)
-- Email verification for signups
-- Password reset via email only
-- Sessions expire (30-60 min idle)
-- Logout clears session completely
+### Authorization
+Check permissions on every request, not just UI. Use principle of least privilege. Centralize authorization logic. **Don't** rely on UI hiding for access control, check permissions only at the edge, or use role checks when resource checks are needed.
 
-**Tell AI:**
-```
-Add authentication:
-- bcrypt for password hashing (12 rounds)
-- Email verification required
-- Session timeout: 30 minutes
-- Password requirements: 8+ chars, 1 number, 1 symbol
-```
+### Secrets Management
+Never hardcode secrets. Use secret managers or environment injection. Rotate secrets regularly. **Don't** commit secrets to version control, log secrets, or pass secrets in URLs.
 
-See [SECURITY-PROMPTS.md](SECURITY-PROMPTS.md) for implementation details.
+### Cryptography
+Use standard libraries and algorithms. Never invent your own crypto. Use appropriate algorithms (argon2/bcrypt for passwords, AES-GCM for encryption). **Don't** use deprecated algorithms (MD5, SHA1, DES), ECB mode, or predictable IVs.
 
----
+### Data Protection
+Encrypt sensitive data at rest and in transit. Classify data by sensitivity. Minimize data collection and retention. **Don't** store more than needed, keep data longer than required, or expose sensitive data in logs/URLs/errors.
 
-## Data Protection
+### Error Handling
+Return generic errors to users. Log detailed errors internally with correlation IDs. Never expose stack traces, SQL errors, or internal paths. **Don't** leak information through error messages, timing differences, or response sizes.
 
-**Always encrypt:**
-- Passwords (hashed, not encrypted)
-- Payment info (use Stripe, don't store cards)
-- Personal identifiable information (PII)
+### Audit Logging
+Log security-relevant events (auth, access, changes). Include who, what, when, from where. Protect logs from tampering. **Don't** log sensitive data, skip logging security events, or allow log deletion without audit trail.
 
-**Never log:**
-- Passwords (even hashed)
-- Credit card numbers
-- API keys
-- Session tokens
+## Vocabulary
 
-**Tell AI:**
-```
-Never log sensitive data.
-Replace passwords/tokens with "[REDACTED]" in logs.
-```
+Use precise terminology:
 
----
+| Instead of | Say |
+|------------|-----|
+| "secure" | "encrypted with AES-256-GCM" / "authenticated via OAuth2" |
+| "hashed" | "bcrypt with cost 12" / "argon2id" |
+| "validated" | "allowlist validated" / "schema validated" / "bounds checked" |
+| "safe" | "parameterized query" / "escaped for HTML context" |
+| "admin only" | "requires ADMIN role" / "enforced by policy X" |
+| "internal" | "within trust boundary X" / "requires mTLS" |
 
-## API Security
+## SDD Integration
 
-**Required for all API endpoints:**
-- Authentication check
-- Rate limiting (prevent abuse)
-- Input validation
-- Error messages don't leak info
+**During Specification:**
+- Identify trust boundaries and threat actors
+- Classify data by sensitivity
+- Specify compliance requirements
+- Define authentication and authorization requirements explicitly
 
-**Tell AI:**
-```
-Add to all API routes:
-- Require valid auth token
-- Rate limit: 100 requests/minute per IP
-- Validate all inputs (reject invalid)
-- Generic error messages (no stack traces to users)
-```
+**During Design:**
+- Document trust boundaries per component
+- Specify input validation rules at each boundary
+- Design authorization model (RBAC, ABAC, etc.)
+- Plan for secrets management and key rotation
+- Identify what gets logged and what must not be logged
 
----
-
-## Common Vulnerabilities
-
-**Most common in AI-built apps:**
-
-1. **Exposed API keys** - In code instead of .env
-2. **No rate limiting** - APIs can be spammed
-3. **Missing auth checks** - Routes accessible without login
-4. **SQL injection** - Raw SQL with user input
-5. **XSS attacks** - Unescaped user content displayed
-
-See [COMMON-VULNS.md](COMMON-VULNS.md) for how to check.
-
----
-
-## Security Prompts for AI
-
-**Adding authentication:**
-```
-Add authentication to this route.
-Require valid JWT token.
-Return 401 if missing/invalid.
-Don't expose error details.
-```
-
-**Rate limiting:**
-```
-Add rate limiting:
-- 100 requests/minute per IP
-- Return 429 "Too many requests" if exceeded
-- Use sliding window, not fixed
-```
-
-**Input validation:**
-```
-Validate all user inputs:
-- Email: valid format
-- Password: 8+ chars, 1 number, 1 symbol
-- Username: alphanumeric only, 3-20 chars
-Reject invalid input with clear error message
-```
-
-See [SECURITY-PROMPTS.md](SECURITY-PROMPTS.md) for more.
-
----
-
-## Pre-Launch Security Review
-
-**Before deploying:**
-
-```
-Production Security:
-- [ ] All secrets in environment variables
-- [ ] HTTPS enforced (no HTTP)
-- [ ] Database backups configured
-- [ ] Rate limiting on all APIs
-- [ ] Error pages don't show stack traces
-- [ ] Admin routes protected
-- [ ] File uploads validated (type, size)
-- [ ] CORS configured (not wildcard "*")
-```
-
----
-
-## When to Get Security Audit
-
-**Signs you need expert review:**
-- Handling payments directly (not Stripe)
-- Storing health/financial data
-- Multi-tenant with data isolation
-- Over 1,000 users
-- Processing sensitive PII
-
-**For most MVPs:** Following this checklist is sufficient.
-
----
-
-## Common Founder Mistakes
-
-| Mistake | Fix |
-|---------|-----|
-| API keys in code | Move to .env |
-| No rate limiting | Add to all endpoints |
-| Plain text passwords | Use bcrypt |
-| HTTP in production | Force HTTPS |
-| Accepting all CORS | Whitelist domains |
-| No input validation | Validate server-side |
-| Detailed error messages | Generic messages only |
-
----
-
-## Quick Wins
-
-**Easy security improvements:**
-
-1. Add Helmet.js (Node) - Sets security headers
-2. Use HTTPS everywhere - Force in production
-3. Add rate limiting - Prevents abuse
-4. Environment variables - Keep secrets safe
-5. Update dependencies - Fix known vulnerabilities
-
-**Tell AI:**
-```
-Add helmet.js for security headers.
-Configure for production (HTTPS, CSP, XSS protection).
-```
-
----
-
-## Testing Security
-
-**Quick checks:**
-
-**Exposed secrets:**
-```bash
-grep -r "api_key" src/
-grep -r "password" src/
-# Should only find references to env vars
-```
-
-**No auth bypass:**
-- Try accessing protected routes without login
-- Should redirect to login or return 401
-
-**Rate limiting works:**
-- Hit API endpoint 100 times quickly
-- Should get 429 error
-
----
-
-## Success Looks Like
-
-✅ No secrets in code (all in .env)  
-✅ Can't access protected routes without auth  
-✅ Passwords hashed, never stored plain text  
-✅ Rate limiting prevents abuse  
-✅ HTTPS enforced in production  
-✅ Input validated on server side
+**During Review:**
+- Verify input validation at all trust boundaries
+- Check authorization is enforced server-side, not just UI
+- Confirm secrets aren't hardcoded or logged
+- Validate error messages don't leak information
+- Check for OWASP Top 10 vulnerabilities

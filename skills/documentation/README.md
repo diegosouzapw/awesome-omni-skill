@@ -1,6 +1,6 @@
 # 📂 documentation
 
-> 169 skills in this category
+> 172 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -8,6 +8,11 @@
 | [algodocs-automation](algodocs-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Algodocs tasks via Rube MCP (Composio). Always search tools first for c… |
 | [docsumo-automation](docsumo-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Docsumo tasks via Rube MCP (Composio). Always search tools first for cu… |
 | [changelog-generator](changelog-generator/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automatically creates user-facing changelogs from git commits by analyzing commi… |
+| [wiki-architect](wiki-architect/) | sickn33 | ★ 16.9k | 95% | L3 | Analyzes code repositories and generates hierarchical documentation structures w… |
+| [wiki-onboarding](wiki-onboarding/) | sickn33 | ★ 16.9k | 95% | L3 | Generates two complementary onboarding guides \u2014 a Principal-Level architect… |
+| [wiki-page-writer](wiki-page-writer/) | sickn33 | ★ 16.9k | 95% | L3 | Generates rich technical documentation pages with dark-mode Mermaid diagrams, so… |
+| [wiki-changelog](wiki-changelog/) | sickn33 | ★ 16.9k | 82% | L2 | Analyzes git commit history and generates structured changelogs categorized by c… |
+| [wiki-qa](wiki-qa/) | sickn33 | ★ 16.9k | 82% | L2 | Answers questions about a code repository using source file analysis. Use when t… |
 | [protocol-reverse-engineering](protocol-reverse-engineering/) | sickn33 | ★ 16.7k | 82% | L2 | Master network protocol reverse engineering including packet analysis, protocol … |
 | [api-documentation](api-documentation/) | sickn33 | ★ 16.7k | 95% | L2 | API documentation workflow for generating OpenAPI specs, creating developer guid… |
 | [documentation-templates](documentation-templates/) | sickn33 | ★ 16.7k | 95% | L3 | Documentation templates and structure guidelines. README, API docs, code comment… |
@@ -106,6 +111,7 @@
 | [code-documenter](code-documenter/) | majiayu000 | ★ 0 | 48% | L3 | Use when adding docstrings, creating API documentation, or building documentatio… |
 | [code-documenter](code-documenter/) | Coffelix2023 | ★ 0 | 48% | L3 | Use when adding docstrings, creating API documentation, or building documentatio… |
 | [code-documenter](code-documenter/) | cyberwolf888 | ★ 0 | 48% | L3 | Use when adding docstrings, creating API documentation, or building documentatio… |
+| [pitchdocs-suite](pitchdocs-suite/) | littlebearapps | ★ 0 | 48% | L3 | One-command generation and audit of the full public repository documentation set… |
 | [code-documenter](code-documenter/) | NeverSight | ★ 0 | 48% | L3 | Use when adding docstrings, creating API documentation, or building documentatio… |
 | [skill-creator](skill-creator/) | co-labs-co | ★ 0 | 48% | L3 | Guide for creating effective skills. This skill should be used when users want t… |
 | [developer-guidelines](developer-guidelines/) | MatrixFounder | ★ 0 | 48% | L3 | Guidelines for the Developer role: strict adherence, no unsolicited refactoring,… |
@@ -121,6 +127,9 @@
 | [API Documentation Lookup](api-documentation-lookup/) | majiayu000 | ★ 0 | 48% | L3 | This skill should be used when the user asks to "look up Effect API", "check the… |
 | [docs-verify](docs-verify/) | littlebearapps | ★ 0 | 48% | L3 | Validates documentation quality and freshness — checks for broken links, stale c… |
 | [markdown-mdx](markdown-mdx/) | a5c-ai | ★ 0 | 48% | L3 | Advanced Markdown and MDX processing for technical documentation. Parse, validat… |
+| [readme-generator](readme-generator/) | openclaw | ★ 0 | 48% | L3 | Generate a production-quality README.md by analyzing project structure, framewor… |
+| [smart-pr-docs](smart-pr-docs/) | sufianmypa1203-oss | ★ 0 | 48% | L3 | Intelligent PR documentation generator that analyzes code changes, tracks ripple… |
+| [code-documenter](code-documenter/) | zebbern | ★ 0 | 48% | L3 | Use when adding docstrings, creating API documentation, or building documentatio… |
 | [implementer](implementer/) | majiayu000 | ★ 0 | 47% | L3 | Execute feature tasks one by one with live documentation and context logging. Tr… |
 | [fix-markdown](fix-markdown/) | majiayu000 | ★ 0 | 45% | L2 | **`GOAL`**: use prettier and vale to fix lint, formatting, and prose issues in m… |
 | [thoroughness](thoroughness/) | majiayu000 | ★ 0 | 45% | L3 | Use when implementing complex multi-step tasks, fixing critical bugs, or when qu… |
@@ -148,7 +157,6 @@
 | [maintain-dev-docs](maintain-dev-docs/) | illogical | ★ 0 | 45% | L3 | Maintain project /docs/: specs, tasks, features, readme. Use for: project setup,… |
 | [maintain-dev-docs](maintain-dev-docs/) | majiayu000 | ★ 0 | 45% | L3 | Maintain project /docs/: specs, tasks, features, readme. Use for: project setup,… |
 | [analyze-project](analyze-project/) | brobertsaz | ★ 0 | 45% | L3 | Analyze a project's codebase and documentation to generate coding standards, arc… |
-| [pitchdocs-suite](pitchdocs-suite/) | littlebearapps | ★ 0 | 45% | L3 | One-command generation and audit of the full public repository documentation set… |
 | [analyze-project](analyze-project/) | majiayu000 | ★ 0 | 45% | L3 | Analyze a project's codebase and documentation to generate coding standards, arc… |
 | [analyze-project](analyze-project/) | majiayu000 | ★ 0 | 45% | L3 | Analyze a project's codebase and documentation to generate coding standards, arc… |
 | [spec_driven_development.constitution](spec_driven_development.constitution/) | majiayu000 | ★ 0 | 45% | L3 | Creates foundational governance principles and development guidelines for the pr… |
@@ -168,11 +176,6 @@
 | [ln-120-reference-docs-creator](ln-120-reference-docs-creator/) | majiayu000 | ★ 0 | 45% | L3 | Creates reference documentation structure + smart documents (ADRs/Guides/Manuals… |
 | [write-docs](write-docs/) | PrefectHQ | ★ 0 | 45% | L3 | Comprehensive guide for writing and updating Prefect documentation. Use when cre… |
 | [write-docs](write-docs/) | Finimo-Solutions | ★ 0 | 45% | L3 | Comprehensive guide for writing and updating Prefect documentation. Use when cre… |
-| [changelog](changelog/) | NeverSight | ★ 0 | 45% | L2 | Write changelog entries for Hugging Face Hub features. Use when asked to write a… |
-| [changelog](changelog/) | gary149 | ★ 0 | 45% | L2 | Write changelog entries for Hugging Face Hub features. Use when asked to write a… |
-| [shipping-methodology](shipping-methodology/) | elb-pr | ★ 0 | 45% | L3 | Use when running claudikins-kernel:ship, preparing PRs, writing changelogs, deci… |
-| [review-docs](review-docs/) | lumberbarons | ★ 0 | 45% | L3 | Review documentation (README.md and CLAUDE.md) for quality, completeness, and co… |
-| [skill-creation-best-practice](skill-creation-best-practice/) | madogiwa0124 | ★ 0 | 45% | L3 | Provides guidelines and best practices for creating and improving new skills for… |
 
 ---
 

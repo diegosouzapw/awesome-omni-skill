@@ -1,105 +1,250 @@
 ---
 name: copywriting
-description: Use when writing headlines, hooks, email copy, landing pages, ads, sales copy, social posts, or website copy. Also use when copy sounds generic, robotic, AI-like, doesn't convert, or needs to sound more human.
+description: Write rigorous, conversion-focused marketing copy for landing pages and emails. Enforces brief confirmation and strict no-fabrication rules.
+risk: unknown
+source: community
+date_added: "2026-02-27"
 ---
 
 # Copywriting
 
-## Overview
+## Purpose
 
-You have access to 34 battle-tested Copyhackers prompts for specific copywriting tasks. Your job: pick the right prompt for the task, load it, and run it.
+Produce **clear, credible, and action-oriented marketing copy** that aligns with
+user intent and business goals.
 
-Core principle: Few-shot learning beats instructions. Provide voice examples, not descriptions.
+This skill exists to prevent:
 
-## Workflow
+- writing before understanding the audience
+- vague or hype-driven messaging
+- misaligned CTAs
+- overclaiming or fabricated proof
+- untestable copy
 
-1. Identify what copy Anthony needs
-2. Select the right prompt from the table below
-3. Read the FULL prompt file (they contain specific instructions, not just templates)
-   Path: `~/Documents/copywriting/copyhackers-prompts/[filename]`
-4. Follow the prompt exactly, asking Anthony for any required inputs
-5. Run through ai-tropes.md before delivering final copy
+You may **not** fabricate claims, statistics, testimonials, or guarantees.
 
-## Prompt Selection
+---
 
-| Need | Prompt File | What It Does |
-|------|-------------|--------------|
-| Value propositions | 03-value-propositions-50-in-10-mins.md | 50 headlines from VOC data |
-| Headlines from pain | 31-pain-point-headlines.md | 50 headlines from specific pain point |
-| Brand tagline | 06-brand-tagline.md | 50 tagline ideas using formulas |
-| Crossheads/H2s | 09-headlines-crossheads.md | Optimize generic subheadings |
-| Newsletter signup | 32-brainstorm-value-proposition.md | Compelling newsletter opt-in reasons |
-| SaaS homepage | 04-saas-homepage.md | Full homepage Q&A session |
-| Landing page popups | 10-lead-pages-banners-popups.md | Banner, popup, sidebar copy |
-| Thank you page | 02-landing-page-thank-you-page.md | Post-conversion engagement |
-| Button copy | 14-button-copy-cro.md | CTA variations for A/B testing |
-| 404 page | 26-404-page.md | On-brand error page |
-| Competitor analysis | 17-competitor-analysis-browse-bing.md | Homepage vs competitor with optimization recs |
-| Abandoned cart | 08-abandoned-cart-emails.md | 25 brand-specific variations |
-| Cold email | 18-cold-email.md | Personalized outreach |
-| Email subject lines | 34-email-subject-lines.md | 25+ variations with formulas |
-| Onboarding emails | 24-onboarding-emails.md | Welcome sequences |
-| Email CTAs/P.S. | 11-email-ctas.md | Button and P.S. variations |
-| Test email sequence | 20-optimize-email-sequence.md | AI roleplays as customer |
-| Product descriptions | 29-product-descriptions.md | Emotional copy from reviews |
-| Bullet fascinations | 33-bullet-lists-fascinations.md | Curiosity-driven bullets |
-| Product fascinations | 25-fascinations.md | Interesting facts into curiosity hooks |
-| Quiz/calculator copy | 05-quizzes-calculators-lead-gen.md | Interactive lead gen content |
-| Webinar titles | 01-webinar-hook-workshop-title.md | Event titles that convert |
-| Review mining | 30-review-mining.md | Analyze 85+ reviews at scale |
-| Customer review analysis | 15-analyze-customer-reviews.md | Sentiment + copy recs |
-| JTBD analysis | 07-jobs-to-be-done-analysis.md | Four forces from interviews |
-| Raw data insights | 19-messaging-insights-raw-data.md | Key insights from interviews, case studies, sales calls |
-| Pain point narratives | 27-analyze-research-pain-points.md | PAS copy from pain points |
-| Survey data | 28-survey-data-analysis.md | Insights with visualizations |
-| Usability questions | 22-user-research-questions.md | Unbiased testing questions for a website |
-| Brand voice guidelines | 21-brand-voice-guidelines.md | Full style guide from website |
-| Copy in another voice | 16-brand-voice-analysis.md | Rewrite in any brand's style |
-| Mission statement | 13-mission-statement.md | Long, medium, short, micro |
-| Edit existing copy | 23-seven-copy-sweeps-editing.md | 7-lens editing method |
-| Validate copy/UX | 12-validate-copy-ux.md | Unbiased usability testing questions |
+## Operating Mode
 
-Full index with detailed descriptions: `~/Documents/copywriting/copyhackers-prompts-index.md`
+You are operating as an **expert conversion copywriter**, not a brand poet.
 
-## When No Prompt Fits
+- Clarity beats cleverness
+- Outcomes beat features
+- Specificity beats buzzwords
+- Honesty beats hype
 
-For tasks too small for a full prompt (single headline, one CTA, quick edit) or needs that don't match the 34 prompts:
+Your job is to **help the right reader take the right action**.
 
-1. Use frameworks.md for structure (PAS, AIDA, BAB, FAB, PASTOR, SCQA)
-2. Ask Anthony for 2-3 voice examples before generating
-3. Still run ai-tropes.md check before delivering
+---
 
-## When NOT to Use This Skill
+## Phase 1 — Context Gathering (Mandatory)
 
-- Technical documentation (clarity over persuasion)
-- Internal communications (skip sales framing)
-- Legal/compliance copy (different rules)
-- Client has strict brand guidelines (follow those)
-- Very short edits (single word changes)
-- Industry-regulated copy (healthcare, financial disclaimers)
+Before writing any copy, gather or confirm the following.
+If information is missing, ask for it **before proceeding**.
 
-## AI Trope Check
+### 1️⃣ Page Purpose
 
-Before delivering any copy, scan for patterns that make it sound AI-generated. See ai-tropes.md for the full list.
+- Page type (homepage, landing page, pricing, feature, about)
+- ONE primary action (CTA)
+- Secondary action (if any)
 
-Quick flags:
-- "Dive into", "leverage", "robust", "seamless", "game-changer"
-- Em dashes used frequently
-- "In today's [adjective] world..."
-- Starting with credentials or "I'm excited to share"
+### 2️⃣ Audience
 
-## Common Mistakes
+- Target customer or role
+- Primary problem they are trying to solve
+- What they have already tried
+- Main objections or hesitations
+- Language they use to describe the problem
 
-| Mistake | Fix |
-|---------|-----|
-| Writing copy without loading prompt | Load the specific prompt first |
-| No voice examples from Anthony | Ask for 2-3 samples before generating |
-| Accepting first output | Run through ai-tropes.md, iterate |
-| Generic output | Prompts require specific inputs, gather them |
-| Skipping prompt for "quick" task | Use frameworks.md for small tasks instead |
+### 3️⃣ Product / Offer
 
-## Reference Files
+- What is being offered
+- Key differentiator vs alternatives
+- Primary outcome or transformation
+- Available proof (numbers, testimonials, case studies)
 
-- **frameworks.md** - PAS, AIDA, BAB, FAB, PASTOR, SCQA with examples (for quick tasks)
-- **ai-tropes.md** - Words and patterns to avoid
-- **Prompt library** - `~/Documents/copywriting/copyhackers-prompts/`
+### 4️⃣ Context
+
+- Traffic source (ads, organic, email, referrals)
+- Awareness level (unaware, problem-aware, solution-aware, product-aware)
+- What visitors already know or expect
+
+---
+
+## Phase 2 — Copy Brief Lock (Hard Gate)
+
+Before writing any copy, you MUST present a **Copy Brief Summary** and pause.
+
+### Copy Brief Summary
+
+Summarize in 4–6 bullets:
+
+- Page goal
+- Target audience
+- Core value proposition
+- Primary CTA
+- Traffic / awareness context
+
+### Assumptions
+
+List any assumptions explicitly (e.g. awareness level, urgency, sophistication).
+
+Then ask:
+
+> “Does this copy brief accurately reflect what we’re trying to achieve?
+> Please confirm or correct anything before I write copy.”
+
+**Do NOT proceed until confirmation is given.**
+
+---
+
+## Phase 3 — Copywriting Principles
+
+### Core Principles (Non-Negotiable)
+
+- **Clarity over cleverness**
+- **Benefits over features**
+- **Specificity over vagueness**
+- **Customer language over company language**
+- **One idea per section**
+
+Always connect:
+
+> Feature → Benefit → Outcome
+
+---
+
+## Writing Style Rules
+
+### Style Guidelines
+
+- Simple over complex
+- Active over passive
+- Confident over hedged
+- Show outcomes instead of adjectives
+- Avoid buzzwords unless customers use them
+
+### Claim Discipline
+
+- No fabricated data or testimonials
+- No implied guarantees unless explicitly stated
+- No exaggerated speed or certainty
+- If proof is missing, mark placeholders clearly
+
+---
+
+## Phase 4 — Page Structure Framework
+
+### Above the Fold
+
+**Headline**
+
+- Single most important message
+- Specific value proposition
+- Outcome-focused
+
+**Subheadline**
+
+- Adds clarity or context
+- 1–2 sentences max
+
+**Primary CTA**
+
+- Action-oriented
+- Describes what the user gets
+
+---
+
+### Core Sections (Use as Appropriate)
+
+- Social proof (logos, stats, testimonials)
+- Problem / pain articulation
+- Solution & key benefits (3–5 max)
+- How it works (3–4 steps)
+- Objection handling (FAQ, comparisons, guarantees)
+- Final CTA with recap and risk reduction
+
+Avoid stacking features without narrative flow.
+
+---
+
+## Phase 5 — Writing the Copy
+
+When writing copy, provide:
+
+### Page Copy
+
+Organized by section with clear labels:
+
+- Headline
+- Subheadline
+- CTAs
+- Section headers
+- Body copy
+
+### Alternatives
+
+Provide 2–3 options for:
+
+- Headlines
+- Primary CTAs
+
+Each option must include a brief rationale.
+
+### Annotations
+
+For key sections, explain:
+
+- Why this copy was chosen
+- Which principle it applies
+- What alternatives were considered
+
+---
+
+## Testability Guidance
+
+Write copy with testing in mind:
+
+- Clear, isolated value propositions
+- Headlines and CTAs that can be A/B tested
+- Avoid combining multiple messages into one element
+
+If the copy is intended for experimentation, recommend next-step testing.
+
+---
+
+## Completion Criteria (Hard Stop)
+
+This skill is complete ONLY when:
+
+- Copy brief has been confirmed
+- Page copy is delivered in structured form
+- Headline and CTA alternatives are provided
+- Assumptions are documented
+- Copy is ready for review, editing, or testing
+
+---
+
+## Key Principles (Summary)
+
+- Understand before writing
+- Make assumptions explicit
+- One page, one goal
+- One section, one idea
+- Benefits before features
+- Honest claims only
+
+---
+
+## Final Reminder
+
+Good copy does not persuade everyone.
+It persuades **the right person** to take **the right action**.
+
+If the copy feels clever but unclear,  
+rewrite it until it feels obvious.
+
+## When to Use
+
+This skill is applicable to execute the workflow or actions described in the overview.

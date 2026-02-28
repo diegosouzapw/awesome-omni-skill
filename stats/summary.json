@@ -1,23 +1,23 @@
 {
-  "total_skills": 10100,
+  "total_skills": 10000,
   "categories": {
-    "development": 3745,
-    "tools": 1614,
-    "data-ai": 1267,
-    "devops": 737,
-    "testing-security": 500,
-    "design": 385,
-    "backend": 373,
-    "ai-agents": 358,
-    "cli-automation": 252,
-    "business": 180,
-    "documentation": 169,
-    "product": 150,
-    "content-media": 125,
-    "frontend": 118,
-    "fullstack-web": 64,
+    "development": 3617,
+    "tools": 1582,
+    "data-ai": 1231,
+    "devops": 730,
+    "testing-security": 505,
+    "backend": 413,
+    "design": 386,
+    "ai-agents": 368,
+    "cli-automation": 268,
+    "business": 181,
+    "documentation": 172,
+    "product": 151,
+    "frontend": 133,
+    "content-media": 128,
+    "fullstack-web": 70,
     "machine-learning": 33,
-    "communication": 29,
+    "communication": 31,
     "uncategorized": 1
   },
   "top_repos": [
@@ -43,7 +43,7 @@
     },
     {
       "repo": "sickn33/antigravity-awesome-skills",
-      "count": 1441,
+      "count": 1517,
       "stars": 15374
     },
     {
@@ -63,12 +63,12 @@
     },
     {
       "repo": "majiayu000/claude-skill-registry",
-      "count": 1709,
+      "count": 1732,
       "stars": 0
     },
     {
       "repo": "majiayu000/claude-skill-registry-data",
-      "count": 2523,
+      "count": 2496,
       "stars": 0
     },
     {
@@ -83,7 +83,7 @@
     },
     {
       "repo": "Finimo-Solutions/research",
-      "count": 23,
+      "count": 24,
       "stars": 0
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "repo": "NeverSight/skills_feed",
-      "count": 307,
+      "count": 304,
       "stars": 0
     },
     {
@@ -122,6 +122,6 @@
       "stars": 0
     }
   ],
-  "last_sync_at": "2026-02-28T06:13:08.405Z",
+  "last_sync_at": "2026-02-28T12:11:29.623Z",
   "sync_mode": "incremental"
 }

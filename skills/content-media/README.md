@@ -1,6 +1,6 @@
 # 📂 content-media
 
-> 125 skills in this category
+> 128 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -14,6 +14,10 @@
 | [Facebook Automation](facebook-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Facebook Page management including post creation, scheduling, video upl… |
 | [content-research-writer](content-research-writer/) | ComposioHQ | ★ 37.3k | 95% | L2 | Assists in writing high-quality content by conducting research, adding citations… |
 | [image-enhancer](image-enhancer/) | ComposioHQ | ★ 37.3k | 95% | L2 | Improves the quality of images, especially screenshots, by enhancing resolution,… |
+| [videodb-skills](videodb-skills/) | sickn33 | ★ 16.9k | 95% | L3 | Upload, stream, search, edit, transcribe, and generate AI video and audio using … |
+| [youtube-automation](youtube-automation/) | sickn33 | ★ 16.9k | 95% | L2 | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists,… |
+| [youtube-summarizer](youtube-summarizer/) | sickn33 | ★ 16.9k | 95% | L3 | Extract transcripts from YouTube videos and generate comprehensive, detailed sum… |
+| [game-audio](game-audio/) | sickn33 | ★ 16.9k | 91% | L2 | Game audio principles. Sound design, music integration, adaptive audio systems. |
 | [tiktok-automation](tiktok-automation/) | sickn33 | ★ 16.8k | 95% | L2 | Automate TikTok tasks via Rube MCP (Composio): upload/publish videos, post photo… |
 | [paid-ads](paid-ads/) | sickn33 | ★ 16.7k | 95% | L2 | When the user wants help with paid advertising campaigns on Google Ads, Meta (Fa… |
 | [pptx-official](pptx-official/) | sickn33 | ★ 16.7k | 95% | L3 | Presentation creation, editing, and analysis. When Claude needs to work with pre… |
@@ -103,6 +107,8 @@
 | [whisper-transcription](whisper-transcription/) | majiayu000 | ★ 0 | 48% | L3 | Transcribe audio and video files to text using OpenAI Whisper. Use when: convert… |
 | [whisper-transcription](whisper-transcription/) | guia-matthieu | ★ 0 | 48% | L3 | Transcribe audio and video files to text using OpenAI Whisper. Use when: convert… |
 | [SkipClass](skipclass/) | HoweChen0517 | ★ 0 | 48% | L3 | This skill should be used when the user asks to "convert lecture recordings into… |
+| [ffmpeg](ffmpeg/) | majiayu000 | ★ 0 | 48% | L3 | Guide for using FFmpeg - a comprehensive multimedia framework for video/audio en… |
+| [payload-cms](payload-cms/) | RepairYourTech | ★ 0 | 48% | L3 | Build content management systems with Payload CMS including collections, globals… |
 | [Tech Debt Triage](tech-debt-triage/) | cdalsoniii | ★ 0 | 46% | L2 | Score, prioritize, and plan technical debt remediation |
 | [instagram-social-media](instagram-social-media/) | rafaelramosdf | ★ 0 | 45% | L3 | Atua como um especialista em social media para Instagram, criando conteúdos alta… |
 | [publish](publish/) | majiayu000 | ★ 0 | 45% | L2 | Draft email and tweet for a new blog post. Reads the latest post from campederse… |
@@ -126,9 +132,6 @@
 | [medium-posts-creator](medium-posts-creator/) | majiayu000 | ★ 0 | 45% | L2 | Transform arbitrary text into well-structured Medium article drafts following a … |
 | [xiaohongshu-publisher](xiaohongshu-publisher/) | openclaw | ★ 0 | 45% | L3 | Draft and publish posts to 小红书 (Xiaohongshu/RED). Use when creating content for … |
 | [nanobanana-image](nanobanana-image/) | inoue2002 | ★ 0 | 45% | L3 | Nano Banana (Google Gemini API) を使って画像を生成・編集するスキル。「画像を生成して」「イラストを作って」「○○の絵を描いて」「… |
-| [seedream-image-generator](seedream-image-generator/) | majiayu000 | ★ 0 | 45% | L3 | Generate images using the Doubao SeeDream API based on text prompts. Use this sk… |
-| [seedream-image-generator](seedream-image-generator/) | eze-is | ★ 0 | 45% | L3 | Generate images using the Doubao SeeDream API based on text prompts. Use this sk… |
-| [seedream-image-generator](seedream-image-generator/) | majiayu000 | ★ 0 | 45% | L3 | Generate images using the Doubao SeeDream API based on text prompts. Use this sk… |
 
 ---
 

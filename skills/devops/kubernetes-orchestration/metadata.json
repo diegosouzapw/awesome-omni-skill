@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/design/kubernetes-orchestration-manutej-luxor-claude-marketp/SKILL.md",
+  "file_path": "skills/design/kubernetes-orchestration/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "8698db65a14efda7c91db69acf4a5f417599954243f52cade2ef459cb7b47513",
-  "indexed_at": "2026-02-26T05:56:36.673Z",
-  "synced_at": "2026-02-28T04:09:15.574Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cd325e6c0f85903cce87888eb0723dd8d32b8a5f1bc55c1c5d579be5817dfef1",
-  "install_command": "mkdir -p .claude/skills/kubernetes-orchestration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/kubernetes-orchestration-manutej-luxor-claude-marketp/SKILL.md\" > .claude/skills/kubernetes-orchestration/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/kubernetes-orchestration-manutej-luxor-claude-marketp/SKILL.md"
+  "content_hash": "e0ac2b17852012081011ad8c216b07c23f122fcff39bd9c17fe6132f3d748dab",
+  "indexed_at": "2026-02-28T10:54:41.813Z",
+  "synced_at": "2026-02-28T12:11:24.368Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/133582a87ae117bac108dd5e6eeaedfc6724a7ec72c3602b8bc20a48d9b624d9",
+  "install_command": "mkdir -p .claude/skills/kubernetes-orchestration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/kubernetes-orchestration/SKILL.md\" > .claude/skills/kubernetes-orchestration/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/kubernetes-orchestration/SKILL.md"
 }

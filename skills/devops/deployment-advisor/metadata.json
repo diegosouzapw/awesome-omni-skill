@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/devops/deployment-advisor-daffy0208-ai-dev-standards/SKILL.md",
+  "file_path": "skills/data/deployment-advisor/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "89321c6e66e67c7ad1caeb4fccb60a1b2bbb46228491c7f41f4be859624e745b",
-  "indexed_at": "2026-02-27T11:56:18.421Z",
-  "synced_at": "2026-02-28T04:09:28.238Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/70f05da0524814effe7c2c2ce1e8ebff8548677c0635abd7b21e4918b98b777d",
-  "install_command": "mkdir -p .claude/skills/deployment-advisor && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/deployment-advisor-daffy0208-ai-dev-standards/SKILL.md\" > .claude/skills/deployment-advisor/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/deployment-advisor-daffy0208-ai-dev-standards/SKILL.md"
+  "content_hash": "7056934d1435f50fe8412c9c7c30e4d2cd217fab0f11e838abb67455757d51a5",
+  "indexed_at": "2026-02-28T10:49:53.640Z",
+  "synced_at": "2026-02-28T12:11:24.224Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/61575e113ca7135f3ccd243f6b8a1bfc07ce1b2c183a033d7e5b26ce1989d6fb",
+  "install_command": "mkdir -p .claude/skills/deployment-advisor && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/deployment-advisor/SKILL.md\" > .claude/skills/deployment-advisor/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/deployment-advisor/SKILL.md"
 }

@@ -1,6 +1,6 @@
 # 📂 cli-automation
 
-> 252 skills in this category
+> 268 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -11,6 +11,18 @@
 | [Apollo Automation](apollo-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Apollo.io lead generation -- search organizations, discover contacts, e… |
 | [Attio Automation](attio-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Attio CRM operations -- search records, query contacts and companies wi… |
 | [Gong Automation](gong-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Gong conversation intelligence -- retrieve call recordings, transcripts… |
+| [using-git-worktrees](using-git-worktrees/) | sickn33 | ★ 16.9k | 95% | L3 | Use when starting feature work that needs isolation from current workspace or be… |
+| [vercel-automation](vercel-automation/) | sickn33 | ★ 16.9k | 95% | L2 | Automate Vercel tasks via Rube MCP (Composio): manage deployments, domains, DNS,… |
+| [wrike-automation](wrike-automation/) | sickn33 | ★ 16.9k | 95% | L2 | Automate Wrike project management via Rube MCP (Composio): create tasks/folders,… |
+| [zendesk-automation](zendesk-automation/) | sickn33 | ★ 16.9k | 95% | L2 | Automate Zendesk tasks via Rube MCP (Composio): tickets, users, organizations, r… |
+| [zoom-automation](zoom-automation/) | sickn33 | ★ 16.9k | 95% | L2 | Automate Zoom meeting creation, management, recordings, webinars, and participan… |
+| [calc](calc/) | sickn33 | ★ 16.9k | 95% | L3 | Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automatio… |
+| [draw](draw/) | sickn33 | ★ 16.9k | 95% | L3 | Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with Libre… |
+| [impress](impress/) | sickn33 | ★ 16.9k | 95% | L3 | Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with L… |
+| [writer](writer/) | sickn33 | ★ 16.9k | 95% | L3 | Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation … |
+| [workflow-automation](workflow-automation/) | sickn33 | ★ 16.9k | 88% | L2 | Workflow automation is the infrastructure that makes AI agents reliable. Without… |
+| [varlock-claude-skill](varlock-claude-skill/) | sickn33 | ★ 16.9k | 82% | L2 | Secure environment variable management ensuring secrets are never exposed in Cla… |
+| [x-article-publisher-skill](x-article-publisher-skill/) | sickn33 | ★ 16.9k | 69% | L2 | Publish articles to X/Twitter |
 | [square-automation](square-automation/) | sickn33 | ★ 16.8k | 95% | L2 | Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locat… |
 | [stripe-automation](stripe-automation/) | sickn33 | ★ 16.8k | 95% | L2 | Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions… |
 | [telegram-automation](telegram-automation/) | sickn33 | ★ 16.8k | 95% | L2 | Automate Telegram tasks via Rube MCP (Composio): send messages, manage chats, sh… |
@@ -252,6 +264,10 @@
 | [things3](things3/) | GregBParker | ★ 0 | 48% | L3 | This skill should be used when the user asks to "create a task in Things", "add … |
 | [github-multi-repo](github-multi-repo/) | ruvnet | ★ 0 | 48% | L3 | Multi-repository coordination, synchronization, and architecture management with… |
 | [GitOps Patterns](gitops-patterns/) | majiayu000 | ★ 0 | 48% | L3 | ArgoCD ApplicationSets, progressive delivery, Harness GitX, and multi-cluster Gi… |
+| [phoenix-github](phoenix-github/) | Arize-ai | ★ 0 | 48% | L3 | Manage GitHub issues, labels, and project boards for the Arize-ai/phoenix reposi… |
+| [git-workflow](git-workflow/) | dsivov | ★ 0 | 48% | L2 | Use when the Integrator is performing git operations — committing, branching, me… |
+| [windmill](windmill/) | majiayu000 | ★ 0 | 48% | L3 | Developer-first workflow engine that turns scripts into workflows and UIs, suppo… |
+| [shortcut](shortcut/) | decimasudo | ★ 0 | 48% | L3 | Manage stories on Shortcut.com kanban boards. Use when creating, updating, or li… |
 | [domain-cli](domain-cli/) | actionbook | ★ 0 | 47% | L2 | Use when building CLI tools. Keywords: CLI, command line, terminal, clap, struct… |
 | [makefile](makefile/) | pingqLIN | ★ 0 | 47% | L3 | Best practices for authoring GNU Make Makefiles Triggers on: **/Makefile, **/mak… |
 | [power-bi-security-rls-best-practices](power-bi-security-rls-best-practices/) | pingqLIN | ★ 0 | 47% | L2 | Comprehensive Power BI Row-Level Security (RLS) and advanced security patterns i… |

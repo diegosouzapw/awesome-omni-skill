@@ -1,6 +1,6 @@
 # 📂 testing-security
 
-> 500 skills in this category
+> 505 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -11,6 +11,13 @@
 | [onesignal-user-auth-automation](onesignal-user-auth-automation/) | ComposioHQ | ★ 37.7k | 95% | L2 | Automate Onesignal User Auth tasks via Rube MCP (Composio). Always search tools … |
 | [hypeauditor-automation](hypeauditor-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Hypeauditor tasks via Rube MCP (Composio). Always search tools first fo… |
 | [auth0-automation](auth0-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Auth0 tasks via Rube MCP (Composio). Always search tools first for curr… |
+| [web-security-testing](web-security-testing/) | sickn33 | ★ 16.9k | 95% | L2 | Web application security testing workflow for OWASP Top 10 vulnerabilities inclu… |
+| [web3-testing](web3-testing/) | sickn33 | ★ 16.9k | 95% | L3 | Test smart contracts comprehensively using Hardhat and Foundry with unit tests, … |
+| [aws-security-audit](aws-security-audit/) | sickn33 | ★ 16.9k | 95% | L3 | Comprehensive AWS security posture assessment using AWS CLI and security best pr… |
+| [aws-compliance-checker](aws-compliance-checker/) | sickn33 | ★ 16.9k | 91% | L3 | Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks |
+| [aws-iam-best-practices](aws-iam-best-practices/) | sickn33 | ★ 16.9k | 91% | L3 | IAM policy review, hardening, and least privilege implementation |
+| [aws-secrets-rotation](aws-secrets-rotation/) | sickn33 | ★ 16.9k | 91% | L3 | Automate AWS secrets rotation for RDS, API keys, and credentials |
+| [wcag-audit-patterns](wcag-audit-patterns/) | sickn33 | ★ 16.9k | 88% | L2 | Conduct WCAG 2.2 accessibility audits with automated testing, manual verificatio… |
 | [ssh-penetration-testing](ssh-penetration-testing/) | sickn33 | ★ 16.8k | 95% | L3 | This skill should be used when the user asks to \"pentest SSH services\", \"enum… |
 | [temporal-python-testing](temporal-python-testing/) | sickn33 | ★ 16.8k | 95% | L3 | Test Temporal workflows with pytest, time-skipping, and mocking strategies. Cove… |
 | [test-fixing](test-fixing/) | sickn33 | ★ 16.8k | 95% | L3 | Run tests and systematically fix all failing tests using smart error grouping. U… |
@@ -305,6 +312,17 @@
 | [fagan-code-review](fagan-code-review/) | nikolasrieble | ★ 0 | 48% | L3 | Systematic code inspection methodology for finding errors through structured tea… |
 | [israeli-corporate-law](israeli-corporate-law/) | NeverSight | ★ 0 | 48% | L2 | Israeli corporate law & compliance assistant for Israel-related matters (Compani… |
 | [cursor-best-practices](cursor-best-practices/) | majiayu000 | ★ 0 | 48% | L3 | Best practices for using Cursor—rules, commands, skills, subagents, ignore files… |
+| [redis-security](redis-security/) | majiayu000 | ★ 0 | 48% | L3 | Master Redis security - authentication, ACL, TLS encryption, network hardening, … |
+| [security](security/) | majiayu000 | ★ 0 | 48% | L2 | Use this skill when designing or reviewing systems where security is a concern -… |
+| [security-audit-scanner](security-audit-scanner/) | majiayu000 | ★ 0 | 48% | L3 | Automated security scanning for Vigil Guard v2.0.0. Use for OWASP Top 10 checks,… |
+| [typo3-security](typo3-security/) | majiayu000 | ★ 0 | 48% | L3 | Security hardening checklist and best practices for TYPO3 v13/v14 installations,… |
+| [Security Engineer](security-engineer/) | majiayu000 | ★ 0 | 48% | L3 | Implement security best practices across the application stack. Use when securin… |
+| [mesh-security](mesh-security/) | majiayu000 | ★ 0 | 48% | L3 | Analyze Istio, Consul, and Linkerd service mesh configurations for security vuln… |
+| [better-auth](better-auth/) | majiayu000 | ★ 0 | 48% | L3 | Add authentication with Better Auth (TypeScript). Use for email/password, OAuth … |
+| [better_auth](better_auth/) | majiayu000 | ★ 0 | 48% | L3 | The ultimate authentication and authorization skill. Implement login, signin, si… |
+| [better-auth-v2](better-auth-v2/) | majiayu000 | ★ 0 | 48% | L3 | Production-ready authentication system using Better Auth v2 with latest features… |
+| [testing-strategy-builder](testing-strategy-builder/) | majiayu000 | ★ 0 | 48% | L3 | Use this skill when creating comprehensive testing strategies for applications. … |
+| [uv-deps](uv-deps/) | WhatIfWeDigDeeper | ★ 0 | 48% | L3 | Maintain Python packages through security audits or dependency updates using an … |
 | [Compliance Audit](compliance-audit/) | cdalsoniii | ★ 0 | 46% | L2 | Audit technical controls against compliance framework requirements |
 | [doc-coauthoring](doc-coauthoring/) | rafaelramosdf | ★ 0 | 45% | L2 | Guia os usuários através de um fluxo de trabalho estruturado para coautoria de d… |
 | [cc-data-organization](cc-data-organization/) | majiayu000 | ★ 0 | 45% | L2 | Audit and fix data organization: variable declarations, data types, magic number… |
@@ -491,19 +509,6 @@
 | [information-security-manager-iso27001](information-security-manager-iso27001/) | duclm1x1 | ★ 0 | 45% | L3 | ISO 27001 ISMS implementation and cybersecurity governance for HealthTech and Me… |
 | [information-security-manager-iso27001](information-security-manager-iso27001/) | Nuwanda04 | ★ 0 | 45% | L3 | ISO 27001 ISMS implementation and cybersecurity governance for HealthTech and Me… |
 | [information-security-manager-iso27001](information-security-manager-iso27001/) | majiayu000 | ★ 0 | 45% | L3 | ISO 27001 ISMS implementation and cybersecurity governance for HealthTech and Me… |
-| [browser-test](browser-test/) | majiayu000 | ★ 0 | 45% | L3 | Run comprehensive Playwright browser tests across desktop, tablet, and mobile vi… |
-| [testing](testing/) | rust-works | ★ 0 | 45% | L3 | Testing patterns and anti-patterns for this codebase. Use when writing tests, re… |
-| [e2e-testing](e2e-testing/) | cosmix | ★ 0 | 45% | L3 | End-to-end testing patterns and best practices for web applications using Playwr… |
-| [testing](testing/) | curphey | ★ 0 | 45% | L3 | Test-first development process and test quality review. Use when writing new cod… |
-| [security-review](security-review/) | ayaiayorg | ★ 0 | 45% | L3 | Comprehensive security analysis and vulnerability assessment. Use this when revi… |
-| [testing](testing/) | eron1703 | ★ 0 | 45% | L3 | Access testing configuration and delegate to test-rig tool for test generation a… |
-| [testing-expert](testing-expert/) | shaharKeisarApps | ★ 0 | 45% | L3 | Elite KMP testing expertise covering unit tests, presenter testing with Turbine,… |
-| [e2e-testing](e2e-testing/) | wtah | ★ 0 | 45% | L3 | Guidelines for planning and implementing end-to-end tests using browser automati… |
-| [code-reviewer](code-reviewer/) | chicanoandres702 | ★ 0 | 45% | L3 | Elite code review expert specializing in modern AI-powered code analysis, securi… |
-| [code-reviewer](code-reviewer/) | harshahosur81 | ★ 0 | 45% | L3 | Elite code review expert specializing in modern AI-powered code analysis, securi… |
-| [code-reviewer](code-reviewer/) | tokamak-network | ★ 0 | 45% | L3 | Elite code review expert specializing in modern AI-powered code analysis, securi… |
-| [code-reviewer](code-reviewer/) | imranstein | ★ 0 | 45% | L3 | Elite code review expert specializing in modern AI-powered code analysis, securi… |
-| [code-reviewer](code-reviewer/) | namanprat | ★ 0 | 45% | L3 | Elite code review expert specializing in modern AI-powered code analysis, securi… |
 
 ---
 

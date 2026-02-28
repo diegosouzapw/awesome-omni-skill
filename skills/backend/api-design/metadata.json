@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/yonatangross/orchestkit",
   "author": "yonatangross",
   "author_avatar": "https://github.com/yonatangross.png",
-  "file_path": "plugins/ork/skills/api-design/SKILL.md",
+  "file_path": "plugins/orkl/skills/api-design/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -15,12 +15,12 @@
   "skill_level": 3,
   "skill_level_label": "resources",
   "has_scripts": true,
-  "has_extra_files": true,
+  "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "f413995452f7707c084036da13fd77e80a3dd0d874fc1ff910f018b441d96e5a",
-  "indexed_at": "2026-02-26T05:46:40.540Z",
-  "synced_at": "2026-02-28T04:27:50.316Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/50a78456ad258ff006050c48e13f4842e3c3f9ebf2b094ca6d4269e8f83b556c",
-  "install_command": "mkdir -p .claude/skills/api-design && curl -sL \"https://raw.githubusercontent.com/yonatangross/orchestkit/main/plugins/ork/skills/api-design/SKILL.md\" > .claude/skills/api-design/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/yonatangross/orchestkit/main/plugins/ork/skills/api-design/SKILL.md"
+  "content_hash": "3f944491fde7103b553fd30b085ac7c217ae0caca9d506721b54b24e33d550f8",
+  "indexed_at": "2026-02-28T11:55:23.299Z",
+  "synced_at": "2026-02-28T12:11:23.275Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c2d7b9c893a21f72eb93dc6c0d7b6fa4ccc46126d31eb7dcdfb9c0bf9f3dc68d",
+  "install_command": "mkdir -p .claude/skills/api-design && curl -sL \"https://raw.githubusercontent.com/yonatangross/orchestkit/main/plugins/orkl/skills/api-design/SKILL.md\" > .claude/skills/api-design/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/yonatangross/orchestkit/main/plugins/orkl/skills/api-design/SKILL.md"
 }

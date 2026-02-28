@@ -1,9 +1,15 @@
 # 📂 fullstack-web
 
-> 64 skills in this category
+> 70 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
+| [web-performance-optimization](web-performance-optimization/) | sickn33 | ★ 16.9k | 95% | L3 | Optimize website and web application performance including loading speed, Core W… |
+| [webapp-testing](webapp-testing/) | sickn33 | ★ 16.9k | 95% | L3 | Toolkit for interacting with and testing local web applications using Playwright… |
+| [webflow-automation](webflow-automation/) | sickn33 | ★ 16.9k | 95% | L3 | Automate Webflow CMS collections, site publishing, page management, asset upload… |
+| [whatsapp-automation](whatsapp-automation/) | sickn33 | ★ 16.9k | 95% | L2 | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage … |
+| [mobile-games](mobile-games/) | sickn33 | ★ 16.9k | 95% | L2 | Mobile game development principles. Touch input, battery, performance, app store… |
+| [web-games](web-games/) | sickn33 | ★ 16.9k | 95% | L3 | Web browser game development principles. Framework selection, WebGPU, optimizati… |
 | [stripe-integration](stripe-integration/) | sickn33 | ★ 16.8k | 95% | L3 | Implement Stripe payment processing for robust, PCI-compliant payment flows incl… |
 | [telegram-mini-app](telegram-mini-app/) | sickn33 | ★ 16.8k | 95% | L3 | Expert in building Telegram Mini Apps (TWA) - web apps that run inside Telegram … |
 | [threejs-skills](threejs-skills/) | sickn33 | ★ 16.8k | 95% | L3 | Create 3D scenes, interactive experiences, and visual effects using Three.js. Us… |
@@ -61,13 +67,13 @@
 | [clawpage](clawpage/) | skypher | ★ 0 | 48% | L3 | Extract and structure any web page into clean JSON. Returns text, tables, prices… |
 | [agora-dev-skill](agora-dev-skill/) | jayalbo | ★ 0 | 48% | L3 | Comprehensive assistant for Agora.io developers building real-time engagement ap… |
 | [cloud-app-store](cloud-app-store/) | majiayu000 | ★ 0 | 48% | L3 | Flow Nexus application marketplace and template management. Use for app publishi… |
+| [ck:mobile-development](ck-mobile-development/) | NammDev | ★ 0 | 48% | L2 | Build mobile apps with React Native, Flutter, Swift/SwiftUI, Kotlin/Jetpack Comp… |
 | [fullstack-classic](fullstack-classic/) | twofoldtech-dakota | ★ 0 | 47% | L3 | Apply when working with classic fullstack patterns including jQuery AJAX, form h… |
 | [product-appeal-analyzer](product-appeal-analyzer/) | majiayu000 | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
 | [product-appeal-analyzer](product-appeal-analyzer/) | curiositech | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
 | [product-appeal-analyzer](product-appeal-analyzer/) | NeverSight | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
 | [product-appeal-analyzer](product-appeal-analyzer/) | majiayu000 | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
 | [multi-platform-apps-multi-platform](multi-platform-apps-multi-platform/) | ranbot-ai | ★ 0 | 45% | L3 | Build and deploy the same feature consistently across web, mobile, and desktop p… |
-| [app-builder](app-builder/) | ranbot-ai | ★ 0 | 45% | L3 | Main application building orchestrator. Creates full-stack applications from nat… |
 
 ---
 

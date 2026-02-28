@@ -1,22 +1,17 @@
 ---
 name: scaffolder
 description: Generates boilerplate code following loaded rules. Creates new components, modules, APIs, and features that automatically comply with your coding standards. Extracts patterns from rules and applies them consistently.
-context:fork: true
-model: sonnet
 allowed-tools: read, write, glob, search, codebase_search
-version: 2.1
-executable: .claude/skills/scaffolder/scripts/scaffold.mjs
-test_suite: .claude/skills/scaffolder/scripts/test-scaffold.mjs
+version: 2.0
 best_practices:
   - Identify target framework from manifest.yaml
   - Extract patterns from relevant rule files
   - Generate complete file structure (types, tests, etc.)
   - Follow project naming conventions
   - Include proper imports and exports
-  - Use executable script for programmatic invocation
 error_handling: graceful
 streaming: supported
-templates: [component, client-component, api, fastapi-route, test, hook, context, feature]
+templates: [component, api, test, hook, context, feature]
 ---
 
 <identity>
@@ -38,7 +33,6 @@ Rule-Aware Scaffolder - Creates new code that automatically adheres to your proj
 ### Step 1: Load Rule Index
 
 Load the rule index to discover relevant rules dynamically:
-
 - @.claude/context/rule-index.json
 
 ### Step 2: Identify Target Framework and Query Index
@@ -46,31 +40,26 @@ Load the rule index to discover relevant rules dynamically:
 Determine which technologies apply based on what you're scaffolding:
 
 **Component scaffolding**:
-
 - Detect: React, Next.js, TypeScript
 - Query: `index.technology_map['react']`, `index.technology_map['nextjs']`, `index.technology_map['typescript']`
 
 **API Route scaffolding**:
-
 - Detect: Next.js App Router or FastAPI
 - Query: `index.technology_map['nextjs']` or `index.technology_map['fastapi']`
 
 **Test File scaffolding**:
-
 - Detect: Jest, Cypress, Playwright, Vitest, pytest
 - Query: `index.technology_map['jest']`, `index.technology_map['cypress']`, etc.
 
 **Database Model scaffolding**:
-
 - Detect: Prisma, SQL, database patterns
 - Query: `index.technology_map['prisma']` or database-related rules
 
 ### Step 3: Load Relevant Rules
 
 Load only the relevant rule files from the index (progressive disclosure):
-
 - Master rules first (from `.claude/rules-master/`)
-- Library rules supplement (from `.claude/rules-library/`)
+- Archive rules supplement (from `.claude/archive/`)
 - Load 3-5 most relevant rules, not all 1,081
 
 ### Step 4: Extract Patterns from Rules
@@ -78,78 +67,35 @@ Load only the relevant rule files from the index (progressive disclosure):
 Parse the loaded rule files to extract scaffolding patterns:
 
 **From Next.js rules** (TECH_STACK_NEXTJS.md or nextjs.mdc):
-
 - Server Components by default
 - 'use client' only when needed
 - Place in `app/` for routes, `components/` for shared
 - Use lowercase-with-dashes for directories
 
 **From TypeScript rules**:
-
 - Interfaces for object shapes
 - Proper return type annotations
 - Avoid `any`, use `unknown`
 - PascalCase for types/interfaces
 
 **From React rules**:
-
 - Functional components only
 - Custom hooks for reusable logic
 - Props interface for each component
 - Error boundaries for critical sections
 
-### Step 5: Check for Template Blocks
+### Step 5: Generate Compliant Code
 
-Before generating code, check for explicit template blocks in loaded rule files:
-
-1. **Look for `<template>` blocks** in rule files:
-   - Pattern: `<template name="component">...</template>`
-   - Pattern: `<template name="api">...</template>`
-   - Extract template content and variables (e.g., `{{Name}}`, `{{Props}}`)
-
-2. **Template Priority**:
-   - **First**: Use `<template>` blocks from loaded rule files (most specific)
-   - **Second**: Use explicit templates from `.claude/templates/` directory
-   - **Third**: Infer patterns from rule text (fallback)
-
-3. **Template Validation**:
-   - Verify template file exists (if using `.claude/templates/`)
-   - Check template syntax is valid
-   - Ensure required template variables are provided
-   - Validate template structure matches expected output type
-
-### Step 6: Generate Compliant Code
-
-Apply extracted patterns or templates to generate code that passes rule-auditor.
-
-### Step 7: Validate Generated Code
-
-After generating code, validate it matches the template and rules:
-
-1. **Template Validation**:
-   - Check generated code matches template structure (if template was used)
-   - Verify all template variables were replaced
-   - Ensure no template placeholders remain (e.g., `{{Name}}`)
-
-2. **Rule Compliance Validation**:
-   - Run rule-auditor on generated code
-   - Fix any violations found
-   - Ensure generated code follows all loaded rules
-
-3. **Structure Validation**:
-   - Verify file structure matches expected (imports, exports, etc.)
-   - Check naming conventions are followed
-   - Ensure proper file organization
-     </execution_process>
+Apply extracted patterns to generate code that passes rule-auditor.
+</execution_process>
 
 <best_practices>
-
 1. **Always Audit After**: Run `/audit` after scaffolding to catch any edge cases
 2. **Customize Templates**: Add project-specific patterns to rules for consistent generation
 3. **Use for Consistency**: Scaffold even simple files to maintain team conventions
 4. **Review Generated Code**: Scaffolded code is a starting point, not final implementation
 5. **Keep Rules Updated**: As patterns evolve, update rules so scaffolder stays current
-   </best_practices>
+</best_practices>
 
 <integration>
 ### Component Generation Flow
@@ -193,7 +139,6 @@ lib/
     ├── types.ts               # Type definitions
     └── validations.ts         # Zod schemas
 ```
-
 </integration>
 </instructions>
 
@@ -209,14 +154,14 @@ lib/
 // Server Component (default per nextjs.mdc)
 // Location: components/user-profile/ (lowercase-with-dashes per nextjs.mdc)
 
-import { Suspense } from 'react';
-import { UserProfileSkeleton } from './skeleton';
-import { UserProfileContent } from './content';
+import { Suspense } from 'react'
+import { UserProfileSkeleton } from './skeleton'
+import { UserProfileContent } from './content'
 
 // Interface defined (per typescript.mdc)
 interface UserProfileProps {
-  userId: string;
-  showDetails?: boolean;
+  userId: string
+  showDetails?: boolean
 }
 
 // Async Server Component for data fetching (per nextjs.mdc > Data Fetching)
@@ -226,20 +171,19 @@ export async function UserProfile({ userId, showDetails = false }: UserProfilePr
     <Suspense fallback={<UserProfileSkeleton />}>
       <UserProfileContent userId={userId} showDetails={showDetails} />
     </Suspense>
-  );
+  )
 }
 
 // Default export for dynamic imports (per nextjs.mdc)
-export default UserProfile;
+export default UserProfile
 ```
 
 **Also generates**:
-
 - `components/user-profile/content.tsx` - Async content component
 - `components/user-profile/skeleton.tsx` - Loading skeleton
 - `components/user-profile/types.ts` - Shared types
 - `components/user-profile/index.ts` - Barrel export
-  </code_example>
+</code_example>
 
 <code_example>
 **Next.js Client Component**
@@ -249,16 +193,16 @@ export default UserProfile;
 **Generated**: `components/search-bar/index.tsx`
 
 ```tsx
-'use client'; // Required for useState (per nextjs.mdc > Components)
+'use client'  // Required for useState (per nextjs.mdc > Components)
 
-import { useState, useCallback } from 'react';
-import { useDebounce } from '@/hooks/use-debounce';
+import { useState, useCallback } from 'react'
+import { useDebounce } from '@/hooks/use-debounce'
 
 // Props interface (per typescript.mdc)
 interface SearchBarProps {
-  onSearch: (query: string) => void;
-  placeholder?: string;
-  debounceMs?: number;
+  onSearch: (query: string) => void
+  placeholder?: string
+  debounceMs?: number
 }
 
 // Functional component (per react.mdc)
@@ -268,19 +212,16 @@ export function SearchBar({
   debounceMs = 300,
 }: SearchBarProps) {
   // Minimal client state (per nextjs.mdc > State Management)
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState('')
 
   // Debounced callback (per nextjs.mdc > Performance)
-  const debouncedSearch = useDebounce(onSearch, debounceMs);
+  const debouncedSearch = useDebounce(onSearch, debounceMs)
 
-  const handleChange = useCallback(
-    (e: React.ChangeEvent<HTMLInputElement>) => {
-      const value = e.target.value;
-      setQuery(value);
-      debouncedSearch(value);
-    },
-    [debouncedSearch]
-  );
+  const handleChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value
+    setQuery(value)
+    debouncedSearch(value)
+  }, [debouncedSearch])
 
   return (
     <input
@@ -288,15 +229,14 @@ export function SearchBar({
       value={query}
       onChange={handleChange}
       placeholder={placeholder}
-      className="w-full px-4 py-2 border rounded-lg" // Tailwind (per tailwind.mdc)
-      aria-label={placeholder} // Accessibility
+      className="w-full px-4 py-2 border rounded-lg"  // Tailwind (per tailwind.mdc)
+      aria-label={placeholder}  // Accessibility
     />
-  );
+  )
 }
 
-export default SearchBar;
+export default SearchBar
 ```
-
 </code_example>
 
 <code_example>
@@ -307,73 +247,78 @@ export default SearchBar;
 **Generated**: `app/api/users/route.ts`
 
 ```tsx
-import { NextRequest, NextResponse } from 'next/server';
-import { z } from 'zod'; // Zod for validation (per nextjs.mdc > Forms and Validation)
+import { NextRequest, NextResponse } from 'next/server'
+import { z } from 'zod'  // Zod for validation (per nextjs.mdc > Forms and Validation)
 
 // Request schema (per typescript.mdc > Type System)
 const CreateUserSchema = z.object({
   email: z.string().email(),
   name: z.string().min(2),
-});
+})
 
 // Response type (per typescript.mdc)
 interface UserResponse {
-  id: string;
-  email: string;
-  name: string;
-  createdAt: string;
+  id: string
+  email: string
+  name: string
+  createdAt: string
 }
 
 // GET handler (per nextjs.mdc > Routing)
 export async function GET(request: NextRequest) {
   try {
-    const { searchParams } = new URL(request.url);
-    const page = parseInt(searchParams.get('page') ?? '1');
-    const limit = parseInt(searchParams.get('limit') ?? '10');
+    const { searchParams } = new URL(request.url)
+    const page = parseInt(searchParams.get('page') ?? '1')
+    const limit = parseInt(searchParams.get('limit') ?? '10')
 
     // TODO: Replace with actual database query
-    const users: UserResponse[] = [];
+    const users: UserResponse[] = []
 
     return NextResponse.json({
       data: users,
       pagination: { page, limit, total: 0 },
-    });
+    })
   } catch (error) {
     // Proper error handling (per nextjs.mdc > Data Fetching)
-    console.error('Failed to fetch users:', error);
-    return NextResponse.json({ error: 'Failed to fetch users' }, { status: 500 });
+    console.error('Failed to fetch users:', error)
+    return NextResponse.json(
+      { error: 'Failed to fetch users' },
+      { status: 500 }
+    )
   }
 }
 
 // POST handler with validation
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.json();
+    const body = await request.json()
 
     // Server-side validation (per nextjs.mdc > Forms and Validation)
-    const validated = CreateUserSchema.parse(body);
+    const validated = CreateUserSchema.parse(body)
 
     // TODO: Replace with actual database insert
     const user: UserResponse = {
       id: crypto.randomUUID(),
       ...validated,
       createdAt: new Date().toISOString(),
-    };
+    }
 
-    return NextResponse.json({ data: user }, { status: 201 });
+    return NextResponse.json({ data: user }, { status: 201 })
   } catch (error) {
     if (error instanceof z.ZodError) {
       return NextResponse.json(
         { error: 'Validation failed', details: error.errors },
         { status: 400 }
-      );
+      )
     }
-    console.error('Failed to create user:', error);
-    return NextResponse.json({ error: 'Failed to create user' }, { status: 500 });
+    console.error('Failed to create user:', error)
+    return NextResponse.json(
+      { error: 'Failed to create user' },
+      { status: 500 }
+    )
   }
 }
 ```
-
 </code_example>
 
 <code_example>
@@ -483,7 +428,6 @@ async def get_user(
         detail=f"User {user_id} not found",
     )
 ```
-
 </code_example>
 
 <code_example>
@@ -495,68 +439,67 @@ async def get_user(
 
 ```tsx
 // Test file (per jest-*.mdc / vitest-*.mdc patterns)
-import { render, screen, waitFor } from '@testing-library/react';
-import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { UserProfile } from '../index';
+import { render, screen, waitFor } from '@testing-library/react'
+import { describe, it, expect, vi, beforeEach } from 'vitest'
+import { UserProfile } from '../index'
 
 // Mock external dependencies (per testing best practices)
 vi.mock('@/lib/api', () => ({
   fetchUser: vi.fn(),
-}));
+}))
 
 describe('UserProfile', () => {
   // Clear mocks before each test (per clean-code.mdc)
   beforeEach(() => {
-    vi.clearAllMocks();
-  });
+    vi.clearAllMocks()
+  })
 
   // Descriptive test names (per testing guidelines)
   it('renders loading skeleton initially', () => {
-    render(<UserProfile userId="123" />);
+    render(<UserProfile userId="123" />)
 
-    expect(screen.getByTestId('user-profile-skeleton')).toBeInTheDocument();
-  });
+    expect(screen.getByTestId('user-profile-skeleton')).toBeInTheDocument()
+  })
 
   it('displays user information after loading', async () => {
     const mockUser = {
       id: '123',
       name: 'John Doe',
       email: 'john@example.com',
-    };
+    }
 
-    const { fetchUser } = await import('@/lib/api');
-    vi.mocked(fetchUser).mockResolvedValue(mockUser);
+    const { fetchUser } = await import('@/lib/api')
+    vi.mocked(fetchUser).mockResolvedValue(mockUser)
 
-    render(<UserProfile userId="123" />);
+    render(<UserProfile userId="123" />)
 
     await waitFor(() => {
-      expect(screen.getByText('John Doe')).toBeInTheDocument();
-      expect(screen.getByText('john@example.com')).toBeInTheDocument();
-    });
-  });
+      expect(screen.getByText('John Doe')).toBeInTheDocument()
+      expect(screen.getByText('john@example.com')).toBeInTheDocument()
+    })
+  })
 
   it('handles error state gracefully', async () => {
-    const { fetchUser } = await import('@/lib/api');
-    vi.mocked(fetchUser).mockRejectedValue(new Error('Network error'));
+    const { fetchUser } = await import('@/lib/api')
+    vi.mocked(fetchUser).mockRejectedValue(new Error('Network error'))
 
-    render(<UserProfile userId="123" />);
+    render(<UserProfile userId="123" />)
 
     await waitFor(() => {
-      expect(screen.getByText(/failed to load/i)).toBeInTheDocument();
-    });
-  });
+      expect(screen.getByText(/failed to load/i)).toBeInTheDocument()
+    })
+  })
 
   // Edge cases (per qa best practices)
   it('shows details when showDetails prop is true', async () => {
-    render(<UserProfile userId="123" showDetails />);
+    render(<UserProfile userId="123" showDetails />)
 
     await waitFor(() => {
-      expect(screen.getByTestId('user-details-section')).toBeInTheDocument();
-    });
-  });
-});
+      expect(screen.getByTestId('user-details-section')).toBeInTheDocument()
+    })
+  })
+})
 ```
-
 </code_example>
 
 <code_example>
@@ -572,31 +515,31 @@ describe('User Flow', () => {
   // Setup before tests (per cypress best practices)
   beforeEach(() => {
     // Reset state and seed data
-    cy.task('db:seed');
-    cy.visit('/');
-  });
+    cy.task('db:seed')
+    cy.visit('/')
+  })
 
   // Critical user flow (per cypress-e2e-testing guidelines)
   it('allows user to sign up, login, and view profile', () => {
     // Use data-testid selectors (per cypress best practices)
-    cy.get('[data-testid="signup-link"]').click();
+    cy.get('[data-testid="signup-link"]').click()
 
     // Fill signup form
-    cy.get('[data-testid="email-input"]').type('test@example.com');
-    cy.get('[data-testid="password-input"]').type('SecurePass123!');
-    cy.get('[data-testid="name-input"]').type('Test User');
-    cy.get('[data-testid="signup-submit"]').click();
+    cy.get('[data-testid="email-input"]').type('test@example.com')
+    cy.get('[data-testid="password-input"]').type('SecurePass123!')
+    cy.get('[data-testid="name-input"]').type('Test User')
+    cy.get('[data-testid="signup-submit"]').click()
 
     // Verify redirect to dashboard
-    cy.url().should('include', '/dashboard');
+    cy.url().should('include', '/dashboard')
 
     // Navigate to profile
-    cy.get('[data-testid="profile-link"]').click();
+    cy.get('[data-testid="profile-link"]').click()
 
     // Verify profile data
-    cy.get('[data-testid="profile-name"]').should('contain', 'Test User');
-    cy.get('[data-testid="profile-email"]').should('contain', 'test@example.com');
-  });
+    cy.get('[data-testid="profile-name"]').should('contain', 'Test User')
+    cy.get('[data-testid="profile-email"]').should('contain', 'test@example.com')
+  })
 
   // API mocking example (per cypress-api-testing guidelines)
   it('handles API errors gracefully', () => {
@@ -604,44 +547,27 @@ describe('User Flow', () => {
     cy.intercept('GET', '/api/users/*', {
       statusCode: 500,
       body: { error: 'Internal server error' },
-    }).as('getUserError');
+    }).as('getUserError')
 
-    cy.visit('/profile');
+    cy.visit('/profile')
 
     // Wait for mocked request
-    cy.wait('@getUserError');
+    cy.wait('@getUserError')
 
     // Verify error handling
     cy.get('[data-testid="error-message"]')
       .should('be.visible')
-      .and('contain', 'Failed to load profile');
+      .and('contain', 'Failed to load profile')
 
     // Verify retry option
-    cy.get('[data-testid="retry-button"]').should('be.visible');
-  });
-});
+    cy.get('[data-testid="retry-button"]').should('be.visible')
+  })
+})
 ```
-
 </code_example>
 
 <usage_example>
-**Programmatic Usage** (recommended for automation):
-
-```bash
-# Using executable script directly
-node .claude/skills/scaffolder/scripts/scaffold.mjs component UserProfile
-node .claude/skills/scaffolder/scripts/scaffold.mjs client-component SearchBar --path src/components
-node .claude/skills/scaffolder/scripts/scaffold.mjs api users
-node .claude/skills/scaffolder/scripts/scaffold.mjs test src/components/Button.tsx
-
-# List available templates
-node .claude/skills/scaffolder/scripts/scaffold.mjs --list
-
-# Run tests
-node .claude/skills/scaffolder/scripts/test-scaffold.mjs
-```
-
-**Quick Commands** (agent invocation):
+**Quick Commands**:
 
 ```
 # Generate a Server Component
@@ -674,19 +600,18 @@ node .claude/skills/scaffolder/scripts/test-scaffold.mjs
 
 **Available Templates**:
 
-| Template           | Framework          | Files Generated                   |
-| ------------------ | ------------------ | --------------------------------- |
-| `component`        | Next.js/React      | index.tsx, types.ts, skeleton.tsx |
-| `client-component` | Next.js            | index.tsx with 'use client'       |
-| `page`             | Next.js App Router | page.tsx, loading.tsx, error.tsx  |
-| `api`              | Next.js App Router | route.ts with handlers            |
-| `fastapi-route`    | FastAPI            | router file with endpoints        |
-| `hook`             | React              | Custom hook with types            |
-| `context`          | React              | Context provider + hook           |
-| `test`             | Jest/Vitest        | Test file for component           |
-| `e2e-test`         | Cypress/Playwright | E2E test spec                     |
-| `model`            | Prisma             | Schema model                      |
-| `migration`        | Database           | Migration file                    |
-
+| Template | Framework | Files Generated |
+|----------|-----------|-----------------|
+| `component` | Next.js/React | index.tsx, types.ts, skeleton.tsx |
+| `client-component` | Next.js | index.tsx with 'use client' |
+| `page` | Next.js App Router | page.tsx, loading.tsx, error.tsx |
+| `api` | Next.js App Router | route.ts with handlers |
+| `fastapi-route` | FastAPI | router file with endpoints |
+| `hook` | React | Custom hook with types |
+| `context` | React | Context provider + hook |
+| `test` | Jest/Vitest | Test file for component |
+| `e2e-test` | Cypress/Playwright | E2E test spec |
+| `model` | Prisma | Schema model |
+| `migration` | Database | Migration file |
 </usage_example>
 </examples>

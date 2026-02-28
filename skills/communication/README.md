@@ -1,9 +1,10 @@
 # 📂 communication
 
-> 29 skills in this category
+> 31 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
+| [copywriting](copywriting/) | sickn33 | ★ 16.8k | 95% | L2 | Write rigorous, conversion-focused marketing copy for landing pages and emails. … |
 | [twilio-communications](twilio-communications/) | sickn33 | ★ 16.8k | 95% | L3 | Build communication features with Twilio: SMS messaging, voice calls, WhatsApp B… |
 | [postmortem-writing](postmortem-writing/) | sickn33 | ★ 16.7k | 95% | L2 | Write effective blameless postmortems with root cause analysis, timelines, and a… |
 | [i18n-localization](i18n-localization/) | sickn33 | ★ 16.7k | 95% | L3 | Internationalization and localization patterns. Detecting hardcoded strings, man… |
@@ -29,6 +30,7 @@
 | [academic-writing-style](academic-writing-style/) | majiayu000 | ★ 1 | 62% | L2 | Personalized academic writing assistant for university assignments in Chinese an… |
 | [pdf-translator](pdf-translator/) | Nebu1eto | ★ 0 | 48% | L3 | Translates PDF documents to any target language with layout preservation. Suppor… |
 | [slack](slack/) | NeverSight | ★ 0 | 48% | L3 | Enables Claude to manage Slack workspaces, send messages, manage channels, and a… |
+| [i18n-automation](i18n-automation/) | majiayu000 | ★ 0 | 48% | L3 | Automate internationalization and localization workflows for web applications wi… |
 | [essay-writing](essay-writing/) | YOwatari | ★ 0 | 47% | L2 | Writing support (drafting, evaluation and revision) for executives and tech lead… |
 | [i18n-translate](i18n-translate/) | CofficLab | ★ 0 | 45% | L3 | 管理 iOS/macOS 应用的 *.xcstrings 本地化翻译文件。自动清理过期条目、检测缺失翻译、添加简繁体中文翻译。当用户需要处理翻译、补充缺失的 z… |
 | [i18n-translate](i18n-translate/) | majiayu000 | ★ 0 | 45% | L3 | 管理 iOS/macOS 应用的 *.xcstrings 本地化翻译文件。自动清理过期条目、检测缺失翻译、添加简繁体中文翻译。当用户需要处理翻译、补充缺失的 z… |

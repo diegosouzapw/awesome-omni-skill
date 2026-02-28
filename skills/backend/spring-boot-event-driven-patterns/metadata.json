@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/spring-boot-event-driven-patterns/SKILL.md",
+  "file_path": "skills/development/spring-boot-event-driven-patterns/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": false,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "b480d93469e31c9cee43d799eaa09173b2dc5a7207b028409afe07fc8a76dd82",
-  "indexed_at": "2026-02-27T05:51:31.201Z",
-  "synced_at": "2026-02-28T04:27:55.960Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fda383178aae6d0241cd49a524ab44b877d73e363aa409a185d9e4c9c41700ec",
-  "install_command": "mkdir -p .claude/skills/spring-boot-event-driven-patterns && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/spring-boot-event-driven-patterns/SKILL.md\" > .claude/skills/spring-boot-event-driven-patterns/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/spring-boot-event-driven-patterns/SKILL.md"
+  "content_hash": "7c100660052c769527249ae02ebb53d4c77d9579729d5d73b757998baffda177",
+  "indexed_at": "2026-02-28T10:55:26.747Z",
+  "synced_at": "2026-02-28T12:11:22.630Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b17d48afef8e81a0f95c32fd2887bdf9d75522ee3d467bdf52d65c36f0bb2c79",
+  "install_command": "mkdir -p .claude/skills/spring-boot-event-driven-patterns && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/spring-boot-event-driven-patterns/SKILL.md\" > .claude/skills/spring-boot-event-driven-patterns/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/spring-boot-event-driven-patterns/SKILL.md"
 }

@@ -3,8 +3,8 @@
   "description": "Comprehensive Flow Nexus platform management - authentication, sandboxes, app deployment, payments, and challenges",
   "category": "backend",
   "canonical_category": "backend",
-  "repository": "ruvnet/claude-flow",
-  "repository_url": "https://github.com/ruvnet/claude-flow",
+  "repository": "ruvnet/ruflo",
+  "repository_url": "https://github.com/ruvnet/ruflo",
   "author": "ruvnet",
   "author_avatar": "https://github.com/ruvnet.png",
   "file_path": ".agents/skills/flow-nexus-platform/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "4d6458b5437c8dcb97036fc25529175f57a3bcaf73f8c92c8a5743e7cd43f0c2",
-  "indexed_at": "2026-02-26T11:31:11.530Z",
-  "synced_at": "2026-02-28T04:27:53.964Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed6c66a30f43a732e55307acd5ab4210aefa382fe8753b57ee6b0d8981aae086",
-  "install_command": "mkdir -p .claude/skills/flow-nexus-platform && curl -sL \"https://raw.githubusercontent.com/ruvnet/claude-flow/main/.agents/skills/flow-nexus-platform/SKILL.md\" > .claude/skills/flow-nexus-platform/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/ruvnet/claude-flow/main/.agents/skills/flow-nexus-platform/SKILL.md"
+  "content_hash": "2d36d760c22591d7ff1f693a9f52002b00ef83e2210d6053b72fe70180c261d0",
+  "indexed_at": "2026-02-28T10:45:26.719Z",
+  "synced_at": "2026-02-28T12:11:21.726Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c715d9a1bdc3e5d9106dab0d0405589e854f5074a3f61dbea61f3e426908618a",
+  "install_command": "mkdir -p .claude/skills/flow-nexus-platform && curl -sL \"https://raw.githubusercontent.com/ruvnet/ruflo/main/.agents/skills/flow-nexus-platform/SKILL.md\" > .claude/skills/flow-nexus-platform/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/ruvnet/ruflo/main/.agents/skills/flow-nexus-platform/SKILL.md"
 }

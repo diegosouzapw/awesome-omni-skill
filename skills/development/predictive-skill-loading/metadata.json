@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/other/predictive-skill-loading/SKILL.md",
+  "file_path": "skills/devops/predictive-skill-loading/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "d6ce7ef8e9b5da4159b07f9309419f65ad4f4b28576b09c5b49f4adb30c541db",
-  "indexed_at": "2026-02-26T10:51:37.249Z",
-  "synced_at": "2026-02-28T03:52:38.985Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fdaacc2f6d485a0b16a6d50906ee1777253c2435b3d91c66b07999758dfce978",
-  "install_command": "mkdir -p .claude/skills/predictive-skill-loading && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/predictive-skill-loading/SKILL.md\" > .claude/skills/predictive-skill-loading/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/predictive-skill-loading/SKILL.md"
+  "content_hash": "eaffcfba6ad1e779e201eaf650e0a5bb9ba0825b3e3e7cc2bc21ec67d40da6ab",
+  "indexed_at": "2026-02-28T11:48:38.029Z",
+  "synced_at": "2026-02-28T12:11:18.454Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/33d3ddd388bd19ca2718b3c4c57546b8b4829ae9564fd8c83f82d7c1f3f2622d",
+  "install_command": "mkdir -p .claude/skills/predictive-skill-loading && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/predictive-skill-loading/SKILL.md\" > .claude/skills/predictive-skill-loading/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/predictive-skill-loading/SKILL.md"
 }

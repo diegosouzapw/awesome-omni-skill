@@ -3,8 +3,8 @@
   "description": "Advanced Hive Mind collective intelligence system for queen-led multi-agent coordination with consensus mechanisms and persistent memory",
   "category": "development",
   "canonical_category": "development",
-  "repository": "ruvnet/claude-flow",
-  "repository_url": "https://github.com/ruvnet/claude-flow",
+  "repository": "ruvnet/ruflo",
+  "repository_url": "https://github.com/ruvnet/ruflo",
   "author": "ruvnet",
   "author_avatar": "https://github.com/ruvnet.png",
   "file_path": ".agents/skills/hive-mind-advanced/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "14cbf49a1ee9765ca6cbc9e6f0b743cdf42580889bfd4178f5736b0769d054f5",
-  "indexed_at": "2026-02-26T05:46:01.834Z",
-  "synced_at": "2026-02-28T03:52:02.390Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/151feed743f255f436690cffcf4cf16f616cda9ef551732dd4fc0876905b7b94",
-  "install_command": "mkdir -p .claude/skills/hive-mind-advanced && curl -sL \"https://raw.githubusercontent.com/ruvnet/claude-flow/main/.agents/skills/hive-mind-advanced/SKILL.md\" > .claude/skills/hive-mind-advanced/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/ruvnet/claude-flow/main/.agents/skills/hive-mind-advanced/SKILL.md"
+  "content_hash": "6dc4a5dbb37ccae69d7e25614fe0493f52547506af09bd9323e50218bf40621c",
+  "indexed_at": "2026-02-28T06:53:11.128Z",
+  "synced_at": "2026-02-28T12:11:17.292Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4ecc914c44e25b5c00d4092aea440e5beed37384f42a2b642bbd1affa2fd1da4",
+  "install_command": "mkdir -p .claude/skills/hive-mind-advanced && curl -sL \"https://raw.githubusercontent.com/ruvnet/ruflo/main/.agents/skills/hive-mind-advanced/SKILL.md\" > .claude/skills/hive-mind-advanced/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/ruvnet/ruflo/main/.agents/skills/hive-mind-advanced/SKILL.md"
 }

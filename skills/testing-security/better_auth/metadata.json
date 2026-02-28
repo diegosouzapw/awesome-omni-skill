@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/other/better-auth/SKILL.md",
+  "file_path": "skills/other/better-auth-vuralserhat86-antigravity-agentic-/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "d0953bf591f33d76c439f4e554fc9091293acf52b4260ab5e21155cdfdcf968c",
-  "indexed_at": "2026-02-26T11:33:47.468Z",
-  "synced_at": "2026-02-28T04:07:06.573Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e8029d2cea20f88745cfa5e9a23ea68c9eaf9622edea66b5d4cad980fd802d25",
-  "install_command": "mkdir -p .claude/skills/better_auth && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/better-auth/SKILL.md\" > .claude/skills/better_auth/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/better-auth/SKILL.md"
+  "content_hash": "0fdac9d334ddaffe8f914ee03ef837b9314b209f05f314cddba4e588d7d82c40",
+  "indexed_at": "2026-02-28T10:46:28.698Z",
+  "synced_at": "2026-02-28T12:11:27.644Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8ec2f37efb2b45faf041f217677da35f373ccd77ba1a448fbb4e5a410829e2ea",
+  "install_command": "mkdir -p .claude/skills/better_auth && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/better-auth-vuralserhat86-antigravity-agentic-/SKILL.md\" > .claude/skills/better_auth/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/better-auth-vuralserhat86-antigravity-agentic-/SKILL.md"
 }

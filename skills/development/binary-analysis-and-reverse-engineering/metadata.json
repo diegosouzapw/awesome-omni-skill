@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/binary-analysis/SKILL.md",
+  "file_path": "skills/other/binary-analysis/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "42854e9296f368af23a0941f1e654e796cc7365337f915503fb3a867721f69f4",
-  "indexed_at": "2026-02-26T09:49:42.626Z",
-  "synced_at": "2026-02-28T03:52:28.734Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/54b7da89d752cab6829c128b64b23a6a7a2cf891eb62223805f2655a36ffa503",
-  "install_command": "mkdir -p .claude/skills/binary-analysis-and-reverse-engineering && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/binary-analysis/SKILL.md\" > .claude/skills/binary-analysis-and-reverse-engineering/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/binary-analysis/SKILL.md"
+  "content_hash": "bd500b4646621c58452b8a60099f940618d900937f5b81c4aa23e06b6d3e5f30",
+  "indexed_at": "2026-02-28T08:49:06.880Z",
+  "synced_at": "2026-02-28T12:11:17.638Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ce71230451a35907c2de90c31507b7806968451a32cd48e6b04dccf962cd40a5",
+  "install_command": "mkdir -p .claude/skills/binary-analysis-and-reverse-engineering && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/binary-analysis/SKILL.md\" > .claude/skills/binary-analysis-and-reverse-engineering/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/binary-analysis/SKILL.md"
 }

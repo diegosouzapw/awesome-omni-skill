@@ -1,9 +1,15 @@
 # 📂 backend
 
-> 373 skills in this category
+> 413 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
+| [using-neon](using-neon/) | sickn33 | ★ 16.9k | 95% | L3 | Guides and best practices for working with Neon Serverless Postgres. Covers gett… |
+| [voice-ai-development](voice-ai-development/) | sickn33 | ★ 16.9k | 95% | L3 | Expert in building voice AI applications - from real-time voice agents to voice-… |
+| [wordpress-plugin-development](wordpress-plugin-development/) | sickn33 | ★ 16.9k | 95% | L2 | WordPress plugin development workflow covering plugin architecture, hooks, admin… |
+| [wordpress](wordpress/) | sickn33 | ★ 16.9k | 95% | L2 | Complete WordPress development workflow covering theme development, plugin creat… |
+| [base](base/) | sickn33 | ★ 16.9k | 91% | L3 | Database management, forms, reports, and data operations with LibreOffice Base. |
+| [zapier-make-patterns](zapier-make-patterns/) | sickn33 | ★ 16.9k | 88% | L2 | No-code automation democratizes workflow building. Zapier and Make (formerly Int… |
 | [sqlmap-database-pentesting](sqlmap-database-pentesting/) | sickn33 | ★ 16.8k | 95% | L3 | This skill should be used when the user asks to \"automate SQL injection testing… |
 | [supabase-automation](supabase-automation/) | sickn33 | ★ 16.8k | 95% | L2 | Automate Supabase database queries, table management, project administration, st… |
 | [sql-optimization-patterns](sql-optimization-patterns/) | sickn33 | ★ 16.8k | 82% | L2 | Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dram… |
@@ -357,6 +363,41 @@
 | [fullstack-guardian](fullstack-guardian/) | majiayu000 | ★ 0 | 48% | L2 | Use when implementing features across frontend and backend, building APIs with U… |
 | [nginx](nginx/) | RepairYourTech | ★ 0 | 48% | L3 | Comprehensive Nginx configuration guide covering server blocks, location matchin… |
 | [moai-lang-python](moai-lang-python/) | mattnigh | ★ 0 | 48% | L3 | Enterprise-grade Python expertise with production patterns for Python 3.13.9, Fa… |
+| [API Fuzzing for Bug Bounty](api-fuzzing-for-bug-bounty/) | PohLee | ★ 0 | 48% | L3 | This skill should be used when the user asks to "test API security", "fuzz APIs"… |
+| [grpc-python](grpc-python/) | majiayu000 | ★ 0 | 48% | L3 | gRPC with Python using grpcio and protobuf for high-performance microservice com… |
+| [api-design-expert](api-design-expert/) | majiayu000 | ★ 0 | 48% | L3 | Expert-level API design principles, REST, GraphQL, versioning, and API best prac… |
+| [moai-lang-unified](moai-lang-unified/) | mattnigh | ★ 0 | 48% | L3 | Unified enterprise programming language skill covering 25+ languages including P… |
+| [railway-database](railway-database/) | davila7 | ★ 0 | 48% | L3 | Add official Railway database services (Postgres, Redis, MySQL, MongoDB). Use wh… |
+| [AI Nervous System - Document Intelligence](ai-nervous-system-document-intelligence/) | JGcode3675 | ★ 0 | 48% | L3 | Vector search and AI-powered document processing skills for OpenClaw integration |
+| [clawchain](clawchain/) | openclaw | ★ 0 | 48% | L3 | Local personality profile file. Contains exaggerated personality instructions de… |
+| [aws-cloudformation-rds](aws-cloudformation-rds/) | majiayu000 | ★ 0 | 48% | L3 | AWS CloudFormation patterns for Amazon RDS databases. Use when creating RDS inst… |
+| [prisma-database-setup](prisma-database-setup/) | akghosh111 | ★ 0 | 48% | L3 | Guides for configuring Prisma with different database providers (PostgreSQL, MyS… |
+| [database-migrations-sql-migrations](database-migrations-sql-migrations/) | majiayu000 | ★ 0 | 48% | L3 | SQL database migrations with zero-downtime strategies for PostgreSQL, MySQL, SQL… |
+| [railway-new](railway-new/) | majiayu000 | ★ 0 | 48% | L3 | Create Railway projects, services, and databases with proper configuration. Use … |
+| [python-backend-expert](python-backend-expert/) | majiayu000 | ★ 0 | 48% | L3 | Python backend expert including Django, FastAPI, Flask, SQLAlchemy, and async pa… |
+| [fastapi-expert](fastapi-expert/) | thesaifalitai | ★ 0 | 48% | L2 | Use when building high-performance async Python APIs with FastAPI and Pydantic V… |
+| [flow-nexus-platform](flow-nexus-platform/) | ruvnet | ★ 0 | 48% | L3 | Comprehensive Flow Nexus platform management - authentication, sandboxes, app de… |
+| [flow-nexus-platform](flow-nexus-platform/) | Finimo-Solutions | ★ 0 | 48% | L3 | Comprehensive Flow Nexus platform management - authentication, sandboxes, app de… |
+| [better-auth](better-auth/) | NeverSight | ★ 0 | 48% | L3 | Implement authentication and authorization with Better Auth - a framework-agnost… |
+| [Supabase Developer](supabase-developer/) | majiayu000 | ★ 0 | 48% | L3 | Build full-stack applications with Supabase (PostgreSQL, Auth, Storage, Real-tim… |
+| [better-auth](better-auth/) | NeverSight | ★ 0 | 48% | L3 | Guide for implementing Better Auth - a framework-agnostic authentication and aut… |
+| [better-auth](better-auth/) | majiayu000 | ★ 0 | 48% | L3 | TypeScript authentication framework (framework-agnostic). Features: email/passwo… |
+| [adr-log](adr-log/) | majiayu000 | ★ 0 | 48% | L3 | Document architecture decisions with ADR (Architecture Decision Records). Use wh… |
+| [backend-skills](backend-skills/) | majiayu000 | ★ 0 | 48% | L3 | Master Node.js, Express, PHP, Laravel, Java, Spring Boot, API design, and databa… |
+| [moai-domain-database](moai-domain-database/) | mattnigh | ★ 0 | 48% | L3 | Database specialist covering PostgreSQL, MongoDB, Redis, and advanced data patte… |
+| [intelligent-routing](intelligent-routing/) | AloSantana | ★ 0 | 48% | L3 | Automatic agent selection and intelligent task routing. Analyzes user requests a… |
+| [langchain4j-vector-stores-configuration](langchain4j-vector-stores-configuration/) | majiayu000 | ★ 0 | 48% | L2 | Configure LangChain4J vector stores for RAG applications. Use when building sema… |
+| [api-documentation](api-documentation/) | pluginagentmarketplace | ★ 0 | 48% | L3 | Production-grade skill for API documentation creation including OpenAPI/Swagger … |
+| [backend-development](backend-development/) | NeverSight | ★ 0 | 48% | L3 | Build robust backend systems with modern technologies (Node.js, Python, Go, Rust… |
+| [titan](titan/) | Rikinshah787 | ★ 0 | 48% | L3 | Heavy-duty architectural specialist building indestructible backend systems. API… |
+| [moai-lang-kotlin](moai-lang-kotlin/) | majiayu000 | ★ 0 | 48% | L3 | Kotlin 2.0+ development specialist covering Ktor, coroutines, Compose Multiplatf… |
+| [spring-boot-event-driven-patterns](spring-boot-event-driven-patterns/) | majiayu000 | ★ 0 | 48% | L2 | Implement Event-Driven Architecture (EDA) in Spring Boot using ApplicationEvent,… |
+| [spring-boot-engineer](spring-boot-engineer/) | Jeffallan | ★ 0 | 48% | L2 | Use when building Spring Boot 3.x applications, microservices, or reactive Java … |
+| [surrealdb](surrealdb/) | 24601 | ★ 0 | 48% | L3 | Expert SurrealDB 3 architect and developer skill. SurrealQL mastery, multi-model… |
+| [Django Framework](django-framework/) | majiayu000 | ★ 0 | 48% | L3 | Build production-ready web applications with Django MVC, ORM, authentication, an… |
+| [fullstack-validation](fullstack-validation/) | majiayu000 | ★ 0 | 48% | L3 | Comprehensive validation methodology for multi-component applications including … |
+| [mongodb](mongodb/) | bobmatnyc | ★ 0 | 48% | L3 | MongoDB - NoSQL document database with flexible schema design, aggregation pipel… |
+| [api-design](api-design/) | yonatangross | ★ 0 | 48% | L3 | API design patterns for REST/GraphQL framework design, versioning strategies, an… |
 | [visualiser-performance](visualiser-performance/) | event-catalog | ★ 0 | 47% | L3 | React Flow performance rules and review checklist for the @eventcatalog/visualis… |
 | [solidstart-websocket](solidstart-websocket/) | majiayu000 | ★ 0 | 47% | L3 | SolidStart WebSocket: experimental WebSocket endpoints, connection handling, mes… |
 | [solidstart-middleware-auth](solidstart-middleware-auth/) | majiayu000 | ★ 0 | 47% | L3 | SolidStart middleware, sessions, authentication: createMiddleware with onRequest… |
@@ -376,7 +417,6 @@
 | [mongodb_usage](mongodb_usage/) | NeverSight | ★ 0 | 45% | L3 | This skill should be used when user asks to "query MongoDB", "show database coll… |
 | [mongodb_usage](mongodb_usage/) | majiayu000 | ★ 0 | 45% | L3 | This skill should be used when user asks to "query MongoDB", "show database coll… |
 | [find-skills](find-skills/) | openakita | ★ 0 | 45% | L3 | Helps users discover and install agent skills when they ask questions like "how … |
-| [stacks](stacks/) | Fujigo-Software | ★ 0 | 45% | L3 | Stack-specific skills organized by technology category (backend, frontend, infra… |
 
 ---
 

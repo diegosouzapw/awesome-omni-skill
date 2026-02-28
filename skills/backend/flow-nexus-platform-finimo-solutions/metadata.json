@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/Finimo-Solutions/research",
   "author": "Finimo-Solutions",
   "author_avatar": "https://github.com/Finimo-Solutions.png",
-  "file_path": "mcp-agent/claude-flow/.agents/skills/flow-nexus-platform/SKILL.md",
+  "file_path": "cognitive-graph/ruvector/.claude/skills/flow-nexus-platform/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "5409a0411969205278e6859840df62c34c44e5d576100417cbf09116181af8ec",
-  "indexed_at": "2026-02-26T11:32:18.522Z",
-  "synced_at": "2026-02-28T04:27:54.525Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/75e5b714a353002d11ca9e478b763741110d0b4aa9defd49deee1c61734e79e6",
-  "install_command": "mkdir -p .claude/skills/flow-nexus-platform && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/mcp-agent/claude-flow/.agents/skills/flow-nexus-platform/SKILL.md\" > .claude/skills/flow-nexus-platform/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/mcp-agent/claude-flow/.agents/skills/flow-nexus-platform/SKILL.md"
+  "content_hash": "cbecd9baf66b214b515db04059634d333b5617b5d3534c01fa442a27d93ae680",
+  "indexed_at": "2026-02-28T10:45:42.093Z",
+  "synced_at": "2026-02-28T12:11:21.804Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6b2015cbf4ea3c7fb6716bacfe034b71541d69991f2536fa32e94559339dbd64",
+  "install_command": "mkdir -p .claude/skills/flow-nexus-platform && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/cognitive-graph/ruvector/.claude/skills/flow-nexus-platform/SKILL.md\" > .claude/skills/flow-nexus-platform/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/cognitive-graph/ruvector/.claude/skills/flow-nexus-platform/SKILL.md"
 }

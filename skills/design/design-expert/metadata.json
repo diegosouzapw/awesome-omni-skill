@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/other/design-expert/SKILL.md",
+  "file_path": "skills/other/design-expert-personamanagmentlaye-pcl/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "36c501f8d59581e070c35e85619dfeb45a78d57705078312e74c81955b6e2b42",
-  "indexed_at": "2026-02-26T05:56:56.015Z",
-  "synced_at": "2026-02-28T04:05:22.387Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7b97e48895ea4c1260f71012c32526f7b2026b2f486620c928b06a47c0198607",
-  "install_command": "mkdir -p .claude/skills/design-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/design-expert/SKILL.md\" > .claude/skills/design-expert/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/design-expert/SKILL.md"
+  "content_hash": "d00a926d60dc4e366c2dfcec43de5bbdb1495b77be4fed4946d29ea5ef53cbf3",
+  "indexed_at": "2026-02-28T10:55:22.506Z",
+  "synced_at": "2026-02-28T12:11:29.166Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dd9acd26c3328565ad3e821e61fa2f5e550b58d188131803d21036e5dca8948a",
+  "install_command": "mkdir -p .claude/skills/design-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/design-expert-personamanagmentlaye-pcl/SKILL.md\" > .claude/skills/design-expert/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/design-expert-personamanagmentlaye-pcl/SKILL.md"
 }
