@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aecf605b6e5cfc59f93e71fe27dc6eab617216f3a4ed8d789421279db86af389",
   "indexed_at": "2026-02-24T23:24:27.701Z",
-  "synced_at": "2026-02-27T02:25:15.124Z",
+  "synced_at": "2026-02-28T03:50:02.422Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c900f0c8480703e34f20a3cadb9f02971384a47dca5bce66965a54e0c21386af",
   "install_command": "mkdir -p .claude/skills/backend-database-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/05-backend-database/SKILL.md\" > .claude/skills/backend-database-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/05-backend-database/SKILL.md"

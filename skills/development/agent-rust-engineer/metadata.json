@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "012707333906846496fd03951d03452de50117def6d94faefeffa5ee35ecd923",
   "indexed_at": "2026-02-27T03:56:59.257Z",
-  "synced_at": "2026-02-27T13:12:56.477Z",
+  "synced_at": "2026-02-28T03:50:49.378Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0a0e2b6318b6164314456788dfe06d4159a3a1b3a58412f8c95f15d220ff3355",
   "install_command": "mkdir -p .claude/skills/agent-rust-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-rust-engineer/SKILL.md\" > .claude/skills/agent-rust-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-rust-engineer/SKILL.md"

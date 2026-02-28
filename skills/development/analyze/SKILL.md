@@ -1,63 +1,58 @@
 ---
 name: analyze
-description: Deep analysis and investigation
+description: Invoke IMMEDIATELY via python script when user requests codebase analysis, architecture review, security assessment, or quality evaluation. Do NOT explore first - the script orchestrates exploration.
+license: MIT
+metadata:
 ---
 
-# Deep Analysis Mode
+# Analyze Skill
 
-[ANALYSIS MODE ACTIVATED]
+When this skill activates, IMMEDIATELY invoke the script. The script IS the workflow.
 
-## Objective
+## Invocation
 
-Conduct thorough analysis of the specified target (code, architecture, issue, bug, performance bottleneck, security concern).
+```bash
+python3 scripts/analyze.py \
+  --step-number 1 \
+  --total-steps 6 \
+  --thoughts "Starting analysis. User request: <describe what user asked to analyze>"
+```
 
-## Approach
+| Argument        | Required | Description                               |
+| --------------- | -------- | ----------------------------------------- |
+| `--step-number` | Yes      | Current step (starts at 1)                |
+| `--total-steps` | Yes      | Minimum 6; adjust as script instructs     |
+| `--thoughts`    | Yes      | Accumulated state from all previous steps |
 
-1. **Gather Context**
-   - Read relevant files
-   - Check git history if relevant
-   - Review related issues/PRs if applicable
+## Workflow
 
-2. **Analyze Systematically**
-   - Identify patterns and antipatterns
-   - Trace execution flows
-   - Map dependencies and relationships
-   - Check for edge cases
+The script outputs REQUIRED ACTIONS at each step. Follow them exactly.
 
-   **For Debugging/Bug Analysis (4-Phase Protocol)**
+```
+Step 1: EXPLORATION         - Script tells you to delegate to Explore agent
+Step 2: FOCUS SELECTION     - Classify areas, assign priorities
+Step 3: INVESTIGATION PLAN  - Commit to specific files and questions
+Step 4+: DEEP ANALYSIS      - Progressive investigation with evidence
+Step N-1: VERIFICATION      - Validate completeness
+Step N: SYNTHESIS           - Consolidate findings
+```
 
-   When analyzing bugs or issues, follow systematic debugging:
+Do NOT try to follow this workflow manually. Run the script and follow its output.
 
-   - **Root Cause First** - Never skip to fixes
-     - Read ALL error messages
-     - Reproduce consistently
-     - Document hypothesis before looking at code
+## Example Sequence
 
-   - **Pattern Analysis** - Find working vs broken
-     - Compare with working similar code
-     - Identify the specific delta
+```bash
+# Step 1: Start - script will instruct you to explore first
+python3 scripts/analyze.py --step-number 1 --total-steps 6 \
+  --thoughts "Starting analysis of auth system"
 
-   - **3-Failure Circuit Breaker** - If stuck:
-     - After 3 failed hypotheses, question the architecture
-     - The bug may be elsewhere entirely
+# [Follow REQUIRED ACTIONS from output - delegate to Explore agent]
 
-3. **Synthesize Findings**
-   - Root cause (for bugs)
-   - Design decisions and tradeoffs (for architecture)
-   - Bottlenecks and hotspots (for performance)
-   - Vulnerabilities and risks (for security)
+# Step 1 again with explore results
+python3 scripts/analyze.py --step-number 1 --total-steps 6 \
+  --thoughts "Explore found: Flask app, SQLAlchemy, auth/ dir..."
 
-4. **Provide Recommendations**
-   - Concrete, actionable next steps
-   - Prioritized by impact
-   - Consider maintainability and technical debt
-
-## Output Format
-
-Present findings clearly:
-- **Summary** (2-3 sentences)
-- **Key Findings** (bulleted list)
-- **Analysis** (detailed explanation)
-- **Recommendations** (prioritized)
-
-Stay objective. Cite file paths and line numbers. No speculation without evidence.
+# Step 2+: Continue following script output
+python3 scripts/analyze.py --step-number 2 --total-steps 7 \
+  --thoughts "[accumulated state from step 1] Focus: security P1, quality P2"
+```

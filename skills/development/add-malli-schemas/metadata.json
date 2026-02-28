@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "35047c81391b6de6d75f7a6400985f2ef4bef9a70282cbcbbfea0583dbfff9eb",
   "indexed_at": "2026-02-27T01:54:40.678Z",
-  "synced_at": "2026-02-27T02:25:23.041Z",
+  "synced_at": "2026-02-28T03:50:16.989Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6d05451ba6abdb4e96a22b311a8223457e0463385313f775d5372975762bf1b3",
   "install_command": "mkdir -p .claude/skills/add-malli-schemas && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-malli-schemas-gregbaron-metabase-mysandbox/SKILL.md\" > .claude/skills/add-malli-schemas/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-malli-schemas-gregbaron-metabase-mysandbox/SKILL.md"

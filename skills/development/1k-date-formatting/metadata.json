@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1bd99b5830e56baf1c3c5f292e62149be2c5ad108952df6f58262772e520c438",
   "indexed_at": "2026-02-24T23:25:38.697Z",
-  "synced_at": "2026-02-27T02:24:51.247Z",
+  "synced_at": "2026-02-28T03:49:39.578Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/328696348193a36433988ece66a203f496ba7ce45261140bff47e846a5aa927c",
   "install_command": "mkdir -p .claude/skills/1k-date-formatting && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1k-date-formatting/SKILL.md\" > .claude/skills/1k-date-formatting/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1k-date-formatting/SKILL.md"

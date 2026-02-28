@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "77f6112d2c653cfe736cac4cd30362896a6acec8e02a4836d939a23ba6dc3376",
   "indexed_at": "2026-02-25T10:36:25.205Z",
-  "synced_at": "2026-02-27T02:24:42.271Z",
+  "synced_at": "2026-02-28T03:49:31.037Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2c5998edde072c897a86f5d54107db56fffb97e42d8133a40751bc2cd0d65230",
   "install_command": "mkdir -p .claude/skills/odoo-18 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/18-0/SKILL.md\" > .claude/skills/odoo-18/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/18-0/SKILL.md"

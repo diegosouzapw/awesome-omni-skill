@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "647ad757dc52e3a2ebf5609e3676049c4d24b47f7d4a219b6c30caf502eceba4",
   "indexed_at": "2026-02-24T23:24:31.753Z",
-  "synced_at": "2026-02-27T02:25:15.325Z",
+  "synced_at": "2026-02-28T03:50:02.618Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/18bc61f92ab9d81bc9010f4f11c6d35bbc8cf3325a5f3643e1275bc2a67c7d21",
   "install_command": "mkdir -p .claude/skills/backend-python-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/05-backend-python/SKILL.md\" > .claude/skills/backend-python-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/05-backend-python/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3820485f737c0de58bff101593abcd04b5930019ed304a1dbe7016795f91aec3",
   "indexed_at": "2026-02-27T01:52:45.535Z",
-  "synced_at": "2026-02-27T02:25:21.092Z",
+  "synced_at": "2026-02-28T03:50:14.474Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0d1f39efe05efc5c92bb752ce724eac37d800fb6a42f900afbcb9a98b1f0274c",
   "install_command": "mkdir -p .claude/skills/add-atom && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-atom/SKILL.md\" > .claude/skills/add-atom/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-atom/SKILL.md"

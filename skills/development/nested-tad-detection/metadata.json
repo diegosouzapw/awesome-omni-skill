@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "71be71e9552722fdf46aeb4803f5b0af5875f1f2f85327fc759d83651ca6bbe5",
   "indexed_at": "2026-02-24T23:27:07.962Z",
-  "synced_at": "2026-02-27T02:24:55.437Z",
+  "synced_at": "2026-02-28T03:49:43.344Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ececc75e0cd90e890856fb32c235f28fea2ac725b4e8e9b77cd18c6d79bc64c8",
   "install_command": "mkdir -p .claude/skills/nested-tad-detection && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/31-toolbased-nested-tad-detection/SKILL.md\" > .claude/skills/nested-tad-detection/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/31-toolbased-nested-tad-detection/SKILL.md"

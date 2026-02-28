@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "679a5e1967b31b1845254d7655f537bbac0352580470b94ed0ed08ae41c65d72",
   "indexed_at": "2026-02-24T23:40:08.476Z",
-  "synced_at": "2026-02-27T02:25:06.172Z",
+  "synced_at": "2026-02-28T03:49:54.194Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/01e266e5d436c15b24bc0728a554b74603555c9994c81a21799d3f9a4307c388",
   "install_command": "mkdir -p .claude/skills/abramov-state-composition && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/abramov/SKILL.md\" > .claude/skills/abramov-state-composition/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/abramov/SKILL.md"

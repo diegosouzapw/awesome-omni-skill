@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c80f9a97cbc0a1ba5fd9d580601fb6b4f904d0aaa6e3c4ce703ce697bdeff330",
   "indexed_at": "2026-02-27T02:53:46.978Z",
-  "synced_at": "2026-02-27T13:12:52.185Z",
+  "synced_at": "2026-02-28T03:50:25.858Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2f0fe7ee893a24adf191355410d0d32f3f1f4ce418a1fa83107c8199f7af0828",
   "install_command": "mkdir -p .claude/skills/adynato-web && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/adynato-web/SKILL.md\" > .claude/skills/adynato-web/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/adynato-web/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3c6fedd4bda3487ef656938a5ec7533fa52b64ad753780742229c966e89f1755",
   "indexed_at": "2026-02-27T03:52:59.564Z",
-  "synced_at": "2026-02-27T13:12:53.952Z",
+  "synced_at": "2026-02-28T03:50:28.868Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/27ae580e69982876900874bc93488e2bd812322489b04a2ed3299afbdf10f9b9",
   "install_command": "mkdir -p .claude/skills/agent-md-refactor && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-md-refactor/SKILL.md\" > .claude/skills/agent-md-refactor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-md-refactor/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5ae5cc5c7e7aaba0226e712d67826414ea1342b0ece91ec183ec1228a2e27b42",
   "indexed_at": "2026-02-24T23:41:14.228Z",
-  "synced_at": "2026-02-27T02:25:08.855Z",
+  "synced_at": "2026-02-28T03:49:56.771Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9dcc482aeafe06d341e0e2c57deabc1745d92a3dc7ae2ad6a94ce48c795dc8e6",
   "install_command": "mkdir -p .claude/skills/acc-architecture-doc-template && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-architecture-doc-template/SKILL.md\" > .claude/skills/acc-architecture-doc-template/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-architecture-doc-template/SKILL.md"

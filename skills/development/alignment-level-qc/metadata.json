@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3f1aa8765ece3fc21dc7cab9919f2ec046715bcaa4e455b4cdf1794f88e85262",
   "indexed_at": "2026-02-24T23:24:53.211Z",
-  "synced_at": "2026-02-27T02:24:48.441Z",
+  "synced_at": "2026-02-28T03:49:36.869Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a929b695bf50b76a81fec42811ef843dbac09ae3722ee3b40d668b9ffd355746",
   "install_command": "mkdir -p .claude/skills/alignment-level-qc && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1-alignment-level-qc/SKILL.md\" > .claude/skills/alignment-level-qc/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1-alignment-level-qc/SKILL.md"

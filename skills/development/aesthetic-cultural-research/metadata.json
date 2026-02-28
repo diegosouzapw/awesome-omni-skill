@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e64ca14369f9dd325324d46870650c7111e3ea8dd3a7550a4e7848d8d3e9de08",
   "indexed_at": "2026-02-27T02:54:25.003Z",
-  "synced_at": "2026-02-27T13:12:56.900Z",
+  "synced_at": "2026-02-28T03:50:53.091Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/97641189bba674ce7f2a614af0f8da9a8b893fb71af216ad96c2331b4c2b6ef8",
   "install_command": "mkdir -p .claude/skills/aesthetic-cultural-research && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aesthetic-cultural-research/SKILL.md\" > .claude/skills/aesthetic-cultural-research/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aesthetic-cultural-research/SKILL.md"

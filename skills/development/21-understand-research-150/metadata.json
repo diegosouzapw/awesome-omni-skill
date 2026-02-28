@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a59a7098d0a4ba355cf26fa62241c1c747470866f0d9aed3667765b2c00dbf7c",
   "indexed_at": "2026-02-24T23:26:25.713Z",
-  "synced_at": "2026-02-27T02:24:53.563Z",
+  "synced_at": "2026-02-28T03:49:41.571Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/07abec81dccf42664825e69e009a199301b5820946f13f53d1f99767eb9c6d7d",
   "install_command": "mkdir -p .claude/skills/21-understand-research-150 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/21-understand-research-150/SKILL.md\" > .claude/skills/21-understand-research-150/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/21-understand-research-150/SKILL.md"

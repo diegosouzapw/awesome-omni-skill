@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c047fe6e704afbd6d30ffd13b06e29fd4b788c5312a9bfb4c79ef4982ff45bbd",
   "indexed_at": "2026-02-24T23:40:34.409Z",
-  "synced_at": "2026-02-27T02:25:13.680Z",
+  "synced_at": "2026-02-28T03:50:01.030Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dec68ded2db18eb77733b9a122734f13badecf9ed2472358e2bea89c903da386",
   "install_command": "mkdir -p .claude/skills/ac-spec-parser && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ac-spec-parser/SKILL.md\" > .claude/skills/ac-spec-parser/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ac-spec-parser/SKILL.md"

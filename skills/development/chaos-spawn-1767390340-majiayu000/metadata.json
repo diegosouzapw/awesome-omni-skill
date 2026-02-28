@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "922fe6466d2b1bf5e9929565ebbae082dbc43b5c94e60fd290855615aec3bd2a",
   "indexed_at": "2026-02-27T01:47:21.224Z",
-  "synced_at": "2026-02-27T02:25:27.615Z",
+  "synced_at": "2026-02-28T03:50:51.422Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d9f7f94e796eaa4421762d06934ffaeeea298d42733e9bab82c05dfdc6aee899",
   "install_command": "mkdir -p .claude/skills/chaos-spawn-1767390340 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/20260102-214539-chaos-spawn-1767390340/SKILL.md\" > .claude/skills/chaos-spawn-1767390340/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/20260102-214539-chaos-spawn-1767390340/SKILL.md"

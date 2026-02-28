@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7e3aca137c47ae9ff00faa0f8a6de96bd94c94f7b16499971362e64ae7fa551f",
   "indexed_at": "2026-02-27T03:51:33.670Z",
-  "synced_at": "2026-02-27T13:12:55.970Z",
+  "synced_at": "2026-02-28T03:50:48.610Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/96dd61338f8149da6b7ec1949bae49599526a3837151003a4078eec50947f1e5",
   "install_command": "mkdir -p .claude/skills/agent-flutter-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-flutter-expert/SKILL.md\" > .claude/skills/agent-flutter-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-flutter-expert/SKILL.md"

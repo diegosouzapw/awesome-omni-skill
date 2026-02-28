@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fd111f626b2386c96ad9104ddf70f9187dedfe68fa6f00406d43cf1fa4d09a92",
   "indexed_at": "2026-02-24T23:39:37.243Z",
-  "synced_at": "2026-02-27T02:25:03.725Z",
+  "synced_at": "2026-02-28T03:49:51.784Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f19aad52d93d91bf6382ac6ef5b93f3024049d643b0b84f364cb7fc47b78dd5e",
   "install_command": "mkdir -p .claude/skills/abaqus-shape-optimization && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/abaqus-shape-optimization/SKILL.md\" > .claude/skills/abaqus-shape-optimization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/abaqus-shape-optimization/SKILL.md"

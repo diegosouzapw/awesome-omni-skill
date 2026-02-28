@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b76db7cb08375f200c6836b04fc8017d20332a6cde0a27234df3222ec8357b5c",
   "indexed_at": "2026-02-24T23:39:33.377Z",
-  "synced_at": "2026-02-27T02:25:03.318Z",
+  "synced_at": "2026-02-28T03:49:51.392Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c5e16f4dc882d467cbe022cab98b2728fbb5d7d8ad2a2b486ed81c627cfe8805",
   "install_command": "mkdir -p .claude/skills/abaqus-odb && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/abaqus-odb/SKILL.md\" > .claude/skills/abaqus-odb/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/abaqus-odb/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c62ead1926862b6fbcd3afebc03078f3e2775bce1c52ce618a1e9d4995e9c3f0",
   "indexed_at": "2026-02-27T01:53:13.099Z",
-  "synced_at": "2026-02-27T02:25:21.688Z",
+  "synced_at": "2026-02-28T03:50:15.241Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4a19069bb9b78385515e4166cadeaa1e9be1d6188dea06a9021101c038d17825",
   "install_command": "mkdir -p .claude/skills/add-component && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-component-ariedam64-gemini/SKILL.md\" > .claude/skills/add-component/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-component-ariedam64-gemini/SKILL.md"

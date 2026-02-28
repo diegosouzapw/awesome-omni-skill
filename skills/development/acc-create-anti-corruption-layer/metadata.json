@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "efabd3b15251398c2cbee76420690e1439a9a2ed91ed18aa08750fec2f701c6b",
   "indexed_at": "2026-02-24T23:41:31.351Z",
-  "synced_at": "2026-02-27T02:25:10.394Z",
+  "synced_at": "2026-02-28T03:49:58.178Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5be2f663c0edff47ee4b6337af12b7c011fbe65ddacf1e782bf7510b7ac936cf",
   "install_command": "mkdir -p .claude/skills/acc-create-anti-corruption-layer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-anti-corruption-layer/SKILL.md\" > .claude/skills/acc-create-anti-corruption-layer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-anti-corruption-layer/SKILL.md"

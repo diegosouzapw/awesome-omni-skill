@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "66cbf700542a2b29cbc74a75ff86a282b6300b9f8e3e406cca5e051b29d5840c",
   "indexed_at": "2026-02-27T02:56:08.598Z",
-  "synced_at": "2026-02-27T13:12:53.601Z",
+  "synced_at": "2026-02-28T03:50:28.261Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bb3989a6a35c656d54ac2662cb901a03c32c4217bfc530ab772017023cdcc48f",
   "install_command": "mkdir -p .claude/skills/agent-builder-vercel-sdk && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-builder-vercel-sdk/SKILL.md\" > .claude/skills/agent-builder-vercel-sdk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-builder-vercel-sdk/SKILL.md"

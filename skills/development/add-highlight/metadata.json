@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "12c9a77dd11212f89c1f5e651de708efb517cd07dfc5dcbdff8b5c08e3c822f2",
   "indexed_at": "2026-02-27T01:54:14.059Z",
-  "synced_at": "2026-02-27T02:25:26.292Z",
+  "synced_at": "2026-02-28T03:50:42.719Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6684d014b1f6cbb529474773fc14a2e2f313799271ee8384d4bba725fbe028d7",
   "install_command": "mkdir -p .claude/skills/add-highlight && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-highlight/SKILL.md\" > .claude/skills/add-highlight/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-highlight/SKILL.md"

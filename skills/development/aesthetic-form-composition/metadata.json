@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d9fdb36ff282e9bc8600ce4ba34b8553e5fb649b877dd0fc8f264793f1cff711",
   "indexed_at": "2026-02-27T02:54:31.287Z",
-  "synced_at": "2026-02-27T13:12:57.001Z",
+  "synced_at": "2026-02-28T03:50:53.280Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e3623732a6fde6cf1adde7f0524d9305575ac71fd60b5ff7a3bbb9f78ba8df34",
   "install_command": "mkdir -p .claude/skills/aesthetic-form-composition && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aesthetic-form-composition/SKILL.md\" > .claude/skills/aesthetic-form-composition/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aesthetic-form-composition/SKILL.md"

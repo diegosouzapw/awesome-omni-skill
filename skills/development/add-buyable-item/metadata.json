@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f777755cb442db6f4d95772863722e3550879eaea30d0c84b75523bbe5ee0094",
   "indexed_at": "2026-02-27T01:53:03.526Z",
-  "synced_at": "2026-02-27T02:25:21.389Z",
+  "synced_at": "2026-02-28T03:50:14.857Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/74e761855961aa81a6a5f5f9eefc5857c64ee1ce82ad37a43313467001c3cf55",
   "install_command": "mkdir -p .claude/skills/add-buyable-item && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-buyable-item/SKILL.md\" > .claude/skills/add-buyable-item/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-buyable-item/SKILL.md"

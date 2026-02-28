@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f3613561ea6638fed4bf9d5f63e0c806356ccc8e52c073e944944299a81a5208",
   "indexed_at": "2026-02-24T23:27:01.459Z",
-  "synced_at": "2026-02-27T02:24:55.227Z",
+  "synced_at": "2026-02-28T03:49:43.153Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/24a21924743877dea1d566366619ec0fdd5d43fd4c57ac25514b2b157ce5cf82",
   "install_command": "mkdir -p .claude/skills/30-analyze-impact-150 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/30-analyze-impact-150/SKILL.md\" > .claude/skills/30-analyze-impact-150/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/30-analyze-impact-150/SKILL.md"

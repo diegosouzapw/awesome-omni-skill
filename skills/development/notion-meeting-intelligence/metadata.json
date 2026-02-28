@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "91b42aedba2307c302ed820a51b35689e2d2d4e1ace07ca386f40283d73b8579",
   "indexed_at": "2026-02-24T23:26:39.069Z",
-  "synced_at": "2026-02-27T02:24:54.176Z",
+  "synced_at": "2026-02-28T03:49:42.172Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ece1de8b1cb68111f14a712f75124300a74a1cd104955fa5433e024d9b8710ae",
   "install_command": "mkdir -p .claude/skills/notion-meeting-intelligence && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/27d8604b-4c55-42c9-8438-ea6009900003/SKILL.md\" > .claude/skills/notion-meeting-intelligence/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/27d8604b-4c55-42c9-8438-ea6009900003/SKILL.md"

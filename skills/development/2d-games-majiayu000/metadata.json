@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dd87b3817731a9f5204a28d4ffd6d4a21e7f9b69fe31bac6925c39bacc2d2fb4",
   "indexed_at": "2026-02-27T01:47:29.515Z",
-  "synced_at": "2026-02-27T02:25:25.833Z",
+  "synced_at": "2026-02-28T03:50:42.122Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f61460973c76293aa80d193eec094ae39bb958e46c9f10d6b30e24f54a294e74",
   "install_command": "mkdir -p .claude/skills/2d-games && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/2d-games/SKILL.md\" > .claude/skills/2d-games/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/2d-games/SKILL.md"

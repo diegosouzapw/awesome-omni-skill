@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cf366e62addb579eb3816d2757cbf8ce23a0d7217b9d81fcb865215453e17649",
   "indexed_at": "2026-02-27T00:50:56.136Z",
-  "synced_at": "2026-02-27T02:24:40.224Z",
+  "synced_at": "2026-02-28T03:49:26.074Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/81d6a011db6a54f93e4dbdf266bd4e6e41503ac9bfab42b92dfbf77989afd07b",
   "install_command": "mkdir -p .claude/skills/access-locked-out && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/access-locked-out/SKILL.md\" > .claude/skills/access-locked-out/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/access-locked-out/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b1f97908942a6d9217e338545c78d2cb0c78e0deba97b4e9a14f6cb0588c972e",
   "indexed_at": "2026-02-27T01:47:57.457Z",
-  "synced_at": "2026-02-27T02:25:18.698Z",
+  "synced_at": "2026-02-28T03:50:11.567Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7e2621226094d1dbf6c0c38658efa6c78caf3d5f56fc468cef2411a66ffe78c3",
   "install_command": "mkdir -p .claude/skills/lead-research-assistant && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/4-lead-research-assistant/SKILL.md\" > .claude/skills/lead-research-assistant/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/4-lead-research-assistant/SKILL.md"

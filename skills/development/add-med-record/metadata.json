@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f19d5ba5e6b41362430e510f3171385f0a63327ceb0156b6524071112ad1bd26",
   "indexed_at": "2026-02-27T01:54:49.964Z",
-  "synced_at": "2026-02-27T02:25:23.198Z",
+  "synced_at": "2026-02-28T03:50:17.182Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4419bf4cbe053c2f3bc6550c1017aeb3e776d6581f6d12829a60de143e0c34d6",
   "install_command": "mkdir -p .claude/skills/add-med-record && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-med-record/SKILL.md\" > .claude/skills/add-med-record/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-med-record/SKILL.md"

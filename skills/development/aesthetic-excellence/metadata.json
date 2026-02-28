@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0ed5621e176b475e5611c38b88b50e0cdf68b533302dc6fc53a150c52c057782",
   "indexed_at": "2026-02-27T02:54:29.019Z",
-  "synced_at": "2026-02-27T13:12:52.647Z",
+  "synced_at": "2026-02-28T03:50:26.616Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b20a6f46c4e1cfff8f748e699c8634d3c26d4d3c82b1c29abed3ebf2de0556aa",
   "install_command": "mkdir -p .claude/skills/aesthetic-excellence && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aesthetic-excellence/SKILL.md\" > .claude/skills/aesthetic-excellence/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aesthetic-excellence/SKILL.md"

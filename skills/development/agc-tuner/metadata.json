@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "41506156473d5016243a502d2261feaf3eae46dc5bf238f898570f64d9c04f21",
   "indexed_at": "2026-02-27T02:55:09.673Z",
-  "synced_at": "2026-02-27T13:12:53.235Z",
+  "synced_at": "2026-02-28T03:50:27.562Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/805a5565850e28260bf87a50220c60067e7a79cff0aaa0069e2115c165defd06",
   "install_command": "mkdir -p .claude/skills/agc-tuner && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agc-tuner/SKILL.md\" > .claude/skills/agc-tuner/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agc-tuner/SKILL.md"

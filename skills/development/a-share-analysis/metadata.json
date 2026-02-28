@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5b3f3eb4aee875a8c32147cc3c7960f17627c8cd024d516d41e621a45fcfde0a",
   "indexed_at": "2026-02-24T23:38:17.481Z",
-  "synced_at": "2026-02-27T02:24:59.823Z",
+  "synced_at": "2026-02-28T03:49:47.938Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9e615af3d8e48d5b590e09275bb8b5735260acfc4303dce6606128501298ae40",
   "install_command": "mkdir -p .claude/skills/a-share-analysis && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/a-share-analysis/SKILL.md\" > .claude/skills/a-share-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/a-share-analysis/SKILL.md"

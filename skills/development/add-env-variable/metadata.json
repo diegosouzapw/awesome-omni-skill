@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "61668eea93f32fc552ae32ceea55b1c9aa401161825918c6695406edd5685ee4",
   "indexed_at": "2026-02-27T01:53:47.181Z",
-  "synced_at": "2026-02-27T02:25:21.981Z",
+  "synced_at": "2026-02-28T03:50:15.636Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8e8e2138ff068aa1a1eb9f9b54c112b1a3cd4d2feaf6968cfe10fd6e021f3ae8",
   "install_command": "mkdir -p .claude/skills/add-env-variable && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-env-variable/SKILL.md\" > .claude/skills/add-env-variable/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-env-variable/SKILL.md"

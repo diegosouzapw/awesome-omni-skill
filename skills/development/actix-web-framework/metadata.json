@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "51e510dfad9675fd1f116f11668c83f7cb779ed1b3854734670d17fd6ea30e0c",
   "indexed_at": "2026-02-27T00:56:43.401Z",
-  "synced_at": "2026-02-27T02:24:40.002Z",
+  "synced_at": "2026-02-28T03:49:25.076Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/22fc0b0081c2772c6f74628d02c99654e81afb396bf755d2d344690856818ee5",
   "install_command": "mkdir -p .claude/skills/actix-web-framework && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/actix-web/SKILL.md\" > .claude/skills/actix-web-framework/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/actix-web/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33d7295a7a01f6dc95487b6f06debce3f094cc17be5f4964f83d8b5a69503202",
   "indexed_at": "2026-02-24T23:05:35.297Z",
-  "synced_at": "2026-02-27T02:25:15.746Z",
+  "synced_at": "2026-02-28T03:50:03.014Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a27773943317db2b192c35ab6543dfca0d0a8b2628553b92fd5c5eabafae0022",
   "install_command": "mkdir -p .claude/skills/github && curl -sL \"https://raw.githubusercontent.com/abhaymundhara/ChatDock/main/src/server/skills/github/SKILL.md\" > .claude/skills/github/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/abhaymundhara/ChatDock/main/src/server/skills/github/SKILL.md"

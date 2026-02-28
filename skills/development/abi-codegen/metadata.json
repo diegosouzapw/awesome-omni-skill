@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fb0e3c8b8917a78be6394659ba0e40bd808f9a20e1ce38f1fe13b2950a204db0",
   "indexed_at": "2026-02-24T23:39:49.468Z",
-  "synced_at": "2026-02-27T02:25:04.555Z",
+  "synced_at": "2026-02-28T03:49:52.583Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f283b25ae47370990fb43f9552435d61041f11abba42153926859158f4352043",
   "install_command": "mkdir -p .claude/skills/abi-codegen && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/abi-codegen/SKILL.md\" > .claude/skills/abi-codegen/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/abi-codegen/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "21a476618e9f9d63a4f9a8e6eebf43a375bbac7b35872739fe96f961a51d3968",
   "indexed_at": "2026-02-24T23:41:39.297Z",
-  "synced_at": "2026-02-27T02:25:10.799Z",
+  "synced_at": "2026-02-28T03:49:58.566Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/07e3e35e148d8b648d8ed4250cac94ec96cbf803f29393870332cb9095204422",
   "install_command": "mkdir -p .claude/skills/acc-create-decorator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-decorator/SKILL.md\" > .claude/skills/acc-create-decorator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-decorator/SKILL.md"

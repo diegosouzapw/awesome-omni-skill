@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bfaeb0e4c30a358610a340ddc0dd9f4d926881c4dcf454cd20885c447e91af53",
   "indexed_at": "2026-02-27T01:51:55.744Z",
-  "synced_at": "2026-02-27T02:25:20.789Z",
+  "synced_at": "2026-02-28T03:50:14.078Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/619748c1c57e30346bcd662771509c835bf3a3d5039015d41365fa44616907d3",
   "install_command": "mkdir -p .claude/skills/adb-android-control && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/adb-android-control/SKILL.md\" > .claude/skills/adb-android-control/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/adb-android-control/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2b4d235b98227457f8a8e86448190d8bfe779f654fe58a927571af2d26d949bf",
   "indexed_at": "2026-02-24T23:41:33.905Z",
-  "synced_at": "2026-02-27T02:25:10.599Z",
+  "synced_at": "2026-02-28T03:49:58.373Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c82b9192fd8eb4418dc1755373e9c16ff592e78b6491b3e27a653626e45c7bbd",
   "install_command": "mkdir -p .claude/skills/acc-create-bulkhead && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-bulkhead/SKILL.md\" > .claude/skills/acc-create-bulkhead/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-bulkhead/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fa6c50a053e56fb1cef1c48a18bdeee56f5798f0507f1874432e77763e199d21",
   "indexed_at": "2026-02-24T23:37:32.526Z",
-  "synced_at": "2026-02-27T02:24:58.502Z",
+  "synced_at": "2026-02-28T03:49:46.762Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7babceccb3227e185cb593c662fa1811fb65b8d22fc7942066cadd8821694318",
   "install_command": "mkdir -p .claude/skills/70-close-task-150 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/70-close-task-150/SKILL.md\" > .claude/skills/70-close-task-150/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/70-close-task-150/SKILL.md"

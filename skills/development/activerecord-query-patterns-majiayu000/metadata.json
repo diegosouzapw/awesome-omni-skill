@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e5211bd86664ab7e6bf97b4744a7f5f1db4493d1dc14a9493f0a39e79f23e5b8",
   "indexed_at": "2026-02-27T01:50:51.519Z",
-  "synced_at": "2026-02-27T02:25:20.183Z",
+  "synced_at": "2026-02-28T03:50:13.296Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e5776b388556d69351e4b5fefdf6c685aa2fcf92f1b2956b3b50bd75090f399b",
   "install_command": "mkdir -p .claude/skills/activerecord-query-patterns && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/activerecord-query-patterns/SKILL.md\" > .claude/skills/activerecord-query-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/activerecord-query-patterns/SKILL.md"

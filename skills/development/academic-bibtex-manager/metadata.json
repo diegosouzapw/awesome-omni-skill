@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bb9bb2f083fca10df0f389557a83bb695b489f857ca2de0d2f0a809b4bc2de52",
   "indexed_at": "2026-02-24T23:40:42.516Z",
-  "synced_at": "2026-02-27T02:25:07.385Z",
+  "synced_at": "2026-02-28T03:49:55.383Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b582ff26f3300a5e3a301a5793b972b5b436073261b4878a67c12ad4bb703a56",
   "install_command": "mkdir -p .claude/skills/academic-bibtex-manager && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/academic-bibtex-manager/SKILL.md\" > .claude/skills/academic-bibtex-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/academic-bibtex-manager/SKILL.md"

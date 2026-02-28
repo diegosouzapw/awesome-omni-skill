@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "523c5691261e5e0bef53e287900e2480a11652fdae7f43fda0a66c7ab9746b14",
   "indexed_at": "2026-02-24T23:41:16.831Z",
-  "synced_at": "2026-02-27T02:25:09.056Z",
+  "synced_at": "2026-02-28T03:49:56.974Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/78b677bf2b8144b08841dcd22b53e4fff578fb0637a2b63fa07c5e0fbfbaec66",
   "install_command": "mkdir -p .claude/skills/acc-check-bounded-contexts && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-check-bounded-contexts/SKILL.md\" > .claude/skills/acc-check-bounded-contexts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-check-bounded-contexts/SKILL.md"

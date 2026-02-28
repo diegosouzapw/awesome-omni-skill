@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b928956393e60dcb337de54c165dd1f0f5d008e351cccc0f8cca53b3277458a0",
   "indexed_at": "2026-02-27T03:50:58.085Z",
-  "synced_at": "2026-02-27T13:12:55.818Z",
+  "synced_at": "2026-02-28T03:50:48.410Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/97d828bb88969c5a789baf08f6c8274bdad0ba336ff68c414c3705d66e11a110",
   "install_command": "mkdir -p .claude/skills/agent-dotnet-core-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-dotnet-core-expert/SKILL.md\" > .claude/skills/agent-dotnet-core-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-dotnet-core-expert/SKILL.md"

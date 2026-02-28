@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8dc15c423ff639225c16b68e356a4c568f7120816a4992b16d2c6de89cc7e3b5",
   "indexed_at": "2026-02-24T23:35:39.882Z",
-  "synced_at": "2026-02-27T02:24:55.636Z",
+  "synced_at": "2026-02-28T03:49:43.741Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/29e14c9f86a742e64049e45b407d6ad53be91598b9d61f6e766310b9960da715",
   "install_command": "mkdir -p .claude/skills/3d-bin-packing && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/3d-bin-packing/SKILL.md\" > .claude/skills/3d-bin-packing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/3d-bin-packing/SKILL.md"

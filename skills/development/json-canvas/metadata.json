@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "07ad042cd6e315afc01c4a3b978530cd96573addc1205ad4cf894948bf97155c",
   "indexed_at": "2026-02-24T23:37:43.400Z",
-  "synced_at": "2026-02-27T02:24:58.905Z",
+  "synced_at": "2026-02-28T03:49:47.150Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6e5cc09bc91310c9323885026b3052b907f60b8da067c7b799902d432275a038",
   "install_command": "mkdir -p .claude/skills/json-canvas && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/72714e33-102d-4c0a-8f9d-4790c1145f5f/SKILL.md\" > .claude/skills/json-canvas/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/72714e33-102d-4c0a-8f9d-4790c1145f5f/SKILL.md"

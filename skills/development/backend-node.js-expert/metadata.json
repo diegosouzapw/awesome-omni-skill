@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "27c242465bb6a7fb6d7935da78a522d14ae95ab92185833e316978b293d129ea",
   "indexed_at": "2026-02-24T23:24:30.295Z",
-  "synced_at": "2026-02-27T02:25:15.528Z",
+  "synced_at": "2026-02-28T03:50:02.816Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4e224bb1b03527b3686317177270b1039becce12c5d11853e9770c028ad19df0",
   "install_command": "mkdir -p .claude/skills/backend-node.js-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/05-backend-node/SKILL.md\" > .claude/skills/backend-node.js-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/05-backend-node/SKILL.md"

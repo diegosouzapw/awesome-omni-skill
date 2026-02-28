@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "11acab7969ffad0a6ee569a43ec8feba752c6a266565d46d6c1c5e3a3730f274",
   "indexed_at": "2026-02-27T01:56:59.329Z",
-  "synced_at": "2026-02-27T02:25:25.379Z",
+  "synced_at": "2026-02-28T03:50:19.996Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1c0e62c575d815bc4b13f65c599dcddac37b36f3cfb66407ce1d1657eb762cd2",
   "install_command": "mkdir -p .claude/skills/add-shadcn-component && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-shadcn-component/SKILL.md\" > .claude/skills/add-shadcn-component/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-shadcn-component/SKILL.md"

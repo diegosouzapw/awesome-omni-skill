@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "15666df01fd48efb8dfcdfd85c44a57134e964408abf8775a127033c62068667",
   "indexed_at": "2026-02-27T01:48:26.566Z",
-  "synced_at": "2026-02-27T02:25:19.399Z",
+  "synced_at": "2026-02-28T03:50:12.336Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b645580d4418f6947efbbc1ed279c4d5a831d04cfe1104803f5b4109d325ab33",
   "install_command": "mkdir -p .claude/skills/domain-name-brainstormer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1c/SKILL.md\" > .claude/skills/domain-name-brainstormer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1c/SKILL.md"

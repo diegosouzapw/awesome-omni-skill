@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ad1a80ede630ca4c083ae27b74828c52ac032827441d7ce23c3a10ce8855e534",
   "indexed_at": "2026-02-27T01:48:42.553Z",
-  "synced_at": "2026-02-27T02:25:19.546Z",
+  "synced_at": "2026-02-28T03:50:12.525Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/94d063e0e49dfb2c93f516afe4e2199ec5cc3156b39df039e49ea564f7b7be3d",
   "install_command": "mkdir -p .claude/skills/theme-factory && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/805bfa87-7c72-4dff-a193-2057070834d4/SKILL.md\" > .claude/skills/theme-factory/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/805bfa87-7c72-4dff-a193-2057070834d4/SKILL.md"

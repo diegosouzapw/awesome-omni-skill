@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bd07e9024d258d4af09116887398ee7164be7400ddb3c8b550a03ccdedc507b1",
   "indexed_at": "2026-02-27T00:54:23.582Z",
-  "synced_at": "2026-02-27T02:24:40.662Z",
+  "synced_at": "2026-02-28T03:49:26.466Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/08b61bb19da417d92789a43c119737fa7d524dfa3878e912d37ea7a100f41a7b",
   "install_command": "mkdir -p .claude/skills/acm-handoff && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acm-handoff/SKILL.md\" > .claude/skills/acm-handoff/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acm-handoff/SKILL.md"

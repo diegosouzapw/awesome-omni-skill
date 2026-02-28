@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b092081e7207f97f955b24a3c630c6584ccb2872d91f50a173419497adbc7a0c",
   "indexed_at": "2026-02-27T01:55:48.097Z",
-  "synced_at": "2026-02-27T02:25:26.595Z",
+  "synced_at": "2026-02-28T03:50:43.094Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/42459326f672a1af84035f0dd75c34e82f6f8de111306f481500ca7802709950",
   "install_command": "mkdir -p .claude/skills/add-perspective && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-perspective/SKILL.md\" > .claude/skills/add-perspective/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-perspective/SKILL.md"

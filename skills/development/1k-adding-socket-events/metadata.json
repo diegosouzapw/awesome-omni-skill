@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "53dc0755ee5076b53f337824bb3a4b9dea94b236c8cb1be833171316c411958e",
   "indexed_at": "2026-02-24T23:25:30.371Z",
-  "synced_at": "2026-02-27T02:24:50.416Z",
+  "synced_at": "2026-02-28T03:49:38.767Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dd18bb343052966704ba5952da2b3d5a72c66d9a6521fa8182a12e4c48bfac71",
   "install_command": "mkdir -p .claude/skills/1k-adding-socket-events && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1k-adding-socket-events/SKILL.md\" > .claude/skills/1k-adding-socket-events/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1k-adding-socket-events/SKILL.md"

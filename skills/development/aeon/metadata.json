@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9df6d3be7c2ec5182cf61a2745365497bc354843d31b05b38aaa2714a3022516",
   "indexed_at": "2026-02-27T02:54:08.881Z",
-  "synced_at": "2026-02-27T13:12:52.528Z",
+  "synced_at": "2026-02-28T03:50:26.419Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/92eb21a5a80f42cf5e3c0a5fce4423383ec91dd6f45554412fc6eaceb9b433ec",
   "install_command": "mkdir -p .claude/skills/aeon && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aeon-majiayu000-claude-skill-registr/SKILL.md\" > .claude/skills/aeon/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aeon-majiayu000-claude-skill-registr/SKILL.md"

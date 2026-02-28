@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cf8fbb75de57042d85e815fb9e1c01b1a141d315ddaee1595dcbedf932570fe2",
   "indexed_at": "2026-02-24T23:05:41.195Z",
-  "synced_at": "2026-02-27T02:25:15.914Z",
+  "synced_at": "2026-02-28T03:50:03.191Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/67f122d156a48c860ec48bda449ee1f1bf857b2b9d3e174b91b3c88d780eb7c0",
   "install_command": "mkdir -p .claude/skills/weather && curl -sL \"https://raw.githubusercontent.com/abhaymundhara/ChatDock/main/src/server/skills/weather/SKILL.md\" > .claude/skills/weather/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/abhaymundhara/ChatDock/main/src/server/skills/weather/SKILL.md"

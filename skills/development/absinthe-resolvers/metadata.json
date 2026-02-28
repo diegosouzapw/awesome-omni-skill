@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3b0a9521e81492db55b9e7b4f53168aa1601e7de936a19464fead9ed54e08098",
   "indexed_at": "2026-02-24T23:40:09.827Z",
-  "synced_at": "2026-02-27T02:25:06.370Z",
+  "synced_at": "2026-02-28T03:49:54.395Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b40d220e8f487dcc31334b7e4c4534375b0d1a0051edc254d051d00b511de0ac",
   "install_command": "mkdir -p .claude/skills/absinthe-resolvers && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/absinthe-resolvers/SKILL.md\" > .claude/skills/absinthe-resolvers/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/absinthe-resolvers/SKILL.md"

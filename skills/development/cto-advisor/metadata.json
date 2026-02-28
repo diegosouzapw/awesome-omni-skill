@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dd499bc72a03055e25e8e953752530cc4207085dfd0f6ec3b88fc7a8ea34f5e6",
   "indexed_at": "2026-02-25T10:35:56.281Z",
-  "synced_at": "2026-02-27T02:24:42.841Z",
+  "synced_at": "2026-02-28T03:49:31.606Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8e6e2ba34792cde8483fb2043b5bbe7cd0c02e534fa3101c08319aab14190c20",
   "install_command": "mkdir -p .claude/skills/cto-advisor && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/c-level/cto-advisor/SKILL.md\" > .claude/skills/cto-advisor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/c-level/cto-advisor/SKILL.md"

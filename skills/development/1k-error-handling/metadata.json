@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6dc53a6ad048ff79201824db7f26e5f9214ce266a8cbeb0c8862a4372a6e727f",
   "indexed_at": "2026-02-24T23:25:42.475Z",
-  "synced_at": "2026-02-27T02:24:51.663Z",
+  "synced_at": "2026-02-28T03:49:39.976Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a3f9c0b253f59c82c3cdff5ca2ce4bda206c57492b1210c919180f8282adc7aa",
   "install_command": "mkdir -p .claude/skills/1k-error-handling && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1k-error-handling/SKILL.md\" > .claude/skills/1k-error-handling/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1k-error-handling/SKILL.md"

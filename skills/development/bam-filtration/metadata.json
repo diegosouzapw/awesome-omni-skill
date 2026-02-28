@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5553f0d6b69754f0e76083a9d4d74ec8d9e02c085d4bf133beeb0ea783c3ad8b",
   "indexed_at": "2026-02-24T23:26:03.300Z",
-  "synced_at": "2026-02-27T02:25:12.257Z",
+  "synced_at": "2026-02-28T03:50:00.078Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aa6264f4e36db1d4310f675b5917b9f1f0600794a311aacc46549a4911e29655",
   "install_command": "mkdir -p .claude/skills/bam-filtration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/2-bam-filtration/SKILL.md\" > .claude/skills/bam-filtration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/2-bam-filtration/SKILL.md"

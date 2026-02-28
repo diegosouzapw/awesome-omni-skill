@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aac2b8133cda423448faae55bba7ce22657d8c5515e3110cfaf348e23c52c89b",
   "indexed_at": "2026-02-24T23:24:56.431Z",
-  "synced_at": "2026-02-27T02:25:11.835Z",
+  "synced_at": "2026-02-28T03:49:59.675Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4344fb7c111014b5ef0811e9fdfa8b52f9a37929f54b993222a9a8d11cf1ed96",
   "install_command": "mkdir -p .claude/skills/1-determine-techstack && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1-determine-techstack/SKILL.md\" > .claude/skills/1-determine-techstack/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1-determine-techstack/SKILL.md"

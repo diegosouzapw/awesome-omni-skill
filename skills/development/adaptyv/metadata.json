@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2bbe9daa4507c537b386b42be6764c9a647f8ea13ee6ab1e67c36d7033b6f19e",
   "indexed_at": "2026-02-27T01:51:51.853Z",
-  "synced_at": "2026-02-27T02:25:20.644Z",
+  "synced_at": "2026-02-28T03:50:13.876Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/38edac49586170a7149b76d77daeb361e5e10b1b59a2bf742d4187104bc78019",
   "install_command": "mkdir -p .claude/skills/adaptyv && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/adaptyv-majiayu000-claude-skill-registr/SKILL.md\" > .claude/skills/adaptyv/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/adaptyv-majiayu000-claude-skill-registr/SKILL.md"

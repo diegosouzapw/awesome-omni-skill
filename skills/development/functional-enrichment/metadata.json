@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c47561697987f08fd8d3875dbc24466f5d3578887a5542e1a24f2a01515a2c4",
   "indexed_at": "2026-02-24T23:25:04.617Z",
-  "synced_at": "2026-02-27T02:24:48.854Z",
+  "synced_at": "2026-02-28T03:49:37.284Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8b8583307f8b777dc4205df8bcc1ff458e0c1e86bf2f778905132cd0dd8e35db",
   "install_command": "mkdir -p .claude/skills/functional-enrichment && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/11-toolbased-functional-enrichment/SKILL.md\" > .claude/skills/functional-enrichment/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/11-toolbased-functional-enrichment/SKILL.md"

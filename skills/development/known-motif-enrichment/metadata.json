@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0a506109fbdcba647dfdedbc44c6962f264aebc589dfc18387ce40606b956040",
   "indexed_at": "2026-02-24T23:25:10.500Z",
-  "synced_at": "2026-02-27T02:24:49.569Z",
+  "synced_at": "2026-02-28T03:49:37.881Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cd86c8e602c151f55f4eb0d914326f7026548c04c3ba80c8f5e193a19b319ffd",
   "install_command": "mkdir -p .claude/skills/known-motif-enrichment && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/13-toolbased-known-motif-enrichment/SKILL.md\" > .claude/skills/known-motif-enrichment/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/13-toolbased-known-motif-enrichment/SKILL.md"

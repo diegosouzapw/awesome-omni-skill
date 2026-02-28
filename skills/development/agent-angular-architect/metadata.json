@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "93db88a11258923808489ae0083082b0d061d6da727e9c97d6b3c99c30f01e39",
   "indexed_at": "2026-02-27T02:55:29.367Z",
-  "synced_at": "2026-02-27T13:12:57.113Z",
+  "synced_at": "2026-02-28T03:50:53.469Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/86f8b7bcdc95d9489613d637265effcea9438e8963d72ff1db32bcafbc5ab09b",
   "install_command": "mkdir -p .claude/skills/agent-angular-architect && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-angular-architect/SKILL.md\" > .claude/skills/agent-angular-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-angular-architect/SKILL.md"

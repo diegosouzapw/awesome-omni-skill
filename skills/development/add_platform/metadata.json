@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7da05cc51c80fc11b30f191ffa856069aa25db121e739a068aebc46e16e5fec0",
   "indexed_at": "2026-02-27T01:56:05.557Z",
-  "synced_at": "2026-02-27T02:25:24.141Z",
+  "synced_at": "2026-02-28T03:50:18.441Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6d1853f3aaa1f6b733e63aef67e3fb1b911f08dfe142d6a06aedc9c62e3aeb8b",
   "install_command": "mkdir -p .claude/skills/add_platform && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-platform-unsupervisedcom-deepwork/SKILL.md\" > .claude/skills/add_platform/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-platform-unsupervisedcom-deepwork/SKILL.md"

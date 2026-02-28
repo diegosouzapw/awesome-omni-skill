@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2529486fde8c9748a87fdc3398762339bf6072475b714f1d5b8f137e93ff5451",
   "indexed_at": "2026-02-27T03:57:19.012Z",
-  "synced_at": "2026-02-27T13:12:55.215Z",
+  "synced_at": "2026-02-28T03:50:30.624Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b983bc13f5c16caaf4950793e271fd710441f9b51184bb917925eece111b4d46",
   "install_command": "mkdir -p .claude/skills/agent-sdk && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-sdk-prorise-cool-prorisepromptminder/SKILL.md\" > .claude/skills/agent-sdk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-sdk-prorise-cool-prorisepromptminder/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a07054ea74995ff0be8e33336f39a860f7e092222512522445a02ae99a148424",
   "indexed_at": "2026-02-24T23:25:07.531Z",
-  "synced_at": "2026-02-27T02:24:49.159Z",
+  "synced_at": "2026-02-28T03:49:37.486Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/96cef8130cd1539ee8573423f2603d8a5e3e4884f90c89f8b44c5b7fafc562a0",
   "install_command": "mkdir -p .claude/skills/12-factor-apps && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/12-factor-apps/SKILL.md\" > .claude/skills/12-factor-apps/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/12-factor-apps/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8d941e09a96a4156fd25a770696727df4155e0a7528e567ae4fcdbbbcc085921",
   "indexed_at": "2026-02-24T23:39:52.328Z",
-  "synced_at": "2026-02-27T02:25:04.765Z",
+  "synced_at": "2026-02-28T03:49:52.794Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2a7c44cce79a41efb0be9ff814f293dee3c89c16cc743e120dd74206ec362185",
   "install_command": "mkdir -p .claude/skills/ablic && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ablic/SKILL.md\" > .claude/skills/ablic/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ablic/SKILL.md"

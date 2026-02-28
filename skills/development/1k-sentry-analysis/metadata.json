@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "82396116da727c2731fe228672984482015afb1189bf797a1d480959e500e625",
   "indexed_at": "2026-02-24T23:25:53.019Z",
-  "synced_at": "2026-02-27T02:24:52.700Z",
+  "synced_at": "2026-02-28T03:49:40.982Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1588dbcad3e2596b6d0bba8dd9b429eea1af1db307ab6bd960a18a63e8cffb4c",
   "install_command": "mkdir -p .claude/skills/1k-sentry-analysis && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1k-sentry-analysis/SKILL.md\" > .claude/skills/1k-sentry-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1k-sentry-analysis/SKILL.md"

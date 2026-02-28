@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e2ad0ed43203681025b627dcd4b437d30593347be05498e595633d947ee5aac0",
   "indexed_at": "2026-02-24T23:26:41.885Z",
-  "synced_at": "2026-02-27T02:24:54.385Z",
+  "synced_at": "2026-02-28T03:49:42.362Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/20dd12ebebb78b83ff6de48bdcc86d840fef11ecf27e91560ac4e320e0f6235b",
   "install_command": "mkdir -p .claude/skills/regulatory-community-analysis-chia-pet && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/29-regulatory-community-chia-pet/SKILL.md\" > .claude/skills/regulatory-community-analysis-chia-pet/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/29-regulatory-community-chia-pet/SKILL.md"

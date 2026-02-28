@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4d19ab5a8f7c7a714ca6e79805be215af6744d9b5586420d3d8134e5bc6ead3e",
   "indexed_at": "2026-02-27T01:55:25.959Z",
-  "synced_at": "2026-02-27T02:25:23.505Z",
+  "synced_at": "2026-02-28T03:50:17.586Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7373da31cae45b6768078593e1f386cf940b7eeef5af93d4ffd6d17dcb71ad7e",
   "install_command": "mkdir -p .claude/skills/add-nodebridge-handler && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-nodebridge-handler/SKILL.md\" > .claude/skills/add-nodebridge-handler/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-nodebridge-handler/SKILL.md"

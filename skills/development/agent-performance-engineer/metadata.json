@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "375e985f8c5033e550e7f53d792d64d737499054cf627d9d4e842caf56b185ad",
   "indexed_at": "2026-02-27T03:55:55.087Z",
-  "synced_at": "2026-02-27T13:12:56.253Z",
+  "synced_at": "2026-02-28T03:50:49.004Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/82566bc423f41dfd7cdac09d85051404db4562c7fb529d501866f2ce83361297",
   "install_command": "mkdir -p .claude/skills/agent-performance-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-performance-engineer/SKILL.md\" > .claude/skills/agent-performance-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-performance-engineer/SKILL.md"

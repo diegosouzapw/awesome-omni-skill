@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2d4c4208271ace2ddc4623d48eeb7b8c4fa552d72f6d59c4c18c57a2626c5ca0",
   "indexed_at": "2026-02-24T23:25:03.187Z",
-  "synced_at": "2026-02-27T02:24:48.642Z",
+  "synced_at": "2026-02-28T03:49:37.070Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5915c6029ff438483893807a97c300f635c2de2e21524cb9c96e340ba625d300",
   "install_command": "mkdir -p .claude/skills/10x-vision && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/10x-vision/SKILL.md\" > .claude/skills/10x-vision/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/10x-vision/SKILL.md"

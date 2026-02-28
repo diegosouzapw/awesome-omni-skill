@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aaa451b80ec0873c8fc0f96239f7c2edc73f874dd4d80ea337be681fdd64758b",
   "indexed_at": "2026-02-24T23:38:07.265Z",
-  "synced_at": "2026-02-27T02:24:59.619Z",
+  "synced_at": "2026-02-28T03:49:47.735Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f487ad00a02d506b7f82d33a06171906354eae9bf9ee51a7e85abfc5877103c6",
   "install_command": "mkdir -p .claude/skills/tf-differential-binding && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/9-tf-differential-binding/SKILL.md\" > .claude/skills/tf-differential-binding/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/9-tf-differential-binding/SKILL.md"

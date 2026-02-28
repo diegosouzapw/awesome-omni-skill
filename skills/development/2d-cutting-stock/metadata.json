@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "31dccf721ea34251662e00007a273cb07e48e09f607ed236ca680215a8cc30d6",
   "indexed_at": "2026-02-24T23:26:48.721Z",
-  "synced_at": "2026-02-27T02:24:54.995Z",
+  "synced_at": "2026-02-28T03:49:42.952Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/031411bf87a98f0b33f6684408fb4c5858836f774e90bec0572a2b99bd549f01",
   "install_command": "mkdir -p .claude/skills/2d-cutting-stock && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/2d-cutting-stock/SKILL.md\" > .claude/skills/2d-cutting-stock/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/2d-cutting-stock/SKILL.md"

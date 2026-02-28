@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "00985e5c98c02c124e9356f3fce7977b34860c89efb5987fd2ff1d53187d68d9",
   "indexed_at": "2026-02-25T10:36:17.672Z",
-  "synced_at": "2026-02-27T02:24:43.223Z",
+  "synced_at": "2026-02-28T03:49:31.996Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fccda18746caf81f2880463a5ad8b298a187262859f666e5cb316483b4f678aa",
   "install_command": "mkdir -p .claude/skills/clarity && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1-clarity/SKILL.md\" > .claude/skills/clarity/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/1-clarity/SKILL.md"
