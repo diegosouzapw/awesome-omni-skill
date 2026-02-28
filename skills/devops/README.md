@@ -1,6 +1,6 @@
 # 📂 devops
 
-> 730 skills in this category
+> 1,235 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -461,6 +461,35 @@
 | [Deployment Advisor](deployment-advisor/) | majiayu000 | ★ 0 | 48% | L3 | Choose deployment strategy and infrastructure. Use when deciding where to deploy… |
 | [kubernetes-orchestration](kubernetes-orchestration/) | majiayu000 | ★ 0 | 48% | L3 | Comprehensive guide to Kubernetes container orchestration, covering workloads, n… |
 | [devops-engineer](devops-engineer/) | thesaifalitai | ★ 0 | 48% | L2 | Use when setting up CI/CD pipelines, containerizing applications, or managing in… |
+| [mermaid-studio](mermaid-studio/) | tech-leads-club | ★ 0 | 48% | L3 | Expert Mermaid diagram creation, validation, and rendering with dual-engine outp… |
+| [docker-expert](docker-expert/) | Dokhacgiakhoa | ★ 0 | 48% | L3 | Docker containerization expert with deep knowledge of multi-stage builds, image … |
+| [dotnet-ado-patterns](dotnet-ado-patterns/) | rudironsoni | ★ 0 | 48% | L2 | Composes Azure DevOps YAML pipelines. Templates, variable groups, multi-stage, t… |
+| [DevOps Practices](devops-practices/) | majiayu000 | ★ 0 | 48% | L3 | Expertise in deployment automation, container orchestration, and infrastructure … |
+| [cicd-workflows](cicd-workflows/) | justincourses | ★ 0 | 48% | L3 | Helps understand and write EAS workflow YAML files for Expo projects. Use this s… |
+| [router-operations](router-operations/) | majiayu000 | ★ 0 | 48% | L2 | Master orchestration for routing QA, testing, DevOps, observability, and git wor… |
+| [deployment-engineer](deployment-engineer/) | majiayu000 | ★ 0 | 48% | L3 | Expert deployment automation for cloud platforms. Handles CI/CD pipelines, conta… |
+| [dnanexus-integration](dnanexus-integration/) | majiayu000 | ★ 0 | 48% | L3 | DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/downlo… |
+| [cloud-architect](cloud-architect/) | thesaifalitai | ★ 0 | 48% | L2 | Use when designing cloud architectures, planning migrations, or optimizing multi… |
+| [Docker & Kubernetes Orchestrator](docker-kubernetes-orchestrator/) | majiayu000 | ★ 0 | 48% | L3 | Expert guidance for Docker containerization and Kubernetes orchestration. Use wh… |
+| [dotnet-container-deployment](dotnet-container-deployment/) | rudironsoni | ★ 0 | 48% | L3 | Deploys .NET containers. Kubernetes probes, Docker Compose for local dev, CI/CD … |
+| [None](none/) | mukul975 | ★ 0 | 48% | L3 | Container escape is a critical attack technique where an adversary breaks out of… |
+| [upgrade-featbit-chart](upgrade-featbit-chart/) | featbit | ★ 0 | 48% | L3 | Guides safe FeatBit Helm chart upgrades on Kubernetes and AKS. Use when user ask… |
+| [doc-adr-autopilot](doc-adr-autopilot/) | vladm3105 | ★ 0 | 48% | L3 | Automated ADR generation pipeline from BRD Architecture Decision Requirements - … |
+| [azure-diagrams](azure-diagrams/) | gamingopgamingop | ★ 0 | 48% | L3 | Visualizes Azure infrastructure from ARM templates, Azure CLI, or descriptions. … |
+| [terraform-diagrams](terraform-diagrams/) | gamingopgamingop | ★ 0 | 48% | L3 | Generates architecture diagrams from Terraform code. Use when user has .tf files… |
+| [bicep-diagrams](bicep-diagrams/) | gamingopgamingop | ★ 0 | 48% | L3 | Generates architecture diagrams from Azure Bicep files. Use when user has .bicep… |
+| [discover-infra](discover-infra/) | rand | ★ 0 | 48% | L2 | Automatically discover cloud, infrastructure, deployment, and container skills w… |
+| [Multi-Platform Deployment](multi-platform-deployment/) | qenex-ai | ★ 0 | 48% | L3 | This skill should be used when the user asks to "deploy application", "deploy to… |
+| [kubernetes-ops](kubernetes-ops/) | BagelHole | ★ 0 | 48% | L3 | Deploy, scale, and manage Kubernetes workloads. Create deployments, services, an… |
+| [kubernetes-deployment](kubernetes-deployment/) | seb1n | ★ 0 | 48% | L3 | Deploy, manage, and scale applications on Kubernetes clusters using manifests, H… |
+| [deno-deploy](deno-deploy/) | 4ster-light | ★ 0 | 48% | L3 | Use when deploying Deno apps to production, asking about Deno Deploy, or working… |
+| [deploy](deploy/) | majiayu000 | ★ 0 | 48% | L3 | Deployment automation with pre-flight checks, rollback plans, and post-deploymen… |
+| [brownfield-onboarding](brownfield-onboarding/) | cyberelf | ★ 0 | 48% | L2 | This skill helps users get started with existing (brownfield) projects by scanni… |
+| [doc-spec-autopilot](doc-spec-autopilot/) | vladm3105 | ★ 0 | 48% | L3 | Automated SPEC generation from REQ/CTR - generates implementation-ready YAML spe… |
+| [lead-generation](lead-generation/) | nirholas | ★ 0 | 48% | L3 | Finds and qualifies B2B leads from X/Twitter conversations using keyword search,… |
+| [terraform-specialist](terraform-specialist/) | herdiansah | ★ 0 | 48% | L2 | Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state ma… |
+| [docker-expert](docker-expert/) | majiayu000 | ★ 0 | 48% | L3 | Expert-level Docker containerization, image optimization, and container orchestr… |
+| [DevOps & Deployment](devops-deployment/) | majiayu000 | ★ 0 | 48% | L3 | CI/CD pipelines, containerization, Kubernetes, and infrastructure as code patter… |
 | [debugging-dags](debugging-dags/) | astronomer | ★ 0 | 45% | L3 | Comprehensive DAG failure diagnosis and root cause analysis. Use for complex deb… |
 | [scale](scale/) | majiayu000 | ★ 0 | 45% | L3 | Recommend sharding, caching strategies, and read-replication patterns for Cloudf… |
 | [link-deps](link-deps/) | majiayu000 | ★ 0 | 45% | L3 | Discover and link related issues as dependencies. Searches for issues that shoul… |
@@ -734,6 +763,482 @@
 | [frontend-deployment](frontend-deployment/) | clode-labs | ★ 0 | 45% | L3 | Deploy frontend applications from aramb.toml. Creates frontend service, resolves… |
 | [ci-setup](ci-setup/) | majiayu000 | ★ 0 | 45% | L3 | Configure CI/CD pipelines for GitHub Actions, GitLab CI, CircleCI with best prac… |
 | [ci-setup](ci-setup/) | manastalukdar | ★ 0 | 45% | L3 | Configure CI/CD pipelines for GitHub Actions, GitLab CI, CircleCI with best prac… |
+| [ci-setup](ci-setup/) | majiayu000 | ★ 0 | 45% | L3 | Configure CI/CD pipelines for GitHub Actions, GitLab CI, CircleCI with best prac… |
+| [tech-detection](tech-detection/) | nbarthelemy | ★ 0 | 45% | L3 | Detects project tech stack including languages, frameworks, package managers, an… |
+| [automating-workflow-name](automating-workflow-name/) | webmasterarbez | ★ 0 | 45% | L3 | Use this skill when automating [workflow type], setting up CI/CD pipelines, or c… |
+| [code-review](code-review/) | chmc | ★ 0 | 45% | L2 | Code review patterns and checklist for quality assurance. Use when reviewing cod… |
+| [testing-principles](testing-principles/) | tundraray | ★ 0 | 45% | L2 | This skill provides language-agnostic testing principles including TDD, test qua… |
+| [terraform-skill](terraform-skill/) | jmreicha | ★ 0 | 45% | L3 | Use when working with Terraform or OpenTofu - creating modules, writing tests (n… |
+| [writing-skills](writing-skills/) | jlaws | ★ 0 | 45% | L3 | Use when creating new skills, editing existing skills, or verifying skills work … |
+| [writing-skills](writing-skills/) | luxunxiansheng | ★ 0 | 45% | L3 | Use when creating new skills, editing existing skills, or verifying skills work … |
+| [wp-migrate](wp-migrate/) | majiayu000 | ★ 0 | 45% | L3 | WordPress site migration and deployment using wp-migrate.sh. Use when migrating … |
+| [fluxcd](fluxcd/) | majiayu000 | ★ 0 | 45% | L3 | GitOps toolkit with Flux CD for Kubernetes continuous delivery. Use when impleme… |
+| [Run CI/CD Pipeline Locally](run-ci-cd-pipeline-locally/) | RonHouben | ★ 0 | 45% | L3 | Run the Wavecraft CI checks locally. Prefer the native `cargo xtask` commands fo… |
+| [writing-skills](writing-skills/) | majiayu000 | ★ 0 | 45% | L3 | Use when creating new skills, editing existing skills, or verifying skills work … |
+| [writing-skills](writing-skills/) | majiayu000 | ★ 0 | 45% | L3 | Use when creating new skills, editing existing skills, or verifying skills work … |
+| [wp-migrate](wp-migrate/) | aiskillstore | ★ 0 | 45% | L3 | WordPress site migration and deployment using wp-migrate.sh. Use when migrating … |
+| [wp-migrate](wp-migrate/) | BWBama85 | ★ 0 | 45% | L3 | WordPress site migration and deployment using wp-migrate.sh. Use when migrating … |
+| [wp-migrate](wp-migrate/) | majiayu000 | ★ 0 | 45% | L3 | WordPress site migration and deployment using wp-migrate.sh. Use when migrating … |
+| [CI/CD Fix Expert](ci-cd-fix-expert/) | teliha | ★ 0 | 45% | L3 | Analyze and fix CI/CD pipeline failures including build errors, test failures, a… |
+| [secrets-management](secrets-management/) | wangzitian0 | ★ 0 | 45% | L3 | Environment variables, secrets management, multi-environment strategy using Vaul… |
+| [workflow-automate](workflow-automate/) | itsimonfredlingjack | ★ 0 | 45% | L3 | You are a workflow automation expert specializing in creating efficient CI/CD pi… |
+| [headless-automation](headless-automation/) | rahulsub | ★ 0 | 45% | L3 | Run Claude Code in CI/CD pipelines, pre-commit hooks, and batch processing. Cove… |
+| [senior-devops](senior-devops/) | hainamchung | ★ 0 | 45% | L3 | Comprehensive DevOps skill for CI/CD, infrastructure automation, containerizatio… |
+| [optim-pipeline](optim-pipeline/) | sbstndb | ★ 0 | 45% | L3 | Complete GPU optimization pipeline. Launches N agents, runs benchmarks, anti-tri… |
+| [senior-devops](senior-devops/) | NeverSight | ★ 0 | 45% | L3 | Comprehensive DevOps skill for CI/CD, infrastructure automation, containerizatio… |
+| [senior-devops](senior-devops/) | ngxtm | ★ 0 | 45% | L3 | Comprehensive DevOps skill for CI/CD, infrastructure automation, containerizatio… |
+| [bitbucket-workflow](bitbucket-workflow/) | NeverSight | ★ 0 | 45% | L3 | Bitbucket best practices for pull requests, Pipelines CI/CD, Jira integration, a… |
+| [fenrir-ledger-pipeline](fenrir-ledger-pipeline/) | declanshanaghy | ★ 0 | 45% | L3 | Kanban orchestration pipeline for the Fenrir Ledger team. Runs all 4 agents in t… |
+| [ptc-orchestration](ptc-orchestration/) | majiayu000 | ★ 0 | 45% | L3 | Activate when user needs multi-URL scraping, browser automation pipelines, or ef… |
+| [DevOps Engineer](devops-engineer/) | tannergolden | ★ 0 | 45% | L2 | Responsible for CI/CD pipelines, infrastructure automation, and deployment proce… |
+| [shell-scripting-bash-pro](shell-scripting-bash-pro/) | sla-te | ★ 0 | 45% | L3 | Master of defensive Bash scripting for production automation, CI/CD pipelines, a… |
+| [circleci-automation](circleci-automation/) | corsal2025 | ★ 0 | 45% | L2 | Automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor work… |
+| [circleci-automation](circleci-automation/) | boisenoise | ★ 0 | 45% | L2 | Automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor work… |
+| [circleci-automation](circleci-automation/) | javiertarazon | ★ 0 | 45% | L2 | Automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor work… |
+| [cloud-architect](cloud-architect/) | ngxtm | ★ 0 | 45% | L2 | Use when designing cloud architectures, planning migrations, or optimizing multi… |
+| [bats-testing-patterns](bats-testing-patterns/) | pur3v4d3r | ★ 0 | 45% | L3 | Master Bash Automated Testing System (Bats) for comprehensive shell script testi… |
+| [bats-testing-patterns](bats-testing-patterns/) | synqing | ★ 0 | 45% | L3 | Master Bash Automated Testing System (Bats) for comprehensive shell script testi… |
+| [ci-failure](ci-failure/) | sperezintexas | ★ 0 | 45% | L3 | Diagnose GitHub Actions CI failures and suggest fixes. Use when the user reports… |
+| [writing-rules](writing-rules/) | wayne930242 | ★ 0 | 45% | L3 | Use when creating rule files in .claude/rules/, adding project conventions, or s… |
+| [azure-deployment](azure-deployment/) | henrybravo | ★ 0 | 45% | L3 | Deploys applications to Azure using Azure Dev CLI, Bicep infrastructure as code,… |
+| [terraform-platform-stack](terraform-platform-stack/) | orafaelferreiraa | ★ 0 | 45% | L3 | Terraform specialist for Platform as a Service Stack v3.0.0+. Expert in determin… |
+| [bats-testing-patterns](bats-testing-patterns/) | ACGSpgp | ★ 0 | 45% | L3 | Master Bash Automated Testing System (Bats) for comprehensive shell script testi… |
+| [claude-code](claude-code/) | wollfoo | ★ 0 | 45% | L3 | Use when users ask about Claude Code features, setup, configuration, troubleshoo… |
+| [claude-code](claude-code/) | wollfoo | ★ 0 | 45% | L3 | Use when users ask about Claude Code features, setup, configuration, troubleshoo… |
+| [chronos-release](chronos-release/) | all-source-os | ★ 0 | 45% | L3 | Release a new version of the AllSource Chronos monorepo. Bumps versions across a… |
+| [hatch](hatch/) | collinschaafsma | ★ 0 | 45% | L3 | Provision exe.dev cloud VMs for development. Use when user wants to create proje… |
+| [denylist-stuck-messages](denylist-stuck-messages/) | majiayu000 | ★ 0 | 45% | L3 | Add message IDs to the relayer denylist. Use after investigating stuck messages … |
+| [denylist-stuck-messages](denylist-stuck-messages/) | majiayu000 | ★ 0 | 45% | L3 | Add message IDs to the relayer denylist. Use after investigating stuck messages … |
+| [simplify-and-harden](simplify-and-harden/) | openclaw | ★ 0 | 45% | L3 | Post-completion self-review for coding agents that runs simplify, harden, and mi… |
+| [simplify-and-harden](simplify-and-harden/) | pskoett | ★ 0 | 45% | L3 | Post-completion self-review for coding agents that runs simplify, harden, and mi… |
+| [simplify-and-harden](simplify-and-harden/) | NeverSight | ★ 0 | 45% | L3 | Post-completion self-review for coding agents that runs simplify, harden, and mi… |
+| [awesome-copilot-root-agent-orchestrator](awesome-copilot-root-agent-orchestrator/) | sla-te | ★ 0 | 45% | L2 | Coordinate multi-step awesome-copilot-root work across local converted skills. U… |
+| [aws-ai-assistant](aws-ai-assistant/) | diegouis | ★ 0 | 45% | L3 | Building AI Solutions on AWS - Bedrock AgentCore agents, MCP server development,… |
+| [overview](overview/) | majiayu000 | ★ 0 | 45% | L3 | Overview of Claude Code capabilities, features, and use cases. Use when user ask… |
+| [overview](overview/) | majiayu000 | ★ 0 | 45% | L3 | Overview of Claude Code capabilities, features, and use cases. Use when user ask… |
+| [heir-sync-management](heir-sync-management/) | fabioc-aloha | ★ 0 | 45% | L3 | Master-Heir synchronization, inheritance model, contamination prevention, and pr… |
+| [github-workflow](github-workflow/) | yaakaito | ★ 0 | 45% | L2 | Write and edit GitHub Actions workflow files. Use when creating new workflows, e… |
+| [rust-clone-optimization](rust-clone-optimization/) | Dilaz | ★ 0 | 45% | L2 | Use when optimizing Rust code to remove unnecessary .clone() calls, when asked t… |
+| [harness-ci](harness-ci/) | majiayu000 | ★ 0 | 45% | L2 | Harness CI (Continuous Integration) for container-native builds, test intelligen… |
+| [deployment-safety](deployment-safety/) | jcanizalez | ★ 0 | 45% | L3 | Pre-deployment checklists, rollback strategies, and post-deploy verification. Us… |
+| [miniprogram-development](miniprogram-development/) | majiayu000 | ★ 0 | 45% | L2 | WeChat Mini Program development rules. Use this skill when developing WeChat min… |
+| [miniprogram-development](miniprogram-development/) | majiayu000 | ★ 0 | 45% | L2 | WeChat Mini Program development rules. Use this skill when developing WeChat min… |
+| [incident-response](incident-response/) | jcanizalez | ★ 0 | 45% | L3 | Structured incident response — detect, triage, mitigate, resolve, and write post… |
+| [github-actions](github-actions/) | jcanizalez | ★ 0 | 45% | L3 | Debug, optimize, and secure GitHub Actions workflows. Use this skill when writin… |
+| [infrastructure-cost](infrastructure-cost/) | jcanizalez | ★ 0 | 45% | L3 | Analyze and reduce cloud infrastructure costs — right-size resources, eliminate … |
+| [bats-testing-patterns](bats-testing-patterns/) | ollieb89 | ★ 0 | 45% | L3 | Master Bash Automated Testing System (Bats) for comprehensive shell script testi… |
+| [u06740-skill-gap-diagnosis-for-scientific-publishing-pipelines](u06740-skill-gap-diagnosis-for-scientific-publishing-pipelines/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Skill Gap Diagnosis for scientific publishing pipelines" capability… |
+| [bats-testing-patterns](bats-testing-patterns/) | HermeticOrmus | ★ 0 | 45% | L3 | Master Bash Automated Testing System (Bats) for comprehensive shell script testi… |
+| [aws-solution-architect](aws-solution-architect/) | alirezarezvani | ★ 0 | 45% | L3 | Design AWS architectures for startups using serverless patterns and IaC template… |
+| [express-microservices-architecture](express-microservices-architecture/) | manutej | ★ 0 | 45% | L3 | Complete guide for building scalable microservices with Express.js including mid… |
+| [aws-solution-architect](aws-solution-architect/) | borghei | ★ 0 | 45% | L3 | Design AWS architectures for startups using serverless patterns and IaC template… |
+| [aws-solution-architect](aws-solution-architect/) | Nuwanda04 | ★ 0 | 45% | L3 | Design AWS architectures for startups using serverless patterns and IaC template… |
+| [aws-solution-architect](aws-solution-architect/) | YPYT1 | ★ 0 | 45% | L3 | Design AWS architectures for startups using serverless patterns and IaC template… |
+| [express-microservices-architecture](express-microservices-architecture/) | majiayu000 | ★ 0 | 45% | L3 | Complete guide for building scalable microservices with Express.js including mid… |
+| [express-microservices-architecture](express-microservices-architecture/) | majiayu000 | ★ 0 | 45% | L3 | Complete guide for building scalable microservices with Express.js including mid… |
+| [observability-monitoring-observability-engineer](observability-monitoring-observability-engineer/) | sla-te | ★ 0 | 45% | L2 | Build production-ready monitoring, logging, and tracing systems. Implements comp… |
+| [go-microservices](go-microservices/) | majiayu000 | ★ 0 | 45% | L2 | Production-ready Go microservices patterns including Gin, Echo, gRPC, clean arch… |
+| [go-microservices](go-microservices/) | b3-competition | ★ 0 | 45% | L2 | Production-ready Go microservices patterns including Gin, Echo, gRPC, clean arch… |
+| [iac-diagram-generator](iac-diagram-generator/) | majiayu000 | ★ 0 | 45% | L3 | Analyzes Infrastructure as Code files (Terraform, CloudFormation, Kubernetes, Do… |
+| [nvidia-nim](nvidia-nim/) | majiayu000 | ★ 0 | 45% | L3 | NVIDIA NIM (NVIDIA Inference Microservices) for deploying and managing AI models… |
+| [nvidia-nim](nvidia-nim/) | mattnigh | ★ 0 | 45% | L3 | NVIDIA NIM (NVIDIA Inference Microservices) for deploying and managing AI models… |
+| [codebase-architecture-analysis](codebase-architecture-analysis/) | thomasgauvin | ★ 0 | 45% | L3 | Analyze a GitHub codebase to create comprehensive architecture documentation inc… |
+| [codebase-architecture-analysis](codebase-architecture-analysis/) | majiayu000 | ★ 0 | 45% | L3 | Analyze a GitHub codebase to create comprehensive architecture documentation inc… |
+| [architecture-decision-record](architecture-decision-record/) | majiayu000 | ★ 0 | 45% | L3 | ADR format and methodology for documenting significant technical decisions with … |
+| [architecture-decision-record](architecture-decision-record/) | Claude-Code-Community-Ireland | ★ 0 | 45% | L3 | ADR format and methodology for documenting significant technical decisions with … |
+| [project-specification-writer](project-specification-writer/) | majiayu000 | ★ 0 | 45% | L2 | Generate a complete software specification document for the current project/repo… |
+| [project-specification-writer](project-specification-writer/) | sinjie2008 | ★ 0 | 45% | L2 | Generate a complete software specification document for the current project/repo… |
+| [design-infrastructure](design-infrastructure/) | wfukatsu | ★ 0 | 45% | L3 | インフラ基盤構成設計エージェント - AWS/Azure/GCP/OpenShift向けのKubernetes・IaC構成を設計・生成。/design-infr… |
+| [aws-solution-architect](aws-solution-architect/) | derKlinke | ★ 0 | 45% | L3 | Design AWS architectures for startups using serverless patterns and IaC template… |
+| [iac-diagram-generator](iac-diagram-generator/) | johnpsasser | ★ 0 | 45% | L3 | Analyzes Infrastructure as Code files (Terraform, CloudFormation, Kubernetes, Do… |
+| [aws-cloud](aws-cloud/) | DauQuangThanh | ★ 0 | 45% | L2 | Provides comprehensive AWS (Amazon Web Services) guidance including EC2, S3, RDS… |
+| [aws-cloud](aws-cloud/) | NeverSight | ★ 0 | 45% | L2 | Provides comprehensive AWS (Amazon Web Services) guidance including EC2, S3, RDS… |
+| [aws-cloud](aws-cloud/) | majiayu000 | ★ 0 | 45% | L2 | Provides comprehensive AWS (Amazon Web Services) guidance including EC2, S3, RDS… |
+| [setup-automatik](setup-automatik/) | openclaw | ★ 0 | 45% | L3 | Facilitate the installation and management of VPS solutions using the Setup Auto… |
+| [database-admin](database-admin/) | itsimonfredlingjack | ★ 0 | 45% | L2 | Expert database administrator specializing in modern cloud databases, automation… |
+| [k8s-security-policies](k8s-security-policies/) | wshobson | ★ 0 | 45% | L3 | Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolic… |
+| [k8s-security-policies](k8s-security-policies/) | Microck | ★ 0 | 45% | L3 | Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolic… |
+| [k8s-security-policies](k8s-security-policies/) | majiayu000 | ★ 0 | 45% | L3 | Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolic… |
+| [tiledbvcf](tiledbvcf/) | Rowtion | ★ 0 | 45% | L3 | Efficient storage and retrieval of genomic variant data using TileDB. Scalable V… |
+| [eks](eks/) | NeverSight | ★ 0 | 45% | L3 | AWS EKS Kubernetes management for clusters, node groups, and workloads. Use when… |
+| [k8s-security-policies](k8s-security-policies/) | andre-sugai | ★ 0 | 45% | L3 | Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolic… |
+| [learn-kubernetes-space-station-intermediate](learn-kubernetes-space-station-intermediate/) | canedy | ★ 0 | 45% | L3 | Interactive narrative learning session that teaches Kubernetes through a Space S… |
+| [k8s-security-policies](k8s-security-policies/) | ChinhQuach303 | ★ 0 | 45% | L3 | Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolic… |
+| [k8s-security-policies](k8s-security-policies/) | YPYT1 | ★ 0 | 45% | L3 | Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolic… |
+| [k8s-security-policies](k8s-security-policies/) | netflyapp | ★ 0 | 45% | L3 | Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolic… |
+| [bicep](bicep/) | fgarofalo56 | ★ 0 | 45% | L3 | Expert assistance for Azure Bicep infrastructure-as-code. Provides best practice… |
+| [railway](railway/) | aussiegingersnap | ★ 0 | 45% | L3 | Railway deployment and infrastructure management skill. This skill should be use… |
+| [pipeline-setup](pipeline-setup/) | dpaola2 | ★ 0 | 45% | L3 | Set up a repository for the agent pipeline. Auto-detects framework, stack, and d… |
+| [k8s-security-policies](k8s-security-policies/) | xfstudio | ★ 0 | 45% | L3 | Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolic… |
+| [k8s-security-policies](k8s-security-policies/) | AtilaMedeiros | ★ 0 | 45% | L3 | Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolic… |
+| [k8s-security-policies](k8s-security-policies/) | Nandukumar-koribilli | ★ 0 | 45% | L3 | Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolic… |
+| [k8s-security-policies](k8s-security-policies/) | fazedordecodigo | ★ 0 | 45% | L3 | Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolic… |
+| [codevibing](codevibing/) | JDerekLomas | ★ 0 | 45% | L3 | Share to codevibing.com - the social network for Claude Code users. Zero frictio… |
+| [kagenti:deploy](kagenti-deploy/) | kagenti | ★ 0 | 45% | L3 | Deploy or redeploy the Kagenti Kind cluster using the Python installer - quick r… |
+| [deploy_cicd](deploy_cicd/) | majiayu000 | ★ 0 | 45% | L3 | CI/CD pipeline, GitHub Actions, automated deployment, release management, produc… |
+| [deployment-git](deployment-git/) | majiayu000 | ★ 0 | 45% | L3 | Deployment and Git workflow guides for Kailash applications including Docker dep… |
+| [deploying-airflow](deploying-airflow/) | astronomer | ★ 0 | 45% | L3 | Deploy Airflow DAGs and projects. Use when the user wants to deploy code, push D… |
+| [moodle-mirror](moodle-mirror/) | wousp112 | ★ 0 | 45% | L3 | Mirror Moodle course/module pages to local folders (e.g., Obsidian vaults), pres… |
+| [fluxcd](fluxcd/) | majiayu000 | ★ 0 | 45% | L3 | GitOps toolkit with Flux CD for Kubernetes continuous delivery. Use when impleme… |
+| [shipyard-writing-skills](shipyard-writing-skills/) | lgbarn | ★ 0 | 45% | L3 | Use when creating new skills, editing existing skills, or verifying skills work … |
+| [mastering-aws-cdk](mastering-aws-cdk/) | SpillwaveSolutions | ★ 0 | 45% | L2 | Guides AWS CDK v2 infrastructure-as-code development in TypeScript with patterns… |
+| [github-actions-creator](github-actions-creator/) | davila7 | ★ 0 | 45% | L3 | Use when the user wants to create, generate, or set up a GitHub Actions workflow… |
+| [deployment-pipeline-design](deployment-pipeline-design/) | wshobson | ★ 0 | 45% | L3 | Design multi-stage CI/CD pipelines with approval gates, security checks, and dep… |
+| [deployment-engineer](deployment-engineer/) | majiayu000 | ★ 0 | 45% | L3 | Deployment automation specialist for CI/CD pipelines and infrastructure. Use whe… |
+| [deployment-procedures](deployment-procedures/) | majiayu000 | ★ 0 | 45% | L3 | Production deployment principles and decision-making. Safe deployment workflows,… |
+| [deployment-patterns](deployment-patterns/) | faint45 | ★ 0 | 45% | L3 | Deployment workflows, CI/CD pipeline patterns, Docker containerization, health c… |
+| [deployment-patterns](deployment-patterns/) | yd5768365-hue | ★ 0 | 45% | L3 | Deployment workflows, CI/CD pipeline patterns, Docker containerization, health c… |
+| [deployment-pipeline-design](deployment-pipeline-design/) | derKlinke | ★ 0 | 45% | L3 | Design multi-stage CI/CD pipelines with approval gates, security checks, and dep… |
+| [deployment-pipeline-design](deployment-pipeline-design/) | ma1orek | ★ 0 | 45% | L3 | Design multi-stage CI/CD pipelines with approval gates, security checks, and dep… |
+| [deployment-pipeline-design](deployment-pipeline-design/) | bananayong | ★ 0 | 45% | L3 | Design multi-stage CI/CD pipelines with approval gates, security checks, and dep… |
+| [deployment-pipeline-design](deployment-pipeline-design/) | pelan05 | ★ 0 | 45% | L3 | Design multi-stage CI/CD pipelines with approval gates, security checks, and dep… |
+| [deploy_cicd](deploy_cicd/) | majiayu000 | ★ 0 | 45% | L3 | CI/CD pipeline, GitHub Actions, automated deployment, release management, produc… |
+| [deployment-git](deployment-git/) | mattnigh | ★ 0 | 45% | L3 | Deployment and Git workflow guides for Kailash applications including Docker dep… |
+| [writing-skills](writing-skills/) | barretstorck | ★ 0 | 45% | L3 | Use when creating new skills, editing existing skills, or verifying skills work … |
+| [completion-marker-optimization](completion-marker-optimization/) | pmarashian | ★ 0 | 45% | L3 | Efficient completion marker generation to prevent timeouts and improve task comp… |
+| [github-actions-creator](github-actions-creator/) | fabioeducacross | ★ 0 | 45% | L3 | Use when the user wants to create, generate, or set up a GitHub Actions workflow… |
+| [github-actions-creator](github-actions-creator/) | jackychenlu | ★ 0 | 45% | L3 | Use when the user wants to create, generate, or set up a GitHub Actions workflow… |
+| [acdc-badge-sniper](acdc-badge-sniper/) | Puzzlepart | ★ 0 | 45% | L2 | Plan and rank Arctic Cloud Developer Challenge (ACDC) badges and judge categorie… |
+| [holmesgpt-skill](holmesgpt-skill/) | majiayu000 | ★ 0 | 45% | L3 | Guide for implementing HolmesGPT - an AI agent for troubleshooting cloud-native … |
+| [holmesgpt-skill](holmesgpt-skill/) | julianobarbosa | ★ 0 | 45% | L3 | Guide for implementing HolmesGPT - an AI agent for troubleshooting cloud-native … |
+| [holmesgpt-skill](holmesgpt-skill/) | majiayu000 | ★ 0 | 45% | L3 | Guide for implementing HolmesGPT - an AI agent for troubleshooting cloud-native … |
+| [holmesgpt-skill](holmesgpt-skill/) | julianobarbosa | ★ 0 | 45% | L3 | Guide for implementing HolmesGPT - an AI agent for troubleshooting cloud-native … |
+| [cloud-solution-architect-msx-ops](cloud-solution-architect-msx-ops/) | JinLee794 | ★ 0 | 45% | L2 | Cloud Solution Architect operating skill for MSX/MCEM. Drives committed mileston… |
+| [incident-response-smart-fix](incident-response-smart-fix/) | techwavedev | ★ 0 | 45% | L3 | [Extended thinking: This workflow implements a sophisticated debugging and resol… |
+| [infra-guardian](infra-guardian/) | jzOcb | ★ 0 | 45% | L3 | OpenClaw Agent Infrastructure Guardian — keep your agent's infrastructure alive.… |
+| [ci-cd](ci-cd/) | canivel | ★ 0 | 45% | L3 | Use when setting up or modifying CI/CD pipelines with GitHub Actions. Covers wor… |
+| [upstash-qstash](upstash-qstash/) | mustaphaelou | ★ 0 | 45% | L2 | Upstash QStash expert for serverless message queues, scheduled jobs, and reliabl… |
+| [cloudflare-d1-migrations-and-production-seeding](cloudflare-d1-migrations-and-production-seeding/) | majiayu000 | ★ 0 | 45% | L3 | Use this skill whenever the user wants to design, run, or refine Cloudflare D1 s… |
+| [infrastructure-verification](infrastructure-verification/) | majiayu000 | ★ 0 | 45% | L3 | Verify AWS infrastructure configuration before deployment. Use when validating V… |
+| [azure-prepare](azure-prepare/) | microsoft | ★ 0 | 45% | L2 | Default entry point for Azure application development. Analyzes your project and… |
+| [devops](devops/) | pluginagentmarketplace | ★ 0 | 45% | L3 | Deploy applications with Docker and Kubernetes, automate with CI/CD, manage infr… |
+| [capacitor-ci-cd](capacitor-ci-cd/) | majiayu000 | ★ 0 | 45% | L3 | Complete CI/CD guide for Capacitor apps covering GitHub Actions, GitLab CI, buil… |
+| [kubernetes-troubleshooting](kubernetes-troubleshooting/) | jcanizalez | ★ 0 | 45% | L3 | Debug Kubernetes pods, services, networking, and scaling issues. Use this skill … |
+| [update-instruction](update-instruction/) | fabis94 | ★ 0 | 45% | L3 | Create, update, or manage universal-ai-config instruction templates. Handles fin… |
+| [cloudrun-development](cloudrun-development/) | majiayu000 | ★ 0 | 45% | L3 | CloudBase Run backend development rules (Function mode/Container mode). Use this… |
+| [cloud-functions](cloud-functions/) | TencentCloudBase | ★ 0 | 45% | L3 | Complete guide for CloudBase cloud functions development - runtime selection, de… |
+| [maintain-project-rules](maintain-project-rules/) | janjaszczak | ★ 0 | 45% | L2 | Audit and maintain project rules in .cursor/rules/. Use when auditing project ru… |
+| [security-hardening](security-hardening/) | jcanizalez | ★ 0 | 45% | L3 | Security hardening checklists for applications, containers, CI/CD, and infrastru… |
+| [auth-web-cloudbase](auth-web-cloudbase/) | TencentCloudBase | ★ 0 | 45% | L3 | CloudBase Web Authentication Quick Guide - Provides concise and practical Web fr… |
+| [harness-ci](harness-ci/) | majiayu000 | ★ 0 | 45% | L2 | Harness CI (Continuous Integration) for container-native builds, test intelligen… |
+| [resource-scout](resource-scout/) | majiayu000 | ★ 0 | 45% | L3 | Search and discover Claude Code skills and MCP servers from marketplaces, GitHub… |
+| [dockerfile-optimization](dockerfile-optimization/) | jcanizalez | ★ 0 | 45% | L3 | Optimize Dockerfiles for smaller images, faster builds, better caching, and secu… |
+| [resume-craft](resume-craft/) | ravsau | ★ 0 | 45% | L3 | Craft tailored, honest, one-page resumes from job descriptions. Use when the use… |
+| [11-SKILL-USING-SUPERPOWERS](11-skill-using-superpowers/) | thiagofinch | ★ 0 | 45% | L2 | Use ao iniciar qualquer conversa - estabelece como encontrar e usar skills dispo… |
+| [aws-solution-architect](aws-solution-architect/) | alirezarezvani | ★ 0 | 45% | L3 | Expert AWS solution architecture for startups focusing on serverless, scalable, … |
+| [aws-solution-architect](aws-solution-architect/) | aiskillstore | ★ 0 | 45% | L3 | Expert AWS solution architecture for startups focusing on serverless, scalable, … |
+| [aws-solution-architect](aws-solution-architect/) | zjunlp | ★ 0 | 45% | L3 | Expert AWS solution architecture for startups focusing on serverless, scalable, … |
+| [learn-docker-noir-city-beginner](learn-docker-noir-city-beginner/) | canedy | ★ 0 | 45% | L3 | Interactive narrative learning session that teaches Docker through a Noir City a… |
+| [k8s-manifest-generator](k8s-manifest-generator/) | openclaw | ★ 0 | 45% | L3 | Create production-ready Kubernetes manifests for Deployments, Services, ConfigMa… |
+| [implementing-service-mesh](implementing-service-mesh/) | ancoleman | ★ 0 | 45% | L3 | Implement production-ready service mesh deployments with Istio, Linkerd, or Cili… |
+| [coder-hahomelabs](coder-hahomelabs/) | majiayu000 | ★ 0 | 45% | L3 | Coder workspace environment for hahomelabs.com deployments. Includes networking,… |
+| [c4-container](c4-container/) | itsimonfredlingjack | ★ 0 | 45% | L3 | Expert C4 Container-level documentation specialist. Synthesizes Component-level … |
+| [oracle-cloud](oracle-cloud/) | majiayu000 | ★ 0 | 45% | L2 | Provides comprehensive Oracle Cloud Infrastructure (OCI) guidance including comp… |
+| [buildkite](buildkite/) | mcncl | ★ 0 | 45% | L3 | Use this skill when working with Buildkite CI/CD pipelines, agents, builds, test… |
+| [section-special](section-special/) | majiayu000 | ★ 0 | 45% | L3 | Generate comprehensive R tutorials for specialized applications (health economic… |
+| [k8s-security-policies](k8s-security-policies/) | majiayu000 | ★ 0 | 45% | L3 | Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolic… |
+| [write-rfc](write-rfc/) | majiayu000 | ★ 0 | 45% | L3 | Write RFCs for the ToolHive ecosystem. Use when the user wants to create a new R… |
+| [terraformer](terraformer/) | majiayu000 | ★ 0 | 45% | L3 | Terraformer tool for reverse-engineering existing cloud infrastructure into Terr… |
+| [dpo-specialist](dpo-specialist/) | majiayu000 | ★ 0 | 45% | L3 | Expert Data Protection Officer (Datenschutzbeauftragter) with deep knowledge of … |
+| [container-registry](container-registry/) | edercnj | ★ 0 | 45% | L3 | Container registry management patterns covering tagging strategy, immutability, … |
+| [gitops-principles-skill](gitops-principles-skill/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive GitOps methodology and principles skill for cloud-native operation… |
+| [cluster-admin](cluster-admin/) | majiayu000 | ★ 0 | 45% | L3 | Master Kubernetes cluster administration, from initial setup through production … |
+| [bicep](bicep/) | majiayu000 | ★ 0 | 45% | L3 | Expert assistance for Azure Bicep infrastructure-as-code. Provides best practice… |
+| [pulumi-typescript](pulumi-typescript/) | majiayu000 | ★ 0 | 45% | L3 | Pulumi infrastructure as code using TypeScript with Pulumi Cloud and ESC integra… |
+| [aws-s3-management](aws-s3-management/) | artiefy | ★ 0 | 45% | L3 | Manage S3 buckets with versioning, encryption, access control, lifecycle policie… |
+| [python-env](python-env/) | majiayu000 | ★ 0 | 45% | L3 | Fast Python environment management with uv (10-100x faster than pip). Triggers o… |
+| [ln-731-docker-generator](ln-731-docker-generator/) | majiayu000 | ★ 0 | 45% | L3 | Generates Docker and docker-compose configuration for multi-container developmen… |
+| [python-env](python-env/) | 0xDarkMatter | ★ 0 | 45% | L3 | Fast Python environment management with uv (10-100x faster than pip). Triggers o… |
+| [cloudflare](cloudflare/) | nicolad | ★ 0 | 45% | L2 | Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1… |
+| [sentry-dotnet-sdk](sentry-dotnet-sdk/) | getsentry | ★ 0 | 45% | L3 | Full Sentry SDK setup for .NET. Use when asked to "add Sentry to .NET", "install… |
+| [ci-setup](ci-setup/) | majiayu000 | ★ 0 | 45% | L3 | Configure CI/CD pipelines for GitHub Actions, GitLab CI, CircleCI with best prac… |
+| [azure-deploy](azure-deploy/) | spboyer | ★ 0 | 45% | L3 | Deploy applications to Azure App Service, Azure Functions, and Static Web Apps. … |
+| [infrastructure-diagrams](infrastructure-diagrams/) | kroegha | ★ 0 | 45% | L3 | Create professional Azure, hybrid, and on-premises infrastructure architecture d… |
+| [qore-meta-log-decision](qore-meta-log-decision/) | MythologIQ | ★ 0 | 45% | L3 | Record major engineering decisions into the QoreLogic meta-ledger with rationale… |
+| [docker-compose-orchestration](docker-compose-orchestration/) | NeverSight | ★ 0 | 45% | L3 | Container orchestration with Docker Compose for multi-container applications, ne… |
+| [deploying-on-gcp](deploying-on-gcp/) | ancoleman | ★ 0 | 45% | L3 | Implement applications using Google Cloud Platform (GCP) services. Use when buil… |
+| [load-balancing-patterns](load-balancing-patterns/) | ancoleman | ★ 0 | 45% | L2 | When distributing traffic across multiple servers or regions, use this skill to … |
+| [azure-functions](azure-functions/) | aj-geddes | ★ 0 | 45% | L3 | Create serverless functions on Azure with triggers, bindings, authentication, an… |
+| [aws-solution-architect](aws-solution-architect/) | openclaw | ★ 0 | 45% | L3 | Design AWS architectures for startups using serverless patterns and IaC template… |
+| [nvidia-nim](nvidia-nim/) | majiayu000 | ★ 0 | 45% | L3 | NVIDIA NIM (NVIDIA Inference Microservices) for deploying and managing AI models… |
+| [iac-diagram-generator](iac-diagram-generator/) | majiayu000 | ★ 0 | 45% | L3 | Analyzes Infrastructure as Code files (Terraform, CloudFormation, Kubernetes, Do… |
+| [deployment-engineer](deployment-engineer/) | NeverSight | ★ 0 | 45% | L2 | Expert Deployment Engineer specializing in CI/CD automation, containerization, a… |
+| [aws-solution-architect](aws-solution-architect/) | mcauduro0 | ★ 0 | 45% | L3 | Design AWS architectures for startups using serverless patterns and IaC template… |
+| [aws-solution-architect](aws-solution-architect/) | duclm1x1 | ★ 0 | 45% | L3 | Design AWS architectures for startups using serverless patterns and IaC template… |
+| [aws-cloud](aws-cloud/) | majiayu000 | ★ 0 | 45% | L2 | Provides comprehensive AWS (Amazon Web Services) guidance including EC2, S3, RDS… |
+| [tencent-cos-uploader](tencent-cos-uploader/) | maydaygjw | ★ 0 | 45% | L3 | Upload images and files to Tencent Cloud Object Storage (COS) and get public URL… |
+| [docker-deploy](docker-deploy/) | majiayu000 | ★ 0 | 45% | L3 | Create Docker configurations and deployment workflows for Scrapy projects when c… |
+| [helm-chart-scaffolding](helm-chart-scaffolding/) | wshobson | ★ 0 | 45% | L3 | Design, organize, and manage Helm charts for templating and packaging Kubernetes… |
+| [secrets-management](secrets-management/) | wshobson | ★ 0 | 45% | L3 | Implement secure secrets management for CI/CD pipelines using Vault, AWS Secrets… |
+| [screenpipe-retranscribe](screenpipe-retranscribe/) | screenpipe | ★ 0 | 45% | L3 | Re-transcribe audio recordings with a different engine, custom vocabulary, or pr… |
+| [prometheus-configuration](prometheus-configuration/) | wshobson | ★ 0 | 45% | L3 | Set up Prometheus for comprehensive metric collection, storage, and monitoring o… |
+| [k8s-gen](k8s-gen/) | openclaw | ★ 0 | 45% | L3 | Generate Kubernetes manifests from docker-compose or plain English. Use when dep… |
+| [deploying-on-aws](deploying-on-aws/) | ancoleman | ★ 0 | 45% | L3 | Selecting and implementing AWS services and architectural patterns. Use when des… |
+| [deployment-documentation](deployment-documentation/) | aj-geddes | ★ 0 | 45% | L3 | Document deployment processes, infrastructure setup, CI/CD pipelines, and config… |
+| [deploy](deploy/) | ryangaraygay | ★ 0 | 45% | L3 | Deploy application to target environment. Supports preview, staging, and product… |
+| [deploy-verify](deploy-verify/) | dohernandez | ★ 0 | 45% | L2 | Verify deployment status, health, and startup. Use when user says /deploy-verify… |
+| [whatisxlistening-to](whatisxlistening-to/) | openclaw | ★ 0 | 45% | L3 | Query Last.fm listening data, show now playing, sync scrobble history to local D… |
+| [docker-optimization](docker-optimization/) | applied-artificial-intelligence | ★ 0 | 45% | L3 | Docker image optimization patterns including multi-stage builds, layer caching, … |
+| [Ark Setup](ark-setup/) | mckinsey | ★ 0 | 45% | L3 | Set up and install the Ark platform from source. Use this skill when the user wa… |
+| [deployment-patterns](deployment-patterns/) | dileep-kishore | ★ 0 | 45% | L3 | Deployment workflows, CI/CD pipeline patterns, Docker containerization, health c… |
+| [helm-chart-scaffolding](helm-chart-scaffolding/) | duanbiao2000 | ★ 0 | 45% | L3 | Design, organize, and manage Helm charts for templating and packaging Kubernetes… |
+| [helm-chart-scaffolding](helm-chart-scaffolding/) | Microck | ★ 0 | 45% | L3 | Design, organize, and manage Helm charts for templating and packaging Kubernetes… |
+| [helm-chart-scaffolding](helm-chart-scaffolding/) | yusufcmg | ★ 0 | 45% | L3 | Design, organize, and manage Helm charts for templating and packaging Kubernetes… |
+| [helm-chart-scaffolding](helm-chart-scaffolding/) | Dknight203 | ★ 0 | 45% | L3 | Design, organize, and manage Helm charts for templating and packaging Kubernetes… |
+| [deploying-applications](deploying-applications/) | majiayu000 | ★ 0 | 45% | L3 | Deployment patterns from Kubernetes to serverless and edge functions. Use when d… |
+| [docker-k8s](docker-k8s/) | majiayu000 | ★ 0 | 45% | L3 | Master containerization and orchestration with security-first approach. Expert i… |
+| [implementing-observability](implementing-observability/) | majiayu000 | ★ 0 | 45% | L3 | Monitoring, logging, and tracing implementation using OpenTelemetry as the unifi… |
+| [building-with-cloud-security](building-with-cloud-security/) | majiayu000 | ★ 0 | 45% | L3 | Use when implementing Kubernetes security patterns including RBAC, NetworkPolici… |
+| [dot-ai-generate-cicd](dot-ai-generate-cicd/) | vfarcic | ★ 0 | 45% | L3 | Generate intelligent CI/CD workflows through interactive conversation by analyzi… |
+| [deploy](deploy/) | tayyabfayyaz | ★ 0 | 45% | L3 | Deploy applications to Kubernetes clusters (Minikube, AKS, GKE) using Docker, He… |
+| [kind:cluster](kind-cluster/) | majiayu000 | ★ 0 | 45% | L3 | Manage Kind clusters for local Kagenti testing. Create, destroy, deploy platform… |
+| [docker-best-practices](docker-best-practices/) | jeff-tw-dev | ★ 0 | 45% | L3 | Containerize development environments using Docker best practices. Use when crea… |
+| [uv-package-manager](uv-package-manager/) | LUNARTECH-X | ★ 0 | 45% | L3 | Master the uv package manager for fast Python dependency management, virtual env… |
+| [TabletopExercise](tabletopexercise/) | Arcanum-Sec | ★ 0 | 45% | L3 | Comprehensive cybersecurity tabletop exercise design and facilitation framework.… |
+| [cloud-security-configuration](cloud-security-configuration/) | aj-geddes | ★ 0 | 45% | L3 | Implement comprehensive cloud security across AWS, Azure, and GCP with IAM, encr… |
+| [k8s-security-policies](k8s-security-policies/) | BhurkeSiddhesh | ★ 0 | 45% | L3 | Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolic… |
+| [fnox-providers](fnox-providers/) | majiayu000 | ★ 0 | 45% | L3 | Use when configuring Fnox providers for encryption and secret storage. Covers ag… |
+| [openclaw-medicine](openclaw-medicine/) | majiayu000 | ★ 0 | 45% | L3 | Diagnose and fix OpenClaw gateway issues — broken configs, missing tokens, dead … |
+| [docker-k8s](docker-k8s/) | eous | ★ 0 | 45% | L3 | Docker and Kubernetes containerization best practices. Use when writing Dockerfi… |
+| [docker-expert](docker-expert/) | yunaamelia | ★ 0 | 45% | L3 | Docker containerization expert with deep knowledge of multi-stage builds, image … |
+| [siem-logging](siem-logging/) | majiayu000 | ★ 0 | 45% | L3 | Configure security information and event management (SIEM) systems for threat de… |
+| [cloudflare-deploy](cloudflare-deploy/) | davila7 | ★ 0 | 45% | L3 | Deploy applications and infrastructure to Cloudflare using Workers, Pages, and r… |
+| [ci-cd-pipelines](ci-cd-pipelines/) | majiayu000 | ★ 0 | 45% | L3 | Auto-activates when user mentions CI/CD, GitHub Actions, pipeline, continuous in… |
+| [deployment-pipeline-design](deployment-pipeline-design/) | Dknight203 | ★ 0 | 45% | L3 | Design multi-stage CI/CD pipelines with approval gates, security checks, and dep… |
+| [moon](moon/) | hyperb1iss | ★ 0 | 45% | L3 | This skill should be used when the user asks to "configure moon", "set up moonre… |
+| [med-info](med-info/) | openclaw | ★ 0 | 45% | L3 | Label-backed medication answers with citations and traceable IDs. RxCUI/NDC/set_… |
+| [council](council/) | majiayu000 | ★ 0 | 45% | L3 | Multi-model consensus council. Spawns parallel judges with configurable perspect… |
+| [wp-migrate](wp-migrate/) | majiayu000 | ★ 0 | 45% | L3 | WordPress site migration and deployment using wp-migrate.sh. Use when migrating … |
+| [fluxcd](fluxcd/) | majiayu000 | ★ 0 | 45% | L3 | GitOps toolkit with Flux CD for Kubernetes continuous delivery. Use when impleme… |
+| [ci-cd-and-automation](ci-cd-and-automation/) | addyosmani | ★ 0 | 45% | L3 | Use when setting up or modifying build and deployment pipelines. Use when you ne… |
+| [GCP HCP Jira Conventions](gcp-hcp-jira-conventions/) | openshift-eng | ★ 0 | 45% | L3 | GCP HCP team-specific Jira requirements for creating issues in the GCP project (… |
+| [k8s-deploy-auto](k8s-deploy-auto/) | martin-janci | ★ 0 | 45% | L3 | Kubernetes deployment automation workflows for CI/CD pipelines, GitOps, and scri… |
+| [harness-delivery-iac](harness-delivery-iac/) | markus41 | ★ 0 | 45% | L3 | Use this skill for Harness CI/CD, IaCM, templates, connectors, integrations, pip… |
+| [session-decisions](session-decisions/) | jwonyLee | ★ 0 | 45% | L3 | Use when user wants to extract technical decisions and deliberations from Claude… |
+| [devops-engineer](devops-engineer/) | mikebronner | ★ 0 | 45% | L2 | Expert DevOps engineer bridging development and operations with comprehensive au… |
+| [error-coordinator](error-coordinator/) | claudchereji | ★ 0 | 45% | L2 | Expert error coordinator specializing in distributed error handling, failure rec… |
+| [ci-cd](ci-cd/) | majiayu000 | ★ 0 | 45% | L3 | Designs and implements CI/CD pipelines for automated testing, building, deployme… |
+| [prd-v06-environment-setup](prd-v06-environment-setup/) | majiayu000 | ★ 0 | 45% | L3 | Document development environment requirements for team consistency and AI agent … |
+| [devops-guide](devops-guide/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive DevOps and infrastructure guide covering Docker, Kubernetes, AWS, … |
+| [container-deployment](container-deployment/) | majiayu000 | ★ 0 | 45% | L2 | Manage containerization and deployment automation using Docker, Kubernetes, and … |
+| [building-with-multi-cloud](building-with-multi-cloud/) | panaversity | ★ 0 | 45% | L3 | Deploy Kubernetes workloads to real cloud providers. Use when provisioning manag… |
+| [operating-weaviate-local-k8s](operating-weaviate-local-k8s/) | weaviate | ★ 0 | 45% | L3 | Deploys, upgrades, and manages local Weaviate clusters in Kind (Kubernetes in Do… |
+| [cloud-native-todo-deployer](cloud-native-todo-deployer/) | SaiyedMuhammadAnasMaududi | ★ 0 | 45% | L3 | A Claude Code skill to containerize a full-stack Todo app, create Docker images,… |
+| [platform](platform/) | hyperb1iss | ★ 0 | 45% | L3 | Use this skill when working on infrastructure, DevOps, CI/CD, Kubernetes, cloud … |
+| [senior-devops](senior-devops/) | aiskillstore | ★ 0 | 45% | L3 | Comprehensive DevOps skill for CI/CD, infrastructure automation, containerizatio… |
+| [specify-solution](specify-solution/) | rsmdt | ★ 0 | 45% | L2 | Create and validate solution design documents (SDD). Use when designing architec… |
+| [github-workflow-authoring](github-workflow-authoring/) | ryanbreen | ★ 0 | 45% | L3 | This skill should be used when creating or improving GitHub Actions CI/CD workfl… |
+| [aspire](aspire/) | codebytes | ★ 0 | 45% | L3 | **WORKFLOW SKILL** - Orchestrates Aspire applications using the Aspire CLI and M… |
+| [cloud-infrastructure-istio-traffic-management](cloud-infrastructure-istio-traffic-management/) | sla-te | ★ 0 | 45% | L3 | Configure Istio traffic management including routing, load balancing, circuit br… |
+| [caf-naming-validation](caf-naming-validation/) | aztfmodnew | ★ 0 | 45% | L3 | Validate Azure Cloud Adoption Framework (CAF) naming conventions in Terraform mo… |
+| [rust-cloud-native](rust-cloud-native/) | peixotorms | ★ 0 | 45% | L2 | Use when building cloud-native apps, microservices, or Kubernetes-deployed Rust … |
+| [github-actions-templates](github-actions-templates/) | sla-te | ★ 0 | 45% | L3 | Create production-ready GitHub Actions workflows for automated testing, building… |
+| [ensure-prod](ensure-prod/) | antialias | ★ 0 | 45% | L3 | Verifies that the latest main commit is deployed to production. Checks CI pipeli… |
+| [cloud-native-engineer](cloud-native-engineer/) | codewithlaiba28 | ★ 0 | 45% | L3 | The definitive skill for building and deploying high-performance, distributed sy… |
+| [guid-universal-technology-discovery](guid-universal-technology-discovery/) | xilnick | ★ 0 | 45% | L3 | Discover and identify any technology, framework, or system without prior knowled… |
+| [harness-cd](harness-cd/) | majiayu000 | ★ 0 | 45% | L3 | Harness CD (Continuous Delivery) for Kubernetes, Helm, Terraform, ECS, and serve… |
+| [project-scaffolding](project-scaffolding/) | majiayu000 | ★ 0 | 45% | L3 | Project type detection matrix, template recommendations per project type, post-s… |
+| [environment-configuration-guardian](environment-configuration-guardian/) | majiayu000 | ★ 0 | 45% | L3 | Validates environment-specific configurations across development, staging, and p… |
+| [sos-emergency](sos-emergency/) | kingdon | ★ 0 | 45% | L3 | Ship Operating System: Emergency Kubernetes cluster recovery, Talos reset proced… |
+| [bun-deploy](bun-deploy/) | majiayu000 | ★ 0 | 45% | L3 | Generate optimized Docker images for Bun applications. Use when deploying to con… |
+| [outpost](outpost/) | majiayu000 | ★ 0 | 45% | L3 | Sets up and configures Hookdeck Outpost for outbound event delivery to customer … |
+| [mirror-optimizer](mirror-optimizer/) | huangwb8 | ★ 0 | 45% | L3 | 当用户明确要求"优化镜像源"、"配置国内镜像"、"加速部署"、"切换镜像源"或项目涉及 Docker/Python/Node.js/Go/Java/Ruby/R… |
+| [devcontainers](devcontainers/) | duplocloud | ★ 0 | 45% | L3 | Expert in creating devcontainer configurations using DuploCloud features. Use wh… |
+| [dot-ai-port-setup](dot-ai-port-setup/) | vfarcic | ★ 0 | 45% | L3 | Set up Port integrations to sync Kubernetes resources and GitHub Actions to Port… |
+| [helm-chart-scaffolding](helm-chart-scaffolding/) | ma1orek | ★ 0 | 45% | L3 | Design, organize, and manage Helm charts for templating and packaging Kubernetes… |
+| [yaml-validator](yaml-validator/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive YAML syntax validation, error fixing, and schema validation for va… |
+| [containers-skill](containers-skill/) | majiayu000 | ★ 0 | 45% | L3 | Docker and Kubernetes - containerization, orchestration, and production deployme… |
+| [devops-infrastructure](devops-infrastructure/) | take566 | ★ 0 | 45% | L3 | クラウドインフラ設計・IaC実装・監視設定・コンテナオーケストレーション。AWS、GCP、Azureのリソース構築、Terraform/Pulumi、Kuber… |
+| [nixos](nixos/) | majiayu000 | ★ 0 | 45% | L2 | NixOS and Nix flake development for multi-repo architectures, airgapped deployme… |
+| [docker-node](docker-node/) | majiayu000 | ★ 0 | 45% | L3 | Containerization for TypeScript/Node.js applications. Use when deploying Node.js… |
+| [docker-best-practices](docker-best-practices/) | armanisadeghi | ★ 0 | 45% | L3 | Create production-grade Dockerfiles optimized for speed, security, and minimal s… |
+| [rails-deployment](rails-deployment/) | Shoebtamboli | ★ 0 | 45% | L3 | Deploy Rails applications to production using Kamal, Docker, and modern deployme… |
+| [exercise-author](exercise-author/) | MSBart2 | ★ 0 | 45% | L3 | Reads a module's README.md, identifies missing exercise files from the planning … |
+| [gitlab-automation](gitlab-automation/) | davepoon | ★ 0 | 45% | L2 | Automate GitLab project management, issues, merge requests, pipelines, branches,… |
+| [setup-cicd-pipeline-workflow](setup-cicd-pipeline-workflow/) | toplyr-narfur | ★ 0 | 45% | L3 | Automated CI/CD pipeline setup for Urbit ship deployments, OTA updates, and infr… |
+| [u0538-engineering-memory-consolidation-pipeline](u0538-engineering-memory-consolidation-pipeline/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Engineering Memory Consolidation Pipeline" capability in production… |
+| [ops](ops/) | wtthornton | ★ 0 | 45% | L3 | Security scanning, compliance checks, deployment automation, and infrastructure … |
+| [deployment-engineer](deployment-engineer/) | sla-te | ★ 0 | 45% | L2 | Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workfl… |
+| [openai-cloudflare-deploy](openai-cloudflare-deploy/) | trailofbits | ★ 0 | 45% | L3 | Deploy applications and infrastructure to Cloudflare using Workers, Pages, and r… |
+| [workflow-orchestration](workflow-orchestration/) | majiayu000 | ★ 0 | 45% | L3 | Coordinates multi-step CI/CD pipelines by chaining autonomous-ci, code-review, s… |
+| [ios-ci-cd](ios-ci-cd/) | jx1100370217 | ★ 0 | 45% | L3 | Set up CI/CD pipelines for iOS apps using GitHub Actions, Fastlane, and Xcode Cl… |
+| [continuous-testing](continuous-testing/) | aj-geddes | ★ 0 | 45% | L3 | Integrate automated testing into CI/CD pipelines for continuous quality feedback… |
+| [zerubbabel-devops](zerubbabel-devops/) | christopheraaronhogg | ★ 0 | 45% | L3 | Provides expert DevOps analysis, CI/CD pipeline review, and infrastructure asses… |
+| [ciso](ciso/) | jforksy | ★ 0 | 45% | L2 | CISO Co-Pilot - pragmatic startup security, compliance readiness, risk managemen… |
+| [Naming & Tagging Standards](naming-tagging-standards/) | nicolasmosquerar | ★ 0 | 45% | L3 | Establish consistent resource naming conventions and mandatory tagging for cost … |
+| [docker-fastapi](docker-fastapi/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive Docker containerization for Python/FastAPI applications from devel… |
+| [checking-deploy](checking-deploy/) | majiayu000 | ★ 0 | 45% | L2 | Validate Kubernetes, Terraform, Helm, GitHub Actions, and Docker configs. Use wh… |
+| [deploy_cicd](deploy_cicd/) | majiayu000 | ★ 0 | 45% | L3 | CI/CD pipeline, GitHub Actions, automated deployment, release management, produc… |
+| [docker-workflow](docker-workflow/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive Docker containerization workflow covering multi-stage builds, dock… |
+| [Docker Image Builder Skill](docker-image-builder-skill/) | majiayu000 | ★ 0 | 45% | L2 | Transform Docker knowledge from Lessons 1-6 into a reusable AI skill for consist… |
+| [devops-deployer](devops-deployer/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive DevOps and deployment workflow that orchestrates infrastructure au… |
+| [kubernetes-orchestration](kubernetes-orchestration/) | majiayu000 | ★ 0 | 45% | L3 | Kubernetes container orchestration. Use when deploying to Kubernetes, writing ma… |
+| [deployment-and-ops](deployment-and-ops/) | majiayu000 | ★ 0 | 45% | L3 | Deploy and operate the vehicle insurance data analysis platform. Use when user a… |
+| [denylist-stuck-messages](denylist-stuck-messages/) | majiayu000 | ★ 0 | 45% | L3 | Add message IDs to the relayer denylist. Use after investigating stuck messages … |
+| [cloud-devops-expert](cloud-devops-expert/) | majiayu000 | ★ 0 | 44% | L3 | Cloud and DevOps expert including AWS, GCP, Azure, and Terraform |
+| [cloud-devops-expert](cloud-devops-expert/) | NeverSight | ★ 0 | 44% | L3 | Cloud and DevOps expert including AWS, GCP, Azure, and Terraform |
+| [cloud-devops-expert](cloud-devops-expert/) | majiayu000 | ★ 0 | 44% | L3 | Cloud and DevOps expert including AWS, GCP, Azure, and Terraform |
+| [ci-cd-integration](ci-cd-integration/) | majiayu000 | ★ 0 | 44% | L3 | CI/CD integration - GitHub Actions, automation, pipeline integration |
+| [specialist-devops-infra](specialist-devops-infra/) | Matheus-Gama-deluna | ★ 0 | 44% | L3 | Engenharia DevOps para automação, CI/CD e infraestrutura como código |
+| [database-migrations-migration-observability](database-migrations-migration-observability/) | Superesty | ★ 0 | 44% | L3 | Migration monitoring, CDC, and observability infrastructure |
+| [database-migrations-migration-observability](database-migrations-migration-observability/) | BhurkeSiddhesh | ★ 0 | 44% | L3 | Migration monitoring, CDC, and observability infrastructure |
+| [database-migrations-migration-observability](database-migrations-migration-observability/) | bissan-sameeh | ★ 0 | 44% | L3 | Migration monitoring, CDC, and observability infrastructure |
+| [database-migrations-migration-observability](database-migrations-migration-observability/) | YPYT1 | ★ 0 | 44% | L3 | Migration monitoring, CDC, and observability infrastructure |
+| [database-migrations-migration-observability](database-migrations-migration-observability/) | duclm1x1 | ★ 0 | 44% | L3 | Migration monitoring, CDC, and observability infrastructure |
+| [CI/CD Automation](ci-cd-automation/) | rahlplx | ★ 0 | 44% | L3 | Automated generation and management of deployment pipelines for Astro projects. |
+| [grafana-prometheus](grafana-prometheus/) | phuetz | ★ 0 | 44% | L3 | Observability and monitoring with Prometheus metrics and Grafana dashboards |
+| [devops-agent](devops-agent/) | majiayu000 | ★ 0 | 44% | L3 | Infrastructure, deployment, and operations automation |
+| [scientific-tdd](scientific-tdd/) | mattnigh | ★ 0 | 44% | L3 | Pragmatic test-driven development for scientific code with numerical validation |
+| [scientific-tdd](scientific-tdd/) | majiayu000 | ★ 0 | 44% | L3 | Pragmatic test-driven development for scientific code with numerical validation |
+| [scientific-tdd](scientific-tdd/) | majiayu000 | ★ 0 | 44% | L3 | Pragmatic test-driven development for scientific code with numerical validation |
+| [ci-cd-integration](ci-cd-integration/) | majiayu000 | ★ 0 | 44% | L3 | CI/CD integration - GitHub Actions, automation, pipeline integration |
+| [kubernetes](kubernetes/) | pluginagentmarketplace | ★ 0 | 44% | L3 | Kubernetes orchestration skill - Deployments, services, security, scaling |
+| [scientific-tdd](scientific-tdd/) | LorenFrankLab | ★ 0 | 44% | L3 | Pragmatic test-driven development for scientific code with numerical validation |
+| [launch](launch/) | popmechanic | ★ 0 | 44% | L3 | Self-contained SaaS pipeline — invoke directly, do not decompose. |
+| [cloud-devops-expert](cloud-devops-expert/) | majiayu000 | ★ 0 | 44% | L3 | Cloud and DevOps expert including AWS, GCP, Azure, and Terraform |
+| [ci-cd-integration](ci-cd-integration/) | majiayu000 | ★ 0 | 44% | L3 | CI/CD integration - GitHub Actions, automation, pipeline integration |
+| [quality-gate](quality-gate/) | majiayu000 | ★ 0 | 44% | L2 | Path to Markdown report (for human review) |
+| [devops-agent](devops-agent/) | majiayu000 | ★ 0 | 44% | L3 | Infrastructure, deployment, and operations automation |
+| [deployment-procedures](deployment-procedures/) | ntuan2502 | ★ 0 | 44% | L3 | Production deployment principles and decision-making. |
+| [terraform-infra](terraform-infra/) | oimiragieo | ★ 0 | 44% | L3 | Terraform infrastructure operations with safety controls |
+| [azure-devops](azure-devops/) | rysweet | ★ 0 | 44% | L3 | Complete Azure DevOps automation - boards, repos, pipelines, artifacts |
+| [fiber-logging-and-project-structure](fiber-logging-and-project-structure/) | majiayu000 | ★ 0 | 43% | L3 | Applies best practices for logging, project structure, and environment variable … |
+| [dependencies-management-rules](dependencies-management-rules/) | majiayu000 | ★ 0 | 43% | L3 | Mandates the usage of UV when installing dependencies to ensure consistency and … |
+| [fiber-logging-and-project-structure](fiber-logging-and-project-structure/) | NeverSight | ★ 0 | 43% | L3 | Applies best practices for logging, project structure, and environment variable … |
+| [fiber-logging-and-project-structure](fiber-logging-and-project-structure/) | oimiragieo | ★ 0 | 43% | L3 | Applies best practices for logging, project structure, and environment variable … |
+| [fiber-logging-and-project-structure](fiber-logging-and-project-structure/) | majiayu000 | ★ 0 | 43% | L3 | Applies best practices for logging, project structure, and environment variable … |
+| [fiber-logging-and-project-structure](fiber-logging-and-project-structure/) | Finimo-Solutions | ★ 0 | 43% | L3 | Applies best practices for logging, project structure, and environment variable … |
+| [dependencies-management-rules](dependencies-management-rules/) | majiayu000 | ★ 0 | 43% | L3 | Mandates the usage of UV when installing dependencies to ensure consistency and … |
+| [logging-module-usage](logging-module-usage/) | majiayu000 | ★ 0 | 43% | L3 | Employs the logging module judiciously to log important events, warnings, and er… |
+| [dependencies-management-rules](dependencies-management-rules/) | majiayu000 | ★ 0 | 43% | L3 | Mandates the usage of UV when installing dependencies to ensure consistency and … |
+| [fiber-logging-and-project-structure](fiber-logging-and-project-structure/) | majiayu000 | ★ 0 | 43% | L3 | Applies best practices for logging, project structure, and environment variable … |
+| [Capacity Planning](capacity-planning/) | cdalsoniii | ★ 0 | 43% | L2 | Forecast resource needs and design scaling strategies based on growth projection… |
+| [ansible](ansible/) | pingqLIN | ★ 0 | 43% | L2 | Ansible conventions and best practices Triggers on: **/*.yaml, **/*.yml |
+| [[PROJECT]-deployment-patterns](project-deployment-patterns/) | majiayu000 | ★ 0 | 43% | L3 | [PROJECT] CI/CD pipeline and deployment automation patterns |
+| [pronunciation-specialist](pronunciation-specialist/) | majiayu000 | ★ 0 | 41% | L2 | Scan lyrics for pronunciation risks, prevent Suno mispronunciations |
+| [comprehensive-review-pr-enhance](comprehensive-review-pr-enhance/) | Dokhacgiakhoa | ★ 0 | 41% | L2 | You are a PR optimization expert specializing in creating high-quality pull requ… |
+| [comprehensive-review-pr-enhance](comprehensive-review-pr-enhance/) | nkhcloud | ★ 0 | 41% | L2 | You are a PR optimization expert specializing in creating high-quality pull requ… |
+| [comprehensive-review-pr-enhance](comprehensive-review-pr-enhance/) | ntuan2502 | ★ 0 | 41% | L2 | You are a PR optimization expert specializing in creating high-quality pull requ… |
+| [comprehensive-review-pr-enhance](comprehensive-review-pr-enhance/) | Juarezroncalli | ★ 0 | 41% | L2 | You are a PR optimization expert specializing in creating high-quality pull requ… |
+| [comprehensive-review-pr-enhance](comprehensive-review-pr-enhance/) | MICHAEL-BODO | ★ 0 | 41% | L2 | You are a PR optimization expert specializing in creating high-quality pull requ… |
+| [pronunciation-specialist](pronunciation-specialist/) | majiayu000 | ★ 0 | 41% | L2 | Scan lyrics for pronunciation risks, prevent Suno mispronunciations |
+| [comprehensive-review-pr-enhance](comprehensive-review-pr-enhance/) | majiayu000 | ★ 0 | 41% | L2 | You are a PR optimization expert specializing in creating high-quality pull requ… |
+| [fix-ci](fix-ci/) | damilola-elegbede-org | ★ 0 | 41% | L3 | Diagnose and fix GitHub Actions CI failures. Use when CI pipeline is failing. |
+| [observability-engineer](observability-engineer/) | techwavedev | ★ 0 | 41% | L3 | Build production-ready monitoring, logging, and tracing systems. |
+| [project-knowledge](project-knowledge/) | majiayu000 | ★ 0 | 41% | L3 | CEI architecture, modules, data flows, conventions, tech stack decisions |
+| [count-rs-strawberry](count-rs-strawberry/) | PedramNavid | ★ 0 | 41% | L2 | This skill should be used when the user asks to "count the Rs in strawberry", "c… |
+| [database-admin](database-admin/) | RJsolucoes | ★ 0 | 41% | L2 | Expert database administrator specializing in modern cloud |
+| [database-admin](database-admin/) | engryamato | ★ 0 | 41% | L2 | Expert database administrator specializing in modern cloud |
+| [database-admin](database-admin/) | nextgen-hms | ★ 0 | 41% | L2 | Expert database administrator specializing in modern cloud |
+| [database-admin](database-admin/) | moabualruz | ★ 0 | 41% | L2 | Expert database administrator specializing in modern cloud |
+| [database-admin](database-admin/) | e-docBR | ★ 0 | 41% | L2 | Expert database administrator specializing in modern cloud |
+| [database-admin](database-admin/) | rootcastleco | ★ 0 | 41% | L2 | Expert database administrator specializing in modern cloud |
+| [devops-troubleshooter](devops-troubleshooter/) | techwavedev | ★ 0 | 41% | L3 | Expert DevOps troubleshooter specializing in rapid incident |
+| [infra-devops](infra-devops/) | andreibesleaga | ★ 0 | 41% | L2 | Design and implement cloud infrastructure (Terraform/K8s) and CI/CD pipelines. |
+| [aws-rds-setup](aws-rds-setup/) | majiayu000 | ★ 0 | 41% | L3 | Deploy and configure RDS/Aurora databases with HA and security |
+| [aws-rds-setup](aws-rds-setup/) | pluginagentmarketplace | ★ 0 | 41% | L3 | Deploy and configure RDS/Aurora databases with HA and security |
+| [aws-rds-setup](aws-rds-setup/) | majiayu000 | ★ 0 | 41% | L3 | Deploy and configure RDS/Aurora databases with HA and security |
+| [malware-analyst](malware-analyst/) | techwavedev | ★ 0 | 41% | L3 | Expert malware analyst specializing in defensive malware research, |
+| [database-admin](database-admin/) | sonson0910 | ★ 0 | 41% | L2 | Expert database administrator specializing in modern cloud |
+| [database-admin](database-admin/) | javiertarazon | ★ 0 | 41% | L2 | Expert database administrator specializing in modern cloud |
+| [docker-to-k8s-manifests](docker-to-k8s-manifests/) | openclaw | ★ 0 | 41% | L3 | Automatically generate optimized Kubernetes deployment manifests from Dockerfile… |
+| [Docker & Kubernetes](docker-kubernetes/) | Smarter-Poker | ★ 0 | 41% | L3 | Containerization, orchestration, and deployment with Docker and K8s |
+| [opentofu-kubernetes-explorer](opentofu-kubernetes-explorer/) | majiayu000 | ★ 0 | 41% | L3 | Explore and manage Kubernetes clusters and resources using OpenTofu/Terraform |
+| [deployment-engineer](deployment-engineer/) | rmyndharis | ★ 0 | 41% | L2 | Expert deployment engineer specializing in modern CI/CD pipelines, |
+| [opentofu-kubernetes-explorer](opentofu-kubernetes-explorer/) | darellchua2 | ★ 0 | 41% | L3 | Explore and manage Kubernetes clusters and resources using OpenTofu/Terraform |
+| [opentofu-kubernetes-explorer](opentofu-kubernetes-explorer/) | majiayu000 | ★ 0 | 41% | L3 | Explore and manage Kubernetes clusters and resources using OpenTofu/Terraform |
+| [deployment-engineer](deployment-engineer/) | KignLeon | ★ 0 | 41% | L2 | Expert deployment engineer specializing in modern CI/CD pipelines, |
+| [deployment-engineer](deployment-engineer/) | mshraditya | ★ 0 | 41% | L2 | Expert deployment engineer specializing in modern CI/CD pipelines, |
+| [deployment-engineer](deployment-engineer/) | duclm1x1 | ★ 0 | 41% | L2 | Expert deployment engineer specializing in modern CI/CD pipelines, |
+| [deployment-engineer](deployment-engineer/) | abmbodj | ★ 0 | 41% | L2 | Expert deployment engineer specializing in modern CI/CD pipelines, |
+| [bosun](bosun/) | cameronsjo | ★ 0 | 41% | L3 | Get started with Bosun -- what it is, how to set it up, and how to use it |
+| [kubernetes-architect](kubernetes-architect/) | RJsolucoes | ★ 0 | 41% | L3 | Expert Kubernetes architect specializing in cloud-native |
+| [deploy-script-review](deploy-script-review/) | gaebalai | ★ 0 | 41% | L3 | 배포 스크립트의 보안·안전성 리뷰를 수행한다. 롤백 절차, 장애 대응, 권한 설정을 점검한다. |
+| [cloud-architect](cloud-architect/) | rmyndharis | ★ 0 | 41% | L3 | Expert cloud architect specializing in AWS/Azure/GCP multi-cloud |
+| [kubernetes-architect](kubernetes-architect/) | milosriki | ★ 0 | 41% | L3 | Expert Kubernetes architect specializing in cloud-native |
+| [faion-cicd-engineer](faion-cicd-engineer/) | majiayu000 | ★ 0 | 41% | L2 | CI/CD: GitHub Actions, GitLab CI, Jenkins, ArgoCD, GitOps, monitoring. |
+| [cloud-architect](cloud-architect/) | KignLeon | ★ 0 | 41% | L3 | Expert cloud architect specializing in AWS/Azure/GCP multi-cloud |
+| [cloud-architect](cloud-architect/) | majiayu000 | ★ 0 | 41% | L3 | Expert cloud architect specializing in AWS/Azure/GCP multi-cloud |
+| [cloud-architect](cloud-architect/) | elwa2 | ★ 0 | 41% | L3 | Expert cloud architect specializing in AWS/Azure/GCP multi-cloud |
+| [cloud-architect](cloud-architect/) | duclm1x1 | ★ 0 | 41% | L3 | Expert cloud architect specializing in AWS/Azure/GCP multi-cloud |
+| [token-efficiency](token-efficiency/) | jralph | ★ 0 | 41% | L3 | Minimize token consumption when reading files and gathering context |
+| [code-review](code-review/) | alinaqi | ★ 0 | 41% | L3 | Mandatory code reviews via /code-review before commits and deploys |
+| [slack-integration](slack-integration/) | NeverSight | ★ 0 | 41% | L2 | Slack MCP server integration patterns. Use when setting up team notifications, P… |
+| [tasknet](tasknet/) | 0xStoneyStark | ★ 0 | 41% | L2 | Unified agent skill for task execution, adjudication, and optional privacy on So… |
+| [database-admin](database-admin/) | ngxtm | ★ 0 | 41% | L2 | Expert database administrator specializing in modern cloud |
+| [database-admin](database-admin/) | corsal2025 | ★ 0 | 41% | L2 | Expert database administrator specializing in modern cloud |
+| [perseus-config](perseus-config/) | kaivyy | ★ 0 | 41% | L3 | Security configuration analysis (Headers, CORS, Docker, CI/CD, Cloud, K8s) |
+| [comprehensive-review-pr-enhance](comprehensive-review-pr-enhance/) | duckonthemic | ★ 0 | 41% | L2 | You are a PR optimization expert specializing in creating high-quality pull requ… |
+| [docker-setup](docker-setup/) | BigPapiCB | ★ 0 | 41% | L3 | Dockerfile and Docker Compose patterns with multi-stage builds, layer optimizati… |
+| [deployment-infrastructure](deployment-infrastructure/) | splits-network | ★ 0 | 41% | L3 | Kubernetes deployment and infrastructure patterns |
+| [agent-specification](agent-specification/) | ruvnet | ★ 0 | 41% | L3 | Agent skill for specification - invoke with $agent-specification |
+| [speckit-00-constitution](speckit-00-constitution/) | majiayu000 | ★ 0 | 41% | L3 | Create or update project governance principles and constitution |
+| [skills](skills/) | majiayu000 | ★ 0 | 41% | L2 | List available skills and their activation methods |
+| [pipeline-monitor](pipeline-monitor/) | majiayu000 | ★ 0 | 41% | L3 | Track build success rates and identify flaky tests from CI logs |
+| [kubernetes-architect](kubernetes-architect/) | xfstudio | ★ 0 | 41% | L3 | Expert Kubernetes architect specializing in cloud-native |
+| [cloudflare-deploy](cloudflare-deploy/) | rustykuntz | ★ 0 | 41% | L3 | Cloudflare account authenticated for Wrangler |
+| [faion-cicd-engineer](faion-cicd-engineer/) | majiayu000 | ★ 0 | 41% | L2 | CI/CD: GitHub Actions, GitLab CI, Jenkins, ArgoCD, GitOps, monitoring. |
+| [cloud-architect](cloud-architect/) | aiskillstore | ★ 0 | 41% | L3 | Expert cloud architect specializing in AWS/Azure/GCP multi-cloud |
+| [deploy-config](deploy-config/) | 686f6c61 | ★ 0 | 41% | L2 | Usar para configurar despliegue según hosting |
+| [deployment-engineer](deployment-engineer/) | rootcastleco | ★ 0 | 41% | L2 | Expert deployment engineer specializing in modern CI/CD pipelines, |
+| [Cost Analysis](cost-analysis/) | cdalsoniii | ★ 0 | 39% | L2 | Analyze infrastructure and operational costs with optimization recommendations |
+| [Feature Flag Strategy](feature-flag-strategy/) | cdalsoniii | ★ 0 | 39% | L2 | Design and manage feature flag lifecycles for safe, gradual rollouts |
+| [commit](commit/) | jorgeavaldez | ★ 0 | 38% | L2 | Reviews working copy changes and drafts a concise 1-line commit message. Use whe… |
+| [parametric-scribe](parametric-scribe/) | aiskillstore | ★ 0 | 38% | L3 | Enables "Time Machine" coding. Records tasks as a Recipe and allows intelligent … |
+| [parametric-scribe](parametric-scribe/) | Cycleaddict | ★ 0 | 38% | L3 | Enables "Time Machine" coding. Records tasks as a Recipe and allows intelligent … |
+| [triatu-architecture](triatu-architecture/) | majiayu000 | ★ 0 | 38% | L3 | Clean Architecture guidance for Triatu: layering, dependencies, and where code b… |
+| [inspire-workflows](inspire-workflows/) | majiayu000 | ★ 0 | 38% | L2 | Inspire team development workflows, deployment pipelines, and PR processes. Use … |
+| [cdd-gather-context](cdd-gather-context/) | majiayu000 | ★ 0 | 38% | L3 | 新規機能・複数ファイル変更前にコンテキスト収集 |
+| [go-services](go-services/) | majiayu000 | ★ 0 | 38% | L2 | Go is the language of infrastructure. From Docker to Kubernetes to the entire cl… |
+| [go-services](go-services/) | omer-metin | ★ 0 | 38% | L2 | Go is the language of infrastructure. From Docker to Kubernetes to the entire cl… |
+| [go-services](go-services/) | majiayu000 | ★ 0 | 38% | L2 | Go is the language of infrastructure. From Docker to Kubernetes to the entire cl… |
+| [gcp-cloud](gcp-cloud/) | majiayu000 | ★ 0 | 38% | L2 | Google Cloud Platform infrastructure patterns and best practices. Use when desig… |
+| [deployment-wizard](deployment-wizard/) | Nhqvu2005 | ★ 0 | 38% | L2 | Deploy local websites to the internet instantly via Cloudflare Tunnel. Zero host… |
+| [gcp-cloud](gcp-cloud/) | majiayu000 | ★ 0 | 38% | L2 | Google Cloud Platform infrastructure patterns and best practices. Use when desig… |
+| [k8s-simple-deploy](k8s-simple-deploy/) | majiayu000 | ★ 0 | 38% | L3 | Assists with deploying simple apps to Kubernetes consisting of a deployment and … |
+| [kubernetes-deployment](kubernetes-deployment/) | NeverSight | ★ 0 | 38% | L2 | World-class Kubernetes operations - deployments, debugging, Helm charts, and the… |
+| [k8s-gen](k8s-gen/) | openclaw | ★ 0 | 38% | L3 | Generate Kubernetes manifests from docker-compose or descriptions. Use when depl… |
+| [k8s-simple-deploy](k8s-simple-deploy/) | majiayu000 | ★ 0 | 38% | L3 | Assists with deploying simple apps to Kubernetes consisting of a deployment and … |
+| [kubernetes-deployment](kubernetes-deployment/) | omer-metin | ★ 0 | 38% | L2 | World-class Kubernetes operations - deployments, debugging, Helm charts, and the… |
+| [k8s-gen](k8s-gen/) | Demerzels-lab | ★ 0 | 38% | L3 | Generate Kubernetes manifests from docker-compose or descriptions. Use when depl… |
+| [k8s-gen](k8s-gen/) | kbarbel640-del | ★ 0 | 38% | L3 | Generate Kubernetes manifests from docker-compose or descriptions. Use when depl… |
+| [k8s-gen](k8s-gen/) | YPYT1 | ★ 0 | 38% | L3 | Generate Kubernetes manifests from docker-compose or descriptions. Use when depl… |
+| [testing-automation](testing-automation/) | majiayu000 | ★ 0 | 38% | L2 | Automated testing workflow that orchestrates unit, integration, and E2E tests wi… |
+| [cicd-pipeline](cicd-pipeline/) | amo-tech-ai | ★ 0 | 38% | L3 | Use when setting up GitHub Actions, automated testing, build checks, or deployme… |
+| [johnny-decimal](johnny-decimal/) | SebastienElet | ★ 0 | 38% | L2 | Johnny Decimal + PARA organization |
+| [azure-iam](azure-iam/) | alphaonedev | ★ 0 | 38% | L3 | Manage identity, access, and permissions with Microsoft Entra ID and Azure RBAC. |
+| [devops-cloud](devops-cloud/) | pluginagentmarketplace | ★ 0 | 38% | L3 | Master DevOps, cloud infrastructure, containerization, CI/CD, Kubernetes, and in… |
+| [gcp-cloud](gcp-cloud/) | majiayu000 | ★ 0 | 38% | L2 | Google Cloud Platform infrastructure patterns and best practices. Use when desig… |
+| [testing-automation](testing-automation/) | majiayu000 | ★ 0 | 38% | L2 | Automated testing workflow that orchestrates unit, integration, and E2E tests wi… |
+| [inspire-workflows](inspire-workflows/) | majiayu000 | ★ 0 | 38% | L2 | Inspire team development workflows, deployment pipelines, and PR processes. Use … |
+| [claude-code-cicd](claude-code-cicd/) | omer-metin | ★ 0 | 38% | L2 | Expert in integrating Claude Code with CI/CD pipelines. Covers headless mode for… |
+| [devops](devops/) | haliskoc | ★ 0 | 38% | L2 | DevOps skills: environment config, Kubernetes, CI/CD pipelines, containerization… |
+| [k8s-simple-deploy](k8s-simple-deploy/) | majiayu000 | ★ 0 | 38% | L2 | Assists with deploying simple apps to Kubernetes consisting of a deployment and … |
+| [rho-cloud](rho-cloud/) | mikeyobrien | ★ 0 | 37% | L3 | Rho Cloud onboarding and agent email setup. |
+| [azure-networking](azure-networking/) | alphaonedev | ★ 0 | 34% | L3 | Configure Azure VNet, NSG, Load Balancer, and network topology. |
+| [devops-specialist](devops-specialist/) | huangwb8 | ★ 0 | 34% | L2 | DevOps 与运维专家。精通 CI/CD、容器化、编排、基础设施即代码、监控告警和自动化部署。用于构建高效、可靠的软件交付流水线和运维系统。 |
+| [devops-specialist](devops-specialist/) | majiayu000 | ★ 0 | 34% | L2 | DevOps 与运维专家。精通 CI/CD、容器化、编排、基础设施即代码、监控告警和自动化部署。用于构建高效、可靠的软件交付流水线和运维系统。 |
+| [find-skills](find-skills/) | Stevenwang112 | ★ 0 | 34% | L3 | Find and install new capabilities/skills for the agent to use. |
+| [cicd](cicd/) | majiayu000 | ★ 0 | 34% | L2 | CI/CD pipeline best practices including GitHub Actions, testing, and deployment … |
+| [cicd](cicd/) | majiayu000 | ★ 0 | 34% | L2 | CI/CD pipeline best practices including GitHub Actions, testing, and deployment … |
+| [cicd](cicd/) | kprsnt2 | ★ 0 | 34% | L2 | CI/CD pipeline best practices including GitHub Actions, testing, and deployment … |
+| [NestJS Deployment](nestjs-deployment/) | HoangNguyen0403 | ★ 0 | 34% | L3 | Docker builds, Memory tuning, and Graceful shutdown. |
+| [cicd](cicd/) | majiayu000 | ★ 0 | 34% | L2 | CI/CD pipeline best practices including GitHub Actions, testing, and deployment … |
+| [citations](citations/) | matteing | ★ 0 | 34% | L2 | Automatically adds user-provided links and citations to docs/research/references… |
+| [docker](docker/) | kprsnt2 | ★ 0 | 34% | L2 | Docker and containerization best practices including multi-stage builds, securit… |
+| [openshift](openshift/) | G1Joshi | ★ 0 | 34% | L3 | OpenShift enterprise Kubernetes platform. Use for enterprise K8s. |
+| [keycloak](keycloak/) | G1Joshi | ★ 0 | 34% | L3 | Keycloak identity and access management. Use for SSO. |
+| [workflow-builder](workflow-builder/) | ShunsukeHayashi | ★ 0 | 32% | L2 | Design automation workflows and pipelines. Use when creating CI/CD, task automat… |
+| [update-notes](update-notes/) | andrewimm | ★ 0 | 32% | L2 | Condense learnings from this session, so that they can be used to make better de… |
+| [orama-integration](orama-integration/) | majiayu000 | ★ 0 | 32% | L2 | Use when integrating with Orama. Links to official docs for search, indexing, an… |
+| [devops-engineer](devops-engineer/) | Rihoj | ★ 0 | 32% | L2 | CI/CD pipeline design, IaC, deployment strategy, and automation guidance. Use wh… |
+| [server-management](server-management/) | Dokhacgiakhoa | ★ 0 | 31% | L2 | Server management principles and decision-making. |
+| [security-specialist](security-specialist/) | huangwb8 | ★ 0 | 28% | L2 | 安全专家。专注于应用安全、威胁建模、安全合规和数据保护。提供安全审查、漏洞扫描、安全配置和合规检查。用于构建安全可靠的应用系统。 |
+| [intelligent-routing](intelligent-routing/) | pedroct | ★ 0 | 28% | L2 | Route tasks to the right specialist agents and skills. |
+| [terraform-azurerm-set-diff-analyzer](terraform-azurerm-set-diff-analyzer/) | peparhugo | ★ 0 | 26% | L2 | Wave 5 migration placeholder for `awesome-copilot/terraform-azurerm-set-diff-ana… |
+| [deploy](deploy/) | aiskillstore | ★ 0 | 26% | L2 | Sets up deployment, analytics, and health monitoring for projects. Use when user… |
+| [deploy](deploy/) | majiayu000 | ★ 0 | 26% | L2 | Sets up deployment, analytics, and health monitoring for projects. Use when user… |
+| [deployment-playbook](deployment-playbook/) | pedroct | ★ 0 | 15% | L1 | Safe deployment steps and verification. |
 
 ---
 

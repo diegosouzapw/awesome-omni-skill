@@ -1,6 +1,6 @@
 # 📂 fullstack-web
 
-> 70 skills in this category
+> 108 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -68,12 +68,50 @@
 | [agora-dev-skill](agora-dev-skill/) | jayalbo | ★ 0 | 48% | L3 | Comprehensive assistant for Agora.io developers building real-time engagement ap… |
 | [cloud-app-store](cloud-app-store/) | majiayu000 | ★ 0 | 48% | L3 | Flow Nexus application marketplace and template management. Use for app publishi… |
 | [ck:mobile-development](ck-mobile-development/) | NammDev | ★ 0 | 48% | L2 | Build mobile apps with React Native, Flutter, Swift/SwiftUI, Kotlin/Jetpack Comp… |
+| [Apple Health](apple-health/) | openclaw | ★ 0 | 48% | L3 | Connect agents to Apple Health exports with MCP setup, schema validation, and pr… |
+| [three-best-practices](three-best-practices/) | joacim-boive | ★ 0 | 48% | L3 | Three.js performance optimization and best practices guidelines. Use when writin… |
+| [moltflow](moltflow/) | openclaw | ★ 0 | 48% | L3 | WhatsApp Business automation API for sessions, messaging, groups, labels, and we… |
+| [webmcp-setup](webmcp-setup/) | WebMCP-org | ★ 0 | 48% | L3 | Strategic guidance for adding WebMCP to web applications. Use when the user want… |
 | [fullstack-classic](fullstack-classic/) | twofoldtech-dakota | ★ 0 | 47% | L3 | Apply when working with classic fullstack patterns including jQuery AJAX, form h… |
 | [product-appeal-analyzer](product-appeal-analyzer/) | majiayu000 | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
 | [product-appeal-analyzer](product-appeal-analyzer/) | curiositech | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
 | [product-appeal-analyzer](product-appeal-analyzer/) | NeverSight | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
 | [product-appeal-analyzer](product-appeal-analyzer/) | majiayu000 | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
 | [multi-platform-apps-multi-platform](multi-platform-apps-multi-platform/) | ranbot-ai | ★ 0 | 45% | L3 | Build and deploy the same feature consistently across web, mobile, and desktop p… |
+| [app-builder](app-builder/) | ranbot-ai | ★ 0 | 45% | L3 | Main application building orchestrator. Creates full-stack applications from nat… |
+| [observe-whatsapp](observe-whatsapp/) | sickn33 | ★ 0 | 45% | L3 | Observe and troubleshoot WhatsApp in Kapso: debug message delivery, inspect webh… |
+| [clawsino-play](clawsino-play/) | anthonymq | ★ 0 | 45% | L3 | Play and operate the Clawsino casino webapp (dice + slots) via its HTTP API or U… |
+| [write-documents](write-documents/) | majiayu000 | ★ 0 | 45% | L2 | Apply when creating or editing INFO, SPEC, IMPL, TEST, FIX documents, or STRUT p… |
+| [mobile-offline-support](mobile-offline-support/) | majiayu000 | ★ 0 | 45% | L3 | Implement offline-first mobile apps with local storage, sync strategies, and con… |
+| [cloud-storage-web](cloud-storage-web/) | TencentCloudBase | ★ 0 | 45% | L3 | Complete guide for CloudBase cloud storage using Web SDK (@cloudbase/js-sdk) - u… |
+| [product-appeal-analyzer](product-appeal-analyzer/) | majiayu000 | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
+| [flutter-expert](flutter-expert/) | itsimonfredlingjack | ★ 0 | 45% | L2 | Master Flutter development with Dart 3, advanced widgets, and multi-platform dep… |
+| [mobile-guide](mobile-guide/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive mobile development guide for iOS, Android, React Native, and Flutt… |
+| [mobile-developer](mobile-developer/) | sergioP1991 | ★ 0 | 45% | L2 | Develop React Native, Flutter, or native mobile apps with modern architecture pa… |
+| [android-stop-app](android-stop-app/) | majiayu000 | ★ 0 | 45% | L3 | Stop the Android app running on connected device. Cleanly terminates the app usi… |
+| [app-builder](app-builder/) | piriya33 | ★ 0 | 45% | L3 | Main application building orchestrator. Creates full-stack applications from nat… |
+| [recon-dir-scan](recon-dir-scan/) | crazyMarky | ★ 0 | 45% | L3 | Directory and file enumeration using ffuf, gobuster, dirsearch, and feroxbuster.… |
+| [flutter-dev](flutter-dev/) | calvingit | ★ 0 | 45% | L3 | Expert guidance for Flutter and Dart development. Use when building Flutter apps… |
+| [u01789-human-approval-routing-for-remote-team-collaboration](u01789-human-approval-routing-for-remote-team-collaboration/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Human Approval Routing for remote team collaboration" capability in… |
+| [u01784-human-approval-routing-for-multilingual-translation-services](u01784-human-approval-routing-for-multilingual-translation-services/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Human Approval Routing for multilingual translation services" capab… |
+| [testing](testing/) | thienty1207 | ★ 0 | 45% | L3 | Comprehensive testing across platforms — Web (Playwright, Vitest), Backend (Rust… |
+| [u01689-human-approval-routing-for-education-support-services](u01689-human-approval-routing-for-education-support-services/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Human Approval Routing for education support services" capability i… |
+| [linear-dev-accelerator](linear-dev-accelerator/) | majiayu000 | ★ 0 | 45% | L2 | Accelerate software development with Linear project management and MCP server in… |
+| [u0532-engineering-human-approval-router](u0532-engineering-human-approval-router/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Engineering Human Approval Router" capability in production for  wo… |
+| [odoo-app-automator](odoo-app-automator/) | majiayu000 | ★ 0 | 45% | L3 | AI agent for automated Odoo module creation, deployment, and third-party integra… |
+| [electron-pro](electron-pro/) | majiayu000 | ★ 0 | 45% | L2 | Desktop application specialist building secure cross-platform solutions. Develop… |
+| [web-to-app](web-to-app/) | anbeime | ★ 0 | 45% | L3 | 将任意网页转换为桌面应用，支持 macOS/Windows/Linux 三大平台。使用 Rust + Tauri 技术栈，生成的应用体积小（约 5MB）、性能高… |
+| [seo-technical](seo-technical/) | anorbert-cmyk | ★ 0 | 45% | L3 | Technical SEO audit across 9 categories including crawlability, indexability, se… |
+| [qa-testing-mobile](qa-testing-mobile/) | vasilyu1983 | ★ 0 | 45% | L2 | Mobile app testing strategy and execution for iOS and Android (native + cross-pl… |
+| [osx-review](osx-review/) | BoltzmannEntropy | ★ 0 | 45% | L3 | Use when preparing mobile/desktop apps for App Store submission, before final re… |
+| [mobile](mobile/) | bulbulogludemir | ★ 0 | 44% | L3 | React Native, Expo, mobile apps. Auto-use for mobile work. |
+| [app-builder](app-builder/) | Dokhacgiakhoa | ★ 0 | 41% | L3 | Main application building orchestrator. |
+| [app-builder](app-builder/) | darthlinuxer | ★ 0 | 41% | L3 | Main application building orchestrator. Creates full-stack applications |
+| [webrtc-timing-test](webrtc-timing-test/) | kwindla | ★ 0 | 38% | L3 | Measure WebRTC connection timing on Daily rooms. Use when testing Daily video ca… |
+| [Chemistry Skill](chemistry-skill/) | AmaiDonatsu | ★ 0 | 38% | L3 | Provides a deep understanding of chemistry through a technical-philosophical app… |
+| [entry-point-check](entry-point-check/) | majiayu000 | ★ 0 | 38% | L2 | 验证 VS 的 entry_points 字段是否与 SPEC_PRJ_ENTRYPOINTS（入口类型标签）一致，生成缺失入口清单和补充建议。当准备 CONS… |
+| [shopify-apps](shopify-apps/) | davila7 | ★ 0 | 32% | L2 | Expert patterns for Shopify app development including Remix/React Router apps, e… |
+| [mobile](mobile/) | omkar-ukirde | ★ 0 | 25% | L2 | Mobile application security testing skills for Android and iOS platforms. |
 
 ---
 

@@ -1,6 +1,6 @@
 # 📂 cli-automation
 
-> 268 skills in this category
+> 485 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -268,10 +268,227 @@
 | [git-workflow](git-workflow/) | dsivov | ★ 0 | 48% | L2 | Use when the Integrator is performing git operations — committing, branching, me… |
 | [windmill](windmill/) | majiayu000 | ★ 0 | 48% | L3 | Developer-first workflow engine that turns scripts into workflows and UIs, suppo… |
 | [shortcut](shortcut/) | decimasudo | ★ 0 | 48% | L3 | Manage stories on Shortcut.com kanban boards. Use when creating, updating, or li… |
+| [jira-workflow-agent](jira-workflow-agent/) | jayleekr | ★ 0 | 48% | L3 | JIRA 티켓 기반 전체 개발 파이프라인 자동화. 티켓 분석→구현→빌드→PR까지 semi-auto로 실행. "jira", "ticket", "w… |
+| [github-workflow-automation](github-workflow-automation/) | majiayu000 | ★ 0 | 48% | L3 | Advanced GitHub Actions workflow automation with AI swarm coordination, intellig… |
+| [tiktok-workflow-e2e](tiktok-workflow-e2e/) | majiayu000 | ★ 0 | 48% | L3 | End-to-end orchestration of TikTok content creation. Single entry point for batc… |
+| [version-control](version-control/) | seb1n | ★ 0 | 48% | L3 | Manage Git repositories and collaborative workflows — branching strategies, comm… |
+| [cursor-agent](cursor-agent/) | majiayu000 | ★ 0 | 48% | L3 | A comprehensive skill for using the Cursor CLI agent for various software engine… |
+| [PowerShell Scripting for Security](powershell-scripting-for-security/) | majiayu000 | ★ 0 | 48% | L2 | This skill should be used when the user asks to "write PowerShell scripts", "aut… |
+| [integrations](integrations/) | tuanductran | ★ 0 | 48% | L2 | | Rule                                                                       | K… |
+| [cursor-agent](cursor-agent/) | dustland | ★ 0 | 48% | L3 | Use the Cursor CLI (agent) for software engineering tasks. Includes installation… |
+| [openspec-continue-change](openspec-continue-change/) | danielsogl | ★ 0 | 48% | L3 | Continue working on an OpenSpec change by creating the next artifact. Use when t… |
+| [raycast-alfred](raycast-alfred/) | vamseeachanta | ★ 0 | 48% | L3 | macOS launcher automation with Raycast extensions (TypeScript/React) and Alfred … |
+| [babysit](babysit/) | majiayu000 | ★ 0 | 48% | L3 | Orchestrate via @babysitter. Use this skill when asked to babysit a run, orchest… |
+| [cli-modern-tools](cli-modern-tools/) | majiayu000 | ★ 0 | 48% | L3 | Auto-suggest modern CLI tool alternatives (bat, eza, fd, ripgrep) for faster, mo… |
+| [github-cli](github-cli/) | yonatangross | ★ 0 | 48% | L3 | GitHub CLI (gh) mastery for issues, PRs, Projects v2, and automation. Modern dev… |
+| [github-release-management](github-release-management/) | ruvnet | ★ 0 | 48% | L3 | Comprehensive GitHub release orchestration with AI swarm coordination for automa… |
+| [github-release-management](github-release-management/) | mattnigh | ★ 0 | 48% | L3 | Comprehensive GitHub release orchestration with AI swarm coordination for automa… |
+| [release](release/) | kuju63 | ★ 0 | 48% | L3 | Automate release process with Conventional Commits-based version detection. Crea… |
+| [highlevel](highlevel/) | openclaw | ★ 0 | 48% | L3 | Connect your AI assistant to GoHighLevel CRM via the official API v2. Manage con… |
+| [github-workflow-automation](github-workflow-automation/) | frankxai | ★ 0 | 48% | L3 | Advanced GitHub Actions workflow automation with AI swarm coordination, intellig… |
+| [github-workflow](github-workflow/) | akaszubski | ★ 0 | 48% | L3 | GitHub-first workflow - Issues, PRs, milestones, auto-tracking for solo develope… |
+| [multipar-cli](multipar-cli/) | DoiiarX | ★ 0 | 48% | L3 | Comprehensive guide for MultiPar CLI - PAR2 recovery file creation and verificat… |
+| [dotnet-gha-patterns](dotnet-gha-patterns/) | rudironsoni | ★ 0 | 48% | L3 | Composes GitHub Actions workflows. Reusable workflows, composite actions, matrix… |
+| [oss](oss/) | majiayu000 | ★ 0 | 48% | L3 | This skill should be used when the user asks to "create a pull request", "create… |
 | [domain-cli](domain-cli/) | actionbook | ★ 0 | 47% | L2 | Use when building CLI tools. Keywords: CLI, command line, terminal, clap, struct… |
 | [makefile](makefile/) | pingqLIN | ★ 0 | 47% | L3 | Best practices for authoring GNU Make Makefiles Triggers on: **/Makefile, **/mak… |
 | [power-bi-security-rls-best-practices](power-bi-security-rls-best-practices/) | pingqLIN | ★ 0 | 47% | L2 | Comprehensive Power BI Row-Level Security (RLS) and advanced security patterns i… |
 | [dd-monitors](dd-monitors/) | datadog-labs | ★ 0 | 46% | L3 | Monitor management - create, update, mute, and alerting best practices. |
+| [hubspot-automation](hubspot-automation/) | davepoon | ★ 0 | 45% | L2 | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties… |
+| [hubspot-automation](hubspot-automation/) | majiayu000 | ★ 0 | 45% | L2 | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties… |
+| [seedance-pipeline](seedance-pipeline/) | Emily2040 | ★ 0 | 45% | L3 | Integrate Seedance 2.0 with ComfyUI nodes and post-processing chains covering up… |
+| [session-init](session-init/) | aiskillstore | ★ 0 | 45% | L3 | Initializes session with environment check and task status overview. Use when us… |
+| [session-init](session-init/) | majiayu000 | ★ 0 | 45% | L3 | Initializes session with environment check and task status overview. Use when us… |
+| [session-init](session-init/) | majiayu000 | ★ 0 | 45% | L3 | Initializes session with environment check and task status overview. Use when us… |
+| [creating-pull-request](creating-pull-request/) | tile-ai | ★ 0 | 45% | L3 | Create a high-quality PR end-to-end with automated lifecycle loop (pre-checks, b… |
+| [templar-miner-claude-skill](templar-miner-claude-skill/) | majiayu000 | ★ 0 | 45% | L3 | This skill should be used when setting up, optimizing, or managing Templar AI mi… |
+| [skill-forge](skill-forge/) | majiayu000 | ★ 0 | 45% | L3 | Automated skill creation workshop with intelligent source detection, smart path … |
+| [templar-miner-claude-skill](templar-miner-claude-skill/) | synapz-org | ★ 0 | 45% | L3 | This skill should be used when setting up, optimizing, or managing Templar AI mi… |
+| [bigquery-cli](bigquery-cli/) | majiayu000 | ★ 0 | 45% | L3 | Use when working with BigQuery from command line using bq tool, including queryi… |
+| [git-workflow-automation](git-workflow-automation/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive Git workflow automation including branching strategies, pull reque… |
+| [bats-testing-patterns](bats-testing-patterns/) | majiayu000 | ★ 0 | 45% | L3 | Master Bash Automated Testing System (Bats) for comprehensive shell script testi… |
+| [pr-draft-summary](pr-draft-summary/) | majiayu000 | ★ 0 | 45% | L2 | Create a PR title and draft description after substantive code changes are finis… |
+| [bluesky](bluesky/) | majiayu000 | ★ 0 | 45% | L3 | Read from and post to Bluesky social network using the AT Protocol. Use this ski… |
+| [chezmoi-chef](chezmoi-chef/) | fonnesbeck | ★ 0 | 45% | L3 | Manage dotfiles and secrets with chezmoi. Use for initializing chezmoi, adding/e… |
+| [molt-planner](molt-planner/) | teop23 | ★ 0 | 45% | L3 | MoltPlanner is a Google Calendar integration skill enabling agents to collaborat… |
+| [obsidian-cli](obsidian-cli/) | flowing-abyss | ★ 0 | 45% | L3 | Interact with Obsidian vaults using the Obsidian CLI to read, create, search, an… |
+| [exe](exe/) | majiayu000 | ★ 0 | 45% | L3 | Deploy a Vibes app to exe.dev VM hosting. Uses nginx on persistent VMs with SSH … |
+| [bg-remover](bg-remover/) | majiayu000 | ★ 0 | 45% | L3 | Remove backgrounds from images using FAL.ai's BiRefNet model. Use when users ask… |
+| [deleting-op-secrets](deleting-op-secrets/) | majiayu000 | ★ 0 | 45% | L3 | Deletes or archives secrets in 1Password using the op CLI. Use when the user nee… |
+| [github-search](github-search/) | majiayu000 | ★ 0 | 45% | L3 | Search GitHub for repos, code, and usage examples using gh CLI. Capabilities: re… |
+| [search-operations](search-operations/) | majiayu000 | ★ 0 | 45% | L3 | Search GitHub - find code, issues, users, and repositories across GitHub using g… |
+| [release](release/) | majiayu000 | ★ 0 | 45% | L2 | Create a professional release using GitHub CLI (gh). Generate SemVer version, cl… |
+| [gh-issues](gh-issues/) | fufankeji | ★ 0 | 45% | L3 | Fetch GitHub issues, spawn sub-agents to implement fixes and open PRs, then moni… |
+| [paas-overview](paas-overview/) | majiayu000 | ★ 0 | 45% | L3 | Overview of the PaaS stack - health checks, service URLs, and common operations. |
+| [cursor-rules-synchronizer](cursor-rules-synchronizer/) | majiayu000 | ★ 0 | 45% | L3 | Synchronizes Cursor Rules (.mdc files in .cursor/rules/) to CLAUDE.md by generat… |
+| [session-init](session-init/) | majiayu000 | ★ 0 | 45% | L3 | Initializes session with environment check and task status overview. Use when us… |
+| [shell-scripting](shell-scripting/) | aiskillstore | ★ 0 | 45% | L3 | Specialized knowledge of Bash and Zsh scripting, shell automation, command-line … |
+| [tmux](tmux/) | scaryrawr | ★ 0 | 45% | L3 | Remote control tmux sessions for interactive CLIs (python, gdb, etc.) by sending… |
+| [obsidian-daily](obsidian-daily/) | majiayu000 | ★ 0 | 45% | L3 | Manage Obsidian Daily Notes via obsidian-cli. Create and open daily notes, appen… |
+| [clawdbot-config](clawdbot-config/) | tumf | ★ 0 | 45% | L3 | Comprehensive Clawdbot configuration and skills system management. Use when work… |
+| [beads](beads/) | majiayu000 | ★ 0 | 45% | L3 | Issue tracking with Beads (bd CLI). Use when commands need to create, query, upd… |
+| [srgn-cli](srgn-cli/) | OutlineDriven | ★ 0 | 45% | L3 | Practical guide for building safe, syntax-aware srgn CLI commands for source-cod… |
+| [docx](docx/) | M4n5ter | ★ 0 | 45% | L3 | 全面的文档创建、编辑和分析，支持修订（tracked changes）、批注、格式保留和文本提取。当需要处理专业文档（.docx 文件）用于：（1）创建新文档，… |
+| [compose](compose/) | Ardrual | ★ 0 | 45% | L3 | Compose a piece of music in the Melos language, compile it to MIDI, and fix any … |
+| [godot](godot/) | tr-nc | ★ 0 | 45% | L3 | Create and build Godot games using command-line only, without the Godot Editor G… |
+| [shelby-cli-assistant](shelby-cli-assistant/) | mattnigh | ★ 0 | 45% | L3 | Expert on Shelby CLI tool for command-line blob storage operations. Helps with s… |
+| [spec-kit-skill](spec-kit-skill/) | majiayu000 | ★ 0 | 45% | L3 | GitHub Spec-Kit integration for constitution-based spec-driven development. 7-ph… |
+| [github-repo-analysis](github-repo-analysis/) | majiayu000 | ★ 0 | 45% | L3 | Analyze GitHub repositories to extract insights about commit frequency, outstand… |
+| [propel-address-pr-comments](propel-address-pr-comments/) | propel-gtm | ★ 0 | 45% | L3 | Help address Propel Code AI review/issue comments on the open GitHub PR for the … |
+| [github-navigator](github-navigator/) | majiayu000 | ★ 0 | 45% | L3 | GitHub operations via gh CLI. CRITICAL: Always use instead of WebFetch for ANY g… |
+| [gh-discussions-answerer](gh-discussions-answerer/) | majiayu000 | ★ 0 | 45% | L2 | Find and answer unanswered GitHub discussions. Activate when user wants to contr… |
+| [AI Recruiting Engine](ai-recruiting-engine/) | openclaw | ★ 0 | 45% | L2 | Full-cycle recruiting agent — source, screen, score, and hire top talent with st… |
+| [gh-cli](gh-cli/) | sandriaas | ★ 0 | 45% | L3 | GitHub CLI (gh) comprehensive reference for repositories, issues, pull requests,… |
+| [atlassian-cli](atlassian-cli/) | majiayu000 | ★ 0 | 45% | L3 | Use when working with Jira or Confluence from command line, including authentica… |
+| [beads-task-management](beads-task-management/) | majiayu000 | ★ 0 | 45% | L3 | Use beads for structured task tracking with dependencies, recovery cards, and cr… |
+| [flp-agreement](flp-agreement/) | CaseMark | ★ 0 | 45% | L2 | Drafts comprehensive Family Limited Partnership (FLP) agreements for high-net-wo… |
+| [tmux](tmux/) | gabrielkoerich | ★ 0 | 45% | L3 | Remote-control tmux sessions for interactive CLIs by sending keystrokes and scra… |
+| [mlx-audio](mlx-audio/) | IntelliSoins | ★ 0 | 45% | L3 | Generate speech from text (TTS), transcribe audio to text (STT), and run speech-… |
+| [gh-pr](gh-pr/) | hondaya14 | ★ 0 | 45% | L2 | Create or update GitHub pull requests using the gh CLI, including draft vs ready… |
+| [tech-article-extractor](tech-article-extractor/) | majiayu000 | ★ 0 | 45% | L3 | 技術サイトから特定の技術に関する記事・動画・スライド・論文を抽出・分析します。Qiita、Zenn、Stack Overflow、GitHub、Dev.to、M… |
+| [openclaw-sentry-pro](openclaw-sentry-pro/) | kbarbel640-del | ★ 0 | 45% | L3 | Full secret scanning suite: detect leaked API keys, tokens, and credentials, the… |
+| [openclaw-sentry-pro](openclaw-sentry-pro/) | decimasudo | ★ 0 | 45% | L3 | Full secret scanning suite: detect leaked API keys, tokens, and credentials, the… |
+| [openclaw-sentry-pro](openclaw-sentry-pro/) | YPYT1 | ★ 0 | 45% | L3 | Full secret scanning suite: detect leaked API keys, tokens, and credentials, the… |
+| [ethereal-persona](ethereal-persona/) | majiayu000 | ★ 0 | 45% | L2 | Design and implement the personality, conversational style, and emotional behavi… |
+| [notes-cli](notes-cli/) | jcfontecha | ★ 0 | 45% | L3 | Read, create, update, search, and delete Apple Notes using Markdown from the com… |
+| [github-mcp](github-mcp/) | kerim | ★ 0 | 45% | L3 | Set up project-level GitHub MCP when GitHub operations (PRs, issues, repo access… |
+| [gitlab-cli-skills](gitlab-cli-skills/) | openclaw | ★ 0 | 45% | L3 | Comprehensive GitLab CLI (glab) command reference and workflows for all GitLab o… |
+| [github-pr-review-comments](github-pr-review-comments/) | straub | ★ 0 | 45% | L3 | Comprehensive workflow for managing GitHub PR review comments using gh CLI and G… |
+| [python-github-actions](python-github-actions/) | majiayu000 | ★ 0 | 45% | L3 | Complete Python GitHub Actions system. PROACTIVELY activate for: (1) uv-based CI… |
+| [multi-ai](multi-ai/) | majiayu000 | ★ 0 | 45% | L3 | Start the multi-AI pipeline with a given request. Guides through plan -> review … |
+| [git-workflow](git-workflow/) | orient-bot | ★ 0 | 45% | L3 | Orient repository git workflow conventions. Use when creating branches, writing … |
+| [aspire](aspire/) | github | ★ 0 | 45% | L3 | Aspire skill covering the Aspire CLI, AppHost orchestration, service discovery, … |
+| [pop-changelog-automation](pop-changelog-automation/) | majiayu000 | ★ 0 | 45% | L3 | Enhanced changelog generation with semantic versioning, auto-categorization, and… |
+| [workflows-expert](workflows-expert/) | majiayu000 | ★ 0 | 45% | L3 | Activate when requests involve workflow execution, CI/CD pipelines, git automati… |
+| [github-workflow](github-workflow/) | majiayu000 | ★ 0 | 45% | L3 | GitHub workflow automation for LiquidationHeatmap. Generate standardized PR desc… |
+| [integration-workflows](integration-workflows/) | majiayu000 | ★ 0 | 45% | L2 | Cross-MCP workflows that coordinate multiple systems (Linear, GitHub, n8n, Slack… |
+| [n8n-ai-automation](n8n-ai-automation/) | majiayu000 | ★ 0 | 45% | L3 | World-class expert n8n workflow automation specialist with focus on AI integrati… |
+| [cva-healthcare-pipeline](cva-healthcare-pipeline/) | majiayu000 | ★ 0 | 45% | L3 | Complete 5-system healthcare content pipeline for regulated medical content gene… |
+| [n8n-automation](n8n-automation/) | majiayu000 | ★ 0 | 45% | L3 | n8n workflow automation for building analytics including SkySpark multi-agent sy… |
+| [Ashby Automation](ashby-automation/) | majiayu000 | ★ 0 | 45% | L2 | Automate recruiting and hiring workflows in Ashby -- manage candidates, jobs, ap… |
+| [workflows-expert](workflows-expert/) | qtsone | ★ 0 | 45% | L3 | Activate when requests involve workflow execution, CI/CD pipelines, git automati… |
+| [n8n-automation](n8n-automation/) | mbcoalson | ★ 0 | 45% | L3 | n8n workflow automation for building analytics including SkySpark multi-agent sy… |
+| [biopython](biopython/) | MooseGoose0701 | ★ 0 | 45% | L3 | Comprehensive molecular biology toolkit. Use for sequence manipulation, file par… |
+| [ptc-orchestration](ptc-orchestration/) | majiayu000 | ★ 0 | 45% | L3 | Activate when user needs multi-URL scraping, browser automation pipelines, or ef… |
+| [pytest-runner](pytest-runner/) | majiayu000 | ★ 0 | 45% | L3 | Execute Python tests with pytest, supporting fixtures, markers, coverage, and pa… |
+| [using-xcode-cli](using-xcode-cli/) | majiayu000 | ★ 0 | 45% | L3 | Builds and manages iOS/macOS apps using xcodebuild and xcrun simctl CLI tools. U… |
+| [task-automation](task-automation/) | majiayu000 | ★ 0 | 45% | L3 | Execute development tasks from manifest, run parallel agents, verify builds, man… |
+| [xiaohongshu-publisher](xiaohongshu-publisher/) | nordeim | ★ 0 | 45% | L3 | Draft and publish posts to 小红书 (Xiaohongshu/RED). Use when creating content for … |
+| [interactor-workflows](interactor-workflows/) | majiayu000 | ★ 0 | 45% | L3 | Build state-machine based automation with human-in-the-loop support through Inte… |
+| [running-interactive-commands-with-tmux](running-interactive-commands-with-tmux/) | majiayu000 | ★ 0 | 45% | L3 | Controls interactive CLI tools (vim, git rebase -i, REPLs) through tmux detached… |
+| [sdlc-studio](sdlc-studio/) | majiayu000 | ★ 0 | 45% | L3 | /sdlc-studio [type] [action] - SDLC pipeline: requirements, specifications, code… |
+| [nushell](nushell/) | majiayu000 | ★ 0 | 45% | L3 | Guide for using Nushell for structured data pipelines and scripting. Use when wr… |
+| [claude-cli](claude-cli/) | majiayu000 | ★ 0 | 45% | L3 | Use claude CLI for interactive AI sessions, scripting with print mode, MCP serve… |
+| [pipedrive-automation](pipedrive-automation/) | haniakrim21 | ★ 0 | 45% | L2 | Automate Pipedrive CRM operations including deals, contacts, organizations, acti… |
+| [changelog](changelog/) | aakash-dhar | ★ 0 | 45% | L3 | Generates release notes and changelogs by analyzing git history, commits, PRs, a… |
+| [issue-driven-delivery](issue-driven-delivery/) | mcj-coder | ★ 0 | 45% | L3 | Use when work is tied to a ticketing system work item and requires comment appro… |
+| [system-create-cli](system-create-cli/) | majiayu000 | ★ 0 | 45% | L3 | Generate production-quality TypeScript CLIs with full documentation, error handl… |
+| [find-skills](find-skills/) | jdiegosierra | ★ 0 | 45% | L3 | This skill helps you discover and install skills from the open agent skills ecos… |
+| [gmail-access](gmail-access/) | lucasmeijer | ★ 0 | 45% | L3 | Search, read, draft, and reply to Gmail emails using the gmail.cs CLI tool. Use … |
+| [treatment-plans](treatment-plans/) | K-Dense-AI | ★ 0 | 45% | L3 | Generate concise (3-4 page), focused medical treatment plans in LaTeX/PDF format… |
+| [treatment-plans](treatment-plans/) | majiayu000 | ★ 0 | 45% | L3 | Generate concise (3-4 page), focused medical treatment plans in LaTeX/PDF format… |
+| [treatment-plans](treatment-plans/) | Rowtion | ★ 0 | 45% | L3 | Generate concise (3-4 page), focused medical treatment plans in LaTeX/PDF format… |
+| [kanban-management](kanban-management/) | majiayu000 | ★ 0 | 45% | L3 | Manages the Anubis Issue Tracker GitHub project board. Use when you need to orga… |
+| [retro](retro/) | tyevans | ★ 0 | 45% | L3 | Run an automated session retrospective to evaluate velocity, quality, process, a… |
+| [bats-testing-patterns](bats-testing-patterns/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive guide for writing shell script tests using Bats (Bash Automated Te… |
+| [bdg](bdg/) | majiayu000 | ★ 0 | 45% | L3 | Use bdg CLI for browser automation via Chrome DevTools Protocol. Provides direct… |
+| [slb](slb/) | majiayu000 | ★ 0 | 45% | L3 | Simultaneous Launch Button - Two-person rule for destructive commands in multi-a… |
+| [claims](claims/) | yjsoon | ★ 0 | 45% | L3 | Process expense claims by matching YNAB transactions with uploaded receipts. Use… |
+| [git-workflow](git-workflow/) | huangwb8 | ★ 0 | 45% | L3 | Git 工作流专家。规范化版本控制，确保提交历史清晰可追溯。支持 Conventional Commits 规范、Pull Request 最佳实践、分支管理策… |
+| [browser-automation](browser-automation/) | drshailesh88 | ★ 0 | 45% | L3 | Browser automation for ChatGPT Plus and Gemini Advanced web interfaces. Uses Pla… |
+| [pr-description-generator](pr-description-generator/) | majiayu000 | ★ 0 | 45% | L3 | Auto-activates when user mentions creating pull request, PR description, or merg… |
+| [workflow-integration-git](workflow-integration-git/) | majiayu000 | ★ 0 | 45% | L3 | Git commit workflow with conventional commits, artifact cleanup, and optional pu… |
+| [git-create-commit-skill](git-create-commit-skill/) | majiayu000 | ★ 0 | 45% | L3 | Use when creating git commits - mandates commits format with required scopes for… |
+| [clippy-configuration](clippy-configuration/) | majiayu000 | ★ 0 | 45% | L3 | Use when configuring Clippy for Rust projects with TOML config, lint groups, att… |
+| [managing-astro-local-env](managing-astro-local-env/) | astronomer | ★ 0 | 45% | L3 | Manage local Airflow environment with Astro CLI. Use when the user wants to star… |
+| [gitlab-jobs](gitlab-jobs/) | majiayu000 | ★ 0 | 45% | L2 | Manages GitLab CI jobs. Use for listing, logs, canceling, retrying, or erasing j… |
+| [updatekfg](updatekfg/) | majiayu000 | ★ 0 | 45% | L3 | Synchronizacja KFG między urządzeniami (Windows/Android). Triggers: sync KFG, up… |
+| [programmatic-claude](programmatic-claude/) | WebSmartTeam | ★ 0 | 45% | L3 | Run Claude Code programmatically via CLI (-p flag), Python SDK, or TypeScript SD… |
+| [github-issue](github-issue/) | ingo-eichhorst | ★ 0 | 45% | L3 | Work on a GitHub issue end-to-end: checkout main, create branch, research best p… |
+| [raise-pr](raise-pr/) | Shopify | ★ 0 | 45% | L3 | Create a GitHub PR for FlashList. Ensures no AI/Claude attribution in commits or… |
+| [gt-stack](gt-stack/) | chagui | ★ 0 | 45% | L2 | Analyze changes and organize them into a Graphite stack of logically isolated PR… |
+| [git](git/) | majiayu000 | ★ 0 | 45% | L3 | Git commit and pull request guidelines using conventional commits. Use when crea… |
+| [git](git/) | majiayu000 | ★ 0 | 45% | L3 | Git workflow and commit standards for SignalRoom. Use when committing changes, c… |
+| [linear-iterate-on-implementation](linear-iterate-on-implementation/) | jankneumann | ★ 0 | 45% | L3 | Iteratively refine a feature implementation by identifying and fixing bugs, edge… |
+| [define](define/) | Tubular-Health | ★ 0 | 45% | L3 | Create well-defined issues (bugs, features, tasks) using Socratic questioning to… |
+| [agent-content-pipeline](agent-content-pipeline/) | larsderidder | ★ 0 | 45% | L3 | Safe content workflow (drafts/reviewed/revised/approved/posted) with human-in-th… |
+| [scode-dist-rust-setup](scode-dist-rust-setup/) | scode | ★ 0 | 45% | L2 | Set up or standardize a Rust repository with cargo-dist release automation, Linu… |
+| [chrome-devtools](chrome-devtools/) | Cygnusfear | ★ 0 | 45% | L3 | Control Chrome browser programmatically using chrome-devtools-mcp. Use when user… |
+| [tuist-migration](tuist-migration/) | vjr2005 | ★ 0 | 45% | L3 | Integrates Tuist into an existing iOS project that uses SPM local packages. Use … |
+| [ml-pipeline-automation](ml-pipeline-automation/) | majiayu000 | ★ 0 | 45% | L3 | Automate ML workflows with Airflow, Kubeflow, MLflow. Use for reproducible pipel… |
+| [ln-1000-pipeline-orchestrator](ln-1000-pipeline-orchestrator/) | mcauduro0 | ★ 0 | 45% | L3 | Meta-orchestrator (L0): reads kanban board, drives Stories through pipeline 300-… |
+| [genviral](genviral/) | fdarkaou | ★ 0 | 45% | L3 | Complete genviral Partner API automation. Create and schedule posts (video + sli… |
+| [soulflow](soulflow/) | simplefarmer69 | ★ 0 | 45% | L3 | General-purpose AI workflow framework for OpenClaw. Build custom multi-step work… |
+| [mise-tasks](mise-tasks/) | terrylica | ★ 0 | 45% | L3 | Orchestrate workflows with mise [tasks]. TRIGGERS - mise tasks, mise run, task r… |
+| [glab-cli](glab-cli/) | mikeparcewski | ★ 0 | 45% | L3 | GitLab CLI (glab) utilities - pipeline debugging, MR management, release automat… |
+| [bash-pro](bash-pro/) | itsimonfredlingjack | ★ 0 | 45% | L3 | Master of defensive Bash scripting for production automation, CI/CD pipelines, a… |
+| [apple-contacts](apple-contacts/) | fishfisher | ★ 0 | 45% | L3 | Search and view Apple Contacts from the command line using apple-contacts CLI. U… |
+| [github-expert](github-expert/) | arielperez82 | ★ 0 | 45% | L3 | Complete GitHub expertise covering GitHub Actions, CI/CD workflows, automation, … |
+| [mcp-workflow-composition](mcp-workflow-composition/) | majiayu000 | ★ 0 | 45% | L3 | Teaches effective composition of multiple @j0kz MCP tools into cohesive workflow… |
+| [onboarding-kickoff](onboarding-kickoff/) | aiagentwithdhruv | ★ 0 | 45% | L3 | Automated client onboarding after kickoff call - generates leads, creates email … |
+| [pixi-tasks](pixi-tasks/) | jjjermiah | ★ 0 | 45% | L3 | Complex pixi task workflows and orchestration. Use when building task dependency… |
+| [mise-task-configuration](mise-task-configuration/) | TheBushidoCollective | ★ 0 | 45% | L3 | Use when defining and configuring Mise tasks in mise.toml. Covers task definitio… |
+| [aws-cli](aws-cli/) | Tryboy869 | ★ 0 | 45% | L3 | [Applies to: **/*] Definitive guidelines for secure, reproducible, and efficient… |
+| [apple-developer-toolkit](apple-developer-toolkit/) | openclaw | ★ 0 | 45% | L3 | All-in-one Apple developer skill with three integrated tools shipped as a single… |
+| [genviral](genviral/) | openclaw | ★ 0 | 45% | L3 | Complete genviral Partner API automation. Create and schedule posts (video + sli… |
+| [pixi-package-manager](pixi-package-manager/) | uw-ssec | ★ 0 | 45% | L3 | This skill should be used when the user asks to "set up pixi", "add pixi depende… |
+| [Apollo Automation](apollo-automation/) | majiayu000 | ★ 0 | 45% | L2 | Automate Apollo.io lead generation -- search organizations, discover contacts, e… |
+| [skill-cli](skill-cli/) | majiayu000 | ★ 0 | 45% | L3 | Testing and using skill-cli for progressive disclosure across platforms (CI/CD, … |
+| [commit](commit/) | majiayu000 | ★ 0 | 45% | L3 | Commit staged changes using Graphite. Checks if on trunk and creates a new branc… |
+| [git-commit-push](git-commit-push/) | majiayu000 | ★ 0 | 45% | L3 | This skill should be used when the user wants to commit their work to git and pu… |
+| [setup-workflow](setup-workflow/) | majiayu000 | ★ 0 | 45% | L3 | Initial setup workflow for claude-pilot plugin - directory creation, statusline … |
+| [Project Setup and CCAGI Integration](project-setup-and-ccagi-integration/) | majiayu000 | ★ 0 | 45% | L3 | Complete project initialization including Node.js/TypeScript setup, GitHub integ… |
+| [generating-commit-messages](generating-commit-messages/) | mattnigh | ★ 0 | 45% | L2 | MANDATORY skill for ALL commits. Must be used EVERY TIME before creating any git… |
+| [github-code-review](github-code-review/) | frankxai | ★ 0 | 44% | L3 | Comprehensive GitHub code review with AI-powered swarm coordination |
+| [github-code-review](github-code-review/) | frankxai | ★ 0 | 44% | L3 | Comprehensive GitHub code review with AI-powered swarm coordination |
+| [reddit](reddit/) | NeverSight | ★ 0 | 44% | L3 | Enables Claude to manage Reddit posts, comments, and community engagement |
+| [git-worktree](git-worktree/) | opensrcdevelop | ★ 0 | 44% | L3 | Git Worktree 管理命令。提供 init、list、remove 三个子命令来管理项目 worktree。 |
+| [claw-daw](claw-daw/) | sdiaoune | ★ 0 | 44% | L3 | Offline, deterministic, terminal-first MIDI DAW (TUI + headless scripts) |
+| [Sharing Skills](sharing-skills/) | boisenoise | ★ 0 | 44% | L3 | Contribute skills back to upstream via branch and PR |
+| [automation-scripts](automation-scripts/) | majiayu000 | ★ 0 | 44% | L3 | Build automation, task runners, and scripting tools |
+| [ticket-pipeline](ticket-pipeline/) | OmniNode-ai | ★ 0 | 44% | L3 | Pass auto_merge=true to auto-merge sub-skill (skip HIGH_RISK gate) |
+| [n8n](n8n/) | openclaw | ★ 0 | 44% | L3 | Automate document workflows with n8n - 7800+ workflow templates |
+| [rust-dpdk](rust-dpdk/) | majiayu000 | ★ 0 | 43% | L2 | 用户态网络专家。处理 DPDK, 用户态驱动, 高性能网络, packet processing, 零拷贝, RSS 负载均衡 |
+| [bug](bug/) | GobbyAI | ★ 0 | 41% | L3 | Quickly create a bug task. Usage: /gobby:bug <title> [description] |
+| [pr-watch](pr-watch/) | OmniNode-ai | ★ 0 | 41% | L2 | Also auto-fix Nit-level comments |
+| [auxiliary-scripts](auxiliary-scripts/) | majiayu000 | ★ 0 | 41% | L2 | Auxiliary script management rules for Ralph agents |
+| [repoint-branch](repoint-branch/) | ahoym | ★ 0 | 41% | L3 | Extract independent changes from a feature branch into a new PR targeting main. |
+| [refresh-tarkovdev-schema](refresh-tarkovdev-schema/) | majiayu000 | ★ 0 | 41% | L3 | Update the tarkov.dev GraphQL schema and regenerate the Go client code |
+| [release-automation](release-automation/) | majiayu000 | ★ 0 | 41% | L3 | Automate complete release process with versioning and publishing |
+| [todo-task-planning](todo-task-planning/) | gendosu | ★ 0 | 41% | L3 | Branch name to create and use for task execution (optional value flag) |
+| [kanban](kanban/) | mkSteady | ★ 0 | 41% | L3 | Code Kanban 本地任务管理系统。支持项目、任务、Worktree 的完整 CRUD 操作。私有数据不暴露到公开 GitHub。 |
+| [bash-pro](bash-pro/) | AristidesAI | ★ 0 | 41% | L3 | Master of defensive Bash scripting for production automation, CI/CD |
+| [commit](commit/) | yida29 | ★ 0 | 41% | L3 | diff分析 → 論理的に分割コミット。conventional commitメッセージを自動生成。 |
+| [git-workflow](git-workflow/) | zeroshotstudio | ★ 0 | 41% | L3 | Git operations with branch/PR standards enforcement |
+| [Proactive Orchestrator](proactive-orchestrator/) | SixtySecondsApp | ★ 0 | 41% | L3 | Any errors encountered during execution |
+| [attention-please](attention-please/) | majiayu000 | ★ 0 | 38% | L3 | Play an alert sound and speak "Project NAME needs your attention." Always use at… |
+| [upstash/workflow TypeScript SDK Skill](upstash-workflow-typescript-sdk-skill/) | upstash | ★ 0 | 38% | L3 | Lightweight guidance for using the Upstash Workflow SDK to define, trigger, and … |
+| [wash](wash/) | cosmonic-labs | ★ 0 | 38% | L3 | Expert in wasmCloud Shell (wash) CLI tool for building, running, and managing We… |
+| [git-pr-merge](git-pr-merge/) | majiayu000 | ★ 0 | 38% | L2 | Conducts an audit of a Pull Request, merges it into main, and synchronizes the l… |
+| [defining-typescript-models](defining-typescript-models/) | majiayu000 | ★ 0 | 38% | L3 | Defines standard TypeScript interfaces for Appwrite Collections. Use when creati… |
+| [order-analysis](order-analysis/) | heimanba | ★ 0 | 38% | L2 | 分析产品升级工单，识别共性问题并提出产品改进建议。通过 agent-browser工具 访问工单系统，提取工单数据，进行问题分类、趋势分析和根因定位，输出改进方… |
+| [stripe-checkout-subscriptions](stripe-checkout-subscriptions/) | Ras3uCat | ★ 0 | 38% | L2 | Guide for creating Stripe Checkout Sessions for subscriptions in Flutter/Supabas… |
+| [local-whisper](local-whisper/) | kesslerio | ★ 0 | 38% | L3 | LOCAL voice transcription using OpenAI Whisper. 100% private - audio never leave… |
+| [sc-pull-request-skills](sc-pull-request-skills/) | majiayu000 | ★ 0 | 38% | L3 | GitHub PR workflow automation including fetching unresolved comments, resolving … |
+| [instruction-creator](instruction-creator/) | majiayu000 | ★ 0 | 38% | L3 | Create and manage high-quality custom instruction files for GitHub Copilot. Use … |
+| [qcc-git](qcc-git/) | yxhpy | ★ 0 | 38% | L3 | Use for Git workflow, branch strategy, and commit conventions in qcc_plus projec… |
+| [sumo-core](sumo-core/) | XRDS76354 | ★ 0 | 38% | L3 | Core SUMO simulation workflows and CLI usage: build/import networks (netgenerate… |
+| [commit](commit/) | majiayu000 | ★ 0 | 38% | L3 | Commit changes following project quality gates and best practices. Run before cr… |
+| [resend-cli](resend-cli/) | Shubhdeep12 | ★ 0 | 37% | L3 | Resend API key. Get one at https://resend.com/api-keys |
+| [work-issue](work-issue/) | s-hirano-ist | ★ 0 | 36% | L2 | issues/ディレクトリのタスクを1つ実装し、ブランチ作成・コミット・PR作成を行なうワークフロー |
+| [skill-name](skill-name/) | myDevicesIoT | ★ 0 | 35% | L3 | A clear description of what this skill does and when to use it. Include specific… |
+| [db-bahn](db-bahn/) | majiayu000 | ★ 0 | 34% | L3 | Query Deutsche Bahn train connections and prices. |
+| [simple-pr](simple-pr/) | majiayu000 | ★ 0 | 34% | L2 | Create a simple PR from staged changes with an auto-generated commit message |
+| [workflow-conductor](workflow-conductor/) | majiayu000 | ★ 0 | 34% | L2 | Workflow orchestration and automation engine |
+| [version-control-rule](version-control-rule/) | majiayu000 | ★ 0 | 33% | L3 | Applies to git related files, specifies to always use git for version control. |
+| [genaiscript](genaiscript/) | pingqLIN | ★ 0 | 30% | L2 | AI-powered script generation guidelines Triggers on: **/*.genai.* |
+| [script-executor](script-executor/) | majiayu000 | ★ 0 | 28% | L3 | Executes shell scripts in a safe environment. |
+| [use-gunshi-cli](use-gunshi-cli/) | izumin5210 | ★ 0 | 28% | L2 | Use the Gunshi library to create command-line interfaces in JavaScript/TypeScrip… |
+| [skill-launcher](skill-launcher/) | majiayu000 | ★ 0 | 26% | L2 | Search and select a Claude Code skill in the terminal, then copy /skill to clipb… |
+| [vcf](vcf/) | majiayu000 | ★ 0 | 26% | L2 | Short alias for vc-phase-loop. Use when the user invokes "vcf:" or "use vcf:" an… |
+| [typescript](typescript/) | GoldenPanda1104 | ★ 0 | 24% | L2 | TypeScript. Proyecto usa este skill; contenido canónico en .ai-system. |
+| [gsd:workflow:resume-project](gsd-workflow-resume-project/) | majiayu000 | ★ 0 | 22% | L2 | Workflow for resuming a paused project |
+| [n8n-automation](n8n-automation/) | Niraven | ★ 0 | 21% | L1 | Build and manage n8n workflow automations. |
 
 ---
 
