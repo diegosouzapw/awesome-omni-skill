@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "01dbb1032ff6e478468281536b1c8b0003dbdfbf20326969217e3adef2c52f46",
   "indexed_at": "2026-02-25T14:09:44.136Z",
-  "synced_at": "2026-02-27T02:49:16.031Z",
+  "synced_at": "2026-02-28T04:20:44.012Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c03bc489f92ae58709782faaf044f4d6881b787bc46d3886015bda5ea9841077",
   "install_command": "mkdir -p .claude/skills/god-mode && curl -sL \"https://raw.githubusercontent.com/InfantLab/god-mode-skill/main/SKILL.md\" > .claude/skills/god-mode/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/InfantLab/god-mode-skill/main/SKILL.md"

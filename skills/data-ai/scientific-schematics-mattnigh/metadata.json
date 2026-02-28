@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5249c1c68097009d77fa68c2df7b0d59f3258af0245d05365bddb29d3aa87a1a",
   "indexed_at": "2026-02-26T09:36:54.583Z",
-  "synced_at": "2026-02-27T02:49:51.779Z",
+  "synced_at": "2026-02-28T04:21:18.068Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bc031d087e394890ffb640067222688a3b4f0ff20fbf03700c9c3fbd0f8acef2",
   "install_command": "mkdir -p .claude/skills/scientific-schematics && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/K-Dense-AI__claude-scientific-writer__claude__skills__scientific-schematics__SKILL.md/SKILL.md\" > .claude/skills/scientific-schematics/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/K-Dense-AI__claude-scientific-writer__claude__skills__scientific-schematics__SKILL.md/SKILL.md"

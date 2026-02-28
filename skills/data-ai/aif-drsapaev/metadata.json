@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b18011478788f9d6e6a16d31c1c15628cfe69c5f8dcd29f14ede239b379e7d6f",
   "indexed_at": "2026-02-26T08:53:31.992Z",
-  "synced_at": "2026-02-27T02:49:48.029Z",
+  "synced_at": "2026-02-28T04:21:14.594Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b0c9fe681f30bb68d1c3e7691418c8e72b407667ac92a6afdb339d0a5c33f341",
   "install_command": "mkdir -p .claude/skills/aif && curl -sL \"https://raw.githubusercontent.com/drsapaev/final/main/.codex/skills/aif/SKILL.md\" > .claude/skills/aif/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/drsapaev/final/main/.codex/skills/aif/SKILL.md"

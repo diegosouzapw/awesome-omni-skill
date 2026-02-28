@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a233accab2fdf6663215e8a4874ef181914bf1947d1dcf1792b6d8f28bdccc5b",
   "indexed_at": "2026-02-26T07:52:32.435Z",
-  "synced_at": "2026-02-27T02:49:43.547Z",
+  "synced_at": "2026-02-28T04:21:10.079Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bdb21dbcc7000d9a51a9a4fa82f4632ef339cbfb65ea51585eafabc3228c7d1c",
   "install_command": "mkdir -p .claude/skills/add-data-sources && curl -sL \"https://raw.githubusercontent.com/nirholas/free-crypto-news/main/skills/add-data-sources/SKILL.md\" > .claude/skills/add-data-sources/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nirholas/free-crypto-news/main/skills/add-data-sources/SKILL.md"

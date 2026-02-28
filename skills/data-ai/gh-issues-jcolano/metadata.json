@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f7da339a183d0a9ed85cef060289577ad94930174b65ef64db4a7321f0880c0d",
   "indexed_at": "2026-02-25T13:53:05.990Z",
-  "synced_at": "2026-02-27T02:49:14.994Z",
+  "synced_at": "2026-02-28T04:20:42.947Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aafbfa728a7675221575fa8b70db4430b09994dbda40741b23512669e1a475a3",
   "install_command": "mkdir -p .claude/skills/gh-issues && curl -sL \"https://raw.githubusercontent.com/jcolano/openclaw/main/openclaw/skills/gh-issues/SKILL.md\" > .claude/skills/gh-issues/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jcolano/openclaw/main/openclaw/skills/gh-issues/SKILL.md"

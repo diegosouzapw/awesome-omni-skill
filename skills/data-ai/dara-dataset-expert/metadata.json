@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c76e990c4cf5edf3367ba0ff91d5eb5aa5aa239099c42fd2f8d6e4cd02603d0a",
   "indexed_at": "2026-02-25T13:01:14.342Z",
-  "synced_at": "2026-02-27T02:49:09.760Z",
+  "synced_at": "2026-02-28T04:20:38.020Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b6820ba311e72cdfde0689b34d4e3cd26ebd498a518414fa70081557a7cbced8",
   "install_command": "mkdir -p .claude/skills/dara-dataset-expert && curl -sL \"https://raw.githubusercontent.com/mpone1909/dara-knowledge/main/SKILL.md\" > .claude/skills/dara-dataset-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mpone1909/dara-knowledge/main/SKILL.md"

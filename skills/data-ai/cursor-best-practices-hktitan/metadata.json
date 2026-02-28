@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "024e9a91b99aaead92886851154b1e61cc304547faa272ecea2eea0771c1be8c",
   "indexed_at": "2026-02-26T23:37:57.659Z",
-  "synced_at": "2026-02-27T02:48:57.192Z",
+  "synced_at": "2026-02-28T04:20:11.376Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/35f3bf200ab6c65e4d05a4859275d790f3437b95250d1f41ecfef991345225ca",
   "install_command": "mkdir -p .claude/skills/cursor-best-practices && curl -sL \"https://raw.githubusercontent.com/HKTITAN/cursor-best-practices/main/cursor-best-practices/SKILL.md\" > .claude/skills/cursor-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HKTITAN/cursor-best-practices/main/cursor-best-practices/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7cdceda0d49789b38c1083d20cf913792e04fc1ed55e9c49852409758fdf63f2",
   "indexed_at": "2026-02-25T15:06:14.965Z",
-  "synced_at": "2026-02-27T02:49:19.314Z",
+  "synced_at": "2026-02-28T04:20:47.446Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/21442cf50c3d4068543f57f5b7808fb4aca6fcb0ecf368fdfa4ee5d8527f1094",
   "install_command": "mkdir -p .claude/skills/project-domain && curl -sL \"https://raw.githubusercontent.com/telum-ai/speck/main/.cursor/skills/project-domain/SKILL.md\" > .claude/skills/project-domain/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/telum-ai/speck/main/.cursor/skills/project-domain/SKILL.md"

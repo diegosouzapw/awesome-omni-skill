@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f1b31f1c5723cb1d3237057307f7f51ee84421d0542b1199aae5facba9349205",
   "indexed_at": "2026-02-27T16:01:54.093Z",
-  "synced_at": "2026-02-27T18:16:07.645Z",
+  "synced_at": "2026-02-28T04:20:15.373Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a0edf11240e3fa01260f7b3c3d4814a3af2b4f6ec9981aac4364aeebaa3c91b9",
   "install_command": "mkdir -p .claude/skills/pdf-analyzer && curl -sL \"https://raw.githubusercontent.com/vinhnx/VTCode/main/.agents/skills/pdf-analyzer/SKILL.md\" > .claude/skills/pdf-analyzer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/vinhnx/VTCode/main/.agents/skills/pdf-analyzer/SKILL.md"

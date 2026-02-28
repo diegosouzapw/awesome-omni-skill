@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c44fe4f320675bfa316e458d6534855b56ea9d3ef1114d6d8af22c55109342d4",
   "indexed_at": "2026-02-25T21:42:15.597Z",
-  "synced_at": "2026-02-27T02:49:31.192Z",
+  "synced_at": "2026-02-28T04:20:57.999Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0c1eb6b952a77d82c4b19766c1f1f88c491256db43a008e36b56cae36ccf8e76",
   "install_command": "mkdir -p .claude/skills/kitt-create-slash-commands && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/kitt-create-slash-commands/SKILL.md\" > .claude/skills/kitt-create-slash-commands/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/kitt-create-slash-commands/SKILL.md"

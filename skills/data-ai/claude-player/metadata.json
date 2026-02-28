@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b316ba20ab228db0f58c27433336a20bd7a0741e53ef387b6a2100314b60f749",
   "indexed_at": "2026-02-25T13:49:32.874Z",
-  "synced_at": "2026-02-27T02:49:12.914Z",
+  "synced_at": "2026-02-28T04:20:40.817Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bcfd9fa829121b904bee0a5cc827fa0c484f895e37a07e1583df5b82250c58ff",
   "install_command": "mkdir -p .claude/skills/claude-player && curl -sL \"https://raw.githubusercontent.com/jnaranja/clawdplayspokemon/main/SKILL.md\" > .claude/skills/claude-player/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jnaranja/clawdplayspokemon/main/SKILL.md"

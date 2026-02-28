@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "327ed93551dc906d04975bc1e19f71626d97bace2544459fe4f5e39d32f5236c",
   "indexed_at": "2026-02-26T08:52:02.738Z",
-  "synced_at": "2026-02-27T02:49:47.336Z",
+  "synced_at": "2026-02-28T04:21:13.891Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8d230974cbbe01dd7137f7092c339c4f1d6311d52edabaf8d3c66b0e234f8009",
   "install_command": "mkdir -p .claude/skills/data-scientist && curl -sL \"https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/data-scientist/SKILL.md\" > .claude/skills/data-scientist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/data-scientist/SKILL.md"

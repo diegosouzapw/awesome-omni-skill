@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e8231e54a22e12f4e1625159f45496ba56243dc33e5c7f86cd083062f5057810",
   "indexed_at": "2026-02-26T18:36:35.876Z",
-  "synced_at": "2026-02-27T02:48:55.856Z",
+  "synced_at": "2026-02-28T04:20:10.167Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8d2d63c3e6397fe0a1b181d1eeea4a9e6028e2db835bb664e9b3f6bb32a7d976",
   "install_command": "mkdir -p .claude/skills/architecture-advisor && curl -sL \"https://raw.githubusercontent.com/lirielgozi/liri-skills/main/skills/architecture-advisor/SKILL.md\" > .claude/skills/architecture-advisor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lirielgozi/liri-skills/main/skills/architecture-advisor/SKILL.md"

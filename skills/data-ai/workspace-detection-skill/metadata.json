@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "00637395e8ff61619b9009d37b1b6f3c3e3465dee222453239def8c0811f4985",
   "indexed_at": "2026-02-26T08:45:10.824Z",
-  "synced_at": "2026-02-27T02:49:45.389Z",
+  "synced_at": "2026-02-28T04:21:11.891Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/03ae35885da7cd219607db26e51c28a1bcee706f0e0658103bab042e3314a897",
   "install_command": "mkdir -p .claude/skills/workspace-detection-skill && curl -sL \"https://raw.githubusercontent.com/fabriqaai/specs.md/main/memory-bank/ideas/fire-specs/intents/fire-flow/work-items/workspace-detect-skill.md/SKILL.md\" > .claude/skills/workspace-detection-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fabriqaai/specs.md/main/memory-bank/ideas/fire-specs/intents/fire-flow/work-items/workspace-detect-skill.md/SKILL.md"

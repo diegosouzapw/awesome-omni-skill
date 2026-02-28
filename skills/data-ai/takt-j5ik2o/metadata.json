@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "81490f63c16d02aad8065042146b73efaaf8a3cfb47156cb66d37fb4b822ad33",
   "indexed_at": "2026-02-25T17:11:07.977Z",
-  "synced_at": "2026-02-27T02:49:25.814Z",
+  "synced_at": "2026-02-28T04:20:52.695Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/91bbf4f3d09394a2f5426c0bd1839010469311c7dc90ba4c3301c3046da94cc4",
   "install_command": "mkdir -p .claude/skills/takt && curl -sL \"https://raw.githubusercontent.com/j5ik2o/dotfiles/main/references/takt/builtins/skill/SKILL.md\" > .claude/skills/takt/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/j5ik2o/dotfiles/main/references/takt/builtins/skill/SKILL.md"

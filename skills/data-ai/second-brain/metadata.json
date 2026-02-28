@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "58483992de72dc9596899dba975a0ddb3095397669c316061b697525ca6e79e3",
   "indexed_at": "2026-02-26T08:50:32.037Z",
-  "synced_at": "2026-02-27T02:49:46.273Z",
+  "synced_at": "2026-02-28T04:21:12.725Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0e5a542b57744e952494a649f1d1bb4af510bc012f2ed7cfdf44d3ad2f3ec011",
   "install_command": "mkdir -p .claude/skills/second-brain && curl -sL \"https://raw.githubusercontent.com/leegonzales/AISkills/main/SecondBrain/second-brain/SKILL.md\" > .claude/skills/second-brain/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/leegonzales/AISkills/main/SecondBrain/second-brain/SKILL.md"

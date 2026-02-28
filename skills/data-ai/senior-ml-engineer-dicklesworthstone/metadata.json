@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c3f303ed77437fc053084b82da42179f3e5940a7266646d106da8c5b8b7cd8b8",
   "indexed_at": "2026-02-26T12:17:19.375Z",
-  "synced_at": "2026-02-27T02:50:02.353Z",
+  "synced_at": "2026-02-28T04:21:28.289Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ade6aac6edda29f08f3abbcc139633b4fef1c187ebaeff72fdf22e6f3f9aebeb",
   "install_command": "mkdir -p .claude/skills/senior-ml-engineer && curl -sL \"https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/templates-davila7/cli-tool/components/skills/development/senior-ml-engineer/SKILL.md\" > .claude/skills/senior-ml-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/templates-davila7/cli-tool/components/skills/development/senior-ml-engineer/SKILL.md"

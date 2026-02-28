@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c8b371c859ea5949e7938f28c8d77206125af8613815e84b0e7a8e0884c74a54",
   "indexed_at": "2026-02-25T12:50:45.859Z",
-  "synced_at": "2026-02-27T02:49:07.931Z",
+  "synced_at": "2026-02-28T04:20:36.011Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fc9db63caf5b9371350e9eb50e062937c60746ece52fd21a0d2c96abd5597866",
   "install_command": "mkdir -p .claude/skills/compliance_check && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/compliance-check-kyteapp-growth-agents-and-sk-2/SKILL.md\" > .claude/skills/compliance_check/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/compliance-check-kyteapp-growth-agents-and-sk-2/SKILL.md"

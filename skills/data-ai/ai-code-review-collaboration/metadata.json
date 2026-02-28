@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ac7324b2479447685d511af96255fee467bb71308a36aa6d36e5941f94d9df51",
   "indexed_at": "2026-02-25T12:47:25.013Z",
-  "synced_at": "2026-02-27T02:49:06.262Z",
+  "synced_at": "2026-02-28T04:20:34.371Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b1b4911231e8a8849de23963245fd5e027be6d4ad7b70a5ba5ffea1105151e65",
   "install_command": "mkdir -p .claude/skills/ai-code-review-collaboration && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/mkalhitti-cloud/universal-or-strategy/ai-code-review-collaboration/SKILL.md\" > .claude/skills/ai-code-review-collaboration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/mkalhitti-cloud/universal-or-strategy/ai-code-review-collaboration/SKILL.md"

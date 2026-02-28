@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d5cd78be2be12faa6bed89b8d2bb59a94690acd6a0fa503a45957e441918cfc9",
   "indexed_at": "2026-02-26T06:30:46.462Z",
-  "synced_at": "2026-02-27T02:49:38.435Z",
+  "synced_at": "2026-02-28T04:21:05.320Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ac667573809eb837db6d449603d5375b24b50597d1613bdad607297a0d3c1a8f",
   "install_command": "mkdir -p .claude/skills/better-leetcode && curl -sL \"https://raw.githubusercontent.com/ChambersXDU/better-leetcode/main/SKILL.md\" > .claude/skills/better-leetcode/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ChambersXDU/better-leetcode/main/SKILL.md"

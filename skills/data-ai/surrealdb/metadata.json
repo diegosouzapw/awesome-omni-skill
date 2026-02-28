@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "648f69224519e3cf346b8119c11c7dcdd9bd3d94026e9521a0e07df6f1fa26dc",
   "indexed_at": "2026-02-27T14:08:01.114Z",
-  "synced_at": "2026-02-27T18:16:06.349Z",
+  "synced_at": "2026-02-28T04:20:13.961Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/35d3cb82a2d47d2e07233b6f39062ef6973fb855cc59fddc51642b934253c23e",
   "install_command": "mkdir -p .claude/skills/surrealdb && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/24601/surrealdb/SKILL.md\" > .claude/skills/surrealdb/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/24601/surrealdb/SKILL.md"

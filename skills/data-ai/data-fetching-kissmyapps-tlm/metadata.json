@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bdfd97c450ce8b23e89d9c19d58b9121da4cda8400f5546659ce8fe40512e6cf",
   "indexed_at": "2026-02-26T00:41:23.613Z",
-  "synced_at": "2026-02-27T02:49:34.449Z",
+  "synced_at": "2026-02-28T04:21:01.246Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/276ebb138c0632059e4f54d9888e1b0e0bc7e502f1679ab29631f6bbea41964e",
   "install_command": "mkdir -p .claude/skills/data-fetching && curl -sL \"https://raw.githubusercontent.com/kissMyApps-tlm/kissmychat/main/.agents/skills/data-fetching/SKILL.md\" > .claude/skills/data-fetching/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kissMyApps-tlm/kissmychat/main/.agents/skills/data-fetching/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "19410caa2673ef3ce50668e5099664d78150515f6ed0ce5242cb0ff92f79527d",
   "indexed_at": "2026-02-25T15:11:04.448Z",
-  "synced_at": "2026-02-27T02:49:20.470Z",
+  "synced_at": "2026-02-28T04:20:48.614Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3b7f8a41c2fcaf39ec8b68b25b54794716e06e6ef47af290617c1d6f3d6ff6cb",
   "install_command": "mkdir -p .claude/skills/bio-methylation-calling && curl -sL \"https://raw.githubusercontent.com/GPTomics/bioSkills/main/methylation-analysis/methylation-calling/SKILL.md\" > .claude/skills/bio-methylation-calling/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/GPTomics/bioSkills/main/methylation-analysis/methylation-calling/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "978018f18d09fd5c9252dc51dbb0b6fe22d799f6c5f6143752c46e57adb1c6b8",
   "indexed_at": "2026-02-27T15:04:24.598Z",
-  "synced_at": "2026-02-27T18:16:06.601Z",
+  "synced_at": "2026-02-28T04:20:14.250Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2e0a9ee92bd9521769fd6c7d916d9b11e65542fad17c631117f4b855ea9bd4d5",
   "install_command": "mkdir -p .claude/skills/suno-song-creator && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/nwp/suno-song-creator-plugin/suno-song-creator/SKILL.md\" > .claude/skills/suno-song-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/nwp/suno-song-creator-plugin/suno-song-creator/SKILL.md"

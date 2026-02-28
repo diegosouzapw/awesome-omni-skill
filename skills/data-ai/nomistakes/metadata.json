@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d3054204d6d4b710f509bc0a57b701868a378616e604fc652dc107c09b52a7aa",
   "indexed_at": "2026-02-25T12:52:28.079Z",
-  "synced_at": "2026-02-27T02:49:08.795Z",
+  "synced_at": "2026-02-28T04:20:36.879Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/efa18a629c0e3d6e59c38c0fca132cf585c6b75a77f976e3a96d9288b758dffb",
   "install_command": "mkdir -p .claude/skills/nomistakes && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/nomistakes/SKILL.md\" > .claude/skills/nomistakes/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/nomistakes/SKILL.md"

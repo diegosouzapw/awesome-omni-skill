@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d1e93fc5ad225c50ccc49acf7f5f3dd901dd19eeba45cbe4ae2babaf773a1891",
   "indexed_at": "2026-02-26T09:30:45.123Z",
-  "synced_at": "2026-02-27T02:49:50.890Z",
+  "synced_at": "2026-02-28T04:21:17.240Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4fe59cdaa0bd62c1aebaf95fc1afa870c1e03a1f7729aefb98de04999bfe8aa1",
   "install_command": "mkdir -p .claude/skills/photo-studio-skill && curl -sL \"https://raw.githubusercontent.com/songjiayang/photo-studio-skill/main/SKILL.md\" > .claude/skills/photo-studio-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/songjiayang/photo-studio-skill/main/SKILL.md"

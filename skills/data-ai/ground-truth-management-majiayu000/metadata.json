@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e41e605f3d65c7c7d4e18d29bea960cd505a5b900a19ee983002cd71d8c375bd",
   "indexed_at": "2026-02-26T08:52:42.108Z",
-  "synced_at": "2026-02-27T02:49:47.834Z",
+  "synced_at": "2026-02-28T04:21:14.394Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7ee72780e97ef303631c10627eadda228d4fb146abced73ba9281154bbb81dcc",
   "install_command": "mkdir -p .claude/skills/ground-truth-management && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ground-truth-management/SKILL.md\" > .claude/skills/ground-truth-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ground-truth-management/SKILL.md"

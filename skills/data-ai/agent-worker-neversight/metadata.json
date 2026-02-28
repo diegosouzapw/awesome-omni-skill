@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4993dafd39b6ee47f225f4a18bead375b1d036443f89c90bcd9e1b1a8ea959a8",
   "indexed_at": "2026-02-25T15:09:14.884Z",
-  "synced_at": "2026-02-27T02:49:19.853Z",
+  "synced_at": "2026-02-28T04:20:48.007Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/93666686eac74acb478fd5b90b65d9f546e7d7d612d020b4f08679e34b3570ab",
   "install_command": "mkdir -p .claude/skills/agent-worker && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/lidessen/moniro/agent-worker/SKILL.md\" > .claude/skills/agent-worker/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/lidessen/moniro/agent-worker/SKILL.md"

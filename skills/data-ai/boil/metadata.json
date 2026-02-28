@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "32dcc6d0789a5f64ec5fdc29ac920b90d0ff9d9d205cefed2f4cced994ad9662",
   "indexed_at": "2026-02-26T10:45:07.952Z",
-  "synced_at": "2026-02-27T02:49:56.619Z",
+  "synced_at": "2026-02-28T04:21:22.938Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/97ab68defbf4dd0bcb521dc0c3d84f2fd50b0781d776d6ec4dfb33a1c135cc56",
   "install_command": "mkdir -p .claude/skills/boil && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/jtmuller5/boil/SKILL.md\" > .claude/skills/boil/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jtmuller5/boil/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1945b772140bb765fcc54f3a296fed8f48a56322ef9eeab62c142ab8fb42282d",
   "indexed_at": "2026-02-26T22:37:39.733Z",
-  "synced_at": "2026-02-27T02:48:58.623Z",
+  "synced_at": "2026-02-28T04:20:25.939Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed87f0aca46b9ca31684c0be184f35cb45c74d9194bd5b0b5fc673867ee14c2e",
   "install_command": "mkdir -p .claude/skills/solid-core-stores && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/solid-core-stores/SKILL.md\" > .claude/skills/solid-core-stores/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/solid-core-stores/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9aeaff3f5a1862bb5d1d802bde2daf5bd85cb076cc04e20181fc70d3682274e0",
   "indexed_at": "2026-02-25T12:53:34.693Z",
-  "synced_at": "2026-02-27T02:49:09.130Z",
+  "synced_at": "2026-02-28T04:20:37.278Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/87a97022eac638556c1b992aedeec9fde91a05ddfbd2e96116cfef5011b7b50b",
   "install_command": "mkdir -p .claude/skills/wikidata-search && curl -sL \"https://raw.githubusercontent.com/kltng/humanities-skills/main/wikidata-search/SKILL.md\" > .claude/skills/wikidata-search/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kltng/humanities-skills/main/wikidata-search/SKILL.md"

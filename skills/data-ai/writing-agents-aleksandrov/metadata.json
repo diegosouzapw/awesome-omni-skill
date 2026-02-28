@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e7d8580bec544c9f7a1d073fded515e3390ebb573e17f5c83197afd6d87d8942",
   "indexed_at": "2026-02-26T06:56:19.801Z",
-  "synced_at": "2026-02-27T02:49:40.105Z",
+  "synced_at": "2026-02-28T04:21:06.892Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5996a798a9b8f542655ea6057b88217c4c3f46806af1488320243b1016b567f7",
   "install_command": "mkdir -p .claude/skills/writing-agents && curl -sL \"https://raw.githubusercontent.com/aleksandrov/instructions/main/.claude/skills/writing-agents/SKILL.md\" > .claude/skills/writing-agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aleksandrov/instructions/main/.claude/skills/writing-agents/SKILL.md"

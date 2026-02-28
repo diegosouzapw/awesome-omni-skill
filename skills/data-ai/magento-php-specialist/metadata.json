@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c7dd8c213e590750e90834d62b7264b20d6ac40502e1f638703a840086b688c",
   "indexed_at": "2026-02-26T07:35:32.433Z",
-  "synced_at": "2026-02-27T02:49:41.158Z",
+  "synced_at": "2026-02-28T04:21:07.789Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4f63358ffc58b1b53ef823caa1751b92864879ccf1ab993af81630e5f23ba534",
   "install_command": "mkdir -p .claude/skills/magento-php-specialist && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/magento-php-specialist/SKILL.md\" > .claude/skills/magento-php-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/magento-php-specialist/SKILL.md"

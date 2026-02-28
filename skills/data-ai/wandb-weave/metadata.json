@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fdae07c3e5ed0e57d2dcb709058afb5f06575191920a1d10a7152a913f5b2e61",
   "indexed_at": "2026-02-25T13:50:46.971Z",
-  "synced_at": "2026-02-27T02:49:13.660Z",
+  "synced_at": "2026-02-28T04:20:41.571Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/160564b9e484fed164c52e1c552e2b45e6145347d718ecb546afd7150dfb7758",
   "install_command": "mkdir -p .claude/skills/wandb-weave && curl -sL \"https://raw.githubusercontent.com/guangzhaoli/wandb-skill/main/SKILL.md\" > .claude/skills/wandb-weave/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/guangzhaoli/wandb-skill/main/SKILL.md"

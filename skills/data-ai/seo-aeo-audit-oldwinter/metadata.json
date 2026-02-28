@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "22fae3f8d613e87802ed761f33378843552f7405c061dcef79b94ba919803499",
   "indexed_at": "2026-02-27T16:12:05.211Z",
-  "synced_at": "2026-02-27T18:16:10.247Z",
+  "synced_at": "2026-02-28T04:20:18.365Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9845fdd2bb08c12c56ede728e1a8c7ea6423ed097ac723eda504fce92690a8dd",
   "install_command": "mkdir -p .claude/skills/seo-aeo-audit && curl -sL \"https://raw.githubusercontent.com/oldwinter/skills/main/marketing-skills/seo-aeo-audit/SKILL.md\" > .claude/skills/seo-aeo-audit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oldwinter/skills/main/marketing-skills/seo-aeo-audit/SKILL.md"

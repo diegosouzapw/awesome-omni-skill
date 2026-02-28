@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f44270b8f2fab845134a5d6477f25dab90907aca4bf6d483ae7a2f87ca107f18",
   "indexed_at": "2026-02-27T15:04:57.116Z",
-  "synced_at": "2026-02-27T18:16:06.724Z",
+  "synced_at": "2026-02-28T04:20:14.504Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5c62a9aa39bcee20380f5b7889e87b77ccf4742bc153bcf20a50db70c2e247d3",
   "install_command": "mkdir -p .claude/skills/echokit-config-generator && curl -sL \"https://raw.githubusercontent.com/second-state/echokit_server/main/.claude/skills/echokit-config-generator/SKILL.md\" > .claude/skills/echokit-config-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/second-state/echokit_server/main/.claude/skills/echokit-config-generator/SKILL.md"

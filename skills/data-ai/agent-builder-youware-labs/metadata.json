@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "72c09a6500a411230e9877001734e9565902796f336efb2f468b22bd5eedf165",
   "indexed_at": "2026-02-25T12:46:37.487Z",
-  "synced_at": "2026-02-27T02:49:05.784Z",
+  "synced_at": "2026-02-28T04:20:33.913Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2b97cbe582a2757b03d96da8597250a8b556a4ef9b74ee507416b5dd19a3229a",
   "install_command": "mkdir -p .claude/skills/agent-builder && curl -sL \"https://raw.githubusercontent.com/youware-labs/pai-agent-sdk/main/SKILL.md\" > .claude/skills/agent-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/youware-labs/pai-agent-sdk/main/SKILL.md"

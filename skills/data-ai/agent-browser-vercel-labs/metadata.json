@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b210d0544b138ee022f397fd746ff0fff846737e9c42f7ea570225eb44661ef5",
   "indexed_at": "2026-02-26T09:45:49.669Z",
-  "synced_at": "2026-02-27T02:49:52.113Z",
+  "synced_at": "2026-02-28T04:21:18.399Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e527c4898f682738f8e143e8efa04f1cf5dd55fa51b5e8831a92d85425ab95e2",
   "install_command": "mkdir -p .claude/skills/agent-browser && curl -sL \"https://raw.githubusercontent.com/vercel-labs/agent-browser/main/skills/agent-browser/SKILL.md\" > .claude/skills/agent-browser/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/vercel-labs/agent-browser/main/skills/agent-browser/SKILL.md"

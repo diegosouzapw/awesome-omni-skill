@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "97748778e6b89076416df6856a9c544330fc59af2bca116caea4f7f4a56b0f5e",
   "indexed_at": "2026-02-25T16:50:55.011Z",
-  "synced_at": "2026-02-27T02:49:25.444Z",
+  "synced_at": "2026-02-28T04:20:52.320Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9a305269ca4b96c4e5459d25f9ebde3990eea3c432d14566e2038b4eef345c1d",
   "install_command": "mkdir -p .claude/skills/baoyu-comic-lite && curl -sL \"https://raw.githubusercontent.com/DeepDarkBoy48/baoyucomic/main/SKILL.md\" > .claude/skills/baoyu-comic-lite/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/DeepDarkBoy48/baoyucomic/main/SKILL.md"

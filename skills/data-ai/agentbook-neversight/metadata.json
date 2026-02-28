@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "baa3faaf9157c0fbe7e5409364335f51394614b3c122c5b57026362cd93845da",
   "indexed_at": "2026-02-26T17:35:32.254Z",
-  "synced_at": "2026-02-27T02:48:53.056Z",
+  "synced_at": "2026-02-28T04:20:07.563Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ada1d1ad0e76929706ece40c43ba6baee8d29d716abd2db5d83eb3aedf6cb043",
   "install_command": "mkdir -p .claude/skills/agentbook && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ardabotai/agentbook/agentbook/SKILL.md\" > .claude/skills/agentbook/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ardabotai/agentbook/agentbook/SKILL.md"

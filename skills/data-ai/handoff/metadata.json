@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5441fd42203d0bf3c0e498221f6de014701e8e674ff547b3bdb424a091cc28ef",
   "indexed_at": "2026-02-26T11:04:41.809Z",
-  "synced_at": "2026-02-27T02:49:58.327Z",
+  "synced_at": "2026-02-28T04:21:24.582Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cee19c3faec69a30cf05c09c952711ea7e732b876eb8f3ca4e0174f5aa8a1977",
   "install_command": "mkdir -p .claude/skills/handoff && curl -sL \"https://raw.githubusercontent.com/boshu2/agentops/main/skills/handoff/SKILL.md\" > .claude/skills/handoff/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boshu2/agentops/main/skills/handoff/SKILL.md"

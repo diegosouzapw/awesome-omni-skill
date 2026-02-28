@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5e160fd58c5096ece19a6c62f1943fab91d12aaeae59a4a710ad4f4016968e70",
   "indexed_at": "2026-02-25T21:42:12.416Z",
-  "synced_at": "2026-02-27T02:49:31.013Z",
+  "synced_at": "2026-02-28T04:20:57.823Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/90ee057bbaaeb85ddf89eaaee409e7d5efce87ba471ad64f9f1555aad9a32488",
   "install_command": "mkdir -p .claude/skills/multi-agent-patterns && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/multi-agent-patterns-5dlabs-cto/SKILL.md\" > .claude/skills/multi-agent-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/multi-agent-patterns-5dlabs-cto/SKILL.md"

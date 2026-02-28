@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a317861a3b435765a8bac8f329aad5979f38ef78057d1f83dca3c0f4dbd31b23",
   "indexed_at": "2026-02-25T17:11:50.717Z",
-  "synced_at": "2026-02-27T02:49:26.168Z",
+  "synced_at": "2026-02-28T04:20:53.034Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d53481a70d908f5de5716e47abd3774062f7a8bd8412ab2eeefd85cb4891660e",
   "install_command": "mkdir -p .claude/skills/screpcombiningexpression && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/devops/screpcombiningexpression/SKILL.md\" > .claude/skills/screpcombiningexpression/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/devops/screpcombiningexpression/SKILL.md"

@@ -75,6 +75,12 @@ python3 "$EXECUTOR" [prompts...] [options]
 - `--run, -r`: Actually run the CLI (default: just return info)
 - `--info-only, -i`: Only return prompt info, no CLI details
 - `--worktree, -w`: Create isolated git worktree for execution
+- `--sandbox`: Enable sandboxing (Linux default backend: bubblewrap)
+- `--sandbox-type`: Sandbox backend override (`bubblewrap`)
+- `--no-sandbox`: Explicitly disable sandboxing
+- `--sandbox-profile`: Isolation profile (`strict|balanced|dev`, default `balanced`)
+- `--sandbox-workspace`: Override sandbox workspace path (default: execution cwd)
+- `--sandbox-net`: Network override (`on|off`; default comes from profile)
 - `--base-branch, -b`: Base branch for worktree (default: main)
 - `--on-conflict`: How to handle existing worktree (error|remove|reuse|increment)
 - `--loop, -l`: Enable iterative verification loop until completion
@@ -104,6 +110,15 @@ python3 "$EXECUTOR" providers/011 --model codex
 
 # Run in current directory
 python3 "$EXECUTOR" 123 --model codex --run
+
+# Run in bubblewrap sandbox (Linux)
+python3 "$EXECUTOR" 123 --model codex --run --sandbox
+
+# Strict profile (no network by default)
+python3 "$EXECUTOR" 123 --model codex --run --sandbox --sandbox-profile strict
+
+# Explicit opt-out
+python3 "$EXECUTOR" 123 --model codex --run --no-sandbox
 ```
 
 ### With Worktree (built-in)

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cb7c8a3e7c6d0f8905c234869c2e0e5cac440cd14823e9f585793dc127e4c9c4",
   "indexed_at": "2026-02-25T13:10:05.437Z",
-  "synced_at": "2026-02-27T02:49:11.501Z",
+  "synced_at": "2026-02-28T04:20:39.523Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6d899473149e1f6717094ab3d713457247b290ea6c6be5519a99d76637be7b74",
   "install_command": "mkdir -p .claude/skills/value-chain-analysis && curl -sL \"https://raw.githubusercontent.com/lev-os/agents/main/skills-db/thinking/patterns/value-chain-analysis/SKILL.md\" > .claude/skills/value-chain-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lev-os/agents/main/skills-db/thinking/patterns/value-chain-analysis/SKILL.md"

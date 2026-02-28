@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7a1ebb01b5f93a6df96a55b793041ef8496525e33d633846d2d59a47db603c88",
   "indexed_at": "2026-02-26T16:37:21.304Z",
-  "synced_at": "2026-02-27T02:48:51.396Z",
+  "synced_at": "2026-02-28T04:20:06.016Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c04c10bffe2285156e2be0bbba10bd4ffba197b51d81e8a4abacfd2c97aad3b2",
   "install_command": "mkdir -p .claude/skills/langchain-agents && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/security/langchain-agents/SKILL.md\" > .claude/skills/langchain-agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/security/langchain-agents/SKILL.md"

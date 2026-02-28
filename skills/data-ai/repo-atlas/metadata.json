@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8c07ccf6366fb49f576f8145fc14d1c1598b7da5def18e367acb886c08cf1891",
   "indexed_at": "2026-02-25T13:49:54.169Z",
-  "synced_at": "2026-02-27T02:49:13.121Z",
+  "synced_at": "2026-02-28T04:20:40.991Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4271f30f9166358c244a5da177358748c221647aeb04e8a6e0602f87471becf5",
   "install_command": "mkdir -p .claude/skills/repo-atlas && curl -sL \"https://raw.githubusercontent.com/cathrynlavery/repo-atlas/main/SKILL.md\" > .claude/skills/repo-atlas/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cathrynlavery/repo-atlas/main/SKILL.md"

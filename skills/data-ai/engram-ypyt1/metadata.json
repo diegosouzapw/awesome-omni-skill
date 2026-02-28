@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bb9308b65916e69eb5b9f0bda62e6e034f6bb7651f79ddd4d4948f51dd7df9e6",
   "indexed_at": "2026-02-26T08:49:00.855Z",
-  "synced_at": "2026-02-27T02:49:45.909Z",
+  "synced_at": "2026-02-28T04:21:12.372Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/753c140278e0928cd89eeacfac108c77e8e4e3832fa99753b8e3743f5dd5885d",
   "install_command": "mkdir -p .claude/skills/engram && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/dannydvm/engram/SKILL.md\" > .claude/skills/engram/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/dannydvm/engram/SKILL.md"

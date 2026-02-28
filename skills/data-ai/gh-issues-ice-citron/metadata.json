@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7b76a4af18c021f3fd14e2764d6b994680d34ee2e2677203584ffd884979ab34",
   "indexed_at": "2026-02-25T13:53:01.809Z",
-  "synced_at": "2026-02-27T02:49:14.659Z",
+  "synced_at": "2026-02-28T04:20:42.607Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2ab06ed0fed2658c0d6aa8116f95868b6ba6f4223d62dcd1eacaa3161de951f5",
   "install_command": "mkdir -p .claude/skills/gh-issues && curl -sL \"https://raw.githubusercontent.com/Ice-Citron/New-Dejima/main/openclaw/skills/gh-issues/SKILL.md\" > .claude/skills/gh-issues/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Ice-Citron/New-Dejima/main/openclaw/skills/gh-issues/SKILL.md"

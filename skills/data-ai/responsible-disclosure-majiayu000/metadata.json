@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3bc6a340ea11cef6beb36e3f2325fa11434d826eb581c79174c3ed9c488e5af2",
   "indexed_at": "2026-02-27T16:10:59.659Z",
-  "synced_at": "2026-02-27T18:16:09.696Z",
+  "synced_at": "2026-02-28T04:20:17.657Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9ddf9362db7dc3e44705635a2e614aedee426427075ceea05c6ffb82ea2ff688",
   "install_command": "mkdir -p .claude/skills/responsible-disclosure && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/responsible-disclosure/SKILL.md\" > .claude/skills/responsible-disclosure/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/responsible-disclosure/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ba3de6ab7591a2f1c6cf0e003c4230712b7270f1b96e6a44ade670c2ac859274",
   "indexed_at": "2026-02-26T12:16:56.372Z",
-  "synced_at": "2026-02-27T02:50:01.533Z",
+  "synced_at": "2026-02-28T04:21:27.621Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ecac5c242107f82233dea68e2fc02e75b232d68097a2ecedc6fedbb1abf1e084",
   "install_command": "mkdir -p .claude/skills/senior-data-engineer && curl -sL \"https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/davila7/senior-data-engineer/SKILL.md\" > .claude/skills/senior-data-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/davila7/senior-data-engineer/SKILL.md"

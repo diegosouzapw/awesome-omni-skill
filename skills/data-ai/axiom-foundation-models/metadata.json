@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d020776ab195c34a9886ccc529b14a9bae6b73f7d27222e5885e355acdadd8c2",
   "indexed_at": "2026-02-27T16:54:25.089Z",
-  "synced_at": "2026-02-27T18:16:10.456Z",
+  "synced_at": "2026-02-28T04:20:18.689Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/63ec7961448ac2f3d2b89afc65079507f4e2ce64f76e41fe132032999e012f22",
   "install_command": "mkdir -p .claude/skills/axiom-foundation-models && curl -sL \"https://raw.githubusercontent.com/CharlesWiltgen/Axiom/main/.claude-plugin/plugins/axiom/skills/axiom-foundation-models/SKILL.md\" > .claude/skills/axiom-foundation-models/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/CharlesWiltgen/Axiom/main/.claude-plugin/plugins/axiom/skills/axiom-foundation-models/SKILL.md"

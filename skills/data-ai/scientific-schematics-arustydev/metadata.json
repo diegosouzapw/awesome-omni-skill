@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d271079b88c877a01f82a7a980308bc2ad16f31d8582418e54e682cf6afa4c55",
   "indexed_at": "2026-02-26T09:36:51.966Z",
-  "synced_at": "2026-02-27T02:49:51.604Z",
+  "synced_at": "2026-02-28T04:21:17.905Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b5863964268bcd6a18c7e6826fe7f9a920b82b67c16ec6d937c2eaf7d4d59a32",
   "install_command": "mkdir -p .claude/skills/scientific-schematics && curl -sL \"https://raw.githubusercontent.com/aRustyDev/ai/main/context/skills/docs-scientific-schematics-dev/SKILL.md\" > .claude/skills/scientific-schematics/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aRustyDev/ai/main/context/skills/docs-scientific-schematics-dev/SKILL.md"

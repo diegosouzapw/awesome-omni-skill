@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c34d61906e8fdf68538ed731a3e8e78a57147f0a448b08eb85eb1327d32d4c3d",
   "indexed_at": "2026-02-26T08:50:30.684Z",
-  "synced_at": "2026-02-27T02:49:46.075Z",
+  "synced_at": "2026-02-28T04:21:12.540Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/737b47adb575b4b1f640ffb81293db5e4c8aa9fac532274e69dcdfee08c7c4de",
   "install_command": "mkdir -p .claude/skills/dataql-analysis && curl -sL \"https://raw.githubusercontent.com/adrianolaselva/dataql/main/cmd/skillsctl/embedded/skills/dataql-analysis/SKILL.md\" > .claude/skills/dataql-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/adrianolaselva/dataql/main/cmd/skillsctl/embedded/skills/dataql-analysis/SKILL.md"

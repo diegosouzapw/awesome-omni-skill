@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6bc531c1c8113092082f5bb167102f6a111a5a16a65c290c6d67b8cf41f58d6e",
   "indexed_at": "2026-02-25T15:54:21.557Z",
-  "synced_at": "2026-02-27T02:49:21.439Z",
+  "synced_at": "2026-02-28T04:20:49.612Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/97e4134798b76b2ef54205d3288a32a0d03912b2291a5a544b12970f6b55e82e",
   "install_command": "mkdir -p .claude/skills/agenticmail && curl -sL \"https://raw.githubusercontent.com/agenticmail/agenticmail/main/packages/openclaw/skill/SKILL.md\" > .claude/skills/agenticmail/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/agenticmail/agenticmail/main/packages/openclaw/skill/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5a569509eb0107e8edecd346f04f256ee4ab68345862c2d8cf6d69c0e8efac5b",
   "indexed_at": "2026-02-27T16:07:47.305Z",
-  "synced_at": "2026-02-27T18:16:08.634Z",
+  "synced_at": "2026-02-28T04:20:16.440Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fdb004aabfd228295dc04bf57bfe3ed60bf903e3144fe37c3c502e3a3764d62d",
   "install_command": "mkdir -p .claude/skills/prompt-repetition && curl -sL \"https://raw.githubusercontent.com/supercent-io/skills-template/main/.agent-skills/prompt-repetition/SKILL.md\" > .claude/skills/prompt-repetition/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/supercent-io/skills-template/main/.agent-skills/prompt-repetition/SKILL.md"

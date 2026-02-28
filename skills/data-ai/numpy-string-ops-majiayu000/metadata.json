@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0b45803c3c6572fead46cc838af114d0143ee06a3cf11de2f192806b1e3f35ca",
   "indexed_at": "2026-02-26T07:35:46.786Z",
-  "synced_at": "2026-02-27T02:49:41.731Z",
+  "synced_at": "2026-02-28T04:21:08.343Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/40bc0dc3688523b9b84ae9f537a1bf76f7720f4c12e1a5c8772c839789619dcb",
   "install_command": "mkdir -p .claude/skills/numpy-string-ops && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/numpy-string-ops-cuba6112-skillfactory-882eae53/SKILL.md\" > .claude/skills/numpy-string-ops/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/numpy-string-ops-cuba6112-skillfactory-882eae53/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0bee377fc0837b85ad29e03bf436589d9903b57e618b40d4a990b0405172e5f8",
   "indexed_at": "2026-02-26T12:20:07.256Z",
-  "synced_at": "2026-02-27T02:50:03.856Z",
+  "synced_at": "2026-02-28T04:21:29.534Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ce5825f2a921ee0f94f446042b6f755e66c176d2649eb86036c4ed3d5cee3b37",
   "install_command": "mkdir -p .claude/skills/project-bootstrap && curl -sL \"https://raw.githubusercontent.com/mdmagnuson-creator/yo-go/main/skills/project-bootstrap/SKILL.md\" > .claude/skills/project-bootstrap/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mdmagnuson-creator/yo-go/main/skills/project-bootstrap/SKILL.md"

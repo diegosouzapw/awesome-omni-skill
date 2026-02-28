@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "82408e36ea2f76371145d9f52222633ed054d8b8836f190b7e80ccc2654c2b37",
   "indexed_at": "2026-02-25T14:10:21.663Z",
-  "synced_at": "2026-02-27T02:49:16.184Z",
+  "synced_at": "2026-02-28T04:20:44.165Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5ff67b59b841cf67a1e51c42e7d92c9645be3f76f7ee5a656001ba2a8e8609df",
   "install_command": "mkdir -p .claude/skills/managing-traefik && curl -sL \"https://raw.githubusercontent.com/dominic-righthere/traefik-hub-mcp/main/SKILL.md\" > .claude/skills/managing-traefik/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dominic-righthere/traefik-hub-mcp/main/SKILL.md"

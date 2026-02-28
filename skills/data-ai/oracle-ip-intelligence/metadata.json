@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "06b6069aa0b9245911edd5ce9ca5fed5687ca68e6edea9a95ec173e392f0f28a",
   "indexed_at": "2026-02-26T18:40:10.051Z",
-  "synced_at": "2026-02-27T02:48:56.216Z",
+  "synced_at": "2026-02-28T04:20:10.531Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8fffd359822bd6414dc1514bc6c5336337ae912823e9d5fe393a75c28e72889a",
   "install_command": "mkdir -p .claude/skills/oracle-ip-intelligence && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/oci-ai-architects/claude-code-oci-ai-architect-skills/oracle-ip-intelligence/SKILL.md\" > .claude/skills/oracle-ip-intelligence/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/oci-ai-architects/claude-code-oci-ai-architect-skills/oracle-ip-intelligence/SKILL.md"

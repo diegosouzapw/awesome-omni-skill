@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f2ef5102faf6b5ddeb51153ff8d4e134a8afead6f3422e1be1913a5d0d822a6e",
   "indexed_at": "2026-02-26T08:52:05.881Z",
-  "synced_at": "2026-02-27T02:49:47.666Z",
+  "synced_at": "2026-02-28T04:21:14.223Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f0f7d7050b0e23cca48c45b05bec6f2efb887214b829e0414f71131930d4c722",
   "install_command": "mkdir -p .claude/skills/data-scientist && curl -sL \"https://raw.githubusercontent.com/namanprat/duforn/main/.agent/skills/data-scientist/SKILL.md\" > .claude/skills/data-scientist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/namanprat/duforn/main/.agent/skills/data-scientist/SKILL.md"

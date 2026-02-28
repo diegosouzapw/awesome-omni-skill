@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3d1156ebe808b7d7608c15ab32e92d07397b38e807adcb7bdd85dc481f8b9cb5",
   "indexed_at": "2026-02-25T21:36:47.322Z",
-  "synced_at": "2026-02-27T02:49:30.066Z",
+  "synced_at": "2026-02-28T04:20:56.911Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0034acf26a6bd4cbdaf8d351a94127f8a99a0d0620d279447724567628599c1c",
   "install_command": "mkdir -p .claude/skills/matchms && curl -sL \"https://raw.githubusercontent.com/plurigrid/asi/main/skills/matchms/SKILL.md\" > .claude/skills/matchms/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/plurigrid/asi/main/skills/matchms/SKILL.md"

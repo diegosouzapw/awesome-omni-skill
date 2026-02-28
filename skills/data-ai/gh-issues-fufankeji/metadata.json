@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "555345de1964f46b7bca5649595fe528e8d97245b2f011b5a745c1657ee4f3ea",
   "indexed_at": "2026-02-26T11:51:33.638Z",
-  "synced_at": "2026-02-27T02:50:00.647Z",
+  "synced_at": "2026-02-28T04:21:26.936Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4d28b188b94d40108bba9e1cb753b373ba735d146228496842414c945cde7559",
   "install_command": "mkdir -p .claude/skills/gh-issues && curl -sL \"https://raw.githubusercontent.com/fufankeji/VibeCodingCourse_v1/main/Week2_Cursor_Deep_Dive/Lesson03_OpenClaw_Architecture_Digital_Employee/openclaw/skills/gh-issues/SKILL.md\" > .claude/skills/gh-issues/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fufankeji/VibeCodingCourse_v1/main/Week2_Cursor_Deep_Dive/Lesson03_OpenClaw_Architecture_Digital_Employee/openclaw/skills/gh-issues/SKILL.md"

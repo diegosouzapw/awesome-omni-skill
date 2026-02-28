@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8bbd884d82d82284c69a6b782a3712c517f1cf6d90fa251feb0f787e02db9696",
   "indexed_at": "2026-02-26T05:53:12.163Z",
-  "synced_at": "2026-02-27T02:49:37.767Z",
+  "synced_at": "2026-02-28T04:21:04.667Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ba7d14cb6b60f0b70d719e750c72dac61619b1ea2e2771dc4367ba4a31dac348",
   "install_command": "mkdir -p .claude/skills/moai-cc-claude-md && curl -sL \"https://raw.githubusercontent.com/kivo360/quickhooks/main/.claude/skills/moai-cc-claude-md/SKILL.md\" > .claude/skills/moai-cc-claude-md/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kivo360/quickhooks/main/.claude/skills/moai-cc-claude-md/SKILL.md"

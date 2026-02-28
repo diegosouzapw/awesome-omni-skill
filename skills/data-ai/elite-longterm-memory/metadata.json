@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "88dc15cf3380bc8747d766b2ed40a669632119a5fa01ae3f9af8dd65ef4f058d",
   "indexed_at": "2026-02-27T16:08:25.135Z",
-  "synced_at": "2026-02-27T18:16:08.751Z",
+  "synced_at": "2026-02-28T04:20:16.605Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/03e05c3443efd3945af922d58fb486eb6291374b60ef7131acb013e9f949a581",
   "install_command": "mkdir -p .claude/skills/elite-longterm-memory && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/itsjustfred/elite-longterm-memory-1-2-3/SKILL.md\" > .claude/skills/elite-longterm-memory/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/itsjustfred/elite-longterm-memory-1-2-3/SKILL.md"

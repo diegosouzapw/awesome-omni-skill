@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ccbbc9a4fb2514d40e786926c52354ecb1b10bca5921ea4b5213faa5a818c785",
   "indexed_at": "2026-02-27T16:09:42.861Z",
-  "synced_at": "2026-02-27T18:16:09.306Z",
+  "synced_at": "2026-02-28T04:20:17.144Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/94dd8e29651127ae808e3a73885d924ec1c10f49dffa6e546e2c1ca6c9e76fb2",
   "install_command": "mkdir -p .claude/skills/xenodium-elisp && curl -sL \"https://raw.githubusercontent.com/plurigrid/asi/main/plugins/asi/skills/xenodium-elisp/SKILL.md\" > .claude/skills/xenodium-elisp/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/plurigrid/asi/main/plugins/asi/skills/xenodium-elisp/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6beab5cdd1ee8241a60cec6ff3d39f0f350dd06e67fa4f30359be5da16d46f42",
   "indexed_at": "2026-02-25T15:55:06.206Z",
-  "synced_at": "2026-02-27T02:49:23.057Z",
+  "synced_at": "2026-02-28T04:20:49.762Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8e1eb2f36d738ed3df72976c64f82a4c34a48dd140d795b738dc4b7e2aa5672a",
   "install_command": "mkdir -p .claude/skills/atlassian-mcp && curl -sL \"https://raw.githubusercontent.com/orient-bot/orient/main/.claude/skills/atlassian-mcp/SKILL.md\" > .claude/skills/atlassian-mcp/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/orient-bot/orient/main/.claude/skills/atlassian-mcp/SKILL.md"

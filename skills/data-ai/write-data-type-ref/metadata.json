@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cdc509084186ff6a5735103be392d93ce8ae7e08e03c5b3a9cc3c5fab709219c",
   "indexed_at": "2026-02-25T20:37:35.729Z",
-  "synced_at": "2026-02-27T02:49:29.239Z",
+  "synced_at": "2026-02-28T04:20:56.146Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bfa5d5060e758b1d9b877ab32094683d08a4a6d25bf12c0de226899e2e3eaaa0",
   "install_command": "mkdir -p .claude/skills/write-data-type-ref && curl -sL \"https://raw.githubusercontent.com/zio/zio-blocks/main/.claude/skills/write-data-type-ref/SKILL.md\" > .claude/skills/write-data-type-ref/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zio/zio-blocks/main/.claude/skills/write-data-type-ref/SKILL.md"

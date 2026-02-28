@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "624ebd051e5db55afba29cf5e189196726d6b811d36c7ef63fc3bf00499ee83b",
   "indexed_at": "2026-02-26T14:24:58.948Z",
-  "synced_at": "2026-02-27T02:48:48.783Z",
+  "synced_at": "2026-02-28T04:20:03.433Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1f625da19c481446135326fe2dd1a993af55b9131c220a8df80148d8913ed3f6",
   "install_command": "mkdir -p .claude/skills/mailhog && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/mailhog/SKILL.md\" > .claude/skills/mailhog/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/mailhog/SKILL.md"

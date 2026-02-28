@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2182ab3ea1f4e42b0a347e5df2a1e5c3dcf71786aff2313e854d33214f2e8f6f",
   "indexed_at": "2026-02-26T15:16:33.964Z",
-  "synced_at": "2026-02-27T02:48:48.982Z",
+  "synced_at": "2026-02-28T04:20:03.623Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0856a286759a39ba8200e93be8fdc8d01e646b5b851426cfa9636496121cf665",
   "install_command": "mkdir -p .claude/skills/context-engineering && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/yonatangross/orchestkit/context-engineering/SKILL.md\" > .claude/skills/context-engineering/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/yonatangross/orchestkit/context-engineering/SKILL.md"

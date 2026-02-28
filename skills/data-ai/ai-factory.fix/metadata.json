@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a3a190018c53e274d656f2e3b16cc949ebfb1240f3421eb5683adc72b4a519e7",
   "indexed_at": "2026-02-25T13:10:28.280Z",
-  "synced_at": "2026-02-27T02:49:11.845Z",
+  "synced_at": "2026-02-28T04:20:39.855Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a97a195351170ca9be9d60c1e23d575026e97ada10ec221c55480e6e6d87aaae",
   "install_command": "mkdir -p .claude/skills/ai-factory.fix && curl -sL \"https://raw.githubusercontent.com/spraby/api/main/.claude/skills/fix/SKILL.md\" > .claude/skills/ai-factory.fix/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/spraby/api/main/.claude/skills/fix/SKILL.md"

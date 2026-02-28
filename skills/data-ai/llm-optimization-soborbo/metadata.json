@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5bea5dc0e7afd79ae4499a8cfe65304c6bf370e776c6417d85813f1237519589",
   "indexed_at": "2026-02-27T16:06:45.944Z",
-  "synced_at": "2026-02-27T18:16:08.498Z",
+  "synced_at": "2026-02-28T04:20:16.255Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8b9714ea80386a954e6e94656a5f61f3a61cfd1fd3d01dddeaa2533791867ff5",
   "install_command": "mkdir -p .claude/skills/llm-optimization && curl -sL \"https://raw.githubusercontent.com/Soborbo/claudeskills/main/llm-optimization/SKILL.md\" > .claude/skills/llm-optimization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Soborbo/claudeskills/main/llm-optimization/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aafed68766228f40236ab9ecdc8762258352d8d6611ce9f3d78381bc89ecb142",
   "indexed_at": "2026-02-26T05:37:50.990Z",
-  "synced_at": "2026-02-27T02:49:36.260Z",
+  "synced_at": "2026-02-28T04:21:03.072Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1840010e21758ba362e327de1d0b12ce9cfb4a48bd874e8e7f4e4874b39f3563",
   "install_command": "mkdir -p .claude/skills/jira-integration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/productivity/jira-integration/SKILL.md\" > .claude/skills/jira-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/productivity/jira-integration/SKILL.md"

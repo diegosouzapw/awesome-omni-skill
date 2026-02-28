@@ -430,6 +430,35 @@ If the backlog structure is missing, propose creation and wait for user approval
 
 ## Search Strategy: When to Use Semantic Search vs File Tools
 
+## Backlog Item Lookup Hint (KG IDs)
+
+When resolving backlog item IDs like `KG-FTR-0020`, do first-pass lookup in product backlog paths before reporting not found.
+
+Primary lookup paths:
+
+- `_kano/backlog/products/**/items/**/KG-*.md`
+- `_kano/backlog/items/**/KG-*.md` (single-product layout)
+
+Secondary lookup paths:
+
+- `.kano/**` (config/metadata only)
+
+Agent rules:
+
+- Do not assume `KG-*` items live under `.kano/`.
+- Always include `_kano/backlog/**/items/**` in the very first discovery pass.
+- If user provides an absolute path, read that path directly first, then perform pattern lookup only if needed.
+
+Suggested commands:
+
+```bash
+# Specific ID
+find _kano/backlog -type f -name "KG-FTR-0020*.md"
+
+# Any KG item
+find _kano/backlog -type f -name "KG-*.md"
+```
+
 ### Use semantic/hybrid search when:
 - **Conceptual queries**: "Find items about authentication strategy" (concept-based, not exact string)
 - **Cross-file patterns**: "Where do we handle token expiration?" (logic scattered across multiple files)

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a3cfa090914ffabec50c5f40fd19d9d951a68e17438a09c088612e9e6d529c03",
   "indexed_at": "2026-02-27T11:35:02.197Z",
-  "synced_at": "2026-02-27T13:14:20.810Z",
+  "synced_at": "2026-02-28T04:20:13.270Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bdc058ea321dd407270f3e6c17b0e889d87efcd454a7a212e7657489d0f56abf",
   "install_command": "mkdir -p .claude/skills/spacex && curl -sL \"https://raw.githubusercontent.com/jeffaf/spacex-skill/main/SKILL.md\" > .claude/skills/spacex/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jeffaf/spacex-skill/main/SKILL.md"

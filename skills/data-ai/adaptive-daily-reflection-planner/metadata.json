@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bc9b1ce08857bc5edd44b580f3928aaea5aa28a7b21946bd5109802b35b74467",
   "indexed_at": "2026-02-25T16:09:30.678Z",
-  "synced_at": "2026-02-27T02:49:24.092Z",
+  "synced_at": "2026-02-28T04:20:51.000Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/32984005c3a97b21b42df51dbeb05a3db7071c78b3e91f0cb0e79ed4658fda60",
   "install_command": "mkdir -p .claude/skills/adaptive-daily-reflection-planner && curl -sL \"https://raw.githubusercontent.com/CaiZongyuan/agentscope-nextjs-ai-demo/main/backend/agent/skills/daily-reflection/SKILL.md\" > .claude/skills/adaptive-daily-reflection-planner/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/CaiZongyuan/agentscope-nextjs-ai-demo/main/backend/agent/skills/daily-reflection/SKILL.md"

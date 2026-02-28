@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a13a787878c9de72dffd2aa2c92a5abc4b4e9082282f283b33e678e81ae03a65",
   "indexed_at": "2026-02-25T23:42:29.569Z",
-  "synced_at": "2026-02-27T02:49:33.196Z",
+  "synced_at": "2026-02-28T04:20:59.975Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c79ff0c0995e0ae1d901321257b630c1d53367aab6bfb69b484c15ee4c0f761e",
   "install_command": "mkdir -p .claude/skills/sitrep-coordinator && curl -sL \"https://raw.githubusercontent.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/main/sitrep-coordinator/SKILL.md\" > .claude/skills/sitrep-coordinator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/main/sitrep-coordinator/SKILL.md"

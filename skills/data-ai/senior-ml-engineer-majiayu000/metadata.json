@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c614ca7ad2cb2f24ce076cf7289dac24f624413f5faa4b5da7f8539f268d38ee",
   "indexed_at": "2026-02-26T12:17:54.200Z",
-  "synced_at": "2026-02-27T02:50:02.573Z",
+  "synced_at": "2026-02-28T04:21:28.450Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1ffa40ee7678675e260d24618b8cb8e98ac5c390b8d958ee9d84b2c3d9081f86",
   "install_command": "mkdir -p .claude/skills/senior-ml-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/senior-ml-engineer/SKILL.md\" > .claude/skills/senior-ml-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/senior-ml-engineer/SKILL.md"

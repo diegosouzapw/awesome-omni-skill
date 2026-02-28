@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5654648f3c3139295237290d4b53f078db7be6135d9a9d9f4f15e19d9c6462b3",
   "indexed_at": "2026-02-26T09:52:33.122Z",
-  "synced_at": "2026-02-27T02:49:53.884Z",
+  "synced_at": "2026-02-28T04:21:20.144Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1ad7e556b263289957dbbb4b6117e3b134d7af5a0956963f55a7995b245693cf",
   "install_command": "mkdir -p .claude/skills/arch-review && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/architecture-andreibesleaga-gabbe-3/SKILL.md\" > .claude/skills/arch-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/architecture-andreibesleaga-gabbe-3/SKILL.md"

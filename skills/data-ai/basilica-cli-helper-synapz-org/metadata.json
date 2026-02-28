@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "caaa9890b8c3c7ed34a46be5ba72a84254744945f4bcd8a790a03dedf49acf81",
   "indexed_at": "2026-02-25T12:37:26.034Z",
-  "synced_at": "2026-02-27T02:49:02.199Z",
+  "synced_at": "2026-02-28T04:20:30.032Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/33fc78098da9cb62d1c7e6d026d7f71ad09f53854bfba29eec459754c0557f35",
   "install_command": "mkdir -p .claude/skills/basilica-cli-helper && curl -sL \"https://raw.githubusercontent.com/synapz-org/basilica-cli-claude-skill/main/SKILL.md\" > .claude/skills/basilica-cli-helper/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/synapz-org/basilica-cli-claude-skill/main/SKILL.md"

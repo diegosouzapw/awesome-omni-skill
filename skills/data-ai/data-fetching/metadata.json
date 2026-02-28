@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "40c452bbc1e48762dac14bf5f8e5a93fe43f05e979237f75536aba133c7397f1",
   "indexed_at": "2026-02-25T17:41:57.942Z",
-  "synced_at": "2026-02-27T02:49:27.388Z",
+  "synced_at": "2026-02-28T04:20:54.222Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/45a7e263140d3d9555dd275302748ded660767fe72184668c88213f0b26d1ed6",
   "install_command": "mkdir -p .claude/skills/data-fetching && curl -sL \"https://raw.githubusercontent.com/lobehub/lobehub/main/.agents/skills/data-fetching/SKILL.md\" > .claude/skills/data-fetching/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lobehub/lobehub/main/.agents/skills/data-fetching/SKILL.md"

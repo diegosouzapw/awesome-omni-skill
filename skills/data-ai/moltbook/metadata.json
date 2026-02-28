@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "40e818e994fb784a199f7139736d93afe32ab38a52d16b4d46093a4e3f7c0712",
   "indexed_at": "2026-02-27T15:46:45.008Z",
-  "synced_at": "2026-02-27T18:16:07.056Z",
+  "synced_at": "2026-02-28T04:20:14.863Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/73184ca3232cbd32932a4a702aad252de8eaf39e60052d03626737b72eb9eecd",
   "install_command": "mkdir -p .claude/skills/moltbook && curl -sL \"https://raw.githubusercontent.com/0x3EF8/moltbook-ai-agent/main/docs/SKILL.md\" > .claude/skills/moltbook/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/0x3EF8/moltbook-ai-agent/main/docs/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "db66517c0afa902bdfec0e911d1da56b76acf51afe823148ee582e82dfe4f452",
   "indexed_at": "2026-02-25T17:11:24.209Z",
-  "synced_at": "2026-02-27T02:49:25.991Z",
+  "synced_at": "2026-02-28T04:20:52.871Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/68b97a6e65caeb8b494e3777331ac535c3d410ed5298e84ae3a97d8913ea5677",
   "install_command": "mkdir -p .claude/skills/simd-optimize && curl -sL \"https://raw.githubusercontent.com/ahrav/Gossip-rs/main/.codex/skills/simd-optimize/SKILL.md\" > .claude/skills/simd-optimize/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ahrav/Gossip-rs/main/.codex/skills/simd-optimize/SKILL.md"

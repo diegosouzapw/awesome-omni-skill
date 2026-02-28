@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f89d12fe0e4b95d947e75d11c775d1a5770d7f1315f50db31348e0b78f471e8c",
   "indexed_at": "2026-02-27T16:01:46.472Z",
-  "synced_at": "2026-02-27T18:16:07.517Z",
+  "synced_at": "2026-02-28T04:20:15.205Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eed1a383ee93f78b736625cb943acb15818ffecac8818c0e6d1c9d219488bc57",
   "install_command": "mkdir -p .claude/skills/chatgpt-exporter-ultimate && curl -sL \"https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/globalcaos/chatgpt-exporter-ultimate/SKILL.md\" > .claude/skills/chatgpt-exporter-ultimate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/globalcaos/chatgpt-exporter-ultimate/SKILL.md"

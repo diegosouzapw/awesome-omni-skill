@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9e72efde4cb87a5bdbc2b04838c332d4d5f4f339d6052d5fd4a342a803d9a615",
   "indexed_at": "2026-02-26T05:46:16.245Z",
-  "synced_at": "2026-02-27T02:49:36.919Z",
+  "synced_at": "2026-02-28T04:21:03.742Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1fd3a4f335a410700994edb2d4870572df6f8f5f49fa6605f58590ab1e36fda1",
   "install_command": "mkdir -p .claude/skills/project-initialization-phase && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/marcusgoll__robinhood-algo-trading-bot__claude__skills__project-initialization-phase__SKILL.md/SKILL.md\" > .claude/skills/project-initialization-phase/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/marcusgoll__robinhood-algo-trading-bot__claude__skills__project-initialization-phase__SKILL.md/SKILL.md"

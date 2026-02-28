@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8996b72da3a5af76bd65781dd4bfaf5bfc3ae8ecd28d2a686e1c940f8cf55dc6",
   "indexed_at": "2026-02-25T14:34:40.450Z",
-  "synced_at": "2026-02-27T02:49:17.221Z",
+  "synced_at": "2026-02-28T04:20:45.196Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6f57db815129604e28984a75c4eb92cbbb8b3856404c4f75d142a29c4bd22910",
   "install_command": "mkdir -p .claude/skills/hackernews && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/hackernews/SKILL.md\" > .claude/skills/hackernews/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/hackernews/SKILL.md"

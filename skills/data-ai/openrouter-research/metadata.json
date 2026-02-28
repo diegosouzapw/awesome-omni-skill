@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8638bca38e2ca243c7734a1bc45b707c34f27824416b064ef6eaa9f0964c35b8",
   "indexed_at": "2026-02-25T16:10:28.494Z",
-  "synced_at": "2026-02-27T02:49:24.416Z",
+  "synced_at": "2026-02-28T04:20:51.292Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/738bde2f6b6947861f6fca11d6321f1037b1510e8548c5ff59eb66c596c81de6",
   "install_command": "mkdir -p .claude/skills/openrouter-research && curl -sL \"https://raw.githubusercontent.com/NikGor/image-prompt-optimizer/main/.claude/skills/openrouter-research/SKILL.md\" > .claude/skills/openrouter-research/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NikGor/image-prompt-optimizer/main/.claude/skills/openrouter-research/SKILL.md"

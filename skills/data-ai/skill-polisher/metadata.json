@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5d14a2b5ed9f5dd05b5d650c5d15ed971dd0071f763ffe1a4a8b9188a3321dbb",
   "indexed_at": "2026-02-26T03:22:42.305Z",
-  "synced_at": "2026-02-27T02:49:35.543Z",
+  "synced_at": "2026-02-28T04:21:02.385Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/235a1e28e98053f223c12770e256fbe35f020546315521c32a9dc6e774d0c71a",
   "install_command": "mkdir -p .claude/skills/skill-polisher && curl -sL \"https://raw.githubusercontent.com/poisontr33s/chthonic-archive/main/.claude/skills/skill-polisher/SKILL.md\" > .claude/skills/skill-polisher/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/poisontr33s/chthonic-archive/main/.claude/skills/skill-polisher/SKILL.md"

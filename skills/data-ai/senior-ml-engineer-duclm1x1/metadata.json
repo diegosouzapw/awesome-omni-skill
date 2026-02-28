@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "734b686a4f5a19b05f3b1a75284e8a5c59284630d6c1b1b5cea9735eda664138",
   "indexed_at": "2026-02-26T12:17:56.919Z",
-  "synced_at": "2026-02-27T02:50:03.160Z",
+  "synced_at": "2026-02-28T04:21:29.025Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/41a583c7c0ec7b3a2f2d750832f76b7f65aba4b976d1b1a2a8f78fb8738c0deb",
   "install_command": "mkdir -p .claude/skills/senior-ml-engineer && curl -sL \"https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/skills_library/devops_cloud/senior-ml-engineer/SKILL.md\" > .claude/skills/senior-ml-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/skills_library/devops_cloud/senior-ml-engineer/SKILL.md"

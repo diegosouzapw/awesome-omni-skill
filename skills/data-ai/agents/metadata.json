@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f17331d400ead05ae765c9a912b490ad6851a7c99e298b6335809482e741cc06",
   "indexed_at": "2026-02-26T22:39:33.861Z",
-  "synced_at": "2026-02-27T02:48:59.228Z",
+  "synced_at": "2026-02-28T04:20:26.533Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1834629484464ccf6b6fe99ef4bc6879bd737af88f51a1ae5896671111698c43",
   "install_command": "mkdir -p .claude/skills/agents && curl -sL \"https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/agents/SKILL.md\" > .claude/skills/agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/agents/SKILL.md"

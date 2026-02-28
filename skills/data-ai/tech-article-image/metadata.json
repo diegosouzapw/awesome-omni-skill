@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2aea8400bc6db243673b04448ad02c06e902582f908de88499e97f8795277f20",
   "indexed_at": "2026-02-25T12:46:11.581Z",
-  "synced_at": "2026-02-27T02:49:04.906Z",
+  "synced_at": "2026-02-28T04:20:33.121Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/22aecdfb5ca3f448d89edc56a211eb08eef1615b5675bfe120ae5869874acee9",
   "install_command": "mkdir -p .claude/skills/tech-article-image && curl -sL \"https://raw.githubusercontent.com/ZD-AI-Lab/Tech-Article-Illustration-Master/main/SKILL.md\" > .claude/skills/tech-article-image/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ZD-AI-Lab/Tech-Article-Illustration-Master/main/SKILL.md"

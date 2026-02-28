@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5a14fa235e9823b3769576ac6e86ee2c1548b84d1da64c5a6d5698bcea64392a",
   "indexed_at": "2026-02-26T18:34:23.399Z",
-  "synced_at": "2026-02-27T02:48:55.661Z",
+  "synced_at": "2026-02-28T04:20:10.010Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7b47df273424b4eb4af62e010930f59d1b8903afd39e4372395cf83c70927112",
   "install_command": "mkdir -p .claude/skills/create-assistant && curl -sL \"https://raw.githubusercontent.com/VapiAI/skills/main/create-assistant/SKILL.md\" > .claude/skills/create-assistant/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/VapiAI/skills/main/create-assistant/SKILL.md"

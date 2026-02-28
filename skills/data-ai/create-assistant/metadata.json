@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0d3c4f235d2f32c7a02d3672aa1ca2b1dc97421b18f49e190afdf65a46f6f753",
   "indexed_at": "2026-02-26T18:31:33.025Z",
-  "synced_at": "2026-02-27T02:48:54.787Z",
+  "synced_at": "2026-02-28T04:20:09.226Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f6a8cf85641d7ec7f47d87ffeb5645351d48af6ce368ab3ca71f3886d4d48228",
   "install_command": "mkdir -p .claude/skills/create-assistant && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/vapiai/skills/create-assistant/SKILL.md\" > .claude/skills/create-assistant/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/vapiai/skills/create-assistant/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "13884722b177256be988e366879387b29a333c1f3f7b5059c664ab2b196987e1",
   "indexed_at": "2026-02-25T12:54:50.419Z",
-  "synced_at": "2026-02-27T02:48:58.095Z",
+  "synced_at": "2026-02-28T04:20:25.392Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8c6bfd5a0f2eaf0d2f12acf13bc87947a2c7f26a2314e64492e11bcfa2609f37",
   "install_command": "mkdir -p .claude/skills/rust-unsafe && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/rust-unsafe/SKILL.md\" > .claude/skills/rust-unsafe/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/rust-unsafe/SKILL.md"

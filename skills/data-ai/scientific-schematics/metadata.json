@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "afbc235e025415b9a6dddd80d11aaba5a6fcf4b542c7f91e69c75f6370fb79ff",
   "indexed_at": "2026-02-26T00:40:34.088Z",
-  "synced_at": "2026-02-27T02:49:33.665Z",
+  "synced_at": "2026-02-28T04:21:00.473Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7a45b735a37bf3e9d9f9c2753b77bd3438b7b14970af0d98c5f10c364cfc8f59",
   "install_command": "mkdir -p .claude/skills/scientific-schematics && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/testing/scientific-schematics/SKILL.md\" > .claude/skills/scientific-schematics/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/testing/scientific-schematics/SKILL.md"

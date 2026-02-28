@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "efa7391a1f599e89d17c332d0cc62ca5d8aae5d7fba3123829dd96e26dcde6b7",
   "indexed_at": "2026-02-26T09:51:22.145Z",
-  "synced_at": "2026-02-27T02:49:52.961Z",
+  "synced_at": "2026-02-28T04:21:19.241Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a36731da4f1347ca574fdef706d613560b4f19970b59eba3485dcbfa3b6a2c2e",
   "install_command": "mkdir -p .claude/skills/arch-review && curl -sL \"https://raw.githubusercontent.com/andreibesleaga/GABBE/main/agents/skills/architecture/arch-review.skill.md/SKILL.md\" > .claude/skills/arch-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/andreibesleaga/GABBE/main/agents/skills/architecture/arch-review.skill.md/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ec3830ba9c95700d311e4a1c8dae2f078cd2b6aba800b421282b17b8d14d5d8e",
   "indexed_at": "2026-02-26T07:50:49.074Z",
-  "synced_at": "2026-02-27T02:49:43.141Z",
+  "synced_at": "2026-02-28T04:21:09.704Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2d097216ed1125b3f1e67c18be429ac6d49b005b815f93f99ace210a03bec6ae",
   "install_command": "mkdir -p .claude/skills/pagent && curl -sL \"https://raw.githubusercontent.com/tuannvm/pagent/main/.claude/skills/pagent/SKILL.md\" > .claude/skills/pagent/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tuannvm/pagent/main/.claude/skills/pagent/SKILL.md"

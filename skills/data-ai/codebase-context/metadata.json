@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bc66bcd2ddde5fe66e00bfeaa7e69cf551e7dc3e4684bad2df4726afac72a0bf",
   "indexed_at": "2026-02-25T15:06:32.469Z",
-  "synced_at": "2026-02-27T02:49:19.486Z",
+  "synced_at": "2026-02-28T04:20:47.628Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b6658802afaf419d072f60640aba3be721f3d0f39286f3e5b206191a079c2e5e",
   "install_command": "mkdir -p .claude/skills/codebase-context && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/codebase-context-darkpunkki-v-forge/SKILL.md\" > .claude/skills/codebase-context/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/codebase-context-darkpunkki-v-forge/SKILL.md"

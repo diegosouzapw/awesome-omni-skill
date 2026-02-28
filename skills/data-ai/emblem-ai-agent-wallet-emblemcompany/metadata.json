@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e0ddee7a78dc11fb3694f0ddf23234998ef19fdae7f5e63f3cacdbde15c104d9",
   "indexed_at": "2026-02-26T09:50:30.368Z",
-  "synced_at": "2026-02-27T02:49:52.789Z",
+  "synced_at": "2026-02-28T04:21:19.062Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ca2dd581a374b1ebc43bbd77ff6453a1219e6426994dfee5ff188c4e37d75cf8",
   "install_command": "mkdir -p .claude/skills/emblem-ai-agent-wallet && curl -sL \"https://raw.githubusercontent.com/EmblemCompany/EmblemAi-AgentWallet/main/SKILL.md\" > .claude/skills/emblem-ai-agent-wallet/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/EmblemCompany/EmblemAi-AgentWallet/main/SKILL.md"

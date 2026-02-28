@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bd445bce8dcc313eef352f3fed00e361f0d632c2ceae59d6ea1c4de9cd17a211",
   "indexed_at": "2026-02-26T15:17:51.557Z",
-  "synced_at": "2026-02-27T02:48:49.155Z",
+  "synced_at": "2026-02-28T04:20:03.833Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eb094782207adab94d7f8b414e1bcdc323f0f5d9cb1dcec50d993c1f6984084b",
   "install_command": "mkdir -p .claude/skills/book-sft-pipeline && curl -sL \"https://raw.githubusercontent.com/hoangnb24/skills/main/skills/book-sft-pipeline/SKILL.md\" > .claude/skills/book-sft-pipeline/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hoangnb24/skills/main/skills/book-sft-pipeline/SKILL.md"

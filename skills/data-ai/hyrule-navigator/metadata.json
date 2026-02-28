@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3206478e69cd88c24864b3d6ea19b667752f0f3458fb44b043bb1ae3a4cf35fc",
   "indexed_at": "2026-02-25T17:35:59.007Z",
-  "synced_at": "2026-02-27T02:49:26.339Z",
+  "synced_at": "2026-02-28T04:20:53.199Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d39ada00cec31dbcd6c73c23b5176eaa3a8cd4ed5a35f48fe35cc229079b96b9",
   "install_command": "mkdir -p .claude/skills/hyrule-navigator && curl -sL \"https://raw.githubusercontent.com/scawful/afs_scawful/main/skills/hyrule-navigator/SKILL.md\" > .claude/skills/hyrule-navigator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/scawful/afs_scawful/main/skills/hyrule-navigator/SKILL.md"

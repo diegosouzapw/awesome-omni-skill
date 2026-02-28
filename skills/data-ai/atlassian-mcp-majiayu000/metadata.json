@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "05c9cd5aae6fe5a58732d521705e061047ecda390dce77402281a46b39870103",
   "indexed_at": "2026-02-25T15:55:08.198Z",
-  "synced_at": "2026-02-27T02:49:23.205Z",
+  "synced_at": "2026-02-28T04:20:49.926Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/40f83abae805abc2433269c8b3866e741360ff9f6a7288cd5ca2460f0830d93a",
   "install_command": "mkdir -p .claude/skills/atlassian-mcp && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/atlassian-mcp/SKILL.md\" > .claude/skills/atlassian-mcp/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/atlassian-mcp/SKILL.md"

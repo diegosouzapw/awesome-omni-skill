@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d80677b0a6b61f3a78be7dfd743f588d8952337b3c39200cce53a97e5c45585d",
   "indexed_at": "2026-02-25T21:40:36.149Z",
-  "synced_at": "2026-02-27T02:49:30.241Z",
+  "synced_at": "2026-02-28T04:20:57.067Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/773f7cd197f65ab1258f122dd7b596acd58cbc2685324bd73e50a740ce15ebbe",
   "install_command": "mkdir -p .claude/skills/consult-codex && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/consult-codex/SKILL.md\" > .claude/skills/consult-codex/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/consult-codex/SKILL.md"

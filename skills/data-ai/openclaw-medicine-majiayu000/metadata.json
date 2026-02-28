@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d3822ac1629eaccb1fb933719cf06c4154b758694f662380ef85a12e49581a63",
   "indexed_at": "2026-02-26T05:40:25.712Z",
-  "synced_at": "2026-02-27T02:49:36.418Z",
+  "synced_at": "2026-02-28T04:21:03.237Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/320d80e4bce6576e214bff21be226facd719dd16c53a230c25eb27069113c74a",
   "install_command": "mkdir -p .claude/skills/openclaw-medicine && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/openclaw-medicine/SKILL.md\" > .claude/skills/openclaw-medicine/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/openclaw-medicine/SKILL.md"

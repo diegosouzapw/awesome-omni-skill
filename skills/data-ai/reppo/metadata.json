@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5269d320c2125138448a9cb180602581e903294dd3d53e122ac9b21db776ef17",
   "indexed_at": "2026-02-26T10:30:34.665Z",
-  "synced_at": "2026-02-27T02:49:55.803Z",
+  "synced_at": "2026-02-28T04:21:22.013Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1a57fe3cd7d83b0d6a1fed297c0e8d9d3129bff35cae60f2db76405e5a2e0835",
   "install_command": "mkdir -p .claude/skills/reppo && curl -sL \"https://raw.githubusercontent.com/anajuliabit/reppo-agent-publisher/main/SKILL.md\" > .claude/skills/reppo/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/anajuliabit/reppo-agent-publisher/main/SKILL.md"

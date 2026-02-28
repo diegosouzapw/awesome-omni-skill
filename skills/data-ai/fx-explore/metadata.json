@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1b9ee7a2864c0bc84c2703a9209677b27bab786bb7831e62882e4a5042131f32",
   "indexed_at": "2026-02-26T07:35:44.157Z",
-  "synced_at": "2026-02-27T02:49:41.567Z",
+  "synced_at": "2026-02-28T04:21:08.178Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f85ad14094d28e70c0c497aeff3a03224f373984e506a041d616b6a73732da44",
   "install_command": "mkdir -p .claude/skills/fx-explore && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/documents/fx-explore-majiayu000-claude-skill-registr/SKILL.md\" > .claude/skills/fx-explore/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/documents/fx-explore-majiayu000-claude-skill-registr/SKILL.md"

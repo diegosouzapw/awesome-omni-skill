@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9829350d7143c97f51802f9d2063c3fa3528b16d34f1f53343b3e95e70462aa7",
   "indexed_at": "2026-02-25T12:35:26.575Z",
-  "synced_at": "2026-02-27T02:48:59.918Z",
+  "synced_at": "2026-02-28T04:20:27.432Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/368025529355dfa704d47abc7564ad5dac2627a802c40504ae382e340e1065a3",
   "install_command": "mkdir -p .claude/skills/data-designer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/data-designer/SKILL.md\" > .claude/skills/data-designer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/data-designer/SKILL.md"

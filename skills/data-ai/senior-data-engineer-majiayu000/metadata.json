@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ee5a72830585c8fd8772de97c43b4bf752d86200691d983136f040812a61079e",
   "indexed_at": "2026-02-26T09:53:44.091Z",
-  "synced_at": "2026-02-27T02:49:54.349Z",
+  "synced_at": "2026-02-28T04:21:20.604Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/57f62b6eb2b0844668a52670f8a5abb787ae2260497f41b6f81a2409537b203c",
   "install_command": "mkdir -p .claude/skills/senior-data-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/senior-data-engineer-lryuchi-tahzan-archive/SKILL.md\" > .claude/skills/senior-data-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/senior-data-engineer-lryuchi-tahzan-archive/SKILL.md"

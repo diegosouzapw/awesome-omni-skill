@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "787f9858306eb075404107d8dbfbcbcaeedaa8b83dbb142fa962c7aa83162525",
   "indexed_at": "2026-02-27T16:47:39.654Z",
-  "synced_at": "2026-02-27T18:16:10.364Z",
+  "synced_at": "2026-02-28T04:20:18.534Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a138b9dccd2d203ba2a86baedf3e8b192b908b28f02fba4c832990e658434c0e",
   "install_command": "mkdir -p .claude/skills/add-driver && curl -sL \"https://raw.githubusercontent.com/jhd3197/Prompture/main/.claude/skills/add-driver/SKILL.md\" > .claude/skills/add-driver/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jhd3197/Prompture/main/.claude/skills/add-driver/SKILL.md"

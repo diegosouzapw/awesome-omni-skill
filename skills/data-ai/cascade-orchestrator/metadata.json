@@ -19,7 +19,7 @@
   "downloads": 1,
   "content_hash": "0b4df4a9483f6451242454bea0f0377b43be5cb4ef59c003095d6bfa92a3f1b8",
   "indexed_at": "2026-02-26T14:24:07.286Z",
-  "synced_at": "2026-02-27T02:48:48.557Z",
+  "synced_at": "2026-02-28T04:20:03.234Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7196cbbcb90e0778091bf2e0138b887867100b52bc7c20d2d990f117d72b7604",
   "install_command": "mkdir -p .claude/skills/cascade-orchestrator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/cascade-orchestrator/SKILL.md\" > .claude/skills/cascade-orchestrator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/cascade-orchestrator/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d107c29d0549cf4a650e019fd19fd27890a9cc535bd3fc16e81b3ca61ad4ccda",
   "indexed_at": "2026-02-26T07:35:38.220Z",
-  "synced_at": "2026-02-27T02:49:41.343Z",
+  "synced_at": "2026-02-28T04:21:07.967Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2152895478fdbafa21919346246adbedaec8c29389a105677ad41d42b044cd6a",
   "install_command": "mkdir -p .claude/skills/codex-cli-bridge && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/codex-cli-bridge-yona544-aiskils/SKILL.md\" > .claude/skills/codex-cli-bridge/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/codex-cli-bridge-yona544-aiskils/SKILL.md"

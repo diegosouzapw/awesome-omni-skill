@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e3808663ca1b33bfc63304abce48f8c4e66d9052933d1c219bfb74283114abb2",
   "indexed_at": "2026-02-26T06:54:18.703Z",
-  "synced_at": "2026-02-27T02:49:39.708Z",
+  "synced_at": "2026-02-28T04:21:06.499Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2348892ccd26290ca998015519bb780d3a48141da146361c283150590c2f43a6",
   "install_command": "mkdir -p .claude/skills/aix-init && curl -sL \"https://raw.githubusercontent.com/ryangaraygay/aix/main/skills/aix-init/SKILL.md\" > .claude/skills/aix-init/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ryangaraygay/aix/main/skills/aix-init/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "719a7e9aa80088bc30ffcb678f0b0fea35469c2b564e9f095099afab77a4f7cd",
   "indexed_at": "2026-02-25T14:03:02.392Z",
-  "synced_at": "2026-02-27T02:49:15.501Z",
+  "synced_at": "2026-02-28T04:20:43.510Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/53f4d2135b70255f35031fd1357479c2ff0d4df76086c5b1087cf77423a3bad1",
   "install_command": "mkdir -p .claude/skills/observe && curl -sL \"https://raw.githubusercontent.com/observeinc/observe-claude-code-skill-example/main/SKILL.md\" > .claude/skills/observe/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/observeinc/observe-claude-code-skill-example/main/SKILL.md"

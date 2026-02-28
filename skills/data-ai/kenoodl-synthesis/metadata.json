@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9794bfb41a052aa9e02e16acc5945e132819f98e7e63d2ea3719aa34f13701c4",
   "indexed_at": "2026-02-26T09:56:02.626Z",
-  "synced_at": "2026-02-27T02:49:54.921Z",
+  "synced_at": "2026-02-28T04:21:21.167Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8f041ac89f601d0eb4659b7baa2ed0b389ded8dc5a89ee3a64f3ce6a1c109b8e",
   "install_command": "mkdir -p .claude/skills/kenoodl-synthesis && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/kenoodl-synthesis/kenoodl-synthesis/SKILL.md\" > .claude/skills/kenoodl-synthesis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kenoodl-synthesis/kenoodl-synthesis/SKILL.md"

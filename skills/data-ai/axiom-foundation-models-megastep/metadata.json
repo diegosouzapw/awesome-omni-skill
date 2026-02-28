@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "69c6e154a8b9411a797c21b8816e91d00cff76399d13fa55a56e8216969c256d",
   "indexed_at": "2026-02-27T16:57:37.175Z",
-  "synced_at": "2026-02-27T18:16:10.701Z",
+  "synced_at": "2026-02-28T04:20:19.001Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5e504c60bb388fa5973cbd1afa5e9eb2549b783f0ab5c890e4940344639d38c9",
   "install_command": "mkdir -p .claude/skills/axiom-foundation-models && curl -sL \"https://raw.githubusercontent.com/megastep/codex-skills/main/axiom-foundation-models/SKILL.md\" > .claude/skills/axiom-foundation-models/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/megastep/codex-skills/main/axiom-foundation-models/SKILL.md"

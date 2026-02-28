@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cc84208e2bbc28ae2f0031b9b2531f96db5a0451b988a682b7b2b115a944274c",
   "indexed_at": "2026-02-25T16:08:27.789Z",
-  "synced_at": "2026-02-27T02:49:23.554Z",
+  "synced_at": "2026-02-28T04:20:50.455Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/582081af2cd527d6fbec47fbeb523b8b5e5fcae0b9f3b61e7e8798b6a9d0a6bb",
   "install_command": "mkdir -p .claude/skills/llm-evaluate && curl -sL \"https://raw.githubusercontent.com/lucidlabs-hq/agent-kit/main/.claude/skills/llm-evaluate/SKILL.md\" > .claude/skills/llm-evaluate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lucidlabs-hq/agent-kit/main/.claude/skills/llm-evaluate/SKILL.md"

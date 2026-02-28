@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bde546402f1f1e951f65b0258696ec5ce031d61310f3b9c4c832a45da3400f19",
   "indexed_at": "2026-02-26T09:17:09.113Z",
-  "synced_at": "2026-02-27T02:49:49.542Z",
+  "synced_at": "2026-02-28T04:21:16.076Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/01c9a8a189a59a287f16c0f8ba8e1a09e309ec439f54c3bd1e3ebedfaa3c86b8",
   "install_command": "mkdir -p .claude/skills/matchms && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ovachiever/droid-tings/matchms/SKILL.md\" > .claude/skills/matchms/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ovachiever/droid-tings/matchms/SKILL.md"

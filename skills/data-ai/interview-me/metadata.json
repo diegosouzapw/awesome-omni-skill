@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "440c74b0a5a14d5d0b84164dce1456c20d40d5e94734553ffed025a42f0e1b67",
   "indexed_at": "2026-02-26T11:38:40.118Z",
-  "synced_at": "2026-02-27T02:50:00.316Z",
+  "synced_at": "2026-02-28T04:21:26.589Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/388d89c742047fc79fc219f9203d4392f19c7485c6d30c3226c4828e986675d3",
   "install_command": "mkdir -p .claude/skills/interview-me && curl -sL \"https://raw.githubusercontent.com/Sorbh/interview-me/main/interview-me/SKILL.md\" > .claude/skills/interview-me/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Sorbh/interview-me/main/interview-me/SKILL.md"

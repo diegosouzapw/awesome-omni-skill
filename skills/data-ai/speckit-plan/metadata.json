@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8bffa8a848e7e9a60a768f2f2de4b4be8993f4e4b3db0d1c7c32d7b9f795d611",
   "indexed_at": "2026-02-25T16:10:49.325Z",
-  "synced_at": "2026-02-27T02:49:24.599Z",
+  "synced_at": "2026-02-28T04:20:51.457Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8b89a1e613ebdf98f678d02ed415cd093029eca7b081f50e0286b15e68f32d38",
   "install_command": "mkdir -p .claude/skills/speckit-plan && curl -sL \"https://raw.githubusercontent.com/ch-yang1273/2026-Playground/main/0221-speckit/.agents/skills/speckit-plan/SKILL.md\" > .claude/skills/speckit-plan/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ch-yang1273/2026-Playground/main/0221-speckit/.agents/skills/speckit-plan/SKILL.md"

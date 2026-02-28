@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9ac4c7ec02105d0f3730c1f4a7f679e04b3b4907effb1e3cbe68434310f3932d",
   "indexed_at": "2026-02-26T18:32:50.661Z",
-  "synced_at": "2026-02-27T02:48:54.945Z",
+  "synced_at": "2026-02-28T04:20:09.401Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dbb8ba6f0febaf4a591bc5e86f3d1301a6b53dfd92f297926d855096b59fd96a",
   "install_command": "mkdir -p .claude/skills/agent-creation && curl -sL \"https://raw.githubusercontent.com/joabgonzalez/ai-agents-skills/main/skills/agent-creation/SKILL.md\" > .claude/skills/agent-creation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/joabgonzalez/ai-agents-skills/main/skills/agent-creation/SKILL.md"

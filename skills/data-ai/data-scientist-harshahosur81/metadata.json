@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5be494374eca0f6f344393c3c10e7beb037c67713e2bbe668055f08e42c7c79d",
   "indexed_at": "2026-02-26T08:50:48.484Z",
-  "synced_at": "2026-02-27T02:49:46.621Z",
+  "synced_at": "2026-02-28T04:21:13.073Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fcc64277e702425f49e92db2da228e764d2bbb726176ab365ea48859742f4d56",
   "install_command": "mkdir -p .claude/skills/data-scientist && curl -sL \"https://raw.githubusercontent.com/harshahosur81/ag-opencode-skills/main/skills/data-scientist/SKILL.md\" > .claude/skills/data-scientist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/harshahosur81/ag-opencode-skills/main/skills/data-scientist/SKILL.md"

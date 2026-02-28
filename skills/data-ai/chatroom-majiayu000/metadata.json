@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "070dd01dcba7b73d74349fea56f9df40a2881f15f87cc001d0ff0003a27e31ac",
   "indexed_at": "2026-02-26T07:50:33.447Z",
-  "synced_at": "2026-02-27T02:49:42.916Z",
+  "synced_at": "2026-02-28T04:21:09.481Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d6a55589552a8331b171dd5d72bfa07a2d49b80581b07a66e41f96ed24005212",
   "install_command": "mkdir -p .claude/skills/chatroom && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/chatroom/SKILL.md\" > .claude/skills/chatroom/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/chatroom/SKILL.md"

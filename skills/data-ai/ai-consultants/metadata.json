@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b6a208f7b5882be58d7f8bca41cf4650443d81d61e0c8c857e4286b469cb1472",
   "indexed_at": "2026-02-26T07:30:38.763Z",
-  "synced_at": "2026-02-27T02:49:40.480Z",
+  "synced_at": "2026-02-28T04:21:07.246Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7d5af45eceb61c894e2535afcb2068623fd026cc9d4ce2ef6e00c3c757b43316",
   "install_command": "mkdir -p .claude/skills/ai-consultants && curl -sL \"https://raw.githubusercontent.com/matteoscurati/ai-consultants/main/SKILL.md\" > .claude/skills/ai-consultants/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/matteoscurati/ai-consultants/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2a6a56bb8b0c532dde4080fb583d188056f60d93188a2ddeeac9e97d1be938ac",
   "indexed_at": "2026-02-25T13:01:39.577Z",
-  "synced_at": "2026-02-27T02:49:10.118Z",
+  "synced_at": "2026-02-28T04:20:38.366Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3d081f1c245eb33c7542b856329c85f1ee4db4cad3339ce165d2fe66168ce271",
   "install_command": "mkdir -p .claude/skills/yakit-hotpatch-skill && curl -sL \"https://raw.githubusercontent.com/t0mmy4/yakit-hotpatch-skill/main/SKILL.md\" > .claude/skills/yakit-hotpatch-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/t0mmy4/yakit-hotpatch-skill/main/SKILL.md"

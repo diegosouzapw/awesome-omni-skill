@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "32a1968226529e96fa4e25f99daa46d8567edb9d704248271947d3dc77b6c8cd",
   "indexed_at": "2026-02-26T00:40:41.613Z",
-  "synced_at": "2026-02-27T02:49:33.844Z",
+  "synced_at": "2026-02-28T04:21:00.657Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/affce366582aef372d6fd834e6d8f9a01c926b937a70546c6101cf501972f8b5",
   "install_command": "mkdir -p .claude/skills/searching-message-history && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/searching-message-history/SKILL.md\" > .claude/skills/searching-message-history/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/searching-message-history/SKILL.md"

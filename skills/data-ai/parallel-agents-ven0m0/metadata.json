@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dd9a5f95feeda472ee76507d986db3ac1779dc0e7135b66131f4430ae6ef414d",
   "indexed_at": "2026-02-26T07:55:59.584Z",
-  "synced_at": "2026-02-27T02:49:44.659Z",
+  "synced_at": "2026-02-28T04:21:11.154Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/46fb57fe586ed82e5c485874fba8e59f1baa8793b402db8991ca644757a5de80",
   "install_command": "mkdir -p .claude/skills/parallel-agents && curl -sL \"https://raw.githubusercontent.com/Ven0m0/.github/main/skills/parallel-agents/SKILL.md\" > .claude/skills/parallel-agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Ven0m0/.github/main/skills/parallel-agents/SKILL.md"

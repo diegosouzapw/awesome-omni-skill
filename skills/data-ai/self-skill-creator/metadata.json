@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d16b3a36a615c3a3194c7ddf7dbb36754cd1207608731fdd3dc920b71e79ee36",
   "indexed_at": "2026-02-25T13:12:05.563Z",
-  "synced_at": "2026-02-27T02:49:12.494Z",
+  "synced_at": "2026-02-28T04:20:40.492Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2f55f781dea8ab0231cfcd571594cd29da32039ff744184824ac0e1df3e606d5",
   "install_command": "mkdir -p .claude/skills/self-skill-creator && curl -sL \"https://raw.githubusercontent.com/WagashiMgmg/spectro-density/main/.claude/skills/self-skill-creator/SKILL.md\" > .claude/skills/self-skill-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/WagashiMgmg/spectro-density/main/.claude/skills/self-skill-creator/SKILL.md"

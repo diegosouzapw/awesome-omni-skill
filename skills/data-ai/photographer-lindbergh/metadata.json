@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "27f65e7d39f73f11ab7cbd7bc01c46182cb258e67a919c54992d1741a4566513",
   "indexed_at": "2026-02-25T16:09:43.401Z",
-  "synced_at": "2026-02-27T02:49:24.245Z",
+  "synced_at": "2026-02-28T04:20:51.145Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/372357c6988503314742b96d74775abc20dc0bc1b40f0b5dfbce66853c4ba8c2",
   "install_command": "mkdir -p .claude/skills/photographer-lindbergh && curl -sL \"https://raw.githubusercontent.com/bluewaves-creations/bluewaves-skills/main/plugins/media-factory/skills/photographer-lindbergh/SKILL.md\" > .claude/skills/photographer-lindbergh/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bluewaves-creations/bluewaves-skills/main/plugins/media-factory/skills/photographer-lindbergh/SKILL.md"

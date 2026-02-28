@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eea5a03de21cb1baf243d93ac483c1f0e594e25099cfa7a6eed645d13c1f7c9c",
   "indexed_at": "2026-02-25T12:38:29.968Z",
-  "synced_at": "2026-02-27T02:49:03.261Z",
+  "synced_at": "2026-02-28T04:20:31.186Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d2763142e26a92d49fab0e7e18cf03ff17a0ea41290ee25cc78f84700bfb9ce2",
   "install_command": "mkdir -p .claude/skills/bluesky && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/bluesky/SKILL.md\" > .claude/skills/bluesky/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/bluesky/SKILL.md"

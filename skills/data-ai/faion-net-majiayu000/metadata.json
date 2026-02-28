@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c926c8a2737f73f9d9794d575c596f472111dcb9d8fec449928445f5a5ec63a",
   "indexed_at": "2026-02-26T10:56:29.347Z",
-  "synced_at": "2026-02-27T02:49:58.140Z",
+  "synced_at": "2026-02-28T04:21:24.399Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6ab7b13dcc1001dccaaee96d81e78a620102ee1995488c9c7c87c440a7d22463",
   "install_command": "mkdir -p .claude/skills/faion-net && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/faion-net/SKILL.md\" > .claude/skills/faion-net/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/faion-net/SKILL.md"

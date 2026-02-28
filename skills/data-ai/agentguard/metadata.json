@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ccd2771ac4602545e110d65e22d1b7e3e7580b6af3acda633e30776c68bbfb43",
   "indexed_at": "2026-02-25T20:41:43.619Z",
-  "synced_at": "2026-02-27T02:49:29.893Z",
+  "synced_at": "2026-02-28T04:20:56.746Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/69ca620112d458bdd7e5a18a3fdf65b9e87966e69dfed8bc1fa1db222b1e0977",
   "install_command": "mkdir -p .claude/skills/agentguard && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/goplussecurity/agentguard/agentguard/SKILL.md\" > .claude/skills/agentguard/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/goplussecurity/agentguard/agentguard/SKILL.md"

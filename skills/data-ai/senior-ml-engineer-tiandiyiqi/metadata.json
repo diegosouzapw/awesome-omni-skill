@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3e035416d61904f9c1121e607967e3b57f0cb645aaafef38aecc1d627f63075d",
   "indexed_at": "2026-02-26T12:17:18.564Z",
-  "synced_at": "2026-02-27T02:50:02.185Z",
+  "synced_at": "2026-02-28T04:21:28.121Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4886b03fad862cda1739509bc0ba0487047a6b19c15ca8aec41e5d521e360f18",
   "install_command": "mkdir -p .claude/skills/senior-ml-engineer && curl -sL \"https://raw.githubusercontent.com/tiandiyiqi/ai-skills/main/engineering-team/senior-ml-engineer/SKILL.md\" > .claude/skills/senior-ml-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tiandiyiqi/ai-skills/main/engineering-team/senior-ml-engineer/SKILL.md"

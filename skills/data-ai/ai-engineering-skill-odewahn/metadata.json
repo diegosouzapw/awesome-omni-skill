@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "56d42a9e528ba0fbdd238bcf424a91c919b44a65ef39611d622e0c3ba98beabf",
   "indexed_at": "2026-02-25T12:48:57.113Z",
-  "synced_at": "2026-02-27T02:49:07.412Z",
+  "synced_at": "2026-02-28T04:20:35.489Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9d7b83e8e13c6fb2c892a065490d6aed46e0dd90b2e0c7bb43496ff9214c6967",
   "install_command": "mkdir -p .claude/skills/ai-engineering-skill && curl -sL \"https://raw.githubusercontent.com/odewahn/ai-engineering-skill/main/SKILL.md\" > .claude/skills/ai-engineering-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/odewahn/ai-engineering-skill/main/SKILL.md"

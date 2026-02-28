@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e30694f1b9459459fb896f9a0cf8358f1c8e6cf653aaf82e1a84dc4245fa1c1c",
   "indexed_at": "2026-02-26T06:30:47.794Z",
-  "synced_at": "2026-02-27T02:49:38.615Z",
+  "synced_at": "2026-02-28T04:21:05.500Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ae83d0f41b203b34afd47110186130d3e8c1551488c4a65bd4303cd804f6e67c",
   "install_command": "mkdir -p .claude/skills/x-engagement && curl -sL \"https://raw.githubusercontent.com/Purple-Horizons/x-engagement/main/SKILL.md\" > .claude/skills/x-engagement/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Purple-Horizons/x-engagement/main/SKILL.md"

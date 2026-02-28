@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "424e18cf2171f8fc99b3adc56d25948c581aa30ed0aede8d7e24f6df2e78326d",
   "indexed_at": "2026-02-27T17:41:48.205Z",
-  "synced_at": "2026-02-27T18:16:11.107Z",
+  "synced_at": "2026-02-28T04:20:19.845Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8cbf75a9f0427b6001aa91de68107e62b31d842aac9791497dc9eedcdc2df328",
   "install_command": "mkdir -p .claude/skills/mcp-architecture-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/mcp-architecture-frankxai-ai-architect-156316d2/SKILL.md\" > .claude/skills/mcp-architecture-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/mcp-architecture-frankxai-ai-architect-156316d2/SKILL.md"

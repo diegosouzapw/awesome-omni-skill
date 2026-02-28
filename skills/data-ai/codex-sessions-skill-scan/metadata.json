@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "67e6735b08cf2e351f51ac4ece85c8a85a2ae52d56a856e202f4553ca3c17ff5",
   "indexed_at": "2026-02-25T15:05:10.468Z",
-  "synced_at": "2026-02-27T02:49:18.972Z",
+  "synced_at": "2026-02-28T04:20:47.122Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/111d0b5b1399a8409e19e7a9e8b495db48303c5ad335ddead479d5ca997e3dc1",
   "install_command": "mkdir -p .claude/skills/codex-sessions-skill-scan && curl -sL \"https://raw.githubusercontent.com/jscraik/Agent-Skills/main/utilities/codex-sessions-skill-scan/SKILL.md\" > .claude/skills/codex-sessions-skill-scan/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jscraik/Agent-Skills/main/utilities/codex-sessions-skill-scan/SKILL.md"

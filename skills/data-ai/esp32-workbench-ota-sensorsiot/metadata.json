@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6355b686c4554eade07997dc471ca371acf6fd0424ad31901f9333459575f707",
   "indexed_at": "2026-02-26T10:22:52.006Z",
-  "synced_at": "2026-02-27T02:49:55.505Z",
+  "synced_at": "2026-02-28T04:21:21.738Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7927b80796a14242fabcc4bfd170f5ed3b6beda262a0d2c01432315070873808",
   "install_command": "mkdir -p .claude/skills/esp32-workbench-ota && curl -sL \"https://raw.githubusercontent.com/SensorsIot/YouTube-IOS-Keyboard/main/.claude/skills/esp32-workbench-ota/SKILL.md\" > .claude/skills/esp32-workbench-ota/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/SensorsIot/YouTube-IOS-Keyboard/main/.claude/skills/esp32-workbench-ota/SKILL.md"

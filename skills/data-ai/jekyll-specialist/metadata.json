@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2eb2429aab5458676b61ce48c3e9584ae2f41f937e477ced647a45e46965fda7",
   "indexed_at": "2026-02-26T18:37:26.036Z",
-  "synced_at": "2026-02-27T02:48:56.052Z",
+  "synced_at": "2026-02-28T04:20:10.354Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bed5e2eee972aad304aa017d5b4adfe5c706e4ef12939ab913ca4f651d7e904e",
   "install_command": "mkdir -p .claude/skills/jekyll-specialist && curl -sL \"https://raw.githubusercontent.com/samueltauil/samueltauil.github.io/main/.github/skills/jekyll-specialist/SKILL.md\" > .claude/skills/jekyll-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/samueltauil/samueltauil.github.io/main/.github/skills/jekyll-specialist/SKILL.md"

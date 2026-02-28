@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6923f2495ffce1d14070f36fbf3f57ad436d669f2192ae681ea790b16d590f99",
   "indexed_at": "2026-02-26T01:39:16.558Z",
-  "synced_at": "2026-02-27T02:49:34.788Z",
+  "synced_at": "2026-02-28T04:21:01.586Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5b85da092972a6c1308cc16d8d565fd4524ca7b02adebb05a8c68d39ba6cbf20",
   "install_command": "mkdir -p .claude/skills/working-with-llms && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/working-with-llms-bearflinn-claude-stuff/SKILL.md\" > .claude/skills/working-with-llms/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/working-with-llms-bearflinn-claude-stuff/SKILL.md"

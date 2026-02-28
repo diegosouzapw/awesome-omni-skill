@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8dd65d19e91beb75adbc4b76d9d6a2c8f5660703981a42131deedfb4f19e4e93",
   "indexed_at": "2026-02-25T18:38:08.102Z",
-  "synced_at": "2026-02-27T02:49:27.874Z",
+  "synced_at": "2026-02-28T04:20:54.712Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a0a92fc825854191b8f5f610d8e2ca62392ed109175de27ca499c6b867675bcf",
   "install_command": "mkdir -p .claude/skills/multi-ai && curl -sL \"https://raw.githubusercontent.com/cskwork/llm-review/main/.claude/skills/multi-ai/SKILL.md\" > .claude/skills/multi-ai/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cskwork/llm-review/main/.claude/skills/multi-ai/SKILL.md"

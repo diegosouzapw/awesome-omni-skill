@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aca61625404a8e99e79f8aac470dd2b8998e00c6e8318f273988240bcc697792",
   "indexed_at": "2026-02-25T13:53:03.973Z",
-  "synced_at": "2026-02-27T02:49:14.842Z",
+  "synced_at": "2026-02-28T04:20:42.772Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/48120efbc40269b2adaae40fcfc1f37b10d23de73a665a15eafa8e8aafab30d2",
   "install_command": "mkdir -p .claude/skills/gh-issues && curl -sL \"https://raw.githubusercontent.com/ClaudioCeppi83/kora-os-kernel/main/engines/openclaw/skills/gh-issues/SKILL.md\" > .claude/skills/gh-issues/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ClaudioCeppi83/kora-os-kernel/main/engines/openclaw/skills/gh-issues/SKILL.md"

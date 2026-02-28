@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e3b44755f2333915a523448f4c9c4e21f96b2f3067bf9810e9f29421f3fd70b4",
   "indexed_at": "2026-02-26T07:48:09.627Z",
-  "synced_at": "2026-02-27T02:49:41.956Z",
+  "synced_at": "2026-02-28T04:21:08.549Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/414bbe1121067cc2823f4905606f9f9062c42512f38cfd7ef05f9940812359d6",
   "install_command": "mkdir -p .claude/skills/data-fetching-patterns && curl -sL \"https://raw.githubusercontent.com/farming-labs/fm-skills/main/data-fetching-patterns/SKILL.md\" > .claude/skills/data-fetching-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/farming-labs/fm-skills/main/data-fetching-patterns/SKILL.md"

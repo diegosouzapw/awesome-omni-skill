@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "23696be9a0d17017e970cde5dc10e271ea1bfb7cabb3fb02b1d010aefae48e6d",
   "indexed_at": "2026-02-26T06:54:03.766Z",
-  "synced_at": "2026-02-27T02:49:39.343Z",
+  "synced_at": "2026-02-28T04:21:06.151Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b5e54f154eeff60c9f84ec8df9a3d1abc0c8ea978b0848b8e4972f264889bf2e",
   "install_command": "mkdir -p .claude/skills/writing-agents && curl -sL \"https://raw.githubusercontent.com/aaddrick/claude-pipeline/main/.claude/skills/writing-agents/SKILL.md\" > .claude/skills/writing-agents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aaddrick/claude-pipeline/main/.claude/skills/writing-agents/SKILL.md"

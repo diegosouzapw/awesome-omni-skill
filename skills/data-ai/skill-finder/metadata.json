@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d80ee46b48037ac726772a546acedd527261c57c1703edfc2b44f838f5f3f32c",
   "indexed_at": "2026-02-26T10:54:56.840Z",
-  "synced_at": "2026-02-27T02:49:57.784Z",
+  "synced_at": "2026-02-28T04:21:24.063Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/57b2b6ec6869e43d936ba301a61414cc09c2a20209af954a2af022695ffb7cc8",
   "install_command": "mkdir -p .claude/skills/skill-finder && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/dangogit/skill-finder/skill-finder/SKILL.md\" > .claude/skills/skill-finder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/dangogit/skill-finder/skill-finder/SKILL.md"

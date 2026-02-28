@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1f4c67cdca35de480d367755440f27917fdc146b1fb84e71b6045aa8588a3893",
   "indexed_at": "2026-02-27T13:25:16.803Z",
-  "synced_at": "2026-02-27T18:16:06.219Z",
+  "synced_at": "2026-02-28T04:20:13.769Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3aecc564b8aa2869a3055c7e5d0bae8bea63b5b1e566dcd234e2df781b5eb672",
   "install_command": "mkdir -p .claude/skills/ios-foundation-models-diag && curl -sL \"https://raw.githubusercontent.com/derKlinke/codex-config/main/skills/ios-foundation-models-diag/SKILL.md\" > .claude/skills/ios-foundation-models-diag/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/derKlinke/codex-config/main/skills/ios-foundation-models-diag/SKILL.md"

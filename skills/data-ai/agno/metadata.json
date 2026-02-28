@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "edd0371ed1dc693e439da560cac2c5a2d614e0b25567bcda1fa015f2d34f6abe",
   "indexed_at": "2026-02-26T17:37:54.048Z",
-  "synced_at": "2026-02-27T02:48:54.095Z",
+  "synced_at": "2026-02-28T04:20:08.570Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/72952dfebc2709636cffaa2ecef16de165e6a71debba7d72ae308c86372ee1c5",
   "install_command": "mkdir -p .claude/skills/agno && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/abhisheksharma-17/skills-graph/agno/SKILL.md\" > .claude/skills/agno/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/abhisheksharma-17/skills-graph/agno/SKILL.md"

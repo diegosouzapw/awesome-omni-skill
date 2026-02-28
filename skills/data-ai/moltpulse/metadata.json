@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cf547b260e07f78bed5d38f56b5ceea4af132cca5dd934338d643e5ea1c646d6",
   "indexed_at": "2026-02-25T14:10:59.387Z",
-  "synced_at": "2026-02-27T02:49:17.035Z",
+  "synced_at": "2026-02-28T04:20:45.035Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/732fa465cc2ab737908896decaff004e479751adbdfa78f3ccf221e4ec6b009d",
   "install_command": "mkdir -p .claude/skills/moltpulse && curl -sL \"https://raw.githubusercontent.com/gregce/moltpulse/main/SKILL.md\" > .claude/skills/moltpulse/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/gregce/moltpulse/main/SKILL.md"

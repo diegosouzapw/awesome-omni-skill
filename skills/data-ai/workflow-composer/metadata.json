@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "175476e343bb2e0f688e5edf3b3002e5c32db378c334f67748f9018cc37f25be",
   "indexed_at": "2026-02-26T14:16:11.327Z",
-  "synced_at": "2026-02-27T02:48:48.231Z",
+  "synced_at": "2026-02-28T04:20:02.893Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7400eb8359a0952f1a815c908573773064376d1cb71a56bc62a63ecf8a05c06d",
   "install_command": "mkdir -p .claude/skills/workflow-composer && curl -sL \"https://raw.githubusercontent.com/GLINCKER/claude-code-marketplace/main/skills/automation/workflow-composer/SKILL.md\" > .claude/skills/workflow-composer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/GLINCKER/claude-code-marketplace/main/skills/automation/workflow-composer/SKILL.md"

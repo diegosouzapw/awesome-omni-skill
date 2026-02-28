@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "286ccb3f599c8545e008c0a769d1074e45516c4b31b30dabf59c2aa6c1c98b9f",
   "indexed_at": "2026-02-26T11:12:06.695Z",
-  "synced_at": "2026-02-27T02:49:58.487Z",
+  "synced_at": "2026-02-28T04:21:24.750Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6ccf26ac1e8e3611470ea4ad3744d9b07f7cddcab0be2929a2700662efb3f3a7",
   "install_command": "mkdir -p .claude/skills/math-modeling && curl -sL \"https://raw.githubusercontent.com/XiaoMaColtAI/math-modeling-skill/main/SKILL.md\" > .claude/skills/math-modeling/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/XiaoMaColtAI/math-modeling-skill/main/SKILL.md"

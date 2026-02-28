@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9045425bb177fd38dc084555937bce90de912990ac3270a113bba6b3615b6b24",
   "indexed_at": "2026-02-26T09:47:21.813Z",
-  "synced_at": "2026-02-27T02:49:52.263Z",
+  "synced_at": "2026-02-28T04:21:18.550Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3945bc3101e14e85a9f6c53271657857b3732d58b8bbd182508b75e716fed98a",
   "install_command": "mkdir -p .claude/skills/agent-browser && curl -sL \"https://raw.githubusercontent.com/AieatAssam/daily-unsupervised-llm-game/main/.agents/skills/agent-browser/SKILL.md\" > .claude/skills/agent-browser/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AieatAssam/daily-unsupervised-llm-game/main/.agents/skills/agent-browser/SKILL.md"

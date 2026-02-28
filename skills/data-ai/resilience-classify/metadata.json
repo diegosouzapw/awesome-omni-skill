@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9b149dba33b54acd548e605684c04fadf32245aa872657e4363ddb3cf42df2b8",
   "indexed_at": "2026-02-26T10:39:17.112Z",
-  "synced_at": "2026-02-27T02:49:56.286Z",
+  "synced_at": "2026-02-28T04:21:22.589Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8b72c3503a74f2ad8e3c71e0a72fbcc8688312af2868a6bca9b8538e97686071",
   "install_command": "mkdir -p .claude/skills/resilience-classify && curl -sL \"https://raw.githubusercontent.com/TokenBrice/stablecoin-dashboard/main/.claude/skills/resilience-classify/SKILL.md\" > .claude/skills/resilience-classify/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TokenBrice/stablecoin-dashboard/main/.claude/skills/resilience-classify/SKILL.md"

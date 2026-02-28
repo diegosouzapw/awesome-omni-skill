@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a25b2a17acf708e25471c62f2cb2d668f08374a3ff0b7a81522e1df73fc5b6e1",
   "indexed_at": "2026-02-25T16:50:38.767Z",
-  "synced_at": "2026-02-27T02:49:25.265Z",
+  "synced_at": "2026-02-28T04:20:52.132Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c6bc6a18c0fd276731de3287ddde95469904e32d2eeb11a2f2e8e223cd91ce40",
   "install_command": "mkdir -p .claude/skills/weekly-email-team-instructions && curl -sL \"https://raw.githubusercontent.com/edmundbogen/weekly-email-team-instructions/main/SKILL.md\" > .claude/skills/weekly-email-team-instructions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/edmundbogen/weekly-email-team-instructions/main/SKILL.md"

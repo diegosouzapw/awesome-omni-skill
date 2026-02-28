@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f639a92e9b50ce22711262cdb8e38beef135741c956dac6ba4f9e07eec2e9a63",
   "indexed_at": "2026-02-26T18:30:54.860Z",
-  "synced_at": "2026-02-27T02:48:54.612Z",
+  "synced_at": "2026-02-28T04:20:09.059Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3742fb3922fc76527dbcf9642cd0e6f77d245de877279a7315d5b014627379ba",
   "install_command": "mkdir -p .claude/skills/copilot-sdk && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/mguinada/agent-skills/copilot-sdk/SKILL.md\" > .claude/skills/copilot-sdk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/mguinada/agent-skills/copilot-sdk/SKILL.md"

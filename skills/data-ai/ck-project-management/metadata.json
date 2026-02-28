@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f7d459bd52f97a888ff8052963a10abdbac299db8e8e048d43d31ce0b12d1daf",
   "indexed_at": "2026-02-26T10:25:28.890Z",
-  "synced_at": "2026-02-27T02:49:55.636Z",
+  "synced_at": "2026-02-28T04:21:21.866Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/be18685a3c1290fe70df440009363c7f3c534dcc95ee642d29c6f4d521487959",
   "install_command": "mkdir -p .claude/skills/ck-project-management && curl -sL \"https://raw.githubusercontent.com/felix-howard/ella/main/.claude/skills/project-management/SKILL.md\" > .claude/skills/ck-project-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/felix-howard/ella/main/.claude/skills/project-management/SKILL.md"

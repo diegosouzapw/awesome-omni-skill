@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4299cd60410abce93b32163fc113b629efa67ab900f2c19aa4bc2e0c8a71f9e8",
   "indexed_at": "2026-02-27T13:23:51.633Z",
-  "synced_at": "2026-02-27T18:16:06.133Z",
+  "synced_at": "2026-02-28T04:20:13.619Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/79595318eb042691234718475025a537099adffc8f66c306b4ac816c09ce3eed",
   "install_command": "mkdir -p .claude/skills/continuous-learning-v2 && curl -sL \"https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/continuous-learning-v2/SKILL.md\" > .claude/skills/continuous-learning-v2/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/continuous-learning-v2/SKILL.md"

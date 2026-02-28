@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2ba102f6828df301819143e88b323a4fd4b839288e41cf5458d686d14848ddc1",
   "indexed_at": "2026-02-25T14:56:50.348Z",
-  "synced_at": "2026-02-27T02:49:17.967Z",
+  "synced_at": "2026-02-28T04:20:45.946Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2336a0eeaf46b5bfbea4a03b663771d5413bf52e52834df5f999422eaf0853fd",
   "install_command": "mkdir -p .claude/skills/bio-basecalling && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/testing/bio-basecalling-gptomics-bioskills/SKILL.md\" > .claude/skills/bio-basecalling/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/testing/bio-basecalling-gptomics-bioskills/SKILL.md"

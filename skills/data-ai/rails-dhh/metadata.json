@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "348de58017265e979aa5ae56335c794489f29e65b1c280433b480163237fccd8",
   "indexed_at": "2026-02-26T06:48:52.624Z",
-  "synced_at": "2026-02-27T02:49:38.983Z",
+  "synced_at": "2026-02-28T04:21:05.839Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c9fcafab17b641f4382f64ab988ad4b148ba6cb9b11aeb22a582bfbb9112fe15",
   "install_command": "mkdir -p .claude/skills/rails-dhh && curl -sL \"https://raw.githubusercontent.com/Belibaste/rails-dhh-setup/main/templates/claude/skills/rails-dhh/SKILL.md\" > .claude/skills/rails-dhh/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Belibaste/rails-dhh-setup/main/templates/claude/skills/rails-dhh/SKILL.md"

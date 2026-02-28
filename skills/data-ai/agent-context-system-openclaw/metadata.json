@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bc5c23c7095469409a02ff71992c673aa96a2cafe70a97721a6bd9a569e8f899",
   "indexed_at": "2026-02-26T17:37:42.462Z",
-  "synced_at": "2026-02-27T02:48:53.768Z",
+  "synced_at": "2026-02-28T04:20:08.240Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/461fb42cdfea32d859529516c98693924c8c3bde91d9ef0a428ba0fc795c8510",
   "install_command": "mkdir -p .claude/skills/agent-context-system && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/andreagriffiths11/agent-context/SKILL.md\" > .claude/skills/agent-context-system/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/andreagriffiths11/agent-context/SKILL.md"

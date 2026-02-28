@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7a37e2250e53b84374487f5d75d473cffea589c040c7d5f964d1ad869f876687",
   "indexed_at": "2026-02-25T12:46:29.134Z",
-  "synced_at": "2026-02-27T02:49:05.223Z",
+  "synced_at": "2026-02-28T04:20:33.442Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/634bf15154be6152310a6920fc4c2941527b4d39ed9d2e3f6a575f3341d3417d",
   "install_command": "mkdir -p .claude/skills/remove-ai-comments && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/chambersxdu/enhance-comment/remove-ai-comments/SKILL.md\" > .claude/skills/remove-ai-comments/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/chambersxdu/enhance-comment/remove-ai-comments/SKILL.md"

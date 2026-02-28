@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8cbb1cb2554fea952355e82a0db578a311d316005f80f3c47478705c1ea18462",
   "indexed_at": "2026-02-26T05:45:33.228Z",
-  "synced_at": "2026-02-27T02:49:36.744Z",
+  "synced_at": "2026-02-28T04:21:03.571Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/712e8f1414d87c9c95af090cb0a50225a1c8f7b9723a02e7042f4037927e648c",
   "install_command": "mkdir -p .claude/skills/aiops-agentic-workflow && curl -sL \"https://raw.githubusercontent.com/Tehminanaz/Evolution-of-Todo/main/.claude/skills/AIOps & Agentic Workflow/SKILL.md\" > .claude/skills/aiops-agentic-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Tehminanaz/Evolution-of-Todo/main/.claude/skills/AIOps & Agentic Workflow/SKILL.md"

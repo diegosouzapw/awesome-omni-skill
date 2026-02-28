@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "44c88a9dc7212bca19962ae8a50881918b9b6952d9e5bc8ea107a0ab65f4e508",
   "indexed_at": "2026-02-26T12:17:16.564Z",
-  "synced_at": "2026-02-27T02:50:01.844Z",
+  "synced_at": "2026-02-28T04:21:27.788Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/649b59b40b06a7a43857df5ebb4096a566e0aae590dcde330025a517f120c7b5",
   "install_command": "mkdir -p .claude/skills/senior-ml-engineer && curl -sL \"https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.agents/skills/senior-ml-engineer/SKILL.md\" > .claude/skills/senior-ml-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.agents/skills/senior-ml-engineer/SKILL.md"

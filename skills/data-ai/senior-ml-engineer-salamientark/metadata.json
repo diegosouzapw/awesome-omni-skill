@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "87733138dfdd8fa684421484e54d23cd1beecb5b66966c0cbf61a529ed8cf022",
   "indexed_at": "2026-02-26T12:17:56.042Z",
-  "synced_at": "2026-02-27T02:50:02.987Z",
+  "synced_at": "2026-02-28T04:21:28.841Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8164036a16922a426293f44d6bb9472471c9f3a27fc89654cf273100faa3529c",
   "install_command": "mkdir -p .claude/skills/senior-ml-engineer && curl -sL \"https://raw.githubusercontent.com/salamientark/dotfiles/main/claude/skills/engineering-team/senior-ml-engineer/SKILL.md\" > .claude/skills/senior-ml-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/salamientark/dotfiles/main/claude/skills/engineering-team/senior-ml-engineer/SKILL.md"

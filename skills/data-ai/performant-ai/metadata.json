@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b9a380b1844f7cbb61ac711ad29e135ee3130fd02e6527d4e686809b234dc272",
   "indexed_at": "2026-02-26T11:38:31.804Z",
-  "synced_at": "2026-02-27T02:50:00.168Z",
+  "synced_at": "2026-02-28T04:21:26.345Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fd9202f126a9e2842aeca17a6c9e4d6fbbd4607e012f9dde367e553a20cc9c84",
   "install_command": "mkdir -p .claude/skills/performant-ai && curl -sL \"https://raw.githubusercontent.com/andreibesleaga/GABBE/main/agents/skills/coding/performant-ai.skill.md/SKILL.md\" > .claude/skills/performant-ai/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/andreibesleaga/GABBE/main/agents/skills/coding/performant-ai.skill.md/SKILL.md"

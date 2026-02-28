@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f63e3fd6a10a26d5bde5693c8a708fc542139cc37317d45892acae95b5186f3a",
   "indexed_at": "2026-02-26T12:17:55.124Z",
-  "synced_at": "2026-02-27T02:50:02.804Z",
+  "synced_at": "2026-02-28T04:21:28.674Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d697718b27a130be639e2142bb2f701faba2b400394d841b40494933bd7d23e1",
   "install_command": "mkdir -p .claude/skills/senior-ml-engineer && curl -sL \"https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/alirezarezvani/senior-ml-engineer/SKILL.md\" > .claude/skills/senior-ml-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/alirezarezvani/senior-ml-engineer/SKILL.md"

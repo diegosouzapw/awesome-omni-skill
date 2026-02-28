@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ef9be73f112fc17c560292fd4212d825ae1aec6c669280e58c544bbcd5c631d6",
   "indexed_at": "2026-02-25T17:39:17.956Z",
-  "synced_at": "2026-02-27T02:49:26.489Z",
+  "synced_at": "2026-02-28T04:20:53.347Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/23db40805aabb105e49f6d1a90a242f5ee4a3a79b40645179e169efc858e9492",
   "install_command": "mkdir -p .claude/skills/clawgang && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/syslink/clawgang/SKILL.md\" > .claude/skills/clawgang/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/syslink/clawgang/SKILL.md"

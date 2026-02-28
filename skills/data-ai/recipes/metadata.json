@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c80b15f098651f45c984e9ec06a0cdc60d1a59b002f25af02c06fe5d4dedacec",
   "indexed_at": "2026-02-27T17:28:17.289Z",
-  "synced_at": "2026-02-27T18:16:10.909Z",
+  "synced_at": "2026-02-28T04:20:19.390Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ba8c2e72d9c1faf8b456716c5d945bb7b4a3df574b6945a0cec21aa8b5e8f816",
   "install_command": "mkdir -p .claude/skills/recipes && curl -sL \"https://raw.githubusercontent.com/jeffaf/recipes-skill/main/SKILL.md\" > .claude/skills/recipes/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jeffaf/recipes-skill/main/SKILL.md"

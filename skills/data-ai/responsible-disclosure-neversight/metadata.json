@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "734ca118e449e8c6b54d3b8b61322411aa1726de7da5b829266f9ed95e85503b",
   "indexed_at": "2026-02-27T16:11:04.454Z",
-  "synced_at": "2026-02-27T18:16:09.995Z",
+  "synced_at": "2026-02-28T04:20:18.039Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/635ced05b80cbaacbb95a2e0b73c3f71afc4bdb2cca99748cb64393612c97c94",
   "install_command": "mkdir -p .claude/skills/responsible-disclosure && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/pluginagentmarketplace/custom-plugin-ai-red-teaming/responsible-disclosure/SKILL.md\" > .claude/skills/responsible-disclosure/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/pluginagentmarketplace/custom-plugin-ai-red-teaming/responsible-disclosure/SKILL.md"

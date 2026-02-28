@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "87d61a3a5c80d8d084812835bf1a5386c11c380483e9501bd18500cd97055d4e",
   "indexed_at": "2026-02-25T23:37:15.429Z",
-  "synced_at": "2026-02-27T02:49:32.168Z",
+  "synced_at": "2026-02-28T04:20:58.880Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/112ae8bef3b321947a86cc0c605c27ad27565b8ef908998c303c8c84e4bc5832",
   "install_command": "mkdir -p .claude/skills/000-tnr-absolute-rigor && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/000-tnr/SKILL.md\" > .claude/skills/000-tnr-absolute-rigor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/000-tnr/SKILL.md"

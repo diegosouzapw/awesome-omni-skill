@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "199cac9516cdf3c7bdd8786040aa56bda81fa14e0da0720b59140f0fea05d9b6",
   "indexed_at": "2026-02-27T11:32:28.340Z",
-  "synced_at": "2026-02-27T13:14:20.734Z",
+  "synced_at": "2026-02-28T04:20:13.108Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/61d7df8e879568781edf72cec6cc9f6edd6c5acbeb1e2fad849b9f8f9bd54a36",
   "install_command": "mkdir -p .claude/skills/convex-component-authoring && curl -sL \"https://raw.githubusercontent.com/kristofferaas/deep-stortinget/main/.agents/skills/convex-component-authoring/SKILL.md\" > .claude/skills/convex-component-authoring/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kristofferaas/deep-stortinget/main/.agents/skills/convex-component-authoring/SKILL.md"

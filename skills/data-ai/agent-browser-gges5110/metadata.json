@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f3408c1034cfa6d1f5da3b59aaf00b4b98b13178a49ab2130b46bc1fc8f3a148",
   "indexed_at": "2026-02-26T09:47:23.261Z",
-  "synced_at": "2026-02-27T02:49:52.439Z",
+  "synced_at": "2026-02-28T04:21:18.720Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aba060a0e7ce8af4a8b4ea5d47aff7428e4fc8068afc6163441fb558de9f4965",
   "install_command": "mkdir -p .claude/skills/agent-browser && curl -sL \"https://raw.githubusercontent.com/gges5110/austinbusgo/main/.agents/skills/agent-browser/SKILL.md\" > .claude/skills/agent-browser/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/gges5110/austinbusgo/main/.agents/skills/agent-browser/SKILL.md"
