@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "38a4f826d20b527e31628446cf12079a72d985d729b0431f1c4cedf07a7e1c4f",
   "indexed_at": "2026-02-26T11:39:09.290Z",
-  "synced_at": "2026-02-27T02:39:01.149Z",
+  "synced_at": "2026-02-28T04:07:44.659Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0390630eaea238320dd2b5e1a0c48eb736d21c2c06df4eb74c84a0dc866e4549",
   "install_command": "mkdir -p .claude/skills/information-security-manager-iso27001 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/information-security-manager-iso27001-alirezarezvani-claude-skills/SKILL.md\" > .claude/skills/information-security-manager-iso27001/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/information-security-manager-iso27001-alirezarezvani-claude-skills/SKILL.md"

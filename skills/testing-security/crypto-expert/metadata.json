@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cce1f5132dd4975e85bb47e07d33d0c9151b84a0b6598bda0161810fcfef9b56",
   "indexed_at": "2026-02-26T11:39:00.536Z",
-  "synced_at": "2026-02-27T02:39:00.432Z",
+  "synced_at": "2026-02-28T04:07:43.922Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/88a0189e83f032568b95c6decf7ce1c0dc5c24bcb747d45c9ebc6de05c4412ef",
   "install_command": "mkdir -p .claude/skills/crypto-expert && curl -sL \"https://raw.githubusercontent.com/strantalis/agent-skills/main/skills/crypto-expert/SKILL.md\" > .claude/skills/crypto-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/strantalis/agent-skills/main/skills/crypto-expert/SKILL.md"

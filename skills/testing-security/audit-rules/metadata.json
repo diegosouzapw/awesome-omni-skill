@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "92ba846d1f465914e5457084a9da485cc91645bcac70673d29857bfe36133efc",
   "indexed_at": "2026-02-26T22:38:06.466Z",
-  "synced_at": "2026-02-27T02:39:09.345Z",
+  "synced_at": "2026-02-28T04:07:52.580Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c59a2c0d9e338189d15a07d404eedc09b26d0a9b2c6a2c26889e6c39c4571a7e",
   "install_command": "mkdir -p .claude/skills/audit-rules && curl -sL \"https://raw.githubusercontent.com/melodic-software/claude-code-plugins/main/plugins/claude-ecosystem/skills/audit-rules/SKILL.md\" > .claude/skills/audit-rules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/melodic-software/claude-code-plugins/main/plugins/claude-ecosystem/skills/audit-rules/SKILL.md"

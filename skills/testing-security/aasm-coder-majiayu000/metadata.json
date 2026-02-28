@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7985bf66c36f4b0587b8e82d48c621cefbd20a6224db5e4a33c75acff47f96ab",
   "indexed_at": "2026-02-24T23:20:20.854Z",
-  "synced_at": "2026-02-27T02:38:11.302Z",
+  "synced_at": "2026-02-28T04:06:53.193Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6f23048e8cd53d456f9e11623935afdc6258a702c28c5acc41dc31d1534e29ae",
   "install_command": "mkdir -p .claude/skills/aasm-coder && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aasm-coder/SKILL.md\" > .claude/skills/aasm-coder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aasm-coder/SKILL.md"

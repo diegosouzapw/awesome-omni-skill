@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6425c29b3682d3947b7b381dcbedc031bb2bdadb139ded31bd5c7aebb335c2de",
   "indexed_at": "2026-02-25T23:40:51.517Z",
-  "synced_at": "2026-02-27T02:38:34.126Z",
+  "synced_at": "2026-02-28T04:07:19.013Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1e6cf9baf086b62f3046da6e21afc175e683472f3a51b90dbd869424f73a5458",
   "install_command": "mkdir -p .claude/skills/service-mesh-implementation && curl -sL \"https://raw.githubusercontent.com/aj-geddes/useful-ai-prompts/main/skills/service-mesh-implementation/SKILL.md\" > .claude/skills/service-mesh-implementation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aj-geddes/useful-ai-prompts/main/skills/service-mesh-implementation/SKILL.md"

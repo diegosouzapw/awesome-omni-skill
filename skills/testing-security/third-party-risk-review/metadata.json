@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "73d339a9b26fef35029c7bd38e3d86801c4ea880f293fa386f1f807df86a49fa",
   "indexed_at": "2026-02-26T09:49:28.960Z",
-  "synced_at": "2026-02-27T02:38:48.422Z",
+  "synced_at": "2026-02-28T04:07:33.008Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/363888f8741f23de401a3bf0ae1f7390ff7c1ef08971ec316c1e268eeefacd40",
   "install_command": "mkdir -p .claude/skills/third-party-risk-review && curl -sL \"https://raw.githubusercontent.com/wassemgtk/skills-testing/main/healthcare/compliance-risk/third-party-risk-review/SKILL.md\" > .claude/skills/third-party-risk-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wassemgtk/skills-testing/main/healthcare/compliance-risk/third-party-risk-review/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a847102cf169d59fb3c5c4902c5fd52a7403e2eb59f057102dc707bbd3dd8462",
   "indexed_at": "2026-02-26T09:49:22.434Z",
-  "synced_at": "2026-02-27T02:38:48.052Z",
+  "synced_at": "2026-02-28T04:07:32.677Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/884aedd9d1b9e58f33a0edcdeefeede77476a96cc2994de61138f7efd7221a94",
   "install_command": "mkdir -p .claude/skills/secure-code-guardian && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/security/secure-code-guardian/SKILL.md\" > .claude/skills/secure-code-guardian/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/security/secure-code-guardian/SKILL.md"

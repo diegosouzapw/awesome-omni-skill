@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f3dc8db03fb2f5be16028ba91adf29c8ac588203149b2bc16ce0f40f568a3619",
   "indexed_at": "2026-02-25T17:26:25.242Z",
-  "synced_at": "2026-02-27T02:37:55.795Z",
+  "synced_at": "2026-02-28T04:06:32.252Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/442068eb390476ace1167d7d6ce0a586f8b5b9b464801b99a5123a6d0721ae0c",
   "install_command": "mkdir -p .claude/skills/nextjs-supabase-auth && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/nextjs-supabase-auth/SKILL.md\" > .claude/skills/nextjs-supabase-auth/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/nextjs-supabase-auth/SKILL.md"

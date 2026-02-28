@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "649f4adb94f4eda0ae31051fc626040be9965113a34b82ebb5d1efbe274b42ea",
   "indexed_at": "2026-02-26T09:49:27.591Z",
-  "synced_at": "2026-02-27T02:38:48.242Z",
+  "synced_at": "2026-02-28T04:07:32.839Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/541b504ec91843bfc25457b6c63ea3b7c44710f1b09eeb9efd301354c406ccc9",
   "install_command": "mkdir -p .claude/skills/credential-manager && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/teeclaw/openclaw-credential-manager/SKILL.md\" > .claude/skills/credential-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/teeclaw/openclaw-credential-manager/SKILL.md"

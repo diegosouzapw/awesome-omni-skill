@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "32fbbe45550e0bc3f65fb1840220db5f18f2ae32857329bffd31cc7c744085c9",
   "indexed_at": "2026-02-27T00:52:07.517Z",
-  "synced_at": "2026-02-27T02:38:02.453Z",
+  "synced_at": "2026-02-28T04:06:38.795Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5e521e85d83337737984337e306ad29067fb7189649a5ed33be3976d5b5d3d64",
   "install_command": "mkdir -p .claude/skills/accessibility-planning && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/accessibility-planning-prorise-cool-claude-code-multi-ag/SKILL.md\" > .claude/skills/accessibility-planning/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/accessibility-planning-prorise-cool-claude-code-multi-ag/SKILL.md"

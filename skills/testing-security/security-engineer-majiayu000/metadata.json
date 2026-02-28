@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fcc3a99cb4fcdca8e41803973355206a3afc6100f738d771c1ff91010eb005ff",
   "indexed_at": "2026-02-26T09:56:42.053Z",
-  "synced_at": "2026-02-27T02:38:24.047Z",
+  "synced_at": "2026-02-28T04:07:05.973Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/29a54323ef46b05c02dc93693dec69b848b975370379f0deeb85d6598c87c0fb",
   "install_command": "mkdir -p .claude/skills/security-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/security/security-engineer/SKILL.md\" > .claude/skills/security-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/security/security-engineer/SKILL.md"

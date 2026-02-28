@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3c03f6907e9ada82db814913fb34a39da687cb7a6f20417220fb5b696efa3f99",
   "indexed_at": "2026-02-27T15:06:04.350Z",
-  "synced_at": "2026-02-27T18:15:45.672Z",
+  "synced_at": "2026-02-28T04:07:57.020Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c793ad4c5f4041dd947fcfbe359404aa7af5ba8ba8bd6127b4c8db07ac5e68a4",
   "install_command": "mkdir -p .claude/skills/technical-review && curl -sL \"https://raw.githubusercontent.com/leeovery/tick/main/.claude/skills/technical-review/SKILL.md\" > .claude/skills/technical-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/leeovery/tick/main/.claude/skills/technical-review/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3ab898b76a17cef5f4333db08ec71cfafb606248094dfd0cafe9b87a7b22971e",
   "indexed_at": "2026-02-27T09:48:58.214Z",
-  "synced_at": "2026-02-27T13:14:51.035Z",
+  "synced_at": "2026-02-28T04:07:55.471Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9c5b3584b19a625be86e07b7d0732d42f7804f95299942111cf28069b9409787",
   "install_command": "mkdir -p .claude/skills/pr-review && curl -sL \"https://raw.githubusercontent.com/COG-GTM/devinclaw/main/skills/pr-review/SKILL.md\" > .claude/skills/pr-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/COG-GTM/devinclaw/main/skills/pr-review/SKILL.md"

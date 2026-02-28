@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "70511fdd6fe1986150f2fdf0b39a0da5770b9042ec7a0083b9c870f567f22788",
   "indexed_at": "2026-02-26T11:38:35.470Z",
-  "synced_at": "2026-02-27T02:38:25.049Z",
+  "synced_at": "2026-02-28T04:07:07.546Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/546590a9d821d104c1bcbb051e08864d6db6dc4e79999c29ff4d40ce85ab76b7",
   "install_command": "mkdir -p .claude/skills/security-hardening && curl -sL \"https://raw.githubusercontent.com/IbIFACE-Tech/paracle/main/.parac/agents/skills/security-hardening/SKILL.md\" > .claude/skills/security-hardening/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/IbIFACE-Tech/paracle/main/.parac/agents/skills/security-hardening/SKILL.md"

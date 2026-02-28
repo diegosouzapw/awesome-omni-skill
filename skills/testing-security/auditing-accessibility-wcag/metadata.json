@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bef027df082e054db44a6da84871a10cd6ba9fd6c85688b684b4da8893bbbbd8",
   "indexed_at": "2026-02-27T00:51:17.162Z",
-  "synced_at": "2026-02-27T02:38:02.049Z",
+  "synced_at": "2026-02-28T04:06:38.406Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5fab47791c3a36e3113851a85307419b8b56bcf9743ae66fccf7948fec781b31",
   "install_command": "mkdir -p .claude/skills/auditing-accessibility-wcag && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/accessibility-auditor/SKILL.md\" > .claude/skills/auditing-accessibility-wcag/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/accessibility-auditor/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0001841c9f93f936b3a7a3c4ae75a56658ff88710883b55333b57871f534d3f9",
   "indexed_at": "2026-02-26T11:39:08.396Z",
-  "synced_at": "2026-02-27T02:39:00.992Z",
+  "synced_at": "2026-02-28T04:07:44.469Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a52135b3e8bda04d589a2fb9cdce0a27859ebed6a50a47182a0c102da1008179",
   "install_command": "mkdir -p .claude/skills/compliance-check && curl -sL \"https://raw.githubusercontent.com/itsimonfredlingjack/codex-dev-plugin/main/.codex/skills/compliance-check/SKILL.md\" > .claude/skills/compliance-check/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/itsimonfredlingjack/codex-dev-plugin/main/.codex/skills/compliance-check/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7ae64c9770aa5ded152f77ab0a0b8739872daaa0766cd6ebcd7eb00b8e3c4e6a",
   "indexed_at": "2026-02-26T11:37:50.027Z",
-  "synced_at": "2026-02-27T02:38:24.664Z",
+  "synced_at": "2026-02-28T04:07:07.162Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1983949a6b816d2ac5cce6823d2bbdedde392c506003c37a89606cc87d91608b",
   "install_command": "mkdir -p .claude/skills/typo3-security && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/dirnbauer/webconsulting-skills/typo3-security/SKILL.md\" > .claude/skills/typo3-security/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/dirnbauer/webconsulting-skills/typo3-security/SKILL.md"

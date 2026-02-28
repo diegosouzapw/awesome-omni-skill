@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "090dd007c50d8f7b41846325ec02459253008f5b744ef579198a91f076044a04",
   "indexed_at": "2026-02-26T22:21:42.998Z",
-  "synced_at": "2026-02-27T02:39:09.056Z",
+  "synced_at": "2026-02-28T04:07:52.298Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6ec626bb03a1c74068dbcb77a9cf6510e6318332ae33bfeb24e450bea61833c9",
   "install_command": "mkdir -p .claude/skills/u01126-resource-budget-allocation-for-cybersecurity-operations && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/1126-resource-budget-allocation-for-cybersecurity-operations/SKILL.md\" > .claude/skills/u01126-resource-budget-allocation-for-cybersecurity-operations/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/1126-resource-budget-allocation-for-cybersecurity-operations/SKILL.md"

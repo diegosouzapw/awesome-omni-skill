@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a36a96589048272daefa070841a91a4e0e8d5e6139c38f409a921557a886f398",
   "indexed_at": "2026-02-26T09:55:35.702Z",
-  "synced_at": "2026-02-27T02:38:54.280Z",
+  "synced_at": "2026-02-28T04:07:37.768Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/895749efa3d2d20a9317c82fa37ca8d6031d526d0e713b886da5ba75aa64ef6c",
   "install_command": "mkdir -p .claude/skills/infosec-engineer && curl -sL \"https://raw.githubusercontent.com/CrashBytes/claude-role-skills/main/skills/infosec-engineer/SKILL.md\" > .claude/skills/infosec-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/CrashBytes/claude-role-skills/main/skills/infosec-engineer/SKILL.md"

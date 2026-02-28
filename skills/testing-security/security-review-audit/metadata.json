@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b4a2d2b5ccc341b304f4a04894e2bbfd2daf5a0613a412a1b72b7d52e19dcbe7",
   "indexed_at": "2026-02-26T09:46:35.759Z",
-  "synced_at": "2026-02-27T02:38:44.294Z",
+  "synced_at": "2026-02-28T04:07:29.049Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c92f9bc6d4bf1b015fced7c395a515a6b80bf3812c2e999f62ef24fd26c05c0d",
   "install_command": "mkdir -p .claude/skills/security-review-audit && curl -sL \"https://raw.githubusercontent.com/davidcjones79/shelley-cli/main/skills/security-review-audit/SKILL.md\" > .claude/skills/security-review-audit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/davidcjones79/shelley-cli/main/skills/security-review-audit/SKILL.md"

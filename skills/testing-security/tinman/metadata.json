@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dea65209904ccc2055bc9fb320bf4d1f17f156a4e061442ebecf6945987ac623",
   "indexed_at": "2026-02-25T12:51:15.709Z",
-  "synced_at": "2026-02-27T02:39:09.845Z",
+  "synced_at": "2026-02-28T04:07:59.277Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3879044c1688444d3bcf3fc8a055125000ddcfd8b8a6ff2ee4767266da5913f3",
   "install_command": "mkdir -p .claude/skills/tinman && curl -sL \"https://raw.githubusercontent.com/Niraven/pokee-deep-research-skill/main/skills/tinman/SKILL.md\" > .claude/skills/tinman/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Niraven/pokee-deep-research-skill/main/skills/tinman/SKILL.md"

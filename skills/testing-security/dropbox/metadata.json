@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1759844d40608292190f72f7ed4b9a7c6a07f7f27152715fff034a0de8199b10",
   "indexed_at": "2026-02-26T09:55:20.760Z",
-  "synced_at": "2026-02-27T02:38:53.762Z",
+  "synced_at": "2026-02-28T04:07:37.263Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6b63d31ed549fd33ae94c9a8d81ef80be9fdc33a92339ad08ec5b46b8d5462f8",
   "install_command": "mkdir -p .claude/skills/dropbox && curl -sL \"https://raw.githubusercontent.com/sundial-org/awesome-openclaw-skills/main/skills/dropbox/SKILL.md\" > .claude/skills/dropbox/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sundial-org/awesome-openclaw-skills/main/skills/dropbox/SKILL.md"

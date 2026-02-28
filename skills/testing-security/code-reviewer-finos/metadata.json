@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4c78e96d7683342689b776e29dd7acdecf599d1ed1d18a9f6d18713f1a5ad2ee",
   "indexed_at": "2026-02-26T17:36:37.748Z",
-  "synced_at": "2026-02-27T02:39:08.713Z",
+  "synced_at": "2026-02-28T04:07:51.964Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/290ad61f21275095779ff1c4ad1c2f97f68e3a603e81be15fe106f001917c0da",
   "install_command": "mkdir -p .claude/skills/code-reviewer && curl -sL \"https://raw.githubusercontent.com/finos/morphir-moonbit/main/.github/skills/code-reviewer/SKILL.md\" > .claude/skills/code-reviewer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/finos/morphir-moonbit/main/.github/skills/code-reviewer/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4ede50fc0978375d8d2ce1f6f86679ce549fac207eb7a83616d72fbc0d6b7ae0",
   "indexed_at": "2026-02-27T13:23:53.833Z",
-  "synced_at": "2026-02-27T18:15:45.150Z",
+  "synced_at": "2026-02-28T04:07:56.550Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8cf551d909162a52df599b2ab58466118d531a49af69758a34442aa30a2ed7e9",
   "install_command": "mkdir -p .claude/skills/axiom-ios-testing && curl -sL \"https://raw.githubusercontent.com/CharlesWiltgen/Axiom/main/.claude-plugin/plugins/axiom/skills/axiom-ios-testing/SKILL.md\" > .claude/skills/axiom-ios-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/CharlesWiltgen/Axiom/main/.claude-plugin/plugins/axiom/skills/axiom-ios-testing/SKILL.md"

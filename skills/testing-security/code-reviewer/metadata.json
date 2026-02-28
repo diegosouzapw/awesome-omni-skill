@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0390d86a3f3cc1dca54dcb18f2bd427de579c8a034fb36163a82729c03f8d894",
   "indexed_at": "2026-02-26T13:20:04.566Z",
-  "synced_at": "2026-02-27T02:39:05.173Z",
+  "synced_at": "2026-02-28T04:07:48.424Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fffc05125b91f3d9f65953eede63c16f4934888cc785e011c6210b1572696337",
   "install_command": "mkdir -p .claude/skills/code-reviewer && curl -sL \"https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/code-reviewer/SKILL.md\" > .claude/skills/code-reviewer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/code-reviewer/SKILL.md"

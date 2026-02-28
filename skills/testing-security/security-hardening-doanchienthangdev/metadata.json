@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ec00e35603bc0a624b59d1231b0e9c2a6aa115c103411ed86f29a612784558c8",
   "indexed_at": "2026-02-26T11:38:36.250Z",
-  "synced_at": "2026-02-27T02:38:59.417Z",
+  "synced_at": "2026-02-28T04:07:42.900Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d54dee1ca087e60964feb8320698ee7a6e1acc54fde2d5ce7afd081a82b7c236",
   "install_command": "mkdir -p .claude/skills/security-hardening && curl -sL \"https://raw.githubusercontent.com/doanchienthangdev/omgkit/main/plugin/skills/security/security-hardening/SKILL.md\" > .claude/skills/security-hardening/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/doanchienthangdev/omgkit/main/plugin/skills/security/security-hardening/SKILL.md"

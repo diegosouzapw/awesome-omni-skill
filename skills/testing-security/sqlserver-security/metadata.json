@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e614f8a0db50b6654de6fb8c513cf439110bb28ab28260fd75d68b10820de9ae",
   "indexed_at": "2026-02-26T09:51:27.221Z",
-  "synced_at": "2026-02-27T02:38:22.576Z",
+  "synced_at": "2026-02-28T04:07:04.520Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ece25811a3197dde5ccfa393a8d82410fb56a4d216b90faac992c65bcd6f7597",
   "install_command": "mkdir -p .claude/skills/sqlserver-security && curl -sL \"https://raw.githubusercontent.com/rudi-bruchez/dba-skills/main/skills/sqlserver-security/SKILL.md\" > .claude/skills/sqlserver-security/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rudi-bruchez/dba-skills/main/skills/sqlserver-security/SKILL.md"

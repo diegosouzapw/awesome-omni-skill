@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9248c7a536cf8dbd2ea7e096ee311cb3dbf173909708be9a39b62e2bd857e063",
   "indexed_at": "2026-02-25T12:46:31.037Z",
-  "synced_at": "2026-02-27T02:38:29.275Z",
+  "synced_at": "2026-02-28T04:07:14.160Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/557d89cbfeeda94dcf25cb512a86112965b027eef37de1e0d89bd4a6271d0015",
   "install_command": "mkdir -p .claude/skills/kube-audit-kit && curl -sL \"https://raw.githubusercontent.com/crazygit/kube-audit-kit/main/SKILL.md\" > .claude/skills/kube-audit-kit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/crazygit/kube-audit-kit/main/SKILL.md"

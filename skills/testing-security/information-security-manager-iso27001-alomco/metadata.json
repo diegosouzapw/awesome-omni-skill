@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c76e75809cab78b827bfc94c9bcc12e8165b6031df7690336fbe55259d0e7fa5",
   "indexed_at": "2026-02-26T11:39:50.513Z",
-  "synced_at": "2026-02-27T02:39:02.965Z",
+  "synced_at": "2026-02-28T04:07:46.288Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/516b7e651521af0439db8e2633dee03957ea326f178b0a29f28fcce9e427ba1b",
   "install_command": "mkdir -p .claude/skills/information-security-manager-iso27001 && curl -sL \"https://raw.githubusercontent.com/Alomco/OrgCentral---Kai-v1/main/.agents/skills/information-security-manager-iso27001/SKILL.md\" > .claude/skills/information-security-manager-iso27001/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Alomco/OrgCentral---Kai-v1/main/.agents/skills/information-security-manager-iso27001/SKILL.md"

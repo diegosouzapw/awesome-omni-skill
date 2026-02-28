@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1aa00948a6ec7d58b58a35d1d01269a340a1796daff77990744f7febbe4d2d46",
   "indexed_at": "2026-02-26T07:53:51.029Z",
-  "synced_at": "2026-02-27T02:38:38.869Z",
+  "synced_at": "2026-02-28T04:07:23.677Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f85a2330946cea57e3a71a76e86ff80f1c04937d885a97429da4353738a56edc",
   "install_command": "mkdir -p .claude/skills/security-auditor && curl -sL \"https://raw.githubusercontent.com/namanprat/duforn/main/.agent/skills/security-auditor/SKILL.md\" > .claude/skills/security-auditor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/namanprat/duforn/main/.agent/skills/security-auditor/SKILL.md"

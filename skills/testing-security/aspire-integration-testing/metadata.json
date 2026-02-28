@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d297d00e4a9d1c58bd4c1830841365ab47e01e3c930b411052fb196129138167",
   "indexed_at": "2026-02-26T05:49:25.059Z",
-  "synced_at": "2026-02-27T02:38:34.862Z",
+  "synced_at": "2026-02-28T04:07:19.781Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a9b8120e11be8b3215089d906296483a62347e3e08a0cbe693b6c277986f7e18",
   "install_command": "mkdir -p .claude/skills/aspire-integration-testing && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/aspire-integration-testing/SKILL.md\" > .claude/skills/aspire-integration-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/aspire-integration-testing/SKILL.md"

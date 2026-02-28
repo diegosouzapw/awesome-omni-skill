@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c91d2a3b3dd630cdd2b18a12b0775c1bd71bea8dbe308244aaf8c5707b22c4dc",
   "indexed_at": "2026-02-27T00:50:43.434Z",
-  "synced_at": "2026-02-27T02:38:01.241Z",
+  "synced_at": "2026-02-28T04:06:37.512Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bffda382fd86c21fc471d70919b300f399219eff631e31a83b630cadc555da3f",
   "install_command": "mkdir -p .claude/skills/acceptance-test-writing && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acceptance-test-writing/SKILL.md\" > .claude/skills/acceptance-test-writing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acceptance-test-writing/SKILL.md"

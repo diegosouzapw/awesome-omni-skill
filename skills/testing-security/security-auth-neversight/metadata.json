@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6a28bd2cedcb4af3185a4d52fcd306cf9a3adc4b89b57b51e07b895951e0ce59",
   "indexed_at": "2026-02-27T09:47:48.151Z",
-  "synced_at": "2026-02-27T13:14:50.598Z",
+  "synced_at": "2026-02-28T04:07:54.638Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fdd079997f0d1c659f4e00e7ed0e4f1efdc4684e131c5aa524de4a5019c524f5",
   "install_command": "mkdir -p .claude/skills/security-auth && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ajianaz/skills-collection/security-auth/SKILL.md\" > .claude/skills/security-auth/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ajianaz/skills-collection/security-auth/SKILL.md"

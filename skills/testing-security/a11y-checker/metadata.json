@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "efd45bd00bd60023c7f97a5d76fb851b4f36a256bb2d75a7bea2c11f4b3cf58a",
   "indexed_at": "2026-02-24T23:38:24.711Z",
-  "synced_at": "2026-02-27T02:38:06.388Z",
+  "synced_at": "2026-02-28T04:06:43.489Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6eb535641f45609e012abcac561eda6358b91e9ab8ee07e6d3a28b2033d58e01",
   "install_command": "mkdir -p .claude/skills/a11y-checker && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/a11y-checker/SKILL.md\" > .claude/skills/a11y-checker/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/a11y-checker/SKILL.md"

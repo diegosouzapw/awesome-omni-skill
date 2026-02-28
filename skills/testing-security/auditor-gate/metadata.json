@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4265e29e8a9a1c865806b7e767d45af68d8e1824e4379f2fc29d5aee6a1e6978",
   "indexed_at": "2026-02-25T13:10:15.345Z",
-  "synced_at": "2026-02-27T02:38:30.871Z",
+  "synced_at": "2026-02-28T04:07:15.875Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cc7cad95e126b515abdff48a6024367e522f7e1e547ad2007625d741c6da6c76",
   "install_command": "mkdir -p .claude/skills/auditor-gate && curl -sL \"https://raw.githubusercontent.com/OilProducts/agent-skills/main/auditor-gate/SKILL.md\" > .claude/skills/auditor-gate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/OilProducts/agent-skills/main/auditor-gate/SKILL.md"

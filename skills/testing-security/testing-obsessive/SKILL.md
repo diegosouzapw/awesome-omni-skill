@@ -101,6 +101,7 @@ HIGH PRIORITY (Must test):
 ✓ Complex algorithms
 ✓ API integrations
 ✓ Security-sensitive code
+✓ Accessibility requirements (keyboard nav, screen reader, contrast)
 
 MEDIUM PRIORITY (Should test):
 ✓ Business logic with multiple branches
@@ -869,6 +870,81 @@ LOW PRIORITY (Manual testing only):
 
 ---
 
+## Accessibility Testing
+
+Accessibility is a testable requirement, not a subjective preference. Include it in the testing strategy alongside functional tests.
+
+### Automated Accessibility Checks
+```typescript
+import { axe, toHaveNoViolations } from 'jest-axe';
+
+expect.extend(toHaveNoViolations);
+
+it('should have no accessibility violations', async () => {
+	const { container } = render(LoginForm);
+	const results = await axe(container);
+	expect(results).toHaveNoViolations();
+});
+```
+
+### Keyboard Navigation Tests
+```typescript
+it('should be navigable by keyboard', async () => {
+	render(LoginForm);
+
+	// Tab to email input
+	await userEvent.tab();
+	expect(screen.getByLabelText('Email')).toHaveFocus();
+
+	// Tab to password input
+	await userEvent.tab();
+	expect(screen.getByLabelText('Password')).toHaveFocus();
+
+	// Tab to submit button
+	await userEvent.tab();
+	expect(screen.getByRole('button', { name: /log in/i })).toHaveFocus();
+
+	// Enter submits
+	await userEvent.keyboard('{Enter}');
+	// Assert form submitted
+});
+```
+
+### Screen Reader Assertions
+```typescript
+it('should announce errors to screen readers', async () => {
+	render(LoginForm);
+
+	const submitButton = screen.getByRole('button', { name: /log in/i });
+	await fireEvent.click(submitButton);
+
+	// Error messages should be associated with inputs
+	const emailInput = screen.getByLabelText('Email');
+	const errorId = emailInput.getAttribute('aria-describedby');
+	expect(errorId).toBeTruthy();
+	expect(document.getElementById(errorId)).toHaveTextContent('Email is required');
+});
+```
+
+### What to Test for Accessibility
+```
+HIGH PRIORITY:
+✓ Forms: labels, error association, keyboard submit
+✓ Modals: focus trap, escape to close, focus return
+✓ Navigation: keyboard traversal, skip links
+✓ Dynamic content: aria-live announcements
+
+MEDIUM PRIORITY:
+✓ Colour contrast (automated via axe)
+✓ Image alt text presence
+✓ Heading hierarchy
+
+AUTOMATED (run on every component):
+✓ axe-core violations check
+```
+
+---
+
 ## Success Criteria
 
 Tests are effective when they:
@@ -880,3 +956,4 @@ Tests are effective when they:
 - Focus on high-risk code
 - Serve as documentation
 - Reflect professional judgment about priorities
+- Include accessibility checks for user-facing components

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2d459d407261061808f501fd854556fe8f06b358edf2e74b8b726e67fbe58f3d",
   "indexed_at": "2026-02-26T09:34:39.796Z",
-  "synced_at": "2026-02-27T02:38:40.486Z",
+  "synced_at": "2026-02-28T04:07:25.388Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e4c8a442542529e753c67b3e6571764606d652a66c17d0a0d6bc6c8d61e54cac",
   "install_command": "mkdir -p .claude/skills/qa-tester && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/shaul1991/shaul-agents-plugin/qa-tester/SKILL.md\" > .claude/skills/qa-tester/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/shaul1991/shaul-agents-plugin/qa-tester/SKILL.md"

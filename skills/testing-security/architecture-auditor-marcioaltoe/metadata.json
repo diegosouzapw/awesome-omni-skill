@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2dcf80bece41fced47c59d16cf5a8143090656f8c0440b35d085be2771641cf8",
   "indexed_at": "2026-02-26T06:57:01.007Z",
-  "synced_at": "2026-02-27T02:38:36.750Z",
+  "synced_at": "2026-02-28T04:07:21.629Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a66fcf9825b2b035dd33f27512c4c624295fded5847199ebea29c165c7ab0c04",
   "install_command": "mkdir -p .claude/skills/architecture-auditor && curl -sL \"https://raw.githubusercontent.com/marcioaltoe/claude-craftkit/main/plugins/architecture-design/skills/architecture-auditor/SKILL.md\" > .claude/skills/architecture-auditor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/marcioaltoe/claude-craftkit/main/plugins/architecture-design/skills/architecture-auditor/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bcf5ff88b94e279dbf6bd88ab821e9f9ab5a8331a993e299c7c9cfcd3275094c",
   "indexed_at": "2026-02-26T14:23:39.232Z",
-  "synced_at": "2026-02-27T02:38:27.822Z",
+  "synced_at": "2026-02-28T04:07:10.216Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ee3ad7eebde9703ba37e42547a3b60021184b2c95657d084f8abd39d0cd7d9f5",
   "install_command": "mkdir -p .claude/skills/security-testing && curl -sL \"https://raw.githubusercontent.com/pluginagentmarketplace/custom-plugin-ai-red-teaming/main/skills/security-testing/SKILL.md\" > .claude/skills/security-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pluginagentmarketplace/custom-plugin-ai-red-teaming/main/skills/security-testing/SKILL.md"

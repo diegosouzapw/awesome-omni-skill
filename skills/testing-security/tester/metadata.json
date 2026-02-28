@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cb10a37d9ad5a278852235d256734cb8dd48dce2e718d7053b74376245462697",
   "indexed_at": "2026-02-26T00:08:03.925Z",
-  "synced_at": "2026-02-27T02:38:34.509Z",
+  "synced_at": "2026-02-28T04:07:19.397Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a22611cfc70d0e34b17f304dbd0667eb1b16233d60b353ae606c5774b13e8bf2",
   "install_command": "mkdir -p .claude/skills/tester && curl -sL \"https://raw.githubusercontent.com/elihuvillaraus/skills/main/tester/SKILL.md\" > .claude/skills/tester/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/elihuvillaraus/skills/main/tester/SKILL.md"

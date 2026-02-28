@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cc24a0030ed9b33a95b7c04fe6e371ac3bf505cce7a90116be3cbf2791c874fd",
   "indexed_at": "2026-02-27T00:51:34.863Z",
-  "synced_at": "2026-02-27T02:38:02.257Z",
+  "synced_at": "2026-02-28T04:06:38.598Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9c1ba7b268aa11402f57ee605cd4e04d29fb9c0f1095a87718de779d4ef5574b",
   "install_command": "mkdir -p .claude/skills/accessibility-compliance && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/accessibility-compliance-prasadtelasula-evokeqone/SKILL.md\" > .claude/skills/accessibility-compliance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/accessibility-compliance-prasadtelasula-evokeqone/SKILL.md"

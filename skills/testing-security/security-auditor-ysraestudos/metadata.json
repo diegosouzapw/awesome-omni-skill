@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f56aec655a524ede6a90069d1370736b054e3bee055c706618db693401d9db80",
   "indexed_at": "2026-02-26T07:53:42.115Z",
-  "synced_at": "2026-02-27T02:38:38.518Z",
+  "synced_at": "2026-02-28T04:07:23.348Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/528a0622f91b60eebf6958e33c44b73eede6e8306ccf5ef5afdc126c77d6146e",
   "install_command": "mkdir -p .claude/skills/security-auditor && curl -sL \"https://raw.githubusercontent.com/YsraEstudos/FiscalConsultas/main/.agent/skills/security-auditor/SKILL.md\" > .claude/skills/security-auditor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YsraEstudos/FiscalConsultas/main/.agent/skills/security-auditor/SKILL.md"

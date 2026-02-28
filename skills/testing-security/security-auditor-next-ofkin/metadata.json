@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "503c23ea4663cc4836e2f5588488c6e7dfd3386e3d8389d2b7a1c5142b86dba2",
   "indexed_at": "2026-02-26T07:53:40.822Z",
-  "synced_at": "2026-02-27T02:38:38.343Z",
+  "synced_at": "2026-02-28T04:07:23.187Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aa4e2b62339b211447d2ebd4206489b1491b53759c2f22a109481e2c4d96efe2",
   "install_command": "mkdir -p .claude/skills/security-auditor && curl -sL \"https://raw.githubusercontent.com/Next-ofkin/birthday-automation/main/.agent/skills/security-auditor/SKILL.md\" > .claude/skills/security-auditor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Next-ofkin/birthday-automation/main/.agent/skills/security-auditor/SKILL.md"

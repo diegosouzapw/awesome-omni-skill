@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d45c2aba95f0243cf3f8ddf4a7db4417495343c9a9d169750b381fe2433a242e",
   "indexed_at": "2026-02-26T05:51:40.210Z",
-  "synced_at": "2026-02-27T02:38:35.518Z",
+  "synced_at": "2026-02-28T04:07:20.419Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/69649f4d43333aad15ae2575c6cf1a4f7360d03c2f9bf945de97c5d4794f4a83",
   "install_command": "mkdir -p .claude/skills/istio && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/istio-cosmix-loom/SKILL.md\" > .claude/skills/istio/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/istio-cosmix-loom/SKILL.md"

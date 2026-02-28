@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "abb5c15796795e1e1b38101f8ef38802f2efcc416497753a6b61798afaa7dfdb",
   "indexed_at": "2026-02-26T09:34:41.040Z",
-  "synced_at": "2026-02-27T02:38:40.647Z",
+  "synced_at": "2026-02-28T04:07:25.550Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/048e91063141abd02d3e9da308c8183534ddedefb59ed0996bc69b77fa9b9e5e",
   "install_command": "mkdir -p .claude/skills/qa-tester && curl -sL \"https://raw.githubusercontent.com/shaul1991/shaul-agents-plugin/main/skills/qa-tester/SKILL.md\" > .claude/skills/qa-tester/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/shaul1991/shaul-agents-plugin/main/skills/qa-tester/SKILL.md"

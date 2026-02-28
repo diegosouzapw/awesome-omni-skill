@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ce07eac86e8d859d593930d557a160e5f94e18a6587658988a32e7228953e9a9",
   "indexed_at": "2026-02-26T11:38:18.668Z",
-  "synced_at": "2026-02-27T02:38:58.557Z",
+  "synced_at": "2026-02-28T04:07:41.983Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fc58812027ca6e6fd50808489db89529173e07bda540ce9e89e3257290f2470f",
   "install_command": "mkdir -p .claude/skills/anti-reversing-techniques && curl -sL \"https://raw.githubusercontent.com/haxllo/repolens/main/.claude/skills/anti-reversing-techniques/SKILL.md\" > .claude/skills/anti-reversing-techniques/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/haxllo/repolens/main/.claude/skills/anti-reversing-techniques/SKILL.md"

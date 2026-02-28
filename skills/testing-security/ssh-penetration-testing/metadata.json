@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d2820def3a104cf11cbf7a6a2707c64cd8b2a125805ed64d001198059690ad0e",
   "indexed_at": "2026-02-25T18:27:22.570Z",
-  "synced_at": "2026-02-27T02:37:53.438Z",
+  "synced_at": "2026-02-28T04:06:29.943Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/78f2aebe6b115399bb10b773e35ba03670773a329e80a7d19c5f0db05d2d157d",
   "install_command": "mkdir -p .claude/skills/ssh-penetration-testing && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/ssh-penetration-testing/SKILL.md\" > .claude/skills/ssh-penetration-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/ssh-penetration-testing/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7c5aa14b0e6afc6b94cc31c937bb174a9624e64b5233a6a32086d29d1b36434c",
   "indexed_at": "2026-02-26T05:08:50.416Z",
-  "synced_at": "2026-02-27T02:38:13.482Z",
+  "synced_at": "2026-02-28T04:06:55.310Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/de12e5fa24bd97f23cf8ae244323745d3690a3e75ddc2c5217e09ab386afa07a",
   "install_command": "mkdir -p .claude/skills/acc-create-unit-test && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-create-unit-test/SKILL.md\" > .claude/skills/acc-create-unit-test/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-create-unit-test/SKILL.md"

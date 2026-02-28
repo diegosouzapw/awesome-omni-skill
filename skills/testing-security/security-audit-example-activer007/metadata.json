@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8b8d9458fcfd10807a6caf41add50d4c78882ea9beea33b430e27fe9c2e062db",
   "indexed_at": "2026-02-26T09:48:13.897Z",
-  "synced_at": "2026-02-27T02:38:46.571Z",
+  "synced_at": "2026-02-28T04:07:31.281Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7e07c095ee8d24f39764b4389637476ece58b87f4b4815a38df402f7f6cee19d",
   "install_command": "mkdir -p .claude/skills/security-audit-example && curl -sL \"https://raw.githubusercontent.com/Activer007/ordinary-claude-skills/main/skills_categorized/smart-contracts/security-audit-example/SKILL.md\" > .claude/skills/security-audit-example/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Activer007/ordinary-claude-skills/main/skills_categorized/smart-contracts/security-audit-example/SKILL.md"

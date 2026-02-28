@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "09b953f2f3c7a24b7e69d1403021b6acefabdd442729aa3ea626cfbbfa529209",
   "indexed_at": "2026-02-26T09:47:08.912Z",
-  "synced_at": "2026-02-27T02:38:20.779Z",
+  "synced_at": "2026-02-28T04:07:02.785Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dadbb54585e9ff4d6e95d8834f5b0b6b7e12f625d2daddee1b847c8f36e818d7",
   "install_command": "mkdir -p .claude/skills/typo3-security && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/typo3-security-dirnbauer-claude-cursor-typo3-/SKILL.md\" > .claude/skills/typo3-security/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/typo3-security-dirnbauer-claude-cursor-typo3-/SKILL.md"

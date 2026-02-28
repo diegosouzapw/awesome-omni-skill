@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "52931ec2d28fcf9f14e1169b3d8d3b78c97fc23ddc80cd76c57ccb990f255304",
   "indexed_at": "2026-02-26T09:53:14.964Z",
-  "synced_at": "2026-02-27T02:38:51.950Z",
+  "synced_at": "2026-02-28T04:07:36.397Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/41168f4f1fbb22a4222a67f72ccbfadf903d46ec7c4e531ded6ea0f753e224ce",
   "install_command": "mkdir -p .claude/skills/security && curl -sL \"https://raw.githubusercontent.com/angeldev96/real-state-management/main/.agent/skills/security/SKILL.md\" > .claude/skills/security/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/angeldev96/real-state-management/main/.agent/skills/security/SKILL.md"

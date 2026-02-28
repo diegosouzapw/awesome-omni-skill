@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "99270f93705f82a881b502744b182b0a39d5c43b3ce83469de76a4a48afa2afe",
   "indexed_at": "2026-02-25T14:25:59.686Z",
-  "synced_at": "2026-02-27T02:37:58.696Z",
+  "synced_at": "2026-02-28T04:06:35.001Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/903f5d1282060a2f2ab6ee9f721cbf513c5d859ee9dfe76cedf0916142eea9a7",
   "install_command": "mkdir -p .claude/skills/find-bugs && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/find-bugs/SKILL.md\" > .claude/skills/find-bugs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/find-bugs/SKILL.md"

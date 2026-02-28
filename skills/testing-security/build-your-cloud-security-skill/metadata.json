@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "76f21502c0fea8ebd96164fddeb1a97cd7ea08a41e9eab2151fbb3aeeeb761ff",
   "indexed_at": "2026-02-24T23:36:58.122Z",
-  "synced_at": "2026-02-27T02:38:05.233Z",
+  "synced_at": "2026-02-28T04:06:42.499Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/00af28a9b24317e403572158e5c13cd592bc72c0f5cb49bc173a8b4051d9b5eb",
   "install_command": "mkdir -p .claude/skills/build-your-cloud-security-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/58-production-security/SKILL.md\" > .claude/skills/build-your-cloud-security-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/58-production-security/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d8637f5d92e9390d20e7b28be7d1298a804c780835ccbe804c6654864cf36bdb",
   "indexed_at": "2026-02-26T13:17:32.513Z",
-  "synced_at": "2026-02-27T02:39:04.852Z",
+  "synced_at": "2026-02-28T04:07:48.081Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f6dcfb9b3978cd084156a3c4bb1df472d58d22f6889e6ae576e970243a6b8f34",
   "install_command": "mkdir -p .claude/skills/testing-expert && curl -sL \"https://raw.githubusercontent.com/shaharKeisarApps/MoviesAndBeyond/main/.claude/skills/testing-expert/SKILL.md\" > .claude/skills/testing-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/shaharKeisarApps/MoviesAndBeyond/main/.claude/skills/testing-expert/SKILL.md"

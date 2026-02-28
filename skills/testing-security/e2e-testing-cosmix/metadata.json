@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bfb30963c4ac2c7eb083c34df6b74b2d2f2da42578fec7dacb0d749634553d53",
   "indexed_at": "2026-02-26T13:16:17.017Z",
-  "synced_at": "2026-02-27T02:39:04.137Z",
+  "synced_at": "2026-02-28T04:07:47.411Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b757b421b27216dfc9b9f6a63bc669d3af1caecf09c866169854f6772790957c",
   "install_command": "mkdir -p .claude/skills/e2e-testing && curl -sL \"https://raw.githubusercontent.com/cosmix/loom/main/skills/e2e-testing/SKILL.md\" > .claude/skills/e2e-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cosmix/loom/main/skills/e2e-testing/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4d6f6ef556dd32c7ccf9d01dece0cd2fd7a7622fb2a65f795829389be09e281d",
   "indexed_at": "2026-02-27T00:48:38.975Z",
-  "synced_at": "2026-02-27T02:37:59.419Z",
+  "synced_at": "2026-02-28T04:06:35.697Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5ed2091066aaf874f450295fc470a261de2d675bc40324afbe45d7ea600287c2",
   "install_command": "mkdir -p .claude/skills/acc-create-psr7-http-message && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-psr7-http-message/SKILL.md\" > .claude/skills/acc-create-psr7-http-message/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-create-psr7-http-message/SKILL.md"

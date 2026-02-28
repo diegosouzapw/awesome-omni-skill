@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7c7b61a31fa53d30218c7ca98301c26df73fac487902db5e91179813aace0fd6",
   "indexed_at": "2026-02-24T23:39:00.186Z",
-  "synced_at": "2026-02-27T02:38:07.206Z",
+  "synced_at": "2026-02-28T04:06:44.309Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/881ba9863cf654dce59ce31ef1d1ff11d435cd7f5a6adbd1756dc8be8c7a69a9",
   "install_command": "mkdir -p .claude/skills/ab-test-calculator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ab-test-calculator/SKILL.md\" > .claude/skills/ab-test-calculator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ab-test-calculator/SKILL.md"

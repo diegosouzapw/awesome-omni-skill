@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dd9c59947614d31ba7976620f897fefbafbd9c51222c65cb26431399c5313514",
   "indexed_at": "2026-02-27T01:52:03.892Z",
-  "synced_at": "2026-02-27T02:38:09.261Z",
+  "synced_at": "2026-02-28T04:06:46.844Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bdebbd2a730bcd8ed915b4120d222495f91dcca16e550b6f66700398656b4a81",
   "install_command": "mkdir -p .claude/skills/adb-device-testing && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/adb-device-testing/SKILL.md\" > .claude/skills/adb-device-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/adb-device-testing/SKILL.md"

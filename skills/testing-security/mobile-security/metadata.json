@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "76d21f5870a4a18cc775e5d0d8e64b95ec3603d03a940bc026dbc1b2cb8fc343",
   "indexed_at": "2026-02-26T09:46:30.258Z",
-  "synced_at": "2026-02-27T02:38:44.130Z",
+  "synced_at": "2026-02-28T04:07:28.887Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/be0dd0aa70460525ebf1a69522ccfdc8dc1fe6e12fedfaafbb333854a3ff164b",
   "install_command": "mkdir -p .claude/skills/mobile-security && curl -sL \"https://raw.githubusercontent.com/ahmed3elshaer/everything-claude-code-mobile/main/skills/mobile-security/SKILL.md\" > .claude/skills/mobile-security/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ahmed3elshaer/everything-claude-code-mobile/main/skills/mobile-security/SKILL.md"

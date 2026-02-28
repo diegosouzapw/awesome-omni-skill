@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b5823692146e67f66581d80c6d1b271d46c2496d2bb0bf2362338342719ef6d5",
   "indexed_at": "2026-02-25T15:26:45.253Z",
-  "synced_at": "2026-02-27T02:37:58.551Z",
+  "synced_at": "2026-02-28T04:06:34.835Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bbe965a0d0c747b270cc74bc936ce1bc2358f988e3d9a915163da2e6e2ebea91",
   "install_command": "mkdir -p .claude/skills/codebase-cleanup-deps-audit && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/codebase-cleanup-deps-audit/SKILL.md\" > .claude/skills/codebase-cleanup-deps-audit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/codebase-cleanup-deps-audit/SKILL.md"

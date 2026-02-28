@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1d77f1b9afc79c5878fde8a5fa65e8c01f2beadb94e706736da6520f103f193c",
   "indexed_at": "2026-02-25T18:27:02.145Z",
-  "synced_at": "2026-02-27T02:37:53.292Z",
+  "synced_at": "2026-02-28T04:06:29.773Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f88807af8df6edac3a5fa0eb881fb3780f09a7c83526fa0f8268d1bbf0fddc89",
   "install_command": "mkdir -p .claude/skills/smtp-penetration-testing && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/smtp-penetration-testing/SKILL.md\" > .claude/skills/smtp-penetration-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/smtp-penetration-testing/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2402bc5b8bdfba5a0f9c8306bf7aef70a538436d8df0769e3bcd0e380aa64a57",
   "indexed_at": "2026-02-26T09:49:03.243Z",
-  "synced_at": "2026-02-27T02:38:21.479Z",
+  "synced_at": "2026-02-28T04:07:03.427Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f1dcecdcd78b941953a582e9d687d17352779a8a3742730c023871c35ef7a6c2",
   "install_command": "mkdir -p .claude/skills/implementing-end-to-end-encryption-for-messaging && curl -sL \"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/implementing-end-to-end-encryption-for-messaging/SKILL.md\" > .claude/skills/implementing-end-to-end-encryption-for-messaging/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/implementing-end-to-end-encryption-for-messaging/SKILL.md"

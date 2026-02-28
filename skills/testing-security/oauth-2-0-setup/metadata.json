@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "43d853baf4aff5420c6c1c8eaaa4a4cb721165a69831f0c4a147c0eaab6fdb66",
   "indexed_at": "2026-02-26T10:50:41.257Z",
-  "synced_at": "2026-02-27T02:38:24.221Z",
+  "synced_at": "2026-02-28T04:07:06.240Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/97de8a6f56cb5159045a11e5958d897cc07d725bf9c0d3127ea157968a558bfb",
   "install_command": "mkdir -p .claude/skills/oauth-2-0-setup && curl -sL \"https://raw.githubusercontent.com/seb1n/awesome-ai-agent-skills/main/api-and-integration/oauth-2-0-setup/SKILL.md\" > .claude/skills/oauth-2-0-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/seb1n/awesome-ai-agent-skills/main/api-and-integration/oauth-2-0-setup/SKILL.md"

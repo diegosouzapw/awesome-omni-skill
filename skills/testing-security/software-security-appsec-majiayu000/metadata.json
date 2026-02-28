@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9a11549f153889c18a7865a27b265dfcfd0c83ad5c923445d057eaa0cb507fd1",
   "indexed_at": "2026-02-26T09:47:32.395Z",
-  "synced_at": "2026-02-27T02:38:45.982Z",
+  "synced_at": "2026-02-28T04:07:30.722Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4a888bd98fb5f13892a0c1446da6551730424952e32496ecc142f6cee1626cf7",
   "install_command": "mkdir -p .claude/skills/software-security-appsec && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/software-security-appsec/SKILL.md\" > .claude/skills/software-security-appsec/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/software-security-appsec/SKILL.md"

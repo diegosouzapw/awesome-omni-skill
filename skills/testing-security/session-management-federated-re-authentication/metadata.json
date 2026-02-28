@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "16c469cc80b97cca8d9f8120ec5d3a17dc79ccbd33d95a0bb1db6849e84bd72c",
   "indexed_at": "2026-02-26T09:56:16.987Z",
-  "synced_at": "2026-02-27T02:38:23.612Z",
+  "synced_at": "2026-02-28T04:07:05.537Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a53b8b090c131b1d678fa58e855a7efbe16de8de1dceba4a025d9d0e363f5c21",
   "install_command": "mkdir -p .claude/skills/session-management-federated-re-authentication && curl -sL \"https://raw.githubusercontent.com/duhd-vnpay/Agentic-Coding/main/referents/standards/security/owasp-asvs/session-management/federated-re-authentication/SKILL.md\" > .claude/skills/session-management-federated-re-authentication/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duhd-vnpay/Agentic-Coding/main/referents/standards/security/owasp-asvs/session-management/federated-re-authentication/SKILL.md"

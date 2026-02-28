@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f7f00e4f8c910bf087625a28c0aa497299ef0815210742886dcc62e1a1ab4dc6",
   "indexed_at": "2026-02-26T09:56:31.383Z",
-  "synced_at": "2026-02-27T02:38:55.421Z",
+  "synced_at": "2026-02-28T04:07:38.847Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/21db31231ba1c7383e0c1bfd8e52534b9fc3f5cfcd89e17d3a66401183cde25e",
   "install_command": "mkdir -p .claude/skills/anti-reversing-techniques && curl -sL \"https://raw.githubusercontent.com/ma1orek/replay/main/.cursor/skills/anti-reversing-techniques/SKILL.md\" > .claude/skills/anti-reversing-techniques/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ma1orek/replay/main/.cursor/skills/anti-reversing-techniques/SKILL.md"

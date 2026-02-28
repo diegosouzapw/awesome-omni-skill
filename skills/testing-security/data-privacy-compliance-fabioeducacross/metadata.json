@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1058fd53fb0a6de9fa71326cff426fd04bd603f8c65ed207aea4e58755cf659c",
   "indexed_at": "2026-02-26T11:36:17.053Z",
-  "synced_at": "2026-02-27T02:38:57.002Z",
+  "synced_at": "2026-02-28T04:07:40.431Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bd0282afb2730394649bee35abe78bb09d5bc01cccec3727c0faf8c079d67113",
   "install_command": "mkdir -p .claude/skills/data-privacy-compliance && curl -sL \"https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.agent/skills/data-privacy-compliance/SKILL.md\" > .claude/skills/data-privacy-compliance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.agent/skills/data-privacy-compliance/SKILL.md"

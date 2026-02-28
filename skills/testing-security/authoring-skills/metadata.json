@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9633bbbfcd0507e2ceb56095bbf37b68f030fd3b0c44986a716e1145b986b67c",
   "indexed_at": "2026-02-26T20:30:30.837Z",
-  "synced_at": "2026-02-27T02:39:08.903Z",
+  "synced_at": "2026-02-28T04:07:52.153Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5fc69f5385f3448d8ee7e6d8a5a8fb722022f17d448992dd6be0bc44a397eafd",
   "install_command": "mkdir -p .claude/skills/authoring-skills && curl -sL \"https://raw.githubusercontent.com/andrueandersoncs/claude-skill-authoring-skill/main/SKILL.md\" > .claude/skills/authoring-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/andrueandersoncs/claude-skill-authoring-skill/main/SKILL.md"

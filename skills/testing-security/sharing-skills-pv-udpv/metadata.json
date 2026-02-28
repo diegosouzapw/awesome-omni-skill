@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a9f86ff487b9f86264512178b5f1226f764b26356a4836c3c44a26b458d3ff48",
   "indexed_at": "2026-02-26T12:51:32.271Z",
-  "synced_at": "2026-02-27T02:39:10.388Z",
+  "synced_at": "2026-02-28T04:07:59.813Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e43e9354413bddec560bfbfe704cdbdc02664ff3fc580094f724a4c1d84d42cf",
   "install_command": "mkdir -p .claude/skills/sharing-skills && curl -sL \"https://raw.githubusercontent.com/pv-udpv/pplx-unofficial-sdk/main/.cline/skills/community/skills/meta/sharing-skills/SKILL.md\" > .claude/skills/sharing-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pv-udpv/pplx-unofficial-sdk/main/.cline/skills/community/skills/meta/sharing-skills/SKILL.md"

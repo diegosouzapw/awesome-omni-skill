@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "edaac5c918e1dc4f853363ad29b1f9dcc068dfd3fc40b8b799aa262524427593",
   "indexed_at": "2026-02-26T09:46:44.608Z",
-  "synced_at": "2026-02-27T02:38:44.819Z",
+  "synced_at": "2026-02-28T04:07:29.564Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/220a374bdecda320042c817bdf0ca313ab95fdfcb207031db3ad1fb59afd5664",
   "install_command": "mkdir -p .claude/skills/gdpr-auditor && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/gdpr-auditor/SKILL.md\" > .claude/skills/gdpr-auditor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/gdpr-auditor/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "65384a6e7fd1e7059ca5b5a12fbf7369e59bf3480c47b9b942c99e9e6a7fd07b",
   "indexed_at": "2026-02-26T11:31:47.870Z",
-  "synced_at": "2026-02-27T02:38:24.384Z",
+  "synced_at": "2026-02-28T04:07:06.402Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/df0b0fdc25e8e5f8fa0f02b067bd5031e026c3276d93c417622528e2c4807686",
   "install_command": "mkdir -p .claude/skills/codebase-audit && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/saturate/claude/codebase-audit/SKILL.md\" > .claude/skills/codebase-audit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/saturate/claude/codebase-audit/SKILL.md"

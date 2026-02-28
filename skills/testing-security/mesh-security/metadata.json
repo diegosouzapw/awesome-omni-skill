@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8e2d72a2ad323f1eca1ad27bfa3bb1099f8e282c7fbc122c53892c42b2677a03",
   "indexed_at": "2026-02-26T11:38:43.684Z",
-  "synced_at": "2026-02-27T02:38:25.405Z",
+  "synced_at": "2026-02-28T04:07:07.877Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f5cc41e5a5c4181596cf59d0de284062e7b128638e929b329091db4e2fbed04e",
   "install_command": "mkdir -p .claude/skills/mesh-security && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/mesh-security/SKILL.md\" > .claude/skills/mesh-security/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/mesh-security/SKILL.md"

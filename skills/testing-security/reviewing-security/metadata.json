@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bc96f3a8a1cdb5b8fb3e0ebc028d5b6d14c6c5a4d935e0dbd3c9dc9f736ef76e",
   "indexed_at": "2026-02-27T09:48:50.012Z",
-  "synced_at": "2026-02-27T13:14:49.551Z",
+  "synced_at": "2026-02-28T04:07:11.421Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0860803839b403e35d000244f4f6e413fe74eae9425321723a8249ea52346268",
   "install_command": "mkdir -p .claude/skills/reviewing-security && curl -sL \"https://raw.githubusercontent.com/gajakannan/nebula-crm/main/agents/security/SKILL.md\" > .claude/skills/reviewing-security/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/gajakannan/nebula-crm/main/agents/security/SKILL.md"

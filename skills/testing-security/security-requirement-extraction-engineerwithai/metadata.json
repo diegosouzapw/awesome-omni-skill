@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c65f197d3e6e0a4baaf84cdeae9311fefa7dbc2ce1d1aeb358cb80179f3442cf",
   "indexed_at": "2026-02-26T11:39:42.810Z",
-  "synced_at": "2026-02-27T02:39:01.965Z",
+  "synced_at": "2026-02-28T04:07:45.459Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d5feea7eb9011563e5697c4ed62a24400dde62d65d4ceb293ea860e11d27b653",
   "install_command": "mkdir -p .claude/skills/security-requirement-extraction && curl -sL \"https://raw.githubusercontent.com/EngineerWithAI/engineerwith-agents/main/plugins/security-scanning/skills/security-requirement-extraction/SKILL.md\" > .claude/skills/security-requirement-extraction/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/EngineerWithAI/engineerwith-agents/main/plugins/security-scanning/skills/security-requirement-extraction/SKILL.md"

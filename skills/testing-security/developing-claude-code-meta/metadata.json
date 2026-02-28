@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5992ce154364299f29484d5e1d2a790f7bdaa407372ad556ebe44aa35af3fce3",
   "indexed_at": "2026-02-27T06:31:07.542Z",
-  "synced_at": "2026-02-27T13:14:49.799Z",
+  "synced_at": "2026-02-28T04:07:53.260Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/04e8184f9ee6ddf60311eeb22c100b1abb0d08c0d6b9f291e341b92faa5398c7",
   "install_command": "mkdir -p .claude/skills/developing-claude-code-meta && curl -sL \"https://raw.githubusercontent.com/mikekelly/developing-claude-code-meta/main/SKILL.md\" > .claude/skills/developing-claude-code-meta/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mikekelly/developing-claude-code-meta/main/SKILL.md"

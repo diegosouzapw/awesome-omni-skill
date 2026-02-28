@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e92eff3eada4a576cd05c1b41b907f1668edd8f8183b9080431a2b6f61e0a790",
   "indexed_at": "2026-02-25T15:24:19.373Z",
-  "synced_at": "2026-02-27T02:37:58.244Z",
+  "synced_at": "2026-02-28T04:06:34.531Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0657cfc89c16fa641c21b36c40afc098c260f89c1a96476021c35e2ee3080d78",
   "install_command": "mkdir -p .claude/skills/backtesting-frameworks && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/backtesting-frameworks/SKILL.md\" > .claude/skills/backtesting-frameworks/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/backtesting-frameworks/SKILL.md"

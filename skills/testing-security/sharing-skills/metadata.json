@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ac724c320c5c6169661a9b24f1590042b0f3ffd38719660033c1b41f0419fe4e",
   "indexed_at": "2026-02-26T05:41:54.657Z",
-  "synced_at": "2026-02-27T02:39:10.015Z",
+  "synced_at": "2026-02-28T04:07:59.455Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/25ecda03bb4d39f830e00f991bafcd14061814a57beb964a8a58237fb0899a06",
   "install_command": "mkdir -p .claude/skills/sharing-skills && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/sharing-skills-bbgnsurftech-claude-skills-collec/SKILL.md\" > .claude/skills/sharing-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/sharing-skills-bbgnsurftech-claude-skills-collec/SKILL.md"

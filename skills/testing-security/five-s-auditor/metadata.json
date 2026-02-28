@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "50912afacfe35c8137c34cf0eca1763216f5857a040558a8fe6d7332e4400815",
   "indexed_at": "2026-02-25T12:49:13.932Z",
-  "synced_at": "2026-02-27T02:38:18.571Z",
+  "synced_at": "2026-02-28T04:07:00.377Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4885ccb14d901f49a808a123b342b07d9fc29f36fabd7c94caa720614ce432c4",
   "install_command": "mkdir -p .claude/skills/five-s-auditor && curl -sL \"https://raw.githubusercontent.com/a5c-ai/babysitter/main/plugins/babysitter/skills/babysit/process/specializations/domains/science/industrial-engineering/skills/five-s-auditor/SKILL.md\" > .claude/skills/five-s-auditor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/a5c-ai/babysitter/main/plugins/babysitter/skills/babysit/process/specializations/domains/science/industrial-engineering/skills/five-s-auditor/SKILL.md"

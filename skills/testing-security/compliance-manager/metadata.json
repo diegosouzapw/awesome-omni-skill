@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "99fa89eb17e8713323f58b5d707c8ecf4e09cd9002d2fab5be5386053981bad3",
   "indexed_at": "2026-02-25T13:11:10.966Z",
-  "synced_at": "2026-02-27T02:38:31.179Z",
+  "synced_at": "2026-02-28T04:07:16.213Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/55a00acbfd4ecd0cfb8f84898da5e4bc122b944c23e165ad7be444b986855575",
   "install_command": "mkdir -p .claude/skills/compliance-manager && curl -sL \"https://raw.githubusercontent.com/thefixer3x/onasis-gateway/main/.claude/skills/compliance-manager/SKILL.md\" > .claude/skills/compliance-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/thefixer3x/onasis-gateway/main/.claude/skills/compliance-manager/SKILL.md"

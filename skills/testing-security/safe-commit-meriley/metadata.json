@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "802b742eaca76960aced43822b80d53d71c55e34f3a140eda0c9d1542f084098",
   "indexed_at": "2026-02-27T16:48:43.365Z",
-  "synced_at": "2026-02-27T18:15:44.963Z",
+  "synced_at": "2026-02-28T04:07:12.598Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9b49bdfbd2a1b786657df0b482988918ff43740318399c3e893e62289611fe04",
   "install_command": "mkdir -p .claude/skills/safe-commit && curl -sL \"https://raw.githubusercontent.com/meriley/claude-code-skills/main/skills/safe-commit/SKILL.md\" > .claude/skills/safe-commit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/meriley/claude-code-skills/main/skills/safe-commit/SKILL.md"

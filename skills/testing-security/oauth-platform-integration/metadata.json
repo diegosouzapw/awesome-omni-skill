@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ec7981e11d0032099de557545a31ae1d1fa1267da8d084796554b7ed8cdb5567",
   "indexed_at": "2026-02-26T11:38:44.557Z",
-  "synced_at": "2026-02-27T02:38:59.588Z",
+  "synced_at": "2026-02-28T04:07:43.076Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/493217e7fd67023bc4f2e4f46567cf48d1a97c11cfec30126c4afa0820976f8c",
   "install_command": "mkdir -p .claude/skills/oauth-platform-integration && curl -sL \"https://raw.githubusercontent.com/stefanogebara/twin-me/main/skills/oauth-platform-integration/SKILL.md\" > .claude/skills/oauth-platform-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/stefanogebara/twin-me/main/skills/oauth-platform-integration/SKILL.md"

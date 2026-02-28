@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "435c8c03879f5aa424d6e3633664de24211131291ac9b4582b7de155e6175b56",
   "indexed_at": "2026-02-26T11:38:25.224Z",
-  "synced_at": "2026-02-27T02:38:24.833Z",
+  "synced_at": "2026-02-28T04:07:07.335Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/285614f510f79ed5c8c9f982f9b60678883b4df42fd334ed7ef882e49dc10fbf",
   "install_command": "mkdir -p .claude/skills/moai-security-auth0 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/moai-security-auth0/SKILL.md\" > .claude/skills/moai-security-auth0/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/moai-security-auth0/SKILL.md"

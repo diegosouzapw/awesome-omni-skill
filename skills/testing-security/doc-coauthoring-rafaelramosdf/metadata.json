@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c5f892bbde1607c0be754038461234313cc49c8e865cce621c1f0ae5a8ac515",
   "indexed_at": "2026-02-24T23:55:10.207Z",
-  "synced_at": "2026-02-27T02:38:28.719Z",
+  "synced_at": "2026-02-28T04:07:13.526Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a997775e4dce71b2fd2f42f2634bce213491a148e812e87b49029d5fae8f889d",
   "install_command": "mkdir -p .claude/skills/doc-coauthoring && curl -sL \"https://raw.githubusercontent.com/rafaelramosdf/antigravity-agents/main/templates/agent-template-pt/skills/doc-coauthoring/SKILL.md\" > .claude/skills/doc-coauthoring/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rafaelramosdf/antigravity-agents/main/templates/agent-template-pt/skills/doc-coauthoring/SKILL.md"

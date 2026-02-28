@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a64e8efdf1ef8ac45ddf9cfcc67928d6a8b745b752d732dd7fe21bd580ffc1f4",
   "indexed_at": "2026-02-27T11:46:14.624Z",
-  "synced_at": "2026-02-27T13:14:51.523Z",
+  "synced_at": "2026-02-28T04:07:56.027Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4b08d832e706b02bad24232b679827a045f7a57fbc26cf8b0d23b0b24527c5e4",
   "install_command": "mkdir -p .claude/skills/auth0-migration && curl -sL \"https://raw.githubusercontent.com/auth0/agent-skills/main/plugins/auth0/skills/auth0-migration/SKILL.md\" > .claude/skills/auth0-migration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/auth0/agent-skills/main/plugins/auth0/skills/auth0-migration/SKILL.md"

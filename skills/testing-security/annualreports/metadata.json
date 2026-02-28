@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8ad9d6d04697caaed62abb48dad9758dfa6c01d5effe1a673183383db2a2d48d",
   "indexed_at": "2026-02-26T16:35:30.068Z",
-  "synced_at": "2026-02-27T02:39:08.157Z",
+  "synced_at": "2026-02-28T04:07:51.398Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8be0fa7b87e712143d19b3691bfc076bfa651fd1b9e48ca007502c78278a01f7",
   "install_command": "mkdir -p .claude/skills/annualreports && curl -sL \"https://raw.githubusercontent.com/phatblat/dotfiles/main/.claude/skills/AnnualReports/SKILL.md\" > .claude/skills/annualreports/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/phatblat/dotfiles/main/.claude/skills/AnnualReports/SKILL.md"

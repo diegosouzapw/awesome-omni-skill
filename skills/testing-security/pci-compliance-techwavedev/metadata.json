@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f1ef49f83e2876863eb6bf0cc7da7b85c378912929e89954680de5279453c653",
   "indexed_at": "2026-02-26T09:51:35.920Z",
-  "synced_at": "2026-02-27T02:38:50.372Z",
+  "synced_at": "2026-02-28T04:07:35.007Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/47bd0d5b2882906e71284ddc0ebde7b06d329fbbe909867cae941896ff65a73a",
   "install_command": "mkdir -p .claude/skills/pci-compliance && curl -sL \"https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/extended/security/pci-compliance/SKILL.md\" > .claude/skills/pci-compliance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/extended/security/pci-compliance/SKILL.md"

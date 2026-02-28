@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9f2a56c49767b9d7704ca36d08172eaa7bd0a7dbab125a95d922026d310c0204",
   "indexed_at": "2026-02-25T17:23:08.111Z",
-  "synced_at": "2026-02-27T02:37:55.010Z",
+  "synced_at": "2026-02-28T04:06:31.474Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5446bd66c713dcaa7b0471eb5adac560235b091aca3dbe7c3a20636423286232",
   "install_command": "mkdir -p .claude/skills/idor-testing && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/idor-testing/SKILL.md\" > .claude/skills/idor-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/idor-testing/SKILL.md"

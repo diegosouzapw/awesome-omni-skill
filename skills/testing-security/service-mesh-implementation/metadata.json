@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "331dcb86a427a235ae386a69870e9561554e9141fbf9a655b3c89d82bfd42e0a",
   "indexed_at": "2026-02-25T12:41:15.441Z",
-  "synced_at": "2026-02-27T02:38:29.083Z",
+  "synced_at": "2026-02-28T04:07:13.940Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1d8ae33bc50433ccbb4d1f3d5e02283cc66f6031eccc31caa97bfe3e994eaefc",
   "install_command": "mkdir -p .claude/skills/service-mesh-implementation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/service-mesh-implementation/SKILL.md\" > .claude/skills/service-mesh-implementation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/service-mesh-implementation/SKILL.md"

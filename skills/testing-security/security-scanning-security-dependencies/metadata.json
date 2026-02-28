@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1e6596669dbfd9114fdcc56b36ba4b86da908355cfb516a4d9ff2985390ed42f",
   "indexed_at": "2026-02-25T18:25:49.197Z",
-  "synced_at": "2026-02-27T02:37:54.543Z",
+  "synced_at": "2026-02-28T04:06:31.027Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/308cf42425692fe72044a7e11f4b1227a924a78efb517302ed92bd3538c49d98",
   "install_command": "mkdir -p .claude/skills/security-scanning-security-dependencies && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/security-scanning-security-dependencies/SKILL.md\" > .claude/skills/security-scanning-security-dependencies/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/security-scanning-security-dependencies/SKILL.md"

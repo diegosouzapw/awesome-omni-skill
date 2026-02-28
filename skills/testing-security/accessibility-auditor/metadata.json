@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9ae98e3b891bc523209f96f8a88e833ea15edbb2400e35d42c52d207bff3938c",
   "indexed_at": "2026-02-27T00:51:14.428Z",
-  "synced_at": "2026-02-27T02:38:01.849Z",
+  "synced_at": "2026-02-28T04:06:38.205Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ae01654b3542ccfbcf627045158eb672cbb67b458fdfd5cd403df8d130250d2c",
   "install_command": "mkdir -p .claude/skills/accessibility-auditor && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/accessibility-auditor-takeaki0817-hibioru/SKILL.md\" > .claude/skills/accessibility-auditor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/accessibility-auditor-takeaki0817-hibioru/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "796b91fd8190ccf59a7ef536cb0ee42d485ca7a2674af9c160a381e23b559447",
   "indexed_at": "2026-02-26T09:46:50.454Z",
-  "synced_at": "2026-02-27T02:38:45.038Z",
+  "synced_at": "2026-02-28T04:07:29.764Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c9d238d66346b1a545fd7f9fda84183a1f76277d8ee65fd8a0c0d1267d994d6a",
   "install_command": "mkdir -p .claude/skills/security && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/travisjneuman/.claude/security/SKILL.md\" > .claude/skills/security/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/travisjneuman/.claude/security/SKILL.md"

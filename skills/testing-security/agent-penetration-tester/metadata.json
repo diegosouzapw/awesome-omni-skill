@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8debafb80604c7e0551d87466d2c243c7e455b7c6a7b71c28f4b05db8328108d",
   "indexed_at": "2026-02-27T03:55:52.829Z",
-  "synced_at": "2026-02-27T13:14:48.788Z",
+  "synced_at": "2026-02-28T04:06:50.896Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/00327470f49e397f454ce3d081d4218aafc3deeb2ab3cd6d53e10cf2a1881a3f",
   "install_command": "mkdir -p .claude/skills/agent-penetration-tester && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-penetration-tester/SKILL.md\" > .claude/skills/agent-penetration-tester/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-penetration-tester/SKILL.md"

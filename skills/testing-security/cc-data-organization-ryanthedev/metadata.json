@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5125b14ec8872bc97178d45a89472dc2b52d98d7588679684a89cab130c412e1",
   "indexed_at": "2026-02-25T18:41:42.763Z",
-  "synced_at": "2026-02-27T02:38:33.034Z",
+  "synced_at": "2026-02-28T04:07:18.012Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1b6c5125c3b0f157db25612ec441e01a0c6f699a6d489e93c6cffb0983e7a98c",
   "install_command": "mkdir -p .claude/skills/cc-data-organization && curl -sL \"https://raw.githubusercontent.com/ryanthedev/code-foundations/main/skills/cc-data-organization/SKILL.md\" > .claude/skills/cc-data-organization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ryanthedev/code-foundations/main/skills/cc-data-organization/SKILL.md"

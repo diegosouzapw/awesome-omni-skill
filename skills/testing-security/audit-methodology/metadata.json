@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c89b59632176d9c56c1f4eaf4a8d18cd7f05e156525afab560fbd1be2458c8d9",
   "indexed_at": "2026-02-26T11:38:58.202Z",
-  "synced_at": "2026-02-27T02:39:00.103Z",
+  "synced_at": "2026-02-28T04:07:43.607Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/82f4a49c5e9d2affb5c27239be4127a179391a52f27e04122c38e730cf7c1bcf",
   "install_command": "mkdir -p .claude/skills/audit-methodology && curl -sL \"https://raw.githubusercontent.com/leobrival/serum-plugins-official/main/plugins/audit-checker/skills/audit-methodology/SKILL.md\" > .claude/skills/audit-methodology/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/leobrival/serum-plugins-official/main/plugins/audit-checker/skills/audit-methodology/SKILL.md"

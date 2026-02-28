@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "40cbf9168318158ceb9aa560ca7cd28a78d8dca498826a8c03b175e319694e90",
   "indexed_at": "2026-02-26T11:39:16.666Z",
-  "synced_at": "2026-02-27T02:38:25.738Z",
+  "synced_at": "2026-02-28T04:07:08.206Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a7d3bce663978766683d891ac869064c5b6c5fb544b6a1e2b38695cac3bfca26",
   "install_command": "mkdir -p .claude/skills/hipaa-guardian && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/hipaa-guardian-1mangesh1-dev-skills/SKILL.md\" > .claude/skills/hipaa-guardian/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/hipaa-guardian-1mangesh1-dev-skills/SKILL.md"

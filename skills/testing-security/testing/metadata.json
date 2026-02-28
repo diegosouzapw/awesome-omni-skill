@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dfbf02e3f40a07f2432f55447bab3dfff5134d01917d22afa69e63e665a0c368",
   "indexed_at": "2026-02-26T13:15:17.609Z",
-  "synced_at": "2026-02-27T02:39:03.969Z",
+  "synced_at": "2026-02-28T04:07:47.258Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/29b40981cf3106a193758140a5687c1fdbf759e34b9378c362b4a3217ec7e8a5",
   "install_command": "mkdir -p .claude/skills/testing && curl -sL \"https://raw.githubusercontent.com/rust-works/succinctly/main/.claude/skills/testing/SKILL.md\" > .claude/skills/testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rust-works/succinctly/main/.claude/skills/testing/SKILL.md"

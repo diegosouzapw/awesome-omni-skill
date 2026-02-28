@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e0b0c7e497bcd27eb0d407caeb6b8e5d2e4898ed116bfb39b87ff6c6e10a6fda",
   "indexed_at": "2026-02-26T11:39:20.966Z",
-  "synced_at": "2026-02-27T02:39:01.352Z",
+  "synced_at": "2026-02-28T04:07:44.874Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d764d1ec00bb3c69c7f5cedf00317adc875489fdd674e6b64a27b1e69b7a7046",
   "install_command": "mkdir -p .claude/skills/ln-634-test-coverage-auditor && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ln-634-test-coverage-auditor/SKILL.md\" > .claude/skills/ln-634-test-coverage-auditor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ln-634-test-coverage-auditor/SKILL.md"

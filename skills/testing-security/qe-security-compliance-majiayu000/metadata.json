@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ea57cf77ee0ee2e55c441bb866441630a0f790b9eaad4b22eb2dba5910f1fd06",
   "indexed_at": "2026-02-26T09:56:54.967Z",
-  "synced_at": "2026-02-27T02:38:55.752Z",
+  "synced_at": "2026-02-28T04:07:39.191Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b6ba73b4ec864f3b9aa736a1ad5086d8210fc7c566a99ee4bbba927a8fd2dbd1",
   "install_command": "mkdir -p .claude/skills/qe-security-compliance && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/qe-security-compliance-proffesor-for-testin-agentic-qe-2/SKILL.md\" > .claude/skills/qe-security-compliance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/qe-security-compliance-proffesor-for-testin-agentic-qe-2/SKILL.md"

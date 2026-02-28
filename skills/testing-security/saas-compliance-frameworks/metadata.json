@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cd092b67445fb0dac11f8fd51d3c81566d4ed4be984755dc2f9e69614b24e89a",
   "indexed_at": "2026-02-26T09:52:35.890Z",
-  "synced_at": "2026-02-27T02:38:51.180Z",
+  "synced_at": "2026-02-28T04:07:35.661Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cc6eb904149110110cf593703290ff81b43b6a7c8b6e203c96bf7a9efcf92851",
   "install_command": "mkdir -p .claude/skills/saas-compliance-frameworks && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/saas-compliance-frameworks/SKILL.md\" > .claude/skills/saas-compliance-frameworks/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/saas-compliance-frameworks/SKILL.md"

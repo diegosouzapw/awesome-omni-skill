@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8fbcfc1378dcf13d0dfa98384e5106edbb23e4881dd5ce316219889ddacbf899",
   "indexed_at": "2026-02-26T06:57:02.301Z",
-  "synced_at": "2026-02-27T02:38:36.914Z",
+  "synced_at": "2026-02-28T04:07:21.795Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d827057edca1b2ded8d8cf33c71fc92837e29b0b8ae31a1517471c194f44407e",
   "install_command": "mkdir -p .claude/skills/architecture-auditor && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/architecture-auditor/SKILL.md\" > .claude/skills/architecture-auditor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/architecture-auditor/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "695a67d290b9b4026d606c7a96799da6a36d0362fa45d8d25e09c0f394e6aa81",
   "indexed_at": "2026-02-26T09:45:32.139Z",
-  "synced_at": "2026-02-27T02:38:41.768Z",
+  "synced_at": "2026-02-28T04:07:26.717Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b6dad8bcbc290f7399937a73ccf0b9ea6551f141de665f5c952d96a7b6f669a6",
   "install_command": "mkdir -p .claude/skills/security-audit && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/Euda1mon1a__Autonomous-Assignment-Program-Manager__claude__skills__security-audit__SKILL.md/SKILL.md\" > .claude/skills/security-audit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/Euda1mon1a__Autonomous-Assignment-Program-Manager__claude__skills__security-audit__SKILL.md/SKILL.md"

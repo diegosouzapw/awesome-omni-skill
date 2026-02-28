@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "75a567cf6484e78c69ab25109b0d1e756da47643d995189a9d4fb92d441db592",
   "indexed_at": "2026-02-26T09:56:21.879Z",
-  "synced_at": "2026-02-27T02:38:23.746Z",
+  "synced_at": "2026-02-28T04:07:05.671Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4142fd2415bd1514af57ed12147b9de2d39cc5021bbe394826574c4e458ad049",
   "install_command": "mkdir -p .claude/skills/authentication-cryptographic-authentication-mechanism && curl -sL \"https://raw.githubusercontent.com/duhd-vnpay/Agentic-Coding/main/referents/standards/security/owasp-asvs/authentication/cryptographic-authentication-mechanism/SKILL.md\" > .claude/skills/authentication-cryptographic-authentication-mechanism/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duhd-vnpay/Agentic-Coding/main/referents/standards/security/owasp-asvs/authentication/cryptographic-authentication-mechanism/SKILL.md"

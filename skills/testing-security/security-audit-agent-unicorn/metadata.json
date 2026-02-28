@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "73ea7b951e3292cae20f45cc69a37133d2f4540c5b782fa818ba635ac9c0214d",
   "indexed_at": "2026-02-26T11:39:39.685Z",
-  "synced_at": "2026-02-27T02:39:01.554Z",
+  "synced_at": "2026-02-28T04:07:45.075Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/267b225fcce054ea1abcb791448a5543d4b2a30e9d8f49c3c361a89205591476",
   "install_command": "mkdir -p .claude/skills/security-audit-agent && curl -sL \"https://raw.githubusercontent.com/Unicorn/Radium/main/skills/security/security-audit-agent/SKILL.md\" > .claude/skills/security-audit-agent/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Unicorn/Radium/main/skills/security/security-audit-agent/SKILL.md"

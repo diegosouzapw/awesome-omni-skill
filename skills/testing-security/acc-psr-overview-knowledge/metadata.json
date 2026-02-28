@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3454ada4cc964c3b07e433be6fce98c417ce5a3e88a022cee19544a9384696c6",
   "indexed_at": "2026-02-27T00:50:05.292Z",
-  "synced_at": "2026-02-27T02:38:00.633Z",
+  "synced_at": "2026-02-28T04:06:36.898Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c88caa7da351a38096e9c8ff59a9e909fe744aab15b57d6f36884555f80b5dec",
   "install_command": "mkdir -p .claude/skills/acc-psr-overview-knowledge && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-psr-overview-knowledge/SKILL.md\" > .claude/skills/acc-psr-overview-knowledge/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-psr-overview-knowledge/SKILL.md"

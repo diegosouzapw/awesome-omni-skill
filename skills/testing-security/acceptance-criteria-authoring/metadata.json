@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "459186be38e0c0776074b4ae51335b174e4acbab2076e2cbde9478ef00900359",
   "indexed_at": "2026-02-27T00:50:33.678Z",
-  "synced_at": "2026-02-27T02:38:01.032Z",
+  "synced_at": "2026-02-28T04:06:37.311Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2e606e104766f558bb2d7c90e84017ea9fa48e138c997db28972a264d3c0e9a1",
   "install_command": "mkdir -p .claude/skills/acceptance-criteria-authoring && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acceptance-criteria-authoring/SKILL.md\" > .claude/skills/acceptance-criteria-authoring/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acceptance-criteria-authoring/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "003db666a7c4ba1274ec13deae311ab33c117e9b8c57e71e7e8fd8739b332755",
   "indexed_at": "2026-02-26T11:42:14.684Z",
-  "synced_at": "2026-02-27T02:38:26.615Z",
+  "synced_at": "2026-02-28T04:07:09.050Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0a376738e91910ff46d3b107152f4b3a2606ad395005ba6b08b2cd83e3e918b7",
   "install_command": "mkdir -p .claude/skills/api-security-testing && curl -sL \"https://raw.githubusercontent.com/ngxtm/devkit/main/skills/api-security-testing/SKILL.md\" > .claude/skills/api-security-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ngxtm/devkit/main/skills/api-security-testing/SKILL.md"

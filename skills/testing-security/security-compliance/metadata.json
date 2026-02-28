@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5fb5b71de38e503d85ddd8f7189d900626b4b2970675423067b62d4829c4fdbd",
   "indexed_at": "2026-02-26T09:45:40.976Z",
-  "synced_at": "2026-02-27T02:38:42.266Z",
+  "synced_at": "2026-02-28T04:07:27.190Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5dacb5d0482d890f9edd500644d34ac92a39b25ce478e4bffc00f5ea8028be0b",
   "install_command": "mkdir -p .claude/skills/security-compliance && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/security-compliance/SKILL.md\" > .claude/skills/security-compliance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/security-compliance/SKILL.md"

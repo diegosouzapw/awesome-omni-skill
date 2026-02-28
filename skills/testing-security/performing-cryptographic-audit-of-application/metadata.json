@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b941292c51cca5b6c01e533423df507454e41b88aab5c8f73ac1f57459792240",
   "indexed_at": "2026-02-26T09:49:46.879Z",
-  "synced_at": "2026-02-27T02:38:22.040Z",
+  "synced_at": "2026-02-28T04:07:03.993Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/42aca8cd7e0e69c9d9967154bf1c4eabc2101e17c3730640cfa0e68f3df7b7f4",
   "install_command": "mkdir -p .claude/skills/performing-cryptographic-audit-of-application && curl -sL \"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/performing-cryptographic-audit-of-application/SKILL.md\" > .claude/skills/performing-cryptographic-audit-of-application/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/performing-cryptographic-audit-of-application/SKILL.md"

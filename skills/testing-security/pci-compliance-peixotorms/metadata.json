@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e9a73daa129f7354ebe203b8c2b49611fcd878e0a59c41b44381021df5519a69",
   "indexed_at": "2026-02-26T11:38:59.679Z",
-  "synced_at": "2026-02-27T02:39:00.244Z",
+  "synced_at": "2026-02-28T04:07:43.748Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2bb93f5e2c171c047b45dfd2776eba773a5f4b9faaea43d04f916ddb41990d85",
   "install_command": "mkdir -p .claude/skills/pci-compliance && curl -sL \"https://raw.githubusercontent.com/peixotorms/odinlayer-skills/main/plugins/compliance-skills/skills/pci-compliance/SKILL.md\" > .claude/skills/pci-compliance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/peixotorms/odinlayer-skills/main/plugins/compliance-skills/skills/pci-compliance/SKILL.md"

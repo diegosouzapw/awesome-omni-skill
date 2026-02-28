@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a5b23e90dd6bde29facfa9b33d6d944f62f8b5c245823027aa3cda14d114a15f",
   "indexed_at": "2026-02-26T15:16:17.543Z",
-  "synced_at": "2026-02-27T02:39:07.268Z",
+  "synced_at": "2026-02-28T04:07:50.464Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4315e7f947b9018520d2920ecfdca6e58bd5d3d9e7b018cf19c5022f13a04b03",
   "install_command": "mkdir -p .claude/skills/skill-author && curl -sL \"https://raw.githubusercontent.com/ddobrin/gemini-plan-commands/main/skills/skills-author/SKILL.md\" > .claude/skills/skill-author/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ddobrin/gemini-plan-commands/main/skills/skills-author/SKILL.md"

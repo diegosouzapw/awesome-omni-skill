@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "61abe58080ea9150bcc82247a1114fc92053b8fd4c7ac3cc8c715a9bf9692b45",
   "indexed_at": "2026-02-26T05:09:17.785Z",
-  "synced_at": "2026-02-27T02:38:14.426Z",
+  "synced_at": "2026-02-28T04:06:56.279Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d2244446a99d598a252c0648ae4de617857261c760c2bbb8656883cce91b7c35",
   "install_command": "mkdir -p .claude/skills/acc-testing-knowledge && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-testing-knowledge/SKILL.md\" > .claude/skills/acc-testing-knowledge/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-testing-knowledge/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3b6fbaab9ceeace22e7eae864e6c120cb0750193ed6f2fbc1a0198ba6df83c61",
   "indexed_at": "2026-02-25T15:26:10.462Z",
-  "synced_at": "2026-02-27T02:37:58.397Z",
+  "synced_at": "2026-02-28T04:06:34.679Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/107f577809ce1e40a1a26353c46f01155c7440d964472943804c7a8dec97ef5c",
   "install_command": "mkdir -p .claude/skills/clerk-auth && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/clerk-auth/SKILL.md\" > .claude/skills/clerk-auth/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/clerk-auth/SKILL.md"

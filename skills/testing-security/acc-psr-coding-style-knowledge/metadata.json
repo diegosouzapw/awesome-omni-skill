@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0a635d0471cfb2bc5fb3b19a13c653d2a69628a65157e3fa4693abfc28ce52c7",
   "indexed_at": "2026-02-27T00:50:02.145Z",
-  "synced_at": "2026-02-27T02:38:00.433Z",
+  "synced_at": "2026-02-28T04:06:36.702Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7d73b0e41389683c7cfdc19b86bd78d0264c26126c48acc0a85325bb82f18a45",
   "install_command": "mkdir -p .claude/skills/acc-psr-coding-style-knowledge && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-psr-coding-style-knowledge/SKILL.md\" > .claude/skills/acc-psr-coding-style-knowledge/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-psr-coding-style-knowledge/SKILL.md"

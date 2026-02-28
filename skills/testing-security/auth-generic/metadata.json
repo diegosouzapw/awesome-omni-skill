@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "19dc02177b8522ee1ef3c3f773e34247a5ebf431e1aa03fdfb89b723d0fd54b5",
   "indexed_at": "2026-02-25T20:42:06.119Z",
-  "synced_at": "2026-02-27T02:38:33.617Z",
+  "synced_at": "2026-02-28T04:07:18.524Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/551166c23b1155952961241be99d30837e151b544fb9b0a7daa6b3d4a47a1cea",
   "install_command": "mkdir -p .claude/skills/auth-generic && curl -sL \"https://raw.githubusercontent.com/mdmagnuson-creator/yo-go/main/skills/auth-generic/SKILL.md\" > .claude/skills/auth-generic/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mdmagnuson-creator/yo-go/main/skills/auth-generic/SKILL.md"

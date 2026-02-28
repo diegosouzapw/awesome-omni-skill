@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0dd107bff78d1b0f4d2aa60cd1fea7d3b3b9689bca4cc69401afdfc5a8eedb69",
   "indexed_at": "2026-02-26T11:39:02.187Z",
-  "synced_at": "2026-02-27T02:39:00.825Z",
+  "synced_at": "2026-02-28T04:07:44.305Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4c8cec4cb7ff8649b6adf9c083ddefad5fc3324d3b155e80849ed96e2a4abec3",
   "install_command": "mkdir -p .claude/skills/owasp-security-review && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/jgamaraalv/ts-dev-kit/owasp-security-review/SKILL.md\" > .claude/skills/owasp-security-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/jgamaraalv/ts-dev-kit/owasp-security-review/SKILL.md"

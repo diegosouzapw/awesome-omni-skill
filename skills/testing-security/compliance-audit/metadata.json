@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ea230197dbe93e36758beb7b99bed56021f7fa1b2246348f025a1da09274df97",
   "indexed_at": "2026-02-26T22:32:20.776Z",
-  "synced_at": "2026-02-27T02:38:28.554Z",
+  "synced_at": "2026-02-28T04:07:13.363Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4a20d032071b8c3b0a18becf617c5132d5840004817268d9855b0bb79d63a3d6",
   "install_command": "mkdir -p .claude/skills/compliance-audit && curl -sL \"https://raw.githubusercontent.com/cdalsoniii/brightpath-coder/main/.cursor/skills/compliance-audit/SKILL.md\" > .claude/skills/compliance-audit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cdalsoniii/brightpath-coder/main/.cursor/skills/compliance-audit/SKILL.md"

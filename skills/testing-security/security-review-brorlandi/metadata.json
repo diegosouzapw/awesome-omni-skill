@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8df1dde115c252f8ec64ccfa7a6d777ff2966404d77f7e835b84acc17f4b2421",
   "indexed_at": "2026-02-26T10:53:55.836Z",
-  "synced_at": "2026-02-27T02:38:56.146Z",
+  "synced_at": "2026-02-28T04:07:39.589Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/710f77b7d1928ea3363ce896e0b3cfd9b5c3c8ebb840751adf346e6e729ee665",
   "install_command": "mkdir -p .claude/skills/security-review && curl -sL \"https://raw.githubusercontent.com/BrOrlandi/my-claude-skills/main/security-review/SKILL.md\" > .claude/skills/security-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/BrOrlandi/my-claude-skills/main/security-review/SKILL.md"

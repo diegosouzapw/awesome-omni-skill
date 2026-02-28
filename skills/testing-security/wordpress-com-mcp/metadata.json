@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5af68ef11adb2d3ba4d07e674bfa177e652d2cb451865868b30cab6694a430bf",
   "indexed_at": "2026-02-26T10:30:19.810Z",
-  "synced_at": "2026-02-27T02:38:55.978Z",
+  "synced_at": "2026-02-28T04:07:39.416Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/822ebc93436c5bcba0d4097bfa5a6d908c593aee731909483c00ab444ea2c459",
   "install_command": "mkdir -p .claude/skills/wordpress-com-mcp && curl -sL \"https://raw.githubusercontent.com/willmot/wordpress-com-codex-skill/main/SKILL.md\" > .claude/skills/wordpress-com-mcp/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/willmot/wordpress-com-codex-skill/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "50233f2e4a77596d9432de0fb5ce91daef7279510b165b1121f7de87e03fcc8e",
   "indexed_at": "2026-02-24T23:20:23.910Z",
-  "synced_at": "2026-02-27T02:38:11.486Z",
+  "synced_at": "2026-02-28T04:06:53.381Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/65073cab22b1fca59f2e2561952806f3475b6cd042bf2321c044ace6e93abb27",
   "install_command": "mkdir -p .claude/skills/a-b-test-analysis && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ab-test-analysis/SKILL.md\" > .claude/skills/a-b-test-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ab-test-analysis/SKILL.md"

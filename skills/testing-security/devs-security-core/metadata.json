@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "22f00d583778af41d0d517b02555cbfbd6f2bc6d6e07874d368073e6646ff3f7",
   "indexed_at": "2026-02-26T09:46:40.731Z",
-  "synced_at": "2026-02-27T02:38:44.650Z",
+  "synced_at": "2026-02-28T04:07:29.391Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/10e8605ce238b4e90d186eaf5683d500790a5587671dfc9ad8bdf7fb81732a84",
   "install_command": "mkdir -p .claude/skills/devs-security-core && curl -sL \"https://raw.githubusercontent.com/aaronbassett/aaronbassett-marketplace/main/plugins/devs/skills/security-core/SKILL.md\" > .claude/skills/devs-security-core/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aaronbassett/aaronbassett-marketplace/main/plugins/devs/skills/security-core/SKILL.md"

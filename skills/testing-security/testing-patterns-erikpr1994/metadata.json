@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "74080f14321e7628a3d2d12055181247691ed3e76fbdeae95113ff9a9710c2c0",
   "indexed_at": "2026-02-26T05:50:42.905Z",
-  "synced_at": "2026-02-27T02:38:35.115Z",
+  "synced_at": "2026-02-28T04:07:20.020Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4060f722456185452854436918493f62d13ab9cafa374b2ed282c6aabbafa10c",
   "install_command": "mkdir -p .claude/skills/testing-patterns && curl -sL \"https://raw.githubusercontent.com/erikpr1994/Jarvis-Code/main/global/skills/testing-patterns/SKILL.md\" > .claude/skills/testing-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/erikpr1994/Jarvis-Code/main/global/skills/testing-patterns/SKILL.md"

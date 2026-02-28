@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "151081168b3b9542ae62bf725bff80a1e27b24289daf98f4452933c213009e54",
   "indexed_at": "2026-02-25T18:26:41.999Z",
-  "synced_at": "2026-02-27T02:37:54.216Z",
+  "synced_at": "2026-02-28T04:06:30.727Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/326f71b435fb4f25de15d640f5efb45e8cec3c5e3a48023931e2635ae2a491a0",
   "install_command": "mkdir -p .claude/skills/signup-flow-cro && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/signup-flow-cro/SKILL.md\" > .claude/skills/signup-flow-cro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/signup-flow-cro/SKILL.md"

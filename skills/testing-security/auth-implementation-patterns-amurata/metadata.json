@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d10ce07d457aa1d554a7bf8a43e0629ab5b19e10f38b1aca7ac7a8ea67534bd3",
   "indexed_at": "2026-02-26T07:48:41.557Z",
-  "synced_at": "2026-02-27T02:38:37.268Z",
+  "synced_at": "2026-02-28T04:07:22.148Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3098f0c318ef87d477455dfb949345730ac3403622e660b5ff22e5c8cdfe5a64",
   "install_command": "mkdir -p .claude/skills/auth-implementation-patterns && curl -sL \"https://raw.githubusercontent.com/amurata/cc-tools/main/i18n/ja/plugins/developer-essentials/skills/auth-implementation-patterns/SKILL.md\" > .claude/skills/auth-implementation-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/amurata/cc-tools/main/i18n/ja/plugins/developer-essentials/skills/auth-implementation-patterns/SKILL.md"

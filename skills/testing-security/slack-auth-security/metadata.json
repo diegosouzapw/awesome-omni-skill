@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ace44267bb9dab6ea19acbba1d2eaa452197de6dc856f8aca912a8a1f28d13b9",
   "indexed_at": "2026-02-26T09:45:33.438Z",
-  "synced_at": "2026-02-27T02:38:41.910Z",
+  "synced_at": "2026-02-28T04:07:26.868Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bb9a02df4fa78fb27141c0d7321afa0e460d2ee7dba51add4e67ff8c27523593",
   "install_command": "mkdir -p .claude/skills/slack-auth-security && curl -sL \"https://raw.githubusercontent.com/linehaul-ai/linehaulai-claude-marketplace/main/plugins/slack-go-sdk/skills/slack-auth-security/SKILL.md\" > .claude/skills/slack-auth-security/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/linehaul-ai/linehaulai-claude-marketplace/main/plugins/slack-go-sdk/skills/slack-auth-security/SKILL.md"

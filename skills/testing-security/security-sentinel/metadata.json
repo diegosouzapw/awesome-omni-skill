@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b5ed5e34e1f26ff1e40bd5f64c4110aacc929c79955af34ac0f0a42ba24df4b0",
   "indexed_at": "2026-02-26T09:45:06.448Z",
-  "synced_at": "2026-02-27T02:38:40.978Z",
+  "synced_at": "2026-02-28T04:07:25.891Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/03f234a42ed578d2612797c8012f654157501747513c504ca9c8a27558b19777",
   "install_command": "mkdir -p .claude/skills/security-sentinel && curl -sL \"https://raw.githubusercontent.com/udecode/plate/main/.codex/skills/security-sentinel/SKILL.md\" > .claude/skills/security-sentinel/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/udecode/plate/main/.codex/skills/security-sentinel/SKILL.md"

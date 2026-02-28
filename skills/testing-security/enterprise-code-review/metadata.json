@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "99677b59b4fb0d6f3f3376368f56ab54d09d27ec4ba6f4d8af92d95552218166",
   "indexed_at": "2026-02-26T11:38:56.142Z",
-  "synced_at": "2026-02-27T02:38:59.936Z",
+  "synced_at": "2026-02-28T04:07:43.428Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/47344f7bf7be2eaf757f851f8b825242aaf3fbfc46e4c57ffbd205c068ed129f",
   "install_command": "mkdir -p .claude/skills/enterprise-code-review && curl -sL \"https://raw.githubusercontent.com/nordeim/Prompt-Engineering/main/Code_Review/SKILL.md\" > .claude/skills/enterprise-code-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nordeim/Prompt-Engineering/main/Code_Review/SKILL.md"

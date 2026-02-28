@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2bf8bad9646c44f032094f3bf8d97a8ba6363bb94087ab1f10a6669483d9191b",
   "indexed_at": "2026-02-26T09:48:58.627Z",
-  "synced_at": "2026-02-27T02:38:47.324Z",
+  "synced_at": "2026-02-28T04:07:32.007Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cb6139cb5e8a8c1a245951e0e60513d3a37fd9a4b6bcc8edbaeace858e237594",
   "install_command": "mkdir -p .claude/skills/security-review && curl -sL \"https://raw.githubusercontent.com/leighmcculloch/dotfiles/main/files/claude/skills/security-review/SKILL.md\" > .claude/skills/security-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/leighmcculloch/dotfiles/main/files/claude/skills/security-review/SKILL.md"

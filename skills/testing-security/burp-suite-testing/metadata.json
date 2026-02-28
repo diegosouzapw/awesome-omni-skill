@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "48dc6429d181d0678a0d1b9f96962f01bfd80f83409a77808298ded2f30e03f3",
   "indexed_at": "2026-02-25T13:26:37.022Z",
-  "synced_at": "2026-02-27T02:37:57.150Z",
+  "synced_at": "2026-02-28T04:06:33.468Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9cce52b2eab95c38a2ca32d8fa65abdadfaafac5869ea826735f15a5b6fcc3ae",
   "install_command": "mkdir -p .claude/skills/burp-suite-testing && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/burp-suite-testing/SKILL.md\" > .claude/skills/burp-suite-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/burp-suite-testing/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "337fefc1cd6eee159b7c8b3c0325379ce5c0435e64f004c663e44ab37ee66c41",
   "indexed_at": "2026-02-26T11:37:59.314Z",
-  "synced_at": "2026-02-27T02:38:58.161Z",
+  "synced_at": "2026-02-28T04:07:41.578Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a0712200668d2850d1655fba1e980016994801652ecf8032f07801dd52a0790b",
   "install_command": "mkdir -p .claude/skills/arch-security-review && curl -sL \"https://raw.githubusercontent.com/CongDon1207/AGENTS.md/main/.opencode/skills/arch-security-review/SKILL.md\" > .claude/skills/arch-security-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/CongDon1207/AGENTS.md/main/.opencode/skills/arch-security-review/SKILL.md"

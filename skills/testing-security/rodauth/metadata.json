@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d9cbcd6d94c1698683edc760edb84f07535f5f2bf328ab4ee3f70b970ff4d5a5",
   "indexed_at": "2026-02-25T19:40:34.307Z",
-  "synced_at": "2026-02-27T02:38:33.350Z",
+  "synced_at": "2026-02-28T04:07:18.355Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/48f30b2cc6677e2005030a3eadd5f0608b1729ed3f12c29f5696de126f8bef6e",
   "install_command": "mkdir -p .claude/skills/rodauth && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/security/rodauth/SKILL.md\" > .claude/skills/rodauth/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/security/rodauth/SKILL.md"

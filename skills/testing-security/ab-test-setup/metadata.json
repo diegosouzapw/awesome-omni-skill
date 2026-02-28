@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9f6ecc578577972e3e38b9168c2e5710c9c1f4b9a0b608c3e3b57f474155816a",
   "indexed_at": "2026-02-25T15:19:51.290Z",
-  "synced_at": "2026-02-27T02:37:57.610Z",
+  "synced_at": "2026-02-28T04:06:33.926Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/409f27b965ce88bf13c5fad2a2c18c3afb0aea22b21ba3b82ff707f91f0ccad2",
   "install_command": "mkdir -p .claude/skills/ab-test-setup && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/ab-test-setup/SKILL.md\" > .claude/skills/ab-test-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/ab-test-setup/SKILL.md"

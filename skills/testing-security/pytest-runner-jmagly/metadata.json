@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9c7699729a2fa58ab273ed80a7f82d09ad5e3971b122f739d3d232c10ddad791",
   "indexed_at": "2026-02-25T17:11:15.786Z",
-  "synced_at": "2026-02-27T02:38:32.674Z",
+  "synced_at": "2026-02-28T04:07:17.665Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ad3ec37c7b711df4726e2be3b191c7af005436b85fc8054d546799deb9f38598",
   "install_command": "mkdir -p .claude/skills/pytest-runner && curl -sL \"https://raw.githubusercontent.com/jmagly/aiwg/main/agentic/code/frameworks/sdlc-complete/extensions/python/skills/pytest-runner/SKILL.md\" > .claude/skills/pytest-runner/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jmagly/aiwg/main/agentic/code/frameworks/sdlc-complete/extensions/python/skills/pytest-runner/SKILL.md"

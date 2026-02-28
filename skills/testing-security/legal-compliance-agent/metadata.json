@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "834d79388401b2bdb9ea8d5d32468756270d4376a82bd14296dbcdde77e1cc8d",
   "indexed_at": "2026-02-26T09:55:52.583Z",
-  "synced_at": "2026-02-27T02:38:54.843Z",
+  "synced_at": "2026-02-28T04:07:38.318Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7a71d887f55bff75ae55e83dc711cb915854b1e8846b99a90d15eabf6b4128a9",
   "install_command": "mkdir -p .claude/skills/legal-compliance-agent && curl -sL \"https://raw.githubusercontent.com/Odiabackend099/Callwaiting-AI-Voxanne-2026/main/.claude/skills/legal-compliance-agent/SKILL.md\" > .claude/skills/legal-compliance-agent/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Odiabackend099/Callwaiting-AI-Voxanne-2026/main/.claude/skills/legal-compliance-agent/SKILL.md"

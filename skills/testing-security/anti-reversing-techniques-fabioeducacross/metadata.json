@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "02f5b15b97bd736d4f651c3959fedd18140426138892b335760143f234659f96",
   "indexed_at": "2026-02-26T11:38:19.523Z",
-  "synced_at": "2026-02-27T02:38:58.723Z",
+  "synced_at": "2026-02-28T04:07:42.148Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4792b17020fb7a5cf2917f5a1e8d80c25bb058a5d1ae0135827ea49ff1851647",
   "install_command": "mkdir -p .claude/skills/anti-reversing-techniques && curl -sL \"https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.claude/skills/anti-reversing-techniques/SKILL.md\" > .claude/skills/anti-reversing-techniques/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.claude/skills/anti-reversing-techniques/SKILL.md"

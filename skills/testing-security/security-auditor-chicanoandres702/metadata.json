@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d29bf74f7a6241314113fe0e989b7411bea89881f16c055e8a0f4a45227830a3",
   "indexed_at": "2026-02-26T11:37:07.963Z",
-  "synced_at": "2026-02-27T02:38:57.348Z",
+  "synced_at": "2026-02-28T04:07:40.794Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/872f4d2c8d1b905b6bad7843767978a44dc84ab196e370a94e0ce3c9eebbbda2",
   "install_command": "mkdir -p .claude/skills/security-auditor && curl -sL \"https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/security-auditor/SKILL.md\" > .claude/skills/security-auditor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/security-auditor/SKILL.md"

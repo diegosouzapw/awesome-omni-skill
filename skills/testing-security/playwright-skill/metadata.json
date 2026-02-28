@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1870e14e1287ca57a824914c10b4d8e61f7743d3fbc08cd3a740377275afaed5",
   "indexed_at": "2026-02-25T18:23:25.907Z",
-  "synced_at": "2026-02-27T02:37:53.592Z",
+  "synced_at": "2026-02-28T04:06:30.104Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a72a1bb43e3bc7386976c3a11476f3e794c4a76f6860fd41bd5b11b09804b7a0",
   "install_command": "mkdir -p .claude/skills/playwright-skill && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/playwright-skill/SKILL.md\" > .claude/skills/playwright-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/playwright-skill/SKILL.md"

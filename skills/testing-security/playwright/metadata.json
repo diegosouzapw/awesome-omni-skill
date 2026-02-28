@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4f908813016198d3cbe41f7d5bebde41d255b623882ac624f7c460afa6959175",
   "indexed_at": "2026-02-26T11:31:28.747Z",
-  "synced_at": "2026-02-27T02:38:56.506Z",
+  "synced_at": "2026-02-28T04:07:39.924Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/85b376397e45b8e1a3735f5199e43be673922aa207205a7c09dade5237c9cccb",
   "install_command": "mkdir -p .claude/skills/playwright && curl -sL \"https://raw.githubusercontent.com/a5c-ai/babysitter/main/plugins/babysitter/skills/babysit/process/specializations/web-development/skills/playwright/SKILL.md\" > .claude/skills/playwright/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/a5c-ai/babysitter/main/plugins/babysitter/skills/babysit/process/specializations/web-development/skills/playwright/SKILL.md"

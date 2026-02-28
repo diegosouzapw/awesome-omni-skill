@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "052e6494412b4ec763e9a24b1b52ee94f7cd1f4624b1824db9b34b783748f3e4",
   "indexed_at": "2026-02-26T22:30:26.059Z",
-  "synced_at": "2026-02-27T02:39:09.199Z",
+  "synced_at": "2026-02-28T04:07:52.445Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7405bfe3693ea9c5a80dd05cc44e6b8264b2f19f281e13544de1315daefe411d",
   "install_command": "mkdir -p .claude/skills/doc-testing && curl -sL \"https://raw.githubusercontent.com/dlants/magenta.nvim/main/.magenta/skills/doc-testing/SKILL.md\" > .claude/skills/doc-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dlants/magenta.nvim/main/.magenta/skills/doc-testing/SKILL.md"

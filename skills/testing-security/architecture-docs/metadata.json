@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "59d40534d5474772ebdf7844b5cf6f0af52e9bec3c8de1c50d3f38f709a38053",
   "indexed_at": "2026-02-26T09:55:39.349Z",
-  "synced_at": "2026-02-27T02:38:54.453Z",
+  "synced_at": "2026-02-28T04:07:37.950Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/93889f976991684125f076864a4a478fcf8f04e2b7953c60130570145703270d",
   "install_command": "mkdir -p .claude/skills/architecture-docs && curl -sL \"https://raw.githubusercontent.com/shadowX4fox/solutions-architect-skills/main/skills/architecture-docs/SKILL.md\" > .claude/skills/architecture-docs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/shadowX4fox/solutions-architect-skills/main/skills/architecture-docs/SKILL.md"

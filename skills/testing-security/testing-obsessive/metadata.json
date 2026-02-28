@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "82b134aee46cd3c6a401b85ac6db6593d774a938f52932019875aad44501bda4",
   "indexed_at": "2026-02-26T13:17:52.148Z",
-  "synced_at": "2026-02-27T02:38:27.645Z",
+  "synced_at": "2026-02-28T04:07:10.033Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b104712133ab388cd1500571c4e359af77677b2b95106bd3dc3924c1689d012f",
   "install_command": "mkdir -p .claude/skills/testing-obsessive && curl -sL \"https://raw.githubusercontent.com/JasonWarrenUK/claude-code-config/main/skills/testing-obsessive/SKILL.md\" > .claude/skills/testing-obsessive/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/JasonWarrenUK/claude-code-config/main/skills/testing-obsessive/SKILL.md"

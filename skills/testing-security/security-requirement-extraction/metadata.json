@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1b9a7e2c62907fb691c020c6b4c67f2928b885b7f249a57e1d175de21b10bff3",
   "indexed_at": "2026-02-25T18:25:47.395Z",
-  "synced_at": "2026-02-27T02:37:54.699Z",
+  "synced_at": "2026-02-28T04:06:31.178Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/960832b3bdd43e4f85739e384f615b327db5b58a5a39998b43e5a64be3e6681e",
   "install_command": "mkdir -p .claude/skills/security-requirement-extraction && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/security-requirement-extraction/SKILL.md\" > .claude/skills/security-requirement-extraction/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/security-requirement-extraction/SKILL.md"

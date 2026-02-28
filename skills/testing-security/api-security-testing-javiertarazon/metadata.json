@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "adfea6d04eba78b0e5ad93c62d8244ef2a8e024345ef4668408b908fcfde2e50",
   "indexed_at": "2026-02-26T07:47:27.308Z",
-  "synced_at": "2026-02-27T02:38:19.679Z",
+  "synced_at": "2026-02-28T04:07:01.514Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1fff4d4bcdbccada5609ff79479a99662a93eb38fef9753eb94da826ea205f6c",
   "install_command": "mkdir -p .claude/skills/api-security-testing && curl -sL \"https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/api-security-testing/SKILL.md\" > .claude/skills/api-security-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/api-security-testing/SKILL.md"

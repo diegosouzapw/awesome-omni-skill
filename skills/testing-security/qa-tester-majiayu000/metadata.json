@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry-data",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "development/qa-tester/SKILL.md",
+  "file_path": "other/qa-tester/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "c5f4064f8e820364f53e103af426eecd48c033e614a274770c32f9b7c7d24846",
-  "indexed_at": "2026-02-26T09:34:42.329Z",
-  "synced_at": "2026-02-27T02:38:40.803Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cd32b373a8ce0d4b0fff4e9b3676521c5f33b2ad9627eb506b61feb2b0c707f6",
-  "install_command": "mkdir -p .claude/skills/qa-tester && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/qa-tester/SKILL.md\" > .claude/skills/qa-tester/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/qa-tester/SKILL.md"
+  "content_hash": "2354b24a9b1f6f7a002bb904f180fe2592344d91025202dc1c3f870cf0a0a23a",
+  "indexed_at": "2026-02-27T22:11:30.191Z",
+  "synced_at": "2026-02-28T04:07:57.608Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/64054302951c31a776ef890629290a6525c000aae1cac3fd1d5ae8cfa87ccd11",
+  "install_command": "mkdir -p .claude/skills/qa-tester && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/qa-tester/SKILL.md\" > .claude/skills/qa-tester/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/qa-tester/SKILL.md"
 }

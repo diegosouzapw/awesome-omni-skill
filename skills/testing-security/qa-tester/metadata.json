@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "78b2ffac22325f1feecd38b5393b79a640e746668d62961532f0c82913ccf886",
   "indexed_at": "2026-02-26T01:52:30.121Z",
-  "synced_at": "2026-02-27T02:38:34.678Z",
+  "synced_at": "2026-02-28T04:07:19.567Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a256f3ae72216f430c4bbaf5fc2d4be5c5dca259d033733a0f5614985aea4d50",
   "install_command": "mkdir -p .claude/skills/qa-tester && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/qa-tester/SKILL.md\" > .claude/skills/qa-tester/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/qa-tester/SKILL.md"

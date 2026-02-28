@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a6c132366d4c8c41c648bb11e016dbdbfb290fd93d7b10e49cb842428eb71f41",
   "indexed_at": "2026-02-26T11:39:52.212Z",
-  "synced_at": "2026-02-27T02:39:03.298Z",
+  "synced_at": "2026-02-28T04:07:46.640Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9f70bf08bf74be42d47479508746bb6491ba8f0a9ea1ce0cbf5d64e4588fd771",
   "install_command": "mkdir -p .claude/skills/information-security-manager-iso27001 && curl -sL \"https://raw.githubusercontent.com/Nuwanda04/Ballen-Fisk/main/.claude/skills/information-security-manager-iso27001/SKILL.md\" > .claude/skills/information-security-manager-iso27001/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Nuwanda04/Ballen-Fisk/main/.claude/skills/information-security-manager-iso27001/SKILL.md"

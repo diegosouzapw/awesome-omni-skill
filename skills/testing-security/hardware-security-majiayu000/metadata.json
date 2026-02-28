@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3c27d96f2f7f6684ed11a6855ea10722a968c52fedb1840cf5bc005a456fb0b7",
   "indexed_at": "2026-02-26T09:48:03.769Z",
-  "synced_at": "2026-02-27T02:38:21.187Z",
+  "synced_at": "2026-02-28T04:07:03.182Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a2665325af7fbe5a65dd037703acd3b289ed59ebda4647f2bc3a774e87ce9758",
   "install_command": "mkdir -p .claude/skills/hardware-security && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/hardware-security/SKILL.md\" > .claude/skills/hardware-security/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/hardware-security/SKILL.md"

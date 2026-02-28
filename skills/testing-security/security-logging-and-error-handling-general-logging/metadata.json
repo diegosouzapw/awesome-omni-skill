@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bb482e2050ae1ac97cf2638fc51ea6d5c1f8a92f6caf9aff0f487f37e873cf0c",
   "indexed_at": "2026-02-26T09:56:07.381Z",
-  "synced_at": "2026-02-27T02:38:23.464Z",
+  "synced_at": "2026-02-28T04:07:05.385Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1e8aecbb18d358892ff81cc0e0c4febd1d53d1c805b1b2dfd2330544d7329ca3",
   "install_command": "mkdir -p .claude/skills/security-logging-and-error-handling-general-logging && curl -sL \"https://raw.githubusercontent.com/duhd-vnpay/Agentic-Coding/main/referents/standards/security/owasp-asvs/security-logging-and-error-handling/general-logging/SKILL.md\" > .claude/skills/security-logging-and-error-handling-general-logging/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duhd-vnpay/Agentic-Coding/main/referents/standards/security/owasp-asvs/security-logging-and-error-handling/general-logging/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1bf932d31b0c8c18073f414148e7b15e7d26713d58dd967a94a363f2d3b233e3",
   "indexed_at": "2026-02-26T05:08:49.184Z",
-  "synced_at": "2026-02-27T02:38:13.273Z",
+  "synced_at": "2026-02-28T04:06:55.115Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2e238ca6093621636de3cd3882ccbe4b4b1c663d36b35f25313d749d75b5a68d",
   "install_command": "mkdir -p .claude/skills/acc-create-test-double && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-create-test-double/SKILL.md\" > .claude/skills/acc-create-test-double/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-create-test-double/SKILL.md"

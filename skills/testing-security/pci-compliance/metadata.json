@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "888eb69761c9f6a4643e97a47ace9ab47513dc734cfb099bf2897ada989f383c",
   "indexed_at": "2026-02-25T17:27:18.401Z",
-  "synced_at": "2026-02-27T02:37:55.638Z",
+  "synced_at": "2026-02-28T04:06:32.108Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2721fb895417651b5a2fbc7d0396ae6380cdc508ab276ab4f400f68238b51d8d",
   "install_command": "mkdir -p .claude/skills/pci-compliance && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/pci-compliance/SKILL.md\" > .claude/skills/pci-compliance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/pci-compliance/SKILL.md"

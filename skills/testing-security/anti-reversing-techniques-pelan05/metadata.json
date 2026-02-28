@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ffa2af974ad255bee33602428151adadcda8ada10e8af290fec483d6e980f90d",
   "indexed_at": "2026-02-27T10:57:33.370Z",
-  "synced_at": "2026-02-27T13:14:51.400Z",
+  "synced_at": "2026-02-28T04:07:55.865Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/efcb0126df9f300d366092222c5e27c2ebc09017c9c5eae614d1efd61d1af17a",
   "install_command": "mkdir -p .claude/skills/anti-reversing-techniques && curl -sL \"https://raw.githubusercontent.com/pelan05/vscode_agents_folder/main/skills/anti-reversing-techniques/SKILL.md\" > .claude/skills/anti-reversing-techniques/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pelan05/vscode_agents_folder/main/skills/anti-reversing-techniques/SKILL.md"

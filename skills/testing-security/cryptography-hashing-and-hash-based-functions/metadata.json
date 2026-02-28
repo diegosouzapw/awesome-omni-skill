@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "db71b8331e9863b357a8cde7a0c93bb51bcab08099a5d99de832376ffee79a9f",
   "indexed_at": "2026-02-26T11:38:53.753Z",
-  "synced_at": "2026-02-27T02:38:25.604Z",
+  "synced_at": "2026-02-28T04:07:08.072Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a532351f8b6c4a57e37fba172642477406110e933f7363ba8cc75cf5c4d66e00",
   "install_command": "mkdir -p .claude/skills/cryptography-hashing-and-hash-based-functions && curl -sL \"https://raw.githubusercontent.com/duhd-vnpay/Agentic-Coding/main/referents/standards/security/owasp-asvs/cryptography/hashing-and-hash-based-functions/SKILL.md\" > .claude/skills/cryptography-hashing-and-hash-based-functions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duhd-vnpay/Agentic-Coding/main/referents/standards/security/owasp-asvs/cryptography/hashing-and-hash-based-functions/SKILL.md"

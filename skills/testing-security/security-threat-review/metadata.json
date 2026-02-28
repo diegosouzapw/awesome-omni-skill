@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f1d7f0b78970685daaef9016b42866c946111c5866ee86fb105eb91a80229a56",
   "indexed_at": "2026-02-26T09:45:26.876Z",
-  "synced_at": "2026-02-27T02:38:41.609Z",
+  "synced_at": "2026-02-28T04:07:26.510Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/07ce9f84b69d7c0590eac636436755a07cc61700383254c2f904a267e7b3b871",
   "install_command": "mkdir -p .claude/skills/security-threat-review && curl -sL \"https://raw.githubusercontent.com/claushaas/claus-haas-ai-stuff/main/skills/security-threat-review/SKILL.md\" > .claude/skills/security-threat-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/claushaas/claus-haas-ai-stuff/main/skills/security-threat-review/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a92ef7494f49ef4af6f2690c46da1bb1a4615dc5c3c37d0ea96c31657fb3a537",
   "indexed_at": "2026-02-25T15:21:32.087Z",
-  "synced_at": "2026-02-27T02:37:58.084Z",
+  "synced_at": "2026-02-28T04:06:34.375Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c1cd5977f0c33604a79e917c4836c2b2dec51e45dfff30e8101b71b1d81b7f7a",
   "install_command": "mkdir -p .claude/skills/auth-implementation-patterns && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/auth-implementation-patterns/SKILL.md\" > .claude/skills/auth-implementation-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/auth-implementation-patterns/SKILL.md"

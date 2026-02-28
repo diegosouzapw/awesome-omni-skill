@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e344d6c2ab1d821b4c117aa1e4a37f33fa2562461f55aa76c20fdcf37b8a608f",
   "indexed_at": "2026-02-25T12:49:05.396Z",
-  "synced_at": "2026-02-27T02:38:30.060Z",
+  "synced_at": "2026-02-28T04:07:14.960Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7af517b7e35bbf3f6cf50c5d563f32180566841c0e9c3523b7028fc94b48f3e2",
   "install_command": "mkdir -p .claude/skills/nchan-expert && curl -sL \"https://raw.githubusercontent.com/tailuge/nchan-expert/main/SKILL.md\" > .claude/skills/nchan-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tailuge/nchan-expert/main/SKILL.md"

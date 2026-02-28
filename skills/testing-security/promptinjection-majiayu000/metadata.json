@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2f83254931101570cf52932b5e5db16648f8a6f75e74e5e783edf202e4b5ad79",
   "indexed_at": "2026-02-26T14:19:30.816Z",
-  "synced_at": "2026-02-27T02:39:06.547Z",
+  "synced_at": "2026-02-28T04:07:49.770Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2c4304045c63e252aa85fd2ff20dc843999c5b3753c30baf7625671271f0855d",
   "install_command": "mkdir -p .claude/skills/promptinjection && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/PromptInjection/SKILL.md\" > .claude/skills/promptinjection/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/PromptInjection/SKILL.md"

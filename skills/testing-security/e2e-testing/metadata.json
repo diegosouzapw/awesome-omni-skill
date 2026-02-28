@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d4932426e86ac87d15b0bd7d0bb750853b03e5de01786f604face3c6f6b8cf1e",
   "indexed_at": "2026-02-25T16:24:54.721Z",
-  "synced_at": "2026-02-27T02:37:56.347Z",
+  "synced_at": "2026-02-28T04:06:32.718Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2097df1cc0933cbf9cdf23b2e15178dedf6984e832d2020bd6e7eb4b91dc9ed7",
   "install_command": "mkdir -p .claude/skills/e2e-testing && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/e2e-testing/SKILL.md\" > .claude/skills/e2e-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/e2e-testing/SKILL.md"

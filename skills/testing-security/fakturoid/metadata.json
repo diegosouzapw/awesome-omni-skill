@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "87e60d3ac7c00c2a78e16bc5c0b9d8f1d850e3d7b51fd0c993c924408afd6c4d",
   "indexed_at": "2026-02-26T09:30:15.746Z",
-  "synced_at": "2026-02-27T02:38:40.153Z",
+  "synced_at": "2026-02-28T04:07:25.042Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f5f0476ec3e8c9510328139a26f22b7471fae5cc5e824257cfc783e84cf40ded",
   "install_command": "mkdir -p .claude/skills/fakturoid && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/majncz/fakturoid-skill/fakturoid/SKILL.md\" > .claude/skills/fakturoid/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/majncz/fakturoid-skill/fakturoid/SKILL.md"

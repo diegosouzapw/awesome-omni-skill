@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "607833b5397560745e5ec41b39f480973cd3ec20b9c14328d808d66d38e9ff56",
   "indexed_at": "2026-02-26T08:56:41.397Z",
-  "synced_at": "2026-02-27T02:38:39.961Z",
+  "synced_at": "2026-02-28T04:07:24.840Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fdb3a2f31a74cce5aacaf70f6d36a078dc003bdb75ec0e133a9d7fed007cbc93",
   "install_command": "mkdir -p .claude/skills/authentication-setup && curl -sL \"https://raw.githubusercontent.com/supercent-io/skills-template/main/.agent-skills/authentication-setup/SKILL.md\" > .claude/skills/authentication-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/supercent-io/skills-template/main/.agent-skills/authentication-setup/SKILL.md"

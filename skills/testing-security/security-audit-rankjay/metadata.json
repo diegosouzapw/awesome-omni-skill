@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3ffab36fbac23be4dfaebed66a9bac88a49f7a8f9969f47c1da8d8f62be0d569",
   "indexed_at": "2026-02-26T09:46:37.478Z",
-  "synced_at": "2026-02-27T02:38:44.471Z",
+  "synced_at": "2026-02-28T04:07:29.217Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/93ec5e82ce8267bba785eb93fca6fafb8344b25fc362558ac31e2baade472af6",
   "install_command": "mkdir -p .claude/skills/security-audit && curl -sL \"https://raw.githubusercontent.com/RankJay/ai/main/public/cursor/skills/security-audit/SKILL.md\" > .claude/skills/security-audit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/RankJay/ai/main/public/cursor/skills/security-audit/SKILL.md"

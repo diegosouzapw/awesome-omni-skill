@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "64aec3a1a62e624b4bd29ff71db0bec7696585652e4167a41dc717ff0006ae67",
   "indexed_at": "2026-02-26T09:50:23.424Z",
-  "synced_at": "2026-02-27T02:38:22.207Z",
+  "synced_at": "2026-02-28T04:07:04.159Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/615fe047c07a603985ffa4db7ce95cdc5e6c189e3472aa181ed9b98e7900e84b",
   "install_command": "mkdir -p .claude/skills/redis-security && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/security/redis-security/SKILL.md\" > .claude/skills/redis-security/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/security/redis-security/SKILL.md"

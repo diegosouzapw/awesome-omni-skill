@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d0b93eeec9b5e961aec0920d8f7e479ab4968ed9179c119818094bd580fe8624",
   "indexed_at": "2026-02-24T23:41:11.548Z",
-  "synced_at": "2026-02-27T02:38:07.819Z",
+  "synced_at": "2026-02-28T04:06:44.892Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/69001581db953eeca35c5ff6b078306e9b3b1b74efcff18405dd0cf15cc7121e",
   "install_command": "mkdir -p .claude/skills/acc-analyze-test-coverage && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-analyze-test-coverage/SKILL.md\" > .claude/skills/acc-analyze-test-coverage/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-analyze-test-coverage/SKILL.md"

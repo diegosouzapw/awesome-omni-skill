@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "039a718ff29afa7b24a7525dfdd53d76a67710d41858b02291fa1e231b219988",
   "indexed_at": "2026-02-27T14:01:52.561Z",
-  "synced_at": "2026-02-27T18:15:45.562Z",
+  "synced_at": "2026-02-28T04:07:56.874Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/20015cb77c623102eae04173e02c3d2ed176c71499743d3bb28d7e87e5981acb",
   "install_command": "mkdir -p .claude/skills/risk-based-testing && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/pacphi__ampel__claude__skills__risk-based-testing__SKILL.md/SKILL.md\" > .claude/skills/risk-based-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/pacphi__ampel__claude__skills__risk-based-testing__SKILL.md/SKILL.md"
