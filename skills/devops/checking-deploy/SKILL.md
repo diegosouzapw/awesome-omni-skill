@@ -7,11 +7,11 @@ allowed-tools:
   - Task
   - TaskOutput
   - TodoWrite
-  - Bash(kubectl *)
-  - Bash(helm *)
-  - Bash(terraform *)
-  - Bash(actionlint *)
-  - Bash(docker *)
+  - Bash(kubectl:*)
+  - Bash(helm:*)
+  - Bash(terraform:*)
+  - Bash(actionlint:*)
+  - Bash(docker:*)
   - Grep
   - Glob
   - mcp__perplexity-ask__perplexity_ask

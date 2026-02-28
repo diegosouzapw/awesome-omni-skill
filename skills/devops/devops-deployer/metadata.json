@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/devops/devops-deployer/SKILL.md",
+  "file_path": "skills/data/devops-deployer/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -15,12 +15,12 @@
   "skill_level": 3,
   "skill_level_label": "resources",
   "has_scripts": true,
-  "has_extra_files": true,
+  "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "e0ffdbb44458b39abd6cdd0dfcd1513e724bf80298dca54ab944163921616f11",
-  "indexed_at": "2026-02-26T12:16:44.831Z",
-  "synced_at": "2026-02-28T04:10:14.009Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dbea13e8eb3d88a6c856162c379780922484443f07b3878c9523a1e640578919",
-  "install_command": "mkdir -p .claude/skills/devops-deployer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/devops-deployer/SKILL.md\" > .claude/skills/devops-deployer/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/devops-deployer/SKILL.md"
+  "content_hash": "31c33b62a3e4ef68f40d58c800a10d26b1ab130d1d0f77c3473fdd9b039206a5",
+  "indexed_at": "2026-02-28T16:57:03.183Z",
+  "synced_at": "2026-02-28T18:10:26.527Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/86469372b5a21be53031c0a7ee67fa836c55f7aa1323a8796cf4ff45c2dfe5dc",
+  "install_command": "mkdir -p .claude/skills/devops-deployer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/devops-deployer/SKILL.md\" > .claude/skills/devops-deployer/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/devops-deployer/SKILL.md"
 }

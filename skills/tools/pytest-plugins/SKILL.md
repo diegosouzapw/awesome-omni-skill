@@ -1,6 +1,5 @@
 ---
 name: pytest-plugins
-user-invocable: false
 description: Use when pytest plugin ecosystem including pytest-cov, pytest-mock, and custom plugin development.
 allowed-tools: [Read, Write, Edit, Bash, Glob, Grep]
 ---

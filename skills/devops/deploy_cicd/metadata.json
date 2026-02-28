@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/other/deploy-cicd-vuralserhat86-antigravity-agentic-/SKILL.md",
+  "file_path": "skills/data/deploy-cicd/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -15,12 +15,12 @@
   "skill_level": 3,
   "skill_level_label": "resources",
   "has_scripts": true,
-  "has_extra_files": true,
+  "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "61d274506406dabf02788b7b12e158ba9db7700a19c08e1774c3cc62e90d2b79",
-  "indexed_at": "2026-02-27T12:38:14.910Z",
-  "synced_at": "2026-02-28T04:10:41.863Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/45945a86b10a3ed39bee6ff31672fbeb5d4e079b6b9be470acc3e7e77812b3bd",
-  "install_command": "mkdir -p .claude/skills/deploy_cicd && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/deploy-cicd-vuralserhat86-antigravity-agentic-/SKILL.md\" > .claude/skills/deploy_cicd/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/deploy-cicd-vuralserhat86-antigravity-agentic-/SKILL.md"
+  "content_hash": "e5d6ba878285cfd34fe04bf31fbf394c2f03e1c2c858a929230581ded2a48576",
+  "indexed_at": "2026-02-28T16:56:56.649Z",
+  "synced_at": "2026-02-28T18:10:26.254Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/124dd809c3b2b7e8566115b3dbee869cfd5121189631027b3fd3798265c88a97",
+  "install_command": "mkdir -p .claude/skills/deploy_cicd && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/deploy-cicd/SKILL.md\" > .claude/skills/deploy_cicd/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/deploy-cicd/SKILL.md"
 }

@@ -3,8 +3,8 @@
   "description": "Comprehensive GitHub release orchestration with AI swarm coordination for automated versioning, testing, deployment, and rollback management",
   "category": "cli-automation",
   "canonical_category": "cli-automation",
-  "repository": "ruvnet/claude-flow",
-  "repository_url": "https://github.com/ruvnet/claude-flow",
+  "repository": "ruvnet/ruflo",
+  "repository_url": "https://github.com/ruvnet/ruflo",
   "author": "ruvnet",
   "author_avatar": "https://github.com/ruvnet.png",
   "file_path": ".agents/skills/github-release-management/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "a39a2f92376d1012a09e7760ba63e278d52cc2ca9f89a832882310dabfe9f3b9",
-  "indexed_at": "2026-02-27T15:01:50.957Z",
-  "synced_at": "2026-02-28T04:26:57.815Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/db9900662c63e3c5b874eb3eb026e1d45674e11bfb25740c6c9250f84fb9a743",
-  "install_command": "mkdir -p .claude/skills/github-release-management && curl -sL \"https://raw.githubusercontent.com/ruvnet/claude-flow/main/.agents/skills/github-release-management/SKILL.md\" > .claude/skills/github-release-management/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/ruvnet/claude-flow/main/.agents/skills/github-release-management/SKILL.md"
+  "content_hash": "e62ef96dba97897a7f37e4225edd2640da83b7ac16fd4319f91f1bc230f945ff",
+  "indexed_at": "2026-02-28T16:48:13.242Z",
+  "synced_at": "2026-02-28T18:11:01.103Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/034042134190a8edd38d9bc70fe3846d72892e553290710ebe610515103ceb9f",
+  "install_command": "mkdir -p .claude/skills/github-release-management && curl -sL \"https://raw.githubusercontent.com/ruvnet/ruflo/main/.agents/skills/github-release-management/SKILL.md\" > .claude/skills/github-release-management/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/ruvnet/ruflo/main/.agents/skills/github-release-management/SKILL.md"
 }

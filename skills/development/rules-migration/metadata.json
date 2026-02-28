@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/rules-migration/SKILL.md",
+  "file_path": "skills/development/rules-migration/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "3b39a02ede354543acb11dd130923246eeba164390e475446324e41b0565cacf",
-  "indexed_at": "2026-02-27T15:05:42.515Z",
-  "synced_at": "2026-02-28T04:01:19.762Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/edf2c781867c92eb1ddf28fa2b915aec6f41dff73a455766b7905f8574c4e750",
-  "install_command": "mkdir -p .claude/skills/rules-migration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/rules-migration/SKILL.md\" > .claude/skills/rules-migration/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/rules-migration/SKILL.md"
+  "content_hash": "1477926bd88e1ed8540de6836a60ae484ce0660be3d0fe5d1f8ed5960d8c5588",
+  "indexed_at": "2026-02-28T14:46:50.438Z",
+  "synced_at": "2026-02-28T18:10:42.306Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/20e5f90bd14a3268981ec4d80e442716a71ef9d5e3fcd5f7c2b8fc823dfc09e3",
+  "install_command": "mkdir -p .claude/skills/rules-migration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/rules-migration/SKILL.md\" > .claude/skills/rules-migration/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/rules-migration/SKILL.md"
 }

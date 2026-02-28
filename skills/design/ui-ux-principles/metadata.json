@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/ui-ux-principles-housegarofalo-claude-code-base/SKILL.md",
+  "file_path": "skills/other/ui-ux-principles-housegarofalo-claude-code-base/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": false,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "45f779057412ebfd247bc2ecfe82889a3c58657e5a6bb507caa18b7fcfbf148b",
-  "indexed_at": "2026-02-26T15:22:24.060Z",
-  "synced_at": "2026-02-28T04:05:54.103Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/236d918499ef4485d629a52cc6ece29a4e25136775b232549db9a327db8c4dc8",
-  "install_command": "mkdir -p .claude/skills/ui-ux-principles && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ui-ux-principles-housegarofalo-claude-code-base/SKILL.md\" > .claude/skills/ui-ux-principles/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ui-ux-principles-housegarofalo-claude-code-base/SKILL.md"
+  "content_hash": "d11eb4a03d152c2e60bee3e48b5e2205cd5d4b0093f0831b160e6e61d7cae10f",
+  "indexed_at": "2026-02-28T15:51:08.071Z",
+  "synced_at": "2026-02-28T18:10:55.228Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/12cd8b53048acd4009ea1f924b6cebd972d3d4ce5f3e15724fb0e4e31eab7255",
+  "install_command": "mkdir -p .claude/skills/ui-ux-principles && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/ui-ux-principles-housegarofalo-claude-code-base/SKILL.md\" > .claude/skills/ui-ux-principles/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/ui-ux-principles-housegarofalo-claude-code-base/SKILL.md"
 }

@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/debug-detective/SKILL.md",
+  "file_path": "skills/development/debug-detective/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "c539b48a3d756252e0dc3d92ccd4f640cf5686251ff39478034aa30d1e65a04f",
-  "indexed_at": "2026-02-26T13:22:19.207Z",
-  "synced_at": "2026-02-28T03:59:02.352Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e4540667ec11cdd3f00ed36fa752540c9aa64d4024344f409501b9ea338d096e",
-  "install_command": "mkdir -p .claude/skills/debug-detective && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/debug-detective/SKILL.md\" > .claude/skills/debug-detective/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/debug-detective/SKILL.md"
+  "content_hash": "6a0fa22a36d9bd920724889b8a1bf2f9d4212945d88f3ac750a348a461381c1f",
+  "indexed_at": "2026-02-28T14:49:33.631Z",
+  "synced_at": "2026-02-28T18:10:43.198Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d4e9904bc0d2dd6c73ec8b4edec8e260f6c8e13daf46fe4a57ed78eb34184faf",
+  "install_command": "mkdir -p .claude/skills/debug-detective && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/debug-detective/SKILL.md\" > .claude/skills/debug-detective/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/debug-detective/SKILL.md"
 }

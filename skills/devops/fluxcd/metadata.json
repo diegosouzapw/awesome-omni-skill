@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/devops/fluxcd/SKILL.md",
+  "file_path": "skills/devops/fluxcd-cosmix-claude-code-setup/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "fa96e9017f91d4a1df93555358ca4dc8a8567ed85ef76ca27024c5928b8127a2",
-  "indexed_at": "2026-02-26T13:22:17.085Z",
-  "synced_at": "2026-02-28T04:10:24.025Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/548e2c61a7535e4cd8850f649e33aafadeedc97f565b3290175133799ae1524a",
-  "install_command": "mkdir -p .claude/skills/fluxcd && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/fluxcd/SKILL.md\" > .claude/skills/fluxcd/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/fluxcd/SKILL.md"
+  "content_hash": "3d5266feadefdc9d9bdafd24692f733d017e907462d2609e9dfbf9f80f5b6a13",
+  "indexed_at": "2026-02-28T13:48:17.977Z",
+  "synced_at": "2026-02-28T18:10:21.327Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ada06b6b7f33b8a7a78044703bd91ba9aca42c2399fc448abb519da37e65bb9b",
+  "install_command": "mkdir -p .claude/skills/fluxcd && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/fluxcd-cosmix-claude-code-setup/SKILL.md\" > .claude/skills/fluxcd/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/fluxcd-cosmix-claude-code-setup/SKILL.md"
 }

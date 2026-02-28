@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/frankhjung/cli-tools",
   "author": "frankhjung",
   "author_avatar": "https://github.com/frankhjung.png",
-  "file_path": "files/code/skills/python-programmer/SKILL.md",
+  "file_path": "files/gemini/skills/python-programmer/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "cc0bcffcebd849ec7afc24514efa44d9242480c330b498a79d0454d4fd5e2546",
-  "indexed_at": "2026-02-26T09:35:38.209Z",
-  "synced_at": "2026-02-28T03:57:03.137Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/36b270498c4897971c5ee5947977cd23036db2e2740d09e4e53361a0d3404f0b",
-  "install_command": "mkdir -p .claude/skills/python-programmer && curl -sL \"https://raw.githubusercontent.com/frankhjung/cli-tools/main/files/code/skills/python-programmer/SKILL.md\" > .claude/skills/python-programmer/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/frankhjung/cli-tools/main/files/code/skills/python-programmer/SKILL.md"
+  "content_hash": "b8577600c0d5a8356970ad3ce8261af241a1707a6a23c9fc15d53cc81bfe32e1",
+  "indexed_at": "2026-02-28T14:47:14.407Z",
+  "synced_at": "2026-02-28T18:10:42.615Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4f9f30b04f75d32240c9b85d14355ef07319c9398febb21f62491132b31808f2",
+  "install_command": "mkdir -p .claude/skills/python-programmer && curl -sL \"https://raw.githubusercontent.com/frankhjung/cli-tools/main/files/gemini/skills/python-programmer/SKILL.md\" > .claude/skills/python-programmer/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/frankhjung/cli-tools/main/files/gemini/skills/python-programmer/SKILL.md"
 }

@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/denylist-stuck-messages/SKILL.md",
+  "file_path": "skills/other/denylist-stuck-messages/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "e29c59ba55c121e790f6824aa66187548c8d9ae8f2ad956674e037664c4fe6d6",
-  "indexed_at": "2026-02-26T16:36:55.296Z",
-  "synced_at": "2026-02-28T04:10:29.949Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8cbd00e8709c3edad63e6fe49e74db1c97a7ed1ba29794efe1f5a782162861d8",
-  "install_command": "mkdir -p .claude/skills/denylist-stuck-messages && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/denylist-stuck-messages/SKILL.md\" > .claude/skills/denylist-stuck-messages/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/denylist-stuck-messages/SKILL.md"
+  "content_hash": "a73f855588eeb6b4c9393b21ac019f5a2662d7892d8a7ba4299a36bf7df2b4b9",
+  "indexed_at": "2026-02-28T17:55:27.035Z",
+  "synced_at": "2026-02-28T18:10:26.712Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9237f209a2ce03a375e4ae58b41ade93de6b4933692924400cbc96f221776aaa",
+  "install_command": "mkdir -p .claude/skills/denylist-stuck-messages && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/denylist-stuck-messages/SKILL.md\" > .claude/skills/denylist-stuck-messages/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/denylist-stuck-messages/SKILL.md"
 }

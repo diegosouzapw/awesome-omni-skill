@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/design/checkstyle-rules-thebushidocollective-han/SKILL.md",
+  "file_path": "skills/other/checkstyle-rules/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "c835e8363bdc26a53d5a68e88d27605dca8d435e54c4124f7b7a25a0ec13ddfa",
-  "indexed_at": "2026-02-26T13:22:06.701Z",
-  "synced_at": "2026-02-28T03:59:02.185Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/86b321369a16be95c43d5ff827245d1949107dba37c08c83a48ab4ae795e11cf",
-  "install_command": "mkdir -p .claude/skills/checkstyle-rules && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/checkstyle-rules-thebushidocollective-han/SKILL.md\" > .claude/skills/checkstyle-rules/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/checkstyle-rules-thebushidocollective-han/SKILL.md"
+  "content_hash": "1f949d8d77483cc6d27f8f325c0f66b740dc9af7445c2a268d574e323e7b81e7",
+  "indexed_at": "2026-02-28T13:47:12.006Z",
+  "synced_at": "2026-02-28T18:10:39.489Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eb7f882a3aecc8239420d194e24ea264b294dd07694fc7250b1c3d2af6cf3ad7",
+  "install_command": "mkdir -p .claude/skills/checkstyle-rules && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/checkstyle-rules/SKILL.md\" > .claude/skills/checkstyle-rules/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/checkstyle-rules/SKILL.md"
 }

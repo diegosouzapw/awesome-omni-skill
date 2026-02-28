@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/other/docker-expert/SKILL.md",
+  "file_path": "skills/other/docker-expert-personamanagmentlaye-pcl/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -15,12 +15,12 @@
   "skill_level": 3,
   "skill_level_label": "resources",
   "has_scripts": true,
-  "has_extra_files": true,
+  "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "20ae9f363a4a0f769874a188d8914ab3d3cdb6787f41b7fe3ed4f3d36985483a",
-  "indexed_at": "2026-02-27T12:38:12.112Z",
-  "synced_at": "2026-02-28T04:09:28.754Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/12b92add9a0cd4533b7cf5d77f0491c651d16e2effe38f9a9a97cf8d0dfddd0c",
-  "install_command": "mkdir -p .claude/skills/docker-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/docker-expert/SKILL.md\" > .claude/skills/docker-expert/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/docker-expert/SKILL.md"
+  "content_hash": "574ab79aacb9d26b18dde2422a6ee58802b40f6ee9cc977d7196a029f4a24f2e",
+  "indexed_at": "2026-02-28T16:57:08.429Z",
+  "synced_at": "2026-02-28T18:10:20.215Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/69031f5a76054ce9a64679efa0a319efed37e94a802c54fafa13362d9b478ab6",
+  "install_command": "mkdir -p .claude/skills/docker-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/docker-expert-personamanagmentlaye-pcl/SKILL.md\" > .claude/skills/docker-expert/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/docker-expert-personamanagmentlaye-pcl/SKILL.md"
 }

@@ -1,6 +1,8 @@
 ---
 name: vibe-coding
 description: Rapidly prototype and build modern, responsive web applications from scratch using current frameworks and libraries. Use when you want to quickly create a new web app with full local control, creative flow, and modern best practices. Local alternative to Lovable, Bolt, and v0.
+user-invocable: true
+disable-model-invocation: false
 ---
 # Skill: Vibe coding
 
@@ -199,6 +201,8 @@ Before implementing any feature, search these docs to ensure you're using curren
 
 ## Example workflows
 
+<examples>
+
 ### Vibing a landing page
 ```
 User: "Let's vibe a landing page for a SaaS product - hero section, features, pricing, contact form"
@@ -227,6 +231,7 @@ Droid will:
 7. Include tests for auth and data flows
 8. Document setup including database requirements
 ```
+</examples>
 
 ## SEO and web vitals
 

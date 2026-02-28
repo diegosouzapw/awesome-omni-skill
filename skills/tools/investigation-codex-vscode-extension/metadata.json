@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/tankygranny05/agent-box",
   "author": "tankygranny05",
   "author_avatar": "https://github.com/tankygranny05.png",
-  "file_path": "agent-box/seed/codex-skills/investigation-codex-vscode-extension/SKILL.md",
+  "file_path": "agent-box/seed/claude-skills/investigation-codex-vscode-extension/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "e97f27ffaceae2c3cfdb22408388e399de03b250787f89b3721a5a84e33feda9",
-  "indexed_at": "2026-02-27T16:55:42.427Z",
-  "synced_at": "2026-02-28T04:16:52.146Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d9fe24fd749cc468785cc02364dded6d21afb78714d6c4af37bf5f4b1a3d81e5",
-  "install_command": "mkdir -p .claude/skills/investigation-codex-vscode-extension && curl -sL \"https://raw.githubusercontent.com/tankygranny05/agent-box/main/agent-box/seed/codex-skills/investigation-codex-vscode-extension/SKILL.md\" > .claude/skills/investigation-codex-vscode-extension/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/tankygranny05/agent-box/main/agent-box/seed/codex-skills/investigation-codex-vscode-extension/SKILL.md"
+  "content_hash": "fc70ad07b226ee2f02df9eba69106a708a1f412d7e2ecc82a946d6b9f347ac38",
+  "indexed_at": "2026-02-28T15:47:12.270Z",
+  "synced_at": "2026-02-28T18:10:32.112Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/de7a7a651c8dbb8b06f2d076f1c32f2d8c46205d2cabae4ee3b6cd45ce661e7e",
+  "install_command": "mkdir -p .claude/skills/investigation-codex-vscode-extension && curl -sL \"https://raw.githubusercontent.com/tankygranny05/agent-box/main/agent-box/seed/claude-skills/investigation-codex-vscode-extension/SKILL.md\" > .claude/skills/investigation-codex-vscode-extension/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/tankygranny05/agent-box/main/agent-box/seed/claude-skills/investigation-codex-vscode-extension/SKILL.md"
 }

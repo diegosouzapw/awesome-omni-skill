@@ -1,9 +1,9 @@
 ---
 name: deployment-procedures
-description: "Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification. Teaches thinking, not scripts."
-risk: unknown
-source: community
-date_added: "2026-02-27"
+description: Production deployment principles and decision-making.
+category: infrastructure
+version: 4.0.5
+layer: master-skill
 ---
 
 # Deployment Procedures
@@ -241,6 +241,3 @@ Before deploying:
 ---
 
 > **Remember:** Every deployment is a risk. Minimize risk through preparation, not speed.
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.

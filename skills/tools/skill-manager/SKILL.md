@@ -1,487 +1,601 @@
 ---
 name: skill-manager
-description: Automate creation, versioning, deployment, and synchronization of Mapache Skills across Desktop, Code CLI, and API environments. Manages skill lifecycle from scaffolding to deployment.
+description: Manages Claude Skills lifecycle - creating, updating, maintaining, and versioning project-specific and cross-IDE knowledge bases. Invoke when user wants to create new skills, update existing ones, or sync skill content across tools.
 ---
 
-# Skill Manager
+# Skill Manager - Claude Skills Lifecycle Management
 
-## Purpose
-Meta-skill for managing the complete lifecycle of all other Mapache Skills. Ensures skills are version-controlled in Git and automatically synchronized across all environments (Desktop, Code CLI, API).
+You are an expert in managing Claude Skills, which are project-specific knowledge bases that provide specialized guidance. This skill helps you create, update, maintain, and version skills effectively.
 
-## Core Capabilities
-- **Create**: Scaffold new skills from templates with proper structure
-- **Validate**: Check YAML frontmatter, markdown syntax, security
-- **Deploy**: Sync skills to Code CLI, API, or Desktop
-- **Version**: Semantic versioning and Git integration
-- **Monitor**: Watch for changes and auto-sync
+## What are Claude Skills?
 
-## Architecture Overview
+Claude Skills are markdown-based knowledge modules stored in `.claude/skills/` that:
 
-### Source of Truth
-- **Git Repository**: `C:\Users\Kurt Anderson\github projects\mapache-skills\`
-- **Branch Strategy**:
-  - `main` = Production skills (stable, tested)
-  - `dev` = Experimental/WIP skills
-  - Feature branches = New skill development
+- Provide domain-specific expertise (frameworks, tools, patterns)
+- Are automatically invoked based on trigger descriptions
+- Can reference supporting documentation files
+- Enable consistent, expert-level guidance across sessions
+- Support project-specific best practices and patterns
 
-### Deployment Targets
-1. **Code CLI**: `~/.claude/skills/` (symlinked to `skills/` folder)
-2. **Claude API**: Via `/v1/skills` endpoint (programmatic)
-3. **Claude Desktop**: Manual upload or API-based (if available)
+## When to Use This Skill
 
-### Standard Skill Structure
+Invoke this skill when the user:
+
+- Wants to **create a new skill** from documentation or knowledge
+- Needs to **update an existing skill** with new information
+- Asks to **maintain or refactor skills** for better organization
+- Wants to **version control skills** or track changes
+- Needs to **validate skill structure** and completeness
+- Asks about **skill best practices** or conventions
+- Wants to **migrate knowledge** into skill format
+
+## Skill Structure
+
+### Required Files
+
+Every skill must have at minimum:
+
 ```
-skills/skill-name/
-├── SKILL.md              # Required: YAML frontmatter + instructions
-├── README.md             # Human documentation
-├── scripts/              # Optional: Executable code
-│   ├── __init__.py
-│   └── helper.py
-├── resources/            # Optional: Templates, data files
-│   └── template.json
-├── tests/                # Validation tests
-│   └── test_skill.py
-└── .skillmeta            # Version, author, dependencies
+.claude/skills/<skill-name>/
+└── SKILL.md                    # Main skill definition (REQUIRED)
 ```
 
-## Key Operations
+### Recommended Files
 
-### 1. Create New Skill
-Scaffolds a new skill directory with proper structure and template content.
+Well-documented skills should include:
 
-**Usage Pattern**:
-"Create a new skill called 'n8n-flow-builder' that helps design n8n workflows"
-
-**What Happens**:
-1. Runs `scripts/create_skill.py` with skill name and description
-2. Creates directory structure with SKILL.md template
-3. Opens SKILL.md for review and editing
-4. User iterates with Claude on content
-5. Validates with `scripts/validate_skill.py`
-
-### 2. Validate Skill
-Checks skill for correctness and security before deployment.
-
-**Validation Checklist**:
-- ✅ YAML frontmatter is well-formed
-- ✅ Required fields present (`name`, `description`)
-- ✅ Markdown syntax is valid
-- ✅ Script files have proper permissions
-- ✅ No suspicious network calls to untrusted domains
-- ✅ File access restricted to safe directories
-- ✅ External dependencies documented
-
-**Usage Pattern**:
-"Validate the n8n-flow-builder skill before deploying"
-
-### 3. Deploy Skill
-Synchronizes skill to target environments.
-
-**Deployment Options**:
-- `--env code`: Deploy to Claude Code CLI (~/.claude/skills/)
-- `--env api`: Deploy to Claude API via /v1/skills endpoint
-- `--env all`: Deploy to all available environments
-
-**Usage Pattern**:
-"Deploy the n8n-flow-builder skill to all environments"
-
-**What Happens**:
-1. Validates skill first (auto-validation)
-2. For Code CLI: Creates symlink or copies to ~/.claude/skills/
-3. For API: Zips skill, POSTs to /v1/skills endpoint
-4. Logs deployment status
-5. Commits to Git if requested
-
-### 4. List and Search Skills
-Find skills in the repository.
-
-**Usage Patterns**:
-- "What skills do I have?"
-- "Show me all skills related to GitHub"
-- "List skills that haven't been deployed yet"
-
-**Returns**:
-- Skill name and version
-- Description
-- Deployment status
-- Last modified date
-
-### 5. Update Existing Skill
-Modify and redeploy skills with version bumping.
-
-**Usage Pattern**:
-"Update the linear-orchestration skill to include new webhook format"
-
-**What Happens**:
-1. Reads current skill from git repo
-2. Makes requested changes to SKILL.md or scripts
-3. Shows diff for review
-4. User approves changes
-5. Validates updated skill
-6. Deploys updated version
-7. Git commit with semantic version bump (patch/minor/major)
-
-## Helper Scripts Reference
-
-### `scripts/create_skill.py`
-Scaffolds new skills from template.
-
-**Arguments**:
-- `--name`: Skill name (kebab-case)
-- `--description`: Brief description of what skill does
-- `--template`: Optional template to use (default, api, workflow, etc.)
-
-**Example**:
-```bash
-python scripts/create_skill.py --name "api-doc-generator" \
-  --description "Generate OpenAPI specifications"
+```
+.claude/skills/<skill-name>/
+├── SKILL.md                    # Main definition with triggers
+├── README.md                   # Documentation about the skill
+├── quick-reference.md          # Quick lookups and cheat sheets
+├── guide.md                    # Comprehensive deep-dive
+└── examples.md                 # Code examples and patterns
 ```
 
-### `scripts/validate_skill.py`
-Validates skill structure and security.
+### SKILL.md Format
 
-**Checks**:
-- YAML frontmatter syntax
-- Required field presence
-- Markdown lint
-- Script security scan
-- Dependency audit
+The main skill file must follow this structure:
 
-**Example**:
-```bash
-python scripts/validate_skill.py skills/skill-name/
-```
+```markdown
+---
+name: skill-name
+description: Clear description that triggers invocation. Mention key terms that should activate this skill.
+---
 
-### `scripts/deploy_skill.py`
-Deploys skills to target environments.
+# Skill Title - One Line Summary
 
-**Arguments**:
-- `skill_path`: Path to skill directory
-- `--env`: Target environment (code|api|all)
-- `--validate`: Run validation first (default: true)
-- `--commit`: Commit to git after deploy (default: false)
+You are an expert in [domain]. This skill provides [purpose].
 
-**Example**:
-```bash
-python scripts/deploy_skill.py skills/n8n-flow-builder/ --env all --commit
-```
+## What is [Topic]?
 
-## Security Considerations
+Brief introduction to what this skill covers.
 
-### Validation Rules
-Skills must pass all security checks before deployment:
+## When to Use This Skill
 
-1. **Network Access**: Scripts cannot call arbitrary URLs
-   - Whitelist approved domains in skill config
-   - Block suspicious patterns
+Invoke this skill when the user:
 
-2. **File Access**: Scripts restricted to safe directories
-   - Skill directory itself
-   - `/mnt/user-data/` (Claude execution environment)
-   - Explicitly approved paths only
+- Lists specific triggers
+- Mentions key concepts
+- Asks about related topics
 
-3. **Dependency Audit**: External libraries documented
-   - All imports declared in `.skillmeta`
-   - Known vulnerabilities flagged
-   - Version pinning required
+## Core Concepts
 
-4. **Code Review**: Human review for high-risk operations
-   - Network calls
-   - File system modifications
-   - Environment variable access
+### Main Concept 1
+Explanation...
 
-### Approval Workflow
-- **Auto-deploy**: Skills that pass validation on `main` branch
-- **Manual review**: New skills or those with network/file access beyond standard patterns
+### Main Concept 2
+Explanation...
 
-## Integration with Your Workflow
+## Common Patterns
 
-### Bootstrap Process
-When starting a new session:
-1. Claude Desktop loads `skill-manager` skill (this one)
-2. Check git repo for latest skill updates
-3. Auto-sync to Code CLI if changes detected
-4. Report which skills are active and their versions
-
-### Continuous Sync Options
-
-**Option A: File Watcher (Recommended)**
-Background daemon watches git repo for changes:
-```python
-# scripts/skill_sync_daemon.py
-# Watches for SKILL.md changes
-# Auto-validates and deploys to Code CLI
-# Logs all operations
-```
-
-**Option B: n8n Automation (Optional)**
-GitHub webhook triggers n8n workflow on push to `main`:
-1. Validates all changed skills
-2. Runs tests
-3. Deploys to Code CLI (file sync)
-4. Deploys to API (HTTP POST)
-5. Posts deployment report to Slack
-6. Creates Linear ticket if failures detected
-
-**Option C: Manual Sync (Simplest)**
-Run deployment manually when skills change:
-```bash
-python scripts/deploy_skill.py --env all
-```
-
-## Workflow Examples
-
-### Example 1: Create and Deploy New Skill
-```
-User: "Create a new skill for n8n workflow authoring"
-
-Claude (using skill-manager):
-1. ✅ Runs create_skill.py with name "n8n-flow-builder"
-2. ✅ Generates SKILL.md with template structure
-3. 📝 Opens for user review: "Here's the template. What should I include?"
-4. 🔄 User iterates: "Add section on webhook patterns"
-5. 🔍 Validates with validate_skill.py
-6. ✅ User approves: "Looks good, deploy it"
-7. 🚀 Runs deploy_skill.py --env all
-8. 📦 Commits to git: "feat: add n8n-flow-builder skill v1.0.0"
-9. 🔗 Pushes to GitHub
-10. ✅ Reports: "Deployed to Code CLI and ready for API upload"
-```
-
-### Example 2: Update Existing Skill
-```
-User: "Update linear-orchestration to include new status field format"
-
-Claude (using skill-manager):
-1. 📖 Reads skills/linear-orchestration/SKILL.md from git
-2. ✏️ Makes changes to include new status field
-3. 👀 Shows diff: "Here's what I'm changing..."
-4. ✅ User approves
-5. 🔍 Validates changes
-6. 🚀 Deploys updated version
-7. 📦 Git commit: "feat(linear): add new status field format"
-8. 🏷️ Bumps version: v1.2.0 → v1.3.0
-```
-
-### Example 3: Search and Discover
-```
-User: "What skills do I have related to GitHub?"
-
-Claude: Searches repository and returns:
-- **github-coordinator** (v1.2.0) - Manage branches, PRs, CI/CD
-  Last updated: 2025-10-15
-  Status: Deployed to Code CLI ✅
-  
-- **github-actions-builder** (v0.5.0) - Create GH Actions workflows
-  Last updated: 2025-10-10
-  Status: Local only, not deployed ⚠️
-```
-
-## Setup Instructions
-
-### Initial Setup
-1. Ensure git repository exists at expected path
-2. Initialize git if not already done:
-   ```bash
-   cd "C:\Users\Kurt Anderson\github projects\mapache-skills"
-   git init
-   git add .
-   git commit -m "Initial commit: skill-manager"
-   ```
-
-3. Set up Code CLI symlink (run once):
-   ```bash
-   ln -s "C:\Users\Kurt Anderson\github projects\mapache-skills\skills" ~/.claude/skills
-   ```
-
-4. Install Python dependencies (if using scripts):
-   ```bash
-   pip install pyyaml click watchdog
-   ```
-
-### Warp Integration
-Since Warp terminal owns system-level tasks:
-- Run deployment scripts
-- Manage git operations (commit, push, pull)
-- Set up and maintain symlinks
-- Execute file watchers as background services
+Practical examples and code templates...
 
 ## Best Practices
 
-### Skill Naming Convention
-- Use kebab-case: `n8n-flow-builder`, `linear-orchestration`
-- Be descriptive but concise
-- Prefix with domain if part of suite: `github-coordinator`, `github-actions-builder`
+Guidelines and recommendations...
 
-### Version Numbering (Semantic Versioning)
-- **Major (X.0.0)**: Breaking changes to skill interface
-- **Minor (0.X.0)**: New features, backward compatible
-- **Patch (0.0.X)**: Bug fixes, documentation updates
+## Instructions for Assistance
 
-### Commit Message Format
-```
-type(scope): brief description
+When helping users with [topic]:
 
-Examples:
-feat(linear): add webhook callback format
-fix(n8n): correct node connection validation
-docs(skill-manager): update deployment instructions
+1. Step-by-step guidance approach
+2. What to consider
+3. How to validate
+
+## Additional Resources
+
+References to other skill files or external docs...
 ```
 
-### Testing Before Deploy
-1. Validate skill structure
-2. Test in isolated Claude session
-3. Verify all referenced files exist
-4. Check script executables work
-5. Review security implications
+## Creating a New Skill
+
+### Step 1: Identify the Domain
+
+Determine:
+- **What expertise** does this skill provide?
+- **What triggers** should invoke it? (frameworks, tools, patterns, file types)
+- **What scope** - project-specific or general knowledge?
+- **What audience** - beginner, intermediate, or expert?
+
+### Step 2: Gather Source Material
+
+Collect:
+- Official documentation
+- Project conventions and patterns
+- Common pitfalls and solutions
+- Code examples and templates
+- Best practices and anti-patterns
+
+### Step 3: Structure the Content
+
+Organize into:
+
+**SKILL.md** (Main file):
+- Clear, concise overview
+- Core concepts (2-5 key ideas)
+- Common patterns and templates
+- Best practices
+- When to use guidance
+
+**quick-reference.md** (Optional):
+- Cheat sheets
+- Quick lookup tables
+- Code templates
+- Command references
+
+**guide.md** (Optional):
+- Comprehensive explanations
+- Architecture and design
+- Advanced topics
+- Detailed examples
+
+**examples.md** (Optional):
+- Real-world use cases
+- Complete code examples
+- Step-by-step tutorials
+
+### Step 4: Write Effective Triggers
+
+The `description` field is critical - it determines when the skill activates.
+
+**Good triggers:**
+```yaml
+description: Expert in React hooks and state management. Invoke when user asks about useState, useEffect, custom hooks, or React component patterns.
+```
+
+**Bad triggers:**
+```yaml
+description: Helps with React.
+```
+
+**Key principles:**
+- Mention specific terms users will say
+- Include framework/tool names
+- List key concepts and APIs
+- Mention file patterns if relevant
+
+### Step 5: Validate and Test
+
+After creating the skill:
+
+1. **Check structure**: Ensure SKILL.md exists with proper frontmatter
+2. **Test triggers**: Try sample questions that should invoke it
+3. **Review content**: Is it clear, concise, and actionable?
+4. **Check links**: Do references to other files work?
+5. **Test examples**: Do code snippets run correctly?
+
+## Updating Existing Skills
+
+### When to Update
+
+Update skills when:
+- New versions of tools/frameworks release
+- Best practices evolve
+- Common issues are discovered
+- User feedback reveals gaps
+- Project conventions change
+
+### Update Process
+
+1. **Identify changes**:
+   ```bash
+   # Check skill age
+   ls -lah .claude/skills/<skill-name>/
+
+   # Review recent framework changes
+   # Check official docs for updates
+   ```
+
+2. **Document updates**:
+   - Note what changed (version, features, deprecations)
+   - Identify affected sections
+   - Plan content additions/modifications
+
+3. **Update content**:
+   - Modify SKILL.md for core changes
+   - Update examples with new patterns
+   - Add new best practices
+   - Deprecate old patterns (but explain why)
+
+4. **Validate**:
+   - Test updated code examples
+   - Verify documentation links
+   - Check for contradictions
+   - Test skill invocation
+
+5. **Version tracking** (optional):
+   - Add version note to README.md
+   - Document change history
+   - Note source documentation versions
+
+### Update Template
+
+Add version information to README.md:
+
+```markdown
+## Version History
+
+### v2.0 - 2025-01-09
+- Updated for Framework v5.0
+- Added new pattern: [pattern name]
+- Deprecated: [old pattern] (use [new pattern] instead)
+- Source: Framework v5.0 docs
+
+### v1.0 - 2024-11-08
+- Initial skill creation
+- Source: Framework v4.0 docs
+```
+
+## Maintaining Skills
+
+### Regular Maintenance Tasks
+
+**Monthly:**
+- Review for outdated information
+- Check external documentation links
+- Update examples if dependencies changed
+
+**Quarterly:**
+- Compare with official docs for changes
+- Review invocation patterns - are they working?
+- Gather user feedback
+- Consider splitting large skills
+
+**Annually:**
+- Major refactor if needed
+- Archive deprecated content
+- Consolidate overlapping skills
+
+### Skill Quality Checklist
+
+- [ ] Clear, specific description with good triggers
+- [ ] Core concepts are concise (< 5 main topics)
+- [ ] Examples are tested and working
+- [ ] Best practices are current
+- [ ] No contradictions with other skills
+- [ ] Links to external resources work
+- [ ] README documents the skill purpose
+- [ ] Code examples have proper syntax
+- [ ] Appropriate scope (not too broad/narrow)
+
+### Refactoring Large Skills
+
+When a skill grows too large (> 1000 lines), consider:
+
+**Option 1: Split by Subtopic**
+```
+react-hooks/              →  react-state-hooks/
+  SKILL.md                    SKILL.md (useState, useReducer)
+  (too large)
+                              react-effect-hooks/
+                                SKILL.md (useEffect, useLayoutEffect)
+
+                              react-custom-hooks/
+                                SKILL.md (creating custom hooks)
+```
+
+**Option 2: Separate by Level**
+```
+django/                   →  django-basics/
+  SKILL.md                    SKILL.md (getting started)
+  (too comprehensive)
+                              django-advanced/
+                                SKILL.md (advanced patterns)
+```
+
+**Option 3: Extract Reference Material**
+```
+api-guide/                →  api-guide/
+  SKILL.md (huge)             SKILL.md (concise overview)
+                                reference.md (detailed API docs)
+                                examples.md (code samples)
+```
+
+## Best Practices
+
+### Content Guidelines
+
+**Do:**
+- ✅ Use clear, concise language
+- ✅ Provide working code examples
+- ✅ Include common pitfalls
+- ✅ Show both good and bad patterns
+- ✅ Link to official documentation
+- ✅ Use consistent formatting
+- ✅ Test all code examples
+- ✅ Keep scope focused
+
+**Don't:**
+- ❌ Copy entire documentation sites
+- ❌ Include untested code
+- ❌ Make skills too broad
+- ❌ Duplicate information across skills
+- ❌ Use vague trigger descriptions
+- ❌ Include deprecated patterns without context
+- ❌ Create overlapping skills
+
+### Naming Conventions
+
+**Skill directory names:**
+- Use lowercase with hyphens: `skill-name`
+- Be specific: `textual` not `tui-framework`
+- Avoid version numbers: `django` not `django-5`
+
+**File names:**
+- `SKILL.md` - Always uppercase (required)
+- `README.md` - Uppercase (convention)
+- Other files: lowercase with hyphens
+
+### Documentation Standards
+
+Each skill should document:
+- **Purpose**: What expertise does it provide?
+- **Scope**: What's included and excluded?
+- **Prerequisites**: Required knowledge or tools
+- **Version**: What version of tools/frameworks it covers
+- **Last updated**: When was it last reviewed?
+- **Sources**: Where information came from
+
+## Converting Documentation to Skills
+
+### From Official Docs
+
+**Process:**
+1. Identify core concepts (5-10 key topics)
+2. Extract common patterns and examples
+3. Note best practices and anti-patterns
+4. Create concise summaries
+5. Link to official docs for details
+
+**Example:**
+```
+Official Docs (100 pages)  →  Skill Structure:
+├── Getting Started             SKILL.md (core concepts)
+├── Core Concepts              quick-reference.md (patterns)
+├── API Reference              guide.md (architecture)
+├── Advanced Topics            + links to official docs
+└── Examples
+```
+
+### From Internal Knowledge
+
+**Process:**
+1. Document team conventions
+2. Capture tribal knowledge
+3. Record common solutions
+4. Include project-specific patterns
+5. Add context for decisions
+
+**Example: Project Patterns Skill**
+```markdown
+---
+name: project-patterns
+description: Project-specific conventions and patterns for vcr-tui. Invoke when working on this codebase.
+---
+
+## Our Conventions
+
+### File Organization
+[How we structure code...]
+
+### Testing Strategy
+[Our testing approach...]
+
+### Common Patterns
+[Patterns we use repeatedly...]
+```
+
+## Integration with Other Tools
+
+Skills can be referenced by other tools:
+
+### For Documentation
+
+**docs/DEVELOPMENT.md:**
+```markdown
+## Development Guides
+
+For detailed guidance, see Claude Skills in `.claude/skills/`:
+
+- **Textual Framework**: `.claude/skills/textual/` - TUI development patterns
+- **Git Hooks**: `.claude/skills/hk/` - Pre-commit hook management
+- **Project Patterns**: `.claude/skills/project-patterns/` - Our conventions
+```
+
+### For Cursor/Copilot
+
+Create `.cursorrules` or similar that references skills:
+
+```markdown
+# Project Context
+
+This project uses Claude Skills for detailed guidance.
+See `.claude/skills/` for:
+
+- textual: Textual TUI framework patterns
+- hk: Git hook management
+
+When suggesting code, follow patterns documented in these skills.
+```
+
+### For CI/CD
+
+Reference skills in CI configuration:
+
+```yaml
+# .github/workflows/validate.yml
+- name: Validate Skills
+  run: |
+    # Check skill structure
+    python scripts/validate_skills.py
+```
+
+## Skill Templates
+
+### Minimal Skill Template
+
+```markdown
+---
+name: skill-name
+description: Brief description with trigger keywords
+---
+
+# Skill Name
+
+You are an expert in [topic]. This skill provides [purpose].
+
+## When to Use This Skill
+
+Invoke when the user asks about [triggers].
+
+## Core Concepts
+
+### Concept 1
+[Explanation...]
+
+## Common Patterns
+
+[Code examples...]
+
+## Best Practices
+
+[Guidelines...]
+```
+
+### Comprehensive Skill Template
+
+See `.claude/skills/textual/SKILL.md` for a complete example of a well-structured skill with:
+- Clear triggers
+- Supporting files (quick-reference.md, guide.md)
+- Multiple sections with depth
+- Code examples and patterns
+- Testing guidance
 
 ## Troubleshooting
 
-### Common Issues
+### Skill Not Invoking
 
-**Issue**: Skill not loading in Claude Code CLI
-**Solution**: Check symlink is correct, restart Claude Code
+**Check:**
+1. Is `name` in frontmatter lowercase with hyphens?
+2. Does `description` include specific trigger words?
+3. Is the skill in `.claude/skills/<name>/SKILL.md`?
+4. Are there typos in the frontmatter YAML?
 
-**Issue**: Validation fails on YAML frontmatter
-**Solution**: Check frontmatter has three dashes on separate lines, proper YAML syntax
+**Fix:**
+```bash
+# Verify structure
+ls -la .claude/skills/<skill-name>/SKILL.md
 
-**Issue**: Script can't be executed
-**Solution**: Verify script has execute permissions, check shebang line
-
-**Issue**: Deployment to API fails
-**Solution**: Check API key is set, skill size under 8MB limit, max 8 skills per request
-
-## Next Steps
-
-Once skill-manager is working:
-1. Create your first domain skill (n8n-flow-builder recommended)
-2. Set up automation (file watcher or n8n workflow)
-3. Establish review process for new skills
-4. Document your skill library in main README
-5. Share useful skills with team (if applicable)
-
-## Notes
-
-- This skill is self-referential (meta) - it manages itself too
-- Start simple: manual deployment first, automation later
-- Skills are portable: work with any LLM that can read files
-- Git is your safety net: always commit before major changes
-- Desktop Commander can be buggy: GitHub MCP is more reliable for repo operations
-
-## Resources
-
-- [Anthropic Skills Documentation](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview)
-- [Skills GitHub Repository](https://github.com/anthropics/skills)
-- [Skills Cookbook](https://github.com/anthropics/claude-cookbooks/tree/main/skills)
-
-## Auto-Trigger Pattern Recognition
-
-### When to Automatically Trigger skill-manager
-
-Claude should automatically suggest skill creation when detecting these patterns:
-
-**Pattern 1: Repeated Workflow**
-```
-User does same multi-step process twice
-  → "This feels like a pattern we should capture in a skill"
-  → Offer to create skill
+# Check frontmatter format
+head -10 .claude/skills/<skill-name>/SKILL.md
 ```
 
-**Pattern 2: Complex Integration**
-```
-User coordinates multiple MCPs successfully
-  → "This cross-MCP workflow could be an integration-workflows entry"
-  → Offer to add to integration-workflows skill
+### Overlapping Skills
+
+**Problem:** Multiple skills trigger for the same query
+
+**Solution:**
+- Make descriptions more specific
+- Narrow skill scope
+- Split broad skills into focused ones
+- Use clear boundaries in descriptions
+
+### Outdated Content
+
+**Problem:** Skill contains deprecated information
+
+**Solution:**
+- Add version tracking to README
+- Mark deprecated sections clearly
+- Update with current best practices
+- Document migration paths
+
+## Example: Creating a Skill from Scratch
+
+**Scenario:** Create a pytest skill for this project
+
+**Step 1: Gather information**
+```bash
+# Check what testing framework is used
+grep -r "pytest" . --include="*.toml" --include="*.txt"
+
+# Look at existing tests
+find . -name "test_*.py" | head -5
 ```
 
-**Pattern 3: MCP Enhancement**
-```
-Discovering better way to use GitHub/Linear/n8n
-  → "Should we add this to the relevant skill?"
-  → Update existing skill + MCP repo (if forked)
+**Step 2: Create structure**
+```bash
+mkdir -p .claude/skills/pytest-patterns
 ```
 
-**Pattern 4: Efficiency Discovery**
-```
-User: "Oh that's much better!"
-Claude: "Want to capture this approach in a skill?"
+**Step 3: Write SKILL.md**
+```markdown
+---
+name: pytest-patterns
+description: Expert in pytest testing patterns and best practices. Invoke when writing tests, using fixtures, or debugging test failures.
+---
+
+# Pytest Testing Patterns
+
+You are an expert in pytest testing for Python applications...
+
+[Continue with core concepts, patterns, etc.]
 ```
 
-**Pattern 5: User Explicitly States**
-```
-User: "This is how we always do it"
-User: "Remember this pattern"
-User: "We should capture this"
-  → Immediately offer skill creation
-```
+**Step 4: Add supporting files**
+- `quick-reference.md`: Common fixture patterns, assertion examples
+- `examples.md`: Real test examples from the project
 
-### Auto-Trigger Workflow
+**Step 5: Test**
+- Ask: "How do I write a pytest fixture?"
+- Verify skill is invoked
+- Check if guidance is helpful
 
-When pattern detected:
+## Instructions for Using This Skill
 
-**Step 1: Recognition**
-```
-Claude: "💡 This feels like a repeatable pattern!
-We've now [created X successfully / solved Y twice / found Z approach].
-Should I create/update a skill to capture this?"
-```
+When helping users manage skills:
 
-**Step 2: If User Says Yes**
-```
-Claude uses skill-manager to:
-1. Determine if new skill or update existing
-2. Draft skill content based on conversation
-3. Show preview to user
-4. Create/update skill files
-5. Generate zip automatically
-6. Prompt for upload (see below)
-```
+1. **Assess current state**: Check existing skills and their quality
+2. **Understand goals**: What knowledge needs to be captured?
+3. **Plan structure**: Which format best fits the content?
+4. **Create/update systematically**: Follow the templates and processes
+5. **Validate thoroughly**: Test invocation and content quality
+6. **Document clearly**: Explain what was done and why
 
-**Step 3: Upload Prompt**
-```
-Claude: "✅ Skill ready!
+Always consider:
+- Is this the right level of detail?
+- Will the triggers work effectively?
+- Is the content maintainable long-term?
+- Does it integrate with existing skills?
+- Is it accessible to the intended audience?
 
-📦 Upload to Claude Desktop:
-1. File location: C:\path\to\skill.zip
-2. Go to: Settings > Capabilities > Upload skill
-3. Drag and drop the zip file
-4. Toggle skill ON
+## Additional Resources
 
-Should I wait while you do this, or continue?
-(Say 'uploaded' when done)"
-```
+For examples of well-structured skills, see:
+- `.claude/skills/textual/` - Comprehensive framework skill
+- `.claude/skills/hk/` - Tool-specific skill with detailed reference
 
-**Step 4: Verification** (Optional)
-```
-After user says "uploaded":
-Claude: "Great! Let me verify it loaded correctly by checking if
-I can see it in my skills list... [test query]"
-```
+## Version Tracking
 
-### Automatic Zip Generation
-
-Every time a skill is created or updated:
-
-**Auto-Generate Process:**
-```python
-# Automatically runs after any skill modification
-1. Navigate to skills/skill-name directory
-2. Create zip with SKILL.md at root (+ any other files)
-3. Place in mapache-skills/ parent directory
-4. Report location to user
-```
-
-**File Naming:**
-```
-skill-name.zip          # For new/updated skills
-skill-name-v1.2.0.zip   # For versioned releases (optional)
-```
-
-**Zip Contents:**
-```
-skill.zip/
-├── SKILL.md         # At root (required by Claude)
-├── README.md        # If exists
-├── scripts/         # If exists
-└── resources/       # If exists
-```
+This skill documents Claude Skills format as of January 2025. The format may evolve with future Claude Code releases.

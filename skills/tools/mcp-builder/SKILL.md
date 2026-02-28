@@ -1,241 +1,590 @@
 ---
 name: mcp-builder
-description: "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate exte..."
-risk: unknown
-source: community
-date_added: "2026-02-27"
+description: Build Model Context Protocol (MCP) servers with mcp-use framework. Use when creating MCP servers, defining tools/resources/prompts, working with mcp-use, bootstrapping MCP projects, deploying MCP servers, or when user mentions MCP development, MCP tools, MCP resources, or MCP prompts.
 ---
 
-# MCP Server Development Guide
+# MCP Server Builder
 
-## Overview
+Build production-ready MCP servers with the mcp-use framework. This Skill provides quick-start instructions and best practices for creating MCP servers.
 
-Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.
+## Quick Start
 
----
+**Always bootstrap with `npx create-mcp-use-app`:**
 
-# Process
-
-## 🚀 High-Level Workflow
-
-Creating a high-quality MCP server involves four main phases:
-
-### Phase 1: Deep Research and Planning
-
-#### 1.1 Understand Modern MCP Design
-
-**API Coverage vs. Workflow Tools:**
-Balance comprehensive API endpoint coverage with specialized workflow tools. Workflow tools can be more convenient for specific tasks, while comprehensive coverage gives agents flexibility to compose operations. Performance varies by client—some clients benefit from code execution that combines basic tools, while others work better with higher-level workflows. When uncertain, prioritize comprehensive API coverage.
-
-**Tool Naming and Discoverability:**
-Clear, descriptive tool names help agents find the right tools quickly. Use consistent prefixes (e.g., `github_create_issue`, `github_list_repos`) and action-oriented naming.
-
-**Context Management:**
-Agents benefit from concise tool descriptions and the ability to filter/paginate results. Design tools that return focused, relevant data. Some clients support code execution which can help agents filter and process data efficiently.
-
-**Actionable Error Messages:**
-Error messages should guide agents toward solutions with specific suggestions and next steps.
-
-#### 1.2 Study MCP Protocol Documentation
-
-**Navigate the MCP specification:**
-
-Start with the sitemap to find relevant pages: `https://modelcontextprotocol.io/sitemap.xml`
-
-Then fetch specific pages with `.md` suffix for markdown format (e.g., `https://modelcontextprotocol.io/specification/draft.md`).
-
-Key pages to review:
-- Specification overview and architecture
-- Transport mechanisms (streamable HTTP, stdio)
-- Tool, resource, and prompt definitions
-
-#### 1.3 Study Framework Documentation
-
-**Recommended stack:**
-- **Language**: TypeScript (high-quality SDK support and good compatibility in many execution environments e.g. MCPB. Plus AI models are good at generating TypeScript code, benefiting from its broad usage, static typing and good linting tools)
-- **Transport**: Streamable HTTP for remote servers, using stateless JSON (simpler to scale and maintain, as opposed to stateful sessions and streaming responses). stdio for local servers.
-
-**Load framework documentation:**
-
-- **MCP Best Practices**: [📋 View Best Practices](./reference/mcp_best_practices.md) - Core guidelines
-
-**For TypeScript (recommended):**
-- **TypeScript SDK**: Use WebFetch to load `https://raw.githubusercontent.com/modelcontextprotocol/typescript-sdk/main/README.md`
-- [⚡ TypeScript Guide](./reference/node_mcp_server.md) - TypeScript patterns and examples
-
-**For Python:**
-- **Python SDK**: Use WebFetch to load `https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/main/README.md`
-- [🐍 Python Guide](./reference/python_mcp_server.md) - Python patterns and examples
-
-#### 1.4 Plan Your Implementation
-
-**Understand the API:**
-Review the service's API documentation to identify key endpoints, authentication requirements, and data models. Use web search and WebFetch as needed.
-
-**Tool Selection:**
-Prioritize comprehensive API coverage. List endpoints to implement, starting with the most common operations.
-
----
-
-### Phase 2: Implementation
-
-#### 2.1 Set Up Project Structure
-
-See language-specific guides for project setup:
-- [⚡ TypeScript Guide](./reference/node_mcp_server.md) - Project structure, package.json, tsconfig.json
-- [🐍 Python Guide](./reference/python_mcp_server.md) - Module organization, dependencies
-
-#### 2.2 Implement Core Infrastructure
-
-Create shared utilities:
-- API client with authentication
-- Error handling helpers
-- Response formatting (JSON/Markdown)
-- Pagination support
-
-#### 2.3 Implement Tools
-
-For each tool:
-
-**Input Schema:**
-- Use Zod (TypeScript) or Pydantic (Python)
-- Include constraints and clear descriptions
-- Add examples in field descriptions
-
-**Output Schema:**
-- Define `outputSchema` where possible for structured data
-- Use `structuredContent` in tool responses (TypeScript SDK feature)
-- Helps clients understand and process tool outputs
-
-**Tool Description:**
-- Concise summary of functionality
-- Parameter descriptions
-- Return type schema
-
-**Implementation:**
-- Async/await for I/O operations
-- Proper error handling with actionable messages
-- Support pagination where applicable
-- Return both text content and structured data when using modern SDKs
-
-**Annotations:**
-- `readOnlyHint`: true/false
-- `destructiveHint`: true/false
-- `idempotentHint`: true/false
-- `openWorldHint`: true/false
-
----
-
-### Phase 3: Review and Test
-
-#### 3.1 Code Quality
-
-Review for:
-- No duplicated code (DRY principle)
-- Consistent error handling
-- Full type coverage
-- Clear tool descriptions
-
-#### 3.2 Build and Test
-
-**TypeScript:**
-- Run `npm run build` to verify compilation
-- Test with MCP Inspector: `npx @modelcontextprotocol/inspector`
-
-**Python:**
-- Verify syntax: `python -m py_compile your_server.py`
-- Test with MCP Inspector
-
-See language-specific guides for detailed testing approaches and quality checklists.
-
----
-
-### Phase 4: Create Evaluations
-
-After implementing your MCP server, create comprehensive evaluations to test its effectiveness.
-
-**Load [✅ Evaluation Guide](./reference/evaluation.md) for complete evaluation guidelines.**
-
-#### 4.1 Understand Evaluation Purpose
-
-Use evaluations to test whether LLMs can effectively use your MCP server to answer realistic, complex questions.
-
-#### 4.2 Create 10 Evaluation Questions
-
-To create effective evaluations, follow the process outlined in the evaluation guide:
-
-1. **Tool Inspection**: List available tools and understand their capabilities
-2. **Content Exploration**: Use READ-ONLY operations to explore available data
-3. **Question Generation**: Create 10 complex, realistic questions
-4. **Answer Verification**: Solve each question yourself to verify answers
-
-#### 4.3 Evaluation Requirements
-
-Ensure each question is:
-- **Independent**: Not dependent on other questions
-- **Read-only**: Only non-destructive operations required
-- **Complex**: Requiring multiple tool calls and deep exploration
-- **Realistic**: Based on real use cases humans would care about
-- **Verifiable**: Single, clear answer that can be verified by string comparison
-- **Stable**: Answer won't change over time
-
-#### 4.4 Output Format
-
-Create an XML file with this structure:
-
-```xml
-<evaluation>
-  <qa_pair>
-    <question>Find discussions about AI model launches with animal codenames. One model needed a specific safety designation that uses the format ASL-X. What number X was being determined for the model named after a spotted wild cat?</question>
-    <answer>3</answer>
-  </qa_pair>
-<!-- More qa_pairs... -->
-</evaluation>
+```bash
+npx create-mcp-use-app my-mcp-server
+cd my-mcp-server
 ```
 
----
+**Choose template based on needs:**
+- `--template starter` - Full-featured with all MCP primitives (tools, resources, prompts) + example widgets
+- `--template mcp-apps` - Optimized for ChatGPT widgets with product search example
+- `--template blank` - Minimal starting point for custom implementation
 
-# Reference Files
+```bash
+# Example: MCP Apps template
+npx create-mcp-use-app my-server --template mcp-apps
+cd my-server
+yarn install
+```
 
-## 📚 Documentation Library
+**Template Details:**
+- **starter**: Best for learning - includes all MCP features plus widgets
+- **mcp-apps**: Best for ChatGPT apps - includes product carousel/accordion example
+- **blank**: Best for experts - minimal boilerplate
 
-Load these resources as needed during development:
+## MCP Apps Structure
 
-### Core MCP Documentation (Load First)
-- **MCP Protocol**: Start with sitemap at `https://modelcontextprotocol.io/sitemap.xml`, then fetch specific pages with `.md` suffix
-- [📋 MCP Best Practices](./reference/mcp_best_practices.md) - Universal MCP guidelines including:
-  - Server and tool naming conventions
-  - Response format guidelines (JSON vs Markdown)
-  - Pagination best practices
-  - Transport selection (streamable HTTP vs stdio)
-  - Security and error handling standards
+### Automatic Widget Registration
 
-### SDK Documentation (Load During Phase 1/2)
-- **Python SDK**: Fetch from `https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/main/README.md`
-- **TypeScript SDK**: Fetch from `https://raw.githubusercontent.com/modelcontextprotocol/typescript-sdk/main/README.md`
+The mcp-apps and starter templates automatically discover and register React widgets from the `resources/` folder:
 
-### Language-Specific Implementation Guides (Load During Phase 2)
-- [🐍 Python Implementation Guide](./reference/python_mcp_server.md) - Complete Python/FastMCP guide with:
-  - Server initialization patterns
-  - Pydantic model examples
-  - Tool registration with `@mcp.tool`
-  - Complete working examples
-  - Quality checklist
+**Single-file widget pattern:**
+```
+resources/
+└── weather-display.tsx  # Widget name becomes "weather-display"
+```
 
-- [⚡ TypeScript Implementation Guide](./reference/node_mcp_server.md) - Complete TypeScript guide with:
-  - Project structure
-  - Zod schema patterns
-  - Tool registration with `server.registerTool`
-  - Complete working examples
-  - Quality checklist
+**Folder-based widget pattern:**
+```
+resources/
+└── product-search/      # Widget name becomes "product-search"
+    ├── widget.tsx       # Entry point (required name!)
+    ├── components/      # Sub-components
+    ├── hooks/           # Custom hooks
+    ├── types.ts
+    └── constants.ts
+```
 
-### Evaluation Guide (Load During Phase 4)
-- [✅ Evaluation Guide](./reference/evaluation.md) - Complete evaluation creation guide with:
-  - Question creation guidelines
-  - Answer verification strategies
-  - XML format specifications
-  - Example questions and answers
-  - Running an evaluation with the provided scripts
+**What happens automatically:**
+1. Server scans `resources/` folder at startup
+2. Finds `.tsx` files or `widget.tsx` in folders
+3. Extracts `widgetMetadata` from each component
+4. Registers as MCP Tool (e.g., `weather-display`)
+5. Registers as MCP Resource (e.g., `ui://widget/weather-display.html`)
+6. Builds widget bundles with Vite
 
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+**No manual registration needed!** Just export `widgetMetadata` and a default component.
+
+## Defining Tools
+
+Tools are executable functions that AI models can call:
+
+```typescript
+import { MCPServer, text, object } from "mcp-use/server";
+import { z } from "zod";
+
+const server = new MCPServer({
+  name: "my-server",
+  version: "1.0.0",
+  description: "My MCP server"
+});
+
+// Simple tool
+server.tool(
+  {
+    name: "greet-user",
+    description: "Greet a user by name",
+    schema: z.object({
+      name: z.string().describe("The user's name"),
+      formal: z.boolean().optional().describe("Use formal greeting")
+    })
+  },
+  async ({ name, formal }) => {
+    const greeting = formal ? `Good day, ${name}` : `Hey ${name}!`;
+    return text(greeting);
+  }
+);
+```
+
+**Key points:**
+- Use Zod for schema validation
+- Add `.describe()` to all parameters
+- Return appropriate response types (text, object, widget)
+
+## Defining Resources
+
+Resources expose data that clients can read:
+
+```typescript
+import { object, text, markdown } from "mcp-use/server";
+
+// Static resource
+server.resource(
+  {
+    uri: "config://settings",
+    name: "Application Settings",
+    description: "Current configuration",
+    mimeType: "application/json"
+  },
+  async () => {
+    return object({
+      theme: "dark",
+      version: "1.0.0"
+    });
+  }
+);
+
+// Dynamic resource
+server.resource(
+  {
+    uri: "stats://current",
+    name: "Current Stats",
+    description: "Real-time statistics",
+    mimeType: "application/json"
+  },
+  async () => {
+    const stats = await getStats();
+    return object(stats);
+  }
+);
+
+// Markdown resource
+server.resource(
+  {
+    uri: "docs://guide",
+    name: "User Guide",
+    description: "Documentation",
+    mimeType: "text/markdown"
+  },
+  async () => {
+    return markdown("# Guide\n\nWelcome!");
+  }
+);
+```
+
+**Response helpers available:**
+- `text(string)` - Plain text
+- `object(data)` - JSON objects
+- `markdown(string)` - Markdown content
+- `html(string)` - HTML content
+- `image(buffer, mimeType)` - Binary images
+- `audio(buffer, mimeType)` - Audio files
+- `binary(buffer, mimeType)` - Binary data
+- `mix(...contents)` - Combine multiple content types
+
+**Advanced response examples:**
+
+```typescript
+// Audio response
+import { audio } from 'mcp-use/server';
+
+// From base64 data
+return audio(base64Data, "audio/wav");
+
+// From file path (async)
+return await audio("/path/to/audio.mp3");
+
+// Binary data (PDFs, etc.)
+import { binary } from 'mcp-use/server';
+return binary(pdfBuffer, "application/pdf");
+
+// Mix multiple content types
+import { mix, text, object, resource } from 'mcp-use/server';
+return mix(
+  text("Analysis complete:"),
+  object({ score: 95, status: "pass" }),
+  resource("report://analysis-123", text("Full report..."))
+);
+```
+
+## Defining Prompts
+
+Prompts are reusable templates for AI interactions:
+
+```typescript
+server.prompt(
+  {
+    name: "code-review",
+    description: "Generate a code review template",
+    schema: z.object({
+      language: z.string().describe("Programming language"),
+      focusArea: z.string().optional().describe("Specific focus area")
+    })
+  },
+  async ({ language, focusArea }) => {
+    const focus = focusArea ? ` with focus on ${focusArea}` : "";
+    return {
+      messages: [
+        {
+          role: "user",
+          content: {
+            type: "text",
+            text: `Please review this ${language} code${focus}.`
+          }
+        }
+      ]
+    };
+  }
+);
+```
+
+## Testing Locally
+
+**Development mode (hot reload):**
+```bash
+yarn dev
+```
+
+**Production mode:**
+```bash
+yarn build
+yarn start
+```
+
+**Inspector UI:**
+Access at `http://localhost:3000/inspector` to test tools, view resources, and try prompts.
+
+**Tunneling (test with ChatGPT before deploying):**
+
+Option 1 - Auto-tunnel:
+```bash
+mcp-use start --port 3000 --tunnel
+```
+
+Option 2 - Separate tunnel:
+```bash
+yarn start  # Terminal 1
+npx @mcp-use/tunnel 3000  # Terminal 2
+```
+
+You'll get a public URL like `https://happy-cat.local.mcp-use.run/mcp`
+
+**Tunnel details:**
+- Expires after 24 hours
+- Closes after 1 hour of inactivity
+- Rate limit: 10 creations/hour, max 5 active per IP
+
+Learn more: https://mcp-use.com/docs/tunneling
+
+## Deployment
+
+**Deploy to mcp-use Cloud (recommended):**
+
+```bash
+# Login first (if not already)
+npx mcp-use login
+
+# Deploy
+yarn deploy
+```
+
+**If authentication error:**
+```bash
+npx mcp-use login
+yarn deploy
+```
+
+**After deployment:**
+- Public URL provided (e.g., `https://your-server.mcp-use.com/mcp`)
+- Auto-scaled and monitored
+- HTTPS enabled
+- Zero-downtime deployments
+
+## Best Practices
+
+**Tool Design:**
+- One tool = one focused capability
+- Descriptive names and descriptions
+- Use `.describe()` on all Zod fields
+- Handle errors gracefully
+- Return helpful error messages
+
+**Resource Design:**
+- Use clear URI schemes (config://, docs://, stats://)
+- Choose appropriate MIME types
+- Use response helpers for cleaner code
+- Make resources dynamic when needed
+
+**Prompt Design:**
+- Keep prompts reusable
+- Use system messages for context
+- Parameterize with Zod schemas
+- Include clear instructions
+
+**Testing:**
+- Test with Inspector UI first
+- Use tunneling to test with real clients before deploying
+- Verify all tools, resources, and prompts work as expected
+
+**Deployment:**
+- Test locally and with tunneling first
+- Run `npx mcp-use login` if deploy fails
+- Version your server semantically
+- Document breaking changes
+
+## Widget Support
+
+### Automatic Widget Registration
+
+When using the `mcp-apps` or `starter` template, widgets in the `resources/` folder are automatically registered:
+
+```tsx
+// resources/weather-display.tsx
+import { useWidget, McpUseProvider, type WidgetMetadata } from 'mcp-use/react';
+import { z } from 'zod';
+
+const propSchema = z.object({
+  city: z.string(),
+  temperature: z.number()
+});
+
+// Required: Export widget metadata
+export const widgetMetadata: WidgetMetadata = {
+  description: "Display weather information",
+  props: propSchema, // Use 'props', not 'schema'!
+};
+
+// Required: Export default component
+export default function WeatherDisplay() {
+  const { props, isPending } = useWidget<z.infer<typeof propSchema>>();
+
+  // Always handle loading state
+  if (isPending) return <div>Loading...</div>;
+
+  return (
+    <McpUseProvider autoSize>
+      <div>
+        <h2>{props.city}</h2>
+        <p>{props.temperature}°C</p>
+      </div>
+    </McpUseProvider>
+  );
+}
+```
+
+**Widget automatically becomes available as:**
+- MCP Tool: `weather-display`
+- MCP Resource: `ui://widget/weather-display.html`
+
+### Content Security Policy (CSP)
+
+Control what external resources widgets can access:
+
+```typescript
+export const widgetMetadata: WidgetMetadata = {
+  description: "Weather widget",
+  props: z.object({ city: z.string() }),
+  metadata: {
+    csp: {
+      // APIs to call
+      connectDomains: ["https://api.weather.com"],
+      // Static assets to load
+      resourceDomains: ["https://cdn.weather.com"],
+      // Iframes to embed
+      frameDomains: ["https://embed.weather.com"],
+      // Script directives
+      scriptDirectives: ["'unsafe-inline'"],
+    },
+  },
+};
+```
+
+Alternatively, set at server level:
+
+```typescript
+server.uiResource({
+  type: "mcpApps",
+  name: "my-widget",
+  htmlTemplate: `...`,
+  metadata: {
+    csp: {
+      connectDomains: ["https://api.example.com"],
+      resourceDomains: ["https://cdn.example.com"],
+    },
+  },
+});
+```
+
+## Dual-Protocol Widget Support
+
+mcp-use supports the **MCP Apps standard** (SEP-1865) with automatic dual-protocol support:
+
+```typescript
+import { MCPServer } from 'mcp-use/server';
+
+const server = new MCPServer({
+  name: 'my-server',
+  version: '1.0.0',
+  baseUrl: process.env.MCP_URL || 'http://localhost:3000', // Required for widgets
+});
+
+// Register a dual-protocol widget
+server.uiResource({
+  type: "mcpApps", // Works with BOTH MCP Apps clients AND ChatGPT
+  name: "weather-display",
+  htmlTemplate: `<!DOCTYPE html>...`,
+  metadata: {
+    csp: { connectDomains: ["https://api.weather.com"] },
+    prefersBorder: true,
+    autoResize: true,
+  },
+});
+```
+
+**What happens automatically:**
+- **MCP Apps clients** (Claude, Goose) receive: `text/html;profile=mcp-app` with `_meta.ui.*`
+- **ChatGPT** receives: `text/html+skybridge` with `_meta.openai/*`
+- Same widget code works everywhere!
+
+### Custom OpenAI Metadata
+
+Need ChatGPT-specific features? Combine both metadata fields:
+
+```typescript
+server.uiResource({
+  type: "mcpApps",
+  name: "my-widget",
+  htmlTemplate: `...`,
+  // Unified metadata (dual-protocol)
+  metadata: {
+    csp: { connectDomains: ["https://api.example.com"] },
+    prefersBorder: true,
+  },
+  // ChatGPT-specific overrides
+  appsSdkMetadata: {
+    "openai/widgetDescription": "ChatGPT-specific description",
+    "openai/customFeature": "some-value", // Any custom OpenAI metadata
+  },
+});
+```
+
+## Project Structure
+
+```
+my-mcp-server/
+├── resources/           # React widgets (apps-sdk)
+│   └── widget.tsx
+├── public/             # Static assets
+├── index.ts            # Server entry point
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+## Common Patterns
+
+**Tool with dual-protocol widget:**
+```typescript
+import { MCPServer, widget, text } from 'mcp-use/server';
+import { z } from 'zod';
+
+const server = new MCPServer({
+  name: 'my-server',
+  version: '1.0.0',
+  baseUrl: process.env.MCP_URL || 'http://localhost:3000',
+});
+
+server.tool(
+  {
+    name: "show-data",
+    description: "Display data with visualization",
+    schema: z.object({
+      query: z.string()
+    }),
+    widget: {
+      name: "data-display", // Must exist in resources/
+      invoking: "Loading...",
+      invoked: "Data loaded"
+    }
+  },
+  async ({ query }) => {
+    const data = await fetchData(query);
+    return widget({
+      props: { data },
+      output: text(`Found ${data.length} results`)
+    });
+  }
+);
+```
+
+**Resource template (parameterized):**
+```typescript
+server.resourceTemplate(
+  {
+    uriTemplate: "user://{userId}/profile",
+    name: "User Profile",
+    description: "Get user by ID",
+    mimeType: "application/json"
+  },
+  async ({ userId }) => {
+    const user = await fetchUser(userId);
+    return object(user);
+  }
+);
+```
+
+**Error handling:**
+```typescript
+server.tool(
+  {
+    name: "divide",
+    schema: z.object({
+      a: z.number(),
+      b: z.number()
+    })
+  },
+  async ({ a, b }) => {
+    if (b === 0) {
+      return text("Error: Cannot divide by zero");
+    }
+    return text(`Result: ${a / b}`);
+  }
+);
+```
+
+## Detailed Examples
+
+For comprehensive examples and advanced patterns, connect to the **mcp-use MCP server** which provides:
+- Complete example resources for all primitives
+- Full working server examples
+- Detailed documentation
+- Interactive widgets showcase
+
+## Learn More
+
+- **Documentation**: https://docs.mcp-use.com
+- **MCP Apps Standard**: https://docs.mcp-use.com/typescript/server/mcp-apps (dual-protocol guide)
+- **Templates**: https://docs.mcp-use.com/typescript/server/templates (template comparison)
+- **Widget Guide**: https://docs.mcp-use.com/typescript/server/ui-widgets
+- **Examples**: https://github.com/mcp-use/mcp-use/tree/main/examples
+- **Tunneling Guide**: https://mcp-use.com/docs/tunneling
+- **Discord**: https://mcp-use.com/discord
+- **GitHub**: https://github.com/mcp-use/mcp-use
+
+## Quick Reference
+
+**Commands:**
+- `npx create-mcp-use-app my-server` - Bootstrap
+- `yarn dev` - Development mode
+- `yarn build` - Build for production
+- `yarn start` - Run production server
+- `mcp-use start --tunnel` - Start with tunnel
+- `npx mcp-use login` - Authenticate
+- `yarn deploy` - Deploy to cloud
+
+**Response helpers:**
+- `text(str)`, `object(data)`, `markdown(str)`, `html(str)`
+- `image(buf, mime)`, `audio(buf, mime)`, `binary(buf, mime)`
+- `mix(...)` - Combine multiple content types
+- `widget({ props, output })` - Return widget with data
+
+**Server methods:**
+- `server.tool()` - Define executable tool
+- `server.resource()` - Define static/dynamic resource
+- `server.resourceTemplate()` - Define parameterized resource
+- `server.prompt()` - Define prompt template
+- `server.uiResource()` - Define widget resource
+- `server.listen()` - Start server
+
+**Widget metadata fields:**
+- `description` - Widget description
+- `props` - Zod schema for widget props
+- `metadata` - Unified config (dual-protocol)
+- `metadata.csp` - Content Security Policy
+- `appsSdkMetadata` - ChatGPT-specific overrides
+
+**Available templates:**
+- `starter` - Full-featured (tools, resources, prompts, widgets)
+- `mcp-apps` - ChatGPT-optimized with product example
+- `blank` - Minimal boilerplate

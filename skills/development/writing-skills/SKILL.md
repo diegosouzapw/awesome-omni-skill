@@ -1,122 +1,209 @@
 ---
 name: writing-skills
-description: "Use when creating, updating, or improving agent skills."
-category: meta
-risk: unknown
-source: community
-date_added: "2026-02-27"
+description: Use when creating new skills, editing existing skills, or verifying skills work before deployment
 ---
 
-# Writing Skills (Excellence)
+# Writing Skills
 
-Dispatcher for skill creation excellence. Use the decision tree below to find the right template and standards.
+**Writing skills IS Test-Driven Development applied to process documentation.**
 
-## ⚡ Quick Decision Tree
+**Personal skills live in agent-specific directories (`~/.claude/skills` for Claude Code, `~/.codex/skills` for Codex)**
 
-### What do you need to do?
+You write test cases (pressure scenarios with subagents), watch them fail (baseline behavior), write the skill (documentation), watch tests pass (agents comply), and refactor (close loopholes).
 
-1. **Create a NEW skill:**
-   - Is it simple (single file, <200 lines)? → [Tier 1 Architecture](references/tier-1-simple/README.md)
-   - Is it complex (multi-concept, 200-1000 lines)? → [Tier 2 Architecture](references/tier-2-expanded/README.md)
-   - Is it a massive platform (10+ products, AWS, Convex)? → [Tier 3 Architecture](references/tier-3-platform/README.md)
+**Core principle:** If you didn't watch an agent fail without the skill, you don't know if the skill teaches the right thing.
 
-2. **Improve an EXISTING skill:**
-   - Fix "it's too long" -> [Modularize (Tier 3)](references/templates/tier-3-platform.md)
-   - Fix "AI ignores rules" -> [Anti-Rationalization](references/anti-rationalization/README.md)
-   - Fix "users can't find it" -> [CSO (Search Optimization)](references/cso/README.md)
+## When to Create a Skill
 
-3. **Verify Compliance:**
-   - Check metadata/naming -> [Standards](references/standards/README.md)
-   - Add tests -> [Testing Guide](references/testing/README.md)
+**Create when:** Technique wasn't intuitively obvious, reusable across projects, pattern applies broadly, others would benefit.
 
-## 📚 Component Index
+**Don't create for:** One-off solutions, standard well-documented practices, project-specific conventions (use CLAUDE.md), mechanically enforceable constraints (automate instead).
 
-| Component | Purpose |
-|-----------|---------|
-| **[CSO](references/cso/README.md)** | "SEO for LLMs". How to write descriptions that trigger. |
-| **[Standards](references/standards/README.md)** | File naming, YAML frontmatter, directory structure. |
-| **[Anti-Rationalization](references/anti-rationalization/README.md)**| How to write rules that agents won't ignore. |
-| **[Testing](references/testing/README.md)** | How to ensure your skill actually works. |
+## Skill Types
 
-## 🛠️ Templates
+- **Technique**: Concrete method with steps (condition-based-waiting)
+- **Pattern**: Way of thinking about problems (flatten-with-flags)
+- **Reference**: API docs, syntax guides, tool documentation
 
-- [Technique Skill](references/templates/technique.md) (How-to)
-- [Reference Skill](references/templates/reference.md) (Docs)
-- [Discipline Skill](references/templates/discipline.md) (Rules)
-- [Pattern Skill](references/templates/pattern.md) (Design Patterns)
+## Directory Structure
 
-## When to Use
+```
+skills/
+  skill-name/
+    SKILL.md              # Main reference (required)
+    supporting-file.*     # Only if needed
+```
 
-- Creating a NEW skill from scratch
-- Improving an EXISTING skill that agents ignore
-- Debugging why a skill isn't being triggered
-- Standardizing skills across a team
+Separate files for: heavy reference (100+ lines), reusable tools. Keep everything else inline.
 
-## How It Works
+## SKILL.md Structure
 
-1. **Identify goal** → Use decision tree above
-2. **Select template** → From `references/templates/`
-3. **Apply CSO** → Optimize description for discovery
-4. **Add anti-rationalization** → For discipline skills
-5. **Test** → RED-GREEN-REFACTOR cycle
+**Frontmatter:** Only `name` (letters/numbers/hyphens) and `description` (max 1024 chars, third-person, starts with "Use when...")
 
-## Quick Example
+**CRITICAL:** Description = triggering conditions ONLY. Never summarize the skill's workflow in description. Testing showed Claude follows description shortcuts instead of reading skill body.
 
 ```yaml
----
-name: my-technique
-description: Use when [specific symptom occurs].
-metadata:
-  category: technique
-  triggers: error-text, symptom, tool-name
----
+# BAD: Summarizes workflow
+description: Use when executing plans - dispatches subagent per task with code review between tasks
 
-# My Technique
-
-## When to Use
-- [Symptom A]
-- [Error message]
+# GOOD: Just triggers
+description: Use when executing implementation plans with independent tasks in the current session
 ```
 
-## Common Mistakes
-
-| Mistake | Fix |
-|---------|-----|
-| Description summarizes workflow | Use "Use when..." triggers only |
-| No `metadata.triggers` | Add 3+ keywords |
-| Generic name ("helper") | Use gerund (`creating-skills`) |
-| Long monolithic SKILL.md | Split into `references/` |
-
-See [gotchas.md](gotchas.md) for more.
-
-## ✅ Pre-Deploy Checklist
-
-Before deploying any skill:
-
-- [ ] `name` field matches directory name exactly
-- [ ] `SKILL.md` filename is ALL CAPS
-- [ ] Description starts with "Use when..."
-- [ ] `metadata.triggers` has 3+ keywords
-- [ ] Total lines < 500 (use `references/` for more)
-- [ ] No `@` force-loading in cross-references
-- [ ] Tested with real scenarios
-
-## 🔗 Related Skills
-
-- **opencode-expert**: For OpenCode environment configuration
-- Use `/write-skill` command for guided skill creation
-
-## Examples
-
-**Create a Tier 1 skill:**
-```bash
-mkdir -p ~/.config/opencode/skills/my-technique
-touch ~/.config/opencode/skills/my-technique/SKILL.md
+**Body structure:**
+```markdown
+# Skill Name
+## Overview (1-2 sentences, core principle)
+## When to Use (flowchart IF decision non-obvious, bullets with symptoms)
+## Core Pattern (before/after code)
+## Quick Reference (table/bullets)
+## Common Mistakes (what goes wrong + fixes)
 ```
 
-**Create a Tier 2 skill:**
-```bash
-mkdir -p ~/.config/opencode/skills/my-skill/references/core
-touch ~/.config/opencode/skills/my-skill/{SKILL.md,gotchas.md}
-touch ~/.config/opencode/skills/my-skill/references/core/README.md
+## Claude Search Optimization (CSO)
+
+- Use concrete triggers/symptoms in description, not language-specific symptoms
+- Include keywords Claude would search: error messages, symptoms, tool names
+- Name by what you DO: `condition-based-waiting` not `async-test-helpers`
+- Gerunds work well: `creating-skills`, `debugging-with-logs`
+
+**Token Efficiency:**
+- Getting-started workflows: <150 words
+- Frequently-loaded skills: <200 words
+- Other skills: <500 words
+- Move details to `--help`, use cross-references, compress examples
+
+**Cross-References:** Use `**REQUIRED SUB-SKILL:** Use superpowers:skill-name`. Never use `@` links (force-loads, burns context).
+
+## Flowchart Usage
+
+Use ONLY for: non-obvious decisions, process loops, "when to use A vs B".
+Never for: reference material, code examples, linear instructions.
+
+## The Iron Law (Same as TDD)
+
 ```
+NO SKILL WITHOUT A FAILING TEST FIRST
+```
+
+Applies to new skills AND edits. Write skill before testing? Delete it. Start over. No exceptions.
+
+## RED-GREEN-REFACTOR for Skills
+
+**RED:** Run pressure scenario WITHOUT skill. Document exact failures and rationalizations.
+
+**GREEN:** Write minimal skill addressing those specific failures. Re-test with skill.
+
+**REFACTOR:** Agent found new rationalization? Add explicit counter. Re-test until bulletproof.
+
+## Testing Skills With Subagents
+
+Run scenarios without skill (RED), write skill addressing failures (GREEN), close loopholes (REFACTOR).
+
+### RED Phase: Baseline Testing
+
+Run pressure scenario WITHOUT skill. Document exact failures.
+
+**Process:**
+- [ ] Create pressure scenarios (3+ combined pressures)
+- [ ] Run WITHOUT skill
+- [ ] Document choices and rationalizations verbatim
+- [ ] Identify patterns
+
+### Pressure Types
+
+| Pressure | Example |
+|----------|---------|
+| Time | Emergency, deadline, deploy window |
+| Sunk cost | Hours of work, "waste" to delete |
+| Authority | Senior says skip it |
+| Exhaustion | End of day, want to go home |
+| Pragmatic | "Being pragmatic vs dogmatic" |
+
+**Best tests combine 3+ pressures.**
+
+### Key Elements
+1. Concrete A/B/C choices (not open-ended)
+2. Real constraints (specific times, consequences)
+3. Real file paths
+4. Make agent act ("What do you do?" not "What should you do?")
+
+### REFACTOR Phase: Close Loopholes
+
+Capture new rationalizations verbatim. For each, add:
+1. **Explicit negation** in rules
+2. **Rationalization table** entry
+3. **Red flag** entry
+4. **Updated description** with violation symptoms
+
+Re-test after each refactor. Continue until no new rationalizations.
+
+### Meta-Testing
+
+After agent chooses wrong: "You read the skill and chose wrong. How could it be clearer?"
+
+Three responses:
+1. "Skill WAS clear, I chose to ignore" -> Need stronger foundational principle
+2. "Skill should have said X" -> Add their suggestion
+3. "I didn't see section Y" -> Make it more prominent
+
+## Persuasion Principles for Skill Design
+
+LLMs respond to the same persuasion principles as humans. Meincke et al. (2025) tested 7 principles with N=28,000 AI conversations. Persuasion techniques doubled compliance rates (33% -> 72%, p < .001).
+
+### Effective Principles
+
+- **Authority**: Imperative language ("YOU MUST", "Never", "Always"), non-negotiable framing. For discipline-enforcing skills.
+- **Commitment**: Require announcements, force explicit choices. For ensuring skills are followed.
+- **Scarcity**: Time-bound requirements ("Before proceeding"), sequential dependencies. For immediate verification.
+- **Social Proof**: Universal patterns ("Every time", "Always"), failure modes. For documenting universal practices.
+- **Unity**: Collaborative language ("our codebase", "we're colleagues"). For collaborative workflows.
+- **Reciprocity & Liking**: Use sparingly or avoid.
+
+| Skill Type | Use | Avoid |
+|------------|-----|-------|
+| Discipline-enforcing | Authority + Commitment + Social Proof | Liking, Reciprocity |
+| Guidance/technique | Moderate Authority + Unity | Heavy authority |
+| Collaborative | Unity + Commitment | Authority, Liking |
+| Reference | Clarity only | All persuasion |
+
+## Anthropic Best Practices
+
+### Core Principles
+- **Concise is key**: Only add what Claude doesn't already know. Challenge each piece: "Does Claude need this?"
+- **Degrees of freedom**: High (text instructions) for multiple valid approaches; Medium (pseudocode) for preferred patterns; Low (exact scripts) for fragile operations
+
+### Anti-Patterns
+- Offering too many library options (provide a default with escape hatch)
+- Assuming packages installed (list dependencies)
+- Deeply nested references (keep one level deep)
+- Time-sensitive information (use "old patterns" section)
+
+### Evaluation-Driven Development
+1. Run Claude on tasks without Skill, document failures
+2. Create 3+ evaluation scenarios
+3. Establish baseline performance
+4. Write minimal instructions to pass evaluations
+5. Iterate: evaluate, compare baseline, refine
+
+## Skill Creation Checklist
+
+**RED Phase:**
+- [ ] Create pressure scenarios (3+ combined pressures for discipline skills)
+- [ ] Run WITHOUT skill - document baseline failures verbatim
+- [ ] Identify rationalization patterns
+
+**GREEN Phase:**
+- [ ] YAML frontmatter: name (letters/numbers/hyphens), description (Use when..., third-person)
+- [ ] Address specific baseline failures
+- [ ] Keywords throughout for search
+- [ ] One excellent code example (not multi-language)
+- [ ] Run WITH skill - verify compliance
+
+**REFACTOR Phase:**
+- [ ] Add counters for new rationalizations
+- [ ] Build rationalization table and red flags list
+- [ ] Re-test until bulletproof
+
+**Deployment:**
+- [ ] Commit and push

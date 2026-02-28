@@ -1,117 +1,294 @@
 ---
 name: None
-description: Deploy CyberArk Privileged Access Management to discover, vault, rotate, and monitor privileged credentials across enterprise infrastructure. This skill covers vault architecture, session isolation, c
+description: Container escape is a critical attack technique where an adversary breaks out of container isolation to access the host system or other containers. Detection involves monitoring for escape indicators 
 domain: cybersecurity
-subdomain: identity-access-management
-tags: [iam, identity, access-control, privileged-access, pam, cyberark]
+subdomain: container-security
+tags: [containers, kubernetes, docker, security, runtime-security, escape-detection]
 version: "1.0"
 author: mahipal
 license: MIT
 ---
-# Implementing Privileged Access Management with CyberArk
+# Detecting Container Escape Attempts
 
 ## Overview
-Deploy CyberArk Privileged Access Management to discover, vault, rotate, and monitor privileged credentials across enterprise infrastructure. This skill covers vault architecture, session isolation, credential rotation policies, and integration with NIST 800-53 access control requirements.
 
-## Objectives
-- Design CyberArk vault architecture with high availability
-- Implement automated privileged credential discovery and onboarding
-- Configure credential rotation policies for different account types
-- Deploy Privileged Session Manager (PSM) for session isolation and recording
-- Integrate CyberArk with SIEM for privileged access monitoring
-- Implement just-in-time (JIT) privileged access workflows
+Container escape is a critical attack technique where an adversary breaks out of container isolation to access the host system or other containers. Detection involves monitoring for escape indicators such as namespace manipulation, capability abuse, kernel exploits, mounted sensitive paths, and anomalous syscall patterns using runtime security tools like Falco, Sysdig, and custom seccomp/audit rules.
 
-## Key Concepts
+## Prerequisites
 
-### CyberArk Architecture Components
-1. **Digital Vault**: Encrypted credential storage with FIPS 140-2 validated encryption
-2. **Central Policy Manager (CPM)**: Automated password rotation and verification
-3. **Privileged Session Manager (PSM)**: Session isolation, recording, and keystroke logging
-4. **Password Vault Web Access (PVWA)**: Web interface for credential management
-5. **Privileged Threat Analytics (PTA)**: Behavioral analytics for privileged accounts
-6. **Conjur Secrets Manager**: Application identity and secrets management
+- Linux host with kernel 5.10+ (eBPF support)
+- Falco 0.37+ installed (kernel module or eBPF probe)
+- Docker Engine or containerd runtime
+- auditd configured
+- Root access for eBPF/kernel module loading
 
-### Vault Security Model
-- **Master Policy**: Global security settings (dual control, exclusive access, one-time passwords)
-- **Safes**: Logical containers for credentials with granular permissions
-- **Platforms**: Configuration profiles defining rotation, verification, and reconciliation
-- **Account Groups**: Link accounts sharing rotation dependencies
+## Core Concepts
 
-### Credential Lifecycle
-1. **Discovery**: Scan infrastructure for privileged accounts
-2. **Onboarding**: Import accounts into vault with platform assignment
-3. **Rotation**: Automated password changes per policy schedule
-4. **Verification**: Periodic validation that vaulted credentials work
-5. **Reconciliation**: Re-sync credentials when vault and target are out of sync
-6. **Decommissioning**: Remove accounts no longer needed
+### Common Container Escape Vectors
+
+| Vector | Technique | MITRE ID |
+|--------|-----------|----------|
+| Privileged containers | Mount host filesystem, load kernel modules | T1611 |
+| Docker socket mount | Create privileged container from within | T1610 |
+| Kernel exploits | CVE-2022-0185 (fsconfig), Dirty Pipe, runc CVEs | T1068 |
+| Capability abuse | CAP_SYS_ADMIN, CAP_SYS_PTRACE, CAP_NET_ADMIN | T1548 |
+| Sensitive mounts | /proc/sysrq-trigger, /proc/kcore, cgroup release_agent | T1611 |
+| Namespace escape | nsenter, unshare to host namespaces | T1611 |
+| Symlink/bind mount | Escape through /proc/self/root | T1611 |
+
+### Detection Layers
+
+1. **Syscall monitoring** - eBPF/kernel module captures syscalls in real-time
+2. **File integrity** - Detect modification of escape-enabling paths
+3. **Process monitoring** - Track process creation, namespace changes
+4. **Network monitoring** - Detect container-to-host connections
+5. **Audit logging** - Linux auditd for capability and mount operations
 
 ## Implementation Steps
 
-### Step 1: Vault Architecture Design
-1. Deploy primary vault server in secured network segment
-2. Configure vault high availability with DR vault
-3. Harden vault server OS (remove unnecessary services, disable RDP)
-4. Configure firewall rules (only port 1858 from authorized components)
-5. Set up vault backup with encryption
+### Step 1: Deploy Falco for Runtime Detection
 
-### Step 2: Safe and Policy Configuration
-1. Create safe hierarchy aligned with business units
-2. Define safe members with least-privilege roles:
-   - Safe Admins: manage safe membership
-   - Credential Managers: add/modify accounts
-   - Auditors: view audit logs only
-   - Users: retrieve/use credentials
-3. Configure Master Policy settings:
-   - Require dual control for credential retrieval
-   - Enable exclusive access (one user per credential at a time)
-   - Set one-time password mode for sensitive accounts
+```yaml
+# falco-values.yaml for Helm deployment
+falco:
+  driver:
+    kind: ebpf   # or modern_ebpf for kernel 5.8+
+  rules_files:
+    - /etc/falco/falco_rules.yaml
+    - /etc/falco/falco_rules.local.yaml
+    - /etc/falco/rules.d
+  json_output: true
+  json_include_output_property: true
+  http_output:
+    enabled: true
+    url: "http://falcosidekick:2801"
+  grpc:
+    enabled: true
+  priority: warning
+```
 
-### Step 3: Platform Configuration
-- Windows Domain Admin: Rotate every 24 hours, verify every 4 hours
-- Linux Root: Rotate every 72 hours with SSH key rotation
-- Database Admin (Oracle, SQL Server): Rotate every 24 hours
-- Network Devices: Rotate every 7 days
-- Service Accounts: Rotate on schedule with dependency management
-- Cloud IAM Keys: Rotate every 90 days with dual-key strategy
+```bash
+# Install Falco via Helm
+helm repo add falcosecurity https://falcosecurity.github.io/charts
+helm install falco falcosecurity/falco \
+  --namespace falco-system --create-namespace \
+  -f falco-values.yaml
+```
 
-### Step 4: Privileged Session Management
-1. Deploy PSM servers behind load balancer
-2. Configure session recording (video, keystroke, command logs)
-3. Set up session isolation (users connect through PSM, never directly)
-4. Define connection components for RDP, SSH, databases, web apps
-5. Configure live session monitoring and termination capabilities
-6. Set session recording retention (minimum 1 year for compliance)
+### Step 2: Custom Falco Rules for Escape Detection
 
-### Step 5: Integration and Monitoring
-1. Forward CyberArk audit logs to SIEM (CEF/Syslog format)
-2. Configure PTA for behavioral analytics:
-   - Detect credential theft indicators
-   - Alert on suspicious privileged session activity
-   - Monitor unmanaged privileged account usage
-3. Integrate with ticketing system for access request workflows
-4. Set up alerts for failed rotation, verification failures, policy violations
+```yaml
+# /etc/falco/rules.d/container_escape.yaml
 
-## Security Controls
-| Control | NIST 800-53 | Description |
-|---------|-------------|-------------|
-| Privileged Access | AC-6(7) | Privileged account controls |
-| Credential Management | IA-5 | Automated credential rotation |
-| Session Recording | AU-14 | Session audit capability |
-| Access Enforcement | AC-3 | Vault-enforced access policies |
-| Separation of Duties | AC-5 | Dual control for sensitive operations |
+# Detect container escape via privileged container
+- rule: Container Escape via Privileged Mode
+  desc: Detect attempts to escape container using privileged capabilities
+  condition: >
+    spawned_process and container and
+    (proc.name in (nsenter, unshare, mount, umount, modprobe, insmod) or
+     (proc.name = chroot and proc.args contains "/host"))
+  output: >
+    Container escape attempt via privileged operation
+    (user=%user.name container=%container.name image=%container.image.repository
+     command=%proc.cmdline pid=%proc.pid %container.info)
+  priority: CRITICAL
+  tags: [container, escape, T1611]
 
-## Common Pitfalls
-- Not configuring reconciliation accounts leading to lockouts after rotation
-- Setting rotation schedules too aggressive for service accounts with dependencies
-- Failing to test PSM connection components before production deployment
-- Not establishing break-glass procedures for vault unavailability
-- Overlooking network device credential management
+# Detect Docker socket access from container
+- rule: Container Access to Docker Socket
+  desc: Detect container reading/writing to Docker socket
+  condition: >
+    (open_read or open_write) and container and
+    fd.name = /var/run/docker.sock
+  output: >
+    Docker socket accessed from container
+    (user=%user.name container=%container.name image=%container.image.repository
+     fd=%fd.name command=%proc.cmdline %container.info)
+  priority: CRITICAL
+  tags: [container, escape, docker_socket]
 
-## Verification
-- [ ] Vault accessible only from authorized components
-- [ ] Credential rotation succeeds for all onboarded accounts
-- [ ] PSM sessions recorded and searchable
-- [ ] Dual control enforced for sensitive credential checkout
-- [ ] SIEM receives CyberArk audit events
-- [ ] Break-glass procedure tested and documented
-- [ ] DR vault failover tested successfully
+# Detect sensitive proc filesystem access
+- rule: Container Access to Sensitive Proc Paths
+  desc: Detect container accessing host-sensitive proc paths
+  condition: >
+    open_read and container and
+    (fd.name startswith /proc/sysrq-trigger or
+     fd.name startswith /proc/kcore or
+     fd.name startswith /proc/kmsg or
+     fd.name startswith /proc/kallsyms or
+     fd.name startswith /sys/kernel)
+  output: >
+    Sensitive proc/sys access from container
+    (user=%user.name container=%container.name path=%fd.name
+     command=%proc.cmdline %container.info)
+  priority: CRITICAL
+  tags: [container, escape, proc_access]
+
+# Detect cgroup escape technique
+- rule: Container Cgroup Escape Attempt
+  desc: Detect writing to cgroup release_agent (escape technique)
+  condition: >
+    open_write and container and
+    (fd.name contains release_agent or
+     fd.name contains notify_on_release)
+  output: >
+    Cgroup escape attempt detected
+    (user=%user.name container=%container.name path=%fd.name
+     command=%proc.cmdline %container.info)
+  priority: CRITICAL
+  tags: [container, escape, cgroup]
+
+# Detect kernel module loading from container
+- rule: Container Loading Kernel Module
+  desc: Detect container attempting to load kernel modules
+  condition: >
+    spawned_process and container and
+    (proc.name in (modprobe, insmod, rmmod) or
+     (evt.type = init_module or evt.type = finit_module))
+  output: >
+    Kernel module load attempt from container
+    (user=%user.name container=%container.name command=%proc.cmdline
+     %container.info)
+  priority: CRITICAL
+  tags: [container, escape, kernel_module]
+
+# Detect namespace manipulation
+- rule: Container Namespace Manipulation
+  desc: Detect setns/unshare syscalls from container
+  condition: >
+    container and (evt.type = setns or evt.type = unshare) and
+    not proc.name in (containerd-shim, runc)
+  output: >
+    Namespace manipulation from container
+    (user=%user.name container=%container.name syscall=%evt.type
+     command=%proc.cmdline %container.info)
+  priority: CRITICAL
+  tags: [container, escape, namespace]
+
+# Detect mount operations from container
+- rule: Container Mount Sensitive Filesystem
+  desc: Detect container mounting host filesystems
+  condition: >
+    spawned_process and container and proc.name = mount and
+    (proc.args contains "/dev/" or proc.args contains "proc" or
+     proc.args contains "sysfs")
+  output: >
+    Sensitive mount operation from container
+    (user=%user.name container=%container.name command=%proc.cmdline
+     %container.info)
+  priority: HIGH
+  tags: [container, escape, mount]
+```
+
+### Step 3: Configure Seccomp Profile for Escape Prevention
+
+```json
+{
+  "defaultAction": "SCMP_ACT_ERRNO",
+  "archMap": [
+    { "architecture": "SCMP_ARCH_X86_64", "subArchitectures": ["SCMP_ARCH_X86", "SCMP_ARCH_X32"] }
+  ],
+  "syscalls": [
+    {
+      "names": [
+        "read", "write", "open", "close", "stat", "fstat", "lstat",
+        "poll", "lseek", "mmap", "mprotect", "munmap", "brk",
+        "rt_sigaction", "rt_sigprocmask", "ioctl", "access",
+        "pipe", "select", "sched_yield", "dup", "dup2",
+        "nanosleep", "getpid", "socket", "connect", "accept",
+        "sendto", "recvfrom", "bind", "listen", "getsockname",
+        "getpeername", "socketpair", "setsockopt", "getsockopt",
+        "clone", "fork", "vfork", "execve", "exit", "wait4",
+        "kill", "getuid", "getgid", "geteuid", "getegid",
+        "epoll_create", "epoll_wait", "epoll_ctl", "epoll_create1",
+        "futex", "set_tid_address", "set_robust_list",
+        "openat", "newfstatat", "readlinkat", "fchownat",
+        "clock_gettime", "clock_getres", "clock_nanosleep",
+        "getrandom", "memfd_create", "statx", "rseq"
+      ],
+      "action": "SCMP_ACT_ALLOW"
+    },
+    {
+      "names": ["unshare", "setns", "mount", "umount2", "pivot_root",
+                "init_module", "finit_module", "delete_module",
+                "kexec_load", "kexec_file_load", "ptrace",
+                "reboot", "swapon", "swapoff", "sethostname",
+                "setdomainname", "keyctl", "bpf"],
+      "action": "SCMP_ACT_LOG",
+      "comment": "Log escape-relevant syscalls for detection"
+    }
+  ]
+}
+```
+
+### Step 4: Audit Rules for Container Escape
+
+```bash
+# /etc/audit/rules.d/container-escape.rules
+
+# Monitor namespace operations
+-a always,exit -F arch=b64 -S setns -S unshare -k container_escape
+-a always,exit -F arch=b64 -S mount -S umount2 -k container_mount
+-a always,exit -F arch=b64 -S init_module -S finit_module -S delete_module -k kernel_module
+-a always,exit -F arch=b64 -S ptrace -k process_trace
+
+# Monitor sensitive paths
+-w /var/run/docker.sock -p rwxa -k docker_socket
+-w /proc/sysrq-trigger -p w -k sysrq
+-w /proc/kcore -p r -k kcore_read
+
+# Monitor container runtime
+-w /usr/bin/runc -p x -k container_runtime
+-w /usr/bin/containerd -p x -k container_runtime
+-w /usr/bin/docker -p x -k container_runtime
+```
+
+### Step 5: Real-Time Alert Pipeline
+
+```yaml
+# Falcosidekick configuration for alert routing
+config:
+  slack:
+    webhookurl: "https://hooks.slack.com/services/xxx"
+    minimumpriority: "critical"
+    messageformat: |
+      *Container Escape Alert*
+      Rule: {{ .Rule }}
+      Priority: {{ .Priority }}
+      Output: {{ .Output }}
+
+  elasticsearch:
+    hostport: "https://elasticsearch:9200"
+    index: "falco-alerts"
+    minimumpriority: "warning"
+
+  pagerduty:
+    routingkey: "xxxx"
+    minimumpriority: "critical"
+```
+
+## Validation Commands
+
+```bash
+# Test Falco rules with event generator
+kubectl run falco-event-generator \
+  --image=falcosecurity/event-generator \
+  --restart=Never \
+  -- run syscall --action PtraceAttachContainer
+
+# Check Falco alerts
+kubectl logs -n falco-system -l app.kubernetes.io/name=falco --tail=50
+
+# Verify seccomp profile is loaded
+docker inspect --format '{{.HostConfig.SecurityOpt}}' <container-id>
+
+# Check audit logs for escape-related events
+ausearch -k container_escape --interpret
+```
+
+## References
+
+- [Falco Runtime Security](https://falco.org/docs/)
+- [Container Escape Techniques - HackTricks](https://book.hacktricks.xyz/linux-hardening/privilege-escalation/docker-security/docker-breakout-privilege-escalation)
+- [MITRE ATT&CK T1611 - Escape to Host](https://attack.mitre.org/techniques/T1611/)
+- [Sysdig Container Security](https://sysdig.com/products/secure/)

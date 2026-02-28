@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/other/pokemon-skill-builder/SKILL.md",
+  "file_path": "skills/data/pokemon-skill-builder/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "32752cdfe7b39a558758c102799cb96abe1b9545156f4e0ba1b6434414c64b31",
-  "indexed_at": "2026-02-26T00:40:27.144Z",
-  "synced_at": "2026-02-28T04:15:16.270Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1031536263cb57fe61612aa999214991fdb35573cc6542e9bb1ca9a6901f296f",
-  "install_command": "mkdir -p .claude/skills/pokemon-tcg-pocket-skill-builder && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/pokemon-skill-builder/SKILL.md\" > .claude/skills/pokemon-tcg-pocket-skill-builder/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/pokemon-skill-builder/SKILL.md"
+  "content_hash": "350301fc58e18bd04dec614e21e13ac3ecb68a79f4d5840aa1bcd0ed95c88adc",
+  "indexed_at": "2026-02-28T14:47:01.204Z",
+  "synced_at": "2026-02-28T18:10:31.301Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/429fb384d2d9e80609ca8cad31370b8815596a9203601efbd40acb7a13343546",
+  "install_command": "mkdir -p .claude/skills/pokemon-tcg-pocket-skill-builder && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/pokemon-skill-builder/SKILL.md\" > .claude/skills/pokemon-tcg-pocket-skill-builder/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/pokemon-skill-builder/SKILL.md"
 }

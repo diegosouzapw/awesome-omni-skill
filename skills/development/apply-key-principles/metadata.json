@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/apply-key-principles/SKILL.md",
+  "file_path": "skills/development/apply-key-principles/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "70d12a424a748bbea9a045aeb5afc3e46acf7b16428fafe9f297af8f24f62be6",
-  "indexed_at": "2026-02-26T13:21:37.152Z",
-  "synced_at": "2026-02-28T03:59:01.830Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/724ec4ed6275071b0f5582d219d464093bcd28502421181af506a44d75f6a98b",
-  "install_command": "mkdir -p .claude/skills/apply-key-principles && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/apply-key-principles/SKILL.md\" > .claude/skills/apply-key-principles/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/apply-key-principles/SKILL.md"
+  "content_hash": "2d47733ef98b8878fd152143ed2fe271ee6e00a1f5a7f04c79fd6b44644eef62",
+  "indexed_at": "2026-02-28T14:49:22.886Z",
+  "synced_at": "2026-02-28T18:10:42.970Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/51f3ae6f552d230b7dd71caef95257dcdc28ee28be68cdbb6a23a3d0076b6a54",
+  "install_command": "mkdir -p .claude/skills/apply-key-principles && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/apply-key-principles/SKILL.md\" > .claude/skills/apply-key-principles/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/apply-key-principles/SKILL.md"
 }

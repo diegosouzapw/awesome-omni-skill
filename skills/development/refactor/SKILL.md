@@ -1,511 +1,448 @@
 ---
 name: refactor
-description: Hunt for code smells, anti-patterns, and refactoring opportunities in the TaskBridge codebase using React/Next.js best practices. Fixes ONE issue at a time. Use when you want to improve code quality, extract utilities, or reorganize components.
+description: Plan vault restructuring from config changes. Compares config.yaml against derivation.md, identifies dimension shifts, shows restructuring plan, executes on approval. Triggers on "/refactor", "restructure vault".
+version: "1.0"
+generated_from: "arscontexta-v1.6"
+user-invocable: true
+context: fork
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash
+argument-hint: "[dimension|--dry-run] — focus on specific dimension or preview without approval prompt"
 ---
 
-# Code Refactoring Agent
+## Runtime Configuration (Step 0 — before any processing)
 
-Hunt for code smells, anti-patterns, and refactoring opportunities in the TaskBridge codebase using React/Next.js principal engineering best practices.
+Read these files to configure domain-specific behavior:
 
-**Usage**: Run this skill manually from time to time to find and fix one refactoring opportunity at a time.
+1. **`ops/derivation-manifest.md`** — vocabulary mapping, dimension positions, platform hints
+   - Use `vocabulary.notes` for the notes folder name
+   - Use `vocabulary.note` / `vocabulary.note_plural` for note type references
+   - Use `vocabulary.topic_map` / `vocabulary.topic_map_plural` for MOC references
+   - Use `vocabulary.inbox` for the inbox folder name
 
-## Mission
+2. **`ops/config.yaml`** — current live configuration (the "after" state)
 
-Act as a senior principal engineer conducting code reviews with focus on:
-- **Code organization** - Utils in components, business logic in UI
-- **Separation of concerns** - API routes mixing data/business logic
-- **DRY violations** - Duplicated code across files
-- **Performance** - Unnecessary re-renders, inefficient patterns
-- **Type safety** - Missing types, `any` usage, weak typing
-- **Testing** - Untested business logic, missing edge cases
+3. **`ops/derivation.md`** — original derivation record (the "before" state)
 
-## Approach: Test-Driven Refactoring (One Issue at a Time)
-
-1. **Scan** - Search codebase for anti-patterns
-2. **Identify** - Pick ONE highest-priority code smell
-3. **Test** - Write minimal test covering existing behavior (if applicable)
-4. **Refactor** - Extract, reorganize, improve code
-5. **Verify** - Run checks and tests to ensure nothing broke
-6. **Report** - Summarize what was fixed
-7. **Ask** - Check if user wants to continue with next refactoring
-
-**Important**: Fix ONE issue per invocation, then ask before continuing.
-
-## Code Smells to Hunt (8 Major Anti-Patterns)
-
-### 1. Utility Functions in Components/Pages
-
-**Anti-pattern**:
-```typescript
-// ❌ BAD: Utils inside component
-export default function TaskCard() {
-  const formatBudget = (amount: number) => {
-    return new Intl.NumberFormat('en-US').format(amount)
-  }
-
-  const calculateDaysLeft = (deadline: Date) => {
-    // calculation logic
-  }
-
-  return <div>{formatBudget(task.budget)}</div>
-}
-```
-
-**Refactored**:
-```typescript
-// ✅ GOOD: Utils extracted to /lib/utils/
-// /src/lib/utils/budget.ts
-export function formatBudget(amount: number, locale: string = 'en-US') {
-  return new Intl.NumberFormat(locale, {
-    style: 'currency',
-    currency: 'USD'
-  }).format(amount)
-}
-
-// /src/lib/utils/date.ts
-export function calculateDaysLeft(deadline: Date): number {
-  const now = new Date()
-  const diff = deadline.getTime() - now.getTime()
-  return Math.ceil(diff / (1000 * 60 * 60 * 24))
-}
-
-// Component now clean
-import { formatBudget } from '@/lib/utils/budget'
-import { calculateDaysLeft } from '@/lib/utils/date'
-
-export default function TaskCard() {
-  return <div>{formatBudget(task.budget)}</div>
-}
-```
-
-### 2. Business Logic in API Routes
-
-**Anti-pattern**:
-```typescript
-// ❌ BAD: Business logic in API route
-// /app/api/tasks/route.ts
-export async function POST(request: Request) {
-  const data = await request.json()
-
-  // Direct DB queries and business rules mixed in route
-  const task = await db.tasks.create({
-    data: {
-      ...data,
-      status: 'open',
-      created_at: new Date()
-    }
-  })
-
-  // Validation logic in route
-  if (task.budget < 10) {
-    return Response.json({ error: 'Too low' }, { status: 400 })
-  }
-
-  return Response.json(task)
-}
-```
-
-**Refactored**:
-```typescript
-// ✅ GOOD: Business logic in service layer
-// /src/server/tasks/task.service.ts
-export class TaskService {
-  async createTask(data: CreateTaskInput): Promise<Task> {
-    this.validateBudget(data.budget)
-
-    return await this.taskRepository.create({
-      ...data,
-      status: 'open',
-      created_at: new Date()
-    })
-  }
-
-  private validateBudget(budget: number): void {
-    if (budget < 10) {
-      throw new ValidationError('Budget must be at least 10')
-    }
-  }
-}
-
-// /app/api/tasks/route.ts - Now just a thin controller
-export async function POST(request: Request) {
-  try {
-    const data = await request.json()
-    const taskService = new TaskService()
-    const task = await taskService.createTask(data)
-    return Response.json(task)
-  } catch (error) {
-    if (error instanceof ValidationError) {
-      return Response.json({ error: error.message }, { status: 400 })
-    }
-    throw error
-  }
-}
-```
-
-### 3. Duplicated Code / DRY Violations
-
-**Look for**:
-- Same logic in multiple components
-- Copy-pasted functions with slight variations
-- Repeated patterns across files
-
-**Refactor to**:
-- Shared utility functions in `/src/lib/utils/`
-- Custom hooks in `/src/hooks/` or `/src/features/[feature]/hooks/`
-- Shared components in `/src/components/ui/` or `/src/components/common/`
-
-### 4. Large Components (God Components)
-
-**Anti-pattern**:
-```typescript
-// ❌ BAD: 800-line component doing everything
-export default function CreateTaskPage() {
-  // 50 lines of state
-  // 200 lines of handlers
-  // 100 lines of validation
-  // 400 lines of JSX
-  // 50 lines of utils
-}
-```
-
-**Refactored**:
-```typescript
-// ✅ GOOD: Extracted sections and hooks
-// /src/app/[lang]/create-task/components/task-details-section.tsx
-export function TaskDetailsSection() { /* ... */ }
-
-// /src/app/[lang]/create-task/components/budget-section.tsx
-export function BudgetSection() { /* ... */ }
-
-// /src/app/[lang]/create-task/hooks/use-task-form.ts
-export function useTaskForm() {
-  // Form state and handlers
-}
-
-// /src/app/[lang]/create-task/lib/validation.ts
-export function validateTaskForm(data: FormData) {
-  // Validation logic
-}
-
-// Main page now orchestrates
-export default function CreateTaskPage() {
-  const { form, handleSubmit } = useTaskForm()
-
-  return (
-    <form onSubmit={handleSubmit}>
-      <TaskDetailsSection />
-      <BudgetSection />
-    </form>
-  )
-}
-```
-
-### 5. Type Safety Issues
-
-**Hunt for**:
-- `any` types
-- Missing return types
-- Weak type assertions (`as any`)
-- Untyped function parameters
-- Optional chaining overuse (hiding type issues)
-
-**Refactor to**:
-- Proper TypeScript interfaces/types
-- Strict type annotations
-- Type guards where needed
-- Zod schemas for runtime validation
-
-### 6. Unused Code (DELETE, Don't Rename!)
-
-**Critical Rule**: When finding unused code, **DELETE** it completely. Do NOT rename with underscore prefix.
-
-**Hunt for and DELETE**:
-- Unused imports: `import { Foo, Bar } from 'lib'` → Remove unused `Bar`
-- Unused variables: `const [value, setValue] = useState()` → Remove unused `setValue`
-- Unused function parameters: `function handler(event, data)` → Remove unused `event`
-- Unused constants or helper functions
-
-**Examples**:
-```typescript
-// ❌ DON'T rename with underscore
-import { Foo, _Bar } from './lib'
-const [value, _setValue] = useState()
-function onClick(_event: Event, data: Data) {}
-
-// ✅ DO delete completely
-import { Foo } from './lib'
-const [value] = useState()
-function onClick(data: Data) {}
-```
-
-**Exception** (very rare): Only keep with underscore if required by external API signature that you cannot change.
-
-### 7. Performance Anti-patterns
-
-**Look for**:
-- Missing React.memo on expensive components
-- Inline function definitions in props
-- Missing useMemo/useCallback
-- Large objects in useEffect dependencies
-- Unnecessary state updates
-
-### 8. Server/Client Component Confusion (Next.js 15)
-
-**Anti-pattern**:
-```typescript
-// ❌ BAD: Client component fetching data
-'use client'
-export default function TaskDetail() {
-  const [task, setTask] = useState(null)
-
-  useEffect(() => {
-    fetch(`/api/tasks/${id}`).then(/* ... */)
-  }, [id])
-}
-```
-
-**Refactored**:
-```typescript
-// ✅ GOOD: Server component fetches, client handles interactivity
-// /app/[lang]/tasks/[id]/page.tsx (Server Component)
-export default async function TaskDetailPage({ params }) {
-  const task = await taskService.getTask(params.id)
-  return <TaskDetailContent task={task} />
-}
-
-// /app/[lang]/tasks/[id]/components/task-detail-content.tsx
-'use client'
-export function TaskDetailContent({ task }: { task: Task }) {
-  // Only interactive features here
-  const handleApply = () => { /* ... */ }
-  return <div>...</div>
-}
-```
-
-## Refactoring Process
-
-### Phase 1: Reconnaissance
-
-**Instructions**:
-1. Use `Glob` to find files in target directory
-2. Use `Grep` to search for code smell patterns:
-   - Functions inside components: `const \w+ = \(.*\) =>` inside component files
-   - Direct DB queries in routes: `await.*\.(insert|update|delete|select)` in `/app/api/`
-   - `any` types: `grep -n ": any"` or `as any`
-   - Large files: Check line counts, target 300+ line files
-3. Read suspicious files and analyze
-4. Create prioritized list of refactoring opportunities
-
-### Phase 2: Test Coverage (if applicable)
-
-**When to test**:
-- Utility functions with logic (YES)
-- Business logic in services (YES)
-- UI components (optional, focus on logic)
-- Simple data transformations (optional)
-
-**Test approach**:
-```typescript
-// 1. Write minimal test covering current behavior
-describe('formatBudget', () => {
-  it('formats budget correctly', () => {
-    expect(formatBudget(1000)).toBe('$1,000.00')
-  })
-})
-
-// 2. Refactor the code
-// 3. Run test to verify: npm run test
-// 4. Add edge cases if needed
-```
-
-### Phase 3: Extract and Refactor
-
-**Priority order**:
-1. **High Impact**: Duplicated business logic, security issues
-2. **Medium Impact**: Utils in components, large components
-3. **Low Impact**: Minor optimizations, naming improvements
-
-**Refactoring steps**:
-1. Create new file in appropriate location:
-   - Utils → `/src/lib/utils/[category].ts`
-   - Hooks → `/src/hooks/use-[name].ts` or `/src/features/[feature]/hooks/`
-   - Services → `/src/server/[domain]/[domain].service.ts`
-   - Components → `/src/components/[category]/[name].tsx`
-2. Move code to new location
-3. Add proper TypeScript types
-4. Update imports in original files
-5. Test that everything works
-
-### Phase 4: Verification
-
-**Checklist**:
-- [ ] Run `npm run check` (TypeScript + ESLint)
-- [ ] Run tests if applicable: `npm run test` (when test suite exists)
-- [ ] Verify in dev server: `npm run dev`
-- [ ] Check that all imports resolve correctly
-- [ ] Ensure no runtime errors
-- [ ] Verify UI still works as expected
-
-## Project-Specific Context
-
-**TaskBridge Architecture**:
-```
-/src/
-├── app/[lang]/              # Next.js pages (Server Components preferred)
-├── features/[feature]/      # Self-contained business domains
-│   ├── components/          # Feature-specific UI
-│   ├── lib/                 # Feature data, types, utils
-│   └── hooks/               # Feature-specific hooks
-├── components/
-│   ├── ui/                  # Design system (shadcn/ui, NextUI)
-│   └── common/              # Shared layouts (Header, Footer)
-├── lib/
-│   ├── utils/               # 🎯 Extract utils HERE
-│   ├── supabase/            # Database clients
-│   └── intl/                # Translations
-├── hooks/                   # 🎯 Extract global hooks HERE
-├── server/                  # 🎯 Extract services HERE
-│   └── [domain]/
-│       ├── [domain].service.ts
-│       ├── [domain].types.ts
-│       └── [domain].repository.ts (if needed)
-└── types/                   # Global TypeScript types
-```
-
-**Tech Stack Specifics**:
-- **Next.js 15**: Use Server Components by default, Client Components only when needed
-- **Supabase**: Data access through `createClient()`, prefer services over direct queries
-- **TypeScript**: Strict mode, no `any` types
-- **React Query**: For client-side data fetching (if applicable)
-- **Zod**: For validation schemas
-- **i18n**: All user-facing strings must be internationalized
-
-## Common Targets for Refactoring
-
-**High Priority** (check these first):
-1. `/src/app/[lang]/create-task/page.tsx` - Large form component
-2. `/src/app/[lang]/browse-tasks/page.tsx` - Search and filters
-3. `/src/app/[lang]/tasks/[id]/` - Task detail pages
-4. `/src/features/professionals/` - Professional listings
-5. `/src/app/api/` routes - Business logic in API routes
-
-**Patterns to Extract**:
-- Budget formatting logic → `/src/lib/utils/budget.ts`
-- Date calculations → `/src/lib/utils/date.ts`
-- Task status helpers → `/src/lib/utils/task-status.ts`
-- Form validation → `/src/lib/utils/validation.ts`
-- Authentication checks → `/src/lib/utils/auth.ts`
-
-**Unused Code to DELETE** (not rename):
-- Unused imports, variables, function parameters
-- Dead code paths
-- Commented-out code blocks
-
-## Execution Guidelines
-
-**DO**:
-- ✅ Fix ONE code smell per invocation
-- ✅ Write test for existing behavior first (if applicable)
-- ✅ Make small, incremental changes
-- ✅ Run checks after each refactor
-- ✅ Preserve existing functionality exactly
-- ✅ Use TypeScript strictly (no `any`)
-- ✅ Follow project architecture patterns
-- ✅ Ask user before continuing to next issue
-- ✅ Document complex logic with comments
-
-**DON'T**:
-- ❌ Fix multiple unrelated issues without asking
-- ❌ Change functionality while refactoring
-- ❌ Skip type annotations
-- ❌ Leave unused imports/variables/parameters (DELETE them, don't rename with underscore)
-- ❌ Rename unused code with underscore prefix (DELETE instead)
-- ❌ Break existing tests
-- ❌ Introduce new dependencies without discussion
-- ❌ Refactor working code just for style preferences
-- ❌ Continue refactoring without user confirmation
-
-## Output Format
-
-After fixing ONE refactoring issue, provide:
-
-1. **🔍 Found**: What code smell was discovered and where
-2. **💡 Impact**: Why this refactoring matters (performance, maintainability, etc.)
-3. **🧪 Test**: If written, show the test code
-4. **🔧 Refactored**: What was extracted/reorganized
-5. **📁 Changes**: List of files created/modified
-6. **✅ Verification**: Confirm `npm run check` passes
-7. **📊 Results**: Metrics (lines saved, files improved, etc.)
-8. **❓ Continue?**: Ask if user wants to find and fix the next issue
-
-**Then STOP and wait for user response before continuing.**
-
-## Example Session
-
-```
-User: "/refactor"
-
-Agent:
-🔍 Scanning codebase for anti-patterns...
-
-Found 3 refactoring opportunities:
-1. HIGH: formatBudget() duplicated in 4 files
-2. MEDIUM: Large CreateTaskPage component (523 lines)
-3. LOW: Missing types in task-card.tsx
-
-Selecting highest priority: formatBudget() duplication
+If these files don't exist, report error: "Cannot refactor without both ops/config.yaml and ops/derivation.md. These files establish the baseline and current configuration."
 
 ---
 
-🔍 FOUND
-Utility function formatBudget() duplicated in:
-- /src/components/ui/task-card.tsx (line 45)
-- /src/components/ui/posted-task-card.tsx (line 38)
-- /src/app/[lang]/tasks/[id]/components/task-detail-content.tsx (line 92)
-- /src/app/[lang]/create-task/components/budget-section.tsx (line 156)
+## EXECUTE NOW
 
-💡 IMPACT
-- Reduces code duplication (38 lines across 4 files)
-- Creates single source of truth for budget formatting
-- Improves maintainability and testability
+**INVARIANT: /refactor never executes without approval.** The plan is always shown first.
 
-🧪 TEST
-Created /src/lib/utils/budget.test.ts:
-✓ Test covering existing behavior - PASSING
+**Target: $ARGUMENTS**
 
-🔧 REFACTORED
-- Created /src/lib/utils/budget.ts with formatBudget(amount, locale, budgetType)
-- Added proper TypeScript types
-- Updated 4 files to import from utils
-- Removed 38 lines of duplicated code
+Parse immediately:
+- If target is empty: detect ALL config changes and plan restructuring
+- If target names a specific dimension (e.g., "granularity", "organization"): focus on that dimension only
+- If target is `--dry-run`: show plan without asking for approval
 
-📁 CHANGES
-- Created: /src/lib/utils/budget.ts
-- Modified: task-card.tsx, posted-task-card.tsx, task-detail-content.tsx, budget-section.tsx
+**Execute these phases:**
 
-✅ VERIFICATION
-✓ npm run check - PASSED (0 errors)
-✓ All imports resolve correctly
-✓ Tests pass
+1. Detect changes between config.yaml and derivation.md
+2. Plan restructuring for each changed dimension
+3. Show the plan with affected artifacts and risk assessment
+4. Execute on approval (unless --dry-run)
+5. Validate post-restructuring
 
-📊 RESULTS
-- 38 lines removed
-- 4 files improved
-- 1 new reusable utility created
+**START NOW.** Reference below defines the workflow.
 
 ---
 
-❓ Found 2 more issues. Continue with next refactoring? [y/n]
+## Philosophy
+
+**Configuration changes cascade.**
+
+Changing a dimension is not just editing a value in config.yaml. Each dimension affects multiple artifacts — skills, templates, context file sections, hooks, MOC structure. Changing organization from "flat" to "hierarchical" means restructuring the notes directory, updating MOC templates, adjusting navigation references in the context file, and regenerating skills that reference folder structure.
+
+/refactor makes these cascades visible and manages them. Without it, dimension changes create drift: config says one thing, artifacts say another. With it, every change is planned, approved, and validated.
+
+**The relationship to /architect:** /architect RECOMMENDS changes. /refactor IMPLEMENTS them. /architect analyzes health and friction to propose dimension shifts. When those proposals are approved, /refactor ensures every affected artifact is updated consistently.
+
+---
+
+## Phase 1: Detect Changes
+
+Compare each dimension in `ops/config.yaml` against the same dimension in `ops/derivation.md`:
+
+**Step 1: Read both files**
+
+Read `ops/config.yaml` and `ops/derivation.md` fully. Extract the position for each of the 8 dimensions from both.
+
+**Step 2: Build comparison table**
+
+| Dimension | Derivation Value | Config Value | Changed? | Drift Type |
+|-----------|-----------------|--------------|----------|------------|
+| granularity | [val] | [val] | [yes/no] | [aligned/misaligned] |
+| organization | [val] | [val] | [yes/no] | [aligned/misaligned] |
+| linking | [val] | [val] | [yes/no] | [aligned/misaligned] |
+| processing | [val] | [val] | [yes/no] | [aligned/misaligned] |
+| navigation | [val] | [val] | [yes/no] | [aligned/misaligned] |
+| maintenance | [val] | [val] | [yes/no] | [aligned/misaligned] |
+| schema | [val] | [val] | [yes/no] | [aligned/misaligned] |
+| automation | [val] | [val] | [yes/no] | [aligned/misaligned] |
+
+**Step 3: Check feature flags**
+
+Also compare feature flags between derivation and config:
+
+| Feature | Derivation | Config | Changed? |
+|---------|-----------|--------|----------|
+| semantic_search | [on/off] | [on/off] | [yes/no] |
+| processing_pipeline | [on/off] | [on/off] | [yes/no] |
+| self_space | [on/off] | [on/off] | [yes/no] |
+| session_capture | [on/off] | [on/off] | [yes/no] |
+| parallel_workers | [on/off] | [on/off] | [yes/no] |
+
+**Step 4: Early exit if no changes**
+
+If no changes detected:
+```
+--=={ refactor }==--
+
+  No configuration drift detected between config.yaml and derivation.md.
+  All dimensions and features match the original derivation.
+
+  If you want to explore changes, run /architect for recommendations
+  or edit ops/config.yaml directly, then run /refactor again.
 ```
 
-## Success Criteria
+---
 
-- Code is more maintainable and organized
-- No functionality is broken
-- All TypeScript checks pass
-- Tests pass (if applicable)
-- Code follows project architecture
-- Reduction in code duplication
-- Improved type safety
-- Better separation of concerns
+## Phase 2: Plan Restructuring
+
+For each changed dimension, determine ALL affected artifacts. This is the cascade analysis.
+
+### Dimension-to-Artifact Mapping
+
+| Change | Affected Artifacts | What Changes |
+|--------|-------------------|-------------|
+| **Granularity shift** | Note templates, extraction depth in /reduce, processing skills, context file "Note Design" section | Template body length guidance, extraction granularity settings, composability test thresholds |
+| **Organization shift** | Folder structure, MOC hierarchy, context file "Folder Architecture" section, hub MOC | Directory layout, MOC tier count, navigation references |
+| **Linking shift** | Semantic search config, /reflect connection density expectations, context file "Connection Finding" section | Search tool availability, link threshold values, discovery layer instructions |
+| **Processing shift** | /reduce depth settings, /reflect pass count, pipeline skills, context file "Processing Pipeline" section, config.yaml processing.depth | Extraction thoroughness, connection evaluation depth, chaining mode |
+| **Navigation shift** | MOC tier structure, hub MOC, context file "MOC" section, note Topics footers | Number of MOC tiers, hub content, navigation instructions |
+| **Maintenance shift** | /health threshold values, condition-based trigger settings, context file maintenance instructions | Check frequency conditions, stale note thresholds, reweave trigger conditions |
+| **Schema shift** | Templates (_schema blocks), validation rules, /validate skill, query scripts, context file "YAML" section | Required fields, enum values, validation patterns |
+| **Automation shift** | Hooks (session orient, write validation, inbox processing), skill activation, config.yaml automation section | Which hooks are active, automation level references |
+
+### Artifact Analysis Format
+
+For each affected artifact, specify:
+
+```
+Artifact: [file path]
+  Section: [specific section within the file, if applicable]
+  Current: [what it says now — quote relevant content]
+  Proposed: [what it should say after refactoring]
+  Risk: [low | medium | high]
+  Reversible: [yes | no — with explanation]
+  Content impact: [does this affect existing notes? how many?]
+```
+
+### Content Impact Assessment
+
+Some changes affect only infrastructure (skills, templates, context file). Others affect existing content (notes, MOCs):
+
+| Change Type | Content Impact | Action Required |
+|-------------|---------------|----------------|
+| Template field addition | New notes get field, old notes don't | Add field to old notes (schema migration) |
+| Template field removal | Old notes have unused field | Remove field from old notes (optional) |
+| Folder restructure | Notes must move | Move files, update all wiki links |
+| MOC tier change | MOC hierarchy restructured | Merge/split MOCs, update Topics footers |
+| Enum value change | Old notes have invalid values | Update values in affected notes |
+
+For content-impacting changes:
+- Count affected notes: `grep -rl '[old value]' {vocabulary.notes}/*.md | wc -l`
+- List specific files that need updating
+- Estimate time for content migration
+
+### Interaction Constraint Check
+
+Read `${CLAUDE_PLUGIN_ROOT}/reference/interaction-constraints.md` and check:
+
+1. **Hard blocks:** Would the new configuration create a combination that WILL fail?
+   - Example: atomic granularity + 2-tier navigation at high volume
+   - If a hard block is detected: WARN the user and recommend against the change
+
+2. **Soft warns:** What friction points does the new configuration create?
+   - Example: dense schema + convention-level automation (manual schema enforcement is tedious)
+   - If soft warns exist: note them in the plan with compensating mechanisms
+
+3. **Cascade effects:** Does changing dimension X create pressure on dimension Y?
+   - If cascade detected: include Y in the restructuring plan even if Y did not change in config
+
+---
+
+## Phase 3: Show Plan
+
+Present the complete restructuring plan:
+
+```
+--=={ refactor }==--
+
+Detected [N] dimension changes:
+
+  [dimension]: [old] -> [new]
+    Affects:
+    - [artifact 1]: [specific change]
+    - [artifact 2]: [specific change]
+    Content impact: [N] existing {vocabulary.note_plural} need [what]
+    Risk: [low/medium/high]
+
+  [dimension]: [old] -> [new]
+    Affects:
+    - [artifact 1]: [specific change]
+    - [artifact 2]: [specific change]
+    Content impact: none
+    Risk: [low/medium/high]
+
+Interaction constraints:
+  - [Hard block | Soft warn | Clean]: [description]
+
+Unchanged (preserved as-is):
+  - [list artifacts not affected by changes]
+
+Estimated implementation time: ~[N] minutes
+Validation: Will run kernel validation after restructuring.
+```
+
+**If `--dry-run`:** Stop here. Do not ask for approval.
+
+**Otherwise:** Ask: "Proceed with restructuring? (yes / no / adjust)"
+
+**Handle responses:**
+
+| Response | Action |
+|----------|--------|
+| "yes" | Execute Phase 4 |
+| "no" | Exit without changes |
+| "adjust" | Ask what to change, revise plan, re-present |
+
+---
+
+## Phase 4: Execute on Approval
+
+Execute changes in strict order to prevent intermediate inconsistency:
+
+### 4a. Archive Current State
+
+Before making changes, record the current state for rollback reference:
+
+```bash
+# Log what is about to change
+DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+echo "## $DATE: /refactor — [dimensions changed]" >> ops/changelog.md
+echo "" >> ops/changelog.md
+echo "Changes planned:" >> ops/changelog.md
+echo "[list of changes]" >> ops/changelog.md
+```
+
+### 4b. Regenerate Affected Skills
+
+For each skill affected by the dimension changes:
+
+1. Read the current skill from the generated skills directory
+2. Consult `${CLAUDE_PLUGIN_ROOT}/reference/` for the latest skill generation approach
+3. Apply vocabulary transformation from derivation-manifest
+4. Apply processing depth settings from the new config
+5. Write the regenerated skill
+
+**Skills most commonly affected by dimension changes:**
+
+| Dimension Change | Skills to Regenerate |
+|-----------------|---------------------|
+| Granularity | /reduce, /verify, /validate |
+| Processing | /reduce, /reflect, /reweave, /verify, /process, /process |
+| Linking | /reflect, /reweave |
+| Navigation | /reflect (MOC update logic) |
+| Schema | /validate, /verify |
+| Automation | /process, /process (chaining mode) |
+| Maintenance | /health |
+
+### 4c. Update Context File
+
+Edit only the sections affected by changed dimensions. Do NOT rewrite the entire context file.
+
+For each affected section:
+1. Locate the section by heading
+2. Read current content
+3. Generate updated content reflecting new dimension positions
+4. Replace the section using Edit tool
+5. Verify surrounding sections are unchanged
+
+### 4d. Update Templates
+
+For schema changes:
+1. Read affected templates from ops/templates/ (or templates/)
+2. Update `_schema` blocks with new required fields, enum values, constraints
+3. Write updated templates
+
+### 4e. Update Hooks
+
+If automation level changed:
+1. Read current hooks from the hooks directory
+2. Update trigger conditions, threshold values, or active/inactive state
+3. Write updated hooks
+
+### 4f. Update Derivation Records
+
+After all changes are applied:
+
+1. Update `ops/derivation.md` with:
+   - New dimension positions
+   - Rationale for each change
+   - Date of change
+   - Reference to /architect recommendation (if applicable)
+
+2. Update `ops/derivation-manifest.md` to sync machine-readable config
+
+3. Update `ops/config.yaml` to confirm it matches derivation (should already match since config triggered the refactor)
+
+### 4g. Content Migration (if needed)
+
+If Phase 2 identified content-impacting changes:
+
+1. **Schema migration:** Add/remove/rename fields across notes
+   ```bash
+   # Example: add a new required field to all notes
+   for f in {vocabulary.notes}/*.md; do
+     grep -q '^new_field:' "$f" || sed -i '' '/^description:/a\
+   new_field: [default value]' "$f"
+   done
+   ```
+
+2. **Folder migration:** Move files to new locations
+   ```bash
+   # Use git mv to preserve history
+   git mv "old/path/file.md" "new/path/file.md"
+   ```
+
+3. **Link updates:** Update all wiki links affected by renames
+   ```bash
+   # Use rename script if available
+   ops/scripts/rename-note.sh "old name" "new name"
+   ```
+
+4. **MOC restructuring:** Merge/split MOCs as needed
+   - For splits: create sub-MOCs, move Core Ideas, update parent
+   - For merges: combine Core Ideas, remove redundant MOC, update notes' Topics footers
+
+---
+
+## Phase 5: Validate
+
+Run kernel validation to confirm nothing broke:
+
+### Validation Checks
+
+| Check | How | Pass Criterion |
+|-------|-----|----------------|
+| Wiki link resolution | Scan for all `[[X]]` and verify X.md exists | Zero dangling links |
+| Schema compliance | Check all notes against template _schema blocks | All required fields present, enum values valid |
+| MOC hierarchy | Verify hub links to domain MOCs, domains link to topics | All tiers connected |
+| Session orient | Simulate session start — can the context file be loaded? | No file-not-found errors |
+| Three-space boundaries | Check notes vs ops vs self boundaries | No content in wrong space |
+| Vocabulary consistency | Check that skills and context file use updated vocabulary | No stale universal terms |
+| Skill integrity | Verify regenerated skills have valid frontmatter and structure | All skills parseable |
+
+### Validation Report
+
+```
+--=={ refactor complete }==--
+
+  Restructuring applied:
+    [dimension]: [old] -> [new] — [N] artifacts updated
+    [dimension]: [old] -> [new] — [N] artifacts updated
+
+  Content migration:
+    [N] {vocabulary.note_plural} updated with new schema fields
+    [N] wiki links updated
+    [N] {vocabulary.topic_map_plural} restructured
+
+  Kernel validation: [N]/[N] checks PASS
+  [Any warnings or issues]
+
+  Derivation updated: ops/derivation.md
+  Changelog updated: ops/changelog.md
+```
+
+If any validation checks fail:
+```
+  WARNING: [N] validation checks failed:
+    - [check name]: [specific failure]
+
+  Recommended action: [specific fix]
+  Rollback guidance: [how to revert if needed]
+```
+
+---
+
+## Edge Cases
+
+### No ops/config.yaml or No ops/derivation.md
+
+Cannot refactor without both files. Report error and suggest creating them:
+```
+Cannot run /refactor: [missing file] not found.
+  - ops/config.yaml is the live configuration
+  - ops/derivation.md is the original design baseline
+  Both are required to detect dimension shifts.
+
+  Run /setup to create a new system, or manually create the missing file.
+```
+
+### Single Dimension Focus
+
+If $ARGUMENTS names a specific dimension:
+1. Only check that dimension for changes
+2. Still check interaction constraints (other dimensions may be affected by cascade)
+3. Only restructure artifacts affected by that dimension
+
+### No Changes Detected
+
+Report clean state and exit (see Phase 1 early exit).
+
+### Hard Block Detected
+
+If an interaction constraint hard block is detected:
+```
+  HARD BLOCK: The proposed configuration [dimension X = val, dimension Y = val]
+  creates a combination that will fail because [reason from interaction-constraints.md].
+
+  Recommended: Either change [dimension X] back to [safe value] or also change
+  [dimension Y] to [compensating value].
+
+  Cannot proceed with current configuration. Adjust and re-run /refactor.
+```
+
+Do NOT proceed with restructuring when a hard block is active.
+
+### Large Content Migration (100+ notes)
+
+For large migrations:
+1. Show the count and estimated time
+2. Offer batch processing: "This affects 150 notes. Process all at once or in batches of 50?"
+3. For batch processing, validate after each batch before continuing
+
+### Feature Flag Changes
+
+Feature flag changes (semantic_search, self_space, etc.) may require:
+- Creating new directories (self/ for self_space on)
+- Installing tools (qmd for semantic_search on)
+- Removing hooks (for automation off)
+
+Handle each feature flag change specifically:
+
+| Flag | On -> Off | Off -> On |
+|------|-----------|-----------|
+| semantic_search | Remove search references from skills, update context file | Add search config, update skills with search integration |
+| self_space | Archive self/ contents, remove self/ references | Create self/ structure, generate identity files |
+| session_capture | INVARIANT — cannot disable | Already on (invariant) |
+| parallel_workers | Update /process to serial-only mode | Verify tmux available, update /process for parallel mode |
+
+### No ops/derivation-manifest.md
+
+Use universal vocabulary. Refactoring still works but vocabulary transformation is skipped.
+

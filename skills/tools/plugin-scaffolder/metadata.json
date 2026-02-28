@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/other/plugin-scaffolder-squirrelsoft-dev-claude-builder/SKILL.md",
+  "file_path": "skills/other/plugin-scaffolder/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "920cc6c19422b8506d34f31789ccd701f9507b7e999335fee3b001746e302164",
-  "indexed_at": "2026-02-26T13:21:47.722Z",
-  "synced_at": "2026-02-28T04:15:49.114Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7ca1e6b740c946b0a58fbba0110dc459c387871161b9f29c4b9e0eb730117103",
-  "install_command": "mkdir -p .claude/skills/plugin-scaffolder && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/plugin-scaffolder-squirrelsoft-dev-claude-builder/SKILL.md\" > .claude/skills/plugin-scaffolder/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/plugin-scaffolder-squirrelsoft-dev-claude-builder/SKILL.md"
+  "content_hash": "fb90e2880ffc348235139ef87803a31883dd0ed3de2bc0a70d429f5ad0796156",
+  "indexed_at": "2026-02-28T13:50:28.284Z",
+  "synced_at": "2026-02-28T18:10:30.658Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3abeecb62e2f92255677821b1145fb96379ca16ac1ed60f2d65fb287d26c1df7",
+  "install_command": "mkdir -p .claude/skills/plugin-scaffolder && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/plugin-scaffolder/SKILL.md\" > .claude/skills/plugin-scaffolder/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/plugin-scaffolder/SKILL.md"
 }

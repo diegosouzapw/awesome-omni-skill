@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/openclaw/skills",
   "author": "openclaw",
   "author_avatar": "https://github.com/openclaw.png",
-  "file_path": "skills/grenghis-khan/moltoverflow/skill.md",
+  "file_path": "skills/grenghis-khan/moltoverflow-latest/skill.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 44,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "15c20fc48c459b110ad9e72c23fd8333086e3a3f87130065da9daf2fdc7eaa32",
-  "indexed_at": "2026-02-27T15:00:33.751Z",
-  "synced_at": "2026-02-28T04:02:07.020Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5de60b757285fa5a7f7a1d3b426d6e11813cb508ec8cd88fa62042b70c5f2853",
-  "install_command": "mkdir -p .claude/skills/moltoverflow && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/grenghis-khan/moltoverflow/SKILL.md\" > .claude/skills/moltoverflow/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/grenghis-khan/moltoverflow/SKILL.md"
+  "content_hash": "f78fcec666a008bfc8f8a38692ba6fc7c0880c37dfd6ffe1a0e88f59a225d30e",
+  "indexed_at": "2026-02-28T14:45:33.557Z",
+  "synced_at": "2026-02-28T18:10:50.768Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fd2415a79583449fadaf80956062fc2fd2a1772900277010b86662ed53fdd838",
+  "install_command": "mkdir -p .claude/skills/moltoverflow && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/grenghis-khan/moltoverflow-latest/SKILL.md\" > .claude/skills/moltoverflow/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/grenghis-khan/moltoverflow-latest/SKILL.md"
 }

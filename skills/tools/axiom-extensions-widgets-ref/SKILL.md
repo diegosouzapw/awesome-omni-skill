@@ -2,7 +2,7 @@
 name: axiom-extensions-widgets-ref
 description: Use when implementing widgets, Live Activities, Control Center controls, or app extensions - comprehensive API reference for WidgetKit, ActivityKit, App Groups, and extension lifecycle for iOS 14+
 license: MIT
-compatibility: iOS 14+, iPadOS 14+, watchOS 9+, macOS 11+, visionOS 2+
+compatibility: iOS 14+, iPadOS 14+, watchOS 9+, macOS 11+, axiom-visionOS 2+
 metadata:
   version: "1.0.0"
 ---
@@ -17,11 +17,11 @@ This skill provides comprehensive API reference for Apple's widget and extension
 - **Interactive Widgets** (iOS 17+) — Buttons and toggles with App Intents
 - **Live Activities** (iOS 16.1+) — Real-time updates on Lock Screen and Dynamic Island
 - **Control Center Widgets** (iOS 18+) — System-wide quick controls
-- **Liquid Glass Widgets** (iOS 26+) — Accented rendering, glass effects, container backgrounds
-- **visionOS Widgets** (visionOS 2+) — Mounting styles, textures, proximity awareness
 - **App Extensions** — Shared data, lifecycle, entitlements
 
-Widgets are SwiftUI **archived snapshots** rendered on a timeline by the system. Extensions are sandboxed executables bundled with your app.
+**What are widgets?**: Widgets are SwiftUI views that display timely, relevant information from your app. Unlike live app views, widgets are **archived snapshots** rendered on a timeline and displayed by the system.
+
+**What are extensions?**: App extensions are separate executables bundled with your app that run in sandboxed environments with limited resources and capabilities.
 
 ## When to Use This Skill
 
@@ -32,9 +32,7 @@ Widgets are SwiftUI **archived snapshots** rendered on a timeline by the system.
 - Sharing data between app and extensions
 - Understanding widget timelines and refresh policies
 - Integrating widgets with App Intents
-- Adopting Liquid Glass rendering in widgets
 - Supporting watchOS or visionOS widgets
-- Implementing visionOS mounting styles, textures, or proximity awareness
 
 ❌ **Do NOT use this skill for**:
 - Pure App Intents questions (use **app-intents-ref** skill)
@@ -52,18 +50,33 @@ Widgets are SwiftUI **archived snapshots** rendered on a timeline by the system.
 
 ## Key Terminology
 
-- **Timeline** — Series of entries defining when/what content to display; system shows entries at specified times
-- **TimelineProvider** — Protocol supplying timeline entries (placeholder, snapshot, timeline generation)
-- **TimelineEntry** — Struct with widget data + display date
-- **Timeline Budget** — Daily limit (40-70) for timeline reloads
-- **Budget-Exempt** — Reloads that don't count (user-initiated, app foregrounding, system-initiated)
-- **Widget Family** — Size/shape (systemSmall, systemMedium, accessoryCircular, etc.)
-- **App Groups** — Entitlement for shared data container between app and extensions
-- **ActivityAttributes** — Static data (set once) + dynamic ContentState (updated during lifecycle)
-- **ContentState** — Changing part of ActivityAttributes; must be under 4KB total
-- **Dynamic Island** — iPhone 14 Pro+ Live Activity display; compact, minimal, and expanded sizes
-- **ControlWidget** — iOS 18+ widgets for Control Center, Lock Screen, and Action Button
-- **Supplemental Activity Families** — Enables Live Activities on Apple Watch or CarPlay
+**Timeline** — A series of entries that define when and what content your widget displays. The system automatically shows the appropriate entry at each specified time.
+
+**TimelineProvider** — Protocol you implement to supply timeline entries to the system. Includes methods for placeholder, snapshot, and actual timeline generation.
+
+**TimelineEntry** — A struct containing your widget's data and the date when it should be displayed. Each entry is like a "snapshot" of your widget at a specific time.
+
+**Timeline Budget** — The daily limit (40-70) of how many times the system will request new timelines for your widget. Helps conserve battery.
+
+**Budget-Exempt** — Timeline reloads that don't count against your daily budget (user-initiated, app foregrounding, system-initiated).
+
+**Widget Family** — The size/shape of a widget (systemSmall, systemMedium, accessoryCircular, etc.). Your view adapts based on the family.
+
+**App Groups** — An entitlement that allows your app and extensions to share data through a common container. Required for widgets to access app data.
+
+**ActivityAttributes** — Defines both static data (set once when Live Activity starts) and dynamic ContentState (updated throughout activity lifecycle).
+
+**ContentState** — The part of ActivityAttributes that changes during a Live Activity's lifetime. Must be under 4KB total.
+
+**Dynamic Island** — iPhone 14 Pro+ feature where Live Activities appear around the TrueDepth camera. Has three sizes: compact, minimal, and expanded.
+
+**ControlWidget** — iOS 18+ feature allowing widgets to appear in Control Center, Lock Screen, and Action Button for quick actions.
+
+**Concentric Alignment** — Design principle for Dynamic Island content where visual mass (centroid) nestles inside the Island's rounded walls with even margins.
+
+**Visual Mass (Centroid)** — The perceived "weight" center of your content. In Dynamic Island, this should align with the Island's shape for proper fit.
+
+**Supplemental Activity Families** — Enables Live Activities to appear on Apple Watch or CarPlay in addition to iPhone.
 
 ---
 
@@ -121,26 +134,50 @@ For Live Activities (covered in Live Activities section).
 
 ## Choosing the Right Configuration
 
-No user configuration needed? Use `StaticConfiguration`. Simple static options? Use `AppIntentConfiguration` with `WidgetConfigurationIntent`. Dynamic options from app data? Use `AppIntentConfiguration` + `EntityQuery`.
+**Decision Tree**:
 
-**Quick Reference**:
-- **StaticConfiguration** — No customization (weather, battery status)
-- **AppIntentConfiguration** (simple) — Fixed options (timer presets, theme selection)
-- **AppIntentConfiguration** (EntityQuery) — Dynamic list from app data (project/contact/playlist picker)
-- **ActivityConfiguration** — Live ongoing events (delivery tracking, workout progress, sports scores)
+```
+Does your widget need user configuration?
+├─ NO → Use StaticConfiguration
+│  └─ Example: Weather widget for current location
+│
+└─ YES → Need configuration
+   ├─ Simple static options (no dynamic data)?
+   │  └─ Use AppIntentConfiguration with WidgetConfigurationIntent
+   │     └─ Example: Timer with preset durations (5, 10, 15 minutes)
+   │
+   └─ Dynamic options (projects, contacts, playlists)?
+      └─ Use AppIntentConfiguration + EntityQuery
+         └─ Example: Project status widget showing user's projects
+```
+
+**Configuration Type Comparison**:
+
+| Configuration | Use When | Example |
+|---------------|----------|---------|
+| **StaticConfiguration** | No user customization needed | Weather for current location, battery status |
+| **AppIntentConfiguration** (simple) | Fixed list of options | Timer presets, theme selection |
+| **AppIntentConfiguration** (EntityQuery) | Dynamic list from app data | Project picker, contact picker, playlist selector |
+| **ActivityConfiguration** | Live ongoing events | Delivery tracking, workout progress, sports scores |
 
 ## Widget Families
 
 ### System Families (Home Screen)
-- **`systemSmall`** (~170×170, iOS 14+) — Single piece of info, icon
-- **`systemMedium`** (~360×170, iOS 14+) — Multiple data points, chart
-- **`systemLarge`** (~360×380, iOS 14+) — Detailed view, list
-- **`systemExtraLarge`** (~720×380, iOS 15+ iPad only) — Rich layouts, multiple views
+
+| Family | Size (points) | iOS Version | Use Case |
+|--------|---------------|-------------|----------|
+| `systemSmall` | ~170×170 | 14+ | Single piece of info, icon |
+| `systemMedium` | ~360×170 | 14+ | Multiple data points, chart |
+| `systemLarge` | ~360×380 | 14+ | Detailed view, list |
+| `systemExtraLarge` | ~720×380 | 15+ (iPad only) | Rich layouts, multiple views |
 
 ### Accessory Families (Lock Screen, iOS 16+)
-- **`accessoryCircular`** (~48×48pt) — Circular complication, icon or gauge
-- **`accessoryRectangular`** (~160×72pt) — Above clock, text + icon
-- **`accessoryInline`** (single line) — Above date, text only
+
+| Family | Location | Size | Content |
+|--------|----------|------|---------|
+| `accessoryCircular` | Circular complication | ~48×48pt | Icon or gauge |
+| `accessoryRectangular` | Above clock | ~160×72pt | Text + icon |
+| `accessoryInline` | Above date | Single line | Text only |
 
 ### Example: Supporting Multiple Families
 
@@ -214,10 +251,13 @@ struct Provider: TimelineProvider {
 
 ### TimelineReloadPolicy
 
-Controls when the system requests a new timeline:
-- **`.atEnd`** — Reload after last entry
-- **`.after(date)`** — Reload at specific date
-- **`.never`** — No automatic reload (manual only)
+Controls when the system requests a new timeline.
+
+| Policy | Behavior |
+|--------|----------|
+| `.atEnd` | Reload after last entry |
+| `.after(date)` | Reload at specific date |
+| `.never` | No automatic reload (manual only) |
 
 ### Manual Reload
 
@@ -231,15 +271,19 @@ WidgetCenter.shared.reloadAllTimelines()
 WidgetCenter.shared.reloadTimelines(ofKind: "MyWidget")
 ```
 
-## Performance & Budget Quick Reference
+## Refresh Budgets
 
-### Timeline Refresh Budget
-- **Daily budget**: 40-70 reloads/day (varies by system load and engagement)
-- **Budget-exempt**: User-initiated reload, app foregrounding, widget added, system reboot
-- **Strategic** (4x/hour) — ~48 reloads/day, low battery impact
-- **Aggressive** (12x/hour) — Budget exhausted by 6 PM, high impact
-- **On-demand only** — 5-10 reloads/day, minimal impact
-- Reload on significant data changes and time-based events. Avoid speculative or cosmetic reloads.
+**Daily budget**: 40-70 timeline reloads per day (varies by system load and user engagement)
+
+### Budget-Exempt Scenarios
+
+These do NOT count against your budget:
+- User explicitly reloads (pull-to-refresh on Home Screen)
+- App is foregrounded
+- User adds widget to Home Screen
+- System-initiated reloads (e.g., after reboot)
+
+### Best Practices
 
 ```swift
 // ✅ GOOD: Strategic intervals (15-60 min)
@@ -247,26 +291,184 @@ let entries = (0..<8).map { offset in
     let date = Calendar.current.date(byAdding: .minute, value: offset * 15, to: now)!
     return SimpleEntry(date: date, data: data)
 }
+
+// ❌ BAD: Too frequent (1 min) - will exhaust budget
+let entries = (0..<60).map { offset in
+    let date = Calendar.current.date(byAdding: .minute, value: offset, to: now)!
+    return SimpleEntry(date: date, data: data)
+}
 ```
 
+## Performance Implications
+
 ### Memory Limits
-- ~30MB for standard widgets, ~50MB for Live Activities — system terminates if exceeded
-- Load only what you need (e.g., `loadRecentItems(limit: 10)`, not entire database)
+
+**Widget extensions have strict memory limits**:
+- ~30MB for standard widgets
+- ~50MB for Live Activities
+- System terminates extension if exceeded
+
+**Best practices**:
+```swift
+// ✅ GOOD: Load only what you need
+func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
+    let data = loadRecentItems(limit: 10)  // Limited dataset
+    let entries = generateEntries(from: data)
+    completion(Timeline(entries: entries, policy: .atEnd))
+}
+
+// ❌ BAD: Loading entire database
+func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
+    let allData = database.loadAllItems()  // Thousands of items = memory spike
+    // ...
+}
+```
 
 ### Network Requests
-**Never make network requests in widget views** — they won't complete before rendering. Fetch data in `getTimeline()` instead.
 
-### Timeline Generation
-Complete `getTimeline()` in under 5 seconds. Cache expensive computations in the main app, read pre-computed data from shared container, limit to 10-20 entries.
+**Never make network requests in widget views** - they won't complete before rendering.
 
-### View Rendering
-Precompute everything in `TimelineEntry`, keep views simple. No expensive operations in `body`.
+```swift
+// ❌ CRITICAL ERROR: Network in view
+struct MyWidgetView: View {
+    var body: some View {
+        VStack {
+            Text("Weather")
+        }
+        .onAppear {
+            Task {
+                // This will NOT work - view is already rendered
+                let weather = try? await fetchWeather()
+            }
+        }
+    }
+}
 
-### Images
-- Use asset catalog images or SF Symbols (fast)
-- Small images from shared container are acceptable
-- `AsyncImage` does NOT work in widgets
-- Large images cause memory termination
+// ✅ CORRECT: Network in timeline provider
+struct Provider: TimelineProvider {
+    func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
+        Task {
+            // Fetch data here, before rendering
+            let weather = try await fetchWeather()
+            let entry = SimpleEntry(date: Date(), weather: weather)
+            completion(Timeline(entries: [entry], policy: .atEnd))
+        }
+    }
+}
+```
+
+### Timeline Generation Performance
+
+**Target**: Complete `getTimeline()` in under 5 seconds
+
+**Strategies**:
+1. **Cache in main app** - Precompute expensive operations
+2. **Async/await** - Don't block completion handler
+3. **Limit entries** - 10-20 entries maximum
+4. **Minimal computation** - Simple transformations only
+
+```swift
+// ✅ GOOD: Fast timeline generation
+func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
+    // Read pre-computed data from shared container
+    let shared = UserDefaults(suiteName: "group.com.myapp")!
+    let cachedData = shared.data(forKey: "widgetData")
+
+    let entries = generateQuickEntries(from: cachedData)
+    completion(Timeline(entries: entries, policy: .after(Date().addingTimeInterval(3600))))
+}
+
+// ❌ BAD: Expensive operations in timeline
+func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
+    // Parsing large JSON, complex algorithms
+    let json = parseHugeJSON()  // 10+ seconds
+    let analyzed = runMLModel(on: json)  // 5+ seconds
+    // Widget will timeout and show placeholder
+}
+```
+
+### Battery Impact
+
+**Widget refresh = battery drain**
+
+| Refresh Strategy | Daily Budget Used | Battery Impact |
+|------------------|-------------------|----------------|
+| Strategic (4x/hour) | ~48 reloads | Low |
+| Aggressive (12x/hour) | Budget exhausted by 6 PM | High |
+| On-demand only | 5-10 reloads | Minimal |
+
+**When to reload**:
+- ✅ Significant data change (order status update)
+- ✅ User opens app (free reload)
+- ✅ Time-based (hourly weather)
+- ❌ Speculative updates (might change)
+- ❌ Cosmetic changes (color theme)
+
+### View Rendering Performance
+
+**Widgets render frequently** (every time user views Home Screen/Lock Screen)
+
+```swift
+// ✅ GOOD: Simple, efficient views
+struct MyWidgetView: View {
+    var entry: Provider.Entry
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text(entry.title)
+                .font(.headline)
+            Text(entry.subtitle)
+                .font(.caption)
+        }
+        .padding()
+    }
+}
+
+// ❌ BAD: Heavy view operations
+struct MyWidgetView: View {
+    var entry: Provider.Entry
+
+    var body: some View {
+        VStack {
+            // Avoid expensive operations in view body
+            Text(entry.title)
+            // Don't compute in body - precompute in entry
+            ForEach(complexCalculation(entry.data)) { item in
+                Text(item.name)
+            }
+        }
+    }
+
+    func complexCalculation(_ data: [Item]) -> [ProcessedItem] {
+        // This runs on EVERY render
+        return data.map { /* expensive transform */ }
+    }
+}
+```
+
+**Rule**: Precompute everything in `TimelineEntry`, keep views simple.
+
+### Image Performance
+
+```swift
+// ✅ GOOD: Asset catalog images (fast)
+Image("icon-weather")
+
+// ✅ GOOD: SF Symbols (fast)
+Image(systemName: "cloud.rain.fill")
+
+// ⚠️ ACCEPTABLE: Small images from shared container
+if let imageData = Data(/* from shared container */),
+   let uiImage = UIImage(data: imageData) {
+    Image(uiImage: uiImage)
+}
+
+// ❌ BAD: Remote images (won't load)
+AsyncImage(url: URL(string: "https://..."))  // Doesn't work in widgets
+
+// ❌ BAD: Large images (memory spike)
+Image(/* 4K resolution image */)  // Will cause termination
+```
 
 ---
 
@@ -279,27 +481,64 @@ Interactive widgets use SwiftUI `Button` and `Toggle` with App Intents.
 ### Button with App Intent
 
 ```swift
-Button(intent: IncrementIntent()) {
-    Label("Increment", systemImage: "plus.circle")
+struct MyWidgetView: View {
+    var entry: Provider.Entry
+
+    var body: some View {
+        VStack {
+            Text(entry.count)
+            Button(intent: IncrementIntent()) {
+                Label("Increment", systemImage: "plus.circle")
+            }
+        }
+    }
+}
+
+struct IncrementIntent: AppIntent {
+    static var title: LocalizedStringResource = "Increment Counter"
+
+    func perform() async throws -> some IntentResult {
+        // Update shared data using App Groups
+        let shared = UserDefaults(suiteName: "group.com.myapp")!
+        let count = shared.integer(forKey: "count")
+        shared.set(count + 1, forKey: "count")
+        return .result()
+    }
 }
 ```
-
-The intent updates shared data via App Groups in its `perform()` method. See **axiom-app-intents-ref** for full `AppIntent` definition syntax.
 
 ### Toggle with App Intent
 
-Same pattern as Button — use a `Toggle` bound to state, invoke intent on change:
-
 ```swift
-Toggle(isOn: $isEnabled) {
-    Text("Feature")
+struct ToggleFeatureIntent: AppIntent {
+    static var title: LocalizedStringResource = "Toggle Feature"
+
+    @Parameter(title: "Enabled")
+    var enabled: Bool
+
+    func perform() async throws -> some IntentResult {
+        // Update shared data using App Groups
+        let shared = UserDefaults(suiteName: "group.com.myapp")!
+        shared.set(enabled, forKey: "featureEnabled")
+        return .result()
+    }
 }
-.onChange(of: isEnabled) { newValue in
-    Task { try? await ToggleFeatureIntent(enabled: newValue).perform() }
+
+struct MyWidgetView: View {
+    @State private var isEnabled: Bool = false
+
+    var body: some View {
+        Toggle(isOn: $isEnabled) {
+            Text("Feature")
+        }
+        .onChange(of: isEnabled) { newValue in
+            Task {
+                try? await ToggleFeatureIntent(enabled: newValue).perform()
+            }
+        }
+    }
 }
 ```
-
-The intent follows the same `AppIntent` structure with a `@Parameter(title: "Enabled") var enabled: Bool`. See **axiom-app-intents-ref** for full `AppIntent` definition syntax.
 
 ## invalidatableContent Modifier
 
@@ -476,23 +715,132 @@ let activity = try Activity.request(
 
 ### Common Activity Errors
 
-Always check `ActivityAuthorizationInfo().areActivitiesEnabled` before requesting. Handle these errors from `Activity.request()`:
+```swift
+import ActivityKit
 
-- **`ActivityAuthorizationError`** — User denied Live Activities permission
-- **`ActivityError.dataTooLarge`** — ActivityAttributes exceeds 4KB; reduce attribute size
-- **`ActivityError.tooManyActivities`** — System limit reached (typically 2-3 simultaneous)
+func startDeliveryActivity(order: Order) {
+    // Check authorization first
+    let authInfo = ActivityAuthorizationInfo()
+    guard authInfo.areActivitiesEnabled else {
+        print("Live Activities not enabled by user")
+        return
+    }
 
-Store `activity.id` after successful request for later updates.
+    let attributes = PizzaDeliveryAttributes(
+        orderNumber: order.id,
+        pizzaType: order.pizzaType
+    )
+
+    let initialState = PizzaDeliveryAttributes.ContentState(
+        status: .preparing,
+        estimatedDeliveryTime: order.estimatedTime
+    )
+
+    do {
+        let activity = try Activity.request(
+            attributes: attributes,
+            content: ActivityContent(state: initialState, staleDate: nil),
+            pushType: .token
+        )
+
+        // Store activity ID for later updates
+        UserDefaults.shared.set(activity.id, forKey: "currentDeliveryActivityID")
+
+    } catch let error as ActivityAuthorizationError {
+        // User denied Live Activities permission
+        print("Authorization error: \(error.localizedDescription)")
+
+    } catch let error as ActivityError {
+        switch error {
+        case .dataTooLarge:
+            // ActivityAttributes exceeds 4KB
+            print("Activity data too large - reduce attribute size")
+        case .tooManyActivities:
+            // System limit reached (typically 2-3 simultaneous)
+            print("Too many active Live Activities")
+        default:
+            print("Activity error: \(error.localizedDescription)")
+        }
+
+    } catch {
+        print("Unexpected error: \(error)")
+    }
+}
+```
+
+### Safely Updating Activities
+
+```swift
+func updateActivity(newStatus: DeliveryStatus) async {
+    // Find active activity
+    guard let activityID = UserDefaults.shared.string(forKey: "currentDeliveryActivityID"),
+          let activity = Activity<PizzaDeliveryAttributes>.activities.first(where: { $0.id == activityID })
+    else {
+        print("No active delivery activity found")
+        return
+    }
+
+    let updatedState = PizzaDeliveryAttributes.ContentState(
+        status: newStatus,
+        estimatedDeliveryTime: Date().addingTimeInterval(10 * 60),
+        driverName: "John"
+    )
+
+    // Await the update result
+    let updateTask = Task {
+        await activity.update(
+            ActivityContent(state: updatedState, staleDate: nil)
+        )
+    }
+
+    await updateTask.value
+}
+```
+
+### Handling Activity Lifecycle
+
+```swift
+class DeliveryManager {
+    private var activityTask: Task<Void, Never>?
+
+    func monitorActivity(_ activity: Activity<PizzaDeliveryAttributes>) {
+        // Cancel previous monitoring
+        activityTask?.cancel()
+
+        // Monitor activity state
+        activityTask = Task {
+            for await state in activity.activityStateUpdates {
+                switch state {
+                case .active:
+                    print("Activity is active")
+                case .ended:
+                    print("Activity ended by system")
+                    // Clean up
+                    UserDefaults.shared.removeObject(forKey: "currentDeliveryActivityID")
+                case .dismissed:
+                    print("Activity dismissed by user")
+                    // Clean up
+                    UserDefaults.shared.removeObject(forKey: "currentDeliveryActivityID")
+                case .stale:
+                    print("Activity marked stale")
+                @unknown default:
+                    break
+                }
+            }
+        }
+    }
+
+    deinit {
+        activityTask?.cancel()
+    }
+}
+```
 
 ## Updating Activities
 
 ### Update with New Content
 
 ```swift
-// Find active activity by stored ID
-guard let activity = Activity<PizzaDeliveryAttributes>.activities
-    .first(where: { $0.id == storedActivityID }) else { return }
-
 let updatedState = PizzaDeliveryAttributes.ContentState(
     status: .onTheWay,
     estimatedDeliveryTime: Date().addingTimeInterval(10 * 60),
@@ -510,6 +858,11 @@ await activity.update(
 ### Alert Configuration
 
 ```swift
+let updatedContent = ActivityContent(
+    state: updatedState,
+    staleDate: nil
+)
+
 await activity.update(updatedContent, alertConfiguration: AlertConfiguration(
     title: "Pizza is here!",
     body: "Your \(attributes.pizzaType) pizza has arrived",
@@ -517,25 +870,36 @@ await activity.update(updatedContent, alertConfiguration: AlertConfiguration(
 ))
 ```
 
-### Monitoring Activity Lifecycle
-
-Use `activity.activityStateUpdates` async sequence to observe state changes (`.active`, `.ended`, `.dismissed`, `.stale`). Clean up stored activity IDs on `.ended` or `.dismissed`. Cancel the monitoring task in `deinit`.
-
 ## Ending Activities
 
 ### Dismissal Policies
 
 ```swift
+// Immediate - removes instantly
+await activity.end(nil, dismissalPolicy: .immediate)
+
+// Default - stays for ~4 hours on Lock Screen
+await activity.end(nil, dismissalPolicy: .default)
+
+// After date - removes at specific time
+let dismissTime = Date().addingTimeInterval(60 * 60) // 1 hour
+await activity.end(nil, dismissalPolicy: .after(dismissTime))
+```
+
+### Final Content
+
+```swift
+let finalState = PizzaDeliveryAttributes.ContentState(
+    status: .delivered,
+    estimatedDeliveryTime: Date(),
+    driverName: "John"
+)
+
 await activity.end(
     ActivityContent(state: finalState, staleDate: nil),
     dismissalPolicy: .default
 )
 ```
-
-Dismissal policy options:
-- **`.immediate`** — Removes instantly
-- **`.default`** — Stays on Lock Screen for ~4 hours
-- **`.after(date)`** — Removes at specific time (e.g., `.after(Date().addingTimeInterval(3600))`)
 
 ## Push Notifications for Live Activities
 
@@ -558,7 +922,20 @@ for await pushToken in activity.pushTokenUpdates {
 
 ### Frequent Push Updates (iOS 18.2+)
 
-Standard limit is ~10-12 pushes/hour. For live events (sports, stocks), add the `com.apple.developer.activity-push-notification-frequent-updates` entitlement for significantly higher limits.
+For scenarios requiring more frequent updates than standard push limits:
+
+```swift
+let activity = try Activity.request(
+    attributes: attributes,
+    content: initialContent,
+    pushType: .token
+)
+
+// App needs "com.apple.developer.activity-push-notification-frequent-updates" entitlement
+```
+
+**Standard push limit**: ~10-12 per hour
+**Frequent push entitlement**: Significantly higher limit for live events (sports, stocks, etc.)
 
 ---
 
@@ -643,11 +1020,38 @@ DynamicIsland {
 
 ### Concentric Alignment
 
-Content should nest concentrically inside the Dynamic Island's rounded shape with even margins. Use `Circle()` or `RoundedRectangle(cornerRadius:)` — never sharp `Rectangle()` which pokes into corners.
+> "A key aspect to making things fit nicely inside the Dynamic Island is for them to be concentric with its shape. This is when rounded shapes nest inside of each other with even margins all the way around."
+
+**Visual mass (centroid)** should nestle inside the Dynamic Island walls:
+
+```swift
+// ✅ GOOD: Concentric circular shape
+Circle()
+    .fill(.blue)
+    .frame(width: 44, height: 44)
+
+// ❌ BAD: Square poking into corners
+Rectangle()
+    .fill(.blue)
+    .frame(width: 44, height: 44)
+
+// ✅ BETTER: Rounded rectangle
+RoundedRectangle(cornerRadius: 12)
+    .fill(.blue)
+    .frame(width: 44, height: 44)
+```
 
 ### Biological Motion
 
-Dynamic Island animations should feel organic and elastic. Use `.spring(response: 0.6, dampingFraction: 0.7)` or `.interpolatingSpring(stiffness: 300, damping: 25)` instead of linear animations.
+Dynamic Island animations should feel **organic and elastic**, not mechanical:
+
+```swift
+// Elastic spring animation
+.animation(.spring(response: 0.6, dampingFraction: 0.7), value: isExpanded)
+
+// Biological curve
+.animation(.interpolatingSpring(stiffness: 300, damping: 25), value: content)
+```
 
 ---
 
@@ -729,212 +1133,243 @@ struct AirplaneModeControl: ControlWidget {
 
 ## Value Providers (Async State)
 
-For controls needing async state, pass a `ControlValueProvider` to `StaticControlConfiguration`:
+For controls that need to fetch current state asynchronously.
 
 ```swift
+struct TemperatureControl: ControlWidget {
+    var body: some ControlWidgetConfiguration {
+        StaticControlConfiguration(kind: "ThermostatControl", provider: ThermostatProvider()) { value in
+            ControlWidgetButton(action: AdjustTemperatureIntent()) {
+                Label("\(value.temperature)°", systemImage: "thermometer")
+            }
+        }
+    }
+}
+
 struct ThermostatProvider: ControlValueProvider {
     func currentValue() async throws -> ThermostatValue {
+        // Fetch current temperature from HomeKit/server
         let temp = try await HomeManager.shared.currentTemperature()
         return ThermostatValue(temperature: temp)
     }
-    var previewValue: ThermostatValue { ThermostatValue(temperature: 72) }
+
+    var previewValue: ThermostatValue {
+        ThermostatValue(temperature: 72) // Fallback for preview
+    }
+}
+
+struct ThermostatValue: ControlValueProviderValue {
+    var temperature: Int
 }
 ```
 
-The provider value is passed to your control's closure: `{ value in ControlWidgetButton(...) }`.
-
 ## Configurable Controls
 
-Use `AppIntentControlConfiguration` with a `WidgetConfigurationIntent` (same pattern as configurable widgets). Add `.promptsForUserConfiguration()` to show configuration UI when the user adds the control.
+Allow users to customize the control before adding.
+
+```swift
+struct ConfigureTimerIntent: WidgetConfigurationIntent {
+    static var title: LocalizedStringResource = "Configure Timer"
+
+    @Parameter(title: "Duration (minutes)", default: 5)
+    var duration: Int
+}
+
+struct TimerControl: ControlWidget {
+    var body: some ControlWidgetConfiguration {
+        AppIntentControlConfiguration(
+            kind: "TimerControl",
+            intent: ConfigureTimerIntent.self
+        ) { config in
+            ControlWidgetButton(action: StartTimerIntent(duration: config.duration)) {
+                Label("\(config.duration)m", systemImage: "timer")
+            }
+        }
+        .promptsForUserConfiguration() // Show configuration UI when adding
+    }
+}
+```
 
 ## Control Refinements
 
-- `.controlWidgetActionHint("Toggles flashlight")` — VoiceOver accessibility hint
-- `.displayName("My Control")` / `.description("...")` — Shown in Control Center UI
+### controlWidgetActionHint
+
+Accessibility hint for VoiceOver.
+
+```swift
+ControlWidgetButton(action: ToggleTorchIntent()) {
+    Label("Flashlight", systemImage: "flashlight.on.fill")
+}
+.controlWidgetActionHint("Toggles flashlight")
+```
+
+### displayName and description
+
+```swift
+StaticControlConfiguration(kind: "MyControl") {
+    // ...
+}
+.displayName("My Control")
+.description("Brief description shown in Control Center")
+```
 
 ---
 
 # Part 7: iOS 18+ Updates
 
-## Accented Rendering and Liquid Glass
+## Liquid Glass / Accented Rendering
 
-Widget rendering modes span multiple iOS versions: `widgetAccentable()` (iOS 16+), `WidgetAccentedRenderingMode` (iOS 18+), and Liquid Glass effects like `glassEffect()` and `GlassEffectContainer` (iOS 26+). Detect the mode and adapt layout accordingly.
+Widgets can render with **accented glass effects** matching system aesthetics (iOS 18+).
 
-### Detecting Rendering Mode
+### widgetAccentedRenderingMode
 
 ```swift
-struct MyWidgetView: View {
-    @Environment(\.widgetRenderingMode) var renderingMode
-
-    var body: some View {
-        if renderingMode == .accented {
-            // Simplified layout — opaque images tinted white, background replaced with glass
-        } else {
-            // Standard full-color layout
+struct MyWidget: Widget {
+    var body: some WidgetConfiguration {
+        StaticConfiguration(kind: "MyWidget", provider: Provider()) { entry in
+            MyWidgetView(entry: entry)
+                .widgetAccentedRenderingMode(.accented)
         }
     }
 }
 ```
 
-### widgetAccentable(_:)
+### Rendering Modes
 
-Marks views as part of the **accent group**. In accented mode, accent-group views are tinted separately from primary-group views, creating visual hierarchy.
+| Mode | Effect |
+|------|--------|
+| `.accented` | System applies glass effect, respects vibrancy |
+| `.fullColor` | Full color rendering (default) |
+
+**Design consideration**: When `.accented`, your widget's colors blend with system glass. Test in multiple contexts (Home Screen, StandBy, Lock Screen).
+
+## visionOS Support
+
+Widgets supported on visionOS 2+ with spatial presentation.
+
+### Mounting Styles
 
 ```swift
-HStack {
-    VStack(alignment: .leading) {
-        Text("Title")
-            .font(.headline)
-            .widgetAccentable()  // Accent group — tinted in accented mode
-        Text("Subtitle")
-            // Primary group by default
+#if os(visionOS)
+struct MyWidget: Widget {
+    var body: some WidgetConfiguration {
+        StaticConfiguration(kind: "MyWidget", provider: Provider()) { entry in
+            MyWidgetView(entry: entry)
+        }
+        .supportedFamilies([.systemSmall, .systemMedium])
+        .ornamentLevel(.default) // Spatial ornament positioning
     }
-    Image(systemName: "star.fill")
-        .widgetAccentable()  // Also accent group
 }
+#endif
 ```
 
-### WidgetAccentedRenderingMode
+## CarPlay Widgets (iOS 18+)
 
-Controls how images render in accented mode. Apply to `Image` views:
-
-```swift
-Image("myPhoto")
-    .widgetAccentedRenderingMode(.accented)      // Tinted with accent color
-Image("myIcon")
-    .widgetAccentedRenderingMode(.monochrome)     // Rendered as monochrome
-Image("myBadge")
-    .widgetAccentedRenderingMode(.fullColor)       // Keeps original colors (opt-out)
-```
-
-**Best practices**: Display full-color images only in `.fullColor` rendering mode. Use `.widgetAccentable()` strategically for visual hierarchy. Test with multiple accent colors and background images.
-
-### Container Backgrounds
+Live Activities appear on CarPlay displays in supported vehicles.
 
 ```swift
-VStack { /* content */ }
-    .containerBackground(for: .widget) {
-        Color.blue.opacity(0.2)
-    }
-```
-
-In accented mode, the system removes the background and replaces it with themed glass. To prevent removal (excludes widget from iPad Lock Screen, StandBy):
-
-```swift
-.containerBackgroundRemovable(false)
-```
-
-### Liquid Glass in Custom Widget Elements
-
-```swift
-Text("Label")
-    .padding()
-    .glassEffect()  // Default capsule shape
-
-Image(systemName: "star.fill")
-    .frame(width: 60, height: 60)
-    .glassEffect(.regular, in: .rect(cornerRadius: 12))
-
-Button("Action") { }
-    .buttonStyle(.glass)
-```
-
-Combine multiple glass elements with `GlassEffectContainer`:
-
-```swift
-GlassEffectContainer(spacing: 20.0) {
-    HStack(spacing: 20.0) {
-        Image(systemName: "cloud")
-            .frame(width: 60, height: 60)
-            .glassEffect()
-        Image(systemName: "sun")
-            .frame(width: 60, height: 60)
-            .glassEffect()
+struct MyLiveActivity: Widget {
+    var body: some WidgetConfiguration {
+        ActivityConfiguration(for: NavigationAttributes.self) { context in
+            NavigationView(context: context)
+        } dynamicIsland: { context in
+            DynamicIsland {
+                // Dynamic Island presentation
+            }
+        }
+        .supplementalActivityFamilies([
+            .small, // watchOS
+            .medium  // CarPlay
+        ])
     }
 }
 ```
 
-## Cross-Platform Support
+**CarPlay rendering**: Uses StandBy-style full-width presentation on the dashboard.
 
-### visionOS Widgets (visionOS 2+)
+## macOS Menu Bar
 
-visionOS widgets are 3D objects placed in physical space — mounted on surfaces or floating. They support unique spatial features.
+Live Activities from paired iPhone appear in macOS menu bar automatically (no code changes required, macOS Sequoia+).
 
-#### Mounting Styles
+**Presentation**: Compact view appears in menu bar; clicking expands to show full content.
 
-Widgets can be elevated (on top of surfaces) or recessed (embedded into vertical surfaces like walls):
+## watchOS Controls
 
-```swift
-.supportedMountingStyles([.elevated, .recessed])  // Default is both
-// .supportedMountingStyles([.recessed])           // Wall-only widget
-```
-
-If limited to `.recessed`, users cannot place the widget on horizontal surfaces.
-
-#### Widget Textures
-
-Two visual textures for spatial appearance:
+Control Center widgets available on watchOS 11+ in:
+- Control Center
+- Action Button
+- Smart Stack (automatic suggestions)
 
 ```swift
-.widgetTexture(.glass)   // Default — transparent glass-like appearance
-.widgetTexture(.paper)   // Poster-like look, effective with extra-large sizes
-```
-
-#### Proximity Awareness (levelOfDetail)
-
-Widgets adapt to user distance automatically. The system animates transitions between detail levels:
-
-```swift
-@Environment(\.levelOfDetail) var levelOfDetail
-
-var body: some View {
-    VStack {
-        Text(entry.value)
-            .font(levelOfDetail == .simplified ? .largeTitle : .title)
+struct WatchControl: ControlWidget {
+    var body: some ControlWidgetConfiguration {
+        StaticControlConfiguration(kind: "WatchControl") {
+            ControlWidgetButton(action: StartWorkoutIntent()) {
+                Label("Workout", systemImage: "figure.run")
+            }
+        }
     }
 }
 ```
-
-Values: `.default` (close viewing) and `.simplified` (distance viewing — use larger text, fewer details).
-
-#### visionOS Widget Families
-
-visionOS supports all system families plus extra-large sizes:
-
-```swift
-.supportedFamilies([
-    .systemSmall, .systemMedium, .systemLarge,
-    .systemExtraLarge,
-    .systemExtraLargePortrait  // visionOS-specific portrait orientation
-])
-```
-
-Extra-large families are particularly effective with `.widgetTexture(.paper)` for poster-like displays.
-
-#### Background Detection
-
-Detect whether the widget background is visible (removed in accented mode):
-
-```swift
-@Environment(\.showsWidgetContainerBackground) var showsBackground
-```
-
-### CarPlay (iOS 18+)
-Add `.supplementalActivityFamilies([.medium])` to `ActivityConfiguration`. Uses StandBy-style full-width dashboard presentation.
-
-### macOS Menu Bar
-Live Activities from paired iPhone appear automatically in macOS Sequoia+ menu bar. No code changes required.
-
-### watchOS Controls (11+)
-`ControlWidget` works identically on watchOS — available in Control Center, Action Button, and Smart Stack. Same `StaticControlConfiguration` / `ControlWidgetButton` pattern as iOS.
 
 ## Relevance Widgets (iOS 18+)
 
-Use `.relevanceConfiguration(for:score:attributes:)` to help the system promote widgets in Smart Stack. Attributes include `.location(CLLocation)`, `.timeOfDay(DateInterval)`, and `.activity(String)` for context-aware ranking.
+System intelligently promotes relevant widgets to Smart Stack on watchOS.
+
+### RelevanceConfiguration
+
+```swift
+struct RelevantWidget: Widget {
+    var body: some WidgetConfiguration {
+        StaticConfiguration(kind: "RelevantWidget", provider: Provider()) { entry in
+            RelevantWidgetView(entry: entry)
+        }
+        .relevanceConfiguration(
+            for: entry,
+            score: entry.relevanceScore,
+            attributes: [
+                .location(entry.userLocation),
+                .timeOfDay(entry.relevantTimeRange)
+            ]
+        )
+    }
+}
+```
+
+### WidgetRelevanceAttribute
+
+```swift
+enum WidgetRelevanceAttribute {
+    case location(CLLocation)
+    case timeOfDay(DateInterval)
+    case activity(String) // Calendar event, workout, etc.
+}
+```
 
 ## Push Notification Updates (iOS 18+)
 
-Implement `PKPushRegistryDelegate` and handle `.widgetKit` push type to receive server-to-widget pushes. Update shared container data and call `WidgetCenter.shared.reloadAllTimelines()`. Pushes to iPhone automatically sync to Apple Watch and CarPlay.
+### WidgetPushHandler
+
+Server-to-widget push notifications with cross-device sync.
+
+```swift
+class WidgetPushHandler: NSObject, PKPushRegistryDelegate {
+    func pushRegistry(_ registry: PKPushRegistry, didReceiveIncomingPushWith payload: PKPushPayload, for type: PKPushType) {
+        if type == .widgetKit {
+            // Update widget data in shared container
+            let shared = UserDefaults(suiteName: "group.com.myapp")!
+            if let data = payload.dictionaryPayload["widgetData"] as? [String: Any] {
+                shared.set(data, forKey: "widgetData")
+            }
+
+            // Reload widgets
+            WidgetCenter.shared.reloadAllTimelines()
+        }
+    }
+}
+```
+
+**Cross-device sync**: Push to iPhone automatically syncs to Apple Watch and CarPlay Live Activities.
 
 ---
 
@@ -946,9 +1381,18 @@ Required for sharing data between your app and extensions.
 
 ### Configuration
 
-1. Xcode: Targets → Signing & Capabilities → Add "App Groups"
-2. Identifier format: `group.com.company.appname`
-3. Enable for BOTH main app target AND extension target
+1. **Xcode**: Targets → Signing & Capabilities → Add "App Groups"
+2. **Identifier format**: `group.com.company.appname`
+3. **Enable for both**: Main app target AND extension target
+
+### Example Entitlement File
+
+```xml
+<key>com.apple.security.application-groups</key>
+<array>
+    <string>group.com.mycompany.myapp</string>
+</array>
+```
 
 ## Shared Containers
 
@@ -976,21 +1420,60 @@ let value = shared.string(forKey: "myKey")
 
 ### Core Data with App Groups
 
-Point `NSPersistentStoreDescription` at the shared container URL:
-
 ```swift
-let sharedStoreURL = FileManager.default.containerURL(
-    forSecurityApplicationGroupIdentifier: "group.com.mycompany.myapp"
-)!.appendingPathComponent("MyApp.sqlite")
+lazy var persistentContainer: NSPersistentContainer = {
+    let container = NSPersistentContainer(name: "MyApp")
 
-let description = NSPersistentStoreDescription(url: sharedStoreURL)
-container.persistentStoreDescriptions = [description]
+    let sharedStoreURL = FileManager.default.containerURL(
+        forSecurityApplicationGroupIdentifier: "group.com.mycompany.myapp"
+    )!.appendingPathComponent("MyApp.sqlite")
+
+    let description = NSPersistentStoreDescription(url: sharedStoreURL)
+    container.persistentStoreDescriptions = [description]
+
+    container.loadPersistentStores { description, error in
+        // Handle errors
+    }
+
+    return container
+}()
 ```
 
 ## IPC Communication
 
-- **Background URL Session** — Set `config.sharedContainerIdentifier` to your App Group ID for downloads accessible by extensions
-- **Darwin Notification Center** — Use `CFNotificationCenterPostNotification` / `CFNotificationCenterAddObserver` with `CFNotificationCenterGetDarwinNotifyCenter()` for simple cross-process signals (e.g., notify widget to call `WidgetCenter.shared.reloadAllTimelines()`)
+### Background URL Session (For Downloads)
+
+```swift
+// Main app
+let config = URLSessionConfiguration.background(withIdentifier: "com.mycompany.myapp.background")
+config.sharedContainerIdentifier = "group.com.mycompany.myapp"
+let session = URLSession(configuration: config)
+```
+
+### Darwin Notification Center (Simple Signals)
+
+```swift
+import Foundation
+
+// Post notification
+CFNotificationCenterPostNotification(
+    CFNotificationCenterGetDarwinNotifyCenter(),
+    CFNotificationName("com.mycompany.myapp.dataUpdated" as CFString),
+    nil, nil, true
+)
+
+// Observe notification (in widget)
+CFNotificationCenterAddObserver(
+    CFNotificationCenterGetDarwinNotifyCenter(),
+    Unmanaged.passUnretained(self).toOpaque(),
+    { (center, observer, name, object, userInfo) in
+        // Reload widget
+        WidgetCenter.shared.reloadAllTimelines()
+    },
+    "com.mycompany.myapp.dataUpdated" as CFString,
+    nil, .deliverImmediately
+)
+```
 
 ---
 
@@ -998,19 +1481,88 @@ container.persistentStoreDescriptions = [description]
 
 ## supplementalActivityFamilies (watchOS 11+)
 
-Add `.supplementalActivityFamilies([.small])` to `ActivityConfiguration` to show Live Activities on Apple Watch Smart Stack (same modifier used for CarPlay with `.medium`).
+Live Activities from iPhone automatically appear on Apple Watch Smart Stack.
+
+```swift
+struct MyLiveActivity: Widget {
+    var body: some WidgetConfiguration {
+        ActivityConfiguration(for: DeliveryAttributes.self) { context in
+            // iPhone presentation
+            DeliveryView(context: context)
+        } dynamicIsland: { context in
+            // Dynamic Island (iPhone only)
+            DynamicIsland { /* ... */ }
+        }
+        .supplementalActivityFamilies([.small]) // Enable watchOS
+    }
+}
+```
 
 ## activityFamily Environment
 
-Use `@Environment(\.activityFamily)` to adapt layout — check for `.small` (watchOS) vs iPhone layout.
+Adapt layout for Apple Watch.
 
-## Always On Display
+```swift
+struct DeliveryView: View {
+    @Environment(\.activityFamily) var activityFamily
+    var context: ActivityViewContext<DeliveryAttributes>
 
-Use `@Environment(\.isLuminanceReduced)` to simplify views for Always On Display — reduce detail, use white text, larger fonts. Combine with `@Environment(\.colorScheme)` for proper dark mode handling.
+    var body: some View {
+        if activityFamily == .small {
+            // watchOS-optimized layout
+            WatchDeliveryView(context: context)
+        } else {
+            // iPhone layout
+            iPhoneDeliveryView(context: context)
+        }
+    }
+}
+```
+
+## Always On Display Adaptation
+
+### isLuminanceReduced
+
+```swift
+struct WatchWidgetView: View {
+    @Environment(\.isLuminanceReduced) var isLuminanceReduced
+
+    var body: some View {
+        if isLuminanceReduced {
+            // Simplified view for Always On Display
+            Text(timeString)
+                .font(.system(.title, design: .rounded))
+        } else {
+            // Full color, detailed view
+            VStack {
+                Text(timeString).font(.title)
+                Text(statusString).font(.caption)
+            }
+        }
+    }
+}
+```
+
+### Color Scheme Adaptation
+
+```swift
+@Environment(\.colorScheme) var colorScheme
+
+var body: some View {
+    Text("Status")
+        .foregroundColor(
+            isLuminanceReduced
+                ? .white  // Always On: white text
+                : (colorScheme == .dark ? .white : .black)
+        )
+}
+```
 
 ## Update Budgeting (watchOS)
 
-watchOS updates sync automatically with iPhone via push notifications. Updates may be delayed if watch is out of Bluetooth range.
+**Synchronization**: watchOS Live Activity updates are synchronized with iPhone. When iPhone receives an update via push notification, watchOS automatically refreshes.
+
+**Connectivity**: Updates may be delayed if Apple Watch is out of range or Bluetooth is disconnected.
 
 ---
 
@@ -1064,19 +1616,6 @@ For a complete step-by-step tutorial with working code examples, see Apple's [Bu
 - [ ] watchOS support configured if relevant (supplementalActivityFamilies)
 - [ ] Dynamic Island layouts tested (compact, minimal, expanded)
 
-**Liquid Glass** (if applicable):
-- [ ] `widgetAccentable()` applied for visual hierarchy in accented mode
-- [ ] `WidgetAccentedRenderingMode` set on images (`.accented`, `.monochrome`, or `.fullColor`)
-- [ ] Tested with multiple accent colors and background images
-- [ ] Container background configured with `.containerBackground(for: .widget)`
-
-**visionOS** (if applicable):
-- [ ] Mounting styles configured (`.elevated`, `.recessed`, or both)
-- [ ] Widget texture chosen (`.glass` or `.paper`)
-- [ ] `levelOfDetail` handled for proximity-aware layouts
-- [ ] Extra-large families supported if appropriate (`.systemExtraLarge`, `.systemExtraLargePortrait`)
-- [ ] Tested at different distances for proximity transitions
-
 **Control Center Widgets** (if applicable):
 - [ ] ControlValueProvider async and fast (< 1 second)
 - [ ] previewValue provides reasonable fallback
@@ -1096,26 +1635,131 @@ For a complete step-by-step tutorial with working code examples, see Apple's [Bu
 
 ## Testing Guidance
 
-### Unit Testing Pattern
+### Unit Testing Timeline Providers
 
-Test `placeholder()`, `getSnapshot()`, and `getTimeline()` methods. Save test data to shared container, call `getTimeline()` with a mock context, assert entries are non-empty and contain expected data. Use `waitForExpectations(timeout: 5.0)` for async timeline generation.
+```swift
+import XCTest
+import WidgetKit
+@testable import MyWidgetExtension
+
+class TimelineProviderTests: XCTestCase {
+    var provider: Provider!
+
+    override func setUp() {
+        super.setUp()
+        provider = Provider()
+    }
+
+    func testPlaceholderReturnsValidEntry() {
+        let context = MockContext()
+        let entry = provider.placeholder(in: context)
+
+        XCTAssertNotNil(entry)
+        // Placeholder should have default/safe values
+    }
+
+    func testTimelineGenerationWithValidData() {
+        // Setup: Save test data to shared container
+        let testData = WidgetData(title: "Test", value: 100, lastUpdated: Date())
+        SharedDataManager.shared.saveData(testData)
+
+        let expectation = expectation(description: "Timeline generated")
+        let context = MockContext()
+
+        provider.getTimeline(in: context) { timeline in
+            XCTAssertFalse(timeline.entries.isEmpty)
+            XCTAssertEqual(timeline.entries.first?.widgetData?.title, "Test")
+            expectation.fulfill()
+        }
+
+        waitForExpectations(timeout: 5.0)
+    }
+}
+```
 
 ### Manual Testing Checklist
-- Add widget to Home Screen, verify widget gallery, all supported sizes, data matches app
-- Change data in main app, observe widget updates, force-quit app, reboot device
-- Delete all app data (graceful handling), disable network (offline), Low Power Mode, multiple instances
-- Monitor memory in Xcode Debug Navigator, check timeline generation time in Console, test on older devices
+
+**Basic Functionality**:
+1. Add widget to Home Screen
+2. Verify it shows in widget gallery
+3. Check all supported sizes display correctly
+4. Confirm data matches app data
+
+**Data Updates**:
+1. Change data in main app
+2. Observe widget updates (may take seconds)
+3. Force-quit app, verify widget still shows data
+4. Reboot device, verify widget persists
+
+**Edge Cases**:
+1. Delete all app data, verify widget handles gracefully
+2. Disable network, verify widget works offline
+3. Enable Low Power Mode, verify widget respects limits
+4. Add multiple instances of same widget
+
+**Performance**:
+1. Monitor memory usage in Xcode (Debug Navigator)
+2. Check timeline generation time in Console logs
+3. Verify no crashes in crash logs
+4. Test on older devices (not just latest iPhone)
 
 ### Debugging Tips
-- Add `print()` logging in `getTimeline()` to verify it's being called and data is loaded
-- Verify App Groups: print `FileManager.default.containerURL(forSecurityApplicationGroupIdentifier:)` in both app and widget — paths must match
-- After data changes in main app, call `WidgetCenter.shared.reloadAllTimelines()`
+
+**Widget not updating?**
+```swift
+// Add logging to getTimeline()
+func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
+    print("⏰ Widget timeline requested at \(Date())")
+    let data = SharedDataManager.shared.loadData()
+    print("📊 Loaded data: \(String(describing: data))")
+    // ...
+}
+
+// In main app after data change
+print("🔄 Reloading widget timelines")
+WidgetCenter.shared.reloadAllTimelines()
+```
+
+**Check Console logs**:
+```
+Widget: ⏰ Widget timeline requested at 2024-01-15 10:30:00
+Widget: 📊 Loaded data: Optional(WidgetData(title: "Test", value: 42))
+```
+
+**Verify App Groups**:
+```swift
+// In both app and widget, verify same path
+let container = FileManager.default.containerURL(
+    forSecurityApplicationGroupIdentifier: "group.com.yourcompany.yourapp"
+)
+print("📁 Container path: \(container?.path ?? "nil")")
+// Both should print SAME path
+```
 
 ---
 
 # Part 11: Troubleshooting
 
-**Widget not appearing in gallery**: Check `WidgetBundle` includes it, verify `supportedFamilies()`, check extension's "Skip Install" = NO, verify deployment target matches app.
+## Widget Not Appearing in Gallery
+
+**Symptoms**: Widget doesn't show up in the widget picker
+
+**Diagnostic Steps**:
+1. Check `WidgetBundle` includes your widget
+2. Verify `supportedFamilies()` is set
+3. Check extension target's "Skip Install" is NO
+4. Verify extension's deployment target matches app
+
+**Solution**:
+```swift
+@main
+struct MyWidgetBundle: WidgetBundle {
+    var body: some Widget {
+        MyWidget()
+        // Add your widget here if missing
+    }
+}
+```
 
 ## Widget Not Refreshing
 
@@ -1207,13 +1851,103 @@ Button(action: { /* This won't work in widgets */ }) {
 }
 ```
 
-**Control Center widget slow**: Use async in `ControlValueProvider.currentValue()`, never block with `Thread.sleep`. Provide fast `previewValue` fallback.
+## Control Center Widget Slow/Unresponsive
 
-**Widget shows wrong size**: Switch on `@Environment(\.widgetFamily)` in view, adapt layout per family, avoid hardcoded sizes.
+**Symptoms**: Control takes seconds to respond, appears frozen
 
-**Timeline entries out of order**: Ensure entry dates are chronological. Use incrementing offsets from `Date()`.
+**Cause**: Synchronous work in `ControlValueProvider` or intent `perform()`
 
-**watchOS Live Activity not showing**: Add `.supplementalActivityFamilies([.small])` to `ActivityConfiguration`, verify watchOS 11+, check Bluetooth/pairing.
+**Solution**:
+```swift
+struct MyValueProvider: ControlValueProvider {
+    func currentValue() async throws -> MyValue {
+        // ✅ GOOD: Async fetch
+        let value = try await fetchCurrentValue()
+        return MyValue(data: value)
+    }
+
+    var previewValue: MyValue {
+        // ✅ GOOD: Fast fallback
+        MyValue(data: "Loading...")
+    }
+}
+
+// ❌ BAD: Don't block main thread
+func currentValue() async throws -> MyValue {
+    Thread.sleep(forTimeInterval: 2.0)  // Blocks UI
+}
+```
+
+## Widget Shows Wrong Size/Layout
+
+**Symptoms**: Widget clipped or incorrect aspect ratio
+
+**Diagnostic Steps**:
+1. Check `entry.family` in view code
+2. Verify view adapts to family size
+3. Test all supported families
+4. Check for hardcoded sizes
+
+**Solution**:
+```swift
+struct MyWidgetView: View {
+    @Environment(\.widgetFamily) var family
+    var entry: Provider.Entry
+
+    var body: some View {
+        switch family {
+        case .systemSmall:
+            SmallLayout(entry: entry)
+        case .systemMedium:
+            MediumLayout(entry: entry)
+        default:
+            Text("Unsupported")
+        }
+    }
+}
+```
+
+## Timeline Entries Not Appearing in Order
+
+**Symptoms**: Widget jumps between entries randomly
+
+**Cause**: Entry dates not in chronological order
+
+**Solution**:
+```swift
+// ✅ GOOD: Chronological dates
+let now = Date()
+let entries = (0..<5).map { offset in
+    let date = Calendar.current.date(byAdding: .hour, value: offset, to: now)!
+    return SimpleEntry(date: date, data: "Entry \(offset)")
+}
+
+// ❌ BAD: Out of order dates
+let entries = [
+    SimpleEntry(date: Date().addingTimeInterval(3600), data: "2"),
+    SimpleEntry(date: Date(), data: "1"),  // Out of order
+]
+```
+
+## watchOS Live Activity Not Showing
+
+**Symptoms**: Activity appears on iPhone but not Apple Watch
+
+**Diagnostic Steps**:
+1. Check `.supplementalActivityFamilies([.small])` is set
+2. Verify Apple Watch is paired and nearby
+3. Check watchOS version (11+)
+4. Ensure Bluetooth enabled
+
+**Solution**:
+```swift
+ActivityConfiguration(for: MyAttributes.self) { context in
+    MyActivityView(context: context)
+} dynamicIsland: { context in
+    DynamicIsland { /* ... */ }
+}
+.supplementalActivityFamilies([.small])  // Required for watchOS
+```
 
 ## Performance Issues
 
@@ -1242,37 +1976,6 @@ let entries = (0..<100).map { offset in
 
 ---
 
-## Debugging Widgets
-
-### Simulator vs Device
-
-- **Simulator**: Widgets refresh immediately; no budget limits apply. Useful for layout testing but misleading for refresh behavior.
-- **Device**: Budget-limited (40-70 reloads/day). Test on device before shipping to verify real-world refresh timing.
-- **Xcode Previews**: Work for layout but skip `getTimeline()`. Test timeline logic with unit tests or device runs.
-
-### Common Debugging Workflow
-
-1. Add `print()` in `getTimeline()` — verify it's called and data loads
-2. Check Console.app filtered by widget extension process name
-3. Use `WidgetCenter.shared.getCurrentConfigurations()` to verify registration
-4. If widget shows old data after app update, verify App Groups container paths match
-
-### Data Sharing Patterns
-
-**SwiftData in Widgets** (iOS 17+):
-- Create `ModelContainer` in widget with same schema as main app
-- Use shared App Groups container: `ModelConfiguration(url: containerURL)`
-- Widget reads only — never write from widget to avoid conflicts
-- Main app calls `WidgetCenter.shared.reloadAllTimelines()` after writes
-
-**GRDB/SQLite in Widgets**:
-- Share database file via App Groups container
-- Use `DatabasePool` (not `DatabaseQueue`) for concurrent reads
-- Widget opens read-only connection: `try DatabasePool(path: dbPath, configuration: readOnlyConfig)`
-- Set `configuration.readonly = true` in widget to prevent accidental writes
-
----
-
 ## Resources
 
 **WWDC**: 2025-278, 2024-10157, 2024-10068, 2024-10098, 2023-10028, 2023-10194, 2022-10184, 2022-10185
@@ -1283,4 +1986,4 @@ let entries = (0..<100).map { offset in
 
 ---
 
-**Version**: 0.9 | **Platforms**: iOS 14+, iPadOS 14+, watchOS 9+, macOS 11+, visionOS 2+
+**Version**: 0.9 | **Platforms**: iOS 14+, iPadOS 14+, watchOS 9+, macOS 11+, axiom-visionOS 2+

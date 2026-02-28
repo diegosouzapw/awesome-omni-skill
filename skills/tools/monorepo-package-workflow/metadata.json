@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/design/monorepo-package-workflow-j0kz-mcp-agents/SKILL.md",
+  "file_path": "skills/data/monorepo-package-workflow/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "bc5e0aeaeeabd57fab0273e5b330ad2049bc1533a5cc5aad035a2da9b71daeae",
-  "indexed_at": "2026-02-26T14:23:20.343Z",
-  "synced_at": "2026-02-28T04:15:55.842Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7b7036047f62e8b42e3704bc268278207f10d8e7e7abd0582fb221a1e06d64bc",
-  "install_command": "mkdir -p .claude/skills/monorepo-package-workflow && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/monorepo-package-workflow-j0kz-mcp-agents/SKILL.md\" > .claude/skills/monorepo-package-workflow/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/monorepo-package-workflow-j0kz-mcp-agents/SKILL.md"
+  "content_hash": "d8d3f938c760c6216e285d0313b47a27e5dfecc46bbc9edc4673a0ade3e13612",
+  "indexed_at": "2026-02-28T13:48:29.629Z",
+  "synced_at": "2026-02-28T18:10:30.093Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5875870708a21ee1c20c789a5adf1df046b35d14c8a996ebf9ed16c0cd97421b",
+  "install_command": "mkdir -p .claude/skills/monorepo-package-workflow && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/monorepo-package-workflow/SKILL.md\" > .claude/skills/monorepo-package-workflow/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/monorepo-package-workflow/SKILL.md"
 }

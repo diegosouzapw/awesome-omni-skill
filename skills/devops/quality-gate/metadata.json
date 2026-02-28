@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/quality/quality-gate/SKILL.md",
+  "file_path": "skills/other/adolfoaranaes12-bmad-enhanced-claude-skills-quality-gate/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 44,
@@ -17,10 +17,10 @@
   "has_scripts": false,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "974854fefc52722288116cd1eaf9e1de0c5e5191c1fa0587ddc027242b3ce660",
-  "indexed_at": "2026-02-26T14:24:42.203Z",
-  "synced_at": "2026-02-27T02:41:18.481Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/61d18780c9dd6f79fb29f2839d2a5dc61d87d695eb0e9c756fa9f13df8adb1df",
-  "install_command": "mkdir -p .claude/skills/quality-gate && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/quality/quality-gate/SKILL.md\" > .claude/skills/quality-gate/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/quality/quality-gate/SKILL.md"
+  "content_hash": "4d8b25661182bf34f4469b5ab515393201ed43d3bdbc527fcb986afa5aa525d8",
+  "indexed_at": "2026-02-28T13:47:15.905Z",
+  "synced_at": "2026-02-28T18:10:26.868Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/289fe3705b46098b63d582a7e155c65dbc7558cb23bbb84cd729d92e931199aa",
+  "install_command": "mkdir -p .claude/skills/quality-gate && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/adolfoaranaes12-bmad-enhanced-claude-skills-quality-gate/SKILL.md\" > .claude/skills/quality-gate/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/adolfoaranaes12-bmad-enhanced-claude-skills-quality-gate/SKILL.md"
 }

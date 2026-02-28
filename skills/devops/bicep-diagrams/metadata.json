@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/gamingopgamingop/sarthak-skill-forge",
   "author": "gamingopgamingop",
   "author_avatar": "https://github.com/gamingopgamingop.png",
-  "file_path": ".cursor/skills/bicep-diagrams/SKILL.md",
+  "file_path": ".kiro/skills/bicep-diagrams/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "afa084f16a884fb9cd377cdafdcca59a7a618586bda5ae8d53f6b0f2d306906b",
-  "indexed_at": "2026-02-27T16:07:21.429Z",
-  "synced_at": "2026-02-28T04:09:29.661Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2ac04bd34bf9592f6682617b60ba116632ad9655273378af3f5ed97da8098d98",
-  "install_command": "mkdir -p .claude/skills/bicep-diagrams && curl -sL \"https://raw.githubusercontent.com/gamingopgamingop/sarthak-skill-forge/main/.cursor/skills/bicep-diagrams/SKILL.md\" > .claude/skills/bicep-diagrams/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/gamingopgamingop/sarthak-skill-forge/main/.cursor/skills/bicep-diagrams/SKILL.md"
+  "content_hash": "8ebf669208200e7d19802fa0cee70ef76b8e20152fd90aa7b4154226b0e45f69",
+  "indexed_at": "2026-02-28T15:46:14.338Z",
+  "synced_at": "2026-02-28T18:10:19.290Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ca4c6bc24814babd9844de41b6754ee79ddbe68652abbf08cc55bef171eff531",
+  "install_command": "mkdir -p .claude/skills/bicep-diagrams && curl -sL \"https://raw.githubusercontent.com/gamingopgamingop/sarthak-skill-forge/main/.kiro/skills/bicep-diagrams/SKILL.md\" > .claude/skills/bicep-diagrams/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/gamingopgamingop/sarthak-skill-forge/main/.kiro/skills/bicep-diagrams/SKILL.md"
 }

@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/other/ci-cd-integration-hgeldenhuys-claude-code-sdk-72707f89/SKILL.md",
+  "file_path": "skills/data/ci-cd-integration/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 44,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "d73fa98df9f1647c8cf37d36f1bbf9346c15c1edfe28b92de7840a2bb5bb28f7",
-  "indexed_at": "2026-02-26T09:36:23.816Z",
-  "synced_at": "2026-02-28T04:10:51.106Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1b172aa50c006e15a299ba4c3caf20d2170dfc54b468f5c0c93329d2350dd8ee",
-  "install_command": "mkdir -p .claude/skills/ci-cd-integration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/ci-cd-integration-hgeldenhuys-claude-code-sdk-72707f89/SKILL.md\" > .claude/skills/ci-cd-integration/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/ci-cd-integration-hgeldenhuys-claude-code-sdk-72707f89/SKILL.md"
+  "content_hash": "ee2639896f22a904ec0e2e16fd0c6543e2f70304c5c89a81cb76526a529d13be",
+  "indexed_at": "2026-02-28T13:47:00.390Z",
+  "synced_at": "2026-02-28T18:10:26.771Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e92cb378aff1a1e6f9e9bc285974de22b1d0eef05bcf336c11c9a07b1b8b765c",
+  "install_command": "mkdir -p .claude/skills/ci-cd-integration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ci-cd-integration/SKILL.md\" > .claude/skills/ci-cd-integration/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ci-cd-integration/SKILL.md"
 }

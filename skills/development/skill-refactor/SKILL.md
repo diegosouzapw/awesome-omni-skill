@@ -1,143 +1,61 @@
 ---
 name: skill-refactor
-description: Transform and refactor existing skills by applying pattern substitutions (package managers, hosting platforms, build tools, testing frameworks). Use when: adapting a skill to use different tools (e.g., pnpm→bun, cloudflare→vercel), migrating project patterns, or aligning skills with your tech stack.
+description: Reviews and refactors an existing skill against quality standards. Use when asked to review, audit, improve, or refactor a skill. Triggers on phrases like "refactor this skill", "review my skill", "improve skill quality", "audit skill-name", "clean up my skill". Do NOT use to create a new skill from scratch.
 ---
 
 # Skill Refactor
 
-Transform existing skills by applying pattern substitutions across all skill files.
+Standalone refactor review for existing skills. Runs critique and red-team agents in parallel, compiles a review summary, and gates all changes behind explicit user approval.
 
-## How to Use
+## Input
 
-```bash
-/skill-refactor <transform1> <transform2> [skill-name]
-```
+Accept one of:
 
-**Arguments:**
-- `<transform>`: One or more transformations to apply (see list below)
-- `[skill-name]`: Optional target skill name (defaults to skill in current context)
+- Project-bound path: `.claude/skills/<skill-name>/`
+- Template path: `skills/<skill-name>/` (or any other project-relative path)
 
-**Examples:**
+If the user does not provide a path, ask which skill to refactor before proceeding.
 
-```bash
-/skill-refactor bun
-/skill-refactor bun vercel
-/skill-refactor bun vercel my-skill
-/skill-refactor vitest motion
-```
+Confirm the directory exists and contains `SKILL.md` before launching sub-agents.
 
 ## Workflow
 
-### 1. Parse Arguments
-Extract transformation types and optional target skill name from command arguments.
+See `references/refactor-protocol.md` for full sub-agent prompt templates, output formats, and AskUserQuestion schemas.
 
-### 2. Identify Target Skill
-If a skill name is provided, search for it in `.claude/skills/` or `.github/skills/`.
-Otherwise, detect the target skill from conversation context (recently read or edited skill files).
-If no skill can be identified, ask the user to specify which skill to transform.
+### 1. Locate skill
 
-### 3. Analyze Target Skill
-List all files in the skill directory to understand its structure:
-- `SKILL.md` (main skill file)
-- `references/` (documentation references)
-- `scripts/` (initialization scripts)
-- `templates/` (code templates)
-- `assets/` (images, diagrams, etc.)
+Resolve the skill path. Read all files in the directory. If `SKILL.md` is missing, stop and report.
 
-Read the main `SKILL.md` to understand the current state of the skill.
+### 2. Launch parallel sub-agents
 
-### 4. Load Transformation Patterns
-Read the relevant reference files based on the transformation arguments:
-- `references/package-managers.md` for: `pnpm`, `bun`, `npm`, `yarn`
-- `references/hosting.md` for: `vercel`, `cloudflare`, `netlify`
-- `references/build-tools.md` for: `webpack`, `vite`, `esbuild`, `rollup`
-- `references/testing.md` for: `jest`, `vitest`, `playwright`, `node:test`
+Launch both simultaneously:
 
-Build a list of search/replace patterns from the reference files.
+- **Critique agent** — evaluates against internal quality standards (conciseness, degrees of freedom, progressive disclosure, structure, forbidden files). Read `references/refactor-protocol.md` for the prompt template.
+- **Red-team agent** — evaluates against `references/anthropic-best-practices.md` (naming, frontmatter, trigger quality, instruction quality, error handling, file conventions). Read `references/refactor-protocol.md` for the prompt template.
 
-### 5. Apply Transformations
-For each file in the target skill (SKILL.md, references/, scripts/, templates/):
-1. Read the file content
-2. Apply all relevant search/replace patterns
-3. Write the updated content back to the file
+Write outputs to:
 
-Skip binary files in `assets/` (not text files).
+- `temp/<skill-name>/critique/feedback.md`
+- `temp/<skill-name>/red-team/feedback.md`
 
-### 6. Report Changes
-After completing the transformations, report:
-- List of files that were modified
-- Summary of transformations applied
-- Any files that were skipped (binary files, etc.)
+### 3. Compile review summary
 
-## Available Transformations
+Merge both feedback files into `temp/<skill-name>/refactor/review-summary.md`. Present the path to the user and ask them to review it before proceeding.
 
-### Package Managers
-Transform between: `pnpm`, `bun`, `npm`, `yarn`
+### 4. Approval gate
 
-Patterns include: command patterns, lock file references, config file references, documentation phrases.
+Use AskUserQuestion. Options: proceed with refactor, keep as-is, defer. If declined or deferred, log to `decisions.md` and stop.
 
-### Hosting Platforms
-Transform between: `vercel`, `cloudflare`, `netlify`
+### 5. Requirements gathering
 
-Patterns include: environment variable names, deployment commands, platform-specific imports, configuration file patterns.
+Use AskUserQuestion (up to 3 questions): which change categories to apply, any new requirements, refactor depth (targeted vs full rewrite). Log all answers to `temp/<skill-name>/refactor/decisions.md`.
 
-### Build Tools
-Transform between: `webpack`, `vite`, `esbuild`, `rollup`
+### 6. Refactor agent
 
-Patterns include: CLI command patterns, configuration file formats, plugin/import patterns, build output references.
+Apply approved changes in-place to the skill files. Preserve sections not flagged for change in targeted refactors. Log implementation notes to `decisions.md`. Read `references/refactor-protocol.md` for the prompt template.
 
-### Testing Frameworks
-Transform between: `jest`, `vitest`, `playwright`, `node:test`
+## Constraints
 
-Patterns include: test syntax, assertion patterns, mock/fixture patterns, configuration files.
-
-## Examples
-
-### Convert from pnpm to bun
-
-```bash
-/skill-refactor bun
-```
-
-Before:
-```markdown
-pnpm add @vercel/blob
-```
-
-After:
-```markdown
-bun add @vercel/blob
-```
-
-### Convert from Vercel to Cloudflare
-
-```bash
-/skill-refactor cloudflare my-skill
-```
-
-Before:
-```typescript
-import { put } from '@vercel/blob';
-const url = process.env.VERCEL_URL;
-```
-
-After:
-```typescript
-import { put } from '@cloudflare/workers-types';
-const url = env.CLOUDFLARE_URL;
-```
-
-### Multiple transformations
-
-```bash
-/skill-refactor bun vite vitest
-```
-
-Converts to: Bun (package manager), Vite (build tool), Vitest (testing framework).
-
-## Notes
-
-- This skill performs text-based pattern replacement. Always review changes after transformation.
-- Some transformations may require additional manual adjustments (e.g., configuration file formats differ significantly).
-- Binary files in `assets/` are never modified.
-- New transformation categories can be added by creating new reference files in `references/`.
+- Never modify skill files without explicit user approval
+- Write all intermediate artifacts to `temp/<skill-name>/` before any approval gate
+- Log all user decisions and implementation choices to `decisions.md`

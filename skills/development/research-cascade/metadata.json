@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/research-cascade/SKILL.md",
+  "file_path": "skills/other/research-cascade/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "ee3406c3937e1666226f9699503547ed5e9e05c2170485184565d5c76da97a43",
-  "indexed_at": "2026-02-26T04:26:08.442Z",
-  "synced_at": "2026-02-28T03:54:51.430Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f74e665ae38c63a1297c1155c47fc0d0614cde459f3c2aee4911ad01f39146ea",
-  "install_command": "mkdir -p .claude/skills/research-cascade && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/research-cascade/SKILL.md\" > .claude/skills/research-cascade/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/research-cascade/SKILL.md"
+  "content_hash": "ca6031e9b99ec2ee6a711f11cad03f108cb5e3b15c924236075969e19215ea37",
+  "indexed_at": "2026-02-28T16:35:08.055Z",
+  "synced_at": "2026-02-28T18:10:49.284Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c922020ec6e830a646cff1c7dba0a5d417a38796a7035e1cee4051acf39d01a5",
+  "install_command": "mkdir -p .claude/skills/research-cascade && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/research-cascade/SKILL.md\" > .claude/skills/research-cascade/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/research-cascade/SKILL.md"
 }

@@ -96,6 +96,23 @@ questions:
 
 **No custom topic** → Present 8 predefined packs as multi-select:
 
+### Step 1a: Choose Interview Mode
+
+Ask user to select interview mode:
+
+```yaml
+questions:
+  - question: "Interview mode preference?"
+    header: "Mode"
+    options:
+      - label: "Interactive (default)"
+        description: "Answer questions one-by-one with discussion"
+      - label: "Fast mode"
+        description: "Answer all questions at once, faster execution"
+```
+
+**Store:** `interviewMode` ("interactive" or "fast")
+
 | Pack | ID |
 |------|----|
 | Codebase Topology & Ownership | `codebase-topology-ownership` |
@@ -139,7 +156,14 @@ Continuing session: {sessionId}
 ⏳ Remaining: {remainingPacks.join(', ')}
 ```
 
-Spawn a **Task agent per pack** (only sequentally, do not run in parallel).
+**When running packs in parallel:**
+- Launch all pack agents as background tasks
+- Capture all task IDs
+- Wait for all to complete using TaskOutput tool
+- Display progress as packs finish
+
+Spawn a **Task agent per pack** - run all in parallel for faster execution.
+Use `run_in_background: true` for each Task call, then wait for all to complete.
 
 ```yaml
 subagent_type: "general-purpose"
@@ -164,17 +188,12 @@ prompt: |
   ## Instructions
 
   ### 1. Read Context
-  Read pack-reference.md to get:
-  - Explore prompt template for this pack
-  - Question themes for this pack
+  Read pack-reference.md to get question themes for this pack.
 
   Read repoContextReportPath and docsConventionsReportPath for grounding.
+  These reports contain ALL necessary findings - do NOT run additional explores.
 
-  ### 2. Topic-Specific Explore (Step 4)
-  Run Explore agent using pack's template prompt.
-  For custom packs: generate prompt from customTopicDescription.
-
-  ### 3. Generate Questions (Step 5)
+  ### 2. Generate Questions
   Question count:
   - Predefined: 5
   - Custom (narrow): 3-4
@@ -182,8 +201,8 @@ prompt: |
   - Custom (broad): 6-7
 
   Guidelines:
-  - Ground in Explore findings + existing docs
-  - Reference actual code: "I see X in Y file..."
+  - Ground ONLY in the provided explore reports + existing docs
+  - Reference actual code: "I see X in Y file..." (from reports)
   - Ask about conventions, not roadmap
   - Offer 4 options (A/B/C/D)
   - Mark one as "⭐ Recommended" at end of description
@@ -195,16 +214,23 @@ prompt: |
   C) {Option} — {rationale}
   D) {Option} — {rationale}
 
-  ### 4. Conduct Interview (Step 6)
-  Present via AskUserQuestion (max 4 per call).
+  ### 3. Conduct Interview
+  If interviewMode is "fast":
+    - Present all questions in a single markdown code block
+    - User responds with all answers at once (e.g., "A, B, A, C, B")
+  If interviewMode is "interactive":
+    - Present via AskUserQuestion (max 4 per call)
 
-  ### 5. Classify Responses (Step 6.5)
+  ### 4. Classify Responses
   For each response, classify as:
   - CONVENTION: Timeless, future-focused ("When implementing X, do Y")
   - ACTION_ITEM: Temporal, fixes current state ("Replace X", "Fix X")
 
-  ### 6. Save Results
-  Write to {sessionsPath}{sessionId}/{packId}.md
+  ### 5. Extract and Save Results
+  Extract rules immediately (not full Q&A) and write to {sessionsPath}{sessionId}/{packId}.md:
+  - CONVENTION items → "## Conventions" section
+  - ACTION_ITEM items → "## Action Items" section with severity
+  - Optionally preserve raw Q&A in collapsed "## Raw Interview" section
 ```
 
 **Session structure:**
@@ -222,22 +248,22 @@ prompt: |
 # {Pack Name}
 **Pack ID:** {id}
 
-## Explore Findings
-{summary of topic-specific exploration}
+## Conventions
+- Q1: {extracted rule}
+- Q2: {extracted rule}
 
-## Interview
+## Action Items
+- Q3: {action item with severity}
 
-### Q1: {Short question summary}
-**Selected:** {Selected option text}
-**Notes:** {User's additional context, if any}
-**Classification:** CONVENTION | ACTION_ITEM
-
-### Q2: ...
+## Raw Interview (optional, for reference)
+Preserve Q&A in collapsed detail if needed for debugging.
 ```
 
 ### Step 4: Await Pack Interviews
 
 Wait for all pack interview agents to complete. Each writes its results to `{sessionsPath}{sessionId}/{packId}.md` with classifications already included.
+
+**Note:** Pack agents use existing explore reports - no additional explores are run.
 
 ### Step 5: Generate Outputs
 
