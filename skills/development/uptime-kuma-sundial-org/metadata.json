@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "37f6e831001912027de59865019fa57376a2ffc2a4365104ed40f51210cdc021",
   "indexed_at": "2026-02-26T11:40:51.576Z",
-  "synced_at": "2026-02-27T02:32:32.847Z",
+  "synced_at": "2026-02-28T03:58:11.778Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bad5678aec9684e6c300f7a4743dd2e02e4d471f48eb2d0c02e30f975dc3386c",
   "install_command": "mkdir -p .claude/skills/uptime-kuma && curl -sL \"https://raw.githubusercontent.com/sundial-org/awesome-openclaw-skills/main/skills/uptime-kuma/SKILL.md\" > .claude/skills/uptime-kuma/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sundial-org/awesome-openclaw-skills/main/skills/uptime-kuma/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "77d67201c4b7e4bf3872a83a46cfb83d17229b06ddf40f6f5c613898a39f7d7e",
   "indexed_at": "2026-02-26T11:32:52.677Z",
-  "synced_at": "2026-02-27T02:32:16.483Z",
+  "synced_at": "2026-02-28T03:57:56.307Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cbfb747dc0bd1aeb1ba8cf1f9df60c34cffeb30ebb5b37adf55e07f61f724714",
   "install_command": "mkdir -p .claude/skills/framework-to-capacitor && curl -sL \"https://raw.githubusercontent.com/yeohj0710/wellnessbox/main/.agents/skills/framework-to-capacitor/SKILL.md\" > .claude/skills/framework-to-capacitor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yeohj0710/wellnessbox/main/.agents/skills/framework-to-capacitor/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "da0561660f98422d8f8ad043a9f3bd7b9f5b263001dc58e0c81338dd2ef95edf",
   "indexed_at": "2026-02-26T11:31:58.666Z",
-  "synced_at": "2026-02-27T02:32:11.685Z",
+  "synced_at": "2026-02-28T03:57:51.812Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/61ddaa984618ec63da0c55f54f7465982f6f929cc4e9543859f0a5c0892b71f2",
   "install_command": "mkdir -p .claude/skills/storybook-configuration && curl -sL \"https://raw.githubusercontent.com/TheBushidoCollective/han/main/plugins/tools/storybook/skills/storybook-configuration/SKILL.md\" > .claude/skills/storybook-configuration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TheBushidoCollective/han/main/plugins/tools/storybook/skills/storybook-configuration/SKILL.md"

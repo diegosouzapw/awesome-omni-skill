@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b02f6db2857ca68b06f900b059e28a991e6f33c57b1e27bfc042ede8fa94dc72",
   "indexed_at": "2026-02-26T09:52:28.977Z",
-  "synced_at": "2026-02-27T02:31:31.393Z",
+  "synced_at": "2026-02-28T03:57:13.573Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1540f0fd6826720ebfe915c24cf014b6d60b64115630f92c3794aa568d955d8d",
   "install_command": "mkdir -p .claude/skills/system-design-patterns && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/system-design-patterns/SKILL.md\" > .claude/skills/system-design-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/system-design-patterns/SKILL.md"

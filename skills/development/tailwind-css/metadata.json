@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4494804a31a26a1f0134de99180bf291657a520067dd7280debf922561f5a6c9",
   "indexed_at": "2026-02-26T11:31:49.821Z",
-  "synced_at": "2026-02-27T02:32:10.806Z",
+  "synced_at": "2026-02-28T03:57:50.985Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/496acb13abc6e06a1d3ef2a15a405c36b43e85f0d273bccd1079b4a96536b977",
   "install_command": "mkdir -p .claude/skills/tailwind-css && curl -sL \"https://raw.githubusercontent.com/a5c-ai/babysitter/main/plugins/babysitter/skills/babysit/process/specializations/web-development/skills/tailwind-css/SKILL.md\" > .claude/skills/tailwind-css/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/a5c-ai/babysitter/main/plugins/babysitter/skills/babysit/process/specializations/web-development/skills/tailwind-css/SKILL.md"

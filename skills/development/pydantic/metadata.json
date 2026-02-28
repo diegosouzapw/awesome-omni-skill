@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ecc532a178b40223bde4ae0d162e428bb2cd350b55544c49a54a4f62e5081da1",
   "indexed_at": "2026-02-26T10:53:37.975Z",
-  "synced_at": "2026-02-27T02:31:58.646Z",
+  "synced_at": "2026-02-28T03:57:39.754Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/86c872a4d84fbafdd2082d358a29d8348ef60447815ffeae21a920a665bc749c",
   "install_command": "mkdir -p .claude/skills/pydantic && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/bobmatnyc__terminator__claude__skills__toolchains-python-validation-pydantic__SKILL.md/SKILL.md\" > .claude/skills/pydantic/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/bobmatnyc__terminator__claude__skills__toolchains-python-validation-pydantic__SKILL.md/SKILL.md"

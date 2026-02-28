@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c64edc8e1ad51716622853ebc50ff910209124a4a7fe9f2167c69484f06efd54",
   "indexed_at": "2026-02-26T11:36:12.281Z",
-  "synced_at": "2026-02-27T02:32:26.642Z",
+  "synced_at": "2026-02-28T03:58:05.804Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b5c16dd28c4ba60d9a5157d9e22755cc708a01e3c3c2f82498f47a3d866a90e4",
   "install_command": "mkdir -p .claude/skills/better-auth-best-practices && curl -sL \"https://raw.githubusercontent.com/masumi-network/sokosumi/main/apps/core/.agents/skills/better-auth-best-practices/SKILL.md\" > .claude/skills/better-auth-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/masumi-network/sokosumi/main/apps/core/.agents/skills/better-auth-best-practices/SKILL.md"

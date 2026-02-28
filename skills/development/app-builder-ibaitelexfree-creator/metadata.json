@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "70ad47afa5d80f669a83692a809ee070b7cdb37ba0c1afe2240275c4d8f8f978",
   "indexed_at": "2026-02-26T12:20:42.856Z",
-  "synced_at": "2026-02-27T02:32:48.855Z",
+  "synced_at": "2026-02-28T03:58:26.072Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a2a9517354d395a2a1c408a1d5ae108cbdc11c930f2f71d60578e7dfda90607c",
   "install_command": "mkdir -p .claude/skills/app-builder && curl -sL \"https://raw.githubusercontent.com/ibaitelexfree-creator/getxobelaeskola/main/.jules_bases/jules_284/.agent/skills/app-builder/SKILL.md\" > .claude/skills/app-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ibaitelexfree-creator/getxobelaeskola/main/.jules_bases/jules_284/.agent/skills/app-builder/SKILL.md"

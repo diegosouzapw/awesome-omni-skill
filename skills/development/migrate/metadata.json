@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c7da18edc7af2900781068574961750b3791912c49347f960d4e6ff3647333a9",
   "indexed_at": "2026-02-26T12:22:03.567Z",
-  "synced_at": "2026-02-27T02:32:55.129Z",
+  "synced_at": "2026-02-28T03:58:32.024Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/859309d46d03284241ee7a03c5ba3dd2ec5c30ac10d155f3ed252ee678a705e0",
   "install_command": "mkdir -p .claude/skills/migrate && curl -sL \"https://raw.githubusercontent.com/incluud/astro-cursor-plugin/main/skills/migrate/SKILL.md\" > .claude/skills/migrate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/incluud/astro-cursor-plugin/main/skills/migrate/SKILL.md"

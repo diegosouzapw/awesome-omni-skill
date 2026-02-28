@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f768ccdd99634e9cc0d0a635e33bf5fee95885b77ac1a0699e47637ee8542667",
   "indexed_at": "2026-02-26T11:36:14.351Z",
-  "synced_at": "2026-02-27T02:32:27.012Z",
+  "synced_at": "2026-02-28T03:58:06.160Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4a395c742c375e9fba427ed40b461b1dc7784ec58b3eb5249e3b6011398eaf88",
   "install_command": "mkdir -p .claude/skills/better-auth-best-practices && curl -sL \"https://raw.githubusercontent.com/bananayong/agent-sandbox/main/skills/best-practices/SKILL.md\" > .claude/skills/better-auth-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bananayong/agent-sandbox/main/skills/best-practices/SKILL.md"

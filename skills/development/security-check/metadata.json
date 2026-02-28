@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "14fac967ad6c92e6f1d44f65a9cc9701f1e3d92565620f6e3222fbe41c34c2e3",
   "indexed_at": "2026-02-26T12:23:55.837Z",
-  "synced_at": "2026-02-27T02:33:04.762Z",
+  "synced_at": "2026-02-28T03:58:39.909Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d7a012e7b23f6c8bea2649b3962cc9ec2ead81a0657eb06a7efe47e11d29d0cb",
   "install_command": "mkdir -p .claude/skills/security-check && curl -sL \"https://raw.githubusercontent.com/alessiovep/cc-security-skill/main/security-check/SKILL.md\" > .claude/skills/security-check/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alessiovep/cc-security-skill/main/security-check/SKILL.md"

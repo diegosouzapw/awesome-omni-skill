@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bdfb010fd80febf8fd1228813f2d6089b3518750c5eb28113b1a527373374ec9",
   "indexed_at": "2026-02-26T10:47:52.799Z",
-  "synced_at": "2026-02-27T02:31:45.715Z",
+  "synced_at": "2026-02-28T03:57:27.432Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b674aca3e65df8f32ef3c6c79d44e963835cca329a4ef579dd71311a9887b574",
   "install_command": "mkdir -p .claude/skills/python-development && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/hainamchung/agent-assistant/python-development/SKILL.md\" > .claude/skills/python-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/hainamchung/agent-assistant/python-development/SKILL.md"

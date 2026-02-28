@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f715ec0fed0fc8cf6f1c159d909516c25777a7c601838728803c858b201ed2e7",
   "indexed_at": "2026-02-26T11:35:02.637Z",
-  "synced_at": "2026-02-27T02:32:25.611Z",
+  "synced_at": "2026-02-28T03:58:04.728Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8e35f670e722721fdb8c71c52b5f53feac3304e46e5b11ceaace0a3995a6bc38",
   "install_command": "mkdir -p .claude/skills/python-expert && curl -sL \"https://raw.githubusercontent.com/nguyenthienthanh/aura-frog/main/aura-frog/skills/python-expert/SKILL.md\" > .claude/skills/python-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nguyenthienthanh/aura-frog/main/aura-frog/skills/python-expert/SKILL.md"

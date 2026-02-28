@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "238176865d343fec1eaa1d6c00b8f71383b2c7ba868c7e9fcdf73a6bdcb97ded",
   "indexed_at": "2026-02-26T10:55:50.593Z",
-  "synced_at": "2026-02-27T02:32:03.289Z",
+  "synced_at": "2026-02-28T03:57:44.276Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/60393203e032bb95fb3b56d2253491e543e5ec2f84d1177bad2170210f2d0cc9",
   "install_command": "mkdir -p .claude/skills/dataflow && curl -sL \"https://raw.githubusercontent.com/Integrum-Global/kailash-vibe-gemini-setup/main/.agent/skills/02-dataflow/SKILL.md\" > .claude/skills/dataflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Integrum-Global/kailash-vibe-gemini-setup/main/.agent/skills/02-dataflow/SKILL.md"

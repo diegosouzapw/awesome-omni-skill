@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6eaf27d27490b5165f75ec590c906c683a5fe18f5b9bc3864a4570684590300a",
   "indexed_at": "2026-02-26T12:21:25.058Z",
-  "synced_at": "2026-02-27T02:32:51.789Z",
+  "synced_at": "2026-02-28T03:58:28.877Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/70c5043efd892e305b0e1747c4c0a71a684365fcce4ae9c7f0a48a3c7abaf697",
   "install_command": "mkdir -p .claude/skills/start-local && curl -sL \"https://raw.githubusercontent.com/stevengonsalvez/agents-in-a-box/main/toolkit/packages/skills/start-local/SKILL.md\" > .claude/skills/start-local/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/stevengonsalvez/agents-in-a-box/main/toolkit/packages/skills/start-local/SKILL.md"

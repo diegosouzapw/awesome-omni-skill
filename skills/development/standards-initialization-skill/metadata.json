@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9c8aba8f469d07d8c8ce09edac6ce5969899ba82a0d949c44a0c3bd27708d2fc",
   "indexed_at": "2026-02-26T10:45:13.224Z",
-  "synced_at": "2026-02-27T02:31:37.050Z",
+  "synced_at": "2026-02-28T03:57:19.066Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/268d61a27b98a7179c7632fe7fa9b2885e5af30b3d822729e37615e674a8320e",
   "install_command": "mkdir -p .claude/skills/standards-initialization-skill && curl -sL \"https://raw.githubusercontent.com/fabriqaai/specs.md/main/memory-bank/ideas/fire-specs/intents/fire-flow/work-items/standards-init-skill.md/SKILL.md\" > .claude/skills/standards-initialization-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fabriqaai/specs.md/main/memory-bank/ideas/fire-specs/intents/fire-flow/work-items/standards-init-skill.md/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "337af303fa432101c4703825075532680e4698c384f5d48895c8d40ffa4a5151",
   "indexed_at": "2026-02-26T11:40:54.059Z",
-  "synced_at": "2026-02-27T02:32:33.378Z",
+  "synced_at": "2026-02-28T03:58:12.278Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f826306d2067afe8694aca96a05f9ae82b75176d8bae3a6b78905126d914cd53",
   "install_command": "mkdir -p .claude/skills/uptime-kuma && curl -sL \"https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/skills_library/devops_cloud/uptime-kuma/SKILL.md\" > .claude/skills/uptime-kuma/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/skills_library/devops_cloud/uptime-kuma/SKILL.md"

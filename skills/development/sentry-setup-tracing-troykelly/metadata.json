@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7f44fa28b5b6f0b9a86586571bba30242f45e2a008e969b1684831e657e8fd85",
   "indexed_at": "2026-02-26T12:22:39.176Z",
-  "synced_at": "2026-02-27T02:32:58.890Z",
+  "synced_at": "2026-02-28T03:58:35.626Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f51f01375140a6677f5028f50e939c20bbd8b7411722962d5fcfe943582773d9",
   "install_command": "mkdir -p .claude/skills/sentry-setup-tracing && curl -sL \"https://raw.githubusercontent.com/troykelly/codex-skills/main/external/skills/sentry-setup-tracing/SKILL.md\" > .claude/skills/sentry-setup-tracing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/troykelly/codex-skills/main/external/skills/sentry-setup-tracing/SKILL.md"

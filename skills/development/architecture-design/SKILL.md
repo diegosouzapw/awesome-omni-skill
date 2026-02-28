@@ -1,292 +1,406 @@
 ---
 name: architecture-design
-description: Design Azure cloud architectures from requirements and generate High-Level Design (HLD) documentation with service selection, patterns, cost estimates, and WAF alignment. Use this when asked to design or architect Azure solutions.
+description: Generate comprehensive software architecture documentation (ARCHITECTURE.md) with C4 diagrams, OpenAPI specs, and technology-specific guidance. This skill should be used when creating architecture documentation for new projects, documenting existing systems, or updating architectural specifications.
 ---
 
-# Architecture Design Skill
+# Architecture Design
 
-Design comprehensive Azure architectures and produce HLD documentation following Well-Architected Framework and Cloud Adoption Framework best practices.
+Generate professional software architecture documentation with visual diagrams and API specifications through structured interviews. Create complete ARCHITECTURE.md files covering all required sections with technology-specific patterns, C4 model diagrams, and OpenAPI 3.0 specifications.
 
-## When to Use
+## Core Workflow
 
-- Design new Azure solutions from requirements
-- Create High-Level Design (HLD) documentation
-- Select Azure services and architectural patterns
-- Plan cloud migrations or modernization
-- Produce architecture decision records
+### Step 1: Assess Project Type
 
-## Design Process
+Determine the project type by asking the user:
 
-### 1. Gather Requirements
+- **New project?** Gather requirements and design architecture
+- **Existing system?** Document current state
+- **Update needed?** Identify changed components
 
-Ask clarifying questions about:
-- **Workload type**: Web app, API, data processing, IoT, AI/ML
-- **Scale**: User count, data volume, geographic distribution
-- **Performance**: Response time, throughput, latency SLAs
-- **Availability**: Uptime requirements (e.g., 99.9%, 99.99%)
-- **Security**: Data classification, compliance (HIPAA, GDPR, PCI-DSS)
-- **Budget**: Monthly/annual cost constraints
-- **Timeline**: Deployment deadlines, phasing needs
+### Step 2: Gather Essential Information
 
-### 2. Select Azure Services
+Conduct a brief interview (5-7 questions maximum) to collect:
 
-**Service Selection Priority:** PaaS > Containers > IaaS
+1. **Architecture pattern:** Monolith, microservices, or serverless?
+2. **Primary technology:** Node.js, Python, Java, or other?
+3. **Key components:** Main services or modules?
+4. **Data stores:** Databases and caches?
+5. **Cloud provider:** AWS, GCP, Azure, or on-premise?
+6. **Deployment:** How is it deployed?
+7. **External integrations:** Third-party services?
 
-Refer to [references.md](./references.md) for detailed guidance on:
-- Compute options (App Service, Functions, AKS, Container Apps, VMs)
-- Data storage (Azure SQL, Cosmos DB, PostgreSQL, Blob Storage)
-- Messaging (Service Bus, Event Hubs, Event Grid, Storage Queues)
-- Networking (Front Door, Application Gateway, Load Balancer)
+### Step 3: Select Template and Load References
 
-**Key Decision Criteria:**
-- Match service capabilities to requirements
-- Consider team expertise and operational overhead
-- Evaluate cost vs. feature trade-offs
-- Prioritize managed services to reduce operations
+**Choose template based on architecture pattern:**
 
-### 3. Design Architecture
+- Monolith → Use `assets/ARCHITECTURE-monolith.md`
+- Microservices → Use `assets/ARCHITECTURE-microservices.md`
+- Uncertain → Use `assets/ARCHITECTURE.md`
 
-Apply patterns based on requirements:
+**Load technology-specific references:**
 
-**N-Tier (Traditional):**
-- **When**: Standard web apps, proven patterns, team familiarity
-- **Structure**: Frontend → Load Balancer → App Tier → Database
-- **Services**: App Service, Azure SQL, Application Gateway, Redis Cache
+- Node.js projects → Load `references/nodejs.md` for Express, NestJS, Fastify patterns
+- Python projects → Load `references/python.md` for Django, Flask, FastAPI patterns
+- Java projects → Load `references/java.md` for Spring Boot, Jakarta EE patterns
 
-**Microservices:**
-- **When**: Loosely coupled services, independent scaling, polyglot needs
-- **Structure**: API Gateway → Services → Message Bus → Databases
-- **Services**: API Management, AKS/Container Apps, Service Bus, Cosmos DB
+**Load pattern-specific references when applicable:**
 
-**Event-Driven:**
-- **When**: Asynchronous processing, reactive systems, decoupled components
-- **Structure**: Event Sources → Event Hub/Grid → Functions/Logic Apps → Storage
-- **Services**: Event Hubs, Azure Functions, Cosmos DB, Service Bus
+- Microservices → Load `references/microservices.md` for service boundaries and communication patterns
+- Serverless → Load `references/serverless.md` for function organization and event sources
 
-**Serverless:**
-- **When**: Sporadic workloads, event processing, cost-sensitive scenarios
-- **Structure**: HTTP/Timer/Queue Triggers → Functions → Storage/Database
-- **Services**: Azure Functions, Logic Apps, Cosmos DB, Blob Storage
+### Step 4: Generate System Diagram
 
-### 4. Apply Well-Architected Framework
+Generate appropriate diagrams using `scripts/generate_diagram.py`:
 
-Address all five pillars (detailed checklists in [waf-assessment skill](../waf-assessment/)):
+**For monolithic architectures:**
 
-**Reliability:**
-- Availability Zones for production
-- Multi-region for mission-critical (99.99%+)
-- Health checks and auto-healing
-- Backup strategy with RPO/RTO defined
-
-**Security:**
-- Managed identities (no credentials in code)
-- Private endpoints for PaaS services
-- HTTPS only with TLS 1.2+
-- Network security groups (least privilege)
-- Azure Key Vault for secrets
-- Azure AD authentication and RBAC
-
-**Cost Optimization:**
-- Right-size resources (start small, scale up)
-- Auto-scaling policies
-- Reserved instances for predictable workloads
-- Storage tiers (Hot/Cool/Archive)
-- Cost monitoring and alerts
-
-**Operational Excellence:**
-- Infrastructure as Code (Bicep or Terraform)
-- CI/CD pipelines
-- Application Insights + Log Analytics
-- Alerts for critical scenarios
-- Automated deployment and rollback
-
-**Performance Efficiency:**
-- CDN for static content
-- Caching strategy (Redis, CDN)
-- Asynchronous processing
-- Appropriate compute SKUs
-- Auto-scaling rules
-
-### 5. Create Naming Convention
-
-Follow Cloud Adoption Framework:
-```
-{resource-type}-{workload}-{environment}-{region}-{instance}
-
-Examples:
-- rg-ecommerce-prod-eastus-001
-- app-ecommerce-prod-eastus-001
-- sql-ecommerce-prod-eastus-001
-- kv-ecommerce-prod-eastus
-- func-orderproc-prod-eastus-001
+```bash
+python scripts/generate_diagram.py layered
 ```
 
-**Standard Tags:**
-```
-Environment: Production | Staging | Development | Test
-Owner: teamname@company.com
-CostCenter: IT-12345
-Project: ProjectName
-BusinessUnit: Sales | Marketing | Engineering
-Criticality: Critical | High | Medium | Low
-DataClassification: Public | Internal | Confidential | Restricted
+**For microservices architectures:**
+
+```bash
+python scripts/generate_diagram.py flow
 ```
 
-### 6. Estimate Costs
+**For simple systems:**
 
-Provide monthly cost breakdown by service category:
-- Compute (App Service, Functions, VMs)
-- Data (SQL, Cosmos DB, Storage)
-- Networking (Front Door, App Gateway, Bandwidth)
-- Monitoring (Application Insights, Log Analytics)
-
-Include cost optimization opportunities and reserved instance recommendations.
-
-## High-Level Design Output Format
-
-Generate comprehensive HLD documents with these sections:
-
-### 1. Executive Summary
-- Solution overview (2-3 paragraphs)
-- Key benefits and business value
-- High-level cost estimate
-- Timeline and deployment approach
-
-### 2. Requirements Summary
-- Functional requirements (bullet points)
-- Non-functional requirements (performance, availability, security)
-- Constraints and assumptions
-
-### 3. Architecture Overview
-- Architecture diagram description (components and connections)
-- Design pattern used (N-tier, microservices, event-driven, serverless)
-- Rationale for architectural approach
-
-### 4. Component Design
-
-For each component:
-- **Service Name**: Azure service selected
-- **SKU/Tier**: Specific pricing tier (e.g., App Service P2v3, Azure SQL S2)
-- **Purpose**: Role in the architecture
-- **Configuration**: Key settings (regions, zones, instances, capacity)
-- **Naming**: Following CAF convention (rg-app-prod-eastus-001)
-
-### 5. Networking Design
-- Virtual Network configuration (address spaces)
-- Subnets and network security groups
-- Private endpoints and service endpoints
-- Ingress/egress patterns (load balancers, gateways)
-- DNS configuration
-
-### 6. Security Design
-- Authentication and authorization (Azure AD, Managed Identity)
-- Secrets management (Key Vault)
-- Encryption (at-rest and in-transit)
-- Network security (NSGs, firewalls, WAF)
-- Compliance requirements
-
-### 7. Data Design
-- Database schema approach
-- Data flow between components
-- Backup and recovery strategy (RPO/RTO)
-- Data retention policies
-- Disaster recovery approach
-
-### 8. Monitoring and Operations
-- Application Insights configuration
-- Log Analytics workspace
-- Key metrics to monitor
-- Alert definitions and thresholds
-- Dashboard recommendations
-
-### 9. Deployment Strategy
-- Infrastructure as Code approach (Bicep or Terraform)
-- CI/CD pipeline design
-- Environment strategy (dev, staging, prod)
-- Deployment sequence and dependencies
-- Rollback procedure
-
-### 10. Cost Breakdown
-- Monthly cost estimate by service
-- Annual projection
-- Cost optimization recommendations
-- Reserved instance opportunities
-
-### 11. Well-Architected Assessment
-- Brief evaluation against each WAF pillar
-- Key strengths of the design
-- Areas for future improvement
-
-### 12. Risks and Mitigations
-- Identified technical risks
-- Mitigation strategies
-- Dependencies and assumptions
-
-### 13. Next Steps
-- Immediate actions (Phase 1)
-- Short-term improvements (Phase 2)
-- Long-term roadmap (Phase 3)
-
-## Example HLD Snippet
-
-```markdown
-# High-Level Design: E-Commerce Web Platform
-
-## 1. Executive Summary
-
-This HLD describes a scalable e-commerce platform on Azure supporting up to 100K concurrent users
-with 99.95% availability. The solution uses proven PaaS services with multi-region capabilities,
-comprehensive security controls, and cost-optimized infrastructure.
-
-**Key Benefits:**
-- Global reach with Azure Front Door CDN
-- Auto-scaling for traffic spikes (Black Friday, holidays)
-- PCI-DSS compliant payment processing
-- Estimated cost: $2,850/month (Production)
-
-**Timeline:** 8-week implementation with phased rollout
-
-## 3. Architecture Overview
-
-**Pattern:** N-Tier with asynchronous order processing
-
-**Components:**
-```
-Azure Front Door (Global CDN + WAF)
-└─ Application Gateway (Regional WAF + LB)
-   ├─ App Service (Web Frontend - 3 instances, P2v3)
-   ├─ App Service (API Backend - 3 instances, P2v3)
-   ├─ Azure Functions (Order Processor, Premium)
-   ├─ Azure SQL Database (S2 DTU, 50GB)
-   ├─ Redis Cache (Basic C1, 1GB)
-   └─ Blob Storage (Hot tier, product images)
+```bash
+python scripts/generate_diagram.py simple
 ```
 
-**Rationale:** N-tier provides proven scalability, PaaS reduces operational overhead,
-Functions handle asynchronous order processing, Azure SQL provides ACID guarantees.
+Customize diagrams with JSON configuration for specific components.
 
-## 4. Component Design
+### Step 5: Populate Template
 
-**Frontend Web App**
-- Service: Azure App Service (Linux)
-- SKU: P2v3 (2 vCores, 8GB RAM)
-- Instances: 3 (Availability Zones 1, 2, 3)
-- Auto-scale: 3-10 instances based on CPU > 70%
-- Naming: app-ecommerce-web-prod-eastus-001
-- Purpose: Serves customer-facing website
+Complete the template sections in the specified order:
 
-[Continue with all components...]
+1. **Project Identification (Section 10)** - Add project name, repository, contact, date
+2. **Project Structure (Section 1)** - Define directory layout
+3. **System Diagram (Section 2)** - Insert generated diagram
+4. **Core Components (Section 3)** - Document components from interview
+5. **Data Stores (Section 4)** - Describe databases and caches
+6. **External Integrations (Section 5)** - List third-party services
+7. **Deployment (Section 6)** - Detail infrastructure setup
+8. **Security (Section 7)** - Specify authentication and encryption
+9. **Development (Section 8)** - Outline setup and testing procedures
+10. **Future Considerations (Section 9)** - Document roadmap items
+11. **Glossary (Section 11)** - Define domain terminology
+
+Apply technology-specific patterns from loaded references to enhance each section.
+
+### Step 6: Validate
+
+Execute the validation script to ensure quality:
+
+```bash
+python scripts/validate_architecture.py ARCHITECTURE.md
 ```
 
-## Tips for Great HLDs
+Address any issues or warnings before delivering the documentation.
 
-**Be Specific:** Use exact service names and SKUs (not "database" but "Azure SQL Database S2 DTU")
-**Show Trade-offs:** Explain why you chose service X over Y
-**Include Diagrams:** Describe architecture visually with clear component relationships
-**Cost-Aware:** Always provide cost estimates and optimization opportunities
-**Security First:** Address authentication, authorization, encryption, network security
-**WAF Alignment:** Reference specific WAF principles in design decisions
-**Naming Standards:** Use CAF conventions consistently
-**Implementation-Ready:** Provide enough detail for IaC generation
+## Interview Best Practices
 
-**Avoid:** Vague terms, missing costs, ignoring security, skipping WAF, incomplete components, no rationale
+**Maintain focused questioning:**
+
+- Ask 2-3 questions at a time
+- Build upon previous answers
+- Skip redundant questions
+
+**Adapt communication style:**
+
+- Technical users: Use precise terminology
+- Non-technical users: Simplify language
+- Uncertain users: Offer defaults or placeholders
+
+**Handle information gaps:**
+
+- Mark uncertain items for review
+- Add [TODO] for missing information
+- Suggest reasonable defaults based on context
+
+## Technology-Specific Guidance
+
+### Reference Loading Guidelines
+
+**Load `references/nodejs.md` for:**
+
+- Express, NestJS, Fastify projects
+- Node.js microservices
+- Serverless Node functions
+
+**Load `references/python.md` for:**
+
+- Django, Flask, FastAPI projects
+- Python microservices
+- Data pipelines and ML systems
+
+**Load `references/java.md` for:**
+
+- Spring Boot applications
+- Jakarta EE systems
+- Java microservices
+
+**Load `references/workflows.md` for:**
+
+- Complex interview scenarios
+- Detailed process guidance
+- Documentation update workflows
+
+### Applying Technology Patterns
+
+After loading references, apply the patterns to enhance:
+
+- Project structure recommendations
+- Deployment configurations
+- Framework-specific best practices
+- Common library suggestions
+- Testing strategies and approaches
+
+## Pattern-Specific Guidance
+
+### Microservices Architecture
+
+**Load `references/microservices.md` and include these elements:**
+
+- Service boundaries and responsibilities
+- Communication patterns (synchronous vs asynchronous)
+- API gateway configuration
+- Service discovery mechanism
+- Data management approach
+- Observability and monitoring setup
+
+**Use the microservices template** (`assets/ARCHITECTURE-microservices.md`) for proper structure.
+
+### Serverless Architecture
+
+**Load `references/serverless.md` and include these elements:**
+
+- Function organization and boundaries
+- Event sources and triggers
+- State management approach
+- Cold start mitigation techniques
+- Cost optimization strategies
+
+### Monolithic Architecture
+
+**Use the monolith template** (`assets/ARCHITECTURE-monolith.md`) and emphasize:
+
+- Layered architecture patterns
+- Module organization principles
+- Potential future refactoring paths
+- Scaling strategy and approaches
+
+## Diagram Generation Examples
+
+### Simple Architecture Diagram
+
+```bash
+python scripts/generate_diagram.py simple '{"components": ["User", "API", "DB"], "connections": [["User", "API"], ["API", "DB"]]}'
+```
+
+### Layered Architecture Diagram
+
+```bash
+python scripts/generate_diagram.py layered '{"Presentation": ["Web UI"], "Business": ["API"], "Data": ["PostgreSQL"]}'
+```
+
+### Flow Architecture Diagram
+
+```bash
+python scripts/generate_diagram.py flow '[{"from": "Client", "to": "Gateway", "label": "HTTP"}, {"from": "Gateway", "to": "Service", "label": "route"}]'
+```
+
+### C4 Context Diagram
+
+```bash
+python scripts/generate_diagram.py c4 '{"system": "E-commerce Platform", "actors": ["Customer", "Admin"], "external_systems": ["Payment Gateway", "Email Service"]}'
+```
+
+Integrate generated diagrams into Section 2 (System Diagram) of the ARCHITECTURE.md template.
+
+## Validation
+
+**Execute validation before delivering documentation:**
+
+```bash
+python scripts/validate_architecture.py ARCHITECTURE.md
+```
+
+**Validation checks performed:**
+
+- Verify all 11 sections are present
+- Confirm required fields in Project Identification section
+- Ensure minimal content in each section
+- Count and report placeholder usage
+
+**Address any warnings** about missing content or excessive placeholders.
+
+## Documentation Update Workflow
+
+**For incremental updates:**
+
+1. Identify what has changed
+2. Update only affected sections
+3. Update the date in Section 10 (Project Identification)
+4. Re-run validation to ensure quality
+
+**For major updates:**
+
+1. Review the entire document
+2. Regenerate diagrams if structure has changed
+3. Update multiple sections as needed
+4. Consider adding version notes
+
+## Mermaid Diagram Generation
+
+After creating ARCHITECTURE.md, generate the complete set of 5 Mermaid diagrams.
+
+### Load Mermaid Instructions
+
+When users request diagrams or complete documentation packages:
+
+```
+Load references/mermaid-diagrams.md
+```
+
+### Generate Complete Diagram Set
+
+Create all 5 diagrams following the guidance in mermaid-diagrams.md:
+
+1. **C4 Context** (Level 1) - System in its broader context
+2. **C4 Container** (Level 2) - Main application containers
+3. **C4 Component** (Level 3) - Internal component structure
+4. **Data Flow** - How data moves through the system
+5. **C4 Deployment** - Infrastructure topology and deployment
+
+Use `scripts/generate_mermaid.py` with system JSON configuration.
+
+**Save diagrams as separate .mmd files:**
+
+- `01-context.mmd`
+- `02-container.mmd`
+- `03-component.mmd`
+- `04-dataflow.mmd`
+- `05-deployment.mmd`
+
+**Embed diagrams in ARCHITECTURE.md Section 2** as code blocks for easy viewing and editing.
+
+## OpenAPI Specification Generation
+
+For systems with REST APIs, generate comprehensive OpenAPI 3.0 specifications.
+
+### Generate API Specifications
+
+Use `scripts/generate_openapi.py` with appropriate parameters:
+
+**For simple CRUD operations:**
+
+```bash
+python scripts/generate_openapi.py "ResourceName"
+```
+
+**For custom API specifications:**
+
+```bash
+python scripts/generate_openapi.py '{"system_name": "...", "endpoints": [...]}'
+```
+
+Save the generated specification as `openapi.json` in the project directory.
+
+## Complete Documentation Workflow
+
+Follow this end-to-end workflow for comprehensive architecture documentation:
+
+1. **Conduct structured interview** (5-7 questions maximum)
+2. **Select appropriate template** and **load relevant references**
+3. **Setup work directory**: Use current working directory `$(pwd)`
+4. **Generate ARCHITECTURE.md** with all 11 sections completed
+5. **Generate Mermaid diagrams** (5 separate .mmd files) in work directory root
+6. **Generate OpenAPI specification** (if applicable) in work directory
+7. **Deliver all generated artifacts** to the user
+
+## Deliverable Organization
+
+Organize generated documentation files as follows:
+
+```
+├── ARCHITECTURE.md              # Main architecture document
+├── openapi.json                 # API specification (if applicable)
+├── *.mmd (5 files)             # Mermaid diagram sources
+│   ├── 01-context.mmd
+│   ├── 02-container.mmd
+│   ├── 03-component.mmd
+│   ├── 04-dataflow.mmd
+│   └── 05-deployment.mmd
+└── diagrams/ (created during packaging)
+    └── *.png (5 files, if rendered to images)
+```
+
+## Example Usage
+
+**User request:** "Create architecture documentation for my Node.js microservices project"
+
+**Execution approach:**
+
+1. Select microservices template (`assets/ARCHITECTURE-microservices.md`)
+2. Load `references/nodejs.md` and `references/microservices.md`
+3. Conduct focused interview: services, databases, communication patterns, deployment
+4. Generate flow diagram using `scripts/generate_diagram.py flow`
+5. Populate all sections with Node.js and microservices-specific patterns
+6. Validate using `scripts/validate_architecture.py`
+7. Create comprehensive ARCHITECTURE.md in work directory
+
+## Common Usage Scenarios
+
+### New Greenfield Projects
+
+- Use base template (`assets/ARCHITECTURE.md`)
+- Focus on design decisions and architecture rationale
+- Include justification for technology choices
+- Emphasize planned architecture and future scalability
+
+### Existing System Documentation
+
+- Ask about current pain points and challenges
+- Document the as-is state accurately
+- Note planned improvements in Section 9 (Future Considerations)
+- Capture current technology stack and limitations
+
+### Legacy System Analysis
+
+- Identify undocumented or poorly understood areas
+- Mark uncertain items for further investigation
+- Suggest areas requiring clarification from stakeholders
+- Document assumptions and risks
+
+### Architecture Reviews and Updates
+
+- Update only sections that have changed
+- Preserve information that remains accurate
+- Add new components and relationships
+- Update date in Section 10 and note changes
+
+## Best Practices
+
+**Efficient documentation creation:**
+
+- Begin with known information and build incrementally
+- Use placeholders for unknown items to maintain momentum
+- Leverage technology references to save time and ensure accuracy
+- Validate frequently to catch issues early
+
+**High-quality output standards:**
+
+- Provide specific, concrete details rather than generic descriptions
+- Include actual technology stack versions and configurations
+- Use real service names, purposes, and data flows
+- Document concrete deployment infrastructure and environments
+
+**Positive user experience:**
+
+- Avoid overwhelming users with excessive questions
+- Explain the documentation process and next steps
+- Show progress through the 11 sections clearly
+- Offer refinement and improvement after initial delivery

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "51db798c4ce290c2587d30f5d7a2b036473252d0075503193d3148b94d271910",
   "indexed_at": "2026-02-26T12:19:00.791Z",
-  "synced_at": "2026-02-27T02:32:42.695Z",
+  "synced_at": "2026-02-28T03:58:20.160Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f3ce76ee76bcafda96e3266682c909697805cfa20ab49ebc8c808a9798eb2bb4",
   "install_command": "mkdir -p .claude/skills/find-skills && curl -sL \"https://raw.githubusercontent.com/HALQME/dotfiles/main/config/kiro/skills/find-skills/SKILL.md\" > .claude/skills/find-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HALQME/dotfiles/main/config/kiro/skills/find-skills/SKILL.md"

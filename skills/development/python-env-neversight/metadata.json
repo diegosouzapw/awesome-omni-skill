@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1d1939d81e703bbf42ce2ba135b1bd8dffb05e3f931daa3ddd997acf46209c28",
   "indexed_at": "2026-02-26T10:48:51.882Z",
-  "synced_at": "2026-02-27T02:31:48.121Z",
+  "synced_at": "2026-02-28T03:57:29.755Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/288f3441db92da42a8ab8bf2f74bcc90d6410e4435bb2151b98e5317c6360e39",
   "install_command": "mkdir -p .claude/skills/python-env && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/0xdarkmatter/claude-mods/python-env/SKILL.md\" > .claude/skills/python-env/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/0xdarkmatter/claude-mods/python-env/SKILL.md"

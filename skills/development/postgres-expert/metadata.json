@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "04daad2d3bf8e5f338e0478af0911ff78bd07b5e0a6a0abed737df04ff597f29",
   "indexed_at": "2026-02-26T09:52:59.889Z",
-  "synced_at": "2026-02-27T02:31:31.974Z",
+  "synced_at": "2026-02-28T03:57:14.137Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1653d85db6548dc03863242b12d1cc7f9fa87627d9ee22e191c919cb1905ee7a",
   "install_command": "mkdir -p .claude/skills/postgres-expert && curl -sL \"https://raw.githubusercontent.com/cin12211/orca-q/main/.github/skills/postgres-expert/SKILL.md\" > .claude/skills/postgres-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cin12211/orca-q/main/.github/skills/postgres-expert/SKILL.md"

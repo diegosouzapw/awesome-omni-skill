@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0a19981ad1678ba210845611b032fc14ceaa3b686838eb80167f50b3f9a2cf5c",
   "indexed_at": "2026-02-26T12:23:38.512Z",
-  "synced_at": "2026-02-27T02:33:03.932Z",
+  "synced_at": "2026-02-28T03:58:39.180Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/864c6707d1dbbd058c79368d1fb57f9742aeb684681c9227714e4024c4756b85",
   "install_command": "mkdir -p .claude/skills/context7-docs && curl -sL \"https://raw.githubusercontent.com/chandima/opencode-config/main/skills/context7-docs/SKILL.md\" > .claude/skills/context7-docs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chandima/opencode-config/main/skills/context7-docs/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6e95f31663b666a1de3554caf1536c51b4a94ef64f91e010e196ef5d8a2d4410",
   "indexed_at": "2026-02-26T10:54:17.813Z",
-  "synced_at": "2026-02-27T02:32:00.548Z",
+  "synced_at": "2026-02-28T03:57:41.766Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9854381f31f07e91df794ee39b4eac6049dc10513d7dbae353ce8cb1643fd95c",
   "install_command": "mkdir -p .claude/skills/sentry-setup-tracing && curl -sL \"https://raw.githubusercontent.com/monkey1sai/openai-cli/main/skills/gemini/sentry-setup-tracing/SKILL.md\" > .claude/skills/sentry-setup-tracing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/monkey1sai/openai-cli/main/skills/gemini/sentry-setup-tracing/SKILL.md"

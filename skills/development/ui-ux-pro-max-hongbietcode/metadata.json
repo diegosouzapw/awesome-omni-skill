@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6126ed8c914761c0cdd413c03edd8e9a003d88826eca4c0853dd5c46719c8491",
   "indexed_at": "2026-02-26T11:32:30.714Z",
-  "synced_at": "2026-02-27T02:32:14.764Z",
+  "synced_at": "2026-02-28T03:57:54.749Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d844bec0c700969d7ab27ef1202994c11e179151ff265f41a3ff339f92a94569",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/hongbietcode/claude-team/main/.claude/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hongbietcode/claude-team/main/.claude/skills/ui-ux-pro-max/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8998fe813f805bbdbcc9de1a4367ec18b41f7ade4bc594957f3b4a1248dd16e4",
   "indexed_at": "2026-02-26T12:22:21.371Z",
-  "synced_at": "2026-02-27T02:32:56.904Z",
+  "synced_at": "2026-02-28T03:58:33.551Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a2b50e4d16e41ac1b43082d2930f4dda99aedd99860eb52cbf54e34a1d0b9c84",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/cybersecurity-gla/redops/main/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cybersecurity-gla/redops/main/skills/ui-ux-pro-max/SKILL.md"

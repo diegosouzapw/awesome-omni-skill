@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f2a1e844b90ea615309adc38abd5e89e1d489048045821dc72936ff001360980",
   "indexed_at": "2026-02-26T12:20:33.154Z",
-  "synced_at": "2026-02-27T02:32:47.554Z",
+  "synced_at": "2026-02-28T03:58:24.756Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ab119d6e44ca8c663b0cb6b0ecbaaa96008751658bd08bfff7ed8a36abce616b",
   "install_command": "mkdir -p .claude/skills/project-architect && curl -sL \"https://raw.githubusercontent.com/monicajeon28/GMcruise/main/.claude/skills/project-architect/SKILL.md\" > .claude/skills/project-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/monicajeon28/GMcruise/main/.claude/skills/project-architect/SKILL.md"

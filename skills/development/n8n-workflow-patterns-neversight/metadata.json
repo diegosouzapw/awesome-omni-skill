@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "92526146cb4e6e1f40a0a3e2f27d093fcf9bb23ac53b38306c7b4eaf05f55db6",
   "indexed_at": "2026-02-26T11:40:36.034Z",
-  "synced_at": "2026-02-27T02:32:31.547Z",
+  "synced_at": "2026-02-28T03:58:10.516Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cfa9d0d32cbe44bd1522949997d13eb7dccba807183c922dd6ac91efa7c02117",
   "install_command": "mkdir -p .claude/skills/n8n-workflow-patterns && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/promptadvisers/n8n-powerhouse/n8n-workflow-patterns/SKILL.md\" > .claude/skills/n8n-workflow-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/promptadvisers/n8n-powerhouse/n8n-workflow-patterns/SKILL.md"

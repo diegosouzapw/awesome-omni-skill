@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "800cd9e91c1dfbb56071a77d26af446ece2e705c484b487c8b5418babd47f3ab",
   "indexed_at": "2026-02-26T09:52:34.592Z",
-  "synced_at": "2026-02-27T02:31:31.600Z",
+  "synced_at": "2026-02-28T03:57:13.781Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cecad986e9c34dc7c2777dce076855b6d3f7e38eb4e49ac323fdcef679f4ceca",
   "install_command": "mkdir -p .claude/skills/twilio-verify && curl -sL \"https://raw.githubusercontent.com/alphaonedev/openclaw-graph/main/skills/twilio/twilio-verify/SKILL.md\" > .claude/skills/twilio-verify/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alphaonedev/openclaw-graph/main/skills/twilio/twilio-verify/SKILL.md"

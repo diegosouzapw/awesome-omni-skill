@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "94bb02f7751dc72cc56c1b009daf0c7298102b9bcf70ba35a583adf8d4064b45",
   "indexed_at": "2026-02-26T11:11:58.354Z",
-  "synced_at": "2026-02-27T02:32:05.600Z",
+  "synced_at": "2026-02-28T03:57:46.069Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6fb92066e2c2e38857b82448dd6fe4e90f12ff18a72d590a1afe955a853bad83",
   "install_command": "mkdir -p .claude/skills/webapp-test-docker-demo && curl -sL \"https://raw.githubusercontent.com/liumusicforever/webapp-test-docker-demo-skill/main/SKILL.md\" > .claude/skills/webapp-test-docker-demo/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/liumusicforever/webapp-test-docker-demo-skill/main/SKILL.md"

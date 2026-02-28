@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3444e03091279a075f8b181d2930058f5d6bce81b7af468e56cd43c9f16d108e",
   "indexed_at": "2026-02-26T11:31:44.804Z",
-  "synced_at": "2026-02-27T02:32:10.295Z",
+  "synced_at": "2026-02-28T03:57:50.516Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/975876a1f057821ac3b9ed13a30a4684d395cf87f73bdf6e7e23fc3f76fd4421",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/intrusive-memory/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/intrusive-memory/skills/ui-ux-pro-max/SKILL.md"

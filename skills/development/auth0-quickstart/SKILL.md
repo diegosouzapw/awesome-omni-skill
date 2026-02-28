@@ -1,6 +1,6 @@
 ---
 name: auth0-quickstart
-description: Use when starting Auth0 integration in any framework - detects your stack (React, Next.js, Vue, Angular, Express, React Native) and routes to correct SDK setup workflow
+description: Use when starting Auth0 integration in any framework - detects your stack (React, Next.js, Vue, Angular, Express, Fastify, React Native) and routes to correct SDK setup workflow
 ---
 
 # Auth0 Quickstart
@@ -15,7 +15,7 @@ Detect your framework and get started with Auth0 authentication.
 
 ```bash
 # Check package.json dependencies
-cat package.json | grep -E "react|next|vue|angular|express|@nestjs"
+cat package.json | grep -E "react|next|vue|angular|express|fastify|@nestjs"
 
 # Or check project files
 ls -la | grep -E "angular.json|vue.config.js|next.config"
@@ -30,6 +30,8 @@ ls -la | grep -E "angular.json|vue.config.js|next.config"
 | Vue.js | `"vue"` in package.json, no Nuxt | `auth0-vue` |
 | Angular | `angular.json` exists or `"@angular/core"` | `auth0-angular` |
 | Express.js | `"express"` in package.json | `auth0-express` |
+| Fastify (web app) | `"fastify"` in package.json, has `@fastify/view` | `auth0-fastify` |
+| Fastify (API) | `"fastify"` in package.json, no view engine | `auth0-fastify-api` |
 | React Native | `"react-native"` or `"expo"` in package.json | `auth0-react-native` |
 
 **Don't see your framework?** See Tier 2 Frameworks below.
@@ -75,7 +77,7 @@ auth0 apps create --name "My App" --type spa \
   --metadata "created_by=agent_skills"
 ```
 
-**Regular Web Apps (Next.js, Express):**
+**Regular Web Apps (Next.js, Express, Fastify):**
 ```bash
 auth0 apps create --name "My App" --type regular \
   --callbacks "http://localhost:3000/api/auth/callback" \
@@ -115,6 +117,8 @@ Based on your framework detection, use the appropriate skill:
 
 **Backend:**
 - **`auth0-express`** - Express.js web applications
+- **`auth0-fastify`** - Fastify web applications
+- **`auth0-fastify-api`** - Fastify API authentication
 
 **Mobile:**
 - **`auth0-react-native`** - React Native and Expo (iOS/Android)
@@ -208,6 +212,8 @@ Complete Auth0 CLI reference:
 - `auth0-vue` - Vue.js integration
 - `auth0-angular` - Angular integration
 - `auth0-express` - Express.js integration
+- `auth0-fastify` - Fastify web app integration
+- `auth0-fastify-api` - Fastify API integration
 - `auth0-react-native` - React Native/Expo integration
 
 ### Advanced Features

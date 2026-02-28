@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33ac70e431706b3edf2540a309ea1762de014339e2ce6326d83c3d43a1005584",
   "indexed_at": "2026-02-26T10:46:03.783Z",
-  "synced_at": "2026-02-27T02:31:39.756Z",
+  "synced_at": "2026-02-28T03:57:21.864Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a78c76e013c2288471fdafbdaba736b3b762fe1039b92872b49d16d463187c61",
   "install_command": "mkdir -p .claude/skills/django-api && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/django-api/SKILL.md\" > .claude/skills/django-api/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/django-api/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "72c1edd1c131650055b6e4e4768ae675bbadbee0968c2c5c5243110b1450441b",
   "indexed_at": "2026-02-26T09:52:07.765Z",
-  "synced_at": "2026-02-27T02:31:30.563Z",
+  "synced_at": "2026-02-28T03:57:12.873Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f4e654ac35a48d42b1656006b3f01f9b3639ee902aaf7bda7975f425097903c0",
   "install_command": "mkdir -p .claude/skills/code-review-assistant && curl -sL \"https://raw.githubusercontent.com/kaelen-hou/skills-mvp/main/code-review-assistant/SKILL.md\" > .claude/skills/code-review-assistant/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kaelen-hou/skills-mvp/main/code-review-assistant/SKILL.md"

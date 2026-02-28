@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "75c9a91220906d5a8044a921987f794f12ab729beaa74be24aaa7e9bdb7d0556",
   "indexed_at": "2026-02-26T10:53:43.434Z",
-  "synced_at": "2026-02-27T02:31:58.978Z",
+  "synced_at": "2026-02-28T03:57:40.253Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a324a16a767c16ed3b2bd10e2bcec5b3da913c3fdcc75912e15178c62bfcd5cf",
   "install_command": "mkdir -p .claude/skills/sqlalchemy-orm && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/danielseltzer__code-analysis-tools__claude__skills__toolchains-python-data-sqlalchemy__SKILL.md/SKILL.md\" > .claude/skills/sqlalchemy-orm/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/danielseltzer__code-analysis-tools__claude__skills__toolchains-python-data-sqlalchemy__SKILL.md/SKILL.md"

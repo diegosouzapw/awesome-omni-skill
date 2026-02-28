@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2c5c949ce25da01134e784d8fbc9d70122a5b6b5067858ce345963c2bd3d732e",
   "indexed_at": "2026-02-26T11:33:38.343Z",
-  "synced_at": "2026-02-27T02:32:20.578Z",
+  "synced_at": "2026-02-28T03:58:00.257Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/438a4492f7c520232814efc65febb3864dc9003fad237a0894047abeb88e39c8",
   "install_command": "mkdir -p .claude/skills/app-builder && curl -sL \"https://raw.githubusercontent.com/gonzoblasco/antigravity-developer-stack/main/strategy-architecture/app-builder/SKILL.md\" > .claude/skills/app-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/gonzoblasco/antigravity-developer-stack/main/strategy-architecture/app-builder/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cdd50d4f5cfe3c0f4358f8352c59e5efcae887d7ad814fc31e5701770eb85597",
   "indexed_at": "2026-02-26T10:41:10.046Z",
-  "synced_at": "2026-02-27T02:31:36.605Z",
+  "synced_at": "2026-02-28T03:57:18.624Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/25f375178ca3125e73b938123158bc259f740b96979eee94e62e872933e5cabe",
   "install_command": "mkdir -p .claude/skills/benchling-integration && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/scientific-skills/skills/benchling-integration/SKILL.md\" > .claude/skills/benchling-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/scientific-skills/skills/benchling-integration/SKILL.md"

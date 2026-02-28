@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1eee22f9a80aa457d679c3a76bc37c23f61b67b101461f2c8c53b5ebe099a744",
   "indexed_at": "2026-02-26T10:47:10.076Z",
-  "synced_at": "2026-02-27T02:31:43.682Z",
+  "synced_at": "2026-02-28T03:57:25.564Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0f1ea4d68a10e8385bba09a09539918fcbd35f47c156b97962737ff3775a2fa3",
   "install_command": "mkdir -p .claude/skills/technology-stack-blueprint-generator && curl -sL \"https://raw.githubusercontent.com/williamlimasilva/.copilot/main/skills/technology-stack-blueprint-generator/SKILL.md\" > .claude/skills/technology-stack-blueprint-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/williamlimasilva/.copilot/main/skills/technology-stack-blueprint-generator/SKILL.md"

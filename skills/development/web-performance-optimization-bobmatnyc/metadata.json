@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1087c929322f49d4a39a060674d1ad912165ae9941ff8861068ff44e0eedd685",
   "indexed_at": "2026-02-26T12:23:25.992Z",
-  "synced_at": "2026-02-27T02:33:02.487Z",
+  "synced_at": "2026-02-28T03:58:38.002Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3d2394cbde05d7ee29aad9c0ffb40784ba7b6ffd6da509ce0445a426c4d931a6",
   "install_command": "mkdir -p .claude/skills/web-performance-optimization && curl -sL \"https://raw.githubusercontent.com/bobmatnyc/claude-mpm-skills/main/universal/web/web-performance-optimization/SKILL.md\" > .claude/skills/web-performance-optimization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bobmatnyc/claude-mpm-skills/main/universal/web/web-performance-optimization/SKILL.md"

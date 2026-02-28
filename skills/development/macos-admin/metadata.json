@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f83d5df55f461edf43b659fd93e70f14ff8174a93334154750a86a2248691812",
   "indexed_at": "2026-02-26T11:38:57.347Z",
-  "synced_at": "2026-02-27T02:32:28.631Z",
+  "synced_at": "2026-02-28T03:58:07.649Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ec35ce9872f465e8c87dd289dfce0824c60db2880a09e22cc7bf7b55388e78d7",
   "install_command": "mkdir -p .claude/skills/macos-admin && curl -sL \"https://raw.githubusercontent.com/alphaonedev/openclaw-graph/main/skills/macos/macos-admin/SKILL.md\" > .claude/skills/macos-admin/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alphaonedev/openclaw-graph/main/skills/macos/macos-admin/SKILL.md"

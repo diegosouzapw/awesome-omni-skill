@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "44f53141741076e7e746d4feef1ed4b2f944c532d6b4dee1d068114da125cb86",
   "indexed_at": "2026-02-26T10:55:29.054Z",
-  "synced_at": "2026-02-27T02:32:02.924Z",
+  "synced_at": "2026-02-28T03:57:43.918Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/95a7c479ecd1aeb92d3ff1271797bc0bf3b7c0a64c54fe2e00a60232016574f8",
   "install_command": "mkdir -p .claude/skills/pydantic && curl -sL \"https://raw.githubusercontent.com/GeorgeKuzora/dotfiles/main/dot_config/opencode/skills/pydantic/SKILL.md\" > .claude/skills/pydantic/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/GeorgeKuzora/dotfiles/main/dot_config/opencode/skills/pydantic/SKILL.md"

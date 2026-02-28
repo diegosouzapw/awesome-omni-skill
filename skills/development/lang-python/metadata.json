@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7987ad285e86a02b6247c4b7dfa54ade70b3c44b9b0886d60f56d8901ec7d04d",
   "indexed_at": "2026-02-26T10:45:31.067Z",
-  "synced_at": "2026-02-27T02:31:37.670Z",
+  "synced_at": "2026-02-28T03:57:19.688Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7a3009312b53423bf779f84074c292d8d71a7758eea1f36d7927676322220fff",
   "install_command": "mkdir -p .claude/skills/lang-python && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/lang-python/SKILL.md\" > .claude/skills/lang-python/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/lang-python/SKILL.md"

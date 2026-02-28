@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "65445083a8287b45dca72a51c4611a0e030380fdd8ca04f37b37f74a3e8af588",
   "indexed_at": "2026-02-26T12:17:06.380Z",
-  "synced_at": "2026-02-27T02:32:40.747Z",
+  "synced_at": "2026-02-28T03:58:18.321Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/beeedc9e062c2723914c30b8bf3b126dc16a9706caf2e5643633a1184ffd4761",
   "install_command": "mkdir -p .claude/skills/hindsight-docs && curl -sL \"https://raw.githubusercontent.com/vectorize-io/hindsight/main/skills/hindsight-docs/SKILL.md\" > .claude/skills/hindsight-docs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/vectorize-io/hindsight/main/skills/hindsight-docs/SKILL.md"

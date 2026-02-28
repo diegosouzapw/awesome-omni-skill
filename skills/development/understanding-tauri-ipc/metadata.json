@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a989fc77baf16c7aaf2db36d9902f74926148708f682145239f9182fd2a9ec7c",
   "indexed_at": "2026-02-26T09:52:16.882Z",
-  "synced_at": "2026-02-27T02:31:30.838Z",
+  "synced_at": "2026-02-28T03:57:13.048Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a61abd566051c1efeaa390f062c4d7dbbd4bda55ab37ab37c880b7fd7ca3f845",
   "install_command": "mkdir -p .claude/skills/understanding-tauri-ipc && curl -sL \"https://raw.githubusercontent.com/dchuk/claude-code-tauri-skills/main/tauri/tauri-ipc/SKILL.md\" > .claude/skills/understanding-tauri-ipc/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dchuk/claude-code-tauri-skills/main/tauri/tauri-ipc/SKILL.md"

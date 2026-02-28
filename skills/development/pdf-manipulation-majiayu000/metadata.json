@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "30a4b3baf5b52a5be30aeec9be19caf64c0f4dbd246058df6baa3741caa8c5dc",
   "indexed_at": "2026-02-26T11:39:35.244Z",
-  "synced_at": "2026-02-27T02:32:29.404Z",
+  "synced_at": "2026-02-28T03:58:08.417Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1fe0d39f543799d14f5649f2d461208cb9176ec3ec7eeece6413a977393b9159",
   "install_command": "mkdir -p .claude/skills/pdf-manipulation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/pdf-manipulation/SKILL.md\" > .claude/skills/pdf-manipulation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/pdf-manipulation/SKILL.md"

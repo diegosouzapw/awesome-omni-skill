@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d7b4395e470f3d60a13b5a64bd4e8a7bb7712c369dd6f38711e741789e3377ea",
   "indexed_at": "2026-02-26T11:31:39.967Z",
-  "synced_at": "2026-02-27T02:32:09.569Z",
+  "synced_at": "2026-02-28T03:57:49.752Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ba421124bc22cc72158cb8e7d551327c65f6507796ffc09158a52942e7a2d165",
   "install_command": "mkdir -p .claude/skills/traffical && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/traffical/skills/traffical/SKILL.md\" > .claude/skills/traffical/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/traffical/skills/traffical/SKILL.md"

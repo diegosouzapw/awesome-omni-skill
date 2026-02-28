@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "100a437c75b824477a1d03139b5851d81dec2de23f826929d54403972d9f2f57",
   "indexed_at": "2026-02-26T11:32:06.257Z",
-  "synced_at": "2026-02-27T02:32:12.053Z",
+  "synced_at": "2026-02-28T03:57:52.153Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/50f411ec1d12490b45f56825fa1e28dcf1bde165035a9aa97ecb6759fb8c56a2",
   "install_command": "mkdir -p .claude/skills/deep-review && curl -sL \"https://raw.githubusercontent.com/Iron-Ham/claude-deep-review/main/skills/deep-review/SKILL.md\" > .claude/skills/deep-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Iron-Ham/claude-deep-review/main/skills/deep-review/SKILL.md"

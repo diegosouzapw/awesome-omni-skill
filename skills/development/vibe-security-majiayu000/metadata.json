@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f9f1aa3be78a6e7cbc8968c3190ba87602cab47148b4d4195ad40d212208ae9a",
   "indexed_at": "2026-02-26T11:38:50.814Z",
-  "synced_at": "2026-02-27T02:32:28.409Z",
+  "synced_at": "2026-02-28T03:58:07.348Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/86bb638159e4d11a9091e83f046e79a1d74caeb74a70b7ca078d544db74f10ae",
   "install_command": "mkdir -p .claude/skills/vibe-security && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/vibe-security/SKILL.md\" > .claude/skills/vibe-security/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/vibe-security/SKILL.md"

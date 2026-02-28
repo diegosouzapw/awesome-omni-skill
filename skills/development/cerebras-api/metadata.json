@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6e82a3d3ce5a4c76d601ffd4cc6bb7b73ad3d20190056f1477c4641de24d34ee",
   "indexed_at": "2026-02-26T11:57:37.402Z",
-  "synced_at": "2026-02-27T02:32:38.680Z",
+  "synced_at": "2026-02-28T03:58:16.503Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b6ee8637abd78aa68b5851f763261801376f1961608a10f3d09c3185fdf6216c",
   "install_command": "mkdir -p .claude/skills/cerebras-api && curl -sL \"https://raw.githubusercontent.com/diskd-ai/cerebras-api/main/SKILL.md\" > .claude/skills/cerebras-api/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/diskd-ai/cerebras-api/main/SKILL.md"

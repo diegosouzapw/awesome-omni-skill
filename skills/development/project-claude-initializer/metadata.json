@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d42a0da5ab91d347b7428da3789d94412372b257354837f1153b2a2878acd01a",
   "indexed_at": "2026-02-26T10:54:51.272Z",
-  "synced_at": "2026-02-27T02:32:01.615Z",
+  "synced_at": "2026-02-28T03:57:42.834Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/023382617cea9a7f31ad20b1e41c6443ab9323fdb6c0d965bf384218ed0ff92a",
   "install_command": "mkdir -p .claude/skills/project-claude-initializer && curl -sL \"https://raw.githubusercontent.com/Jimmy1987s/EC-Claude-Skills/main/skills/project-claude-initializer/SKILL.md\" > .claude/skills/project-claude-initializer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Jimmy1987s/EC-Claude-Skills/main/skills/project-claude-initializer/SKILL.md"

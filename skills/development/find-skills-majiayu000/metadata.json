@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cda3c70db62eed62a0d272da7b5884d73957dd3cc9252d964accb19c7d323aab",
   "indexed_at": "2026-02-26T12:17:24.224Z",
-  "synced_at": "2026-02-27T02:32:40.912Z",
+  "synced_at": "2026-02-28T03:58:18.470Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dc6cfe3fb148dc81dcf9d47717c6562f311b859ab858b5bee14b9da22ee42af8",
   "install_command": "mkdir -p .claude/skills/find-skills && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/find-skills-bytedance-deer-flow/SKILL.md\" > .claude/skills/find-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/find-skills-bytedance-deer-flow/SKILL.md"

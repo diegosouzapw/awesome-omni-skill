@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e80cb397e2e3bd08115ecbc6e571ffaaf6bd8718e4cedd0d92a6a1d107f6c160",
   "indexed_at": "2026-02-26T10:51:14.171Z",
-  "synced_at": "2026-02-27T02:31:54.490Z",
+  "synced_at": "2026-02-28T03:57:35.687Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/94eae1f86bf036576edab8ccbaa5210897f13ef7333d5e74bf072784117e5502",
   "install_command": "mkdir -p .claude/skills/team-composition && curl -sL \"https://raw.githubusercontent.com/Divkix/ralph-swarm/main/plugins/ralph-swarm/skills/team-composition/SKILL.md\" > .claude/skills/team-composition/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Divkix/ralph-swarm/main/plugins/ralph-swarm/skills/team-composition/SKILL.md"

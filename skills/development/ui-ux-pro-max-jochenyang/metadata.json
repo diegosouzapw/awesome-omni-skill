@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "35515706b43d165d01fb014630f42f88a3a3ca48d29a4802eb298e603ee67c1c",
   "indexed_at": "2026-02-26T11:33:20.782Z",
-  "synced_at": "2026-02-27T02:32:19.128Z",
+  "synced_at": "2026-02-28T03:57:58.828Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a04e1dd42532c7d280b274da1528bde360a3caab9ee20d9fde12f7745fb2d886",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/JochenYang/Jochen-ai-rules/main/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/JochenYang/Jochen-ai-rules/main/skills/ui-ux-pro-max/SKILL.md"

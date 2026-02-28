@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "43c2b83235e25265ea0d2958278bb61c51fff339cdd54d4eddda5796a222af40",
   "indexed_at": "2026-02-26T10:46:06.731Z",
-  "synced_at": "2026-02-27T02:31:40.270Z",
+  "synced_at": "2026-02-28T03:57:22.255Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8ffa6b4ef48e3377b000cc0b7a231da31258c597fe17d03e1f4dac8257bbb2d9",
   "install_command": "mkdir -p .claude/skills/workos-python && curl -sL \"https://raw.githubusercontent.com/workos/cli/main/skills/workos-python/SKILL.md\" > .claude/skills/workos-python/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/workos/cli/main/skills/workos-python/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2172a95e7340fe31801b08a10c982b527e54fc0277e532ebb304df79e8358ebd",
   "indexed_at": "2026-02-26T09:53:30.858Z",
-  "synced_at": "2026-02-27T02:31:32.496Z",
+  "synced_at": "2026-02-28T03:57:14.663Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e14ff3b9aeae5c3ba5ac3f05904c0320d9d933c8bc04198b60de5e257f01c764",
   "install_command": "mkdir -p .claude/skills/recovery-feature-scaffold && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/recovery-feature-scaffold/SKILL.md\" > .claude/skills/recovery-feature-scaffold/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/recovery-feature-scaffold/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bf5a4101fbaafc143c1f59877baa6443e382582d112ff0cb7fd5ca28c3f33f40",
   "indexed_at": "2026-02-26T11:32:59.003Z",
-  "synced_at": "2026-02-27T02:32:16.849Z",
+  "synced_at": "2026-02-28T03:57:56.649Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/17db153d3b586c60108b5631737b86481163762881c271b5b741aceb22a2d91f",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/ThinhPhoenix/luckydraw/main/.trae/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ThinhPhoenix/luckydraw/main/.trae/skills/ui-ux-pro-max/SKILL.md"

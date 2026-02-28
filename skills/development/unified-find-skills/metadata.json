@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b866657bd23fb73772771228784b2430db9fe3c555390eb7eb60eb689718c655",
   "indexed_at": "2026-02-26T12:16:46.102Z",
-  "synced_at": "2026-02-27T02:32:39.826Z",
+  "synced_at": "2026-02-28T03:58:17.652Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fc0914b86812f7a097f7b127020020f1fca9136c5d8abd57e3f185ba90bc66be",
   "install_command": "mkdir -p .claude/skills/unified-find-skills && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/bdwelle/unified-find-skills/SKILL.md\" > .claude/skills/unified-find-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bdwelle/unified-find-skills/SKILL.md"

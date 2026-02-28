@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e981efb40a57ccc64c612295b407fd6bf84ebdaaec3a3c7e5353d372b60ffce4",
   "indexed_at": "2026-02-26T12:20:21.820Z",
-  "synced_at": "2026-02-27T02:32:46.658Z",
+  "synced_at": "2026-02-28T03:58:24.014Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f7eda112f740d32eb48982001f3afb4da6fb5261babe684c19fced04c8ada053",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/HungNguyenBa1811/memotion-landing/main/.claude/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HungNguyenBa1811/memotion-landing/main/.claude/skills/ui-ux-pro-max/SKILL.md"

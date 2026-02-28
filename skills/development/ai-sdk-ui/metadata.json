@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "235797e6133e857578e0219e02661cc21a0765137b70a58e6317ef5c6b64afca",
   "indexed_at": "2026-02-26T11:31:50.705Z",
-  "synced_at": "2026-02-27T02:32:10.977Z",
+  "synced_at": "2026-02-28T03:57:51.152Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/628845eef94a9e8cbe1be8bef9c19c39ecbc3351f116454395d7e842e0b07773",
   "install_command": "mkdir -p .claude/skills/ai-sdk-ui && curl -sL \"https://raw.githubusercontent.com/secondsky/claude-skills/main/plugins/ai-sdk-ui/skills/ai-sdk-ui/SKILL.md\" > .claude/skills/ai-sdk-ui/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/secondsky/claude-skills/main/plugins/ai-sdk-ui/skills/ai-sdk-ui/SKILL.md"

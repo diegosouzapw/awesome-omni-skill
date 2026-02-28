@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aecd48a3c051f9963c0d1ca6127b872e37eb9d5b61bb9c0ddf82bfa21a3dd0bd",
   "indexed_at": "2026-02-26T10:52:16.901Z",
-  "synced_at": "2026-02-27T02:31:56.821Z",
+  "synced_at": "2026-02-28T03:57:37.984Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c2f846d3e7217e4e18f1e1a16047b86886890ef9dced11d6383c6082b1108779",
   "install_command": "mkdir -p .claude/skills/extract-openapi-from-code && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/speakeasy-api/skills/extract-openapi-from-code/SKILL.md\" > .claude/skills/extract-openapi-from-code/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/speakeasy-api/skills/extract-openapi-from-code/SKILL.md"

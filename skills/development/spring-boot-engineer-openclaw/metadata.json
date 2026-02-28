@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cb6c7283b450943688d361f51db281ff80856e04fc3aca43e10ea38e2b07710b",
   "indexed_at": "2026-02-26T12:17:05.635Z",
-  "synced_at": "2026-02-27T02:32:40.535Z",
+  "synced_at": "2026-02-28T03:58:18.149Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f79c5b7111bf06170ab8309c87a315eebe0e72fcc795b50b780481dd6558e602",
   "install_command": "mkdir -p .claude/skills/spring-boot-engineer && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/veeramanikandanr48/spring-boot-engineer/SKILL.md\" > .claude/skills/spring-boot-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/veeramanikandanr48/spring-boot-engineer/SKILL.md"

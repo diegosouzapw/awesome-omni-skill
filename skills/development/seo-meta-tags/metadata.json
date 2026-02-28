@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "237b392aa6666684446d47157ba205efcb61ab6182eedbe168d3779ba55fa44e",
   "indexed_at": "2026-02-26T11:31:31.102Z",
-  "synced_at": "2026-02-27T02:32:08.964Z",
+  "synced_at": "2026-02-28T03:57:49.243Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/10cbbf5819e87ab04ef685bdf878c9b4f441b407af6a417bd368503fe9f09df9",
   "install_command": "mkdir -p .claude/skills/seo-meta-tags && curl -sL \"https://raw.githubusercontent.com/jeremy0x/meta-tag-boilerplate/main/skills/seo-meta-tags/SKILL.md\" > .claude/skills/seo-meta-tags/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jeremy0x/meta-tag-boilerplate/main/skills/seo-meta-tags/SKILL.md"

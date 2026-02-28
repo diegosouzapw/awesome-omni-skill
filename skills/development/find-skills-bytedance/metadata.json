@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f8f641c1b7554e6ba2c46385f06798071e1c3d17d58d4cfb9c7a882a7bea923f",
   "indexed_at": "2026-02-26T12:16:19.611Z",
-  "synced_at": "2026-02-27T02:32:39.523Z",
+  "synced_at": "2026-02-28T03:58:17.359Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5a5bcbe91fd3909ad993975fb0771a3d0015792e6abdfdf2dde1107ce33c2c9f",
   "install_command": "mkdir -p .claude/skills/find-skills && curl -sL \"https://raw.githubusercontent.com/bytedance/deer-flow/main/skills/public/find-skills/SKILL.md\" > .claude/skills/find-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bytedance/deer-flow/main/skills/public/find-skills/SKILL.md"

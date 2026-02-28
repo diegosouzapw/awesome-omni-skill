@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5358a93d0341b61337fcc6ddab9e56c62ccd83ce5c60929a1f899d5188cb8fa1",
   "indexed_at": "2026-02-26T10:55:59.042Z",
-  "synced_at": "2026-02-27T02:32:03.648Z",
+  "synced_at": "2026-02-28T03:57:44.639Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2060e3ebba03dd3eee9c04b122be28f2c9fba570e9a813e466acea4fc3329e8d",
   "install_command": "mkdir -p .claude/skills/backend-testing && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/supercent-io/skills-template/backend-testing/SKILL.md\" > .claude/skills/backend-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/supercent-io/skills-template/backend-testing/SKILL.md"

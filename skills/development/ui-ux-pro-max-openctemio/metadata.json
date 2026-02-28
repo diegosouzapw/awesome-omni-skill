@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e4e24f23863ff008dc481ed2ff3e3269583cdd62833a5e827f93ebe9ba614b65",
   "indexed_at": "2026-02-26T11:32:29.106Z",
-  "synced_at": "2026-02-27T02:32:14.399Z",
+  "synced_at": "2026-02-28T03:57:54.393Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/92c5fc7a486887490653d604d02886f4812e72463e22d47361537783be37ff0b",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/openctemio/ui/main/.claude/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openctemio/ui/main/.claude/skills/ui-ux-pro-max/SKILL.md"

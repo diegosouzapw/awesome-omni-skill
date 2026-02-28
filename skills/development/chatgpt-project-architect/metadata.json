@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6fda99b9e6a6af30900f66c3f1c44a194565c8f107efa48871ee8b0757b5b3ff",
   "indexed_at": "2026-02-26T11:16:06.210Z",
-  "synced_at": "2026-02-27T02:32:05.809Z",
+  "synced_at": "2026-02-28T03:57:46.228Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/67a9713cd7f53a19ab791f2740b0847623e71aa1318d3d4cae26456c2a698c79",
   "install_command": "mkdir -p .claude/skills/chatgpt-project-architect && curl -sL \"https://raw.githubusercontent.com/gonzoblasco/chatgpt-project-architect/main/SKILL.md\" > .claude/skills/chatgpt-project-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/gonzoblasco/chatgpt-project-architect/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ee321c9fa6da0ba3fc287580927fc16c9f8178c7921a1c042beaf9450fcfb535",
   "indexed_at": "2026-02-26T11:42:43.822Z",
-  "synced_at": "2026-02-27T02:32:36.180Z",
+  "synced_at": "2026-02-28T03:58:14.966Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/714f3f3fb190594320d2ea9a1f39e759b45d6db7ce0abd33112e88efd83f6e60",
   "install_command": "mkdir -p .claude/skills/shopify-expert && curl -sL \"https://raw.githubusercontent.com/hainamchung/agent-assistant/main/skills/shopify-expert/SKILL.md\" > .claude/skills/shopify-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hainamchung/agent-assistant/main/skills/shopify-expert/SKILL.md"

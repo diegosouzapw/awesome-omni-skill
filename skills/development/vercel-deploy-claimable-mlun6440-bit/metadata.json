@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "381b673f53a1d23d325ccbd893fc2274d1583cacb339ebee0f87e48cf5ad952e",
   "indexed_at": "2026-02-26T12:22:24.628Z",
-  "synced_at": "2026-02-27T02:32:57.072Z",
+  "synced_at": "2026-02-28T03:58:33.730Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1d09f28438352f7fd8c85598447ddd86ebe46a08175d8851a7fb8dba5beffd5d",
   "install_command": "mkdir -p .claude/skills/vercel-deploy-claimable && curl -sL \"https://raw.githubusercontent.com/mlun6440-bit/Antigravity-RAG/main/skills/vercel-deploy-claimable/SKILL.md\" > .claude/skills/vercel-deploy-claimable/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mlun6440-bit/Antigravity-RAG/main/skills/vercel-deploy-claimable/SKILL.md"

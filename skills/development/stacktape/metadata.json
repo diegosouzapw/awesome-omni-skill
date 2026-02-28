@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "db20d722a524b47eb1e72449d4fe9ee01203e007e5b9d317415a248a8b12c22a",
   "indexed_at": "2026-02-26T11:31:22.960Z",
-  "synced_at": "2026-02-27T02:32:08.068Z",
+  "synced_at": "2026-02-28T03:57:48.413Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9e1e320b948caabb72ac512c41636600c876128c9b39678a5403e2abc7aed205",
   "install_command": "mkdir -p .claude/skills/stacktape && curl -sL \"https://raw.githubusercontent.com/stacktape/stacktape/main/_skills/stacktape/SKILL.md\" > .claude/skills/stacktape/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/stacktape/stacktape/main/_skills/stacktape/SKILL.md"

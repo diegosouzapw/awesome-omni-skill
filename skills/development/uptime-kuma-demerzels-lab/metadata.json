@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "08638b24cc1a1ab6692042f20249b6aa13cbca68ff663a44763870d2c211f528",
   "indexed_at": "2026-02-26T11:40:52.370Z",
-  "synced_at": "2026-02-27T02:32:33.028Z",
+  "synced_at": "2026-02-28T03:58:11.954Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/12e1e18a6f8e423d116a343dff0af1f8cfc56a7a77b8b3908a8e868ff75706f8",
   "install_command": "mkdir -p .claude/skills/uptime-kuma && curl -sL \"https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/msarheed/uptime-kuma/SKILL.md\" > .claude/skills/uptime-kuma/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/msarheed/uptime-kuma/SKILL.md"

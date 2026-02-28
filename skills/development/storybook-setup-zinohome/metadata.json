@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "261c303c5c097c170c113184c4817edeba1fca73d9af3268eae4a91aa7458d2b",
   "indexed_at": "2026-02-26T11:33:16.375Z",
-  "synced_at": "2026-02-27T02:32:18.806Z",
+  "synced_at": "2026-02-28T03:57:58.399Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ecb40234aa51bb6470c909e298cbd382dafd2c58e51c482ca25d1a23f0efd9a3",
   "install_command": "mkdir -p .claude/skills/storybook-setup && curl -sL \"https://raw.githubusercontent.com/zinohome/CozyChat/main/.claude/skills/storybook-setup/SKILL.md\" > .claude/skills/storybook-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zinohome/CozyChat/main/.claude/skills/storybook-setup/SKILL.md"

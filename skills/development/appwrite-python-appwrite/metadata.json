@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "00e9a9ba9b41eac89db7cbbde454c74ac4f4f9f4632cbb2ac95481bd1f2a1cc3",
   "indexed_at": "2026-02-26T10:50:18.214Z",
-  "synced_at": "2026-02-27T02:31:51.963Z",
+  "synced_at": "2026-02-28T03:57:33.469Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7ba2dfbbb4432787db59c056cabda32892fc4952d244f6a439f4ae0df2372e03",
   "install_command": "mkdir -p .claude/skills/appwrite-python && curl -sL \"https://raw.githubusercontent.com/appwrite/cursor-plugin/main/skills/appwrite-python/SKILL.md\" > .claude/skills/appwrite-python/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/appwrite/cursor-plugin/main/skills/appwrite-python/SKILL.md"

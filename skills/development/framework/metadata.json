@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "63391e1900702fb17acaa07293d12a5ec6313d833631abe3b50b86e8b20fa806",
   "indexed_at": "2026-02-26T12:18:47.651Z",
-  "synced_at": "2026-02-27T02:32:42.528Z",
+  "synced_at": "2026-02-28T03:58:19.985Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6a7249bbbbf51af21c16f1e6dc7b2c944547a9ba85b711295745d2aacb7f1bf6",
   "install_command": "mkdir -p .claude/skills/framework && curl -sL \"https://raw.githubusercontent.com/ERP-CORE-DEV/eagles-claude-config/main/skills/framework/SKILL.md\" > .claude/skills/framework/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ERP-CORE-DEV/eagles-claude-config/main/skills/framework/SKILL.md"

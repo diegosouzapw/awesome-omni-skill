@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "02a39bd9a9e926be292f233dace687c571d7bf15ca26db5352c3db773c6d9e0f",
   "indexed_at": "2026-02-26T12:24:28.820Z",
-  "synced_at": "2026-02-27T02:33:07.986Z",
+  "synced_at": "2026-02-28T03:58:42.832Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/03588a95284af96ee849a63929e07af409662ad97e4fef1eaa9820184ece342c",
   "install_command": "mkdir -p .claude/skills/managing-vercel && curl -sL \"https://raw.githubusercontent.com/FortiumPartners/ensemble/main/packages/infrastructure/skills/managing-vercel/SKILL.md\" > .claude/skills/managing-vercel/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/FortiumPartners/ensemble/main/packages/infrastructure/skills/managing-vercel/SKILL.md"

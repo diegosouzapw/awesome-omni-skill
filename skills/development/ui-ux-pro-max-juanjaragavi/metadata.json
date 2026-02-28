@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b9c2fc4fe87c3a97bc8628eaddc801d121dec8939760ed74abe3f1eaa26243a8",
   "indexed_at": "2026-02-26T11:33:08.562Z",
-  "synced_at": "2026-02-27T02:32:18.314Z",
+  "synced_at": "2026-02-28T03:57:58.061Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0cb06c4fd0561287e5bbaf7fb937b1a9f996cf49b2717af070c9045a0fa1d4a3",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/juanjaragavi/topfinanzas-us-next/main/.agents/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/juanjaragavi/topfinanzas-us-next/main/.agents/skills/ui-ux-pro-max/SKILL.md"

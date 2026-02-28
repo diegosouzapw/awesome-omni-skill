@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f2c1eb9e5029609604239a6b3028058debb5f0759d66f9dfcebd2c357b0ed816",
   "indexed_at": "2026-02-26T09:55:12.181Z",
-  "synced_at": "2026-02-27T02:31:34.433Z",
+  "synced_at": "2026-02-28T03:57:16.533Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/569654ae703f7029b7d26ddb874a16b5b405abbd9f3e73c6bdfc7b93c04d1fe7",
   "install_command": "mkdir -p .claude/skills/ensuring-mobile-security && curl -sL \"https://raw.githubusercontent.com/Mkas08/alhuda./main/.agent/skills/mobile-security-standards/SKILL.md\" > .claude/skills/ensuring-mobile-security/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Mkas08/alhuda./main/.agent/skills/mobile-security-standards/SKILL.md"

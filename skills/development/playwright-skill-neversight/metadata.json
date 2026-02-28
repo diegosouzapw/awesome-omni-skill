@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6ffdc6e29bf8f47e365b30842e760b766c4c853da9a614d897dd37bda70d2a39",
   "indexed_at": "2026-02-26T12:22:20.302Z",
-  "synced_at": "2026-02-27T02:32:56.730Z",
+  "synced_at": "2026-02-28T03:58:33.384Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/39cdcc318bae3789404e6f6add70f5a39f0711e70aba691ae5f898a8c09aa0e5",
   "install_command": "mkdir -p .claude/skills/playwright-skill && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/testdino-hq/playwright-skill/playwright-skill/SKILL.md\" > .claude/skills/playwright-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/testdino-hq/playwright-skill/playwright-skill/SKILL.md"

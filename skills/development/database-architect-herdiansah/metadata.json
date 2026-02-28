@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a7128e7e6448cc09604a033ca88796bb0671fb1134290f0ed7893e6f9b4eb9bb",
   "indexed_at": "2026-02-26T11:40:08.498Z",
-  "synced_at": "2026-02-27T02:32:30.127Z",
+  "synced_at": "2026-02-28T03:58:09.142Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5368d9c75e1af05e8c52019063369a6fa188a11bb4471b0e8c3cfb8abff1257b",
   "install_command": "mkdir -p .claude/skills/database-architect && curl -sL \"https://raw.githubusercontent.com/herdiansah/Antigravity-Skills-Master/main/.agent/skills/database-architect/SKILL.md\" > .claude/skills/database-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/herdiansah/Antigravity-Skills-Master/main/.agent/skills/database-architect/SKILL.md"

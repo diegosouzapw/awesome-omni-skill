@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "af45e7ba80142e12f819db876c41c75aaa8257f169567b2303138e834e52027d",
   "indexed_at": "2026-02-26T10:49:54.681Z",
-  "synced_at": "2026-02-27T02:31:51.385Z",
+  "synced_at": "2026-02-28T03:57:32.887Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8cdcc81691ee29246be7bb4bd9522220b7cbcdd8b02e30a33fb143ead63eead4",
   "install_command": "mkdir -p .claude/skills/fastapi-development && curl -sL \"https://raw.githubusercontent.com/alchimie-di-circe/Extractor-desktop-app/main/.codex/skills/fastapi-development/SKILL.md\" > .claude/skills/fastapi-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alchimie-di-circe/Extractor-desktop-app/main/.codex/skills/fastapi-development/SKILL.md"

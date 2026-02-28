@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "82331cc226a170e40bcad4bacc5b6161ee78001539319d54a8fa5d46f586c838",
   "indexed_at": "2026-02-26T12:21:18.277Z",
-  "synced_at": "2026-02-27T02:32:50.860Z",
+  "synced_at": "2026-02-28T03:58:28.002Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/188061be1cbddddd585931074772d6be84c2413cecefe1f79fe9d6c1e322e0e4",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/JackZhu001/CodeMate-Agent/main/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/JackZhu001/CodeMate-Agent/main/skills/ui-ux-pro-max/SKILL.md"

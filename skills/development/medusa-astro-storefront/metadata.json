@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "69b444beb7f9df5eeb5477cd835e1fdc419dbb2608752c2f5fa94ee1969cab46",
   "indexed_at": "2026-02-26T11:56:41.295Z",
-  "synced_at": "2026-02-27T02:32:38.495Z",
+  "synced_at": "2026-02-28T03:58:16.323Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1c40b1227b306cee3234ae5fdb663284017f03510bf0d57c7e1a51eadb7ea90e",
   "install_command": "mkdir -p .claude/skills/medusa-astro-storefront && curl -sL \"https://raw.githubusercontent.com/christiananese/medusa-astro-starter/main/SKILL.md\" > .claude/skills/medusa-astro-storefront/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/christiananese/medusa-astro-starter/main/SKILL.md"

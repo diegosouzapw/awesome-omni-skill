@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9f9d0174d22980599c3696641b03d70f59a89d6d956014d6dd7a13782667de66",
   "indexed_at": "2026-02-26T10:47:25.996Z",
-  "synced_at": "2026-02-27T02:31:44.390Z",
+  "synced_at": "2026-02-28T03:57:26.131Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/16a7b8c3e92b868c8c68b437f7774e1b57a593b9ae97e61a54ae7de41f1c36f0",
   "install_command": "mkdir -p .claude/skills/lang-python && curl -sL \"https://raw.githubusercontent.com/joncrangle/.dotfiles/main/dot_config/opencode/skills/lang-python/SKILL.md\" > .claude/skills/lang-python/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/joncrangle/.dotfiles/main/dot_config/opencode/skills/lang-python/SKILL.md"

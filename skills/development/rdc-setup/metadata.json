@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "71b2b7a2864605fbb55a52f6e8c4df209abf03344794308617c63747648becb7",
   "indexed_at": "2026-02-26T11:31:27.720Z",
-  "synced_at": "2026-02-27T02:32:08.607Z",
+  "synced_at": "2026-02-28T03:57:48.910Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e089faac09ee38f254260795273854422c566ffca3298cd3cf3e17f637777024",
   "install_command": "mkdir -p .claude/skills/rdc-setup && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/reactive/data-client/rdc-setup/SKILL.md\" > .claude/skills/rdc-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/reactive/data-client/rdc-setup/SKILL.md"

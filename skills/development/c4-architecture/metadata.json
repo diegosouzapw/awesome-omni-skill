@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ccb07d9bd479235749ba154834011e7d0c869330d481604acef485918faf0074",
   "indexed_at": "2026-02-26T11:40:07.674Z",
-  "synced_at": "2026-02-27T02:32:29.981Z",
+  "synced_at": "2026-02-28T03:58:08.981Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bffd4438bd33732f5fc2c8664eb4fe752cbbae8ea9153a258f2b2b4dbd0d6204",
   "install_command": "mkdir -p .claude/skills/c4-architecture && curl -sL \"https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/creative-design/c4-architecture/SKILL.md\" > .claude/skills/c4-architecture/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/creative-design/c4-architecture/SKILL.md"

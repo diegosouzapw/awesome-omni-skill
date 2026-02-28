@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9780eaa706298906f72be69e39916551634af23e968cc2fe8cb495f2afcc7f8f",
   "indexed_at": "2026-02-26T09:52:18.215Z",
-  "synced_at": "2026-02-27T02:31:31.008Z",
+  "synced_at": "2026-02-28T03:57:13.208Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/955340caf47ae475783cb7fa32de27282bf56bb87507304119fb632b7c2ba579",
   "install_command": "mkdir -p .claude/skills/password-gen && curl -sL \"https://raw.githubusercontent.com/winsorllc/upgraded-carnival/main/.pi/skills/password-gen/SKILL.md\" > .claude/skills/password-gen/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/winsorllc/upgraded-carnival/main/.pi/skills/password-gen/SKILL.md"

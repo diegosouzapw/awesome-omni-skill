@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0d3051d7472d4ed43591bca2d263160a38ca801f1350bf2d420c2295800d8ad8",
   "indexed_at": "2026-02-26T12:21:03.487Z",
-  "synced_at": "2026-02-27T02:32:49.968Z",
+  "synced_at": "2026-02-28T03:58:27.125Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/56584df940c95abd1d6af93bc7df1b68f6158190004d330627b8b6dfccfa5b52",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/vibery-studio/templates/main/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/vibery-studio/templates/main/skills/ui-ux-pro-max/SKILL.md"

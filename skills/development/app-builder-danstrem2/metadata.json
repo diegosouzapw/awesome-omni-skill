@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ba1e9791bf0bb9809410965e0191d8f76731b349a2f12b6213e9ae2a54b8d9a5",
   "indexed_at": "2026-02-26T12:20:38.491Z",
-  "synced_at": "2026-02-27T02:32:48.115Z",
+  "synced_at": "2026-02-28T03:58:25.412Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4b8ba9295b6b2bc1b8b1d0f38a743b15162cff2c8cb2ccfe8a49ece343131364",
   "install_command": "mkdir -p .claude/skills/app-builder && curl -sL \"https://raw.githubusercontent.com/danstrem2/clawdbot-skill-master-pack/main/skills/app-builder/SKILL.md\" > .claude/skills/app-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/danstrem2/clawdbot-skill-master-pack/main/skills/app-builder/SKILL.md"

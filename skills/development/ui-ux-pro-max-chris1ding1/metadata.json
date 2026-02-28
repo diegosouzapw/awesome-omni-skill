@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a2d83226b72877fa902a7eef5f21bc1866275f0fe296a74c9202174eed5713c1",
   "indexed_at": "2026-02-26T12:21:19.435Z",
-  "synced_at": "2026-02-27T02:32:51.045Z",
+  "synced_at": "2026-02-28T03:58:28.184Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5167dc691b90badf47ffe904cd27eb8f2a31b117eb232de659635c03813e8be9",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/chris1ding1/doubao-cloud-drive-web/main/.claude/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chris1ding1/doubao-cloud-drive-web/main/.claude/skills/ui-ux-pro-max/SKILL.md"

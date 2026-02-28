@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2be1697a5a7e948cb081b4c4e62350ea2e53d29a23f3354a4aaebd52f063c37c",
   "indexed_at": "2026-02-26T12:22:29.707Z",
-  "synced_at": "2026-02-27T02:32:58.129Z",
+  "synced_at": "2026-02-28T03:58:34.861Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/929306669e0bc6c4fe8375bff55a9da27b7f34bf7b6f1ea3030835edca209d29",
   "install_command": "mkdir -p .claude/skills/createos && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/ashwaq06/createos/SKILL.md\" > .claude/skills/createos/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/ashwaq06/createos/SKILL.md"

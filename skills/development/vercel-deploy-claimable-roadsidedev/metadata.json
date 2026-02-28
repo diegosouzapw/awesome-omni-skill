@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "58427454a759943281fa62061f0473d84f68cd4b20bbebb566fbd6e84255a2b0",
   "indexed_at": "2026-02-26T12:21:35.372Z",
-  "synced_at": "2026-02-27T02:32:52.668Z",
+  "synced_at": "2026-02-28T03:58:29.704Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c6378a81229dc0ce5e9524a638dc0e2abb87f75d36199cb286b3a1ac8e178086",
   "install_command": "mkdir -p .claude/skills/vercel-deploy-claimable && curl -sL \"https://raw.githubusercontent.com/roadsidedev/OpenClaw-Awesome-Skills/main/skills/vercel-deploy-claimable/SKILL.md\" > .claude/skills/vercel-deploy-claimable/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/roadsidedev/OpenClaw-Awesome-Skills/main/skills/vercel-deploy-claimable/SKILL.md"

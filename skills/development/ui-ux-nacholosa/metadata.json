@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b8788c984948aac7028d7803c5859194d4bb3d791a08c6d737e0a05b4eb1b443",
   "indexed_at": "2026-02-26T12:23:29.372Z",
-  "synced_at": "2026-02-27T02:33:03.024Z",
+  "synced_at": "2026-02-28T03:58:38.496Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cce2cacb41cd98286420c9dd7c00662d2e171200fe96de3b76fc768c19833f8b",
   "install_command": "mkdir -p .claude/skills/ui-ux && curl -sL \"https://raw.githubusercontent.com/NachoLosa/LagunasClaras/main/.agents/skills/ui-ux/SKILL.md\" > .claude/skills/ui-ux/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NachoLosa/LagunasClaras/main/.agents/skills/ui-ux/SKILL.md"

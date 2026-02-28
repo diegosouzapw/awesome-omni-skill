@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8140d30104a27dadd94c896b23b6b6ad5ddb5b3e02472dd7b1e93b4bb59d50a4",
   "indexed_at": "2026-02-26T10:51:43.646Z",
-  "synced_at": "2026-02-27T02:31:55.637Z",
+  "synced_at": "2026-02-28T03:57:36.790Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4d13d3a6319de8b3662bbae029fded676523e265b71c597ebf942d0d988427fd",
   "install_command": "mkdir -p .claude/skills/using-context7-for-docs && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/using-context7-for-docs/SKILL.md\" > .claude/skills/using-context7-for-docs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/using-context7-for-docs/SKILL.md"

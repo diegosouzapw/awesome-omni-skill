@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e013c57580c18697a34f2e4adb8de0b1366a39f9ed1e4648af47fbd5d57b30ad",
   "indexed_at": "2026-02-26T10:50:25.750Z",
-  "synced_at": "2026-02-27T02:31:52.148Z",
+  "synced_at": "2026-02-28T03:57:33.652Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4b96178a07a03393e12cbece35792ec7a616c013331d5198c240558ac6cdcd68",
   "install_command": "mkdir -p .claude/skills/dotnet-to-react-python-refactor && curl -sL \"https://raw.githubusercontent.com/manojsingh/agent-skills/main/dotnet-react-python-refactor/SKILL.md\" > .claude/skills/dotnet-to-react-python-refactor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/manojsingh/agent-skills/main/dotnet-react-python-refactor/SKILL.md"

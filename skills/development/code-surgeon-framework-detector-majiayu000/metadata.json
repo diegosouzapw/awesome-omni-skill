@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "84fe64d782c004950b71d4e7c8c4cdf408fc3bb0f13a8b34fb8ffe78ef3ee6a1",
   "indexed_at": "2026-02-26T10:47:11.513Z",
-  "synced_at": "2026-02-27T02:31:43.974Z",
+  "synced_at": "2026-02-28T03:57:25.729Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e459a7967d9aaea3b2797e776195a1b181e0730bccf374e615effb4b9b492ca6",
   "install_command": "mkdir -p .claude/skills/code-surgeon-framework-detector && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/code-surgeon-baagad-ai-code-surgeon-3/SKILL.md\" > .claude/skills/code-surgeon-framework-detector/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/code-surgeon-baagad-ai-code-surgeon-3/SKILL.md"

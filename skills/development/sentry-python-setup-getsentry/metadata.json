@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3e0d93cc88a6791783480393640995b225b8db55ba1c684f19a10532d08082b1",
   "indexed_at": "2026-02-26T10:46:40.101Z",
-  "synced_at": "2026-02-27T02:31:42.501Z",
+  "synced_at": "2026-02-28T03:57:24.413Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/046a5aaabd87249f5f630d6d6a2b47118a3cf2c58df284992ba34eee964bcd87",
   "install_command": "mkdir -p .claude/skills/sentry-python-setup && curl -sL \"https://raw.githubusercontent.com/getsentry/sentry-agent-skills/main/skills/sentry-python-setup/SKILL.md\" > .claude/skills/sentry-python-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/getsentry/sentry-agent-skills/main/skills/sentry-python-setup/SKILL.md"

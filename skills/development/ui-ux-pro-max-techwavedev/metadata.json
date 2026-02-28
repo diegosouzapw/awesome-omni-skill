@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e4d35806c0e17c40e5c2c18f81f60b03762ccc97971aadd35baca1ba14ef6c70",
   "indexed_at": "2026-02-26T11:33:45.279Z",
-  "synced_at": "2026-02-27T02:32:21.142Z",
+  "synced_at": "2026-02-28T03:58:00.776Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fbde8e149302d482c7a84d74a2e0389f9ab2e05a4ee045ec601d6240986b3d36",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/extended/frontend/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/extended/frontend/ui-ux-pro-max/SKILL.md"

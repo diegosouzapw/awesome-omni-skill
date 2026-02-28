@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "17cb17565dc5b31768e2a0bdc45e81415091f3a4154ac28fe246e5d2c5090b4b",
   "indexed_at": "2026-02-26T12:24:20.010Z",
-  "synced_at": "2026-02-27T02:33:07.794Z",
+  "synced_at": "2026-02-28T03:58:42.655Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f5d0720db6d8f759a6ddc7ab32d05884213fc4362a6920a138950817b3bacd5e",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/vienkmt/TermiPro/main/TermiMax/.claude/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/vienkmt/TermiPro/main/TermiMax/.claude/skills/ui-ux-pro-max/SKILL.md"

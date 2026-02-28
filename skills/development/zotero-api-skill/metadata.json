@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b8cb8ac302d3970a8043e43ba8a7967011f8cc51e1f79e2c264c3b59d15e4f1f",
   "indexed_at": "2026-02-26T12:01:25.324Z",
-  "synced_at": "2026-02-27T02:32:39.186Z",
+  "synced_at": "2026-02-28T03:58:17.033Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b10d910334eaa12a8c33b5e06e093179d12e666ae1ff016cf875e5a10d609814",
   "install_command": "mkdir -p .claude/skills/zotero-api-skill && curl -sL \"https://raw.githubusercontent.com/GrayXu/zotero-api-skill/main/SKILL.md\" > .claude/skills/zotero-api-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/GrayXu/zotero-api-skill/main/SKILL.md"

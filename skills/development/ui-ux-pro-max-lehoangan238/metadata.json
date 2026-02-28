@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bb38283f2bafa372b6d05fd757178b99131b1945342d77f933042ee68e2dbc92",
   "indexed_at": "2026-02-26T12:24:09.719Z",
-  "synced_at": "2026-02-27T02:33:06.905Z",
+  "synced_at": "2026-02-28T03:58:41.969Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e43ddc38b01f1203cf1596c3bc83b6856e1e022caa3e22209772e4709e3adc5c",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/lehoangan238/memorial-park-cphaco/main/.gemini/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lehoangan238/memorial-park-cphaco/main/.gemini/skills/ui-ux-pro-max/SKILL.md"

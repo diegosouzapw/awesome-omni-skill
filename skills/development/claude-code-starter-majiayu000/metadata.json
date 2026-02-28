@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "139e45de3c4ef1a9ae506685e8489312694186de7ee4274b55ac6aa1588aa07d",
   "indexed_at": "2026-02-26T10:52:13.651Z",
-  "synced_at": "2026-02-27T02:31:56.583Z",
+  "synced_at": "2026-02-28T03:57:37.745Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/517f40fa4dd1634f4ec57eec75d328f9505d1e34069627a34441b5c5aafe19bf",
   "install_command": "mkdir -p .claude/skills/claude-code-starter && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/claude-code-starter/SKILL.md\" > .claude/skills/claude-code-starter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/claude-code-starter/SKILL.md"

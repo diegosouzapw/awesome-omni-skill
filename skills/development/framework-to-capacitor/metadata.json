@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "177051d40ffc70bdca6014975648259641840f4ae644a6d3f994b41a1bb85623",
   "indexed_at": "2026-02-26T11:31:38.767Z",
-  "synced_at": "2026-02-27T02:32:09.396Z",
+  "synced_at": "2026-02-28T03:57:49.588Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8e342e28d70e1310cf4d08e7bbf4a1701cd3f886c9812759e85133fd5389e98c",
   "install_command": "mkdir -p .claude/skills/framework-to-capacitor && curl -sL \"https://raw.githubusercontent.com/Cap-go/capgo-skills/main/skills/framework-to-capacitor/SKILL.md\" > .claude/skills/framework-to-capacitor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Cap-go/capgo-skills/main/skills/framework-to-capacitor/SKILL.md"

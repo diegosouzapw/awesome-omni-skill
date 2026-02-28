@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5fe570a53567cee51409d6f5850063aa9c86194d9e727920b57fa2ebc2f2f075",
   "indexed_at": "2026-02-26T12:21:09.690Z",
-  "synced_at": "2026-02-27T02:32:50.342Z",
+  "synced_at": "2026-02-28T03:58:27.517Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/97c61a3430675a8b213c09b666b5e15903a70be4cf2c1487ca82792375d83794",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/a26663/seda-y-olivo-2SI/main/proyecto05feb/frontend/front-skills-web/.agent/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/a26663/seda-y-olivo-2SI/main/proyecto05feb/frontend/front-skills-web/.agent/skills/ui-ux-pro-max/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "39ab14e2f7ef0027f96d5ceb10bbc0838fc873e529129253beea4838045f7e94",
   "indexed_at": "2026-02-26T12:23:02.304Z",
-  "synced_at": "2026-02-27T02:32:59.236Z",
+  "synced_at": "2026-02-28T03:58:35.963Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/29344a95cb19225bd271d4d348308ad4924c7744ab4cacd80c46ec9ab739d0fb",
   "install_command": "mkdir -p .claude/skills/feature-slicing && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/feature-slicing/SKILL.md\" > .claude/skills/feature-slicing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/feature-slicing/SKILL.md"

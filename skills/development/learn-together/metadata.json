@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b7dc1daee35fb79694c78a707648deda7eada9f8c7e7d8997112ab37721baba0",
   "indexed_at": "2026-02-26T11:40:24.933Z",
-  "synced_at": "2026-02-27T02:32:30.966Z",
+  "synced_at": "2026-02-28T03:58:09.978Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2d09b14ee96d748080bf617a1b30e8095a67b992c36c98d19686fdaaec75ad68",
   "install_command": "mkdir -p .claude/skills/learn-together && curl -sL \"https://raw.githubusercontent.com/abhay-rana/create-modern-react/main/.claude/skills/learn-together/SKILL.md\" > .claude/skills/learn-together/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/abhay-rana/create-modern-react/main/.claude/skills/learn-together/SKILL.md"

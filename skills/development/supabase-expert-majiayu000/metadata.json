@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "20da43b3489acbdda3340392969e86f9caab7c5e187e571daf91b46671a2764e",
   "indexed_at": "2026-02-26T11:32:25.658Z",
-  "synced_at": "2026-02-27T02:32:13.795Z",
+  "synced_at": "2026-02-28T03:57:53.764Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/799e0d177f0e5a7fa7b25356e097d766baf73260a4d773543817398aa639c021",
   "install_command": "mkdir -p .claude/skills/supabase-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/supabase/SKILL.md\" > .claude/skills/supabase-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/supabase/SKILL.md"

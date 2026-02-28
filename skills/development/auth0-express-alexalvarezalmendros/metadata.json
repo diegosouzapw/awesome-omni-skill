@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a360ca3d8990db1b8207d46035a40a3be5aae1a049b25377ce9100840203225d",
   "indexed_at": "2026-02-26T11:33:04.260Z",
-  "synced_at": "2026-02-27T02:32:17.763Z",
+  "synced_at": "2026-02-28T03:57:57.530Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/766f2607a644d7a8c362ef828c9e4115a21f25bd33177487fcbc060c6973969e",
   "install_command": "mkdir -p .claude/skills/auth0-express && curl -sL \"https://raw.githubusercontent.com/AlexAlvarezAlmendros/ClicaptCRM/main/.agents/skills/auth0-express/SKILL.md\" > .claude/skills/auth0-express/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AlexAlvarezAlmendros/ClicaptCRM/main/.agents/skills/auth0-express/SKILL.md"

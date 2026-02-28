@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "10d1764848e8a6d44f004c951c7a3ec9b063a280eca47457283f1db8aa9ee0b5",
   "indexed_at": "2026-02-26T10:47:51.278Z",
-  "synced_at": "2026-02-27T02:31:45.543Z",
+  "synced_at": "2026-02-28T03:57:27.265Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2b3e3908b6d8db487ababe1f2df18816faa06eb8d35a935efb8f992b01e3ac35",
   "install_command": "mkdir -p .claude/skills/python-development && curl -sL \"https://raw.githubusercontent.com/julianromli/opencode-template/main/skill/python-development/SKILL.md\" > .claude/skills/python-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/julianromli/opencode-template/main/skill/python-development/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "53ccef84cad9cd1bb2b1b7603d924c64e4b895a348346e9e5d661f64f80b6844",
   "indexed_at": "2026-02-26T10:49:14.938Z",
-  "synced_at": "2026-02-27T02:31:48.637Z",
+  "synced_at": "2026-02-28T03:57:30.251Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1a5fcdb0cfd6708d599faab2e7189216cbece061ba496ca6df300bd6455440cf",
   "install_command": "mkdir -p .claude/skills/python-specialist && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/testing/python-specialist/SKILL.md\" > .claude/skills/python-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/testing/python-specialist/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "53aa7663d23a6086a069e487fe258ef5a9b700e4fc0c41582dbb28ed4f32d066",
   "indexed_at": "2026-02-26T11:41:03.751Z",
-  "synced_at": "2026-02-27T02:32:33.559Z",
+  "synced_at": "2026-02-28T03:58:12.452Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e3c89a57942a045bb88c10bc52f0d7f3f17e3dc73706f94bca2a2682bd727669",
   "install_command": "mkdir -p .claude/skills/coolify && curl -sL \"https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/visiongeist/coolify/SKILL.md\" > .claude/skills/coolify/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/visiongeist/coolify/SKILL.md"

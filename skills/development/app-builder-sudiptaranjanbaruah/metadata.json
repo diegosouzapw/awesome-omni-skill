@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3f4e3d83796c184e0c8c7b8e3540e11ea444168f83c0ecef3a8cd1dbaabe96d1",
   "indexed_at": "2026-02-26T11:33:32.470Z",
-  "synced_at": "2026-02-27T02:32:20.015Z",
+  "synced_at": "2026-02-28T03:57:59.701Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/053ec47531087014463668b91c1cad4e6c0309c7982ec8ec78f8d1606987425f",
   "install_command": "mkdir -p .claude/skills/app-builder && curl -sL \"https://raw.githubusercontent.com/sudiptaranjanbaruah/ctfSubmit/main/.agent/app-builder/SKILL.md\" > .claude/skills/app-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sudiptaranjanbaruah/ctfSubmit/main/.agent/app-builder/SKILL.md"

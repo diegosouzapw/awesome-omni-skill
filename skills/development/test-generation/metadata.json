@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "55ec8ffe1c5127886c8b5ae4e035bd0dcb6d4149c593e1c1c7761559513a3bb9",
   "indexed_at": "2026-02-26T10:54:09.289Z",
-  "synced_at": "2026-02-27T02:32:00.101Z",
+  "synced_at": "2026-02-28T03:57:41.320Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a82b881034eae5f978d519732c4fcc4891fd3a988b3586881142e2f05c45177d",
   "install_command": "mkdir -p .claude/skills/test-generation && curl -sL \"https://raw.githubusercontent.com/d4rkNinja/code-guardian/main/testcases-workspace/skills/SKILL.md\" > .claude/skills/test-generation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/d4rkNinja/code-guardian/main/testcases-workspace/skills/SKILL.md"

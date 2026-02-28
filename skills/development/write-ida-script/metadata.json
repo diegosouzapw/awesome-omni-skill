@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e9b55683be638bdc217b9dff93b993aec0f36afd22fcaf169c42a280cb520702",
   "indexed_at": "2026-02-26T10:41:03.615Z",
-  "synced_at": "2026-02-27T02:31:36.452Z",
+  "synced_at": "2026-02-28T03:57:18.475Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7fc6a6af51c3ded3a02052fb55541335b8f3c90eee41420f5ac4b10dc1ea2adb",
   "install_command": "mkdir -p .claude/skills/write-ida-script && curl -sL \"https://raw.githubusercontent.com/Taardisaa/IDA-Script-Helper/main/claude/skills/write-ida-script/SKILL.md\" > .claude/skills/write-ida-script/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Taardisaa/IDA-Script-Helper/main/claude/skills/write-ida-script/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f4560fc46d55ff165be104ac21f1791b152067cae29c3567c03de9c0f4fc5cec",
   "indexed_at": "2026-02-26T12:24:03.400Z",
-  "synced_at": "2026-02-27T02:33:05.650Z",
+  "synced_at": "2026-02-28T03:58:40.768Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a984d5b39ac4d1fbc1a7b8f90cc55af30ba59bea0be7e734622578eb7d4b1236",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/BoxPistols/LP-WebDesign-Brand/main/.claude/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/BoxPistols/LP-WebDesign-Brand/main/.claude/skills/ui-ux-pro-max/SKILL.md"

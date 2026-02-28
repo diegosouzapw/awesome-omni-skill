@@ -14,7 +14,7 @@ Fetch up-to-date library documentation via the Context7 MCP server. Use this ski
 | Action | Command | Description |
 |--------|---------|-------------|
 | search | `./scripts/docs.sh search <library>` | Find library ID for a given name |
-| docs | `./scripts/docs.sh docs <library> [topic]` | Get documentation for a library |
+| docs | `./scripts/docs.sh docs <library> [topic] [--tokens N]` | Get documentation for a library |
 | help | `./scripts/docs.sh help` | Show usage help |
 
 ## How to Use
@@ -114,6 +114,7 @@ Context7 supports thousands of libraries including:
 
 - Use this skill BEFORE searching external documentation
 - Topic filtering helps reduce context size - use specific topics when possible
+- Use `--tokens N` to control response size when context budget is tight
 - If a library isn't found, try alternative names (e.g., "nextjs" vs "next.js")
 - For generic MCP access, use the `mcporter` skill instead
 - Falls back to Context7 public MCP URL when server not configured locally

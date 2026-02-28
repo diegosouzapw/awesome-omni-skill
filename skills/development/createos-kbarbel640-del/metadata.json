@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "81cead8183e9205b687eb22ada00871d36a6634ad1e01d35644a1a5cb23e833a",
   "indexed_at": "2026-02-26T12:22:28.120Z",
-  "synced_at": "2026-02-27T02:32:57.785Z",
+  "synced_at": "2026-02-28T03:58:34.517Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c17bac2c5c916d2192eed94d833f78a7f39c1f27ef6b3563ec6ff0765889b7c1",
   "install_command": "mkdir -p .claude/skills/createos && curl -sL \"https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/ashwaq06/createos/SKILL.md\" > .claude/skills/createos/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/ashwaq06/createos/SKILL.md"

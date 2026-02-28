@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ebd61c0d806be534f4878b398bf45ac46e74fe6e955ef8c0219659e691cfdc50",
   "indexed_at": "2026-02-26T11:40:16.817Z",
-  "synced_at": "2026-02-27T02:32:30.472Z",
+  "synced_at": "2026-02-28T03:58:09.480Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ccde677758d6fd0ec6262527c88995b33d7d585856877cfe80bb410c457f7ae8",
   "install_command": "mkdir -p .claude/skills/coolify && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/visiongeist/coolify/SKILL.md\" > .claude/skills/coolify/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/visiongeist/coolify/SKILL.md"

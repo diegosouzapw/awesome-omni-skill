@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0424f2abcb9acf29191d7ac338824ae12e7aab8b36e431d7eae33f54aa68bf43",
   "indexed_at": "2026-02-26T10:46:29.406Z",
-  "synced_at": "2026-02-27T02:31:41.763Z",
+  "synced_at": "2026-02-28T03:57:23.707Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/37f1b267efcd494372a56e18e125bd0d422e8baa364dcf3e04c56e3c3e19c39f",
   "install_command": "mkdir -p .claude/skills/django-expert && curl -sL \"https://raw.githubusercontent.com/hainamchung/agent-assistant/main/skills/django-expert/SKILL.md\" > .claude/skills/django-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hainamchung/agent-assistant/main/skills/django-expert/SKILL.md"

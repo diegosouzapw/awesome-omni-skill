@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "43355bb0f147a246a08810b363e4a608d94db69f82e65aa6fe28d591be8738ab",
   "indexed_at": "2026-02-26T10:52:48.927Z",
-  "synced_at": "2026-02-27T02:31:57.188Z",
+  "synced_at": "2026-02-28T03:57:38.337Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ede9f75bf90d4cd1f8266c660401e59da936969c3ca0b6cee6dfb25f95f5cb9a",
   "install_command": "mkdir -p .claude/skills/tech-specification && curl -sL \"https://raw.githubusercontent.com/d4rkNinja/code-guardian/main/docs-workspace/skills/SKILL.md\" > .claude/skills/tech-specification/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/d4rkNinja/code-guardian/main/docs-workspace/skills/SKILL.md"

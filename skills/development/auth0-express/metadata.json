@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "47d15f765fd472796553722ad9e8bf3ee86ec8ca7d2decf8bb30d867d8474c96",
   "indexed_at": "2026-02-26T11:31:51.552Z",
-  "synced_at": "2026-02-27T02:32:11.143Z",
+  "synced_at": "2026-02-28T03:57:51.316Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2d99b7eff4efb7ed46090bbecdff223136c6ac2f217840f9b8a39b55d38f00bd",
   "install_command": "mkdir -p .claude/skills/auth0-express && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/auth0/agent-skills/auth0-express/SKILL.md\" > .claude/skills/auth0-express/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/auth0/agent-skills/auth0-express/SKILL.md"

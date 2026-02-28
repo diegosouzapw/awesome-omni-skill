@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "00887c9aa3552dffb1ea30d980b3489b382d4b48dc4664c6b83844c7a23900e4",
   "indexed_at": "2026-02-26T11:41:53.381Z",
-  "synced_at": "2026-02-27T02:32:35.283Z",
+  "synced_at": "2026-02-28T03:58:14.113Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2e8ff05225ef8e7b451ddbfaeb15cf12ebd0adc5b615990536d60741906b0a36",
   "install_command": "mkdir -p .claude/skills/api-designer && curl -sL \"https://raw.githubusercontent.com/always-further/claude-extensions/main/skills/api-designer/SKILL.md\" > .claude/skills/api-designer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/always-further/claude-extensions/main/skills/api-designer/SKILL.md"

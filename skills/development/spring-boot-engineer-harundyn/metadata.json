@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5e2f4a073142aa9bf878cad9e130f543e02aedca7b21c4f3043b0511a50f6748",
   "indexed_at": "2026-02-26T12:18:31.650Z",
-  "synced_at": "2026-02-27T02:32:41.578Z",
+  "synced_at": "2026-02-28T03:58:19.109Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f456d138fadabfc7e94d3b288894583f925cff2604df53e7cded166bdaa21a44",
   "install_command": "mkdir -p .claude/skills/spring-boot-engineer && curl -sL \"https://raw.githubusercontent.com/HarunDyn/fullstack-microservices-workshop/main/.agents/skills/spring-boot-engineer/SKILL.md\" > .claude/skills/spring-boot-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HarunDyn/fullstack-microservices-workshop/main/.agents/skills/spring-boot-engineer/SKILL.md"

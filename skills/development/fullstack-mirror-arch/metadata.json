@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f8d37bae48681e5a18aa1f8cc18ba744b705bb77d2cfca11e524c8644bc6f669",
   "indexed_at": "2026-02-26T10:51:16.783Z",
-  "synced_at": "2026-02-27T02:31:54.672Z",
+  "synced_at": "2026-02-28T03:57:35.859Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9826b8df94f4376b1bbbdb00720a7d178b80c88b55f08cc76dbb494801d7924b",
   "install_command": "mkdir -p .claude/skills/fullstack-mirror-arch && curl -sL \"https://raw.githubusercontent.com/kimjuyoung1127/GameLab/main/skills/fullstack-mirror-arch/SKILL.md\" > .claude/skills/fullstack-mirror-arch/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kimjuyoung1127/GameLab/main/skills/fullstack-mirror-arch/SKILL.md"

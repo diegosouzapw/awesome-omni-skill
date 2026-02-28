@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ca2b68f8576aa86085b872c4ff764af78b7c60e6ae0d080a1b27b3c7149a1677",
   "indexed_at": "2026-02-26T10:45:48.927Z",
-  "synced_at": "2026-02-27T02:31:38.832Z",
+  "synced_at": "2026-02-28T03:57:20.839Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a11b82d1dd1ea15762b0ecba338b24ecfd2d42e11dc36682cf96c593c2a17007",
   "install_command": "mkdir -p .claude/skills/securify && curl -sL \"https://raw.githubusercontent.com/gsarmaonline/nvim/main/claude/skills/securify/SKILL.md\" > .claude/skills/securify/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/gsarmaonline/nvim/main/claude/skills/securify/SKILL.md"

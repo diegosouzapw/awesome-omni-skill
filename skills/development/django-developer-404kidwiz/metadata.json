@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0f78b5f58d339f1b971a9243afec63f6b959294f3cacf72bf0d03a5fb939b553",
   "indexed_at": "2026-02-26T10:48:23.137Z",
-  "synced_at": "2026-02-27T02:31:46.501Z",
+  "synced_at": "2026-02-28T03:57:28.181Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b53ad63ce437aaa624b02aa3e646d606dba7e169e66a84da8c93f574b7cc4747",
   "install_command": "mkdir -p .claude/skills/django-developer && curl -sL \"https://raw.githubusercontent.com/404kidwiz/claude-supercode-skills/main/django-developer-skill/SKILL.md\" > .claude/skills/django-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/404kidwiz/claude-supercode-skills/main/django-developer-skill/SKILL.md"

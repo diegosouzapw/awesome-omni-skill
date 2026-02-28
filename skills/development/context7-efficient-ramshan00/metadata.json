@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "22bf23bf2df5d14e2e0e9790df462f822e2b8a810e23565365a04df7a243a752",
   "indexed_at": "2026-02-26T12:23:18.016Z",
-  "synced_at": "2026-02-27T02:33:01.735Z",
+  "synced_at": "2026-02-28T03:58:37.287Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/26b5e56065163040277fa8812b09a3398a64022f41554cd3f6eb8d408e341f72",
   "install_command": "mkdir -p .claude/skills/context7-efficient && curl -sL \"https://raw.githubusercontent.com/ramshan00/hackaton/main/Hackathon2-phase2/.claude/skills/context7-efficient/SKILL.md\" > .claude/skills/context7-efficient/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ramshan00/hackaton/main/Hackathon2-phase2/.claude/skills/context7-efficient/SKILL.md"

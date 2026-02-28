@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1a27bbf303a57f7cf15aee8caccbfc644ff2d686292633e687fb80c98371758f",
   "indexed_at": "2026-02-26T10:37:10.817Z",
-  "synced_at": "2026-02-27T02:31:36.304Z",
+  "synced_at": "2026-02-28T03:57:18.316Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1234ecf48ba7b93895b455519f7601d1268dea5aa85bfa5b8f1767e8002f51f5",
   "install_command": "mkdir -p .claude/skills/telegram-telethon && curl -sL \"https://raw.githubusercontent.com/pinion05/telegram-telethon/main/SKILL.md\" > .claude/skills/telegram-telethon/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pinion05/telegram-telethon/main/SKILL.md"

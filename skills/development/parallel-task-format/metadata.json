@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dc44c11c42aa0c547cddc55186139ccf9a87b10a96a4933c9dc8ca5799818716",
   "indexed_at": "2026-02-26T10:50:51.982Z",
-  "synced_at": "2026-02-27T02:31:54.322Z",
+  "synced_at": "2026-02-28T03:57:35.527Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a56f6b6fad01d9b350c66cc70c647e656a0577980545f97b85af3ea14ff64653",
   "install_command": "mkdir -p .claude/skills/parallel-task-format && curl -sL \"https://raw.githubusercontent.com/jpoutrin/product-forge/main/plugins/product-design/skills/parallel-task-format/SKILL.md\" > .claude/skills/parallel-task-format/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jpoutrin/product-forge/main/plugins/product-design/skills/parallel-task-format/SKILL.md"

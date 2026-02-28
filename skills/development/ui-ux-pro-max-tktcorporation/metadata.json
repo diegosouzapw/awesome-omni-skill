@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4b099555a8b1b3c2c584084e9694b4a8cf628a81573672c60ec457a86f0360fb",
   "indexed_at": "2026-02-26T12:23:57.990Z",
-  "synced_at": "2026-02-27T02:33:05.120Z",
+  "synced_at": "2026-02-28T03:58:40.247Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9b7547f69ab5b44fa2b3e6d7f2f3dedc8213f1e644a6a42fbe58078b43d79c0d",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/tktcorporation/food-shop-search/main/.claude/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tktcorporation/food-shop-search/main/.claude/skills/ui-ux-pro-max/SKILL.md"

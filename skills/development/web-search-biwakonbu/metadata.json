@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "35eac906827d87275ade879fb81b191367813d0a6785407092e13437739956b1",
   "indexed_at": "2026-02-26T12:21:37.716Z",
-  "synced_at": "2026-02-27T02:32:52.843Z",
+  "synced_at": "2026-02-28T03:58:29.892Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0f653207ce39aa19b5a431e804d33db5b47e05c74aae720cedf3b283eaa1167f",
   "install_command": "mkdir -p .claude/skills/web-search && curl -sL \"https://raw.githubusercontent.com/biwakonbu/cc-plugins/main/plugins/web-search-gemini/skills/web-search/SKILL.md\" > .claude/skills/web-search/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/biwakonbu/cc-plugins/main/plugins/web-search-gemini/skills/web-search/SKILL.md"

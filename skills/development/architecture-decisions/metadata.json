@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "86eccef404d1ca41c526a33ef858fae3b296016b57ed5d76f7fff9f92dae96db",
   "indexed_at": "2026-02-26T10:54:28.543Z",
-  "synced_at": "2026-02-27T02:32:01.065Z",
+  "synced_at": "2026-02-28T03:57:42.278Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d407ab31b4e7499a2e20ef2d1c9ca25a84c6f786fa90e06cbe3f1e8729bb888a",
   "install_command": "mkdir -p .claude/skills/architecture-decisions && curl -sL \"https://raw.githubusercontent.com/esperie/new-project/main/.claude/skills/13-architecture-decisions/SKILL.md\" > .claude/skills/architecture-decisions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/esperie/new-project/main/.claude/skills/13-architecture-decisions/SKILL.md"

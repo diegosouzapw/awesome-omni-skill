@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "95fe3eed59debe9d927923ae4f6113209610065f06914a9fd55be84028113a23",
   "indexed_at": "2026-02-26T09:52:52.391Z",
-  "synced_at": "2026-02-27T02:31:31.774Z",
+  "synced_at": "2026-02-28T03:57:13.939Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/765bd10120054baacafe74bf96f4beaee83968b3a050bbf1dc797d8ddb94b56b",
   "install_command": "mkdir -p .claude/skills/pulumi-typescript && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/pulumi-typescript/SKILL.md\" > .claude/skills/pulumi-typescript/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/pulumi-typescript/SKILL.md"

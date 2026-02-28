@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f6177075b9a30fba73ec8ca28505737eb6cf5c84b24ea956c607609a93db803f",
   "indexed_at": "2026-02-26T11:31:15.602Z",
-  "synced_at": "2026-02-27T02:32:07.248Z",
+  "synced_at": "2026-02-28T03:57:47.624Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6059a030906075bf07a6213f33b2fbb3d55d244e58f0d698691c7950a5fe8748",
   "install_command": "mkdir -p .claude/skills/vibe-coding && curl -sL \"https://raw.githubusercontent.com/NicktheQuickFTW/FlexTime/main/.factory/skills/vibe-coding/SKILL.md\" > .claude/skills/vibe-coding/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NicktheQuickFTW/FlexTime/main/.factory/skills/vibe-coding/SKILL.md"

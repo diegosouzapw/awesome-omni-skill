@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "129f54e1b0e475ef43243012ef5626cae4a15f61cd640e30d98201732a320c78",
   "indexed_at": "2026-02-26T10:46:24.335Z",
-  "synced_at": "2026-02-27T02:31:41.359Z",
+  "synced_at": "2026-02-28T03:57:23.311Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6397d8849bd24b9c40779b3c0803b10ba5e092488ee9e8b63063e842eeedb309",
   "install_command": "mkdir -p .claude/skills/python-development-python-scaffold && curl -sL \"https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/sickn33/python-development-python-scaffold/SKILL.md\" > .claude/skills/python-development-python-scaffold/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/sickn33/python-development-python-scaffold/SKILL.md"

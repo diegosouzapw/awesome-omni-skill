@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "11fe4ce37440e8417c605d3a3e781fe68e9907543d3d3f1d26fbcf2b99401f7d",
   "indexed_at": "2026-02-26T12:22:18.983Z",
-  "synced_at": "2026-02-27T02:32:56.440Z",
+  "synced_at": "2026-02-28T03:58:33.221Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cf525004f06be208dcca6aa62d49e201341926dfd453c8a622504fbfeac66f4a",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/lancenunes/codex-skills/main/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lancenunes/codex-skills/main/ui-ux-pro-max/SKILL.md"

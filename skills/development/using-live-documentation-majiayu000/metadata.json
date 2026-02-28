@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "118d4dadcc8d64c31bc0247ec1c008e49263834107173e508f99000c63ae55ea",
   "indexed_at": "2026-02-26T10:53:00.109Z",
-  "synced_at": "2026-02-27T02:31:57.552Z",
+  "synced_at": "2026-02-28T03:57:38.682Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c385eec976ae697abde7ec54c452746bc851e8476afef632c3b235f99adb1df6",
   "install_command": "mkdir -p .claude/skills/using-live-documentation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/testing/using-live-documentation/SKILL.md\" > .claude/skills/using-live-documentation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/testing/using-live-documentation/SKILL.md"

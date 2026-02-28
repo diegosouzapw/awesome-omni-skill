@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c396e38f56f74b2298c882b3230511a7964cfa725fd011ae0ce5852914ea63ec",
   "indexed_at": "2026-02-26T11:32:22.025Z",
-  "synced_at": "2026-02-27T02:32:13.606Z",
+  "synced_at": "2026-02-28T03:57:53.530Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1f3204618466dc6678237a0bb14e4701f744293e6f7a612505c3027844dcea47",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/matthudsoncode/boblandingpage/main/.trae/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/matthudsoncode/boblandingpage/main/.trae/skills/ui-ux-pro-max/SKILL.md"

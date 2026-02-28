@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fb3c4f9714160a50ed43596e0ea8fd1b1606e61dc3510e78160a8d8cd23175e3",
   "indexed_at": "2026-02-26T11:31:13.386Z",
-  "synced_at": "2026-02-27T02:32:07.094Z",
+  "synced_at": "2026-02-28T03:57:47.474Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/095d82c96720e8453335804e24b10f8c4205df09c0a309759c2e82fa3290f22e",
   "install_command": "mkdir -p .claude/skills/tech-fingerprint && curl -sL \"https://raw.githubusercontent.com/overtimepog/greyhatcc/main/skills/tech-fingerprint/SKILL.md\" > .claude/skills/tech-fingerprint/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/overtimepog/greyhatcc/main/skills/tech-fingerprint/SKILL.md"

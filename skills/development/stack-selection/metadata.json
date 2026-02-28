@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f4f2af9548f834811e7dc08bb19208643343831659beb31e9f9dfac7b1953ee7",
   "indexed_at": "2026-02-26T12:21:25.935Z",
-  "synced_at": "2026-02-27T02:32:51.949Z",
+  "synced_at": "2026-02-28T03:58:29.043Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/004f14367cbde2809050f2330ca60144eafc9a1af5bcae11d339516b057454e9",
   "install_command": "mkdir -p .claude/skills/stack-selection && curl -sL \"https://raw.githubusercontent.com/paulojalowyj/openkit/main/.opencode/skills/stack-selection/SKILL.md\" > .claude/skills/stack-selection/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/paulojalowyj/openkit/main/.opencode/skills/stack-selection/SKILL.md"

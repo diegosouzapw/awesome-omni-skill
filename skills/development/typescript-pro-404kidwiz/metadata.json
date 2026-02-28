@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ccc298e3183e80ab5a179640e723ad29b22ce99172bd80402988cee2287ac088",
   "indexed_at": "2026-02-26T12:23:06.264Z",
-  "synced_at": "2026-02-27T02:32:59.853Z",
+  "synced_at": "2026-02-28T03:58:36.568Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/be249249f8a9c0941a3c1387cf4c03d3d124a7d35c1515fa440f6db9bebe43f4",
   "install_command": "mkdir -p .claude/skills/typescript-pro && curl -sL \"https://raw.githubusercontent.com/404kidwiz/claude-supercode-skills/main/typescript-pro-skill/SKILL.md\" > .claude/skills/typescript-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/404kidwiz/claude-supercode-skills/main/typescript-pro-skill/SKILL.md"

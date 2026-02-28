@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "835fdc5188e1b07e584b42902114831c655b646ec7eedb56ab1bcf8378d7bc3c",
   "indexed_at": "2026-02-26T11:31:46.531Z",
-  "synced_at": "2026-02-27T02:32:10.473Z",
+  "synced_at": "2026-02-28T03:57:50.674Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e0af7e62ac961ffb1a86e1107d66b6d6ec01dac19bc15bd91714cf338cb0a0bf",
   "install_command": "mkdir -p .claude/skills/framework-expert && curl -sL \"https://raw.githubusercontent.com/nguyenthienthanh/aura-frog/main/aura-frog/skills/framework-expert/SKILL.md\" > .claude/skills/framework-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nguyenthienthanh/aura-frog/main/aura-frog/skills/framework-expert/SKILL.md"

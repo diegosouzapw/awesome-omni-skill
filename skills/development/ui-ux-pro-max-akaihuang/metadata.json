@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "15f14ab5ef34f36996d3555e59ec4f0d0726ed3254cde84098ec4ecef9a4fccb",
   "indexed_at": "2026-02-26T12:22:04.371Z",
-  "synced_at": "2026-02-27T02:32:55.312Z",
+  "synced_at": "2026-02-28T03:58:32.194Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b11129bae9c92515909254587489404632072a709d01867f13061405f4913ef2",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/akaiHuang/faw-creative-studio/main/_ui_refs/ui-ux-pro-max-skill/.codex/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/akaiHuang/faw-creative-studio/main/_ui_refs/ui-ux-pro-max-skill/.codex/skills/ui-ux-pro-max/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6a94407fc5a2ab2c6bd8c63298e6574360ea636feee87290f289930d797d78f4",
   "indexed_at": "2026-02-26T11:39:11.358Z",
-  "synced_at": "2026-02-27T02:32:28.800Z",
+  "synced_at": "2026-02-28T03:58:07.817Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d53106b9d849214da75e97a64a2ee3f358a7d5f8dd7fad14eb890e12482ffd80",
   "install_command": "mkdir -p .claude/skills/extract-constraints && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/extract-constraints/SKILL.md\" > .claude/skills/extract-constraints/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/extract-constraints/SKILL.md"

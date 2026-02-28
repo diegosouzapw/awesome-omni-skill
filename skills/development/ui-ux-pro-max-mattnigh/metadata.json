@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e5dc3e31a001ec77e973cf357faedbb25ed97b2603ceb64333613defd49e0d5c",
   "indexed_at": "2026-02-26T11:31:09.670Z",
-  "synced_at": "2026-02-27T02:32:06.777Z",
+  "synced_at": "2026-02-28T03:57:47.166Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/30c84a2cfd13843d75250b46fba963394a598736164a9de151e9109e86a1c976",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/hiehoo__GoldScalpingBot__claude__skills__ui-ux-pro-max__SKILL.md/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/hiehoo__GoldScalpingBot__claude__skills__ui-ux-pro-max__SKILL.md/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6d383ecb2b95ab727646e74e4a722f227db320d67d6493e5fa1c3a8633020078",
   "indexed_at": "2026-02-26T11:38:24.401Z",
-  "synced_at": "2026-02-27T02:32:27.864Z",
+  "synced_at": "2026-02-28T03:58:06.873Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/669c4069396da4bd0cbebca125b7296674cfe1d550f415f9c78d53bd8bad7c58",
   "install_command": "mkdir -p .claude/skills/brainstorming && curl -sL \"https://raw.githubusercontent.com/trancong12102/ccc/main/core/skills/brainstorming/SKILL.md\" > .claude/skills/brainstorming/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/trancong12102/ccc/main/core/skills/brainstorming/SKILL.md"

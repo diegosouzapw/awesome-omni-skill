@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "48655ab55fbbb44746a7a7be831f7dadd384379ac948713263b3744a844335d3",
   "indexed_at": "2026-02-26T10:46:19.624Z",
-  "synced_at": "2026-02-27T02:31:41.029Z",
+  "synced_at": "2026-02-28T03:57:22.962Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f8dc3b4b1e3bdefe3eb9ff9baa169c1954eb2ecef59d715d3ba6b7f60084ad9b",
   "install_command": "mkdir -p .claude/skills/enterprise-python && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/enterprise-python/SKILL.md\" > .claude/skills/enterprise-python/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/enterprise-python/SKILL.md"

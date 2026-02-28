@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33cd92cd837f821409c767ddd0627469b99bb7d44e0fa188a0a6bce196226bdb",
   "indexed_at": "2026-02-26T12:22:33.579Z",
-  "synced_at": "2026-02-27T02:32:58.297Z",
+  "synced_at": "2026-02-28T03:58:35.029Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8551570031c6e1cbdd3131562881b9f8dfe14c84b7f23b429996b2e7e7ef5870",
   "install_command": "mkdir -p .claude/skills/tech-article-extractor && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ntaksh42/agents/tech-article-extractor/SKILL.md\" > .claude/skills/tech-article-extractor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ntaksh42/agents/tech-article-extractor/SKILL.md"

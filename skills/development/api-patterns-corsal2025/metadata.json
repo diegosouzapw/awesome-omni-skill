@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fd6ca20bb42ae9ae1b71f61e6dae9b05381ee14d93e1fbe08086d8025efe0f64",
   "indexed_at": "2026-02-26T11:42:06.400Z",
-  "synced_at": "2026-02-27T02:32:35.770Z",
+  "synced_at": "2026-02-28T03:58:14.585Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f8863d66169b080b5f67bd52346b6a5d61dbaed9171ded149672239f507d1cdb",
   "install_command": "mkdir -p .claude/skills/api-patterns && curl -sL \"https://raw.githubusercontent.com/corsal2025/NUTRI-AGENDA2026/main/.agent/skills/api-patterns/SKILL.md\" > .claude/skills/api-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/corsal2025/NUTRI-AGENDA2026/main/.agent/skills/api-patterns/SKILL.md"

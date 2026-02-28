@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f47365c77290f7638e8d6de41c474dd563c71f07564f8a922efbe9aa29718080",
   "indexed_at": "2026-02-26T12:23:56.899Z",
-  "synced_at": "2026-02-27T02:33:04.952Z",
+  "synced_at": "2026-02-28T03:58:40.090Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f47b13a4f575f05eb872d7d46ddfbadd0e5e35ce6901367f2c91cb211314cbe7",
   "install_command": "mkdir -p .claude/skills/feature-sliced-design && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/aiko-atami/fsd/feature-sliced-design/SKILL.md\" > .claude/skills/feature-sliced-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/aiko-atami/fsd/feature-sliced-design/SKILL.md"

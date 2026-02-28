@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2681155682e172a9a3bbf4784a295bd984a8ff0e8fa8b467adf8be95e8dead08",
   "indexed_at": "2026-02-26T11:34:40.868Z",
-  "synced_at": "2026-02-27T02:32:24.554Z",
+  "synced_at": "2026-02-28T03:58:03.684Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5f89c722f9ff1783fc23c5672996646abdd695c7d342d80fd001aa60a296c115",
   "install_command": "mkdir -p .claude/skills/lazy-agent-loader && curl -sL \"https://raw.githubusercontent.com/nguyenthienthanh/aura-frog/main/aura-frog/skills/lazy-agent-loader/SKILL.md\" > .claude/skills/lazy-agent-loader/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nguyenthienthanh/aura-frog/main/aura-frog/skills/lazy-agent-loader/SKILL.md"

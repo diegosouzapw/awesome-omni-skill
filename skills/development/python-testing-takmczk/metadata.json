@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a51f5f813ac493aa5cccb696d263c13586be0ec1054b1c3ddc65e1c7cc696deb",
   "indexed_at": "2026-02-26T10:49:45.869Z",
-  "synced_at": "2026-02-27T02:31:50.837Z",
+  "synced_at": "2026-02-28T03:57:32.402Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0b69218fb15c937ad21e36ed6a8290634d08107ed95b7afa595421394a7124cb",
   "install_command": "mkdir -p .claude/skills/python-testing && curl -sL \"https://raw.githubusercontent.com/TakMczk/copilot-cli-ecc/main/.github/skills/python-testing/SKILL.md\" > .claude/skills/python-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TakMczk/copilot-cli-ecc/main/.github/skills/python-testing/SKILL.md"

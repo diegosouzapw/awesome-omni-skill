@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c2d8c4c93abfe3c55af6e4618acd5f3659a4f2ebd272c3b3ea5467d9ee8eb7ad",
   "indexed_at": "2026-02-26T11:31:18.300Z",
-  "synced_at": "2026-02-27T02:32:07.407Z",
+  "synced_at": "2026-02-28T03:57:47.768Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8c8abcc4ee10c6e9c20f55a36a1a7e4d10d6f2af2e7d1e9f068160439cf01868",
   "install_command": "mkdir -p .claude/skills/supabase-expert && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/gounthar__bazel-riscv__claude__skills__supabase__skill.md/SKILL.md\" > .claude/skills/supabase-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/gounthar__bazel-riscv__claude__skills__supabase__skill.md/SKILL.md"

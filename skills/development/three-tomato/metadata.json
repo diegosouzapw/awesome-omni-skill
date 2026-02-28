@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a10261d91edec93b86e0419b9455631eb10ea8c73ab00f75fe1bbbdbb20e2b7e",
   "indexed_at": "2026-02-26T12:20:11.631Z",
-  "synced_at": "2026-02-27T02:32:44.897Z",
+  "synced_at": "2026-02-28T03:58:22.368Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cb8bca62a3309612c89a326a5bb2ca8ca93535e40553598a657aeebeb17c55a6",
   "install_command": "mkdir -p .claude/skills/three-tomato && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/trsoliu/three-tomato/three-tomato/SKILL.md\" > .claude/skills/three-tomato/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/trsoliu/three-tomato/three-tomato/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d63599c2d8b1a737fa762c6489b4af27554323751fce0259e88b24078c2a1738",
   "indexed_at": "2026-02-26T09:53:50.052Z",
-  "synced_at": "2026-02-27T02:31:33.494Z",
+  "synced_at": "2026-02-28T03:57:15.623Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7b4373940221fee6fd740e2e154c3adce76c62e36424906198df06d13d847bb1",
   "install_command": "mkdir -p .claude/skills/library-writer && curl -sL \"https://raw.githubusercontent.com/jayteealao/blank-template/main/.claude/skills/library-writer/SKILL.md\" > .claude/skills/library-writer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jayteealao/blank-template/main/.claude/skills/library-writer/SKILL.md"

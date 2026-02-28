@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c5e720317a92f48d203f4fe7e383300f9643a7c74644ed3363e921c3cab6e58",
   "indexed_at": "2026-02-26T10:52:18.470Z",
-  "synced_at": "2026-02-27T02:31:56.998Z",
+  "synced_at": "2026-02-28T03:57:38.151Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bfe8c85a17f0b74614b8e1f84e7ce83cd7180ac66d793be47bd81f8836f3e67b",
   "install_command": "mkdir -p .claude/skills/extract-openapi-from-code && curl -sL \"https://raw.githubusercontent.com/berea-ch/bereach-mcp/main/.agents/skills/extract-openapi-from-code/SKILL.md\" > .claude/skills/extract-openapi-from-code/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/berea-ch/bereach-mcp/main/.agents/skills/extract-openapi-from-code/SKILL.md"

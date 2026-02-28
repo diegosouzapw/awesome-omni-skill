@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6a3c9df355e5bfa7d9f6413d33e8f0f74e35b9c7b1b84abaf4720d2fff054705",
   "indexed_at": "2026-02-26T12:21:32.057Z",
-  "synced_at": "2026-02-27T02:32:52.296Z",
+  "synced_at": "2026-02-28T03:58:29.372Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8410777949bb2518ca884a73dde548ad8ca7b8bbbcb8f859db4dface7084c2bf",
   "install_command": "mkdir -p .claude/skills/video-sdk-web && curl -sL \"https://raw.githubusercontent.com/zoom/skills/main/video-sdk/web/SKILL.md\" > .claude/skills/video-sdk-web/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zoom/skills/main/video-sdk/web/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c6ddc1983929478b31a8d052bedfae735276f15683d68eab12509e113ef88b4c",
   "indexed_at": "2026-02-26T11:32:59.824Z",
-  "synced_at": "2026-02-27T02:32:17.035Z",
+  "synced_at": "2026-02-28T03:57:56.832Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/84ed7b7687f26fd747d54179a79d14600ac3cd2f0d7361d10b6329f86c9a2e67",
   "install_command": "mkdir -p .claude/skills/ui-ux && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/kieutrongthien/skills-fullstack/ui-ux/SKILL.md\" > .claude/skills/ui-ux/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/kieutrongthien/skills-fullstack/ui-ux/SKILL.md"

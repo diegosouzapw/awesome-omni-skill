@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2da789d11bffa27867a021e233a4a7f6f81cf2ecbd4fbc69f44d68f52f17a196",
   "indexed_at": "2026-02-26T11:38:17.676Z",
-  "synced_at": "2026-02-27T02:32:27.566Z",
+  "synced_at": "2026-02-28T03:58:06.684Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2c82f27a6ba84ecccea51e00c01fd833c7a45a812c7cb89bc277958ee749827b",
   "install_command": "mkdir -p .claude/skills/secure-storage-patterns && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/secure-storage-patterns/SKILL.md\" > .claude/skills/secure-storage-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/secure-storage-patterns/SKILL.md"

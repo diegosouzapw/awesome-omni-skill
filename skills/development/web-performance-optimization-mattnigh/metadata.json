@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fe0094e30e8b71b93030298e0e513d16b7f1a7c12c37e87d28ef53add02a8514",
   "indexed_at": "2026-02-26T12:24:08.671Z",
-  "synced_at": "2026-02-27T02:33:06.756Z",
+  "synced_at": "2026-02-28T03:58:41.812Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e339f78034ed205f665a1864f7af0414c9b58a8f693eb595c214bb9f4d4b460b",
   "install_command": "mkdir -p .claude/skills/web-performance-optimization && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/danielseltzer__code-analysis-tools__claude__skills__universal-web-web-performance-optimization__SKILL.md/SKILL.md\" > .claude/skills/web-performance-optimization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/danielseltzer__code-analysis-tools__claude__skills__universal-web-web-performance-optimization__SKILL.md/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5435e2f183b54978189436db2e38491437bf42193a0bc08f07effdf2476d36a2",
   "indexed_at": "2026-02-26T12:18:33.344Z",
-  "synced_at": "2026-02-27T02:32:41.969Z",
+  "synced_at": "2026-02-28T03:58:19.440Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/26baf5609131384f775712603b967208e24081d5d41aadb1bdbb38b0c3d7594d",
   "install_command": "mkdir -p .claude/skills/spring-boot-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/spring-boot-engineer-jeffallan-claude-skills/SKILL.md\" > .claude/skills/spring-boot-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/spring-boot-engineer-jeffallan-claude-skills/SKILL.md"

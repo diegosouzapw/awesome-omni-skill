@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "89ced2831d54b1248f1e7c11b506cf50c9b0bea53210dbf2dd37f402f58394bf",
   "indexed_at": "2026-02-26T10:47:20.927Z",
-  "synced_at": "2026-02-27T02:31:44.212Z",
+  "synced_at": "2026-02-28T03:57:25.973Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b226ffbfb97d6fe3f5ae96292ce24dc565af46376b3f2653e0efdbd1099648a7",
   "install_command": "mkdir -p .claude/skills/resume-optimizer && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/huifer/claude-code-interview/resume-optimizer/SKILL.md\" > .claude/skills/resume-optimizer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/huifer/claude-code-interview/resume-optimizer/SKILL.md"

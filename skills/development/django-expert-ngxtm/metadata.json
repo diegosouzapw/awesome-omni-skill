@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7497232f31e3ddf33ef1b09c3cfe0dfa9e0bba747762dd45a177e60fbb3711f9",
   "indexed_at": "2026-02-26T10:49:48.978Z",
-  "synced_at": "2026-02-27T02:31:51.211Z",
+  "synced_at": "2026-02-28T03:57:32.732Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a0e94499b5c9f73d4f82320fd205d62a1676aaeb083abca2165710e72c9ce598",
   "install_command": "mkdir -p .claude/skills/django-expert && curl -sL \"https://raw.githubusercontent.com/ngxtm/devkit/main/skills/django-expert/SKILL.md\" > .claude/skills/django-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ngxtm/devkit/main/skills/django-expert/SKILL.md"

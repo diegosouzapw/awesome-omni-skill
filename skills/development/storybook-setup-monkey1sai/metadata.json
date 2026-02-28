@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0913ec06efb44332be810f7f5947fa6b8afeb5abdbb006a4d496fe6470e03d6d",
   "indexed_at": "2026-02-26T11:33:17.148Z",
-  "synced_at": "2026-02-27T02:32:18.961Z",
+  "synced_at": "2026-02-28T03:57:58.560Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3a6025ca399ec5a92d97994c287587b9376ee74e0d918603714b683d9d9a25e8",
   "install_command": "mkdir -p .claude/skills/storybook-setup && curl -sL \"https://raw.githubusercontent.com/monkey1sai/openai-cli/main/.claude/skills/storybook-setup/SKILL.md\" > .claude/skills/storybook-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/monkey1sai/openai-cli/main/.claude/skills/storybook-setup/SKILL.md"

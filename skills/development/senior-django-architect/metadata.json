@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "226bca4c175aee4453d6efaa13e85cd31659157720cc570cd2f625fb226664e2",
   "indexed_at": "2026-02-26T12:16:48.769Z",
-  "synced_at": "2026-02-27T02:32:39.982Z",
+  "synced_at": "2026-02-28T03:58:17.824Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9cfc9b6dd6eee6c6081ebee8662cc1a06f423e8f959fc86b9f4ef11b0089dccd",
   "install_command": "mkdir -p .claude/skills/senior-django-architect && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/an0nx/senior-django-developer/SKILL.md\" > .claude/skills/senior-django-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/an0nx/senior-django-developer/SKILL.md"

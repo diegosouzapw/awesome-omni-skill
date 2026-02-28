@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dae5b9056b5f091b053b3f2166895abbe8a4dc44a1ba3cec303c197977854153",
   "indexed_at": "2026-02-26T12:19:58.653Z",
-  "synced_at": "2026-02-27T02:32:43.638Z",
+  "synced_at": "2026-02-28T03:58:21.161Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/94398313e4d67a00b87a8a26b2942c96782d810e9db6a2ea94b3eff0943c955b",
   "install_command": "mkdir -p .claude/skills/app-builder && curl -sL \"https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/knowledge/workflow/app-builder/SKILL.md\" > .claude/skills/app-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/knowledge/workflow/app-builder/SKILL.md"

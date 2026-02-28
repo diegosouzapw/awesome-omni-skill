@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "06a0bb802c1ea5e97f1988a6dcb0e4f610d337fcdd9268ec2eb17fbee07ae714",
   "indexed_at": "2026-02-26T10:54:00.848Z",
-  "synced_at": "2026-02-27T02:31:59.639Z",
+  "synced_at": "2026-02-28T03:57:40.878Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/173e3388cdf117edb5622d8c11cd1ae5caeb43aea9982d3648157d90631e46f7",
   "install_command": "mkdir -p .claude/skills/context-detector && curl -sL \"https://raw.githubusercontent.com/mit17k/claude-code-workflow/main/plugin/claude-code-workflow/skills/context-detector/SKILL.md\" > .claude/skills/context-detector/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mit17k/claude-code-workflow/main/plugin/claude-code-workflow/skills/context-detector/SKILL.md"

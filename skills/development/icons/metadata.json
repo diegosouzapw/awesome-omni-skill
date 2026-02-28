@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "de0f279b0d41229d0a72c990dbdd2eb8448851a16de08b0565553a75331fc481",
   "indexed_at": "2026-02-26T11:34:34.519Z",
-  "synced_at": "2026-02-27T02:32:23.663Z",
+  "synced_at": "2026-02-28T03:58:03.007Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/af05abc90f34d66f6a0a64040d8ceaa018102c7e48ff6e57467a567c263a2835",
   "install_command": "mkdir -p .claude/skills/icons && curl -sL \"https://raw.githubusercontent.com/yyong008/seeksaas-template-react-router-v0.1/main/.claude/skills/icons/SKILL.md\" > .claude/skills/icons/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yyong008/seeksaas-template-react-router-v0.1/main/.claude/skills/icons/SKILL.md"

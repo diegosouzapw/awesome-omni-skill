@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0dcd6295ef7d4ded01baaeb0520da263905c86bb4296955937b35012af6a0b0d",
   "indexed_at": "2026-02-26T10:47:42.524Z",
-  "synced_at": "2026-02-27T02:31:44.943Z",
+  "synced_at": "2026-02-28T03:57:26.681Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2758d975aacc4638cf3c7fa44ac06fd4fa45559e1110cda55e56e3ebf19f4385",
   "install_command": "mkdir -p .claude/skills/python-pro && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/python-pro-skill-404kidwiz-claude-supercode-ski/SKILL.md\" > .claude/skills/python-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/python-pro-skill-404kidwiz-claude-supercode-ski/SKILL.md"

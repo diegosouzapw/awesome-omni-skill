@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "facb5ba16294a70b22a739f8d28355d5242d4f5a34d6b8267bc65ee9b1186cd7",
   "indexed_at": "2026-02-26T12:21:02.287Z",
-  "synced_at": "2026-02-27T02:32:49.774Z",
+  "synced_at": "2026-02-28T03:58:26.948Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5189b2a49cde9364efe94b4d029dec3a44685b6ea87264d9bf9ff98396fa830f",
   "install_command": "mkdir -p .claude/skills/better-auth-patterns && curl -sL \"https://raw.githubusercontent.com/qazuor/crm-clientes/main/.claude/skills/better-auth-patterns/SKILL.md\" > .claude/skills/better-auth-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/qazuor/crm-clientes/main/.claude/skills/better-auth-patterns/SKILL.md"

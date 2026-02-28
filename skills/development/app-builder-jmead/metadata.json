@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4d79dbb86211e9895e57674e83a2350ee24c8dc0fa437bdd1cf26b7778a7e00e",
   "indexed_at": "2026-02-26T12:20:09.993Z",
-  "synced_at": "2026-02-27T02:32:44.546Z",
+  "synced_at": "2026-02-28T03:58:22.023Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5375b8d544e13a49cf9ed22bfe8252fe4ea370a48801025c195882713376711d",
   "install_command": "mkdir -p .claude/skills/app-builder && curl -sL \"https://raw.githubusercontent.com/jmead/cursor-config/main/skills/app-builder/SKILL.md\" > .claude/skills/app-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jmead/cursor-config/main/skills/app-builder/SKILL.md"

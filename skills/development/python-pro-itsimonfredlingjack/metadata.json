@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5268fe0ecbd03f8fc1b80d69d996046ad888aec3796b914c8a8c8274c3ef9657",
   "indexed_at": "2026-02-26T10:53:46.954Z",
-  "synced_at": "2026-02-27T02:31:59.127Z",
+  "synced_at": "2026-02-28T03:57:40.395Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9d8be171b3c6b63302877ecb05983e38f0060208fa797fcff845156081646841",
   "install_command": "mkdir -p .claude/skills/python-pro && curl -sL \"https://raw.githubusercontent.com/itsimonfredlingjack/codex-dev-plugin/main/.codex/skills/python-pro/SKILL.md\" > .claude/skills/python-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/itsimonfredlingjack/codex-dev-plugin/main/.codex/skills/python-pro/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b6d6736cfc17156a536e2d1238261d952e8014bf763424c0e23c295bb8762519",
   "indexed_at": "2026-02-26T11:31:20.173Z",
-  "synced_at": "2026-02-27T02:32:07.741Z",
+  "synced_at": "2026-02-28T03:57:48.081Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6e54f91b85d821d6fb4853a7d6643f4e8e0aa557426b60587db13d03677d6942",
   "install_command": "mkdir -p .claude/skills/nextjs-tanstack-form && curl -sL \"https://raw.githubusercontent.com/fusengine/agents/main/plugins/nextjs-expert/skills/nextjs-tanstack-form/SKILL.md\" > .claude/skills/nextjs-tanstack-form/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fusengine/agents/main/plugins/nextjs-expert/skills/nextjs-tanstack-form/SKILL.md"

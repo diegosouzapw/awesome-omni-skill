@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "737e3b2ac3f8f5b54c716765919f4c04be792c70c1a490fcd0e77d86c3abf3e4",
   "indexed_at": "2026-02-26T11:32:34.320Z",
-  "synced_at": "2026-02-27T02:32:15.573Z",
+  "synced_at": "2026-02-28T03:57:55.439Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5a8646a93c09f636d3aa40e909b17b3c2d6fcc04292d94fff3685646b8f8a474",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/cooker/wx-mp-dog/main/.cursor/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cooker/wx-mp-dog/main/.cursor/skills/ui-ux-pro-max/SKILL.md"

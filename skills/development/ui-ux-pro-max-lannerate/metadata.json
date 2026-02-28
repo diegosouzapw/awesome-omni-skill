@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a1dca6ad63c10928a5052de93c4d3d573763530f0990a2eb89982a45c9544078",
   "indexed_at": "2026-02-26T11:34:15.914Z",
-  "synced_at": "2026-02-27T02:32:22.542Z",
+  "synced_at": "2026-02-28T03:58:01.961Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1ea4451d2656f01366dbc3266a747a826d5ba20697a945b170d53e2d9179959b",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/lannerate/ClockOn/main/repos/aigen/ClockOn/.claude/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lannerate/ClockOn/main/repos/aigen/ClockOn/.claude/skills/ui-ux-pro-max/SKILL.md"

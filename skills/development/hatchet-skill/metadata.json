@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fa132bd2c7e84ad8b4bcf044011aa008c59c8325a67cd52ad6e4a5fdcd5f3106",
   "indexed_at": "2026-02-26T12:16:13.097Z",
-  "synced_at": "2026-02-27T02:32:39.356Z",
+  "synced_at": "2026-02-28T03:58:17.206Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1ce5b909ec40bc1d6e35660530718dd7bea89544fe250c2671a9a80e56b3fdc0",
   "install_command": "mkdir -p .claude/skills/hatchet-skill && curl -sL \"https://raw.githubusercontent.com/KyleKing/dotfiles/main/Developer/coverbasedev/irm-review/dot_claude/skills/hatchet-skill/private_SKILL.md/SKILL.md\" > .claude/skills/hatchet-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/KyleKing/dotfiles/main/Developer/coverbasedev/irm-review/dot_claude/skills/hatchet-skill/private_SKILL.md/SKILL.md"

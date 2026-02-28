@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "38c602dbe9009792c6964039f10f7f98e8785cfd9bf5ae7b991a12191bfaf410",
   "indexed_at": "2026-02-26T10:47:41.184Z",
-  "synced_at": "2026-02-27T02:31:44.765Z",
+  "synced_at": "2026-02-28T03:57:26.527Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bfd42dfeeca1871f76814e4562c56dc646aad6441ed80046cf091cb105984f52",
   "install_command": "mkdir -p .claude/skills/python-pro && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/404kidwiz/claude-supercode-skills/python-pro/SKILL.md\" > .claude/skills/python-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/404kidwiz/claude-supercode-skills/python-pro/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f8da57bb075ad37188f4ea1ec312b78341020ce3ba3bac1e0ecfb8b58c0a8d68",
   "indexed_at": "2026-02-26T12:24:06.659Z",
-  "synced_at": "2026-02-27T02:33:06.413Z",
+  "synced_at": "2026-02-28T03:58:41.477Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4fcf1e3e82ea0bea490541adeee4b7c52f16080c66c920bd847b37b1a3cf074f",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/phuccodenub/Kit_Analyze/main/Skill/antigravity-awesome-skills/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/phuccodenub/Kit_Analyze/main/Skill/antigravity-awesome-skills/skills/ui-ux-pro-max/SKILL.md"

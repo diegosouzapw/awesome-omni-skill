@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8e1ddb1a6ee0f7ace9be5e8ac370aa54b2a6197c7d79c5fae5ac31ac975575e3",
   "indexed_at": "2026-02-26T11:39:17.516Z",
-  "synced_at": "2026-02-27T02:32:28.999Z",
+  "synced_at": "2026-02-28T03:58:08.038Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/870b75543beef76b422f32baca421dcb3776209b91753244d6ecf94fae836a21",
   "install_command": "mkdir -p .claude/skills/hubble-cloud-api && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/hubble-cloud-api/SKILL.md\" > .claude/skills/hubble-cloud-api/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/hubble-cloud-api/SKILL.md"

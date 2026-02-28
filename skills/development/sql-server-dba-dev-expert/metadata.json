@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9807570da8f996d6e07de6de3a4ff8bb439389b726be3b66f02807348f357a9d",
   "indexed_at": "2026-02-26T11:39:21.882Z",
-  "synced_at": "2026-02-27T02:32:29.209Z",
+  "synced_at": "2026-02-28T03:58:08.237Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2238e1388ad6cd3742e353e690791adb341f1d4ed8e5eec49a1ee7375864ba82",
   "install_command": "mkdir -p .claude/skills/sql-server-dba-dev-expert && curl -sL \"https://raw.githubusercontent.com/donellmccoy/ECTSystem/main/.github/skills/sql-server-dba-dev-expert/SKILL.md\" > .claude/skills/sql-server-dba-dev-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/donellmccoy/ECTSystem/main/.github/skills/sql-server-dba-dev-expert/SKILL.md"

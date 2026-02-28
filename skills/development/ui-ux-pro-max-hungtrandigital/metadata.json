@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2d07a47b5095c419edcb5469fd0f892ea5442d91fa6ffdce630403290c086f30",
   "indexed_at": "2026-02-26T12:21:24.223Z",
-  "synced_at": "2026-02-27T02:32:51.601Z",
+  "synced_at": "2026-02-28T03:58:28.703Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/78c00a8a76703a0dc6a058acb25ad9904321e34d0a70371c3bd460369c9c3047",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/hungtrandigital/ResidentOne/main/0-agents/agents/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hungtrandigital/ResidentOne/main/0-agents/agents/skills/ui-ux-pro-max/SKILL.md"
