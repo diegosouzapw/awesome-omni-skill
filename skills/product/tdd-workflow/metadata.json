@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "28c0a6e3aa7f43e29900408eab56bba236fed2059bc919d957b65b1844eaa243",
   "indexed_at": "2026-02-27T13:24:21.852Z",
-  "synced_at": "2026-02-27T18:17:13.841Z",
+  "synced_at": "2026-02-28T04:25:26.809Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8f2fab71f78e023e40c7aca067dfe966e56cac5214772f40ac48072994cf259d",
   "install_command": "mkdir -p .claude/skills/tdd-workflow && curl -sL \"https://raw.githubusercontent.com/ab604/claude-code-r-skills/main/.claude/skills/tdd-workflow/SKILL.md\" > .claude/skills/tdd-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ab604/claude-code-r-skills/main/.claude/skills/tdd-workflow/SKILL.md"

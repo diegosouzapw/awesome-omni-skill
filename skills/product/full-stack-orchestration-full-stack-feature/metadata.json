@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "77bf810933133efc5f842054c847edb52164dbb0bea3252f13edc74f7a3a18be",
   "indexed_at": "2026-02-25T16:26:31.821Z",
-  "synced_at": "2026-02-27T02:52:30.133Z",
+  "synced_at": "2026-02-28T04:24:58.015Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fec62c640a698a41839f8c6ed3903fba2d783062007ca0dc7e2fcecec04b5461",
   "install_command": "mkdir -p .claude/skills/full-stack-orchestration-full-stack-feature && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/full-stack-orchestration-full-stack-feature/SKILL.md\" > .claude/skills/full-stack-orchestration-full-stack-feature/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/full-stack-orchestration-full-stack-feature/SKILL.md"

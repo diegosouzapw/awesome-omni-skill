@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2017a313c78cdd5e602bec9ceb1b22235224a642b4d9d71c94e9a0c5d907fb7d",
   "indexed_at": "2026-02-27T03:50:53.712Z",
-  "synced_at": "2026-02-27T13:14:56.574Z",
+  "synced_at": "2026-02-28T04:25:50.313Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/627bfa592b2c87661e80f9b70b927a8bf59259c11924d2ae2e60b5e5ddbc029f",
   "install_command": "mkdir -p .claude/skills/agent-documentation-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-documentation-engineer/SKILL.md\" > .claude/skills/agent-documentation-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-documentation-engineer/SKILL.md"

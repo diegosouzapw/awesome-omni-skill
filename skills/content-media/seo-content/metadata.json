@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4e6354a1c93d978891d32a150920331c65f3e025b31bfd22ca8489a5b385f721",
   "indexed_at": "2026-02-27T16:08:04.378Z",
-  "synced_at": "2026-02-27T18:17:13.459Z",
+  "synced_at": "2026-02-28T04:24:51.043Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/199aa6413108313e586f94d492cf6709045842939d228e4f6ab74588b4ab865b",
   "install_command": "mkdir -p .claude/skills/seo-content && curl -sL \"https://raw.githubusercontent.com/anorbert-cmyk/validatestrategylive/main/.agent/skills/seo-content/SKILL.md\" > .claude/skills/seo-content/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/anorbert-cmyk/validatestrategylive/main/.agent/skills/seo-content/SKILL.md"

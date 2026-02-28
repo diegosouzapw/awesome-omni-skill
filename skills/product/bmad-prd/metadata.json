@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d02e75fc0014958ee2f1f9dc2e907adc20467e903bf82ae21622d8b1c11159dd",
   "indexed_at": "2026-02-26T05:45:31.094Z",
-  "synced_at": "2026-02-27T02:52:41.223Z",
+  "synced_at": "2026-02-28T04:25:15.199Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/efe0c803e6de608b4a3370c083806aff842ab6916148bdeabbe7393c3d04381a",
   "install_command": "mkdir -p .claude/skills/bmad-prd && curl -sL \"https://raw.githubusercontent.com/webdevtodayjason/titanium-plugins/main/plugins/titanium-toolkit/skills/bmad-methodology/SKILL.md\" > .claude/skills/bmad-prd/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/webdevtodayjason/titanium-plugins/main/plugins/titanium-toolkit/skills/bmad-methodology/SKILL.md"

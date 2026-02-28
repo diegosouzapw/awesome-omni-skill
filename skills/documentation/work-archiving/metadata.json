@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "56de7b43aeaa9702f57e0fa25300105e0f2fdf6ccfb52e9102210b49de6da314",
   "indexed_at": "2026-02-25T20:42:26.895Z",
-  "synced_at": "2026-02-27T02:53:14.241Z",
+  "synced_at": "2026-02-28T04:26:00.830Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a22aad9f760405bb32409187ca0b20640ea5c48e4a5ae02cae4199b6bc4a73cd",
   "install_command": "mkdir -p .claude/skills/work-archiving && curl -sL \"https://raw.githubusercontent.com/forgivesam168/ai-dev-workflow/main/skills/work-archiving/SKILL.md\" > .claude/skills/work-archiving/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/forgivesam168/ai-dev-workflow/main/skills/work-archiving/SKILL.md"

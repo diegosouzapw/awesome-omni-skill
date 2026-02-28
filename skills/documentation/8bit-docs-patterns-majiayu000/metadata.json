@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "923d52cee3cba9335ae8014f4086fb75ecb80313e12eb6c2110ffe5f7f9c3b6f",
   "indexed_at": "2026-02-24T23:19:28.682Z",
-  "synced_at": "2026-02-27T02:53:05.867Z",
+  "synced_at": "2026-02-28T04:25:51.258Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/80060c92e235f30721c3b3f402fce8f0689b8813addba1c1563f8c2bc5989294",
   "install_command": "mkdir -p .claude/skills/8bit-docs-patterns && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/8bit-docs-patterns/SKILL.md\" > .claude/skills/8bit-docs-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/8bit-docs-patterns/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c4369bb5aea0f9f87c3a2a1b57b4a6a4a31f8f0e9473b528574a08319132ab1e",
   "indexed_at": "2026-02-24T23:20:04.823Z",
-  "synced_at": "2026-02-27T02:52:34.782Z",
+  "synced_at": "2026-02-28T04:25:08.557Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2443db192fc7a41c082b2dd0f34279cde46461b6a47baa8080bc0b15c5bc39ba",
   "install_command": "mkdir -p .claude/skills/a2a-protocol-impl && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/a2a-protocol-impl/SKILL.md\" > .claude/skills/a2a-protocol-impl/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/a2a-protocol-impl/SKILL.md"

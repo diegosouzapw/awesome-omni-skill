@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8cb72269053b517ad801369e40e0fb2cc9f1fee30146ec3fedd356f880a6ebb5",
   "indexed_at": "2026-02-25T19:26:34.243Z",
-  "synced_at": "2026-02-27T02:52:59.507Z",
+  "synced_at": "2026-02-28T04:25:39.890Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0703f38c145ffd4ba07de488aee416b807f6aa84445f7ac1711da39c54d13b9d",
   "install_command": "mkdir -p .claude/skills/wiki-qa && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/wiki-qa/SKILL.md\" > .claude/skills/wiki-qa/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/wiki-qa/SKILL.md"

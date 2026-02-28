@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "464560fb0bdbeec3c752e9bf5937c86efd3856110d93493b5603c0de89bf1c23",
   "indexed_at": "2026-02-26T05:50:52.836Z",
-  "synced_at": "2026-02-27T02:52:41.377Z",
+  "synced_at": "2026-02-28T04:25:15.365Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f9bffaad7f2b0cebd349d9bf346b51577964f5ad0bd7f83a9351bb8cbcebfa7c",
   "install_command": "mkdir -p .claude/skills/backlog.md && curl -sL \"https://raw.githubusercontent.com/oriolrius/nifi-cluster/main/.claude/skills/backlog-md/SKILL.md\" > .claude/skills/backlog.md/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oriolrius/nifi-cluster/main/.claude/skills/backlog-md/SKILL.md"

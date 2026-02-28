@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8f2cbf6cfc6a989232e916ee656f7146ff4d0cd7d51629dbafc94ce3c74fcc0d",
   "indexed_at": "2026-02-26T11:32:01.641Z",
-  "synced_at": "2026-02-27T02:53:17.411Z",
+  "synced_at": "2026-02-28T04:26:04.208Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e765b596ae1c9fde62a6fc041666622e85d75c6c0b8b586ca27a42fdfae7e97f",
   "install_command": "mkdir -p .claude/skills/skill-creator && curl -sL \"https://raw.githubusercontent.com/co-labs-co/context-harness/main/.opencode/skill/skill-creator/SKILL.md\" > .claude/skills/skill-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/co-labs-co/context-harness/main/.opencode/skill/skill-creator/SKILL.md"

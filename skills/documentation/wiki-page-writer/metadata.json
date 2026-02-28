@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2ff47f4c1f41a0b16bb32d66b3424e353c120cc3dc17ef90279e0dd461703fcb",
   "indexed_at": "2026-02-25T19:26:32.472Z",
-  "synced_at": "2026-02-27T02:52:58.865Z",
+  "synced_at": "2026-02-28T04:25:39.289Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3f17ee4cdfa05456b503b69f3302229a9f444b9c5f777be7207e3e00ce3f1830",
   "install_command": "mkdir -p .claude/skills/wiki-page-writer && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/wiki-page-writer/SKILL.md\" > .claude/skills/wiki-page-writer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/wiki-page-writer/SKILL.md"

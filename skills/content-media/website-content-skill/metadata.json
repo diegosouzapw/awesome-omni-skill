@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4b9185d37dddd821e75dc5a7f87b640c2b20a575279ead1be6679fc1d1151ba7",
   "indexed_at": "2026-02-26T15:19:49.266Z",
-  "synced_at": "2026-02-27T02:52:24.153Z",
+  "synced_at": "2026-02-28T04:24:49.751Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/63b03d22dd9dbd2cc085c733e9e86e4c8261ef5998437560285161a1871f0fc8",
   "install_command": "mkdir -p .claude/skills/website-content-skill && curl -sL \"https://raw.githubusercontent.com/wchen02/wchen-ai/main/content/projects/website-content-skill.mdx/SKILL.md\" > .claude/skills/website-content-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wchen02/wchen-ai/main/content/projects/website-content-skill.mdx/SKILL.md"

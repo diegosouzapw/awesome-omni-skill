@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ec520dbbd3053b3aa0956847e02434d8266a0ea2a53c49618df1bebf2b4bdbd8",
   "indexed_at": "2026-02-26T07:52:26.146Z",
-  "synced_at": "2026-02-27T02:52:42.671Z",
+  "synced_at": "2026-02-28T04:25:16.829Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3fcd8cd98938c77b31c6eac0cda3e274bdcbb3c942631af46cb48cb539f75553",
   "install_command": "mkdir -p .claude/skills/feature-design-assistant && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/vilin1927/autoflux-landing/feature-design-assistant/SKILL.md\" > .claude/skills/feature-design-assistant/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/vilin1927/autoflux-landing/feature-design-assistant/SKILL.md"

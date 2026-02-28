@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5ace2c367aa065178e00b6b41bfd114453a89e8518209759dfa9099fb39e97b6",
   "indexed_at": "2026-02-25T13:09:05.893Z",
-  "synced_at": "2026-02-27T02:52:37.565Z",
+  "synced_at": "2026-02-28T04:25:11.556Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/138a410ec7395900d211303014abc40efdfa6704648c14d537891570df0c749b",
   "install_command": "mkdir -p .claude/skills/webshop-query-parser && curl -sL \"https://raw.githubusercontent.com/zjunlp/SkillNet/main/skills/skill-collections/webshop/webshop-query-parser/SKILL.md\" > .claude/skills/webshop-query-parser/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zjunlp/SkillNet/main/skills/skill-collections/webshop/webshop-query-parser/SKILL.md"

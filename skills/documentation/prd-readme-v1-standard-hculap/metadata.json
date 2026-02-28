@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bc7f61fa4e6447dc016b9967e28356a950916a7478e0a7d4a7ddcdcb0c1aac2f",
   "indexed_at": "2026-02-26T15:25:33.168Z",
-  "synced_at": "2026-02-27T02:53:11.329Z",
+  "synced_at": "2026-02-28T04:25:56.405Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1f5e46c164c918b7be2d08944bb9b5962381f32aa6ae6127f078815876a1b06d",
   "install_command": "mkdir -p .claude/skills/prd-readme-v1-standard && curl -sL \"https://raw.githubusercontent.com/hculap/better-code/main/plugins/readme-writer/skills/prd-readme-standard/SKILL.md\" > .claude/skills/prd-readme-v1-standard/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hculap/better-code/main/plugins/readme-writer/skills/prd-readme-standard/SKILL.md"

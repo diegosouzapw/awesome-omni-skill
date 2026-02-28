@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d09637b8be8989106fa6ca8cbb99a5185e236df654fe0b224b5c14486e1e1429",
   "indexed_at": "2026-02-25T18:56:38.531Z",
-  "synced_at": "2026-02-27T02:52:50.936Z",
+  "synced_at": "2026-02-28T04:25:29.092Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6933d8a50e9cb25c8aeaf575631a6ce5a9563eb678b9406ca7794e75048cda39",
   "install_command": "mkdir -p .claude/skills/ask-questions-if-underspecified && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ask-question-if-underspecified/SKILL.md\" > .claude/skills/ask-questions-if-underspecified/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ask-question-if-underspecified/SKILL.md"

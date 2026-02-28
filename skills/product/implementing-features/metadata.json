@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ecf18a95e98d1627ae3e8cd07332248aa7b0fcbc330b9c1b94ab7c12e8edb4dd",
   "indexed_at": "2026-02-26T09:55:14.517Z",
-  "synced_at": "2026-02-27T02:52:45.149Z",
+  "synced_at": "2026-02-28T04:25:19.308Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f9c82a591921c70df96a5c5e2c0a634b0a2e62ff1e5935607f7bfc1ddd1ee3f9",
   "install_command": "mkdir -p .claude/skills/implementing-features && curl -sL \"https://raw.githubusercontent.com/jeanluciano/quaestor/main/src/quaestor/skills/implementing-features/SKILL.md\" > .claude/skills/implementing-features/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jeanluciano/quaestor/main/src/quaestor/skills/implementing-features/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dd474b8016bc9a0c076c8ce14bd1e3ae7991b2c649f730d616ab11289438312e",
   "indexed_at": "2026-02-26T09:35:58.823Z",
-  "synced_at": "2026-02-27T02:52:25.302Z",
+  "synced_at": "2026-02-28T04:24:53.805Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/96f6eb69dd562bee8a90964a7beb24890e4f147c7b3edadf2f5fbf9931ac965c",
   "install_command": "mkdir -p .claude/skills/vidu-video && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/hexiaochun/vidu-video/SKILL.md\" > .claude/skills/vidu-video/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/hexiaochun/vidu-video/SKILL.md"

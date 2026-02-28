@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b80753f0a3a112915c875cd23b4ea800dc0f624a83e1364c96aaa8757fcea03b",
   "indexed_at": "2026-02-24T23:21:44.420Z",
-  "synced_at": "2026-02-27T02:53:08.101Z",
+  "synced_at": "2026-02-28T04:25:53.328Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e0b6f2b63812217be26f3534e362df1cceeba676a5f3521a682b89d002822561",
   "install_command": "mkdir -p .claude/skills/absurdist-readme-writer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/absurdist-readme-writer/SKILL.md\" > .claude/skills/absurdist-readme-writer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/absurdist-readme-writer/SKILL.md"

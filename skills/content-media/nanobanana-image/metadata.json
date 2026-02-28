@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1b4e9a137211078807aa37236f6164bf3da3adacbe5fbde307b38758fdb233e6",
   "indexed_at": "2026-02-26T11:16:06.989Z",
-  "synced_at": "2026-02-27T02:52:23.027Z",
+  "synced_at": "2026-02-28T04:24:48.670Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/756db6e042b7147b6609c853989651d68072191d19c17f2efef60a32904cc872",
   "install_command": "mkdir -p .claude/skills/nanobanana-image && curl -sL \"https://raw.githubusercontent.com/inoue2002/nanobanana-image-skill/main/SKILL.md\" > .claude/skills/nanobanana-image/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/inoue2002/nanobanana-image-skill/main/SKILL.md"

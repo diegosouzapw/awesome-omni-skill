@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b5398742905645a13f99f8560a922867b8009c475b4c9806bb2a91195dfc0606",
   "indexed_at": "2026-02-26T14:24:32.147Z",
-  "synced_at": "2026-02-27T02:52:23.983Z",
+  "synced_at": "2026-02-28T04:24:49.587Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a475d3f803dfb38a79538ab5709981ef873d8bb0658ff31ff3adfe635a9612bc",
   "install_command": "mkdir -p .claude/skills/video-processing-editing && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/video-processing-editing/SKILL.md\" > .claude/skills/video-processing-editing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/video-processing-editing/SKILL.md"

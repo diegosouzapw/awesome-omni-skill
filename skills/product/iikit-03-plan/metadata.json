@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "106e031a0d37d5370bd323bf47f31a3b307c5b43822aa168542fed3676240a91",
   "indexed_at": "2026-02-26T07:56:35.068Z",
-  "synced_at": "2026-02-27T02:52:52.329Z",
+  "synced_at": "2026-02-28T04:25:30.717Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/78c39ccb0c2d1abe6159fe63b44572ddc6b7863674ed0b60832b8c7aeaad3e66",
   "install_command": "mkdir -p .claude/skills/iikit-03-plan && curl -sL \"https://raw.githubusercontent.com/asm0dey/relay/main/.tessl/tiles/tessl-labs/intent-integrity-kit/skills/iikit-03-plan/SKILL.md\" > .claude/skills/iikit-03-plan/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/asm0dey/relay/main/.tessl/tiles/tessl-labs/intent-integrity-kit/skills/iikit-03-plan/SKILL.md"

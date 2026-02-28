@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "459d690f419e47841ed86d1d62a63008e65ee94f04fd6a0636d4c376b96810b0",
   "indexed_at": "2026-02-25T18:23:52.437Z",
-  "synced_at": "2026-02-27T02:52:29.652Z",
+  "synced_at": "2026-02-28T04:24:57.398Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f6172cb57d8205bcb68e7a4261cb19c6808ce9fb549581bb0754aa92d43fd1bf",
   "install_command": "mkdir -p .claude/skills/product-manager-toolkit && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/product-manager-toolkit/SKILL.md\" > .claude/skills/product-manager-toolkit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/product-manager-toolkit/SKILL.md"

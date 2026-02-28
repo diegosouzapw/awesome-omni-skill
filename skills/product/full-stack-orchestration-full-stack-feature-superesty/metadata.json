@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6d4e84036008a549dd471576c817731ffb1bfca11adc12d9dbc372054c1676a8",
   "indexed_at": "2026-02-26T12:18:42.730Z",
-  "synced_at": "2026-02-27T02:52:55.143Z",
+  "synced_at": "2026-02-28T04:25:33.407Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/115a39ed3fa547bca47617ee649d244c45b8a32b09d796c0cc2ebf93ac6bb37b",
   "install_command": "mkdir -p .claude/skills/full-stack-orchestration-full-stack-feature && curl -sL \"https://raw.githubusercontent.com/Superesty/unified-ag-kit/main/library/skills/full-stack-orchestration-full-stack-feature/SKILL.md\" > .claude/skills/full-stack-orchestration-full-stack-feature/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Superesty/unified-ag-kit/main/library/skills/full-stack-orchestration-full-stack-feature/SKILL.md"

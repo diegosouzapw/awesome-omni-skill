@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a578dee5c17ff9e1811bf9593fe9eebd91b0e648b4525c8f6e17f197858bced6",
   "indexed_at": "2026-02-27T14:39:50.762Z",
-  "synced_at": "2026-02-27T18:17:13.367Z",
+  "synced_at": "2026-02-28T04:24:50.865Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/12f576a59eff4e18c5d565a80635e66284e04a9d1cbf7488026920e91136203f",
   "install_command": "mkdir -p .claude/skills/ffmpeg-usage && curl -sL \"https://raw.githubusercontent.com/ychoi-kr/claude-ffmpeg-skill/main/SKILL.md\" > .claude/skills/ffmpeg-usage/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ychoi-kr/claude-ffmpeg-skill/main/SKILL.md"

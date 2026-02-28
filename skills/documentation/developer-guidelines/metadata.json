@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e189167daf72399c5e2280c49442e1cf280181ad87f9e84531ce1dd42c8f22cf",
   "indexed_at": "2026-02-26T12:21:27.041Z",
-  "synced_at": "2026-02-27T02:53:10.565Z",
+  "synced_at": "2026-02-28T04:25:55.794Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bff1d7ff19d6b15b287b42039e373da70c11720059097d900bbdbc0cb9b4f601",
   "install_command": "mkdir -p .claude/skills/developer-guidelines && curl -sL \"https://raw.githubusercontent.com/MatrixFounder/Agentic-development/main/.agent/skills/developer-guidelines/SKILL.md\" > .claude/skills/developer-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MatrixFounder/Agentic-development/main/.agent/skills/developer-guidelines/SKILL.md"

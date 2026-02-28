@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "70a3edccf858c4b04abd4d99bfe5c1cae69ed8624d09b34c7e21fe0171994863",
   "indexed_at": "2026-02-25T15:56:03.358Z",
-  "synced_at": "2026-02-27T02:52:38.425Z",
+  "synced_at": "2026-02-28T04:25:12.424Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/41082dab9d9f628171d7a80f9d1522ab8efa348c01c70a744a939e693889c2cf",
   "install_command": "mkdir -p .claude/skills/fresh-eyes && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/fresh-eyes/SKILL.md\" > .claude/skills/fresh-eyes/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/fresh-eyes/SKILL.md"

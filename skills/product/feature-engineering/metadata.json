@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fbba9f61032c3d2e96eae16189b00d50e8e2377fa861667b3a657751172296bc",
   "indexed_at": "2026-02-26T14:08:50.971Z",
-  "synced_at": "2026-02-27T02:52:56.901Z",
+  "synced_at": "2026-02-28T04:25:37.426Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/17c47d0308538cae660f349a706f6d98ffee349d3137f4e129b8e2141e388227",
   "install_command": "mkdir -p .claude/skills/feature-engineering && curl -sL \"https://raw.githubusercontent.com/root-5/agentic-ml-pipeline/main/skills/feature-engineering/SKILL.md\" > .claude/skills/feature-engineering/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/root-5/agentic-ml-pipeline/main/skills/feature-engineering/SKILL.md"

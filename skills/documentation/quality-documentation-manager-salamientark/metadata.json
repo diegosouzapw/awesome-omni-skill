@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fc718e84bf0405deb4e6c0f80cd7468cf32a0157b5494ddaba2e1fa47d8d5f71",
   "indexed_at": "2026-02-26T11:39:57.548Z",
-  "synced_at": "2026-02-27T02:53:17.994Z",
+  "synced_at": "2026-02-28T04:26:04.794Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a50760bdc8f00c4153525852a7527647fcb35082a1a847efe2cd17f004b7b3bf",
   "install_command": "mkdir -p .claude/skills/quality-documentation-manager && curl -sL \"https://raw.githubusercontent.com/salamientark/dotfiles/main/claude/skills/ra-qm-team/quality-documentation-manager/SKILL.md\" > .claude/skills/quality-documentation-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/salamientark/dotfiles/main/claude/skills/ra-qm-team/quality-documentation-manager/SKILL.md"

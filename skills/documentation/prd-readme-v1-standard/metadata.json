@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b3f7a7e5001969b65a1fc3e7323d82570f04c0aa4bd2adfb23b185af2d022c42",
   "indexed_at": "2026-02-26T15:21:48.936Z",
-  "synced_at": "2026-02-27T02:53:10.975Z",
+  "synced_at": "2026-02-28T04:25:55.957Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ab802bfeb12b0ba567f5673bb324fc7b081bad89445301f822c0f60c977a6486",
   "install_command": "mkdir -p .claude/skills/prd-readme-v1-standard && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/documents/prd-readme-v1-standard/SKILL.md\" > .claude/skills/prd-readme-v1-standard/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/documents/prd-readme-v1-standard/SKILL.md"

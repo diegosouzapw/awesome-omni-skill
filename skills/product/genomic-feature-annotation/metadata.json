@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5cf9fcd38f940b687d7c3688eca98a945da9b0c7ddafa30e0e37556f6d1b33c0",
   "indexed_at": "2026-02-24T23:25:01.946Z",
-  "synced_at": "2026-02-27T02:52:31.606Z",
+  "synced_at": "2026-02-28T04:25:00.535Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2b4cf0616733b97999a308c683e1420176d7fd79bbcd8e12a65ca71be73faec1",
   "install_command": "mkdir -p .claude/skills/genomic-feature-annotation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/10-toolbased-genomic-feature-annotation/SKILL.md\" > .claude/skills/genomic-feature-annotation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/10-toolbased-genomic-feature-annotation/SKILL.md"

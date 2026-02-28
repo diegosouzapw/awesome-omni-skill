@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eaf4e0271fd13eef8e4bdd4595a77f7a39f2a4c4c33358f021b095cae4e22dad",
   "indexed_at": "2026-02-26T07:56:19.151Z",
-  "synced_at": "2026-02-27T02:52:44.117Z",
+  "synced_at": "2026-02-28T04:25:18.302Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ec492e935210488add09a34dc37a9f57d67bdfbc8ef21023ed32419a1366232c",
   "install_command": "mkdir -p .claude/skills/feature-design-assistant && curl -sL \"https://raw.githubusercontent.com/kurokeita/ai-agent/main/skills/feature-design-assistant/SKILL.md\" > .claude/skills/feature-design-assistant/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kurokeita/ai-agent/main/skills/feature-design-assistant/SKILL.md"

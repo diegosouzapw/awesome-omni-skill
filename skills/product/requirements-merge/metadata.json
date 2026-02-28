@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3f9db882911a27cbc3719dfdc6b73378e825a27375723f768a8d3ab905668c72",
   "indexed_at": "2026-02-26T07:53:22.704Z",
-  "synced_at": "2026-02-27T02:52:43.038Z",
+  "synced_at": "2026-02-28T04:25:17.197Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/987d871107f18d12504b612da59f6ad9938980a915a2ba9949d8e9dec0e520f9",
   "install_command": "mkdir -p .claude/skills/requirements-merge && curl -sL \"https://raw.githubusercontent.com/zhongadamwang/PRG/main/.github/skills/requirements-merge/SKILL.md\" > .claude/skills/requirements-merge/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zhongadamwang/PRG/main/.github/skills/requirements-merge/SKILL.md"

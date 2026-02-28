@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "322282242f2a269a2807ee841afaffc1853ede4a01396027d40e796d0292b890",
   "indexed_at": "2026-02-25T20:41:19.760Z",
-  "synced_at": "2026-02-27T02:53:13.925Z",
+  "synced_at": "2026-02-28T04:26:00.504Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3013a31d97af401e56cdc4b88afa7040905eb156a97783c9ed0f8768f0a91aa8",
   "install_command": "mkdir -p .claude/skills/doc-coauthoring && curl -sL \"https://raw.githubusercontent.com/joaquimscosta/arkhe-claude-plugins/main/plugins/doc/skills/doc-coauthoring/SKILL.md\" > .claude/skills/doc-coauthoring/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/joaquimscosta/arkhe-claude-plugins/main/plugins/doc/skills/doc-coauthoring/SKILL.md"

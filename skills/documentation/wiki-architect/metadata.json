@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e75d8e8e8530d4e0778f6bc173d1f5ab4f2ca27ee892169bc54a32e60324ad69",
   "indexed_at": "2026-02-25T19:26:27.009Z",
-  "synced_at": "2026-02-27T02:52:58.553Z",
+  "synced_at": "2026-02-28T04:25:38.996Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a39b76d4216b6ae3c086c4784556aecdf61eab63bf044dee9bd6239705c8a1e4",
   "install_command": "mkdir -p .claude/skills/wiki-architect && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/wiki-architect/SKILL.md\" > .claude/skills/wiki-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/wiki-architect/SKILL.md"

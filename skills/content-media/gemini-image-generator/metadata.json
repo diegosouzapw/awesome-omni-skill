@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3d6c226007d1cbd4e67eca1779e5ced297767364cf8c658947b0861156191d8d",
   "indexed_at": "2026-02-25T18:46:44.926Z",
-  "synced_at": "2026-02-27T02:52:22.457Z",
+  "synced_at": "2026-02-28T04:24:48.106Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/296e973629a5304ea0998930341d90937d5afdbc27ab5a7bf5cb8a62005d2799",
   "install_command": "mkdir -p .claude/skills/gemini-image-generator && curl -sL \"https://raw.githubusercontent.com/camronh/gemini-image-generator/main/SKILL.md\" > .claude/skills/gemini-image-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/camronh/gemini-image-generator/main/SKILL.md"

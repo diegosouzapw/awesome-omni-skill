@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e43c22b162be4dc661ea8db66b1fc28adc24d6c007aaf6797136c38fa7ea14b7",
   "indexed_at": "2026-02-26T07:54:28.199Z",
-  "synced_at": "2026-02-27T02:52:43.394Z",
+  "synced_at": "2026-02-28T04:25:17.582Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e843f377b6f2ba711bc89a9b859e6097ee81a5e6e915a526a4910b42516083bb",
   "install_command": "mkdir -p .claude/skills/doc-sys-create-system-requirements-layer-6 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/doc-sys/SKILL.md\" > .claude/skills/doc-sys-create-system-requirements-layer-6/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/doc-sys/SKILL.md"

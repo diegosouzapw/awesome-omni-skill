@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "58f2df21685c83b396ba8d4d028e2c43eafce41a504cdf29a6aa871f43351258",
   "indexed_at": "2026-02-26T09:55:28.169Z",
-  "synced_at": "2026-02-27T02:52:45.325Z",
+  "synced_at": "2026-02-28T04:25:19.493Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/94c5b2d6cefba11d1ee743a194ae2e3b5d2e04abdd891d96a1c4b37e6cf26ba0",
   "install_command": "mkdir -p .claude/skills/create-prd && curl -sL \"https://raw.githubusercontent.com/PouriaRouzrokh/pr-claude-plugins/main/pr/skills/create-prd/SKILL.md\" > .claude/skills/create-prd/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/PouriaRouzrokh/pr-claude-plugins/main/pr/skills/create-prd/SKILL.md"

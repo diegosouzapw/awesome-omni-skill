@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6d3f12f88570705c99b490aa7955e37bb8b40d86664fab8d6a4972f8d9d37024",
   "indexed_at": "2026-02-25T18:24:08.862Z",
-  "synced_at": "2026-02-27T02:52:59.669Z",
+  "synced_at": "2026-02-28T04:25:40.034Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b57957003eb035a931de6c51b612c3f62d921dbcf587921ad66252f5a607bca6",
   "install_command": "mkdir -p .claude/skills/protocol-reverse-engineering && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/protocol-reverse-engineering/SKILL.md\" > .claude/skills/protocol-reverse-engineering/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/protocol-reverse-engineering/SKILL.md"

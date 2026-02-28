@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b27c29286b5a715ee19d48b03f42586f7ea76937dcf4387e9e4add0506d01dd2",
   "indexed_at": "2026-02-26T15:23:31.875Z",
-  "synced_at": "2026-02-27T02:53:11.146Z",
+  "synced_at": "2026-02-28T04:25:56.128Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0ed8cd17bad18186262b4b2ee8cfbda9d4e1a3f2db48107f96623fde6071da21",
   "install_command": "mkdir -p .claude/skills/copywriter && curl -sL \"https://raw.githubusercontent.com/xiangteng007/light-keepers/main/.agent/skills/copywriter/SKILL.md\" > .claude/skills/copywriter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/xiangteng007/light-keepers/main/.agent/skills/copywriter/SKILL.md"

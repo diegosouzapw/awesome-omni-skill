@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8ddec9d779e80a150cdd5f174da578818d32677c6ee973239d55983c3df56493",
   "indexed_at": "2026-02-24T23:26:37.823Z",
-  "synced_at": "2026-02-27T02:52:31.830Z",
+  "synced_at": "2026-02-28T04:25:00.730Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9877fe3aa74fdbe037d91db1376f6fb7d7a5ad4de60ea2183791821454c2c842",
   "install_command": "mkdir -p .claude/skills/correlation-methylation-epifeatures && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/27-correlation-methylation-epifeatures/SKILL.md\" > .claude/skills/correlation-methylation-epifeatures/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/27-correlation-methylation-epifeatures/SKILL.md"

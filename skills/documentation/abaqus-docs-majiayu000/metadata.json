@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2b326823d6b433578076cfc0a1d531a88b0348987c7649fc8c89f51a92c1af9c",
   "indexed_at": "2026-02-24T23:20:42.678Z",
-  "synced_at": "2026-02-27T02:53:06.063Z",
+  "synced_at": "2026-02-28T04:25:51.454Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/501dcafa4912cca999f6e658f67a7317296f4caab68292a997cc01238cbd29d9",
   "install_command": "mkdir -p .claude/skills/abaqus-docs && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abaqus-docs/SKILL.md\" > .claude/skills/abaqus-docs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abaqus-docs/SKILL.md"

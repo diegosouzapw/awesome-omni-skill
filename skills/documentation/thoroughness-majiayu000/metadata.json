@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8f4c40f34f1ea2abc582bf3f3a98e8b76b3715cecf7db578827d3aefe952927f",
   "indexed_at": "2026-02-25T15:50:29.597Z",
-  "synced_at": "2026-02-27T02:53:13.154Z",
+  "synced_at": "2026-02-28T04:25:59.723Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c1e8c588371aac99527f742f924a4b40274761fe382a55e58f69f1deb303f25f",
   "install_command": "mkdir -p .claude/skills/thoroughness && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/thoroughness/SKILL.md\" > .claude/skills/thoroughness/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/thoroughness/SKILL.md"

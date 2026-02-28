@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33321c61c97f9ae239fc9b6aed51e0294878d5a22e5c257b09736ce7e0e2d2e6",
   "indexed_at": "2026-02-25T13:11:19.684Z",
-  "synced_at": "2026-02-27T02:53:12.183Z",
+  "synced_at": "2026-02-28T04:25:58.705Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7f9c4ac81d72eaca04b45c6d751cae7726af0fde46ec3e4f83e6eb0b95a274fd",
   "install_command": "mkdir -p .claude/skills/research-documentation && curl -sL \"https://raw.githubusercontent.com/seungwonme/.claude/main/skills/notion/research-documentation/SKILL.md\" > .claude/skills/research-documentation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/seungwonme/.claude/main/skills/notion/research-documentation/SKILL.md"

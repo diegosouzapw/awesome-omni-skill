@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5b337c0cc8dc2dcd5c1245c5628fc1b8e8540b068fec47f1f1dc3e7bfa03904d",
   "indexed_at": "2026-02-26T08:30:28.188Z",
-  "synced_at": "2026-02-27T02:52:18.977Z",
+  "synced_at": "2026-02-28T04:24:43.390Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e5a93bc0f166890914397c983746e8eb0e499e0dfa501ec1d73053c118246c18",
   "install_command": "mkdir -p .claude/skills/nano-image-generate && curl -sL \"https://raw.githubusercontent.com/fancyboi999/nano-image-generate/main/SKILL.md\" > .claude/skills/nano-image-generate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fancyboi999/nano-image-generate/main/SKILL.md"

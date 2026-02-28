@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "db7bc3d6b2b485c7c6e705be70882dfb6a0d61d76dd80b1c507daa35bd6905ff",
   "indexed_at": "2026-02-25T17:27:16.772Z",
-  "synced_at": "2026-02-27T02:52:29.973Z",
+  "synced_at": "2026-02-28T04:24:57.872Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/051d4af47d9200de1e26205c7773a9a97aa851cc2b2e09221d94e3730159c38d",
   "install_command": "mkdir -p .claude/skills/paywall-upgrade-cro && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/paywall-upgrade-cro/SKILL.md\" > .claude/skills/paywall-upgrade-cro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/paywall-upgrade-cro/SKILL.md"

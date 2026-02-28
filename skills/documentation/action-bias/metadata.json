@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a113b542e745a5d06ce072b074ef597be481dac796f5106813cbe2ff6354a7eb",
   "indexed_at": "2026-02-27T00:54:51.884Z",
-  "synced_at": "2026-02-27T02:53:02.113Z",
+  "synced_at": "2026-02-28T04:25:42.530Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1b1e59527192e79e2b325c68943714947c63d9298060112ce08c07c382f039e0",
   "install_command": "mkdir -p .claude/skills/action-bias && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/action-bias/SKILL.md\" > .claude/skills/action-bias/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/action-bias/SKILL.md"

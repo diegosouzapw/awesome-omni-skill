@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "39c1a7c76e4e0122923362a0349cb89b34dec34a92df207ed2640f0cf5e24db9",
   "indexed_at": "2026-02-26T11:12:07.729Z",
-  "synced_at": "2026-02-27T02:53:17.236Z",
+  "synced_at": "2026-02-28T04:26:04.030Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/391465515b01c2ede33d56e3e683da684bdac1d0af26ffe85da80e16bdccb68d",
   "install_command": "mkdir -p .claude/skills/book-summarizer-detailed-documentation && curl -sL \"https://raw.githubusercontent.com/mdp/book-skills/main/SKILL.md\" > .claude/skills/book-summarizer-detailed-documentation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mdp/book-skills/main/SKILL.md"

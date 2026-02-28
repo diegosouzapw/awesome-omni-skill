@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8c9ccedc5b0623962d62ede3731e45a77327fc8af99f4e0422856d4414ab0ffe",
   "indexed_at": "2026-02-25T12:38:15.418Z",
-  "synced_at": "2026-02-27T02:52:55.658Z",
+  "synced_at": "2026-02-28T04:25:35.930Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed47dee3b44befccf7f058b470658b0055e01ee5594041c6738c4052a5ba51e9",
   "install_command": "mkdir -p .claude/skills/commit && curl -sL \"https://raw.githubusercontent.com/MetaMask/ocap-kernel/main/.claude/skills/commit/SKILL.md\" > .claude/skills/commit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MetaMask/ocap-kernel/main/.claude/skills/commit/SKILL.md"

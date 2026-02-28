@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fad7f6f2ed64d1722961ced8160e4fd7de843adef94b23085fc25b9d47b4665e",
   "indexed_at": "2026-02-25T15:05:29.774Z",
-  "synced_at": "2026-02-27T02:52:38.109Z",
+  "synced_at": "2026-02-28T04:25:12.079Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/be091208f1b85f795317f2586301103158c063408e27964bdc3e59e87ca2109f",
   "install_command": "mkdir -p .claude/skills/product-spec && curl -sL \"https://raw.githubusercontent.com/benjaminshoemaker/ai_coding_project_base/main/.claude/skills/product-spec/SKILL.md\" > .claude/skills/product-spec/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/benjaminshoemaker/ai_coding_project_base/main/.claude/skills/product-spec/SKILL.md"

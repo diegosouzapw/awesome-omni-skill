@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bbf14ab4e311a69954e9b4732c73372be24554332d52bf2cc8bb3730efd25ffa",
   "indexed_at": "2026-02-26T05:50:10.352Z",
-  "synced_at": "2026-02-27T02:53:14.751Z",
+  "synced_at": "2026-02-28T04:26:01.346Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eb32e077ebc8380fac48544011e31f32385eef15160896fadfeaa4083c0396b0",
   "install_command": "mkdir -p .claude/skills/explanation-docs && curl -sL \"https://raw.githubusercontent.com/existential-birds/beagle/main/plugins/beagle-docs/skills/explanation-docs/SKILL.md\" > .claude/skills/explanation-docs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/existential-birds/beagle/main/plugins/beagle-docs/skills/explanation-docs/SKILL.md"

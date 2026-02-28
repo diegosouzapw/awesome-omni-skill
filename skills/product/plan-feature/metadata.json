@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "be54fa3e3dc0dfcc46c6820aad1b1291a6ddc272fa6fce79dc111f7fa268cf7d",
   "indexed_at": "2026-02-27T07:50:06.347Z",
-  "synced_at": "2026-02-27T13:14:47.833Z",
+  "synced_at": "2026-02-28T04:25:26.302Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/57884124ee98afebe2a4d637df6df6a0eab7c8f77086354c2e94ecabb4d4157d",
   "install_command": "mkdir -p .claude/skills/plan-feature && curl -sL \"https://raw.githubusercontent.com/andrewvaughan/agent-council/main/skills/plan-feature/SKILL.md\" > .claude/skills/plan-feature/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/andrewvaughan/agent-council/main/skills/plan-feature/SKILL.md"

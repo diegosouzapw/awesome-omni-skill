@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "29921382531a5d800ffd7959de41f121f8666d93a91c00bb0c9e6ec1dc959b2f",
   "indexed_at": "2026-02-24T23:40:59.067Z",
-  "synced_at": "2026-02-27T02:53:03.544Z",
+  "synced_at": "2026-02-28T04:25:46.258Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9f4c2b696c4b46093c5e034edb793285abe50d4c4be62c7698816089216fd3b5",
   "install_command": "mkdir -p .claude/skills/academic-task-planner && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/academic-task-planner/SKILL.md\" > .claude/skills/academic-task-planner/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/academic-task-planner/SKILL.md"

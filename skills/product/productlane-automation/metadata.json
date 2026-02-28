@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c8b152618821bf5bfb9c4f67fedb4c76be9263827680af8a7102eb1654424f6b",
   "indexed_at": "2026-02-25T21:27:31.911Z",
-  "synced_at": "2026-02-27T02:52:27.119Z",
+  "synced_at": "2026-02-28T04:24:56.510Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f73687f5e7f4806262754cc7cdd5f69e131b9c12701470326e126d1727e7c9af",
   "install_command": "mkdir -p .claude/skills/productlane-automation && curl -sL \"https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/productlane-automation/SKILL.md\" > .claude/skills/productlane-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/productlane-automation/SKILL.md"

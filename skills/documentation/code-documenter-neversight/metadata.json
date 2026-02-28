@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bea29cbc21d82e96345438596fb92db4e3f7ff4bee4e9b246c9097f2c02058a6",
   "indexed_at": "2026-02-26T10:55:05.964Z",
-  "synced_at": "2026-02-27T02:53:09.964Z",
+  "synced_at": "2026-02-28T04:25:55.438Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a7f8ab629260f6cc0d08052487257fe01c365c24033723b78d8aef93dc2b13c3",
   "install_command": "mkdir -p .claude/skills/code-documenter && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/alexander-danilenko/ai-skills/code-documenter/SKILL.md\" > .claude/skills/code-documenter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/alexander-danilenko/ai-skills/code-documenter/SKILL.md"

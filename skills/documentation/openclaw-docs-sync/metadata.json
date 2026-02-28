@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "726abf2509b4ccdd7691f290cb06b1ec83c9b9f64142a2230c5d3eb227c67265",
   "indexed_at": "2026-02-26T15:53:40.518Z",
-  "synced_at": "2026-02-27T02:53:11.683Z",
+  "synced_at": "2026-02-28T04:25:56.745Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/86a1f4a116a3e99680fae7543d6afede7238b97c3874987e2fd71edc85f68959",
   "install_command": "mkdir -p .claude/skills/openclaw-docs-sync && curl -sL \"https://raw.githubusercontent.com/TheSethRose/OpenClaw-Docs-Sync/main/SKILL.md\" > .claude/skills/openclaw-docs-sync/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TheSethRose/OpenClaw-Docs-Sync/main/SKILL.md"

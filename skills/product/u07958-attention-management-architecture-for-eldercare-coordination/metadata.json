@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0ce8c4c546dc1332ffd71c5c5718cc5d45257470ed1d1651bedc610f407e757d",
   "indexed_at": "2026-02-27T03:23:30.650Z",
-  "synced_at": "2026-02-27T13:14:47.455Z",
+  "synced_at": "2026-02-28T04:25:25.599Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bbef8d7dcd1a35f47a88afeb65f03122425b897f2984c00ac3437b8780600a96",
   "install_command": "mkdir -p .claude/skills/u07958-attention-management-architecture-for-eldercare-coordination && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/07/7958-attention-management-architecture-for-eldercare-coordination/SKILL.md\" > .claude/skills/u07958-attention-management-architecture-for-eldercare-coordination/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/07/7958-attention-management-architecture-for-eldercare-coordination/SKILL.md"

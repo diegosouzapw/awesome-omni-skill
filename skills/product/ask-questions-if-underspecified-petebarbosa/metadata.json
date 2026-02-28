@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "01e08c2ac48c428782900365b9ac202d5cdd6cffe37c8b97ef368a07d69b6420",
   "indexed_at": "2026-02-26T01:42:15.837Z",
-  "synced_at": "2026-02-27T02:52:51.133Z",
+  "synced_at": "2026-02-28T04:25:29.398Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cd15d605c0a8cdf557513e72e6d9f9bcc6b6493ed395545e0ca140e308ee96d9",
   "install_command": "mkdir -p .claude/skills/ask-questions-if-underspecified && curl -sL \"https://raw.githubusercontent.com/petebarbosa/dotfiles/main/opencode/skill/ask-question-if-underspecified/SKILL.md\" > .claude/skills/ask-questions-if-underspecified/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/petebarbosa/dotfiles/main/opencode/skill/ask-question-if-underspecified/SKILL.md"

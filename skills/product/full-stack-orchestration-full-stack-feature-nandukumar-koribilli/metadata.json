@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7f6ec37eb3dbf72f91f5a83d43d09c17a107402c3d59172409cf825bbb0bbcfa",
   "indexed_at": "2026-02-26T10:52:29.768Z",
-  "synced_at": "2026-02-27T02:52:53.592Z",
+  "synced_at": "2026-02-28T04:25:31.901Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/65d1c772c4852056346535aa6a96db4a1cb65ee01bb9c8a8beb91d74d4e821ae",
   "install_command": "mkdir -p .claude/skills/full-stack-orchestration-full-stack-feature && curl -sL \"https://raw.githubusercontent.com/Nandukumar-koribilli/skills-/main/full-stack-orchestration-full-stack-feature/SKILL.md\" > .claude/skills/full-stack-orchestration-full-stack-feature/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Nandukumar-koribilli/skills-/main/full-stack-orchestration-full-stack-feature/SKILL.md"

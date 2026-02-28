@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c0cd580828168d19329aedbbbc41bf30a26ece76164f2cfbceceb170dac9cedf",
   "indexed_at": "2026-02-24T23:36:05.660Z",
-  "synced_at": "2026-02-27T02:52:32.232Z",
+  "synced_at": "2026-02-28T04:25:01.218Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d48da099c75fe48899f4a89fc57da8691408b3120373062b73488ae0011c1352",
   "install_command": "mkdir -p .claude/skills/40-plan-action-150 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/40-plan-action-150/SKILL.md\" > .claude/skills/40-plan-action-150/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/40-plan-action-150/SKILL.md"

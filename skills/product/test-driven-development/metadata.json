@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c9d091d90efd2e2bba01eeb5660e3cbd9ab1678cb2cb056510e3a034457168e",
   "indexed_at": "2026-02-25T19:24:39.657Z",
-  "synced_at": "2026-02-27T02:52:27.904Z",
+  "synced_at": "2026-02-28T04:24:57.251Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/093030afb5ca97217e89d997143adc3629af94781695dc112b6bc4ad76d5041a",
   "install_command": "mkdir -p .claude/skills/test-driven-development && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/test-driven-development/SKILL.md\" > .claude/skills/test-driven-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/test-driven-development/SKILL.md"

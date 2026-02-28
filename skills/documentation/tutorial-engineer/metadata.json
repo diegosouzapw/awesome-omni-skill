@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c48dd0697683258cb80570d86d6d2514181e742a2848ab94fda782af5c1bc120",
   "indexed_at": "2026-02-25T19:25:12.427Z",
-  "synced_at": "2026-02-27T02:52:59.189Z",
+  "synced_at": "2026-02-28T04:25:39.599Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0cf061d2843ef20074c7417bdfaeb8becf70836a459bea2e1e2209ef9fb858a5",
   "install_command": "mkdir -p .claude/skills/tutorial-engineer && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/tutorial-engineer/SKILL.md\" > .claude/skills/tutorial-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/tutorial-engineer/SKILL.md"

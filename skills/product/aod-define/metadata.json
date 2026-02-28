@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "057655dde1b8d94ce81ae95d3730728e76115aa75b42c68d1006d727376b08e3",
   "indexed_at": "2026-02-26T11:38:31.040Z",
-  "synced_at": "2026-02-27T02:52:46.981Z",
+  "synced_at": "2026-02-28T04:25:21.966Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ebea619deb18562dfc4673fd7de2edf6deb9f1a5b2b5125834930f80525e8ee1",
   "install_command": "mkdir -p .claude/skills/aod-define && curl -sL \"https://raw.githubusercontent.com/davidmatousek/agentic-oriented-development-kit/main/.claude/skills/~aod-define/SKILL.md\" > .claude/skills/aod-define/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/davidmatousek/agentic-oriented-development-kit/main/.claude/skills/~aod-define/SKILL.md"

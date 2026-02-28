@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f9471dd7a1c7d7aac6b611ab720676e3768a8044ebd51fb8dc6cf415bba7983d",
   "indexed_at": "2026-02-25T13:03:15.474Z",
-  "synced_at": "2026-02-27T02:52:20.380Z",
+  "synced_at": "2026-02-28T04:24:45.412Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bae1060b1f9cde56d9cb4047ef3a269d43643f4978604ee8e0fc7aaf3e1c96c2",
   "install_command": "mkdir -p .claude/skills/pptx && curl -sL \"https://raw.githubusercontent.com/lubancafe/agent-skills/main/pptx/SKILL.md\" > .claude/skills/pptx/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lubancafe/agent-skills/main/pptx/SKILL.md"

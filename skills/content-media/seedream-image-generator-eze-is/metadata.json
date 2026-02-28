@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7f66d3924ca6d82468e4136e4b34b7414c30ef8f2a224ea885b7ee48ec1a4333",
   "indexed_at": "2026-02-26T12:57:22.993Z",
-  "synced_at": "2026-02-27T02:52:23.406Z",
+  "synced_at": "2026-02-28T04:24:49.046Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d1c94cf9c199943e7ae6ec24503cb5addbeba557b3f711cce5c573600f9b221b",
   "install_command": "mkdir -p .claude/skills/seedream-image-generator && curl -sL \"https://raw.githubusercontent.com/eze-is/seedream-image-generator/main/SKILL.md\" > .claude/skills/seedream-image-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/eze-is/seedream-image-generator/main/SKILL.md"

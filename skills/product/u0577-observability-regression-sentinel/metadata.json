@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "56eafbd8fbcd01e14732c21371130feca39f35c96c4b78c9e15267e289d4782d",
   "indexed_at": "2026-02-27T02:21:16.252Z",
-  "synced_at": "2026-02-27T02:52:50.216Z",
+  "synced_at": "2026-02-28T04:25:25.064Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/528d3a364c2436cbe3bba25145ec6854842b7302d20f45420a1c23c68be66eed",
   "install_command": "mkdir -p .claude/skills/u0577-observability-regression-sentinel && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/00/0577-observability-regression-sentinel/SKILL.md\" > .claude/skills/u0577-observability-regression-sentinel/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/00/0577-observability-regression-sentinel/SKILL.md"

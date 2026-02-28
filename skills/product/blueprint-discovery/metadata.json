@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "182b60b47b1b46358d24e9f77cbc87e159b4fee763e7ad59ec29fa81310d5dff",
   "indexed_at": "2026-02-26T07:57:00.209Z",
-  "synced_at": "2026-02-27T02:52:44.302Z",
+  "synced_at": "2026-02-28T04:25:18.489Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f3c4128f0257abaf13131c07ceab079a942a03c4ed4b54c076940218cf16874d",
   "install_command": "mkdir -p .claude/skills/blueprint-discovery && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/blueprint-discovery/SKILL.md\" > .claude/skills/blueprint-discovery/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/blueprint-discovery/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b4e308cb56518549a8f35009d4973fa861c65359837d928b15c892b67ea93311",
   "indexed_at": "2026-02-25T12:51:57.679Z",
-  "synced_at": "2026-02-27T02:52:19.612Z",
+  "synced_at": "2026-02-28T04:24:44.695Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cd027e66d8a58a2c58f1bbe120b06a4f31a05ad427b8d92a2e11b7dd38647c61",
   "install_command": "mkdir -p .claude/skills/voice-dna-creator && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/az9713/ai-co-writing-claude-skills/voice-dna-creator/SKILL.md\" > .claude/skills/voice-dna-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/az9713/ai-co-writing-claude-skills/voice-dna-creator/SKILL.md"

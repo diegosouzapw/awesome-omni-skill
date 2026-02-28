@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8fbad898a51559f73ea9578e67b4d336a8a7400e01692b9a68bc7a10083aa05a",
   "indexed_at": "2026-02-25T12:48:33.481Z",
-  "synced_at": "2026-02-27T02:52:17.549Z",
+  "synced_at": "2026-02-28T04:24:41.801Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/512686f6b60757ba92602d98ce6b4f43605a6f542cd0e0f1ce7164350caa72b9",
   "install_command": "mkdir -p .claude/skills/x-image-cards && curl -sL \"https://raw.githubusercontent.com/0juano/x-image-cards/main/SKILL.md\" > .claude/skills/x-image-cards/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/0juano/x-image-cards/main/SKILL.md"

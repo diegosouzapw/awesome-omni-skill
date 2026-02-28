@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "20b09fa507749dfbfc451451c296627aac5e9628ebb55546a17616f03c26f468",
   "indexed_at": "2026-02-25T14:36:53.134Z",
-  "synced_at": "2026-02-27T02:53:12.822Z",
+  "synced_at": "2026-02-28T04:25:59.357Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8c94dc615d7e02da709d44b1b7e7cfd9814ce9c0ba9e0563d7efe9960327f50e",
   "install_command": "mkdir -p .claude/skills/google-docs-manager && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/google-docs-manager/SKILL.md\" > .claude/skills/google-docs-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/google-docs-manager/SKILL.md"

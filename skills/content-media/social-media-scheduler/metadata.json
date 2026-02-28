@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0c63985d83bd12affd25e055ee8e20d7a7b068f0809d072bbbcb3024710a9ad8",
   "indexed_at": "2026-02-26T09:36:42.427Z",
-  "synced_at": "2026-02-27T02:52:25.642Z",
+  "synced_at": "2026-02-28T04:24:54.307Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d7bfcf54ad4d26dfe439aabdf7117b70f5e164fb2b5aad4f0e369b06d609cf05",
   "install_command": "mkdir -p .claude/skills/social-media-scheduler && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/claudiodrusus/weekly-content-planner/SKILL.md\" > .claude/skills/social-media-scheduler/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/claudiodrusus/weekly-content-planner/SKILL.md"

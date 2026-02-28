@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d3e373504be1f2f87edfe761ff24885161b16b12b731b149e9fafd8579ee1fc4",
   "indexed_at": "2026-02-25T15:27:08.521Z",
-  "synced_at": "2026-02-27T02:52:30.607Z",
+  "synced_at": "2026-02-28T04:24:58.462Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/58cd0f9b6e54bbf5fdfb1a12c3d69a43e5a7ce68371121a16fd3a18d275f2c00",
   "install_command": "mkdir -p .claude/skills/conductor-implement && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/conductor-implement/SKILL.md\" > .claude/skills/conductor-implement/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/conductor-implement/SKILL.md"

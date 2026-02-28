@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "83a25c342dded5be9b01a60450c287162de794e39f8264b63bc5178a9ae815c2",
   "indexed_at": "2026-02-26T12:17:45.549Z",
-  "synced_at": "2026-02-27T02:52:47.730Z",
+  "synced_at": "2026-02-28T04:25:22.681Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5cbef952acadf4fd4dbdd0b14fa43863ce24cf77f3ab7fb0deac6c82e2d5215e",
   "install_command": "mkdir -p .claude/skills/docker-2025-features && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/docker-2025-features/SKILL.md\" > .claude/skills/docker-2025-features/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/docker-2025-features/SKILL.md"

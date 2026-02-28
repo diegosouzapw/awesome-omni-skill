@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "24b0b447cc3fb4d14b102ccbec44a97e97425bc5d240f0458859f4447c769b80",
   "indexed_at": "2026-02-27T00:49:43.296Z",
-  "synced_at": "2026-02-27T02:53:01.531Z",
+  "synced_at": "2026-02-28T04:25:41.940Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/392dfc4552ff34c21b9e2578e0033a5583b52f7365085e83ceed560731b4578b",
   "install_command": "mkdir -p .claude/skills/acc-getting-started-template && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-getting-started-template/SKILL.md\" > .claude/skills/acc-getting-started-template/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-getting-started-template/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1f99d3c260b5815672b3e58ce5e236551022e0c503aea66976891d790abf09b5",
   "indexed_at": "2026-02-26T11:18:23.356Z",
-  "synced_at": "2026-02-27T02:52:46.756Z",
+  "synced_at": "2026-02-28T04:25:21.752Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/700b0c7c9bb103e0d79123049d6bbba1385fb6bfd08abd4550f4ad1fb9c7ea33",
   "install_command": "mkdir -p .claude/skills/privacy-risk-assessment && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/privacy-risk-assessment/SKILL.md\" > .claude/skills/privacy-risk-assessment/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/privacy-risk-assessment/SKILL.md"

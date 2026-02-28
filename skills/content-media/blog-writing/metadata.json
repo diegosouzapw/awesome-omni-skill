@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b69a85d1caece74ddeb9121cb7cafc54e784ca41694ff988eb652bdb44a1ead1",
   "indexed_at": "2026-02-26T23:35:51.414Z",
-  "synced_at": "2026-02-27T02:52:24.788Z",
+  "synced_at": "2026-02-28T04:24:50.372Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6cdbdfc10ef7be8fcb7663d5fe3ab439278731469d135fee08ad240821dd92ad",
   "install_command": "mkdir -p .claude/skills/blog-writing && curl -sL \"https://raw.githubusercontent.com/jcanizalez/fourmis-marketplace/main/plugins/markdown-writer/skills/blog-writing/SKILL.md\" > .claude/skills/blog-writing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jcanizalez/fourmis-marketplace/main/plugins/markdown-writer/skills/blog-writing/SKILL.md"

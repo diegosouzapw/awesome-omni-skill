@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "39f487a7d729de068eeb9fc01955e3cad17e320ace4691b9a69a025fd0a6f01b",
   "indexed_at": "2026-02-25T15:50:49.366Z",
-  "synced_at": "2026-02-27T02:52:57.234Z",
+  "synced_at": "2026-02-28T04:25:37.818Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d41219373048eae39969e1d6101f0aa86cafe8560e72930f4728753204c7547b",
   "install_command": "mkdir -p .claude/skills/code-discovery && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/code-discovery-idealley-code-as-skills/SKILL.md\" > .claude/skills/code-discovery/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/code-discovery-idealley-code-as-skills/SKILL.md"

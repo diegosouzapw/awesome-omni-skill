@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b87152f7263a1aecc2b35e6989f803674cc745e6b27d668991c2cacee4663647",
   "indexed_at": "2026-02-27T16:10:44.578Z",
-  "synced_at": "2026-02-27T18:17:13.260Z",
+  "synced_at": "2026-02-28T04:24:43.826Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f7fde7b54a5ec9c55b38f1a578cf14c665e4318302e7f4c7dfb6afe389da1c6a",
   "install_command": "mkdir -p .claude/skills/whisper-transcription && curl -sL \"https://raw.githubusercontent.com/guia-matthieu/clawfu-skills/main/skills/automation/whisper-transcription/SKILL.md\" > .claude/skills/whisper-transcription/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/guia-matthieu/clawfu-skills/main/skills/automation/whisper-transcription/SKILL.md"

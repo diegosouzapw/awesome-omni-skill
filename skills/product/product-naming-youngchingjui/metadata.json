@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eb0f7ce5b689306322be4b0ce54d947fcd89b804dabb8bb5e9de60ba3583700c",
   "indexed_at": "2026-02-25T16:51:22.970Z",
-  "synced_at": "2026-02-27T02:52:39.440Z",
+  "synced_at": "2026-02-28T04:25:13.413Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c3a088ab5334ed4c55900ea08b7e6c5df9b9f13651d2b81bc6acabdf1f1f6f06",
   "install_command": "mkdir -p .claude/skills/product-naming && curl -sL \"https://raw.githubusercontent.com/youngchingjui/claude-product-naming-skill/main/SKILL.md\" > .claude/skills/product-naming/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/youngchingjui/claude-product-naming-skill/main/SKILL.md"

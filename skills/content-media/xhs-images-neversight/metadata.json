@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33c74b18d2cca564e782db678a5e0674511a31129a27aab4cbdf725c901ed9b5",
   "indexed_at": "2026-02-26T15:58:26.635Z",
-  "synced_at": "2026-02-27T02:52:24.449Z",
+  "synced_at": "2026-02-28T04:24:50.058Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/59b69e7bd60999a673010b628114da59729ea5fc5b449038c6477aba0156eabc",
   "install_command": "mkdir -p .claude/skills/xhs-images && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/manwithshit/xhs-images/xhs-images/SKILL.md\" > .claude/skills/xhs-images/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/manwithshit/xhs-images/xhs-images/SKILL.md"

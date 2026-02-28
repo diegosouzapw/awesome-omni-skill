@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c6f3b8ad6c4772d77041add30280c79660a2f241763e93e7039326b015d57ae3",
   "indexed_at": "2026-02-26T19:31:10.481Z",
-  "synced_at": "2026-02-27T02:52:26.473Z",
+  "synced_at": "2026-02-28T04:24:55.352Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/737bda9cc3880e8ba1f641b407199e561d9e841fe0da033a21d8c96f78b7e5aa",
   "install_command": "mkdir -p .claude/skills/imagegen-gemini && curl -sL \"https://raw.githubusercontent.com/bhaidar/imagegen-gemini/main/SKILL.md\" > .claude/skills/imagegen-gemini/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bhaidar/imagegen-gemini/main/SKILL.md"

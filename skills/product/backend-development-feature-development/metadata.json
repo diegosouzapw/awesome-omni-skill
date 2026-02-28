@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "05eb76b18d0c6cbbdd08be5c37aafeb9da3dbc3df613acef163066b364122a5c",
   "indexed_at": "2026-02-25T15:24:15.661Z",
-  "synced_at": "2026-02-27T02:52:30.281Z",
+  "synced_at": "2026-02-28T04:24:58.158Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f10fdd4ea7bfeae23d8840e7c49c89b9ef62ea81312c97cccc5359c78249ce76",
   "install_command": "mkdir -p .claude/skills/backend-development-feature-development && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/backend-development-feature-development/SKILL.md\" > .claude/skills/backend-development-feature-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/backend-development-feature-development/SKILL.md"

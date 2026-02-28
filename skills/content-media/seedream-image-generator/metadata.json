@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b9c950767922dad93802ea3c67f9c0f8571eee564bde10d286bfca07df49edf7",
   "indexed_at": "2026-02-26T12:57:08.027Z",
-  "synced_at": "2026-02-27T02:52:23.205Z",
+  "synced_at": "2026-02-28T04:24:48.850Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4156e2c1e30d7dd872c7e5bc52b678300b7ab11f378d4f62bde8eda9432738b4",
   "install_command": "mkdir -p .claude/skills/seedream-image-generator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/seedream-image-generator/SKILL.md\" > .claude/skills/seedream-image-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/seedream-image-generator/SKILL.md"

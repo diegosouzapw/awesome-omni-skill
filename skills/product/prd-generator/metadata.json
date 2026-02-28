@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c7a12ddc4b691f432ef8307ab1e302bb8655f6bf807880bc6aa64d3d976f19f5",
   "indexed_at": "2026-02-27T16:46:16.223Z",
-  "synced_at": "2026-02-27T18:17:14.496Z",
+  "synced_at": "2026-02-28T04:25:27.312Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e82bfb3ea676f8406832ad400286eb707912829dbbcc3c0e972ddd836c08490d",
   "install_command": "mkdir -p .claude/skills/prd-generator && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/indrasvat/claude-code-skills/prd-generator/SKILL.md\" > .claude/skills/prd-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/indrasvat/claude-code-skills/prd-generator/SKILL.md"

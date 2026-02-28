@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "193041acd2d1ceb92807d4951bdd321a4f0a99a0e5fbac02a5268b64d2e5c771",
   "indexed_at": "2026-02-26T11:56:57.425Z",
-  "synced_at": "2026-02-27T02:52:47.137Z",
+  "synced_at": "2026-02-28T04:25:22.125Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cac3e7240fceadfc95503e4bba3b17a2fb246edf593ec8b6fedbccb5e1f50074",
   "install_command": "mkdir -p .claude/skills/project-manager-gantt && curl -sL \"https://raw.githubusercontent.com/amarorn/Project-Manager-Gantt/main/SKILL.md\" > .claude/skills/project-manager-gantt/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/amarorn/Project-Manager-Gantt/main/SKILL.md"

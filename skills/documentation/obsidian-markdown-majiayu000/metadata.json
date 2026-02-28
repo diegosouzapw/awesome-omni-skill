@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eaee4187a5517e1d4eba450d81f5ee777169454d8c6a243b14c452ad83347a08",
   "indexed_at": "2026-02-24T23:09:16.204Z",
-  "synced_at": "2026-02-27T02:53:05.664Z",
+  "synced_at": "2026-02-28T04:25:51.071Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2e1e96de566ab348be6302304b83991ccf304568b1eaa5117a5a2f2ef3d83bf2",
   "install_command": "mkdir -p .claude/skills/obsidian-markdown && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/29d936eb-f246-4177-a091-5f16e70b76cc/SKILL.md\" > .claude/skills/obsidian-markdown/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/29d936eb-f246-4177-a091-5f16e70b76cc/SKILL.md"

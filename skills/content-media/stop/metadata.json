@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0f2027eee1dd4f6cf1051f4f9fd2d2652b4481a33561703f67f8ffce3998e292",
   "indexed_at": "2026-02-26T18:17:10.499Z",
-  "synced_at": "2026-02-27T02:52:25.994Z",
+  "synced_at": "2026-02-28T04:24:54.657Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/20c3efb0047f5c1094aefff617c77a5ecea370a28277b522cd6f954b9efb595d",
   "install_command": "mkdir -p .claude/skills/stop && curl -sL \"https://raw.githubusercontent.com/terrylica/cc-skills/main/plugins/ru/skills/stop/SKILL.md\" > .claude/skills/stop/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/terrylica/cc-skills/main/plugins/ru/skills/stop/SKILL.md"

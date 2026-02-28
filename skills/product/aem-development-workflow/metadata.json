@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "392d56b95f722194b66359820642e6bc25ca0cc12c36a5e66a8cc635634c372f",
   "indexed_at": "2026-02-27T02:53:59.974Z",
-  "synced_at": "2026-02-27T13:14:47.116Z",
+  "synced_at": "2026-02-28T04:25:03.334Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bda54916dadbfae39a8823a4840c127a30920eb0ad4cb286280cfe1fa3b9ecec",
   "install_command": "mkdir -p .claude/skills/aem-development-workflow && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aem-development-workflow/SKILL.md\" > .claude/skills/aem-development-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aem-development-workflow/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2a393b91bb9cc8fa31d4cfa38b1a67a7c2d498fc209b50d1961c92bec4a02278",
   "indexed_at": "2026-02-26T07:55:32.595Z",
-  "synced_at": "2026-02-27T02:52:43.760Z",
+  "synced_at": "2026-02-28T04:25:17.941Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a434758f65b6fe49d5b39845d2578184af1177c5d28ba7c0b9d10fa3342446e9",
   "install_command": "mkdir -p .claude/skills/qcsd-refinement-swarm && curl -sL \"https://raw.githubusercontent.com/proffesor-for-testing/agentic-qe/main/.kiro/skills/qcsd-refinement-swarm/SKILL.md\" > .claude/skills/qcsd-refinement-swarm/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/proffesor-for-testing/agentic-qe/main/.kiro/skills/qcsd-refinement-swarm/SKILL.md"

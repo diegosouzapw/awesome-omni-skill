@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eca228e99a8c95069d27a6921918f75383b4417cb4f898db242f6cb347f142f6",
   "indexed_at": "2026-02-26T19:10:33.076Z",
-  "synced_at": "2026-02-27T02:52:55.484Z",
+  "synced_at": "2026-02-28T04:25:33.787Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/64cfe3d347237a08a86cfa346a0f2583d594c0c5e060928f43dc6e454a7cdee8",
   "install_command": "mkdir -p .claude/skills/pm-interview && curl -sL \"https://raw.githubusercontent.com/jscraik/Agent-Skills/main/interview/pm-interview/SKILL.md\" > .claude/skills/pm-interview/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jscraik/Agent-Skills/main/interview/pm-interview/SKILL.md"

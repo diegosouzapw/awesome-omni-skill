@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8c868619ba59e9ac120571a38fa69648471d9fab77c4cc8a2fcae1b452bdfd19",
   "indexed_at": "2026-02-26T15:22:06.872Z",
-  "synced_at": "2026-02-27T02:52:36.154Z",
+  "synced_at": "2026-02-28T04:25:09.870Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5e2d2fdafb08f3ee7e928ad9bea61e47a9c0b1b25c89376fb7ab3b8b5cfbffc3",
   "install_command": "mkdir -p .claude/skills/strict-user-requirements-adherence && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/strict-user-requirements-adherence/SKILL.md\" > .claude/skills/strict-user-requirements-adherence/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/strict-user-requirements-adherence/SKILL.md"

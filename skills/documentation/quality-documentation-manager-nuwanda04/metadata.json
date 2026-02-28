@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d36372f6ca53c597fe3eaa1ef05b361184f6793f9979fabf4416501fb49384a7",
   "indexed_at": "2026-02-26T11:39:56.647Z",
-  "synced_at": "2026-02-27T02:53:17.831Z",
+  "synced_at": "2026-02-28T04:26:04.626Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b94037678e2d2dc82b9f543dcd581d81d03799f5c049e0de773f0c6da9370fca",
   "install_command": "mkdir -p .claude/skills/quality-documentation-manager && curl -sL \"https://raw.githubusercontent.com/Nuwanda04/Ballen-Fisk/main/.cursor/skills/quality-documentation-manager/SKILL.md\" > .claude/skills/quality-documentation-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Nuwanda04/Ballen-Fisk/main/.cursor/skills/quality-documentation-manager/SKILL.md"

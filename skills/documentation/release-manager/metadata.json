@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f696bb42823648939e82cf7b4bf4e556c962185007db9eb733e9e80944409438",
   "indexed_at": "2026-02-25T17:37:53.079Z",
-  "synced_at": "2026-02-27T02:53:13.336Z",
+  "synced_at": "2026-02-28T04:25:59.960Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/518b7551133bc3fdf3ed18f8a47397e31b6208e1f31ce2d636e2c2cc03f8c7b4",
   "install_command": "mkdir -p .claude/skills/release-manager && curl -sL \"https://raw.githubusercontent.com/finos/morphir/main/.claude/skills/release-manager/SKILL.md\" > .claude/skills/release-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/finos/morphir/main/.claude/skills/release-manager/SKILL.md"

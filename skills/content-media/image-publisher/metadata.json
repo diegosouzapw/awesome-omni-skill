@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c97ef99f03164853908be55b7e34b00ba9cc2c10bfdfcdb3e54cecaf13cf4fc1",
   "indexed_at": "2026-02-25T12:47:06.003Z",
-  "synced_at": "2026-02-27T02:52:25.475Z",
+  "synced_at": "2026-02-28T04:24:54.134Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/55adbfa350b306a934c55e0a5cef01f060a97e7d8ebf645b042548c91b6791b3",
   "install_command": "mkdir -p .claude/skills/image-publisher && curl -sL \"https://raw.githubusercontent.com/maoruibin/image-publisher/main/SKILL.md\" > .claude/skills/image-publisher/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/maoruibin/image-publisher/main/SKILL.md"

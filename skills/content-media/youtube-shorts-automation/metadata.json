@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "93ccb3f513f890079f6cbf53a2368942f9cd6563578f01ebce99b0a92eef8d3f",
   "indexed_at": "2026-02-26T14:21:17.188Z",
-  "synced_at": "2026-02-27T02:52:25.812Z",
+  "synced_at": "2026-02-28T04:24:54.484Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/50ee474c58ffd6683511a0c06d466a9998e6b38c58ba1219011cabc50f347efd",
   "install_command": "mkdir -p .claude/skills/youtube-shorts-automation && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/kangjjang/youtube-shorts-automation/SKILL.md\" > .claude/skills/youtube-shorts-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kangjjang/youtube-shorts-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "30c43cb6a4763f9f91632927ff3d72e34380359eb42b31c30c3c464ba10fb8a3",
   "indexed_at": "2026-02-26T11:41:37.807Z",
-  "synced_at": "2026-02-27T02:52:54.813Z",
+  "synced_at": "2026-02-28T04:25:33.066Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ae25b146153b615f0ce646dba95537856b06dbf6e75a9e21c7ad4fde7e789149",
   "install_command": "mkdir -p .claude/skills/full-stack-orchestration-full-stack-feature && curl -sL \"https://raw.githubusercontent.com/Iowa51/ChartSparkOG/main/agent/skills/awesome/full-stack-orchestration-full-stack-feature/SKILL.md\" > .claude/skills/full-stack-orchestration-full-stack-feature/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Iowa51/ChartSparkOG/main/agent/skills/awesome/full-stack-orchestration-full-stack-feature/SKILL.md"

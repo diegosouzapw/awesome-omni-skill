@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "302d27b99cf0a20b7958ea90a378f893cacfced2adbf76dcd120e4985c0576a1",
   "indexed_at": "2026-02-25T14:12:32.786Z",
-  "synced_at": "2026-02-27T02:52:37.911Z",
+  "synced_at": "2026-02-28T04:25:11.907Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d00148a9872d99788c1006a1462a752cb50c0378c13c498be34f181b98f5a5be",
   "install_command": "mkdir -p .claude/skills/pmbok8-project-management && curl -sL \"https://raw.githubusercontent.com/prostudy/pimbo/main/SKILL.md\" > .claude/skills/pmbok8-project-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/prostudy/pimbo/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b1b81bdea5d8ca77f69dfd88737a77ff27403cc0a2514fdba5b8f7e189a60ea1",
   "indexed_at": "2026-02-26T10:41:30.177Z",
-  "synced_at": "2026-02-27T02:52:22.853Z",
+  "synced_at": "2026-02-28T04:24:48.504Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3d434b6777ed02ad659b87f26f44d0c89b35d554d7b8ae7830a1feb7b45a46cf",
   "install_command": "mkdir -p .claude/skills/xiaohongshu-publisher && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/yuf1011/xiaohongshu-publisher/SKILL.md\" > .claude/skills/xiaohongshu-publisher/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/yuf1011/xiaohongshu-publisher/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b51e9c9cadf6660091b7ba34f94e4bfde6b739e6dff8395ceffeb5daec86a4e7",
   "indexed_at": "2026-02-27T16:54:54.050Z",
-  "synced_at": "2026-02-27T18:17:13.677Z",
+  "synced_at": "2026-02-28T04:24:54.828Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a5d461d57665ceeede062cb7bbee03ee9cae3e2e472a0b7b3ba7ed137f1b7dda",
   "install_command": "mkdir -p .claude/skills/wechat-content-skill && curl -sL \"https://raw.githubusercontent.com/CheeMao/wechat-content-skill/main/SKILL.md\" > .claude/skills/wechat-content-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/CheeMao/wechat-content-skill/main/SKILL.md"

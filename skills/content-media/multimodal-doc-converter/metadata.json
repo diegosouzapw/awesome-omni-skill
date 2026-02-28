@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fe39a0534d974a265b92234f4a60d4b1c336437522b71f40c8a611d87f22a98f",
   "indexed_at": "2026-02-25T14:03:42.442Z",
-  "synced_at": "2026-02-27T02:52:20.727Z",
+  "synced_at": "2026-02-28T04:24:46.368Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1d19b496b3df8d34b198bd4f2180f9a58c9f2a369c7d72e8e2532d8b4bf1086e",
   "install_command": "mkdir -p .claude/skills/multimodal-doc-converter && curl -sL \"https://raw.githubusercontent.com/budaobu/multimodal-doc-converter/main/SKILL.md\" > .claude/skills/multimodal-doc-converter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/budaobu/multimodal-doc-converter/main/SKILL.md"

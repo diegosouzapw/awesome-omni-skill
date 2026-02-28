@@ -1,6 +1,8 @@
 ---
 name: pitchdocs-suite
 description: One-command generation and audit of the full public repository documentation set — README, CHANGELOG, ROADMAP, CONTRIBUTING, CODE_OF_CONDUCT, SECURITY, issue templates, PR template, and discussion templates. Use when setting up a new repo or auditing an existing one.
+version: "1.0.0"
+upstream: "contributor-covenant@3.0"
 ---
 
 # Repository Documentation Suite
@@ -30,6 +32,8 @@ A well-documented public repository should have these files:
 | `llms.txt` | LLM-friendly content index for AI tools (Cursor, Windsurf, Claude Code) | `llms-txt` skill |
 | `AGENTS.md` | Cross-tool AI agent context — conventions, architecture, key commands | `ai-context` skill |
 | `.github/copilot-instructions.md` | GitHub Copilot repository-level instructions | `ai-context` skill |
+| `.windsurfrules` | Windsurf (Cascade AI) project-level context | `ai-context` skill |
+| `.clinerules` | Cline VS Code extension project-level context | `ai-context` skill |
 | `CODE_OF_CONDUCT.md` | Community behaviour standards | This skill |
 | `SECURITY.md` | Vulnerability reporting process | This skill |
 | `.github/ISSUE_TEMPLATE/config.yml` | Issue template chooser config | This skill |
@@ -44,6 +48,7 @@ A well-documented public repository should have these files:
 | `ROADMAP.md` | Public development roadmap | `roadmap` skill |
 | `CLAUDE.md` | Project-specific Claude Code context — coding standards, architecture, key paths | `ai-context` skill |
 | `.cursorrules` | Cursor-specific rules derived from codebase conventions | `ai-context` skill |
+| `GEMINI.md` | Gemini CLI project context (or `.gemini/GEMINI.md`) | `ai-context` skill |
 | `docs/guides/configuration.md` | All config options explained | `user-guides` skill |
 | `docs/guides/deployment.md` | Production deployment guide | `user-guides` skill |
 | `docs/guides/troubleshooting.md` | Common issues and solutions | `user-guides` skill |
@@ -174,7 +179,7 @@ Guidance on storing and referencing visual elements (screenshots, demo GIFs, dia
 
 ```bash
 # Check for all expected files
-for f in README.md LICENSE CONTRIBUTING.md CHANGELOG.md ROADMAP.md CODE_OF_CONDUCT.md SECURITY.md SUPPORT.md llms.txt AGENTS.md CLAUDE.md .cursorrules; do
+for f in README.md LICENSE CONTRIBUTING.md CHANGELOG.md ROADMAP.md CODE_OF_CONDUCT.md SECURITY.md SUPPORT.md llms.txt AGENTS.md CLAUDE.md .cursorrules .windsurfrules .clinerules; do
   [ -f "$f" ] && echo "✓ $f" || echo "✗ $f (missing)"
 done
 
@@ -194,6 +199,28 @@ For each existing file, check:
 - **CONTRIBUTING.md**: Does it match the actual development workflow?
 - **CHANGELOG.md**: Is it up to date with the latest release?
 - **SECURITY.md**: Does it include a responsible disclosure process?
+
+#### License Validation
+
+Three checks to catch common license issues:
+
+1. **LICENSE file exists** — flag if the file uses `.md` extension (`LICENSE.md`). GitHub's licence detection prefers extensionless `LICENSE` or `LICENSE.txt`.
+
+2. **Manifest matches LICENSE** — cross-reference the `license` field in `package.json` or `pyproject.toml` against the LICENSE file header:
+   ```bash
+   # npm
+   node -e "console.log(require('./package.json').license)" 2>/dev/null
+   # PyPI
+   python3 -c "import tomllib; f=open('pyproject.toml','rb'); print(tomllib.load(f).get('project',{}).get('license'))" 2>/dev/null
+   ```
+   Flag mismatches (e.g., manifest says `MIT` but LICENSE file contains Apache-2.0 text).
+
+3. **No verbatim license text in context files** — AI-generated context files sometimes accidentally embed full license text. Scan for license preamble patterns:
+   ```bash
+   grep -rl "Permission is hereby granted, free of charge" .claude/ .cursorrules AGENTS.md .clinerules .windsurfrules GEMINI.md 2>/dev/null
+   grep -rl "Licensed under the Apache License" .claude/ .cursorrules AGENTS.md .clinerules .windsurfrules GEMINI.md 2>/dev/null
+   ```
+   Flag any matches — license text belongs in LICENSE, not in skill/rule/context files.
 
 ### Step 3: Generate Missing Files
 

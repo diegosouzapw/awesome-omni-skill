@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b4cb45ddd717291f0b72d90817850a398e2bd69605ef2396869339de2459d63f",
   "indexed_at": "2026-02-26T04:25:56.226Z",
-  "synced_at": "2026-02-27T02:52:40.190Z",
+  "synced_at": "2026-02-28T04:25:14.167Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a47a175fa9c9b3e314260e1568e6e2553329330762810bb36a13bbd270e908e1",
   "install_command": "mkdir -p .claude/skills/clavix-refine && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/clavix-refine/SKILL.md\" > .claude/skills/clavix-refine/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/clavix-refine/SKILL.md"

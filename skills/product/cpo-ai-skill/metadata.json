@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "41f0a25fa4dcec01e51f053a6c18acc21cdcb28451b35b40099a3fd9b7ced6d5",
   "indexed_at": "2026-02-26T07:56:15.089Z",
-  "synced_at": "2026-02-27T02:52:43.941Z",
+  "synced_at": "2026-02-28T04:25:18.122Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8d110e07baa8fa3198b96bf939386ba3b7596ffebee60016dddf5eef69481812",
   "install_command": "mkdir -p .claude/skills/cpo-ai-skill && curl -sL \"https://raw.githubusercontent.com/escotilha/claude-kit/main/skills/cpo-ai-skill/SKILL.md\" > .claude/skills/cpo-ai-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/escotilha/claude-kit/main/skills/cpo-ai-skill/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "03a6bd33662f29f2ee1eebe7a626af184aa8322755cdcb98656c89dd5b23d63c",
   "indexed_at": "2026-02-26T10:55:56.275Z",
-  "synced_at": "2026-02-27T02:52:54.296Z",
+  "synced_at": "2026-02-28T04:25:32.562Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4e67cc155eff4802ce79020ad211e2baafe65bfcde259e2e291e01a63a7747c9",
   "install_command": "mkdir -p .claude/skills/full-stack-orchestration-full-stack-feature && curl -sL \"https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/full-stack-orchestration-full-stack-feature/SKILL.md\" > .claude/skills/full-stack-orchestration-full-stack-feature/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/full-stack-orchestration-full-stack-feature/SKILL.md"

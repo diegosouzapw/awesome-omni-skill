@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a9c44c12ff3bb0077df9ea7b58e756b8efa67c528de41e65ab5957eea81fff95",
   "indexed_at": "2026-02-26T10:54:22.763Z",
-  "synced_at": "2026-02-27T02:52:53.961Z",
+  "synced_at": "2026-02-28T04:25:32.231Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d505b0ad4d6201fa9268283a383d983cd2c83f2547b3f24c90f75220c2ddb310",
   "install_command": "mkdir -p .claude/skills/full-stack-orchestration-full-stack-feature && curl -sL \"https://raw.githubusercontent.com/harshahosur81/ag-opencode-skills/main/skills/full-stack-orchestration-full-stack-feature/SKILL.md\" > .claude/skills/full-stack-orchestration-full-stack-feature/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/harshahosur81/ag-opencode-skills/main/skills/full-stack-orchestration-full-stack-feature/SKILL.md"

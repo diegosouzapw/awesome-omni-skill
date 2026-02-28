@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "972248eb98db2a5ab9ef621de137c3468e5521a43081e06d5e862344e62ddf86",
   "indexed_at": "2026-02-26T05:09:22.499Z",
-  "synced_at": "2026-02-27T02:53:08.290Z",
+  "synced_at": "2026-02-28T04:25:53.513Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/48b24ee31c2515b7129ab3bd859df9dd71b91adf7d8074c84be0c56caf1dab35",
   "install_command": "mkdir -p .claude/skills/accept-pr && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/accept-pr/SKILL.md\" > .claude/skills/accept-pr/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/accept-pr/SKILL.md"

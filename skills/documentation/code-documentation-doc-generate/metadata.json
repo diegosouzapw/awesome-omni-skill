@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "835523f0c31856bc4581a335a7a459584493555035c852c2e5f374e8a0e37f87",
   "indexed_at": "2026-02-25T15:26:28.555Z",
-  "synced_at": "2026-02-27T02:53:00.787Z",
+  "synced_at": "2026-02-28T04:25:41.048Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/de81bb3a85c5509afac7926b285deedc509cecde4c1b85de37f98589e058fbaa",
   "install_command": "mkdir -p .claude/skills/code-documentation-doc-generate && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/code-documentation-doc-generate/SKILL.md\" > .claude/skills/code-documentation-doc-generate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/code-documentation-doc-generate/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e7e62e818d87686796acc3a625b62f1c8375d32058039577bbbe2c2a2bf0b843",
   "indexed_at": "2026-02-24T23:41:15.549Z",
-  "synced_at": "2026-02-27T02:53:03.762Z",
+  "synced_at": "2026-02-28T04:25:46.458Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b447f9cfb4d90558c62ec8ccf36674dc05cb197c021aab80e9b396c685c0ccfa",
   "install_command": "mkdir -p .claude/skills/acc-changelog-template && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-changelog-template/SKILL.md\" > .claude/skills/acc-changelog-template/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/acc-changelog-template/SKILL.md"

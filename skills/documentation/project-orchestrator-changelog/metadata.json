@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6551a65836006ebe78df22060cedf3f059a17159d9b45b035ce0e065e5eed263",
   "indexed_at": "2026-02-25T13:57:33.342Z",
-  "synced_at": "2026-02-27T02:53:12.673Z",
+  "synced_at": "2026-02-28T04:25:59.182Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/424ac6650d94ef300e982057273d891c029730c26afbab25c8ba60693a9f4314",
   "install_command": "mkdir -p .claude/skills/project-orchestrator-changelog && curl -sL \"https://raw.githubusercontent.com/GigaFyde/project-orchestrator/main/skills/changelog/SKILL.md\" > .claude/skills/project-orchestrator-changelog/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/GigaFyde/project-orchestrator/main/skills/changelog/SKILL.md"

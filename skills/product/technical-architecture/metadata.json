@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e2e7f54139213de5e3745241b12632c5df1995afadfeb3f905316688cfde5396",
   "indexed_at": "2026-02-26T05:50:58.974Z",
-  "synced_at": "2026-02-27T02:52:41.574Z",
+  "synced_at": "2026-02-28T04:25:15.724Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2161c549ddaa805324969456bd2daf2276348a15c50aa15505ecd0c47a50aafb",
   "install_command": "mkdir -p .claude/skills/technical-architecture && curl -sL \"https://raw.githubusercontent.com/Jeff-Stapleton/dotclaude/main/.claude/skills/technical-architecture/SKILL.md\" > .claude/skills/technical-architecture/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Jeff-Stapleton/dotclaude/main/.claude/skills/technical-architecture/SKILL.md"

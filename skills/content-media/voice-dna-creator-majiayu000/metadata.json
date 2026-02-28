@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/other/voice-dna-creator/SKILL.md",
+  "file_path": "skills/other/voice-dna-creator-az9713-ai-co-writing-claude/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": false,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "a14cc45f5727f33370674865814cd3b6db8f02f0d9b1219e4ab41363edf43519",
-  "indexed_at": "2026-02-25T14:36:29.539Z",
-  "synced_at": "2026-02-27T02:52:21.099Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c3d3225e14e9b0443d97748804fa8c9c115015e2d27eb8b04d16b00b4d84e178",
-  "install_command": "mkdir -p .claude/skills/voice-dna-creator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/voice-dna-creator/SKILL.md\" > .claude/skills/voice-dna-creator/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/voice-dna-creator/SKILL.md"
+  "content_hash": "8f8ffdf0a853d358797989a7db61a130bcff722580da295eeab281f4586eb695",
+  "indexed_at": "2026-02-27T21:51:10.576Z",
+  "synced_at": "2026-02-28T04:24:51.878Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2279ae912dd10783a945d680f35e8a2d6e86d1dcca3d0ac0e52a2bdc73d08861",
+  "install_command": "mkdir -p .claude/skills/voice-dna-creator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/voice-dna-creator-az9713-ai-co-writing-claude/SKILL.md\" > .claude/skills/voice-dna-creator/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/voice-dna-creator-az9713-ai-co-writing-claude/SKILL.md"
 }

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2bed110f2945d80a9528cfc107967559447d88f54ec431779c79da650f95fc68",
   "indexed_at": "2026-02-26T09:55:34.439Z",
-  "synced_at": "2026-02-27T02:52:45.505Z",
+  "synced_at": "2026-02-28T04:25:19.772Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6180fc1a4ffb938caf23fb93a1bc337c40c24df71a9ffca7097748ccb0cd0966",
   "install_command": "mkdir -p .claude/skills/sre-task-refinement && curl -sL \"https://raw.githubusercontent.com/withzombies/hyperpowers/main/.agents/skills/sre-task-refinement/SKILL.md\" > .claude/skills/sre-task-refinement/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/withzombies/hyperpowers/main/.agents/skills/sre-task-refinement/SKILL.md"

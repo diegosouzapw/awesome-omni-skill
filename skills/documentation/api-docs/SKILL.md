@@ -1,70 +1,236 @@
 ---
 name: api-docs
-description: Generate, validate, and maintain API documentation (REST/OpenAPI and GraphQL) with reproducible structure and evidence-backed confidence.
-allowed-tools: Read, Write, Edit, Bash, Glob, Grep, Task, TodoWrite
-model: sonnet
-x-version: 3.2.0
-x-category: delivery
-x-vcl-compliance: v3.1.1
-x-cognitive-frames:
-  - HON
-  - MOR
-  - COM
-  - CLS
-  - EVD
-  - ASP
-  - SPC
+description: Expert API documentation including OpenAPI specs, endpoint documentation, and SDK guides
+version: 1.0.0
+author: USER
+tags: [api-documentation, openapi, swagger, endpoints, sdk]
 ---
 
+# API Docs
 
-## STANDARD OPERATING PROCEDURE
+## Purpose
+Create comprehensive API documentation including OpenAPI/Swagger specs, endpoint references, authentication guides, and SDK documentation.
 
-### Purpose
-Ship accurate, consumable API docs with validated schemas, runnable examples, and clear auth/error guidance.
+## Activation Keywords
+- api documentation, api docs
+- openapi, swagger
+- endpoint documentation
+- rest api docs, graphql docs
+- sdk documentation
 
-### Trigger Conditions
-- **Positive:** REST/GraphQL doc creation or updates, versioned API rollouts, deprecation notices, interactive explorer setup.
-- **Negative:** Narrative/internal docs (route to `documentation`) or prompt-focused tasks (route to `prompt-architect`).
+## Core Capabilities
 
-### Guardrails
-- **Structure-first:** maintain `examples/`, `tests/`, `resources/`, `references/` alongside `SKILL.md`.
-- **Constraint extraction:** capture HARD/SOFT/INFERRED constraints on audience, security posture, and versioning; confirm inferred.
-- **Validation:** run spec validators (OpenAPI/GraphQL), exercise examples, and note unrun commands.
-- **Confidence ceilings:** apply `{inference/report:0.70, research:0.85, observation/definition:0.95}` to all claims.
-- **Safety:** no secret exposure; redact internal endpoints when producing public docs.
+### 1. OpenAPI Specification
+- Full spec generation
+- Schema definitions
+- Example requests/responses
+- Security schemes
+- Versioning
 
-### Execution Phases
-1. **Scope & Sources**
-   - Identify surfaces (REST/GraphQL), auth schemes, target audience, and supported versions.
-   - Gather schemas, code annotations, and existing references; log constraints.
-2. **Outline & Contracts**
-   - Define required sections: overview, auth, endpoints/operations, errors, rate limits, changelog.
-   - Confirm INFERRED needs (SDK snippets, language coverage).
-3. **Author & Validate**
-   - Draft OpenAPI/GraphQL artifacts; generate runnable examples in `examples/`.
-   - Validate specs (swagger-cli, graphql-schema-linter) and sample requests.
-4. **Publish & Harden**
-   - Wire interactive explorer (Swagger UI/GraphQL Playground) if in scope.
-   - Add tests in `tests/` (lint, link check, example execution) and store outputs in `resources/`.
-5. **Review & Deliver**
-   - Summarize deltas, risks, and next steps; cite sources in `references/`.
-   - Provide confidence statement with ceiling.
+### 2. Endpoint Documentation
+- Method descriptions
+- Parameter details
+- Response formats
+- Error codes
+- Rate limits
 
-### Output Format
-- Scope summary + constraints (HARD/SOFT/INFERRED, confirmed).
-- Spec status and validation results.
-- Example calls and changelog notes.
-- Evidence with **Confidence: X.XX (ceiling: TYPE Y.YY)**.
+### 3. Authentication Guides
+- Auth flow documentation
+- Token management
+- Scope explanations
+- Security best practices
+- Example implementations
 
-### Validation Checklist
-- [ ] Audience and version coverage confirmed; inferred asks resolved.
-- [ ] Specs validated; examples executed or annotated as not run.
-- [ ] Auth, errors, and rate limits documented.
-- [ ] Tests present in `tests/`; artifacts stored in `resources/`; references recorded.
-- [ ] Confidence ceilings applied to claims and guidance.
+### 4. SDK Documentation
+- Installation guides
+- Quick start examples
+- Method references
+- Error handling
+- Best practices
 
-### MCP / Memory Tags
-- Namespace: `skills/delivery/api-docs/{api}/{version}`
-- Tags: `WHO=api-docs-{session}`, `WHY=skill-execution`, `WHAT=spec+docs`
+### 5. Interactive Examples
+- cURL commands
+- Language-specific examples
+- Postman collections
+- Live API playground
+- Response samples
 
-Confidence: 0.70 (ceiling: inference 0.70) - SOP integrates skill-forge structure-first and prompt-architect constraint/ceiling rules.
+## OpenAPI Template
+
+```yaml
+openapi: 3.0.3
+info:
+  title: [API Name]
+  description: |
+    [API Description]
+
+    ## Authentication
+    [Auth description]
+
+    ## Rate Limits
+    [Rate limit info]
+  version: 1.0.0
+  contact:
+    email: api@example.com
+
+servers:
+  - url: https://api.example.com/v1
+    description: Production
+  - url: https://staging-api.example.com/v1
+    description: Staging
+
+security:
+  - bearerAuth: []
+
+paths:
+  /resource:
+    get:
+      summary: List resources
+      description: Returns a paginated list of resources
+      tags:
+        - Resources
+      parameters:
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ResourceList'
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+  schemas:
+    Resource:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+```
+
+## Endpoint Documentation Format
+
+```markdown
+## Create User
+
+Creates a new user account.
+
+### Endpoint
+```
+POST /api/v1/users
+```
+
+### Authentication
+Requires `admin` scope.
+
+### Request Headers
+| Header | Required | Description |
+|--------|----------|-------------|
+| Authorization | Yes | Bearer token |
+| Content-Type | Yes | application/json |
+
+### Request Body
+```json
+{
+  "email": "user@example.com",
+  "name": "John Doe",
+  "role": "member"
+}
+```
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| email | string | Yes | Valid email address |
+| name | string | Yes | User's full name |
+| role | string | No | One of: admin, member |
+
+### Response
+
+#### Success (201 Created)
+```json
+{
+  "id": "usr_abc123",
+  "email": "user@example.com",
+  "name": "John Doe",
+  "role": "member",
+  "created_at": "2024-01-15T10:30:00Z"
+}
+```
+
+#### Errors
+| Status | Code | Description |
+|--------|------|-------------|
+| 400 | INVALID_EMAIL | Email format invalid |
+| 409 | EMAIL_EXISTS | Email already registered |
+| 401 | UNAUTHORIZED | Invalid or missing token |
+
+### Example
+
+```bash
+curl -X POST https://api.example.com/v1/users \
+  -H "Authorization: Bearer sk_live_xxx" \
+  -H "Content-Type: application/json" \
+  -d '{"email": "user@example.com", "name": "John"}'
+```
+```
+
+## Example Usage
+
+```
+User: "Document our /users endpoint"
+
+API Docs Response:
+
+## Users API
+
+### List Users
+```
+GET /api/v1/users
+```
+
+Returns a paginated list of users.
+
+#### Query Parameters
+| Parameter | Type | Default | Description |
+|-----------|------|---------|-------------|
+| page | integer | 1 | Page number |
+| limit | integer | 20 | Items per page (max 100) |
+| status | string | all | Filter: active, inactive, all |
+
+#### Response (200 OK)
+```json
+{
+  "data": [
+    {
+      "id": "usr_abc123",
+      "email": "user@example.com",
+      "name": "John Doe",
+      "status": "active",
+      "created_at": "2024-01-15T10:30:00Z"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 20,
+    "total": 150,
+    "pages": 8
+  }
+}
+```
+
+#### cURL Example
+```bash
+curl https://api.example.com/v1/users?limit=10 \
+  -H "Authorization: Bearer $API_KEY"
+```
+```

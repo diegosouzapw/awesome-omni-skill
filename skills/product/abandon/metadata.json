@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6ff5af97644ae032179494296cd3efaadb7733fdaf810d65883f28049d548298",
   "indexed_at": "2026-02-24T23:39:10.188Z",
-  "synced_at": "2026-02-27T02:52:32.917Z",
+  "synced_at": "2026-02-28T04:25:01.803Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e642d37a68b21165f26139ab7eda55ce9243db9a75da473334be1ca3c9b8dca9",
   "install_command": "mkdir -p .claude/skills/abandon && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/abandon/SKILL.md\" > .claude/skills/abandon/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/abandon/SKILL.md"

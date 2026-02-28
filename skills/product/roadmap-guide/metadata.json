@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7decb61cc8f5a27913f3f434461e47b20018ab88759b080906b383c8696b6264",
   "indexed_at": "2026-02-25T12:39:15.805Z",
-  "synced_at": "2026-02-27T02:52:56.010Z",
+  "synced_at": "2026-02-28T04:25:36.336Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/832eb053cf3934dd578755b9a44f8a681ac8e4b4cb1d1deb9bb13a7c83a489db",
   "install_command": "mkdir -p .claude/skills/roadmap-guide && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/roadmap-guide/SKILL.md\" > .claude/skills/roadmap-guide/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/roadmap-guide/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "870a04c04030b2cf43b28ed34a8b384481cc5916845745efffb473959a5ee9c0",
   "indexed_at": "2026-02-25T14:03:06.201Z",
-  "synced_at": "2026-02-27T02:52:18.043Z",
+  "synced_at": "2026-02-28T04:24:42.352Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ee3ac6dc23824da99f773daaf1c5983102ec4efcb8f7ee9613e0ddd4ff157e3e",
   "install_command": "mkdir -p .claude/skills/cv181x-media && curl -sL \"https://raw.githubusercontent.com/Seeed-Studio/ai-skills/main/skills/cv181x-media/SKILL.md\" > .claude/skills/cv181x-media/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Seeed-Studio/ai-skills/main/skills/cv181x-media/SKILL.md"

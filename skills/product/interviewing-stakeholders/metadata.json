@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a9f82e8643753836fabe4e88d2695aabcda062c3ac1c233f3d5c395b93d9e4df",
   "indexed_at": "2026-02-26T09:55:37.909Z",
-  "synced_at": "2026-02-27T02:52:45.686Z",
+  "synced_at": "2026-02-28T04:25:20.555Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/24b358b9396596bdd81f431777a329731f4dff1d549f0e9dccf07978b7e7c698",
   "install_command": "mkdir -p .claude/skills/interviewing-stakeholders && curl -sL \"https://raw.githubusercontent.com/jasontalley/pact/main/.claude/skills/interviewing-stakeholders/SKILL.md\" > .claude/skills/interviewing-stakeholders/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jasontalley/pact/main/.claude/skills/interviewing-stakeholders/SKILL.md"
