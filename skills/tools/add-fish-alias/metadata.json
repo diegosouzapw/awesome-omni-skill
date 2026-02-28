@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f0702ac5e5f843c88e36c4eccfa8d18e4acf3d455d2275ecb4dc3e399c9afcc4",
   "indexed_at": "2026-02-27T01:54:05.782Z",
-  "synced_at": "2026-02-27T02:44:07.026Z",
+  "synced_at": "2026-02-28T04:13:59.001Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5d336fb33c4ac726c939c7a50721f5ba955adf9b134468f66f18436b75884542",
   "install_command": "mkdir -p .claude/skills/add-fish-alias && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-fish-alias/SKILL.md\" > .claude/skills/add-fish-alias/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-fish-alias/SKILL.md"

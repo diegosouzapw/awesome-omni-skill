@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a62be4ae309a4aeb99512ebaa9ff32685a4e7943b4aaaf7e1f4a9f7e25ff601c",
   "indexed_at": "2026-02-25T12:35:07.301Z",
-  "synced_at": "2026-02-27T02:44:28.005Z",
+  "synced_at": "2026-02-28T04:14:23.843Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/69c2777a985d6b3415f90bbb4e8f6bb280f5d9a1ce5cf347f2be4e8840949963",
   "install_command": "mkdir -p .claude/skills/turkey-build && curl -sL \"https://raw.githubusercontent.com/rangerchaz/turkey-build/main/SKILL.md\" > .claude/skills/turkey-build/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rangerchaz/turkey-build/main/SKILL.md"

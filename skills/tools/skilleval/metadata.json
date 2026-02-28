@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "279e3fbcd98c97d8d622363719a419115e592b95ca106bc381d7e647226edf74",
   "indexed_at": "2026-02-27T01:30:47.010Z",
-  "synced_at": "2026-02-27T02:44:52.732Z",
+  "synced_at": "2026-02-28T04:14:43.258Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9d34f4efd6875b2bcaf18b2f4a3d52beebd299026f04f9682578ce826d3cf75e",
   "install_command": "mkdir -p .claude/skills/skilleval && curl -sL \"https://raw.githubusercontent.com/mluckydream/skill-eval/main/SKILL.md\" > .claude/skills/skilleval/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mluckydream/skill-eval/main/SKILL.md"

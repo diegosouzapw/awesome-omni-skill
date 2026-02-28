@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6c0ac2cb8072a82183985f7542f28327a73bb9b51eda01cbfc43ef9f14d4b044",
   "indexed_at": "2026-02-26T22:36:44.600Z",
-  "synced_at": "2026-02-27T02:44:53.402Z",
+  "synced_at": "2026-02-28T04:14:50.220Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fa2b449793eaccd7ee70c4d08debf440290487772c14a54484bc8869d63b8304",
   "install_command": "mkdir -p .claude/skills/wan-t2v-video && curl -sL \"https://raw.githubusercontent.com/artokun/comfyui-mcp/main/plugin/skills/wan-t2v-video/SKILL.md\" > .claude/skills/wan-t2v-video/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/artokun/comfyui-mcp/main/plugin/skills/wan-t2v-video/SKILL.md"

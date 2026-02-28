@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "83ac773718f6eb23a1647b058cddb3366019d3950330bd53a6d495342c324803",
   "indexed_at": "2026-02-26T14:25:51.040Z",
-  "synced_at": "2026-02-27T02:44:43.614Z",
+  "synced_at": "2026-02-28T04:14:35.872Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a4bfdaa541c2889f31d98f10bcf7efecd3c609b69a652718f7eab756c030d5ae",
   "install_command": "mkdir -p .claude/skills/cursor-agent && curl -sL \"https://raw.githubusercontent.com/danstrem2/clawdbot-skill-master-pack/main/skills/cursor-agent/SKILL.md\" > .claude/skills/cursor-agent/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/danstrem2/clawdbot-skill-master-pack/main/skills/cursor-agent/SKILL.md"

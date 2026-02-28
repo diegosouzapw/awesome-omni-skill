@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7addfae4cc22ace9b5412cbb4217c5272c00c66c69eec4a01eddf49a8c1f4ad8",
   "indexed_at": "2026-02-25T13:57:17.708Z",
-  "synced_at": "2026-02-27T02:45:04.672Z",
+  "synced_at": "2026-02-28T04:15:02.529Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9cc412ac8145d60685608240057e12f65772a374e6b05dc18cc3de5ca7dad7f7",
   "install_command": "mkdir -p .claude/skills/foundry && curl -sL \"https://raw.githubusercontent.com/alphaonedev/openclaw-graph/main/skills/blockchain/foundry/SKILL.md\" > .claude/skills/foundry/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alphaonedev/openclaw-graph/main/skills/blockchain/foundry/SKILL.md"

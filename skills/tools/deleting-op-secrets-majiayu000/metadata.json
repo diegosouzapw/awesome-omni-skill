@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "507f15f14095d12b85eea6d14bd0a1cf5a5c0daa99a9b6f7662040d5fc883b9a",
   "indexed_at": "2026-02-25T12:55:22.648Z",
-  "synced_at": "2026-02-27T02:45:00.900Z",
+  "synced_at": "2026-02-28T04:14:58.516Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4cb2cc8dbffaeb4a2e07ce1e8bb96700c22f0da1a39dea08cae475a372d74e29",
   "install_command": "mkdir -p .claude/skills/deleting-op-secrets && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/op-secrets-deleter-leefowlercu-agent-kit-47eb40d8/SKILL.md\" > .claude/skills/deleting-op-secrets/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/op-secrets-deleter-leefowlercu-agent-kit-47eb40d8/SKILL.md"

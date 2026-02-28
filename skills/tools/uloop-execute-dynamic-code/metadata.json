@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0bddf3c9c3aab9fc6e152a46dccc87bb5ca2388429e43f540881c2c89dd001b0",
   "indexed_at": "2026-02-25T16:56:27.670Z",
-  "synced_at": "2026-02-27T02:45:10.771Z",
+  "synced_at": "2026-02-28T04:15:08.637Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a83c14ec86a65586befcce0c8cbc3217604730aecfc73a1db89c5abe50c21298",
   "install_command": "mkdir -p .claude/skills/uloop-execute-dynamic-code && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/uloop-execute-dynamic-code-majiayu000-claude-skill-regist/SKILL.md\" > .claude/skills/uloop-execute-dynamic-code/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/uloop-execute-dynamic-code-majiayu000-claude-skill-regist/SKILL.md"

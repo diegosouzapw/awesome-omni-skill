@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6a88d579e7011d68c287d3e5522b67e8a807ca1e335378d05d3bc9a1bf6c15f0",
   "indexed_at": "2026-02-26T05:09:16.624Z",
-  "synced_at": "2026-02-27T02:44:18.843Z",
+  "synced_at": "2026-02-28T04:14:14.926Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e4057d3f9ca8d996aa651f0cdaac81e67b43f72d06ab341ec054b45d35778ed6",
   "install_command": "mkdir -p .claude/skills/acc-stability-patterns-knowledge && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-stability-patterns-knowledge/SKILL.md\" > .claude/skills/acc-stability-patterns-knowledge/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-stability-patterns-knowledge/SKILL.md"

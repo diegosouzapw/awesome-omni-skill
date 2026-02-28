@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3393742762807c44535e239da68a0d2041f7cf58f78bccbdef46b09658595330",
   "indexed_at": "2026-02-25T19:04:35.565Z",
-  "synced_at": "2026-02-27T02:45:13.295Z",
+  "synced_at": "2026-02-28T04:15:11.040Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/735d7532be482b019dcb4493a139e6c4b99482dfb1b0d1c9608ab5b6ed081309",
   "install_command": "mkdir -p .claude/skills/generate-note-ideas && curl -sL \"https://raw.githubusercontent.com/kenneth-liao/ai-launchpad-marketplace/main/substack/skills/generate-note-ideas/SKILL.md\" > .claude/skills/generate-note-ideas/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kenneth-liao/ai-launchpad-marketplace/main/substack/skills/generate-note-ideas/SKILL.md"

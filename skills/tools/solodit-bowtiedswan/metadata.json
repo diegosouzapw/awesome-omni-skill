@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "89e037a49c1d0a05a894ec2652c197897d3b46092ec946581f31f08d0338d740",
   "indexed_at": "2026-02-25T12:48:43.724Z",
-  "synced_at": "2026-02-27T02:44:58.837Z",
+  "synced_at": "2026-02-28T04:14:56.301Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/65ea309714d2cc8d26d4a06498dc56338132100929854414c978ce3633eef36c",
   "install_command": "mkdir -p .claude/skills/solodit && curl -sL \"https://raw.githubusercontent.com/BowTiedSwan/solodit-api-skill/main/SKILL.md\" > .claude/skills/solodit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/BowTiedSwan/solodit-api-skill/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "14ab537a89d22603b0e0fa0b4580ad0cde8c2933e94784c0c5d376bc018e7a77",
   "indexed_at": "2026-02-25T13:49:30.774Z",
-  "synced_at": "2026-02-27T02:45:03.759Z",
+  "synced_at": "2026-02-28T04:15:01.674Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0d10b6fe7b45ee41475e6c1223879e4ac204d92821ae9807ebb868dad20b1d62",
   "install_command": "mkdir -p .claude/skills/powerpoint && curl -sL \"https://raw.githubusercontent.com/tmustier/powerpoint-cli/main/SKILL.md\" > .claude/skills/powerpoint/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tmustier/powerpoint-cli/main/SKILL.md"

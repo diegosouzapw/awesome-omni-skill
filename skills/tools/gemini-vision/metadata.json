@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2d9b6d5eb6a5f05d4a3282fa127cb549c8f71327cf23bcad09426df0fbfb547a",
   "indexed_at": "2026-02-26T06:54:21.530Z",
-  "synced_at": "2026-02-27T02:45:25.114Z",
+  "synced_at": "2026-02-28T04:15:22.289Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/58c949721f37590a845b3ca19317806f67af8012c643171230b6a7816f4f53b0",
   "install_command": "mkdir -p .claude/skills/gemini-vision && curl -sL \"https://raw.githubusercontent.com/keithamckenzie/rgbw-lighting/main/.claude/skills/gemini-vision/SKILL.md\" > .claude/skills/gemini-vision/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/keithamckenzie/rgbw-lighting/main/.claude/skills/gemini-vision/SKILL.md"

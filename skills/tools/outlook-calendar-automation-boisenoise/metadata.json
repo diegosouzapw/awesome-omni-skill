@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6d42ae4565f9807bf80cb7dfe9bf3f74018d81ac57ff673305106a8105895c19",
   "indexed_at": "2026-02-25T14:51:28.880Z",
-  "synced_at": "2026-02-27T02:45:06.091Z",
+  "synced_at": "2026-02-28T04:15:03.933Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0c2e1d8c02b18b776d9d981f999891ea9eed30cc95f434c52b7f71cfb2ed85f5",
   "install_command": "mkdir -p .claude/skills/outlook-calendar-automation && curl -sL \"https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-outlook-calendar-automation/SKILL.md\" > .claude/skills/outlook-calendar-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-outlook-calendar-automation/SKILL.md"

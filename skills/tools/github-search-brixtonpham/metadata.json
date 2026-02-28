@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "74eaa8d8fcdddc5d9db6c334afae117ff16932ace1609ab7cd0b53e1c3a15498",
   "indexed_at": "2026-02-24T23:52:01.691Z",
-  "synced_at": "2026-02-27T02:44:54.469Z",
+  "synced_at": "2026-02-28T04:14:51.788Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/22de1ac33901bf3644863235a33ee071d3791120a320f570f5e0a5b1934e29ce",
   "install_command": "mkdir -p .claude/skills/github-search && curl -sL \"https://raw.githubusercontent.com/brixtonpham/claude-config/main/skills/github-search/SKILL.md\" > .claude/skills/github-search/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/brixtonpham/claude-config/main/skills/github-search/SKILL.md"

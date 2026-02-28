@@ -1,228 +1,262 @@
 ---
 name: slack-gif-creator
-description: Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like "make me a GIF of X doing Y for Slack."
-license: Complete terms in LICENSE.txt
+description: Conhecimento e utilitários para criar GIFs animados otimizados para Slack. Fornece restrições, ferramentas de validação e conceitos de animação. Use quando os usuários solicitarem GIFs animados para Slack como "faça-me um GIF de X fazendo Y para Slack."
+license: Termos completos em LICENSE.txt
 ---
 
-# Slack GIF Creator
+# Criador de GIF para Slack
 
-A toolkit providing utilities and knowledge for creating animated GIFs optimized for Slack.
+Um kit de ferramentas fornecendo utilitários e conhecimentos para criar GIFs animados otimizados para Slack.
 
-## Slack Requirements
+## Requisitos do Slack
 
-**Dimensions:**
-- Emoji GIFs: 128x128 (recommended)
-- Message GIFs: 480x480
+**Dimensões:**
 
-**Parameters:**
-- FPS: 10-30 (lower is smaller file size)
-- Colors: 48-128 (fewer = smaller file size)
-- Duration: Keep under 3 seconds for emoji GIFs
+- GIFs de Emoji: 128x128 (recomendado)
+- GIFs de Mensagem: 480x480
 
-## Core Workflow
+**Parâmetros:**
+
+- FPS: 10-30 (menor é menor tamanho de arquivo)
+- Cores: 48-128 (menos = menor tamanho de arquivo)
+- Duração: Mantenha abaixo de 3 segundos para GIFs de emoji
+
+## Fluxo de Trabalho Principal
 
 ```python
 from core.gif_builder import GIFBuilder
 from PIL import Image, ImageDraw
 
-# 1. Create builder
+# 1. Crie o construtor
 builder = GIFBuilder(width=128, height=128, fps=10)
 
-# 2. Generate frames
+# 2. Gere quadros
 for i in range(12):
     frame = Image.new('RGB', (128, 128), (240, 248, 255))
     draw = ImageDraw.Draw(frame)
 
-    # Draw your animation using PIL primitives
-    # (circles, polygons, lines, etc.)
+    # Desenhe sua animação usando primitivos PIL
+    # (círculos, polígonos, linhas, etc.)
 
     builder.add_frame(frame)
 
-# 3. Save with optimization
+# 3. Salve com otimização
 builder.save('output.gif', num_colors=48, optimize_for_emoji=True)
 ```
 
-## Drawing Graphics
+## Desenhando Gráficos
 
-### Working with User-Uploaded Images
-If a user uploads an image, consider whether they want to:
-- **Use it directly** (e.g., "animate this", "split this into frames")
-- **Use it as inspiration** (e.g., "make something like this")
+### Trabalhando com Imagens Enviadas pelo Usuário
 
-Load and work with images using PIL:
+Se um usuário enviar uma imagem, considere se ele quer:
+
+- **Usá-la diretamente** (por exemplo, "anime isso", "divida isso em quadros")
+- **Usá-la como inspiração** (por exemplo, "faça algo como isso")
+
+Carregue e trabalhe com imagens usando PIL:
+
 ```python
 from PIL import Image
 
 uploaded = Image.open('file.png')
-# Use directly, or just as reference for colors/style
+# Use diretamente, ou apenas como referência para cores/estilo
 ```
 
-### Drawing from Scratch
-When drawing graphics from scratch, use PIL ImageDraw primitives:
+### Desenhando do Zero
+
+Ao desenhar gráficos do zero, use primitivos PIL ImageDraw:
 
 ```python
 from PIL import ImageDraw
 
 draw = ImageDraw.Draw(frame)
 
-# Circles/ovals
+# Círculos/ovais
 draw.ellipse([x1, y1, x2, y2], fill=(r, g, b), outline=(r, g, b), width=3)
 
-# Stars, triangles, any polygon
+# Estrelas, triângulos, qualquer polígono
 points = [(x1, y1), (x2, y2), (x3, y3), ...]
 draw.polygon(points, fill=(r, g, b), outline=(r, g, b), width=3)
 
-# Lines
+# Linhas
 draw.line([(x1, y1), (x2, y2)], fill=(r, g, b), width=5)
 
-# Rectangles
+# Retângulos
 draw.rectangle([x1, y1, x2, y2], fill=(r, g, b), outline=(r, g, b), width=3)
 ```
 
-**Don't use:** Emoji fonts (unreliable across platforms) or assume pre-packaged graphics exist in this skill.
+**Não use:** Fontes de emoji (não confiáveis em plataformas) ou presuma que existem gráficos pré-empacotados nesta habilidade.
 
-### Making Graphics Look Good
+### Fazendo Gráficos Parecerem Bons
 
-Graphics should look polished and creative, not basic. Here's how:
+Os gráficos devem parecer polidos e criativos, não básicos. Veja como:
 
-**Use thicker lines** - Always set `width=2` or higher for outlines and lines. Thin lines (width=1) look choppy and amateurish.
+**Use linhas mais grossas** - Sempre defina `width=2` ou superior para contornos e linhas. Linhas finas (width=1) parecem irregulares e amadoras.
 
-**Add visual depth**:
-- Use gradients for backgrounds (`create_gradient_background`)
-- Layer multiple shapes for complexity (e.g., a star with a smaller star inside)
+**Adicione profundidade visual**:
 
-**Make shapes more interesting**:
-- Don't just draw a plain circle - add highlights, rings, or patterns
-- Stars can have glows (draw larger, semi-transparent versions behind)
-- Combine multiple shapes (stars + sparkles, circles + rings)
+- Use gradientes para fundos (`create_gradient_background`)
+- Camada de várias formas para complexidade (por exemplo, uma estrela com uma estrela menor dentro)
 
-**Pay attention to colors**:
-- Use vibrant, complementary colors
-- Add contrast (dark outlines on light shapes, light outlines on dark shapes)
-- Consider the overall composition
+**Torne as formas mais interessantes**:
 
-**For complex shapes** (hearts, snowflakes, etc.):
-- Use combinations of polygons and ellipses
-- Calculate points carefully for symmetry
-- Add details (a heart can have a highlight curve, snowflakes have intricate branches)
+- Não desenhe apenas um círculo simples - adicione destaques, anéis ou padrões
+- Estrelas podem ter brilhos (desenhe versões maiores e semitransparentes atrás)
+- Combine várias formas (estrelas + brilhos, círculos + anéis)
 
-Be creative and detailed! A good Slack GIF should look polished, not like placeholder graphics.
+**Preste atenção às cores**:
 
-## Available Utilities
+- Use cores vibrantes e complementares
+- Adicione contraste (contornos escuros em formas claras, contornos claros em formas escuras)
+- Considere a composição geral
+
+**Para formas complexas** (corações, flocos de neve, etc.):
+
+- Use combinações de polígonos e elipses
+- Calcule pontos cuidadosamente para simetria
+- Adicione detalhes (um coração pode ter uma curva de destaque, flocos de neve têm ramos intrincados)
+
+Seja criativo e detalhado! Um bom GIF Slack deve parecer polido, não como gráficos de espaço reservado.
+
+## Utilitários Disponíveis
 
 ### GIFBuilder (`core.gif_builder`)
-Assembles frames and optimizes for Slack:
+
+Monta quadros e otimiza para Slack:
+
 ```python
 builder = GIFBuilder(width=128, height=128, fps=10)
-builder.add_frame(frame)  # Add PIL Image
-builder.add_frames(frames)  # Add list of frames
+builder.add_frame(frame)  # Adicionar PIL Image
+builder.add_frames(frames)  # Adicionar lista de quadros
 builder.save('out.gif', num_colors=48, optimize_for_emoji=True, remove_duplicates=True)
 ```
 
-### Validators (`core.validators`)
-Check if GIF meets Slack requirements:
+### Validadors (`core.validators`)
+
+Verifique se o GIF atende aos requisitos do Slack:
+
 ```python
 from core.validators import validate_gif, is_slack_ready
 
-# Detailed validation
+# Validação detalhada
 passes, info = validate_gif('my.gif', is_emoji=True, verbose=True)
 
-# Quick check
+# Verificação rápida
 if is_slack_ready('my.gif'):
-    print("Ready!")
+    print("Pronto!")
 ```
 
-### Easing Functions (`core.easing`)
-Smooth motion instead of linear:
+### Funções de Easing (`core.easing`)
+
+Movimento suave em vez de linear:
+
 ```python
 from core.easing import interpolate
 
-# Progress from 0.0 to 1.0
+# Progresso de 0.0 a 1.0
 t = i / (num_frames - 1)
 
-# Apply easing
+# Aplicar easing
 y = interpolate(start=0, end=400, t=t, easing='ease_out')
 
-# Available: linear, ease_in, ease_out, ease_in_out,
+# Disponível: linear, ease_in, ease_out, ease_in_out,
 #           bounce_out, elastic_out, back_out
 ```
 
-### Frame Helpers (`core.frame_composer`)
-Convenience functions for common needs:
+### Auxiliares de Quadro (`core.frame_composer`)
+
+Funções de conveniência para necessidades comuns:
+
 ```python
 from core.frame_composer import (
-    create_blank_frame,         # Solid color background
-    create_gradient_background,  # Vertical gradient
-    draw_circle,                # Helper for circles
-    draw_text,                  # Simple text rendering
-    draw_star                   # 5-pointed star
+    create_blank_frame,         # Fundo de cor sólida
+    create_gradient_background,  # Gradiente vertical
+    draw_circle,                # Auxiliar para círculos
+    draw_text,                  # Renderização de texto simples
+    draw_star                   # Estrela de 5 pontas
 )
 ```
 
-## Animation Concepts
+## Conceitos de Animação
 
-### Shake/Vibrate
-Offset object position with oscillation:
-- Use `math.sin()` or `math.cos()` with frame index
-- Add small random variations for natural feel
-- Apply to x and/or y position
+### Tremer/Vibrar
 
-### Pulse/Heartbeat
-Scale object size rhythmically:
-- Use `math.sin(t * frequency * 2 * math.pi)` for smooth pulse
-- For heartbeat: two quick pulses then pause (adjust sine wave)
-- Scale between 0.8 and 1.2 of base size
+Deslocar a posição do objeto com oscilação:
 
-### Bounce
-Object falls and bounces:
-- Use `interpolate()` with `easing='bounce_out'` for landing
-- Use `easing='ease_in'` for falling (accelerating)
-- Apply gravity by increasing y velocity each frame
+- Use `math.sin()` ou `math.cos()` com índice de quadro
+- Adicione pequenas variações aleatórias para sensação natural
+- Aplique à posição x e/ou y
 
-### Spin/Rotate
-Rotate object around center:
+### Pulso/Batimento Cardíaco
+
+Escalar o tamanho do objeto ritmicamente:
+
+- Use `math.sin(t * frequency * 2 * math.pi)` para pulso suave
+- Para batimento cardíaco: dois pulsos rápidos depois pausa (ajuste onda senoidal)
+- Escala entre 0.8 e 1.2 do tamanho base
+
+### Quicar
+
+Objeto cai e quica:
+
+- Use `interpolate()` com `easing='bounce_out'` para aterrissagem
+- Use `easing='ease_in'` para cair (acelerando)
+- Aplique gravidade aumentando a velocidade y a cada quadro
+
+### Girar/Rotacionar
+
+Gire o objeto ao redor do centro:
+
 - PIL: `image.rotate(angle, resample=Image.BICUBIC)`
-- For wobble: use sine wave for angle instead of linear
+- Para oscilação: use onda senoidal para ângulo em vez de linear
 
 ### Fade In/Out
-Gradually appear or disappear:
-- Create RGBA image, adjust alpha channel
-- Or use `Image.blend(image1, image2, alpha)`
-- Fade in: alpha from 0 to 1
-- Fade out: alpha from 1 to 0
 
-### Slide
-Move object from off-screen to position:
-- Start position: outside frame bounds
-- End position: target location
-- Use `interpolate()` with `easing='ease_out'` for smooth stop
-- For overshoot: use `easing='back_out'`
+Apareça ou desapareça gradualmente:
+
+- Crie imagem RGBA, ajuste canal alfa
+- Ou use `Image.blend(image1, image2, alpha)`
+- Fade in: alfa de 0 a 1
+- Fade out: alfa de 1 a 0
+
+### Deslizar
+
+Mova o objeto de fora da tela para a posição:
+
+- Posição inicial: fora dos limites do quadro
+- Posição final: local de destino
+- Use `interpolate()` com `easing='ease_out'` para parada suave
+- Para overshoot: use `easing='back_out'`
 
 ### Zoom
-Scale and position for zoom effect:
-- Zoom in: scale from 0.1 to 2.0, crop center
-- Zoom out: scale from 2.0 to 1.0
-- Can add motion blur for drama (PIL filter)
 
-### Explode/Particle Burst
-Create particles radiating outward:
-- Generate particles with random angles and velocities
-- Update each particle: `x += vx`, `y += vy`
-- Add gravity: `vy += gravity_constant`
-- Fade out particles over time (reduce alpha)
+Escala e posição para efeito de zoom:
 
-## Optimization Strategies
+- Zoom in: escala de 0.1 a 2.0, corte o centro
+- Zoom out: escala de 2.0 a 1.0
+- Pode adicionar desfoque de movimento para drama (filtro PIL)
 
-Only when asked to make the file size smaller, implement a few of the following methods:
+### Explodir/Explosão de Partículas
 
-1. **Fewer frames** - Lower FPS (10 instead of 20) or shorter duration
-2. **Fewer colors** - `num_colors=48` instead of 128
-3. **Smaller dimensions** - 128x128 instead of 480x480
-4. **Remove duplicates** - `remove_duplicates=True` in save()
-5. **Emoji mode** - `optimize_for_emoji=True` auto-optimizes
+Crie partículas irradiando para fora:
+
+- Gere partículas com ângulos e velocidades aleatórios
+- Atualize cada partícula: `x += vx`, `y += vy`
+- Adicione gravidade: `vy += gravity_constant`
+- Desapareça partículas ao longo do tempo (reduza alfa)
+
+## Estratégias de Otimização
+
+Apenas quando solicitado para diminuir o tamanho do arquivo, implemente alguns dos seguintes métodos:
+
+1. **Menos quadros** - FPS mais baixo (10 em vez de 20) ou duração mais curta
+2. **Menos cores** - `num_colors=48` em vez de 128
+3. **Dimensões menores** - 128x128 em vez de 480x480
+4. **Remover duplicatas** - `remove_duplicates=True` em save()
+5. **Modo Emoji** - `optimize_for_emoji=True` auto-otimiza
 
 ```python
-# Maximum optimization for emoji
+# Otimização máxima para emoji
 builder.save(
     'emoji.gif',
     num_colors=48,
@@ -231,23 +265,25 @@ builder.save(
 )
 ```
 
-## Philosophy
+## Filosofia
 
-This skill provides:
-- **Knowledge**: Slack's requirements and animation concepts
-- **Utilities**: GIFBuilder, validators, easing functions
-- **Flexibility**: Create the animation logic using PIL primitives
+Esta habilidade fornece:
 
-It does NOT provide:
-- Rigid animation templates or pre-made functions
-- Emoji font rendering (unreliable across platforms)
-- A library of pre-packaged graphics built into the skill
+- **Conhecimento**: Requisitos do Slack e conceitos de animação
+- **Utilitários**: GIFBuilder, validadores, funções de easing
+- **Flexibilidade**: Crie a lógica de animação usando primitivos PIL
 
-**Note on user uploads**: This skill doesn't include pre-built graphics, but if a user uploads an image, use PIL to load and work with it - interpret based on their request whether they want it used directly or just as inspiration.
+NÃO fornece:
 
-Be creative! Combine concepts (bouncing + rotating, pulsing + sliding, etc.) and use PIL's full capabilities.
+- Modelos de animação rígidos ou funções pré-fabricadas
+- Renderização de fonte de emoji (não confiável entre plataformas)
+- Uma biblioteca de gráficos pré-empacotados incorporados na habilidade
 
-## Dependencies
+**Nota sobre uploads de usuários**: Esta habilidade não inclui gráficos pré-configurados, mas se um usuário enviar uma imagem, use PIL para carregar e trabalhar com ela - interprete com base em sua solicitação se ele quer que seja usado diretamente ou apenas como inspiração.
+
+Seja criativo! Combine conceitos (quicar + girar, pulsar + deslizar, etc.) e use os recursos completos do PIL.
+
+## Dependências
 
 ```bash
 pip install pillow imageio numpy

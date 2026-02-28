@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0e463d03af985f081d6e9ef657faf143fefeaca34086d32e4249ca9a541f4817",
   "indexed_at": "2026-02-26T09:35:24.913Z",
-  "synced_at": "2026-02-27T02:44:38.342Z",
+  "synced_at": "2026-02-28T04:14:31.131Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0c54677a2b6df97cfce8ab023f5e6e4d4e798156676259e4b4392f8e5aca7854",
   "install_command": "mkdir -p .claude/skills/loadstone-cli && curl -sL \"https://raw.githubusercontent.com/damianpoole/Loadstone/main/.opencode/skills/loadstone-cli/SKILL.md\" > .claude/skills/loadstone-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/damianpoole/Loadstone/main/.opencode/skills/loadstone-cli/SKILL.md"

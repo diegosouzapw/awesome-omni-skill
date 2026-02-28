@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b543f0f3b1848dc582a3b2a0a95499b9960af779d36f60e5b2dab1101de4766d",
   "indexed_at": "2026-02-25T14:07:07.741Z",
-  "synced_at": "2026-02-27T02:45:05.009Z",
+  "synced_at": "2026-02-28T04:15:02.876Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/81ecb6961df639241fda552ad8154ce8d0be0413fbaa4614dbe807126c6fccae",
   "install_command": "mkdir -p .claude/skills/resource-scout && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/resource-scout-nicepkg-ai-workflow/SKILL.md\" > .claude/skills/resource-scout/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/resource-scout-nicepkg-ai-workflow/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "966bbc2244d2ced93608a64b173c0d40394df050e2ced65b2f215f92657f345b",
   "indexed_at": "2026-02-26T05:55:00.758Z",
-  "synced_at": "2026-02-27T02:45:23.482Z",
+  "synced_at": "2026-02-28T04:15:20.748Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6f944525410c19049f3f632842592c05ea4b2c2c8af9593e8be26be4cf303ece",
   "install_command": "mkdir -p .claude/skills/ace && curl -sL \"https://raw.githubusercontent.com/AgriciDaniel/ace-claude-code/main/.ace/SKILL.md\" > .claude/skills/ace/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AgriciDaniel/ace-claude-code/main/.ace/SKILL.md"

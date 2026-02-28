@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "695f490115de5430730be581f02dad808d13c8a60735034282185f9553a07982",
   "indexed_at": "2026-02-27T10:53:17.923Z",
-  "synced_at": "2026-02-27T13:14:31.106Z",
+  "synced_at": "2026-02-28T04:14:44.138Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2e5f482be03b1dc6b7a6569554870374aab5d25f7aed326364dd91cce23fccce",
   "install_command": "mkdir -p .claude/skills/code-quality && curl -sL \"https://raw.githubusercontent.com/oborchers/fractional-cto/main/python-package/skills/code-quality/SKILL.md\" > .claude/skills/code-quality/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oborchers/fractional-cto/main/python-package/skills/code-quality/SKILL.md"

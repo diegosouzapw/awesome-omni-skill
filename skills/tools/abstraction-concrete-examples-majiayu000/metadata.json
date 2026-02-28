@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5d3403d975469cd2946dc68a4dd587f4eb8142f9f394966729d4a16798b0e928",
   "indexed_at": "2026-02-24T23:21:41.792Z",
-  "synced_at": "2026-02-27T02:44:15.846Z",
+  "synced_at": "2026-02-28T04:14:12.051Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2fda5fcff0d5fbc091fb59a8875b75b03334a98395b28d19b6712138fbb1d80c",
   "install_command": "mkdir -p .claude/skills/abstraction-concrete-examples && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abstraction-concrete-examples/SKILL.md\" > .claude/skills/abstraction-concrete-examples/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abstraction-concrete-examples/SKILL.md"

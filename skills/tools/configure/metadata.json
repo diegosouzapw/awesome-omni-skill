@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "783a475e1f2e6b5e95ff53beea2e52bc39df6caf61ceb2fe31c2c1f7a5985ed9",
   "indexed_at": "2026-02-25T12:42:15.749Z",
-  "synced_at": "2026-02-27T02:44:57.415Z",
+  "synced_at": "2026-02-28T04:14:54.898Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9ef0de5a5ba1f8aa4357f636d68e731d9e7a8535fae7c0287d25dddb266688f5",
   "install_command": "mkdir -p .claude/skills/configure && curl -sL \"https://raw.githubusercontent.com/bitwize-music-studio/claude-ai-music-skills/main/skills/configure/SKILL.md\" > .claude/skills/configure/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bitwize-music-studio/claude-ai-music-skills/main/skills/configure/SKILL.md"

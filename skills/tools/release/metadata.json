@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "532efb3385fd0d3de885bbd7e9ffb1026b83320eb09dba277df0b00432d8d836",
   "indexed_at": "2026-02-25T12:51:55.672Z",
-  "synced_at": "2026-02-27T02:44:59.898Z",
+  "synced_at": "2026-02-28T04:14:57.433Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/981b4889a28364e85060af596deb852a8c9f5ebf81d0840b7c634092e2a7567d",
   "install_command": "mkdir -p .claude/skills/release && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/release-tettuan-breakdown/SKILL.md\" > .claude/skills/release/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/release-tettuan-breakdown/SKILL.md"

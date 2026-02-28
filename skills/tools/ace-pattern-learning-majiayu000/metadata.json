@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "35ade10dfdad6b95462f16348f5a7e7e7fccd2354c17c87d73405afc030b4796",
   "indexed_at": "2026-02-26T05:10:52.861Z",
-  "synced_at": "2026-02-27T02:44:19.410Z",
+  "synced_at": "2026-02-28T04:14:15.495Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e477cf7ca67054d6f122bf46beb9758d6294ef93034bf3c431515465379a0e3e",
   "install_command": "mkdir -p .claude/skills/ace-pattern-learning && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ace-pattern-learning/SKILL.md\" > .claude/skills/ace-pattern-learning/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ace-pattern-learning/SKILL.md"

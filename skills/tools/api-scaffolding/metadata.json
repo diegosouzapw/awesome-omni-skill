@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "267e7ed6719a422ac34022d15795a42ee982cf654183afc715eb39aa28b22f2f",
   "indexed_at": "2026-02-25T15:06:37.409Z",
-  "synced_at": "2026-02-27T02:45:07.381Z",
+  "synced_at": "2026-02-28T04:15:05.207Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/22a4b69dda500f8f399e694422d65206717bac127807680538fbde0d3a8b4648",
   "install_command": "mkdir -p .claude/skills/api-scaffolding && curl -sL \"https://raw.githubusercontent.com/simplysmartai/5cypressautomation/main/.claude/skills/api-scaffolding/SKILL.md\" > .claude/skills/api-scaffolding/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/simplysmartai/5cypressautomation/main/.claude/skills/api-scaffolding/SKILL.md"

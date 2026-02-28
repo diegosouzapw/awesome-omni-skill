@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4554707affbb83d5898acfce34eee7e789040068e44e368a1eaec23f3db3637a",
   "indexed_at": "2026-02-25T20:42:09.691Z",
-  "synced_at": "2026-02-27T02:45:16.226Z",
+  "synced_at": "2026-02-28T04:15:13.844Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6c899137ec1a8066850adad1e9486d0dfd55123af2e73a3f45719558105bad6c",
   "install_command": "mkdir -p .claude/skills/coding-agent && curl -sL \"https://raw.githubusercontent.com/TermiX-official/cryptoclaw/main/skills/coding-agent/SKILL.md\" > .claude/skills/coding-agent/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TermiX-official/cryptoclaw/main/skills/coding-agent/SKILL.md"

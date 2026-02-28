@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6b4d9b5c0bbc6d8765fee6364042b4a47fc2ab1f8f54ca2493843164af0cd06f",
   "indexed_at": "2026-02-26T15:23:07.581Z",
-  "synced_at": "2026-02-27T02:44:26.618Z",
+  "synced_at": "2026-02-28T04:14:22.006Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fd9902ce6bcf366d1490ae524d77e15a8c6f435ee3eabd2b3803c1090c7e0a0f",
   "install_command": "mkdir -p .claude/skills/build-notes-file-rules && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/build-notes-file-rules/SKILL.md\" > .claude/skills/build-notes-file-rules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/build-notes-file-rules/SKILL.md"

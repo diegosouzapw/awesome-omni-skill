@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "49711b3e67e70bfe0174f394eacafe6b4e1758ab169d797b928c943a736d93af",
   "indexed_at": "2026-02-24T23:10:41.981Z",
-  "synced_at": "2026-02-27T02:44:12.142Z",
+  "synced_at": "2026-02-28T04:14:08.470Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/83b67c9147e69e4e12a555c8efcb62cb9a2e849334949edcf037759fb5b30dd5",
   "install_command": "mkdir -p .claude/skills/build-your-evals-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/47-evals-agent-performance-panaversity-agentfactory/SKILL.md\" > .claude/skills/build-your-evals-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/47-evals-agent-performance-panaversity-agentfactory/SKILL.md"

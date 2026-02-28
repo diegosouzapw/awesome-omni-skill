@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e0339b60cb028664336368e53b44236d00a97f73e54e2b218a2270696fba26b3",
   "indexed_at": "2026-02-24T23:11:26.180Z",
-  "synced_at": "2026-02-27T02:44:22.864Z",
+  "synced_at": "2026-02-28T04:14:17.976Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/100799c5486e0355563aead8b2e1b70b35c4c47d5949f49ca3fc92c51c49247d",
   "install_command": "mkdir -p .claude/skills/build-your-dapr-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/53-dapr-core/SKILL.md\" > .claude/skills/build-your-dapr-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/53-dapr-core/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9e49e1982ab88e042b5cd2238fc744b82a562762f490342338aedf0b6daebca9",
   "indexed_at": "2026-02-24T23:22:46.405Z",
-  "synced_at": "2026-02-27T02:44:16.803Z",
+  "synced_at": "2026-02-28T04:14:13.010Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b365eab39b373f42cdb424e5b8dab0ff9ba3a2dd88b618351666c29e3de272c0",
   "install_command": "mkdir -p .claude/skills/acc-cqrs-knowledge && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-cqrs-knowledge/SKILL.md\" > .claude/skills/acc-cqrs-knowledge/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-cqrs-knowledge/SKILL.md"

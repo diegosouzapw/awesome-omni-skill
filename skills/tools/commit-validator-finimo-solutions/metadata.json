@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "da9802fed0e88f37549bbbe188a9730d0e38656b3716e82af2a495b447f26a92",
   "indexed_at": "2026-02-25T20:37:03.917Z",
-  "synced_at": "2026-02-27T02:44:31.260Z",
+  "synced_at": "2026-02-28T04:14:26.834Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2cf992e305a63469381d3eb1c4e4bc4d88a4519f25d3ace27585ea9c75ea7ead",
   "install_command": "mkdir -p .claude/skills/commit-validator && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/commit-validator/SKILL.md\" > .claude/skills/commit-validator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/_archive/dead/commit-validator/SKILL.md"

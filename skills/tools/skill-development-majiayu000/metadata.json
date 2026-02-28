@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d17fe617dbd8c915f347e927b5c89f800da23d8d93e62348943f2b08832c2a3d",
   "indexed_at": "2026-02-26T07:35:42.712Z",
-  "synced_at": "2026-02-27T02:44:33.425Z",
+  "synced_at": "2026-02-28T04:14:28.911Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4927e79343afa4081d94867c052e089f2f85608c9f04e1a16e962cb4cb0e887e",
   "install_command": "mkdir -p .claude/skills/skill-development && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/skill-development-oshankhz-cc-swiss-knife/SKILL.md\" > .claude/skills/skill-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/skill-development-oshankhz-cc-swiss-knife/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bfc22117df9ee147340cfe199549a8408c543bf298ef9eedaedfa562024bdf61",
   "indexed_at": "2026-02-26T04:25:50.832Z",
-  "synced_at": "2026-02-27T02:45:20.198Z",
+  "synced_at": "2026-02-28T04:15:17.694Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/14115729ff2fce9595194820ff1741a1139b37b4c9a8ea765d7ec07c00d9d026",
   "install_command": "mkdir -p .claude/skills/gitlab-jobs && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/gitlab-jobs/SKILL.md\" > .claude/skills/gitlab-jobs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/gitlab-jobs/SKILL.md"

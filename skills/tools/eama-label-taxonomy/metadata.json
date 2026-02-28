@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "783dce10f880ce8a1b5cb0a7b0e79046c8bf5326d17a3dedd417536cdd736348",
   "indexed_at": "2026-02-26T15:20:47.853Z",
-  "synced_at": "2026-02-27T02:44:44.491Z",
+  "synced_at": "2026-02-28T04:14:36.787Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3cf003db15a6cd99c6a05d59686f795e3fab9a333a873f6a11d79dd601f58d79",
   "install_command": "mkdir -p .claude/skills/eama-label-taxonomy && curl -sL \"https://raw.githubusercontent.com/Emasoft/emasoft-assistant-manager-agent/main/skills/eama-label-taxonomy/SKILL.md\" > .claude/skills/eama-label-taxonomy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Emasoft/emasoft-assistant-manager-agent/main/skills/eama-label-taxonomy/SKILL.md"

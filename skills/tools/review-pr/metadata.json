@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c1da73b9afa3a8106428623600bb6525a695b067487255168135a9d151b25e60",
   "indexed_at": "2026-02-26T04:53:50.143Z",
-  "synced_at": "2026-02-27T02:45:20.523Z",
+  "synced_at": "2026-02-28T04:15:18.066Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7f9a8feb3052e4341ae8d6d09d506c8add4ac0a05a0af3cdc72445febad42439",
   "install_command": "mkdir -p .claude/skills/review-pr && curl -sL \"https://raw.githubusercontent.com/Thanhhuong0209/DLT-Normalization/main/.claude/skills/review-pr/SKILL.md\" > .claude/skills/review-pr/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Thanhhuong0209/DLT-Normalization/main/.claude/skills/review-pr/SKILL.md"

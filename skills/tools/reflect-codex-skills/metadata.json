@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c16c596b8a9f87448850f2f3babf5b60b48433a6bb396bb064c341e3c4e8e3b6",
   "indexed_at": "2026-02-25T12:46:24.172Z",
-  "synced_at": "2026-02-27T02:44:58.159Z",
+  "synced_at": "2026-02-28T04:14:55.512Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/26a334718c27ddf0d8acbc44fe6c305054601b31ebd68c30ba20816b9d319591",
   "install_command": "mkdir -p .claude/skills/reflect-codex-skills && curl -sL \"https://raw.githubusercontent.com/olliepro/Codex-Reflect-Skill/main/SKILL.md\" > .claude/skills/reflect-codex-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/olliepro/Codex-Reflect-Skill/main/SKILL.md"

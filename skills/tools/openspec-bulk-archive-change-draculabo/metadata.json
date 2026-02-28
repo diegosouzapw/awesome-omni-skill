@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33cc3fdf430620e89b9d6c43a4bdebb2296a351db90787f1f453b00474576f50",
   "indexed_at": "2026-02-26T07:49:41.462Z",
-  "synced_at": "2026-02-27T02:44:36.126Z",
+  "synced_at": "2026-02-28T04:14:29.616Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/80f3192e089a648c73ff8c78e41979d5dec04173d6c10e18ee6a10aa3add7af8",
   "install_command": "mkdir -p .claude/skills/openspec-bulk-archive-change && curl -sL \"https://raw.githubusercontent.com/Draculabo/AntigravityManager/main/.claude/skills/openspec-bulk-archive-change/SKILL.md\" > .claude/skills/openspec-bulk-archive-change/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Draculabo/AntigravityManager/main/.claude/skills/openspec-bulk-archive-change/SKILL.md"

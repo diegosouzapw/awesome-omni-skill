@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "28a7b55a7d753037e7006f835fe4c9d1722dc15b658368d8a79e0acaf8debe2a",
   "indexed_at": "2026-02-26T14:25:54.002Z",
-  "synced_at": "2026-02-27T02:44:43.789Z",
+  "synced_at": "2026-02-28T04:14:36.034Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/611ea01c5e2e18f5aa237ca133b496c737b3382f4ddb7613b334cfec282e4528",
   "install_command": "mkdir -p .claude/skills/cursor-agent && curl -sL \"https://raw.githubusercontent.com/Lutra23/content-workflow/main/skills/cursor-agent/SKILL.md\" > .claude/skills/cursor-agent/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Lutra23/content-workflow/main/skills/cursor-agent/SKILL.md"

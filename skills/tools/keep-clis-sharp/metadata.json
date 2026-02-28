@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7170bcd73b6be49ce5ceb418e3325839d6b2278841cbaafc0874e260ae5eb413",
   "indexed_at": "2026-02-25T19:41:27.448Z",
-  "synced_at": "2026-02-27T02:45:14.677Z",
+  "synced_at": "2026-02-28T04:15:12.307Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1c1445db1501e1dbbea8ecdc811613a4cb71a9b1f3bbf459c794cb446e4918b7",
   "install_command": "mkdir -p .claude/skills/keep-clis-sharp && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/keep-clis-sharp/SKILL.md\" > .claude/skills/keep-clis-sharp/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/keep-clis-sharp/SKILL.md"

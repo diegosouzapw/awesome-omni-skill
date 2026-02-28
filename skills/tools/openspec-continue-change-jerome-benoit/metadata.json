@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cfbc9ede7865375eccc8e693a95e5e32159f754f027a678aadc29d21398bcd52",
   "indexed_at": "2026-02-26T15:23:49.751Z",
-  "synced_at": "2026-02-27T02:44:45.400Z",
+  "synced_at": "2026-02-28T04:14:37.806Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0d6b2451b89d9baa92c0a32940d3411b0ae7a7651e715f535ff2c8a2976b30ba",
   "install_command": "mkdir -p .claude/skills/openspec-continue-change && curl -sL \"https://raw.githubusercontent.com/jerome-benoit/sap-ai-provider/main/.opencode/skills/openspec-continue-change/SKILL.md\" > .claude/skills/openspec-continue-change/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jerome-benoit/sap-ai-provider/main/.opencode/skills/openspec-continue-change/SKILL.md"

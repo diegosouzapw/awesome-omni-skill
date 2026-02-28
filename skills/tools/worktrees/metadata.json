@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7435e58b0f0366c9e42d76cdf7bd4c71430e746f585b7b4ece5569a78ca6386f",
   "indexed_at": "2026-02-25T13:49:59.682Z",
-  "synced_at": "2026-02-27T02:44:29.342Z",
+  "synced_at": "2026-02-28T04:14:24.970Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5002966a28210e7cf7332b0b66767225e55ffd99ad90745c34d6c24e43605b1b",
   "install_command": "mkdir -p .claude/skills/worktrees && curl -sL \"https://raw.githubusercontent.com/tbdng/worktrees-skill/main/SKILL.md\" > .claude/skills/worktrees/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tbdng/worktrees-skill/main/SKILL.md"

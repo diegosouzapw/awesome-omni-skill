@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "04717595e09f1b30157bac9bb476219fb88490b557e0c00a2b0daff6d9e456de",
   "indexed_at": "2026-02-26T14:21:29.071Z",
-  "synced_at": "2026-02-27T02:44:42.994Z",
+  "synced_at": "2026-02-28T04:14:35.258Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2ea468f5c52612d1c338008a50dbd47dad2d7cc63454871b9138a4a2a347ffaf",
   "install_command": "mkdir -p .claude/skills/skill-create-flow && curl -sL \"https://raw.githubusercontent.com/okwinds/miscellany/main/agent/skills/skill-create-flow/SKILL.md\" > .claude/skills/skill-create-flow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/okwinds/miscellany/main/agent/skills/skill-create-flow/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "df4dd71d8bf05f389d79412116b85fa7ced9ffe18e929f0dffd1b7ab927a00d6",
   "indexed_at": "2026-02-26T17:32:56.074Z",
-  "synced_at": "2026-02-27T02:44:48.021Z",
+  "synced_at": "2026-02-28T04:14:39.809Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5fabbc3ae359ec23c585d843fd8d353e5464a92ecc763ffc2e1256298f9555d0",
   "install_command": "mkdir -p .claude/skills/agnix && curl -sL \"https://raw.githubusercontent.com/agent-sh/agnix/main/plugin/skills/agnix/SKILL.md\" > .claude/skills/agnix/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/agent-sh/agnix/main/plugin/skills/agnix/SKILL.md"

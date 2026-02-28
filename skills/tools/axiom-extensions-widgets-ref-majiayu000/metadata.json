@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d39dfce09e7dbe9212700d964bd00c76ee8a296c717ca2e744db73e09bfd0def",
   "indexed_at": "2026-02-26T13:23:34.760Z",
-  "synced_at": "2026-02-27T02:44:42.116Z",
+  "synced_at": "2026-02-28T04:14:34.584Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b8a6b214a079b9f822c89aa81a652b5f6d692f3118a37209bcde02972c5c33cc",
   "install_command": "mkdir -p .claude/skills/axiom-extensions-widgets-ref && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/axiom-extensions-widgets-charleswiltgen-axiom-2/SKILL.md\" > .claude/skills/axiom-extensions-widgets-ref/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/axiom-extensions-widgets-charleswiltgen-axiom-2/SKILL.md"

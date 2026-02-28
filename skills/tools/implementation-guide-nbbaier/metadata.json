@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "43636ffc6e5752759e146bfc21af3c5dabcfcb8271206d35c4a40dcdf8ab1005",
   "indexed_at": "2026-02-26T05:53:42.692Z",
-  "synced_at": "2026-02-27T02:45:23.125Z",
+  "synced_at": "2026-02-28T04:15:20.384Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/05a3e4070557124d4e2823e343f7ace1630fac883e701b02c300170c51d77484",
   "install_command": "mkdir -p .claude/skills/implementation-guide && curl -sL \"https://raw.githubusercontent.com/nbbaier/agent-skills/main/skills/implementation-guide/SKILL.md\" > .claude/skills/implementation-guide/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nbbaier/agent-skills/main/skills/implementation-guide/SKILL.md"

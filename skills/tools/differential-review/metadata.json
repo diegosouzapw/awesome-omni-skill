@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6313ed2ab451fd39a750aeb3efd7c9389453b74a263c7ae2bf24a18850e80290",
   "indexed_at": "2026-02-26T09:49:10.114Z",
-  "synced_at": "2026-02-27T02:44:38.763Z",
+  "synced_at": "2026-02-28T04:14:31.433Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e281c7c2179dfa730bf5e158b2e3936a96b9d6ec04cb90a8b09bc98c2b4e4069",
   "install_command": "mkdir -p .claude/skills/differential-review && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/differential-review/SKILL.md\" > .claude/skills/differential-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/differential-review/SKILL.md"

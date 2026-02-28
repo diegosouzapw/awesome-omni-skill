@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eb43ad0145a6b2b8df621c475e9bb865d699fe0638aeaf648ea73ce3840d44da",
   "indexed_at": "2026-02-24T23:09:36.408Z",
-  "synced_at": "2026-02-27T02:44:11.162Z",
+  "synced_at": "2026-02-28T04:14:07.695Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/03a76bd92f505c38cb0713498f1b5abaf106de2e72b2aff3b0ae9c22af7be63d",
   "install_command": "mkdir -p .claude/skills/hic-matrix-qc && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/30-toolbased-hic-matrix-qc/SKILL.md\" > .claude/skills/hic-matrix-qc/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/30-toolbased-hic-matrix-qc/SKILL.md"

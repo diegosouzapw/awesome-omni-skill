@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fcf8b9c3ed56d3eb9a6fc053472709caf1ca6249c899a22a16dd078862b044a4",
   "indexed_at": "2026-02-24T23:11:58.825Z",
-  "synced_at": "2026-02-27T02:44:13.889Z",
+  "synced_at": "2026-02-28T04:14:10.123Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/421e504f61356089e7c2ee5e494399d3b1c76a64b38d3b825b473a1be0e2efba",
   "install_command": "mkdir -p .claude/skills/build-your-agentic-tuning-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/66-agentic-function-calling/SKILL.md\" > .claude/skills/build-your-agentic-tuning-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/66-agentic-function-calling/SKILL.md"

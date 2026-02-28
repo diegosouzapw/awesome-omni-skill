@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d8e0dfc1b57b0632d45dbdc9114b16f229f603d496d8ee4cacafa34dd16692e1",
   "indexed_at": "2026-02-25T19:40:54.988Z",
-  "synced_at": "2026-02-27T02:45:14.055Z",
+  "synced_at": "2026-02-28T04:15:11.718Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2aae4605aa638d0595b81627b0dcb716f5b05d8a73fefbd6e9bd0087ddf660db",
   "install_command": "mkdir -p .claude/skills/think-ahead && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/think-ahead/SKILL.md\" > .claude/skills/think-ahead/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/think-ahead/SKILL.md"

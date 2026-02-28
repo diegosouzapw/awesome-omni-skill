@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "50a99bd8c606885442e836e8acc2f0526dc1d6872ac62a7a13f2075eaff05504",
   "indexed_at": "2026-02-25T13:50:18.214Z",
-  "synced_at": "2026-02-27T02:45:04.284Z",
+  "synced_at": "2026-02-28T04:15:02.186Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/832b062724c1a8ab0071913fe00f1ab53e5182f842960a3209d1cf739e1db6c0",
   "install_command": "mkdir -p .claude/skills/open-brush-plugin-skill && curl -sL \"https://raw.githubusercontent.com/icosa-foundation/open-brush-plugin-skill/main/SKILL.md\" > .claude/skills/open-brush-plugin-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/icosa-foundation/open-brush-plugin-skill/main/SKILL.md"

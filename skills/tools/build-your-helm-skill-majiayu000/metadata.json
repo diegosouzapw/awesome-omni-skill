@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b59718050761cdab4d46b4125cefe6e430564cc1c205cd2821a033f58b626e39",
   "indexed_at": "2026-02-24T23:11:18.502Z",
-  "synced_at": "2026-02-27T02:44:22.483Z",
+  "synced_at": "2026-02-28T04:14:17.783Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b110fb6372f07cbc513392f3f6e61feecb806613f59f9a8c006ca76b6916a0c2",
   "install_command": "mkdir -p .claude/skills/build-your-helm-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/51-helm-charts/SKILL.md\" > .claude/skills/build-your-helm-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/51-helm-charts/SKILL.md"

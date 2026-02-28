@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "708b8b16aae1ad414af65798d0602eb2a8f71fb95c60b682ca3a18486113e652",
   "indexed_at": "2026-02-25T13:01:51.299Z",
-  "synced_at": "2026-02-27T02:45:02.471Z",
+  "synced_at": "2026-02-28T04:15:00.369Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b12e5331e323415b1f9268782c4fc9d8d7491ca082c01d726a0f7ed4c1930efe",
   "install_command": "mkdir -p .claude/skills/sprite-cli && curl -sL \"https://raw.githubusercontent.com/tqbf/sprite-cli-skill/main/SKILL.md\" > .claude/skills/sprite-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tqbf/sprite-cli-skill/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "49b9f5655acf043b731a39f7c029c7874983e59c5d90b05120a76339c26d9089",
   "indexed_at": "2026-02-26T22:40:13.872Z",
-  "synced_at": "2026-02-27T02:44:53.741Z",
+  "synced_at": "2026-02-28T04:14:50.541Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/70cab2f85c3b11858ce03962b47b07682ee45db7fedba241157b8a626082f204",
   "install_command": "mkdir -p .claude/skills/live-tests && curl -sL \"https://raw.githubusercontent.com/matteing/opal/main/.claude/skills/live-tests/SKILL.md\" > .claude/skills/live-tests/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/matteing/opal/main/.claude/skills/live-tests/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "38f4f9a4113087d27c38ec788c26530b4a66807dd1cc86bfa339acb4ae430e75",
   "indexed_at": "2026-02-26T05:41:05.991Z",
-  "synced_at": "2026-02-27T02:45:20.691Z",
+  "synced_at": "2026-02-28T04:15:18.213Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e572ec13349a76155e43a7c400ca6da424aca28d50c03839a941916fb0c4e28c",
   "install_command": "mkdir -p .claude/skills/experiment-loop && curl -sL \"https://raw.githubusercontent.com/adscorp100/mdhomecarebuild/main/.claude/skills/experiment-loop/SKILL.md\" > .claude/skills/experiment-loop/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/adscorp100/mdhomecarebuild/main/.claude/skills/experiment-loop/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3013c932405fb2f9c27a3f7c1f72c1c222387b09ef5b5fe2263d1c961a45fcf1",
   "indexed_at": "2026-02-26T06:30:26.544Z",
-  "synced_at": "2026-02-27T02:44:33.080Z",
+  "synced_at": "2026-02-28T04:14:28.472Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d3d320910ec60aeda51dfeefa5766a9e031c6b164c6896e4400789a18c048d68",
   "install_command": "mkdir -p .claude/skills/brand-strategy && curl -sL \"https://raw.githubusercontent.com/rowanbrooks100/brand-strategy-skill/main/SKILL.md\" > .claude/skills/brand-strategy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rowanbrooks100/brand-strategy-skill/main/SKILL.md"

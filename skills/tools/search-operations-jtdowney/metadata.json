@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1c46d720297afe96226106c959659f6f85a19e72c6af60d97a1eb4d757e390b6",
   "indexed_at": "2026-02-24T23:52:15.197Z",
-  "synced_at": "2026-02-27T02:44:54.980Z",
+  "synced_at": "2026-02-28T04:14:52.326Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4340ba5aeed0c2b0ad1c0e5ba1f7a160b3a9716c5aa119a4f618ad6fe278fd8e",
   "install_command": "mkdir -p .claude/skills/search-operations && curl -sL \"https://raw.githubusercontent.com/jtdowney/dotfiles/main/dot_claude/skills/github/search-operations/SKILL.md\" > .claude/skills/search-operations/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jtdowney/dotfiles/main/dot_claude/skills/github/search-operations/SKILL.md"

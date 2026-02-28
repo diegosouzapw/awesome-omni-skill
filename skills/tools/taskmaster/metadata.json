@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "482fe799f0a61d77549b9b583e7d9253b93fc7ceaf72e54e23f906f280181a55",
   "indexed_at": "2026-02-26T17:35:54.681Z",
-  "synced_at": "2026-02-27T02:44:49.958Z",
+  "synced_at": "2026-02-28T04:14:40.740Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9e301806e430aaf8b6e22474a3977a61e71f1bc176c76ec1977856d564dfb785",
   "install_command": "mkdir -p .claude/skills/taskmaster && curl -sL \"https://raw.githubusercontent.com/trystan2k/padelbuddy/main/.opencode/skills/taskmaster/SKILL.md\" > .claude/skills/taskmaster/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/trystan2k/padelbuddy/main/.opencode/skills/taskmaster/SKILL.md"

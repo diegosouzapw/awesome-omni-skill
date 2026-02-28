@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "da477ce4aeecd8a0c56cd3a3b4a1b3992267ba8ebc83809c78b11195bbd07f1b",
   "indexed_at": "2026-02-26T05:12:03.217Z",
-  "synced_at": "2026-02-27T02:44:20.553Z",
+  "synced_at": "2026-02-28T04:14:16.640Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fadfbfb768556c394f15bc54512e428ff5680512857be0dc8d5d277254d7f29e",
   "install_command": "mkdir -p .claude/skills/activitywatch-integration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/activitywatch-integration/SKILL.md\" > .claude/skills/activitywatch-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/activitywatch-integration/SKILL.md"

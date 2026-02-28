@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "635ef7e234713b6330e172b032c2a8f0a5aaa00421e80e25bd73aa3c14e87561",
   "indexed_at": "2026-02-24T23:22:29.262Z",
-  "synced_at": "2026-02-27T02:44:16.614Z",
+  "synced_at": "2026-02-28T04:14:12.817Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7ec5008b01c2eefffd2f27fdff350a8ec954e975b856223e0ff01c71233a6219",
   "install_command": "mkdir -p .claude/skills/acc-analyze-coupling-cohesion && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-analyze-coupling-cohesion/SKILL.md\" > .claude/skills/acc-analyze-coupling-cohesion/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-analyze-coupling-cohesion/SKILL.md"

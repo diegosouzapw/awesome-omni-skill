@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "498823103e82af86cc4195a6948a8bb5d2006e179e829877670070663af4ad52",
   "indexed_at": "2026-02-24T23:09:00.425Z",
-  "synced_at": "2026-02-27T02:44:10.395Z",
+  "synced_at": "2026-02-28T04:14:06.944Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5d31d067ab74725332b78ac1189b7b7a4134ea4d93b67a8c73e19159a6008dda",
   "install_command": "mkdir -p .claude/skills/local-methylation-profile && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/22-local-methylation-profile/SKILL.md\" > .claude/skills/local-methylation-profile/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/22-local-methylation-profile/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "80558e4d30730d6b0090ec86dc84461f2e6ab406049f92f2ab29689a10b025b5",
   "indexed_at": "2026-02-24T23:10:05.968Z",
-  "synced_at": "2026-02-27T02:44:11.740Z",
+  "synced_at": "2026-02-28T04:14:08.070Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4d940f4ad364a1047f5c055b44c39d1b70971aeb05ad8be53334d8139a95d1f8",
   "install_command": "mkdir -p .claude/skills/building-mechanics && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/3d-building-advanced/SKILL.md\" > .claude/skills/building-mechanics/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/3d-building-advanced/SKILL.md"

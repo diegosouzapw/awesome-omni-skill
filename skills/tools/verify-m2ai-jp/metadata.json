@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "efc7238d51db2cc7a09e7d9148b162c928f9bd67fa0c2cc769de0a1ed6abbb45",
   "indexed_at": "2026-02-25T15:08:13.907Z",
-  "synced_at": "2026-02-27T02:45:07.713Z",
+  "synced_at": "2026-02-28T04:15:05.527Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3fc2dd574cdfa02df1a5db5f00c28413b894f572ec95b3a1a4108d1c9d5b190b",
   "install_command": "mkdir -p .claude/skills/verify && curl -sL \"https://raw.githubusercontent.com/M2AI-jp/plain-codex-harness/main/.codex/skills/verify/SKILL.md\" > .claude/skills/verify/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/M2AI-jp/plain-codex-harness/main/.codex/skills/verify/SKILL.md"

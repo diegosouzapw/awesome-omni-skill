@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a229c397af6815c5f1a5a6f4841bcd3b315af1fe741bbf091aff858f72e0538e",
   "indexed_at": "2026-02-25T12:52:36.903Z",
-  "synced_at": "2026-02-27T02:45:00.076Z",
+  "synced_at": "2026-02-28T04:14:57.631Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1183c8de2fed4f57983c900085e50388b835dfc2735059616778c375eda2fa84",
   "install_command": "mkdir -p .claude/skills/setting-up-jujutsu-repositories-and-tool-integration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/setting-up-jujutsu-repositories-and-tool-integration-majiayu000-/SKILL.md\" > .claude/skills/setting-up-jujutsu-repositories-and-tool-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/setting-up-jujutsu-repositories-and-tool-integration-majiayu000-/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2cdae4c95a2037926fb49111013c16ab4367f3ca0ac5ed6b70746ec45446bb85",
   "indexed_at": "2026-02-26T18:32:33.045Z",
-  "synced_at": "2026-02-27T02:44:53.073Z",
+  "synced_at": "2026-02-28T04:14:49.885Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7a25f7ff8e25331baf78fa156bf5ee62271b704dc8971d0b1d8c7ab5a2917ec1",
   "install_command": "mkdir -p .claude/skills/typespec-m365-copilot && curl -sL \"https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/typespec-m365-copilot/SKILL.md\" > .claude/skills/typespec-m365-copilot/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pingqLIN/skill-0/main/converted-skills/typespec-m365-copilot/SKILL.md"

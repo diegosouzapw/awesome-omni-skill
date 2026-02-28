@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bf1e383886d5cb29ab60877c04d68e98308e51b24e1696e14c24f8da3b9a8a6d",
   "indexed_at": "2026-02-25T13:01:09.349Z",
-  "synced_at": "2026-02-27T02:45:01.936Z",
+  "synced_at": "2026-02-28T04:14:59.802Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b0a16f8257839501ffc5f0bcec0e817291c55cd89d07141463521e9b855d5ccf",
   "install_command": "mkdir -p .claude/skills/supermicro-saa && curl -sL \"https://raw.githubusercontent.com/undefined443/supermicro-saa-skill/main/SKILL.md\" > .claude/skills/supermicro-saa/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/undefined443/supermicro-saa-skill/main/SKILL.md"

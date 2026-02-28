@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eee4972dadc07228f8960ce26e96b12e65ffc657727f65cfbf6c41ad10ccf2a0",
   "indexed_at": "2026-02-26T05:53:29.951Z",
-  "synced_at": "2026-02-27T02:44:32.641Z",
+  "synced_at": "2026-02-28T04:14:28.060Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/feb39bfff9c1794a588f8aa2350a272e229fde5d31bbb017c391ec9c09d45007",
   "install_command": "mkdir -p .claude/skills/gitops-patterns && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/gitops-patterns/SKILL.md\" > .claude/skills/gitops-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/gitops-patterns/SKILL.md"

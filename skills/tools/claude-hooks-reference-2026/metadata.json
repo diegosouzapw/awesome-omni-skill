@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0b5f22687a510114564288453e8807f4451642dace82a2a5223681808055b956",
   "indexed_at": "2026-02-25T21:41:50.091Z",
-  "synced_at": "2026-02-27T02:45:18.056Z",
+  "synced_at": "2026-02-28T04:15:15.565Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c00bc0a35a2b906279c5c7bfc75c843188fefa11a272a02579204a832dd9c8a4",
   "install_command": "mkdir -p .claude/skills/claude-hooks-reference-2026 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/claude-hooks-reference-2026/SKILL.md\" > .claude/skills/claude-hooks-reference-2026/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/claude-hooks-reference-2026/SKILL.md"

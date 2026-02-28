@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "32e727b48741a8cf46e7781abbaa1b1d027bd0b69d0005a8a963ccd005bef23b",
   "indexed_at": "2026-02-25T13:50:48.980Z",
-  "synced_at": "2026-02-27T02:45:04.458Z",
+  "synced_at": "2026-02-28T04:15:02.358Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4762fd560b6138e91815b05777ada7ae5c5a3e3e5576d0d3dbc5284c1b418ca0",
   "install_command": "mkdir -p .claude/skills/doc_processor && curl -sL \"https://raw.githubusercontent.com/xielk/doc-processor/main/SKILL.md\" > .claude/skills/doc_processor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/xielk/doc-processor/main/SKILL.md"

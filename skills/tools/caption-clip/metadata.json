@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8d5e7fd8613ef2d7a60bdcc8d00391850fb23dda584ef50ae59ca7c9e6057a72",
   "indexed_at": "2026-02-25T13:01:06.386Z",
-  "synced_at": "2026-02-27T02:45:01.766Z",
+  "synced_at": "2026-02-28T04:14:59.482Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6a5085a9f36591b0f1786a8758ad1a1c105a6b1cd25792f5167a155a08e93e75",
   "install_command": "mkdir -p .claude/skills/caption-clip && curl -sL \"https://raw.githubusercontent.com/kwindla/skill-caption-clip/main/SKILL.md\" > .claude/skills/caption-clip/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kwindla/skill-caption-clip/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2d9956bd9d6f806ed5b7f8b6f1f4b7b41ab8eb933d4070e0657a63bcfdd79651",
   "indexed_at": "2026-02-26T15:16:15.194Z",
-  "synced_at": "2026-02-27T02:44:43.960Z",
+  "synced_at": "2026-02-28T04:14:36.220Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8f2642a22b3b3aff52c2e35ca46af5ae3fcdcfbad5b74e62a162078b94e27299",
   "install_command": "mkdir -p .claude/skills/changelog-generator && curl -sL \"https://raw.githubusercontent.com/QuilibriumNetwork/quorum-desktop/main/.claude/skills/changelog-generator/SKILL.md\" > .claude/skills/changelog-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/QuilibriumNetwork/quorum-desktop/main/.claude/skills/changelog-generator/SKILL.md"

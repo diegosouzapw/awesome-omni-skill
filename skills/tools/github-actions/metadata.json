@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "74c10e3893e8ba67652d906738944c69b9d24af8454d841d72008a3bea834595",
   "indexed_at": "2026-02-25T18:46:41.234Z",
-  "synced_at": "2026-02-27T02:45:12.772Z",
+  "synced_at": "2026-02-28T04:15:10.536Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/77a2add5e815c3f592c549779ffee326bdb0efb83475f06b28ec20b1259797c4",
   "install_command": "mkdir -p .claude/skills/github-actions && curl -sL \"https://raw.githubusercontent.com/steeef/claude-skill-github-actions/main/SKILL.md\" > .claude/skills/github-actions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/steeef/claude-skill-github-actions/main/SKILL.md"

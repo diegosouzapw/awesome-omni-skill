@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b135f65ec7e3a668d8321c166099008b1ccb15afd0a2ba20b3b8c9aaf2880349",
   "indexed_at": "2026-02-27T15:02:08.867Z",
-  "synced_at": "2026-02-27T18:15:46.894Z",
+  "synced_at": "2026-02-28T04:14:44.463Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f6519eefd525cf31e20603f0591160bcd30ada32faefa2919da33ba9804e8580",
   "install_command": "mkdir -p .claude/skills/agent-generator && curl -sL \"https://raw.githubusercontent.com/rigerc/home-assistant-addons/main/.claude/skills/agent-generator/SKILL.md\" > .claude/skills/agent-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rigerc/home-assistant-addons/main/.claude/skills/agent-generator/SKILL.md"

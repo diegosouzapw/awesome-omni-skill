@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d740b4d181a912bd3238b3cd3ebc902311d68b45a6ce7a4ec7971abec45d33b1",
   "indexed_at": "2026-02-25T12:40:24.010Z",
-  "synced_at": "2026-02-27T02:44:56.431Z",
+  "synced_at": "2026-02-28T04:14:53.792Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/acc24f0d56b8d5542dbd221e82798dea5214aa2199b0a14c68041ce9ac93e641",
   "install_command": "mkdir -p .claude/skills/deleting-op-secrets && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/op-secrets-deleter/SKILL.md\" > .claude/skills/deleting-op-secrets/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/op-secrets-deleter/SKILL.md"

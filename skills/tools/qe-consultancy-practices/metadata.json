@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d89d7f25939ad55b37e5ede2ff6fa72b4dd506b05a7ca88c33be74f01ba3a42c",
   "indexed_at": "2026-02-25T19:40:02.147Z",
-  "synced_at": "2026-02-27T02:45:13.482Z",
+  "synced_at": "2026-02-28T04:15:11.202Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/341441da1be501cf527c5e849e717486183e85bedc7527ed1f525f7390480b74",
   "install_command": "mkdir -p .claude/skills/qe-consultancy-practices && curl -sL \"https://raw.githubusercontent.com/proffesor-for-testing/agentic-qe/main/.kiro/skills/qe-consultancy-practices/SKILL.md\" > .claude/skills/qe-consultancy-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/proffesor-for-testing/agentic-qe/main/.kiro/skills/qe-consultancy-practices/SKILL.md"

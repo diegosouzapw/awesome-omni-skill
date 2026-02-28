@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "78d3046f7a16a1b5b2c8e1340f0e22e5639dbb57fcfad5d641481240b19ef70e",
   "indexed_at": "2026-02-25T12:54:07.637Z",
-  "synced_at": "2026-02-27T02:45:00.414Z",
+  "synced_at": "2026-02-28T04:14:57.975Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/de80a4f3cfbc376fb02c0ecc94bd9f4ebeea2d997dce99fd6632e10f8372b0d7",
   "install_command": "mkdir -p .claude/skills/outlook-calendar-automation && curl -sL \"https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/skills/workflow/outlook-calendar-automation/SKILL.md\" > .claude/skills/outlook-calendar-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/skills/workflow/outlook-calendar-automation/SKILL.md"

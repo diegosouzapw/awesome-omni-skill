@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fd5abbe140a29d5db80038dd0f04fdc8f7ef2cfa2551145b73f895dc00ec07c7",
   "indexed_at": "2026-02-25T15:05:39.946Z",
-  "synced_at": "2026-02-27T02:45:07.020Z",
+  "synced_at": "2026-02-28T04:15:04.830Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/72e7b2b84eaa89ea57d9bb4f502e7c2d740c87710eb86ad71c1ba0c629537ea7",
   "install_command": "mkdir -p .claude/skills/environment-variables && curl -sL \"https://raw.githubusercontent.com/kvnwolf/devtools/main/claude-plugins/base/skills/environment-variables/SKILL.md\" > .claude/skills/environment-variables/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kvnwolf/devtools/main/claude-plugins/base/skills/environment-variables/SKILL.md"

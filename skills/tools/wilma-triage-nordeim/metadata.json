@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e01a039207af7f392a40f0c0e871a14d9825f762b5978b99e9c366cb9fb3e8b8",
   "indexed_at": "2026-02-25T17:41:39.348Z",
-  "synced_at": "2026-02-27T02:44:30.726Z",
+  "synced_at": "2026-02-28T04:14:26.320Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c386869e25de29e2f29ed287f88fc7885a8bede326d7ce94f36d0f8ce849da4c",
   "install_command": "mkdir -p .claude/skills/wilma-triage && curl -sL \"https://raw.githubusercontent.com/nordeim/openclaw-curated-skills/main/communication-messaging/wilma-triage/SKILL.md\" > .claude/skills/wilma-triage/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nordeim/openclaw-curated-skills/main/communication-messaging/wilma-triage/SKILL.md"

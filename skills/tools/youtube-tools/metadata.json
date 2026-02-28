@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2d18cc7015e4e4ba697540184e7f2b0b68edc824015a23861d8c0f3a4b296f96",
   "indexed_at": "2026-02-25T12:51:17.510Z",
-  "synced_at": "2026-02-27T02:44:59.576Z",
+  "synced_at": "2026-02-28T04:14:57.100Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ba0e14616a16f99b68b0246532e7347945c42636ff27e715bc0154f8121f337b",
   "install_command": "mkdir -p .claude/skills/youtube-tools && curl -sL \"https://raw.githubusercontent.com/Casper-Studios/casper-marketplace/main/casper/skills/youtube-tools/SKILL.md\" > .claude/skills/youtube-tools/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Casper-Studios/casper-marketplace/main/casper/skills/youtube-tools/SKILL.md"

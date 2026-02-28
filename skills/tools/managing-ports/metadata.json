@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d828bf72098f96d8de5a90322caabcbada75a7b19b023c6448a5e76677751c54",
   "indexed_at": "2026-02-26T10:50:58.158Z",
-  "synced_at": "2026-02-27T02:44:39.086Z",
+  "synced_at": "2026-02-28T04:14:31.793Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9c7700e4a0e7c206d2e60c223a88efeb80d4708bb4e08a006411ae779cc0f4e5",
   "install_command": "mkdir -p .claude/skills/managing-ports && curl -sL \"https://raw.githubusercontent.com/Saturate/skills/main/managing-ports/SKILL.md\" > .claude/skills/managing-ports/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Saturate/skills/main/managing-ports/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e87b3326f5c87b70ccdb44d6b1ace4141635f059d3bb3b5122b827d54e587531",
   "indexed_at": "2026-02-25T20:40:54.940Z",
-  "synced_at": "2026-02-27T02:44:31.436Z",
+  "synced_at": "2026-02-28T04:14:26.978Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/71ab616f471e98505f2b6afd29389bd901f6e92c80ece510bb8e0438b6fd4072",
   "install_command": "mkdir -p .claude/skills/debugger && curl -sL \"https://raw.githubusercontent.com/ydnikolaev/antigravity-factory/main/src/skills/debugger/SKILL.md\" > .claude/skills/debugger/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ydnikolaev/antigravity-factory/main/src/skills/debugger/SKILL.md"

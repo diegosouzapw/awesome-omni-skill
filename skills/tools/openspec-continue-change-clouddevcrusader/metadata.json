@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "380102e0c20f52bb2a71814213bb0ffd3009e64348f687f4ca86b8b46754d265",
   "indexed_at": "2026-02-26T15:23:59.995Z",
-  "synced_at": "2026-02-27T02:44:45.945Z",
+  "synced_at": "2026-02-28T04:14:38.327Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2ef0560785257b34562b95b248ff5940d2391da02e13dfe61eda1b7708a607fe",
   "install_command": "mkdir -p .claude/skills/openspec-continue-change && curl -sL \"https://raw.githubusercontent.com/CloudDevCrusader/riddle-rush-mono-repo/main/.agent/skills/openspec-continue-change/SKILL.md\" > .claude/skills/openspec-continue-change/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/CloudDevCrusader/riddle-rush-mono-repo/main/.agent/skills/openspec-continue-change/SKILL.md"

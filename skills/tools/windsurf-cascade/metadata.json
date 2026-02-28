@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8057249434e0085a9480e6eb49bbd4a6d3f6e4a6e489ff26fde5a6c9c480b252",
   "indexed_at": "2026-02-26T17:31:44.207Z",
-  "synced_at": "2026-02-27T02:44:47.814Z",
+  "synced_at": "2026-02-28T04:14:39.644Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/68972cbeb0185c6b955771be44b14e8dc389e97c475fc8ee0a7a5c3f8d9a443d",
   "install_command": "mkdir -p .claude/skills/windsurf-cascade && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/lucaslcarrijo/windsurf-cascade/SKILL.md\" > .claude/skills/windsurf-cascade/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/lucaslcarrijo/windsurf-cascade/SKILL.md"

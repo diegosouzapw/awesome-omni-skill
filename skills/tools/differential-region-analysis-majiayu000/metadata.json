@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8debedbfb45ab0fd8fa52358077dfc1d992b9ccc440195ae547dc2ea873c43f2",
   "indexed_at": "2026-02-24T23:19:21.268Z",
-  "synced_at": "2026-02-27T02:44:14.879Z",
+  "synced_at": "2026-02-28T04:14:11.090Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/91801695960d4090862238fb681261747355daf2f7f259cf90159e1f9ac06101",
   "install_command": "mkdir -p .claude/skills/differential-region-analysis && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/8-differential-region-analysis/SKILL.md\" > .claude/skills/differential-region-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/8-differential-region-analysis/SKILL.md"

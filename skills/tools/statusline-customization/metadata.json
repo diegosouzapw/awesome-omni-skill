@@ -3,8 +3,8 @@
   "description": "Configuration reference and troubleshooting for the statusline plugin — sections, themes, bar widths, and script architecture",
   "category": "tools",
   "canonical_category": "tools",
-  "repository": "MadAppGang/magus",
-  "repository_url": "https://github.com/MadAppGang/magus",
+  "repository": "MadAppGang/claude-code",
+  "repository_url": "https://github.com/MadAppGang/claude-code",
   "author": "MadAppGang",
   "author_avatar": "https://github.com/MadAppGang.png",
   "file_path": "plugins/statusline/skills/statusline-customization/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "cf878719373065bdac15d8957d44474755229c365f7195b8c85bf440f37ecc5e",
-  "indexed_at": "2026-02-27T17:38:59.664Z",
-  "synced_at": "2026-02-27T18:15:48.812Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/47979a798e7ed09365574f28e167d24deb7fefdad537d2b678a893329c6daa4d",
-  "install_command": "mkdir -p .claude/skills/statusline-customization && curl -sL \"https://raw.githubusercontent.com/MadAppGang/magus/main/plugins/statusline/skills/statusline-customization/SKILL.md\" > .claude/skills/statusline-customization/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/MadAppGang/magus/main/plugins/statusline/skills/statusline-customization/SKILL.md"
+  "content_hash": "9a811e7eb3b95b28f33a9662b9f5584299fe8eb5bf2a23d27cd50ffea482d74a",
+  "indexed_at": "2026-02-26T16:34:49.906Z",
+  "synced_at": "2026-02-28T04:14:49.738Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ee1e9e806df6f81862bc1151aee51aa8eeb262a950b04b2802c43c5916706f1a",
+  "install_command": "mkdir -p .claude/skills/statusline-customization && curl -sL \"https://raw.githubusercontent.com/MadAppGang/claude-code/main/plugins/statusline/skills/statusline-customization/SKILL.md\" > .claude/skills/statusline-customization/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/MadAppGang/claude-code/main/plugins/statusline/skills/statusline-customization/SKILL.md"
 }

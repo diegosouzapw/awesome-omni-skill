@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fbc2399a851b339f9469a1533b4a6541097fa66a5db5124370d8f242c607e17a",
   "indexed_at": "2026-02-26T17:36:03.670Z",
-  "synced_at": "2026-02-27T02:44:50.125Z",
+  "synced_at": "2026-02-28T04:14:40.898Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7102cf12b760446e2c23835c7a1087cad51f7f77a9c24d06e369b4b1d5ad9938",
   "install_command": "mkdir -p .claude/skills/moai-tool-opencode && curl -sL \"https://raw.githubusercontent.com/sulhicmz/malnu-backend/main/.opencode/skills/modu-ai-moai-adk-moai-tool-opencode/SKILL.md\" > .claude/skills/moai-tool-opencode/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sulhicmz/malnu-backend/main/.opencode/skills/modu-ai-moai-adk-moai-tool-opencode/SKILL.md"

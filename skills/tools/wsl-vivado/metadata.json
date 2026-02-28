@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "62dbb798f8469c157d9cceb90d07f6ad774ba36ac4d4a0d22a07d8336ea4b134",
   "indexed_at": "2026-02-25T13:01:32.754Z",
-  "synced_at": "2026-02-27T02:45:02.114Z",
+  "synced_at": "2026-02-28T04:15:00.018Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/49e1a9ea38d4a0114e9b0740b82353de84d314d7d1f098e21ad20a230d48f368",
   "install_command": "mkdir -p .claude/skills/wsl-vivado && curl -sL \"https://raw.githubusercontent.com/Passionate0424/wsl-bridge-vivado-skills/main/SKILL.md\" > .claude/skills/wsl-vivado/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Passionate0424/wsl-bridge-vivado-skills/main/SKILL.md"

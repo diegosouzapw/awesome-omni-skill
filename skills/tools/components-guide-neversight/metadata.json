@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9af07978bb816787120dee737a6543c92632ef93c17a42130056e255bf1eea25",
   "indexed_at": "2026-02-26T05:52:22.022Z",
-  "synced_at": "2026-02-27T02:45:22.712Z",
+  "synced_at": "2026-02-28T04:15:19.977Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c212bb0aadacbf8611a4397d4691c26e747c680ca72f43780efa850be3f137b3",
   "install_command": "mkdir -p .claude/skills/components-guide && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/get-convex/convex-agent-plugins/components-guide/SKILL.md\" > .claude/skills/components-guide/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/get-convex/convex-agent-plugins/components-guide/SKILL.md"

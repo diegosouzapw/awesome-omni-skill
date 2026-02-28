@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5da6eb98e963eb6f1541e106b84b95fb0c6462a99ba30f341505e537f47a7143",
   "indexed_at": "2026-02-26T22:32:23.624Z",
-  "synced_at": "2026-02-27T02:44:26.786Z",
+  "synced_at": "2026-02-28T04:14:22.164Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/44b6e40087c517c6f8678aa7ce9c70b4ddbec9b3b85494ed3fc587314ea58856",
   "install_command": "mkdir -p .claude/skills/monorepo-and-tooling && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/monorepo-and-tooling/SKILL.md\" > .claude/skills/monorepo-and-tooling/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/monorepo-and-tooling/SKILL.md"

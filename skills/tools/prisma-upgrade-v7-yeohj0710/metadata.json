@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c276b41cbcc14e4e7d3b47846008cb1190999aa7d776eefb24a3c8d7e68bd933",
   "indexed_at": "2026-02-26T11:41:09.845Z",
-  "synced_at": "2026-02-27T02:44:40.072Z",
+  "synced_at": "2026-02-28T04:14:32.795Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b2dc59d24bd255abf7c35a83d637b39e4fa500d4fc31d81ac990ba240866311f",
   "install_command": "mkdir -p .claude/skills/prisma-upgrade-v7 && curl -sL \"https://raw.githubusercontent.com/yeohj0710/wellnessbox/main/.agents/skills/prisma-upgrade-v7/SKILL.md\" > .claude/skills/prisma-upgrade-v7/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yeohj0710/wellnessbox/main/.agents/skills/prisma-upgrade-v7/SKILL.md"

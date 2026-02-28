@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "04827bb2b30acb2e6a3f624c377a175999c09af3e0bf5d9509975172076e42c8",
   "indexed_at": "2026-02-25T12:31:57.107Z",
-  "synced_at": "2026-02-27T02:44:55.711Z",
+  "synced_at": "2026-02-28T04:14:53.035Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b38cfea39514608bc9631166eb3ea523aeccccb3bafa59ec3b561b81425960c8",
   "install_command": "mkdir -p .claude/skills/gh-issue-view && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/gh-issue-view/SKILL.md\" > .claude/skills/gh-issue-view/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/gh-issue-view/SKILL.md"

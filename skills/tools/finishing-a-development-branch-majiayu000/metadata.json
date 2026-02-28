@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f32b6e4112887d2275859069ccac2ebedaea67f0c41e7a485d6cec00d27bcb96",
   "indexed_at": "2026-02-26T00:41:16.486Z",
-  "synced_at": "2026-02-27T02:45:18.966Z",
+  "synced_at": "2026-02-28T04:15:16.448Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1b3451d348187ca4f55765a364dcbb76e40aa99a3ab2594aa40c6a8f044c9956",
   "install_command": "mkdir -p .claude/skills/finishing-a-development-branch && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/finishing-a-development-branch-mbcoalson-skills/SKILL.md\" > .claude/skills/finishing-a-development-branch/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/finishing-a-development-branch-mbcoalson-skills/SKILL.md"

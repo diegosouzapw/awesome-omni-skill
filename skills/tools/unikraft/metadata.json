@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3a0ced703a979ca7d4ff5c951dfbabf73ae4ef50a39ee7d06ab539c5dfeaec35",
   "indexed_at": "2026-02-26T08:56:53.120Z",
-  "synced_at": "2026-02-27T02:44:38.175Z",
+  "synced_at": "2026-02-28T04:14:30.967Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7a0d1a392d7f79bface7264ddc5ae5062da4fe9e97b651a300a0f83ae3f8a301",
   "install_command": "mkdir -p .claude/skills/unikraft && curl -sL \"https://raw.githubusercontent.com/guillempuche/ai-standards/main/skills/unikraft/SKILL.md\" > .claude/skills/unikraft/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/guillempuche/ai-standards/main/skills/unikraft/SKILL.md"

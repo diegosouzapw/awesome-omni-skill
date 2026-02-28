@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "67594a4f885127cd2f2aa4d289a85546661d13959e489e3949ce06230245a0bc",
   "indexed_at": "2026-02-25T20:40:23.268Z",
-  "synced_at": "2026-02-27T02:45:15.297Z",
+  "synced_at": "2026-02-28T04:15:12.900Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a69b07e5fef9205763e4da203bc9db0ca7980ce3c4d9c654ee3b47e47a12f1d3",
   "install_command": "mkdir -p .claude/skills/pytest-plugins && curl -sL \"https://raw.githubusercontent.com/TheBushidoCollective/han/main/plugins/tools/pytest/skills/pytest-plugins/SKILL.md\" > .claude/skills/pytest-plugins/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TheBushidoCollective/han/main/plugins/tools/pytest/skills/pytest-plugins/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "16ee267c4c2fb8807d93daef97a5d521ee0b30cc45cec7c06dd1ef774ac2a97b",
   "indexed_at": "2026-02-25T14:54:10.026Z",
-  "synced_at": "2026-02-27T02:45:06.250Z",
+  "synced_at": "2026-02-28T04:15:04.085Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1d9905377f66f7b2490d8f655640e814048a0383d6fd7ba52138a882663bdc55",
   "install_command": "mkdir -p .claude/skills/resource-scout && curl -sL \"https://raw.githubusercontent.com/nicepkg/ai-workflow/main/.claude/skills/legacy-to-ai-ready/assets/resource-scout/SKILL.md\" > .claude/skills/resource-scout/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nicepkg/ai-workflow/main/.claude/skills/legacy-to-ai-ready/assets/resource-scout/SKILL.md"

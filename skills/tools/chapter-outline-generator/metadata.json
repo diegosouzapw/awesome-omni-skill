@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "31a002397e6bf96685542cdfd9a42c385279000e1d94ba860eb616f0bf994310",
   "indexed_at": "2026-02-25T21:41:28.117Z",
-  "synced_at": "2026-02-27T02:45:17.641Z",
+  "synced_at": "2026-02-28T04:15:15.150Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1cbc7790a7bb927a6716b8ed9796edba509ac98fe26b7bef03c1c09569a2a521",
   "install_command": "mkdir -p .claude/skills/chapter-outline-generator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/chapter-outline-generator/SKILL.md\" > .claude/skills/chapter-outline-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/chapter-outline-generator/SKILL.md"

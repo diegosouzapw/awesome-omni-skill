@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "69008679bdfb777ab368f7a08075345d30b2f88fe2652df79be625dcf5314059",
   "indexed_at": "2026-02-26T05:10:57.856Z",
-  "synced_at": "2026-02-27T02:44:07.768Z",
+  "synced_at": "2026-02-28T04:14:04.846Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/be1ad7418776d3f2f7d82588dd49fa38b88494a777633d098208a578d8ceba67",
   "install_command": "mkdir -p .claude/skills/acf-block-registration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acf-block-registration/SKILL.md\" > .claude/skills/acf-block-registration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acf-block-registration/SKILL.md"

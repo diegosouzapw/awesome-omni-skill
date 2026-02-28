@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "79907f1b4952632132a2dd49f60594310df08add8b8d877a187470ece5a894f4",
   "indexed_at": "2026-02-26T15:22:19.484Z",
-  "synced_at": "2026-02-27T02:44:44.829Z",
+  "synced_at": "2026-02-28T04:14:37.132Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/872bcb6edee74fcec739cf23f016e038c1e40edaf1af9d78034efb8a31405dfb",
   "install_command": "mkdir -p .claude/skills/skill-antigravity && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/cocacha12/agent-skills/skill-antigravity/SKILL.md\" > .claude/skills/skill-antigravity/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/cocacha12/agent-skills/skill-antigravity/SKILL.md"

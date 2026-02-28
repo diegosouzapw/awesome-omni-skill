@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b4e6b85eb9d1741e2233d46ecbdf375b3cb57cf542c60fe1d8bf6eb0ddf93af8",
   "indexed_at": "2026-02-25T15:06:10.504Z",
-  "synced_at": "2026-02-27T02:44:29.906Z",
+  "synced_at": "2026-02-28T04:14:25.546Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d45c882c79d47d8a125196e16158c2f006bfa5c847af4d8a4b969e0beea95633",
   "install_command": "mkdir -p .claude/skills/aspire-cli && curl -sL \"https://raw.githubusercontent.com/arisng/github-copilot-fc/main/skills/aspire-cli/SKILL.md\" > .claude/skills/aspire-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/arisng/github-copilot-fc/main/skills/aspire-cli/SKILL.md"

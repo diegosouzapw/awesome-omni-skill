@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8bc3fc7fbadb3c5269fa2c77539b9edd8f57da45b894ee45395160d9310a9696",
   "indexed_at": "2026-02-26T17:33:29.340Z",
-  "synced_at": "2026-02-27T02:44:49.153Z",
+  "synced_at": "2026-02-28T04:14:39.982Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c3dbcba65979ea5754ecf41ab1f9dff328085ddde70f2da8685fe7ac7249b9ba",
   "install_command": "mkdir -p .claude/skills/sdd && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/sdd-spillwavesolutions-agent-rulez/SKILL.md\" > .claude/skills/sdd/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/sdd-spillwavesolutions-agent-rulez/SKILL.md"

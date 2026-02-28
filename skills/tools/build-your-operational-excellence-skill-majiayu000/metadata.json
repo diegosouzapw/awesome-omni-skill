@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "89a61f05af9511b01b0aad1db1df3e751dba2a90b2bdb3914eb64bb9c04534cd",
   "indexed_at": "2026-02-24T23:11:36.462Z",
-  "synced_at": "2026-02-27T02:44:13.108Z",
+  "synced_at": "2026-02-28T04:14:09.040Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f49cab0c58536d40b22969cbafe626540a49ecc4898bbdb98a841ecd4a35022d",
   "install_command": "mkdir -p .claude/skills/build-your-operational-excellence-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/59-cost-disaster-recovery/SKILL.md\" > .claude/skills/build-your-operational-excellence-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/59-cost-disaster-recovery/SKILL.md"

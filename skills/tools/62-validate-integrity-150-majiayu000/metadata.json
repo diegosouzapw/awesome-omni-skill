@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a56a0eb7cd616c6b41dbee5dfc746b7f0677698ae44416f7225468c43d326448",
   "indexed_at": "2026-02-24T23:11:52.757Z",
-  "synced_at": "2026-02-27T02:44:13.313Z",
+  "synced_at": "2026-02-28T04:14:09.448Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bd78ecf2b153b39db83dbbe0ff279ae0148b23ec4fe30f8654183a6f9bf0c81e",
   "install_command": "mkdir -p .claude/skills/62-validate-integrity-150 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/62-validate-integrity-150/SKILL.md\" > .claude/skills/62-validate-integrity-150/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/62-validate-integrity-150/SKILL.md"

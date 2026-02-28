@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "20e9551730ca01b6a27afad45db44228dc50c46b5edaea402409753be6d1cee3",
   "indexed_at": "2026-02-24T23:10:23.826Z",
-  "synced_at": "2026-02-27T02:44:24.197Z",
+  "synced_at": "2026-02-28T04:14:19.097Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a403a8e409837b604f200b51f9ccefab0ceba114ad1979410080456d74404c49",
   "install_command": "mkdir -p .claude/skills/4-domain-deep-dive && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/4-domain-deep-dive/SKILL.md\" > .claude/skills/4-domain-deep-dive/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/4-domain-deep-dive/SKILL.md"

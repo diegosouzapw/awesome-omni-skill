@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6cf8a41d5d13c7757df650bbeb667f63dde72d333420b773edd499ef35e85da6",
   "indexed_at": "2026-02-27T04:57:26.976Z",
-  "synced_at": "2026-02-27T13:14:30.679Z",
+  "synced_at": "2026-02-28T04:14:03.181Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5ba4e1c464824bd717731a8de8892cc5bf1481f0c76af60334ea5e9c02bc6907",
   "install_command": "mkdir -p .claude/skills/agent-wordpress-master && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-wordpress-master/SKILL.md\" > .claude/skills/agent-wordpress-master/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-wordpress-master/SKILL.md"

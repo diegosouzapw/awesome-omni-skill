@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6e9427e7de99ece760ae83e91481422ee0372a5b9ecbb7d15e3716f65d338b79",
   "indexed_at": "2026-02-26T05:11:14.247Z",
-  "synced_at": "2026-02-27T02:44:19.984Z",
+  "synced_at": "2026-02-28T04:14:16.069Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/39958b8873e407fa32d49a1c0a22ccdd6dca930cb4171600331b6e91cc6e4374",
   "install_command": "mkdir -p .claude/skills/act-local-testing && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/act-local-testing/SKILL.md\" > .claude/skills/act-local-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/act-local-testing/SKILL.md"

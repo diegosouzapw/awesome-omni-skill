@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1e9581fd155e9b0892e2b4609a55a5f47b9e8b80315eb995073477afa5590b52",
   "indexed_at": "2026-02-25T12:46:20.467Z",
-  "synced_at": "2026-02-27T02:44:57.909Z",
+  "synced_at": "2026-02-28T04:14:55.359Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6b8b5a2a3943b9a2855b1a57acc0d570513c595504d4b96530560fde37ee5d2a",
   "install_command": "mkdir -p .claude/skills/collaborating-with-gemini-cli && curl -sL \"https://raw.githubusercontent.com/ZhenHuangLab/collaborating-with-gemini-cli/main/SKILL.md\" > .claude/skills/collaborating-with-gemini-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ZhenHuangLab/collaborating-with-gemini-cli/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "77006c9ba4d1aae473a8ee89b33ba4b55c23c2ccc1edeabcaf0c2abe9054eeef",
   "indexed_at": "2026-02-24T23:08:57.779Z",
-  "synced_at": "2026-02-27T02:44:10.189Z",
+  "synced_at": "2026-02-28T04:14:06.755Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a448f16e800f1e5282c7c4280f7cd07428045e2a06cc1fa2e4bfd55bc308b9c3",
   "install_command": "mkdir -p .claude/skills/differential-methylation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/21-differential-methylation/SKILL.md\" > .claude/skills/differential-methylation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/21-differential-methylation/SKILL.md"

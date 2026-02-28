@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d4357cefafcf52cb92600a5956a7a3c4aa773c5026e4df3a9cae237394ca50dd",
   "indexed_at": "2026-02-25T21:41:30.017Z",
-  "synced_at": "2026-02-27T02:45:17.852Z",
+  "synced_at": "2026-02-28T04:15:15.355Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c5a7e229da8574e1bfd851d57590ad6310d956eddd5e6d3c181e661c05cd1fec",
   "install_command": "mkdir -p .claude/skills/using-mcp-tools-with-mcpc && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/using-mcp-tools-with-mcpc/SKILL.md\" > .claude/skills/using-mcp-tools-with-mcpc/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/using-mcp-tools-with-mcpc/SKILL.md"

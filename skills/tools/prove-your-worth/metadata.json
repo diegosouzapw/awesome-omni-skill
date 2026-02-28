@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "db20a56f7c10dacd953f73cec4c2de0b422fbd74ea3883430423ca041b92f8bb",
   "indexed_at": "2026-02-27T03:55:01.988Z",
-  "synced_at": "2026-02-27T13:14:28.906Z",
+  "synced_at": "2026-02-28T04:13:52.503Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dcb4084138cb7c411c3f665beebc934ad096be06167719459cd2ab748b638dcb",
   "install_command": "mkdir -p .claude/skills/prove-your-worth && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-ops-prove-your-worth/SKILL.md\" > .claude/skills/prove-your-worth/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-ops-prove-your-worth/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6d544348731f82f180b2062da52b3790639aa48b7d0afa1d9bad2584b31f53f9",
   "indexed_at": "2026-02-27T04:57:04.379Z",
-  "synced_at": "2026-02-27T13:14:30.565Z",
+  "synced_at": "2026-02-28T04:14:02.980Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bc9d6f60bcca2fdc00688e094d806e2377005b3fec75c987aab743544bdbee1c",
   "install_command": "mkdir -p .claude/skills/agent-tooling-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-tooling-engineer/SKILL.md\" > .claude/skills/agent-tooling-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-tooling-engineer/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dfff121c1a0cf81dd16275ce18289440c0af113b55ac4d1e9557ee4878bbeb91",
   "indexed_at": "2026-02-25T13:50:03.466Z",
-  "synced_at": "2026-02-27T02:45:04.121Z",
+  "synced_at": "2026-02-28T04:15:02.018Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/569d6a32dd7aeb0c3572640e4d1d51153b9ee7dbf55d7eb8449e9ded9b51e718",
   "install_command": "mkdir -p .claude/skills/skill-authoring && curl -sL \"https://raw.githubusercontent.com/Jaylonnet/agent-skill-collection/main/SKILL.md\" > .claude/skills/skill-authoring/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Jaylonnet/agent-skill-collection/main/SKILL.md"

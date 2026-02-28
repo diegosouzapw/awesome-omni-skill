@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a1e2adfdaf605a58fc1bb65f51b6b3546b09e845bf28ddaafdece5bb57437b65",
   "indexed_at": "2026-02-27T15:06:39.785Z",
-  "synced_at": "2026-02-27T18:15:47.560Z",
+  "synced_at": "2026-02-28T04:14:44.647Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/820eb9777e26f295f3dbd6987b99e85c74b71a82293fb5534bb705d10addc360",
   "install_command": "mkdir -p .claude/skills/conventional-commit-generator && curl -sL \"https://raw.githubusercontent.com/HirogaKatageri/hirokata-cc-marketplace/main/plugins/cc-develop-plugin/skills/conventional-commit/SKILL.md\" > .claude/skills/conventional-commit-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HirogaKatageri/hirokata-cc-marketplace/main/plugins/cc-develop-plugin/skills/conventional-commit/SKILL.md"

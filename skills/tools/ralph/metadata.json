@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e86c9795341a7afb276c9494519f1cd79178940157359a11b1d6e5abb9213277",
   "indexed_at": "2026-02-25T12:41:37.286Z",
-  "synced_at": "2026-02-27T02:44:57.092Z",
+  "synced_at": "2026-02-28T04:14:54.563Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d392f0d18645abf3a9264a2cdf9f32026526a9ae1b9077c50d86e0fbfd4dfec8",
   "install_command": "mkdir -p .claude/skills/ralph && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/ralph-davzucky-iceberg-explorer/SKILL.md\" > .claude/skills/ralph/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/ralph-davzucky-iceberg-explorer/SKILL.md"

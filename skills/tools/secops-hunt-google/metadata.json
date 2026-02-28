@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "47e7427b2933cd81ddb19d051850b65d4571b25f9a14e19e7b1319d6a991fb25",
   "indexed_at": "2026-02-25T14:11:50.717Z",
-  "synced_at": "2026-02-27T02:45:05.405Z",
+  "synced_at": "2026-02-28T04:15:03.279Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/db0b58c5c392c220896bd8f211d9235fa0b560f21ccedceae684e38bb6d2215e",
   "install_command": "mkdir -p .claude/skills/secops-hunt && curl -sL \"https://raw.githubusercontent.com/google/mcp-security/main/extensions/google-secops/skills/hunt/SKILL.md\" > .claude/skills/secops-hunt/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/google/mcp-security/main/extensions/google-secops/skills/hunt/SKILL.md"

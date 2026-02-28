@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "12a226032f8f64a78c915ea0cad03c9c976ea112f4721fe77af5dd8ef05647a5",
   "indexed_at": "2026-02-25T12:48:22.816Z",
-  "synced_at": "2026-02-27T02:44:58.657Z",
+  "synced_at": "2026-02-28T04:14:56.114Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9f9fe87d203f29c932dcaeeca00579d6ea89005849b3d7134cbeedbb77d0c115",
   "install_command": "mkdir -p .claude/skills/wechat-to-notebooklm && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/zstmfhy/wechat-to-notebooklm/wechat-to-notebooklm/SKILL.md\" > .claude/skills/wechat-to-notebooklm/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/zstmfhy/wechat-to-notebooklm/wechat-to-notebooklm/SKILL.md"

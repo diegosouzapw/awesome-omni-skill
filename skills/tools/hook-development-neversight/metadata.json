@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "71b6241f8cf83a0a8d3cd02ad2dee0c6d9e8cfcc1eee46802f1dfd791307371f",
   "indexed_at": "2026-02-26T13:22:00.049Z",
-  "synced_at": "2026-02-27T02:44:41.596Z",
+  "synced_at": "2026-02-28T04:14:34.241Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/352ac184d0e367b04cc986240c36d9a4bdb2c35b2ee1bb0d4a3e201b4e04dd8f",
   "install_command": "mkdir -p .claude/skills/hook-development && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ssdeanx/agentstack/hook-development/SKILL.md\" > .claude/skills/hook-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ssdeanx/agentstack/hook-development/SKILL.md"

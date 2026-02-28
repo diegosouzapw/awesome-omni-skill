@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fa0279b7c23df951ca733e32dc181781ecd24d56c987ce642b73d07d57463b49",
   "indexed_at": "2026-02-27T17:41:12.893Z",
-  "synced_at": "2026-02-27T18:15:48.696Z",
+  "synced_at": "2026-02-28T04:14:45.890Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2983c5cf55c8495966dc4c79ef6318e649e1109a1014d166b1a20586737b44eb",
   "install_command": "mkdir -p .claude/skills/skill-builder && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/skill-builder-mc-zuri-mineflayer-bedrock/SKILL.md\" > .claude/skills/skill-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/skill-builder-mc-zuri-mineflayer-bedrock/SKILL.md"

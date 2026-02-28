@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "98c66dcee9aeed9191c6fed4c96d118ea8173626e3383e582b8eedd63f7d41ea",
   "indexed_at": "2026-02-26T05:52:40.694Z",
-  "synced_at": "2026-02-27T02:45:22.885Z",
+  "synced_at": "2026-02-28T04:15:20.140Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c8e2d33fc59a0ffbb444a13ee4a8bab5544443c4dfe175fdf8f9b5561da67677",
   "install_command": "mkdir -p .claude/skills/bug-diagnosis && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/bug-diagnosis-congdon1207-agents-md/SKILL.md\" > .claude/skills/bug-diagnosis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/bug-diagnosis-congdon1207-agents-md/SKILL.md"

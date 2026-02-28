@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8b4fa7eedbffb62894047937792337f7645f071613c6791e6e074cff8042a014",
   "indexed_at": "2026-02-26T04:24:31.285Z",
-  "synced_at": "2026-02-27T02:45:19.994Z",
+  "synced_at": "2026-02-28T04:15:17.504Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7ff67681699fdc9289f4437b94d0f81e7b187a6040228893def5211d55375a04",
   "install_command": "mkdir -p .claude/skills/worktree-tending && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/worktree-tending/SKILL.md\" > .claude/skills/worktree-tending/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/worktree-tending/SKILL.md"

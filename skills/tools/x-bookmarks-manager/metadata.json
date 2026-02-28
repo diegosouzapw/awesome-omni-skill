@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9934f30ae82737485496991d3e1793b19cd4d7573691bfd64a65172f7019c7bb",
   "indexed_at": "2026-02-25T14:10:45.978Z",
-  "synced_at": "2026-02-27T02:45:05.228Z",
+  "synced_at": "2026-02-28T04:15:03.098Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c622397253c7d302476704eeca4c5fca45569b363f0242e732937a891cbddd61",
   "install_command": "mkdir -p .claude/skills/x-bookmarks-manager && curl -sL \"https://raw.githubusercontent.com/eugenepyvovarov/x-bookmarks-agent-skill/main/SKILL.md\" > .claude/skills/x-bookmarks-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/eugenepyvovarov/x-bookmarks-agent-skill/main/SKILL.md"

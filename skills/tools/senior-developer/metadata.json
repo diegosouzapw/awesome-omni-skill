@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "db7110d9c513396b1021c403f55a274a0efd1ecfe3076a8c61fa3fefbdae659e",
   "indexed_at": "2026-02-26T06:54:06.783Z",
-  "synced_at": "2026-02-27T02:45:24.826Z",
+  "synced_at": "2026-02-28T04:15:22.098Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/590ea3028006e21b8417163fa29e405c86f0c760d8e2818923e6b8c103b09191",
   "install_command": "mkdir -p .claude/skills/senior-developer && curl -sL \"https://raw.githubusercontent.com/u1pns/skills-entrepeneur/main/senior-developer/SKILL.md\" > .claude/skills/senior-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/u1pns/skills-entrepeneur/main/senior-developer/SKILL.md"

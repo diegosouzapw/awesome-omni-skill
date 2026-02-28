@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f44e6d010ded7f7c896a5b7546ea46adcc677c218eb93b93fa9e6e52251f4a0f",
   "indexed_at": "2026-02-27T16:02:25.568Z",
-  "synced_at": "2026-02-27T18:15:47.820Z",
+  "synced_at": "2026-02-28T04:14:45.004Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d94063913e70985ef6bdb35fa1602eba106d61dbfb23264d2bb63e268635463a",
   "install_command": "mkdir -p .claude/skills/project-aeo-monitoring-tools && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/project-aeo-monitoring-tools/SKILL.md\" > .claude/skills/project-aeo-monitoring-tools/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/project-aeo-monitoring-tools/SKILL.md"

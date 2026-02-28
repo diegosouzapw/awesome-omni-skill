@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f54d96299293a2659ea8a046e1ac23c293a8adf887afc4c8d52c28360cf2c321",
   "indexed_at": "2026-02-25T12:41:01.569Z",
-  "synced_at": "2026-02-27T02:44:56.602Z",
+  "synced_at": "2026-02-28T04:14:53.998Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ce879ba890bbd81af92e586c214bf92c2dd54cd6418be3c5f3f26795549b28c4",
   "install_command": "mkdir -p .claude/skills/goal && curl -sL \"https://raw.githubusercontent.com/jongwony/epistemic-protocols/main/telos/skills/goal/SKILL.md\" > .claude/skills/goal/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jongwony/epistemic-protocols/main/telos/skills/goal/SKILL.md"

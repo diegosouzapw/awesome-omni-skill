@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "725c2bdc65ce40a45ed012f6536085c95bd4203581250e07ddc4611517ad6469",
   "indexed_at": "2026-02-25T20:42:28.774Z",
-  "synced_at": "2026-02-27T02:45:16.398Z",
+  "synced_at": "2026-02-28T04:15:14.012Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fa9beb42395e63525ef97e4ccf8c30967918a3bc6505c267567e861748ba24eb",
   "install_command": "mkdir -p .claude/skills/commit && curl -sL \"https://raw.githubusercontent.com/howarewoo/woo-stack/main/.claude/skills/commit/SKILL.md\" > .claude/skills/commit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/howarewoo/woo-stack/main/.claude/skills/commit/SKILL.md"

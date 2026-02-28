@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e61b758c12b4bf2c1bb4a57901e907a609266f992f669796586176374fa2bfc6",
   "indexed_at": "2026-02-25T12:36:57.735Z",
-  "synced_at": "2026-02-27T02:44:56.078Z",
+  "synced_at": "2026-02-28T04:14:53.424Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b1905143d013ac92e81eaef64f1c8c15cb3ef82b12e989dde6f4ec70d6afb122",
   "install_command": "mkdir -p .claude/skills/prd-generator-for-taskmaster && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/prd-taskmaster/SKILL.md\" > .claude/skills/prd-generator-for-taskmaster/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/prd-taskmaster/SKILL.md"

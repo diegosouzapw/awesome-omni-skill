@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bc567beb7375110acf09f30bc79ff695ca5f2891679496a8915783c263917bda",
   "indexed_at": "2026-02-26T15:20:11.544Z",
-  "synced_at": "2026-02-27T02:44:44.158Z",
+  "synced_at": "2026-02-28T04:14:36.403Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/832d578d7477937930f44f543fa6dc95b1cdb4fe8e02fa0af6577d4561af3369",
   "install_command": "mkdir -p .claude/skills/openspec-ff-change && curl -sL \"https://raw.githubusercontent.com/LIDR-academy/AI4Devs-LTI-extended/main/.claude/skills/openspec-ff-change/SKILL.md\" > .claude/skills/openspec-ff-change/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/LIDR-academy/AI4Devs-LTI-extended/main/.claude/skills/openspec-ff-change/SKILL.md"

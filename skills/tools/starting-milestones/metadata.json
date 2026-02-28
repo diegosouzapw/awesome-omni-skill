@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bf8c549aa820616aade65a8911021c21623942e7b3187ebf4d61736167e568b6",
   "indexed_at": "2026-02-25T21:40:26.002Z",
-  "synced_at": "2026-02-27T02:44:31.787Z",
+  "synced_at": "2026-02-28T04:14:27.279Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9cc5559f123548b69876b1c0406d04796636ff9f93f9663c55424d62aa66376c",
   "install_command": "mkdir -p .claude/skills/starting-milestones && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/starting-milestones/SKILL.md\" > .claude/skills/starting-milestones/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/starting-milestones/SKILL.md"

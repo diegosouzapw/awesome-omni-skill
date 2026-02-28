@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8ef6efc04471e5bee7f57a87519c50baf05d9509486373119a9a02448fd19f1a",
   "indexed_at": "2026-02-25T14:36:24.357Z",
-  "synced_at": "2026-02-27T02:45:05.566Z",
+  "synced_at": "2026-02-28T04:15:03.429Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0015dcb9769bd919080e750c4b2c4e61b0a8f2cd2ac8d07ccd256b835aff0393",
   "install_command": "mkdir -p .claude/skills/permission-manager && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/permission-manager/SKILL.md\" > .claude/skills/permission-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/permission-manager/SKILL.md"

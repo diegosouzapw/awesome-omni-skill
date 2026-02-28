@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "32752cdfe7b39a558758c102799cb96abe1b9545156f4e0ba1b6434414c64b31",
   "indexed_at": "2026-02-26T00:40:27.144Z",
-  "synced_at": "2026-02-27T02:45:18.747Z",
+  "synced_at": "2026-02-28T04:15:16.270Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1031536263cb57fe61612aa999214991fdb35573cc6542e9bb1ca9a6901f296f",
   "install_command": "mkdir -p .claude/skills/pokemon-tcg-pocket-skill-builder && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/pokemon-skill-builder/SKILL.md\" > .claude/skills/pokemon-tcg-pocket-skill-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/pokemon-skill-builder/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4eb4a4875d5bf0735431a3f1355ef739d1e920b9edf54cda7eb7de2be90c527a",
   "indexed_at": "2026-02-26T04:20:19.659Z",
-  "synced_at": "2026-02-27T02:45:19.646Z",
+  "synced_at": "2026-02-28T04:15:17.123Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/54ca2accc8f40dea09835410178804e14ee5450364955e1ebbeee31b9322fb49",
   "install_command": "mkdir -p .claude/skills/copilot-instructions-blueprint-generator && curl -sL \"https://raw.githubusercontent.com/williamlimasilva/.copilot/main/skills/copilot-instructions-blueprint-generator/SKILL.md\" > .claude/skills/copilot-instructions-blueprint-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/williamlimasilva/.copilot/main/skills/copilot-instructions-blueprint-generator/SKILL.md"

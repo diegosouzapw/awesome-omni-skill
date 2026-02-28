@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "116a47d432134ef441f75cae5d2747e68abe97a6ce4474633ad788ae7d245893",
   "indexed_at": "2026-02-26T17:30:26.574Z",
-  "synced_at": "2026-02-27T02:44:47.064Z",
+  "synced_at": "2026-02-28T04:14:38.884Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c4526a19bcd599d2f2396dfae935ff3d299c5046591155e2b02df7eacbc2731b",
   "install_command": "mkdir -p .claude/skills/sdd && curl -sL \"https://raw.githubusercontent.com/SpillwaveSolutions/agent_rulez/main/.opencode/skill/sdd/SKILL.md\" > .claude/skills/sdd/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/SpillwaveSolutions/agent_rulez/main/.opencode/skill/sdd/SKILL.md"

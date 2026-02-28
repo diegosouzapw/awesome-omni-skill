@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f64a85fbc76e4ec163885fdcb0108da49769599d3d195bf211b0839cbc2e36b7",
   "indexed_at": "2026-02-26T05:49:59.362Z",
-  "synced_at": "2026-02-27T02:45:22.202Z",
+  "synced_at": "2026-02-28T04:15:19.453Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/74dec54cbb90d715267cdb1fc83b35761c784bbde08a47b4201bab2f433a68b5",
   "install_command": "mkdir -p .claude/skills/components-guide && curl -sL \"https://raw.githubusercontent.com/get-convex/convex-agent-plugins/main/skills/components-guide/SKILL.md\" > .claude/skills/components-guide/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/get-convex/convex-agent-plugins/main/skills/components-guide/SKILL.md"

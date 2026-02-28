@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b25c7cf2cf6c0e622a29f207f97f1fa36d5a761ad48466ceedd9e8bb32c1e576",
   "indexed_at": "2026-02-25T13:08:34.786Z",
-  "synced_at": "2026-02-27T02:45:03.168Z",
+  "synced_at": "2026-02-28T04:15:01.036Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bcd4f91823abd98ed13ef9905ec173cb4a5a7a2d0129710ace08981d9eba830c",
   "install_command": "mkdir -p .claude/skills/verify && curl -sL \"https://raw.githubusercontent.com/Chachamaru127/claude-code-harness/main/skills/verify/SKILL.md\" > .claude/skills/verify/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Chachamaru127/claude-code-harness/main/skills/verify/SKILL.md"

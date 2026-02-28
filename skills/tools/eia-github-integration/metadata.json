@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "52917bfb7da3f3932620bfc53dea58b708f47933f724e042a385be0fbb3f6a62",
   "indexed_at": "2026-02-26T07:52:14.094Z",
-  "synced_at": "2026-02-27T02:44:36.849Z",
+  "synced_at": "2026-02-28T04:14:30.297Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7bb5273c199516eb986fad6be6f1d002500d832ec7cc1495c5becee6ea4e3ba6",
   "install_command": "mkdir -p .claude/skills/eia-github-integration && curl -sL \"https://raw.githubusercontent.com/Emasoft/emasoft-integrator-agent/main/skills/eia-github-integration/SKILL.md\" > .claude/skills/eia-github-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Emasoft/emasoft-integrator-agent/main/skills/eia-github-integration/SKILL.md"

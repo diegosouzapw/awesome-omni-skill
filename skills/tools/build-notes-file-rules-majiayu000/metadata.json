@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry-data",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "data/build-notes-file-rules/SKILL.md",
+  "file_path": "other/build-notes-file-rules/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 50,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "ab362ce9f0fe2184920c11cfbcf0f76c1f5377f63e0eaf325aad529830bc720e",
-  "indexed_at": "2026-02-26T15:23:04.302Z",
-  "synced_at": "2026-02-27T02:44:26.425Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f6a7502b7f59d0354f484a1257ff45928a83b987b6bf232702c8c512e4cc91a5",
-  "install_command": "mkdir -p .claude/skills/build-notes-file-rules && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/build-notes-file-rules/SKILL.md\" > .claude/skills/build-notes-file-rules/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/build-notes-file-rules/SKILL.md"
+  "content_hash": "86c8b913e8ea13419bb7845cb65f9d2112912dc6cbfe10a3b4fce8840b151b05",
+  "indexed_at": "2026-02-28T00:21:12.282Z",
+  "synced_at": "2026-02-28T04:14:23.251Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2f56419db77525d30241442d5fa431e8e293c9d7be5025f65379d29037135bf9",
+  "install_command": "mkdir -p .claude/skills/build-notes-file-rules && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/build-notes-file-rules/SKILL.md\" > .claude/skills/build-notes-file-rules/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/build-notes-file-rules/SKILL.md"
 }

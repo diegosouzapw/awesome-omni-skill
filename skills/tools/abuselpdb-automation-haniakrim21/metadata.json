@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e5fa61c6a997a818ac9ee5dc5620417dd8780f6a898d7b1fef235b268f74638a",
   "indexed_at": "2026-02-26T00:41:31.109Z",
-  "synced_at": "2026-02-27T02:45:19.146Z",
+  "synced_at": "2026-02-28T04:15:16.631Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/854dfb8f520a864cf99c3ace31c44c326a64b52029867b197150e8884c0ea75c",
   "install_command": "mkdir -p .claude/skills/abuselpdb-automation && curl -sL \"https://raw.githubusercontent.com/haniakrim21/everything-claude-code/main/skills/abuselpdb-automation/SKILL.md\" > .claude/skills/abuselpdb-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/haniakrim21/everything-claude-code/main/skills/abuselpdb-automation/SKILL.md"

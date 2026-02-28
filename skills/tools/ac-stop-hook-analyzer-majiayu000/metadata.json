@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bd53cbc34daa5719dc4d37812d34b9f66bee75459c2190e2d3e3146d28753105",
   "indexed_at": "2026-02-24T23:21:59.194Z",
-  "synced_at": "2026-02-27T02:44:24.762Z",
+  "synced_at": "2026-02-28T04:14:19.757Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b662638e20620f447368a92ecd79791e73b8358d0c992a9c1d7f0bc03679c6d1",
   "install_command": "mkdir -p .claude/skills/ac-stop-hook-analyzer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ac-stop-hook-analyzer/SKILL.md\" > .claude/skills/ac-stop-hook-analyzer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ac-stop-hook-analyzer/SKILL.md"

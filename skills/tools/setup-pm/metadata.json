@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "365e19c813bb17db0e2db34b1b200a78d36c7683801fe212b6ed5c9f98c4693b",
   "indexed_at": "2026-02-27T07:42:07.881Z",
-  "synced_at": "2026-02-27T13:14:31.021Z",
+  "synced_at": "2026-02-28T04:14:43.813Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aba2ad5aa627104049159eadafebb728287c9020a3cdac73c50d06b416ae0e1c",
   "install_command": "mkdir -p .claude/skills/setup-pm && curl -sL \"https://raw.githubusercontent.com/foomakers/pair/main/packages/knowledge-hub/dataset/.skills/capability/setup-pm/SKILL.md\" > .claude/skills/setup-pm/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/foomakers/pair/main/packages/knowledge-hub/dataset/.skills/capability/setup-pm/SKILL.md"

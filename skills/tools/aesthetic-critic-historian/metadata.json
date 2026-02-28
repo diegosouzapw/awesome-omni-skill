@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a2dfdaced712ada67cdf7123ed8952ef1f8c6779117e78b66c7fabe0cd54c8ed",
   "indexed_at": "2026-02-27T02:54:22.773Z",
-  "synced_at": "2026-02-27T13:14:30.006Z",
+  "synced_at": "2026-02-28T04:14:02.024Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/67189105f912ad86dfb3ea2deb2c2b1b6a01bfe40bdfd4f7cd182044169804a3",
   "install_command": "mkdir -p .claude/skills/aesthetic-critic-historian && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aesthetic-critic-historian/SKILL.md\" > .claude/skills/aesthetic-critic-historian/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aesthetic-critic-historian/SKILL.md"

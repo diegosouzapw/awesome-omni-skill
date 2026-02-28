@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "deec5330e24b533fb21ce79cc139df9d83a3bac45af6996bac0d19d2dde90492",
   "indexed_at": "2026-02-26T05:11:15.382Z",
-  "synced_at": "2026-02-27T02:44:20.178Z",
+  "synced_at": "2026-02-28T04:14:16.255Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6e77deca89017b70bd5da5c6d876869faa522c9ad5eb63ee1b0c0f9f24855e99",
   "install_command": "mkdir -p .claude/skills/act-workflow-syntax && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/act-workflow-syntax/SKILL.md\" > .claude/skills/act-workflow-syntax/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/act-workflow-syntax/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "544d0365b9a1a09d543aebd5ca0d173d21c385381c7621a11b55c64d22a034e8",
   "indexed_at": "2026-02-25T17:09:48.164Z",
-  "synced_at": "2026-02-27T02:45:11.161Z",
+  "synced_at": "2026-02-28T04:15:09.018Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e1c609a8327d31d9cde2ac1d0d807de92298d7de116df24a43bb5eaff196404e",
   "install_command": "mkdir -p .claude/skills/awesome-copilot-root-architecture-blueprint-generator && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/awesome-copilot-root-codex-pack/.agents/skills/awesome-copilot-root-architecture-blueprint-generator/SKILL.md\" > .claude/skills/awesome-copilot-root-architecture-blueprint-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/awesome-copilot-root-codex-pack/.agents/skills/awesome-copilot-root-architecture-blueprint-generator/SKILL.md"

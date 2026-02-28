@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "501fa15724812de17df437435d6a53387c284524f31df0b47dcb51cefcfd2bf4",
   "indexed_at": "2026-02-24T23:07:46.071Z",
-  "synced_at": "2026-02-27T02:44:09.024Z",
+  "synced_at": "2026-02-28T04:14:05.616Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/79c04ed3933a893b9477dc32b8a8a43860ef60f7c304252301de77abc4e47520",
   "install_command": "mkdir -p .claude/skills/motif-scanning && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/14-toolbased-known-motif-scan/SKILL.md\" > .claude/skills/motif-scanning/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/14-toolbased-known-motif-scan/SKILL.md"

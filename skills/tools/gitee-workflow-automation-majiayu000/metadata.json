@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e641c5fb647d9d35971ae67760a18981372f4b040f824bd61e9b13d363a2c86a",
   "indexed_at": "2026-02-24T23:07:09.715Z",
-  "synced_at": "2026-02-27T02:44:23.634Z",
+  "synced_at": "2026-02-28T04:14:18.533Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/af6932f04770fc32178d1f77c842768a62fe2b91e5a18db154456ec14370c675",
   "install_command": "mkdir -p .claude/skills/gitee-workflow-automation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/05-devops-giteeworkflow/SKILL.md\" > .claude/skills/gitee-workflow-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/05-devops-giteeworkflow/SKILL.md"
