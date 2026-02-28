@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1f024d309f8de167a827bd7dec2671d3a75d23279583067a3967240902b1b061",
   "indexed_at": "2026-02-24T23:10:16.532Z",
-  "synced_at": "2026-02-27T02:25:39.514Z",
+  "synced_at": "2026-02-28T03:51:13.695Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ede1a384bf4b88599ab25db82923ce89a6ac5be56692cfee6f822c2fe93c14f6",
   "install_command": "mkdir -p .claude/skills/3d-spatial && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/3d-spatial/SKILL.md\" > .claude/skills/3d-spatial/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/3d-spatial/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0589e152a7ce17fef3c6e7463d1a85dacc2f1211b45e7f200b99871b63ecc255",
   "indexed_at": "2026-02-25T14:08:53.906Z",
-  "synced_at": "2026-02-27T02:26:21.416Z",
+  "synced_at": "2026-02-28T03:51:51.149Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dcdf31d09c85e0b6c206bd8b1587961c0008d28fdfb4b500457b43c0ffd4d0d3",
   "install_command": "mkdir -p .claude/skills/pattern-detection && curl -sL \"https://raw.githubusercontent.com/I2olanD/dotfiles/main/.config/opencode/frameworks/the-startup/skill/pattern-detection/SKILL.md\" > .claude/skills/pattern-detection/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/I2olanD/dotfiles/main/.config/opencode/frameworks/the-startup/skill/pattern-detection/SKILL.md"

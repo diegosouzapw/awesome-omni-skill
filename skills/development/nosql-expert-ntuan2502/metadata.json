@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "96b5ab6db12c3dbb86566bb134012d50d6ac877e8dbde3916ee80ef5cabbb8fb",
   "indexed_at": "2026-02-26T08:54:38.288Z",
-  "synced_at": "2026-02-27T02:27:01.965Z",
+  "synced_at": "2026-02-28T03:52:25.680Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/21488cc4097cb45da30cc244d027b508c3169e37df51ebfee16a1701961bbd96",
   "install_command": "mkdir -p .claude/skills/nosql-expert && curl -sL \"https://raw.githubusercontent.com/ntuan2502/org-chart/main/.agent/skills/nosql-expert/SKILL.md\" > .claude/skills/nosql-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ntuan2502/org-chart/main/.agent/skills/nosql-expert/SKILL.md"

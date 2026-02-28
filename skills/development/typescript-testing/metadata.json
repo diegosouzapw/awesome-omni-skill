@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5d540d70c1e916209df89dd0fdb9dee1abc4f3f6b24cceb5d368ca5f7485599a",
   "indexed_at": "2026-02-26T22:38:51.610Z",
-  "synced_at": "2026-02-27T02:26:13.574Z",
+  "synced_at": "2026-02-28T03:51:45.996Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4e4e322aaf2afb9b0cc751e8e0c552e503839f729006939154d4afd254ae2a27",
   "install_command": "mkdir -p .claude/skills/typescript-testing && curl -sL \"https://raw.githubusercontent.com/MLGBJDLW/vellum/main/packages/core/src/skill/builtin/typescript-testing/SKILL.md\" > .claude/skills/typescript-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MLGBJDLW/vellum/main/packages/core/src/skill/builtin/typescript-testing/SKILL.md"

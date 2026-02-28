@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3b54cd198fd81978b444f0db670e6948bc3decb191f7842bf6480668769b5142",
   "indexed_at": "2026-02-24T23:06:32.315Z",
-  "synced_at": "2026-02-27T02:25:28.875Z",
+  "synced_at": "2026-02-28T03:51:03.609Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a332ee3e2526565f7b9864a0fc7ebc87230b2f4815d3a798abd610efe3fef86f",
   "install_command": "mkdir -p .claude/skills/sequential-thinking && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/0-sequential-thinking/SKILL.md\" > .claude/skills/sequential-thinking/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/0-sequential-thinking/SKILL.md"

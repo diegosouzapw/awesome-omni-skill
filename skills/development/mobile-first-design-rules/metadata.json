@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "88d13deb10eaa1beeb2f88ba09d016a404000b55754bbb98ee857c4b2bfd35dd",
   "indexed_at": "2026-02-26T22:33:05.484Z",
-  "synced_at": "2026-02-27T02:26:12.893Z",
+  "synced_at": "2026-02-28T03:51:45.326Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5dc6258406ac581d549b1256e9c411d8b5539deac50ed6b8756530df907ef14a",
   "install_command": "mkdir -p .claude/skills/mobile-first-design-rules && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/mobile-first-design-rules/SKILL.md\" > .claude/skills/mobile-first-design-rules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/mobile-first-design-rules/SKILL.md"

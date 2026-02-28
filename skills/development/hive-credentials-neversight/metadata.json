@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3a68e75e32ffa1e7b4761189e9b735640bbe007ced2b255fd7b07d6c1e025a49",
   "indexed_at": "2026-02-26T09:47:18.864Z",
-  "synced_at": "2026-02-27T02:27:04.698Z",
+  "synced_at": "2026-02-28T03:52:27.979Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ff711e35bfd7066fad0acaa8f58050da67d0679a0166619279ad4694b8d6b16d",
   "install_command": "mkdir -p .claude/skills/hive-credentials && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/adenhq/hive/hive-credentials/SKILL.md\" > .claude/skills/hive-credentials/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/adenhq/hive/hive-credentials/SKILL.md"

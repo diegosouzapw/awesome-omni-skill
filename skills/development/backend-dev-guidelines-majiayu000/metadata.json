@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a4a70862e4c7a0d083a845a08036253497bd7a93284fd49b223729a5f64bc804",
   "indexed_at": "2026-02-26T05:49:00.787Z",
-  "synced_at": "2026-02-27T02:26:35.614Z",
+  "synced_at": "2026-02-28T03:52:04.155Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/493d900da78d59a850517021f316716bdf97919778540cb825a06b25d85ff414",
   "install_command": "mkdir -p .claude/skills/backend-dev-guidelines && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/backend-dev-guidelines-juarezroncalli-ferramentas/SKILL.md\" > .claude/skills/backend-dev-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/backend-dev-guidelines-juarezroncalli-ferramentas/SKILL.md"

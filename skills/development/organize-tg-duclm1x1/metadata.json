@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7eb709cc9de0715581c22ac2f449b5b552f92c43a27231a3a27f3839f7628c9d",
   "indexed_at": "2026-02-25T17:41:10.371Z",
-  "synced_at": "2026-02-27T02:26:28.299Z",
+  "synced_at": "2026-02-28T03:51:57.424Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d85cf7d4d1cf1f3fa1d9d430396edcfcf73440d1c6210197e13a80955ac76286",
   "install_command": "mkdir -p .claude/skills/organize-tg && curl -sL \"https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/skills_library/browser_automation/organize-tg/SKILL.md\" > .claude/skills/organize-tg/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/skills_library/browser_automation/organize-tg/SKILL.md"

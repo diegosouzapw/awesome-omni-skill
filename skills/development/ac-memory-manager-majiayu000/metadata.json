@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6f593e689ff21183c34cfd800ad70aa9fc65eebfb1eac8d1937fe00f6549d3ea",
   "indexed_at": "2026-02-24T23:21:53.851Z",
-  "synced_at": "2026-02-27T02:26:09.840Z",
+  "synced_at": "2026-02-28T03:51:42.254Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7bc0a38e2bd4589d34fb5a0a605e17321a54c8401b8e6f07d9aa78a611d8312f",
   "install_command": "mkdir -p .claude/skills/ac-memory-manager && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ac-memory-manager/SKILL.md\" > .claude/skills/ac-memory-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ac-memory-manager/SKILL.md"

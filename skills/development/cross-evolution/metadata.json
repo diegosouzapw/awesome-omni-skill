@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e3f06716c1ac262b79af3279828c71c1647bb3574e781712d5785c8bfdf474e0",
   "indexed_at": "2026-02-25T16:09:13.683Z",
-  "synced_at": "2026-02-27T02:26:24.510Z",
+  "synced_at": "2026-02-28T03:51:54.425Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aa7932e1ca665934d1a052f0684493e99a5eacdf2db03fda34ac0fd4f7b9ae7e",
   "install_command": "mkdir -p .claude/skills/cross-evolution && curl -sL \"https://raw.githubusercontent.com/llblab/skills/main/cross-evolution/SKILL.md\" > .claude/skills/cross-evolution/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/llblab/skills/main/cross-evolution/SKILL.md"

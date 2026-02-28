@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "73bb0a65f431bc390ba78c75f657d4ea37281b0491b2e685783f0688d2171d3e",
   "indexed_at": "2026-02-25T13:54:42.875Z",
-  "synced_at": "2026-02-27T02:26:21.234Z",
+  "synced_at": "2026-02-28T03:51:50.933Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/97162f5fc9bd2e63c2c77886f1b3135207d3ed54247f03fd111d4889236fc18c",
   "install_command": "mkdir -p .claude/skills/workers-development && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/workers-development-steveleve-claude-marketplace-b7fdc2db/SKILL.md\" > .claude/skills/workers-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/workers-development-steveleve-claude-marketplace-b7fdc2db/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6db220f1ae5502300e1d354ba9bc64b7344c21337548e610f4846ca3078346c4",
   "indexed_at": "2026-02-26T17:45:28.556Z",
-  "synced_at": "2026-02-27T02:26:11.608Z",
+  "synced_at": "2026-02-28T03:51:43.962Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2aee636e0ef1c4ccb40216f766b19b7eaca42185ae6912fc3a4972e3907b8d68",
   "install_command": "mkdir -p .claude/skills/mcp-builder && curl -sL \"https://raw.githubusercontent.com/rafaelramosdf/antigravity-agents/main/templates/agent-template-en/skills/mcp-builder/SKILL.md\" > .claude/skills/mcp-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rafaelramosdf/antigravity-agents/main/templates/agent-template-en/skills/mcp-builder/SKILL.md"

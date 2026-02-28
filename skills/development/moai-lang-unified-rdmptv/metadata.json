@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b6f358c59817c8a70c30c570865ea1b8488136db3d4807d73419de83aef6ef1e",
   "indexed_at": "2026-02-26T05:47:41.923Z",
-  "synced_at": "2026-02-27T02:26:34.207Z",
+  "synced_at": "2026-02-28T03:52:03.233Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7a5e9af05331dee50c00a5c04012802699739f9f80daa69deab79fca64034fc8",
   "install_command": "mkdir -p .claude/skills/moai-lang-unified && curl -sL \"https://raw.githubusercontent.com/rdmptv/AdbAutoPlayer/main/.claude/skills/moai-lang-unified/SKILL.md\" > .claude/skills/moai-lang-unified/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rdmptv/AdbAutoPlayer/main/.claude/skills/moai-lang-unified/SKILL.md"

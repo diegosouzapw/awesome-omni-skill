@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9a32a22d5bde7594d7bdaf0093ee75eff1d6046352d70387f6a02adf43d96f0e",
   "indexed_at": "2026-02-26T07:51:55.195Z",
-  "synced_at": "2026-02-27T02:26:54.662Z",
+  "synced_at": "2026-02-28T03:52:19.091Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f735475516ec6558cdf9a83d764914c0c5c7dcb0a79924c4d5a891de335bb9ab",
   "install_command": "mkdir -p .claude/skills/architecture-format-extended && curl -sL \"https://raw.githubusercontent.com/MatrixFounder/Agentic-development/main/.agent/skills/architecture-format-extended/SKILL.md\" > .claude/skills/architecture-format-extended/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MatrixFounder/Agentic-development/main/.agent/skills/architecture-format-extended/SKILL.md"

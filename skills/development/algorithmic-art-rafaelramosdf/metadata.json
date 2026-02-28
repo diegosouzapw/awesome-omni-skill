@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ae8829c70bde8a6714eead2aea7f94f7f519bd1356b6f2075ba1a871d43077e4",
   "indexed_at": "2026-02-26T17:45:16.565Z",
-  "synced_at": "2026-02-27T02:26:11.019Z",
+  "synced_at": "2026-02-28T03:51:43.369Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fee06abe83430cd6d6104d3bde3c5235c6a8ab448459b24a9376d4708b2253ca",
   "install_command": "mkdir -p .claude/skills/algorithmic-art && curl -sL \"https://raw.githubusercontent.com/rafaelramosdf/antigravity-agents/main/templates/agent-template-en/skills/algorithmic-art/SKILL.md\" > .claude/skills/algorithmic-art/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rafaelramosdf/antigravity-agents/main/templates/agent-template-en/skills/algorithmic-art/SKILL.md"

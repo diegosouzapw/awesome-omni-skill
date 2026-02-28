@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4feb17d79ef608a5aa2d6598635376bcb6f760ccd90ea15f8eb119459c57696e",
   "indexed_at": "2026-02-26T09:20:20.506Z",
-  "synced_at": "2026-02-27T02:27:03.245Z",
+  "synced_at": "2026-02-28T03:52:26.543Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9b8ca416cd0808341ad2a766f495016764698b81abc43f1e1c6dfff09fd27a6e",
   "install_command": "mkdir -p .claude/skills/websocket-engineer && curl -sL \"https://raw.githubusercontent.com/mohdakil2426/Nezuko-Telegram-Bot/main/.claude/skills/websocket-engineer/SKILL.md\" > .claude/skills/websocket-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mohdakil2426/Nezuko-Telegram-Bot/main/.claude/skills/websocket-engineer/SKILL.md"

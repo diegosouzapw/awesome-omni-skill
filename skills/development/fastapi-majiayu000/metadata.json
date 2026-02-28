@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "34d1f908134ff68453dfa393ec96b61ee606733a5438dc8354fb4a7f56541324",
   "indexed_at": "2026-02-26T09:34:28.819Z",
-  "synced_at": "2026-02-27T02:27:03.961Z",
+  "synced_at": "2026-02-28T03:52:27.274Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e05b353fa88f7a3b1d29d69644067229acd26072b61b873cbedadffd8874bf8f",
   "install_command": "mkdir -p .claude/skills/fastapi && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/fastapi-itechmeat-llm-code/SKILL.md\" > .claude/skills/fastapi/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/fastapi-itechmeat-llm-code/SKILL.md"

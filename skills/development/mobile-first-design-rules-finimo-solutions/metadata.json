@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eb84971f0129b3f6db10daa99621e3ffe5604d21adb95b0cfb9d08e21ead9fa2",
   "indexed_at": "2026-02-26T22:35:31.504Z",
-  "synced_at": "2026-02-27T02:26:13.066Z",
+  "synced_at": "2026-02-28T03:51:45.492Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5732b28b597477f7c3e41d530447a4735efd89caa07a9fc944cb213ee18e07c0",
   "install_command": "mkdir -p .claude/skills/mobile-first-design-rules && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/mobile-first-design-rules/SKILL.md\" > .claude/skills/mobile-first-design-rules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/mobile-first-design-rules/SKILL.md"

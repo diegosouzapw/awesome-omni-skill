@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "730c125430171bbe71d2642d98df999831b73e5e0f9e27f4111de888868cd8bf",
   "indexed_at": "2026-02-26T07:47:05.197Z",
-  "synced_at": "2026-02-27T02:26:51.616Z",
+  "synced_at": "2026-02-28T03:52:16.707Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/835fdee86e0c5999ae68572bdce0a74750ec046ef1d8b97104d33a46cc71f7e9",
   "install_command": "mkdir -p .claude/skills/api-fuzzing-bug-bounty && curl -sL \"https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/api-fuzzing-bug-bounty/SKILL.md\" > .claude/skills/api-fuzzing-bug-bounty/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/api-fuzzing-bug-bounty/SKILL.md"

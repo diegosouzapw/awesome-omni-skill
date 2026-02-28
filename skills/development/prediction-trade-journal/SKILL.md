@@ -5,7 +5,7 @@ description: Auto-log trades with context, track outcomes, generate calibration 
 metadata: {"clawdbot":{"emoji":"📓","requires":{"env":["SIMMER_API_KEY"],"pip":["simmer-sdk"]},"cron":null,"autostart":false}}
 authors:
   - Simmer (@simmer_markets)
-version: "1.1.7"
+version: "1.1.8"
 published: true
 ---
 

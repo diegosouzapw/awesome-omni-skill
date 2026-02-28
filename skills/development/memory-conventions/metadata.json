@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2dd668245afb093f699121061d6d3ef37aa4eb296a78c277278a4f45e046c7d1",
   "indexed_at": "2026-02-26T05:50:49.936Z",
-  "synced_at": "2026-02-27T02:26:37.260Z",
+  "synced_at": "2026-02-28T03:52:05.440Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/666daf4ddfb430bcc4d99b863a9e042be38be80ac075118aed9895a6232b260b",
   "install_command": "mkdir -p .claude/skills/memory-conventions && curl -sL \"https://raw.githubusercontent.com/jsamuelsen11/claude-config/main/plugins/ccfg-core/skills/memory-conventions/SKILL.md\" > .claude/skills/memory-conventions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jsamuelsen11/claude-config/main/plugins/ccfg-core/skills/memory-conventions/SKILL.md"

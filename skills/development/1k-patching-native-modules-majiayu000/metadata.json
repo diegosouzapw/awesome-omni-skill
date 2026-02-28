@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a58dd57834bc389db436e3e8bb79a77869390eb532ac558cebd69b24e26e7795",
   "indexed_at": "2026-02-24T23:08:22.831Z",
-  "synced_at": "2026-02-27T02:25:35.899Z",
+  "synced_at": "2026-02-28T03:51:10.282Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b021c08a3e6d7bfe3a08778a5a733e33335a79ec65e546e727e4d902b2a16c72",
   "install_command": "mkdir -p .claude/skills/1k-patching-native-modules && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/1k-patching-native-modules/SKILL.md\" > .claude/skills/1k-patching-native-modules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/1k-patching-native-modules/SKILL.md"

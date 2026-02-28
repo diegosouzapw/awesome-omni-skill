@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5bf28493665a80b869b3136fa843ec54413553e9626863b9290040d299c4391a",
   "indexed_at": "2026-02-26T08:45:37.230Z",
-  "synced_at": "2026-02-27T02:26:56.680Z",
+  "synced_at": "2026-02-28T03:52:21.026Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/797ff3e932be870b23109d94957e15e11a26de7d5f275c949d47c47c4556c0a7",
   "install_command": "mkdir -p .claude/skills/railway-templates && curl -sL \"https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/railway/templates/SKILL.md\" > .claude/skills/railway-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/railway/templates/SKILL.md"

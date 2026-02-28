@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7f423514652a246ec55fbaf18dba660e4785f396a1aef0d340dae5bde376a20c",
   "indexed_at": "2026-02-26T06:45:57.319Z",
-  "synced_at": "2026-02-27T02:26:43.306Z",
+  "synced_at": "2026-02-28T03:52:09.320Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d0026bd40fb9e6b68704f9b35c243ac99623c9a3328f4c73a011a7f82479723f",
   "install_command": "mkdir -p .claude/skills/relay-for-telegram && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/relayintel/relay-for-telegram/SKILL.md\" > .claude/skills/relay-for-telegram/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/relayintel/relay-for-telegram/SKILL.md"

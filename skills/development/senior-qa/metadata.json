@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b51fb3728fd87255719ebedb5d06a6b335152b797e83ba8dbf37d9de3cb5b1a3",
   "indexed_at": "2026-02-26T07:56:13.591Z",
-  "synced_at": "2026-02-27T02:26:55.964Z",
+  "synced_at": "2026-02-28T03:52:20.340Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3b0561acb0c4bd3e5b3f3504ee09f52fd687156d74fabe16740617062834623d",
   "install_command": "mkdir -p .claude/skills/senior-qa && curl -sL \"https://raw.githubusercontent.com/arielperez82/agents-and-skills/main/skills/engineering-team/senior-qa/SKILL.md\" > .claude/skills/senior-qa/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/arielperez82/agents-and-skills/main/skills/engineering-team/senior-qa/SKILL.md"

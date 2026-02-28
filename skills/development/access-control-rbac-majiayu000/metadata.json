@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5eca330662cfdbfd578ffe84b6d427cdc1fe41da2483f6f57cf59fbe114f8392",
   "indexed_at": "2026-02-26T05:09:32.525Z",
-  "synced_at": "2026-02-27T02:25:58.202Z",
+  "synced_at": "2026-02-28T03:51:32.076Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/00244b43cb62bf469a68ea6873e6a6feaae6563b264a345a2fc4443f895f4883",
   "install_command": "mkdir -p .claude/skills/access-control-rbac && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/access-control-rbac/SKILL.md\" > .claude/skills/access-control-rbac/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/access-control-rbac/SKILL.md"

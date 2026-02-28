@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3ad8f294f0066ae36dd9bd8b986095f89a314720f6d148695e670ec760d5b3ae",
   "indexed_at": "2026-02-24T23:22:00.506Z",
-  "synced_at": "2026-02-27T02:25:50.482Z",
+  "synced_at": "2026-02-28T03:51:24.559Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a4986b108ae5a193675fcfdefc9859a2e782a8dee93844da96e65c276619e077",
   "install_command": "mkdir -p .claude/skills/ac-tdd-runner && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ac-tdd-runner/SKILL.md\" > .claude/skills/ac-tdd-runner/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ac-tdd-runner/SKILL.md"

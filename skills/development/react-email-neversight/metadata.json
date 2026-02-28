@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "91389d1eb446da996eb351e599c9ea68b6d2ac1ee4292a8b2a7e846841d67aaf",
   "indexed_at": "2026-02-25T17:10:28.604Z",
-  "synced_at": "2026-02-27T02:26:26.244Z",
+  "synced_at": "2026-02-28T03:51:56.143Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/28206ea0a9485116479aed8782fc5b369f73eccc11486f55e78a709e734b7ce4",
   "install_command": "mkdir -p .claude/skills/react-email && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/fellipeutaka/leon/react-email/SKILL.md\" > .claude/skills/react-email/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/fellipeutaka/leon/react-email/SKILL.md"

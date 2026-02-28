@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3b1e0afd001db6bbdfeb792b0a84106b6281eea56e20a2f53cebd5d28740c219",
   "indexed_at": "2026-02-26T06:47:23.594Z",
-  "synced_at": "2026-02-27T02:26:44.377Z",
+  "synced_at": "2026-02-28T03:52:10.373Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/13058799a1c957840a5c1a399316a4be10f43f7120cda9a0c5e95435d4b08ad7",
   "install_command": "mkdir -p .claude/skills/frontend-design && curl -sL \"https://raw.githubusercontent.com/TIAN0517/iosboss/main/gas-project/skills/frontend-design/SKILL.md\" > .claude/skills/frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TIAN0517/iosboss/main/gas-project/skills/frontend-design/SKILL.md"

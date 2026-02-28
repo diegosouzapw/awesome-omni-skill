@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "134b3037436fe7f7ba0b96a8b25207e3d1e1da2f5ef1132d99dbbcdeccd41e5b",
   "indexed_at": "2026-02-25T12:50:02.434Z",
-  "synced_at": "2026-02-27T02:26:15.382Z",
+  "synced_at": "2026-02-28T03:51:48.618Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2840460f5e1324e0f10130b0d071292b995bb31ee0fffc5fa214e5b1d7234efd",
   "install_command": "mkdir -p .claude/skills/whatsapp-ultimate-no-meta-api-lead-mining-bulk-send-scheduled-reminders-follow-ups && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/alex-tradequo/whatsapp-automation-a2a/SKILL.md\" > .claude/skills/whatsapp-ultimate-no-meta-api-lead-mining-bulk-send-scheduled-reminders-follow-ups/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alex-tradequo/whatsapp-automation-a2a/SKILL.md"

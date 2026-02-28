@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cd09f7ed8b40e945e8952fb1309c6bbe93b810085f031204250dfd0ce3c75828",
   "indexed_at": "2026-02-24T23:22:38.468Z",
-  "synced_at": "2026-02-27T02:25:52.449Z",
+  "synced_at": "2026-02-28T03:51:26.566Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d6911b4ad0cb753acfb7c0c6aeb2f1c77a457e58b588bea8bc6a5f0abc08351b",
   "install_command": "mkdir -p .claude/skills/acc-check-encapsulation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-check-encapsulation/SKILL.md\" > .claude/skills/acc-check-encapsulation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-check-encapsulation/SKILL.md"

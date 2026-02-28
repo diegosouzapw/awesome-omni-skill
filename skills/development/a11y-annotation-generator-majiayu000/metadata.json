@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e126bf0a838ba6c51caebeba86e4e40a85ef1980fdc87c705c56241d4f7992f3",
   "indexed_at": "2026-02-24T23:19:47.243Z",
-  "synced_at": "2026-02-27T02:25:43.518Z",
+  "synced_at": "2026-02-28T03:51:17.815Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/93328428f66730a1b95cbb1260f93ded3b6990f8160efddea8768b50beb7454f",
   "install_command": "mkdir -p .claude/skills/a11y-annotation-generator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/a11y-annotation-generator/SKILL.md\" > .claude/skills/a11y-annotation-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/a11y-annotation-generator/SKILL.md"

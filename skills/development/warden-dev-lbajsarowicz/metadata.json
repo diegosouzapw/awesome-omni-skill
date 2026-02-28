@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "30f685bb9cb85f2bbe03128df791fc4e75fabbc39c670964825bffafd2921240",
   "indexed_at": "2026-02-25T12:48:48.211Z",
-  "synced_at": "2026-02-27T02:26:14.774Z",
+  "synced_at": "2026-02-28T03:51:48.006Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a6b6482c4d6736a62ef2b2c775f17fbf4e2dbb985984cd15a6e71a018a537508",
   "install_command": "mkdir -p .claude/skills/warden-dev && curl -sL \"https://raw.githubusercontent.com/lbajsarowicz/ai-skills-warden/main/SKILL.md\" > .claude/skills/warden-dev/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lbajsarowicz/ai-skills-warden/main/SKILL.md"

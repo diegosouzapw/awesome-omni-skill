@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9d1f656c55fa2c24760809f04c4453ebda628c8cfbe152d2268cb9ff2186de43",
   "indexed_at": "2026-02-26T07:47:44.804Z",
-  "synced_at": "2026-02-27T02:26:52.666Z",
+  "synced_at": "2026-02-28T03:52:17.740Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bbe485a99f20c651bb2b8a72b27f9ec0f15335d6ccc543e96e7a00caaf646ec0",
   "install_command": "mkdir -p .claude/skills/api-integration-specialist && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/api-integration-specialist/SKILL.md\" > .claude/skills/api-integration-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/api-integration-specialist/SKILL.md"

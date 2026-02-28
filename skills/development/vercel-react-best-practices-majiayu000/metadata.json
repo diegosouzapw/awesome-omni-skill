@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bb6b1b025bcdd083b1afb27233753de33513dc074b9cd4338f7537102b27ad97",
   "indexed_at": "2026-02-24T23:06:58.091Z",
-  "synced_at": "2026-02-27T02:25:31.718Z",
+  "synced_at": "2026-02-28T03:51:06.270Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ee820e40ab7ca32ca45ac1ec8748abb13490adda0be6742f7d60a0fd89368dc0",
   "install_command": "mkdir -p .claude/skills/vercel-react-best-practices && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/03-developer-reactbestpractices/SKILL.md\" > .claude/skills/vercel-react-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/03-developer-reactbestpractices/SKILL.md"

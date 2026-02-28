@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ed1dc54986bf11724cfe358acf85ea2ed6f6fa337d0a65e96245544107d2db64",
   "indexed_at": "2026-02-24T23:20:14.310Z",
-  "synced_at": "2026-02-27T02:25:44.716Z",
+  "synced_at": "2026-02-28T03:51:18.996Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/110f6f90a8d5c980788ae6e4a73c8b7004056e0bb1ad4144d837cd0ed7ef22ff",
   "install_command": "mkdir -p .claude/skills/a3criticalthinking && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/a3criticalthinking/SKILL.md\" > .claude/skills/a3criticalthinking/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/a3criticalthinking/SKILL.md"

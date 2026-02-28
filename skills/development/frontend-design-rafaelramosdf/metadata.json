@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "89de6c0e58efd571ff3392a513243df43ee2d10930875d2e8ca5fa16b8e71140",
   "indexed_at": "2026-02-26T17:45:24.809Z",
-  "synced_at": "2026-02-27T02:26:11.393Z",
+  "synced_at": "2026-02-28T03:51:43.785Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/94e6aeb417a89a52b6a9d74ae5793235fe760a6cea10806eda46b018576ebc82",
   "install_command": "mkdir -p .claude/skills/frontend-design && curl -sL \"https://raw.githubusercontent.com/rafaelramosdf/antigravity-agents/main/templates/agent-template-en/skills/frontend-design/SKILL.md\" > .claude/skills/frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rafaelramosdf/antigravity-agents/main/templates/agent-template-en/skills/frontend-design/SKILL.md"

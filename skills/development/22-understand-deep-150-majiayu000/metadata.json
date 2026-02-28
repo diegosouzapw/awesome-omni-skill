@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "90aec3db3a1233ba9d87358d5ff6bcb59065a0addf37b11228edb5f390d6bbcd",
   "indexed_at": "2026-02-24T23:09:01.687Z",
-  "synced_at": "2026-02-27T02:25:37.555Z",
+  "synced_at": "2026-02-28T03:51:11.594Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/85d2465b419ae51e7d8a1c44dd37df8d2aec5177e0b5a2deca679e1b1ac6ace8",
   "install_command": "mkdir -p .claude/skills/22-understand-deep-150 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/22-understand-deep-150/SKILL.md\" > .claude/skills/22-understand-deep-150/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/22-understand-deep-150/SKILL.md"

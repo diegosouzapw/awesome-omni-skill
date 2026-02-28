@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0b39f918b46bf90aea88eaa577abdc93cf3a6d849abf9a7951d0be8ef2082f5e",
   "indexed_at": "2026-02-27T01:52:27.702Z",
-  "synced_at": "2026-02-27T02:25:28.121Z",
+  "synced_at": "2026-02-28T03:51:00.671Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/59a13b7ea345967de68ad587a06ad3db85783505c22f52d31e62a59ff1c8e74d",
   "install_command": "mkdir -p .claude/skills/add-admin-api-endpoint && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-admin-api-endpoint-tryghost-ghost/SKILL.md\" > .claude/skills/add-admin-api-endpoint/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/add-admin-api-endpoint-tryghost-ghost/SKILL.md"

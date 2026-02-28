@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3f121ea4d1c07a6669c87684ae462e5a89b260119a3d91030f6b6121f53e8a8e",
   "indexed_at": "2026-02-26T06:49:13.395Z",
-  "synced_at": "2026-02-27T02:26:45.660Z",
+  "synced_at": "2026-02-28T03:52:11.674Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6731c539f8cf46812acf6800b0a517d115f47b01c6605bb677bb02d52cd3a7b3",
   "install_command": "mkdir -p .claude/skills/proqio-ui && curl -sL \"https://raw.githubusercontent.com/Proqio/infinitus-frontend/main/skills/proqio-ui/SKILL.md\" > .claude/skills/proqio-ui/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Proqio/infinitus-frontend/main/skills/proqio-ui/SKILL.md"

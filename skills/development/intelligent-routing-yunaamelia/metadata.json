@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5966f90a7ae17ec4bb2316d8f893d3465c4ba78b68e4c706848f07ab02fe1966",
   "indexed_at": "2026-02-26T06:54:12.478Z",
-  "synced_at": "2026-02-27T02:26:48.387Z",
+  "synced_at": "2026-02-28T03:52:13.687Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/01d0c850c60d6759d85514cd21323112d3185818cfaf8171e9c11adfc8d705dc",
   "install_command": "mkdir -p .claude/skills/intelligent-routing && curl -sL \"https://raw.githubusercontent.com/yunaamelia/vps-rdp-workstation/main/.agent/skills/intelligent-routing/SKILL.md\" > .claude/skills/intelligent-routing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yunaamelia/vps-rdp-workstation/main/.agent/skills/intelligent-routing/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "634f9bc6b79303ac5584f45263828eb5a3de2fc7a3f86011c28d8c22b09e3562",
   "indexed_at": "2026-02-26T05:11:21.680Z",
-  "synced_at": "2026-02-27T02:26:00.583Z",
+  "synced_at": "2026-02-28T03:51:34.373Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d8c5e52bd07f36868c1da5ecffc476c4f74c8641be8623248ebf05038fef2f31",
   "install_command": "mkdir -p .claude/skills/action-cable-realtime && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/action-cable-realtime/SKILL.md\" > .claude/skills/action-cable-realtime/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/action-cable-realtime/SKILL.md"

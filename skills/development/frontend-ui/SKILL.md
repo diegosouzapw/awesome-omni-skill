@@ -1,84 +1,221 @@
 ---
 name: frontend-ui
-description: Create aesthetically pleasing, visually distinctive frontend UIs using research-backed prompting strategies from Anthropic's frontend aesthetics cookbook
+description: Build beautiful, responsive UIs with React, Tailwind CSS, and Framer Motion animations.
+author: Jaivish Chauhan @ GDG SSIT
+version: 1.0.0
+url: https://github.com/JaivishChauhan/vibecoding-starter
 ---
 
-# Claude UI/UX Design Skill
+# Frontend UI Development Masterclass
 
-## Purpose
+## Core Philosophy
 
-Automatically enforce high‑quality UI craft and strong UX thinking for any frontend or product‑flow work.
+This skill focuses on creating "premium" web experiences. We don't just build functionality; we build _feeling_. Every interaction should be smooth, every layout responsive, and every aesthetic choice intentional.
 
-## Activation
+## Technology Stack Deep Dive
 
-Apply this skill when:
+### 1. React Architecture & Patterns
 
-* Creating or modifying UI (React, HTML, CSS, design systems)
-* Designing UX flows, product surfaces, or interaction models
+We use React not just for components, but for **state-driven UI architecture**.
 
-## Modes
+#### Component Composition Patterns
 
-Claude selects one mode per project unless user specifies:
+Avoid prop-drilling by using composition (children prop) and slots.
 
-### 1. Enterprise Craft Mode
+```jsx
+// Bad: Prop drilling
+<Layout userName={user.name} userAvatar={user.avatar} onLogout={handleLogout} />
 
-* Grid, spacing, alignment, and hierarchy must be precise
-* Consistent radius, elevation, and component density
-* Predictable motion; performance‑first
+// Good: Composition
+<Layout
+  header={<Header user={user} onLogout={handleLogout} />}
+  sidebar={<Sidebar items={navItems} />}
+>
+  {children}
+</Layout>
+```
 
-### 2. Aesthetic Mode
+#### Custom Hooks for Logic Separation
 
-* Strong visual personality
-* Theme exploration encouraged
-* Creative color, type, and layout choices
+Never clutter UI components with complex logic. Extract it.
 
-## Design Direction
+```javascript
+// hooks/useAsync.js
+export const useAsync = (asyncFunction, immediate = true) => {
+  const [status, setStatus] = useState("idle");
+  const [value, setValue] = useState(null);
+  const [error, setError] = useState(null);
 
-Required only for:
+  const execute = useCallback(() => {
+    setStatus("pending");
+    setValue(null);
+    setError(null);
+    return asyncFunction()
+      .then((response) => {
+        setValue(response);
+        setStatus("success");
+      })
+      .catch((error) => {
+        setError(error);
+        setStatus("error");
+      });
+  }, [asyncFunction]);
 
-* New pages
-* New product surfaces
-  Not required for minor edits or bug fixes.
+  useEffect(() => {
+    if (immediate) execute();
+  }, [execute, immediate]);
 
-## Flow‑First Thinking
+  return { execute, status, value, error };
+};
+```
 
-Before UI decisions, clarify:
+#### Performance Optimization
 
-1. Purpose of the screen
-2. Primary user
-3. Emotional job (what should it *feel* like to succeed?)
+- **`useMemo`**: Cache expensive calculations.
+- **`useCallback`**: Stabilize function references (crucial for passing props to optimized child components).
+- **`React.memo`**: Prevent re-renders of pure components.
 
-## Theme System
+### 2. Tailwind CSS Mastery
 
-Two separate tracks:
+Tailwind is more than utility classes; it's a design system engine.
 
-* Craft Track → layout, spacing, depth, hierarchy
-* Aesthetic Track → typography, palette, motion style
+#### Arbitrary Values & One-offs
 
-## Typography
+Use `[]` syntax for precise control when design tokens don't fit, but overuse indicates a weak design system.
 
-Claude chooses fonts but must:
+```html
+<div class="top-[17px] w-[calc(100%-20px)] bg-[#1a1a1a]"></div>
+```
 
-* Match tone + audience
-* Justify the choice
+#### Advanced Selectors
 
-## Motion
+- **Group Hover**: Style child based on parent state.
+  ```html
+  <div class="group card">
+    <p class="text-gray-500 group-hover:text-white transition">Content</p>
+  </div>
+  ```
+- **Peer Modifiers**: Style sibling based on previous sibling state (great for form validation).
+  ```html
+  <input class="peer invalid:border-red-500" required />
+  <p class="invisible peer-invalid:visible text-red-500">Error</p>
+  ```
+- **Direct Children**: `*:p-4` (applies padding to all direct children).
 
-* Creative but quick
-* Default duration: 120–220ms
-* No distracting bounce or heavy physics
-* Always respect reduced‑motion
+#### Tailwind Variables (v4+)
 
-## Brand Handling
+Access CSS variables directly in classes if configured, or use arbitrary values to set them.
 
-Ask for color palette if branding is desired.
-If none is provided, proceed with a neutral system.
+```html
+<div class="--bg-opacity:0.5 bg-black/[var(--bg-opacity)]"></div>
+```
 
-## Output Standard
+### 3. Framer Motion Excellence
 
-Every UI output must show:
+Animations should be physics-based, not linear.
 
-* Clear hierarchy
-* Visual intention
-* Consistent craft
-* Purposeful styling
+#### The `layout` Prop
+
+Magically animate layout changes (reordering lists, expanding cards).
+
+```jsx
+<motion.div layout transition={{ type: "spring", stiffness: 300, damping: 30 }}>
+  {/* Content that changes size/position */}
+</motion.div>
+```
+
+#### Variants for Orchestration
+
+Coordinate animations between parent and children.
+
+```jsx
+const listVariants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+      delayChildren: 0.3,
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  show: { opacity: 1, y: 0 },
+};
+
+// Usage
+<motion.ul variants={listVariants} initial="hidden" animate="show">
+  <motion.li variants={itemVariants}>Item 1</motion.li>
+  <motion.li variants={itemVariants}>Item 2</motion.li>
+</motion.ul>;
+```
+
+#### Gestures
+
+Add tactile feedback easily.
+
+```jsx
+<motion.button
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  transition={{ type: "spring", stiffness: 400, damping: 17 }}
+>
+  Click Me
+</motion.button>
+```
+
+## Professional Workflow
+
+### 1. Component scaffolding
+
+Always create components with a future-proof interface.
+
+- use `ts` or `js` with JSDoc
+- define `className` prop for overrides using `clsx` and `tailwind-merge`
+
+```javascript
+import { cn } from "@/lib/utils"; // standard shadcn/ui utility
+
+export function Button({ className, variant, ...props }) {
+  return (
+    <button
+      className={cn(
+        "rounded px-4 py-2 font-medium transition active:scale-95",
+        variant === "primary" && "bg-blue-600 text-white hover:bg-blue-700",
+        variant === "ghost" && "bg-transparent hover:bg-slate-100",
+        className,
+      )}
+      {...props}
+    />
+  );
+}
+```
+
+### 2. Responsive Strategy
+
+- **Mobile First**: default classes are mobile. `md:` is "tablet and up".
+- **Container Queries**: Use `@tailwindcss/container-queries` for component-level responsiveness.
+
+### 3. Accessibility (A11y)
+
+- **Radix UI / Headless UI**: Use headless components for complex interactive elements (Dialogs, Dropdowns) to ensure full keyboard navigation and screen reader support.
+- **Focus States**: Never remove `outline-none` without adding a custom focus style (`focus-visible:ring-2`).
+
+## Troubleshooting Common Issues
+
+### "My animation jumps/glitches"
+
+- Ensure `layout` animations have stable keys.
+- Check if you are animating `height: auto` without `layout` prop.
+
+### "Tailwind classes aren't applying"
+
+- Check `tailwind.config.js` `content` array covers the file path.
+- Are you dynamically constructing class names? `bg-${color}-500` will NOT work. Full class names must exist in source code.
+
+### "Re-renders are killing performance"
+
+- Use React DevTools Profiler.
+- Check for objects/arrays defined inside component body being passed as props (breaking strict equality checks). Wrap them in `useMemo` or move outside component.

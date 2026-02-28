@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ca476b8881b1bdf5b964d4d1298a21188acec67981da110b5c68d0521172f832",
   "indexed_at": "2026-02-27T03:57:10.381Z",
-  "synced_at": "2026-02-27T13:12:59.220Z",
+  "synced_at": "2026-02-28T03:50:59.401Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3997136541c7dcb099dcaafc5588196ba55b3f302f59ca5f2bfc17d89ff1200f",
   "install_command": "mkdir -p .claude/skills/agent-scrum-master && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-scrum-master/SKILL.md\" > .claude/skills/agent-scrum-master/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-scrum-master/SKILL.md"

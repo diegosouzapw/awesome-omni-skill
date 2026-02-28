@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bb4e4a164a6ec2ad02ca069019ffc20a8922cc98763e881b5f671a484b942a4a",
   "indexed_at": "2026-02-26T05:12:07.087Z",
-  "synced_at": "2026-02-27T02:26:08.096Z",
+  "synced_at": "2026-02-28T03:51:40.536Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9d4f3bd31d955c8a884907b2bfe1a991e9438b2a462e4dbd644226d161bef6cb",
   "install_command": "mkdir -p .claude/skills/actor-isolation-fixer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/actor-isolation-fixer/SKILL.md\" > .claude/skills/actor-isolation-fixer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/actor-isolation-fixer/SKILL.md"

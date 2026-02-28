@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "45d73705f239eb87cd4ef3b2819f5e31c01dd736e6704760da54503bc75ac635",
   "indexed_at": "2026-02-24T23:07:43.479Z",
-  "synced_at": "2026-02-27T02:25:33.329Z",
+  "synced_at": "2026-02-28T03:51:07.788Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b854b2b8a83d27b1109292cb26d52424f27a2d541ab358e1d84fa645ea332dea",
   "install_command": "mkdir -p .claude/skills/de-novo-motif-discovery && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/12-toolbased-de-novo-motif-discovery/SKILL.md\" > .claude/skills/de-novo-motif-discovery/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/12-toolbased-de-novo-motif-discovery/SKILL.md"

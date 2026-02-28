@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d9f38bc69b8c814d9a2e72288080df9dea74ba83afb04d1c815fe24c734516c6",
   "indexed_at": "2026-02-24T23:21:38.850Z",
-  "synced_at": "2026-02-27T02:26:06.127Z",
+  "synced_at": "2026-02-28T03:51:38.799Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/54bb01afc296d09d7efc96a93749d5433db9a271bd2e39ca9734c2f9b0138bb6",
   "install_command": "mkdir -p .claude/skills/abstract-algebra-specialist && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abstract-algebra-specialist/SKILL.md\" > .claude/skills/abstract-algebra-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abstract-algebra-specialist/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dc1672973f95bc7cdb553d71994d8741647b284a455924f1547f78f207609e76",
   "indexed_at": "2026-02-24T23:20:39.609Z",
-  "synced_at": "2026-02-27T02:25:45.296Z",
+  "synced_at": "2026-02-28T03:51:19.559Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2f7aefd517b51dfec4446b06ee80bfe1863ce86774b4442b83d1724687cb36af",
   "install_command": "mkdir -p .claude/skills/abaqus-contact-analysis && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abaqus-contact-analysis/SKILL.md\" > .claude/skills/abaqus-contact-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abaqus-contact-analysis/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9c395ec505091007d297ce43535e870fc2049f77efc5412a73616d00109deec5",
   "indexed_at": "2026-02-26T17:45:37.644Z",
-  "synced_at": "2026-02-27T02:26:11.965Z",
+  "synced_at": "2026-02-28T03:51:44.305Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c20e1b2db6c4533226ecf8c494fc4dcc1c4c5a312edebb855eeecebe0e98c296",
   "install_command": "mkdir -p .claude/skills/theme-factory && curl -sL \"https://raw.githubusercontent.com/rafaelramosdf/antigravity-agents/main/templates/agent-template-en/skills/theme-factory/SKILL.md\" > .claude/skills/theme-factory/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rafaelramosdf/antigravity-agents/main/templates/agent-template-en/skills/theme-factory/SKILL.md"

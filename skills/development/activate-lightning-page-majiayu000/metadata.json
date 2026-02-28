@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b362ef657d05d6f363071069143f0369620142abc05270673064f14cc42e50d7",
   "indexed_at": "2026-02-26T05:11:42.348Z",
-  "synced_at": "2026-02-27T02:26:07.909Z",
+  "synced_at": "2026-02-28T03:51:40.341Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ee601bb2021b737bef9f34fb01c85c11641bf8463e6811e3c6b97a0e29ea300e",
   "install_command": "mkdir -p .claude/skills/activate-lightning-page && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/activate-lightning-page/SKILL.md\" > .claude/skills/activate-lightning-page/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/activate-lightning-page/SKILL.md"

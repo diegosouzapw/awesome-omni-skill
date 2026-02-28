@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fb085b969a760412ef7b061bcefb6b60dbbd8a7a0d3af51b0c3c8a69276100a4",
   "indexed_at": "2026-02-26T06:47:19.545Z",
-  "synced_at": "2026-02-27T02:26:44.029Z",
+  "synced_at": "2026-02-28T03:52:10.022Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/45eb238e2c9f60534ad68ffc7eb1039d9f5261439739513bd4e2d65fdec66751",
   "install_command": "mkdir -p .claude/skills/frontend-ui && curl -sL \"https://raw.githubusercontent.com/JaivishChauhan/PortFolio-antigravity/main/.agent/skills/frontend-ui/SKILL.md\" > .claude/skills/frontend-ui/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/JaivishChauhan/PortFolio-antigravity/main/.agent/skills/frontend-ui/SKILL.md"

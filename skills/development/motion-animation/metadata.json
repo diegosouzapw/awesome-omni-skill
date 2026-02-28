@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0316eceb8d51136c10436e09357cbfe61c7ed52a69ccc64746fffbedcb509bb4",
   "indexed_at": "2026-02-26T07:30:47.288Z",
-  "synced_at": "2026-02-27T02:26:49.899Z",
+  "synced_at": "2026-02-28T03:52:14.961Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bf2013b8fb3215ce078e5be0a3ce2ac31644fb47d91784d97d0ed2606214356c",
   "install_command": "mkdir -p .claude/skills/motion-animation && curl -sL \"https://raw.githubusercontent.com/anis-marrouchi/remotion-motion-skill/main/SKILL.md\" > .claude/skills/motion-animation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/anis-marrouchi/remotion-motion-skill/main/SKILL.md"

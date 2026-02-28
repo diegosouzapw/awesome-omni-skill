@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b8af856172c5685f62e4086a694cc60a8216818a6e4f925ea5bab637f9304832",
   "indexed_at": "2026-02-26T05:10:56.732Z",
-  "synced_at": "2026-02-27T02:25:29.880Z",
+  "synced_at": "2026-02-28T03:51:04.592Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/28b76eee982a66a77fee6c550271d7a1b6172ae2c746c750d084bc76474e5c41",
   "install_command": "mkdir -p .claude/skills/aceternity-ui && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aceternity-ui/SKILL.md\" > .claude/skills/aceternity-ui/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/aceternity-ui/SKILL.md"

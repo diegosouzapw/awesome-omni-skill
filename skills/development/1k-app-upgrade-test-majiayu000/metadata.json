@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c33d3698eecee71bb12b21003265f1bf93c7546b70e68e54b4ef720c15bec05e",
   "indexed_at": "2026-02-24T23:08:05.840Z",
-  "synced_at": "2026-02-27T02:25:34.502Z",
+  "synced_at": "2026-02-28T03:51:08.941Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/88e021265f201986eb37d4804fbfb7430c93028e8f9d643217ec7a13209e7381",
   "install_command": "mkdir -p .claude/skills/1k-app-upgrade-test && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/1k-app-upgrade-test/SKILL.md\" > .claude/skills/1k-app-upgrade-test/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/1k-app-upgrade-test/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "38c00ff628a9068bf76e53884ed46765fd23919039f077491e9dc263180330c7",
   "indexed_at": "2026-02-26T06:51:28.970Z",
-  "synced_at": "2026-02-27T02:26:47.305Z",
+  "synced_at": "2026-02-28T03:52:12.960Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/90693673ac533a161298e3ee87f6930fe09b06ae7d348737c98e71ae1b843628",
   "install_command": "mkdir -p .claude/skills/modern-web-creator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/modern-web-creator/SKILL.md\" > .claude/skills/modern-web-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/modern-web-creator/SKILL.md"

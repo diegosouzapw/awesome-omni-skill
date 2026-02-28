@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "01ade126302eed54d241f8bbbf6dae0e836d20e5ac2ff87f2efd23fa2aedcb19",
   "indexed_at": "2026-02-26T08:47:31.875Z",
-  "synced_at": "2026-02-27T02:26:58.179Z",
+  "synced_at": "2026-02-28T03:52:22.070Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b58c3c24b4429f7e53f4a339fa2191360d9a9ee3914d2d0f1ed04c5d1a9507d8",
   "install_command": "mkdir -p .claude/skills/railway-templates && curl -sL \"https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.cursor/skills/railway-templates/SKILL.md\" > .claude/skills/railway-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.cursor/skills/railway-templates/SKILL.md"

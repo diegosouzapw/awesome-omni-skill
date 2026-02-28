@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5a7e084b69e911330d190c9a1d1fedabe7bdd1e9c211ca175275e26cd027b0bf",
   "indexed_at": "2026-02-25T17:07:54.990Z",
-  "synced_at": "2026-02-27T02:26:25.345Z",
+  "synced_at": "2026-02-28T03:51:55.290Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a6ac02c93ea820c8352f20c10e992db658c609c9367e85797997e04a99c36e9e",
   "install_command": "mkdir -p .claude/skills/react-email && curl -sL \"https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/resend/react-email/SKILL.md\" > .claude/skills/react-email/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/resend/react-email/SKILL.md"

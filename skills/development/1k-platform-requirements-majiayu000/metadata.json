@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1e0fc9ebca361534dca0929eb38015b60471b4b3d5eab0107bcc7cedbeb3040a",
   "indexed_at": "2026-02-24T23:08:25.422Z",
-  "synced_at": "2026-02-27T02:25:36.294Z",
+  "synced_at": "2026-02-28T03:51:10.656Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/56cd44c07f8b4ad6111438e830ad5cfa3706a7f4219c109f1a202291f3db39ee",
   "install_command": "mkdir -p .claude/skills/1k-platform-requirements && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/1k-platform-requirements/SKILL.md\" > .claude/skills/1k-platform-requirements/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/1k-platform-requirements/SKILL.md"

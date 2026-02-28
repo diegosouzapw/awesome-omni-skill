@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "debed7acc2b60653dcf4551488cd6e00b15ea9925133a76712931701713a9cd4",
   "indexed_at": "2026-02-26T07:48:15.283Z",
-  "synced_at": "2026-02-27T02:26:53.048Z",
+  "synced_at": "2026-02-28T03:52:17.901Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cd2e5de8df25f946ae2ab9b68c3310256772ad6015623287745947254b518ff6",
   "install_command": "mkdir -p .claude/skills/code-reviewer && curl -sL \"https://raw.githubusercontent.com/EYH0602/skillshub/main/skills/code-reviewer/SKILL.md\" > .claude/skills/code-reviewer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/EYH0602/skillshub/main/skills/code-reviewer/SKILL.md"

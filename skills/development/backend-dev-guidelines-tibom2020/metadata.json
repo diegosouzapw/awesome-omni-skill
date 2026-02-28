@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bff8b00b44aee80f76e139a25ab81e1eeae28e3307db4d8a3f596549960d74eb",
   "indexed_at": "2026-02-26T05:48:57.439Z",
-  "synced_at": "2026-02-27T02:26:35.235Z",
+  "synced_at": "2026-02-28T03:52:03.812Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/600793340ed47c8ab6530806eb98e2ec60d99a8fb2e195067f131352e810eddc",
   "install_command": "mkdir -p .claude/skills/backend-dev-guidelines && curl -sL \"https://raw.githubusercontent.com/tibom2020/form-orderes-product-v2/main/.agent/skills/backend-dev-guidelines/SKILL.md\" > .claude/skills/backend-dev-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tibom2020/form-orderes-product-v2/main/.agent/skills/backend-dev-guidelines/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "07e4be8dbc2008982ef2cdade38e2d84c7bbcb3889c08d10e07fbc6adb8aa1ea",
   "indexed_at": "2026-02-24T23:06:29.735Z",
-  "synced_at": "2026-02-27T02:25:30.697Z",
+  "synced_at": "2026-02-28T03:51:05.160Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/868d726ab8b820d5dc6f654a1df60240e3e21f0eff3fde59076bf97d83ce6919",
   "install_command": "mkdir -p .claude/skills/prompt-architect && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/0-prompt-architect/SKILL.md\" > .claude/skills/prompt-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/0-prompt-architect/SKILL.md"

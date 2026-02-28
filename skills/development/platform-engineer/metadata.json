@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ab22c42aab78a455d49234255abbddaa81518c351f1805f757deacf8726be58d",
   "indexed_at": "2026-02-26T05:55:22.958Z",
-  "synced_at": "2026-02-27T02:26:41.414Z",
+  "synced_at": "2026-02-28T03:52:07.902Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/766ccb9e1e3d1045f1ace173362293276b5c96556a12eee3e92262df86a7a026",
   "install_command": "mkdir -p .claude/skills/platform-engineer && curl -sL \"https://raw.githubusercontent.com/fajjarnr/payu/main/.agent/skills/platform-engineer/SKILL.md\" > .claude/skills/platform-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fajjarnr/payu/main/.agent/skills/platform-engineer/SKILL.md"

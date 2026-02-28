@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cb7864b516e88854b8c67226a6b8787052fab596b6612aa7ff22043c6023fabe",
   "indexed_at": "2026-02-26T06:47:45.334Z",
-  "synced_at": "2026-02-27T02:26:44.955Z",
+  "synced_at": "2026-02-28T03:52:10.907Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d6063438b9dfcca9b7cd333cf9da2a6322c6e738a8e84d9582128c59d65cdd9d",
   "install_command": "mkdir -p .claude/skills/aptos-dapp-builder && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/zacharyr0th__next-starter__claude__skills__aptos__aptos-dapp-builder__skill.md/SKILL.md\" > .claude/skills/aptos-dapp-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/zacharyr0th__next-starter__claude__skills__aptos__aptos-dapp-builder__skill.md/SKILL.md"

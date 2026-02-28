@@ -1107,7 +1107,14 @@ mcp__claude-flow__sparc_mode { mode: "coder", task_description: "..." }
 mcp__claude-flow__swarm_monitor { interval: 5000 }
 
 // Store in memory
-mcp__claude-flow__memory_usage { action: "store", key: "...", value: "..." }
+mcp__memory_triple__memory_store {
+  text: "...",
+  metadata: {
+    key: "...",
+    namespace: "default",
+    layer: "mid_term"
+  }
+}
 ```
 
 ---

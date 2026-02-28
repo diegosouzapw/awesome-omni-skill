@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fb3335d0af6431591c31e0c5b46e761c5dbcf5252d96a9fe224186d6ee36686d",
   "indexed_at": "2026-02-24T23:11:31.957Z",
-  "synced_at": "2026-02-27T02:25:40.698Z",
+  "synced_at": "2026-02-28T03:51:14.869Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f06597aa05fbf1136643dad5335b7096d68d8c3fc174db0ba618693ac55e0633",
   "install_command": "mkdir -p .claude/skills/extend-your-dapr-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/57-dapr-actors-workflows-panaversity-agentfactory/SKILL.md\" > .claude/skills/extend-your-dapr-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/57-dapr-actors-workflows-panaversity-agentfactory/SKILL.md"

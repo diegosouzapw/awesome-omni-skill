@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1a31a56ece14e2e87ca983b1da4fbf04073a2adb4f51bea8554ef3e8b44a24b6",
   "indexed_at": "2026-02-24T23:07:48.721Z",
-  "synced_at": "2026-02-27T02:25:33.733Z",
+  "synced_at": "2026-02-28T03:51:08.167Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2029cf72b7e96892e9eb07168c1711a39250b36f831d24995186f34371317ccd",
   "install_command": "mkdir -p .claude/skills/hic-normalization && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/16-toolbased-hic-normalization/SKILL.md\" > .claude/skills/hic-normalization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/16-toolbased-hic-normalization/SKILL.md"

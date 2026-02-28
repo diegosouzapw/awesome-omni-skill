@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "195f8a4a88062d04027c8cb43a4312125f09bad7996021b0576b43d9161e5fc4",
   "indexed_at": "2026-02-26T08:45:41.563Z",
-  "synced_at": "2026-02-27T02:26:56.847Z",
+  "synced_at": "2026-02-28T03:52:21.185Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d629ff1cb6288a652ac6638c15d1d000fd198237cb830a25964093dde9f58e6f",
   "install_command": "mkdir -p .claude/skills/discover-database && curl -sL \"https://raw.githubusercontent.com/rand/cc-polymath/main/skills/discover-database/SKILL.md\" > .claude/skills/discover-database/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rand/cc-polymath/main/skills/discover-database/SKILL.md"

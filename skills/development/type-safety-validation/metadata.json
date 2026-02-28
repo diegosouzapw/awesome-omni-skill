@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c29326907e7afcaab473767ab302cee9578f66763d70f057ebfe7b91cab4b563",
   "indexed_at": "2026-02-26T07:55:37.565Z",
-  "synced_at": "2026-02-27T02:26:55.284Z",
+  "synced_at": "2026-02-28T03:52:19.679Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/16e36a087811a5695defce16a307ce6e82edcd85d30c5a4859f3e2c924be5557",
   "install_command": "mkdir -p .claude/skills/type-safety-validation && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/yonatangross/orchestkit/type-safety-validation/SKILL.md\" > .claude/skills/type-safety-validation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/yonatangross/orchestkit/type-safety-validation/SKILL.md"

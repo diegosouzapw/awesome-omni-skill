@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "32dec52e206453d70b1ababc37a8be78a9b99594d0a64a395edd833bd5ed5068",
   "indexed_at": "2026-02-27T03:53:20.351Z",
-  "synced_at": "2026-02-27T13:12:58.438Z",
+  "synced_at": "2026-02-28T03:50:58.253Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5f7614cd3aa1c863889b2d09698ae25497fe9a3ed98dac05701489355b9fbb5c",
   "install_command": "mkdir -p .claude/skills/agent-mobile-app-developer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-mobile-app-developer/SKILL.md\" > .claude/skills/agent-mobile-app-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-mobile-app-developer/SKILL.md"

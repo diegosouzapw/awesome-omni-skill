@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ef8bdf36ce083cc2d3561995b2eafd7b70f78d438a96b9138b3874d215d26394",
   "indexed_at": "2026-02-25T15:06:30.004Z",
-  "synced_at": "2026-02-27T02:26:22.508Z",
+  "synced_at": "2026-02-28T03:51:52.471Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3f8511f0cfe41f77d5718ea7bcec349675e9fc5bab2a8737ae1a0173ba2f1df9",
   "install_command": "mkdir -p .claude/skills/shortcut && curl -sL \"https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/catwalksophie/shortcut/SKILL.md\" > .claude/skills/shortcut/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/catwalksophie/shortcut/SKILL.md"

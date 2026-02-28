@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "607a4342fdb0dd5ef9980ee0c118f02948a3e65a06276fe68d484b8eb1acb293",
   "indexed_at": "2026-02-24T23:22:14.164Z",
-  "synced_at": "2026-02-27T02:25:50.857Z",
+  "synced_at": "2026-02-28T03:51:24.935Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cd63484da2100374283360b49c0b7772f02d06aab97ddf0191c1047df3e9cda2",
   "install_command": "mkdir -p .claude/skills/academic-research-writer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/academic-research-writer/SKILL.md\" > .claude/skills/academic-research-writer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/academic-research-writer/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ac4ca040360f5e8191b522b66c8e7d4e0377b93958796e200a217786352d9895",
   "indexed_at": "2026-02-24T23:21:45.810Z",
-  "synced_at": "2026-02-27T02:25:50.095Z",
+  "synced_at": "2026-02-28T03:51:24.182Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/15bd4e8a90da813e1cdcfb1f05ac55d04685f997960e501046cd249c25e9586c",
   "install_command": "mkdir -p .claude/skills/bio-metagenomics-abundance && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abundance-estimation/SKILL.md\" > .claude/skills/bio-metagenomics-abundance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abundance-estimation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5dd35033fd68e03d6e04f6690435953e374c1b6639c02e86ceb676680f11fc68",
   "indexed_at": "2026-02-26T05:40:47.524Z",
-  "synced_at": "2026-02-27T02:26:31.854Z",
+  "synced_at": "2026-02-28T03:52:01.216Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c9233d502666605590f8b58c359d75731679a91c71ede5ad77c531564411a877",
   "install_command": "mkdir -p .claude/skills/clawdbot-update-plus && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/clawdbot-update-plus/SKILL.md\" > .claude/skills/clawdbot-update-plus/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/clawdbot-update-plus/SKILL.md"

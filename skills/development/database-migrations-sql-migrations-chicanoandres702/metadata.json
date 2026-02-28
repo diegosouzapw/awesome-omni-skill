@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b37f287113f6ee7873809778fb2e4773d5687fbe12a03fae1a0690042bd6fe93",
   "indexed_at": "2026-02-26T08:51:34.245Z",
-  "synced_at": "2026-02-27T02:27:00.346Z",
+  "synced_at": "2026-02-28T03:52:24.027Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6db2ae0aca81d57f607f47732ecceef69d1ba4696b4b92d51a31911e872755b8",
   "install_command": "mkdir -p .claude/skills/database-migrations-sql-migrations && curl -sL \"https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/database-migrations-sql-migrations/SKILL.md\" > .claude/skills/database-migrations-sql-migrations/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/database-migrations-sql-migrations/SKILL.md"

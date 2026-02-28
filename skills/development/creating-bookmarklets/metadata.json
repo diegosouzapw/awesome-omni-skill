@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3027f732ff49b8395e23e4450d01b5b1a278b767d7cbda42ce2cabebc55ed347",
   "indexed_at": "2026-02-25T15:05:21.213Z",
-  "synced_at": "2026-02-27T02:26:22.363Z",
+  "synced_at": "2026-02-28T03:51:52.307Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2c86cd9a0bc4c427077c28c2c015af535a83a1f9ac17f3f95a9bb88cc6b299ed",
   "install_command": "mkdir -p .claude/skills/creating-bookmarklets && curl -sL \"https://raw.githubusercontent.com/oaustegard/claude-skills/main/creating-bookmarklets/SKILL.md\" > .claude/skills/creating-bookmarklets/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oaustegard/claude-skills/main/creating-bookmarklets/SKILL.md"

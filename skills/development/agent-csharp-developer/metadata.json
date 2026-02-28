@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "820f74882a8a64b1c6fa329e5fd46c0a3a11147b65a406e0660701cfdb414320",
   "indexed_at": "2026-02-27T02:57:31.764Z",
-  "synced_at": "2026-02-27T13:12:57.456Z",
+  "synced_at": "2026-02-28T03:50:56.914Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/12228615100329b17c7c39f44a58868f72b47d14e818acfa35a2bb5bc8ccab05",
   "install_command": "mkdir -p .claude/skills/agent-csharp-developer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-csharp-developer/SKILL.md\" > .claude/skills/agent-csharp-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-csharp-developer/SKILL.md"

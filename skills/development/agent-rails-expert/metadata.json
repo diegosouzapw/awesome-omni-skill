@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "517acc8e5b83e81b185fdb37131d6b0392ff838b91e789e9c76d37620239b379",
   "indexed_at": "2026-02-27T03:56:33.651Z",
-  "synced_at": "2026-02-27T13:12:58.949Z",
+  "synced_at": "2026-02-28T03:50:59.022Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bcd5026dc82c9a14bea70ad13f365262c7f237ea457489e059beaccfcde0059f",
   "install_command": "mkdir -p .claude/skills/agent-rails-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-rails-expert/SKILL.md\" > .claude/skills/agent-rails-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-rails-expert/SKILL.md"

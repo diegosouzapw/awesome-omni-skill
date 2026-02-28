@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c6453ee4e7b51d910e9b25d57bec2aef62ff257365545d2169e5eb41ab99b23a",
   "indexed_at": "2026-02-24T23:07:02.561Z",
-  "synced_at": "2026-02-27T02:26:08.285Z",
+  "synced_at": "2026-02-28T03:51:40.722Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/af6afef64b09f34e4de696812cd06da096fa7fbf099038e297979ae8b5b57328",
   "install_command": "mkdir -p .claude/skills/browser-automation-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/04-tester-browserautomation/SKILL.md\" > .claude/skills/browser-automation-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/04-tester-browserautomation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "47993a7fdfb58056d0da071a21f56b4c832e54c8b13815d2f9982ecc871fef5e",
   "indexed_at": "2026-02-26T07:47:31.309Z",
-  "synced_at": "2026-02-27T02:26:51.970Z",
+  "synced_at": "2026-02-28T03:52:17.041Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2c6230d7cc744de2196b9a90b13a6134b23cd0497fb0376688984058b37ce92c",
   "install_command": "mkdir -p .claude/skills/graphql-api-design && curl -sL \"https://raw.githubusercontent.com/karchtho/my-claude-marketplace/main/bundles/api-design-bundle/skills/graphql-api-design/SKILL.md\" > .claude/skills/graphql-api-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/karchtho/my-claude-marketplace/main/bundles/api-design-bundle/skills/graphql-api-design/SKILL.md"

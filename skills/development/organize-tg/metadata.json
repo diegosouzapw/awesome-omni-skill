@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0f15f5c4f645a611f1e967e9fdb2fd5f8a8e42ddfb63e46497a6ce0d8aa0e1d6",
   "indexed_at": "2026-02-25T17:39:01.766Z",
-  "synced_at": "2026-02-27T02:26:27.944Z",
+  "synced_at": "2026-02-28T03:51:57.080Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/889f0b0f8772edc04a5920ee48ac3041f098680c4bc4c5bd5063447bed018622",
   "install_command": "mkdir -p .claude/skills/organize-tg && curl -sL \"https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/consort-tech/organize-tg/SKILL.md\" > .claude/skills/organize-tg/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/consort-tech/organize-tg/SKILL.md"

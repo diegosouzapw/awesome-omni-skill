@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c827db48ec71d86fc51cdb1e84639af34d8c950d1d3c01b5755dc45aa3ba1a81",
   "indexed_at": "2026-02-25T17:10:06.780Z",
-  "synced_at": "2026-02-27T02:26:25.874Z",
+  "synced_at": "2026-02-28T03:51:55.788Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/165bc661c880944b2147b0cabe4c4ac4dd0a6d4f825d1eb53d7fbf220bdffe1f",
   "install_command": "mkdir -p .claude/skills/monad-development && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/portdeveloper/monad-development/SKILL.md\" > .claude/skills/monad-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/portdeveloper/monad-development/SKILL.md"

@@ -1,392 +1,391 @@
 ---
 name: backend-dev
-description: Comprehensive backend development workflow that orchestrates expert analysis, architecture design, implementation, and deployment using the integrated toolset. Handles everything from API design and database architecture to security implementation and DevOps automation.
-license: Apache 2.0
-tools: []
+description: "Backend development workflow with API design and data modeling. Trigger: When building, refactoring, or scaling backend apps."
+license: "Apache 2.0"
+metadata:
+  version: "1.0"
+  type: universal
 ---
 
-# Backend Development Master - Complete Backend Engineering Workflow
+# Backend Development Skill
 
-## Overview
+Universal backend workflow guiding API design, data modeling, error handling, and deployment. Technology-agnostic, orchestrates technical skills (nodejs, express, nest) without duplicating patterns.
 
-This skill provides end-to-end backend development services by orchestrating multiple expert systems, advanced development techniques, and specialized tools. It transforms business requirements into production-ready backend systems with comprehensive architecture, security, scalability, and operational excellence.
+## When to Use
 
-**Key Capabilities:**
-- 🏗️ **Multi-Expert Backend Architecture** - Coordinates backend architects, security engineers, and DevOps specialists
-- 🎯 **Full-Stack Development** - From API design to database architecture to deployment automation
-- 📊 **Production-Ready Implementation** - Security-first, scalable, and maintainable code generation
-- 🔧 **DevOps Integration** - CI/CD pipelines, monitoring, and infrastructure as code
-- 📋 **Comprehensive Testing** - Unit, integration, and end-to-end testing strategies
+- Designing, building, or refactoring APIs
+- Modeling data and business logic
+- Preparing for deployment or CI/CD
+- Reviewing code quality
 
-## When to Use This Skill
+Don't use for:
 
-**Perfect for:**
-- New backend system development and API creation
-- Legacy system modernization and microservice decomposition
-- Database architecture and optimization projects
-- Security implementation and compliance requirements
-- Performance optimization and scalability planning
-- DevOps pipeline and infrastructure automation
-
-**Triggers:**
-- "Create a backend API for [application]"
-- "Design database architecture for [system]"
-- "Build a scalable backend service"
-- "Implement security and authentication"
-- "Set up CI/CD and deployment pipeline"
-
-## Backend Development Expert Panel
-
-### **Backend Architect** (System Design)
-- **Focus**: API design, database architecture, system scalability
-- **Techniques**: RESTful services, GraphQL, microservices, data modeling
-- **Considerations**: Performance, scalability, maintainability, API contracts
-
-### **Security Engineer** (Secure Development)
-- **Focus**: Authentication, authorization, data protection, compliance
-- **Techniques**: OWASP compliance, encryption, threat modeling, secure coding
-- **Considerations**: Security by design, zero-trust principles, regulatory compliance
-
-### **DevOps Architect** (Operations & Deployment)
-- **Focus**: CI/CD, infrastructure automation, monitoring, reliability
-- **Techniques**: Container orchestration, IaC, observability, zero-downtime deployment
-- **Considerations**: Infrastructure costs, reliability, scaling strategies, monitoring
-
-### **Database Specialist** (Data Architecture)
-- **Focus**: Schema design, query optimization, data modeling, migrations
-- **Techniques**: Normalization, indexing strategies, caching, data consistency
-- **Considerations**: Data integrity, performance, scalability, backup strategies
-
-### **Performance Engineer** (Optimization)
-- **Focus**: Performance optimization, bottleneck analysis, caching strategies
-- **Techniques**: Profiling, load testing, optimization patterns, scaling solutions
-- **Considerations**: Response times, throughput, resource utilization, cost efficiency
-
-## Backend Development Workflow
-
-### Phase 1: Requirements Analysis & Technical Planning
-**Use when**: Starting new backend development or modernizing existing systems
-
-**Tools Used:**
-```bash
-/sc:analyze backend-requirements
-BMAD PM Agent: business requirement analysis
-Requirements Analyst: technical specification creation
-Deep Research Agent: technology stack research
-```
-
-**Activities:**
-- Analyze business requirements and translate to technical specifications
-- Identify scalability, security, and performance requirements
-- Evaluate technology stack options and architectural patterns
-- Define API contracts and data models
-- Plan integration points and external dependencies
-
-### Phase 2: System Architecture & Design
-**Use when**: Designing the technical architecture and system components
-
-**Tools Used:**
-```bash
-/sc:design --type architecture backend-system
-/sc:design --type api restful-apis
-/sc:design --type database data-model
-Backend Architect: comprehensive system design
-Security Engineer: security architecture planning
-```
-
-**Activities:**
-- Design system architecture and component boundaries
-- Create API specifications and data contracts
-- Design database schemas and relationships
-- Plan security architecture and authentication flows
-- Define scalability and performance strategies
-
-### Phase 3: Implementation Planning & Technology Selection
-**Use when**: Preparing for actual code implementation
-
-**Tools Used:**
-```bash
-/sc:design --type component implementation-strategy
-Python Expert: technology-specific implementation patterns
-DevOps Architect: deployment and infrastructure planning
-Performance Engineer: optimization and monitoring setup
-```
-
-**Activities:**
-- Select appropriate frameworks, libraries, and tools
-- Create implementation roadmap with milestones
-- Plan database migrations and data seeding strategies
-- Design error handling and logging strategies
-- Prepare development environment and tooling setup
-
-### Phase 4: Secure & Scalable Implementation
-**Use when**: Writing production-ready backend code
-
-**Tools Used:**
-```bash
-/sc:implement backend-service
-Python Expert: production-quality code implementation
-Security Engineer: secure coding practices and vulnerability prevention
-Database Specialist: optimized database interactions
-Performance Engineer: efficient algorithms and caching strategies
-```
-
-**Activities:**
-- Implement core business logic and API endpoints
-- Create secure authentication and authorization systems
-- Optimize database queries and implement caching strategies
-- Implement comprehensive error handling and logging
-- Write unit and integration tests with high coverage
-
-### Phase 5: Testing & Quality Assurance
-**Use when**: Ensuring system reliability and security
-
-**Tools Used:**
-```bash
-/sc:test backend-comprehensive
-Quality Engineer: testing strategy implementation
-Security Engineer: security testing and vulnerability scanning
-Performance Engineer: load testing and performance validation
-Playwright MCP: end-to-end API testing
-```
-
-**Activities:**
-- Implement comprehensive test suites (unit, integration, E2E)
-- Conduct security testing and vulnerability assessments
-- Perform load testing and performance benchmarking
-- Validate API contracts and data integrity
-- Test error scenarios and recovery mechanisms
-
-### Phase 6: DevOps & Deployment
-**Use when**: Preparing for production deployment
-
-**Tools Used:**
-```bash
-/sc:implement production-deployment
-DevOps Architect: CI/CD pipeline and infrastructure setup
-Security Engineer: production security hardening
-Monitoring Setup: observability and alerting systems
-```
-
-**Activities:**
-- Set up CI/CD pipelines with automated testing and deployment
-- Implement infrastructure as code and containerization
-- Configure monitoring, logging, and alerting systems
-- Create deployment strategies and rollback procedures
-- Document operations procedures and runbooks
-
-## Integration Patterns
-
-### **SuperClaude Command Integration**
-
-| Command | Use Case | Output |
-|---------|---------|--------|
-| `/sc:design --type architecture` | System architecture | Technical architecture specifications |
-| `/sc:design --type api` | API design | RESTful/GraphQL API specifications |
-| `/sc:design --type database` | Database design | Optimized schema and data models |
-| `/sc:implement backend` | Code implementation | Production-ready backend services |
-| `/sc:test backend` | Testing strategy | Comprehensive testing plans |
-| `/sc:build deploy` | Deployment setup | CI/CD and infrastructure automation |
-
-### **BMAD Method Integration**
-
-| Technique | Role | Capabilities |
-|----------|------|------------|
-| **Greenfield Service Workflow** | New project development | Complete backend service development |
-| **Brownfield Integration** | Legacy modernization | Safe system evolution and integration |
-| **Security-First Development** | Secure implementation | Built-in security practices and validation |
-| **Performance Optimization** | Scalability planning | Bottleneck identification and optimization |
-
-### **MCP Server Integration**
-
-| Server | Expertise | Use Case |
-|--------|----------|---------|
-| **Sequential** | Complex reasoning | Architecture analysis and problem-solving |
-| **Context7** | Technical patterns | Framework best practices and implementation guides |
-| **Playwright** | API testing | End-to-end API validation and testing |
-| **Serena** | Project memory | Large codebase navigation and context management |
-
-## Usage Examples
-
-### Example 1: New REST API Development
-```
-User: "Create a backend API for an e-commerce platform with user management, product catalog, and order processing"
-
-Workflow:
-1. Phase 1: Analyze e-commerce requirements and technical constraints
-2. Phase 2: Design microservices architecture with API contracts
-3. Phase 3: Plan implementation with Node.js/Express and PostgreSQL
-4. Phase 4: Implement secure APIs with JWT authentication
-5. Phase 5: Test with comprehensive test suites and load testing
-6. Phase 6: Deploy with Docker, Kubernetes, and CI/CD pipeline
-
-Output: Production-ready e-commerce backend with 99.9% uptime target
-```
-
-### Example 2: Database Architecture Optimization
-```
-User: "Optimize our database architecture for better performance and scalability"
-
-Workflow:
-1. Phase 1: Analyze current database performance and bottlenecks
-2. Phase 2: Design optimized schema with proper indexing
-3. Phase 3: Plan migration strategy with zero downtime
-4. Phase 4: Implement caching layer and query optimization
-5. Phase 5: Performance test and validate improvements
-6. Phase 6: Deploy with monitoring and alerting
-
-Output: 60% performance improvement with horizontal scaling capability
-```
-
-### Example 3: Security Implementation
-```
-User: "Implement comprehensive security for our financial services backend"
-
-Workflow:
-1. Phase 1: Analyze security requirements and compliance needs (SOC2, PCI-DSS)
-2. Phase 2: Design zero-trust security architecture
-3. Phase 3: Plan secure implementation with encryption and audit logging
-4. Phase 4: Implement security controls and monitoring
-5. Phase 5: Conduct security testing and vulnerability assessment
-6. Phase 6: Deploy with security monitoring and incident response
-
-Output: Fully compliant financial services backend with comprehensive security
-```
-
-## Quality Assurance Mechanisms
-
-### **Multi-Expert Validation**
-- **Cross-Domain Review**: Backend architect, security, and DevOps perspectives
-- **Security Validation**: Comprehensive vulnerability scanning and compliance checking
-- **Performance Testing**: Load testing, stress testing, and optimization validation
-- **Production Readiness**: Complete deployment and operational validation
-
-### **Automated Quality Checks**
-- **Code Quality**: Linting, formatting, and complexity analysis
-- **Security Scanning**: Automated vulnerability detection and dependency checking
-- **Performance Monitoring**: Response time, throughput, and resource utilization tracking
-- **Test Coverage**: Unit, integration, and end-to-end test coverage validation
-
-### **Continuous Improvement**
-- **Performance Monitoring**: Real-time performance tracking and alerting
-- **Security Monitoring**: Continuous vulnerability scanning and threat detection
-- **Feedback Integration**: User feedback and performance data analysis
-- **Pattern Learning**: Successful patterns recognition and reuse
-
-## Output Deliverables
-
-### Primary Deliverable: Complete Backend System
-```
-backend-system/
-├── api/
-│   ├── controllers/              # API endpoint implementations
-│   ├── middleware/               # Authentication, validation, error handling
-│   ├── routes/                   # API routing and endpoint definitions
-│   └── documentation/            # API documentation and contracts
-├── services/
-│   ├── business/                 # Business logic and domain services
-│   ├── data/                     # Data access and database services
-│   ├── external/                 # Third-party service integrations
-│   └── security/                 # Security services and utilities
-├── database/
-│   ├── migrations/               # Database schema migrations
-│   ├── seeds/                    # Initial data setup
-│   ├── models/                   # Data models and relationships
-│   └── queries/                  # Optimized database queries
-├── tests/
-│   ├── unit/                     # Unit tests for individual components
-│   ├── integration/              # Integration tests for service interactions
-│   ├── e2e/                      # End-to-end API tests
-│   └── performance/              # Load and stress tests
-├── infrastructure/
-│   ├── docker/                   # Container configurations
-│   ├── kubernetes/               # K8s deployment manifests
-│   ├── ci-cd/                    # CI/CD pipeline configurations
-│   └── monitoring/               # Logging, metrics, and alerting
-├── documentation/
-│   ├── architecture.md           # System architecture documentation
-│   ├── api-specs.md              # API specifications and contracts
-│   ├── deployment.md             # Deployment procedures and runbooks
-│   └── security.md               # Security procedures and compliance
-└── config/
-    ├── development/              # Development environment configurations
-    ├── staging/                  # Staging environment configurations
-    └── production/               # Production environment configurations
-```
-
-### Supporting Artifacts
-- **Architecture Documentation**: Detailed system design and technical specifications
-- **API Documentation**: Comprehensive API contracts and usage examples
-- **Security Documentation**: Security procedures, compliance reports, and audit trails
-- **Performance Reports**: Benchmarking results and optimization recommendations
-- **Deployment Guides**: Step-by-step deployment and operational procedures
-
-## Advanced Features
-
-### **Intelligent Technology Selection**
-- Automatically recommends appropriate technology stacks based on requirements
-- Considers team expertise, scalability needs, and maintenance requirements
-- Optimizes for cost, performance, and development efficiency
-- Supports multiple programming languages and frameworks
-
-### **Security-First Development**
-- Built-in security practices and vulnerability prevention
-- Automated security scanning and compliance checking
-- Comprehensive authentication and authorization patterns
-- Integration with security monitoring and threat detection
-
-### **Performance Optimization**
-- Proactive performance monitoring and bottleneck identification
-- Automated optimization suggestions and implementation
-- Load testing and capacity planning tools
-- Real-time performance tracking and alerting
-
-### **DevOps Automation**
-- Complete CI/CD pipeline setup with automated testing and deployment
-- Infrastructure as code with version control and reproducibility
-- Container orchestration and microservice deployment
-- Comprehensive monitoring, logging, and alerting systems
-
-## Troubleshooting
-
-### Common Backend Development Challenges
-- **Scalability Issues**: Use microservices architecture and horizontal scaling patterns
-- **Security Vulnerabilities**: Apply security-first development and comprehensive testing
-- **Performance Bottlenecks**: Implement caching strategies and database optimization
-- **Database Complexity**: Use proper normalization, indexing, and query optimization
-
-### Deployment and Operations Issues
-- **Deployment Failures**: Use blue-green deployments and automated rollback
-- **Monitoring Gaps**: Implement comprehensive observability and alerting
-- **Integration Problems**: Design clear APIs and implement proper error handling
-- **Security Incidents**: Implement incident response procedures and security monitoring
-
-## Best Practices
-
-### **For System Design**
-- Design for scalability and maintainability from the start
-- Use microservices architecture for complex systems
-- Implement proper separation of concerns and modularity
-- Design for failure with circuit breakers and graceful degradation
-
-### **For Security Implementation**
-- Implement security by design, not as an afterthought
-- Use zero-trust principles and defense-in-depth strategies
-- Regularly update dependencies and conduct security audits
-- Implement comprehensive logging and monitoring for security events
-
-### **For Performance Optimization**
-- Profile before optimizing to identify real bottlenecks
-- Implement appropriate caching strategies at multiple levels
-- Use database indexing and query optimization techniques
-- Monitor performance metrics and set up alerting
-
-### **For DevOps and Deployment**
-- Automate everything that can be automated
-- Use infrastructure as code for reproducible deployments
-- Implement comprehensive monitoring and observability
-- Plan for failure with backup and disaster recovery procedures
+- Technology-specific code (use nodejs, express, nest skills)
+- Frontend development (use frontend-dev skill)
 
 ---
 
-This backend development skill transforms the complex process of backend system creation into a guided, expert-supported workflow that leverages the full power of your integrated development toolset. It ensures that backend systems are secure, scalable, maintainable, and production-ready from day one.
+## Critical Patterns
+
+### ✅ REQUIRED: API Design with Versioning
+
+Define clear, versioned contracts to prevent breaking changes.
+
+**Decision Tree**:
+
+```
+Creating new endpoint?
+  → Is this a new feature? → /api/v1/feature
+  → Breaking change to existing endpoint? → Create /api/v2/endpoint, deprecate v1
+  → Non-breaking addition (new field)? → Add to current version
+
+Versioning strategy?
+  → URL versioning (/api/v1, /api/v2) - RECOMMENDED (clear, cacheable)
+  → Header versioning (Accept: application/vnd.api.v2+json) - Advanced cases
+  → Query param (?version=2) - Avoid (harder to route, cache)
+```
+
+**Implementation**: Delegate to framework skills ([express](../express/SKILL.md), [nest](../nest/SKILL.md), [hono](../hono/SKILL.md))
+
+**Deprecation Timeline**:
+
+1. Announce deprecation (release notes, docs, headers)
+2. Maintain both versions (3-6 months)
+3. Remove deprecated version (after migration period)
+
+**Example Versioning Strategy**:
+
+```
+v1 (current production)
+  → Add v2 with breaking changes
+  → v1 returns Deprecation header: "Deprecated. Use /api/v2. Sunset: 2026-09-01"
+  → Monitor v1 usage (analytics)
+  → Remove v1 after sunset date
+```
+
+### ✅ REQUIRED: Data Modeling with Validation
+
+Validate at boundaries and separate domain logic from persistence.
+
+**Decision Tree**:
+
+```
+Validating input?
+  → At API boundary (controller/route)? → YES (always validate)
+  → In domain logic? → NO (assume valid after boundary check)
+  → In database layer? → NO (database constraints are last resort)
+
+Validation library?
+  → TypeScript-first? → zod (RECOMMENDED)
+  → Existing project with yup? → yup (maintain consistency)
+  → Legacy JavaScript? → joi
+```
+
+**Implementation**: Delegate to [form-validation](../form-validation/SKILL.md) for validation patterns
+
+**Validation Layers**:
+
+1. **API Boundary** (controller): Validate shape, types, format (zod/yup)
+2. **Domain Logic** (service): Business rules (e.g., "cannot delete user with active orders")
+3. **Database** (schema): Constraints as safety net (NOT NULL, UNIQUE, CHECK)
+
+**Example Data Flow**:
+
+```
+Client request
+  ↓
+Controller validates input (zod schema)
+  ↓
+Service applies business logic
+  ↓
+Repository persists to database
+  ↓
+Database enforces constraints (last resort)
+```
+
+### ✅ REQUIRED: Centralized Error Handling
+
+Consistent error responses and logging across all endpoints.
+
+**Decision Tree**:
+
+```
+Handling errors?
+  → Operational error (expected, like 404)? → AppError class, send to client
+  → Programming error (unexpected, like null reference)? → Log, send generic 500
+
+Error response format?
+  → REST API? → { status: "error", message: "...", code: "USER_NOT_FOUND" }
+  → GraphQL? → errors array with extensions { code, message }
+  → RFC 7807? → Problem Details JSON (type, title, status, detail)
+```
+
+**Implementation**: Delegate to framework skills ([express](../express/SKILL.md), [nest](../nest/SKILL.md))
+
+**Error Categories**:
+
+- **Validation errors** (400): Input doesn't match schema
+- **Authentication errors** (401): Missing or invalid credentials
+- **Authorization errors** (403): Valid credentials, insufficient permissions
+- **Not found errors** (404): Resource doesn't exist
+- **Conflict errors** (409): State conflict (e.g., duplicate email)
+- **Server errors** (500): Unhandled exceptions
+
+**Error Context to Log**:
+
+- Request ID (for tracing)
+- User ID (if authenticated)
+- Endpoint + method (GET /api/v1/users)
+- Timestamp
+- Stack trace (for 500 errors only)
+- NEVER log passwords or tokens
+
+### ✅ REQUIRED: Environment-Based Configuration
+
+Never hardcode config values. Use environment variables.
+
+**Decision Tree**:
+
+```
+Need configuration?
+  → Database URL? → DATABASE_URL
+  → API keys/secrets? → JWT_SECRET, STRIPE_KEY (NEVER commit)
+  → Feature flags? → ENABLE_FEATURE=true/false
+  → Port? → PORT (with fallback to 3000)
+
+Validating env vars?
+  → Yes, ALWAYS at startup (fail fast if missing)
+  → Use zod to validate env schema
+```
+
+**Implementation**: Delegate to [nodejs](../nodejs/SKILL.md) for process.env patterns
+
+**Configuration Pattern**:
+
+```
+env.ts
+  → Validates all required env vars at startup
+  → Exports typed config object
+
+.env.example
+  → Documents all required env vars (committed)
+
+.env
+  → Actual values (NOT committed, in .gitignore)
+```
+
+**Fail Fast on Missing Env Vars**:
+
+```
+App startup
+  → Load .env file
+  → Validate env vars with zod schema
+  → If validation fails → Throw error, exit process (don't start server)
+  → If validation passes → Continue startup
+```
+
+### ✅ REQUIRED: API Contract Design
+
+**When designing API contracts**:
+
+1. **Identify resources**: What entities exist? (users, products, orders)
+2. **Define operations**: CRUD (POST create, GET read, PATCH update, DELETE delete)
+3. **Model relationships**: users.orders (1:N), orders.products (N:M)
+4. **Version from start**: Start with /api/v1 (easier to add v2 later)
+
+**RESTful Patterns**:
+
+```
+GET /api/v1/users → List users (pagination, filters)
+GET /api/v1/users/:id → Get single user
+POST /api/v1/users → Create user
+PATCH /api/v1/users/:id → Update user (partial)
+DELETE /api/v1/users/:id → Delete user
+
+Relationships:
+GET /api/v1/users/:id/orders → User's orders (nested resource)
+```
+
+**Red Flags**:
+
+- Non-RESTful URLs: /api/getUserById?id=123 (use GET /api/v1/users/123)
+- Verbs in URLs: /api/deleteUser (use DELETE /api/v1/users/:id)
+- No versioning: /api/users (add /v1 from start)
+
+### ✅ REQUIRED: Data Persistence Strategy
+
+**Decision Tree**:
+
+```
+Choosing database?
+  → Structured data + relations? → PostgreSQL (RECOMMENDED)
+  → Document-oriented + flexible schema? → MongoDB
+  → Key-value cache? → Redis
+  → Time-series data? → TimescaleDB, InfluxDB
+
+ORM vs Query Builder?
+  → TypeScript + type safety? → Prisma (RECOMMENDED)
+  → Need raw SQL flexibility? → Knex, Drizzle
+  → Existing project with TypeORM? → TypeORM (maintain consistency)
+```
+
+**Implementation**: Delegate to [nodejs](../nodejs/SKILL.md) for database patterns
+
+**Repository Pattern**:
+
+```
+Controller (HTTP layer)
+  ↓
+Service (Business logic)
+  ↓
+Repository (Data access - abstraction over database)
+  ↓
+Database (PostgreSQL, MongoDB, etc.)
+```
+
+**Benefits of Repository Pattern**:
+
+- Easy to test (mock repository)
+- Database-agnostic (swap Postgres → MongoDB)
+- Centralized query logic
+
+### ✅ REQUIRED: Performance Optimization
+
+**When to optimize**:
+
+1. Measure FIRST (APM tools, profiling, load testing)
+2. Identify bottlenecks (slow queries, N+1 problems, large payloads)
+3. Apply targeted fixes (NOT premature optimization)
+
+**Common Optimizations**:
+
+- **Database queries**: Add indexes, use EXPLAIN ANALYZE, fix N+1 queries
+- **Caching**: Redis for frequently accessed data (user sessions, product catalog)
+- **Pagination**: Limit list endpoints to 50-100 items per page
+- **Compression**: gzip middleware for response bodies
+- **Rate limiting**: Prevent abuse, protect from DDoS
+
+**Red Flags (Premature Optimization)**:
+
+- Caching everything "just in case"
+- Denormalizing database before profiling queries
+- Optimizing endpoints with <100 requests/day
+
+---
+
+## Decision Tree
+
+```
+New endpoint?
+  → Define contract/schema first, then document
+
+Data model change?
+  → Migrate safely, validate with staging data
+
+Deployment?
+  → Automate with CI/CD pipeline
+
+Bug found?
+  → Add/expand test coverage before fixing
+```
+
+---
+
+## Example
+
+Building a `POST /api/v1/orders` endpoint end-to-end: validation → service → repository → response.
+
+```typescript
+// 1. Controller: validate input, delegate to service
+app.post("/api/v1/orders", async (req, res) => {
+  const parsed = createOrderSchema.safeParse(req.body);  // zod boundary check
+  if (!parsed.success) return res.status(400).json({ error: parsed.error.flatten() });
+
+  const result = await orderService.createOrder(parsed.data, req.user.id);
+  if (!result.isSuccess) return res.status(409).json({ error: result.error });
+  res.status(201).json(result.value);
+});
+
+// 2. Service: business rules
+class OrderService {
+  async createOrder(dto: CreateOrderDTO, userId: string): Promise<Result<Order>> {
+    const user = await this.userRepo.findById(userId);
+    if (!user) return Result.fail("User not found");
+    if (dto.items.length === 0) return Result.fail("Order must have at least one item");
+    const order = Order.create({ ...dto, userId });
+    await this.orderRepo.save(order);
+    return Result.ok(order);
+  }
+}
+
+// 3. Repository: data access abstraction
+class PostgresOrderRepository implements IOrderRepository {
+  async save(order: Order): Promise<void> {
+    await prisma.order.create({ data: order.toPersistence() });
+  }
+}
+```
+
+Patterns applied: `/api/v1` versioning, zod boundary validation, service owns business rules, repository abstracts DB, centralized error format.
+
+## Edge Cases
+
+- **Data migration failures**: Always implement rollback strategy. Use transactions for multi-step migrations. Test migrations on staging data first.
+
+- **API versioning and backward compatibility**: Maintain old versions until all clients migrate. Document deprecation timeline (e.g., "v1 deprecated 2026-06-01, removed 2026-09-01").
+
+- **Security edge cases**: Validate all inputs to prevent injection attacks. Implement rate limiting per endpoint. Use parameterized queries for SQL. Sanitize user input before logging.
+
+- **Race conditions**: Use database transactions for operations that must be atomic. Implement optimistic locking for concurrent updates. Consider distributed locks for multi-instance deployments.
+
+- **Large response payloads**: Implement pagination for list endpoints. Use streaming for large files. Consider compression (gzip) for response bodies.
+
+---
+
+## Checklist
+
+- [ ] API endpoints versioned (/api/v1, /api/v2)
+- [ ] Input validation at all boundaries (zod, yup, joi)
+- [ ] Centralized error handling middleware
+- [ ] Environment variables for all configuration
+- [ ] Database migrations tested with rollback
+- [ ] Authentication and authorization on protected routes
+- [ ] Rate limiting implemented on public endpoints
+- [ ] Logging with context (request ID, user ID, timestamp)
+- [ ] API documentation up-to-date (OpenAPI, Swagger)
+- [ ] Unit tests for business logic (>=80% coverage)
+- [ ] Integration tests for critical flows
+- [ ] CI/CD pipeline configured (build, test, deploy)
+- [ ] Health check endpoint (/health, /ping)
+- [ ] Monitoring and alerting configured (errors, performance)
+
+---
+
+## Workflow
+
+**E2E Development Workflow**:
+
+1. **brainstorming** → Evaluate alternatives, high-level planning
+2. **writing-plans** → Break into executable tasks (2-5 min, file paths)
+3. **backend-dev** (this skill) → Apply Backend Developer thinking and architecture
+4. **plan-execution** → Execute in batches of 3 with checkpoints
+5. **verification-protocol** → Verify each task (IDENTIFY → RUN → READ → VERIFY → CLAIM)
+6. **code-review** → Two-stage review (spec compliance → code quality)
+
+---
+
+## Resources
+
+- [code-conventions](../code-conventions/SKILL.md) - Code organization and naming
+- [architecture-patterns](../architecture-patterns/SKILL.md) - Design patterns (Repository, Service Layer, Clean Architecture)
+- [result-pattern](../result-pattern/SKILL.md) - Typed error handling in services and controllers
+- [circuit-breaker-pattern](../circuit-breaker-pattern/SKILL.md) - Fault tolerance for external API and DB calls
+- [state-machines-pattern](../state-machines-pattern/SKILL.md) - Explicit state modeling for workflows (orders, approvals)
+- [nodejs](../nodejs/SKILL.md) - Node.js runtime patterns
+- [typescript](../typescript/SKILL.md) - Type-safe backend development
+- [form-validation](../form-validation/SKILL.md) - Input validation with zod/yup
+- [express](../express/SKILL.md) - Express.js framework patterns
+- [nest](../nest/SKILL.md) - NestJS framework patterns
+- [hono](../hono/SKILL.md) - Hono framework patterns
+- https://restfulapi.net/ - REST API design best practices
+- https://swagger.io/docs/ - OpenAPI/Swagger documentation

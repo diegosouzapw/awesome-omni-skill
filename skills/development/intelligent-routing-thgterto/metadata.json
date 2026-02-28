@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "609423e814a68f75cfb178a9bc975825ec5f59d874797865b8232582ddf8159f",
   "indexed_at": "2026-02-26T06:56:26.107Z",
-  "synced_at": "2026-02-27T02:26:49.473Z",
+  "synced_at": "2026-02-28T03:52:14.556Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c6f39fdcd01d19e231c283cca89a534419e639a37ce0a3a96805dc2e57e62b79",
   "install_command": "mkdir -p .claude/skills/intelligent-routing && curl -sL \"https://raw.githubusercontent.com/thgterto/Gerenciador-de-estoque/main/.agent/skills/intelligent-routing/SKILL.md\" > .claude/skills/intelligent-routing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/thgterto/Gerenciador-de-estoque/main/.agent/skills/intelligent-routing/SKILL.md"

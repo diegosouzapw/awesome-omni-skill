@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d68a033be63ba4955d4fb76945adc1c134d994128f68ff741b56668c61d2821b",
   "indexed_at": "2026-02-27T03:56:35.834Z",
-  "synced_at": "2026-02-27T13:12:59.054Z",
+  "synced_at": "2026-02-28T03:50:59.208Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3fbb949e6835c45ef0c2307060787066f4b18cefb306dddf5bd841c50c7d2a0b",
   "install_command": "mkdir -p .claude/skills/agent-react-specialist && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-react-specialist/SKILL.md\" > .claude/skills/agent-react-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-react-specialist/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6fe9921224ee1a3bc0ab2c63e60223af1d103738ec8c7053fc8b632e0e8e39e3",
   "indexed_at": "2026-02-24T23:21:36.087Z",
-  "synced_at": "2026-02-27T02:25:49.902Z",
+  "synced_at": "2026-02-28T03:51:23.995Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3087d9471173078c934348375167a837eee957414a97259c2fa27683aaf701db",
   "install_command": "mkdir -p .claude/skills/absinthe-subscriptions && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/absinthe-subscriptions/SKILL.md\" > .claude/skills/absinthe-subscriptions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/absinthe-subscriptions/SKILL.md"

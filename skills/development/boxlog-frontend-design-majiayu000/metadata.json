@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d2c5bfe782356e3d5d13e3b43f02bee2ea5772569da3f141de4979ccf3774bc4",
   "indexed_at": "2026-02-26T06:51:30.638Z",
-  "synced_at": "2026-02-27T02:26:47.484Z",
+  "synced_at": "2026-02-28T03:52:13.144Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d8f28326999c62975b45acd7e9521541094cda9eaf2e0b32d8b8048c7b77fe76",
   "install_command": "mkdir -p .claude/skills/boxlog-frontend-design && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/boxlog-frontend-design/SKILL.md\" > .claude/skills/boxlog-frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/boxlog-frontend-design/SKILL.md"

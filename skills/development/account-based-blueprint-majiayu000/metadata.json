@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "03cc41d8dd2c7d002a2e67605c853905ffc559442c4ac938b7a34c8a0fdb16da",
   "indexed_at": "2026-02-26T05:10:32.512Z",
-  "synced_at": "2026-02-27T02:26:08.878Z",
+  "synced_at": "2026-02-28T03:51:41.313Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f16b0068578eecd23f97e3b228490a5d20a38a92b6c71ca3f38fbac7088480ee",
   "install_command": "mkdir -p .claude/skills/account-based-blueprint && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/account-based-blueprint/SKILL.md\" > .claude/skills/account-based-blueprint/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/account-based-blueprint/SKILL.md"

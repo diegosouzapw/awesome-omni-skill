@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3692286601b1991b7489c8fa570f1ccf7f1dd400f3c777476bc33fe014df463d",
   "indexed_at": "2026-02-24T23:07:56.274Z",
-  "synced_at": "2026-02-27T02:25:33.925Z",
+  "synced_at": "2026-02-28T03:51:08.364Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0d8cb59527cbd1fc585241732334cc94a57450b4777c27a7b9cf87d64648c028",
   "install_command": "mkdir -p .claude/skills/hic-loop-calling && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/19-toolbased-hic-loop-calling/SKILL.md\" > .claude/skills/hic-loop-calling/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/19-toolbased-hic-loop-calling/SKILL.md"

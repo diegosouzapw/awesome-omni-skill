@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4f025746c95ccc7236ef348632a7c2fc7cc4e44aca5793786f2656987b4efccd",
   "indexed_at": "2026-02-26T07:45:56.689Z",
-  "synced_at": "2026-02-27T02:26:50.755Z",
+  "synced_at": "2026-02-28T03:52:15.849Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c1a35ecfb384131afafaeee59e43091cbd5ac4c7ed2f9ea9355ef932488b9a8f",
   "install_command": "mkdir -p .claude/skills/graphql-architect && curl -sL \"https://raw.githubusercontent.com/herdiansah/Antigravity-Skills-Master/main/.agent/skills/graphql-architect/SKILL.md\" > .claude/skills/graphql-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/herdiansah/Antigravity-Skills-Master/main/.agent/skills/graphql-architect/SKILL.md"

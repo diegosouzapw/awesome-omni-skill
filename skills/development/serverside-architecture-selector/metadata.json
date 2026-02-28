@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0e8ad9356e5b38f7ab7443be5e8e1cf573e94dc9f5db8c675db5fb7848dc51d1",
   "indexed_at": "2026-02-26T05:54:36.539Z",
-  "synced_at": "2026-02-27T02:26:40.700Z",
+  "synced_at": "2026-02-28T03:52:07.219Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a67eb6d5b178acf73d7bae6f788b732fe50f7528c10f36d68a0fab54f4e47964",
   "install_command": "mkdir -p .claude/skills/serverside-architecture-selector && curl -sL \"https://raw.githubusercontent.com/lucas-martino/ai-augmented-development-agents/main/skills/serverside-architecture-selector/SKILL.md\" > .claude/skills/serverside-architecture-selector/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lucas-martino/ai-augmented-development-agents/main/skills/serverside-architecture-selector/SKILL.md"

@@ -1,451 +1,406 @@
 ---
 name: api-integration
-slug: api-integration
-version: 1.0.0
-category: core
-description: Generate Next.js App Router API routes with Zod validation and TypeScript types
-triggers:
-  - pattern: "api|endpoint|route|fetch|request|rest|graphql"
-    confidence: 0.6
-    examples:
-      - "create an API endpoint"
-      - "build a REST API"
-      - "I need API routes for CRUD"
-      - "generate endpoint for users"
-      - "create a fetch request handler"
-      - "create endpoints to fetch data"
-mcp_dependencies:
-  - server: context7
-    required: false
-    capabilities:
-      - "search"
-  - server: exa
-    required: false
-    capabilities:
-      - "search"
+description: "Expert API integration decisions for iOS/tvOS: REST vs GraphQL trade-offs, API versioning strategies, caching layer design, and offline-first architecture choices. Use when designing network architecture, implementing offline support, or choosing between API patterns. Trigger keywords: REST, GraphQL, API versioning, caching, offline-first, URLSession, background fetch, ETag, pagination, rate limiting"
+version: "3.0.0"
 ---
 
-# API Integration Skill
+# API Integration — Expert Decisions
 
-Automatically generate production-ready Next.js 15 App Router API routes with Zod validation, TypeScript types, and comprehensive error handling. This skill transforms natural language API requirements into fully functional RESTful endpoints following Next.js best practices.
+Expert decision frameworks for API integration choices. Claude knows URLSession and Codable — this skill provides judgment calls for architecture decisions and caching strategies.
 
-## Overview
+---
 
-This skill generates:
-- **Next.js App Router API routes** (TypeScript)
-- **Zod validation schemas** for request/response
-- **TypeScript type definitions** (auto-inferred from Zod)
-- **Error handling utilities** (consistent error responses)
-- **RESTful conventions** (proper HTTP methods and status codes)
+## Decision Trees
 
-## When to Use This Skill
+### REST vs GraphQL
 
-Activate this skill when the user requests:
-- API endpoint creation
-- REST API development
-- Route handlers
-- CRUD operations
-- HTTP request/response handling
-- Data validation for APIs
-- GraphQL resolvers (basic)
+```
+What's your data access pattern?
+├─ Fixed, well-defined endpoints
+│  └─ REST
+│     Simpler caching, HTTP semantics
+│
+├─ Flexible queries, varying data needs per screen
+│  └─ GraphQL
+│     Single endpoint, client specifies shape
+│
+├─ Real-time subscriptions needed?
+│  └─ GraphQL subscriptions or WebSocket + REST
+│     GraphQL has built-in subscription support
+│
+└─ Offline-first with sync?
+   └─ REST is simpler for conflict resolution
+      GraphQL mutations harder to replay
+```
 
-## Key Features
+**The trap**: Choosing GraphQL because it's trendy. If your API has stable endpoints and you control both client and server, REST is simpler.
 
-### 1. Automatic Route Generation
+### API Versioning Strategy
 
-Generates Next.js 15 App Router route handlers:
+```
+How stable is your API?
+├─ Stable, rarely changes
+│  └─ No versioning needed initially
+│     Add when first breaking change occurs
+│
+├─ Breaking changes expected
+│  └─ URL path versioning (/v1/, /v2/)
+│     Most explicit, easiest to manage
+│
+├─ Gradual migration needed
+│  └─ Header versioning (Accept-Version: v2)
+│     Same URL, version negotiated
+│
+└─ Multiple versions simultaneously
+   └─ Consider if you really need this
+      Maintenance burden is high
+```
 
-```typescript
-// app/api/posts/route.ts
-import { NextRequest, NextResponse } from 'next/server'
-import { postSchema } from '@/lib/validations/post'
-import { handleAPIError } from '@/lib/api/errors'
+### Caching Strategy Selection
 
-export async function GET(request: NextRequest) {
-  try {
-    const { searchParams } = new URL(request.url)
-    const page = parseInt(searchParams.get('page') || '1')
-    const limit = parseInt(searchParams.get('limit') || '10')
+```
+What type of data?
+├─ Static/rarely changes (images, config)
+│  └─ Aggressive cache (URLCache + ETag)
+│     Cache-Control: max-age=86400
+│
+├─ User-specific, changes occasionally
+│  └─ Cache with validation (ETag/Last-Modified)
+│     Always validate, but use cached if unchanged
+│
+├─ Frequently changing (feeds, notifications)
+│  └─ No cache or short TTL
+│     Cache-Control: no-cache or max-age=60
+│
+└─ Critical real-time data (payments, inventory)
+   └─ No cache, always fetch
+      Cache-Control: no-store
+```
 
-    // Fetch posts from database
-    const posts = await db.query.posts.findMany({
-      limit,
-      offset: (page - 1) * limit,
-    })
+### Offline-First Architecture
 
-    return NextResponse.json({ posts, page, limit })
-  } catch (error) {
-    return handleAPIError(error)
-  }
+```
+How important is offline?
+├─ Nice to have (can show empty state)
+│  └─ Simple memory cache
+│     Clear on app restart
+│
+├─ Must show stale data when offline
+│  └─ Persistent cache (Core Data, Realm, SQLite)
+│     Fetch fresh when online, fallback to cache
+│
+├─ Must sync user changes when back online
+│  └─ Full offline-first architecture
+│     Local-first writes, sync queue, conflict resolution
+│
+└─ Real-time collaboration
+   └─ Consider CRDTs or operational transforms
+      Complex — usually overkill for mobile
+```
+
+---
+
+## NEVER Do
+
+### Service Layer Design
+
+**NEVER** call NetworkManager directly from ViewModels:
+```swift
+// ❌ ViewModel knows about network layer
+@MainActor
+final class UserViewModel: ObservableObject {
+    func loadUser() async {
+        let response = try await NetworkManager.shared.request(APIRouter.getUser(id: "123"))
+        // ViewModel parsing network response directly
+    }
 }
 
-export async function POST(request: NextRequest) {
-  try {
-    const body = await request.json()
-    const validated = postSchema.parse(body)
+// ✅ Service layer abstracts network details
+@MainActor
+final class UserViewModel: ObservableObject {
+    private let userService: UserServiceProtocol
 
-    // Create post in database
-    const post = await db.insert(posts).values(validated).returning()
-
-    return NextResponse.json(post, { status: 201 })
-  } catch (error) {
-    return handleAPIError(error)
-  }
+    func loadUser() async {
+        user = try await userService.getUser(id: "123")
+        // ViewModel works with domain models
+    }
 }
 ```
 
-### 2. CRUD Operations Mapping
-
-Automatically maps CRUD operations to HTTP methods:
-
-| Operation | HTTP Method | Route Pattern | Description |
-|-----------|-------------|---------------|-------------|
-| List | GET | `/api/posts` | Get all resources |
-| Get | GET | `/api/posts/[id]` | Get single resource |
-| Create | POST | `/api/posts` | Create new resource |
-| Update | PUT/PATCH | `/api/posts/[id]` | Update existing resource |
-| Delete | DELETE | `/api/posts/[id]` | Delete resource |
-
-### 3. Zod Validation Schemas
-
-Generates type-safe validation schemas:
-
-```typescript
-// lib/validations/post.ts
-import { z } from 'zod'
-
-export const postSchema = z.object({
-  title: z.string().min(1).max(200),
-  content: z.string().min(1),
-  published: z.boolean().default(false),
-  authorId: z.string().uuid(),
-  tags: z.array(z.string()).optional(),
-  publishedAt: z.date().optional(),
-})
-
-export const createPostSchema = postSchema.omit({ id: true })
-export const updatePostSchema = postSchema.partial()
-
-export type Post = z.infer<typeof postSchema>
-export type CreatePost = z.infer<typeof createPostSchema>
-export type UpdatePost = z.infer<typeof updatePostSchema>
-```
-
-### 4. Field Type Inference
-
-Automatically infers Zod types from field names and context:
-
-| Field Pattern | Zod Schema | Validation |
-|---------------|------------|------------|
-| `email` | `z.string().email()` | Email format |
-| `url`, `website` | `z.string().url()` | URL format |
-| `age`, `count` | `z.number().int().positive()` | Positive integer |
-| `price`, `amount` | `z.number().positive()` | Positive number |
-| `password` | `z.string().min(8)` | Minimum length |
-| `isActive`, `hasPermission` | `z.boolean()` | Boolean |
-| `tags`, `categories` | `z.array(z.string())` | String array |
-| `createdAt`, `updatedAt` | `z.date()` | Date object |
-
-### 5. Error Handling Utilities
-
-Generates comprehensive error handling:
-
-```typescript
-// lib/api/errors.ts
-import { NextResponse } from 'next/server'
-import { ZodError } from 'zod'
-
-export class APIError extends Error {
-  constructor(
-    message: string,
-    public statusCode: number = 500
-  ) {
-    super(message)
-    this.name = 'APIError'
-  }
+**NEVER** expose DTOs beyond service layer:
+```swift
+// ❌ DTO leaks to ViewModel
+func getUser() async throws -> UserDTO {
+    try await networkManager.request(...)
 }
 
-export class NotFoundError extends APIError {
-  constructor(resource: string) {
-    super(`${resource} not found`, 404)
-    this.name = 'NotFoundError'
-  }
-}
-
-export class ValidationError extends APIError {
-  constructor(message: string) {
-    super(message, 400)
-    this.name = 'ValidationError'
-  }
-}
-
-export class UnauthorizedError extends APIError {
-  constructor(message: string = 'Unauthorized') {
-    super(message, 401)
-    this.name = 'UnauthorizedError'
-  }
-}
-
-export function handleAPIError(error: unknown) {
-  console.error('API Error:', error)
-
-  if (error instanceof ZodError) {
-    return NextResponse.json(
-      {
-        error: 'Validation failed',
-        issues: error.issues,
-      },
-      { status: 400 }
-    )
-  }
-
-  if (error instanceof APIError) {
-    return NextResponse.json(
-      {
-        error: error.message,
-      },
-      { status: error.statusCode }
-    )
-  }
-
-  return NextResponse.json(
-    {
-      error: 'Internal server error',
-    },
-    { status: 500 }
-  )
+// ✅ Service maps DTO to domain model
+func getUser() async throws -> User {
+    let dto: UserDTO = try await networkManager.request(...)
+    return User(from: dto)  // Mapping happens here
 }
 ```
 
-### 6. Request/Response Types
+**NEVER** hardcode base URLs:
+```swift
+// ❌ Can't change per environment
+static let baseURL = "https://api.production.com"
 
-Generates consistent API response types:
-
-```typescript
-// lib/api/types.ts
-export interface APIResponse<T = unknown> {
-  data?: T
-  error?: string
-  message?: string
+// ✅ Environment-driven configuration
+static var baseURL: String {
+    #if DEBUG
+    return "https://api.staging.com"
+    #else
+    return "https://api.production.com"
+    #endif
 }
 
-export interface PaginatedResponse<T> {
-  data: T[]
-  page: number
-  limit: number
-  total: number
-  hasMore: boolean
-}
-
-export interface APIErrorResponse {
-  error: string
-  issues?: Array<{
-    path: string[]
-    message: string
-  }>
-}
+// Better: Inject via configuration
 ```
-
-## Execution Steps
-
-When this skill is activated:
-
-1. **Parse API Requirements**
-   - Extract resource name from prompt
-   - Identify CRUD operations needed
-   - Detect field types and validation rules
-   - Determine authentication requirements
-
-2. **Generate Route Structure**
-   - Create appropriate directory structure
-   - Generate route.ts files for each endpoint
-   - Add dynamic route segments for single resources
-   - Include middleware for auth if needed
-
-3. **Create Validation Schemas**
-   - Generate Zod schemas for each resource
-   - Add field-specific validations
-   - Create create/update schema variants
-   - Export TypeScript types
-
-4. **Add Error Handling**
-   - Generate error classes
-   - Create handleAPIError utility
-   - Add try-catch blocks in routes
-   - Include proper status codes
-
-5. **Generate Type Definitions**
-   - Create TypeScript interfaces
-   - Export request/response types
-   - Generate pagination types if needed
-   - Add JSDoc comments
-
-6. **Write Output Files**
-   - `app/api/{resource}/route.ts` - List and Create operations
-   - `app/api/{resource}/[id]/route.ts` - Get, Update, Delete operations
-   - `lib/validations/{resource}.ts` - Zod schemas
-   - `lib/api/errors.ts` - Error handling utilities
-   - `lib/api/types.ts` - Shared TypeScript types
-
-## Usage Examples
-
-### Example 1: Simple CRUD API
-
-**User Prompt:**
-"Create a REST API for managing blog posts with CRUD operations"
-
-**Generated Output:**
-- `app/api/posts/route.ts` - GET (list) and POST (create)
-- `app/api/posts/[id]/route.ts` - GET (single), PUT (update), DELETE
-- `lib/validations/post.ts` - Zod schemas
-- All routes with error handling and validation
-
-### Example 2: API with Custom Fields
-
-**User Prompt:**
-"Create an API endpoint for users with email, name, age, and avatar URL"
-
-**Generated Output:**
-```typescript
-// Zod schema with field-specific validations
-const userSchema = z.object({
-  email: z.string().email(),
-  name: z.string().min(1).max(100),
-  age: z.number().int().positive().max(150),
-  avatarUrl: z.string().url().optional(),
-})
-```
-
-### Example 3: Authenticated API
-
-**User Prompt:**
-"Create protected API routes for managing user profiles with authentication"
-
-**Generated Output:**
-- Routes with auth middleware
-- Session validation
-- User-scoped queries
-- Proper 401 error handling
-
-## RESTful Conventions
-
-### HTTP Status Codes
-
-The skill uses proper status codes:
-
-- `200 OK` - Successful GET, PUT, PATCH
-- `201 Created` - Successful POST
-- `204 No Content` - Successful DELETE
-- `400 Bad Request` - Validation errors
-- `401 Unauthorized` - Authentication required
-- `403 Forbidden` - Insufficient permissions
-- `404 Not Found` - Resource not found
-- `500 Internal Server Error` - Server errors
-
-### Response Formats
-
-Consistent JSON responses:
-
-```typescript
-// Success response
-{
-  "data": { ... }
-}
-
-// Error response
-{
-  "error": "Error message",
-  "issues": [ ... ] // For validation errors
-}
-
-// Paginated response
-{
-  "data": [ ... ],
-  "page": 1,
-  "limit": 10,
-  "total": 50,
-  "hasMore": true
-}
-```
-
-## MCP Integration
-
-### Context7 (Optional)
-
-When Context7 MCP is available:
-- Search Next.js documentation for latest patterns
-- Find existing API route examples in codebase
-- Reference authentication patterns
-
-### Exa (Optional)
-
-When Exa MCP is available:
-- Search for Next.js 15 App Router best practices
-- Find Zod validation examples
-- Discover error handling patterns
-
-## Best Practices
-
-### Route Organization
-
-```
-app/api/
-  ├── posts/
-  │   ├── route.ts           # GET, POST
-  │   └── [id]/
-  │       └── route.ts       # GET, PUT, DELETE
-  ├── users/
-  │   ├── route.ts
-  │   └── [id]/
-  │       └── route.ts
-  └── auth/
-      └── callback/
-          └── route.ts
-```
-
-### Validation Strategy
-
-- Validate all input data with Zod
-- Use `.parse()` for strict validation (throws on error)
-- Use `.safeParse()` for custom error handling
-- Create separate schemas for create/update operations
-- Add custom refinements for complex validations
 
 ### Error Handling
 
-- Always use try-catch in route handlers
-- Use custom error classes for different error types
-- Log errors server-side
-- Never expose sensitive error details to client
-- Return consistent error response format
+**NEVER** show raw error messages to users:
+```swift
+// ❌ Exposes technical details
+errorMessage = error.localizedDescription  // "JSON decoding error at keyPath..."
 
-### Type Safety
+// ✅ Map to user-friendly messages
+errorMessage = mapToUserMessage(error)
 
-- Export types from Zod schemas using `z.infer`
-- Use TypeScript strict mode
-- Add JSDoc comments for better IDE support
-- Create shared types for common patterns
+func mapToUserMessage(_ error: Error) -> String {
+    switch error {
+    case let networkError as NetworkError:
+        return networkError.userMessage
+    case is DecodingError:
+        return "Unable to process response. Please try again."
+    default:
+        return "Something went wrong. Please try again."
+    }
+}
+```
 
-## Limitations
+**NEVER** treat all errors the same:
+```swift
+// ❌ Same handling for all errors
+catch {
+    showErrorAlert(error.localizedDescription)
+}
 
-- Next.js App Router only (not Pages Router)
-- REST APIs (GraphQL requires additional setup)
-- PostgreSQL assumed (can be adapted for other databases)
-- Authentication requires additional configuration
+// ✅ Different handling per error type
+catch is CancellationError {
+    return  // User navigated away — not an error
+}
+catch NetworkError.unauthorized {
+    await sessionManager.logout()  // Force re-auth
+}
+catch NetworkError.noConnection {
+    showOfflineBanner()  // Different UI treatment
+}
+catch {
+    showErrorAlert("Something went wrong")
+}
+```
 
-## Future Enhancements
+### Caching
 
-- GraphQL schema generation
-- OpenAPI/Swagger documentation generation
-- API rate limiting middleware
-- Request caching strategies
-- Webhook handlers
-- Real-time API support (Server-Sent Events)
-- API versioning support
-- Automated API testing generation
+**NEVER** cache sensitive data without encryption:
+```swift
+// ❌ Tokens cached in plain URLCache
+URLCache.shared.storeCachedResponse(response, for: request)
+// Login response with tokens now on disk!
+
+// ✅ Exclude sensitive endpoints from cache
+if endpoint.isSensitive {
+    request.cachePolicy = .reloadIgnoringLocalCacheData
+}
+```
+
+**NEVER** assume cached data is fresh:
+```swift
+// ❌ Trusts cache blindly
+if let cached = cache.get(key) {
+    return cached  // May be hours/days old
+}
+
+// ✅ Validate cache or show stale indicator
+if let cached = cache.get(key) {
+    if cached.isStale {
+        Task { await refreshInBackground(key) }
+    }
+    return (data: cached.data, isStale: cached.isStale)
+}
+```
+
+### Pagination
+
+**NEVER** load all pages at once:
+```swift
+// ❌ Memory explosion, slow initial load
+func loadAllUsers() async throws -> [User] {
+    var all: [User] = []
+    var page = 1
+    while true {
+        let response = try await fetchPage(page)
+        all.append(contentsOf: response.users)
+        if response.users.isEmpty { break }
+        page += 1
+    }
+    return all  // May be thousands of items!
+}
+
+// ✅ Paginate on demand
+func loadNextPage() async throws {
+    guard hasMorePages, !isLoading else { return }
+    isLoading = true
+    let response = try await fetchPage(currentPage + 1)
+    users.append(contentsOf: response.users)
+    currentPage += 1
+    hasMorePages = !response.users.isEmpty
+    isLoading = false
+}
+```
+
+**NEVER** use offset pagination for mutable lists:
+```swift
+// ❌ Items shift during pagination
+// User scrolls, new item added, page 2 now has duplicate
+GET /users?offset=20&limit=20
+
+// ✅ Cursor-based pagination
+GET /users?after=abc123&limit=20
+// Cursor is stable reference point
+```
 
 ---
 
-**Skill Version:** 1.0.0
-**Last Updated:** 2026-01-04
-**Maintainer:** Turbocat Agent System
+## Essential Patterns
+
+### Service Layer with Caching
+
+```swift
+protocol UserServiceProtocol {
+    func getUser(id: String, forceRefresh: Bool) async throws -> User
+}
+
+final class UserService: UserServiceProtocol {
+    private let networkManager: NetworkManagerProtocol
+    private let cache: CacheProtocol
+
+    func getUser(id: String, forceRefresh: Bool = false) async throws -> User {
+        let cacheKey = "user_\(id)"
+
+        // Return cached if valid and not forcing refresh
+        if !forceRefresh, let cached: User = cache.get(cacheKey), !cached.isExpired {
+            return cached
+        }
+
+        // Fetch fresh
+        let dto: UserDTO = try await networkManager.request(APIRouter.getUser(id: id))
+        let user = User(from: dto)
+
+        // Cache with TTL
+        cache.set(cacheKey, value: user, ttl: .minutes(5))
+
+        return user
+    }
+}
+```
+
+### Stale-While-Revalidate Pattern
+
+```swift
+func getData() async -> (data: Data?, isStale: Bool) {
+    // Immediately return cached (possibly stale)
+    let cached = cache.get(key)
+
+    // Refresh in background
+    Task {
+        do {
+            let fresh = try await fetchFromNetwork()
+            cache.set(key, value: fresh)
+            // Notify UI of fresh data (publisher, callback, etc.)
+            await MainActor.run { self.data = fresh }
+        } catch {
+            // Keep showing stale data
+        }
+    }
+
+    return (data: cached?.data, isStale: cached?.isExpired ?? true)
+}
+```
+
+### Retry with Idempotency Key
+
+```swift
+struct CreateOrderRequest {
+    let items: [OrderItem]
+    let idempotencyKey: String  // Client-generated UUID
+}
+
+func createOrder(items: [OrderItem]) async throws -> Order {
+    let idempotencyKey = UUID().uuidString
+
+    return try await withRetry(maxAttempts: 3) {
+        try await orderService.create(
+            CreateOrderRequest(items: items, idempotencyKey: idempotencyKey)
+        )
+        // Server uses idempotencyKey to prevent duplicate orders
+    }
+}
+```
+
+### Background Fetch Configuration
+
+```swift
+// In AppDelegate
+func application(_ application: UIApplication, performFetchWithCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+    Task {
+        do {
+            let hasNewData = try await syncService.performBackgroundSync()
+            completionHandler(hasNewData ? .newData : .noData)
+        } catch {
+            completionHandler(.failed)
+        }
+    }
+}
+
+// In Info.plist: UIBackgroundModes = ["fetch"]
+// Call: UIApplication.shared.setMinimumBackgroundFetchInterval(...)
+```
+
+---
+
+## Quick Reference
+
+### API Architecture Decision Matrix
+
+| Factor | REST | GraphQL |
+|--------|------|---------|
+| Fixed endpoints | ✅ Best | Overkill |
+| Flexible queries | Verbose | ✅ Best |
+| Caching | ✅ HTTP native | Complex |
+| Real-time | WebSocket addition | ✅ Subscriptions |
+| Offline sync | ✅ Easier | Harder |
+| Learning curve | Lower | Higher |
+
+### Caching Strategy by Data Type
+
+| Data Type | Strategy | TTL |
+|-----------|----------|-----|
+| App config | Aggressive | 24h |
+| User profile | Validate | 5-15m |
+| Feed/timeline | Short or none | 1-5m |
+| Payments | None | 0 |
+| Images | Aggressive | 7d |
+
+### Red Flags
+
+| Smell | Problem | Fix |
+|-------|---------|-----|
+| DTO in ViewModel | Coupling to API | Map to domain model |
+| Hardcoded base URL | Can't switch env | Configuration |
+| Showing DecodingError | Leaks internals | User-friendly messages |
+| Loading all pages | Memory explosion | Paginate on demand |
+| Offset pagination for mutable data | Duplicates/gaps | Cursor pagination |
+| Caching auth responses | Security risk | Exclude sensitive |

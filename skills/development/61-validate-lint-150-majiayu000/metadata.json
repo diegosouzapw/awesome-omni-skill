@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "059987f3e971cac52cd6d756c056595b79af367cea3174326a25ee2d487e6474",
   "indexed_at": "2026-02-24T23:11:51.414Z",
-  "synced_at": "2026-02-27T02:25:41.905Z",
+  "synced_at": "2026-02-28T03:51:16.261Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0a350ffbc13beaed740125f4813950675b83a4ae45528282ee63928a3d57f3fd",
   "install_command": "mkdir -p .claude/skills/61-validate-lint-150 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/61-validate-lint-150/SKILL.md\" > .claude/skills/61-validate-lint-150/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/61-validate-lint-150/SKILL.md"

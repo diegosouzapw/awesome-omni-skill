@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cdfc4b3f0392cad10971ff665fea24239f5f9bf5367e3df43cd6b84a279ba768",
   "indexed_at": "2026-02-26T08:57:00.453Z",
-  "synced_at": "2026-02-27T02:27:02.888Z",
+  "synced_at": "2026-02-28T03:52:26.199Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f6779f0b519353ea69b4e6da18cb1be57f65d021fee1084f1dd90ccad76d67c7",
   "install_command": "mkdir -p .claude/skills/dotnet-aspire-patterns && curl -sL \"https://raw.githubusercontent.com/rudironsoni/dotnet-harness-toolkit/main/skills/dotnet-aspire-patterns/SKILL.md\" > .claude/skills/dotnet-aspire-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rudironsoni/dotnet-harness-toolkit/main/skills/dotnet-aspire-patterns/SKILL.md"

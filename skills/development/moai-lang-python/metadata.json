@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "990c472e53b9f497c009ab57d76aad785064de4fa6cac3d60727e20391a2e9ba",
   "indexed_at": "2026-02-26T05:51:05.564Z",
-  "synced_at": "2026-02-27T02:26:37.995Z",
+  "synced_at": "2026-02-28T03:52:05.759Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1fb6f6a091fd4e291a5c10da3ff3350710b24c538fe2b90f95e813b1c984ea11",
   "install_command": "mkdir -p .claude/skills/moai-lang-python && curl -sL \"https://raw.githubusercontent.com/AJBcoding/claude-skill-eval/main/skills/moai-lang-python/SKILL.md\" > .claude/skills/moai-lang-python/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AJBcoding/claude-skill-eval/main/skills/moai-lang-python/SKILL.md"

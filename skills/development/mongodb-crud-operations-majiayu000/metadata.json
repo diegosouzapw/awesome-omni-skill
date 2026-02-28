@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ae343671973dfd5f177b99e769f8c0548bd2bf1d10aed8830c011aa23e84c1d3",
   "indexed_at": "2026-02-26T08:47:59.741Z",
-  "synced_at": "2026-02-27T02:26:59.137Z",
+  "synced_at": "2026-02-28T03:52:22.973Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/32ab2455d7204e909e0cede2c46849c73aee4fc24677bff53841face0e1cf324",
   "install_command": "mkdir -p .claude/skills/mongodb-crud-operations && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/documents/mongodb-crud-operations/SKILL.md\" > .claude/skills/mongodb-crud-operations/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/documents/mongodb-crud-operations/SKILL.md"

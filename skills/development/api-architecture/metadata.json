@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1ea8d97c334fe0df37f107621955df92b3e00c2133bcf826f07c8bb8d2c82ea8",
   "indexed_at": "2026-02-26T07:51:30.760Z",
-  "synced_at": "2026-02-27T02:26:54.313Z",
+  "synced_at": "2026-02-28T03:52:18.748Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c97970fdb67dcf85adc3c2a05584ab11065f9e456118049f111bedc03dd99c28",
   "install_command": "mkdir -p .claude/skills/api-architecture && curl -sL \"https://raw.githubusercontent.com/karchtho/my-claude-marketplace/main/bundles/api-design-bundle/skills/api-architecture/SKILL.md\" > .claude/skills/api-architecture/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/karchtho/my-claude-marketplace/main/bundles/api-design-bundle/skills/api-architecture/SKILL.md"

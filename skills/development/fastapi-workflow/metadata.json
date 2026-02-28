@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "49f761cf2aa04c6e3d2946bcabf0e3b485e0a9889197f64076fb9a13e9615138",
   "indexed_at": "2026-02-25T13:02:55.972Z",
-  "synced_at": "2026-02-27T02:26:17.062Z",
+  "synced_at": "2026-02-28T03:51:48.994Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f63b4a717ce908ace9af7e4551dffeb6437f04a217c75e4455a75893d386ca5b",
   "install_command": "mkdir -p .claude/skills/fastapi-workflow && curl -sL \"https://raw.githubusercontent.com/petrogurcak/skills/main/plugins/development/skills/fastapi-workflow/SKILL.md\" > .claude/skills/fastapi-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/petrogurcak/skills/main/plugins/development/skills/fastapi-workflow/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b274960a4514e37fe785a5930cf1da6b1660b0d4df9dc7260bde613418999301",
   "indexed_at": "2026-02-26T08:53:24.113Z",
-  "synced_at": "2026-02-27T02:27:01.406Z",
+  "synced_at": "2026-02-28T03:52:25.341Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dc5f74b6b985692e92abb82a93b01accdc4a669b0e4f4345c94b3c3d3d994b77",
   "install_command": "mkdir -p .claude/skills/managed-db-services && curl -sL \"https://raw.githubusercontent.com/digitalocean-labs/do-app-platform-skills/main/skills/managed-db-services/SKILL.md\" > .claude/skills/managed-db-services/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/digitalocean-labs/do-app-platform-skills/main/skills/managed-db-services/SKILL.md"

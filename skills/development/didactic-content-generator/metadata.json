@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7bbeb5659757445572f4d668a3195811e49fac0df2b6104787d0d6de9397ee93",
   "indexed_at": "2026-02-26T17:45:11.423Z",
-  "synced_at": "2026-02-27T02:26:10.834Z",
+  "synced_at": "2026-02-28T03:51:43.195Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b95a71048fc79dee5850da5e947e2b626222bdfdb8009ef7dfbe404c354fc764",
   "install_command": "mkdir -p .claude/skills/didactic-content-generator && curl -sL \"https://raw.githubusercontent.com/rafaelramosdf/antigravity-agents/main/agent-creator/.agent/skills/didactic-content-generator/SKILL.md\" > .claude/skills/didactic-content-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rafaelramosdf/antigravity-agents/main/agent-creator/.agent/skills/didactic-content-generator/SKILL.md"

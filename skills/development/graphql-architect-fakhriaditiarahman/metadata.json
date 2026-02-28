@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aba8d459c9678801f81019532de97152e8de9575fa43ed8ea5806e556f9456d7",
   "indexed_at": "2026-02-26T07:47:12.597Z",
-  "synced_at": "2026-02-27T02:26:51.787Z",
+  "synced_at": "2026-02-28T03:52:16.872Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9c65840f5c8c13357be596fb58e6447a5fdecac2b0cf8d19af96dfbd83a53fe4",
   "install_command": "mkdir -p .claude/skills/graphql-architect && curl -sL \"https://raw.githubusercontent.com/fakhriaditiarahman/Your-Skill-Agent/main/.agent/skills/graphql-architect/SKILL.md\" > .claude/skills/graphql-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fakhriaditiarahman/Your-Skill-Agent/main/.agent/skills/graphql-architect/SKILL.md"

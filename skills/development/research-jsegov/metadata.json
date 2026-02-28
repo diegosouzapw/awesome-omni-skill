@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2750976fa8b4b33a4f06355af0980f34809ea2373069c8b3de7a790f62cef66a",
   "indexed_at": "2026-02-26T08:50:15.410Z",
-  "synced_at": "2026-02-27T02:26:59.753Z",
+  "synced_at": "2026-02-28T03:52:23.353Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/15a1b402a56ac9b7f7011454c663cd9c73d61d02dbe235f9564f104137d81f11",
   "install_command": "mkdir -p .claude/skills/research && curl -sL \"https://raw.githubusercontent.com/jsegov/shipspec-claude-code-plugin/main/skills/research/SKILL.md\" > .claude/skills/research/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jsegov/shipspec-claude-code-plugin/main/skills/research/SKILL.md"

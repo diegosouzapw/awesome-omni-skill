@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c01663cd5524a982915ba92704e37b41d074421a8efb431e18628712f9a25603",
   "indexed_at": "2026-02-26T08:51:37.570Z",
-  "synced_at": "2026-02-27T02:27:00.720Z",
+  "synced_at": "2026-02-28T03:52:24.406Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8d4f9f280706c9e84d93e049bae13999e3adbcda49f8cf92890ab18f88518408",
   "install_command": "mkdir -p .claude/skills/database-migrations-sql-migrations && curl -sL \"https://raw.githubusercontent.com/namanprat/duforn/main/.agent/skills/database-migrations-sql-migrations/SKILL.md\" > .claude/skills/database-migrations-sql-migrations/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/namanprat/duforn/main/.agent/skills/database-migrations-sql-migrations/SKILL.md"

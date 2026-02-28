@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f78bffcd46328e488cf60905418c7a11f11ec70859c8b3a6aea13f0cd96fe72c",
   "indexed_at": "2026-02-26T05:09:58.352Z",
-  "synced_at": "2026-02-27T02:26:10.639Z",
+  "synced_at": "2026-02-28T03:51:43.011Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c80095626fb27eee5b92acd70e362b58a3dd1d2d46efcd2f843c1c362a0cb55d",
   "install_command": "mkdir -p .claude/skills/accessibility-games && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/accessibility-games/SKILL.md\" > .claude/skills/accessibility-games/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/accessibility-games/SKILL.md"

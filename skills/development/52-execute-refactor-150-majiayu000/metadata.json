@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "29ef91e773409052f3dc15622df01a0296cec21968428439733506a417abcd75",
   "indexed_at": "2026-02-24T23:11:23.512Z",
-  "synced_at": "2026-02-27T02:25:40.309Z",
+  "synced_at": "2026-02-28T03:51:14.482Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e115d8f00277619a54254e28ba34280c5e96a861d87bcca01d62763b3d7bf7b1",
   "install_command": "mkdir -p .claude/skills/52-execute-refactor-150 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/52-execute-refactor-150/SKILL.md\" > .claude/skills/52-execute-refactor-150/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/52-execute-refactor-150/SKILL.md"

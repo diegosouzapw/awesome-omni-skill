@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dad7bb584dbf2a301b87f03d256a45a1b14274510707956230ba80dd2266b506",
   "indexed_at": "2026-02-26T05:41:30.099Z",
-  "synced_at": "2026-02-27T02:26:32.381Z",
+  "synced_at": "2026-02-28T03:52:01.686Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/55ea6793e528f3dc5ba7cc17a50b806541d2559eb357354172af7e37255a92a4",
   "install_command": "mkdir -p .claude/skills/build-integrated-apps && curl -sL \"https://raw.githubusercontent.com/membranehq/agent-skills/main/skills/build-integrated-apps/SKILL.md\" > .claude/skills/build-integrated-apps/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/membranehq/agent-skills/main/skills/build-integrated-apps/SKILL.md"

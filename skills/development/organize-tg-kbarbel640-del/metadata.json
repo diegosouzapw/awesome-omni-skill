@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f8b7e8c65cd37ad572bf857d73396d962015c20955821bbcc6ceac56279b7189",
   "indexed_at": "2026-02-25T17:41:08.091Z",
-  "synced_at": "2026-02-27T02:26:28.117Z",
+  "synced_at": "2026-02-28T03:51:57.258Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7a12510d0c3045e96ba9addfee4265cf0c97bbea264e56c533ed606c3d304342",
   "install_command": "mkdir -p .claude/skills/organize-tg && curl -sL \"https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/consort-tech/organize-tg/SKILL.md\" > .claude/skills/organize-tg/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/consort-tech/organize-tg/SKILL.md"

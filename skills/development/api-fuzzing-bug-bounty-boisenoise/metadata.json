@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ca4088e68158eae63f946e012e8a0657bd61d708283844d5b5ac7690ea3a0a9c",
   "indexed_at": "2026-02-26T07:47:03.711Z",
-  "synced_at": "2026-02-27T02:26:51.445Z",
+  "synced_at": "2026-02-28T03:52:16.536Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5f1be50a31ea42756d6ca5120375635983e3b2e2183b8a3936cc636db521e9c5",
   "install_command": "mkdir -p .claude/skills/api-fuzzing-bug-bounty && curl -sL \"https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-api-fuzzing-bug-bounty/SKILL.md\" > .claude/skills/api-fuzzing-bug-bounty/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-api-fuzzing-bug-bounty/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6899535a701906acb537ae6869722d4c348cc03ad6e8bfb1ec1a99307ac0095b",
   "indexed_at": "2026-02-25T13:10:43.873Z",
-  "synced_at": "2026-02-27T02:26:17.830Z",
+  "synced_at": "2026-02-28T03:51:49.650Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/daffa1e1f2de796be69920b6a0e41fcd1d9454cac8c823d46bb985decb7fdb77",
   "install_command": "mkdir -p .claude/skills/casing-law && curl -sL \"https://raw.githubusercontent.com/oborchers/fractional-cto/main/pedantic-coder/skills/casing-law/SKILL.md\" > .claude/skills/casing-law/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oborchers/fractional-cto/main/pedantic-coder/skills/casing-law/SKILL.md"

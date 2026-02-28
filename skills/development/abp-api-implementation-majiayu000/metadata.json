@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7345abe479775fc41b4be3e4925ae381117c499ee5ff335a401d97a59b3a7117",
   "indexed_at": "2026-02-24T23:21:25.343Z",
-  "synced_at": "2026-02-27T02:25:48.549Z",
+  "synced_at": "2026-02-28T03:51:22.646Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f94ddd6f441b4b7aca22685e0b22d663ab9a11035098beb1eda4a0b533070114",
   "install_command": "mkdir -p .claude/skills/abp-api-implementation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abp-api-implementation/SKILL.md\" > .claude/skills/abp-api-implementation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abp-api-implementation/SKILL.md"

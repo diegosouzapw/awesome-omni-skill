@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "19ad3db000d3399bf6800c846bd59356a16be61640cdd38dcb92bcd20d24d077",
   "indexed_at": "2026-02-26T17:45:41.349Z",
-  "synced_at": "2026-02-27T02:26:12.339Z",
+  "synced_at": "2026-02-28T03:51:44.778Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b27416a68fa51feb650e9f87d032ea64ae4316d29dcb15915e0cf9b1567bc529",
   "install_command": "mkdir -p .claude/skills/webapp-testing && curl -sL \"https://raw.githubusercontent.com/rafaelramosdf/antigravity-agents/main/templates/agent-template-en/skills/webapp-testing/SKILL.md\" > .claude/skills/webapp-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rafaelramosdf/antigravity-agents/main/templates/agent-template-en/skills/webapp-testing/SKILL.md"

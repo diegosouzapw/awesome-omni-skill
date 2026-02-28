@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8fa88f1d4f1bb4ca3ae15124d2226a2463cc5adb2ac8dd4ef8f632de186c3af0",
   "indexed_at": "2026-02-24T23:20:41.345Z",
-  "synced_at": "2026-02-27T02:25:45.500Z",
+  "synced_at": "2026-02-28T03:51:19.751Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a7e8ea46bab198e17bbdc29f8f8e2cefe2a95da367a121867de737ba7f181187",
   "install_command": "mkdir -p .claude/skills/abaqus-coupled-analysis && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abaqus-coupled-analysis/SKILL.md\" > .claude/skills/abaqus-coupled-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abaqus-coupled-analysis/SKILL.md"

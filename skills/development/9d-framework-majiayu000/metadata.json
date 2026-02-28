@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9af86f20ab99d5f80bc55157283f11bd5a19858aa3ffe553db9e9dfe0ef9fbe6",
   "indexed_at": "2026-02-24T23:19:40.480Z",
-  "synced_at": "2026-02-27T02:26:05.928Z",
+  "synced_at": "2026-02-28T03:51:38.612Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0c7bd7d583abc49a7730d06a56786467425161587df33b9dc7411a4e224ee2d0",
   "install_command": "mkdir -p .claude/skills/9d-framework && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/9d-framework/SKILL.md\" > .claude/skills/9d-framework/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/9d-framework/SKILL.md"

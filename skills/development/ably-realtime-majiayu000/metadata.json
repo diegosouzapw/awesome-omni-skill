@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6807f3c82d6836157fb89746366df16286458155b3f034070f6f91837c5e7788",
   "indexed_at": "2026-02-24T23:21:19.379Z",
-  "synced_at": "2026-02-27T02:25:48.334Z",
+  "synced_at": "2026-02-28T03:51:22.451Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f43b828e90fb1d3b450cd91f8465b10dcee6fe9fb8ec442ae6a6658add1fc329",
   "install_command": "mkdir -p .claude/skills/ably-realtime && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ably-realtime/SKILL.md\" > .claude/skills/ably-realtime/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/ably-realtime/SKILL.md"

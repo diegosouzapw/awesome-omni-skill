@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3139a7a8a1a3ba6e9f8e1dd8ad7409b3a523fab2f9afef663d253964a82bd8b7",
   "indexed_at": "2026-02-25T15:12:31.511Z",
-  "synced_at": "2026-02-27T02:26:24.360Z",
+  "synced_at": "2026-02-28T03:51:54.077Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6a5927ab9f71b80b757b76a53e36221808c570b9062dba3254e12fd02de4fd8d",
   "install_command": "mkdir -p .claude/skills/rancher-cluster-management && curl -sL \"https://raw.githubusercontent.com/futuretea/rancher-assistant/main/skills/cluster-management/SKILL.md\" > .claude/skills/rancher-cluster-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/futuretea/rancher-assistant/main/skills/cluster-management/SKILL.md"

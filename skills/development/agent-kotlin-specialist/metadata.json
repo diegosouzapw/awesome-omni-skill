@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9c7bc73f8becfca86319dff8a27f52639d058b82861b6eae0d8b30801f195c14",
   "indexed_at": "2026-02-27T03:52:28.985Z",
-  "synced_at": "2026-02-27T13:12:58.191Z",
+  "synced_at": "2026-02-28T03:50:57.868Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/84ef9c7b7100d492f6cb5bda0847b7bca3032e01dba7adafc6eafc7736c11093",
   "install_command": "mkdir -p .claude/skills/agent-kotlin-specialist && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-kotlin-specialist/SKILL.md\" > .claude/skills/agent-kotlin-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-kotlin-specialist/SKILL.md"

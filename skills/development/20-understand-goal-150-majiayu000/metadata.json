@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "29224807792b0e72c1bf2eaa695a54ec4d8e3bfcf1b9f3a3df06111d86d716c5",
   "indexed_at": "2026-02-24T23:08:47.434Z",
-  "synced_at": "2026-02-27T02:25:36.979Z",
+  "synced_at": "2026-02-28T03:51:11.219Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/56be639ca33ea35b115d871e46952a07f215dd4aa5633d569575038148fa105c",
   "install_command": "mkdir -p .claude/skills/20-understand-goal-150 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/20-understand-goal-150/SKILL.md\" > .claude/skills/20-understand-goal-150/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/20-understand-goal-150/SKILL.md"

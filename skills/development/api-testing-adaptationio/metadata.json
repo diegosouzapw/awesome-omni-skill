@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e154956dc429b0ca0bd685f2ab0c0073786bb4851aa3f8b4f251914e13e03820",
   "indexed_at": "2026-02-26T07:50:06.974Z",
-  "synced_at": "2026-02-27T02:26:53.918Z",
+  "synced_at": "2026-02-28T03:52:18.389Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/933fbab0e5fa09b53ba0d6810a5e81fb1effed2d5fec78f142f11f8a8ec1df1f",
   "install_command": "mkdir -p .claude/skills/api-testing && curl -sL \"https://raw.githubusercontent.com/adaptationio/Skrillz/main/skills/api-testing/SKILL.md\" > .claude/skills/api-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/adaptationio/Skrillz/main/skills/api-testing/SKILL.md"

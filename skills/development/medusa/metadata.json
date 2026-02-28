@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1ad28fe7dedcb7bfb804e69cb5a86ccf46b09f0a4d2eda1b660eee239d9d9ece",
   "indexed_at": "2026-02-26T22:38:28.586Z",
-  "synced_at": "2026-02-27T02:26:13.408Z",
+  "synced_at": "2026-02-28T03:51:45.835Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/72c96d5facedc536897268c6ae31cba69b53394db84fb426a62d4e33c225353d",
   "install_command": "mkdir -p .claude/skills/medusa && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/medusa/SKILL.md\" > .claude/skills/medusa/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/medusa/SKILL.md"

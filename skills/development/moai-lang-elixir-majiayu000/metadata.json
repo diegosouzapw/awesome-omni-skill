@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "43ec97faf6d3f887377b8cb986cbe3e54b1b1da8e271ed493f048f9f1193ed64",
   "indexed_at": "2026-02-26T05:53:15.580Z",
-  "synced_at": "2026-02-27T02:26:39.885Z",
+  "synced_at": "2026-02-28T03:52:06.808Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f25be00850901432f7932cdaf484fcbed39bf076897cf347663c129a3aaf7275",
   "install_command": "mkdir -p .claude/skills/moai-lang-elixir && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/moai-lang-elixir/SKILL.md\" > .claude/skills/moai-lang-elixir/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/moai-lang-elixir/SKILL.md"

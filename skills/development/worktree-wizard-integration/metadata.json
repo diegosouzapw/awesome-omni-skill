@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "79c7f418be54055478b6a8302a2c55eed9a6cd1a66c1cef8786cdff9df02e5c0",
   "indexed_at": "2026-02-26T05:50:19.020Z",
-  "synced_at": "2026-02-27T02:26:36.799Z",
+  "synced_at": "2026-02-28T03:52:05.094Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/753131148b5400a2cbc3303faeebe0e5d1cb1eb6454cc17330f127615c9cae1b",
   "install_command": "mkdir -p .claude/skills/worktree-wizard-integration && curl -sL \"https://raw.githubusercontent.com/asabedia/worktree-wizard/main/plugin/skills/worktree-wizard-integration/SKILL.md\" > .claude/skills/worktree-wizard-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/asabedia/worktree-wizard/main/plugin/skills/worktree-wizard-integration/SKILL.md"

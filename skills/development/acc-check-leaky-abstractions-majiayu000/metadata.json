@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ac10d105ed89438f8d07a0802acae30be05b1848e19e6f11fb8ab6a51f58c3bd",
   "indexed_at": "2026-02-24T23:22:41.162Z",
-  "synced_at": "2026-02-27T02:25:52.652Z",
+  "synced_at": "2026-02-28T03:51:26.757Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0bb3ef9d6fdf7cfb4ce6869e239e51985714aa77515e575d56c89efa9f510487",
   "install_command": "mkdir -p .claude/skills/acc-check-leaky-abstractions && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-check-leaky-abstractions/SKILL.md\" > .claude/skills/acc-check-leaky-abstractions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-check-leaky-abstractions/SKILL.md"

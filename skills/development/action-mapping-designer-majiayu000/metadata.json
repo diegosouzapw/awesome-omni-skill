@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ab62087a13056aaf86131c3c5a99dd2e985f8d4af9a61ee8afab900512d5299e",
   "indexed_at": "2026-02-26T05:11:30.094Z",
-  "synced_at": "2026-02-27T02:26:01.008Z",
+  "synced_at": "2026-02-28T03:51:34.751Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/db150a53be153ac038b574614da787a26293ac93109543d9ae46b7a5dee375e8",
   "install_command": "mkdir -p .claude/skills/action-mapping-designer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/action-mapping-designer/SKILL.md\" > .claude/skills/action-mapping-designer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/action-mapping-designer/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1b0b59cf1d538ca989d92343f5cbb41bc90e504d76145d744d227e6eee736199",
   "indexed_at": "2026-02-24T23:11:15.791Z",
-  "synced_at": "2026-02-27T02:26:03.562Z",
+  "synced_at": "2026-02-28T03:51:36.960Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bbe80dc3000c767a95d7228cb702f2b9c5dd8fad72f42979ea062f60e0745173",
   "install_command": "mkdir -p .claude/skills/test-and-refine-your-kubernetes-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/50-kubernetes-for-ai-services/SKILL.md\" > .claude/skills/test-and-refine-your-kubernetes-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/50-kubernetes-for-ai-services/SKILL.md"

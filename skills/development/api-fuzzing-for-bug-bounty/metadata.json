@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "00988ce0502d3735327d5dcbbf71dc8a6c7d7309178100c4a86e6b05aeb66bba",
   "indexed_at": "2026-02-26T07:45:41.637Z",
-  "synced_at": "2026-02-27T02:26:50.589Z",
+  "synced_at": "2026-02-28T03:52:15.679Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/37e6a440774d9badba0d731772e0996f3b5a54ffebf2387be0eb7e923257a97d",
   "install_command": "mkdir -p .claude/skills/api-fuzzing-for-bug-bounty && curl -sL \"https://raw.githubusercontent.com/zebbern/SecOps-CLI-Guides/main/skills/api-fuzzing-bug-bounty/SKILL.md\" > .claude/skills/api-fuzzing-for-bug-bounty/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zebbern/SecOps-CLI-Guides/main/skills/api-fuzzing-bug-bounty/SKILL.md"

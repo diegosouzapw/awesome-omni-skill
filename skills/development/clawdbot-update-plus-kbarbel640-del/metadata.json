@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "49867c7a7e43c28deacf0e247c064831ac9b666316a1463857cb8f08406972f8",
   "indexed_at": "2026-02-26T05:40:48.811Z",
-  "synced_at": "2026-02-27T02:26:32.059Z",
+  "synced_at": "2026-02-28T03:52:01.382Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/07b3a217b813669a96de0cbb3deecd0b4ff28a95364260002bcd55b7ad1b946c",
   "install_command": "mkdir -p .claude/skills/clawdbot-update-plus && curl -sL \"https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/hopyky/clawdbot-update-plus/SKILL.md\" > .claude/skills/clawdbot-update-plus/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/hopyky/clawdbot-update-plus/SKILL.md"

@@ -3,8 +3,8 @@
   "description": "Use when designing database schemas, implementing repository patterns, writing optimized queries, managing migrations, or working with indexes and transactions for SQL/NoSQL databases.",
   "category": "development",
   "canonical_category": "development",
-  "repository": "MadAppGang/magus",
-  "repository_url": "https://github.com/MadAppGang/magus",
+  "repository": "MadAppGang/claude-code",
+  "repository_url": "https://github.com/MadAppGang/claude-code",
   "author": "MadAppGang",
   "author_avatar": "https://github.com/MadAppGang.png",
   "file_path": "plugins/dev/skills/backend/database-patterns/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "08fa90cc86101653be76e94a645a44a6f5a3fd615ee6690e9b9d7a8e04d09651",
-  "indexed_at": "2026-02-27T08:47:57.277Z",
-  "synced_at": "2026-02-27T13:13:06.412Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ea2f81f1caa1e40861912bc0c3effcb36fa1db60196eb81ac575d19e7f88af69",
-  "install_command": "mkdir -p .claude/skills/database-patterns && curl -sL \"https://raw.githubusercontent.com/MadAppGang/magus/main/plugins/dev/skills/backend/database-patterns/SKILL.md\" > .claude/skills/database-patterns/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/MadAppGang/magus/main/plugins/dev/skills/backend/database-patterns/SKILL.md"
+  "content_hash": "b9d912ac36d6f78526ae4437df8c20f5743e400b21ddd1e9f9138a2b4564f1fe",
+  "indexed_at": "2026-02-26T08:45:34.629Z",
+  "synced_at": "2026-02-28T03:52:20.862Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/150c62fd4f959c0bbedc892bae787d060448b15bd8e88917224de718634456d0",
+  "install_command": "mkdir -p .claude/skills/database-patterns && curl -sL \"https://raw.githubusercontent.com/MadAppGang/claude-code/main/plugins/dev/skills/backend/database-patterns/SKILL.md\" > .claude/skills/database-patterns/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/MadAppGang/claude-code/main/plugins/dev/skills/backend/database-patterns/SKILL.md"
 }

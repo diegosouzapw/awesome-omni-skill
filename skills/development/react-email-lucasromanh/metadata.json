@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "94a327fdd4b16a46676755e6656875f5bfaee5f1e602e21bdad1674bfb7593ae",
   "indexed_at": "2026-02-26T00:09:05.294Z",
-  "synced_at": "2026-02-27T02:26:31.022Z",
+  "synced_at": "2026-02-28T03:52:00.045Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/01fc06a76a3247a3ba3a29085d61479ff922f5df0903f2b9ae5939d8577c9655",
   "install_command": "mkdir -p .claude/skills/react-email && curl -sL \"https://raw.githubusercontent.com/lucasromanh/Voces-Cafayate/main/.agents/skills/react-email/SKILL.md\" > .claude/skills/react-email/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lucasromanh/Voces-Cafayate/main/.agents/skills/react-email/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "df5087a0f28e102094a175a2edc2c12a1d50799a606ddac17bd46e4a7bd9b2ee",
   "indexed_at": "2026-02-27T03:56:05.557Z",
-  "synced_at": "2026-02-27T13:12:58.780Z",
+  "synced_at": "2026-02-28T03:50:58.837Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/152a94f32c32d4adb5c528c1d543f10f86d2b92d943e76582b27da2e7c34eea3",
   "install_command": "mkdir -p .claude/skills/agent-platform-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-platform-engineer/SKILL.md\" > .claude/skills/agent-platform-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-platform-engineer/SKILL.md"

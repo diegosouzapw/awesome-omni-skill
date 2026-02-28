@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bb0b162fde2ccadf12c4bf699b08e2d3e3a548e1123fd15c69c87a69a1aa63d4",
   "indexed_at": "2026-02-26T05:51:54.615Z",
-  "synced_at": "2026-02-27T02:26:38.820Z",
+  "synced_at": "2026-02-28T03:52:06.316Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f018b584be5eda7a9677630cbc98e7dfa4e9e00127cfd793044f81ed9d118e66",
   "install_command": "mkdir -p .claude/skills/project-analyzer && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/oimiragieo/agent-studio/project-analyzer/SKILL.md\" > .claude/skills/project-analyzer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/oimiragieo/agent-studio/project-analyzer/SKILL.md"

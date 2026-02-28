@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4d16db09844aed0e502202bb70e92ddab07072d26d1673c54848dd14f1e1ae0d",
   "indexed_at": "2026-02-24T23:22:30.533Z",
-  "synced_at": "2026-02-27T02:25:51.633Z",
+  "synced_at": "2026-02-28T03:51:25.801Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/851bc67faa1095c5659e68f575ec8c7d26a1b3773a306ceda5cc3fc5211a50cc",
   "install_command": "mkdir -p .claude/skills/acc-analyze-solid-violations && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-analyze-solid-violations/SKILL.md\" > .claude/skills/acc-analyze-solid-violations/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/acc-analyze-solid-violations/SKILL.md"

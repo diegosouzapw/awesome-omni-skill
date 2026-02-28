@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4ec9d6c664e7f6f4f79046591b0ebc7383684faec28fffe08888833caf37c0d3",
   "indexed_at": "2026-02-26T01:54:24.238Z",
-  "synced_at": "2026-02-27T02:26:31.159Z",
+  "synced_at": "2026-02-28T03:52:00.192Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1bb26169551f5e54c800937614d31ebd1b2f5c421da9da109ce411d09ae19d0a",
   "install_command": "mkdir -p .claude/skills/js-ts-best-practices && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/js-ts-best-practices/SKILL.md\" > .claude/skills/js-ts-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/js-ts-best-practices/SKILL.md"

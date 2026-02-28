@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "11df69fe44ae604d7dcbe3e2ad58d8d19e7ad6f7f25200f54ca990bf8cadcee8",
   "indexed_at": "2026-02-27T03:56:03.816Z",
-  "synced_at": "2026-02-27T13:12:58.677Z",
+  "synced_at": "2026-02-28T03:50:58.642Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ba19c6009d633375605c6a60b3fa6033d42df270149fe87bc382e5bdcda12f90",
   "install_command": "mkdir -p .claude/skills/agent-php-pro && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-php-pro/SKILL.md\" > .claude/skills/agent-php-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-php-pro/SKILL.md"

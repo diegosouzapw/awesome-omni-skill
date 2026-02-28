@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b3d0f9af6b8ebbc2bcebe8713bb04922a1aac3302739887960bf38980c553327",
   "indexed_at": "2026-02-25T19:42:17.626Z",
-  "synced_at": "2026-02-27T02:26:29.500Z",
+  "synced_at": "2026-02-28T03:51:58.603Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/09dd32b4a42058f1d65fe11fe201621a912ad6378d9b3404730543516d564841",
   "install_command": "mkdir -p .claude/skills/bankr-x402-sdk-job-management && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/sdk-job-management/SKILL.md\" > .claude/skills/bankr-x402-sdk-job-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/sdk-job-management/SKILL.md"

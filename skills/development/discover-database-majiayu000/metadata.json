@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d081e0fa57f34c178c8ce994060a64c3ee004f597daebeb94f9f18500a25594e",
   "indexed_at": "2026-02-26T08:47:46.418Z",
-  "synced_at": "2026-02-27T02:26:58.716Z",
+  "synced_at": "2026-02-28T03:52:22.593Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/72ee31d7a1a15ed6c7117f4a089758261430619ad3f0358fa552f6e701751b1d",
   "install_command": "mkdir -p .claude/skills/discover-database && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/discover-database-rand-cc-polymath-2/SKILL.md\" > .claude/skills/discover-database/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/discover-database-rand-cc-polymath-2/SKILL.md"

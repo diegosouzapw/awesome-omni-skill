@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bd31923bb1cbb786f3be02830a4c862460a1e014fac412d956a97c21dc88ee97",
   "indexed_at": "2026-02-27T03:52:33.373Z",
-  "synced_at": "2026-02-27T13:12:58.328Z",
+  "synced_at": "2026-02-28T03:50:58.061Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0294b38879e2d91609a3eb134298ff66841aed887d91dbbe0a6e08feba440f7a",
   "install_command": "mkdir -p .claude/skills/agent-laravel-specialist && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-laravel-specialist/SKILL.md\" > .claude/skills/agent-laravel-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-laravel-specialist/SKILL.md"

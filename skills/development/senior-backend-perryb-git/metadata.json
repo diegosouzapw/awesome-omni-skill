@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1d4907dd3bf0fdd13af1ddcd1f6ff285597ab63cac9476d7a49a052c1aeaabb7",
   "indexed_at": "2026-02-26T05:54:48.003Z",
-  "synced_at": "2026-02-27T02:26:41.040Z",
+  "synced_at": "2026-02-28T03:52:07.559Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d731b1a53688361dcbc48bf5fa1fe5f643eb979284ff0e96ed0426f5d1120112",
   "install_command": "mkdir -p .claude/skills/senior-backend && curl -sL \"https://raw.githubusercontent.com/PerryB-GIT/wascar-perry-workspace/main/claude-skills-package/skills/web-dev/senior-backend/SKILL.md\" > .claude/skills/senior-backend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/PerryB-GIT/wascar-perry-workspace/main/claude-skills-package/skills/web-dev/senior-backend/SKILL.md"

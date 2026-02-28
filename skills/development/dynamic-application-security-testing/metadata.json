@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a844ccdb48d34ba098d3f536f5e0b74afba6b80c3bf47092c2f6a25fe0dbeb60",
   "indexed_at": "2026-02-26T07:55:41.211Z",
-  "synced_at": "2026-02-27T02:26:55.467Z",
+  "synced_at": "2026-02-28T03:52:19.848Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c0638570226e8e5dfd1695017f6e0cc0201f9ef20d9727e64e76aea2666a7bb9",
   "install_command": "mkdir -p .claude/skills/dynamic-application-security-testing && curl -sL \"https://raw.githubusercontent.com/seb1n/awesome-ai-agent-skills/main/security/dynamic-application-security-testing/SKILL.md\" > .claude/skills/dynamic-application-security-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/seb1n/awesome-ai-agent-skills/main/security/dynamic-application-security-testing/SKILL.md"

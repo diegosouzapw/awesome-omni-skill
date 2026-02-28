@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "64304863ee7a351a1c7cb5d6aa409ac082f1bf5172270c6e4a5de45c78b568de",
   "indexed_at": "2026-02-24T23:06:37.346Z",
-  "synced_at": "2026-02-27T02:26:03.168Z",
+  "synced_at": "2026-02-28T03:51:36.581Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bc079d57295eda45e0bb65260427104dac3ab2857548abc79e2c297b20c9ec8f",
   "install_command": "mkdir -p .claude/skills/meta-dispatcher-task-orchestrator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/00-meta-dispatcher/SKILL.md\" > .claude/skills/meta-dispatcher-task-orchestrator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/00-meta-dispatcher/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a87c22d6cd729687b62ecfd6ccf1eebefd85ed3b0ca0328b962ad4b151c547f7",
   "indexed_at": "2026-02-25T13:09:33.573Z",
-  "synced_at": "2026-02-27T02:26:17.377Z",
+  "synced_at": "2026-02-28T03:51:49.161Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/23c2f5e094ead1ec2c78dc0d068f8631dd25c58fb481bd211d5268590953fa38",
   "install_command": "mkdir -p .claude/skills/animation-best-practices && curl -sL \"https://raw.githubusercontent.com/sushichan044/dotfiles/main/.agents/skills/animation-best-practices/SKILL.md\" > .claude/skills/animation-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sushichan044/dotfiles/main/.agents/skills/animation-best-practices/SKILL.md"

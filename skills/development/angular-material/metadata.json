@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "81fafe95259116ecd512d7d0b7058982d77fb76d983178633a881093deae7be6",
   "indexed_at": "2026-02-25T17:38:22.389Z",
-  "synced_at": "2026-02-27T02:26:27.659Z",
+  "synced_at": "2026-02-28T03:51:56.926Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5dff3e2ddda49902c0768f6204f8d7175094fd433c4d7e1b6597a3317c0e24c3",
   "install_command": "mkdir -p .claude/skills/angular-material && curl -sL \"https://raw.githubusercontent.com/oguzhan18/angular-ecosystem-skills/main/skills/angular-material/SKILL.md\" > .claude/skills/angular-material/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oguzhan18/angular-ecosystem-skills/main/skills/angular-material/SKILL.md"

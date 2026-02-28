@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cae67872de25f928cb40ebca9d9898853ab2209f168bb25bde3dbaf9bc01f6ef",
   "indexed_at": "2026-02-26T06:51:21.109Z",
-  "synced_at": "2026-02-27T02:26:46.931Z",
+  "synced_at": "2026-02-28T03:52:12.604Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7631120fbc65e95030ba2d6370bfe36384886b5616bd834b66230841bed782df",
   "install_command": "mkdir -p .claude/skills/frontend-design-vue && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/frontend-design-vue/SKILL.md\" > .claude/skills/frontend-design-vue/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/frontend-design-vue/SKILL.md"

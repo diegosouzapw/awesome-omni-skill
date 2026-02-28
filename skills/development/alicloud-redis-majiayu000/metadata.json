@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7796be405244d4ac57fd894162bc23274b4dd1bdd49503ca19a41110703e0018",
   "indexed_at": "2026-02-26T09:50:17.237Z",
-  "synced_at": "2026-02-27T02:27:05.740Z",
+  "synced_at": "2026-02-28T03:52:28.932Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6fc49d08f5c635e2f47dfa9e64999a3ae0f2ef62a1776b2f55888a63b0a20f29",
   "install_command": "mkdir -p .claude/skills/alicloud-redis && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/alicloud-redis/SKILL.md\" > .claude/skills/alicloud-redis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/alicloud-redis/SKILL.md"

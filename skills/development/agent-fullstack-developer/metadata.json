@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6b0ee3ea02c6715fccf95722bf9da9d7abc5efdd501ee273d3b5905916a0f818",
   "indexed_at": "2026-02-27T03:51:39.193Z",
-  "synced_at": "2026-02-27T13:12:57.729Z",
+  "synced_at": "2026-02-28T03:50:57.104Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e01a7f6db68166c62e6af0280c730462003b66141cc9bbdc7c994e305a37b5cf",
   "install_command": "mkdir -p .claude/skills/agent-fullstack-developer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-fullstack-developer/SKILL.md\" > .claude/skills/agent-fullstack-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-fullstack-developer/SKILL.md"

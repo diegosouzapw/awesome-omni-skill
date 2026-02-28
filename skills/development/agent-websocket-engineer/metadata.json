@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9b25134fc40bcbf2d0aadd59ff801f77ef8e2abd3431f573604cc37a6360a774",
   "indexed_at": "2026-02-27T04:57:24.755Z",
-  "synced_at": "2026-02-27T13:12:59.666Z",
+  "synced_at": "2026-02-28T03:51:00.161Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bbcc029a80fdd85cddfb6e9f8bcced7cc535faaa1a3a6ac792fbd879e0166908",
   "install_command": "mkdir -p .claude/skills/agent-websocket-engineer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-websocket-engineer/SKILL.md\" > .claude/skills/agent-websocket-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-websocket-engineer/SKILL.md"

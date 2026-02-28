@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cb6cee3f4f06a455c74c97721a340a41b9632bb5eb89c3903d0470d0c326b16d",
   "indexed_at": "2026-02-25T15:11:47.542Z",
-  "synced_at": "2026-02-27T02:26:23.850Z",
+  "synced_at": "2026-02-28T03:51:53.746Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0eecff25a4b3fc41be789233ab87d815d4779d7a97f20e38ab53f27a9f5eff7a",
   "install_command": "mkdir -p .claude/skills/runwayml && curl -sL \"https://raw.githubusercontent.com/runwayml/skills/main/api/SKILL.md\" > .claude/skills/runwayml/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/runwayml/skills/main/api/SKILL.md"

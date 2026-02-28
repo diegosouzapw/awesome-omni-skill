@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "65e0e2b330f378ccfc0f859d75160a15a545d48e936bb721a7525ff07c1a296c",
   "indexed_at": "2026-02-24T23:20:11.597Z",
-  "synced_at": "2026-02-27T02:25:44.498Z",
+  "synced_at": "2026-02-28T03:51:18.795Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eada2b3d277cc77b68f9227815338d69e1c9ba3ba854af28690d47a4ce321ee4",
   "install_command": "mkdir -p .claude/skills/a2ui && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/a2ui/SKILL.md\" > .claude/skills/a2ui/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/a2ui/SKILL.md"

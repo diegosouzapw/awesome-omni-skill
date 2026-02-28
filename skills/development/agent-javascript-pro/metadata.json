@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2efa5d79a0a866f64b094b890dc85d30f255df9f2b828003fa821fac76a639f5",
   "indexed_at": "2026-02-27T03:52:25.413Z",
-  "synced_at": "2026-02-27T13:12:58.063Z",
+  "synced_at": "2026-02-28T03:50:57.682Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6665308973c0feabcf0ee00e576ba9b66749a6b081d1f1822719322470be7893",
   "install_command": "mkdir -p .claude/skills/agent-javascript-pro && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-javascript-pro/SKILL.md\" > .claude/skills/agent-javascript-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/agent-javascript-pro/SKILL.md"

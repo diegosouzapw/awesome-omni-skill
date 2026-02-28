@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "516b096442d3b8a6cec6baca5b99a83bfde310180e5e5c98315f3cc55227c18f",
   "indexed_at": "2026-02-26T05:54:14.772Z",
-  "synced_at": "2026-02-27T02:26:40.136Z",
+  "synced_at": "2026-02-28T03:52:06.994Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4589d1ee9ceee8b4d7ffbccd26e95b8fb2a0a8b41e8cf4ec9820ebb2ad385d1f",
   "install_command": "mkdir -p .claude/skills/moai-lang-php && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/moai-lang-php/SKILL.md\" > .claude/skills/moai-lang-php/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/moai-lang-php/SKILL.md"

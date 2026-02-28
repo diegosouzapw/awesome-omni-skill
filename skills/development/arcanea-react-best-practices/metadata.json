@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "872f8b0c0f42e2ec0d31a6a854408579b7e436c00b9193f578992093aa6aa0c9",
   "indexed_at": "2026-02-25T13:10:12.421Z",
-  "synced_at": "2026-02-27T02:26:17.532Z",
+  "synced_at": "2026-02-28T03:51:49.338Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eb65a257c6abc7b22fd1eacfbc45ffeb1e5b58005cb4b00bd33839b5a36e9f69",
   "install_command": "mkdir -p .claude/skills/arcanea-react-best-practices && curl -sL \"https://raw.githubusercontent.com/frankxai/arcanea/main/.claude/skills/development/react-best-practices/SKILL.md\" > .claude/skills/arcanea-react-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/frankxai/arcanea/main/.claude/skills/development/react-best-practices/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ce452297223c1a6bcbfcfda1fd31997558b63e49f7de166e7770b1afa04ebe8f",
   "indexed_at": "2026-02-24T23:22:07.164Z",
-  "synced_at": "2026-02-27T02:25:29.268Z",
+  "synced_at": "2026-02-28T03:51:04.004Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e264f37f119eba773911d9c7c0056106abcde3e483a0ff16b9859c1fe77bea99",
   "install_command": "mkdir -p .claude/skills/academic-bluebook && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/academic-bluebook/SKILL.md\" > .claude/skills/academic-bluebook/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/academic-bluebook/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ea943328b5752940ccf044bbee7c8b0998c35ed36f900b3c8eca9868bdf68944",
   "indexed_at": "2026-02-24T23:10:13.914Z",
-  "synced_at": "2026-02-27T02:25:29.072Z",
+  "synced_at": "2026-02-28T03:51:03.804Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b701ddebdc9920b02440e372039058359b46787a40198df9452cd840736b8bd8",
   "install_command": "mkdir -p .claude/skills/3d-graphics && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/3d-graphics/SKILL.md\" > .claude/skills/3d-graphics/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/3d-graphics/SKILL.md"

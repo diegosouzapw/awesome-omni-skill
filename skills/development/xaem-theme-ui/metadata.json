@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4d68062adee61994c05d1401492dffe37eb2e277e2e65ff6147948fb99cd1437",
   "indexed_at": "2026-02-26T06:54:51.492Z",
-  "synced_at": "2026-02-27T02:26:48.953Z",
+  "synced_at": "2026-02-28T03:52:14.212Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/68bf10efd0a6114558ad8debcdc6196c1891e5226f801b284ddd520ce8a5594e",
   "install_command": "mkdir -p .claude/skills/xaem-theme-ui && curl -sL \"https://raw.githubusercontent.com/CleanExpo/NodeJS-Starter-V1/main/.skills/custom/xaem-theme-ui/SKILL.md\" > .claude/skills/xaem-theme-ui/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/CleanExpo/NodeJS-Starter-V1/main/.skills/custom/xaem-theme-ui/SKILL.md"

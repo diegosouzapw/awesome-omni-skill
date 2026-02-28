@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a21b8048fe6bede8e3778a27dbc28c11876bccf832ee73d573c3aabd5873945b",
   "indexed_at": "2026-02-26T07:49:32.809Z",
-  "synced_at": "2026-02-27T02:26:53.205Z",
+  "synced_at": "2026-02-28T03:52:18.078Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/35ece8fcf611522b4a3e93d9b9dd84337abd937091fb6a93937936d314f49c41",
   "install_command": "mkdir -p .claude/skills/api-fuzzing-for-bug-bounty && curl -sL \"https://raw.githubusercontent.com/whodaniel/fuse/main/.agent/skill-bank/snapshots/project-agent/api-fuzzing-for-bug-bounty-6e252cef/SKILL.md\" > .claude/skills/api-fuzzing-for-bug-bounty/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/whodaniel/fuse/main/.agent/skill-bank/snapshots/project-agent/api-fuzzing-for-bug-bounty-6e252cef/SKILL.md"

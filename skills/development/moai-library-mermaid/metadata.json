@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "937515112b0150b59ff36e954ee58c83886e641d1160a1d66ee639463be1da44",
   "indexed_at": "2026-02-26T05:45:44.746Z",
-  "synced_at": "2026-02-27T02:26:32.860Z",
+  "synced_at": "2026-02-28T03:52:02.244Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b72b06eed0ce248d6d9877d9760fccb0349dc309abd42b4728a0a8ab7db22c60",
   "install_command": "mkdir -p .claude/skills/moai-library-mermaid && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/modu-ai__moai-adk__claude__skills__moai-library-mermaid__SKILL.md/SKILL.md\" > .claude/skills/moai-library-mermaid/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/modu-ai__moai-adk__claude__skills__moai-library-mermaid__SKILL.md/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "35db6b396675aa9df6ce67f496d84485ee621245895a044715a100f2075991ee",
   "indexed_at": "2026-02-26T05:52:06.652Z",
-  "synced_at": "2026-02-27T02:26:39.004Z",
+  "synced_at": "2026-02-28T03:52:06.496Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/16975e1dcc622ec24227dd3dc20ea1b89c07e7bac72763beeca057f1d14aa6a1",
   "install_command": "mkdir -p .claude/skills/fullstack-guardian && curl -sL \"https://raw.githubusercontent.com/zebbern/kimmmmy-discount/main/.github/skills/fullstack-guardian/SKILL.md\" > .claude/skills/fullstack-guardian/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zebbern/kimmmmy-discount/main/.github/skills/fullstack-guardian/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6c701d7e32322ba279d39f3707c5d51c0092c6d6a0aea3992ca204fc708a71e9",
   "indexed_at": "2026-02-24T23:09:43.502Z",
-  "synced_at": "2026-02-27T02:26:03.360Z",
+  "synced_at": "2026-02-28T03:51:36.767Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/372c1872300541b3bd3f3e325703793248883557ca44fbcffef236a2816800d1",
   "install_command": "mkdir -p .claude/skills/hic-compartment-shift && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/32-hic-compartment-shift/SKILL.md\" > .claude/skills/hic-compartment-shift/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/32-hic-compartment-shift/SKILL.md"

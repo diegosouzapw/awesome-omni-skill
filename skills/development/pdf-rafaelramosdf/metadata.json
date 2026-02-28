@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "26a5db2537c6385667ae655dd7036d394b6d7429ab7307da09c7f85c8c5696b7",
   "indexed_at": "2026-02-26T17:45:30.753Z",
-  "synced_at": "2026-02-27T02:26:11.782Z",
+  "synced_at": "2026-02-28T03:51:44.137Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a83778bb7add8bc171eb7db0c9b9454cf40ed4f15e9106df4e99fc2376092166",
   "install_command": "mkdir -p .claude/skills/pdf && curl -sL \"https://raw.githubusercontent.com/rafaelramosdf/antigravity-agents/main/templates/agent-template-en/skills/pdf/SKILL.md\" > .claude/skills/pdf/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rafaelramosdf/antigravity-agents/main/templates/agent-template-en/skills/pdf/SKILL.md"

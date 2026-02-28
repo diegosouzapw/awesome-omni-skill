@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6d56855c10f430c0573a525ae359280727f191d3e05fd21b6c5fd9dbcdba863b",
   "indexed_at": "2026-02-24T23:21:26.607Z",
-  "synced_at": "2026-02-27T02:25:48.742Z",
+  "synced_at": "2026-02-28T03:51:22.839Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/71240cfbf03c3c41f3c9fbd3da8f7587e481db075b75090b829960fc62c44f39",
   "install_command": "mkdir -p .claude/skills/abp-contract-scaffolding && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abp-contract-scaffolding/SKILL.md\" > .claude/skills/abp-contract-scaffolding/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abp-contract-scaffolding/SKILL.md"

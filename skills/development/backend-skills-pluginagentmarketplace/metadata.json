@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a8939bf83acd5b585ffbe762580c432e136ba3e8fe2dd426580bc76d59341618",
   "indexed_at": "2026-02-26T08:52:55.653Z",
-  "synced_at": "2026-02-27T02:27:01.075Z",
+  "synced_at": "2026-02-28T03:52:25.003Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b5b8ecf7d9ae7004bd4edb1e25957fe49a51d540686b247883141fcb4408b2ad",
   "install_command": "mkdir -p .claude/skills/backend-skills && curl -sL \"https://raw.githubusercontent.com/pluginagentmarketplace/custom-plugin-nextjs/main/custom-plugin-nextjs/skills/backend/SKILL.md\" > .claude/skills/backend-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pluginagentmarketplace/custom-plugin-nextjs/main/custom-plugin-nextjs/skills/backend/SKILL.md"

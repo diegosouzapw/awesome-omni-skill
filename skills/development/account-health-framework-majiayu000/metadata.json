@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3c5bcd46b4c5f79c23e6cd51f04f77f854273669499870f0d1aa061c1971c0e8",
   "indexed_at": "2026-02-26T05:10:37.112Z",
-  "synced_at": "2026-02-27T02:26:09.070Z",
+  "synced_at": "2026-02-28T03:51:41.496Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/00e4163bebfb494be910896a4d5f06c8d73de5256d9097d140ff540e5f93be7b",
   "install_command": "mkdir -p .claude/skills/account-health-framework && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/account-health-framework/SKILL.md\" > .claude/skills/account-health-framework/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/account-health-framework/SKILL.md"

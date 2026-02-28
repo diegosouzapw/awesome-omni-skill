@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f0b0a665369e8e79c146f1ed237ff976286349aaa30f8d62b79ed16f5b447c27",
   "indexed_at": "2026-02-26T07:45:26.540Z",
-  "synced_at": "2026-02-27T02:26:50.246Z",
+  "synced_at": "2026-02-28T03:52:15.332Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8a7bdc826f42f48f94ff62a2e6118afb919e03b349fe32e9a98dcd595f8b40f3",
   "install_command": "mkdir -p .claude/skills/api-design-framework && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/yonatangross/orchestkit/api-design-framework/SKILL.md\" > .claude/skills/api-design-framework/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/yonatangross/orchestkit/api-design-framework/SKILL.md"

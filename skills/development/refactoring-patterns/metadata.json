@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "499bca735a8967a5cc82d7eddf29e516a565ca498b911515f2a20c0c729bbcc6",
   "indexed_at": "2026-02-25T21:42:31.702Z",
-  "synced_at": "2026-02-27T02:26:30.463Z",
+  "synced_at": "2026-02-28T03:51:59.518Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/428f6799640a767656cead807a3e0ec75c4a82a9b97e208d3e47f31367b86351",
   "install_command": "mkdir -p .claude/skills/refactoring-patterns && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/refactoring-patterns-codermariusz-monopilot/SKILL.md\" > .claude/skills/refactoring-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/refactoring-patterns-codermariusz-monopilot/SKILL.md"

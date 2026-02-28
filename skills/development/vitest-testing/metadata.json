@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d27dfb021295953c8a6d92334542dc1d231c8449b9856023d266ebd5f2b34d12",
   "indexed_at": "2026-02-25T21:40:58.886Z",
-  "synced_at": "2026-02-27T02:26:30.108Z",
+  "synced_at": "2026-02-28T03:51:59.172Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9f8c2f87284f615ca823d0893389bb298c8702b69417e74b3e1fe81370f98f31",
   "install_command": "mkdir -p .claude/skills/vitest-testing && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/vitest-testing/SKILL.md\" > .claude/skills/vitest-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/vitest-testing/SKILL.md"

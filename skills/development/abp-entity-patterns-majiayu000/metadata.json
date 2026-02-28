@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f67ea970d98d5a6c47f5addea38380cc86d226e95fa8baaf3178179c90422c80",
   "indexed_at": "2026-02-24T23:21:27.803Z",
-  "synced_at": "2026-02-27T02:25:48.934Z",
+  "synced_at": "2026-02-28T03:51:23.024Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d7dd6948d8abfcf1c547622b00578bb5bc07e310240a72cbdcafae725c122445",
   "install_command": "mkdir -p .claude/skills/abp-entity-patterns && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abp-entity-patterns/SKILL.md\" > .claude/skills/abp-entity-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/abp-entity-patterns/SKILL.md"
