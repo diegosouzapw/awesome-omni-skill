@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f704ce5438f6de645658b0f69fd3553e9da7108f864b7610659a7a73e0ae5670",
   "indexed_at": "2026-02-27T16:48:26.592Z",
-  "synced_at": "2026-02-27T18:16:47.393Z",
+  "synced_at": "2026-02-28T04:01:31.160Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2ec4e8738281bbbcba5ae0b03470431e9491ab916e2e719de1a082a60c15a6bd",
   "install_command": "mkdir -p .claude/skills/claude-agent-sdk && curl -sL \"https://raw.githubusercontent.com/jeongsk/obsidian-github-inbox-sync/main/.claude/skills/claude-agent-sdk/SKILL.md\" > .claude/skills/claude-agent-sdk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jeongsk/obsidian-github-inbox-sync/main/.claude/skills/claude-agent-sdk/SKILL.md"

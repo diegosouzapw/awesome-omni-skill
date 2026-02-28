@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9c4e746909c6aae93f5c41add8cdcc0907ded680a6fdfc5408671031a3010e0c",
   "indexed_at": "2026-02-27T16:05:32.117Z",
-  "synced_at": "2026-02-27T18:16:44.068Z",
+  "synced_at": "2026-02-28T04:01:26.142Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f55c5edfed2f7c3f16dda6157903ea4a321765fd291f3b7b30a4c03ce76cc1fc",
   "install_command": "mkdir -p .claude/skills/ai-apis && curl -sL \"https://raw.githubusercontent.com/russdarrow/spinex/main/mobile/.claude/skills/ai-apis-like-chatgpt/SKILL.md\" > .claude/skills/ai-apis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/russdarrow/spinex/main/mobile/.claude/skills/ai-apis-like-chatgpt/SKILL.md"

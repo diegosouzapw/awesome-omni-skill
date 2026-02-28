@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b30738738dce47d40996e36e4e8986f186c0b51fd8e3f15925466e9219b028bb",
   "indexed_at": "2026-02-27T08:52:51.573Z",
-  "synced_at": "2026-02-27T13:13:37.980Z",
+  "synced_at": "2026-02-28T04:00:44.579Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/106f7a8e1fbf9c0c87139d6d13e24350ff49c91ea8e3426d1198b975c6d9dca9",
   "install_command": "mkdir -p .claude/skills/api-design-principles && curl -sL \"https://raw.githubusercontent.com/jhonatan-cyber/nuwefarma-back/main/.agents/skills/api-design-principles/SKILL.md\" > .claude/skills/api-design-principles/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jhonatan-cyber/nuwefarma-back/main/.agents/skills/api-design-principles/SKILL.md"

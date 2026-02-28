@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "42f547ca8f5b803a0f1fb2cf9b381210c189610ea1333068dd6d3ffcffb6109d",
   "indexed_at": "2026-02-27T14:01:27.483Z",
-  "synced_at": "2026-02-27T18:16:35.814Z",
+  "synced_at": "2026-02-28T04:01:15.479Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/32959671743734ecc1f78e9ef5dd02ad9145e456a0877f89c09e8a89fd140eb5",
   "install_command": "mkdir -p .claude/skills/dictation-instructions && curl -sL \"https://raw.githubusercontent.com/github/gh-aw/main/skills/dictation/SKILL.md\" > .claude/skills/dictation-instructions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/github/gh-aw/main/skills/dictation/SKILL.md"

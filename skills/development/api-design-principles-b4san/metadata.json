@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "08a13ba08f5351595864ee9516830a1217bc068dafadff194369c209d525bb20",
   "indexed_at": "2026-02-27T07:46:34.599Z",
-  "synced_at": "2026-02-27T13:13:27.174Z",
+  "synced_at": "2026-02-28T04:00:27.058Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4cb22939151317e673e2edafc39f73939198811488c6f7960297c934db7a1ddb",
   "install_command": "mkdir -p .claude/skills/api-design-principles && curl -sL \"https://raw.githubusercontent.com/B4san/AC-framework/main/framework/.crush/skills/api-design-principles/SKILL.md\" > .claude/skills/api-design-principles/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/B4san/AC-framework/main/framework/.crush/skills/api-design-principles/SKILL.md"

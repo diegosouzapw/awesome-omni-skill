@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "38fb1a40272763616dcd3def0b941bfadb271cc45f9a62adb56b2a374da927bf",
   "indexed_at": "2026-02-27T15:05:22.032Z",
-  "synced_at": "2026-02-27T18:16:38.871Z",
+  "synced_at": "2026-02-28T04:01:19.412Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5779c647c1dedead49d0509cd56353d74c05a0b848d03fa4b2ad81399446ae60",
   "install_command": "mkdir -p .claude/skills/ore-miner && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/jusscubs/ore-miner/SKILL.md\" > .claude/skills/ore-miner/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jusscubs/ore-miner/SKILL.md"

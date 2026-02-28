@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a85c3457aad04a4a090f0d90d62c4c0d31aaec49a11aae5c7534fec08651ca3b",
   "indexed_at": "2026-02-27T17:38:49.504Z",
-  "synced_at": "2026-02-27T18:16:50.119Z",
+  "synced_at": "2026-02-28T04:01:35.522Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e846c65e4ff71f9c4192696c8f4c5cfe73ee0b956364a26070a700b1eaddacc2",
   "install_command": "mkdir -p .claude/skills/skill-creator && curl -sL \"https://raw.githubusercontent.com/YongjianWan/--agentskill/main/skill/skill-creator/SKILL.md\" > .claude/skills/skill-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YongjianWan/--agentskill/main/skill/skill-creator/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "61a7f5815a2d77c691066dc0a122b228b7204268d41bcd8f13981df55a49caf1",
   "indexed_at": "2026-02-27T15:52:15.794Z",
-  "synced_at": "2026-02-27T18:16:41.210Z",
+  "synced_at": "2026-02-28T04:01:22.488Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/afe7e957a8b1880cebc84916a4e93c60f6b57e249cbbb080c5f1ba947d374666",
   "install_command": "mkdir -p .claude/skills/performance && curl -sL \"https://raw.githubusercontent.com/mesca/claude-plugins/main/plugins/wf/skills/performance/SKILL.md\" > .claude/skills/performance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mesca/claude-plugins/main/plugins/wf/skills/performance/SKILL.md"

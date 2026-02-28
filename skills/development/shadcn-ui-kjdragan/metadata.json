@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ff750658a9211029fa47ad05434ae19cce5d3865b2ec40284d46d978abc655e9",
   "indexed_at": "2026-02-27T07:54:15.068Z",
-  "synced_at": "2026-02-27T13:13:31.515Z",
+  "synced_at": "2026-02-28T04:00:33.772Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3fe320cbd22d7bc2d701a4ce9c6d0918a4b8b3482803e09ed77827c3e39a92c2",
   "install_command": "mkdir -p .claude/skills/shadcn-ui && curl -sL \"https://raw.githubusercontent.com/Kjdragan/universal_agent/main/.claude/skills/stitch-skills/shadcn-ui/SKILL.md\" > .claude/skills/shadcn-ui/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Kjdragan/universal_agent/main/.claude/skills/stitch-skills/shadcn-ui/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ffd3218a4b397768ed1382a9a06b97445f31816b8cab2c4301b839b032c7dfee",
   "indexed_at": "2026-02-27T11:47:21.420Z",
-  "synced_at": "2026-02-27T13:13:50.253Z",
+  "synced_at": "2026-02-28T04:01:03.175Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/049a9586795cec80ae5c793d697e2711e7fd0f28031e07a3eb7169e262fb66b8",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/Pygmalione/visuana-ultima/main/.claude/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Pygmalione/visuana-ultima/main/.claude/skills/ui-ux-pro-max/SKILL.md"

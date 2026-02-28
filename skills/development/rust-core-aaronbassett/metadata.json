@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c9079c917c7159dd5ae75e68d32c29dc1c2e45d44ff3972fee92b4d891fe71d",
   "indexed_at": "2026-02-27T07:49:20.037Z",
-  "synced_at": "2026-02-27T13:13:29.789Z",
+  "synced_at": "2026-02-28T04:00:31.097Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0f4faace165ad99a2147b3d216aacaaacd190be355be4a6ed71240f11c37aaab",
   "install_command": "mkdir -p .claude/skills/rust-core && curl -sL \"https://raw.githubusercontent.com/aaronbassett/claude-bell/main/.claude/skills/rust-core/SKILL.md\" > .claude/skills/rust-core/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aaronbassett/claude-bell/main/.claude/skills/rust-core/SKILL.md"

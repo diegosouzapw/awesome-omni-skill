@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "600efb479ddc5634152ffa140c3832d7026b1ab69ef4ea810c4b67e4e013415f",
   "indexed_at": "2026-02-27T07:57:14.368Z",
-  "synced_at": "2026-02-27T13:13:31.795Z",
+  "synced_at": "2026-02-28T04:00:34.094Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5c2c7bdee60777d1959684e6c9752783271eae484c3e5d29df10dd2f118bf3b1",
   "install_command": "mkdir -p .claude/skills/backend-dev && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/julianromli/ai-skills/backend-dev/SKILL.md\" > .claude/skills/backend-dev/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/julianromli/ai-skills/backend-dev/SKILL.md"

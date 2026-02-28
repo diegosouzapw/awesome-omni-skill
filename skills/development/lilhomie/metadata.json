@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "430151d5fcc9a0fb2039442dcfb0f082a70ed2c7cf91b11ce7c402a9af2d6344",
   "indexed_at": "2026-02-27T08:21:35.549Z",
-  "synced_at": "2026-02-27T13:13:32.698Z",
+  "synced_at": "2026-02-28T04:00:35.323Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8ab36b03a9b0a8ae44c656fbf7c8f2f516b783f29381b8324a49d34fd5150cef",
   "install_command": "mkdir -p .claude/skills/lilhomie && curl -sL \"https://raw.githubusercontent.com/ghostmfr/lilhomie-skill/main/SKILL.md\" > .claude/skills/lilhomie/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ghostmfr/lilhomie-skill/main/SKILL.md"

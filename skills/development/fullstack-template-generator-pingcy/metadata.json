@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7eaa7e3ea465ae78d7e7ba7cddaf8efb50904dfaad5e1b3979233054e2c210f2",
   "indexed_at": "2026-02-27T16:05:17.084Z",
-  "synced_at": "2026-02-27T18:16:43.560Z",
+  "synced_at": "2026-02-28T04:01:25.445Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/155d45dc2e8001f032553f69365a63221a00be9f60c9608d77b5811457a8cc98",
   "install_command": "mkdir -p .claude/skills/fullstack-template-generator && curl -sL \"https://raw.githubusercontent.com/pingcy/deepagents-demo/main/agent/skills/fullstack-template-generator/SKILL.md\" > .claude/skills/fullstack-template-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pingcy/deepagents-demo/main/agent/skills/fullstack-template-generator/SKILL.md"

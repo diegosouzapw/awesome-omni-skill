@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "95cf57041d49eb0fd3591741b2c6a722b68c1c38d12531ea6702af236313d5a2",
   "indexed_at": "2026-02-27T10:53:21.898Z",
-  "synced_at": "2026-02-27T13:13:45.221Z",
+  "synced_at": "2026-02-28T04:00:57.003Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/98c215449f2366721a65ee9de63d09892513a494cf26ac27f0091a6ba468dcb3",
   "install_command": "mkdir -p .claude/skills/deepstack && curl -sL \"https://raw.githubusercontent.com/skinnyandbald/fish-skills/main/skills/deepstack/SKILL.md\" > .claude/skills/deepstack/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/skinnyandbald/fish-skills/main/skills/deepstack/SKILL.md"

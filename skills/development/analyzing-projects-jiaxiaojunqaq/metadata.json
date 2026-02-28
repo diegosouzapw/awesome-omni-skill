@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0627c7a1fd34aa7d2461ec50d901804b44fdc5ce6c3897397a76dd3da83aa9eb",
   "indexed_at": "2026-02-27T10:50:09.643Z",
-  "synced_at": "2026-02-27T13:13:43.905Z",
+  "synced_at": "2026-02-28T04:00:54.702Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5caa88c1be105c6c60edcf04ef7c797311751e3a3734d57a4b4314b029b6daf5",
   "install_command": "mkdir -p .claude/skills/analyzing-projects && curl -sL \"https://raw.githubusercontent.com/jiaxiaojunQAQ/SkillJect/main/data/skills_sample/analyzing-projects/SKILL.md\" > .claude/skills/analyzing-projects/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jiaxiaojunQAQ/SkillJect/main/data/skills_sample/analyzing-projects/SKILL.md"

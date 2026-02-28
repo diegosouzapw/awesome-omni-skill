@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6d52934ae2c47f7e4edc1ce21260fd448af1160330983769ca5d68d0a9c212d6",
   "indexed_at": "2026-02-27T09:51:51.993Z",
-  "synced_at": "2026-02-27T13:13:41.457Z",
+  "synced_at": "2026-02-28T04:00:50.283Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0bcf01302635a4285cd409e8107579f619674200ad7e5f0904d3c3ea4bce7a6a",
   "install_command": "mkdir -p .claude/skills/nodejs-backend-patterns && curl -sL \"https://raw.githubusercontent.com/pelan05/vscode_agents_folder/main/filtered-skills/nodejs-backend-patterns/SKILL.md\" > .claude/skills/nodejs-backend-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pelan05/vscode_agents_folder/main/filtered-skills/nodejs-backend-patterns/SKILL.md"

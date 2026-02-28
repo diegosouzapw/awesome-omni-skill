@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "259949b2eab521614e4a6c9edd9192cd5f0449c41efc10199834ae0ffdb93eee",
   "indexed_at": "2026-02-27T07:48:19.848Z",
-  "synced_at": "2026-02-27T13:13:29.374Z",
+  "synced_at": "2026-02-28T04:00:30.436Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/72e2ffb5e701bacc686cfd149ebf6264a71b3a5e7ac3e396076b7a4d646359e9",
   "install_command": "mkdir -p .claude/skills/tech-translator && curl -sL \"https://raw.githubusercontent.com/stallboy/claude-code-marketplace/main/plugins/tech-translator/skills/SKILL.md\" > .claude/skills/tech-translator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/stallboy/claude-code-marketplace/main/plugins/tech-translator/skills/SKILL.md"

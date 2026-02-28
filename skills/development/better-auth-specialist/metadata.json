@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9043352bdb02bd82364a30e4c300c5787427876f0fe8360acf5f575c3edbb7be",
   "indexed_at": "2026-02-27T08:51:10.763Z",
-  "synced_at": "2026-02-27T13:13:36.718Z",
+  "synced_at": "2026-02-28T04:00:42.338Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3ca9b07aeadc34ae3e753029099c2acdec3488e840efa0ace4a23543bbb78cb4",
   "install_command": "mkdir -p .claude/skills/better-auth-specialist && curl -sL \"https://raw.githubusercontent.com/AnasAhmed001/Q4-Hackathon-2/main/phase-3-todo-chatbot/.claude/skills/better-auth-specialist/SKILL.md\" > .claude/skills/better-auth-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AnasAhmed001/Q4-Hackathon-2/main/phase-3-todo-chatbot/.claude/skills/better-auth-specialist/SKILL.md"

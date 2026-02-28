@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bcfcef291e3dd38aa222432056eb27d3d5ef2fa7c01a0a8db3a7dfc9d3edffde",
   "indexed_at": "2026-02-27T11:47:29.448Z",
-  "synced_at": "2026-02-27T13:13:50.542Z",
+  "synced_at": "2026-02-28T04:01:03.958Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0c801ca7cdaffce47acf3ca410b41c0a2aa7cf13df79d7c38773b5ea093f9157",
   "install_command": "mkdir -p .claude/skills/vercel-deploy-claimable && curl -sL \"https://raw.githubusercontent.com/RohanYashraj/sutra-a-simple-actuarial-blog/main/.agent/skills/skills/vercel-deploy-claimable/SKILL.md\" > .claude/skills/vercel-deploy-claimable/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/RohanYashraj/sutra-a-simple-actuarial-blog/main/.agent/skills/skills/vercel-deploy-claimable/SKILL.md"

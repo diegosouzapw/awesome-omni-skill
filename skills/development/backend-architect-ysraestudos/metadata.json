@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7c5204ece64089a12d6663082e059363e8ce4be526a49648ee93f7a8900b9cba",
   "indexed_at": "2026-02-27T06:52:29.542Z",
-  "synced_at": "2026-02-27T13:13:23.562Z",
+  "synced_at": "2026-02-28T04:00:21.097Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/434d98576b30e80977a39278c5e054713bc26bb45d0a144da514c5ec046b9a92",
   "install_command": "mkdir -p .claude/skills/backend-architect && curl -sL \"https://raw.githubusercontent.com/YsraEstudos/FiscalConsultas/main/.agent/skills/backend-architect/SKILL.md\" > .claude/skills/backend-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YsraEstudos/FiscalConsultas/main/.agent/skills/backend-architect/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7f7a7c20bf2bb7c02478d47f8d471e9053da43ee89004346af0edaa5f2d088d3",
   "indexed_at": "2026-02-27T16:03:29.071Z",
-  "synced_at": "2026-02-27T18:16:42.680Z",
+  "synced_at": "2026-02-28T04:01:24.389Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dfde92819bbdd7d3a3a7871d28bad43ca618af215f2a0bd2390bd09069977c2c",
   "install_command": "mkdir -p .claude/skills/atlas && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/atlas/SKILL.md\" > .claude/skills/atlas/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/atlas/SKILL.md"

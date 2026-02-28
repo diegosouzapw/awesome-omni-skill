@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7135b3d60d212864770ffded22723226fd4a0e506de27182363393b2174113b2",
   "indexed_at": "2026-02-27T09:51:45.943Z",
-  "synced_at": "2026-02-27T13:13:41.321Z",
+  "synced_at": "2026-02-28T04:00:50.066Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/de7e8d31ddb515d0b66297879b99c781b8d9533ec75ba239a0c0c1c9e35553fb",
   "install_command": "mkdir -p .claude/skills/cryptofeed && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/cryptofeed-majiayu000-claude-skill-registr/SKILL.md\" > .claude/skills/cryptofeed/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/cryptofeed-majiayu000-claude-skill-registr/SKILL.md"

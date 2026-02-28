@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f5778c1cc96bd093b0900ab1cdd4d4caf16a3f7e5bf48b1be3acd0610ef81797",
   "indexed_at": "2026-02-27T08:57:21.664Z",
-  "synced_at": "2026-02-27T13:13:39.857Z",
+  "synced_at": "2026-02-28T04:00:47.673Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9f6976cd2773ccc12b4bec3b7d76b7f36553009ac8402622cd948588c61511f6",
   "install_command": "mkdir -p .claude/skills/frontend-ui-dark-ts && curl -sL \"https://raw.githubusercontent.com/ngxtm/devkit/main/skills/frontend-ui-dark-ts/SKILL.md\" > .claude/skills/frontend-ui-dark-ts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ngxtm/devkit/main/skills/frontend-ui-dark-ts/SKILL.md"

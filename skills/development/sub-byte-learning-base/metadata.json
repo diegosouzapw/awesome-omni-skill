@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "061e5ba2b1eb83f0416e61ea96ae4305bfaac8814bf059ba7a45d7d2ee27f6ab",
   "indexed_at": "2026-02-27T16:07:59.670Z",
-  "synced_at": "2026-02-27T18:16:45.711Z",
+  "synced_at": "2026-02-28T04:01:28.151Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2293484abe66abe0a86c437a34859fcfabebc3c4f3f0ba4c1a19a67ed402036a",
   "install_command": "mkdir -p .claude/skills/sub-byte-learning-base && curl -sL \"https://raw.githubusercontent.com/bapXai/x8Dsub-byte/main/skills/learning/SKILL.md\" > .claude/skills/sub-byte-learning-base/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bapXai/x8Dsub-byte/main/skills/learning/SKILL.md"

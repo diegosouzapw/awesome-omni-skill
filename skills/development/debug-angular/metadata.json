@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "985e2b983c909a767bc7321f120281f38f5c218f2a3628f9f4bfbc473b18b178",
   "indexed_at": "2026-02-27T13:24:47.755Z",
-  "synced_at": "2026-02-27T18:16:34.867Z",
+  "synced_at": "2026-02-28T04:01:14.151Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4492940c721fd15de351e1918010d602a703f4dd024008cce67757f118e9b670",
   "install_command": "mkdir -p .claude/skills/debug-angular && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/snakeo/claude-debug-and-refactor-skills-plugin/debug:angular/SKILL.md\" > .claude/skills/debug-angular/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/snakeo/claude-debug-and-refactor-skills-plugin/debug:angular/SKILL.md"

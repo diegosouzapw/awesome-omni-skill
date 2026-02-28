@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c138c37f3bc0a36dcc922343025f4cebe84cb2c6906dbab0957be2e7cac652e3",
   "indexed_at": "2026-02-27T17:41:53.664Z",
-  "synced_at": "2026-02-27T18:16:53.303Z",
+  "synced_at": "2026-02-28T04:01:36.192Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/945e0e2d3ab4b534aa0cca2677d292454963ad0d839ca54ee4be0785fc42c214",
   "install_command": "mkdir -p .claude/skills/express-api-patterns && curl -sL \"https://raw.githubusercontent.com/BPMSTC/websiteagent/main/.claude/skills/express-api-patterns/SKILL.md\" > .claude/skills/express-api-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/BPMSTC/websiteagent/main/.claude/skills/express-api-patterns/SKILL.md"

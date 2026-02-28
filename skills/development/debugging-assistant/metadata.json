@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "876363640bb430848e63f8b06f88c18bf3c019756397b9f46d9151b690755358",
   "indexed_at": "2026-02-27T13:23:57.617Z",
-  "synced_at": "2026-02-27T18:16:33.843Z",
+  "synced_at": "2026-02-28T04:01:12.679Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f8d77f71e313c78c2af94608896e5cd0622f078ffcf54aebc0916e680a13b3b4",
   "install_command": "mkdir -p .claude/skills/debugging-assistant && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/debugging-assistant/SKILL.md\" > .claude/skills/debugging-assistant/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/debugging-assistant/SKILL.md"

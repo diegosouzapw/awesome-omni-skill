@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c249a4b0a1709e392561005c3cee787e62b6b3ea53302f354aedc08b366158e8",
   "indexed_at": "2026-02-27T10:53:40.199Z",
-  "synced_at": "2026-02-27T13:13:47.865Z",
+  "synced_at": "2026-02-28T04:00:57.895Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e1de3b04704f2a3a4711c69208467e913056bec6390aa1addd285bf8ddd26742",
   "install_command": "mkdir -p .claude/skills/dev_standards_skill && curl -sL \"https://raw.githubusercontent.com/biubiujch/skills/main/skills/dev_standards_skill/SKILL.md\" > .claude/skills/dev_standards_skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/biubiujch/skills/main/skills/dev_standards_skill/SKILL.md"

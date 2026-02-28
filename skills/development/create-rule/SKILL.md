@@ -1,13 +1,31 @@
 ---
 name: create-rule
-description: Create project rules for persistent AI guidance. Use when the user wants
-  to create a rule, add coding standards, set up project conventions, configure file-specific
-  patterns, create RULE.md files, or asks about the workspace rules directory or AGENTS.md.
+description: Create Cursor rules for persistent AI guidance. Use when user wants to create a rule, add coding standards, project conventions, file-specific patterns, or mentions ".cursor/rules", "AGENTS.md", "cursor rule", "coding standard", "convention", or "AI guidance".
 ---
+# Creating Cursor Rules
 
-# Creating Project Rules
+Create project rules in `.cursor/rules/` to provide persistent context for the AI agent.
 
-Create project rules in the platform-specific rules directory to provide persistent context for the AI agent.
+## CRITICAL: Check Existing First
+
+**Before creating ANY rule, verify:**
+
+1. **Check for existing rules:**
+```bash
+ls -la .cursor/rules/*.mdc 2>/dev/null
+cat .cursor/rules/*.mdc 2>/dev/null | head -100
+```
+
+2. **Check for conflicting conventions:**
+```bash
+cat CONTRIBUTING.md .editorconfig .eslintrc* 2>/dev/null | head -50
+```
+
+3. **Check if similar rule exists:**
+- Don't duplicate existing rules
+- Consider extending existing rules instead
+
+**Why:** Rules should complement, not conflict with, existing project conventions.
 
 ## Gather Requirements
 
@@ -37,15 +55,13 @@ Use the AskQuestion tool when available to gather this efficiently.
 
 ## Rule File Format
 
-Rules are markdown files in the rules directory with optional YAML frontmatter. Path and extension are platform-specific; use this platform's rules directory and the extension it expects (e.g. for Claude, rules live under the platform rules directory).
-
-Example layout:
+Rules are `.mdc` files in `.cursor/rules/` with YAML frontmatter:
 
 ```
-rules/
-  typescript-standards.md
-  react-patterns.md
-  api-conventions.md
+.cursor/rules/
+  typescript-standards.mdc
+  react-patterns.mdc
+  api-conventions.mdc
 ```
 
 ### File Structure
@@ -159,7 +175,7 @@ alwaysApply: false
 
 ## Checklist
 
-- [ ] File is in the rules directory with correct extension per platform
+- [ ] File is `.mdc` format in `.cursor/rules/`
 - [ ] Frontmatter configured correctly
 - [ ] Content under 500 lines
 - [ ] Includes concrete examples

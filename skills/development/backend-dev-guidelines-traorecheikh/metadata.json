@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d756c3930c2ce240036d1357260086d9855b8ebb8358ad7f793f889b96e57461",
   "indexed_at": "2026-02-27T06:52:09.468Z",
-  "synced_at": "2026-02-27T13:13:23.128Z",
+  "synced_at": "2026-02-28T04:00:20.544Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2d14aa5c704fdb66a54339b216b2e0b2fb264082797c42989674cec284e9d744",
   "install_command": "mkdir -p .claude/skills/backend-dev-guidelines && curl -sL \"https://raw.githubusercontent.com/traorecheikh/scalpel-file-system-mcp/main/backend-dev-guidelines/SKILL.md\" > .claude/skills/backend-dev-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/traorecheikh/scalpel-file-system-mcp/main/backend-dev-guidelines/SKILL.md"

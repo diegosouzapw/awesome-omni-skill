@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "890751f2c70a89ca228f7f0c289ed31698e445dde5775faf261e55674fde21da",
   "indexed_at": "2026-02-27T13:17:25.408Z",
-  "synced_at": "2026-02-27T18:16:32.203Z",
+  "synced_at": "2026-02-28T04:01:10.676Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6df977083c30db9c3b8f0922a59bb3a73ebf2210870eaaed73b518534323ad48",
   "install_command": "mkdir -p .claude/skills/performing-code-reviews && curl -sL \"https://raw.githubusercontent.com/cyarie/cyarie-claude-plugin/main/skills/performing-code-reviews/SKILL.md\" > .claude/skills/performing-code-reviews/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cyarie/cyarie-claude-plugin/main/skills/performing-code-reviews/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ce976279647ed66842cce7d730d4d47c6ec7126d112149a7b927823607759af3",
   "indexed_at": "2026-02-27T06:55:55.407Z",
-  "synced_at": "2026-02-27T13:13:25.711Z",
+  "synced_at": "2026-02-28T04:00:24.631Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/06df7f26ec4ff0cb978b4fc6c6dedf5ce49ef994d4302575f2223c3edcf1fd9e",
   "install_command": "mkdir -p .claude/skills/tech-news-curator && curl -sL \"https://raw.githubusercontent.com/ronnycoding/my-personal-assistant/main/.claude/skills/tech-news-curator/SKILL.md\" > .claude/skills/tech-news-curator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ronnycoding/my-personal-assistant/main/.claude/skills/tech-news-curator/SKILL.md"

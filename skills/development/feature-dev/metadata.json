@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6a85493ed97b80d5cedc339d0b7a929c45169665547ce45e18c64bb3fa368723",
   "indexed_at": "2026-02-27T06:53:16.362Z",
-  "synced_at": "2026-02-27T13:13:24.292Z",
+  "synced_at": "2026-02-28T04:00:22.330Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1cf7495de7dc948b5c39cf1108fe0bc605a3883f81e265612caaf75ec142882d",
   "install_command": "mkdir -p .claude/skills/feature-dev && curl -sL \"https://raw.githubusercontent.com/COG-GTM/devinclaw/main/skills/feature-dev/SKILL.md\" > .claude/skills/feature-dev/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/COG-GTM/devinclaw/main/skills/feature-dev/SKILL.md"

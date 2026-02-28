@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6bcc942a3894c8d87aff4c3ed36983e69fb3cc4503bd37c6cae9d390bc23c240",
   "indexed_at": "2026-02-27T07:57:24.164Z",
-  "synced_at": "2026-02-27T13:13:32.184Z",
+  "synced_at": "2026-02-28T04:00:34.614Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/41257a342aad36ef7d2d520600b49e7632c5fd9c04506ae01772aae811eca87a",
   "install_command": "mkdir -p .claude/skills/senior-architect && curl -sL \"https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/skills_library/coding_agents_ides/senior-architect/SKILL.md\" > .claude/skills/senior-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/skills_library/coding_agents_ides/senior-architect/SKILL.md"

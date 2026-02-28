@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "816f2be45be4696cf3df68c0c8973d6a02156c48665ff3ef3407637fefbcaaa8",
   "indexed_at": "2026-02-27T08:51:00.046Z",
-  "synced_at": "2026-02-27T13:13:36.413Z",
+  "synced_at": "2026-02-28T04:00:41.840Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f43a6ab86e553da40c1d12a9fafa3ada76de2913e986312c5995121faf306bb1",
   "install_command": "mkdir -p .claude/skills/n8n-node-configuration && curl -sL \"https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/n8n-node-configuration/SKILL.md\" > .claude/skills/n8n-node-configuration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/n8n-node-configuration/SKILL.md"

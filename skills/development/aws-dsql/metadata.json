@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "46a4e5c3123d9a6cdf42be9616b0c7524250686e86b72d49c75d5e5a2273c224",
   "indexed_at": "2026-02-27T15:04:59.629Z",
-  "synced_at": "2026-02-27T18:16:38.728Z",
+  "synced_at": "2026-02-28T04:01:19.246Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/804caa94b60d45d6e8906676617912227a01528e1c47115bd4a421d35f2bb96b",
   "install_command": "mkdir -p .claude/skills/aws-dsql && curl -sL \"https://raw.githubusercontent.com/awslabs/mcp/main/src/aurora-dsql-mcp-server/skills/aws-dsql-skill/SKILL.md\" > .claude/skills/aws-dsql/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/awslabs/mcp/main/src/aurora-dsql-mcp-server/skills/aws-dsql-skill/SKILL.md"

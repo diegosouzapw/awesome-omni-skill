@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a1a7d2504a395f49987993380efb710ec8b4ee3c44fdde2b94e2c1f12d38701e",
   "indexed_at": "2026-02-27T11:45:42.674Z",
-  "synced_at": "2026-02-27T13:13:48.135Z",
+  "synced_at": "2026-02-28T04:00:58.415Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/37a888a80aa12f3444d6ba7cffb4c417b47dd539e38f1abe37667cabd3b5cf98",
   "install_command": "mkdir -p .claude/skills/skill-finder && curl -sL \"https://raw.githubusercontent.com/MooseGoose0701/skill-compose/main/seed_skills/skill-finder/SKILL.md\" > .claude/skills/skill-finder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MooseGoose0701/skill-compose/main/seed_skills/skill-finder/SKILL.md"

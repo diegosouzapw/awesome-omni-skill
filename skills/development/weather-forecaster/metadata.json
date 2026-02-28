@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "11bae2a4cb8db1beb96def137d0ac536309be74d15959ddcfeca9ffe9d08b90f",
   "indexed_at": "2026-02-27T08:35:12.951Z",
-  "synced_at": "2026-02-27T13:13:33.029Z",
+  "synced_at": "2026-02-28T04:00:35.965Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5984d532a3652610715505bb29a85339c4421e9cd1cb1035aa57cca179f36228",
   "install_command": "mkdir -p .claude/skills/weather-forecaster && curl -sL \"https://raw.githubusercontent.com/ypwu1/weather-forecaster/main/SKILL.md\" > .claude/skills/weather-forecaster/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ypwu1/weather-forecaster/main/SKILL.md"

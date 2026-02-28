@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a85a5cd0b1bf7d7b2bccc20f57d9a5e5f281d1d5b591cef6fd4265058b30ca08",
   "indexed_at": "2026-02-27T18:08:20.133Z",
-  "synced_at": "2026-02-27T18:16:54.961Z",
+  "synced_at": "2026-02-28T04:01:38.987Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eb1667fd8c15949f963f7b9aff8654f807e8aeb0abb8af4d84c16824edfb2833",
   "install_command": "mkdir -p .claude/skills/together-api && curl -sL \"https://raw.githubusercontent.com/diskd-ai/together-api/main/SKILL.md\" > .claude/skills/together-api/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/diskd-ai/together-api/main/SKILL.md"

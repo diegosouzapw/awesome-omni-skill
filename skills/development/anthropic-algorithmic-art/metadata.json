@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "afef9106a2cb18a00c3e2c1eb013a304585c5f454fb792adab6fd690ff5604d5",
   "indexed_at": "2026-02-27T15:08:26.652Z",
-  "synced_at": "2026-02-27T18:16:40.255Z",
+  "synced_at": "2026-02-28T04:01:21.059Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4199db2e38834c46604ede5125c5aaa4275eabf8e891509cc2ff79b83d7f909f",
   "install_command": "mkdir -p .claude/skills/anthropic-algorithmic-art && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/anthropic-algorithmic-art/SKILL.md\" > .claude/skills/anthropic-algorithmic-art/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/anthropic-algorithmic-art/SKILL.md"

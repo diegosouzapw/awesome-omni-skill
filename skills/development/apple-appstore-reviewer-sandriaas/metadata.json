@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4bb9209f8b2f861d2a79739bec8ba8ee07daf90d733bc02a950b9ea969bffd93",
   "indexed_at": "2026-02-27T15:04:12.287Z",
-  "synced_at": "2026-02-27T18:16:38.343Z",
+  "synced_at": "2026-02-28T04:01:18.922Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1a0be32d2e51b7f18d192817724dab881454fa7816e844486b3b6427ba083258",
   "install_command": "mkdir -p .claude/skills/apple-appstore-reviewer && curl -sL \"https://raw.githubusercontent.com/sandriaas/_dotfiles/main/.agents/skills/apple-appstore-reviewer/SKILL.md\" > .claude/skills/apple-appstore-reviewer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sandriaas/_dotfiles/main/.agents/skills/apple-appstore-reviewer/SKILL.md"

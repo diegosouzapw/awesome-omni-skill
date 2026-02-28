@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e4596a07d91f59c0a223fadbc68ee3f3621e67124df9275f260cc38419e7655e",
   "indexed_at": "2026-02-27T09:34:23.836Z",
-  "synced_at": "2026-02-27T13:13:40.654Z",
+  "synced_at": "2026-02-28T04:00:49.053Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7eaeee9c255f243e256519cfeb06a5bf918b296ed6e24c1446e5e822567b5224",
   "install_command": "mkdir -p .claude/skills/http-kit && curl -sL \"https://raw.githubusercontent.com/Ramblurr/nix-devenv/main/prompts/skills/clojure-http-kit/SKILL.md\" > .claude/skills/http-kit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Ramblurr/nix-devenv/main/prompts/skills/clojure-http-kit/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fcb1c734b36aae0b0d231b06ddc38957e20e7132e699bb324f003c352fbe2d76",
   "indexed_at": "2026-02-27T17:33:45.251Z",
-  "synced_at": "2026-02-27T18:16:49.651Z",
+  "synced_at": "2026-02-28T04:01:34.673Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7a0d672e0f5bbfbbf629882b96978b7b38608bdd8006f439bc76e604797f09cc",
   "install_command": "mkdir -p .claude/skills/obsidian-cli && curl -sL \"https://raw.githubusercontent.com/kepano/obsidian-skills/main/skills/obsidian-cli/SKILL.md\" > .claude/skills/obsidian-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kepano/obsidian-skills/main/skills/obsidian-cli/SKILL.md"

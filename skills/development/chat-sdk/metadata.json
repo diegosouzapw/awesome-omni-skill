@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c087e14f604871ce6b5cc24896fa743bf9d15da34e4fd7332bd0979ec941f992",
   "indexed_at": "2026-02-27T16:08:06.966Z",
-  "synced_at": "2026-02-27T18:16:45.867Z",
+  "synced_at": "2026-02-28T04:01:28.326Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b82c6632edf5e72a4cd2ea4173774ffc3841b0ad66c901d8ddfc2d6ae3c900b2",
   "install_command": "mkdir -p .claude/skills/chat-sdk && curl -sL \"https://raw.githubusercontent.com/zot24/skills/main/skills/chat-sdk/skills/chat-sdk/SKILL.md\" > .claude/skills/chat-sdk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zot24/skills/main/skills/chat-sdk/skills/chat-sdk/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ff9df704b6fb4361595cbcc0434d3e3533b6df504bd5b84cdf1a4cf7666705c9",
   "indexed_at": "2026-02-27T18:04:04.126Z",
-  "synced_at": "2026-02-27T18:16:53.765Z",
+  "synced_at": "2026-02-28T04:01:37.048Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c95166b4faecf4aff202bc8c664d40b3ce9e53eaef50617542acacfb3109737d",
   "install_command": "mkdir -p .claude/skills/lecture-transcript-slide-matcher && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/lecture-transcript-slide-matcher/SKILL.md\" > .claude/skills/lecture-transcript-slide-matcher/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/lecture-transcript-slide-matcher/SKILL.md"

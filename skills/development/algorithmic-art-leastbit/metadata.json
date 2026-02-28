@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c498e7e52a7178484a0b0ee4bc8e67eace77d3effd6d5b06ebd09034d6c87767",
   "indexed_at": "2026-02-27T17:41:16.774Z",
-  "synced_at": "2026-02-27T18:16:50.326Z",
+  "synced_at": "2026-02-28T04:01:35.864Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6be073d7bd3f8bcd8c67879ab36b68ded3caa353778ac84a14e5a7981e3c7a92",
   "install_command": "mkdir -p .claude/skills/algorithmic-art && curl -sL \"https://raw.githubusercontent.com/LeastBit/Claude_skills_zh-CN/main/skills/algorithmic-art/SKILL.md\" > .claude/skills/algorithmic-art/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/LeastBit/Claude_skills_zh-CN/main/skills/algorithmic-art/SKILL.md"

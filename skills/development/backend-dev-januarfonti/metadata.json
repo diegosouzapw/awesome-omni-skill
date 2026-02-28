@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6772b6a0e3296760ba86b084e98f285b1609241f19cd3c0f74167aac5ce088ed",
   "indexed_at": "2026-02-27T07:57:15.676Z",
-  "synced_at": "2026-02-27T13:13:31.961Z",
+  "synced_at": "2026-02-28T04:00:34.265Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b8298d25a3f0caefa59e466545c9b0faced6141cab56eb5eefc7c71513eea26d",
   "install_command": "mkdir -p .claude/skills/backend-dev && curl -sL \"https://raw.githubusercontent.com/januarfonti/opencode-template-configured/main/skills/backend-dev/SKILL.md\" > .claude/skills/backend-dev/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/januarfonti/opencode-template-configured/main/skills/backend-dev/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bb3eeecfefed3b53d2f1ec024b031d77e2b2488eebdcf1678ce5a51e21072e15",
   "indexed_at": "2026-02-27T08:25:21.564Z",
-  "synced_at": "2026-02-27T13:13:32.863Z",
+  "synced_at": "2026-02-28T04:00:35.649Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7c03ade8afb1dcf3b662826dea1df66cc63b0a889fe028c30ca6172782bf4740",
   "install_command": "mkdir -p .claude/skills/skill-refactor && curl -sL \"https://raw.githubusercontent.com/GinoNovello/skills/main/SKILL.md\" > .claude/skills/skill-refactor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/GinoNovello/skills/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "20efa6baa3b7cf7c0b675d96defb50a0c8bb216760509343d4ad12ef559edf8f",
   "indexed_at": "2026-02-27T07:52:53.729Z",
-  "synced_at": "2026-02-27T13:13:31.335Z",
+  "synced_at": "2026-02-28T04:00:33.418Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/118314363b7669838d286e7f54461567bbd414baa5a44317da5cf6159ee1f3ef",
   "install_command": "mkdir -p .claude/skills/frontend-design && curl -sL \"https://raw.githubusercontent.com/ibbi1020/Lawgbook-v1-mockup/main/.claude/skills/frontend-design/SKILL.md\" > .claude/skills/frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ibbi1020/Lawgbook-v1-mockup/main/.claude/skills/frontend-design/SKILL.md"

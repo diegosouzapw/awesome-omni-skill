@@ -3,8 +3,8 @@
   "description": "Guides for configuring Prisma with different database providers (PostgreSQL, MySQL, SQLite, MongoDB, etc.). Use when setting up a new project, changing databases, or troubleshooting connection issues. Triggers on \"configure postgres\", \"connect to mysql\", \"setup mongodb\", \"sqlite setup\".",
   "category": "development",
   "canonical_category": "development",
-  "repository": "HuynhSang2005/delivery-app-lab",
-  "repository_url": "https://github.com/HuynhSang2005/delivery-app-lab",
+  "repository": "HuynhSang2005/deliver-app-failed",
+  "repository_url": "https://github.com/HuynhSang2005/deliver-app-failed",
   "author": "HuynhSang2005",
   "author_avatar": "https://github.com/HuynhSang2005.png",
   "file_path": ".opencode/skills/prisma-database-setup/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "6d55f150b2b7dc796a4162b9152eaee8241ea4c2cc042f64b87d1175c04bae5e",
-  "indexed_at": "2026-02-26T08:53:14.340Z",
-  "synced_at": "2026-02-28T03:56:52.571Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d2c7509658c30159a8e31cd34f297e96b8565d218b6a4329a8a940f3f6d85a53",
-  "install_command": "mkdir -p .claude/skills/prisma-database-setup && curl -sL \"https://raw.githubusercontent.com/HuynhSang2005/delivery-app-lab/main/.opencode/skills/prisma-database-setup/SKILL.md\" > .claude/skills/prisma-database-setup/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/HuynhSang2005/delivery-app-lab/main/.opencode/skills/prisma-database-setup/SKILL.md"
+  "content_hash": "d3f2d934e938d052fc4dafa2501339ffd6f4de1daa7862ac9500052b4ff1dc9a",
+  "indexed_at": "2026-02-27T08:48:56.565Z",
+  "synced_at": "2026-02-28T04:00:40.302Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/06d09e80f99d65078948bb638f007c78449cfd22988498560349056eb8bb6418",
+  "install_command": "mkdir -p .claude/skills/prisma-database-setup && curl -sL \"https://raw.githubusercontent.com/HuynhSang2005/deliver-app-failed/main/.opencode/skills/prisma-database-setup/SKILL.md\" > .claude/skills/prisma-database-setup/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/HuynhSang2005/deliver-app-failed/main/.opencode/skills/prisma-database-setup/SKILL.md"
 }

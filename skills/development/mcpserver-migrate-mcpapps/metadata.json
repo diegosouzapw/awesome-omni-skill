@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "250242a0d6f4d970c7581a921f15175f8ccbeb5a15656ce3f29d3105195384ea",
   "indexed_at": "2026-02-27T16:56:52.969Z",
-  "synced_at": "2026-02-27T18:16:48.731Z",
+  "synced_at": "2026-02-28T04:01:33.437Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e8b9f66acfed15b434f52b6e2a84f68bf33d3b215ae1d11ff50345a8b1cc575a",
   "install_command": "mkdir -p .claude/skills/mcpserver-migrate-mcpapps && curl -sL \"https://raw.githubusercontent.com/rabwill/mcp-interactive-ui-samples/main/mcp-apps/trey-research/node/src/mcpserver/.github/mcpserver-migrate-mcpapps/SKILL.md\" > .claude/skills/mcpserver-migrate-mcpapps/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rabwill/mcp-interactive-ui-samples/main/mcp-apps/trey-research/node/src/mcpserver/.github/mcpserver-migrate-mcpapps/SKILL.md"

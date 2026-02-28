@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2fd3b12893b7ef6f855a1953bcbe4cebe712515c8bd358848d294013035061bd",
   "indexed_at": "2026-02-27T07:51:20.812Z",
-  "synced_at": "2026-02-27T13:13:30.286Z",
+  "synced_at": "2026-02-28T04:00:31.945Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/00716cdf71032de3ac1fca45154b17f27f2dc0a225f1aa064f053c48f06064e0",
   "install_command": "mkdir -p .claude/skills/prd-v06-technical-specification && curl -sL \"https://raw.githubusercontent.com/mattgierhart/PRD-driven-context-engineering/main/.claude/skills/prd-v06-technical-specification/SKILL.md\" > .claude/skills/prd-v06-technical-specification/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattgierhart/PRD-driven-context-engineering/main/.claude/skills/prd-v06-technical-specification/SKILL.md"

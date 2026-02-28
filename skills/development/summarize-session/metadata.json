@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "96935b6ff7e3a2821dc4d3217d8f9e6918490e1652a5738d8b8f5292b45c550a",
   "indexed_at": "2026-02-27T15:02:39.524Z",
-  "synced_at": "2026-02-27T18:16:37.382Z",
+  "synced_at": "2026-02-28T04:01:17.746Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f1ec1242949437e82cf46d5c7bdbf49eac384c2ff7cc4e5081f43d4152e15ed0",
   "install_command": "mkdir -p .claude/skills/summarize-session && curl -sL \"https://raw.githubusercontent.com/lbb00/ai-rules-sync/main/.claude/skills/summarize-session/SKILL.md\" > .claude/skills/summarize-session/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lbb00/ai-rules-sync/main/.claude/skills/summarize-session/SKILL.md"

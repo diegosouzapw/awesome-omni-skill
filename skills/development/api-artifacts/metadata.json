@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aa83d2d0216355015d18889f8c4d41ec52cc2efa4c3e351753065982aa9aae1c",
   "indexed_at": "2026-02-27T09:56:00.046Z",
-  "synced_at": "2026-02-27T13:13:42.273Z",
+  "synced_at": "2026-02-28T04:00:51.752Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/376e624d3d2720e272058239afdc047c7b669d145f49179f40410ab181aa1ef7",
   "install_command": "mkdir -p .claude/skills/api-artifacts && curl -sL \"https://raw.githubusercontent.com/navraj007in/architecture-cowork-plugin/main/skills/api-artifacts/SKILL.md\" > .claude/skills/api-artifacts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/navraj007in/architecture-cowork-plugin/main/skills/api-artifacts/SKILL.md"

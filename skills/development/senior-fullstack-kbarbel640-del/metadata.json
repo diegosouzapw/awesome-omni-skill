@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "16690a995e435d0bb15b240be716e11658f0a8c56296b0532f92523b4e52f261",
   "indexed_at": "2026-02-27T08:46:32.698Z",
-  "synced_at": "2026-02-27T13:13:33.502Z",
+  "synced_at": "2026-02-28T04:00:36.935Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ef3298810fb34fece40eaad3a2a85f0a5ade988c52643fa6112943d12ff4e6a7",
   "install_command": "mkdir -p .claude/skills/senior-fullstack && curl -sL \"https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/alirezarezvani/senior-fullstack/SKILL.md\" > .claude/skills/senior-fullstack/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/alirezarezvani/senior-fullstack/SKILL.md"

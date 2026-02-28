@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cbff13eddc9112ca05f4d6880b3a5438fb78d6841c9db5790eadaa126e9952fb",
   "indexed_at": "2026-02-27T14:01:42.613Z",
-  "synced_at": "2026-02-27T18:16:35.943Z",
+  "synced_at": "2026-02-28T04:01:15.661Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/147b232ff0ebc11c9d9b83ec22c14b3b9b54a6df11919069df6972824b287d15",
   "install_command": "mkdir -p .claude/skills/powerpoint-automation && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/aktsmm/agent-skills/powerpoint-automation/SKILL.md\" > .claude/skills/powerpoint-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/aktsmm/agent-skills/powerpoint-automation/SKILL.md"

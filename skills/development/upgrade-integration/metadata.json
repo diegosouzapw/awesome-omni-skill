@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e69e5076ce564fb6491bc9a3409d7023763f65414465c7b433bcc7f9651dc3b4",
   "indexed_at": "2026-02-27T07:30:56.307Z",
-  "synced_at": "2026-02-27T13:13:25.994Z",
+  "synced_at": "2026-02-28T04:00:25.154Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ac6431f250d9239b02edc96d0b72014654f887d4cc6f2f1f2ebf6343f4d15e2a",
   "install_command": "mkdir -p .claude/skills/upgrade-integration && curl -sL \"https://raw.githubusercontent.com/JDerekLomas/upgrade-integration-skill/main/SKILL.md\" > .claude/skills/upgrade-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/JDerekLomas/upgrade-integration-skill/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c462fc547296bfac4bc93fd9e1c9e2e1d30abd88e2ef7fe83809ac6163edaf9e",
   "indexed_at": "2026-02-27T16:54:47.653Z",
-  "synced_at": "2026-02-27T18:16:47.912Z",
+  "synced_at": "2026-02-28T04:01:31.996Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0c09e034e4ce05b334ee5523c5a4d2f8b22a509f83bde32e3b287578a9d9f6d5",
   "install_command": "mkdir -p .claude/skills/seo-geo && curl -sL \"https://raw.githubusercontent.com/nguyenthienthanh/aura-frog/main/aura-frog/skills/seo-geo/SKILL.md\" > .claude/skills/seo-geo/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nguyenthienthanh/aura-frog/main/aura-frog/skills/seo-geo/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b7d49fdc7e71323660beb89d8634f3ada2a7ac5e4b57aff0aa81c39fe98dee42",
   "indexed_at": "2026-02-27T16:48:34.327Z",
-  "synced_at": "2026-02-27T18:16:47.495Z",
+  "synced_at": "2026-02-28T04:01:31.338Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/26522ead96a95506fdf86b58d66e3f1752dacd54c9187353d5bcb8df8e767772",
   "install_command": "mkdir -p .claude/skills/claude-api && curl -sL \"https://raw.githubusercontent.com/diskd-ai/claude-api/main/SKILL.md\" > .claude/skills/claude-api/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/diskd-ai/claude-api/main/SKILL.md"

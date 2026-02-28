@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bc15433c5643b3d2fc856dd5be8f4ff3c5542ad7bc1b800f5fbdd02ae4c8df89",
   "indexed_at": "2026-02-27T07:48:33.617Z",
-  "synced_at": "2026-02-27T13:13:29.451Z",
+  "synced_at": "2026-02-28T04:00:30.617Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1d8eb081b0d5600f6d26336411012acf1b8781487f883f21c49b5d7860e9a307",
   "install_command": "mkdir -p .claude/skills/start && curl -sL \"https://raw.githubusercontent.com/dsifry/metaswarm/main/skills/start/SKILL.md\" > .claude/skills/start/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dsifry/metaswarm/main/skills/start/SKILL.md"

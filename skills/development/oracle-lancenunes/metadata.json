@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "97f16dcc17bd97ddf4bf0a63d65836a95c0a1e9fb9a1059d3bd319e37a0462e1",
   "indexed_at": "2026-02-27T16:57:23.043Z",
-  "synced_at": "2026-02-27T18:16:48.871Z",
+  "synced_at": "2026-02-28T04:01:33.620Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7e65b282d717f795154634095cdcc0523f30270a1b49a6ddd398976f8cc1462a",
   "install_command": "mkdir -p .claude/skills/oracle && curl -sL \"https://raw.githubusercontent.com/lancenunes/codex-skills/main/oracle/SKILL.md\" > .claude/skills/oracle/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lancenunes/codex-skills/main/oracle/SKILL.md"

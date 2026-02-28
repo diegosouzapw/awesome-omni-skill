@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "559cec40cbc5d63c2779d0346a697b3221e45bace0da373015a905b8f1225c0c",
   "indexed_at": "2026-02-27T07:47:59.352Z",
-  "synced_at": "2026-02-27T13:13:28.749Z",
+  "synced_at": "2026-02-28T04:00:29.409Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ad940d877eb862dd2d7901f0a6abdf45cb86f1bd2d1bd1449c884fe27ddf1def",
   "install_command": "mkdir -p .claude/skills/dhh-rails-style && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/everyinc/compound-engineering-plugin/dhh-rails-style/SKILL.md\" > .claude/skills/dhh-rails-style/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/everyinc/compound-engineering-plugin/dhh-rails-style/SKILL.md"

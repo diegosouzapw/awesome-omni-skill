@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c9f3d946843d55ec2fcbc1d58b1ed34d53db53e79f926ec9a7e585d088b0388d",
   "indexed_at": "2026-02-27T15:07:42.091Z",
-  "synced_at": "2026-02-27T18:16:39.944Z",
+  "synced_at": "2026-02-28T04:01:20.649Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2f4eb5977f906f1bcc5c9e503d81ab740fe070b9b6cf29930c7fffd14446f1e9",
   "install_command": "mkdir -p .claude/skills/claude-md-architect && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/claude-md-architect/SKILL.md\" > .claude/skills/claude-md-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/claude-md-architect/SKILL.md"

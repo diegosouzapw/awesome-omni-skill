@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e59f073dc89704ea9423815c47411d8e0b71406ed760d1765d212b677626630b",
   "indexed_at": "2026-02-27T11:47:41.771Z",
-  "synced_at": "2026-02-27T13:13:50.834Z",
+  "synced_at": "2026-02-28T04:01:04.671Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a441cdbca28c5b9c134e4a7fbf9f769a5e3b888aa9866d385172ea6b28e804c3",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/MomoChenisMe/copilot-sdk-test/main/backend/src/skills/builtin/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MomoChenisMe/copilot-sdk-test/main/backend/src/skills/builtin/ui-ux-pro-max/SKILL.md"

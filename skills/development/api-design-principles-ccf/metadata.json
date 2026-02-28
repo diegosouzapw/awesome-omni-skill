@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "95afb934ef2e0954263e86899901a108e228939c528b7c2afe0ec47d34db0c6a",
   "indexed_at": "2026-02-27T07:46:37.290Z",
-  "synced_at": "2026-02-27T13:13:27.264Z",
+  "synced_at": "2026-02-28T04:00:27.239Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/22197692a16090eb9a20c32e095062705b328fe0d915d1b0da50e555a6bc5f61",
   "install_command": "mkdir -p .claude/skills/api-design-principles && curl -sL \"https://raw.githubusercontent.com/ccf/claude-code-ccf-marketplace/main/plugins/backend-development/skills/api-design-principles/SKILL.md\" > .claude/skills/api-design-principles/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ccf/claude-code-ccf-marketplace/main/plugins/backend-development/skills/api-design-principles/SKILL.md"

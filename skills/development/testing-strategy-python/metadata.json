@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e0a5a50cf605839c8a91f4f6db411b66740d4b63297a2af29dd85eac00ba1333",
   "indexed_at": "2026-02-27T10:49:58.245Z",
-  "synced_at": "2026-02-27T13:13:43.811Z",
+  "synced_at": "2026-02-28T04:00:54.523Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/759f9bb5eeeb80dfa761f0d3b904a57ac2acaec995cf7d7426a5146427f780fa",
   "install_command": "mkdir -p .claude/skills/testing-strategy-python && curl -sL \"https://raw.githubusercontent.com/tymoj/marketplace/main/plugins/dev-pipeline/skills/testing-strategy-python/SKILL.md\" > .claude/skills/testing-strategy-python/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tymoj/marketplace/main/plugins/dev-pipeline/skills/testing-strategy-python/SKILL.md"

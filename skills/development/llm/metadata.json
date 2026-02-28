@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b08544e8e55000104401b066b3312b5f3c265f8e657179139c1f887134755720",
   "indexed_at": "2026-02-27T13:24:30.462Z",
-  "synced_at": "2026-02-27T18:16:34.392Z",
+  "synced_at": "2026-02-28T04:01:13.495Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6d540b01619605e0cca5dc7138a90a52bb1109ca9bad8ba133063280d27a4732",
   "install_command": "mkdir -p .claude/skills/llm && curl -sL \"https://raw.githubusercontent.com/AnswerZhao/agent-skills/main/glm-skills/LLM/SKILL.md\" > .claude/skills/llm/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AnswerZhao/agent-skills/main/glm-skills/LLM/SKILL.md"

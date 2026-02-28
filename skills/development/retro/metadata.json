@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8ffccc52084c9bb0c5e504922bf4fb166879ebec49c29245c00921381838f37e",
   "indexed_at": "2026-02-27T13:18:21.329Z",
-  "synced_at": "2026-02-27T18:16:32.346Z",
+  "synced_at": "2026-02-28T04:01:10.879Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/27b74b3bee9b1ac5143f84f6063046698e08974a7d1e0c10b58b9e599ddf0409",
   "install_command": "mkdir -p .claude/skills/retro && curl -sL \"https://raw.githubusercontent.com/boshu2/agentops/main/skills/retro/SKILL.md\" > .claude/skills/retro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boshu2/agentops/main/skills/retro/SKILL.md"

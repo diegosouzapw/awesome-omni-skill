@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3bcc7485c03e103682c2f48792799817b1123db68b8479262085e57bb06be1a1",
   "indexed_at": "2026-02-27T16:03:57.056Z",
-  "synced_at": "2026-02-27T18:16:43.052Z",
+  "synced_at": "2026-02-28T04:01:24.909Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/394d7a0b2c82d827e852c008e996434fb27e41860dd5184d3146fd51c4921711",
   "install_command": "mkdir -p .claude/skills/chatgpt-mcp-apps-kit && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/AndurilCode__mcp-apps-kit__claude__skills__chatgpt-apps-builder__SKILL.md/SKILL.md\" > .claude/skills/chatgpt-mcp-apps-kit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/AndurilCode__mcp-apps-kit__claude__skills__chatgpt-apps-builder__SKILL.md/SKILL.md"

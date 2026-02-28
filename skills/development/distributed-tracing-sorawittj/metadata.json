@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "50294ba4269db4c35b61793064c7749781f8ed7a5fdda259a80e859fc7b5fe1d",
   "indexed_at": "2026-02-27T06:53:55.770Z",
-  "synced_at": "2026-02-27T13:13:24.712Z",
+  "synced_at": "2026-02-28T04:00:23.045Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ab3de260765185b759fd8d10c3a0bcf962922f8bbfa3a0d419bb5f725230957f",
   "install_command": "mkdir -p .claude/skills/distributed-tracing && curl -sL \"https://raw.githubusercontent.com/Sorawittj/Kaprao-app/main/.agents/skils/skills/distributed-tracing/SKILL.md\" > .claude/skills/distributed-tracing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Sorawittj/Kaprao-app/main/.agents/skils/skills/distributed-tracing/SKILL.md"

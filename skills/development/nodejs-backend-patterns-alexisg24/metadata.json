@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4bb2c51535da396e65f60e7f34654ef9c9b9eeaa1983cd9ff6d296f9d3609e52",
   "indexed_at": "2026-02-27T09:51:53.711Z",
-  "synced_at": "2026-02-27T13:13:41.566Z",
+  "synced_at": "2026-02-28T04:00:50.457Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ad7ae351c56c5f9879ebc0eabb6dabadcfe2aea11fff570142534e61d14563bd",
   "install_command": "mkdir -p .claude/skills/nodejs-backend-patterns && curl -sL \"https://raw.githubusercontent.com/alexisg24/claude-agrents-env-tests/main/environments/nextjs-nestjs-pg-redis-agents/.agents/skills/nodejs-backend-patterns/SKILL.md\" > .claude/skills/nodejs-backend-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alexisg24/claude-agrents-env-tests/main/environments/nextjs-nestjs-pg-redis-agents/.agents/skills/nodejs-backend-patterns/SKILL.md"

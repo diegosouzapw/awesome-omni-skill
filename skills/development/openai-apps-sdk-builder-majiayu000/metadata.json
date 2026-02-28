@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "82f9be016e4a2a5b198cf0f3464ad70c212672c56d0c0a3af9870088bd09e410",
   "indexed_at": "2026-02-27T16:04:24.992Z",
-  "synced_at": "2026-02-27T18:16:43.419Z",
+  "synced_at": "2026-02-28T04:01:25.249Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fd0a060f5de34258dc5334de6bce9543e2f6d12962820bf92bef7101a517f30f",
   "install_command": "mkdir -p .claude/skills/openai-apps-sdk-builder && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/openai-apps-sdk-builder/SKILL.md\" > .claude/skills/openai-apps-sdk-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/openai-apps-sdk-builder/SKILL.md"

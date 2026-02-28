@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "81e1578e64a5b84d0f7d2ee0a3614eb83fc99563ed19371594c113e6ccbc0800",
   "indexed_at": "2026-02-27T07:57:28.084Z",
-  "synced_at": "2026-02-27T13:13:32.433Z",
+  "synced_at": "2026-02-28T04:00:34.952Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/601eccaeb087b539c706ab41134a76b8cb8317d36cbc14fb789a9c5c6e0f7716",
   "install_command": "mkdir -p .claude/skills/nodejs-backend-patterns && curl -sL \"https://raw.githubusercontent.com/zlzmm5188/111111111/main/agx-dev/h5-broken-20260204084118/.claude/plugins/javascript-typescript/skills/nodejs-backend-patterns/SKILL.md\" > .claude/skills/nodejs-backend-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zlzmm5188/111111111/main/agx-dev/h5-broken-20260204084118/.claude/plugins/javascript-typescript/skills/nodejs-backend-patterns/SKILL.md"

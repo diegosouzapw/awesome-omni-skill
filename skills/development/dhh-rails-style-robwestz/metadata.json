@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "429aac4b297c992df039ea0bd1a3012d314d2f293358b4326deaad849563bd44",
   "indexed_at": "2026-02-27T07:48:00.651Z",
-  "synced_at": "2026-02-27T13:13:28.837Z",
+  "synced_at": "2026-02-28T04:00:29.567Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bc1323a8fc0f74a12fd61d45b2d14f44c8f03ceef43fea6aaed388a1e9c99b1b",
   "install_command": "mkdir -p .claude/skills/dhh-rails-style && curl -sL \"https://raw.githubusercontent.com/robwestz/bacowr_b/main/every-marketplace/plugins/compound-engineering/skills/dhh-rails-style/SKILL.md\" > .claude/skills/dhh-rails-style/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/robwestz/bacowr_b/main/every-marketplace/plugins/compound-engineering/skills/dhh-rails-style/SKILL.md"

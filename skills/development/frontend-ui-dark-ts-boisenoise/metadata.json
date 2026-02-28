@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "06bda6240d839d696cbea00114a21311b723121d4dc242e1cb720a46af1dc3cd",
   "indexed_at": "2026-02-27T08:57:24.623Z",
-  "synced_at": "2026-02-27T13:13:40.038Z",
+  "synced_at": "2026-02-28T04:00:48.012Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eb98dd1c8d0601ea06316f79506bfd33f5b42916328f3900619d0218363d1160",
   "install_command": "mkdir -p .claude/skills/frontend-ui-dark-ts && curl -sL \"https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-frontend-ui-dark-ts/SKILL.md\" > .claude/skills/frontend-ui-dark-ts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-frontend-ui-dark-ts/SKILL.md"

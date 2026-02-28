@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "802939a8389ef49ec681b09796491bef608fbde3b6565c07d1950460c2f5fe49",
   "indexed_at": "2026-02-27T07:45:54.245Z",
-  "synced_at": "2026-02-27T13:13:26.518Z",
+  "synced_at": "2026-02-28T04:00:26.072Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1ef900af3a1a9633cf6f6899edc36034906ac00dad256c715bcf331e061ddd59",
   "install_command": "mkdir -p .claude/skills/api-design-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/api-design-skill/SKILL.md\" > .claude/skills/api-design-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/api-design-skill/SKILL.md"

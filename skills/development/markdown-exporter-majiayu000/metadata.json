@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c02ddee9e4f19b7661bb17b854982a626b14e18d470497da0d11878319c31c51",
   "indexed_at": "2026-02-27T18:06:00.494Z",
-  "synced_at": "2026-02-27T18:16:54.774Z",
+  "synced_at": "2026-02-28T04:01:38.640Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d52eb2c47410af8434b147910053b54fbc5c773429937664a001fbc1f431f61d",
   "install_command": "mkdir -p .claude/skills/markdown-exporter && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/md-exporter-bowenliang123-md-exporter/SKILL.md\" > .claude/skills/markdown-exporter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/md-exporter-bowenliang123-md-exporter/SKILL.md"

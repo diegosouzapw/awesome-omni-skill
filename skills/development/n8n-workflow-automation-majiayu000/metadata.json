@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7100b60b1eb6a027dae95551b67ce75ad24b7e0db612b5cef7d45a8d12890193",
   "indexed_at": "2026-02-27T14:03:45.392Z",
-  "synced_at": "2026-02-27T18:16:36.229Z",
+  "synced_at": "2026-02-28T04:01:16.036Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cdc4b7f47b58eed7b3e780fd2b721ed90f5fa9bd9e3700bccb384e85d5eaafd2",
   "install_command": "mkdir -p .claude/skills/n8n-workflow-automation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/n8n-workflow-automation/SKILL.md\" > .claude/skills/n8n-workflow-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/n8n-workflow-automation/SKILL.md"

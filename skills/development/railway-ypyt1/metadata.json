@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "99603003b4199da9c6743e693a51d7c692b4de589f481e2239629eb35ec26ea7",
   "indexed_at": "2026-02-27T09:52:17.503Z",
-  "synced_at": "2026-02-27T13:13:41.888Z",
+  "synced_at": "2026-02-28T04:00:51.128Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7df51b2237eb91c7ac1923d680b9315d1d3acb2a1d0d973c9604119aa6a525fd",
   "install_command": "mkdir -p .claude/skills/railway && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/leicao-me/railway-skill/SKILL.md\" > .claude/skills/railway/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/leicao-me/railway-skill/SKILL.md"

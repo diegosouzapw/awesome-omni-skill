@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9baa5e4ecc400e302ba0155c761bd37ce3882d4c509a6e2e88888892f665b557",
   "indexed_at": "2026-02-27T10:50:33.397Z",
-  "synced_at": "2026-02-27T13:13:43.994Z",
+  "synced_at": "2026-02-28T04:00:54.868Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/766c3a5c23b88ffa583e179d0668313d02a557583c7ad02371b8b4dacfbc36c3",
   "install_command": "mkdir -p .claude/skills/python-patterns && curl -sL \"https://raw.githubusercontent.com/ollieb89/orchestrator/main/.windsurf/skills/python-patterns/SKILL.md\" > .claude/skills/python-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ollieb89/orchestrator/main/.windsurf/skills/python-patterns/SKILL.md"

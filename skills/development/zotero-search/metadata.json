@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3933726e47c4a05055690d64705d4e8ded0f8e51b8ae07f18557a61f592881ae",
   "indexed_at": "2026-02-27T07:30:46.633Z",
-  "synced_at": "2026-02-27T13:13:25.903Z",
+  "synced_at": "2026-02-28T04:00:24.977Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e71556615491c37c6fd7aeb85a20c43ab5e61e32c5a91f6168c52dc4b6a9af05",
   "install_command": "mkdir -p .claude/skills/zotero-search && curl -sL \"https://raw.githubusercontent.com/urschrei/zotero_search_skill/main/SKILL.md\" > .claude/skills/zotero-search/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/urschrei/zotero_search_skill/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3b485bae2ab071d3028c7913b04c1955779958eb5c54f32abf579b26c72d33d5",
   "indexed_at": "2026-02-27T11:50:32.985Z",
-  "synced_at": "2026-02-27T13:13:52.006Z",
+  "synced_at": "2026-02-28T04:01:07.271Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/467fc2a3fc7e39ab1442fb8de0f015bb264c3eab6bf6168327658972d723c09f",
   "install_command": "mkdir -p .claude/skills/app-builder && curl -sL \"https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/app-builder/SKILL.md\" > .claude/skills/app-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/app-builder/SKILL.md"

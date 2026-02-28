@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1482f50f53e57476205f4a4ed89a0417baf2507d099cc2667f400a0b8b72a442",
   "indexed_at": "2026-02-27T09:56:10.349Z",
-  "synced_at": "2026-02-27T13:13:42.381Z",
+  "synced_at": "2026-02-28T04:00:51.926Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b52f5cea5fa34cb62383e09a378e7b855fdbfbaa54fb70afa042554e9ec78a08",
   "install_command": "mkdir -p .claude/skills/api-documentation-generator && curl -sL \"https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/api-documentation-generator/SKILL.md\" > .claude/skills/api-documentation-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/api-documentation-generator/SKILL.md"

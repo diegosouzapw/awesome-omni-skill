@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5ee6279ac14baefd58b56765d401ac4b3978c801c4594498c5f68576a2e6d563",
   "indexed_at": "2026-02-27T07:54:13.672Z",
-  "synced_at": "2026-02-27T13:13:31.436Z",
+  "synced_at": "2026-02-28T04:00:33.593Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d3037d946db59e12f3a9f6b40fc99e40daaee8fb3887b9da8871b4b6dd1d109a",
   "install_command": "mkdir -p .claude/skills/shadcn-ui && curl -sL \"https://raw.githubusercontent.com/The-Baker-Street-Project/baker-street-tasks-management/main/.claude/skills/shadcn-ui/SKILL.md\" > .claude/skills/shadcn-ui/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/The-Baker-Street-Project/baker-street-tasks-management/main/.claude/skills/shadcn-ui/SKILL.md"

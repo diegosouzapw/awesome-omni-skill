@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "42df62d75704249b604da5e78c47826f8358f6c40fe0520eb33630bba51f1ab3",
   "indexed_at": "2026-02-27T08:55:59.057Z",
-  "synced_at": "2026-02-27T13:13:38.753Z",
+  "synced_at": "2026-02-28T04:00:45.947Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7b17f2dfce86d32b9291751ad456dde49d1c191ded4199457a3b1ae90b0db407",
   "install_command": "mkdir -p .claude/skills/web-scraping && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/yfe404/web-scraper/web-scraping/SKILL.md\" > .claude/skills/web-scraping/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/yfe404/web-scraper/web-scraping/SKILL.md"

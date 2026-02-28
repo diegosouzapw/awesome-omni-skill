@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eff08040f5165edea0e128b5bf9bc72a0bb49c88fa68d1ee34734d603c25b8e3",
   "indexed_at": "2026-02-27T08:46:41.450Z",
-  "synced_at": "2026-02-27T13:13:33.947Z",
+  "synced_at": "2026-02-28T04:00:37.937Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/57be885d43181a78b2f557e6f4b364d4e8aa49f589d8a93a5ca4bba39df8ba24",
   "install_command": "mkdir -p .claude/skills/cryptofeed && curl -sL \"https://raw.githubusercontent.com/tianzecn/myclaudecode/main/plugins/blockchain/skills/cryptofeed/SKILL.md\" > .claude/skills/cryptofeed/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tianzecn/myclaudecode/main/plugins/blockchain/skills/cryptofeed/SKILL.md"

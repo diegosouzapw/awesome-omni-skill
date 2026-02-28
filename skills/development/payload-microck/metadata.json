@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0a03f90efba7af04c77118ea95cd8ef4edf57becc304464e017b2bec3a3fa46f",
   "indexed_at": "2026-02-27T08:56:36.172Z",
-  "synced_at": "2026-02-27T13:13:39.615Z",
+  "synced_at": "2026-02-28T04:00:47.152Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1742f72165a2a26af64c6177ae44527876caa382aad2a690fe506b6f597bf92c",
   "install_command": "mkdir -p .claude/skills/payload && curl -sL \"https://raw.githubusercontent.com/Microck/opendots-microck/main/skills/payload/SKILL.md\" > .claude/skills/payload/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Microck/opendots-microck/main/skills/payload/SKILL.md"

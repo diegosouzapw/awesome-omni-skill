@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "146a9baba25c3bafd1ee3283b0ed13e95803e2b6029ecb6b9db9427be01cafff",
   "indexed_at": "2026-02-27T17:32:54.272Z",
-  "synced_at": "2026-02-27T18:16:49.561Z",
+  "synced_at": "2026-02-28T04:01:34.507Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d0cbdd086ce3d45307f3b1f6000a33650cdca2bb3142b76ad522320aed5b96dc",
   "install_command": "mkdir -p .claude/skills/quickcreator-skill-builder && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/kycloudtech/quickcreator-skills/quickcreator-skill-builder/SKILL.md\" > .claude/skills/quickcreator-skill-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/kycloudtech/quickcreator-skills/quickcreator-skill-builder/SKILL.md"

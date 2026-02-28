@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7cef9beb41774376fd56f4f705a68560b03d8c3d1e9365fb735be2f1de168857",
   "indexed_at": "2026-02-27T16:05:21.467Z",
-  "synced_at": "2026-02-27T18:16:43.670Z",
+  "synced_at": "2026-02-28T04:01:25.610Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a049823e760fd0b8c477b18c4a7f9c52e04155249e06aa276b9ac2a840fac598",
   "install_command": "mkdir -p .claude/skills/fullstack-template-generator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/fullstack-template-generator/SKILL.md\" > .claude/skills/fullstack-template-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/fullstack-template-generator/SKILL.md"

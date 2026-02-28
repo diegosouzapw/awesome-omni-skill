@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "900ac9158207ae33f5d9ef3ec0e429cf4c3c6bc4fc699b06fc1784706f962472",
   "indexed_at": "2026-02-27T16:47:16.761Z",
-  "synced_at": "2026-02-27T18:16:47.099Z",
+  "synced_at": "2026-02-28T04:01:30.552Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0a5cee93f15f1303c0ec9504d1df97d8f5c7e745418a37b788e3ab403bf0b74c",
   "install_command": "mkdir -p .claude/skills/claude-agent-ui-ts && curl -sL \"https://raw.githubusercontent.com/olaservo/mcp-agent-skills/main/skills/claude-agent-ui-ts/SKILL.md\" > .claude/skills/claude-agent-ui-ts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/olaservo/mcp-agent-skills/main/skills/claude-agent-ui-ts/SKILL.md"

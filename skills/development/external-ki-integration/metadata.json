@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a56462a3373913139fb29a290e582f41b1be6b0f3a8d490159ad95b7b702c5a9",
   "indexed_at": "2026-02-27T16:55:53.181Z",
-  "synced_at": "2026-02-27T18:16:48.311Z",
+  "synced_at": "2026-02-28T04:01:32.700Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f92169420be222d1cc23f190313526d885e712f49b0c38665c98e889c2ad3982",
   "install_command": "mkdir -p .claude/skills/external-ki-integration && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/konscious0beast/external-ki-integration-backup/SKILL.md\" > .claude/skills/external-ki-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/konscious0beast/external-ki-integration-backup/SKILL.md"

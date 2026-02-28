@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d0d4a35a72d19c332aaf7cfe5f4b791754288fff6162989964f98c9c45f7d0cc",
   "indexed_at": "2026-02-27T08:48:16.931Z",
-  "synced_at": "2026-02-27T13:13:34.783Z",
+  "synced_at": "2026-02-28T04:00:39.453Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/73caf08e4668156c9721460144cd9984391ee39f9d8bed54419533c790c57d20",
   "install_command": "mkdir -p .claude/skills/n8n-node-configuration && curl -sL \"https://raw.githubusercontent.com/engryamato/HVAC_Canvas_App/main/.agent/skills/n8n-node-configuration/SKILL.md\" > .claude/skills/n8n-node-configuration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/engryamato/HVAC_Canvas_App/main/.agent/skills/n8n-node-configuration/SKILL.md"

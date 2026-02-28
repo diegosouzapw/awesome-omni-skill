@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "013684cd5f87fe4f40529c0d9b189414aba08bd9b827efb257e0c47ed8963800",
   "indexed_at": "2026-02-27T16:54:51.696Z",
-  "synced_at": "2026-02-27T18:16:48.011Z",
+  "synced_at": "2026-02-28T04:01:32.160Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6df5c889bbffba21addcdcddc9669c26e4b106fc4eb70a0a737d39e3ae53ea2e",
   "install_command": "mkdir -p .claude/skills/seo-geo && curl -sL \"https://raw.githubusercontent.com/cpalumbo/GTM-consulting/main/skills/seo-geo/SKILL.md\" > .claude/skills/seo-geo/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cpalumbo/GTM-consulting/main/skills/seo-geo/SKILL.md"

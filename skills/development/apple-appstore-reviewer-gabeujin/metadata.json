@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9f8a9b195c26d8d67ffb811cdc4005987fc43ef4ed52f020358221cab559ef08",
   "indexed_at": "2026-02-27T15:04:03.987Z",
-  "synced_at": "2026-02-27T18:16:37.986Z",
+  "synced_at": "2026-02-28T04:01:18.439Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a8a7b0ce5a9485c994188b11d575c2b158d037639bbce5ba377345c6557119e8",
   "install_command": "mkdir -p .claude/skills/apple-appstore-reviewer && curl -sL \"https://raw.githubusercontent.com/Gabeujin/workspace-init-mcp/main/awesome/skills/apple-appstore-reviewer/SKILL.md\" > .claude/skills/apple-appstore-reviewer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Gabeujin/workspace-init-mcp/main/awesome/skills/apple-appstore-reviewer/SKILL.md"

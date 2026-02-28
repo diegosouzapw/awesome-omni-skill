@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "625e8196605834539ea8d3c59ae1b139e58ec0e5f9cbee7b8ee175cba54d34cc",
   "indexed_at": "2026-02-27T11:50:20.424Z",
-  "synced_at": "2026-02-27T13:13:51.937Z",
+  "synced_at": "2026-02-28T04:01:07.090Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/55f3f50b9f0343ea503b73988e12e90852b191a893b142045cd26a2e7196e84c",
   "install_command": "mkdir -p .claude/skills/vercel-deploy-claimable && curl -sL \"https://raw.githubusercontent.com/engryamato/HVAC_Canvas_App/main/.agent/skills/vercel-deploy-claimable/SKILL.md\" > .claude/skills/vercel-deploy-claimable/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/engryamato/HVAC_Canvas_App/main/.agent/skills/vercel-deploy-claimable/SKILL.md"

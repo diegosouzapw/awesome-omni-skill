@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b6b274392c3dc9d6326fdf0b14a6de2867e9258df5143240a046e7ba3347e2a8",
   "indexed_at": "2026-02-27T08:52:50.204Z",
-  "synced_at": "2026-02-27T13:13:37.862Z",
+  "synced_at": "2026-02-28T04:00:44.401Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d844cc10f8c106de24d87be699f4b8e43766359fedb2050307aaff3edaab5cfa",
   "install_command": "mkdir -p .claude/skills/api-design-principles && curl -sL \"https://raw.githubusercontent.com/JefersonCCJM/hotel_san_pedro/main/.agents/skills/api-design-principles/SKILL.md\" > .claude/skills/api-design-principles/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/JefersonCCJM/hotel_san_pedro/main/.agents/skills/api-design-principles/SKILL.md"

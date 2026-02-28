@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "550db01ec582cc223be019fdc0febbf4390d4cda490798379f7aa760254a8a6b",
   "indexed_at": "2026-02-27T08:54:34.466Z",
-  "synced_at": "2026-02-27T13:13:38.184Z",
+  "synced_at": "2026-02-28T04:00:44.923Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5a6fda860c36ac1b40169f56681eafea2b2f9532c14d941b027f676f24f5aa50",
   "install_command": "mkdir -p .claude/skills/senior-backend && curl -sL \"https://raw.githubusercontent.com/LannieYoo/gangwon-business-portal/main/.agent/skills/dev-senior_backend/SKILL.md\" > .claude/skills/senior-backend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/LannieYoo/gangwon-business-portal/main/.agent/skills/dev-senior_backend/SKILL.md"

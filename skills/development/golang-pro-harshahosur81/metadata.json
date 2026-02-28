@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "49f5ddf5bfeabfaecc53f21d3292a4748dd249aca96768620514b280b946e12e",
   "indexed_at": "2026-02-27T08:50:43.032Z",
-  "synced_at": "2026-02-27T13:13:36.243Z",
+  "synced_at": "2026-02-28T04:00:41.496Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3d70e9e01bd1efa819898606e08a1a999bd25a13a5adc7a71952b442487b7ebe",
   "install_command": "mkdir -p .claude/skills/golang-pro && curl -sL \"https://raw.githubusercontent.com/harshahosur81/ag-opencode-skills/main/skills/golang-pro/SKILL.md\" > .claude/skills/golang-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/harshahosur81/ag-opencode-skills/main/skills/golang-pro/SKILL.md"

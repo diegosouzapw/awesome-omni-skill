@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "918053d6bb7c2c2d85f43ff3c1b74619f1185d59b02887c6681e07bd69d9325e",
   "indexed_at": "2026-02-27T11:46:19.420Z",
-  "synced_at": "2026-02-27T13:13:48.925Z",
+  "synced_at": "2026-02-28T04:01:00.035Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/753c7b0baa403eac82ff598f9036a60619af9fb99c1752d3cea099e783a56986",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/GML-FMGroup/picobot/main/picobot/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/GML-FMGroup/picobot/main/picobot/skills/ui-ux-pro-max/SKILL.md"

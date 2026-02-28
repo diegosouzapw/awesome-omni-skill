@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4edb4a8e125d66993d53e386e3429d61a78b1c5204346489dabab9903bc9c58a",
   "indexed_at": "2026-02-27T16:56:25.975Z",
-  "synced_at": "2026-02-27T18:16:48.541Z",
+  "synced_at": "2026-02-28T04:01:33.054Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/16b7032da41e4e5d0affb9ccc5ab2f19ba565f16109f3cda7092abf9155a5a17",
   "install_command": "mkdir -p .claude/skills/codex-headless && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/codex-headless/SKILL.md\" > .claude/skills/codex-headless/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/codex-headless/SKILL.md"

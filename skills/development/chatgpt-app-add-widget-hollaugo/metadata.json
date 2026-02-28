@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7fca9236f58379690876e31e82119bce7105d7717cd38d80f6bfe6e68673db8a",
   "indexed_at": "2026-02-27T16:57:32.476Z",
-  "synced_at": "2026-02-27T18:16:48.992Z",
+  "synced_at": "2026-02-28T04:01:33.795Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/829f78dead330eafea9cda1ba41d5605188d23816d7b1405c44ad2437e6aea8b",
   "install_command": "mkdir -p .claude/skills/chatgpt-app-add-widget && curl -sL \"https://raw.githubusercontent.com/hollaugo/prompt-circle-marketplace/main/plugins/chatgpt-apps-builder/skills/add-widget/SKILL.md\" > .claude/skills/chatgpt-app-add-widget/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hollaugo/prompt-circle-marketplace/main/plugins/chatgpt-apps-builder/skills/add-widget/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2f6f447c4b77936b2b612d093b18f70f78576cfa8f717d255ec8a70adf5c3434",
   "indexed_at": "2026-02-27T13:23:49.454Z",
-  "synced_at": "2026-02-27T18:16:33.744Z",
+  "synced_at": "2026-02-28T04:01:12.532Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/311f09aca9477c3f0d135f3049b43abf795760875ed74d25ba95a65eb074267b",
   "install_command": "mkdir -p .claude/skills/a11y-debugging && curl -sL \"https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/main/skills/a11y-debugging/SKILL.md\" > .claude/skills/a11y-debugging/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/main/skills/a11y-debugging/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a2ffa151756ada18b28f2a07ffc2c945e2c685bd2cedec84aa8b21d6801d0d03",
   "indexed_at": "2026-02-27T17:36:55.991Z",
-  "synced_at": "2026-02-27T18:16:49.830Z",
+  "synced_at": "2026-02-28T04:01:34.975Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d2eec84cd649cfc252ae24e76fa1453e91623db8090bfe9ae1bffa395e8fef00",
   "install_command": "mkdir -p .claude/skills/skill-creator && curl -sL \"https://raw.githubusercontent.com/rapid-recovery-agency-inc/agents-skills/main/skills/generic/skill-creator/SKILL.md\" > .claude/skills/skill-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rapid-recovery-agency-inc/agents-skills/main/skills/generic/skill-creator/SKILL.md"

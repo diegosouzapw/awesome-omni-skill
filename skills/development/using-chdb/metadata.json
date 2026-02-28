@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ef2f7b6b828a59c831e9b1086beedf704d7456877ddd8597b188933c6353f7c4",
   "indexed_at": "2026-02-27T08:45:51.628Z",
-  "synced_at": "2026-02-27T13:13:33.259Z",
+  "synced_at": "2026-02-28T04:00:36.453Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2fc426169f9fcc050fafb642a18ede2ba4997fa8a66749b2871d72ad0cf07905",
   "install_command": "mkdir -p .claude/skills/using-chdb && curl -sL \"https://raw.githubusercontent.com/chdb-io/chdb/main/agent/skills/using-chdb/SKILL.md\" > .claude/skills/using-chdb/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chdb-io/chdb/main/agent/skills/using-chdb/SKILL.md"

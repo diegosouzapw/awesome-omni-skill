@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2ecc8aa832cc44613ff1e212e30b0dbb16dd2219dd4df9a4c7ed327e1750792b",
   "indexed_at": "2026-02-27T18:03:34.631Z",
-  "synced_at": "2026-02-27T18:16:53.483Z",
+  "synced_at": "2026-02-28T04:01:36.581Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/90b95e38bf9ec2f09bf42342c74293d65098108b3ed5b3a24de7d66fd9e93ea6",
   "install_command": "mkdir -p .claude/skills/jira-ticket-estimator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/jira-ticket-estimator/SKILL.md\" > .claude/skills/jira-ticket-estimator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/jira-ticket-estimator/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "22f488e105697d94a6eea9d7f5328d916895d9ff9ddf90a1fe393cc47710a42f",
   "indexed_at": "2026-02-27T11:47:24.075Z",
-  "synced_at": "2026-02-27T13:13:50.396Z",
+  "synced_at": "2026-02-28T04:01:03.516Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f46fc82756141634afaf0480bd8899c0482bd79f4c85ef9bf86defbcd4361db2",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/lukebaze/GoldScalpingBot/main/.claude/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lukebaze/GoldScalpingBot/main/.claude/skills/ui-ux-pro-max/SKILL.md"

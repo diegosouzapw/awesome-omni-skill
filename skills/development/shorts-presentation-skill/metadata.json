@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eb065e4874af415bf7aaf4917b4643e118b69776ef7c7fe23ec4e9e4be21220c",
   "indexed_at": "2026-02-27T16:08:45.757Z",
-  "synced_at": "2026-02-27T18:16:45.992Z",
+  "synced_at": "2026-02-28T04:01:28.502Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/94c1b9ded0da77e13a0c7b9dfdf05c7ece3551008c760ce724fee6e142822c5d",
   "install_command": "mkdir -p .claude/skills/shorts-presentation-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/shorts-presentation-skill/SKILL.md\" > .claude/skills/shorts-presentation-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/shorts-presentation-skill/SKILL.md"

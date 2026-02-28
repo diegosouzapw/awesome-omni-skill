@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "de0e7b34b4db6da07be2db4d9c755c0ffaa3edd6c024d422d43fbf5f25ddbd6a",
   "indexed_at": "2026-02-27T09:51:32.378Z",
-  "synced_at": "2026-02-27T13:13:41.153Z",
+  "synced_at": "2026-02-28T04:00:49.730Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/64799f94e0aae3602fd4bf0f3bb7c464465e2d28e5b4e2ffc09d16b5b8c21ba4",
   "install_command": "mkdir -p .claude/skills/nosql-databases && curl -sL \"https://raw.githubusercontent.com/iamjcabalejo/payoys-cursor-sub-agents/main/.cursor/skills/nosql-databases/SKILL.md\" > .claude/skills/nosql-databases/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/iamjcabalejo/payoys-cursor-sub-agents/main/.cursor/skills/nosql-databases/SKILL.md"

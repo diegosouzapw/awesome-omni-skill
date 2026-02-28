@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8d3b93498c89ef99222a80484525bfae6a69a19cae99490c7e08d61d7d62f3c4",
   "indexed_at": "2026-02-27T08:51:42.083Z",
-  "synced_at": "2026-02-27T13:13:37.359Z",
+  "synced_at": "2026-02-28T04:00:43.551Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8bc2024a09aa30b7073d86da7a52019c593a0484b53286e2f511106ca8167f30",
   "install_command": "mkdir -p .claude/skills/mongodb-expert && curl -sL \"https://raw.githubusercontent.com/nhonvo/Powershell/main/antigrafity-config/.agent/skills/mongodb-expert/SKILL.md\" > .claude/skills/mongodb-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nhonvo/Powershell/main/antigrafity-config/.agent/skills/mongodb-expert/SKILL.md"

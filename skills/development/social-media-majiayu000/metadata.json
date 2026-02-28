@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "613d6fe6b92c2c48b1f30855f13ef38a637895a42aa210a3570d941c251159b4",
   "indexed_at": "2026-02-27T13:23:34.193Z",
-  "synced_at": "2026-02-27T18:16:33.621Z",
+  "synced_at": "2026-02-28T04:01:12.344Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d9fbfcc9daebc2a38e10c53b06fe99ac6a794e3dca65a25bfd339587fe108bb1",
   "install_command": "mkdir -p .claude/skills/social-media && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/social-media-sgcarstrends-sgcarstrends/SKILL.md\" > .claude/skills/social-media/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/social-media-sgcarstrends-sgcarstrends/SKILL.md"

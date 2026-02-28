@@ -3,8 +3,8 @@
   "description": "Find the true source, not symptoms — systematic debugging from observation to permanent fix",
   "category": "development",
   "canonical_category": "development",
-  "repository": "fabioc-aloha/alex-in-wonderland",
-  "repository_url": "https://github.com/fabioc-aloha/alex-in-wonderland",
+  "repository": "fabioc-aloha/youtube-mcp-vscode",
+  "repository_url": "https://github.com/fabioc-aloha/youtube-mcp-vscode",
   "author": "fabioc-aloha",
   "author_avatar": "https://github.com/fabioc-aloha.png",
   "file_path": ".github/skills/root-cause-analysis/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": false,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "5efde595edd6ebe9bb985e8252549e4f429a03c8e3094ef84e5ba59cf7cc518a",
-  "indexed_at": "2026-02-26T11:55:21.177Z",
-  "synced_at": "2026-02-28T03:58:16.067Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2e4874e93f240de04c406b78deed2211e95a6e5cbbfc614d2c6415e685b5c60e",
-  "install_command": "mkdir -p .claude/skills/root-cause-analysis && curl -sL \"https://raw.githubusercontent.com/fabioc-aloha/alex-in-wonderland/main/.github/skills/root-cause-analysis/SKILL.md\" > .claude/skills/root-cause-analysis/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/fabioc-aloha/alex-in-wonderland/main/.github/skills/root-cause-analysis/SKILL.md"
+  "content_hash": "fbb851c9351e0d0f5dd597f2595375171bbafb520f8ddfb6f5c8d4cade3aa4ef",
+  "indexed_at": "2026-02-27T18:10:47.632Z",
+  "synced_at": "2026-02-28T04:01:39.151Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5947d7faeac4dea2e54fbe287eccbc35ac06824896291c7eb64407874b798888",
+  "install_command": "mkdir -p .claude/skills/root-cause-analysis && curl -sL \"https://raw.githubusercontent.com/fabioc-aloha/youtube-mcp-vscode/main/.github/skills/root-cause-analysis/SKILL.md\" > .claude/skills/root-cause-analysis/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/fabioc-aloha/youtube-mcp-vscode/main/.github/skills/root-cause-analysis/SKILL.md"
 }

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "18371a5957b361464c04f2afd113699c26f8579afb88fa44f531e1113bc33a0d",
   "indexed_at": "2026-02-27T11:46:29.470Z",
-  "synced_at": "2026-02-27T13:13:49.152Z",
+  "synced_at": "2026-02-28T04:01:00.528Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1547925893f757da77ce02f9daca39032e8bba2c1ea9f178d3f38526118740f1",
   "install_command": "mkdir -p .claude/skills/auth0-fastify && curl -sL \"https://raw.githubusercontent.com/auth0/agent-skills/main/plugins/auth0-sdks/skills/auth0-fastify/SKILL.md\" > .claude/skills/auth0-fastify/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/auth0/agent-skills/main/plugins/auth0-sdks/skills/auth0-fastify/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cb86b2b51131e027e510fc26b8702d881b520efc41ab728a3ab47a60189bbd39",
   "indexed_at": "2026-02-27T16:55:58.974Z",
-  "synced_at": "2026-02-27T18:16:48.430Z",
+  "synced_at": "2026-02-28T04:01:32.873Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/835322c50314c4e1f3e53e51630bf00255181c596fa3687e2a38523157786dd4",
   "install_command": "mkdir -p .claude/skills/seo-technical && curl -sL \"https://raw.githubusercontent.com/daniel0queiroz/paintgpt/main/.claude/skills/seo-technical/SKILL.md\" > .claude/skills/seo-technical/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/daniel0queiroz/paintgpt/main/.claude/skills/seo-technical/SKILL.md"

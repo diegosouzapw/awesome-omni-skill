@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fd8509bdb8062963684d590192955f401f394b2c11d58688af59dd66889d71e8",
   "indexed_at": "2026-02-27T15:03:57.925Z",
-  "synced_at": "2026-02-27T18:16:37.735Z",
+  "synced_at": "2026-02-28T04:01:18.107Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d7262ea6109b5476423517606278aa40f6da6bf214be116960bdeb0af059e803",
   "install_command": "mkdir -p .claude/skills/github-copilot-starter && curl -sL \"https://raw.githubusercontent.com/sandriaas/_dotfiles/main/.agents/skills/github-copilot-starter/SKILL.md\" > .claude/skills/github-copilot-starter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sandriaas/_dotfiles/main/.agents/skills/github-copilot-starter/SKILL.md"

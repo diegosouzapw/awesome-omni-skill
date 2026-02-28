@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f52ae6a975c3e715330d7f9a81ed15bcb71de4f383a7fcf4ee457846f2a958f0",
   "indexed_at": "2026-02-27T11:56:16.067Z",
-  "synced_at": "2026-02-27T13:13:52.879Z",
+  "synced_at": "2026-02-28T04:01:09.372Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d6ea8ae8230669fe68671838c9c1c6eb9d1dfb69e6747d0789fd7f618d7f2a17",
   "install_command": "mkdir -p .claude/skills/uvicorn && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/uvicorn/SKILL.md\" > .claude/skills/uvicorn/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/uvicorn/SKILL.md"

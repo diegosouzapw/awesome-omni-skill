@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "18f87a7a6f418711dee090de07aed8b47f62bbf3432746fdc9e8f2b2e9eb5105",
   "indexed_at": "2026-02-27T11:53:32.652Z",
-  "synced_at": "2026-02-27T13:13:52.679Z",
+  "synced_at": "2026-02-28T04:01:08.881Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e88e5d59e4942d04d7aafe3af06d2a1ac3cfc7109421f373479c27c504c71899",
   "install_command": "mkdir -p .claude/skills/python-patterns && curl -sL \"https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-python-patterns/SKILL.md\" > .claude/skills/python-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-python-patterns/SKILL.md"

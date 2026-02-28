@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a8681897a3d43c20f6f1c7f02c4f36ee938134925b99d6a3f8a78911adbabf5b",
   "indexed_at": "2026-02-27T11:47:13.926Z",
-  "synced_at": "2026-02-27T13:13:49.945Z",
+  "synced_at": "2026-02-28T04:01:02.483Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/841abba3c8ceff5954f5d45a0d06daa6d834a8b3a7d3abbd730e2c5764c6d23c",
   "install_command": "mkdir -p .claude/skills/senior-fullstack && curl -sL \"https://raw.githubusercontent.com/mcauduro0/Macro_Trading/main/.claude/skills/alireza-senior-fullstack/SKILL.md\" > .claude/skills/senior-fullstack/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mcauduro0/Macro_Trading/main/.claude/skills/alireza-senior-fullstack/SKILL.md"

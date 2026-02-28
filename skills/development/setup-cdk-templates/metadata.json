@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "74cd3897d635aa30f60c50921a12a198db923ed9884528a656cf5944b44ee627",
   "indexed_at": "2026-02-27T11:56:25.124Z",
-  "synced_at": "2026-02-27T13:13:53.154Z",
+  "synced_at": "2026-02-28T04:01:09.938Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c3ad89b9828439bdca55b4ec254a2ac2e2f498e1232a28a571048b332cba9666",
   "install_command": "mkdir -p .claude/skills/setup-cdk-templates && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/setup-cdk-templates/SKILL.md\" > .claude/skills/setup-cdk-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/setup-cdk-templates/SKILL.md"

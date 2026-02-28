@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "84c4ac58b468a766505d58a2b99ea3afa56d9b33f02b126940e91cce2792aade",
   "indexed_at": "2026-02-27T11:47:40.469Z",
-  "synced_at": "2026-02-27T13:13:50.767Z",
+  "synced_at": "2026-02-28T04:01:04.492Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/50780662f7de62aec3924e82bce38636d955ffcd1701992473555a34dac38371",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/tkhwang/tk-better-app/main/.claude/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tkhwang/tk-better-app/main/.claude/skills/ui-ux-pro-max/SKILL.md"

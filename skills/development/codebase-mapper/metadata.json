@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2db31c3f278af6047c7b4064583796f12cfae2ef03dfa35f12b3d4f1ac4fdfaa",
   "indexed_at": "2026-02-27T10:53:19.232Z",
-  "synced_at": "2026-02-27T13:13:45.135Z",
+  "synced_at": "2026-02-28T04:00:56.829Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a341044f87a7b45ae66ff705bb0a5703bdbb64ca877a1aa06e7c0174c406443b",
   "install_command": "mkdir -p .claude/skills/codebase-mapper && curl -sL \"https://raw.githubusercontent.com/darthmolen/ai-plugins-and-skills/main/skills/codebase-mapper/SKILL.md\" > .claude/skills/codebase-mapper/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/darthmolen/ai-plugins-and-skills/main/skills/codebase-mapper/SKILL.md"

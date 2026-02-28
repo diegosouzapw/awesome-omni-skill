@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0b12c6b3479448ac31ff951ce41854c3f89e564bf508cfd25c0ad901c86aaed7",
   "indexed_at": "2026-02-27T06:54:00.088Z",
-  "synced_at": "2026-02-27T13:13:25.007Z",
+  "synced_at": "2026-02-28T04:00:23.381Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ace2a4aa4ba56c0254a1541e522ba5665d4efb43e633f857ace3ef76f30f8456",
   "install_command": "mkdir -p .claude/skills/javascript-typescript-typescript-scaffold && curl -sL \"https://raw.githubusercontent.com/engryamato/HVAC_Canvas_App/main/.agent/skills/javascript-typescript-typescript-scaffold/SKILL.md\" > .claude/skills/javascript-typescript-typescript-scaffold/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/engryamato/HVAC_Canvas_App/main/.agent/skills/javascript-typescript-typescript-scaffold/SKILL.md"

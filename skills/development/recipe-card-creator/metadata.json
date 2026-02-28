@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e4768ab70de5a76fcc507c4fce5382b09e2266d4e564b7cccb6cccab48e89983",
   "indexed_at": "2026-02-27T15:08:53.905Z",
-  "synced_at": "2026-02-27T18:16:40.509Z",
+  "synced_at": "2026-02-28T04:01:21.425Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c34ac1006e5d65769c673eeac0166fff1fb75f5973625ec3a3768a9ef3be0461",
   "install_command": "mkdir -p .claude/skills/recipe-card-creator && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/travisjneuman/.claude/recipe-card-creator/SKILL.md\" > .claude/skills/recipe-card-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/travisjneuman/.claude/recipe-card-creator/SKILL.md"

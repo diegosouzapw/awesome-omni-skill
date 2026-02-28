@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "87a4182bb1617e1404876d5d688494a1f6376a1bb6d18146d779fd4183b7f6b7",
   "indexed_at": "2026-02-27T08:48:19.724Z",
-  "synced_at": "2026-02-27T13:13:34.970Z",
+  "synced_at": "2026-02-28T04:00:39.795Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3d06addd7fc17885347e4721d7cae806bf443d488826af7b5d0e17e7ebe8a4fa",
   "install_command": "mkdir -p .claude/skills/n8n-node-configuration && curl -sL \"https://raw.githubusercontent.com/Spark014/Kawn-labs/main/.agent/skills/n8n-node-configuration/SKILL.md\" > .claude/skills/n8n-node-configuration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Spark014/Kawn-labs/main/.agent/skills/n8n-node-configuration/SKILL.md"

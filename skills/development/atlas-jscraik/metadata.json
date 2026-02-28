@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "327232b176b7afafac97f4c6bee4c91bcb0d18a0008933fd01e3a1c77357175b",
   "indexed_at": "2026-02-27T16:54:28.607Z",
-  "synced_at": "2026-02-27T18:16:47.828Z",
+  "synced_at": "2026-02-28T04:01:31.835Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c466bc47257e54f5c3ea0f45c7aeb2e1740e52582c1a16d25416833d5db33027",
   "install_command": "mkdir -p .claude/skills/atlas && curl -sL \"https://raw.githubusercontent.com/jscraik/Agent-Skills/main/utilities/atlas/SKILL.md\" > .claude/skills/atlas/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jscraik/Agent-Skills/main/utilities/atlas/SKILL.md"

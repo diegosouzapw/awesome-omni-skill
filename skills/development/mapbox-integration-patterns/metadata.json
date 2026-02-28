@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dcbbd6936ec9a9d8b57be4b1656be8e4863c84a8959745d702cbef526a484e6b",
   "indexed_at": "2026-02-27T13:24:45.027Z",
-  "synced_at": "2026-02-27T18:16:34.755Z",
+  "synced_at": "2026-02-28T04:01:13.986Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fed3a2c2e74ddbed0133636a84524599f3f6d99b52b8d5def46fc6753fd073ab",
   "install_command": "mkdir -p .claude/skills/mapbox-integration-patterns && curl -sL \"https://raw.githubusercontent.com/mapbox/mcp-devkit-server/main/skills/mapbox-integration-patterns/SKILL.md\" > .claude/skills/mapbox-integration-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mapbox/mcp-devkit-server/main/skills/mapbox-integration-patterns/SKILL.md"

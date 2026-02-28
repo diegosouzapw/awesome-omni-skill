@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "541db9e0b6907417b3bbe796afe5663d10c0552317994f32755d6817513fff54",
   "indexed_at": "2026-02-27T08:45:49.595Z",
-  "synced_at": "2026-02-27T13:13:33.177Z",
+  "synced_at": "2026-02-28T04:00:36.305Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/02bf85fa2136878abe8e9b092aa09a6dff711387bee286be9e90e3431dca7c19",
   "install_command": "mkdir -p .claude/skills/cryptofeed && curl -sL \"https://raw.githubusercontent.com/2025Emma/vibe-coding-cn/main/i18n/zh/skills/cryptofeed/SKILL.md\" > .claude/skills/cryptofeed/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/2025Emma/vibe-coding-cn/main/i18n/zh/skills/cryptofeed/SKILL.md"

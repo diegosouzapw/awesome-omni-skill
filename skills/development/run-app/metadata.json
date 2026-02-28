@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "82b7b7fabeb79c946c5e7155cef1a0698099113f9ad62ea7cb6f6258cb3ffa8d",
   "indexed_at": "2026-02-27T10:53:29.183Z",
-  "synced_at": "2026-02-27T13:13:45.388Z",
+  "synced_at": "2026-02-28T04:00:57.350Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/84a990605b413b3852ede317212a9b93c5f978bbff3fc6e8da794544be9510f7",
   "install_command": "mkdir -p .claude/skills/run-app && curl -sL \"https://raw.githubusercontent.com/Lartirigoyen/template-embajadores/main/.cursor/skills/run-app/SKILL.md\" > .claude/skills/run-app/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Lartirigoyen/template-embajadores/main/.cursor/skills/run-app/SKILL.md"

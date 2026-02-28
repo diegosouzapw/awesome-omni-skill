@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0ca28b5a2f5b46a9fa84ec0d4d017938a631d92298524b5d82f410c1e94cdae6",
   "indexed_at": "2026-02-27T06:53:18.220Z",
-  "synced_at": "2026-02-27T13:13:24.383Z",
+  "synced_at": "2026-02-28T04:00:22.506Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/777126500923ce6ff3e33db8fe8b2fbe7018a9b0b0bf51ebbf315b4843e7f801",
   "install_command": "mkdir -p .claude/skills/scalardb-sizing-estimator && curl -sL \"https://raw.githubusercontent.com/wfukatsu/architecture-redesign-agent/main/.claude/skills/scalardb-sizing-estimator/SKILL.md\" > .claude/skills/scalardb-sizing-estimator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wfukatsu/architecture-redesign-agent/main/.claude/skills/scalardb-sizing-estimator/SKILL.md"

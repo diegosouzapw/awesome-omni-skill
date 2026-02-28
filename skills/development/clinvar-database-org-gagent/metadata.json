@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f3010a48ca4422e853fef23b86041781717da898e0a8efe8ac243212baa6bd48",
   "indexed_at": "2026-02-27T08:48:10.360Z",
-  "synced_at": "2026-02-27T13:13:34.659Z",
+  "synced_at": "2026-02-28T04:00:39.288Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/23c442af892eb5452d245db67d56662b19df894aee208cb5dc4cf26f7fef376f",
   "install_command": "mkdir -p .claude/skills/clinvar-database && curl -sL \"https://raw.githubusercontent.com/Org-GAgent/result-interpreter/main/.skills/scientific-skills/clinvar-database/SKILL.md\" > .claude/skills/clinvar-database/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Org-GAgent/result-interpreter/main/.skills/scientific-skills/clinvar-database/SKILL.md"

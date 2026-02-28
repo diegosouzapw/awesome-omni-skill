@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "72292559e3e129cb355aa1a40005d380b5ce03eb3b3a377f1427c6006e03a7b1",
   "indexed_at": "2026-02-27T16:11:34.415Z",
-  "synced_at": "2026-02-27T18:16:46.514Z",
+  "synced_at": "2026-02-28T04:01:29.391Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/72813d37e45458300494c078b7e640ab108fcf3488f3a58d79a30e6f71025789",
   "install_command": "mkdir -p .claude/skills/shorts-presentation-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/design/shorts-presentation-skill-sgobet-ai-powered-youtube-w/SKILL.md\" > .claude/skills/shorts-presentation-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/design/shorts-presentation-skill-sgobet-ai-powered-youtube-w/SKILL.md"

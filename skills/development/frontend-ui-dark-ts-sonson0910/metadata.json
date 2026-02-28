@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ba16f7b0e6d342a01d60f2aabe5938b2692b9c67260c84ad990ced26d086af99",
   "indexed_at": "2026-02-27T08:57:23.039Z",
-  "synced_at": "2026-02-27T13:13:39.951Z",
+  "synced_at": "2026-02-28T04:00:47.827Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5e2a8eeab8c57a37592d2427d00efd003934b251ac741690cece97eb6af63938",
   "install_command": "mkdir -p .claude/skills/frontend-ui-dark-ts && curl -sL \"https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/frontend-ui-dark-ts/SKILL.md\" > .claude/skills/frontend-ui-dark-ts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/frontend-ui-dark-ts/SKILL.md"

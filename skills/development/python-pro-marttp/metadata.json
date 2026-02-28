@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "644cc5af3230ab1e77db447db29fe1cf5778905a1ee69810924df3e3b52bbac0",
   "indexed_at": "2026-02-27T10:53:16.057Z",
-  "synced_at": "2026-02-27T13:13:45.013Z",
+  "synced_at": "2026-02-28T04:00:56.661Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/034e6a6d0e083fccbfd8c00afc7903450aefd68fe8a9b26803c9285c4de38057",
   "install_command": "mkdir -p .claude/skills/python-pro && curl -sL \"https://raw.githubusercontent.com/marttp/my_agent_skills_I_use/main/python-pro/SKILL.md\" > .claude/skills/python-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/marttp/my_agent_skills_I_use/main/python-pro/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ca8e8d3c6dae40da82c4e512dfc95282e9e51b6bea68f910604e66a6264a676d",
   "indexed_at": "2026-02-27T15:04:42.607Z",
-  "synced_at": "2026-02-27T18:16:38.620Z",
+  "synced_at": "2026-02-28T04:01:19.084Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fe416345be04380aa3b43483da3f47d8e1e1d6b03920ebb0fe5e3a2ab3ca3203",
   "install_command": "mkdir -p .claude/skills/cloudbase-guidelines && curl -sL \"https://raw.githubusercontent.com/TencentCloudBase/CloudBase-MCP/main/scripts/skills-repo-template/cloudbase-guidelines/SKILL.md\" > .claude/skills/cloudbase-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TencentCloudBase/CloudBase-MCP/main/scripts/skills-repo-template/cloudbase-guidelines/SKILL.md"

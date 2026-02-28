@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bf0697dafff75b2fb3c3aed3202365506152898407ae4528f6e0ca5039c863a4",
   "indexed_at": "2026-02-27T07:52:13.825Z",
-  "synced_at": "2026-02-27T13:13:30.368Z",
+  "synced_at": "2026-02-28T04:00:32.119Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2b5d21470525749c7f57880d9ebe1712621d522103a6b832f4cabef245b8765a",
   "install_command": "mkdir -p .claude/skills/frontend-responsive-design-standards && curl -sL \"https://raw.githubusercontent.com/am-will/codex-skills/main/skills/frontend-responsive-ui/SKILL.md\" > .claude/skills/frontend-responsive-design-standards/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/skills/frontend-responsive-ui/SKILL.md"
