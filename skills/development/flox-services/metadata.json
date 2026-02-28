@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4a981931f417a6ecb1a8b9a32b06c86d1c944c0ad15b328f4844dfc118caa584",
   "indexed_at": "2026-02-26T08:51:17.748Z",
-  "synced_at": "2026-02-27T02:31:07.424Z",
+  "synced_at": "2026-02-28T03:56:47.267Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed3ef1ee28c371c3814d5acc5232bc400850eedd40cefd9c0ef0deb8038174de",
   "install_command": "mkdir -p .claude/skills/flox-services && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/flox-services/SKILL.md\" > .claude/skills/flox-services/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/flox-services/SKILL.md"

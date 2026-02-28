@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6e504e53ddfc50b40b3e98ca5c1200535ec51ddae74f0ad1442cfc1a6d3bfe06",
   "indexed_at": "2026-02-26T07:45:28.259Z",
-  "synced_at": "2026-02-27T02:30:24.946Z",
+  "synced_at": "2026-02-28T03:56:08.878Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2740c1e1b16e4446fda6d8550536a0aee82400aa67b0cf241f0c416e20ed43fc",
   "install_command": "mkdir -p .claude/skills/api-testing && curl -sL \"https://raw.githubusercontent.com/meirm/askGPT/main/examples/skills/api-testing/SKILL.md\" > .claude/skills/api-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/meirm/askGPT/main/examples/skills/api-testing/SKILL.md"

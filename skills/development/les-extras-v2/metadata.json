@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "141c2302083c5086dff39ef60246cb6906ef766f48254d38cde47e1a5925838e",
   "indexed_at": "2026-02-26T06:54:40.493Z",
-  "synced_at": "2026-02-27T02:30:15.728Z",
+  "synced_at": "2026-02-28T03:56:00.041Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/48e9eb62d07e1c194c354949817ce2347fae09c4f49825d77bd8396fa4701159",
   "install_command": "mkdir -p .claude/skills/les-extras-v2 && curl -sL \"https://raw.githubusercontent.com/tachfineamnay/SocioPulseV1/main/SKILL.md\" > .claude/skills/les-extras-v2/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tachfineamnay/SocioPulseV1/main/SKILL.md"

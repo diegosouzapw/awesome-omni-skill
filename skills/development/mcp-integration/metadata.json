@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4a44f352123dc89af1d0011319aebfb29e26c35ee308b849f8910074b83ed31d",
   "indexed_at": "2026-02-26T07:55:51.614Z",
-  "synced_at": "2026-02-27T02:30:45.152Z",
+  "synced_at": "2026-02-28T03:56:27.585Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5b9f7acc4ef37b1c83f0098ca9ff0dca7408dbc314fa34a41d1008cfe5a86864",
   "install_command": "mkdir -p .claude/skills/mcp-integration && curl -sL \"https://raw.githubusercontent.com/89jobrien/pjlib/main/skills/mcp-integration/SKILL.md\" > .claude/skills/mcp-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/89jobrien/pjlib/main/skills/mcp-integration/SKILL.md"

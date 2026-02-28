@@ -69,6 +69,10 @@ before making a recommendation. The deep-research skill governs how to do this r
 **Then:** Load browser-agent skill. Reason: Interacting with a live web page requires the browser
 subagent. The browser-agent skill governs prerequisites, request framing, and completion criteria.
 
+**Given:** User says "Should I update these packages?" or "Add lodash to the project" or "npm audit found vulnerabilities"
+**Then:** Load dependency-management skill. Reason: Dependency decisions require evaluating
+trade-offs. The dependency-management skill governs how to assess, update, and audit packages.
+
 ## Skill Priority
 
 1. **Process skills first** (brainstorming, systematic-debugging) — HOW to approach the task
@@ -141,3 +145,15 @@ If the current mode doesn't match the work phase, prompt the user: *"I am starti
 ## User Instructions
 
 Instructions say WHAT, not HOW. "Add X" or "Fix Y" doesn't mean skip workflows.
+
+## Specialist Skills
+
+| Skill | When to use |
+|-------|-------------|
+| `deep-research` | Task needs external information before proceeding |
+| `performance-optimization` | Code needs profiling and optimization |
+| `security-review` | Code touches auth, input handling, or sensitive data |
+| `architecture-design` | Designing systems, APIs, or significant features |
+| `confidence-check` | About to implement — verifies readiness |
+| `browser-agent` | Interacting with web browser, testing UI flows, verifying web app behavior |
+| `dependency-management` | Adding, updating, auditing, or evaluating project dependencies |

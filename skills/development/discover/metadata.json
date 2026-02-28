@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "903edafc8073b8abb947713fbf4ac769babded593dad30896442d7cd164ff9c0",
   "indexed_at": "2026-02-26T08:56:42.837Z",
-  "synced_at": "2026-02-27T02:31:20.691Z",
+  "synced_at": "2026-02-28T03:57:00.396Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2b71c9682f9af81a07966b3f39221b72d71d6416fab4903cd3d657216bd1eb82",
   "install_command": "mkdir -p .claude/skills/discover && curl -sL \"https://raw.githubusercontent.com/auge2u/lisa3/main/plugins/lisa/skills/discover/SKILL.md\" > .claude/skills/discover/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/auge2u/lisa3/main/plugins/lisa/skills/discover/SKILL.md"

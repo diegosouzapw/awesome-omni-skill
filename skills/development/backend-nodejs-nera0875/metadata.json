@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4e92b2a71d7767d2261b252c0c41a393032da802fa6f81e9e74ef2e16ce8e533",
   "indexed_at": "2026-02-26T07:47:22.801Z",
-  "synced_at": "2026-02-27T02:30:29.300Z",
+  "synced_at": "2026-02-28T03:56:13.116Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/163455c3780c62b0afce5a94e9aaba446becf311e81791956966d23934907b01",
   "install_command": "mkdir -p .claude/skills/backend-nodejs && curl -sL \"https://raw.githubusercontent.com/nera0875/BUILDER/main/.claude/skills/backend-nodejs/SKILL.md\" > .claude/skills/backend-nodejs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nera0875/BUILDER/main/.claude/skills/backend-nodejs/SKILL.md"

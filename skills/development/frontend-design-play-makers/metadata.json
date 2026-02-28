@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "765d0f8818a49f2c24103fed659931689c1b9fe39f39471b342616b049a756e7",
   "indexed_at": "2026-02-26T06:54:50.126Z",
-  "synced_at": "2026-02-27T02:30:16.895Z",
+  "synced_at": "2026-02-28T03:56:01.137Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1360e175db5d531ce37d917e853ff5b728d9982ead2f942edac8460438521556",
   "install_command": "mkdir -p .claude/skills/frontend-design && curl -sL \"https://raw.githubusercontent.com/play-makers/Music-player/main/.agent/skills/frontend-design/SKILL.md\" > .claude/skills/frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/play-makers/Music-player/main/.agent/skills/frontend-design/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "282d07dd0f6513ec33c4563ff4e314ca710466192b80ce0c91479ab048b3fb95",
   "indexed_at": "2026-02-26T07:56:00.896Z",
-  "synced_at": "2026-02-27T02:30:45.551Z",
+  "synced_at": "2026-02-28T03:56:27.940Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/897b2c619d3e9198ee8f8938c90adb9debb0932d9ebe61e3f999c4ca094d245d",
   "install_command": "mkdir -p .claude/skills/mobile-developer && curl -sL \"https://raw.githubusercontent.com/itsimonfredlingjack/codex-dev-plugin/main/.codex/skills/mobile-developer/SKILL.md\" > .claude/skills/mobile-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/itsimonfredlingjack/codex-dev-plugin/main/.codex/skills/mobile-developer/SKILL.md"

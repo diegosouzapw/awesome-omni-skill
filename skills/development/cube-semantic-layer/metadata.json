@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "80160303f3c78ecf9e02f30ca2f05b6484fd7afea373b0b103ba84d8dde83386",
   "indexed_at": "2026-02-26T07:45:15.009Z",
-  "synced_at": "2026-02-27T02:30:24.506Z",
+  "synced_at": "2026-02-28T03:56:08.433Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b37100bc446a6e7abab64c1b6d20887e2b1bfe45e938c2ba38fcf87746691dd5",
   "install_command": "mkdir -p .claude/skills/cube-semantic-layer && curl -sL \"https://raw.githubusercontent.com/Obsidian-Owl/floe/main/docs/reference/cube-skill.md/SKILL.md\" > .claude/skills/cube-semantic-layer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Obsidian-Owl/floe/main/docs/reference/cube-skill.md/SKILL.md"

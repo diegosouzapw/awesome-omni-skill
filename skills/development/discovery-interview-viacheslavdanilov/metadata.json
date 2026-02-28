@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "30032563b4bdd869de2e77979d9f0660133304cbe7da88af16f59d4095fcdbc7",
   "indexed_at": "2026-02-26T09:47:41.843Z",
-  "synced_at": "2026-02-27T02:31:26.761Z",
+  "synced_at": "2026-02-28T03:57:06.154Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/91ad96e541953a68c274379ac6122f3967389297cde016743cd6adc63d3a43cb",
   "install_command": "mkdir -p .claude/skills/discovery-interview && curl -sL \"https://raw.githubusercontent.com/ViacheslavDanilov/plaque-risk-explorer/main/.agents/skills/discovery-interview/SKILL.md\" > .claude/skills/discovery-interview/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ViacheslavDanilov/plaque-risk-explorer/main/.agents/skills/discovery-interview/SKILL.md"

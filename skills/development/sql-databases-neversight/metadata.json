@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a3749d07faad15c4da886a22163caf5f527c628b33bbeb4547ac4b1c9ae8c9e3",
   "indexed_at": "2026-02-26T08:47:01.757Z",
-  "synced_at": "2026-02-27T02:30:54.074Z",
+  "synced_at": "2026-02-28T03:56:36.150Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e84901e8c24bc11d1433be1eea38ee850aed8d29e3f684680d21a6d90b817aa0",
   "install_command": "mkdir -p .claude/skills/sql-databases && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/pluginagentmarketplace/custom-plugin-data-engineer/sql-databases/SKILL.md\" > .claude/skills/sql-databases/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/pluginagentmarketplace/custom-plugin-data-engineer/sql-databases/SKILL.md"

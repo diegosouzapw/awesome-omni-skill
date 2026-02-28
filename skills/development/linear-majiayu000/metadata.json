@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a5aafae7b0cc42a8872a95b3979f015a4c355b1822a2547196fecd741e7d5e64",
   "indexed_at": "2026-02-26T07:53:57.689Z",
-  "synced_at": "2026-02-27T02:30:40.791Z",
+  "synced_at": "2026-02-28T03:56:23.697Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c6376458ed7dd860f44075df609b44bbbcaa7c2ffe2c473c4a217576fe5d8030",
   "install_command": "mkdir -p .claude/skills/linear && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/linear-claude-skill/SKILL.md\" > .claude/skills/linear/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/linear-claude-skill/SKILL.md"

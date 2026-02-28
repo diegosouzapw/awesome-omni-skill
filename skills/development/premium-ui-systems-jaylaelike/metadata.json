@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d5802787fb53f63fccf447ae44a08668d8fcd5d11dd7b1b2e10de8df8d81ada4",
   "indexed_at": "2026-02-26T06:51:36.488Z",
-  "synced_at": "2026-02-27T02:30:06.908Z",
+  "synced_at": "2026-02-28T03:55:52.099Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6ec39eea23641c5eeb64fdb7ab39bd650b92e1e3c971c5f5b13975052b49384f",
   "install_command": "mkdir -p .claude/skills/premium-ui-systems && curl -sL \"https://raw.githubusercontent.com/Jaylaelike/pm25-interactive-thaipbs-app/main/.claude/skills/premium-ui-systems/SKILL.md\" > .claude/skills/premium-ui-systems/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Jaylaelike/pm25-interactive-thaipbs-app/main/.claude/skills/premium-ui-systems/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "61e4062c6a4b050ca318bd742d0e18d92cbff86ba876b25e762385cd573ec155",
   "indexed_at": "2026-02-26T06:48:13.477Z",
-  "synced_at": "2026-02-27T02:29:52.913Z",
+  "synced_at": "2026-02-28T03:55:40.478Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8428d2595c88f11dbc929460b9a26df5cc243438913cdeae45d57302ec9469bb",
   "install_command": "mkdir -p .claude/skills/frontend-design && curl -sL \"https://raw.githubusercontent.com/rmunoz33/dnd-homebrew-frontend/main/.claude/skills/frontend-design/SKILL.md\" > .claude/skills/frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rmunoz33/dnd-homebrew-frontend/main/.claude/skills/frontend-design/SKILL.md"

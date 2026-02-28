@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7162af117f7c9e55b230f38910d2f1beb0856c6f669517c944548c58d8e084ca",
   "indexed_at": "2026-02-26T06:53:09.224Z",
-  "synced_at": "2026-02-27T02:30:10.614Z",
+  "synced_at": "2026-02-28T03:55:55.524Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8a52b40aa025e703e52507a1fd815fc48735808011f12e324a7f88cdea64f248",
   "install_command": "mkdir -p .claude/skills/arach && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/arach/SKILL.md\" > .claude/skills/arach/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/arach/SKILL.md"

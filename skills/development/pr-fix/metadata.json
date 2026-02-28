@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "20a95968052d253e6da4c2b32bbfb18bc938a59cacf6464539710d31b7a04cce",
   "indexed_at": "2026-02-26T07:48:28.674Z",
-  "synced_at": "2026-02-27T02:30:32.104Z",
+  "synced_at": "2026-02-28T03:56:15.886Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ae03c1098e881a74bda6db5b5df9baf8c0dedaba3488fe1ed678820f9f7b7256",
   "install_command": "mkdir -p .claude/skills/pr-fix && curl -sL \"https://raw.githubusercontent.com/lynnswap/PDSkills/main/skills/common/pr-fix/SKILL.md\" > .claude/skills/pr-fix/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lynnswap/PDSkills/main/skills/common/pr-fix/SKILL.md"

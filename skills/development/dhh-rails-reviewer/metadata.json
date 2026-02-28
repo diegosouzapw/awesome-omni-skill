@@ -3,8 +3,8 @@
   "description": "Brutally honest Rails code review from DHH's perspective. Use when reviewing Rails code for anti-patterns, JS framework contamination, or violations of Rails conventions.",
   "category": "development",
   "canonical_category": "development",
-  "repository": "udecode/plate",
-  "repository_url": "https://github.com/udecode/plate",
+  "repository": "udecode/better-convex",
+  "repository_url": "https://github.com/udecode/better-convex",
   "author": "udecode",
   "author_avatar": "https://github.com/udecode.png",
   "file_path": ".codex/skills/dhh-rails-reviewer/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": false,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "2e24e921bdaaa1eb161ee7dc54add58e8462b3059f944faf513656b017eba092",
-  "indexed_at": "2026-02-27T07:51:07.449Z",
-  "synced_at": "2026-02-27T13:13:30.020Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/50328aca7c5521bee6dcd9a7de6dfca7108b1b7d11d41c8cbe85f4af363ce0f8",
-  "install_command": "mkdir -p .claude/skills/dhh-rails-reviewer && curl -sL \"https://raw.githubusercontent.com/udecode/plate/main/.codex/skills/dhh-rails-reviewer/SKILL.md\" > .claude/skills/dhh-rails-reviewer/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/udecode/plate/main/.codex/skills/dhh-rails-reviewer/SKILL.md"
+  "content_hash": "08494ade929c1a7409e75e93c52686642135116af1af061688cce3d30f3a4ae8",
+  "indexed_at": "2026-02-26T07:55:29.966Z",
+  "synced_at": "2026-02-28T03:56:26.886Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ef5c3bd82381432c291eb93266fd38f9c3a27dc6297d0d00d8a429ee03b65277",
+  "install_command": "mkdir -p .claude/skills/dhh-rails-reviewer && curl -sL \"https://raw.githubusercontent.com/udecode/better-convex/main/.codex/skills/dhh-rails-reviewer/SKILL.md\" > .claude/skills/dhh-rails-reviewer/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/udecode/better-convex/main/.codex/skills/dhh-rails-reviewer/SKILL.md"
 }

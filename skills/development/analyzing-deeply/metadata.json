@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b88fcc0c057a5e8ff0ee8dbb135c0f0dbdbcf6158ec880d7c332630b2edc2b6e",
   "indexed_at": "2026-02-26T08:53:19.798Z",
-  "synced_at": "2026-02-27T02:31:13.305Z",
+  "synced_at": "2026-02-28T03:56:52.738Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d6585e861cca02863b81c8de29f3fb7d44b1e1c232013b0d3322552f10152b4e",
   "install_command": "mkdir -p .claude/skills/analyzing-deeply && curl -sL \"https://raw.githubusercontent.com/rysweet/amplihack/main/.claude/skills/meta-cognitive/analyzing-deeply/SKILL.md\" > .claude/skills/analyzing-deeply/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rysweet/amplihack/main/.claude/skills/meta-cognitive/analyzing-deeply/SKILL.md"

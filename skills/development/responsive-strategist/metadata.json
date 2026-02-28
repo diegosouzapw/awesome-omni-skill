@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "92554f76dd0f5043bbb90cd5d2e4e118a7eaceb70babc0f6d4067318d5cf4446",
   "indexed_at": "2026-02-26T06:48:46.687Z",
-  "synced_at": "2026-02-27T02:29:57.507Z",
+  "synced_at": "2026-02-28T03:55:43.238Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f5b41395e6b1e429fd283801742326906f6a55a6da99c557c8d1b802847fb166",
   "install_command": "mkdir -p .claude/skills/responsive-strategist && curl -sL \"https://raw.githubusercontent.com/udn/Jasminedesignsystem/main/.cursor/skills/responsive-strategist/SKILL.md\" > .claude/skills/responsive-strategist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/udn/Jasminedesignsystem/main/.cursor/skills/responsive-strategist/SKILL.md"

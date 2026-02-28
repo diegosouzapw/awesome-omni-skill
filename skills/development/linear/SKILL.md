@@ -388,6 +388,66 @@ Task({
 
 See **[sync.md](sync.md)** for parallel execution patterns.
 
+## Image Uploads
+
+### Step 1: Extract the image from conversation context
+
+Images shared inline in Claude Code are **not** saved to disk automatically — they live as base64 in the session JSONL. Use the extraction script:
+
+```bash
+# Find the current session JSONL
+ls -t ~/.claude/projects/<project-path>/*.jsonl | head -1
+
+# Extract all inline images (saves to /tmp by default)
+npx tsx scripts/extract-image.ts <path-to-session.jsonl>
+
+# Or specify a custom output directory
+npx tsx scripts/extract-image.ts <path-to-session.jsonl> ~/Desktop
+```
+
+This saves images to `/tmp/shared-image-0.png`, `/tmp/shared-image-1.png`, etc.
+
+> **Always verify** the extracted image with the Read tool before uploading.
+
+### Step 2: Create the issue
+
+```bash
+# Standard approach
+npx tsx scripts/linear-ops.ts create-issue "Project Name" "Issue title" "Description"
+```
+
+> **Note**: If you need to target a specific team and `create-issue` picks the wrong one, use GraphQL with explicit `teamId`:
+>
+> ```bash
+> # Get the project's team
+> npx tsx scripts/query.ts 'query { projects(filter: { name: { containsIgnoreCase: "PROJECT NAME" } }) { nodes { id name teams { nodes { id name key } } } } }'
+>
+> # Create with explicit teamId
+> npx tsx scripts/query.ts 'mutation { issueCreate(input: { teamId: "TEAM_UUID", projectId: "PROJECT_UUID", title: "Issue title", description: "Description" }) { success issue { id identifier url } } }'
+> ```
+
+### Step 3: Upload the image and attach to the issue
+
+```bash
+npx tsx scripts/upload-image.ts /tmp/shared-image-0.png ENG-123 "Optional comment text"
+```
+
+The script will:
+1. Upload the file to Linear's S3 storage
+2. Post a comment on the issue with the image embedded as markdown
+
+**Supported formats**: PNG, JPG/JPEG, GIF, WebP, SVG, PDF
+
+### Known pitfalls
+
+| Problem | Cause | Fix |
+|---------|-------|-----|
+| `create-issue` picks wrong team | Multiple teams in workspace | Use GraphQL with explicit teamId (see Step 2) |
+| `upload-image.ts` "Issue not found" | Issue was deleted before attaching | Ensure issue exists first |
+| Image not found on disk | Shared inline, not as file | Extract from session JSONL (Step 1) |
+
+---
+
 ## Critical Requirements
 
 ### Issues → Projects → Initiatives

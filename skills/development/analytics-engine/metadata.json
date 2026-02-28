@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "195e238a1b6d5e9a3dc329499d120afb23b6bd2e6735242aa373495ab4fa19e0",
   "indexed_at": "2026-02-26T07:48:03.636Z",
-  "synced_at": "2026-02-27T02:30:30.553Z",
+  "synced_at": "2026-02-28T03:56:14.326Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/50a818cee7b3c90b67a8dd2a72935e62f7c6632d5dd375a3172a578414615c1e",
   "install_command": "mkdir -p .claude/skills/analytics-engine && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/null-shot/cloudflare-skills/analytics-engine/SKILL.md\" > .claude/skills/analytics-engine/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/null-shot/cloudflare-skills/analytics-engine/SKILL.md"

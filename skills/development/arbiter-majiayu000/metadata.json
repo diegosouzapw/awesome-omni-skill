@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "68b5ed9ae26fe50e6d4634a79efffa8301db70b76a17495d22f675e4b6052d06",
   "indexed_at": "2026-02-26T08:49:57.880Z",
-  "synced_at": "2026-02-27T02:31:04.106Z",
+  "synced_at": "2026-02-28T03:56:44.198Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b9a5d4cb64f295f17b71f01c4635abea7da4471184f093987f888261d1288e51",
   "install_command": "mkdir -p .claude/skills/arbiter && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/arbiter/SKILL.md\" > .claude/skills/arbiter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/arbiter/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "90392f97358a2946b5cf32fa7733b9fc83b9bf7472e74ccf167a967ac65e8e8a",
   "indexed_at": "2026-02-26T08:46:01.778Z",
-  "synced_at": "2026-02-27T02:30:50.740Z",
+  "synced_at": "2026-02-28T03:56:32.954Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cbeeb9f07c57608d34cc725aa3e4a8764025cf470fd822df4a334980a0e8618c",
   "install_command": "mkdir -p .claude/skills/database-design && curl -sL \"https://raw.githubusercontent.com/cosmix/loom/main/skills/database-design/SKILL.md\" > .claude/skills/database-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cosmix/loom/main/skills/database-design/SKILL.md"

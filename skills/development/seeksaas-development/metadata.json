@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a9cb96b56d382c7d5a258fb13ede6a29444048e2f09a3541e217c8e75a1f068a",
   "indexed_at": "2026-02-26T06:48:49.802Z",
-  "synced_at": "2026-02-27T02:29:57.907Z",
+  "synced_at": "2026-02-28T03:55:43.606Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/690f51c93aa01340f1409b2d83de54e7aba751b3f943df53e18f1dfeb01acfd2",
   "install_command": "mkdir -p .claude/skills/seeksaas-development && curl -sL \"https://raw.githubusercontent.com/yyong008/seeksaas-template-react-router-v0.1/main/.claude/skills/seeksaas-development/SKILL.md\" > .claude/skills/seeksaas-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yyong008/seeksaas-template-react-router-v0.1/main/.claude/skills/seeksaas-development/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c390d0e481ecc94329616320537ab53f81855aed32c55d2b23305ff07753713b",
   "indexed_at": "2026-02-26T08:52:32.648Z",
-  "synced_at": "2026-02-27T02:31:11.188Z",
+  "synced_at": "2026-02-28T03:56:50.806Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/daf37810fafca0c96719b40a1379e8e53642c15c0e077c724a072bb8750c28e6",
   "install_command": "mkdir -p .claude/skills/ln-700-project-bootstrap && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/ln-700-project-bootstrap/SKILL.md\" > .claude/skills/ln-700-project-bootstrap/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/ln-700-project-bootstrap/SKILL.md"

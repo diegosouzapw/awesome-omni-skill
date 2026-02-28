@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "964a418f9f364d675c6d6cc83827db52b57f1109fa10be0573604fa8f2131fd5",
   "indexed_at": "2026-02-26T07:48:54.306Z",
-  "synced_at": "2026-02-27T02:30:33.198Z",
+  "synced_at": "2026-02-28T03:56:16.801Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ca9e8cdd8b84d47a01a255f1797df9be90e65a8e9af6ffd258dadea5b1304afa",
   "install_command": "mkdir -p .claude/skills/using-droidz && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/using-droidz/SKILL.md\" > .claude/skills/using-droidz/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/using-droidz/SKILL.md"

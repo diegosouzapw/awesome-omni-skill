@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3bba6ae0293f59848cad06cb7fc4fbf3c253a558ac171507fe778ba9338da337",
   "indexed_at": "2026-02-26T08:49:20.132Z",
-  "synced_at": "2026-02-27T02:30:59.898Z",
+  "synced_at": "2026-02-28T03:56:41.193Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bb62b978c09c8ec948480566645abcf1d95465a9ea6df18b098d49306134ef93",
   "install_command": "mkdir -p .claude/skills/data-transform-gen && curl -sL \"https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/lxgicstudios/data-transform-gen/SKILL.md\" > .claude/skills/data-transform-gen/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/lxgicstudios/data-transform-gen/SKILL.md"

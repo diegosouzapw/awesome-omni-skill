@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "91bd3d720dd8a280e0fb68de317caf2586b161e5b33004e61db3485f6cd8f910",
   "indexed_at": "2026-02-26T08:49:09.715Z",
-  "synced_at": "2026-02-27T02:30:59.017Z",
+  "synced_at": "2026-02-28T03:56:40.388Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/33d60f86a9a06d4a979385fc98fe846fe05404fb13f9e18644c671a528b50dc5",
   "install_command": "mkdir -p .claude/skills/backup-script-gen && curl -sL \"https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/lxgicstudios/backup-gen/SKILL.md\" > .claude/skills/backup-script-gen/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/lxgicstudios/backup-gen/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "531152ec2cc7061dc81fbe671f47bf8d76a1c4fdca377d3d2c1632467ca07c3b",
   "indexed_at": "2026-02-26T07:53:59.114Z",
-  "synced_at": "2026-02-27T02:30:41.028Z",
+  "synced_at": "2026-02-28T03:56:23.948Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/145d165cc4ce4fa32a95ba059ffda6ac08fd4495a4d40193a5d6d29860fdeb8b",
   "install_command": "mkdir -p .claude/skills/project-analysis && curl -sL \"https://raw.githubusercontent.com/meeezus/Musha-Shugyo-OS/main/.claude/skills/project-analysis/SKILL.md\" > .claude/skills/project-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/meeezus/Musha-Shugyo-OS/main/.claude/skills/project-analysis/SKILL.md"

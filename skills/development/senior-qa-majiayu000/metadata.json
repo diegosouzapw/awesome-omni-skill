@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0c36cdb6d775cbafb1992cae4ed8837dd5af7cd7c31fba91611499f411789552",
   "indexed_at": "2026-02-26T07:50:42.565Z",
-  "synced_at": "2026-02-27T02:30:35.372Z",
+  "synced_at": "2026-02-28T03:56:18.863Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/64f4b8cf164e3748244dbb87e4bba05fd8284532b4a4502e5c0fe52b329a942b",
   "install_command": "mkdir -p .claude/skills/senior-qa && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/senior-qa-lryuchi-tahzan-archive/SKILL.md\" > .claude/skills/senior-qa/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/senior-qa-lryuchi-tahzan-archive/SKILL.md"

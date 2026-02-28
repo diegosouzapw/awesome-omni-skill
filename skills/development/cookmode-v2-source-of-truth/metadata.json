@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4c10ddf3e1fdc3dd860a9c7066d6d30f1a864a634a32d3958ad2603f0f9e3ed6",
   "indexed_at": "2026-02-26T06:54:08.059Z",
-  "synced_at": "2026-02-27T02:30:14.169Z",
+  "synced_at": "2026-02-28T03:55:58.855Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d5c840fb58200e8bf9063bbadd8e00b96108ffc08116ca67da23fbdbe883cdc6",
   "install_command": "mkdir -p .claude/skills/cookmode-v2-source-of-truth && curl -sL \"https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/adamfehse/cookmode-v2-source-of-truth/SKILL.md\" > .claude/skills/cookmode-v2-source-of-truth/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/adamfehse/cookmode-v2-source-of-truth/SKILL.md"

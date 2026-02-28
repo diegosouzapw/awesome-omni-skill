@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "50c5718954063994bd18e672676c2735c14c2919abc995d08a888b602e186a50",
   "indexed_at": "2026-02-26T08:55:02.096Z",
-  "synced_at": "2026-02-27T02:31:16.850Z",
+  "synced_at": "2026-02-28T03:56:56.063Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/39ec5a2911499313cfef0e46884f6e45d9d8aa19385c16819f258a5d29a252b7",
   "install_command": "mkdir -p .claude/skills/n8n-node-configuration && curl -sL \"https://raw.githubusercontent.com/AtilaMedeiros/skills/main/n8n-node-configuration/SKILL.md\" > .claude/skills/n8n-node-configuration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AtilaMedeiros/skills/main/n8n-node-configuration/SKILL.md"

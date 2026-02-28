@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "80f9862a99ea10ece36f68dfb03307f4abb1409456664a9c178b1358f71524ae",
   "indexed_at": "2026-02-26T07:49:09.535Z",
-  "synced_at": "2026-02-27T02:30:33.403Z",
+  "synced_at": "2026-02-28T03:56:17.007Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0bb3043ce7e6043ed6bd2cda0153df16d222c791051156181f0d073cf319d5c3",
   "install_command": "mkdir -p .claude/skills/deep-dive && curl -sL \"https://raw.githubusercontent.com/sk8metalme/ai-agent-setup/main/plugins/deep-dive/skills/deep-dive/SKILL.md\" > .claude/skills/deep-dive/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sk8metalme/ai-agent-setup/main/plugins/deep-dive/skills/deep-dive/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "18210d68eee855232a02cba0cc959e1d1a189ba90e324c0492f4f2ebce88193c",
   "indexed_at": "2026-02-26T08:52:24.381Z",
-  "synced_at": "2026-02-27T02:31:10.249Z",
+  "synced_at": "2026-02-28T03:56:49.916Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/39461172076b4bb8bb838a880849d2ed003405ff733fe3451c4ba28539b9e546",
   "install_command": "mkdir -p .claude/skills/project-analysis && curl -sL \"https://raw.githubusercontent.com/mjohnson518/claude_superpowers/main/skills/project-analysis/SKILL.md\" > .claude/skills/project-analysis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mjohnson518/claude_superpowers/main/skills/project-analysis/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ebccae0d914eb05ad7db7f0a62152fc705075f0ca261bcdaeab3ad79417caee8",
   "indexed_at": "2026-02-26T08:56:38.025Z",
-  "synced_at": "2026-02-27T02:31:20.507Z",
+  "synced_at": "2026-02-28T03:57:00.226Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/850896171b58bbf248f834f04aa90e476a9fd1dad30d3a7355ed533825572acb",
   "install_command": "mkdir -p .claude/skills/conflict-resolver && curl -sL \"https://raw.githubusercontent.com/lexicalninja/my-little-scrum-team/main/skills/conflict-resolver/SKILL.md\" > .claude/skills/conflict-resolver/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lexicalninja/my-little-scrum-team/main/skills/conflict-resolver/SKILL.md"

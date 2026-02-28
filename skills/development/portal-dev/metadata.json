@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "71edb239077bcea34b6a20eefddf1fa3a05eecb46c38ce5e26c7b2f52c2c049e",
   "indexed_at": "2026-02-26T06:48:35.210Z",
-  "synced_at": "2026-02-27T02:29:54.862Z",
+  "synced_at": "2026-02-28T03:55:42.168Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8e4ecb0a19ed38feef65101e9dd88648320b3572b73d87f87d9df33ac6a4c35f",
   "install_command": "mkdir -p .claude/skills/portal-dev && curl -sL \"https://raw.githubusercontent.com/SIO-Delhi/sio-delhi.github.io/main/.claude/skills/portal-dev/SKILL.md\" > .claude/skills/portal-dev/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/SIO-Delhi/sio-delhi.github.io/main/.claude/skills/portal-dev/SKILL.md"

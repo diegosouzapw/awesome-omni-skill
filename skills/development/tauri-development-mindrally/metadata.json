@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ffb330e66fdfe091e6217d4488c3da0a20648306bfb3a15662207bcfe47f2602",
   "indexed_at": "2026-02-26T06:51:49.776Z",
-  "synced_at": "2026-02-27T02:30:08.287Z",
+  "synced_at": "2026-02-28T03:55:53.451Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e0785c14f809bbeabada4ae77bc56b88f3474e3cb2674432e8f8f9293e71ea1c",
   "install_command": "mkdir -p .claude/skills/tauri-development && curl -sL \"https://raw.githubusercontent.com/Mindrally/skills/main/tauri-development/SKILL.md\" > .claude/skills/tauri-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Mindrally/skills/main/tauri-development/SKILL.md"

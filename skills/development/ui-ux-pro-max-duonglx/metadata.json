@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2d6bd2e86676ae901337d628ea3ba3ce712d92e382b35a550e86673f4b06cf5d",
   "indexed_at": "2026-02-26T06:56:45.294Z",
-  "synced_at": "2026-02-27T02:30:22.233Z",
+  "synced_at": "2026-02-28T03:56:06.182Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0516788bac6c665d88501289d6049cbe949b17e440ae076a29a4155aedaec9b9",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/duonglx/chanmayfoods/main/.opencode/skill/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duonglx/chanmayfoods/main/.opencode/skill/ui-ux-pro-max/SKILL.md"

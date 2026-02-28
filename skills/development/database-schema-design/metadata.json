@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ad38a7e7a3d415a326f4ddc01487f6cd171b876fae4b3b47e2967b7dd4de71b2",
   "indexed_at": "2026-02-26T08:53:08.168Z",
-  "synced_at": "2026-02-27T02:31:12.921Z",
+  "synced_at": "2026-02-28T03:56:52.404Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b6e02cf5b73a49fe4fc50bbd0be95705a1c6d477f2538ba8c4155f1f1aa07838",
   "install_command": "mkdir -p .claude/skills/database-schema-design && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/supercent-io/skills-template/database-schema-design/SKILL.md\" > .claude/skills/database-schema-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/supercent-io/skills-template/database-schema-design/SKILL.md"

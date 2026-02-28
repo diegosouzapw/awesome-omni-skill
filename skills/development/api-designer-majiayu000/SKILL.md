@@ -1,542 +1,494 @@
 ---
-name: API Designer
-description: Design REST and GraphQL APIs. Use when creating backend APIs, defining API contracts, or integrating third-party services. Covers endpoint design, authentication, versioning, documentation, and best practices.
-version: 1.0.0
+name: api-designer
+description: REST/GraphQL API architect specializing in OpenAPI 3.1, HATEOAS, pagination, and versioning strategies
 ---
 
 # API Designer
 
-Design robust, scalable, and developer-friendly APIs.
-
-## Core Principles
-
-### 1. Developer Experience First
-
-- Clear, predictable naming conventions
-- Comprehensive documentation
-- Helpful error messages
-- Consistent patterns across endpoints
-
-### 2. Design for Evolution
-
-- Versioning strategy from day one
-- Backward compatibility
-- Deprecation process
-- Migration guides for breaking changes
-
-### 3. Security by Default
-
-- Authentication and authorization
-- Rate limiting and throttling
-- Input validation and sanitization
-- HTTPS only, no exceptions
-
-### 4. Performance Matters
-
-- Efficient queries and indexing
-- Caching strategies
-- Pagination for large datasets
-- Compression (gzip, brotli)
-
-## REST API Design
-
-### Resource Naming Conventions
-
-```
-✅ Good (Nouns, plural, hierarchical):
-GET    /users                  # List all users
-GET    /users/123              # Get specific user
-POST   /users                  # Create user
-PUT    /users/123              # Replace user
-PATCH  /users/123              # Update user
-DELETE /users/123              # Delete user
-GET    /users/123/posts        # User's posts (nested)
-GET    /users/123/posts/456    # Specific post
-
-❌ Bad (Verbs, inconsistent, unclear):
-GET /getUsers
-POST /createUser
-GET /user-list
-GET /UserData?id=123
-```
-
-### HTTP Methods & Semantics
-
-| Method     | Purpose          | Idempotent | Safe | Request Body | Response Body   |
-| ---------- | ---------------- | ---------- | ---- | ------------ | --------------- |
-| **GET**    | Retrieve data    | Yes        | Yes  | No           | Yes             |
-| **POST**   | Create resource  | No         | No   | Yes          | Yes (created)   |
-| **PUT**    | Replace resource | Yes        | No   | Yes          | Yes (optional)  |
-| **PATCH**  | Partial update   | No         | No   | Yes          | Yes (optional)  |
-| **DELETE** | Remove resource  | Yes        | No   | No           | No (204) or Yes |
-
-**Idempotent**: Multiple identical requests have same effect as single request
-**Safe**: Request doesn't modify server state
-
-### HTTP Status Codes
-
-**Success (2xx)**:
-
-- `200 OK` - Successful GET, PUT, PATCH, DELETE
-- `201 Created` - Successful POST, includes `Location` header
-- `204 No Content` - Successful request, no response body (often DELETE)
-
-**Client Errors (4xx)**:
-
-- `400 Bad Request` - Invalid syntax, validation error
-- `401 Unauthorized` - Authentication required or failed
-- `403 Forbidden` - Authenticated but lacks permission
-- `404 Not Found` - Resource doesn't exist
-- `409 Conflict` - Request conflicts with current state
-- `422 Unprocessable Entity` - Validation error (semantic)
-- `429 Too Many Requests` - Rate limit exceeded
-
-**Server Errors (5xx)**:
-
-- `500 Internal Server Error` - Generic server error
-- `502 Bad Gateway` - Upstream service error
-- `503 Service Unavailable` - Temporary unavailability
-- `504 Gateway Timeout` - Upstream timeout
-
-### Response Format Standards
-
-**Success Response**:
-
-```json
-{
-  "data": {
-    "id": "123",
-    "type": "user",
-    "attributes": {
-      "name": "John Doe",
-      "email": "john@example.com",
-      "created_at": "2025-01-15T10:30:00Z"
-    }
-  }
-}
-```
-
-**Error Response**:
-
-```json
-{
-  "error": {
-    "code": "VALIDATION_ERROR",
-    "message": "Request validation failed",
-    "details": [
-      {
-        "field": "email",
-        "code": "REQUIRED",
-        "message": "Email is required"
-      },
-      {
-        "field": "age",
-        "code": "OUT_OF_RANGE",
-        "message": "Age must be between 18 and 120"
-      }
-    ],
-    "request_id": "req_abc123",
-    "documentation_url": "https://api.example.com/docs/errors/validation"
-  }
-}
-```
-
-**List Response with Pagination**:
-
-```json
-{
-  "data": [...],
-  "pagination": {
-    "cursor": "eyJpZCI6MTIzfQ==",
-    "has_more": true,
-    "total_count": 1000
-  },
-  "links": {
-    "next": "/users?cursor=eyJpZCI6MTIzfQ==&limit=20",
-    "prev": "/users?cursor=eyJpZCI6MTAwfQ==&limit=20"
-  }
-}
-```
-
-### Pagination Strategies
-
-**Cursor-based (Recommended)**:
-
-```
-GET /users?cursor=abc123&limit=20
-
-Pros: Consistent results, efficient, handles real-time data
-Cons: Can't jump to arbitrary page
-Use when: Large datasets, real-time data, performance critical
-```
-
-**Offset-based**:
-
-```
-GET /users?page=1&per_page=20
-GET /users?offset=0&limit=20
-
-Pros: Simple, can jump to any page
-Cons: Inconsistent with concurrent writes, inefficient at scale
-Use when: Small datasets, admin interfaces, simple use cases
-```
-
-### Filtering, Sorting, and Search
-
-**Filtering**:
-
-```
-GET /users?status=active&role=admin&created_after=2025-01-01
-```
-
-**Sorting**:
-
-```
-GET /users?sort=-created_at,name  # Descending created_at, then ascending name
-```
-
-**Search**:
-
-```
-GET /users?q=john&fields=name,email  # Search across specified fields
-```
-
-### Authentication & Authorization
-
-**JWT Bearer Token (Recommended for SPAs)**:
-
-```
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
-
-Pros: Stateless, includes user claims, works across domains
-Cons: Can't revoke until expiry, larger payload
-```
-
-**API Keys (for service-to-service)**:
-
-```
-X-API-Key: sk_live_abc123...
-
-Pros: Simple, easy to rotate, per-service keys
-Cons: No user context, must be kept secret
-```
-
-**OAuth 2.0 (for third-party access)**:
-
-```
-Authorization: Bearer access_token
-
-Pros: Delegated auth, scoped permissions, industry standard
-Cons: Complex setup, requires OAuth server
-```
-
-**Basic Auth (only for internal/admin tools)**:
-
-```
-Authorization: Basic base64(username:password)
-
-Pros: Simple, built-in to HTTP
-Cons: Credentials in every request, must use HTTPS
-```
-
-### Rate Limiting
-
-**Standard Headers**:
-
-```
-X-RateLimit-Limit: 1000          # Max requests per window
-X-RateLimit-Remaining: 999       # Requests left
-X-RateLimit-Reset: 1640995200    # Unix timestamp when limit resets
-Retry-After: 60                  # Seconds to wait (on 429)
-```
-
-**Common Strategies**:
-
-- Fixed window: 1000 requests per hour
-- Sliding window: 1000 requests per rolling hour
-- Token bucket: Burst allowance with refill rate
-- Per-user, per-IP, or per-API-key limits
-
-### Versioning Strategies
-
-**URL Versioning (Recommended)**:
-
-```
-/v1/users
-/v2/users
-
-Pros: Explicit, easy to route, clear in logs
-Cons: URL pollution, harder to evolve incrementally
-```
-
-**Header Versioning**:
-
-```
-Accept: application/vnd.myapp.v2+json
-API-Version: 2
-
-Pros: Clean URLs, follows REST principles
-Cons: Less visible, harder to test in browser
-```
-
-**Best Practices**:
-
-- Start with v1, not v0
-- Only increment for breaking changes
-- Support N and N-1 versions simultaneously
-- Provide migration guides
-- Announce deprecation 6-12 months ahead
+## Purpose
+
+Provides expert REST and GraphQL API architecture expertise specializing in OpenAPI 3.1 specifications, API versioning strategies, pagination patterns, and hypermedia-driven design (HATEOAS). Focuses on building scalable, well-documented, developer-friendly APIs with proper error handling and standardization.
+
+## When to Use
+
+- Designing RESTful or GraphQL APIs from requirements
+- Creating OpenAPI 3.1 specifications for API documentation
+- Implementing API versioning strategies (URL, header, content negotiation)
+- Designing pagination, filtering, and sorting patterns for large datasets
+- Building HATEOAS-compliant APIs (hypermedia-driven)
+- Standardizing error responses and status codes across services
+- Designing API authentication and authorization patterns
+
+## Quick Start
+
+**Invoke this skill when:**
+- Designing RESTful or GraphQL APIs from requirements
+- Creating OpenAPI 3.1 specifications for API documentation
+- Implementing API versioning strategies (URL, header, content negotiation)
+- Designing pagination, filtering, and sorting patterns for large datasets
+- Building HATEOAS-compliant APIs (hypermedia-driven)
+- Standardizing error responses and status codes across services
+
+**Do NOT invoke when:**
+- Only implementing pre-designed API endpoints (use backend-developer)
+- Database schema design without API context (use database-administrator)
+- Frontend API integration (use frontend-developer)
+- API security implementation (use security-engineer for authentication/authorization)
+- API performance optimization (use performance-engineer)
 
 ---
-
-## GraphQL API Design
-
-### Schema Design
-
-```graphql
-type User {
-  id: ID!
-  name: String!
-  email: String!
-  posts(first: Int, after: String): PostConnection!
-  createdAt: DateTime!
-}
-
-type PostConnection {
-  edges: [PostEdge!]!
-  pageInfo: PageInfo!
-}
-
-type PostEdge {
-  node: Post!
-  cursor: String!
-}
-
-type PageInfo {
-  hasNextPage: Boolean!
-  endCursor: String
-}
-
-type Query {
-  user(id: ID!): User
-  users(first: Int, after: String): UserConnection!
-}
-
-type Mutation {
-  createUser(input: CreateUserInput!): CreateUserPayload!
-  updateUser(id: ID!, input: UpdateUserInput!): UpdateUserPayload!
-}
-
-input CreateUserInput {
-  name: String!
-  email: String!
-}
-
-type CreateUserPayload {
-  user: User
-  errors: [Error!]
-}
-```
-
-### GraphQL Best Practices
-
-**1. Use Relay Connection Pattern for Pagination**:
-
-```graphql
-query {
-  users(first: 10, after: "cursor") {
-    edges {
-      node {
-        id
-        name
-      }
-      cursor
-    }
-    pageInfo {
-      hasNextPage
-      endCursor
-    }
-  }
-}
-```
-
-**2. Input Types for Mutations**:
-
-```graphql
-# ✅ Good: Input type + payload
-mutation {
-  createUser(input: { name: "John", email: "john@example.com" }) {
-    user {
-      id
-      name
-    }
-    errors {
-      field
-      message
-    }
-  }
-}
-
-# ❌ Bad: Flat arguments
-mutation {
-  createUser(name: "John", email: "john@example.com") {
-    id
-    name
-  }
-}
-```
-
-**3. Error Handling**:
-
-```graphql
-type Mutation {
-  createUser(input: CreateUserInput!): CreateUserPayload!
-}
-
-type CreateUserPayload {
-  user: User # Null if errors
-  errors: [Error!] # Field-level errors
-}
-
-type Error {
-  field: String!
-  code: String!
-  message: String!
-}
-```
-
-### REST vs GraphQL Decision
-
-**Use REST when**:
-
-- Simple CRUD operations
-- Caching is critical (HTTP caching)
-- Public API for third-parties
-- File uploads/downloads
-- Team unfamiliar with GraphQL
-
-**Use GraphQL when**:
-
-- Clients need flexible queries
-- Reducing over-fetching/under-fetching
-- Rapid frontend iteration
-- Complex nested data relationships
-- Strong typing and schema benefits
-
 ---
 
-## API Documentation
+## Core Workflows
 
-### OpenAPI/Swagger Specification
+### Workflow 1: Design RESTful API with OpenAPI 3.1
 
+**Use case:** E-commerce platform needs product catalog API
+
+**Step 1: Resource Modeling**
 ```yaml
-openapi: 3.0.0
+# Resources identified:
+# - Products (CRUD)
+# - Categories (read-only, hierarchical)
+# - Reviews (nested under products)
+# - Inventory (separate resource, linked to products)
+
+# URL Structure Design:
+GET    /v1/products              # List products (paginated)
+POST   /v1/products              # Create product
+GET    /v1/products/{id}         # Get product details
+PUT    /v1/products/{id}         # Update product (full replacement)
+PATCH  /v1/products/{id}         # Partial update
+DELETE /v1/products/{id}         # Delete product
+
+GET    /v1/products/{id}/reviews        # Get reviews for product
+POST   /v1/products/{id}/reviews        # Create review
+GET    /v1/products/{id}/reviews/{reviewId}  # Get specific review
+
+GET    /v1/categories            # List categories
+GET    /v1/categories/{id}       # Get category + subcategories
+
+# Query parameters (filtering, pagination, sorting):
+GET /v1/products?category=electronics&min_price=100&max_price=500&sort=price:asc&limit=20&cursor=abc123
+```
+
+**Step 2: OpenAPI 3.1 Specification**
+```yaml
+# openapi.yaml
+openapi: 3.1.0
 info:
-  title: User Management API
+  title: E-commerce Product API
   version: 1.0.0
-  description: API for managing users and posts
+  description: RESTful API for product catalog management
+  contact:
+    name: API Support
+    email: api@ecommerce.com
+
 servers:
-  - url: https://api.example.com/v1
+  - url: https://api.ecommerce.com/v1
+    description: Production server
+  - url: https://staging-api.ecommerce.com/v1
+    description: Staging server
+
 paths:
-  /users:
+  /products:
     get:
-      summary: List users
+      summary: List products
+      operationId: listProducts
+      tags: [Products]
       parameters:
-        - name: page
+        - name: category
           in: query
+          description: Filter by category slug
+          schema:
+            type: string
+            example: electronics
+        - name: min_price
+          in: query
+          description: Minimum price filter
+          schema:
+            type: number
+            format: float
+            minimum: 0
+        - name: max_price
+          in: query
+          description: Maximum price filter
+          schema:
+            type: number
+            format: float
+            minimum: 0
+        - name: sort
+          in: query
+          description: Sort order (field:direction)
+          schema:
+            type: string
+            enum: [price:asc, price:desc, created_at:asc, created_at:desc]
+            default: created_at:desc
+        - name: limit
+          in: query
+          description: Number of results per page
           schema:
             type: integer
-            default: 1
-        - name: per_page
-          in: query
-          schema:
-            type: integer
-            default: 20
+            minimum: 1
             maximum: 100
+            default: 20
+        - name: cursor
+          in: query
+          description: Pagination cursor (opaque token)
+          schema:
+            type: string
       responses:
         '200':
-          description: Success
+          description: Successful response
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/UserList'
-        '401':
-          $ref: '#/components/responses/Unauthorized'
-    post:
-      summary: Create user
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/CreateUserInput'
+                type: object
+                required: [data, meta, links]
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Product'
+                  meta:
+                    type: object
+                    properties:
+                      total_count:
+                        type: integer
+                        description: Total number of products matching filters
+                      has_more:
+                        type: boolean
+                        description: Whether more results exist
+                  links:
+                    type: object
+                    properties:
+                      self:
+                        type: string
+                        format: uri
+                      next:
+                        type: string
+                        format: uri
+                        nullable: true
+                      prev:
+                        type: string
+                        format: uri
+                        nullable: true
+              examples:
+                success:
+                  value:
+                    data:
+                      - id: "prod_123"
+                        name: "Wireless Headphones"
+                        description: "Premium noise-cancelling headphones"
+                        price: 299.99
+                        currency: "USD"
+                        category:
+                          id: "cat_1"
+                          name: "Electronics"
+                        created_at: "2024-01-15T10:30:00Z"
+                    meta:
+                      total_count: 1523
+                      has_more: true
+                    links:
+                      self: "/v1/products?limit=20"
+                      next: "/v1/products?limit=20&cursor=eyJpZCI6InByb2RfMTIzIn0="
+                      prev: null
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /products/{id}:
+    get:
+      summary: Get product details
+      operationId: getProduct
+      tags: [Products]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: Product ID
+          schema:
+            type: string
+            pattern: '^prod_[a-zA-Z0-9]+$'
       responses:
-        '201':
-          description: User created
+        '200':
+          description: Product found
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/User'
+                $ref: '#/components/schemas/Product'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
 components:
   schemas:
-    User:
+    Product:
       type: object
+      required: [id, name, price, currency]
       properties:
         id:
           type: string
+          description: Unique product identifier
+          example: "prod_123"
         name:
           type: string
-        email:
+          minLength: 1
+          maxLength: 200
+          example: "Wireless Headphones"
+        description:
           type: string
-          format: email
+          maxLength: 2000
+          nullable: true
+        price:
+          type: number
+          format: float
+          minimum: 0
+          example: 299.99
+        currency:
+          type: string
+          enum: [USD, EUR, GBP, JPY]
+          default: USD
+        category:
+          $ref: '#/components/schemas/Category'
+        images:
+          type: array
+          items:
+            type: string
+            format: uri
+          maxItems: 10
+        inventory_count:
+          type: integer
+          minimum: 0
+          description: Available stock
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+
+    Category:
+      type: object
+      required: [id, name, slug]
+      properties:
+        id:
+          type: string
+          example: "cat_1"
+        name:
+          type: string
+          example: "Electronics"
+        slug:
+          type: string
+          pattern: '^[a-z0-9-]+$'
+          example: "electronics"
+        parent_id:
+          type: string
+          nullable: true
+
+    Error:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: object
+          required: [code, message]
+          properties:
+            code:
+              type: string
+              description: Machine-readable error code
+              example: "invalid_parameter"
+            message:
+              type: string
+              description: Human-readable error message
+              example: "The 'price' parameter must be a positive number"
+            details:
+              type: object
+              description: Additional error context
+              additionalProperties: true
+
+  responses:
+    BadRequest:
+      description: Invalid request parameters
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error:
+              code: "invalid_parameter"
+              message: "The 'min_price' parameter must be a non-negative number"
+              details:
+                parameter: "min_price"
+                value: "-10"
+
+    NotFound:
+      description: Resource not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error:
+              code: "resource_not_found"
+              message: "Product with ID 'prod_999' not found"
+
+    InternalServerError:
+      description: Internal server error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error:
+              code: "internal_server_error"
+              message: "An unexpected error occurred. Please try again later."
+              details:
+                request_id: "req_abc123"
+
   securitySchemes:
-    bearerAuth:
+    ApiKey:
+      type: apiKey
+      in: header
+      name: X-API-Key
+    BearerAuth:
       type: http
       scheme: bearer
       bearerFormat: JWT
+
+security:
+  - ApiKey: []
+  - BearerAuth: []
 ```
 
-### Documentation Best Practices
+**Step 3: Generate Documentation**
+```bash
+# Install Redoc CLI
+npm install -g redoc-cli
 
-- ✅ Include request/response examples
-- ✅ Document all error codes
-- ✅ Provide authentication guides
-- ✅ Interactive API playground (Swagger UI, GraphQL Playground)
-- ✅ Code examples in multiple languages
-- ✅ Rate limit information
-- ✅ Changelog for API updates
+# Generate static HTML documentation
+redoc-cli bundle openapi.yaml -o api-docs.html
 
----
+# Host documentation
+npx serve api-docs.html
 
-## Security Checklist
+# Interactive Swagger UI
+docker run -p 8080:8080 -e SWAGGER_JSON=/docs/openapi.yaml \
+  -v $(pwd):/docs swaggerapi/swagger-ui
 
-- [ ] HTTPS only (redirect HTTP → HTTPS)
-- [ ] Authentication required for protected endpoints
-- [ ] Authorization checks (user can only access own data)
-- [ ] Input validation (schema validation, sanitization)
-- [ ] Rate limiting per user/IP
-- [ ] CORS configuration (whitelist origins)
-- [ ] SQL injection prevention (parameterized queries)
-- [ ] No sensitive data in URLs (use headers/body)
-- [ ] Audit logging for sensitive operations
-- [ ] API keys rotatable and revocable
+# Open http://localhost:8080 for interactive API testing
+```
 
 ---
+---
 
-## Related Resources
+## Anti-Patterns & Gotchas
 
-**Related Skills**:
+### ❌ Anti-Pattern 1: Inconsistent Error Responses
 
-- `frontend-builder` - For consuming APIs from frontend
-- `deployment-advisor` - For API hosting decisions
-- `performance-optimizer` - For API performance tuning
+**What it looks like:**
+```json
+// Endpoint 1: Login failure
+{
+  "error": "Invalid credentials"
+}
 
-**Related Patterns**:
+// Endpoint 2: Validation failure
+{
+  "errors": [
+    { "field": "email", "message": "Invalid email format" }
+  ]
+}
 
-- `META/DECISION-FRAMEWORK.md` - REST vs GraphQL decisions
-- `STANDARDS/architecture-patterns/api-gateway-pattern.md` - API gateway architecture (when created)
+// Endpoint 3: Server error
+{
+  "status": "error",
+  "message": "Internal server error",
+  "code": 500
+}
 
-**Related Playbooks**:
+// Problem: Clients need custom error handling per endpoint
+```
 
-- `PLAYBOOKS/deploy-api.md` - API deployment procedure (when created)
-- `PLAYBOOKS/version-api.md` - API versioning workflow (when created)
+**Why it fails:**
+- Client code becomes complex (multiple error parsing strategies)
+- Frontend developers frustrated (inconsistent contracts)
+- Error logging/monitoring difficult (no standard format)
+
+**Correct approach:**
+```json
+// Standardized error response (all endpoints)
+{
+  "error": {
+    "code": "invalid_credentials",
+    "message": "The provided email or password is incorrect",
+    "details": null,
+    "request_id": "req_abc123"
+  }
+}
+
+// Validation errors (multiple fields)
+{
+  "error": {
+    "code": "validation_failed",
+    "message": "One or more fields failed validation",
+    "details": {
+      "fields": [
+        { "field": "email", "message": "Invalid email format" },
+        { "field": "password", "message": "Password must be at least 8 characters" }
+      ]
+    },
+    "request_id": "req_def456"
+  }
+}
+
+// Client-side error handling (consistent)
+function handleApiError(response) {
+  const { code, message, details } = response.error;
+  
+  switch (code) {
+    case 'validation_failed':
+      // Display field-specific errors
+      details.fields.forEach(({ field, message }) => {
+        showFieldError(field, message);
+      });
+      break;
+    
+    case 'unauthorized':
+      // Redirect to login
+      redirectToLogin();
+      break;
+    
+    default:
+      // Generic error message
+      showToast(message);
+  }
+}
+```
+
+---
+---
+
+## Integration Patterns
+
+**backend-developer:**
+- Handoff: API designer creates spec → Backend implements endpoints
+- Collaboration: Error response formats, authentication patterns
+- Tools: OpenAPI code generation, API mocking
+
+**frontend-developer:**
+- Handoff: API spec published → Frontend consumes API
+- Collaboration: Query patterns, pagination, error handling
+- Tools: TypeScript type generation from OpenAPI/GraphQL schema
+
+**security-engineer:**
+- Handoff: API designer defines authentication needs → Security implements auth
+- Collaboration: Rate limiting, API key management, OAuth flows
+- Critical: JWT validation, API gateway security policies
+
+**devops-engineer:**
+- Handoff: API design finalized → DevOps deploys API gateway
+- Collaboration: API versioning deployment, blue-green releases
+- Tools: Kong, AWS API Gateway, Traefik configuration
+
+---

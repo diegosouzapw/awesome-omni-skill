@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "82a97b60dcf06f7ab25dfb61b1c9f29f50c0e2fb23190511d161a1bcb44b1903",
   "indexed_at": "2026-02-26T07:55:31.234Z",
-  "synced_at": "2026-02-27T02:30:44.606Z",
+  "synced_at": "2026-02-28T03:56:27.054Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9cc4de8251f0a7195e335dc4d46a33f22fd20910e543ecdf958c421b0fb14c37",
   "install_command": "mkdir -p .claude/skills/api-scaffolding-django-pro && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/api-scaffolding-codex-pack/.agents/skills/api-scaffolding-django-pro/SKILL.md\" > .claude/skills/api-scaffolding-django-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/api-scaffolding-codex-pack/.agents/skills/api-scaffolding-django-pro/SKILL.md"

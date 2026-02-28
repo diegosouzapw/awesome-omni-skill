@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dcdefaf1ddbe16b2f569523fbf922caa8f9f609d7f37f51ab1ac083d2d9c5490",
   "indexed_at": "2026-02-26T08:53:35.141Z",
-  "synced_at": "2026-02-27T02:31:13.843Z",
+  "synced_at": "2026-02-28T03:56:53.232Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d686fda34c6a32e37d00cbbb29786d96b582da72b81c331da99db72ca505118d",
   "install_command": "mkdir -p .claude/skills/mcp-integration && curl -sL \"https://raw.githubusercontent.com/randalmurphal/claude-config/main/skills/mcp-integration/SKILL.md\" > .claude/skills/mcp-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/randalmurphal/claude-config/main/skills/mcp-integration/SKILL.md"

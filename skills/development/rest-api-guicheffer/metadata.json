@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "60574a055699e83cac6ae13a78904e49c618c09ece655dbe62fff4bb2f67291a",
   "indexed_at": "2026-02-26T07:45:35.936Z",
-  "synced_at": "2026-02-27T02:30:25.442Z",
+  "synced_at": "2026-02-28T03:56:09.391Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/98cbd0be7a8c8fe766ae313ff35547d105a8973d5eaf8cc2b9597e09f2881c84",
   "install_command": "mkdir -p .claude/skills/rest-api && curl -sL \"https://raw.githubusercontent.com/guicheffer/devorch-cli/main/templates/skills/data-access/rest-api/SKILL.md\" > .claude/skills/rest-api/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/guicheffer/devorch-cli/main/templates/skills/data-access/rest-api/SKILL.md"

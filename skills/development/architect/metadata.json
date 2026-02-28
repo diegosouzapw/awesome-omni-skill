@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d56a3c7dbb91c6715796f179d27c9ec7f62f1247611db3ff1bf2997d6601c589",
   "indexed_at": "2026-02-26T07:52:47.105Z",
-  "synced_at": "2026-02-27T02:30:38.788Z",
+  "synced_at": "2026-02-28T03:56:21.883Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/94df4174a497e643a385dcfcce19ec92788a6a3f0eafc1007ce75df8b24effce",
   "install_command": "mkdir -p .claude/skills/architect && curl -sL \"https://raw.githubusercontent.com/nyuchitech/nhimbe/main/.claude/skills/architect/SKILL.md\" > .claude/skills/architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nyuchitech/nhimbe/main/.claude/skills/architect/SKILL.md"

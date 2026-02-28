@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e01206b3492f0654d50b1b450adf2b199bab92d96a9a4ad21318f9f5c1515cbb",
   "indexed_at": "2026-02-26T08:56:54.507Z",
-  "synced_at": "2026-02-27T02:31:21.216Z",
+  "synced_at": "2026-02-28T03:57:00.887Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5b798e1a9f1f76233ada932b1bcc3056172f266612e9faef4e320ea4dfcc2d39",
   "install_command": "mkdir -p .claude/skills/openclaw-sentry-pro && curl -sL \"https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/atlaspa/openclaw-sentry-pro/SKILL.md\" > .claude/skills/openclaw-sentry-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/atlaspa/openclaw-sentry-pro/SKILL.md"

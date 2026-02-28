@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5c851b22135e2636f76175bf82674b925a2c042055e6007057def4dc887b0120",
   "indexed_at": "2026-02-26T08:47:06.350Z",
-  "synced_at": "2026-02-27T02:30:54.625Z",
+  "synced_at": "2026-02-28T03:56:36.681Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/588a02b5f9160e056bee20dfc3f60936af8fa0f460c01fd7ccd9fa3ecb25a1d9",
   "install_command": "mkdir -p .claude/skills/database-migrator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/database-migrator-khamel83-oneshot/SKILL.md\" > .claude/skills/database-migrator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/database-migrator-khamel83-oneshot/SKILL.md"

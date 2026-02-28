@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "48cae79c4dbb92f4c31747c12f9572a1e9eab63933c00f88fc1366d0ce8d838f",
   "indexed_at": "2026-02-26T06:49:33.359Z",
-  "synced_at": "2026-02-27T02:30:00.609Z",
+  "synced_at": "2026-02-28T03:55:46.177Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/698bf478940f652c169a3f7142bdbda7364fb27496e94dc634a11b2a71cb5675",
   "install_command": "mkdir -p .claude/skills/react-specialist && curl -sL \"https://raw.githubusercontent.com/hbritel/followup-trading-frontend/main/.agent/skills/react-specialist/SKILL.md\" > .claude/skills/react-specialist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hbritel/followup-trading-frontend/main/.agent/skills/react-specialist/SKILL.md"

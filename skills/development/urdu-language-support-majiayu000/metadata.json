@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "78b1e44d20b9d6ce703246d485bb1ed3fb93774084451d6e7027e1b1796a944d",
   "indexed_at": "2026-02-26T06:51:38.597Z",
-  "synced_at": "2026-02-27T02:30:07.107Z",
+  "synced_at": "2026-02-28T03:55:52.294Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/71eba9e0353c59b6a719c08e4db295ee4b207a752d22e64461112620affc9108",
   "install_command": "mkdir -p .claude/skills/urdu-language-support && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/urdu-language-support/SKILL.md\" > .claude/skills/urdu-language-support/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/urdu-language-support/SKILL.md"

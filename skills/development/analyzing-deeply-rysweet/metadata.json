@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "adb1ce9da248aa4f26319973e65b428e342c2739cf44d2433d50bb763ed6d856",
   "indexed_at": "2026-02-26T08:54:44.673Z",
-  "synced_at": "2026-02-27T02:31:16.673Z",
+  "synced_at": "2026-02-28T03:56:55.870Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3b97ce1b826727a4282eb678e0baf1a518c1fb047944ba21b6b6b7f5e72e7858",
   "install_command": "mkdir -p .claude/skills/analyzing-deeply && curl -sL \"https://raw.githubusercontent.com/rysweet/azure-tenant-grapher/main/.claude/skills/meta-cognitive/analyzing-deeply/SKILL.md\" > .claude/skills/analyzing-deeply/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rysweet/azure-tenant-grapher/main/.claude/skills/meta-cognitive/analyzing-deeply/SKILL.md"

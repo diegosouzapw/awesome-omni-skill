@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dbe1c4e7428b21d9cf1c3a927cc1416414c79d30ec36badccfcccd0239d00bf1",
   "indexed_at": "2026-02-26T06:54:28.690Z",
-  "synced_at": "2026-02-27T02:30:14.713Z",
+  "synced_at": "2026-02-28T03:55:59.341Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/76cd8d72b3399ed979240055b274ed1d266f15a1f6cd6fff89f244c185a1d19c",
   "install_command": "mkdir -p .claude/skills/react-expert && curl -sL \"https://raw.githubusercontent.com/Timberbain/tiny-heroes-rpg/main/.claude/skills/react-expert/SKILL.md\" > .claude/skills/react-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Timberbain/tiny-heroes-rpg/main/.claude/skills/react-expert/SKILL.md"

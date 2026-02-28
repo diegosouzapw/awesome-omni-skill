@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4021ae41325e3e7d15dd71630c7a1420c6ae070785c9baebe37b33d077700292",
   "indexed_at": "2026-02-26T08:48:19.605Z",
-  "synced_at": "2026-02-27T02:30:56.784Z",
+  "synced_at": "2026-02-28T03:56:38.713Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d4b119d8eab0f51deb482981dfd0332b4894b1708bd1e832e1402a646028c4e5",
   "install_command": "mkdir -p .claude/skills/whodb && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/clidey/whodb/whodb/SKILL.md\" > .claude/skills/whodb/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/clidey/whodb/whodb/SKILL.md"

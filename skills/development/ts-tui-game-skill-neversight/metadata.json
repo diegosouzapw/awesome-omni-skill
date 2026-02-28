@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1c6f3dee29b6275417499229857e3f81040711d056aad3db7cbdd4c48164528f",
   "indexed_at": "2026-02-26T09:31:00.193Z",
-  "synced_at": "2026-02-27T02:31:22.376Z",
+  "synced_at": "2026-02-28T03:57:01.985Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eab9321444b2162cf50454624eb76ed6c5ede41b5a180acf88b433b3d54c59d1",
   "install_command": "mkdir -p .claude/skills/ts-tui-game-skill && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/kadajett/ts-tui-game-skill/ts-tui-game-skill/SKILL.md\" > .claude/skills/ts-tui-game-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/kadajett/ts-tui-game-skill/ts-tui-game-skill/SKILL.md"

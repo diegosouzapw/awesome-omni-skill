@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6fc39bec2cd123e2b28cc87daeeba887034c49f2124d7a20deabf87e304e64a8",
   "indexed_at": "2026-02-26T06:47:57.230Z",
-  "synced_at": "2026-02-27T02:29:51.995Z",
+  "synced_at": "2026-02-28T03:55:39.610Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d128c616e356637e069cd0c4138c5cb480cd194fe6bc23d48fb091c402fc2885",
   "install_command": "mkdir -p .claude/skills/frontend-shadcn && curl -sL \"https://raw.githubusercontent.com/JarvusInnovations/agent-skills/main/skills/frontend-shadcn/SKILL.md\" > .claude/skills/frontend-shadcn/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/JarvusInnovations/agent-skills/main/skills/frontend-shadcn/SKILL.md"

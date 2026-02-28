@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "01a1e2971ab6d07c1944433fb18012f4754d8bde23bb6ee91d7b1cbda4dbd506",
   "indexed_at": "2026-02-26T07:45:23.826Z",
-  "synced_at": "2026-02-27T02:30:24.796Z",
+  "synced_at": "2026-02-28T03:56:08.733Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a05841742d76fcbe4fe2ebceb0ee18dfcf8ddc771252f9788a244a9fd2b94c62",
   "install_command": "mkdir -p .claude/skills/trpc-type-safety && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/danielseltzer__code-analysis-tools__claude__skills__toolchains-typescript-api-trpc__SKILL.md/SKILL.md\" > .claude/skills/trpc-type-safety/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/danielseltzer__code-analysis-tools__claude__skills__toolchains-typescript-api-trpc__SKILL.md/SKILL.md"

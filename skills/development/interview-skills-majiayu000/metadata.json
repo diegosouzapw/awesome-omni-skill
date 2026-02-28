@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b2e504d864ae786b8609a93fb323a6b42718773b61062732cdf85f2664743fa7",
   "indexed_at": "2026-02-26T08:55:31.018Z",
-  "synced_at": "2026-02-27T02:31:17.991Z",
+  "synced_at": "2026-02-28T03:56:57.794Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9341c7f5581c91199c347d06264db398e215613c0536ff3d1cc8c67b1c35ad91",
   "install_command": "mkdir -p .claude/skills/interview-skills && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/interview-skills/SKILL.md\" > .claude/skills/interview-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/interview-skills/SKILL.md"

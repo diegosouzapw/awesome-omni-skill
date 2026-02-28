@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f04c68612b3eae10ef35e5f59d6a397e6b5c90acc1bdee5f6c34a18f2480de0a",
   "indexed_at": "2026-02-26T06:53:24.800Z",
-  "synced_at": "2026-02-27T02:30:11.158Z",
+  "synced_at": "2026-02-28T03:55:56.059Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b8390bac4728b241e9c90e2eb9cbd595de015d488de0985f55a677051b69ac15",
   "install_command": "mkdir -p .claude/skills/nextjs-frontend-guidelines && curl -sL \"https://raw.githubusercontent.com/chacha95/claude-code-harness/main/.claude/skills/nextjs-frontend-guidelines/SKILL.md\" > .claude/skills/nextjs-frontend-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chacha95/claude-code-harness/main/.claude/skills/nextjs-frontend-guidelines/SKILL.md"

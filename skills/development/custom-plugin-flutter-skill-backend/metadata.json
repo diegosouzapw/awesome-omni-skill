@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6544db0df99219dbe00179de9a7b2bb1e3b0119d70f9cda14724ecbffa911921",
   "indexed_at": "2026-02-26T07:52:23.598Z",
-  "synced_at": "2026-02-27T02:30:38.245Z",
+  "synced_at": "2026-02-28T03:56:21.376Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6db1e13faf1fa9cdcedf164f57818201863c842bc6d2aade6db441bc4358b904",
   "install_command": "mkdir -p .claude/skills/custom-plugin-flutter-skill-backend && curl -sL \"https://raw.githubusercontent.com/pluginagentmarketplace/custom-plugin-flutter/main/skills/backend-integration/SKILL.md\" > .claude/skills/custom-plugin-flutter-skill-backend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pluginagentmarketplace/custom-plugin-flutter/main/skills/backend-integration/SKILL.md"

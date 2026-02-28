@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b0c79261a29947e91c54ca92b3bf54db69a0e51f84e6a314e7f9f4d219b96992",
   "indexed_at": "2026-02-26T07:53:29.501Z",
-  "synced_at": "2026-02-27T02:30:40.008Z",
+  "synced_at": "2026-02-28T03:56:22.956Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1bde7ab02061c725580ef66478ef2763325969438eae9b1f02ea138f327aa15a",
   "install_command": "mkdir -p .claude/skills/api-docs-generator && curl -sL \"https://raw.githubusercontent.com/ntaksh42/agents/main/.claude/skills/api-docs-generator/SKILL.md\" > .claude/skills/api-docs-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ntaksh42/agents/main/.claude/skills/api-docs-generator/SKILL.md"

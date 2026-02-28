@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4ac985f012f35a9754607fa09fb80cb9fb9a73cc35b2e690332da9cad80c8ea7",
   "indexed_at": "2026-02-26T09:47:25.391Z",
-  "synced_at": "2026-02-27T02:31:26.355Z",
+  "synced_at": "2026-02-28T03:57:05.779Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4bfa28863b70897b176decf133bae6619dd4bccc6111018e85e42035e02c8821",
   "install_command": "mkdir -p .claude/skills/better-auth-electron && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/better-auth-electron/SKILL.md\" > .claude/skills/better-auth-electron/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/better-auth-electron/SKILL.md"

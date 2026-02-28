@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8cb19e7e21ae152dd81c1e19a605c5a5d6983b860a810074f57aa88c1407661a",
   "indexed_at": "2026-02-26T08:50:41.622Z",
-  "synced_at": "2026-02-27T02:31:05.621Z",
+  "synced_at": "2026-02-28T03:56:45.602Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e8555a6fa49c3b23c9814943ba4d04b3bf8db3541d4d2683e3a435dd2bae2e6e",
   "install_command": "mkdir -p .claude/skills/using-superantigravity && curl -sL \"https://raw.githubusercontent.com/derHaken/SuperAntigravity/main/skills/using-superantigravity/SKILL.md\" > .claude/skills/using-superantigravity/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/derHaken/SuperAntigravity/main/skills/using-superantigravity/SKILL.md"

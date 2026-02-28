@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e0a00f03afc1298dc747ff0f512b58e3c7332508d8f530208382c43315a4532c",
   "indexed_at": "2026-02-26T08:46:38.442Z",
-  "synced_at": "2026-02-27T02:30:52.972Z",
+  "synced_at": "2026-02-28T03:56:34.936Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b5d96eda413ef2ef1a71da8bc80cc48d7b21ae39842e24ff11a2df9ded5fb793",
   "install_command": "mkdir -p .claude/skills/sql-pro && curl -sL \"https://raw.githubusercontent.com/herdiansah/Antigravity-Skills-Master/main/.agent/skills/sql-pro/SKILL.md\" > .claude/skills/sql-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/herdiansah/Antigravity-Skills-Master/main/.agent/skills/sql-pro/SKILL.md"

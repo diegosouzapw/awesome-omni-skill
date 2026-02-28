@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4d33938376231ff6d862ee6637a0d8a11421d6c02e329c52c915c9ae1fe885dc",
   "indexed_at": "2026-02-26T09:35:31.594Z",
-  "synced_at": "2026-02-27T02:31:23.421Z",
+  "synced_at": "2026-02-28T03:57:03.001Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d9807a4a27c60b3ccdd09b8bf340d7f6bec278a78b862e1d12ae5efeb20d114b",
   "install_command": "mkdir -p .claude/skills/table-skill-generator && curl -sL \"https://raw.githubusercontent.com/mdmagnuson-creator/yo-go/main/skills/meta/table-skill-generator/SKILL.md\" > .claude/skills/table-skill-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mdmagnuson-creator/yo-go/main/skills/meta/table-skill-generator/SKILL.md"

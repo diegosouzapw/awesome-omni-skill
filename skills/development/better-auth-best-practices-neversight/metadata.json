@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "164477b74e00207d02aaac9f72b25df6f65d9107ef32fbec1acec57a152a7b56",
   "indexed_at": "2026-02-26T09:47:44.881Z",
-  "synced_at": "2026-02-27T02:31:27.149Z",
+  "synced_at": "2026-02-28T03:57:06.511Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b1dd9b60266111d96f30be77eb6b8fac0bef5c5d992ecc329a32f07b0e3a7928",
   "install_command": "mkdir -p .claude/skills/better-auth-best-practices && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/better-auth/skills/better-auth-best-practices/SKILL.md\" > .claude/skills/better-auth-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/better-auth/skills/better-auth-best-practices/SKILL.md"

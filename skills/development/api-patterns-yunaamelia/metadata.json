@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d0ff76b555f7d902e7d1d04354926046f2668e7d257bfad37babd3fb973f30fd",
   "indexed_at": "2026-02-26T07:54:07.548Z",
-  "synced_at": "2026-02-27T02:30:41.634Z",
+  "synced_at": "2026-02-28T03:56:24.554Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/115a0fad131c1b56f78e32f563d7e0f5a5e0501bf452324e1621d28718bc1ca7",
   "install_command": "mkdir -p .claude/skills/api-patterns && curl -sL \"https://raw.githubusercontent.com/yunaamelia/vps-rdp-workstation/main/.agent/skills/api-patterns/SKILL.md\" > .claude/skills/api-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yunaamelia/vps-rdp-workstation/main/.agent/skills/api-patterns/SKILL.md"

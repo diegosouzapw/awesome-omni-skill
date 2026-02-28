@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8dcdfcb2626df88f8ed5dd67dc4f3dc066d7ec909090ac23ff4f21bb8ec3250f",
   "indexed_at": "2026-02-26T06:51:07.053Z",
-  "synced_at": "2026-02-27T02:30:05.727Z",
+  "synced_at": "2026-02-28T03:55:50.980Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f69f2910511b2b1de1cd49c5dc80f507b212948c04af18a6cfdff9fffd2bc21e",
   "install_command": "mkdir -p .claude/skills/frontend-component && curl -sL \"https://raw.githubusercontent.com/Intellifill/IntelliFill/main/.claude/skills/frontend-component/SKILL.md\" > .claude/skills/frontend-component/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Intellifill/IntelliFill/main/.claude/skills/frontend-component/SKILL.md"

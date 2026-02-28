@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "746d3f5c3ba561ac119169e67aaf05cd7e30ea0c373e8bceb02efc9430d3a340",
   "indexed_at": "2026-02-26T06:51:43.520Z",
-  "synced_at": "2026-02-27T02:30:07.667Z",
+  "synced_at": "2026-02-28T03:55:52.840Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4a6ffd672c5ad632208a3e3dfd24d7a564b7b90da803a5c4fcbc387693367ae2",
   "install_command": "mkdir -p .claude/skills/configure-chatkit && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/configure-chatkit-syedanabila559-phase5/SKILL.md\" > .claude/skills/configure-chatkit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/configure-chatkit-syedanabila559-phase5/SKILL.md"

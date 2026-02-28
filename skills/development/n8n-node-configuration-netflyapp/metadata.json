@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "349b8b917cb8c832766b5b99f32ec3872160a03fdc0c611dc2c36362d040f711",
   "indexed_at": "2026-02-26T08:55:06.198Z",
-  "synced_at": "2026-02-27T02:31:17.402Z",
+  "synced_at": "2026-02-28T03:56:57.203Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/23d4eb12ecbcb5dd24b577308b8fe4fb179448451352e903ed7451dce2b7115d",
   "install_command": "mkdir -p .claude/skills/n8n-node-configuration && curl -sL \"https://raw.githubusercontent.com/netflyapp/hexos-dashboard/main/03_ui/antigravity-awesome-skills-main-2/skills/n8n-node-configuration/SKILL.md\" > .claude/skills/n8n-node-configuration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/netflyapp/hexos-dashboard/main/03_ui/antigravity-awesome-skills-main-2/skills/n8n-node-configuration/SKILL.md"

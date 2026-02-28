@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "17d7c5471d269351c8630ffc42a8f4a818e9d5f94ec1f2a1442f3727d041d7b4",
   "indexed_at": "2026-02-26T06:55:05.155Z",
-  "synced_at": "2026-02-27T02:30:17.268Z",
+  "synced_at": "2026-02-28T03:56:01.485Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/675595c91e609ca7e073d7b70a4bf0c9e7f757833ecbb37acaf4c9908b107006",
   "install_command": "mkdir -p .claude/skills/kramme-connect-modernize-angular && curl -sL \"https://raw.githubusercontent.com/Abildtoft/kramme-cc-workflow/main/kramme-connect-workflow/skills/kramme:connect:modernize-angular/SKILL.md\" > .claude/skills/kramme-connect-modernize-angular/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Abildtoft/kramme-cc-workflow/main/kramme-connect-workflow/skills/kramme:connect:modernize-angular/SKILL.md"

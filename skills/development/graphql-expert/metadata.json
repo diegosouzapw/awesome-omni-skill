@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "919730c4214de9d146c199de7b0853de0ff8e5e512d8143b4c1708b212c15f21",
   "indexed_at": "2026-02-26T07:47:15.301Z",
-  "synced_at": "2026-02-27T02:30:28.789Z",
+  "synced_at": "2026-02-28T03:56:12.604Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ad25ba54d006ed0b81094ba688670e4d66f004aa4f587cc5ad7bc1633c097422",
   "install_command": "mkdir -p .claude/skills/graphql-expert && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/travisjneuman/.claude/graphql-expert/SKILL.md\" > .claude/skills/graphql-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/travisjneuman/.claude/graphql-expert/SKILL.md"

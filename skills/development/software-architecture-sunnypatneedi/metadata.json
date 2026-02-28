@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b3968482092b1031a80c5aa2c237190fecae3e46050698cf702c265f0382a6f5",
   "indexed_at": "2026-02-26T08:53:37.337Z",
-  "synced_at": "2026-02-27T02:31:14.041Z",
+  "synced_at": "2026-02-28T03:56:53.409Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/18fb3711784ebb37262325a49c2518c48aeb49ac615a729a64889c4fd65c43d5",
   "install_command": "mkdir -p .claude/skills/software-architecture && curl -sL \"https://raw.githubusercontent.com/sunnypatneedi/claude-starter-kit/main/skills/engineering/software-architecture/SKILL.md\" > .claude/skills/software-architecture/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sunnypatneedi/claude-starter-kit/main/skills/engineering/software-architecture/SKILL.md"

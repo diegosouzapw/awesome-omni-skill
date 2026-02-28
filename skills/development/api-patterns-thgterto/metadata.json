@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0cdf8491b59d65ffbf6305236cd2ab5fdee0001214f7eb425594533d37333596",
   "indexed_at": "2026-02-26T07:54:09.414Z",
-  "synced_at": "2026-02-27T02:30:41.825Z",
+  "synced_at": "2026-02-28T03:56:24.741Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/accb88c741565f9f851f083243d46059a7cf626e2db369a0d9687bf88ac9455b",
   "install_command": "mkdir -p .claude/skills/api-patterns && curl -sL \"https://raw.githubusercontent.com/thgterto/Gerenciador-de-estoque/main/.agent/skills/api-patterns/SKILL.md\" > .claude/skills/api-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/thgterto/Gerenciador-de-estoque/main/.agent/skills/api-patterns/SKILL.md"

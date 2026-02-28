@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8c21cd133a68c23c06f1ce7448e19df458904ce9ed9f8a9a26ca719c36bc916c",
   "indexed_at": "2026-02-26T08:50:37.984Z",
-  "synced_at": "2026-02-27T02:31:05.289Z",
+  "synced_at": "2026-02-28T03:56:45.285Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2a2ef02729e97424886dbeb1fa2286eda36aac032be8d774a152f838399aa252",
   "install_command": "mkdir -p .claude/skills/java-pro && curl -sL \"https://raw.githubusercontent.com/itsimonfredlingjack/codex-dev-plugin/main/.codex/skills/java-pro/SKILL.md\" > .claude/skills/java-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/itsimonfredlingjack/codex-dev-plugin/main/.codex/skills/java-pro/SKILL.md"

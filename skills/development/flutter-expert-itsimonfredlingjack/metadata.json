@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "65e6c5d24f22faee539416ae93fdc3e00bcdfda0cfc3b4ebb481c7cec6286bb9",
   "indexed_at": "2026-02-26T07:48:10.950Z",
-  "synced_at": "2026-02-27T02:30:30.892Z",
+  "synced_at": "2026-02-28T03:56:14.641Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c304073f3ddff765a295a06da3346636789a17b88ba646e2d21ab6a3647fa45d",
   "install_command": "mkdir -p .claude/skills/flutter-expert && curl -sL \"https://raw.githubusercontent.com/itsimonfredlingjack/codex-dev-plugin/main/.codex/skills/flutter-expert/SKILL.md\" > .claude/skills/flutter-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/itsimonfredlingjack/codex-dev-plugin/main/.codex/skills/flutter-expert/SKILL.md"

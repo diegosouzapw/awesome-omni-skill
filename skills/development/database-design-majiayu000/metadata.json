@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cb028176d18ee85f6006462eb7f38e946e0423982d68f6dd514034a678dc6144",
   "indexed_at": "2026-02-26T08:46:58.551Z",
-  "synced_at": "2026-02-27T02:30:53.845Z",
+  "synced_at": "2026-02-28T03:56:35.922Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/be0a529ef34192e9053a6c1681eddfc84d5df41ef0d2360ac222337d9040a600",
   "install_command": "mkdir -p .claude/skills/database-design && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/database-design-cloudai-x-claude-workflow-v2/SKILL.md\" > .claude/skills/database-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/database-design-cloudai-x-claude-workflow-v2/SKILL.md"

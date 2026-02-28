@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a69b215f7025cdaad46abcf9902881f4eaeb1741b347bd43188ee58d2148b7ef",
   "indexed_at": "2026-02-26T07:47:49.595Z",
-  "synced_at": "2026-02-27T02:30:29.846Z",
+  "synced_at": "2026-02-28T03:56:13.642Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e7aba32976cc1314c4a01debd4b6fbc1a02e309af0edc7382ce811bfa651d74b",
   "install_command": "mkdir -p .claude/skills/senior-architect && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/poletron/custom-rules/senior-architect/SKILL.md\" > .claude/skills/senior-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/poletron/custom-rules/senior-architect/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b4457af77249daa0f602af390e61ccb57d9f186fb1054eef7857a9034e266c90",
   "indexed_at": "2026-02-26T08:45:16.287Z",
-  "synced_at": "2026-02-27T02:30:48.675Z",
+  "synced_at": "2026-02-28T03:56:30.956Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cf3c1e0185a1e02554425a0af34b2185d17fc93134cafaca788c45fbda0d10d8",
   "install_command": "mkdir -p .claude/skills/doc-naming && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/vladm3105__aidoc-flow-framework__claude__skills__doc-naming__SKILL.md/SKILL.md\" > .claude/skills/doc-naming/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/vladm3105__aidoc-flow-framework__claude__skills__doc-naming__SKILL.md/SKILL.md"

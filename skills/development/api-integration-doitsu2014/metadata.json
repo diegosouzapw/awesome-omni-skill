@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e69f0dd7a8ef702ed31bfa0295f9af41ef5e65c530bfee21a886e54981e66e0a",
   "indexed_at": "2026-02-26T07:47:16.806Z",
-  "synced_at": "2026-02-27T02:30:28.965Z",
+  "synced_at": "2026-02-28T03:56:12.772Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a6d629e21c65da471ae9299fc9bd3d331129cb8073224894915759e58ed2a6d8",
   "install_command": "mkdir -p .claude/skills/api-integration && curl -sL \"https://raw.githubusercontent.com/doitsu2014/my-blogs-rsbuild/main/admin_side/.claude/skills/api-integration/SKILL.md\" > .claude/skills/api-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/doitsu2014/my-blogs-rsbuild/main/admin_side/.claude/skills/api-integration/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "812f87000a40e96cf83fc8fbeb3a606ae3d3df041a9fc3998e327d4f937bccd1",
   "indexed_at": "2026-02-26T07:46:13.779Z",
-  "synced_at": "2026-02-27T02:30:26.975Z",
+  "synced_at": "2026-02-28T03:56:10.873Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/648a13f7e949525c625b5bcf0f47e93f8f7bed1f43ef78a62bd0c6f41ce938a4",
   "install_command": "mkdir -p .claude/skills/api-design && curl -sL \"https://raw.githubusercontent.com/thependalorian/porfolio/main/.claude/skills/api-design/SKILL.md\" > .claude/skills/api-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/thependalorian/porfolio/main/.claude/skills/api-design/SKILL.md"

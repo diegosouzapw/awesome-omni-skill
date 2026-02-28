@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f4a64e424cb2dae47b2f57247bae439744d2cedc766460f9b9d228cfd0166cde",
   "indexed_at": "2026-02-26T07:51:41.720Z",
-  "synced_at": "2026-02-27T02:30:37.000Z",
+  "synced_at": "2026-02-28T03:56:20.381Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/581a90e0530e04c2e9c48becbdbbc8033799b0064d10ce6e5540ca2838982ca0",
   "install_command": "mkdir -p .claude/skills/linear && curl -sL \"https://raw.githubusercontent.com/wrsmith108/linear-claude-skill/main/SKILL.md\" > .claude/skills/linear/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wrsmith108/linear-claude-skill/main/SKILL.md"

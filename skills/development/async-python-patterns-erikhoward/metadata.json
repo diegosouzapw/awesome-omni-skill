@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d3db6e10fae7807890310eb1c58aefd63b0abe8a504722596507cd1bae50815c",
   "indexed_at": "2026-02-26T08:54:06.834Z",
-  "synced_at": "2026-02-27T02:31:15.675Z",
+  "synced_at": "2026-02-28T03:56:54.915Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8084e0dab04f856faa221f3200a1108a4a448df0fe10a6a29bc17d1303861cb3",
   "install_command": "mkdir -p .claude/skills/async-python-patterns && curl -sL \"https://raw.githubusercontent.com/erikhoward/agent-rules/main/claude/skills/async-python-patterns/SKILL.md\" > .claude/skills/async-python-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/erikhoward/agent-rules/main/claude/skills/async-python-patterns/SKILL.md"

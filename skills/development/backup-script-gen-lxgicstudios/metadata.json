@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b53a6b16d69f8c057245a2b9e5f0ef4e6e44f1e272e2bf4c2af9ed375c523629",
   "indexed_at": "2026-02-26T08:49:35.240Z",
-  "synced_at": "2026-02-27T02:31:02.329Z",
+  "synced_at": "2026-02-28T03:56:42.628Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d702370de99437e3e5c738d5cda20ad46aa1dcde2d6856dbd62d4c84770bce65",
   "install_command": "mkdir -p .claude/skills/backup-script-gen && curl -sL \"https://raw.githubusercontent.com/lxgicstudios/ai-backup-script/main/SKILL.md\" > .claude/skills/backup-script-gen/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lxgicstudios/ai-backup-script/main/SKILL.md"

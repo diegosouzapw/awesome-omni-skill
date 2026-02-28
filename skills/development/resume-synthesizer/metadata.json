@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a8efa745b97dd242000a1921f3b140cf7c2adb2e7c779612815f498b21aa8620",
   "indexed_at": "2026-02-26T08:51:13.446Z",
-  "synced_at": "2026-02-27T02:31:07.207Z",
+  "synced_at": "2026-02-28T03:56:47.056Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4e972d626d87d3dfeab6fc7a70fe418ac81e32d3945d7d2edee7317563617259",
   "install_command": "mkdir -p .claude/skills/resume-synthesizer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/resume-synthesizer/SKILL.md\" > .claude/skills/resume-synthesizer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/resume-synthesizer/SKILL.md"

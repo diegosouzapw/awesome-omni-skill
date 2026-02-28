@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8a4f353782cbfcea52a57c39719bed929f138275e32fa1386c6fb0bb82000e4b",
   "indexed_at": "2026-02-26T07:47:09.835Z",
-  "synced_at": "2026-02-27T02:30:28.613Z",
+  "synced_at": "2026-02-28T03:56:12.438Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/90d49c714a74bb61650eca42858f8f46b655779eda47305bbf4bbe54dafe49e2",
   "install_command": "mkdir -p .claude/skills/api-designer && curl -sL \"https://raw.githubusercontent.com/omer-metin/skills-for-antigravity/main/skills/api-designer/SKILL.md\" > .claude/skills/api-designer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/omer-metin/skills-for-antigravity/main/skills/api-designer/SKILL.md"

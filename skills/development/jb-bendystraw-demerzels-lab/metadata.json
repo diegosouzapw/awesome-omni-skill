@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4c67035252f5cc1d7865d93f03e8a5e87d1d851e909165b8f7ddf7466ef86f67",
   "indexed_at": "2026-02-26T07:55:09.835Z",
-  "synced_at": "2026-02-27T02:30:43.117Z",
+  "synced_at": "2026-02-28T03:56:25.876Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d18fa840404cc4c3d70cf70eadfc2791110621f0b517b17f26dd63bd51bfa7b8",
   "install_command": "mkdir -p .claude/skills/jb-bendystraw && curl -sL \"https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/mejango/juicy/jb-bendystraw/SKILL.md\" > .claude/skills/jb-bendystraw/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/mejango/juicy/jb-bendystraw/SKILL.md"

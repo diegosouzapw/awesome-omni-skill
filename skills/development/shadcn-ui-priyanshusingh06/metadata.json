@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4910e4605c0be80c9f0717158224feb67bec10c17425db42e9519ffc0f1f7954",
   "indexed_at": "2026-02-26T06:50:57.395Z",
-  "synced_at": "2026-02-27T02:30:04.679Z",
+  "synced_at": "2026-02-28T03:55:50.002Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/271adfb071a483b964e5847c623d5284a82c99a8fe2e95eacd21def2c9a671cd",
   "install_command": "mkdir -p .claude/skills/shadcn-ui && curl -sL \"https://raw.githubusercontent.com/PriyanshuSingh06/Email-Scheduler/main/.agent/skills/stitch-skills-main/skills/shadcn-ui/SKILL.md\" > .claude/skills/shadcn-ui/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/PriyanshuSingh06/Email-Scheduler/main/.agent/skills/stitch-skills-main/skills/shadcn-ui/SKILL.md"

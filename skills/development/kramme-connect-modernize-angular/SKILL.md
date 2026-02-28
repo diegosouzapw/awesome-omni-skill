@@ -84,97 +84,7 @@ Strictness hierarchy: ALWAYS/NEVER > PREFER > CAN > NOTE/EXAMPLE
 - **ALWAYS** use proper type narrowing in effects with filter: `(tuple): tuple is [void, DataType] => tuple[1] !== null`
 - **ALWAYS** use `pipe()` directly in effects: `this.effect<Type>(pipe(...))` not `this.effect<Type>((param$) => param$.pipe(...))`
 
-**EXAMPLE:**
-
-```typescript
-import { inject, Injectable } from "@angular/core";
-import { ComponentStore } from "@ngrx/component-store";
-import { Store } from "@ngrx/store";
-import { FormControl, FormGroup, Validators } from "@angular/forms";
-import { filter, pipe, switchMap, tap, withLatestFrom } from "rxjs";
-
-// Define form controls interface
-export interface ComponentNameFormControls {
-  field1: FormControl<string>;
-  field2: FormControl<boolean>;
-}
-
-// Define state interface
-interface ComponentNameState {
-  readonly currentData: DataType | null;
-}
-
-const initialState: ComponentNameState = {
-  currentData: null,
-};
-
-@Injectable()
-export class ComponentNameStore extends ComponentStore<ComponentNameState> {
-  readonly #store = inject(Store);
-
-  // Selectors
-  readonly currentData$ = this.select((state) => state.currentData);
-  readonly externalData$ = this.#store.select(getExternalData.selector);
-
-  // Form definition
-  readonly form = new FormGroup<ComponentNameFormControls>({
-    field1: new FormControl<string>("", {
-      validators: [Validators.required],
-      nonNullable: true,
-    }),
-    field2: new FormControl<boolean>(false, { nonNullable: true }),
-  });
-
-  // Updaters
-  readonly setCurrentData = this.updater<DataType>(
-    (state, data): ComponentNameState => ({
-      ...state,
-      currentData: data,
-    })
-  );
-
-  // Effects - use pipe() directly
-  readonly initializeForm = this.effect<DataType>(
-    pipe(
-      tap((data: DataType) => {
-        this.setCurrentData(data);
-        this.form.reset(data);
-        this.#applyConditionalLogic(this.form);
-      })
-    )
-  );
-
-  readonly saveChanges = this.effect<void>(
-    pipe(
-      tap(() => {
-        this.#store.dispatch(updateAction.start(this.form.getRawValue()));
-      })
-    )
-  );
-
-  readonly cancelChanges = this.effect<void>(
-    pipe(
-      withLatestFrom(this.currentData$),
-      filter((tuple): tuple is [void, DataType] => tuple[1] !== null),
-      tap(([, data]) => {
-        this.form.reset(data);
-        this.#applyConditionalLogic(this.form);
-      })
-    )
-  );
-
-  // Private methods
-  #applyConditionalLogic(form: FormGroup<ComponentNameFormControls>): void {
-    // Conditional enabling/disabling logic
-  }
-
-  constructor() {
-    super(initialState);
-    // Initialize effects that don't take parameters
-    this.applyConditionalDisabling();
-  }
-}
-```
+**EXAMPLE:** See `resources/examples/component-store.ts` for a complete ComponentStore reference implementation.
 
 ---
 
@@ -192,61 +102,7 @@ export class ComponentNameStore extends ComponentStore<ComponentNameState> {
 - **ALWAYS** remove manual subscriptions
 - **ALWAYS** remove `DestroyRef` and `takeUntilDestroyed` (ComponentStore handles cleanup)
 
-**EXAMPLE:**
-
-```typescript
-import {
-  ChangeDetectionStrategy,
-  Component,
-  inject,
-  Input,
-} from "@angular/core";
-import { animate, style, transition, trigger } from "@angular/animations";
-import { ComponentNameStore } from "./component-name.store";
-
-@Component({
-  selector: "co-component-name",
-  templateUrl: "./component-name.component.html",
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  providers: [ComponentNameStore],
-  imports: [
-    // Only what you need
-  ],
-  animations: [
-    trigger("slideDown", [
-      transition(":enter", [
-        style({ height: "0", opacity: 0, overflow: "hidden" }),
-        animate("300ms ease-out", style({ height: "*", opacity: 1 })),
-      ]),
-      transition(":leave", [
-        style({ height: "*", opacity: 1, overflow: "hidden" }),
-        animate("300ms ease-in", style({ height: "0", opacity: 0 })),
-      ]),
-    ]),
-  ],
-})
-export class ComponentNameComponent {
-  readonly #componentStore = inject(ComponentNameStore);
-
-  @Input() set data(data: DataType) {
-    if (data) {
-      this.#componentStore.initializeForm(data);
-    }
-  }
-
-  readonly form = this.#componentStore.form;
-  readonly data$ = this.#componentStore.currentData$;
-
-  saveChanges(): void {
-    this.#componentStore.saveChanges();
-  }
-
-  cancelChanges(): void {
-    this.#componentStore.cancelChanges();
-  }
-}
-```
+**EXAMPLE:** See `resources/examples/component.ts` for a complete component reference implementation.
 
 ---
 
@@ -259,31 +115,7 @@ export class ComponentNameComponent {
 - **PREFER** adding animations for conditional UI
 - **ALWAYS** use form bindings with proper type checking
 
-**EXAMPLE - Native control flow with animation:**
-
-```html
-@if (form.controls.parentField.value) {
-<div @slideDown>
-  <mat-slide-toggle formControlName="childField">
-    Child Field
-  </mat-slide-toggle>
-</div>
-}
-```
-
-**EXAMPLE - Form bindings:**
-
-```html
-<form [formGroup]="form" class="tw-space-y-4">
-  <mat-form-field class="tw-w-full" subscriptSizing="fixed">
-    <mat-label>Field Name</mat-label>
-    <input matInput formControlName="fieldName" required />
-    @if (form.controls.fieldName.hasError("required")) {
-    <mat-error>Field is required</mat-error>
-    }
-  </mat-form-field>
-</form>
-```
+**EXAMPLE:** See `resources/examples/template.html` for native control flow and form binding examples.
 
 ---
 
@@ -383,52 +215,7 @@ export const updateAction = new ApiAction<State, Input, Output>(
 
 ### Common Patterns
 
-#### Conditional Field Disabling
-
-- **ALWAYS** create a private method for conditional logic
-- **ALWAYS** use `{ emitEvent: false }` when programmatically enabling/disabling controls
-- **ALWAYS** call after form reset and in an effect watching the parent field
-
-**EXAMPLE:**
-
-```typescript
-#applyConditionalDisabling(form: FormGroup<FormControls>): void {
-  const parentValue = form.controls.parentField.value;
-
-  if (!parentValue) {
-    form.controls.childField.disable({ emitEvent: false });
-  } else {
-    form.controls.childField.enable({ emitEvent: false });
-  }
-}
-
-// Call after form reset and in an effect watching the parent field
-readonly applyConditionalDisabling = this.effect<void>(
-  pipe(
-    switchMap(() => this.form.controls.parentField.valueChanges),
-    tap(() => {
-      this.#applyConditionalDisabling(this.form);
-    })
-  )
-);
-```
-
-#### Form Controls with nonNullable
-
-- **ALWAYS** add `nonNullable: true` to form controls to ensure type safety
-- **NOTE**: This prevents the form control value from being `null` after reset
-
-**EXAMPLE:**
-
-```typescript
-readonly form = new FormGroup<ComponentNameFormControls>({
-  field1: new FormControl<string>('', {
-    validators: [Validators.required],
-    nonNullable: true // ← ALWAYS include this
-  }),
-  field2: new FormControl<boolean>(false, { nonNullable: true }),
-});
-```
+See `resources/patterns.md` for detailed examples of conditional field disabling and nonNullable form controls.
 
 ---
 
@@ -478,37 +265,7 @@ readonly form = new FormGroup<ComponentNameFormControls>({
 
 ### Migration Checklist
 
-- [ ] Phase 1: Read all component files and identify patterns
-- [ ] Phase 2: Create ComponentStore
-  - [ ] Defined state interface with `readonly` properties
-  - [ ] Defined form controls interface
-  - [ ] Created form as class property (not in state)
-  - [ ] All selectors use `$` suffix
-  - [ ] All effects use `pipe()` directly
-  - [ ] Proper type narrowing in effects
-- [ ] Phase 3: Refactor component
-  - [ ] Component uses `OnPush` change detection
-  - [ ] Component is `standalone: true`
-  - [ ] ComponentStore in providers array
-  - [ ] Removed base class extensions
-  - [ ] Removed `@Select` decorators
-  - [ ] Removed manual subscriptions
-  - [ ] All `inject()` calls first in class
-  - [ ] Using `#privateField` syntax
-- [ ] Phase 4: Update template
-  - [ ] Updated template to use native control flow
-  - [ ] Added animations for conditional UI
-  - [ ] Proper form bindings
-- [ ] Phase 5: UX enhancements
-  - [ ] Added confirmation dialogs for destructive actions
-  - [ ] Success messages in ApiAction (not manual toasts)
-  - [ ] Copy-to-clipboard for IDs (if applicable)
-- [ ] Phase 6: Verification
-  - [ ] Lint passes
-  - [ ] No manual subscriptions in components
-  - [ ] Forms have proper type annotations
-  - [ ] No `any` types
-  - [ ] Tested all workflows
+See `resources/checklist.md` for the full phase-by-phase migration checklist.
 
 ---
 

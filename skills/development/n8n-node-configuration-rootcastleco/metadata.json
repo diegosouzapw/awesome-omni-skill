@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "973841dc95f4f6f71f175288ac4f69dc209989dcc5ca167bbed1c9e92583c678",
   "indexed_at": "2026-02-26T08:50:51.157Z",
-  "synced_at": "2026-02-27T02:31:05.988Z",
+  "synced_at": "2026-02-28T03:56:45.941Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/64e31551688f540f1889600d77e4597ca232fae2c66d4b31755d65c1e0e561ae",
   "install_command": "mkdir -p .claude/skills/n8n-node-configuration && curl -sL \"https://raw.githubusercontent.com/rootcastleco/rei-skills/main/skills/n8n-node-configuration/SKILL.md\" > .claude/skills/n8n-node-configuration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rootcastleco/rei-skills/main/skills/n8n-node-configuration/SKILL.md"

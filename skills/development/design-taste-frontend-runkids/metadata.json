@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aeb1132b004997aa250d9527d033e94aeddba721b0effb6a4aa07fcc7778fc8f",
   "indexed_at": "2026-02-26T06:56:15.461Z",
-  "synced_at": "2026-02-27T02:30:20.908Z",
+  "synced_at": "2026-02-28T03:56:04.930Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/294c5e803b1f6c44e5311ca755358641006555ab8101c87d8cfdb71e6be94fd9",
   "install_command": "mkdir -p .claude/skills/design-taste-frontend && curl -sL \"https://raw.githubusercontent.com/runkids/my-skills/main/frontend/taste-skill/SKILL.md\" > .claude/skills/design-taste-frontend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/runkids/my-skills/main/frontend/taste-skill/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a9b0ef03005ee4cc940456b6dde13c7d2684a006027b576c142bab24e0187126",
   "indexed_at": "2026-02-26T08:56:51.237Z",
-  "synced_at": "2026-02-27T02:31:21.050Z",
+  "synced_at": "2026-02-28T03:57:00.734Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0ec3f281e096b89464faa2906ccbd07a238ebe01a735ce39c9772ff9238f6330",
   "install_command": "mkdir -p .claude/skills/backend-testing && curl -sL \"https://raw.githubusercontent.com/supercent-io/skills-template/main/.agent-skills/backend-testing/SKILL.md\" > .claude/skills/backend-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/supercent-io/skills-template/main/.agent-skills/backend-testing/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0a97e7f498f412ce4f279dea34a0f207635a0b33b6ccd096a3c4ee44382373a4",
   "indexed_at": "2026-02-26T06:55:09.844Z",
-  "synced_at": "2026-02-27T02:30:17.633Z",
+  "synced_at": "2026-02-28T03:56:01.828Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2519d79f4ad551796b496e10407ca163b0a80b0dcbb62fb82931492eaf96db43",
   "install_command": "mkdir -p .claude/skills/rule-selector && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/rule-selector/SKILL.md\" > .claude/skills/rule-selector/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/rule-selector/SKILL.md"

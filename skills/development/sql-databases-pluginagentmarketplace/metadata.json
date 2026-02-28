@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8178a8df3ab4b5e5d1d5e6d1a38197781e4bf50c81b23d75ad32c73a3aa661dd",
   "indexed_at": "2026-02-26T08:47:03.097Z",
-  "synced_at": "2026-02-27T02:30:54.250Z",
+  "synced_at": "2026-02-28T03:56:36.315Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/46a84aa84d63122bfce252293cc755cd721ad645faa658c1af25eaf86faf1690",
   "install_command": "mkdir -p .claude/skills/sql-databases && curl -sL \"https://raw.githubusercontent.com/pluginagentmarketplace/custom-plugin-data-engineer/main/skills/sql-databases/SKILL.md\" > .claude/skills/sql-databases/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pluginagentmarketplace/custom-plugin-data-engineer/main/skills/sql-databases/SKILL.md"

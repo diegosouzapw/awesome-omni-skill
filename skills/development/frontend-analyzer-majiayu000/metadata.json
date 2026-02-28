@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3b649a1ad146be58e25c9b863076dc26bfc988a0004934483303e6197ec802f7",
   "indexed_at": "2026-02-26T06:51:25.587Z",
-  "synced_at": "2026-02-27T02:30:06.474Z",
+  "synced_at": "2026-02-28T03:55:51.701Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aa9cd7b673ecbeb337ea87df99756ec776811fc5aad0a4877427df38bdfef2ea",
   "install_command": "mkdir -p .claude/skills/frontend-analyzer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/frontend-analyzer/SKILL.md\" > .claude/skills/frontend-analyzer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/frontend-analyzer/SKILL.md"

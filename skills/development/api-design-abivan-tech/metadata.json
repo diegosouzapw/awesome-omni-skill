@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f39ac250c61397fae7aa928fe5e82ce8079dbacddd5cf90445b01b7c793590e8",
   "indexed_at": "2026-02-26T07:51:26.584Z",
-  "synced_at": "2026-02-27T02:30:36.435Z",
+  "synced_at": "2026-02-28T03:56:19.872Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e39bca88d0073dcdeefe10506c6ad2656c8b21308ca1470d6a55089664f881c4",
   "install_command": "mkdir -p .claude/skills/api-design && curl -sL \"https://raw.githubusercontent.com/ABIvan-Tech/copilot-agentic-workflows/main/skills/api-design/SKILL.md\" > .claude/skills/api-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ABIvan-Tech/copilot-agentic-workflows/main/skills/api-design/SKILL.md"

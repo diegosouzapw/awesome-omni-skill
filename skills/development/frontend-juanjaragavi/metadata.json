@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fedbb36933b90ed28506d0a336f2c28f6e2d944433a52c523b5dde778a15b190",
   "indexed_at": "2026-02-26T06:47:59.249Z",
-  "synced_at": "2026-02-27T02:29:52.183Z",
+  "synced_at": "2026-02-28T03:55:39.793Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/308b58352b8fa716f67a5fb0a5e6b1479d00c9e1d4acf27144845095b792b858",
   "install_command": "mkdir -p .claude/skills/frontend && curl -sL \"https://raw.githubusercontent.com/juanjaragavi/social-media-genius/main/.claude/skills/frontend/SKILL.md\" > .claude/skills/frontend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/juanjaragavi/social-media-genius/main/.claude/skills/frontend/SKILL.md"

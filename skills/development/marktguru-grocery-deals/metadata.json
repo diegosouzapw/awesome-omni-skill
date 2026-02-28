@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e53a6c289092c333f0047c70541bee3d59a7d84ff534511c95b7c4b0490572ca",
   "indexed_at": "2026-02-26T09:30:52.936Z",
-  "synced_at": "2026-02-27T02:31:22.209Z",
+  "synced_at": "2026-02-28T03:57:01.818Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2055438dee942dafea3e3eec35fb396a18debea856b20f9fab9c8c775def4e6a",
   "install_command": "mkdir -p .claude/skills/marktguru-grocery-deals && curl -sL \"https://raw.githubusercontent.com/manmal/marktguru-cli/main/SKILL.md\" > .claude/skills/marktguru-grocery-deals/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/manmal/marktguru-cli/main/SKILL.md"

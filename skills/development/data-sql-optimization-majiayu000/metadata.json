@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "09d791686d41cd5db44244083ae5d623f341aa0dde32aca137b4c80bb6e6e2b0",
   "indexed_at": "2026-02-26T08:48:53.326Z",
-  "synced_at": "2026-02-27T02:30:58.034Z",
+  "synced_at": "2026-02-28T03:56:39.840Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c31fd045574a11519f033c4cff060e14aeaa1d3da90d9d149db0260f168286f2",
   "install_command": "mkdir -p .claude/skills/data-sql-optimization && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/data-sql-optimization/SKILL.md\" > .claude/skills/data-sql-optimization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/data-sql-optimization/SKILL.md"

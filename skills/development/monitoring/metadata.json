@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3f466246e836b0fcc578132807fb535ff27a2fcc6c6efd9953b27107b49ad9c4",
   "indexed_at": "2026-02-26T08:53:53.423Z",
-  "synced_at": "2026-02-27T02:31:14.781Z",
+  "synced_at": "2026-02-28T03:56:54.143Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/76ae35ef8eca7610e4a075db9f1af53a06aec0f67c7b5ec9954fdb5b312556ca",
   "install_command": "mkdir -p .claude/skills/monitoring && curl -sL \"https://raw.githubusercontent.com/erhankaraarslan/agent_yazilim_ekibi/main/.claude/skills/monitoring/SKILL.md\" > .claude/skills/monitoring/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/erhankaraarslan/agent_yazilim_ekibi/main/.claude/skills/monitoring/SKILL.md"

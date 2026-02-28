@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b2b45261a140ac02ca7673212a94fb95041e0eb98b9bfd85ae8cc473bd2c8688",
   "indexed_at": "2026-02-26T07:55:39.577Z",
-  "synced_at": "2026-02-27T02:30:44.778Z",
+  "synced_at": "2026-02-28T03:56:27.219Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/028106e8fac441404f0807a20ab37e55f75b7d67583dfe41aa8ab8b6fde5bc07",
   "install_command": "mkdir -p .claude/skills/senior-fullstack && curl -sL \"https://raw.githubusercontent.com/rootcastleco/rei-skills/main/skills/senior-fullstack/SKILL.md\" > .claude/skills/senior-fullstack/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rootcastleco/rei-skills/main/skills/senior-fullstack/SKILL.md"

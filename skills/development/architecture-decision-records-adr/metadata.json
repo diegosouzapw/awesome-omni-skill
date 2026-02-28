@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "171ff4df5aa96328f0836e7408038a1d3c675e7024fee52178959db7c142e58a",
   "indexed_at": "2026-02-26T06:55:33.532Z",
-  "synced_at": "2026-02-27T02:30:18.872Z",
+  "synced_at": "2026-02-28T03:56:02.978Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d39d324531ea2a2ed32867a87e2983e04a7f5eeff280b3a7e861e87ce595942e",
   "install_command": "mkdir -p .claude/skills/architecture-decision-records-adr && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/adr-templates/SKILL.md\" > .claude/skills/architecture-decision-records-adr/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/adr-templates/SKILL.md"

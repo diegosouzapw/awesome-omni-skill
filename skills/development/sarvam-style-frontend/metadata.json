@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e578e8c8acc1af7e97a1149ded933aeef7eaf59a176dd78688c1f34f12d095bc",
   "indexed_at": "2026-02-26T06:48:19.846Z",
-  "synced_at": "2026-02-27T02:29:53.542Z",
+  "synced_at": "2026-02-28T03:55:40.963Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b5e32e3eeee75e1582e783dee8fd51a3a2f4edf385812f2f54333f8f1f933214",
   "install_command": "mkdir -p .claude/skills/sarvam-style-frontend && curl -sL \"https://raw.githubusercontent.com/atpugvaraa/NurseSync/main/frontend/SKILL.md\" > .claude/skills/sarvam-style-frontend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/atpugvaraa/NurseSync/main/frontend/SKILL.md"

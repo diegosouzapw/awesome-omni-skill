@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "693f26e71c8f5f12e1e2f4fb741b89c028b2560b597c54aea047ca8925429a40",
   "indexed_at": "2026-02-26T07:51:11.489Z",
-  "synced_at": "2026-02-27T02:30:35.807Z",
+  "synced_at": "2026-02-28T03:56:19.301Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/676f3a6fc1bc52918f12e4f2efbbd9cdeeef3520a1ddcea45363e12493cc4797",
   "install_command": "mkdir -p .claude/skills/design-microservices && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/design-microservices/SKILL.md\" > .claude/skills/design-microservices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/design-microservices/SKILL.md"

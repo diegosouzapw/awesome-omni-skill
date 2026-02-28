@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0c2ad7fcb95368af4204a520b9ace195d0ff8b399cd3799153a0b287bd69894e",
   "indexed_at": "2026-02-26T06:50:51.016Z",
-  "synced_at": "2026-02-27T02:30:04.005Z",
+  "synced_at": "2026-02-28T03:55:49.439Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c7f7e1ac64a151063e25c37a59b858a2bccf880b9caffc1d30c51608b6849009",
   "install_command": "mkdir -p .claude/skills/tailwind-setup && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/tailwind-setup/SKILL.md\" > .claude/skills/tailwind-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/tailwind-setup/SKILL.md"

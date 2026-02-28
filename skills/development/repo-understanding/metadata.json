@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "892a27c986342623632a56d9d3b2916e2785bbb9bf14afedec39ff021afcc0b8",
   "indexed_at": "2026-02-26T08:50:46.253Z",
-  "synced_at": "2026-02-27T02:31:05.802Z",
+  "synced_at": "2026-02-28T03:56:45.764Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5387f81a4f15ab263a270b6fa6f16e28b5c305e95244993a601e973d824ec57e",
   "install_command": "mkdir -p .claude/skills/repo-understanding && curl -sL \"https://raw.githubusercontent.com/dylanmarriner/windsurf-hooker/main/windsurf/skills/repo-understanding/SKILL.md\" > .claude/skills/repo-understanding/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dylanmarriner/windsurf-hooker/main/windsurf/skills/repo-understanding/SKILL.md"

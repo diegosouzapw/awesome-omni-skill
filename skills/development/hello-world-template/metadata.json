@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "410fe7257930271f2a2165d4be750f6d8b42abe4ce894ca07388871be2295a30",
   "indexed_at": "2026-02-26T07:45:10.355Z",
-  "synced_at": "2026-02-27T02:30:24.353Z",
+  "synced_at": "2026-02-28T03:56:08.280Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d8c2c7507f68f43c36e7ae5da08e7f7dce4059334f0c77fa0a2f9eb742d19452",
   "install_command": "mkdir -p .claude/skills/hello-world-template && curl -sL \"https://raw.githubusercontent.com/agentregistry-dev/agentregistry/main/internal/cli/skill/templates/hello-world/SKILL.md.tmpl/SKILL.md\" > .claude/skills/hello-world-template/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/agentregistry-dev/agentregistry/main/internal/cli/skill/templates/hello-world/SKILL.md.tmpl/SKILL.md"

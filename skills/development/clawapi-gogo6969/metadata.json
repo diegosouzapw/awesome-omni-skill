@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8411992df81145b52c3f10972b457ea5e08ef5d9bab42657fe33374cbf820591",
   "indexed_at": "2026-02-26T09:50:07.762Z",
-  "synced_at": "2026-02-27T02:31:29.499Z",
+  "synced_at": "2026-02-28T03:57:08.810Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fa09630f73684ba53f34b5ec368ba817e693fc8fbe3f25c8454afe2d0633277a",
   "install_command": "mkdir -p .claude/skills/clawapi && curl -sL \"https://raw.githubusercontent.com/Gogo6969/clawapi/main/clawhub-skill/SKILL.md\" > .claude/skills/clawapi/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Gogo6969/clawapi/main/clawhub-skill/SKILL.md"

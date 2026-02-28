@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9a9bf02685569fb6cf61dcbd396b1beaedc997a8964f24bc5be26bbc7e4ed866",
   "indexed_at": "2026-02-26T08:30:21.328Z",
-  "synced_at": "2026-02-27T02:30:47.805Z",
+  "synced_at": "2026-02-28T03:56:30.089Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0b66aec0088daab26587760b6b6fdb8cb9739ec5291acb63c804143989c27653",
   "install_command": "mkdir -p .claude/skills/csv-cleaner && curl -sL \"https://raw.githubusercontent.com/elertan/csv-cleaner-skill/main/SKILL.md\" > .claude/skills/csv-cleaner/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/elertan/csv-cleaner-skill/main/SKILL.md"

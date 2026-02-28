@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "87c3bac23ad55165e0bd3911a8cd045380a14fb6af586758f0375dc77cfd9e0c",
   "indexed_at": "2026-02-26T06:56:30.380Z",
-  "synced_at": "2026-02-27T02:30:21.474Z",
+  "synced_at": "2026-02-28T03:56:05.466Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3e60c5c815238ad27f53b3e134a82c4c942cfe37d03ea0f332d21c25d157b3f5",
   "install_command": "mkdir -p .claude/skills/gemini-frontend-design && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/gemini-frontend-design/SKILL.md\" > .claude/skills/gemini-frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/gemini-frontend-design/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "94c7f7e960d621fe9ee06a79d17f0c79be3e48f5f898a77e1657e056554dbbf3",
   "indexed_at": "2026-02-26T06:49:01.989Z",
-  "synced_at": "2026-02-27T02:29:58.706Z",
+  "synced_at": "2026-02-28T03:55:44.375Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c22f5b5cc18c2191909c357adebb736dd315f46cc8bf7b29f5af9c6f032b1d70",
   "install_command": "mkdir -p .claude/skills/setup-tanstack-start && curl -sL \"https://raw.githubusercontent.com/kvnwolf/devtools/main/claude-plugins/web/skills/setup-tanstack-start/SKILL.md\" > .claude/skills/setup-tanstack-start/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kvnwolf/devtools/main/claude-plugins/web/skills/setup-tanstack-start/SKILL.md"

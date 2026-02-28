@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "554eec3958c2fbfcbe42df9560585d5d1c1a22ea7f8e19fd4510656d324f410e",
   "indexed_at": "2026-02-26T08:45:57.226Z",
-  "synced_at": "2026-02-27T02:30:50.374Z",
+  "synced_at": "2026-02-28T03:56:32.606Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/68717a70555f1e86db71e340d6021b5a86712921c721197aab0e8964c852363f",
   "install_command": "mkdir -p .claude/skills/database-engine-implementation && curl -sL \"https://raw.githubusercontent.com/datenoio/iterabledata/main/.cursor/skills/database-engine-implementation/SKILL.md\" > .claude/skills/database-engine-implementation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/datenoio/iterabledata/main/.cursor/skills/database-engine-implementation/SKILL.md"

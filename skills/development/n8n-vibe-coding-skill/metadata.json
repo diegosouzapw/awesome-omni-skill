@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4d771a18269f418cb76e7d3d1fdc3c991a647f352577dbc63db3e15093fa80ee",
   "indexed_at": "2026-02-26T08:45:14.686Z",
-  "synced_at": "2026-02-27T02:30:48.511Z",
+  "synced_at": "2026-02-28T03:56:30.805Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/11d15609db70223c9190355bc3ed8d2880fa5f125f2aa9dad019dd3d387c7873",
   "install_command": "mkdir -p .claude/skills/n8n-vibe-coding-skill && curl -sL \"https://raw.githubusercontent.com/MichaelZelbel/awesome-antigravity/main/intelligence/skills/n8n-vibe-coding-skill.md/SKILL.md\" > .claude/skills/n8n-vibe-coding-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MichaelZelbel/awesome-antigravity/main/intelligence/skills/n8n-vibe-coding-skill.md/SKILL.md"

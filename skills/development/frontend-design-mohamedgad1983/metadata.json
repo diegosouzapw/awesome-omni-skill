@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a66c20a11e2e05a8f031648cf585f278afa2c9d27eb77f7bbae01a00faa3e191",
   "indexed_at": "2026-02-26T06:53:50.909Z",
-  "synced_at": "2026-02-27T02:30:13.008Z",
+  "synced_at": "2026-02-28T03:55:57.865Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e01252c97db6e4b82383fa588287334fb57672303c28fc469be0d7b9cfb0c989",
   "install_command": "mkdir -p .claude/skills/frontend-design && curl -sL \"https://raw.githubusercontent.com/Mohamedgad1983/PROShael/main/.claude/skills/frontend-design/SKILL.md\" > .claude/skills/frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Mohamedgad1983/PROShael/main/.claude/skills/frontend-design/SKILL.md"

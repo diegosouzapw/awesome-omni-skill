@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "036d110655e23545eba2853d28ff09750f1dafc558aa4a0e269d208f4f403da3",
   "indexed_at": "2026-02-26T06:49:11.290Z",
-  "synced_at": "2026-02-27T02:29:59.230Z",
+  "synced_at": "2026-02-28T03:55:44.888Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fce79c77598ce85aa40c6cf7ef4a8013c2f894b5e26e7423d1540857c771ba85",
   "install_command": "mkdir -p .claude/skills/nextjs-supabase-starter && curl -sL \"https://raw.githubusercontent.com/natalialewis/CS4610-Supabase-NextJS-Starter-App/main/.cursor/skills/nextjs-supabase-starter/SKILL.md\" > .claude/skills/nextjs-supabase-starter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/natalialewis/CS4610-Supabase-NextJS-Starter-App/main/.cursor/skills/nextjs-supabase-starter/SKILL.md"

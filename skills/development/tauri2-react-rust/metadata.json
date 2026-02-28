@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bedb72ba7a2a3068eccde48cc5d3cb5ef9568212051b32f49095f1f0a342011e",
   "indexed_at": "2026-02-26T06:54:39.094Z",
-  "synced_at": "2026-02-27T02:30:15.492Z",
+  "synced_at": "2026-02-28T03:55:59.888Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/890dd4be16cef469c871cac9dd48dc0ddc34dd45c0de0a71d2392e5863495be0",
   "install_command": "mkdir -p .claude/skills/tauri2-react-rust && curl -sL \"https://raw.githubusercontent.com/jameingh/dida-clone/main/.cursor/skills/tauri2-react-rust/SKILL.md\" > .claude/skills/tauri2-react-rust/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jameingh/dida-clone/main/.cursor/skills/tauri2-react-rust/SKILL.md"

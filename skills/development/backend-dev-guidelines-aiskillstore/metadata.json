@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "113c6e603e850effb5c9447aad8841649e5336512d48d101128a42f262ef0cba",
   "indexed_at": "2026-02-26T08:56:18.731Z",
-  "synced_at": "2026-02-27T02:31:19.645Z",
+  "synced_at": "2026-02-28T03:56:59.395Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/69542418a79a550168a7d34d11b7ea6511debc4ac84fc485b214f7f2e2e30a02",
   "install_command": "mkdir -p .claude/skills/backend-dev-guidelines && curl -sL \"https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/dojocodinglabs/backend-dev-guidelines/SKILL.md\" > .claude/skills/backend-dev-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/dojocodinglabs/backend-dev-guidelines/SKILL.md"

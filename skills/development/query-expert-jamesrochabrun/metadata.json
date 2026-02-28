@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "79fa76928dc6606e42e2a878ff1ab2159385f39a57c69755597d0fd8d5952237",
   "indexed_at": "2026-02-26T08:52:08.729Z",
-  "synced_at": "2026-02-27T02:31:09.871Z",
+  "synced_at": "2026-02-28T03:56:49.561Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b148a43056f15965e414cdad1e4c12eb6b984874f7aa17b1a599091ef1a78c13",
   "install_command": "mkdir -p .claude/skills/query-expert && curl -sL \"https://raw.githubusercontent.com/jamesrochabrun/skills/main/skills/query-expert/SKILL.md\" > .claude/skills/query-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jamesrochabrun/skills/main/skills/query-expert/SKILL.md"

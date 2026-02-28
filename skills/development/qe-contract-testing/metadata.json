@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2c20382919ea241a952ac0cf51b5cace9fcc9f4402d8327227104045f699d147",
   "indexed_at": "2026-02-26T07:47:46.841Z",
-  "synced_at": "2026-02-27T02:30:29.689Z",
+  "synced_at": "2026-02-28T03:56:13.476Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4c75e188bb0d724ab15e4a8a640381b5c0b71b300e35715a13e7d3583920f110",
   "install_command": "mkdir -p .claude/skills/qe-contract-testing && curl -sL \"https://raw.githubusercontent.com/proffesor-for-testing/agentic-qe/main/.claude/skills/qe-contract-testing/SKILL.md\" > .claude/skills/qe-contract-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/proffesor-for-testing/agentic-qe/main/.claude/skills/qe-contract-testing/SKILL.md"

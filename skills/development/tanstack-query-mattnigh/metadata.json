@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cd7d7cb401f5305bab32d0e03ba16aadd2b44731083c0b9112ba1ef380ac8e82",
   "indexed_at": "2026-02-26T07:54:03.266Z",
-  "synced_at": "2026-02-27T02:30:41.485Z",
+  "synced_at": "2026-02-28T03:56:24.405Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e2edf0eab56cf7b8e0cfb53bc3c2118556f6ee2a69a26c8e74267d217f09d979",
   "install_command": "mkdir -p .claude/skills/tanstack-query && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/danielseltzer__code-analysis-tools__claude__skills__toolchains-typescript-state-tanstack-query__SKILL.md/SKILL.md\" > .claude/skills/tanstack-query/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/danielseltzer__code-analysis-tools__claude__skills__toolchains-typescript-state-tanstack-query__SKILL.md/SKILL.md"

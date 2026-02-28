@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "67a1efa79ab808f984ecb745d10e1aa5ed6f372f37f60f14bc67a534d727642c",
   "indexed_at": "2026-02-26T06:53:28.098Z",
-  "synced_at": "2026-02-27T02:30:11.342Z",
+  "synced_at": "2026-02-28T03:55:56.236Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f6e28e99985c31716130562c700be5a967cce290ac552ddb1269f204f1735282",
   "install_command": "mkdir -p .claude/skills/tailwind-ecommerce && curl -sL \"https://raw.githubusercontent.com/peixotorms/odinlayer-skills/main/plugins/frontend-skills/skills/tailwind-ecommerce/SKILL.md\" > .claude/skills/tailwind-ecommerce/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/peixotorms/odinlayer-skills/main/plugins/frontend-skills/skills/tailwind-ecommerce/SKILL.md"

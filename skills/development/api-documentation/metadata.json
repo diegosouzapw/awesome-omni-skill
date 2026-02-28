@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e73cf0776f9f7f7a6ce74c0418fea5ae892ed482e0fc501da17083fd2c1be122",
   "indexed_at": "2026-02-26T07:46:35.161Z",
-  "synced_at": "2026-02-27T02:30:27.557Z",
+  "synced_at": "2026-02-28T03:56:11.389Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/06f5ab309cfcd68f2c2098a1c85f57f5487bd2827d3cac3478925ee5f35f9651",
   "install_command": "mkdir -p .claude/skills/api-documentation && curl -sL \"https://raw.githubusercontent.com/brendendurham/claude-code-config/main/skills/api-documentation/SKILL.md\" > .claude/skills/api-documentation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/brendendurham/claude-code-config/main/skills/api-documentation/SKILL.md"

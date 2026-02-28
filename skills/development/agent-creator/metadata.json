@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fbefbc1159cd7d12661fbf4d91f19490c64583c90c38ac1f4257fd6515108b21",
   "indexed_at": "2026-02-26T07:52:01.610Z",
-  "synced_at": "2026-02-27T02:30:37.836Z",
+  "synced_at": "2026-02-28T03:56:20.982Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/57ed4d562e3af7cb3f173b10b09cd560c5864e1093bb9b71f228739ddf90a989",
   "install_command": "mkdir -p .claude/skills/agent-creator && curl -sL \"https://raw.githubusercontent.com/nbarthelemy/simdeck/main/.claude/skills/claudenv/agent-creator/SKILL.md\" > .claude/skills/agent-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nbarthelemy/simdeck/main/.claude/skills/claudenv/agent-creator/SKILL.md"

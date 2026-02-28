@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0ccf7bd25039421a58b07a8d5acad4c3dcae3cd8c0e47bc7bbc90e4c75e9ed0d",
   "indexed_at": "2026-02-26T07:30:43.737Z",
-  "synced_at": "2026-02-27T02:30:23.361Z",
+  "synced_at": "2026-02-28T03:56:07.360Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/694859c0e3fc467094e249dfa0f331eef726ec2bff5ca44baeaaaac60d6e5c5a",
   "install_command": "mkdir -p .claude/skills/swift-human-guidelines && curl -sL \"https://raw.githubusercontent.com/Frostist/swift-human-guidelines/main/SKILL.md\" > .claude/skills/swift-human-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Frostist/swift-human-guidelines/main/SKILL.md"

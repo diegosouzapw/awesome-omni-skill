@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2e0ece7da5622f267a592a9edfffc08084e67966c6c00c449b9ca214a8d90337",
   "indexed_at": "2026-02-26T07:48:13.660Z",
-  "synced_at": "2026-02-27T02:30:31.237Z",
+  "synced_at": "2026-02-28T03:56:15.068Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7d5cf9974ca393ed057c2b619d5f5d9c7d06a5fa5737b29a569125e861fb9542",
   "install_command": "mkdir -p .claude/skills/c4-container && curl -sL \"https://raw.githubusercontent.com/itsimonfredlingjack/codex-dev-plugin/main/.codex/skills/c4-container/SKILL.md\" > .claude/skills/c4-container/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/itsimonfredlingjack/codex-dev-plugin/main/.codex/skills/c4-container/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1fb3e204c2e31fe547849686e0a9f32405a8d2132129ab7807e75563cfea30bf",
   "indexed_at": "2026-02-26T09:47:43.511Z",
-  "synced_at": "2026-02-27T02:31:26.956Z",
+  "synced_at": "2026-02-28T03:57:06.342Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8397fb6943ae6ec5de9889ddd7296f9ad851cebf1801c518846964bc085d2359",
   "install_command": "mkdir -p .claude/skills/discovery-interview && curl -sL \"https://raw.githubusercontent.com/METARCHY/about_metarchy/main/.agents/skills/discovery-interview/SKILL.md\" > .claude/skills/discovery-interview/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/METARCHY/about_metarchy/main/.agents/skills/discovery-interview/SKILL.md"

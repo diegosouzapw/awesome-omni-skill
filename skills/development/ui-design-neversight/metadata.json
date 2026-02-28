@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ccf14146e1cc9ccb131699d2d13b706a6aafd40bcfba4840ebe01ad93bb4c7d8",
   "indexed_at": "2026-02-26T06:49:54.555Z",
-  "synced_at": "2026-02-27T02:30:02.049Z",
+  "synced_at": "2026-02-28T03:55:47.445Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/21b980b7e26433b732bc4b29906f062608c79c028072a6ba043c97b183651ea5",
   "install_command": "mkdir -p .claude/skills/ui-design && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ckorhonen/claude-skills/ui-design/SKILL.md\" > .claude/skills/ui-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ckorhonen/claude-skills/ui-design/SKILL.md"

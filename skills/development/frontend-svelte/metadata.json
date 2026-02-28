@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bdb4865cb67df1950fe8db1cf5607d9600618b5f7890a79805a25c5db6c566f8",
   "indexed_at": "2026-02-26T06:49:00.578Z",
-  "synced_at": "2026-02-27T02:29:58.477Z",
+  "synced_at": "2026-02-28T03:55:44.158Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e504e893b2e5271ffea2d104f1f2f72047e8bd857a538aad70e886a42dc971e7",
   "install_command": "mkdir -p .claude/skills/frontend-svelte && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/frontend-svelte/SKILL.md\" > .claude/skills/frontend-svelte/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/frontend-svelte/SKILL.md"

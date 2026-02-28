@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "44f281adeee3f2958c2973c0393031bed5c5d8b6850e19712482619356580bc3",
   "indexed_at": "2026-02-26T08:53:54.827Z",
-  "synced_at": "2026-02-27T02:31:15.112Z",
+  "synced_at": "2026-02-28T03:56:54.320Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f8f282b7f70beb3bf59b877e1c1e13daefac0c768e08b223ae5b426f0a10e3c0",
   "install_command": "mkdir -p .claude/skills/spec-requirements && curl -sL \"https://raw.githubusercontent.com/sc30gsw/claude-code-customes/main/.claude/skills/spec-requirements/SKILL.md\" > .claude/skills/spec-requirements/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sc30gsw/claude-code-customes/main/.claude/skills/spec-requirements/SKILL.md"

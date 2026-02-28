@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "112d9002184f65030a54094d7dca65031000b59746da8ada806cfc8a51f2768c",
   "indexed_at": "2026-02-26T06:54:41.934Z",
-  "synced_at": "2026-02-27T02:30:15.919Z",
+  "synced_at": "2026-02-28T03:56:00.201Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5bc22adb460dc296b48f79d890dd327b504caea5d59e1437081c7bdcdecf5495",
   "install_command": "mkdir -p .claude/skills/livekit-nextjs-frontend && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/livekit-nextjs-frontend/SKILL.md\" > .claude/skills/livekit-nextjs-frontend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/livekit-nextjs-frontend/SKILL.md"

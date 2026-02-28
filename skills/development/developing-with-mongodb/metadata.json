@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d5c59da44172a0d0ee2089db155329fd7eff89514531936728011d6937914322",
   "indexed_at": "2026-02-26T08:46:35.652Z",
-  "synced_at": "2026-02-27T02:30:52.575Z",
+  "synced_at": "2026-02-28T03:56:34.524Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/80e901c8de335c4ead4ce19844fb208b2961c74dff986103a4127669b65ea569",
   "install_command": "mkdir -p .claude/skills/developing-with-mongodb && curl -sL \"https://raw.githubusercontent.com/doanchienthangdev/omgkit/main/plugin/skills/databases/mongodb/SKILL.md\" > .claude/skills/developing-with-mongodb/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/doanchienthangdev/omgkit/main/plugin/skills/databases/mongodb/SKILL.md"

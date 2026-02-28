@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "53f4375d730dd1d94c23f6a07cd0a9c9327cb2e421d8a9636620ab5a3242959e",
   "indexed_at": "2026-02-26T09:48:47.364Z",
-  "synced_at": "2026-02-27T02:31:28.230Z",
+  "synced_at": "2026-02-28T03:57:07.582Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3cbc8c6e3e337afea3633ec32bceb3e524b02581cc8f188dbdd97bd2fe1f9311",
   "install_command": "mkdir -p .claude/skills/organizing-files && curl -sL \"https://raw.githubusercontent.com/oryanmoshe/agent-skills/main/skills/organizing-files/SKILL.md\" > .claude/skills/organizing-files/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oryanmoshe/agent-skills/main/skills/organizing-files/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "054613bb2d08a9da109797c220f32d38fd6d6acff24a1390fbd9bdf665c98b7b",
   "indexed_at": "2026-02-26T06:55:17.493Z",
-  "synced_at": "2026-02-27T02:30:17.876Z",
+  "synced_at": "2026-02-28T03:56:02.044Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/92e0073e5a35d12393d522ad50b5474114df4d55fc6942f7ae7f8e9f4b6d7175",
   "install_command": "mkdir -p .claude/skills/coffee-staff-management && curl -sL \"https://raw.githubusercontent.com/hailamt00/coffee-staff-management/main/SKILL.md\" > .claude/skills/coffee-staff-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hailamt00/coffee-staff-management/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e091c13823d68ade0c00eb60674e78f3648cb240e248cdfd3284b9d5413c6881",
   "indexed_at": "2026-02-26T06:52:20.225Z",
-  "synced_at": "2026-02-27T02:30:08.975Z",
+  "synced_at": "2026-02-28T03:55:54.121Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9371610fed5ac96608b50cf3de1e0a8c3f3e8170dd9a71d7339f9cef33506c60",
   "install_command": "mkdir -p .claude/skills/rule-making-skill && curl -sL \"https://raw.githubusercontent.com/andersnygaard/ettsted2/main/.claude/skills/rule-making-skill/SKILL.md\" > .claude/skills/rule-making-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/andersnygaard/ettsted2/main/.claude/skills/rule-making-skill/SKILL.md"

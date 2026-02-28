@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "02c5c700a7784ab78943ab8e24f1da0f3471a98abe4ea04ac675e1662fc33bf1",
   "indexed_at": "2026-02-26T06:48:42.558Z",
-  "synced_at": "2026-02-27T02:29:57.116Z",
+  "synced_at": "2026-02-28T03:55:42.895Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d6a1e8ef7d66a9e63a644b27a7be5e9b9aecade224a71abac19d9d49cc4f503c",
   "install_command": "mkdir -p .claude/skills/developer && curl -sL \"https://raw.githubusercontent.com/femitfash/aegis-grc/main/.claude/skills/developer/SKILL.md\" > .claude/skills/developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/femitfash/aegis-grc/main/.claude/skills/developer/SKILL.md"

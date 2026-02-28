@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "36dc55e8439b8a58aaf182db27c2afb513e7ef3fa3b53893e213f1f5b3db8df9",
   "indexed_at": "2026-02-26T09:51:49.012Z",
-  "synced_at": "2026-02-27T02:31:29.686Z",
+  "synced_at": "2026-02-28T03:57:08.970Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a371df763768b6f94f798fd9ddfa6f73047ce149d70d69768b1393aad5d8017f",
   "install_command": "mkdir -p .claude/skills/healthcare-ui-design && curl -sL \"https://raw.githubusercontent.com/peterbamuhigire/skills-web-dev/main/healthcare-ui-design/SKILL.md\" > .claude/skills/healthcare-ui-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/peterbamuhigire/skills-web-dev/main/healthcare-ui-design/SKILL.md"

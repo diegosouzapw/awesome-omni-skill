@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "578df2fedee394eb4d4cdf1d8f8fda0fa7e07db4e8a88ccca3484bb139edf526",
   "indexed_at": "2026-02-26T09:47:02.666Z",
-  "synced_at": "2026-02-27T02:31:26.200Z",
+  "synced_at": "2026-02-28T03:57:05.635Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6c2ce6c5532b010f9add644970db4a746de6076a8a262bf4cb5ec307f85f5a3e",
   "install_command": "mkdir -p .claude/skills/security-checker && curl -sL \"https://raw.githubusercontent.com/Sebastienpanda/kanbano-bis/main/.claude/skills/security-checker-SKILL.md/SKILL.md\" > .claude/skills/security-checker/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Sebastienpanda/kanbano-bis/main/.claude/skills/security-checker-SKILL.md/SKILL.md"

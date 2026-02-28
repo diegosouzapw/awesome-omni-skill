@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c634ff39159808b665b4708c27aaf3e49956a79bfede5cb6842735d816c2a55a",
   "indexed_at": "2026-02-26T06:54:43.217Z",
-  "synced_at": "2026-02-27T02:30:16.136Z",
+  "synced_at": "2026-02-28T03:56:00.398Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cf17121e1ab1bd08293c07212dcfa725e34784b893e751624b1bf0ea2868e6e6",
   "install_command": "mkdir -p .claude/skills/web-artifacts-builder && curl -sL \"https://raw.githubusercontent.com/yurake/skills/main/product/web-artifacts-builder/SKILL.md\" > .claude/skills/web-artifacts-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yurake/skills/main/product/web-artifacts-builder/SKILL.md"

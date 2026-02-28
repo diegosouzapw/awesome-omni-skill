@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bc44407e45e5fbf27aa97b9e68b49986e28a99a0911b811ee14da3db14e8acf0",
   "indexed_at": "2026-02-26T06:49:18.956Z",
-  "synced_at": "2026-02-27T02:29:59.419Z",
+  "synced_at": "2026-02-28T03:55:45.048Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e02c2172ad550b99059e3ba0102cc01f682c49142dc7a53f1ba2a68145a78892",
   "install_command": "mkdir -p .claude/skills/web-artifacts-builder && curl -sL \"https://raw.githubusercontent.com/memouritsen-ui/claude-knowledge-library/main/platforms/claude-code-cli/skills-hooks/official/skills/web-artifacts-builder/SKILL.md\" > .claude/skills/web-artifacts-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/memouritsen-ui/claude-knowledge-library/main/platforms/claude-code-cli/skills-hooks/official/skills/web-artifacts-builder/SKILL.md"

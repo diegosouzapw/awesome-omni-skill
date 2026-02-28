@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fcb312e8fa2372052cd4aa2280d140d422de2917634b7eb76105cd9bccdfb6c0",
   "indexed_at": "2026-02-26T09:49:20.584Z",
-  "synced_at": "2026-02-27T02:31:29.325Z",
+  "synced_at": "2026-02-28T03:57:08.638Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/739dea4192801d89d04b07b9b455b7d262dae9272eba877cd26941b7095a8af1",
   "install_command": "mkdir -p .claude/skills/gdpr-compliance && curl -sL \"https://raw.githubusercontent.com/peixotorms/odinlayer-skills/main/plugins/compliance-skills/skills/gdpr-compliance/SKILL.md\" > .claude/skills/gdpr-compliance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/peixotorms/odinlayer-skills/main/plugins/compliance-skills/skills/gdpr-compliance/SKILL.md"

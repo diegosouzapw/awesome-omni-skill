@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ee4c592a1617aeeef25442fb73d7f239fbf095d1734b3d742dccd383ce4bfb34",
   "indexed_at": "2026-02-26T06:48:58.805Z",
-  "synced_at": "2026-02-27T02:29:58.293Z",
+  "synced_at": "2026-02-28T03:55:43.987Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/69bdd5b8b8a065b7cd27273165745f3282c8fd21e834d5a07299fc86cb381874",
   "install_command": "mkdir -p .claude/skills/add-feature && curl -sL \"https://raw.githubusercontent.com/signalbeam-io/signalbeam-edge/main/.claude/skills/add-feature/SKILL.md\" > .claude/skills/add-feature/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/signalbeam-io/signalbeam-edge/main/.claude/skills/add-feature/SKILL.md"

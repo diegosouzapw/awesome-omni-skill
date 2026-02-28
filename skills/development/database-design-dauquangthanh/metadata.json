@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a6acf674d361b183387c856889f9ea3ca1f66e6b38d7110870e9f6ab9c1d75f8",
   "indexed_at": "2026-02-26T08:48:51.265Z",
-  "synced_at": "2026-02-27T02:30:57.775Z",
+  "synced_at": "2026-02-28T03:56:39.679Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7786b25efaba4cf1a3e8ec06c1a462c044a707a4d5579d8d8f78585426a1f0c3",
   "install_command": "mkdir -p .claude/skills/database-design && curl -sL \"https://raw.githubusercontent.com/DauQuangThanh/hanoi-rainbow/main/skills/database-design/SKILL.md\" > .claude/skills/database-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/DauQuangThanh/hanoi-rainbow/main/skills/database-design/SKILL.md"

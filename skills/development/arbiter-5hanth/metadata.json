@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d3f890d594085407a1d6fde043170de3fd6af86cdebd4bb8d125f7d8d4c29847",
   "indexed_at": "2026-02-26T08:49:56.577Z",
-  "synced_at": "2026-02-27T02:31:03.924Z",
+  "synced_at": "2026-02-28T03:56:44.026Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/95af5fee8bb2aa47d62d40488eabd357910113ae4efe654ae2cc4765a3027ea2",
   "install_command": "mkdir -p .claude/skills/arbiter && curl -sL \"https://raw.githubusercontent.com/5hanth/arbiter-skill/main/SKILL.md\" > .claude/skills/arbiter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/5hanth/arbiter-skill/main/SKILL.md"

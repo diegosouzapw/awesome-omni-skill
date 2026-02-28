@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bbddad1712c170fd60a64131c7261642eb98b4b6c0e4101325f29ae63682625f",
   "indexed_at": "2026-02-26T06:53:34.566Z",
-  "synced_at": "2026-02-27T02:30:11.732Z",
+  "synced_at": "2026-02-28T03:55:56.553Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d3852cfbc648c1af820b89b392b1cd2ab3cf296c92ceb1741f77abb06161a1a3",
   "install_command": "mkdir -p .claude/skills/frontend-design && curl -sL \"https://raw.githubusercontent.com/OpenIDCSTeam/Backends/main/.codebuddy/skills/frontend-design/SKILL.md\" > .claude/skills/frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/OpenIDCSTeam/Backends/main/.codebuddy/skills/frontend-design/SKILL.md"

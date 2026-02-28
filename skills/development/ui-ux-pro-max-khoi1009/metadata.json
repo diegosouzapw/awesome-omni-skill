@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d7244162cf3b2ef9d55254fbd5cfd6232987654a42c08664b75d0f2d433a3085",
   "indexed_at": "2026-02-26T06:53:00.424Z",
-  "synced_at": "2026-02-27T02:30:10.071Z",
+  "synced_at": "2026-02-28T03:55:55.164Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ca4bb1565fd05bf73042cf8d04be0a1e1302816b5028b4affa50c0f557c6a733",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/khoi1009/Vibecode-with-Multi-Agent-LongCoT/main/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/khoi1009/Vibecode-with-Multi-Agent-LongCoT/main/skills/ui-ux-pro-max/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "59c9a3962bbcb826ab96d8871c0adb684fdfdc81aad5dd765955ff361e92f63e",
   "indexed_at": "2026-02-26T07:55:12.650Z",
-  "synced_at": "2026-02-27T02:30:43.491Z",
+  "synced_at": "2026-02-28T03:56:26.219Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8a3c8c15eded73e44366640aad8b0336bfc568cec03a142766cd569abd2f7521",
   "install_command": "mkdir -p .claude/skills/jb-bendystraw && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/mejango/juicy/jb-bendystraw/SKILL.md\" > .claude/skills/jb-bendystraw/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/mejango/juicy/jb-bendystraw/SKILL.md"

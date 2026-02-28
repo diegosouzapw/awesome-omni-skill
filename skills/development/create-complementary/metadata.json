@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a84e977a6737ff6ae103abd18d1feaa33b8cba33c1eceb8e55fbcc33a52f70c8",
   "indexed_at": "2026-02-26T07:52:40.807Z",
-  "synced_at": "2026-02-27T02:30:38.606Z",
+  "synced_at": "2026-02-28T03:56:21.708Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/741753a7726780992c7e87fd07d16e9155845c8b1cc662867bc0e4fda734e007",
   "install_command": "mkdir -p .claude/skills/create-complementary && curl -sL \"https://raw.githubusercontent.com/SKLINET/strapi-boilerplate/main/.cursor/skills/create-complementary/SKILL.md\" > .claude/skills/create-complementary/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/SKLINET/strapi-boilerplate/main/.cursor/skills/create-complementary/SKILL.md"

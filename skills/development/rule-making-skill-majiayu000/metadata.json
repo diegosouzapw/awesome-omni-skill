@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "53f9afc199ea1ac80759f97c9ab8ce633f119b30305c337418e61c7bbce31d04",
   "indexed_at": "2026-02-26T06:52:21.605Z",
-  "synced_at": "2026-02-27T02:30:09.158Z",
+  "synced_at": "2026-02-28T03:55:54.283Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/99b7320edb187705082d981a0259b0c5faeb9dbaef145a9063a3b48cf21b687a",
   "install_command": "mkdir -p .claude/skills/rule-making-skill && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/rule-making-skill/SKILL.md\" > .claude/skills/rule-making-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/rule-making-skill/SKILL.md"

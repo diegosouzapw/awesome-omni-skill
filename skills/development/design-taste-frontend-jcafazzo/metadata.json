@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "baff4df4590b5a25ac94d2281a1f50d2649ae2bb06e396ad50ec462274a984b8",
   "indexed_at": "2026-02-26T06:56:17.097Z",
-  "synced_at": "2026-02-27T02:30:21.099Z",
+  "synced_at": "2026-02-28T03:56:05.085Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b29a3aaa37b94a4d52297fe0a6789ff23a5a37f565ba3a1e329e7497f81eb2ac",
   "install_command": "mkdir -p .claude/skills/design-taste-frontend && curl -sL \"https://raw.githubusercontent.com/jcafazzo/AgentEHR/main/.agent/skills/taste/SKILL.md\" > .claude/skills/design-taste-frontend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jcafazzo/AgentEHR/main/.agent/skills/taste/SKILL.md"

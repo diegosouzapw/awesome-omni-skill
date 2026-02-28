@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3c30ea7173e7bd49d8421fdc7abbc0283972acbd437411b10e50d4a69aad0797",
   "indexed_at": "2026-02-26T08:53:56.111Z",
-  "synced_at": "2026-02-27T02:31:15.283Z",
+  "synced_at": "2026-02-28T03:56:54.492Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed4c70e0068512f44f150b444d0dc30525eae838b0e707b6bdfc153d3042f57d",
   "install_command": "mkdir -p .claude/skills/better-auth-best-practices && curl -sL \"https://raw.githubusercontent.com/JulioFlors/orchidium-project/main/.agent/skills/better-auth-best-practices/SKILL.md\" > .claude/skills/better-auth-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/JulioFlors/orchidium-project/main/.agent/skills/better-auth-best-practices/SKILL.md"

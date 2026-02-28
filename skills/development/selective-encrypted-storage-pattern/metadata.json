@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1d085158b616b0d04c6135fb5263eed5439d84729db131be081940b20519bf13",
   "indexed_at": "2026-02-26T09:51:56.593Z",
-  "synced_at": "2026-02-27T02:31:30.208Z",
+  "synced_at": "2026-02-28T03:57:09.478Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/da9122bbf6a06bfb133adef818118856cb47db58c3e656c3fe91273cb4362b81",
   "install_command": "mkdir -p .claude/skills/selective-encrypted-storage-pattern && curl -sL \"https://raw.githubusercontent.com/igbuend/grimbard/main/skills/selective-encrypted-storage-pattern/SKILL.md\" > .claude/skills/selective-encrypted-storage-pattern/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/igbuend/grimbard/main/skills/selective-encrypted-storage-pattern/SKILL.md"

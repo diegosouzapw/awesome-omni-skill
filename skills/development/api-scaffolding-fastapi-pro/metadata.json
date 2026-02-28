@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "22c8c606f4a011238d9b6d0c35de91a02f0216ed6cd0d1fdaff473c294fe4c8f",
   "indexed_at": "2026-02-26T07:51:33.920Z",
-  "synced_at": "2026-02-27T02:30:36.823Z",
+  "synced_at": "2026-02-28T03:56:20.223Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b82a59c8b76d0482de72029810d374ebf1f0e93b267070c18b03c1ee9f0d941a",
   "install_command": "mkdir -p .claude/skills/api-scaffolding-fastapi-pro && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/api-scaffolding-codex-pack/.agents/skills/api-scaffolding-fastapi-pro/SKILL.md\" > .claude/skills/api-scaffolding-fastapi-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/api-scaffolding-codex-pack/.agents/skills/api-scaffolding-fastapi-pro/SKILL.md"

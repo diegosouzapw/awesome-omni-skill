@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c9095cfe88ae6067da2ee2d4b70087a5710834544392c1c165170ce8dd7a0331",
   "indexed_at": "2026-02-26T07:55:27.239Z",
-  "synced_at": "2026-02-27T02:30:44.064Z",
+  "synced_at": "2026-02-28T03:56:26.551Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b3213a63ed190c2c1a1f78697a01bd81ad2b68eb606129528b53fa01b0ac95b2",
   "install_command": "mkdir -p .claude/skills/api-design && curl -sL \"https://raw.githubusercontent.com/Xmenq/Template-Agentic-Coding/main/skills/api-design/SKILL.md\" > .claude/skills/api-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Xmenq/Template-Agentic-Coding/main/skills/api-design/SKILL.md"

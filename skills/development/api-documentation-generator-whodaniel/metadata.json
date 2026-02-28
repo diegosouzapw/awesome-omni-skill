@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b174ba2a141fe9e9cd3181e9110b906c535bf59b7dd2440119a79b7415ca3c5b",
   "indexed_at": "2026-02-26T07:53:19.911Z",
-  "synced_at": "2026-02-27T02:30:39.624Z",
+  "synced_at": "2026-02-28T03:56:22.637Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/947fbc480cc13aa8adae62d7ac3d9247daa10d3f41813074f79db66de4ffbf89",
   "install_command": "mkdir -p .claude/skills/api-documentation-generator && curl -sL \"https://raw.githubusercontent.com/whodaniel/fuse/main/.agent/skill-bank/snapshots/project-agent/api-documentation-generator-4b4c6a67/SKILL.md\" > .claude/skills/api-documentation-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/whodaniel/fuse/main/.agent/skill-bank/snapshots/project-agent/api-documentation-generator-4b4c6a67/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2f8263a9c7860b1ba4b80a6f96e6fefb3adbd76b0a389f0663fa8790edb6538c",
   "indexed_at": "2026-02-26T08:51:59.483Z",
-  "synced_at": "2026-02-27T02:31:09.522Z",
+  "synced_at": "2026-02-28T03:56:49.222Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/16752cbdecf09a72c8430ab27846c420193e54c188d29a4af6f8666b7908416b",
   "install_command": "mkdir -p .claude/skills/performance-optimization && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/pluginagentmarketplace/custom-plugin-nodejs/performance-optimization/SKILL.md\" > .claude/skills/performance-optimization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/pluginagentmarketplace/custom-plugin-nodejs/performance-optimization/SKILL.md"

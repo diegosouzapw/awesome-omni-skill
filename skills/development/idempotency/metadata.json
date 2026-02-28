@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5f50228262675edcf38fbc159a3d66fde6c4df533eca4bd78bef37be89f08a1d",
   "indexed_at": "2026-02-26T08:53:26.762Z",
-  "synced_at": "2026-02-27T02:31:13.467Z",
+  "synced_at": "2026-02-28T03:56:52.892Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9ff004bd51bbaf642690398452a5f2b63d93a731d21df9242eacd03d157233e4",
   "install_command": "mkdir -p .claude/skills/idempotency && curl -sL \"https://raw.githubusercontent.com/whitebeardit/.cursor/main/skills/shared/skill-idempotency/SKILL.md\" > .claude/skills/idempotency/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/whitebeardit/.cursor/main/skills/shared/skill-idempotency/SKILL.md"

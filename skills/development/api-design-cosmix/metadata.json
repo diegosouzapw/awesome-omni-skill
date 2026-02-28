@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1118c43be838d80e7d4755236d90e7d6ca09fa84e60d167f25aeee64a4947d84",
   "indexed_at": "2026-02-26T07:45:33.158Z",
-  "synced_at": "2026-02-27T02:30:25.104Z",
+  "synced_at": "2026-02-28T03:56:09.056Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1e4d8502849d9be73179429d2e221d5f81cff0e09ecd80cd37151b82b2759d07",
   "install_command": "mkdir -p .claude/skills/api-design && curl -sL \"https://raw.githubusercontent.com/cosmix/loom/main/skills/api-design/SKILL.md\" > .claude/skills/api-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cosmix/loom/main/skills/api-design/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9c39b18f6f467612ff96eff1ec34acd5f3531ecc5df82ccef844bfc760becc37",
   "indexed_at": "2026-02-26T07:48:23.497Z",
-  "synced_at": "2026-02-27T02:30:31.569Z",
+  "synced_at": "2026-02-28T03:56:15.389Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4a26259a3ea31b98fd2ad81dbc78936f112b0c40feb4f387ca8c15752952b58d",
   "install_command": "mkdir -p .claude/skills/qa-calidad && curl -sL \"https://raw.githubusercontent.com/HenderOrlando/booklyapp/main/.windsurf/skills/qa-calidad/SKILL.md\" > .claude/skills/qa-calidad/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HenderOrlando/booklyapp/main/.windsurf/skills/qa-calidad/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "88a52c017dd58edddace6bd81b99ea13b67d82321aa839352413a68092b26e68",
   "indexed_at": "2026-02-26T06:49:07.019Z",
-  "synced_at": "2026-02-27T02:29:58.863Z",
+  "synced_at": "2026-02-28T03:55:44.546Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/08345738b0f998169f3aa1969067a73fc63d04942ba024c1bbf5531682dd7ba7",
   "install_command": "mkdir -p .claude/skills/security-scan-dependencies && curl -sL \"https://raw.githubusercontent.com/charlesjones-dev/claude-code-plugins-dev/main/plugins/ai-security/skills/security-scan-dependencies/SKILL.md\" > .claude/skills/security-scan-dependencies/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/charlesjones-dev/claude-code-plugins-dev/main/plugins/ai-security/skills/security-scan-dependencies/SKILL.md"

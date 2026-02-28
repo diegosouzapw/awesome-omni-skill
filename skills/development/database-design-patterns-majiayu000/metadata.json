@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4d1430f7f141d4e8c98a2676dd938b1a2b7da0fec9cde109ce184e961fe3067c",
   "indexed_at": "2026-02-26T08:51:49.921Z",
-  "synced_at": "2026-02-27T02:31:09.123Z",
+  "synced_at": "2026-02-28T03:56:48.841Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4a30df7c67031cb3e40b485e94dd855412eea64f1bc21f3b50ace9c3834f9224",
   "install_command": "mkdir -p .claude/skills/database-design-patterns && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/database-design-patterns-nickcrew-claude-cortex-7c14f099/SKILL.md\" > .claude/skills/database-design-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/database-design-patterns-nickcrew-claude-cortex-7c14f099/SKILL.md"

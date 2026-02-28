@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3bdffc1f95f671aa6de1f15d5066e964e72f9af6f388b401b259c1c14da9e515",
   "indexed_at": "2026-02-26T06:49:51.923Z",
-  "synced_at": "2026-02-27T02:30:01.864Z",
+  "synced_at": "2026-02-28T03:55:47.289Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d6b27fdb75e6a0c83ddd0a3ce69c0ba06afa98f2942ff5ecb218220360b490e1",
   "install_command": "mkdir -p .claude/skills/interactive-component-creator && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/qodex-ai/ai-agent-skills/interactive-component-creator/SKILL.md\" > .claude/skills/interactive-component-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/qodex-ai/ai-agent-skills/interactive-component-creator/SKILL.md"

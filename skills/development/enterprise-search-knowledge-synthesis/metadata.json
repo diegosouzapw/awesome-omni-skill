@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d1867800fc228b52fd23f843011bcbd487110e08d3c204dc2283223053861693",
   "indexed_at": "2026-02-26T07:56:28.902Z",
-  "synced_at": "2026-02-27T02:30:46.775Z",
+  "synced_at": "2026-02-28T03:56:29.115Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/407b683028e6c6740da2cdd6c424c4d6f0c9f95556904c9c8cf9f1a68648d5fc",
   "install_command": "mkdir -p .claude/skills/enterprise-search-knowledge-synthesis && curl -sL \"https://raw.githubusercontent.com/latticeHQ/latticeWorkbench/main/src/node/builtinPlugins/enterprise-search/skills/enterprise-search-knowledge-synthesis/SKILL.md\" > .claude/skills/enterprise-search-knowledge-synthesis/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/latticeHQ/latticeWorkbench/main/src/node/builtinPlugins/enterprise-search/skills/enterprise-search-knowledge-synthesis/SKILL.md"

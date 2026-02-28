@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f8823680770ce20262617015964ae7ca2e97792013419b98da582874f795823c",
   "indexed_at": "2026-02-26T08:49:32.708Z",
-  "synced_at": "2026-02-27T02:31:00.921Z",
+  "synced_at": "2026-02-28T03:56:42.202Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4557bf44fa955943be7a6073f72bdb0be7e03d7d2dfcf7db1d8c17e8d0480934",
   "install_command": "mkdir -p .claude/skills/sql-pro && curl -sL \"https://raw.githubusercontent.com/fakhriaditiarahman/Your-Skill-Agent/main/.agent/skills/sql-pro/SKILL.md\" > .claude/skills/sql-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fakhriaditiarahman/Your-Skill-Agent/main/.agent/skills/sql-pro/SKILL.md"

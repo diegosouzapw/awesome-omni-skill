@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5267c09545301eb8eedd77280e80310dff2c2afe0968e0aebec4b43eff6279c1",
   "indexed_at": "2026-02-26T07:55:54.299Z",
-  "synced_at": "2026-02-27T02:30:45.340Z",
+  "synced_at": "2026-02-28T03:56:27.758Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6a23567a9dfd31d60862feba0ed04c0baf9be13946dfd9f4b80540d2eaa4ca2e",
   "install_command": "mkdir -p .claude/skills/mobile-developer && curl -sL \"https://raw.githubusercontent.com/sergioP1991/aparcamientoszaragoza-flutter/main/.agent/skills/mobile-developer/SKILL.md\" > .claude/skills/mobile-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sergioP1991/aparcamientoszaragoza-flutter/main/.agent/skills/mobile-developer/SKILL.md"

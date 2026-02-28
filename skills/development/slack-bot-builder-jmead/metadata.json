@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c095092a3a2b86e1bbe02713e25470bd764eb9a5ef2c0871aed9ffacb272ece9",
   "indexed_at": "2026-02-26T08:53:47.420Z",
-  "synced_at": "2026-02-27T02:31:14.223Z",
+  "synced_at": "2026-02-28T03:56:53.603Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e70a9119f1de468624be0cfd6f39d7261a28f1cf52cfe9cb74507218ae7e3588",
   "install_command": "mkdir -p .claude/skills/slack-bot-builder && curl -sL \"https://raw.githubusercontent.com/jmead/cursor-config/main/skills/slack-bot-builder/SKILL.md\" > .claude/skills/slack-bot-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jmead/cursor-config/main/skills/slack-bot-builder/SKILL.md"

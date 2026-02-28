@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7b9bac5bf53527ba3f19a93d3925597f3bec9c6cada09be99350267d289272a0",
   "indexed_at": "2026-02-26T08:51:48.466Z",
-  "synced_at": "2026-02-27T02:31:08.929Z",
+  "synced_at": "2026-02-28T03:56:48.674Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aee01b1a812bde185ed61898f451f57afb5cdf020f8fb8b81b22420c2158deb3",
   "install_command": "mkdir -p .claude/skills/database-design-patterns && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/nickcrew/claude-ctx-plugin/database-design-patterns/SKILL.md\" > .claude/skills/database-design-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/nickcrew/claude-ctx-plugin/database-design-patterns/SKILL.md"

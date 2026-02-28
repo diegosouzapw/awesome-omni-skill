@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "942ead16d176fa84888eda15f709927079b181cbfb9d3b01961c2c7ddc7b463c",
   "indexed_at": "2026-02-26T07:46:53.076Z",
-  "synced_at": "2026-02-27T02:30:28.096Z",
+  "synced_at": "2026-02-28T03:56:11.903Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/983651a08aac0609d616bee9ab99feb014d8d906b533be3a3b097cd58e6c3f3c",
   "install_command": "mkdir -p .claude/skills/api-documentation-generator && curl -sL \"https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-api-documentation-generator/SKILL.md\" > .claude/skills/api-documentation-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-api-documentation-generator/SKILL.md"

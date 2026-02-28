@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c9bf9e0c6ae191e25968042362edf71df941dfd78cd61f70960afe7ab1ce905d",
   "indexed_at": "2026-02-26T09:49:11.531Z",
-  "synced_at": "2026-02-27T02:31:29.145Z",
+  "synced_at": "2026-02-28T03:57:08.480Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c81de7a2aad727c17ee10f96d059ccba052e275d87c8eefcdfec8722ba23cfb3",
   "install_command": "mkdir -p .claude/skills/draw-io && curl -sL \"https://raw.githubusercontent.com/FVossebeld/drawio-skill/main/SKILL.md\" > .claude/skills/draw-io/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/FVossebeld/drawio-skill/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a35b1030fcfac1e5cfde9109a11b2ad391b12e731103200dafeaa1b417742d12",
   "indexed_at": "2026-02-26T09:47:53.832Z",
-  "synced_at": "2026-02-27T02:31:27.862Z",
+  "synced_at": "2026-02-28T03:57:07.203Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a45b075366c814838f9a810f986ee90045f57f8366925e8c57f8451802091f3f",
   "install_command": "mkdir -p .claude/skills/security-environment-standards && curl -sL \"https://raw.githubusercontent.com/findinfinitelabs/chuuk/main/.claude/skills/security-environment-standards/SKILL.md\" > .claude/skills/security-environment-standards/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/findinfinitelabs/chuuk/main/.claude/skills/security-environment-standards/SKILL.md"

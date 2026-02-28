@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c183d6ec7bec2b6959ae829726c5932053d17dc56e33c191dd89c356178a7c76",
   "indexed_at": "2026-02-26T07:50:32.114Z",
-  "synced_at": "2026-02-27T02:30:35.149Z",
+  "synced_at": "2026-02-28T03:56:18.654Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c5cd0a336dc1e49f22d4b73cc6c1de2be544ea9e07f6a4fc6d4b4fed3d9906c4",
   "install_command": "mkdir -p .claude/skills/copilot-search && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/copilot-search/SKILL.md\" > .claude/skills/copilot-search/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/copilot-search/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c794392eb74887dec52254208f4419ebc785bb901fd78b6d276f5f07ea865ee4",
   "indexed_at": "2026-02-26T09:18:49.282Z",
-  "synced_at": "2026-02-27T02:31:21.385Z",
+  "synced_at": "2026-02-28T03:57:01.147Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/27c014a5262366a021460b30ce2789b62921d5f033f8da6e3ead6c3d15c342dc",
   "install_command": "mkdir -p .claude/skills/property-based-testing && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ed3dai/ed3d-plugins/property-based-testing/SKILL.md\" > .claude/skills/property-based-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/ed3dai/ed3d-plugins/property-based-testing/SKILL.md"

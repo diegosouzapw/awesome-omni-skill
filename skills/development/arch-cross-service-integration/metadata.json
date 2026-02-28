@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ffff64851f28af95ef32769db2cb4edd2bc53f72102dafb96cee443ac2cbf71c",
   "indexed_at": "2026-02-26T08:51:21.879Z",
-  "synced_at": "2026-02-27T02:31:07.826Z",
+  "synced_at": "2026-02-28T03:56:47.638Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/742b0c255fb5731c6709047a7724e13e9111366e335d98fbc153e6af63fe0027",
   "install_command": "mkdir -p .claude/skills/arch-cross-service-integration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/arch-cross-service-integration/SKILL.md\" > .claude/skills/arch-cross-service-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/arch-cross-service-integration/SKILL.md"

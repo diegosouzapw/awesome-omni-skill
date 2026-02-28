@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d825943f79abf21928d00e7049768a31ea133f6b7cbba931da4c62341635dbe3",
   "indexed_at": "2026-02-26T08:56:28.804Z",
-  "synced_at": "2026-02-27T02:31:20.168Z",
+  "synced_at": "2026-02-28T03:56:59.873Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a1c9ee7e795044abf7960ec248d6c702e03ee611ef69f5ea0dd083722122c48d",
   "install_command": "mkdir -p .claude/skills/prisma-docs && curl -sL \"https://raw.githubusercontent.com/jasonz-ncc42/local-context7/main/dotfiles/codex/skills/prisma-docs/SKILL.md\" > .claude/skills/prisma-docs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jasonz-ncc42/local-context7/main/dotfiles/codex/skills/prisma-docs/SKILL.md"

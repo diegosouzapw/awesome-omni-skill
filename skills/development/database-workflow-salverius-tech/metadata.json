@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0a0b9df58248302c92984b9218b6c4204055f5509e76f3685d16d72753a6daeb",
   "indexed_at": "2026-02-26T08:48:42.566Z",
-  "synced_at": "2026-02-27T02:30:57.160Z",
+  "synced_at": "2026-02-28T03:56:39.074Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c473931e166d1fe501a0f932e7b80dc4a6f0710b7f0571525cb550ad37cccc65",
   "install_command": "mkdir -p .claude/skills/database-workflow && curl -sL \"https://raw.githubusercontent.com/salverius-tech/dotfiles/main/home/dot_claude/skills/database-workflow/SKILL.md\" > .claude/skills/database-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/salverius-tech/dotfiles/main/home/dot_claude/skills/database-workflow/SKILL.md"

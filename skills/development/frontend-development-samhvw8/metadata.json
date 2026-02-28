@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ce09efb638f71f52e4c52e145f9593731934658afcd44fa5b4a8a35fa65f24a4",
   "indexed_at": "2026-02-26T06:56:55.619Z",
-  "synced_at": "2026-02-27T02:30:22.637Z",
+  "synced_at": "2026-02-28T03:56:06.663Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/79e7eb7106e6c6050df62fe483e98bd33617d5a71c22048f69ad1b99a4340f4e",
   "install_command": "mkdir -p .claude/skills/frontend-development && curl -sL \"https://raw.githubusercontent.com/samhvw8/dot-claude/main/skills/frontend-development/SKILL.md\" > .claude/skills/frontend-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/samhvw8/dot-claude/main/skills/frontend-development/SKILL.md"

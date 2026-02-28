@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fd6101c8435ff927b8dca39484588cb30a9ee6742e45c22f23ec72317104ac48",
   "indexed_at": "2026-02-26T08:56:02.135Z",
-  "synced_at": "2026-02-27T02:31:18.947Z",
+  "synced_at": "2026-02-28T03:56:58.714Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7020d317a994dc2d41658300d038d218823696bc8a605ecdc297f246635f277f",
   "install_command": "mkdir -p .claude/skills/database-optimization && curl -sL \"https://raw.githubusercontent.com/duc01226/EasyPlatform/main/.claude/skills/database-optimization/SKILL.md\" > .claude/skills/database-optimization/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duc01226/EasyPlatform/main/.claude/skills/database-optimization/SKILL.md"

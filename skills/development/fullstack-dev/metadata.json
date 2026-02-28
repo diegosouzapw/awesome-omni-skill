@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "31a60e503937b847d61fe6c817a9da44a2bc30f40841861bf126eaac4c958608",
   "indexed_at": "2026-02-26T06:54:46.072Z",
-  "synced_at": "2026-02-27T02:30:16.332Z",
+  "synced_at": "2026-02-28T03:56:00.574Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/003184565a0f8b7c10bc1ef8b6c38d0d2d65963a4520ceea88ca72e03fd25f9e",
   "install_command": "mkdir -p .claude/skills/fullstack-dev && curl -sL \"https://raw.githubusercontent.com/automacoescomerciaisintegradas/cleudocode/main/skills/fullstack-dev/SKILL.md\" > .claude/skills/fullstack-dev/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/automacoescomerciaisintegradas/cleudocode/main/skills/fullstack-dev/SKILL.md"

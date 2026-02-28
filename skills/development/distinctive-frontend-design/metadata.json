@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ab13bd895d6b7e1b4f914bd259bc320948782e69e7c27dce8ff66b9aaa28fdeb",
   "indexed_at": "2026-02-26T06:53:41.860Z",
-  "synced_at": "2026-02-27T02:30:12.278Z",
+  "synced_at": "2026-02-28T03:55:57.076Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/81029b078a9aa77c3b8b41d57c29a314ecbe2638cddff890ce091b7190468d90",
   "install_command": "mkdir -p .claude/skills/distinctive-frontend-design && curl -sL \"https://raw.githubusercontent.com/Seantoni/os_deal_booking/main/.cursor/skills/distinctive-frontend-design/SKILL.md\" > .claude/skills/distinctive-frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Seantoni/os_deal_booking/main/.cursor/skills/distinctive-frontend-design/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "57c5ba49242659c77af32c042a86dfb6b2c5133de9689ff73815a08271c2af8e",
   "indexed_at": "2026-02-26T07:30:22.036Z",
-  "synced_at": "2026-02-27T02:30:23.165Z",
+  "synced_at": "2026-02-28T03:56:07.179Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/59796a4296d4ca257e66a6b82cf471e5bbc026d986c55b6ae4f977583d1169a9",
   "install_command": "mkdir -p .claude/skills/academic-research && curl -sL \"https://raw.githubusercontent.com/orhoncan/oneshot-academic-research-skill/main/SKILL.md\" > .claude/skills/academic-research/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/orhoncan/oneshot-academic-research-skill/main/SKILL.md"

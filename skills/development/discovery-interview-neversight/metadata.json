@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "643e92ce9fb2fbb935ffc726c7ecfc57cd0e9440591ad0cf165672106d9c5f61",
   "indexed_at": "2026-02-26T09:47:40.507Z",
-  "synced_at": "2026-02-27T02:31:26.577Z",
+  "synced_at": "2026-02-28T03:57:05.988Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0ee1d65bef51a8e37585be9002c60d919e67827643c3b48a1a45fd20d124fad1",
   "install_command": "mkdir -p .claude/skills/discovery-interview && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/parcadei/continuous-claude-v3/discovery-interview/SKILL.md\" > .claude/skills/discovery-interview/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/parcadei/continuous-claude-v3/discovery-interview/SKILL.md"

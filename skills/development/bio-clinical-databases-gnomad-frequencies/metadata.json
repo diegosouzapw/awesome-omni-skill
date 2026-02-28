@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9ea42a2cfc700e7aed8f7ef89a84ba603e0f3247a1994c26713a9e188b19707b",
   "indexed_at": "2026-02-26T07:51:27.878Z",
-  "synced_at": "2026-02-27T02:30:36.632Z",
+  "synced_at": "2026-02-28T03:56:20.052Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0456c2fd8f16f9463a95026a2b65964927fe27901eaf3a5ccead58846f4327a6",
   "install_command": "mkdir -p .claude/skills/bio-clinical-databases-gnomad-frequencies && curl -sL \"https://raw.githubusercontent.com/GPTomics/bioSkills/main/clinical-databases/gnomad-frequencies/SKILL.md\" > .claude/skills/bio-clinical-databases-gnomad-frequencies/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/GPTomics/bioSkills/main/clinical-databases/gnomad-frequencies/SKILL.md"

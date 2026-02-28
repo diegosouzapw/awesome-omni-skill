@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e8e8fdd2ffb4f2a6616ac3ae5818522b78389a1873a6a2b7ed182efe851b085b",
   "indexed_at": "2026-02-26T09:35:19.148Z",
-  "synced_at": "2026-02-27T02:31:22.894Z",
+  "synced_at": "2026-02-28T03:57:02.519Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6954ad04c80ea3ff3fcaee0e2ae92cb8b699471495e0d24280c6127395b60ef1",
   "install_command": "mkdir -p .claude/skills/resend-expert && curl -sL \"https://raw.githubusercontent.com/willsigmon/sigstack/main/plugins/dev-essentials/skills/resend-expert/SKILL.md\" > .claude/skills/resend-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/willsigmon/sigstack/main/plugins/dev-essentials/skills/resend-expert/SKILL.md"

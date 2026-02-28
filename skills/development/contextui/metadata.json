@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e6b0fe102ccf4e7e38110f2ccc72fca8cad67336dc3e4f6f6ac32c2ceb9a8d1c",
   "indexed_at": "2026-02-26T06:55:06.446Z",
-  "synced_at": "2026-02-27T02:30:17.449Z",
+  "synced_at": "2026-02-28T03:56:01.660Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3270768f881f9948963d9112e2b06dd63e32a050c1377bd6476ba4d819cbf901",
   "install_command": "mkdir -p .claude/skills/contextui && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/midz99/contextui/SKILL.md\" > .claude/skills/contextui/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/midz99/contextui/SKILL.md"

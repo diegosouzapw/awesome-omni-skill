@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0b3489d134049d9b177e3e1dcd167ee0f32ab89390a6aad9e89204482469e1a1",
   "indexed_at": "2026-02-26T08:52:57.593Z",
-  "synced_at": "2026-02-27T02:31:12.330Z",
+  "synced_at": "2026-02-28T03:56:51.872Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8d34d318b399b4a36e771fd1c88a1ed36fb8401f3f007053027daf55c9235dc0",
   "install_command": "mkdir -p .claude/skills/governance && curl -sL \"https://raw.githubusercontent.com/Harery/OCTALUME/main/skills/shared/governance/SKILL.md\" > .claude/skills/governance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Harery/OCTALUME/main/skills/shared/governance/SKILL.md"

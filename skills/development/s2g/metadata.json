@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3059fae99761240026906b517482c8a9c88c8ea0524ac6fdba1fbbc4fbe29de5",
   "indexed_at": "2026-02-26T08:46:21.552Z",
-  "synced_at": "2026-02-27T02:30:52.052Z",
+  "synced_at": "2026-02-28T03:56:34.023Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3b18789a0d326b67d7ca5d827c43f30d986063be11ca7e0a2c225a3e2629379d",
   "install_command": "mkdir -p .claude/skills/s2g && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/helmutsreinis/s2g-workflow-engine/SKILL.md\" > .claude/skills/s2g/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/helmutsreinis/s2g-workflow-engine/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "62b4de8816ce1dbcefbbcccbe2068aa71be7efd1a3ad44a51c4487c03f0c1c1a",
   "indexed_at": "2026-02-26T09:49:01.668Z",
-  "synced_at": "2026-02-27T02:31:28.941Z",
+  "synced_at": "2026-02-28T03:57:08.286Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fa7627931d805c6ef5d801a041422c6c4aa082f0e72c3aaabb38c80e7f66d508",
   "install_command": "mkdir -p .claude/skills/full-stack-authentication && curl -sL \"https://raw.githubusercontent.com/scalekit-inc/claude-code-authstack/main/plugins/full-stack-auth/skills/full-stack-auth/SKILL.md\" > .claude/skills/full-stack-authentication/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/scalekit-inc/claude-code-authstack/main/plugins/full-stack-auth/skills/full-stack-auth/SKILL.md"

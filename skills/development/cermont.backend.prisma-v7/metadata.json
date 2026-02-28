@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8539ebc20c986b01d2728a142fb4a1418656c2b7789f889e899fd95a4bb7feb4",
   "indexed_at": "2026-02-26T08:54:17.182Z",
-  "synced_at": "2026-02-27T02:31:16.061Z",
+  "synced_at": "2026-02-28T03:56:55.287Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0d5743450ae2665807078e022ee0e0f54d1b425ce64e35645f2d0a47c36260a8",
   "install_command": "mkdir -p .claude/skills/cermont.backend.prisma-v7 && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/prisma-v7/SKILL.md\" > .claude/skills/cermont.backend.prisma-v7/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/prisma-v7/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a4475eca7230386d2aa04d8790df5815c4e45bb132f943bc071dbcfe6b30dea3",
   "indexed_at": "2026-02-26T08:47:18.526Z",
-  "synced_at": "2026-02-27T02:30:55.415Z",
+  "synced_at": "2026-02-28T03:56:37.393Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8a2f9eac11283fe5e7616463cfcc05fc8121dbd0a8d3adeb4739681cca208032",
   "install_command": "mkdir -p .claude/skills/senior-architect && curl -sL \"https://raw.githubusercontent.com/coolguy1771/dotfiles/main/chezmoi/private_dot_cursor/skills/senior-architect/SKILL.md\" > .claude/skills/senior-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/coolguy1771/dotfiles/main/chezmoi/private_dot_cursor/skills/senior-architect/SKILL.md"

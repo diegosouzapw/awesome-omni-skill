@@ -28,8 +28,8 @@ Adds: TanStack Start + Router + Query + Devtools, Tailwind CSS v4, React with Vi
     "build": "vite build",
     "dev": "vite dev",
     "preview": "vite preview",
-    "test:e2e": "playwright test",
-    "validate": "bun run build && bun run lint && bun run types && bun run unused && bun run test"
+    "e2e": "playwright test",
+    "validate": "bun run build && bun run lint && bun run types && bun run test && bun run unused"
   },
   "knip": {
     "ignore": ["src/components/ui/**"]
@@ -188,16 +188,41 @@ export default defineConfig({
     baseURL: "http://localhost:3000",
   },
   webServer: {
-    command: "bun run dev",
+    command: "node .output/server/index.mjs",
     port: 3000,
     reuseExistingServer: true,
   },
 });
 ```
 
-### 9. Create e2e/ directory
+### 9. Create e2e/base.ts
 
-Create an empty `e2e/` directory at the project root. E2E tests live here, separate from unit and component tests.
+E2E tests live in `e2e/` at the project root, separate from unit and component tests.
+
+Create a custom Playwright fixture that waits for SSR hydration after every `page.goto()`. TanStack Start renders HTML on the server before React hydrates on the client — buttons and handlers are inert until hydration completes. This fixture makes all E2E tests wait automatically:
+
+```ts
+import { test as base } from "@playwright/test";
+
+export const test = base.extend({
+  page: async ({ page }, use) => {
+    const originalGoto = page.goto.bind(page);
+    page.goto = async (...args) => {
+      const result = await originalGoto(...args);
+      await page.waitForSelector("[data-hydrated]", { timeout: 10_000 });
+      return result;
+    };
+    await use(page);
+  },
+});
+```
+
+All E2E test files import `test` from this fixture and `expect` from `@playwright/test`:
+
+```ts
+import { expect } from "@playwright/test";
+import { test } from "./base";
+```
 
 ### 10. Update src/lib/env.ts
 
@@ -272,10 +297,16 @@ Install `button`, `empty`, and `label`.
 App-level form abstraction using TanStack Form and Base UI Field. Provides a `useAppForm` hook with pre-configured form and field components that integrate with shadcn's `Button` and `Label`.
 
 ```tsx
-import { Field } from "@base-ui/react/field";
-import { type AnyFormApi, createFormHook, createFormHookContexts } from "@tanstack/react-form";
+import { mergeProps } from "@base-ui/react/merge-props";
+import { useRender } from "@base-ui/react/use-render";
+import {
+  type AnyFormApi,
+  createFormHook,
+  createFormHookContexts,
+  useStore,
+} from "@tanstack/react-form";
 import { Button } from "@/components/ui/button";
-import { Label as BaseLabel } from "@/components/ui/label";
+import { Field, FieldError, FieldLabel as FieldLabelPrimitive } from "@/components/ui/field";
 
 const { fieldContext, formContext, useFieldContext, useFormContext } = createFormHookContexts();
 
@@ -319,52 +350,53 @@ function FormRoot({
 
 function FormSubmit(props: Omit<React.ComponentProps<typeof Button>, "disabled" | "type">) {
   const form = useFormContext();
+  const [isPristine, canSubmit, isSubmitting] = useStore(form.store, (state) => [
+    state.isPristine,
+    state.canSubmit,
+    state.isSubmitting,
+  ]);
 
-  return (
-    <form.Subscribe selector={(state) => [state.isPristine, state.canSubmit, state.isSubmitting]}>
-      {([isPristine, canSubmit, isSubmitting]) => (
-        <Button {...props} disabled={isPristine || !canSubmit || isSubmitting} type="submit" />
-      )}
-    </form.Subscribe>
-  );
+  return <Button {...props} disabled={isPristine || !canSubmit || isSubmitting} type="submit" />;
 }
 
-function FieldRoot({ className, ...props }: Field.Root.Props) {
+function FieldRoot(props: React.ComponentProps<typeof Field>) {
   const field = useFieldContext();
-
-  return (
-    <Field.Root
-      className={className}
-      invalid={!field.state.meta.isValid}
-      name={field.name}
-      {...props}
-    />
-  );
+  const isInvalid = field.state.meta.isTouched && !field.state.meta.isValid;
+  return <Field data-invalid={isInvalid || undefined} {...props} />;
 }
 
-function FieldLabel(props: Field.Label.Props) {
-  return <Field.Label render={<BaseLabel />} {...props} />;
+function FieldLabel(props: React.ComponentProps<typeof FieldLabelPrimitive>) {
+  const field = useFieldContext();
+  return <FieldLabelPrimitive htmlFor={field.name} {...props} />;
 }
 
-function FieldControl(props: Field.Control.Props) {
+function FieldControl({ render, ...props }: useRender.ComponentProps<"input">) {
   const form = useFormContext();
   const field = useFieldContext<string>();
+  const isSubmitting = useStore(form.store, (state) => state.isSubmitting);
+  const isInvalid = field.state.meta.isTouched && !field.state.meta.isValid;
 
-  return (
-    <form.Subscribe selector={(state) => state.isSubmitting}>
-      {(isSubmitting) => (
-        <Field.Control
-          disabled={isSubmitting}
-          onValueChange={field.handleChange}
-          value={field.state.value}
-          {...props}
-        />
-      )}
-    </form.Subscribe>
-  );
+  return useRender({
+    render,
+    defaultTagName: "input",
+    props: mergeProps<"input">(
+      {
+        id: field.name,
+        disabled: isSubmitting,
+        "aria-invalid": isInvalid || undefined,
+        value: field.state.value,
+        onBlur: field.handleBlur,
+        onChange: ((eventOrValue: React.ChangeEvent<HTMLInputElement> | string) => {
+          const value = typeof eventOrValue === "string" ? eventOrValue : eventOrValue.target.value;
+          field.handleChange(value);
+        }) as React.ChangeEventHandler<HTMLInputElement>,
+      },
+      props
+    ),
+  });
 }
 
-function FieldErrorMessage(props: Field.Error.Props) {
+function FieldErrorMessage(props: Omit<React.ComponentProps<typeof FieldError>, "errors">) {
   const field = useFieldContext();
   const { errors } = field.state.meta;
 
@@ -372,13 +404,7 @@ function FieldErrorMessage(props: Field.Error.Props) {
     return null;
   }
 
-  return (
-    <Field.Error className="text-left font-medium text-destructive text-sm" match {...props}>
-      {errors.map((error) => (
-        <div key={error?.message ?? String(error)}>{error?.message ?? String(error)}</div>
-      ))}
-    </Field.Error>
-  );
+  return <FieldError errors={errors} {...props} />;
 }
 ```
 
@@ -395,7 +421,7 @@ function TestForm({ onSubmit = vi.fn() }: { onSubmit?: (data: { email: string })
   const form = useAppForm({
     defaultValues: { email: "" },
     validators: {
-      onChange: z.object({ email: z.string().email("Invalid email") }),
+      onSubmit: z.object({ email: z.string().email("Invalid email") }),
     },
     onSubmit: ({ value }) => onSubmit(value),
   });
@@ -528,7 +554,7 @@ declare module "@tanstack/react-router" {
 ```tsx
 import type { QueryClient } from "@tanstack/react-query";
 import { createRootRouteWithContext, HeadContent, Outlet, Scripts } from "@tanstack/react-router";
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useEffect } from "react";
 import { env } from "../lib/env";
 import appCss from "../styles/app.css?url";
 
@@ -566,6 +592,10 @@ const Devtools = lazy(() =>
 );
 
 function RootDocument({ children }: { children: React.ReactNode }) {
+  useEffect(() => {
+    document.body.dataset.hydrated = "";
+  }, []);
+
   return (
     <html className="dark" lang="en">
       <head>
@@ -897,15 +927,16 @@ Add an `e2e` job alongside the existing `check` job. It installs Playwright brow
       - name: Build
         run: bun run build
       - name: Run E2E tests
-        run: bun run test:e2e
+        run: bun run e2e
 ```
 
 ### 23. Create e2e/app.spec.ts
 
-A smoke test that verifies the app boots and the theme toggle works end-to-end:
+A smoke test that verifies the app boots and the theme toggle works end-to-end. Uses `test` from `./base` so `page.goto()` waits for hydration automatically:
 
 ```ts
-import { expect, test } from "@playwright/test";
+import { expect } from "@playwright/test";
+import { test } from "./base";
 
 test("homepage loads", async ({ page }) => {
   await page.goto("/");
@@ -920,13 +951,9 @@ test("theme toggle cycles through modes", async ({ page }) => {
   // Default is auto (System)
   await expect(toggle).toContainText("System");
 
-  // First click needs retry — SSR renders the button before React hydrates the onClick handler
-  await expect(async () => {
-    await toggle.click();
-    await expect(toggle).toContainText("Light", { timeout: 1000 });
-  }).toPass({ timeout: 10_000 });
+  await toggle.click();
+  await expect(toggle).toContainText("Light");
 
-  // Subsequent clicks work immediately — app is already hydrated
   await toggle.click();
   await expect(toggle).toContainText("Dark");
 

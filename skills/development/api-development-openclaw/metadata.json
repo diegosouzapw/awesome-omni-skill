@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a91103edf252aeb1971032a1c2d65199cbb2ab2ca0ef76b02c3aafc7893e477c",
   "indexed_at": "2026-02-26T07:45:06.363Z",
-  "synced_at": "2026-02-27T02:30:24.168Z",
+  "synced_at": "2026-02-28T03:56:08.112Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8f86927e2efc3859464c35d4e1e6d0957aa94fc599c95b25432f2d80177aeb70",
   "install_command": "mkdir -p .claude/skills/api-development && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/wpank/api-development/SKILL.md\" > .claude/skills/api-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/wpank/api-development/SKILL.md"

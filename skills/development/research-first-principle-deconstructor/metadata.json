@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "01e56dbaffd5e7b5f8944cb17f38f34f4706313f54fc3f0045e89b2ab023e07b",
   "indexed_at": "2026-02-26T09:35:23.530Z",
-  "synced_at": "2026-02-27T02:31:23.059Z",
+  "synced_at": "2026-02-28T03:57:02.674Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9bf71a9691f2a83e40c5d50f656b8907e98c1ff04d2ed2551f2806a9919416c4",
   "install_command": "mkdir -p .claude/skills/research-first-principle-deconstructor && curl -sL \"https://raw.githubusercontent.com/Xuanxuana1/research-first-principle-deconstructor/main/SKILL.md\" > .claude/skills/research-first-principle-deconstructor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Xuanxuana1/research-first-principle-deconstructor/main/SKILL.md"

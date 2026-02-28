@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a474d231c5c300d4124aeeb4d2a652a73bacd7e3d8e0579f60f5c1cb3affacae",
   "indexed_at": "2026-02-26T06:50:36.631Z",
-  "synced_at": "2026-02-27T02:30:03.101Z",
+  "synced_at": "2026-02-28T03:55:48.411Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5eb0a3d19926047eb701fe353423f9e8625ec7e7728c08ea57c85793ef89b7f7",
   "install_command": "mkdir -p .claude/skills/tailwind && curl -sL \"https://raw.githubusercontent.com/markhamsquareventures/essentials/main/skills/tailwind/SKILL.md\" > .claude/skills/tailwind/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/markhamsquareventures/essentials/main/skills/tailwind/SKILL.md"

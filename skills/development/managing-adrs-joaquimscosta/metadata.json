@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "71b3ed2bc11cb514eccba292680189f0802c400aee7ed2ba58f157e24c0e1bad",
   "indexed_at": "2026-02-26T08:52:27.656Z",
-  "synced_at": "2026-02-27T02:31:10.609Z",
+  "synced_at": "2026-02-28T03:56:50.249Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/653ca90b83abcc7eab0a02f01c0a9e4662fd634369685183a4a468a4f144e3d7",
   "install_command": "mkdir -p .claude/skills/managing-adrs && curl -sL \"https://raw.githubusercontent.com/joaquimscosta/arkhe-claude-plugins/main/plugins/doc/skills/managing-adrs/SKILL.md\" > .claude/skills/managing-adrs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/joaquimscosta/arkhe-claude-plugins/main/plugins/doc/skills/managing-adrs/SKILL.md"

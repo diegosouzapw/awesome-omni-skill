@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e83d04b6c199e418383ed75d22b9176c47f3ad44fd2fc99095e105d62cdb8888",
   "indexed_at": "2026-02-26T08:49:04.744Z",
-  "synced_at": "2026-02-27T02:30:58.676Z",
+  "synced_at": "2026-02-28T03:56:40.052Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d64f2ca0bb57992b681924ea343af28caa011d93e3a325a180eeaaf72ba31c44",
   "install_command": "mkdir -p .claude/skills/clinvar-database && curl -sL \"https://raw.githubusercontent.com/x-cmd/skill/main/data/k-dense-ai/clinvar-database/SKILL.md\" > .claude/skills/clinvar-database/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/x-cmd/skill/main/data/k-dense-ai/clinvar-database/SKILL.md"

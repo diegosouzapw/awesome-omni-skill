@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d8c370deb65600cbf20b0fc630f515c9440ad381ef3a6214ff74b0dcc95d03b0",
   "indexed_at": "2026-02-26T08:55:03.447Z",
-  "synced_at": "2026-02-27T02:31:17.041Z",
+  "synced_at": "2026-02-28T03:56:56.844Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ec9bb9b60a82064136b7eab30e4f299c69dc1be01038de1d6392fff49fb0936a",
   "install_command": "mkdir -p .claude/skills/n8n-node-configuration && curl -sL \"https://raw.githubusercontent.com/fazedordecodigo/skills/main/n8n-node-configuration/SKILL.md\" > .claude/skills/n8n-node-configuration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fazedordecodigo/skills/main/n8n-node-configuration/SKILL.md"

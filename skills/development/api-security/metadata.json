@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "572e9f42483eb8a34cfb882e3e8769388ac2e92c409e3b64a5a1274f7900a3be",
   "indexed_at": "2026-02-26T07:45:38.895Z",
-  "synced_at": "2026-02-27T02:30:25.614Z",
+  "synced_at": "2026-02-28T03:56:09.568Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c23a934dfffd34f012af98ec0a1d5253e6bbe19eacc1dade05261a716826ae03",
   "install_command": "mkdir -p .claude/skills/api-security && curl -sL \"https://raw.githubusercontent.com/hardw00t/ai-security-arsenal/main/skills/api-security/SKILL.md\" > .claude/skills/api-security/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hardw00t/ai-security-arsenal/main/skills/api-security/SKILL.md"

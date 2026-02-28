@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0eb43dd77424acc381cdca03dda5819b03054fc5337cd24f9e5d488848d82b02",
   "indexed_at": "2026-02-26T07:45:34.487Z",
-  "synced_at": "2026-02-27T02:30:25.270Z",
+  "synced_at": "2026-02-28T03:56:09.218Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/56f06083b1b47b14c8c69a29e151cead8ef8c09dbbe9ed2b3316bd59d2e19738",
   "install_command": "mkdir -p .claude/skills/blazemeter-api-monitoring && curl -sL \"https://raw.githubusercontent.com/Blazemeter/bzm-mcp/main/resources/skills/blazemeter-api-monitoring/SKILL.md\" > .claude/skills/blazemeter-api-monitoring/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Blazemeter/bzm-mcp/main/resources/skills/blazemeter-api-monitoring/SKILL.md"

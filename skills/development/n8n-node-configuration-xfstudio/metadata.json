@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "589b67af3321c940e39cab9c5c3b0b01f2d0da7927068218574f7ef54f49f66f",
   "indexed_at": "2026-02-26T08:53:52.033Z",
-  "synced_at": "2026-02-27T02:31:14.599Z",
+  "synced_at": "2026-02-28T03:56:53.963Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e41e475f20f0211674f81b049a4d9f8c8ceb99c32ee3580fad6c7afffdee0e04",
   "install_command": "mkdir -p .claude/skills/n8n-node-configuration && curl -sL \"https://raw.githubusercontent.com/xfstudio/skills/main/n8n-node-configuration/SKILL.md\" > .claude/skills/n8n-node-configuration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/xfstudio/skills/main/n8n-node-configuration/SKILL.md"

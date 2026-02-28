@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7063b25f6813b5b370c6e137222001c638f84b328d3a661634af7038d601e8d6",
   "indexed_at": "2026-02-26T06:53:45.735Z",
-  "synced_at": "2026-02-27T02:30:12.649Z",
+  "synced_at": "2026-02-28T03:55:57.516Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e968400e47e69721a6cb6cc3af6b35f075395436f432a5ca445fef948d6c7319",
   "install_command": "mkdir -p .claude/skills/frontend-design && curl -sL \"https://raw.githubusercontent.com/uabbasi/good-measure-giving/main/.claude/skills/frontend-design/SKILL.md\" > .claude/skills/frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/uabbasi/good-measure-giving/main/.claude/skills/frontend-design/SKILL.md"

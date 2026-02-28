@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "57bc36887c40efd9db138988413072489d72459b8796de1bacb39f49467b4185",
   "indexed_at": "2026-02-26T08:55:14.837Z",
-  "synced_at": "2026-02-27T02:31:17.583Z",
+  "synced_at": "2026-02-28T03:56:57.375Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4ec6ba194f372af4ebe02a290aaaedf9fe244b93da3dffd2f74773398ece896b",
   "install_command": "mkdir -p .claude/skills/koan-entity-first && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/entity-first-sylin-org-koan-framework/SKILL.md\" > .claude/skills/koan-entity-first/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/entity-first-sylin-org-koan-framework/SKILL.md"

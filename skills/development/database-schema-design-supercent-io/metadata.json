@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e829802980c523e89357dcbd91e769823244286c8c680e52c24a96449c5c6988",
   "indexed_at": "2026-02-26T08:54:34.374Z",
-  "synced_at": "2026-02-27T02:31:16.500Z",
+  "synced_at": "2026-02-28T03:56:55.714Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7b86ab455da6d1385e856bc325eff585179f4077de75b755c05bce12c1a7fd1a",
   "install_command": "mkdir -p .claude/skills/database-schema-design && curl -sL \"https://raw.githubusercontent.com/supercent-io/skills-template/main/.agent-skills/database-schema-design/SKILL.md\" > .claude/skills/database-schema-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/supercent-io/skills-template/main/.agent-skills/database-schema-design/SKILL.md"

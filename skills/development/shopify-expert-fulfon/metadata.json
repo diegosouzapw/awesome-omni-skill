@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "de29be2394f0f5972f2500ba10e49347a2f022f3d1d7029c96890684908d2b0f",
   "indexed_at": "2026-02-26T07:50:15.897Z",
-  "synced_at": "2026-02-27T02:30:34.581Z",
+  "synced_at": "2026-02-28T03:56:18.118Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/199ef101abe3890c0f2794c7870db0db33117e8c863151df3938bc2779226e81",
   "install_command": "mkdir -p .claude/skills/shopify-expert && curl -sL \"https://raw.githubusercontent.com/fulfon/lusena-dawn/main/.opencode/skills/shopify-expert/SKILL.md\" > .claude/skills/shopify-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fulfon/lusena-dawn/main/.opencode/skills/shopify-expert/SKILL.md"

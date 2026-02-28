@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a7ca68d7ca837e05b54a16b035eedf94a12654678e5c4454d34e77cede4080d0",
   "indexed_at": "2026-02-26T08:49:12.263Z",
-  "synced_at": "2026-02-27T02:30:59.359Z",
+  "synced_at": "2026-02-28T03:56:40.699Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5b7d1fe60eb6bc95a08c092dd616fef860fd24f703bce712588c198dc909a303",
   "install_command": "mkdir -p .claude/skills/backup-script-gen && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/lxgicstudios/backup-gen/SKILL.md\" > .claude/skills/backup-script-gen/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/lxgicstudios/backup-gen/SKILL.md"

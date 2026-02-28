@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ee4f5263fb267eae37f6add4887a5934ea20c07a3256ee288310a1e6d3bc1ffd",
   "indexed_at": "2026-02-26T07:52:39.437Z",
-  "synced_at": "2026-02-27T02:30:38.422Z",
+  "synced_at": "2026-02-28T03:56:21.552Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/74e4797ab6fe8fa035e279daf71904250b0d02745a970e9a48ffd8f474c99973",
   "install_command": "mkdir -p .claude/skills/api-patterns && curl -sL \"https://raw.githubusercontent.com/jmead/cursor-config/main/skills/api-patterns/SKILL.md\" > .claude/skills/api-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jmead/cursor-config/main/skills/api-patterns/SKILL.md"

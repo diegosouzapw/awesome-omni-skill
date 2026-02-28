@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1ab630e62f8be867a88d287ca8fef8202cec2b3b1fa4e91d1167e1e55cb01c9f",
   "indexed_at": "2026-02-26T06:53:35.907Z",
-  "synced_at": "2026-02-27T02:30:11.915Z",
+  "synced_at": "2026-02-28T03:55:56.735Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/104b6db2e08a566012239cff4d6f2bd51fc715bbbf7c3a49ca1060c873e0e525",
   "install_command": "mkdir -p .claude/skills/manifest-frontend && curl -sL \"https://raw.githubusercontent.com/HazAT/manifest/main/.pi/skills/manifest-frontend/SKILL.md\" > .claude/skills/manifest-frontend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HazAT/manifest/main/.pi/skills/manifest-frontend/SKILL.md"

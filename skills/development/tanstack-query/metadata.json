@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9016b856c4c85df181a420db4946d96dc93b84b0fd9a311e24232bcf1e133cca",
   "indexed_at": "2026-02-26T07:51:58.130Z",
-  "synced_at": "2026-02-27T02:30:37.665Z",
+  "synced_at": "2026-02-28T03:56:20.833Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b4259ecc81185dc7f35aee0fb9425a8839df5ea90ed3b295e523ab8dff951515",
   "install_command": "mkdir -p .claude/skills/tanstack-query && curl -sL \"https://raw.githubusercontent.com/bobmatnyc/claude-mpm-skills/main/toolchains/typescript/state/tanstack-query/SKILL.md\" > .claude/skills/tanstack-query/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bobmatnyc/claude-mpm-skills/main/toolchains/typescript/state/tanstack-query/SKILL.md"

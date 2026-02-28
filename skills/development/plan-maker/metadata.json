@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "abca477e5fdfa46dbf2e75fac46b7145107cacf112bc24f326da7167e527cb82",
   "indexed_at": "2026-02-26T09:51:52.430Z",
-  "synced_at": "2026-02-27T02:31:29.858Z",
+  "synced_at": "2026-02-28T03:57:09.137Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/db9e0d99a30f582532440b5f6afcd21191dd7be7d9e629ee67691fc6167f537b",
   "install_command": "mkdir -p .claude/skills/plan-maker && curl -sL \"https://raw.githubusercontent.com/KjellKod/quest/main/.skills/plan-maker/SKILL.md\" > .claude/skills/plan-maker/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/KjellKod/quest/main/.skills/plan-maker/SKILL.md"

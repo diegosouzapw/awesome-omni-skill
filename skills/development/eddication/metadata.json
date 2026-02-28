@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "531e4763911bb4e1b17bd5c9011936669e823bb4e575f581d98698d41324b75b",
   "indexed_at": "2026-02-26T06:49:42.932Z",
-  "synced_at": "2026-02-27T02:30:01.384Z",
+  "synced_at": "2026-02-28T03:55:46.881Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f701b9443dc01ea85cfa93c5363c18393cb31e84d3f5001cbaf235b6cecf2ef1",
   "install_command": "mkdir -p .claude/skills/eddication && curl -sL \"https://raw.githubusercontent.com/DonNigami/eddication.io/main/.claude/skills/eddication/SKILL.md\" > .claude/skills/eddication/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/DonNigami/eddication.io/main/.claude/skills/eddication/SKILL.md"

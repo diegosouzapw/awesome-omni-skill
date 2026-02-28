@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "740947c0c16a94208d86536cd68606c3c0fe04162a64db1d60cd98fa571652e8",
   "indexed_at": "2026-02-26T06:54:17.293Z",
-  "synced_at": "2026-02-27T02:30:14.354Z",
+  "synced_at": "2026-02-28T03:55:59.004Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a06353a86fd8aa46d9c95c98e9c3fb9069022dc4b6a79808d022572b817470b8",
   "install_command": "mkdir -p .claude/skills/web-artifacts-builder && curl -sL \"https://raw.githubusercontent.com/0-CYBERDYNE-SYSTEMS-0/FFT_nano/main/skills/runtime/web-artifacts-builder/SKILL.md\" > .claude/skills/web-artifacts-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/0-CYBERDYNE-SYSTEMS-0/FFT_nano/main/skills/runtime/web-artifacts-builder/SKILL.md"

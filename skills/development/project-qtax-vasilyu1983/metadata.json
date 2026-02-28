@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1828022fe9678cd0027f1653ef504a5edf0b8cf5162324f9552c3996102b8f45",
   "indexed_at": "2026-02-26T09:36:45.280Z",
-  "synced_at": "2026-02-27T02:31:24.489Z",
+  "synced_at": "2026-02-28T03:57:03.957Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9da0bb14c6c4d2f4faf6260fa782391d038e13da2d378f46f31300985265db59",
   "install_command": "mkdir -p .claude/skills/project-qtax && curl -sL \"https://raw.githubusercontent.com/vasilyu1983/AI-Agents-public/main/frameworks/shared-skills/skills/project-qtax/SKILL.md\" > .claude/skills/project-qtax/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/vasilyu1983/AI-Agents-public/main/frameworks/shared-skills/skills/project-qtax/SKILL.md"

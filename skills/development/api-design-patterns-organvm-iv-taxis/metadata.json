@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "27d2fba62d181730f55d5b6d6c68b9281162552be74f954cff52c51419f418b4",
   "indexed_at": "2026-02-26T07:46:10.742Z",
-  "synced_at": "2026-02-27T02:30:26.650Z",
+  "synced_at": "2026-02-28T03:56:10.552Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cc064a2ae345d783631ca54cf509afe3dca789dc510141daf56f1b2c61728e56",
   "install_command": "mkdir -p .claude/skills/api-design-patterns && curl -sL \"https://raw.githubusercontent.com/organvm-iv-taxis/a-i--skills/main/.build/codex/skills/api-design-patterns/SKILL.md\" > .claude/skills/api-design-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/organvm-iv-taxis/a-i--skills/main/.build/codex/skills/api-design-patterns/SKILL.md"

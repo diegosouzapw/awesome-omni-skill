@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b8399366df08935bbd191311a6f7324caf208ea5d1dd98415333d3ddf3feecf2",
   "indexed_at": "2026-02-26T08:50:23.743Z",
-  "synced_at": "2026-02-27T02:31:04.894Z",
+  "synced_at": "2026-02-28T03:56:44.939Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2d22d63a6a385ae2af819f07b529fffac9c1555ce59fa2d7f9d23e2553619524",
   "install_command": "mkdir -p .claude/skills/engineering && curl -sL \"https://raw.githubusercontent.com/lidessen/moniro/main/skills/engineering/SKILL.md\" > .claude/skills/engineering/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lidessen/moniro/main/skills/engineering/SKILL.md"

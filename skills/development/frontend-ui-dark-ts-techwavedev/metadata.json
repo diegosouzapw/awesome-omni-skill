@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7df4fc67029c65a5b024e01014bcd33edcc7c74e485d44b688bd3970a855261c",
   "indexed_at": "2026-02-26T06:47:53.920Z",
-  "synced_at": "2026-02-27T02:29:51.819Z",
+  "synced_at": "2026-02-28T03:55:39.456Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4f571306ab64b526c30bcb31da4bc8ad7c997a49459106f86d5317277377c744",
   "install_command": "mkdir -p .claude/skills/frontend-ui-dark-ts && curl -sL \"https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/extended/frontend/frontend-ui-dark-ts/SKILL.md\" > .claude/skills/frontend-ui-dark-ts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/extended/frontend/frontend-ui-dark-ts/SKILL.md"
