@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "62b6a4a332a60ccdef13e72c599d1f38ca6ec9cd24c85c7e03a4568bef36bb9f",
   "indexed_at": "2026-02-25T18:23:41.814Z",
-  "synced_at": "2026-02-27T02:53:32.937Z",
+  "synced_at": "2026-02-28T04:28:36.144Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c480e2fda9c9caaaf39211264a8f425e914e7069525c0287ca70144a04f49d42",
   "install_command": "mkdir -p .claude/skills/postmortem-writing && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/postmortem-writing/SKILL.md\" > .claude/skills/postmortem-writing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/postmortem-writing/SKILL.md"

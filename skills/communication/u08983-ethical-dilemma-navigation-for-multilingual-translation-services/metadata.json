@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c26a842d570db43eb8ebafb32ab1373fd0b3ec2e857da63fb532f8318da5f27c",
   "indexed_at": "2026-02-27T01:22:07.913Z",
-  "synced_at": "2026-02-27T02:53:36.573Z",
+  "synced_at": "2026-02-28T04:28:41.259Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3a44a3c64f5850a2ba8f554f41d99976429a59424485b51cbe7c8070587eada1",
   "install_command": "mkdir -p .claude/skills/u08983-ethical-dilemma-navigation-for-multilingual-translation-services && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/08/8983-ethical-dilemma-navigation-for-multilingual-translation-services/SKILL.md\" > .claude/skills/u08983-ethical-dilemma-navigation-for-multilingual-translation-services/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/08/8983-ethical-dilemma-navigation-for-multilingual-translation-services/SKILL.md"

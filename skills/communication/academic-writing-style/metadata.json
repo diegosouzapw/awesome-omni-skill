@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "636adef8f96d6dd5c174f8e487ff06e3cc5d2be46e43499e10f0deb2d06fdf4d",
   "indexed_at": "2026-02-24T23:41:03.568Z",
-  "synced_at": "2026-02-27T02:53:34.074Z",
+  "synced_at": "2026-02-28T04:28:37.729Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/26a8cf1143cd375a70db9d853c7e154b8bd4d071c04eb921d798757170417cb5",
   "install_command": "mkdir -p .claude/skills/academic-writing-style && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/academic-writing-style/SKILL.md\" > .claude/skills/academic-writing-style/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/academic-writing-style/SKILL.md"

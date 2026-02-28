@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cb5a42b09858b8fe6d996371db0b47c2df7cd7435ad572cfee36f15f94e4dc26",
   "indexed_at": "2026-02-27T01:16:38.346Z",
-  "synced_at": "2026-02-27T02:53:36.400Z",
+  "synced_at": "2026-02-28T04:28:41.090Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/609f8525ad7bfd2ffa89d2c866493e951fbd3de3a5d5c79fbc22b83d4c7f0e44",
   "install_command": "mkdir -p .claude/skills/u09613-writing-and-rhetoric-optimization-for-household-logistics && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/09/9613-writing-and-rhetoric-optimization-for-household-logistics/SKILL.md\" > .claude/skills/u09613-writing-and-rhetoric-optimization-for-household-logistics/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/09/9613-writing-and-rhetoric-optimization-for-household-logistics/SKILL.md"
