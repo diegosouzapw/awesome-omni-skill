@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a8360e7b6a133de6694622534613c1ffe8a540be3c74671c1fef2923e8baba6f",
   "indexed_at": "2026-02-26T12:21:53.277Z",
-  "synced_at": "2026-02-27T02:35:29.433Z",
+  "synced_at": "2026-02-28T04:03:00.670Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cd0eacfe6efa44224dddcb93db531c88b7cc092a4c45221757072a63de2a0fc3",
   "install_command": "mkdir -p .claude/skills/create-auth-skill && curl -sL \"https://raw.githubusercontent.com/masakinihirota/vns-masakinihirota/main/.agent/skills/create-auth-skill/SKILL.md\" > .claude/skills/create-auth-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/masakinihirota/vns-masakinihirota/main/.agent/skills/create-auth-skill/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bfbf231f5e0347121af65dfb8ea2f8958250cc20ad566374d55ba02497253b1c",
   "indexed_at": "2026-02-26T06:45:45.061Z",
-  "synced_at": "2026-02-27T02:34:59.166Z",
+  "synced_at": "2026-02-28T04:02:32.009Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ad25a526705266de07f135bb4d0205af4eed38e017870d8b3f1592508b446eaf",
   "install_command": "mkdir -p .claude/skills/project-guidelines-example && curl -sL \"https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/project-guidelines-example/SKILL.md\" > .claude/skills/project-guidelines-example/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/project-guidelines-example/SKILL.md"

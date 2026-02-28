@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "081084a226aef84d598e32d97b12f80db276369377f6dbee1910bfa12bb8ef6b",
   "indexed_at": "2026-02-26T10:56:34.037Z",
-  "synced_at": "2026-02-27T02:35:22.948Z",
+  "synced_at": "2026-02-28T04:02:54.482Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ccbd7a7e66167315407b82d14019f4b950e6b338ad41c83544c93a39a404e33e",
   "install_command": "mkdir -p .claude/skills/speckit-00-constitution && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/speckit-00-constitution/SKILL.md\" > .claude/skills/speckit-00-constitution/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/speckit-00-constitution/SKILL.md"

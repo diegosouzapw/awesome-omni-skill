@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0c61c4900dcee4e3f48dfb810b9b1cc74bc82ec890f16efc4a8961f62ac7060e",
   "indexed_at": "2026-02-26T10:53:52.480Z",
-  "synced_at": "2026-02-27T02:35:21.601Z",
+  "synced_at": "2026-02-28T04:02:53.159Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/13f8e6dead9f948696adc62420e533b303cdd2285d2fa57c00b082bd9a28b37a",
   "install_command": "mkdir -p .claude/skills/python-testing && curl -sL \"https://raw.githubusercontent.com/ndhananj/codex-agent-setup/main/docs/zh-CN/skills/python-testing/SKILL.md\" > .claude/skills/python-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ndhananj/codex-agent-setup/main/docs/zh-CN/skills/python-testing/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e7f4ad68cb39aae08f92e8d32e97c233a3b02968a12c7d3148581879ee82f87e",
   "indexed_at": "2026-02-26T13:18:19.893Z",
-  "synced_at": "2026-02-27T02:35:35.499Z",
+  "synced_at": "2026-02-28T04:03:06.492Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d16f37e31a563563441e422037c9d72b644ba984b73fdb0df97d5db9071b7ef4",
   "install_command": "mkdir -p .claude/skills/testing-skill && curl -sL \"https://raw.githubusercontent.com/AIDORA28/SmartKet-v1/main/.agent/skills/testing/SKILL.md\" > .claude/skills/testing-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AIDORA28/SmartKet-v1/main/.agent/skills/testing/SKILL.md"

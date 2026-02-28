@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "889a323f3e1af2f3f58b8ed6d05a56518a4e49c71b4dedce38a9a54c7b53f204",
   "indexed_at": "2026-02-26T08:47:40.889Z",
-  "synced_at": "2026-02-27T02:35:09.327Z",
+  "synced_at": "2026-02-28T04:02:41.732Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aea539a9cee739ac5ccd28a3ed4993dc4bb120cc59b52edbc522980caab7c84f",
   "install_command": "mkdir -p .claude/skills/sql-pro && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/sickn33/antigravity-awesome-skills/sql-pro/SKILL.md\" > .claude/skills/sql-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/sickn33/antigravity-awesome-skills/sql-pro/SKILL.md"

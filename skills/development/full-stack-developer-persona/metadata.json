@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "42d9c2a3e99a99bdd9f334e4ee88efabf255ae902ebf12a75e0dbfa714187462",
   "indexed_at": "2026-02-26T22:31:07.805Z",
-  "synced_at": "2026-02-27T02:34:42.117Z",
+  "synced_at": "2026-02-28T04:02:10.961Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/de8d7af1615848ab1db418ba2dd5b7bdfac77c6f1efeb28ec9fd7c5c5a64fbb5",
   "install_command": "mkdir -p .claude/skills/full-stack-developer-persona && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/full-stack-developer-persona/SKILL.md\" > .claude/skills/full-stack-developer-persona/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/full-stack-developer-persona/SKILL.md"

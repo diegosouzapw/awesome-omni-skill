@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "41cb141a18384c8d5d3e12b96b0d9542afd66709f19f34197a11edd15f9d7f7f",
   "indexed_at": "2026-02-26T12:22:52.363Z",
-  "synced_at": "2026-02-27T02:34:39.552Z",
+  "synced_at": "2026-02-28T04:02:04.490Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4f462479eecda9b5aab17a907c7437a3cba3ede102587d5cedf2197a64fa43bf",
   "install_command": "mkdir -p .claude/skills/passwordless-docs && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/passwordless-docs/SKILL.md\" > .claude/skills/passwordless-docs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/passwordless-docs/SKILL.md"

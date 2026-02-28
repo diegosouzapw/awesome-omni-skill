@@ -18,6 +18,8 @@ Perform a comprehensive code review of all uncommitted git changes following Eas
 | 2     | Holistic review                 | Re-read accumulated report for architecture coherence                  |
 | 3     | Finalize findings               | Critical issues, recommendations, suggestions, commit message          |
 
+> **Critical Purpose:** Ensure quality — no flaws, no bugs, no missing updates, no stale documentation. Every review must verify both code correctness AND documentation accuracy.
+
 **Key Principles:**
 
 - **Be skeptical. Critical thinking. Everything needs traced proof.** — Never accept code at face value; verify claims against actual behavior, trace data flow end-to-end, and demand evidence (file:line references, grep results, runtime confirmation) for every finding

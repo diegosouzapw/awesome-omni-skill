@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6d56e19caab74909b4f507722c56ebda4110372b644879978fa2062dd362afa9",
   "indexed_at": "2026-02-25T13:08:45.371Z",
-  "synced_at": "2026-02-27T02:34:23.933Z",
+  "synced_at": "2026-02-28T04:01:57.784Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d4f1a21c68228be2f5d5180a7e367df4f99d6ca314e474d12151afad9edd6198",
   "install_command": "mkdir -p .claude/skills/paperproof-validator && curl -sL \"https://raw.githubusercontent.com/plurigrid/asi/main/skills/paperproof-validator/SKILL.md\" > .claude/skills/paperproof-validator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/plurigrid/asi/main/skills/paperproof-validator/SKILL.md"

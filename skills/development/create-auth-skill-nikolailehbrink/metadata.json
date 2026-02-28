@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "69cfe3148d7b9d82fb3293efa6fabe8f9176f920f7e9277b218762762d74a673",
   "indexed_at": "2026-02-26T12:24:38.818Z",
-  "synced_at": "2026-02-27T02:35:32.931Z",
+  "synced_at": "2026-02-28T04:03:04.104Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f82b8d731f40576087af5f35c51be7d2ef12e2b56e161bd560d4499347c9ecdb",
   "install_command": "mkdir -p .claude/skills/create-auth-skill && curl -sL \"https://raw.githubusercontent.com/nikolailehbrink/llm-stack/main/.agents/skills/create-auth-skill/SKILL.md\" > .claude/skills/create-auth-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nikolailehbrink/llm-stack/main/.agents/skills/create-auth-skill/SKILL.md"

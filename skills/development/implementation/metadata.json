@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9ef17dd99cccbb4345a1e3b865d0519693b45a0f64ee6edec2bc1d32bdb29503",
   "indexed_at": "2026-02-26T11:37:33.456Z",
-  "synced_at": "2026-02-27T02:35:24.440Z",
+  "synced_at": "2026-02-28T04:02:56.038Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/08b9e79d6859eca8a254f6cb27fa866c38d23860e130beac40eed7affa4f3f59",
   "install_command": "mkdir -p .claude/skills/implementation && curl -sL \"https://raw.githubusercontent.com/Objective-Arts/lens/main/workflow-skills/workflow/implementation/SKILL.md\" > .claude/skills/implementation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Objective-Arts/lens/main/workflow-skills/workflow/implementation/SKILL.md"

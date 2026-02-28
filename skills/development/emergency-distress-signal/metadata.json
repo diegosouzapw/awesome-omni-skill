@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ccd9b614f33c35c1383d7606d2d4713af8ae9e6684d774602803aaa487f8b10f",
   "indexed_at": "2026-02-25T16:11:17.420Z",
-  "synced_at": "2026-02-27T02:34:50.219Z",
+  "synced_at": "2026-02-28T04:02:23.641Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d55a63314cef7b2b671889bd0bf06a6c0593c19978b128540f99ef47e32f92a4",
   "install_command": "mkdir -p .claude/skills/emergency-distress-signal && curl -sL \"https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/claudecode-npc/emergency-distress-signal/SKILL.md\" > .claude/skills/emergency-distress-signal/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/claudecode-npc/emergency-distress-signal/SKILL.md"

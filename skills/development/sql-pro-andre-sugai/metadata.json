@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "015ac721d80971acf86c3b76183c5b2c43145fc3642ad203374555b19663d33c",
   "indexed_at": "2026-02-26T08:47:42.160Z",
-  "synced_at": "2026-02-27T02:35:09.492Z",
+  "synced_at": "2026-02-28T04:02:41.906Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ea582f27c4f5beb03b63b44b3e48d21f8e50e6c739f893c7604c0d04c92900a7",
   "install_command": "mkdir -p .claude/skills/sql-pro && curl -sL \"https://raw.githubusercontent.com/andre-sugai/cine-explorer-mvp-block/main/.agents/skills/skills/sql-pro/SKILL.md\" > .claude/skills/sql-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/andre-sugai/cine-explorer-mvp-block/main/.agents/skills/skills/sql-pro/SKILL.md"

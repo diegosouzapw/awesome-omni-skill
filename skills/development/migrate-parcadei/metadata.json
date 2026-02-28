@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e240e02f9afef754942be746644df1635995c068977c6ed45b79afa6e6916d54",
   "indexed_at": "2026-02-26T11:40:20.584Z",
-  "synced_at": "2026-02-27T02:35:24.789Z",
+  "synced_at": "2026-02-28T04:02:56.372Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/191163eff5ba736815548c0a2dc460c270bccfc60c3c42cafd447c70e1c73d44",
   "install_command": "mkdir -p .claude/skills/migrate && curl -sL \"https://raw.githubusercontent.com/parcadei/Continuous-Claude-v3/main/.claude/skills/migrate/SKILL.md\" > .claude/skills/migrate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/parcadei/Continuous-Claude-v3/main/.claude/skills/migrate/SKILL.md"

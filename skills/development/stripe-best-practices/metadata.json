@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9c3ee0b05fcb6a0d1c9a9c692590f211d5aaf81ba76d45915c4688c38ed3e414",
   "indexed_at": "2026-02-26T23:35:17.847Z",
-  "synced_at": "2026-02-27T02:35:42.288Z",
+  "synced_at": "2026-02-28T04:03:12.855Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c38f6c0b6469f1da6851207dcafcad9b57e9d7bc1ee2192cce839f0667e79cb6",
   "install_command": "mkdir -p .claude/skills/stripe-best-practices && curl -sL \"https://raw.githubusercontent.com/stripe/ai/main/skills/stripe-best-practices/SKILL.md\" > .claude/skills/stripe-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/stripe/ai/main/skills/stripe-best-practices/SKILL.md"

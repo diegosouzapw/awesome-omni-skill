@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/intellectronica/agent-skills",
   "author": "intellectronica",
   "author_avatar": "https://github.com/intellectronica.png",
-  "file_path": "skills/copilot-sdk/SKILL.md",
+  "file_path": "plugins/copilot-sdk/skills/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "2310662e077088eea261a3a1ece0013101a71168bb8d3c4ba2577c834c6865c5",
-  "indexed_at": "2026-02-26T18:34:57.062Z",
-  "synced_at": "2026-02-28T03:59:41.471Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4c7d7f36b679f08084406c3c261118e6ed7664e287a79dfc28c571cd92388ed8",
-  "install_command": "mkdir -p .claude/skills/copilot-sdk && curl -sL \"https://raw.githubusercontent.com/intellectronica/agent-skills/main/skills/copilot-sdk/SKILL.md\" > .claude/skills/copilot-sdk/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/intellectronica/agent-skills/main/skills/copilot-sdk/SKILL.md"
+  "content_hash": "224174511af1baf458620c4b183ccbb3c080639c847b534ba2a7d14e8f09cd8f",
+  "indexed_at": "2026-02-27T22:25:50.723Z",
+  "synced_at": "2026-02-28T04:01:51.568Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5ce75da5af8e7c588fd4a386d5f97d9a9dc8d801d0612a1e1e7971952c950df0",
+  "install_command": "mkdir -p .claude/skills/copilot-sdk && curl -sL \"https://raw.githubusercontent.com/intellectronica/agent-skills/main/plugins/copilot-sdk/skills/SKILL.md\" > .claude/skills/copilot-sdk/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/intellectronica/agent-skills/main/plugins/copilot-sdk/skills/SKILL.md"
 }

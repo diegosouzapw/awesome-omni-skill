@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "12d52519a1c9254b865d8654f122b3270372191da926f7069d500e8112dd81ee",
   "indexed_at": "2026-02-25T12:48:55.286Z",
-  "synced_at": "2026-02-27T02:34:45.343Z",
+  "synced_at": "2026-02-28T04:02:18.869Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/59100630ec9062d0d1160cb57acad14b8b1e17980612f269dc8ab8360fffe684",
   "install_command": "mkdir -p .claude/skills/ui-skills && curl -sL \"https://raw.githubusercontent.com/quanphm/dotfiles/main/opencode/skills/ui-skills/SKILL.md\" > .claude/skills/ui-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/quanphm/dotfiles/main/opencode/skills/ui-skills/SKILL.md"

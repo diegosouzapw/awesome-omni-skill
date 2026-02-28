@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "07d792c673b31a0ee5bb14617856f00edc790d88d8b1b1f8e229fa9a339dc396",
   "indexed_at": "2026-02-26T00:41:27.198Z",
-  "synced_at": "2026-02-27T02:34:24.985Z",
+  "synced_at": "2026-02-28T04:01:58.475Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1e5cc90a5e69df98e60954e679ef8ac2e538eabfb84bdaa4fe514447cf8f257b",
   "install_command": "mkdir -p .claude/skills/crabwalk && curl -sL \"https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/luccast/public/SKILL.md\" > .claude/skills/crabwalk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/luccast/public/SKILL.md"

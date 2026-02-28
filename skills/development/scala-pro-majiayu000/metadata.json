@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "61941dd1983e2a25211f71af9d38e702c04ef8b045a27a2e9f136d041b17e07a",
   "indexed_at": "2026-02-26T07:57:03.248Z",
-  "synced_at": "2026-02-27T02:35:06.569Z",
+  "synced_at": "2026-02-28T04:02:39.409Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b05eeb6d5f834f3e5f86fbaa933d913cbad503d1901c73ba11100e7ba17b266e",
   "install_command": "mkdir -p .claude/skills/scala-pro && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/scala-pro-guilhermedemorais-de-context-engineering-/SKILL.md\" > .claude/skills/scala-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/scala-pro-guilhermedemorais-de-context-engineering-/SKILL.md"

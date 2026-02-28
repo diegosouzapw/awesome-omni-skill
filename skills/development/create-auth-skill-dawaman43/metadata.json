@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c68f282d3faf0ecb7c66a69ddac880012aa8ecae44b84c5c1f26d4c7deab2121",
   "indexed_at": "2026-02-26T08:54:48.607Z",
-  "synced_at": "2026-02-27T02:35:15.027Z",
+  "synced_at": "2026-02-28T04:02:46.993Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/41718c0dec2211d3a0995c8a6dd0678b9912b82a0659fc765c1c833d944e1084",
   "install_command": "mkdir -p .claude/skills/create-auth-skill && curl -sL \"https://raw.githubusercontent.com/Dawaman43/MindGrid/main/.agents/skills/create-auth-skill/SKILL.md\" > .claude/skills/create-auth-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Dawaman43/MindGrid/main/.agents/skills/create-auth-skill/SKILL.md"

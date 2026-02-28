@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4e1778f6004969c439e337413b9442d09c210caae9b920893acbacd2d1da9ecc",
   "indexed_at": "2026-02-26T05:51:45.391Z",
-  "synced_at": "2026-02-27T02:34:26.009Z",
+  "synced_at": "2026-02-28T04:01:59.232Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7fbfa1a424934d5a7f59a435b349c091c191ad3d88442cedac57ddeb0a68807b",
   "install_command": "mkdir -p .claude/skills/orchestrate && curl -sL \"https://raw.githubusercontent.com/zhsks311/cc-orchestrator/main/skills/orchestrate/SKILL.md\" > .claude/skills/orchestrate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zhsks311/cc-orchestrator/main/skills/orchestrate/SKILL.md"

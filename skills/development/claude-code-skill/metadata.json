@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "76320e4c2b1dddf9470176eeb60444bd34f01fa9c643ab6d371ac7da0e5fe046",
   "indexed_at": "2026-02-26T18:31:12.706Z",
-  "synced_at": "2026-02-27T02:35:39.289Z",
+  "synced_at": "2026-02-28T04:03:10.059Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/adcf93cb330a2fc0f568a05c2cba1bc2d339fe0cf2e6934c589aa3d04b28e746",
   "install_command": "mkdir -p .claude/skills/claude-code-skill && curl -sL \"https://raw.githubusercontent.com/ScrapeGraphAI/docs-mintlify/main/integrations/claude-code-skill.mdx/SKILL.md\" > .claude/skills/claude-code-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ScrapeGraphAI/docs-mintlify/main/integrations/claude-code-skill.mdx/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "502d981a8f361081e09ba6ce602075c69447db49cb19e9ca559e8986084b6bde",
   "indexed_at": "2026-02-26T07:56:33.523Z",
-  "synced_at": "2026-02-27T02:35:06.196Z",
+  "synced_at": "2026-02-28T04:02:39.064Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7afef3ab66cf3d58fe2e956b52a9e2522e544406352e67f80296a90c47d4e3c0",
   "install_command": "mkdir -p .claude/skills/iikit-07-analyze && curl -sL \"https://raw.githubusercontent.com/asm0dey/java-version-checker/main/.tessl/tiles/tessl-labs/intent-integrity-kit/skills/iikit-07-analyze/SKILL.md\" > .claude/skills/iikit-07-analyze/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/asm0dey/java-version-checker/main/.tessl/tiles/tessl-labs/intent-integrity-kit/skills/iikit-07-analyze/SKILL.md"

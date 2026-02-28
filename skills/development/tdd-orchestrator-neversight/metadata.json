@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ef455f42103f68fee7d181e5a3404cea657be02aa9b128864552ba5d55620c2f",
   "indexed_at": "2026-02-26T14:20:13.392Z",
-  "synced_at": "2026-02-27T02:35:36.409Z",
+  "synced_at": "2026-02-28T04:03:07.379Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ede7ed7ddef542c3a36835eaf250f276e1c8fdf4a782d48d373c476d645d7267",
   "install_command": "mkdir -p .claude/skills/tdd-orchestrator && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/sickn33/antigravity-awesome-skills/tdd-orchestrator/SKILL.md\" > .claude/skills/tdd-orchestrator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/sickn33/antigravity-awesome-skills/tdd-orchestrator/SKILL.md"

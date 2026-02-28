@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e347cb9b0c599169f46366ef2276f4a28f108821823392ad42e696f7e33cdac3",
   "indexed_at": "2026-02-26T07:48:07.348Z",
-  "synced_at": "2026-02-27T02:35:02.656Z",
+  "synced_at": "2026-02-28T04:02:35.773Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ab70c800d69bc671e7aed4be35acfd0ef7a189f77c897f530032d76039b43220",
   "install_command": "mkdir -p .claude/skills/api-integration && curl -sL \"https://raw.githubusercontent.com/huhuimike85/aizc/main/references/frontend-v2/aizc/aizc/skills/api-integration/SKILL.md\" > .claude/skills/api-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/huhuimike85/aizc/main/references/frontend-v2/aizc/aizc/skills/api-integration/SKILL.md"

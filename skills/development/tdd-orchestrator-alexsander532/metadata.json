@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "20ea40f9e5cba85bab5149cc98f13ea43db8dad070becc581a078ddea8e63e21",
   "indexed_at": "2026-02-26T14:20:17.675Z",
-  "synced_at": "2026-02-27T02:35:36.916Z",
+  "synced_at": "2026-02-28T04:03:07.761Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3594da6a2c06954da7d3a7c55800bce2fa2eff70063cd223e8531f02c0c12d58",
   "install_command": "mkdir -p .claude/skills/tdd-orchestrator && curl -sL \"https://raw.githubusercontent.com/Alexsander532/Atlas/main/skills_antigravity/skills/tdd-orchestrator/SKILL.md\" > .claude/skills/tdd-orchestrator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Alexsander532/Atlas/main/skills_antigravity/skills/tdd-orchestrator/SKILL.md"

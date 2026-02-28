@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c4b592c72bfc20e46c324989e63648b8fc6ea6c734dc71295268b38ac45eca07",
   "indexed_at": "2026-02-25T13:02:27.714Z",
-  "synced_at": "2026-02-27T02:34:23.769Z",
+  "synced_at": "2026-02-28T04:01:57.638Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d476f1e20dada68268ad500b00669f522b63f011b419e347dc34859a5e7beb84",
   "install_command": "mkdir -p .claude/skills/twitterapi-molt && curl -sL \"https://raw.githubusercontent.com/jerryfane/twitterapi-molt/main/SKILL.md\" > .claude/skills/twitterapi-molt/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jerryfane/twitterapi-molt/main/SKILL.md"

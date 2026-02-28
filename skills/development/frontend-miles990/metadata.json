@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b7a611b1f9cbe3e634d5092182e1228189ac29b45b706647a5fa36bdb1e1eb1f",
   "indexed_at": "2026-02-26T06:56:10.925Z",
-  "synced_at": "2026-02-27T02:34:28.484Z",
+  "synced_at": "2026-02-28T04:02:00.589Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ad802a34bcab87bc11556b33c0df0a341bbf11049f72a17e94cd3ed5ac603da3",
   "install_command": "mkdir -p .claude/skills/frontend && curl -sL \"https://raw.githubusercontent.com/miles990/claude-software-skills/main/development-stacks/frontend/SKILL.md\" > .claude/skills/frontend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/miles990/claude-software-skills/main/development-stacks/frontend/SKILL.md"

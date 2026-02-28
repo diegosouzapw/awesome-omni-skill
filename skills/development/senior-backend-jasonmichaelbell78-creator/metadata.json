@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4944cfbf79b813399e9d960e096abe7f988919f3fccec21e143f3f486c198a58",
   "indexed_at": "2026-02-26T07:55:34.070Z",
-  "synced_at": "2026-02-27T02:35:05.703Z",
+  "synced_at": "2026-02-28T04:02:38.765Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5a406783868c38662cb0baab035cc217b6b8ed1800e768be7a56c52c0f25c5db",
   "install_command": "mkdir -p .claude/skills/senior-backend && curl -sL \"https://raw.githubusercontent.com/jasonmichaelbell78-creator/sonash-v0/main/.claude/skills/senior-backend/SKILL.md\" > .claude/skills/senior-backend/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jasonmichaelbell78-creator/sonash-v0/main/.claude/skills/senior-backend/SKILL.md"

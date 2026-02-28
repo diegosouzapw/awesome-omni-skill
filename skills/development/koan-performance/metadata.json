@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5475c0314751cb811d9f83cc7dd48225154bb66d33b58f4eed0d3f2d5e7a3262",
   "indexed_at": "2026-02-25T19:40:47.203Z",
-  "synced_at": "2026-02-27T02:34:52.277Z",
+  "synced_at": "2026-02-28T04:02:25.477Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a065a462f1232354d8cdb71a02634775d6190857f038a908caa5bc779264390c",
   "install_command": "mkdir -p .claude/skills/koan-performance && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/performance/SKILL.md\" > .claude/skills/koan-performance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/performance/SKILL.md"

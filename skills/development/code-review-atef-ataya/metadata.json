@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fb1d831d76d05e43e40f6351adeed25ef569d8f174c1ff77b21aa017f222f072",
   "indexed_at": "2026-02-26T21:30:35.547Z",
-  "synced_at": "2026-02-27T02:35:41.092Z",
+  "synced_at": "2026-02-28T04:03:11.835Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/902d75c776938f11f01ba0e2d716c90f0461addd4101460a854304070a956e2c",
   "install_command": "mkdir -p .claude/skills/code-review && curl -sL \"https://raw.githubusercontent.com/atef-ataya/the-context-series-part-1/main/claude/SKILL.md\" > .claude/skills/code-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/atef-ataya/the-context-series-part-1/main/claude/SKILL.md"

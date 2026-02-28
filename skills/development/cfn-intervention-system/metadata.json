@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0909097c21c60da51998ac90854eaf08ec722817ccf4325f20989485d3f5ed43",
   "indexed_at": "2026-02-26T00:41:18.301Z",
-  "synced_at": "2026-02-27T02:34:53.294Z",
+  "synced_at": "2026-02-28T04:02:26.454Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7d405cbe3983bddca29781507ef3f6029e440d308a50077350cc04f21baf1978",
   "install_command": "mkdir -p .claude/skills/cfn-intervention-system && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/cfn-intervention-system-masharratt-claude-flow-novice/SKILL.md\" > .claude/skills/cfn-intervention-system/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/cfn-intervention-system-masharratt-claude-flow-novice/SKILL.md"

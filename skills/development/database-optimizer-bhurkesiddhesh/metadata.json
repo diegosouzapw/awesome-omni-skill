@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e0f49d02e6b3a518f9732cf4059add29a7c9fa4b9eca3b50d3b38264244102ba",
   "indexed_at": "2026-02-26T08:50:00.567Z",
-  "synced_at": "2026-02-27T02:35:12.633Z",
+  "synced_at": "2026-02-28T04:02:44.837Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/03e30a3c588d4a4ec3e29dc797e2c155c970f41bcc9e86b175177ee3620ee618",
   "install_command": "mkdir -p .claude/skills/database-optimizer && curl -sL \"https://raw.githubusercontent.com/BhurkeSiddhesh/Agent-Central/main/agency-hq/skills/database-optimizer/SKILL.md\" > .claude/skills/database-optimizer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/BhurkeSiddhesh/Agent-Central/main/agency-hq/skills/database-optimizer/SKILL.md"

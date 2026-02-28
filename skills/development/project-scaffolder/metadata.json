@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "586720086f75ed381457cc74ceeff331d301954a38f5619762ab33185aaf49c7",
   "indexed_at": "2026-02-26T10:51:41.850Z",
-  "synced_at": "2026-02-27T02:34:37.046Z",
+  "synced_at": "2026-02-28T04:02:02.763Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/77228a5272ed323108ecb28ccdfda563cdcda448a35a3525482eb59b52222a80",
   "install_command": "mkdir -p .claude/skills/project-scaffolder && curl -sL \"https://raw.githubusercontent.com/imehr/vet/main/.claude/skills/project-scaffolder/SKILL.md\" > .claude/skills/project-scaffolder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/imehr/vet/main/.claude/skills/project-scaffolder/SKILL.md"

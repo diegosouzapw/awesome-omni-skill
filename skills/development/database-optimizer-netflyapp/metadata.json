@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f53211b8d01c861276f3e4826805da50570bffadfb2159bf7a203c68238a1636",
   "indexed_at": "2026-02-26T08:50:04.832Z",
-  "synced_at": "2026-02-27T02:35:13.168Z",
+  "synced_at": "2026-02-28T04:02:45.359Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5b915a5a27e02f7463dc11ba1206da4632dd510103157f9f459dd49144148484",
   "install_command": "mkdir -p .claude/skills/database-optimizer && curl -sL \"https://raw.githubusercontent.com/netflyapp/hexos-dashboard/main/03_ui/antigravity-awesome-skills-main-2/skills/database-optimizer/SKILL.md\" > .claude/skills/database-optimizer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/netflyapp/hexos-dashboard/main/03_ui/antigravity-awesome-skills-main-2/skills/database-optimizer/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7f62fa8e6f5826646cd0176889b1cba3fa611bd813451a1000ccbc3adee7d5a1",
   "indexed_at": "2026-02-26T10:46:50.123Z",
-  "synced_at": "2026-02-27T02:35:18.537Z",
+  "synced_at": "2026-02-28T04:02:50.261Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cd07f19d4994a52fbcb0489114404cde959e3eeee681a1ba6ea210924dea32f5",
   "install_command": "mkdir -p .claude/skills/python-pro && curl -sL \"https://raw.githubusercontent.com/corsal2025/NUTRI-AGENDA2026/main/.agent/skills/python-pro/SKILL.md\" > .claude/skills/python-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/corsal2025/NUTRI-AGENDA2026/main/.agent/skills/python-pro/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6d7cb6f7e8d67d7703d1ab5dd0feae992b68dba82cbf44cb4453aa06731488ba",
   "indexed_at": "2026-02-26T11:42:36.261Z",
-  "synced_at": "2026-02-27T02:35:27.759Z",
+  "synced_at": "2026-02-28T04:02:59.082Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/89a4754b3558a7e5234165d76769ef217b1e004c40ba90d2b78fd078c854a5f7",
   "install_command": "mkdir -p .claude/skills/django-pro && curl -sL \"https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/django-pro/SKILL.md\" > .claude/skills/django-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/django-pro/SKILL.md"

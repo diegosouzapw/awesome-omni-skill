@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cb4d8fc7c8cfa55b54d63be1669fd2293157cf47b5396ac2fe762f414da44039",
   "indexed_at": "2026-02-26T17:38:26.484Z",
-  "synced_at": "2026-02-27T02:34:40.493Z",
+  "synced_at": "2026-02-28T04:02:05.405Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7bfa2bce92467b435df29026899e58e0190c20fddad9db6826f47565eed7bc31",
   "install_command": "mkdir -p .claude/skills/rest-assured-api-testing && curl -sL \"https://raw.githubusercontent.com/omarrohit20/ui_automation/main/.github/copilot-instructions/rest-assured-api/SKILL.md\" > .claude/skills/rest-assured-api-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/omarrohit20/ui_automation/main/.github/copilot-instructions/rest-assured-api/SKILL.md"

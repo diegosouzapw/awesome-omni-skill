@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4f61282dc8b7a4efa2f58826e6035ebbf4c27a24cf09cf64659c1c3646c5ba78",
   "indexed_at": "2026-02-26T16:15:49.646Z",
-  "synced_at": "2026-02-27T02:35:38.883Z",
+  "synced_at": "2026-02-28T04:03:09.487Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/168324b1fdf39b2a4e6216d059b2bdd91c10beed323f91a42140962c7a5a2e8a",
   "install_command": "mkdir -p .claude/skills/wecom-bot && curl -sL \"https://raw.githubusercontent.com/ajaxhe/wecom-bot-skill/main/SKILL.md\" > .claude/skills/wecom-bot/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ajaxhe/wecom-bot-skill/main/SKILL.md"

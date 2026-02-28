@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7569f68bc4db85f6a1d9e9c6f78c23976c5903cbff1c45b6956e215faee7567e",
   "indexed_at": "2026-02-25T12:36:17.709Z",
-  "synced_at": "2026-02-27T02:34:23.466Z",
+  "synced_at": "2026-02-28T04:01:57.324Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a202612dc5fcbedd9902db483786d2fa6fe60cec471bf2d1a3934882d589dc8a",
   "install_command": "mkdir -p .claude/skills/annas-to-notebooklm && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/zstmfhy/annas-to-notebooklm/annas-to-notebooklm/SKILL.md\" > .claude/skills/annas-to-notebooklm/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/zstmfhy/annas-to-notebooklm/annas-to-notebooklm/SKILL.md"

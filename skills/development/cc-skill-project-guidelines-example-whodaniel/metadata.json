@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a46fa521d3b76fe8837fc746d534f41e089697e941282a58edb47d4bd3746886",
   "indexed_at": "2026-02-26T06:55:54.666Z",
-  "synced_at": "2026-02-27T02:35:01.403Z",
+  "synced_at": "2026-02-28T04:02:34.043Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9bce36ba58b2cd8569db4be4d796eeae98ca66efd874500d623d574d96141035",
   "install_command": "mkdir -p .claude/skills/cc-skill-project-guidelines-example && curl -sL \"https://raw.githubusercontent.com/whodaniel/fuse/main/.agent/skill-bank/snapshots/project-agent/cc-skill-project-guidelines-example-677b5ea6/SKILL.md\" > .claude/skills/cc-skill-project-guidelines-example/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/whodaniel/fuse/main/.agent/skill-bank/snapshots/project-agent/cc-skill-project-guidelines-example-677b5ea6/SKILL.md"

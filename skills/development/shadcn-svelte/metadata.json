@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "76c8f75715545aa90e9741582540f7a49e818a4e9ab17ad555134f538b28d6d7",
   "indexed_at": "2026-02-26T06:49:04.140Z",
-  "synced_at": "2026-02-27T02:34:59.823Z",
+  "synced_at": "2026-02-28T04:02:32.491Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ea9cbda0a9244fddf87889644e4e15c036b0e09eeab7f72621ae8d5c91b1669f",
   "install_command": "mkdir -p .claude/skills/shadcn-svelte && curl -sL \"https://raw.githubusercontent.com/digi4care/opencode-mastery/main/src/skill/shadcn-svelte/SKILL.md\" > .claude/skills/shadcn-svelte/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/digi4care/opencode-mastery/main/src/skill/shadcn-svelte/SKILL.md"

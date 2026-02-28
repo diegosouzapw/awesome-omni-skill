@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ca537b50555fc8d971e2b1a26907f63c97f678981b076ed2f813ee5e422e5918",
   "indexed_at": "2026-02-26T14:25:17.315Z",
-  "synced_at": "2026-02-27T02:35:37.641Z",
+  "synced_at": "2026-02-28T04:03:08.473Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c7e9b477462f0abbebc0cfb3917359c8e1d5d6aba64ee9f3d236da2a57b3211c",
   "install_command": "mkdir -p .claude/skills/tdd-orchestrator && curl -sL \"https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/extended/devops/tdd-orchestrator/SKILL.md\" > .claude/skills/tdd-orchestrator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/extended/devops/tdd-orchestrator/SKILL.md"

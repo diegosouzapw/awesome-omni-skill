@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d4791a42ebedd2521fe1598393df2bf52271888b67f6365a4dd2147bdba384ff",
   "indexed_at": "2026-02-25T19:40:13.785Z",
-  "synced_at": "2026-02-27T02:34:52.060Z",
+  "synced_at": "2026-02-28T04:02:25.285Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed5eddc3ececf9a66dc731d3afefc5c01596dc7bec91ba49d36489ad248ee170",
   "install_command": "mkdir -p .claude/skills/java-dev && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/java-dev/SKILL.md\" > .claude/skills/java-dev/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/java-dev/SKILL.md"

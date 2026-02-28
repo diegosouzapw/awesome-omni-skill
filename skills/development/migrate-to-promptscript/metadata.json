@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5e99bf39475b10c75bf0e611dd5c6c75c24257e7957aa9c93a001e8c9ae95664",
   "indexed_at": "2026-02-26T18:41:29.137Z",
-  "synced_at": "2026-02-27T02:35:40.533Z",
+  "synced_at": "2026-02-28T04:03:11.295Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c6df5b827e7a909ba6ca36dc2129b939bfd39986a5df31b14fd57ded44935655",
   "install_command": "mkdir -p .claude/skills/migrate-to-promptscript && curl -sL \"https://raw.githubusercontent.com/mrwogu/promptscript/main/.github/skills/migrate-to-promptscript/SKILL.md\" > .claude/skills/migrate-to-promptscript/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mrwogu/promptscript/main/.github/skills/migrate-to-promptscript/SKILL.md"

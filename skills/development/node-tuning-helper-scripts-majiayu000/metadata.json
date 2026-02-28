@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "843d88e7855492db6db5f8077efa3c47cbc1b3d917183c6c01b3e8f26e7210fd",
   "indexed_at": "2026-02-26T14:26:18.218Z",
-  "synced_at": "2026-02-27T02:35:38.036Z",
+  "synced_at": "2026-02-28T04:03:08.818Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/99d0d66f61a0528176bdd84ebbb2275aa4faea8e660d28d8314c8bbf9550cef6",
   "install_command": "mkdir -p .claude/skills/node-tuning-helper-scripts && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/node-tuning-helper-scripts/SKILL.md\" > .claude/skills/node-tuning-helper-scripts/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/node-tuning-helper-scripts/SKILL.md"

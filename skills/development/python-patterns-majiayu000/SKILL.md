@@ -1,10 +1,12 @@
 ---
 name: python-patterns
-description: Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying.
-allowed-tools: Read, Write, Edit, Glob, Grep
+description: Python development principles and decision-making. Framework selection,
+  async patterns, type hints, project structure. Teaches thinking, not copying.
 ---
 
 # Python Patterns
+
+> **💡 MCP Tool Available**: Use **Context7**, **Tavily**, **BraveSearch**, or **Serper.dev** first; only if those fail, use **WebSearch** or **WebFetch** as needed.
 
 > Python development principles and decision-making for 2025.
 > **Learn to THINK, not memorize patterns.**
@@ -126,6 +128,7 @@ Can skip:
 ### Common Type Patterns
 
 ```python
+
 # These are patterns, understand them:
 
 # Optional → might be None
@@ -294,6 +297,7 @@ Benefits:
 ### Pydantic v2 Integration
 
 ```python
+
 # FastAPI + Pydantic are tightly integrated:
 
 # Request validation
@@ -303,6 +307,7 @@ async def create(user: UserCreate) -> UserResponse:
     ...
 
 # Response serialization
+
 # Return type becomes response schema
 ```
 
@@ -381,6 +386,7 @@ Include:
 ### Async Testing
 
 ```python
+
 # Use pytest-asyncio for async tests
 
 import pytest
@@ -388,7 +394,7 @@ from httpx import AsyncClient
 
 @pytest.mark.asyncio
 async def test_endpoint():
-    async with AsyncClient(app=app, base_url="http://test") as client:
+    async with AsyncClient(app=app, base_url=" as client:
         response = await client.get("/users")
         assert response.status_code == 200
 ```

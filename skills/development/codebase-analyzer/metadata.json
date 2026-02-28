@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cf8b31c24ec63474d0d16681a7a00bf58143dcbbf8b1b6977a1d6fb8d10ac107",
   "indexed_at": "2026-02-26T08:56:49.793Z",
-  "synced_at": "2026-02-27T02:35:15.813Z",
+  "synced_at": "2026-02-28T04:02:47.766Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e7b01d5e61935cf4cfba9fda22bbb6c372cdfa578f8e87d7b4705418ddb79d56",
   "install_command": "mkdir -p .claude/skills/codebase-analyzer && curl -sL \"https://raw.githubusercontent.com/JuniYadi/claude-code/main/super-dev/skills/codebase-analyzer/SKILL.md\" > .claude/skills/codebase-analyzer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/JuniYadi/claude-code/main/super-dev/skills/codebase-analyzer/SKILL.md"

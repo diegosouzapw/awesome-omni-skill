@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1003dccb703ec3279bfe892087d72630cb9945b2fffd20ce1ad891794f9867b5",
   "indexed_at": "2026-02-26T11:34:44.361Z",
-  "synced_at": "2026-02-27T02:34:37.572Z",
+  "synced_at": "2026-02-28T04:02:03.395Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/baf07927d605d9d8a1fe492dbf6c8adde6e5fdda74834c60a003e85d64f37ff4",
   "install_command": "mkdir -p .claude/skills/app-builder && curl -sL \"https://raw.githubusercontent.com/gensart-projs/cp-kit/main/packages/cp-toolkit/templates/skills/app-builder/SKILL.md\" > .claude/skills/app-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/gensart-projs/cp-kit/main/packages/cp-toolkit/templates/skills/app-builder/SKILL.md"

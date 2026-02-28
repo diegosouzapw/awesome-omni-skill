@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cc43753ee901ceb572e12a2671eaa5b5b2edbdafc6c4aa6910d97c3848177692",
   "indexed_at": "2026-02-26T23:31:00.064Z",
-  "synced_at": "2026-02-27T02:34:44.329Z",
+  "synced_at": "2026-02-28T04:02:13.022Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e89daabee11ea1f73c3c405f255d9c513f34b7869da0c46b3a43a5f8c3877a92",
   "install_command": "mkdir -p .claude/skills/hive-endpoint && curl -sL \"https://raw.githubusercontent.com/paralect/hive/main/starter/.cursor/skills/hive-endpoint/SKILL.md\" > .claude/skills/hive-endpoint/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/paralect/hive/main/starter/.cursor/skills/hive-endpoint/SKILL.md"

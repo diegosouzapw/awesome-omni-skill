@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cdad34a7a1b4868625e64c650ca89d1b74e40e43376f8f5d013fa9f749fd6a8c",
   "indexed_at": "2026-02-26T05:56:41.985Z",
-  "synced_at": "2026-02-27T02:34:58.999Z",
+  "synced_at": "2026-02-28T04:02:31.836Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/002a302560f081412b016da22e59c6f46c8e2bc9cce25b89ebabe8e34761ca54",
   "install_command": "mkdir -p .claude/skills/database-architect && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/rmyndharis/antigravity-skills/database-architect/SKILL.md\" > .claude/skills/database-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/rmyndharis/antigravity-skills/database-architect/SKILL.md"

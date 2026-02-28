@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "32829f89c5178772b62ffbd72bec71ab8c056a2446ff33efbcf8bf0d8080fdee",
   "indexed_at": "2026-02-26T12:24:33.100Z",
-  "synced_at": "2026-02-27T02:35:32.415Z",
+  "synced_at": "2026-02-28T04:03:03.588Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/09dc4137d1a7af1b9de1f6d036a4d2b955cde189deca44eb1638314f73020d68",
   "install_command": "mkdir -p .claude/skills/create-auth-skill && curl -sL \"https://raw.githubusercontent.com/LucaNerlich/ai-rules-skills/main/skills/Create Auth Skill/SKILL.md\" > .claude/skills/create-auth-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/LucaNerlich/ai-rules-skills/main/skills/Create Auth Skill/SKILL.md"

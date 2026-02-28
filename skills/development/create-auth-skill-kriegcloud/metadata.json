@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5b1de6f6d8ec3ef669014a0efb2a9be87c54f8095c0f4214e511f3bb3fbc5710",
   "indexed_at": "2026-02-26T12:23:51.851Z",
-  "synced_at": "2026-02-27T02:35:32.063Z",
+  "synced_at": "2026-02-28T04:03:03.224Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d3fd0ff5da14809cae021f1e38c1f5ae8c15fc045de4d2f7c782e398b0233991",
   "install_command": "mkdir -p .claude/skills/create-auth-skill && curl -sL \"https://raw.githubusercontent.com/kriegcloud/beep-effect/main/.repos/beep-effect/.cursor/skills/Create Auth Skill/SKILL.md\" > .claude/skills/create-auth-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kriegcloud/beep-effect/main/.repos/beep-effect/.cursor/skills/Create Auth Skill/SKILL.md"

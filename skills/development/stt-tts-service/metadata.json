@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "da3cca2714931c240bbb3d3b73ae453065e68c926c90d633b3f46f2dd63946e0",
   "indexed_at": "2026-02-26T06:30:44.765Z",
-  "synced_at": "2026-02-27T02:34:27.599Z",
+  "synced_at": "2026-02-28T04:01:59.868Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e6603a6f09b1cafcf96f27fbdd80a76f8e21b317e55bd662326cf8d456473805",
   "install_command": "mkdir -p .claude/skills/stt-tts-service && curl -sL \"https://raw.githubusercontent.com/CHRISILDAVID/openclaw-stt-tts/main/SKILL.md\" > .claude/skills/stt-tts-service/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/CHRISILDAVID/openclaw-stt-tts/main/SKILL.md"

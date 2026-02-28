@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f30cf7f4a64e4485f935d7b322577c084f8253089b0130b2053d9554dae9967f",
   "indexed_at": "2026-02-25T12:48:24.733Z",
-  "synced_at": "2026-02-27T02:34:45.190Z",
+  "synced_at": "2026-02-28T04:02:18.713Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0e30034b4daf69d2c4b4f58dc7f0d7e0447a06e229c258ad01f8f02c7bf9406c",
   "install_command": "mkdir -p .claude/skills/android-use && curl -sL \"https://raw.githubusercontent.com/shehbajdhillon/android-use/main/SKILL.md\" > .claude/skills/android-use/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/shehbajdhillon/android-use/main/SKILL.md"

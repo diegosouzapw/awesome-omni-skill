@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4f2400432cb03c8c435578e829202a177ac2e92d35dbb3db476532c955d85c1e",
   "indexed_at": "2026-02-26T22:38:36.390Z",
-  "synced_at": "2026-02-27T02:34:43.360Z",
+  "synced_at": "2026-02-28T04:02:12.116Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/319edf42396d7e71068014d31e2f24d7638c0d35c1f6e675a003bb77a64d689e",
   "install_command": "mkdir -p .claude/skills/kafka-development-practices && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/kafka-development-practices/SKILL.md\" > .claude/skills/kafka-development-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/kafka-development-practices/SKILL.md"

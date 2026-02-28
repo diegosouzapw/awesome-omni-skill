@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9e440ca30e7ee057d2f3c8f3db7e3fd12ccf8584172847120ea9d078bf479dd3",
   "indexed_at": "2026-02-26T11:41:07.121Z",
-  "synced_at": "2026-02-27T02:35:25.988Z",
+  "synced_at": "2026-02-28T04:02:57.520Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7adc21b5e87cc81fa50c61f031422c35ec7c714140fe915855d5b5a28af526f3",
   "install_command": "mkdir -p .claude/skills/database-optimizer && curl -sL \"https://raw.githubusercontent.com/Superesty/unified-ag-kit/main/library/skills/database-optimizer/SKILL.md\" > .claude/skills/database-optimizer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Superesty/unified-ag-kit/main/library/skills/database-optimizer/SKILL.md"

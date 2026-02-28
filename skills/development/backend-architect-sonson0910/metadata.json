@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c6553290b2caf5de113b8c370d1969a9979b8f1c1762aac5a7db403c79694bf4",
   "indexed_at": "2026-02-26T05:48:19.202Z",
-  "synced_at": "2026-02-27T02:34:56.493Z",
+  "synced_at": "2026-02-28T04:02:29.551Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/102c5038b2cc21689df071b1e6c4232d3089a479803334fe5ce04a622d14a15a",
   "install_command": "mkdir -p .claude/skills/backend-architect && curl -sL \"https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/backend-architect/SKILL.md\" > .claude/skills/backend-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/backend-architect/SKILL.md"

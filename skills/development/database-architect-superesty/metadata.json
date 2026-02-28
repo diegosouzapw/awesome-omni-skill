@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "16b29b97cf711fe682f5144187bf07edbb371541cdf9f3fb786646afff39c0f5",
   "indexed_at": "2026-02-26T11:41:22.196Z",
-  "synced_at": "2026-02-27T02:35:27.411Z",
+  "synced_at": "2026-02-28T04:02:58.750Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f566ec9e8c1b3e5e4cc16536d37432679e58999f3c48692eb1ecc6b86919bce7",
   "install_command": "mkdir -p .claude/skills/database-architect && curl -sL \"https://raw.githubusercontent.com/Superesty/unified-ag-kit/main/library/skills/database-architect/SKILL.md\" > .claude/skills/database-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Superesty/unified-ag-kit/main/library/skills/database-architect/SKILL.md"

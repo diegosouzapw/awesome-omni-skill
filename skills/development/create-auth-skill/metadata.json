@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a64c23ac281ff7da3fca028cb50338e18b2759b2cb19a48c22b97632907cfb01",
   "indexed_at": "2026-02-26T08:53:22.861Z",
-  "synced_at": "2026-02-27T02:35:13.905Z",
+  "synced_at": "2026-02-28T04:02:45.857Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5253207cb90c728c483b007a2d13a5a7c01e5fd56b1f88edd3a14f92419f261b",
   "install_command": "mkdir -p .claude/skills/create-auth-skill && curl -sL \"https://raw.githubusercontent.com/husamql3/pstrack/main/.agents/skills/create-auth-skill/SKILL.md\" > .claude/skills/create-auth-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/husamql3/pstrack/main/.agents/skills/create-auth-skill/SKILL.md"

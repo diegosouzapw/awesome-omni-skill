@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2dd6d488170b15e8cb27e2addae3b42b8dedd54d8ddba40a080d451f7f6aff98",
   "indexed_at": "2026-02-26T08:48:49.867Z",
-  "synced_at": "2026-02-27T02:35:12.454Z",
+  "synced_at": "2026-02-28T04:02:44.671Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/928a917f5db6b362f94a5e48802b2b73757a96714f1a527ddce701d02f448ddf",
   "install_command": "mkdir -p .claude/skills/database-optimizer && curl -sL \"https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/database-optimizer/SKILL.md\" > .claude/skills/database-optimizer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/database-optimizer/SKILL.md"

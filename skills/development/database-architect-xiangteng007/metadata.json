@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d52ce60cf7dfdd8489723070c97f2e8241657425c3958109bc8d589428122d7a",
   "indexed_at": "2026-02-26T11:41:20.587Z",
-  "synced_at": "2026-02-27T02:35:26.938Z",
+  "synced_at": "2026-02-28T04:02:58.404Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/11df9d6030cabfdbe066ec7e6d174338e8108c92b0702e88e708e20ece65085c",
   "install_command": "mkdir -p .claude/skills/database-architect && curl -sL \"https://raw.githubusercontent.com/xiangteng007/XXT-AGENT/main/.claude/skills/database-architect/SKILL.md\" > .claude/skills/database-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/xiangteng007/XXT-AGENT/main/.claude/skills/database-architect/SKILL.md"

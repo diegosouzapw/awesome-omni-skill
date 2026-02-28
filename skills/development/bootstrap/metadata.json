@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6b6eaccde01bd85e625b18f742f84c43180c98b9921581ca7cfaf50df6c1f05e",
   "indexed_at": "2026-02-26T18:36:13.039Z",
-  "synced_at": "2026-02-27T02:35:39.439Z",
+  "synced_at": "2026-02-28T04:03:10.209Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1a639a50b94181597e122b6234d9c3f49000ece78cacf4b017b9a369c8ee3530",
   "install_command": "mkdir -p .claude/skills/bootstrap && curl -sL \"https://raw.githubusercontent.com/NeonTowel/oh-my-taskfiles/main/dotfiles/crush/skills/bootstrap/SKILL.md\" > .claude/skills/bootstrap/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeonTowel/oh-my-taskfiles/main/dotfiles/crush/skills/bootstrap/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fef8def459b15997da3ec22cc6ed52276cb5271d6412ab54a0902ef64f2d8a58",
   "indexed_at": "2026-02-26T11:41:19.798Z",
-  "synced_at": "2026-02-27T02:35:26.768Z",
+  "synced_at": "2026-02-28T04:02:58.235Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/34baca5d37b84a8227180324cd21640a1351b2a121484fe6b5af29f8136b1e28",
   "install_command": "mkdir -p .claude/skills/database-architect && curl -sL \"https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/database-architect/SKILL.md\" > .claude/skills/database-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/database-architect/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8c691639d9a7561130b22839297dbe6ff31b70231c7ffbde5bd3f9243c30cc79",
   "indexed_at": "2026-02-26T12:21:56.243Z",
-  "synced_at": "2026-02-27T02:35:30.052Z",
+  "synced_at": "2026-02-28T04:03:01.234Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9faa5ce326e915b79d78005a7380f6758a5bc307042cf0571b525869056be77c",
   "install_command": "mkdir -p .claude/skills/architecture-diagram && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/architecture-diagram/SKILL.md\" > .claude/skills/architecture-diagram/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/architecture-diagram/SKILL.md"

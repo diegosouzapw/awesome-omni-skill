@@ -3,8 +3,8 @@
   "description": "Expert backend architect specializing in scalable API design,",
   "category": "development",
   "canonical_category": "development",
-  "repository": "corsal2025/TESIS-MAGISTER-",
-  "repository_url": "https://github.com/corsal2025/TESIS-MAGISTER-",
+  "repository": "corsal2025/NUTRI-AGENDA2026",
+  "repository_url": "https://github.com/corsal2025/NUTRI-AGENDA2026",
   "author": "corsal2025",
   "author_avatar": "https://github.com/corsal2025.png",
   "file_path": ".agent/skills/backend-architect/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "778ed89dbd059852f1c18699754742846be7a73775d97ec0a1536e5f814fa0ba",
-  "indexed_at": "2026-02-26T05:48:20.746Z",
-  "synced_at": "2026-02-27T02:34:56.700Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f2fcd51b578effbd278c6fedd97a620d5515f5aade177dfe674c5fa190f14a7b",
-  "install_command": "mkdir -p .claude/skills/backend-architect && curl -sL \"https://raw.githubusercontent.com/corsal2025/TESIS-MAGISTER-/main/.agent/skills/backend-architect/SKILL.md\" > .claude/skills/backend-architect/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/corsal2025/TESIS-MAGISTER-/main/.agent/skills/backend-architect/SKILL.md"
+  "content_hash": "711bfa24e2489dde5bd01071e1913eba03ee443dbb02c66e8e2aecf499d11c2a",
+  "indexed_at": "2026-02-27T06:52:44.179Z",
+  "synced_at": "2026-02-28T04:03:15.830Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bef7f37bd58a13d96819fcd394b4a481f92839fe5c7469ce5ee5a9350f9b3607",
+  "install_command": "mkdir -p .claude/skills/backend-architect && curl -sL \"https://raw.githubusercontent.com/corsal2025/NUTRI-AGENDA2026/main/.agent/skills/backend-architect/SKILL.md\" > .claude/skills/backend-architect/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/corsal2025/NUTRI-AGENDA2026/main/.agent/skills/backend-architect/SKILL.md"
 }

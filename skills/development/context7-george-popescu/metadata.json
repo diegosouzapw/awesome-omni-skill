@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cdb9aba96883ed3e1085613116027b7a3af4b421df436112b81396e4e17a91d4",
   "indexed_at": "2026-02-26T12:23:39.470Z",
-  "synced_at": "2026-02-27T02:35:31.537Z",
+  "synced_at": "2026-02-28T04:03:02.713Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f883262d96c9f6514a3172b220b980114f2e66308aaf6745b08b29cd08db1c44",
   "install_command": "mkdir -p .claude/skills/context7 && curl -sL \"https://raw.githubusercontent.com/george-popescu/bee-dev/main/plugins/bee/skills/context7/SKILL.md\" > .claude/skills/context7/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/george-popescu/bee-dev/main/plugins/bee/skills/context7/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1c50efd61c2de96fbb616bf49dd6378b3f8491d74c108932954ceed9d504cb66",
   "indexed_at": "2026-02-26T22:39:11.677Z",
-  "synced_at": "2026-02-27T02:34:43.918Z",
+  "synced_at": "2026-02-28T04:02:12.640Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e39989a72e9a9226a3b5cfd8f9adab189942f35b810abdb66ef8759818e06428",
   "install_command": "mkdir -p .claude/skills/n-1-query-detection && curl -sL \"https://raw.githubusercontent.com/cdalsoniii/brightpath-coder/main/.cursor/skills/n-plus-1-query-detection/SKILL.md\" > .claude/skills/n-1-query-detection/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cdalsoniii/brightpath-coder/main/.cursor/skills/n-plus-1-query-detection/SKILL.md"

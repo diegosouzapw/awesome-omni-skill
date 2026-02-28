@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d72fd0c05f657c88ed174484b3446ef614893084dc021dd334db005d1d17319b",
   "indexed_at": "2026-02-26T10:46:11.962Z",
-  "synced_at": "2026-02-27T02:35:17.941Z",
+  "synced_at": "2026-02-28T04:02:49.793Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/37eb25b10e4a1341f52bec35717fa9b1420c45301b9505e8152a95d1bd14ea4a",
   "install_command": "mkdir -p .claude/skills/perplexity-search && curl -sL \"https://raw.githubusercontent.com/parcadei/Continuous-Claude-v3/main/.claude/skills/perplexity-search/SKILL.md\" > .claude/skills/perplexity-search/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/parcadei/Continuous-Claude-v3/main/.claude/skills/perplexity-search/SKILL.md"

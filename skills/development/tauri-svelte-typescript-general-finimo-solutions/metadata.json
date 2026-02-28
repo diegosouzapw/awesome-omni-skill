@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aeef6f6fbd1a5998ea775c708ea738afb476933229ebaeb61804c726330924d8",
   "indexed_at": "2026-02-26T22:34:20.161Z",
-  "synced_at": "2026-02-27T02:34:42.651Z",
+  "synced_at": "2026-02-28T04:02:11.462Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/87090939ceb7e2e4d3e6ce80e2ec0027c138e0164f9df6cdb93029e219799645",
   "install_command": "mkdir -p .claude/skills/tauri-svelte-typescript-general && curl -sL \"https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/tauri-svelte-typescript-general/SKILL.md\" > .claude/skills/tauri-svelte-typescript-general/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Finimo-Solutions/research/main/multi-agent-worktree/agent-studio/.claude/skills/tauri-svelte-typescript-general/SKILL.md"

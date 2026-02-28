@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "df58e504828334d0879ae807e926bc173af2925ebfff3ef95cba75cb59cf3974",
   "indexed_at": "2026-02-26T12:22:58.035Z",
-  "synced_at": "2026-02-27T02:35:31.006Z",
+  "synced_at": "2026-02-28T04:03:02.175Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1aaca79192b95f4b49779bbb7f0f8cc741d87e33745b5d42ffd65ee2f34fe787",
   "install_command": "mkdir -p .claude/skills/context-detection && curl -sL \"https://raw.githubusercontent.com/jovermier/cc-stack-marketplace/main/plugins/skillsmp/skills/context-detection/SKILL.md\" > .claude/skills/context-detection/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jovermier/cc-stack-marketplace/main/plugins/skillsmp/skills/context-detection/SKILL.md"

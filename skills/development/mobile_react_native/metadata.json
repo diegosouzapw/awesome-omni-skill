@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7027c29438754decc0251d518998109b534ceae6d88f21d073802b127fadadbb",
   "indexed_at": "2026-02-26T06:55:02.430Z",
-  "synced_at": "2026-02-27T02:35:01.037Z",
+  "synced_at": "2026-02-28T04:02:33.660Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d3e9d7a11161de2cb8826a61e21c50116f116a3ece84eb223029b727a90c2828",
   "install_command": "mkdir -p .claude/skills/mobile_react_native && curl -sL \"https://raw.githubusercontent.com/vuralserhat86/antigravity-agentic-skills/main/skills/mobile_react_native/SKILL.md\" > .claude/skills/mobile_react_native/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/vuralserhat86/antigravity-agentic-skills/main/skills/mobile_react_native/SKILL.md"

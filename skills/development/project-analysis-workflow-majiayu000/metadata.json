@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "17da0a323a4f6aa29d11f6556a06f95bd3aa07984f5f8a4aa91829fc25748052",
   "indexed_at": "2026-02-26T12:22:54.627Z",
-  "synced_at": "2026-02-27T02:35:30.628Z",
+  "synced_at": "2026-02-28T04:03:01.800Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ac9528eedbc45dfa5f76242c4d55a3ae9e9b9ecbb7bf10dc5d4a44ef356c788a",
   "install_command": "mkdir -p .claude/skills/project-analysis-workflow && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/pop-analyze-project/SKILL.md\" > .claude/skills/project-analysis-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/pop-analyze-project/SKILL.md"

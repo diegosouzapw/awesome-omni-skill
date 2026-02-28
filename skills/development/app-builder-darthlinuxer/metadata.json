@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e7f82a7fa43bb108055b9ed21374c7bbfa07c33e71ee67a56faea7c47b3eafc8",
   "indexed_at": "2026-02-26T12:23:48.504Z",
-  "synced_at": "2026-02-27T02:35:31.887Z",
+  "synced_at": "2026-02-28T04:03:03.059Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/417aee6bf548e8ef30e1bf9934ee2e05cc301ae81d5b919f3c349afa00b9405e",
   "install_command": "mkdir -p .claude/skills/app-builder && curl -sL \"https://raw.githubusercontent.com/darthlinuxer/Agentic-Skills/main/.cursor/skills/app-builder/SKILL.md\" > .claude/skills/app-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/darthlinuxer/Agentic-Skills/main/.cursor/skills/app-builder/SKILL.md"

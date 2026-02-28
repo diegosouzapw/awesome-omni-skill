@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1f355f97bf653d139758c75e8b71728486e7af6ab157d6ea89a4027087884008",
   "indexed_at": "2026-02-26T18:39:50.824Z",
-  "synced_at": "2026-02-27T02:35:40.364Z",
+  "synced_at": "2026-02-28T04:03:11.116Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4a18efd855c2885711e2e518c94f14bb050494f5abc4139d5264bed4d387ae27",
   "install_command": "mkdir -p .claude/skills/anysystem-design && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/freedomw1987/anysystem-design-skill/anysystem-design/SKILL.md\" > .claude/skills/anysystem-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/freedomw1987/anysystem-design-skill/anysystem-design/SKILL.md"

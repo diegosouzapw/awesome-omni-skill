@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "934eda75dd804a5500ddb48e7de8aecb046b21eba4f64fb1153577e34bc1f352",
   "indexed_at": "2026-02-26T22:36:12.591Z",
-  "synced_at": "2026-02-27T02:34:43.015Z",
+  "synced_at": "2026-02-28T04:02:11.782Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bc1847cbd5e85b73e76c272b8ad143a303d49ec304da0f793d364ea7ab748433",
   "install_command": "mkdir -p .claude/skills/report-development && curl -sL \"https://raw.githubusercontent.com/havmedia/odoo-boost/main/src/odoo_boost/skills/report_development/SKILL.md\" > .claude/skills/report-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/havmedia/odoo-boost/main/src/odoo_boost/skills/report_development/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4ea6abc92600150ab6988f8f2bb5df23c43cf263bfb689e8f55fc6745c980981",
   "indexed_at": "2026-02-26T10:45:26.702Z",
-  "synced_at": "2026-02-27T02:35:17.568Z",
+  "synced_at": "2026-02-28T04:02:49.451Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/962fff4ae93dbddce44a7cab5522565e80265f6935300dce4098f0aa7ee8016e",
   "install_command": "mkdir -p .claude/skills/apify && curl -sL \"https://raw.githubusercontent.com/gsarmaonline/nvim/main/claude/skills/apify/SKILL.md\" > .claude/skills/apify/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/gsarmaonline/nvim/main/claude/skills/apify/SKILL.md"

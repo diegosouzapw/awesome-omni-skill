@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "072a2b65216358642a1212b1ac8c58af3d0d7cc70a8fbd4fe8c2e75e17a3deba",
   "indexed_at": "2026-02-25T15:12:14.552Z",
-  "synced_at": "2026-02-27T02:34:48.158Z",
+  "synced_at": "2026-02-28T04:02:21.629Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/775a4832ccf97aaae879aba5437d89ba338f901f55bfbfb56185fbf5a7c9567e",
   "install_command": "mkdir -p .claude/skills/lyriccraft && curl -sL \"https://raw.githubusercontent.com/Spidy88/suno-claude-skill/main/skills/lyriccraft/SKILL.md\" > .claude/skills/lyriccraft/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Spidy88/suno-claude-skill/main/skills/lyriccraft/SKILL.md"

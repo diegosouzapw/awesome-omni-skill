@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dd3440fc32f8e32ceedd155b20e9827c808973344621bade52f8893ec547f237",
   "indexed_at": "2026-02-25T15:55:04.022Z",
-  "synced_at": "2026-02-27T02:34:48.679Z",
+  "synced_at": "2026-02-28T04:02:22.162Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dc43aabd3c3cf6331f347a7baf6ca12ebfac5ed4ba721a83ae30729158c74c43",
   "install_command": "mkdir -p .claude/skills/ask-question && curl -sL \"https://raw.githubusercontent.com/johnnymo87/workstation/main/assets/opencode/skills/ask-question/SKILL.md\" > .claude/skills/ask-question/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/johnnymo87/workstation/main/assets/opencode/skills/ask-question/SKILL.md"

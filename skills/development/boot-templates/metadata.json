@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fb77bcb3faeccf4333c002ba1494c9eccef8cce40705e06763b787661ce8e4f2",
   "indexed_at": "2026-02-26T12:21:36.862Z",
-  "synced_at": "2026-02-27T02:35:28.867Z",
+  "synced_at": "2026-02-28T04:03:00.143Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3bac5e4b9b78d0f528a2be9ed4b69e2d46b94e35a66bd17f9cbae3789181c66a",
   "install_command": "mkdir -p .claude/skills/boot-templates && curl -sL \"https://raw.githubusercontent.com/kirklin/skills/main/skills/boot-templates/SKILL.md\" > .claude/skills/boot-templates/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kirklin/skills/main/skills/boot-templates/SKILL.md"

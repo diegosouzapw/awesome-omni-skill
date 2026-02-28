@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7a32fbea10f36ed248bc6851b3a6fa2ca972ed59d1f99c17aeb70357b9de3da3",
   "indexed_at": "2026-02-25T12:52:10.096Z",
-  "synced_at": "2026-02-27T02:34:46.011Z",
+  "synced_at": "2026-02-28T04:02:19.453Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f6f1029b0af748b05df6d9d8e47ae296affee877c3872b890cb21b4f86112b5f",
   "install_command": "mkdir -p .claude/skills/delight && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/open-horizon-labs/impeccable/delight/SKILL.md\" > .claude/skills/delight/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/open-horizon-labs/impeccable/delight/SKILL.md"

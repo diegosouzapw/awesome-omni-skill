@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "57453e87362fa3a874b02cb373c5791f8af70afc644ba23a302024f3bf4fd3e8",
   "indexed_at": "2026-02-26T05:47:18.572Z",
-  "synced_at": "2026-02-27T02:34:55.675Z",
+  "synced_at": "2026-02-28T04:02:28.788Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/824a43d6cf736c5cc17354e5bc323d58a3f26318378021ba5b6fba874588b160",
   "install_command": "mkdir -p .claude/skills/pinchwork && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/anneschuth/pinchwork/SKILL.md\" > .claude/skills/pinchwork/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/anneschuth/pinchwork/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7567a7fbbaf5ff6e0d6c5b9692b7353b247540cb9859c545e7bf7f97438819cf",
   "indexed_at": "2026-02-26T11:40:23.186Z",
-  "synced_at": "2026-02-27T02:35:25.136Z",
+  "synced_at": "2026-02-28T04:02:56.694Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/68a4dc4cfd99cdabf99c8c09003ca4d1181460e00662f1b6499a34fdecadafce",
   "install_command": "mkdir -p .claude/skills/database-architect && curl -sL \"https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/database-architect/SKILL.md\" > .claude/skills/database-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sonson0910/moderntensor/main/my-skills/database-architect/SKILL.md"

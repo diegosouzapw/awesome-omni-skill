@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3452c135b228e6526147425cf62c45427210faddc6921afd0e480ed7ef50d176",
   "indexed_at": "2026-02-26T08:48:13.955Z",
-  "synced_at": "2026-02-27T02:35:11.537Z",
+  "synced_at": "2026-02-28T04:02:43.663Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/df4b83f6b72266ab65100ba3a4cf0514f7365c8922ed1a75069c0ed919f9e202",
   "install_command": "mkdir -p .claude/skills/create-spring-boot-kotlin-project && curl -sL \"https://raw.githubusercontent.com/Gabeujin/workspace-init-mcp/main/awesome/skills/create-spring-boot-kotlin-project/SKILL.md\" > .claude/skills/create-spring-boot-kotlin-project/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Gabeujin/workspace-init-mcp/main/awesome/skills/create-spring-boot-kotlin-project/SKILL.md"

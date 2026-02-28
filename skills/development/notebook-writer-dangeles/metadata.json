@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "135588617fef5d7b8e12cbc40b1ab81fd8db8171adcb713f595c01f04f48704b",
   "indexed_at": "2026-02-26T18:39:07.135Z",
-  "synced_at": "2026-02-27T02:35:40.032Z",
+  "synced_at": "2026-02-28T04:03:10.800Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8fcdae0d1ec27c7ec2374160d87265731ffd2d7fee9c6401c427d6549f6af759",
   "install_command": "mkdir -p .claude/skills/notebook-writer && curl -sL \"https://raw.githubusercontent.com/dangeles/claude/main/claude-config/skills/notebook-writer/SKILL.md\" > .claude/skills/notebook-writer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dangeles/claude/main/claude-config/skills/notebook-writer/SKILL.md"

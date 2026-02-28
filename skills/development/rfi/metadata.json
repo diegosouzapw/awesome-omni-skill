@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5402b6a4d61f210a4e686a904f7bc2a0d9c361a073013a0f9fd6c95e5bdc497f",
   "indexed_at": "2026-02-25T12:50:10.577Z",
-  "synced_at": "2026-02-27T02:34:45.855Z",
+  "synced_at": "2026-02-28T04:02:19.299Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3610d8915c5657a8fbbf818e560560bfa4603fe55e5a53270770b0f967b9fa1e",
   "install_command": "mkdir -p .claude/skills/rfi && curl -sL \"https://raw.githubusercontent.com/chestnutforty/sdk-rfi/main/skills/sdk-rfi/SKILL.md\" > .claude/skills/rfi/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chestnutforty/sdk-rfi/main/skills/sdk-rfi/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "797afe486b1cf2c103c4ec56889f3555ddf726682d5727b0c727f895c8a9d837",
   "indexed_at": "2026-02-26T05:50:08.451Z",
-  "synced_at": "2026-02-27T02:34:57.418Z",
+  "synced_at": "2026-02-28T04:02:30.420Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4058717291822ae205eba36d0214221a78821cf6b27ab73dbd377d3f2231c006",
   "install_command": "mkdir -p .claude/skills/code-repository-intel && curl -sL \"https://raw.githubusercontent.com/transilienceai/communitytools/main/projects/techstack_identification/.claude/skills/code_repository_intel/SKILL.md\" > .claude/skills/code-repository-intel/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/transilienceai/communitytools/main/projects/techstack_identification/.claude/skills/code_repository_intel/SKILL.md"

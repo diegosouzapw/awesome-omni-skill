@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "772b84179aae5ace670c86f24a0efb485440e2e95b098a9db74a3e32358aaa3f",
   "indexed_at": "2026-02-26T11:31:57.831Z",
-  "synced_at": "2026-02-27T02:34:37.406Z",
+  "synced_at": "2026-02-28T04:02:03.231Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/68cc7cc8a4d6fa0c5c502aa3f9592c5d1d47516cdb3b113e03ee875d5d8d53d2",
   "install_command": "mkdir -p .claude/skills/dev-coding && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/codihaus/claude-skills/dev-coding/SKILL.md\" > .claude/skills/dev-coding/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/codihaus/claude-skills/dev-coding/SKILL.md"

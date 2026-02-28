@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "02510d9106f5d8acf7171e548af35caafb662bba784880094caf4cc288f7e1b5",
   "indexed_at": "2026-02-26T06:50:45.673Z",
-  "synced_at": "2026-02-27T02:35:00.346Z",
+  "synced_at": "2026-02-28T04:02:32.997Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9e858d4f994232b1d9f65c9859e8c2a9acc1c7bb954f54c3cb9638922cd6a3e4",
   "install_command": "mkdir -p .claude/skills/web-artifacts-builder && curl -sL \"https://raw.githubusercontent.com/SpencerGeee/SpenTrade/main/.agent/skills/web-artifacts-builder/SKILL.md\" > .claude/skills/web-artifacts-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/SpencerGeee/SpenTrade/main/.agent/skills/web-artifacts-builder/SKILL.md"

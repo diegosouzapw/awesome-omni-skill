@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "81c389b4841c7cc603c21c2f0593b3d396cd5e06a77f26834d0be6fff454e99a",
   "indexed_at": "2026-02-26T12:24:33.949Z",
-  "synced_at": "2026-02-27T02:35:32.570Z",
+  "synced_at": "2026-02-28T04:03:03.768Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e96c1dbb91380b930308cd4106872120e3b3158dc5c2f9ae4890047de0385730",
   "install_command": "mkdir -p .claude/skills/create-auth-skill && curl -sL \"https://raw.githubusercontent.com/kosei-w90607/RigLab/main/.claude/skills/Create Auth Skill/SKILL.md\" > .claude/skills/create-auth-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kosei-w90607/RigLab/main/.claude/skills/Create Auth Skill/SKILL.md"

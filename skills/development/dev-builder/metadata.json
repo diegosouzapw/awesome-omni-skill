@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0001246c3b10c0adda05c3d0445a3f62458f354c89bb1e72d82a7ec1b2e0285b",
   "indexed_at": "2026-02-26T10:51:45.091Z",
-  "synced_at": "2026-02-27T02:35:20.768Z",
+  "synced_at": "2026-02-28T04:02:52.329Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2ea55c79174c871d2ab5443747d6226af0c063105bc6ad47b97d3a315f932525",
   "install_command": "mkdir -p .claude/skills/dev-builder && curl -sL \"https://raw.githubusercontent.com/zinohome/CozyEngine/main/.github/skills/dev-builder/SKILL.md\" > .claude/skills/dev-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zinohome/CozyEngine/main/.github/skills/dev-builder/SKILL.md"

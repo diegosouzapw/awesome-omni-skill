@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5d2dab2ff24253219a0b52dacb4106b82fbb05115ef7e2dbc0d6625889bb521f",
   "indexed_at": "2026-02-26T07:50:24.751Z",
-  "synced_at": "2026-02-27T02:35:04.064Z",
+  "synced_at": "2026-02-28T04:02:37.104Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a95380c591daba6e6a0f3f333b66a9278ed6dd1ee1619c2ff8ede39e24e170bd",
   "install_command": "mkdir -p .claude/skills/api-tester && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/curiouslearner/devkit/api-tester/SKILL.md\" > .claude/skills/api-tester/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/curiouslearner/devkit/api-tester/SKILL.md"

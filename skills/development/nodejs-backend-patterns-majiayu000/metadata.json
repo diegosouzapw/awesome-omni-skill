@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9cee0a2f028f16a99bcf75db79187dda3fdce8af12a51203d5c39db78b81a058",
   "indexed_at": "2026-02-26T05:49:12.377Z",
-  "synced_at": "2026-02-27T02:34:57.183Z",
+  "synced_at": "2026-02-28T04:02:30.179Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a09aeb41b50bd945b4c57864bb72d8a4c04e123584d3a5f2912638fed5ccf1e9",
   "install_command": "mkdir -p .claude/skills/nodejs-backend-patterns && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/nodejs-backend-patterns-juarezroncalli-ferramentas/SKILL.md\" > .claude/skills/nodejs-backend-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/nodejs-backend-patterns-juarezroncalli-ferramentas/SKILL.md"

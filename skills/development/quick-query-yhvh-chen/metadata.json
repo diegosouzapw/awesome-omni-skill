@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "94e58a44fff35783a73276e76b5218c2ff82b9b038bcf482d1f4b6e152f5ad7c",
   "indexed_at": "2026-02-25T13:07:51.571Z",
-  "synced_at": "2026-02-27T02:34:46.367Z",
+  "synced_at": "2026-02-28T04:02:19.816Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aecabff90e946cb7636e578bd472c952f03e6a3e6fc798c5f19f182a3ec8e796",
   "install_command": "mkdir -p .claude/skills/quick-query && curl -sL \"https://raw.githubusercontent.com/yhvh-chen/Olav/main/.olav/skills/quick-query/SKILL.md\" > .claude/skills/quick-query/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yhvh-chen/Olav/main/.olav/skills/quick-query/SKILL.md"

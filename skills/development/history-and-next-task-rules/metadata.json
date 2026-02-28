@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "391ddaa4f8cb74a9df0a12c2f81867905cb7e051bf24d462253c5ba66aa7a79c",
   "indexed_at": "2026-02-26T15:22:43.991Z",
-  "synced_at": "2026-02-27T02:34:41.554Z",
+  "synced_at": "2026-02-28T04:02:09.208Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f43ee28121d6ddb059ffd7edf9ac8cd186ecce286f07d95a56abfbef49e3e267",
   "install_command": "mkdir -p .claude/skills/history-and-next-task-rules && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/history-and-next-task-rules/SKILL.md\" > .claude/skills/history-and-next-task-rules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/history-and-next-task-rules/SKILL.md"

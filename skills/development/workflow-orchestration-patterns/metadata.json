@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d0b7a3fc1929629a3fa4692f6a030f9a0eec942d80b6b917e0b30e4a276d41f1",
   "indexed_at": "2026-02-26T14:20:47.308Z",
-  "synced_at": "2026-02-27T02:35:37.088Z",
+  "synced_at": "2026-02-28T04:03:07.933Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/20d8b02906b8e1b0a5b486ec2cfdd21fd65638cc37aae9c43398e3c16751e88a",
   "install_command": "mkdir -p .claude/skills/workflow-orchestration-patterns && curl -sL \"https://raw.githubusercontent.com/mattmre/EVOKORE-MCP/main/SKILLS/WSHOBSON PLUGINS/backend-development/workflow-orchestration-patterns/SKILL.md\" > .claude/skills/workflow-orchestration-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattmre/EVOKORE-MCP/main/SKILLS/WSHOBSON PLUGINS/backend-development/workflow-orchestration-patterns/SKILL.md"

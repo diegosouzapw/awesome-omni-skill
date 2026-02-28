@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "95be74deaa42e3bebb51809a32e85738acd46617dbc8fbc054e22f5e2dd3ef7f",
   "indexed_at": "2026-02-26T04:24:41.614Z",
-  "synced_at": "2026-02-27T02:34:53.521Z",
+  "synced_at": "2026-02-28T04:02:26.670Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d30d34fb94270fa9183dee7f0e415c77cc302946a3b83fdcf96a0af6b0fbb57d",
   "install_command": "mkdir -p .claude/skills/create-ticket && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/create-ticket-qmu-workaholic/SKILL.md\" > .claude/skills/create-ticket/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/create-ticket-qmu-workaholic/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9c248703cdcf2d0ffbcb3b523d04931e3a38e868175cff7bc5e22988ecfd7a1d",
   "indexed_at": "2026-02-26T05:47:29.928Z",
-  "synced_at": "2026-02-27T02:34:25.430Z",
+  "synced_at": "2026-02-28T04:01:58.907Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/65c400114a8b610c1e00f92d10f56576a3fa211fdd1bf6edf6a90c7c9d1b5f0c",
   "install_command": "mkdir -p .claude/skills/backend-architect && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/baotoq/agent-skills/backend-architect/SKILL.md\" > .claude/skills/backend-architect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/baotoq/agent-skills/backend-architect/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ae1950446954bdfaff7c614e4d8889e0282b046172e420e29d2bce8bf841f8a9",
   "indexed_at": "2026-02-26T10:50:22.915Z",
-  "synced_at": "2026-02-27T02:34:36.674Z",
+  "synced_at": "2026-02-28T04:02:02.420Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bab3207feaa4198fc8a1c054dbcabf07ad8cbf65e4fb5ebf7a1737c9d6747537",
   "install_command": "mkdir -p .claude/skills/python-backend-guidelines && curl -sL \"https://raw.githubusercontent.com/imehr/vet/main/.claude/skills/python-backend-guidelines/SKILL.md\" > .claude/skills/python-backend-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/imehr/vet/main/.claude/skills/python-backend-guidelines/SKILL.md"

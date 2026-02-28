@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e63c6a1405f2f1f255f0bc1e70f433c388c8bf71988b86bcd5362f99316c6236",
   "indexed_at": "2026-02-26T12:24:51.523Z",
-  "synced_at": "2026-02-27T02:35:33.115Z",
+  "synced_at": "2026-02-28T04:03:04.389Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/95d9d41ec336570a53e8dcf84b590ff16eb1deeca3f977a337a2c202ff3d3812",
   "install_command": "mkdir -p .claude/skills/create-auth-skill && curl -sL \"https://raw.githubusercontent.com/ThinkEx-OSS/thinkex/main/.agent/skills/create-auth-skill/SKILL.md\" > .claude/skills/create-auth-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ThinkEx-OSS/thinkex/main/.agent/skills/create-auth-skill/SKILL.md"

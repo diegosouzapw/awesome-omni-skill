@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "05e87a1c4b1d2a411c632ebfdf5937404b399614cfe9bbd95cb56dd1814b928d",
   "indexed_at": "2026-02-26T08:48:03.275Z",
-  "synced_at": "2026-02-27T02:35:10.440Z",
+  "synced_at": "2026-02-28T04:02:42.809Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5bb4ae98f337015156b018bac9211af59861366191c7e369258a439300d37274",
   "install_command": "mkdir -p .claude/skills/create-spring-boot-java-project && curl -sL \"https://raw.githubusercontent.com/Gabeujin/workspace-init-mcp/main/awesome/skills/create-spring-boot-java-project/SKILL.md\" > .claude/skills/create-spring-boot-java-project/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Gabeujin/workspace-init-mcp/main/awesome/skills/create-spring-boot-java-project/SKILL.md"

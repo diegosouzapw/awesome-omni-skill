@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8d25ad7b829eeefbcc81494f84746445fd9a51c0bffe4c5e755018ee6402bf95",
   "indexed_at": "2026-02-25T15:46:41.014Z",
-  "synced_at": "2026-02-27T02:34:48.319Z",
+  "synced_at": "2026-02-28T04:02:21.794Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/379268ac8c94599b659156ac8fedfd7e211dcdf4c6cc5127e1a25a3433258c61",
   "install_command": "mkdir -p .claude/skills/sockethub && curl -sL \"https://raw.githubusercontent.com/lachthox/the-sorting-vault/main/LanguageSpecific/SockethubSkill/SKILL.md\" > .claude/skills/sockethub/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lachthox/the-sorting-vault/main/LanguageSpecific/SockethubSkill/SKILL.md"

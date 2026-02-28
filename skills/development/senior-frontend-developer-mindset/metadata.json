@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "31c11c950f85c5838431324ee2bfe2e0b39caa6d68f3874e6903f611081c2055",
   "indexed_at": "2026-02-26T22:38:42.202Z",
-  "synced_at": "2026-02-27T02:34:43.532Z",
+  "synced_at": "2026-02-28T04:02:12.270Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/27ea2bf8e87718f56afcd15e80f0ae5b5b466bc9adc4ee9262960843d3d815f1",
   "install_command": "mkdir -p .claude/skills/senior-frontend-developer-mindset && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/senior-frontend-developer-mindset/SKILL.md\" > .claude/skills/senior-frontend-developer-mindset/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/senior-frontend-developer-mindset/SKILL.md"

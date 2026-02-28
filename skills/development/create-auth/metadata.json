@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e03b1f0501c8fb461194e159db573941f70df5d1f5a7efcee48b3b05cb8c519a",
   "indexed_at": "2026-02-26T12:23:41.978Z",
-  "synced_at": "2026-02-27T02:35:31.713Z",
+  "synced_at": "2026-02-28T04:03:02.895Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1c9c697af44c42ae5efbb2ce95795000c8bf4b1f8d323372341ddf97785e8e3b",
   "install_command": "mkdir -p .claude/skills/create-auth && curl -sL \"https://raw.githubusercontent.com/Microck/opendots-microck/main/skills/create-auth/SKILL.md\" > .claude/skills/create-auth/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Microck/opendots-microck/main/skills/create-auth/SKILL.md"

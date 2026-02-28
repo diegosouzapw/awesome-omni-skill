@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c143665fa88ea227b1eaa688ef28b47eddc2386ad6aa0bad7ca58440f415f6f4",
   "indexed_at": "2026-02-26T12:24:34.803Z",
-  "synced_at": "2026-02-27T02:35:32.752Z",
+  "synced_at": "2026-02-28T04:03:03.941Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2a907367eaa061519cbe223f63c8d202718c9f49bcdece01d740685232394ef4",
   "install_command": "mkdir -p .claude/skills/create-auth-skill && curl -sL \"https://raw.githubusercontent.com/hasparus/claude-skills-dotfiles/main/Create Auth Skill/SKILL.md\" > .claude/skills/create-auth-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hasparus/claude-skills-dotfiles/main/Create Auth Skill/SKILL.md"

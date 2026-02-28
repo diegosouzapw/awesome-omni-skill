@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c15a7e18961d6ab8f7fabb3b0b09fe897093ad75ce2fb40b1c61fe289e7cecf5",
   "indexed_at": "2026-02-26T06:50:43.995Z",
-  "synced_at": "2026-02-27T02:35:00.179Z",
+  "synced_at": "2026-02-28T04:02:32.832Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1af3f51789b8191bf42a5af941f81746575a28ed580fc5220dba6f5d2727879b",
   "install_command": "mkdir -p .claude/skills/web-artifacts-builder && curl -sL \"https://raw.githubusercontent.com/nkhcloud/exclude/main/.agent/skills/web-artifacts-builder/SKILL.md\" > .claude/skills/web-artifacts-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nkhcloud/exclude/main/.agent/skills/web-artifacts-builder/SKILL.md"

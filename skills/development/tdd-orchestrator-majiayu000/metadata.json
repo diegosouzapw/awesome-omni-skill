@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eb2f24426c932a270c11b02e182eca36f423ec904b3d6e1c265559ed33739b6d",
   "indexed_at": "2026-02-26T14:20:15.582Z",
-  "synced_at": "2026-02-27T02:35:36.686Z",
+  "synced_at": "2026-02-28T04:03:07.536Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/000a4541ff833bbbc4cdae00a8f1cd11adb3a94bd14abe6d417e2a75826b24e2",
   "install_command": "mkdir -p .claude/skills/tdd-orchestrator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/tdd-orchestrator/SKILL.md\" > .claude/skills/tdd-orchestrator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/tdd-orchestrator/SKILL.md"

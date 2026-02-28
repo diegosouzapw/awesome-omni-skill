@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry-data",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "other/other/impl/SKILL.md",
+  "file_path": "development/impl/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "c2dd898f85953d4d64c69a675a60f9181e0907200c909d23dcf1b980f29125e9",
-  "indexed_at": "2026-02-26T23:34:12.693Z",
-  "synced_at": "2026-02-28T03:59:53.045Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8e36dd95e54b208961e91ca5dd913970f39d40fb566c9e8f031e815c29286fb5",
-  "install_command": "mkdir -p .claude/skills/impl && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/impl/SKILL.md\" > .claude/skills/impl/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/impl/SKILL.md"
+  "content_hash": "ca000b635b0d38ea860375b3a9f17e69d55b68e6d065119c27284804c3671885",
+  "indexed_at": "2026-02-27T23:22:55.647Z",
+  "synced_at": "2026-02-28T04:01:53.719Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/750a4e02ff9f20cb5c532b29fa906129b564f8c5ce6f72c07e105fd31eb6ba0a",
+  "install_command": "mkdir -p .claude/skills/impl && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/impl/SKILL.md\" > .claude/skills/impl/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/impl/SKILL.md"
 }

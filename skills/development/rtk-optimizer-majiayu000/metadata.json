@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a3a9dbe43122709f9e79894697ad8c18116c345cb6e242d5da343cc72c1b65c1",
   "indexed_at": "2026-02-25T15:08:18.028Z",
-  "synced_at": "2026-02-27T02:34:24.294Z",
+  "synced_at": "2026-02-28T04:01:57.980Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9a25080179b7849d3989b2644287727076b5d13ff95ccc3994ccd4d06ae661e8",
   "install_command": "mkdir -p .claude/skills/rtk-optimizer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/rtk-optimizer/SKILL.md\" > .claude/skills/rtk-optimizer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/rtk-optimizer/SKILL.md"

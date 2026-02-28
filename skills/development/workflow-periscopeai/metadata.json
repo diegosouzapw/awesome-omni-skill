@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c85d0fbb15022f825db41e71267e8da885789d3f5567ba1e9fb8fb8e72768ee9",
   "indexed_at": "2026-02-26T14:17:13.701Z",
-  "synced_at": "2026-02-27T02:35:35.871Z",
+  "synced_at": "2026-02-28T04:03:06.854Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f7e58c63ab7dbd597685e4d141a49f3e0371bd4b331c4400509686f38dcbbece",
   "install_command": "mkdir -p .claude/skills/workflow && curl -sL \"https://raw.githubusercontent.com/PeriscopeAI/periscope-claude-template/main/.claude/skills/workflow/SKILL.md\" > .claude/skills/workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/PeriscopeAI/periscope-claude-template/main/.claude/skills/workflow/SKILL.md"

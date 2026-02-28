@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b9a0ceae52e68fe883bb1f9b5f12e0a869ce4c1ee00ecc1782ad48654c9dca37",
   "indexed_at": "2026-02-26T12:56:57.339Z",
-  "synced_at": "2026-02-27T02:35:35.327Z",
+  "synced_at": "2026-02-28T04:03:06.335Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4fdcf2c1eb0203ae2cf360147d030bee08d86b6cf31ba766aff4fbf87158ce33",
   "install_command": "mkdir -p .claude/skills/digest && curl -sL \"https://raw.githubusercontent.com/thekevinscott/digest/main/SKILL.md\" > .claude/skills/digest/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/thekevinscott/digest/main/SKILL.md"

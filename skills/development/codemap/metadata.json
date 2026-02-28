@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "29103e0206e585234a1daaf50e73d209a77dfce58df4a0ffb6dfe5faf9a06a0d",
   "indexed_at": "2026-02-25T13:50:43.365Z",
-  "synced_at": "2026-02-27T02:34:46.739Z",
+  "synced_at": "2026-02-28T04:02:20.206Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0e33aa18abe231c242de53b5388f22d141a9de0870cce9cc21b6d3c41ae172de",
   "install_command": "mkdir -p .claude/skills/codemap && curl -sL \"https://raw.githubusercontent.com/Dwsy/codemap/main/SKILL.md\" > .claude/skills/codemap/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Dwsy/codemap/main/SKILL.md"

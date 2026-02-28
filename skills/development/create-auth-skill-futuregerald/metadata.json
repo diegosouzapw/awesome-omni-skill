@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f610b27aad1ad8fecb836aac99c402d86a5fbf8063d5181650470423953edf56",
   "indexed_at": "2026-02-26T12:21:42.033Z",
-  "synced_at": "2026-02-27T02:35:29.037Z",
+  "synced_at": "2026-02-28T04:03:00.306Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/53eec71a1c2e938fa7aee1927d06b6a275eb320c9fb0f97b3c6c8fb68b9ea0f6",
   "install_command": "mkdir -p .claude/skills/create-auth-skill && curl -sL \"https://raw.githubusercontent.com/futuregerald/futuregerald-claude-plugin/main/skills/create-auth-skill/SKILL.md\" > .claude/skills/create-auth-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/futuregerald/futuregerald-claude-plugin/main/skills/create-auth-skill/SKILL.md"

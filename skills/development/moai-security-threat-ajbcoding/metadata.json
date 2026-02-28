@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "05589457d3b7e178cec22677749a1ebee01f7d6da7961c55b84a7e85a4970295",
   "indexed_at": "2026-02-26T11:38:22.936Z",
-  "synced_at": "2026-02-27T02:34:37.972Z",
+  "synced_at": "2026-02-28T04:02:03.793Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0be14b13e7103e4008319d3466898a753c00305d4df7fc8995bd45671a736571",
   "install_command": "mkdir -p .claude/skills/moai-security-threat && curl -sL \"https://raw.githubusercontent.com/AJBcoding/claude-skill-eval/main/skills/moai-security-threat/SKILL.md\" > .claude/skills/moai-security-threat/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AJBcoding/claude-skill-eval/main/skills/moai-security-threat/SKILL.md"

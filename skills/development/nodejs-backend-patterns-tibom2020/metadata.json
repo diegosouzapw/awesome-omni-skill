@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cd30ba1c2195a01829fcd8cc55d1e0586babcfb77e391dad0a730a26c0b24df3",
   "indexed_at": "2026-02-26T05:46:29.086Z",
-  "synced_at": "2026-02-27T02:34:54.646Z",
+  "synced_at": "2026-02-28T04:02:27.700Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c765495ff9adf5b47eff48d2410e8348bf909064ea115d1f7d26d3db056aa4c6",
   "install_command": "mkdir -p .claude/skills/nodejs-backend-patterns && curl -sL \"https://raw.githubusercontent.com/tibom2020/form-orderes-product-v2/main/.agent/skills/nodejs-backend-patterns/SKILL.md\" > .claude/skills/nodejs-backend-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tibom2020/form-orderes-product-v2/main/.agent/skills/nodejs-backend-patterns/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8f74600a0754716cc69702e82de8d366118f1d9aefa6bfa3f2dc706642e64890",
   "indexed_at": "2026-02-26T17:36:42.088Z",
-  "synced_at": "2026-02-27T02:34:40.127Z",
+  "synced_at": "2026-02-28T04:02:05.041Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6085966d02df0da2c4389d98403fce4cb9ac3c9dd955e4f6261ba0d3b9108bce",
   "install_command": "mkdir -p .claude/skills/appium-mobile-testing && curl -sL \"https://raw.githubusercontent.com/omarrohit20/ui_automation/main/.github/copilot-instructions/appium-mobile/SKILL.md\" > .claude/skills/appium-mobile-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/omarrohit20/ui_automation/main/.github/copilot-instructions/appium-mobile/SKILL.md"

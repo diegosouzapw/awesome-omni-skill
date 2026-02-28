@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "13f77b43cd9df93e5d626cc8699aedeadf25b2645951d3d7b9b14d99b6c56411",
   "indexed_at": "2026-02-26T08:55:44.766Z",
-  "synced_at": "2026-02-27T02:35:15.594Z",
+  "synced_at": "2026-02-28T04:02:47.539Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d785dedcef2b689fe158a83f5e1300875f3a028364c05d107b812f058f84a7d6",
   "install_command": "mkdir -p .claude/skills/ln-774-healthcheck-setup && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/levn-ln-774-healthcheck-setup/SKILL.md\" > .claude/skills/ln-774-healthcheck-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/levn-ln-774-healthcheck-setup/SKILL.md"

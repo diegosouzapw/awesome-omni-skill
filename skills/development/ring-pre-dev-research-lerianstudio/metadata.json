@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "faa33461ecc5e5b7cbb20bbbdf4db3f1d3ec2716ed00fa76ac50225d0b4fef0d",
   "indexed_at": "2026-02-26T12:21:16.541Z",
-  "synced_at": "2026-02-27T02:35:28.684Z",
+  "synced_at": "2026-02-28T04:02:59.964Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1fdeca99138c2f2d93962a12d767f13a9899966021f976f26e241297a2e6401b",
   "install_command": "mkdir -p .claude/skills/ring-pre-dev-research && curl -sL \"https://raw.githubusercontent.com/LerianStudio/ring-for-opencode/main/assets/skill/pre-dev-research/SKILL.md\" > .claude/skills/ring-pre-dev-research/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/LerianStudio/ring-for-opencode/main/assets/skill/pre-dev-research/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "37c219066c9eb6720043f949830b4ea784fdd9c36ff678510797202e20343e27",
   "indexed_at": "2026-02-26T07:46:19.059Z",
-  "synced_at": "2026-02-27T02:35:02.106Z",
+  "synced_at": "2026-02-28T04:02:34.721Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/42e0d011332901a3f4b443c51847b651515b3bf705ab1c9235047b02000d051b",
   "install_command": "mkdir -p .claude/skills/api-design && curl -sL \"https://raw.githubusercontent.com/enact-on/super-ai-github/main/.opencode/skill/api-design/SKILL.md\" > .claude/skills/api-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/enact-on/super-ai-github/main/.opencode/skill/api-design/SKILL.md"

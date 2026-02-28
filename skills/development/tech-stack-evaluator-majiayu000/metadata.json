@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ad289f9ba4dde1d991f0de92a4dc50f153dedc6c286eedc3cc8b8bb2ac8a92ab",
   "indexed_at": "2026-02-26T10:52:42.854Z",
-  "synced_at": "2026-02-27T02:35:21.245Z",
+  "synced_at": "2026-02-28T04:02:52.814Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/15f6b401a33142f4e5ddccf0bf113682321ebe4017cef78f2685a761b2c84c88",
   "install_command": "mkdir -p .claude/skills/tech-stack-evaluator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/tech-stack-evaluator-matteocervelli-llms/SKILL.md\" > .claude/skills/tech-stack-evaluator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/tech-stack-evaluator-matteocervelli-llms/SKILL.md"

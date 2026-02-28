@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b8c1d9998c27b13a866188086d0396447c047c90840a2c3418c5274343af42a4",
   "indexed_at": "2026-02-25T12:47:39.274Z",
-  "synced_at": "2026-02-27T02:34:45.031Z",
+  "synced_at": "2026-02-28T04:02:18.543Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a902b76be43529b4e4d4d9200e381628dc883cd5d4f7033d94dfc7a26c7253ec",
   "install_command": "mkdir -p .claude/skills/ui-skills && curl -sL \"https://raw.githubusercontent.com/michaelshimeles/ui-agent-constraints/main/SKILL.md\" > .claude/skills/ui-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/michaelshimeles/ui-agent-constraints/main/SKILL.md"

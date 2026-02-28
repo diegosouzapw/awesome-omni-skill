@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a6a58c30e290b1ebb048dc2f612dedf57af7606454cc0e56fa290ed341e8a329",
   "indexed_at": "2026-02-26T11:56:46.378Z",
-  "synced_at": "2026-02-27T02:35:27.941Z",
+  "synced_at": "2026-02-28T04:02:59.244Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0398421e1cf1d8183188342ecbf29b31a36cd1321d07e31f17dfe6ae54877729",
   "install_command": "mkdir -p .claude/skills/bootstrap-phase-workflow && curl -sL \"https://raw.githubusercontent.com/mathonsunday/phase-workflow/main/SKILL.md\" > .claude/skills/bootstrap-phase-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mathonsunday/phase-workflow/main/SKILL.md"

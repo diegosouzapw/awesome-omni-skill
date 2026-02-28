@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aecd48e8e3081d259a140e0759cadd28cbc4b2c68990d6e912c79783e3b5a80c",
   "indexed_at": "2026-02-26T13:20:54.061Z",
-  "synced_at": "2026-02-27T02:35:35.682Z",
+  "synced_at": "2026-02-28T04:03:06.669Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7d8939ade879c6fba6405067a9074fb7d2f447a31fa0fb9400a1244fc24528cb",
   "install_command": "mkdir -p .claude/skills/react && curl -sL \"https://raw.githubusercontent.com/hk-vk/skills/main/registry/react/SKILL.md\" > .claude/skills/react/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hk-vk/skills/main/registry/react/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ce56fcc99b39d558e9b4c31f4b7b79584181d8f5cd7263884ef3f22c4e2cb81a",
   "indexed_at": "2026-02-26T22:38:32.807Z",
-  "synced_at": "2026-02-27T02:34:43.191Z",
+  "synced_at": "2026-02-28T04:02:11.958Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6b36519680bbdf38678372472ed33194026625a0dccfd848f74e363bff0ed955",
   "install_command": "mkdir -p .claude/skills/convex-development-general && curl -sL \"https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/convex-development-general/SKILL.md\" > .claude/skills/convex-development-general/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/oimiragieo/agent-studio/main/.claude/skills/_archive/dead/convex-development-general/SKILL.md"

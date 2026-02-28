@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3f7c017a02d947d18d4a981ba32b888db7ed2070e30683c7098c37ff880054f0",
   "indexed_at": "2026-02-26T08:54:51.603Z",
-  "synced_at": "2026-02-27T02:35:15.428Z",
+  "synced_at": "2026-02-28T04:02:47.373Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/57ccff3d89d62bc8e60823de701995039bda80bf63256558606771436814f59f",
   "install_command": "mkdir -p .claude/skills/review-changes && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/duc01226/easyplatform/review-changes/SKILL.md\" > .claude/skills/review-changes/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/duc01226/easyplatform/review-changes/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3344863e1cd4647d34e87480d0e9bde5be5426252ac53b63da9992f7db94b58d",
   "indexed_at": "2026-02-26T06:55:19.590Z",
-  "synced_at": "2026-02-27T02:35:01.184Z",
+  "synced_at": "2026-02-28T04:02:33.830Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b96140056ff37ce8e33b79c7a666faf0fdfd7e60d620be5e136d46d844fc64d5",
   "install_command": "mkdir -p .claude/skills/tech-advisor && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/tech-advisor/SKILL.md\" > .claude/skills/tech-advisor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/tech-advisor/SKILL.md"

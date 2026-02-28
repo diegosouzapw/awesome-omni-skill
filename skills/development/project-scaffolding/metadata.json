@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d16935b91dbd2dc9bfee2034292cd370be88e8e93a5700db51bf1bbd55595347",
   "indexed_at": "2026-02-26T07:55:21.235Z",
-  "synced_at": "2026-02-27T02:35:05.387Z",
+  "synced_at": "2026-02-28T04:02:38.450Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4f2c827efe8ecb52b133028f5429f688977ba5fe4cae7504c9018a05c9ebd724",
   "install_command": "mkdir -p .claude/skills/project-scaffolding && curl -sL \"https://raw.githubusercontent.com/seqis/OpenClaw-Skills-Converted-From-Claude-Code/main/skills_flat/project-scaffolding.SKILL.md/SKILL.md\" > .claude/skills/project-scaffolding/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/seqis/OpenClaw-Skills-Converted-From-Claude-Code/main/skills_flat/project-scaffolding.SKILL.md/SKILL.md"

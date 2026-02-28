@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "87f7c18c600dd5e20afedb7cf136acaec6cd4ddbc8a5fd621f5c3c078e2d87e1",
   "indexed_at": "2026-02-26T08:47:37.402Z",
-  "synced_at": "2026-02-27T02:35:08.920Z",
+  "synced_at": "2026-02-28T04:02:41.356Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/365f1a77526a5fde242a6787dd5fafc608134b604966f329a074cb8f4b4d3187",
   "install_command": "mkdir -p .claude/skills/database-connect && curl -sL \"https://raw.githubusercontent.com/manastalukdar/claude-devstudio/main/skills/database-connect/SKILL.md\" > .claude/skills/database-connect/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/manastalukdar/claude-devstudio/main/skills/database-connect/SKILL.md"

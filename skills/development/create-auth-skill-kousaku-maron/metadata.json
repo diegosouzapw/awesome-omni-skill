@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33e1b2e7834ff70b6b328369b413232dab1fee72468e5809d82b409b836478de",
   "indexed_at": "2026-02-26T12:25:38.749Z",
-  "synced_at": "2026-02-27T02:35:34.241Z",
+  "synced_at": "2026-02-28T04:03:05.313Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/809c56c849101ed6d331c540deab9a009d42e4c9d6c2d69fa1b78db9c7775216",
   "install_command": "mkdir -p .claude/skills/create-auth-skill && curl -sL \"https://raw.githubusercontent.com/kousaku-maron/astro-cloudflare-example/main/.agent/skills/create-auth-skill/SKILL.md\" > .claude/skills/create-auth-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kousaku-maron/astro-cloudflare-example/main/.agent/skills/create-auth-skill/SKILL.md"

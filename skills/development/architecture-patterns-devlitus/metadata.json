@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3e67a98d7605e008528bb46f5eaea18135b70cfcf6cc7d37940c91a5f6fd309b",
   "indexed_at": "2026-02-27T05:54:32.326Z",
-  "synced_at": "2026-02-27T13:13:53.664Z",
+  "synced_at": "2026-02-28T04:02:06.337Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dd94ab049af3c2cc7d9799fcad828e674a1a6aedb74066a65aaa276c72807a28",
   "install_command": "mkdir -p .claude/skills/architecture-patterns && curl -sL \"https://raw.githubusercontent.com/devlitus/queryBox/main/.agents/skills/architecture-patterns/SKILL.md\" > .claude/skills/architecture-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/devlitus/queryBox/main/.agents/skills/architecture-patterns/SKILL.md"

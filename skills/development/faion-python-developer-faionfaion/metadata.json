@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "be8cf0e89f89ddda6ebbf519ff24e8a16cbc83774780183791c63e4073669ce7",
   "indexed_at": "2026-02-26T10:47:45.255Z",
-  "synced_at": "2026-02-27T02:35:19.616Z",
+  "synced_at": "2026-02-28T04:02:51.247Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3a6e997a946bd6e097d092a4652359bfc08daa05750672faa50a2fca8fc4722a",
   "install_command": "mkdir -p .claude/skills/faion-python-developer && curl -sL \"https://raw.githubusercontent.com/faionfaion/faion-network/main/skills/faion-python-developer/SKILL.md\" > .claude/skills/faion-python-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/faionfaion/faion-network/main/skills/faion-python-developer/SKILL.md"

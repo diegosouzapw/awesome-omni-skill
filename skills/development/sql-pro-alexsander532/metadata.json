@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33d03f2ca480335638e390bbcd1c810277f9ca64bbb0bdd27eef89189bad5c6a",
   "indexed_at": "2026-02-26T08:47:44.919Z",
-  "synced_at": "2026-02-27T02:35:09.853Z",
+  "synced_at": "2026-02-28T04:02:42.278Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/806a86a502705028dfbf1af16cf6b0418131d1189f5584a3e0bd04b21258ef2c",
   "install_command": "mkdir -p .claude/skills/sql-pro && curl -sL \"https://raw.githubusercontent.com/Alexsander532/Atlas/main/skills_antigravity/skills/sql-pro/SKILL.md\" > .claude/skills/sql-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Alexsander532/Atlas/main/skills_antigravity/skills/sql-pro/SKILL.md"

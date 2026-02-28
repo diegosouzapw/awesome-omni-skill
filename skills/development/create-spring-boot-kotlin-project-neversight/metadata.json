@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7c8a0f7c13f045abf050b255e3f70a09bd2f8f7ac3f444ac7e09508152807745",
   "indexed_at": "2026-02-26T08:48:12.685Z",
-  "synced_at": "2026-02-27T02:35:11.380Z",
+  "synced_at": "2026-02-28T04:02:43.493Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5faa8ed8a58f63ff8e5a90e81371f81ff57258f54fdc98c72e23127e32105cb8",
   "install_command": "mkdir -p .claude/skills/create-spring-boot-kotlin-project && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/github/awesome-copilot/create-spring-boot-kotlin-project/SKILL.md\" > .claude/skills/create-spring-boot-kotlin-project/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/github/awesome-copilot/create-spring-boot-kotlin-project/SKILL.md"

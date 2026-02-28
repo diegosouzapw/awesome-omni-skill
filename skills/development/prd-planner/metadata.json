@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "71678e3f3b874bc70344445f83219dd3a9a97e4473589c082a180a46db2aecef",
   "indexed_at": "2026-02-26T06:48:28.244Z",
-  "synced_at": "2026-02-27T02:34:27.947Z",
+  "synced_at": "2026-02-28T04:02:00.049Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fd02b47a9a5a6b68e6a7d97397dc60aa65621d4faa9e7f227a343d66fa8dbaa3",
   "install_command": "mkdir -p .claude/skills/prd-planner && curl -sL \"https://raw.githubusercontent.com/msanssouci/opencode/main/skills/prd-planner/SKILL.md\" > .claude/skills/prd-planner/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/msanssouci/opencode/main/skills/prd-planner/SKILL.md"

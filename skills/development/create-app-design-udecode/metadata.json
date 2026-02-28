@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c32bf3ab1b8bc467d7c6c10ac22f83c59493538937ab643a4d74d7eaeb0ea611",
   "indexed_at": "2026-02-26T22:33:50.545Z",
-  "synced_at": "2026-02-27T02:35:41.425Z",
+  "synced_at": "2026-02-28T04:03:12.140Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c6b8472a38214a0907310a400383af762e6e87b4c7fd0346c70effa97b6c6c84",
   "install_command": "mkdir -p .claude/skills/create-app-design && curl -sL \"https://raw.githubusercontent.com/udecode/better-convex/main/.codex/skills/create-app-design/SKILL.md\" > .claude/skills/create-app-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/udecode/better-convex/main/.codex/skills/create-app-design/SKILL.md"

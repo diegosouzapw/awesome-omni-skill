@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3e8a1ccdbab024c96fd6b39afe9acac4ece2fd71f2dbf2d05de3a534b6f32585",
   "indexed_at": "2026-02-26T08:48:04.608Z",
-  "synced_at": "2026-02-27T02:35:10.614Z",
+  "synced_at": "2026-02-28T04:02:42.976Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/80779a7e3bde6b989d8af1ac91193ed18388454a0579de0c785f3a26e88f17fd",
   "install_command": "mkdir -p .claude/skills/create-spring-boot-java-project && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/skills/create-spring-boot-java-project/SKILL.md\" > .claude/skills/create-spring-boot-java-project/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/skills/create-spring-boot-java-project/SKILL.md"
