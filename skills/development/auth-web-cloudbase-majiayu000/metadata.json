@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "db0baa60454ffffeaa30ecb1514b354d019c95a53415958a39ca0443935f6ec9",
   "indexed_at": "2026-02-26T23:34:44.712Z",
-  "synced_at": "2026-02-27T02:34:18.519Z",
+  "synced_at": "2026-02-28T03:59:53.277Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ed9d099fe72b999e939255575d1f774590752c5a07b32c2fc9522ae4f256c788",
   "install_command": "mkdir -p .claude/skills/auth-web-cloudbase && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/auth-web-baiyongping-cowork-platform-4ebd59c6/SKILL.md\" > .claude/skills/auth-web-cloudbase/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/auth-web-baiyongping-cowork-platform-4ebd59c6/SKILL.md"

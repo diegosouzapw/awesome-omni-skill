@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4773407ef0131138c7287f76fe0997d3257d38216b17923f8284349b8882501a",
   "indexed_at": "2026-02-26T12:24:48.032Z",
-  "synced_at": "2026-02-27T02:33:09.076Z",
+  "synced_at": "2026-02-28T03:58:46.752Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/93e3b772dfaada45553624820fe23094cc0a553eb90e8cc19f26665871e276c9",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/preetam-90/Agrkserve/main/.agents/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/preetam-90/Agrkserve/main/.agents/skills/ui-ux-pro-max/SKILL.md"

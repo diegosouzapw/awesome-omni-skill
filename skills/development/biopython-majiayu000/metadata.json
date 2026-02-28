@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "97f05265778c3be84062df2918c8b23779067797cb5cea250600776a96ac2f22",
   "indexed_at": "2026-02-26T14:26:35.711Z",
-  "synced_at": "2026-02-27T02:33:38.294Z",
+  "synced_at": "2026-02-28T03:59:14.555Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/74f1969bbeb47ef46aebacec1a2567abc9be68da1ed331ed7a99aca9e2ee9a70",
   "install_command": "mkdir -p .claude/skills/biopython && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/biopython-aiskillstore-marketplace/SKILL.md\" > .claude/skills/biopython/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/biopython-aiskillstore-marketplace/SKILL.md"

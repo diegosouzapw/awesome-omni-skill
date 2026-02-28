@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7014d2b3e07ce0142ddd5f2608f3baabce1b2bde0e67d0839af7ebe0d3b2993d",
   "indexed_at": "2026-02-26T14:21:35.924Z",
-  "synced_at": "2026-02-27T02:33:34.301Z",
+  "synced_at": "2026-02-28T03:59:10.762Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ec36822fe8b069d8f103765c1ad23fccaf9ee6f16f97900f039c81ae33b1f4f2",
   "install_command": "mkdir -p .claude/skills/generate-qr-code-natively && curl -sL \"https://raw.githubusercontent.com/besoeasy/open-skills/main/skills/generate-qr-code-natively/SKILL.md\" > .claude/skills/generate-qr-code-natively/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/besoeasy/open-skills/main/skills/generate-qr-code-natively/SKILL.md"

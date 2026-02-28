@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "727bcf5a9b6cc3207f57587fe78648ba19d4bccec5d44d3adc4a962b6b707018",
   "indexed_at": "2026-02-26T18:35:37.514Z",
-  "synced_at": "2026-02-27T02:34:07.867Z",
+  "synced_at": "2026-02-28T03:59:42.663Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c09134b274867134d957a9bf5f5fe65ea907d22f0ede3bb0dd67d7153ecdc07e",
   "install_command": "mkdir -p .claude/skills/research-cog && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/nitishgargiitd/research-cog/SKILL.md\" > .claude/skills/research-cog/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nitishgargiitd/research-cog/SKILL.md"

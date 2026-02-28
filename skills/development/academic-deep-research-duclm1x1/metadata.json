@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "64941ad35536d5619c1450dc13ea2d48d5f265797d745c4ce88debe72e8b6a57",
   "indexed_at": "2026-02-26T18:35:23.636Z",
-  "synced_at": "2026-02-27T02:34:07.515Z",
+  "synced_at": "2026-02-28T03:59:42.333Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a88d03da27cee04b0070792c5c20a60b76b66c3cc0617f0ca9b66c9b7b8ce13b",
   "install_command": "mkdir -p .claude/skills/academic-deep-research && curl -sL \"https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/skills_library/search_research/academic-deep-research/SKILL.md\" > .claude/skills/academic-deep-research/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/skills_library/search_research/academic-deep-research/SKILL.md"

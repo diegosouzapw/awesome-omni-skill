@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9e19351ad62617220d48cd34aef3706950f6bc58f1fd1089aa8194def34f9f2f",
   "indexed_at": "2026-02-27T05:46:35.458Z",
-  "synced_at": "2026-02-27T13:13:12.805Z",
+  "synced_at": "2026-02-28T04:00:00.120Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/549ef33347c06b6cd0d125128c7bab424543fff1a0edbfd1d0a484b3b73edc81",
   "install_command": "mkdir -p .claude/skills/backend-dev-guidelines && curl -sL \"https://raw.githubusercontent.com/rootcastleco/rei-skills/main/skills/backend-dev-guidelines/SKILL.md\" > .claude/skills/backend-dev-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rootcastleco/rei-skills/main/skills/backend-dev-guidelines/SKILL.md"

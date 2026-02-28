@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0b166821fb32e43b4963347c0894a73d6db6baa58627071b7beedb7efa468a71",
   "indexed_at": "2026-02-27T05:49:32.391Z",
-  "synced_at": "2026-02-27T13:13:14.967Z",
+  "synced_at": "2026-02-28T04:00:03.857Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/678eac7c221c9f158153c147ab95d25846f37ab49ed63fca341db76d4242b849",
   "install_command": "mkdir -p .claude/skills/distributed-tracing && curl -sL \"https://raw.githubusercontent.com/Iowa51/ChartSparkOG/main/agent/skills/awesome/distributed-tracing/SKILL.md\" > .claude/skills/distributed-tracing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Iowa51/ChartSparkOG/main/agent/skills/awesome/distributed-tracing/SKILL.md"

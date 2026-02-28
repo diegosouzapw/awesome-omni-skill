@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "086f7060d86a995953fe0bbc1990da9913a4727b4a964283f8fce98b166d8553",
   "indexed_at": "2026-02-26T18:32:30.176Z",
-  "synced_at": "2026-02-27T02:34:03.938Z",
+  "synced_at": "2026-02-28T03:59:38.745Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/216540f150e0f223c2b02d5161af6b4bc16a306b76cfa1f1d0cf883868f585df",
   "install_command": "mkdir -p .claude/skills/copilot-tui-harness && curl -sL \"https://raw.githubusercontent.com/jim0thy/copilot-anvil/main/.agents/skills/copilot-tui-harness/SKILL.md\" > .claude/skills/copilot-tui-harness/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jim0thy/copilot-anvil/main/.agents/skills/copilot-tui-harness/SKILL.md"

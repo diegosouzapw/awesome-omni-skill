@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b659217f2ed9628ee6831a45167a0175e849c523940520cfe30e550a867b9392",
   "indexed_at": "2026-02-26T13:16:29.298Z",
-  "synced_at": "2026-02-27T02:33:19.546Z",
+  "synced_at": "2026-02-28T03:58:56.399Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7ff176827da7ca06a6a39b303447511461468dedde2077280a27c6aed12b236c",
   "install_command": "mkdir -p .claude/skills/webapp-testing && curl -sL \"https://raw.githubusercontent.com/Mohamedgad1983/PROShael/main/.claude/skills/webapp-testing/SKILL.md\" > .claude/skills/webapp-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Mohamedgad1983/PROShael/main/.claude/skills/webapp-testing/SKILL.md"

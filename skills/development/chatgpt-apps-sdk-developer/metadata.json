@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7a7310df99bf37c253d6462ece7f9f5ca889c9b764953d33c1fabb725f06ae96",
   "indexed_at": "2026-02-26T16:03:07.245Z",
-  "synced_at": "2026-02-27T02:33:48.710Z",
+  "synced_at": "2026-02-28T03:59:24.437Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a655e92571df890496561aa29a275a7e6c38b608952892198dff1a635467e20f",
   "install_command": "mkdir -p .claude/skills/chatgpt-apps-sdk-developer && curl -sL \"https://raw.githubusercontent.com/mashharuki/gpt-apps-sample/main/.trae/skills/chatgpt-apps-sdk-developer/SKILL.md\" > .claude/skills/chatgpt-apps-sdk-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mashharuki/gpt-apps-sample/main/.trae/skills/chatgpt-apps-sdk-developer/SKILL.md"

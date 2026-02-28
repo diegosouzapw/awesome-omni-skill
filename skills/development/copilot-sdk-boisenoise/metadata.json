@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9527f19714a62ba6a30325ae68e54b4900f584aecd14a1d9806f8f24934fb23d",
   "indexed_at": "2026-02-26T18:33:16.900Z",
-  "synced_at": "2026-02-27T02:34:04.980Z",
+  "synced_at": "2026-02-28T03:59:39.847Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5863c892d5c3708d1ba5e7f3e1e73dfaaedc8e4653ccec16f3232780055857d0",
   "install_command": "mkdir -p .claude/skills/copilot-sdk && curl -sL \"https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-copilot-sdk/SKILL.md\" > .claude/skills/copilot-sdk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/antigravity-copilot-sdk/SKILL.md"

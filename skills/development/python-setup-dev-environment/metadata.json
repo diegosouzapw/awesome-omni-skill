@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "16da5425f14f50de44f9c58ca5e6de2e8d81131fa908377b2f71b90f84e09e04",
   "indexed_at": "2026-02-26T14:22:41.583Z",
-  "synced_at": "2026-02-27T02:33:35.811Z",
+  "synced_at": "2026-02-28T03:59:12.130Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/31e8994ab4bf98f2720ce394e2018126d2c1bebf9f8de1e165b025aede0a98a0",
   "install_command": "mkdir -p .claude/skills/python-setup-dev-environment && curl -sL \"https://raw.githubusercontent.com/RyoMurakami1983/skills_repository/main/python/python-setup-dev-environment/SKILL.md\" > .claude/skills/python-setup-dev-environment/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/RyoMurakami1983/skills_repository/main/python/python-setup-dev-environment/SKILL.md"

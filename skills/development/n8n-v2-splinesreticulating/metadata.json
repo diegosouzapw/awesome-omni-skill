@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "491677f457684c8dc2cd1f6640fdedf5d85b879a6a097deeee6be7cda38ba8e3",
   "indexed_at": "2026-02-26T16:42:05.124Z",
-  "synced_at": "2026-02-27T02:33:57.900Z",
+  "synced_at": "2026-02-28T03:59:33.064Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/903f9570d8ea6640a3f2510077943419f1040c636d458983d7184b5c84e46e5d",
   "install_command": "mkdir -p .claude/skills/n8n-v2 && curl -sL \"https://raw.githubusercontent.com/splinesreticulating/n8n-v2-workflow-skill/main/SKILL.md\" > .claude/skills/n8n-v2/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/splinesreticulating/n8n-v2-workflow-skill/main/SKILL.md"

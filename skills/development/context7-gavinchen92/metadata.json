@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1e32cf394939543b024d3e00ce24361f2e36953a901cee398de1f393bdf3d8a5",
   "indexed_at": "2026-02-26T12:24:54.962Z",
-  "synced_at": "2026-02-27T02:33:09.995Z",
+  "synced_at": "2026-02-28T03:58:47.445Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/663f809fd327249f166302ad8d9f121c0e7264feb991f8f897013b7ade956937",
   "install_command": "mkdir -p .claude/skills/context7 && curl -sL \"https://raw.githubusercontent.com/Gavinchen92/skills/main/context7/SKILL.md\" > .claude/skills/context7/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Gavinchen92/skills/main/context7/SKILL.md"

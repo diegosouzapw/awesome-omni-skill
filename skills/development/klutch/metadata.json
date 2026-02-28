@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c72811bc8f2d3f1150aae9b9ffeac2a6b85176444f707bf7cec9b63877dba6fe",
   "indexed_at": "2026-02-26T12:54:36.569Z",
-  "synced_at": "2026-02-27T02:33:17.228Z",
+  "synced_at": "2026-02-28T03:58:54.003Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d534171da7946547ac4a9d6d85e9c81764dba4705e609d3ce7be4c8f12ebde66",
   "install_command": "mkdir -p .claude/skills/klutch && curl -sL \"https://raw.githubusercontent.com/kesslerio/klutch-agentic-credit-card-openclaw-skill/main/SKILL.md\" > .claude/skills/klutch/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kesslerio/klutch-agentic-credit-card-openclaw-skill/main/SKILL.md"

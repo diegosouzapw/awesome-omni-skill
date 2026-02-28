@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "03dbccdfe26d7364fa4b2c1f1821d17c11dae1a76eeafcaf8ad12d884dd66b27",
   "indexed_at": "2026-02-26T16:34:39.912Z",
-  "synced_at": "2026-02-27T02:33:52.198Z",
+  "synced_at": "2026-02-28T03:59:27.847Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dbea6747eed0bc8497f31d6c5724af52dc5492d8f35186e2ae11f1a257f721c6",
   "install_command": "mkdir -p .claude/skills/sandbox && curl -sL \"https://raw.githubusercontent.com/thrashr888/agentkernel/main/claude-plugin/.claude/skills/agentkernel/SKILL.md\" > .claude/skills/sandbox/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/thrashr888/agentkernel/main/claude-plugin/.claude/skills/agentkernel/SKILL.md"

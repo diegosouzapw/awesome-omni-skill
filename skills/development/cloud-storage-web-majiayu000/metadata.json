@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "880e81d9cfd0627f4eef9adbb423288d77cb85ea29ddbefb14dd1191ba7a8bd9",
   "indexed_at": "2026-02-26T23:34:05.365Z",
-  "synced_at": "2026-02-27T02:34:18.303Z",
+  "synced_at": "2026-02-28T03:59:51.680Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aa3878ce6176067aadfd034ab95fa1ce1b8f60a029bb948483ddab57e82bb4cb",
   "install_command": "mkdir -p .claude/skills/cloud-storage-web && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/cloud-storage-web/SKILL.md\" > .claude/skills/cloud-storage-web/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/cloud-storage-web/SKILL.md"

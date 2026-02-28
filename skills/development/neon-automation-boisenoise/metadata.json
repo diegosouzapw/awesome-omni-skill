@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e0aa6f72c4b894b2cabdcb5159924e509e9078aba4bb1ab4d30bcce8049d7a68",
   "indexed_at": "2026-02-26T14:19:46.223Z",
-  "synced_at": "2026-02-27T02:33:32.678Z",
+  "synced_at": "2026-02-28T03:59:09.080Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e6d61dc49f8f04aa348262d6952a8a12cb0934f2da2ca98cbf2c3e871c26f625",
   "install_command": "mkdir -p .claude/skills/neon-automation && curl -sL \"https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/composio-neon-automation/SKILL.md\" > .claude/skills/neon-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/composio-neon-automation/SKILL.md"

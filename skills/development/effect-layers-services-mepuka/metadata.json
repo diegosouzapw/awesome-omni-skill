@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6b2be309bdc1efe44409b7aa12a50921e922dc249c845472f7a9ee94a9cc9788",
   "indexed_at": "2026-02-26T16:38:22.293Z",
-  "synced_at": "2026-02-27T02:33:55.399Z",
+  "synced_at": "2026-02-28T03:59:30.746Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/385661822264433f466c3ead3341e80b77c244a98b0c1721143326ba63310075",
   "install_command": "mkdir -p .claude/skills/effect-layers-services && curl -sL \"https://raw.githubusercontent.com/mepuka/adjunct/main/.claude/skills/effect-layers-services/SKILL.md\" > .claude/skills/effect-layers-services/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mepuka/adjunct/main/.claude/skills/effect-layers-services/SKILL.md"

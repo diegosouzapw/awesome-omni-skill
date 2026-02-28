@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e9fccc5a16f967ab154473598698aeb40dcb7f413d8218ddd267ac86fd28290f",
   "indexed_at": "2026-02-27T05:53:40.061Z",
-  "synced_at": "2026-02-27T13:13:18.077Z",
+  "synced_at": "2026-02-28T04:00:09.422Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4684b2683291d5b24fa390c599856233ef162b2289cb455a491299e6c3beeb0e",
   "install_command": "mkdir -p .claude/skills/fullstack-expertise && curl -sL \"https://raw.githubusercontent.com/vineethsoma/agent-packages/main/skills/fullstack-expertise/SKILL.md\" > .claude/skills/fullstack-expertise/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/vineethsoma/agent-packages/main/skills/fullstack-expertise/SKILL.md"

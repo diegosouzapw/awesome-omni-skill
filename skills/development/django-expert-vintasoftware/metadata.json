@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9d6a04c81ad9f305032ce112f8d69b54184b0005d3687522fb4caefaeaca242e",
   "indexed_at": "2026-02-26T13:19:48.569Z",
-  "synced_at": "2026-02-27T02:33:22.525Z",
+  "synced_at": "2026-02-28T03:58:59.418Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/80bb33a90cb2db0d80f1ea09b1d630ef4e838c7bfaa711514352e2c95630eed8",
   "install_command": "mkdir -p .claude/skills/django-expert && curl -sL \"https://raw.githubusercontent.com/vintasoftware/django-ai-plugins/main/plugins/django-expert/skills/SKILL.md\" > .claude/skills/django-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/vintasoftware/django-ai-plugins/main/plugins/django-expert/skills/SKILL.md"

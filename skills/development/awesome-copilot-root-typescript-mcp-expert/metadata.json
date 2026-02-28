@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2406bc3967f9e33af5d5a391176e52f0992f06c721758b8de1290685e960f468",
   "indexed_at": "2026-02-26T18:36:45.527Z",
-  "synced_at": "2026-02-27T02:34:08.562Z",
+  "synced_at": "2026-02-28T03:59:43.240Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a8f806a38b10ae0985e080a759bb9642295512bdcfdb8f1067f88c47802ed842",
   "install_command": "mkdir -p .claude/skills/awesome-copilot-root-typescript-mcp-expert && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/awesome-copilot-root-codex-pack/.agents/skills/awesome-copilot-root-typescript-mcp-expert/SKILL.md\" > .claude/skills/awesome-copilot-root-typescript-mcp-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/awesome-copilot-root-codex-pack/.agents/skills/awesome-copilot-root-typescript-mcp-expert/SKILL.md"

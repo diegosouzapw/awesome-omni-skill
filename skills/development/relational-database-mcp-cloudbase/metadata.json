@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c4e6d914ed0eb42e05addda1f0f4b037449da1dcbea6c649e0a3ac0fe5656bc1",
   "indexed_at": "2026-02-26T23:33:33.880Z",
-  "synced_at": "2026-02-27T02:34:17.538Z",
+  "synced_at": "2026-02-28T03:59:50.949Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/20986ff3f0c61ff9b8ed65bd09276463da3b9cd7c2148b88a6ee3d2ee48141b9",
   "install_command": "mkdir -p .claude/skills/relational-database-mcp-cloudbase && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/relational-database-mcp-cloudbase/SKILL.md\" > .claude/skills/relational-database-mcp-cloudbase/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/relational-database-mcp-cloudbase/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "68b20b55fdaa69d7ee2eff0a0de9ed70449fb60f142ab2cef5df5e1aba05ffe3",
   "indexed_at": "2026-02-26T15:20:42.101Z",
-  "synced_at": "2026-02-27T02:33:42.728Z",
+  "synced_at": "2026-02-28T03:59:18.697Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dca9ac519bdf1db672ab9a6c158aff8341983a5abd8759e7c581f8d0f05ec2c9",
   "install_command": "mkdir -p .claude/skills/generating-n8n-workflows && curl -sL \"https://raw.githubusercontent.com/bhaumikgohel/Antigravity-SKILLS/main/.agent/skills/generating-n8n-workflows/SKILL.md\" > .claude/skills/generating-n8n-workflows/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/bhaumikgohel/Antigravity-SKILLS/main/.agent/skills/generating-n8n-workflows/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8a401fd3f50b023fce8e486dbd41ecd86c642638e1d2b5ef751e577d3e50c977",
   "indexed_at": "2026-02-26T17:31:35.804Z",
-  "synced_at": "2026-02-27T02:33:58.960Z",
+  "synced_at": "2026-02-28T03:59:34.091Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5d95a0a8d776e75ab2477f04cd1de8267ec5be3a9908e8ec1a939c1889e086b8",
   "install_command": "mkdir -p .claude/skills/setup-earl && curl -sL \"https://raw.githubusercontent.com/brwse/earl/main/skills/development/setup-earl/SKILL.md\" > .claude/skills/setup-earl/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/brwse/earl/main/skills/development/setup-earl/SKILL.md"

@@ -109,3 +109,9 @@ If you need to reproduce the same context later, re-run with the same prompt + `
 
 - Don’t attach secrets by default (`.env`, key files, auth tokens). Redact aggressively; share only what’s required.
 - Prefer “just enough context”: fewer files + better prompt beats whole-repo dumps.
+
+## Attribution
+
+This skill was copied from steipete/agent-scripts.
+Upstream: https://github.com/steipete/agent-scripts
+License: MIT (see LICENSE)

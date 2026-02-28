@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "46d6ff068a4e78acaa3557fa574d2b47631ba5842a9a8efa075a0a482e3789b3",
   "indexed_at": "2026-02-26T12:26:51.855Z",
-  "synced_at": "2026-02-27T02:33:14.745Z",
+  "synced_at": "2026-02-28T03:58:51.825Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c9d181e55171d12f26ce188938e82cea2da34ca1201a93146125956d266d483a",
   "install_command": "mkdir -p .claude/skills/python-patterns && curl -sL \"https://raw.githubusercontent.com/kriangkraiii/Game_E-commerce/main/shopping-cart-spring-boot-main/.agent/skills/python-patterns/SKILL.md\" > .claude/skills/python-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kriangkraiii/Game_E-commerce/main/shopping-cart-spring-boot-main/.agent/skills/python-patterns/SKILL.md"

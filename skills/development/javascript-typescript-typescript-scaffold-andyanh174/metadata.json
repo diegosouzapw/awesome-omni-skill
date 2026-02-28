@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d5040022ef57349936983d87a0948fa33e82a45b8959fb1c1b0114aa1b48da7b",
   "indexed_at": "2026-02-27T05:52:30.223Z",
-  "synced_at": "2026-02-27T13:13:17.369Z",
+  "synced_at": "2026-02-28T04:00:08.323Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a52443990a967cb912a21e6e54cbea01fac48d3d660a7b8eb058c140541de7ec",
   "install_command": "mkdir -p .claude/skills/javascript-typescript-typescript-scaffold && curl -sL \"https://raw.githubusercontent.com/AndyAnh174/wellness/main/.agent/skills/javascript-typescript-typescript-scaffold/SKILL.md\" > .claude/skills/javascript-typescript-typescript-scaffold/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/AndyAnh174/wellness/main/.agent/skills/javascript-typescript-typescript-scaffold/SKILL.md"

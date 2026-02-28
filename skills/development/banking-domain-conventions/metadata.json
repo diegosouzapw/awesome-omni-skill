@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33d9a8c7d3e6c9f47c1145a0eeac07f6e74c6e87019b28cb67db7f0cc134fa29",
   "indexed_at": "2026-02-27T05:48:54.494Z",
-  "synced_at": "2026-02-27T13:13:14.551Z",
+  "synced_at": "2026-02-28T04:00:03.131Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6e019c0879152b69484843104c0d916cdea9808c497c4962ba53410014329a0d",
   "install_command": "mkdir -p .claude/skills/banking-domain-conventions && curl -sL \"https://raw.githubusercontent.com/firefly-oss/firefly-oss-claude-skills/main/skills/banking-domain-conventions/SKILL.md\" > .claude/skills/banking-domain-conventions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/firefly-oss/firefly-oss-claude-skills/main/skills/banking-domain-conventions/SKILL.md"

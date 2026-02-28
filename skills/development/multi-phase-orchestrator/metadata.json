@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "68b5a73a15baa7a0a15a48b42c688d398c2b0c12fd604da4739ef14ba7e61052",
   "indexed_at": "2026-02-26T13:22:30.517Z",
-  "synced_at": "2026-02-27T02:33:26.130Z",
+  "synced_at": "2026-02-28T03:59:02.732Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7e56fae8c242db7ee4b55d1971ed7e540ed47e3e0a79beccc5ed6c8f1a3ace3f",
   "install_command": "mkdir -p .claude/skills/multi-phase-orchestrator && curl -sL \"https://raw.githubusercontent.com/chrisradek/copilot-devcontainers/main/.github/skills/multi-phase-orchestrator/SKILL.md\" > .claude/skills/multi-phase-orchestrator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chrisradek/copilot-devcontainers/main/.github/skills/multi-phase-orchestrator/SKILL.md"

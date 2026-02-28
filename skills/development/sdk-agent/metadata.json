@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8c8faf2fcd24e10e055c1adcb97049b40d4f6232b6682de15f4db240e1ee6711",
   "indexed_at": "2026-02-26T16:36:05.411Z",
-  "synced_at": "2026-02-27T02:33:53.497Z",
+  "synced_at": "2026-02-28T03:59:29.090Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/93b33aa938a0490b4bfdc34e8ca8dc2261fae08103f4351d6328074824bb27c0",
   "install_command": "mkdir -p .claude/skills/sdk-agent && curl -sL \"https://raw.githubusercontent.com/amo-tech-ai/rocket-path-ai/main/.agents/skills/ai/sdk-agent/SKILL.md\" > .claude/skills/sdk-agent/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/amo-tech-ai/rocket-path-ai/main/.agents/skills/ai/sdk-agent/SKILL.md"

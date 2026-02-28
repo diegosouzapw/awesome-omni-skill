@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2c845980ceda3fd87e721015ba0ed8a365aa1dc832b84cc517fa67d63fb3d12e",
   "indexed_at": "2026-02-26T15:18:57.181Z",
-  "synced_at": "2026-02-27T02:33:41.768Z",
+  "synced_at": "2026-02-28T03:59:17.871Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f9e78d156340e0dfeda9601e45e035aff389d85855849870ec346d34bf722d45",
   "install_command": "mkdir -p .claude/skills/packaging-rules && curl -sL \"https://raw.githubusercontent.com/BrainDriveAI/BrainDrive-Plugin-Builder-OpenCode/main/.opencode/skill/packaging-rules/SKILL.md\" > .claude/skills/packaging-rules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/BrainDriveAI/BrainDrive-Plugin-Builder-OpenCode/main/.opencode/skill/packaging-rules/SKILL.md"

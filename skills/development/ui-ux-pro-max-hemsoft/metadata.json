@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "81e342049da479191cff170392a935dc78374fb402de932896a0c668c865078f",
   "indexed_at": "2026-02-26T12:24:47.110Z",
-  "synced_at": "2026-02-27T02:33:08.890Z",
+  "synced_at": "2026-02-28T03:58:46.575Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e4fff13e5756a7430f8fd86bf334f9940c2ed18e25ee3cfe77f821eae0433cf5",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/HemSoft/dashboard/main/.agents/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HemSoft/dashboard/main/.agents/skills/ui-ux-pro-max/SKILL.md"

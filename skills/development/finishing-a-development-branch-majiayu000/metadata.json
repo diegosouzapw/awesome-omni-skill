@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "dc5e196d487de0908a9883e2870565029cbe1dec8988dd5e09d60c07fda54018",
   "indexed_at": "2026-02-26T13:23:57.962Z",
-  "synced_at": "2026-02-27T02:33:28.339Z",
+  "synced_at": "2026-02-28T03:59:05.000Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/706df4f75a8801d7825f276e9c14ae4052032f068dd632e949850003c0c12274",
   "install_command": "mkdir -p .claude/skills/finishing-a-development-branch && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/finishing-a-development-branch-smooth-operation-household-expense-tr/SKILL.md\" > .claude/skills/finishing-a-development-branch/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/finishing-a-development-branch-smooth-operation-household-expense-tr/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e2572f246e9cb61ebf86492bb5437dd4d212dd0fba05e82c9a8e1004e4630e7c",
   "indexed_at": "2026-02-26T18:38:44.890Z",
-  "synced_at": "2026-02-27T02:34:10.020Z",
+  "synced_at": "2026-02-28T03:59:44.627Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a69eeb5c5153e2306422258a3f2d5a9687a4469b806f1c86298637a0ff90e4fb",
   "install_command": "mkdir -p .claude/skills/1c-bsl-code-generation && curl -sL \"https://raw.githubusercontent.com/kulivers/Cursor-utils/main/skills/cursor-anthropic-skills/custom-skills/1C_BSL_SKILL.md/SKILL.md\" > .claude/skills/1c-bsl-code-generation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kulivers/Cursor-utils/main/skills/cursor-anthropic-skills/custom-skills/1C_BSL_SKILL.md/SKILL.md"

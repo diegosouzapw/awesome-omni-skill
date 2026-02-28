@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0ea39d695a968c3c7d89e1711123d6cad720e33fe47fe355a9d13f624e16ef6f",
   "indexed_at": "2026-02-26T13:19:10.574Z",
-  "synced_at": "2026-02-27T02:33:22.043Z",
+  "synced_at": "2026-02-28T03:58:58.893Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/649c2cf14b32af8f8a0e2f681f13d6dd6db52fbe7fb0ec5c20495b66b5bc18f2",
   "install_command": "mkdir -p .claude/skills/debugging-master && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/omer-metin/skills-for-antigravity/debugging-master/SKILL.md\" > .claude/skills/debugging-master/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/omer-metin/skills-for-antigravity/debugging-master/SKILL.md"

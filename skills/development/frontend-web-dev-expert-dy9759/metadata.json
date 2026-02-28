@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3530f23ccc46aa91ab0e1a625f5c30ed3fddc01bc18f3b8e7d3d943b417cb62e",
   "indexed_at": "2026-02-26T13:24:37.037Z",
-  "synced_at": "2026-02-27T02:33:29.603Z",
+  "synced_at": "2026-02-28T03:59:06.169Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1777cb33f580bab4b5096f8e47eecee8d7160a81387dc095e95ecd79e2b5f5fb",
   "install_command": "mkdir -p .claude/skills/frontend-web-dev-expert && curl -sL \"https://raw.githubusercontent.com/dy9759/Text2KnowledgeCards/main/skills/backup-skills/frontend-web-dev-skill/SKILL.md\" > .claude/skills/frontend-web-dev-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dy9759/Text2KnowledgeCards/main/skills/backup-skills/frontend-web-dev-skill/SKILL.md"

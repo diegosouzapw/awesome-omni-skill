@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2402bb1fa27bfcb86cdd039564bf347a4efad30c32408c4fdc07f830bf5bfd4c",
   "indexed_at": "2026-02-26T12:57:13.657Z",
-  "synced_at": "2026-02-27T02:33:17.740Z",
+  "synced_at": "2026-02-28T03:58:54.537Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/883c918b2a323092eeeef84f41ebd39249d86d1be70142578f3d11060083fdb0",
   "install_command": "mkdir -p .claude/skills/semgrep-coderabbit-review && curl -sL \"https://raw.githubusercontent.com/acedergren/opencode-semgrep-coderabbit-skill/main/SKILL.md\" > .claude/skills/semgrep-coderabbit-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/acedergren/opencode-semgrep-coderabbit-skill/main/SKILL.md"

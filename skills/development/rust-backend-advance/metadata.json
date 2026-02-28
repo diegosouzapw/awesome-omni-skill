@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ddbbf6db8df81cd601ac79caae3fb238d7ca0670fb19bfb868b4e1a756be5788",
   "indexed_at": "2026-02-27T05:50:41.480Z",
-  "synced_at": "2026-02-27T13:13:15.496Z",
+  "synced_at": "2026-02-28T04:00:04.927Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f77f32c1b1b4a90f92208078d7c9f7bd87bd9bab9098ee06f19bc4377dcb86d3",
   "install_command": "mkdir -p .claude/skills/rust-backend-advance && curl -sL \"https://raw.githubusercontent.com/thienty1207/rust-skills/main/rust-backend-advance/SKILL.md\" > .claude/skills/rust-backend-advance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/thienty1207/rust-skills/main/rust-backend-advance/SKILL.md"

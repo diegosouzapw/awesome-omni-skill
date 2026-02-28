@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7f4fc7a6b918a7c59bcbebc1befbc458db9576a8cf6ce3da4c410e01b11f7411",
   "indexed_at": "2026-02-26T15:18:00.614Z",
-  "synced_at": "2026-02-27T02:33:41.408Z",
+  "synced_at": "2026-02-28T03:59:17.536Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c2b3764c8e886c843e6303dbf8708b39c0d1fce63c5d37e84d1fef05e39838f3",
   "install_command": "mkdir -p .claude/skills/backend-guidelines && curl -sL \"https://raw.githubusercontent.com/wisecomm/dog-love/main/.agent/skills/backend-guidelines/SKILL.md\" > .claude/skills/backend-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wisecomm/dog-love/main/.agent/skills/backend-guidelines/SKILL.md"

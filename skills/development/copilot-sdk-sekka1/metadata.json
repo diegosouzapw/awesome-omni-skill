@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e38942b809d42da6785536d0e6634337d65ffbc17a0d7261006c267c56d92ebd",
   "indexed_at": "2026-02-26T18:37:03.246Z",
-  "synced_at": "2026-02-27T02:34:09.137Z",
+  "synced_at": "2026-02-28T03:59:43.793Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5c4b6cf6553207708c6ec8d73573b997a3c6b2f6aad71cf3ce845f84acc109c8",
   "install_command": "mkdir -p .claude/skills/copilot-sdk && curl -sL \"https://raw.githubusercontent.com/sekka1/Moss-chat-web/main/.github/skills/copilot-sdk/SKILL.md\" > .claude/skills/copilot-sdk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sekka1/Moss-chat-web/main/.github/skills/copilot-sdk/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b69c1f4b8ba3c69f4c5b8ff6e831a52ce56a5f44647ae75039ce4b722d2252fe",
   "indexed_at": "2026-02-27T05:48:41.396Z",
-  "synced_at": "2026-02-27T13:13:14.382Z",
+  "synced_at": "2026-02-28T04:00:02.782Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a106a33b999f050c0cf7468cbc98399ccb76446607cde8ce7fb047ef82e1dcf0",
   "install_command": "mkdir -p .claude/skills/symfony-semaphore && curl -sL \"https://raw.githubusercontent.com/krzysztofsurdy/code-virtuoso/main/skills/symfony/symfony-semaphore/SKILL.md\" > .claude/skills/symfony-semaphore/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/krzysztofsurdy/code-virtuoso/main/skills/symfony/symfony-semaphore/SKILL.md"

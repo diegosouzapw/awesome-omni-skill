@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eca298c36e6ec545bf98133bc27a617d0760549c727fb491ba4b15da293f7c19",
   "indexed_at": "2026-02-26T18:37:35.719Z",
-  "synced_at": "2026-02-27T02:34:09.472Z",
+  "synced_at": "2026-02-28T03:59:44.094Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1946233767420ef787c47e61f856cfed9cce7e3a8e92af6e7a64ca6489c58260",
   "install_command": "mkdir -p .claude/skills/research-cog && curl -sL \"https://raw.githubusercontent.com/CellCog/cellcog_python/main/skills/research-cog/SKILL.md\" > .claude/skills/research-cog/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/CellCog/cellcog_python/main/skills/research-cog/SKILL.md"

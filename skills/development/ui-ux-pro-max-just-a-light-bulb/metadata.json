@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2ab0e176148567c1fed430aa9214738802cfd2eab349ed33dcee7479e9949794",
   "indexed_at": "2026-02-26T12:25:33.793Z",
-  "synced_at": "2026-02-27T02:33:13.225Z",
+  "synced_at": "2026-02-28T03:58:50.378Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a39fedd9777ee2fd34c83e66d82788d085080d06231857189a2c4c36b7ba02a1",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/just-a-light-bulb/comic-translate-platform/main/.agents/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/just-a-light-bulb/comic-translate-platform/main/.agents/skills/ui-ux-pro-max/SKILL.md"

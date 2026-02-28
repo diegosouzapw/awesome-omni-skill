@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "554f0ec44cbb669de255cd1630741e6aeea0f64396c07717db1ba8a69d785062",
   "indexed_at": "2026-02-26T14:19:48.856Z",
-  "synced_at": "2026-02-27T02:33:32.856Z",
+  "synced_at": "2026-02-28T03:59:09.244Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ddf2ca8ba36c4642f6e887a4325cac7e4a6567eb8e89e4a53bd69c2f57eb0af1",
   "install_command": "mkdir -p .claude/skills/neon-automation && curl -sL \"https://raw.githubusercontent.com/jarbitechture/claude-skills/main/skills/neon-automation/SKILL.md\" > .claude/skills/neon-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jarbitechture/claude-skills/main/skills/neon-automation/SKILL.md"

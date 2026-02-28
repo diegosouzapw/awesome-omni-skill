@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f3ec4fa118107e647c078bff4003807afa61d7af5725b2c085c48961e4233370",
   "indexed_at": "2026-02-26T12:27:58.391Z",
-  "synced_at": "2026-02-27T02:33:15.690Z",
+  "synced_at": "2026-02-28T03:58:52.752Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b8c7b05928f9f31d781dfb92dd597e3b094ee486fd7165b74dab22637da19eb1",
   "install_command": "mkdir -p .claude/skills/backend-python-developer && curl -sL \"https://raw.githubusercontent.com/nechmads/hot-metal/main/.codex/skills/backend-python-developer/SKILL.md\" > .claude/skills/backend-python-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nechmads/hot-metal/main/.codex/skills/backend-python-developer/SKILL.md"

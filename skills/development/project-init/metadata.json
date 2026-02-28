@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bd1630a26bd467cec1d580caf35e9feddd8b09cbbf5e92c2cf82cf1fa669bb50",
   "indexed_at": "2026-02-26T14:18:26.943Z",
-  "synced_at": "2026-02-27T02:33:32.108Z",
+  "synced_at": "2026-02-28T03:59:08.555Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c305d0389f3a3742472e300ee8b8b375a047e66c9c0ad11004c723bbf795492a",
   "install_command": "mkdir -p .claude/skills/project-init && curl -sL \"https://raw.githubusercontent.com/netbrain/skeletons/main/template/claude/.claude/skills/project-init/SKILL.md\" > .claude/skills/project-init/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/netbrain/skeletons/main/template/claude/.claude/skills/project-init/SKILL.md"

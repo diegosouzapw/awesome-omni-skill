@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e13cda8433184128184cdfb6d0b510b81624df64dae01b545163d6f846cb5645",
   "indexed_at": "2026-02-26T13:23:37.454Z",
-  "synced_at": "2026-02-27T02:33:27.185Z",
+  "synced_at": "2026-02-28T03:59:03.875Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/959ca98efc1c1f24c0e57d2ffa4382f99759e1c398a1cd563b116142765c9cae",
   "install_command": "mkdir -p .claude/skills/django-expert && curl -sL \"https://raw.githubusercontent.com/juanelojga/aiecommerce/main/.claude/skills/django-expert/SKILL.md\" > .claude/skills/django-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/juanelojga/aiecommerce/main/.claude/skills/django-expert/SKILL.md"

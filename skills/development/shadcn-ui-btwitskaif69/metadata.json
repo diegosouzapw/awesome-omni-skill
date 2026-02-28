@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ca4779fd2c0c68db48b5e6e510076d429e725268d09ca516e2dd0775e56fd205",
   "indexed_at": "2026-02-27T06:48:27.204Z",
-  "synced_at": "2026-02-27T13:13:21.022Z",
+  "synced_at": "2026-02-28T04:00:14.145Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2a23662b88c3df398a02386be19b8f371a7524fda29e42a6a143e8e4464847a2",
   "install_command": "mkdir -p .claude/skills/shadcn-ui && curl -sL \"https://raw.githubusercontent.com/btwitskaif69/Markify/main/.agent/.gemini/skills/shadcn-ui/SKILL.md\" > .claude/skills/shadcn-ui/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/btwitskaif69/Markify/main/.agent/.gemini/skills/shadcn-ui/SKILL.md"

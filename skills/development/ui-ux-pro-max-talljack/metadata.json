@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1ad3c9c47d1839b1bb63d41731977c8e61370120eb3306db3c382907993c9b7a",
   "indexed_at": "2026-02-26T12:25:07.349Z",
-  "synced_at": "2026-02-27T02:33:10.920Z",
+  "synced_at": "2026-02-28T03:58:48.163Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7c54b2dd0314d7c9843171996239d7ff750fe0c283cd2482dcdc6c8b52696a71",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/Talljack/abot/main/.cursor/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Talljack/abot/main/.cursor/skills/ui-ux-pro-max/SKILL.md"

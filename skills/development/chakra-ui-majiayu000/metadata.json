@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a12d48962befbcfcf198fb1c06966b2bc6009c08d7d9e621a373b7a5fc7f6c68",
   "indexed_at": "2026-02-26T13:11:10.593Z",
-  "synced_at": "2026-02-27T02:33:18.493Z",
+  "synced_at": "2026-02-28T03:58:55.372Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d5debcbf6c53b57b8bce75187dc26725a595b1e0ee2e6d94b47f2a17a6377ee9",
   "install_command": "mkdir -p .claude/skills/chakra-ui && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/chakra-ui-mgd34msu-goodvibes-gemini/SKILL.md\" > .claude/skills/chakra-ui/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/chakra-ui-mgd34msu-goodvibes-gemini/SKILL.md"

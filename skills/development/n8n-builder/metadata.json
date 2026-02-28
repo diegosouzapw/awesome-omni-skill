@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1e671d799a66db2af6abc543ac4263eae4514129e1a14efb770eda059eb6e1e3",
   "indexed_at": "2026-02-26T14:21:57.549Z",
-  "synced_at": "2026-02-27T02:33:35.112Z",
+  "synced_at": "2026-02-28T03:59:11.442Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c962862dae5d07f462f96cd34b133ea9be2827b902250777bfc657e0928ae1ef",
   "install_command": "mkdir -p .claude/skills/n8n-builder && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/kassimisai/n8n-builder/SKILL.md\" > .claude/skills/n8n-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kassimisai/n8n-builder/SKILL.md"

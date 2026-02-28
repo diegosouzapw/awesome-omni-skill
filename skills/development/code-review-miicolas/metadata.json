@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fabe6cdc513891703d5d96d0fd7753050324f8f24aa5af6a20e97b9701b0b107",
   "indexed_at": "2026-02-26T13:17:43.112Z",
-  "synced_at": "2026-02-27T02:33:20.850Z",
+  "synced_at": "2026-02-28T03:58:57.636Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0d4a93348bc5a90902668123723a4d36f4bd8bf5862ce1cf6c3136cb7c209408",
   "install_command": "mkdir -p .claude/skills/code-review && curl -sL \"https://raw.githubusercontent.com/miicolas/apply/main/.claude/skills/code-review/SKILL.md\" > .claude/skills/code-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/miicolas/apply/main/.claude/skills/code-review/SKILL.md"

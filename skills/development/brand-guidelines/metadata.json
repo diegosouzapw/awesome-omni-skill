@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6ec7200bdaf8c513bd01502987d02732ac5abf699d1c9e3b7bbe605410d07974",
   "indexed_at": "2026-02-26T15:16:36.157Z",
-  "synced_at": "2026-02-27T02:33:39.906Z",
+  "synced_at": "2026-02-28T03:59:16.135Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/62b99e7b2885a40bb5170453088397ab66d272fefeef043763bc6a8003225810",
   "install_command": "mkdir -p .claude/skills/brand-guidelines && curl -sL \"https://raw.githubusercontent.com/ZouZou/angular-sample-app/main/.claude/skills/brand-guidelines/SKILL.md\" > .claude/skills/brand-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ZouZou/angular-sample-app/main/.claude/skills/brand-guidelines/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b4fbde5990840c702a158e0863dad703e57fb253c0e5ff7f2981ff37a4003c8c",
   "indexed_at": "2026-02-26T15:17:17.282Z",
-  "synced_at": "2026-02-27T02:33:40.656Z",
+  "synced_at": "2026-02-28T03:59:16.835Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/abb29ac6ee5f6a48c8da86af95156eb73f40f46078ee73612526f910c5dd3e38",
   "install_command": "mkdir -p .claude/skills/self-improvement-2 && curl -sL \"https://raw.githubusercontent.com/sundial-org/awesome-openclaw-skills/main/skills/self-improvement-2/SKILL.md\" > .claude/skills/self-improvement-2/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sundial-org/awesome-openclaw-skills/main/skills/self-improvement-2/SKILL.md"

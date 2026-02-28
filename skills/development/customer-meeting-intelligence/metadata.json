@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "85d0c2f5ee1c887b52e331a1c625ada32ca1d172608b95a31f86aa572ee70eda",
   "indexed_at": "2026-02-26T14:22:29.282Z",
-  "synced_at": "2026-02-27T02:33:35.282Z",
+  "synced_at": "2026-02-28T03:59:11.612Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c8bbcd6fe6573a211e176a1a7b41296b325cf7980b310f3cb2f3b09b47735ca7",
   "install_command": "mkdir -p .claude/skills/customer-meeting-intelligence && curl -sL \"https://raw.githubusercontent.com/team-telnyx/customer-meeting-intelligence/main/SKILL.md\" > .claude/skills/customer-meeting-intelligence/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/team-telnyx/customer-meeting-intelligence/main/SKILL.md"

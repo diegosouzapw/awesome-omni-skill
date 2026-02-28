@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "39d45b22b74e4a2ee87ebad631925cae99c94527e6d1523999b07cd2954743fb",
   "indexed_at": "2026-02-26T15:22:51.204Z",
-  "synced_at": "2026-02-27T02:33:44.829Z",
+  "synced_at": "2026-02-28T03:59:20.671Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8053c21fc346f0d6a1e3f914f50c5a300e2397a9d050ef9a1856c18ffc0b671d",
   "install_command": "mkdir -p .claude/skills/instruction-creator && curl -sL \"https://raw.githubusercontent.com/awieczork/vscode-agentic-workflow/main/.github/skills/core/instruction-creator/SKILL.md\" > .claude/skills/instruction-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/awieczork/vscode-agentic-workflow/main/.github/skills/core/instruction-creator/SKILL.md"

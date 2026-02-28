@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fde6796a3da396afbab44ab73622e9bbc50fc906c60b34ae67687324eb357ddb",
   "indexed_at": "2026-02-26T12:25:31.617Z",
-  "synced_at": "2026-02-27T02:33:12.859Z",
+  "synced_at": "2026-02-28T03:58:50.031Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ceaeb7cec4cd1607272600817854cf64f9ae45dc742ae3226a6405e7f530c370",
   "install_command": "mkdir -p .claude/skills/ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/tan-yong-sheng/cloudflare-image-mcp/main/.claude/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tan-yong-sheng/cloudflare-image-mcp/main/.claude/skills/ui-ux-pro-max/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d1372e992c100a2a1ca3cdd42efa6214a81079f322e721238cecaefd0b20bf33",
   "indexed_at": "2026-02-26T17:31:56.022Z",
-  "synced_at": "2026-02-27T02:33:59.130Z",
+  "synced_at": "2026-02-28T03:59:34.256Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/654aef41bc949b0e4a2403ad165a9d26c6a6a669583200963bc4c3ba21c618d8",
   "install_command": "mkdir -p .claude/skills/mojo && curl -sL \"https://raw.githubusercontent.com/cofin/flow/main/skills/mojo/SKILL.md\" > .claude/skills/mojo/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cofin/flow/main/skills/mojo/SKILL.md"

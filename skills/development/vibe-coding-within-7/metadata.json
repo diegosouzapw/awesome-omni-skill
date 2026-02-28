@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f1bf77db2e6f88880aa293df9e00f03bca861fd3cf0fb388377602aa049c2b55",
   "indexed_at": "2026-02-26T13:20:19.107Z",
-  "synced_at": "2026-02-27T02:33:23.254Z",
+  "synced_at": "2026-02-28T03:59:00.111Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/13dcc60568bae5fe68a62549ba0b6673f6a7d92557987d3e49c09944f05e4816",
   "install_command": "mkdir -p .claude/skills/vibe-coding && curl -sL \"https://raw.githubusercontent.com/Within-7/minto-plugin-tools/main/vibe-coding/skills/SKILL.md\" > .claude/skills/vibe-coding/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Within-7/minto-plugin-tools/main/vibe-coding/skills/SKILL.md"

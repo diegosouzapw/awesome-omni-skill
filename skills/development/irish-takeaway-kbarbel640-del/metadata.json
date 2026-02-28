@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "78c6b71b0396c8777919e86ac2a4a4c637ff7ffb7d0b11a64f96c7d8f21b5f97",
   "indexed_at": "2026-02-26T17:25:42.575Z",
-  "synced_at": "2026-02-27T02:33:58.645Z",
+  "synced_at": "2026-02-28T03:59:33.782Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0dff7eb371fa3031323557fd32752b38244d4cffd3394a781d1a3d16851928e5",
   "install_command": "mkdir -p .claude/skills/irish-takeaway && curl -sL \"https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/cotyledonlab/irish-takeaway/SKILL.md\" > .claude/skills/irish-takeaway/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kbarbel640-del/skills/main/skills/cotyledonlab/irish-takeaway/SKILL.md"

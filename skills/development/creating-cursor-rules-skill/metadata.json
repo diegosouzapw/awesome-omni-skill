@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e32490ecd63541b25f5db41fcae7701d21ec74a5b6a407613626f0af43ca1d90",
   "indexed_at": "2026-02-26T15:19:44.394Z",
-  "synced_at": "2026-02-27T02:33:42.118Z",
+  "synced_at": "2026-02-28T03:59:18.216Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/89ccb6859f657d8c77488e18f26088b17e95a4b2ac119b97385bf3fe752c9410",
   "install_command": "mkdir -p .claude/skills/creating-cursor-rules-skill && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/cristiano-pacheco/ai-rules/creating-cursor-rules-skill/SKILL.md\" > .claude/skills/creating-cursor-rules-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/cristiano-pacheco/ai-rules/creating-cursor-rules-skill/SKILL.md"

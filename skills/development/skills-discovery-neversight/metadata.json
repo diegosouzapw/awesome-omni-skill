@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9530ca0f835e977f1351d8a8b37fcbe4bd92d8778a520c2882499da3aba3abf0",
   "indexed_at": "2026-02-26T17:33:44.809Z",
-  "synced_at": "2026-02-27T02:34:00.201Z",
+  "synced_at": "2026-02-28T03:59:35.325Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9cfac892bea51ddc9fb0cbc1d6805dec1735e1f55cc99a30f55cddf6a4a22f00",
   "install_command": "mkdir -p .claude/skills/skills-discovery && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/kamalnrf/claude-plugins/skills-discovery/SKILL.md\" > .claude/skills/skills-discovery/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/kamalnrf/claude-plugins/skills-discovery/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cf6b8b0ccc224e0417585676eebf1d6ef238f0305727b8384e84aa7df381750d",
   "indexed_at": "2026-02-26T22:35:25.158Z",
-  "synced_at": "2026-02-27T02:34:15.125Z",
+  "synced_at": "2026-02-28T03:59:48.622Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e26b0c7b1d14404f9170f0c008a414927b6ac8178dae32f09505dda741126bbb",
   "install_command": "mkdir -p .claude/skills/rule-updater && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/basedhardware/omi/rule-updater/SKILL.md\" > .claude/skills/rule-updater/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/basedhardware/omi/rule-updater/SKILL.md"

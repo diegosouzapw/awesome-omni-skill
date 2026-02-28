@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "074394c4c163a2083424cceacc83c01ca8c3cc2e5561b7db393906fd901b3480",
   "indexed_at": "2026-02-26T12:54:32.982Z",
-  "synced_at": "2026-02-27T02:33:16.856Z",
+  "synced_at": "2026-02-28T03:58:53.647Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/06148a078111b9ac03ac2dd6bc9a51b2caf55a413b08036073da38eadb19ee69",
   "install_command": "mkdir -p .claude/skills/rs-waybill && curl -sL \"https://raw.githubusercontent.com/sepivip/claude-rs-ge-waybill-skill/main/SKILL.md\" > .claude/skills/rs-waybill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sepivip/claude-rs-ge-waybill-skill/main/SKILL.md"

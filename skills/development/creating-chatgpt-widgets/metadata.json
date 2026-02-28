@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cd4f27d25e55729dded4e675aa385419cd16d073c163b02dd6502165ce4587e4",
   "indexed_at": "2026-02-26T16:01:46.755Z",
-  "synced_at": "2026-02-27T02:33:47.088Z",
+  "synced_at": "2026-02-28T03:59:22.887Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e5c45025c29deb4b4c0ecf55d3cea7233f3add28e8a39d155b84b211c8745e85",
   "install_command": "mkdir -p .claude/skills/creating-chatgpt-widgets && curl -sL \"https://raw.githubusercontent.com/Rehan-Ul-Haq/my-skills/main/skills/creating-chatgpt-widgets/SKILL.md\" > .claude/skills/creating-chatgpt-widgets/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Rehan-Ul-Haq/my-skills/main/skills/creating-chatgpt-widgets/SKILL.md"

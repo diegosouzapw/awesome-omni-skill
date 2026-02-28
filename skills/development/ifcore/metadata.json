@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2f241835206f6368b3cce4c7ff4112a0d34adcc010c4eee97beb103a28453c2c",
   "indexed_at": "2026-02-26T18:39:48.791Z",
-  "synced_at": "2026-02-27T02:34:10.571Z",
+  "synced_at": "2026-02-28T03:59:45.129Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5cfcdc87beb44b6574cf43f0228fe519a357b87ec54c128c23887dc0f119b657",
   "install_command": "mkdir -p .claude/skills/ifcore && curl -sL \"https://raw.githubusercontent.com/iaac-maai/structure_compliance_check/main/.claude/skills/IFCore-skill/SKILL.md\" > .claude/skills/ifcore/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/iaac-maai/structure_compliance_check/main/.claude/skills/IFCore-skill/SKILL.md"

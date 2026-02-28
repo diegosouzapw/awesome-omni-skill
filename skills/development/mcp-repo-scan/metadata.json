@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ba113e01a35630f5590ba8ac0f4f46a93624b7885a6612af762c671bb1fb72bb",
   "indexed_at": "2026-02-26T13:20:37.166Z",
-  "synced_at": "2026-02-27T02:33:24.144Z",
+  "synced_at": "2026-02-28T03:59:00.970Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4fd53225233e3fe657f084ac3014b2c35988261f13467fc4634980193a7e0f89",
   "install_command": "mkdir -p .claude/skills/mcp-repo-scan && curl -sL \"https://raw.githubusercontent.com/stackconsult/RE-Engine/main/.windsurf/skills/mcp-repo-scan/SKILL.md\" > .claude/skills/mcp-repo-scan/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/stackconsult/RE-Engine/main/.windsurf/skills/mcp-repo-scan/SKILL.md"

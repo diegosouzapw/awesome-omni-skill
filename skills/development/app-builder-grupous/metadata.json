@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "75c4a2c5e546f589fe8d1777684eba8e5bd0e938a2b24ad879111a94118cf842",
   "indexed_at": "2026-02-26T12:25:23.241Z",
-  "synced_at": "2026-02-27T02:33:12.097Z",
+  "synced_at": "2026-02-28T03:58:49.332Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bc4ad7ea15164197b2643fb9a87f8b613b8c85ac776b4d7b6ae668e3143f7d58",
   "install_command": "mkdir -p .claude/skills/app-builder && curl -sL \"https://raw.githubusercontent.com/GrupoUS/Laura-openclaw/main/workspace/skills/app-builder/SKILL.md\" > .claude/skills/app-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/GrupoUS/Laura-openclaw/main/workspace/skills/app-builder/SKILL.md"

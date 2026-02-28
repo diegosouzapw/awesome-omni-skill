@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "81c2b4f5ad9b3940d38b03297461da89bb092f7a65744238e73c989f456f794f",
   "indexed_at": "2026-02-26T18:34:03.105Z",
-  "synced_at": "2026-02-27T02:34:05.945Z",
+  "synced_at": "2026-02-28T03:59:40.785Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ce68d85114f290aaa868c362add4f8f0e674ff1ced133a762aa11fb695106120",
   "install_command": "mkdir -p .claude/skills/copilot-sdk && curl -sL \"https://raw.githubusercontent.com/MatLumber/Polybot/main/.agents/skills/copilot-sdk/SKILL.md\" > .claude/skills/copilot-sdk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MatLumber/Polybot/main/.agents/skills/copilot-sdk/SKILL.md"

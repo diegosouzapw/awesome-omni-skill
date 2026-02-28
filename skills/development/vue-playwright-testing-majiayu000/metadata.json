@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "45eebd504bafc1323c5ac164b102795bca2f66197d8c1c9255f1b1e25c902c64",
   "indexed_at": "2026-02-26T13:23:47.501Z",
-  "synced_at": "2026-02-27T02:33:27.750Z",
+  "synced_at": "2026-02-28T03:59:04.435Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9e5308eb75fdc93d9f88bfc0d80c5e18d72d47ebe84bff46f1505cd967f20d49",
   "install_command": "mkdir -p .claude/skills/vue-playwright-testing && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/vue-playwright-testing-vinceh-recipe/SKILL.md\" > .claude/skills/vue-playwright-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/vue-playwright-testing-vinceh-recipe/SKILL.md"

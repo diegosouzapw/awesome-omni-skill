@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "365889d1f132e36a89e79583bcda65e046e0ed9073e3b680b428c24516f6c134",
   "indexed_at": "2026-02-26T13:19:57.344Z",
-  "synced_at": "2026-02-27T02:33:22.706Z",
+  "synced_at": "2026-02-28T03:58:59.580Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2b738960de6f188f95a59a16dd3774137188690e7a7616d731f323d7fa28113c",
   "install_command": "mkdir -p .claude/skills/code-doctor && curl -sL \"https://raw.githubusercontent.com/henryhawke/skills/main/code-doctor/SKILL.md\" > .claude/skills/code-doctor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/henryhawke/skills/main/code-doctor/SKILL.md"

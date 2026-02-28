@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f383032eb101633fa357cf751b43895d61ecd61a21b36d130c954c93bac3ead8",
   "indexed_at": "2026-02-26T19:25:21.313Z",
-  "synced_at": "2026-02-27T02:34:13.181Z",
+  "synced_at": "2026-02-28T03:59:46.648Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2813ca0f52bf79d66e3a2b7e21378f51780a202f2a10641bfafa53f39bb81332",
   "install_command": "mkdir -p .claude/skills/oracle-path && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/oracle-path-majiayu000-claude-skill-registr-6fa01f8f/SKILL.md\" > .claude/skills/oracle-path/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/oracle-path-majiayu000-claude-skill-registr-6fa01f8f/SKILL.md"

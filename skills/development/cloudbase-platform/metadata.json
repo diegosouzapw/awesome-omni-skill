@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7d967ea6119f474c6721d610f3d05db3457c8129bc0251de33555a41f51b7433",
   "indexed_at": "2026-02-26T23:31:20.129Z",
-  "synced_at": "2026-02-27T02:34:16.211Z",
+  "synced_at": "2026-02-28T03:59:49.647Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/db6a0b1d26d6b32efbe33e1f5c4954543fce0f452cb632df547963a8c1ca5bd1",
   "install_command": "mkdir -p .claude/skills/cloudbase-platform && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/cloudbase-platform/SKILL.md\" > .claude/skills/cloudbase-platform/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/cloudbase-platform/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "384133806601db352fda6ce9373e5825343d9543ae6c72b44817cfeee8f2025c",
   "indexed_at": "2026-02-26T14:23:34.483Z",
-  "synced_at": "2026-02-27T02:33:36.577Z",
+  "synced_at": "2026-02-28T03:59:12.957Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/48fae0ce178a65fc4e22227ff2cbfbf3e05d979057991dd53d4d7526a7255d21",
   "install_command": "mkdir -p .claude/skills/beads-seed && curl -sL \"https://raw.githubusercontent.com/justin-delano/Claude-Config/main/skills/conditional/beads/seed/SKILL.md\" > .claude/skills/beads-seed/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/justin-delano/Claude-Config/main/skills/conditional/beads/seed/SKILL.md"

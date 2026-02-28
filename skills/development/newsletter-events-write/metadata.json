@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4cd372dff95473d01de639c31d2ca7f17e3d6121b1ef6c38552a073a40dba75c",
   "indexed_at": "2026-02-26T15:22:35.038Z",
-  "synced_at": "2026-02-27T02:33:44.471Z",
+  "synced_at": "2026-02-28T03:59:20.309Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d79bbf6517efc4840e05bbb532be2bf8f7eee5b756705a29f55024f8e382bbf4",
   "install_command": "mkdir -p .claude/skills/newsletter-events-write && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/newsletter-events-write/SKILL.md\" > .claude/skills/newsletter-events-write/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/newsletter-events-write/SKILL.md"

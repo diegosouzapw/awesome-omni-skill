@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2262c14c483c5427dae1b60854b560ed85a77e4f1816b0dec0298a923d50f9a7",
   "indexed_at": "2026-02-27T05:46:06.262Z",
-  "synced_at": "2026-02-27T13:13:12.412Z",
+  "synced_at": "2026-02-28T03:59:59.309Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d9dbcfb3e697d7e3f2b949796fce9cad5d8bac6619f71a290a2324ee6e990e1e",
   "install_command": "mkdir -p .claude/skills/backend-dev && curl -sL \"https://raw.githubusercontent.com/limaon/dotfiles/main/.config/opencode/skills/backend-dev/SKILL.md\" > .claude/skills/backend-dev/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/limaon/dotfiles/main/.config/opencode/skills/backend-dev/SKILL.md"

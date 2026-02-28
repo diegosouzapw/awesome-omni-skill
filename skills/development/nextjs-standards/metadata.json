@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f7eb18bce98fa28f1c7885d1ec6388aebe12833cdcd3d5c58efd0f4f62cf4fca",
   "indexed_at": "2026-02-27T06:49:37.286Z",
-  "synced_at": "2026-02-27T13:13:21.496Z",
+  "synced_at": "2026-02-28T04:00:15.041Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cc7e58983fdc7170d689b198009b422799bb475b4488e4c0ac028d2afee21f9c",
   "install_command": "mkdir -p .claude/skills/nextjs-standards && curl -sL \"https://raw.githubusercontent.com/JStaRFilms/VibeCode-Protocol-Suite/main/assets/.agent/skills/nextjs-standards/SKILL.md\" > .claude/skills/nextjs-standards/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/JStaRFilms/VibeCode-Protocol-Suite/main/assets/.agent/skills/nextjs-standards/SKILL.md"

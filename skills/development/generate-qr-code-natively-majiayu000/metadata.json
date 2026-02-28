@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1e65648d7e53b0fe72d87f7141c4ea9311f61f23f1d63b19af69eb70441ca208",
   "indexed_at": "2026-02-26T14:26:20.881Z",
-  "synced_at": "2026-02-27T02:33:37.830Z",
+  "synced_at": "2026-02-28T03:59:14.105Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3f9ae2bbe41c368ba70e8449c13393e406412db6b1975a288a4a99cec8d44275",
   "install_command": "mkdir -p .claude/skills/generate-qr-code-natively && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/generate-qr-code-natively/SKILL.md\" > .claude/skills/generate-qr-code-natively/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/generate-qr-code-natively/SKILL.md"

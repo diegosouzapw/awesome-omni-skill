@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "adda49e3dbebedbf971014356a6219d52510538b8d6239dfe40cc02c8bb2f619",
   "indexed_at": "2026-02-27T00:42:07.141Z",
-  "synced_at": "2026-02-27T02:34:22.987Z",
+  "synced_at": "2026-02-28T03:59:56.782Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8c87ac170152f07fa42682e3bbcb8c13ed7e36b70b330e572b4327be91a043ac",
   "install_command": "mkdir -p .claude/skills/miniprogram-development && curl -sL \"https://raw.githubusercontent.com/TencentCloudBase/CloudBase-MCP/main/config/.codebuddy/skills/miniprogram-development/SKILL.md\" > .claude/skills/miniprogram-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TencentCloudBase/CloudBase-MCP/main/config/.codebuddy/skills/miniprogram-development/SKILL.md"

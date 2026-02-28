@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7433be3303d7d18b29012266b6f52744816a4746ae25e74ee137bdf61003167c",
   "indexed_at": "2026-02-26T13:20:41.368Z",
-  "synced_at": "2026-02-27T02:33:24.340Z",
+  "synced_at": "2026-02-28T03:59:01.135Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dc7231d19a7b99b78f28802c3ff3bc420e741f1063b2de8dffa0110a664bd36f",
   "install_command": "mkdir -p .claude/skills/chrome-devtools && curl -sL \"https://raw.githubusercontent.com/octave-commons/gates-of-aker/main/.opencode/skills.disabled/chrome-devtools/SKILL.md\" > .claude/skills/chrome-devtools/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/octave-commons/gates-of-aker/main/.opencode/skills.disabled/chrome-devtools/SKILL.md"

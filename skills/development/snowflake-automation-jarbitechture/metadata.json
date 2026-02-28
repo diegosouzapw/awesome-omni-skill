@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ae6325e2530b7f6c11530f39c168f3b270dbd7f98266eed3c9d0c2d6d18ebe18",
   "indexed_at": "2026-02-26T14:19:58.706Z",
-  "synced_at": "2026-02-27T02:33:33.615Z",
+  "synced_at": "2026-02-28T03:59:09.997Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e8e5459189969572ebd213cb9ce9cc2abbe9f57e5633715b53aa710e11bb7709",
   "install_command": "mkdir -p .claude/skills/snowflake-automation && curl -sL \"https://raw.githubusercontent.com/jarbitechture/claude-skills/main/skills/snowflake-automation/SKILL.md\" > .claude/skills/snowflake-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jarbitechture/claude-skills/main/skills/snowflake-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b33be43f5697216cf4c765cc1148a21db672acf531ef877c0d7ee0d4e0c91fdf",
   "indexed_at": "2026-02-26T13:17:08.995Z",
-  "synced_at": "2026-02-27T02:33:20.488Z",
+  "synced_at": "2026-02-28T03:58:57.295Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4d424aca17efa4f1796996d678d3153b069314237950a2e650fec887bd6ce766",
   "install_command": "mkdir -p .claude/skills/receiving-code-review && curl -sL \"https://raw.githubusercontent.com/HTRamsey/claude-config/main/skills/receiving-code-review/SKILL.md\" > .claude/skills/receiving-code-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HTRamsey/claude-config/main/skills/receiving-code-review/SKILL.md"

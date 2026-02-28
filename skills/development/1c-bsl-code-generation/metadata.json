@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3c267a5e574bb56dac35091e6c9e463c934a353e41e2b70e02b4c9b0415fcd36",
   "indexed_at": "2026-02-26T18:36:53.257Z",
-  "synced_at": "2026-02-27T02:34:08.948Z",
+  "synced_at": "2026-02-28T03:59:43.604Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1a9c01ea2bbf8685df389b7a58aeaae1783b44a0bf4c239f88a070881ee1d98b",
   "install_command": "mkdir -p .claude/skills/1c-bsl-code-generation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/1c-bsl-code-generation/SKILL.md\" > .claude/skills/1c-bsl-code-generation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/1c-bsl-code-generation/SKILL.md"

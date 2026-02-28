@@ -14,9 +14,11 @@ However, we will go over the basic OpenAI APIs.
 
 ## Examples
 
+For all APIs below, use `import { fetch } from "expo/fetch"`. Do not use the openai package. Write logic in `./src/lib/openai.ts`.
+
 ### Responses API (Generate text, analyze images, search the web)
 
-You can use the OpenAI Responses API to generate text, search the web, and analyze images. The latest model family is `gpt-5.2` as of December 2025. Docs: https://platform.openai.com/docs/api-reference/responses/create
+You can use the OpenAI Responses API to generate text, search the web, and analyze images. The latest model family is `gpt-5.1` as of December 2025. Docs: https://platform.openai.com/docs/api-reference/responses/create
 
 **Basic request:**
 ```typescript
@@ -26,8 +28,20 @@ const response = await fetch("https://api.openai.com/v1/responses", {
     "Content-Type": "application/json",
     Authorization: `Bearer ${process.env.EXPO_PUBLIC_VIBECODE_OPENAI_API_KEY}`,
   },
-  body: JSON.stringify({ model: "gpt-5.2", input: "Your prompt here" }),
+  body: JSON.stringify({ model: "gpt-5.1", input: "Your prompt here" }),
 });
+```
+
+**Streaming:** Add `stream: true` to the body. Parse SSE events from the response body:
+```typescript
+const reader = response.body?.getReader();
+const decoder = new TextDecoder();
+while (true) {
+  const { done, value } = await reader.read();
+  if (done) break;
+  // Parse lines starting with "data: " and look for event.type === "response.output_text.delta"
+  // The delta text is in event.delta
+}
 ```
 
 **Vision (Image Analysis):** Use `expo-image-picker` to select images. You must use `expo-file-system` to read as base64 data URL:
@@ -59,7 +73,7 @@ const response = await fetch("https://api.openai.com/v1/responses", {
     Authorization: `Bearer ${process.env.EXPO_PUBLIC_VIBECODE_OPENAI_API_KEY}`,
   },
   body: JSON.stringify({
-    model: "gpt-5.2",
+    model: "gpt-5.1",
     input: [{
       role: "user",
       content: [

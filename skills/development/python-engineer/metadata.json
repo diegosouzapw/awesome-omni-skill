@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fe0714b9a6eff7637af09c5b27e7f8ed1445f5c7bd9bb74ba41b7c584d461408",
   "indexed_at": "2026-02-26T13:20:23.276Z",
-  "synced_at": "2026-02-27T02:33:23.438Z",
+  "synced_at": "2026-02-28T03:59:00.272Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/52edd170e785e09aeb7faf5a0d4af78068f56df900d17d9fd73d70b280399b82",
   "install_command": "mkdir -p .claude/skills/python-engineer && curl -sL \"https://raw.githubusercontent.com/kuroRy/dotfiles/main/config/claude/skills/python-engineer/SKILL.md\" > .claude/skills/python-engineer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kuroRy/dotfiles/main/config/claude/skills/python-engineer/SKILL.md"

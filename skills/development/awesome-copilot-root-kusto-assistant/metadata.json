@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "99f613a852c81bc30cf6fb554d51e37282d23d2107912aa1d5ccfdc4b22fedd9",
   "indexed_at": "2026-02-26T18:30:43.859Z",
-  "synced_at": "2026-02-27T02:34:01.313Z",
+  "synced_at": "2026-02-28T03:59:36.417Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ef062334b28c1684c9658f3ada7613929a90040ebe68947e7851feb0fde3e289",
   "install_command": "mkdir -p .claude/skills/awesome-copilot-root-kusto-assistant && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/awesome-copilot-root-codex-pack/.agents/skills/awesome-copilot-root-kusto-assistant/SKILL.md\" > .claude/skills/awesome-copilot-root-kusto-assistant/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/awesome-copilot-root-codex-pack/.agents/skills/awesome-copilot-root-kusto-assistant/SKILL.md"

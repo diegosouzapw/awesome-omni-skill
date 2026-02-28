@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cecb120fe5dd4f8c30e2683ca48d151ab82fd69fa31ef11557c4c5c9a736b77c",
   "indexed_at": "2026-02-26T19:30:56.765Z",
-  "synced_at": "2026-02-27T02:34:13.676Z",
+  "synced_at": "2026-02-28T03:59:47.186Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b3a585bdac6476a2ea6b29822cac446bfc3ca610e629cfab505047a6fa8e6736",
   "install_command": "mkdir -p .claude/skills/final-cut-pro && curl -sL \"https://raw.githubusercontent.com/MadAppGang/claude-code/main/plugins/video-editing/skills/final-cut-pro/SKILL.md\" > .claude/skills/final-cut-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MadAppGang/claude-code/main/plugins/video-editing/skills/final-cut-pro/SKILL.md"

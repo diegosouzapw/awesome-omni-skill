@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "944a903d4f1f7bd2ad735c4a11c0dedd0d45f40ec03195e064cba04d03bcb8d5",
   "indexed_at": "2026-02-26T14:19:43.750Z",
-  "synced_at": "2026-02-27T02:33:32.506Z",
+  "synced_at": "2026-02-28T03:59:08.918Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/de58a6eea3a1d904d14b467609b6973baa0f3d87d83b9d02385f0107307badf1",
   "install_command": "mkdir -p .claude/skills/neon-automation && curl -sL \"https://raw.githubusercontent.com/haniakrim21/everything-claude-code/main/skills/neon-automation/SKILL.md\" > .claude/skills/neon-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/haniakrim21/everything-claude-code/main/skills/neon-automation/SKILL.md"

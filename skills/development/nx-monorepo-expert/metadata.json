@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ef2519f09ce7c6085d17e6e9337b7d6b7894ffa247d6db63cade47cc9f0fa302",
   "indexed_at": "2026-02-26T14:15:38.990Z",
-  "synced_at": "2026-02-27T02:33:31.058Z",
+  "synced_at": "2026-02-28T03:59:07.566Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7c99c1fc81803e3fddcd04696f14fa9cfc3c6f94bc4d8c4e1662f926efcfdeaf",
   "install_command": "mkdir -p .claude/skills/nx-monorepo-expert && curl -sL \"https://raw.githubusercontent.com/codewizwit/human-in-the-loop/main/lib/skills/nx-monorepo/claude-skill.md/SKILL.md\" > .claude/skills/nx-monorepo-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/codewizwit/human-in-the-loop/main/lib/skills/nx-monorepo/claude-skill.md/SKILL.md"

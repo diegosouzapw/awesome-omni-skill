@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "872dce22c640e97b48642f25a69dc78514eaf30efdb7979b5befb8cdc0d99600",
   "indexed_at": "2026-02-26T17:25:20.722Z",
-  "synced_at": "2026-02-27T02:33:58.433Z",
+  "synced_at": "2026-02-28T03:59:33.553Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6676b149d663cbc6358cabb8e8c6ef452205cfa2088dc1e157ab918160361ec0",
   "install_command": "mkdir -p .claude/skills/react-observability && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/react-observability-cjharmath-claude-agents-skills/SKILL.md\" > .claude/skills/react-observability/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/react-observability-cjharmath-claude-agents-skills/SKILL.md"

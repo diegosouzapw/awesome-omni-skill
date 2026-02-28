@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3e0d2b13facec1e04aaa8d1c546deee99556798ebcfa5a0dd29f699ab660d520",
   "indexed_at": "2026-02-26T16:35:00.356Z",
-  "synced_at": "2026-02-27T02:33:52.730Z",
+  "synced_at": "2026-02-28T03:59:28.363Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0222f3286a0933816a884999352c0a31a59f2f6bcdaf299548c4bfa8f0416301",
   "install_command": "mkdir -p .claude/skills/add-event && curl -sL \"https://raw.githubusercontent.com/lfilho/cv/main/.claude/skills/add-event/SKILL.md\" > .claude/skills/add-event/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lfilho/cv/main/.claude/skills/add-event/SKILL.md"

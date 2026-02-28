@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b593364d6ba491e7fead0ddc3b2dd07766149968d798f131f9912abeb0014688",
   "indexed_at": "2026-02-27T05:48:11.530Z",
-  "synced_at": "2026-02-27T13:13:14.082Z",
+  "synced_at": "2026-02-28T04:00:02.237Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d2f9a3f3408b9f42a198e327a93ffd5cf631e6dba90f250dbf209c5a03df51c8",
   "install_command": "mkdir -p .claude/skills/existing-repo && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/alinaqi/claude-bootstrap/existing-repo/SKILL.md\" > .claude/skills/existing-repo/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/alinaqi/claude-bootstrap/existing-repo/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fd91420bf56a9f6252d37fdeb844aa99ca88117020d922e2b0ab85ecce9531b3",
   "indexed_at": "2026-02-26T14:25:13.151Z",
-  "synced_at": "2026-02-27T02:33:37.387Z",
+  "synced_at": "2026-02-28T03:59:13.720Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a69d0dc7f09e4cc35afbf2fe0c313543402f8bd3953b50e7a417344f8347d6b5",
   "install_command": "mkdir -p .claude/skills/proof-driven-development && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/proof-driven-development/SKILL.md\" > .claude/skills/proof-driven-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/proof-driven-development/SKILL.md"

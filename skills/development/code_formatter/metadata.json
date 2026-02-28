@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6767a40c723a912485e656c14e7c1c8a276050cb0cdc32f6cc479f900220584b",
   "indexed_at": "2026-02-26T14:25:10.884Z",
-  "synced_at": "2026-02-27T02:33:37.166Z",
+  "synced_at": "2026-02-28T03:59:13.513Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bf2ec4b5988b60d56343a9346e2ec529f9986d1258fdf718a70d7f1ce608b58b",
   "install_command": "mkdir -p .claude/skills/code_formatter && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/code-formatter/SKILL.md\" > .claude/skills/code_formatter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/code-formatter/SKILL.md"

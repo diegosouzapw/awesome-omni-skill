@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0238176de9b545a7e5e81d5f9dfee4bd7ae632725992dc0407bcbce55a50a53a",
   "indexed_at": "2026-02-26T12:25:44.895Z",
-  "synced_at": "2026-02-27T02:33:13.955Z",
+  "synced_at": "2026-02-28T03:58:51.083Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/55286d3ccd469fe6116b6fb4209f5b0bbe7327a5cdf4598cb1b613047f76bf8b",
   "install_command": "mkdir -p .claude/skills/vercel-deploy-claimable && curl -sL \"https://raw.githubusercontent.com/netflyapp/hexos-dashboard/main/03_ui/antigravity-awesome-skills-main-2/skills/vercel-deploy-claimable/SKILL.md\" > .claude/skills/vercel-deploy-claimable/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/netflyapp/hexos-dashboard/main/03_ui/antigravity-awesome-skills-main-2/skills/vercel-deploy-claimable/SKILL.md"

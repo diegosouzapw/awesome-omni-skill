@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8584b9a008b278b7499349e17784482bda2f91336ecf18196f4729c814b4f52b",
   "indexed_at": "2026-02-26T23:30:25.255Z",
-  "synced_at": "2026-02-27T02:34:15.873Z",
+  "synced_at": "2026-02-28T03:59:49.314Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ca85f2233719036b80e42beac77e588fef3eb5934ec71548e9fdc7054ec17388",
   "install_command": "mkdir -p .claude/skills/frontend-design && curl -sL \"https://raw.githubusercontent.com/tkhongsap/tkhongsap-website/main/.cursor/rules/frontend-design-skill.mdc/SKILL.md\" > .claude/skills/frontend-design/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tkhongsap/tkhongsap-website/main/.cursor/rules/frontend-design-skill.mdc/SKILL.md"

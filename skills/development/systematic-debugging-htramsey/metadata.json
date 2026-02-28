@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7102c6050e0aa549b3ab1af4e560a94f849df8fa889a0b7e277930bfb4502c6d",
   "indexed_at": "2026-02-26T13:17:46.877Z",
-  "synced_at": "2026-02-27T02:33:21.032Z",
+  "synced_at": "2026-02-28T03:58:57.916Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ca275327fa776b612cc0ca1d00c448c5b74cda1b3f231f468b74cacf32e11c30",
   "install_command": "mkdir -p .claude/skills/systematic-debugging && curl -sL \"https://raw.githubusercontent.com/HTRamsey/claude-config/main/skills/systematic-debugging/SKILL.md\" > .claude/skills/systematic-debugging/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/HTRamsey/claude-config/main/skills/systematic-debugging/SKILL.md"

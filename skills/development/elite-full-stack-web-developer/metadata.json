@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "575007316fba432725a0d15dd64b1e79d47cc57ac450490602d09aaf920e0267",
   "indexed_at": "2026-02-27T06:47:16.138Z",
-  "synced_at": "2026-02-27T13:13:20.074Z",
+  "synced_at": "2026-02-28T04:00:12.462Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a5978f1eaab0bf5798e097ab61aad919e17a13f85ec72a2dfd5fba181ec9d985",
   "install_command": "mkdir -p .claude/skills/elite-full-stack-web-developer && curl -sL \"https://raw.githubusercontent.com/yaronhayo/azores-landing/main/.agents/skills/web-developer/SKILL.md\" > .claude/skills/elite-full-stack-web-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yaronhayo/azores-landing/main/.agents/skills/web-developer/SKILL.md"

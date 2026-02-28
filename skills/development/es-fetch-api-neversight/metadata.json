@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ad0d1e637991eb8b76c33f89bea6362ddeecf9262a741939d72160f195821e45",
   "indexed_at": "2026-02-26T19:31:27.973Z",
-  "synced_at": "2026-02-27T02:34:14.035Z",
+  "synced_at": "2026-02-28T03:59:47.527Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2c09775367ca138788c929174a5250d082dd21e3b793268fbcbb34bb8bb9e953",
   "install_command": "mkdir -p .claude/skills/es-fetch-api && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/lchrennew/es-fetch-api/es-fetch-api/SKILL.md\" > .claude/skills/es-fetch-api/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/lchrennew/es-fetch-api/es-fetch-api/SKILL.md"

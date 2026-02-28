@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "13e63a70d993e2047d90922ffa34f70987a25abc67f88e38c163fbb7e8b77d8c",
   "indexed_at": "2026-02-26T14:19:51.458Z",
-  "synced_at": "2026-02-27T02:33:33.031Z",
+  "synced_at": "2026-02-28T03:59:09.420Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b1cdf3ca392b2d8e793e3674a51b8270deccbdcc68e4de79a7e4d5b2f1128993",
   "install_command": "mkdir -p .claude/skills/neon-automation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/composio-neon-automation/SKILL.md\" > .claude/skills/neon-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/composio-neon-automation/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4a89c8af7ffa34332c87be0a8a6b93fb5bc5cda5650eb3a92dbdef7a289b253c",
   "indexed_at": "2026-02-26T15:19:46.853Z",
-  "synced_at": "2026-02-27T02:33:42.293Z",
+  "synced_at": "2026-02-28T03:59:18.379Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3731dce93ba88be92d088e107ff50ca690212c4c91ed8f53fbbebc33c3b57b7c",
   "install_command": "mkdir -p .claude/skills/pptx && curl -sL \"https://raw.githubusercontent.com/danielmiessler/Personal_AI_Infrastructure/main/Releases/v2.4/.claude/skills/Documents/Pptx/SKILL.md\" > .claude/skills/pptx/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/danielmiessler/Personal_AI_Infrastructure/main/Releases/v2.4/.claude/skills/Documents/Pptx/SKILL.md"

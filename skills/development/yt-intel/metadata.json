@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ba6e7bfc705ffb52523ea298393cfbcdfb28db183c4cda8c84fc6ca4c9d82663",
   "indexed_at": "2026-02-26T14:22:36.284Z",
-  "synced_at": "2026-02-27T02:33:35.459Z",
+  "synced_at": "2026-02-28T03:59:11.777Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0b783bf30f6b8caee68f572012dac90511f727a93995127800107069a8b1e998",
   "install_command": "mkdir -p .claude/skills/yt-intel && curl -sL \"https://raw.githubusercontent.com/Agentic-Delivery/agentic-delivery-yt-rss-cron/main/skill/SKILL.md\" > .claude/skills/yt-intel/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Agentic-Delivery/agentic-delivery-yt-rss-cron/main/skill/SKILL.md"

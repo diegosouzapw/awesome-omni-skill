@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "981f1f533f8a5df3ab6fb15afc8666569526c153c2b49b56e742bfa1af9de398",
   "indexed_at": "2026-02-26T23:37:10.807Z",
-  "synced_at": "2026-02-27T02:34:19.672Z",
+  "synced_at": "2026-02-28T03:59:53.883Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fda600392a0626c125872b0d647a8dd611dce1287019cecb7b76cbb07a17854b",
   "install_command": "mkdir -p .claude/skills/cloudrun-development && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/cloudrun-development/SKILL.md\" > .claude/skills/cloudrun-development/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/cloudrun-development/SKILL.md"

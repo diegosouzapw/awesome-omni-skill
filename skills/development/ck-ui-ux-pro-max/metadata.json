@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b279ce6ed99e666ffd26cf08f986e6f6fc5cdd4dac0b35d83207eb97315f48fe",
   "indexed_at": "2026-02-26T12:25:21.082Z",
-  "synced_at": "2026-02-27T02:33:11.766Z",
+  "synced_at": "2026-02-28T03:58:49.000Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e4ade7be6c13b1303c97dee025cb3e20eca3baa287ef77bb86b0f7bae40e10b9",
   "install_command": "mkdir -p .claude/skills/ck-ui-ux-pro-max && curl -sL \"https://raw.githubusercontent.com/felix-howard/ella/main/.claude/skills/ui-ux-pro-max/SKILL.md\" > .claude/skills/ck-ui-ux-pro-max/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/felix-howard/ella/main/.claude/skills/ui-ux-pro-max/SKILL.md"

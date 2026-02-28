@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eaea7711a3711a11da6979ba22aed5a94c233d9bca81e735314aeb0001c23e9c",
   "indexed_at": "2026-02-26T15:16:02.664Z",
-  "synced_at": "2026-02-27T02:33:39.546Z",
+  "synced_at": "2026-02-28T03:59:15.780Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ca27a3087c2d6f513d1e291f913310e63828c0374185a525debb80f1b9949eda",
   "install_command": "mkdir -p .claude/skills/common-rules && curl -sL \"https://raw.githubusercontent.com/kafkaspanel1/panel/main/.cursor/skills/common-rules/SKILL.md\" > .claude/skills/common-rules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kafkaspanel1/panel/main/.cursor/skills/common-rules/SKILL.md"

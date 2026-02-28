@@ -1,8 +1,9 @@
 ---
-name: n8n-workflow-automation
+name: "n8n-workflow-automation"
 description: "Build no-code/low-code automation workflows for construction using n8n. Automate data extraction, cost estimation, report generation, and system integrations without writing code."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🚀", "os": ["win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"], "anyBins": ["ifcopenshell"]}}}
 ---
-
 # n8n Workflow Automation for Construction
 
 ## Overview

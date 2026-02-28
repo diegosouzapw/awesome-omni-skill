@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "428c46e3191e8a30321c1bb2e66d0d40fc22e17c10786ea9b58020bd56b6fdd7",
   "indexed_at": "2026-02-26T18:32:20.180Z",
-  "synced_at": "2026-02-27T02:34:03.407Z",
+  "synced_at": "2026-02-28T03:59:38.249Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3b6c37e1fbdcfb1514f16dedbfbaf6b2c317d9fa0de20a763216a4b65695d052",
   "install_command": "mkdir -p .claude/skills/copilot-sdk && curl -sL \"https://raw.githubusercontent.com/yunaamelia/apex-fast/main/skills/copilot-sdk/SKILL.md\" > .claude/skills/copilot-sdk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yunaamelia/apex-fast/main/skills/copilot-sdk/SKILL.md"

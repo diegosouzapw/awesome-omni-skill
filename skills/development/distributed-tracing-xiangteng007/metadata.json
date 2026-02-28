@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "498a20217ce0e8ee11d725e1453dde69d3df6486dbc28e1cfd71110b59bb0a27",
   "indexed_at": "2026-02-27T05:49:29.975Z",
-  "synced_at": "2026-02-27T13:13:14.870Z",
+  "synced_at": "2026-02-28T04:00:03.689Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f39167a5fdd057bb9199dd6dad8bcb15ac74f4ed4d3c324d80ec7f08d3ce455b",
   "install_command": "mkdir -p .claude/skills/distributed-tracing && curl -sL \"https://raw.githubusercontent.com/xiangteng007/XXT-AGENT/main/.codebuddy/skills/distributed-tracing/SKILL.md\" > .claude/skills/distributed-tracing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/xiangteng007/XXT-AGENT/main/.codebuddy/skills/distributed-tracing/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "93ddf0df254f062256f6b996f7216049b9264d1486615b8f19717a1ad38e6c25",
   "indexed_at": "2026-02-26T13:19:59.856Z",
-  "synced_at": "2026-02-27T02:33:22.870Z",
+  "synced_at": "2026-02-28T03:58:59.741Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/328ad7772e3144c3ebe7bf21ede150bb50c5183e51a129932891349c17fc0646",
   "install_command": "mkdir -p .claude/skills/vue-playwright-testing && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/vue-playwright-testing/SKILL.md\" > .claude/skills/vue-playwright-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/vue-playwright-testing/SKILL.md"

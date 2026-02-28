@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ce8736f45ebeddb611e3bb093d1520291f74cebed6d79d3b8c3c647c67bc8b17",
   "indexed_at": "2026-02-26T15:08:44.001Z",
-  "synced_at": "2026-02-27T02:33:39.189Z",
+  "synced_at": "2026-02-28T03:59:15.442Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/07d48bb4a46486b897fcde8b353ac5fd2c530fa55de67f9aab4bc25892a259e0",
   "install_command": "mkdir -p .claude/skills/deepagents-filesystem && curl -sL \"https://raw.githubusercontent.com/christian-bromann/langchain-skills/main/skills/deepagents-filesystem/python/SKILL.md\" > .claude/skills/deepagents-filesystem/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/christian-bromann/langchain-skills/main/skills/deepagents-filesystem/python/SKILL.md"

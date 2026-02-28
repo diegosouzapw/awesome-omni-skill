@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e709a3e6870f4f74968c26c51940fe6432f923b7c6d7e1362ec7dcdc3e586cfb",
   "indexed_at": "2026-02-26T16:02:17.969Z",
-  "synced_at": "2026-02-27T02:33:47.615Z",
+  "synced_at": "2026-02-28T03:59:23.389Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0d3c49b483d30da10e5ab35730f33b06063d10a7597e54957cdd17985e8fa94a",
   "install_command": "mkdir -p .claude/skills/chatgpt-apps-production-checklist && curl -sL \"https://raw.githubusercontent.com/jscraik/Agent-Skills/main/product/domain/chatgpt-apps-production-checklist/SKILL.md\" > .claude/skills/chatgpt-apps-production-checklist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jscraik/Agent-Skills/main/product/domain/chatgpt-apps-production-checklist/SKILL.md"

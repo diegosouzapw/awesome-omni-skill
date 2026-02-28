@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "86359c798ea2f56db1167e1564109814992abf04c2b64812911a27e76cf801a8",
   "indexed_at": "2026-02-26T15:26:55.986Z",
-  "synced_at": "2026-02-27T02:33:45.981Z",
+  "synced_at": "2026-02-28T03:59:21.680Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9e2156df6a229194541f9b2c9901075d28bc19fb2e75329a85b01979be9be485",
   "install_command": "mkdir -p .claude/skills/newsletter-events-write && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/documents/newsletter-events-write-aniketpanjwani-local-media-tools/SKILL.md\" > .claude/skills/newsletter-events-write/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/documents/newsletter-events-write-aniketpanjwani-local-media-tools/SKILL.md"

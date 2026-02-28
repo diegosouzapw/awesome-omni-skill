@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "92fef38e3ea91cc912cd131a91bd54eeb3be49c1aca028a835bcb604bdf392f8",
   "indexed_at": "2026-02-27T03:17:33.589Z",
-  "synced_at": "2026-02-27T13:13:11.783Z",
+  "synced_at": "2026-02-28T03:59:58.005Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3be2cbf094a3e80d6870461bee54413965c70661e37ad9555d270d608ae8b9ba",
   "install_command": "mkdir -p .claude/skills/write-documents && curl -sL \"https://raw.githubusercontent.com/karstenheld3/SharePoint-GPT-Middleware/main/.windsurf/skills/write-documents/SKILL.md\" > .claude/skills/write-documents/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/karstenheld3/SharePoint-GPT-Middleware/main/.windsurf/skills/write-documents/SKILL.md"

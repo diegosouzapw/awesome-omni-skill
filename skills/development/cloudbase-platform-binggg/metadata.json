@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "64566e428d2fb9e558d74c5fde4b57cb1ffeba34f7c75728def20b1309f6fe64",
   "indexed_at": "2026-02-26T23:33:43.269Z",
-  "synced_at": "2026-02-27T02:34:17.938Z",
+  "synced_at": "2026-02-28T03:59:51.329Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/76b8df8f069ac5a587be3e8a0b70e0f965dd7dbb46a53a13b04ebd129df33424",
   "install_command": "mkdir -p .claude/skills/cloudbase-platform && curl -sL \"https://raw.githubusercontent.com/binggg/GALAXY-VORTEX/main/.claude/skills/cloudbase-platform/SKILL.md\" > .claude/skills/cloudbase-platform/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/binggg/GALAXY-VORTEX/main/.claude/skills/cloudbase-platform/SKILL.md"

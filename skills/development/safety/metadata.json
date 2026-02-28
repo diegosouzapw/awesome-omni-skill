@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ef11c038250d176b7ee28fe04025bf4dd3de456fe00eef6b08cde9050f083d26",
   "indexed_at": "2026-02-26T15:22:46.551Z",
-  "synced_at": "2026-02-27T02:33:44.674Z",
+  "synced_at": "2026-02-28T03:59:20.504Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fde7ce688677bd7116ef0d599fb8a80353dec25f78ec313827d0277034d96503",
   "install_command": "mkdir -p .claude/skills/safety && curl -sL \"https://raw.githubusercontent.com/gullitmiranda/.cursor/main/skills/safety/SKILL.md\" > .claude/skills/safety/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/gullitmiranda/.cursor/main/skills/safety/SKILL.md"

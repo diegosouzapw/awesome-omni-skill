@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bd43007cb6562ce1149582fb8a5a4e271d0981a893b5737ed8a7d6d90c4ce22a",
   "indexed_at": "2026-02-26T15:17:46.725Z",
-  "synced_at": "2026-02-27T02:33:41.232Z",
+  "synced_at": "2026-02-28T03:59:17.367Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/449e4fa78292079b6a3ab931533a60da38744bb8733397069573b9f440ed6117",
   "install_command": "mkdir -p .claude/skills/eos-usage && curl -sL \"https://raw.githubusercontent.com/neurofoo/agent-skills/main/eos-usage/SKILL.md\" > .claude/skills/eos-usage/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/neurofoo/agent-skills/main/eos-usage/SKILL.md"

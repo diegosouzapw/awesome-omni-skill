@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "886f18ee4b56264e424c9c37ff40eded9a398edb18453b3a8811b5bd6eda6598",
   "indexed_at": "2026-02-27T05:52:18.095Z",
-  "synced_at": "2026-02-27T13:13:16.913Z",
+  "synced_at": "2026-02-28T04:00:07.457Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f7f167af1f30fcfbbf4f071ec52252b9e8abe3913e3c535923e7462cddbec200",
   "install_command": "mkdir -p .claude/skills/backend-ultimate && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/backend-expert-shajar5110-hackathon-ii-phase2-2/SKILL.md\" > .claude/skills/backend-ultimate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/backend-expert-shajar5110-hackathon-ii-phase2-2/SKILL.md"

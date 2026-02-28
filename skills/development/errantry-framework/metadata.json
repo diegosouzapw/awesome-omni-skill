@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5e5b893f381c8f8d2f70f4a4bb9fa3e368f1363438355d79cc50b49baa1a3df4",
   "indexed_at": "2026-02-26T18:31:07.650Z",
-  "synced_at": "2026-02-27T02:34:01.835Z",
+  "synced_at": "2026-02-28T03:59:36.946Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fca297e77f7d958462b04b961cfa284561b808c4061defefb47de3c9fa1a9dee",
   "install_command": "mkdir -p .claude/skills/errantry-framework && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/stusatwork-oss/errantry-framework/SKILL.md\" > .claude/skills/errantry-framework/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/stusatwork-oss/errantry-framework/SKILL.md"

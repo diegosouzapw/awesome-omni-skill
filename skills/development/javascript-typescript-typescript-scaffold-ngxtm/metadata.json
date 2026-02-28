@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e5e0f1e53cb5e59613f2114bbae8cfc5880b979768d1ccceb72d39e5163e37c9",
   "indexed_at": "2026-02-27T05:51:51.783Z",
-  "synced_at": "2026-02-27T13:13:16.368Z",
+  "synced_at": "2026-02-28T04:00:06.423Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f2b8be27631eb56016b410c92f452e5c212e1bd522e686e30c1fe740555f9381",
   "install_command": "mkdir -p .claude/skills/javascript-typescript-typescript-scaffold && curl -sL \"https://raw.githubusercontent.com/ngxtm/devkit/main/skills/javascript-typescript-typescript-scaffold/SKILL.md\" > .claude/skills/javascript-typescript-typescript-scaffold/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ngxtm/devkit/main/skills/javascript-typescript-typescript-scaffold/SKILL.md"

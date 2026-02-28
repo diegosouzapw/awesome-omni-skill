@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "148364948c002735e17c5e999486661b227c56e6b0d17884d31fd4561f0e925d",
   "indexed_at": "2026-02-26T13:24:23.730Z",
-  "synced_at": "2026-02-27T02:33:29.165Z",
+  "synced_at": "2026-02-28T03:59:05.753Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bf3fb495eb9b88e9dfaa15e1fbf66980df1befdcd7516e5ded3ce34c26690cc7",
   "install_command": "mkdir -p .claude/skills/verification-before-completion && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/verification-before-completion-smooth-operation-household-expense-tr/SKILL.md\" > .claude/skills/verification-before-completion/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/verification-before-completion-smooth-operation-household-expense-tr/SKILL.md"

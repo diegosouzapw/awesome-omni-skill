@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "03815539ac3c069edcf81dbf999dbb678b67b4b8dab2bbf36bc15fbe71dcaef0",
   "indexed_at": "2026-02-26T14:15:35.135Z",
-  "synced_at": "2026-02-27T02:33:30.897Z",
+  "synced_at": "2026-02-28T03:59:07.388Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/240b2c109339a0d76302f0ed7facf5b1a6174a0fc9ac1d1d450d2bb1c0452069",
   "install_command": "mkdir -p .claude/skills/workflow-automation && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/shipshitdev/library/workflow-automation/SKILL.md\" > .claude/skills/workflow-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/shipshitdev/library/workflow-automation/SKILL.md"

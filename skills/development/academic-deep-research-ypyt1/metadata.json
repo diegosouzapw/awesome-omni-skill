@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d720a8bb74d1bba109b8797012b134241f07e50f486356f80e86d7cede4b4f31",
   "indexed_at": "2026-02-26T18:35:25.703Z",
-  "synced_at": "2026-02-27T02:34:07.687Z",
+  "synced_at": "2026-02-28T03:59:42.493Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/77d4a25a28106a1fe4d6371d5c6b804a34aec0e021869d7e2df68c98649b3d8f",
   "install_command": "mkdir -p .claude/skills/academic-deep-research && curl -sL \"https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/kesslerio/academic-deep-research/SKILL.md\" > .claude/skills/academic-deep-research/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/YPYT1/All-skills/main/skills/openclaw-skills/kesslerio/academic-deep-research/SKILL.md"

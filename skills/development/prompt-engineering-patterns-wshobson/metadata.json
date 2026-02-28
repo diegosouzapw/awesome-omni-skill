@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0cac3216177584fe69645af9121d109a86bd991f2952c8e43a9537f1595b7a71",
   "indexed_at": "2026-02-26T13:19:06.972Z",
-  "synced_at": "2026-02-27T02:33:21.884Z",
+  "synced_at": "2026-02-28T03:58:58.748Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ca36922f9a391290c30a403e3dbe61debc1e787c1a9442a7ac3e3ad787737415",
   "install_command": "mkdir -p .claude/skills/prompt-engineering-patterns && curl -sL \"https://raw.githubusercontent.com/wshobson/agents/main/plugins/llm-application-dev/skills/prompt-engineering-patterns/SKILL.md\" > .claude/skills/prompt-engineering-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/llm-application-dev/skills/prompt-engineering-patterns/SKILL.md"

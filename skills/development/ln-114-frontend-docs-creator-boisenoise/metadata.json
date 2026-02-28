@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9e274189e0ee3d373802030e800f979ff1fe6649e77ccde4811b8748cea42d7f",
   "indexed_at": "2026-02-27T06:46:17.162Z",
-  "synced_at": "2026-02-27T13:13:19.541Z",
+  "synced_at": "2026-02-28T04:00:11.650Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9adab6021cc51b4a1d0291cb03dbfd7ba0f91447c253ec22bf7f2d2e20a7171d",
   "install_command": "mkdir -p .claude/skills/ln-114-frontend-docs-creator && curl -sL \"https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/levn-ln-114-frontend-docs-creator/SKILL.md\" > .claude/skills/ln-114-frontend-docs-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boisenoise/skills-collections/main/skills/levn-ln-114-frontend-docs-creator/SKILL.md"

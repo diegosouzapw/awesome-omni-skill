@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1241e07695fd0b2f5a251d43eb2cdee8185d8d3d9fe238299ac347dbbf89029a",
   "indexed_at": "2026-02-26T18:32:27.845Z",
-  "synced_at": "2026-02-27T02:34:03.762Z",
+  "synced_at": "2026-02-28T03:59:38.581Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/56842f48603701e40150cf3ca7b1def97bd4e90ff0d915f0afba08d76617406e",
   "install_command": "mkdir -p .claude/skills/bitrix24-agent && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/vrtalex/bitrix24-skill/bitrix24-agent/SKILL.md\" > .claude/skills/bitrix24-agent/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/vrtalex/bitrix24-skill/bitrix24-agent/SKILL.md"

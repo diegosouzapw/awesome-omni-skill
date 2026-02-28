@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7539f3b084d0635f809e33f4e88917cea2b850ed7b0314bd5128134a4cbf4f8e",
   "indexed_at": "2026-02-26T15:05:18.296Z",
-  "synced_at": "2026-02-27T02:33:39.030Z",
+  "synced_at": "2026-02-28T03:59:15.289Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/812c103fc95439072bcf90538d67240b8086af6f40b5bc308623e10ec0a8e715",
   "install_command": "mkdir -p .claude/skills/rename-method && curl -sL \"https://raw.githubusercontent.com/krzysztofsurdy/code-virtuoso/main/skills/refactoring/rename-method/SKILL.md\" > .claude/skills/rename-method/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/krzysztofsurdy/code-virtuoso/main/skills/refactoring/rename-method/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b112a2b9e2711783333ebdd9d42040af07db551d42293df2ba8ff4143d52b6b6",
   "indexed_at": "2026-02-26T15:20:13.624Z",
-  "synced_at": "2026-02-27T02:33:42.444Z",
+  "synced_at": "2026-02-28T03:59:18.529Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8fd8aef6dab2be8e266f609b68debd8e53f3a01f60200ca80b84e011e989c9f5",
   "install_command": "mkdir -p .claude/skills/optimize-prompt && curl -sL \"https://raw.githubusercontent.com/ThepExcel/agent-skills/main/optimize-prompt/SKILL.md\" > .claude/skills/optimize-prompt/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ThepExcel/agent-skills/main/optimize-prompt/SKILL.md"

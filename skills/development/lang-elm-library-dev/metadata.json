@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e60b52cd119b0e276810b0f7163f5c6e4f898e245148263e14a0dca34c2fcf39",
   "indexed_at": "2026-02-26T15:20:45.625Z",
-  "synced_at": "2026-02-27T02:33:42.898Z",
+  "synced_at": "2026-02-28T03:59:18.851Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7a20253ebf600433dcb9494be0192cb64e491e4dc825258a01e38d34bdaffbcc",
   "install_command": "mkdir -p .claude/skills/lang-elm-library-dev && curl -sL \"https://raw.githubusercontent.com/aRustyDev/ai/main/context/skills/lang-elm-library-dev/SKILL.md\" > .claude/skills/lang-elm-library-dev/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aRustyDev/ai/main/context/skills/lang-elm-library-dev/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3e46288b425f0f470ab1f7c68536b09e68e6c89c5474d2bfdbd52a6abe35b3b8",
   "indexed_at": "2026-02-26T14:22:38.814Z",
-  "synced_at": "2026-02-27T02:33:35.639Z",
+  "synced_at": "2026-02-28T03:59:11.967Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5e2cbc9b426ac1753779f91d5936a5ef1e90d171253123baf4f7479021add721",
   "install_command": "mkdir -p .claude/skills/performance-testing-review-ai-review && curl -sL \"https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/performance-testing-review-ai-review/SKILL.md\" > .claude/skills/performance-testing-review-ai-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chicanoandres702/SentientAIBrowser/main/.agents/workflows/performance-testing-review-ai-review/SKILL.md"

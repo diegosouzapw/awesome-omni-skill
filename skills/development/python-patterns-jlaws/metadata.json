@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9f633005af3e72f815747fc9139bcfb7bff04b0acff39dbeab1087824bb51f24",
   "indexed_at": "2026-02-26T12:28:01.282Z",
-  "synced_at": "2026-02-27T02:33:16.250Z",
+  "synced_at": "2026-02-28T03:58:53.108Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/74551fa5acc89e861e237c6ec1961ade884efbfc77733251f699e1c6db8a594f",
   "install_command": "mkdir -p .claude/skills/python-patterns && curl -sL \"https://raw.githubusercontent.com/jlaws/dotfiles/main/.claude/skills/languages/python-patterns/SKILL.md\" > .claude/skills/python-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jlaws/dotfiles/main/.claude/skills/languages/python-patterns/SKILL.md"

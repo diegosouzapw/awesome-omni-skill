@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3654ee7135f8ea39e93ff02e1498c2943d82347aa87dc18854a840a41ac7e0b7",
   "indexed_at": "2026-02-26T14:24:12.045Z",
-  "synced_at": "2026-02-27T02:33:36.765Z",
+  "synced_at": "2026-02-28T03:59:13.142Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c60a2fbd31dcdc9f3cd509723528af1c69fcb989aca95cfe45b9226810097119",
   "install_command": "mkdir -p .claude/skills/framework-migration-legacy-modernize && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/framework-migration-codex-pack/.agents/skills/framework-migration-legacy-modernize/SKILL.md\" > .claude/skills/framework-migration-legacy-modernize/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/framework-migration-codex-pack/.agents/skills/framework-migration-legacy-modernize/SKILL.md"

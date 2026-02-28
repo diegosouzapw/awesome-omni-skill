@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "271d32803e6a47d28e7d7627e20ab36aca61f2540d04cf514a9054e5af654c1d",
   "indexed_at": "2026-02-26T13:23:54.631Z",
-  "synced_at": "2026-02-27T02:33:28.152Z",
+  "synced_at": "2026-02-28T03:59:04.828Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6e85db8ef45b9b791dd3694b2bf2bf47b5680754e21b2c444965a096cf96f953",
   "install_command": "mkdir -p .claude/skills/finishing-a-development-branch && curl -sL \"https://raw.githubusercontent.com/liauw-media/household-expense-tracker/main/.claude/skills/workflow/finishing-a-development-branch/SKILL.md\" > .claude/skills/finishing-a-development-branch/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/liauw-media/household-expense-tracker/main/.claude/skills/workflow/finishing-a-development-branch/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "69ee553fb5892629d19325e353475eda47e81fbc06bb96e556c0cdd517b0d642",
   "indexed_at": "2026-02-26T17:32:12.692Z",
-  "synced_at": "2026-02-27T02:33:59.323Z",
+  "synced_at": "2026-02-28T03:59:34.435Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aa8cf1cdf034eca703de6a316efc2253016e6292cafaee6577c3b51f8eb4ee83",
   "install_command": "mkdir -p .claude/skills/faf-teacher && curl -sL \"https://raw.githubusercontent.com/Wolfe-Jam/faf-skills/main/skills/faf-teacher/SKILL.md\" > .claude/skills/faf-teacher/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Wolfe-Jam/faf-skills/main/skills/faf-teacher/SKILL.md"

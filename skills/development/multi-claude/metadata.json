@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c4965fb21d57b7f4454399a366287176563d28f1d0d069a7301ff733c2ae1fe8",
   "indexed_at": "2026-02-26T16:32:21.894Z",
-  "synced_at": "2026-02-27T02:33:50.683Z",
+  "synced_at": "2026-02-28T03:59:26.360Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0f5c1e99eb9fc9669ecf3f31adb2535483baed678d3928d2da34c45c5b109a1b",
   "install_command": "mkdir -p .claude/skills/multi-claude && curl -sL \"https://raw.githubusercontent.com/rahulsub/code-practices-plugin/main/skills/multi-claude/SKILL.md\" > .claude/skills/multi-claude/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rahulsub/code-practices-plugin/main/skills/multi-claude/SKILL.md"

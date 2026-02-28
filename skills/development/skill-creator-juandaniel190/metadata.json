@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3a8cd72508ee6933adf354c5bec0a02caa4ae2b823ae1477d89b7ef1f583bcd9",
   "indexed_at": "2026-02-26T16:38:48.513Z",
-  "synced_at": "2026-02-27T02:33:56.166Z",
+  "synced_at": "2026-02-28T03:59:31.632Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/53c9cfb115a03d70b81d61b0314a3c5d36f4d87d6264ce8e71d142c7fdc825a5",
   "install_command": "mkdir -p .claude/skills/skill-creator && curl -sL \"https://raw.githubusercontent.com/juandaniel190/personal-projects/main/.claude/.claude_backup/skills/tools/skill-creator/SKILL.md\" > .claude/skills/skill-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/juandaniel190/personal-projects/main/.claude/.claude_backup/skills/tools/skill-creator/SKILL.md"

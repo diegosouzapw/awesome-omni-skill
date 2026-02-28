@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "998255c161506bf918c51d55926d5a63e891d013c4407c8a4106b374e97d11da",
   "indexed_at": "2026-02-26T16:35:59.034Z",
-  "synced_at": "2026-02-27T02:33:53.286Z",
+  "synced_at": "2026-02-28T03:59:28.883Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/14c1865303b05580e5c621fdb502496412cdacc55d6e1cd9d2018dc25e11c7cf",
   "install_command": "mkdir -p .claude/skills/claude-typescript-sdk && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/claude-typescript-sdk-anveio-conveaux/SKILL.md\" > .claude/skills/claude-typescript-sdk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/claude-typescript-sdk-anveio-conveaux/SKILL.md"

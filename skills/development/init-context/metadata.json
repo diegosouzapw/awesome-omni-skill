@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "da9e85ae3d9b42ad1c865b0b48c0afb4bff48d6c64ea0f4c6768f4d115273e0a",
   "indexed_at": "2026-02-26T23:39:44.873Z",
-  "synced_at": "2026-02-27T02:34:21.203Z",
+  "synced_at": "2026-02-28T03:59:55.169Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9ec173cd6fe4d826184a781577367c236d0fe18980599dc16940fd1d365038d8",
   "install_command": "mkdir -p .claude/skills/init-context && curl -sL \"https://raw.githubusercontent.com/devclarityai/environment-setup/main/cursor/.cursor/skills/init-context/SKILL.md\" > .claude/skills/init-context/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/devclarityai/environment-setup/main/cursor/.cursor/skills/init-context/SKILL.md"

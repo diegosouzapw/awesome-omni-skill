@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "12088aa7faff088104ada1d147d47cc191392c0dca609a0d092de06a8bfd724e",
   "indexed_at": "2026-02-26T13:15:59.056Z",
-  "synced_at": "2026-02-27T02:33:19.023Z",
+  "synced_at": "2026-02-28T03:58:55.875Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9c90c587661031e0f629ab593128a22a11beb67fa92dffabc2fd16af01945f2f",
   "install_command": "mkdir -p .claude/skills/website-review && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/cgjen-box__evolea-website__claude__skills__website-review__SKILL.md/SKILL.md\" > .claude/skills/website-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/cgjen-box__evolea-website__claude__skills__website-review__SKILL.md/SKILL.md"

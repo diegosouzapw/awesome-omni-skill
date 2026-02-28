@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "89150bd5b774ea660d835de583919a703eb16d07fb9e3869cc2bbe6402840805",
   "indexed_at": "2026-02-27T06:51:16.470Z",
-  "synced_at": "2026-02-27T13:13:22.527Z",
+  "synced_at": "2026-02-28T04:00:16.660Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4a616981f1e6ccdf8589a42b75593e185073bf97cdd7884814d59f05180c5656",
   "install_command": "mkdir -p .claude/skills/vue-writer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/vue-writer-rasmusgodske-claude-code-agent-co/SKILL.md\" > .claude/skills/vue-writer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/vue-writer-rasmusgodske-claude-code-agent-co/SKILL.md"

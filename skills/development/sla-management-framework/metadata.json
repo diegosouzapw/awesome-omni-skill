@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a03a106569035c541796dede5488151c45a4921c6eceeecc314512bcb9fb826f",
   "indexed_at": "2026-02-26T14:22:52.898Z",
-  "synced_at": "2026-02-27T02:33:35.993Z",
+  "synced_at": "2026-02-28T03:59:12.303Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f1db20ee38a45fadeba03092d2daaed57ad8ecac7d28ff1a8c9d87e284e7ae14",
   "install_command": "mkdir -p .claude/skills/sla-management-framework && curl -sL \"https://raw.githubusercontent.com/juandaniel190/personal-projects/main/.claude/skills/revops/sla-management-framework/SKILL.md\" > .claude/skills/sla-management-framework/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/juandaniel190/personal-projects/main/.claude/skills/revops/sla-management-framework/SKILL.md"

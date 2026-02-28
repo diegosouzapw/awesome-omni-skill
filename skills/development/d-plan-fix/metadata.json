@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "82d4f4590df8b4f08b3def5c40f470650d69b056e7aaaf9d45f0101d7718a58a",
   "indexed_at": "2026-02-26T19:11:33.759Z",
-  "synced_at": "2026-02-27T02:34:11.847Z",
+  "synced_at": "2026-02-28T03:59:46.270Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/795e89ec222b0b36e549da6a164b1f2e0a59ee3ffb038eafae8022dbd5eaaa11",
   "install_command": "mkdir -p .claude/skills/d-plan-fix && curl -sL \"https://raw.githubusercontent.com/Hoang604/get-thing-done/main/.claude/skills/d-plan-fix/SKILL.md\" > .claude/skills/d-plan-fix/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Hoang604/get-thing-done/main/.claude/skills/d-plan-fix/SKILL.md"

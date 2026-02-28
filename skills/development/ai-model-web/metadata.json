@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "42d1bb375257d50989ed550b54cbca14118951b4ba117d8385b91c70ad604902",
   "indexed_at": "2026-02-26T23:38:11.154Z",
-  "synced_at": "2026-02-27T02:34:20.247Z",
+  "synced_at": "2026-02-28T03:59:54.453Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ecdfb4636cf63c059cf8f6cfed460d7d4036b563d928e23189e0c13fda602e6c",
   "install_command": "mkdir -p .claude/skills/ai-model-web && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/tencentcloudbase/skills/ai-model-web/SKILL.md\" > .claude/skills/ai-model-web/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/tencentcloudbase/skills/ai-model-web/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1c76e1e321ce9ffa05d23358a54439d188aef4d4c013a3cb87ac91b7fde7bf5e",
   "indexed_at": "2026-02-26T16:39:38.969Z",
-  "synced_at": "2026-02-27T02:33:57.156Z",
+  "synced_at": "2026-02-28T03:59:32.362Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/960f58ea4d2a19686c132484c5349db5771466b3df04b9e0e6fee469438026d5",
   "install_command": "mkdir -p .claude/skills/performance-testing-review-ai-review && curl -sL \"https://raw.githubusercontent.com/namanprat/duforn/main/.agent/skills/performance-testing-review-ai-review/SKILL.md\" > .claude/skills/performance-testing-review-ai-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/namanprat/duforn/main/.agent/skills/performance-testing-review-ai-review/SKILL.md"

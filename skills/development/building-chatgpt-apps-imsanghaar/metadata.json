@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "426a71a8af724faed6da19f0fcaee4aa24d66cfd2cd915e2a32e87e7c8dd6684",
   "indexed_at": "2026-02-26T16:03:25.754Z",
-  "synced_at": "2026-02-27T02:33:49.343Z",
+  "synced_at": "2026-02-28T03:59:25.060Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7da38386f72155f274c3b85779674a449458838a4a89b023076e8a82ce0875e2",
   "install_command": "mkdir -p .claude/skills/building-chatgpt-apps && curl -sL \"https://raw.githubusercontent.com/imsanghaar/agentfactory/main/docs/_skills_archive/cold/building-chatgpt-apps/SKILL.md\" > .claude/skills/building-chatgpt-apps/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/imsanghaar/agentfactory/main/docs/_skills_archive/cold/building-chatgpt-apps/SKILL.md"

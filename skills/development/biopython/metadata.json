@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "eb18a58d6fde725776c74aa46cd7913845d07f150c32640743748f10b3cdcaba",
   "indexed_at": "2026-02-26T14:21:46.723Z",
-  "synced_at": "2026-02-27T02:33:34.655Z",
+  "synced_at": "2026-02-28T03:59:11.103Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5156407f3664276d3770677ccf7374c47e71f3fef1f1fe838ffc580ba697d42c",
   "install_command": "mkdir -p .claude/skills/biopython && curl -sL \"https://raw.githubusercontent.com/x-cmd/skill/main/data/k-dense-ai/biopython/SKILL.md\" > .claude/skills/biopython/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/x-cmd/skill/main/data/k-dense-ai/biopython/SKILL.md"

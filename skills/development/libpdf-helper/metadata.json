@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ddd69691fda9104cc87b062ab23302ab790f378a3a819bad86e3b02e6e75005c",
   "indexed_at": "2026-02-27T06:31:08.857Z",
-  "synced_at": "2026-02-27T13:13:19.093Z",
+  "synced_at": "2026-02-28T04:00:11.079Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cab1b5508ed299e534be8e832ab1724964a07c06420cd3f9b3d45266ca51330d",
   "install_command": "mkdir -p .claude/skills/libpdf-helper && curl -sL \"https://raw.githubusercontent.com/ephraimduncan/libpdf-skill/main/SKILL.md\" > .claude/skills/libpdf-helper/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ephraimduncan/libpdf-skill/main/SKILL.md"

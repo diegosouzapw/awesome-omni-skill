@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ee3637e1879ed120ce3e94710a90d242f0641480118ac0ad6ca7264121f0aa7b",
   "indexed_at": "2026-02-26T15:00:50.544Z",
-  "synced_at": "2026-02-27T02:33:38.870Z",
+  "synced_at": "2026-02-28T03:59:15.120Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/373153cf1a3a27b2d69897074682fcc959f09d9396bf92e48a21a58561bd3e09",
   "install_command": "mkdir -p .claude/skills/framework-learning && curl -sL \"https://raw.githubusercontent.com/D-Yuva/docs-learning-claude-skill/main/SKILL.md\" > .claude/skills/framework-learning/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/D-Yuva/docs-learning-claude-skill/main/SKILL.md"

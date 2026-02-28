@@ -156,7 +156,7 @@ When you add a dependency on another Firefly service's SDK, you omit the `<versi
 
 | Module | Content | Key Dependencies |
 |--------|---------|-----------------|
-| `{service}-infra` | SDK client factories, `@ConfigurationProperties` for downstream base paths | Core service SDKs (e.g., `core-common-customer-mgmt-sdk`), `fireflyframework-utils` |
+| `{service}-infra` | SDK client factories, `@ConfigurationProperties` for downstream base paths, third-party integration services (real or dummy) | Core service SDKs (e.g., `core-common-customer-mgmt-sdk`), `fireflyframework-utils` |
 | `{service}-interfaces` | Domain-level DTOs and contracts | `{service}-core`, `fireflyframework-utils`, `fireflyframework-validators` |
 | `{service}-core` | Commands, handlers, sagas/workflows, domain services (CQRS pattern) | `{service}-infra`, core SDKs, `fireflyframework-starter-domain` |
 | `{service}-web` | REST controllers, Spring Boot app, `application.yaml` | `{service}-interfaces`, `fireflyframework-web`, `springdoc-openapi-starter-webflux-ui` |

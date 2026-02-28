@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "41ec8e66223b9f5bb6c6926833fbd7303d71002e2cc17f3516d315830df89e65",
   "indexed_at": "2026-02-26T15:16:26.213Z",
-  "synced_at": "2026-02-27T02:33:39.733Z",
+  "synced_at": "2026-02-28T03:59:15.943Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aab52d387a52a8ff2993483474499805fc0f094ee19840d5d86498ac7187bdf8",
   "install_command": "mkdir -p .claude/skills/applying-brand-guidelines && curl -sL \"https://raw.githubusercontent.com/ashleytower/claude-skills-collection/main/skills/brand-guidelines/SKILL.md\" > .claude/skills/applying-brand-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ashleytower/claude-skills-collection/main/skills/brand-guidelines/SKILL.md"

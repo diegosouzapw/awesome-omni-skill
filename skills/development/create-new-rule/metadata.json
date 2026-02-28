@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "78f24103d1600ade61183f659cd5d19a8f6e1d5cf4a6081a557f98eb3444243b",
   "indexed_at": "2026-02-26T23:40:49.828Z",
-  "synced_at": "2026-02-27T02:34:21.394Z",
+  "synced_at": "2026-02-28T03:59:55.346Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c4387931c3b17481878055832852d9b2f9d2d1957bd8902f390d1b2888b35efc",
   "install_command": "mkdir -p .claude/skills/create-new-rule && curl -sL \"https://raw.githubusercontent.com/ianrios/home-directory/main/.cursor/skills/create-new-rule/SKILL.md\" > .claude/skills/create-new-rule/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ianrios/home-directory/main/.cursor/skills/create-new-rule/SKILL.md"

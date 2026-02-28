@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3dc81a1c5a85645f2bad6ae2fc643ec5eea91a4cd19877915ec15ed5f24ce59b",
   "indexed_at": "2026-02-26T18:32:15.292Z",
-  "synced_at": "2026-02-27T02:34:03.205Z",
+  "synced_at": "2026-02-28T03:59:38.095Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/766361aa3f2fdca8ab1bfc0ae630cdf8207c83ca27c0686211edf13f3de4d6ba",
   "install_command": "mkdir -p .claude/skills/search-copilot-chats && curl -sL \"https://raw.githubusercontent.com/Arithmomaniac/copilot-session-tools/main/.claude/skills/search-copilot-chats/SKILL.md\" > .claude/skills/search-copilot-chats/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Arithmomaniac/copilot-session-tools/main/.claude/skills/search-copilot-chats/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "290324ef47ec34bf3639a981b5212463853e5c0fd9bd6aedd0d9a0112ae15f06",
   "indexed_at": "2026-02-27T06:49:46.398Z",
-  "synced_at": "2026-02-27T13:13:21.630Z",
+  "synced_at": "2026-02-28T04:00:15.367Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9ff8eeed28a5d69cec24963144098c75feba8e714e761d5e9656710de16adb46",
   "install_command": "mkdir -p .claude/skills/architect-coordinator && curl -sL \"https://raw.githubusercontent.com/cloudzun/architect-coordinator/main/SKILL.md\" > .claude/skills/architect-coordinator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cloudzun/architect-coordinator/main/SKILL.md"

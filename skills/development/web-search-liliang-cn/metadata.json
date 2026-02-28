@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0e0e31d01ba969c19ed5fe856226aef053a12526c51af4cf47b2d80db2c2893f",
   "indexed_at": "2026-02-26T12:54:39.566Z",
-  "synced_at": "2026-02-27T02:33:17.397Z",
+  "synced_at": "2026-02-28T03:58:54.167Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/40f40fd0b1734483ef09f6429982d185f86169e8bd17e115ec3b7eb5217c4b74",
   "install_command": "mkdir -p .claude/skills/web-search && curl -sL \"https://raw.githubusercontent.com/liliang-cn/mcp-websearch-server/main/SKILL.md\" > .claude/skills/web-search/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/liliang-cn/mcp-websearch-server/main/SKILL.md"

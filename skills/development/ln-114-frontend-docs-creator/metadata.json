@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f9f9f0d8bcc8c07dec62f713d951d8b02be76278a52bc91ca0b47b4aaa32a765",
   "indexed_at": "2026-02-27T06:46:15.826Z",
-  "synced_at": "2026-02-27T13:13:19.393Z",
+  "synced_at": "2026-02-28T04:00:11.421Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/305d8c8b6ec8ce0555564f95fdc59a6c6f57832a6ee36866d50e3455f7a68cdd",
   "install_command": "mkdir -p .claude/skills/ln-114-frontend-docs-creator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/ln-114-frontend-docs-creator/SKILL.md\" > .claude/skills/ln-114-frontend-docs-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/ln-114-frontend-docs-creator/SKILL.md"

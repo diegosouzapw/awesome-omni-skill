@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bafd389e510c139c84f6080bd30412d0de9fe069a51e305cd4adde7d33796d0e",
   "indexed_at": "2026-02-26T16:41:29.430Z",
-  "synced_at": "2026-02-27T02:33:57.541Z",
+  "synced_at": "2026-02-28T03:59:32.722Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0e26a79d6c5a7fa782eed27ce06ad038fb78c4cbe4ef96ccbda38d23577e2900",
   "install_command": "mkdir -p .claude/skills/exa-answer && curl -sL \"https://raw.githubusercontent.com/benjaminjackson/exa-skills/main/exa-core/skills/answer/SKILL.md\" > .claude/skills/exa-answer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/benjaminjackson/exa-skills/main/exa-core/skills/answer/SKILL.md"

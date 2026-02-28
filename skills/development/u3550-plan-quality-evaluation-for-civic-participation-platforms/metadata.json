@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b685d9c21a450681bda7b32fcf5c5cf46f4f7f815323282a80f565be312ad4d2",
   "indexed_at": "2026-02-27T01:16:52.943Z",
-  "synced_at": "2026-02-27T02:34:23.149Z",
+  "synced_at": "2026-02-28T03:59:56.942Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a1044bc84ec58f3f1ec022274866f4dcf44cf8e01f7491453f5336458632dd27",
   "install_command": "mkdir -p .claude/skills/u3550-plan-quality-evaluation-for-civic-participation-platforms && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/03/3550-plan-quality-evaluation-for-civic-participation-platforms/SKILL.md\" > .claude/skills/u3550-plan-quality-evaluation-for-civic-participation-platforms/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/03/3550-plan-quality-evaluation-for-civic-participation-platforms/SKILL.md"

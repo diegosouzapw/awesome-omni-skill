@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8434cd9fc854a6ed8404c7cf91abf3054fa89fcd9ba9d97df912973e87764000",
   "indexed_at": "2026-02-26T12:24:50.739Z",
-  "synced_at": "2026-02-27T02:33:09.460Z",
+  "synced_at": "2026-02-28T03:58:47.112Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8583d0e64d17765d25c3ce6b7ae30873a3d13e8ebabb228199d079bdc0e5c87a",
   "install_command": "mkdir -p .claude/skills/fct-web-ui-ux && curl -sL \"https://raw.githubusercontent.com/pascalandy/dotfiles/main/dot_config/opencode/skill/web-ui-ux-pro-max/SKILL.md\" > .claude/skills/fct-web-ui-ux/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pascalandy/dotfiles/main/dot_config/opencode/skill/web-ui-ux-pro-max/SKILL.md"

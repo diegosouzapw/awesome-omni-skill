@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "99b0fa3d1647c0463507ed807df3bfc6bfae48aeb85c8c34b5eb928d376c2be0",
   "indexed_at": "2026-02-26T19:24:34.232Z",
-  "synced_at": "2026-02-27T02:34:13.004Z",
+  "synced_at": "2026-02-28T03:59:46.436Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8a1ba24df794e5625e40a66b6c6d83a230d9f89acb94f1f7ec899bcf2849fd61",
   "install_command": "mkdir -p .claude/skills/babel-config && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/babel-config-sayali-ingle-pdl-adusa-ai-vuejs-app-t/SKILL.md\" > .claude/skills/babel-config/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/babel-config-sayali-ingle-pdl-adusa-ai-vuejs-app-t/SKILL.md"

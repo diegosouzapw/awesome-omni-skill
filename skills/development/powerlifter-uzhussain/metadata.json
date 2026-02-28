@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "749a4cbdfa3b6193a8d6b4ac7a48850949623cfa47ec3c68a9a960d2aa9238be",
   "indexed_at": "2026-02-26T16:11:23.797Z",
-  "synced_at": "2026-02-27T02:33:49.692Z",
+  "synced_at": "2026-02-28T03:59:25.391Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bb0d9773bdff4b380e50716a1630c01462b445c07ea99cd597b6af11d9530b96",
   "install_command": "mkdir -p .claude/skills/powerlifter && curl -sL \"https://raw.githubusercontent.com/uzhussain/powerlifter/main/SKILL.md\" > .claude/skills/powerlifter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/uzhussain/powerlifter/main/SKILL.md"

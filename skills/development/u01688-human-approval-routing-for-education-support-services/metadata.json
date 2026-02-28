@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "82aaf4596c405aca7e6268503d6ba248d7b8e4e8bf5b06e4df39b99c47c6bca7",
   "indexed_at": "2026-02-26T23:22:43.992Z",
-  "synced_at": "2026-02-27T02:34:15.305Z",
+  "synced_at": "2026-02-28T03:59:48.787Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f004df76f6b713073510ef3eea314fd90fd969737d6cfb45f70f920c966cd2ed",
   "install_command": "mkdir -p .claude/skills/u01688-human-approval-routing-for-education-support-services && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/01/1688-human-approval-routing-for-education-support-services/SKILL.md\" > .claude/skills/u01688-human-approval-routing-for-education-support-services/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/01/1688-human-approval-routing-for-education-support-services/SKILL.md"

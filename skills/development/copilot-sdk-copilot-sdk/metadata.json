@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e18d408046d429d8f622fff262fcf3468bf7832b24e38fdf669605fbc9fe923f",
   "indexed_at": "2026-02-26T18:32:55.286Z",
-  "synced_at": "2026-02-27T02:34:04.292Z",
+  "synced_at": "2026-02-28T03:59:39.087Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fe9a614d44bfdc0aceb9fc566cb28bdac18be29de30c4d9177088e1866d8285f",
   "install_command": "mkdir -p .claude/skills/copilot-sdk-copilot-sdk && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/copilot-sdk-codex-pack/.agents/skills/copilot-sdk-copilot-sdk/SKILL.md\" > .claude/skills/copilot-sdk-copilot-sdk/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/copilot-sdk-codex-pack/.agents/skills/copilot-sdk-copilot-sdk/SKILL.md"

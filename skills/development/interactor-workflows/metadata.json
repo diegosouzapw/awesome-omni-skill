@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "15ecfa102aef64d3136731bdf56967384db78d61c0f91c9b78cece48586c1c2c",
   "indexed_at": "2026-02-26T14:23:13.410Z",
-  "synced_at": "2026-02-27T02:33:36.358Z",
+  "synced_at": "2026-02-28T03:59:12.645Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/86125a5e528acfb93a59b474c89c2c7e2fe42964dd60ed96234f3dca0fdc42b3",
   "install_command": "mkdir -p .claude/skills/interactor-workflows && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/interactor-workflows/SKILL.md\" > .claude/skills/interactor-workflows/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/interactor-workflows/SKILL.md"

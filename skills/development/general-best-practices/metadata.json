@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cea1e0371129dadce25d921846cacb75a6d3ab5cafe0a3b7ffa2ed01b6a0bd75",
   "indexed_at": "2026-02-26T13:20:34.609Z",
-  "synced_at": "2026-02-27T02:33:23.967Z",
+  "synced_at": "2026-02-28T03:59:00.808Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/99bd8bb3725d1df136d645de9892fb92b6c7d46c89f6549bd7ca2da53f2368b0",
   "install_command": "mkdir -p .claude/skills/general-best-practices && curl -sL \"https://raw.githubusercontent.com/Mindrally/skills/main/general-best-practices/SKILL.md\" > .claude/skills/general-best-practices/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Mindrally/skills/main/general-best-practices/SKILL.md"

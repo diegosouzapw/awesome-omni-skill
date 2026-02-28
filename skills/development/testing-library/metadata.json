@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ba91cc0c34b25884f85beb32c82818ffd1df7c84c17e2811cdc9fadd4fa2b640",
   "indexed_at": "2026-02-26T13:16:37.776Z",
-  "synced_at": "2026-02-27T02:33:19.719Z",
+  "synced_at": "2026-02-28T03:58:56.590Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b852585199e17d21864d3aea08c24cfecfc1e5432ff09611b1338ae37d1cc3fc",
   "install_command": "mkdir -p .claude/skills/testing-library && curl -sL \"https://raw.githubusercontent.com/CodySwannGT/lisa/main/expo/copy-overwrite/.claude/skills/testing-library/SKILL.md\" > .claude/skills/testing-library/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/CodySwannGT/lisa/main/expo/copy-overwrite/.claude/skills/testing-library/SKILL.md"

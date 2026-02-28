@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c864950c7720aae32661df2df8b5789a35523e69873b968abc2bc4a61534e567",
   "indexed_at": "2026-02-27T05:54:50.678Z",
-  "synced_at": "2026-02-27T13:13:18.985Z",
+  "synced_at": "2026-02-28T04:00:10.896Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e852704a6aa899f1162666cf934512bdd7f6d9875e48cbaba6b7ac07aadd7ed4",
   "install_command": "mkdir -p .claude/skills/enterprise-architecture-patterns && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/design/enterprise-architecture-patterns-manutej-luxor-claude-marketp-7b767633/SKILL.md\" > .claude/skills/enterprise-architecture-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/design/enterprise-architecture-patterns-manutej-luxor-claude-marketp-7b767633/SKILL.md"

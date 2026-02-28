@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6748d2e28438ab905abd3f09b9ef8fec6871908d4c4674fe572792ff2f4374a5",
   "indexed_at": "2026-02-26T23:40:56.812Z",
-  "synced_at": "2026-02-27T02:34:21.585Z",
+  "synced_at": "2026-02-28T03:59:55.533Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/90598e17c7945544bfaa9b803613c19ce434475a667d270105b38e43822d666c",
   "install_command": "mkdir -p .claude/skills/creating-continue-packages && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/creating-continue-packages/SKILL.md\" > .claude/skills/creating-continue-packages/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/creating-continue-packages/SKILL.md"

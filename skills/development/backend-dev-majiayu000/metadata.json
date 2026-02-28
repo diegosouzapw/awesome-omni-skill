@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6367f9e7f4d9d355aa3be698536d14793a8a79eca4ccf76de793b890e7e940e8",
   "indexed_at": "2026-02-27T05:46:49.420Z",
-  "synced_at": "2026-02-27T13:13:12.884Z",
+  "synced_at": "2026-02-28T04:00:00.280Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5ba70877580185ad8e1186177d6608dc0397df88a156c507df7dbd56b61c2e40",
   "install_command": "mkdir -p .claude/skills/backend-dev && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/backend-dev-ajianaz-skills-collection/SKILL.md\" > .claude/skills/backend-dev/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/backend-dev-ajianaz-skills-collection/SKILL.md"

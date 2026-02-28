@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8bafe98b439649b33983ba08bb6dbf4e0157115160729c53c94d916d9d7127da",
   "indexed_at": "2026-02-27T05:46:55.190Z",
-  "synced_at": "2026-02-27T13:13:13.124Z",
+  "synced_at": "2026-02-28T04:00:00.681Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d18c2e38096e1bc2f75c7eefa3df402f62cfe8f462ad6fe370daf746f7b93ca2",
   "install_command": "mkdir -p .claude/skills/backend-dev && curl -sL \"https://raw.githubusercontent.com/dy9759/Text2KnowledgeCards/main/skills/backup-skills/backend-dev-skill/SKILL.md\" > .claude/skills/backend-dev/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dy9759/Text2KnowledgeCards/main/skills/backup-skills/backend-dev-skill/SKILL.md"

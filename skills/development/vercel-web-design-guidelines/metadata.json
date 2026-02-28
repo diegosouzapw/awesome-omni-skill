@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e1beec019ea1468adf3f004954cdc0aae557993efe54dc3c525a7e18fe21c166",
   "indexed_at": "2026-02-26T15:16:38.247Z",
-  "synced_at": "2026-02-27T02:33:40.094Z",
+  "synced_at": "2026-02-28T03:59:16.322Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/06df60027ac4161106e17a782ec8c7cb9ada64892eae7e009d09c0216cffc77b",
   "install_command": "mkdir -p .claude/skills/vercel-web-design-guidelines && curl -sL \"https://raw.githubusercontent.com/Akram012388/skillissue-world/main/.claude/skills/vercel-web-design-guidelines/SKILL.md\" > .claude/skills/vercel-web-design-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Akram012388/skillissue-world/main/.claude/skills/vercel-web-design-guidelines/SKILL.md"

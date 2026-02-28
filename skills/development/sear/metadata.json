@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "af7815563fe71c21d0bf2bfa5fd856433787804f2d0a144ab4f6359c7195767c",
   "indexed_at": "2026-02-26T16:34:01.340Z",
-  "synced_at": "2026-02-27T02:33:51.650Z",
+  "synced_at": "2026-02-28T03:59:27.300Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5a51b30d136925363c64ee05e8c864e2c5b52cf14a8c945903c157230d2dc650",
   "install_command": "mkdir -p .claude/skills/sear && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/sear/SKILL.md\" > .claude/skills/sear/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/sear/SKILL.md"

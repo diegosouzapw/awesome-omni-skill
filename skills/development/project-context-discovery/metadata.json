@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7f48583549caf9cbc8b51defe122f88036dcb879105ae2905927636048c77bd0",
   "indexed_at": "2026-02-26T14:25:20.920Z",
-  "synced_at": "2026-02-27T02:33:37.608Z",
+  "synced_at": "2026-02-28T03:59:13.908Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9bf0e943dd617dfecc85941d679642db74059993379ef3115b82bed43c0d03f6",
   "install_command": "mkdir -p .claude/skills/project-context-discovery && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/project-context-discovery/SKILL.md\" > .claude/skills/project-context-discovery/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/project-context-discovery/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fc415e859f954ae3738c0fc63bbca8b1fd75c80aa7b5768befd43e1d1c975c60",
   "indexed_at": "2026-02-27T05:54:26.973Z",
-  "synced_at": "2026-02-27T13:13:18.249Z",
+  "synced_at": "2026-02-28T04:00:09.772Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/97843229a3bbd1caf0661f43916dd96f7fd2aa1ac3977077a510252f91456071",
   "install_command": "mkdir -p .claude/skills/rapid-prototyper && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/rapid-prototyper-jackspace-claudeskillz/SKILL.md\" > .claude/skills/rapid-prototyper/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/rapid-prototyper-jackspace-claudeskillz/SKILL.md"

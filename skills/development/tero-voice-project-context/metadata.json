@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "93d9e4fed239be32e10ed056345bca75270176f0d04e4f085843c7063b2a27ce",
   "indexed_at": "2026-02-27T06:47:03.905Z",
-  "synced_at": "2026-02-27T13:13:19.954Z",
+  "synced_at": "2026-02-28T04:00:12.279Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a5a8b1c5f0a7c207c2c02880f42b1d245b4936036e69fa2f102c54a4e2afc900",
   "install_command": "mkdir -p .claude/skills/tero-voice-project-context && curl -sL \"https://raw.githubusercontent.com/DuckshotPro/terovoice/main/.agent/skills/project-context/SKILL.md\" > .claude/skills/tero-voice-project-context/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/DuckshotPro/terovoice/main/.agent/skills/project-context/SKILL.md"

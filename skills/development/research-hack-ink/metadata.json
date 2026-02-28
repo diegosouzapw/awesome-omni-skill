@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "01d5688ea0c3d983969029a67029470d819f0b88cc874b01048abc6ada9d8a60",
   "indexed_at": "2026-02-26T12:50:48.930Z",
-  "synced_at": "2026-02-27T02:33:16.508Z",
+  "synced_at": "2026-02-28T03:58:53.258Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d29f3573dff349ed00ecd6447802c42b965853fa9c3ca653ae60d9a2446e7e18",
   "install_command": "mkdir -p .claude/skills/research && curl -sL \"https://raw.githubusercontent.com/hack-ink/skills/main/research/SKILL.md\" > .claude/skills/research/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hack-ink/skills/main/research/SKILL.md"

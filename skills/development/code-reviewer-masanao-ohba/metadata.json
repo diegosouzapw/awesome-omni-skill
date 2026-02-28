@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aebcbacb433f7c7e5cd2a3735715ecab060d1f3a8468804c2ca5044ec663a222",
   "indexed_at": "2026-02-26T13:18:11.123Z",
-  "synced_at": "2026-02-27T02:33:21.375Z",
+  "synced_at": "2026-02-28T03:58:58.232Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/47b9f611448ff083571c12b2f6bf0d2dd7351ec5b76762dd93ad42b802dd5128",
   "install_command": "mkdir -p .claude/skills/code-reviewer && curl -sL \"https://raw.githubusercontent.com/masanao-ohba/claude-manifests/main/skills/generic/code-reviewer/SKILL.md\" > .claude/skills/code-reviewer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/masanao-ohba/claude-manifests/main/skills/generic/code-reviewer/SKILL.md"

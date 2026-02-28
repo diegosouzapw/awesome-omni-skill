@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "71ed8f723f06518a0d47cc3107feba5a78c014436cb5a14ac8ed2c6ccdbd9d4d",
   "indexed_at": "2026-02-26T23:38:34.151Z",
-  "synced_at": "2026-02-27T02:34:20.435Z",
+  "synced_at": "2026-02-28T03:59:54.626Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/04fae4737560aa6e675049bc99d58a51ddb5e760203044a6816679f9bba5ec77",
   "install_command": "mkdir -p .claude/skills/auth-tool-cloudbase && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/auth-tool-cloudbase/SKILL.md\" > .claude/skills/auth-tool-cloudbase/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/auth-tool-cloudbase/SKILL.md"

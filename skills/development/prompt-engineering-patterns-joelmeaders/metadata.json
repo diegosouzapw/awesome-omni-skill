@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0df17865ef8d2cc1ca07392a97a46b03640728b181ee9f1f4d93371a65f22174",
   "indexed_at": "2026-02-26T13:22:42.179Z",
-  "synced_at": "2026-02-27T02:33:26.296Z",
+  "synced_at": "2026-02-28T03:59:02.905Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/79164344eaa00868ca9a6490c6b1ea84dcc2de7a29c4464941d4fc7726b8961a",
   "install_command": "mkdir -p .claude/skills/prompt-engineering-patterns && curl -sL \"https://raw.githubusercontent.com/joelmeaders/agent-skill-builder/main/prompt-engineering-patterns/SKILL.md\" > .claude/skills/prompt-engineering-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/joelmeaders/agent-skill-builder/main/prompt-engineering-patterns/SKILL.md"

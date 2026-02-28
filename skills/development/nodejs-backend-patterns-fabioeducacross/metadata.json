@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "39e241f0c115c42ca55f5a8d692c82330f42c783dbb6822d255b6ac6910921fa",
   "indexed_at": "2026-02-27T05:47:41.589Z",
-  "synced_at": "2026-02-27T13:13:13.749Z",
+  "synced_at": "2026-02-28T04:00:01.813Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/59bdb2df34b8352459a99ef8f55a29a07e73e12c18dbc73065152b46edda9504",
   "install_command": "mkdir -p .claude/skills/nodejs-backend-patterns && curl -sL \"https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.agent/skills/nodejs-backend-patterns/SKILL.md\" > .claude/skills/nodejs-backend-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.agent/skills/nodejs-backend-patterns/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6a4c0707f8866b59327f9cd21a0fff74ffa15fb17fe2d2d0ed7873379ed6e9de",
   "indexed_at": "2026-02-26T18:35:21.058Z",
-  "synced_at": "2026-02-27T02:34:07.334Z",
+  "synced_at": "2026-02-28T03:59:42.136Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4939fe1853592a0eb54a96b5bf9342ba7bded2e1aca95a5620e3db33a0d1a659",
   "install_command": "mkdir -p .claude/skills/academic-deep-research && curl -sL \"https://raw.githubusercontent.com/Nutopia13/geo-intelligence-vault/main/skills/academic-deep-research/SKILL.md\" > .claude/skills/academic-deep-research/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Nutopia13/geo-intelligence-vault/main/skills/academic-deep-research/SKILL.md"

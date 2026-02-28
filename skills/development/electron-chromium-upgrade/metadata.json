@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8450cf4b18f0ae3c38a0415532b817cb42165123406b52f757c9ec9c8464440f",
   "indexed_at": "2026-02-26T15:15:18.575Z",
-  "synced_at": "2026-02-27T02:33:39.366Z",
+  "synced_at": "2026-02-28T03:59:15.623Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2e84f73452a27bf84daccc48f644c52069d1e245c919c0e4e19b827f4b31b2a2",
   "install_command": "mkdir -p .claude/skills/electron-chromium-upgrade && curl -sL \"https://raw.githubusercontent.com/electron/electron/main/.claude/skills/electron-chromium-upgrade/SKILL.md\" > .claude/skills/electron-chromium-upgrade/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/electron/electron/main/.claude/skills/electron-chromium-upgrade/SKILL.md"

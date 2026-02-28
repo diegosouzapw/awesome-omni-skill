@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "305df9e3ef12cf7bcdf83fac3c6238db7b7ce9205530218a2e34f5f8a2fd559b",
   "indexed_at": "2026-02-26T18:37:23.479Z",
-  "synced_at": "2026-02-27T02:34:09.306Z",
+  "synced_at": "2026-02-28T03:59:43.965Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bbab5320ad71ddf916b9fa5150f7f5fc571105351a99ee7873617198e5522746",
   "install_command": "mkdir -p .claude/skills/software-code-review && curl -sL \"https://raw.githubusercontent.com/zerdos/spike-land-nextjs/main/.github/skills/software-code-review/SKILL.md\" > .claude/skills/software-code-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zerdos/spike-land-nextjs/main/.github/skills/software-code-review/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d4ac7251e4b3436c4fe7502354036322187b46719d0f8c818723194d786e2959",
   "indexed_at": "2026-02-26T14:24:17.413Z",
-  "synced_at": "2026-02-27T02:33:36.943Z",
+  "synced_at": "2026-02-28T03:59:13.298Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6950b03886eb5e4ba0e3bc120bd40138130b36a980ffc0684e9908805235a5dc",
   "install_command": "mkdir -p .claude/skills/salesforce-developer && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/salesforce-developer/SKILL.md\" > .claude/skills/salesforce-developer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/salesforce-developer/SKILL.md"

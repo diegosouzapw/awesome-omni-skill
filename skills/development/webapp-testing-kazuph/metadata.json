@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7d00ad487bee5861d873411c6997e57c9d2a9c1f1b2f8782421d7b0e2ae242c0",
   "indexed_at": "2026-02-26T13:16:14.757Z",
-  "synced_at": "2026-02-27T02:33:19.187Z",
+  "synced_at": "2026-02-28T03:58:56.020Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d81af00fd7b31790044343c3449193812e5b647595296ed7e2f57d5dfb7b2434",
   "install_command": "mkdir -p .claude/skills/webapp-testing && curl -sL \"https://raw.githubusercontent.com/kazuph/reviw/main/plugin/skills/webapp-testing/SKILL.md\" > .claude/skills/webapp-testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kazuph/reviw/main/plugin/skills/webapp-testing/SKILL.md"

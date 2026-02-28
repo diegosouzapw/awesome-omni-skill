@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "96d3336be618ddee955f63ea479085b4e60731b55a3009a2aa8a8470ea5a4722",
   "indexed_at": "2026-02-26T20:30:54.441Z",
-  "synced_at": "2026-02-27T02:34:14.247Z",
+  "synced_at": "2026-02-28T03:59:47.689Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/92114a300966df5c446b768ca2616d10ab5795d68f995a1ba6c3f2dbbc71a2ea",
   "install_command": "mkdir -p .claude/skills/gradle-dependency-checker && curl -sL \"https://raw.githubusercontent.com/Omico/agent-skill-gradle-dependency-checker/main/SKILL.md\" > .claude/skills/gradle-dependency-checker/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Omico/agent-skill-gradle-dependency-checker/main/SKILL.md"

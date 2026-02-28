@@ -3,8 +3,8 @@
   "description": "Build Keynote-style single-file HTML slide decks with brand-ready templates, minimal navigation, and Gemini nano banana media generation. Includes Narrative Engine integration for framework-driven deck creation with 17 proven storytelling structures and 5-agent review panel. Use when creating or editing slide decks, transforming content into presentations, or generating slide visuals.",
   "category": "development",
   "canonical_category": "development",
-  "repository": "dbmcco/claude-agent-toolkit",
-  "repository_url": "https://github.com/dbmcco/claude-agent-toolkit",
+  "repository": "dbmcco/keynote-slides-skill",
+  "repository_url": "https://github.com/dbmcco/keynote-slides-skill",
   "author": "dbmcco",
   "author_avatar": "https://github.com/dbmcco.png",
   "file_path": "skills/keynote-slides/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "d50b54631dc121ed72e45ab46911addc9e7d14bc3e2569ded3c15beac74febcc",
-  "indexed_at": "2026-02-25T14:54:32.978Z",
-  "synced_at": "2026-02-28T03:54:21.547Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/69131cd94a822f2ae3b9ea3c524974c33a665ad46bc8e8e1a5dea485a82aa93f",
-  "install_command": "mkdir -p .claude/skills/keynote-slides && curl -sL \"https://raw.githubusercontent.com/dbmcco/claude-agent-toolkit/main/skills/keynote-slides/SKILL.md\" > .claude/skills/keynote-slides/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/dbmcco/claude-agent-toolkit/main/skills/keynote-slides/SKILL.md"
+  "content_hash": "e14b7ed23729e24bc3ea90faa311a937dd32925fd26d8551aa59cbe9aea776be",
+  "indexed_at": "2026-02-27T03:17:50.469Z",
+  "synced_at": "2026-02-28T03:59:58.179Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8764468c7825d0ee5cb6596fcfb709dfa778f68ead335ae18261c5ed85d06db6",
+  "install_command": "mkdir -p .claude/skills/keynote-slides && curl -sL \"https://raw.githubusercontent.com/dbmcco/keynote-slides-skill/main/skills/keynote-slides/SKILL.md\" > .claude/skills/keynote-slides/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/dbmcco/keynote-slides-skill/main/skills/keynote-slides/SKILL.md"
 }

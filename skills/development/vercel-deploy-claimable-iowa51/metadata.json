@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9873802f41b59030a4763583b7b7fb9ad22c8c0a4d8d91a3d6e40aef988a405a",
   "indexed_at": "2026-02-26T12:25:44.056Z",
-  "synced_at": "2026-02-27T02:33:13.786Z",
+  "synced_at": "2026-02-28T03:58:50.904Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/13851073930553879672817fac10296959013dc1a203a03adcd567df6b3da118",
   "install_command": "mkdir -p .claude/skills/vercel-deploy-claimable && curl -sL \"https://raw.githubusercontent.com/Iowa51/ChartSparkOG/main/.agent/workflows/awesome/vercel-deploy-claimable/SKILL.md\" > .claude/skills/vercel-deploy-claimable/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Iowa51/ChartSparkOG/main/.agent/workflows/awesome/vercel-deploy-claimable/SKILL.md"

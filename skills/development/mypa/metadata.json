@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b214605c54049c46158e3069a563bffa38707074f0c478e377cdad8c9f802665",
   "indexed_at": "2026-02-26T15:21:01.264Z",
-  "synced_at": "2026-02-27T02:33:43.226Z",
+  "synced_at": "2026-02-28T03:59:19.209Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d9f5d8847ffd7074f9e600f152dae35d2c57955e63c71bcd24320b17447d4ed1",
   "install_command": "mkdir -p .claude/skills/mypa && curl -sL \"https://raw.githubusercontent.com/RPLogic-Inc/mypa/main/skills/mypa/SKILL.md\" > .claude/skills/mypa/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/RPLogic-Inc/mypa/main/skills/mypa/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "da043ded8a96346c876dd25acd1b974858663acd74d5e47638fec6b739aa22c1",
   "indexed_at": "2026-02-26T13:22:21.603Z",
-  "synced_at": "2026-02-27T02:33:25.944Z",
+  "synced_at": "2026-02-28T03:59:02.551Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d37691828e2a84e4c48a420b650bd0401e952f02b17d3bec3f32593c933329ee",
   "install_command": "mkdir -p .claude/skills/api-test && curl -sL \"https://raw.githubusercontent.com/adamaslan/mcp-fin1/main/.claude/skills/api-test/SKILL.md\" > .claude/skills/api-test/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/adamaslan/mcp-fin1/main/.claude/skills/api-test/SKILL.md"

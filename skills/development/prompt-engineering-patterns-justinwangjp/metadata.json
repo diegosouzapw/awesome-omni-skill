@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "33a84be018d26ea7f7a621c176c3252852f56ceabb3c6cb7c57e48d00c213469",
   "indexed_at": "2026-02-26T13:22:44.248Z",
-  "synced_at": "2026-02-27T02:33:26.465Z",
+  "synced_at": "2026-02-28T03:59:03.075Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/65efb0372e23cd66592bf2afa9ba3b254c616180fc986e44fcccf300373e9132",
   "install_command": "mkdir -p .claude/skills/prompt-engineering-patterns && curl -sL \"https://raw.githubusercontent.com/JustinWangJP/cc-agent-teams-action-monitor/main/.agents/skills/prompt-engineering-patterns/SKILL.md\" > .claude/skills/prompt-engineering-patterns/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/JustinWangJP/cc-agent-teams-action-monitor/main/.agents/skills/prompt-engineering-patterns/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8f61e728a2a7e46303f2e25a891325858981f061a489e9eeee916234863e4da0",
   "indexed_at": "2026-02-26T18:39:38.641Z",
-  "synced_at": "2026-02-27T02:34:10.398Z",
+  "synced_at": "2026-02-28T03:59:44.963Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/27b5e2413aaa50c3250d442edb0e2a6ffc591a0d58b4d3b06e2b3286a828b885",
   "install_command": "mkdir -p .claude/skills/copilotkit-nextjs-integration && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/raphaelmansuy/edgequake/copilotkit-nextjs-integration/SKILL.md\" > .claude/skills/copilotkit-nextjs-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/raphaelmansuy/edgequake/copilotkit-nextjs-integration/SKILL.md"

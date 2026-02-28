@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4a4e9aa60c2e75337889b3e2850939e0ed3d48fbb14c01bccf7ece269332ba37",
   "indexed_at": "2026-02-26T13:18:49.900Z",
-  "synced_at": "2026-02-27T02:33:21.538Z",
+  "synced_at": "2026-02-28T03:58:58.405Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e9808b0e30d96cae206f7d5a939316038c7f0c1e570cd36350205806c28d8ff0",
   "install_command": "mkdir -p .claude/skills/debugging && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/lobbi-docs/claude/debugging/SKILL.md\" > .claude/skills/debugging/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/lobbi-docs/claude/debugging/SKILL.md"

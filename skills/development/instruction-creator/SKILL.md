@@ -45,7 +45,8 @@ Study the gold-reference exemplar to understand structural patterns.
 - Load [exemplar.md](assets/exemplar.md) — study the embedded instruction alongside its structural annotations
 - Observe how the exemplar handles: frontmatter field choices, prose intro with governing principle, XML group naming (domain-specific terms, not generic labels), rule style (NEVER/ALWAYS binary enforcement), scoping decisions (`applyTo` glob granularity)
 - Determine how many XML groups the new instruction needs — typically 2-4 groups, one concern per group
-- Note what is absent: no `<workflow>`, no `<step_N_verb>` tags, no identity prose, no subfolders, no markdown headings — the output is a single flat file of passive rules
+- Note what is absent: no `<workflow>`, no `<step_N_verb>` tags, no identity prose, no subfolders — the output is a single flat file of passive rules
+- Note the heading rule: markdown headers are allowed ONLY inside XML tag sections — never outside them. First-level headings (`#`) are never allowed. Use headers only when a section contains multiple distinct blocks that need navigation; single-block sections get their scannability from the XML tag itself
 
 </step_2_study>
 
@@ -64,7 +65,7 @@ Load [instruction-spec.md](references/instruction-spec.md) and plan:
 
 - **Rules** — Plan 3-7 NEVER/ALWAYS rules per group. Each rule states one prohibition or mandate. Include inline code examples when the correct form is non-obvious. No hedge words.
 
-- **Confirm output shape** — The output is a SINGLE flat `.instructions.md` file. No `<workflow>`, no `<step_N_verb>`, no identity prose, no subfolder structure.
+- **Confirm output shape** — The output is a SINGLE flat `.instructions.md` file. No `<workflow>`, no `<step_N_verb>`, no identity prose, no subfolder structure. Markdown headers are allowed inside XML groups only when a group contains multiple distinct blocks — never outside them. First-level headings (`#`) are never allowed.
 
 </step_3_plan>
 
@@ -99,6 +100,7 @@ Load [quality-gates.md](references/quality-gates.md) and run each tier:
   - No secrets, drive letters, or absolute paths
   - Single flat file — no subfolders
   - 150 lines or fewer
+  - Markdown headers allowed ONLY inside XML tag sections — NEVER outside them. First-level headings (`#`) are NEVER allowed. Use headers only in multi-block sections
 
 - **P2 — Quality** (fix before finalizing):
   - Discovery mode appropriate for the concern

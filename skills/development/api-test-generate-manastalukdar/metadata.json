@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "55554dddcea98a46faa6c379b41ebddd34acaf2d732a5d0b82a5f66de1c59914",
   "indexed_at": "2026-02-26T12:27:42.463Z",
-  "synced_at": "2026-02-27T02:33:14.936Z",
+  "synced_at": "2026-02-28T03:58:52.021Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/306864f3cb2275d8370ac99dd2721fd6beec5807b160211fbf92e99401159b30",
   "install_command": "mkdir -p .claude/skills/api-test-generate && curl -sL \"https://raw.githubusercontent.com/manastalukdar/claude-devstudio/main/skills/api-test-generate/SKILL.md\" > .claude/skills/api-test-generate/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/manastalukdar/claude-devstudio/main/skills/api-test-generate/SKILL.md"

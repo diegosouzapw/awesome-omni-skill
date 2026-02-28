@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "861858d125c0611586d94f58e4f0b116ff68165510296eb1dc227cb14cd9f7fa",
   "indexed_at": "2026-02-26T13:25:50.839Z",
-  "synced_at": "2026-02-27T02:33:30.112Z",
+  "synced_at": "2026-02-28T03:59:06.679Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b29f284a8729cf1180437c12a7cd5c8d76bc05bade860fc25131465d3fea4ee2",
   "install_command": "mkdir -p .claude/skills/dev-workflow-planning && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/dev-workflow-planning/SKILL.md\" > .claude/skills/dev-workflow-planning/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/dev-workflow-planning/SKILL.md"
