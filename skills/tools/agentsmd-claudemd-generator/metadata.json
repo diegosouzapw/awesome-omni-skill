@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0194fe4d32391c16ff2a23f280d098649c1016d9e2f8e4203a8e4cf96d13ad6f",
   "indexed_at": "2026-02-26T17:32:01.032Z",
-  "synced_at": "2026-02-27T02:46:15.628Z",
+  "synced_at": "2026-02-28T04:16:14.095Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/61796def0016be96783f73200956d38b26932493fb5f97f1a74735633a38d158",
   "install_command": "mkdir -p .claude/skills/agentsmd-claudemd-generator && curl -sL \"https://raw.githubusercontent.com/MounirDhahri/skills/main/skills/agentsmd-claudemd-generator/SKILL.md\" > .claude/skills/agentsmd-claudemd-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MounirDhahri/skills/main/skills/agentsmd-claudemd-generator/SKILL.md"

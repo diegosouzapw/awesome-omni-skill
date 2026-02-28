@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f91a1ca697263483fc3c62c3abda9c82a5498b66cdb6f381d8a026ddbcaf1101",
   "indexed_at": "2026-02-26T22:34:29.146Z",
-  "synced_at": "2026-02-27T02:46:28.240Z",
+  "synced_at": "2026-02-28T04:16:25.267Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2deaec6f0ab3553f130414dc3f98c26272273d51648b0577fc157e2959371ec4",
   "install_command": "mkdir -p .claude/skills/srgn-cli && curl -sL \"https://raw.githubusercontent.com/OutlineDriven/odin-gemini-cli-extension/main/skills/srgn-cli/SKILL.md\" > .claude/skills/srgn-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/OutlineDriven/odin-gemini-cli-extension/main/skills/srgn-cli/SKILL.md"

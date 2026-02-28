@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "66c995bf2bbfb62470b5999b10163b469fb7d4ce03c8bbad139d832526bfb14b",
   "indexed_at": "2026-02-26T07:52:53.292Z",
-  "synced_at": "2026-02-27T02:45:29.196Z",
+  "synced_at": "2026-02-28T04:15:28.918Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ebca30f3f398110bc77071fdfedd4eea148da202b590e7c370e343f43589c48c",
   "install_command": "mkdir -p .claude/skills/jj-workflow && curl -sL \"https://raw.githubusercontent.com/cameronraysmith/vanixiets/main/modules/home/ai/skills/src/core/jj-workflow/SKILL.md\" > .claude/skills/jj-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cameronraysmith/vanixiets/main/modules/home/ai/skills/src/core/jj-workflow/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bc5e0aeaeeabd57fab0273e5b330ad2049bc1533a5cc5aad035a2da9b71daeae",
   "indexed_at": "2026-02-26T14:23:20.343Z",
-  "synced_at": "2026-02-27T02:45:56.779Z",
+  "synced_at": "2026-02-28T04:15:55.842Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7b7036047f62e8b42e3704bc268278207f10d8e7e7abd0582fb221a1e06d64bc",
   "install_command": "mkdir -p .claude/skills/monorepo-package-workflow && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/monorepo-package-workflow-j0kz-mcp-agents/SKILL.md\" > .claude/skills/monorepo-package-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/monorepo-package-workflow-j0kz-mcp-agents/SKILL.md"

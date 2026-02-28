@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a7f7c7511cd6a9a8cd917dd3a8bb5685152561e1cc7660e34cb0054f36ee9234",
   "indexed_at": "2026-02-27T14:39:38.960Z",
-  "synced_at": "2026-02-27T18:15:50.703Z",
+  "synced_at": "2026-02-28T04:16:39.576Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c07ad852e7c02901aabbb697f994bde3ddb27643a8a33d78a9414c12a58a7698",
   "install_command": "mkdir -p .claude/skills/things3-manager && curl -sL \"https://raw.githubusercontent.com/eugenepyvovarov/things3-agent-skill/main/SKILL.md\" > .claude/skills/things3-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/eugenepyvovarov/things3-agent-skill/main/SKILL.md"

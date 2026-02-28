@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cc156f23f11c66b4aabe3cd43277cffabfb042182c6fb71418e57a88b5e6aad4",
   "indexed_at": "2026-02-26T15:18:26.576Z",
-  "synced_at": "2026-02-27T02:45:59.758Z",
+  "synced_at": "2026-02-28T04:15:58.726Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b895e67f10bd044bfdc64ee7fee0ed55b1e85d39034714bff35c67127ac54982",
   "install_command": "mkdir -p .claude/skills/feedmob-brand-guidelines && curl -sL \"https://raw.githubusercontent.com/feed-mob/agent-skills/main/skills/feedmob-brand-guidelines/SKILL.md\" > .claude/skills/feedmob-brand-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/feed-mob/agent-skills/main/skills/feedmob-brand-guidelines/SKILL.md"

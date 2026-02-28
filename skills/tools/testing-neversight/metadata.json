@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "36912f0837c13354abf97c675edb59a2ffccac5b704c54a6b0208f7000ef3307",
   "indexed_at": "2026-02-26T13:23:01.387Z",
-  "synced_at": "2026-02-27T02:45:50.109Z",
+  "synced_at": "2026-02-28T04:15:49.323Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b975d14d57b096c3bcb0511eda06e85810e439c618739bb985454d801f0c0d17",
   "install_command": "mkdir -p .claude/skills/testing && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/inocan-group/inferred-types/testing/SKILL.md\" > .claude/skills/testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/inocan-group/inferred-types/testing/SKILL.md"

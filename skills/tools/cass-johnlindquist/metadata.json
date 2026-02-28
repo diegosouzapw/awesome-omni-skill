@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "65344cc1f71dd2297ac43717d223f223a88ea73d61694e54d2792663998f0d3e",
   "indexed_at": "2026-02-27T16:06:14.001Z",
-  "synced_at": "2026-02-27T18:15:55.150Z",
+  "synced_at": "2026-02-28T04:16:45.421Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7c926330e435ad1139cdfae959052ffed9b0d6deca26cf3e45d7c685a8b21d55",
   "install_command": "mkdir -p .claude/skills/cass && curl -sL \"https://raw.githubusercontent.com/johnlindquist/claude/main/skills/cass/SKILL.md\" > .claude/skills/cass/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/johnlindquist/claude/main/skills/cass/SKILL.md"

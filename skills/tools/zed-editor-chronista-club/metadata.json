@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "13c629093855e1430bc93e0f97a4234c59d9822be3e3048468a69d4d684e8740",
   "indexed_at": "2026-02-27T16:11:19.160Z",
-  "synced_at": "2026-02-27T18:15:57.746Z",
+  "synced_at": "2026-02-28T04:16:48.440Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fbf137b8109dc44b3d130fde804b8c6ed266f5ec66c54b195b73755ea484800b",
   "install_command": "mkdir -p .claude/skills/zed-editor && curl -sL \"https://raw.githubusercontent.com/chronista-club/unison/main/.claude/skills/zed-editor/SKILL.md\" > .claude/skills/zed-editor/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/chronista-club/unison/main/.claude/skills/zed-editor/SKILL.md"

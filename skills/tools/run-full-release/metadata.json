@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "349e930dc73714c5ea29c78ff5f10e54dd291ce66f7f459f1ec0cc7ab490035d",
   "indexed_at": "2026-02-26T14:22:09.443Z",
-  "synced_at": "2026-02-27T02:45:55.852Z",
+  "synced_at": "2026-02-28T04:15:54.942Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/901f2953a467928842a4a024858cff0866225f4cbdee47c7e06c75150d81bca7",
   "install_command": "mkdir -p .claude/skills/run-full-release && curl -sL \"https://raw.githubusercontent.com/terrylica/cc-skills/main/plugins/mise/skills/run-full-release/SKILL.md\" > .claude/skills/run-full-release/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/terrylica/cc-skills/main/plugins/mise/skills/run-full-release/SKILL.md"

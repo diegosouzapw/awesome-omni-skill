@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "91830115aebccf400a94b0f22b2174c38d72ff322722e58371762a3a8b2d8af9",
   "indexed_at": "2026-02-27T14:39:57.790Z",
-  "synced_at": "2026-02-27T18:15:50.795Z",
+  "synced_at": "2026-02-28T04:16:39.740Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ac8a0a4368e7f8ba97bd08d37326867388d078facaff66cd5f25b692ae23a85e",
   "install_command": "mkdir -p .claude/skills/solvera-markets && curl -sL \"https://raw.githubusercontent.com/densmirnov/solvera-markets/main/frontend/SOLVERA_SKILL/SKILL.md\" > .claude/skills/solvera-markets/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/densmirnov/solvera-markets/main/frontend/SOLVERA_SKILL/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "395b8d01248bf36d2720a313e067526aa035aed1f1bc7a4d6da62626dc06fb95",
   "indexed_at": "2026-02-26T18:41:35.565Z",
-  "synced_at": "2026-02-27T02:46:25.553Z",
+  "synced_at": "2026-02-28T04:16:22.688Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a91a8376a7507a00fc857e8370d6f279d89b11aa3f81b7f8025e9e4be0177e0c",
   "install_command": "mkdir -p .claude/skills/git-workflow && curl -sL \"https://raw.githubusercontent.com/leodyversemilla07/rjms/main/.github/skills/git-workflow/SKILL.md\" > .claude/skills/git-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/leodyversemilla07/rjms/main/.github/skills/git-workflow/SKILL.md"

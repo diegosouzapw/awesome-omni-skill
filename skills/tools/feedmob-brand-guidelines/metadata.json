@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3b1e2f6eda179c3bf64c578059e0170835823b2fe8cf26c3352a574c597622d8",
   "indexed_at": "2026-02-26T15:15:15.751Z",
-  "synced_at": "2026-02-27T02:45:58.739Z",
+  "synced_at": "2026-02-28T04:15:57.741Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4955c41df3e8aa25ee7f5cda3b0bedddc5db4f3800b7edaa7502fcc9c7fbb7f8",
   "install_command": "mkdir -p .claude/skills/feedmob-brand-guidelines && curl -sL \"https://raw.githubusercontent.com/feed-mob/claude-code-marketplace/main/plugins/feedmob-brand-guidelines/SKILL.md\" > .claude/skills/feedmob-brand-guidelines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/feed-mob/claude-code-marketplace/main/plugins/feedmob-brand-guidelines/SKILL.md"

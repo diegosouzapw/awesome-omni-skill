@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e68829c4ed30c7d68e29238d9f8bbf66d64da8b0a5b626620214fb48bbfd47d4",
   "indexed_at": "2026-02-26T10:53:23.209Z",
-  "synced_at": "2026-02-27T02:45:39.980Z",
+  "synced_at": "2026-02-28T04:15:39.169Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d496dc12d51633327e3aba90dc57ca454d5e450f6766e7a4a5095442f47c9980",
   "install_command": "mkdir -p .claude/skills/claude-code-analyzer && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/Xpos587__fdroid__claude__skills__claude-code-analyzer__SKILL.md/SKILL.md\" > .claude/skills/claude-code-analyzer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/Xpos587__fdroid__claude__skills__claude-code-analyzer__SKILL.md/SKILL.md"

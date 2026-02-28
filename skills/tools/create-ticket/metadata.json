@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "93a4c3f37915cbfeb983ca83a7273adbd1c345a36c9a7e2e9c0584fe2bc95404",
   "indexed_at": "2026-02-26T07:56:41.610Z",
-  "synced_at": "2026-02-27T02:45:30.496Z",
+  "synced_at": "2026-02-28T04:15:30.202Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5d34cd2cbba1a1c40b3c7cb29ce1bd51f8f265f7645221aee0e82c3c31177bc7",
   "install_command": "mkdir -p .claude/skills/create-ticket && curl -sL \"https://raw.githubusercontent.com/aakash-dhar/claude-skills/main/skills/Development Skills/create-ticket/SKILL.md\" > .claude/skills/create-ticket/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aakash-dhar/claude-skills/main/skills/Development Skills/create-ticket/SKILL.md"

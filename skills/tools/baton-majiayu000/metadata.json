@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d206783a823002f0a76fa074d6da700a60cf243b96308d776c406cb838f451ab",
   "indexed_at": "2026-02-26T09:54:32.548Z",
-  "synced_at": "2026-02-27T02:45:37.047Z",
+  "synced_at": "2026-02-28T04:15:36.552Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0b1f97dbbedba01b1e9ee40d8b1f6efdd4ae506b75fe4a949a9a3da01f52bc63",
   "install_command": "mkdir -p .claude/skills/baton && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/baton/SKILL.md\" > .claude/skills/baton/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/baton/SKILL.md"

@@ -1,6 +1,7 @@
 ---
 name: ai-context
 description: Generates AI IDE context files (AGENTS.md, CLAUDE.md, .cursorrules, copilot-instructions.md) from codebase analysis. Creates project-specific instructions for AI coding assistants so they understand conventions, architecture, and workflows. Use when setting up AI tool context for a repository.
+version: "1.1.0"
 ---
 
 # AI Context File Generator
@@ -19,6 +20,9 @@ This skill generates context files for multiple AI tools from a single codebase 
 | `CLAUDE.md` | Claude Code | Project-specific instructions loaded on every session | Native to Claude Code |
 | `.cursorrules` | Cursor | Editor-specific rules for code generation | Native to Cursor |
 | `.github/copilot-instructions.md` | GitHub Copilot | Repository-level instructions for Copilot suggestions | Native to Copilot |
+| `.windsurfrules` | Windsurf | Project-specific rules for Windsurf's Cascade AI | Native to Windsurf |
+| `.clinerules` | Cline (VS Code extension) | Project context for autonomous Cline tasks | Native to Cline |
+| `GEMINI.md` | Gemini CLI | Project context loaded at the start of every Gemini CLI session | Native to Gemini CLI |
 
 ## Codebase Analysis Workflow
 
@@ -203,6 +207,105 @@ This is a [description] built with [language/framework].
 - [Anti-pattern 2]
 ```
 
+#### .windsurfrules Structure
+
+Windsurf's Cascade AI reads `.windsurfrules` from the project root. Format is plain text — similar to `.cursorrules`. Windsurf supports both global (`~/.codeium/windsurf/memories/global_rules.md`) and project-level rules.
+
+```
+# [Project Name] — Windsurf Rules
+
+## Project Context
+
+[Project name] is a [description]. Built with [language/framework].
+
+## Coding Standards
+
+- [Convention 1]
+- [Convention 2]
+- [Convention 3]
+
+## Key Files
+
+- [main entry] — [purpose]
+- [config file] — [purpose]
+
+## Commands
+
+[test command]
+[build command]
+[deploy command]
+
+## Rules
+
+- [Critical rule 1]
+- [Critical rule 2]
+```
+
+#### .clinerules Structure
+
+Cline reads `.clinerules` from the project root. It supports a richer format than `.cursorrules` including task checklists.
+
+```markdown
+# [Project Name]
+
+## Project Overview
+
+[1-2 sentence description of what the project is and does]
+
+## Tech Stack
+
+- **Language**: [X]
+- **Framework**: [Y]
+- **Test runner**: [Z]
+- **Linter**: [W]
+
+## Coding Standards
+
+- [Rule 1]
+- [Rule 2]
+- [Rule 3]
+
+## Important Paths
+
+- `[path]` — [purpose]
+
+## Before Committing
+
+- [ ] Tests pass (`[test command]`)
+- [ ] Linting passes (`[lint command]`)
+- [ ] No secrets or credentials in changed files
+```
+
+#### GEMINI.md Structure
+
+Gemini CLI reads `GEMINI.md` from the project root (or `.gemini/GEMINI.md`). Keep it concise — Gemini CLI's context window handling differs from Claude Code.
+
+```markdown
+# [Project Name]
+
+[One sentence: what is this project and who is it for]
+
+## Tech Stack
+
+[Language], [Framework], [Key dependencies]
+
+## Commands
+
+[test command]
+[build command]
+[deploy command]
+
+## Conventions
+
+- [Convention 1]
+- [Convention 2]
+- [Convention 3]
+
+## Key Paths
+
+- `[path]`: [purpose]
+```
+
 ## Staleness Audit
 
 When running in `audit` mode, check existing context files for drift:
@@ -219,7 +322,41 @@ AI Context Audit:
   ⚠ CLAUDE.md — references jest but vitest.config.ts detected
   ✗ .cursorrules — references src/index.ts but file moved to src/main.ts
   · .github/copilot-instructions.md — not present
+  · .windsurfrules — not present (recommend generating)
+  · .clinerules — not present (recommend generating)
+  · GEMINI.md — not present (recommend generating)
 ```
+
+## AGENTS.md Spec Version Tracking
+
+The AGENTS.md format is defined by the [agents.md spec](https://github.com/agentsmd/agents.md). PitchDocs tracks the pinned version in `upstream-versions.json`.
+
+### Current Stable: v1.0
+
+The v1.0 spec defines these standard sections:
+
+| Section | Purpose |
+|---------|---------|
+| Identity | Project name, description, what it does |
+| Project Structure | Key directories and their purposes |
+| Conventions | Coding standards, naming, commit conventions |
+| Commands | Test, build, deploy, lint commands |
+| Architecture | System design, data flow, key abstractions |
+| Files | Important files and their roles |
+| Rules | Hard constraints (security, compatibility) |
+
+### Proposed v1.1 Features (Draft — Do Not Implement)
+
+These features are under discussion and may change before stabilisation:
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| Sub-agents section | Draft | Nested agent definitions within AGENTS.md |
+| Tool permissions | Proposed | Declaring which tools an agent can use |
+| `.agent/` directory | Proposed | Directory-based agent definitions (alternative to single file) |
+| `when:` frontmatter | Draft | Trigger conditions for agent activation |
+
+**Guidance:** Do not generate these proposed sections until they reach stable status. Monitor the [agents.md releases](https://github.com/agentsmd/agents.md/releases) for v1.1 announcement. The `check-upstream` GitHub Action will flag when a new version is available.
 
 ## Anti-Patterns
 

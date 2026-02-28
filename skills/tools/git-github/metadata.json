@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "614e59c7ff8f6b65224ba54c25630253ee345857428c874dc0b95186e12046e5",
   "indexed_at": "2026-02-27T16:46:46.604Z",
-  "synced_at": "2026-02-27T18:15:58.672Z",
+  "synced_at": "2026-02-28T04:16:49.347Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3b6d3729e6a031cc1d4ecbe16884c48af7e3082adc6c397a829dde8f49899365",
   "install_command": "mkdir -p .claude/skills/git-github && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/aidenreed937__comet__claude__skills__git-github__SKILL.md/SKILL.md\" > .claude/skills/git-github/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/aidenreed937__comet__claude__skills__git-github__SKILL.md/SKILL.md"

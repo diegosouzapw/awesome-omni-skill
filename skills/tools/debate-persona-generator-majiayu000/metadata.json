@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f6180a9c17acc37dc16cc365c98ace3fa7b43b9206027491c18e627a0c324408",
   "indexed_at": "2026-02-26T09:50:44.708Z",
-  "synced_at": "2026-02-27T02:45:35.347Z",
+  "synced_at": "2026-02-28T04:15:34.886Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1840e93cb68b5979cc97b3fa40c1e1203c8f74308e02dd36ca9630acd561feba",
   "install_command": "mkdir -p .claude/skills/debate-persona-generator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/debate-persona-generator/SKILL.md\" > .claude/skills/debate-persona-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/debate-persona-generator/SKILL.md"

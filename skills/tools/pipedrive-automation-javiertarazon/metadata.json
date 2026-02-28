@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a97c6fa69b86aed6be341c32952a66fc52e1fa7c4f3e0309bcca14c7bad2f5d2",
   "indexed_at": "2026-02-27T15:11:15.270Z",
-  "synced_at": "2026-02-27T18:15:53.837Z",
+  "synced_at": "2026-02-28T04:16:43.863Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d4e0617630eb231858afa568c6fd3324298bcc0702ffa9f566f3b929db55593b",
   "install_command": "mkdir -p .claude/skills/pipedrive-automation && curl -sL \"https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/pipedrive-automation/SKILL.md\" > .claude/skills/pipedrive-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/javiertarazon/agente-copilot/main/.github/skills/pipedrive-automation/SKILL.md"

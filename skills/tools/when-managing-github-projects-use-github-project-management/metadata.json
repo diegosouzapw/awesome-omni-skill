@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7cc752a559cfb6856d6a92f2515af467389e00d6d0b6ca18d91068f3d8dfd9b4",
   "indexed_at": "2026-02-27T08:55:48.633Z",
-  "synced_at": "2026-02-27T13:14:33.267Z",
+  "synced_at": "2026-02-28T04:16:33.581Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1027479b7a0da1671c10bf10496d31fbf0161dcafe437ae8c4f94d171abbc963",
   "install_command": "mkdir -p .claude/skills/when-managing-github-projects-use-github-project-management && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/when-managing-github-projects-use-github-project-management-dnyoussef-ai-chrome-extension/SKILL.md\" > .claude/skills/when-managing-github-projects-use-github-project-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/when-managing-github-projects-use-github-project-management-dnyoussef-ai-chrome-extension/SKILL.md"

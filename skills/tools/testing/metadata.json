@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1653343238ef8d52a2736099e6a84d7d3cce78cf9b30a55b81dc8782076faa05",
   "indexed_at": "2026-02-26T13:15:20.811Z",
-  "synced_at": "2026-02-27T02:45:47.599Z",
+  "synced_at": "2026-02-28T04:15:46.825Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/510fc686a513c9552f5e17c1b57ff4854f937f1020bb85fc9cc2b790aa2d5ad5",
   "install_command": "mkdir -p .claude/skills/testing && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/yankeeinlondon__typed-tester__claude__skills__testing__SKILL.md/SKILL.md\" > .claude/skills/testing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/yankeeinlondon__typed-tester__claude__skills__testing__SKILL.md/SKILL.md"

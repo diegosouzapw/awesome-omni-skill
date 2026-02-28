@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ac9e670d98cfeb3afd25786d565779ca41a726c8e50850c2cc833d8e73a29646",
   "indexed_at": "2026-02-26T14:20:41.100Z",
-  "synced_at": "2026-02-27T02:45:54.418Z",
+  "synced_at": "2026-02-28T04:15:53.560Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1b1abb5dc1e405aa34759177cebc8f21436973eff968a139a14e494813ef6827",
   "install_command": "mkdir -p .claude/skills/pipedrive-automation && curl -sL \"https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/extended/workflow/pipedrive-automation/SKILL.md\" > .claude/skills/pipedrive-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/techwavedev/agi-agent-kit/main/templates/skills/extended/workflow/pipedrive-automation/SKILL.md"

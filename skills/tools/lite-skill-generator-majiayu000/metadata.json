@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "aaca80ca9b2dff6f800fcf42bb3eece519ef537f5fd4c6f5ce597a3d66b1554a",
   "indexed_at": "2026-02-27T16:49:07.628Z",
-  "synced_at": "2026-02-27T18:15:59.700Z",
+  "synced_at": "2026-02-28T04:16:50.749Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/aaad5ff99316de8127e2e8c291cb8a4aeb619e364210884b8804d8997a9b40d4",
   "install_command": "mkdir -p .claude/skills/lite-skill-generator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/lite-skill-generator/SKILL.md\" > .claude/skills/lite-skill-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/lite-skill-generator/SKILL.md"

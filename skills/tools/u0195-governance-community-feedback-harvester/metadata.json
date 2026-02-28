@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ed04139e04dc069af6d0116efc90f3f55b0c0b0b670f78af609936e79a2b23da",
   "indexed_at": "2026-02-26T23:22:28.555Z",
-  "synced_at": "2026-02-27T02:46:29.398Z",
+  "synced_at": "2026-02-28T04:16:26.361Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/993f71c1b43d1d62abfd01def58f0757de8553e195abdaf099e7bb657a5a8d98",
   "install_command": "mkdir -p .claude/skills/u0195-governance-community-feedback-harvester && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/00/0195-governance-community-feedback-harvester/SKILL.md\" > .claude/skills/u0195-governance-community-feedback-harvester/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/00/0195-governance-community-feedback-harvester/SKILL.md"

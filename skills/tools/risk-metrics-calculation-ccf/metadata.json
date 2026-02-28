@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3172e6f0679565b9b66e7201315a8e1d32d3c8cddae81124e2ff0f03962cc290",
   "indexed_at": "2026-02-26T15:06:24.050Z",
-  "synced_at": "2026-02-27T02:45:58.204Z",
+  "synced_at": "2026-02-28T04:15:57.215Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/37083fe480f043fd2164fbc24f5798b3330a32d6ad15579765a3be38a999c30e",
   "install_command": "mkdir -p .claude/skills/risk-metrics-calculation && curl -sL \"https://raw.githubusercontent.com/ccf/claude-code-ccf-marketplace/main/plugins/quantitative-trading/skills/risk-metrics-calculation/SKILL.md\" > .claude/skills/risk-metrics-calculation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ccf/claude-code-ccf-marketplace/main/plugins/quantitative-trading/skills/risk-metrics-calculation/SKILL.md"

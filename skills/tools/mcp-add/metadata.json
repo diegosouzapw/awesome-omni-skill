@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bba0cb9c8a647b1286fc58b2e6c43a0e16c679dc11e7407a283fd1da6f0dff20",
   "indexed_at": "2026-02-26T17:35:39.983Z",
-  "synced_at": "2026-02-27T02:46:17.668Z",
+  "synced_at": "2026-02-28T04:16:16.112Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fcb94a8ab8704b6f325e519dd404bca86380d47bbd6166d26d17129ac0f9218f",
   "install_command": "mkdir -p .claude/skills/mcp-add && curl -sL \"https://raw.githubusercontent.com/paoloricciuti/mcp-add/main/skills/mcp-add/SKILL.md\" > .claude/skills/mcp-add/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/paoloricciuti/mcp-add/main/skills/mcp-add/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1e61273a3c3872f4e477fe83847e797f1b28c7fbac450364cab5d7a8a8a3aaf1",
   "indexed_at": "2026-02-26T10:30:27.399Z",
-  "synced_at": "2026-02-27T02:45:37.812Z",
+  "synced_at": "2026-02-28T04:15:37.271Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/13251bb4994e9fe6521d0f2e6e894b657180994cd80a9389b4999b578a1b0566",
   "install_command": "mkdir -p .claude/skills/week-skill && curl -sL \"https://raw.githubusercontent.com/slonikmak/week-skill/main/SKILL.md\" > .claude/skills/week-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/slonikmak/week-skill/main/SKILL.md"

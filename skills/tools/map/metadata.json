@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8a9c9f88406a0379aaa2f48ce74a5257cd4d16fb78f9e273d6ebb563ee3e7382",
   "indexed_at": "2026-02-26T07:52:11.362Z",
-  "synced_at": "2026-02-27T02:45:28.454Z",
+  "synced_at": "2026-02-28T04:15:28.191Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1ec19e2f6810cfc6793019242308fe0ef99e9f559380a93583c46785f7ad65c0",
   "install_command": "mkdir -p .claude/skills/map && curl -sL \"https://raw.githubusercontent.com/dylan/claude/main/plugins/map/skills/map/SKILL.md\" > .claude/skills/map/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dylan/claude/main/plugins/map/skills/map/SKILL.md"

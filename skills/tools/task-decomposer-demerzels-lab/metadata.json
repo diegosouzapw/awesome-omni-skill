@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "65b31d19e09665d97e8809091082a3599000b3f503e62d11aa99ff6ee01ff7a9",
   "indexed_at": "2026-02-27T14:11:46.201Z",
-  "synced_at": "2026-02-27T18:15:50.155Z",
+  "synced_at": "2026-02-28T04:16:38.891Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/49f647dd976117bb116b2c11f1d668b839d3b8fbd5c221358b08abf1548b399a",
   "install_command": "mkdir -p .claude/skills/task-decomposer && curl -sL \"https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/10e9928a/super-skills/SKILL.md\" > .claude/skills/task-decomposer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Demerzels-lab/elsamultiskillagent/main/public/skills/10e9928a/super-skills/SKILL.md"

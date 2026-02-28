@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d8aa3ae887ef6af517ce0bf2ece1e43e7d4d359c26eb87098c514a54810e3bce",
   "indexed_at": "2026-02-26T12:24:22.376Z",
-  "synced_at": "2026-02-27T02:45:46.307Z",
+  "synced_at": "2026-02-28T04:15:45.400Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3a7535e52a4cd54fdd98d0494d42dd7d2f7c5db3a1952378e4d2e958c362da1e",
   "install_command": "mkdir -p .claude/skills/github-issue-triage && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/github-issue-triage/SKILL.md\" > .claude/skills/github-issue-triage/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/development/github-issue-triage/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "44b9c271223626f941165c66fb8c9f56c9ac136f4b99d4779bff8883b6104064",
   "indexed_at": "2026-02-26T08:51:16.330Z",
-  "synced_at": "2026-02-27T02:45:31.920Z",
+  "synced_at": "2026-02-28T04:15:31.601Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1a48dd618708714a8211a95cb20cc8ffd9d1b60e5d6a769540503c950082b297",
   "install_command": "mkdir -p .claude/skills/ralph-prompt-builder && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ralph-prompt-builder/SKILL.md\" > .claude/skills/ralph-prompt-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/ralph-prompt-builder/SKILL.md"

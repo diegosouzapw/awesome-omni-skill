@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5623cabb8a656a066a7d0ae9b6bef1ada9118dfaf55a19b47f979a4f59e74635",
   "indexed_at": "2026-02-26T14:24:19.589Z",
-  "synced_at": "2026-02-27T02:45:56.968Z",
+  "synced_at": "2026-02-28T04:15:56.013Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/05dcd2f2d2aafd1283854c90a1ecb59cac14358eff4860fff801b4e0b153c9df",
   "install_command": "mkdir -p .claude/skills/medium-content-pro && curl -sL \"https://raw.githubusercontent.com/alirezarezvani/medium-content/main/SKILL.md\" > .claude/skills/medium-content-pro/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alirezarezvani/medium-content/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "00fa16568591137802e0d321baedc599d2546d281adbcbc064999189a23e6aae",
   "indexed_at": "2026-02-27T13:45:56.708Z",
-  "synced_at": "2026-02-27T18:15:49.535Z",
+  "synced_at": "2026-02-28T04:16:38.029Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e84ee0647147f6d101b24c81b5ebda004d4e705d4b4fbd8e993c177480b51c16",
   "install_command": "mkdir -p .claude/skills/stl-cube-scaffold && curl -sL \"https://raw.githubusercontent.com/Dcatfly/stl-cube-scaffold-skill/main/SKILL.md\" > .claude/skills/stl-cube-scaffold/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Dcatfly/stl-cube-scaffold-skill/main/SKILL.md"

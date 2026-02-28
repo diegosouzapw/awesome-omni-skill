@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "07580005f8f044c589b030a2ea4d8e35901a36f210bb0f994cb56f2e46098124",
   "indexed_at": "2026-02-27T15:01:33.852Z",
-  "synced_at": "2026-02-27T18:15:51.175Z",
+  "synced_at": "2026-02-28T04:16:40.242Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d3db5b07fb12b1e9b727531393376fe7ca2bc264c6e7417e33d20be3f2cc914b",
   "install_command": "mkdir -p .claude/skills/marp-slide && curl -sL \"https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/creative-design/marp-slide/SKILL.md\" > .claude/skills/marp-slide/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/creative-design/marp-slide/SKILL.md"

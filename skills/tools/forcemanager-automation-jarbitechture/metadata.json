@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b9e91ca2891d346bcf4727bd5edaa2f6162fab7e8023f526522cd8f1c82f30e4",
   "indexed_at": "2026-02-26T13:55:54.150Z",
-  "synced_at": "2026-02-27T02:45:51.989Z",
+  "synced_at": "2026-02-28T04:15:51.190Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dc605f0f3e2d93902c0ebacea9757c9bbd6b68a4e16ca8a02dbbfcb41c1c30c5",
   "install_command": "mkdir -p .claude/skills/forcemanager-automation && curl -sL \"https://raw.githubusercontent.com/jarbitechture/claude-skills/main/skills/forcemanager-automation/SKILL.md\" > .claude/skills/forcemanager-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jarbitechture/claude-skills/main/skills/forcemanager-automation/SKILL.md"

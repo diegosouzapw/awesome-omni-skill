@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cba18212fdaf3763188c5b8b7c60f49f99925e9f626f71018b62800f909fbd82",
   "indexed_at": "2026-02-26T14:18:04.241Z",
-  "synced_at": "2026-02-27T02:45:53.432Z",
+  "synced_at": "2026-02-28T04:15:52.610Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a475f03a79d34efb1c3535dfcb1ee773f9bbd79ea29b96a60eaf4edbc57894f2",
   "install_command": "mkdir -p .claude/skills/pipedrive-automation && curl -sL \"https://raw.githubusercontent.com/ngxtm/devkit/main/skills/pipedrive-automation/SKILL.md\" > .claude/skills/pipedrive-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ngxtm/devkit/main/skills/pipedrive-automation/SKILL.md"

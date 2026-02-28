@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "afc5a5da818db33974edd01599a0a7a4fb0cdf57a93bb73426ac5281191a00b0",
   "indexed_at": "2026-02-26T23:22:50.746Z",
-  "synced_at": "2026-02-27T02:46:29.900Z",
+  "synced_at": "2026-02-28T04:16:26.853Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/06e3160d220887573918d2a139d8de0f11e9875f5e83f5809614754108200d69",
   "install_command": "mkdir -p .claude/skills/u05003-disaster-recovery-orchestration-for-personal-health-routines && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/05/5003-disaster-recovery-orchestration-for-personal-health-routines/SKILL.md\" > .claude/skills/u05003-disaster-recovery-orchestration-for-personal-health-routines/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/05/5003-disaster-recovery-orchestration-for-personal-health-routines/SKILL.md"

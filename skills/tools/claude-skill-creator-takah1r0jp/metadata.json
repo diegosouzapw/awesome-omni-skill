@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "778eedc13310c0ed7a1c4281c2ad237bf563a7f74962da95ada985856fb37648",
   "indexed_at": "2026-02-26T07:53:34.706Z",
-  "synced_at": "2026-02-27T02:45:29.767Z",
+  "synced_at": "2026-02-28T04:15:29.473Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e94108268030ab00160b8d2f1cea051a3a16b64e2e6a01f54cf8a98fa76adbcf",
   "install_command": "mkdir -p .claude/skills/claude-skill-creator && curl -sL \"https://raw.githubusercontent.com/takah1r0jp/challenge-bank/main/.claude/skills/claude-skill-creator/SKILL.md\" > .claude/skills/claude-skill-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/takah1r0jp/challenge-bank/main/.claude/skills/claude-skill-creator/SKILL.md"

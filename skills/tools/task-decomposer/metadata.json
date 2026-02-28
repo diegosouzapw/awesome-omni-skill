@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d1a78b7136bd818ce267399486c178652ac96093377d767b09251d32f1cabab0",
   "indexed_at": "2026-02-27T14:08:08.530Z",
-  "synced_at": "2026-02-27T18:15:49.921Z",
+  "synced_at": "2026-02-28T04:16:38.528Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8759bd11cdead49bcffcb2508c18f4113b02ddcca62f8492c836db89b55daccc",
   "install_command": "mkdir -p .claude/skills/task-decomposer && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/10e9928a/super-skills/SKILL.md\" > .claude/skills/task-decomposer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/10e9928a/super-skills/SKILL.md"

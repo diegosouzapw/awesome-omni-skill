@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "315db0a79d76a45ce22b5d44e711977997e6d2c96e37fd444fac36fa1f1c9780",
   "indexed_at": "2026-02-26T22:38:22.581Z",
-  "synced_at": "2026-02-27T02:46:29.215Z",
+  "synced_at": "2026-02-28T04:16:26.192Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cab4bb336ecf5c58d52831d7787c225f286deb9d51b3ba6994dc1e7b81167188",
   "install_command": "mkdir -p .claude/skills/portable-skills-and-rules && curl -sL \"https://raw.githubusercontent.com/evatt-harvey-salinger/dotfiles/main/claude/skills/portable-skills-and-rules/SKILL.md\" > .claude/skills/portable-skills-and-rules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/evatt-harvey-salinger/dotfiles/main/claude/skills/portable-skills-and-rules/SKILL.md"

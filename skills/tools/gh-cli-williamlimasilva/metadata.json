@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c3d6b2e22497adf04822541c84a66f233a39972a5520589effdfd0a41df247d8",
   "indexed_at": "2026-02-26T07:46:59.871Z",
-  "synced_at": "2026-02-27T02:45:26.934Z",
+  "synced_at": "2026-02-28T04:15:26.766Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e4666f9ab510baa26003a67f66c04e62ff0742229b377019df14e230e7184c0b",
   "install_command": "mkdir -p .claude/skills/gh-cli && curl -sL \"https://raw.githubusercontent.com/williamlimasilva/.copilot/main/skills/gh-cli/SKILL.md\" > .claude/skills/gh-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/williamlimasilva/.copilot/main/skills/gh-cli/SKILL.md"

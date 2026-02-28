@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8498069d1c2f723a02515fa31993ced3e9c8fe4335e78fa83b12f4a374fb9625",
   "indexed_at": "2026-02-27T16:48:00.193Z",
-  "synced_at": "2026-02-27T18:15:59.234Z",
+  "synced_at": "2026-02-28T04:16:50.025Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5ac3f374e9f13f7846f2ce3281b4ed3f2135c680472b11aa7f464d0d290f6d18",
   "install_command": "mkdir -p .claude/skills/pdk-release && curl -sL \"https://raw.githubusercontent.com/GoReal-AI/echo-pdk/main/.claude/skills/pdk-release/SKILL.md\" > .claude/skills/pdk-release/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/GoReal-AI/echo-pdk/main/.claude/skills/pdk-release/SKILL.md"

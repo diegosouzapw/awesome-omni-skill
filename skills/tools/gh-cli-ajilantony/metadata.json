@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "893bf292064cdf1e75f0c41e3f27c385466fc073e1c8b598f70a95416681aa02",
   "indexed_at": "2026-02-26T07:46:58.152Z",
-  "synced_at": "2026-02-27T02:45:26.735Z",
+  "synced_at": "2026-02-28T04:15:26.610Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0a4bbd7fa074b1bff0acb05f06f01d34fba16a13a8fe773ea343502f0487bb04",
   "install_command": "mkdir -p .claude/skills/gh-cli && curl -sL \"https://raw.githubusercontent.com/ajilantony/copilot-agentops/main/skills/gh-cli/SKILL.md\" > .claude/skills/gh-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ajilantony/copilot-agentops/main/skills/gh-cli/SKILL.md"

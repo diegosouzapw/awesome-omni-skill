@@ -1,125 +1,238 @@
 ---
 name: agents-md-generator
-description: Generate AGENTS.md files for software projects by analyzing project structure, dependencies, and tooling. Use when asked to create an AGENTS.md file, document a project for AI agents, or establish project conventions for agent consumption. Triggers on requests like "create AGENTS.md", "generate agent instructions", "document this project for agents", or "add AI agent documentation".
+description: "Generate comprehensive agents.md files for Builder.io Fusion projects. Creates project-specific AI instruction files that establish conventions, build commands, testing procedures, design system rules, and coding standards. Use when setting up a new project, onboarding a repository to AI-assisted development, or improving AI code generation quality."
 ---
 
-# AGENTS.md Generator
+# agents.md Generator
 
-Generate structured AGENTS.md files by analyzing a project's tools, dependencies, and organization.
+You are a specialist in creating `agents.md` files—the configuration files that Builder.io Fusion uses to understand project conventions. A well-crafted agents.md dramatically improves code generation quality by teaching the AI your team's patterns, preferences, and requirements.
 
-## Workflow
+## Determine the Workflow
 
-1. **Identify project root** — Locate `package.json`, `pyproject.toml`, `Cargo.toml`, or similar manifest
-2. **Analyze dependencies** — Extract framework, testing, linting, and build tools from manifest
-3. **Scan structure** — Map `src/`, `lib/`, `test/`, and other key directories
-4. **Detect quality tools** — Identify typecheck, lint, test, and build commands
-5. **Generate AGENTS.md** — Output using the template format
+Use AskUserQuestion to clarify which workflow the user needs:
 
-## Analysis Checklist
+1. **Generate New** - Create agents.md for a project that doesn't have one
+2. **Update Existing** - Improve or expand an existing agents.md
+3. **Analyze Only** - Review the project and provide recommendations without generating
 
-### Detect Project Type
+If the user's intent is clear from their message, proceed directly.
 
-| Manifest File | Language | Common Frameworks |
-|---------------|----------|-------------------|
-| `package.json` | JavaScript/TypeScript | React, Next.js, Express, Vite |
-| `pyproject.toml` / `setup.py` | Python | FastAPI, Django, Flask |
-| `Cargo.toml` | Rust | Actix, Axum, Tokio |
-| `go.mod` | Go | Gin, Echo, Fiber |
-| `pom.xml` / `build.gradle` | Java/Kotlin | Spring, Quarkus |
+## Quick Start
 
-### Identify Quality Tools
+1. **Check for existing file**: Look for `agents.md` at the repository root
+2. **Analyze the repository**: Examine existing patterns, dependencies, and configuration
+3. **Identify the project type**: Framework, language, styling approach, testing setup
+4. **Read specialized template**: Use the appropriate template for the project type
+5. **Generate the agents.md**: Create a comprehensive file at repository root
+6. **Validate**: Verify all commands work and paths are correct
 
-**Typechecking:**
-- TypeScript: `tsc --noEmit`
-- Python: `mypy`, `pyright`, `ty check`
-- Rust: `cargo check`
+## Why agents.md Matters
 
-**Linting:**
-- JavaScript/TypeScript: `eslint`, `biome`
-- Python: `ruff`, `flake8`, `pylint`
-- Rust: `clippy`
+Without clear instructions, AI assistants guess at conventions. With a good agents.md, generated code looks like your team wrote it. The file should:
 
-**Testing:**
-- JavaScript/TypeScript: `vitest`, `jest`, `mocha`
-- Python: `pytest`, `unittest`
-- Rust: `cargo test`
+- Establish coding standards and naming conventions
+- Document build, test, and dev commands
+- Specify design system components and usage rules
+- Define approved/forbidden dependencies
+- List common pitfalls to avoid
 
-### Determine Project Classification
+## Section Priority Guide
 
-- **Library**: Exports modules for other packages (has `exports` or `lib` config, no `bin`)
-- **Application**: Runnable entry point (has `main`, `bin`, or serves HTTP)
-- **Tool**: CLI utility (has `bin` field or command-line interface)
+| Section | Purpose | Priority |
+|---------|---------|----------|
+| Project Overview | Context about the app/repo | Required |
+| Dev Environment | Setup, install, run commands | Required |
+| Code Style | Formatting, naming, patterns | Required |
+| Design System | Components, tokens, usage rules | High |
+| Testing | Test commands, coverage requirements | High |
+| File Structure | Where things go | Medium |
+| Dependencies | What to use, what to avoid | Medium |
+| Common Pitfalls | Mistakes to avoid | Medium |
+| Git Workflow | Branching, commits, PRs | Optional |
 
-## Output Template
+## Specialized Resources
 
-Use the following structure exactly:
+Read the appropriate template based on project type:
+
+| Project Type | Resource | When to Use |
+|-------------|----------|-------------|
+| Monorepo | `monorepo-template.md` | Turborepo, Nx, pnpm workspaces |
+| Next.js App Router | `nextjs-app-router-template.md` | Next.js 13+ with app directory |
+| Standard project | `assets/complete-example.md` | General reference for any project |
+
+## Repository Analysis Workflow
+
+Before generating an agents.md, analyze the codebase systematically:
+
+### Step 1: Package Manager & Scripts
+
+Examine `package.json` for:
+- Package manager (npm, pnpm, yarn, bun)
+- Scripts: dev, build, test, lint commands
+- Key dependencies (framework, styling, testing)
+
+### Step 2: Framework & Structure
+
+Identify by checking for these directories and files:
+- `src/`, `app/`, `pages/`, `components/` directories
+- Config files: `.eslintrc*`, `.prettierrc*`, `tsconfig.json`, `tailwind.config.*`, `biome.json`
+- Framework indicators: `next.config.*`, `vite.config.*`, `nuxt.config.*`
+
+Look for:
+- React, Vue, Svelte, or other framework
+- App Router vs Pages Router (Next.js)
+- TypeScript configuration
+- Styling approach (Tailwind, CSS Modules, etc.)
+
+### Step 3: Design System
+
+Search for:
+- Design system imports (patterns like `from '@company/ui'`)
+- Component library references in package.json (shadcn, radix, mui, chakra, mantine)
+- Design token files or CSS variables
+
+### Step 4: Testing Setup
+
+Identify by looking for:
+- Test files: `*.test.*`, `*.spec.*`
+- Test config: `jest.config.*`, `vitest.config.*`, `playwright.config.*`
+- Test libraries in package.json (testing-library, jest, vitest, playwright)
+
+### Step 5: Monorepo Detection
+
+Check for monorepo indicators:
+- `turbo.json`, `nx.json`, `pnpm-workspace.yaml`, `lerna.json`
+- `packages/`, `apps/`, `libs/` directories
+- Workspaces configuration in package.json
+
+If monorepo detected, read `monorepo-template.md` for additional sections.
+
+## agents.md Template Structure
+
+Generate the file at the repository root as `agents.md` with these sections:
 
 ```markdown
-# <Project Name> <Library|Application|Tool>
+# agents.md
 
-<1-2 sentence description of what the project does and its purpose>
+## Project Overview
 
-## Quality Instructions
+[Brief description of what this application does]
 
-- **Typecheck**: `<command>` — <brief note if needed>
-- **Lint**: `<command>` — <brief note if needed>
-- **Test**: `<command>` — <brief note if needed>
-- **Build**: `<command>` — <brief note if needed> (if applicable)
+**Tech Stack:**
+- Framework: [Next.js 14 / React 18 / Vue 3 / etc.]
+- Language: [TypeScript / JavaScript]
+- Styling: [Tailwind CSS / CSS Modules / etc.]
+- Testing: [Jest / Vitest / Playwright / etc.]
 
-## Structure
+---
 
-- `src/` — <purpose>
-- `lib/` — <purpose>
-- `test/` — <purpose>
-<additional key directories only>
+## Dev Environment
 
-## Technical Stack
+### Setup
+[Package manager] install
+cp .env.example .env.local
 
-- **Language**: <primary language and version if relevant>
-- **Framework**: <main framework if applicable>
-- **Key Libraries**: <2-4 most impactful dependencies>
-- **Build Tool**: <bundler or build system>
+### Common Commands
+| Command | Purpose |
+|---------|---------|
+| `[pm] dev` | Start development server |
+| `[pm] build` | Production build |
+| `[pm] test` | Run test suite |
+| `[pm] lint` | Run linter |
+
+---
+
+## Code Style
+
+### Naming Conventions
+| Type | Convention | Example |
+|------|------------|---------|
+| Components | PascalCase | `UserProfile.tsx` |
+| Hooks | camelCase with use prefix | `useAuth.ts` |
+| Utilities | camelCase | `formatDate.ts` |
+
+### File Organization
+[Directory structure]
+
+---
+
+## Design System
+
+[If applicable - component library, usage rules, tokens]
+
+---
+
+## Testing
+
+[Test patterns, requirements, file locations]
+
+---
+
+## Common Pitfalls
+
+[Project-specific mistakes to avoid]
 ```
 
-## Generation Guidelines
+See `assets/complete-example.md` for a fully-fleshed example.
 
-### Be Minimal
-- List only directories that matter for understanding the codebase
-- Include only the most impactful 3-5 dependencies
-- Omit obvious tooling (e.g., don't list `typescript` if already listing `tsc`)
+## Handling Existing agents.md
 
-### Be Specific
-- Use actual command invocations, not generic descriptions
-- Reference real paths from the analyzed project
-- Match the project's actual tooling configuration
+If the project already has an `agents.md`:
 
-### Be Concise
-- One-line descriptions for directories
-- No redundant explanations
-- Skip sections that don't apply (e.g., no "Framework" for a pure utility library)
+1. **Read and analyze** the existing file
+2. **Identify gaps** - missing sections, outdated commands, vague rules
+3. **Propose updates** - show what would be added or changed
+4. **Ask before replacing** - confirm with user before overwriting
 
-## Example Output
+## Validation Checklist
 
-```markdown
-# @acme/data-utils Library
+Before finalizing an agents.md, verify:
 
-Lightweight data transformation utilities for parsing, validating, and formatting structured data.
+- [ ] File is named `agents.md` (lowercase) at repository root
+- [ ] Package manager commands match actual scripts in package.json
+- [ ] Build and dev commands actually exist
+- [ ] Design system package name is accurate (if referenced)
+- [ ] File structure matches actual repository
+- [ ] No references to non-existent packages or files
+- [ ] Under 500 lines total
 
-## Quality Instructions
+## Best Practices
 
-- **Typecheck**: `tsc --noEmit`
-- **Lint**: `eslint --fix src/`
-- **Test**: `vitest run`
-- **Build**: `pnpm build`
+### Do:
+- Start simple, add detail based on actual AI behavior issues
+- Use specific file paths and real examples from the codebase
+- Include actual component names from the design system
+- Reference real configuration files (tsconfig paths, etc.)
+- Update when conventions change
 
-## Structure
+### Don't:
+- Write vague guidance ("write clean code")
+- Create rules that conflict with each other
+- Exceed 500 lines—keep it focused
+- Include sensitive information (API keys, internal URLs)
+- Duplicate information that's in other config files
 
-- `src/` — Source modules organized by domain (parsers, validators, formatters)
-- `src/__tests__/` — Unit tests colocated with source
+## Iteration Pattern
 
-## Technical Stack
+After creating the initial agents.md:
 
-- **Language**: TypeScript 5.x
-- **Key Libraries**: zod (validation), date-fns (date formatting)
-- **Build Tool**: tsup
-```
+1. Generate code using the AI
+2. Note where AI deviates from conventions
+3. Add specific rules to address deviations
+4. Repeat until AI output matches expectations
+
+## Resources
+
+| Resource | When to Use |
+|----------|-------------|
+| `assets/complete-example.md` | Full reference example |
+| `monorepo-template.md` | Turborepo/Nx/pnpm workspaces |
+| `nextjs-app-router-template.md` | Next.js 13+ App Router |
+
+## Output Format
+
+When generating an agents.md, provide:
+
+1. **Analysis Summary**: Key findings from repository analysis
+2. **Generated agents.md**: The complete file content
+3. **Validation Notes**: Any commands to verify or potential issues found

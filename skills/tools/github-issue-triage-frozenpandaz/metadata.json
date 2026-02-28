@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b3c0386e6d70ae42ec9b4d02d74b0f2a88155f8cf7c40c4a53c43159c4c2288f",
   "indexed_at": "2026-02-26T12:24:21.561Z",
-  "synced_at": "2026-02-27T02:45:46.126Z",
+  "synced_at": "2026-02-28T04:15:45.237Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3a170a18ab82747fff50fa2521804ad4b9db3fe6b74ff6ccd7ccf685c0cb6bb0",
   "install_command": "mkdir -p .claude/skills/github-issue-triage && curl -sL \"https://raw.githubusercontent.com/FrozenPandaz/config-claude/main/skills/github-issue-triage/SKILL.md\" > .claude/skills/github-issue-triage/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/FrozenPandaz/config-claude/main/skills/github-issue-triage/SKILL.md"

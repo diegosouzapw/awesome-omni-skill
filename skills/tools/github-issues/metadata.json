@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "77de3cd9376aba987b94f79c64578f97a63498ecc5870a6fad50847db61daae3",
   "indexed_at": "2026-02-26T09:51:51.107Z",
-  "synced_at": "2026-02-27T02:45:35.727Z",
+  "synced_at": "2026-02-28T04:15:35.249Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ae24e247e1563157a5f9872b2abaf193d1ab875226bcb390ae1461f275fec75c",
   "install_command": "mkdir -p .claude/skills/github-issues && curl -sL \"https://raw.githubusercontent.com/KeyArc/keyarc/main/.claude/skills/github-issues/SKILL.md\" > .claude/skills/github-issues/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/KeyArc/keyarc/main/.claude/skills/github-issues/SKILL.md"

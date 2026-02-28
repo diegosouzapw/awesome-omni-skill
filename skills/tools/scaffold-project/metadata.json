@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b8ef46a403c1b3e1cc1d94c8f621995f303eafe241ffb2f40cb30dd957f8fe5c",
   "indexed_at": "2026-02-26T23:35:08.922Z",
-  "synced_at": "2026-02-27T02:46:32.251Z",
+  "synced_at": "2026-02-28T04:16:28.498Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4c673dad15d94908b092c639991139be2b3a776412674953e7e47e2f4f00d40c",
   "install_command": "mkdir -p .claude/skills/scaffold-project && curl -sL \"https://raw.githubusercontent.com/opsMachine/OM-Agency/main/skills/scaffold-project/SKILL.md\" > .claude/skills/scaffold-project/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/opsMachine/OM-Agency/main/skills/scaffold-project/SKILL.md"

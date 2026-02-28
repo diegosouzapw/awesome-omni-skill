@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a7e961dc15fb13994d03e30a14c356aeded81ea5e3b7f0427d699ff21b3df253",
   "indexed_at": "2026-02-26T09:46:24.390Z",
-  "synced_at": "2026-02-27T02:45:34.970Z",
+  "synced_at": "2026-02-28T04:15:34.546Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4414ebc8625434c941b1160149ef79be1eee0bd39283fd524e051da4e3d939d4",
   "install_command": "mkdir -p .claude/skills/dma-attack-techniques && curl -sL \"https://raw.githubusercontent.com/gmh5225/awesome-game-security/main/.claude/skills/dma-attack/SKILL.md\" > .claude/skills/dma-attack-techniques/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/gmh5225/awesome-game-security/main/.claude/skills/dma-attack/SKILL.md"

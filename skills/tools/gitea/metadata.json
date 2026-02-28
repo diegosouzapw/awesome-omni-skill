@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "63bb2667b03b68ad777ba7de133d1e375ce2f3ce8974ea4d080bdd148e88952d",
   "indexed_at": "2026-02-26T14:23:18.103Z",
-  "synced_at": "2026-02-27T02:45:56.589Z",
+  "synced_at": "2026-02-28T04:15:55.661Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3902b1cc92703371694187efe79c2f5ada4fb9721768d22fb41ba61f6dc62c67",
   "install_command": "mkdir -p .claude/skills/gitea && curl -sL \"https://raw.githubusercontent.com/jason-hchsieh/marketplace/main/plugins/gitea/skills/gitea/SKILL.md\" > .claude/skills/gitea/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jason-hchsieh/marketplace/main/plugins/gitea/skills/gitea/SKILL.md"

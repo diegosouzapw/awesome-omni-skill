@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c8779d13c24d2a3c7434d06f96ce7c904ab8ded427e246941bd5edb09134b362",
   "indexed_at": "2026-02-26T07:52:51.583Z",
-  "synced_at": "2026-02-27T02:45:29.016Z",
+  "synced_at": "2026-02-28T04:15:28.745Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5291a92e041b1bbf96f9b75ab521ef9eff1b194822ad795b3ce4245c2a13fa22",
   "install_command": "mkdir -p .claude/skills/lifesciences-graph-builder && curl -sL \"https://raw.githubusercontent.com/donbr/lifesciences-deepagents/main/.claude/skills/lifesciences-graph-builder/SKILL.md\" > .claude/skills/lifesciences-graph-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/donbr/lifesciences-deepagents/main/.claude/skills/lifesciences-graph-builder/SKILL.md"

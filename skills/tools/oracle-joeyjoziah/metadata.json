@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "530c54d9f6baad39583ec3795c2f130fe98df149582fcff19bde3fb9a578f335",
   "indexed_at": "2026-02-27T16:05:02.781Z",
-  "synced_at": "2026-02-27T18:15:54.712Z",
+  "synced_at": "2026-02-28T04:16:44.877Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8c06298b10b18330c2905784afe08b829ea0fa09f549100c63eb00b1c8533d68",
   "install_command": "mkdir -p .claude/skills/oracle && curl -sL \"https://raw.githubusercontent.com/JoeyJoziah/investment-analysis-platform/main/.claude/skills/oracle/SKILL.md\" > .claude/skills/oracle/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/JoeyJoziah/investment-analysis-platform/main/.claude/skills/oracle/SKILL.md"

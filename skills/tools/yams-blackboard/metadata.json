@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "88c6fd6469f31413273cd418a7217298bd99259c43f53069aa6a6888aeff02a9",
   "indexed_at": "2026-02-26T11:57:29.884Z",
-  "synced_at": "2026-02-27T02:45:44.140Z",
+  "synced_at": "2026-02-28T04:15:43.345Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4294de5362eb1962006b9fa6b877ee346a25c87bc19f4b5cc1f34d0b1ef9ed9d",
   "install_command": "mkdir -p .claude/skills/yams-blackboard && curl -sL \"https://raw.githubusercontent.com/trvon/opencode-blackboard/main/SKILL.md\" > .claude/skills/yams-blackboard/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/trvon/opencode-blackboard/main/SKILL.md"

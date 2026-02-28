@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "41203d855d8401495f27278c05ea7c3a6117a68405d868235445abb598e07059",
   "indexed_at": "2026-02-27T13:25:13.952Z",
-  "synced_at": "2026-02-27T18:15:49.100Z",
+  "synced_at": "2026-02-28T04:16:37.682Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/16397874ecc34cf4aece4d09f791b05d08d672329d21695ac9c490fbb98da647",
   "install_command": "mkdir -p .claude/skills/ralph-wiggum && curl -sL \"https://raw.githubusercontent.com/dheerkt/dotfiles/main/opencode/skills/ralph-wiggum/SKILL.md\" > .claude/skills/ralph-wiggum/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dheerkt/dotfiles/main/opencode/skills/ralph-wiggum/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c7a481bc444e8c307ee7b60a1c7f608275c07fe6b8b7eee18cee606e8084a693",
   "indexed_at": "2026-02-27T16:54:07.530Z",
-  "synced_at": "2026-02-27T18:15:59.848Z",
+  "synced_at": "2026-02-28T04:16:50.940Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0cb28ccf0b7867370b9e61c22e615db0ffb428ce9f9fd8cf122ee1d4a27d0951",
   "install_command": "mkdir -p .claude/skills/oracle && curl -sL \"https://raw.githubusercontent.com/kaivyy/kabot/main/kabot/skills/oracle/SKILL.md\" > .claude/skills/oracle/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kaivyy/kabot/main/kabot/skills/oracle/SKILL.md"

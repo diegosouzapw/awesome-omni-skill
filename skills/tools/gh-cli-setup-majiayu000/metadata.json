@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cd497051f0bc88536bb3313a40a76d0be0625a447c375ff90149659639be55de",
   "indexed_at": "2026-02-26T21:22:20.861Z",
-  "synced_at": "2026-02-27T02:46:26.929Z",
+  "synced_at": "2026-02-28T04:16:24.020Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c7783b28618d7a743ec7552e7a417febfeed2464278fc4ccc6367918ca4516c1",
   "install_command": "mkdir -p .claude/skills/gh-cli-setup && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/security/gh-cli-setup/SKILL.md\" > .claude/skills/gh-cli-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/security/gh-cli-setup/SKILL.md"

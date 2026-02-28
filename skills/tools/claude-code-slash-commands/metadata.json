@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ca434a4b5347386810fafec0da53429068b3d675fe4284db953fedce949fc1de",
   "indexed_at": "2026-02-26T16:34:33.549Z",
-  "synced_at": "2026-02-27T02:46:08.565Z",
+  "synced_at": "2026-02-28T04:16:07.237Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/87e5f74876f272b59ab10f9a44b03d8790cf892a786bcee5ad95f78e5a5f626a",
   "install_command": "mkdir -p .claude/skills/claude-code-slash-commands && curl -sL \"https://raw.githubusercontent.com/dwmkerr/claude-toolkit/main/plugins/toolkit/skills/claude-code-slash-commands/SKILL.md\" > .claude/skills/claude-code-slash-commands/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dwmkerr/claude-toolkit/main/plugins/toolkit/skills/claude-code-slash-commands/SKILL.md"

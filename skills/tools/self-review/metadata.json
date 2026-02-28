@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1c7ccf21eb7d9e838aae105b19989324c432425aff66b14912d3511e5fe218b5",
   "indexed_at": "2026-02-27T00:31:06.280Z",
-  "synced_at": "2026-02-27T02:46:33.923Z",
+  "synced_at": "2026-02-28T04:16:29.470Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1aa65501171ba1588503fd2d5679d6467ca554579f5f8eb0a90ef58aecb668fd",
   "install_command": "mkdir -p .claude/skills/self-review && curl -sL \"https://raw.githubusercontent.com/andrewneilson/self-review-skill/main/SKILL.md\" > .claude/skills/self-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/andrewneilson/self-review-skill/main/SKILL.md"

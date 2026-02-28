@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fd7f36d5c7ca3aaa346719506dc37bbed1e3fc2bc6acb12b61bdba6343a777fc",
   "indexed_at": "2026-02-26T17:36:33.709Z",
-  "synced_at": "2026-02-27T02:46:18.718Z",
+  "synced_at": "2026-02-28T04:16:17.121Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2679ae6a1ef4c854aba5c7e9320c2db68a401471154970d5d14e43ff149fc635",
   "install_command": "mkdir -p .claude/skills/hap-mcp-usage && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/garfield-bb/hap-skills-collection/hap-mcp-usage/SKILL.md\" > .claude/skills/hap-mcp-usage/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/garfield-bb/hap-skills-collection/hap-mcp-usage/SKILL.md"

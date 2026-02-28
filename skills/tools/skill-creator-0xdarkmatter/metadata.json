@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ec5826ee06ddbbe0fb5a4a2d357f81e3878c4a43f7a8a2574b7a4b578182a43d",
   "indexed_at": "2026-02-26T16:33:09.653Z",
-  "synced_at": "2026-02-27T02:46:07.508Z",
+  "synced_at": "2026-02-28T04:16:06.182Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4d6c250d761f66b789f00816ea29bb9a18b77a5a207eaeced8dca9e017150815",
   "install_command": "mkdir -p .claude/skills/skill-creator && curl -sL \"https://raw.githubusercontent.com/0xDarkMatter/claude-mods/main/skills/skill-creator/SKILL.md\" > .claude/skills/skill-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/0xDarkMatter/claude-mods/main/skills/skill-creator/SKILL.md"

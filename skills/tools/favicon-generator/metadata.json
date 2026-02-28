@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "df7da51dcb29c2a23d42fc7e74201961a68cbe46e2b8ceb81b3880fec56031be",
   "indexed_at": "2026-02-27T15:08:05.754Z",
-  "synced_at": "2026-02-27T18:15:53.687Z",
+  "synced_at": "2026-02-28T04:16:43.691Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/55611f4664279c7678c74cf778d2e95a28b7255713fbbdf99bc32fd5ac4444cf",
   "install_command": "mkdir -p .claude/skills/favicon-generator && curl -sL \"https://raw.githubusercontent.com/gjohnsx/nextjs-pwa-template/main/.agents/skills/favicon-generator/SKILL.md\" > .claude/skills/favicon-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/gjohnsx/nextjs-pwa-template/main/.agents/skills/favicon-generator/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6ec3dc3520756853891ce911bfe2f77edc8d65ceffea19835df3a3492b9b7997",
   "indexed_at": "2026-02-27T16:06:20.426Z",
-  "synced_at": "2026-02-27T18:15:55.399Z",
+  "synced_at": "2026-02-28T04:16:45.761Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/59257c0e3c564ab1a880298ae421688abdf23abd36f6244d64b6aae4c71dbeff",
   "install_command": "mkdir -p .claude/skills/oracle && curl -sL \"https://raw.githubusercontent.com/saifaldin14/Espada-Auto/main/skills/oracle/SKILL.md\" > .claude/skills/oracle/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/saifaldin14/Espada-Auto/main/skills/oracle/SKILL.md"

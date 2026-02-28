@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e8564c642ef95bc0b54ee4ee4b9ad30f0159b88fe6445027f66207752aa63f63",
   "indexed_at": "2026-02-27T15:03:18.174Z",
-  "synced_at": "2026-02-27T18:15:51.930Z",
+  "synced_at": "2026-02-28T04:16:41.087Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/504d7d05e11f52780c74ca6c582086d11a15fee814c9dc53bb7aad413295d429",
   "install_command": "mkdir -p .claude/skills/make-repo-contribution && curl -sL \"https://raw.githubusercontent.com/Gabeujin/workspace-init-mcp/main/awesome/skills/make-repo-contribution/SKILL.md\" > .claude/skills/make-repo-contribution/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Gabeujin/workspace-init-mcp/main/awesome/skills/make-repo-contribution/SKILL.md"

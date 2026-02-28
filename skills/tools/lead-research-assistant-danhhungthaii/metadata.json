@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "90b2e88006d742d4a2175b2ffaf8a4d066cd459f9d6d8ad3171ab4ae4a240647",
   "indexed_at": "2026-02-26T18:34:38.589Z",
-  "synced_at": "2026-02-27T02:46:22.249Z",
+  "synced_at": "2026-02-28T04:16:19.548Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fd40fbf2a8d9f8909d6b89fcd70071cbb67722b6bbed5d893871e41a496e7308",
   "install_command": "mkdir -p .claude/skills/lead-research-assistant && curl -sL \"https://raw.githubusercontent.com/danhhungthaii/DoAnCS2/main/awesome-claude-skills-master/lead-research-assistant/SKILL.md\" > .claude/skills/lead-research-assistant/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/danhhungthaii/DoAnCS2/main/awesome-claude-skills-master/lead-research-assistant/SKILL.md"

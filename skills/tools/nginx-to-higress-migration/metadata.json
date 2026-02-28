@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "97c017586dceea69c68cd8f59e7962b7fe98ccb3768a326a863dc3468843b37b",
   "indexed_at": "2026-02-26T12:16:37.074Z",
-  "synced_at": "2026-02-27T02:45:44.656Z",
+  "synced_at": "2026-02-28T04:15:43.950Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/362d8977b48ec64672ba40a1541a78f15491b2963ebdddcf7ac033e131de5361",
   "install_command": "mkdir -p .claude/skills/nginx-to-higress-migration && curl -sL \"https://raw.githubusercontent.com/alibaba/higress/main/.claude/skills/nginx-to-higress-migration/SKILL.md\" > .claude/skills/nginx-to-higress-migration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/alibaba/higress/main/.claude/skills/nginx-to-higress-migration/SKILL.md"

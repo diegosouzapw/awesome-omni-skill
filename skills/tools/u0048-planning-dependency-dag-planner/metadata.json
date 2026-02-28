@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e18b5202d3bc18cfdb5c263740ad8cc7d3df64bfc4afe1e8de42675d474e6786",
   "indexed_at": "2026-02-27T01:16:44.662Z",
-  "synced_at": "2026-02-27T02:46:34.119Z",
+  "synced_at": "2026-02-28T04:16:29.657Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a439afdf12862897be59f562f09569ed2d91f8e3c5218490c84bf309e1185751",
   "install_command": "mkdir -p .claude/skills/u0048-planning-dependency-dag-planner && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/00/0048-planning-dependency-dag-planner/SKILL.md\" > .claude/skills/u0048-planning-dependency-dag-planner/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/00/0048-planning-dependency-dag-planner/SKILL.md"

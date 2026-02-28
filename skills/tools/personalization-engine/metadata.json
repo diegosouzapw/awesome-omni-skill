@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7cb6d47f567b653f6ae02722a9b2e2ed6d42dca5c3acc01f7a5bf9fd93ecd17b",
   "indexed_at": "2026-02-26T12:21:45.820Z",
-  "synced_at": "2026-02-27T02:45:45.332Z",
+  "synced_at": "2026-02-28T04:15:44.480Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/13d24df71a7f056aa9d0d83df0505128fe70b4ac1bf07c129ea3bd065f4c4509",
   "install_command": "mkdir -p .claude/skills/personalization-engine && curl -sL \"https://raw.githubusercontent.com/christianearle01/claude-config-template/main/.claude/skills/personalization-engine/SKILL.md\" > .claude/skills/personalization-engine/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/christianearle01/claude-config-template/main/.claude/skills/personalization-engine/SKILL.md"

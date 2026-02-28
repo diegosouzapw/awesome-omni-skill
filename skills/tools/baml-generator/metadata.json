@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "75451de203fcc139ebd8dacf0401b2d8a9c786310b320cc0cb4a3e5e89c9b753",
   "indexed_at": "2026-02-26T14:21:09.999Z",
-  "synced_at": "2026-02-27T02:45:54.771Z",
+  "synced_at": "2026-02-28T04:15:53.884Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7de64bc68c80b651c237132f692196bd4ebbf82085c5ab4b062fd5408d320a7c",
   "install_command": "mkdir -p .claude/skills/baml-generator && curl -sL \"https://raw.githubusercontent.com/orbruno/baml-ccplugin/main/skills/baml-generator/SKILL.md\" > .claude/skills/baml-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/orbruno/baml-ccplugin/main/skills/baml-generator/SKILL.md"

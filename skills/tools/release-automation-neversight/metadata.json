@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c5e867a5a784c5113ecb3b3102fa5a1ecfdfe6f0b1ce4e30448719290956be54",
   "indexed_at": "2026-02-26T14:18:57.481Z",
-  "synced_at": "2026-02-27T02:45:54.245Z",
+  "synced_at": "2026-02-28T04:15:53.394Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7d1bf13708213dc938cc76e114a76792903f9464f27d3238a8277044b6a19d6b",
   "install_command": "mkdir -p .claude/skills/release-automation && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/richertunes/brainarr/release-automation/SKILL.md\" > .claude/skills/release-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/richertunes/brainarr/release-automation/SKILL.md"

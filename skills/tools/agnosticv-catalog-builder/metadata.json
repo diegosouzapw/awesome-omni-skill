@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "feef4700f9df3f7877704563e2b8a2a66829b841d6e28a84631b4e7180362830",
   "indexed_at": "2026-02-27T15:07:07.800Z",
-  "synced_at": "2026-02-27T18:15:53.458Z",
+  "synced_at": "2026-02-28T04:16:43.358Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2e056ff0092c441a6a96d0681023c4da755b98de029c31265816a3a8ea9c49e9",
   "install_command": "mkdir -p .claude/skills/agnosticv-catalog-builder && curl -sL \"https://raw.githubusercontent.com/rhpds/rhdp-skills-marketplace/main/agnosticv/skills/catalog-builder/SKILL.md\" > .claude/skills/agnosticv-catalog-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rhpds/rhdp-skills-marketplace/main/agnosticv/skills/catalog-builder/SKILL.md"

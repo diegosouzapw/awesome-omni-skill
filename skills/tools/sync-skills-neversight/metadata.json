@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "230280e4c351c3001d5b2865076a6065c66bab628c10f8beab54d22ad3147a2a",
   "indexed_at": "2026-02-26T17:36:18.140Z",
-  "synced_at": "2026-02-27T02:46:18.372Z",
+  "synced_at": "2026-02-28T04:16:16.791Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/60828ae43c3f58cc4e2d95710443c8c0c89481990501137de6a951d7a8c0d087",
   "install_command": "mkdir -p .claude/skills/sync-skills && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/chujianyun/skills/sync-skills/SKILL.md\" > .claude/skills/sync-skills/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/chujianyun/skills/sync-skills/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d707578bbdea5192ab7f270dcd99330dea678bd9c236b4e4fa598a92f812dc60",
   "indexed_at": "2026-02-27T15:03:52.810Z",
-  "synced_at": "2026-02-27T18:15:52.578Z",
+  "synced_at": "2026-02-28T04:16:42.043Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dd1492bb3f5e5c5c2e7081d10297f0a27a43e934e7eac64ba1e63a6156fbd67e",
   "install_command": "mkdir -p .claude/skills/marp-slide && curl -sL \"https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/templates-davila7/cli-tool/components/skills/creative-design/marp-slide/SKILL.md\" > .claude/skills/marp-slide/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/templates-davila7/cli-tool/components/skills/creative-design/marp-slide/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0ba81c753731a7039b3d9388d0884ffbe78546d3304722cce79d818f8e5b0456",
   "indexed_at": "2026-02-27T09:30:57.264Z",
-  "synced_at": "2026-02-27T13:14:33.639Z",
+  "synced_at": "2026-02-28T04:16:34.188Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6afdeffcc9aa1e31bc33844ca06978c337a25cf63838d6ba05647bd5ca37afbf",
   "install_command": "mkdir -p .claude/skills/github-issue-resolver && curl -sL \"https://raw.githubusercontent.com/KubeHeal/openshift-cluster-health-mcp/main/SKILL.md\" > .claude/skills/github-issue-resolver/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/KubeHeal/openshift-cluster-health-mcp/main/SKILL.md"

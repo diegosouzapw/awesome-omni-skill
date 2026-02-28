@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "ca11c47cccf198c0ca82cf9f61deb96b8ac7a411163b3d2b92c4360dbe8cf119",
   "indexed_at": "2026-02-26T20:37:04.986Z",
-  "synced_at": "2026-02-27T02:46:26.273Z",
+  "synced_at": "2026-02-28T04:16:23.349Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ddf5a07d5790fe5b588e3eb70e56f16a5c548d2208019ebbf159b8328a2e3257",
   "install_command": "mkdir -p .claude/skills/reddit-automation && curl -sL \"https://raw.githubusercontent.com/haniakrim21/everything-claude-code/main/skills/reddit-automation/SKILL.md\" > .claude/skills/reddit-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/haniakrim21/everything-claude-code/main/skills/reddit-automation/SKILL.md"

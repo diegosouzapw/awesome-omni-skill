@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d2b40ae35fa034e4b62ae100b266581214aaa8223fa6e6c7e3c27b4b38abc278",
   "indexed_at": "2026-02-27T16:55:14.258Z",
-  "synced_at": "2026-02-27T18:16:00.421Z",
+  "synced_at": "2026-02-28T04:16:51.808Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/39f3628a05c894db9a0aec34f27bd11780e2fcfab1ba36568be59cbf8e7ce711",
   "install_command": "mkdir -p .claude/skills/critical-article-writer && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/critical-article-writer/SKILL.md\" > .claude/skills/critical-article-writer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/critical-article-writer/SKILL.md"

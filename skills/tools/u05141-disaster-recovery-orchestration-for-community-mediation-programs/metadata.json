@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "0182078e0953679ec60f2ae1e28a196f852762d2877587bfdf33297f54272969",
   "indexed_at": "2026-02-26T23:22:55.053Z",
-  "synced_at": "2026-02-27T02:46:30.066Z",
+  "synced_at": "2026-02-28T04:16:27.014Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/965c778b81cc47d9d7b4579f038181409741e393c50f7232f46dd6762c42d3ef",
   "install_command": "mkdir -p .claude/skills/u05141-disaster-recovery-orchestration-for-community-mediation-programs && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/05/5141-disaster-recovery-orchestration-for-community-mediation-programs/SKILL.md\" > .claude/skills/u05141-disaster-recovery-orchestration-for-community-mediation-programs/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/05/5141-disaster-recovery-orchestration-for-community-mediation-programs/SKILL.md"

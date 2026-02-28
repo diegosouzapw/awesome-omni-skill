@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6020f9ffbbdceed0fdc285bef48af05050fcb20fd0a0fd23ce7f11c990b10231",
   "indexed_at": "2026-02-27T12:33:46.853Z",
-  "synced_at": "2026-02-27T13:14:35.255Z",
+  "synced_at": "2026-02-28T04:16:37.135Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2be7423e9f6097ccfb7013e1f9b943fca3e91050e89dd2fd97789fc1259aadba",
   "install_command": "mkdir -p .claude/skills/ppt-to-video-workflow && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/documents/ppt-to-video-workflow/SKILL.md\" > .claude/skills/ppt-to-video-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/documents/ppt-to-video-workflow/SKILL.md"

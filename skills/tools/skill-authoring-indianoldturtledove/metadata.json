@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a811b98a292c6533972f15cd62118da8ae8c9888b3203ff7856a1181d9f7b7dd",
   "indexed_at": "2026-02-26T15:16:55.947Z",
-  "synced_at": "2026-02-27T02:45:59.435Z",
+  "synced_at": "2026-02-28T04:15:58.387Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7ee3d9f7a05996a39669d01fff8b146eb6afef17dbab21d70d4ee6946ed23f63",
   "install_command": "mkdir -p .claude/skills/skill-authoring && curl -sL \"https://raw.githubusercontent.com/IndianOldTurtledove/claude-skill-authoring/main/SKILL.md\" > .claude/skills/skill-authoring/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/IndianOldTurtledove/claude-skill-authoring/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "63a0b5e7be102db3f1e0ee5b1c462494085a2ab659332d183086668c7f8cf66a",
   "indexed_at": "2026-02-26T15:22:54.563Z",
-  "synced_at": "2026-02-27T02:46:02.581Z",
+  "synced_at": "2026-02-28T04:16:01.319Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a4aeba35907a164d272a7dfd73e3558b7a1c67cf6de8d77c907dcf7578d019c2",
   "install_command": "mkdir -p .claude/skills/add-payee && curl -sL \"https://raw.githubusercontent.com/polyipseity/ledger/main/.github/skills/add-payee/SKILL.md\" > .claude/skills/add-payee/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/polyipseity/ledger/main/.github/skills/add-payee/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "122c889d52aa2e21418f5e8afd02d6ff934e8c2078c1e5e0ef82255102d954d4",
   "indexed_at": "2026-02-26T14:07:39.636Z",
-  "synced_at": "2026-02-27T02:45:52.152Z",
+  "synced_at": "2026-02-28T04:15:51.359Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ae874080e044050eaf75b39f4b0823c04b20028fdd464a548e0734c0b9608e34",
   "install_command": "mkdir -p .claude/skills/ralph && curl -sL \"https://raw.githubusercontent.com/carmandale/ralph-loop/main/pi-integration/skill/SKILL.md\" > .claude/skills/ralph/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/carmandale/ralph-loop/main/pi-integration/skill/SKILL.md"

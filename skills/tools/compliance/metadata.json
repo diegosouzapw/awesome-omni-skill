@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b7ba98850186f5d11f2fa0b0aabcbdb31cde308570a910473869a26ee20e3358",
   "indexed_at": "2026-02-26T11:39:03.886Z",
-  "synced_at": "2026-02-27T02:45:42.444Z",
+  "synced_at": "2026-02-28T04:15:41.518Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bfbeb4e37874ebfadd9f58812dc78f28b66a7f58752a228e3be575293859350e",
   "install_command": "mkdir -p .claude/skills/compliance && curl -sL \"https://raw.githubusercontent.com/quadradois/antigravity-kit-v2.0/main/skills/compliance/SKILL.md\" > .claude/skills/compliance/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/quadradois/antigravity-kit-v2.0/main/skills/compliance/SKILL.md"

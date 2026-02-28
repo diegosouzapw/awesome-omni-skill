@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d778034eef33e107d170bf890c091ef006080f35cb0b8b9a2318eb692daa91d6",
   "indexed_at": "2026-02-26T17:34:49.827Z",
-  "synced_at": "2026-02-27T02:46:17.252Z",
+  "synced_at": "2026-02-28T04:16:15.679Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b70a2662da5614af33866c2c0c53e2ac7c4b8273713b8a91ff6b407aff2631fa",
   "install_command": "mkdir -p .claude/skills/yeet && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/yeet/SKILL.md\" > .claude/skills/yeet/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/yeet/SKILL.md"

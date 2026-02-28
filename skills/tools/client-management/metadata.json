@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e007bac2a3f7bb2dcff6924ff17ff2d34e91e07a67f3a72008e62cbc0891631c",
   "indexed_at": "2026-02-26T23:41:10.123Z",
-  "synced_at": "2026-02-27T02:46:33.369Z",
+  "synced_at": "2026-02-28T04:16:29.157Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/45f6201dd3a15d8f08abc9954a2486ff6aa2078e13a4e566f3beb5fd0ece8bfb",
   "install_command": "mkdir -p .claude/skills/client-management && curl -sL \"https://raw.githubusercontent.com/jcanizalez/fourmis-marketplace/main/plugins/local-crm/skills/client-management/SKILL.md\" > .claude/skills/client-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jcanizalez/fourmis-marketplace/main/plugins/local-crm/skills/client-management/SKILL.md"

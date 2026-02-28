@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f3a2551c94361a2d1239a8a8fc48a1187891b18b85b727ae4e9865c62f535321",
   "indexed_at": "2026-02-26T17:36:23.683Z",
-  "synced_at": "2026-02-27T02:46:18.543Z",
+  "synced_at": "2026-02-28T04:16:16.955Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/891b11687cbc85c8279213d563dadd511783cad0970f317304a5962f041b610d",
   "install_command": "mkdir -p .claude/skills/oss && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/paulrberg/agent-skills/oss/SKILL.md\" > .claude/skills/oss/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/paulrberg/agent-skills/oss/SKILL.md"

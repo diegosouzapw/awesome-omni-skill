@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e8f1fd57dc6d46c932f37345a6948f2343db3fb114bc2c78756f31f0d11c8158",
   "indexed_at": "2026-02-26T22:30:54.733Z",
-  "synced_at": "2026-02-27T02:46:27.860Z",
+  "synced_at": "2026-02-28T04:16:24.922Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/55ce767e3a25f6945cb690946f89582bd6c5d9661626c8de76ed89a5898df695",
   "install_command": "mkdir -p .claude/skills/zeno && curl -sL \"https://raw.githubusercontent.com/anth0nylawrence/zeno/main/codex/zeno/SKILL.md\" > .claude/skills/zeno/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/anth0nylawrence/zeno/main/codex/zeno/SKILL.md"

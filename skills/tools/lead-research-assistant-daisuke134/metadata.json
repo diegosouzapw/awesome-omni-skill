@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "57368a759c0274df139c352dd060d995bf0b62c4067f0ca398cf56172b27b22f",
   "indexed_at": "2026-02-26T18:34:36.475Z",
-  "synced_at": "2026-02-27T02:46:22.073Z",
+  "synced_at": "2026-02-28T04:16:19.276Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/69d7f64a0b56d25fe132786246c52b66aa920d0c44fe51371d9edbe83ebe07e9",
   "install_command": "mkdir -p .claude/skills/lead-research-assistant && curl -sL \"https://raw.githubusercontent.com/Daisuke134/anicca-products/main/.cursor/awesome-claude-skills/lead-research-assistant/SKILL.md\" > .claude/skills/lead-research-assistant/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Daisuke134/anicca-products/main/.cursor/awesome-claude-skills/lead-research-assistant/SKILL.md"

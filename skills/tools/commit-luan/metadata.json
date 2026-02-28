@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b7d87666adef9e2766aadc4049ee8172433e971e431a5c1b6efd8fb0e6badcc0",
   "indexed_at": "2026-02-26T21:09:55.033Z",
-  "synced_at": "2026-02-27T02:46:26.771Z",
+  "synced_at": "2026-02-28T04:16:23.847Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4dca4f854800f1089ac8a09685114a98243cfc181a328d7d5420d5f89edb5ba2",
   "install_command": "mkdir -p .claude/skills/commit && curl -sL \"https://raw.githubusercontent.com/luan/dot-claude/main/skills/commit/SKILL.md\" > .claude/skills/commit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/luan/dot-claude/main/skills/commit/SKILL.md"

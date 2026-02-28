@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f2b3c18ed49f3859e191a8ada0477b291354707f357741c95a7918c33fd0c5d8",
   "indexed_at": "2026-02-26T14:25:07.086Z",
-  "synced_at": "2026-02-27T02:45:57.538Z",
+  "synced_at": "2026-02-28T04:15:56.582Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8229d51952beda83038eb1b7e7ebbe2346ea6ff2bd87ef7bebca72f6d9e759a0",
   "install_command": "mkdir -p .claude/skills/running-interactive-commands-with-tmux && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/using-tmux-for-interactive-commands/SKILL.md\" > .claude/skills/running-interactive-commands-with-tmux/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/using-tmux-for-interactive-commands/SKILL.md"

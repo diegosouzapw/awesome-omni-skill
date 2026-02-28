@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d6e5c74eb7aad200ed04bf01b52cb16f99f0c60293c1189ba85463c2be05c6b1",
   "indexed_at": "2026-02-26T22:37:21.089Z",
-  "synced_at": "2026-02-27T02:46:29.031Z",
+  "synced_at": "2026-02-28T04:16:26.020Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fd7478b4e4aa4b0cf66fdbebe96f23f52a2f9d86f08d721144c3ce88710283da",
   "install_command": "mkdir -p .claude/skills/using-contextd && curl -sL \"https://raw.githubusercontent.com/fyrsmithlabs/marketplace/main/plugins/contextd/skills/using-contextd/SKILL.md\" > .claude/skills/using-contextd/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fyrsmithlabs/marketplace/main/plugins/contextd/skills/using-contextd/SKILL.md"

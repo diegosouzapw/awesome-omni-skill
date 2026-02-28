@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8ef56f750527b8aa491ea0a1a8fd89ba62a37b5f20d229412c8ae4649a2b123c",
   "indexed_at": "2026-02-26T08:54:04.432Z",
-  "synced_at": "2026-02-27T02:45:33.225Z",
+  "synced_at": "2026-02-28T04:15:32.899Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3949c0e7f70478c98c8a1ad0a2dee7672ba05a206172f6997014d7b181bbd4b1",
   "install_command": "mkdir -p .claude/skills/machina-git && curl -sL \"https://raw.githubusercontent.com/NumberOne-AI/machina-meta/main/.claude/skills/machina-git/SKILL.md\" > .claude/skills/machina-git/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NumberOne-AI/machina-meta/main/.claude/skills/machina-git/SKILL.md"

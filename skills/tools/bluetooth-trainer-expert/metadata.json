@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "314b40de92ff9e1aa615bc878e32b8fcb250f0347566904d403ed45e85e45abb",
   "indexed_at": "2026-02-26T11:18:24.297Z",
-  "synced_at": "2026-02-27T02:45:40.690Z",
+  "synced_at": "2026-02-28T04:15:39.831Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d6a9588cd88c3b53eac85dc5dc07aec1422cdb91145158a2f79dcb4b105c1990",
   "install_command": "mkdir -p .claude/skills/bluetooth-trainer-expert && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/bluetooth-trainer-expert/SKILL.md\" > .claude/skills/bluetooth-trainer-expert/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/bluetooth-trainer-expert/SKILL.md"

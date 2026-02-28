@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5769672f749ce3a39b2ff16cf4fcbb4dee8ec07cfabe2298fd82e45d4de9c832",
   "indexed_at": "2026-02-27T16:47:51.298Z",
-  "synced_at": "2026-02-27T18:15:58.775Z",
+  "synced_at": "2026-02-28T04:16:49.507Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b2c8fe5915498aabed4ceeb7c7eb9bb3586ce10583b248ac22977494226d6a20",
   "install_command": "mkdir -p .claude/skills/pr-workflow && curl -sL \"https://raw.githubusercontent.com/z3d/ZChain/main/.claude/skills/pr-workflow/SKILL.md\" > .claude/skills/pr-workflow/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/z3d/ZChain/main/.claude/skills/pr-workflow/SKILL.md"

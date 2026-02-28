@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9755bdce6abb54b51b4193b5d729db822e9010a567058eb1dc96ba2e1a234cc8",
   "indexed_at": "2026-02-26T17:32:10.563Z",
-  "synced_at": "2026-02-27T02:46:15.802Z",
+  "synced_at": "2026-02-28T04:16:14.265Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/64939aa1d353ac2c6cc37c3b2c537bc232cc3a68b6276c89e34791ef904ff5c7",
   "install_command": "mkdir -p .claude/skills/aisync && curl -sL \"https://raw.githubusercontent.com/avalidurl/aisync-skill/main/skill/SKILL.md\" > .claude/skills/aisync/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/avalidurl/aisync-skill/main/skill/SKILL.md"

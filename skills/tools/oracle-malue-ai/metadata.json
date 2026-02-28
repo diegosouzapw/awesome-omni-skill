@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9980c8c2a5781562959a2468d546d6b4f51b9659c7e2466c41f0c742bf57fa3f",
   "indexed_at": "2026-02-27T16:08:58.237Z",
-  "synced_at": "2026-02-27T18:15:56.175Z",
+  "synced_at": "2026-02-28T04:16:46.904Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/62bfb7389bb956d41d3a8bd57c9a27b53d712f91520c632376e18d941d9a7f7c",
   "install_command": "mkdir -p .claude/skills/oracle && curl -sL \"https://raw.githubusercontent.com/malue-ai/dazee-small/main/skills/library/oracle/SKILL.md\" > .claude/skills/oracle/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/malue-ai/dazee-small/main/skills/library/oracle/SKILL.md"

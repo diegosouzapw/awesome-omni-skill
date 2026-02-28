@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cfc92430f8c8da439e654d9f52cab6186b2a2ec33179512151ce77f17b24684d",
   "indexed_at": "2026-02-26T09:19:32.151Z",
-  "synced_at": "2026-02-27T02:45:33.615Z",
+  "synced_at": "2026-02-28T04:15:33.270Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/31865d4b470ee122ff69315d96ebed0a47aebb5f0693b2dd419dcb7dd4d62615",
   "install_command": "mkdir -p .claude/skills/free-tool-strategy && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/free-tool-strategy/SKILL.md\" > .claude/skills/free-tool-strategy/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/free-tool-strategy/SKILL.md"

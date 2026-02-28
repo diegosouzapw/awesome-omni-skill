@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "da873414c81f4f406a7e1ae26b37a058493f39be28c1b0436dee490951b32f25",
   "indexed_at": "2026-02-27T16:07:37.973Z",
-  "synced_at": "2026-02-27T18:15:55.772Z",
+  "synced_at": "2026-02-28T04:16:46.353Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/af0b261cbd9626126e3da8e30218c93f271c23f6228196f98028aa1dece691f1",
   "install_command": "mkdir -p .claude/skills/dianalokadalight && curl -sL \"https://raw.githubusercontent.com/ratacat/dianalokada-skill/main/skills/dianalokadalight/SKILL.md\" > .claude/skills/dianalokadalight/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ratacat/dianalokada-skill/main/skills/dianalokadalight/SKILL.md"

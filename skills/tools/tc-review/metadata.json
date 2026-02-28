@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f575e8801c8fde8eb6f851137aa7ac17d39b46ca96b91e8d89ea25d8e3b5c59d",
   "indexed_at": "2026-02-26T16:32:28.742Z",
-  "synced_at": "2026-02-27T02:46:07.165Z",
+  "synced_at": "2026-02-28T04:16:05.836Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3dfdecd626bb178d49c22d57319f076ee2c2089833dfcb971b2a533a0a0679a1",
   "install_command": "mkdir -p .claude/skills/tc-review && curl -sL \"https://raw.githubusercontent.com/hangnhat57/test-case-review-agent/main/claude-skill/SKILL.md\" > .claude/skills/tc-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hangnhat57/test-case-review-agent/main/claude-skill/SKILL.md"

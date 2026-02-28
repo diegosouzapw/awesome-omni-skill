@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "310c4b5886a09c438b186cd768f61f73411523cbe50c312d3f509a1c15dffe84",
   "indexed_at": "2026-02-26T10:31:04.316Z",
-  "synced_at": "2026-02-27T02:45:38.347Z",
+  "synced_at": "2026-02-28T04:15:37.805Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/17092da4d41104afe26a15a9bb2fccc7ad39af9eebf955a1dced368729cdc4cb",
   "install_command": "mkdir -p .claude/skills/daggerheart-core-rules && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/wayfarerboy/daggerheart-core-rules/daggerheart-core-rules/SKILL.md\" > .claude/skills/daggerheart-core-rules/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/wayfarerboy/daggerheart-core-rules/daggerheart-core-rules/SKILL.md"

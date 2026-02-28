@@ -1,6 +1,7 @@
 ---
 name: create-project
 description: Initialize new projects with CAMI capabilities and recommended agent teams. Triggers on "create a new project", "start a new project", "initialize project", "set up project with agents", "what agents do I need for this project", "help me set up my project roster". Guides through project requirements, tech stack detection, agent team recommendations, and full CAMI initialization.
+allowed-tools: Read, Write, Edit, Bash, Glob, Skill
 ---
 
 # Create Project Skill

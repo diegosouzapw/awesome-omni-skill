@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "60ec09062652f9795690a60b55f73a520af86a77a4911b1a5ac93ea52f52e625",
   "indexed_at": "2026-02-26T22:34:35.394Z",
-  "synced_at": "2026-02-27T02:46:28.598Z",
+  "synced_at": "2026-02-28T04:16:25.597Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ef5376636f7712a2191d9c0f16f414b39ca8d866319d160b42e450ae72f4ad00",
   "install_command": "mkdir -p .claude/skills/srgn-cli && curl -sL \"https://raw.githubusercontent.com/metaphorics/my-skills/main/skills/srgn-cli/SKILL.md\" > .claude/skills/srgn-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/metaphorics/my-skills/main/skills/srgn-cli/SKILL.md"

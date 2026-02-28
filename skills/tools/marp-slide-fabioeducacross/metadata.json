@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "fee0a316b2fc370e37d12fbbef7226a530534cec68af07e3ee95c6340683a815",
   "indexed_at": "2026-02-27T15:03:49.221Z",
-  "synced_at": "2026-02-27T18:15:52.422Z",
+  "synced_at": "2026-02-28T04:16:41.882Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/e4107a9332ecc5f500e8eadaef3b869d78fbcb8ed4684ff8bcf6ba410dc93460",
   "install_command": "mkdir -p .claude/skills/marp-slide && curl -sL \"https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.agent/skills/marp-slide/SKILL.md\" > .claude/skills/marp-slide/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/fabioeducacross/DesignSystem-Vuexy/main/.agent/skills/marp-slide/SKILL.md"

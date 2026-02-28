@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d6278a968f70146c0aef03a5a7effa76b8dacce9b33737a4c4987ea8d0412146",
   "indexed_at": "2026-02-26T18:36:58.277Z",
-  "synced_at": "2026-02-27T02:46:23.744Z",
+  "synced_at": "2026-02-28T04:16:20.936Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/03ece6a0b514eae5f2dbd67d4ee1522fefa118b99a613f7de3f7e18ce1ab7ce9",
   "install_command": "mkdir -p .claude/skills/zeroclaw && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/adisinghstudent/zeroclaw/zeroclaw/SKILL.md\" > .claude/skills/zeroclaw/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/adisinghstudent/zeroclaw/zeroclaw/SKILL.md"

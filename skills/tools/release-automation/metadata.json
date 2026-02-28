@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "db6a774b6c1690c40ae5140e87bf53d664cb48ee806dc72c7d1c9e528505a3bc",
   "indexed_at": "2026-02-26T14:16:40.068Z",
-  "synced_at": "2026-02-27T02:45:53.065Z",
+  "synced_at": "2026-02-28T04:15:52.145Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6b1a35fc723ae00ca0e70744edf4e8f74dcc3ede3c32a9bf1657217810b8df09",
   "install_command": "mkdir -p .claude/skills/release-automation && curl -sL \"https://raw.githubusercontent.com/RicherTunes/Brainarr/main/.claude/skills/release-automation/SKILL.md\" > .claude/skills/release-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/RicherTunes/Brainarr/main/.claude/skills/release-automation/SKILL.md"

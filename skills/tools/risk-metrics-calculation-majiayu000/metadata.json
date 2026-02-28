@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "555eb11f342f6289da733574375bc70bb4136ced9a41c6e77a903bf61d3fbff7",
   "indexed_at": "2026-02-26T15:06:26.380Z",
-  "synced_at": "2026-02-27T02:45:58.351Z",
+  "synced_at": "2026-02-28T04:15:57.366Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d2a53182fabccfa988fa04e4355ff05c2d38b3733f29575250cdf4577cca14f1",
   "install_command": "mkdir -p .claude/skills/risk-metrics-calculation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/risk-metrics-calculation-ccf-claude-code-ccf-mark/SKILL.md\" > .claude/skills/risk-metrics-calculation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/risk-metrics-calculation-ccf-claude-code-ccf-mark/SKILL.md"

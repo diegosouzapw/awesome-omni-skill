@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d8bc6298acd62ea875e8965c26764095a881782ee3efcf48d650d33972f89940",
   "indexed_at": "2026-02-26T22:07:42.147Z",
-  "synced_at": "2026-02-27T02:46:27.429Z",
+  "synced_at": "2026-02-28T04:16:24.497Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9e30b0f5c39506ded6fd66406aadc4c245384d1e600c1040ab8895787ac1aa9f",
   "install_command": "mkdir -p .claude/skills/u03807-conflict-resolution-coaching-for-family-caregiving-systems && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/3807-conflict-resolution-coaching-for-family-caregiving-systems/SKILL.md\" > .claude/skills/u03807-conflict-resolution-coaching-for-family-caregiving-systems/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/3807-conflict-resolution-coaching-for-family-caregiving-systems/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6eed35b2d2d059210fe2c57df4a41e989d376f42d205a105517bc358058e9cca",
   "indexed_at": "2026-02-26T11:32:04.321Z",
-  "synced_at": "2026-02-27T02:45:41.766Z",
+  "synced_at": "2026-02-28T04:15:40.853Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/22ebc94eb1cafbf022d7b55a72a82da1476f1019b231cef1cbb03ce0e6f8c1ae",
   "install_command": "mkdir -p .claude/skills/github-about && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/alfredang/skills/github-about/SKILL.md\" > .claude/skills/github-about/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/alfredang/skills/github-about/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2ae2dc00a8c69aba3463ebf897ec6ba36fd15ce45f469ebf9f2a3675e5feb5d5",
   "indexed_at": "2026-02-26T18:32:00.163Z",
-  "synced_at": "2026-02-27T02:46:20.070Z",
+  "synced_at": "2026-02-28T04:16:18.468Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c54880bfff24656994e990ce648b492424543f2944e4f6f907323aa312ff61ef",
   "install_command": "mkdir -p .claude/skills/awesome-copilot-root-droid && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/awesome-copilot-root-codex-pack/.agents/skills/awesome-copilot-root-droid/SKILL.md\" > .claude/skills/awesome-copilot-root-droid/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/awesome-copilot-root-codex-pack/.agents/skills/awesome-copilot-root-droid/SKILL.md"

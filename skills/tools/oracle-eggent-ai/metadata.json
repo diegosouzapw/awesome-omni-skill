@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d2d555e1385667f22aad5d246574186d319c81e8df30abd2a9ce4eb86c4b5326",
   "indexed_at": "2026-02-27T16:06:57.511Z",
-  "synced_at": "2026-02-27T18:15:55.529Z",
+  "synced_at": "2026-02-28T04:16:46.035Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ea584789776eb61df224d4aa6a7884fb5a9678e603a2b54d5f7830a5e42c3e51",
   "install_command": "mkdir -p .claude/skills/oracle && curl -sL \"https://raw.githubusercontent.com/eggent-ai/eggent/main/bundled-skills/oracle/SKILL.md\" > .claude/skills/oracle/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/eggent-ai/eggent/main/bundled-skills/oracle/SKILL.md"

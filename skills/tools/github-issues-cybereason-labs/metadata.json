@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6c6ec63047d2494aad22fddd3293e51e0b5d1a7f0d38ab07637aded1309c9f35",
   "indexed_at": "2026-02-26T18:36:00.367Z",
-  "synced_at": "2026-02-27T02:46:23.376Z",
+  "synced_at": "2026-02-28T04:16:20.624Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7e02442f3dee96e73bde52c57dcc70a741c437a00dd2ce3e445da33df9c6f155",
   "install_command": "mkdir -p .claude/skills/github-issues && curl -sL \"https://raw.githubusercontent.com/cybereason-labs/owLSM/main/.cursor/skills/github-issues/SKILL.md\" > .claude/skills/github-issues/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/cybereason-labs/owLSM/main/.cursor/skills/github-issues/SKILL.md"

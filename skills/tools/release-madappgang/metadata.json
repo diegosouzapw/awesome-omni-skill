@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b50ccc3ee9f836aabd2970d84e2e31d515a1ef7a6cbfe8b67591b26eeb4c07aa",
   "indexed_at": "2026-02-26T21:30:15.668Z",
-  "synced_at": "2026-02-27T02:46:27.271Z",
+  "synced_at": "2026-02-28T04:16:24.339Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9f9d6676b051d960dcf626f9771ed1e4e26f35bbbfc0b59864e988898b28c458",
   "install_command": "mkdir -p .claude/skills/release && curl -sL \"https://raw.githubusercontent.com/MadAppGang/claude-code/main/skills/release/SKILL.md\" > .claude/skills/release/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/MadAppGang/claude-code/main/skills/release/SKILL.md"

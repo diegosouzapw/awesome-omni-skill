@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "8edcb58a3b4cbb4f705b155b879187b740dd5a3968e33d5f34a7dccac8b2a20e",
   "indexed_at": "2026-02-27T15:02:18.924Z",
-  "synced_at": "2026-02-27T18:15:51.669Z",
+  "synced_at": "2026-02-28T04:16:40.740Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/79d336f38293f01a1a5ae012ec03a056287dca719676396dc6bcda95f0bc2ae9",
   "install_command": "mkdir -p .claude/skills/instruction-creator && curl -sL \"https://raw.githubusercontent.com/arisng/github-copilot-fc/main/skills/instruction-creator/SKILL.md\" > .claude/skills/instruction-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/arisng/github-copilot-fc/main/skills/instruction-creator/SKILL.md"

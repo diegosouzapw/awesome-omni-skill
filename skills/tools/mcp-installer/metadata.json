@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "92ac700e5e3535b64260b7331235033f99d7074a5d95d371efaee6d8faf45ea3",
   "indexed_at": "2026-02-26T17:31:19.191Z",
-  "synced_at": "2026-02-27T02:46:14.363Z",
+  "synced_at": "2026-02-28T04:16:12.940Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5a1fa77a90e3f82a475753a2da1320264d0b56edc126ed60a102726c435fd280",
   "install_command": "mkdir -p .claude/skills/mcp-installer && curl -sL \"https://raw.githubusercontent.com/lintendo/Axhub-Make/main/skills/mcp-installer/SKILL.md\" > .claude/skills/mcp-installer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/lintendo/Axhub-Make/main/skills/mcp-installer/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6db2eeb243e2b70a94c461630a06a23a89bc5054d1c34f002f1b61f0cd20c20e",
   "indexed_at": "2026-02-26T14:09:56.716Z",
-  "synced_at": "2026-02-27T02:45:52.310Z",
+  "synced_at": "2026-02-28T04:15:51.505Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6ada7014d467d0239ed0723b4413c1a7a287c952b52c04a81fc75c0422da6c57",
   "install_command": "mkdir -p .claude/skills/neotex-init && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/neotex-init/SKILL.md\" > .claude/skills/neotex-init/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/neotex-init/SKILL.md"

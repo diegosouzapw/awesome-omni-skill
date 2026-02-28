@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "400a2e4012fd746bf37fd28c3fb645898e9ce60ce7727ccab8077752e193bf73",
   "indexed_at": "2026-02-26T11:31:34.609Z",
-  "synced_at": "2026-02-27T02:45:41.230Z",
+  "synced_at": "2026-02-28T04:15:40.344Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/145f58bfeb49c67e3a6d14183213c3bb584d327790585aaa9ef26b258ae58883",
   "install_command": "mkdir -p .claude/skills/claude-settings-audit && curl -sL \"https://raw.githubusercontent.com/getsentry/dotagents/main/.agents/skills/claude-settings-audit/SKILL.md\" > .claude/skills/claude-settings-audit/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/getsentry/dotagents/main/.agents/skills/claude-settings-audit/SKILL.md"

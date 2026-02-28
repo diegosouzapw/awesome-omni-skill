@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e3ec5f69719a29bfb2a65eeb0bfd3b64a2dc1c703bf1a29763009f359d00146c",
   "indexed_at": "2026-02-26T10:54:19.254Z",
-  "synced_at": "2026-02-27T02:45:40.344Z",
+  "synced_at": "2026-02-28T04:15:39.515Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ab45862c816e141609a185b672f2bdd01f1426569fbeaad5a03d49822cab1b76",
   "install_command": "mkdir -p .claude/skills/mermaid-generator && curl -sL \"https://raw.githubusercontent.com/unix2dos/skills/main/mermaid-generator/SKILL.md\" > .claude/skills/mermaid-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/unix2dos/skills/main/mermaid-generator/SKILL.md"

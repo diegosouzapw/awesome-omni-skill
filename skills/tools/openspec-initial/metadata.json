@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "76f4a50328e61a107a93d0d7bb0e3997876bd7ce4b122b11297eb1d25462f887",
   "indexed_at": "2026-02-26T17:33:02.727Z",
-  "synced_at": "2026-02-27T02:46:16.362Z",
+  "synced_at": "2026-02-28T04:16:14.769Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9266ac0773a9f1c805bd29c4146b697bf3ae085fc10b02d0e67a0bda9c48e08a",
   "install_command": "mkdir -p .claude/skills/openspec-initial && curl -sL \"https://raw.githubusercontent.com/partme-ai/openspec-skills/main/skills/openspec-initial/SKILL.md\" > .claude/skills/openspec-initial/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/partme-ai/openspec-skills/main/skills/openspec-initial/SKILL.md"

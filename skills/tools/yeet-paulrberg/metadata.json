@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7ccad1aa29713e5cd7f48c8056b30733a0b325ebf3cf7d719fd99413c8b67545",
   "indexed_at": "2026-02-26T17:34:45.324Z",
-  "synced_at": "2026-02-27T02:46:16.922Z",
+  "synced_at": "2026-02-28T04:16:15.329Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/02a9eddca70456e3b5b6caa9e182f8b0982319beb3a54039a6ba47617bca9f78",
   "install_command": "mkdir -p .claude/skills/yeet && curl -sL \"https://raw.githubusercontent.com/PaulRBerg/dot-agents/main/skills/yeet/SKILL.md\" > .claude/skills/yeet/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/PaulRBerg/dot-agents/main/skills/yeet/SKILL.md"

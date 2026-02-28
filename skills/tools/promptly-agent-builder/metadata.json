@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b803ebd73e3c8b51a9afe79fcff9dfbc100996cc55426c4a2fd41a7835c1261c",
   "indexed_at": "2026-02-26T10:30:49.938Z",
-  "synced_at": "2026-02-27T02:45:37.988Z",
+  "synced_at": "2026-02-28T04:15:37.445Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3a6e7d05e7cf2827187fba6de37c3c0ba2fb5c7f2974bbd5bb18fc9bcbd7506c",
   "install_command": "mkdir -p .claude/skills/promptly-agent-builder && curl -sL \"https://raw.githubusercontent.com/nicholascross/promptly-agent-builder/main/SKILL.md\" > .claude/skills/promptly-agent-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nicholascross/promptly-agent-builder/main/SKILL.md"

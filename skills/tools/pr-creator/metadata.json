@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9d62e32ec7e12773edb94db3086b2230d93706d9ac107e27623b7897ded92ce6",
   "indexed_at": "2026-02-26T16:32:15.002Z",
-  "synced_at": "2026-02-27T02:46:06.817Z",
+  "synced_at": "2026-02-28T04:16:05.483Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9d3353d0d5846c331fd59fe5ea33562d29cdf4a942c12eab89a59d551b63b345",
   "install_command": "mkdir -p .claude/skills/pr-creator && curl -sL \"https://raw.githubusercontent.com/rsicarelli/fakt/main/.claude/skills/pr-creator/SKILL.md\" > .claude/skills/pr-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rsicarelli/fakt/main/.claude/skills/pr-creator/SKILL.md"

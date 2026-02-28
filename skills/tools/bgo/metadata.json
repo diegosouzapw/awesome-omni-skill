@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3e93facc8f9bdd29be5527084db9d872e79250753d178ec2ccaab86fc5d2ffc5",
   "indexed_at": "2026-02-26T11:57:28.173Z",
-  "synced_at": "2026-02-27T02:45:43.954Z",
+  "synced_at": "2026-02-28T04:15:42.868Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/26231fa13c6a533a202294f452520a486ab8a3a3b5579aa1cdffe27fab0c988b",
   "install_command": "mkdir -p .claude/skills/bgo && curl -sL \"https://raw.githubusercontent.com/Yuru778/bgo/main/SKILL.md\" > .claude/skills/bgo/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Yuru778/bgo/main/SKILL.md"

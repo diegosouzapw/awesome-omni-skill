@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "34082a94b52c83b5834173598869c4af50705f2040e5e5879e637917d4497f40",
   "indexed_at": "2026-02-27T16:55:18.823Z",
-  "synced_at": "2026-02-27T18:16:00.529Z",
+  "synced_at": "2026-02-28T04:16:51.974Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1259425b34ab8c645872fe357e26d35fc00bff8584e0ed449282999bbddbe83e",
   "install_command": "mkdir -p .claude/skills/codex-cli && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/phucanh08/codex-sub-agents-1/SKILL.md\" > .claude/skills/codex-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/phucanh08/codex-sub-agents-1/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6d1a7d7a118d205128766176363ba10f450b08288f86eeb920ad179457eb12d6",
   "indexed_at": "2026-02-26T08:51:02.005Z",
-  "synced_at": "2026-02-27T02:45:31.717Z",
+  "synced_at": "2026-02-28T04:15:31.432Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/308d449c7223fcf13332526f877ad779a1c32c8b628975b0ebe57d448ec184ae",
   "install_command": "mkdir -p .claude/skills/awesome-copilot && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/awesome-copilot/SKILL.md\" > .claude/skills/awesome-copilot/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/awesome-copilot/SKILL.md"

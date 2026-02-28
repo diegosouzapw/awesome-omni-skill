@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "5294dcc8f601c0ab0225b045690408c3e385ca3218afd522a82bf83eedafc787",
   "indexed_at": "2026-02-26T07:52:50.038Z",
-  "synced_at": "2026-02-27T02:45:28.844Z",
+  "synced_at": "2026-02-28T04:15:28.583Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/424b3e62eb978025d55688e6a8a1379a2da809ec5eb38d56238fd4b8567bb4e8",
   "install_command": "mkdir -p .claude/skills/cross-plugin-detective && curl -sL \"https://raw.githubusercontent.com/tianzecn/myclaudecode/main/plugins/code-analysis/skills/cross-plugin-detective/SKILL.md\" > .claude/skills/cross-plugin-detective/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/tianzecn/myclaudecode/main/plugins/code-analysis/skills/cross-plugin-detective/SKILL.md"

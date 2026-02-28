@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "be6b88056599fdaff8ceb0973a4cf987becf8bf50530b7469eea5178bd2bdc7a",
   "indexed_at": "2026-02-26T12:21:32.951Z",
-  "synced_at": "2026-02-27T02:45:45.100Z",
+  "synced_at": "2026-02-28T04:15:44.293Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/94337714067799863abc10a37298f60b50334b91e0afff28dc4e9c3eae789f0b",
   "install_command": "mkdir -p .claude/skills/readme-generator && curl -sL \"https://raw.githubusercontent.com/Sheshiyer/readme-skill/main/SKILL.md\" > .claude/skills/readme-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Sheshiyer/readme-skill/main/SKILL.md"

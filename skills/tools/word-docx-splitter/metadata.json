@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a04dc7a3b7c131cd1480180660489b531cb37f930abb58b637bdeb89c51aa8f4",
   "indexed_at": "2026-02-26T10:30:51.333Z",
-  "synced_at": "2026-02-27T02:45:38.168Z",
+  "synced_at": "2026-02-28T04:15:37.623Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d75f14f003bcc16860f4030fb4586108e8e287a9e23d08c9689caa461177994c",
   "install_command": "mkdir -p .claude/skills/word-docx-splitter && curl -sL \"https://raw.githubusercontent.com/jndewey/word-docx-splitter/main/SKILL.md\" > .claude/skills/word-docx-splitter/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jndewey/word-docx-splitter/main/SKILL.md"

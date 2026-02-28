@@ -121,6 +121,31 @@ Claude Code has merged commands into skills — `.claude/commands/` files still 
 
 Cline has a separate "workflows" system (`.clinerules/workflows/`), but skills are more portable.
 
+### OpenCode: Command Wrappers for Slash Invocation
+
+OpenCode skills are NOT slash-invocable — they are loaded on-demand by the agent via the `skill` tool. To get `/skill-name` slash invocation in OpenCode, **create a thin command wrapper** that tells the agent to load the skill.
+
+Place command wrappers in `.opencode/commands/` (project) or `~/.config/opencode/commands/` (global):
+
+```markdown
+<!-- .opencode/commands/my-skill.md -->
+---
+description: Short description of what the skill does
+---
+
+Load the `my-skill` skill and follow its instructions. $ARGUMENTS
+```
+
+The filename becomes the command name (e.g., `my-skill.md` → `/my-skill`). The agent receives the prompt, calls the `skill` tool to load the SKILL.md content, and follows it.
+
+**When creating a new skill, ALWAYS create a matching OpenCode command wrapper.** If commands are symlinked between `~/.claude/commands/` and `~/.config/opencode/commands/`, one file serves both Claude Code (as a command) and OpenCode (as a slash command).
+
+**Key differences from skills:**
+- Commands support `$ARGUMENTS` and positional args (`$1`, `$2`)
+- Commands support `!`command`` for shell output injection
+- Commands support `@filename` for file content inclusion
+- Commands can specify `agent:` and `model:` overrides in frontmatter
+
 ## Writing Portable Skills
 
 ### Required Fields (All Tools)
@@ -149,7 +174,7 @@ disable-model-invocation: false   # Cursor: allow auto-discovery
 **Note**: These fields have opposite semantics but setting both explicitly ensures consistent behavior:
 - Claude Code reads `user-invocable`, ignores `disable-model-invocation`
 - Cursor reads `disable-model-invocation`, ignores `user-invocable`
-- OpenCode and Cline ignore both (always auto-discover, no slash commands)
+- OpenCode and Cline ignore both (auto-discover via `skill` tool; for slash commands in OpenCode, use command wrappers)
 
 ### Optional Fields (Include Only When Specified)
 
@@ -249,7 +274,7 @@ See [scripts/setup-interop.sh](scripts/setup-interop.sh) for full automation.
 | `$ARGUMENTS` expansion | Claude Code + OpenCode expand | Cursor/Cline show unexpanded |
 | Positional arg indexing | Claude Code: 0-based (`$0`, `$1`); OpenCode: 1-based (`$1`, `$2`) | Avoid positional args in portable skills |
 | `${CLAUDE_SESSION_ID}` | Claude Code only | Other tools show unexpanded |
-| `/<skill-name>` invocation | Claude Code + Cursor (IDE & CLI) | OpenCode and Cline use auto-discovery only |
+| `/<skill-name>` invocation | Claude Code + Cursor (IDE & CLI) | OpenCode: create command wrapper (see above). Cline: auto-discovery only |
 | `@path` imports in CLAUDE.md | Claude Code only | Other tools see literal `@path` text |
 | `CLAUDE.local.md` | Claude Code only | Other tools ignore it; no equivalent |
 | File-scoped rules | Claude Code (`paths`), Cursor (`globs`), Cline (`paths`) — each in own rule dir | Not portable across tools; use tool-specific rule dirs |
@@ -270,6 +295,7 @@ Before finalizing a portable skill:
 - [ ] SKILL.md body uses imperative form
 - [ ] No tool-specific features in core logic
 - [ ] Tool-specific frontmatter clearly commented
+- [ ] OpenCode command wrapper created (if slash invocation needed)
 - [ ] Tested in target tools
 
 ## References

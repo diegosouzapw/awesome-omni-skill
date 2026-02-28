@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "979d960e969856c98dad1b8042fa303559e7ae43fdd0c066acb505d8c6ba2737",
   "indexed_at": "2026-02-27T17:31:27.599Z",
-  "synced_at": "2026-02-27T18:16:01.305Z",
+  "synced_at": "2026-02-28T04:16:53.552Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5505aa92306b2200ce50558922f0b88c5d7458a30c86dbb335eaf4c738f5b840",
   "install_command": "mkdir -p .claude/skills/memories-cli && curl -sL \"https://raw.githubusercontent.com/webrenew/memories/main/skills/memories-cli/SKILL.md\" > .claude/skills/memories-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/webrenew/memories/main/skills/memories-cli/SKILL.md"

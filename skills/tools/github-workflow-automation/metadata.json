@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "264b8fc0b21fe4c54f19bd14f27f18e3700c68a01bbb3229e4789dad657fa784",
   "indexed_at": "2026-02-26T14:16:48.893Z",
-  "synced_at": "2026-02-27T02:45:53.241Z",
+  "synced_at": "2026-02-28T04:15:52.312Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/672492f949324ade9d62bdb0996af9c9a9020ad1d0393b0238da6a513772ff77",
   "install_command": "mkdir -p .claude/skills/github-workflow-automation && curl -sL \"https://raw.githubusercontent.com/WalksWithASwagger/kriskrug-wp/main/skills/github-workflow-automation/SKILL.md\" > .claude/skills/github-workflow-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/WalksWithASwagger/kriskrug-wp/main/skills/github-workflow-automation/SKILL.md"

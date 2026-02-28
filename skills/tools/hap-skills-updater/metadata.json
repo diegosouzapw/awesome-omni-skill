@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b7e057740480bd43051eede1a22768b140e1777204cf87f916277244b4c0be14",
   "indexed_at": "2026-02-26T17:38:20.075Z",
-  "synced_at": "2026-02-27T02:46:19.400Z",
+  "synced_at": "2026-02-28T04:16:17.799Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/96a32192ee4fdfdaa52f32d5349dbd7105e8c00afe07469bce10ed31b0919a09",
   "install_command": "mkdir -p .claude/skills/hap-skills-updater && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/garfield-bb/hap-skills-collection/hap-skills-updater/SKILL.md\" > .claude/skills/hap-skills-updater/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/garfield-bb/hap-skills-collection/hap-skills-updater/SKILL.md"

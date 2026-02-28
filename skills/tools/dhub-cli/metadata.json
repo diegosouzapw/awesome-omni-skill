@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bade2bc7f1474eff26c6ae6ad45039d24a48315d96c8dbf2f71a2f9f51961976",
   "indexed_at": "2026-02-27T17:31:14.128Z",
-  "synced_at": "2026-02-27T18:16:01.190Z",
+  "synced_at": "2026-02-28T04:16:53.399Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bf0ff025d25f367a86ca88f6459ee381652646a86dc189f1536d36c04809b417",
   "install_command": "mkdir -p .claude/skills/dhub-cli && curl -sL \"https://raw.githubusercontent.com/pymc-labs/decision-hub/main/bootstrap-skills/dhub-cli/SKILL.md\" > .claude/skills/dhub-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/pymc-labs/decision-hub/main/bootstrap-skills/dhub-cli/SKILL.md"

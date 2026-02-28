@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bf809c29c81710d633ea820881ff99c91dee88fdda3dfa6bc53eb7b823a7a7be",
   "indexed_at": "2026-02-26T17:30:55.632Z",
-  "synced_at": "2026-02-27T02:46:14.146Z",
+  "synced_at": "2026-02-28T04:16:12.724Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dcd344bd167bff7dcc60f5c2d873eeffaef981d772d45cff781f0647b9bc6f6e",
   "install_command": "mkdir -p .claude/skills/workflow-creator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/workflow-creator-nicepkg-ai-workflow/SKILL.md\" > .claude/skills/workflow-creator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/workflow-creator-nicepkg-ai-workflow/SKILL.md"

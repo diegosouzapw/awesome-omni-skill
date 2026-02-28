@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7c345f58ca9594aa90a69fb6bf78887164a7a656191736a313bfb37983ae4674",
   "indexed_at": "2026-02-26T11:42:16.457Z",
-  "synced_at": "2026-02-27T02:45:43.135Z",
+  "synced_at": "2026-02-28T04:15:42.205Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cc1a35e016cec90fc7bad5e2b9c8115b26469f87c5a8ab9ff16774c268526fd5",
   "install_command": "mkdir -p .claude/skills/gh-cli && curl -sL \"https://raw.githubusercontent.com/nuttycc/LuminTime/main/.agents/skills/gh-cli/SKILL.md\" > .claude/skills/gh-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nuttycc/LuminTime/main/.agents/skills/gh-cli/SKILL.md"

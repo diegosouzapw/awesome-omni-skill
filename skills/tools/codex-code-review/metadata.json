@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "82b9a8b950b6e795d35d4f52674f6de4498a720bf023913579b83195856bbfa0",
   "indexed_at": "2026-02-27T16:55:04.919Z",
-  "synced_at": "2026-02-27T18:16:00.170Z",
+  "synced_at": "2026-02-28T04:16:51.472Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bc1e5a48ca9a99065ae7fc0660c315e52981adf0b6a18ff4cf82d863d56344e1",
   "install_command": "mkdir -p .claude/skills/codex-code-review && curl -sL \"https://raw.githubusercontent.com/iiitong/bootcamp-ai/main/.claude/skills/codex-code-review/SKILL.md\" > .claude/skills/codex-code-review/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/iiitong/bootcamp-ai/main/.claude/skills/codex-code-review/SKILL.md"

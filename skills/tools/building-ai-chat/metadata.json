@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f8ce14b6eb3037d5290f9a402e6548939aa923226da5790543eb8ce9bc2a20de",
   "indexed_at": "2026-02-26T18:31:54.786Z",
-  "synced_at": "2026-02-27T02:46:19.916Z",
+  "synced_at": "2026-02-28T04:16:18.291Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1c09771e8bd7487fd3ef2d2ebd0d8d2246e4ebcdaaa5d7b4e1577603c1d4fa03",
   "install_command": "mkdir -p .claude/skills/building-ai-chat && curl -sL \"https://raw.githubusercontent.com/ancoleman/ai-design-components/main/skills/building-ai-chat/SKILL.md\" > .claude/skills/building-ai-chat/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ancoleman/ai-design-components/main/skills/building-ai-chat/SKILL.md"

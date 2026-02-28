@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c3dca74f6a6b75a020d140c579ff648b752f76df700abbff97b62060ec55147d",
   "indexed_at": "2026-02-27T16:07:25.615Z",
-  "synced_at": "2026-02-27T18:15:55.648Z",
+  "synced_at": "2026-02-28T04:16:46.202Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/af17ed8916e3fa2a675522551118fccf3ce175c9678d5a49c6aa7ddcd76e9f81",
   "install_command": "mkdir -p .claude/skills/scribe-mcp-usage && curl -sL \"https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/cortalabs/scribe-mcp-usage/SKILL.md\" > .claude/skills/scribe-mcp-usage/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/main/skills/cortalabs/scribe-mcp-usage/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "81ae9d8778f99d934903f51f4f4241ccd761c9a08746764ea6022f602baf3c2b",
   "indexed_at": "2026-02-26T14:21:52.925Z",
-  "synced_at": "2026-02-27T02:45:55.328Z",
+  "synced_at": "2026-02-28T04:15:54.422Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a0daa833c49ddcff02490a1f01c2213a4f706fc437b4dd9717b5fd24daac042c",
   "install_command": "mkdir -p .claude/skills/review-github-actions && curl -sL \"https://raw.githubusercontent.com/datastx/Feather-Flow/main/.claude/skills/review-github-actions/SKILL.md\" > .claude/skills/review-github-actions/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/datastx/Feather-Flow/main/.claude/skills/review-github-actions/SKILL.md"

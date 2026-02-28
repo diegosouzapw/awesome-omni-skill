@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "323c1c6c57a90629cee447a9b617e89b09c6ce299ed268c04e9435158be317e1",
   "indexed_at": "2026-02-26T14:21:04.884Z",
-  "synced_at": "2026-02-27T02:45:54.604Z",
+  "synced_at": "2026-02-28T04:15:53.722Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7416eb06260428b4a1bceda7df55598a67f6e9ec739fbd16e8f4a3e5d898ea73",
   "install_command": "mkdir -p .claude/skills/quickstart && curl -sL \"https://raw.githubusercontent.com/boshu2/agentops/main/skills/quickstart/SKILL.md\" > .claude/skills/quickstart/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/boshu2/agentops/main/skills/quickstart/SKILL.md"

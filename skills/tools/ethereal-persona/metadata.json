@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1c4684fde4e3a4f3839f6819fda11671ed2f5272f0def2e4f125fc432108d0d8",
   "indexed_at": "2026-02-26T07:35:22.543Z",
-  "synced_at": "2026-02-27T02:45:25.874Z",
+  "synced_at": "2026-02-28T04:15:25.733Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8d697eb926b387a466680a84295d79e2303937b5e58534a849b33fb78b1ed451",
   "install_command": "mkdir -p .claude/skills/ethereal-persona && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/ethereal-persona/SKILL.md\" > .claude/skills/ethereal-persona/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/ethereal-persona/SKILL.md"

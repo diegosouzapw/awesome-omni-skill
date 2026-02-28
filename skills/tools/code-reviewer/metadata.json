@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "cfca10127f932a68ed1c5cad1fc3a6726a3165835f37398f1b743a86adfe650b",
   "indexed_at": "2026-02-26T18:38:52.408Z",
-  "synced_at": "2026-02-27T02:46:24.093Z",
+  "synced_at": "2026-02-28T04:16:21.289Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/457d0592a615c42283a79761b745df3ffcaa378dff0f171c8b1902795ac18758",
   "install_command": "mkdir -p .claude/skills/code-reviewer && curl -sL \"https://raw.githubusercontent.com/ngx-signal-forms/ngx-signal-forms/main/.github/skills/pr-toolkit/code-reviewer/SKILL.md\" > .claude/skills/code-reviewer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ngx-signal-forms/ngx-signal-forms/main/.github/skills/pr-toolkit/code-reviewer/SKILL.md"

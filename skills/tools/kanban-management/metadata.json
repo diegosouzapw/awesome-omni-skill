@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e1b26f04ed90f2b119c54174712eb9dd5051c731e873ef771faef8513a5cccfc",
   "indexed_at": "2026-02-26T15:21:41.704Z",
-  "synced_at": "2026-02-27T02:46:02.383Z",
+  "synced_at": "2026-02-28T04:16:01.110Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9aaa70ceb85e71037a128dd59c9be49f7d77b716351cb732ab71a2dfa312d628",
   "install_command": "mkdir -p .claude/skills/kanban-management && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/kanban-management/SKILL.md\" > .claude/skills/kanban-management/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/kanban-management/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e5cbd524d17a1e5c68c38cfa911abe21ea147c2038e97d9a6c49b58c261666bd",
   "indexed_at": "2026-02-26T07:46:54.808Z",
-  "synced_at": "2026-02-27T02:45:26.384Z",
+  "synced_at": "2026-02-28T04:15:26.274Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7e1ba8ee367eb7f6e46af4303bf20872abf9076f920972de1bd0e60cf03aacb2",
   "install_command": "mkdir -p .claude/skills/gh-cli && curl -sL \"https://raw.githubusercontent.com/beel-collab/presets.dev/main/skills/gh-cli/SKILL.md\" > .claude/skills/gh-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/beel-collab/presets.dev/main/skills/gh-cli/SKILL.md"

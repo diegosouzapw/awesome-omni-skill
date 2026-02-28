@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "66700d60afe580b832e4d1a2d362e4d483c001e69098020437fefc6327a253e6",
   "indexed_at": "2026-02-26T16:35:56.385Z",
-  "synced_at": "2026-02-27T02:46:09.153Z",
+  "synced_at": "2026-02-28T04:16:07.816Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6af6768ae69fdba9cd7c04d9bbd38d61614e614ebfcc59db3848da5d1704dd1b",
   "install_command": "mkdir -p .claude/skills/skill-manager && curl -sL \"https://raw.githubusercontent.com/mapachekurt/mapache-skills/main/skills/skill-manager/SKILL.md\" > .claude/skills/skill-manager/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/mapachekurt/mapache-skills/main/skills/skill-manager/SKILL.md"

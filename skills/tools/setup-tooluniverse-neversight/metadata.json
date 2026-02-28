@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "3968b707747b44c3cba03fc315f6d50bb9d6a64b2049fbaddacbcc660cef3bfd",
   "indexed_at": "2026-02-26T17:36:11.812Z",
-  "synced_at": "2026-02-27T02:46:18.198Z",
+  "synced_at": "2026-02-28T04:16:16.615Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d215b21ef94f17cf00f398faced1ce3d1cf34a945936da725274e81371bef8c7",
   "install_command": "mkdir -p .claude/skills/setup-tooluniverse && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/mims-harvard/tooluniverse/setup-tooluniverse/SKILL.md\" > .claude/skills/setup-tooluniverse/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/mims-harvard/tooluniverse/setup-tooluniverse/SKILL.md"

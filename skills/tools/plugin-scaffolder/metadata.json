@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "920cc6c19422b8506d34f31789ccd701f9507b7e999335fee3b001746e302164",
   "indexed_at": "2026-02-26T13:21:47.722Z",
-  "synced_at": "2026-02-27T02:45:49.890Z",
+  "synced_at": "2026-02-28T04:15:49.114Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7ca1e6b740c946b0a58fbba0110dc459c387871161b9f29c4b9e0eb730117103",
   "install_command": "mkdir -p .claude/skills/plugin-scaffolder && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/plugin-scaffolder-squirrelsoft-dev-claude-builder/SKILL.md\" > .claude/skills/plugin-scaffolder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/plugin-scaffolder-squirrelsoft-dev-claude-builder/SKILL.md"

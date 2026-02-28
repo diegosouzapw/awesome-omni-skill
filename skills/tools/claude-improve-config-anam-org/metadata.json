@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a7969f4a67d4a7f1d3f01bd9bdb60d91fbb515d5367a6682a36b2b6e747e7c8d",
   "indexed_at": "2026-02-26T15:24:02.671Z",
-  "synced_at": "2026-02-27T02:46:02.770Z",
+  "synced_at": "2026-02-28T04:16:01.586Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/70493e28b6ec1aa82c3e8724cf46a485121036ff06e2726544de89ba3453b549",
   "install_command": "mkdir -p .claude/skills/claude-improve-config && curl -sL \"https://raw.githubusercontent.com/anam-org/metaxy/main/.claude/skills/claude-improve-config/SKILL.md\" > .claude/skills/claude-improve-config/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/anam-org/metaxy/main/.claude/skills/claude-improve-config/SKILL.md"

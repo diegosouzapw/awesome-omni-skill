@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "e4541740e2d1cd8f74832aa924c7d983d4faf49e6fbcfb44dea363af67cb67ff",
   "indexed_at": "2026-02-26T18:32:08.470Z",
-  "synced_at": "2026-02-27T02:46:20.237Z",
+  "synced_at": "2026-02-28T04:16:18.627Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7ffc786fc17cb9c44ba74fb069e1e5ee994efb8d0b49f9d385e05da69009758d",
   "install_command": "mkdir -p .claude/skills/awesome-copilot-root-excalidraw-diagram-generator && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/awesome-copilot-root-codex-pack/.agents/skills/awesome-copilot-root-excalidraw-diagram-generator/SKILL.md\" > .claude/skills/awesome-copilot-root-excalidraw-diagram-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/awesome-copilot-root-codex-pack/.agents/skills/awesome-copilot-root-excalidraw-diagram-generator/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1b3d96489fb2bee96bf3aa02c517e9599b16455cb3dc94bc13423c08c8cdafd4",
   "indexed_at": "2026-02-27T09:52:30.612Z",
-  "synced_at": "2026-02-27T13:14:34.091Z",
+  "synced_at": "2026-02-28T04:16:34.930Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8d2750632431da9f8618e98b651813f6b6a60ff220fe386ee824c66e4089fe56",
   "install_command": "mkdir -p .claude/skills/flow-interview && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/flow-interview/SKILL.md\" > .claude/skills/flow-interview/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/flow-interview/SKILL.md"

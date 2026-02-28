@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "287c5c2c3980d009f4d5cd29e9da26ef806ab863eac71552aa5c3b0ca80a3305",
   "indexed_at": "2026-02-26T15:21:17.429Z",
-  "synced_at": "2026-02-27T02:46:01.271Z",
+  "synced_at": "2026-02-28T04:16:00.139Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1d993b676f4cfc94692cc6786887d5d5e80e080ca671eeef2d54d678fe6d23f1",
   "install_command": "mkdir -p .claude/skills/steering-specs-generator && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/documents/steering-specs-generator/SKILL.md\" > .claude/skills/steering-specs-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/documents/steering-specs-generator/SKILL.md"

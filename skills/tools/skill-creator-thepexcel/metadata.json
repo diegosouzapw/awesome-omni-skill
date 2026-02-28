@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a90af6a2dd4e5518334b7dedd5345a9dafaa47d2c2babca3b117a3cc3c35bd7c",
   "indexed_at": "2026-02-26T15:17:55.043Z",
-  "synced_at": "2026-02-27T02:45:59.584Z",
+  "synced_at": "2026-02-28T04:15:58.549Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/1f391cfda78a8b6bf09c22631e557f5edb3a5c1b9d5b3e078f727e2e411fabb9",
   "install_command": "mkdir -p .claude/skills/skill-creator-thepexcel && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/thepexcel/agent-skills/skill-creator-thepexcel/SKILL.md\" > .claude/skills/skill-creator-thepexcel/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/thepexcel/agent-skills/skill-creator-thepexcel/SKILL.md"

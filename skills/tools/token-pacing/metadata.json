@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b1ab1cf26ac5231830b3a4f253fd6a0af42c9469f968ac7b5f0e7e1d04b285ca",
   "indexed_at": "2026-02-26T17:35:42.608Z",
-  "synced_at": "2026-02-27T02:46:17.834Z",
+  "synced_at": "2026-02-28T04:16:16.281Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0da13f0582175ca6d81d44f2619948b9b64e704ed2676053961509a187ee0c8b",
   "install_command": "mkdir -p .claude/skills/token-pacing && curl -sL \"https://raw.githubusercontent.com/dparedesi/agent-global-skills/main/token-pacing/SKILL.md\" > .claude/skills/token-pacing/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/dparedesi/agent-global-skills/main/token-pacing/SKILL.md"

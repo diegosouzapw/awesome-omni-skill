@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6ae4e915cbde327271e2d37ede6160eed5f63511bf67d5bdb772ed2d6ad6f30a",
   "indexed_at": "2026-02-26T18:32:38.391Z",
-  "synced_at": "2026-02-27T02:46:21.571Z",
+  "synced_at": "2026-02-28T04:16:18.783Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/d61e05af100a523613d14d60fefe4d18a23e4db5b5de107bb45dcbeac8615a1f",
   "install_command": "mkdir -p .claude/skills/awesome-copilot-root-voidbeast-gpt41enhanced && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/awesome-copilot-root-codex-pack/.agents/skills/awesome-copilot-root-voidbeast-gpt41enhanced/SKILL.md\" > .claude/skills/awesome-copilot-root-voidbeast-gpt41enhanced/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/packages/awesome-copilot-root-codex-pack/.agents/skills/awesome-copilot-root-voidbeast-gpt41enhanced/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "83de2169094580a2222ee4949bca80bc852b29c753754df091a586ab54e1bd3b",
   "indexed_at": "2026-02-26T17:34:47.693Z",
-  "synced_at": "2026-02-27T02:46:17.093Z",
+  "synced_at": "2026-02-28T04:16:15.505Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b7ac1c00afc3249dc045c2a4ac752f1c603928a794f7e59bc4bb531f5e2a4928",
   "install_command": "mkdir -p .claude/skills/yeet && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/paulrberg/agent-skills/yeet/SKILL.md\" > .claude/skills/yeet/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/paulrberg/agent-skills/yeet/SKILL.md"

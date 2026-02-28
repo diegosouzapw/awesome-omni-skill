@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "74041f3c7122795c8168e6cac00dbbdce2b7019c7588292eb68b844b8a6439c1",
   "indexed_at": "2026-02-27T14:11:52.902Z",
-  "synced_at": "2026-02-27T18:15:50.484Z",
+  "synced_at": "2026-02-28T04:16:39.232Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dfc8e35bde5a10f784dd9993d09a431357b2974659e34e3950adb307f6494780",
   "install_command": "mkdir -p .claude/skills/task-decomposer && curl -sL \"https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/skills_library/browser_automation/super-skills/SKILL.md\" > .claude/skills/task-decomposer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/duclm1x1/Dive-Ai/main/skills_library/browser_automation/super-skills/SKILL.md"

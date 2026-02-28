@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4a652f47283a45638438bbb7a6b20f3c6a3398bb0f548448a2af32c6e26a0d26",
   "indexed_at": "2026-02-26T15:24:45.767Z",
-  "synced_at": "2026-02-27T02:46:03.855Z",
+  "synced_at": "2026-02-28T04:16:02.668Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f63be584bbca325c4d87fa58f3094a104a86e5433e4b551008b13c9a478565ea",
   "install_command": "mkdir -p .claude/skills/workflow-integration-git && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/workflow-integration-git/SKILL.md\" > .claude/skills/workflow-integration-git/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/workflow-integration-git/SKILL.md"

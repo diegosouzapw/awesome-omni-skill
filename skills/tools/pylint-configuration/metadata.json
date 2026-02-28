@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "59ee69442485bc59d27e203b2ee843561b294283bfe92b0bb149ce8e3fcd1e6d",
   "indexed_at": "2026-02-26T14:21:59.842Z",
-  "synced_at": "2026-02-27T02:45:55.500Z",
+  "synced_at": "2026-02-28T04:15:54.607Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/39192dc674bd501f2fccee17180c86cf8d9e47eaf68c3fc7b2216630b1d4a88c",
   "install_command": "mkdir -p .claude/skills/pylint-configuration && curl -sL \"https://raw.githubusercontent.com/TheBushidoCollective/han/main/plugins/validation/pylint/skills/pylint-configuration/SKILL.md\" > .claude/skills/pylint-configuration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/TheBushidoCollective/han/main/plugins/validation/pylint/skills/pylint-configuration/SKILL.md"

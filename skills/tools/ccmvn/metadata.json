@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "411f62e1aa77a7581375319d8b177063b03daa00c9f760df17c2b2598fef334b",
   "indexed_at": "2026-02-26T09:51:57.873Z",
-  "synced_at": "2026-02-27T02:45:35.916Z",
+  "synced_at": "2026-02-28T04:15:35.445Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4d25166e297c4d88b2a155c2fccbb00e9b2b7dd483ca1d19aa3ee57ecb9e7306",
   "install_command": "mkdir -p .claude/skills/ccmvn && curl -sL \"https://raw.githubusercontent.com/ctalau/ccmvn-skill/main/skills/ccmvn/SKILL.md\" > .claude/skills/ccmvn/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ctalau/ccmvn-skill/main/skills/ccmvn/SKILL.md"

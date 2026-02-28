@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1a6a7941384c285eedf95adc872a6e2de935510ab0ce9bfa15fc98ee586316db",
   "indexed_at": "2026-02-26T09:51:23.655Z",
-  "synced_at": "2026-02-27T02:45:35.544Z",
+  "synced_at": "2026-02-28T04:15:35.074Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/33eafa44496af662468544d16c957f594caef7e9140488f5d5ad8ce209d2a1b1",
   "install_command": "mkdir -p .claude/skills/bloom && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/unicornbloom/bloom/SKILL.md\" > .claude/skills/bloom/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/unicornbloom/bloom/SKILL.md"

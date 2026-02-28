@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a72335cde2072835487ef8c6ba8ab392077b810ba4dfe4b9334fec7d71bd75dc",
   "indexed_at": "2026-02-27T15:07:58.829Z",
-  "synced_at": "2026-02-27T18:15:53.577Z",
+  "synced_at": "2026-02-28T04:16:43.518Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7515d4784d697b1443e0daf13aaa9df5ae3b8ad6ad60377595c8a8357e7f17cd",
   "install_command": "mkdir -p .claude/skills/skill-builder && curl -sL \"https://raw.githubusercontent.com/proffesor-for-testing/agentic-qe/main/.claude/skills/skill-builder/SKILL.md\" > .claude/skills/skill-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/proffesor-for-testing/agentic-qe/main/.claude/skills/skill-builder/SKILL.md"

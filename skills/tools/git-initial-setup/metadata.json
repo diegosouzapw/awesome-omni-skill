@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "645e5d60529568100a6bfc6ab1a607dfff2dae1709ce6b6dbe6b62403f646d79",
   "indexed_at": "2026-02-26T14:23:02.028Z",
-  "synced_at": "2026-02-27T02:45:56.243Z",
+  "synced_at": "2026-02-28T04:15:55.323Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f0a236d90ac9364dc6a10b236b54b2e690dc59a2292ea1d753402c3a910f8ee9",
   "install_command": "mkdir -p .claude/skills/git-initial-setup && curl -sL \"https://raw.githubusercontent.com/RyoMurakami1983/skills_repository/main/skills/git-initial-setup/SKILL.md\" > .claude/skills/git-initial-setup/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/RyoMurakami1983/skills_repository/main/skills/git-initial-setup/SKILL.md"

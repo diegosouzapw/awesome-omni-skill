@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "6fb67a97dda006dae2f34c1ae6e70336eedb384ef4b338104f020b497722631b",
   "indexed_at": "2026-02-26T18:34:42.936Z",
-  "synced_at": "2026-02-27T02:46:22.432Z",
+  "synced_at": "2026-02-28T04:16:19.720Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a6b8e8abb5d043d07e4b9148a459e9fae4d710fb00f01070ea901f0e179e7bad",
   "install_command": "mkdir -p .claude/skills/lead-research-assistant && curl -sL \"https://raw.githubusercontent.com/onurkanbakirci/awesome-skills/main/public/skills/0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a/SKILL.md\" > .claude/skills/lead-research-assistant/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/onurkanbakirci/awesome-skills/main/public/skills/0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a/SKILL.md"

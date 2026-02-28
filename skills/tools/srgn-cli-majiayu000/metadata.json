@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2e28ecf4de020135b65459114181e72bcae09274b85cbd6201b1b37899d7ada5",
   "indexed_at": "2026-02-26T22:34:38.475Z",
-  "synced_at": "2026-02-27T02:46:28.786Z",
+  "synced_at": "2026-02-28T04:16:25.780Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5febf9a2014d493f3c378cae56e7b54b16edeebeafcf60fb1bcafc6fea89914f",
   "install_command": "mkdir -p .claude/skills/srgn-cli && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/srgn-cli-outlinedriven-odin-codex-plugin/SKILL.md\" > .claude/skills/srgn-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/other/other/srgn-cli-outlinedriven-odin-codex-plugin/SKILL.md"

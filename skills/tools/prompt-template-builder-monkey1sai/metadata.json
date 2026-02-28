@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b70b067e8b0a2f96983a7f5511ed3d39bf2287e935168ac01cc509a080550fc0",
   "indexed_at": "2026-02-26T15:24:25.994Z",
-  "synced_at": "2026-02-27T02:46:03.681Z",
+  "synced_at": "2026-02-28T04:16:02.495Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2f2a70ed2750d7c51afe03cea0ccc0c77672bcb5d1bbe537333d4ddf8c77d3d2",
   "install_command": "mkdir -p .claude/skills/prompt-template-builder && curl -sL \"https://raw.githubusercontent.com/monkey1sai/openai-cli/main/.claude/skills/prompt-template-builder/SKILL.md\" > .claude/skills/prompt-template-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/monkey1sai/openai-cli/main/.claude/skills/prompt-template-builder/SKILL.md"

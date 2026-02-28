@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9cf7675e9c2ae47f1ebfc60202a3e892d3b4ad50079dc8ee126102ee36de1267",
   "indexed_at": "2026-02-26T15:18:45.780Z",
-  "synced_at": "2026-02-27T02:46:00.515Z",
+  "synced_at": "2026-02-28T04:15:59.366Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b28fc7fd2a37fe2139f0ba9eb4a53a7c55efa0408d0f4137a6ff1b6c740f4e38",
   "install_command": "mkdir -p .claude/skills/tldr-prompt && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/skills/tldr-prompt/SKILL.md\" > .claude/skills/tldr-prompt/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/skills/tldr-prompt/SKILL.md"

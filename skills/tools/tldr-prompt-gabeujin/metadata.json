@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "095aed8be9e4ad14903c3e419725e7cfae5460e3973054e7850fd26811a4c85b",
   "indexed_at": "2026-02-26T15:18:41.288Z",
-  "synced_at": "2026-02-27T02:46:00.088Z",
+  "synced_at": "2026-02-28T04:15:59.041Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/23ea8fbc7b275216d77fa18a18d1b0c9447220c3ee40a6e99d3855527d4a1a17",
   "install_command": "mkdir -p .claude/skills/tldr-prompt && curl -sL \"https://raw.githubusercontent.com/Gabeujin/workspace-init-mcp/main/awesome/skills/tldr-prompt/SKILL.md\" > .claude/skills/tldr-prompt/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Gabeujin/workspace-init-mcp/main/awesome/skills/tldr-prompt/SKILL.md"

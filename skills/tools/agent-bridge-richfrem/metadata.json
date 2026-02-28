@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "9cd4619687db984e30f1c14de7eb6f665fe075c1a8fad69688978fcd899ffbee",
   "indexed_at": "2026-02-26T17:35:18.027Z",
-  "synced_at": "2026-02-27T02:46:17.489Z",
+  "synced_at": "2026-02-28T04:16:15.934Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/189770c869372192d232721830772b1f7efb5291b4f858ad821a0bdda87f6c09",
   "install_command": "mkdir -p .claude/skills/agent-bridge && curl -sL \"https://raw.githubusercontent.com/richfrem/agent-plugins-skills/main/.agent/skills/agent-bridge/SKILL.md\" > .claude/skills/agent-bridge/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/richfrem/agent-plugins-skills/main/.agent/skills/agent-bridge/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "898c493c0d92874743122b04b784d86d6eba1aacb1d5e0c3dedd8cc66e910768",
   "indexed_at": "2026-02-26T11:56:45.505Z",
-  "synced_at": "2026-02-27T02:45:43.770Z",
+  "synced_at": "2026-02-28T04:15:42.696Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c8adc899d709257e8c506d7179b9880e7158f8285b7f0a4ade0b9fd96a56fd5e",
   "install_command": "mkdir -p .claude/skills/chrome-extension-init-skill && curl -sL \"https://raw.githubusercontent.com/d0ublecl1ck/chrome-extension-init-skill/main/SKILL.md\" > .claude/skills/chrome-extension-init-skill/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/d0ublecl1ck/chrome-extension-init-skill/main/SKILL.md"

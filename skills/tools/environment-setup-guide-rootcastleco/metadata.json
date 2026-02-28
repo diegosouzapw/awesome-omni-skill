@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "7135a493aca3469749651ef0b03c6d660b5d92567ea1e009665ed22df6ede0f6",
   "indexed_at": "2026-02-26T08:53:41.912Z",
-  "synced_at": "2026-02-27T02:45:33.051Z",
+  "synced_at": "2026-02-28T04:15:32.744Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8187cc9ff2b4cb115e08e4256b482bb517d711da761fab3f4ee5094b12cc08e3",
   "install_command": "mkdir -p .claude/skills/environment-setup-guide && curl -sL \"https://raw.githubusercontent.com/rootcastleco/rei-skills/main/skills/environment-setup-guide/SKILL.md\" > .claude/skills/environment-setup-guide/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/rootcastleco/rei-skills/main/skills/environment-setup-guide/SKILL.md"

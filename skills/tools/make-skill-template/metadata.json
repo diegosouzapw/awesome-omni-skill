@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1f18e86ac504fe4db4e81c5186669aac63ca5269f6b0bc34d79f72397e3cda26",
   "indexed_at": "2026-02-26T18:37:21.482Z",
-  "synced_at": "2026-02-27T02:46:23.907Z",
+  "synced_at": "2026-02-28T04:16:21.102Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/79a3509994fe62e1323461df517630fb75067b7998d313be47d9e60f963cc062",
   "install_command": "mkdir -p .claude/skills/make-skill-template && curl -sL \"https://raw.githubusercontent.com/kuippa/OnoCoro/main/.github/skills/make-skill-template/SKILL.md\" > .claude/skills/make-skill-template/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/kuippa/OnoCoro/main/.github/skills/make-skill-template/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "49c279617c8a0449bb5c431da3d96557719ac3a6775d50c770ad89b8e2162b6b",
   "indexed_at": "2026-02-26T19:30:46.584Z",
-  "synced_at": "2026-02-27T02:46:25.742Z",
+  "synced_at": "2026-02-28T04:16:22.869Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/321caa8bc2917000941e5ae3ea1f987bbf8c41561d2b938d577cbaeb0a6b5151",
   "install_command": "mkdir -p .claude/skills/video-script-master && curl -sL \"https://raw.githubusercontent.com/yanlinyi101/video-script-master/main/SKILL.md\" > .claude/skills/video-script-master/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/yanlinyi101/video-script-master/main/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "a184b3cfe328762e1bc179bbed01b70f6b208cb947a5d8f8dd165a550756e15b",
   "indexed_at": "2026-02-26T09:34:58.881Z",
-  "synced_at": "2026-02-27T02:45:33.820Z",
+  "synced_at": "2026-02-28T04:15:33.477Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/edc5def9fbdf82bfcece622756f253cf979c5b3b012d014db461d761c378015b",
   "install_command": "mkdir -p .claude/skills/fosmvvm-fields-generator && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/foscomputerservices/fosmvvm-fields-generator/SKILL.md\" > .claude/skills/fosmvvm-fields-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/foscomputerservices/fosmvvm-fields-generator/SKILL.md"

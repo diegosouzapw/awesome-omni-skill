@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "88ee3f3f854671fe46ac16384f779f8d2584b43271e3ee95d2ccc2366cd546f1",
   "indexed_at": "2026-02-26T09:36:06.415Z",
-  "synced_at": "2026-02-27T02:45:34.601Z",
+  "synced_at": "2026-02-28T04:15:34.124Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7318032a624999d1b244e54afe960fc906a8224cb29803ac35d0dd3e8a2d229c",
   "install_command": "mkdir -p .claude/skills/architecture-blueprint-generator && curl -sL \"https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/prompts/architecture-blueprint-generator/SKILL.md\" > .claude/skills/architecture-blueprint-generator/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sla-te/copilot-converter/main/codex/prompts/architecture-blueprint-generator/SKILL.md"

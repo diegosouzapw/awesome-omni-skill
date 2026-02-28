@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "2fe0054c67cd4b55b6607a1c6caef1a900ac02a166c39d18de7d829d120e02a4",
   "indexed_at": "2026-02-27T07:47:15.919Z",
-  "synced_at": "2026-02-27T13:14:32.097Z",
+  "synced_at": "2026-02-28T04:16:31.761Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f78cbc486e014ed4c3787887fc3432626a344fb75dde564b19df35f14cbd18b9",
   "install_command": "mkdir -p .claude/skills/using-github-api-with-gh-cli && curl -sL \"https://raw.githubusercontent.com/johnnymo87/dotfiles/main/.claude/skills/using-github-api-with-gh/SKILL.md\" > .claude/skills/using-github-api-with-gh-cli/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/johnnymo87/dotfiles/main/.claude/skills/using-github-api-with-gh/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "acb485bd0b6d800f9c6b2eca590466ea85bd5e12af10cbd435db4b2ef0c0f6c4",
   "indexed_at": "2026-02-26T23:22:35.265Z",
-  "synced_at": "2026-02-27T02:46:29.567Z",
+  "synced_at": "2026-02-28T04:16:26.525Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/66bde39c8ce822be7549826f0bb88cf78b4ed0381af199ef01f7e996dd4b8088",
   "install_command": "mkdir -p .claude/skills/u06409-kpi-dashboard-publishing-for-family-caregiving-systems && curl -sL \"https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/06/6409-kpi-dashboard-publishing-for-family-caregiving-systems/SKILL.md\" > .claude/skills/u06409-kpi-dashboard-publishing-for-family-caregiving-systems/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/zwright8/OpenClaw-Code/main/skills/generated/shards/06/6409-kpi-dashboard-publishing-for-family-caregiving-systems/SKILL.md"

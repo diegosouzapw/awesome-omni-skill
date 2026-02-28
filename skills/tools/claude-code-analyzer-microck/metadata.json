@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "bed7205e712de441de5bad02f05b1e5d855f6564c6efb5dbff57c7ab80dc04c5",
   "indexed_at": "2026-02-27T11:53:42.415Z",
-  "synced_at": "2026-02-27T13:14:34.807Z",
+  "synced_at": "2026-02-28T04:16:36.031Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0bc1247ce25ad3c45ddb6129aad6eaf3ffa66bb28eaace374700d54f0ea3a719",
   "install_command": "mkdir -p .claude/skills/claude-code-analyzer && curl -sL \"https://raw.githubusercontent.com/Microck/ordinary-claude-skills/main/skills_categorized/domain-utilities/claude-code-analyzer/SKILL.md\" > .claude/skills/claude-code-analyzer/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Microck/ordinary-claude-skills/main/skills_categorized/domain-utilities/claude-code-analyzer/SKILL.md"

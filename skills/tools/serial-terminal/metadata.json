@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "af9c4b4288262ff1dde4a6a9ae3e336fe9545943cdf7644ee2e0ba59671b4696",
   "indexed_at": "2026-02-26T15:52:58.868Z",
-  "synced_at": "2026-02-27T02:46:05.060Z",
+  "synced_at": "2026-02-28T04:16:03.857Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/6debae98ec772157567d9b2abcb70922e65165a1c238c70e52fcef7ddcc48ff9",
   "install_command": "mkdir -p .claude/skills/serial-terminal && curl -sL \"https://raw.githubusercontent.com/hlord2000/serial-terminal-skill/main/SKILL.md\" > .claude/skills/serial-terminal/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hlord2000/serial-terminal-skill/main/SKILL.md"

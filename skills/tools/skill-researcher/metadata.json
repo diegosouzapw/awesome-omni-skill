@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "1f10c3aa31c91852dcb01e2d61513ce0f663c630b80489236c8ba8653f75a19b",
   "indexed_at": "2026-02-26T08:00:08.747Z",
-  "synced_at": "2026-02-27T02:45:31.070Z",
+  "synced_at": "2026-02-28T04:15:30.781Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/bbaaa215712eb7cacccd5cb26e6450336a418a34755f8cf919391612d4c0e729",
   "install_command": "mkdir -p .claude/skills/skill-researcher && curl -sL \"https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/adaptationio/skrillz/skill-researcher/SKILL.md\" > .claude/skills/skill-researcher/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/NeverSight/skills_feed/main/data/skills-md/adaptationio/skrillz/skill-researcher/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "4f546036e07cc03865c7d3ae6d22d664913b573d32f98250d2bc2596c88af7e0",
   "indexed_at": "2026-02-26T08:45:23.056Z",
-  "synced_at": "2026-02-27T02:45:31.561Z",
+  "synced_at": "2026-02-28T04:15:31.289Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3b0e3218b76ccb5ae327fb1c3d6a3c0ffe1ea3e4d15e1e310c79f1ad4cb5796e",
   "install_command": "mkdir -p .claude/skills/customer-support-builder && curl -sL \"https://raw.githubusercontent.com/nbashaw/claude-cs/main/.claude/skills/customer-support-builder/SKILL.md\" > .claude/skills/customer-support-builder/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/nbashaw/claude-cs/main/.claude/skills/customer-support-builder/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d976846110dc314cb194a6a8240c54d23415721432d9bf5fe022280bde098e86",
   "indexed_at": "2026-02-26T09:35:29.496Z",
-  "synced_at": "2026-02-27T02:45:34.403Z",
+  "synced_at": "2026-02-28T04:15:33.963Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/dea1576b4d5ffb2fd7313a823ce36fed2cfc7d761c08faf6d0daec315a6db805",
   "install_command": "mkdir -p .claude/skills/base-cookbook && curl -sL \"https://raw.githubusercontent.com/hk-vk/skills/main/registry/base-cookbook/SKILL.md\" > .claude/skills/base-cookbook/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/hk-vk/skills/main/registry/base-cookbook/SKILL.md"

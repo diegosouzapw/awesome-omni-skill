@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "d8daec778bfda69a2763943363baa36f95cd5501b60087bc98832c153e6a8cfa",
   "indexed_at": "2026-02-26T13:52:57.271Z",
-  "synced_at": "2026-02-27T02:45:51.623Z",
+  "synced_at": "2026-02-28T04:15:50.834Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/eecfe6b2689849285c24a8a4938af02adfda4e8ab2a0d9ed92c4b8480ccb649f",
   "install_command": "mkdir -p .claude/skills/kickbox-automation && curl -sL \"https://raw.githubusercontent.com/jarbitechture/claude-skills/main/skills/kickbox-automation/SKILL.md\" > .claude/skills/kickbox-automation/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/jarbitechture/claude-skills/main/skills/kickbox-automation/SKILL.md"

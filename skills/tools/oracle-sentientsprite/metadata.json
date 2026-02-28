@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "016bd7e8ce0904c25ebb53692c2ea3798ea519b2d2772d521ddce527e6e66b19",
   "indexed_at": "2026-02-27T16:09:23.086Z",
-  "synced_at": "2026-02-27T18:15:56.769Z",
+  "synced_at": "2026-02-28T04:16:47.737Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0187b5af67267cc10c91cd87079fb8335e9c4ad49a41b19de30be19632a588bb",
   "install_command": "mkdir -p .claude/skills/oracle && curl -sL \"https://raw.githubusercontent.com/sentientsprite/nemo-agent/main/skills/oracle/SKILL.md\" > .claude/skills/oracle/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/sentientsprite/nemo-agent/main/skills/oracle/SKILL.md"

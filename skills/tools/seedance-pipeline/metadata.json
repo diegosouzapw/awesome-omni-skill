@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "c1f24dbe349cd3719501524d68fa60fc6a3af4a17851ddb5feba56d56f0c2b6c",
   "indexed_at": "2026-02-26T17:30:50.904Z",
-  "synced_at": "2026-02-27T02:46:13.998Z",
+  "synced_at": "2026-02-28T04:16:12.564Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/840c15c046e8c43f683bc70510fa8341bb2fd24486100186675263c4ddf7617d",
   "install_command": "mkdir -p .claude/skills/seedance-pipeline && curl -sL \"https://raw.githubusercontent.com/Emily2040/seedance-2.0/main/skills/seedance-pipeline/SKILL.md\" > .claude/skills/seedance-pipeline/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Emily2040/seedance-2.0/main/skills/seedance-pipeline/SKILL.md"

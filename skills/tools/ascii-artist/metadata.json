@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "b82cf1f00bc2875333721998bdda775ad12cba0eaa4d0ed7d024988d7a57ad2e",
   "indexed_at": "2026-02-27T14:41:28.094Z",
-  "synced_at": "2026-02-27T18:15:50.920Z",
+  "synced_at": "2026-02-28T04:16:39.929Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/67cce8300319cc6e3c03aded2ba468194015973ebf4e351035cb882076deb5d5",
   "install_command": "mkdir -p .claude/skills/ascii-artist && curl -sL \"https://raw.githubusercontent.com/Patonchain/ascii-artist/main/SKILL.md\" > .claude/skills/ascii-artist/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/Patonchain/ascii-artist/main/SKILL.md"

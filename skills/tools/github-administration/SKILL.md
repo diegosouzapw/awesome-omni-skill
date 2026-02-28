@@ -42,18 +42,20 @@ gh label list --json name --limit 100
 ## Safe Command Rules
 
 1. Prefer one mutation per command.
-2. Always use `--body-file` for multi-line issue bodies.
+2. Always use `--body-file` for issue/comment/PR bodies (single-line or multi-line).
 3. Use double quotes for arguments with spaces.
 4. Verify immediately after create/edit/close operations.
-5. In persistent terminals, avoid heredoc for long multi-line bodies; write a temporary file first and pass it via `--body-file`.
-6. Do not auto-assign newly created issues unless the navigator explicitly requests assignment at creation time.
+5. Store temporary body files under a non-versioned workspace path (for this repo: `.tmp/`) and pass them via `--body-file`.
+6. In persistent terminals, avoid heredoc for long multi-line bodies; write a temporary file first and pass it via `--body-file`.
+7. Do not auto-assign newly created issues unless the navigator explicitly requests assignment at creation time.
 
 ## Command Recipes
 
 ### Create issue
 
 ```sh
-gh issue create --title "<title>" --body-file /tmp/issue.md --label <label> --assignee <login>
+mkdir -p .tmp
+gh issue create --title "<title>" --body-file .tmp/issue.md --label <label> --assignee <login>
 ```
 
 ### View/verify issue
@@ -65,13 +67,13 @@ gh issue view <number> --json number,title,assignees,labels,url
 ### Edit issue
 
 ```sh
-gh issue edit <number> --title "<new-title>" --body-file /tmp/issue-updated.md
+gh issue edit <number> --title "<new-title>" --body-file .tmp/issue-updated.md
 ```
 
 ### Comment on issue
 
 ```sh
-gh issue comment <number> --body "<progress update>"
+gh issue comment <number> --body-file .tmp/comment.md
 ```
 
 ### Close issue

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "f8686bf668f0cb737c5cf9963b7e72ea0c28fc5ee8890eee3230b69a3952edca",
   "indexed_at": "2026-02-26T18:30:39.434Z",
-  "synced_at": "2026-02-27T02:46:19.565Z",
+  "synced_at": "2026-02-28T04:16:17.964Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/9e9dcae5afc79c6dedbb8f13df7cc82842628c9afaad79cd015c534d5eadd5b5",
   "install_command": "mkdir -p .claude/skills/lead-research-assistant-cn && curl -sL \"https://raw.githubusercontent.com/openclaw/skills/main/skills/guohongbin-git/lead-research-assistant-cn/SKILL.md\" > .claude/skills/lead-research-assistant-cn/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/guohongbin-git/lead-research-assistant-cn/SKILL.md"

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "53fed4223915df04496fa2dcf366e5dc4fe3b6e70767df0600492f5f032c000a",
   "indexed_at": "2026-02-27T16:56:23.236Z",
-  "synced_at": "2026-02-27T18:16:00.739Z",
+  "synced_at": "2026-02-28T04:16:52.681Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/49fea1aa3a87508d867edf21aba903882ea6c0716951fe1ec735891600c4604c",
   "install_command": "mkdir -p .claude/skills/oracle && curl -sL \"https://raw.githubusercontent.com/ApiliumCode/mayros/main/skills/oracle/SKILL.md\" > .claude/skills/oracle/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/ApiliumCode/mayros/main/skills/oracle/SKILL.md"
