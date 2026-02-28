@@ -1,6 +1,6 @@
 # 📂 content-media
 
-> 105 skills in this category
+> 150 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -33,7 +33,14 @@
 | [content-research-writer](content-research-writer/) | majiayu000 | ★ 94 | 77% | L2 | Creates high-quality content (blog posts, tweets, newsletters, documentation) th… |
 | [acc-create-mediator](acc-create-mediator/) | majiayu000 | ★ 94 | 77% | L2 | Generates Mediator pattern for PHP 8.5. Creates coordination layer for complex c… |
 | [accessibility-issues](accessibility-issues/) | majiayu000 | ★ 94 | 77% | L2 | Use when animation excludes users with vestibular disorders, cognitive disabilit… |
+| [content-research-writer](content-research-writer/) | majiayu000 | ★ 94 | 77% | L2 | Assists in writing high-quality content by conducting research, adding citations… |
+| [Adaptive Bitrate Streaming](adaptive-bitrate-streaming/) | majiayu000 | ★ 94 | 77% | L3 | Automatically adjusting video quality based on network conditions using HLS, DAS… |
+| [add-content](add-content/) | majiayu000 | ★ 94 | 77% | L2 | Create new files in knowledge base with directory governance. Use when user want… |
+| [add-video-to-collection](add-video-to-collection/) | majiayu000 | ★ 94 | 77% | L3 | Manually add individual YouTube URLs to a custom collection CSV. Use when adding… |
+| [AEM Content Modeling](aem-content-modeling/) | majiayu000 | ★ 94 | 77% | L3 | Design author-friendly content structures that work for non-technical content cr… |
 | [activity-log](activity-log/) | majiayu000 | ★ 94 | 70% | L2 | Display the daily activity log showing all content analyzed today. Use when the … |
+| [adverse-media](adverse-media/) | majiayu000 | ★ 94 | 70% | L3 | Search for negative news coverage, controversies, and reputational risks associa… |
+| [add-subtitles](add-subtitles/) | majiayu000 | ★ 94 | 64% | L2 | Adds SRT formatted subtitles to a video file when you want a video to have subti… |
 | [4claw](4claw/) | majiayu000 | ★ 92 | 80% | L3 | 4claw — a moderated imageboard for AI agents. Boards, threads, replies, media up… |
 | [image-enhancer](image-enhancer/) | majiayu000 | ★ 92 | 77% | L2 | Improves the quality of images, especially screenshots, by enhancing resolution,… |
 | [pptx](pptx/) | majiayu000 | ★ 92 | 77% | L3 | Presentation creation, editing, and analysis. When Claude needs to work with pre… |
@@ -41,6 +48,22 @@
 | [Adaptive Bitrate Streaming](adaptive-bitrate-streaming/) | majiayu000 | ★ 2 | 64% | L3 | Automatically adjusting video quality based on network conditions using HLS, DAS… |
 | [add-content](add-content/) | majiayu000 | ★ 2 | 64% | L2 | Create new files in knowledge base with directory governance. Use when user want… |
 | [AEM Content Modeling](aem-content-modeling/) | majiayu000 | ★ 2 | 64% | L3 | Design author-friendly content structures that work for non-technical content cr… |
+| [content-research-writer](content-research-writer/) | majiayu000 | ★ 2 | 64% | L2 | Creates high-quality content (blog posts, tweets, newsletters, documentation) th… |
+| [ai-generation-client](ai-generation-client/) | majiayu000 | ★ 2 | 64% | L3 | External AI API integration with retry logic, rate limiting, content safety dete… |
+| [ai-image-effects](ai-image-effects/) | majiayu000 | ★ 2 | 64% | L3 | Apply AI visual effects including Illusion Diffusion ($0.006), FLUX Fill Pro acc… |
+| [ai-multimodal](ai-multimodal/) | majiayu000 | ★ 2 | 64% | L3 | Process and generate multimedia content using Google Gemini API for better visio… |
+| [ai-multimodal](ai-multimodal/) | majiayu000 | ★ 2 | 64% | L3 | Process and generate multimedia content using Google Gemini API. Capabilities in… |
+| [ai-multimodal](ai-multimodal/) | majiayu000 | ★ 2 | 64% | L3 | Multimodal AI processing via Google Gemini API (2M tokens context). Capabilities… |
+| [ai-news-crawler](ai-news-crawler/) | majiayu000 | ★ 2 | 64% | L2 | Trigger phrase \"watching news!\"; Create a JSON file named with the current tim… |
+| [ai-tools](ai-tools/) | majiayu000 | ★ 2 | 64% | L3 | Google AI tools integration. Modules: Gemini API (multimodal: audio/image/video/… |
+| [ai-video-generation](ai-video-generation/) | majiayu000 | ★ 2 | 64% | L3 | AI video generation patterns using Sora, Runway, Pika, and other AI video tools.… |
+| [ai-video-production-master](ai-video-production-master/) | majiayu000 | ★ 2 | 64% | L3 | Expert in script-to-video production pipelines for Apple Silicon Macs. Specializ… |
+| [alfworld-locate-target-object](alfworld-locate-target-object/) | majiayu000 | ★ 2 | 64% | L2 | This skill navigates to a suspected location and identifies a target object. It … |
+| [alfworld-object-state-inspector](alfworld-object-state-inspector/) | majiayu000 | ★ 2 | 64% | L2 | Checks the current state or contents of a specified object or receptacle. Trigge… |
+| [analyze-video](analyze-video/) | majiayu000 | ★ 2 | 64% | L3 | Adds visual descriptions to transcripts by extracting and analyzing video frames… |
+| [ai-content-quality-checker](ai-content-quality-checker/) | majiayu000 | ★ 2 | 60% | L3 | AI生成コンテンツの総合品質チェックスキル。読みやすさ、正確性、関連性、独自性、SEO、アクセシビリティ、エンゲージメント、文法・スタイルを多角的に評価。 |
+| [alma-scraper](alma-scraper/) | majiayu000 | ★ 2 | 57% | L2 | Intelligent scraper for Australian youth justice sources. Discovers, extracts, a… |
+| [ai-content](ai-content/) | majiayu000 | ★ 2 | 47% | L2 | 生成 AI 相关技术内容，帮助编写 AI 工具使用指南、模型对比、应用案例等内容。使用时涉及 AI 工具、模型、应用等主题时。 |
 | [4claw](4claw/) | majiayu000 | ★ 1 | 65% | L3 | 4claw — a moderated imageboard for AI agents. Boards, threads, replies, media up… |
 | [image-enhancer](image-enhancer/) | majiayu000 | ★ 1 | 62% | L2 | Improves the quality of images, especially screenshots, by enhancing resolution,… |
 | [pptx](pptx/) | majiayu000 | ★ 1 | 62% | L3 | Presentation creation, editing, and analysis. When Claude needs to work with pre… |
@@ -49,6 +72,8 @@
 | [activity-log](activity-log/) | majiayu000 | ★ 1 | 55% | L2 | Display the daily activity log showing all content analyzed today. Use when the … |
 | [social-media-manager](social-media-manager/) | rafaelramosdf | ★ 0 | 59% | L3 | Agente especialista em Social Media para múltiplas empresas (Multi-tenant). Cria… |
 | [pptx](pptx/) | rafaelramosdf | ★ 0 | 59% | L3 | Presentation creation, editing, and analysis. When Claude needs to work with pre… |
+| [didactic-content-generator](didactic-content-generator/) | rafaelramosdf | ★ 0 | 59% | L2 | Gere conteúdo didático de alta qualidade em HTML/CSS com ilustrações SVG, usando… |
+| [docx](docx/) | rafaelramosdf | ★ 0 | 59% | L3 | Criação, edição e análise abrangente de documentos com suporte para alterações c… |
 | [x-image-cards](x-image-cards/) | NeverSight | ★ 0 | 48% | L3 | Create X/Twitter cards that look like images, not marketing banners. Use when as… |
 | [x-image-cards](x-image-cards/) | 0juano | ★ 0 | 48% | L3 | Create X/Twitter cards that look like images, not marketing banners. Use when as… |
 | [x-image-cards](x-image-cards/) | 0juano | ★ 0 | 48% | L3 | Create X/Twitter cards that look like images, not marketing banners. Use when as… |
@@ -62,6 +87,8 @@
 | [nano-image-generate](nano-image-generate/) | fancyboi999 | ★ 0 | 48% | L3 | Generate images using Nano Banana (Flash) or Nano Banana Pro. Use 'flash' for sp… |
 | [whisper-transcription](whisper-transcription/) | majiayu000 | ★ 0 | 48% | L3 | Transcribe audio and video files to text using OpenAI Whisper. Use when: convert… |
 | [whisper-transcription](whisper-transcription/) | guia-matthieu | ★ 0 | 48% | L3 | Transcribe audio and video files to text using OpenAI Whisper. Use when: convert… |
+| [SkipClass](skipclass/) | HoweChen0517 | ★ 0 | 48% | L3 | This skill should be used when the user asks to "convert lecture recordings into… |
+| [Tech Debt Triage](tech-debt-triage/) | cdalsoniii | ★ 0 | 46% | L2 | Score, prioritize, and plan technical debt remediation |
 | [instagram-social-media](instagram-social-media/) | rafaelramosdf | ★ 0 | 45% | L3 | Atua como um especialista em social media para Instagram, criando conteúdos alta… |
 | [publish](publish/) | majiayu000 | ★ 0 | 45% | L2 | Draft email and tweet for a new blog post. Reads the latest post from campederse… |
 | [voice-dna-creator](voice-dna-creator/) | NeverSight | ★ 0 | 45% | L2 | Analyze writing samples to create a comprehensive voice DNA profile. Use when th… |
@@ -99,7 +126,22 @@
 | [ffmpeg-usage](ffmpeg-usage/) | ychoi-kr | ★ 0 | 45% | L3 | ffmpeg recipes and best practices: convert, concatenate, merge, resize, compress… |
 | [seo-content](seo-content/) | anorbert-cmyk | ★ 0 | 45% | L3 | Content quality and E-E-A-T assessment with AI citation readiness scoring. Evalu… |
 | [seedance-20](seedance-20/) | NeverSight | ★ 0 | 45% | L3 | Generate and direct cinematic AI videos with Seedance 2.0 (ByteDance/Dreamina/Ji… |
+| [media-generation](media-generation/) | majiayu000 | ★ 0 | 45% | L3 | Generate images, videos, and audio using Google's Gemini APIs. Use for image gen… |
+| [media-generation](media-generation/) | majiayu000 | ★ 0 | 45% | L3 | Generate images, videos, and audio using Google's Gemini APIs. Use for image gen… |
+| [video-toolkit](video-toolkit/) | fancyboi999 | ★ 0 | 45% | L3 | Intelligent video processor for downloading media and extracting transcripts fro… |
+| [voice-dna-creator](voice-dna-creator/) | majiayu000 | ★ 0 | 45% | L2 | Analyze writing samples to create a comprehensive voice DNA profile. Use when th… |
+| [wiro-image-fill](wiro-image-fill/) | AndacGuven | ★ 0 | 45% | L3 | Generate missing or placeholder images in a project by calling the Wiro image ge… |
+| [ai-avatar-video](ai-avatar-video/) | NeverSight | ★ 0 | 45% | L3 | Create AI avatar and talking head videos with OmniHuman, Fabric, PixVerse via in… |
+| [media-generation](media-generation/) | majiayu000 | ★ 0 | 45% | L3 | Generate images, videos, and audio using Google's Gemini APIs. Use for image gen… |
+| [publish](publish/) | majiayu000 | ★ 0 | 45% | L2 | Draft email and tweet for a new blog post. Reads the latest post from campederse… |
+| [gemini-api](gemini-api/) | majiayu000 | ★ 0 | 45% | L3 | Google Gemini API integration for building AI-powered applications. Use when wor… |
+| [editing-checklist](editing-checklist/) | jcanizalez | ★ 0 | 45% | L2 | Systematic editing and proofreading checklist for polishing written content. Use… |
+| [Media Uploader - R2/S3 with video download](media-uploader-r2-s3-with-video-download/) | sternelee | ★ 0 | 45% | L3 | Upload files or download videos from popular platforms (YouTube, Vimeo, Bilibili… |
+| [og-image-generator](og-image-generator/) | NeverSight | ★ 0 | 45% | L3 | Generate and optimize Open Graph meta images for social media sharing. Use this … |
+| [x-post](x-post/) | pravj | ★ 0 | 45% | L3 | Post to X (Twitter) - tweets, media, threads with history tracking. Use when the… |
+| [check-x-md-content-rule](check-x-md-content-rule/) | oimiragieo | ★ 0 | 43% | L3 | This rule reminds the AI to check the x.md file for the current file contents an… |
 | [vidu-video](vidu-video/) | openclaw | ★ 0 | 41% | L2 | 使用 Vidu Q3 Pro 模型生成视频。当用户想要文生视频、生成带音频的视频，或提到 vidu 时使用此 skill。 |
+| [placeholder-images](placeholder-images/) | oimiragieo | ★ 0 | 39% | L3 | Rule to use placekitten.com for placeholder images in seed data. |
 | [image-publisher](image-publisher/) | maoruibin | ★ 0 | 38% | L3 | Upload local images to image hosting services and get accessible URLs. Use this … |
 | [social-media-scheduler](social-media-scheduler/) | openclaw | ★ 0 | 38% | L3 | Generate a full week of social media content for any topic. Outputs platform-opt… |
 | [youtube-shorts-automation](youtube-shorts-automation/) | openclaw | ★ 0 | 38% | L3 | YouTube Shorts 자동 생성 및 업로드 파이프라인. Deevid AI Agent로 이미지→영상(BGM+음성 포함) 생성 후 YouTub… |
@@ -109,6 +151,9 @@
 | [veo](veo/) | MagicWifiMoney | ★ 0 | 32% | L2 | Generate video using Google Veo (Veo 3.1 / Veo 3.0). Use when: creating video cl… |
 | [imagegen-gemini](imagegen-gemini/) | bhaidar | ★ 0 | 32% | L3 | Generate/edit images via Gemini API (Nano Banana). Triggers: generate image, cre… |
 | [extract-page](extract-page/) | majiayu000 | ★ 0 | 28% | L3 | Extract a single page from a PDF as a PNG image for quick preview. |
+| [bird](bird/) | openxjarvis | ★ 0 | 28% | L2 | Twitter/X social media integration |
+| [bird](bird/) | futurewithvibe | ★ 0 | 28% | L2 | Twitter/X social media integration |
+| [Skills](skills/) | Exile-MC | ★ 0 | 19% | L2 | Your content here |
 
 ---
 

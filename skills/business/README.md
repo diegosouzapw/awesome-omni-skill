@@ -1,6 +1,6 @@
 # 📂 business
 
-> 175 skills in this category
+> 198 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -20,10 +20,7 @@
 | [Omnisend Automation](omnisend-automation/) | ComposioHQ | ★ 37.7k | 95% | L2 | Automate ecommerce marketing workflows including contact management, bulk operat… |
 | [MailerLite Automation](mailerlite-automation/) | ComposioHQ | ★ 37.7k | 95% | L2 | Automate email marketing workflows including subscriber management, campaign ana… |
 | [NetSuite Automation](netsuite-automation/) | ComposioHQ | ★ 37.7k | 95% | L2 | NetSuite Automation: manage customers, sales orders, invoices, inventory, and re… |
-| [Hunter Automation](hunter-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Hunter.io email intelligence -- search domains for email addresses, fin… |
 | [Instantly Automation](instantly-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Instantly cold email outreach -- manage campaigns, sending accounts, le… |
-| [Kommo Automation](kommo-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Kommo CRM operations -- manage leads, pipelines, pipeline stages, tasks… |
-| [Attio Automation](attio-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Attio CRM operations -- search records, query contacts and companies wi… |
 | [benchmark-email-automation](benchmark-email-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Benchmark Email tasks via Rube MCP (Composio). Always search tools firs… |
 | [capsule_crm-automation](capsule_crm-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Capsule CRM tasks via Rube MCP (Composio): contacts, opportunities, cas… |
 | [Capsule CRM Automation](capsule-crm-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Capsule CRM operations -- manage contacts (parties), run structured fil… |
@@ -61,23 +58,39 @@
 | [content-creator](content-creator/) | sickn33 | ★ 15.4k | 98% | L3 | Create SEO-optimized marketing content with consistent brand voice. Includes bra… |
 | [competitor-alternatives](competitor-alternatives/) | sickn33 | ★ 15.4k | 95% | L2 | When the user wants to create competitor comparison or alternative pages for SEO… |
 | [billing-automation](billing-automation/) | sickn33 | ★ 15.4k | 88% | L2 | Build automated billing systems for recurring payments, invoicing, subscription … |
+| [affiliate-marketing](affiliate-marketing/) | majiayu000 | ★ 94 | 80% | L2 | Build high-converting SaaS affiliate programs with 20-40% commissions, KOL/KOC p… |
 | [acc-create-strategy](acc-create-strategy/) | majiayu000 | ★ 94 | 77% | L2 | Generates Strategy pattern for PHP 8.5. Creates interchangeable algorithm famili… |
 | [accounts-payable-workflow](accounts-payable-workflow/) | majiayu000 | ★ 94 | 77% | L3 | Эксперт AP workflow. Используй для процессов кредиторской задолженности, invoice… |
 | [activecampaign-email-marketing](activecampaign-email-marketing/) | majiayu000 | ★ 94 | 77% | L3 | Create, manage, and optimize email campaigns for Laguna Beach Tennis Academy usi… |
+| [ado-multi-project](ado-multi-project/) | majiayu000 | ★ 94 | 77% | L3 | Organize specs and tasks across multiple Azure DevOps projects with intelligent … |
+| [adynato-seo](adynato-seo/) | majiayu000 | ★ 94 | 77% | L2 | Handles SEO requirements for all web content including blogs, landing pages, and… |
 | [accountant-expert](accountant-expert/) | majiayu000 | ★ 94 | 76% | L3 | Expert-level accounting, tax, financial reporting, and accounting systems |
 | [Ad Copy Writer](ad-copy-writer/) | majiayu000 | ★ 94 | 76% | L2 | Write high-converting advertising copy for paid media campaigns |
+| [Advisory Board Builder](advisory-board-builder/) | majiayu000 | ★ 94 | 76% | L2 | Recruit, structure, and manage advisory boards for strategic guidance |
+| [Affiliate Marketing Manager](affiliate-marketing-manager/) | majiayu000 | ★ 94 | 76% | L2 | Set up and manage affiliate marketing programs for growth and revenue |
 | [account-research](account-research/) | majiayu000 | ★ 94 | 73% | L2 | Gather actionable sales intelligence on companies and individuals before outreac… |
 | [Accounts Reconciler](accounts-reconciler/) | majiayu000 | ★ 94 | 73% | L2 | Automate account reconciliation by matching transactions, identifying discrepanc… |
 | [account-tiering](account-tiering/) | majiayu000 | ★ 94 | 66% | L2 | Use when defining ABM tiers, scoring logic, and coverage rules. |
+| [agent-content-marketer](agent-content-marketer/) | majiayu000 | ★ 94 | 64% | L2 | Expert content marketer specializing in content strategy, SEO optimization, and … |
 | [abstract-strategy](abstract-strategy/) | majiayu000 | ★ 92 | 80% | L2 | Design abstract strategy games with perfect information, no randomness, and stra… |
 | [invoice-organizer](invoice-organizer/) | majiayu000 | ★ 92 | 77% | L3 | Automatically organizes invoices and receipts for tax preparation by reading mes… |
 | [abm-specialist](abm-specialist/) | majiayu000 | ★ 92 | 77% | L3 | Эксперт ABM. Используй для account-based marketing, target account selection и p… |
+| [ai-marketing-engineering](ai-marketing-engineering/) | majiayu000 | ★ 2 | 67% | L2 | AI-powered marketing engineering skill based on Alon Huri's framework. Transform… |
 | [adynato-seo](adynato-seo/) | majiayu000 | ★ 2 | 64% | L2 | Handles SEO requirements for all web content including blogs, landing pages, and… |
+| [amazon-bestseller-launch](amazon-bestseller-launch/) | majiayu000 | ★ 2 | 64% | L3 | Complete Amazon KDP bestseller launch system with proven strategies for achievin… |
+| [analytics-attribution](analytics-attribution/) | majiayu000 | ★ 2 | 64% | L2 | Performance measurement, attribution modeling, and marketing ROI analysis. Use w… |
+| [analytics-measurement](analytics-measurement/) | majiayu000 | ★ 2 | 64% | L2 | Analytics and conversion tracking for lead generation websites. Use when impleme… |
+| [analytics](analytics/) | majiayu000 | ★ 2 | 64% | L3 | Activate for marketing analytics, KPI tracking, reporting dashboards, attributio… |
+| [analytics-tracking](analytics-tracking/) | majiayu000 | ★ 2 | 64% | L3 | When the user wants to set up, improve, or audit analytics tracking and measurem… |
+| [analyze-attachments](analyze-attachments/) | majiayu000 | ★ 2 | 64% | L3 | Deep attachment analysis with extraction, importance classification, and content… |
+| [analyze-email](analyze-email/) | majiayu000 | ★ 2 | 64% | L3 | Quick single email analysis - read metadata, content summary, and list attachmen… |
+| [analyze-thread](analyze-thread/) | majiayu000 | ★ 2 | 64% | L3 | Analyze complete email thread with conversation context, timeline, participants,… |
 | [Ad Copy Writer](ad-copy-writer/) | majiayu000 | ★ 2 | 63% | L2 | Write high-converting advertising copy for paid media campaigns |
 | [Advisory Board Builder](advisory-board-builder/) | majiayu000 | ★ 2 | 63% | L2 | Recruit, structure, and manage advisory boards for strategic guidance |
 | [Affiliate Marketing Manager](affiliate-marketing-manager/) | majiayu000 | ★ 2 | 63% | L2 | Set up and manage affiliate marketing programs for growth and revenue |
 | [agent-content-marketer](agent-content-marketer/) | majiayu000 | ★ 2 | 51% | L2 | Expert content marketer specializing in content strategy, SEO optimization, and … |
 | [agent-sales-engineer](agent-sales-engineer/) | majiayu000 | ★ 2 | 51% | L2 | Expert sales engineer specializing in technical pre-sales, solution architecture… |
+| [alphaear-news](alphaear-news/) | majiayu000 | ★ 2 | 51% | L3 | Fetch hot finance news, unified trends, and prediction financial market data. Us… |
 | [abstract-strategy](abstract-strategy/) | majiayu000 | ★ 1 | 65% | L2 | Design abstract strategy games with perfect information, no randomness, and stra… |
 | [invoice-organizer](invoice-organizer/) | majiayu000 | ★ 1 | 62% | L3 | Automatically organizes invoices and receipts for tax preparation by reading mes… |
 | [abm-specialist](abm-specialist/) | majiayu000 | ★ 1 | 62% | L3 | Эксперт ABM. Используй для account-based marketing, target account selection и p… |
@@ -88,6 +101,7 @@
 | [account-research](account-research/) | majiayu000 | ★ 1 | 58% | L2 | Gather actionable sales intelligence on companies and individuals before outreac… |
 | [Accounts Reconciler](accounts-reconciler/) | majiayu000 | ★ 1 | 58% | L2 | Automate account reconciliation by matching transactions, identifying discrepanc… |
 | [account-tiering](account-tiering/) | majiayu000 | ★ 1 | 51% | L2 | Use when defining ABM tiers, scoring logic, and coverage rules. |
+| [gtse-cold-outreach-generator](gtse-cold-outreach-generator/) | mk-162 | ★ 0 | 50% | L2 | Generate cold outreach messages for GTSE B2B sales. Create personalized emails, … |
 | [market-sizing-analysis](market-sizing-analysis/) | majiayu000 | ★ 0 | 48% | L2 | This skill should be used when the user asks to "calculate TAM", "determine SAM"… |
 | [marketing-psychology](marketing-psychology/) | heykaran77 | ★ 0 | 48% | L2 | When the user wants to apply psychological principles, mental models, or behavio… |
 | [marketing-psychology](marketing-psychology/) | TheSethRose | ★ 0 | 48% | L2 | When the user wants to apply psychological principles, mental models, or behavio… |
@@ -114,6 +128,9 @@
 | [market-sizing-analysis](market-sizing-analysis/) | harshahosur81 | ★ 0 | 48% | L2 | This skill should be used when the user asks to "calculate TAM", "determine SAM"… |
 | [analytics-tracking](analytics-tracking/) | Jackiexiao | ★ 0 | 48% | L3 | （中文）When the user wants to set up, improve, or audit analytics tracking and meas… |
 | [analytics-tracking](analytics-tracking/) | Jackiexiao | ★ 0 | 48% | L3 | （中文）When the user wants to set up, improve, or audit analytics tracking and meas… |
+| [seo](seo/) | thoreinstein | ★ 0 | 48% | L2 | Optimize for search engine visibility and ranking. Use when asked to "improve SE… |
+| [marketing_automation](marketing_automation/) | Insightpulseai | ★ 0 | 48% | L2 | Automated multi-step marketing campaigns with email, SMS, and server action work… |
+| [popup-cro](popup-cro/) | coreyhaines31 | ★ 0 | 48% | L2 | When the user wants to create or optimize popups, modals, overlays, slide-ins, o… |
 | [content-marketer](content-marketer/) | majiayu000 | ★ 0 | 45% | L2 | Expert in content strategy, SEO-driven storytelling, and developer advocacy. Bri… |
 | [bexio](bexio/) | majiayu000 | ★ 0 | 45% | L3 | Bexio Swiss business software API for managing contacts, quotes/offers, invoices… |
 | [Payment Integration](payment-integration/) | ChatAndBuild | ★ 0 | 45% | L3 | Implement Stripe payment processing for robust, PCI-compliant payment flows incl… |
@@ -153,13 +170,12 @@
 | [create-an-asset](create-an-asset/) | lohasle | ★ 0 | 45% | L3 | Generate tailored sales assets (landing pages, decks, one-pagers, workflow demos… |
 | [create-an-asset](create-an-asset/) | fergupa | ★ 0 | 45% | L3 | Generate tailored sales assets (landing pages, decks, one-pagers, workflow demos… |
 | [create-an-asset](create-an-asset/) | SKSDesignNew | ★ 0 | 45% | L3 | Generate tailored sales assets (landing pages, decks, one-pagers, workflow demos… |
-| [hubspot-automation](hubspot-automation/) | davepoon | ★ 0 | 45% | L2 | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties… |
-| [hubspot-automation](hubspot-automation/) | majiayu000 | ★ 0 | 45% | L2 | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties… |
 | [capsule_crm-automation](capsule_crm-automation/) | haniakrim21 | ★ 0 | 45% | L2 | Automate Capsule CRM tasks via Rube MCP (Composio): contacts, opportunities, cas… |
 | [capsule_crm-automation](capsule_crm-automation/) | boisenoise | ★ 0 | 45% | L2 | Automate Capsule CRM tasks via Rube MCP (Composio): contacts, opportunities, cas… |
 | [capsule_crm-automation](capsule_crm-automation/) | jarbitechture | ★ 0 | 45% | L2 | Automate Capsule CRM tasks via Rube MCP (Composio): contacts, opportunities, cas… |
 | [marketing-seo-complete](marketing-seo-complete/) | vasilyu1983 | ★ 0 | 45% | L3 | Use when running SEO audits, keyword research, content planning, or fixing techn… |
 | [GHL Reporting & Analytics](ghl-reporting-analytics/) | Justin322322 | ★ 0 | 45% | L2 | Guide for GoHighLevel dashboards and analytics — dashboard widgets, custom repor… |
+| [lead-research-assistant](lead-research-assistant/) | davepoon | ★ 0 | 45% | L2 | Identifies high-quality leads for your product or service by analyzing your busi… |
 | [Lead Research Assistant](lead-research-assistant/) | ChatAndBuild | ★ 0 | 45% | L2 | Identifies high-quality leads for your product or service by analyzing your busi… |
 | [cold-email](cold-email/) | inkeep | ★ 0 | 45% | L2 | Generate cold emails for B2B personas. Use when asked to write cold outreach, sa… |
 | [Capsule CRM Automation](capsule-crm-automation/) | haniakrim21 | ★ 0 | 45% | L2 | Automate Capsule CRM operations -- manage contacts (parties), run structured fil… |
@@ -175,8 +191,15 @@
 | [seo-content-optimizer](seo-content-optimizer/) | benjaminreder | ★ 0 | 45% | L3 | Analysiert und optimiert bestehende Ratgeber-Artikel durch DataForSEO-Analyse mi… |
 | [edocode-monthly-accounting](edocode-monthly-accounting/) | YMD7 | ★ 0 | 45% | L3 | EDOCODE 株式会社の毎月の経理処理（証憑ファイル回収）を行うスキル。ユーザーから「EDOCODE の経理処理を始めよう」「EDOCODE の月次精算をお願… |
 | [seo-domination](seo-domination/) | Vibe-Marketer | ★ 0 | 45% | L3 | Complete search visibility command center for SaaS companies. Covers SEO, AEO (A… |
+| [content-marketer](content-marketer/) | majiayu000 | ★ 0 | 45% | L2 | Expert in content strategy, SEO-driven storytelling, and developer advocacy. Bri… |
+| [salesforce](salesforce/) | Jewish-Federation-of-San-Diego | ★ 0 | 45% | L3 | Query and manage Salesforce CRM data for Jewish Federation of San Diego (JFSD). … |
+| [lead-research-assistant](lead-research-assistant/) | NeverSight | ★ 0 | 45% | L2 | Identifies high-quality leads for your product or service by analyzing your busi… |
+| [seo-writing](seo-writing/) | jcanizalez | ★ 0 | 45% | L2 | Optimize written content for search engines — keyword placement, meta descriptio… |
 | [Sales Lead Enrichment](sales-lead-enrichment/) | SixtySecondsApp | ★ 0 | 44% | L2 | All sources consulted with data freshness timestamps |
+| [cfo](cfo/) | jforksy | ★ 0 | 44% | L2 | CFO Co-Pilot - strategic finance, valuation narrative, and VC readiness |
 | [caching-strategy](caching-strategy/) | yeeehaooo | ★ 0 | 41% | L2 | Define explicit caching strategies for different data access patterns and consis… |
+| [email-notifications](email-notifications/) | splits-network | ★ 0 | 41% | L3 | Email template and notification patterns using Resend |
+| [email-triage-draft-replies](email-triage-draft-replies/) | majiayu000 | ★ 0 | 32% | L2 | Review unread email, categorize it, and draft replies (no sending without approv… |
 | [sns-patterns](sns-patterns/) | taiyousan15 | ★ 0 | 19% | L2 | SNS posting patterns and strategy |
 | [startup-go-to-market](startup-go-to-market/) | amo-tech-ai | ★ 0 | 18% | L1 | Merged into go-to-market. Use that skill instead. |
 

@@ -19,7 +19,7 @@
   "downloads": 0,
   "content_hash": "97c997b7fc5cdc8cc26e8fd35737668815eab088ab6627757867c864dc1bb20e",
   "indexed_at": "2026-02-27T01:51:40.862Z",
-  "synced_at": "2026-02-27T02:53:37.764Z",
+  "synced_at": "2026-02-28T04:30:35.155Z",
   "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3639ad2c69030bd913a99e5fdd6e64daad4bf46811e2052562ad5cbc07c92fb1",
   "install_command": "mkdir -p .claude/skills/adaptive-temporal-analysis-integration && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/adaptive-temporal-analysis-integration/SKILL.md\" > .claude/skills/adaptive-temporal-analysis-integration/SKILL.md",
   "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry-data/main/data/adaptive-temporal-analysis-integration/SKILL.md"

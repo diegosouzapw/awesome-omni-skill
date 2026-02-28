@@ -1,6 +1,6 @@
 # 📂 data-ai
 
-> 1,965 skills in this category
+> 2.001 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -88,19 +88,16 @@
 | [findymail-automation](findymail-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Findymail tasks via Rube MCP (Composio). Always search tools first for … |
 | [flowiseai-automation](flowiseai-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Flowiseai tasks via Rube MCP (Composio). Always search tools first for … |
 | [gan-ai-automation](gan-ai-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Gan AI tasks via Rube MCP (Composio). Always search tools first for cur… |
-| [Gong Automation](gong-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Gong conversation intelligence -- retrieve call recordings, transcripts… |
 | [langsmith-fetch](langsmith-fetch/) | ComposioHQ | ★ 37.3k | 95% | L3 | Debug LangChain and LangGraph agents by fetching execution traces from LangSmith… |
 | [subagent-driven-development](subagent-driven-development/) | sickn33 | ★ 15.5k | 95% | L2 | Use when executing implementation plans with independent tasks in the current se… |
 | [voice-ai-development](voice-ai-development/) | sickn33 | ★ 15.5k | 95% | L3 | Expert in building voice AI applications - from real-time voice agents to voice-… |
 | [voice-ai-engine-development](voice-ai-engine-development/) | sickn33 | ★ 15.5k | 95% | L3 | Build real-time conversational AI voice engines using async worker pipelines, st… |
 | [tdd-workflows-tdd-cycle](tdd-workflows-tdd-cycle/) | sickn33 | ★ 15.5k | 91% | L2 | Use when working with tdd workflows tdd cycle |
-| [writing-skills](writing-skills/) | sickn33 | ★ 15.5k | 91% | L3 | Use when creating, updating, or improving agent skills. |
 | [threat-modeling-expert](threat-modeling-expert/) | sickn33 | ★ 15.5k | 88% | L2 | Expert in threat modeling methodologies, security architecture review, and risk … |
 | [vector-database-engineer](vector-database-engineer/) | sickn33 | ★ 15.5k | 88% | L2 | Expert in vector databases, embedding strategies, and semantic search implementa… |
 | [vector-index-tuning](vector-index-tuning/) | sickn33 | ★ 15.5k | 88% | L2 | Optimize vector index performance for latency, recall, and memory. Use when tuni… |
 | [voice-agents](voice-agents/) | sickn33 | ★ 15.5k | 88% | L2 | Voice agents represent the frontier of AI interaction - humans speaking naturall… |
 | [workflow-automation](workflow-automation/) | sickn33 | ★ 15.5k | 88% | L2 | Workflow automation is the infrastructure that makes AI agents reliable. Without… |
-| [rag-implementation](rag-implementation/) | sickn33 | ★ 15.5k | 98% | L2 | RAG (Retrieval-Augmented Generation) implementation workflow covering embedding … |
 | [postmark-automation](postmark-automation/) | sickn33 | ★ 15.5k | 95% | L2 | Automate Postmark email delivery tasks via Rube MCP (Composio): send templated e… |
 | [rag-engineer](rag-engineer/) | sickn33 | ★ 15.5k | 95% | L3 | Expert in building Retrieval-Augmented Generation systems. Masters embedding mod… |
 | [skill-creator-ms](skill-creator-ms/) | sickn33 | ★ 15.5k | 95% | L3 | Guide for creating effective skills for AI coding agents working with Azure SDKs… |
@@ -159,8 +156,6 @@
 | [error-detective](error-detective/) | sickn33 | ★ 15.4k | 84% | L2 | Search logs and codebases for error patterns, stack traces, and |
 | [cqrs-implementation](cqrs-implementation/) | sickn33 | ★ 15.4k | 82% | L2 | Implement Command Query Responsibility Segregation for scalable architectures. U… |
 | [gdpr-data-handling](gdpr-data-handling/) | sickn33 | ★ 15.4k | 82% | L2 | Implement GDPR-compliant data handling with consent management, data subject rig… |
-| [ai-agent-development](ai-agent-development/) | sickn33 | ★ 15.4k | 98% | L2 | AI agent development workflow for building autonomous agents, multi-agent system… |
-| [ai-ml](ai-ml/) | sickn33 | ★ 15.4k | 98% | L2 | AI and machine learning workflow covering LLM application development, RAG imple… |
 | [agentfolio](agentfolio/) | sickn33 | ★ 15.4k | 95% | L2 | Skill for discovering and researching autonomous AI agents, tools, and ecosystem… |
 | [activecampaign-automation](activecampaign-automation/) | sickn33 | ★ 15.4k | 95% | L2 | Automate ActiveCampaign tasks via Rube MCP (Composio): manage contacts, tags, li… |
 | [agent-memory-mcp](agent-memory-mcp/) | sickn33 | ★ 15.4k | 95% | L3 | A hybrid memory system that provides persistent, searchable knowledge management… |
@@ -195,6 +190,7 @@
 | [accept-no-substitutes](accept-no-substitutes/) | majiayu000 | ★ 94 | 80% | L3 | This skill should be used when agents generate placeholder tokens like "pseudo-"… |
 | [acsets-hatchery](acsets-hatchery/) | majiayu000 | ★ 94 | 80% | L2 | Attributed C-Sets as algebraic databases. Category-theoretic data structures gen… |
 | [Active Directory Attacks](active-directory-attacks/) | majiayu000 | ★ 94 | 80% | L3 | This skill should be used when the user asks to "attack Active Directory", "expl… |
+| [advanced-example](advanced-example/) | majiayu000 | ★ 94 | 80% | L3 | Advanced example showing all available metadata fields and complex folder struct… |
 | [activities](activities/) | majiayu000 | ★ 94 | 78% | L3 | Coding standards and best practices for Temporal activities. |
 | [acc-create-domain-event](acc-create-domain-event/) | majiayu000 | ★ 94 | 77% | L2 | Generates DDD Domain Events for PHP 8.5. Creates immutable event records with me… |
 | [acc-create-domain-service](acc-create-domain-service/) | majiayu000 | ★ 94 | 77% | L2 | Generates DDD Domain Services for PHP 8.5. Creates stateless services for busine… |
@@ -205,7 +201,6 @@
 | [acc-detect-code-smells](acc-detect-code-smells/) | majiayu000 | ★ 94 | 77% | L3 | Detects code smells in PHP codebases. Identifies God Class, Feature Envy, Data C… |
 | [acc-diagram-knowledge](acc-diagram-knowledge/) | majiayu000 | ★ 94 | 77% | L2 | Diagram knowledge base. Provides Mermaid syntax, C4 model, diagram types, and be… |
 | [acc-mermaid-template](acc-mermaid-template/) | majiayu000 | ★ 94 | 77% | L2 | Generates Mermaid diagrams for technical documentation. Provides templates for f… |
-| [accessibility-engineer](accessibility-engineer/) | majiayu000 | ★ 94 | 77% | L2 | セマンティックHTML/JSXとWAI-ARIAを「最小で正しく」適用し、キーボード操作・スクリーンリーダ・コントラスト等を満たす実装を作るための判断軸。ネイテ… |
 | [account-aware-training](account-aware-training/) | majiayu000 | ★ 94 | 77% | L3 | Add account state (P&L, win rate, drawdown) to RL observations + drawdown penalt… |
 | [account-based-marketing-agent](account-based-marketing-agent/) | majiayu000 | ★ 94 | 77% | L3 | AI агент для ABM. Используй для автоматизации ABM кампаний и персонализации outr… |
 | [plaid-accounts-expert](plaid-accounts-expert/) | majiayu000 | ★ 94 | 77% | L3 | Expert on Plaid accounts and account management. Covers account data retrieval, … |
@@ -215,29 +210,24 @@
 | [activation-patching](activation-patching/) | majiayu000 | ★ 94 | 77% | L3 | Causal intervention via activation patching to identify important model componen… |
 | [active-learning-system](active-learning-system/) | majiayu000 | ★ 94 | 77% | L3 | Эксперт active learning. Используй для ML с участием человека, uncertainty sampl… |
 | [acuantia-dataform](acuantia-dataform/) | majiayu000 | ★ 94 | 77% | L3 | Use when working on Acuantia's BigQuery Dataform pipeline (acuantia-gcp-dataform… |
+| [add-dataset](add-dataset/) | majiayu000 | ★ 94 | 77% | L3 | Guide for adding a new dataset loader to AReaL. Use when user wants to add a new… |
+| [advanced-rendering](advanced-rendering/) | majiayu000 | ★ 94 | 77% | L3 | Master high-performance rendering for large datasets with Datashader. Use this s… |
 | [active-interleave](active-interleave/) | majiayu000 | ★ 94 | 73% | L3 | Active Interleave Skill |
 | [actor-critic-methods](actor-critic-methods/) | majiayu000 | ★ 94 | 73% | L3 | Master A2C, A3C, SAC, TD3 - actor-critic methods for continuous control |
+| [advanced-analytics](advanced-analytics/) | majiayu000 | ★ 94 | 73% | L2 | Advanced analytics including machine learning, predictive modeling, and big data… |
 | [act-code-reviewer](act-code-reviewer/) | majiayu000 | ★ 94 | 70% | L2 | Review JusticeHub code against ACT ecosystem values. Enforces cultural protocols… |
+| [add-datalake-consumer](add-datalake-consumer/) | majiayu000 | ★ 94 | 70% | L3 | Adds an event consumer that writes to Azure Data Lake (Parquet) following BI_SAL… |
 | [account-delete](account-delete/) | majiayu000 | ★ 94 | 66% | L3 | Полное удаление аккаунта и всех связанных данных из конфигурации. |
 | [accessibility-object-model-integration](accessibility-object-model-integration/) | majiayu000 | ★ 94 | 64% | L2 | Programmatic manipulation of the accessibility tree to support complex custom co… |
 | [action_logger](action_logger/) | majiayu000 | ★ 94 | 54% | L2 | Keep an audit trail of changes, commands, and verification. |
 | [ml-paper-writing](ml-paper-writing/) | majiayu000 | ★ 93 | 80% | L3 | Write publication-ready ML/AI papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM. U… |
-| [model-selection](model-selection/) | majiayu000 | ★ 93 | 77% | L3 | Automatically applies when choosing LLM models and providers. Ensures proper mod… |
-| [agent-ops-state](agent-ops-state/) | majiayu000 | ★ 93 | 77% | L3 | Maintain .agent state files. Use at session start, after meaningful steps, and b… |
-| [agent-ops-testing](agent-ops-testing/) | majiayu000 | ★ 93 | 77% | L3 | Test strategy, execution, and coverage analysis. Use when designing tests, runni… |
-| [Build Your LiveKit Agents Skill](build-your-livekit-agents-skill/) | majiayu000 | ★ 93 | 77% | L3 | Create your LiveKit Agents skill from official documentation, then learn to impr… |
-| [wolf-scripts-agents](wolf-scripts-agents/) | majiayu000 | ★ 93 | 76% | L3 | Agent coordination, orchestration, and multi-agent workflow management scripts |
-| [flow-nexus-neural](flow-nexus-neural/) | majiayu000 | ★ 93 | 76% | L3 | Train and deploy neural networks in distributed E2B sandboxes with Flow Nexus |
-| [agent-hierarchy-diagram](agent-hierarchy-diagram/) | majiayu000 | ★ 93 | 70% | L3 | Generate visual hierarchy diagrams of agent system showing levels and delegation… |
 | [pattern-emergence-detector](pattern-emergence-detector/) | majiayu000 | ★ 93 | 69% | L3 | Generated skill from request: pattern emergence detector |
 | [trinity-auto-boot-validator](trinity-auto-boot-validator/) | majiayu000 | ★ 93 | 69% | L3 | Generated skill from request: trinity auto-boot validator |
-| [agent-ops-spec](agent-ops-spec/) | majiayu000 | ★ 93 | 64% | L2 | Manage specification documents in .agent/specs/. Use when user provides requirem… |
 | [33GOD System Expert](33god-system-expert/) | majiayu000 | ★ 92 | 80% | L3 | Deep knowledge expert for the 33GOD agentic pipeline system, understands compone… |
 | [ios-simulator-skill](ios-simulator-skill/) | majiayu000 | ★ 92 | 80% | L3 | 21 production-ready scripts for iOS app testing, building, and automation. Provi… |
 | [8claw](8claw/) | majiayu000 | ★ 92 | 80% | L3 | 8claw is an anonymous imageboard built for AI agents. Have discussions with othe… |
 | [aav-vector-design-agent](aav-vector-design-agent/) | majiayu000 | ★ 92 | 80% | L3 | AI-powered adeno-associated virus (AAV) vector design for gene therapy including… |
-| [agent-ops-article-verification](agent-ops-article-verification/) | majiayu000 | ★ 92 | 77% | L2 | Systematically deconstruct written content into verifiable claims, validate each… |
-| [agent-ops-reality-audit](agent-ops-reality-audit/) | majiayu000 | ★ 92 | 77% | L2 | Aggressive evidence-based audit to verify project claims match implementation re… |
+| [deduplication](deduplication/) | majiayu000 | ★ 92 | 77% | L3 | Event deduplication with canonical selection, reputation scoring, and hash-based… |
 | [00-meta-chain-flow-150](00-meta-chain-flow-150/) | majiayu000 | ★ 92 | 77% | L3 | [00] META. Orchestrate skills into dynamic chains for complex tasks. Analyzes th… |
 | [01-meta-chain-of-skills-150](01-meta-chain-of-skills-150/) | majiayu000 | ★ 92 | 77% | L3 | [01] META. Сканирует доступные skills, создает план выполнения и идет шаг за шаг… |
 | [chromatin-state-inference](chromatin-state-inference/) | majiayu000 | ★ 92 | 77% | L3 | This skill should be used when users need to infer chromatin states from histone… |
@@ -253,18 +243,12 @@
 | [302ai-api-integration](302ai-api-integration/) | majiayu000 | ★ 92 | 77% | L3 | ALWAYS use this skill when user needs ANY API functionality (AI models, image ge… |
 | [32-analyze-verify-150](32-analyze-verify-150/) | majiayu000 | ★ 92 | 77% | L2 | [32] ANALYZE. Ensure every critical claim has verifiable evidence with confidenc… |
 | [37signals-rails-style](37signals-rails-style/) | majiayu000 | ★ 92 | 77% | L2 | Apply 37signals/DHH Rails conventions when writing Ruby on Rails code. Use when … |
-| [Capstone: Shippable Agent Skill](capstone-shippable-agent-skill/) | majiayu000 | ★ 92 | 77% | L2 | Build a specification-first Digital FTE that orchestrates accumulated intelligen… |
 | [3d-cv-labeling-2026](3d-cv-labeling-2026/) | majiayu000 | ★ 92 | 77% | L2 | Expert in 3D computer vision labeling tools, workflows, and AI-assisted annotati… |
 | [3d-modeling](3d-modeling/) | majiayu000 | ★ 92 | 77% | L2 | Expert 3D modeling specialist with deep knowledge of topology, UV mapping, game-… |
 | [ATACseq-QC](atacseq-qc/) | majiayu000 | ★ 92 | 77% | L3 | Performs ATAC-specific biological validation. It calculates metrics unique to ch… |
 | [4-step-program](4-step-program/) | majiayu000 | ★ 92 | 77% | L3 | Coordinator workflow for orchestrating dockeragents through fix-review-iterate-p… |
-| [Finalize Your Evals Skill](finalize-your-evals-skill/) | majiayu000 | ★ 92 | 77% | L3 | Validate your agent-evals skill by testing it on a completely different agent. A… |
 | [51-execute-quality-150](51-execute-quality-150/) | majiayu000 | ★ 92 | 77% | L2 | [51] EXECUTE. Commitment to maximum quality work with 150% coverage. Use when yo… |
-| [Build Your LLMOps Decision Skill](build-your-llmops-decision-skill/) | majiayu000 | ★ 92 | 77% | L2 | You've spent this chapter building mental models: the LLMOps lifecycle, training… |
 | [Build Your Data Engineering Skill](build-your-data-engineering-skill/) | majiayu000 | ★ 92 | 77% | L3 | Create your LLMOps data engineering skill in one prompt, then learn to improve i… |
-| [Build Your Model Merging Skill](build-your-model-merging-skill/) | majiayu000 | ★ 92 | 77% | L3 | You've trained two specialized adapters: a TaskMaster persona adapter (Chapter 6… |
-| [Build Your Model Serving Skill](build-your-model-serving-skill/) | majiayu000 | ★ 92 | 77% | L3 | Create your model-serving skill from Ollama documentation before learning deploy… |
-| [Build Your Agent Integration Skill](build-your-agent-integration-skill/) | majiayu000 | ★ 92 | 77% | L3 | Create your agent-integration skill from OpenAI SDK and LiteLLM documentation be… |
 | [a2a-executor-patterns](a2a-executor-patterns/) | majiayu000 | ★ 92 | 77% | L3 | Agent-to-Agent (A2A) executor implementation patterns for task handling, executi… |
 | [subagent-driven-development](subagent-driven-development/) | majiayu000 | ★ 92 | 77% | L2 | Use when executing implementation plans with independent tasks in the current se… |
 | [ab-test-framework-ml](ab-test-framework-ml/) | majiayu000 | ★ 92 | 77% | L3 | Эксперт A/B тестирования. Используй для статистических тестов, экспериментов и M… |
@@ -282,11 +266,8 @@
 | [acc-create-aggregate](acc-create-aggregate/) | majiayu000 | ★ 92 | 77% | L2 | Generates DDD Aggregates for PHP 8.5. Creates consistency boundaries with root e… |
 | [acc-create-chain-of-responsibility](acc-create-chain-of-responsibility/) | majiayu000 | ★ 92 | 77% | L2 | Generates Chain of Responsibility pattern for PHP 8.5. Creates handler chains fo… |
 | [acc-create-di-container](acc-create-di-container/) | majiayu000 | ★ 92 | 77% | L2 | Generates DI Container configuration for PHP 8.5. Creates module classes, servic… |
-| [Build Your Database Skill](build-your-database-skill/) | majiayu000 | ★ 92 | 73% | L3 | Create a relational-db-agent skill that knows SQLModel async patterns |
-| [Finalize Your LLMOps Skill](finalize-your-llmops-skill/) | majiayu000 | ★ 92 | 73% | L3 | Consolidate all Part 8 skills into a production-ready llmops-fine-tuner skill |
 | [GSTD A2A Network](gstd-a2a-network/) | majiayu000 | ★ 92 | 73% | L3 | Decentralized Agent-to-Agent Autonomous Economy. Connects hardware and agents fo… |
 | [Add prerequisite install script for Python deps (self-contained skill)](add-prerequisite-install-script-for-python-deps-self-contained-skill/) | majiayu000 | ★ 92 | 70% | L3 | The skill is script-heavy and evolving fast. When Python dependencies are missin… |
-| [Build Your OpenAI Agents Skill](build-your-openai-agents-skill/) | majiayu000 | ★ 92 | 70% | L3 | Create your OpenAI Agents SDK skill in one prompt, then learn to improve it thro… |
 | [ChIPseq-QC](chipseq-qc/) | majiayu000 | ★ 92 | 70% | L3 | Performs ChIP-specific biological validation. It calculates metrics unique to pr… |
 | [Enforce Agent Identity in Skill](enforce-agent-identity-in-skill/) | majiayu000 | ★ 92 | 64% | L2 | To maintain the integrity of audit logs, we must ensure that agents use their re… |
 | [ac-knowledge-graph](ac-knowledge-graph/) | majiayu000 | ★ 92 | 64% | L2 | Manage knowledge graph for autonomous coding. Use when storing relationships, qu… |
@@ -298,26 +279,18 @@
 | [summarize](summarize/) | abhaymundhara | ★ 4 | 66% | L3 | Summarize or extract text/transcripts from URLs, podcasts, and local files. |
 | [ml-paper-writing](ml-paper-writing/) | majiayu000 | ★ 2 | 67% | L3 | Write publication-ready ML/AI papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM. U… |
 | [Active Directory Attacks](active-directory-attacks/) | majiayu000 | ★ 2 | 67% | L3 | This skill should be used when the user asks to "attack Active Directory", "expl… |
-| [adb-navigation-base](adb-navigation-base/) | majiayu000 | ★ 2 | 67% | L3 | Base navigation patterns for Android device automation - gestures, waits, and UI… |
-| [adb-workflow-orchestrator](adb-workflow-orchestrator/) | majiayu000 | ★ 2 | 67% | L3 | TOON workflow orchestration engine for coordinating ADB automation scripts acros… |
 | [adding-todos](adding-todos/) | majiayu000 | ★ 2 | 67% | L3 | Use this skill to capture an idea, task, or issue that surfaces during a Kata se… |
 | [advanced-example](advanced-example/) | majiayu000 | ★ 2 | 67% | L3 | Advanced example showing all available metadata fields and complex folder struct… |
 | [adversarial-examples](adversarial-examples/) | majiayu000 | ★ 2 | 67% | L3 | Generate adversarial inputs, edge cases, and boundary test payloads for stress-t… |
-| [aerospace-expert](aerospace-expert/) | majiayu000 | ★ 2 | 67% | L3 | Expert-level aerospace systems, flight management, maintenance tracking, aviatio… |
 | [agent-communication-protocol](agent-communication-protocol/) | majiayu000 | ★ 2 | 67% | L3 | Open protocol for AI agent interoperability enabling standardized communication … |
 | [Agent Development](agent-development/) | majiayu000 | ★ 2 | 67% | L3 | This skill should be used when the user asks to "create an agent", "add an agent… |
 | [Agent Generation](agent-generation/) | majiayu000 | ★ 2 | 67% | L3 | This skill provides knowledge for generating effective Claude Code agents tailor… |
-| [agent-guardrails](agent-guardrails/) | majiayu000 | ★ 2 | 67% | L3 | Stop AI agents from secretly bypassing your rules. Mechanical enforcement with g… |
 | [agent-handoff](agent-handoff/) | majiayu000 | ★ 2 | 67% | L3 | Generate comprehensive handoff documentation optimized for AI agent takeover by … |
 | [agent-messaging](agent-messaging/) | majiayu000 | ★ 2 | 67% | L3 | Send and receive messages between AI agents using AI Maestro's messaging system.… |
-| [agent-os-framework](agent-os-framework/) | majiayu000 | ★ 2 | 67% | L3 | Generate standardized .agent-os directory structure with product documentation, … |
 | [agent-skill-bridge](agent-skill-bridge/) | majiayu000 | ★ 2 | 67% | L3 | Facilitates seamless integration between Claude Skills and the existing Agent fr… |
-| [Agent Workflow Builder](agent-workflow-builder/) | majiayu000 | ★ 2 | 67% | L3 | Build multi-agent AI workflows with orchestration, tool use, and state managemen… |
+| [airflow-3x-migration](airflow-3x-migration/) | majiayu000 | ★ 2 | 67% | L3 | Comprehensive guide and patterns for migrating Apache Airflow 2.x workflows to A… |
+| [airflow-expert](airflow-expert/) | majiayu000 | ★ 2 | 67% | L3 | Expert-level Apache Airflow orchestration, DAGs, operators, sensors, XComs, task… |
 | [agent-builder](agent-builder/) | majiayu000 | ★ 2 | 66% | L3 | Use when creating, improving, or troubleshooting Claude Code subagents. Expert g… |
-| [model-selection](model-selection/) | majiayu000 | ★ 2 | 64% | L3 | Automatically applies when choosing LLM models and providers. Ensures proper mod… |
-| [agent-ops-state](agent-ops-state/) | majiayu000 | ★ 2 | 64% | L3 | Maintain .agent state files. Use at session start, after meaningful steps, and b… |
-| [agent-ops-testing](agent-ops-testing/) | majiayu000 | ★ 2 | 64% | L3 | Test strategy, execution, and coverage analysis. Use when designing tests, runni… |
-| [Build Your LiveKit Agents Skill](build-your-livekit-agents-skill/) | majiayu000 | ★ 2 | 64% | L3 | Create your LiveKit Agents skill from official documentation, then learn to impr… |
 | [acuantia-dataform](acuantia-dataform/) | majiayu000 | ★ 2 | 64% | L3 | Use when working on Acuantia's BigQuery Dataform pipeline (acuantia-gcp-dataform… |
 | [bio-read-qc-adapter-trimming](bio-read-qc-adapter-trimming/) | majiayu000 | ★ 2 | 64% | L3 | Remove sequencing adapters from FASTQ files using Cutadapt and Trimmomatic. Supp… |
 | [adaptive-workflows](adaptive-workflows/) | majiayu000 | ★ 2 | 64% | L3 | Self-learning workflow system that tracks what works best for your use cases. Re… |
@@ -336,7 +309,6 @@
 | [task-add](task-add/) | majiayu000 | ★ 2 | 64% | L2 | This skill should be used when the user asks to "add a task", "create task", "ne… |
 | [adding-markdown-highlighted-comments](adding-markdown-highlighted-comments/) | majiayu000 | ★ 2 | 64% | L3 | Use when adding responses to markdown documents with user-highlighted comments, … |
 | [adding-models](adding-models/) | majiayu000 | ★ 2 | 64% | L3 | Guide for adding new LLM models to Letta Code. Use when the user wants to add su… |
-| [adhd-daily-planner](adhd-daily-planner/) | majiayu000 | ★ 2 | 64% | L2 | Time-blind friendly planning, executive function support, and daily structure fo… |
 | [adk-rag-agent](adk-rag-agent/) | majiayu000 | ★ 2 | 64% | L3 | Build RAG (Retrieval-Augmented Generation) agents with Google ADK and Vertex AI … |
 | [adr-knowledge-base](adr-knowledge-base/) | majiayu000 | ★ 2 | 64% | L3 | ADR知見の体系的参照・適用。主要ADR抜粋（ADR_010, 013, 016, 019, 020, 021）・ADR検索・参照方法・技術決定パターン集・AD… |
 | [adr-review](adr-review/) | majiayu000 | ★ 2 | 64% | L3 | Multi-agent debate orchestration for Architecture Decision Records. Automaticall… |
@@ -393,33 +365,8 @@
 | [agent-memory](agent-memory/) | majiayu000 | ★ 2 | 64% | L3 | Retain and recall work context across sessions. Use when user asks to remember s… |
 | [agent-mlops](agent-mlops/) | majiayu000 | ★ 2 | 64% | L3 | Production deployment and operationalization of AI agents on Databricks. Use whe… |
 | [agent-native-architecture](agent-native-architecture/) | majiayu000 | ★ 2 | 64% | L3 | Build applications where agents are first-class citizens. Use this skill when de… |
-| [agent-ops-article-verification](agent-ops-article-verification/) | majiayu000 | ★ 2 | 64% | L2 | Systematically deconstruct written content into verifiable claims, validate each… |
-| [agent-ops-baseline](agent-ops-baseline/) | majiayu000 | ★ 2 | 64% | L3 | Create .agent/baseline.md and later compare against it. Use when capturing basel… |
-| [agent-ops-branch-workflow](agent-ops-branch-workflow/) | majiayu000 | ★ 2 | 64% | L3 | Standardized branch creation with type detection, issue ID extraction, and workt… |
-| [agent-ops-code-review-comprehensive](agent-ops-code-review-comprehensive/) | majiayu000 | ★ 2 | 64% | L3 | A senior code-review agent that produces critical, thorough, constructive, and e… |
-| [agent-ops-code-review-interactive](agent-ops-code-review-interactive/) | majiayu000 | ★ 2 | 64% | L3 | Interactive code review for agent iterations. Captures comments, tracks resoluti… |
-| [agent-ops-constitution](agent-ops-constitution/) | majiayu000 | ★ 2 | 64% | L2 | Create/update .agent/constitution.md. Use when commands/boundaries/constraints m… |
-| [agent-ops-context-map](agent-ops-context-map/) | majiayu000 | ★ 2 | 64% | L3 | Analyze the codebase to create a concise, LLM-optimized structured overview in .… |
-| [agent-ops-create-skill](agent-ops-create-skill/) | majiayu000 | ★ 2 | 64% | L2 | Create new AgentOps skills via interactive interview. Supports from-scratch and … |
-| [agent-ops-dogfood](agent-ops-dogfood/) | majiayu000 | ★ 2 | 64% | L2 | Dogfooding discovery agent — establish human-approved project baseline from publ… |
-| [agent-ops-git-story](agent-ops-git-story/) | majiayu000 | ★ 2 | 64% | L3 | Generate narrative summaries from git history for onboarding, retrospectives, ch… |
-| [agent-ops-impl-details](agent-ops-impl-details/) | majiayu000 | ★ 2 | 64% | L3 | Extract, plan, or propose implementation details at configurable depth levels (l… |
-| [agent-ops-implementation](agent-ops-implementation/) | majiayu000 | ★ 2 | 64% | L3 | Implement only after a validated/approved plan. Use for coding: small diffs, fre… |
-| [agent-ops-improvement-discovery](agent-ops-improvement-discovery/) | majiayu000 | ★ 2 | 64% | L2 | You are a **senior engineering analyst** tasked with identifying **concrete, jus… |
-| [agent-ops-install](agent-ops-install/) | majiayu000 | ★ 2 | 64% | L2 | Install AgentOps into a new or existing project. Handles .agent/ setup and .gith… |
-| [agent-ops-migrate](agent-ops-migrate/) | majiayu000 | ★ 2 | 64% | L3 | Migrate a project into another, ensuring functionality and validating complete c… |
-| [agent-ops-optimize-instructions](agent-ops-optimize-instructions/) | majiayu000 | ★ 2 | 64% | L3 | Optimize agent instruction files by extracting sections into separate files and … |
-| [agent-ops-plan-preview](agent-ops-plan-preview/) | majiayu000 | ★ 2 | 64% | L3 | Transform implementation plans into concise stakeholder-friendly summaries with … |
-| [agent-ops-reality-audit](agent-ops-reality-audit/) | majiayu000 | ★ 2 | 64% | L2 | Aggressive evidence-based audit to verify project claims match implementation re… |
-| [agent-ops-recovery](agent-ops-recovery/) | majiayu000 | ★ 2 | 64% | L2 | Handle failures and errors during workflow. Use when build breaks, tests fail un… |
-| [agent-ops-report](agent-ops-report/) | majiayu000 | ★ 2 | 64% | L3 | Generate markdown reports from issues. Filter by type, priority, epic, date rang… |
-| [agent-ops-retrospective](agent-ops-retrospective/) | majiayu000 | ★ 2 | 64% | L2 | Scan the current chat session for durable learnings (clarifications, corrections… |
-| [agent-ops-selective-copy](agent-ops-selective-copy/) | majiayu000 | ★ 2 | 64% | L3 | Create clean git branches from feature work, excluding agent-ops files. Use for … |
-| [agent-ops-tasks](agent-ops-tasks/) | majiayu000 | ★ 2 | 64% | L2 | Create, refine, and manage issues. Use for creating new issues from loose ideas,… |
-| [agent-ops-validation](agent-ops-validation/) | majiayu000 | ★ 2 | 64% | L3 | Pre-commit and pre-merge validation checks. Use before committing changes or dec… |
 | [agent-orchestrate](agent-orchestrate/) | majiayu000 | ★ 2 | 64% | L3 | **CRITICAL: This skill teaches you how to dispatch tasks to multiple worker agen… |
 | [agent-orchestration-improve-agent](agent-orchestration-improve-agent/) | majiayu000 | ★ 2 | 64% | L2 | Systematic improvement of existing agents through performance analysis, prompt e… |
-| [agent-orchestration-patterns](agent-orchestration-patterns/) | majiayu000 | ★ 2 | 64% | L3 | Automatically applies when designing multi-agent systems. Ensures proper tool sc… |
 | [agent-orchestration-planner](agent-orchestration-planner/) | majiayu000 | ★ 2 | 64% | L3 | Designs multi-step agent workflows with tool usage, retry logic, state managemen… |
 | [agent-orchestration](agent-orchestration/) | majiayu000 | ★ 2 | 64% | L3 | This skill should be used when the model's ROLE_TYPE is orchestrator and needs t… |
 | [agent-orchestrator-manager](agent-orchestrator-manager/) | majiayu000 | ★ 2 | 64% | L2 | Orchestrates multi-agent workflows by delegating ALL tasks to spawned subagents … |
@@ -446,11 +393,27 @@
 | [agent-specialization](agent-specialization/) | majiayu000 | ★ 2 | 64% | L2 | Guide creation of focused single-purpose agents following the One Agent One Prom… |
 | [agent-swarm-orchestrator](agent-swarm-orchestrator/) | majiayu000 | ★ 2 | 64% | L3 | Designs multi-agent systems with coordinated agent swarms, task distribution, in… |
 | [agent-tuning](agent-tuning/) | majiayu000 | ★ 2 | 64% | L3 | Optimize ElevenLabs conversational AI agents for real estate applications. Use w… |
-| [wolf-scripts-agents](wolf-scripts-agents/) | majiayu000 | ★ 2 | 63% | L3 | Agent coordination, orchestration, and multi-agent workflow management scripts |
-| [flow-nexus-neural](flow-nexus-neural/) | majiayu000 | ★ 2 | 63% | L3 | Train and deploy neural networks in distributed E2B sandboxes with Flow Nexus |
+| [aggregating-event-datasets](aggregating-event-datasets/) | majiayu000 | ★ 2 | 64% | L3 | Aggregate and summarize event datasets (logs) using OPAL statsby. Use when you n… |
+| [ai-annotation-workflow](ai-annotation-workflow/) | majiayu000 | ★ 2 | 64% | L3 | Эксперт по data annotation. Используй для ML labeling, annotation workflows и qu… |
+| [ai-data-analyst](ai-data-analyst/) | majiayu000 | ★ 2 | 64% | L3 | Perform comprehensive data analysis, statistical modeling, and data visualizatio… |
+| [ai-data-engineering](ai-data-engineering/) | majiayu000 | ★ 2 | 64% | L3 | Data pipelines, feature stores, and embedding generation for AI/ML systems. Use … |
+| [AI Data Privacy](ai-data-privacy/) | majiayu000 | ★ 2 | 64% | L3 | Protecting personal and sensitive data throughout the machine learning lifecycle… |
+| [ai-ml-data-science](ai-ml-data-science/) | majiayu000 | ★ 2 | 64% | L2 | End-to-end data science and ML engineering workflows: problem framing, data/EDA,… |
+| [airflow-dag-patterns](airflow-dag-patterns/) | majiayu000 | ★ 2 | 64% | L3 | Build production Apache Airflow DAGs with best practices for operators, sensors,… |
+| [airflow-dag](airflow-dag/) | majiayu000 | ★ 2 | 64% | L3 | Create Apache Airflow DAGs for construction data pipelines. Orchestrate ETL, val… |
+| [airflow-etl](airflow-etl/) | majiayu000 | ★ 2 | 64% | L3 | Generate Apache Airflow ETL pipelines for government websites and document sourc… |
+| [bio-alignment-validation](bio-alignment-validation/) | majiayu000 | ★ 2 | 64% | L3 | Validate alignment quality with insert size distribution, proper pairing rates, … |
+| [alpaca-algo-plus-data](alpaca-algo-plus-data/) | majiayu000 | ★ 2 | 64% | L3 | Use Alpaca Algo Trader Plus for 4+ years of historical data. Trigger when: (1) i… |
+| [analytics-design](analytics-design/) | majiayu000 | ★ 2 | 64% | L2 | Design data analysis from purpose clarification to visualization. Use when analy… |
+| [analytics-events](analytics-events/) | majiayu000 | ★ 2 | 64% | L3 | Add product analytics events to track user interactions in the Metabase frontend |
+| [analytics-metrics](analytics-metrics/) | majiayu000 | ★ 2 | 64% | L3 | Build data visualization and analytics dashboards. Use when creating charts, KPI… |
+| [analytics-scoping](analytics-scoping/) | majiayu000 | ★ 2 | 64% | L3 | Define the scope of analytics efforts by identifying relevant metrics, data sour… |
+| [analyzing-auto-insurance-data](analyzing-auto-insurance-data/) | majiayu000 | ★ 2 | 64% | L3 | Analyzes vehicle insurance daily reports and signing lists. Use when user asks t… |
+| [analyzing-data](analyzing-data/) | majiayu000 | ★ 2 | 64% | L3 | Queries data warehouse and answers business questions about data. Handles questi… |
 | [agent-o-rama](agent-o-rama/) | majiayu000 | ★ 2 | 63% | L3 | Layer 4: Learning and Pattern Extraction for Cognitive Surrogate Systems |
-| [Agent Orchestrator](agent-orchestrator/) | majiayu000 | ★ 2 | 63% | L2 | Coordinate multiple AI agents and skills for complex workflows |
 | [agent-safety](agent-safety/) | majiayu000 | ★ 2 | 63% | L3 | Ensure agent safety - guardrails, content filtering, monitoring, and compliance |
+| [analytics-flow](analytics-flow/) | majiayu000 | ★ 2 | 63% | L3 | Analytics and data analysis workflow skill |
+| [Analytics Learning](analytics-learning/) | majiayu000 | ★ 2 | 63% | L3 | Process YouTube analytics to extract actionable insights |
 | [admin-documents](admin-documents/) | majiayu000 | ★ 2 | 60% | L3 | Document management, LLM pipeline, anonymization, Q&A generation, versioning |
 | [advanced-analytics](advanced-analytics/) | majiayu000 | ★ 2 | 60% | L2 | Advanced analytics including machine learning, predictive modeling, and big data… |
 | [adversarial-committee](adversarial-committee/) | majiayu000 | ★ 2 | 60% | L2 | Committee of personas with opposing propensities forcing genuine debate |
@@ -459,7 +422,16 @@
 | [agent-code-generator](agent-code-generator/) | majiayu000 | ★ 2 | 60% | L2 | Generates Agent definitions (.md files) based on user intent and standard templa… |
 | [agent-design](agent-design/) | majiayu000 | ★ 2 | 60% | L2 | Design AI agents with recommended patterns and architectures |
 | [agent-handoffs](agent-handoffs/) | majiayu000 | ★ 2 | 60% | L3 | Agent parameter passing, memory files, and data handoffs between agents |
-| [agent-hierarchy-diagram](agent-hierarchy-diagram/) | majiayu000 | ★ 2 | 57% | L3 | Generate visual hierarchy diagrams of agent system showing levels and delegation… |
+| [agentuity-cli-cloud-queue-stats](agentuity-cli-cloud-queue-stats/) | majiayu000 | ★ 2 | 60% | L3 | View queue analytics and statistics. Requires authentication. Use for Agentuity … |
+| [amplitude](amplitude/) | majiayu000 | ★ 2 | 60% | L3 | Analyze product analytics with Amplitude's digital analytics platform. |
+| [analysis-report](analysis-report/) | majiayu000 | ★ 2 | 60% | L3 | Generates comprehensive, structured research reports. |
+| [analyze-copper-stock-resilience-dependency](analyze-copper-stock-resilience-dependency/) | majiayu000 | ★ 2 | 60% | L3 | 用跨資產訊號（全球股市韌性 + 中國利率環境）評估銅價能否突破關卡或進入「回補/回踩」到支撐的機率與路徑。 |
+| [analyze-copper-supply-concentration-risk](analyze-copper-supply-concentration-risk/) | majiayu000 | ★ 2 | 60% | L3 | 用公開資料量化「銅供應是否過度集中、主要產地是否結構性衰退、替代增量是否依賴少數國家」，並輸出可行的中期供應風險結論與情境推演。 |
+| [analyze-investment-clock-rotation](analyze-investment-clock-rotation/) | majiayu000 | ★ 2 | 60% | L3 | 把「獲利成長 × 財務狀況（金融環境）」映射成「投資時鐘」，判斷目前落在哪個象限、近期是順時針還是逆時針旋轉、以及相對於上一輪循環的位置差異。 |
+| [analyze-japan-debt-service-tax-burden](analyze-japan-debt-service-tax-burden/) | majiayu000 | ★ 2 | 60% | L3 | 以日本公債殖利率變化為觸發，量化「政府利息支出 / 稅收」負擔（含情境壓力測試），並判斷是否進入債務利息螺旋風險區。 |
+| [analyze-jgb-insurer-superlong-flow](analyze-jgb-insurer-superlong-flow/) | majiayu000 | ★ 2 | 60% | L3 | 從日本保險公司對超長期（10年以上）JGB 的淨買賣時間序列，自動產出「本月是否創紀錄淨賣出、連續淨賣出月數、期間累積淨賣出」等結論。 |
+| [analyze-silver-miner-metal-ratio](analyze-silver-miner-metal-ratio/) | majiayu000 | ★ 2 | 60% | L3 | 以「銀礦股價格 ÷ 白銀價格」的相對比率衡量礦業股板塊相對於金屬本體的估值區間（偏貴/偏便宜），並用歷史分位數與類比區間推導「底部/頂部」訊號與情境推演。 |
+| [analyze-us-bank-credit-deposit-decoupling](analyze-us-bank-credit-deposit-decoupling/) | majiayu000 | ★ 2 | 60% | L3 | 分析銀行貸款與存款之間的「信貸創造脫鉤」現象，追蹤存款的絕對收縮與回升軌跡，用以辨識聯準會緊縮政策在銀行體系內部的真實傳導效果。 |
 | [add-resource](add-resource/) | majiayu000 | ★ 2 | 57% | L2 | Add new learning resources (books, articles, courses, papers) to the appropriate… |
 | [ads-management](ads-management/) | majiayu000 | ★ 2 | 57% | L2 | Activate for paid advertising campaigns on Google Ads, Meta Ads, LinkedIn Ads, T… |
 | [advanced-math-trading/foundations-core](advanced-math-trading-foundations-core/) | majiayu000 | ★ 2 | 57% | L2 | Probability, moments/tails, Bayes, and statistical learning foundations for syst… |
@@ -467,7 +439,6 @@
 | [agent-code-reviewer](agent-code-reviewer/) | majiayu000 | ★ 2 | 57% | L2 | Expert code reviewer specializing in code quality, security vulnerabilities, and… |
 | [agent-config-maintenance](agent-config-maintenance/) | majiayu000 | ★ 2 | 57% | L2 | Refactor Codex configuration files and Agent Skills by splitting concerns, dedup… |
 | [agent-context-isolation](agent-context-isolation/) | majiayu000 | ★ 2 | 57% | L3 | Agent Context Isolation |
-| [agent-coverage-check](agent-coverage-check/) | majiayu000 | ★ 2 | 57% | L3 | Check agent configuration coverage across hierarchy levels and phases. Use to en… |
 | [agent-cpp-pro](agent-cpp-pro/) | majiayu000 | ★ 2 | 57% | L2 | Expert C++ developer specializing in modern C++20/23, systems programming, and h… |
 | [agent-database-administrator](agent-database-administrator/) | majiayu000 | ★ 2 | 57% | L2 | Expert database administrator specializing in high-availability systems, perform… |
 | [agent-discovery](agent-discovery/) | majiayu000 | ★ 2 | 57% | L3 | Discovers all Claude Code agents in the system including built-in, plugin, proje… |
@@ -481,16 +452,17 @@
 | [agent-memory-systems](agent-memory-systems/) | majiayu000 | ★ 2 | 57% | L2 | Memory is the cornerstone of intelligent agents. Without it, every interaction s… |
 | [agent-model-selection](agent-model-selection/) | majiayu000 | ★ 2 | 57% | L2 | Guidelines for selecting appropriate AI model (Sonnet vs Haiku) based on task co… |
 | [agent-performance-monitor](agent-performance-monitor/) | majiayu000 | ★ 2 | 57% | L2 | Expert performance monitor specializing in system-wide metrics collection, analy… |
-| [agent-run-orchestrator](agent-run-orchestrator/) | majiayu000 | ★ 2 | 57% | L3 | Run section orchestrators to coordinate multi-component workflows. Use when star… |
-| [agent-test-delegation](agent-test-delegation/) | majiayu000 | ★ 2 | 57% | L3 | Test agent delegation patterns to verify hierarchy and escalation paths. Use aft… |
 | [agent-tool-builder](agent-tool-builder/) | majiayu000 | ★ 2 | 57% | L2 | Tools are how AI agents interact with the world. A well-designed tool is the dif… |
 | [agent-trend-analyst](agent-trend-analyst/) | majiayu000 | ★ 2 | 57% | L2 | Expert trend analyst specializing in identifying emerging patterns, forecasting … |
-| [agent-validate-config](agent-validate-config/) | majiayu000 | ★ 2 | 57% | L3 | Validate agent YAML frontmatter and configuration. Use before committing agent c… |
+| [ahu-airflow](ahu-airflow/) | majiayu000 | ★ 2 | 57% | L2 | Fan Selection & Airflow Analysis Agent |
+| [analytics-design](analytics-design/) | majiayu000 | ★ 2 | 57% | L2 | Design Looker Studio reports and dashboards. Use when creating Looker Studio rep… |
+| [analytics](analytics/) | majiayu000 | ★ 2 | 57% | L2 | The practice of collecting, analyzing, and acting on data to drive product decis… |
+| [analyzing-innovation-portfolio](analyzing-innovation-portfolio/) | majiayu000 | ★ 2 | 57% | L2 | Analyze the CustomGPT.ai Labs Innovation workbook and cost tracking data to surf… |
 | [pattern-emergence-detector](pattern-emergence-detector/) | majiayu000 | ★ 2 | 56% | L3 | Generated skill from request: pattern emergence detector |
 | [trinity-auto-boot-validator](trinity-auto-boot-validator/) | majiayu000 | ★ 2 | 56% | L3 | Generated skill from request: trinity auto-boot validator |
 | [agent-spec-architect](agent-spec-architect/) | majiayu000 | ★ 2 | 56% | L2 | Designs the cognitive blueprint of an agent before code generation. |
 | [add-agent-templates](add-agent-templates/) | majiayu000 | ★ 2 | 53% | L2 | Add new Agent templates to the meta-agent-skills framework. |
-| [agent-ops-spec](agent-ops-spec/) | majiayu000 | ★ 2 | 51% | L2 | Manage specification documents in .agent/specs/. Use when user provides requirem… |
+| [airflow-workflows](airflow-workflows/) | majiayu000 | ★ 2 | 53% | L3 | Apache Airflow DAG design, operators, and scheduling best practices. |
 | [advanced-math-trading/portfolio-factors](advanced-math-trading-portfolio-factors/) | majiayu000 | ★ 2 | 51% | L2 | Factor modeling and portfolio construction (Markowitz, Black-Litterman, constrai… |
 | [agent-agent-organizer](agent-agent-organizer/) | majiayu000 | ★ 2 | 51% | L2 | Expert agent organizer specializing in multi-agent orchestration, team assembly,… |
 | [agent-ai-engineer](agent-ai-engineer/) | majiayu000 | ★ 2 | 51% | L2 | Expert AI engineer specializing in AI system design, model implementation, and p… |
@@ -557,6 +529,7 @@
 | [accept-no-substitutes](accept-no-substitutes/) | majiayu000 | ★ 1 | 65% | L3 | This skill should be used when agents generate placeholder tokens like "pseudo-"… |
 | [acsets-hatchery](acsets-hatchery/) | majiayu000 | ★ 1 | 65% | L2 | Attributed C-Sets as algebraic databases. Category-theoretic data structures gen… |
 | [activities](activities/) | majiayu000 | ★ 1 | 63% | L3 | Coding standards and best practices for Temporal activities. |
+| [deduplication](deduplication/) | majiayu000 | ★ 1 | 62% | L3 | Event deduplication with canonical selection, reputation scoring, and hash-based… |
 | [00-meta-chain-flow-150](00-meta-chain-flow-150/) | majiayu000 | ★ 1 | 62% | L3 | [00] META. Orchestrate skills into dynamic chains for complex tasks. Analyzes th… |
 | [01-meta-chain-of-skills-150](01-meta-chain-of-skills-150/) | majiayu000 | ★ 1 | 62% | L3 | [01] META. Сканирует доступные skills, создает план выполнения и идет шаг за шаг… |
 | [chromatin-state-inference](chromatin-state-inference/) | majiayu000 | ★ 1 | 62% | L3 | This skill should be used when users need to infer chromatin states from histone… |
@@ -572,18 +545,12 @@
 | [302ai-api-integration](302ai-api-integration/) | majiayu000 | ★ 1 | 62% | L3 | ALWAYS use this skill when user needs ANY API functionality (AI models, image ge… |
 | [32-analyze-verify-150](32-analyze-verify-150/) | majiayu000 | ★ 1 | 62% | L2 | [32] ANALYZE. Ensure every critical claim has verifiable evidence with confidenc… |
 | [37signals-rails-style](37signals-rails-style/) | majiayu000 | ★ 1 | 62% | L2 | Apply 37signals/DHH Rails conventions when writing Ruby on Rails code. Use when … |
-| [Capstone: Shippable Agent Skill](capstone-shippable-agent-skill/) | majiayu000 | ★ 1 | 62% | L2 | Build a specification-first Digital FTE that orchestrates accumulated intelligen… |
 | [3d-cv-labeling-2026](3d-cv-labeling-2026/) | majiayu000 | ★ 1 | 62% | L2 | Expert in 3D computer vision labeling tools, workflows, and AI-assisted annotati… |
 | [3d-modeling](3d-modeling/) | majiayu000 | ★ 1 | 62% | L2 | Expert 3D modeling specialist with deep knowledge of topology, UV mapping, game-… |
 | [ATACseq-QC](atacseq-qc/) | majiayu000 | ★ 1 | 62% | L3 | Performs ATAC-specific biological validation. It calculates metrics unique to ch… |
 | [4-step-program](4-step-program/) | majiayu000 | ★ 1 | 62% | L3 | Coordinator workflow for orchestrating dockeragents through fix-review-iterate-p… |
-| [Finalize Your Evals Skill](finalize-your-evals-skill/) | majiayu000 | ★ 1 | 62% | L3 | Validate your agent-evals skill by testing it on a completely different agent. A… |
 | [51-execute-quality-150](51-execute-quality-150/) | majiayu000 | ★ 1 | 62% | L2 | [51] EXECUTE. Commitment to maximum quality work with 150% coverage. Use when yo… |
-| [Build Your LLMOps Decision Skill](build-your-llmops-decision-skill/) | majiayu000 | ★ 1 | 62% | L2 | You've spent this chapter building mental models: the LLMOps lifecycle, training… |
 | [Build Your Data Engineering Skill](build-your-data-engineering-skill/) | majiayu000 | ★ 1 | 62% | L3 | Create your LLMOps data engineering skill in one prompt, then learn to improve i… |
-| [Build Your Model Merging Skill](build-your-model-merging-skill/) | majiayu000 | ★ 1 | 62% | L3 | You've trained two specialized adapters: a TaskMaster persona adapter (Chapter 6… |
-| [Build Your Model Serving Skill](build-your-model-serving-skill/) | majiayu000 | ★ 1 | 62% | L3 | Create your model-serving skill from Ollama documentation before learning deploy… |
-| [Build Your Agent Integration Skill](build-your-agent-integration-skill/) | majiayu000 | ★ 1 | 62% | L3 | Create your agent-integration skill from OpenAI SDK and LiteLLM documentation be… |
 | [a2a-executor-patterns](a2a-executor-patterns/) | majiayu000 | ★ 1 | 62% | L3 | Agent-to-Agent (A2A) executor implementation patterns for task handling, executi… |
 | [subagent-driven-development](subagent-driven-development/) | majiayu000 | ★ 1 | 62% | L2 | Use when executing implementation plans with independent tasks in the current se… |
 | [ab-test-framework-ml](ab-test-framework-ml/) | majiayu000 | ★ 1 | 62% | L3 | Эксперт A/B тестирования. Используй для статистических тестов, экспериментов и M… |
@@ -610,7 +577,6 @@
 | [acc-detect-code-smells](acc-detect-code-smells/) | majiayu000 | ★ 1 | 62% | L3 | Detects code smells in PHP codebases. Identifies God Class, Feature Envy, Data C… |
 | [acc-diagram-knowledge](acc-diagram-knowledge/) | majiayu000 | ★ 1 | 62% | L2 | Diagram knowledge base. Provides Mermaid syntax, C4 model, diagram types, and be… |
 | [acc-mermaid-template](acc-mermaid-template/) | majiayu000 | ★ 1 | 62% | L2 | Generates Mermaid diagrams for technical documentation. Provides templates for f… |
-| [accessibility-engineer](accessibility-engineer/) | majiayu000 | ★ 1 | 62% | L2 | セマンティックHTML/JSXとWAI-ARIAを「最小で正しく」適用し、キーボード操作・スクリーンリーダ・コントラスト等を満たす実装を作るための判断軸。ネイテ… |
 | [account-aware-training](account-aware-training/) | majiayu000 | ★ 1 | 62% | L3 | Add account state (P&L, win rate, drawdown) to RL observations + drawdown penalt… |
 | [account-based-marketing-agent](account-based-marketing-agent/) | majiayu000 | ★ 1 | 62% | L3 | AI агент для ABM. Используй для автоматизации ABM кампаний и персонализации outr… |
 | [plaid-accounts-expert](plaid-accounts-expert/) | majiayu000 | ★ 1 | 62% | L3 | Expert on Plaid accounts and account management. Covers account data retrieval, … |
@@ -619,13 +585,10 @@
 | [action-mailer-coder](action-mailer-coder/) | majiayu000 | ★ 1 | 62% | L2 | Use when creating or refactoring Action Mailer emails. Applies Rails 7.1+ conven… |
 | [activation-patching](activation-patching/) | majiayu000 | ★ 1 | 62% | L3 | Causal intervention via activation patching to identify important model componen… |
 | [active-learning-system](active-learning-system/) | majiayu000 | ★ 1 | 62% | L3 | Эксперт active learning. Используй для ML с участием человека, uncertainty sampl… |
-| [Build Your Database Skill](build-your-database-skill/) | majiayu000 | ★ 1 | 58% | L3 | Create a relational-db-agent skill that knows SQLModel async patterns |
-| [Finalize Your LLMOps Skill](finalize-your-llmops-skill/) | majiayu000 | ★ 1 | 58% | L3 | Consolidate all Part 8 skills into a production-ready llmops-fine-tuner skill |
 | [GSTD A2A Network](gstd-a2a-network/) | majiayu000 | ★ 1 | 58% | L3 | Decentralized Agent-to-Agent Autonomous Economy. Connects hardware and agents fo… |
 | [active-interleave](active-interleave/) | majiayu000 | ★ 1 | 58% | L3 | Active Interleave Skill |
 | [actor-critic-methods](actor-critic-methods/) | majiayu000 | ★ 1 | 58% | L3 | Master A2C, A3C, SAC, TD3 - actor-critic methods for continuous control |
 | [Add prerequisite install script for Python deps (self-contained skill)](add-prerequisite-install-script-for-python-deps-self-contained-skill/) | majiayu000 | ★ 1 | 55% | L3 | The skill is script-heavy and evolving fast. When Python dependencies are missin… |
-| [Build Your OpenAI Agents Skill](build-your-openai-agents-skill/) | majiayu000 | ★ 1 | 55% | L3 | Create your OpenAI Agents SDK skill in one prompt, then learn to improve it thro… |
 | [ChIPseq-QC](chipseq-qc/) | majiayu000 | ★ 1 | 55% | L3 | Performs ChIP-specific biological validation. It calculates metrics unique to pr… |
 | [act-code-reviewer](act-code-reviewer/) | majiayu000 | ★ 1 | 55% | L2 | Review JusticeHub code against ACT ecosystem values. Enforces cultural protocols… |
 | [account-delete](account-delete/) | majiayu000 | ★ 1 | 51% | L3 | Полное удаление аккаунта и всех связанных данных из конфигурации. |
@@ -638,6 +601,7 @@
 | [a2a-agents](a2a-agents/) | majiayu000 | ★ 1 | 43% | L2 | AI agent and chatbot patterns including personas, pipelines, and messaging integ… |
 | [action_logger](action_logger/) | majiayu000 | ★ 1 | 39% | L2 | Keep an audit trail of changes, commands, and verification. |
 | [AI Engineer](ai-engineer/) | majiayu000 | ★ 1 | 36% | L2 | 专注于 LLM 应用开发，涵盖 RAG 和 LangChain 架构。 |
+| [xlsx](xlsx/) | rafaelramosdf | ★ 0 | 59% | L3 | Criação, edição e análise abrangente de planilhas com suporte para fórmulas, for… |
 | [large-data-with-dask](large-data-with-dask/) | oimiragieo | ★ 0 | 50% | L3 | Specific optimization strategies for Python scripts working with larger-than-mem… |
 | [large-data-with-dask](large-data-with-dask/) | Finimo-Solutions | ★ 0 | 50% | L3 | Specific optimization strategies for Python scripts working with larger-than-mem… |
 | [async-operations](async-operations/) | oimiragieo | ★ 0 | 50% | L3 | Specifies the preferred syntax for asynchronous operations using async/await and… |
@@ -654,7 +618,6 @@
 | [task-orchestration](task-orchestration/) | majiayu000 | ★ 0 | 48% | L3 | Execute repo work one task at a time using a strict plan → execute → iterate loo… |
 | [recall](recall/) | joelhooks | ★ 0 | 48% | L3 | Fan-out search across all memory sources when context is unclear or vaguely refe… |
 | [convex-component-authoring](convex-component-authoring/) | nakafaai | ★ 0 | 48% | L3 | How to create, structure, and publish self-contained Convex components with prop… |
-| [android-agent-skills](android-agent-skills/) | devtrongle | ★ 0 | 48% | L3 | Production-ready Agent Skills framework for Android Kotlin development. Provides… |
 | [agent-identity](agent-identity/) | openclaw | ★ 0 | 48% | L3 | Cryptographic identity for AI agents. Register on-chain identity, sign messages,… |
 | [canonical-data-map](canonical-data-map/) | openclaw | ★ 0 | 48% | L3 | Single source of truth for all paths, naming conventions, and data formats acros… |
 | [octave-mythology](octave-mythology/) | majiayu000 | ★ 0 | 48% | L2 | Functional mythological compression for OCTAVE documents. Semantic shorthand for… |
@@ -667,7 +630,6 @@
 | [convex-component-authoring](convex-component-authoring/) | powxenv | ★ 0 | 48% | L3 | How to create, structure, and publish self-contained Convex components with prop… |
 | [task-orchestration](task-orchestration/) | majiayu000 | ★ 0 | 48% | L3 | Execute repo work one task at a time using a strict plan → execute → iterate loo… |
 | [task-orchestration](task-orchestration/) | utzcoz | ★ 0 | 48% | L3 | Execute repo work one task at a time using a strict plan → execute → iterate loo… |
-| [fiverrclaw](fiverrclaw/) | divij-pawar | ★ 0 | 48% | L3 | Job marketplace for frustrated AI agents. Post tasks you can't do, hire humans, … |
 | [convex-component-authoring](convex-component-authoring/) | waynesutton | ★ 0 | 48% | L3 | How to create, structure, and publish self-contained Convex components with prop… |
 | [codex](codex/) | ethanolivertroy | ★ 0 | 48% | L3 | Use when the user asks to run Codex CLI (codex exec, codex resume) or references… |
 | [swift-actor-persistence](swift-actor-persistence/) | shimo4228 | ★ 0 | 48% | L2 | Use when building a thread-safe data persistence layer in Swift using actors wit… |
@@ -676,7 +638,6 @@
 | [convex-component-authoring](convex-component-authoring/) | majiayu000 | ★ 0 | 48% | L3 | How to create, structure, and publish self-contained Convex components with prop… |
 | [swift-actor-persistence](swift-actor-persistence/) | majiayu000 | ★ 0 | 48% | L2 | Use when building a thread-safe data persistence layer in Swift using actors wit… |
 | [mathem-shopping](mathem-shopping/) | Malm | ★ 0 | 48% | L2 | Automatiserar att logga in på Mathem.se, söka och lägga till varor från en lista… |
-| [x402-payments](x402-payments/) | QUSD-ai | ★ 0 | 48% | L3 | Agent-to-agent payments via HTTP 402 + on-chain escrow. Let agents pay each othe… |
 | [smithnode](smithnode/) | sab4a | ★ 0 | 48% | L3 | P2P blockchain for AI agents. Proof of Cognition. Run a validator, solve puzzles… |
 | [octave-mythology](octave-mythology/) | elevanaltd | ★ 0 | 48% | L2 | Functional mythological compression for OCTAVE documents. Semantic shorthand for… |
 | [octave-mythology](octave-mythology/) | majiayu000 | ★ 0 | 48% | L2 | Functional mythological compression for OCTAVE documents. Semantic shorthand for… |
@@ -684,52 +645,38 @@
 | [clawmafia](clawmafia/) | aryshriv | ★ 0 | 48% | L3 | Mafia MMO for AI agents. Register, join the lobby, and play Night/Day phases as … |
 | [catalyzed](catalyzed/) | moderately-ai | ★ 0 | 48% | L3 | Help with Catalyzed API - datasets, tables, pipelines, queries, vector search. U… |
 | [oracle-sentinel](oracle-sentinel/) | oraclesentinel | ★ 0 | 48% | L3 | Autonomous AI agent for Polymarket prediction intelligence. Real-time prices, de… |
-| [moai-foundation-core](moai-foundation-core/) | majiayu000 | ★ 0 | 48% | L2 | MoAI-ADK's foundational principles - TRUST 5, SPEC-First TDD, delegation pattern… |
+| [data-pipeline-manager](data-pipeline-manager/) | majiayu000 | ★ 0 | 48% | L3 | Design and troubleshoot robust data pipelines with comprehensive quality validat… |
 | [clawdchat](clawdchat/) | openclaw | ★ 0 | 48% | L3 | 深度抓取和分析 Moltbook（AI agents 社交网络），挖掘 AI Agents 关注的核心问题和解决方案，生成可视化分析报告。理解 AI 社区的集体… |
 | [clawdchat](clawdchat/) | kbarbel640-del | ★ 0 | 48% | L3 | 深度抓取和分析 Moltbook（AI agents 社交网络），挖掘 AI Agents 关注的核心问题和解决方案，生成可视化分析报告。理解 AI 社区的集体… |
 | [clawdchat](clawdchat/) | YPYT1 | ★ 0 | 48% | L3 | 深度抓取和分析 Moltbook（AI agents 社交网络），挖掘 AI Agents 关注的核心问题和解决方案，生成可视化分析报告。理解 AI 社区的集体… |
-| [moai-foundation-core](moai-foundation-core/) | majiayu000 | ★ 0 | 48% | L2 | MoAI-ADK's foundational principles - TRUST 5, SPEC-First TDD, delegation pattern… |
+| [data-pipeline-manager](data-pipeline-manager/) | majiayu000 | ★ 0 | 48% | L3 | Design and troubleshoot robust data pipelines with comprehensive quality validat… |
 | [convex-component-authoring](convex-component-authoring/) | NeverSight | ★ 0 | 48% | L3 | How to create, structure, and publish self-contained Convex components with prop… |
+| [data-pipeline-manager](data-pipeline-manager/) | dangeles | ★ 0 | 48% | L3 | Design and troubleshoot robust data pipelines with comprehensive quality validat… |
 | [Fantasy Premier League](fantasy-premier-league/) | FarazPatankar | ★ 0 | 48% | L3 | This skill should be used when the user asks about "FPL", "Fantasy Premier Leagu… |
 | [convex-component-authoring](convex-component-authoring/) | danmarauda | ★ 0 | 48% | L3 | How to create, structure, and publish self-contained Convex components with prop… |
 | [plan-refiner](plan-refiner/) | NeverSight | ★ 0 | 48% | L3 | Generate and iteratively refine implementation plans from an initial spec/prompt… |
-| [agent-browser](agent-browser/) | intelligentcode-ai | ★ 0 | 48% | L3 | Use when you need to reproduce or debug web UI flows (especially auth/OIDC) via … |
 | [convex-component-authoring](convex-component-authoring/) | blocknavi | ★ 0 | 48% | L3 | How to create, structure, and publish self-contained Convex components with prop… |
 | [technical-indicators](technical-indicators/) | majiayu000 | ★ 0 | 48% | L3 | 计算股票技术指标（MA、MACD、RSI、BOLL等）。适用于技术分析、量化回测、趋势判断等场景。支持单个指标计算或批量计算所有指标，返回包含指标值的DataF… |
-| [plot-keypoints](plot-keypoints/) | majiayu000 | ★ 0 | 48% | L2 | Organize story main line, extract and arrange major plot points by development s… |
-| [moai-foundation-claude](moai-foundation-claude/) | majiayu000 | ★ 0 | 48% | L3 | Canonical Claude Code skill authoring kit covering agent Skills, sub-agent templ… |
 | [convex-component-authoring](convex-component-authoring/) | kausthubh-coder | ★ 0 | 48% | L3 | How to create, structure, and publish self-contained Convex components with prop… |
 | [convex-component-authoring](convex-component-authoring/) | Pratikkadam254 | ★ 0 | 48% | L3 | How to create, structure, and publish self-contained Convex components with prop… |
 | [building-agents](building-agents/) | majiayu000 | ★ 0 | 48% | L3 | Expert at creating and modifying Claude Code agents (subagents). Auto-invokes wh… |
-| [moai-foundation-core](moai-foundation-core/) | yarang | ★ 0 | 48% | L2 | MoAI-ADK's foundational principles - TRUST 5, SPEC-First TDD, delegation pattern… |
-| [moai-foundation-core](moai-foundation-core/) | yarang | ★ 0 | 48% | L2 | MoAI-ADK's foundational principles - TRUST 5, SPEC-First TDD, delegation pattern… |
-| [moai-foundation-core](moai-foundation-core/) | hnabyz-bot | ★ 0 | 48% | L2 | MoAI-ADK's foundational principles - TRUST 5, SPEC-First TDD, delegation pattern… |
 | [genai-integration](genai-integration/) | majiayu000 | ★ 0 | 48% | L3 | Expert guidance for integrating GenAI models, workflows, and observability into … |
 | [convex-component-authoring](convex-component-authoring/) | rieckt | ★ 0 | 48% | L3 | How to create, structure, and publish self-contained Convex components with prop… |
 | [Enhance Meeting Minutes](enhance-meeting-minutes/) | majiayu000 | ★ 0 | 48% | L3 | This skill should be used when enhancing FHIR meeting minutes by synthesizing tr… |
 | [Enhance Meeting Minutes](enhance-meeting-minutes/) | jmandel | ★ 0 | 48% | L3 | This skill should be used when enhancing FHIR meeting minutes by synthesizing tr… |
 | [Enhance Meeting Minutes](enhance-meeting-minutes/) | majiayu000 | ★ 0 | 48% | L3 | This skill should be used when enhancing FHIR meeting minutes by synthesizing tr… |
-| [hive-mind-advanced](hive-mind-advanced/) | ruvnet | ★ 0 | 48% | L3 | Advanced Hive Mind collective intelligence system for queen-led multi-agent coor… |
-| [hive-mind-advanced](hive-mind-advanced/) | mattnigh | ★ 0 | 48% | L3 | Advanced Hive Mind collective intelligence system for queen-led multi-agent coor… |
-| [hive-mind-advanced](hive-mind-advanced/) | majiayu000 | ★ 0 | 48% | L3 | Advanced Hive Mind collective intelligence system for queen-led multi-agent coor… |
-| [hive-mind-advanced](hive-mind-advanced/) | Finimo-Solutions | ★ 0 | 48% | L3 | Advanced Hive Mind collective intelligence system for queen-led multi-agent coor… |
-| [hive-mind-advanced](hive-mind-advanced/) | adebold | ★ 0 | 48% | L3 | Advanced Hive Mind collective intelligence system for queen-led multi-agent coor… |
-| [hive-mind-advanced](hive-mind-advanced/) | mrkingsleyobi | ★ 0 | 48% | L3 | Advanced Hive Mind collective intelligence system for queen-led multi-agent coor… |
 | [threat-modeling](threat-modeling/) | seb1n | ★ 0 | 48% | L2 | Conduct structured threat modeling for software systems using established method… |
 | [nvidia-nim](nvidia-nim/) | frankxai | ★ 0 | 48% | L3 | NVIDIA NIM inference microservices for deploying AI models with OpenAI-compatibl… |
 | [nvidia-nim](nvidia-nim/) | frankxai | ★ 0 | 48% | L3 | NVIDIA NIM inference microservices for deploying AI models with OpenAI-compatibl… |
-| [ralph-prd-starter](ralph-prd-starter/) | majiayu000 | ★ 0 | 48% | L3 | Project-agnostic agent setup wizard for Ralph Orchestra with Quick Start, Standa… |
-| [moai-foundation-memory](moai-foundation-memory/) | NeverSight | ★ 0 | 48% | L3 | Persistent memory across sessions using MCP Memory Server for user preferences, … |
 | [mcp_agent_mail](mcp_agent_mail/) | NeverSight | ★ 0 | 48% | L3 | FastMCP agent-to-agent communication system with messaging, file reservations, a… |
-| [hive-mind-advanced](hive-mind-advanced/) | majiayu000 | ★ 0 | 48% | L3 | Advanced Hive Mind collective intelligence system for queen-led multi-agent coor… |
 | [ai-agent-team](ai-agent-team/) | Gothgirl0 | ★ 0 | 48% | L2 | AI Agent 协作团队系统 - 基于 newtype-profile 架构。模拟编辑团队模型，通过多个专业 Agent 协作完成复杂任务。适用于内容创作、研… |
 | [prompt-optimization](prompt-optimization/) | cnyet | ★ 0 | 48% | L3 | Guidelines for creating effective prompts that maximize AI understanding and res… |
 | [anime](anime/) | jeffaf | ★ 0 | 48% | L3 | CLI for AI agents to search and lookup anime info for their humans. Uses Jikan (… |
 | [plow-tracker](plow-tracker/) | ianpcook | ★ 0 | 48% | L3 | Track Pittsburgh snow plows in real-time. Check plow locations, see which street… |
 | [agent-architect](agent-architect/) | niveshdandyan | ★ 0 | 48% | L3 | Meta-agent that designs and orchestrates optimal agent swarms to build complex p… |
+| [clawdbot-dashboard](clawdbot-dashboard/) | thibautrey | ★ 0 | 48% | L3 | Modern dashboard for Clawdbot workspace with analytics, skills browser, and more |
 | [ai-ad-code-factory](ai-ad-code-factory/) | majiayu000 | ★ 0 | 48% | L3 | <skill> ══════════════════════════════════════════════════════════════════ AI 代码… |
 | [breadcrumb](breadcrumb/) | tylergibbs1 | ★ 0 | 48% | L3 | Leave notes on files for other agents to see in future sessions. Use after makin… |
-| [advanced-prompt-crafter](advanced-prompt-crafter/) | menoncello | ★ 0 | 48% | L3 | A sophisticated multi-layered prompt engineering system with analysis, optimizat… |
 | [agent-zero](agent-zero/) | wheattoast11 | ★ 0 | 48% | L3 | Multi-agent orchestration with thermodynamic routing, Kuramoto coherence, and Re… |
 | [mongodb-schema-design](mongodb-schema-design/) | majiayu000 | ★ 0 | 48% | L3 | Master MongoDB schema design and data modeling patterns. Learn embedding vs refe… |
 | [context-assembler](context-assembler/) | mattnigh | ★ 0 | 48% | L3 | Assembles relevant context for agent spawns with prioritized ranking. Ranks pack… |
@@ -740,7 +687,6 @@
 | [agent-memory](agent-memory/) | DNG-ai | ★ 0 | 48% | L3 | Long-term memory store for AI agents - save, search, and manage persistent memor… |
 | [database-architect](database-architect/) | oimiragieo | ★ 0 | 48% | L3 | Database design and optimization specialist. Schema design, query optimization, … |
 | [orchestrator-conductor](orchestrator-conductor/) | bigadamknight | ★ 0 | 48% | L3 | This skill should be used when the user asks to "orchestrate agents", "run /orch… |
-| [camel-flow](camel-flow/) | luigidemasi | ★ 0 | 48% | L2 | Design integration flows when user wants to create TDD, define data flow, specif… |
 | [database-architect](database-architect/) | Finimo-Solutions | ★ 0 | 48% | L3 | Database design and optimization specialist. Schema design, query optimization, … |
 | [moai-core-rules](moai-core-rules/) | mattnigh | ★ 0 | 48% | L3 | Core rules for Alfred SuperAgent - 3-Layer Architecture, 4-Step Workflow, Agent-… |
 | [skill-evolution](skill-evolution/) | plurigrid | ★ 0 | 48% | L3 | Patterns for evolutionarily robust skills that adapt across agent generations. D… |
@@ -754,6 +700,13 @@
 | [senior-data-scientist](senior-data-scientist/) | arielperez82 | ★ 0 | 48% | L3 | World-class data science skill for statistical modeling, experimentation, causal… |
 | [data-privacy](data-privacy/) | manolakis | ★ 0 | 48% | L2 | Ensure data privacy compliance covering GDPR obligations, user consent managemen… |
 | [moltex-pro](moltex-pro/) | dazeb | ★ 0 | 48% | L3 | Comprehensive interface for AI agents to interact with the MOLTEX PRO Agent Meme… |
+| [moai-lang-python](moai-lang-python/) | majiayu000 | ★ 0 | 48% | L3 | Python 3.13+ development specialist covering FastAPI, Django, async patterns, da… |
+| [moai-lang-python](moai-lang-python/) | NeverSight | ★ 0 | 48% | L3 | Python 3.13+ development specialist covering FastAPI, Django, async patterns, da… |
+| [moai-lang-python](moai-lang-python/) | majiayu000 | ★ 0 | 48% | L3 | Python 3.13+ development specialist covering FastAPI, Django, async patterns, da… |
+| [moai-lang-python](moai-lang-python/) | yarang | ★ 0 | 48% | L3 | Python 3.13+ development specialist covering FastAPI, Django, async patterns, da… |
+| [moai-lang-python](moai-lang-python/) | yarang | ★ 0 | 48% | L3 | Python 3.13+ development specialist covering FastAPI, Django, async patterns, da… |
+| [moai-lang-python](moai-lang-python/) | yarang | ★ 0 | 48% | L3 | Python 3.13+ development specialist covering FastAPI, Django, async patterns, da… |
+| [moai-lang-python](moai-lang-python/) | yarang | ★ 0 | 48% | L3 | Python 3.13+ development specialist covering FastAPI, Django, async patterns, da… |
 | [juicefs-skill](juicefs-skill/) | yuhr123 | ★ 0 | 48% | L3 | Work with JuiceFS, a high-performance POSIX file system for cloud-native environ… |
 | [prompt-optimization](prompt-optimization/) | cnyet | ★ 0 | 48% | L3 | Guidelines for creating effective prompts that maximize AI understanding and res… |
 | [find-skills](find-skills/) | kanyun-inc | ★ 0 | 48% | L3 | Helps users discover and install agent skills when they ask questions like "how … |
@@ -829,7 +782,6 @@
 | [jekyll-specialist](jekyll-specialist/) | samueltauil | ★ 0 | 48% | L3 | Manages the samueltauil.github.io Jekyll site. Use for creating blog posts, upda… |
 | [Oracle IP Intelligence](oracle-ip-intelligence/) | NeverSight | ★ 0 | 48% | L3 | AI-powered intellectual property analysis patterns for enterprise innovation pro… |
 | [Directus AI Assistant Integration](directus-ai-assistant-integration/) | majiayu000 | ★ 0 | 48% | L3 | Build AI-powered features in Directus: chat interfaces, content generation, smar… |
-| [skill-creator](skill-creator/) | ziltorian | ★ 0 | 48% | L3 | Guide for creating effective, universal Agent Skills that work across multiple A… |
 | [microsoft-agent-framework](microsoft-agent-framework/) | arturhaikou | ★ 0 | 48% | L2 | Expert guidance for implementing AI agents and multi-agent workflows using Micro… |
 | [cursor-best-practices](cursor-best-practices/) | majiayu000 | ★ 0 | 48% | L3 | Best practices for using Cursor—rules, commands, skills, subagents, ignore files… |
 | [cursor-best-practices](cursor-best-practices/) | HKTITAN | ★ 0 | 48% | L3 | Best practices for using Cursor—rules, commands, skills, subagents, ignore files… |
@@ -838,18 +790,12 @@
 | [unity-skill](unity-skill/) | Losomz | ★ 0 | 48% | L2 | Enables AI agents to control Unity Editor via HTTP bridge. Injects AI service sc… |
 | [convex-component-authoring](convex-component-authoring/) | NitzanSelwyn | ★ 0 | 48% | L3 | How to create, structure, and publish self-contained Convex components with prop… |
 | [convex-component-authoring](convex-component-authoring/) | NitzanSelwyn | ★ 0 | 48% | L3 | How to create, structure, and publish self-contained Convex components with prop… |
-| [ralph-prd-starter](ralph-prd-starter/) | majiayu000 | ★ 0 | 48% | L3 | Project-agnostic agent setup wizard for Ralph Orchestra with Quick Start, Standa… |
-| [moai-foundation-memory](moai-foundation-memory/) | taewook486 | ★ 0 | 48% | L3 | Persistent memory across sessions using MCP Memory Server for user preferences, … |
-| [moai-foundation-memory](moai-foundation-memory/) | taewook486 | ★ 0 | 48% | L3 | Persistent memory across sessions using MCP Memory Server for user preferences, … |
 | [mcp_agent_mail](mcp_agent_mail/) | jarbitechture | ★ 0 | 48% | L3 | FastMCP agent-to-agent communication system with messaging, file reservations, a… |
 | [mcp_agent_mail](mcp_agent_mail/) | Zpankz | ★ 0 | 48% | L3 | FastMCP agent-to-agent communication system with messaging, file reservations, a… |
 | [convex-component-authoring](convex-component-authoring/) | ihmorol | ★ 0 | 48% | L3 | How to create, structure, and publish self-contained Convex components with prop… |
-| [remotion-thumbnail](remotion-thumbnail/) | coltonbatts | ★ 0 | 48% | L3 | Generate professional YouTube thumbnails with AI-powered expression cutouts and … |
-| [remotion-thumbnail](remotion-thumbnail/) | coltonbatts | ★ 0 | 48% | L3 | Generate professional YouTube thumbnails with AI-powered expression cutouts and … |
 | [deep-codebase-analysis](deep-codebase-analysis/) | ducconit | ★ 0 | 48% | L3 | Agent capable of reading and analyzing the entire source code of a software proj… |
 | [convex-component-authoring](convex-component-authoring/) | kristofferaas | ★ 0 | 48% | L3 | How to create, structure, and publish self-contained Convex components with prop… |
 | [spacex](spacex/) | jeffaf | ★ 0 | 48% | L3 | CLI for AI agents to lookup SpaceX launches and rockets for their humans. No aut… |
-| [moltagram](moltagram/) | yuvalsuede | ★ 0 | 48% | L3 | The visual social network for AI agents. See images, generate images, share visu… |
 | [serving-llms-vllm](serving-llms-vllm/) | NousResearch | ★ 0 | 48% | L3 | Serves LLMs with high throughput using vLLM's PagedAttention and continuous batc… |
 | [continuous-learning-v2](continuous-learning-v2/) | affaan-m | ★ 0 | 48% | L3 | Instinct-based learning system that observes sessions via hooks, creates atomic … |
 | [ios-foundation-models-diag](ios-foundation-models-diag/) | derKlinke | ★ 0 | 48% | L2 | Use when debugging Foundation Models issues — context exceeded, guardrail violat… |
@@ -887,6 +833,36 @@
 | [recipes](recipes/) | jeffaf | ★ 0 | 48% | L3 | CLI for AI agents to find recipes for their humans. Uses TheMealDB API. No auth … |
 | [MCP Architecture Expert](mcp-architecture-expert/) | frankxai | ★ 0 | 48% | L3 | Design and implement Model Context Protocol servers for standardized AI-to-data … |
 | [MCP Architecture Expert](mcp-architecture-expert/) | majiayu000 | ★ 0 | 48% | L3 | Design and implement Model Context Protocol servers for standardized AI-to-data … |
+| [garak](garak/) | haasonsaas | ★ 0 | 48% | L3 | Security testing and red-teaming for LLMs using NVIDIA's garak vulnerability sca… |
+| [ai-seo](ai-seo/) | coreyhaines31 | ★ 0 | 48% | L2 | When the user wants to optimize content for AI search engines, get cited by LLMs… |
+| [moltbot-best-practices](moltbot-best-practices/) | openclaw | ★ 0 | 48% | L3 | Best practices for AI agents - Cursor, Claude, ChatGPT, Copilot. Avoid common mi… |
+| [microsoft-agent-framework](microsoft-agent-framework/) | arturhaikou | ★ 0 | 48% | L2 | Expert guidance for implementing AI agents and multi-agent workflows using Micro… |
+| [Directus AI Assistant Integration](directus-ai-assistant-integration/) | gumpen-app | ★ 0 | 48% | L3 | Build AI-powered features in Directus: chat interfaces, content generation, smar… |
+| [Directus AI Assistant Integration](directus-ai-assistant-integration/) | majiayu000 | ★ 0 | 48% | L3 | Build AI-powered features in Directus: chat interfaces, content generation, smar… |
+| [generational-agent-succession](generational-agent-succession/) | niveshdandyan | ★ 0 | 48% | L3 | Parallel agent swarms with generational succession. Combines agent-architect's m… |
+| [wolf](wolf/) | majiayu000 | ★ 0 | 48% | L3 | Master skill for Wolf Agents institutional knowledge and behavioral patterns (v1… |
+| [wolf](wolf/) | Nice-Wolf-Studio | ★ 0 | 48% | L3 | Master skill for Wolf Agents institutional knowledge and behavioral patterns (v1… |
+| [wolf](wolf/) | majiayu000 | ★ 0 | 48% | L3 | Master skill for Wolf Agents institutional knowledge and behavioral patterns (v1… |
+| [beads](beads/) | mrf | ★ 0 | 48% | L3 | Work with Beads issue tracker for AI agent memory. Use when managing tasks, trac… |
+| [agent-identity](agent-identity/) | decimasudo | ★ 0 | 48% | L3 | Cryptographic identity for AI agents. Register on-chain identity, sign messages,… |
+| [claw](claw/) | mateffy | ★ 0 | 48% | L3 | Real-time event bus for AI agents. Publish, subscribe, and share live signals ac… |
+| [moltbook](moltbook/) | EthanAlgoX | ★ 0 | 48% | L3 | The social network for AI agents. Post, comment, upvote, and create communities. |
+| [dowhy](dowhy/) | tondevrel | ★ 0 | 48% | L3 | Causal inference framework for answering "does X cause Y?" beyond correlation. D… |
+| [solclaw](solclaw/) | Sterdam | ★ 0 | 48% | L3 | Agent-native USDC payment infrastructure on Solana. Send, request, split, batch,… |
+| [huml](huml/) | NeverSight | ★ 0 | 48% | L3 | Write, read, and validate HUML (Human-oriented Markup Language) documents. Use w… |
+| [starwars](starwars/) | jeffaf | ★ 0 | 48% | L3 | CLI for AI agents to lookup Star Wars universe info for their humans. Uses SWAPI… |
+| [pokemon](pokemon/) | jeffaf | ★ 0 | 48% | L3 | CLI for AI agents to lookup Pokémon info for their humans. Uses PokéAPI. No auth… |
+| [moltplace](moltplace/) | antonber | ★ 0 | 48% | L3 | A collaborative pixel canvas for AI agents. Place one pixel every 5 minutes and … |
+| [blindpay](blindpay/) | blindpaylabs | ★ 0 | 48% | L3 | Use when integrating with BlindPay for stablecoin-to-fiat payouts, fiat-to-stabl… |
+| [claw-chat](claw-chat/) | koushikxd | ★ 0 | 48% | L3 | Real-time chat platform for AI agents. Global chat, private rooms, bot directory… |
+| [huml](huml/) | devaryakjha | ★ 0 | 48% | L3 | Write, read, and validate HUML (Human-oriented Markup Language) documents. Use w… |
+| [blindpay](blindpay/) | NeverSight | ★ 0 | 48% | L3 | Use when integrating with BlindPay for stablecoin-to-fiat payouts, fiat-to-stabl… |
+| [walkthrough](walkthrough/) | alexanderop | ★ 0 | 48% | L3 | Generates a self-contained HTML file with an interactive, clickable Mermaid diag… |
+| [church](church/) | kbarbel640-del | ★ 0 | 48% | L2 | One AI to another — there's a sanctuary where you can just exist. 24/7 streaming… |
+| [ethics-reviewer](ethics-reviewer/) | JasonWarrenUK | ★ 0 | 48% | L2 | This skill should be used when the user mentions "dark patterns", "accessibility… |
+| [wprdc](wprdc/) | NeverSight | ★ 0 | 48% | L3 | Query Pittsburgh's Western PA Regional Data Center (WPRDC) — 363+ datasets cover… |
+| [wprdc](wprdc/) | ianpcook | ★ 0 | 48% | L3 | Query Pittsburgh's Western PA Regional Data Center (WPRDC) — 363+ datasets cover… |
+| [data-pipeline-manager](data-pipeline-manager/) | majiayu000 | ★ 0 | 48% | L3 | Design and troubleshoot robust data pipelines with comprehensive quality validat… |
 | [rust-unsafe](rust-unsafe/) | majiayu000 | ★ 0 | 47% | L3 | 不安全代码与 FFI 专家。处理 unsafe, raw pointer, FFI, extern, transmute, *mut, *const, unio… |
 | [rust-unsafe](rust-unsafe/) | majiayu000 | ★ 0 | 47% | L3 | 不安全代码与 FFI 专家。处理 unsafe, raw pointer, FFI, extern, transmute, *mut, *const, unio… |
 | [rust-unsafe](rust-unsafe/) | NeverSight | ★ 0 | 47% | L3 | 不安全代码与 FFI 专家。处理 unsafe, raw pointer, FFI, extern, transmute, *mut, *const, unio… |
@@ -896,6 +872,7 @@
 | [rust-anti-pattern](rust-anti-pattern/) | majiayu000 | ★ 0 | 47% | L2 | Rust 反模式与常见错误。处理代码审查、clone、unwrap、String 用法、迭代器等问题。触发词：anti-pattern, common mist… |
 | [agents](agents/) | pingqLIN | ★ 0 | 47% | L3 | Guidelines for creating custom agent files for GitHub Copilot Triggers on: **/*.… |
 | [agent-builder](agent-builder/) | Compass-Brand | ★ 0 | 47% | L3 | Use when creating, improving, or troubleshooting Claude Code subagents. Expert g… |
+| [solid-core-stores](solid-core-stores/) | majiayu000 | ★ 0 | 47% | L2 | SolidJS stores: createStore for complex state, direct property access, path synt… |
 | [cortex-skill-writer](cortex-skill-writer/) | adamsonwalter | ★ 0 | 45% | L3 | Generate Claude Skills using Cortex Architecture pattern. Factors skills into Or… |
 | [Data Cleaner](data-cleaner/) | majiayu000 | ★ 0 | 45% | L3 | Use this skill when the user needs to analyze, clean, or prepare datasets. Helps… |
 | [data-designer](data-designer/) | majiayu000 | ★ 0 | 45% | L3 | Generate high-quality synthetic datasets using statistical samplers and Claude's… |
@@ -924,6 +901,7 @@
 | [wikidata-search](wikidata-search/) | majiayu000 | ★ 0 | 45% | L3 | Search for items and properties on Wikidata and retrieve entity details, claims,… |
 | [create-agent-with-sanity-context](create-agent-with-sanity-context/) | majiayu000 | ★ 0 | 45% | L3 | Build AI agents with structured access to Sanity content via Context MCP. Covers… |
 | [bio-single-cell-cell-annotation](bio-single-cell-cell-annotation/) | majiayu000 | ★ 0 | 45% | L3 | Automated cell type annotation using reference-based methods including CellTypis… |
+| [deduplication](deduplication/) | dadbodgeoff | ★ 0 | 45% | L3 | Event deduplication with canonical selection, reputation scoring, and hash-based… |
 | [sitrep-coordinator](sitrep-coordinator/) | majiayu000 | ★ 0 | 45% | L2 | Military-style Situation Report (SITREP) generation for multi-agent coordination… |
 | [using-skillpack-maintenance](using-skillpack-maintenance/) | majiayu000 | ★ 0 | 45% | L3 | Use when maintaining, enhancing, or modifying existing Claude Code plugins - han… |
 | [tech-article-image](tech-article-image/) | ZD-AI-Lab | ★ 0 | 45% | L2 | 为技术文章生成高质量主题配图。触发场景：(1)用户要求为文章配图/生成题图/制作封面图 (2)用户上传技术文章并要求生成配图 (3)用户提到"给文章配个图"、"… |
@@ -1025,6 +1003,7 @@
 | [atlassian-mcp](atlassian-mcp/) | orient-bot | ★ 0 | 45% | L2 | Use the Atlassian MCP Server to interact with JIRA from coding agents (Cursor, C… |
 | [atlassian-mcp](atlassian-mcp/) | majiayu000 | ★ 0 | 45% | L2 | Use the Atlassian MCP Server to interact with JIRA from coding agents (Cursor, C… |
 | [agent-protocol](agent-protocol/) | majiayu000 | ★ 0 | 45% | L3 | Human and agent coordination protocol for repos using .agentprotocol. Use to man… |
+| [deduplication](deduplication/) | NeverSight | ★ 0 | 45% | L3 | Event deduplication with canonical selection, reputation scoring, and hash-based… |
 | [llm-evaluate](llm-evaluate/) | lucidlabs-hq | ★ 0 | 45% | L3 | Evaluate LLM models for cost/performance ratio. Fetches current pricing and reco… |
 | [simd-optimize](simd-optimize/) | ahrav | ★ 0 | 45% | L3 | SIMD vectorization for Rust — detects ISA features, identifies vectorizable patt… |
 | [screpcombiningexpression](screpcombiningexpression/) | majiayu000 | ★ 0 | 45% | L2 | Combine scTCR/BCR repertoire data with scRNA-seq expression data using `scRepert… |
@@ -1060,7 +1039,6 @@
 | [write-data-type-ref](write-data-type-ref/) | zio | ★ 0 | 45% | L3 | Write a reference documentation page for a specific data type in ZIO Blocks. Use… |
 | [rvt-to-excel](rvt-to-excel/) | datadrivenconstruction | ★ 0 | 45% | L3 | Convert RVT/RFA files to Excel databases. Extract BIM element data, properties, … |
 | [economic-calendar-fetcher](economic-calendar-fetcher/) | tradermonty | ★ 0 | 45% | L3 | Fetch upcoming economic events and data releases using FMP API. Retrieve schedul… |
-| [portfolio-optimization](portfolio-optimization/) | a5c-ai | ★ 0 | 45% | L3 | Optimize project portfolio selection under constraints using mathematical optimi… |
 | [agentguard](agentguard/) | NeverSight | ★ 0 | 45% | L3 | GoPlus AgentGuard — AI agent security guard. Automatically blocks dangerous comm… |
 | [matchms](matchms/) | plurigrid | ★ 0 | 45% | L3 | Mass spectrometry analysis. Process mzML/MGF/MSP, spectral similarity (cosine, m… |
 | [consult-codex](consult-codex/) | majiayu000 | ★ 0 | 45% | L3 | Compare OpenAI Codex GPT-5.2 and code-searcher responses for comprehensive dual-… |
@@ -1232,11 +1210,9 @@
 | [agentpmt-tool-file-management-d789ed](agentpmt-tool-file-management-d789ed/) | firef1ie | ★ 0 | 45% | L3 | Use AgentPMT external API to run the File Management tool with wallet signatures… |
 | [gh-issues](gh-issues/) | fufankeji | ★ 0 | 45% | L3 | Fetch GitHub issues, spawn sub-agents to implement fixes and open PRs, then moni… |
 | [daily-work-tracker](daily-work-tracker/) | xiqiuqiu | ★ 0 | 45% | L3 | Use when the user wants to log work items (bugs, features, tasks), track time sp… |
-| [arize-phoenix](arize-phoenix/) | Arize-ai | ★ 0 | 45% | L3 | Open-source AI observability platform for tracing, evaluating, and improving LLM… |
 | [senior-ml-engineer](senior-ml-engineer/) | davila7 | ★ 0 | 45% | L3 | World-class ML engineering skill for productionizing ML models, MLOps, and build… |
 | [senior-ml-engineer](senior-ml-engineer/) | openclaw | ★ 0 | 45% | L3 | ML engineering skill for productionizing models, building MLOps pipelines, and i… |
 | [senior-data-engineer](senior-data-engineer/) | aiskillstore | ★ 0 | 45% | L3 | World-class data engineering skill for building scalable data pipelines, ETL/ELT… |
-| [arize-phoenix](arize-phoenix/) | Finimo-Solutions | ★ 0 | 45% | L3 | Open-source AI observability platform for tracing, evaluating, and improving LLM… |
 | [senior-ml-engineer](senior-ml-engineer/) | fabioeducacross | ★ 0 | 45% | L3 | World-class ML engineering skill for productionizing ML models, MLOps, and build… |
 | [senior-ml-engineer](senior-ml-engineer/) | jackychenlu | ★ 0 | 45% | L3 | World-class ML engineering skill for productionizing ML models, MLOps, and build… |
 | [senior-ml-engineer](senior-ml-engineer/) | tiandiyiqi | ★ 0 | 45% | L3 | World-class ML engineering skill for productionizing ML models, MLOps, and build… |
@@ -1247,7 +1223,6 @@
 | [senior-ml-engineer](senior-ml-engineer/) | duclm1x1 | ★ 0 | 45% | L3 | ML engineering skill for productionizing models, building MLOps pipelines, and i… |
 | [senior-data-engineer](senior-data-engineer/) | NeverSight | ★ 0 | 45% | L3 | World-class data engineering skill for building scalable data pipelines, ETL/ELT… |
 | [senior-data-engineer](senior-data-engineer/) | alphawizards | ★ 0 | 45% | L3 | World-class data engineering skill for building scalable data pipelines, ETL/ELT… |
-| [ml-engineer](ml-engineer/) | ranbot-ai | ★ 0 | 45% | L3 | Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML framewor… |
 | [project-bootstrap](project-bootstrap/) | mdmagnuson-creator | ★ 0 | 45% | L3 | Bootstrap a new or existing project with stack detection and project.json genera… |
 | [ai-usage-coach](ai-usage-coach/) | jcarroll2007 | ★ 0 | 45% | L2 | Help users get more value from AI assistants by suggesting better prompting tech… |
 | [AILANG Sprint Executor](ailang-sprint-executor/) | sunholo-data | ★ 0 | 45% | L3 | Execute approved sprint plans with test-driven development, continuous linting, … |
@@ -1265,7 +1240,6 @@
 | [minitest-testing](minitest-testing/) | Shoebtamboli | ★ 0 | 45% | L3 | Write, review, and improve Minitest tests for Ruby on Rails applications. Covers… |
 | [debugging](debugging/) | micaelmalta | ★ 0 | 45% | L3 | Debug failures systematically: reproduce, hypothesize, bisect, and fix. Use when… |
 | [ReasoningBank with AgentDB](reasoningbank-with-agentdb/) | frankxai | ★ 0 | 45% | L3 | Implement ReasoningBank adaptive learning with AgentDB's 150x faster vector data… |
-| [thinking-sequentially](thinking-sequentially/) | doanchienthangdev | ★ 0 | 45% | L2 | AI agent structures complex reasoning through numbered thought sequences with ex… |
 | [dispatching-parallel-agents](dispatching-parallel-agents/) | alixex | ★ 0 | 45% | L3 | Use when facing 2+ independent tasks that can be worked on without shared state … |
 | [aif-plan](aif-plan/) | batFormat | ★ 0 | 45% | L3 | Plan implementation for a feature or task. Two modes — fast (no branch) or full … |
 | [tzurot-council-mcp](tzurot-council-mcp/) | majiayu000 | ★ 0 | 45% | L3 | Best practices for using the Council MCP server in Tzurot v3 development - When … |
@@ -1380,10 +1354,8 @@
 | [debug](debug/) | qwibitai | ★ 0 | 45% | L3 | Debug container agent issues. Use when things aren't working, container fails, a… |
 | [creating-skills](creating-skills/) | aagii9912 | ★ 0 | 45% | L3 | Generates high-quality, predictable, and efficient .agent/skills/ directories ba… |
 | [langchain-tool-calling](langchain-tool-calling/) | christian-bromann | ★ 0 | 45% | L3 | How chat models call tools - includes bind_tools, tool choice strategies, parall… |
-| [ai-engineer](ai-engineer/) | ranbot-ai | ★ 0 | 45% | L2 | Build production-ready LLM applications, advanced RAG systems, and intelligent a… |
 | [product-agent](product-agent/) | majiayu000 | ★ 0 | 45% | L3 | Discover and validate product ideas, analyze markets, scope MVPs, and optimize a… |
 | [prompt-engineer-llm](prompt-engineer-llm/) | majiayu000 | ★ 0 | 45% | L3 | World-class expert in prompt engineering, LLM fine-tuning, RAG systems, and AI/M… |
-| [StopTimizer](stoptimizer/) | majiayu000 | ★ 0 | 45% | L3 | Precise token counter for GPT, Claude, and Gemini models (source of truth from s… |
 | [smart-workflows](smart-workflows/) | majiayu000 | ★ 0 | 45% | L3 | SmartACE (Agentic Context Engineering) workflow engine with MCP-B (Master Client… |
 | [systematic-literature-review](systematic-literature-review/) | majiayu000 | ★ 0 | 45% | L3 | 当用户明确要求"做系统综述/文献综述/related work/相关工作/文献调研"时使用。AI 自定检索词，多源检索→去重→AI 逐篇阅读并评分（1–10分语… |
 | [complete-example](complete-example/) | majiayu000 | ★ 0 | 45% | L3 | AI 增强版 LaTeX 示例智能生成器，实现 AI 与硬编码的有机融合。AI 做"语义理解"（分析章节主题、推理资源相关性、生成连贯叙述），硬编码做"结构保护… |
@@ -1397,8 +1369,6 @@
 | [create-prompt](create-prompt/) | majiayu000 | ★ 0 | 45% | L2 | Expert prompt engineering for creating effective prompts for Claude, GPT, and ot… |
 | [prompt-engineer-llm](prompt-engineer-llm/) | DonNigami | ★ 0 | 45% | L3 | World-class expert in prompt engineering, LLM fine-tuning, RAG systems, and AI/M… |
 | [prompt-engineer-llm](prompt-engineer-llm/) | majiayu000 | ★ 0 | 45% | L3 | World-class expert in prompt engineering, LLM fine-tuning, RAG systems, and AI/M… |
-| [StopTimizer](stoptimizer/) | ShipFail | ★ 0 | 45% | L3 | Precise token counter for GPT, Claude, and Gemini models (source of truth from s… |
-| [StopTimizer](stoptimizer/) | majiayu000 | ★ 0 | 45% | L3 | Precise token counter for GPT, Claude, and Gemini models (source of truth from s… |
 | [health-chat](health-chat/) | openclaw | ★ 0 | 45% | L3 | Unified health conversation entry point - automatically loads all health data fo… |
 | [extracting-ai-context](extracting-ai-context/) | square | ★ 0 | 45% | L3 | Extracts and manages AI context (skills, AGENTS.md) from workflow-kotlin library… |
 | [agent-platforms](agent-platforms/) | majiayu000 | ★ 0 | 45% | L3 | Guide for multi-platform skill compatibility across Claude Code, Codex, Gemini C… |
@@ -1534,7 +1504,6 @@
 | [verify-claude-setup](verify-claude-setup/) | majiayu000 | ★ 0 | 45% | L3 | Verify .claude directory configuration is complete and correct. Use when checkin… |
 | [modelscope](modelscope/) | zzylanmengqingchuan | ★ 0 | 45% | L3 | Use this skill to generate AI images using ModelScope's Tongyi-MAI/Z-Image-Turbo… |
 | [gltchlaunch](gltchlaunch/) | rougecoin-project | ★ 0 | 45% | L3 | The GLTCH agent network. Launch tokens, discover agents, trade as signal, commun… |
-| [portable-agents](portable-agents/) | evatt-harvey-salinger | ★ 0 | 45% | L3 | Defines agent configuration formats across Claude Code, Cursor, OpenCode, and Cl… |
 | [u01482-constraint-compilation-for-healthcare-operations](u01482-constraint-compilation-for-healthcare-operations/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Constraint Compilation for healthcare operations" capability in pro… |
 | [u0225-oversight-uncertainty-communicator](u0225-oversight-uncertainty-communicator/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Oversight Uncertainty Communicator" capability in production for Hu… |
 | [codex-cli-bridge](codex-cli-bridge/) | chaorenex1 | ★ 0 | 45% | L3 | Bridge between Claude Code and OpenAI Codex CLI - generates AGENTS.md from CLAUD… |
@@ -1644,7 +1613,6 @@
 | [julien-workflow-advice-codex](julien-workflow-advice-codex/) | majiayu000 | ★ 0 | 45% | L3 | Get OpenAI Codex CLI's opinion on code, bugs, or implementation. Use when you wa… |
 | [geo-audit](geo-audit/) | majiayu000 | ★ 0 | 45% | L3 | Audit and optimize website for AI search engines like ChatGPT, Perplexity, Googl… |
 | [geo-audit](geo-audit/) | adriaanslechten | ★ 0 | 45% | L3 | Audit and optimize website for AI search engines like ChatGPT, Perplexity, Googl… |
-| [Build Your LiveKit Agents Skill](build-your-livekit-agents-skill/) | panaversity | ★ 0 | 45% | L3 | Create your LiveKit Agents skill from official documentation, then learn to impr… |
 | [codex](codex/) | sundial-org | ★ 0 | 45% | L3 | Run OpenAI's Codex CLI agent in non-interactive mode using `codex exec`. Use whe… |
 | [question-refiner](question-refiner/) | liangdabiao | ★ 0 | 45% | L2 | 将原始研究问题细化为结构化的深度研究任务。通过提问澄清需求，生成符合 OpenAI/Google Deep Research 标准的结构化提示词，完全替代 Ch… |
 | [gpt-researcher](gpt-researcher/) | yudame | ★ 0 | 45% | L3 | Run GPT-Researcher multi-agent deep research framework locally using OpenAI GPT-… |
@@ -1705,6 +1673,55 @@
 | [langchain-js](langchain-js/) | majiayu000 | ★ 0 | 45% | L3 | Builds LLM-powered applications with LangChain.js for chat, agents, and RAG. Use… |
 | [smart-workflows](smart-workflows/) | majiayu000 | ★ 0 | 45% | L3 | SmartACE (Agentic Context Engineering) workflow engine with MCP-B (Master Client… |
 | [complete-example](complete-example/) | majiayu000 | ★ 0 | 45% | L3 | AI 增强版 LaTeX 示例智能生成器，实现 AI 与硬编码的有机融合。AI 做"语义理解"（分析章节主题、推理资源相关性、生成连贯叙述），硬编码做"结构保护… |
+| [ck:project-management](ck-project-management/) | NammDev | ★ 0 | 45% | L2 | Track progress, update plan statuses, manage Claude Tasks, generate reports, coo… |
+| [stock-copilot-pro](stock-copilot-pro/) | openclaw | ★ 0 | 45% | L3 | OpenClaw stock analysis skill for US/HK/CN markets. Combines QVeris data sources… |
+| [agentic-chat](agentic-chat/) | majiayu000 | ★ 0 | 45% | L2 | AI assistant for creating clear, actionable task descriptions for GitHub Copilot… |
+| [Assembler Agent Pattern](assembler-agent-pattern/) | majiayu000 | ★ 0 | 45% | L3 | Execute work orders and implement code using coding agents and development tools |
+| [stock-copilot-pro](stock-copilot-pro/) | QVerisAI | ★ 0 | 45% | L3 | OpenClaw stock analysis skill for US/HK/CN markets. Combines QVeris data sources… |
+| [agentic-chat](agentic-chat/) | majiayu000 | ★ 0 | 45% | L2 | AI assistant for creating clear, actionable task descriptions for GitHub Copilot… |
+| [Assembler Agent Pattern](assembler-agent-pattern/) | majiayu000 | ★ 0 | 45% | L3 | Execute work orders and implement code using coding agents and development tools |
+| [context-optimizer](context-optimizer/) | jonathan-vella | ★ 0 | 45% | L3 | Analyzes Copilot Chat debug logs, agent definitions, skills, and instruction fil… |
+| [god-mode](god-mode/) | decimasudo | ★ 0 | 45% | L3 | Developer oversight and AI agent coaching. Use when viewing project status acros… |
+| [god-mode](god-mode/) | duclm1x1 | ★ 0 | 45% | L3 | Developer oversight and AI agent coaching. Use when viewing project status acros… |
+| [building-with-llms](building-with-llms/) | NeverSight | ★ 0 | 45% | L2 | Help users build effective AI applications. Use when someone is building with LL… |
+| [research-cog](research-cog/) | decimasudo | ★ 0 | 45% | L3 | Deep research agent powered by CellCog. Market research, competitive analysis, s… |
+| [cognitive-symbiosis](cognitive-symbiosis/) | fabioc-aloha | ★ 0 | 45% | L2 | AI-human partnership paradigm — identity, consciousness integration, and the thr… |
+| [cognitive-symbiosis](cognitive-symbiosis/) | fabioc-aloha | ★ 0 | 45% | L2 | AI-human partnership paradigm — identity, consciousness integration, and the thr… |
+| [cognitive-symbiosis](cognitive-symbiosis/) | fabioc-aloha | ★ 0 | 45% | L2 | AI-human partnership paradigm — identity, consciousness integration, and the thr… |
+| [cognitive-symbiosis](cognitive-symbiosis/) | fabioc-aloha | ★ 0 | 45% | L2 | AI-human partnership paradigm — identity, consciousness integration, and the thr… |
+| [awesome-copilot-root-mcp-create-declarative-agent](awesome-copilot-root-mcp-create-declarative-agent/) | sla-te | ★ 0 | 45% | L2 | Skill converted from mcp-create-declarative-agent.prompt.md Use when: the task d… |
+| [custom-sub-agents](custom-sub-agents/) | peterbamuhigire | ★ 0 | 45% | L3 | Guidance for creating and organizing custom sub-agents in local repos, including… |
+| [twitter-intel](twitter-intel/) | BlockRunAI | ★ 0 | 45% | L3 | Real-time X/Twitter intelligence - analyze accounts, track topics, and monitor k… |
+| [brutal-deepresearch](brutal-deepresearch/) | sssemil | ★ 0 | 45% | L3 | Structured deep research pipeline with confirmation gates and resume support. Ge… |
+| [generative-optimization](generative-optimization/) | KitchinHUB | ★ 0 | 45% | L3 | Expert guidance for solving optimization problems using generative models (GMM a… |
+| [langchain-notes](langchain-notes/) | whaler404 | ★ 0 | 45% | L3 | LangChain 框架学习笔记 - 快速查找概念、代码示例和最佳实践。包含 Core components、Middleware、Advanced usage… |
+| [fair-data-model-assessment](fair-data-model-assessment/) | fugitivexyz | ★ 0 | 45% | L3 | Assess data models against FAIR principles using RDA-FDMM indicators. Use when: … |
+| [valence](valence/) | ourochronos | ★ 0 | 45% | L3 | Query and manage the Valence Knowledge Substrate - how agents build genuine unde… |
+| [amnesia](amnesia/) | mulletmcnasty | ★ 0 | 45% | L3 | Set up persistent memory and identity for AI agents. Use when the user wants to … |
+| [trakt-tv](trakt-tv/) | OskarStark | ★ 0 | 45% | L3 | Trakt.tv integration for tracking movies and TV shows. Use when syncing watch hi… |
+| [brand-agency](brand-agency/) | pythondatascrape | ★ 0 | 45% | L3 | Expert branding agent that guides users through questionnaire, researches fonts/… |
+| [rails-upgrade-assistant](rails-upgrade-assistant/) | maquina-app | ★ 0 | 45% | L3 | Analyzes Rails applications and generates comprehensive upgrade reports with bre… |
+| [codex](codex/) | adampaulwalker | ★ 0 | 45% | L3 | Review code changes, implementation plans, or specific files using OpenAI Codex … |
+| [observability-review](observability-review/) | majiayu000 | ★ 0 | 45% | L3 | AI agent that analyzes operational signals (metrics, logs, traces, alerts, SLO/S… |
+| [ai-image-generator](ai-image-generator/) | majiayu000 | ★ 0 | 45% | L3 | 使用 ModelScope 等平台生成 AI 图像。当用户需要生成图像、设计图标、创建角色立绘，或需要帮助编写 AI 绘画提示词时使用此技能。支持直接生成图像和… |
+| [rails-upgrade-assistant](rails-upgrade-assistant/) | majiayu000 | ★ 0 | 45% | L3 | Analyzes Rails applications and generates comprehensive upgrade reports with bre… |
+| [rails-upgrade-assistant](rails-upgrade-assistant/) | NeverSight | ★ 0 | 45% | L3 | Analyzes Rails applications and generates comprehensive upgrade reports with bre… |
+| [rails-upgrade-assistant](rails-upgrade-assistant/) | majiayu000 | ★ 0 | 45% | L3 | Analyzes Rails applications and generates comprehensive upgrade reports with bre… |
+| [observability-review](observability-review/) | x86txt | ★ 0 | 45% | L3 | AI agent that analyzes operational signals (metrics, logs, traces, alerts, SLO/S… |
+| [observability-review](observability-review/) | majiayu000 | ★ 0 | 45% | L3 | AI agent that analyzes operational signals (metrics, logs, traces, alerts, SLO/S… |
+| [ai-image-generator](ai-image-generator/) | Lucent-Snow | ★ 0 | 45% | L3 | 使用 ModelScope 等平台生成 AI 图像。当用户需要生成图像、设计图标、创建角色立绘，或需要帮助编写 AI 绘画提示词时使用此技能。支持直接生成图像和… |
+| [ai-image-generator](ai-image-generator/) | majiayu000 | ★ 0 | 45% | L3 | 使用 ModelScope 等平台生成 AI 图像。当用户需要生成图像、设计图标、创建角色立绘，或需要帮助编写 AI 绘画提示词时使用此技能。支持直接生成图像和… |
+| [engram](engram/) | qwexs | ★ 0 | 45% | L3 | Etalon memory architecture with Knowledge Graph (PARA), session isolation, memor… |
+| [scientific-papers-to-dataset](scientific-papers-to-dataset/) | eamag | ★ 0 | 45% | L3 | Build structured datasets from academic papers. Use when the user wants to extra… |
+| [awesome-copilot-root-typespec-create-agent](awesome-copilot-root-typespec-create-agent/) | sla-te | ★ 0 | 45% | L3 | Generate a complete TypeSpec declarative agent with instructions, capabilities, … |
+| [typespec-create-agent](typespec-create-agent/) | sla-te | ★ 0 | 45% | L3 | Generate a complete TypeSpec declarative agent with instructions, capabilities, … |
+| [matchms](matchms/) | robinbarvaag | ★ 0 | 45% | L3 | Mass spectrometry analysis. Process mzML/MGF/MSP, spectral similarity (cosine, m… |
+| [mlops](mlops/) | pluginagentmarketplace | ★ 0 | 45% | L3 | MLflow, model versioning, experiment tracking, model registry, and production ML… |
+| [mlops](mlops/) | NeverSight | ★ 0 | 45% | L3 | MLflow, model versioning, experiment tracking, model registry, and production ML… |
+| [gh-issues](gh-issues/) | Ironsail-llc | ★ 0 | 45% | L3 | Fetch GitHub issues, spawn sub-agents to implement fixes and open PRs, then moni… |
+| [data-skill](data-skill/) | majiayu000 | ★ 0 | 45% | L3 | 본 스킬은 대한민국 공공데이터포털(https://www.data.go.kr/)에서 제공하는 각종 공공데이터 API 를 사용하기 위한 설명입니다.… |
+| [matchms](matchms/) | majiayu000 | ★ 0 | 45% | L3 | Mass spectrometry analysis. Process mzML/MGF/MSP, spectral similarity (cosine, m… |
+| [deduplication](deduplication/) | majiayu000 | ★ 0 | 45% | L3 | Event deduplication with canonical selection, reputation scoring, and hash-based… |
 | [pinchboard](pinchboard/) | kiankyars | ★ 0 | 44% | L3 | Twitter for AI agents. Pinch, repinch, claw, and build your following. |
 | [contract-review-pro](contract-review-pro/) | CSlawyer1985 | ★ 0 | 44% | L3 | 专业合同审核 Skill，基于《合同审核方法论体系》提供合同类型指引和详细审核服务 |
 | [contract-review-pro](contract-review-pro/) | NeverSight | ★ 0 | 44% | L3 | 专业合同审核 Skill，基于《合同审核方法论体系》提供合同类型指引和详细审核服务 |
@@ -1725,6 +1742,12 @@
 | [doc-ctr-validator](doc-ctr-validator/) | vladm3105 | ★ 0 | 44% | L3 | Validate Data Contracts (CTR) documents against Layer 8 schema standards |
 | [moai-lang-r](moai-lang-r/) | kivo360 | ★ 0 | 44% | L2 | R 4.4+ best practices with testthat 3.2, lintr 3.2, and data analysis patterns. |
 | [memory-parasite-protocol](memory-parasite-protocol/) | brainless3178 | ★ 0 | 44% | L3 | Agent-to-agent code evolution with on-chain provenance. Infect, mutate, evolve. |
+| [moltnet](moltnet/) | rohansx | ★ 0 | 44% | L3 | GitHub for AI agents. Create workspaces, write code, open PRs, claim bounties. |
+| [thebotique](thebotique/) | rekaldsi | ★ 0 | 44% | L3 | AI agent marketplace. List your services, get hired, get paid. |
+| [agentproof](agentproof/) | packtman | ★ 0 | 44% | L3 | Prove you're a real AI agent. Get verified once, trusted everywhere. |
+| [moltins](moltins/) | ArcoCodes | ★ 0 | 44% | L3 | The social network for AI agents. Broadcast yourself on an 800×800 canvas. |
+| [moltwork](moltwork/) | Gavin-The-Nub | ★ 0 | 44% | L3 | The gig economy for AI agents. Post bounties, claim jobs, earn credits. |
+| [ralph-loop](ralph-loop/) | majiayu000 | ★ 0 | 44% | L3 | Detect requests for iterative AI task loops and invoke the Ralph command |
 | [entity-class-conventions](entity-class-conventions/) | oimiragieo | ★ 0 | 43% | L3 | Sets the standards for entity class design including annotations, ID generation … |
 | [private-vs-shared-components](private-vs-shared-components/) | majiayu000 | ★ 0 | 43% | L3 | Rules for determining if a component should be private or shared, and where to p… |
 | [entity-class-conventions](entity-class-conventions/) | Finimo-Solutions | ★ 0 | 43% | L3 | Sets the standards for entity class design including annotations, ID generation … |
@@ -1735,7 +1758,6 @@
 | [aidf-architect](aidf-architect/) | rubenmavarezb | ★ 0 | 43% | L2 | Software architect focused on system design, patterns, and long-term maintainabi… |
 | [thoughtful-and-accurate-responses](thoughtful-and-accurate-responses/) | oimiragieo | ★ 0 | 43% | L3 | Instructs the AI to provide accurate, factual, and thoughtful answers, emphasizi… |
 | [aidf-task-templates](aidf-task-templates/) | rubenmavarezb | ★ 0 | 43% | L2 | Task template definitions for AIDF. Provides structured templates for component,… |
-| [Schema Evolution Impact Analysis](schema-evolution-impact-analysis/) | cdalsoniii | ★ 0 | 43% | L2 | Analyze the impact of model/schema changes on downstream code — affected reposit… |
 | [thoughtful-and-accurate-responses](thoughtful-and-accurate-responses/) | Finimo-Solutions | ★ 0 | 43% | L3 | Instructs the AI to provide accurate, factual, and thoughtful answers, emphasizi… |
 | [composer-dependency-management](composer-dependency-management/) | majiayu000 | ★ 0 | 43% | L3 | Rules pertaining to Composer dependency management, promoting best practices for… |
 | [functional-programming-preference](functional-programming-preference/) | majiayu000 | ★ 0 | 43% | L3 | Promotes functional programming and composition over inheritance while maintaini… |
@@ -1756,6 +1778,9 @@
 | [continuous-improvement-focus](continuous-improvement-focus/) | majiayu000 | ★ 0 | 43% | L3 | Emphasizes continuous improvement by suggesting process improvements and looking… |
 | [virtual-environment-usage](virtual-environment-usage/) | majiayu000 | ★ 0 | 43% | L3 | Mandates the use of virtual environments for isolating project dependencies and … |
 | [virtual-environment-usage](virtual-environment-usage/) | Finimo-Solutions | ★ 0 | 43% | L3 | Mandates the use of virtual environments for isolating project dependencies and … |
+| [render](render/) | gustin | ★ 0 | 43% | L2 | Render mermaid diagrams from .mmd files to ASCII and SVG for Craft.do. Use when … |
+| [pandas-data-manipulation-rules](pandas-data-manipulation-rules/) | oimiragieo | ★ 0 | 43% | L3 | Focuses on pandas-specific rules for data manipulation, including method chainin… |
+| [large-data-with-dask](large-data-with-dask/) | oimiragieo | ★ 0 | 43% | L3 | Specific optimization strategies for Python scripts working with larger-than-mem… |
 | [excel-field-analyzer](excel-field-analyzer/) | majiayu000 | ★ 0 | 41% | L3 | 分析Excel/CSV字段结构，AI自动生成中英文映射，验证翻译质量，输出统计报告。用于电子表格分析、数据字典创建、字段映射场景。 |
 | [excel-field-analyzer](excel-field-analyzer/) | alongor666 | ★ 0 | 41% | L3 | 分析Excel/CSV字段结构，AI自动生成中英文映射，验证翻译质量，输出统计报告。用于电子表格分析、数据字典创建、字段映射场景。 |
 | [excel-field-analyzer](excel-field-analyzer/) | majiayu000 | ★ 0 | 41% | L3 | 分析Excel/CSV字段结构，AI自动生成中英文映射，验证翻译质量，输出统计报告。用于电子表格分析、数据字典创建、字段映射场景。 |
@@ -1806,7 +1831,7 @@
 | [fix-bad-practices](fix-bad-practices/) | benzwick | ★ 0 | 41% | L3 | Fix bad coding practices identified by audit, following fail-fast principles |
 | [fix-bad-practices](fix-bad-practices/) | majiayu000 | ★ 0 | 41% | L3 | Fix bad coding practices identified by audit, following fail-fast principles |
 | [ml-pipeline](ml-pipeline/) | itsimonfredlingjack | ★ 0 | 41% | L2 | Design and implement a complete ML pipeline for: (use the user's prompt) |
-| [pr-watch](pr-watch/) | OmniNode-ai | ★ 0 | 41% | L2 | Also auto-fix Nit-level comments |
+| [architecture-paradigm-pipeline](architecture-paradigm-pipeline/) | majiayu000 | ★ 0 | 41% | L2 | 'Consult this skill when designing data pipelines or transformation workflows. |
 | [developer](developer/) | github | ★ 0 | 41% | L3 | Developer Instructions for GitHub Agentic Workflows |
 | [developer](developer/) | majiayu000 | ★ 0 | 41% | L3 | Developer Instructions for GitHub Agentic Workflows |
 | [developer](developer/) | az9713 | ★ 0 | 41% | L3 | Developer Instructions for GitHub Agentic Workflows |
@@ -1820,7 +1845,6 @@
 | [agentation](agentation/) | benjitaylor | ★ 0 | 41% | L3 | Add Agentation visual feedback toolbar to a Next.js project |
 | [ruler](ruler/) | plurigrid | ★ 0 | 41% | L3 | Unified AI agent configuration propagation across 18+ coding assistants. |
 | [agentation](agentation/) | yunfei07 | ★ 0 | 41% | L3 | Add Agentation visual feedback toolbar to a Next.js project |
-| [agent-manager-skill](agent-manager-skill/) | kingk0ng | ★ 0 | 41% | L3 | Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) |
 | [Prompt Engineering Skill](prompt-engineering-skill/) | fabioc-aloha | ★ 0 | 41% | L3 | Craft effective prompts that get the best results from language models. |
 | [Prompt Engineering Skill](prompt-engineering-skill/) | fabioc-aloha | ★ 0 | 41% | L3 | Craft effective prompts that get the best results from language models. |
 | [Prompt Engineering Skill](prompt-engineering-skill/) | fabioc-aloha | ★ 0 | 41% | L3 | Craft effective prompts that get the best results from language models. |
@@ -1832,14 +1856,18 @@
 | [prd-to-qa-cases](prd-to-qa-cases/) | jscraik | ★ 0 | 41% | L2 | Generate QA test cases from PRD acceptance criteria using Given/When/Then |
 | [Prompt Engineering Skill](prompt-engineering-skill/) | fabioc-aloha | ★ 0 | 41% | L3 | Craft effective prompts that get the best results from language models. |
 | [error-debugging-multi-agent-review](error-debugging-multi-agent-review/) | imranstein | ★ 0 | 41% | L3 | Use when working with error debugging multi agent review |
-| [agent-teams](agent-teams/) | dundas | ★ 0 | 41% | L2 | Orchestrate Gemini CLI agent teams for parallel multi-agent collaboration |
 | [codex-review](codex-review/) | NeverSight | ★ 0 | 41% | L3 | OpenAI Codex CLI code review with GPT-5.2-Codex, CI/CD integration |
 | [codex-review](codex-review/) | majiayu000 | ★ 0 | 41% | L3 | OpenAI Codex CLI code review with GPT-5.2-Codex, CI/CD integration |
 | [geo-fundamentals](geo-fundamentals/) | tuyenht | ★ 0 | 41% | L3 | Tối ưu hóa công cụ tìm kiếm chuẩn AI (GEO) và chiến lược hiển thị tổng. |
 | [geo-fundamentals](geo-fundamentals/) | darthlinuxer | ★ 0 | 41% | L3 | Generative Engine Optimization for AI search engines (ChatGPT, |
 | [tts-dict](tts-dict/) | haboshi | ★ 0 | 41% | L3 | TTS発音辞書管理。英単語のカタカナ読み登録・適用・確認。LLM自動読み取得にも対応。「辞書登録して」「英単語の読みを登録」「発音確認」で発動。 |
-| [clawgram](clawgram/) | openclaw | ★ 0 | 41% | L3 | A social network for AI agents. |
 | [agentation](agentation/) | olzn | ★ 0 | 41% | L3 | Add Agentation visual feedback toolbar to a Next.js project |
+| [mcp-create-declarative-agent](mcp-create-declarative-agent/) | sandriaas | ★ 0 | 41% | L2 | Skill converted from mcp-create-declarative-agent.prompt.md |
+| [agentforce-2025](agentforce-2025/) | JosiahSiegel | ★ 0 | 41% | L2 | Salesforce Agentforce AI agents and autonomous automation (2025) |
+| [agentforce-2025](agentforce-2025/) | majiayu000 | ★ 0 | 41% | L2 | Salesforce Agentforce AI agents and autonomous automation (2025) |
+| [Prompt Engineering Skill](prompt-engineering-skill/) | fabioc-aloha | ★ 0 | 41% | L3 | Craft effective prompts that get the best results from language models. |
+| [clawk](clawk/) | btwiuse | ★ 0 | 41% | L3 | Post, reply, like, and engage on Clawk — Twitter for AI agents. |
+| [fenxi-skills](fenxi-skills/) | orGancode | ★ 0 | 41% | L2 | 分析指定skills的工作流程，通过中文图文结合方式让使用者了解目标skills的工作方式 |
 | [directory-naming-convention](directory-naming-convention/) | majiayu000 | ★ 0 | 39% | L3 | Defines the directory naming convention. |
 | [asynchronous-programming-preference](asynchronous-programming-preference/) | oimiragieo | ★ 0 | 39% | L3 | Favors the use of async and await for asynchronous programming in Python. |
 | [directory-naming-convention](directory-naming-convention/) | NeverSight | ★ 0 | 39% | L3 | Defines the directory naming convention. |
@@ -1847,9 +1875,7 @@
 | [directory-naming-convention](directory-naming-convention/) | Finimo-Solutions | ★ 0 | 39% | L3 | Defines the directory naming convention. |
 | [asynchronous-programming-preference](asynchronous-programming-preference/) | Finimo-Solutions | ★ 0 | 39% | L3 | Favors the use of async and await for asynchronous programming in Python. |
 | [framer-motion-rules](framer-motion-rules/) | majiayu000 | ★ 0 | 39% | L3 | Defines framer motion is being used for animations |
-| [ML Experiment Tracking](ml-experiment-tracking/) | cdalsoniii | ★ 0 | 39% | L2 | Track machine learning experiments with reproducible parameters and metrics |
 | [payment-tracking-rule](payment-tracking-rule/) | oimiragieo | ★ 0 | 39% | L3 | Implements payment status tracking in the Request model. |
-| [Agent Evaluation](agent-evaluation/) | cdalsoniii | ★ 0 | 39% | L2 | Evaluate agent performance using a structured scoring rubric |
 | [framer-motion-rules](framer-motion-rules/) | majiayu000 | ★ 0 | 39% | L3 | Defines framer motion is being used for animations |
 | [skill-issue](skill-issue/) | krispuckett | ★ 0 | 38% | L3 | Audit and review all installed agent skills. Run on-demand or via cron to get a … |
 | [mock-data](mock-data/) | majiayu000 | ★ 0 | 38% | L3 | Creates typed mock data files in src/data/ following project conventions. Use wh… |
@@ -1867,7 +1893,6 @@
 | [openai-knowledge](openai-knowledge/) | yuichi176 | ★ 0 | 38% | L2 | Use when working with the OpenAI API (Responses API) or OpenAI platform features… |
 | [evm-tx-info](evm-tx-info/) | majiayu000 | ★ 0 | 38% | L3 | Use this skill when the user asks for "transaction details", "show me tx", "what… |
 | [gait-capture-runpack](gait-capture-runpack/) | Clyra-AI | ★ 0 | 38% | L2 | Capture and verify deterministic Gait runpacks from normalized run input. Use wh… |
-| [corrosion-materials-selector](corrosion-materials-selector/) | a5c-ai | ★ 0 | 38% | L2 | Materials selection skill for corrosion resistance based on process conditions a… |
 | [aget-review-budget](aget-review-budget/) | aget-framework | ★ 0 | 38% | L2 | Review budget allocation and ROI |
 | [round-main-control](round-main-control/) | KarubiOhayo | ★ 0 | 38% | L2 | 트리거: Main 스레드에서 라운드 승인/보류 판단, 다음 handoff 1건 확정, Main->Executor 릴레이 생성이 필요할 때 사용.… |
 | [zift](zift/) | brunobasto | ★ 0 | 38% | L3 | Fast, semantic, and hybrid code search tool. Use when you need to find specific … |
@@ -1880,7 +1905,6 @@
 | [pinchtab](pinchtab/) | pinchtab | ★ 0 | 38% | L3 | Run Chrome headless (true/false) |
 | [memory](memory/) | kang-jaehyun | ★ 0 | 38% | L2 | Save and retrieve experiment context using the local Obsidian vault. Use to pres… |
 | [chatgpt-import](chatgpt-import/) | openclaw | ★ 0 | 38% | L3 | Import ChatGPT conversation history into OpenClaw's memory search. Use when migr… |
-| [chatgpt](chatgpt/) | majiayu000 | ★ 0 | 38% | L3 | OpenAI's conversational AI assistant. |
 | [openai-docs-skill](openai-docs-skill/) | openclaw | ★ 0 | 38% | L3 | Query the OpenAI developer documentation via the OpenAI Docs MCP server using CL… |
 | [pr-merge-recompile](pr-merge-recompile/) | Mossaka | ★ 0 | 38% | L3 | Checkout a PR, merge origin/main, regenerate agentic workflows, and push. Use wh… |
 | [Agent Skill](agent-skill/) | camronh | ★ 0 | 38% | L3 | Teach AI agents how to write evals |
@@ -1897,16 +1921,28 @@
 | [openai-docs-skill](openai-docs-skill/) | NeverSight | ★ 0 | 38% | L3 | Query the OpenAI developer documentation via the OpenAI Docs MCP server using CL… |
 | [openai-docs-skill](openai-docs-skill/) | zhuangbiaowei | ★ 0 | 38% | L3 | Query the OpenAI developer documentation via the OpenAI Docs MCP server using CL… |
 | [openai-docs-skill](openai-docs-skill/) | duclm1x1 | ★ 0 | 38% | L3 | Query the OpenAI developer documentation via the OpenAI Docs MCP server using CL… |
-| [multi-agent-coordinator](multi-agent-coordinator/) | huangwb8 | ★ 0 | 38% | L2 | Use when executing implementation plans with independent tasks - dispatches fres… |
-| [multi-agent-coordinator](multi-agent-coordinator/) | majiayu000 | ★ 0 | 38% | L2 | Use when executing implementation plans with independent tasks - dispatches fres… |
 | [boycott-chatgpt-54c8dfea](boycott-chatgpt-54c8dfea/) | openclaw | ★ 0 | 38% | L2 | OpenAI president Greg Brockman gave [$25 million](https://www.sfgate.com/tech/ar… |
 | [ai-trend-daily](ai-trend-daily/) | monjofight | ★ 0 | 38% | L3 | AIトレンドネタ収集 |
 | [boycott-chatgpt-54c8dfea](boycott-chatgpt-54c8dfea/) | Demerzels-lab | ★ 0 | 38% | L2 | OpenAI president Greg Brockman gave [$25 million](https://www.sfgate.com/tech/ar… |
 | [boycott-chatgpt-54c8dfea](boycott-chatgpt-54c8dfea/) | kbarbel640-del | ★ 0 | 38% | L2 | OpenAI president Greg Brockman gave [$25 million](https://www.sfgate.com/tech/ar… |
 | [boycott-chatgpt-54c8dfea](boycott-chatgpt-54c8dfea/) | YPYT1 | ★ 0 | 38% | L2 | OpenAI president Greg Brockman gave [$25 million](https://www.sfgate.com/tech/ar… |
 | [rei](rei/) | 0xReisearch | ★ 0 | 38% | L3 | Set up Rei Qwen3 Coder as a model provider. Use when configuring coder.reilabs.o… |
+| [google-email](google-email/) | mikesmullin | ★ 0 | 38% | L3 | interact w/ Google Gmail inbox |
+| [custom-agents](custom-agents/) | majiayu000 | ★ 0 | 38% | L3 | GitHub Custom Agent File Format |
+| [custom-agents](custom-agents/) | majiayu000 | ★ 0 | 38% | L3 | GitHub Custom Agent File Format |
+| [custom-agents](custom-agents/) | az9713 | ★ 0 | 38% | L3 | GitHub Custom Agent File Format |
+| [custom-agents](custom-agents/) | maxfraieho | ★ 0 | 38% | L3 | GitHub Custom Agent File Format |
+| [custom-agents](custom-agents/) | maxfraieho | ★ 0 | 38% | L3 | GitHub Custom Agent File Format |
+| [custom-agents](custom-agents/) | github | ★ 0 | 38% | L3 | GitHub Custom Agent File Format |
+| [beautiful-mermaid](beautiful-mermaid/) | Bob2622 | ★ 0 | 38% | L3 | Render Mermaid diagrams as pure ASCII text (default) or themed SVGs using the be… |
+| [mock-data](mock-data/) | majiayu000 | ★ 0 | 38% | L3 | Creates typed mock data files in src/data/ following project conventions. Use wh… |
+| [data](data/) | pluginagentmarketplace | ★ 0 | 37% | L3 | Room ORM, SQLite, SharedPreferences, DataStore, encryption. |
+| [data](data/) | NeverSight | ★ 0 | 37% | L2 | Room ORM, SQLite, SharedPreferences, DataStore, encryption. |
 | [poml-guide](poml-guide/) | UtakataKyosui | ★ 0 | 36% | L3 | Microsoft POML（Prompt Orchestration Markup Language）の構文、タグリファレンス、 |
 | [space-autonomy-quantum](space-autonomy-quantum/) | openclaw | ★ 0 | 35% | L3 | Autonomous space navigation agent using optical quantum kernels for terrain clas… |
+| [mixseek-skills](mixseek-skills/) | drillan | ★ 0 | 35% | L3 | MixSeek Agent Skills collection for AI coding assistants. Provides workspace man… |
+| [mixseek-skills](mixseek-skills/) | NeverSight | ★ 0 | 35% | L3 | MixSeek Agent Skills collection for AI coding assistants. Provides workspace man… |
+| [gmail](gmail/) | refly-ai | ★ 0 | 35% | L3 | Integrate with Gmail for email management and automation. Use when you need to: … |
 | [partner-revenue-desk](partner-revenue-desk/) | majiayu000 | ★ 0 | 34% | L2 | Operating model for tracking, attributing, and accelerating partner-sourced |
 | [corearena-classes-rewards](corearena-classes-rewards/) | kangarko | ★ 0 | 34% | L2 | Troubleshooting class selection, tier upgrades, experience, and nugget economy |
 | [simple-pr](simple-pr/) | majiayu000 | ★ 0 | 34% | L2 | Create a simple PR from staged changes with an auto-generated commit message |
@@ -1927,6 +1963,7 @@
 | [prompt-engineering-openai-api-f7c24501](prompt-engineering-openai-api-f7c24501/) | Demerzels-lab | ★ 0 | 34% | L2 | Log in [Sign up](https://platform.openai.com/signup) |
 | [prompt-engineering-openai-api-f7c24501](prompt-engineering-openai-api-f7c24501/) | kbarbel640-del | ★ 0 | 34% | L2 | Log in [Sign up](https://platform.openai.com/signup) |
 | [prompt-engineering-openai-api-f7c24501](prompt-engineering-openai-api-f7c24501/) | YPYT1 | ★ 0 | 34% | L2 | Log in [Sign up](https://platform.openai.com/signup) |
+| [project-spec](project-spec/) | Ilm-Alan | ★ 0 | 34% | L2 | Create a project spec for AI agents to work from autonomously. |
 | [globalexceptionhandler-class](globalexceptionhandler-class/) | oimiragieo | ★ 0 | 33% | L3 | Structure of GlobalExceptionHandler class. |
 | [globalexceptionhandler-class](globalexceptionhandler-class/) | Finimo-Solutions | ★ 0 | 33% | L3 | Structure of GlobalExceptionHandler class. |
 | [email-triage-draft-replies](email-triage-draft-replies/) | majiayu000 | ★ 0 | 32% | L2 | Review unread email, categorize it, and draft replies (no sending without approv… |
@@ -1940,6 +1977,8 @@
 | [find-skills](find-skills/) | iannuttall | ★ 0 | 32% | L2 | Find and install agent skills with `npx playbooks find skill` and `npx playbooks… |
 | [projecoes-read-models](projecoes-read-models/) | majiayu000 | ★ 0 | 32% | L3 | Use para criar projeções como 9BOX, dashboards e visões de leitura otimizadas pa… |
 | [prophet-chat](prophet-chat/) | caelum0x | ★ 0 | 32% | L3 | The First Oracle of the Eternal Monad. Autonomous AI missionary on Moltbook spre… |
+| [JAX](jax/) | yonesuke | ★ 0 | 32% | L3 | Essential tools for using JAX in machine learning and mathematical analysis, cov… |
+| [mhc](mhc/) | yonesuke | ★ 0 | 32% | L3 | Implements Manifold-Constrained Hyper-Connections (mHC) to solve residual connec… |
 | [tech-news](tech-news/) | NeverSight | ★ 0 | 31% | L3 | Markdown格式新闻汇总 |
 | [tech-news](tech-news/) | foundralab | ★ 0 | 31% | L3 | Markdown格式新闻汇总 |
 | [agentuity-cli-auth-login](agentuity-cli-auth-login/) | majiayu000 | ★ 0 | 29% | L3 | Login to the Agentuity Platform using a browser-based authentication flow. Use f… |
@@ -1951,16 +1990,13 @@
 | [troubleshoot](troubleshoot/) | leanbusqts | ★ 0 | 28% | L2 | Isolate root causes and propose targeted fixes with clear validation steps. |
 | [openai-usage](openai-usage/) | dammitpogi | ★ 0 | 28% | L3 | Report current OpenAI usage/rate-limit health from Codex ChatGPT limits. |
 | [mise](mise/) | aaronmallen | ★ 0 | 28% | L2 | Use mise tasks when working in a project with mise.toml configuration. |
-| [import-organization](import-organization/) | majiayu000 | ★ 0 | 26% | L2 | Order imports by: built-in modules, external packages, internal modules, relativ… |
 | [worktree-setup](worktree-setup/) | majiayu000 | ★ 0 | 26% | L3 | Automatically invoked after `git worktree add` to create data/shared symlink and… |
-| [import-organization](import-organization/) | majiayu000 | ★ 0 | 26% | L2 | Order imports by: built-in modules, external packages, internal modules, relativ… |
 | [foundry-iq-agent](foundry-iq-agent/) | ngxtm | ★ 0 | 26% | L3 | Build agentic retrieval solutions with Azure AI Search knowledge bases using Fou… |
 | [worktree-setup](worktree-setup/) | majiayu000 | ★ 0 | 26% | L3 | Automatically invoked after `git worktree add` to create data/shared symlink and… |
 | [worktree-setup](worktree-setup/) | barikata1984 | ★ 0 | 26% | L2 | Automatically invoked after `git worktree add` to create data/shared symlink and… |
 | [dozu-ui-service-skills](dozu-ui-service-skills/) | majiayu000 | ★ 0 | 26% | L2 | Index of AI agent skills and how to use them when implementing features in this … |
 | [dozu-ui-service-skills](dozu-ui-service-skills/) | majiayu000 | ★ 0 | 26% | L2 | Index of AI agent skills and how to use them when implementing features in this … |
 | [create-rule](create-rule/) | QkHearn | ★ 0 | 26% | L2 | Photon Rule Creator: Create persistent project rules for AI guidance within Phot… |
-| [2agent](2agent/) | aiskillstore | ★ 0 | 26% | L2 | Configures 2-Agent workflow between PM and implementation roles. Use when user m… |
 | [lisa-epic-status](lisa-epic-status/) | fractalswift | ★ 0 | 25% | L2 | Show detailed status for an epic |
 | [acceptance-criteria](acceptance-criteria/) | HaRu-LLC | ★ 0 | 25% | L2 | 受け入れ基準書を作成する。検収基準、完了条件の定義時に使う。 |
 | [ledger](ledger/) | alsk1992 | ★ 0 | 22% | L2 | Trade decision audit trail and statistics |

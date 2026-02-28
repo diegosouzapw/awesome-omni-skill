@@ -1,17 +1,23 @@
 {
-  "total_skills": 11920,
+  "total_skills": 13932,
   "categories": {
-    "development": 5255,
-    "tools": 2094,
-    "data-ai": 1965,
-    "devops": 842,
-    "testing-security": 589,
-    "design": 442,
-    "documentation": 235,
-    "product": 188,
-    "business": 175,
-    "content-media": 105,
-    "communication": 27,
+    "development": 5441,
+    "tools": 2205,
+    "data-ai": 2001,
+    "devops": 949,
+    "testing-security": 639,
+    "design": 539,
+    "backend": 446,
+    "ai-agents": 383,
+    "documentation": 275,
+    "product": 229,
+    "cli-automation": 221,
+    "business": 198,
+    "content-media": 150,
+    "frontend": 123,
+    "fullstack-web": 52,
+    "communication": 39,
+    "machine-learning": 39,
     "uncategorized": 3
   },
   "top_repos": [
@@ -52,47 +58,47 @@
     },
     {
       "repo": "sickn33/antigravity-awesome-skills",
-      "count": 814,
+      "count": 817,
       "stars": 0
     },
     {
       "repo": "majiayu000/claude-skill-registry",
-      "count": 1774,
+      "count": 2355,
       "stars": 0
     },
     {
       "repo": "majiayu000/claude-skill-registry-data",
-      "count": 2211,
+      "count": 3011,
       "stars": 0
     },
     {
       "repo": "rafaelramosdf/antigravity-agents",
-      "count": 19,
+      "count": 35,
       "stars": 0
     },
     {
       "repo": "oimiragieo/agent-studio",
-      "count": 37,
+      "count": 67,
       "stars": 0
     },
     {
       "repo": "Finimo-Solutions/research",
-      "count": 40,
+      "count": 45,
       "stars": 0
     },
     {
       "repo": "cdalsoniii/brightpath-coder",
-      "count": 18,
+      "count": 26,
       "stars": 0
     },
     {
       "repo": "mk-162/162-Demo-Handbook",
-      "count": 1,
+      "count": 2,
       "stars": 0
     },
     {
       "repo": "NeverSight/skills_feed",
-      "count": 498,
+      "count": 542,
       "stars": 0
     },
     {
@@ -102,20 +108,20 @@
     },
     {
       "repo": "vamseeachanta/workspace-hub",
+      "count": 5,
+      "stars": 0
+    },
+    {
+      "repo": "rubenmavarezb/aidf",
+      "count": 6,
+      "stars": 0
+    },
+    {
+      "repo": "kanyun-inc/reskill",
       "count": 4,
-      "stars": 0
-    },
-    {
-      "repo": "ZelStudio/zelai-cloud-sdk",
-      "count": 1,
-      "stars": 0
-    },
-    {
-      "repo": "rangerchaz/turkey-build",
-      "count": 1,
       "stars": 0
     }
   ],
-  "last_sync_at": "2026-02-27T18:17:15.041Z",
-  "sync_mode": "incremental"
+  "last_sync_at": "2026-02-28T04:30:36.433Z",
+  "sync_mode": "full"
 }

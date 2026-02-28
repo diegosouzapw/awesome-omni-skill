@@ -1,0 +1,62 @@
+# 📂 fullstack-web
+
+> 52 skills in this category
+
+| Skill | Author | Stars | Quality | Level | Description |
+|-------|--------|-------|---------|-------|-------------|
+| [development](development/) | sickn33 | ★ 15.4k | 98% | L3 | Comprehensive web, mobile, and backend development workflow bundling frontend, b… |
+| [adb-magisk-installer](adb-magisk-installer/) | majiayu000 | ★ 94 | 80% | L3 | Complete Magisk system installation - from initial app setup to full system inte… |
+| [add-member](add-member/) | majiayu000 | ★ 94 | 80% | L3 | Interactive guide for adding new lab members to the website. Gathers information… |
+| [adding-phases](adding-phases/) | majiayu000 | ★ 94 | 80% | L3 | Use this skill to add planned work discovered during execution to the end of the… |
+| [add-env-variable](add-env-variable/) | majiayu000 | ★ 94 | 77% | L3 | Add a new environment variable to the application. Use when adding configuration… |
+| [add-home-widget-selector](add-home-widget-selector/) | majiayu000 | ★ 94 | 77% | L3 | 为Flutter插件添加可配置的选择器小组件（HomeWidget），支持用户点击配置、数据选择和动态数据渲染。核心特性：(1) 配置dataSelector保… |
+| [add-multi-filter](add-multi-filter/) | majiayu000 | ★ 94 | 77% | L3 | 为Flutter插件视图添加多条件过滤功能（MultiFilterBar），支持标签、关键词、日期、优先级、复选框等多种过滤类型。替代传统的FilterDial… |
+| [add-paper](add-paper/) | majiayu000 | ★ 94 | 77% | L2 | Add a research paper to the maxpool research-papers collection. Use when the use… |
+| [add-route-context](add-route-context/) | majiayu000 | ★ 94 | 77% | L2 | 为Flutter页面添加路由上下文记录功能，支持日期等参数的AI上下文识别。当需要让AI助手通过"询问当前上下文"功能获取页面状态（如日期、ID等参数）时使用。… |
+| [ado-mapper](ado-mapper/) | majiayu000 | ★ 94 | 77% | L3 | Bidirectional conversion between SpecWeave increments and Azure DevOps work item… |
+| [adynato-mobile](adynato-mobile/) | majiayu000 | ★ 94 | 77% | L3 | Mobile app development conventions for Adynato projects using React Native and E… |
+| [add-app-config](add-app-config/) | majiayu000 | ★ 94 | 70% | L3 | Use when adding configuration for a new application to the dotfiles, setting up … |
+| [adding-a-new-app-route](adding-a-new-app-route/) | majiayu000 | ★ 94 | 70% | L2 | Fully wires up a new route with required boilerplate, following this repo's conv… |
+| [advanced-types](advanced-types/) | majiayu000 | ★ 94 | 66% | L2 | Advanced TypeScript types including generics, conditionals, and mapped types |
+| [advanced-memoization-strategies](advanced-memoization-strategies/) | majiayu000 | ★ 94 | 64% | L2 | Apply principled memoization techniques to reduce re-rendering without introduci… |
+| [adb-magisk-installer](adb-magisk-installer/) | majiayu000 | ★ 2 | 67% | L3 | Complete Magisk system installation - from initial app setup to full system inte… |
+| [airtable-connect](airtable-connect/) | majiayu000 | ★ 2 | 67% | L3 | Connect to any Airtable base by name. Load when user mentions 'airtable', 'conne… |
+| [webapp-testing](webapp-testing/) | majiayu000 | ★ 2 | 64% | L3 | Toolkit for interacting with and testing local web applications using Playwright… |
+| [ai-daily-news](ai-daily-news/) | majiayu000 | ★ 2 | 64% | L3 | Fetches AI news from smol.ai RSS and generates structured markdown with intellig… |
+| [bio-alignment-filtering](bio-alignment-filtering/) | majiayu000 | ★ 2 | 64% | L3 | Filter alignments by flags, mapping quality, and regions using samtools view and… |
+| [alto-configure](alto-configure/) | majiayu000 | ★ 2 | 64% | L3 | Use when configuring ALTO settings including arbiter thresholds, permissions, or… |
+| [alfworld-appliance-navigator](alfworld-appliance-navigator/) | majiayu000 | ★ 2 | 57% | L2 | This skill navigates the agent to a target appliance (like a microwave, stove, o… |
+| [alfworld-object-state-modifier](alfworld-object-state-modifier/) | majiayu000 | ★ 2 | 57% | L2 | This skill uses an appliance to change the state of an object (e.g., cooling, he… |
+| [alfworld-location-navigator](alfworld-location-navigator/) | majiayu000 | ★ 2 | 51% | L2 | Moves the agent to a specified receptacle or object location within the Alfworld… |
+| [analyze-job-post](analyze-job-post/) | majiayu000 | ★ 2 | 51% | L2 | Analyzes a job offer for fit with the Candidate's profile and recommends an appl… |
+| [align](align/) | majiayu000 | ★ 2 | 44% | L2 | Align skill for the ikigai project |
+| [webapp-testing](webapp-testing/) | rafaelramosdf | ★ 0 | 59% | L3 | Kit de ferramentas para interagir e testar aplicativos web locais usando Playwri… |
+| [development](development/) | ngxtm | ★ 0 | 48% | L3 | Comprehensive web, mobile, and backend development workflow bundling frontend, b… |
+| [development](development/) | boisenoise | ★ 0 | 48% | L3 | Comprehensive web, mobile, and backend development workflow bundling frontend, b… |
+| [development](development/) | NeverSight | ★ 0 | 48% | L3 | Comprehensive web, mobile, and backend development workflow bundling frontend, b… |
+| [development](development/) | aiskillstore | ★ 0 | 48% | L3 | Comprehensive web, mobile, and backend development workflow bundling frontend, b… |
+| [development](development/) | DarkThreat74 | ★ 0 | 48% | L3 | Comprehensive web, mobile, and backend development workflow bundling frontend, b… |
+| [development](development/) | javiertarazon | ★ 0 | 48% | L3 | Comprehensive web, mobile, and backend development workflow bundling frontend, b… |
+| [clawpage](clawpage/) | skypher | ★ 0 | 48% | L3 | Extract and structure any web page into clean JSON. Returns text, tables, prices… |
+| [agora-dev-skill](agora-dev-skill/) | jayalbo | ★ 0 | 48% | L3 | Comprehensive assistant for Agora.io developers building real-time engagement ap… |
+| [fullstack-classic](fullstack-classic/) | twofoldtech-dakota | ★ 0 | 47% | L3 | Apply when working with classic fullstack patterns including jQuery AJAX, form h… |
+| [product-appeal-analyzer](product-appeal-analyzer/) | majiayu000 | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
+| [product-appeal-analyzer](product-appeal-analyzer/) | curiositech | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
+| [product-appeal-analyzer](product-appeal-analyzer/) | NeverSight | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
+| [product-appeal-analyzer](product-appeal-analyzer/) | majiayu000 | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
+| [multi-platform-apps-multi-platform](multi-platform-apps-multi-platform/) | ranbot-ai | ★ 0 | 45% | L3 | Build and deploy the same feature consistently across web, mobile, and desktop p… |
+| [app-builder](app-builder/) | ranbot-ai | ★ 0 | 45% | L3 | Main application building orchestrator. Creates full-stack applications from nat… |
+| [observe-whatsapp](observe-whatsapp/) | sickn33 | ★ 0 | 45% | L3 | Observe and troubleshoot WhatsApp in Kapso: debug message delivery, inspect webh… |
+| [clawsino-play](clawsino-play/) | anthonymq | ★ 0 | 45% | L3 | Play and operate the Clawsino casino webapp (dice + slots) via its HTTP API or U… |
+| [write-documents](write-documents/) | majiayu000 | ★ 0 | 45% | L2 | Apply when creating or editing INFO, SPEC, IMPL, TEST, FIX documents, or STRUT p… |
+| [mobile-offline-support](mobile-offline-support/) | majiayu000 | ★ 0 | 45% | L3 | Implement offline-first mobile apps with local storage, sync strategies, and con… |
+| [cloud-storage-web](cloud-storage-web/) | TencentCloudBase | ★ 0 | 45% | L3 | Complete guide for CloudBase cloud storage using Web SDK (@cloudbase/js-sdk) - u… |
+| [product-appeal-analyzer](product-appeal-analyzer/) | majiayu000 | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
+| [mobile](mobile/) | bulbulogludemir | ★ 0 | 44% | L3 | React Native, Expo, mobile apps. Auto-use for mobile work. |
+| [webrtc-timing-test](webrtc-timing-test/) | kwindla | ★ 0 | 38% | L3 | Measure WebRTC connection timing on Daily rooms. Use when testing Daily video ca… |
+| [Chemistry Skill](chemistry-skill/) | AmaiDonatsu | ★ 0 | 38% | L3 | Provides a deep understanding of chemistry through a technical-philosophical app… |
+| [mobile](mobile/) | omkar-ukirde | ★ 0 | 25% | L2 | Mobile application security testing skills for Android and iOS platforms. |
+
+---
+
+*Auto-generated by [OmniSkill Registry](https://omni-skill-registry.omniroute.online)*

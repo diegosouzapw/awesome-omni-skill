@@ -1,6 +1,6 @@
 # 📂 testing-security
 
-> 589 skills in this category
+> 639 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -15,6 +15,7 @@
 | [aws-compliance-checker](aws-compliance-checker/) | sickn33 | ★ 15.5k | 91% | L3 | Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks |
 | [aws-iam-best-practices](aws-iam-best-practices/) | sickn33 | ★ 15.5k | 91% | L3 | IAM policy review, hardening, and least privilege implementation |
 | [aws-secrets-rotation](aws-secrets-rotation/) | sickn33 | ★ 15.5k | 91% | L3 | Automate AWS secrets rotation for RDS, API keys, and credentials |
+| [testing-qa](testing-qa/) | sickn33 | ★ 15.5k | 98% | L2 | Comprehensive testing and QA workflow covering unit testing, integration testing… |
 | [web-security-testing](web-security-testing/) | sickn33 | ★ 15.5k | 98% | L2 | Web application security testing workflow for OWASP Top 10 vulnerabilities inclu… |
 | [temporal-python-testing](temporal-python-testing/) | sickn33 | ★ 15.5k | 95% | L3 | Test Temporal workflows with pytest, time-skipping, and mocking strategies. Cove… |
 | [test-fixing](test-fixing/) | sickn33 | ★ 15.5k | 95% | L3 | Run tests and systematically fix all failing tests using smart error grouping. U… |
@@ -79,16 +80,21 @@
 | [accessibility-planning](accessibility-planning/) | majiayu000 | ★ 94 | 77% | L3 | Plan accessibility compliance - WCAG 2.2, Section 508, EN 301 549, inclusive des… |
 | [accessibility-test-axe](accessibility-test-axe/) | majiayu000 | ★ 94 | 77% | L3 | Эксперт по a11y тестированию. Используй для axe-core, automated testing и access… |
 | [accessibility-tester](accessibility-tester/) | majiayu000 | ★ 94 | 77% | L2 | Expert accessibility tester specializing in WCAG compliance, inclusive design, a… |
-| [accessibility_testing](accessibility_testing/) | majiayu000 | ★ 94 | 77% | L2 | Guide for conducting comprehensive accessibility audits of code to identify WCAG… |
 | [acgme-compliance](acgme-compliance/) | majiayu000 | ★ 94 | 77% | L3 | ACGME regulatory compliance expertise for medical residency scheduling. Use when… |
+| [add-authorization-methods](add-authorization-methods/) | majiayu000 | ★ 94 | 77% | L3 | Add authorization methods for a new entity to AuthorizationService. Use after cr… |
+| [add-unit-tests](add-unit-tests/) | majiayu000 | ★ 94 | 77% | L3 | Guide for adding unit tests to AReaL. Use when user wants to add tests for new f… |
+| [agent-audit](agent-audit/) | majiayu000 | ★ 94 | 77% | L3 | Validates agent configurations for model selection, tool permissions, focus area… |
 | [accessibility-check](accessibility-check/) | majiayu000 | ★ 94 | 73% | L3 | Run accessibility audit on frontend components for WCAG 2.1 AA compliance |
 | [accessibility-checker](accessibility-checker/) | majiayu000 | ★ 94 | 73% | L3 | Validate WCAG 2.1 Level AA compliance and accessibility best practices. |
 | [acceptance-tester](acceptance-tester/) | majiayu000 | ★ 94 | 70% | L2 | Execute systematic acceptance testing to verify implementations against acceptan… |
 | [accessibility-compliance-accessibility-audit](accessibility-compliance-accessibility-audit/) | majiayu000 | ★ 94 | 70% | L2 | You are an accessibility expert specializing in WCAG compliance, inclusive desig… |
-| [accessibility-testing](accessibility-testing/) | majiayu000 | ★ 94 | 70% | L2 | Validate WCAG and keyboard navigation. |
+| [affiliate-compliance-check](affiliate-compliance-check/) | majiayu000 | ★ 94 | 70% | L3 | Automated compliance checking for affiliate marketing content. Verifies FTC disc… |
+| [agent-compliance-auditor](agent-compliance-auditor/) | majiayu000 | ★ 94 | 69% | L2 | Validates agent definitions against the Antigravity audit rubric. |
 | [account-security](account-security/) | majiayu000 | ★ 94 | 66% | L2 | Account security - MFA, sessions, recovery. Use when protecting user accounts. |
+| [agent-accessibility-tester](agent-accessibility-tester/) | majiayu000 | ★ 94 | 64% | L2 | Expert accessibility tester specializing in WCAG compliance, inclusive design, a… |
 | [account-security-validation](account-security-validation/) | majiayu000 | ★ 94 | 54% | L2 | Validate account security and authentication protocols. |
 | [ab-test-setup](ab-test-setup/) | majiayu000 | ★ 93 | 77% | L2 | When the user wants to plan, design, or implement an A/B test or experiment. Als… |
+| [agent-ops-reality-audit](agent-ops-reality-audit/) | majiayu000 | ★ 92 | 77% | L2 | Aggressive evidence-based audit to verify project claims match implementation re… |
 | [security](security/) | majiayu000 | ★ 92 | 77% | L3 | Protect your SaaS app from common vulnerabilities. Use when building auth, handl… |
 | [Build Your Cloud Security Skill](build-your-cloud-security-skill/) | majiayu000 | ★ 92 | 77% | L3 | Create your cloud security skill in one prompt, then learn to improve it through… |
 | [60-validate-tests-150](60-validate-tests-150/) | majiayu000 | ★ 92 | 77% | L2 | [60] VALIDATE. Ensure new (staged and unstaged) changes are covered by tests at … |
@@ -107,20 +113,32 @@
 | [ab-testing](ab-testing/) | majiayu000 | ★ 92 | 66% | L2 | Use when designing experiments for subject lines, offers, cadences, or |
 | [ac-expander](ac-expander/) | majiayu000 | ★ 92 | 63% | L2 | Turn vague Acceptance Criteria into measurable checks and test assertions |
 | [Security Specialist](security-specialist/) | majiayu000 | ★ 92 | 57% | L2 | 专注于应用安全、认证授权与合规性。 |
+| [ai-doc-system-auditor](ai-doc-system-auditor/) | majiayu000 | ★ 2 | 67% | L2 | <skill> ────────────────────────────────────────────── <name>ai-doc-system-audit… |
+| [Algorithmic Command Enforcement](algorithmic-command-enforcement/) | majiayu000 | ★ 2 | 67% | L2 | Use boolean decision trees instead of imperatives for 100% compliance under pres… |
+| [analyze-test-failures](analyze-test-failures/) | majiayu000 | ★ 2 | 67% | L2 | This skill should be used when the user asks to "analyze failing tests", "debug … |
+| [analyzing-dependencies](analyzing-dependencies/) | majiayu000 | ★ 2 | 67% | L2 | Analyze dependencies for known security vulnerabilities and outdated versions. U… |
 | [ab-test-setup](ab-test-setup/) | majiayu000 | ★ 2 | 64% | L2 | When the user wants to plan, design, or implement an A/B test or experiment. Als… |
 | [accessibility-planning](accessibility-planning/) | majiayu000 | ★ 2 | 64% | L3 | Plan accessibility compliance - WCAG 2.2, Section 508, EN 301 549, inclusive des… |
-| [accessibility-testing](accessibility-testing/) | majiayu000 | ★ 2 | 64% | L3 | WCAG 2.2 compliance testing, screen reader validation, and inclusive design veri… |
 | [adb-device-testing](adb-device-testing/) | majiayu000 | ★ 2 | 64% | L3 | Use when testing Android apps on ADB-connected devices/emulators - UI automation… |
 | [add-authorization-methods](add-authorization-methods/) | majiayu000 | ★ 2 | 64% | L3 | Add authorization methods for a new entity to AuthorizationService. Use after cr… |
 | [add-unit-tests](add-unit-tests/) | majiayu000 | ★ 2 | 64% | L3 | Guide for adding unit tests to AReaL. Use when user wants to add tests for new f… |
 | [admin-dashboard-qa](admin-dashboard-qa/) | majiayu000 | ★ 2 | 64% | L3 | Use this skill when implementing, modifying, or fixing the admin dashboard (admi… |
 | [Advanced RE Analysis](advanced-re-analysis/) | majiayu000 | ★ 2 | 64% | L3 | Specialized reverse engineering analysis workflows for binary analysis, pattern … |
 | [aeo-audit](aeo-audit/) | majiayu000 | ★ 2 | 64% | L2 | Answer Engine Optimization (AEO) audit methodology for LLM visibility. Use when … |
-| [adb-karrot](adb-karrot/) | majiayu000 | ★ 2 | 63% | L3 | Workflow file path for execute_workflow action |
+| [agent-ops-reality-audit](agent-ops-reality-audit/) | majiayu000 | ★ 2 | 64% | L2 | Aggressive evidence-based audit to verify project claims match implementation re… |
+| [ai-governance](ai-governance/) | majiayu000 | ★ 2 | 64% | L2 | AI governance and compliance guidance covering EU AI Act risk classification, NI… |
+| [AI Risk Assessment](ai-risk-assessment/) | majiayu000 | ★ 2 | 64% | L3 | Identifying, assessing, and mitigating risks in AI systems including bias, safet… |
+| [ai-slop-detector](ai-slop-detector/) | majiayu000 | ★ 2 | 64% | L2 | Detects and removes AI writing patterns from text. Use when polishing drafts, cl… |
+| [algorand-vulnerability-scanner](algorand-vulnerability-scanner/) | majiayu000 | ★ 2 | 64% | L3 | Scans Algorand smart contracts for 11 common vulnerabilities including rekeying … |
+| [amp-skill-creator](amp-skill-creator/) | majiayu000 | ★ 2 | 64% | L3 | PRIMARY skill creator. Use this by default when creating ANY skill. If user expl… |
+| [analyzing-backtests](analyzing-backtests/) | majiayu000 | ★ 2 | 64% | L2 | Analyzes algorithmic trading backtest results from Jupyter notebooks and generat… |
+| [AI Safety Auditor](ai-safety-auditor/) | majiayu000 | ★ 2 | 63% | L3 | Audit AI systems for safety, bias, and responsible deployment |
 | [add-test-coverage](add-test-coverage/) | majiayu000 | ★ 2 | 60% | L2 | Analyze recent changes and add test coverage for HEAD commit |
-| [adobesign](adobesign/) | majiayu000 | ★ 2 | 60% | L3 | Manage enterprise e-signatures with Adobe Sign's document signing solution. |
+| [analyze-test-coverage](analyze-test-coverage/) | majiayu000 | ★ 2 | 60% | L3 | Analyze test coverage gaps and report findings |
+| [analyze-test-results](analyze-test-results/) | majiayu000 | ★ 2 | 60% | L3 | Analyze test failures and CI artifacts to identify and fix bugs |
 | [affiliate-compliance-check](affiliate-compliance-check/) | majiayu000 | ★ 2 | 57% | L3 | Automated compliance checking for affiliate marketing content. Verifies FTC disc… |
 | [agent-security-engineer](agent-security-engineer/) | majiayu000 | ★ 2 | 57% | L2 | Expert infrastructure security engineer specializing in DevSecOps, cloud securit… |
+| [analyzing-crypto-weakness](analyzing-crypto-weakness/) | majiayu000 | ★ 2 | 57% | L2 | Identifies weak cryptographic algorithms, hardcoded keys, and insecure key manag… |
 | [agent-compliance-auditor](agent-compliance-auditor/) | majiayu000 | ★ 2 | 56% | L2 | Validates agent definitions against the Antigravity audit rubric. |
 | [agent-accessibility-tester](agent-accessibility-tester/) | majiayu000 | ★ 2 | 51% | L2 | Expert accessibility tester specializing in WCAG compliance, inclusive design, a… |
 | [agent-dependency-manager](agent-dependency-manager/) | majiayu000 | ★ 2 | 51% | L2 | Expert dependency manager specializing in package management, security auditing,… |
@@ -161,7 +179,6 @@
 | [auditing-accessibility-wcag](auditing-accessibility-wcag/) | majiayu000 | ★ 1 | 62% | L3 | Checks components and pages for WCAG 2.1 accessibility violations. Use when the … |
 | [accessibility-test-axe](accessibility-test-axe/) | majiayu000 | ★ 1 | 62% | L3 | Эксперт по a11y тестированию. Используй для axe-core, automated testing и access… |
 | [accessibility-tester](accessibility-tester/) | majiayu000 | ★ 1 | 62% | L2 | Expert accessibility tester specializing in WCAG compliance, inclusive design, a… |
-| [accessibility_testing](accessibility_testing/) | majiayu000 | ★ 1 | 62% | L2 | Guide for conducting comprehensive accessibility audits of code to identify WCAG… |
 | [acgme-compliance](acgme-compliance/) | majiayu000 | ★ 1 | 62% | L3 | ACGME regulatory compliance expertise for medical residency scheduling. Use when… |
 | [accessibility-check](accessibility-check/) | majiayu000 | ★ 1 | 58% | L3 | Run accessibility audit on frontend components for WCAG 2.1 AA compliance |
 | [accessibility-checker](accessibility-checker/) | majiayu000 | ★ 1 | 58% | L3 | Validate WCAG 2.1 Level AA compliance and accessibility best practices. |
@@ -172,6 +189,7 @@
 | [ac-expander](ac-expander/) | majiayu000 | ★ 1 | 48% | L2 | Turn vague Acceptance Criteria into measurable checks and test assertions |
 | [Security Specialist](security-specialist/) | majiayu000 | ★ 1 | 42% | L2 | 专注于应用安全、认证授权与合规性。 |
 | [account-security-validation](account-security-validation/) | majiayu000 | ★ 1 | 39% | L2 | Validate account security and authentication protocols. |
+| [doc-coauthoring](doc-coauthoring/) | rafaelramosdf | ★ 0 | 59% | L2 | Guide users through a structured workflow for co-authoring documentation. Use wh… |
 | [accessibility](accessibility/) | oimiragieo | ★ 0 | 50% | L3 | Ensure accessibility in UI components including semantic HTML, ARIA attributes, … |
 | [five-s-auditor](five-s-auditor/) | a5c-ai | ★ 0 | 48% | L3 | 5S workplace organization audit skill with scoring, photo documentation, and sus… |
 | [Authentication - Authentication Documentation](authentication-authentication-documentation/) | duhd-vnpay | ★ 0 | 48% | L2 | This skill provides security verification requirements for authentication docume… |
@@ -182,6 +200,7 @@
 | [api-security-testing](api-security-testing/) | boisenoise | ★ 0 | 48% | L2 | API security testing workflow for REST and GraphQL APIs covering authentication,… |
 | [api-security-testing](api-security-testing/) | javiertarazon | ★ 0 | 48% | L2 | API security testing workflow for REST and GraphQL APIs covering authentication,… |
 | [threat-model-generation](threat-model-generation/) | IEatCodeDaily | ★ 0 | 48% | L2 | Generate a STRIDE-based security threat model for a repository. Use when setting… |
+| [muki-fingerprint](muki-fingerprint/) | openclaw | ★ 0 | 48% | L3 | MUKI asset fingerprinting tool for red team reconnaissance. Use when performing … |
 | [security-threat-model](security-threat-model/) | tech-leads-club | ★ 0 | 48% | L2 | Repository-grounded threat modeling that enumerates trust boundaries, assets, at… |
 | [typo3-security](typo3-security/) | majiayu000 | ★ 0 | 48% | L3 | Security hardening checklist and best practices for TYPO3 v13/v14 installations,… |
 | [hardware-security](hardware-security/) | majiayu000 | ★ 0 | 48% | L3 | Hardware and embedded security research capabilities. Interface with JTAG debugg… |
@@ -207,6 +226,9 @@
 | [Security Engineer](security-engineer/) | majiayu000 | ★ 0 | 48% | L3 | Implement security best practices across the application stack. Use when securin… |
 | [oauth-2-0-setup](oauth-2-0-setup/) | seb1n | ★ 0 | 48% | L3 | Implement OAuth 2.0 authentication flows including authorization code with PKCE,… |
 | [codebase-audit](codebase-audit/) | NeverSight | ★ 0 | 48% | L3 | Performs comprehensive codebase audit checking architecture, tech debt, security… |
+| [better_auth](better_auth/) | majiayu000 | ★ 0 | 48% | L3 | The ultimate authentication and authorization skill. Implement login, signin, si… |
+| [better_auth](better_auth/) | vuralserhat86 | ★ 0 | 48% | L3 | The ultimate authentication and authorization skill. Implement login, signin, si… |
+| [better_auth](better_auth/) | majiayu000 | ★ 0 | 48% | L3 | The ultimate authentication and authorization skill. Implement login, signin, si… |
 | [typo3-security](typo3-security/) | NeverSight | ★ 0 | 48% | L3 | Security hardening checklist and best practices for TYPO3 v13/v14 installations,… |
 | [moai-security-auth0](moai-security-auth0/) | majiayu000 | ★ 0 | 48% | L3 | Auth0 security specialist covering attack protection, multi-factor authenticatio… |
 | [security-hardening](security-hardening/) | IbIFACE-Tech | ★ 0 | 48% | L3 | Comprehensive security implementation covering authentication, authorization, in… |
@@ -239,6 +261,8 @@
 | [safe-commit](safe-commit/) | majiayu000 | ★ 0 | 48% | L2 | ⚠️ MANDATORY - YOU MUST invoke this skill when committing. Complete commit workf… |
 | [safe-commit](safe-commit/) | meriley | ★ 0 | 48% | L2 | ⚠️ MANDATORY - YOU MUST invoke this skill when committing. Complete commit workf… |
 | [fagan-code-review](fagan-code-review/) | nikolasrieble | ★ 0 | 48% | L3 | Systematic code inspection methodology for finding errors through structured tea… |
+| [israeli-corporate-law](israeli-corporate-law/) | NeverSight | ★ 0 | 48% | L2 | Israeli corporate law & compliance assistant for Israel-related matters (Compani… |
+| [cursor-best-practices](cursor-best-practices/) | majiayu000 | ★ 0 | 48% | L3 | Best practices for using Cursor—rules, commands, skills, subagents, ignore files… |
 | [Compliance Audit](compliance-audit/) | cdalsoniii | ★ 0 | 46% | L2 | Audit technical controls against compliance framework requirements |
 | [doc-coauthoring](doc-coauthoring/) | rafaelramosdf | ★ 0 | 45% | L2 | Guia os usuários através de um fluxo de trabalho estruturado para coautoria de d… |
 | [cc-data-organization](cc-data-organization/) | majiayu000 | ★ 0 | 45% | L2 | Audit and fix data organization: variable declarations, data types, magic number… |
@@ -459,6 +483,7 @@
 | [doc-testing](doc-testing/) | dlants | ★ 0 | 45% | L3 | Comprehensive guide for writing tests in magenta.nvim, including test environmen… |
 | [audit-rules](audit-rules/) | melodic-software | ★ 0 | 45% | L3 | Audit Claude Code rule files for quality and compliance. Use when creating or va… |
 | [auth-wechat-miniprogram](auth-wechat-miniprogram/) | TencentCloudBase | ★ 0 | 45% | L3 | Complete guide for WeChat Mini Program authentication with CloudBase - native lo… |
+| [verify](verify/) | majiayu000 | ★ 0 | 45% | L2 | Verifies builds, recovers from errors, and applies review fixes. Use when user m… |
 | [status-determination](status-determination/) | daisyai-ai | ★ 0 | 45% | L2 | Evaluates hospital admission packets to determine if inpatient or observation st… |
 | [developing-claude-code-meta](developing-claude-code-meta/) | mikekelly | ★ 0 | 45% | L2 | MUST be loaded when setting up, installing, migrating, reviewing, auditing, or c… |
 | [test-orchestrator](test-orchestrator/) | Brownbull | ★ 0 | 45% | L3 | Coordinates testing strategy and execution across all test types. Use when creat… |
@@ -484,8 +509,16 @@
 | [risk-based-testing](risk-based-testing/) | mattnigh | ★ 0 | 45% | L3 | Focus testing effort on highest-risk areas using risk assessment and prioritizat… |
 | [technical-review](technical-review/) | leeovery | ★ 0 | 45% | L2 | Validate completed implementation against plan tasks and acceptance criteria. Us… |
 | [divek-bi-visual-audit](divek-bi-visual-audit/) | Likilee | ★ 0 | 45% | L2 | Visual compliance auditing for DiveK brand identity. Use when reviewing UI scree… |
-| [tdd-workflow](tdd-workflow/) | huangwb8 | ★ 0 | 45% | L3 | Use when implementing any feature or bugfix, before writing implementation code … |
-| [tdd-workflow](tdd-workflow/) | majiayu000 | ★ 0 | 45% | L3 | Use when implementing any feature or bugfix, before writing implementation code … |
+| [test-orchestrator](test-orchestrator/) | majiayu000 | ★ 0 | 45% | L3 | Coordinates testing strategy and execution across all test types. Use when creat… |
+| [qa-tester](qa-tester/) | majiayu000 | ★ 0 | 45% | L3 | QA Tester Agent. 테스트 작성, 실행, 검증을 담당합니다. 테스트, 검증, 단위테스트, 통합테스트, E2E 관련 요청 시 사용됩니다… |
+| [quality-standards](quality-standards/) | majiayu000 | ★ 0 | 45% | L3 | Overview of protected quality thresholds and quick reference for all quality too… |
+| [auth-tool-cloudbase](auth-tool-cloudbase/) | majiayu000 | ★ 0 | 45% | L2 | Use CloudBase Auth tool to configure and manage authentication providers for web… |
+| [verify](verify/) | aiskillstore | ★ 0 | 45% | L2 | Verifies builds, recovers from errors, and applies review fixes. Use when user m… |
+| [auth-wechat-miniprogram](auth-wechat-miniprogram/) | majiayu000 | ★ 0 | 45% | L3 | Complete guide for WeChat Mini Program authentication with CloudBase - native lo… |
+| [project-deck](project-deck/) | jusi-aalto | ★ 0 | 45% | L2 | Generate "future self" Beamer presentation decks as progress logs for research p… |
+| [blog-smoke-tests](blog-smoke-tests/) | majiayu000 | ★ 0 | 45% | L3 | Run Playwright smoke tests for Denser blog application. Executes 15 tests (SMOKE… |
+| [cc-data-organization](cc-data-organization/) | majiayu000 | ★ 0 | 45% | L2 | Audit and fix data organization: variable declarations, data types, magic number… |
+| [memory](memory/) | GobbyAI | ★ 0 | 45% | L2 | This skill should be used when the user asks to "/gobby memory", "remember", "re… |
 | [tinman](tinman/) | Niraven | ★ 0 | 44% | L3 | Security auditing and hardening for OpenClaw and system infrastructure. |
 | [Sharing Skills](sharing-skills/) | majiayu000 | ★ 0 | 44% | L3 | Contribute skills back to upstream via branch and PR |
 | [testing-strategy](testing-strategy/) | mattnigh | ★ 0 | 44% | L3 | Comprehensive guide for implementing AIDB tests following E2E-first philosophy, |
@@ -496,12 +529,16 @@
 | [Axe-core Accessibility](axe-core-accessibility/) | omarrohit20 | ★ 0 | 44% | L3 | Automated accessibility testing with axe-core and WCAG 2.1 compliance |
 | [OWASP Security Testing](owasp-security-testing/) | omarrohit20 | ★ 0 | 44% | L3 | OWASP Top 10 security testing patterns and vulnerability scanning |
 | [testing-strategy](testing-strategy/) | ai-debugger-inc | ★ 0 | 44% | L3 | Comprehensive guide for implementing AIDB tests following E2E-first philosophy, |
+| [Sharing Skills](sharing-skills/) | majiayu000 | ★ 0 | 44% | L3 | Contribute skills back to upstream via branch and PR |
+| [dd-pup](dd-pup/) | datadog-labs | ★ 0 | 44% | L3 | Datadog CLI (Go). OAuth2 auth with token refresh. |
 | [SAST Triage](sast-triage/) | cdalsoniii | ★ 0 | 43% | L2 | Triage static analysis findings from gosec, golangci-lint, and govulncheck — cla… |
 | [BDD from API Spec](bdd-from-api-spec/) | cdalsoniii | ★ 0 | 43% | L2 | Generate Gherkin BDD feature files from API handler definitions — map endpoints … |
 | [aidf-developer](aidf-developer/) | rubenmavarezb | ★ 0 | 43% | L3 | Senior developer who writes clean, tested, maintainable code. Follows establishe… |
 | [Dependency Health Check](dependency-health-check/) | cdalsoniii | ★ 0 | 43% | L2 | Assess dependency health across CVE exposure, freshness, maintainer risk, and li… |
 | [Authorization Matrix](authorization-matrix/) | cdalsoniii | ★ 0 | 43% | L2 | Build and verify an authorization matrix mapping roles to endpoints — detect unp… |
 | [Test Gap from Diff](test-gap-from-diff/) | cdalsoniii | ★ 0 | 43% | L2 | Given a code diff, identify exactly which tests are missing — map changed functi… |
+| [hive-auth](hive-auth/) | paralect | ★ 0 | 43% | L3 | How authentication works in Hive framework |
+| [Coverage Ratcheting](coverage-ratcheting/) | cdalsoniii | ★ 0 | 43% | L2 | Enforce that test coverage never decreases — compare current coverage against ba… |
 | [better-auth-skill](better-auth-skill/) | WajahatAli3218664 | ★ 0 | 41% | L3 | Configure Better Auth with JWT for secure authentication |
 | [Property Testing](property-testing/) | majiayu000 | ★ 0 | 41% | L3 | Property-based testing with fast-check for business logic validation |
 | [container-security-scanner](container-security-scanner/) | majiayu000 | ★ 0 | 41% | L2 | Scan images and runtime for CVEs and policy violations. |
@@ -534,10 +571,14 @@
 | [preen-review-instructions](preen-review-instructions/) | a2f0 | ★ 0 | 41% | L3 | Audit and update code review instructions (REVIEW.md, .gemini/INSTRUCTIONS.md) |
 | [done](done/) | hankh95 | ★ 0 | 41% | L3 | Complete current expedition - run tests, commit, push, and update kanban status |
 | [openspec-bulk-archive-change](openspec-bulk-archive-change/) | YangYuS8 | ★ 0 | 41% | L3 | 一次归档多个已完成的变更。用于归档多个并行变更。 |
+| [container-security-scanner](container-security-scanner/) | majiayu000 | ★ 0 | 41% | L2 | Scan images and runtime for CVEs and policy violations. |
 | [acceptance-test-driven-development](acceptance-test-driven-development/) | coctostan | ★ 0 | 40% | L3 | Write acceptance tests before unit tests to ensure you're building the right thi… |
+| [security](security/) | kprsnt2 | ★ 0 | 40% | L3 | Application security best practices including OWASP Top 10, authentication, and … |
 | [Threat Model](threat-model/) | cdalsoniii | ★ 0 | 39% | L2 | Conduct STRIDE-based threat modeling for system components and data flows |
 | [tauri-security-rules](tauri-security-rules/) | oimiragieo | ★ 0 | 39% | L3 | Security-related rules for Tauri application development. |
 | [tauri-security-rules](tauri-security-rules/) | Finimo-Solutions | ★ 0 | 39% | L3 | Security-related rules for Tauri application development. |
+| [Load Test Designer](load-test-designer/) | cdalsoniii | ★ 0 | 39% | L2 | Design load tests with realistic workload models and performance criteria |
+| [comprehensive-unit-testing-with-pytest](comprehensive-unit-testing-with-pytest/) | oimiragieo | ★ 0 | 39% | L2 | Aims for high test coverage using pytest, testing both common and edge cases. |
 | [Zendesk Customer Context](zendesk-customer-context/) | djinilabs | ★ 0 | 38% | L2 | Ticket history, requester context |
 | [vulnerability-scanning](vulnerability-scanning/) | majiayu000 | ★ 0 | 38% | L3 | Automated security scanning for dependencies, code, containers with Trivy, Snyk,… |
 | [vulnerability-scanning](vulnerability-scanning/) | secondsky | ★ 0 | 38% | L3 | Automated security scanning for dependencies, code, containers with Trivy, Snyk,… |
@@ -559,10 +600,14 @@
 | [pentest-outbound-interaction-oob-detection](pentest-outbound-interaction-oob-detection/) | NeverSight | ★ 0 | 38% | L2 | Security assessment skill for outbound interaction and out-of-band (OOB) validat… |
 | [security-auditor-skill](security-auditor-skill/) | zeyuShawn | ★ 0 | 38% | L3 | 扫描指定目录或文件中的安全漏洞（特别是针对 macOS/Linux 的恶意安装脚本、Base64 混淆、反向 Shell）。当用户要求“检查安全”、“扫描漏洞”… |
 | [quality](quality/) | majiayu000 | ★ 0 | 38% | L2 | Code quality assurance strategies. Parent skill for quality-related skills: secu… |
+| [auth](auth/) | majiayu000 | ★ 0 | 38% | L2 | Implements authentication and payment features using Clerk, Supabase Auth, or St… |
+| [browser-testing](browser-testing/) | majiayu000 | ★ 0 | 38% | L3 | Use when testing web applications, debugging browser console errors, automating … |
 | [security](security/) | pluginagentmarketplace | ★ 0 | 37% | L3 | Security skill - OWASP, authentication, encryption, compliance |
+| [testing](testing/) | kprsnt2 | ★ 0 | 36% | L2 | Testing patterns and best practices for unit, integration, and E2E testing. |
 | [data-security](data-security/) | arcasilesgroup | ★ 0 | 35% | L2 | Assess data security controls: classification, access, encryption, retention, an… |
 | [playwright-best-practices](playwright-best-practices/) | aiskillstore | ★ 0 | 35% | L2 | Review code for Playwright Guidelines compliance. Use when asked to "review my p… |
 | [playwright-best-practices](playwright-best-practices/) | vitalics | ★ 0 | 35% | L2 | Review code for Playwright Guidelines compliance. Use when asked to "review my p… |
+| [security](security/) | lordofthejars | ★ 0 | 35% | L2 | Generate Tekton Task that uses Trivy to scan generated container for vulnerabili… |
 | [mk.ops](mk.ops/) | mayknxyz | ★ 0 | 34% | L2 | My Kit standalone utilities — handles code audits. |
 | [security-audit](security-audit/) | renatinhosfaria | ★ 0 | 34% | L2 | Use when reviewing code for security vulnerabilities and OWASP top 10 issues |
 | [jules-audit-request](jules-audit-request/) | majiayu000 | ★ 0 | 34% | L2 | Protocol for escalation to Jules when stuck. |
@@ -586,13 +631,18 @@
 | [testing](testing/) | 5t111111 | ★ 0 | 28% | L2 | Guide for testing practices and frameworks |
 | [testing-patterns](testing-patterns/) | grmkris | ★ 0 | 28% | L3 | Testing patterns using bun:test with in-memory SQLite. Use when writing unit tes… |
 | [testing-patterns](testing-patterns/) | grmkris | ★ 0 | 28% | L3 | Testing patterns using bun:test with in-memory SQLite. Use when writing unit tes… |
+| [testing](testing/) | majiayu000 | ★ 0 | 28% | L3 | Guide for testing practices and frameworks |
 | [Global Security](global-security/) | majiayu000 | ★ 0 | 26% | L2 | Your approach to handling global security. Use this skill when working on files … |
 | [playwright](playwright/) | majiayu000 | ★ 0 | 26% | L2 | Playwright E2E testing patterns and best practices. Cross-browser automation, se… |
 | [Global Security](global-security/) | majiayu000 | ★ 0 | 26% | L2 | Your approach to handling global security. Use this skill when working on files … |
 | [Global Security](global-security/) | jaypaulb | ★ 0 | 26% | L2 | Your approach to handling global security. Use this skill when working on files … |
+| [hlab-auditor](hlab-auditor/) | majiayu000 | ★ 0 | 25% | L2 | Independent reviewer. Provide PASS/FAIL based on `docs/AUDIT-CHECKLIST.md`. |
+| [hlab-auditor](hlab-auditor/) | majiayu000 | ★ 0 | 25% | L2 | Independent reviewer. Provide PASS/FAIL based on `docs/AUDIT-CHECKLIST.md`. |
+| [jwt](jwt/) | GoldenPanda1104 | ★ 0 | 24% | L2 | JWT y auth. Proyecto usa este skill; contenido canónico en .ai-system. |
 | [lc-test](lc-test/) | majiayu000 | ★ 0 | 22% | L2 | Test a Rust solution file against LeetCode's test cases (project) |
 | [lc-test](lc-test/) | majiayu000 | ★ 0 | 22% | L2 | Test a Rust solution file against LeetCode's test cases (project) |
 | [lc-test](lc-test/) | iQeda | ★ 0 | 22% | L2 | Test a Rust solution file against LeetCode's test cases (project) |
+| [lc-test](lc-test/) | majiayu000 | ★ 0 | 22% | L2 | Test a Rust solution file against LeetCode's test cases (project) |
 
 ---
 

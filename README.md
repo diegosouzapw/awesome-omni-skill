@@ -1,11 +1,11 @@
-# 🌐 Awesome OmniSkill — 11.9k+ Agent Skills
+# 🌐 Awesome OmniSkill — 13.9k+ Agent Skills
 
 > The largest curated collection of SKILL.md-compatible agent skills for Claude Code, Gemini CLI, Cursor, Copilot, and more.
 > Auto-synced from [OmniSkill Registry](https://omni-skill-registry.omniroute.online).
 
-[![Skills](https://img.shields.io/badge/skills-11920-blue)]()
-[![Repos](https://img.shields.io/badge/repos-3387-purple)]()
-[![Categories](https://img.shields.io/badge/categories-12-green)]()
+[![Skills](https://img.shields.io/badge/skills-13932-blue)]()
+[![Repos](https://img.shields.io/badge/repos-3664-purple)]()
+[![Categories](https://img.shields.io/badge/categories-18-green)]()
 [![Auto-Sync](https://img.shields.io/badge/sync-every%206h-orange)]()
 [![Registry](https://img.shields.io/badge/browse-OmniSkill%20Registry-red)](https://omni-skill-registry.omniroute.online)
 
@@ -15,10 +15,10 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **11,920** |
-| Source Repositories | **3,387** |
-| Categories | **12** |
-| Last Sync | 2026-02-27 |
+| Total Skills | **13.932** |
+| Source Repositories | **3.664** |
+| Categories | **18** |
+| Last Sync | 2026-02-28 |
 
 ---
 
@@ -26,17 +26,23 @@
 
 | Category | Skills | Highlights |
 |----------|--------|------------|
-| [development](skills/development/) | 5,255 | Top: microsoft/vscode (★182.1k) |
-| [tools](skills/tools/) | 2,094 | Top: microsoft/vscode (★182.0k) |
-| [data-ai](skills/data-ai/) | 1,965 | Top: microsoft/vscode (★182.0k) |
-| [devops](skills/devops/) | 842 | Top: microsoft/vscode (★182.0k) |
-| [testing-security](skills/testing-security/) | 589 | Top: microsoft/vscode (★182.0k) |
-| [design](skills/design/) | 442 | Top: microsoft/vscode (★182.0k) |
-| [documentation](skills/documentation/) | 235 | Top: ComposioHQ/awesome-claude-skills (★37.3k) |
-| [product](skills/product/) | 188 | Top: ComposioHQ/awesome-claude-skills (★37.7k) |
-| [business](skills/business/) | 175 | Top: ComposioHQ/awesome-claude-skills (★37.7k) |
-| [content-media](skills/content-media/) | 105 | Top: ComposioHQ/awesome-claude-skills (★37.7k) |
-| [communication](skills/communication/) | 27 | Top: sickn33/antigravity-awesome-skills (★15.5k) |
+| [development](skills/development/) | 5.441 | Top: microsoft/vscode (★182.1k) |
+| [tools](skills/tools/) | 2.205 | Top: microsoft/vscode (★182.0k) |
+| [data-ai](skills/data-ai/) | 2.001 | Top: microsoft/vscode (★182.0k) |
+| [devops](skills/devops/) | 949 | Top: microsoft/vscode (★182.0k) |
+| [testing-security](skills/testing-security/) | 639 | Top: microsoft/vscode (★182.0k) |
+| [design](skills/design/) | 539 | Top: microsoft/vscode (★182.0k) |
+| [backend](skills/backend/) | 446 | Top: sickn33/antigravity-awesome-skills (★15.5k) |
+| [ai-agents](skills/ai-agents/) | 383 | Top: sickn33/antigravity-awesome-skills (★15.5k) |
+| [documentation](skills/documentation/) | 275 | Top: ComposioHQ/awesome-claude-skills (★37.3k) |
+| [product](skills/product/) | 229 | Top: ComposioHQ/awesome-claude-skills (★37.7k) |
+| [cli-automation](skills/cli-automation/) | 221 | Top: ComposioHQ/awesome-claude-skills (★37.3k) |
+| [business](skills/business/) | 198 | Top: ComposioHQ/awesome-claude-skills (★37.7k) |
+| [content-media](skills/content-media/) | 150 | Top: ComposioHQ/awesome-claude-skills (★37.7k) |
+| [frontend](skills/frontend/) | 123 | Top: sickn33/antigravity-awesome-skills (★15.5k) |
+| [fullstack-web](skills/fullstack-web/) | 52 | Top: sickn33/antigravity-awesome-skills (★15.4k) |
+| [communication](skills/communication/) | 39 | Top: sickn33/antigravity-awesome-skills (★15.5k) |
+| [machine-learning](skills/machine-learning/) | 39 | Top: majiayu000/claude-skill-registry (★94) |
 | [uncategorized](skills/uncategorized/) | 3 | Top: majiayu000/claude-skill-registry-data (★2) |
 
 ---
@@ -92,7 +98,7 @@ Visit the [OmniSkill Registry](https://omni-skill-registry.omniroute.online) for
 
 ## 📖 Full Catalog
 
-See [CATALOG.md](CATALOG.md) for the complete alphabetical listing of all 11,920 skills.
+See [CATALOG.md](CATALOG.md) for the complete alphabetical listing of all 13.932 skills.
 
 ---
 
