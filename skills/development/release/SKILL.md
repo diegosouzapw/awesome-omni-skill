@@ -1,47 +1,125 @@
 ---
 name: release
-description: Prepare and publish a new cryptobot-python release. Use when the user asks to cut a release, bump the package version, update HISTORY.md, create a git tag, or create a GitHub release.
+description: How to release a new pgdbm library version to PyPI
 ---
 
-# Release Skill
+# Releasing pgdbm
 
-Create a new release for the cryptobot-python package.
+## Overview
 
-## Usage
+This skill guides you through releasing a new version of the pgdbm library.
 
+## Prerequisites
+
+- All tests passing
+- Changes committed to main branch
+- CHANGELOG.md updated with changes
+
+## Release Checklist
+
+### 1. Run Tests
+
+```bash
+uv run pytest
 ```
-/release <version>
+
+All tests must pass before releasing.
+
+### 2. Update Version Numbers
+
+Three files need version updates:
+
+```bash
+# Check current version
+grep "^version" pyproject.toml
 ```
 
-Where `<version>` is the new semantic version (e.g., `0.4.2`, `0.5.0`, `1.0.0`).
+Update these files to the new version:
 
-## Instructions
+| File | Location |
+|------|----------|
+| `pyproject.toml` | `version = "X.Y.Z"` |
+| `src/pgdbm/__version__.py` | `__version__ = "X.Y.Z"` |
+| `.claude-plugin/plugin.json` | `"version": "X.Y.Z"` |
 
-When the user invokes this skill with a version number, perform the following steps:
+**Important**: The plugin.json version controls Claude Code skill caching. Always bump it when releasing.
 
-1. **Validate the version**: Ensure the version follows semantic versioning (X.Y.Z format).
+### 3. Update CHANGELOG.md
 
-2. **Update version files**:
-   - Update `version` in `pyproject.toml`
-   - Update `__version__` in `cryptobot/__init__.py`
+Add entry at the top:
 
-3. **Ask for release notes**: Ask the user what changes should be included in the release notes.
+```markdown
+## [X.Y.Z] - YYYY-MM-DD
 
-4. **Update HISTORY.md**: Add a new entry at the top of the History section with:
-   - Version number and today's date
-   - The release notes provided by the user
+### Added
+- New features
 
-5. **Run tests**: Execute `make test` to ensure all tests pass before proceeding.
+### Changed
+- Changes to existing features
 
-6. **Create commit**: Create a commit with message `chore(release): prepare v<version> release`
+### Fixed
+- Bug fixes
+```
 
-7. **Create tag**: Create an annotated git tag `v<version>` pointing to the release commit.
+### 4. Commit the Release
 
-8. **Create GitHub release**: Use `gh release create` to create a GitHub release with:
-   - Tag: `v<version>`
-   - Title: `v<version>`
-   - Release notes from the HISTORY.md entry
+```bash
+git add pyproject.toml src/pgdbm/__version__.py .claude-plugin/plugin.json CHANGELOG.md uv.lock
+git commit -m "chore: bump version to X.Y.Z
 
-9. **Report completion**: Provide the user with:
-   - Summary of files changed
-   - Link to the GitHub release
+- Summary of changes
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+```
+
+### 5. Create Git Tag
+
+```bash
+git tag -a vX.Y.Z -m "Release X.Y.Z"
+```
+
+### 6. Push to GitHub
+
+```bash
+git push origin main
+git push origin vX.Y.Z
+```
+
+### 7. Publish to PyPI
+
+**Important**: Clean the dist/ directory first to avoid uploading old versions.
+
+```bash
+rm -rf dist/
+uv build
+uv publish
+```
+
+Or if using twine:
+
+```bash
+rm -rf dist/
+uv build
+twine upload dist/*
+```
+
+### 8. Verify Release
+
+```bash
+# Check PyPI
+pip index versions pgdbm
+
+# Check plugin update works
+claude plugin update pgdbm@juanre-ai-tools
+```
+
+## Version Numbering
+
+Follow semver:
+- **MAJOR** (X.0.0): Breaking API changes
+- **MINOR** (0.X.0): New features, backward compatible
+- **PATCH** (0.0.X): Bug fixes, documentation
+
+## Related Skills
+
+- For skill updates: See `publish-skills` skill

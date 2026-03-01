@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/devops/deployment-git/SKILL.md",
+  "file_path": "skills/devops/deployment-git-integrum-global-kaizen-studio/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "88e96b2549b9f679138e81daa472f3e19306bca54227f5bdf016812806071b36",
-  "indexed_at": "2026-02-27T12:38:19.098Z",
-  "synced_at": "2026-02-28T04:10:42.070Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b272becc4195c731c533321b656b3b89b8c64b086bf5c7b5eb8a002f42dfed9b",
-  "install_command": "mkdir -p .claude/skills/deployment-git && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/deployment-git/SKILL.md\" > .claude/skills/deployment-git/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/deployment-git/SKILL.md"
+  "content_hash": "df915f1f911a47076c89bb2d0f66b84563228c76a1b2c3dc4f185c67dd4b230e",
+  "indexed_at": "2026-03-01T13:47:05.837Z",
+  "synced_at": "2026-03-01T18:10:51.256Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f02969460b108dbb6fe94c4420416e393ba0cce41a349e2a0f43f29a8102f16b",
+  "install_command": "mkdir -p .claude/skills/deployment-git && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/deployment-git-integrum-global-kaizen-studio/SKILL.md\" > .claude/skills/deployment-git/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/deployment-git-integrum-global-kaizen-studio/SKILL.md"
 }

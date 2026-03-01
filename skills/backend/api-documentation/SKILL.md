@@ -1,270 +1,413 @@
 ---
 name: api-documentation
-description: Use when API code changes (routes, endpoints, schemas). Enforces Swagger/OpenAPI sync. Pauses work if documentation has drifted, triggering documentation-audit skill.
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
-  - Edit
-  - Write
-  - mcp__github__*
-model: opus
+description: API documentation standards and patterns
 ---
 
-# API Documentation Enforcement
+# API Documentation Skill
 
-## Overview
+Standards for documenting REST and GraphQL APIs.
 
-Ensures all API changes are reflected in Swagger/OpenAPI documentation. When documentation drift is detected, work pauses until documentation is synchronized.
+## REST API Documentation
 
-**Core principle:** API documentation is a first-class artifact, not an afterthought. No API change ships without documentation.
-
-**Announce at start:** "I'm using api-documentation to verify Swagger/OpenAPI sync."
-
-## When This Skill Triggers
-
-This skill is triggered when ANY of these file patterns are modified:
-
-| Pattern | Framework | Trigger Reason |
-|---------|-----------|----------------|
-| `**/routes/**/*.ts` | Express/Fastify | Route definitions |
-| `**/controllers/**/*.ts` | NestJS/Express | Controller endpoints |
-| `**/*.controller.ts` | NestJS | Controller class |
-| `**/api/**/*.py` | FastAPI/Flask | API endpoints |
-| `**/*_router.py` | FastAPI | Router definitions |
-| `**/handlers/**/*.go` | Go | HTTP handlers |
-| `**/schema*.ts` | TypeScript | Schema definitions |
-| `**/dto/**/*.ts` | NestJS | Data transfer objects |
-| `**/models/**/*.ts` | Various | API models |
-
-## Documentation Locations
-
-Check these locations for existing API documentation:
-
-| File | Format | Standard |
-|------|--------|----------|
-| `openapi.yaml` | YAML | OpenAPI 3.x |
-| `openapi.json` | JSON | OpenAPI 3.x |
-| `swagger.yaml` | YAML | Swagger 2.0 |
-| `swagger.json` | JSON | Swagger 2.0 |
-| `docs/api.yaml` | YAML | OpenAPI 3.x |
-| `api/openapi.yaml` | YAML | OpenAPI 3.x |
-
-## The Protocol
-
-### Step 1: Detect API Changes
-
-```bash
-# Check if current changes affect API
-API_CHANGED=false
-
-# Check common API file patterns
-for pattern in "routes/" "controllers/" "api/" "handlers/" "*.controller.ts" "*_router.py"; do
-  if git diff --name-only HEAD~1 | grep -q "$pattern"; then
-    API_CHANGED=true
-    break
-  fi
-done
-
-# Check for schema/DTO changes
-if git diff --name-only HEAD~1 | grep -qE "(schema|dto|model)"; then
-  API_CHANGED=true
-fi
-
-echo "API Changed: $API_CHANGED"
-```
-
-### Step 2: Find Documentation File
-
-```bash
-find_api_docs() {
-  for file in openapi.yaml openapi.json swagger.yaml swagger.json \
-              docs/api.yaml docs/openapi.yaml api/openapi.yaml; do
-    if [ -f "$file" ]; then
-      echo "$file"
-      return 0
-    fi
-  done
-  return 1
-}
-
-DOC_FILE=$(find_api_docs)
-if [ -z "$DOC_FILE" ]; then
-  echo "ERROR: No API documentation file found"
-  echo "PAUSE: Trigger documentation-audit skill"
-fi
-```
-
-### Step 3: Verify Sync
-
-Compare API code with documentation:
-
-```bash
-verify_api_sync() {
-  local doc_file=$1
-
-  # Extract endpoints from code
-  CODE_ENDPOINTS=$(find . -name "*.ts" -path "*/routes/*" -exec grep -h "@(Get|Post|Put|Delete|Patch)" {} \; | \
-    sed 's/.*@\(Get\|Post\|Put\|Delete\|Patch\)(\([^)]*\)).*/\1 \2/' | sort -u)
-
-  # Extract endpoints from OpenAPI
-  DOC_ENDPOINTS=$(yq '.paths | keys[]' "$doc_file" 2>/dev/null | sort -u)
-
-  # Compare
-  MISSING=$(comm -23 <(echo "$CODE_ENDPOINTS" | sort) <(echo "$DOC_ENDPOINTS" | sort))
-
-  if [ -n "$MISSING" ]; then
-    echo "DRIFT DETECTED: Endpoints in code but not in docs:"
-    echo "$MISSING"
-    return 1
-  fi
-
-  return 0
-}
-```
-
-### Step 4: Handle Drift
-
-If documentation drift is detected:
+### Endpoint Format
 
 ```markdown
-## API Documentation Drift Detected
+## Endpoint Name
 
-**Status:** PAUSED
-**Reason:** API documentation is out of sync with code
+Brief description of what this endpoint does.
 
-### Missing from Documentation
-- `POST /api/users` (found in `routes/users.ts:45`)
-- `GET /api/users/:id/profile` (found in `routes/users.ts:67`)
+**Method:** `GET` | `POST` | `PUT` | `PATCH` | `DELETE`
+**Path:** `/api/v1/resource/:id`
+**Auth:** Bearer token | API key | None
 
-### Action Required
-1. Invoke `documentation-audit` skill
-2. Update Swagger/OpenAPI documentation
-3. Resume current work after sync complete
+### Path Parameters
 
----
-*api-documentation skill paused work*
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| id | string | Resource ID |
+
+### Query Parameters
+
+| Parameter | Type | Required | Default | Description |
+|-----------|------|----------|---------|-------------|
+| page | integer | No | 1 | Page number |
+| limit | integer | No | 20 | Items per page |
+| sort | string | No | -createdAt | Sort field |
+
+### Request Body
+
+\`\`\`json
+{
+  "field1": "value",
+  "field2": 123
+}
+\`\`\`
+
+### Response
+
+**Success (200 OK)**
+
+\`\`\`json
+{
+  "data": { ... },
+  "meta": { ... }
+}
+\`\`\`
+
+**Errors**
+
+| Status | Code | Description |
+|--------|------|-------------|
+| 400 | VALIDATION_ERROR | Invalid input |
+| 404 | NOT_FOUND | Resource not found |
 ```
 
-Then invoke documentation-audit:
+### Authentication Section
 
-```
-Use Skill tool: documentation-audit
-```
+```markdown
+# Authentication
 
-## Documentation Requirements
+All API requests require authentication via one of:
 
-When updating API documentation, include:
+## Bearer Token (Recommended)
 
-### Required Fields
+\`\`\`bash
+curl -H "Authorization: Bearer <token>" https://api.example.com/v1/users
+\`\`\`
 
-| Field | Description |
-|-------|-------------|
-| `summary` | Short description of endpoint |
-| `description` | Detailed explanation |
-| `parameters` | All path/query/header params |
-| `requestBody` | Request schema with examples |
-| `responses` | All response codes with schemas |
-| `tags` | Grouping for organization |
-| `security` | Auth requirements |
+Tokens expire after 1 hour. Use the refresh token to obtain a new access token.
 
-### Required Examples
+## API Key
 
-Every endpoint must have:
-- Request example (for POST/PUT/PATCH)
-- Success response example
-- Error response example
+\`\`\`bash
+curl -H "X-API-Key: <api-key>" https://api.example.com/v1/users
+\`\`\`
 
-### Example OpenAPI Entry
+API keys don't expire but can be revoked in the dashboard.
 
-```yaml
-/api/users:
-  post:
-    summary: Create a new user
-    description: |
-      Creates a new user account with the provided details.
-      Requires admin authentication.
-    tags:
-      - Users
-    security:
-      - bearerAuth: []
-    requestBody:
-      required: true
-      content:
-        application/json:
-          schema:
-            $ref: '#/components/schemas/CreateUserRequest'
-          example:
-            email: user@example.com
-            name: John Doe
-            role: member
-    responses:
-      '201':
-        description: User created successfully
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/User'
-            example:
-              id: usr_123abc
-              email: user@example.com
-              name: John Doe
-              role: member
-              createdAt: '2025-01-02T10:30:00Z'
-      '400':
-        description: Invalid request body
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/Error'
-            example:
-              code: VALIDATION_ERROR
-              message: Email is required
-      '401':
-        description: Authentication required
-      '403':
-        description: Insufficient permissions
+## OAuth 2.0
+
+For third-party integrations:
+
+1. Redirect to `/oauth/authorize`
+2. User grants permission
+3. Receive authorization code
+4. Exchange code for tokens
 ```
 
-## Validation
+### Pagination Documentation
 
-After updating documentation, validate:
+```markdown
+# Pagination
 
-```bash
-# Validate OpenAPI spec
-npx @apidevtools/swagger-cli validate openapi.yaml
+List endpoints return paginated results.
 
-# Or with yq for basic structure check
-yq 'has("openapi") and has("paths") and has("info")' openapi.yaml
+## Request Parameters
+
+| Parameter | Type | Default | Max | Description |
+|-----------|------|---------|-----|-------------|
+| page | integer | 1 | - | Page number (1-indexed) |
+| limit | integer | 20 | 100 | Items per page |
+
+## Response Format
+
+\`\`\`json
+{
+  "data": [...],
+  "pagination": {
+    "page": 1,
+    "limit": 20,
+    "total": 150,
+    "totalPages": 8,
+    "hasNext": true,
+    "hasPrev": false
+  }
+}
+\`\`\`
+
+## Cursor-Based Pagination
+
+For large datasets, use cursor pagination:
+
+\`\`\`bash
+GET /api/v1/events?cursor=abc123&limit=50
+\`\`\`
+
+\`\`\`json
+{
+  "data": [...],
+  "cursors": {
+    "next": "def456",
+    "prev": null
+  }
+}
+\`\`\`
 ```
 
-## Checklist
+### Error Documentation
 
-Before resuming work:
+```markdown
+# Error Handling
 
-- [ ] API documentation file exists
-- [ ] All endpoints are documented
-- [ ] Request/response schemas defined
-- [ ] Examples provided for all operations
-- [ ] Security requirements documented
-- [ ] Documentation validates successfully
-- [ ] Changes committed to branch
+## Error Response Format
+
+All errors return a consistent JSON structure:
+
+\`\`\`json
+{
+  "error": {
+    "code": "ERROR_CODE",
+    "message": "Human-readable message",
+    "details": [
+      {
+        "field": "email",
+        "message": "Invalid email format"
+      }
+    ],
+    "requestId": "req_abc123"
+  }
+}
+\`\`\`
+
+## Error Codes
+
+### Client Errors (4xx)
+
+| Code | Status | Description | Resolution |
+|------|--------|-------------|------------|
+| VALIDATION_ERROR | 400 | Invalid input | Check request body |
+| UNAUTHORIZED | 401 | No valid credentials | Include auth header |
+| FORBIDDEN | 403 | Insufficient permissions | Request access |
+| NOT_FOUND | 404 | Resource doesn't exist | Check resource ID |
+| CONFLICT | 409 | Resource already exists | Use different values |
+| RATE_LIMITED | 429 | Too many requests | Wait and retry |
+
+### Server Errors (5xx)
+
+| Code | Status | Description | Resolution |
+|------|--------|-------------|------------|
+| INTERNAL_ERROR | 500 | Server error | Contact support |
+| SERVICE_UNAVAILABLE | 503 | Maintenance | Retry later |
+```
+
+## GraphQL Documentation
+
+### Schema Documentation
+
+```markdown
+# GraphQL Schema
+
+## Types
+
+### User
+
+\`\`\`graphql
+type User {
+  """Unique identifier"""
+  id: ID!
+
+  """User's email address"""
+  email: String!
+
+  """Display name"""
+  name: String
+
+  """Account creation timestamp"""
+  createdAt: DateTime!
+
+  """User's orders"""
+  orders(first: Int, after: String): OrderConnection!
+}
+\`\`\`
+
+### Input Types
+
+\`\`\`graphql
+input CreateUserInput {
+  email: String!
+  name: String
+  role: UserRole = USER
+}
+\`\`\`
+```
+
+### Query Documentation
+
+```markdown
+## Queries
+
+### user
+
+Fetch a single user by ID.
+
+\`\`\`graphql
+query GetUser($id: ID!) {
+  user(id: $id) {
+    id
+    email
+    name
+    createdAt
+  }
+}
+\`\`\`
+
+**Arguments:**
+
+| Argument | Type | Required | Description |
+|----------|------|----------|-------------|
+| id | ID | Yes | User ID |
+
+**Example:**
+
+\`\`\`json
+{
+  "id": "usr_123"
+}
+\`\`\`
+
+**Response:**
+
+\`\`\`json
+{
+  "data": {
+    "user": {
+      "id": "usr_123",
+      "email": "john@example.com",
+      "name": "John Doe",
+      "createdAt": "2024-01-15T10:30:00Z"
+    }
+  }
+}
+\`\`\`
+```
+
+### Mutation Documentation
+
+```markdown
+## Mutations
+
+### createUser
+
+Create a new user account.
+
+\`\`\`graphql
+mutation CreateUser($input: CreateUserInput!) {
+  createUser(input: $input) {
+    user {
+      id
+      email
+    }
+    errors {
+      field
+      message
+    }
+  }
+}
+\`\`\`
+
+**Input:**
+
+\`\`\`json
+{
+  "input": {
+    "email": "jane@example.com",
+    "name": "Jane Smith"
+  }
+}
+\`\`\`
+
+**Success Response:**
+
+\`\`\`json
+{
+  "data": {
+    "createUser": {
+      "user": {
+        "id": "usr_456",
+        "email": "jane@example.com"
+      },
+      "errors": null
+    }
+  }
+}
+\`\`\`
+
+**Error Response:**
+
+\`\`\`json
+{
+  "data": {
+    "createUser": {
+      "user": null,
+      "errors": [
+        {
+          "field": "email",
+          "message": "Email already exists"
+        }
+      ]
+    }
+  }
+}
+\`\`\`
+```
+
+## SDK Examples
+
+### Language-Specific Examples
+
+```markdown
+## SDK Examples
+
+### JavaScript/TypeScript
+
+\`\`\`typescript
+import { Client } from '@api/sdk'
+
+const client = new Client({ apiKey: 'your-key' })
+
+// List users
+const users = await client.users.list({ limit: 10 })
+
+// Create user
+const user = await client.users.create({
+  email: 'john@example.com',
+  name: 'John Doe'
+})
+\`\`\`
+
+### Python
+
+\`\`\`python
+from api_sdk import Client
+
+client = Client(api_key='your-key')
+
+# List users
+users = client.users.list(limit=10)
+
+# Create user
+user = client.users.create(
+    email='john@example.com',
+    name='John Doe'
+)
+\`\`\`
+
+### cURL
+
+\`\`\`bash
+# List users
+curl -X GET "https://api.example.com/v1/users?limit=10" \
+  -H "Authorization: Bearer $API_KEY"
+
+# Create user
+curl -X POST "https://api.example.com/v1/users" \
+  -H "Authorization: Bearer $API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"email":"john@example.com","name":"John Doe"}'
+\`\`\`
+```
 
 ## Integration
 
-This skill coordinates with:
-
-| Skill | Purpose |
-|-------|---------|
-| `documentation-audit` | Full documentation sync |
-| `issue-driven-development` | Triggered during implementation |
-| `comprehensive-review` | Validates documentation complete |
-
-## When to Skip
-
-This skill can be skipped when:
-- Changes are purely internal (no API surface change)
-- Changes are to test files only
-- Changes are to documentation itself
-- Project has no API (CLI tool, library, etc.)
+Used by:
+- `api-doc-writer` agent

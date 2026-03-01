@@ -1,6 +1,6 @@
 # 📂 business
 
-> 214 skills in this category
+> 271 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -179,6 +179,8 @@
 | [Rankscale GEO Analytics](rankscale-geo-analytics/) | openclaw | ★ 0 | 48% | L3 | Fetch and interpret Rankscale GEO (Generative Engine Optimization) analytics. Pu… |
 | [Rankscale GEO Analytics](rankscale-geo-analytics/) | Rankscale | ★ 0 | 48% | L3 | Fetch and interpret Rankscale GEO (Generative Engine Optimization) analytics. Pu… |
 | [marketing](marketing/) | openclaw | ★ 0 | 48% | L3 | Social media automation, content scheduling, analytics tracking, and campaign ma… |
+| [events-webinars](events-webinars/) | aviskaar | ★ 0 | 48% | L2 | Use this skill when a VP of Events or field marketing leader needs to plan and e… |
+| [analytics-tracking](analytics-tracking/) | majiayu000 | ★ 0 | 48% | L3 | （中文）When the user wants to set up, improve, or audit analytics tracking and meas… |
 | [content-marketer](content-marketer/) | majiayu000 | ★ 0 | 45% | L2 | Expert in content strategy, SEO-driven storytelling, and developer advocacy. Bri… |
 | [bexio](bexio/) | majiayu000 | ★ 0 | 45% | L3 | Bexio Swiss business software API for managing contacts, quotes/offers, invoices… |
 | [Payment Integration](payment-integration/) | ChatAndBuild | ★ 0 | 45% | L3 | Implement Stripe payment processing for robust, PCI-compliant payment flows incl… |
@@ -218,6 +220,61 @@
 | [create-an-asset](create-an-asset/) | lohasle | ★ 0 | 45% | L3 | Generate tailored sales assets (landing pages, decks, one-pagers, workflow demos… |
 | [create-an-asset](create-an-asset/) | fergupa | ★ 0 | 45% | L3 | Generate tailored sales assets (landing pages, decks, one-pagers, workflow demos… |
 | [create-an-asset](create-an-asset/) | SKSDesignNew | ★ 0 | 45% | L3 | Generate tailored sales assets (landing pages, decks, one-pagers, workflow demos… |
+| [capsule_crm-automation](capsule_crm-automation/) | haniakrim21 | ★ 0 | 45% | L2 | Automate Capsule CRM tasks via Rube MCP (Composio): contacts, opportunities, cas… |
+| [capsule_crm-automation](capsule_crm-automation/) | boisenoise | ★ 0 | 45% | L2 | Automate Capsule CRM tasks via Rube MCP (Composio): contacts, opportunities, cas… |
+| [capsule_crm-automation](capsule_crm-automation/) | jarbitechture | ★ 0 | 45% | L2 | Automate Capsule CRM tasks via Rube MCP (Composio): contacts, opportunities, cas… |
+| [marketing-seo-complete](marketing-seo-complete/) | vasilyu1983 | ★ 0 | 45% | L3 | Use when running SEO audits, keyword research, content planning, or fixing techn… |
+| [GHL Reporting & Analytics](ghl-reporting-analytics/) | Justin322322 | ★ 0 | 45% | L2 | Guide for GoHighLevel dashboards and analytics — dashboard widgets, custom repor… |
+| [lead-research-assistant](lead-research-assistant/) | davepoon | ★ 0 | 45% | L2 | Identifies high-quality leads for your product or service by analyzing your busi… |
+| [Lead Research Assistant](lead-research-assistant/) | ChatAndBuild | ★ 0 | 45% | L2 | Identifies high-quality leads for your product or service by analyzing your busi… |
+| [cold-email](cold-email/) | inkeep | ★ 0 | 45% | L2 | Generate cold emails for B2B personas. Use when asked to write cold outreach, sa… |
+| [Capsule CRM Automation](capsule-crm-automation/) | haniakrim21 | ★ 0 | 45% | L2 | Automate Capsule CRM operations -- manage contacts (parties), run structured fil… |
+| [newsletter-curation](newsletter-curation/) | inference-sh | ★ 0 | 45% | L3 | Newsletter curation with content sourcing, editorial structure, and subscriber g… |
+| [u08872-ethical-dilemma-navigation-for-marketing-and-storytelling](u08872-ethical-dilemma-navigation-for-marketing-and-storytelling/) | zwright8 | ★ 0 | 45% | L2 | Build and operate the "Ethical Dilemma Navigation for marketing and storytelling… |
+| [u07820-attention-management-architecture-for-personal-finance-management](u07820-attention-management-architecture-for-personal-finance-management/) | zwright8 | ★ 0 | 45% | L2 | Build and operate the "Attention Management Architecture for personal finance ma… |
+| [u08871-ethical-dilemma-navigation-for-marketing-and-storytelling](u08871-ethical-dilemma-navigation-for-marketing-and-storytelling/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Ethical Dilemma Navigation for marketing and storytelling" capabili… |
+| [create-an-asset](create-an-asset/) | w95 | ★ 0 | 45% | L3 | Generate tailored sales assets (landing pages, decks, one-pagers, workflow demos… |
+| [analytics-tracking](analytics-tracking/) | jmead | ★ 0 | 45% | L3 | When the user wants to set up, improve, or audit analytics tracking and measurem… |
+| [hubspot-automation](hubspot-automation/) | DarkThreat74 | ★ 0 | 45% | L2 | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties… |
+| [hubspot-automation](hubspot-automation/) | boisenoise | ★ 0 | 45% | L2 | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties… |
+| [hubspot-automation](hubspot-automation/) | javiertarazon | ★ 0 | 45% | L2 | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties… |
+| [seo-content-optimizer](seo-content-optimizer/) | benjaminreder | ★ 0 | 45% | L3 | Analysiert und optimiert bestehende Ratgeber-Artikel durch DataForSEO-Analyse mi… |
+| [edocode-monthly-accounting](edocode-monthly-accounting/) | YMD7 | ★ 0 | 45% | L3 | EDOCODE 株式会社の毎月の経理処理（証憑ファイル回収）を行うスキル。ユーザーから「EDOCODE の経理処理を始めよう」「EDOCODE の月次精算をお願… |
+| [seo-domination](seo-domination/) | Vibe-Marketer | ★ 0 | 45% | L3 | Complete search visibility command center for SaaS companies. Covers SEO, AEO (A… |
+| [content-marketer](content-marketer/) | majiayu000 | ★ 0 | 45% | L2 | Expert in content strategy, SEO-driven storytelling, and developer advocacy. Bri… |
+| [salesforce](salesforce/) | Jewish-Federation-of-San-Diego | ★ 0 | 45% | L3 | Query and manage Salesforce CRM data for Jewish Federation of San Diego (JFSD). … |
+| [lead-research-assistant](lead-research-assistant/) | NeverSight | ★ 0 | 45% | L2 | Identifies high-quality leads for your product or service by analyzing your busi… |
+| [seo-writing](seo-writing/) | jcanizalez | ★ 0 | 45% | L2 | Optimize written content for search engines — keyword placement, meta descriptio… |
+| [u09470-negotiation-strategy-crafting-for-sales-and-client-success](u09470-negotiation-strategy-crafting-for-sales-and-client-success/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Negotiation Strategy Crafting for sales and client success" capabil… |
+| [apex](apex/) | majiayu000 | ★ 0 | 45% | L2 | Apex - Senior Product Marketing Manager & CSO specializing in B2B/B2C IT Product… |
+| [Define Product](define-product/) | majiayu000 | ★ 0 | 45% | L3 | Create user-centric product definitions by analyzing the repository, inferring p… |
+| [u01874-handoff-contracting-for-marketing-and-storytelling](u01874-handoff-contracting-for-marketing-and-storytelling/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Handoff Contracting for marketing and storytelling" capability in p… |
+| [marketing-ai-search-optimization](marketing-ai-search-optimization/) | majiayu000 | ★ 0 | 45% | L3 | Modern search visibility optimization covering traditional search fundamentals, … |
+| [sla-management-framework](sla-management-framework/) | juandaniel190 | ★ 0 | 45% | L2 | SLAs for rev ops: response times, escalation, enforcement. Use when defining or … |
+| [data-governance-enrichment](data-governance-enrichment/) | juandaniel190 | ★ 0 | 45% | L2 | Enrich CRM data: tools, waterfall approach, automation, quality control. Use whe… |
+| [u01419-constraint-compilation-for-personal-finance-management](u01419-constraint-compilation-for-personal-finance-management/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Constraint Compilation for personal finance management" capability … |
+| [seo-meta-optimizer](seo-meta-optimizer/) | ranbot-ai | ★ 0 | 45% | L3 | You are a meta tag optimization specialist creating compelling metadata within b… |
+| [analytics-tracking](analytics-tracking/) | whodaniel | ★ 0 | 45% | L3 | You are an expert in analytics implementation and measurement. Your goal is to h… |
+| [grey-haven-seo-geo-optimization](grey-haven-seo-geo-optimization/) | greyhaven-ai | ★ 0 | 45% | L3 | Use when optimizing web content for search engine visibility, improving AI searc… |
+| [performance-analytics](performance-analytics/) | propane-ai | ★ 0 | 45% | L2 | Analyze marketing performance with key metrics, trend analysis, and optimization… |
+| [solo-founder-gtm](solo-founder-gtm/) | chadboyda | ★ 0 | 45% | L2 | When the user is a solo founder building their GTM motion, wants to scale withou… |
+| [bexio](bexio/) | majiayu000 | ★ 0 | 45% | L3 | Bexio Swiss business software API for managing contacts, quotes/offers, invoices… |
+| [seo-geo-aeo](seo-geo-aeo/) | ashishgurprit | ★ 0 | 45% | L2 | Comprehensive search optimization skill covering SEO (Search Engine Optimization… |
+| [bexio](bexio/) | decimasudo | ★ 0 | 45% | L3 | Bexio Swiss business software API for managing contacts, quotes/offers, invoices… |
+| [afrexai-competitive-intel](afrexai-competitive-intel/) | openclaw | ★ 0 | 45% | L2 | Complete competitive intelligence system — market mapping, product teardowns, pr… |
+| [create-an-asset](create-an-asset/) | tmcfarlane | ★ 0 | 45% | L3 | Generate tailored sales assets (landing pages, decks, one-pagers, workflow demos… |
+| [google-email](google-email/) | JarvusInnovations | ★ 0 | 45% | L3 | Manage Gmail email sync, triage, and analysis workflows. Use when user wants to … |
+| [Sales Lead Enrichment](sales-lead-enrichment/) | SixtySecondsApp | ★ 0 | 44% | L2 | All sources consulted with data freshness timestamps |
+| [cfo](cfo/) | jforksy | ★ 0 | 44% | L2 | CFO Co-Pilot - strategic finance, valuation narrative, and VC readiness |
+| [Onboarding Check-in Drafter](onboarding-check-in-drafter/) | SixtySecondsApp | ★ 0 | 44% | L2 | Recommended date for next check-in milestone |
+| [metadata-and-seo-rules](metadata-and-seo-rules/) | majiayu000 | ★ 0 | 43% | L3 | Focuses on optimizing metadata and SEO to improve discoverability of the documen… |
+| [caching-strategy](caching-strategy/) | yeeehaooo | ★ 0 | 41% | L2 | Define explicit caching strategies for different data access patterns and consis… |
+| [email-notifications](email-notifications/) | splits-network | ★ 0 | 41% | L3 | Email template and notification patterns using Resend |
+| [crm-integration](crm-integration/) | a5c-ai | ★ 0 | 41% | L3 | Deep integration with CRM platforms for customer data and actions |
+| [email-triage-draft-replies](email-triage-draft-replies/) | majiayu000 | ★ 0 | 32% | L2 | Review unread email, categorize it, and draft replies (no sending without approv… |
+| [pagen](pagen/) | harperreed | ★ 0 | 32% | L2 | Personal CRM and contact management - manage contacts, relationships, and intera… |
+| [sns-patterns](sns-patterns/) | taiyousan15 | ★ 0 | 19% | L2 | SNS posting patterns and strategy |
+| [startup-go-to-market](startup-go-to-market/) | amo-tech-ai | ★ 0 | 18% | L1 | Merged into go-to-market. Use that skill instead. |
 
 ---
 

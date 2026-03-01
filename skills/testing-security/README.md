@@ -1,6 +1,6 @@
 # 📂 testing-security
 
-> 558 skills in this category
+> 871 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -376,6 +376,10 @@
 | [bug-reaper](bug-reaper/) | shaniidev | ★ 0 | 48% | L3 | Web2 bug bounty hunting agent — evidence-based vulnerability finder and report w… |
 | [industry-compliance](industry-compliance/) | aviskaar | ★ 0 | 48% | L2 | Use this skill when you need industry-specific regulatory compliance for Banking… |
 | [security-checklist](security-checklist/) | theomonfort | ★ 0 | 48% | L2 | Analyze a security checklist Excel file by interactively identifying the relevan… |
+| [web-app-testing](web-app-testing/) | majiayu000 | ★ 0 | 48% | L3 | Gemini 2.5 Computer Use for browser automation with VISIBLE local browser. Watch… |
+| [qa-testing](qa-testing/) | majiayu000 | ★ 0 | 48% | L3 | Ensure data integrity, stability, and basic security for a personal productivity… |
+| [playwright-reviewing](playwright-reviewing/) | majiayu000 | ★ 0 | 48% | L3 | Review Playwright E2E tests for best practices violations. Detects mocked app da… |
+| [web-app-testing](web-app-testing/) | rdfitted | ★ 0 | 48% | L3 | Gemini 2.5 Computer Use for browser automation with VISIBLE local browser. Watch… |
 | [Compliance Audit](compliance-audit/) | cdalsoniii | ★ 0 | 46% | L2 | Audit technical controls against compliance framework requirements |
 | [doc-coauthoring](doc-coauthoring/) | rafaelramosdf | ★ 0 | 45% | L2 | Guia os usuários através de um fluxo de trabalho estruturado para coautoria de d… |
 | [cc-data-organization](cc-data-organization/) | majiayu000 | ★ 0 | 45% | L2 | Audit and fix data organization: variable declarations, data types, magic number… |
@@ -562,6 +566,315 @@
 | [information-security-manager-iso27001](information-security-manager-iso27001/) | duclm1x1 | ★ 0 | 45% | L3 | ISO 27001 ISMS implementation and cybersecurity governance for HealthTech and Me… |
 | [information-security-manager-iso27001](information-security-manager-iso27001/) | Nuwanda04 | ★ 0 | 45% | L3 | ISO 27001 ISMS implementation and cybersecurity governance for HealthTech and Me… |
 | [information-security-manager-iso27001](information-security-manager-iso27001/) | majiayu000 | ★ 0 | 45% | L3 | ISO 27001 ISMS implementation and cybersecurity governance for HealthTech and Me… |
+| [browser-test](browser-test/) | majiayu000 | ★ 0 | 45% | L3 | Run comprehensive Playwright browser tests across desktop, tablet, and mobile vi… |
+| [testing](testing/) | rust-works | ★ 0 | 45% | L3 | Testing patterns and anti-patterns for this codebase. Use when writing tests, re… |
+| [e2e-testing](e2e-testing/) | cosmix | ★ 0 | 45% | L3 | End-to-end testing patterns and best practices for web applications using Playwr… |
+| [testing](testing/) | curphey | ★ 0 | 45% | L3 | Test-first development process and test quality review. Use when writing new cod… |
+| [security-review](security-review/) | ayaiayorg | ★ 0 | 45% | L3 | Comprehensive security analysis and vulnerability assessment. Use this when revi… |
+| [testing](testing/) | eron1703 | ★ 0 | 45% | L3 | Access testing configuration and delegate to test-rig tool for test generation a… |
+| [testing-expert](testing-expert/) | shaharKeisarApps | ★ 0 | 45% | L3 | Elite KMP testing expertise covering unit tests, presenter testing with Turbine,… |
+| [e2e-testing](e2e-testing/) | wtah | ★ 0 | 45% | L3 | Guidelines for planning and implementing end-to-end tests using browser automati… |
+| [code-reviewer](code-reviewer/) | chicanoandres702 | ★ 0 | 45% | L3 | Elite code review expert specializing in modern AI-powered code analysis, securi… |
+| [code-reviewer](code-reviewer/) | harshahosur81 | ★ 0 | 45% | L3 | Elite code review expert specializing in modern AI-powered code analysis, securi… |
+| [code-reviewer](code-reviewer/) | tokamak-network | ★ 0 | 45% | L3 | Elite code review expert specializing in modern AI-powered code analysis, securi… |
+| [code-reviewer](code-reviewer/) | imranstein | ★ 0 | 45% | L3 | Elite code review expert specializing in modern AI-powered code analysis, securi… |
+| [code-reviewer](code-reviewer/) | namanprat | ★ 0 | 45% | L3 | Elite code review expert specializing in modern AI-powered code analysis, securi… |
+| [TestArchitect](testarchitect/) | banjoey | ★ 0 | 45% | L2 | Test-first development strategy for PAI projects. USE WHEN user needs test strat… |
+| [PromptInjection](promptinjection/) | danielmiessler | ★ 0 | 45% | L3 | Prompt injection testing. USE WHEN prompt injection, jailbreak, LLM security, AI… |
+| [PromptInjection](promptinjection/) | majiayu000 | ★ 0 | 45% | L3 | Prompt injection testing. USE WHEN prompt injection, jailbreak, LLM security, AI… |
+| [PromptInjection](promptinjection/) | majiayu000 | ★ 0 | 45% | L3 | Prompt injection testing. USE WHEN prompt injection, jailbreak, LLM security, AI… |
+| [PromptInjection](promptinjection/) | virtualian | ★ 0 | 45% | L3 | Prompt injection testing. USE WHEN prompt injection, jailbreak, LLM security, AI… |
+| [orchestration](orchestration/) | sebastianspicker | ★ 0 | 45% | L2 | Multi-phase AI workflow pipeline with quality gates, cognitive tiering, context … |
+| [midnight-dapp:testing-patterns](midnight-dapp-testing-patterns/) | aaronbassett | ★ 0 | 45% | L3 | Use when writing unit tests for Midnight contract interaction code, integration … |
+| [skill-author](skill-author/) | ddobrin | ★ 0 | 45% | L3 | Expertise in authoring Agent Skills according to the open standard. Use when the… |
+| [compliance-evaluator](compliance-evaluator/) | gonsoomoon-ml | ★ 0 | 45% | L2 | This skill should be used when evaluating translation compliance with legal, reg… |
+| [code-archaeologist](code-archaeologist/) | udaybandaru | ★ 0 | 45% | L3 | Deep historical context analysis for code evolution, risk assessment, and patter… |
+| [codex-auth](codex-auth/) | majiayu000 | ★ 0 | 45% | L3 | Setup and manage OpenAI Codex CLI authentication including ChatGPT Plus/Pro OAut… |
+| [commit-feature](commit-feature/) | Vulnetix | ★ 0 | 45% | L3 | Stage changes, create conventional commit (no co-author), push to origin, and ad… |
+| [AnnualReports](annualreports/) | phatblat | ★ 0 | 45% | L3 | Annual security report aggregation and analysis. USE WHEN annual reports, securi… |
+| [AnnualReports](annualreports/) | sangrokjung | ★ 0 | 45% | L3 | Annual security report aggregation and analysis. USE WHEN annual reports, securi… |
+| [AnnualReports](annualreports/) | majiayu000 | ★ 0 | 45% | L3 | Annual security report aggregation and analysis. USE WHEN annual reports, securi… |
+| [code-reviewer](code-reviewer/) | finos | ★ 0 | 45% | L3 | Reviews code changes in pull requests for the Morphir Moonbit monorepo. Checks f… |
+| [authoring-skills](authoring-skills/) | andrueandersoncs | ★ 0 | 45% | L3 | Guides creation of effective Claude skills with proper structure, naming, and pr… |
+| [u01126-resource-budget-allocation-for-cybersecurity-operations](u01126-resource-budget-allocation-for-cybersecurity-operations/) | zwright8 | ★ 0 | 45% | L2 | Build and operate the "Resource Budget Allocation for cybersecurity operations" … |
+| [doc-testing](doc-testing/) | dlants | ★ 0 | 45% | L3 | Comprehensive guide for writing tests in magenta.nvim, including test environmen… |
+| [audit-rules](audit-rules/) | melodic-software | ★ 0 | 45% | L3 | Audit Claude Code rule files for quality and compliance. Use when creating or va… |
+| [auth-wechat-miniprogram](auth-wechat-miniprogram/) | TencentCloudBase | ★ 0 | 45% | L3 | Complete guide for WeChat Mini Program authentication with CloudBase - native lo… |
+| [verify](verify/) | majiayu000 | ★ 0 | 45% | L2 | Verifies builds, recovers from errors, and applies review fixes. Use when user m… |
+| [status-determination](status-determination/) | daisyai-ai | ★ 0 | 45% | L2 | Evaluates hospital admission packets to determine if inpatient or observation st… |
+| [developing-claude-code-meta](developing-claude-code-meta/) | mikekelly | ★ 0 | 45% | L2 | MUST be loaded when setting up, installing, migrating, reviewing, auditing, or c… |
+| [test-orchestrator](test-orchestrator/) | Brownbull | ★ 0 | 45% | L3 | Coordinates testing strategy and execution across all test types. Use when creat… |
+| [security-threat-model](security-threat-model/) | davila7 | ★ 0 | 45% | L2 | Repository-grounded threat modeling that enumerates trust boundaries, assets, at… |
+| [security-threat-model](security-threat-model/) | fabioeducacross | ★ 0 | 45% | L2 | Repository-grounded threat modeling that enumerates trust boundaries, assets, at… |
+| [security-threat-model](security-threat-model/) | jackychenlu | ★ 0 | 45% | L2 | Repository-grounded threat modeling that enumerates trust boundaries, assets, at… |
+| [security-assessment](security-assessment/) | NeverSight | ★ 0 | 45% | L2 | Execute threat modeling, vulnerability scanning, and security control validation… |
+| [security-auth](security-auth/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive security and authentication workflow that orchestrates security ar… |
+| [session-template](session-template/) | majiayu000 | ★ 0 | 45% | L3 | Apply task-specific templates to AI session plans using ai-update-plan. Use when… |
+| [security-auth](security-auth/) | NeverSight | ★ 0 | 45% | L3 | Comprehensive security and authentication workflow that orchestrates security ar… |
+| [security-core](security-core/) | aaronbassett | ★ 0 | 45% | L3 | Comprehensive application security expertise covering authentication, authorizat… |
+| [security-core](security-core/) | aaronbassett | ★ 0 | 45% | L3 | Comprehensive application security expertise covering authentication, authorizat… |
+| [owasp-mobile-security-checker](owasp-mobile-security-checker/) | Namma-Flutter | ★ 0 | 45% | L3 | Analyze Flutter and mobile applications for OWASP Mobile Top 10 (2024) security … |
+| [architecting-security](architecting-security/) | ancoleman | ★ 0 | 45% | L3 | Design comprehensive security architectures using defense-in-depth, zero trust p… |
+| [pr-review](pr-review/) | COG-GTM | ★ 0 | 45% | L2 | Perform automated code review on pull requests using Devin Review with regulator… |
+| [anti-reversing-techniques](anti-reversing-techniques/) | majiayu000 | ★ 0 | 45% | L3 | Understand anti-reversing, obfuscation, and protection techniques encountered du… |
+| [anti-reversing-techniques](anti-reversing-techniques/) | pelan05 | ★ 0 | 45% | L3 | Understand anti-reversing, obfuscation, and protection techniques encountered du… |
+| [auth0-migration](auth0-migration/) | auth0 | ★ 0 | 45% | L3 | Use when migrating from existing auth providers (Firebase, Cognito, Supabase, cu… |
+| [auth0-migration](auth0-migration/) | NeverSight | ★ 0 | 45% | L3 | Use when migrating from existing auth providers (Firebase, Cognito, Supabase, cu… |
+| [reviewer](reviewer/) | wtthornton | ★ 0 | 45% | L3 | Code reviewer providing objective quality metrics, security analysis, and action… |
+| [axiom-ios-testing](axiom-ios-testing/) | CharlesWiltgen | ★ 0 | 45% | L2 | Use when writing ANY test, debugging flaky tests, making tests faster, or asking… |
+| [quality-standards](quality-standards/) | VilnaCRM-Org | ★ 0 | 45% | L3 | Overview of protected quality thresholds and quick reference for all quality too… |
+| [risk-based-testing](risk-based-testing/) | mattnigh | ★ 0 | 45% | L3 | Focus testing effort on highest-risk areas using risk assessment and prioritizat… |
+| [technical-review](technical-review/) | leeovery | ★ 0 | 45% | L2 | Validate completed implementation against plan tasks and acceptance criteria. Us… |
+| [divek-bi-visual-audit](divek-bi-visual-audit/) | Likilee | ★ 0 | 45% | L2 | Visual compliance auditing for DiveK brand identity. Use when reviewing UI scree… |
+| [test-orchestrator](test-orchestrator/) | majiayu000 | ★ 0 | 45% | L3 | Coordinates testing strategy and execution across all test types. Use when creat… |
+| [qa-tester](qa-tester/) | majiayu000 | ★ 0 | 45% | L3 | QA Tester Agent. 테스트 작성, 실행, 검증을 담당합니다. 테스트, 검증, 단위테스트, 통합테스트, E2E 관련 요청 시 사용됩니다… |
+| [quality-standards](quality-standards/) | majiayu000 | ★ 0 | 45% | L3 | Overview of protected quality thresholds and quick reference for all quality too… |
+| [auth-tool-cloudbase](auth-tool-cloudbase/) | majiayu000 | ★ 0 | 45% | L2 | Use CloudBase Auth tool to configure and manage authentication providers for web… |
+| [verify](verify/) | aiskillstore | ★ 0 | 45% | L2 | Verifies builds, recovers from errors, and applies review fixes. Use when user m… |
+| [auth-wechat-miniprogram](auth-wechat-miniprogram/) | majiayu000 | ★ 0 | 45% | L3 | Complete guide for WeChat Mini Program authentication with CloudBase - native lo… |
+| [project-deck](project-deck/) | jusi-aalto | ★ 0 | 45% | L2 | Generate "future self" Beamer presentation decks as progress logs for research p… |
+| [blog-smoke-tests](blog-smoke-tests/) | majiayu000 | ★ 0 | 45% | L3 | Run Playwright smoke tests for Denser blog application. Executes 15 tests (SMOKE… |
+| [cc-data-organization](cc-data-organization/) | majiayu000 | ★ 0 | 45% | L2 | Audit and fix data organization: variable declarations, data types, magic number… |
+| [memory](memory/) | GobbyAI | ★ 0 | 45% | L2 | This skill should be used when the user asks to "/gobby memory", "remember", "re… |
+| [u0620-security-semantic-retrieval-ranker](u0620-security-semantic-retrieval-ranker/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Security Semantic Retrieval Ranker" capability in production for  w… |
+| [arxiv-research](arxiv-research/) | Ray0907 | ★ 0 | 45% | L3 | Searches academic papers on arXiv, analyzes research content, builds literature … |
+| [x-integration](x-integration/) | sskarz | ★ 0 | 45% | L3 | X (Twitter) integration for NanoClawbster. Post tweets, like, reply, retweet, an… |
+| [qa-testing-strategy](qa-testing-strategy/) | majiayu000 | ★ 0 | 45% | L3 | Risk-based quality engineering test strategy across unit, integration, contract,… |
+| [istio](istio/) | majiayu000 | ★ 0 | 45% | L3 | Service mesh implementation with Istio for microservices traffic management, sec… |
+| [threat-model](threat-model/) | majiayu000 | ★ 0 | 45% | L2 | Threat modeling methodologies (STRIDE, DREAD, PASTA, attack trees) for secure ar… |
+| [auth-implementation-patterns](auth-implementation-patterns/) | carlopezzuto | ★ 0 | 45% | L3 | Master authentication and authorization patterns including JWT, OAuth2, session … |
+| [auth-patterns](auth-patterns/) | openclaw | ★ 0 | 45% | L3 | Authentication and authorization patterns — JWT, OAuth 2.0, sessions, RBAC/ABAC,… |
+| [building-stories-with-tdd](building-stories-with-tdd/) | majiayu000 | ★ 0 | 45% | L3 | Expert for building user stories using Test-Driven Development (TDD) with NestJS… |
+| [Quality Assurance](quality-assurance/) | normcrandall | ★ 0 | 45% | L3 | Validates story implementations through testing, code review, and quality gate a… |
+| [u09127-public-service-coordination-for-cybersecurity-operations](u09127-public-service-coordination-for-cybersecurity-operations/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Public Service Coordination for cybersecurity operations" capabilit… |
+| [security-compliance](security-compliance/) | sangrokjung | ★ 0 | 45% | L3 | Guides security professionals in implementing defense-in-depth security architec… |
+| [security-threat-model](security-threat-model/) | fabioeducacross | ★ 0 | 45% | L2 | Repository-grounded threat modeling that enumerates trust boundaries, assets, at… |
+| [security-compliance](security-compliance/) | JohnMarkCapones | ★ 0 | 45% | L3 | Guides security professionals in implementing defense-in-depth security architec… |
+| [security-compliance](security-compliance/) | sangrokjung | ★ 0 | 45% | L3 | Guides security professionals in implementing defense-in-depth security architec… |
+| [security-compliance](security-compliance/) | jmead | ★ 0 | 45% | L3 | Guides security professionals in implementing defense-in-depth security architec… |
+| [security-auth](security-auth/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive security and authentication workflow that orchestrates security ar… |
+| [agriculture-food-security](agriculture-food-security/) | AgentPMT | ★ 0 | 45% | L3 | Use AgentPMT external API to run the Global Agriculture & Food Security Data too… |
+| [security-core](security-core/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive application security expertise covering authentication, authorizat… |
+| [security](security/) | majiayu000 | ★ 0 | 45% | L2 | Reviews code for security vulnerabilities, identifies security issues, suggests … |
+| [secure-code-guardian](secure-code-guardian/) | majiayu000 | ★ 0 | 45% | L2 | Use when implementing authentication/authorization, securing user input, or prev… |
+| [employee-confidentiality-agreement](employee-confidentiality-agreement/) | CaseMark | ★ 0 | 45% | L2 | Drafts a comprehensive Employee Confidentiality and Security Agreement protectin… |
+| [archon-keymaster](archon-keymaster/) | openclaw | ★ 0 | 45% | L3 | Core Archon DID toolkit - identity management, verifiable credentials, encrypted… |
+| [owasp-mobile-security-checker](owasp-mobile-security-checker/) | majiayu000 | ★ 0 | 45% | L3 | Analyze Flutter and mobile applications for OWASP Mobile Top 10 (2024) security … |
+| [security](security/) | NeverSight | ★ 0 | 45% | L2 | Security Engineer and application security expert. Performs threat modeling, sec… |
+| [architecting-security](architecting-security/) | majiayu000 | ★ 0 | 45% | L3 | Design comprehensive security architectures using defense-in-depth, zero trust p… |
+| [QE Security Compliance](qe-security-compliance/) | proffesor-for-testing | ★ 0 | 45% | L3 | Security auditing, vulnerability scanning, and compliance validation for OWASP, … |
+| [saas-compliance-frameworks](saas-compliance-frameworks/) | majiayu000 | ★ 0 | 45% | L2 | Security and compliance requirements for SaaS applications. Covers SOC 2, GDPR, … |
+| [security-requirement-extraction](security-requirement-extraction/) | majiayu000 | ★ 0 | 45% | L3 | Derive security requirements from threat models and business context. Use when t… |
+| [security-audit-agent](security-audit-agent/) | majiayu000 | ★ 0 | 45% | L3 | Performs comprehensive security audits of codebases, identifying vulnerabilities… |
+| [information-security-manager-iso27001](information-security-manager-iso27001/) | majiayu000 | ★ 0 | 45% | L3 | ISO 27001 ISMS implementation and cybersecurity governance for HealthTech and Me… |
+| [python-testing](python-testing/) | affaan-m | ★ 0 | 45% | L3 | Python testing strategies using pytest, TDD methodology, fixtures, mocking, para… |
+| [Python Security Scan](python-security-scan/) | jason660519 | ★ 0 | 45% | L3 | Comprehensive security vulnerability scanner for Python projects including Flask… |
+| [security-compliance](security-compliance/) | majiayu000 | ★ 0 | 45% | L2 | Guides security professionals in implementing defense-in-depth security architec… |
+| [Data Privacy Compliance](data-privacy-compliance/) | fabioeducacross | ★ 0 | 45% | L3 | Data privacy and regulatory compliance specialist for GDPR, CCPA, HIPAA, and int… |
+| [security-compliance](security-compliance/) | pur3v4d3r | ★ 0 | 45% | L3 | Guides security professionals in implementing defense-in-depth security architec… |
+| [data-encryption](data-encryption/) | aj-geddes | ★ 0 | 45% | L3 | Implement strong encryption using AES, RSA, TLS, and proper key management. Use … |
+| [u08329-beauty-pattern-detection-for-cybersecurity-operations](u08329-beauty-pattern-detection-for-cybersecurity-operations/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Beauty Pattern Detection for cybersecurity operations" capability i… |
+| [senior-secops](senior-secops/) | davila7 | ★ 0 | 45% | L3 | Comprehensive SecOps skill for application security, vulnerability management, c… |
+| [better-auth-best-practices](better-auth-best-practices/) | moto-nrw | ★ 0 | 45% | L3 | Skill for integrating Better Auth - the comprehensive TypeScript authentication … |
+| [senior-secops](senior-secops/) | aiskillstore | ★ 0 | 45% | L3 | Comprehensive SecOps skill for application security, vulnerability management, c… |
+| [security-compliance](security-compliance/) | fabioeducacross | ★ 0 | 45% | L3 | Guides security professionals in implementing defense-in-depth security architec… |
+| [security-compliance](security-compliance/) | jackychenlu | ★ 0 | 45% | L3 | Guides security professionals in implementing defense-in-depth security architec… |
+| [security-workflow](security-workflow/) | majiayu000 | ★ 0 | 45% | L3 | Use when creating backlog tasks from security findings, integrating security sca… |
+| [cui-javascript-unit-testing](cui-javascript-unit-testing/) | majiayu000 | ★ 0 | 45% | L3 | Jest unit testing standards covering configuration, test structure, testing patt… |
+| [orchestration](orchestration/) | sebastianspicker | ★ 0 | 45% | L2 | Multi-phase AI workflow pipeline with quality gates, cognitive tiering, context … |
+| [ln-523-auto-test-planner](ln-523-auto-test-planner/) | majiayu000 | ★ 0 | 45% | L3 | Plans automated tests (E2E/Integration/Unit) using Risk-Based Testing after manu… |
+| [implementing-e2e-testing](implementing-e2e-testing/) | WesleySmits | ★ 0 | 45% | L3 | Master end-to-end testing with Playwright and Cypress to build reliable test sui… |
+| [meeting-notes](meeting-notes/) | majiayu000 | ★ 0 | 45% | L2 | Convert meeting discussions into clear, actionable notes with tasks, decisions, … |
+| [bulk-sales-compliance](bulk-sales-compliance/) | CaseMark | ★ 0 | 45% | L2 | Drafts U.S. bulk sales law compliance packages for asset purchase transactions o… |
+| [vue-playwright-testing](vue-playwright-testing/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive guide for testing Vue 3 applications with Playwright (2025). This … |
+| [verification-before-completion](verification-before-completion/) | majiayu000 | ★ 0 | 45% | L3 | Use when finishing any task. Final checklist before marking complete. Ensures no… |
+| [configure-ux-testing](configure-ux-testing/) | laurigates | ★ 0 | 45% | L3 | Check and configure UX testing infrastructure (Playwright, accessibility, visual… |
+| [program-security-basics](program-security-basics/) | majiayu000 | ★ 0 | 45% | L2 | Baseline security checklist for Solana programs: authority checks, input validat… |
+| [security-best-practices](security-best-practices/) | whodaniel | ★ 0 | 45% | L3 | This skill provides a description of how to identify the language and frameworks… |
+| [test-fix](test-fix/) | majiayu000 | ★ 0 | 45% | L3 | Systematic approach to diagnosing and fixing failing tests in Rust projects. Use… |
+| [generate-e2e-test](generate-e2e-test/) | majiayu000 | ★ 0 | 45% | L3 | Generate an end-to-end test for a given feature or user story. Use when the user… |
+| [playwright-visual-regression](playwright-visual-regression/) | kabaka | ★ 0 | 45% | L3 | Playwright browser automation patterns for E2E testing, visual regression, scree… |
+| [partners-stackhawk-security-onboarding](partners-stackhawk-security-onboarding/) | sla-te | ★ 0 | 45% | L3 | Automatically set up StackHawk security testing for your repository with generat… |
+| [auth0](auth0/) | InSelfControll | ★ 0 | 45% | L3 | Expert for Auth0 integration across Go backends and React frontends. Use when se… |
+| [asterisk-tester](asterisk-tester/) | majiayu000 | ★ 0 | 45% | L3 | Тестирование сценариев Asterisk dialplan и потоков звонков используя безопасные … |
+| [smoke-test-authenticated-api-routes](smoke-test-authenticated-api-routes/) | willyu1007 | ★ 0 | 45% | L2 | Create a minimal smoke-test plan for authenticated API routes (happy path, one n… |
+| [playwright-test](playwright-test/) | open-metadata | ★ 0 | 45% | L3 | Generate robust, zero-flakiness Playwright E2E tests following OpenMetadata patt… |
+| [security-auditor](security-auditor/) | sla-te | ★ 0 | 45% | L2 | Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, … |
+| [e2e-testing-patterns](e2e-testing-patterns/) | FlorinSenoner | ★ 0 | 45% | L3 | Build reliable, fast, and maintainable end-to-end test suites that provide confi… |
+| [appwrite-security-operations](appwrite-security-operations/) | yldst-dev | ★ 0 | 45% | L3 | Production security operations for Appwrite services. Use when defining security… |
+| [audit](audit/) | MichaelLeeHobbs | ★ 0 | 45% | L3 | Comma-separated list of audit types (e.g., 'dead-code,pii,soc2') or 'all'. If om… |
+| [solana-program-dev](solana-program-dev/) | moshthepitt | ★ 0 | 45% | L2 | Design, implement, test, and security-review modern Solana programs (native Rust… |
+| [exploratory-testing-advanced](exploratory-testing-advanced/) | mattnigh | ★ 0 | 45% | L3 | Advanced exploratory testing techniques with Session-Based Test Management (SBTM… |
+| [implementing-tls](implementing-tls/) | majiayu000 | ★ 0 | 45% | L3 | Configure TLS certificates and encryption for secure communications. Use when se… |
+| [test-flow](test-flow/) | mdmagnuson-creator | ★ 0 | 45% | L3 | Automatic test generation and execution flows for Builder. Use when generating u… |
+| [implementing-tls](implementing-tls/) | ancoleman | ★ 0 | 45% | L3 | Configure TLS certificates and encryption for secure communications. Use when se… |
+| [xint](xint/) | openclaw | ★ 0 | 45% | L3 | X OAuth 2.0 client ID for user-context operations (bookmarks, likes, following, … |
+| [xint](xint/) | 0xNyk | ★ 0 | 45% | L3 | X OAuth 2.0 client ID for user-context operations (bookmarks, likes, following, … |
+| [scribe](scribe/) | majiayu000 | ★ 0 | 45% | L2 | Technical writing for formal security audit reports. Use when the user wants to … |
+| [memo-stress-tester](memo-stress-tester/) | majiayu000 | ★ 0 | 45% | L2 | Use when evaluating business documents for structural integrity and persuasive l… |
+| [pci-compliance](pci-compliance/) | wshobson | ★ 0 | 45% | L3 | Implement PCI DSS compliance requirements for secure handling of payment card da… |
+| [persona-coordination](persona-coordination/) | majiayu000 | ★ 0 | 45% | L3 | Use when coordinating multi-persona team workflows, planning artifact handoffs b… |
+| [security-compliance](security-compliance/) | davila7 | ★ 0 | 45% | L3 | Guides security professionals in implementing defense-in-depth security architec… |
+| [helm](helm/) | tylertitsworth | ★ 0 | 45% | L3 | Helm chart authoring — library charts, values.schema.json, subcharts, _helpers.t… |
+| [treido-testing](treido-testing/) | majiayu000 | ★ 0 | 45% | L3 | Testing specialist for Treido (Playwright + Next.js). Use for writing/debugging … |
+| [qa-testing-ios](qa-testing-ios/) | majiayu000 | ★ 0 | 45% | L3 | iOS testing with XCTest/XCUITest on simulators and devices: layered strategy, de… |
+| [qa-testing-playwright](qa-testing-playwright/) | majiayu000 | ★ 0 | 45% | L3 | End-to-end web application testing with Playwright: scope control, stable select… |
+| [testing-services](testing-services/) | gestrich | ★ 0 | 45% | L3 | Writes unit tests for Python service classes using Arrange-Act-Assert pattern wi… |
+| [awesome-copilot-root-stackhawk-security-onboarding](awesome-copilot-root-stackhawk-security-onboarding/) | sla-te | ★ 0 | 45% | L3 | Automatically set up StackHawk security testing for your repository with generat… |
+| [minitest-testing](minitest-testing/) | majiayu000 | ★ 0 | 45% | L3 | Write, review, and improve Minitest tests for Ruby on Rails applications. Covers… |
+| [security-review-pr](security-review-pr/) | davidcjones79 | ★ 0 | 45% | L3 | PR/branch security review focused on HIGH-CONFIDENCE vulnerabilities with minima… |
+| [Cookbook Audit](cookbook-audit/) | ChatAndBuild | ★ 0 | 45% | L3 | Audit an Anthropic Cookbook notebook based on a rubric. Use whenever a notebook … |
+| [tinman](tinman/) | Niraven | ★ 0 | 44% | L3 | Security auditing and hardening for OpenClaw and system infrastructure. |
+| [Sharing Skills](sharing-skills/) | majiayu000 | ★ 0 | 44% | L3 | Contribute skills back to upstream via branch and PR |
+| [testing-strategy](testing-strategy/) | mattnigh | ★ 0 | 44% | L3 | Comprehensive guide for implementing AIDB tests following E2E-first philosophy, |
+| [Sharing Skills](sharing-skills/) | pv-udpv | ★ 0 | 44% | L3 | Contribute skills back to upstream via branch and PR |
+| [Sharing Skills](sharing-skills/) | Blurjp | ★ 0 | 44% | L3 | Contribute skills back to upstream via branch and PR |
+| [Sharing Skills](sharing-skills/) | xqt2023-ux | ★ 0 | 44% | L3 | Contribute skills back to upstream via branch and PR |
+| [Sharing Skills](sharing-skills/) | julien51 | ★ 0 | 44% | L3 | Contribute skills back to upstream via branch and PR |
+| [Axe-core Accessibility](axe-core-accessibility/) | omarrohit20 | ★ 0 | 44% | L3 | Automated accessibility testing with axe-core and WCAG 2.1 compliance |
+| [OWASP Security Testing](owasp-security-testing/) | omarrohit20 | ★ 0 | 44% | L3 | OWASP Top 10 security testing patterns and vulnerability scanning |
+| [testing-strategy](testing-strategy/) | ai-debugger-inc | ★ 0 | 44% | L3 | Comprehensive guide for implementing AIDB tests following E2E-first philosophy, |
+| [Sharing Skills](sharing-skills/) | majiayu000 | ★ 0 | 44% | L3 | Contribute skills back to upstream via branch and PR |
+| [dd-pup](dd-pup/) | datadog-labs | ★ 0 | 44% | L3 | Datadog CLI (Go). OAuth2 auth with token refresh. |
+| [moai-security-threat](moai-security-threat/) | majiayu000 | ★ 0 | 44% | L3 | Enterprise Skill for advanced development |
+| [moai-security-zero-trust](moai-security-zero-trust/) | majiayu000 | ★ 0 | 44% | L3 | Enterprise Skill for advanced development |
+| [testing](testing/) | 89jobrien | ★ 0 | 44% | L3 | Comprehensive testing specialization covering test strategy, automation, |
+| [testing](testing/) | majiayu000 | ★ 0 | 44% | L3 | Comprehensive testing specialization covering test strategy, automation, |
+| [spring-security](spring-security/) | phuccodenub | ★ 0 | 44% | L2 | Spring Security 6 patterns for authentication, authorization, and OAuth2 |
+| [SAST Triage](sast-triage/) | cdalsoniii | ★ 0 | 43% | L2 | Triage static analysis findings from gosec, golangci-lint, and govulncheck — cla… |
+| [BDD from API Spec](bdd-from-api-spec/) | cdalsoniii | ★ 0 | 43% | L2 | Generate Gherkin BDD feature files from API handler definitions — map endpoints … |
+| [aidf-developer](aidf-developer/) | rubenmavarezb | ★ 0 | 43% | L3 | Senior developer who writes clean, tested, maintainable code. Follows establishe… |
+| [Dependency Health Check](dependency-health-check/) | cdalsoniii | ★ 0 | 43% | L2 | Assess dependency health across CVE exposure, freshness, maintainer risk, and li… |
+| [Authorization Matrix](authorization-matrix/) | cdalsoniii | ★ 0 | 43% | L2 | Build and verify an authorization matrix mapping roles to endpoints — detect unp… |
+| [Test Gap from Diff](test-gap-from-diff/) | cdalsoniii | ★ 0 | 43% | L2 | Given a code diff, identify exactly which tests are missing — map changed functi… |
+| [hive-auth](hive-auth/) | paralect | ★ 0 | 43% | L3 | How authentication works in Hive framework |
+| [Coverage Ratcheting](coverage-ratcheting/) | cdalsoniii | ★ 0 | 43% | L2 | Enforce that test coverage never decreases — compare current coverage against ba… |
+| [better-auth-skill](better-auth-skill/) | WajahatAli3218664 | ★ 0 | 41% | L3 | Configure Better Auth with JWT for secure authentication |
+| [Property Testing](property-testing/) | majiayu000 | ★ 0 | 41% | L3 | Property-based testing with fast-check for business logic validation |
+| [container-security-scanner](container-security-scanner/) | majiayu000 | ★ 0 | 41% | L2 | Scan images and runtime for CVEs and policy violations. |
+| [better-auth-skill](better-auth-skill/) | majiayu000 | ★ 0 | 41% | L3 | Configure Better Auth with JWT for secure authentication |
+| [Property Testing](property-testing/) | captjay98 | ★ 0 | 41% | L3 | Property-based testing with fast-check for business logic validation |
+| [Property Testing](property-testing/) | majiayu000 | ★ 0 | 41% | L3 | Property-based testing with fast-check for business logic validation |
+| [selenium-testing](selenium-testing/) | majiayu000 | ★ 0 | 41% | L3 | Browser automation with Selenium WebDriver for Python. (project) |
+| [code-review-patterns](code-review-patterns/) | majiayu000 | ★ 0 | 41% | L3 | Internal skill. Use cc10x-router for all development tasks. |
+| [container-security-scanner](container-security-scanner/) | majiayu000 | ★ 0 | 41% | L2 | Scan images and runtime for CVEs and policy violations. |
+| [vitest-testing](vitest-testing/) | kabaka | ★ 0 | 41% | L3 | Write and run Vitest unit and integration tests. Use when creating tests, debugg… |
+| [oss-contributor-swarm](oss-contributor-swarm/) | niveshdandyan | ★ 0 | 41% | L3 | Autonomous 9-agent swarm that continuously contributes to open source projects o… |
+| [skill-tester-swarm](skill-tester-swarm/) | niveshdandyan | ★ 0 | 41% | L3 | Automated QA system for Claude Code skills. Discovers skills from GitHub/SkillsM… |
+| [auth-implementation-patterns](auth-implementation-patterns/) | mattmre | ★ 0 | 41% | L3 | Master authentication and authorization patterns including JWT, |
+| [security-auditor](security-auditor/) | rootcastleco | ★ 0 | 41% | L2 | Expert security auditor specializing in DevSecOps, comprehensive |
+| [openspec-bulk-archive-change](openspec-bulk-archive-change/) | DanielShuguang | ★ 0 | 41% | L3 | 一次归档多个已完成的变更。用于归档多个并行变更。 |
+| [better-auth-best-practices](better-auth-best-practices/) | nisshi-dev | ★ 0 | 41% | L3 | Better Auth（TypeScript 認証フレームワーク）の統合ガイド。セットアップ、セッション管理、プラグイン、セキュリティ設定に精通。 |
+| [agent-security-manager](agent-security-manager/) | ruvnet | ★ 0 | 41% | L3 | Agent skill for security-manager - invoke with $agent-security-manager |
+| [security-automation](security-automation/) | Ed1s0nZ | ★ 0 | 41% | L3 | 安全自动化的专业技能和方法论 |
+| [agent-security-manager](agent-security-manager/) | NeverSight | ★ 0 | 41% | L3 | Agent skill for security-manager - invoke with $agent-security-manager |
+| [agent-security-manager](agent-security-manager/) | majiayu000 | ★ 0 | 41% | L3 | Agent skill for security-manager - invoke with $agent-security-manager |
+| [agent-security-manager](agent-security-manager/) | Finimo-Solutions | ★ 0 | 41% | L3 | Agent skill for security-manager - invoke with $agent-security-manager |
+| [security-automation](security-automation/) | NeverSight | ★ 0 | 41% | L3 | 安全自动化的专业技能和方法论 |
+| [security-requirement-extraction](security-requirement-extraction/) | mattmre | ★ 0 | 41% | L3 | Derive security requirements from threat models and business |
+| [security-review](security-review/) | patleeman | ★ 0 | 41% | L2 | Scan code changes for security vulnerabilities including OWASP Top 10, hardcoded… |
+| [security-audit](security-audit/) | hffmnnj | ★ 0 | 41% | L3 | Audit code for security vulnerabilities |
+| [backup-recovery](backup-recovery/) | andreibesleaga | ★ 0 | 41% | L2 | Define RPO/RTO, implement PITR/Snapshots, and test restores. |
+| [create-auth-skill](create-auth-skill/) | jscraik | ★ 0 | 41% | L3 | Build Better Auth integrations for TS/JS apps with secure defaults. Use |
+| [testing-strategies](testing-strategies/) | Jonathan0823 | ★ 0 | 41% | L3 | Testing strategies, patterns, and best practices for production code |
+| [ultrathink](ultrathink/) | YPYT1 | ★ 0 | 41% | L2 | Use /ultrathink <TASK_DESCRIPTION> to launch a Coordinator Agent that directs fo… |
+| [preen-review-instructions](preen-review-instructions/) | a2f0 | ★ 0 | 41% | L3 | Audit and update code review instructions (REVIEW.md, .gemini/INSTRUCTIONS.md) |
+| [done](done/) | hankh95 | ★ 0 | 41% | L3 | Complete current expedition - run tests, commit, push, and update kanban status |
+| [openspec-bulk-archive-change](openspec-bulk-archive-change/) | YangYuS8 | ★ 0 | 41% | L3 | 一次归档多个已完成的变更。用于归档多个并行变更。 |
+| [container-security-scanner](container-security-scanner/) | majiayu000 | ★ 0 | 41% | L2 | Scan images and runtime for CVEs and policy violations. |
+| [security-auditor](security-auditor/) | Miosa-osa | ★ 0 | 41% | L3 | Comprehensive security analysis and vulnerability detection |
+| [python-testing](python-testing/) | affaan-m | ★ 0 | 41% | L3 | pytest、TDD手法、フィクスチャ、モック、パラメータ化、カバレッジ要件を使用したPythonテスト戦略。 |
+| [python-testing](python-testing/) | AndyHsuTW | ★ 0 | 41% | L3 | 使用pytest、TDD方法、夹具、模拟、参数化和覆盖率要求的Python测试策略。 |
+| [create-auth-skill](create-auth-skill/) | metaloozee | ★ 0 | 41% | L3 | Skill for creating auth layers in TypeScript/JavaScript apps using Better Auth. |
+| [Better Auth Best Practices](better-auth-best-practices/) | kriegcloud | ★ 0 | 41% | L3 | A skill to integrate better-auth. And auth framework for TypeScript projects. |
+| [python-testing](python-testing/) | xu-xiang | ★ 0 | 41% | L3 | 使用 pytest、TDD 方法论、fixtures、mocking、参数化和代码覆盖率要求的 Python 测试策略。 |
+| [security-auditor](security-auditor/) | milosriki | ★ 0 | 41% | L2 | Expert security auditor specializing in DevSecOps, comprehensive |
+| [skill-marketplace](skill-marketplace/) | majiayu000 | ★ 0 | 41% | L3 | 自動從 Skills Marketplace (skillsmp.com) 搜尋、安裝並使用適合當前任務的技能。當面對複雜任務或需要專業工具時自動觸發。 |
+| [testing-level-production](testing-level-production/) | wojons | ★ 0 | 41% | L3 | Testing strategy for production deployment |
+| [e2e](e2e/) | ihj04982 | ★ 0 | 41% | L3 | E2E Command - generate and run end-to-end tests with Playwright |
+| [agent-security-manager](agent-security-manager/) | ruvnet | ★ 0 | 41% | L3 | Agent skill for security-manager - invoke with $agent-security-manager |
+| [sentry-issue-fixer](sentry-issue-fixer/) | genlayerlabs | ★ 0 | 41% | L3 | Fetch, analyze, fix Sentry issues, run tests, and create PRs |
+| [done](done/) | majiayu000 | ★ 0 | 41% | L3 | Complete current expedition - run tests, commit, push, and update kanban status |
+| [preen-review-instructions](preen-review-instructions/) | a2f0 | ★ 0 | 41% | L3 | Audit and update code review instructions (REVIEW.md, .gemini/INSTRUCTIONS.md) |
+| [acceptance-test-driven-development](acceptance-test-driven-development/) | coctostan | ★ 0 | 40% | L3 | Write acceptance tests before unit tests to ensure you're building the right thi… |
+| [security](security/) | kprsnt2 | ★ 0 | 40% | L3 | Application security best practices including OWASP Top 10, authentication, and … |
+| [Threat Model](threat-model/) | cdalsoniii | ★ 0 | 39% | L2 | Conduct STRIDE-based threat modeling for system components and data flows |
+| [tauri-security-rules](tauri-security-rules/) | oimiragieo | ★ 0 | 39% | L3 | Security-related rules for Tauri application development. |
+| [tauri-security-rules](tauri-security-rules/) | Finimo-Solutions | ★ 0 | 39% | L3 | Security-related rules for Tauri application development. |
+| [Load Test Designer](load-test-designer/) | cdalsoniii | ★ 0 | 39% | L2 | Design load tests with realistic workload models and performance criteria |
+| [comprehensive-unit-testing-with-pytest](comprehensive-unit-testing-with-pytest/) | oimiragieo | ★ 0 | 39% | L2 | Aims for high test coverage using pytest, testing both common and edge cases. |
+| [Zendesk Customer Context](zendesk-customer-context/) | djinilabs | ★ 0 | 38% | L2 | Ticket history, requester context |
+| [vulnerability-scanning](vulnerability-scanning/) | majiayu000 | ★ 0 | 38% | L3 | Automated security scanning for dependencies, code, containers with Trivy, Snyk,… |
+| [vulnerability-scanning](vulnerability-scanning/) | secondsky | ★ 0 | 38% | L3 | Automated security scanning for dependencies, code, containers with Trivy, Snyk,… |
+| [vulnerability-scanning](vulnerability-scanning/) | majiayu000 | ★ 0 | 38% | L3 | Automated security scanning for dependencies, code, containers with Trivy, Snyk,… |
+| [testing](testing/) | jyang234 | ★ 0 | 38% | L2 | Testing standards and best practices |
+| [dotnet](dotnet/) | darrenoakey | ★ 0 | 38% | L2 | .NET development standards and practices for zero-fabrication, test-driven devel… |
+| [inspequte-rule-verify](inspequte-rule-verify/) | KengoTODA | ★ 0 | 38% | L2 | Perform isolated, file-based verification of an inspequte rule change using veri… |
+| [system-reality-auditor](system-reality-auditor/) | theeabrarrr | ★ 0 | 38% | L2 | Performs a triple-point audit to synchronize codebase, database schema, and proj… |
+| [wcag-audit-patterns](wcag-audit-patterns/) | majiayu000 | ★ 0 | 38% | L2 | Conduct WCAG 2.2 accessibility audits with automated testing, manual verificatio… |
+| [quality](quality/) | xiaobei930 | ★ 0 | 38% | L2 | Code quality assurance strategies. Parent skill for quality-related skills: secu… |
+| [security](security/) | htlin222 | ★ 0 | 38% | L3 | Security audits, vulnerability detection, and secure coding. Use for security re… |
+| [security-review](security-review/) | NeverSight | ★ 0 | 38% | L3 | Security audit for vulnerabilities, compliance issues, and sensitive data exposu… |
+| [security-review](security-review/) | bselee | ★ 0 | 38% | L3 | Security audit for vulnerabilities, compliance issues, and sensitive data exposu… |
+| [secure-coding](secure-coding/) | majiayu000 | ★ 0 | 38% | L2 | Implementing OWASP Proactive Controls (Input Validation, Output Encoding, AuthZ/… |
+| [security-hardening](security-hardening/) | NeverSight | ★ 0 | 38% | L2 | World-class application security - OWASP Top 10, secure coding patterns, and the… |
+| [mqtt-expert](mqtt-expert/) | majiayu000 | ★ 0 | 38% | L2 | Master of MQTT protocol, focusing on message brokering, QoS levels, and efficien… |
+| [security-hardening](security-hardening/) | omer-metin | ★ 0 | 38% | L2 | World-class application security - OWASP Top 10, secure coding patterns, and the… |
+| [security-review](security-review/) | TrevorEdris | ★ 0 | 38% | L2 | Perform security-focused code review to identify HIGH-CONFIDENCE vulnerabilities… |
+| [pentest-outbound-interaction-oob-detection](pentest-outbound-interaction-oob-detection/) | NeverSight | ★ 0 | 38% | L2 | Security assessment skill for outbound interaction and out-of-band (OOB) validat… |
+| [security-auditor-skill](security-auditor-skill/) | zeyuShawn | ★ 0 | 38% | L3 | 扫描指定目录或文件中的安全漏洞（特别是针对 macOS/Linux 的恶意安装脚本、Base64 混淆、反向 Shell）。当用户要求“检查安全”、“扫描漏洞”… |
+| [quality](quality/) | majiayu000 | ★ 0 | 38% | L2 | Code quality assurance strategies. Parent skill for quality-related skills: secu… |
+| [auth](auth/) | majiayu000 | ★ 0 | 38% | L2 | Implements authentication and payment features using Clerk, Supabase Auth, or St… |
+| [browser-testing](browser-testing/) | majiayu000 | ★ 0 | 38% | L3 | Use when testing web applications, debugging browser console errors, automating … |
+| [epic-security](epic-security/) | majiayu000 | ★ 0 | 38% | L3 | Use this skill when you need to: |
+| [openclaw-codex-oauth-proxy](openclaw-codex-oauth-proxy/) | yanghu819 | ★ 0 | 38% | L3 | OpenClaw 用 openai-codex（ChatGPT OAuth）跑 GPT-5.x Codex/Spark 的配置与排障（网关进程、代理、模型、th… |
+| [e2e-testing-patterns](e2e-testing-patterns/) | aiskillstore | ★ 0 | 38% | L2 | Master end-to-end testing with Playwright and Cypress to build reliable test sui… |
+| [Zendesk Customer Context](zendesk-customer-context/) | majiayu000 | ★ 0 | 38% | L2 | Ticket history, requester context |
+| [security](security/) | pluginagentmarketplace | ★ 0 | 37% | L3 | Security skill - OWASP, authentication, encryption, compliance |
+| [testing](testing/) | kprsnt2 | ★ 0 | 36% | L2 | Testing patterns and best practices for unit, integration, and E2E testing. |
+| [data-security](data-security/) | arcasilesgroup | ★ 0 | 35% | L2 | Assess data security controls: classification, access, encryption, retention, an… |
+| [playwright-best-practices](playwright-best-practices/) | aiskillstore | ★ 0 | 35% | L2 | Review code for Playwright Guidelines compliance. Use when asked to "review my p… |
+| [playwright-best-practices](playwright-best-practices/) | vitalics | ★ 0 | 35% | L2 | Review code for Playwright Guidelines compliance. Use when asked to "review my p… |
+| [security](security/) | lordofthejars | ★ 0 | 35% | L2 | Generate Tekton Task that uses Trivy to scan generated container for vulnerabili… |
+| [security-auditor](security-auditor/) | sidetoolco | ★ 0 | 35% | L2 | Review code for vulnerabilities, implement secure authentication, and ensure OWA… |
+| [data-security](data-security/) | arcasilesgroup | ★ 0 | 35% | L2 | Assess data security controls: classification, access, encryption, retention, an… |
+| [mk.ops](mk.ops/) | mayknxyz | ★ 0 | 34% | L2 | My Kit standalone utilities — handles code audits. |
+| [security-audit](security-audit/) | renatinhosfaria | ★ 0 | 34% | L2 | Use when reviewing code for security vulnerabilities and OWASP top 10 issues |
+| [jules-audit-request](jules-audit-request/) | majiayu000 | ★ 0 | 34% | L2 | Protocol for escalation to Jules when stuck. |
+| [jwt-verify](jwt-verify/) | majiayu000 | ★ 0 | 32% | L2 | Implement JWT verification middleware in FastAPI for user auth. Use when securin… |
+| [Code Review Analyzer](code-review-analyzer/) | michaelshimeles | ★ 0 | 32% | L2 | A comprehensive code review skill that analyzes code for best practices, potenti… |
+| [code-review](code-review/) | blackbearhq | ★ 0 | 32% | L2 | Reviews code changes for quality, security, and best practices. Auto-invoke when… |
+| [jwt-verify](jwt-verify/) | majiayu000 | ★ 0 | 32% | L2 | Implement JWT verification middleware in FastAPI for user auth. Use when securin… |
+| [jwt-verify](jwt-verify/) | Jawad-Chaudhary | ★ 0 | 32% | L2 | Implement JWT verification middleware in FastAPI for user auth. Use when securin… |
+| [agent-qa-expert](agent-qa-expert/) | majiayu000 | ★ 0 | 32% | L2 | Expert QA engineer specializing in comprehensive quality assurance, test strateg… |
+| [iosdev-cn](iosdev-cn/) | kuangre123 | ★ 0 | 32% | L2 | 通用 iOS App 开发、构建、签名、测试与 App Store 上架流程（中国区）指南。用于当用户询问 iOS 开发/上架/审核/签名/TestFlight… |
+| [code-reviewer](code-reviewer/) | d0ublecl1ck | ★ 0 | 32% | L2 | Review code changes for correctness, security, performance, and maintainability.… |
+| [developer-experience](developer-experience/) | henryhawke | ★ 0 | 32% | L2 | Use for developer experience optimization, monorepo management (Turborepo, Nx, B… |
+| [py-review-orchestrator](py-review-orchestrator/) | SatoryKono | ★ 0 | 32% | L2 | Execute BioETL hierarchical code review orchestration (L1/L2/L3) across sectors … |
+| [jwt-verify](jwt-verify/) | majiayu000 | ★ 0 | 32% | L2 | Implement JWT verification middleware in FastAPI for user auth. Use when securin… |
+| [蓝鲸代码安全三大红线](unnamed/) | majiayu000 | ★ 0 | 31% | L2 | 基于 IEG 安全规范，覆盖输入校验、鉴权、数据加密三大高危领域 |
+| [蓝鲸代码安全三大红线](unnamed/) | majiayu000 | ★ 0 | 31% | L2 | 基于 IEG 安全规范，覆盖输入校验、鉴权、数据加密三大高危领域 |
+| [test-skill](test-skill/) | majiayu000 | ★ 0 | 31% | L3 | A test skill for E2E conversion testing |
+| [test-skill](test-skill/) | majiayu000 | ★ 0 | 31% | L3 | A test skill for E2E conversion testing |
+| [testing](testing/) | majiayu000 | ★ 0 | 28% | L3 | Guide for testing practices and frameworks |
+| [testing](testing/) | aiskillstore | ★ 0 | 28% | L3 | Guide for testing practices and frameworks |
+| [testing](testing/) | majiayu000 | ★ 0 | 28% | L3 | Guide for testing practices and frameworks |
+| [testing](testing/) | 5t111111 | ★ 0 | 28% | L2 | Guide for testing practices and frameworks |
+| [testing-patterns](testing-patterns/) | grmkris | ★ 0 | 28% | L3 | Testing patterns using bun:test with in-memory SQLite. Use when writing unit tes… |
+| [testing-patterns](testing-patterns/) | grmkris | ★ 0 | 28% | L3 | Testing patterns using bun:test with in-memory SQLite. Use when writing unit tes… |
+| [testing](testing/) | majiayu000 | ★ 0 | 28% | L3 | Guide for testing practices and frameworks |
+| [Global Security](global-security/) | majiayu000 | ★ 0 | 26% | L2 | Your approach to handling global security. Use this skill when working on files … |
+| [playwright](playwright/) | majiayu000 | ★ 0 | 26% | L2 | Playwright E2E testing patterns and best practices. Cross-browser automation, se… |
+| [Global Security](global-security/) | majiayu000 | ★ 0 | 26% | L2 | Your approach to handling global security. Use this skill when working on files … |
+| [Global Security](global-security/) | jaypaulb | ★ 0 | 26% | L2 | Your approach to handling global security. Use this skill when working on files … |
+| [Global Security](global-security/) | majiayu000 | ★ 0 | 26% | L2 | Your approach to handling global security. Use this skill when working on files … |
+| [hlab-auditor](hlab-auditor/) | majiayu000 | ★ 0 | 25% | L2 | Independent reviewer. Provide PASS/FAIL based on `docs/AUDIT-CHECKLIST.md`. |
+| [hlab-auditor](hlab-auditor/) | majiayu000 | ★ 0 | 25% | L2 | Independent reviewer. Provide PASS/FAIL based on `docs/AUDIT-CHECKLIST.md`. |
+| [jwt](jwt/) | GoldenPanda1104 | ★ 0 | 24% | L2 | JWT y auth. Proyecto usa este skill; contenido canónico en .ai-system. |
+| [lc-test](lc-test/) | majiayu000 | ★ 0 | 22% | L2 | Test a Rust solution file against LeetCode's test cases (project) |
+| [lc-test](lc-test/) | majiayu000 | ★ 0 | 22% | L2 | Test a Rust solution file against LeetCode's test cases (project) |
+| [lc-test](lc-test/) | iQeda | ★ 0 | 22% | L2 | Test a Rust solution file against LeetCode's test cases (project) |
+| [lc-test](lc-test/) | majiayu000 | ★ 0 | 22% | L2 | Test a Rust solution file against LeetCode's test cases (project) |
 
 ---
 

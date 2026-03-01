@@ -1,241 +1,157 @@
 ---
 name: commit
-description: Commit staged changes using Graphite. Checks if on trunk and creates a new branch if needed. Updates PR title and summary after each commit.
-allowed-tools: Bash(gt:*), Bash(git:status), Bash(git:diff), Bash(git:branch), Bash(gh:*), Bash(pnpm:*), Read
+description: "Create atomic commits with clear, descriptive messages following WordPress core style. Use when committing code, making git commits, or when asked to commit changes."
 ---
 
-# Commit Skill
+# WordPress-Style Atomic Commit Skill
 
-Commits changes using Graphite, ensuring proper branch management and PR metadata.
+## When to Use
 
-## Usage
+Invoke this skill when:
+- User asks to "commit" changes
+- User says "make a commit" or "commit my changes"
+- After completing a task that should be committed
+- User explicitly invokes `/commit`
 
-Invoke with `/commit` or `/commit <message>`.
+## Atomic Commit Principles
 
-- `/commit` — auto-generates a conventional commit message from the diff
-- `/commit fix: resolve auth redirect loop` — uses the provided message
-- `/commit --new-branch` — forces creation of a new branch even if already on a feature branch
-- `/commit --new-branch fix: resolve auth redirect loop` — combines both
+Every commit should be:
 
-## Autonomous Execution
+1. **Smallest meaningful unit** - The minimum change that makes sense on its own
+2. **Single responsibility** - One task, one fix, or one feature per commit
+3. **No mixed concerns** - Don't combine refactors with features, or style fixes with bug fixes
+4. **Functional** - Each commit should leave the codebase in a working state
 
-This skill runs **fully autonomously** without user interaction. When invoked:
+### When to Split Commits
 
-- **Do NOT ask for user confirmation** at any step
-- **Do NOT pause** between tasks or wait for approval
-- **Proceed directly** through all workflow steps
-- **Only stop** if a critical error occurs
+Split into multiple commits when changes include:
+- A bug fix AND a new feature
+- Refactoring AND behavioral changes
+- Multiple unrelated fixes
+- Code changes AND dependency updates
 
-## Workflow
+## Commit Message Format
 
-### Step 1: Check Current Branch
+### Subject Line (Required)
+- **60 characters maximum**
+- Imperative mood ("Fix bug" not "Fixed bug" or "Fixes bug")
+- No trailing period
+- Capitalize first word
+- Be specific about what changed
 
-Determine the current branch:
+### Body (When Needed)
+- Separate from subject with a blank line
+- Explain **why** the change was made, not what changed
+- Wrap at 72 characters
+- Include context that isn't obvious from the code
 
-```bash
-git branch --show-current
-```
+## Procedure
 
-If the `--new-branch` flag was passed, **always create a new branch** regardless of the current branch. Proceed to Step 2a.
+1. **Review changes**
+   ```bash
+   git status
+   git diff
+   ```
 
-If the current branch is `main` or `staging` (a trunk branch), you are on trunk and **must create a new branch** before committing. Proceed to Step 2a.
+2. **Check for mixed concerns**
+   - If changes serve multiple purposes, stage and commit separately
+   - Use `git add -p` for partial staging if needed
 
-If already on a feature branch (and `--new-branch` was not passed), skip to Step 3.
+3. **Write the subject line**
+   - Start with a verb: Add, Fix, Update, Remove, Refactor, Improve
+   - Be specific: "Fix null check in user validation" not "Fix bug"
+   - Count characters - must be 60 or fewer
 
-### Step 2a: Create a New Branch
+4. **Write the body (if needed)**
+   - Explain the reasoning behind the change
+   - Mention any non-obvious side effects
+   - Reference related context
 
-Create a new feature branch. First, examine the staged and unstaged changes to determine an appropriate branch name:
+5. **Create the commit using HEREDOC**
+   ```bash
+   git commit -m "$(cat <<'EOF'
+   Subject line here (60 chars max)
 
-```bash
-git diff --stat
-git diff --staged --stat
-```
+   Body explaining why this change was made. Focus on the
+   reasoning and context, not describing what the code does.
+   EOF
+   )"
+   ```
 
-Generate a descriptive kebab-case branch name based on the changes (e.g., `fix/auth-redirect-loop`, `feat/add-user-avatar`, `chore/update-dependencies`).
+6. You should not add a 'co-authored by' byline.
 
-Create the branch with Graphite:
+## Examples
 
-```bash
-gt create <branch-name>
-```
-
-`gt create` automatically stacks the new branch on top of the current branch. This means:
-- If on trunk (`main`/`staging`), the new branch's parent is trunk
-- If on a feature branch (e.g., via `--new-branch`), the new branch stacks on top of that feature branch
-
-### Step 2b: Track Parent (only when creating from trunk)
-
-If the new branch was created from `main` or `staging` (i.e., NOT via `--new-branch` from a feature branch), ensure it targets staging:
-
-```bash
-gt track --parent staging
-```
-
-**Skip this step** when `--new-branch` was used from a feature branch — the branch is already correctly stacked on the current branch by `gt create`.
-
-### Step 3: Stage Changes
-
-Check for unstaged changes:
-
-```bash
-git status
-```
-
-If there are unstaged changes, stage all of them:
-
-```bash
-gt add .
-```
-
-If the user specified specific files, stage only those files instead.
-
-### Step 4: Review the Diff
-
-Get the full diff of staged changes:
-
-```bash
-git diff --staged
-```
-
-Analyze the diff to understand:
-- What type of change this is (feat/fix/refactor/docs/chore/test/style)
-- What scope/area is affected
-- What the changes accomplish
-
-### Step 5: Run Pre-Commit Checks
-
-Run formatting and tests on changed files:
-
-```bash
-pnpm pre-commit
-```
-
-If pre-commit fails:
-1. Review the failures
-2. Fix any formatting issues automatically
-3. Re-stage the fixed files with `gt add .`
-4. Re-run `pnpm pre-commit`
-5. If tests fail, report the failures and stop — do not commit broken code
-
-### Step 6: Create the Commit
-
-Generate a conventional commit message if one was not provided. The message format:
+### Good Commits
 
 ```
-type(scope): concise description
+Fix responsive breakpoint in navigation component
 
-Optional body with more detail if the change is complex.
-
-Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+The mobile menu was collapsing at 768px instead of 782px,
+causing layout issues on iPad portrait mode. This aligns
+the breakpoint with WordPress admin responsive standards.
 ```
 
-**Type**: `feat`, `fix`, `refactor`, `docs`, `chore`, `test`, `style`, `perf`
-**Scope**: The affected package or area (e.g., `landing`, `web`, `mobile`, `orpc`, `ui`)
-
-Create the commit:
-
-```bash
-gt modify -c -m "$(cat <<'EOF'
-type(scope): concise description
-
-Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
-EOF
-)"
+```
+Add input validation for email field
 ```
 
-Use a HEREDOC to preserve multi-line formatting.
+```
+Remove deprecated getUserData function
 
-### Step 7: Submit PR
-
-Create or update the PR with Graphite:
-
-```bash
-gt submit
+This function was replaced by fetchUserProfile in v2.1 and
+all callers have been migrated.
 ```
 
-This will create a new PR if one doesn't exist, or update the existing one.
-
-### Step 8: Update PR Title and Summary
-
-After submitting, get the full commit history for this branch:
-
-```bash
-gh pr view --json number,title,body,headRefName,commits
-```
-
-And get the full diff against the base branch:
-
-```bash
-gh pr diff
-```
-
-Analyze ALL commits and the full diff to generate:
-
-1. **PR Title** — conventional commit format covering the overall change:
-   - `feat(scope): description` for new features
-   - `fix(scope): description` for bug fixes
-   - `refactor(scope): description` for refactoring
-   - `docs(scope): description` for documentation
-   - `chore(scope): description` for maintenance
-   - If the PR has mixed types, use the most significant one
-
-2. **PR Summary** — structured markdown body:
-
-```markdown
-## Summary
-<1-3 bullet points describing what this PR does>
-
-## Changes
-<Bulleted list of specific changes made>
-
-## Test Plan
-<How to verify the changes work>
-
----
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-```
-
-Update the PR:
-
-```bash
-gh pr edit --title "type(scope): description" --body "$(cat <<'EOF'
-## Summary
-...
-
-## Changes
-...
-
-## Test Plan
-...
-
----
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-EOF
-)"
-```
-
-### Step 9: Report Result
-
-Output a summary to the user:
+### Bad Commits (Avoid These)
 
 ```
-✓ Committed: type(scope): description
-✓ PR #<number> updated: <title>
-  <PR URL>
+# Too vague
+Fixed stuff
+
+# Past tense instead of imperative
+Added new feature
+
+# Multiple concerns in one commit
+Fix bug and add tests and update styles
+
+# Subject too long (over 60 chars)
+This commit fixes the bug where the navigation menu was not displaying correctly on mobile devices
+
+# Trailing period
+Fix navigation bug.
+
+# Describes what, not why
+Change maxLength from 50 to 100
+
+# Co-authored by line included (should be avoided in commit messages)
+
+Examples of lines that should NOT be included in the commit message:
+```
+Generated with [Claude Code](https://claude.ai/code)
+via [Happy](https://happy.engineering)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Co-Authored-By: Happy <yesreply@happy.engineering>
 ```
 
-## Edge Cases
+## Verification Checklist
 
-- **No changes to commit**: If `git status` shows no changes, report "Nothing to commit" and stop
-- **Branch already exists**: If `gt create` fails because the branch exists, use `gt branch checkout <name>` instead
-- **PR submit fails**: If `gt submit` fails, report the error — the commit was still made successfully
-- **Pre-commit hook failure**: Fix formatting issues and retry. If tests fail, stop and report
+Before finalizing the commit:
 
-## Important Rules
+- [ ] Subject line is 60 characters or fewer
+- [ ] Subject uses imperative mood (Add/Fix/Update, not Added/Fixed/Updated)
+- [ ] Subject has no trailing period
+- [ ] Commit addresses only ONE concern
+- [ ] Body explains why (if change isn't self-evident)
+- [ ] Co-Authored-By line is NOT included
 
-- **Always use `gt` commands** for branch/commit operations (never raw `git commit`)
-- **Always run `pnpm pre-commit`** before committing
-- **Always include `Co-Authored-By`** trailer in commit messages
-- **Always update PR title and summary** after each commit using the full diff
-- **Branch names** use kebab-case with type prefix (e.g., `feat/thing`, `fix/bug`)
-- **New branches target staging** via `gt track --parent staging`
+## Quick Reference
+
+| Element | Requirement |
+|---------|-------------|
+| Subject length | 60 chars max |
+| Subject mood | Imperative (Add, Fix, Update) |
+| Subject punctuation | No trailing period |
+| Body separation | Blank line after subject |
+| Body purpose | Explain why, not what |

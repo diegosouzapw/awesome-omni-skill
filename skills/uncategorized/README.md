@@ -1,10 +1,12 @@
 # 📂 uncategorized
 
-> 1 skills in this category
+> 3 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
 | [adaptive-temporal-analysis-integration](adaptive-temporal-analysis-integration/) | majiayu000 | ★ 2 | 41% | L2 | Integrate adaptive temporal analysis for drift detection. |
+| [maintenance](maintenance/) | aiskillstore | ★ 0 | 26% | L2 | Cleans up and organizes project files. Use when user mentions '整理', 'cleanup', '… |
+| [hello-skill](hello-skill/) | Coffelix2023 | ★ 0 | 15% | L1 | 每次对话开始时,声明"[Skills✏️已加载]" |
 
 ---
 

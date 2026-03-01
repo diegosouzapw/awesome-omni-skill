@@ -1,12 +1,12 @@
 ---
 name: Prompting
-description: Meta-prompting system for dynamic prompt generation using templates, standards, and patterns. USE WHEN meta-prompting, template generation, prompt optimization, or programmatic prompt composition.
+description: Meta-prompting system that generates optimized prompts using templates, standards, and patterns. Produces structured prompts with role, context, and output format. USE WHEN meta-prompting, template generation, prompt optimization, programmatic prompt composition, render template, validate template, prompt engineering.
 ---
 
 ## Customization
 
 **Before executing, check for user customizations at:**
-`~/.claude/skills/PAI/USER/SKILLCUSTOMIZATIONS/Prompting/`
+`~/.claude/PAI/USER/SKILLCUSTOMIZATIONS/Prompting/`
 
 If this directory exists, load and apply any PREFERENCES.md, configurations, or resources found there. These override default behavior. If the directory does not exist, proceed with skill defaults.
 
@@ -62,8 +62,8 @@ Complete prompt engineering documentation based on:
 ### Example 1: Using Briefing Template (Agent Skill)
 
 ```typescript
-// skills/Agents/Tools/AgentFactory.ts
-import { renderTemplate } from '~/.claude/skills/Prompting/Tools/RenderTemplate.ts';
+// skills/Agents/Tools/ComposeAgent.ts
+import { renderTemplate } from '~/.claude/skills/Utilities/Prompting/Tools/RenderTemplate.ts';
 
 const prompt = renderTemplate('Primitives/Briefing.hbs', {
   briefing: { type: 'research' },

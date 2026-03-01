@@ -5,6 +5,16 @@ description: Master Anthropic's prompt engineering techniques to generate new pr
 
 # Anthropic Prompt Engineer
 
+## Trigger Phrases
+
+Activate when user says:
+- "improve this prompt", "optimize my prompt", "make this prompt better"
+- "write a prompt for", "create a prompt that", "generate a prompt"
+- "prompt engineering", "prompt best practices"
+- "help me with prompting", "how should I prompt this"
+- "fix my prompt", "debug this prompt", "my prompt isn't working"
+- "using anthropic techniques", "Claude prompt tips"
+
 Master the art and science of prompt engineering with Anthropic's proven techniques. Generate new prompts from scratch or improve existing ones using best practices for Claude AI models (Claude 4.x, Sonnet, Opus, Haiku).
 
 ## What This Skill Does

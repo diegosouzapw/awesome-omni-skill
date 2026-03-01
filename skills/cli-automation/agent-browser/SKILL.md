@@ -1,293 +1,513 @@
 ---
 name: agent-browser
-description: AI-optimized browser automation CLI with context-efficient snapshots. Use for long autonomous sessions, self-verifying workflows, video recording, and cloud browser testing (Browserbase).
-license: Apache-2.0
+description: Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing web apps, or automating any browser task. Triggers include requests to "open a website", "fill out a form", "click a button", "take a screenshot", "scrape data from a page", "test this web app", "login to a site", "automate browser actions", or any task requiring programmatic web interaction.
+allowed-tools: Bash(agent-browser:*)
 ---
 
-# agent-browser Skill
+# Browser Automation with agent-browser
 
-Browser automation CLI designed for AI agents. Uses "snapshot + refs" paradigm for 93% less context than Playwright MCP.
+## First-time Setup
 
-## Quick Start
+On the first use, the browser (Chromium) may not be downloaded yet. If you get an error like "Executable doesn't exist", run this first:
 
 ```bash
-# Install globally
-npm install -g agent-browser
-
-# Download Chromium (one-time)
 agent-browser install
-
-# Linux: include system deps
-agent-browser install --with-deps
-
-# Verify
-agent-browser --version
 ```
+
+This downloads Chromium (~160MB, one-time). Inform the user it may take a minute. After installation, all subsequent commands will work immediately.
 
 ## Core Workflow
 
-The 4-step pattern for all browser automation:
+Every browser automation follows this pattern:
+
+1. **Navigate**: `agent-browser open <url>`
+2. **Snapshot**: `agent-browser snapshot -i` (get element refs like `@e1`, `@e2`)
+3. **Interact**: Use refs to click, fill, select
+4. **Re-snapshot**: After navigation or DOM changes, get fresh refs
 
 ```bash
-# 1. Navigate
-agent-browser open https://example.com
-
-# 2. Snapshot (get interactive elements with refs)
+agent-browser open https://example.com/form
 agent-browser snapshot -i
-# Output: button "Sign In" @e1, textbox "Email" @e2, ...
+# Output: @e1 [input type="email"], @e2 [input type="password"], @e3 [button] "Submit"
 
-# 3. Interact using refs
-agent-browser fill @e2 "user@example.com"
-agent-browser click @e1
-
-# 4. Re-snapshot after page changes
-agent-browser snapshot -i
+agent-browser fill @e1 "user@example.com"
+agent-browser fill @e2 "password123"
+agent-browser click @e3
+agent-browser wait --load networkidle
+agent-browser snapshot -i  # Check result
 ```
 
-## When to Use (vs chrome-devtools)
+## Command Chaining
 
-| Use agent-browser | Use chrome-devtools |
-|-------------------|---------------------|
-| Long autonomous AI sessions | Quick one-off screenshots |
-| Context-constrained workflows | Custom Puppeteer scripts needed |
-| Video recording for debugging | WebSocket full frame debugging |
-| Cloud browsers (Browserbase) | Existing workflow integration |
-| Multi-tab handling | Need Sharp auto-compression |
-| Self-verifying build loops | Session with auth injection |
+Commands can be chained with `&&` in a single shell invocation. The browser persists between commands via a background daemon, so chaining is safe and more efficient than separate calls.
 
-**Token efficiency:** ~280 chars/snapshot vs 8K+ for Playwright MCP.
-
-## Command Reference
-
-### Navigation
 ```bash
-agent-browser open <url>       # Navigate to URL
-agent-browser back             # Go back
-agent-browser forward          # Go forward
-agent-browser reload           # Reload page
-agent-browser close            # Close browser
+# Chain open + wait + snapshot in one call
+agent-browser open https://example.com && agent-browser wait --load networkidle && agent-browser snapshot -i
+
+# Chain multiple interactions
+agent-browser fill @e1 "user@example.com" && agent-browser fill @e2 "password123" && agent-browser click @e3
+
+# Navigate and capture
+agent-browser open https://example.com && agent-browser wait --load networkidle && agent-browser screenshot page.png
 ```
 
-### Analysis (Snapshot)
+**When to chain:** Use `&&` when you don't need to read the output of an intermediate command before proceeding (e.g., open + wait + screenshot). Run commands separately when you need to parse the output first (e.g., snapshot to discover refs, then interact using those refs).
+
+## Essential Commands
+
 ```bash
-agent-browser snapshot         # Full accessibility tree
-agent-browser snapshot -i      # Interactive elements only (recommended)
-agent-browser snapshot -c      # Compact output
-agent-browser snapshot -d 3    # Limit depth
-agent-browser snapshot -s "nav" # Scope to CSS selector
+# Navigation
+agent-browser open <url>              # Navigate (aliases: goto, navigate)
+agent-browser close                   # Close browser
+
+# Snapshot
+agent-browser snapshot -i             # Interactive elements with refs (recommended)
+agent-browser snapshot -i -C          # Include cursor-interactive elements (divs with onclick, cursor:pointer)
+agent-browser snapshot -s "#selector" # Scope to CSS selector
+
+# Interaction (use @refs from snapshot)
+agent-browser click @e1               # Click element
+agent-browser click @e1 --new-tab     # Click and open in new tab
+agent-browser fill @e2 "text"         # Clear and type text
+agent-browser type @e2 "text"         # Type without clearing
+agent-browser select @e1 "option"     # Select dropdown option
+agent-browser check @e1               # Check checkbox
+agent-browser press Enter             # Press key
+agent-browser keyboard type "text"    # Type at current focus (no selector)
+agent-browser keyboard inserttext "text"  # Insert without key events
+agent-browser scroll down 500         # Scroll page
+agent-browser scroll down 500 --selector "div.content"  # Scroll within a specific container
+
+# Get information
+agent-browser get text @e1            # Get element text
+agent-browser get url                 # Get current URL
+agent-browser get title               # Get page title
+
+# Wait
+agent-browser wait @e1                # Wait for element
+agent-browser wait --load networkidle # Wait for network idle
+agent-browser wait --url "**/page"    # Wait for URL pattern
+agent-browser wait 2000               # Wait milliseconds
+
+# Downloads
+agent-browser download @e1 ./file.pdf          # Click element to trigger download
+agent-browser wait --download ./output.zip     # Wait for any download to complete
+agent-browser --download-path ./downloads open <url>  # Set default download directory
+
+# Capture
+agent-browser screenshot              # Screenshot to temp dir
+agent-browser screenshot --full       # Full page screenshot
+agent-browser screenshot --annotate   # Annotated screenshot with numbered element labels
+agent-browser pdf output.pdf          # Save as PDF
+
+# Diff (compare page states)
+agent-browser diff snapshot                          # Compare current vs last snapshot
+agent-browser diff snapshot --baseline before.txt    # Compare current vs saved file
+agent-browser diff screenshot --baseline before.png  # Visual pixel diff
+agent-browser diff url <url1> <url2>                 # Compare two pages
+agent-browser diff url <url1> <url2> --wait-until networkidle  # Custom wait strategy
+agent-browser diff url <url1> <url2> --selector "#main"  # Scope to element
 ```
-
-### Interactions (use @refs from snapshot)
-```bash
-agent-browser click @e1        # Click element
-agent-browser dblclick @e1     # Double-click
-agent-browser fill @e2 "text"  # Clear and fill input
-agent-browser type @e2 "text"  # Type without clearing
-agent-browser press Enter      # Press key
-agent-browser hover @e1        # Hover over element
-agent-browser check @e3        # Check checkbox
-agent-browser uncheck @e3      # Uncheck checkbox
-agent-browser select @e4 "opt" # Select dropdown option
-agent-browser scroll @e1       # Scroll element into view
-agent-browser scroll down 500  # Scroll page by pixels
-agent-browser drag @e1 @e2     # Drag from e1 to e2
-agent-browser upload @e5 file.pdf  # Upload file
-```
-
-### Information Retrieval
-```bash
-agent-browser get text @e1     # Get text content
-agent-browser get html @e1     # Get HTML
-agent-browser get value @e2    # Get input value
-agent-browser get attr @e1 href  # Get attribute
-agent-browser get title        # Page title
-agent-browser get url          # Current URL
-agent-browser get count "li"   # Count elements
-agent-browser get box @e1      # Bounding box
-```
-
-### State Checks
-```bash
-agent-browser is visible @e1   # Check visibility
-agent-browser is enabled @e1   # Check if enabled
-agent-browser is checked @e3   # Check if checked
-```
-
-### Media
-```bash
-agent-browser screenshot           # Capture viewport
-agent-browser screenshot --full    # Full page
-agent-browser screenshot -o ss.png # Save to file
-agent-browser pdf -o page.pdf      # Export PDF
-agent-browser record start         # Start video recording
-agent-browser record stop          # Stop and save video
-agent-browser record restart       # Restart recording
-```
-
-### Wait Conditions
-```bash
-agent-browser wait @e1                    # Wait for element
-agent-browser wait --text "Success"       # Wait for text to appear
-agent-browser wait --url "/dashboard"     # Wait for URL pattern
-agent-browser wait --load                 # Wait for page load
-agent-browser wait --idle                 # Wait for network idle
-agent-browser wait --fn "() => window.ready"  # Wait for JS condition
-```
-
-### Browser Configuration
-```bash
-agent-browser viewport 1920 1080   # Set viewport size
-agent-browser device "iPhone 14"   # Emulate device
-agent-browser geolocation 40.7 -74.0  # Set geolocation
-agent-browser offline true         # Enable offline mode
-agent-browser headers '{"X-Custom":"val"}'  # Set headers
-agent-browser credentials user pass  # HTTP auth
-agent-browser color-scheme dark    # Set color scheme
-```
-
-### Storage Management
-```bash
-agent-browser cookies              # List cookies
-agent-browser cookies set name=val # Set cookie
-agent-browser cookies clear        # Clear cookies
-agent-browser storage local        # Get localStorage
-agent-browser storage session      # Get sessionStorage
-agent-browser state save auth.json # Save browser state
-agent-browser state load auth.json # Load browser state
-```
-
-### Network Control
-```bash
-agent-browser network route "**/*.jpg" --abort    # Block requests
-agent-browser network route "**/api/*" --body '{"data":[]}'  # Mock response
-agent-browser network unroute "**/*.jpg"          # Remove specific route
-agent-browser network requests                    # List intercepted requests
-```
-
-### Semantic Finding
-```bash
-agent-browser find role button           # Find by ARIA role
-agent-browser find text "Submit"         # Find by text content
-agent-browser find label "Email"         # Find by label
-agent-browser find placeholder "Search"  # Find by placeholder
-agent-browser find testid "login-btn"    # Find by data-testid
-agent-browser find first "button"        # First matching element
-agent-browser find last "li"             # Last matching element
-agent-browser find nth 2 "li"            # Nth element (0-indexed)
-```
-
-### Advanced
-```bash
-agent-browser tabs                 # List tabs
-agent-browser tab new              # New tab
-agent-browser tab 2                # Switch to tab
-agent-browser tab close            # Close current tab
-agent-browser frame 0              # Switch to frame
-agent-browser dialog accept        # Accept dialog
-agent-browser dialog dismiss       # Dismiss dialog
-agent-browser eval "document.title"  # Execute JS
-agent-browser highlight @e1        # Highlight element visually
-agent-browser mouse move 100 200   # Move mouse to coordinates
-agent-browser mouse down           # Mouse button down
-agent-browser mouse up             # Mouse button up
-```
-
-## Global Options
-
-| Option | Description |
-|--------|-------------|
-| `--session <name>` | Named session for parallel testing |
-| `--json` | JSON output for parsing |
-| `--headed` | Show browser window |
-| `--cdp <port>` | Connect via Chrome DevTools Protocol |
-| `-p <provider>` | Cloud browser provider |
-| `--proxy <url>` | Proxy server |
-| `--headers <json>` | Custom HTTP headers |
-| `--executable-path` | Custom browser binary |
-| `--extension <path>` | Load browser extension |
-
-## Environment Variables
-
-| Variable | Description |
-|----------|-------------|
-| `AGENT_BROWSER_SESSION` | Default session name |
-| `AGENT_BROWSER_PROVIDER` | Cloud provider (e.g., browserbase) |
-| `AGENT_BROWSER_EXECUTABLE_PATH` | Browser binary location |
-| `AGENT_BROWSER_EXTENSIONS` | Comma-separated extension paths |
-| `AGENT_BROWSER_STREAM_PORT` | WebSocket streaming port |
-| `AGENT_BROWSER_HOME` | Custom installation directory |
-| `AGENT_BROWSER_PROFILE` | Browser profile directory |
-| `BROWSERBASE_API_KEY` | Browserbase API key |
-| `BROWSERBASE_PROJECT_ID` | Browserbase project ID |
 
 ## Common Patterns
 
 ### Form Submission
+
 ```bash
-agent-browser open https://example.com/login
+agent-browser open https://example.com/signup
 agent-browser snapshot -i
-agent-browser fill @e1 "user@example.com"
-agent-browser fill @e2 "password123"
-agent-browser click @e3  # Submit button
-agent-browser wait url "/dashboard"
+agent-browser fill @e1 "Jane Doe"
+agent-browser fill @e2 "jane@example.com"
+agent-browser select @e3 "California"
+agent-browser check @e4
+agent-browser click @e5
+agent-browser wait --load networkidle
 ```
 
-### State Persistence (Auth)
+### Authentication with Auth Vault (Recommended)
+
 ```bash
-# Save authenticated state
-agent-browser open https://example.com/login
-# ... login steps ...
+# Save credentials once (encrypted with AGENT_BROWSER_ENCRYPTION_KEY)
+# Recommended: pipe password via stdin to avoid shell history exposure
+echo "pass" | agent-browser auth save github --url https://github.com/login --username user --password-stdin
+
+# Login using saved profile (LLM never sees password)
+agent-browser auth login github
+
+# List/show/delete profiles
+agent-browser auth list
+agent-browser auth show github
+agent-browser auth delete github
+```
+
+### Authentication with State Persistence
+
+```bash
+# Login once and save state
+agent-browser open https://app.example.com/login
+agent-browser snapshot -i
+agent-browser fill @e1 "$USERNAME"
+agent-browser fill @e2 "$PASSWORD"
+agent-browser click @e3
+agent-browser wait --url "**/dashboard"
 agent-browser state save auth.json
 
 # Reuse in future sessions
 agent-browser state load auth.json
-agent-browser open https://example.com/dashboard
+agent-browser open https://app.example.com/dashboard
 ```
 
-### Video Recording (Debugging)
+### Session Persistence
+
 ```bash
-agent-browser open https://example.com
-agent-browser record start
-# ... perform actions ...
-agent-browser record stop  # Saves to recording.webm
+# Auto-save/restore cookies and localStorage across browser restarts
+agent-browser --session-name myapp open https://app.example.com/login
+# ... login flow ...
+agent-browser close  # State auto-saved to ~/.agent-browser/sessions/
+
+# Next time, state is auto-loaded
+agent-browser --session-name myapp open https://app.example.com/dashboard
+
+# Encrypt state at rest
+export AGENT_BROWSER_ENCRYPTION_KEY=$(openssl rand -hex 32)
+agent-browser --session-name secure open https://app.example.com
+
+# Manage saved states
+agent-browser state list
+agent-browser state show myapp-default.json
+agent-browser state clear myapp
+agent-browser state clean --older-than 7
+```
+
+### Data Extraction
+
+```bash
+agent-browser open https://example.com/products
+agent-browser snapshot -i
+agent-browser get text @e5           # Get specific element text
+agent-browser get text body > page.txt  # Get all page text
+
+# JSON output for parsing
+agent-browser snapshot -i --json
+agent-browser get text @e1 --json
 ```
 
 ### Parallel Sessions
-```bash
-# Terminal 1
-agent-browser --session test1 open https://example.com
-
-# Terminal 2
-agent-browser --session test2 open https://example.com
-```
-
-## Cloud Browsers (Browserbase)
-
-For CI/CD or environments without local browser:
 
 ```bash
-# Set credentials
-export BROWSERBASE_API_KEY="your-api-key"
-export BROWSERBASE_PROJECT_ID="your-project-id"
+agent-browser --session site1 open https://site-a.com
+agent-browser --session site2 open https://site-b.com
 
-# Use cloud browser
-agent-browser -p browserbase open https://example.com
+agent-browser --session site1 snapshot -i
+agent-browser --session site2 snapshot -i
+
+agent-browser session list
 ```
 
-See `references/browserbase-cloud-setup.md` for detailed setup.
+### Connect to Existing Chrome
 
-## Troubleshooting
+```bash
+# Auto-discover running Chrome with remote debugging enabled
+agent-browser --auto-connect open https://example.com
+agent-browser --auto-connect snapshot
 
-| Issue | Solution |
-|-------|----------|
-| Command not found | Run `npm install -g agent-browser` |
-| Chromium missing | Run `agent-browser install` |
-| Linux deps missing | Run `agent-browser install --with-deps` |
-| Session stale | Close browser: `agent-browser close` |
-| Element not found | Re-run `snapshot -i` after page changes |
+# Or with explicit CDP port
+agent-browser --cdp 9222 snapshot
+```
 
-## Resources
+### Color Scheme (Dark Mode)
 
-- [GitHub Repository](https://github.com/vercel-labs/agent-browser)
-- [Official Documentation](https://github.com/vercel-labs/agent-browser#readme)
-- [Browserbase Docs](https://docs.browserbase.com/)
+```bash
+# Persistent dark mode via flag (applies to all pages and new tabs)
+agent-browser --color-scheme dark open https://example.com
+
+# Or via environment variable
+AGENT_BROWSER_COLOR_SCHEME=dark agent-browser open https://example.com
+
+# Or set during session (persists for subsequent commands)
+agent-browser set media dark
+```
+
+### Visual Browser (Debugging)
+
+```bash
+agent-browser --headed open https://example.com
+agent-browser highlight @e1          # Highlight element
+agent-browser record start demo.webm # Record session
+agent-browser profiler start         # Start Chrome DevTools profiling
+agent-browser profiler stop trace.json # Stop and save profile (path optional)
+```
+
+### Local Files (PDFs, HTML)
+
+```bash
+# Open local files with file:// URLs
+agent-browser --allow-file-access open file:///path/to/document.pdf
+agent-browser --allow-file-access open file:///path/to/page.html
+agent-browser screenshot output.png
+```
+
+### iOS Simulator (Mobile Safari)
+
+```bash
+# List available iOS simulators
+agent-browser device list
+
+# Launch Safari on a specific device
+agent-browser -p ios --device "iPhone 16 Pro" open https://example.com
+
+# Same workflow as desktop - snapshot, interact, re-snapshot
+agent-browser -p ios snapshot -i
+agent-browser -p ios tap @e1          # Tap (alias for click)
+agent-browser -p ios fill @e2 "text"
+agent-browser -p ios swipe up         # Mobile-specific gesture
+
+# Take screenshot
+agent-browser -p ios screenshot mobile.png
+
+# Close session (shuts down simulator)
+agent-browser -p ios close
+```
+
+**Requirements:** macOS with Xcode, Appium (`npm install -g appium && appium driver install xcuitest`)
+
+**Real devices:** Works with physical iOS devices if pre-configured. Use `--device "<UDID>"` where UDID is from `xcrun xctrace list devices`.
+
+## Security
+
+All security features are opt-in. By default, agent-browser imposes no restrictions on navigation, actions, or output.
+
+### Content Boundaries (Recommended for AI Agents)
+
+Enable `--content-boundaries` to wrap page-sourced output in markers that help LLMs distinguish tool output from untrusted page content:
+
+```bash
+export AGENT_BROWSER_CONTENT_BOUNDARIES=1
+agent-browser snapshot
+# Output:
+# --- AGENT_BROWSER_PAGE_CONTENT nonce=<hex> origin=https://example.com ---
+# [accessibility tree]
+# --- END_AGENT_BROWSER_PAGE_CONTENT nonce=<hex> ---
+```
+
+### Domain Allowlist
+
+Restrict navigation to trusted domains. Wildcards like `*.example.com` also match the bare domain `example.com`. Sub-resource requests, WebSocket, and EventSource connections to non-allowed domains are also blocked. Include CDN domains your target pages depend on:
+
+```bash
+export AGENT_BROWSER_ALLOWED_DOMAINS="example.com,*.example.com"
+agent-browser open https://example.com        # OK
+agent-browser open https://malicious.com       # Blocked
+```
+
+### Action Policy
+
+Use a policy file to gate destructive actions:
+
+```bash
+export AGENT_BROWSER_ACTION_POLICY=./policy.json
+```
+
+Example `policy.json`:
+```json
+{"default": "deny", "allow": ["navigate", "snapshot", "click", "scroll", "wait", "get"]}
+```
+
+Auth vault operations (`auth login`, etc.) bypass action policy but domain allowlist still applies.
+
+### Output Limits
+
+Prevent context flooding from large pages:
+
+```bash
+export AGENT_BROWSER_MAX_OUTPUT=50000
+```
+
+## Diffing (Verifying Changes)
+
+Use `diff snapshot` after performing an action to verify it had the intended effect. This compares the current accessibility tree against the last snapshot taken in the session.
+
+```bash
+# Typical workflow: snapshot -> action -> diff
+agent-browser snapshot -i          # Take baseline snapshot
+agent-browser click @e2            # Perform action
+agent-browser diff snapshot        # See what changed (auto-compares to last snapshot)
+```
+
+For visual regression testing or monitoring:
+
+```bash
+# Save a baseline screenshot, then compare later
+agent-browser screenshot baseline.png
+# ... time passes or changes are made ...
+agent-browser diff screenshot --baseline baseline.png
+
+# Compare staging vs production
+agent-browser diff url https://staging.example.com https://prod.example.com --screenshot
+```
+
+`diff snapshot` output uses `+` for additions and `-` for removals, similar to git diff. `diff screenshot` produces a diff image with changed pixels highlighted in red, plus a mismatch percentage.
+
+## Timeouts and Slow Pages
+
+The default Playwright timeout is 25 seconds for local browsers. This can be overridden with the `AGENT_BROWSER_DEFAULT_TIMEOUT` environment variable (value in milliseconds). For slow websites or large pages, use explicit waits instead of relying on the default timeout:
+
+```bash
+# Wait for network activity to settle (best for slow pages)
+agent-browser wait --load networkidle
+
+# Wait for a specific element to appear
+agent-browser wait "#content"
+agent-browser wait @e1
+
+# Wait for a specific URL pattern (useful after redirects)
+agent-browser wait --url "**/dashboard"
+
+# Wait for a JavaScript condition
+agent-browser wait --fn "document.readyState === 'complete'"
+
+# Wait a fixed duration (milliseconds) as a last resort
+agent-browser wait 5000
+```
+
+When dealing with consistently slow websites, use `wait --load networkidle` after `open` to ensure the page is fully loaded before taking a snapshot. If a specific element is slow to render, wait for it directly with `wait <selector>` or `wait @ref`.
+
+## Session Management and Cleanup
+
+When running multiple agents or automations concurrently, always use named sessions to avoid conflicts:
+
+```bash
+# Each agent gets its own isolated session
+agent-browser --session agent1 open site-a.com
+agent-browser --session agent2 open site-b.com
+
+# Check active sessions
+agent-browser session list
+```
+
+Always close your browser session when done to avoid leaked processes:
+
+```bash
+agent-browser close                    # Close default session
+agent-browser --session agent1 close   # Close specific session
+```
+
+If a previous session was not closed properly, the daemon may still be running. Use `agent-browser close` to clean it up before starting new work.
+
+## Ref Lifecycle (Important)
+
+Refs (`@e1`, `@e2`, etc.) are invalidated when the page changes. Always re-snapshot after:
+
+- Clicking links or buttons that navigate
+- Form submissions
+- Dynamic content loading (dropdowns, modals)
+
+```bash
+agent-browser click @e5              # Navigates to new page
+agent-browser snapshot -i            # MUST re-snapshot
+agent-browser click @e1              # Use new refs
+```
+
+## Annotated Screenshots (Vision Mode)
+
+Use `--annotate` to take a screenshot with numbered labels overlaid on interactive elements. Each label `[N]` maps to ref `@eN`. This also caches refs, so you can interact with elements immediately without a separate snapshot.
+
+```bash
+agent-browser screenshot --annotate
+# Output includes the image path and a legend:
+#   [1] @e1 button "Submit"
+#   [2] @e2 link "Home"
+#   [3] @e3 textbox "Email"
+agent-browser click @e2              # Click using ref from annotated screenshot
+```
+
+Use annotated screenshots when:
+- The page has unlabeled icon buttons or visual-only elements
+- You need to verify visual layout or styling
+- Canvas or chart elements are present (invisible to text snapshots)
+- You need spatial reasoning about element positions
+
+## Semantic Locators (Alternative to Refs)
+
+When refs are unavailable or unreliable, use semantic locators:
+
+```bash
+agent-browser find text "Sign In" click
+agent-browser find label "Email" fill "user@test.com"
+agent-browser find role button click --name "Submit"
+agent-browser find placeholder "Search" type "query"
+agent-browser find testid "submit-btn" click
+```
+
+## JavaScript Evaluation (eval)
+
+Use `eval` to run JavaScript in the browser context. **Shell quoting can corrupt complex expressions** -- use `--stdin` or `-b` to avoid issues.
+
+```bash
+# Simple expressions work with regular quoting
+agent-browser eval 'document.title'
+agent-browser eval 'document.querySelectorAll("img").length'
+
+# Complex JS: use --stdin with heredoc (RECOMMENDED)
+agent-browser eval --stdin <<'EVALEOF'
+JSON.stringify(
+  Array.from(document.querySelectorAll("img"))
+    .filter(i => !i.alt)
+    .map(i => ({ src: i.src.split("/").pop(), width: i.width }))
+)
+EVALEOF
+
+# Alternative: base64 encoding (avoids all shell escaping issues)
+agent-browser eval -b "$(echo -n 'Array.from(document.querySelectorAll("a")).map(a => a.href)' | base64)"
+```
+
+**Why this matters:** When the shell processes your command, inner double quotes, `!` characters (history expansion), backticks, and `$()` can all corrupt the JavaScript before it reaches agent-browser. The `--stdin` and `-b` flags bypass shell interpretation entirely.
+
+**Rules of thumb:**
+- Single-line, no nested quotes -> regular `eval 'expression'` with single quotes is fine
+- Nested quotes, arrow functions, template literals, or multiline -> use `eval --stdin <<'EVALEOF'`
+- Programmatic/generated scripts -> use `eval -b` with base64
+
+## Anti-Detection & Configuration
+
+Anti-detection defaults are pre-configured in `~/.agent-browser/config.json` — headed mode, hidden `navigator.webdriver`, realistic window size/UA, persistent browser profile. No extra flags needed for normal use.
+
+**Persistent login:** The browser profile at `~/.playwright-mcp-profile/` persists cookies/localStorage across sessions. If a site requires login, guide the user to log in once in the headed browser window — subsequent runs will reuse the authenticated session automatically.
+
+**If a site still blocks:** override per-command with CLI flags (temporary), or edit the config file (persistent). CLI flags always override the config file.
+
+```bash
+# Temporary: override UA for one command
+agent-browser --user-agent "custom UA" open https://target.com
+```
+
+**Persistent config edits:** edit `~/.agent-browser/config.json`. **IMPORTANT:** This file is auto-managed by MyAgents — it regenerates on every app startup when `"_managed_by": "myagents"` is present. To make persistent edits that survive restarts, you **must** first delete the `"_managed_by"` field, then save your changes. `args` field is split by **both comma and newline** — avoid args containing commas (e.g. `--window-size=W,H` will be split incorrectly; use `--start-maximized` instead). All CLI flags map to camelCase keys (`--executable-path` → `executablePath`).
+
+Config priority (lowest → highest): `~/.agent-browser/config.json` < `./agent-browser.json` < env vars < CLI flags.
+
+## Deep-Dive Documentation
+
+| Reference | When to Use |
+|-----------|-------------|
+| [references/commands.md](references/commands.md) | Full command reference with all options |
+| [references/snapshot-refs.md](references/snapshot-refs.md) | Ref lifecycle, invalidation rules, troubleshooting |
+| [references/session-management.md](references/session-management.md) | Parallel sessions, state persistence, concurrent scraping |
+| [references/authentication.md](references/authentication.md) | Login flows, OAuth, 2FA handling, state reuse |
+| [references/video-recording.md](references/video-recording.md) | Recording workflows for debugging and documentation |
+| [references/profiling.md](references/profiling.md) | Chrome DevTools profiling for performance analysis |
+| [references/proxy-support.md](references/proxy-support.md) | Proxy configuration, geo-testing, rotating proxies |
+
+## Ready-to-Use Templates
+
+| Template | Description |
+|----------|-------------|
+| [templates/form-automation.sh](templates/form-automation.sh) | Form filling with validation |
+| [templates/authenticated-session.sh](templates/authenticated-session.sh) | Login once, reuse state |
+| [templates/capture-workflow.sh](templates/capture-workflow.sh) | Content extraction with screenshots |
+
+```bash
+./templates/form-automation.sh https://example.com/form
+./templates/authenticated-session.sh https://app.example.com/login
+./templates/capture-workflow.sh https://example.com ./output
+```

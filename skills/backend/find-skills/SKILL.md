@@ -1,10 +1,6 @@
 ---
 name: find-skills
 description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.
-system: true
-handler: skills
-tool-name: find_skills
-category: Skills Management
 ---
 
 # Find Skills
@@ -29,11 +25,11 @@ The Skills CLI (`npx skills`) is the package manager for the open agent skills e
 **Key commands:**
 
 - `npx skills find [query]` - Search for skills interactively or by keyword
-- `npx skills add <source>` - Install a skill from GitHub or other sources
+- `npx skills add <package>` - Install a skill from GitHub or other sources
 - `npx skills check` - Check for skill updates
 - `npx skills update` - Update all installed skills
 
-**Browse skills at:** https://skills.sh/
+**Browse skills at:** <https://skills.sh/>
 
 ## How to Help Users Find Skills
 
@@ -62,7 +58,7 @@ For example:
 The command will return results like:
 
 ```
-Install with npx skills add <source>
+Install with npx skills add <owner/repo@skill>
 
 vercel-labs/agent-skills@vercel-react-best-practices
 └ https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices
@@ -93,7 +89,7 @@ Learn more: https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practic
 If the user wants to proceed, you can install the skill for them:
 
 ```bash
-npx skills add -g -y <source>
+npx skills add <owner/repo@skill> -g -y
 ```
 
 The `-g` flag installs globally (user-level) and `-y` skips confirmation prompts.
@@ -102,15 +98,15 @@ The `-g` flag installs globally (user-level) and `-y` skips confirmation prompts
 
 When searching, consider these common categories:
 
-| Category | Example Queries |
+| Category        | Example Queries                          |
 | --------------- | ---------------------------------------- |
 | Web Development | react, nextjs, typescript, css, tailwind |
-| Testing | testing, jest, playwright, e2e |
-| DevOps | deploy, docker, kubernetes, ci-cd |
-| Documentation | docs, readme, changelog, api-docs |
-| Code Quality | review, lint, refactor, best-practices |
-| Design | ui, ux, design-system, accessibility |
-| Productivity | workflow, automation, git |
+| Testing         | testing, jest, playwright, e2e           |
+| DevOps          | deploy, docker, kubernetes, ci-cd        |
+| Documentation   | docs, readme, changelog, api-docs        |
+| Code Quality    | review, lint, refactor, best-practices   |
+| Design          | ui, ux, design-system, accessibility     |
+| Productivity    | workflow, automation, git                |
 
 ## Tips for Effective Searches
 
@@ -126,8 +122,12 @@ If no relevant skills exist:
 2. Offer to help with the task directly using your general capabilities
 3. Suggest the user could create their own skill with `npx skills init`
 
-## Related Skills
+Example:
 
-- `list-skills`: 查看已安装技能
-- `install-skill`: 安装新技能
-- `get-skill-info`: 获取技能详情
+```
+I searched for skills related to "xyz" but didn't find any matches.
+I can still help you with this task directly! Would you like me to proceed?
+
+If this is something you do often, you could create your own skill:
+npx skills init my-xyz-skill
+```

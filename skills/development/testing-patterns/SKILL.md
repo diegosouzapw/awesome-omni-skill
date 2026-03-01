@@ -1,265 +1,192 @@
 ---
 name: testing-patterns
-description: "Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle."
-risk: unknown
-source: community
-date_added: "2026-02-27"
+description: TDD and unit testing guidance for Crispy CRM. Use when writing tests, implementing TDD, debugging test failures, or setting up test infrastructure. Covers Vitest patterns, React Admin component testing, Zod schema validation testing, Supabase mocking, E2E with Playwright, and manual E2E testing with Claude Chrome. Integrates with verification-before-completion for test verification.
 ---
 
-# Testing Patterns and Utilities
+# Testing Patterns for Crispy CRM
 
-## Testing Philosophy
+## Overview
 
-**Test-Driven Development (TDD):**
-- Write failing test FIRST
-- Implement minimal code to pass
-- Refactor after green
-- Never write production code without a failing test
+Comprehensive testing guidance for the Crispy CRM codebase. Covers unit testing with Vitest, component testing with React Admin context, validation testing with Zod schemas, and E2E testing with Playwright.
 
-**Behavior-Driven Testing:**
-- Test behavior, not implementation
-- Focus on public APIs and business requirements
-- Avoid testing implementation details
-- Use descriptive test names that describe behavior
+**Philosophy:** Tests should verify behavior, not implementation. Focus on what the code does, not how it does it.
 
-**Factory Pattern:**
-- Create `getMockX(overrides?: Partial<X>)` functions
-- Provide sensible defaults
-- Allow overriding specific properties
-- Keep tests DRY and maintainable
+## When to Use
 
-## Test Utilities
+Use this skill when:
+- Writing new tests (unit, integration, E2E)
+- Implementing TDD (Test-Driven Development)
+- Debugging failing tests
+- Setting up test infrastructure
+- Mocking Supabase or React Admin
+- Understanding test coverage requirements
+- Writing Claude Chrome manual E2E prompts
 
-### Custom Render Function
+## Test Stack
 
-Create a custom render that wraps components with required providers:
+| Layer | Tool | Location |
+|-------|------|----------|
+| **Unit Tests** | Vitest | `src/**/__tests__/*.test.ts` |
+| **Component Tests** | Vitest + React Testing Library | `src/**/__tests__/*.test.tsx` |
+| **Validation Tests** | Vitest + Zod | `src/atomic-crm/validation/__tests__/` |
+| **E2E Tests** | Playwright | `tests/e2e/` |
+| **Manual E2E** | Claude Chrome | `docs/tests/e2e/` |
+| **Database Tests** | pgTAP | `supabase/tests/` |
+
+## TDD Workflow
+
+### The Red-Green-Refactor Cycle
+
+1. **RED:** Write a failing test that describes expected behavior. Run it to confirm failure.
+2. **GREEN:** Write minimal code to make the test pass. Speed over elegance.
+3. **REFACTOR:** Clean up while tests still pass. This step is NOT optional.
+
+### Arrange-Act-Assert Pattern
+
+Structure every test with three clear sections:
 
 ```typescript
-// src/utils/testUtils.tsx
-import { render } from '@testing-library/react-native';
-import { ThemeProvider } from './theme';
+it('calculates total with tax', () => {
+  // Arrange: Set up test data
+  const items = [{ price: 100 }, { price: 50 }];
+  const taxRate = 0.1;
 
-export const renderWithTheme = (ui: React.ReactElement) => {
-  return render(
-    <ThemeProvider>{ui}</ThemeProvider>
-  );
-};
-```
+  // Act: Execute the code
+  const total = calculateTotalWithTax(items, taxRate);
 
-**Usage:**
-```typescript
-import { renderWithTheme } from 'utils/testUtils';
-import { screen } from '@testing-library/react-native';
-
-it('should render component', () => {
-  renderWithTheme(<MyComponent />);
-  expect(screen.getByText('Hello')).toBeTruthy();
+  // Assert: Verify the outcome
+  expect(total).toBe(165);
 });
 ```
 
-## Factory Pattern
+### Where TDD Thrives
 
-### Component Props Factory
+| Domain | TDD Effectiveness | Why |
+|--------|-------------------|-----|
+| **Validation schemas** | Excellent | Well-defined inputs/outputs |
+| **Pure functions** | Excellent | No side effects |
+| **Data providers** | Very Good | Clear API contracts |
+| **Hooks** | Very Good | Isolated logic |
+| **Components** | Good | Need user interaction testing |
+| **UI layout** | Fair | Visual verification better |
 
-```typescript
-import { ComponentProps } from 'react';
-
-const getMockMyComponentProps = (
-  overrides?: Partial<ComponentProps<typeof MyComponent>>
-) => {
-  return {
-    title: 'Default Title',
-    count: 0,
-    onPress: jest.fn(),
-    isLoading: false,
-    ...overrides,
-  };
-};
-
-// Usage in tests
-it('should render with custom title', () => {
-  const props = getMockMyComponentProps({ title: 'Custom Title' });
-  renderWithTheme(<MyComponent {...props} />);
-  expect(screen.getByText('Custom Title')).toBeTruthy();
-});
-```
-
-### Data Factory
-
-```typescript
-interface User {
-  id: string;
-  name: string;
-  email: string;
-  role: 'admin' | 'user';
-}
-
-const getMockUser = (overrides?: Partial<User>): User => {
-  return {
-    id: '123',
-    name: 'John Doe',
-    email: 'john@example.com',
-    role: 'user',
-    ...overrides,
-  };
-};
-
-// Usage
-it('should display admin badge for admin users', () => {
-  const user = getMockUser({ role: 'admin' });
-  renderWithTheme(<UserCard user={user} />);
-  expect(screen.getByText('Admin')).toBeTruthy();
-});
-```
-
-## Mocking Patterns
-
-### Mocking Modules
-
-```typescript
-// Mock entire module
-jest.mock('utils/analytics');
-
-// Mock with factory function
-jest.mock('utils/analytics', () => ({
-  Analytics: {
-    logEvent: jest.fn(),
-  },
-}));
-
-// Access mock in test
-const mockLogEvent = jest.requireMock('utils/analytics').Analytics.logEvent;
-```
-
-### Mocking GraphQL Hooks
-
-```typescript
-jest.mock('./GetItems.generated', () => ({
-  useGetItemsQuery: jest.fn(),
-}));
-
-const mockUseGetItemsQuery = jest.requireMock(
-  './GetItems.generated'
-).useGetItemsQuery as jest.Mock;
-
-// In test
-mockUseGetItemsQuery.mockReturnValue({
-  data: { items: [] },
-  loading: false,
-  error: undefined,
-});
-```
-
-## Test Structure
-
-```typescript
-describe('ComponentName', () => {
-  beforeEach(() => {
-    jest.clearAllMocks();
-  });
-
-  describe('Rendering', () => {
-    it('should render component with default props', () => {});
-    it('should render loading state when loading', () => {});
-  });
-
-  describe('User interactions', () => {
-    it('should call onPress when button is clicked', async () => {});
-  });
-
-  describe('Edge cases', () => {
-    it('should handle empty data gracefully', () => {});
-  });
-});
-```
-
-## Query Patterns
-
-```typescript
-// Element must exist
-expect(screen.getByText('Hello')).toBeTruthy();
-
-// Element should not exist
-expect(screen.queryByText('Goodbye')).toBeNull();
-
-// Element appears asynchronously
-await waitFor(() => {
-  expect(screen.findByText('Loaded')).toBeTruthy();
-});
-```
-
-## User Interaction Patterns
-
-```typescript
-import { fireEvent, screen } from '@testing-library/react-native';
-
-it('should submit form on button click', async () => {
-  const onSubmit = jest.fn();
-  renderWithTheme(<LoginForm onSubmit={onSubmit} />);
-
-  fireEvent.changeText(screen.getByLabelText('Email'), 'user@example.com');
-  fireEvent.changeText(screen.getByLabelText('Password'), 'password123');
-  fireEvent.press(screen.getByTestId('login-button'));
-
-  await waitFor(() => {
-    expect(onSubmit).toHaveBeenCalled();
-  });
-});
-```
-
-## Anti-Patterns to Avoid
-
-### Testing Mock Behavior Instead of Real Behavior
-
-```typescript
-// Bad - testing the mock
-expect(mockFetchData).toHaveBeenCalled();
-
-// Good - testing actual behavior
-expect(screen.getByText('John Doe')).toBeTruthy();
-```
-
-### Not Using Factories
-
-```typescript
-// Bad - duplicated, inconsistent test data
-it('test 1', () => {
-  const user = { id: '1', name: 'John', email: 'john@test.com', role: 'user' };
-});
-it('test 2', () => {
-  const user = { id: '2', name: 'Jane', email: 'jane@test.com' }; // Missing role!
-});
-
-// Good - reusable factory
-const user = getMockUser({ name: 'Custom Name' });
-```
-
-## Best Practices
-
-1. **Always use factory functions** for props and data
-2. **Test behavior, not implementation**
-3. **Use descriptive test names**
-4. **Organize with describe blocks**
-5. **Clear mocks between tests**
-6. **Keep tests focused** - one behavior per test
-
-## Running Tests
+### TDD in Watch Mode
 
 ```bash
-# Run all tests
-npm test
-
-# Run with coverage
-npm run test:coverage
-
-# Run specific file
-npm test ComponentName.test.tsx
+just test:watch
+# 1. Write failing test -> See RED in terminal
+# 2. Write code -> See GREEN
+# 3. Refactor -> Confirm still GREEN
+# 4. Commit -> Repeat
 ```
+
+### Common TDD Pitfalls
+
+| Pitfall | Problem | Fix |
+|---------|---------|-----|
+| Skipping refactor | Technical debt accumulates | Refactor after EVERY green |
+| Testing implementation | Brittle tests break on refactor | Test inputs -> outputs only |
+| Writing tests after code | Confirmation bias | Discipline: test FIRST |
+| Chasing 100% coverage | Meaningless tests | Focus on behavior coverage |
+| Giant test steps | Hard to debug failures | Small increments |
+
+## Automatic Activation
+
+This skill activates automatically for implementation tasks. When you see:
+- "implement feature", "create component", "add handler", "new schema"
+- Any file modification in `src/atomic-crm/**/*.ts` or `src/atomic-crm/**/*.tsx`
+
+**The skill will remind you:**
+1. Write test FIRST (Red phase)
+2. Run test to confirm it fails
+3. Implement minimal code (Green phase)
+4. Refactor while tests pass
+5. Verify with `just test` before claiming complete
+
+### Integration with verification-before-completion
+
+Testing is now enforced at completion time:
+- Cannot claim "done" without test evidence
+- Cannot claim "feature complete" without passing tests
+- UI changes prompt for Manual E2E via Claude Chrome
+
+## Quick Reference
+
+### Running Tests
+
+```bash
+just test              # All unit tests
+just test:watch        # Watch mode for TDD
+just test:coverage     # Generate coverage report
+just test:ui           # Vitest UI for debugging
+npx playwright test    # E2E tests
+npx supabase test db   # Database tests
+```
+
+### Coverage Requirements
+
+| Type | Minimum | Target |
+|------|---------|--------|
+| **Validation schemas** | 90% | 100% |
+| **Data providers** | 80% | 90% |
+| **Components** | 70% | 80% |
+| **Hooks** | 80% | 90% |
+| **E2E critical paths** | 100% | 100% |
 
 ## Integration with Other Skills
 
-- **react-ui-patterns**: Test all UI states (loading, error, empty, success)
-- **systematic-debugging**: Write test that reproduces bug before fixing
+| Skill | Integration |
+|-------|-------------|
+| `verification-before-completion` | Run tests before claiming "done" |
+| `fail-fast-debugging` | Use test failures to trace root cause |
+| `enforcing-principles` | Tests verify schema validation at API boundary |
 
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+## Decision Tree
+
+```
+Need to write tests?
+|
++- New feature?
+|  +- Start with TDD -> Write failing test first
+|
++- Bug fix?
+|  +- Write test that reproduces bug -> Fix -> Verify passes
+|
++- Validation logic?
+|  +- Test Zod schemas -> Valid/invalid inputs, coercion, defaults
+|
++- React component?
+|  +- Use renderWithAdminContext -> Test user interactions
+|
++- Database logic?
+|  +- pgTAP tests -> RLS policies, constraints, triggers
+|
++- Full user journey?
+   +- Playwright E2E -> Critical path scenarios
+```
+
+## Red Flags - STOP and Review
+
+If you find yourself:
+- Writing tests after code is "done" -> Consider TDD next time
+- Testing internal state -> Test behavior instead
+- Skipping async waitFor -> Race condition risk
+- Using raw `render()` for React Admin components -> Use `renderWithAdminContext`
+- No assertions in test -> Test is meaningless
+- Massive snapshots -> Use specific assertions
+
+**Remember:** Tests are documentation. They should clearly express what the code does.
+
+## Resources
+
+For detailed implementation patterns, see the reference files below:
+
+- [vitest-patterns.md](references/vitest-patterns.md) - Test file structure, hook testing, anti-patterns, ESLint enforcement, CLI commands
+- [mock-patterns.md](references/mock-patterns.md) - Supabase mocking, per-test overrides, typed mock factories
+- [react-admin-testing.md](references/react-admin-testing.md) - renderWithAdminContext, form/error/accessibility testing, E2E with Playwright, Claude Chrome manual E2E, pgTAP
+- [zod-testing.md](references/zod-testing.md) - Schema validation testing, coercion, defaults, strict vs passthrough
+
+<!-- @resource references/vitest-patterns.md "Vitest configuration and test patterns" -->
+<!-- @resource references/mock-patterns.md "Mock setup and typed factories" -->
+<!-- @resource references/react-admin-testing.md "React Admin component testing, E2E, and database testing" -->
+<!-- @resource references/zod-testing.md "Zod schema validation testing patterns" -->

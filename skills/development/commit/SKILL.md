@@ -1,23 +1,11 @@
 ---
 name: commit
-description: "Create commit messages following Sentry conventions. Use when committing code changes, writing commit messages, or formatting git history. Follows conventional commits with Sentry-specific issue re..."
-risk: safe
-source: "https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/commit"
-date_added: "2026-02-27"
+description: Create commit messages following Sentry conventions. Use when committing code changes, writing commit messages, or formatting git history. Follows conventional commits with Sentry-specific issue references.
 ---
 
 # Sentry Commit Messages
 
 Follow these conventions when creating commits for Sentry projects.
-
-## When to Use This Skill
-
-Use this skill when:
-- Committing code changes
-- Writing commit messages
-- Formatting git history
-- Following Sentry commit conventions
-- Referencing Sentry issues in commits
 
 ## Prerequisites
 
@@ -35,7 +23,7 @@ If you're on `main` or `master`, create a new branch first:
 git checkout -b <type>/<short-description>
 ```
 
-Branch naming should follow the pattern: `<type>/<short-description>` where type matches the commit type (e.g., `feat/add-user-auth`, `fix/null-pointer-error`, `ref/extract-validation`).
+Branch naming should follow the pattern: `<type>/<short-description>` where type matches the commit type (e.g., `feat/add-user-auth`, `fix/null-pointer-error`, `refactor/extract-validation`).
 
 ## Format
 
@@ -55,7 +43,7 @@ The header is required. Scope is optional. All lines must stay under 100 charact
 |------|---------|
 | `feat` | New feature |
 | `fix` | Bug fix |
-| `ref` | Refactoring (no behavior change) |
+| `refactor` | Refactoring (no behavior change) |
 | `perf` | Performance improvement |
 | `docs` | Documentation only |
 | `test` | Test additions or corrections |
@@ -133,7 +121,7 @@ Refs GH-1234
 ### Refactor
 
 ```
-ref: Extract common validation logic to shared module
+refactor: Extract common validation logic to shared module
 
 Move duplicate validation code from three endpoints into a shared
 validator class. No behavior change.

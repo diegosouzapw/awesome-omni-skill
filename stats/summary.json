@@ -1,24 +1,24 @@
 {
-  "total_skills": 11200,
+  "total_skills": 18181,
   "categories": {
-    "development": 3779,
-    "tools": 1655,
-    "data-ai": 1250,
-    "devops": 865,
-    "backend": 638,
-    "ai-agents": 572,
-    "testing-security": 558,
-    "design": 443,
-    "cli-automation": 340,
-    "business": 214,
-    "documentation": 199,
-    "frontend": 199,
-    "product": 169,
-    "content-media": 143,
-    "fullstack-web": 96,
-    "machine-learning": 47,
-    "communication": 32,
-    "uncategorized": 1
+    "development": 6108,
+    "tools": 2431,
+    "data-ai": 2055,
+    "devops": 1415,
+    "backend": 1173,
+    "ai-agents": 943,
+    "testing-security": 871,
+    "design": 703,
+    "cli-automation": 599,
+    "frontend": 437,
+    "documentation": 386,
+    "product": 307,
+    "business": 271,
+    "content-media": 214,
+    "fullstack-web": 143,
+    "machine-learning": 72,
+    "communication": 50,
+    "uncategorized": 3
   },
   "top_repos": [
     {
@@ -42,11 +42,6 @@
       "stars": 37315
     },
     {
-      "repo": "sickn33/antigravity-awesome-skills",
-      "count": 1740,
-      "stars": 15374
-    },
-    {
       "repo": "google-gemini/gemini-skills",
       "count": 1,
       "stars": 1866
@@ -62,33 +57,38 @@
       "stars": 4
     },
     {
+      "repo": "sickn33/antigravity-awesome-skills",
+      "count": 1758,
+      "stars": 0
+    },
+    {
       "repo": "majiayu000/claude-skill-registry",
-      "count": 2113,
+      "count": 3405,
       "stars": 0
     },
     {
       "repo": "majiayu000/claude-skill-registry-data",
-      "count": 2879,
+      "count": 3626,
       "stars": 0
     },
     {
       "repo": "rafaelramosdf/antigravity-agents",
-      "count": 34,
+      "count": 35,
       "stars": 0
     },
     {
       "repo": "oimiragieo/agent-studio",
-      "count": 26,
+      "count": 75,
       "stars": 0
     },
     {
       "repo": "Finimo-Solutions/research",
-      "count": 24,
+      "count": 46,
       "stars": 0
     },
     {
       "repo": "cdalsoniii/brightpath-coder",
-      "count": 5,
+      "count": 26,
       "stars": 0
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "repo": "NeverSight/skills_feed",
-      "count": 303,
+      "count": 576,
       "stars": 0
     },
     {
@@ -108,12 +108,12 @@
     },
     {
       "repo": "vamseeachanta/workspace-hub",
-      "count": 6,
+      "count": 7,
       "stars": 0
     },
     {
       "repo": "rubenmavarezb/aidf",
-      "count": 2,
+      "count": 6,
       "stars": 0
     },
     {
@@ -122,6 +122,6 @@
       "stars": 0
     }
   ],
-  "last_sync_at": "2026-03-01T12:11:54.887Z",
+  "last_sync_at": "2026-03-01T18:11:24.424Z",
   "sync_mode": "incremental"
 }

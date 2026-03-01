@@ -1,138 +1,116 @@
 ---
 name: commit
-description: Stage changes, run pre-commit hooks, and create a well-formatted git commit
-allowed-tools: Bash, Read, Grep, Glob
+description: Create commits following project guidelines.
 ---
 
-# Git Commit Workflow
+# Commit
 
-Create a clean, well-documented git commit following this project's conventions.
+Create commits following the commit guidelines.
 
-## Step 1: Review changes
+## Instructions
 
-```bash
-git status
-git diff --stat
-```
+When invoked, create a single git commit:
 
-Show the user a summary of what will be committed.
+1. Review changes and recent commits
+2. Draft message following conventional commit format
+3. Stage files and create commit
 
-## Step 2: Stage files
+## Commit Message Rules
 
-Stage files **selectively** (never `git add .` or `git add -A` blindly):
+### 1. Use Conventional Commit Format
 
-```bash
-# Stage specific files
-git add <file1> <file2> ...
-```
+**Rule:** Use conventional commit prefixes like `feat:`, `fix:`, `chore:`,
+`docs:`, `refactor:`, etc.
 
-### Files to NEVER commit
+**Scope:** When adding, modifying, or deleting a specific plugin, use the plugin
+name as the scope.
 
-| Pattern | Reason |
-|---------|--------|
-| `.env` | Contains `HUGGINGFACE_ACCESS_TOKEN` |
-| `*.pyc`, `__pycache__/` | Compiled Python |
-| `.DS_Store` | macOS junk |
-| `model_output/` | Downloaded models |
-| `data/eval_results/` | Generated evaluation data |
-| `output/` | Pipeline outputs |
-| `.claude/settings.local.json` | Personal Claude settings |
-| `.claude/CLAUDE.local.md` | Personal Claude memory |
+**Examples:**
 
-If `$ARGUMENTS` says "all" or "todo", stage all modified/untracked files except those above.
+- ✅ `feat(my-plugin): add new feature`
+- ✅ `fix(auth-plugin): fix token expiration`
+- ✅ `chore(my-plugin): update dependencies`
+- ✅ `docs: update README`
+- ✅ `refactor: improve error handling`
 
-## Step 3: Pre-commit hooks
+### 2. Start with Lowercase
 
-This project has pre-commit hooks configured in `.pre-commit-config.yaml`:
-- **ruff** (linter) - auto-fixes code style
-- **ruff-format** (formatter) - auto-formats code
-- **gitleaks** - scans for leaked secrets
+**Rule:** The message after the prefix should start with a lowercase letter.
 
-If a hook fails:
-1. The commit is **aborted** (it did NOT happen)
-2. Fix the issues (ruff usually auto-fixes, just re-stage)
-3. Create a **NEW** commit (never `--amend` after a hook failure - that would modify the wrong commit)
+**Examples:**
 
-## Step 4: Commit message format
+- ✅ `feat(plugin): add new feature`
+- ❌ `feat(plugin): Add new feature`
 
-Use [Conventional Commits](https://www.conventionalcommits.org/):
+### 3. Keep Messages Concise
 
-```
-<type>(<scope>): <description>
+**Rule:** Commit messages should be clear and scannable.
 
-[optional body]
+**Why:** Short messages are easier to scan in git log.
 
-Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
-```
+**Examples:**
 
-### Types
+- ✅ `feat(user-auth): add login endpoint`
+- ✅ `fix(payment): handle null amount`
+- ❌
+  `feat(user-auth): add a new user authentication endpoint with JWT support and validation`
+  (too long)
 
-| Type | When to use |
-|------|-------------|
-| `feat` | New feature or functionality |
-| `fix` | Bug fix |
-| `docs` | Documentation changes (README, CLAUDE.md, comments) |
-| `refactor` | Code restructuring without behavior change |
-| `chore` | Maintenance (deps, configs, cleanup) |
-| `style` | Formatting, linting (no logic change) |
-| `test` | Adding or modifying tests |
-| `perf` | Performance improvements |
-| `ci` | CI/CD changes |
+### 4. No Co-Author Attributions
 
-### Scopes (optional, use the most relevant)
+**Rule:** Do NOT include `Co-Authored-By:` lines in commit messages.
 
-| Scope | Files |
-|-------|-------|
-| `inference` | model/inference/, infrastructure/inference_pipeline_api.py |
-| `rag` | application/rag/ |
-| `eval` | model/evaluation/ |
-| `training` | model/finetuning/ |
-| `etl` | application/crawlers/, configs/digital_data_etl_* |
-| `dataset` | application/dataset/ |
-| `settings` | settings.py, .env, configs/ |
-| `deps` | pyproject.toml, poetry.lock |
-| `infra` | docker-compose.yml, ZenML configs |
+**Why:** Attribution is handled at the PR level, not commit level.
 
-### Examples
+**Examples:**
 
-```
-feat(rag): Add author filtering to Qdrant search
-fix(inference): Add task parameter to HuggingFaceEndpoint
-docs: Rewrite README for local-only setup
-chore(deps): Upgrade langchain-huggingface to 1.2.0
-refactor(eval): Replace OpenAI judge with HuggingFace
-```
+- ✅ `chore: update database schema`
+- ❌
+  `chore: update database schema\n\nCo-Authored-By: Claude <noreply@anthropic.com>`
 
-## Step 5: Create the commit
+### 5. No AI Agent Mentions
 
-Use HEREDOC for proper message formatting:
+**Rule:** Do NOT mention AI tools or agents in commit messages.
 
-```bash
-git commit -m "$(cat <<'EOF'
-<type>(<scope>): <description>
+**Why:** Commits should describe what changed, not how it was created.
 
-<body if needed>
+**Examples:**
 
-Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
-EOF
-)"
-```
+- ✅ `refactor: refactor payment processing logic`
+- ❌ `refactor: refactor payment processing logic with Claude`
 
-## Step 6: Verify
+### 6. Match Repository Style
 
-```bash
-git log --oneline -3
-```
+**Rule:** Follow the style of recent commits in the repository.
 
-Show the user the new commit hash and message.
+**How:** Run `git log --oneline -10` to see recent commit messages and match
+their tone and format.
 
-## After the commit
+## Message Guidelines
 
-Do NOT push automatically. Tell the user they can push with `/push` or `git push`.
+### Focus on WHAT, not WHY or HOW
 
-## If pre-commit hook fails
+**Good:**
 
-1. Check what failed: usually ruff auto-fixed files
-2. Re-stage the auto-fixed files: `git add <fixed-files>`
-3. Create a **NEW** commit (do NOT use `--amend`)
-4. If gitleaks fails: a secret was detected. Remove it from the staged files before retrying.
+- `feat(search): add product search API`
+- `fix(shipping): fix cost calculation`
+- `chore: remove deprecated endpoints`
+
+**Bad:**
+
+- `feat(search): add product search API to improve UX` (includes why)
+- `fix(shipping): fix cost calculation using new formula` (includes how)
+
+### Use Imperative Mood
+
+**Good:**
+
+- `feat(profile): add user profile page`
+- `fix(auth): fix login redirect bug`
+- `chore: remove unused imports`
+
+**Bad:**
+
+- `feat(profile): added user profile page` (past tense)
+- `fix(auth): fixes login redirect bug` (present tense)
+- `chore: removing unused imports` (gerund)

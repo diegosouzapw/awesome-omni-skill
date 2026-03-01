@@ -1,324 +1,203 @@
 ---
 name: code-review
-description: "Review code for quality, security, and pattern compliance, then auto-fix Critical/High issues. Grounds every finding in actual codebase reference files."
-argument-hint: "[path-to-phase-file]"
-context: fork
-agent: general-purpose
-model: sonnet
-allowed-tools: "Read Grep Glob Write Edit Bash(git diff*) Bash(git log*) Bash(git show*) Task TaskCreate TaskUpdate TaskList TaskGet"
-hooks:
-  PostToolUse:
-    - matcher: "Write"
-      command: "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/validators/validate_file_contains.py"
-      timeout: 10000
-metadata:
-  version: 1.2.0
+description: Automated code review for pull requests using multiple specialized agents with confidence-based scoring
+source: Claude Plugin Conversion
+license: Converted from Claude plugin - check original LICENSE
 ---
 
-<!-- ultrathink: Enable extended thinking for deep code analysis -->
+# code-review
 
-# Code Review
+# Automated code review for pull requests using multiple specialized agents with confidence-based scoring
 
-**YOUR ARGUMENTS: `$ARGUMENTS`**
+## Overview
 
-**DO NOT ask the user for arguments. They are provided above. Parse them NOW and proceed with the review.**
-
-The argument is the path to the phase file to review (e.g., `plans/voice-assistant/phase-01-database-schema.md`).
-
-## Recent Git Activity
-
-Recent commits (helps identify which files were modified for this phase):
-
-!`git log --oneline -10 2>/dev/null || echo "(not a git repository)"`
-
-Recently changed files:
-
-!`git diff --name-only HEAD~5 2>/dev/null || echo "(no recent changes)"`
-
-## Why This Review Exists
-
-The user depends on this review to catch issues before they reach production. Self-review misses problems because the implementer has blind spots about their own code.
-
-**What skipping or rushing this review costs the user:**
-
-| Missed Check | Consequence |
-|--------------|-------------|
-| Step verification | Features incomplete, user discovers gaps in production |
-| Security issues (RLS, credentials) | Data leakage between accounts, security incidents |
-| Project pattern compliance | Inconsistent codebase, harder to maintain |
-| Codebase pattern deviation | Code works differently from every other feature, confusing to maintain |
-| Persistent review record | No audit trail, same mistakes repeated across future phases |
-
-This review creates accountability. Specific file:line references and concrete fixes give the user actionable feedback — not vague "looks good" responses that hide problems.
-
-## Codebase-Grounded Review
-
-This review is **grounded in the actual codebase**, not just a static checklist. Before flagging pattern violations, you read a reference implementation to confirm what the correct pattern looks like. This prevents:
-
-- Flagging things that are actually correct in this codebase
-- Missing violations because the checklist is stale
-- Giving generic advice instead of specific "line X should match how it's done in file Y"
-
-## Output Location
-
-Code/implementation reviews go in the `reviews/code/` subfolder:
-
-- Phase file: `plans/feature-name/phase-01-slug.md`
-- Review file: `plans/feature-name/reviews/code/phase-01.md`
-
-Examples:
-- `plans/250202-voice-assistant/reviews/code/phase-01.md`
-- `plans/250202-voice-assistant/reviews/code/phase-12.md`
-
-Create the `reviews/code/` directory if it doesn't exist.
-
-> **Note:** Planning/template reviews go in `reviews/planning/` instead — see `/review-plan` skill.
-
-## Delegation & Batching
-
-For instructions on spawning multiple code review agents in batches, see [delegation.md](delegation.md).
-
-## Task Tracking
-
-Tasks survive context compacts — skipping this check causes lost progress and repeated work.
-
-Before starting work, run `TaskList` to check if tasks already exist from a previous session or before a compact. If tasks exist:
-1. Read existing tasks with `TaskGet` for each task ID
-2. Find the first task with status `pending` or `in_progress`
-3. Resume from that task — do NOT recreate the task list
-
-If no tasks exist, create them after Step 2 (identifying files to review):
-
-**Example task list:**
-```
-Task 1: Read phase document and extract requirements
-Task 2: Identify files to review
-Task 3: Find reference implementations
-Task 4: Run completeness check
-Task 5: Run code quality & codebase compliance check
-Task 6: Write review file using template
-Task 7: Auto-fix Critical and High issues
-Task 8: Return summary with next steps
-```
-
-Mark each task `in_progress` when starting and `completed` when done.
-
-## Workflow
-
-### Step 1: Read the Phase Document
-
-Read the phase file at the path provided in the arguments above. Extract:
-
-- All Implementation Steps (Step 0 through Step N)
-- All Verifiable Acceptance Criteria
-- All Functional and Technical Requirements
-
-### Step 2: Identify Files to Review
-
-The user should have provided a file list when invoking. If not, ask which files were modified in this phase. You cannot use git commands.
-
-### Step 3: Find Reference Implementations
-
-**Before reviewing code quality, read at least one reference file from the codebase.** This grounds your review in actual patterns, not memory. Without this step, you risk flagging correct code as violations or missing actual deviations.
-
-Classify the files under review and find a reference for each type:
-
-| File Type | How to Find Reference |
-|-----------|----------------------|
-| Server actions | Glob: `app/home/[account]/**/*server-actions*.ts` — read one |
-| Service files | Glob: `app/home/[account]/**/*service*.ts` — read one |
-| Zod schemas | Glob: `app/home/[account]/**/*.schema.ts` — read one |
-| SQL migrations | Glob: `supabase/migrations/*.sql` — read a recent one |
-| React components | Glob: `app/home/[account]/**/_components/*.tsx` — read one |
-| Page files | Glob: `app/home/[account]/**/page.tsx` — read one |
-| Test files | Glob: `__tests__/**/*.test.ts` — read one |
-
-**Read the reference file.** This is your ground truth for:
-- Function signatures (e.g., Server Action auth pattern)
-- Import paths and sources
-- Naming conventions
-- File organization
-- Error handling patterns
-
-**Complete this step before Step 5.** Flagging pattern violations without first confirming the correct pattern from a real file leads to false positives that waste the user's time.
-
-### Step 4: Completeness Check
-
-Verify every section in the phase document was implemented. See [checklist.md](checklist.md) for detailed criteria.
-
-### Step 5: Code Quality & Codebase Compliance Check
-
-Review the files against project patterns, security requirements, AND the reference implementations from Step 3. See [checklist.md](checklist.md) for detailed criteria.
-
-For each file under review:
-1. Compare its patterns against the reference from Step 3
-2. Check against the codebase compliance checklist in [checklist.md](checklist.md)
-3. Flag deviations with severity and specific file:line references
-
-**When flagging an issue, cite the reference:** "Line 42 uses `async (data) =>` but reference file `claude-ai-server-actions.ts:65` shows `async (data, user) =>` is required when `auth: true`."
-
-**For React/Next.js Code: Load Performance Guidelines**
-
-If reviewing React components, Next.js pages, or frontend code, invoke:
+This skill was converted from a Claude plugin. Original plugin structure:
 
 ```
-/vercel-react-best-practices
+code-review.md README.md 
 ```
 
-This loads 57 performance rules. Check the code against CRITICAL and HIGH priority rules:
 
-**CRITICAL - Eliminating Waterfalls:**
-- No sequential awaits for independent operations (use Promise.all)
-- Suspense boundaries for streaming content
-- Early promise initiation in API routes
+## Original README
 
-**CRITICAL - Bundle Optimization:**
-- No barrel file imports (import directly from source)
-- Heavy components use next/dynamic
-- Third-party scripts deferred after hydration
+    # Code Review Plugin
+    
+    Automated code review for pull requests using multiple specialized agents with confidence-based scoring to filter false positives.
+    
+    ## Overview
+    
+    The Code Review Plugin automates pull request review by launching multiple agents in parallel to independently audit changes from different perspectives. It uses confidence scoring to filter out false positives, ensuring only high-quality, actionable feedback is posted.
+    
+    ## Commands
+    
+    ### `/code-review`
+    
+    Performs automated code review on a pull request using multiple specialized agents.
+    
+    **What it does:**
+    1. Checks if review is needed (skips closed, draft, trivial, or already-reviewed PRs)
+    2. Gathers relevant CLAUDE.md guideline files from the repository
+    3. Summarizes the pull request changes
+    4. Launches 4 parallel agents to independently review:
+       - **Agents #1 & #2**: Audit for CLAUDE.md compliance
+       - **Agent #3**: Scan for obvious bugs in changes
+       - **Agent #4**: Analyze git blame/history for context-based issues
+    5. Scores each issue 0-100 for confidence level
+    6. Filters out issues below 80 confidence threshold
+    7. Posts review comment with high-confidence issues only
+    
+    **Usage:**
+    ```bash
+    /code-review
+    ```
+    
+    **Example workflow:**
+    ```bash
+    # On a PR branch, run:
+    /code-review
+    
+    # Claude will:
+    # - Launch 4 review agents in parallel
+    # - Score each issue for confidence
+    # - Post comment with issues ≥80 confidence
+    # - Skip posting if no high-confidence issues found
+    ```
+    
+    **Features:**
+    - Multiple independent agents for comprehensive review
+    - Confidence-based scoring reduces false positives (threshold: 80)
+    - CLAUDE.md compliance checking with explicit guideline verification
+    - Bug detection focused on changes (not pre-existing issues)
+    - Historical context analysis via git blame
+    - Automatic skipping of closed, draft, or already-reviewed PRs
 
-**HIGH - Server-Side Performance:**
-- React.cache() for per-request deduplication
-- Minimal data serialization to client components
-- Parallel data fetching in server components
+## Commands
 
-**MEDIUM - Re-render Optimization:**
-- Derived state computed during render, not useEffect
-- Memoization for expensive computations
-- useTransition for non-urgent updates
+The original plugin provided these commands:
 
-Flag violations in the appropriate priority section of the review.
 
-### Step 6: Read Output Template and Write Review File
-
-**Read the output template BEFORE writing the review.**
-
-Reviews written without reading the template first produce inconsistent formats that the user cannot compare across phases. Read `references/CODE-REVIEW-TEMPLATE.md` and follow the exact format specified.
-
-The template defines the exact sections, table columns, and verdict format. Inventing custom formats, adding extra sections like "Positive Observations" or "Technical Excellence", or using emoji checkmarks breaks the user's ability to track review status consistently across phases.
-
-**Write to:** `{plan-folder}/reviews/code/phase-{NN}.md`
-
-### Step 6b: Validate Review Format
-
-After writing the review file, run the validation script to catch structural issues:
+### Code Review
 
 ```bash
-python $CLAUDE_PROJECT_DIR/.claude/skills/code-review/scripts/validate_review.py {review-file-path}
+# Original command: /code-review
 ```
 
-If validation fails, fix the reported issues in the review file before proceeding. The script checks for missing sections, incorrect table formats, and forbidden patterns (like "Positive Observations" sections that aren't in the template).
+    ---
+    allowed-tools: Bash(gh issue view:*), Bash(gh search:*), Bash(gh issue list:*), Bash(gh pr comment:*), Bash(gh pr diff:*), Bash(gh pr view:*), Bash(gh pr list:*)
+    description: Code review a pull request
+    disable-model-invocation: false
+    ---
+    
+    Provide a code review for the given pull request.
+    
+    To do this, follow these steps precisely:
+    
+    1. Use a Haiku agent to check if the pull request (a) is closed, (b) is a draft, (c) does not need a code review (eg. because it is an automated pull request, or is very simple and obviously ok), or (d) already has a code review from you from earlier. If so, do not proceed.
+    2. Use another Haiku agent to give you a list of file paths to (but not the contents of) any relevant CLAUDE.md files from the codebase: the root CLAUDE.md file (if one exists), as well as any CLAUDE.md files in the directories whose files the pull request modified
+    3. Use a Haiku agent to view the pull request, and ask the agent to return a summary of the change
+    4. Then, launch 5 parallel Sonnet agents to independently code review the change. The agents should do the following, then return a list of issues and the reason each issue was flagged (eg. CLAUDE.md adherence, bug, historical git context, etc.):
+       a. Agent #1: Audit the changes to make sure they compily with the CLAUDE.md. Note that CLAUDE.md is guidance for Claude as it writes code, so not all instructions will be applicable during code review.
+       b. Agent #2: Read the file changes in the pull request, then do a shallow scan for obvious bugs. Avoid reading extra context beyond the changes, focusing just on the changes themselves. Focus on large bugs, and avoid small issues and nitpicks. Ignore likely false positives.
+       c. Agent #3: Read the git blame and history of the code modified, to identify any bugs in light of that historical context
+       d. Agent #4: Read previous pull requests that touched these files, and check for any comments on those pull requests that may also apply to the current pull request.
+       e. Agent #5: Read code comments in the modified files, and make sure the changes in the pull request comply with any guidance in the comments.
+    5. For each issue found in #4, launch a parallel Haiku agent that takes the PR, issue description, and list of CLAUDE.md files (from step 2), and returns a score to indicate the agent's level of confidence for whether the issue is real or false positive. To do that, the agent should score each issue on a scale from 0-100, indicating its level of confidence. For issues that were flagged due to CLAUDE.md instructions, the agent should double check that the CLAUDE.md actually calls out that issue specifically. The scale is (give this rubric to the agent verbatim):
+       a. 0: Not confident at all. This is a false positive that doesn't stand up to light scrutiny, or is a pre-existing issue.
+       b. 25: Somewhat confident. This might be a real issue, but may also be a false positive. The agent wasn't able to verify that it's a real issue. If the issue is stylistic, it is one that was not explicitly called out in the relevant CLAUDE.md.
+       c. 50: Moderately confident. The agent was able to verify this is a real issue, but it might be a nitpick or not happen very often in practice. Relative to the rest of the PR, it's not very important.
+       d. 75: Highly confident. The agent double checked the issue, and verified that it is very likely it is a real issue that will be hit in practice. The existing approach in the PR is insufficient. The issue is very important and will directly impact the code's functionality, or it is an issue that is directly mentioned in the relevant CLAUDE.md.
+       e. 100: Absolutely certain. The agent double checked the issue, and confirmed that it is definitely a real issue, that will happen frequently in practice. The evidence directly confirms this.
+    6. Filter out any issues with a score less than 80. If there are no issues that meet this criteria, do not proceed.
+    7. Use a Haiku agent to repeat the eligibility check from #1, to make sure that the pull request is still eligible for code review.
+    8. Finally, use the gh bash command to comment back on the pull request with the result. When writing your comment, keep in mind to:
+       a. Keep your output brief
+       b. Avoid emojis
+       c. Link and cite relevant code, files, and URLs
+    
+    Examples of false positives, for steps 4 and 5:
+    
+    - Pre-existing issues
+    - Something that looks like a bug but is not actually a bug
+    - Pedantic nitpicks that a senior engineer wouldn't call out
+    - Issues that a linter, typechecker, or compiler would catch (eg. missing or incorrect imports, type errors, broken tests, formatting issues, pedantic style issues like newlines). No need to run these build steps yourself -- it is safe to assume that they will be run separately as part of CI.
+    - General code quality issues (eg. lack of test coverage, general security issues, poor documentation), unless explicitly required in CLAUDE.md
+    - Issues that are called out in CLAUDE.md, but explicitly silenced in the code (eg. due to a lint ignore comment)
+    - Changes in functionality that are likely intentional or are directly related to the broader change
+    - Real issues, but on lines that the user did not modify in their pull request
+    
+    Notes:
+    
+    - Do not check build signal or attempt to build or typecheck the app. These will run separately, and are not relevant to your code review.
+    - Use `gh` to interact with Github (eg. to fetch a pull request, or to create inline comments), rather than web fetch
+    - Make a todo list first
+    - You must cite and link each bug (eg. if referring to a CLAUDE.md, you must link it)
+    - For your final comment, follow the following format precisely (assuming for this example that you found 3 issues):
+    
+    ---
+    
+    ### Code review
+    
+    Found 3 issues:
+    
+    1. <brief description of bug> (CLAUDE.md says "<...>")
+    
+    <link to file and line with full sha1 + line range for context, note that you MUST provide the full sha and not use bash here, eg. https://github.com/anthropics/claude-code/blob/1d54823877c4de72b2316a64032a54afc404e619/README.md#L13-L17>
+    
+    2. <brief description of bug> (some/other/CLAUDE.md says "<...>")
+    
+    <link to file and line with full sha1 + line range for context>
+    
+    3. <brief description of bug> (bug due to <file and code snippet>)
+    
+    <link to file and line with full sha1 + line range for context>
+    
+    🤖 Generated with [Claude Code](https://claude.ai/code)
+    
+    <sub>- If this code review was useful, please react with 👍. Otherwise, react with 👎.</sub>
+    
+    ---
+    
+    - Or, if you found no issues:
+    
+    ---
+    
+    ### Code review
+    
+    No issues found. Checked for bugs and CLAUDE.md compliance.
+    
+    🤖 Generated with [Claude Code](https://claude.ai/code)
+    
+    - When linking to code, follow the following format precisely, otherwise the Markdown preview won't render correctly: https://github.com/anthropics/claude-cli-internal/blob/c21d3c10bc8e898b7ac1a2d745bdc9bc4e423afe/package.json#L10-L15
+      - Requires full git sha
+      - You must provide the full sha. Commands like `https://github.com/owner/repo/blob/$(git rev-parse HEAD)/foo/bar` will not work, since your comment will be directly rendered in Markdown.
+      - Repo name must match the repo you're code reviewing
+      - # sign after the file name
+      - Line range format is L[start]-L[end]
+      - Provide at least 1 line of context before and after, centered on the line you are commenting about (eg. if you are commenting about lines 5-6, you should link to `L4-7`)
 
-### Step 7: Auto-Fix Critical and High Issues
+## Usage as OpenClaw Skill
 
-**If no Critical/High issues were found, skip to Step 8.**
+This skill provides similar functionality to the original Claude plugin. When using this skill:
 
-**Default: FIX IT.** Most review issues are straightforward pattern corrections. Auto-fix is the expected outcome, not the exception. A review that identifies problems but fixes nothing is only half the job.
+1. **Trigger**: Mention "code-review" or related keywords
+2. **Context**: Provide the same input you would give to the original plugin
+3. **Output**: Expect similar results formatted for OpenClaw
 
-Fix Critical and High issues directly in the source files:
+## Conversion Notes
 
-1. For each Critical/High issue:
-   a. Read the source file at the file:line cited in the review
-   b. Read the reference file that shows the correct pattern
-   c. Apply the fix using Edit (for targeted changes) or Write (for new files)
+- This is an automated conversion and may need manual refinement
+- Some plugin-specific features may not be fully replicated
+- Commands are now triggered by natural language instead of slash commands
+- Multi-agent coordination is simulated through sequential reasoning
 
-2. **Examples of fixes to make (never defer these):**
-   - Wrong function signatures — fix to match the reference
-   - Missing `'use client'` or `'use server'` directives
-   - Wrong import paths or import ordering
-   - Missing error handling where the reference shows a clear pattern
-   - Missing `server-only` imports in server-side files
-   - Wrong TypeScript types (e.g., `any` where a proper type exists)
-   - Security issues: missing RLS checks, exposed credentials, missing auth
-   - Naming/convention violations where the reference shows the correct pattern
-
-3. **The ONLY reasons to defer to the main agent** (use sparingly):
-   - The fix would change the feature's business logic or user-facing behavior
-   - The fix contradicts the phase's Decision Log or architectural approach
-   - You genuinely cannot determine the correct fix even after reading references
-
-4. **False positives — skip cleanly, don't argue:** If a finding doesn't clearly apply to this codebase's patterns, or the reference file confirms the code is actually correct, mark it "Not applicable — matches reference at [file:line]" and move on. Do not include borderline findings in the issues tables.
-
-4. After fixing, re-read the file to verify the fix is correct and doesn't introduce new issues.
-
-5. Update the review file:
-   - Append "(Auto-fixed)" to fixed items in the Issues tables
-   - Fill in the "Fixes Applied" section (see template)
-   - Update the Verdict to reflect only remaining unfixed issues
-
-### Step 8: Return Summary with Next Steps
-
-After writing the review file, return:
-
-- Review file location
-- Verdict (Ready/Not Ready) — based on remaining unfixed issues only
-- Count of issues (total, auto-fixed, deferred)
-- Reference files used
-- **Auto-fixed** (count and brief list of what was fixed)
-- **Deferred to main agent** (issues not auto-fixed and why)
-- **Next Steps for Medium/Low** — present as improvement opportunities
-
-**Improvement mindset:** When listing Medium/Low issues, frame them as concrete improvements worth doing now — not optional niceties. Phases are rarely revisited after completion, so "fix later" effectively means "never." The user prefers investing in quality now over speed.
-
-**Action directive for main agent:** If there are deferred items or Medium/Low suggestions, end your summary with:
+## Original Structure
 
 ```
-ACTION REQUIRED: [N] deferred items and [M] improvement suggestions need main agent attention.
-Please review the items above and fix or discuss with the user before proceeding.
+anthropic-official-plugins/plugins/code-review
+├── commands
+│   └── code-review.md
+├── LICENSE
+└── README.md
+
+1 directory, 3 files
 ```
-
-## Troubleshooting
-
-### Review produces false positives (flagging correct code)
-
-**Cause:** The review skipped Step 3 (reading reference implementations) and flagged code based on assumptions rather than actual codebase patterns.
-
-**Fix:** Always read at least one reference file of each type before flagging issues. If the codebase uses a pattern that differs from generic best practices, the codebase wins.
-
-### Review is superficial ("looks good, no issues found")
-
-**Cause:** The reviewer didn't read individual files at specific line numbers, relying on a surface-level scan instead of deep inspection.
-
-**Fix:** For each file under review, read the full file and compare line-by-line against both the phase requirements and the reference implementation. Check every import path, function signature, and error handling pattern.
-
-### Auto-fix introduces new issues
-
-**Cause:** The fix was applied without re-reading the file to verify correctness, or the fix didn't account for surrounding context.
-
-**Fix:** After every Edit, re-read the modified file to verify the fix is correct. Check that imports still resolve and that the change doesn't break adjacent code.
-
-### Review format is inconsistent across phases
-
-**Cause:** The reviewer didn't read `references/CODE-REVIEW-TEMPLATE.md` before writing (Step 6). Custom formats break the user's ability to track review status.
-
-**Fix:** Always read the template first and follow its exact structure. Do not add custom sections or change the table format.
-
-## Resuming After Context Compact
-
-If you notice context was compacted or you're unsure of current progress:
-
-1. Run `TaskList` to see all tasks and their status
-2. Find the `in_progress` task — that's where you were
-3. Run `TaskGet {id}` on that task to read full details
-4. Continue from that task — don't restart from the beginning
-
-Tasks persist across compacts. The task list is your source of truth for progress, not your memory.
-
-**Pattern for every work session:**
-```
-TaskList → find in_progress or first pending → TaskGet → continue work → TaskUpdate (completed) → next task
-```
-
-## Constraints
-
-- Write review files within the plan folder
-- When auto-fixing, you may also edit source files cited in the review
-- Read the phase file FIRST before reviewing code
-- **Read at least one reference implementation** before flagging pattern violations
-- **Cite references** when flagging codebase pattern issues (e.g., "reference: claude-ai-server-actions.ts:65")
-- Be specific with file paths and line numbers
-- Critical and High issues block phase completion (unless auto-fixed)
-- **Auto-fix**: Default is to fix. Only defer for genuine business logic changes or ADR contradictions
-- **Auto-fix**: "Needs verification" is not a valid excuse — use Glob/Grep/Read to verify, then fix
-
-The user configured this review to be thorough because vague feedback ("looks good", "some issues") doesn't help fix problems. Specific file:line references, comparison to known-good reference code, and concrete fixes are what the user needs to take action.

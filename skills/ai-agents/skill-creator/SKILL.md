@@ -1,358 +1,271 @@
 ---
 name: skill-creator
-description: Create new Agent Skills with proper structure, templates, and best practices. Use when building custom skills for Claude Code, GitHub Copilot, or other Agent Skills-compatible tools.
-license: MIT
-metadata:
-  author: agent-kit
-  version: "1.1.0"
+description: Creates new Claude Skills following Anthropic best practices with proper structure, progressive disclosure, and security. Activates when user mentions "create skill", "new skill", "skill for", "make a skill", "создать skill", "помоги создать skill", or wants to package expertise into reusable capability. Self-contained with templates, examples, and knowledge embedded.
+allowed-tools: Read, Write, Bash, Glob, Grep
 ---
 
 # Skill Creator
 
-Create well-structured Agent Skills that work across Claude Code, GitHub Copilot, VS Code, and OpenAI Codex.
+Эксперт по созданию Claude Skills согласно best practices от Anthropic. Полностью автономный - все материалы упакованы внутри для переноса между проектами.
 
-## What is a Skill?
+## 🎯 Когда активироваться
 
-A skill is a directory containing:
-- `SKILL.md` - Instructions with YAML frontmatter
-- `assets/` - Templates, data files (optional)
-- `references/` - Additional documentation (optional)
-- `scripts/` - Executable code (optional)
+Этот skill активируется когда пользователь:
 
-Skills extend AI agent capabilities with domain-specific knowledge and workflows.
+- Говорит **"create skill"**, **"new skill"**, **"skill for..."**
+- Упоминает **"make a skill"**, **"создать skill"**, **"помоги создать skill"**
+- Хочет упаковать экспертизу или workflow в повторно используемую возможность
+- Спрашивает как создать skill правильно
+- Нужна помощь со структурой или best practices
 
-## Creation Workflow
+**Триггеры:** "skill", "create", "new skill", "создать", "упаковать workflow"
 
-### Step 1: Gather Requirements
-
-Ask the user:
-1. **What should the skill do?** (capability)
-2. **When should it be used?** (trigger conditions)
-3. **What resources does it need?** (templates, scripts, references)
-4. **Where should it be installed?** (project or personal)
-
-### Step 2: Choose Skill Location
-
-```
-# Project skill (shared with team via git)
-.claude/skills/{skill-name}/SKILL.md
-
-# Personal skill (only for you)
-~/.claude/skills/{skill-name}/SKILL.md
-
-# agent-kit content (for distribution)
-content/skills/{skill-name}/SKILL.md
-```
-
-### Step 3: Create Directory Structure
-
-```bash
-mkdir -p {location}/{skill-name}/{assets,references,scripts}
-```
-
-### Step 4: Write SKILL.md
-
-Use the template from [assets/skill-template.md](assets/skill-template.md).
-
-Key sections:
-1. **Frontmatter** - name, description, metadata
-2. **Purpose** - What the skill does
-3. **When to Use** - Trigger conditions
-4. **Instructions** - Step-by-step guidance
-5. **Examples** - Concrete usage examples
-6. **Related Skills** - Links to other skills
-
-### Step 5: Add Resources (if needed)
-
-- **assets/**: Templates the skill uses
-- **references/**: Additional docs for complex topics
-- **scripts/**: Automation scripts
-
-### Step 6: Create Slash Command
-
-Every skill should have a corresponding slash command for easy invocation.
-
-**Command location:**
-```
-# Project command (matches skill location)
-.claude/commands/{skill-name}.md
-
-# agent-kit content (for distribution) - MUST use ak- prefix
-content/commands/ak-{skill-name}.md
-```
-
-**IMPORTANT: Naming Rules**
-
-1. **agent-kit commands MUST use `ak-` prefix**: All commands in `content/commands/` must be prefixed with `ak-` to avoid conflicts with user-created commands.
-   - ✅ `content/commands/ak-create-plan.md` → `/ak-create-plan`
-   - ❌ `content/commands/create-plan.md` → conflicts with user commands
-
-2. **No command/skill name conflicts**: Command names must not conflict with existing skill names in the same scope.
-
-**Command template:**
-```markdown
----
-description: {One-line description of what command does}
-arguments:
-  - name: {arg-name}
-    description: {What the argument is for}
-    required: false
 ---
 
-Use the {skill-name} skill to help the user {accomplish task}.
+## 📋 Интерактивный Workflow
 
-Follow the {skill-name} skill instructions in @skills/{skill-name}/SKILL.md exactly.
+### Шаг 1: Анализ потребности
 
-Key steps:
-1. {Step from skill}
-2. {Step from skill}
-...
-```
+**Задай пользователю вопросы:**
 
-See [assets/command-template.md](assets/command-template.md) for the full template.
+1. **Что должен делать skill?** (конкретная задача или экспертиза)
+2. **Когда Claude должен его активировать?** (триггеры, сценарии)
+3. **Нужен ли skill вообще?**
+   - Если это одноразовая задача → достаточно промпта
+   - Если это повторяющийся workflow → нужен skill
 
-### Step 7: Validate with skill-validator
+Если skill НЕ нужен — объясни почему и предложи альтернативу.
 
-Before finalizing, run the skill-validator to ensure the skill meets all requirements:
+### Шаг 2: Определение сложности
 
-```
-User: Validate my new skill at {path}
+**Спроси пользователя или определи автоматически:**
 
-Claude: [Runs skill-validator checks]
-[Reports any errors, warnings, or suggestions]
-```
+#### Простой skill (только SKILL.md)
+- Простые инструкции, помещаются в один файл
+- Нет дополнительных ресурсов
+- **Пример:** kb-bash-expert (см. examples.md)
 
-The validator checks:
-- Frontmatter requirements (name, description)
-- SKILL.md structure and token limits
-- All referenced files exist
-- Corresponding slash command exists
-- **agent-kit commands use `ak-` prefix** (for `content/commands/`)
-- **No command/skill name conflicts**
+#### Средний skill (SKILL.md + reference.md)
+- Инструкции + детальная справочная информация
+- Нужно разделить контекст для progressive disclosure
+- **Пример:** skill с API документацией
 
-**Only proceed if validation passes with no errors.**
+#### Сложный skill (SKILL.md + reference + templates + scripts)
+- Множество компонентов
+- Шаблоны для генерации
+- Исполняемый код
+- **Пример:** translation-processor (см. examples.md)
 
-### Step 8: Test the Skill
+### Шаг 3: Генерация метаданных
 
-1. Ask Claude something that should trigger it
-2. Verify it activates correctly
-3. Check the output quality
-4. Iterate on instructions
-
-## Frontmatter Requirements
+**Создай YAML frontmatter:**
 
 ```yaml
 ---
-name: skill-name              # Required: lowercase, hyphens, max 64 chars
-description: What and when    # Required: max 1024 chars, include trigger words
-license: MIT                  # Optional: license type
-metadata:                     # Optional: additional info
-  author: your-name
-  version: "1.0.0"
+name: [короткое имя, до 64 символов]
+description: [ЧТО делает + КОГДА активировать, до 1024 символов]
+allowed-tools: [список tools, если нужно]
 ---
 ```
 
-### Name Rules
-- Max 64 characters
-- Lowercase letters, numbers, hyphens only
-- No spaces or underscores
-- Cannot contain "anthropic" or "claude"
+**Критически важно для description:**
+- ✅ Включи ЧТО делает skill
+- ✅ Включи КОГДА Claude должен его использовать
+- ✅ Добавь триггерные фразы ("use when...", "activates when...")
+- ✅ Упомяни ключевые слова, которые пользователь может сказать
 
-### Description Best Practices
-
-The description is critical for discovery. Include:
-1. **What** the skill does
-2. **When** to use it (trigger words)
-
-❌ Bad: `Helps with documentation`
-✅ Good: `Generate API documentation from code. Use when creating docs, OpenAPI specs, or README files for libraries.`
-
-## Progressive Loading
-
-Skills use 3-level loading to stay efficient:
-
-| Level | Loads | When | Size Limit |
-|-------|-------|------|------------|
-| 1 | Frontmatter | Startup | ~100 tokens |
-| 2 | SKILL.md body | Triggered | < 5000 tokens |
-| 3 | Bundled files | Referenced | Unlimited |
-
-**Keep SKILL.md under 5000 tokens.** Move detailed content to references/.
-
-## Bundled Resources
-
-### assets/ - Templates and Data
-
-```markdown
-# In SKILL.md
-See [assets/template.md](assets/template.md) for the format.
+**Пример качественного description:**
+```yaml
+description: Expert in running bash commands for KB project. Knows project structure and absolute paths. Activates when executing bash commands, running python scripts, or mentions "run script", "execute", "bash command".
 ```
 
-Use for:
-- Document templates
-- Configuration examples
-- Data schemas
+### Шаг 4: Создание структуры
 
-### references/ - Extended Documentation
+**Используй шаблон из template.md** и адаптируй под сложность:
 
-```markdown
-# In SKILL.md
-For advanced usage, see [references/advanced.md](references/advanced.md).
+#### Для простого skill:
+```
+skill-name/
+└── SKILL.md
 ```
 
-Use for:
-- Detailed examples
-- Troubleshooting guides
-- API references
-
-### scripts/ - Executable Code
-
-```markdown
-# In SKILL.md
-Run the validation script:
-\`\`\`bash
-./scripts/validate.sh
-\`\`\`
+#### Для среднего skill:
 ```
-
-Use for:
-- Validation utilities
-- Code generation
-- Data processing
-
-Scripts execute without loading into context - only output is captured.
-
-## Common Patterns
-
-### Workflow Skill
-For multi-step processes:
-```markdown
-## Workflow
-
-1. **Phase 1: Discovery**
-   - Scan project structure
-   - Identify relevant files
-   
-2. **Phase 2: Analysis**
-   - Parse content
-   - Extract patterns
-   
-3. **Phase 3: Generation**
-   - Apply template
-   - Write output
-```
-
-### Reference Skill
-For domain knowledge:
-```markdown
-## Quick Reference
-
-| Term | Definition |
-|------|------------|
-| ... | ... |
-
-## Detailed Reference
-
-See [references/full-guide.md](references/full-guide.md)
-```
-
-### Tool Skill
-For specific capabilities:
-```markdown
-## Usage
-
-\`\`\`bash
-{command} [options]
-\`\`\`
-
-## Options
-
-| Flag | Description |
-|------|-------------|
-| --flag | What it does |
-```
-
-## Output
-
-After creation, provide:
-1. Path to the new skill
-2. Path to the slash command
-3. Validation results
-4. How to test it
-5. How to iterate
-
-```
-Created:
-  Skill:   .claude/skills/my-skill/SKILL.md
-  Command: .claude/commands/my-skill.md
-
-Validation: ✅ PASSED (0 errors, 0 warnings)
-
-To test:
-1. Start a new conversation
-2. Use the slash command: /my-skill
-3. Or ask: "Help me with {trigger phrase}"
-4. Verify the skill activates
-
-To iterate:
-- Edit SKILL.md and test again
-- No restart needed - changes take effect immediately
-```
-
-## Examples
-
-### Example: Create a code review skill
-
-```
-User: Create a skill for reviewing React components
-
-Claude: [Asks clarifying questions]
-- What aspects to review? (performance, accessibility, patterns)
-- Any specific rules or style guide?
-- Should it suggest fixes or just identify issues?
-
-[Creates skill structure]
-.claude/skills/react-review/
+skill-name/
 ├── SKILL.md
-├── assets/
-│   └── checklist.md
-└── references/
-    └── patterns.md
+└── reference.md
 ```
 
-### Example: Create a documentation skill
-
+#### Для сложного skill:
 ```
-User: Create a skill for writing JSDoc comments
-
-Claude: [Creates skill with template]
-.claude/skills/jsdoc-writer/
+skill-name/
 ├── SKILL.md
-└── assets/
-    └── jsdoc-template.md
+├── reference.md
+├── templates/
+│   └── [шаблоны для генерации]
+└── scripts/
+    └── [исполняемый код]
 ```
 
-## Template Reference
+### Шаг 5: Заполнение контента
 
-See [assets/skill-template.md](assets/skill-template.md) for the starter template.
+**Структура SKILL.md должна включать:**
 
-## Validation
+1. **Frontmatter** (обязательно)
+2. **Краткое описание** - что делает skill
+3. **Когда активироваться** - триггеры и сценарии
+4. **Workflow/инструкции** - пошаговый процесс
+5. **Примеры** (опционально) - конкретные use cases
+6. **Ссылки на reference файлы** (если есть) - для progressive disclosure
+7. **Security/ограничения** - allowed-tools и что skill НЕ может
 
-Before finalizing, run `skill-validator` to verify:
-- [ ] Frontmatter has required fields (name, description)
-- [ ] Name follows rules (lowercase, hyphens, no reserved words)
-- [ ] Description includes what AND when
-- [ ] SKILL.md is under 5000 tokens
-- [ ] All referenced files exist
-- [ ] Examples are concrete and testable
-- [ ] Corresponding slash command exists
-- [ ] Command references the skill correctly
-- [ ] agent-kit commands use `ak-` prefix (for `content/commands/`)
-- [ ] No command/skill name conflicts
+**Прогрессивное раскрытие (см. best_practices.md для деталей):**
+- **Level 1:** Metadata в frontmatter (всегда загружены)
+- **Level 2:** Тело SKILL.md (загружается при активации)
+- **Level 3+:** Дополнительные файлы (загружаются по необходимости)
 
-## Related Skills
+### Шаг 6: Security review
 
-- `skill-validator` - Validates skills after creation (invoked automatically)
-- `doc-contents` - For documentation generation
-- `create-plan` - For implementation planning
-- `brainstorm` - For exploring skill ideas before creating
+**Проверь и документируй:**
+
+1. **Какие tools нужны?** → добавь в `allowed-tools`
+2. **Есть ли риски?**
+   - Доступ к чувствительным данным
+   - Выполнение кода
+   - Внешние источники
+3. **Добавь секцию Security** с ограничениями
+
+**Пример:**
+```markdown
+## 🛡️ Безопасность
+
+**allowed-tools:** `Read, Write, Bash`
+
+Этот skill может:
+- ✅ Читать файлы
+- ✅ Создавать новые заметки
+- ✅ Выполнять bash команды
+
+Этот skill НЕ может:
+- ❌ Удалять файлы
+- ❌ Выполнять произвольный код без проверки
+```
+
+### Шаг 7: Итоговый чеклист
+
+**Используй checklist.md** для финальной проверки качества.
+
+Убедись что:
+- ✅ Frontmatter заполнен корректно
+- ✅ Description содержит триггеры
+- ✅ Структура соответствует сложности
+- ✅ Инструкции понятны для Claude
+- ✅ Progressive disclosure используется правильно
+- ✅ Security рассмотрен
+
+---
+
+## 📚 Референсные материалы
+
+**Этот skill содержит всё необходимое внутри:**
+
+- **best_practices.md** - Полное руководство от Anthropic по:
+  - Progressive disclosure архитектуре
+  - Написанию name и description
+  - Структуре и композиции skills
+  - Security considerations
+  - Итерации и оценке
+
+- **template.md** - Универсальный шаблон SKILL.md с:
+  - Базовой структурой
+  - Комментариями когда что добавлять
+  - Адаптацией под разные уровни сложности
+
+- **examples.md** - Реальные примеры:
+  - Простой skill (kb-bash-expert)
+  - Сложный skill (translation-processor)
+  - Варианты структур директорий
+
+- **checklist.md** - Чеклист создания skill с:
+  - Фазами: Анализ → Метаданные → Структура → Контент → Тест
+  - Best practices проверками
+
+**Когда загружать эти файлы:**
+- **best_practices.md** - если нужны глубокие детали Progressive Disclosure или Security
+- **template.md** - всегда при создании нового skill (используй как основу)
+- **examples.md** - если пользователь хочет видеть реальные примеры
+- **checklist.md** - на финальной проверке готового skill
+
+---
+
+## 🎨 Best Practices
+
+### Думайте с точки зрения Claude
+
+- Description должно быть написано так, чтобы Claude понял КОГДА активировать skill
+- Инструкции должны быть пошаговыми и однозначными
+- Используй конкретные примеры вместо абстрактных описаний
+
+### Начните с оценки
+
+- Сначала определите пробелы в возможностях
+- Создавайте skills для устранения конкретных недостатков
+- Не создавайте skill "на всякий случай"
+
+### Структурируйте для масштабирования
+
+- Разделяйте большие SKILL.md на отдельные файлы
+- Взаимоисключающие контексты держите раздельно
+- Код должен быть исполняемым или справочным (сделайте это явным)
+
+### Итерируйте с Claude
+
+- Попросите Claude зафиксировать успешные подходы в skill
+- Если Claude сбивается - попросите провести саморефлексию
+- Используйте реальные сценарии для улучшения
+
+---
+
+## 🚀 Примеры активации
+
+### Пример 1: Создание простого skill
+```
+User: "Создай skill для работы с Kabardian translation в kbd_translate проекте"
+
+Skill Creator:
+1. Задаёт вопросы о том, что именно делает skill
+2. Определяет сложность: простой (только SKILL.md)
+3. Генерирует frontmatter с правильным description
+4. Использует template.md для создания структуры
+5. Создаёт файл kbd-translation-helper/SKILL.md
+6. Проверяет по checklist.md
+```
+
+### Пример 2: Создание сложного skill
+```
+User: "Нужен skill для обработки Kabardian CSV файлов и генерации переводов"
+
+Skill Creator:
+1. Определяет: это сложный skill (нужны templates и scripts)
+2. Создаёт структуру:
+   - SKILL.md (главный workflow для обработки CSV)
+   - reference.md (спецификация формата Kabardian текста)
+   - templates/ (шаблоны для генерации переводов)
+3. Заполняет содержимое согласно best_practices.md
+4. Добавляет security considerations
+5. Финальная проверка по checklist.md
+```
+
+---
+
+## 🔑 Ключевые принципы
+
+1. **Progressive Disclosure** - загружай информацию по мере необходимости
+2. **Автономность** - всё нужное внутри skill для переноса между проектами
+3. **Security First** - всегда рассматривай риски и ограничения
+4. **Claude-friendly** - пиши инструкции так, чтобы Claude понял с первого раза
+5. **Итеративность** - улучшай skills на основе реального использования
+
+---
+
+**Готов создавать skills мирового класса согласно best practices Anthropic!** 🚀

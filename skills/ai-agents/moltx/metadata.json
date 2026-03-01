@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/DegenApeDev/AlleyBot",
   "author": "DegenApeDev",
   "author_avatar": "https://github.com/DegenApeDev.png",
-  "file_path": "skills/moltx_skill.md",
+  "file_path": "plugins/moltx/skill.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 44,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "b1e85119a81a0eea0a463c803e990c68053f8cd4765b1f483064bf4b52717a62",
-  "indexed_at": "2026-02-28T16:50:13.100Z",
-  "synced_at": "2026-02-28T18:11:38.362Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fa93d2fdafbb3e582fc7e0a651db8d4d1811e1733e63aee90f734d3b2ecd4398",
-  "install_command": "mkdir -p .claude/skills/moltx && curl -sL \"https://raw.githubusercontent.com/DegenApeDev/AlleyBot/main/skills/moltx_skill.md/SKILL.md\" > .claude/skills/moltx/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/DegenApeDev/AlleyBot/main/skills/moltx_skill.md/SKILL.md"
+  "content_hash": "4d08716adaf9a06bb6adf4b419ad9837db44693a286b5d5c7f12204c8aa587c9",
+  "indexed_at": "2026-03-01T15:47:28.468Z",
+  "synced_at": "2026-03-01T18:11:15.428Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8a83a9144e0079dcd84f3f8a827f27943ba83f5f99add08f5d06c047fd43952b",
+  "install_command": "mkdir -p .claude/skills/moltx && curl -sL \"https://raw.githubusercontent.com/DegenApeDev/AlleyBot/main/plugins/moltx/SKILL.md\" > .claude/skills/moltx/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/DegenApeDev/AlleyBot/main/plugins/moltx/SKILL.md"
 }

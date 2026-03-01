@@ -1,239 +1,380 @@
 ---
+description: Imported skill evaluation from anthropic
 name: evaluation
-description: "Build evaluation frameworks for agent systems"
-risk: safe
-source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/evaluation"
-date_added: "2026-02-27"
+signature: 49ed1d17cdce5da101b210197740713f49b935c29d4f339542a14b132658e6f7
+source: /a0/tmp/skills_research/anthropic/skills/mcp-builder/scripts/evaluation.py
 ---
 
-## When to Use This Skill
+"""MCP Server Evaluation Harness
 
-Build evaluation frameworks for agent systems
+This script evaluates MCP servers by running test questions against them using Claude.
+"""
 
-Use this skill when working with build evaluation frameworks for agent systems.
-# Evaluation Methods for Agent Systems
+import argparse
+import asyncio
+import json
+import re
+import sys
+import time
+import traceback
+import xml.etree.ElementTree as ET
+from pathlib import Path
+from typing import Any
 
-Evaluation of agent systems requires different approaches than traditional software or even standard language model applications. Agents make dynamic decisions, are non-deterministic between runs, and often lack single correct answers. Effective evaluation must account for these characteristics while providing actionable feedback. A robust evaluation framework enables continuous improvement, catches regressions, and validates that context engineering choices achieve intended effects.
+from anthropic import Anthropic
 
-## When to Activate
+from connections import create_connection
 
-Activate this skill when:
-- Testing agent performance systematically
-- Validating context engineering choices
-- Measuring improvements over time
-- Catching regressions before deployment
-- Building quality gates for agent pipelines
-- Comparing different agent configurations
-- Evaluating production systems continuously
+EVALUATION_PROMPT = """You are an AI assistant with access to tools.
 
-## Core Concepts
+When given a task, you MUST:
+1. Use the available tools to complete the task
+2. Provide summary of each step in your approach, wrapped in <summary> tags
+3. Provide feedback on the tools provided, wrapped in <feedback> tags
+4. Provide your final response, wrapped in <response> tags
 
-Agent evaluation requires outcome-focused approaches that account for non-determinism and multiple valid paths. Multi-dimensional rubrics capture various quality aspects: factual accuracy, completeness, citation accuracy, source quality, and tool efficiency. LLM-as-judge provides scalable evaluation while human evaluation catches edge cases.
+Summary Requirements:
+- In your <summary> tags, you must explain:
+  - The steps you took to complete the task
+  - Which tools you used, in what order, and why
+  - The inputs you provided to each tool
+  - The outputs you received from each tool
+  - A summary for how you arrived at the response
 
-The key insight is that agents may find alternative paths to goals—the evaluation should judge whether they achieve right outcomes while following reasonable processes.
+Feedback Requirements:
+- In your <feedback> tags, provide constructive feedback on the tools:
+  - Comment on tool names: Are they clear and descriptive?
+  - Comment on input parameters: Are they well-documented? Are required vs optional parameters clear?
+  - Comment on descriptions: Do they accurately describe what the tool does?
+  - Comment on any errors encountered during tool usage: Did the tool fail to execute? Did the tool return too many tokens?
+  - Identify specific areas for improvement and explain WHY they would help
+  - Be specific and actionable in your suggestions
 
-**Performance Drivers: The 95% Finding**
-Research on the BrowseComp evaluation (which tests browsing agents' ability to locate hard-to-find information) found that three factors explain 95% of performance variance:
+Response Requirements:
+- Your response should be concise and directly address what was asked
+- Always wrap your final response in <response> tags
+- If you cannot solve the task return <response>NOT_FOUND</response>
+- For numeric responses, provide just the number
+- For IDs, provide just the ID
+- For names or text, provide the exact text requested
+- Your response should go last"""
 
-| Factor | Variance Explained | Implication |
-|--------|-------------------|-------------|
-| Token usage | 80% | More tokens = better performance |
-| Number of tool calls | ~10% | More exploration helps |
-| Model choice | ~5% | Better models multiply efficiency |
 
-This finding has significant implications for evaluation design:
-- **Token budgets matter**: Evaluate agents with realistic token budgets, not unlimited resources
-- **Model upgrades beat token increases**: Upgrading to Claude Sonnet 4.5 or GPT-5.2 provides larger gains than doubling token budgets on previous versions
-- **Multi-agent validation**: The finding validates architectures that distribute work across agents with separate context windows
+def parse_evaluation_file(file_path: Path) -> list[dict[str, Any]]:
+    """Parse XML evaluation file with qa_pair elements."""
+    try:
+        tree = ET.parse(file_path)
+        root = tree.getroot()
+        evaluations = []
 
-## Detailed Topics
+        for qa_pair in root.findall(".//qa_pair"):
+            question_elem = qa_pair.find("question")
+            answer_elem = qa_pair.find("answer")
 
-### Evaluation Challenges
+            if question_elem is not None and answer_elem is not None:
+                evaluations.append({
+                    "question": (question_elem.text or "").strip(),
+                    "answer": (answer_elem.text or "").strip(),
+                })
 
-**Non-Determinism and Multiple Valid Paths**
-Agents may take completely different valid paths to reach goals. One agent might search three sources while another searches ten. They might use different tools to find the same answer. Traditional evaluations that check for specific steps fail in this context.
+        return evaluations
+    except Exception as e:
+        print(f"Error parsing evaluation file {file_path}: {e}")
+        return []
 
-The solution is outcome-focused evaluation that judges whether agents achieve right outcomes while following reasonable processes.
 
-**Context-Dependent Failures**
-Agent failures often depend on context in subtle ways. An agent might succeed on simple queries but fail on complex ones. It might work well with one tool set but fail with another. Failures may emerge only after extended interaction when context accumulates.
+def extract_xml_content(text: str, tag: str) -> str | None:
+    """Extract content from XML tags."""
+    pattern = rf"<{tag}>(.*?)</{tag}>"
+    matches = re.findall(pattern, text, re.DOTALL)
+    return matches[-1].strip() if matches else None
 
-Evaluation must cover a range of complexity levels and test extended interactions, not just isolated queries.
 
-**Composite Quality Dimensions**
-Agent quality is not a single dimension. It includes factual accuracy, completeness, coherence, tool efficiency, and process quality. An agent might score high on accuracy but low in efficiency, or vice versa.
+async def agent_loop(
+    client: Anthropic,
+    model: str,
+    question: str,
+    tools: list[dict[str, Any]],
+    connection: Any,
+) -> tuple[str, dict[str, Any]]:
+    """Run the agent loop with MCP tools."""
+    messages = [{"role": "user", "content": question}]
 
-Evaluation rubrics must capture multiple dimensions with appropriate weighting for the use case.
+    response = await asyncio.to_thread(
+        client.messages.create,
+        model=model,
+        max_tokens=4096,
+        system=EVALUATION_PROMPT,
+        messages=messages,
+        tools=tools,
+    )
 
-### Evaluation Rubric Design
+    messages.append({"role": "assistant", "content": response.content})
 
-**Multi-Dimensional Rubric**
-Effective rubrics cover key dimensions with descriptive levels:
+    tool_metrics = {}
 
-Factual accuracy: Claims match ground truth (excellent to failed)
+    while response.stop_reason == "tool_use":
+        tool_use = next(block for block in response.content if block.type == "tool_use")
+        tool_name = tool_use.name
+        tool_input = tool_use.input
 
-Completeness: Output covers requested aspects (excellent to failed)
+        tool_start_ts = time.time()
+        try:
+            tool_result = await connection.call_tool(tool_name, tool_input)
+            tool_response = json.dumps(tool_result) if isinstance(tool_result, (dict, list)) else str(tool_result)
+        except Exception as e:
+            tool_response = f"Error executing tool {tool_name}: {str(e)}\n"
+            tool_response += traceback.format_exc()
+        tool_duration = time.time() - tool_start_ts
 
-Citation accuracy: Citations match claimed sources (excellent to failed)
+        if tool_name not in tool_metrics:
+            tool_metrics[tool_name] = {"count": 0, "durations": []}
+        tool_metrics[tool_name]["count"] += 1
+        tool_metrics[tool_name]["durations"].append(tool_duration)
 
-Source quality: Uses appropriate primary sources (excellent to failed)
+        messages.append({
+            "role": "user",
+            "content": [{
+                "type": "tool_result",
+                "tool_use_id": tool_use.id,
+                "content": tool_response,
+            }]
+        })
 
-Tool efficiency: Uses right tools reasonable number of times (excellent to failed)
+        response = await asyncio.to_thread(
+            client.messages.create,
+            model=model,
+            max_tokens=4096,
+            system=EVALUATION_PROMPT,
+            messages=messages,
+            tools=tools,
+        )
+        messages.append({"role": "assistant", "content": response.content})
 
-**Rubric Scoring**
-Convert dimension assessments to numeric scores (0.0 to 1.0) with appropriate weighting. Calculate weighted overall scores. Determine passing threshold based on use case requirements.
+    response_text = next(
+        (block.text for block in response.content if hasattr(block, "text")),
+        None,
+    )
+    return response_text, tool_metrics
 
-### Evaluation Methodologies
 
-**LLM-as-Judge**
-LLM-based evaluation scales to large test sets and provides consistent judgments. The key is designing effective evaluation prompts that capture the dimensions of interest.
+async def evaluate_single_task(
+    client: Anthropic,
+    model: str,
+    qa_pair: dict[str, Any],
+    tools: list[dict[str, Any]],
+    connection: Any,
+    task_index: int,
+) -> dict[str, Any]:
+    """Evaluate a single QA pair with the given tools."""
+    start_time = time.time()
 
-Provide clear task description, agent output, ground truth (if available), evaluation scale with level descriptions, and request structured judgment.
+    print(f"Task {task_index + 1}: Running task with question: {qa_pair['question']}")
+    response, tool_metrics = await agent_loop(client, model, qa_pair["question"], tools, connection)
 
-**Human Evaluation**
-Human evaluation catches what automation misses. Humans notice hallucinated answers on unusual queries, system failures, and subtle biases that automated evaluation misses.
+    response_value = extract_xml_content(response, "response")
+    summary = extract_xml_content(response, "summary")
+    feedback = extract_xml_content(response, "feedback")
 
-Effective human evaluation covers edge cases, samples systematically, tracks patterns, and provides contextual understanding.
+    duration_seconds = time.time() - start_time
 
-**End-State Evaluation**
-For agents that mutate persistent state, end-state evaluation focuses on whether the final state matches expectations rather than how the agent got there.
-
-### Test Set Design
-
-**Sample Selection**
-Start with small samples during development. Early in agent development, changes have dramatic impacts because there is abundant low-hanging fruit. Small test sets reveal large effects.
-
-Sample from real usage patterns. Add known edge cases. Ensure coverage across complexity levels.
-
-**Complexity Stratification**
-Test sets should span complexity levels: simple (single tool call), medium (multiple tool calls), complex (many tool calls, significant ambiguity), and very complex (extended interaction, deep reasoning).
-
-### Context Engineering Evaluation
-
-**Testing Context Strategies**
-Context engineering choices should be validated through systematic evaluation. Run agents with different context strategies on the same test set. Compare quality scores, token usage, and efficiency metrics.
-
-**Degradation Testing**
-Test how context degradation affects performance by running agents at different context sizes. Identify performance cliffs where context becomes problematic. Establish safe operating limits.
-
-### Continuous Evaluation
-
-**Evaluation Pipeline**
-Build evaluation pipelines that run automatically on agent changes. Track results over time. Compare versions to identify improvements or regressions.
-
-**Monitoring Production**
-Track evaluation metrics in production by sampling interactions and evaluating randomly. Set alerts for quality drops. Maintain dashboards for trend analysis.
-
-## Practical Guidance
-
-### Building Evaluation Frameworks
-
-1. Define quality dimensions relevant to your use case
-2. Create rubrics with clear, actionable level descriptions
-3. Build test sets from real usage patterns and edge cases
-4. Implement automated evaluation pipelines
-5. Establish baseline metrics before making changes
-6. Run evaluations on all significant changes
-7. Track metrics over time for trend analysis
-8. Supplement automated evaluation with human review
-
-### Avoiding Evaluation Pitfalls
-
-Overfitting to specific paths: Evaluate outcomes, not specific steps.
-Ignoring edge cases: Include diverse test scenarios.
-Single-metric obsession: Use multi-dimensional rubrics.
-Neglecting context effects: Test with realistic context sizes.
-Skipping human evaluation: Automated evaluation misses subtle issues.
-
-## Examples
-
-**Example 1: Simple Evaluation**
-```python
-def evaluate_agent_response(response, expected):
-    rubric = load_rubric()
-    scores = {}
-    for dimension, config in rubric.items():
-        scores[dimension] = assess_dimension(response, expected, dimension)
-    overall = weighted_average(scores, config["weights"])
-    return {"passed": overall >= 0.7, "scores": scores}
-```
-
-**Example 2: Test Set Structure**
-
-Test sets should span multiple complexity levels to ensure comprehensive evaluation:
-
-```python
-test_set = [
-    {
-        "name": "simple_lookup",
-        "input": "What is the capital of France?",
-        "expected": {"type": "fact", "answer": "Paris"},
-        "complexity": "simple",
-        "description": "Single tool call, factual lookup"
-    },
-    {
-        "name": "medium_query",
-        "input": "Compare the revenue of Apple and Microsoft last quarter",
-        "complexity": "medium",
-        "description": "Multiple tool calls, comparison logic"
-    },
-    {
-        "name": "multi_step_reasoning",
-        "input": "Analyze sales data from Q1-Q4 and create a summary report with trends",
-        "complexity": "complex",
-        "description": "Many tool calls, aggregation, analysis"
-    },
-    {
-        "name": "research_synthesis",
-        "input": "Research emerging AI technologies, evaluate their potential impact, and recommend adoption strategy",
-        "complexity": "very_complex",
-        "description": "Extended interaction, deep reasoning, synthesis"
+    return {
+        "question": qa_pair["question"],
+        "expected": qa_pair["answer"],
+        "actual": response_value,
+        "score": int(response_value == qa_pair["answer"]) if response_value else 0,
+        "total_duration": duration_seconds,
+        "tool_calls": tool_metrics,
+        "num_tool_calls": sum(len(metrics["durations"]) for metrics in tool_metrics.values()),
+        "summary": summary,
+        "feedback": feedback,
     }
-]
-```
 
-## Guidelines
 
-1. Use multi-dimensional rubrics, not single metrics
-2. Evaluate outcomes, not specific execution paths
-3. Cover complexity levels from simple to complex
-4. Test with realistic context sizes and histories
-5. Run evaluations continuously, not just before release
-6. Supplement LLM evaluation with human review
-7. Track metrics over time for trend detection
-8. Set clear pass/fail thresholds based on use case
+REPORT_HEADER = """
+# Evaluation Report
 
-## Integration
+## Summary
 
-This skill connects to all other skills as a cross-cutting concern:
-
-- context-fundamentals - Evaluating context usage
-- context-degradation - Detecting degradation
-- context-optimization - Measuring optimization effectiveness
-- multi-agent-patterns - Evaluating coordination
-- tool-design - Evaluating tool effectiveness
-- memory-systems - Evaluating memory quality
-
-## References
-
-Internal reference:
-- Metrics Reference - Detailed evaluation metrics and implementation
-
-## References
-
-Internal skills:
-- All other skills connect to evaluation for quality measurement
-
-External resources:
-- LLM evaluation benchmarks
-- Agent evaluation research papers
-- Production monitoring practices
+- **Accuracy**: {correct}/{total} ({accuracy:.1f}%)
+- **Average Task Duration**: {average_duration_s:.2f}s
+- **Average Tool Calls per Task**: {average_tool_calls:.2f}
+- **Total Tool Calls**: {total_tool_calls}
 
 ---
+"""
 
-## Skill Metadata
+TASK_TEMPLATE = """
+### Task {task_num}
 
-**Created**: 2025-12-20
-**Last Updated**: 2025-12-20
-**Author**: Agent Skills for Context Engineering Contributors
-**Version**: 1.0.0
+**Question**: {question}
+**Ground Truth Answer**: `{expected_answer}`
+**Actual Answer**: `{actual_answer}`
+**Correct**: {correct_indicator}
+**Duration**: {total_duration:.2f}s
+**Tool Calls**: {tool_calls}
+
+**Summary**
+{summary}
+
+**Feedback**
+{feedback}
+
+---
+"""
+
+
+async def run_evaluation(
+    eval_path: Path,
+    connection: Any,
+    model: str = "claude-3-7-sonnet-20250219",
+) -> str:
+    """Run evaluation with MCP server tools."""
+    print("🚀 Starting Evaluation")
+
+    client = Anthropic()
+
+    tools = await connection.list_tools()
+    print(f"📋 Loaded {len(tools)} tools from MCP server")
+
+    qa_pairs = parse_evaluation_file(eval_path)
+    print(f"📋 Loaded {len(qa_pairs)} evaluation tasks")
+
+    results = []
+    for i, qa_pair in enumerate(qa_pairs):
+        print(f"Processing task {i + 1}/{len(qa_pairs)}")
+        result = await evaluate_single_task(client, model, qa_pair, tools, connection, i)
+        results.append(result)
+
+    correct = sum(r["score"] for r in results)
+    accuracy = (correct / len(results)) * 100 if results else 0
+    average_duration_s = sum(r["total_duration"] for r in results) / len(results) if results else 0
+    average_tool_calls = sum(r["num_tool_calls"] for r in results) / len(results) if results else 0
+    total_tool_calls = sum(r["num_tool_calls"] for r in results)
+
+    report = REPORT_HEADER.format(
+        correct=correct,
+        total=len(results),
+        accuracy=accuracy,
+        average_duration_s=average_duration_s,
+        average_tool_calls=average_tool_calls,
+        total_tool_calls=total_tool_calls,
+    )
+
+    report += "".join([
+        TASK_TEMPLATE.format(
+            task_num=i + 1,
+            question=qa_pair["question"],
+            expected_answer=qa_pair["answer"],
+            actual_answer=result["actual"] or "N/A",
+            correct_indicator="✅" if result["score"] else "❌",
+            total_duration=result["total_duration"],
+            tool_calls=json.dumps(result["tool_calls"], indent=2),
+            summary=result["summary"] or "N/A",
+            feedback=result["feedback"] or "N/A",
+        )
+        for i, (qa_pair, result) in enumerate(zip(qa_pairs, results))
+    ])
+
+    return report
+
+
+def parse_headers(header_list: list[str]) -> dict[str, str]:
+    """Parse header strings in format 'Key: Value' into a dictionary."""
+    headers = {}
+    if not header_list:
+        return headers
+
+    for header in header_list:
+        if ":" in header:
+            key, value = header.split(":", 1)
+            headers[key.strip()] = value.strip()
+        else:
+            print(f"Warning: Ignoring malformed header: {header}")
+    return headers
+
+
+def parse_env_vars(env_list: list[str]) -> dict[str, str]:
+    """Parse environment variable strings in format 'KEY=VALUE' into a dictionary."""
+    env = {}
+    if not env_list:
+        return env
+
+    for env_var in env_list:
+        if "=" in env_var:
+            key, value = env_var.split("=", 1)
+            env[key.strip()] = value.strip()
+        else:
+            print(f"Warning: Ignoring malformed environment variable: {env_var}")
+    return env
+
+
+async def main():
+    parser = argparse.ArgumentParser(
+        description="Evaluate MCP servers using test questions",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Evaluate a local stdio MCP server
+  python evaluation.py -t stdio -c python -a my_server.py eval.xml
+
+  # Evaluate an SSE MCP server
+  python evaluation.py -t sse -u https://example.com/mcp -H "Authorization: Bearer token" eval.xml
+
+  # Evaluate an HTTP MCP server with custom model
+  python evaluation.py -t http -u https://example.com/mcp -m claude-3-5-sonnet-20241022 eval.xml
+        """,
+    )
+
+    parser.add_argument("eval_file", type=Path, help="Path to evaluation XML file")
+    parser.add_argument("-t", "--transport", choices=["stdio", "sse", "http"], default="stdio", help="Transport type (default: stdio)")
+    parser.add_argument("-m", "--model", default="claude-3-7-sonnet-20250219", help="Claude model to use (default: claude-3-7-sonnet-20250219)")
+
+    stdio_group = parser.add_argument_group("stdio options")
+    stdio_group.add_argument("-c", "--command", help="Command to run MCP server (stdio only)")
+    stdio_group.add_argument("-a", "--args", nargs="+", help="Arguments for the command (stdio only)")
+    stdio_group.add_argument("-e", "--env", nargs="+", help="Environment variables in KEY=VALUE format (stdio only)")
+
+    remote_group = parser.add_argument_group("sse/http options")
+    remote_group.add_argument("-u", "--url", help="MCP server URL (sse/http only)")
+    remote_group.add_argument("-H", "--header", nargs="+", dest="headers", help="HTTP headers in 'Key: Value' format (sse/http only)")
+
+    parser.add_argument("-o", "--output", type=Path, help="Output file for evaluation report (default: stdout)")
+
+    args = parser.parse_args()
+
+    if not args.eval_file.exists():
+        print(f"Error: Evaluation file not found: {args.eval_file}")
+        sys.exit(1)
+
+    headers = parse_headers(args.headers) if args.headers else None
+    env_vars = parse_env_vars(args.env) if args.env else None
+
+    try:
+        connection = create_connection(
+            transport=args.transport,
+            command=args.command,
+            args=args.args,
+            env=env_vars,
+            url=args.url,
+            headers=headers,
+        )
+    except ValueError as e:
+        print(f"Error: {e}")
+        sys.exit(1)
+
+    print(f"🔗 Connecting to MCP server via {args.transport}...")
+
+    async with connection:
+        print("✅ Connected successfully")
+        report = await run_evaluation(args.eval_file, connection, args.model)
+
+        if args.output:
+            args.output.write_text(report)
+            print(f"\n✅ Report saved to {args.output}")
+        else:
+            print("\n" + report)
+
+
+if __name__ == "__main__":
+    asyncio.run(main())

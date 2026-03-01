@@ -3,8 +3,8 @@
   "description": "Build new Next.js applications or migrate existing frontends (React, Vue, Angular, vanilla JS, etc.) to Next.js + shadcn/ui with systematic analysis and conversion. Enforces shadcn design principles - CSS variables for theming, standard UI components, no hardcoded values, consistent typography/colors. Use for creating Next.js apps, migrating frontends, adopting shadcn/ui, or standardizing component libraries. Includes MCP integration for shadcn documentation and automated codebase analysis.",
   "category": "frontend",
   "canonical_category": "frontend",
-  "repository": "SKANL/abogado-sala",
-  "repository_url": "https://github.com/SKANL/abogado-sala",
+  "repository": "SKANL/saas-abogados-nextjs",
+  "repository_url": "https://github.com/SKANL/saas-abogados-nextjs",
   "author": "SKANL",
   "author_avatar": "https://github.com/SKANL.png",
   "file_path": ".agent/skills/nextjs-shadcn-builder/SKILL.md",
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "7a5cb6313282610781328cce7d4379e39919267d9c35de3c969d5ce45579e6b0",
-  "indexed_at": "2026-02-28T13:51:48.727Z",
-  "synced_at": "2026-02-28T18:10:57.791Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/06409f93ca1da32f6a41a084681349c927a03c49260059ce47d2308975dc1b98",
-  "install_command": "mkdir -p .claude/skills/nextjs-shadcn-builder && curl -sL \"https://raw.githubusercontent.com/SKANL/abogado-sala/main/.agent/skills/nextjs-shadcn-builder/SKILL.md\" > .claude/skills/nextjs-shadcn-builder/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/SKANL/abogado-sala/main/.agent/skills/nextjs-shadcn-builder/SKILL.md"
+  "content_hash": "ae137aebe6d3531ea48d3bd062a76e5d40d7c85b2225d41b8bb2efc9e0d41e4b",
+  "indexed_at": "2026-03-01T12:47:48.125Z",
+  "synced_at": "2026-03-01T18:10:54.291Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/8e2df5e246a0a74c25c8aedf199f8cd33a18ca5661eaf28aeaa89d68e5fd05fd",
+  "install_command": "mkdir -p .claude/skills/nextjs-shadcn-builder && curl -sL \"https://raw.githubusercontent.com/SKANL/saas-abogados-nextjs/main/.agent/skills/nextjs-shadcn-builder/SKILL.md\" > .claude/skills/nextjs-shadcn-builder/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/SKANL/saas-abogados-nextjs/main/.agent/skills/nextjs-shadcn-builder/SKILL.md"
 }
