@@ -1,6 +1,6 @@
 # 📂 design
 
-> 638 skills in this category
+> 649 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -284,6 +284,10 @@
 | [Skill Builder / Creator](skill-builder-creator/) | openclaw | ★ 0 | 48% | L2 | Create high-quality skills with modular structure, progressive disclosure, and t… |
 | [Figma](figma/) | hivellm | ★ 0 | 48% | L3 | Use MCP Figma for design system integration, asset export, and design-to-code wo… |
 | [switchboard-data-operator](switchboard-data-operator/) | openclaw | ★ 0 | 48% | L3 | Autonomous operator for Switchboard on-demand feeds, Surge streaming, and random… |
+| [design-spec](design-spec/) | duc01226 | ★ 0 | 48% | L2 | [Project Management] Create UI/UX design specifications from requirements, PBIs,… |
+| [ios-ui-recording](ios-ui-recording/) | derKlinke | ★ 0 | 48% | L3 | Use when setting up UI test recording in Xcode 26, enhancing recorded tests for … |
+| [Logistics Cost Optimization](logistics-cost-optimization/) | writer | ★ 0 | 48% | L2 | Identify cost-saving opportunities across transportation, warehousing, and last-… |
+| [amplitude-ui-skills](amplitude-ui-skills/) | ihlamury | ★ 0 | 48% | L2 | Amplitude's UI design system. Use when building interfaces inspired by Amplitude… |
 | [solidstart-optimistic-ui](solidstart-optimistic-ui/) | majiayu000 | ★ 0 | 47% | L2 | SolidStart optimistic UI: use useSubmissions to show pending data immediately, c… |
 | [cheat-sheets](cheat-sheets/) | majiayu000 | ★ 0 | 47% | L3 | Expert knowledge for creating effective cheat sheets with PDF export. Activate w… |
 | [power-bi-report-design-best-practices](power-bi-report-design-best-practices/) | pingqLIN | ★ 0 | 47% | L2 | Comprehensive Power BI report design and visualization best practices based on M… |
@@ -524,6 +528,13 @@
 | [dubstep](dubstep/) | struktured-labs | ★ 0 | 45% | L2 | Dubstep composition specialist - genre knowledge, sound design, and production p… |
 | [project-development](project-development/) | SyntaxAsSpiral | ★ 0 | 45% | L3 | Design and build LLM-powered projects from ideation through deployment. Use when… |
 | [u01954-handoff-contracting-for-accessibility-services](u01954-handoff-contracting-for-accessibility-services/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Handoff Contracting for accessibility services" capability in produ… |
+| [jit-gui-expert](jit-gui-expert/) | thegaltinator | ★ 0 | 45% | L2 | Expert reference for Just-in-Time GUI, generative UI, and ephemeral interfaces f… |
+| [ai-interaction-patterns](ai-interaction-patterns/) | Integrum-Global | ★ 0 | 45% | L2 | AI-specific interaction design patterns covering wayfinding, prompt UX, human-in… |
+| [awesome-copilot-root-accessibility](awesome-copilot-root-accessibility/) | sla-te | ★ 0 | 45% | L3 | Expert assistant for web accessibility (WCAG 2.1/2.2), inclusive UX, and a11y te… |
+| [design](design/) | neurofoo | ★ 0 | 45% | L2 | Design Thinking process—Empathize, Define, Ideate, Prototype, Test. Use for prod… |
+| [skill-builder-medical](skill-builder-medical/) | adaptationio | ★ 0 | 45% | L2 | Specialized guide for creating Claude Code skills for Dr. Sophia AI medical syst… |
+| [accessibility-by-default](accessibility-by-default/) | noejunior299 | ★ 0 | 45% | L2 | Treats accessibility as a baseline requirement, not a feature. WCAG 2.1/2.2 AA p… |
+| [rams](rams/) | thoreinstein | ★ 0 | 44% | L2 | Run accessibility and visual design review |
 | [root-level-project-instructions](root-level-project-instructions/) | majiayu000 | ★ 0 | 43% | L3 | Root level project guidelines and initial steps to start and implement EEG proce… |
 | [mobile-first-design-rules](mobile-first-design-rules/) | NeverSight | ★ 0 | 43% | L3 | Focuses on rules and best practices for mobile-first design and responsive typog… |
 | [design-and-user-experience-guidelines](design-and-user-experience-guidelines/) | oimiragieo | ★ 0 | 43% | L3 | Specifies design and user experience guidelines, including dark mode compatibili… |

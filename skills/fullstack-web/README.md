@@ -1,6 +1,6 @@
 # 📂 fullstack-web
 
-> 108 skills in this category
+> 112 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -104,13 +104,17 @@
 | [seo-technical](seo-technical/) | anorbert-cmyk | ★ 0 | 45% | L3 | Technical SEO audit across 9 categories including crawlability, indexability, se… |
 | [qa-testing-mobile](qa-testing-mobile/) | vasilyu1983 | ★ 0 | 45% | L2 | Mobile app testing strategy and execution for iOS and Android (native + cross-pl… |
 | [osx-review](osx-review/) | BoltzmannEntropy | ★ 0 | 45% | L3 | Use when preparing mobile/desktop apps for App Store submission, before final re… |
+| [bear](bear/) | majiayu000 | ★ 0 | 45% | L3 | Interacts with Bear note-taking app on macOS via X-Callback-URL. Use when user a… |
+| [bear](bear/) | eanair | ★ 0 | 45% | L3 | Interacts with Bear note-taking app on macOS via X-Callback-URL. Use when user a… |
 | [mobile](mobile/) | bulbulogludemir | ★ 0 | 44% | L3 | React Native, Expo, mobile apps. Auto-use for mobile work. |
 | [app-builder](app-builder/) | Dokhacgiakhoa | ★ 0 | 41% | L3 | Main application building orchestrator. |
 | [app-builder](app-builder/) | darthlinuxer | ★ 0 | 41% | L3 | Main application building orchestrator. Creates full-stack applications |
 | [webrtc-timing-test](webrtc-timing-test/) | kwindla | ★ 0 | 38% | L3 | Measure WebRTC connection timing on Daily rooms. Use when testing Daily video ca… |
 | [Chemistry Skill](chemistry-skill/) | AmaiDonatsu | ★ 0 | 38% | L3 | Provides a deep understanding of chemistry through a technical-philosophical app… |
 | [entry-point-check](entry-point-check/) | majiayu000 | ★ 0 | 38% | L2 | 验证 VS 的 entry_points 字段是否与 SPEC_PRJ_ENTRYPOINTS（入口类型标签）一致，生成缺失入口清单和补充建议。当准备 CONS… |
+| [research](research/) | jonjonbinx1 | ★ 0 | 37% | L2 | Maximum number of web search queries to issue. Defaults to 3. |
 | [shopify-apps](shopify-apps/) | davila7 | ★ 0 | 32% | L2 | Expert patterns for Shopify app development including Remix/React Router apps, e… |
+| [gemini](gemini/) | openxjarvis | ★ 0 | 28% | L2 | Google Gemini AI integration |
 | [mobile](mobile/) | omkar-ukirde | ★ 0 | 25% | L2 | Mobile application security testing skills for Android and iOS platforms. |
 
 ---

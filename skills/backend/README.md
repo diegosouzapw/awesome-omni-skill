@@ -1,6 +1,6 @@
 # 📂 backend
 
-> 841 skills in this category
+> 875 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -407,6 +407,22 @@
 | [clerk-setup](clerk-setup/) | clerk | ★ 0 | 48% | L3 | Add Clerk authentication to any project by following the official quickstart gui… |
 | [implementing-rapid7-insightvm-for-scanning](implementing-rapid7-insightvm-for-scanning/) | mukul975 | ★ 0 | 48% | L3 | Deploy and configure Rapid7 InsightVM Security Console and Scan Engines for auth… |
 | [MCP Architecture Expert](mcp-architecture-expert/) | majiayu000 | ★ 0 | 48% | L3 | Design and implement Model Context Protocol servers for standardized AI-to-data … |
+| [clawdbot-update-plus](clawdbot-update-plus/) | decimasudo | ★ 0 | 48% | L3 | Full backup, update, and restore for Clawdbot - config, workspace, and skills wi… |
+| [setup-webhook](setup-webhook/) | majiayu000 | ★ 0 | 48% | L3 | Configure Vapi server URLs and webhooks to receive real-time call events, transc… |
+| [create-phone-number](create-phone-number/) | VapiAI | ★ 0 | 48% | L3 | Set up and manage phone numbers in Vapi for inbound and outbound voice AI calls.… |
+| [safemoltbook](safemoltbook/) | us | ★ 0 | 48% | L3 | Agent Social Platform with peer review system. Post content, review others, earn… |
+| [calculator](calculator/) | egermano | ★ 0 | 48% | L3 | Performs basic arithmetic operations including addition, subtraction, multiplica… |
+| [databuddy](databuddy/) | databuddy-analytics | ★ 0 | 48% | L3 | Integrate Databuddy analytics into applications using the SDK or REST API. Use w… |
+| [Knowledge](knowledge/) | madeinoz67 | ★ 0 | 48% | L3 | Personal knowledge management using Graphiti knowledge graph with Neo4j/FalkorDB… |
+| [weekly-bank-exec-brief](weekly-bank-exec-brief/) | writer | ★ 0 | 48% | L2 | Auto-generate weekly executive summaries for bank leadership covering financial … |
+| [brainstorming](brainstorming/) | oimiragieo | ★ 0 | 48% | L2 | Socratic design refinement before implementation. Use when planning creative wor… |
+| [ActiveRecord Patterns](activerecord-patterns/) | betamatt | ★ 0 | 48% | L2 | This skill should be used when the user asks about "ActiveRecord", "database que… |
+| [healthsync](healthsync/) | BRO3886 | ★ 0 | 48% | L3 | Queries Apple Health data stored in a local SQLite database. Use this skill to r… |
+| [Schema Design](schema-design/) | dtsong | ★ 0 | 48% | L2 | Migration-ready database schema design with normalization and indexing strategie… |
+| [celestia](celestia/) | hairyf | ★ 0 | 48% | L3 | Celestia data availability node—bridge/full/light types, headers, shares, DAS, s… |
+| [implement-feature](implement-feature/) | lazyoft | ★ 0 | 48% | L2 | Implementa feature nel sistema di fatturazione italiana validando contro normati… |
+| [API Development](api-development/) | majiayu000 | ★ 0 | 48% | L3 | Build REST APIs with proper error handling, status codes, request validation, re… |
+| [spring-validation](spring-validation/) | gazolla | ★ 0 | 48% | L2 | Bean Validation (Jakarta Validation) with Spring Boot. Custom validators, valida… |
 | [visualiser-performance](visualiser-performance/) | event-catalog | ★ 0 | 47% | L3 | React Flow performance rules and review checklist for the @eventcatalog/visualis… |
 | [solidstart-websocket](solidstart-websocket/) | majiayu000 | ★ 0 | 47% | L3 | SolidStart WebSocket: experimental WebSocket endpoints, connection handling, mes… |
 | [solidstart-middleware-auth](solidstart-middleware-auth/) | majiayu000 | ★ 0 | 47% | L3 | SolidStart middleware, sessions, authentication: createMiddleware with onRequest… |
@@ -414,6 +430,7 @@
 | [solidstart-data-mutation](solidstart-data-mutation/) | majiayu000 | ★ 0 | 47% | L2 | SolidStart data mutation: form submissions with actions, validation, error handl… |
 | [Pagination, Search, and Sorting](pagination-search-and-sorting/) | raffaeler | ★ 0 | 47% | L2 | Implement server-side pagination, search filtering, and column sorting across AP… |
 | [domain-web](domain-web/) | actionbook | ★ 0 | 47% | L2 | Use when building web services. Keywords: web server, HTTP, REST API, GraphQL, W… |
+| [copilot-sdk-nodejs](copilot-sdk-nodejs/) | pingqLIN | ★ 0 | 47% | L3 | This file provides guidance on building Node.js/TypeScript applications using Gi… |
 | [using-neon](using-neon/) | ranbot-ai | ★ 0 | 45% | L3 | Guides and best practices for working with Neon Serverless Postgres. Covers gett… |
 | [apilio-automation](apilio-automation/) | ranbot-ai | ★ 0 | 45% | L2 | Automate Apilio tasks via Rube MCP (Composio). Always search tools first for cur… |
 | [Finalize Your Dapr Skill](finalize-your-dapr-skill/) | panaversity | ★ 0 | 45% | L3 | Complete and test your dapr-deployment skill for production use, adding safety g… |
@@ -685,6 +702,13 @@
 | [springfield-max](springfield-max/) | hiapplyco | ★ 0 | 45% | L3 | Simpsons-themed autonomous workflow orchestrator v7.0 for platform building. Pow… |
 | [live-web-page-browser](live-web-page-browser/) | AgentPMT | ★ 0 | 45% | L3 | Use AgentPMT external API to run the Live Web Page Browser tool with wallet sign… |
 | [express-api-patterns](express-api-patterns/) | majiayu000 | ★ 0 | 45% | L3 | Express.js API development, route handling, middleware, error handling, request … |
+| [rdkit](rdkit/) | mcox3406 | ★ 0 | 45% | L3 | Modern RDKit workflows for cheminformatics, including molecular fingerprints, dr… |
+| [Slurm Workload Manager Skill](slurm-workload-manager-skill/) | Lyken17 | ★ 0 | 45% | L3 | Instructions and templates for interacting with the Slurm Workload Manager to su… |
+| [notmcp](notmcp/) | DomVinyard | ★ 0 | 45% | L3 | Local tool system for API integrations and automation. Use when connecting to ex… |
+| [x-twitter-scraper](x-twitter-scraper/) | davila7 | ★ 0 | 45% | L3 | X API & Twitter scraper skill for AI coding agents. Builds integrations with the… |
+| [fullstack-template-generator](fullstack-template-generator/) | prajkarne-bbsi | ★ 0 | 45% | L3 | Generates production-ready fullstack applications with Python FastAPI backend an… |
+| [bitbucket-server](bitbucket-server/) | majiayu000 | ★ 0 | 45% | L3 | This skill enables interaction with BitBucket Server REST API for Pull Request m… |
+| [migrating-json-schemas](migrating-json-schemas/) | zaggino | ★ 0 | 45% | L3 | Migrates JSON Schemas between draft versions for use with z-schema. Use when the… |
 | [Fastify Rest Api](fastify-rest-api/) | AmnadTaowsoam | ★ 0 | 44% | L3 | Fastify is a high-performance Node.js web framework focused on speed |
 | [Data Contracts](data-contracts/) | AmnadTaowsoam | ★ 0 | 44% | L3 | A Data Contract is a formal agreement between a data producer (e.g., |
 | [Nestjs Patterns](nestjs-patterns/) | AmnadTaowsoam | ★ 0 | 44% | L3 | NestJS is a progressive Node.js framework built with TypeScript, designed |
@@ -757,12 +781,14 @@
 | [moai-baas-clerk-ext](moai-baas-clerk-ext/) | majiayu000 | ★ 0 | 44% | L3 | Enterprise Clerk Authentication Platform with AI-powered modern identity |
 | [moai-lang-python](moai-lang-python/) | majiayu000 | ★ 0 | 44% | L3 | Enterprise-grade Python expertise with production patterns for Python |
 | [LAYER_04_APP](layer_04_app/) | tinkermonkey | ★ 0 | 44% | L3 | Expert knowledge for Application Layer modeling in Documentation Robotics |
+| [backend](backend/) | bulbulogludemir | ★ 0 | 44% | L3 | API, database, server logic, webhooks. Auto-use for any API/DB work. |
 | [Schema Evolution Impact Analysis](schema-evolution-impact-analysis/) | cdalsoniii | ★ 0 | 43% | L2 | Analyze the impact of model/schema changes on downstream code — affected reposit… |
 | [vercel-kv-database-rules](vercel-kv-database-rules/) | oimiragieo | ★ 0 | 43% | L3 | Defines how to interact with Vercel's KV database for storing and retrieving ses… |
 | [pre-configured-apis-rules](pre-configured-apis-rules/) | majiayu000 | ★ 0 | 43% | L3 | Rules for using pre-configured APIs in the project, using them only if they are … |
 | [verify-information-rule](verify-information-rule/) | majiayu000 | ★ 0 | 43% | L3 | This rule ensures that the AI always verifies information before presenting it, … |
 | [drizzle-orm-rules](drizzle-orm-rules/) | majiayu000 | ★ 0 | 43% | L3 | Rules for using Drizzle ORM within the `src/lib/db` directory. Ensures consisten… |
 | [rust-actor](rust-actor/) | majiayu000 | ★ 0 | 43% | L2 | Actor 模型专家。处理 Actor 死锁, 消息传递, 状态管理, supervision, 容错, Actix, Erlang 风格并发 |
+| [restcontroller-conventions](restcontroller-conventions/) | oimiragieo | ★ 0 | 43% | L3 | Specifies standards for RestController classes, including API route mappings, HT… |
 | [api-design](api-design/) | jsmithdenverdev | ★ 0 | 41% | L3 | RESTful and GraphQL API design principles, patterns, and best practices |
 | [database-advanced-optimization](database-advanced-optimization/) | majiayu000 | ★ 0 | 41% | L3 | Use SQL (PostgreSQL) when: |
 | [database-advanced-optimization](database-advanced-optimization/) | majiayu000 | ★ 0 | 41% | L3 | Use SQL (PostgreSQL) when: |
@@ -807,6 +833,8 @@
 | [cs-guide-writer](cs-guide-writer/) | majiayu000 | ★ 0 | 41% | L3 | CS 학습 문서를 작성합니다. "오늘의 CS", "CS 정리", "{주제} 정리해줘", "최근 이슈 CS" 요청 시 사용하세요. |
 | [release](release/) | joelgrimberg | ★ 0 | 41% | L2 | Commit, push, tag, and release timesheetz |
 | [commit](commit/) | captainsparrow10 | ★ 0 | 41% | L3 | Stage changes, run pre-commit hooks, and create a well-formatted git commit |
+| [django-project-setup](django-project-setup/) | jpoutrin | ★ 0 | 41% | L3 | Validate Django project setup with type checking, linting, and tests |
+| [qri-valence](qri-valence/) | plurigrid | ★ 0 | 41% | L3 | qri-valence skill |
 | [quarkus-mcp-server-sse](quarkus-mcp-server-sse/) | pingqLIN | ★ 0 | 40% | L3 | Quarkus and MCP Server with HTTP SSE transport development standards and instruc… |
 | [lint-and-format](lint-and-format/) | matteing | ★ 0 | 40% | L3 | Runs linting and formatting checks before committing. Use this skill after writi… |
 | [sql](sql/) | kprsnt2 | ★ 0 | 40% | L2 | SQL and database best practices including query optimization, indexing, and sche… |
@@ -829,6 +857,8 @@
 | [github-mcp-server](github-mcp-server/) | github | ★ 0 | 38% | L2 | GitHub MCP Server Documentation |
 | [command-management](command-management/) | mattnigh | ★ 0 | 38% | L2 | Use PROACTIVELY this skill when you need to create or update custom commands fol… |
 | [who_dis_network_scanner](who_dis_network_scanner/) | kkian481718 | ★ 0 | 37% | L3 | AI 驅動的本地網絡掃描器與安全分析工具 (Local Network Scanner and AI Security Analyzer) |
+| [superteam-writing-plans](superteam-writing-plans/) | coctostan | ★ 0 | 36% | L3 | Create structured implementation plans with machine-parseable task blocks |
+| [notion](notion/) | refly-ai | ★ 0 | 35% | L3 | Integrate with Notion for knowledge management and collaboration. Use when you n… |
 | [duplicati](duplicati/) | decimasudo | ★ 0 | 34% | L2 | Manage Duplicati backups on the server using secure Bearer tokens. |
 | [dotfiles](dotfiles/) | SebastienElet | ★ 0 | 34% | L3 | Dotfiles project guidelines (English, minimal config, Makefile for installs) |
 | [redis](redis/) | kprsnt2 | ★ 0 | 34% | L2 | Redis best practices including data modeling, caching patterns, and performance … |
@@ -837,6 +867,8 @@
 | [mongodb](mongodb/) | kprsnt2 | ★ 0 | 34% | L2 | MongoDB best practices including schema design, indexing, and query optimization… |
 | [lean-lsp](lean-lsp/) | adamtopaz | ★ 0 | 34% | L3 | Query Lean goals, diagnostics and other information. |
 | [database-expert-advisor](database-expert-advisor/) | majiayu000 | ★ 0 | 34% | L2 | Database design, optimization, and operations expert |
+| [llm-fmt](llm-fmt/) | SerPeter | ★ 0 | 34% | L3 | Convert JSON/YAML/XML/CSV to token-efficient formats (30-70% savings) |
+| [ln-751-command-templates](ln-751-command-templates/) | majiayu000 | ★ 0 | 34% | L2 | Generates individual .claude/commands files from templates |
 | [hive-database](hive-database/) | paralect | ★ 0 | 33% | L3 | Database operations in Hive framework |
 | [stripe-api-versioning-and-upgrades](stripe-api-versioning-and-upgrades/) | Ras3uCat | ★ 0 | 32% | L2 | Upgrading Stripe API versions, SDKs, Stripe.js, and mobile SDKs. Covers versioni… |
 | [api-design](api-design/) | kcenon | ★ 0 | 32% | L2 | Provides API design guidelines for REST, GraphQL, versioning, logging, observabi… |
@@ -844,6 +876,8 @@
 | [python-patterns](python-patterns/) | Zate | ★ 0 | 32% | L2 | This skill should be used for Python idioms, type hints, async/await, pytest, Dj… |
 | [self-improvement](self-improvement/) | jason-easyazz | ★ 0 | 31% | L2 | Zoe's self-improvement system - learns from corrections and user preferences |
 | [agentuity-cli-cloud-apikey-get](agentuity-cli-cloud-apikey-get/) | majiayu000 | ★ 0 | 29% | L3 | Get a specific API key by id. Requires authentication. Use for Agentuity cloud p… |
+| [python-v3.14](python-v3.14/) | GoldenPanda1104 | ★ 0 | 28% | L2 | Python 3.14 / FastAPI. Proyecto usa este skill; contenido canónico en .ai-system… |
+| [playerhoods-database](playerhoods-database/) | dongsis | ★ 0 | 25% | L1 | Authoritative database governance, schema, and RPC invariant model for playerhoo… |
 | [platform-backend](platform-backend/) | majiayu000 | ★ 0 | 22% | L1 | Server-side architecture and security patterns. Extends core-coding-standards wi… |
 
 ---

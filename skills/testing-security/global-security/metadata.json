@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/other/global-security-jaypaulb-canvusapi-llmdemo/SKILL.md",
+  "file_path": "skills/other/global-security/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 26,
@@ -17,10 +17,10 @@
   "has_scripts": false,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "b8e713d4e11044dd6c1ed98cc2a35d499294ffbf522142ff4a0784308552fc02",
-  "indexed_at": "2026-02-25T12:41:48.822Z",
-  "synced_at": "2026-02-28T04:08:21.779Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b5b9506d18f74c8aa799fbbaf442e35057fc6d3861595ad43e34b7241825dc01",
-  "install_command": "mkdir -p .claude/skills/global-security && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/global-security-jaypaulb-canvusapi-llmdemo/SKILL.md\" > .claude/skills/global-security/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/global-security-jaypaulb-canvusapi-llmdemo/SKILL.md"
+  "content_hash": "cc079ee4d07f1e3b5d2a62302f61ccd40137884ecafc459e4b4549669901ab4c",
+  "indexed_at": "2026-02-28T19:53:23.046Z",
+  "synced_at": "2026-03-01T00:34:55.377Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/203740ef7361cfa97d55fd322aceec887282bfd66348b20d9bc2b7b2ee20ffea",
+  "install_command": "mkdir -p .claude/skills/global-security && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/global-security/SKILL.md\" > .claude/skills/global-security/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/global-security/SKILL.md"
 }

@@ -1,6 +1,6 @@
 # 📂 content-media
 
-> 190 skills in this category
+> 196 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -109,6 +109,9 @@
 | [SkipClass](skipclass/) | HoweChen0517 | ★ 0 | 48% | L3 | This skill should be used when the user asks to "convert lecture recordings into… |
 | [ffmpeg](ffmpeg/) | majiayu000 | ★ 0 | 48% | L3 | Guide for using FFmpeg - a comprehensive multimedia framework for video/audio en… |
 | [payload-cms](payload-cms/) | RepairYourTech | ★ 0 | 48% | L3 | Build content management systems with Payload CMS including collections, globals… |
+| [instagram-content](instagram-content/) | petrogurcak | ★ 0 | 48% | L2 | Creates viral Instagram Reels, Stories, and posts using the Hook-Substance-Payof… |
+| [blog-experiential](blog-experiential/) | tikazyq | ★ 0 | 48% | L3 | Write experiential articles for marvinzhang.dev following 3-stage workflow (Outl… |
+| [Content Performance Explainer](content-performance-explainer/) | writer | ★ 0 | 48% | L2 | Diagnose and explain why e-commerce content is or isn't performing against KPIs,… |
 | [Tech Debt Triage](tech-debt-triage/) | cdalsoniii | ★ 0 | 46% | L2 | Score, prioritize, and plan technical debt remediation |
 | [instagram-social-media](instagram-social-media/) | rafaelramosdf | ★ 0 | 45% | L3 | Atua como um especialista em social media para Instagram, criando conteúdos alta… |
 | [publish](publish/) | majiayu000 | ★ 0 | 45% | L2 | Draft email and tweet for a new blog post. Reads the latest post from campederse… |
@@ -177,6 +180,7 @@
 | [markitdown](markitdown/) | Rowtion | ★ 0 | 45% | L3 | Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, … |
 | [markitdown](markitdown/) | majiayu000 | ★ 0 | 45% | L3 | Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, … |
 | [AudioEditor](audioeditor/) | danielmiessler | ★ 0 | 45% | L3 | AI-powered audio/video editing — transcription, intelligent cut detection, autom… |
+| [content-creation-flow](content-creation-flow/) | OutSystems | ★ 0 | 45% | L3 | Step-by-step content creation workflow for documentation and training materials.… |
 | [check-x-md-content-rule](check-x-md-content-rule/) | oimiragieo | ★ 0 | 43% | L3 | This rule reminds the AI to check the x.md file for the current file contents an… |
 | [vidu-video](vidu-video/) | openclaw | ★ 0 | 41% | L2 | 使用 Vidu Q3 Pro 模型生成视频。当用户想要文生视频、生成带音频的视频，或提到 vidu 时使用此 skill。 |
 | [placeholder-images](placeholder-images/) | oimiragieo | ★ 0 | 39% | L3 | Rule to use placekitten.com for placeholder images in seed data. |
@@ -190,6 +194,8 @@
 | [refresh-content](refresh-content/) | airopshq | ★ 0 | 34% | L2 | Update existing content with fresh information and improvements. |
 | [veo](veo/) | MagicWifiMoney | ★ 0 | 32% | L2 | Generate video using Google Veo (Veo 3.1 / Veo 3.0). Use when: creating video cl… |
 | [imagegen-gemini](imagegen-gemini/) | bhaidar | ★ 0 | 32% | L3 | Generate/edit images via Gemini API (Nano Banana). Triggers: generate image, cre… |
+| [videocut:安装](videocut/) | majiayu000 | ★ 0 | 31% | L3 | 环境准备。安装依赖、下载模型。触发词：安装、环境准备、初始化 |
+| [videocut:安装](videocut/) | 0xFANGO | ★ 0 | 31% | L3 | 环境准备。安装依赖、下载模型。触发词：安装、环境准备、初始化 |
 | [extract-page](extract-page/) | majiayu000 | ★ 0 | 28% | L3 | Extract a single page from a PDF as a PNG image for quick preview. |
 | [bird](bird/) | openxjarvis | ★ 0 | 28% | L2 | Twitter/X social media integration |
 | [bird](bird/) | futurewithvibe | ★ 0 | 28% | L2 | Twitter/X social media integration |

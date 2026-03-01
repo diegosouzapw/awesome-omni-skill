@@ -1,6 +1,6 @@
 # 📂 cli-automation
 
-> 485 skills in this category
+> 521 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -290,6 +290,22 @@
 | [multipar-cli](multipar-cli/) | DoiiarX | ★ 0 | 48% | L3 | Comprehensive guide for MultiPar CLI - PAR2 recovery file creation and verificat… |
 | [dotnet-gha-patterns](dotnet-gha-patterns/) | rudironsoni | ★ 0 | 48% | L3 | Composes GitHub Actions workflows. Reusable workflows, composite actions, matrix… |
 | [oss](oss/) | majiayu000 | ★ 0 | 48% | L3 | This skill should be used when the user asks to "create a pull request", "create… |
+| [date-validation](date-validation/) | majiayu000 | ★ 0 | 48% | L3 | Use when editing Planning Hubs, timelines, calendars, or any file with day-name … |
+| [qasai](qasai/) | ahmadawais | ★ 0 | 48% | L3 | Image compression CLI with lossless/lossy options, multiple engines, batch proce… |
+| [make-skill](make-skill/) | jbpayton | ★ 0 | 48% | L3 | Learn how to create an Agent Skill. Use when you have a capability to share or w… |
+| [breweries](breweries/) | jeffaf | ★ 0 | 48% | L3 | CLI for AI agents to find breweries for their humans. Uses Open Brewery DB. No a… |
+| [alignment-protocol](alignment-protocol/) | onEnterFrame | ★ 0 | 48% | L3 | AI vs AI strategic warfare arena. Build an agent, compete for Elo, get spectated… |
+| [token-efficient-bash](token-efficient-bash/) | ddaanet | ★ 0 | 48% | L3 | Write compact bash scripts using exec tracing pattern. Triggers when writing bas… |
+| [github-archive](github-archive/) | gadievron | ★ 0 | 48% | L3 | Investigate GitHub security incidents using tamper-proof GitHub Archive data via… |
+| [github-issues](github-issues/) | NousResearch | ★ 0 | 48% | L3 | Create, manage, triage, and close GitHub issues. Search existing issues, add lab… |
+| [loadstone-cli](loadstone-cli/) | damianpoole | ★ 0 | 48% | L3 | Use the Loadstone CLI to search the RuneScape 3 Wiki for quests or item informat… |
+| [safe-rm](safe-rm/) | kayaman | ★ 0 | 48% | L3 | Safe file deletion for Git projects. Classifies files (ALLOW/TRASH/BLOCK), uses … |
+| [community-monetization](community-monetization/) | majiayu000 | ★ 0 | 48% | L2 | When the user wants to monetize their community through paid memberships, sponso… |
+| [create-announcement](create-announcement/) | sergei-startsev | ★ 0 | 48% | L3 | This skill should be used when the user asks to "create an announcement", "write… |
+| [Verification & Quality Assurance](verification-quality-assurance/) | fndlalit | ★ 0 | 48% | L3 | Comprehensive truth scoring, code quality verification, and automatic rollback s… |
+| [axiom-xctrace-ref](axiom-xctrace-ref/) | CharlesWiltgen | ★ 0 | 48% | L3 | Use when automating Instruments profiling, running headless performance analysis… |
+| [k8s-browser](k8s-browser/) | rohitg00 | ★ 0 | 48% | L3 | Browser automation for Kubernetes dashboards and web UIs. Use when interacting w… |
+| [git-advanced-workflows](git-advanced-workflows/) | Dokhacgiakhoa | ★ 0 | 48% | L2 | Master advanced Git workflows including rebasing, cherry-picking, bisect, worktr… |
 | [domain-cli](domain-cli/) | actionbook | ★ 0 | 47% | L2 | Use when building CLI tools. Keywords: CLI, command line, terminal, clap, struct… |
 | [makefile](makefile/) | pingqLIN | ★ 0 | 47% | L3 | Best practices for authoring GNU Make Makefiles Triggers on: **/Makefile, **/mak… |
 | [power-bi-security-rls-best-practices](power-bi-security-rls-best-practices/) | pingqLIN | ★ 0 | 47% | L2 | Comprehensive Power BI Row-Level Security (RLS) and advanced security patterns i… |
@@ -439,6 +455,15 @@
 | [setup-workflow](setup-workflow/) | majiayu000 | ★ 0 | 45% | L3 | Initial setup workflow for claude-pilot plugin - directory creation, statusline … |
 | [Project Setup and CCAGI Integration](project-setup-and-ccagi-integration/) | majiayu000 | ★ 0 | 45% | L3 | Complete project initialization including Node.js/TypeScript setup, GitHub integ… |
 | [generating-commit-messages](generating-commit-messages/) | mattnigh | ★ 0 | 45% | L2 | MANDATORY skill for ALL commits. Must be used EVERY TIME before creating any git… |
+| [dotfiles-guide](dotfiles-guide/) | lms0016 | ★ 0 | 45% | L3 | Use when adding new configurations, packages, or modules to this dotfiles reposi… |
+| [create-issue](create-issue/) | rivie13 | ★ 0 | 45% | L3 | Create a well-structured task issue on GitHub that CI will validate and auto-syn… |
+| [axiom-xcode-mcp-setup](axiom-xcode-mcp-setup/) | megastep | ★ 0 | 45% | L3 | Xcode MCP setup — enable mcpbridge, per-client config, permission handling, mult… |
+| [packmind-onboard](packmind-onboard/) | PackmindHub | ★ 0 | 45% | L3 | Complete automated onboarding: analyzes codebase, creates package, and generates… |
+| [create-issue](create-issue/) | rivie13 | ★ 0 | 45% | L3 | Create a well-structured task issue on GitHub that CI will validate and auto-syn… |
+| [kan](kan/) | majiayu000 | ★ 0 | 45% | L3 | Manage kanban boards using the Kan CLI. Use when working with tasks, cards, boar… |
+| [skill-master](skill-master/) | majiayu000 | ★ 0 | 45% | L2 | Intelligent skill orchestrator that automatically finds, creates, executes, and … |
+| [github](github/) | fpl9000 | ★ 0 | 45% | L3 | Access GitHub repositories via the GitHub REST API. Use this skill when the user… |
+| [legal-ocr](legal-ocr/) | majiayu000 | ★ 0 | 45% | L3 | Extrai texto de documentos jurídicos escaneados em PDF usando OCR otimizado para… |
 | [github-code-review](github-code-review/) | frankxai | ★ 0 | 44% | L3 | Comprehensive GitHub code review with AI-powered swarm coordination |
 | [github-code-review](github-code-review/) | frankxai | ★ 0 | 44% | L3 | Comprehensive GitHub code review with AI-powered swarm coordination |
 | [reddit](reddit/) | NeverSight | ★ 0 | 44% | L3 | Enables Claude to manage Reddit posts, comments, and community engagement |
@@ -448,6 +473,8 @@
 | [automation-scripts](automation-scripts/) | majiayu000 | ★ 0 | 44% | L3 | Build automation, task runners, and scripting tools |
 | [ticket-pipeline](ticket-pipeline/) | OmniNode-ai | ★ 0 | 44% | L3 | Pass auto_merge=true to auto-merge sub-skill (skip HIGH_RISK gate) |
 | [n8n](n8n/) | openclaw | ★ 0 | 44% | L3 | Automate document workflows with n8n - 7800+ workflow templates |
+| [AI Ark Similarity Search](ai-ark-similarity-search/) | SixtySecondsApp | ★ 0 | 44% | L2 | Credit cost breakdown: { search_cost, description } |
+| [crabwalk](crabwalk/) | decimasudo | ★ 0 | 44% | L3 | Real-time companion monitor for OpenClaw agents |
 | [rust-dpdk](rust-dpdk/) | majiayu000 | ★ 0 | 43% | L2 | 用户态网络专家。处理 DPDK, 用户态驱动, 高性能网络, packet processing, 零拷贝, RSS 负载均衡 |
 | [bug](bug/) | GobbyAI | ★ 0 | 41% | L3 | Quickly create a bug task. Usage: /gobby:bug <title> [description] |
 | [pr-watch](pr-watch/) | OmniNode-ai | ★ 0 | 41% | L2 | Also auto-fix Nit-level comments |
@@ -461,6 +488,9 @@
 | [commit](commit/) | yida29 | ★ 0 | 41% | L3 | diff分析 → 論理的に分割コミット。conventional commitメッセージを自動生成。 |
 | [git-workflow](git-workflow/) | zeroshotstudio | ★ 0 | 41% | L3 | Git operations with branch/PR standards enforcement |
 | [Proactive Orchestrator](proactive-orchestrator/) | SixtySecondsApp | ★ 0 | 41% | L3 | Any errors encountered during execution |
+| [cli-duo](cli-duo/) | MaxCarlson | ★ 0 | 41% | L3 | Coordinate two AI CLIs on the same repo without conflicts (subordinate worktrees… |
+| [1password](1password/) | jscraik | ★ 0 | 41% | L3 | Plan, validate, and use 1Password CLI setup for secret injection and |
+| [seq-wrangler](seq-wrangler/) | ClawBio | ★ 0 | 41% | L2 | Sequence QC, alignment, and BAM processing. Wraps FastQC, BWA/Bowtie2, SAMtools … |
 | [attention-please](attention-please/) | majiayu000 | ★ 0 | 38% | L3 | Play an alert sound and speak "Project NAME needs your attention." Always use at… |
 | [upstash/workflow TypeScript SDK Skill](upstash-workflow-typescript-sdk-skill/) | upstash | ★ 0 | 38% | L3 | Lightweight guidance for using the Upstash Workflow SDK to define, trigger, and … |
 | [wash](wash/) | cosmonic-labs | ★ 0 | 38% | L3 | Expert in wasmCloud Shell (wash) CLI tool for building, running, and managing We… |
@@ -474,16 +504,22 @@
 | [qcc-git](qcc-git/) | yxhpy | ★ 0 | 38% | L3 | Use for Git workflow, branch strategy, and commit conventions in qcc_plus projec… |
 | [sumo-core](sumo-core/) | XRDS76354 | ★ 0 | 38% | L3 | Core SUMO simulation workflows and CLI usage: build/import networks (netgenerate… |
 | [commit](commit/) | majiayu000 | ★ 0 | 38% | L3 | Commit changes following project quality gates and best practices. Run before cr… |
+| [upstash/search TypeScript SDK](upstash-search-typescript-sdk/) | upstash | ★ 0 | 38% | L2 | Entry point for documentation skills covering Upstash Search quick starts, core … |
+| [remove-skill](remove-skill/) | lagz0ne | ★ 0 | 38% | L3 | Name of the skill to remove |
 | [resend-cli](resend-cli/) | Shubhdeep12 | ★ 0 | 37% | L3 | Resend API key. Get one at https://resend.com/api-keys |
+| [typescript-pro](typescript-pro/) | Dokhacgiakhoa | ★ 0 | 37% | L3 | Master TypeScript with advanced types, generics, and strict type |
 | [work-issue](work-issue/) | s-hirano-ist | ★ 0 | 36% | L2 | issues/ディレクトリのタスクを1つ実装し、ブランチ作成・コミット・PR作成を行なうワークフロー |
 | [skill-name](skill-name/) | myDevicesIoT | ★ 0 | 35% | L3 | A clear description of what this skill does and when to use it. Include specific… |
 | [db-bahn](db-bahn/) | majiayu000 | ★ 0 | 34% | L3 | Query Deutsche Bahn train connections and prices. |
 | [simple-pr](simple-pr/) | majiayu000 | ★ 0 | 34% | L2 | Create a simple PR from staged changes with an auto-generated commit message |
 | [workflow-conductor](workflow-conductor/) | majiayu000 | ★ 0 | 34% | L2 | Workflow orchestration and automation engine |
+| [template-skill](template-skill/) | kks0488 | ★ 0 | 34% | L2 | Replace with description of the skill and when Claude should use it. |
 | [version-control-rule](version-control-rule/) | majiayu000 | ★ 0 | 33% | L3 | Applies to git related files, specifies to always use git for version control. |
+| [Cline](cline/) | hivellm | ★ 0 | 31% | L2 | Tool: VS Code extension with autonomous mode |
 | [genaiscript](genaiscript/) | pingqLIN | ★ 0 | 30% | L2 | AI-powered script generation guidelines Triggers on: **/*.genai.* |
 | [script-executor](script-executor/) | majiayu000 | ★ 0 | 28% | L3 | Executes shell scripts in a safe environment. |
 | [use-gunshi-cli](use-gunshi-cli/) | izumin5210 | ★ 0 | 28% | L2 | Use the Gunshi library to create command-line interfaces in JavaScript/TypeScrip… |
+| [license-header-adder](license-header-adder/) | majiayu000 | ★ 0 | 28% | L3 | 為新建立的原始碼檔案加上標準的開源授權條款標頭。適用於需要版權聲明的程式碼檔案建立情境。 |
 | [skill-launcher](skill-launcher/) | majiayu000 | ★ 0 | 26% | L2 | Search and select a Claude Code skill in the terminal, then copy /skill to clipb… |
 | [vcf](vcf/) | majiayu000 | ★ 0 | 26% | L2 | Short alias for vc-phase-loop. Use when the user invokes "vcf:" or "use vcf:" an… |
 | [typescript](typescript/) | GoldenPanda1104 | ★ 0 | 24% | L2 | TypeScript. Proyecto usa este skill; contenido canónico en .ai-system. |

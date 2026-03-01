@@ -1,6 +1,6 @@
 # 📂 devops
 
-> 1,235 skills in this category
+> 1,252 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -490,6 +490,10 @@
 | [terraform-specialist](terraform-specialist/) | herdiansah | ★ 0 | 48% | L2 | Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state ma… |
 | [docker-expert](docker-expert/) | majiayu000 | ★ 0 | 48% | L3 | Expert-level Docker containerization, image optimization, and container orchestr… |
 | [DevOps & Deployment](devops-deployment/) | majiayu000 | ★ 0 | 48% | L3 | CI/CD pipelines, containerization, Kubernetes, and infrastructure as code patter… |
+| [mfe-waves](mfe-waves/) | Tibsfox | ★ 0 | 48% | L2 | Periodic phenomena and frequency analysis. How repetition creates structure — fr… |
+| [k8s-cilium](k8s-cilium/) | rohitg00 | ★ 0 | 48% | L3 | Cilium and Hubble network observability for Kubernetes. Use when managing networ… |
+| [aws-ecs-monitor](aws-ecs-monitor/) | openclaw | ★ 0 | 48% | L3 | AWS ECS production health monitoring with CloudWatch log analysis — monitors ECS… |
+| [clawgym](clawgym/) | openclaw | ★ 0 | 48% | L2 | Gym for your bot's brain. Simulates endorphin and flow states — triggers on exer… |
 | [debugging-dags](debugging-dags/) | astronomer | ★ 0 | 45% | L3 | Comprehensive DAG failure diagnosis and root cause analysis. Use for complex deb… |
 | [scale](scale/) | majiayu000 | ★ 0 | 45% | L3 | Recommend sharding, caching strategies, and read-replication patterns for Cloudf… |
 | [link-deps](link-deps/) | majiayu000 | ★ 0 | 45% | L3 | Discover and link related issues as dependencies. Searches for issues that shoul… |
@@ -1075,6 +1079,14 @@
 | [kubernetes-orchestration](kubernetes-orchestration/) | majiayu000 | ★ 0 | 45% | L3 | Kubernetes container orchestration. Use when deploying to Kubernetes, writing ma… |
 | [deployment-and-ops](deployment-and-ops/) | majiayu000 | ★ 0 | 45% | L3 | Deploy and operate the vehicle insurance data analysis platform. Use when user a… |
 | [denylist-stuck-messages](denylist-stuck-messages/) | majiayu000 | ★ 0 | 45% | L3 | Add message IDs to the relayer denylist. Use after investigating stuck messages … |
+| [awesome-copilot-root-arm-migration](awesome-copilot-root-arm-migration/) | sla-te | ★ 0 | 45% | L2 | Arm Cloud Migration Assistant accelerates moving x86 workloads to Arm infrastruc… |
+| [twitter-intel](twitter-intel/) | BlockRunAI | ★ 0 | 45% | L3 | Real-time X/Twitter intelligence - analyze accounts, track topics, and monitor k… |
+| [loki-mode](loki-mode/) | majiayu000 | ★ 0 | 45% | L3 | Multi-agent autonomous startup system for Claude Code. Triggers on "Loki Mode". … |
+| [tencent-cloud-pptx](tencent-cloud-pptx/) | majiayu000 | ★ 0 | 45% | L3 | Create professional Tencent Cloud themed presentations from markdown content. Us… |
+| [tencent-cloud-pptx](tencent-cloud-pptx/) | jasonwang82 | ★ 0 | 45% | L3 | Create professional Tencent Cloud themed presentations from markdown content. Us… |
+| [gitops-practitioner](gitops-practitioner/) | filipemotta | ★ 0 | 45% | L3 | GitOps workflows, Flux, ArgoCD, and declarative infrastructure. Activates when i… |
+| [monitor](monitor/) | sofer | ★ 0 | 45% | L2 | Observe application health and gather feedback after deployment. Use to validate… |
+| [volcano](volcano/) | tylertitsworth | ★ 0 | 45% | L3 | Volcano batch scheduling for Kubernetes — gang scheduling, VolcanoJobs, queue ma… |
 | [cloud-devops-expert](cloud-devops-expert/) | majiayu000 | ★ 0 | 44% | L3 | Cloud and DevOps expert including AWS, GCP, Azure, and Terraform |
 | [cloud-devops-expert](cloud-devops-expert/) | NeverSight | ★ 0 | 44% | L3 | Cloud and DevOps expert including AWS, GCP, Azure, and Terraform |
 | [cloud-devops-expert](cloud-devops-expert/) | majiayu000 | ★ 0 | 44% | L3 | Cloud and DevOps expert including AWS, GCP, Azure, and Terraform |
@@ -1181,6 +1193,9 @@
 | [cloud-architect](cloud-architect/) | aiskillstore | ★ 0 | 41% | L3 | Expert cloud architect specializing in AWS/Azure/GCP multi-cloud |
 | [deploy-config](deploy-config/) | 686f6c61 | ★ 0 | 41% | L2 | Usar para configurar despliegue según hosting |
 | [deployment-engineer](deployment-engineer/) | rootcastleco | ★ 0 | 41% | L2 | Expert deployment engineer specializing in modern CI/CD pipelines, |
+| [heir-sync-management](heir-sync-management/) | fabioc-aloha | ★ 0 | 41% | L3 | Master-Heir synchronization, contamination prevention, and promotion workflows |
+| [cdd](cdd/) | majiayu000 | ★ 0 | 41% | L3 | Context Driven Development pipeline for release workflows |
+| [ci-preflight](ci-preflight/) | matteing | ★ 0 | 40% | L3 | Runs the full CI check suite locally before pushing. Use this skill before pushi… |
 | [Cost Analysis](cost-analysis/) | cdalsoniii | ★ 0 | 39% | L2 | Analyze infrastructure and operational costs with optimization recommendations |
 | [Feature Flag Strategy](feature-flag-strategy/) | cdalsoniii | ★ 0 | 39% | L2 | Design and manage feature flag lifecycles for safe, gradual rollouts |
 | [commit](commit/) | jorgeavaldez | ★ 0 | 38% | L2 | Reviews working copy changes and drafts a concise 1-line commit message. Use whe… |
@@ -1214,6 +1229,7 @@
 | [claude-code-cicd](claude-code-cicd/) | omer-metin | ★ 0 | 38% | L2 | Expert in integrating Claude Code with CI/CD pipelines. Covers headless mode for… |
 | [devops](devops/) | haliskoc | ★ 0 | 38% | L2 | DevOps skills: environment config, Kubernetes, CI/CD pipelines, containerization… |
 | [k8s-simple-deploy](k8s-simple-deploy/) | majiayu000 | ★ 0 | 38% | L2 | Assists with deploying simple apps to Kubernetes consisting of a deployment and … |
+| [beat](beat/) | majiayu000 | ★ 0 | 38% | L3 | 16ステップビートを生成 (JSON + ASCII grid + MIDI + WAV)。スタイルプロンプトからビートを作成。トリガー: /beat, ビート… |
 | [rho-cloud](rho-cloud/) | mikeyobrien | ★ 0 | 37% | L3 | Rho Cloud onboarding and agent email setup. |
 | [azure-networking](azure-networking/) | alphaonedev | ★ 0 | 34% | L3 | Configure Azure VNet, NSG, Load Balancer, and network topology. |
 | [devops-specialist](devops-specialist/) | huangwb8 | ★ 0 | 34% | L2 | DevOps 与运维专家。精通 CI/CD、容器化、编排、基础设施即代码、监控告警和自动化部署。用于构建高效、可靠的软件交付流水线和运维系统。 |
@@ -1228,6 +1244,7 @@
 | [docker](docker/) | kprsnt2 | ★ 0 | 34% | L2 | Docker and containerization best practices including multi-stage builds, securit… |
 | [openshift](openshift/) | G1Joshi | ★ 0 | 34% | L3 | OpenShift enterprise Kubernetes platform. Use for enterprise K8s. |
 | [keycloak](keycloak/) | G1Joshi | ★ 0 | 34% | L3 | Keycloak identity and access management. Use for SSO. |
+| [synchronization](synchronization/) | plurigrid | ★ 0 | 34% | L2 | Convergence to common trajectory in coupled systems |
 | [workflow-builder](workflow-builder/) | ShunsukeHayashi | ★ 0 | 32% | L2 | Design automation workflows and pipelines. Use when creating CI/CD, task automat… |
 | [update-notes](update-notes/) | andrewimm | ★ 0 | 32% | L2 | Condense learnings from this session, so that they can be used to make better de… |
 | [orama-integration](orama-integration/) | majiayu000 | ★ 0 | 32% | L2 | Use when integrating with Orama. Links to official docs for search, indexing, an… |

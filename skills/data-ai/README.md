@@ -1,6 +1,6 @@
 # 📂 data-ai
 
-> 2,023 skills in this category
+> 2,031 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -875,6 +875,8 @@
 | [mongodb-expert](mongodb-expert/) | majiayu000 | ★ 0 | 48% | L3 | Expert-level MongoDB database design, aggregation pipelines, indexing, replicati… |
 | [moai-lang-python](moai-lang-python/) | hnabyz-bot | ★ 0 | 48% | L3 | Python 3.13+ development specialist covering FastAPI, Django, async patterns, da… |
 | [business-intelligence](business-intelligence/) | borghei | ★ 0 | 48% | L3 | Expert business intelligence covering dashboard design, data visualization, repo… |
+| [esios](esios/) | datons | ★ 0 | 48% | L3 | Query Spanish electricity market data (ESIOS/REE). Use when the user asks about … |
+| [json-visualization-dev](json-visualization-dev/) | HoangDuonng | ★ 0 | 48% | L3 | Develop and maintain the JSON Visualization web application - a Next.js tool for… |
 | [rust-unsafe](rust-unsafe/) | majiayu000 | ★ 0 | 47% | L3 | 不安全代码与 FFI 专家。处理 unsafe, raw pointer, FFI, extern, transmute, *mut, *const, unio… |
 | [rust-unsafe](rust-unsafe/) | majiayu000 | ★ 0 | 47% | L3 | 不安全代码与 FFI 专家。处理 unsafe, raw pointer, FFI, extern, transmute, *mut, *const, unio… |
 | [rust-unsafe](rust-unsafe/) | NeverSight | ★ 0 | 47% | L3 | 不安全代码与 FFI 专家。处理 unsafe, raw pointer, FFI, extern, transmute, *mut, *const, unio… |
@@ -1744,6 +1746,9 @@
 | [omero-integration](omero-integration/) | jmead | ★ 0 | 45% | L3 | Microscopy data management platform. Access images via Python, retrieve datasets… |
 | [eda](eda/) | argythana | ★ 0 | 45% | L2 | Exploratory Data Analysis for tabular data. Use when analyzing column distributi… |
 | [Xlsx](xlsx/) | danielmiessler | ★ 0 | 45% | L3 | Create, read, analyze Excel workbooks — formulas, financial models, data analysi… |
+| [stata-mcp](stata-mcp/) | tmonk | ★ 0 | 45% | L2 | Run or debug Stata workflows through the local io.github.tmonk/mcp-stata server.… |
+| [swot-pestle-analysis](swot-pestle-analysis/) | melodic-software | ★ 0 | 45% | L2 | Strategic environmental analysis using SWOT, PESTLE, and Porter's Five Forces. C… |
+| [flowio-flow-cytometry](flowio-flow-cytometry/) | jaechang-hits | ★ 0 | 45% | L3 | Parse and create FCS (Flow Cytometry Standard) files v2.0-3.1. Read event data a… |
 | [pinchboard](pinchboard/) | kiankyars | ★ 0 | 44% | L3 | Twitter for AI agents. Pinch, repinch, claw, and build your following. |
 | [contract-review-pro](contract-review-pro/) | CSlawyer1985 | ★ 0 | 44% | L3 | 专业合同审核 Skill，基于《合同审核方法论体系》提供合同类型指引和详细审核服务 |
 | [contract-review-pro](contract-review-pro/) | NeverSight | ★ 0 | 44% | L3 | 专业合同审核 Skill，基于《合同审核方法论体系》提供合同类型指引和详细审核服务 |
@@ -1889,6 +1894,8 @@
 | [Prompt Engineering Skill](prompt-engineering-skill/) | fabioc-aloha | ★ 0 | 41% | L3 | Craft effective prompts that get the best results from language models. |
 | [clawk](clawk/) | btwiuse | ★ 0 | 41% | L3 | Post, reply, like, and engage on Clawk — Twitter for AI agents. |
 | [fenxi-skills](fenxi-skills/) | orGancode | ★ 0 | 41% | L2 | 分析指定skills的工作流程，通过中文图文结合方式让使用者了解目标skills的工作方式 |
+| [notebook-writer](notebook-writer/) | majiayu000 | ★ 0 | 41% | L3 | Create and document Jupyter notebooks for reproducible analyses |
+| [Skill Template Example](skill-template-example/) | AFI-Protocol | ★ 0 | 41% | L3 | Additional metadata about the execution |
 | [directory-naming-convention](directory-naming-convention/) | majiayu000 | ★ 0 | 39% | L3 | Defines the directory naming convention. |
 | [asynchronous-programming-preference](asynchronous-programming-preference/) | oimiragieo | ★ 0 | 39% | L3 | Favors the use of async and await for asynchronous programming in Python. |
 | [directory-naming-convention](directory-naming-convention/) | NeverSight | ★ 0 | 39% | L3 | Defines the directory naming convention. |
@@ -1958,6 +1965,7 @@
 | [beautiful-mermaid](beautiful-mermaid/) | Bob2622 | ★ 0 | 38% | L3 | Render Mermaid diagrams as pure ASCII text (default) or themed SVGs using the be… |
 | [mock-data](mock-data/) | majiayu000 | ★ 0 | 38% | L3 | Creates typed mock data files in src/data/ following project conventions. Use wh… |
 | [data-triage](data-triage/) | AstorYH | ★ 0 | 38% | L3 | Triage and summarize local data files (CSV/TSV/JSON/JSONL) and plain-text logs w… |
+| [dbt](dbt/) | majiayu000 | ★ 0 | 38% | L2 | dbt (data build tool) patterns for data transformation and analytics engineering… |
 | [data](data/) | pluginagentmarketplace | ★ 0 | 37% | L3 | Room ORM, SQLite, SharedPreferences, DataStore, encryption. |
 | [data](data/) | NeverSight | ★ 0 | 37% | L2 | Room ORM, SQLite, SharedPreferences, DataStore, encryption. |
 | [poml-guide](poml-guide/) | UtakataKyosui | ★ 0 | 36% | L3 | Microsoft POML（Prompt Orchestration Markup Language）の構文、タグリファレンス、 |

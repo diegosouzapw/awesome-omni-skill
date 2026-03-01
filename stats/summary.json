@@ -1,21 +1,21 @@
 {
-  "total_skills": 16459,
+  "total_skills": 16726,
   "categories": {
-    "development": 5876,
-    "tools": 2335,
-    "data-ai": 2023,
-    "devops": 1235,
-    "backend": 841,
-    "testing-security": 799,
-    "ai-agents": 639,
-    "design": 638,
-    "cli-automation": 485,
-    "documentation": 341,
-    "frontend": 326,
-    "product": 278,
-    "business": 233,
-    "content-media": 190,
-    "fullstack-web": 108,
+    "development": 5919,
+    "tools": 2348,
+    "data-ai": 2031,
+    "devops": 1252,
+    "backend": 875,
+    "testing-security": 806,
+    "ai-agents": 694,
+    "design": 649,
+    "cli-automation": 521,
+    "documentation": 352,
+    "frontend": 339,
+    "product": 284,
+    "business": 236,
+    "content-media": 196,
+    "fullstack-web": 112,
     "machine-learning": 60,
     "communication": 49,
     "uncategorized": 3
@@ -63,12 +63,12 @@
     },
     {
       "repo": "majiayu000/claude-skill-registry",
-      "count": 2964,
+      "count": 3002,
       "stars": 0
     },
     {
       "repo": "majiayu000/claude-skill-registry-data",
-      "count": 3147,
+      "count": 3158,
       "stars": 0
     },
     {
@@ -78,7 +78,7 @@
     },
     {
       "repo": "oimiragieo/agent-studio",
-      "count": 68,
+      "count": 71,
       "stars": 0
     },
     {
@@ -122,6 +122,6 @@
       "stars": 0
     }
   ],
-  "last_sync_at": "2026-02-28T18:11:49.415Z",
+  "last_sync_at": "2026-03-01T00:35:05.869Z",
   "sync_mode": "incremental"
 }

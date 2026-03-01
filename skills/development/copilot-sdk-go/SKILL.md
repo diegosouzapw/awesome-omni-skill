@@ -1,627 +1,558 @@
 ---
-
 name: copilot-sdk-go
-description: This file provides guidance on building Go applications using GitHub Copilot SDK. Triggers on: **.go, go.mod
-triggers: "**.go, go.mod"
-globs: "**.go, go.mod"
+description: Expert guidance for using the GitHub Copilot CLI SDK with Go, including API reference, best practices, and common usage patterns.
 ---
-## Core Principles
 
-- The SDK is in technical preview and may have breaking changes
-- Requires Go 1.21 or later
-- Requires GitHub Copilot CLI installed and in PATH
-- Uses goroutines and channels for concurrent operations
-- No external dependencies beyond the standard library
+# GitHub Copilot SDK for Go - Skill Guide
+
+This skill provides comprehensive guidance for using the GitHub Copilot CLI SDK with Go programming language.
+
+## Reference Documentation Locations
+
+When working with the Copilot SDK for Go, always refer to these documentation sources:
+
+### Core SDK Documentation
+- **Main README**: [./reference/go/README.md](./reference/go/README.md) - Complete API reference, installation, and quick start
+- **Type Definitions**: [./reference/go/types.go](./reference/go/types.go) - All type definitions and interfaces
+- **Client Implementation**: [./reference/go/client.go](./reference/go/client.go) - Client implementation details
+- **Session Management**: [./reference/go/session.go](./reference/go/session.go) - Session handling code
+
+### Cookbook & Examples
+- **Cookbook Index**: [./reference/cookbook/README.md](./reference/cookbook/README.md) - Overview of all cookbooks
+- **Go Cookbook**: [./reference/cookbook/go/README.md](./reference/cookbook/go/README.md) - Go-specific recipes index
+
+#### Go Recipes (with runnable examples)
+- **Error Handling**: [./reference/cookbook/go/error-handling.md](./reference/cookbook/go/error-handling.md)
+  - Example code: [./reference/cookbook/go/recipe/error-handling.go](./reference/cookbook/go/recipe/error-handling.go)
+- **Multiple Sessions**: [./reference/cookbook/go/multiple-sessions.md](./reference/cookbook/go/multiple-sessions.md)
+  - Example code: [./reference/cookbook/go/recipe/multiple-sessions.go](./reference/cookbook/go/recipe/multiple-sessions.go)
+- **Managing Local Files**: [./reference/cookbook/go/managing-local-files.md](./reference/cookbook/go/managing-local-files.md)
+  - Example code: [./reference/cookbook/go/recipe/managing-local-files.go](./reference/cookbook/go/recipe/managing-local-files.go)
+- **PR Visualization**: [./reference/cookbook/go/pr-visualization.md](./reference/cookbook/go/pr-visualization.md)
+  - Example code: [./reference/cookbook/go/recipe/pr-visualization.go](./reference/cookbook/go/recipe/pr-visualization.go)
+- **Persisting Sessions**: [./reference/cookbook/go/persisting-sessions.md](./reference/cookbook/go/persisting-sessions.md)
+  - Example code: [./reference/cookbook/go/recipe/persisting-sessions.go](./reference/cookbook/go/recipe/persisting-sessions.go)
+
+### Test Examples
+- **E2E Tests**: [./reference/go/e2e/](./reference/go/e2e/) - Comprehensive end-to-end test examples
 
 ## Installation
-
-Always install via Go modules:
 
 ```bash
 go get github.com/github/copilot-sdk/go
 ```
 
-## Client Initialization
+## Core Concepts
 
-### Basic Client Setup
+### 1. Client Creation and Lifecycle
 
 ```go
-import "github.com/github/copilot-sdk/go"
+import copilot "github.com/github/copilot-sdk/go"
 
+// Create client with default options
 client := copilot.NewClient(nil)
+
+// Or with custom options
+client := copilot.NewClient(&copilot.ClientOptions{
+    LogLevel:    "error",
+    UseStdio:    true,
+    AutoStart:   copilot.Bool(true),
+    AutoRestart: copilot.Bool(true),
+})
+
+// Always start the client
 if err := client.Start(); err != nil {
     log.Fatal(err)
 }
 defer client.Stop()
 ```
 
-### Client Configuration Options
+**Client Options:**
+- `CLIPath`: Path to CLI executable (default: "copilot")
+- `CLIUrl`: Connect to existing server (format: "localhost:8080" or just "8080")
+- `UseStdio`: Use stdio transport (default: true)
+- `Port`: Server port for TCP mode
+- `LogLevel`: Log level (default: "info")
+- `AutoStart`: Auto-start server (default: true, use `Bool(false)` to disable)
+- `AutoRestart`: Auto-restart on crash (default: true)
+- `GithubToken`: GitHub token for auth
+- `UseLoggedInUser`: Use logged-in user auth (default: true)
 
-When creating a CopilotClient, use `ClientOptions`:
-
-- `CLIPath` - Path to CLI executable (default: "copilot" from PATH)
-- `CLIUrl` - URL of existing CLI server (e.g., "localhost:8080"). When provided, client won't spawn a process
-- `Port` - Server port (default: 0 for random)
-- `UseStdio` - Use stdio transport instead of TCP (default: true)
-- `LogLevel` - Log level (default: "info")
-- `AutoStart` - Auto-start server (default: true, use pointer: `boolPtr(true)`)
-- `AutoRestart` - Auto-restart on crash (default: true, use pointer: `boolPtr(true)`)
-- `Cwd` - Working directory for the CLI process
-- `Env` - Environment variables for the CLI process ([]string)
-
-### Manual Server Control
-
-For explicit control:
+### 2. Session Management
 
 ```go
-autoStart := false
-client := copilot.NewClient(&copilot.ClientOptions{AutoStart: &autoStart})
-if err := client.Start(); err != nil {
-    log.Fatal(err)
-}
-// Use client...
-client.Stop()
-```
-
-Use `ForceStop()` when `Stop()` takes too long.
-
-## Session Management
-
-### Creating Sessions
-
-Use `SessionConfig` for configuration:
-
-```go
+// Create a new session
 session, err := client.CreateSession(&copilot.SessionConfig{
-    Model: "gpt-5",
-    Streaming: true,
-    Tools: []copilot.Tool{...},
-    SystemMessage: &copilot.SystemMessageConfig{ ... },
-    AvailableTools: []string{"tool1", "tool2"},
-    ExcludedTools: []string{"tool3"},
-    Provider: &copilot.ProviderConfig{ ... },
+    Model: "gpt-5",  // Required when using custom provider
+    SessionID: "my-custom-id",  // Optional custom ID
+    Streaming: true,  // Enable streaming responses
 })
-if err != nil {
-    log.Fatal(err)
-}
-```
-
-### Session Config Options
-
-- `SessionID` - Custom session ID
-- `Model` - Model name ("gpt-5", "claude-sonnet-4.5", etc.)
-- `Tools` - Custom tools exposed to the CLI ([]Tool)
-- `SystemMessage` - System message customization (\*SystemMessageConfig)
-- `AvailableTools` - Allowlist of tool names ([]string)
-- `ExcludedTools` - Blocklist of tool names ([]string)
-- `Provider` - Custom API provider configuration (BYOK) (\*ProviderConfig)
-- `Streaming` - Enable streaming response chunks (bool)
-- `MCPServers` - MCP server configurations
-- `CustomAgents` - Custom agent configurations
-- `ConfigDir` - Config directory override
-- `SkillDirectories` - Skill directories ([]string)
-- `DisabledSkills` - Disabled skills ([]string)
-
-### Resuming Sessions
-
-```go
-session, err := client.ResumeSession("session-id")
-// Or with options:
-session, err := client.ResumeSessionWithOptions("session-id", &copilot.ResumeSessionConfig{ ... })
-```
-
-### Session Operations
-
-- `session.SessionID` - Get session identifier (string)
-- `session.Send(copilot.MessageOptions{Prompt: "...", Attachments: []copilot.Attachment{...}})` - Send message, returns (messageID string, error)
-- `session.SendAndWait(options, timeout)` - Send and wait for idle, returns (\*SessionEvent, error)
-- `session.Abort()` - Abort current processing, returns error
-- `session.GetMessages()` - Get all events/messages, returns ([]SessionEvent, error)
-- `session.Destroy()` - Clean up session, returns error
-
-## Event Handling
-
-### Event Subscription Pattern
-
-ALWAYS use channels or done signals for waiting on session events:
-
-```go
-done := make(chan struct{})
-
-unsubscribe := session.On(func(evt copilot.SessionEvent) {
-    switch evt.Type {
-    case copilot.AssistantMessage:
-        fmt.Println(*evt.Data.Content)
-    case copilot.SessionIdle:
-        close(done)
-    }
-})
-defer unsubscribe()
-
-session.Send(copilot.MessageOptions{Prompt: "..."})
-<-done
-```
-
-### Unsubscribing from Events
-
-The `On()` method returns a function that unsubscribes:
-
-```go
-unsubscribe := session.On(func(evt copilot.SessionEvent) {
-    // handler
-})
-// Later...
-unsubscribe()
-```
-
-### Event Types
-
-Use type switches for event handling:
-
-```go
-session.On(func(evt copilot.SessionEvent) {
-    switch evt.Type {
-    case copilot.UserMessage:
-        // Handle user message
-    case copilot.AssistantMessage:
-        if evt.Data.Content != nil {
-            fmt.Println(*evt.Data.Content)
-        }
-    case copilot.ToolExecutionStart:
-        // Tool execution started
-    case copilot.ToolExecutionComplete:
-        // Tool execution completed
-    case copilot.SessionStart:
-        // Session started
-    case copilot.SessionIdle:
-        // Session is idle (processing complete)
-    case copilot.SessionError:
-        if evt.Data.Message != nil {
-            fmt.Println("Error:", *evt.Data.Message)
-        }
-    }
-})
-```
-
-## Streaming Responses
-
-### Enabling Streaming
-
-Set `Streaming: true` in SessionConfig:
-
-```go
-session, err := client.CreateSession(&copilot.SessionConfig{
-    Model: "gpt-5",
-    Streaming: true,
-})
-```
-
-### Handling Streaming Events
-
-Handle both delta events (incremental) and final events:
-
-```go
-done := make(chan struct{})
-
-session.On(func(evt copilot.SessionEvent) {
-    switch evt.Type {
-    case copilot.AssistantMessageDelta:
-        // Incremental text chunk
-        if evt.Data.DeltaContent != nil {
-            fmt.Print(*evt.Data.DeltaContent)
-        }
-    case copilot.AssistantReasoningDelta:
-        // Incremental reasoning chunk (model-dependent)
-        if evt.Data.DeltaContent != nil {
-            fmt.Print(*evt.Data.DeltaContent)
-        }
-    case copilot.AssistantMessage:
-        // Final complete message
-        fmt.Println("\n--- Final ---")
-        if evt.Data.Content != nil {
-            fmt.Println(*evt.Data.Content)
-        }
-    case copilot.AssistantReasoning:
-        // Final reasoning content
-        fmt.Println("--- Reasoning ---")
-        if evt.Data.Content != nil {
-            fmt.Println(*evt.Data.Content)
-        }
-    case copilot.SessionIdle:
-        close(done)
-    }
-})
-
-session.Send(copilot.MessageOptions{Prompt: "Tell me a story"})
-<-done
-```
-
-Note: Final events (`AssistantMessage`, `AssistantReasoning`) are ALWAYS sent regardless of streaming setting.
-
-## Custom Tools
-
-### Defining Tools
-
-```go
-session, err := client.CreateSession(&copilot.SessionConfig{
-    Model: "gpt-5",
-    Tools: []copilot.Tool{
-        {
-            Name:        "lookup_issue",
-            Description: "Fetch issue details from tracker",
-            Parameters: map[string]interface{}{
-                "type": "object",
-                "properties": map[string]interface{}{
-                    "id": map[string]interface{}{
-                        "type":        "string",
-                        "description": "Issue ID",
-                    },
-                },
-                "required": []string{"id"},
-            },
-            Handler: func(inv copilot.ToolInvocation) (copilot.ToolResult, error) {
-                args := inv.Arguments.(map[string]interface{})
-                issueID := args["id"].(string)
-
-                issue, err := fetchIssue(issueID)
-                if err != nil {
-                    return copilot.ToolResult{}, err
-                }
-
-                return copilot.ToolResult{
-                    TextResultForLLM: fmt.Sprintf("Issue: %v", issue),
-                    ResultType:       "success",
-                    ToolTelemetry:    map[string]interface{}{},
-                }, nil
-            },
-        },
-    },
-})
-```
-
-### Tool Return Types
-
-- Return `ToolResult` struct with fields:
-  - `TextResultForLLM` (string) - Result text for the LLM
-  - `ResultType` (string) - "success" or "failure"
-  - `Error` (string, optional) - Internal error message (not shown to LLM)
-  - `ToolTelemetry` (map[string]interface{}) - Telemetry data
-
-### Tool Execution Flow
-
-When Copilot invokes a tool, the client automatically:
-
-1. Runs your handler function
-2. Returns the ToolResult
-3. Responds to the CLI
-
-## System Message Customization
-
-### Append Mode (Default - Preserves Guardrails)
-
-```go
-session, err := client.CreateSession(&copilot.SessionConfig{
-    Model: "gpt-5",
-    SystemMessage: &copilot.SystemMessageConfig{
-        Mode: "append",
-        Content: `
-<workflow_rules>
-- Always check for security vulnerabilities
-- Suggest performance improvements when applicable
-</workflow_rules>
-`,
-    },
-})
-```
-
-### Replace Mode (Full Control - Removes Guardrails)
-
-```go
-session, err := client.CreateSession(&copilot.SessionConfig{
-    Model: "gpt-5",
-    SystemMessage: &copilot.SystemMessageConfig{
-        Mode:    "replace",
-        Content: "You are a helpful assistant.",
-    },
-})
-```
-
-## File Attachments
-
-Attach files to messages using `Attachment`:
-
-```go
-messageID, err := session.Send(copilot.MessageOptions{
-    Prompt: "Analyze this file",
-    Attachments: []copilot.Attachment{
-        {
-            Type:        "file",
-            Path:        "/path/to/file.go",
-            DisplayName: "My File",
-        },
-    },
-})
-```
-
-## Message Delivery Modes
-
-Use the `Mode` field in `MessageOptions`:
-
-- `"enqueue"` - Queue message for processing
-- `"immediate"` - Process message immediately
-
-```go
-session.Send(copilot.MessageOptions{
-    Prompt: "...",
-    Mode:   "enqueue",
-})
-```
-
-## Multiple Sessions
-
-Sessions are independent and can run concurrently:
-
-```go
-session1, _ := client.CreateSession(&copilot.SessionConfig{Model: "gpt-5"})
-session2, _ := client.CreateSession(&copilot.SessionConfig{Model: "claude-sonnet-4.5"})
-
-session1.Send(copilot.MessageOptions{Prompt: "Hello from session 1"})
-session2.Send(copilot.MessageOptions{Prompt: "Hello from session 2"})
-```
-
-## Bring Your Own Key (BYOK)
-
-Use custom API providers via `ProviderConfig`:
-
-```go
-session, err := client.CreateSession(&copilot.SessionConfig{
-    Provider: &copilot.ProviderConfig{
-        Type:    "openai",
-        BaseURL: "https://api.openai.com/v1",
-        APIKey:  "your-api-key",
-    },
-})
-```
-
-## Session Lifecycle Management
-
-### Checking Connection State
-
-```go
-state := client.GetState()
-// Returns: "disconnected", "connecting", "connected", or "error"
-```
-
-## Error Handling
-
-### Standard Exception Handling
-
-```go
-session, err := client.CreateSession(&copilot.SessionConfig{})
-if err != nil {
-    log.Fatalf("Failed to create session: %v", err)
-}
-
-_, err = session.Send(copilot.MessageOptions{Prompt: "Hello"})
-if err != nil {
-    log.Printf("Failed to send: %v", err)
-}
-```
-
-### Session Error Events
-
-Monitor `SessionError` type for runtime errors:
-
-```go
-session.On(func(evt copilot.SessionEvent) {
-    if evt.Type == copilot.SessionError {
-        if evt.Data.Message != nil {
-            fmt.Fprintf(os.Stderr, "Session Error: %s\n", *evt.Data.Message)
-        }
-    }
-})
-```
-
-## Connectivity Testing
-
-Use Ping to verify server connectivity:
-
-```go
-resp, err := client.Ping("test message")
-if err != nil {
-    log.Printf("Server unreachable: %v", err)
-} else {
-    log.Printf("Server responded at %d", resp.Timestamp)
-}
-```
-
-## Resource Cleanup
-
-### Cleanup with Defer
-
-ALWAYS use `defer` for cleanup:
-
-```go
-client := copilot.NewClient(nil)
-if err := client.Start(); err != nil {
-    log.Fatal(err)
-}
-defer client.Stop()
-
-session, err := client.CreateSession(nil)
 if err != nil {
     log.Fatal(err)
 }
 defer session.Destroy()
+
+// Resume an existing session
+session, err := client.ResumeSession("session-id")
+
+// List all sessions
+sessions, err := client.ListSessions()
+
+// Delete a session
+err := client.DeleteSession("session-id")
 ```
 
-### Manual Cleanup
+**SessionConfig Options:**
+- `Model`: Model to use ("gpt-5", "claude-sonnet-4.5", etc.) - Required with custom provider
+- `SessionID`: Custom session ID
+- `Tools`: Custom tools ([]Tool)
+- `SystemMessage`: System message config
+- `Provider`: Custom API provider (BYOK)
+- `Streaming`: Enable streaming deltas
+- `InfiniteSessions`: Auto-compaction config
+- `OnUserInputRequest`: Handler for ask_user tool
+- `Hooks`: Session lifecycle hooks
+- `MCPServers`: MCP server configurations
+- `CustomAgents`: Custom agent configs
 
-If not using defer:
+### 3. Sending Messages and Handling Events
 
 ```go
-client := copilot.NewClient(nil)
-err := client.Start()
-if err != nil {
-    log.Fatal(err)
+// Set up event handler
+done := make(chan bool)
+session.On(func(event copilot.SessionEvent) {
+    switch event.Type {
+    case "assistant.message":
+        if event.Data.Content != nil {
+            fmt.Println(*event.Data.Content)
+        }
+    case "assistant.message_delta":
+        // Streaming chunk
+        if event.Data.DeltaContent != nil {
+            fmt.Print(*event.Data.DeltaContent)
+        }
+    case "session.idle":
+        close(done)
+    }
+})
+
+// Send a message
+_, err = session.Send(copilot.MessageOptions{
+    Prompt: "What is 2+2?",
+    Attachments: []copilot.Attachment{
+        {Type: "file", Path: "/path/to/file.txt"},
+    },
+})
+
+<-done  // Wait for completion
+```
+
+### 4. Custom Tools
+
+Using `DefineTool` (recommended - type-safe with auto schema):
+
+```go
+type LookupParams struct {
+    ID string `json:"id" jsonschema:"Issue identifier"`
 }
 
-session, err := client.CreateSession(nil)
-if err != nil {
-    client.Stop()
-    log.Fatal(err)
+lookupTool := copilot.DefineTool("lookup_issue",
+    "Fetch issue details",
+    func(params LookupParams, inv copilot.ToolInvocation) (any, error) {
+        // params is automatically unmarshaled
+        return fetchIssue(params.ID)
+    })
+
+session, _ := client.CreateSession(&copilot.SessionConfig{
+    Model: "gpt-5",
+    Tools: []copilot.Tool{lookupTool},
+})
+```
+
+Using Tool struct directly (more control):
+
+```go
+tool := copilot.Tool{
+    Name:        "my_tool",
+    Description: "Tool description",
+    Parameters: map[string]interface{}{
+        "type": "object",
+        "properties": map[string]interface{}{
+            "param": map[string]interface{}{
+                "type": "string",
+                "description": "Parameter description",
+            },
+        },
+        "required": []string{"param"},
+    },
+    Handler: func(inv copilot.ToolInvocation) (copilot.ToolResult, error) {
+        args := inv.Arguments.(map[string]interface{})
+        // Process args
+        return copilot.ToolResult{
+            TextResultForLLM: "result",
+            ResultType:       "success",
+        }, nil
+    },
+}
+```
+
+### 5. Custom Providers (BYOK)
+
+**Ollama (local):**
+```go
+session, err := client.CreateSession(&copilot.SessionConfig{
+    Model: "deepseek-coder-v2:16b",  // Required!
+    Provider: &copilot.ProviderConfig{
+        Type:    "openai",
+        BaseURL: "http://localhost:11434/v1",
+        // APIKey not needed for Ollama
+    },
+})
+```
+
+**Azure OpenAI:**
+```go
+session, err := client.CreateSession(&copilot.SessionConfig{
+    Model: "gpt-4",
+    Provider: &copilot.ProviderConfig{
+        Type:    "azure",  // Must be "azure", not "openai"!
+        BaseURL: "https://my-resource.openai.azure.com",
+        APIKey:  os.Getenv("AZURE_OPENAI_KEY"),
+        Azure: &copilot.AzureProviderOptions{
+            APIVersion: "2024-10-21",
+        },
+    },
+})
+```
+
+**Custom OpenAI-compatible:**
+```go
+Provider: &copilot.ProviderConfig{
+    Type:    "openai",
+    BaseURL: "https://my-api.example.com/v1",
+    APIKey:  os.Getenv("MY_API_KEY"),
+}
+```
+
+### 6. Streaming Responses
+
+```go
+session, err := client.CreateSession(&copilot.SessionConfig{
+    Model:     "gpt-5",
+    Streaming: true,  // Enable streaming
+})
+
+session.On(func(event copilot.SessionEvent) {
+    if event.Type == "assistant.message_delta" {
+        // Incremental chunks
+        if event.Data.DeltaContent != nil {
+            fmt.Print(*event.Data.DeltaContent)
+        }
+    } else if event.Type == "assistant.message" {
+        // Final complete message
+        fmt.Println("\nComplete!")
+    }
+})
+```
+
+### 7. Infinite Sessions (Auto-compaction)
+
+```go
+// Default: enabled with default thresholds
+session, _ := client.CreateSession(&copilot.SessionConfig{
+    Model: "gpt-5",
+})
+
+// Custom thresholds
+session, _ := client.CreateSession(&copilot.SessionConfig{
+    Model: "gpt-5",
+    InfiniteSessions: &copilot.InfiniteSessionConfig{
+        Enabled:                       copilot.Bool(true),
+        BackgroundCompactionThreshold: copilot.Float64(0.80),  // 80%
+        BufferExhaustionThreshold:     copilot.Float64(0.95),  // 95%
+    },
+})
+
+// Disable
+InfiniteSessions: &copilot.InfiniteSessionConfig{
+    Enabled: copilot.Bool(false),
 }
 
-// Use session...
+// Access workspace path
+fmt.Println(session.WorkspacePath())
+// => ~/.copilot/session-state/{sessionId}/
+```
 
-session.Destroy()
-errors := client.Stop()
-for _, err := range errors {
-    log.Printf("Cleanup error: %v", err)
-}
+### 8. User Input Requests (ask_user tool)
+
+```go
+session, err := client.CreateSession(&copilot.SessionConfig{
+    Model: "gpt-5",
+    OnUserInputRequest: func(req copilot.UserInputRequest, inv copilot.UserInputInvocation) (copilot.UserInputResponse, error) {
+        fmt.Printf("Question: %s\n", req.Question)
+        if len(req.Choices) > 0 {
+            fmt.Printf("Choices: %v\n", req.Choices)
+        }
+
+        // Get user input (implement your UI logic here)
+        answer := getUserInput()
+
+        return copilot.UserInputResponse{
+            Answer:      answer,
+            WasFreeform: len(req.Choices) == 0,
+        }, nil
+    },
+})
+```
+
+### 9. Session Hooks
+
+```go
+session, err := client.CreateSession(&copilot.SessionConfig{
+    Model: "gpt-5",
+    Hooks: &copilot.SessionHooks{
+        OnPreToolUse: func(input copilot.PreToolUseHookInput, inv copilot.HookInvocation) (*copilot.PreToolUseHookOutput, error) {
+            fmt.Printf("About to run: %s\n", input.ToolName)
+            return &copilot.PreToolUseHookOutput{
+                PermissionDecision: "allow",  // "allow", "deny", "ask"
+                ModifiedArgs:       input.ToolArgs,
+                AdditionalContext:  "Extra context",
+            }, nil
+        },
+        OnPostToolUse: func(input copilot.PostToolUseHookInput, inv copilot.HookInvocation) (*copilot.PostToolUseHookOutput, error) {
+            fmt.Printf("Tool completed: %s\n", input.ToolName)
+            return &copilot.PostToolUseHookOutput{
+                AdditionalContext: "Post-execution notes",
+            }, nil
+        },
+        OnSessionStart: func(input copilot.SessionStartHookInput, inv copilot.HookInvocation) (*copilot.SessionStartHookOutput, error) {
+            fmt.Printf("Session started: %s\n", input.Source)  // "startup", "resume", "new"
+            return nil, nil
+        },
+        OnSessionEnd: func(input copilot.SessionEndHookInput, inv copilot.HookInvocation) (*copilot.SessionEndHookOutput, error) {
+            fmt.Printf("Session ended: %s\n", input.Reason)
+            return nil, nil
+        },
+        OnErrorOccurred: func(input copilot.ErrorOccurredHookInput, inv copilot.HookInvocation) (*copilot.ErrorOccurredHookOutput, error) {
+            return &copilot.ErrorOccurredHookOutput{
+                ErrorHandling: "retry",  // "retry", "skip", "abort"
+            }, nil
+        },
+    },
+})
 ```
 
 ## Best Practices
 
-1. **Always use `defer`** for cleanup of clients and sessions
-2. **Use channels** to wait for SessionIdle event
-3. **Handle SessionError** events for robust error handling
-4. **Use type switches** for event handling
-5. **Enable streaming** for better UX in interactive scenarios
-6. **Provide descriptive tool names and descriptions** for better model understanding
-7. **Call unsubscribe functions** when no longer needed
-8. **Use SystemMessageConfig with Mode: "append"** to preserve safety guardrails
-9. **Handle both delta and final events** when streaming is enabled
-10. **Check nil pointers** in event data (Content, Message, etc. are pointers)
+### Error Handling
+1. Always use `defer client.Stop()` and `defer session.Destroy()`
+2. Handle connection errors (CLI might not be installed)
+3. Set appropriate timeouts for long-running requests
+4. Use context for cancellation
+5. Wrap errors with `fmt.Errorf` and `%w` for error chains
+
+**Example:**
+```go
+func doWork() error {
+    client := copilot.NewClient(nil)
+    if err := client.Start(); err != nil {
+        return fmt.Errorf("failed to start: %w", err)
+    }
+    defer client.Stop()
+
+    session, err := client.CreateSession(&copilot.SessionConfig{Model: "gpt-5"})
+    if err != nil {
+        return fmt.Errorf("failed to create session: %w", err)
+    }
+    defer session.Destroy()
+
+    // Work with session...
+    return nil
+}
+```
+
+### Multiple Sessions
+- One session per user in multi-user apps
+- Separate sessions for different tasks
+- Use custom session IDs for easy tracking
+- Clean up sessions with `DeleteSession()` when done
+
+### Streaming
+- Enable `Streaming: true` for real-time responses
+- Handle `assistant.message_delta` for incremental updates
+- Handle `assistant.reasoning_delta` for model reasoning (if supported)
+- Final `assistant.message` always contains complete content
+
+### Image Support
+```go
+_, err = session.Send(copilot.MessageOptions{
+    Prompt: "What's in this image?",
+    Attachments: []copilot.Attachment{
+        {Type: "file", Path: "/path/to/image.jpg"},
+    },
+})
+```
 
 ## Common Patterns
 
-### Simple Query-Response
-
+### Pattern 1: Simple Question-Answer
 ```go
 client := copilot.NewClient(nil)
-if err := client.Start(); err != nil {
-    log.Fatal(err)
-}
+client.Start()
 defer client.Stop()
 
-session, err := client.CreateSession(&copilot.SessionConfig{Model: "gpt-5"})
-if err != nil {
-    log.Fatal(err)
-}
+session, _ := client.CreateSession(&copilot.SessionConfig{Model: "gpt-5"})
 defer session.Destroy()
 
-done := make(chan struct{})
-
-session.On(func(evt copilot.SessionEvent) {
-    if evt.Type == copilot.AssistantMessage && evt.Data.Content != nil {
-        fmt.Println(*evt.Data.Content)
-    } else if evt.Type == copilot.SessionIdle {
-        close(done)
+done := make(chan string)
+session.On(func(event copilot.SessionEvent) {
+    if event.Type == "assistant.message" && event.Data.Content != nil {
+        done <- *event.Data.Content
     }
 })
 
 session.Send(copilot.MessageOptions{Prompt: "What is 2+2?"})
-<-done
+fmt.Println(<-done)
 ```
 
-### Multi-Turn Conversation
+### Pattern 2: Multiple Sessions
+```go
+session1, _ := client.CreateSession(&copilot.SessionConfig{
+    SessionID: "python-help",
+    Model:     "gpt-5",
+})
+session2, _ := client.CreateSession(&copilot.SessionConfig{
+    SessionID: "go-help",
+    Model:     "gpt-5",
+})
+
+session1.Send(copilot.MessageOptions{Prompt: "Python question"})
+session2.Send(copilot.MessageOptions{Prompt: "Go question"})
+```
+
+### Pattern 3: Custom Tool with Type Safety
+```go
+type GitStatusParams struct {
+    Repo string `json:"repo" jsonschema:"Repository path"`
+}
+
+gitStatus := copilot.DefineTool("git_status", "Get git status",
+    func(params GitStatusParams, inv copilot.ToolInvocation) (any, error) {
+        output, err := exec.Command("git", "-C", params.Repo, "status").Output()
+        return string(output), err
+    })
+```
+
+### Pattern 4: Graceful Shutdown
+```go
+sigChan := make(chan os.Signal, 1)
+signal.Notify(sigChan, os.Interrupt, syscall.SIGTERM)
+
+go func() {
+    <-sigChan
+    fmt.Println("\nShutting down...")
+    client.Stop()
+    os.Exit(0)
+}()
+```
+
+## Helper Functions
+
+- `Bool(v bool) *bool` - Create bool pointers for options
+- `Float64(v float64) *float64` - Create float64 pointers for thresholds
 
 ```go
-session, _ := client.CreateSession(nil)
+AutoStart: copilot.Bool(false)
+BackgroundCompactionThreshold: copilot.Float64(0.80)
+```
+
+## Transport Modes
+
+- **stdio (default)**: Stdin/stdout pipes - recommended for most cases
+- **TCP**: Socket communication - useful for distributed scenarios
+
+```go
+// stdio (default)
+client := copilot.NewClient(nil)
+
+// TCP with custom port
+client := copilot.NewClient(&copilot.ClientOptions{
+    UseStdio: false,
+    Port:     8080,
+})
+
+// Connect to existing server
+client := copilot.NewClient(&copilot.ClientOptions{
+    CLIUrl: "localhost:8080",
+})
+```
+
+## Environment Variables
+
+- `COPILOT_CLI_PATH`: Path to Copilot CLI executable
+
+## Troubleshooting
+
+### CLI not found
+```go
+if err := client.Start(); err != nil {
+    var execErr *exec.Error
+    if errors.As(err, &execErr) {
+        log.Fatal("Copilot CLI not found. Please install it.")
+    }
+}
+```
+
+### Connection timeout
+Use context with timeout when sending messages.
+
+### Custom provider not working
+- Ensure `Model` is specified (required with custom providers)
+- For Azure, use `Type: "azure"`, not `"openai"`
+- BaseURL should be just the host, no `/v1` path for Azure
+
+## When to Use What
+
+| Use Case | Solution |
+|----------|----------|
+| Simple chat | Basic session with default config |
+| Real-time responses | `Streaming: true` |
+| Long conversations | Infinite sessions (default) |
+| Custom functionality | Define tools with `DefineTool` |
+| Local models | Custom provider with Ollama |
+| Multi-user app | Multiple sessions with custom IDs |
+| Permission control | Session hooks with `OnPreToolUse` |
+| User interaction | `OnUserInputRequest` handler |
+| Different models | Multiple sessions with different configs |
+
+## Additional Resources
+
+- Full E2E test examples: `./reference/go/e2e/`
+- All type definitions: `./reference/go/types.go`
+- Client internals: `./reference/go/client.go`
+- Session internals: `./reference/go/session.go`
+
+## Quick Reference
+
+```go
+// Essential imports
+import copilot "github.com/github/copilot-sdk/go"
+
+// Client lifecycle
+client := copilot.NewClient(nil)
+client.Start()
+defer client.Stop()
+
+// Session lifecycle
+session, _ := client.CreateSession(&copilot.SessionConfig{Model: "gpt-5"})
 defer session.Destroy()
 
-sendAndWait := func(prompt string) error {
-    done := make(chan struct{})
-    var eventErr error
+// Event handling
+session.On(func(event copilot.SessionEvent) { /* ... */ })
 
-    unsubscribe := session.On(func(evt copilot.SessionEvent) {
-        switch evt.Type {
-        case copilot.AssistantMessage:
-            if evt.Data.Content != nil {
-                fmt.Println(*evt.Data.Content)
-            }
-        case copilot.SessionIdle:
-            close(done)
-        case copilot.SessionError:
-            if evt.Data.Message != nil {
-                eventErr = fmt.Errorf(*evt.Data.Message)
-            }
-        }
-    })
-    defer unsubscribe()
+// Send message
+session.Send(copilot.MessageOptions{Prompt: "Hello"})
 
-    if _, err := session.Send(copilot.MessageOptions{Prompt: prompt}); err != nil {
-        return err
-    }
-    <-done
-    return eventErr
-}
-
-sendAndWait("What is the capital of France?")
-sendAndWait("What is its population?")
-```
-
-### SendAndWait Helper
-
-```go
-// Use built-in SendAndWait for simpler synchronous interaction
-response, err := session.SendAndWait(copilot.MessageOptions{
-    Prompt: "What is 2+2?",
-}, 0) // 0 uses default 60s timeout
-
-if err != nil {
-    log.Printf("Error: %v", err)
-}
-if response != nil && response.Data.Content != nil {
-    fmt.Println(*response.Data.Content)
-}
-```
-
-### Tool with Struct Return Type
-
-```go
-type UserInfo struct {
-    ID    string `json:"id"`
-    Name  string `json:"name"`
-    Email string `json:"email"`
-    Role  string `json:"role"`
-}
-
-session, _ := client.CreateSession(&copilot.SessionConfig{
-    Tools: []copilot.Tool{
-        {
-            Name:        "get_user",
-            Description: "Retrieve user information",
-            Parameters: map[string]interface{}{
-                "type": "object",
-                "properties": map[string]interface{}{
-                    "user_id": map[string]interface{}{
-                        "type":        "string",
-                        "description": "User ID",
-                    },
-                },
-                "required": []string{"user_id"},
-            },
-            Handler: func(inv copilot.ToolInvocation) (copilot.ToolResult, error) {
-                args := inv.Arguments.(map[string]interface{})
-                userID := args["user_id"].(string)
-
-                user := UserInfo{
-                    ID:    userID,
-                    Name:  "John Doe",
-                    Email: "john@example.com",
-                    Role:  "Developer",
-                }
-
-                jsonBytes, _ := json.Marshal(user)
-                return copilot.ToolResult{
-                    TextResultForLLM: string(jsonBytes),
-                    ResultType:       "success",
-                    ToolTelemetry:    map[string]interface{}{},
-                }, nil
-            },
-        },
-    },
-})
+// Custom tool
+copilot.DefineTool("name", "desc", func(params Type, inv copilot.ToolInvocation) (any, error) { /* ... */ })
 ```

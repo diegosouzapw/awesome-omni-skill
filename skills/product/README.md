@@ -1,6 +1,6 @@
 # 📂 product
 
-> 278 skills in this category
+> 284 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -97,6 +97,9 @@
 | [spec-prd-creator](spec-prd-creator/) | VictorHueni | ★ 0 | 48% | L3 | Generate a Product Requirements Document (PRD) for a new feature. Use when plann… |
 | [doc-ears](doc-ears/) | vladm3105 | ★ 0 | 48% | L3 | Create EARS (Easy Approach to Requirements Syntax) formal requirements - Layer 3… |
 | [business](business/) | majiayu000 | ★ 0 | 48% | L2 | Business strategy expert - defines users, value propositions, use cases, and bus… |
+| [create-prd](create-prd/) | FradSer | ★ 0 | 48% | L2 | This skill should be used when the user asks to "创建PRD", "写产品需求文档", "生成PRD", "新建… |
+| [categorizing-bsky-accounts](categorizing-bsky-accounts/) | oaustegard | ★ 0 | 48% | L3 | Analyze and categorize Bluesky accounts by topic using keyword extraction. Use w… |
+| [categorizing-bsky-accounts](categorizing-bsky-accounts/) | majiayu000 | ★ 0 | 48% | L3 | Analyze and categorize Bluesky accounts by topic using keyword extraction. Use w… |
 | [fresh-eyes](fresh-eyes/) | majiayu000 | ★ 0 | 45% | L3 | Re-reads code you just wrote with fresh perspective to catch bugs, errors, and i… |
 | [epic-management](epic-management/) | majiayu000 | ★ 0 | 45% | L3 | Use for LARGE work requiring feature-level grouping. Creates epic tracking issue… |
 | [meeting-prep](meeting-prep/) | ahmedkhaledmohamed | ★ 0 | 45% | L2 | Meeting preparation assistant for Product Managers. Use when the user needs to p… |
@@ -220,6 +223,8 @@
 | [u01859-handoff-contracting-for-product-management-execution](u01859-handoff-contracting-for-product-management-execution/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Handoff Contracting for product management execution" capability in… |
 | [Create Jira Feature](create-jira-feature/) | openshift-eng | ★ 0 | 45% | L3 | Implementation guide for creating Jira features representing strategic objective… |
 | [u01884-handoff-contracting-for-healthcare-operations](u01884-handoff-contracting-for-healthcare-operations/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Handoff Contracting for healthcare operations" capability in produc… |
+| [awesome-copilot-root-atlassian-requirements-to-jira](awesome-copilot-root-atlassian-requirements-to-jira/) | sla-te | ★ 0 | 45% | L2 | Transform requirements documents into structured Jira epics and user stories wit… |
+| [mother-brain](mother-brain/) | super-state | ★ 0 | 45% | L3 | Vision-driven project framework that guides discovery, creates roadmaps, auto-ge… |
 | [strict-user-requirements-adherence](strict-user-requirements-adherence/) | majiayu000 | ★ 0 | 43% | L3 | Strictly adheres to specified user flow and game rules, making sure to follow do… |
 | [strict-user-requirements-adherence](strict-user-requirements-adherence/) | majiayu000 | ★ 0 | 43% | L3 | Strictly adheres to specified user flow and game rules, making sure to follow do… |
 | [prioritize-python-3-10-features](prioritize-python-3-10-features/) | oimiragieo | ★ 0 | 43% | L2 | Prioritizes the use of new features available in Python 3.12 and later versions. |
@@ -269,6 +274,7 @@
 | [project-mngt](project-mngt/) | vladm3105 | ★ 0 | 41% | L2 | Product Owner / Project Manager skill for MVP/MMP/MMR implementation planning |
 | [what-did-i-do](what-did-i-do/) | lout33 | ★ 0 | 38% | L3 | Passive screen activity tracker. Use this skill when the user asks what they did… |
 | [dig](dig/) | tomfordrumm | ★ 0 | 38% | L2 | Investigation-only mode for understanding bugs, features, or system behavior wit… |
+| [progressive-discovery](progressive-discovery/) | GobbyAI | ★ 0 | 38% | L3 | Progressive disclosure pattern for MCP tools and skills. Teaches agents just-in-… |
 | [explore](explore/) | jforksy | ★ 0 | 35% | L2 | Codebase exploration and feature analysis - understand integration points, depen… |
 | [commit](commit/) | MetaMask | ★ 0 | 34% | L2 | Optionally checks, then commits code to the current or a new feature branch. |
 | [commit](commit/) | majiayu000 | ★ 0 | 34% | L3 | Optionally checks, then commits code to the current or a new feature branch. |

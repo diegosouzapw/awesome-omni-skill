@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/iaac-maai/structure_compliance_check",
   "author": "iaac-maai",
   "author_avatar": "https://github.com/iaac-maai.png",
-  "file_path": ".claude/skills/IFCore-skill/SKILL.md",
+  "file_path": ".gemini/skills/IFCore-skill/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "2f241835206f6368b3cce4c7ff4112a0d34adcc010c4eee97beb103a28453c2c",
-  "indexed_at": "2026-02-26T18:39:48.791Z",
-  "synced_at": "2026-02-28T03:59:45.129Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5cfcdc87beb44b6574cf43f0228fe519a357b87ec54c128c23887dc0f119b657",
-  "install_command": "mkdir -p .claude/skills/ifcore && curl -sL \"https://raw.githubusercontent.com/iaac-maai/structure_compliance_check/main/.claude/skills/IFCore-skill/SKILL.md\" > .claude/skills/ifcore/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/iaac-maai/structure_compliance_check/main/.claude/skills/IFCore-skill/SKILL.md"
+  "content_hash": "f2ffdf46a16eab67278676ccb13540f6f74dd21fe336a3e750385924d42ca6aa",
+  "indexed_at": "2026-02-28T18:50:26.701Z",
+  "synced_at": "2026-03-01T00:34:47.626Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7c0b8ef9e08b93c2054019c28658b2c07c721a6899cdf9303b039163e2b77a1f",
+  "install_command": "mkdir -p .claude/skills/ifcore && curl -sL \"https://raw.githubusercontent.com/iaac-maai/structure_compliance_check/main/.gemini/skills/IFCore-skill/SKILL.md\" > .claude/skills/ifcore/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/iaac-maai/structure_compliance_check/main/.gemini/skills/IFCore-skill/SKILL.md"
 }

@@ -1,6 +1,6 @@
 # 📂 development
 
-> 5,876 skills in this category
+> 5,919 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -2056,6 +2056,18 @@
 | [project-orchestration](project-orchestration/) | darrenhinde | ★ 0 | 48% | L3 | Orchestrate multi-agent workflows for feature development using planning agents,… |
 | [refactor](refactor/) | hellofrommorgan | ★ 0 | 48% | L3 | Plan vault restructuring from config changes. Compares config.yaml against deriv… |
 | [sdd](sdd/) | majiayu000 | ★ 0 | 48% | L3 | This skill should be used when users want guidance on Spec-Driven Development me… |
+| [humanizer](humanizer/) | openclaw | ★ 0 | 48% | L2 | Remove AI writing patterns based on Wikipedia's "Signs of AI writing" research. … |
+| [opencode](opencode/) | majiayu000 | ★ 0 | 48% | L3 | OpenCode - Open source AI coding agent for terminal, desktop, and IDE with multi… |
+| [golang-best-practices](golang-best-practices/) | majiayu000 | ★ 0 | 48% | L2 | Comprehensive Go code review meta-skill. Coordinates 5 specialized domain skills… |
+| [project-index](project-index/) | mkSteady | ★ 0 | 48% | L3 | Use this skill for large project maintenance with layered CLAUDE.md index system… |
+| [Code Explainer](code-explainer/) | MCKRUZ | ★ 0 | 48% | L2 | Explains code in plain English. Paste any code snippet and get a clear, detailed… |
+| [Testing Anti-Patterns](testing-anti-patterns/) | ChunkyTortoise | ★ 0 | 48% | L3 | This skill should be used when encountering "flaky tests", "test maintenance iss… |
+| [reasoning-patterns-v2](reasoning-patterns-v2/) | majiayu000 | ★ 0 | 48% | L3 | Use this skill for rigorous theoretical derivation with supercollider mode (G1-G… |
+| [solid-generic](solid-generic/) | fusengine | ★ 0 | 48% | L3 | SOLID principles for generic TypeScript, Bun, and Node.js projects. Files < 100 … |
+| [reasoning-patterns-v2](reasoning-patterns-v2/) | agentgptsmith | ★ 0 | 48% | L3 | Use this skill for rigorous theoretical derivation with supercollider mode (G1-G… |
+| [code-reviewer](code-reviewer/) | Jeffallan | ★ 0 | 48% | L2 | Use when reviewing pull requests, conducting code quality audits, or identifying… |
+| [shader-fx](shader-fx/) | AvneeshSarwate | ★ 0 | 48% | L3 | GPU-accelerated shader effects framework built on Babylon.js. Provides composabl… |
+| [validator-workflow](validator-workflow/) | darraghh1 | ★ 0 | 48% | L3 | Phase-level validation workflow for validator agents. Handles loading project ru… |
 | [architecture-designer](architecture-designer/) | majiayu000 | ★ 0 | 47% | L3 | Define technical architecture and create ADRs. Triggers on "Help me define the a… |
 | [tmdd-threat-modeling](tmdd-threat-modeling/) | attasec | ★ 0 | 47% | L3 | Create and manage TMDD threat models grounded in actual codebase architecture. U… |
 | [power-platform-connector](power-platform-connector/) | pingqLIN | ★ 0 | 47% | L2 | Comprehensive development guidelines for Power Platform Custom Connectors using … |
@@ -4930,6 +4942,31 @@
 | [task-master-install](task-master-install/) | majiayu000 | ★ 0 | 45% | L3 | Task-master is an AI-powered task management system for breaking down complex pr… |
 | [debug](debug/) | majiayu000 | ★ 0 | 45% | L3 | Debug container agent issues. Use when things aren't working, container fails, a… |
 | [tanstack-start](tanstack-start/) | hashintel | ★ 0 | 45% | L3 | TanStack Start full-stack React framework patterns. Use when working with file-b… |
+| [copilot-sdk](copilot-sdk/) | vivi3172 | ★ 0 | 45% | L3 | This skill provides guidance for creating agents and applications with the GitHu… |
+| [IFCore](ifcore/) | iaac-maai | ★ 0 | 45% | L3 | Use when developing on the IFCore compliance checker. Covers contracts, check fu… |
+| [awareness-analyzer](awareness-analyzer/) | az9713 | ★ 0 | 45% | L2 | Diagnose audience awareness level and market sophistication using Eugene Schwart… |
+| [partners-droid](partners-droid/) | sla-te | ★ 0 | 45% | L3 | Provides installation guidance, usage examples, and automation patterns for the … |
+| [awesome-copilot-root-drupal-expert](awesome-copilot-root-drupal-expert/) | sla-te | ★ 0 | 45% | L3 | Expert assistant for Drupal development, architecture, and best practices using … |
+| [researching-azure-ai-sdk](researching-azure-ai-sdk/) | microsoft-foundry | ★ 0 | 45% | L2 | Provides research patterns for Foundry Agent Service SDK. Use when implementing … |
+| [silent-failure-hunter](silent-failure-hunter/) | ngx-signal-forms | ★ 0 | 45% | L3 | Use this agent when reviewing code changes in a pull request to identify silent … |
+| [solution-scaffolder](solution-scaffolder/) | mpaulosky | ★ 0 | 45% | L3 | Create new .NET solutions with complete project structure, configurations, and c… |
+| [awesome-copilot-root-rust-mcp-expert](awesome-copilot-root-rust-mcp-expert/) | sla-te | ★ 0 | 45% | L3 | Expert assistant for Rust MCP server development using the rmcp SDK with tokio a… |
+| [awesome-copilot-root-kotlin-mcp-expert](awesome-copilot-root-kotlin-mcp-expert/) | sla-te | ★ 0 | 45% | L2 | Expert assistant for building Model Context Protocol (MCP) servers in Kotlin usi… |
+| [claude-code-skills](claude-code-skills/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive reference for creating Claude Code skills with progressive disclos… |
+| [framework](framework/) | majiayu000 | ★ 0 | 45% | L3 | Expert knowledge of SpecWeave framework structure, rules, conventions, and incre… |
+| [framework](framework/) | majiayu000 | ★ 0 | 45% | L3 | Expert on SpecWeave framework structure, rules, and spec-driven development conv… |
+| [copilot-sdk-go](copilot-sdk-go/) | kevinyay945 | ★ 0 | 45% | L3 | Expert guidance for using the GitHub Copilot CLI SDK with Go, including API refe… |
+| [viem](viem/) | majiayu000 | ★ 0 | 45% | L3 | Viem blockchain client patterns for Ethereum interactions, transactions, signing… |
+| [aoc](aoc/) | majiayu000 | ★ 0 | 45% | L3 | Solve Advent of Code puzzles, algorithm challenges, and competitive programming … |
+| [compaction-advisor](compaction-advisor/) | majiayu000 | ★ 0 | 45% | L2 | Provides context-aware compaction guidance with intelligent checkpointing. Monit… |
+| [compaction-advisor](compaction-advisor/) | vignesh07 | ★ 0 | 45% | L3 | Provides context-aware compaction guidance with intelligent checkpointing. Monit… |
+| [fx-explore](fx-explore/) | majiayu000 | ★ 0 | 45% | L2 | Discover available effects, actions, and placeholders in a Sandestin project. Us… |
+| [psy](psy/) | majiayu000 | ★ 0 | 45% | L3 | Display human psychology dashboard with energy, focus, emotions, biases, and lea… |
+| [plan](plan/) | ferdiangunawan | ★ 0 | 45% | L3 | Creates detailed implementation plan from validated research. Produces task brea… |
+| [bump-ios-version](bump-ios-version/) | artsy | ★ 0 | 45% | L3 | Bump iOS and Xcode versions in Eigen. Use when the user wants to upgrade iOS SDK… |
+| [petstore-checklist](petstore-checklist/) | a1flecke | ★ 0 | 45% | L3 | Pre-implementation checklist for lizzies-petstore sessions. Prints the coding ru… |
+| [python-testing](python-testing/) | jaaaackieLai | ★ 0 | 45% | L3 | Use when implementing new Python code (follow TDD), designing test suites, revie… |
+| [c-programming-guidelines](c-programming-guidelines/) | Tryboy869 | ★ 0 | 45% | L3 | Apply for c-programming-guidelines. --- description: globs: **/*.c,**/*.cpp,**/*… |
 | [annas-to-notebooklm](annas-to-notebooklm/) | zstmfhy | ★ 0 | 44% | L3 | 自动从 Anna's Archive 下载书籍并上传到 Google NotebookLM。支持 PDF/EPUB 格式，自动转换，一键创建知识库。 |
 | [annas-to-notebooklm](annas-to-notebooklm/) | NeverSight | ★ 0 | 44% | L3 | 自动从 Anna's Archive 下载书籍并上传到 Google NotebookLM。支持 PDF/EPUB 格式，自动转换，一键创建知识库。 |
 | [rtk-optimizer](rtk-optimizer/) | FlorianBruniaux | ★ 0 | 44% | L3 | Optimize command outputs with RTK (Rust Token Killer) for 70% token reduction |
@@ -5005,6 +5042,7 @@
 | [global-standards](global-standards/) | majiayu000 | ★ 0 | 44% | L3 | Project-wide coding standards and conventions specialist. Use PROACTIVELY |
 | [extending-workflows](extending-workflows/) | gitwalter | ★ 0 | 44% | L2 | Create and extend workflow definitions using the workflow system architecture |
 | [bootstrap-auto](bootstrap-auto/) | duc01226 | ★ 0 | 44% | L2 | [Implementation] Bootstrap a new project automatically |
+| [Getting Started with Skills](getting-started-with-skills/) | obra | ★ 0 | 44% | L3 | Skills wiki intro - mandatory workflows, search tool, brainstorming triggers |
 | [dataverse-python-best-practices](dataverse-python-best-practices/) | pingqLIN | ★ 0 | 43% | L3 | dataverse-python-best-practices guidelines |
 | [tauri-svelte-typescript-general](tauri-svelte-typescript-general/) | majiayu000 | ★ 0 | 43% | L3 | General rules for developing desktop applications using Tauri with Svelte and Ty… |
 | [history-and-next-task-rules](history-and-next-task-rules/) | oimiragieo | ★ 0 | 43% | L3 | Specifies the format for ending responses, including a summary of requirements, … |
@@ -5458,6 +5496,9 @@
 | [opence-skill-creator](opence-skill-creator/) | mufengbufeng | ★ 0 | 41% | L3 | Learn how to create effective project skills following opence conventions. |
 | [superpowers-writing-skills](superpowers-writing-skills/) | monkey1sai | ★ 0 | 41% | L3 | Use when creating new skills, editing existing skills, or verifying skills |
 | [senior-software-developer](senior-software-developer/) | darthlinuxer | ★ 0 | 41% | L3 | Provides production-quality patterns, standards, and language-specific |
+| [ai-coding-shield](ai-coding-shield/) | AI-Coding-Shield | ★ 0 | 41% | L3 | Security auditing tool for AI development workflows, rules, skills, and MCPs. |
+| [code-cleaner](code-cleaner/) | ahmed6ww | ★ 0 | 41% | L3 | Refactor code to remove technical debt, eliminate dead code, and enforce SOLID p… |
+| [reflect](reflect/) | jmblab | ★ 0 | 41% | L3 | Session reflection — captures knowledge and self-improvement findings, |
 | [api-design](api-design/) | kprsnt2 | ★ 0 | 40% | L2 | REST and GraphQL API design best practices including HTTP methods, status codes,… |
 | [ms-sql-dba](ms-sql-dba/) | pingqLIN | ★ 0 | 40% | L2 | Instructions for customizing GitHub Copilot behavior for MS-SQL DBA chat mode. T… |
 | [coldfusion-cfc](coldfusion-cfc/) | pingqLIN | ★ 0 | 40% | L2 | ColdFusion Coding Standards for CFC component and application patterns Triggers … |
@@ -5672,6 +5713,7 @@
 | [Build Your Apps SDK Skill](build-your-apps-sdk-skill/) | majiayu000 | ★ 0 | 38% | L3 | Create your OpenAI Apps SDK skill in one prompt, then learn to improve it throug… |
 | [format-euler-code](format-euler-code/) | brucehart | ★ 0 | 38% | L2 | Enforce the Euler repository C++ formatting and style rules from AGENTS.md. Use … |
 | [fix-code](fix-code/) | raiich | ★ 0 | 38% | L2 | Properly fix code issues by following the quality assurance guidelines. Ensures … |
+| [praxis](praxis/) | originsec | ★ 0 | 38% | L3 | Interact with the Praxis C2 framework for orchestrating AI coding agents. Use wh… |
 | [frontend](frontend/) | pluginagentmarketplace | ★ 0 | 37% | L3 | Frontend development skill - React, Vue, performance, accessibility |
 | [frontend-specialist](frontend-specialist/) | officebeats | ★ 0 | 37% | L2 | Master of UI/UX, React, TypeScript, and modern CSS. |
 | [api](api/) | pluginagentmarketplace | ★ 0 | 37% | L3 | API design skill - REST, GraphQL, gRPC, documentation |
@@ -5685,6 +5727,7 @@
 | [hive-scheduler](hive-scheduler/) | paralect | ★ 0 | 36% | L3 | How to create scheduled jobs in Hive framework |
 | [sandboxes-js-sdk](sandboxes-js-sdk/) | koyeb | ★ 0 | 35% | L3 | Use the Koyeb Sandbox JS SDK (@koyeb/sandbox-sdk) to create and manage sandboxes… |
 | [code-review](code-review/) | majiayu000 | ★ 0 | 35% | L3 | Expert code reviewer with deep knowledge of software engineering best practices,… |
+| [fix-pr](fix-pr/) | YPYT1 | ★ 0 | 35% | L2 | Fetches and fixes unresolved PR comments by automatically retrieving feedback, a… |
 | [namecheap](namecheap/) | majiayu000 | ★ 0 | 34% | L3 | Domain registration and management via Namecheap API. |
 | [namecheap](namecheap/) | nexty5870 | ★ 0 | 34% | L3 | Domain registration and management via Namecheap API. |
 | [namecheap](namecheap/) | majiayu000 | ★ 0 | 34% | L3 | Domain registration and management via Namecheap API. |

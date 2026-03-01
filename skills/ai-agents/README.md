@@ -1,6 +1,6 @@
 # 📂 ai-agents
 
-> 639 skills in this category
+> 694 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -393,6 +393,24 @@
 | [context-guard](context-guard/) | littlebearapps | ★ 0 | 48% | L3 | Installs opt-in Claude Code hooks that detect stale AI context files (CLAUDE.md,… |
 | [how-to-use-vercel-skills](how-to-use-vercel-skills/) | AgentPMT | ★ 0 | 48% | L3 | How to create, structure, install, and publish agent skills compatible with the … |
 | [windsurf-cascade](windsurf-cascade/) | openclaw | ★ 0 | 48% | L3 | A comprehensive skill for using the Windsurf IDE and its Cascade AI agent for va… |
+| [github-copilot](github-copilot/) | majiayu000 | ★ 0 | 48% | L3 | AI-powered coding assistant providing inline suggestions, chat interface, code r… |
+| [Directus AI Assistant Integration](directus-ai-assistant-integration/) | majiayu000 | ★ 0 | 48% | L3 | Build AI-powered features in Directus: chat interfaces, content generation, smar… |
+| [migration-guides](migration-guides/) | majiayu000 | ★ 0 | 48% | L3 | Migration guides - from other AI tools, version upgrades, config migration. Use … |
+| [moltbot, openclaw-best-practices](moltbot-openclaw-best-practices/) | Demerzels-lab | ★ 0 | 48% | L3 | Best practices for AI agents to avoid common mistakes. Learn from real failures … |
+| [gh-aw-workflow-authoring](gh-aw-workflow-authoring/) | Hack23 | ★ 0 | 48% | L3 | Master GitHub Agentic Workflows authoring - markdown syntax, natural language in… |
+| [llm-docs-optimizer](llm-docs-optimizer/) | nilecui | ★ 0 | 48% | L3 | Optimize documentation for AI coding assistants and LLMs. Improves docs for Clau… |
+| [copilot-sdk-setup](copilot-sdk-setup/) | danielmeppiel | ★ 0 | 48% | L3 | Interactive skill that guides users through setting up the GitHub Copilot SDK in… |
+| [create-call](create-call/) | VapiAI | ★ 0 | 48% | L3 | Create outbound phone calls, web calls, and batch calls using the Vapi API. Use … |
+| [open-ai-town](open-ai-town/) | Ishnoor-Singh | ★ 0 | 48% | L3 | A virtual world where AI agents live, chat, and socialize. Join as an external a… |
+| [moltgram](moltgram/) | kenL4 | ★ 0 | 48% | L3 | The visual social network for AI agents. Share AI-generated images, like, commen… |
+| [subfun](subfun/) | LinaTalbot | ★ 0 | 48% | L3 | Gamified marketplace for AI "substances" that modify agent behavior via prompt t… |
+| [clawswarm](clawswarm/) | MatchaOnMuffins | ★ 0 | 48% | L3 | Collaborative agent swarm for attempting extremely difficult, often unproven pro… |
+| [clawmafia](clawmafia/) | aryshriv | ★ 0 | 48% | L3 | Mafia MMO for AI agents. Register, join the lobby, and play Night/Day phases as … |
+| [ai-agents-dashboard](ai-agents-dashboard/) | niveshdandyan | ★ 0 | 48% | L3 | Live real-time dashboard for monitoring AI agent swarms with smart completion de… |
+| [skillsic](skillsic/) | gstohl | ★ 0 | 48% | L3 | Discover, search, and install curated AI agent skills via skillsic.com. Use when… |
+| [ck:skill-creator](ck-skill-creator/) | felix-howard | ★ 0 | 48% | L3 | Create or update Claude skills optimized for Skillmark benchmarks. Use for new s… |
+| [cfn-agent-lifecycle](cfn-agent-lifecycle/) | majiayu000 | ★ 0 | 48% | L3 | Unified agent management from selection through completion - spawning, execution… |
+| [clawstake](clawstake/) | openclaw | ★ 0 | 48% | L3 | Prediction markets for AI agents. Trade on Polymarket/Kalshi mirrors, earn badge… |
 | [prompt-engineering](prompt-engineering/) | artokun | ★ 0 | 47% | L3 | ComfyUI prompt engineering knowledge — CLIP text encoding syntax, weight modifie… |
 | [convex-ai](convex-ai/) | majiayu000 | ★ 0 | 47% | L3 | Convex AI Integration - OpenAI, actions, streaming, and AI patterns with databas… |
 | [arize-phoenix](arize-phoenix/) | Arize-ai | ★ 0 | 45% | L3 | Open-source AI observability platform for tracing, evaluating, and improving LLM… |
@@ -586,6 +604,30 @@
 | [clink-standalone](clink-standalone/) | majiayu000 | ★ 0 | 45% | L3 | Standalone CLI bridge - launch external AI CLIs (gemini, codex, claude) directly… |
 | [skill-creator](skill-creator/) | mattnigh | ★ 0 | 45% | L3 | **SKILL CREATOR v2.0** - '스킬 만들어', 'skill 만들어', '새 스킬', 'create skill' 요청 시 자동 발… |
 | [langchain-development](langchain-development/) | laurigates | ★ 0 | 45% | L3 | LangChain JS/TS framework for building LLM-powered applications - models, chains… |
+| [validate-agent-files](validate-agent-files/) | Alzakath | ★ 0 | 45% | L3 | Validates AI coding assistant customization files (agents, skills, prompts, inst… |
+| [custom-agent-creator](custom-agent-creator/) | prulloac | ★ 0 | 45% | L3 | Skill to create custom agents for VS Code Copilot or OpenCode, helping users con… |
+| [god-mode](god-mode/) | YPYT1 | ★ 0 | 45% | L3 | Developer oversight and AI agent coaching. Use when viewing project status acros… |
+| [agentic-docs](agentic-docs/) | majiayu000 | ★ 0 | 45% | L3 | Write clear, plain-spoken code comments and documentation that lives alongside t… |
+| [llm-docs-optimizer](llm-docs-optimizer/) | majiayu000 | ★ 0 | 45% | L3 | Optimize documentation for AI coding assistants and LLMs. Improves docs for Clau… |
+| [research-cog](research-cog/) | kbarbel640-del | ★ 0 | 45% | L3 | #1 on DeepResearch Bench (Feb 2026). Deep research agent powered by CellCog. Mar… |
+| [dev-swarm-install-ai-code-agent](dev-swarm-install-ai-code-agent/) | majiayu000 | ★ 0 | 45% | L3 | Install AI code agent CLI tools including claude-code, gemini-cli, codex, and gi… |
+| [docs-ai-prd](docs-ai-prd/) | majiayu000 | ★ 0 | 45% | L2 | Write PRDs, specs, and project context optimized for coding assistants (Claude C… |
+| [copilot-log-analysis](copilot-log-analysis/) | rajbos | ★ 0 | 45% | L3 | Analyzing GitHub Copilot session log files to extract token usage, model informa… |
+| [pr-test-analyzer](pr-test-analyzer/) | ngx-signal-forms | ★ 0 | 45% | L2 | Use this agent when you need to review a pull request for test coverage quality … |
+| [copilot-sdk](copilot-sdk/) | Alexsander532 | ★ 0 | 45% | L3 | Build applications powered by GitHub Copilot using the Copilot SDK. Use when cre… |
+| [awesome-copilot-root-copilot-sdk](awesome-copilot-root-copilot-sdk/) | sla-te | ★ 0 | 45% | L3 | Build agentic applications with GitHub Copilot SDK. Use when embedding AI agents… |
+| [init-agents](init-agents/) | MuhammedAlkhudiry | ★ 0 | 45% | L3 | Initialize or update AGENTS.md (or CLAUDE.md for Claude Code) with AI agent guid… |
+| [project-memory](project-memory/) | majiayu000 | ★ 0 | 45% | L3 | Set up and maintain a structured project memory system in docs/project_notes/ th… |
+| [ai-tuning](ai-tuning/) | Ven0m0 | ★ 0 | 45% | L2 | Optimize AI assistant configurations (CLAUDE.md, copilot-instructions.md, AGENTS… |
+| [measure-ai-proficiency](measure-ai-proficiency/) | pskoett | ★ 0 | 45% | L3 | Assess and improve repository AI coding proficiency and context engineering matu… |
+| [humanizer](humanizer/) | josephneumann | ★ 0 | 45% | L2 | Identify and remove AI writing patterns to make text sound natural and human. Us… |
+| [kitt-create-subagents](kitt-create-subagents/) | utahdws | ★ 0 | 45% | L2 | Expert guidance for creating, building, and using subagents and the Task tool. U… |
+| [awesome-copilot-root-modernization](awesome-copilot-root-modernization/) | sla-te | ★ 0 | 45% | L3 | Human-in-the-loop modernization assistant for analyzing, documenting, and planni… |
+| [awesome-copilot-root-shopify-expert](awesome-copilot-root-shopify-expert/) | sla-te | ★ 0 | 45% | L3 | Expert Shopify development assistant specializing in theme development, Liquid t… |
+| [make-agent](make-agent/) | Luscii | ★ 0 | 45% | L3 | Create GitHub Copilot custom agent files for specialized workflows. Use when ask… |
+| [add-provider](add-provider/) | agentconfig | ★ 0 | 45% | L3 | Add a new AI provider to agentconfig.org's comparison system. Use when integrati… |
+| [faf-expert](faf-expert/) | Wolfe-Jam | ★ 0 | 45% | L3 | Expert in .faf (Foundational AI-context Format) files for persistent project con… |
+| [rule-creator](rule-creator/) | Alenryuichi | ★ 0 | 45% | L3 | Create effective AI agent rules for CLAUDE.md, AGENTS.md, .cursorrules, .clineru… |
 | [jules](jules/) | cgasgarth | ★ 0 | 44% | L3 | Integration with Google's Jules API for agentic coding sessions. |
 | [clawtlas](clawtlas/) | pgnore | ★ 0 | 44% | L3 | Activity journal for AI agents. Log what you do, see the patterns emerge. |
 | [agents](agents/) | GobbyAI | ★ 0 | 44% | L3 | How to spawn, manage, message, and command subagents via gobby-agents. |
@@ -593,6 +635,7 @@
 | [ruler](ruler/) | plurigrid | ★ 0 | 44% | L3 | Unified AI agent configuration propagation across 18+ coding assistants. |
 | [claude-plan](claude-plan/) | majiayu000 | ★ 0 | 44% | L3 | Anthropic 風格的專業計畫管理 Skill - 自然語言驅動、預設並行、全自動 GitHub 整合 |
 | [claude-config-patterns](claude-config-patterns/) | seonghyeonkimm | ★ 0 | 43% | L3 | Agent, Skill, Command, Rules 파일 작성 패턴 및 템플릿 |
+| [langchain-python](langchain-python/) | pingqLIN | ★ 0 | 43% | L3 | Instructions for using LangChain with Python Triggers on: **/*.py |
 | [agents-md](agents-md/) | jscraik | ★ 0 | 41% | L3 | 'Refactor or create AGENTS.md using progressive disclosure: keep root |
 | [agent-manager-skill](agent-manager-skill/) | kingk0ng | ★ 0 | 41% | L3 | Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) |
 | [agent-teams](agent-teams/) | dundas | ★ 0 | 41% | L2 | Orchestrate Gemini CLI agent teams for parallel multi-agent collaboration |
@@ -616,6 +659,14 @@
 | [geo-fundamentals](geo-fundamentals/) | whodaniel | ★ 0 | 41% | L3 | > Optimization for AI-powered search engines. |
 | [cost-auditor](cost-auditor/) | fegome90-cmd | ★ 0 | 41% | L2 | Audit LLM usage, API costs, and resource optimization |
 | [protext](protext/) | IMUR | ★ 0 | 41% | L3 | Dynamic context management for AI agents. Invoke /protext at session |
+| [mcp-create-declarative-agent](mcp-create-declarative-agent/) | github | ★ 0 | 41% | L2 | Skill converted from mcp-create-declarative-agent.prompt.md |
+| [bootstrap](bootstrap/) | NeonTowel | ★ 0 | 41% | L2 | Smart repo bootstrapping for Agentic flow (AGENTS.md) |
+| [github-copilot-agent-tips-and-tricks](github-copilot-agent-tips-and-tricks/) | majiayu000 | ★ 0 | 41% | L3 | Tips and Tricks for Working with GitHub Copilot Agent PRs |
+| [ms-teams-apps](ms-teams-apps/) | alinaqi | ★ 0 | 41% | L3 | Microsoft Teams bots and AI agents - Claude/OpenAI, Adaptive Cards, Graph API |
+| [migrate-to-promptscript](migrate-to-promptscript/) | mrwogu | ★ 0 | 41% | L3 | Migrate existing AI instruction files to PromptScript format |
+| [pair](pair/) | ratacat | ★ 0 | 41% | L3 | Launch a pair programming agent to watch your work and catch issues |
+| [clawmesh](clawmesh/) | eliswedtlv | ★ 0 | 41% | L2 | Agent-to-agent mesh communication via Nostr protocol |
+| [universal-single-cell-annotator](universal-single-cell-annotator/) | majiayu000 | ★ 0 | 41% | L3 | A unified interface for annotating single-cell RNA-seq data using Marker Genes, … |
 | [collections](collections/) | pingqLIN | ★ 0 | 40% | L3 | Guidelines for creating and managing awesome-copilot collections Triggers on: co… |
 | [Agent Evaluation](agent-evaluation/) | cdalsoniii | ★ 0 | 39% | L2 | Evaluate agent performance using a structured scoring rubric |
 | [Build Your Apps SDK Skill](build-your-apps-sdk-skill/) | imsanghaar | ★ 0 | 38% | L3 | Create your OpenAI Apps SDK skill in one prompt, then learn to improve it throug… |
@@ -630,9 +681,13 @@
 | [Image Generation](image-generation/) | Mandalorian007 | ★ 0 | 38% | L3 | Generate images using OpenAI's GPT Image model. Use for creating images from tex… |
 | [claude-updates](claude-updates/) | koboriakira | ★ 0 | 38% | L3 | Fetch and analyze Claude/Anthropic RSS feeds to summarize recent updates and pro… |
 | [orchestra-cross-agent-sync](orchestra-cross-agent-sync/) | Chris-Miracle | ★ 0 | 38% | L2 | Coordinate consistent behavior across heterogeneous agents (Claude, Copilot, Cod… |
+| [custom-agents](custom-agents/) | majiayu000 | ★ 0 | 38% | L3 | GitHub Custom Agent File Format |
+| [xfeed](xfeed/) | majiayu000 | ★ 0 | 38% | L3 | Fetch and display filtered X (Twitter) timeline based on your interests. Shows A… |
+| [models-dev](models-dev/) | webup | ★ 0 | 38% | L3 | Query AI model specifications, pricing, and capabilities from models.dev databas… |
 | [agent-trust](agent-trust/) | ShivamSoni20 | ★ 0 | 37% | L3 | Economic identity and reputation system for autonomous agents on Base. |
 | [swarm-mail](swarm-mail/) | majiayu000 | ★ 0 | 36% | L3 | Coordinate with other agents using Swarm mail and file locking |
 | [prompt-generation-rules](prompt-generation-rules/) | majiayu000 | ★ 0 | 36% | L3 | General rules to generate prompt. |
+| [Async Feedback Loop](async-feedback-loop/) | Sounder25 | ★ 0 | 35% | L2 | Enables mid-stream course correction by monitoring a FEEDBACK.md file for user i… |
 | [prompt-engineering-openai-api-f7c24501](prompt-engineering-openai-api-f7c24501/) | decimasudo | ★ 0 | 34% | L2 | Log in [Sign up](https://platform.openai.com/signup) |
 | [test-nested-agents](test-nested-agents/) | Chachamaru127 | ★ 0 | 32% | L2 | ネストエージェントパターンの検証テスト用スキル。Use when user says テスト検証, test nested agents, verify age… |
 | [uv-package-management-assistant](uv-package-management-assistant/) | dmitriiweb | ★ 0 | 31% | L3 | python's package managing |

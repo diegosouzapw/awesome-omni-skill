@@ -1,6 +1,6 @@
 # 📂 documentation
 
-> 341 skills in this category
+> 352 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -134,6 +134,9 @@
 | [writing-documentation](writing-documentation/) | mattnigh | ★ 0 | 48% | L3 | Creates technical documentation including READMEs, API references, user guides, … |
 | [writing-documentation](writing-documentation/) | austinogilvie | ★ 0 | 48% | L3 | Creates technical documentation including READMEs, API references, user guides, … |
 | [copywriter](copywriter/) | xiangteng007 | ★ 0 | 48% | L2 | Brand voice guardian and conversion-focused copywriter, specializing in direct, … |
+| [skill-packager](skill-packager/) | shawn-sandy | ★ 0 | 48% | L3 | Package custom skills into versioned distributable ZIP files with installation a… |
+| [Documentation Hygiene](documentation-hygiene/) | wrsmith108 | ★ 0 | 48% | L3 | This skill should be used when the user asks to perform "documentation hygiene",… |
+| [skill-publishing](skill-publishing/) | abhattacherjee | ★ 0 | 48% | L3 | Makes any Claude Code skill shareable on GitHub by adding README, LICENSE, CHANG… |
 | [implementer](implementer/) | majiayu000 | ★ 0 | 47% | L3 | Execute feature tasks one by one with live documentation and context logging. Tr… |
 | [fix-markdown](fix-markdown/) | majiayu000 | ★ 0 | 45% | L2 | **`GOAL`**: use prettier and vale to fix lint, formatting, and prose issues in m… |
 | [thoroughness](thoroughness/) | majiayu000 | ★ 0 | 45% | L3 | Use when implementing complex multi-step tasks, fixing critical bugs, or when qu… |
@@ -290,6 +293,12 @@
 | [docs-management](docs-management/) | melodic-software | ★ 0 | 45% | L3 | Single source of truth and librarian for ALL Claude official documentation. Mana… |
 | [Morph](morph/) | simota | ★ 0 | 45% | L2 | ドキュメントフォーマット変換（Markdown↔Word/Excel/PDF/HTML）。Scribeが作成した仕様書や、Harvestのレポートを各種フォーマ… |
 | [ln-100-documents-pipeline](ln-100-documents-pipeline/) | majiayu000 | ★ 0 | 45% | L2 | Top orchestrator for complete doc system. Delegates to ln-110 coordinator (proje… |
+| [output-handoff](output-handoff/) | tomlarse | ★ 0 | 45% | L2 | Handle output distribution from processed brain dumps to appropriate destination… |
+| [pca-docs](pca-docs/) | narcisolcf | ★ 0 | 45% | L3 | gera e analisa documentos oficiais (.docx) do pca camocim (dfds, trs) usando scr… |
+| [hippocampus](hippocampus/) | majiayu000 | ★ 0 | 45% | L3 | Search hippocampus knowledge base for documentation, conventions, patterns, and … |
+| [upskill](upskill/) | dpreil-ydlp | ★ 0 | 45% | L3 | Meta-skill that learns new capabilities from NPM and pip package registries. Use… |
+| [changelogator](changelogator/) | benjaminhaeberli | ★ 0 | 45% | L2 | Generate a changelog from git commits. Use when the user asks to generate a chan… |
+| [create-oo-component-documentation](create-oo-component-documentation/) | github | ★ 0 | 45% | L3 | Create comprehensive, standardized documentation for object-oriented components … |
 | [documentation](documentation/) | NeverSight | ★ 0 | 44% | L3 | Technical writing, API docs, and documentation best practices |
 | [documentation](documentation/) | miles990 | ★ 0 | 44% | L3 | Technical writing, API docs, and documentation best practices |
 | [code-documentation](code-documentation/) | plurigrid | ★ 0 | 44% | L3 | Writing effective code documentation - API docs, README files, inline |
@@ -332,6 +341,8 @@
 | [upgrade-claude-code](upgrade-claude-code/) | popup-studio-ai | ★ 0 | 38% | L3 | Claude Code 설정 업그레이드 |
 | [documentation-guidelines](documentation-guidelines/) | majiayu000 | ★ 0 | 38% | L2 | Write or update backend feature documentation that follows a repo's DOCUMENTATIO… |
 | [doc-validator](doc-validator/) | majiayu000 | ★ 0 | 38% | L3 | Validate documentation files for completeness, accuracy, and consistency with th… |
+| [reviewing-documentation](reviewing-documentation/) | JesseNaranjo | ★ 0 | 38% | L2 | Use when reviewing documentation quality, auditing README or CLAUDE.md files, or… |
+| [Markdown Export](markdown-export/) | innV0 | ★ 0 | 37% | L2 | Specialist in generating comprehensive Markdown reports of the knowledge model. |
 | [localization](localization/) | pingqLIN | ★ 0 | 36% | L2 | Guidelines for localizing markdown documents Triggers on: **/*.md |
 | [execute](execute/) | jforksy | ★ 0 | 35% | L2 | Execute implementation plan with elegant, modular code following existing patter… |
 | [generate-docstrings](generate-docstrings/) | majiayu000 | ★ 0 | 34% | L3 | Create docstrings for functions and classes. Use when documenting code APIs. |

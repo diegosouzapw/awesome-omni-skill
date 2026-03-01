@@ -1,6 +1,6 @@
 # 📂 frontend
 
-> 326 skills in this category
+> 339 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -121,6 +121,11 @@
 | [cachibot-frontend-view](cachibot-frontend-view/) | jhd3197 | ★ 0 | 48% | L3 | Create new frontend views and components for CachiBot's React+TypeScript UI with… |
 | [web-design-guidelines](web-design-guidelines/) | Dedalus-ERP-PAS | ★ 0 | 48% | L3 | Visual inspection and code review for Web Interface Guidelines compliance. Trigg… |
 | [unicon](unicon/) | webrenew | ★ 0 | 48% | L3 | Help users add icons to their projects using the Unicon icon library. Unicon pro… |
+| [knowledge-base-cache](knowledge-base-cache/) | Dqz00116 | ★ 0 | 48% | L3 | Create and manage a layered knowledge base with hot/cold/warm cache tiers. Provi… |
+| [ai-generative-ui](ai-generative-ui/) | mattwoodco | ★ 0 | 48% | L3 | Data-driven generative UI — tool results render as rich React components in chat… |
+| [flowglad-setup](flowglad-setup/) | flowglad | ★ 0 | 48% | L3 | Install and configure the Flowglad SDK for Next.js, Express, and React applicati… |
+| [seo-metadata](seo-metadata/) | JaivishChauhan | ★ 0 | 48% | L3 | Optimize portfolio websites for search engines with Next.js Metadata API, struct… |
+| [react-email](react-email/) | majiayu000 | ★ 0 | 48% | L3 | Use when creating HTML email templates with React components - welcome emails, p… |
 | [pcf-tooling](pcf-tooling/) | pingqLIN | ★ 0 | 47% | L2 | Get Microsoft Power Platform CLI tooling for Power Apps Component Framework Trig… |
 | [Frontend Pages](frontend-pages/) | raffaeler | ★ 0 | 47% | L3 | Create or modify React pages using MUI components, React Router, and the HATEOAS… |
 | [solid-core-rendering](solid-core-rendering/) | majiayu000 | ★ 0 | 47% | L2 | SolidJS rendering: render for client apps, hydrate for SSR, renderToString for s… |
@@ -132,6 +137,7 @@
 | [pcf-canvas-apps](pcf-canvas-apps/) | pingqLIN | ★ 0 | 47% | L2 | Code components for canvas apps implementation, security, and configuration Trig… |
 | [power-bi-custom-visuals-development](power-bi-custom-visuals-development/) | pingqLIN | ★ 0 | 47% | L3 | Comprehensive Power BI custom visuals development guide covering React, D3.js in… |
 | [manim-scroll](manim-scroll/) | NeverSight | ★ 0 | 47% | L3 | Build and integrate scroll-driven Manim animations with pre-rendered assets, man… |
+| [domain-embedded](domain-embedded/) | majiayu000 | ★ 0 | 47% | L2 | Use when developing embedded/no_std Rust. Keywords: embedded, no_std, microcontr… |
 | [Mandu Styling](mandu-styling/) | konamgil | ★ 0 | 46% | L3 | Tailwind CSS v4 integration and Island styling patterns for Mandu Framework |
 | [starknet-react-rules](starknet-react-rules/) | oimiragieo | ★ 0 | 46% | L3 | Specific rules for Starknet React projects, focusing on blockchain integration. |
 | [react](react/) | mae616 | ★ 0 | 45% | L3 | React/Next.jsのプロジェクトで、UI=計算モデル（コンポーネント/状態/レンダリング）を軸に、設計・実装・レビュー・性能改善の判断を整理する。doc… |
@@ -286,8 +292,12 @@
 | [browser-test](browser-test/) | majiayu000 | ★ 0 | 45% | L3 | Execute browser-based UI testing using Chrome MCP tools. Tests user interactions… |
 | [tailwind-css-nextjs-guide-cursorrules-prompt-file-cursorrules](tailwind-css-nextjs-guide-cursorrules-prompt-file-cursorrules/) | Tryboy869 | ★ 0 | 45% | L3 | Apply for tailwind-css-nextjs-guide-cursorrules-prompt-file. Prompt Generation R… |
 | [senior-frontend](senior-frontend/) | arielperez82 | ★ 0 | 45% | L3 | Comprehensive frontend development skill for building modern, performant web app… |
+| [nuxt-ui](nuxt-ui/) | hk-vk | ★ 0 | 45% | L3 | A comprehensive Vue UI component library (Nuxt optional) with 125+ accessible, p… |
+| [react-fluent-ui-patterns](react-fluent-ui-patterns/) | MaxBush6299 | ★ 0 | 45% | L3 | Skill for React TypeScript frontend development with Fluent UI Copilot component… |
+| [marimo](marimo/) | maragudk | ★ 0 | 45% | L3 | Guide for creating and working with marimo notebooks, the reactive Python notebo… |
 | [frontend-nuxt](frontend-nuxt/) | ydnikolaev | ★ 0 | 44% | L3 | Nuxt 4 & TailwindCSS expert for modern web applications (SSR, SPA, Hybrid). |
 | [passwordless-docs](passwordless-docs/) | majiayu000 | ★ 0 | 44% | L3 | Bitwarden Passwordless.dev documentation, SDKs, and React examples |
+| [marp-pitch-creator](marp-pitch-creator/) | NextMed-main | ★ 0 | 44% | L2 | Create high-quality pitch decks using Marp and Tailwind CSS |
 | [html-tailwind-css-and-javascript-expert-rule](html-tailwind-css-and-javascript-expert-rule/) | oimiragieo | ★ 0 | 43% | L3 | Sets the AI to act as an expert in HTML, Tailwind CSS, and vanilla JavaScript, f… |
 | [browser-api-usage-rules](browser-api-usage-rules/) | oimiragieo | ★ 0 | 43% | L3 | Rules for effectively utilizing Chrome's browser APIs, including error handling … |
 | [private-vs-shared-components](private-vs-shared-components/) | majiayu000 | ★ 0 | 43% | L3 | Rules for determining if a component should be private or shared, and where to p… |
@@ -296,6 +306,7 @@
 | [umbraco-development](umbraco-development/) | twofoldtech-dakota | ★ 0 | 43% | L3 | Apply when working with Umbraco CMS, Composers, services, or content APIs |
 | [class-based-state-management](class-based-state-management/) | majiayu000 | ★ 0 | 43% | L3 | Enforces the use of classes for complex state management (state machines) in Sve… |
 | [Admin and Seed Data](admin-and-seed-data/) | raffaeler | ★ 0 | 43% | L2 | Manage database seeding, reset operations, and the admin interface. |
+| [analyze-bundle](analyze-bundle/) | s-hirano-ist | ★ 0 | 43% | L3 | Next.jsアプリのクライアントバンドルを分析し、最適化可能な箇所を特定してissue化する。 |
 | [Frontend Development](frontend-development/) | majiayu000 | ★ 0 | 41% | L3 | พัฒนา Frontend ด้วย Angular, React, Vue, Next.js อย่างมืออาชีพ |
 | [frontend-design](frontend-design/) | splits-network | ★ 0 | 41% | L3 | UI/UX design patterns using DaisyUI v5 and TailwindCSS for Splits Network |
 | [L3 Control Center](l3-control-center/) | JamornzMedia | ★ 0 | 41% | L3 | OBS Lower Third Controller with Excel data import and dynamic card management |
@@ -306,6 +317,7 @@
 | [web-artifacts-builder](web-artifacts-builder/) | majiayu000 | ★ 0 | 41% | L3 | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts … |
 | [ring:dev-refactor-frontend](ring-dev-refactor-frontend/) | LerianStudio | ★ 0 | 41% | L3 | Visual HTML change report from ring:visual-explainer |
 | [frontend-react-testing-strategy](frontend-react-testing-strategy/) | valec3 | ★ 0 | 41% | L3 | Standardized guidelines and patterns for Frontend React Testing Strategy. |
+| [factory-spec](factory-spec/) | SylvainChabaud | ★ 0 | 41% | L3 | Phase MODEL - Génère specs + ADR + rules |
 | [react](react/) | kprsnt2 | ★ 0 | 40% | L2 | React development patterns and best practices including hooks, state management,… |
 | [admin-interface-rules](admin-interface-rules/) | majiayu000 | ★ 0 | 39% | L3 | Rules for the Admin interface functionalities |
 | [html-specific-rules](html-specific-rules/) | majiayu000 | ★ 0 | 39% | L3 | Rules specific to HTML files, focusing on accessibility and Tailwind styling. |
@@ -330,6 +342,7 @@
 | [frontend-component](frontend-component/) | majiayu000 | ★ 0 | 28% | L3 | Create React components following project standards. |
 | [angular-best-practices-transloco](angular-best-practices-transloco/) | NeverSight | ★ 0 | 27% | L3 | Transloco i18n best practices for Angular. Install alongside angular-best-practi… |
 | [angular-best-practices-spartan](angular-best-practices-spartan/) | NeverSight | ★ 0 | 27% | L3 | Spartan UI (shadcn for Angular) best practices. Install alongside angular-best-p… |
+| [angular-v17](angular-v17/) | GoldenPanda1104 | ★ 0 | 24% | L2 | Angular 17. Proyecto usa este skill; contenido canónico en .ai-system. |
 
 ---
 

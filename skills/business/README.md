@@ -1,6 +1,6 @@
 # 📂 business
 
-> 233 skills in this category
+> 236 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -228,13 +228,16 @@
 | [performance-analytics](performance-analytics/) | propane-ai | ★ 0 | 45% | L2 | Analyze marketing performance with key metrics, trend analysis, and optimization… |
 | [solo-founder-gtm](solo-founder-gtm/) | chadboyda | ★ 0 | 45% | L2 | When the user is a solo founder building their GTM motion, wants to scale withou… |
 | [bexio](bexio/) | majiayu000 | ★ 0 | 45% | L3 | Bexio Swiss business software API for managing contacts, quotes/offers, invoices… |
+| [seo-geo-aeo](seo-geo-aeo/) | ashishgurprit | ★ 0 | 45% | L2 | Comprehensive search optimization skill covering SEO (Search Engine Optimization… |
 | [Sales Lead Enrichment](sales-lead-enrichment/) | SixtySecondsApp | ★ 0 | 44% | L2 | All sources consulted with data freshness timestamps |
 | [cfo](cfo/) | jforksy | ★ 0 | 44% | L2 | CFO Co-Pilot - strategic finance, valuation narrative, and VC readiness |
+| [Onboarding Check-in Drafter](onboarding-check-in-drafter/) | SixtySecondsApp | ★ 0 | 44% | L2 | Recommended date for next check-in milestone |
 | [metadata-and-seo-rules](metadata-and-seo-rules/) | majiayu000 | ★ 0 | 43% | L3 | Focuses on optimizing metadata and SEO to improve discoverability of the documen… |
 | [caching-strategy](caching-strategy/) | yeeehaooo | ★ 0 | 41% | L2 | Define explicit caching strategies for different data access patterns and consis… |
 | [email-notifications](email-notifications/) | splits-network | ★ 0 | 41% | L3 | Email template and notification patterns using Resend |
 | [crm-integration](crm-integration/) | a5c-ai | ★ 0 | 41% | L3 | Deep integration with CRM platforms for customer data and actions |
 | [email-triage-draft-replies](email-triage-draft-replies/) | majiayu000 | ★ 0 | 32% | L2 | Review unread email, categorize it, and draft replies (no sending without approv… |
+| [pagen](pagen/) | harperreed | ★ 0 | 32% | L2 | Personal CRM and contact management - manage contacts, relationships, and intera… |
 | [sns-patterns](sns-patterns/) | taiyousan15 | ★ 0 | 19% | L2 | SNS posting patterns and strategy |
 | [startup-go-to-market](startup-go-to-market/) | amo-tech-ai | ★ 0 | 18% | L1 | Merged into go-to-market. Use that skill instead. |
 

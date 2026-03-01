@@ -1,6 +1,6 @@
 # 📂 tools
 
-> 2,335 skills in this category
+> 2,348 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -1308,6 +1308,12 @@
 | [plan-generator](plan-generator/) | majiayu000 | ★ 0 | 48% | L3 | Creates structured plans from requirements. Generates comprehensive plans with s… |
 | [BuildAgent](buildagent/) | N4M3Z | ★ 0 | 48% | L3 | Create, validate, or audit agent definitions. USE WHEN create agent, new agent, … |
 | [skill-builder](skill-builder/) | majiayu000 | ★ 0 | 48% | L3 | Create new Claude Code skills with proper SKILL.md format, frontmatter, and best… |
+| [find-skill](find-skill/) | jbpayton | ★ 0 | 48% | L3 | Search for Agent Skills in local folders and on GitHub. Use when you need a capa… |
+| [pdf](pdf/) | krishagel | ★ 0 | 48% | L3 | Comprehensive PDF manipulation toolkit for extracting text and tables, creating … |
+| [qiskit](qiskit/) | tondevrel | ★ 0 | 48% | L3 | Comprehensive guide for Qiskit - IBM's quantum computing framework. Use for quan… |
+| [marketing-ideas](marketing-ideas/) | cristian473 | ★ 0 | 48% | L2 | When the user needs marketing ideas, inspiration, or strategies for their SaaS o… |
+| [skill-creator](skill-creator/) | duc01226 | ★ 0 | 48% | L3 | [Skill Management] Guide for creating effective skills, adding skill references,… |
+| [builder-workflow](builder-workflow/) | darraghh1 | ★ 0 | 48% | L3 | Phase-level implementation workflow for builder agents. Handles loading project … |
 | [statusline-customization](statusline-customization/) | MadAppGang | ★ 0 | 47% | L3 | Configuration reference and troubleshooting for the statusline plugin — sections… |
 | [typespec-m365-copilot](typespec-m365-copilot/) | pingqLIN | ★ 0 | 47% | L3 | Guidelines and best practices for building TypeSpec-based declarative agents and… |
 | [declarative-agents-microsoft365](declarative-agents-microsoft365/) | pingqLIN | ★ 0 | 47% | L3 | Comprehensive development guidelines for Microsoft 365 Copilot declarative agent… |
@@ -2091,6 +2097,9 @@
 | [claude-code-meta](claude-code-meta/) | majiayu000 | ★ 0 | 45% | L2 | Build Claude Code extensions - skills, agents, hooks, plugins, marketplaces, sla… |
 | [product-agent](product-agent/) | majiayu000 | ★ 0 | 45% | L3 | Discover and validate product ideas, analyze markets, scope MVPs, and optimize a… |
 | [plugin-marketplace-creator](plugin-marketplace-creator/) | mattnigh | ★ 0 | 45% | L3 | Plugin Marketplace構造を対話的に生成し、marketplace.json、plugin.json、ディレクトリ構造を自動作成するスキル。Use… |
+| [state](state/) | synaptiai | ★ 0 | 45% | L2 | Create representation of current world state for a domain. Use when modeling sys… |
+| [phx:init](phx-init/) | oliver-kriska | ★ 0 | 45% | L3 | Initialize Elixir/Phoenix plugin in a project. Installs auto-activation rules in… |
+| [family-history-planning](family-history-planning/) | prof-ramos | ★ 0 | 45% | L2 | Provides assistance with planning family history and genealogy research projects… |
 | [maven-build](maven-build/) | majiayu000 | ★ 0 | 44% | L3 | Maven build configuration for the crypto-scout multi-module Java 25 project |
 | [maven-build](maven-build/) | majiayu000 | ★ 0 | 44% | L3 | Maven build configuration for the crypto-scout multi-module Java 25 project |
 | [buildlog](buildlog/) | buildlogai | ★ 0 | 44% | L2 | Record, export, and share your AI coding sessions as replayable buildlogs |
@@ -2112,6 +2121,7 @@
 | [tooling](tooling/) | DaisukeYoda | ★ 0 | 43% | L3 | Python development tooling configuration and best practices |
 | [tooling](tooling/) | NeverSight | ★ 0 | 43% | L3 | Python development tooling configuration and best practices |
 | [a11y](a11y/) | pingqLIN | ★ 0 | 43% | L2 | Guidance for creating more accessible code Triggers on: ** |
+| [monorepo-and-tooling](monorepo-and-tooling/) | oimiragieo | ★ 0 | 43% | L3 | Outlines the monorepo structure and tooling conventions, emphasizing the use of … |
 | [be-critical](be-critical/) | pem725 | ★ 0 | 41% | L2 | Critically analyze the output and provide some depth of analysis. |
 | [ccn:create-topic](ccn-create-topic/) | majiayu000 | ★ 0 | 41% | L3 | Create a new topic file in .notes/ with frontmatter template |
 | [refresh-tarkovdev-schema](refresh-tarkovdev-schema/) | majiayu000 | ★ 0 | 41% | L3 | Update the tarkov.dev GraphQL schema and regenerate the Go client code |
@@ -2199,6 +2209,8 @@
 | [mcp-builder](mcp-builder/) | majiayu000 | ★ 0 | 41% | L3 | Guide for creating high-quality MCP (Model Context Protocol) servers |
 | [assessor](assessor/) | majiayu000 | ★ 0 | 41% | L2 | Assess a plugin and create refactoring task files for parallel agent execution |
 | [HexCore Binary Analysis](hexcore-binary-analysis/) | AkashaCorporation | ★ 0 | 41% | L3 | Skill para analise de binarios com ferramentas HexCore integradas ao editor |
+| [6-build-instructions](6-build-instructions/) | majiayu000 | ★ 0 | 41% | L3 | Final step in building instruction context for codebase |
+| [behavioral-modes](behavioral-modes/) | Dokhacgiakhoa | ★ 0 | 41% | L2 | AI operational modes (brainstorm, implement, debug, review, teach, ship, orchest… |
 | [jj-vcs-workflow](jj-vcs-workflow/) | UtakataKyosui | ★ 0 | 40% | L2 | Jujutsu (jj) VCS の総合ガイド。基本コマンド・Git移行・並列開発・履歴操作・PRレビュー・安全な push ワークフローをカバー。以下の場合に… |
 | [Incident Response](incident-response/) | cdalsoniii | ★ 0 | 39% | L2 | Guide structured incident response following severity-based protocols |
 | [pca-skill-manager](pca-skill-manager/) | majiayu000 | ★ 0 | 38% | L3 | Acelera a criacao e manutencao de skills do Claude. Automatiza o scaffolding de … |
@@ -2319,6 +2331,7 @@
 | [ralph](ralph/) | 1molchuan | ★ 0 | 31% | L2 | 持久化执行-验证-修复循环，直到任务完成 |
 | [Skill Generator](skill-generator/) | agentfront | ★ 0 | 31% | L2 | Generate a @Skill class |
 | [developer-support](developer-support/) | pluginagentmarketplace | ★ 0 | 31% | L3 | Supporting developers through technical assistance and community help |
+| [bun-publish](bun-publish/) | laurigates | ★ 0 | 31% | L3 | Publish package to npm with Bun build |
 | [semantic-release](semantic-release/) | ERP-CORE-DEV | ★ 0 | 28% | L2 | Automate versioning and release notes from conventional commits |
 | [commit](commit/) | haihvdev | ★ 0 | 28% | L2 | Tạo git commit với message tiếng Việt theo quy tắc trong CLAUDE.md |
 | [cc-soul-setup](cc-soul-setup/) | genomewalker | ★ 0 | 28% | L2 | Build cc-soul from source (requires cmake, make, C++ compiler) |

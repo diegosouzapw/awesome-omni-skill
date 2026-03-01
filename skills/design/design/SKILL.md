@@ -1,324 +1,119 @@
 ---
 name: design
-description: Create and manage project-specific design systems for SaaS applications. Use when starting a new app (CREATE mode), updating an existing design system (MODIFY mode), or building features that need to follow established patterns (WORK WITHIN mode). Outputs to instructions/design-system.md as the single source of truth for all UX/UI decisions.
+description: Design Thinking process—Empathize, Define, Ideate, Prototype, Test. Use for product design, solving ambiguous problems, or when you don't know what users really need.
+user-invocable: true
 ---
 
-# Design
+# Design Thinking Process
 
-Manage your app's design system through `instructions/design-system.md` - the single source of truth for all UX/UI work.
+Work through the full design thinking process—Empathize, Define, Ideate, Prototype, Test.
 
-## Choose Your Mode
+## Instructions
 
-**CREATE** → No design system yet, or extracting from existing code
-**MODIFY** → Have a design system, need to update it
-**WORK WITHIN** → Have a design system, building features that follow it
+Move through each phase, building on insights from the previous one. The process is iterative—expect to loop back based on what you learn.
 
----
+### Output Format
 
-## CREATE Mode
-
-Generate a new `instructions/design-system.md` from one of these entry points:
-
-### From URL (Reference App)
-
-Analyze a live app and extract its design patterns.
-
-**Tell AI:**
-```
-Analyze the design system at [URL].
-Identify: colors, typography, spacing, component patterns.
-Match to recognized framework (shadcn, Material UI, Radix, etc.).
-Generate instructions/design-system.md based on this analysis.
-```
-
-**Good reference apps:**
-- linear.app (minimal, fast, keyboard-focused)
-- stripe.com/dashboard (data-heavy, clear hierarchy)
-- notion.so (flexible, calm)
-- vercel.com (modern, technical)
-
-### From Code (Extract & Audit)
-
-Paste existing source code to extract and document current patterns.
-
-**Tell AI:**
-```
-Analyze this code and extract the design system:
-[paste relevant components, styles, or config files]
-
-Document: colors, typography, spacing, component specs.
-Identify inconsistencies (e.g., multiple button heights, conflicting colors).
-Generate instructions/design-system.md with recommendations to standardize.
-```
-
-**What to paste:**
-- Tailwind config or CSS variables
-- Button/Input/Card components
-- Theme or design token files
-- 2-3 representative page components
-
-### From Screenshot
-
-Upload an image as a visual reference.
-
-**Tell AI:**
-```
-Analyze this screenshot and extract the design system.
-Identify: colors, typography, spacing, component patterns.
-Match to closest recognized framework.
-Generate instructions/design-system.md based on this analysis.
-```
-
-**What to screenshot:**
-- Dashboard or main app view
-- A form or data entry screen
-- Navigation (sidebar or topnav)
-
-### From Scratch
-
-Start fresh with guided decisions.
-
-**Tell AI:**
-```
-Help me create a design system for [app type].
-I want it to feel like [reference: minimal/playful/professional/technical].
-Primary brand color: [color or "help me choose"].
-Generate instructions/design-system.md with sensible defaults.
-```
-
-See [LAWSOFUX.md](LAWSOFUX.md) for why certain patterns work better.
+**Challenge**: [What we're trying to solve]
+**Users**: [Who we're designing for]
 
 ---
 
-## MODIFY Mode
+## 1. EMPATHIZE
+*Understand the user and their context*
 
-Update an existing `instructions/design-system.md`:
+### User Profile
+| Attribute | Description |
+|-----------|-------------|
+| Who are they? | [Demographics, role] |
+| What's their context? | [Environment, circumstances] |
+| What are they trying to do? | [Goals, tasks] |
 
-### Update Values
+### User Pain Points
+| Pain Point | Severity | Current Workaround |
+|------------|----------|-------------------|
+| [pain] | High/Med/Low | [how they cope] |
 
-Change colors, fonts, or spacing.
-
-**Tell AI:**
-```
-Update instructions/design-system.md:
-- Change primary color from [old] to [new]
-- Update font from [old] to [new]
-Ensure all related values are updated (hover states, etc.).
-```
-
-### Add Patterns
-
-Add new component types not yet documented.
-
-**Tell AI:**
-```
-Add a [pricing table / data table / modal] pattern to instructions/design-system.md.
-Follow existing design system values (colors, spacing, typography).
-Reference: [URL or description of what you want]
-```
-
-See [COMPONENTS.md](COMPONENTS.md) for common SaaS component patterns.
-
-### Audit & Reconcile
-
-Compare current code to design system, resolve drift.
-
-**Tell AI:**
-```
-Audit this code against instructions/design-system.md:
-[paste code]
-
-Option A: List deviations so I can fix the code
-Option B: Update design-system.md to reflect what code actually does
-```
-
-**Always identifies:**
-- Inconsistent values (3 different grays, 2 button heights)
-- Undocumented patterns (components not in design system)
-- Unused specs (documented but not implemented)
-
-### Migrate Framework
-
-Transition from one component library to another.
-
-**Tell AI:**
-```
-Migrate instructions/design-system.md from [Material UI] to [shadcn].
-Keep existing colors, typography, and spacing.
-Update component specs to match new framework patterns.
-```
+### Empathy Map
+| Quadrant | Observations |
+|----------|--------------|
+| **Say** | [Quotes, statements] |
+| **Think** | [Beliefs, concerns] |
+| **Do** | [Actions, behaviors] |
+| **Feel** | [Emotions, reactions] |
 
 ---
 
-## WORK WITHIN Mode
+## 2. DEFINE
+*Frame the problem worth solving*
 
-Reference existing `instructions/design-system.md` when building:
+### Point of View Statement
+**[User]** needs **[need]** because **[insight]**.
 
-### Build Feature
+### How Might We Questions
+- How might we [opportunity 1]?
+- How might we [opportunity 2]?
 
-Follow the system when implementing new UI.
-
-**Tell AI:**
-```
-Build [feature description].
-Follow instructions/design-system.md for all design decisions.
-Use the documented colors, typography, spacing, and component patterns.
-```
-
-### Review Compliance
-
-Check AI-built code against the system.
-
-**Tell AI:**
-```
-Review this code for design system compliance:
-[paste code]
-
-Check against instructions/design-system.md.
-Flag any deviations from documented patterns.
-```
-
-### Answer Questions
-
-Quick design decisions.
-
-**Tell AI:**
-```
-Based on instructions/design-system.md:
-- What color should [element] be?
-- What spacing between [A] and [B]?
-- Which button variant for [action]?
-```
+### Problem Statement
+> **The Challenge**: [Specific, actionable problem to solve]
 
 ---
 
-## Design-System.md Structure
+## 3. IDEATE
+*Generate many possible solutions*
 
-When CREATE mode generates the file, it follows this structure:
+### Ideas Generated
+| # | Idea | Type |
+|---|------|------|
+| 1 | [idea] | Safe / Moderate / Wild |
+| 2 | [idea] | Safe / Moderate / Wild |
+| 3 | [idea] | Safe / Moderate / Wild |
 
-```markdown
-# Design System
-
-## Reference
-- Primary reference: [app name/URL]
-- Component library: [shadcn/Material UI/Radix/custom]
-- Design philosophy: [minimal/playful/professional/technical]
-
-## Colors
-
-### Brand
-- Primary: #XXXXXX
-- Primary hover: #XXXXXX
-
-### Gray Scale
-- 50: #XXXXXX (backgrounds)
-- 100-400: [values]
-- 500: #XXXXXX (borders, secondary text)
-- 600-800: [values]
-- 900: #XXXXXX (primary text)
-
-### Semantic
-- Success: #XXXXXX
-- Error: #XXXXXX
-- Warning: #XXXXXX
-
-## Typography
-
-### Font
-- Family: [Inter/SF Pro/etc.]
-- Fallback: system-ui, sans-serif
-
-### Scale
-- H1: 32px / 1.2 line-height / semibold
-- H2: 24px / 1.25 / semibold
-- H3: 20px / 1.3 / medium
-- Body: 16px / 1.5 / regular
-- Small: 14px / 1.5 / regular
-- Tiny: 12px / 1.4 / regular
-
-## Spacing
-
-- Base unit: 4px
-- Scale: 4, 8, 12, 16, 24, 32, 48, 64
-- Component padding: 16px
-- Section spacing: 32px
-- Card gap: 16px
-
-## Components
-
-### Buttons
-| Variant | Background | Text | Height | Padding | Border Radius |
-|---------|------------|------|--------|---------|---------------|
-| Primary | primary | white | 40px | 16px 24px | 6px |
-| Secondary | gray-100 | gray-900 | 40px | 16px 24px | 6px |
-| Ghost | transparent | gray-600 | 40px | 16px 24px | 6px |
-| Destructive | error | white | 40px | 16px 24px | 6px |
-
-States: hover (darken 10%), active (darken 15%), disabled (opacity 50%)
-
-### Inputs
-- Height: 40px
-- Border: 1px gray-300
-- Border radius: 6px
-- Padding: 12px
-- Focus: primary border + ring
-- Error: error border
-- Disabled: gray-100 background
-
-### Cards
-- Background: white
-- Border: 1px gray-200 OR shadow-sm
-- Border radius: 8px
-- Padding: 16px or 24px
-
-## Patterns
-
-### Navigation
-- Style: [sidebar/topnav/both]
-- Width: [if sidebar, e.g., 240px]
-- Behavior: [collapsible/fixed/responsive]
-
-### Forms
-- Layout: single column, labels above
-- Field spacing: 16px
-- Button placement: right-aligned
-- Validation: inline, on blur
-
-### Tables
-- Row height: 48px
-- Actions: right side
-- Hover: gray-50 background
-- Pagination: bottom
-
-## Inconsistencies Found
-[If extracted from existing code, list what was found and standardized]
-- Example: Found 3 button heights (36px, 40px, 44px) → standardized to 40px
-```
+### Top Ideas to Prototype
+| Idea | Why This One? | Feasibility |
+|------|---------------|-------------|
+| [idea] | [rationale] | High/Med/Low |
 
 ---
 
-## User Override
+## 4. PROTOTYPE
+*Make ideas tangible quickly*
 
-If you already have a `instructions/design-system.md` file, it takes precedence over any generated recommendations. The skill will work within your documented system.
+**Idea to prototype**: [Which idea]
 
----
+**Prototype type**: Paper mockup / Wireframe / Physical model / Storyboard
 
-## Common Mistakes
-
-| Mistake | Fix |
-|---------|-----|
-| Building UI without design system | CREATE mode first, then build |
-| Inconsistent components | Use MODIFY → Audit & Reconcile |
-| "It looks off but I can't say why" | Check compliance against design-system.md |
-| Reinventing patterns | Reference [COMPONENTS.md](COMPONENTS.md) for proven SaaS patterns |
-| Ignoring UX principles | Reference [LAWSOFUX.md](LAWSOFUX.md) for why patterns work |
+**What we're testing**:
+- [Assumption/question 1]
+- [Assumption/question 2]
 
 ---
 
-## Success Looks Like
+## 5. TEST
+*Learn from real users*
 
-✅ Every project has `instructions/design-system.md`
-✅ AI builds consistent UI without repeated instructions
-✅ Design decisions are documented, not guessed
-✅ Code audits catch drift before it compounds
-✅ New team members/contractors have clear reference
+**Who to test with**: [User profile]
+
+**Questions to answer**:
+1. [Question]?
+2. [Question]?
+
+**Success indicators**: [What would indicate this works]
+
+**Failure indicators**: [What would indicate this fails]
+
+---
+
+## Next Iteration
+
+Based on what we learn, we'll likely need to revisit:
+- [ ] Empathize / [ ] Define / [ ] Ideate / [ ] Prototype / [ ] Test
+
+## Guidelines
+
+- Empathy is research, not assumption—talk to real users
+- "How might we" keeps problems open and generative
+- Prototype to think, not just to test
+- Test early, test often, test cheaply
+
+$ARGUMENTS

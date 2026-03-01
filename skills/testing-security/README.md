@@ -1,6 +1,6 @@
 # 📂 testing-security
 
-> 799 skills in this category
+> 806 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -332,6 +332,9 @@
 | [skill-authoring](skill-authoring/) | z3z1ma | ★ 0 | 48% | L3 | Create high-quality skills: scoped, procedural, and durable. Prefer updates over… |
 | [playwright-e2e-tester](playwright-e2e-tester/) | curiositech | ★ 0 | 48% | L3 | Expert in end-to-end testing with Playwright, the modern cross-browser testing f… |
 | [testing-quality](testing-quality/) | gajakannan | ★ 0 | 48% | L3 | Plans and executes comprehensive testing strategy across frontend, backend, and … |
+| [managing-dependencies](managing-dependencies/) | majiayu000 | ★ 0 | 48% | L3 | Evaluates packages, manages dependencies, and addresses supply chain security. U… |
+| [reviewer](reviewer/) | intelligentcode-ai | ★ 0 | 48% | L3 | Activate when reviewing code, before committing, after committing, or before mer… |
+| [auditor-workflow](auditor-workflow/) | darraghh1 | ★ 0 | 48% | L3 | Group-level implementation audit workflow for auditor agents. Handles loading pr… |
 | [Compliance Audit](compliance-audit/) | cdalsoniii | ★ 0 | 46% | L2 | Audit technical controls against compliance framework requirements |
 | [doc-coauthoring](doc-coauthoring/) | rafaelramosdf | ★ 0 | 45% | L2 | Guia os usuários através de um fluxo de trabalho estruturado para coautoria de d… |
 | [cc-data-organization](cc-data-organization/) | majiayu000 | ★ 0 | 45% | L2 | Audit and fix data organization: variable declarations, data types, magic number… |
@@ -655,6 +658,8 @@
 | [e2e-testing-patterns](e2e-testing-patterns/) | FlorinSenoner | ★ 0 | 45% | L3 | Build reliable, fast, and maintainable end-to-end test suites that provide confi… |
 | [appwrite-security-operations](appwrite-security-operations/) | yldst-dev | ★ 0 | 45% | L3 | Production security operations for Appwrite services. Use when defining security… |
 | [audit](audit/) | MichaelLeeHobbs | ★ 0 | 45% | L3 | Comma-separated list of audit types (e.g., 'dead-code,pii,soc2') or 'all'. If om… |
+| [solana-program-dev](solana-program-dev/) | moshthepitt | ★ 0 | 45% | L2 | Design, implement, test, and security-review modern Solana programs (native Rust… |
+| [exploratory-testing-advanced](exploratory-testing-advanced/) | mattnigh | ★ 0 | 45% | L3 | Advanced exploratory testing techniques with Session-Based Test Management (SBTM… |
 | [tinman](tinman/) | Niraven | ★ 0 | 44% | L3 | Security auditing and hardening for OpenClaw and system infrastructure. |
 | [Sharing Skills](sharing-skills/) | majiayu000 | ★ 0 | 44% | L3 | Contribute skills back to upstream via branch and PR |
 | [testing-strategy](testing-strategy/) | mattnigh | ★ 0 | 44% | L3 | Comprehensive guide for implementing AIDB tests following E2E-first philosophy, |
@@ -671,6 +676,7 @@
 | [moai-security-zero-trust](moai-security-zero-trust/) | majiayu000 | ★ 0 | 44% | L3 | Enterprise Skill for advanced development |
 | [testing](testing/) | 89jobrien | ★ 0 | 44% | L3 | Comprehensive testing specialization covering test strategy, automation, |
 | [testing](testing/) | majiayu000 | ★ 0 | 44% | L3 | Comprehensive testing specialization covering test strategy, automation, |
+| [spring-security](spring-security/) | phuccodenub | ★ 0 | 44% | L2 | Spring Security 6 patterns for authentication, authorization, and OAuth2 |
 | [SAST Triage](sast-triage/) | cdalsoniii | ★ 0 | 43% | L2 | Triage static analysis findings from gosec, golangci-lint, and govulncheck — cla… |
 | [BDD from API Spec](bdd-from-api-spec/) | cdalsoniii | ★ 0 | 43% | L2 | Generate Gherkin BDD feature files from API handler definitions — map endpoints … |
 | [aidf-developer](aidf-developer/) | rubenmavarezb | ★ 0 | 43% | L3 | Senior developer who writes clean, tested, maintainable code. Follows establishe… |
@@ -796,6 +802,7 @@
 | [playwright](playwright/) | majiayu000 | ★ 0 | 26% | L2 | Playwright E2E testing patterns and best practices. Cross-browser automation, se… |
 | [Global Security](global-security/) | majiayu000 | ★ 0 | 26% | L2 | Your approach to handling global security. Use this skill when working on files … |
 | [Global Security](global-security/) | jaypaulb | ★ 0 | 26% | L2 | Your approach to handling global security. Use this skill when working on files … |
+| [Global Security](global-security/) | majiayu000 | ★ 0 | 26% | L2 | Your approach to handling global security. Use this skill when working on files … |
 | [hlab-auditor](hlab-auditor/) | majiayu000 | ★ 0 | 25% | L2 | Independent reviewer. Provide PASS/FAIL based on `docs/AUDIT-CHECKLIST.md`. |
 | [hlab-auditor](hlab-auditor/) | majiayu000 | ★ 0 | 25% | L2 | Independent reviewer. Provide PASS/FAIL based on `docs/AUDIT-CHECKLIST.md`. |
 | [jwt](jwt/) | GoldenPanda1104 | ★ 0 | 24% | L2 | JWT y auth. Proyecto usa este skill; contenido canónico en .ai-system. |

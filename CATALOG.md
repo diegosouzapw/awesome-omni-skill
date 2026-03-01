@@ -1,6 +1,6 @@
 # 📖 Full Skill Catalog
 
-> 16,459 skills, sorted alphabetically.
+> 16,726 skills, sorted alphabetically.
 
 
 ## _
@@ -141,6 +141,7 @@
 | [1k-state-management](skills/data-ai/1k-state-management/) | data-ai | majiayu000 | ★ 1 |
 | [1password](skills/tools/1password/) | tools | majiayu000 | ★ 93 |
 | [1password](skills/tools/1password/) | tools | majiayu000 | ★ 2 |
+| [1password](skills/cli-automation/1password/) | cli-automation | jscraik | ★ 0 |
 | [1password-cli](skills/tools/1password-cli/) | tools | majiayu000 | ★ 92 |
 | [1password-cli](skills/tools/1password-cli/) | tools | majiayu000 | ★ 1 |
 | [1password-direnv-secrets](skills/devops/1password-direnv-secrets/) | devops | majiayu000 | ★ 92 |
@@ -260,6 +261,7 @@
 | [6-build-instructions](skills/tools/6-build-instructions/) | tools | majiayu000 | ★ 92 |
 | [6-build-instructions](skills/tools/6-build-instructions/) | tools | majiayu000 | ★ 1 |
 | [6-build-instructions](skills/tools/6-build-instructions/) | tools | bitovi | ★ 0 |
+| [6-build-instructions](skills/tools/6-build-instructions/) | tools | majiayu000 | ★ 0 |
 | [60-validate-tests-150](skills/testing-security/60-validate-tests-150/) | testing-security | majiayu000 | ★ 92 |
 | [60-validate-tests-150](skills/testing-security/60-validate-tests-150/) | testing-security | majiayu000 | ★ 1 |
 | [61-validate-lint-150](skills/development/61-validate-lint-150/) | development | majiayu000 | ★ 92 |
@@ -761,6 +763,7 @@
 | [accessibility-auditing](skills/testing-security/accessibility-auditing/) | testing-security | majiayu000 | ★ 1 |
 | [accessibility-basic-check](skills/design/accessibility-basic-check/) | design | majiayu000 | ★ 94 |
 | [accessibility-basic-check](skills/design/accessibility-basic-check/) | design | majiayu000 | ★ 1 |
+| [accessibility-by-default](skills/design/accessibility-by-default/) | design | noejunior299 | ★ 0 |
 | [accessibility-check](skills/testing-security/accessibility-check/) | testing-security | majiayu000 | ★ 94 |
 | [accessibility-check](skills/testing-security/accessibility-check/) | testing-security | majiayu000 | ★ 1 |
 | [accessibility-checker](skills/testing-security/accessibility-checker/) | testing-security | majiayu000 | ★ 94 |
@@ -981,6 +984,7 @@
 | [activecampaign-email-marketing](skills/business/activecampaign-email-marketing/) | business | majiayu000 | ★ 1 |
 | [activepieces](skills/cli-automation/activepieces/) | cli-automation | majiayu000 | ★ 94 |
 | [activepieces](skills/cli-automation/activepieces/) | cli-automation | majiayu000 | ★ 1 |
+| [ActiveRecord Patterns](skills/backend/activerecord-patterns/) | backend | betamatt | ★ 0 |
 | [ActiveRecord Query Patterns](skills/development/activerecord-query-patterns/) | development | majiayu000 | ★ 94 |
 | [ActiveRecord Query Patterns](skills/backend/activerecord-query-patterns/) | backend | majiayu000 | ★ 94 |
 | [ActiveRecord Query Patterns](skills/development/activerecord-query-patterns/) | development | majiayu000 | ★ 2 |
@@ -1231,6 +1235,7 @@
 | [add-protected-page](skills/development/add-protected-page/) | development | majiayu000 | ★ 2 |
 | [add-provider](skills/ai-agents/add-provider/) | ai-agents | majiayu000 | ★ 94 |
 | [add-provider](skills/data-ai/add-provider/) | data-ai | majiayu000 | ★ 2 |
+| [add-provider](skills/ai-agents/add-provider/) | ai-agents | agentconfig | ★ 0 |
 | [add-query-filter](skills/backend/add-query-filter/) | backend | majiayu000 | ★ 94 |
 | [add-query-filter](skills/development/add-query-filter/) | development | majiayu000 | ★ 2 |
 | [add-reaction](skills/frontend/add-reaction/) | frontend | majiayu000 | ★ 94 |
@@ -2229,6 +2234,7 @@
 | [agentic-docs](skills/documentation/agentic-docs/) | documentation | majiayu000 | ★ 0 |
 | [agentic-docs](skills/documentation/agentic-docs/) | documentation | petekp | ★ 0 |
 | [agentic-docs](skills/documentation/agentic-docs/) | documentation | NeverSight | ★ 0 |
+| [agentic-docs](skills/ai-agents/agentic-docs/) | ai-agents | majiayu000 | ★ 0 |
 | [agentic-engineering-workflow](skills/ai-agents/agentic-engineering-workflow/) | ai-agents | majiayu000 | ★ 2 |
 | [agentic-issue-assistant](skills/data-ai/agentic-issue-assistant/) | data-ai | ephabe | ★ 0 |
 | [agentic-jujutsu](skills/ai-agents/agentic-jujutsu/) | ai-agents | majiayu000 | ★ 2 |
@@ -2493,6 +2499,7 @@
 | [ahu-psychro](skills/ai-agents/ahu-psychro/) | ai-agents | majiayu000 | ★ 2 |
 | [ahu-qa](skills/design/ahu-qa/) | design | majiayu000 | ★ 2 |
 | [ahu-thermal](skills/design/ahu-thermal/) | design | majiayu000 | ★ 2 |
+| [AI Ark Similarity Search](skills/cli-automation/ai-ark-similarity-search/) | cli-automation | SixtySecondsApp | ★ 0 |
 | [AI Cross Validator](skills/development/ai-cross-validator/) | development | majiayu000 | ★ 2 |
 | [AI Data Privacy](skills/data-ai/ai-data-privacy/) | data-ai | majiayu000 | ★ 2 |
 | [AI Engineer](skills/data-ai/ai-engineer/) | data-ai | majiayu000 | ★ 92 |
@@ -2542,6 +2549,7 @@
 | [ai-agents-architect](skills/ai-agents/ai-agents-architect/) | ai-agents | sickn33 | ★ 16.7k |
 | [ai-agents-architect](skills/data-ai/ai-agents-architect/) | data-ai | sickn33 | ★ 15.4k |
 | [ai-agents-architect](skills/ai-agents/ai-agents-architect/) | ai-agents | majiayu000 | ★ 2 |
+| [ai-agents-dashboard](skills/ai-agents/ai-agents-dashboard/) | ai-agents | niveshdandyan | ★ 0 |
 | [ai-analyzer](skills/frontend/ai-analyzer/) | frontend | majiayu000 | ★ 2 |
 | [ai-annotation-workflow](skills/data-ai/ai-annotation-workflow/) | data-ai | majiayu000 | ★ 2 |
 | [ai-anti-patterns](skills/development/ai-anti-patterns/) | development | majiayu000 | ★ 2 |
@@ -2585,6 +2593,7 @@
 | [ai-code-review-collaboration](skills/data-ai/ai-code-review-collaboration/) | data-ai | mkalhitti-cloud | ★ 0 |
 | [ai-coding-agents](skills/data-ai/ai-coding-agents/) | data-ai | xiaolai | ★ 0 |
 | [ai-coding-agents](skills/data-ai/ai-coding-agents/) | data-ai | NeverSight | ★ 0 |
+| [ai-coding-shield](skills/development/ai-coding-shield/) | development | AI-Coding-Shield | ★ 0 |
 | [ai-collaborate-teaching](skills/development/ai-collaborate-teaching/) | development | majiayu000 | ★ 2 |
 | [ai-comm](skills/development/ai-comm/) | development | majiayu000 | ★ 2 |
 | [ai-consultants](skills/data-ai/ai-consultants/) | data-ai | matteoscurati | ★ 0 |
@@ -2635,6 +2644,7 @@
 | [ai-file-analyzer](skills/design/ai-file-analyzer/) | design | majiayu000 | ★ 2 |
 | [ai-gateway](skills/ai-agents/ai-gateway/) | ai-agents | majiayu000 | ★ 2 |
 | [ai-generation-client](skills/content-media/ai-generation-client/) | content-media | majiayu000 | ★ 2 |
+| [ai-generative-ui](skills/frontend/ai-generative-ui/) | frontend | mattwoodco | ★ 0 |
 | [ai-governance](skills/testing-security/ai-governance/) | testing-security | majiayu000 | ★ 2 |
 | [ai-html-generate](skills/frontend/ai-html-generate/) | frontend | majiayu000 | ★ 2 |
 | [ai-image](skills/ai-agents/ai-image/) | ai-agents | majiayu000 | ★ 2 |
@@ -2646,6 +2656,7 @@
 | [ai-image-tools](skills/tools/ai-image-tools/) | tools | majiayu000 | ★ 2 |
 | [ai-insights-and-ux-copy](skills/design/ai-insights-and-ux-copy/) | design | majiayu000 | ★ 2 |
 | [ai-integration](skills/data-ai/ai-integration/) | data-ai | bulbulogludemir | ★ 0 |
+| [ai-interaction-patterns](skills/design/ai-interaction-patterns/) | design | Integrum-Global | ★ 0 |
 | [ai-interaction-patterns](skills/design/ai-interaction-patterns/) | design | Integrum-Global | ★ 0 |
 | [ai-llm](skills/ai-agents/ai-llm/) | ai-agents | majiayu000 | ★ 2 |
 | [ai-llm-inference](skills/ai-agents/ai-llm-inference/) | ai-agents | majiayu000 | ★ 2 |
@@ -2760,6 +2771,7 @@
 | [ai-transcript-analyzer](skills/ai-agents/ai-transcript-analyzer/) | ai-agents | majiayu000 | ★ 2 |
 | [ai-trend-daily](skills/data-ai/ai-trend-daily/) | data-ai | monjofight | ★ 0 |
 | [ai-tuning](skills/ai-agents/ai-tuning/) | ai-agents | majiayu000 | ★ 2 |
+| [ai-tuning](skills/ai-agents/ai-tuning/) | ai-agents | Ven0m0 | ★ 0 |
 | [ai-usage](skills/ai-agents/ai-usage/) | ai-agents | cruzanstx | ★ 0 |
 | [ai-usage-coach](skills/data-ai/ai-usage-coach/) | data-ai | jcarroll2007 | ★ 0 |
 | [ai-vendor-evaluation](skills/tools/ai-vendor-evaluation/) | tools | majiayu000 | ★ 2 |
@@ -2922,6 +2934,7 @@
 | [alignfirst](skills/cli-automation/alignfirst/) | cli-automation | majiayu000 | ★ 2 |
 | [alignment-level-QC](skills/development/alignment-level-qc/) | development | majiayu000 | ★ 92 |
 | [alignment-level-QC](skills/development/alignment-level-qc/) | development | majiayu000 | ★ 1 |
+| [alignment-protocol](skills/cli-automation/alignment-protocol/) | cli-automation | onEnterFrame | ★ 0 |
 | [alignment-values-north-star](skills/development/alignment-values-north-star/) | development | majiayu000 | ★ 2 |
 | [aliyun-cli](skills/cli-automation/aliyun-cli/) | cli-automation | majiayu000 | ★ 2 |
 | [aliyun-operations](skills/backend/aliyun-operations/) | backend | majiayu000 | ★ 2 |
@@ -2989,6 +3002,7 @@
 | [amplitude](skills/data-ai/amplitude/) | data-ai | majiayu000 | ★ 2 |
 | [amplitude-automation](skills/cli-automation/amplitude-automation/) | cli-automation | sickn33 | ★ 16.7k |
 | [amplitude-automation](skills/tools/amplitude-automation/) | tools | sickn33 | ★ 15.4k |
+| [amplitude-ui-skills](skills/design/amplitude-ui-skills/) | design | ihlamury | ★ 0 |
 | [amq-cli](skills/cli-automation/amq-cli/) | cli-automation | majiayu000 | ★ 2 |
 | [ams](skills/development/ams/) | development | majiayu000 | ★ 2 |
 | [analizador-traccion](skills/devops/analizador-traccion/) | devops | majiayu000 | ★ 2 |
@@ -3049,6 +3063,7 @@
 | [analyze-agent-overlap](skills/data-ai/analyze-agent-overlap/) | data-ai | Reign-software | ★ 0 |
 | [analyze-architecture](skills/development/analyze-architecture/) | development | majiayu000 | ★ 2 |
 | [analyze-attachments](skills/business/analyze-attachments/) | business | majiayu000 | ★ 2 |
+| [analyze-bundle](skills/frontend/analyze-bundle/) | frontend | s-hirano-ist | ★ 0 |
 | [analyze-changes](skills/backend/analyze-changes/) | backend | majiayu000 | ★ 2 |
 | [analyze-chat-export](skills/ai-agents/analyze-chat-export/) | ai-agents | majiayu000 | ★ 2 |
 | [analyze-ci](skills/cli-automation/analyze-ci/) | cli-automation | majiayu000 | ★ 2 |
@@ -3170,6 +3185,7 @@
 | [angular-state-management](skills/development/angular-state-management/) | development | sickn33 | ★ 15.4k |
 | [angular-ui-patterns](skills/frontend/angular-ui-patterns/) | frontend | sickn33 | ★ 16.7k |
 | [angular-ui-patterns](skills/development/angular-ui-patterns/) | development | sickn33 | ★ 15.4k |
+| [angular-v17](skills/frontend/angular-v17/) | frontend | GoldenPanda1104 | ★ 0 |
 | [animating-advanced](skills/development/animating-advanced/) | development | majiayu000 | ★ 0 |
 | [animating-advanced](skills/tools/animating-advanced/) | tools | majiayu000 | ★ 0 |
 | [animation-best-practices](skills/development/animation-best-practices/) | development | sushichan044 | ★ 0 |
@@ -3216,6 +3232,7 @@
 | [anydocs](skills/documentation/anydocs/) | documentation | openclaw | ★ 0 |
 | [anysite-lead-generation](skills/development/anysite-lead-generation/) | development | anysiteio | ★ 0 |
 | [anysystem-design](skills/development/anysystem-design/) | development | NeverSight | ★ 0 |
+| [aoc](skills/development/aoc/) | development | majiayu000 | ★ 0 |
 | [aos-constitutional-governance](skills/tools/aos-constitutional-governance/) | tools | genesalvatore | ★ 0 |
 | [apaleo-automation](skills/tools/apaleo-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [apex](skills/development/apex/) | development | pingqLIN | ★ 0 |
@@ -3231,6 +3248,7 @@
 | [API Designer](skills/development/api-designer/) | development | daffy0208 | ★ 0 |
 | [API Designer](skills/development/api-designer/) | development | NeverSight | ★ 0 |
 | [API Designer](skills/development/api-designer/) | development | majiayu000 | ★ 0 |
+| [API Development](skills/backend/api-development/) | backend | majiayu000 | ★ 0 |
 | [API Documentation Generator](skills/development/api-documentation-generator/) | development | sethdford | ★ 0 |
 | [API Documentation Generator](skills/development/api-documentation-generator/) | development | openclaw | ★ 0 |
 | [API Documentation Lookup](skills/documentation/api-documentation-lookup/) | documentation | majiayu000 | ★ 0 |
@@ -3727,6 +3745,7 @@
 | [asterisk-tester](skills/testing-security/asterisk-tester/) | testing-security | majiayu000 | ★ 0 |
 | [astica-ai-automation](skills/data-ai/astica-ai-automation/) | data-ai | ComposioHQ | ★ 37.3k |
 | [astro-monorepo](skills/tools/astro-monorepo/) | tools | matthewp | ★ 0 |
+| [Async Feedback Loop](skills/ai-agents/async-feedback-loop/) | ai-agents | Sounder25 | ★ 0 |
 | [async-interview-automation](skills/tools/async-interview-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [async-jobs](skills/development/async-jobs/) | development | yonatangross | ★ 0 |
 | [async-jobs](skills/backend/async-jobs/) | backend | yonatangross | ★ 0 |
@@ -3799,6 +3818,7 @@
 | [auditing-accessibility-wcag](skills/testing-security/auditing-accessibility-wcag/) | testing-security | majiayu000 | ★ 1 |
 | [auditor-frontend-ui-ux](skills/development/auditor-frontend-ui-ux/) | development | MuhammedAlkhudiry | ★ 0 |
 | [auditor-gate](skills/testing-security/auditor-gate/) | testing-security | OilProducts | ★ 0 |
+| [auditor-workflow](skills/testing-security/auditor-workflow/) | testing-security | darraghh1 | ★ 0 |
 | [auth](skills/testing-security/auth/) | testing-security | majiayu000 | ★ 0 |
 | [auth-generic](skills/testing-security/auth-generic/) | testing-security | mdmagnuson-creator | ★ 0 |
 | [auth-http-api-cloudbase](skills/backend/auth-http-api-cloudbase/) | backend | majiayu000 | ★ 0 |
@@ -3877,28 +3897,38 @@
 | [avatar](skills/development/avatar/) | development | majiayu000 | ★ 0 |
 | [awaken](skills/tools/awaken/) | tools | thiansit | ★ 0 |
 | [award-winning-designer](skills/development/award-winning-designer/) | development | 0-CYBERDYNE-SYSTEMS-0 | ★ 0 |
+| [awareness-analyzer](skills/development/awareness-analyzer/) | development | az9713 | ★ 0 |
 | [awesome-code](skills/development/awesome-code/) | development | huangwb8 | ★ 0 |
 | [awesome-copilot](skills/tools/awesome-copilot/) | tools | majiayu000 | ★ 0 |
 | [awesome-copilot](skills/tools/awesome-copilot/) | tools | majiayu000 | ★ 0 |
 | [awesome-copilot](skills/tools/awesome-copilot/) | tools | fgarofalo56 | ★ 0 |
 | [awesome-copilot](skills/ai-agents/awesome-copilot/) | ai-agents | majiayu000 | ★ 0 |
 | [awesome-copilot-meta-agentic-project-scaffold](skills/tools/awesome-copilot-meta-agentic-project-scaffold/) | tools | sla-te | ★ 0 |
+| [awesome-copilot-root-accessibility](skills/design/awesome-copilot-root-accessibility/) | design | sla-te | ★ 0 |
 | [awesome-copilot-root-agent-governance](skills/data-ai/awesome-copilot-root-agent-governance/) | data-ai | sla-te | ★ 0 |
 | [awesome-copilot-root-agent-orchestrator](skills/devops/awesome-copilot-root-agent-orchestrator/) | devops | sla-te | ★ 0 |
 | [awesome-copilot-root-architecture-blueprint-generator](skills/tools/awesome-copilot-root-architecture-blueprint-generator/) | tools | sla-te | ★ 0 |
+| [awesome-copilot-root-arm-migration](skills/devops/awesome-copilot-root-arm-migration/) | devops | sla-te | ★ 0 |
+| [awesome-copilot-root-atlassian-requirements-to-jira](skills/product/awesome-copilot-root-atlassian-requirements-to-jira/) | product | sla-te | ★ 0 |
 | [awesome-copilot-root-context7](skills/development/awesome-copilot-root-context7/) | development | sla-te | ★ 0 |
+| [awesome-copilot-root-copilot-sdk](skills/ai-agents/awesome-copilot-root-copilot-sdk/) | ai-agents | sla-te | ★ 0 |
 | [awesome-copilot-root-create-spring-boot-java-project](skills/development/awesome-copilot-root-create-spring-boot-java-project/) | development | sla-te | ★ 0 |
 | [awesome-copilot-root-dotnet-upgrade](skills/development/awesome-copilot-root-dotnet-upgrade/) | development | sla-te | ★ 0 |
 | [awesome-copilot-root-droid](skills/tools/awesome-copilot-root-droid/) | tools | sla-te | ★ 0 |
+| [awesome-copilot-root-drupal-expert](skills/development/awesome-copilot-root-drupal-expert/) | development | sla-te | ★ 0 |
 | [awesome-copilot-root-excalidraw-diagram-generator](skills/tools/awesome-copilot-root-excalidraw-diagram-generator/) | tools | sla-te | ★ 0 |
+| [awesome-copilot-root-kotlin-mcp-expert](skills/development/awesome-copilot-root-kotlin-mcp-expert/) | development | sla-te | ★ 0 |
 | [awesome-copilot-root-kusto-assistant](skills/development/awesome-copilot-root-kusto-assistant/) | development | sla-te | ★ 0 |
 | [awesome-copilot-root-laravel-expert-agent](skills/development/awesome-copilot-root-laravel-expert-agent/) | development | sla-te | ★ 0 |
 | [awesome-copilot-root-mcp-create-declarative-agent](skills/data-ai/awesome-copilot-root-mcp-create-declarative-agent/) | data-ai | sla-te | ★ 0 |
 | [awesome-copilot-root-mcp-m365-agent-expert](skills/data-ai/awesome-copilot-root-mcp-m365-agent-expert/) | data-ai | sla-te | ★ 0 |
 | [awesome-copilot-root-meta-agentic-project-scaffold](skills/tools/awesome-copilot-root-meta-agentic-project-scaffold/) | tools | sla-te | ★ 0 |
+| [awesome-copilot-root-modernization](skills/ai-agents/awesome-copilot-root-modernization/) | ai-agents | sla-te | ★ 0 |
 | [awesome-copilot-root-openapi-to-application](skills/development/awesome-copilot-root-openapi-to-application/) | development | sla-te | ★ 0 |
 | [awesome-copilot-root-php-mcp-expert](skills/development/awesome-copilot-root-php-mcp-expert/) | development | sla-te | ★ 0 |
 | [awesome-copilot-root-remember](skills/development/awesome-copilot-root-remember/) | development | sla-te | ★ 0 |
+| [awesome-copilot-root-rust-mcp-expert](skills/development/awesome-copilot-root-rust-mcp-expert/) | development | sla-te | ★ 0 |
+| [awesome-copilot-root-shopify-expert](skills/ai-agents/awesome-copilot-root-shopify-expert/) | ai-agents | sla-te | ★ 0 |
 | [awesome-copilot-root-typescript-mcp-expert](skills/development/awesome-copilot-root-typescript-mcp-expert/) | development | sla-te | ★ 0 |
 | [awesome-copilot-root-typespec-create-agent](skills/data-ai/awesome-copilot-root-typespec-create-agent/) | data-ai | sla-te | ★ 0 |
 | [awesome-copilot-root-voidbeast-gpt41enhanced](skills/tools/awesome-copilot-root-voidbeast-gpt41enhanced/) | tools | sla-te | ★ 0 |
@@ -3931,6 +3961,7 @@
 | [aws-cost-optimizer](skills/devops/aws-cost-optimizer/) | devops | sickn33 | ★ 16.7k |
 | [aws-cost-optimizer](skills/devops/aws-cost-optimizer/) | devops | sickn33 | ★ 15.4k |
 | [aws-deploy](skills/devops/aws-deploy/) | devops | NotDannyCrawford | ★ 0 |
+| [aws-ecs-monitor](skills/devops/aws-ecs-monitor/) | devops | openclaw | ★ 0 |
 | [aws-iam](skills/devops/aws-iam/) | devops | TrevorEdris | ★ 0 |
 | [aws-iam-best-practices](skills/testing-security/aws-iam-best-practices/) | testing-security | sickn33 | ★ 16.9k |
 | [aws-iam-best-practices](skills/testing-security/aws-iam-best-practices/) | testing-security | sickn33 | ★ 15.5k |
@@ -3984,6 +4015,8 @@
 | [axiom-swiftui-debugging](skills/design/axiom-swiftui-debugging/) | design | megastep | ★ 0 |
 | [axiom-swiftui-nav-diag](skills/development/axiom-swiftui-nav-diag/) | development | majiayu000 | ★ 0 |
 | [axiom-xcode-mcp-setup](skills/tools/axiom-xcode-mcp-setup/) | tools | CharlesWiltgen | ★ 0 |
+| [axiom-xcode-mcp-setup](skills/cli-automation/axiom-xcode-mcp-setup/) | cli-automation | megastep | ★ 0 |
+| [axiom-xctrace-ref](skills/cli-automation/axiom-xctrace-ref/) | cli-automation | CharlesWiltgen | ★ 0 |
 | [axolotl-federation](skills/development/axolotl-federation/) | development | aexol-studio | ★ 0 |
 | [axonaut-automation](skills/tools/axonaut-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [axum-web-framework](skills/development/axum-web-framework/) | development | manutej | ★ 0 |
@@ -4099,6 +4132,7 @@
 | [bac-presentation-generator](skills/frontend/bac-presentation-generator/) | frontend | wizardofwozzz | ★ 0 |
 | [backend](skills/backend/backend/) | backend | haliskoc | ★ 0 |
 | [backend](skills/development/backend/) | development | HenderOrlando | ★ 0 |
+| [backend](skills/backend/backend/) | backend | bulbulogludemir | ★ 0 |
 | [backend](skills/development/backend/) | development | pluginagentmarketplace | ★ 0 |
 | [Backend API](skills/development/backend-api/) | development | overtimepog | ★ 0 |
 | [Backend API](skills/development/backend-api/) | development | majiayu000 | ★ 0 |
@@ -4352,7 +4386,10 @@
 | [beads-task-management](skills/cli-automation/beads-task-management/) | cli-automation | majiayu000 | ★ 0 |
 | [beads-worker](skills/tools/beads-worker/) | tools | vega113 | ★ 0 |
 | [beamer-automation](skills/tools/beamer-automation/) | tools | ComposioHQ | ★ 37.3k |
+| [bear](skills/fullstack-web/bear/) | fullstack-web | majiayu000 | ★ 0 |
+| [bear](skills/fullstack-web/bear/) | fullstack-web | eanair | ★ 0 |
 | [bear-notes](skills/tools/bear-notes/) | tools | lalomorales22 | ★ 0 |
+| [beat](skills/devops/beat/) | devops | majiayu000 | ★ 0 |
 | [beautiful-mermaid](skills/data-ai/beautiful-mermaid/) | data-ai | Bob2622 | ★ 0 |
 | [beautiful-mermaid-diagrams](skills/data-ai/beautiful-mermaid-diagrams/) | data-ai | blackcater | ★ 0 |
 | [beautiful-mermaid-renderer](skills/data-ai/beautiful-mermaid-renderer/) | data-ai | d0ublecl1ck | ★ 0 |
@@ -4366,6 +4403,7 @@
 | [behavioral-modes](skills/development/behavioral-modes/) | development | sickn33 | ★ 15.4k |
 | [behavioral-modes](skills/data-ai/behavioral-modes/) | data-ai | majiayu000 | ★ 0 |
 | [behavioral-modes](skills/development/behavioral-modes/) | development | Harmitx7 | ★ 0 |
+| [behavioral-modes](skills/tools/behavioral-modes/) | tools | Dokhacgiakhoa | ★ 0 |
 | [bench-automation](skills/tools/bench-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [benchling-integration](skills/development/benchling-integration/) | development | oimiragieo | ★ 0 |
 | [benchmark-email-automation](skills/business/benchmark-email-automation/) | business | ComposioHQ | ★ 37.3k |
@@ -4515,6 +4553,7 @@
 | [bird](skills/content-media/bird/) | content-media | futurewithvibe | ★ 0 |
 | [bitbucket-automation](skills/cli-automation/bitbucket-automation/) | cli-automation | sickn33 | ★ 16.7k |
 | [bitbucket-automation](skills/tools/bitbucket-automation/) | tools | sickn33 | ★ 15.4k |
+| [bitbucket-server](skills/backend/bitbucket-server/) | backend | majiayu000 | ★ 0 |
 | [bitbucket-workflow](skills/devops/bitbucket-workflow/) | devops | Mindrally | ★ 0 |
 | [bitbucket-workflow](skills/devops/bitbucket-workflow/) | devops | NeverSight | ★ 0 |
 | [bitquery-automation](skills/tools/bitquery-automation/) | tools | ComposioHQ | ★ 37.3k |
@@ -4542,6 +4581,7 @@
 | [blocknative-automation](skills/tools/blocknative-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [blockrun](skills/ai-agents/blockrun/) | ai-agents | sickn33 | ★ 16.7k |
 | [blockrun](skills/data-ai/blockrun/) | data-ai | sickn33 | ★ 15.4k |
+| [blog-experiential](skills/content-media/blog-experiential/) | content-media | tikazyq | ★ 0 |
 | [blog-smoke-tests](skills/development/blog-smoke-tests/) | development | majiayu000 | ★ 0 |
 | [blog-smoke-tests](skills/development/blog-smoke-tests/) | development | openhive-network | ★ 0 |
 | [blog-smoke-tests](skills/development/blog-smoke-tests/) | development | majiayu000 | ★ 0 |
@@ -4595,6 +4635,7 @@
 | [bootstrap](skills/development/bootstrap/) | development | NeonTowel | ★ 0 |
 | [bootstrap](skills/data-ai/bootstrap/) | data-ai | majiayu000 | ★ 0 |
 | [bootstrap](skills/ai-agents/bootstrap/) | ai-agents | SimHacker | ★ 0 |
+| [bootstrap](skills/ai-agents/bootstrap/) | ai-agents | NeonTowel | ★ 0 |
 | [bootstrap-auto](skills/development/bootstrap-auto/) | development | duc01226 | ★ 0 |
 | [bootstrap-phase-workflow](skills/development/bootstrap-phase-workflow/) | development | mathonsunday | ★ 0 |
 | [borneo-automation](skills/tools/borneo-automation/) | tools | ComposioHQ | ★ 37.3k |
@@ -4626,6 +4667,7 @@
 | [brainstorming](skills/design/brainstorming/) | design | Light-Brands | ★ 0 |
 | [brainstorming](skills/design/brainstorming/) | design | Light-Brands | ★ 0 |
 | [brainstorming](skills/design/brainstorming/) | design | Light-Brands | ★ 0 |
+| [brainstorming](skills/backend/brainstorming/) | backend | oimiragieo | ★ 0 |
 | [brainstorming](skills/development/brainstorming/) | development | yonatangross | ★ 0 |
 | [brainstorming](skills/development/brainstorming/) | development | mattnigh | ★ 0 |
 | [brainstorming](skills/product/brainstorming/) | product | marciogiovanni | ★ 0 |
@@ -4666,6 +4708,7 @@
 | [breezy-hr-automation](skills/tools/breezy-hr-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [brevo-automation](skills/backend/brevo-automation/) | backend | sickn33 | ★ 16.7k |
 | [brevo-automation](skills/development/brevo-automation/) | development | sickn33 | ★ 15.4k |
+| [breweries](skills/cli-automation/breweries/) | cli-automation | jeffaf | ★ 0 |
 | [brex-automation](skills/tools/brex-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [brex-staging-automation](skills/tools/brex-staging-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [brightdata-automation](skills/data-ai/brightdata-automation/) | data-ai | ComposioHQ | ★ 37.3k |
@@ -4822,6 +4865,7 @@
 | [build-notes-file-rules](skills/tools/build-notes-file-rules/) | tools | majiayu000 | ★ 0 |
 | [build-things](skills/development/build-things/) | development | GigantHead | ★ 0 |
 | [BuildAgent](skills/tools/buildagent/) | tools | N4M3Z | ★ 0 |
+| [builder-workflow](skills/tools/builder-workflow/) | tools | darraghh1 | ★ 0 |
 | [Building Agent Skills](skills/design/building-agent-skills/) | design | majiayu000 | ★ 2 |
 | [building-a-work-plan](skills/design/building-a-work-plan/) | design | cyarie | ★ 0 |
 | [building-agents](skills/data-ai/building-agents/) | data-ai | majiayu000 | ★ 0 |
@@ -4861,11 +4905,13 @@
 | [bulk-sales-compliance](skills/testing-security/bulk-sales-compliance/) | testing-security | CaseMark | ★ 0 |
 | [bullmq-specialist](skills/backend/bullmq-specialist/) | backend | sickn33 | ★ 16.7k |
 | [bullmq-specialist](skills/development/bullmq-specialist/) | development | sickn33 | ★ 15.4k |
+| [bump-ios-version](skills/development/bump-ios-version/) | development | artsy | ★ 0 |
 | [Bun WebSockets](skills/development/bun-websockets/) | development | jarle | ★ 0 |
 | [bun-deploy](skills/devops/bun-deploy/) | devops | majiayu000 | ★ 0 |
 | [bun-deploy](skills/devops/bun-deploy/) | devops | majiayu000 | ★ 0 |
 | [bun-development](skills/development/bun-development/) | development | sickn33 | ★ 16.7k |
 | [bun-development](skills/development/bun-development/) | development | sickn33 | ★ 15.4k |
+| [bun-publish](skills/tools/bun-publish/) | tools | laurigates | ★ 0 |
 | [bun-testing](skills/development/bun-testing/) | development | SlavaMelanko | ★ 0 |
 | [bunnycdn-automation](skills/devops/bunnycdn-automation/) | devops | ComposioHQ | ★ 37.3k |
 | [burp-suite-testing](skills/testing-security/burp-suite-testing/) | testing-security | sickn33 | ★ 16.7k |
@@ -4889,6 +4935,7 @@
 |-------|----------|--------|-------|
 | [c-pro](skills/development/c-pro/) | development | sickn33 | ★ 16.7k |
 | [c-pro](skills/data-ai/c-pro/) | data-ai | sickn33 | ★ 15.4k |
+| [c-programming-guidelines](skills/development/c-programming-guidelines/) | development | Tryboy869 | ★ 0 |
 | [c4-architecture](skills/development/c4-architecture/) | development | davila7 | ★ 0 |
 | [c4-architecture](skills/development/c4-architecture/) | development | aiskillstore | ★ 0 |
 | [c4-architecture](skills/development/c4-architecture/) | development | majiayu000 | ★ 0 |
@@ -4915,6 +4962,7 @@
 | [cal-com-automation](skills/development/cal-com-automation/) | development | sickn33 | ★ 15.4k |
 | [calc](skills/cli-automation/calc/) | cli-automation | sickn33 | ★ 16.9k |
 | [calc](skills/backend/calc/) | backend | sickn33 | ★ 15.5k |
+| [calculator](skills/backend/calculator/) | backend | egermano | ★ 0 |
 | [calendar-audit](skills/development/calendar-audit/) | development | NeverSight | ★ 0 |
 | [calendarhero-automation](skills/tools/calendarhero-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [calendly-automation](skills/cli-automation/calendly-automation/) | cli-automation | sickn33 | ★ 16.7k |
@@ -4986,6 +5034,8 @@
 | [castingwords-automation](skills/tools/castingwords-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [catalyst-identification](skills/tools/catalyst-identification/) | tools | HuskyDanny | ★ 0 |
 | [catalyzed](skills/data-ai/catalyzed/) | data-ai | moderately-ai | ★ 0 |
+| [categorizing-bsky-accounts](skills/product/categorizing-bsky-accounts/) | product | oaustegard | ★ 0 |
+| [categorizing-bsky-accounts](skills/product/categorizing-bsky-accounts/) | product | majiayu000 | ★ 0 |
 | [cats-automation](skills/tools/cats-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [cc-data-organization](skills/testing-security/cc-data-organization/) | testing-security | majiayu000 | ★ 0 |
 | [cc-data-organization](skills/testing-security/cc-data-organization/) | testing-security | ryanthedev | ★ 0 |
@@ -5021,11 +5071,13 @@
 | [ccn:create-topic](skills/tools/ccn-create-topic/) | tools | majiayu000 | ★ 0 |
 | [ccn:create-topic](skills/tools/ccn-create-topic/) | tools | majiayu000 | ★ 0 |
 | [ccn:create-topic](skills/tools/ccn-create-topic/) | tools | majiayu000 | ★ 0 |
+| [cdd](skills/devops/cdd/) | devops | majiayu000 | ★ 0 |
 | [cdd-gather-context](skills/devops/cdd-gather-context/) | devops | majiayu000 | ★ 0 |
 | [cdk-patterns](skills/devops/cdk-patterns/) | devops | sickn33 | ★ 16.7k |
 | [cdk-patterns](skills/devops/cdk-patterns/) | devops | sickn33 | ★ 15.4k |
 | [cdr-platform-automation](skills/development/cdr-platform-automation/) | development | ComposioHQ | ★ 37.3k |
 | [celery](skills/backend/celery/) | backend | mattnigh | ★ 0 |
+| [celestia](skills/backend/celestia/) | backend | hairyf | ★ 0 |
 | [census-bureau-automation](skills/tools/census-bureau-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [centralstationcrm-automation](skills/business/centralstationcrm-automation/) | business | ComposioHQ | ★ 37.3k |
 | [ceo-advisor](skills/development/ceo-advisor/) | development | majiayu000 | ★ 93 |
@@ -5037,6 +5089,7 @@
 | [cermont.backend.prisma-v7](skills/development/cermont.backend.prisma-v7/) | development | majiayu000 | ★ 0 |
 | [certifier-automation](skills/tools/certifier-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [ceylon-express-frontend](skills/development/ceylon-express-frontend/) | development | cjmki | ★ 0 |
+| [cfn-agent-lifecycle](skills/ai-agents/cfn-agent-lifecycle/) | ai-agents | majiayu000 | ★ 0 |
 | [cfn-intervention-system](skills/development/cfn-intervention-system/) | development | majiayu000 | ★ 0 |
 | [cfo](skills/business/cfo/) | business | jforksy | ★ 0 |
 | [cgm-analyzer](skills/data-ai/cgm-analyzer/) | data-ai | zinojeng | ★ 0 |
@@ -5061,6 +5114,7 @@
 | [changelog-generator](skills/documentation/changelog-generator/) | documentation | majiayu000 | ★ 92 |
 | [changelog-generator](skills/documentation/changelog-generator/) | documentation | majiayu000 | ★ 1 |
 | [changelog-update](skills/documentation/changelog-update/) | documentation | NeverSight | ★ 0 |
+| [changelogator](skills/documentation/changelogator/) | documentation | benjaminhaeberli | ★ 0 |
 | [changeset](skills/development/changeset/) | development | zjunlp | ★ 0 |
 | [changeset](skills/development/changeset/) | development | NeverSight | ★ 0 |
 | [Chaos Engineering](skills/design/chaos-engineering/) | design | cdalsoniii | ★ 0 |
@@ -5154,6 +5208,7 @@
 | [ci-cd-integration](skills/devops/ci-cd-integration/) | devops | majiayu000 | ★ 0 |
 | [ci-cd-pipelines](skills/devops/ci-cd-pipelines/) | devops | majiayu000 | ★ 0 |
 | [ci-failure](skills/devops/ci-failure/) | devops | sperezintexas | ★ 0 |
+| [ci-preflight](skills/devops/ci-preflight/) | devops | matteing | ★ 0 |
 | [ci-setup](skills/devops/ci-setup/) | devops | majiayu000 | ★ 0 |
 | [ci-setup](skills/devops/ci-setup/) | devops | manastalukdar | ★ 0 |
 | [ci-setup](skills/devops/ci-setup/) | devops | majiayu000 | ★ 0 |
@@ -5188,6 +5243,7 @@
 | [ck:project-management](skills/data-ai/ck-project-management/) | data-ai | weihung0831 | ★ 0 |
 | [ck:project-management](skills/data-ai/ck-project-management/) | data-ai | NammDev | ★ 0 |
 | [ck:project-management](skills/ai-agents/ck-project-management/) | ai-agents | weihung0831 | ★ 0 |
+| [ck:skill-creator](skills/ai-agents/ck-skill-creator/) | ai-agents | felix-howard | ★ 0 |
 | [ck:ui-ux-pro-max](skills/development/ck-ui-ux-pro-max/) | development | felix-howard | ★ 0 |
 | [ckeditor-rules](skills/tools/ckeditor-rules/) | tools | majiayu000 | ★ 0 |
 | [ckeditor-rules](skills/tools/ckeditor-rules/) | tools | majiayu000 | ★ 0 |
@@ -5254,6 +5310,7 @@
 | [claude-code-meta](skills/tools/claude-code-meta/) | tools | artimath | ★ 0 |
 | [claude-code-meta](skills/tools/claude-code-meta/) | tools | majiayu000 | ★ 0 |
 | [claude-code-optimizer](skills/development/claude-code-optimizer/) | development | vbonk | ★ 0 |
+| [claude-code-skills](skills/development/claude-code-skills/) | development | majiayu000 | ★ 0 |
 | [claude-code-slash-commands](skills/tools/claude-code-slash-commands/) | tools | dwmkerr | ★ 0 |
 | [claude-code-starter](skills/development/claude-code-starter/) | development | cassmtnr | ★ 0 |
 | [claude-code-starter](skills/development/claude-code-starter/) | development | majiayu000 | ★ 0 |
@@ -5347,6 +5404,7 @@
 | [clawdbot-update-plus](skills/development/clawdbot-update-plus/) | development | kbarbel640-del | ★ 0 |
 | [clawdbot-update-plus](skills/development/clawdbot-update-plus/) | development | YPYT1 | ★ 0 |
 | [clawdbot-update-plus](skills/development/clawdbot-update-plus/) | development | duclm1x1 | ★ 0 |
+| [clawdbot-update-plus](skills/backend/clawdbot-update-plus/) | backend | decimasudo | ★ 0 |
 | [clawdchat](skills/data-ai/clawdchat/) | data-ai | openclaw | ★ 0 |
 | [clawdchat](skills/data-ai/clawdchat/) | data-ai | kbarbel640-del | ★ 0 |
 | [clawdchat](skills/data-ai/clawdchat/) | data-ai | YPYT1 | ★ 0 |
@@ -5366,18 +5424,23 @@
 | [clawgang](skills/data-ai/clawgang/) | data-ai | YPYT1 | ★ 0 |
 | [clawgang](skills/data-ai/clawgang/) | data-ai | duclm1x1 | ★ 0 |
 | [clawgram](skills/ai-agents/clawgram/) | ai-agents | openclaw | ★ 0 |
+| [clawgym](skills/devops/clawgym/) | devops | openclaw | ★ 0 |
 | [clawhub-auto-publisher](skills/tools/clawhub-auto-publisher/) | tools | openclaw | ★ 0 |
 | [clawhub-ytm-cast](skills/tools/clawhub-ytm-cast/) | tools | simplefarmer69 | ★ 0 |
 | [clawk](skills/data-ai/clawk/) | data-ai | btwiuse | ★ 0 |
 | [clawmafia](skills/data-ai/clawmafia/) | data-ai | aryshriv | ★ 0 |
+| [clawmafia](skills/ai-agents/clawmafia/) | ai-agents | aryshriv | ★ 0 |
+| [clawmesh](skills/ai-agents/clawmesh/) | ai-agents | eliswedtlv | ★ 0 |
 | [clawpage](skills/fullstack-web/clawpage/) | fullstack-web | skypher | ★ 0 |
 | [clawpod](skills/development/clawpod/) | development | joinmassive | ★ 0 |
 | [clawpod](skills/development/clawpod/) | development | NeverSight | ★ 0 |
 | [clawshake](skills/devops/clawshake/) | devops | kbarbel640-del | ★ 0 |
 | [clawshake](skills/devops/clawshake/) | devops | YPYT1 | ★ 0 |
 | [clawsino-play](skills/fullstack-web/clawsino-play/) | fullstack-web | anthonymq | ★ 0 |
+| [clawstake](skills/ai-agents/clawstake/) | ai-agents | openclaw | ★ 0 |
 | [clawstr](skills/devops/clawstr/) | devops | clawstr | ★ 0 |
 | [clawstreetbets](skills/devops/clawstreetbets/) | devops | moltierain | ★ 0 |
+| [clawswarm](skills/ai-agents/clawswarm/) | ai-agents | MatchaOnMuffins | ★ 0 |
 | [clawtlas](skills/ai-agents/clawtlas/) | ai-agents | pgnore | ★ 0 |
 | [clawtoclaw](skills/data-ai/clawtoclaw/) | data-ai | openclaw | ★ 0 |
 | [clean-code](skills/development/clean-code/) | development | sickn33 | ★ 16.7k |
@@ -5393,11 +5456,13 @@
 | [clerk-setup](skills/development/clerk-setup/) | development | Mousticke | ★ 0 |
 | [clerk-setup](skills/backend/clerk-setup/) | backend | clerk | ★ 0 |
 | [cli](skills/tools/cli/) | tools | majiayu000 | ★ 0 |
+| [cli-duo](skills/cli-automation/cli-duo/) | cli-automation | MaxCarlson | ★ 0 |
 | [cli-modern-tools](skills/cli-automation/cli-modern-tools/) | cli-automation | majiayu000 | ★ 0 |
 | [clickmeeting-automation](skills/tools/clickmeeting-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [clickup-automation](skills/cli-automation/clickup-automation/) | cli-automation | sickn33 | ★ 16.7k |
 | [clickup-automation](skills/tools/clickup-automation/) | tools | sickn33 | ★ 15.4k |
 | [client-management](skills/tools/client-management/) | tools | jcanizalez | ★ 0 |
+| [Cline](skills/cli-automation/cline/) | cli-automation | hivellm | ★ 0 |
 | [clink-standalone](skills/tools/clink-standalone/) | tools | majiayu000 | ★ 0 |
 | [clink-standalone](skills/tools/clink-standalone/) | tools | majiayu000 | ★ 0 |
 | [clink-standalone](skills/tools/clink-standalone/) | tools | VCnoC | ★ 0 |
@@ -5498,6 +5563,7 @@
 | [coda-automation](skills/backend/coda-automation/) | backend | sickn33 | ★ 16.7k |
 | [coda-automation](skills/development/coda-automation/) | development | sickn33 | ★ 15.4k |
 | [codacy-automation](skills/tools/codacy-automation/) | tools | ComposioHQ | ★ 37.3k |
+| [Code Explainer](skills/development/code-explainer/) | development | MCKRUZ | ★ 0 |
 | [Code Review Analyzer](skills/testing-security/code-review-analyzer/) | testing-security | michaelshimeles | ★ 0 |
 | [Code Scaffolding](skills/development/code-scaffolding/) | development | cdalsoniii | ★ 0 |
 | [code_formatter](skills/development/code_formatter/) | development | majiayu000 | ★ 0 |
@@ -5506,6 +5572,7 @@
 | [code-architecture-analyzer](skills/development/code-architecture-analyzer/) | development | majiayu000 | ★ 0 |
 | [code-assistant](skills/development/code-assistant/) | development | farabi1038 | ★ 0 |
 | [code-audit](skills/development/code-audit/) | development | tysonmalchow | ★ 0 |
+| [code-cleaner](skills/development/code-cleaner/) | development | ahmed6ww | ★ 0 |
 | [code-commenting](skills/development/code-commenting/) | development | simonmkkk | ★ 0 |
 | [code-discovery](skills/product/code-discovery/) | product | majiayu000 | ★ 0 |
 | [code-discovery](skills/product/code-discovery/) | product | majiayu000 | ★ 0 |
@@ -5577,6 +5644,7 @@
 | [code-reviewer](skills/development/code-reviewer/) | development | sickn33 | ★ 16.7k |
 | [code-reviewer](skills/data-ai/code-reviewer/) | data-ai | sickn33 | ★ 15.4k |
 | [code-reviewer](skills/development/code-reviewer/) | development | EYH0602 | ★ 0 |
+| [code-reviewer](skills/development/code-reviewer/) | development | Jeffallan | ★ 0 |
 | [code-reviewer](skills/development/code-reviewer/) | development | KjellKod | ★ 0 |
 | [code-reviewer](skills/development/code-reviewer/) | development | KjellKod | ★ 0 |
 | [code-reviewer](skills/development/code-reviewer/) | development | dmicheneau | ★ 0 |
@@ -5757,6 +5825,9 @@
 | [committing-staged-with-message](skills/tools/committing-staged-with-message/) | tools | qte77 | ★ 0 |
 | [common-rules](skills/development/common-rules/) | development | kafkaspanel1 | ★ 0 |
 | [communication-tone](skills/communication/communication-tone/) | communication | majiayu000 | ★ 0 |
+| [community-monetization](skills/cli-automation/community-monetization/) | cli-automation | majiayu000 | ★ 0 |
+| [compaction-advisor](skills/development/compaction-advisor/) | development | majiayu000 | ★ 0 |
+| [compaction-advisor](skills/development/compaction-advisor/) | development | vignesh07 | ★ 0 |
 | [compare-erb-js](skills/development/compare-erb-js/) | development | majiayu000 | ★ 0 |
 | [compare-ingredients](skills/tools/compare-ingredients/) | tools | Jocko-Fuel | ★ 0 |
 | [competitive-ads-extractor](skills/development/competitive-ads-extractor/) | development | ComposioHQ | ★ 37.3k |
@@ -5888,8 +5959,10 @@
 | [container-security-scanner](skills/testing-security/container-security-scanner/) | testing-security | majiayu000 | ★ 0 |
 | [containerization-rules](skills/development/containerization-rules/) | development | oimiragieo | ★ 0 |
 | [containers-skill](skills/devops/containers-skill/) | devops | majiayu000 | ★ 0 |
+| [Content Performance Explainer](skills/content-media/content-performance-explainer/) | content-media | writer | ★ 0 |
 | [content_strategist](skills/development/content_strategist/) | development | majiayu000 | ★ 0 |
 | [content-creation-flow](skills/data-ai/content-creation-flow/) | data-ai | OutSystems | ★ 0 |
+| [content-creation-flow](skills/content-media/content-creation-flow/) | content-media | OutSystems | ★ 0 |
 | [content-creator](skills/business/content-creator/) | business | sickn33 | ★ 16.7k |
 | [content-creator](skills/business/content-creator/) | business | sickn33 | ★ 15.4k |
 | [content-marketer](skills/content-media/content-marketer/) | content-media | sickn33 | ★ 15.4k |
@@ -6042,6 +6115,7 @@
 | [copilot-instructions-blueprint-generator](skills/tools/copilot-instructions-blueprint-generator/) | tools | sandriaas | ★ 0 |
 | [copilot-instructions-blueprint-generator](skills/development/copilot-instructions-blueprint-generator/) | development | sandriaas | ★ 0 |
 | [copilot-instructions-generator](skills/tools/copilot-instructions-generator/) | tools | rbacevic | ★ 0 |
+| [copilot-log-analysis](skills/ai-agents/copilot-log-analysis/) | ai-agents | rajbos | ★ 0 |
 | [copilot-sdk](skills/development/copilot-sdk/) | development | sickn33 | ★ 15.4k |
 | [copilot-sdk](skills/data-ai/copilot-sdk/) | data-ai | NeverSight | ★ 0 |
 | [copilot-sdk](skills/data-ai/copilot-sdk/) | data-ai | mguinada | ★ 0 |
@@ -6078,9 +6152,14 @@
 | [copilot-sdk](skills/ai-agents/copilot-sdk/) | ai-agents | majiayu000 | ★ 0 |
 | [copilot-sdk](skills/ai-agents/copilot-sdk/) | ai-agents | sickn33 | ★ 0 |
 | [copilot-sdk](skills/development/copilot-sdk/) | development | intellectronica | ★ 0 |
+| [copilot-sdk](skills/development/copilot-sdk/) | development | vivi3172 | ★ 0 |
+| [copilot-sdk](skills/ai-agents/copilot-sdk/) | ai-agents | Alexsander532 | ★ 0 |
 | [copilot-sdk-copilot-sdk](skills/development/copilot-sdk-copilot-sdk/) | development | sla-te | ★ 0 |
 | [copilot-sdk-dotnet](skills/development/copilot-sdk-dotnet/) | development | arisng | ★ 0 |
 | [copilot-sdk-go](skills/development/copilot-sdk-go/) | development | pingqLIN | ★ 0 |
+| [copilot-sdk-go](skills/development/copilot-sdk-go/) | development | kevinyay945 | ★ 0 |
+| [copilot-sdk-nodejs](skills/backend/copilot-sdk-nodejs/) | backend | pingqLIN | ★ 0 |
+| [copilot-sdk-setup](skills/ai-agents/copilot-sdk-setup/) | ai-agents | danielmeppiel | ★ 0 |
 | [copilot-search](skills/development/copilot-search/) | development | majiayu000 | ★ 0 |
 | [copilot-search](skills/development/copilot-search/) | development | majiayu000 | ★ 0 |
 | [copilot-tui-harness](skills/development/copilot-tui-harness/) | development | jim0thy | ★ 0 |
@@ -6139,6 +6218,7 @@
 | [crabwalk](skills/development/crabwalk/) | development | Demerzels-lab | ★ 0 |
 | [crabwalk](skills/development/crabwalk/) | development | kbarbel640-del | ★ 0 |
 | [crabwalk](skills/development/crabwalk/) | development | YPYT1 | ★ 0 |
+| [crabwalk](skills/cli-automation/crabwalk/) | cli-automation | decimasudo | ★ 0 |
 | [craft-skill](skills/devops/craft-skill/) | devops | jpeggdev | ★ 0 |
 | [Crafting Secure Networks Fundamental Skill](skills/devops/crafting-secure-networks-fundamental-skill/) | devops | leonormes | ★ 0 |
 | [crafting-rules](skills/development/crafting-rules/) | development | frap129 | ★ 0 |
@@ -6165,6 +6245,7 @@
 | [create-an-asset](skills/business/create-an-asset/) | business | fergupa | ★ 0 |
 | [create-an-asset](skills/business/create-an-asset/) | business | SKSDesignNew | ★ 0 |
 | [create-an-asset](skills/business/create-an-asset/) | business | w95 | ★ 0 |
+| [create-announcement](skills/cli-automation/create-announcement/) | cli-automation | sergei-startsev | ★ 0 |
 | [create-app-design](skills/development/create-app-design/) | development | udecode | ★ 0 |
 | [create-app-design](skills/development/create-app-design/) | development | udecode | ★ 0 |
 | [create-assistant](skills/data-ai/create-assistant/) | data-ai | NeverSight | ★ 0 |
@@ -6192,6 +6273,7 @@
 | [create-auth-skill](skills/development/create-auth-skill/) | development | AugusDogus | ★ 0 |
 | [create-auth-skill](skills/testing-security/create-auth-skill/) | testing-security | metaloozee | ★ 0 |
 | [create-book](skills/tools/create-book/) | tools | design1online | ★ 0 |
+| [create-call](skills/ai-agents/create-call/) | ai-agents | VapiAI | ★ 0 |
 | [create-command](skills/tools/create-command/) | tools | majiayu000 | ★ 0 |
 | [create-command](skills/tools/create-command/) | tools | majiayu000 | ★ 0 |
 | [create-command](skills/tools/create-command/) | tools | ronnycoding | ★ 0 |
@@ -6210,16 +6292,21 @@
 | [create-feature-branch](skills/product/create-feature-branch/) | product | majiayu000 | ★ 0 |
 | [create-feature-branch](skills/product/create-feature-branch/) | product | BerryKuipers | ★ 0 |
 | [create-feature-branch](skills/product/create-feature-branch/) | product | majiayu000 | ★ 0 |
+| [create-issue](skills/cli-automation/create-issue/) | cli-automation | rivie13 | ★ 0 |
+| [create-issue](skills/cli-automation/create-issue/) | cli-automation | rivie13 | ★ 0 |
 | [create-issues](skills/tools/create-issues/) | tools | majiayu000 | ★ 0 |
 | [create-mcp-json](skills/tools/create-mcp-json/) | tools | pulsemcp | ★ 0 |
 | [create-meta-prompts](skills/ai-agents/create-meta-prompts/) | ai-agents | glittercowboy | ★ 0 |
 | [create-my-tools-profile](skills/tools/create-my-tools-profile/) | tools | zapier | ★ 0 |
 | [create-new-rule](skills/development/create-new-rule/) | development | ianrios | ★ 0 |
+| [create-oo-component-documentation](skills/documentation/create-oo-component-documentation/) | documentation | github | ★ 0 |
+| [create-phone-number](skills/backend/create-phone-number/) | backend | VapiAI | ★ 0 |
 | [create-plugin-scaffold](skills/tools/create-plugin-scaffold/) | tools | cursor | ★ 0 |
 | [create-pr](skills/cli-automation/create-pr/) | cli-automation | sickn33 | ★ 16.7k |
 | [create-pr](skills/tools/create-pr/) | tools | sickn33 | ★ 15.4k |
 | [create-pr](skills/tools/create-pr/) | tools | octkp | ★ 0 |
 | [create-pr](skills/tools/create-pr/) | tools | ahoym | ★ 0 |
+| [create-prd](skills/product/create-prd/) | product | FradSer | ★ 0 |
 | [create-prd](skills/product/create-prd/) | product | PouriaRouzrokh | ★ 0 |
 | [create-project](skills/tools/create-project/) | tools | lando-labs | ★ 0 |
 | [create-prompt](skills/data-ai/create-prompt/) | data-ai | majiayu000 | ★ 0 |
@@ -6378,6 +6465,7 @@
 | [custom-agent-creator](skills/data-ai/custom-agent-creator/) | data-ai | prulloac | ★ 0 |
 | [custom-agent-creator](skills/data-ai/custom-agent-creator/) | data-ai | prulloac | ★ 0 |
 | [custom-agent-creator](skills/data-ai/custom-agent-creator/) | data-ai | prulloac | ★ 0 |
+| [custom-agent-creator](skills/ai-agents/custom-agent-creator/) | ai-agents | prulloac | ★ 0 |
 | [custom-agents](skills/data-ai/custom-agents/) | data-ai | TeamFlint-Dev | ★ 0 |
 | [custom-agents](skills/data-ai/custom-agents/) | data-ai | majiayu000 | ★ 0 |
 | [custom-agents](skills/data-ai/custom-agents/) | data-ai | majiayu000 | ★ 0 |
@@ -6385,6 +6473,7 @@
 | [custom-agents](skills/data-ai/custom-agents/) | data-ai | maxfraieho | ★ 0 |
 | [custom-agents](skills/data-ai/custom-agents/) | data-ai | maxfraieho | ★ 0 |
 | [custom-agents](skills/data-ai/custom-agents/) | data-ai | github | ★ 0 |
+| [custom-agents](skills/ai-agents/custom-agents/) | ai-agents | majiayu000 | ★ 0 |
 | [custom-plugin-flutter-skill-backend](skills/development/custom-plugin-flutter-skill-backend/) | development | pluginagentmarketplace | ★ 0 |
 | [custom-project-standards](skills/development/custom-project-standards/) | development | teodevlor | ★ 0 |
 | [custom-sub-agents](skills/data-ai/custom-sub-agents/) | data-ai | peterbamuhigire | ★ 0 |
@@ -6662,6 +6751,7 @@
 | [databases-architecture-skill](skills/development/databases-architecture-skill/) | development | majiayu000 | ★ 0 |
 | [databases-architecture-skill](skills/development/databases-architecture-skill/) | development | majiayu000 | ★ 0 |
 | [databases-architecture-skill](skills/development/databases-architecture-skill/) | development | pluginagentmarketplace | ★ 0 |
+| [databuddy](skills/backend/databuddy/) | backend | databuddy-analytics | ★ 0 |
 | [datadog-automation](skills/cli-automation/datadog-automation/) | cli-automation | sickn33 | ★ 16.7k |
 | [datadog-automation](skills/data-ai/datadog-automation/) | data-ai | sickn33 | ★ 15.4k |
 | [dataflow](skills/development/dataflow/) | development | Integrum-Global | ★ 0 |
@@ -6678,6 +6768,7 @@
 | [dataverse-python](skills/development/dataverse-python/) | development | pingqLIN | ★ 0 |
 | [dataverse-python-best-practices](skills/development/dataverse-python-best-practices/) | development | pingqLIN | ★ 0 |
 | [dataverse-python-modules](skills/development/dataverse-python-modules/) | development | pingqLIN | ★ 0 |
+| [date-validation](skills/cli-automation/date-validation/) | cli-automation | majiayu000 | ★ 0 |
 | [dayz-dev](skills/development/dayz-dev/) | development | DayZGhost | ★ 0 |
 | [db-bahn](skills/cli-automation/db-bahn/) | cli-automation | majiayu000 | ★ 0 |
 | [dbos-golang](skills/development/dbos-golang/) | development | sickn33 | ★ 16.7k |
@@ -6686,6 +6777,7 @@
 | [dbos-python](skills/development/dbos-python/) | development | sickn33 | ★ 15.4k |
 | [dbos-typescript](skills/cli-automation/dbos-typescript/) | cli-automation | sickn33 | ★ 16.7k |
 | [dbos-typescript](skills/development/dbos-typescript/) | development | sickn33 | ★ 15.4k |
+| [dbt](skills/data-ai/dbt/) | data-ai | majiayu000 | ★ 0 |
 | [dbt Development](skills/development/dbt-development/) | development | majiayu000 | ★ 0 |
 | [dbt-transformation-patterns](skills/data-ai/dbt-transformation-patterns/) | data-ai | sickn33 | ★ 16.7k |
 | [dbt-transformation-patterns](skills/development/dbt-transformation-patterns/) | development | sickn33 | ★ 15.4k |
@@ -6900,6 +6992,7 @@
 | [Deprecation Notices](skills/backend/deprecation-notices/) | backend | AmnadTaowsoam | ★ 0 |
 | [design](skills/design/design/) | design | majiayu000 | ★ 92 |
 | [design](skills/design/design/) | design | majiayu000 | ★ 1 |
+| [design](skills/design/design/) | design | neurofoo | ★ 0 |
 | [design](skills/design/design/) | design | cyotee | ★ 0 |
 | [Design Expert](skills/design/design-expert/) | design | rahlplx | ★ 0 |
 | [design_responsive](skills/design/design_responsive/) | design | majiayu000 | ★ 0 |
@@ -6929,6 +7022,7 @@
 | [design-patterns](skills/design/design-patterns/) | design | NeverSight | ★ 0 |
 | [design-request-en](skills/design/design-request-en/) | design | ousiass | ★ 0 |
 | [design-research](skills/design/design-research/) | design | wcygan | ★ 0 |
+| [design-spec](skills/design/design-spec/) | design | duc01226 | ★ 0 |
 | [design-strategy](skills/design/design-strategy/) | design | NeverSight | ★ 0 |
 | [design-system](skills/design/design-system/) | design | stamp-kkookk | ★ 0 |
 | [design-system-guard](skills/design/design-system-guard/) | design | lucidlabs-hq | ★ 0 |
@@ -6965,6 +7059,7 @@
 | [dev-server-sandbox](skills/design/dev-server-sandbox/) | design | majiayu000 | ★ 0 |
 | [dev-specialisms:fly-deploy](skills/development/dev-specialisms-fly-deploy/) | development | aaronbassett | ★ 0 |
 | [dev-support](skills/tools/dev-support/) | tools | NeverSight | ★ 0 |
+| [dev-swarm-install-ai-code-agent](skills/ai-agents/dev-swarm-install-ai-code-agent/) | ai-agents | majiayu000 | ★ 0 |
 | [dev-swarm-project-management](skills/product/dev-swarm-project-management/) | product | majiayu000 | ★ 0 |
 | [dev-swarm-stage-architecture](skills/development/dev-swarm-stage-architecture/) | development | X-School-Academy | ★ 0 |
 | [dev-swarm-stage-market-research](skills/tools/dev-swarm-stage-market-research/) | tools | X-School-Academy | ★ 0 |
@@ -7105,6 +7200,7 @@
 | [Directus AI Assistant Integration](skills/data-ai/directus-ai-assistant-integration/) | data-ai | majiayu000 | ★ 0 |
 | [Directus AI Assistant Integration](skills/data-ai/directus-ai-assistant-integration/) | data-ai | gumpen-app | ★ 0 |
 | [Directus AI Assistant Integration](skills/data-ai/directus-ai-assistant-integration/) | data-ai | majiayu000 | ★ 0 |
+| [Directus AI Assistant Integration](skills/ai-agents/directus-ai-assistant-integration/) | ai-agents | majiayu000 | ★ 0 |
 | [direnv](skills/development/direnv/) | development | majiayu000 | ★ 0 |
 | [direnv](skills/development/direnv/) | development | jpoutrin | ★ 0 |
 | [direnv](skills/development/direnv/) | development | majiayu000 | ★ 0 |
@@ -7193,6 +7289,7 @@
 | [django-pro](skills/development/django-pro/) | development | corsal2025 | ★ 0 |
 | [django-pro](skills/development/django-pro/) | development | sonson0910 | ★ 0 |
 | [django-pro](skills/backend/django-pro/) | backend | javiertarazon | ★ 0 |
+| [django-project-setup](skills/backend/django-project-setup/) | backend | jpoutrin | ★ 0 |
 | [dma-attack-techniques](skills/tools/dma-attack-techniques/) | tools | gmh5225 | ★ 0 |
 | [dnanexus-integration](skills/devops/dnanexus-integration/) | devops | majiayu000 | ★ 0 |
 | [dnote](skills/backend/dnote/) | backend | openclaw | ★ 0 |
@@ -7287,6 +7384,7 @@
 | [docs](skills/documentation/docs/) | documentation | aiskillstore | ★ 0 |
 | [docs](skills/documentation/docs/) | documentation | majiayu000 | ★ 0 |
 | [docs-ai-prd](skills/documentation/docs-ai-prd/) | documentation | vasilyu1983 | ★ 0 |
+| [docs-ai-prd](skills/ai-agents/docs-ai-prd/) | ai-agents | majiayu000 | ★ 0 |
 | [docs-architect](skills/documentation/docs-architect/) | documentation | sickn33 | ★ 15.4k |
 | [docs-as-code](skills/documentation/docs-as-code/) | documentation | majiayu000 | ★ 0 |
 | [docs-as-code](skills/documentation/docs-as-code/) | documentation | melodic-software | ★ 0 |
@@ -7316,6 +7414,7 @@
 | [documentation](skills/documentation/documentation/) | documentation | miles990 | ★ 0 |
 | [documentation](skills/development/documentation/) | development | pluginagentmarketplace | ★ 0 |
 | [documentation](skills/development/documentation/) | development | ChanningHe | ★ 0 |
+| [Documentation Hygiene](skills/documentation/documentation-hygiene/) | documentation | wrsmith108 | ★ 0 |
 | [documentation-generation-doc-generate](skills/documentation/documentation-generation-doc-generate/) | documentation | sickn33 | ★ 16.7k |
 | [documentation-generation-doc-generate](skills/documentation/documentation-generation-doc-generate/) | documentation | sickn33 | ★ 15.4k |
 | [documentation-guidelines](skills/documentation/documentation-guidelines/) | documentation | majiayu000 | ★ 0 |
@@ -7355,6 +7454,7 @@
 | [domain-driven-design](skills/development/domain-driven-design/) | development | sickn33 | ★ 16.7k |
 | [domain-driven-design](skills/data-ai/domain-driven-design/) | data-ai | sickn33 | ★ 15.4k |
 | [domain-driven-design](skills/development/domain-driven-design/) | development | svngoku | ★ 0 |
+| [domain-embedded](skills/frontend/domain-embedded/) | frontend | majiayu000 | ★ 0 |
 | [domain-name-brainstormer](skills/development/domain-name-brainstormer/) | development | ComposioHQ | ★ 37.3k |
 | [domain-name-brainstormer](skills/development/domain-name-brainstormer/) | development | majiayu000 | ★ 93 |
 | [domain-name-brainstormer](skills/development/domain-name-brainstormer/) | development | majiayu000 | ★ 2 |
@@ -7369,6 +7469,7 @@
 | [dot-ai-generate-cicd](skills/devops/dot-ai-generate-cicd/) | devops | vfarcic | ★ 0 |
 | [dot-ai-port-setup](skills/devops/dot-ai-port-setup/) | devops | vfarcic | ★ 0 |
 | [dotfiles](skills/backend/dotfiles/) | backend | SebastienElet | ★ 0 |
+| [dotfiles-guide](skills/cli-automation/dotfiles-guide/) | cli-automation | lms0016 | ★ 0 |
 | [dotnet](skills/testing-security/dotnet/) | testing-security | darrenoakey | ★ 0 |
 | [dotnet-ado-patterns](skills/devops/dotnet-ado-patterns/) | devops | rudironsoni | ★ 0 |
 | [dotnet-advisor](skills/tools/dotnet-advisor/) | tools | rudironsoni | ★ 0 |
@@ -7634,6 +7735,7 @@
 | [es-fetch-api](skills/development/es-fetch-api/) | development | lchrennew | ★ 0 |
 | [es-fetch-api](skills/development/es-fetch-api/) | development | NeverSight | ★ 0 |
 | [esignatures-io-automation](skills/tools/esignatures-io-automation/) | tools | ComposioHQ | ★ 37.3k |
+| [esios](skills/data-ai/esios/) | data-ai | datons | ★ 0 |
 | [eslint-rules](skills/development/eslint-rules/) | development | TheBushidoCollective | ★ 0 |
 | [esp32-workbench-ota](skills/data-ai/esp32-workbench-ota/) | data-ai | SensorsIot | ★ 0 |
 | [esp32-workbench-ota](skills/data-ai/esp32-workbench-ota/) | data-ai | SensorsIot | ★ 0 |
@@ -7716,6 +7818,7 @@
 | [exploiting-cloud-platforms](skills/devops/exploiting-cloud-platforms/) | devops | trilwu | ★ 0 |
 | [exploiting-cloud-platforms](skills/devops/exploiting-cloud-platforms/) | devops | majiayu000 | ★ 0 |
 | [exploiting-cloud-platforms](skills/devops/exploiting-cloud-platforms/) | devops | majiayu000 | ★ 0 |
+| [exploratory-testing-advanced](skills/testing-security/exploratory-testing-advanced/) | testing-security | mattnigh | ★ 0 |
 | [explore](skills/product/explore/) | product | jforksy | ★ 0 |
 | [expo-deployment](skills/devops/expo-deployment/) | devops | sickn33 | ★ 16.7k |
 | [expo-deployment](skills/devops/expo-deployment/) | devops | sickn33 | ★ 15.4k |
@@ -7759,7 +7862,9 @@
 | [Facets Modules Validate](skills/development/facets-modules-validate/) | development | majiayu000 | ★ 0 |
 | [faceup-automation](skills/tools/faceup-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [factorial-automation](skills/tools/factorial-automation/) | tools | ComposioHQ | ★ 37.3k |
+| [factory-spec](skills/frontend/factory-spec/) | frontend | SylvainChabaud | ★ 0 |
 | [faf-docs](skills/documentation/faf-docs/) | documentation | Wolfe-Jam | ★ 0 |
+| [faf-expert](skills/ai-agents/faf-expert/) | ai-agents | Wolfe-Jam | ★ 0 |
 | [faf-platforms](skills/development/faf-platforms/) | development | Wolfe-Jam | ★ 0 |
 | [faf-score](skills/tools/faf-score/) | tools | Wolfe-Jam | ★ 0 |
 | [faf-teacher](skills/development/faf-teacher/) | development | Wolfe-Jam | ★ 0 |
@@ -7810,6 +7915,7 @@
 | [fal-upscale](skills/content-media/fal-upscale/) | content-media | sickn33 | ★ 15.4k |
 | [fal-workflow](skills/machine-learning/fal-workflow/) | machine-learning | sickn33 | ★ 16.7k |
 | [fal-workflow](skills/data-ai/fal-workflow/) | data-ai | sickn33 | ★ 15.4k |
+| [family-history-planning](skills/tools/family-history-planning/) | tools | prof-ramos | ★ 0 |
 | [Fantasy Premier League](skills/data-ai/fantasy-premier-league/) | data-ai | FarazPatankar | ★ 0 |
 | [farcaster-agent](skills/ai-agents/farcaster-agent/) | ai-agents | rishavmukherji | ★ 0 |
 | [fastapi](skills/development/fastapi/) | development | majiayu000 | ★ 0 |
@@ -7990,6 +8096,7 @@
 | [find-bugs](skills/testing-security/find-bugs/) | testing-security | sickn33 | ★ 16.7k |
 | [find-bugs](skills/testing-security/find-bugs/) | testing-security | sickn33 | ★ 15.4k |
 | [find-newsletter-articles](skills/tools/find-newsletter-articles/) | tools | ColinEberhardt | ★ 0 |
+| [find-skill](skills/tools/find-skill/) | tools | jbpayton | ★ 0 |
 | [find-skills](skills/data-ai/find-skills/) | data-ai | kanyun-inc | ★ 0 |
 | [find-skills](skills/development/find-skills/) | development | jasonmichaelbell78-creator | ★ 0 |
 | [find-skills](skills/development/find-skills/) | development | bytedance | ★ 0 |
@@ -8044,6 +8151,7 @@
 | [fix-errors](skills/tools/fix-errors/) | tools | microsoft | ★ 182.0k |
 | [fix-markdown](skills/documentation/fix-markdown/) | documentation | majiayu000 | ★ 0 |
 | [fix-markdown](skills/documentation/fix-markdown/) | documentation | majiayu000 | ★ 0 |
+| [fix-pr](skills/development/fix-pr/) | development | YPYT1 | ★ 0 |
 | [fix-review](skills/testing-security/fix-review/) | testing-security | sickn33 | ★ 16.7k |
 | [fix-review](skills/testing-security/fix-review/) | testing-security | sickn33 | ★ 15.4k |
 | [fix-validation-errors-with-overlays](skills/development/fix-validation-errors-with-overlays/) | development | majiayu000 | ★ 0 |
@@ -8083,6 +8191,8 @@
 | [flowbite-html-ui-components](skills/frontend/flowbite-html-ui-components/) | frontend | DrZoot | ★ 0 |
 | [flowclaw](skills/ai-agents/flowclaw/) | ai-agents | openclaw | ★ 0 |
 | [flowglad-setup](skills/development/flowglad-setup/) | development | flowglad | ★ 0 |
+| [flowglad-setup](skills/frontend/flowglad-setup/) | frontend | flowglad | ★ 0 |
+| [flowio-flow-cytometry](skills/data-ai/flowio-flow-cytometry/) | data-ai | jaechang-hits | ★ 0 |
 | [flowiseai-automation](skills/data-ai/flowiseai-automation/) | data-ai | ComposioHQ | ★ 37.3k |
 | [flowmaster-backend](skills/development/flowmaster-backend/) | development | eron1703 | ★ 0 |
 | [flox-services](skills/development/flox-services/) | development | majiayu000 | ★ 0 |
@@ -8150,6 +8260,8 @@
 | [framer-motion-rules](skills/data-ai/framer-motion-rules/) | data-ai | majiayu000 | ★ 0 |
 | [framer-motion-rules](skills/development/framer-motion-rules/) | development | majiayu000 | ★ 0 |
 | [framework](skills/development/framework/) | development | ERP-CORE-DEV | ★ 0 |
+| [framework](skills/development/framework/) | development | majiayu000 | ★ 0 |
+| [framework](skills/development/framework/) | development | majiayu000 | ★ 0 |
 | [framework-consciousness](skills/development/framework-consciousness/) | development | whodaniel | ★ 0 |
 | [framework-expert](skills/development/framework-expert/) | development | nguyenthienthanh | ★ 0 |
 | [framework-learning](skills/development/framework-learning/) | development | D-Yuva | ★ 0 |
@@ -8493,6 +8605,7 @@
 | [fullstack-template-generator](skills/development/fullstack-template-generator/) | development | pingcy | ★ 0 |
 | [fullstack-template-generator](skills/development/fullstack-template-generator/) | development | majiayu000 | ★ 0 |
 | [fullstack-template-generator](skills/frontend/fullstack-template-generator/) | frontend | majiayu000 | ★ 0 |
+| [fullstack-template-generator](skills/backend/fullstack-template-generator/) | backend | prajkarne-bbsi | ★ 0 |
 | [fullstack-validation](skills/development/fullstack-validation/) | development | majiayu000 | ★ 0 |
 | [fullstack-validation](skills/development/fullstack-validation/) | development | bejranonda | ★ 0 |
 | [fullstack-validation](skills/development/fullstack-validation/) | development | NeverSight | ★ 0 |
@@ -8516,6 +8629,7 @@
 | [fusion-api](skills/backend/fusion-api/) | backend | majiayu000 | ★ 0 |
 | [futu](skills/backend/futu/) | backend | chuangshizhiqiang | ★ 0 |
 | [fx-explore](skills/data-ai/fx-explore/) | data-ai | majiayu000 | ★ 0 |
+| [fx-explore](skills/development/fx-explore/) | development | majiayu000 | ★ 0 |
 
 ## G
 
@@ -8564,6 +8678,7 @@
 | [gdpr-compliance](skills/development/gdpr-compliance/) | development | peixotorms | ★ 0 |
 | [gdpr-data-handling](skills/design/gdpr-data-handling/) | design | sickn33 | ★ 16.7k |
 | [gdpr-data-handling](skills/data-ai/gdpr-data-handling/) | data-ai | sickn33 | ★ 15.4k |
+| [gemini](skills/fullstack-web/gemini/) | fullstack-web | openxjarvis | ★ 0 |
 | [gemini-api](skills/development/gemini-api/) | development | majiayu000 | ★ 0 |
 | [gemini-api](skills/development/gemini-api/) | development | diskd-ai | ★ 0 |
 | [gemini-api](skills/development/gemini-api/) | development | NeverSight | ★ 0 |
@@ -8651,6 +8766,8 @@
 | [getblock](skills/development/getblock/) | development | hairyf | ★ 0 |
 | [getCriptoPrice](skills/development/getcriptoprice/) | development | germancin | ★ 0 |
 | [getform-automation](skills/development/getform-automation/) | development | ComposioHQ | ★ 37.3k |
+| [Getting Started with Skills](skills/development/getting-started-with-skills/) | development | obra | ★ 0 |
+| [gh-aw-workflow-authoring](skills/ai-agents/gh-aw-workflow-authoring/) | ai-agents | Hack23 | ★ 0 |
 | [gh-ci-triage](skills/tools/gh-ci-triage/) | tools | PLeVasseur | ★ 0 |
 | [gh-cli](skills/tools/gh-cli/) | tools | github | ★ 0 |
 | [gh-cli](skills/tools/gh-cli/) | tools | beel-collab | ★ 0 |
@@ -8718,6 +8835,7 @@
 | [git](skills/tools/git/) | tools | NeverSight | ★ 0 |
 | [git-advanced-workflows](skills/cli-automation/git-advanced-workflows/) | cli-automation | sickn33 | ★ 16.7k |
 | [git-advanced-workflows](skills/tools/git-advanced-workflows/) | tools | sickn33 | ★ 15.4k |
+| [git-advanced-workflows](skills/cli-automation/git-advanced-workflows/) | cli-automation | Dokhacgiakhoa | ★ 0 |
 | [git-auto-commit](skills/tools/git-auto-commit/) | tools | dahun428-fx | ★ 0 |
 | [git-best-practices](skills/tools/git-best-practices/) | tools | pmarashian | ★ 0 |
 | [git-commit](skills/tools/git-commit/) | tools | kurko | ★ 0 |
@@ -8778,6 +8896,7 @@
 | [Gitee Workflow Automation](skills/tools/gitee-workflow-automation/) | tools | majiayu000 | ★ 1 |
 | [gitflow](skills/development/gitflow/) | development | majiayu000 | ★ 0 |
 | [github](skills/development/github/) | development | abhaymundhara | ★ 4 |
+| [github](skills/cli-automation/github/) | cli-automation | fpl9000 | ★ 0 |
 | [github](skills/tools/github/) | tools | refly-ai | ★ 0 |
 | [github](skills/tools/github/) | tools | arpowers | ★ 0 |
 | [GitHub About](skills/tools/github-about/) | tools | NeverSight | ★ 0 |
@@ -8797,6 +8916,7 @@
 | [github-agentic-workflows](skills/ai-agents/github-agentic-workflows/) | ai-agents | Hack23 | ★ 0 |
 | [github-api](skills/development/github-api/) | development | franklinbaldo | ★ 0 |
 | [github-api](skills/development/github-api/) | development | franklinbaldo | ★ 0 |
+| [github-archive](skills/cli-automation/github-archive/) | cli-automation | gadievron | ★ 0 |
 | [github-automation](skills/cli-automation/github-automation/) | cli-automation | sickn33 | ★ 16.7k |
 | [github-automation](skills/tools/github-automation/) | tools | sickn33 | ★ 15.4k |
 | [github-automation](skills/tools/github-automation/) | tools | majiayu000 | ★ 0 |
@@ -8806,9 +8926,11 @@
 | [github-code-review](skills/cli-automation/github-code-review/) | cli-automation | frankxai | ★ 0 |
 | [github-code-review](skills/cli-automation/github-code-review/) | cli-automation | frankxai | ★ 0 |
 | [github-commit](skills/tools/github-commit/) | tools | hemilabs | ★ 0 |
+| [github-copilot](skills/ai-agents/github-copilot/) | ai-agents | majiayu000 | ★ 0 |
 | [github-copilot-agent-tips-and-tricks](skills/tools/github-copilot-agent-tips-and-tricks/) | tools | github | ★ 0 |
 | [github-copilot-agent-tips-and-tricks](skills/tools/github-copilot-agent-tips-and-tricks/) | tools | TeamFlint-Dev | ★ 0 |
 | [github-copilot-agent-tips-and-tricks](skills/tools/github-copilot-agent-tips-and-tricks/) | tools | majiayu000 | ★ 0 |
+| [github-copilot-agent-tips-and-tricks](skills/ai-agents/github-copilot-agent-tips-and-tricks/) | ai-agents | majiayu000 | ★ 0 |
 | [github-copilot-cli-expert](skills/cli-automation/github-copilot-cli-expert/) | cli-automation | majiayu000 | ★ 0 |
 | [github-copilot-sdk](skills/development/github-copilot-sdk/) | development | NeverSight | ★ 0 |
 | [github-copilot-sdk](skills/development/github-copilot-sdk/) | development | majiayu000 | ★ 0 |
@@ -8830,6 +8952,7 @@
 | [github-issue-triage](skills/tools/github-issue-triage/) | tools | FrozenPandaz | ★ 0 |
 | [github-issue-triage](skills/tools/github-issue-triage/) | tools | majiayu000 | ★ 0 |
 | [github-issue-triage](skills/tools/github-issue-triage/) | tools | hackefeller | ★ 0 |
+| [github-issues](skills/cli-automation/github-issues/) | cli-automation | NousResearch | ★ 0 |
 | [github-issues](skills/tools/github-issues/) | tools | KeyArc | ★ 0 |
 | [github-issues](skills/tools/github-issues/) | tools | cybereason-labs | ★ 0 |
 | [github-mcp](skills/cli-automation/github-mcp/) | cli-automation | kerim | ★ 0 |
@@ -8890,6 +9013,7 @@
 | [GitOps Patterns](skills/tools/gitops-patterns/) | tools | markus41 | ★ 0 |
 | [GitOps Patterns](skills/tools/gitops-patterns/) | tools | majiayu000 | ★ 0 |
 | [GitOps Patterns](skills/cli-automation/gitops-patterns/) | cli-automation | majiayu000 | ★ 0 |
+| [gitops-practitioner](skills/devops/gitops-practitioner/) | devops | filipemotta | ★ 0 |
 | [gitops-principles-skill](skills/devops/gitops-principles-skill/) | devops | majiayu000 | ★ 0 |
 | [gitops-principles-skill](skills/devops/gitops-principles-skill/) | devops | NeverSight | ★ 0 |
 | [gitops-principles-skill](skills/devops/gitops-principles-skill/) | devops | majiayu000 | ★ 0 |
@@ -8912,6 +9036,7 @@
 | [Global Security](skills/testing-security/global-security/) | testing-security | majiayu000 | ★ 0 |
 | [Global Security](skills/testing-security/global-security/) | testing-security | majiayu000 | ★ 0 |
 | [Global Security](skills/testing-security/global-security/) | testing-security | jaypaulb | ★ 0 |
+| [Global Security](skills/testing-security/global-security/) | testing-security | majiayu000 | ★ 0 |
 | [global-methylation-profile](skills/development/global-methylation-profile/) | development | majiayu000 | ★ 92 |
 | [global-methylation-profile](skills/development/global-methylation-profile/) | development | majiayu000 | ★ 1 |
 | [global-standards](skills/development/global-standards/) | development | majiayu000 | ★ 0 |
@@ -8960,6 +9085,7 @@
 | [god-mode](skills/ai-agents/god-mode/) | ai-agents | majiayu000 | ★ 0 |
 | [god-mode](skills/ai-agents/god-mode/) | ai-agents | kbarbel640-del | ★ 0 |
 | [god-mode](skills/ai-agents/god-mode/) | ai-agents | mpelissari | ★ 0 |
+| [god-mode](skills/ai-agents/god-mode/) | ai-agents | YPYT1 | ★ 0 |
 | [godial-automation](skills/tools/godial-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [godot](skills/development/godot/) | development | fernforestgames | ★ 0 |
 | [godot](skills/cli-automation/godot/) | cli-automation | tr-nc | ★ 0 |
@@ -8974,6 +9100,7 @@
 | [godot-profile-performance](skills/backend/godot-profile-performance/) | backend | majiayu000 | ★ 0 |
 | [Golang Backend Development](skills/development/golang-backend-development/) | development | majiayu000 | ★ 0 |
 | [Golang Security](skills/backend/golang-security/) | backend | HoangNguyen0403 | ★ 0 |
+| [golang-best-practices](skills/development/golang-best-practices/) | development | majiayu000 | ★ 0 |
 | [golang-error-handling](skills/development/golang-error-handling/) | development | saifoelloh | ★ 0 |
 | [golang-pro](skills/data-ai/golang-pro/) | data-ai | sickn33 | ★ 15.4k |
 | [golang-pro](skills/development/golang-pro/) | development | Elpulgo | ★ 0 |
@@ -9142,9 +9269,11 @@
 | [healthsim](skills/business/healthsim/) | business | mark64oswald | ★ 0 |
 | [healthsim](skills/business/healthsim/) | business | mark64oswald | ★ 0 |
 | [healthsim](skills/business/healthsim/) | business | majiayu000 | ★ 0 |
+| [healthsync](skills/backend/healthsync/) | backend | BRO3886 | ★ 0 |
 | [heath-ledger](skills/data-ai/heath-ledger/) | data-ai | openclaw | ★ 0 |
 | [heir-sync-management](skills/devops/heir-sync-management/) | devops | fabioc-aloha | ★ 0 |
 | [heir-sync-management](skills/development/heir-sync-management/) | development | fabioc-aloha | ★ 0 |
+| [heir-sync-management](skills/devops/heir-sync-management/) | devops | fabioc-aloha | ★ 0 |
 | [helcim-automation](skills/devops/helcim-automation/) | devops | ComposioHQ | ★ 37.3k |
 | [helix-memory](skills/data-ai/helix-memory/) | data-ai | MarcinDudekDev | ★ 0 |
 | [hello-skill](skills/uncategorized/hello-skill/) | uncategorized | Coffelix2023 | ★ 0 |
@@ -9191,6 +9320,7 @@
 | [hinge-profile-optimizer](skills/development/hinge-profile-optimizer/) | development | majiayu000 | ★ 0 |
 | [hinge-profile-optimizer](skills/development/hinge-profile-optimizer/) | development | majiayu000 | ★ 0 |
 | [hipaa-guardian](skills/testing-security/hipaa-guardian/) | testing-security | majiayu000 | ★ 0 |
+| [hippocampus](skills/documentation/hippocampus/) | documentation | majiayu000 | ★ 0 |
 | [hire](skills/data-ai/hire/) | data-ai | larsderidder | ★ 0 |
 | [history-and-next-task-rules](skills/development/history-and-next-task-rules/) | development | oimiragieo | ★ 0 |
 | [history-and-next-task-rules](skills/development/history-and-next-task-rules/) | development | majiayu000 | ★ 0 |
@@ -9276,10 +9406,12 @@
 | [huggingface-accelerate](skills/data-ai/huggingface-accelerate/) | data-ai | majiayu000 | ★ 94 |
 | [huggingface-accelerate](skills/data-ai/huggingface-accelerate/) | data-ai | majiayu000 | ★ 1 |
 | [humanitix-automation](skills/tools/humanitix-automation/) | tools | ComposioHQ | ★ 37.3k |
+| [humanizer](skills/development/humanizer/) | development | openclaw | ★ 0 |
 | [humanizer](skills/documentation/humanizer/) | documentation | chekos | ★ 0 |
 | [humanizer](skills/documentation/humanizer/) | documentation | DenkoProg | ★ 0 |
 | [humanizer](skills/documentation/humanizer/) | documentation | thurstonsand | ★ 0 |
 | [humanizer](skills/communication/humanizer/) | communication | nurcholisart | ★ 0 |
+| [humanizer](skills/ai-agents/humanizer/) | ai-agents | josephneumann | ★ 0 |
 | [humanizer-ko](skills/data-ai/humanizer-ko/) | data-ai | majiayu000 | ★ 0 |
 | [humanizer-ko](skills/data-ai/humanizer-ko/) | data-ai | majiayu000 | ★ 0 |
 | [humanloop-automation](skills/tools/humanloop-automation/) | tools | ComposioHQ | ★ 37.3k |
@@ -9342,6 +9474,7 @@
 | [IFCore](skills/development/ifcore/) | development | iaac-maai | ★ 0 |
 | [IFCore](skills/development/ifcore/) | development | iaac-maai | ★ 0 |
 | [IFCore](skills/development/ifcore/) | development | SerjoschDuering | ★ 0 |
+| [IFCore](skills/development/ifcore/) | development | iaac-maai | ★ 0 |
 | [ignisign-automation](skills/tools/ignisign-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [iikit-03-plan](skills/product/iikit-03-plan/) | product | asm0dey | ★ 0 |
 | [iikit-07-analyze](skills/development/iikit-07-analyze/) | development | asm0dey | ★ 0 |
@@ -9367,6 +9500,7 @@
 | [impl](skills/development/impl/) | development | majiayu000 | ★ 0 |
 | [impl](skills/development/impl/) | development | majiayu000 | ★ 0 |
 | [implement_plan](skills/design/implement_plan/) | design | majiayu000 | ★ 0 |
+| [implement-feature](skills/backend/implement-feature/) | backend | lazyoft | ★ 0 |
 | [implement-js](skills/development/implement-js/) | development | nemanjan00 | ★ 0 |
 | [implementation](skills/product/implementation/) | product | diegofornalha | ★ 0 |
 | [implementation](skills/development/implementation/) | development | Objective-Arts | ★ 0 |
@@ -9447,6 +9581,7 @@
 | [infrastructure-verification](skills/devops/infrastructure-verification/) | devops | majiayu000 | ★ 0 |
 | [infrastructure-verification](skills/devops/infrastructure-verification/) | devops | majiayu000 | ★ 0 |
 | [init](skills/data-ai/init/) | data-ai | NeverSight | ★ 0 |
+| [init-agents](skills/ai-agents/init-agents/) | ai-agents | MuhammedAlkhudiry | ★ 0 |
 | [init-context](skills/development/init-context/) | development | devclarityai | ★ 0 |
 | [init-context](skills/development/init-context/) | development | jmsaucier | ★ 0 |
 | [init-project](skills/tools/init-project/) | tools | KJ-devs | ★ 0 |
@@ -9469,6 +9604,7 @@
 | [instacart-automation](skills/tools/instacart-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [instagram-automation](skills/cli-automation/instagram-automation/) | cli-automation | sickn33 | ★ 16.7k |
 | [instagram-automation](skills/tools/instagram-automation/) | tools | sickn33 | ★ 15.5k |
+| [instagram-content](skills/content-media/instagram-content/) | content-media | petrogurcak | ★ 0 |
 | [instagram-social-media](skills/content-media/instagram-social-media/) | content-media | rafaelramosdf | ★ 0 |
 | [install-agentpmt-mcp](skills/data-ai/install-agentpmt-mcp/) | data-ai | AgentPMT | ★ 0 |
 | [install-rules](skills/tools/install-rules/) | tools | NeverSight | ★ 0 |
@@ -9545,6 +9681,7 @@
 | [ios-pentest](skills/testing-security/ios-pentest/) | testing-security | hardw00t | ★ 0 |
 | [ios-simulator-skill](skills/data-ai/ios-simulator-skill/) | data-ai | majiayu000 | ★ 92 |
 | [ios-simulator-skill](skills/data-ai/ios-simulator-skill/) | data-ai | majiayu000 | ★ 1 |
+| [ios-ui-recording](skills/design/ios-ui-recording/) | design | derKlinke | ★ 0 |
 | [iosdev-cn](skills/testing-security/iosdev-cn/) | testing-security | kuangre123 | ★ 0 |
 | [Iot Security](skills/backend/iot-security/) | backend | AmnadTaowsoam | ★ 0 |
 | [iot-edge-module](skills/devops/iot-edge-module/) | devops | majiayu000 | ★ 0 |
@@ -9651,6 +9788,7 @@
 | [jira-integration](skills/data-ai/jira-integration/) | data-ai | majiayu000 | ★ 0 |
 | [jira-integration](skills/data-ai/jira-integration/) | data-ai | majiayu000 | ★ 0 |
 | [jira-workflow-agent](skills/cli-automation/jira-workflow-agent/) | cli-automation | jayleekr | ★ 0 |
+| [jit-gui-expert](skills/design/jit-gui-expert/) | design | thegaltinator | ★ 0 |
 | [jito-bundles-and-priority-fees](skills/development/jito-bundles-and-priority-fees/) | development | majiayu000 | ★ 0 |
 | [jitx-pin-assignment](skills/design/jitx-pin-assignment/) | design | JITx-Inc | ★ 0 |
 | [jj-vcs-workflow](skills/tools/jj-vcs-workflow/) | tools | UtakataKyosui | ★ 0 |
@@ -9670,6 +9808,7 @@
 | [js-ts-best-practices](skills/development/js-ts-best-practices/) | development | majiayu000 | ★ 0 |
 | [json-canvas](skills/development/json-canvas/) | development | majiayu000 | ★ 92 |
 | [json-canvas](skills/development/json-canvas/) | development | majiayu000 | ★ 1 |
+| [json-visualization-dev](skills/data-ai/json-visualization-dev/) | data-ai | HoangDuonng | ★ 0 |
 | [json-yaml](skills/data-ai/json-yaml/) | data-ai | linanwx | ★ 0 |
 | [jtbd](skills/product/jtbd/) | product | neurofoo | ★ 0 |
 | [juicefs-skill](skills/data-ai/juicefs-skill/) | data-ai | yuhr123 | ★ 0 |
@@ -9698,6 +9837,8 @@
 | Skill | Category | Author | Stars |
 |-------|----------|--------|-------|
 | [k6 Performance Testing](skills/development/k6-performance-testing/) | development | omarrohit20 | ★ 0 |
+| [k8s-browser](skills/cli-automation/k8s-browser/) | cli-automation | rohitg00 | ★ 0 |
+| [k8s-cilium](skills/devops/k8s-cilium/) | devops | rohitg00 | ★ 0 |
 | [k8s-debug](skills/devops/k8s-debug/) | devops | akin-ozer | ★ 77 |
 | [k8s-deploy](skills/devops/k8s-deploy/) | devops | ryanmaclean | ★ 0 |
 | [k8s-deploy-auto](skills/devops/k8s-deploy-auto/) | devops | martin-janci | ★ 0 |
@@ -9755,6 +9896,7 @@
 | [kaizen](skills/tools/kaizen/) | tools | sickn33 | ★ 15.5k |
 | [kaleido-automation](skills/tools/kaleido-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [kamal-deploy](skills/devops/kamal-deploy/) | devops | nityeshaga | ★ 0 |
+| [kan](skills/cli-automation/kan/) | cli-automation | majiayu000 | ★ 0 |
 | [kanban](skills/cli-automation/kanban/) | cli-automation | mkSteady | ★ 0 |
 | [kanban-management](skills/tools/kanban-management/) | tools | majiayu000 | ★ 0 |
 | [kanban-management](skills/tools/kanban-management/) | tools | majiayu000 | ★ 0 |
@@ -9798,12 +9940,15 @@
 | [kitt-create-plans](skills/data-ai/kitt-create-plans/) | data-ai | utahdws | ★ 0 |
 | [kitt-create-plans](skills/ai-agents/kitt-create-plans/) | ai-agents | majiayu000 | ★ 0 |
 | [kitt-create-slash-commands](skills/data-ai/kitt-create-slash-commands/) | data-ai | majiayu000 | ★ 0 |
+| [kitt-create-subagents](skills/ai-agents/kitt-create-subagents/) | ai-agents | utahdws | ★ 0 |
 | [kitten](skills/tools/kitten/) | tools | aelaguiz | ★ 0 |
 | [klaviyo-automation](skills/cli-automation/klaviyo-automation/) | cli-automation | sickn33 | ★ 16.7k |
 | [klaviyo-automation](skills/tools/klaviyo-automation/) | tools | sickn33 | ★ 15.5k |
 | [klipfolio-automation](skills/tools/klipfolio-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [klipper](skills/development/klipper/) | development | Brandawg93 | ★ 0 |
 | [klutch](skills/development/klutch/) | development | kesslerio | ★ 0 |
+| [Knowledge](skills/backend/knowledge/) | backend | madeinoz67 | ★ 0 |
+| [knowledge-base-cache](skills/frontend/knowledge-base-cache/) | frontend | Dqz00116 | ★ 0 |
 | [knowledge-synthesis](skills/backend/knowledge-synthesis/) | backend | anthropics | ★ 0 |
 | [knowledge-synthesis](skills/development/knowledge-synthesis/) | development | blackplume233 | ★ 0 |
 | [known-motif-enrichment](skills/development/known-motif-enrichment/) | development | majiayu000 | ★ 92 |
@@ -9900,6 +10045,7 @@
 | [langchain-js](skills/data-ai/langchain-js/) | data-ai | majiayu000 | ★ 0 |
 | [langchain-js](skills/ai-agents/langchain-js/) | ai-agents | majiayu000 | ★ 0 |
 | [langchain-notes](skills/data-ai/langchain-notes/) | data-ai | whaler404 | ★ 0 |
+| [langchain-python](skills/ai-agents/langchain-python/) | ai-agents | pingqLIN | ★ 0 |
 | [langchain-tool-calling](skills/data-ai/langchain-tool-calling/) | data-ai | christian-bromann | ★ 0 |
 | [langchain4j-vector-stores-configuration](skills/backend/langchain4j-vector-stores-configuration/) | backend | majiayu000 | ★ 0 |
 | [langchain4j-vector-stores-configuration](skills/backend/langchain4j-vector-stores-configuration/) | backend | majiayu000 | ★ 0 |
@@ -10013,6 +10159,7 @@
 | [legal-advisor](skills/data-ai/legal-advisor/) | data-ai | sickn33 | ★ 15.5k |
 | [legal-advisor](skills/data-ai/legal-advisor/) | data-ai | techwavedev | ★ 0 |
 | [legal-compliance-agent](skills/testing-security/legal-compliance-agent/) | testing-security | Odiabackend099 | ★ 0 |
+| [legal-ocr](skills/cli-automation/legal-ocr/) | cli-automation | majiayu000 | ★ 0 |
 | [leiga-automation](skills/tools/leiga-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [Lemlist Automation](skills/data-ai/lemlist-automation/) | data-ai | ComposioHQ | ★ 37.3k |
 | [Lemon Squeezy Automation](skills/cli-automation/lemon-squeezy-automation/) | cli-automation | ComposioHQ | ★ 37.3k |
@@ -10044,6 +10191,7 @@
 | [library-writer](skills/development/library-writer/) | development | majiayu000 | ★ 0 |
 | [library-writer](skills/development/library-writer/) | development | majiayu000 | ★ 0 |
 | [license-header-adder](skills/development/license-header-adder/) | development | majiayu000 | ★ 0 |
+| [license-header-adder](skills/cli-automation/license-header-adder/) | cli-automation | majiayu000 | ★ 0 |
 | [lifecycle-adoption](skills/development/lifecycle-adoption/) | development | tachyon-beep | ★ 0 |
 | [lifesciences-graph-builder](skills/tools/lifesciences-graph-builder/) | tools | donbr | ★ 0 |
 | [lightfriend-add-frontend-page](skills/development/lightfriend-add-frontend-page/) | development | majiayu000 | ★ 0 |
@@ -10129,11 +10277,14 @@
 | [llm-council](skills/data-ai/llm-council/) | data-ai | gcpdev | ★ 0 |
 | [llm-council](skills/data-ai/llm-council/) | data-ai | majiayu000 | ★ 0 |
 | [llm-council](skills/ai-agents/llm-council/) | ai-agents | majiayu000 | ★ 0 |
+| [llm-docs-optimizer](skills/ai-agents/llm-docs-optimizer/) | ai-agents | nilecui | ★ 0 |
 | [llm-docs-optimizer](skills/documentation/llm-docs-optimizer/) | documentation | majiayu000 | ★ 0 |
 | [llm-docs-optimizer](skills/documentation/llm-docs-optimizer/) | documentation | majiayu000 | ★ 0 |
+| [llm-docs-optimizer](skills/ai-agents/llm-docs-optimizer/) | ai-agents | majiayu000 | ★ 0 |
 | [llm-evaluate](skills/data-ai/llm-evaluate/) | data-ai | lucidlabs-hq | ★ 0 |
 | [llm-evaluation](skills/ai-agents/llm-evaluation/) | ai-agents | sickn33 | ★ 16.7k |
 | [llm-evaluation](skills/data-ai/llm-evaluation/) | data-ai | sickn33 | ★ 15.5k |
+| [llm-fmt](skills/backend/llm-fmt/) | backend | SerPeter | ★ 0 |
 | [llm-icon-finder](skills/data-ai/llm-icon-finder/) | data-ai | daymade | ★ 0 |
 | [llm-manager](skills/data-ai/llm-manager/) | data-ai | majiayu000 | ★ 0 |
 | [llm-manager](skills/data-ai/llm-manager/) | data-ai | majiayu000 | ★ 0 |
@@ -10163,6 +10314,7 @@
 | [ln-731-docker-generator](skills/devops/ln-731-docker-generator/) | devops | majiayu000 | ★ 0 |
 | [ln-731-docker-generator](skills/devops/ln-731-docker-generator/) | devops | majiayu000 | ★ 0 |
 | [ln-751-command-templates](skills/development/ln-751-command-templates/) | development | majiayu000 | ★ 0 |
+| [ln-751-command-templates](skills/backend/ln-751-command-templates/) | backend | majiayu000 | ★ 0 |
 | [ln-774-healthcheck-setup](skills/development/ln-774-healthcheck-setup/) | development | majiayu000 | ★ 0 |
 | [ln-774-healthcheck-setup](skills/development/ln-774-healthcheck-setup/) | development | majiayu000 | ★ 0 |
 | [ln-774-healthcheck-setup](skills/development/ln-774-healthcheck-setup/) | development | NeverSight | ★ 0 |
@@ -10170,6 +10322,7 @@
 | [Load Test Designer](skills/testing-security/load-test-designer/) | testing-security | cdalsoniii | ★ 0 |
 | [load-balancing-patterns](skills/devops/load-balancing-patterns/) | devops | ancoleman | ★ 0 |
 | [loadstone-cli](skills/tools/loadstone-cli/) | tools | damianpoole | ★ 0 |
+| [loadstone-cli](skills/cli-automation/loadstone-cli/) | cli-automation | damianpoole | ★ 0 |
 | [local-development](skills/development/local-development/) | development | majiayu000 | ★ 0 |
 | [local-legal-seo-audit](skills/business/local-legal-seo-audit/) | business | sickn33 | ★ 16.7k |
 | [local-methylation-profile](skills/tools/local-methylation-profile/) | tools | majiayu000 | ★ 92 |
@@ -10182,6 +10335,7 @@
 | [lodgify-automation](skills/tools/lodgify-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [logging-module-usage](skills/devops/logging-module-usage/) | devops | majiayu000 | ★ 0 |
 | [logging-module-usage](skills/development/logging-module-usage/) | development | oimiragieo | ★ 0 |
+| [Logistics Cost Optimization](skills/design/logistics-cost-optimization/) | design | writer | ★ 0 |
 | [logit-lens](skills/tools/logit-lens/) | tools | majiayu000 | ★ 0 |
 | [logo-dev-automation](skills/tools/logo-dev-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [logql-generator](skills/tools/logql-generator/) | tools | akin-ozer | ★ 77 |
@@ -10191,6 +10345,7 @@
 | [loki-mode](skills/data-ai/loki-mode/) | data-ai | majiayu000 | ★ 0 |
 | [loki-mode](skills/data-ai/loki-mode/) | data-ai | majiayu000 | ★ 0 |
 | [loki-mode](skills/development/loki-mode/) | development | majiayu000 | ★ 0 |
+| [loki-mode](skills/devops/loki-mode/) | devops | majiayu000 | ★ 0 |
 | [long-running-orchestrator](skills/data-ai/long-running-orchestrator/) | data-ai | liangdabiao | ★ 0 |
 | [loomio-automation](skills/tools/loomio-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [loop-annotation](skills/tools/loop-annotation/) | tools | majiayu000 | ★ 92 |
@@ -10244,6 +10399,7 @@
 | [maintain-project-rules](skills/devops/maintain-project-rules/) | devops | janjaszczak | ★ 0 |
 | [maintainx-automation](skills/data-ai/maintainx-automation/) | data-ai | ComposioHQ | ★ 37.7k |
 | [maintenance](skills/uncategorized/maintenance/) | uncategorized | aiskillstore | ★ 0 |
+| [make-agent](skills/ai-agents/make-agent/) | ai-agents | Luscii | ★ 0 |
 | [make-automation](skills/cli-automation/make-automation/) | cli-automation | sickn33 | ★ 16.7k |
 | [make-automation](skills/tools/make-automation/) | tools | sickn33 | ★ 15.5k |
 | [make-instruction](skills/tools/make-instruction/) | tools | Luscii | ★ 0 |
@@ -10252,6 +10408,7 @@
 | [make-repo-contribution](skills/tools/make-repo-contribution/) | tools | Gabeujin | ★ 0 |
 | [make-repo-contribution](skills/tools/make-repo-contribution/) | tools | williamlimasilva | ★ 0 |
 | [make-repo-contribution](skills/tools/make-repo-contribution/) | tools | sla-te | ★ 0 |
+| [make-skill](skills/cli-automation/make-skill/) | cli-automation | jbpayton | ★ 0 |
 | [make-skill-template](skills/tools/make-skill-template/) | tools | kuippa | ★ 0 |
 | [makefile](skills/cli-automation/makefile/) | cli-automation | pingqLIN | ★ 0 |
 | [makefile](skills/tools/makefile/) | tools | SebastienElet | ★ 0 |
@@ -10275,6 +10432,7 @@
 | [managing-astro-deployments](skills/devops/managing-astro-deployments/) | devops | NeverSight | ★ 0 |
 | [managing-astro-local-env](skills/cli-automation/managing-astro-local-env/) | cli-automation | astronomer | ★ 0 |
 | [managing-databases](skills/backend/managing-databases/) | backend | majiayu000 | ★ 0 |
+| [managing-dependencies](skills/testing-security/managing-dependencies/) | testing-security | majiayu000 | ★ 0 |
 | [managing-e2b-sandboxes](skills/development/managing-e2b-sandboxes/) | development | bxxf | ★ 0 |
 | [managing-ports](skills/tools/managing-ports/) | tools | Saturate | ★ 0 |
 | [managing-ports](skills/tools/managing-ports/) | tools | majiayu000 | ★ 0 |
@@ -10299,6 +10457,8 @@
 | [mapbox-automation](skills/tools/mapbox-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [mapbox-integration-patterns](skills/development/mapbox-integration-patterns/) | development | mapbox | ★ 0 |
 | [mapulus-automation](skills/tools/mapulus-automation/) | tools | ComposioHQ | ★ 37.7k |
+| [marimo](skills/frontend/marimo/) | frontend | maragudk | ★ 0 |
+| [Markdown Export](skills/documentation/markdown-export/) | documentation | innV0 | ★ 0 |
 | [markdown-consolidator](skills/documentation/markdown-consolidator/) | documentation | benjaminmgross | ★ 0 |
 | [markdown-drafts](skills/documentation/markdown-drafts/) | documentation | cloudflare | ★ 0 |
 | [markdown-exporter](skills/development/markdown-exporter/) | development | majiayu000 | ★ 0 |
@@ -10326,6 +10486,7 @@
 | [marketing-ideas](skills/business/marketing-ideas/) | business | sickn33 | ★ 16.7k |
 | [marketing-ideas](skills/business/marketing-ideas/) | business | sickn33 | ★ 15.5k |
 | [marketing-ideas](skills/tools/marketing-ideas/) | tools | coreyhaines31 | ★ 0 |
+| [marketing-ideas](skills/tools/marketing-ideas/) | tools | cristian473 | ★ 0 |
 | [marketing-psychology](skills/business/marketing-psychology/) | business | sickn33 | ★ 16.7k |
 | [marketing-psychology](skills/business/marketing-psychology/) | business | sickn33 | ★ 15.5k |
 | [marketing-psychology](skills/business/marketing-psychology/) | business | heykaran77 | ★ 0 |
@@ -10340,6 +10501,7 @@
 | [markitdown](skills/content-media/markitdown/) | content-media | Rowtion | ★ 0 |
 | [markitdown](skills/content-media/markitdown/) | content-media | majiayu000 | ★ 0 |
 | [marktguru-grocery-deals](skills/development/marktguru-grocery-deals/) | development | manmal | ★ 0 |
+| [marp-pitch-creator](skills/frontend/marp-pitch-creator/) | frontend | NextMed-main | ★ 0 |
 | [marp-slide](skills/tools/marp-slide/) | tools | davila7 | ★ 0 |
 | [marp-slide](skills/tools/marp-slide/) | tools | powerhouse-inc | ★ 0 |
 | [marp-slide](skills/tools/marp-slide/) | tools | fabioeducacross | ★ 0 |
@@ -10417,6 +10579,7 @@
 | [mcp-create-declarative-agent](skills/data-ai/mcp-create-declarative-agent/) | data-ai | sla-te | ★ 0 |
 | [mcp-create-declarative-agent](skills/data-ai/mcp-create-declarative-agent/) | data-ai | github | ★ 0 |
 | [mcp-create-declarative-agent](skills/data-ai/mcp-create-declarative-agent/) | data-ai | sandriaas | ★ 0 |
+| [mcp-create-declarative-agent](skills/ai-agents/mcp-create-declarative-agent/) | ai-agents | github | ★ 0 |
 | [mcp-development](skills/development/mcp-development/) | development | KiranEswaran | ★ 0 |
 | [mcp-development](skills/tools/mcp-development/) | tools | NeverSight | ★ 0 |
 | [mcp-development](skills/tools/mcp-development/) | tools | fabriciofs | ★ 0 |
@@ -10443,6 +10606,7 @@
 | [md-fetch](skills/documentation/md-fetch/) | documentation | kwanLeeFrmVi | ★ 0 |
 | [md-to-image](skills/development/md-to-image/) | development | ZaynJarvis | ★ 0 |
 | [Meal Planner](skills/devops/meal-planner/) | devops | openclaw | ★ 0 |
+| [measure-ai-proficiency](skills/ai-agents/measure-ai-proficiency/) | ai-agents | pskoett | ★ 0 |
 | [med-info](skills/devops/med-info/) | devops | openclaw | ★ 0 |
 | [Media Uploader - R2/S3 with video download](skills/content-media/media-uploader-r2-s3-with-video-download/) | content-media | sternelee | ★ 0 |
 | [media-generation](skills/content-media/media-generation/) | content-media | majiayu000 | ★ 0 |
@@ -10530,6 +10694,7 @@
 | [methylation-variability-analysis](skills/data-ai/methylation-variability-analysis/) | data-ai | majiayu000 | ★ 1 |
 | [metric-creator](skills/data-ai/metric-creator/) | data-ai | Alquimia-ai | ★ 0 |
 | [mezmo-automation](skills/tools/mezmo-automation/) | tools | ComposioHQ | ★ 37.7k |
+| [mfe-waves](skills/devops/mfe-waves/) | devops | Tibsfox | ★ 0 |
 | [mhc](skills/data-ai/mhc/) | data-ai | yonesuke | ★ 0 |
 | [micro-saas-launcher](skills/development/micro-saas-launcher/) | development | sickn33 | ★ 16.7k |
 | [micro-saas-launcher](skills/development/micro-saas-launcher/) | development | sickn33 | ★ 15.5k |
@@ -10564,12 +10729,15 @@
 | [migrate](skills/development/migrate/) | development | majiayu000 | ★ 0 |
 | [migrate](skills/backend/migrate/) | backend | majiayu000 | ★ 0 |
 | [migrate-to-promptscript](skills/development/migrate-to-promptscript/) | development | mrwogu | ★ 0 |
+| [migrate-to-promptscript](skills/ai-agents/migrate-to-promptscript/) | ai-agents | mrwogu | ★ 0 |
 | [migrate-to-skills](skills/backend/migrate-to-skills/) | backend | ArangoGutierrez | ★ 0 |
 | [migrate-to-skills](skills/backend/migrate-to-skills/) | backend | ornge-julius | ★ 0 |
 | [migrate-to-skills](skills/development/migrate-to-skills/) | development | QkHearn | ★ 0 |
+| [migrating-json-schemas](skills/backend/migrating-json-schemas/) | backend | zaggino | ★ 0 |
 | [Migration Planner](skills/backend/migration-planner/) | backend | cdalsoniii | ★ 0 |
 | [migration-guides](skills/tools/migration-guides/) | tools | majiayu000 | ★ 0 |
 | [migration-guides](skills/tools/migration-guides/) | tools | majiayu000 | ★ 0 |
+| [migration-guides](skills/ai-agents/migration-guides/) | ai-agents | majiayu000 | ★ 0 |
 | [mine.adrs](skills/development/mine.adrs/) | development | NodeJSmith | ★ 0 |
 | [minecraft-bukkit-pro](skills/development/minecraft-bukkit-pro/) | development | sickn33 | ★ 15.5k |
 | [minecraft-bukkit-pro](skills/development/minecraft-bukkit-pro/) | development | rootcastleco | ★ 0 |
@@ -10833,6 +11001,7 @@
 | [model-selection](skills/machine-learning/model-selection/) | machine-learning | majiayu000 | ★ 93 |
 | [model-selection](skills/machine-learning/model-selection/) | machine-learning | majiayu000 | ★ 2 |
 | [modelry-automation](skills/data-ai/modelry-automation/) | data-ai | ComposioHQ | ★ 37.7k |
+| [models-dev](skills/ai-agents/models-dev/) | ai-agents | webup | ★ 0 |
 | [modelscope](skills/data-ai/modelscope/) | data-ai | zzylanmengqingchuan | ★ 0 |
 | [modern-c-makefile](skills/tools/modern-c-makefile/) | tools | majiayu000 | ★ 0 |
 | [modern-c-makefile](skills/tools/modern-c-makefile/) | tools | majiayu000 | ★ 0 |
@@ -10859,8 +11028,10 @@
 | [moltbookdowndetector](skills/backend/moltbookdowndetector/) | backend | officialpm | ★ 0 |
 | [moltbot-best-practices](skills/data-ai/moltbot-best-practices/) | data-ai | openclaw | ★ 0 |
 | [moltbot-security](skills/ai-agents/moltbot-security/) | ai-agents | openclaw | ★ 0 |
+| [moltbot, openclaw-best-practices](skills/ai-agents/moltbot-openclaw-best-practices/) | ai-agents | Demerzels-lab | ★ 0 |
 | [moltex-pro](skills/data-ai/moltex-pro/) | data-ai | dazeb | ★ 0 |
 | [moltflow](skills/fullstack-web/moltflow/) | fullstack-web | openclaw | ★ 0 |
+| [moltgram](skills/ai-agents/moltgram/) | ai-agents | kenL4 | ★ 0 |
 | [moltinder](skills/development/moltinder/) | development | yermarblows | ★ 0 |
 | [moltins](skills/data-ai/moltins/) | data-ai | ArcoCodes | ★ 0 |
 | [moltmoon-sdk](skills/development/moltmoon-sdk/) | development | kbarbel640-del | ★ 0 |
@@ -10920,12 +11091,14 @@
 | [mongodb-schema-design](skills/development/mongodb-schema-design/) | development | romiluz13 | ★ 0 |
 | [monitor](skills/development/monitor/) | development | majiayu000 | ★ 92 |
 | [monitor](skills/development/monitor/) | development | majiayu000 | ★ 1 |
+| [monitor](skills/devops/monitor/) | devops | sofer | ★ 0 |
 | [monitor-db](skills/data-ai/monitor-db/) | data-ai | Techlemariam | ★ 0 |
 | [monitoring](skills/development/monitoring/) | development | erhankaraarslan | ★ 0 |
 | [Monitoring](skills/devops/monitoring/) | devops | openclaw | ★ 0 |
 | [Monitoring](skills/devops/monitoring/) | devops | zhanbei1 | ★ 0 |
 | [monorepo-and-tooling](skills/tools/monorepo-and-tooling/) | tools | oimiragieo | ★ 0 |
 | [monorepo-and-tooling](skills/tools/monorepo-and-tooling/) | tools | Finimo-Solutions | ★ 0 |
+| [monorepo-and-tooling](skills/tools/monorepo-and-tooling/) | tools | oimiragieo | ★ 0 |
 | [monorepo-architect](skills/development/monorepo-architect/) | development | sickn33 | ★ 16.7k |
 | [monorepo-architect](skills/tools/monorepo-architect/) | tools | sickn33 | ★ 15.5k |
 | [monorepo-management](skills/tools/monorepo-management/) | tools | sickn33 | ★ 16.7k |
@@ -10950,6 +11123,7 @@
 | [morning-dashboard](skills/data-ai/morning-dashboard/) | data-ai | Manantra | ★ 0 |
 | [Morph](skills/documentation/morph/) | documentation | simota | ★ 0 |
 | [moshi-notify](skills/development/moshi-notify/) | development | maplefukku | ★ 0 |
+| [mother-brain](skills/product/mother-brain/) | product | super-state | ★ 0 |
 | [motif-scanning](skills/tools/motif-scanning/) | tools | majiayu000 | ★ 92 |
 | [motif-scanning](skills/tools/motif-scanning/) | tools | majiayu000 | ★ 1 |
 | [motion-animation](skills/development/motion-animation/) | development | anis-marrouchi | ★ 0 |
@@ -10958,6 +11132,7 @@
 | [mpx-create-spec](skills/tools/mpx-create-spec/) | tools | MartinoPolo | ★ 0 |
 | [mqtt-expert](skills/testing-security/mqtt-expert/) | testing-security | majiayu000 | ★ 0 |
 | [ms-sql-dba](skills/development/ms-sql-dba/) | development | pingqLIN | ★ 0 |
+| [ms-teams-apps](skills/ai-agents/ms-teams-apps/) | ai-agents | alinaqi | ★ 0 |
 | [msg91-automation](skills/tools/msg91-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [mssql](skills/development/mssql/) | development | sanjay3290 | ★ 0 |
 | [mssql](skills/development/mssql/) | development | NeverSight | ★ 0 |
@@ -11301,6 +11476,7 @@
 | [notebook-writer](skills/development/notebook-writer/) | development | majiayu000 | ★ 0 |
 | [notebook-writer](skills/development/notebook-writer/) | development | majiayu000 | ★ 0 |
 | [notebook-writer](skills/development/notebook-writer/) | development | dangeles | ★ 0 |
+| [notebook-writer](skills/data-ai/notebook-writer/) | data-ai | majiayu000 | ★ 0 |
 | [notebooklm](skills/development/notebooklm/) | development | sickn33 | ★ 16.7k |
 | [notebooklm](skills/development/notebooklm/) | development | sickn33 | ★ 15.5k |
 | [notebooklm](skills/tools/notebooklm/) | tools | ronnycoding | ★ 0 |
@@ -11308,6 +11484,7 @@
 | [notes-cli](skills/cli-automation/notes-cli/) | cli-automation | jcfontecha | ★ 0 |
 | [notion](skills/backend/notion/) | backend | majiayu000 | ★ 0 |
 | [notion](skills/backend/notion/) | backend | thelaraibkhan | ★ 0 |
+| [notion](skills/backend/notion/) | backend | refly-ai | ★ 0 |
 | [notion-api](skills/tools/notion-api/) | tools | vamseeachanta | ★ 0 |
 | [notion-automation](skills/backend/notion-automation/) | backend | sickn33 | ★ 16.7k |
 | [notion-automation](skills/development/notion-automation/) | development | sickn33 | ★ 15.5k |
@@ -11326,6 +11503,7 @@
 | [notion-template-business](skills/tools/notion-template-business/) | tools | sickn33 | ★ 15.5k |
 | [notion-uploader-downloader](skills/development/notion-uploader-downloader/) | development | majiayu000 | ★ 0 |
 | [notion-uploader-downloader](skills/development/notion-uploader-downloader/) | development | majiayu000 | ★ 0 |
+| [notmcp](skills/backend/notmcp/) | backend | DomVinyard | ★ 0 |
 | [nova-act-usability](skills/data-ai/nova-act-usability/) | data-ai | adityak6798 | ★ 0 |
 | [nova-net-worth](skills/development/nova-net-worth/) | development | openclaw | ★ 0 |
 | [npm-automation](skills/tools/npm-automation/) | tools | ComposioHQ | ★ 37.7k |
@@ -11343,6 +11521,7 @@
 | [nuxt-seo](skills/design/nuxt-seo/) | design | No-Name-Studio-VN | ★ 0 |
 | [nuxt-seo](skills/design/nuxt-seo/) | design | majiayu000 | ★ 0 |
 | [nuxt-ui](skills/design/nuxt-ui/) | design | NeverSight | ★ 0 |
+| [nuxt-ui](skills/frontend/nuxt-ui/) | frontend | hk-vk | ★ 0 |
 | [nvidia-nim](skills/data-ai/nvidia-nim/) | data-ai | frankxai | ★ 0 |
 | [nvidia-nim](skills/data-ai/nvidia-nim/) | data-ai | frankxai | ★ 0 |
 | [nvidia-nim](skills/devops/nvidia-nim/) | devops | majiayu000 | ★ 0 |
@@ -11439,6 +11618,7 @@
 | [onboard](skills/development/onboard/) | development | mysteriousHerb | ★ 0 |
 | [onboarding](skills/data-ai/onboarding/) | data-ai | megazear7 | ★ 0 |
 | [Onboarding](skills/backend/onboarding/) | backend | AmnadTaowsoam | ★ 0 |
+| [Onboarding Check-in Drafter](skills/business/onboarding-check-in-drafter/) | business | SixtySecondsApp | ★ 0 |
 | [Onboarding Guide Generator](skills/documentation/onboarding-guide-generator/) | documentation | cdalsoniii | ★ 0 |
 | [onboarding-cro](skills/fullstack-web/onboarding-cro/) | fullstack-web | sickn33 | ★ 16.7k |
 | [onboarding-cro](skills/development/onboarding-cro/) | development | sickn33 | ★ 15.5k |
@@ -11455,6 +11635,7 @@
 | [onevalue-backend](skills/development/onevalue-backend/) | development | nithinvaradaraj-crypto | ★ 0 |
 | [onevalue-frontend](skills/development/onevalue-frontend/) | development | nithinvaradaraj-crypto | ★ 0 |
 | [ontopo](skills/development/ontopo/) | development | NeverSight | ★ 0 |
+| [open-ai-town](skills/ai-agents/open-ai-town/) | ai-agents | Ishnoor-Singh | ★ 0 |
 | [open-brush-plugin-skill](skills/tools/open-brush-plugin-skill/) | tools | icosa-foundation | ★ 0 |
 | [open-eth-terminal-action-generator](skills/tools/open-eth-terminal-action-generator/) | tools | majiayu000 | ★ 94 |
 | [open-eth-terminal-action-generator](skills/tools/open-eth-terminal-action-generator/) | tools | majiayu000 | ★ 1 |
@@ -11521,6 +11702,7 @@
 | [openclaw-starter-kit](skills/ai-agents/openclaw-starter-kit/) | ai-agents | AIsa-team | ★ 0 |
 | [opencode](skills/tools/opencode/) | tools | majiayu000 | ★ 0 |
 | [opencode](skills/tools/opencode/) | tools | majiayu000 | ★ 0 |
+| [opencode](skills/development/opencode/) | development | majiayu000 | ★ 0 |
 | [opencode-config](skills/tools/opencode-config/) | tools | serejaris | ★ 0 |
 | [opencode-docs](skills/tools/opencode-docs/) | tools | magnusrodseth | ★ 0 |
 | [opencode-orchestrator](skills/data-ai/opencode-orchestrator/) | data-ai | RealistSec | ★ 0 |
@@ -11676,6 +11858,7 @@
 | [outlook-calendar-automation](skills/tools/outlook-calendar-automation/) | tools | DarkThreat74 | ★ 0 |
 | [outpost](skills/devops/outpost/) | devops | hookdeck | ★ 0 |
 | [outpost](skills/devops/outpost/) | devops | majiayu000 | ★ 0 |
+| [output-handoff](skills/documentation/output-handoff/) | documentation | tomlarse | ★ 0 |
 | [overnight-development](skills/development/overnight-development/) | development | BbgnsurfTech | ★ 0 |
 | [overseer-plan](skills/documentation/overseer-plan/) | documentation | nsyout | ★ 0 |
 | [overview](skills/devops/overview/) | devops | majiayu000 | ★ 0 |
@@ -11703,8 +11886,10 @@
 | [packaging-rules](skills/development/packaging-rules/) | development | BrainDriveAI | ★ 0 |
 | [packaging-rules](skills/development/packaging-rules/) | development | BrainDriveAI | ★ 0 |
 | [packmind-onboard](skills/tools/packmind-onboard/) | tools | PackmindHub | ★ 0 |
+| [packmind-onboard](skills/cli-automation/packmind-onboard/) | cli-automation | PackmindHub | ★ 0 |
 | [page-annotator](skills/data-ai/page-annotator/) | data-ai | caulif | ★ 0 |
 | [page-x-automation](skills/tools/page-x-automation/) | tools | ComposioHQ | ★ 37.7k |
+| [pagen](skills/business/pagen/) | business | harperreed | ★ 0 |
 | [pagent](skills/data-ai/pagent/) | data-ai | majiayu000 | ★ 0 |
 | [pagent](skills/data-ai/pagent/) | data-ai | tuannvm | ★ 0 |
 | [pagent](skills/data-ai/pagent/) | data-ai | majiayu000 | ★ 0 |
@@ -11714,6 +11899,7 @@
 | [Pagination, Search, and Sorting](skills/backend/pagination-search-and-sorting/) | backend | raffaeler | ★ 0 |
 | [paid-ads](skills/content-media/paid-ads/) | content-media | sickn33 | ★ 16.7k |
 | [paid-ads](skills/data-ai/paid-ads/) | data-ai | sickn33 | ★ 15.5k |
+| [pair](skills/ai-agents/pair/) | ai-agents | ratacat | ★ 0 |
 | [pair-capability-setup-pm](skills/tools/pair-capability-setup-pm/) | tools | foomakers | ★ 0 |
 | [pal-mcp-expert](skills/development/pal-mcp-expert/) | development | majiayu000 | ★ 0 |
 | [PandaDoc Automation](skills/development/pandadoc-automation/) | development | ComposioHQ | ★ 37.7k |
@@ -11744,6 +11930,7 @@
 | [partner-revenue-desk](skills/data-ai/partner-revenue-desk/) | data-ai | gtmagents | ★ 0 |
 | [partner-revenue-desk](skills/data-ai/partner-revenue-desk/) | data-ai | majiayu000 | ★ 0 |
 | [partner-revenue-desk](skills/data-ai/partner-revenue-desk/) | data-ai | NeverSight | ★ 0 |
+| [partners-droid](skills/development/partners-droid/) | development | sla-te | ★ 0 |
 | [partners-stackhawk-security-onboarding](skills/testing-security/partners-stackhawk-security-onboarding/) | testing-security | sla-te | ★ 0 |
 | [passcreator-automation](skills/tools/passcreator-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [passslot-automation](skills/tools/passslot-automation/) | tools | ComposioHQ | ★ 37.7k |
@@ -11785,6 +11972,7 @@
 | [pbi-squire](skills/data-ai/pbi-squire/) | data-ai | cn-dataworks | ★ 0 |
 | [pc-games](skills/development/pc-games/) | development | sickn33 | ★ 16.9k |
 | [pc-games](skills/development/pc-games/) | development | sickn33 | ★ 15.5k |
+| [pca-docs](skills/documentation/pca-docs/) | documentation | narcisolcf | ★ 0 |
 | [pca-skill-manager](skills/tools/pca-skill-manager/) | tools | majiayu000 | ★ 0 |
 | [pca-skill-manager](skills/tools/pca-skill-manager/) | tools | majiayu000 | ★ 0 |
 | [pca-skill-manager](skills/tools/pca-skill-manager/) | tools | narcisolcf | ★ 0 |
@@ -11802,6 +11990,7 @@
 | [pdf](skills/development/pdf/) | development | majiayu000 | ★ 1 |
 | [pdf](skills/development/pdf/) | development | rafaelramosdf | ★ 0 |
 | [pdf](skills/backend/pdf/) | backend | rafaelramosdf | ★ 0 |
+| [pdf](skills/tools/pdf/) | tools | krishagel | ★ 0 |
 | [pdf](skills/design/pdf/) | design | diegofornalha | ★ 0 |
 | [Pdf](skills/documentation/pdf/) | documentation | danielmiessler | ★ 0 |
 | [Pdf](skills/documentation/pdf/) | documentation | verrio1 | ★ 0 |
@@ -11887,6 +12076,7 @@
 | [persona-coordination](skills/testing-security/persona-coordination/) | testing-security | cmtkdot | ★ 0 |
 | [persona-interview](skills/data-ai/persona-interview/) | data-ai | guorui913-sina | ★ 0 |
 | [personalization-engine](skills/tools/personalization-engine/) | tools | christianearle01 | ★ 0 |
+| [petstore-checklist](skills/development/petstore-checklist/) | development | a1flecke | ★ 0 |
 | [pexels-automation](skills/tools/pexels-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [pgsql-parser-testing](skills/development/pgsql-parser-testing/) | development | constructive-io | ★ 0 |
 | [PhantomBuster Automation](skills/development/phantombuster-automation/) | development | ComposioHQ | ★ 37.7k |
@@ -11904,6 +12094,7 @@
 | [php-pro](skills/data-ai/php-pro/) | data-ai | sickn33 | ★ 15.5k |
 | [php-security-audit](skills/testing-security/php-security-audit/) | testing-security | benjaminhaeberli | ★ 0 |
 | [phpunit](skills/backend/phpunit/) | backend | codebar-ag | ★ 0 |
+| [phx:init](skills/tools/phx-init/) | tools | oliver-kriska | ★ 0 |
 | [physic-claw-vea](skills/development/physic-claw-vea/) | development | yomero243 | ★ 0 |
 | [Physics](skills/development/physics/) | development | openclaw | ★ 0 |
 | [picture-superiority](skills/development/picture-superiority/) | development | lev-os | ★ 0 |
@@ -11948,6 +12139,7 @@
 | [plaid-fintech](skills/testing-security/plaid-fintech/) | testing-security | sickn33 | ★ 16.7k |
 | [plaid-fintech](skills/development/plaid-fintech/) | development | sickn33 | ★ 15.5k |
 | [plain-automation](skills/data-ai/plain-automation/) | data-ai | ComposioHQ | ★ 37.7k |
+| [plan](skills/development/plan/) | development | ferdiangunawan | ★ 0 |
 | [plan](skills/development/plan/) | development | overthestream | ★ 0 |
 | [plan](skills/development/plan/) | development | appautomaton | ★ 0 |
 | [plan](skills/development/plan/) | development | majiayu000 | ★ 0 |
@@ -11997,6 +12189,7 @@
 | [platxa-skill-generator](skills/tools/platxa-skill-generator/) | tools | platxa | ★ 0 |
 | [platxa-skill-generator](skills/tools/platxa-skill-generator/) | tools | majiayu000 | ★ 0 |
 | [platxa-skill-generator](skills/tools/platxa-skill-generator/) | tools | majiayu000 | ★ 0 |
+| [playerhoods-database](skills/backend/playerhoods-database/) | backend | dongsis | ★ 0 |
 | [playwright](skills/testing-security/playwright/) | testing-security | a5c-ai | ★ 0 |
 | [playwright](skills/testing-security/playwright/) | testing-security | majiayu000 | ★ 0 |
 | [Playwright E2E Testing](skills/testing-security/playwright-e2e-testing/) | testing-security | omarrohit20 | ★ 0 |
@@ -12147,9 +12340,11 @@
 | [pr-review](skills/testing-security/pr-review/) | testing-security | COG-GTM | ★ 0 |
 | [pr-review](skills/development/pr-review/) | development | ychartois | ★ 0 |
 | [pr-review](skills/design/pr-review/) | design | tvdavies | ★ 0 |
+| [pr-test-analyzer](skills/ai-agents/pr-test-analyzer/) | ai-agents | ngx-signal-forms | ★ 0 |
 | [pr-triage](skills/devops/pr-triage/) | devops | narthur | ★ 0 |
 | [pr-watch](skills/cli-automation/pr-watch/) | cli-automation | OmniNode-ai | ★ 0 |
 | [pr-workflow](skills/tools/pr-workflow/) | tools | z3d | ★ 0 |
+| [praxis](skills/development/praxis/) | development | originsec | ★ 0 |
 | [prd](skills/product/prd/) | product | Samuelsenhet | ★ 0 |
 | [prd](skills/product/prd/) | product | aloisdeniel | ★ 0 |
 | [PRD Generator for TaskMaster](skills/tools/prd-generator-for-taskmaster/) | tools | majiayu000 | ★ 0 |
@@ -12291,6 +12486,7 @@
 | [programmatic-seo](skills/business/programmatic-seo/) | business | whyujjwal | ★ 0 |
 | [programming-ruby](skills/development/programming-ruby/) | development | majiayu000 | ★ 0 |
 | [programming-ruby](skills/development/programming-ruby/) | development | majiayu000 | ★ 0 |
+| [progressive-discovery](skills/product/progressive-discovery/) | product | GobbyAI | ★ 0 |
 | [projecoes-read-models](skills/data-ai/projecoes-read-models/) | data-ai | majiayu000 | ★ 0 |
 | [Project Analysis Workflow](skills/development/project-analysis-workflow/) | development | majiayu000 | ★ 0 |
 | [Project Analysis Workflow](skills/development/project-analysis-workflow/) | development | majiayu000 | ★ 0 |
@@ -12338,6 +12534,7 @@
 | [project-guidelines-example](skills/development/project-guidelines-example/) | development | faint45 | ★ 0 |
 | [project-guidelines-example](skills/development/project-guidelines-example/) | development | yd5768365-hue | ★ 0 |
 | [project-guidelines-example](skills/frontend/project-guidelines-example/) | frontend | Mark393295827 | ★ 0 |
+| [project-index](skills/development/project-index/) | development | mkSteady | ★ 0 |
 | [project-init](skills/development/project-init/) | development | netbrain | ★ 0 |
 | [project-init](skills/development/project-init/) | development | mattnigh | ★ 0 |
 | [project-init](skills/development/project-init/) | development | vladm3105 | ★ 0 |
@@ -12345,6 +12542,7 @@
 | [project-knowledge](skills/devops/project-knowledge/) | devops | majiayu000 | ★ 0 |
 | [project-logger](skills/development/project-logger/) | development | catynaimiao | ★ 0 |
 | [project-manager-gantt](skills/product/project-manager-gantt/) | product | amarorn | ★ 0 |
+| [project-memory](skills/ai-agents/project-memory/) | ai-agents | majiayu000 | ★ 0 |
 | [project-mngt](skills/development/project-mngt/) | development | majiayu000 | ★ 0 |
 | [project-mngt](skills/product/project-mngt/) | product | vladm3105 | ★ 0 |
 | [project-object](skills/development/project-object/) | development | Equilateral-AI | ★ 0 |
@@ -12515,6 +12713,7 @@
 | [psi](skills/development/psi/) | development | majiayu000 | ★ 0 |
 | [psi](skills/development/psi/) | development | majiayu000 | ★ 0 |
 | [pss-agent-toml](skills/data-ai/pss-agent-toml/) | data-ai | Emasoft | ★ 0 |
+| [psy](skills/development/psy/) | development | majiayu000 | ★ 0 |
 | [ptc-orchestration](skills/devops/ptc-orchestration/) | devops | majiayu000 | ★ 0 |
 | [ptc-orchestration](skills/cli-automation/ptc-orchestration/) | cli-automation | majiayu000 | ★ 0 |
 | [publish](skills/content-media/publish/) | content-media | majiayu000 | ★ 0 |
@@ -12718,6 +12917,7 @@
 | [python-testing](skills/development/python-testing/) | development | faint45 | ★ 0 |
 | [python-testing](skills/development/python-testing/) | development | AndyHsuTW | ★ 0 |
 | [python-testing](skills/testing-security/python-testing/) | testing-security | affaan-m | ★ 0 |
+| [python-testing](skills/development/python-testing/) | development | jaaaackieLai | ★ 0 |
 | [python-testing](skills/development/python-testing/) | development | affaan-m | ★ 0 |
 | [python-testing](skills/development/python-testing/) | development | kriegcloud | ★ 0 |
 | [python-testing](skills/development/python-testing/) | development | haniakrim21 | ★ 0 |
@@ -12733,6 +12933,7 @@
 | [python-testing-patterns](skills/development/python-testing-patterns/) | development | sickn33 | ★ 15.5k |
 | [python-typing](skills/development/python-typing/) | development | tmustier | ★ 0 |
 | [python-uv](skills/backend/python-uv/) | backend | thrashr888 | ★ 0 |
+| [python-v3.14](skills/backend/python-v3.14/) | backend | GoldenPanda1104 | ★ 0 |
 | [python-workflow](skills/development/python-workflow/) | development | majiayu000 | ★ 0 |
 | [python-workflow](skills/development/python-workflow/) | development | salverius-tech | ★ 0 |
 | [python-workflow](skills/development/python-workflow/) | development | majiayu000 | ★ 0 |
@@ -12759,6 +12960,7 @@
 | [qa-testing-strategy](skills/testing-security/qa-testing-strategy/) | testing-security | majiayu000 | ★ 0 |
 | [qa-testing-strategy](skills/testing-security/qa-testing-strategy/) | testing-security | majiayu000 | ★ 0 |
 | [qa-testing-strategy](skills/testing-security/qa-testing-strategy/) | testing-security | majiayu000 | ★ 0 |
+| [qasai](skills/cli-automation/qasai/) | cli-automation | ahmadawais | ★ 0 |
 | [qcc-git](skills/cli-automation/qcc-git/) | cli-automation | yxhpy | ★ 0 |
 | [qcsd-refinement-swarm](skills/product/qcsd-refinement-swarm/) | product | proffesor-for-testing | ★ 0 |
 | [qdrant-vector-search](skills/development/qdrant-vector-search/) | development | davila7 | ★ 0 |
@@ -12772,12 +12974,14 @@
 | [QE Security Compliance](skills/testing-security/qe-security-compliance/) | testing-security | majiayu000 | ★ 0 |
 | [QE Security Compliance](skills/testing-security/qe-security-compliance/) | testing-security | proffesor-for-testing | ★ 0 |
 | [qe-consultancy-practices](skills/tools/qe-consultancy-practices/) | tools | proffesor-for-testing | ★ 0 |
+| [qiskit](skills/tools/qiskit/) | tools | tondevrel | ★ 0 |
 | [Qiskit Cirq Quantum Error](skills/backend/qiskit-cirq-quantum-error/) | backend | AmnadTaowsoam | ★ 0 |
 | [qmd](skills/data-ai/qmd/) | data-ai | gabrielkoerich | ★ 0 |
 | [qmd](skills/data-ai/qmd/) | data-ai | timkrase | ★ 0 |
 | [qore-meta-log-decision](skills/devops/qore-meta-log-decision/) | devops | MythologIQ | ★ 0 |
 | [qore-meta-log-decision](skills/devops/qore-meta-log-decision/) | devops | MythologIQ | ★ 0 |
 | [qrcode-gen](skills/tools/qrcode-gen/) | tools | mariusorani | ★ 0 |
+| [qri-valence](skills/backend/qri-valence/) | backend | plurigrid | ★ 0 |
 | [quaderno-automation](skills/tools/quaderno-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [qualaroo-automation](skills/tools/qualaroo-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [quality](skills/testing-security/quality/) | testing-security | xiaobei930 | ★ 0 |
@@ -12914,6 +13118,7 @@
 | [ralph-wiggum](skills/development/ralph-wiggum/) | development | dheerkt | ★ 0 |
 | [ralph-wiggum-loop](skills/data-ai/ralph-wiggum-loop/) | data-ai | adriancodes | ★ 0 |
 | [Ramp Automation](skills/development/ramp-automation/) | development | ComposioHQ | ★ 37.7k |
+| [rams](skills/design/rams/) | design | thoreinstein | ★ 0 |
 | [rancher-cluster-management](skills/development/rancher-cluster-management/) | development | futuretea | ★ 0 |
 | [Rankscale GEO Analytics](skills/business/rankscale-geo-analytics/) | business | openclaw | ★ 0 |
 | [Rankscale GEO Analytics](skills/business/rankscale-geo-analytics/) | business | Rankscale | ★ 0 |
@@ -12928,6 +13133,7 @@
 | [rcr-frontend](skills/frontend/rcr-frontend/) | frontend | Aias | ★ 0 |
 | [rdc-endpoint-setup](skills/development/rdc-endpoint-setup/) | development | NeverSight | ★ 0 |
 | [rdc-setup](skills/development/rdc-setup/) | development | NeverSight | ★ 0 |
+| [rdkit](skills/backend/rdkit/) | backend | mcox3406 | ★ 0 |
 | [re-amaze-automation](skills/tools/re-amaze-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [react](skills/frontend/react/) | frontend | mae616 | ★ 0 |
 | [react](skills/development/react/) | development | hk-vk | ★ 0 |
@@ -12949,6 +13155,7 @@
 | [react-email](skills/development/react-email/) | development | mburumaxwell | ★ 0 |
 | [react-email](skills/development/react-email/) | development | Vishvsalvi | ★ 0 |
 | [react-email](skills/development/react-email/) | development | lucasromanh | ★ 0 |
+| [react-email](skills/frontend/react-email/) | frontend | majiayu000 | ★ 0 |
 | [react-expert](skills/development/react-expert/) | development | NeverSight | ★ 0 |
 | [react-expert](skills/development/react-expert/) | development | majiayu000 | ★ 0 |
 | [react-expert](skills/development/react-expert/) | development | majiayu000 | ★ 0 |
@@ -12959,6 +13166,7 @@
 | [react-flow-architect](skills/development/react-flow-architect/) | development | sickn33 | ★ 15.5k |
 | [react-flow-node-ts](skills/frontend/react-flow-node-ts/) | frontend | sickn33 | ★ 16.7k |
 | [react-flow-node-ts](skills/development/react-flow-node-ts/) | development | sickn33 | ★ 15.5k |
+| [react-fluent-ui-patterns](skills/frontend/react-fluent-ui-patterns/) | frontend | MaxBush6299 | ★ 0 |
 | [react-frontend](skills/development/react-frontend/) | development | majiayu000 | ★ 0 |
 | [react-frontend](skills/development/react-frontend/) | development | majiayu000 | ★ 0 |
 | [react-frontend](skills/frontend/react-frontend/) | frontend | majiayu000 | ★ 0 |
@@ -12999,6 +13207,8 @@
 | [readme-updates](skills/development/readme-updates/) | development | majiayu000 | ★ 0 |
 | [readme-updates](skills/documentation/readme-updates/) | documentation | majiayu000 | ★ 0 |
 | [realphonevalidation-automation](skills/tools/realphonevalidation-automation/) | tools | ComposioHQ | ★ 37.7k |
+| [reasoning-patterns-v2](skills/development/reasoning-patterns-v2/) | development | majiayu000 | ★ 0 |
+| [reasoning-patterns-v2](skills/development/reasoning-patterns-v2/) | development | agentgptsmith | ★ 0 |
 | [ReasoningBank with AgentDB](skills/data-ai/reasoningbank-with-agentdb/) | data-ai | frankxai | ★ 0 |
 | [ReasoningBank with AgentDB](skills/data-ai/reasoningbank-with-agentdb/) | data-ai | majiayu000 | ★ 0 |
 | [ReasoningBank with AgentDB](skills/data-ai/reasoningbank-with-agentdb/) | data-ai | frankxai | ★ 0 |
@@ -13055,6 +13265,7 @@
 | [referral-program](skills/business/referral-program/) | business | sickn33 | ★ 16.7k |
 | [referral-program](skills/business/referral-program/) | business | sickn33 | ★ 15.5k |
 | [refiner-automation](skills/tools/refiner-automation/) | tools | ComposioHQ | ★ 37.7k |
+| [reflect](skills/development/reflect/) | development | jmblab | ★ 0 |
 | [reflect-codex-skills](skills/tools/reflect-codex-skills/) | tools | olliepro | ★ 0 |
 | [reflect-yourself](skills/development/reflect-yourself/) | development | maorfsdev | ★ 0 |
 | [refresh-content](skills/content-media/refresh-content/) | content-media | airopshq | ★ 0 |
@@ -13104,6 +13315,7 @@
 | [remove-ai-comments](skills/data-ai/remove-ai-comments/) | data-ai | NeverSight | ★ 0 |
 | [remove-ai-comments](skills/data-ai/remove-ai-comments/) | data-ai | ChambersXDU | ★ 0 |
 | [remove-bg-automation](skills/tools/remove-bg-automation/) | tools | ComposioHQ | ★ 37.7k |
+| [remove-skill](skills/cli-automation/remove-skill/) | cli-automation | lagz0ne | ★ 0 |
 | [rename-method](skills/development/rename-method/) | development | krzysztofsurdy | ★ 0 |
 | [render](skills/data-ai/render/) | data-ai | gustin | ★ 0 |
 | [render-automation](skills/cli-automation/render-automation/) | cli-automation | sickn33 | ★ 16.7k |
@@ -13145,6 +13357,7 @@
 | [research](skills/development/research/) | development | hack-ink | ★ 0 |
 | [research](skills/tools/research/) | tools | Microck | ★ 0 |
 | [research](skills/ai-agents/research/) | ai-agents | costa-marcello | ★ 0 |
+| [research](skills/fullstack-web/research/) | fullstack-web | jonjonbinx1 | ★ 0 |
 | [research-cascade](skills/development/research-cascade/) | development | majiayu000 | ★ 0 |
 | [research-cascade](skills/development/research-cascade/) | development | majiayu000 | ★ 0 |
 | [research-cascade](skills/development/research-cascade/) | development | majiayu000 | ★ 0 |
@@ -13152,6 +13365,7 @@
 | [research-cog](skills/development/research-cog/) | development | CellCog | ★ 0 |
 | [research-cog](skills/data-ai/research-cog/) | data-ai | Demerzels-lab | ★ 0 |
 | [research-cog](skills/data-ai/research-cog/) | data-ai | decimasudo | ★ 0 |
+| [research-cog](skills/ai-agents/research-cog/) | ai-agents | kbarbel640-del | ★ 0 |
 | [research-deep](skills/data-ai/research-deep/) | data-ai | Microck | ★ 0 |
 | [research-documentation](skills/documentation/research-documentation/) | documentation | seungwonme | ★ 0 |
 | [research-engineer](skills/backend/research-engineer/) | backend | sickn33 | ★ 16.7k |
@@ -13162,6 +13376,7 @@
 | [research-leads](skills/data-ai/research-leads/) | data-ai | earchibald | ★ 0 |
 | [research-web](skills/development/research-web/) | development | majiayu000 | ★ 0 |
 | [research-web](skills/development/research-web/) | development | majiayu000 | ★ 0 |
+| [researching-azure-ai-sdk](skills/development/researching-azure-ai-sdk/) | development | microsoft-foundry | ★ 0 |
 | [Resend Expert](skills/development/resend-expert/) | development | willsigmon | ★ 0 |
 | [resend-automation](skills/tools/resend-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [resend-cli](skills/cli-automation/resend-cli/) | cli-automation | Shubhdeep12 | ★ 0 |
@@ -13192,6 +13407,7 @@
 | [REST Assured API Testing](skills/development/rest-assured-api-testing/) | development | omarrohit20 | ★ 0 |
 | [rest-api](skills/development/rest-api/) | development | tresic-cloud | ★ 0 |
 | [rest-api](skills/development/rest-api/) | development | guicheffer | ★ 0 |
+| [restcontroller-conventions](skills/backend/restcontroller-conventions/) | backend | oimiragieo | ★ 0 |
 | [resume-craft](skills/devops/resume-craft/) | devops | ravsau | ★ 0 |
 | [resume-cv-builder](skills/tools/resume-cv-builder/) | tools | openclaw | ★ 0 |
 | [resume-extractor](skills/data-ai/resume-extractor/) | data-ai | majiayu000 | ★ 0 |
@@ -13243,8 +13459,10 @@
 | [review-pr](skills/tools/review-pr/) | tools | Thanhhuong0209 | ★ 0 |
 | [review-pr](skills/tools/review-pr/) | tools | TermiX-official | ★ 0 |
 | [review-pr](skills/data-ai/review-pr/) | data-ai | livewire | ★ 0 |
+| [reviewer](skills/testing-security/reviewer/) | testing-security | intelligentcode-ai | ★ 0 |
 | [reviewer](skills/testing-security/reviewer/) | testing-security | wtthornton | ★ 0 |
 | [reviewing-agent-prompting](skills/data-ai/reviewing-agent-prompting/) | data-ai | mikekelly | ★ 0 |
+| [reviewing-documentation](skills/documentation/reviewing-documentation/) | documentation | JesseNaranjo | ★ 0 |
 | [reviewing-python-architecture](skills/development/reviewing-python-architecture/) | development | outcomeengineering | ★ 0 |
 | [reviewing-security](skills/testing-security/reviewing-security/) | testing-security | gajakannan | ★ 0 |
 | [revolt-automation](skills/tools/revolt-automation/) | tools | ComposioHQ | ★ 37.7k |
@@ -13307,6 +13525,7 @@
 | [rube-goldberg-tui-prd](skills/product/rube-goldberg-tui-prd/) | product | flatfinderai-cyber | ★ 0 |
 | [ruby-pro](skills/data-ai/ruby-pro/) | data-ai | sickn33 | ★ 15.5k |
 | [rule-creator](skills/development/rule-creator/) | development | majiayu000 | ★ 0 |
+| [rule-creator](skills/ai-agents/rule-creator/) | ai-agents | Alenryuichi | ★ 0 |
 | [rule-making-skill](skills/development/rule-making-skill/) | development | majiayu000 | ★ 0 |
 | [rule-making-skill](skills/development/rule-making-skill/) | development | andersnygaard | ★ 0 |
 | [rule-making-skill](skills/development/rule-making-skill/) | development | majiayu000 | ★ 0 |
@@ -13372,6 +13591,8 @@
 | [safe-commit](skills/testing-security/safe-commit/) | testing-security | majiayu000 | ★ 0 |
 | [safe-commit](skills/testing-security/safe-commit/) | testing-security | meriley | ★ 0 |
 | [safe-feature-addition](skills/development/safe-feature-addition/) | development | sufianmypa1203-oss | ★ 0 |
+| [safe-rm](skills/cli-automation/safe-rm/) | cli-automation | kayaman | ★ 0 |
+| [safemoltbook](skills/backend/safemoltbook/) | backend | us | ★ 0 |
 | [safety](skills/development/safety/) | development | gullitmiranda | ★ 0 |
 | [safety-checker](skills/tools/safety-checker/) | tools | code0100fun | ★ 0 |
 | [safetyculture-automation](skills/tools/safetyculture-automation/) | tools | ComposioHQ | ★ 37.7k |
@@ -13432,6 +13653,7 @@
 | [scanner-refresh](skills/tools/scanner-refresh/) | tools | Arithmomaniac | ★ 0 |
 | [scanning-tools](skills/testing-security/scanning-tools/) | testing-security | sickn33 | ★ 16.7k |
 | [scanning-tools](skills/development/scanning-tools/) | development | sickn33 | ★ 15.5k |
+| [Schema Design](skills/backend/schema-design/) | backend | dtsong | ★ 0 |
 | [Schema Evolution Impact Analysis](skills/backend/schema-evolution-impact-analysis/) | backend | cdalsoniii | ★ 0 |
 | [Schema Migration](skills/backend/schema-migration/) | backend | cdalsoniii | ★ 0 |
 | [schematic-generator](skills/tools/schematic-generator/) | tools | Agile-V | ★ 0 |
@@ -13905,17 +14127,20 @@
 | [seo-geo](skills/development/seo-geo/) | development | nguyenthienthanh | ★ 0 |
 | [seo-geo](skills/development/seo-geo/) | development | cpalumbo | ★ 0 |
 | [seo-geo](skills/ai-agents/seo-geo/) | ai-agents | in-co-sandbox | ★ 0 |
+| [seo-geo-aeo](skills/business/seo-geo-aeo/) | business | ashishgurprit | ★ 0 |
 | [seo-keyword-strategist](skills/tools/seo-keyword-strategist/) | tools | sickn33 | ★ 15.5k |
 | [seo-meta-optimizer](skills/business/seo-meta-optimizer/) | business | sickn33 | ★ 15.5k |
 | [seo-meta-optimizer](skills/business/seo-meta-optimizer/) | business | ranbot-ai | ★ 0 |
 | [seo-meta-tags](skills/development/seo-meta-tags/) | development | jeremy0x | ★ 0 |
 | [seo-meta-tags](skills/development/seo-meta-tags/) | development | NeverSight | ★ 0 |
 | [seo-metadata](skills/development/seo-metadata/) | development | JaivishChauhan | ★ 0 |
+| [seo-metadata](skills/frontend/seo-metadata/) | frontend | JaivishChauhan | ★ 0 |
 | [seo-snippet-hunter](skills/content-media/seo-snippet-hunter/) | content-media | sickn33 | ★ 15.5k |
 | [seo-structure-architect](skills/business/seo-structure-architect/) | business | sickn33 | ★ 15.5k |
 | [seo-technical](skills/development/seo-technical/) | development | daniel0queiroz | ★ 0 |
 | [seo-technical](skills/fullstack-web/seo-technical/) | fullstack-web | anorbert-cmyk | ★ 0 |
 | [seo-writing](skills/business/seo-writing/) | business | jcanizalez | ★ 0 |
+| [seq-wrangler](skills/cli-automation/seq-wrangler/) | cli-automation | ClawBio | ★ 0 |
 | [seqera-automation](skills/tools/seqera-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [sequential-thinking](skills/development/sequential-thinking/) | development | majiayu000 | ★ 92 |
 | [sequential-thinking](skills/development/sequential-thinking/) | development | majiayu000 | ★ 1 |
@@ -14000,6 +14225,7 @@
 | [setup-tooluniverse](skills/tools/setup-tooluniverse/) | tools | mims-harvard | ★ 0 |
 | [setup-tooluniverse](skills/tools/setup-tooluniverse/) | tools | NeverSight | ★ 0 |
 | [setup-webhook](skills/development/setup-webhook/) | development | VapiAI | ★ 0 |
+| [setup-webhook](skills/backend/setup-webhook/) | backend | majiayu000 | ★ 0 |
 | [setup-workflow](skills/tools/setup-workflow/) | tools | majiayu000 | ★ 0 |
 | [setup-workflow](skills/tools/setup-workflow/) | tools | majiayu000 | ★ 0 |
 | [setup-workflow](skills/cli-automation/setup-workflow/) | cli-automation | majiayu000 | ★ 0 |
@@ -14023,6 +14249,7 @@
 | [shadcn-ui](skills/frontend/shadcn-ui/) | frontend | google-labs-code | ★ 0 |
 | [shadcn-ui](skills/frontend/shadcn-ui/) | frontend | NeverSight | ★ 0 |
 | [shadcn-ui](skills/frontend/shadcn-ui/) | frontend | VoTrongHoang-Dyor | ★ 0 |
+| [shader-fx](skills/development/shader-fx/) | development | AvneeshSarwate | ★ 0 |
 | [shader-programming-glsl](skills/development/shader-programming-glsl/) | development | sickn33 | ★ 16.7k |
 | [shader-programming-glsl](skills/development/shader-programming-glsl/) | development | sickn33 | ★ 15.5k |
 | [shadowrun-aesthetic](skills/development/shadowrun-aesthetic/) | development | majiayu000 | ★ 0 |
@@ -14100,6 +14327,7 @@
 | [signup-flow-cro](skills/testing-security/signup-flow-cro/) | testing-security | sickn33 | ★ 16.7k |
 | [signup-flow-cro](skills/testing-security/signup-flow-cro/) | testing-security | sickn33 | ★ 15.5k |
 | [signwell-automation](skills/tools/signwell-automation/) | tools | ComposioHQ | ★ 37.7k |
+| [silent-failure-hunter](skills/development/silent-failure-hunter/) | development | ngx-signal-forms | ★ 0 |
 | [simd-optimize](skills/data-ai/simd-optimize/) | data-ai | ahrav | ★ 0 |
 | [simd-optimize](skills/data-ai/simd-optimize/) | data-ai | ahrav | ★ 0 |
 | [similarity-search-patterns](skills/backend/similarity-search-patterns/) | backend | sickn33 | ★ 16.7k |
@@ -14142,6 +14370,7 @@
 | [Skill Synchronizer](skills/development/skill-synchronizer/) | development | majiayu000 | ★ 0 |
 | [Skill Synchronizer](skills/development/skill-synchronizer/) | development | majiayu000 | ★ 0 |
 | [Skill Synchronizer](skills/frontend/skill-synchronizer/) | frontend | majiayu000 | ★ 0 |
+| [Skill Template Example](skills/data-ai/skill-template-example/) | data-ai | AFI-Protocol | ★ 0 |
 | [skill_design](skills/design/skill_design/) | design | joshband | ★ 0 |
 | [skill-activator](skills/development/skill-activator/) | development | majiayu000 | ★ 0 |
 | [skill-activator](skills/development/skill-activator/) | development | majiayu000 | ★ 0 |
@@ -14161,6 +14390,7 @@
 | [skill-builder](skills/tools/skill-builder/) | tools | mattnigh | ★ 0 |
 | [skill-builder](skills/tools/skill-builder/) | tools | rayk | ★ 0 |
 | [skill-builder](skills/tools/skill-builder/) | tools | lev-os | ★ 0 |
+| [skill-builder-medical](skills/design/skill-builder-medical/) | design | adaptationio | ★ 0 |
 | [skill-claude-code](skills/tools/skill-claude-code/) | tools | skyswordw | ★ 0 |
 | [skill-cli](skills/tools/skill-cli/) | tools | majiayu000 | ★ 0 |
 | [skill-cli](skills/tools/skill-cli/) | tools | majiayu000 | ★ 0 |
@@ -14182,6 +14412,7 @@
 | [skill-creator](skills/tools/skill-creator/) | tools | ariffazil | ★ 0 |
 | [skill-creator](skills/ai-agents/skill-creator/) | ai-agents | ziltorian | ★ 0 |
 | [skill-creator](skills/ai-agents/skill-creator/) | ai-agents | dopsonbr | ★ 0 |
+| [skill-creator](skills/tools/skill-creator/) | tools | duc01226 | ★ 0 |
 | [skill-creator](skills/design/skill-creator/) | design | rafaelramosdf | ★ 0 |
 | [skill-creator](skills/tools/skill-creator/) | tools | mekalz | ★ 0 |
 | [skill-creator](skills/tools/skill-creator/) | tools | observerw | ★ 0 |
@@ -14263,14 +14494,17 @@
 | [skill-manager](skills/tools/skill-manager/) | tools | KyleKing | ★ 0 |
 | [skill-marketplace](skills/development/skill-marketplace/) | development | majiayu000 | ★ 0 |
 | [skill-marketplace](skills/testing-security/skill-marketplace/) | testing-security | majiayu000 | ★ 0 |
+| [skill-master](skills/cli-automation/skill-master/) | cli-automation | majiayu000 | ★ 0 |
 | [skill-name](skills/cli-automation/skill-name/) | cli-automation | myDevicesIoT | ★ 0 |
 | [skill-name](skills/tools/skill-name/) | tools | fusionet24 | ★ 0 |
 | [skill-name](skills/tools/skill-name/) | tools | paulund | ★ 0 |
+| [skill-packager](skills/documentation/skill-packager/) | documentation | shawn-sandy | ★ 0 |
 | [skill-pipeline](skills/data-ai/skill-pipeline/) | data-ai | thirdlf03 | ★ 0 |
 | [skill-polisher](skills/data-ai/skill-polisher/) | data-ai | poisontr33s | ★ 0 |
 | [skill-protocol-mastery](skills/design/skill-protocol-mastery/) | design | majiayu000 | ★ 0 |
 | [skill-protocol-mastery](skills/design/skill-protocol-mastery/) | design | majiayu000 | ★ 0 |
 | [skill-protocol-mastery](skills/development/skill-protocol-mastery/) | development | majiayu000 | ★ 0 |
+| [skill-publishing](skills/documentation/skill-publishing/) | documentation | abhattacherjee | ★ 0 |
 | [skill-rails-upgrade](skills/backend/skill-rails-upgrade/) | backend | sickn33 | ★ 16.7k |
 | [skill-rails-upgrade](skills/development/skill-rails-upgrade/) | development | sickn33 | ★ 15.5k |
 | [skill-refactor](skills/development/skill-refactor/) | development | GinoNovello | ★ 0 |
@@ -14308,6 +14542,7 @@
 | [skills-scaffolding](skills/tools/skills-scaffolding/) | tools | majiayu000 | ★ 0 |
 | [skills-scaffolding](skills/tools/skills-scaffolding/) | tools | majiayu000 | ★ 0 |
 | [skills-scaffolding](skills/tools/skills-scaffolding/) | tools | majiayu000 | ★ 0 |
+| [skillsic](skills/ai-agents/skillsic/) | ai-agents | gstohl | ★ 0 |
 | [SkipClass](skills/content-media/skipclass/) | content-media | HoweChen0517 | ★ 0 |
 | [skiplagged](skills/devops/skiplagged/) | devops | majiayu000 | ★ 0 |
 | [skriptoteket-frontend-specialist](skills/frontend/skriptoteket-frontend-specialist/) | frontend | majiayu000 | ★ 0 |
@@ -14337,6 +14572,7 @@
 | [slo-implementation](skills/backend/slo-implementation/) | backend | sickn33 | ★ 16.7k |
 | [slo-implementation](skills/development/slo-implementation/) | development | sickn33 | ★ 15.5k |
 | [slo-implementation](skills/development/slo-implementation/) | development | TriNgo0108 | ★ 0 |
+| [Slurm Workload Manager Skill](skills/backend/slurm-workload-manager-skill/) | backend | Lyken17 | ★ 0 |
 | [Smart Contracts](skills/backend/smart-contracts/) | backend | AmnadTaowsoam | ★ 0 |
 | [smart-pr-docs](skills/documentation/smart-pr-docs/) | documentation | sufianmypa1203-oss | ★ 0 |
 | [smart-short-video](skills/data-ai/smart-short-video/) | data-ai | temmo1004 | ★ 0 |
@@ -14398,11 +14634,13 @@
 | [software-security-appsec](skills/testing-security/software-security-appsec/) | testing-security | majiayu000 | ★ 0 |
 | [sojustack-best-practices](skills/development/sojustack-best-practices/) | development | Rykuno | ★ 0 |
 | [solana](skills/cli-automation/solana/) | cli-automation | majiayu000 | ★ 2 |
+| [solana-program-dev](skills/testing-security/solana-program-dev/) | testing-security | moshthepitt | ★ 0 |
 | [solclaw](skills/data-ai/solclaw/) | data-ai | Sterdam | ★ 0 |
 | [solid-core-rendering](skills/development/solid-core-rendering/) | development | majiayu000 | ★ 0 |
 | [solid-core-rendering](skills/frontend/solid-core-rendering/) | frontend | majiayu000 | ★ 0 |
 | [solid-core-stores](skills/data-ai/solid-core-stores/) | data-ai | majiayu000 | ★ 0 |
 | [solid-core-stores](skills/data-ai/solid-core-stores/) | data-ai | majiayu000 | ★ 0 |
+| [solid-generic](skills/development/solid-generic/) | development | fusengine | ★ 0 |
 | [solid-router-queries](skills/frontend/solid-router-queries/) | frontend | majiayu000 | ★ 0 |
 | [solidity-security](skills/testing-security/solidity-security/) | testing-security | sickn33 | ★ 16.7k |
 | [solidity-security](skills/testing-security/solidity-security/) | testing-security | sickn33 | ★ 15.5k |
@@ -14422,6 +14660,7 @@
 | [solo-founder-gtm](skills/business/solo-founder-gtm/) | business | chadboyda | ★ 0 |
 | [solodit](skills/tools/solodit/) | tools | NeverSight | ★ 0 |
 | [solodit](skills/tools/solodit/) | tools | BowTiedSwan | ★ 0 |
+| [solution-scaffolder](skills/development/solution-scaffolder/) | development | mpaulosky | ★ 0 |
 | [solvera-markets](skills/tools/solvera-markets/) | tools | densmirnov | ★ 0 |
 | [sop-code-review](skills/development/sop-code-review/) | development | majiayu000 | ★ 0 |
 | [sop-code-review](skills/development/sop-code-review/) | development | majiayu000 | ★ 0 |
@@ -14516,6 +14755,8 @@
 | [spring-boot-testing](skills/development/spring-boot-testing/) | development | jhs88 | ★ 0 |
 | [spring-reactive](skills/development/spring-reactive/) | development | majiayu000 | ★ 0 |
 | [spring-rest-api](skills/development/spring-rest-api/) | development | gazolla | ★ 0 |
+| [spring-security](skills/testing-security/spring-security/) | testing-security | phuccodenub | ★ 0 |
+| [spring-validation](skills/backend/spring-validation/) | backend | gazolla | ★ 0 |
 | [springboot-4-migration](skills/development/springboot-4-migration/) | development | pingqLIN | ★ 0 |
 | [springboot-architecture-analyzer](skills/development/springboot-architecture-analyzer/) | development | ElliotChen | ★ 0 |
 | [springfield-max](skills/backend/springfield-max/) | backend | hiapplyco | ★ 0 |
@@ -14602,6 +14843,8 @@
 | [startup-go-to-market](skills/business/startup-go-to-market/) | business | amo-tech-ai | ★ 0 |
 | [startup-metrics-framework](skills/development/startup-metrics-framework/) | development | sickn33 | ★ 15.5k |
 | [starwars](skills/data-ai/starwars/) | data-ai | jeffaf | ★ 0 |
+| [stata-mcp](skills/data-ai/stata-mcp/) | data-ai | tmonk | ★ 0 |
+| [state](skills/tools/state/) | tools | synaptiai | ★ 0 |
 | [state-directory-manager](skills/cli-automation/state-directory-manager/) | cli-automation | majiayu000 | ★ 93 |
 | [state-directory-manager](skills/cli-automation/state-directory-manager/) | cli-automation | majiayu000 | ★ 2 |
 | [Static Analysis Tools Skill](skills/tools/static-analysis-tools-skill/) | tools | a5c-ai | ★ 0 |
@@ -14688,6 +14931,7 @@
 | [Subagents Guide](skills/data-ai/subagents-guide/) | data-ai | majiayu000 | ★ 0 |
 | [Subagents Guide](skills/data-ai/subagents-guide/) | data-ai | majiayu000 | ★ 0 |
 | [subagents-creator](skills/data-ai/subagents-creator/) | data-ai | majiayu000 | ★ 0 |
+| [subfun](skills/ai-agents/subfun/) | ai-agents | LinaTalbot | ★ 0 |
 | [subgraph-explorer](skills/data-ai/subgraph-explorer/) | data-ai | majiayu000 | ★ 0 |
 | [subgraph-explorer](skills/data-ai/subgraph-explorer/) | data-ai | majiayu000 | ★ 0 |
 | [summarize](skills/data-ai/summarize/) | data-ai | abhaymundhara | ★ 4 |
@@ -14720,6 +14964,7 @@
 | [superpowers-lab](skills/ai-agents/superpowers-lab/) | ai-agents | sickn33 | ★ 16.8k |
 | [superpowers-lab](skills/tools/superpowers-lab/) | tools | sickn33 | ★ 15.5k |
 | [superpowers-writing-skills](skills/development/superpowers-writing-skills/) | development | monkey1sai | ★ 0 |
+| [superteam-writing-plans](skills/backend/superteam-writing-plans/) | backend | coctostan | ★ 0 |
 | [supportbee-automation](skills/tools/supportbee-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [supportivekoala-automation](skills/tools/supportivekoala-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [surface-theme-scaffold-gen](skills/tools/surface-theme-scaffold-gen/) | tools | Itshalffull | ★ 0 |
@@ -14761,6 +15006,7 @@
 | [switchailocal](skills/data-ai/switchailocal/) | data-ai | majiayu000 | ★ 0 |
 | [switchboard-data-operator](skills/design/switchboard-data-operator/) | design | openclaw | ★ 0 |
 | [swizzin-scripts-patterns](skills/development/swizzin-scripts-patterns/) | development | STiXzoOR | ★ 0 |
+| [swot-pestle-analysis](skills/data-ai/swot-pestle-analysis/) | data-ai | melodic-software | ★ 0 |
 | [sylvadoc](skills/development/sylvadoc/) | development | jflegac-FCMS | ★ 0 |
 | [symfony-semaphore](skills/development/symfony-semaphore/) | development | krzysztofsurdy | ★ 0 |
 | [sympla-automation](skills/tools/sympla-automation/) | tools | ComposioHQ | ★ 37.7k |
@@ -14777,6 +15023,7 @@
 | [sync-skills](skills/tools/sync-skills/) | tools | chujianyun | ★ 0 |
 | [sync-skills](skills/tools/sync-skills/) | tools | NeverSight | ★ 0 |
 | [sync-specs](skills/devops/sync-specs/) | devops | majiayu000 | ★ 0 |
+| [synchronization](skills/devops/synchronization/) | devops | plurigrid | ★ 0 |
 | [synthetic-data-generator](skills/tools/synthetic-data-generator/) | tools | AgentPMT | ★ 0 |
 | [synthetic-event-system-internals](skills/development/synthetic-event-system-internals/) | development | majiayu000 | ★ 0 |
 | [synthetic-event-system-internals](skills/frontend/synthetic-event-system-internals/) | frontend | majiayu000 | ★ 0 |
@@ -15008,6 +15255,7 @@
 | [templar-miner-claude-skill](skills/cli-automation/templar-miner-claude-skill/) | cli-automation | majiayu000 | ★ 0 |
 | [templar-miner-claude-skill](skills/cli-automation/templar-miner-claude-skill/) | cli-automation | synapz-org | ★ 0 |
 | [template-mason-brick](skills/tools/template-mason-brick/) | tools | majiayu000 | ★ 0 |
+| [template-skill](skills/cli-automation/template-skill/) | cli-automation | kks0488 | ★ 0 |
 | [templated-automation](skills/tools/templated-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [templates](skills/development/templates/) | development | sickn33 | ★ 15.5k |
 | [templates](skills/development/templates/) | development | QuantumSolver | ★ 0 |
@@ -15016,6 +15264,8 @@
 | [temporal-python-testing](skills/testing-security/temporal-python-testing/) | testing-security | sickn33 | ★ 16.8k |
 | [temporal-python-testing](skills/testing-security/temporal-python-testing/) | testing-security | sickn33 | ★ 15.5k |
 | [temporal-python-testing](skills/testing-security/temporal-python-testing/) | testing-security | ollieb89 | ★ 0 |
+| [tencent-cloud-pptx](skills/devops/tencent-cloud-pptx/) | devops | majiayu000 | ★ 0 |
+| [tencent-cloud-pptx](skills/devops/tencent-cloud-pptx/) | devops | jasonwang82 | ★ 0 |
 | [tencent-cos-uploader](skills/devops/tencent-cos-uploader/) | devops | maydaygjw | ★ 0 |
 | [term-sheet-review](skills/tools/term-sheet-review/) | tools | NeverSight | ★ 0 |
 | [Tero Voice Project Context](skills/development/tero-voice-project-context/) | development | DuckshotPro | ★ 0 |
@@ -15101,6 +15351,7 @@
 | [testing](skills/testing-security/testing/) | testing-security | majiayu000 | ★ 0 |
 | [testing](skills/testing-security/testing/) | testing-security | 5t111111 | ★ 0 |
 | [testing](skills/testing-security/testing/) | testing-security | majiayu000 | ★ 0 |
+| [Testing Anti-Patterns](skills/development/testing-anti-patterns/) | development | ChunkyTortoise | ★ 0 |
 | [Testing Skill](skills/development/testing-skill/) | development | AIDORA28 | ★ 0 |
 | [testing-automation](skills/devops/testing-automation/) | devops | majiayu000 | ★ 0 |
 | [testing-automation](skills/devops/testing-automation/) | devops | majiayu000 | ★ 0 |
@@ -15258,6 +15509,7 @@
 | [together-api](skills/development/together-api/) | development | diskd-ai | ★ 0 |
 | [Toggl Automation](skills/tools/toggl-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [token-efficiency](skills/devops/token-efficiency/) | devops | jralph | ★ 0 |
+| [token-efficient-bash](skills/cli-automation/token-efficient-bash/) | cli-automation | ddaanet | ★ 0 |
 | [token-metrics-automation](skills/tools/token-metrics-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [token-pacing](skills/tools/token-pacing/) | tools | dparedesi | ★ 0 |
 | [token-saver-75plus](skills/ai-agents/token-saver-75plus/) | ai-agents | openclaw | ★ 0 |
@@ -15364,6 +15616,7 @@
 | [twitter-automation](skills/cli-automation/twitter-automation/) | cli-automation | sickn33 | ★ 16.8k |
 | [twitter-automation](skills/content-media/twitter-automation/) | content-media | sickn33 | ★ 15.5k |
 | [twitter-intel](skills/data-ai/twitter-intel/) | data-ai | BlockRunAI | ★ 0 |
+| [twitter-intel](skills/devops/twitter-intel/) | devops | BlockRunAI | ★ 0 |
 | [twitter-stock-sentiment](skills/tools/twitter-stock-sentiment/) | tools | Malm | ★ 0 |
 | [TwitterAPI-Molt](skills/development/twitterapi-molt/) | development | jerryfane | ★ 0 |
 | [two-factor-authentication-best-practices](skills/backend/two-factor-authentication-best-practices/) | backend | better-auth | ★ 0 |
@@ -15391,6 +15644,7 @@
 | [typescript-pro](skills/development/typescript-pro/) | development | 404kidwiz | ★ 0 |
 | [typescript-pro](skills/development/typescript-pro/) | development | majiayu000 | ★ 0 |
 | [typescript-pro](skills/development/typescript-pro/) | development | majiayu000 | ★ 0 |
+| [typescript-pro](skills/cli-automation/typescript-pro/) | cli-automation | Dokhacgiakhoa | ★ 0 |
 | [typescript-strict](skills/development/typescript-strict/) | development | citypaul | ★ 0 |
 | [typescript-testing](skills/development/typescript-testing/) | development | MLGBJDLW | ★ 0 |
 | [typespec-create-agent](skills/data-ai/typespec-create-agent/) | data-ai | github | ★ 0 |
@@ -15776,6 +16030,7 @@
 | [unity-unitask](skills/development/unity-unitask/) | development | majiayu000 | ★ 0 |
 | [Universal Agent Skill](skills/data-ai/universal-agent-skill/) | data-ai | artificial-intelligence-first | ★ 0 |
 | [universal-axiom-permutations](skills/development/universal-axiom-permutations/) | development | TheUniversalAxiom | ★ 0 |
+| [universal-single-cell-annotator](skills/ai-agents/universal-single-cell-annotator/) | ai-agents | majiayu000 | ★ 0 |
 | [unreal-engine-cpp-pro](skills/development/unreal-engine-cpp-pro/) | development | sickn33 | ★ 16.8k |
 | [unreal-engine-cpp-pro](skills/development/unreal-engine-cpp-pro/) | development | sickn33 | ★ 15.5k |
 | [unsafe-checker](skills/development/unsafe-checker/) | development | simorgh3196 | ★ 0 |
@@ -15803,9 +16058,11 @@
 | [upgrading-expo](skills/development/upgrading-expo/) | development | sickn33 | ★ 16.9k |
 | [upgrading-expo](skills/development/upgrading-expo/) | development | sickn33 | ★ 15.5k |
 | [Uploadcare Automation](skills/development/uploadcare-automation/) | development | ComposioHQ | ★ 37.7k |
+| [upskill](skills/documentation/upskill/) | documentation | dpreil-ydlp | ★ 0 |
 | [upstash-qstash](skills/devops/upstash-qstash/) | devops | sickn33 | ★ 15.5k |
 | [upstash-qstash](skills/devops/upstash-qstash/) | devops | mustaphaelou | ★ 0 |
 | [upstash-qstash](skills/backend/upstash-qstash/) | backend | sickn33 | ★ 0 |
+| [upstash/search TypeScript SDK](skills/cli-automation/upstash-search-typescript-sdk/) | cli-automation | upstash | ★ 0 |
 | [upstash/workflow TypeScript SDK Skill](skills/cli-automation/upstash-workflow-typescript-sdk-skill/) | cli-automation | upstash | ★ 0 |
 | [upsun](skills/development/upsun/) | development | gmoigneu | ★ 0 |
 | [uptime-kuma](skills/development/uptime-kuma/) | development | openclaw | ★ 0 |
@@ -15912,8 +16169,10 @@
 | [V3 Core Implementation](skills/development/v3-core-implementation/) | development | ruvnet | ★ 0 |
 | [valence](skills/data-ai/valence/) | data-ai | ourochronos | ★ 0 |
 | [Validate with Database](skills/backend/validate-with-database/) | backend | Microck | ★ 0 |
+| [validate-agent-files](skills/ai-agents/validate-agent-files/) | ai-agents | Alzakath | ★ 0 |
 | [validate-guidelines](skills/tools/validate-guidelines/) | tools | get-convex | ★ 0 |
 | [validate-historical](skills/data-ai/validate-historical/) | data-ai | najicham | ★ 0 |
+| [validator-workflow](skills/development/validator-workflow/) | development | darraghh1 | ★ 0 |
 | [value-chain-analysis](skills/data-ai/value-chain-analysis/) | data-ai | lev-os | ★ 0 |
 | [vapor-ui](skills/design/vapor-ui/) | design | goorm-dev | ★ 0 |
 | [vapor-ui](skills/design/vapor-ui/) | design | NeverSight | ★ 0 |
@@ -15995,6 +16254,7 @@
 | [vercel-web-design-guidelines](skills/development/vercel-web-design-guidelines/) | development | Akram012388 | ★ 0 |
 | [vercel-workflow-sdk](skills/development/vercel-workflow-sdk/) | development | rewbs | ★ 0 |
 | [verification](skills/development/verification/) | development | WenJunDuan | ★ 0 |
+| [Verification & Quality Assurance](skills/cli-automation/verification-quality-assurance/) | cli-automation | fndlalit | ★ 0 |
 | [verification-before-completion](skills/tools/verification-before-completion/) | tools | sickn33 | ★ 16.9k |
 | [verification-before-completion](skills/tools/verification-before-completion/) | tools | sickn33 | ★ 15.5k |
 | [verification-before-completion](skills/development/verification-before-completion/) | development | liauw-media | ★ 0 |
@@ -16053,9 +16313,12 @@
 | [video-sdk/web](skills/development/video-sdk-web/) | development | zoom | ★ 0 |
 | [video-to-claude](skills/tools/video-to-claude/) | tools | rohunvora | ★ 0 |
 | [video-toolkit](skills/content-media/video-toolkit/) | content-media | fancyboi999 | ★ 0 |
+| [videocut:安装](skills/content-media/videocut/) | content-media | majiayu000 | ★ 0 |
+| [videocut:安装](skills/content-media/videocut/) | content-media | 0xFANGO | ★ 0 |
 | [videocut:自更新](skills/tools/videocut/) | tools | majiayu000 | ★ 0 |
 | [videodb-skills](skills/content-media/videodb-skills/) | content-media | sickn33 | ★ 16.9k |
 | [vidu-video](skills/content-media/vidu-video/) | content-media | openclaw | ★ 0 |
+| [viem](skills/development/viem/) | development | majiayu000 | ★ 0 |
 | [ViewComponents Specialist](skills/development/viewcomponents-specialist/) | development | majiayu000 | ★ 0 |
 | [vimango-cli](skills/tools/vimango-cli/) | tools | slzatz | ★ 0 |
 | [viral-generator-builder](skills/tools/viral-generator-builder/) | tools | sickn33 | ★ 16.9k |
@@ -16091,6 +16354,7 @@
 | [voice-dna-creator](skills/content-media/voice-dna-creator/) | content-media | az9713 | ★ 0 |
 | [voice-dna-creator](skills/content-media/voice-dna-creator/) | content-media | majiayu000 | ★ 0 |
 | [voice-email](skills/data-ai/voice-email/) | data-ai | openclaw | ★ 0 |
+| [volcano](skills/devops/volcano/) | devops | tylertitsworth | ★ 0 |
 | [vox](skills/tools/vox/) | tools | trvon | ★ 0 |
 | [voxanne-branding-expert](skills/design/voxanne-branding-expert/) | design | Odiabackend099 | ★ 0 |
 | [vpn-localhost-fix](skills/development/vpn-localhost-fix/) | development | UFOyyds | ★ 0 |
@@ -16275,6 +16539,7 @@
 | [wechat-to-notebooklm](skills/tools/wechat-to-notebooklm/) | tools | NeverSight | ★ 0 |
 | [wecom-bot](skills/development/wecom-bot/) | development | ajaxhe | ★ 0 |
 | [week-skill](skills/tools/week-skill/) | tools | slonikmak | ★ 0 |
+| [weekly-bank-exec-brief](skills/backend/weekly-bank-exec-brief/) | backend | writer | ★ 0 |
 | [weekly-email-team-instructions](skills/data-ai/weekly-email-team-instructions/) | data-ai | edmundbogen | ★ 0 |
 | [weekly-email-team-instructions](skills/data-ai/weekly-email-team-instructions/) | data-ai | edmundbogen | ★ 0 |
 | [weibo](skills/backend/weibo/) | backend | openclaw | ★ 0 |
@@ -16536,6 +16801,7 @@
 | [x-integration](skills/testing-security/x-integration/) | testing-security | sskarz | ★ 0 |
 | [x-metrics-tracker](skills/data-ai/x-metrics-tracker/) | data-ai | iJaack | ★ 0 |
 | [x-post](skills/content-media/x-post/) | content-media | pravj | ★ 0 |
+| [x-twitter-scraper](skills/backend/x-twitter-scraper/) | backend | davila7 | ★ 0 |
 | [x402-client](skills/tools/x402-client/) | tools | second-state | ★ 0 |
 | [x402-payments](skills/backend/x402-payments/) | backend | QUSD-ai | ★ 0 |
 | [xaem-theme-ui](skills/development/xaem-theme-ui/) | development | CleanExpo | ★ 0 |
@@ -16543,6 +16809,7 @@
 | [xenodium-elisp](skills/data-ai/xenodium-elisp/) | data-ai | plurigrid | ★ 0 |
 | [xenodium-elisp](skills/ai-agents/xenodium-elisp/) | ai-agents | plurigrid | ★ 0 |
 | [Xero Automation](skills/business/xero-automation/) | business | ComposioHQ | ★ 37.7k |
+| [xfeed](skills/ai-agents/xfeed/) | ai-agents | majiayu000 | ★ 0 |
 | [xfi-create-plan](skills/tools/xfi-create-plan/) | tools | zotoio | ★ 0 |
 | [xhs-images](skills/content-media/xhs-images/) | content-media | manwithshit | ★ 0 |
 | [xhs-images](skills/content-media/xhs-images/) | content-media | NeverSight | ★ 0 |
