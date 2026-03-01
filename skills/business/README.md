@@ -1,6 +1,6 @@
 # 📂 business
 
-> 236 skills in this category
+> 248 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -73,6 +73,9 @@
 | [content-creator](content-creator/) | sickn33 | ★ 15.4k | 98% | L3 | Create SEO-optimized marketing content with consistent brand voice. Includes bra… |
 | [competitor-alternatives](competitor-alternatives/) | sickn33 | ★ 15.4k | 95% | L2 | When the user wants to create competitor comparison or alternative pages for SEO… |
 | [billing-automation](billing-automation/) | sickn33 | ★ 15.4k | 88% | L2 | Build automated billing systems for recurring payments, invoicing, subscription … |
+| [agent-quant-analyst](agent-quant-analyst/) | majiayu000 | ★ 95 | 64% | L2 | Expert quantitative analyst specializing in financial modeling, algorithmic trad… |
+| [agent-sales-engineer](agent-sales-engineer/) | majiayu000 | ★ 95 | 64% | L2 | Expert sales engineer specializing in technical pre-sales, solution architecture… |
+| [agent-seo-specialist](agent-seo-specialist/) | majiayu000 | ★ 95 | 64% | L2 | Expert SEO strategist specializing in technical SEO, content optimization, and s… |
 | [affiliate-marketing](affiliate-marketing/) | majiayu000 | ★ 94 | 80% | L2 | Build high-converting SaaS affiliate programs with 20-40% commissions, KOL/KOC p… |
 | [acc-create-strategy](acc-create-strategy/) | majiayu000 | ★ 94 | 77% | L2 | Generates Strategy pattern for PHP 8.5. Creates interchangeable algorithm famili… |
 | [accounts-payable-workflow](accounts-payable-workflow/) | majiayu000 | ★ 94 | 77% | L3 | Эксперт AP workflow. Используй для процессов кредиторской задолженности, invoice… |
@@ -91,6 +94,7 @@
 | [invoice-organizer](invoice-organizer/) | majiayu000 | ★ 92 | 77% | L3 | Automatically organizes invoices and receipts for tax preparation by reading mes… |
 | [abm-specialist](abm-specialist/) | majiayu000 | ★ 92 | 77% | L3 | Эксперт ABM. Используй для account-based marketing, target account selection и p… |
 | [ai-marketing-engineering](ai-marketing-engineering/) | majiayu000 | ★ 2 | 67% | L2 | AI-powered marketing engineering skill based on Alon Huri's framework. Transform… |
+| [content-creator](content-creator/) | majiayu000 | ★ 2 | 67% | L3 | Create SEO-optimized marketing content with consistent brand voice. Includes bra… |
 | [adynato-seo](adynato-seo/) | majiayu000 | ★ 2 | 64% | L2 | Handles SEO requirements for all web content including blogs, landing pages, and… |
 | [amazon-bestseller-launch](amazon-bestseller-launch/) | majiayu000 | ★ 2 | 64% | L3 | Complete Amazon KDP bestseller launch system with proven strategies for achievin… |
 | [analytics-attribution](analytics-attribution/) | majiayu000 | ★ 2 | 64% | L2 | Performance measurement, attribution modeling, and marketing ROI analysis. Use w… |
@@ -100,9 +104,16 @@
 | [analyze-attachments](analyze-attachments/) | majiayu000 | ★ 2 | 64% | L3 | Deep attachment analysis with extraction, importance classification, and content… |
 | [analyze-email](analyze-email/) | majiayu000 | ★ 2 | 64% | L3 | Quick single email analysis - read metadata, content summary, and list attachmen… |
 | [analyze-thread](analyze-thread/) | majiayu000 | ★ 2 | 64% | L3 | Analyze complete email thread with conversation context, timeline, participants,… |
+| [email-sequence](email-sequence/) | majiayu000 | ★ 2 | 64% | L2 | When the user wants to create or optimize an email sequence, drip campaign, auto… |
+| [launch-strategy](launch-strategy/) | majiayu000 | ★ 2 | 64% | L2 | When the user wants to plan a product launch, feature announcement, or release s… |
+| [onboarding-cro](onboarding-cro/) | majiayu000 | ★ 2 | 64% | L2 | When the user wants to optimize post-signup onboarding, user activation, first-r… |
+| [referral-program](referral-program/) | majiayu000 | ★ 2 | 64% | L2 | When the user wants to create, optimize, or analyze a referral program, affiliat… |
 | [Ad Copy Writer](ad-copy-writer/) | majiayu000 | ★ 2 | 63% | L2 | Write high-converting advertising copy for paid media campaigns |
 | [Advisory Board Builder](advisory-board-builder/) | majiayu000 | ★ 2 | 63% | L2 | Recruit, structure, and manage advisory boards for strategic guidance |
 | [Affiliate Marketing Manager](affiliate-marketing-manager/) | majiayu000 | ★ 2 | 63% | L2 | Set up and manage affiliate marketing programs for growth and revenue |
+| [startup-analyst](startup-analyst/) | majiayu000 | ★ 2 | 60% | L2 | Expert startup business analyst specializing in market sizing, |
+| [email-systems](email-systems/) | majiayu000 | ★ 2 | 57% | L2 | Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet … |
+| [sales-automator](sales-automator/) | majiayu000 | ★ 2 | 53% | L2 | Draft cold emails, follow-ups, and proposal templates. Creates |
 | [agent-content-marketer](agent-content-marketer/) | majiayu000 | ★ 2 | 51% | L2 | Expert content marketer specializing in content strategy, SEO optimization, and … |
 | [agent-sales-engineer](agent-sales-engineer/) | majiayu000 | ★ 2 | 51% | L2 | Expert sales engineer specializing in technical pre-sales, solution architecture… |
 | [alphaear-news](alphaear-news/) | majiayu000 | ★ 2 | 51% | L3 | Fetch hot finance news, unified trends, and prediction financial market data. Us… |
@@ -229,6 +240,7 @@
 | [solo-founder-gtm](solo-founder-gtm/) | chadboyda | ★ 0 | 45% | L2 | When the user is a solo founder building their GTM motion, wants to scale withou… |
 | [bexio](bexio/) | majiayu000 | ★ 0 | 45% | L3 | Bexio Swiss business software API for managing contacts, quotes/offers, invoices… |
 | [seo-geo-aeo](seo-geo-aeo/) | ashishgurprit | ★ 0 | 45% | L2 | Comprehensive search optimization skill covering SEO (Search Engine Optimization… |
+| [bexio](bexio/) | decimasudo | ★ 0 | 45% | L3 | Bexio Swiss business software API for managing contacts, quotes/offers, invoices… |
 | [Sales Lead Enrichment](sales-lead-enrichment/) | SixtySecondsApp | ★ 0 | 44% | L2 | All sources consulted with data freshness timestamps |
 | [cfo](cfo/) | jforksy | ★ 0 | 44% | L2 | CFO Co-Pilot - strategic finance, valuation narrative, and VC readiness |
 | [Onboarding Check-in Drafter](onboarding-check-in-drafter/) | SixtySecondsApp | ★ 0 | 44% | L2 | Recommended date for next check-in milestone |

@@ -1,6 +1,6 @@
 # 📂 content-media
 
-> 196 skills in this category
+> 202 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -63,6 +63,7 @@
 | [4claw](4claw/) | majiayu000 | ★ 92 | 80% | L3 | 4claw — a moderated imageboard for AI agents. Boards, threads, replies, media up… |
 | [image-enhancer](image-enhancer/) | majiayu000 | ★ 92 | 77% | L2 | Improves the quality of images, especially screenshots, by enhancing resolution,… |
 | [pptx](pptx/) | majiayu000 | ★ 92 | 77% | L3 | Presentation creation, editing, and analysis. When Claude needs to work with pre… |
+| [animator-skill](animator-skill/) | majiayu000 | ★ 2 | 67% | L2 | Use when converting static image sequences (sequence boards) into motion prompts… |
 | [content-research-writer](content-research-writer/) | majiayu000 | ★ 2 | 64% | L2 | Assists in writing high-quality content by conducting research, adding citations… |
 | [Adaptive Bitrate Streaming](adaptive-bitrate-streaming/) | majiayu000 | ★ 2 | 64% | L3 | Automatically adjusting video quality based on network conditions using HLS, DAS… |
 | [add-content](add-content/) | majiayu000 | ★ 2 | 64% | L2 | Create new files in knowledge base with directory governance. Use when user want… |
@@ -80,8 +81,13 @@
 | [alfworld-locate-target-object](alfworld-locate-target-object/) | majiayu000 | ★ 2 | 64% | L2 | This skill navigates to a suspected location and identifies a target object. It … |
 | [alfworld-object-state-inspector](alfworld-object-state-inspector/) | majiayu000 | ★ 2 | 64% | L2 | Checks the current state or contents of a specified object or receptacle. Trigge… |
 | [analyze-video](analyze-video/) | majiayu000 | ★ 2 | 64% | L3 | Adds visual descriptions to transcripts by extracting and analyzing video frames… |
+| [animated-image](animated-image/) | majiayu000 | ★ 2 | 64% | L3 | Generate a minimalist static image from a prompt, then animate it into a short v… |
+| [animation-system](animation-system/) | majiayu000 | ★ 2 | 64% | L2 | Implements animation systems using AnimationPlayer, AnimationTree, blend trees, … |
+| [social-content](social-content/) | majiayu000 | ★ 2 | 64% | L2 | When the user wants help creating, scheduling, or optimizing social media conten… |
+| [apex-video-generator](apex-video-generator/) | majiayu000 | ★ 2 | 64% | L3 | Generate real estate marketing videos from property data. Use when creating prop… |
 | [ai-content-quality-checker](ai-content-quality-checker/) | majiayu000 | ★ 2 | 60% | L3 | AI生成コンテンツの総合品質チェックスキル。読みやすさ、正確性、関連性、独自性、SEO、アクセシビリティ、エンゲージメント、文法・スタイルを多角的に評価。 |
 | [alma-scraper](alma-scraper/) | majiayu000 | ★ 2 | 57% | L2 | Intelligent scraper for Australian youth justice sources. Discovers, extracts, a… |
+| [annotate-talk](annotate-talk/) | majiayu000 | ★ 2 | 51% | L2 | Create annotated blog posts from technical talks with slides. Use when asked to … |
 | [ai-content](ai-content/) | majiayu000 | ★ 2 | 47% | L2 | 生成 AI 相关技术内容，帮助编写 AI 工具使用指南、模型对比、应用案例等内容。使用时涉及 AI 工具、模型、应用等主题时。 |
 | [4claw](4claw/) | majiayu000 | ★ 1 | 65% | L3 | 4claw — a moderated imageboard for AI agents. Boards, threads, replies, media up… |
 | [image-enhancer](image-enhancer/) | majiayu000 | ★ 1 | 62% | L2 | Improves the quality of images, especially screenshots, by enhancing resolution,… |

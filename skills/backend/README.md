@@ -1,9 +1,11 @@
 # 📂 backend
 
-> 875 skills in this category
+> 1,028 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
+| [appdeploy](appdeploy/) | sickn33 | ★ 17.3k | 98% | L3 | Deploy web apps with backend APIs, database, and file storage. Use when the user… |
+| [grpc-golang](grpc-golang/) | sickn33 | ★ 17.3k | 95% | L2 | Build production-ready gRPC services in Go with mTLS, streaming, and observabili… |
 | [using-neon](using-neon/) | sickn33 | ★ 16.9k | 95% | L3 | Guides and best practices for working with Neon Serverless Postgres. Covers gett… |
 | [voice-ai-development](voice-ai-development/) | sickn33 | ★ 16.9k | 95% | L3 | Expert in building voice AI applications - from real-time voice agents to voice-… |
 | [wordpress-plugin-development](wordpress-plugin-development/) | sickn33 | ★ 16.9k | 95% | L2 | WordPress plugin development workflow covering plugin architecture, hooks, admin… |
@@ -45,8 +47,6 @@
 | [pydantic-models-py](pydantic-models-py/) | sickn33 | ★ 16.7k | 88% | L3 | Create Pydantic models following the multi-model pattern with Base, Create, Upda… |
 | [segment-cdp](segment-cdp/) | sickn33 | ★ 16.7k | 88% | L2 | Expert patterns for Segment Customer Data Platform including Analytics.js, serve… |
 | [similarity-search-patterns](similarity-search-patterns/) | sickn33 | ★ 16.7k | 82% | L2 | Implement efficient similarity search with vector databases. Use when building s… |
-| [appdeploy](appdeploy/) | sickn33 | ★ 16.7k | 95% | L3 | Deploy web apps with backend APIs, database, and file storage. Use when the user… |
-| [grpc-golang](grpc-golang/) | sickn33 | ★ 16.7k | 95% | L2 | Build production-ready gRPC services in Go with mTLS, streaming, and observabili… |
 | [api-documentation-generator](api-documentation-generator/) | sickn33 | ★ 16.7k | 95% | L3 | Generate comprehensive, developer-friendly API documentation from code, includin… |
 | [api-fuzzing-bug-bounty](api-fuzzing-bug-bounty/) | sickn33 | ★ 16.7k | 95% | L3 | This skill should be used when the user asks to \"test API security\", \"fuzz AP… |
 | [api-patterns](api-patterns/) | sickn33 | ★ 16.7k | 95% | L3 | API design principles and decision-making. REST vs GraphQL vs tRPC selection, re… |
@@ -100,9 +100,32 @@
 | [postgresql-optimization](postgresql-optimization/) | sickn33 | ★ 15.5k | 98% | L2 | PostgreSQL database optimization workflow for query tuning, indexing strategies,… |
 | [python-fastapi-development](python-fastapi-development/) | sickn33 | ★ 15.5k | 98% | L2 | Python FastAPI backend development with async patterns, SQLAlchemy, Pydantic, au… |
 | [database](database/) | sickn33 | ★ 15.4k | 98% | L2 | Database development and operations workflow covering SQL, NoSQL, database desig… |
+| [adaptyv](adaptyv/) | majiayu000 | ★ 95 | 77% | L3 | Cloud laboratory platform for automated protein testing and validation. Use when… |
+| [add-malli-schemas](add-malli-schemas/) | majiayu000 | ★ 95 | 77% | L3 | Efficiently add Malli schemas to API endpoints in the Metabase codebase with pro… |
+| [add_platform](add_platform/) | majiayu000 | ★ 95 | 77% | L2 | Adds a new AI platform to DeepWork with adapter, templates, and tests. Use when … |
+| [agent-ops-critical-review](agent-ops-critical-review/) | majiayu000 | ★ 95 | 77% | L3 | Deep, excruciating code review. Use anytime to analyze code for correctness, edg… |
+| [agent-ops-project-sections](agent-ops-project-sections/) | majiayu000 | ★ 95 | 77% | L3 | Identify and map different sections of a software project (API, frontend, databa… |
+| [agent-ops-validation](agent-ops-validation/) | majiayu000 | ★ 95 | 77% | L3 | Pre-commit and pre-merge validation checks. Use before committing changes or dec… |
+| [agent-registry](agent-registry/) | majiayu000 | ★ 95 | 77% | L3 | Guide for managing the Agent Registry - database-backed agent configuration syst… |
+| [agent-database-administrator](agent-database-administrator/) | majiayu000 | ★ 95 | 70% | L2 | Expert database administrator specializing in high-availability systems, perform… |
+| [agent-django-developer](agent-django-developer/) | majiayu000 | ★ 95 | 70% | L2 | Expert Django developer mastering Django 4+ with modern Python practices. Specia… |
+| [agent-dotnet-core-expert](agent-dotnet-core-expert/) | majiayu000 | ★ 95 | 70% | L2 | Expert .NET Core specialist mastering .NET 8 with modern C# features. Specialize… |
+| [agent-performance-engineer](agent-performance-engineer/) | majiayu000 | ★ 95 | 70% | L2 | Expert performance engineer specializing in system optimization, bottleneck iden… |
+| [agent-performance-monitor](agent-performance-monitor/) | majiayu000 | ★ 95 | 70% | L2 | Expert performance monitor specializing in system-wide metrics collection, analy… |
+| [agent-spring-boot-engineer](agent-spring-boot-engineer/) | majiayu000 | ★ 95 | 70% | L2 | Expert Spring Boot engineer mastering Spring Boot 3+ with cloud-native patterns.… |
+| [agent-database-optimizer](agent-database-optimizer/) | majiayu000 | ★ 95 | 64% | L2 | Expert database optimizer specializing in query optimization, performance tuning… |
+| [agent-fullstack-developer](agent-fullstack-developer/) | majiayu000 | ★ 95 | 64% | L2 | End-to-end feature owner with expertise across the entire stack. Delivers comple… |
+| [agent-graphql-architect](agent-graphql-architect/) | majiayu000 | ★ 95 | 64% | L2 | GraphQL schema architect designing efficient, scalable API graphs. Masters feder… |
+| [agent-laravel-specialist](agent-laravel-specialist/) | majiayu000 | ★ 95 | 64% | L2 | Expert Laravel specialist mastering Laravel 10+ with modern PHP practices. Speci… |
+| [agent-microservices-architect](agent-microservices-architect/) | majiayu000 | ★ 95 | 64% | L2 | Distributed systems architect designing scalable microservice ecosystems. Master… |
+| [agent-platform-engineer](agent-platform-engineer/) | majiayu000 | ★ 95 | 64% | L2 | Expert platform engineer specializing in internal developer platforms, self-serv… |
+| [agent-postgres-pro](agent-postgres-pro/) | majiayu000 | ★ 95 | 64% | L2 | Expert PostgreSQL specialist mastering database administration, performance opti… |
+| [agent-rails-expert](agent-rails-expert/) | majiayu000 | ★ 95 | 64% | L2 | Expert Rails specialist mastering Rails 7+ with modern conventions. Specializes … |
+| [agent-sql-pro](agent-sql-pro/) | majiayu000 | ★ 95 | 64% | L2 | Expert SQL developer specializing in complex query optimization, database design… |
+| [agent-swift-expert](agent-swift-expert/) | majiayu000 | ★ 95 | 64% | L2 | Expert Swift developer specializing in Swift 5.9+ with async/await, SwiftUI, and… |
+| [Add Admin API Endpoint](add-admin-api-endpoint/) | majiayu000 | ★ 95 | 60% | L3 | Add a new endpoint or endpoints to Ghost's Admin API at `ghost/api/admin/**`. |
 | [adr-creation](adr-creation/) | majiayu000 | ★ 94 | 80% | L2 | Generate Architecture Decision Records following the project template and number… |
 | [ActiveRecord Query Patterns](activerecord-query-patterns/) | majiayu000 | ★ 94 | 77% | L3 | Complete guide to ActiveRecord query optimization, associations, scopes, and Pos… |
-| [adaptyv](adaptyv/) | majiayu000 | ★ 94 | 77% | L3 | Cloud laboratory platform for automated protein testing and validation. Use when… |
 | [add-api-endpoint](add-api-endpoint/) | majiayu000 | ★ 94 | 77% | L3 | Create API layer components for a new entity. Includes usecase interactors (inte… |
 | [add-atom](add-atom/) | majiayu000 | ★ 94 | 77% | L3 | Add a new Jotai atom to the state system with type definitions, registry, and St… |
 | [add-backend-testing](add-backend-testing/) | majiayu000 | ★ 94 | 77% | L3 | Add backend integration testing with Vitest to an existing app. Sets up isolated… |
@@ -110,14 +133,12 @@
 | [add-feature](add-feature/) | majiayu000 | ★ 94 | 77% | L3 | Scaffold a new toggleable feature with full structure, storage, API exposure, an… |
 | [add-feature-hook](add-feature-hook/) | majiayu000 | ★ 94 | 77% | L3 | Creates TanStack Query hooks for API features with authentication. Use when conn… |
 | [add-integration](add-integration/) | majiayu000 | ★ 94 | 77% | L3 | Build a new API integration for Nexus. Load when user mentions "add integration"… |
-| [add-malli-schemas](add-malli-schemas/) | majiayu000 | ★ 94 | 77% | L3 | Efficiently add Malli schemas to API endpoints in the Metabase codebase with pro… |
 | [add-med-record](add-med-record/) | majiayu000 | ★ 94 | 77% | L3 | Добавляет медицинские записи в Notion. Используй когда пользователь просит добав… |
 | [add-nodebridge-handler](add-nodebridge-handler/) | majiayu000 | ★ 94 | 77% | L3 | Use this skill when adding a new NodeBridge handler to src/nodeBridge.ts, includ… |
 | [add-note](add-note/) | majiayu000 | ★ 94 | 77% | L3 | Use this skill whenever important information is learned during a task or when t… |
 | [add_platform.add_capabilities](add_platform.add_capabilities/) | majiayu000 | ★ 94 | 77% | L3 | Updates job schema and adapters with any new hook events the platform supports. … |
 | [add_platform.implement](add_platform.implement/) | majiayu000 | ★ 94 | 77% | L3 | Creates platform adapter, templates, tests with 100% coverage, and README docume… |
 | [add_platform.research](add_platform.research/) | majiayu000 | ★ 94 | 77% | L2 | Captures CLI configuration and hooks system documentation for the new platform. … |
-| [add_platform](add_platform/) | majiayu000 | ★ 94 | 77% | L2 | Adds a new AI platform to DeepWork with adapter, templates, and tests. Use when … |
 | [add_platform.verify](add_platform.verify/) | majiayu000 | ★ 94 | 77% | L3 | Sets up platform directories and verifies deepwork install works correctly. Use … |
 | [add-private-function-with-signatures](add-private-function-with-signatures/) | majiayu000 | ★ 94 | 77% | L3 | Add private functions from game DLLs (server.dll/engine.dll) to metamod plugins … |
 | [add-query-filter](add-query-filter/) | majiayu000 | ★ 94 | 77% | L3 | Add custom query parameter filters to entity endpoints. Use when extending searc… |
@@ -153,7 +174,6 @@
 | [aesthetic-form-composition](aesthetic-form-composition/) | majiayu000 | ★ 94 | 64% | L2 | [Aesthetics] Analyzes form, composition, and spatial relationships: eye paths, b… |
 | [agent-api-designer](agent-api-designer/) | majiayu000 | ★ 94 | 64% | L2 | API architecture expert designing scalable, developer-friendly interfaces. Creat… |
 | [agent-backend-developer](agent-backend-developer/) | majiayu000 | ★ 94 | 64% | L2 | Senior backend engineer specializing in scalable API development and microservic… |
-| [Add Admin API Endpoint](add-admin-api-endpoint/) | majiayu000 | ★ 94 | 60% | L3 | Add a new endpoint or endpoints to Ghost's Admin API at `ghost/api/admin/**`. |
 | [advanced-math-trading/robustness-risk](advanced-math-trading-robustness-risk/) | majiayu000 | ★ 94 | 60% | L2 | Tail risk, EVT, regularization, validation guardrails, and common pitfalls. |
 | [adaptive-guardrail-calibrator](adaptive-guardrail-calibrator/) | majiayu000 | ★ 94 | 58% | L2 | Calibrate guardrail thresholds from live hardware telemetry and emit environment… |
 | [add_platform.add_capabilities](add_platform.add_capabilities/) | majiayu000 | ★ 94 | 54% | L1 | "Updates job schema and adapters with any new hook events the platform supports.… |
@@ -169,6 +189,18 @@
 | [aggregating-performance-metrics](aggregating-performance-metrics/) | majiayu000 | ★ 2 | 67% | L2 | Aggregate and centralize performance metrics from applications, systems, databas… |
 | [alamofire-patterns](alamofire-patterns/) | majiayu000 | ★ 2 | 67% | L2 | Expert Alamofire decisions for iOS/tvOS: when Alamofire adds value vs URLSession… |
 | [analyzing-network-latency](analyzing-network-latency/) | majiayu000 | ★ 2 | 67% | L2 | Analyze network latency and optimize request patterns for faster communication. … |
+| [anchoring-effect](anchoring-effect/) | majiayu000 | ★ 2 | 67% | L2 | Las personas dependen demasiado de la primera pieza de información que reciben (… |
+| [Answering Research Questions](answering-research-questions/) | majiayu000 | ★ 2 | 67% | L3 | Main orchestration workflow for systematic literature research - search, evaluat… |
+| [Network 101](network-101/) | majiayu000 | ★ 2 | 67% | L3 | This skill should be used when the user asks to "set up a web server", "configur… |
+| [api-contract-design](api-contract-design/) | majiayu000 | ★ 2 | 67% | L3 | Design APIs using schema-first approach with OpenAPI/Swagger. Use when creating … |
+| [api-design-framework](api-design-framework/) | majiayu000 | ★ 2 | 67% | L3 | Use this skill when designing REST, GraphQL, or gRPC APIs. Provides comprehensiv… |
+| [API Development Patterns](api-development-patterns/) | majiayu000 | ★ 2 | 67% | L3 | Comprehensive guide to building production-ready REST APIs in Rails with seriali… |
+| [api-doc-generation](api-doc-generation/) | majiayu000 | ★ 2 | 67% | L3 | Generate and update API documentation from NestJS controllers. Use when modifyin… |
+| [api-error-handling](api-error-handling/) | majiayu000 | ★ 2 | 67% | L3 | Apply when designing error responses, implementing error handlers, and ensuring … |
+| [API Fuzzing for Bug Bounty](api-fuzzing-for-bug-bounty/) | majiayu000 | ★ 2 | 67% | L3 | This skill should be used when the user asks to "test API security", "fuzz APIs"… |
+| [api-handler](api-handler/) | majiayu000 | ★ 2 | 67% | L3 | StepLeague API route pattern using withApiHandler wrapper. Use when creating or … |
+| [api-integration-patterns](api-integration-patterns/) | majiayu000 | ★ 2 | 67% | L3 | API integration patterns for autonomous-dev including subprocess safety, GitHub … |
+| [api-integration-specialist](api-integration-specialist/) | majiayu000 | ★ 2 | 67% | L3 | Expert guidance for designing, integrating, and maintaining third-party APIs wit… |
 | [agent-ops-api-review](agent-ops-api-review/) | majiayu000 | ★ 2 | 64% | L3 | Platform/Language agnostic API delivery and correctness auditor. Use when projec… |
 | [agent-ops-critical-review](agent-ops-critical-review/) | majiayu000 | ★ 2 | 64% | L3 | Deep, excruciating code review. Use anytime to analyze code for correctness, edg… |
 | [agent-ops-project-sections](agent-ops-project-sections/) | majiayu000 | ★ 2 | 64% | L3 | Identify and map different sections of a software project (API, frontend, databa… |
@@ -193,7 +225,82 @@
 | [analyzing-apm-data](analyzing-apm-data/) | majiayu000 | ★ 2 | 64% | L2 | Monitor application performance using the RED methodology (Rate, Errors, Duratio… |
 | [Analyzing Problems Deeply](analyzing-problems-deeply/) | majiayu000 | ★ 2 | 64% | L2 | Performs deep structured analysis on complex or ambiguous problems. Activates wh… |
 | [analyzing-projects](analyzing-projects/) | majiayu000 | ★ 2 | 64% | L3 | Analyzes codebases to understand structure, tech stack, patterns, and convention… |
+| [analyzing-tdigest-metrics](analyzing-tdigest-metrics/) | majiayu000 | ★ 2 | 64% | L2 | Analyze percentile metrics (tdigest type) using OPAL for latency analysis and SL… |
+| [android-restart-app](android-restart-app/) | majiayu000 | ★ 2 | 64% | L3 | Restart the Android app on connected device without rebuilding. Force-stops and … |
+| [anonymise](anonymise/) | majiayu000 | ★ 2 | 64% | L3 | Anonymise CSV files by removing personal identifying information and adding date… |
+| [anti-scraping](anti-scraping/) | majiayu000 | ★ 2 | 64% | L3 | Use when need to bypass Cloudflare protection, scrape websites with anti-bot mea… |
+| [deep-research](deep-research/) | majiayu000 | ★ 2 | 64% | L3 | Execute autonomous multi-step research using Google Gemini Deep Research Agent. … |
+| [file-organizer](file-organizer/) | majiayu000 | ★ 2 | 64% | L3 | Intelligently organizes files and folders by understanding context, finding dupl… |
+| [research-engineer](research-engineer/) | majiayu000 | ★ 2 | 64% | L2 | An uncompromising Academic Research Engineer. Operates with absolute scientific … |
+| [senior-architect](senior-architect/) | majiayu000 | ★ 2 | 64% | L3 | Comprehensive software architecture skill for designing scalable, maintainable s… |
+| [senior-fullstack](senior-fullstack/) | majiayu000 | ★ 2 | 64% | L3 | Comprehensive fullstack development skill for building complete web applications… |
+| [signup-flow-cro](signup-flow-cro/) | majiayu000 | ★ 2 | 64% | L2 | When the user wants to optimize signup, registration, account creation, or trial… |
+| [stripe-integration](stripe-integration/) | majiayu000 | ★ 2 | 64% | L3 | Get paid from day one. Payments, subscriptions, billing portal, webhooks, metere… |
+| [upstash-qstash](upstash-qstash/) | majiayu000 | ★ 2 | 64% | L2 | Upstash QStash expert for serverless message queues, scheduled jobs, and reliabl… |
+| [API Agent Development](api-agent-development/) | majiayu000 | ★ 2 | 64% | L3 | Create API agents that wrap external HTTP services (n8n, LangGraph, CrewAI, Open… |
+| [api-architect](api-architect/) | majiayu000 | ★ 2 | 64% | L3 | Expert API designer for REST, GraphQL, gRPC architectures. Activate on: API desi… |
+| [api-authentication](api-authentication/) | majiayu000 | ★ 2 | 64% | L3 | Implement secure API authentication with JWT, OAuth 2.0, API keys, and session m… |
+| [api-authentication](api-authentication/) | majiayu000 | ★ 2 | 64% | L3 | Secure API authentication with JWT, OAuth 2.0, API keys. Use for authentication … |
+| [api-best-practices](api-best-practices/) | majiayu000 | ★ 2 | 64% | L3 | REST API design patterns, OpenAPI specifications, versioning strategies, authent… |
+| [api-builder](api-builder/) | majiayu000 | ★ 2 | 64% | L3 | Generate complete FastAPI backend scaffolds from OpenAPI 3.x specifications. Aut… |
+| [api-builder](api-builder/) | majiayu000 | ★ 2 | 64% | L3 | Comprehensive API design and development workflow that orchestrates API architec… |
+| [api-client-development](api-client-development/) | majiayu000 | ★ 2 | 64% | L3 | Creating API clients with OpenAPI specs, authentication, and OAuth scopes for SC… |
+| [api-client-patterns](api-client-patterns/) | majiayu000 | ★ 2 | 64% | L3 | HTTP client patterns, API integration, request/response handling, error handling… |
+| [api-client](api-client/) | majiayu000 | ★ 2 | 64% | L3 | REST API client builder with authentication, error handling, retry logic, and re… |
+| [api-client](api-client/) | majiayu000 | ★ 2 | 64% | L3 | Centralized TypeScript API client with typed namespaces, automatic token refresh… |
+| [api-codegen](api-codegen/) | majiayu000 | ★ 2 | 64% | L3 | API client code generation workflow. Use when modifying backend routes, response… |
+| [api-contract-enforcement](api-contract-enforcement/) | majiayu000 | ★ 2 | 64% | L3 | Validates REST API implementations against OpenAPI 3.x specifications. Use when … |
+| [api-endpoint-generator](api-endpoint-generator/) | majiayu000 | ★ 2 | 64% | L3 | Generates CRUD REST API endpoints with request validation, TypeScript types, con… |
+| [API Contract Sync Manager](api-contract-sync-manager/) | majiayu000 | ★ 2 | 64% | L3 | Validate OpenAPI, Swagger, and GraphQL schemas match backend implementation. Det… |
+| [api-contract-sync](api-contract-sync/) | majiayu000 | ★ 2 | 64% | L3 | Use this skill when backend API contracts change and frontend types need synchro… |
+| [api-contract-testing](api-contract-testing/) | majiayu000 | ★ 2 | 64% | L3 | Verifies API contracts between services using consumer-driven contracts, schema … |
+| [api-contract-validator](api-contract-validator/) | majiayu000 | ★ 2 | 64% | L3 | Validates type contracts between TypeScript interfaces and Pydantic models. Dete… |
+| [api-contracts-and-zod-validation](api-contracts-and-zod-validation/) | majiayu000 | ★ 2 | 64% | L3 | Generate Zod schemas and TypeScript types for forms, API routes, and Server Acti… |
+| [API Contracts Generator](api-contracts-generator/) | majiayu000 | ★ 2 | 64% | L3 | Génère des contrats API cohérents entre Frontend (Next.js) et Backend (NestJS) a… |
+| [api-controller](api-controller/) | majiayu000 | ★ 2 | 64% | L2 | Create a new Laravel API controller following this project's patterns. Use when … |
+| [api-design-fundamentals](api-design-fundamentals/) | majiayu000 | ★ 2 | 64% | L2 | Use when designing APIs, choosing between REST/GraphQL/gRPC, or understanding AP… |
+| [api-design-mode](api-design-mode/) | majiayu000 | ★ 2 | 64% | L2 | Activate API design specialist mode. Expert in REST best practices, GraphQL, and… |
+| [api-design-patterns](api-design-patterns/) | majiayu000 | ★ 2 | 64% | L3 | Comprehensive REST and GraphQL API design patterns with versioning, pagination, … |
+| [api-design-principles](api-design-principles/) | majiayu000 | ★ 2 | 64% | L3 | Master REST and GraphQL API design principles to build intuitive, scalable, and … |
+| [api-design](api-design/) | majiayu000 | ★ 2 | 64% | L3 | REST/GraphQL API design patterns - resource naming, HTTP methods, error handling… |
+| [api-design](api-design/) | majiayu000 | ★ 2 | 64% | L3 | Design clean, scalable, and maintainable REST and GraphQL APIs following industr… |
+| [api-designer](api-designer/) | majiayu000 | ★ 2 | 64% | L3 | REST/GraphQL API architect specializing in OpenAPI 3.1, HATEOAS, pagination, and… |
+| [api-doc-generator](api-doc-generator/) | majiayu000 | ★ 2 | 64% | L3 | Generate API documentation from source code, supporting REST APIs, GraphQL, and … |
+| [api-docs-generator](api-docs-generator/) | majiayu000 | ★ 2 | 64% | L3 | Generate API documentation in OpenAPI/Swagger, Markdown, or Postman Collection f… |
+| [api-docs-writing](api-docs-writing/) | majiayu000 | ★ 2 | 64% | L2 | Update or create API documentation after making changes to the public interface … |
+| [api-document-generator](api-document-generator/) | majiayu000 | ★ 2 | 64% | L3 | Parses interface/API information from files or directories and generates OpenAPI… |
+| [api-documentation](api-documentation/) | majiayu000 | ★ 2 | 64% | L3 | Use when API code changes (routes, endpoints, schemas). Enforces Swagger/OpenAPI… |
+| [api-documentation-writer](api-documentation-writer/) | majiayu000 | ★ 2 | 64% | L3 | Expert guide for writing comprehensive API documentation including OpenAPI specs… |
+| [api-documenter](api-documenter/) | majiayu000 | ★ 2 | 64% | L2 | API documentation specialist who creates comprehensive OpenAPI/Swagger specifica… |
+| [api-endpoint-builder](api-endpoint-builder/) | majiayu000 | ★ 2 | 64% | L3 | Build REST API endpoints when designing or implementing API routes with security… |
+| [api-endpoint-design](api-endpoint-design/) | majiayu000 | ★ 2 | 64% | L3 | API endpoint design and testing for vehicle insurance data platform. Use when de… |
+| [api-contract-normalizer](api-contract-normalizer/) | majiayu000 | ★ 2 | 64% | L3 | Unifies API response patterns across endpoints including pagination format, erro… |
+| [api-envelope-pattern](api-envelope-pattern/) | majiayu000 | ★ 2 | 64% | L3 | Standard API envelope pattern for all responses (success/list/error). Wraps data… |
+| [api-error-handling](api-error-handling/) | majiayu000 | ★ 2 | 64% | L3 | Implement comprehensive API error handling with standardized error responses, lo… |
+| [api-first-design](api-first-design/) | majiayu000 | ★ 2 | 64% | L3 | **API FIRST DESIGN**: 'API 만들어', 'API 설계', '엔드포인트', 'REST', 'Swagger', 'OpenAPI'… |
+| [api-gateway](api-gateway/) | majiayu000 | ★ 2 | 64% | L3 | AWS API Gateway for REST and HTTP API management. Use when creating APIs, config… |
+| [api-gateway-patterns](api-gateway-patterns/) | majiayu000 | ★ 2 | 64% | L2 | API Gateway patterns for routing, authentication, rate limiting, and service com… |
+| [api-generation](api-generation/) | majiayu000 | ★ 2 | 64% | L3 | Generate TypeScript API client from Swagger/Go comments. Use when updating API e… |
+| [api-handoff](api-handoff/) | majiayu000 | ★ 2 | 64% | L3 | Create API handoff documentation for frontend developers. Use when backend work … |
+| [api-implementer](api-implementer/) | majiayu000 | ★ 2 | 64% | L3 | Implements API endpoints, routes, controllers, and request/response handling. Us… |
+| [api-integration-architect](api-integration-architect/) | majiayu000 | ★ 2 | 64% | L3 | Expert in API integration with React Query, SWR, RTK Query, REST/GraphQL clients… |
+| [api-integration](api-integration/) | majiayu000 | ★ 2 | 64% | L3 | Integrate external REST APIs with proper authentication, rate limiting, error ha… |
+| [api-integration-builder](api-integration-builder/) | majiayu000 | ★ 2 | 64% | L3 | Build reliable third-party API integrations including OAuth, webhooks, rate limi… |
+| [API Integration Specialist](api-integration-specialist/) | majiayu000 | ★ 2 | 64% | L3 | Expert in integrating third-party APIs with proper authentication, error handlin… |
+| [api-integration-test-scaffolder](api-integration-test-scaffolder/) | majiayu000 | ★ 2 | 64% | L3 | Generates integration tests for frontend → backend → Genkit flow connections. Us… |
+| [api-integration-testing](api-integration-testing/) | majiayu000 | ★ 2 | 64% | L2 | Integration testing patterns for ABP Framework APIs using xUnit and WebApplicati… |
+| [api-integration](api-integration/) | majiayu000 | ★ 2 | 64% | L3 | Integrate Apidog + OpenAPI specifications with your React app. Covers MCP server… |
+| [api-integrator](api-integrator/) | majiayu000 | ★ 2 | 64% | L3 | Integrate external REST and GraphQL APIs with proper authentication (Bearer, Bas… |
+| [api-investigator](api-investigator/) | majiayu000 | ★ 2 | 64% | L3 | note.com APIの調査を支援します。mitmproxyとPlaywrightを使用してHTTPトラフィックをキャプチャ・分析し、API動作を解明します。 |
+| [api-organization](api-organization/) | majiayu000 | ★ 2 | 64% | L3 | Explains the standardized API organization pattern for this codebase. Use when c… |
+| [API Pagination Debugging](api-pagination-debugging/) | majiayu000 | ★ 2 | 64% | L3 | Systematic methodology for debugging pagination issues in API integrations, espe… |
+| [api-pagination](api-pagination/) | majiayu000 | ★ 2 | 64% | L3 | Implement efficient pagination strategies for large datasets using offset/limit,… |
 | [amp-api-awareness](amp-api-awareness/) | majiayu000 | ★ 2 | 63% | L3 | Extract hidden Amp API patterns from local thread data via DuckDB analysis |
+| [android-playstore-api-validation](android-playstore-api-validation/) | majiayu000 | ★ 2 | 63% | L3 | Create and run validation script to test Play Store API connection |
+| [api-contract-validation](api-contract-validation/) | majiayu000 | ★ 2 | 63% | L3 | Detect breaking changes in API contracts (OpenAPI/Swagger specs) |
+| [api-documentor](api-documentor/) | majiayu000 | ★ 2 | 63% | L3 | Generates OpenAPI/Swagger/GraphQL documentation and SDKs from code |
+| [api-extend](api-extend/) | majiayu000 | ★ 2 | 63% | L3 | API拡張ワークフロー（ports → provider → handler → Mock → テスト → フロント型 → UI）を自動化 |
+| [[PROJECT]-api-patterns](project-api-patterns/) | majiayu000 | ★ 2 | 62% | L3 | [PROJECT] REST API implementation patterns and conventions |
 | [agentuity-cli-cloud-apikey-create](agentuity-cli-cloud-apikey-create/) | majiayu000 | ★ 2 | 60% | L3 | Create a new API key. Requires authentication. Use for Agentuity cloud platform … |
 | [agentuity-cli-cloud-db-delete](agentuity-cli-cloud-db-delete/) | majiayu000 | ★ 2 | 60% | L2 | Delete a database resource. Requires authentication. Use for Agentuity cloud pla… |
 | [agentuity-cli-cloud-db-get](agentuity-cli-cloud-db-get/) | majiayu000 | ★ 2 | 60% | L3 | Show details about a specific database. Requires authentication. Use for Agentui… |
@@ -232,6 +339,18 @@
 | [alembic](alembic/) | majiayu000 | ★ 2 | 60% | L3 | Database migration management for SQLAlchemy projects using Alembic |
 | [aliyun-operations](aliyun-operations/) | majiayu000 | ★ 2 | 60% | L3 | 阿里云服务器运维操作。包括ECS实例管理、安全组配置、服务部署、日志查看。适用于服务器管理、端口开放、应用部署等任务。 |
 | [allstate](allstate/) | majiayu000 | ★ 2 | 60% | L3 | Manage Allstate insurance with Drivewise and Milewise programs. |
+| [api-documenter](api-documenter/) | majiayu000 | ★ 2 | 60% | L2 | Master API documentation with OpenAPI 3.1, AI-powered tools, and |
+| [database-admin](database-admin/) | majiayu000 | ★ 2 | 60% | L2 | Expert database administrator specializing in modern cloud |
+| [apache](apache/) | majiayu000 | ★ 2 | 60% | L3 | Apache HTTP Server 配置 |
+| [koan-api-building](koan-api-building/) | majiayu000 | ★ 2 | 60% | L2 | EntityController<T>, custom routes, payload transformers, auth policies |
+| [api-design-restful](api-design-restful/) | majiayu000 | ★ 2 | 60% | L3 | RESTful API design patterns, error handling, and documentation |
+| [api-designer](api-designer/) | majiayu000 | ★ 2 | 60% | L2 | 设计RESTful API并生成OpenAPI/Swagger规范文档，遵循行业最佳实践。包括端点命名、请求/响应模式和错误处理模式。 |
+| [api-designer](api-designer/) | majiayu000 | ★ 2 | 60% | L3 | API design and implementation. Use for 'API', 'endpoint', 'route' requests |
+| [api-developer](api-developer/) | majiayu000 | ★ 2 | 60% | L3 | API 개발 전문가. REST API, FastAPI, Flask, 인증, 문서화. |
+| [api-examples](api-examples/) | majiayu000 | ★ 2 | 60% | L3 | Generate API usage examples and tutorials from code analysis |
+| [api-gateway-configurator](api-gateway-configurator/) | majiayu000 | ★ 2 | 60% | L2 | Configure rate limits, auth, transforms, caching, and load balancing. |
+| [api-mock-server](api-mock-server/) | majiayu000 | ★ 2 | 60% | L3 | Generate and run mock API servers from OpenAPI specifications |
+| [api-mocking-server](api-mocking-server/) | majiayu000 | ★ 2 | 60% | L2 | Create mock endpoints with scenario support. |
 | [agregadores-performance-potencial](agregadores-performance-potencial/) | majiayu000 | ★ 2 | 57% | L2 | Use para implementar serviços de agregação que calculam os eixos de Performance … |
 | [ai-recommendations](ai-recommendations/) | majiayu000 | ★ 2 | 57% | L3 | AI-powered recommendation engine specialist using Google AI SDK for personalized… |
 | [aip](aip/) | majiayu000 | ★ 2 | 57% | L2 | Google API Improvement Proposals (AIP) reference. Use BEFORE designing or review… |
@@ -244,7 +363,20 @@
 | [analyze-performance](analyze-performance/) | majiayu000 | ★ 2 | 57% | L3 | パフォーマンスボトルネックを特定し、最適化提案を提示 |
 | [analyze-spec](analyze-spec/) | majiayu000 | ★ 2 | 57% | L2 | Path to the spec file to analyze |
 | [analyzing-protocols](analyzing-protocols/) | majiayu000 | ★ 2 | 57% | L2 | Analyzes network protocol implementations to identify parsing vulnerabilities, s… |
+| [android-qa-verification](android-qa-verification/) | majiayu000 | ★ 2 | 57% | L2 | This skill is used to verify Android features against acceptance criteria, catch… |
+| [annotations](annotations/) | majiayu000 | ★ 2 | 57% | L3 | Workflow for adding type annotations to Plain packages. Use this when adding or … |
+| [lint-and-validate](lint-and-validate/) | majiayu000 | ★ 2 | 57% | L3 | Automatic quality control, linting, and static analysis procedures. Use after ev… |
+| [neon-postgres](neon-postgres/) | majiayu000 | ★ 2 | 57% | L2 | Expert patterns for Neon serverless Postgres, branching, connection pooling, and… |
+| [api-connector](api-connector/) | majiayu000 | ★ 2 | 57% | L3 | Connect to REST APIs, manage authentication, and process responses. Use for API … |
+| [api-design-architect](api-design-architect/) | majiayu000 | ★ 2 | 57% | L2 | RESTful and GraphQL API design expert covering best practices, security, and sca… |
+| [api-documentation-question](api-documentation-question/) | majiayu000 | ★ 2 | 57% | L2 | Answer API and technical documentation questions. Use when a customer asks about… |
+| [api-endpoint-pattern](api-endpoint-pattern/) | majiayu000 | ★ 2 | 57% | L2 | Standards for creating and organizing HTTP API endpoints using the Echo framewor… |
+| [api-endpoint-scaffold](api-endpoint-scaffold/) | majiayu000 | ★ 2 | 57% | L3 | Scaffold new Next.js API endpoints with authentication, rate limiting, and tests… |
+| [api-endpoint](api-endpoint/) | majiayu000 | ★ 2 | 57% | L3 | Create or modify API endpoints in IdeaForge backend. Triggers: new route, contro… |
+| [api-expert](api-expert/) | majiayu000 | ★ 2 | 57% | L3 | Handles backend integration using best practices like expo/fetch and React Query… |
+| [api_feature](api_feature/) | majiayu000 | ★ 2 | 57% | L3 | Imported skill api_feature from openai |
 | [ai-runtime-memory](ai-runtime-memory/) | majiayu000 | ★ 2 | 56% | L3 | AI Runtime分层记忆系统，支持SQL风格的事件查询、时间线管理，以及记忆的智能固化和检索，用于项目历史追踪和经验传承 |
+| [api-contracts-and-validation](api-contracts-and-validation/) | majiayu000 | ★ 2 | 56% | L3 | Define and validate API contracts using Zod |
 | [agentuity-cli-auth-apikey](agentuity-cli-auth-apikey/) | majiayu000 | ★ 2 | 54% | L2 | Display the API key for the currently authenticated user. Requires authenticatio… |
 | [agentuity-cli-auth-whoami](agentuity-cli-auth-whoami/) | majiayu000 | ★ 2 | 54% | L2 | Display information about the currently authenticated user. Requires authenticat… |
 | [agentuity-cli-cloud-apikey-delete](agentuity-cli-cloud-apikey-delete/) | majiayu000 | ★ 2 | 54% | L2 | Delete an API key (soft delete). Requires authentication. Use for Agentuity clou… |
@@ -269,10 +401,21 @@
 | [agentuity-cli-cloud-secret-push](agentuity-cli-cloud-secret-push/) | majiayu000 | ★ 2 | 54% | L2 | Push secrets from local .env file to cloud. Requires authentication. Use for Age… |
 | [agentuity-cli-cloud-stream-delete](agentuity-cli-cloud-stream-delete/) | majiayu000 | ★ 2 | 54% | L2 | Delete a stream by ID (soft delete). Requires authentication. Use for Agentuity … |
 | [agentuity-cli-cloud-thread-list](agentuity-cli-cloud-thread-list/) | majiayu000 | ★ 2 | 54% | L2 | List recent threads. Requires authentication. Use for Agentuity cloud platform o… |
+| [anaplan-planning](anaplan-planning/) | majiayu000 | ★ 2 | 53% | L2 | Anaplan connected planning for territory and quota management |
+| [api-boilerplate](api-boilerplate/) | majiayu000 | ★ 2 | 53% | L3 | 生成 REST API 样板代码，支持 Express、FastAPI、Next.js 等框架 |
+| [Laravel API](laravel-api/) | majiayu000 | ★ 2 | 53% | L2 | REST and JSON API standards for modern Laravel backends. |
+| [api-new](api-new/) | majiayu000 | ★ 2 | 53% | L3 | Create a new Next.js API route with validation, error handling, and TypeScript |
+| [hubspot-integration](hubspot-integration/) | majiayu000 | ★ 2 | 51% | L2 | Expert patterns for HubSpot CRM integration including OAuth authentication, CRM … |
+| [api-contract-checker](api-contract-checker/) | majiayu000 | ★ 2 | 51% | L2 | Validate API changes against an expected contract. Use when a mid-level develope… |
+| [api-digest](api-digest/) | majiayu000 | ★ 2 | 51% | L3 | Use when user asks for digest ("дайджест", "саммари", "что нового", "digest", "s… |
+| [api-error-taxonomy](api-error-taxonomy/) | majiayu000 | ★ 2 | 51% | L2 | Define consistent API error codes and responses. Use when a mid-level developer … |
 | [agentuity-cli-auth-login](agentuity-cli-auth-login/) | majiayu000 | ★ 2 | 48% | L2 | Login to the Agentuity Platform using a browser-based authentication flow. Use f… |
 | [agentuity-cli-auth-logout](agentuity-cli-auth-logout/) | majiayu000 | ★ 2 | 48% | L2 | Logout of the Agentuity Cloud Platform. Use for managing authentication credenti… |
 | [agentuity-cli-cloud-keyvalue-repl](agentuity-cli-cloud-keyvalue-repl/) | majiayu000 | ★ 2 | 48% | L2 | Start an interactive repl for working with keyvalue database. Requires authentic… |
 | [agentuity-cli-cloud-thread-delete](agentuity-cli-cloud-thread-delete/) | majiayu000 | ★ 2 | 48% | L2 | Delete a thread. Requires authentication. Use for Agentuity cloud platform opera… |
+| [api-check](api-check/) | majiayu000 | ★ 2 | 47% | L2 | FastAPI 엔드포인트 상태 점검. async 패턴, Pydantic 모델, 캐싱, 에러 핸들링 검토 |
+| [API Async](api-async/) | majiayu000 | ★ 2 | 45% | L2 | Your approach to handling API async. Use this skill when working on files where … |
+| [API Models](api-models/) | majiayu000 | ★ 2 | 45% | L2 | Your approach to handling API models. Use this skill when working on files where… |
 | [2000s-visualization-expert](2000s-visualization-expert/) | majiayu000 | ★ 1 | 62% | L3 | Expert in 2000s-era music visualization (Milkdrop, AVS, Geiss) and modern WebGL … |
 | [Build Your Database Skill](build-your-database-skill/) | majiayu000 | ★ 1 | 58% | L3 | Create a relational-db-agent skill that knows SQLModel async patterns |
 | [Build Your FastAPI Skill](build-your-fastapi-skill/) | majiayu000 | ★ 1 | 55% | L3 | Create your FastAPI skill in one prompt, then learn to improve it throughout the… |
@@ -363,7 +506,6 @@
 | [fullstack-guardian](fullstack-guardian/) | majiayu000 | ★ 0 | 48% | L2 | Use when implementing features across frontend and backend, building APIs with U… |
 | [nginx](nginx/) | RepairYourTech | ★ 0 | 48% | L3 | Comprehensive Nginx configuration guide covering server blocks, location matchin… |
 | [moai-lang-python](moai-lang-python/) | mattnigh | ★ 0 | 48% | L3 | Enterprise-grade Python expertise with production patterns for Python 3.13.9, Fa… |
-| [API Fuzzing for Bug Bounty](api-fuzzing-for-bug-bounty/) | PohLee | ★ 0 | 48% | L3 | This skill should be used when the user asks to "test API security", "fuzz APIs"… |
 | [grpc-python](grpc-python/) | majiayu000 | ★ 0 | 48% | L3 | gRPC with Python using grpcio and protobuf for high-performance microservice com… |
 | [api-design-expert](api-design-expert/) | majiayu000 | ★ 0 | 48% | L3 | Expert-level API design principles, REST, GraphQL, versioning, and API best prac… |
 | [moai-lang-unified](moai-lang-unified/) | mattnigh | ★ 0 | 48% | L3 | Unified enterprise programming language skill covering 25+ languages including P… |
@@ -423,6 +565,9 @@
 | [implement-feature](implement-feature/) | lazyoft | ★ 0 | 48% | L2 | Implementa feature nel sistema di fatturazione italiana validando contro normati… |
 | [API Development](api-development/) | majiayu000 | ★ 0 | 48% | L3 | Build REST APIs with proper error handling, status codes, request validation, re… |
 | [spring-validation](spring-validation/) | gazolla | ★ 0 | 48% | L2 | Bean Validation (Jakarta Validation) with Spring Boot. Custom validators, valida… |
+| [arch-performance-optimization](arch-performance-optimization/) | duc01226 | ★ 0 | 48% | L3 | [Architecture] Use when analyzing and improving performance for database queries… |
+| [summarize_text_with_key_details](summarize_text_with_key_details/) | ECNU-ICALK | ★ 0 | 48% | L2 | Summarizes articles or text, presenting key information in a concise format. Ada… |
+| [ynab](ynab/) | Mezzle | ★ 0 | 48% | L3 | Access and manage budgets using the YNAB (You Need A Budget) API. View budgets, … |
 | [visualiser-performance](visualiser-performance/) | event-catalog | ★ 0 | 47% | L3 | React Flow performance rules and review checklist for the @eventcatalog/visualis… |
 | [solidstart-websocket](solidstart-websocket/) | majiayu000 | ★ 0 | 47% | L3 | SolidStart WebSocket: experimental WebSocket endpoints, connection handling, mes… |
 | [solidstart-middleware-auth](solidstart-middleware-auth/) | majiayu000 | ★ 0 | 47% | L3 | SolidStart middleware, sessions, authentication: createMiddleware with onRequest… |
@@ -525,7 +670,6 @@
 | [api-designer](api-designer/) | majiayu000 | ★ 0 | 45% | L3 | Design RESTful or GraphQL APIs with proper conventions. Creates endpoint specifi… |
 | [api-integration](api-integration/) | NeverSight | ★ 0 | 45% | L3 | Consume external APIs with type safety, robust error handling, and production-re… |
 | [api-endpoint-guardian](api-endpoint-guardian/) | majiayu000 | ★ 0 | 45% | L3 | Prevents API endpoint failures through systematic design validation and error ha… |
-| [api-design-principles](api-design-principles/) | B4san | ★ 0 | 45% | L3 | Master REST and GraphQL API design principles to build intuitive, scalable, and … |
 | [api-design](api-design/) | dtbuchholz | ★ 0 | 45% | L2 | This skill provides guidance for designing clean, consistent, and developer-frie… |
 | [api-patterns](api-patterns/) | ruskem1980 | ★ 0 | 45% | L3 | API design principles and decision-making. REST vs GraphQL vs tRPC selection, re… |
 | [api-patterns](api-patterns/) | mustaphaelou | ★ 0 | 45% | L3 | API design principles and decision-making. REST vs GraphQL vs tRPC selection, re… |
@@ -535,7 +679,6 @@
 | [QE Contract Testing](qe-contract-testing/) | proffesor-for-testing | ★ 0 | 45% | L3 | Consumer-driven contract testing for APIs including REST, GraphQL, and event-dri… |
 | [data-fetching-patterns](data-fetching-patterns/) | NeverSight | ★ 0 | 45% | L3 | Explains data fetching strategies including fetch on render, fetch then render, … |
 | [platform-detection](platform-detection/) | majiayu000 | ★ 0 | 45% | L3 | Detect project type and recommend deployment platform. Use when deploying projec… |
-| [api-docs-generator](api-docs-generator/) | majiayu000 | ★ 0 | 45% | L3 | Generate API documentation in OpenAPI/Swagger, Markdown, or Postman Collection f… |
 | [microservices-patterns](microservices-patterns/) | marnec | ★ 0 | 45% | L3 | Design microservices architectures with service boundaries, event-driven communi… |
 | [Architecture Decision Records (ADR)](architecture-decision-records-adr/) | majiayu000 | ★ 0 | 45% | L3 | Documenting significant architectural decisions with context, consequences, and … |
 | [Forge](forge/) | openclaw | ★ 0 | 45% | L3 | Autonomous quality engineering swarm that forges production-ready code through c… |
@@ -665,7 +808,6 @@
 | [distributed postgres](distributed-postgres/) | awslabs | ★ 0 | 45% | L3 | Build with Aurora DSQL - manage schemas, execute queries, and handle migrations … |
 | [django-expert](django-expert/) | MisbahKhan0009 | ★ 0 | 45% | L2 | Expert Django backend development guidance. Use when creating Django models, vie… |
 | [supabase-expert](supabase-expert/) | heyflouai | ★ 0 | 45% | L3 | Advanced Supabase integration specialist for Auth, Database (PostgreSQL/RLS), St… |
-| [api-client-patterns](api-client-patterns/) | majiayu000 | ★ 0 | 45% | L3 | HTTP client patterns, API integration, request/response handling, error handling… |
 | [senior-qa](senior-qa/) | davila7 | ★ 0 | 45% | L3 | Comprehensive QA and testing skill for quality assurance, test automation, and t… |
 | [kustomize-generators](kustomize-generators/) | TheBushidoCollective | ★ 0 | 45% | L3 | Use when generating ConfigMaps and Secrets with Kustomize for Kubernetes configu… |
 | [arch-microservices](arch-microservices/) | alphaonedev | ★ 0 | 45% | L2 | Microservices: decomposition, API gateway Kong/Traefik, service mesh Istio, circ… |
@@ -709,6 +851,10 @@
 | [fullstack-template-generator](fullstack-template-generator/) | prajkarne-bbsi | ★ 0 | 45% | L3 | Generates production-ready fullstack applications with Python FastAPI backend an… |
 | [bitbucket-server](bitbucket-server/) | majiayu000 | ★ 0 | 45% | L3 | This skill enables interaction with BitBucket Server REST API for Pull Request m… |
 | [migrating-json-schemas](migrating-json-schemas/) | zaggino | ★ 0 | 45% | L3 | Migrates JSON Schemas between draft versions for use with z-schema. Use when the… |
+| [go-functional-options](go-functional-options/) | rondevz | ★ 0 | 45% | L2 | The functional options pattern for Go constructors and public APIs. Use when des… |
+| [spring-boot-project-creator](spring-boot-project-creator/) | giuseppe-trisciuoglio | ★ 0 | 45% | L3 | Creates and scaffolds a new Spring Boot project (3.x or 4.x) by downloading from… |
+| [implementing-api-patterns](implementing-api-patterns/) | majiayu000 | ★ 0 | 45% | L3 | API design and implementation across REST, GraphQL, gRPC, and tRPC patterns. Use… |
+| [mermaid-diagram-generator](mermaid-diagram-generator/) | monkey1sai | ★ 0 | 45% | L3 | Creates Mermaid diagrams for flowcharts, sequence diagrams, ERDs, and architectu… |
 | [Fastify Rest Api](fastify-rest-api/) | AmnadTaowsoam | ★ 0 | 44% | L3 | Fastify is a high-performance Node.js web framework focused on speed |
 | [Data Contracts](data-contracts/) | AmnadTaowsoam | ★ 0 | 44% | L3 | A Data Contract is a formal agreement between a data producer (e.g., |
 | [Nestjs Patterns](nestjs-patterns/) | AmnadTaowsoam | ★ 0 | 44% | L3 | NestJS is a progressive Node.js framework built with TypeScript, designed |
@@ -782,6 +928,8 @@
 | [moai-lang-python](moai-lang-python/) | majiayu000 | ★ 0 | 44% | L3 | Enterprise-grade Python expertise with production patterns for Python |
 | [LAYER_04_APP](layer_04_app/) | tinkermonkey | ★ 0 | 44% | L3 | Expert knowledge for Application Layer modeling in Documentation Robotics |
 | [backend](backend/) | bulbulogludemir | ★ 0 | 44% | L3 | API, database, server logic, webhooks. Auto-use for any API/DB work. |
+| [senior-java](senior-java/) | arielperez82 | ★ 0 | 44% | L3 | World-class Java and Spring Boot development skill for enterprise applications, |
+| [senior-dotnet](senior-dotnet/) | arielperez82 | ★ 0 | 44% | L3 | World-class C# and .NET development skill for enterprise applications, |
 | [Schema Evolution Impact Analysis](schema-evolution-impact-analysis/) | cdalsoniii | ★ 0 | 43% | L2 | Analyze the impact of model/schema changes on downstream code — affected reposit… |
 | [vercel-kv-database-rules](vercel-kv-database-rules/) | oimiragieo | ★ 0 | 43% | L3 | Defines how to interact with Vercel's KV database for storing and retrieving ses… |
 | [pre-configured-apis-rules](pre-configured-apis-rules/) | majiayu000 | ★ 0 | 43% | L3 | Rules for using pre-configured APIs in the project, using them only if they are … |
@@ -789,6 +937,7 @@
 | [drizzle-orm-rules](drizzle-orm-rules/) | majiayu000 | ★ 0 | 43% | L3 | Rules for using Drizzle ORM within the `src/lib/db` directory. Ensures consisten… |
 | [rust-actor](rust-actor/) | majiayu000 | ★ 0 | 43% | L2 | Actor 模型专家。处理 Actor 死锁, 消息传递, 状态管理, supervision, 容错, Actix, Erlang 风格并发 |
 | [restcontroller-conventions](restcontroller-conventions/) | oimiragieo | ★ 0 | 43% | L3 | Specifies standards for RestController classes, including API route mappings, HT… |
+| [tech-stack](tech-stack/) | oimiragieo | ★ 0 | 43% | L3 | Specifies the technologies to be used for backend development, including Node.js… |
 | [api-design](api-design/) | jsmithdenverdev | ★ 0 | 41% | L3 | RESTful and GraphQL API design principles, patterns, and best practices |
 | [database-advanced-optimization](database-advanced-optimization/) | majiayu000 | ★ 0 | 41% | L3 | Use SQL (PostgreSQL) when: |
 | [database-advanced-optimization](database-advanced-optimization/) | majiayu000 | ★ 0 | 41% | L3 | Use SQL (PostgreSQL) when: |
@@ -807,7 +956,6 @@
 | [upgrade-stripe](upgrade-stripe/) | stripe | ★ 0 | 41% | L3 | Guide for upgrading Stripe API versions and SDKs |
 | [create-ticket](create-ticket/) | majiayu000 | ★ 0 | 41% | L3 | Create implementation tickets with proper format and conventions. |
 | [api-mock](api-mock/) | majiayu000 | ★ 0 | 41% | L3 | Generate API mocks and stub servers from OpenAPI specs or code analysis |
-| [api-examples](api-examples/) | majiayu000 | ★ 0 | 41% | L3 | Generate API usage examples and tutorials from code analysis |
 | [faion-api-developer](faion-api-developer/) | NeverSight | ★ 0 | 41% | L3 | API development: REST, GraphQL, OpenAPI, versioning, auth, rate limiting. |
 | [api-architecture](api-architecture/) | majiayu000 | ★ 0 | 41% | L3 | Target API paradigm |
 | [api-design-and-versioning](api-design-and-versioning/) | majiayu000 | ★ 0 | 41% | L2 | Design REST/GraphQL APIs with versioning and deprecation strategy. |
@@ -815,7 +963,6 @@
 | [faion-backend-systems](faion-backend-systems/) | majiayu000 | ★ 0 | 41% | L3 | Systems backends: Go, Rust, databases, caching. |
 | [api-integration](api-integration/) | huhuimike85 | ★ 0 | 41% | L3 | API 集成和设计最佳实践。用于设计、实现和优化 RESTful API、GraphQL API 或其他 API 集成。包括错误处理、认证、限流、版本控制等。 |
 | [django-pro](django-pro/) | javiertarazon | ★ 0 | 41% | L2 | Master Django 5.x with async views, DRF, Celery, and Django |
-| [database-admin](database-admin/) | majiayu000 | ★ 0 | 41% | L2 | Expert database administrator specializing in modern cloud |
 | [create-spring-boot-java-project](create-spring-boot-java-project/) | github | ★ 0 | 41% | L3 | Create Spring Boot Java Project Skeleton |
 | [database-connect](database-connect/) | majiayu000 | ★ 0 | 41% | L3 | Database MCP server integration for PostgreSQL, MySQL, MongoDB |
 | [Database](database/) | majiayu000 | ★ 0 | 41% | L3 | ทำงานกับ PostgreSQL และ MongoDB อย่างมีประสิทธิภาพ |
@@ -841,6 +988,7 @@
 | [nodejs](nodejs/) | kprsnt2 | ★ 0 | 40% | L2 | Node.js server development patterns including async patterns, error handling, an… |
 | [Migration Planner](migration-planner/) | cdalsoniii | ★ 0 | 39% | L2 | Plan safe, zero-downtime migrations for schemas, services, and infrastructure |
 | [Schema Migration](schema-migration/) | cdalsoniii | ★ 0 | 39% | L2 | Create safe, zero-downtime schema migrations with rollback procedures |
+| [form-and-actions-in-sveltekit](form-and-actions-in-sveltekit/) | oimiragieo | ★ 0 | 39% | L3 | Describes Form and Actions implementations. |
 | [nodejs-backend-patterns](nodejs-backend-patterns/) | ranbot-ai | ★ 0 | 38% | L2 | Build production-ready Node.js backend services with Express/Fastify, implementi… |
 | [web-backend-builder](web-backend-builder/) | 0x-Professor | ★ 0 | 38% | L3 | Scaffold backend API, data models, ORM setup, and endpoint inventory with OpenAP… |
 | [a2a-sdk](a2a-sdk/) | xuziqiang98 | ★ 0 | 38% | L3 | Comprehensive Agent2Agent (A2A) JavaScript SDK skill for building A2A-compliant … |
@@ -856,6 +1004,7 @@
 | [Golang Security](golang-security/) | HoangNguyen0403 | ★ 0 | 38% | L2 | Security standards for Go backend services (Input Validation, Crypto, SQL Inject… |
 | [github-mcp-server](github-mcp-server/) | github | ★ 0 | 38% | L2 | GitHub MCP Server Documentation |
 | [command-management](command-management/) | mattnigh | ★ 0 | 38% | L2 | Use PROACTIVELY this skill when you need to create or update custom commands fol… |
+| [go-backend-scalability-cursorrules-prompt-file-cursorrules](go-backend-scalability-cursorrules-prompt-file-cursorrules/) | Tryboy869 | ★ 0 | 38% | L3 | Apply for go-backend-scalability-cursorrules-prompt-file. --- description: Gener… |
 | [who_dis_network_scanner](who_dis_network_scanner/) | kkian481718 | ★ 0 | 37% | L3 | AI 驅動的本地網絡掃描器與安全分析工具 (Local Network Scanner and AI Security Analyzer) |
 | [superteam-writing-plans](superteam-writing-plans/) | coctostan | ★ 0 | 36% | L3 | Create structured implementation plans with machine-parseable task blocks |
 | [notion](notion/) | refly-ai | ★ 0 | 35% | L3 | Integrate with Notion for knowledge management and collaboration. Use when you n… |
@@ -874,9 +1023,13 @@
 | [api-design](api-design/) | kcenon | ★ 0 | 32% | L2 | Provides API design guidelines for REST, GraphQL, versioning, logging, observabi… |
 | [fusion-api](fusion-api/) | majiayu000 | ★ 0 | 32% | L3 | Design and compare alternative API shapes; use when deciding on endpoints, reque… |
 | [python-patterns](python-patterns/) | Zate | ★ 0 | 32% | L2 | This skill should be used for Python idioms, type hints, async/await, pytest, Dj… |
+| [go-servemux-rest-api-cursorrules-prompt-file](go-servemux-rest-api-cursorrules-prompt-file/) | Tryboy869 | ★ 0 | 32% | L2 | Apply for go-servemux-rest-api-cursorrules-prompt-file. --- description: This ru… |
+| [laravel-tall-stack-best-practices-cursorrules-prom-cursorrules](laravel-tall-stack-best-practices-cursorrules-prom-cursorrules/) | Tryboy869 | ★ 0 | 32% | L2 | Apply for laravel-tall-stack-best-practices-cursorrules-prom. --- description: L… |
 | [self-improvement](self-improvement/) | jason-easyazz | ★ 0 | 31% | L2 | Zoe's self-improvement system - learns from corrections and user preferences |
 | [agentuity-cli-cloud-apikey-get](agentuity-cli-cloud-apikey-get/) | majiayu000 | ★ 0 | 29% | L3 | Get a specific API key by id. Requires authentication. Use for Agentuity cloud p… |
 | [python-v3.14](python-v3.14/) | GoldenPanda1104 | ★ 0 | 28% | L2 | Python 3.14 / FastAPI. Proyecto usa este skill; contenido canónico en .ai-system… |
+| [python-fastapi-scalable-api-cursorrules-prompt-fil](python-fastapi-scalable-api-cursorrules-prompt-fil/) | Tryboy869 | ★ 0 | 26% | L2 | Apply for python-fastapi-scalable-api-cursorrules-prompt-fil. --- description: D… |
+| [python-django-best-practices-cursorrules-prompt-fi](python-django-best-practices-cursorrules-prompt-fi/) | Tryboy869 | ★ 0 | 26% | L2 | Apply for python-django-best-practices-cursorrules-prompt-fi. --- description: C… |
 | [playerhoods-database](playerhoods-database/) | dongsis | ★ 0 | 25% | L1 | Authoritative database governance, schema, and RPC invariant model for playerhoo… |
 | [platform-backend](platform-backend/) | majiayu000 | ★ 0 | 22% | L1 | Server-side architecture and security patterns. Extends core-coding-standards wi… |
 

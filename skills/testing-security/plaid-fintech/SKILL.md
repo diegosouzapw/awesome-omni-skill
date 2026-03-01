@@ -1,9 +1,7 @@
 ---
 name: plaid-fintech
-description: "Expert patterns for Plaid API integration including Link token flows, transactions sync, identity verification, Auth for ACH, balance checks, webhook handling, and fintech compliance best practices..."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
-date_added: "2026-02-27"
+description: "Expert patterns for Plaid API integration including Link token flows, transactions sync, identity verification, Auth for ACH, balance checks, webhook handling, and fintech compliance best practices. Use when: plaid, bank account linking, bank connection, ach, account aggregation."
+source: vibeship-spawner-skills (Apache 2.0)
 ---
 
 # Plaid Fintech
@@ -50,6 +48,3 @@ Listen for PENDING_DISCONNECT webhook to proactively prompt users.
 | Issue | medium | See docs |
 | Issue | medium | See docs |
 | Issue | medium | See docs |
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.

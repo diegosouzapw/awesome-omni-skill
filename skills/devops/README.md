@@ -1,6 +1,6 @@
 # 📂 devops
 
-> 1,252 skills in this category
+> 1,302 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -27,6 +27,7 @@
 | [cloudpress-automation](cloudpress-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Cloudpress tasks via Rube MCP (Composio). Always search tools first for… |
 | [docker_hub-automation](docker_hub-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Docker Hub tasks via Rube MCP (Composio): repositories, images, tags, a… |
 | [Docker Hub Automation](docker-hub-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Docker Hub operations -- manage organizations, repositories, teams, mem… |
+| [cloudflare-workers-expert](cloudflare-workers-expert/) | sickn33 | ★ 17.3k | 95% | L3 | Expert in Cloudflare Workers and the Edge Computing ecosystem. Covers Wrangler, … |
 | [vercel-deployment](vercel-deployment/) | sickn33 | ★ 16.9k | 95% | L3 | Expert knowledge for deploying to Vercel with Next.js Use when: vercel, deploy, … |
 | [game-art](game-art/) | sickn33 | ★ 16.9k | 95% | L2 | Game art principles. Visual style selection, asset pipeline, animation workflow. |
 | [uv-package-manager](uv-package-manager/) | sickn33 | ★ 16.9k | 88% | L2 | Master the uv package manager for fast Python dependency management, virtual env… |
@@ -43,7 +44,6 @@
 | [service-mesh-observability](service-mesh-observability/) | sickn33 | ★ 16.7k | 95% | L3 | Implement comprehensive observability for service meshes including distributed t… |
 | [observability-monitoring-monitor-setup](observability-monitoring-monitor-setup/) | sickn33 | ★ 16.7k | 88% | L2 | You are a monitoring and observability expert specializing in implementing compr… |
 | [observability-monitoring-slo-implement](observability-monitoring-slo-implement/) | sickn33 | ★ 16.7k | 88% | L2 | You are an SLO (Service Level Objective) expert specializing in implementing rel… |
-| [cloudflare-workers-expert](cloudflare-workers-expert/) | sickn33 | ★ 16.7k | 95% | L3 | Expert in Cloudflare Workers and the Edge Computing ecosystem. Covers Wrangler, … |
 | [aws-cost-optimizer](aws-cost-optimizer/) | sickn33 | ★ 16.7k | 95% | L3 | Comprehensive AWS cost analysis and optimization recommendations using AWS CLI a… |
 | [aws-penetration-testing](aws-penetration-testing/) | sickn33 | ★ 16.7k | 95% | L3 | This skill should be used when the user asks to \"pentest AWS\", \"test AWS secu… |
 | [aws-serverless](aws-serverless/) | sickn33 | ★ 16.7k | 95% | L3 | Specialized skill for building production-ready serverless applications on AWS. … |
@@ -183,7 +183,18 @@
 | [expo-deployment](expo-deployment/) | sickn33 | ★ 15.4k | 81% | L2 | Deploy Expo apps to production |
 | [aws-skills](aws-skills/) | sickn33 | ★ 15.4k | 72% | L2 | AWS development with infrastructure automation and cloud architecture patterns |
 | [claude-scientific-skills](claude-scientific-skills/) | sickn33 | ★ 15.4k | 69% | L2 | Scientific research and analysis skills |
-| [aesthetic-usability-effect](aesthetic-usability-effect/) | majiayu000 | ★ 94 | 80% | L2 | Los usuarios perciben los diseños estéticamente atractivos como más usables que … |
+| [agent-deployment-pipeline](agent-deployment-pipeline/) | majiayu000 | ★ 95 | 77% | L3 | Implement CI/CD pipelines for AI agent deployment with evaluation gates. Use for… |
+| [agent-mlops](agent-mlops/) | majiayu000 | ★ 95 | 77% | L3 | Production deployment and operationalization of AI agents on Databricks. Use whe… |
+| [agent-ops-docker-review](agent-ops-docker-review/) | majiayu000 | ★ 95 | 77% | L3 | Docker image reviews, optimization, and step-building guidance. Analyzes Dockerf… |
+| [agent-deployment-engineer](agent-deployment-engineer/) | majiayu000 | ★ 95 | 70% | L2 | Expert deployment engineer specializing in CI/CD pipelines, release automation, … |
+| [agent-devops-engineer](agent-devops-engineer/) | majiayu000 | ★ 95 | 70% | L2 | Expert DevOps engineer bridging development and operations with comprehensive au… |
+| [agent-kubernetes-specialist](agent-kubernetes-specialist/) | majiayu000 | ★ 95 | 70% | L2 | Expert Kubernetes specialist mastering container orchestration, cluster manageme… |
+| [agent-terraform-engineer](agent-terraform-engineer/) | majiayu000 | ★ 95 | 70% | L2 | Expert Terraform engineer specializing in infrastructure as code, multi-cloud pr… |
+| [agent-customer-success-manager](agent-customer-success-manager/) | majiayu000 | ★ 95 | 64% | L2 | Expert customer success manager specializing in customer retention, growth, and … |
+| [agent-iot-engineer](agent-iot-engineer/) | majiayu000 | ★ 95 | 64% | L2 | Expert IoT engineer specializing in connected device architectures, edge computi… |
+| [agent-mlops-engineer](agent-mlops-engineer/) | majiayu000 | ★ 95 | 64% | L2 | Expert MLOps engineer specializing in ML infrastructure, platform engineering, a… |
+| [agent-network-engineer](agent-network-engineer/) | majiayu000 | ★ 95 | 64% | L2 | Expert network engineer specializing in cloud and hybrid network architectures, … |
+| [agent-search-specialist](agent-search-specialist/) | majiayu000 | ★ 95 | 64% | L2 | Expert search specialist mastering advanced information retrieval, query optimiz… |
 | [affordances](affordances/) | majiayu000 | ★ 94 | 80% | L2 | Las affordances son propiedades de un objeto que sugieren cómo puede ser usado. … |
 | [acc-create-specification](acc-create-specification/) | majiayu000 | ★ 94 | 77% | L2 | Generates DDD Specification for PHP 8.5. Creates reusable business rule objects … |
 | [acc-event-sourcing-knowledge](acc-event-sourcing-knowledge/) | majiayu000 | ★ 94 | 77% | L2 | Event Sourcing knowledge base. Provides patterns, antipatterns, and PHP-specific… |
@@ -243,6 +254,11 @@
 | [aesthetic-usability-effect](aesthetic-usability-effect/) | majiayu000 | ★ 2 | 67% | L2 | Los usuarios perciben los diseños estéticamente atractivos como más usables que … |
 | [affordances](affordances/) | majiayu000 | ★ 2 | 67% | L2 | Las affordances son propiedades de un objeto que sugieren cómo puede ser usado. … |
 | [aks-deployment-troubleshooter](aks-deployment-troubleshooter/) | majiayu000 | ★ 2 | 67% | L3 | Diagnose and fix Kubernetes deployment failures, especially ImagePullBackOff, Cr… |
+| [android-playstore-setup](android-playstore-setup/) | majiayu000 | ★ 2 | 67% | L3 | Complete Play Store setup - orchestrates scanning, privacy policy, version manag… |
+| [android-workflow-internal](android-workflow-internal/) | majiayu000 | ★ 2 | 67% | L3 | Generate GitHub Actions workflows for CI and internal testing track deployment (… |
+| [ansible-expert](ansible-expert/) | majiayu000 | ★ 2 | 67% | L3 | Expert-level Ansible for configuration management, automation, and infrastructur… |
+| [ansible-fix](ansible-fix/) | majiayu000 | ★ 2 | 67% | L3 | ALWAYS use this skill immediately after running 'ansible-galaxy init' to create … |
+| [Wireshark Network Traffic Analysis](wireshark-network-traffic-analysis/) | majiayu000 | ★ 2 | 67% | L2 | This skill should be used when the user asks to "analyze network traffic with Wi… |
 | [adapter-configurator](adapter-configurator/) | majiayu000 | ★ 2 | 64% | L3 | Activate when users need help setting up, configuring, or troubleshooting LimaCh… |
 | [add-node](add-node/) | majiayu000 | ★ 2 | 64% | L3 | Add a new node to the Kubernetes cluster. Use when connecting new hardware, expa… |
 | [adf-master](adf-master/) | majiayu000 | ★ 2 | 64% | L3 | Comprehensive Azure Data Factory knowledge base with official documentation sour… |
@@ -283,8 +299,30 @@
 | [analyze-state](analyze-state/) | majiayu000 | ★ 2 | 64% | L3 | Terraform state を分析・操作する。「state 確認」「state list」「state show」「リソース一覧」「state の移動」「s… |
 | [analyzing-financial-statements](analyzing-financial-statements/) | majiayu000 | ★ 2 | 64% | L3 | This skill calculates key financial ratios and metrics from financial statement … |
 | [analyzing-pricing](analyzing-pricing/) | majiayu000 | ★ 2 | 64% | L2 | Analyzes pricing strategies, competitive pricing benchmarks, pricing models, val… |
+| [analyzing-source](analyzing-source/) | majiayu000 | ★ 2 | 64% | L2 | Conducts in-depth analysis of a specific source or topic, producing comprehensiv… |
+| [ancient-greek](ancient-greek/) | majiayu000 | ★ 2 | 64% | L2 | Master Ancient Greek philosophical methods, vocabulary, and debates. Use for: So… |
+| [android-deploy-usb](android-deploy-usb/) | majiayu000 | ★ 2 | 64% | L3 | Build and deploy Android app to connected device via USB. Fast deployment (~2-5 … |
+| [android-screen-capture](android-screen-capture/) | majiayu000 | ★ 2 | 64% | L3 | Start Android screen mirroring using scrcpy. Displays device screen in real-time… |
+| [ansible-automation](ansible-automation/) | majiayu000 | ★ 2 | 64% | L3 | Infrastructure automation and configuration management using Ansible playbooks, … |
+| [ansible-coder](ansible-coder/) | majiayu000 | ★ 2 | 64% | L3 | This skill guides writing Ansible playbooks for server configuration. Use when h… |
+| [ansible-deployment](ansible-deployment/) | majiayu000 | ★ 2 | 64% | L2 | Automates server configuration and multi-server deployments. Use when writing An… |
+| [ansible-dev-setup](ansible-dev-setup/) | majiayu000 | ★ 2 | 64% | L3 | Generate and manage cross-platform Ansible playbooks for development environment… |
+| [ansible-host-limiter](ansible-host-limiter/) | majiayu000 | ★ 2 | 64% | L3 | Ensures ansible and ansible-playbook commands always include the -l (limit) flag… |
+| [ansible-inventory](ansible-inventory/) | majiayu000 | ★ 2 | 64% | L3 | Use when managing hosts and groups in Ansible inventory for organizing infrastru… |
+| [ansible-automation](ansible-automation/) | majiayu000 | ★ 2 | 64% | L3 | Configuration management with Ansible. Use when automating server setup, applica… |
+| [ansible-playbook](ansible-playbook/) | majiayu000 | ★ 2 | 64% | L2 | Write and review Ansible playbooks following best practices. Use when the user s… |
+| [ansible-roles](ansible-roles/) | majiayu000 | ★ 2 | 64% | L3 | Use when structuring and reusing code with Ansible roles for modular, maintainab… |
+| [ansible-testinfra](ansible-testinfra/) | majiayu000 | ★ 2 | 64% | L3 | Bootstrap minimal testinfra pytest suite for an Ansible role and remind to run v… |
+| [ansible-workflow](ansible-workflow/) | majiayu000 | ★ 2 | 64% | L3 | Ansible automation workflow guidelines. Activate when working with Ansible playb… |
+| [aws-serverless](aws-serverless/) | majiayu000 | ★ 2 | 64% | L3 | Specialized skill for building production-ready serverless applications on AWS. … |
+| [docker-expert](docker-expert/) | majiayu000 | ★ 2 | 64% | L3 | Docker containerization expert with deep knowledge of multi-stage builds, image … |
+| [gitops-workflow](gitops-workflow/) | majiayu000 | ★ 2 | 64% | L3 | Implement GitOps workflows with ArgoCD and Flux for automated, declarative Kuber… |
 | [AI Integration Specialist](ai-integration-specialist/) | majiayu000 | ★ 2 | 63% | L2 | Integrate AI tools and APIs into business workflows and applications |
 | [alife](alife/) | majiayu000 | ★ 2 | 63% | L3 | Comprehensive Artificial Life skill combining ALIFE2025 proceedings, |
+| [android-ci-tests](android-ci-tests/) | majiayu000 | ★ 2 | 63% | L3 | Setup GitHub Actions workflow for running Android tests in CI |
+| [android-espresso-dependencies](android-espresso-dependencies/) | majiayu000 | ★ 2 | 63% | L3 | Add Espresso and AndroidX Test dependencies to Android project |
+| [android-fastlane-setup](android-fastlane-setup/) | majiayu000 | ★ 2 | 63% | L3 | Setup Fastlane for Play Store deployment with supply and screengrab |
+| [android-playstore-pipeline](android-playstore-pipeline/) | majiayu000 | ★ 2 | 63% | L3 | Complete end-to-end Android Play Store deployment pipeline setup in one command |
 | [add-k8s-service](add-k8s-service/) | majiayu000 | ★ 2 | 60% | L2 | 往 Kubernetes 集群添加普通服务。当用户请求部署新应用、添加新服务到集群时使用此技能。 |
 | [ado-pipeline-best-practices](ado-pipeline-best-practices/) | majiayu000 | ★ 2 | 60% | L2 | Azure DevOps pipeline best practices, patterns, and industry standards |
 | [advanced-kubernetes](advanced-kubernetes/) | majiayu000 | ★ 2 | 60% | L3 | Custom Resource Definitions (CRDs) extend Kubernetes API with custom |
@@ -314,6 +352,10 @@
 | [ai-response-refiner](ai-response-refiner/) | majiayu000 | ★ 2 | 60% | L3 | AI応答を洗練・改善するスキル。粗い出力を流暢で専門的な文章に変換。構造化、明確化、詳細化、トーン調整、専門性向上、読みやすさ改善を実施。 |
 | [alerting-and-monitoring](alerting-and-monitoring/) | majiayu000 | ★ 2 | 60% | L2 | Define alerts, escalation, and incident response. |
 | [alerting-rules-agent](alerting-rules-agent/) | majiayu000 | ★ 2 | 60% | L2 | Designs and configures alerting rules for monitoring systems |
+| [c4-context](c4-context/) | majiayu000 | ★ 2 | 60% | L2 | Expert C4 Context-level documentation specialist. Creates |
+| [legal-advisor](legal-advisor/) | majiayu000 | ★ 2 | 60% | L2 | Draft privacy policies, terms of service, disclaimers, and legal |
+| [malware-analyst](malware-analyst/) | majiayu000 | ★ 2 | 60% | L2 | Expert malware analyst specializing in defensive malware research, |
+| [mlops-engineer](mlops-engineer/) | majiayu000 | ★ 2 | 60% | L2 | Build comprehensive ML pipelines, experiment tracking, and model |
 | [add-datalake-consumer](add-datalake-consumer/) | majiayu000 | ★ 2 | 57% | L3 | Adds an event consumer that writes to Azure Data Lake (Parquet) following BI_SAL… |
 | [add-exercise](add-exercise/) | majiayu000 | ★ 2 | 57% | L3 | Add a new exercise to vibereps. Use when the user wants to create a new exercise… |
 | [agent-cloud-architect](agent-cloud-architect/) | majiayu000 | ★ 2 | 57% | L2 | Expert cloud architect specializing in multi-cloud strategies, scalable architec… |
@@ -322,6 +364,9 @@
 | [agent-kubernetes-specialist](agent-kubernetes-specialist/) | majiayu000 | ★ 2 | 57% | L2 | Expert Kubernetes specialist mastering container orchestration, cluster manageme… |
 | [agent-terraform-engineer](agent-terraform-engineer/) | majiayu000 | ★ 2 | 57% | L2 | Expert Terraform engineer specializing in infrastructure as code, multi-cloud pr… |
 | [agile-metrics](agile-metrics/) | majiayu000 | ★ 2 | 57% | L2 | Master agile metrics with velocity, burn-down charts, cycle time, and team healt… |
+| [analyzing-specifications](analyzing-specifications/) | majiayu000 | ★ 2 | 57% | L3 | Use when analyzing requirements or project specifications - guides shannon analy… |
+| [ansible-playbooks](ansible-playbooks/) | majiayu000 | ★ 2 | 57% | L2 | Use when writing and organizing Ansible playbooks for automated configuration ma… |
+| [vercel-deployment](vercel-deployment/) | majiayu000 | ★ 2 | 57% | L3 | Expert knowledge for deploying to Vercel with Next.js Use when: vercel, deploy, … |
 | [agile-ceremonies](agile-ceremonies/) | majiayu000 | ★ 2 | 56% | L2 | Agile ceremonies and sprint management specialist. Use when running standups, |
 | [agile-retrospective](agile-retrospective/) | majiayu000 | ★ 2 | 56% | L2 | When facilitating sprint retrospectives or team improvement sessions. |
 | [agentuity-cli-cloud-agent-list](agentuity-cli-cloud-agent-list/) | majiayu000 | ★ 2 | 54% | L2 | List agents for a project. Requires authentication. Use for Agentuity cloud plat… |
@@ -330,12 +375,14 @@
 | [agentuity-cli-cloud-deployment-undeploy](agentuity-cli-cloud-deployment-undeploy/) | majiayu000 | ★ 2 | 54% | L2 | Undeploy the latest deployment. Requires authentication. Use for Agentuity cloud… |
 | [agentuity-cli-cloud-machine-deployments](agentuity-cli-cloud-machine-deployments/) | majiayu000 | ★ 2 | 54% | L2 | List deployments running on a specific organization managed machine. Requires au… |
 | [agentuity-cli-cloud-session-logs](agentuity-cli-cloud-session-logs/) | majiayu000 | ★ 2 | 54% | L2 | Get logs for a specific session. Requires authentication. Use for Agentuity clou… |
+| [ansible-role-init](ansible-role-init/) | majiayu000 | ★ 2 | 53% | L2 | Scaffold a new Ansible role via ansible-galaxy init |
 | [add-knowledge](add-knowledge/) | majiayu000 | ★ 2 | 51% | L2 | Add notes and learnings to Tim's work knowledge base at Spotify from any Claude … |
 | [agent-data-engineer](agent-data-engineer/) | majiayu000 | ★ 2 | 51% | L2 | Expert data engineer specializing in building scalable data pipelines, ETL/ELT p… |
 | [agent-golang-pro](agent-golang-pro/) | majiayu000 | ★ 2 | 51% | L2 | Expert Go developer specializing in high-performance systems, concurrent program… |
 | [agent-iot-engineer](agent-iot-engineer/) | majiayu000 | ★ 2 | 51% | L2 | Expert IoT engineer specializing in connected device architectures, edge computi… |
 | [agent-network-engineer](agent-network-engineer/) | majiayu000 | ★ 2 | 51% | L2 | Expert network engineer specializing in cloud and hybrid network architectures, … |
 | [agent-search-specialist](agent-search-specialist/) | majiayu000 | ★ 2 | 51% | L2 | Expert search specialist mastering advanced information retrieval, query optimiz… |
+| [ansible](ansible/) | majiayu000 | ★ 2 | 45% | L2 | Provides comprehensive guidance for Ansible automation including playbooks, role… |
 | [gitops-workflow](gitops-workflow/) | majiayu000 | ★ 1 | 62% | L3 | Implement GitOps workflows with ArgoCD and Flux for automated, declarative Kuber… |
 | [twelve-factor-app](twelve-factor-app/) | majiayu000 | ★ 1 | 62% | L2 | The Twelve-Factor App methodology for building scalable, maintainable cloud-nati… |
 | [1password-direnv-secrets](1password-direnv-secrets/) | majiayu000 | ★ 1 | 62% | L3 | Configures 1Password CLI with direnv for fast, secure credential loading. Activa… |
@@ -462,7 +509,6 @@
 | [kubernetes-orchestration](kubernetes-orchestration/) | majiayu000 | ★ 0 | 48% | L3 | Comprehensive guide to Kubernetes container orchestration, covering workloads, n… |
 | [devops-engineer](devops-engineer/) | thesaifalitai | ★ 0 | 48% | L2 | Use when setting up CI/CD pipelines, containerizing applications, or managing in… |
 | [mermaid-studio](mermaid-studio/) | tech-leads-club | ★ 0 | 48% | L3 | Expert Mermaid diagram creation, validation, and rendering with dual-engine outp… |
-| [docker-expert](docker-expert/) | Dokhacgiakhoa | ★ 0 | 48% | L3 | Docker containerization expert with deep knowledge of multi-stage builds, image … |
 | [dotnet-ado-patterns](dotnet-ado-patterns/) | rudironsoni | ★ 0 | 48% | L2 | Composes Azure DevOps YAML pipelines. Templates, variable groups, multi-stage, t… |
 | [DevOps Practices](devops-practices/) | majiayu000 | ★ 0 | 48% | L3 | Expertise in deployment automation, container orchestration, and infrastructure … |
 | [cicd-workflows](cicd-workflows/) | justincourses | ★ 0 | 48% | L3 | Helps understand and write EAS workflow YAML files for Expo projects. Use this s… |
@@ -494,6 +540,7 @@
 | [k8s-cilium](k8s-cilium/) | rohitg00 | ★ 0 | 48% | L3 | Cilium and Hubble network observability for Kubernetes. Use when managing networ… |
 | [aws-ecs-monitor](aws-ecs-monitor/) | openclaw | ★ 0 | 48% | L3 | AWS ECS production health monitoring with CloudWatch log analysis — monitors ECS… |
 | [clawgym](clawgym/) | openclaw | ★ 0 | 48% | L2 | Gym for your bot's brain. Simulates endorphin and flow states — triggers on exer… |
+| [devops](devops/) | duc01226 | ★ 0 | 48% | L3 | [DevOps] Deploy and manage cloud infrastructure on Cloudflare (Workers, R2, D1, … |
 | [debugging-dags](debugging-dags/) | astronomer | ★ 0 | 45% | L3 | Comprehensive DAG failure diagnosis and root cause analysis. Use for complex deb… |
 | [scale](scale/) | majiayu000 | ★ 0 | 45% | L3 | Recommend sharding, caching strategies, and read-replication patterns for Cloudf… |
 | [link-deps](link-deps/) | majiayu000 | ★ 0 | 45% | L3 | Discover and link related issues as dependencies. Searches for issues that shoul… |
@@ -1087,6 +1134,9 @@
 | [gitops-practitioner](gitops-practitioner/) | filipemotta | ★ 0 | 45% | L3 | GitOps workflows, Flux, ArgoCD, and declarative infrastructure. Activates when i… |
 | [monitor](monitor/) | sofer | ★ 0 | 45% | L2 | Observe application health and gather feedback after deployment. Use to validate… |
 | [volcano](volcano/) | tylertitsworth | ★ 0 | 45% | L3 | Volcano batch scheduling for Kubernetes — gang scheduling, VolcanoJobs, queue ma… |
+| [aws-solution-architect](aws-solution-architect/) | adamtasteslikegood | ★ 0 | 45% | L3 | Design AWS architectures for startups using serverless patterns and IaC template… |
+| [aws-solution-architect](aws-solution-architect/) | Haseeb-Arshad | ★ 0 | 45% | L3 | Design AWS architectures for startups using serverless patterns and IaC template… |
+| [aws-solution-architect](aws-solution-architect/) | Haseeb-Arshad | ★ 0 | 45% | L3 | Design AWS architectures for startups using serverless patterns and IaC template… |
 | [cloud-devops-expert](cloud-devops-expert/) | majiayu000 | ★ 0 | 44% | L3 | Cloud and DevOps expert including AWS, GCP, Azure, and Terraform |
 | [cloud-devops-expert](cloud-devops-expert/) | NeverSight | ★ 0 | 44% | L3 | Cloud and DevOps expert including AWS, GCP, Azure, and Terraform |
 | [cloud-devops-expert](cloud-devops-expert/) | majiayu000 | ★ 0 | 44% | L3 | Cloud and DevOps expert including AWS, GCP, Azure, and Terraform |

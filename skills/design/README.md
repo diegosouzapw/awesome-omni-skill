@@ -1,6 +1,6 @@
 # 📂 design
 
-> 649 skills in this category
+> 676 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -14,6 +14,7 @@
 | [fluxguard-automation](fluxguard-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Fluxguard tasks via Rube MCP (Composio). Always search tools first for … |
 | [canvas-design](canvas-design/) | ComposioHQ | ★ 37.3k | 95% | L2 | Create beautiful visual art in .png and .pdf documents using design philosophy. … |
 | [brand-guidelines](brand-guidelines/) | ComposioHQ | ★ 37.3k | 88% | L2 | Applies Anthropic's official brand colors and typography to any sort of artifact… |
+| [20-andruia-niche-intelligence](20-andruia-niche-intelligence/) | sickn33 | ★ 17.3k | 95% | L2 | Estratega de Inteligencia de Dominio de Andru.ia. Analiza el nicho específico de… |
 | [game-design](game-design/) | sickn33 | ★ 16.9k | 95% | L2 | Game design principles. GDD structure, balancing, player psychology, progression… |
 | [00-andruia-consultant](00-andruia-consultant/) | sickn33 | ★ 16.9k | 95% | L2 | Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia. Diagnost… |
 | [web-design-guidelines](web-design-guidelines/) | sickn33 | ★ 16.9k | 88% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to \\\"re… |
@@ -24,7 +25,6 @@
 | [telegram-bot-builder](telegram-bot-builder/) | sickn33 | ★ 16.8k | 95% | L3 | Expert in building Telegram bots that solve real problems - from simple automati… |
 | [notion-template-business](notion-template-business/) | sickn33 | ★ 16.7k | 95% | L3 | Expert in building and selling Notion templates as a business - not just making … |
 | [radix-ui-design-system](radix-ui-design-system/) | sickn33 | ★ 16.7k | 95% | L3 | Build accessible design systems with Radix UI primitives. Headless component cus… |
-| [20-andruia-niche-intelligence](20-andruia-niche-intelligence/) | sickn33 | ★ 16.7k | 95% | L2 | Estratega de Inteligencia de Dominio de Andru.ia. Analiza el nicho específico de… |
 | [android-jetpack-compose-expert](android-jetpack-compose-expert/) | sickn33 | ★ 16.7k | 95% | L2 | Expert guidance for building modern Android UIs with Jetpack Compose, covering s… |
 | [avalonia-layout-zafiro](avalonia-layout-zafiro/) | sickn33 | ★ 16.7k | 95% | L2 | Guidelines for modern Avalonia UI layout using Zafiro.Avalonia, emphasizing shar… |
 | [brand-guidelines-anthropic](brand-guidelines-anthropic/) | sickn33 | ★ 16.7k | 95% | L2 | Applies Anthropic's official brand colors and typography to any sort of artifact… |
@@ -71,6 +71,12 @@
 | [code-refactoring-refactor-clean](code-refactoring-refactor-clean/) | sickn33 | ★ 15.4k | 88% | L2 | You are a code refactoring expert specializing in clean code principles, SOLID d… |
 | [codebase-cleanup-refactor-clean](codebase-cleanup-refactor-clean/) | sickn33 | ★ 15.4k | 88% | L2 | You are a code refactoring expert specializing in clean code principles, SOLID d… |
 | [design-md](design-md/) | sickn33 | ★ 15.4k | 95% | L2 | Analyze Stitch projects and synthesize a semantic design system into DESIGN.md f… |
+| [aesthetic-usability-effect](aesthetic-usability-effect/) | majiayu000 | ★ 95 | 80% | L2 | Los usuarios perciben los diseños estéticamente atractivos como más usables que … |
+| [add-uint-support](add-uint-support/) | majiayu000 | ★ 95 | 77% | L2 | Add unsigned integer (uint) type support to PyTorch operators by updating AT_DIS… |
+| [Building Agent Skills](building-agent-skills/) | majiayu000 | ★ 95 | 77% | L2 | Assists in creating Agent Skills of varying complexity levels (simple, moderate,… |
+| [agent-ui-designer](agent-ui-designer/) | majiayu000 | ★ 95 | 64% | L2 | Expert visual designer specializing in creating intuitive, beautiful, and access… |
+| [agent-ux-researcher](agent-ux-researcher/) | majiayu000 | ★ 95 | 64% | L2 | Expert UX researcher specializing in user insights, usability testing, and data-… |
+| [agent-workflow-orchestrator](agent-workflow-orchestrator/) | majiayu000 | ★ 95 | 64% | L2 | Expert workflow orchestrator specializing in complex process design, state machi… |
 | [acc-ddd-knowledge](acc-ddd-knowledge/) | majiayu000 | ★ 94 | 77% | L2 | DDD architecture knowledge base. Provides patterns, antipatterns, and PHP-specif… |
 | [acc-grasp-knowledge](acc-grasp-knowledge/) | majiayu000 | ★ 94 | 77% | L3 | GRASP principles knowledge base for PHP 8.5 projects. Provides quick reference f… |
 | [accessibility-advocate](accessibility-advocate/) | majiayu000 | ★ 94 | 77% | L2 | Use when designing inclusive animations, addressing vestibular disorders and mot… |
@@ -81,7 +87,6 @@
 | [accessibility-planning](accessibility-planning/) | majiayu000 | ★ 94 | 77% | L3 | Plan accessibility compliance - WCAG 2.2, Section 508, EN 301 549, inclusive des… |
 | [accessibility-testing](accessibility-testing/) | majiayu000 | ★ 94 | 77% | L3 | WCAG 2.2 compliance testing, screen reader validation, and inclusive design veri… |
 | [accessibility-wcag](accessibility-wcag/) | majiayu000 | ★ 94 | 77% | L3 | Build accessible web applications following WCAG 2.1/2.2 guidelines with proper … |
-| [add-uint-support](add-uint-support/) | majiayu000 | ★ 94 | 77% | L2 | Add unsigned integer (uint) type support to PyTorch operators by updating AT_DIS… |
 | [adding-animations](adding-animations/) | majiayu000 | ★ 94 | 77% | L2 | Add micro-interactions and animations using Framer Motion. Use when user asks ab… |
 | [adhd-daily-planner](adhd-daily-planner/) | majiayu000 | ★ 94 | 77% | L2 | Time-blind friendly planning, executive function support, and daily structure fo… |
 | [adhd-design-expert](adhd-design-expert/) | majiayu000 | ★ 94 | 77% | L2 | Designs digital experiences for ADHD brains using neuroscience research and UX p… |
@@ -129,6 +134,8 @@
 | [Clarify Epic/Feature/UserStory/Task ticketing guidance in SKILL](clarify-epic-feature-userstory-task-ticketing-guidance-in-skill/) | majiayu000 | ★ 92 | 64% | L2 | Current guidance allows tasks to proliferate without clear Epic/UserStory bounda… |
 | [tmux](tmux/) | abhaymundhara | ★ 4 | 70% | L3 | Remote-control tmux sessions for interactive CLIs by sending keystrokes and scra… |
 | [ai-artist](ai-artist/) | majiayu000 | ★ 2 | 67% | L3 | Generate images via Nano Banana with 129 curated prompts. Mandatory validation i… |
+| [animation-designer](animation-designer/) | majiayu000 | ★ 2 | 67% | L3 | Expert in web animations, transitions, and motion design using Framer Motion and… |
+| [antibody-design-agent](antibody-design-agent/) | majiayu000 | ★ 2 | 67% | L2 | An advanced agent for de novo antibody design and optimization using state-of-th… |
 | [canvas-design](canvas-design/) | majiayu000 | ★ 2 | 64% | L2 | Create beautiful visual art in .png and .pdf documents using design philosophy. … |
 | [accessibility-testing](accessibility-testing/) | majiayu000 | ★ 2 | 64% | L3 | WCAG 2.2 compliance testing, screen reader validation, and inclusive design veri… |
 | [adaptive-rejection-sampler](adaptive-rejection-sampler/) | majiayu000 | ★ 2 | 64% | L2 | Guidance for implementing adaptive rejection sampling (ARS) algorithms for gener… |
@@ -155,14 +162,32 @@
 | [AIR Cryptographer](air-cryptographer/) | majiayu000 | ★ 2 | 64% | L2 | This skill should be used when the user asks about "AIR", "algebraic intermediat… |
 | [algorithm-designer](algorithm-designer/) | majiayu000 | ★ 2 | 64% | L2 | Design and document statistical algorithms with pseudocode and complexity analys… |
 | [analyzing-research-documents](analyzing-research-documents/) | majiayu000 | ★ 2 | 64% | L2 | Extracts high-value insights from research documents, RCAs, design docs, and mem… |
+| [android-ui-compose](android-ui-compose/) | majiayu000 | ★ 2 | 64% | L2 | This skill is used to implement Android UI in Jetpack Compose based on an existi… |
+| [android-ui-design-guide](android-ui-design-guide/) | majiayu000 | ★ 2 | 64% | L2 | Apply Android/Jetpack Compose design principles following Material Design 3 when… |
+| [animation-creator](animation-creator/) | majiayu000 | ★ 2 | 64% | L2 | CSS animation and transition creator. Generates optimized @keyframes, transition… |
+| [animation-principles](animation-principles/) | majiayu000 | ★ 2 | 64% | L3 | Applies Disney's 12 animation principles to UI motion design. Use when improving… |
+| [animations-transitions](animations-transitions/) | majiayu000 | ★ 2 | 64% | L2 | SwiftUI animations, @Animatable macro, withAnimation, transitions, PhaseAnimator… |
+| [ant-design-knowledge-base](ant-design-knowledge-base/) | majiayu000 | ★ 2 | 64% | L3 | Provides comprehensive answers about Ant Design components, documentation, and s… |
+| [ant-design-react](ant-design-react/) | majiayu000 | ★ 2 | 64% | L3 | Provides comprehensive guidance for Ant Design React component library including… |
+| [ant-design](ant-design/) | majiayu000 | ★ 2 | 64% | L3 | Builds enterprise React applications with Ant Design's comprehensive component l… |
+| [anthropic-canvas-design](anthropic-canvas-design/) | majiayu000 | ★ 2 | 64% | L2 | Create beautiful visual art in .png and .pdf documents using design philosophy. … |
+| [anthropic-design-canvas](anthropic-design-canvas/) | majiayu000 | ★ 2 | 64% | L2 | Create beautiful visual art in .png and .pdf documents using design philosophy. … |
+| [anticipation-mastery](anticipation-mastery/) | majiayu000 | ★ 2 | 64% | L2 | Use when designing action sequences, user interactions, state transitions, or an… |
+| [anticipation-payoff](anticipation-payoff/) | majiayu000 | ★ 2 | 64% | L2 | Use when designing action sequences, gags, reveals, or any motion that needs set… |
+| [apache-nifi](apache-nifi/) | majiayu000 | ★ 2 | 64% | L3 | Expert guidance for Apache NiFi data integration platform including flow design,… |
+| [apex-os-design](apex-os-design/) | majiayu000 | ★ 2 | 64% | L3 | Generates premium dark-mode UI for Apex OS wellness app (React Native + Expo 54)… |
 | [adb-uiautomator](adb-uiautomator/) | majiayu000 | ★ 2 | 63% | L3 | Semantic UI element detection via uiautomator2 |
 | [ahu-design](ahu-design/) | majiayu000 | ★ 2 | 60% | L2 | Air Handler Configuration & Sizing Agent |
 | [ahu-qa](ahu-qa/) | majiayu000 | ★ 2 | 60% | L2 | Quality Assurance & Design Validation Agent |
+| [ui-ux-designer](ui-ux-designer/) | majiayu000 | ★ 2 | 60% | L2 | Create interface designs, wireframes, and design systems. Masters |
 | [brand-guidelines](brand-guidelines/) | majiayu000 | ★ 2 | 57% | L2 | Applies Anthropic's official brand colors and typography to any sort of artifact… |
 | [admin-design](admin-design/) | majiayu000 | ★ 2 | 57% | L2 | Minimal, high-clarity admin UI design for this repo. Use when redesigning /admin… |
 | [ahu-thermal](ahu-thermal/) | majiayu000 | ★ 2 | 57% | L2 | Coil Selection & Thermal Design Agent |
+| [android-ux-flows](android-ux-flows/) | majiayu000 | ★ 2 | 57% | L2 | This skill is used to design Android user flows and screen structures that match… |
+| [anthropic-brand-guidelines](anthropic-brand-guidelines/) | majiayu000 | ★ 2 | 57% | L2 | Applies Anthropic's official brand colors and typography to any sort of artifact… |
 | [adoption-playbook](adoption-playbook/) | majiayu000 | ★ 2 | 53% | L2 | Structured guide for designing and executing customer adoption programs. |
 | [advocacy-programs](advocacy-programs/) | majiayu000 | ★ 2 | 53% | L2 | Use when designing and scaling reference, story, advisory, or community |
+| [mermaid-expert](mermaid-expert/) | majiayu000 | ★ 2 | 53% | L2 | Create Mermaid diagrams for flowcharts, sequences, ERDs, and |
 | [adaptive-ux-scheduling](adaptive-ux-scheduling/) | majiayu000 | ★ 2 | 51% | L2 | Adapt UI scheduling behavior dynamically based on runtime conditions and user co… |
 | [advanced-ssr-cache-design](advanced-ssr-cache-design/) | majiayu000 | ★ 2 | 51% | L2 | Engineer SSR caching strategies that preserve correctness under concurrent updat… |
 | [agent-ui-designer](agent-ui-designer/) | majiayu000 | ★ 2 | 51% | L2 | Expert visual designer specializing in creating intuitive, beautiful, and access… |
@@ -534,6 +559,7 @@
 | [design](design/) | neurofoo | ★ 0 | 45% | L2 | Design Thinking process—Empathize, Define, Ideate, Prototype, Test. Use for prod… |
 | [skill-builder-medical](skill-builder-medical/) | adaptationio | ★ 0 | 45% | L2 | Specialized guide for creating Claude Code skills for Dr. Sophia AI medical syst… |
 | [accessibility-by-default](accessibility-by-default/) | noejunior299 | ★ 0 | 45% | L2 | Treats accessibility as a baseline requirement, not a feature. WCAG 2.1/2.2 AA p… |
+| [vibe-techdesign](vibe-techdesign/) | KhazP | ★ 0 | 45% | L2 | Create a Technical Design Document for your MVP. Use when the user wants to plan… |
 | [rams](rams/) | thoreinstein | ★ 0 | 44% | L2 | Run accessibility and visual design review |
 | [root-level-project-instructions](root-level-project-instructions/) | majiayu000 | ★ 0 | 43% | L3 | Root level project guidelines and initial steps to start and implement EEG proce… |
 | [mobile-first-design-rules](mobile-first-design-rules/) | NeverSight | ★ 0 | 43% | L3 | Focuses on rules and best practices for mobile-first design and responsive typog… |
@@ -596,6 +622,7 @@
 | [web-design-guidelines](web-design-guidelines/) | tech-leads-club | ★ 0 | 41% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to "revie… |
 | [qwen_training_data_miner_prototype](qwen_training_data_miner_prototype/) | majiayu000 | ★ 0 | 41% | L3 | Qwen Training Data Miner (Prototype) |
 | [web-design-guidelines](web-design-guidelines/) | skrodrigo | ★ 0 | 41% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked to "revie… |
+| [ui-skills](ui-skills/) | enisbudancamanak | ★ 0 | 41% | L2 | Opinionated constraints for building better interfaces with agents. |
 | [growth-loops](growth-loops/) | NeverSight | ★ 0 | 38% | L2 | Use when asked to "growth loops", "build a growth engine", "design a viral loop"… |
 | [ux-visualizer](ux-visualizer/) | famaoai-creator | ★ 0 | 38% | L2 | Analyzes source code or requirements to generate high-fidelity screen and state … |
 | [epic-ui-guidelines](epic-ui-guidelines/) | majiayu000 | ★ 0 | 38% | L3 | Use this skill when you need to: |

@@ -1,9 +1,6 @@
 ---
 name: bun-development
-description: "Modern JavaScript/TypeScript development with Bun runtime. Covers package management, bundling, testing, and migration from Node.js. Use when working with Bun, optimizing JS/TS development speed, o..."
-risk: unknown
-source: community
-date_added: "2026-02-27"
+description: "Modern JavaScript/TypeScript development with Bun runtime. Covers package management, bundling, testing, and migration from Node.js. Use when working with Bun, optimizing JS/TS development speed, or migrating from Node.js to Bun."
 ---
 
 # ⚡ Bun Development

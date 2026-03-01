@@ -1,6 +1,6 @@
 # 📂 communication
 
-> 49 skills in this category
+> 50 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -23,6 +23,7 @@
 | [ai-doc-writing](ai-doc-writing/) | majiayu000 | ★ 2 | 64% | L3 | This skill should be used when writing, reviewing, or refactoring documentation … |
 | [ai-writing-detection](ai-writing-detection/) | majiayu000 | ★ 2 | 64% | L2 | Comprehensive AI writing detection patterns and methodology. Provides vocabulary… |
 | [amazon-writing](amazon-writing/) | majiayu000 | ★ 2 | 64% | L2 | Use when writing narrative memos, 6-pagers, 1-pagers, press releases, or PRFAQs … |
+| [Announcement Drafter](announcement-drafter/) | majiayu000 | ★ 2 | 63% | L2 | Write clear, impactful company announcements for any audience |
 | [1k-code-quality](1k-code-quality/) | majiayu000 | ★ 1 | 62% | L3 | Code quality standards for OneKey. Use when fixing lint warnings, running pre-co… |
 | [1k-i18n](1k-i18n/) | majiayu000 | ★ 1 | 62% | L3 | Internationalization and translation management for OneKey. Use when adding tran… |
 | [academic-research-writing](academic-research-writing/) | majiayu000 | ★ 1 | 62% | L2 | Use when writing CS research papers (conference, journal, thesis), reviewing sci… |

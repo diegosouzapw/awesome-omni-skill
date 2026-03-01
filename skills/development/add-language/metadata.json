@@ -7,9 +7,9 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/add-language-madeinoz67-madeinoz-knowledge-s/SKILL.md",
+  "file_path": "skills/data/add-language/SKILL.md",
   "source": "github_curated_repos",
-  "stars": 94,
+  "stars": 95,
   "quality_score": 77,
   "best_practices_score": 90,
   "skill_level": 3,
@@ -18,9 +18,9 @@
   "has_extra_files": true,
   "downloads": 0,
   "content_hash": "d9479f136a607ef1441e7c87581b623b4632a2214d1c8672f11739ecedeb8802",
-  "indexed_at": "2026-02-28T00:34:08.984Z",
-  "synced_at": "2026-02-28T03:49:13.884Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/546bf1dc40783266cc8584d60a5bc44c6bed324dc56e2de5f531a66de11ccd66",
-  "install_command": "mkdir -p .claude/skills/add-language && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/add-language-madeinoz67-madeinoz-knowledge-s/SKILL.md\" > .claude/skills/add-language/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/add-language-madeinoz67-madeinoz-knowledge-s/SKILL.md"
+  "indexed_at": "2026-03-01T01:02:14.128Z",
+  "synced_at": "2026-03-01T06:21:02.121Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/5b232a88318075717fe77ec1806f4cb88f001124ff718321d1fffa44a28cc44c",
+  "install_command": "mkdir -p .claude/skills/add-language && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/add-language/SKILL.md\" > .claude/skills/add-language/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/add-language/SKILL.md"
 }

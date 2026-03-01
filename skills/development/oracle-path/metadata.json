@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/other/oracle-path-majiayu000-claude-skill-registr-6fa01f8f/SKILL.md",
+  "file_path": "skills/other/oracle-path-laris-co-nat-agents-core-77018f17/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "f383032eb101633fa357cf751b43895d61ecd61a21b36d130c954c93bac3ead8",
-  "indexed_at": "2026-02-26T19:25:21.313Z",
-  "synced_at": "2026-02-28T03:59:46.648Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/2813ca0f52bf79d66e3a2b7e21378f51780a202f2a10641bfafa53f39bb81332",
-  "install_command": "mkdir -p .claude/skills/oracle-path && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/oracle-path-majiayu000-claude-skill-registr-6fa01f8f/SKILL.md\" > .claude/skills/oracle-path/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/oracle-path-majiayu000-claude-skill-registr-6fa01f8f/SKILL.md"
+  "content_hash": "85a070e7eae315aaea7a445db2ee61a4317ed60a7d80a184566ffe6957a64458",
+  "indexed_at": "2026-03-01T03:51:55.809Z",
+  "synced_at": "2026-03-01T06:21:12.534Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/df24605e408861af9491144a0347850e07f007b58fa3cf09f3c9c3d1ce507308",
+  "install_command": "mkdir -p .claude/skills/oracle-path && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/oracle-path-laris-co-nat-agents-core-77018f17/SKILL.md\" > .claude/skills/oracle-path/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/oracle-path-laris-co-nat-agents-core-77018f17/SKILL.md"
 }

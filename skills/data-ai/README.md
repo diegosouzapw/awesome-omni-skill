@@ -1,6 +1,6 @@
 # 📂 data-ai
 
-> 2,031 skills in this category
+> 2,041 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -195,6 +195,10 @@
 | [fal-workflow](fal-workflow/) | sickn33 | ★ 15.4k | 72% | L2 | Generate workflow JSON files for chaining AI models |
 | [antigravity-workflows](antigravity-workflows/) | sickn33 | ★ 15.4k | 95% | L2 | Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP de… |
 | [beautiful-prose](beautiful-prose/) | sickn33 | ★ 15.4k | 82% | L2 | Hard-edged writing style contract for timeless, forceful English prose without A… |
+| [agent-data-analyst](agent-data-analyst/) | majiayu000 | ★ 95 | 64% | L2 | Expert data analyst specializing in business intelligence, data visualization, a… |
+| [agent-data-engineer](agent-data-engineer/) | majiayu000 | ★ 95 | 64% | L2 | Expert data engineer specializing in building scalable data pipelines, ETL/ELT p… |
+| [agent-data-researcher](agent-data-researcher/) | majiayu000 | ★ 95 | 64% | L2 | Expert data researcher specializing in discovering, collecting, and analyzing di… |
+| [agent-data-scientist](agent-data-scientist/) | majiayu000 | ★ 95 | 64% | L2 | Expert data scientist specializing in statistical analysis, machine learning, an… |
 | [huggingface-accelerate](huggingface-accelerate/) | majiayu000 | ★ 94 | 80% | L3 | Simplest distributed training API. 4 lines to add distributed support to any PyT… |
 | [accept-no-substitutes](accept-no-substitutes/) | majiayu000 | ★ 94 | 80% | L3 | This skill should be used when agents generate placeholder tokens like "pseudo-"… |
 | [acsets-hatchery](acsets-hatchery/) | majiayu000 | ★ 94 | 80% | L2 | Attributed C-Sets as algebraic databases. Category-theoretic data structures gen… |
@@ -419,6 +423,9 @@
 | [analytics-scoping](analytics-scoping/) | majiayu000 | ★ 2 | 64% | L3 | Define the scope of analytics efforts by identifying relevant metrics, data sour… |
 | [analyzing-auto-insurance-data](analyzing-auto-insurance-data/) | majiayu000 | ★ 2 | 64% | L3 | Analyzes vehicle insurance daily reports and signing lists. Use when user asks t… |
 | [analyzing-data](analyzing-data/) | majiayu000 | ★ 2 | 64% | L3 | Queries data warehouse and answers business questions about data. Handles questi… |
+| [anndata](anndata/) | majiayu000 | ★ 2 | 64% | L3 | This skill should be used when working with annotated data matrices in Python, p… |
+| [apache-airflow-orchestration](apache-airflow-orchestration/) | majiayu000 | ★ 2 | 64% | L3 | Complete guide for Apache Airflow orchestration including DAGs, operators, senso… |
+| [apache-spark-data-processing](apache-spark-data-processing/) | majiayu000 | ★ 2 | 64% | L3 | Complete guide for Apache Spark data processing including RDDs, DataFrames, Spar… |
 | [agent-o-rama](agent-o-rama/) | majiayu000 | ★ 2 | 63% | L3 | Layer 4: Learning and Pattern Extraction for Cognitive Surrogate Systems |
 | [agent-safety](agent-safety/) | majiayu000 | ★ 2 | 63% | L3 | Ensure agent safety - guardrails, content filtering, monitoring, and compliance |
 | [analytics-flow](analytics-flow/) | majiayu000 | ★ 2 | 63% | L3 | Analytics and data analysis workflow skill |
@@ -441,6 +448,8 @@
 | [analyze-jgb-insurer-superlong-flow](analyze-jgb-insurer-superlong-flow/) | majiayu000 | ★ 2 | 60% | L3 | 從日本保險公司對超長期（10年以上）JGB 的淨買賣時間序列，自動產出「本月是否創紀錄淨賣出、連續淨賣出月數、期間累積淨賣出」等結論。 |
 | [analyze-silver-miner-metal-ratio](analyze-silver-miner-metal-ratio/) | majiayu000 | ★ 2 | 60% | L3 | 以「銀礦股價格 ÷ 白銀價格」的相對比率衡量礦業股板塊相對於金屬本體的估值區間（偏貴/偏便宜），並用歷史分位數與類比區間推導「底部/頂部」訊號與情境推演。 |
 | [analyze-us-bank-credit-deposit-decoupling](analyze-us-bank-credit-deposit-decoupling/) | majiayu000 | ★ 2 | 60% | L3 | 分析銀行貸款與存款之間的「信貸創造脫鉤」現象，追蹤存款的絕對收縮與回升軌跡，用以辨識聯準會緊縮政策在銀行體系內部的真實傳導效果。 |
+| [data-engineer](data-engineer/) | majiayu000 | ★ 2 | 60% | L2 | Build scalable data pipelines, modern data warehouses, and |
+| [data-scientist](data-scientist/) | majiayu000 | ★ 2 | 60% | L2 | Expert data scientist for advanced analytics, machine learning, and |
 | [add-resource](add-resource/) | majiayu000 | ★ 2 | 57% | L2 | Add new learning resources (books, articles, courses, papers) to the appropriate… |
 | [ads-management](ads-management/) | majiayu000 | ★ 2 | 57% | L2 | Activate for paid advertising campaigns on Google Ads, Meta Ads, LinkedIn Ads, T… |
 | [advanced-math-trading/foundations-core](advanced-math-trading-foundations-core/) | majiayu000 | ★ 2 | 57% | L2 | Probability, moments/tails, Bayes, and statistical learning foundations for syst… |
@@ -1966,6 +1975,7 @@
 | [mock-data](mock-data/) | majiayu000 | ★ 0 | 38% | L3 | Creates typed mock data files in src/data/ following project conventions. Use wh… |
 | [data-triage](data-triage/) | AstorYH | ★ 0 | 38% | L3 | Triage and summarize local data files (CSV/TSV/JSON/JSONL) and plain-text logs w… |
 | [dbt](dbt/) | majiayu000 | ★ 0 | 38% | L2 | dbt (data build tool) patterns for data transformation and analytics engineering… |
+| [vega](vega/) | markdown-viewer | ★ 0 | 38% | L2 | Create data-driven charts with Vega-Lite (simple) and Vega (advanced). Best for … |
 | [data](data/) | pluginagentmarketplace | ★ 0 | 37% | L3 | Room ORM, SQLite, SharedPreferences, DataStore, encryption. |
 | [data](data/) | NeverSight | ★ 0 | 37% | L2 | Room ORM, SQLite, SharedPreferences, DataStore, encryption. |
 | [poml-guide](poml-guide/) | UtakataKyosui | ★ 0 | 36% | L3 | Microsoft POML（Prompt Orchestration Markup Language）の構文、タグリファレンス、 |

@@ -1,23 +1,23 @@
 {
-  "total_skills": 16726,
+  "total_skills": 17448,
   "categories": {
-    "development": 5919,
-    "tools": 2348,
-    "data-ai": 2031,
-    "devops": 1252,
-    "backend": 875,
-    "testing-security": 806,
-    "ai-agents": 694,
-    "design": 649,
-    "cli-automation": 521,
-    "documentation": 352,
-    "frontend": 339,
-    "product": 284,
-    "business": 236,
-    "content-media": 196,
-    "fullstack-web": 112,
-    "machine-learning": 60,
-    "communication": 49,
+    "development": 6023,
+    "tools": 2393,
+    "data-ai": 2041,
+    "devops": 1302,
+    "backend": 1028,
+    "ai-agents": 842,
+    "testing-security": 838,
+    "design": 676,
+    "cli-automation": 551,
+    "frontend": 389,
+    "documentation": 371,
+    "product": 295,
+    "business": 248,
+    "content-media": 202,
+    "fullstack-web": 129,
+    "machine-learning": 67,
+    "communication": 50,
     "uncategorized": 3
   },
   "top_repos": [
@@ -63,12 +63,12 @@
     },
     {
       "repo": "majiayu000/claude-skill-registry",
-      "count": 3002,
+      "count": 3326,
       "stars": 0
     },
     {
       "repo": "majiayu000/claude-skill-registry-data",
-      "count": 3158,
+      "count": 3520,
       "stars": 0
     },
     {
@@ -78,7 +78,7 @@
     },
     {
       "repo": "oimiragieo/agent-studio",
-      "count": 71,
+      "count": 75,
       "stars": 0
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "repo": "NeverSight/skills_feed",
-      "count": 577,
+      "count": 576,
       "stars": 0
     },
     {
@@ -122,6 +122,6 @@
       "stars": 0
     }
   ],
-  "last_sync_at": "2026-03-01T00:35:05.869Z",
+  "last_sync_at": "2026-03-01T06:21:32.803Z",
   "sync_mode": "incremental"
 }

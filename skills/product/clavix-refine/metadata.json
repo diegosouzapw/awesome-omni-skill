@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/clavix-refine/SKILL.md",
+  "file_path": "skills/other/clavix-refine/SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 45,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "b4cb45ddd717291f0b72d90817850a398e2bd69605ef2396869339de2459d63f",
-  "indexed_at": "2026-02-26T04:25:56.226Z",
-  "synced_at": "2026-02-28T04:25:14.167Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a47a175fa9c9b3e314260e1568e6e2553329330762810bb36a13bbd270e908e1",
-  "install_command": "mkdir -p .claude/skills/clavix-refine && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/clavix-refine/SKILL.md\" > .claude/skills/clavix-refine/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/clavix-refine/SKILL.md"
+  "content_hash": "b0f485aebbe321cd99ee17f39d6a7409c98d7e7b37d7c72a69a3a73e83c2948f",
+  "indexed_at": "2026-03-01T03:52:00.477Z",
+  "synced_at": "2026-03-01T06:21:13.987Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a7c797f792a0f84c0337386daeee64e668aba1f118d555d13d372611718e8f2a",
+  "install_command": "mkdir -p .claude/skills/clavix-refine && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/clavix-refine/SKILL.md\" > .claude/skills/clavix-refine/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/clavix-refine/SKILL.md"
 }

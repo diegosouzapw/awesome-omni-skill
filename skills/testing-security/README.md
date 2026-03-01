@@ -1,6 +1,6 @@
 # 📂 testing-security
 
-> 806 skills in this category
+> 838 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -109,6 +109,14 @@
 | [codebase-cleanup-deps-audit](codebase-cleanup-deps-audit/) | sickn33 | ★ 15.4k | 88% | L2 | You are a dependency security expert specializing in vulnerability scanning, lic… |
 | [find-bugs](find-bugs/) | sickn33 | ★ 15.4k | 95% | L2 | Find bugs, security vulnerabilities, and code quality issues in local branch cha… |
 | [fix-review](fix-review/) | sickn33 | ★ 15.4k | 84% | L2 | Verify fix commits address audit findings without new bugs |
+| [agent-ops-reality-audit](agent-ops-reality-audit/) | majiayu000 | ★ 95 | 77% | L2 | Aggressive evidence-based audit to verify project claims match implementation re… |
+| [agent-security-engineer](agent-security-engineer/) | majiayu000 | ★ 95 | 70% | L2 | Expert infrastructure security engineer specializing in DevSecOps, cloud securit… |
+| [agent-dependency-manager](agent-dependency-manager/) | majiayu000 | ★ 95 | 64% | L2 | Expert dependency manager specializing in package management, security auditing,… |
+| [agent-fintech-engineer](agent-fintech-engineer/) | majiayu000 | ★ 95 | 64% | L2 | Expert fintech engineer specializing in financial systems, regulatory compliance… |
+| [agent-penetration-tester](agent-penetration-tester/) | majiayu000 | ★ 95 | 64% | L2 | Expert penetration tester specializing in ethical hacking, vulnerability assessm… |
+| [agent-risk-manager](agent-risk-manager/) | majiayu000 | ★ 95 | 64% | L2 | Expert risk manager specializing in comprehensive risk assessment, mitigation st… |
+| [agent-security-auditor](agent-security-auditor/) | majiayu000 | ★ 95 | 64% | L2 | Expert security auditor specializing in comprehensive security assessments, comp… |
+| [agent-test-automator](agent-test-automator/) | majiayu000 | ★ 95 | 64% | L2 | Expert test automation engineer specializing in building robust test frameworks,… |
 | [acc-create-null-object](acc-create-null-object/) | majiayu000 | ★ 94 | 77% | L2 | Generates Null Object pattern for PHP 8.5. Creates safe default implementations … |
 | [acc-create-policy](acc-create-policy/) | majiayu000 | ★ 94 | 77% | L2 | Generates Policy pattern for PHP 8.5. Creates encapsulated business rules for au… |
 | [acc-create-psr7-http-message](acc-create-psr7-http-message/) | majiayu000 | ★ 94 | 77% | L2 | Generates PSR-7 HTTP Message implementations for PHP 8.5. Creates Request, Respo… |
@@ -166,6 +174,13 @@
 | [Algorithmic Command Enforcement](algorithmic-command-enforcement/) | majiayu000 | ★ 2 | 67% | L2 | Use boolean decision trees instead of imperatives for 100% compliance under pres… |
 | [analyze-test-failures](analyze-test-failures/) | majiayu000 | ★ 2 | 67% | L2 | This skill should be used when the user asks to "analyze failing tests", "debug … |
 | [analyzing-dependencies](analyzing-dependencies/) | majiayu000 | ★ 2 | 67% | L2 | Analyze dependencies for known security vulnerabilities and outdated versions. U… |
+| [analyzing-test-quality](analyzing-test-quality/) | majiayu000 | ★ 2 | 67% | L3 | Automatically activated when user asks about test quality, code coverage, test r… |
+| [android-e2e-testing-setup](android-e2e-testing-setup/) | majiayu000 | ★ 2 | 67% | L3 | Setup UI Automator 2.4 smoke test for validating app launches (works with debug … |
+| [Burp Suite Web Application Testing](burp-suite-web-application-testing/) | majiayu000 | ★ 2 | 67% | L2 | This skill should be used when the user asks to "intercept HTTP traffic", "modif… |
+| [File Path Traversal Testing](file-path-traversal-testing/) | majiayu000 | ★ 2 | 67% | L3 | This skill should be used when the user asks to "test for directory traversal", … |
+| [Pentest Checklist](pentest-checklist/) | majiayu000 | ★ 2 | 67% | L3 | This skill should be used when the user asks to "plan a penetration test", "crea… |
+| [Pentest Commands](pentest-commands/) | majiayu000 | ★ 2 | 67% | L3 | This skill should be used when the user asks to "run pentest commands", "scan wi… |
+| [Security Scanning Tools](security-scanning-tools/) | majiayu000 | ★ 2 | 67% | L3 | This skill should be used when the user asks to "perform vulnerability scanning"… |
 | [ab-test-setup](ab-test-setup/) | majiayu000 | ★ 2 | 64% | L2 | When the user wants to plan, design, or implement an A/B test or experiment. Als… |
 | [accessibility-planning](accessibility-planning/) | majiayu000 | ★ 2 | 64% | L3 | Plan accessibility compliance - WCAG 2.2, Section 508, EN 301 549, inclusive des… |
 | [adb-device-testing](adb-device-testing/) | majiayu000 | ★ 2 | 64% | L3 | Use when testing Android apps on ADB-connected devices/emulators - UI automation… |
@@ -181,13 +196,29 @@
 | [algorand-vulnerability-scanner](algorand-vulnerability-scanner/) | majiayu000 | ★ 2 | 64% | L3 | Scans Algorand smart contracts for 11 common vulnerabilities including rekeying … |
 | [amp-skill-creator](amp-skill-creator/) | majiayu000 | ★ 2 | 64% | L3 | PRIMARY skill creator. Use this by default when creating ANY skill. If user expl… |
 | [analyzing-backtests](analyzing-backtests/) | majiayu000 | ★ 2 | 64% | L2 | Analyzes algorithmic trading backtest results from Jupyter notebooks and generat… |
+| [analyzing-test-effectiveness](analyzing-test-effectiveness/) | majiayu000 | ★ 2 | 64% | L3 | Use to audit test quality with Google Fellow SRE scrutiny - identifies tautologi… |
+| [anchor-expert-2026](anchor-expert-2026/) | majiayu000 | ★ 2 | 64% | L3 | Expert Anchor smart contract development for Solana (January 2026). Use when (1)… |
+| [android-test-runner](android-test-runner/) | majiayu000 | ★ 2 | 64% | L3 | 重要: ユーザーがAndroidテスト実行をリクエストした場合、常にこのスキルを最初に使用してください。以下の場合に必ず使用: run TestName, ex… |
+| [android-unit-test](android-unit-test/) | majiayu000 | ★ 2 | 64% | L2 | Эксперт Android тестирования. Используй для JUnit, Espresso и Android test patte… |
+| [annas-archive-ebooks](annas-archive-ebooks/) | majiayu000 | ★ 2 | 64% | L3 | Use when needing to look up book content, find a book by title/author, download … |
+| [AnnualReports](annualreports/) | majiayu000 | ★ 2 | 64% | L3 | Annual security report aggregation and analysis. USE WHEN annual reports, securi… |
+| [anthropic-doc-coauthoring](anthropic-doc-coauthoring/) | majiayu000 | ★ 2 | 64% | L2 | Guide users through a structured workflow for co-authoring documentation. Use wh… |
+| [pci-compliance](pci-compliance/) | majiayu000 | ★ 2 | 64% | L3 | Implement PCI DSS compliance requirements for secure handling of payment card da… |
+| [playwright-skill](playwright-skill/) | majiayu000 | ★ 2 | 64% | L3 | Complete browser automation with Playwright. Auto-detects dev servers, writes cl… |
+| [slack-bot-builder](slack-bot-builder/) | majiayu000 | ★ 2 | 64% | L3 | Build Slack apps using the Bolt framework across Python, JavaScript, and Java. C… |
 | [AI Safety Auditor](ai-safety-auditor/) | majiayu000 | ★ 2 | 63% | L3 | Audit AI systems for safety, bias, and responsible deployment |
+| [android-additional-tests](android-additional-tests/) | majiayu000 | ★ 2 | 63% | L3 | Optional - Add comprehensive tests beyond the basic smoke test |
+| [android-test-structure](android-test-structure/) | majiayu000 | ★ 2 | 63% | L3 | Create androidTest directory structure with base classes and utilities |
+| [Testing Anti-Patterns](testing-anti-patterns/) | majiayu000 | ★ 2 | 63% | L3 | Common testing mistakes to avoid for reliable, maintainable tests |
+| [API JWT Authenticator](api-jwt-authenticator/) | majiayu000 | ★ 2 | 63% | L2 | A conceptual skill for securing FastAPI REST APIs with JWT authentication |
 | [add-test-coverage](add-test-coverage/) | majiayu000 | ★ 2 | 60% | L2 | Analyze recent changes and add test coverage for HEAD commit |
 | [analyze-test-coverage](analyze-test-coverage/) | majiayu000 | ★ 2 | 60% | L3 | Analyze test coverage gaps and report findings |
 | [analyze-test-results](analyze-test-results/) | majiayu000 | ★ 2 | 60% | L3 | Analyze test failures and CI artifacts to identify and fix bugs |
 | [affiliate-compliance-check](affiliate-compliance-check/) | majiayu000 | ★ 2 | 57% | L3 | Automated compliance checking for affiliate marketing content. Verifies FTC disc… |
 | [agent-security-engineer](agent-security-engineer/) | majiayu000 | ★ 2 | 57% | L2 | Expert infrastructure security engineer specializing in DevSecOps, cloud securit… |
 | [analyzing-crypto-weakness](analyzing-crypto-weakness/) | majiayu000 | ★ 2 | 57% | L2 | Identifies weak cryptographic algorithms, hardcoded keys, and insecure key manag… |
+| [analyzing-session-management](analyzing-session-management/) | majiayu000 | ★ 2 | 57% | L2 | Detects session management vulnerabilities including session fixation, session h… |
+| [plaid-fintech](plaid-fintech/) | majiayu000 | ★ 2 | 57% | L2 | Expert patterns for Plaid API integration including Link token flows, transactio… |
 | [agent-compliance-auditor](agent-compliance-auditor/) | majiayu000 | ★ 2 | 56% | L2 | Validates agent definitions against the Antigravity audit rubric. |
 | [agent-accessibility-tester](agent-accessibility-tester/) | majiayu000 | ★ 2 | 51% | L2 | Expert accessibility tester specializing in WCAG compliance, inclusive design, a… |
 | [agent-dependency-manager](agent-dependency-manager/) | majiayu000 | ★ 2 | 51% | L2 | Expert dependency manager specializing in package management, security auditing,… |
@@ -660,6 +691,7 @@
 | [audit](audit/) | MichaelLeeHobbs | ★ 0 | 45% | L3 | Comma-separated list of audit types (e.g., 'dead-code,pii,soc2') or 'all'. If om… |
 | [solana-program-dev](solana-program-dev/) | moshthepitt | ★ 0 | 45% | L2 | Design, implement, test, and security-review modern Solana programs (native Rust… |
 | [exploratory-testing-advanced](exploratory-testing-advanced/) | mattnigh | ★ 0 | 45% | L3 | Advanced exploratory testing techniques with Session-Based Test Management (SBTM… |
+| [implementing-tls](implementing-tls/) | majiayu000 | ★ 0 | 45% | L3 | Configure TLS certificates and encryption for secure communications. Use when se… |
 | [tinman](tinman/) | Niraven | ★ 0 | 44% | L3 | Security auditing and hardening for OpenClaw and system infrastructure. |
 | [Sharing Skills](sharing-skills/) | majiayu000 | ★ 0 | 44% | L3 | Contribute skills back to upstream via branch and PR |
 | [testing-strategy](testing-strategy/) | mattnigh | ★ 0 | 44% | L3 | Comprehensive guide for implementing AIDB tests following E2E-first philosophy, |

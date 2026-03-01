@@ -1,6 +1,6 @@
 # 📂 product
 
-> 284 skills in this category
+> 295 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -28,6 +28,10 @@
 | [backend-development-feature-development](backend-development-feature-development/) | sickn33 | ★ 15.4k | 95% | L2 | Orchestrate end-to-end backend feature development from requirements to deployme… |
 | [context-driven-development](context-driven-development/) | sickn33 | ★ 15.4k | 94% | L2 | Use this skill when working with Conductor's context-driven |
 | [conductor-implement](conductor-implement/) | sickn33 | ★ 15.4k | 91% | L3 | Execute tasks from a track's implementation plan following TDD workflow |
+| [agent-os-framework](agent-os-framework/) | majiayu000 | ★ 95 | 80% | L3 | Generate standardized .agent-os directory structure with product documentation, … |
+| [agent-ops-spec](agent-ops-spec/) | majiayu000 | ★ 95 | 64% | L2 | Manage specification documents in .agent/specs/. Use when user provides requirem… |
+| [agent-product-manager](agent-product-manager/) | majiayu000 | ★ 95 | 64% | L2 | Expert product manager specializing in product strategy, user-centric developmen… |
+| [agent-project-manager](agent-project-manager/) | majiayu000 | ★ 95 | 64% | L2 | Expert project manager specializing in project planning, execution, and delivery… |
 | [account-executive](account-executive/) | majiayu000 | ★ 94 | 77% | L2 | Эксперт по B2B продажам. Используй для стратегий продаж, работы с enterprise кли… |
 | [advanced-text-search-matching](advanced-text-search-matching/) | majiayu000 | ★ 94 | 77% | L3 | Production-grade text search algorithms for finding and matching text in large d… |
 | [add-new-feature](add-new-feature/) | majiayu000 | ★ 94 | 73% | L2 | SAM-style feature initiation workflow: discovery -> codebase analysis -> archite… |
@@ -67,14 +71,19 @@
 | [analysis](analysis/) | majiayu000 | ★ 2 | 64% | L3 | Analyze feature requirements, dependencies, and security considerations. Use whe… |
 | [analyst](analyst/) | majiayu000 | ★ 2 | 64% | L2 | Gather requirements, perform technical research, and estimate effort/risk. Use f… |
 | [analyze-prd](analyze-prd/) | majiayu000 | ★ 2 | 64% | L2 | Analyze existing PRDs to generate actionable implementation plans, risk assessme… |
+| [analyzing-user-feedback](analyzing-user-feedback/) | majiayu000 | ★ 2 | 64% | L2 | Analyze user/customer feedback and produce a User Feedback Analysis Pack (source… |
+| [anomaly-detection](anomaly-detection/) | majiayu000 | ★ 2 | 64% | L3 | Rule-based anomaly detection for production systems with configurable thresholds… |
+| [android-store-listing](android-store-listing/) | majiayu000 | ★ 2 | 63% | L3 | Create feature graphic and complete store listing metadata |
+| [android-workflow-production](android-workflow-production/) | majiayu000 | ★ 2 | 63% | L3 | Generate GitHub Actions workflows for production deployment with staged rollout |
 | [add-new-feature](add-new-feature/) | majiayu000 | ★ 2 | 60% | L2 | SAM-style feature initiation workflow: discovery -> codebase analysis -> archite… |
 | [adr-roadmap](adr-roadmap/) | majiayu000 | ★ 2 | 60% | L3 | Generate phased implementation roadmaps from Architecture Decision Records |
+| [conductor-setup](conductor-setup/) | majiayu000 | ★ 2 | 60% | L3 | Initialize project with Conductor artifacts (product definition, |
 | [adhd-productivity](adhd-productivity/) | majiayu000 | ★ 2 | 57% | L2 | ADHD-optimized productivity techniques and interventions. Invoke when user shows… |
 | [alto-feature-setup](alto-feature-setup/) | majiayu000 | ★ 2 | 57% | L3 | Use when starting a new feature - running /alto-feature-setup, updating objectiv… |
 | [analyzing-requirements](analyzing-requirements/) | majiayu000 | ★ 2 | 57% | L2 | Helps the user define, refine, and document requirements for new software featur… |
+| [android-product-shaping](android-product-shaping/) | majiayu000 | ★ 2 | 57% | L2 | This skill is used to turn Android app ideas into small, well-bounded product sl… |
 | [agent-ops-spec](agent-ops-spec/) | majiayu000 | ★ 2 | 51% | L2 | Manage specification documents in .agent/specs/. Use when user provides requirem… |
 | [agent-product-manager](agent-product-manager/) | majiayu000 | ★ 2 | 51% | L2 | Expert product manager specializing in product strategy, user-centric developmen… |
-| [agent-ops-spec](agent-ops-spec/) | majiayu000 | ★ 2 | 51% | L2 | Manage specification documents in .agent/specs/. Use when user provides requirem… |
 | [agile-product-owner](agile-product-owner/) | majiayu000 | ★ 2 | 51% | L2 | Agile product ownership toolkit for Senior Product Owner including INVEST-compli… |
 | [agile-product-owner](agile-product-owner/) | majiayu000 | ★ 2 | 51% | L2 | Agile product ownership toolkit for Senior Product Owner including INVEST-compli… |
 | [planning](planning/) | majiayu000 | ★ 1 | 62% | L2 | Universal planning for technical and non-technical projects. Domains: software i… |
@@ -100,6 +109,7 @@
 | [create-prd](create-prd/) | FradSer | ★ 0 | 48% | L2 | This skill should be used when the user asks to "创建PRD", "写产品需求文档", "生成PRD", "新建… |
 | [categorizing-bsky-accounts](categorizing-bsky-accounts/) | oaustegard | ★ 0 | 48% | L3 | Analyze and categorize Bluesky accounts by topic using keyword extraction. Use w… |
 | [categorizing-bsky-accounts](categorizing-bsky-accounts/) | majiayu000 | ★ 0 | 48% | L3 | Analyze and categorize Bluesky accounts by topic using keyword extraction. Use w… |
+| [feature-investigation](feature-investigation/) | duc01226 | ★ 0 | 48% | L3 | [Investigation] Use when the user asks to investigate, explore, understand, expl… |
 | [fresh-eyes](fresh-eyes/) | majiayu000 | ★ 0 | 45% | L3 | Re-reads code you just wrote with fresh perspective to catch bugs, errors, and i… |
 | [epic-management](epic-management/) | majiayu000 | ★ 0 | 45% | L3 | Use for LARGE work requiring feature-level grouping. Creates epic tracking issue… |
 | [meeting-prep](meeting-prep/) | ahmedkhaledmohamed | ★ 0 | 45% | L2 | Meeting preparation assistant for Product Managers. Use when the user needs to p… |
@@ -225,6 +235,8 @@
 | [u01884-handoff-contracting-for-healthcare-operations](u01884-handoff-contracting-for-healthcare-operations/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Handoff Contracting for healthcare operations" capability in produc… |
 | [awesome-copilot-root-atlassian-requirements-to-jira](awesome-copilot-root-atlassian-requirements-to-jira/) | sla-te | ★ 0 | 45% | L2 | Transform requirements documents into structured Jira epics and user stories wit… |
 | [mother-brain](mother-brain/) | super-state | ★ 0 | 45% | L3 | Vision-driven project framework that guides discovery, creates roadmaps, auto-ge… |
+| [clavix-refine](clavix-refine/) | majiayu000 | ★ 0 | 45% | L3 | Iterate on existing PRDs or improved prompts to enhance quality. Use when you ha… |
+| [autonomous-dev-agent](autonomous-dev-agent/) | asmortongpt | ★ 0 | 45% | L3 | Autonomous development agent that orchestrates the complete SDLC from requiremen… |
 | [strict-user-requirements-adherence](strict-user-requirements-adherence/) | majiayu000 | ★ 0 | 43% | L3 | Strictly adheres to specified user flow and game rules, making sure to follow do… |
 | [strict-user-requirements-adherence](strict-user-requirements-adherence/) | majiayu000 | ★ 0 | 43% | L3 | Strictly adheres to specified user flow and game rules, making sure to follow do… |
 | [prioritize-python-3-10-features](prioritize-python-3-10-features/) | oimiragieo | ★ 0 | 43% | L2 | Prioritizes the use of new features available in Python 3.12 and later versions. |
@@ -270,7 +282,6 @@
 | [agent-production-validator](agent-production-validator/) | ruvnet | ★ 0 | 41% | L3 | Agent skill for production-validator - invoke with $agent-production-validator |
 | [ask-questions-if-underspecified](ask-questions-if-underspecified/) | majiayu000 | ★ 0 | 41% | L2 | Clarify requirements before implementing. Use when serious doubts arise. |
 | [configure-feature-flags](configure-feature-flags/) | laurigates | ★ 0 | 41% | L3 | Check and configure feature flag infrastructure (OpenFeature + providers) |
-| [conductor-setup](conductor-setup/) | Sorawittj | ★ 0 | 41% | L3 | Initialize project with Conductor artifacts (product definition, |
 | [project-mngt](project-mngt/) | vladm3105 | ★ 0 | 41% | L2 | Product Owner / Project Manager skill for MVP/MMP/MMR implementation planning |
 | [what-did-i-do](what-did-i-do/) | lout33 | ★ 0 | 38% | L3 | Passive screen activity tracker. Use this skill when the user asks what they did… |
 | [dig](dig/) | tomfordrumm | ★ 0 | 38% | L2 | Investigation-only mode for understanding bugs, features, or system behavior wit… |

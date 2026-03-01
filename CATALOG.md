@@ -1,6 +1,6 @@
 # 📖 Full Skill Catalog
 
-> 16,726 skills, sorted alphabetically.
+> 17,448 skills, sorted alphabetically.
 
 
 ## _
@@ -24,6 +24,7 @@
 | [[invalid yaml with unclosed bracket](skills/data-ai/invalid-yaml-with-unclosed-bracket/) | data-ai | majiayu000 | ★ 0 |
 | [[invalid yaml with unclosed bracket](skills/data-ai/invalid-yaml-with-unclosed-bracket/) | data-ai | majiayu000 | ★ 0 |
 | [[invalid yaml with unclosed bracket](skills/machine-learning/invalid-yaml-with-unclosed-bracket/) | machine-learning | majiayu000 | ★ 0 |
+| [[PROJECT]-api-patterns](skills/backend/project-api-patterns/) | backend | majiayu000 | ★ 2 |
 | [[PROJECT]-deployment-patterns](skills/devops/project-deployment-patterns/) | devops | majiayu000 | ★ 0 |
 | [[Updated] Sweep Through Your Contacts with Speed and Skill](skills/development/updated-sweep-through-your-contacts-with-speed-and-skill/) | development | majiayu000 | ★ 0 |
 | [[Updated] Sweep Through Your Contacts with Speed and Skill](skills/development/updated-sweep-through-your-contacts-with-speed-and-skill/) | development | majiayu000 | ★ 0 |
@@ -153,7 +154,7 @@
 |-------|----------|--------|-------|
 | [2-categorize-files](skills/tools/2-categorize-files/) | tools | majiayu000 | ★ 92 |
 | [2-categorize-files](skills/tools/2-categorize-files/) | tools | majiayu000 | ★ 1 |
-| [20-andruia-niche-intelligence](skills/design/20-andruia-niche-intelligence/) | design | sickn33 | ★ 16.7k |
+| [20-andruia-niche-intelligence](skills/design/20-andruia-niche-intelligence/) | design | sickn33 | ★ 17.3k |
 | [20-understand-goal-150](skills/development/20-understand-goal-150/) | development | majiayu000 | ★ 92 |
 | [20-understand-goal-150](skills/development/20-understand-goal-150/) | development | majiayu000 | ★ 1 |
 | [2000s-visualization-expert](skills/backend/2000s-visualization-expert/) | backend | majiayu000 | ★ 92 |
@@ -221,6 +222,7 @@
 | [3d-web-experience](skills/development/3d-web-experience/) | development | sickn33 | ★ 15.4k |
 | [3d-web-experience](skills/development/3d-web-experience/) | development | majiayu000 | ★ 93 |
 | [3d-web-experience](skills/development/3d-web-experience/) | development | majiayu000 | ★ 2 |
+| [3d-web-experience](skills/fullstack-web/3d-web-experience/) | fullstack-web | majiayu000 | ★ 2 |
 
 ## 4
 
@@ -1036,7 +1038,7 @@
 | [adaptive-ux-scheduling](skills/design/adaptive-ux-scheduling/) | design | majiayu000 | ★ 2 |
 | [adaptive-workflows](skills/tools/adaptive-workflows/) | tools | majiayu000 | ★ 94 |
 | [adaptive-workflows](skills/data-ai/adaptive-workflows/) | data-ai | majiayu000 | ★ 2 |
-| [adaptyv](skills/backend/adaptyv/) | backend | majiayu000 | ★ 94 |
+| [adaptyv](skills/backend/adaptyv/) | backend | majiayu000 | ★ 95 |
 | [adaptyv](skills/development/adaptyv/) | development | majiayu000 | ★ 2 |
 | [adb-android-control](skills/cli-automation/adb-android-control/) | cli-automation | majiayu000 | ★ 94 |
 | [adb-android-control](skills/development/adb-android-control/) | development | majiayu000 | ★ 2 |
@@ -1063,14 +1065,14 @@
 | [adb-uiautomator](skills/design/adb-uiautomator/) | design | majiayu000 | ★ 2 |
 | [adb-workflow-orchestrator](skills/cli-automation/adb-workflow-orchestrator/) | cli-automation | majiayu000 | ★ 94 |
 | [adb-workflow-orchestrator](skills/cli-automation/adb-workflow-orchestrator/) | cli-automation | majiayu000 | ★ 2 |
-| [Add Admin API Endpoint](skills/backend/add-admin-api-endpoint/) | backend | majiayu000 | ★ 94 |
+| [Add Admin API Endpoint](skills/backend/add-admin-api-endpoint/) | backend | majiayu000 | ★ 95 |
 | [Add Admin API Endpoint](skills/development/add-admin-api-endpoint/) | development | majiayu000 | ★ 2 |
 | [Add Model Property](skills/machine-learning/add-model-property/) | machine-learning | majiayu000 | ★ 94 |
 | [Add Model Property](skills/data-ai/add-model-property/) | data-ai | majiayu000 | ★ 2 |
 | [Add prerequisite install script for Python deps (self-contained skill)](skills/data-ai/add-prerequisite-install-script-for-python-deps-self-contained-skill/) | data-ai | majiayu000 | ★ 92 |
 | [Add prerequisite install script for Python deps (self-contained skill)](skills/data-ai/add-prerequisite-install-script-for-python-deps-self-contained-skill/) | data-ai | majiayu000 | ★ 1 |
 | [add_hashtags](skills/ai-agents/add_hashtags/) | ai-agents | yorkjong | ★ 0 |
-| [add_platform](skills/backend/add_platform/) | backend | majiayu000 | ★ 94 |
+| [add_platform](skills/backend/add_platform/) | backend | majiayu000 | ★ 95 |
 | [add_platform](skills/development/add_platform/) | development | majiayu000 | ★ 2 |
 | [add_platform.add_capabilities](skills/backend/add_platform.add_capabilities/) | backend | majiayu000 | ★ 94 |
 | [add_platform.add_capabilities](skills/backend/add_platform.add_capabilities/) | backend | majiayu000 | ★ 94 |
@@ -1174,11 +1176,11 @@
 | [add-k8s-service](skills/devops/add-k8s-service/) | devops | majiayu000 | ★ 2 |
 | [add-knowledge](skills/development/add-knowledge/) | development | majiayu000 | ★ 94 |
 | [add-knowledge](skills/devops/add-knowledge/) | devops | majiayu000 | ★ 2 |
-| [add-language](skills/development/add-language/) | development | majiayu000 | ★ 94 |
+| [add-language](skills/development/add-language/) | development | majiayu000 | ★ 95 |
 | [add-language](skills/design/add-language/) | design | majiayu000 | ★ 2 |
 | [add-lesson](skills/cli-automation/add-lesson/) | cli-automation | majiayu000 | ★ 94 |
 | [add-lesson](skills/development/add-lesson/) | development | majiayu000 | ★ 2 |
-| [add-malli-schemas](skills/backend/add-malli-schemas/) | backend | majiayu000 | ★ 94 |
+| [add-malli-schemas](skills/backend/add-malli-schemas/) | backend | majiayu000 | ★ 95 |
 | [add-malli-schemas](skills/development/add-malli-schemas/) | development | majiayu000 | ★ 2 |
 | [add-manual-debt](skills/documentation/add-manual-debt/) | documentation | majiayu000 | ★ 94 |
 | [add-manual-debt](skills/documentation/add-manual-debt/) | documentation | majiayu000 | ★ 2 |
@@ -1275,7 +1277,7 @@
 | [add-test-coverage](skills/testing-security/add-test-coverage/) | testing-security | majiayu000 | ★ 2 |
 | [add-tts](skills/development/add-tts/) | development | majiayu000 | ★ 0 |
 | [add-tts](skills/development/add-tts/) | development | antialias | ★ 0 |
-| [add-uint-support](skills/design/add-uint-support/) | design | majiayu000 | ★ 94 |
+| [add-uint-support](skills/design/add-uint-support/) | design | majiayu000 | ★ 95 |
 | [add-uint-support](skills/design/add-uint-support/) | design | majiayu000 | ★ 2 |
 | [add-unit-tests](skills/testing-security/add-unit-tests/) | testing-security | majiayu000 | ★ 94 |
 | [add-unit-tests](skills/testing-security/add-unit-tests/) | testing-security | majiayu000 | ★ 2 |
@@ -1612,7 +1614,7 @@
 | [aeo-scorecard](skills/devops/aeo-scorecard/) | devops | majiayu000 | ★ 94 |
 | [aeo-scorecard](skills/development/aeo-scorecard/) | development | majiayu000 | ★ 2 |
 | [aeo-scorecard](skills/development/aeo-scorecard/) | development | majiayu000 | ★ 0 |
-| [aeon](skills/machine-learning/aeon/) | machine-learning | majiayu000 | ★ 94 |
+| [aeon](skills/machine-learning/aeon/) | machine-learning | majiayu000 | ★ 95 |
 | [aeon](skills/development/aeon/) | development | majiayu000 | ★ 2 |
 | [aero-workflow-automation](skills/tools/aero-workflow-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [aeroleads-automation](skills/tools/aeroleads-automation/) | tools | ComposioHQ | ★ 37.3k |
@@ -1638,7 +1640,7 @@
 | [aesthetic-excellence](skills/development/aesthetic-excellence/) | development | majiayu000 | ★ 2 |
 | [aesthetic-form-composition](skills/backend/aesthetic-form-composition/) | backend | majiayu000 | ★ 94 |
 | [aesthetic-form-composition](skills/development/aesthetic-form-composition/) | development | majiayu000 | ★ 2 |
-| [aesthetic-usability-effect](skills/devops/aesthetic-usability-effect/) | devops | majiayu000 | ★ 94 |
+| [aesthetic-usability-effect](skills/design/aesthetic-usability-effect/) | design | majiayu000 | ★ 95 |
 | [aesthetic-usability-effect](skills/devops/aesthetic-usability-effect/) | devops | majiayu000 | ★ 2 |
 | [aesthetics](skills/backend/aesthetics/) | backend | majiayu000 | ★ 94 |
 | [aesthetics](skills/development/aesthetics/) | development | majiayu000 | ★ 2 |
@@ -1678,26 +1680,34 @@
 | [agency-workflow-patterns](skills/development/agency-workflow-patterns/) | development | majiayu000 | ★ 94 |
 | [agency-workflow-patterns](skills/tools/agency-workflow-patterns/) | tools | majiayu000 | ★ 2 |
 | [agencyzoom-automation](skills/tools/agencyzoom-automation/) | tools | ComposioHQ | ★ 37.3k |
-| [agent](skills/ai-agents/agent/) | ai-agents | majiayu000 | ★ 2 |
-| [Agent Configuration Architect](skills/ai-agents/agent-configuration-architect/) | ai-agents | majiayu000 | ★ 94 |
+| [agent](skills/ai-agents/agent/) | ai-agents | majiayu000 | ★ 95 |
+| [Agent Configuration Architect](skills/ai-agents/agent-configuration-architect/) | ai-agents | majiayu000 | ★ 95 |
 | [Agent Configuration Architect](skills/data-ai/agent-configuration-architect/) | data-ai | majiayu000 | ★ 2 |
-| [Agent Creating](skills/ai-agents/agent-creating/) | ai-agents | majiayu000 | ★ 94 |
+| [Agent Creating](skills/ai-agents/agent-creating/) | ai-agents | majiayu000 | ★ 95 |
 | [Agent Creating](skills/data-ai/agent-creating/) | data-ai | majiayu000 | ★ 2 |
 | [Agent Development](skills/data-ai/agent-development/) | data-ai | anthropics | ★ 69.7k |
+| [Agent Development](skills/ai-agents/agent-development/) | ai-agents | majiayu000 | ★ 95 |
 | [Agent Development](skills/data-ai/agent-development/) | data-ai | majiayu000 | ★ 2 |
-| [Agent Development](skills/ai-agents/agent-development/) | ai-agents | majiayu000 | ★ 2 |
 | [Agent Evaluation](skills/ai-agents/agent-evaluation/) | ai-agents | cdalsoniii | ★ 0 |
+| [Agent Generation](skills/ai-agents/agent-generation/) | ai-agents | majiayu000 | ★ 95 |
 | [Agent Generation](skills/data-ai/agent-generation/) | data-ai | majiayu000 | ★ 2 |
+| [Agent Inbox](skills/ai-agents/agent-inbox/) | ai-agents | majiayu000 | ★ 95 |
 | [Agent Inbox](skills/data-ai/agent-inbox/) | data-ai | majiayu000 | ★ 2 |
+| [Agent Launcher](skills/ai-agents/agent-launcher/) | ai-agents | majiayu000 | ★ 95 |
 | [Agent Launcher](skills/development/agent-launcher/) | development | majiayu000 | ★ 2 |
+| [Agent Orchestrator](skills/ai-agents/agent-orchestrator/) | ai-agents | majiayu000 | ★ 95 |
 | [Agent Orchestrator](skills/ai-agents/agent-orchestrator/) | ai-agents | majiayu000 | ★ 2 |
+| [Agent Prompt Evolution](skills/ai-agents/agent-prompt-evolution/) | ai-agents | majiayu000 | ★ 95 |
 | [Agent Prompt Evolution](skills/data-ai/agent-prompt-evolution/) | data-ai | majiayu000 | ★ 2 |
+| [Agent Sandboxes](skills/ai-agents/agent-sandboxes/) | ai-agents | majiayu000 | ★ 95 |
 | [Agent Sandboxes](skills/data-ai/agent-sandboxes/) | data-ai | majiayu000 | ★ 2 |
+| [Agent Self-Correction](skills/ai-agents/agent-self-correction/) | ai-agents | majiayu000 | ★ 95 |
 | [Agent Self-Correction](skills/data-ai/agent-self-correction/) | data-ai | majiayu000 | ★ 2 |
 | [agent skill](skills/data-ai/agent-skill/) | data-ai | shangxiuyu | ★ 0 |
 | [Agent Skill](skills/data-ai/agent-skill/) | data-ai | camronh | ★ 0 |
 | [Agent Skill](skills/data-ai/agent-skill/) | data-ai | camronh | ★ 0 |
 | [Agent Skills & Context](skills/data-ai/agent-skills-context/) | data-ai | OpenHands | ★ 0 |
+| [Agent Workflow Builder](skills/ai-agents/agent-workflow-builder/) | ai-agents | majiayu000 | ★ 95 |
 | [Agent Workflow Builder](skills/ai-agents/agent-workflow-builder/) | ai-agents | majiayu000 | ★ 2 |
 | [agent-33-skills-maker](skills/ai-agents/agent-33-skills-maker/) | ai-agents | majiayu000 | ★ 94 |
 | [agent-33-skills-maker](skills/data-ai/agent-33-skills-maker/) | data-ai | majiayu000 | ★ 2 |
@@ -1819,22 +1829,31 @@
 | [agent-content-marketer](skills/business/agent-content-marketer/) | business | majiayu000 | ★ 94 |
 | [agent-content-marketer](skills/business/agent-content-marketer/) | business | majiayu000 | ★ 2 |
 | [agent-content-pipeline](skills/cli-automation/agent-content-pipeline/) | cli-automation | larsderidder | ★ 0 |
+| [agent-context-generator](skills/documentation/agent-context-generator/) | documentation | majiayu000 | ★ 95 |
 | [agent-context-generator](skills/documentation/agent-context-generator/) | documentation | majiayu000 | ★ 2 |
+| [agent-context-isolation](skills/ai-agents/agent-context-isolation/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-context-isolation](skills/data-ai/agent-context-isolation/) | data-ai | majiayu000 | ★ 2 |
+| [agent-context-manager](skills/ai-agents/agent-context-manager/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-context-manager](skills/data-ai/agent-context-manager/) | data-ai | majiayu000 | ★ 2 |
 | [agent-context-system](skills/data-ai/agent-context-system/) | data-ai | AndreaGriffiths11 | ★ 0 |
 | [agent-context-system](skills/data-ai/agent-context-system/) | data-ai | openclaw | ★ 0 |
 | [agent-context-system](skills/data-ai/agent-context-system/) | data-ai | AndreaGriffiths11 | ★ 0 |
+| [agent-coordination](skills/ai-agents/agent-coordination/) | ai-agents | majiayu000 | ★ 95 |
+| [agent-coordination](skills/development/agent-coordination/) | development | majiayu000 | ★ 95 |
 | [agent-coordination](skills/data-ai/agent-coordination/) | data-ai | majiayu000 | ★ 2 |
-| [agent-coordination](skills/development/agent-coordination/) | development | majiayu000 | ★ 2 |
+| [agent-cost-optimizer](skills/ai-agents/agent-cost-optimizer/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-cost-optimizer](skills/data-ai/agent-cost-optimizer/) | data-ai | majiayu000 | ★ 2 |
+| [agent-council](skills/ai-agents/agent-council/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-council](skills/data-ai/agent-council/) | data-ai | majiayu000 | ★ 2 |
+| [agent-coverage-check](skills/ai-agents/agent-coverage-check/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-coverage-check](skills/ai-agents/agent-coverage-check/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-cpp-pro](skills/ai-agents/agent-cpp-pro/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-cpp-pro](skills/data-ai/agent-cpp-pro/) | data-ai | majiayu000 | ★ 2 |
 | [agent-creation](skills/data-ai/agent-creation/) | data-ai | joabgonzalez | ★ 0 |
 | [agent-creation](skills/data-ai/agent-creation/) | data-ai | majiayu000 | ★ 0 |
 | [agent-creation](skills/data-ai/agent-creation/) | data-ai | majiayu000 | ★ 0 |
 | [agent-creation](skills/documentation/agent-creation/) | documentation | majiayu000 | ★ 0 |
+| [agent-creator](skills/ai-agents/agent-creator/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-creator](skills/data-ai/agent-creator/) | data-ai | majiayu000 | ★ 2 |
 | [agent-creator](skills/data-ai/agent-creator/) | data-ai | mattnigh | ★ 0 |
 | [agent-creator](skills/development/agent-creator/) | development | nbarthelemy | ★ 0 |
@@ -1846,114 +1865,184 @@
 | [agent-creator](skills/backend/agent-creator/) | backend | nbarthelemy | ★ 0 |
 | [agent-creator](skills/ai-agents/agent-creator/) | ai-agents | kimasplund | ★ 0 |
 | [agent-creator](skills/ai-agents/agent-creator/) | ai-agents | majiayu000 | ★ 0 |
+| [agent-cross-review](skills/ai-agents/agent-cross-review/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-cross-review](skills/data-ai/agent-cross-review/) | data-ai | majiayu000 | ★ 2 |
+| [agent-csharp-developer](skills/development/agent-csharp-developer/) | development | majiayu000 | ★ 95 |
 | [agent-csharp-developer](skills/development/agent-csharp-developer/) | development | majiayu000 | ★ 2 |
+| [agent-customer-success-manager](skills/devops/agent-customer-success-manager/) | devops | majiayu000 | ★ 95 |
 | [agent-customer-success-manager](skills/data-ai/agent-customer-success-manager/) | data-ai | majiayu000 | ★ 2 |
+| [agent-customization](skills/development/agent-customization/) | development | majiayu000 | ★ 95 |
 | [agent-customization](skills/data-ai/agent-customization/) | data-ai | majiayu000 | ★ 2 |
-| [agent-customization](skills/development/agent-customization/) | development | majiayu000 | ★ 2 |
 | [agent-customization](skills/data-ai/agent-customization/) | data-ai | majiayu000 | ★ 0 |
+| [agent-data-analyst](skills/data-ai/agent-data-analyst/) | data-ai | majiayu000 | ★ 95 |
 | [agent-data-analyst](skills/data-ai/agent-data-analyst/) | data-ai | majiayu000 | ★ 2 |
+| [agent-data-engineer](skills/data-ai/agent-data-engineer/) | data-ai | majiayu000 | ★ 95 |
 | [agent-data-engineer](skills/devops/agent-data-engineer/) | devops | majiayu000 | ★ 2 |
+| [agent-data-researcher](skills/data-ai/agent-data-researcher/) | data-ai | majiayu000 | ★ 95 |
 | [agent-data-researcher](skills/data-ai/agent-data-researcher/) | data-ai | majiayu000 | ★ 2 |
+| [agent-data-scientist](skills/data-ai/agent-data-scientist/) | data-ai | majiayu000 | ★ 95 |
 | [agent-data-scientist](skills/data-ai/agent-data-scientist/) | data-ai | majiayu000 | ★ 2 |
+| [agent-database-administrator](skills/backend/agent-database-administrator/) | backend | majiayu000 | ★ 95 |
 | [agent-database-administrator](skills/data-ai/agent-database-administrator/) | data-ai | majiayu000 | ★ 2 |
+| [agent-database-optimizer](skills/backend/agent-database-optimizer/) | backend | majiayu000 | ★ 95 |
 | [agent-database-optimizer](skills/data-ai/agent-database-optimizer/) | data-ai | majiayu000 | ★ 2 |
+| [agent-debugger](skills/development/agent-debugger/) | development | majiayu000 | ★ 95 |
 | [agent-debugger](skills/data-ai/agent-debugger/) | data-ai | majiayu000 | ★ 2 |
 | [agent-debugging](skills/data-ai/agent-debugging/) | data-ai | majiayu000 | ★ 2 |
 | [agent-debugging](skills/ai-agents/agent-debugging/) | ai-agents | majiayu000 | ★ 0 |
+| [agent-dependency-manager](skills/testing-security/agent-dependency-manager/) | testing-security | majiayu000 | ★ 95 |
 | [agent-dependency-manager](skills/testing-security/agent-dependency-manager/) | testing-security | majiayu000 | ★ 2 |
+| [agent-deployment-engineer](skills/devops/agent-deployment-engineer/) | devops | majiayu000 | ★ 95 |
 | [agent-deployment-engineer](skills/devops/agent-deployment-engineer/) | devops | majiayu000 | ★ 2 |
+| [agent-deployment-pipeline](skills/devops/agent-deployment-pipeline/) | devops | majiayu000 | ★ 95 |
 | [agent-deployment-pipeline](skills/devops/agent-deployment-pipeline/) | devops | majiayu000 | ★ 2 |
+| [agent-design](skills/ai-agents/agent-design/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-design](skills/data-ai/agent-design/) | data-ai | majiayu000 | ★ 2 |
 | [agent-detector](skills/data-ai/agent-detector/) | data-ai | nguyenthienthanh | ★ 0 |
+| [agent-developing-agents](skills/development/agent-developing-agents/) | development | majiayu000 | ★ 95 |
 | [agent-developing-agents](skills/data-ai/agent-developing-agents/) | data-ai | majiayu000 | ★ 2 |
 | [agent-development](skills/development/agent-development/) | development | majiayu000 | ★ 0 |
+| [agent-devops-engineer](skills/devops/agent-devops-engineer/) | devops | majiayu000 | ★ 95 |
 | [agent-devops-engineer](skills/devops/agent-devops-engineer/) | devops | majiayu000 | ★ 2 |
+| [agent-discovery](skills/ai-agents/agent-discovery/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-discovery](skills/data-ai/agent-discovery/) | data-ai | majiayu000 | ★ 2 |
 | [agent-dispatch](skills/data-ai/agent-dispatch/) | data-ai | openclaw | ★ 0 |
 | [agent-dispatch](skills/data-ai/agent-dispatch/) | data-ai | userFRM | ★ 0 |
+| [agent-django-developer](skills/backend/agent-django-developer/) | backend | majiayu000 | ★ 95 |
 | [agent-django-developer](skills/development/agent-django-developer/) | development | majiayu000 | ★ 2 |
+| [agent-doc-writer](skills/documentation/agent-doc-writer/) | documentation | majiayu000 | ★ 95 |
 | [agent-doc-writer](skills/documentation/agent-doc-writer/) | documentation | majiayu000 | ★ 2 |
+| [agent-documentation-engineer](skills/documentation/agent-documentation-engineer/) | documentation | majiayu000 | ★ 95 |
 | [agent-documentation-engineer](skills/documentation/agent-documentation-engineer/) | documentation | majiayu000 | ★ 2 |
+| [agent-documenting-references](skills/ai-agents/agent-documenting-references/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-documenting-references](skills/data-ai/agent-documenting-references/) | data-ai | majiayu000 | ★ 2 |
+| [agent-dotnet-core-expert](skills/backend/agent-dotnet-core-expert/) | backend | majiayu000 | ★ 95 |
 | [agent-dotnet-core-expert](skills/development/agent-dotnet-core-expert/) | development | majiayu000 | ★ 2 |
+| [agent-dx-optimizer](skills/tools/agent-dx-optimizer/) | tools | majiayu000 | ★ 95 |
 | [agent-dx-optimizer](skills/tools/agent-dx-optimizer/) | tools | majiayu000 | ★ 2 |
+| [agent-electron-pro](skills/fullstack-web/agent-electron-pro/) | fullstack-web | majiayu000 | ★ 95 |
 | [agent-electron-pro](skills/data-ai/agent-electron-pro/) | data-ai | majiayu000 | ★ 2 |
+| [agent-embedded-systems](skills/development/agent-embedded-systems/) | development | majiayu000 | ★ 95 |
 | [agent-embedded-systems](skills/data-ai/agent-embedded-systems/) | data-ai | majiayu000 | ★ 2 |
+| [agent-error-coordinator](skills/ai-agents/agent-error-coordinator/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-error-coordinator](skills/data-ai/agent-error-coordinator/) | data-ai | majiayu000 | ★ 2 |
+| [agent-error-detective](skills/development/agent-error-detective/) | development | majiayu000 | ★ 95 |
 | [agent-error-detective](skills/data-ai/agent-error-detective/) | data-ai | majiayu000 | ★ 2 |
+| [agent-evals](skills/ai-agents/agent-evals/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-evals](skills/data-ai/agent-evals/) | data-ai | majiayu000 | ★ 2 |
 | [agent-evaluation](skills/ai-agents/agent-evaluation/) | ai-agents | sickn33 | ★ 16.7k |
 | [agent-evaluation](skills/data-ai/agent-evaluation/) | data-ai | sickn33 | ★ 15.4k |
+| [agent-evaluation](skills/ai-agents/agent-evaluation/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-evaluation](skills/data-ai/agent-evaluation/) | data-ai | majiayu000 | ★ 2 |
-| [agent-evaluation](skills/ai-agents/agent-evaluation/) | ai-agents | majiayu000 | ★ 2 |
 | [agent-evaluation](skills/data-ai/agent-evaluation/) | data-ai | guia-matthieu | ★ 0 |
+| [agent-evaluator](skills/ai-agents/agent-evaluator/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-evaluator](skills/data-ai/agent-evaluator/) | data-ai | majiayu000 | ★ 2 |
+| [agent-exec](skills/ai-agents/agent-exec/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-exec](skills/data-ai/agent-exec/) | data-ai | majiayu000 | ★ 2 |
+| [agent-expert-creation](skills/ai-agents/agent-expert-creation/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-expert-creation](skills/data-ai/agent-expert-creation/) | data-ai | majiayu000 | ★ 2 |
+| [agent-exporter](skills/ai-agents/agent-exporter/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-exporter](skills/data-ai/agent-exporter/) | data-ai | majiayu000 | ★ 2 |
+| [agent-extend](skills/ai-agents/agent-extend/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-extend](skills/data-ai/agent-extend/) | data-ai | majiayu000 | ★ 2 |
+| [agent-eyes](skills/ai-agents/agent-eyes/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-eyes](skills/data-ai/agent-eyes/) | data-ai | majiayu000 | ★ 2 |
+| [agent-factory](skills/development/agent-factory/) | development | majiayu000 | ★ 95 |
 | [agent-factory](skills/data-ai/agent-factory/) | data-ai | majiayu000 | ★ 2 |
-| [agent-factory](skills/development/agent-factory/) | development | majiayu000 | ★ 2 |
 | [agent-file-specs](skills/data-ai/agent-file-specs/) | data-ai | Alzakath | ★ 0 |
+| [agent-fintech-engineer](skills/testing-security/agent-fintech-engineer/) | testing-security | majiayu000 | ★ 95 |
 | [agent-fintech-engineer](skills/data-ai/agent-fintech-engineer/) | data-ai | majiayu000 | ★ 2 |
+| [agent-flutter-expert](skills/development/agent-flutter-expert/) | development | majiayu000 | ★ 95 |
 | [agent-flutter-expert](skills/development/agent-flutter-expert/) | development | majiayu000 | ★ 2 |
 | [agent-framework-azure-ai-py](skills/development/agent-framework-azure-ai-py/) | development | sickn33 | ★ 16.7k |
 | [agent-framework-azure-ai-py](skills/development/agent-framework-azure-ai-py/) | development | sickn33 | ★ 15.4k |
+| [agent-friendly-commands](skills/ai-agents/agent-friendly-commands/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-friendly-commands](skills/data-ai/agent-friendly-commands/) | data-ai | majiayu000 | ★ 2 |
+| [agent-fullstack-developer](skills/backend/agent-fullstack-developer/) | backend | majiayu000 | ★ 95 |
 | [agent-fullstack-developer](skills/development/agent-fullstack-developer/) | development | majiayu000 | ★ 2 |
+| [agent-game-developer](skills/development/agent-game-developer/) | development | majiayu000 | ★ 95 |
 | [agent-game-developer](skills/data-ai/agent-game-developer/) | data-ai | majiayu000 | ★ 2 |
+| [agent-generator](skills/ai-agents/agent-generator/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-generator](skills/data-ai/agent-generator/) | data-ai | majiayu000 | ★ 2 |
 | [agent-generator](skills/tools/agent-generator/) | tools | rigerc | ★ 0 |
+| [agent-golang-pro](skills/development/agent-golang-pro/) | development | majiayu000 | ★ 95 |
 | [agent-golang-pro](skills/devops/agent-golang-pro/) | devops | majiayu000 | ★ 2 |
+| [agent-governance](skills/ai-agents/agent-governance/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-governance](skills/data-ai/agent-governance/) | data-ai | majiayu000 | ★ 2 |
+| [agent-graphql-architect](skills/backend/agent-graphql-architect/) | backend | majiayu000 | ★ 95 |
 | [agent-graphql-architect](skills/development/agent-graphql-architect/) | development | majiayu000 | ★ 2 |
+| [agent-guardrails](skills/ai-agents/agent-guardrails/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-guardrails](skills/ai-agents/agent-guardrails/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-guidelines](skills/tools/agent-guidelines/) | tools | majiayu000 | ★ 95 |
 | [agent-guidelines](skills/tools/agent-guidelines/) | tools | majiayu000 | ★ 2 |
+| [agent-handoff](skills/development/agent-handoff/) | development | majiayu000 | ★ 95 |
 | [agent-handoff](skills/data-ai/agent-handoff/) | data-ai | majiayu000 | ★ 2 |
+| [agent-handoffs](skills/ai-agents/agent-handoffs/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-handoffs](skills/data-ai/agent-handoffs/) | data-ai | majiayu000 | ★ 2 |
+| [agent-hierarchy-diagram](skills/ai-agents/agent-hierarchy-diagram/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-hierarchy-diagram](skills/ai-agents/agent-hierarchy-diagram/) | ai-agents | majiayu000 | ★ 93 |
 | [agent-hierarchy-diagram](skills/ai-agents/agent-hierarchy-diagram/) | ai-agents | majiayu000 | ★ 2 |
-| [agent-hierarchy-diagram](skills/ai-agents/agent-hierarchy-diagram/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ide](skills/tools/agent-ide/) | tools | majiayu000 | ★ 95 |
 | [agent-ide](skills/tools/agent-ide/) | tools | majiayu000 | ★ 2 |
 | [agent-identity](skills/data-ai/agent-identity/) | data-ai | openclaw | ★ 0 |
 | [agent-identity](skills/data-ai/agent-identity/) | data-ai | Demerzels-lab | ★ 0 |
 | [agent-identity](skills/data-ai/agent-identity/) | data-ai | kbarbel640-del | ★ 0 |
 | [agent-identity](skills/data-ai/agent-identity/) | data-ai | YPYT1 | ★ 0 |
 | [agent-identity](skills/data-ai/agent-identity/) | data-ai | decimasudo | ★ 0 |
+| [agent-improvement](skills/ai-agents/agent-improvement/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-improvement](skills/data-ai/agent-improvement/) | data-ai | majiayu000 | ★ 2 |
+| [agent-init](skills/ai-agents/agent-init/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-init](skills/data-ai/agent-init/) | data-ai | majiayu000 | ★ 2 |
+| [agent-integrator](skills/ai-agents/agent-integrator/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-integrator](skills/data-ai/agent-integrator/) | data-ai | majiayu000 | ★ 2 |
+| [agent-invocation](skills/ai-agents/agent-invocation/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-invocation](skills/data-ai/agent-invocation/) | data-ai | majiayu000 | ★ 2 |
 | [agent-invoker](skills/data-ai/agent-invoker/) | data-ai | majiayu000 | ★ 2 |
 | [agent-invoker](skills/data-ai/agent-invoker/) | data-ai | majiayu000 | ★ 0 |
+| [agent-iot-engineer](skills/devops/agent-iot-engineer/) | devops | majiayu000 | ★ 95 |
 | [agent-iot-engineer](skills/devops/agent-iot-engineer/) | devops | majiayu000 | ★ 2 |
+| [agent-java-architect](skills/development/agent-java-architect/) | development | majiayu000 | ★ 95 |
 | [agent-java-architect](skills/development/agent-java-architect/) | development | majiayu000 | ★ 2 |
+| [agent-javascript-pro](skills/development/agent-javascript-pro/) | development | majiayu000 | ★ 95 |
 | [agent-javascript-pro](skills/development/agent-javascript-pro/) | development | majiayu000 | ★ 2 |
+| [agent-knowledge-synthesizer](skills/ai-agents/agent-knowledge-synthesizer/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-knowledge-synthesizer](skills/data-ai/agent-knowledge-synthesizer/) | data-ai | majiayu000 | ★ 2 |
+| [agent-kotlin-specialist](skills/development/agent-kotlin-specialist/) | development | majiayu000 | ★ 95 |
 | [agent-kotlin-specialist](skills/development/agent-kotlin-specialist/) | development | majiayu000 | ★ 2 |
+| [agent-kubernetes-specialist](skills/devops/agent-kubernetes-specialist/) | devops | majiayu000 | ★ 95 |
 | [agent-kubernetes-specialist](skills/devops/agent-kubernetes-specialist/) | devops | majiayu000 | ★ 2 |
+| [agent-laravel-specialist](skills/backend/agent-laravel-specialist/) | backend | majiayu000 | ★ 95 |
 | [agent-laravel-specialist](skills/development/agent-laravel-specialist/) | development | majiayu000 | ★ 2 |
+| [agent-legacy-modernizer](skills/development/agent-legacy-modernizer/) | development | majiayu000 | ★ 95 |
 | [agent-legacy-modernizer](skills/data-ai/agent-legacy-modernizer/) | data-ai | majiayu000 | ★ 2 |
+| [agent-legal-advisor](skills/ai-agents/agent-legal-advisor/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-legal-advisor](skills/data-ai/agent-legal-advisor/) | data-ai | majiayu000 | ★ 2 |
+| [agent-lifecycle-management](skills/ai-agents/agent-lifecycle-management/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-lifecycle-management](skills/data-ai/agent-lifecycle-management/) | data-ai | majiayu000 | ★ 2 |
+| [agent-llm-architect](skills/ai-agents/agent-llm-architect/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-llm-architect](skills/data-ai/agent-llm-architect/) | data-ai | majiayu000 | ★ 2 |
+| [agent-machine-learning-engineer](skills/machine-learning/agent-machine-learning-engineer/) | machine-learning | majiayu000 | ★ 95 |
 | [agent-machine-learning-engineer](skills/data-ai/agent-machine-learning-engineer/) | data-ai | majiayu000 | ★ 2 |
+| [agent-mail](skills/cli-automation/agent-mail/) | cli-automation | majiayu000 | ★ 95 |
 | [agent-mail](skills/data-ai/agent-mail/) | data-ai | majiayu000 | ★ 2 |
 | [agent-mail-automation](skills/data-ai/agent-mail-automation/) | data-ai | ComposioHQ | ★ 37.3k |
 | [agent-manager-skill](skills/cli-automation/agent-manager-skill/) | cli-automation | sickn33 | ★ 16.7k |
 | [agent-manager-skill](skills/data-ai/agent-manager-skill/) | data-ai | sickn33 | ★ 15.4k |
 | [agent-manager-skill](skills/data-ai/agent-manager-skill/) | data-ai | majiayu000 | ★ 2 |
 | [agent-manager-skill](skills/ai-agents/agent-manager-skill/) | ai-agents | kingk0ng | ★ 0 |
+| [agent-market-researcher](skills/tools/agent-market-researcher/) | tools | majiayu000 | ★ 95 |
 | [agent-market-researcher](skills/data-ai/agent-market-researcher/) | data-ai | majiayu000 | ★ 2 |
+| [agent-mcp-developer](skills/development/agent-mcp-developer/) | development | majiayu000 | ★ 95 |
 | [agent-mcp-developer](skills/data-ai/agent-mcp-developer/) | data-ai | majiayu000 | ★ 2 |
+| [agent-md-generator](skills/ai-agents/agent-md-generator/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-md-generator](skills/tools/agent-md-generator/) | tools | majiayu000 | ★ 2 |
+| [agent-md-refactor](skills/ai-agents/agent-md-refactor/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-md-refactor](skills/development/agent-md-refactor/) | development | majiayu000 | ★ 2 |
 | [agent-md-refactor](skills/data-ai/agent-md-refactor/) | data-ai | NeverSight | ★ 0 |
 | [agent-md-refactor](skills/data-ai/agent-md-refactor/) | data-ai | AgnosticSix | ★ 0 |
+| [agent-memory](skills/ai-agents/agent-memory/) | ai-agents | majiayu000 | ★ 95 |
+| [agent-memory](skills/ai-agents/agent-memory/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-memory](skills/data-ai/agent-memory/) | data-ai | majiayu000 | ★ 2 |
-| [agent-memory](skills/ai-agents/agent-memory/) | ai-agents | majiayu000 | ★ 2 |
 | [agent-memory](skills/data-ai/agent-memory/) | data-ai | DNG-ai | ★ 0 |
 | [agent-memory](skills/ai-agents/agent-memory/) | ai-agents | DNG-ai | ★ 0 |
 | [agent-memory-coordinator](skills/backend/agent-memory-coordinator/) | backend | ruvnet | ★ 0 |
@@ -1963,15 +2052,23 @@
 | [agent-memory-skills](skills/data-ai/agent-memory-skills/) | data-ai | kimasplund | ★ 0 |
 | [agent-memory-systems](skills/ai-agents/agent-memory-systems/) | ai-agents | sickn33 | ★ 16.7k |
 | [agent-memory-systems](skills/data-ai/agent-memory-systems/) | data-ai | sickn33 | ★ 15.4k |
+| [agent-memory-systems](skills/ai-agents/agent-memory-systems/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-memory-systems](skills/data-ai/agent-memory-systems/) | data-ai | majiayu000 | ★ 2 |
-| [agent-memory-systems](skills/ai-agents/agent-memory-systems/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-messaging](skills/ai-agents/agent-messaging/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-messaging](skills/data-ai/agent-messaging/) | data-ai | majiayu000 | ★ 2 |
+| [agent-microservices-architect](skills/backend/agent-microservices-architect/) | backend | majiayu000 | ★ 95 |
 | [agent-microservices-architect](skills/data-ai/agent-microservices-architect/) | data-ai | majiayu000 | ★ 2 |
+| [agent-ml-engineer](skills/machine-learning/agent-ml-engineer/) | machine-learning | majiayu000 | ★ 95 |
 | [agent-ml-engineer](skills/data-ai/agent-ml-engineer/) | data-ai | majiayu000 | ★ 2 |
+| [agent-mlops](skills/devops/agent-mlops/) | devops | majiayu000 | ★ 95 |
 | [agent-mlops](skills/data-ai/agent-mlops/) | data-ai | majiayu000 | ★ 2 |
+| [agent-mlops-engineer](skills/devops/agent-mlops-engineer/) | devops | majiayu000 | ★ 95 |
 | [agent-mlops-engineer](skills/data-ai/agent-mlops-engineer/) | data-ai | majiayu000 | ★ 2 |
+| [agent-mobile-app-developer](skills/fullstack-web/agent-mobile-app-developer/) | fullstack-web | majiayu000 | ★ 95 |
 | [agent-mobile-app-developer](skills/development/agent-mobile-app-developer/) | development | majiayu000 | ★ 2 |
+| [agent-mobile-developer](skills/fullstack-web/agent-mobile-developer/) | fullstack-web | majiayu000 | ★ 95 |
 | [agent-mobile-developer](skills/development/agent-mobile-developer/) | development | majiayu000 | ★ 2 |
+| [agent-model-selection](skills/machine-learning/agent-model-selection/) | machine-learning | majiayu000 | ★ 95 |
 | [agent-model-selection](skills/data-ai/agent-model-selection/) | data-ai | majiayu000 | ★ 2 |
 | [agent-monitor](skills/data-ai/agent-monitor/) | data-ai | louis030195 | ★ 0 |
 | [agent-multi-repo-swarm](skills/data-ai/agent-multi-repo-swarm/) | data-ai | ruvnet | ★ 0 |
@@ -1979,6 +2076,7 @@
 | [agent-multi-repo-swarm](skills/data-ai/agent-multi-repo-swarm/) | data-ai | majiayu000 | ★ 0 |
 | [agent-multi-repo-swarm](skills/data-ai/agent-multi-repo-swarm/) | data-ai | Finimo-Solutions | ★ 0 |
 | [agent-multi-repo-swarm](skills/ai-agents/agent-multi-repo-swarm/) | ai-agents | ruvnet | ★ 0 |
+| [agent-native-architecture](skills/development/agent-native-architecture/) | development | majiayu000 | ★ 95 |
 | [agent-native-architecture](skills/data-ai/agent-native-architecture/) | data-ai | majiayu000 | ★ 2 |
 | [agent-native-architecture](skills/data-ai/agent-native-architecture/) | data-ai | majiayu000 | ★ 0 |
 | [agent-native-architecture](skills/ai-agents/agent-native-architecture/) | ai-agents | majiayu000 | ★ 0 |
@@ -1987,73 +2085,127 @@
 | [agent-native-reviewer](skills/data-ai/agent-native-reviewer/) | data-ai | jovermier | ★ 0 |
 | [agent-native-reviewer](skills/ai-agents/agent-native-reviewer/) | ai-agents | majiayu000 | ★ 0 |
 | [agent-network](skills/data-ai/agent-network/) | data-ai | openclaw | ★ 0 |
+| [agent-network-engineer](skills/devops/agent-network-engineer/) | devops | majiayu000 | ★ 95 |
 | [agent-network-engineer](skills/devops/agent-network-engineer/) | devops | majiayu000 | ★ 2 |
+| [agent-nextjs-developer](skills/frontend/agent-nextjs-developer/) | frontend | majiayu000 | ★ 95 |
 | [agent-nextjs-developer](skills/development/agent-nextjs-developer/) | development | majiayu000 | ★ 2 |
+| [agent-nlp-engineer](skills/machine-learning/agent-nlp-engineer/) | machine-learning | majiayu000 | ★ 95 |
 | [agent-nlp-engineer](skills/data-ai/agent-nlp-engineer/) | data-ai | majiayu000 | ★ 2 |
+| [agent-o-rama](skills/ai-agents/agent-o-rama/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-o-rama](skills/data-ai/agent-o-rama/) | data-ai | majiayu000 | ★ 2 |
 | [agent-ops-api-review](skills/backend/agent-ops-api-review/) | backend | majiayu000 | ★ 2 |
 | [agent-ops-api-review](skills/backend/agent-ops-api-review/) | backend | majiayu000 | ★ 0 |
+| [agent-ops-article-verification](skills/ai-agents/agent-ops-article-verification/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-article-verification](skills/ai-agents/agent-ops-article-verification/) | ai-agents | majiayu000 | ★ 92 |
 | [agent-ops-article-verification](skills/ai-agents/agent-ops-article-verification/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-baseline](skills/ai-agents/agent-ops-baseline/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-baseline](skills/ai-agents/agent-ops-baseline/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-branch-workflow](skills/ai-agents/agent-ops-branch-workflow/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-branch-workflow](skills/ai-agents/agent-ops-branch-workflow/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-build](skills/tools/agent-ops-build/) | tools | majiayu000 | ★ 95 |
 | [agent-ops-build](skills/tools/agent-ops-build/) | tools | majiayu000 | ★ 2 |
+| [agent-ops-code-review-comprehensive](skills/development/agent-ops-code-review-comprehensive/) | development | majiayu000 | ★ 95 |
 | [agent-ops-code-review-comprehensive](skills/development/agent-ops-code-review-comprehensive/) | development | majiayu000 | ★ 2 |
+| [agent-ops-code-review-interactive](skills/ai-agents/agent-ops-code-review-interactive/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-code-review-interactive](skills/ai-agents/agent-ops-code-review-interactive/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-constitution](skills/ai-agents/agent-ops-constitution/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-constitution](skills/ai-agents/agent-ops-constitution/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-context-map](skills/ai-agents/agent-ops-context-map/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-context-map](skills/ai-agents/agent-ops-context-map/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-create-python-project](skills/tools/agent-ops-create-python-project/) | tools | majiayu000 | ★ 95 |
 | [agent-ops-create-python-project](skills/tools/agent-ops-create-python-project/) | tools | majiayu000 | ★ 2 |
+| [agent-ops-create-skill](skills/ai-agents/agent-ops-create-skill/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-create-skill](skills/ai-agents/agent-ops-create-skill/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-create-technical-docs](skills/documentation/agent-ops-create-technical-docs/) | documentation | majiayu000 | ★ 95 |
 | [agent-ops-create-technical-docs](skills/documentation/agent-ops-create-technical-docs/) | documentation | majiayu000 | ★ 2 |
+| [agent-ops-critical-review](skills/backend/agent-ops-critical-review/) | backend | majiayu000 | ★ 95 |
 | [agent-ops-critical-review](skills/backend/agent-ops-critical-review/) | backend | majiayu000 | ★ 2 |
+| [agent-ops-debugging](skills/tools/agent-ops-debugging/) | tools | majiayu000 | ★ 95 |
 | [agent-ops-debugging](skills/tools/agent-ops-debugging/) | tools | majiayu000 | ★ 2 |
+| [agent-ops-dependencies](skills/tools/agent-ops-dependencies/) | tools | majiayu000 | ★ 95 |
 | [agent-ops-dependencies](skills/tools/agent-ops-dependencies/) | tools | majiayu000 | ★ 2 |
+| [agent-ops-docker-review](skills/devops/agent-ops-docker-review/) | devops | majiayu000 | ★ 95 |
 | [agent-ops-docker-review](skills/devops/agent-ops-docker-review/) | devops | majiayu000 | ★ 92 |
 | [agent-ops-docker-review](skills/devops/agent-ops-docker-review/) | devops | majiayu000 | ★ 2 |
+| [agent-ops-docs](skills/documentation/agent-ops-docs/) | documentation | majiayu000 | ★ 95 |
 | [agent-ops-docs](skills/documentation/agent-ops-docs/) | documentation | majiayu000 | ★ 2 |
+| [agent-ops-dogfood](skills/documentation/agent-ops-dogfood/) | documentation | majiayu000 | ★ 95 |
 | [agent-ops-dogfood](skills/ai-agents/agent-ops-dogfood/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-focus-scan](skills/ai-agents/agent-ops-focus-scan/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-focus-scan](skills/ai-agents/agent-ops-focus-scan/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-git](skills/cli-automation/agent-ops-git/) | cli-automation | majiayu000 | ★ 95 |
 | [agent-ops-git](skills/cli-automation/agent-ops-git/) | cli-automation | majiayu000 | ★ 2 |
+| [agent-ops-git-analysis](skills/cli-automation/agent-ops-git-analysis/) | cli-automation | majiayu000 | ★ 95 |
 | [agent-ops-git-analysis](skills/cli-automation/agent-ops-git-analysis/) | cli-automation | majiayu000 | ★ 2 |
+| [agent-ops-git-story](skills/cli-automation/agent-ops-git-story/) | cli-automation | majiayu000 | ★ 95 |
 | [agent-ops-git-story](skills/cli-automation/agent-ops-git-story/) | cli-automation | majiayu000 | ★ 2 |
+| [agent-ops-git-worktree](skills/cli-automation/agent-ops-git-worktree/) | cli-automation | majiayu000 | ★ 95 |
 | [agent-ops-git-worktree](skills/cli-automation/agent-ops-git-worktree/) | cli-automation | majiayu000 | ★ 2 |
+| [agent-ops-github](skills/cli-automation/agent-ops-github/) | cli-automation | majiayu000 | ★ 95 |
 | [agent-ops-github](skills/cli-automation/agent-ops-github/) | cli-automation | majiayu000 | ★ 2 |
+| [agent-ops-guide](skills/tools/agent-ops-guide/) | tools | majiayu000 | ★ 95 |
 | [agent-ops-guide](skills/tools/agent-ops-guide/) | tools | majiayu000 | ★ 2 |
+| [agent-ops-housekeeping](skills/cli-automation/agent-ops-housekeeping/) | cli-automation | majiayu000 | ★ 95 |
 | [agent-ops-housekeeping](skills/cli-automation/agent-ops-housekeeping/) | cli-automation | majiayu000 | ★ 2 |
+| [agent-ops-idea](skills/tools/agent-ops-idea/) | tools | majiayu000 | ★ 95 |
 | [agent-ops-idea](skills/tools/agent-ops-idea/) | tools | majiayu000 | ★ 2 |
+| [agent-ops-impl-details](skills/ai-agents/agent-ops-impl-details/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-impl-details](skills/ai-agents/agent-ops-impl-details/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-implementation](skills/development/agent-ops-implementation/) | development | majiayu000 | ★ 95 |
 | [agent-ops-implementation](skills/development/agent-ops-implementation/) | development | majiayu000 | ★ 2 |
+| [agent-ops-improvement-discovery](skills/ai-agents/agent-ops-improvement-discovery/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-improvement-discovery](skills/product/agent-ops-improvement-discovery/) | product | majiayu000 | ★ 2 |
+| [agent-ops-install](skills/ai-agents/agent-ops-install/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-install](skills/ai-agents/agent-ops-install/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-interview](skills/tools/agent-ops-interview/) | tools | majiayu000 | ★ 95 |
 | [agent-ops-interview](skills/tools/agent-ops-interview/) | tools | majiayu000 | ★ 2 |
+| [agent-ops-migrate](skills/development/agent-ops-migrate/) | development | majiayu000 | ★ 95 |
 | [agent-ops-migrate](skills/development/agent-ops-migrate/) | development | majiayu000 | ★ 2 |
+| [agent-ops-mkdocs](skills/documentation/agent-ops-mkdocs/) | documentation | majiayu000 | ★ 95 |
 | [agent-ops-mkdocs](skills/documentation/agent-ops-mkdocs/) | documentation | majiayu000 | ★ 2 |
+| [agent-ops-optimize-instructions](skills/ai-agents/agent-ops-optimize-instructions/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-optimize-instructions](skills/ai-agents/agent-ops-optimize-instructions/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-plan-preview](skills/ai-agents/agent-ops-plan-preview/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-plan-preview](skills/ai-agents/agent-ops-plan-preview/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-planning](skills/tools/agent-ops-planning/) | tools | majiayu000 | ★ 95 |
 | [agent-ops-planning](skills/tools/agent-ops-planning/) | tools | majiayu000 | ★ 2 |
+| [agent-ops-potential-discovery](skills/development/agent-ops-potential-discovery/) | development | majiayu000 | ★ 95 |
 | [agent-ops-potential-discovery](skills/product/agent-ops-potential-discovery/) | product | majiayu000 | ★ 2 |
+| [agent-ops-project-sections](skills/backend/agent-ops-project-sections/) | backend | majiayu000 | ★ 95 |
 | [agent-ops-project-sections](skills/backend/agent-ops-project-sections/) | backend | majiayu000 | ★ 2 |
+| [agent-ops-reality-audit](skills/testing-security/agent-ops-reality-audit/) | testing-security | majiayu000 | ★ 95 |
 | [agent-ops-reality-audit](skills/testing-security/agent-ops-reality-audit/) | testing-security | majiayu000 | ★ 92 |
 | [agent-ops-reality-audit](skills/testing-security/agent-ops-reality-audit/) | testing-security | majiayu000 | ★ 2 |
+| [agent-ops-recovery](skills/ai-agents/agent-ops-recovery/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-recovery](skills/ai-agents/agent-ops-recovery/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-report](skills/ai-agents/agent-ops-report/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-report](skills/ai-agents/agent-ops-report/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-research](skills/development/agent-ops-research/) | development | majiayu000 | ★ 95 |
 | [agent-ops-research](skills/development/agent-ops-research/) | development | majiayu000 | ★ 2 |
+| [agent-ops-retrospective](skills/ai-agents/agent-ops-retrospective/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-retrospective](skills/ai-agents/agent-ops-retrospective/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-selective-copy](skills/ai-agents/agent-ops-selective-copy/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-selective-copy](skills/ai-agents/agent-ops-selective-copy/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-spec](skills/product/agent-ops-spec/) | product | majiayu000 | ★ 95 |
 | [agent-ops-spec](skills/product/agent-ops-spec/) | product | majiayu000 | ★ 93 |
 | [agent-ops-spec](skills/product/agent-ops-spec/) | product | majiayu000 | ★ 2 |
-| [agent-ops-spec](skills/product/agent-ops-spec/) | product | majiayu000 | ★ 2 |
+| [agent-ops-state](skills/ai-agents/agent-ops-state/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-state](skills/ai-agents/agent-ops-state/) | ai-agents | majiayu000 | ★ 93 |
 | [agent-ops-state](skills/ai-agents/agent-ops-state/) | ai-agents | majiayu000 | ★ 2 |
-| [agent-ops-state](skills/ai-agents/agent-ops-state/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-tasks](skills/ai-agents/agent-ops-tasks/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-tasks](skills/ai-agents/agent-ops-tasks/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-testing](skills/ai-agents/agent-ops-testing/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ops-testing](skills/ai-agents/agent-ops-testing/) | ai-agents | majiayu000 | ★ 93 |
 | [agent-ops-testing](skills/ai-agents/agent-ops-testing/) | ai-agents | majiayu000 | ★ 2 |
-| [agent-ops-testing](skills/ai-agents/agent-ops-testing/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-tools](skills/tools/agent-ops-tools/) | tools | majiayu000 | ★ 95 |
 | [agent-ops-tools](skills/tools/agent-ops-tools/) | tools | majiayu000 | ★ 2 |
+| [agent-ops-validation](skills/backend/agent-ops-validation/) | backend | majiayu000 | ★ 95 |
 | [agent-ops-validation](skills/ai-agents/agent-ops-validation/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-ops-versioning](skills/documentation/agent-ops-versioning/) | documentation | majiayu000 | ★ 95 |
 | [agent-ops-versioning](skills/documentation/agent-ops-versioning/) | documentation | majiayu000 | ★ 2 |
+| [agent-orchestrate](skills/ai-agents/agent-orchestrate/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-orchestrate](skills/data-ai/agent-orchestrate/) | data-ai | majiayu000 | ★ 2 |
+| [agent-orchestration](skills/ai-agents/agent-orchestration/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-orchestration](skills/data-ai/agent-orchestration/) | data-ai | majiayu000 | ★ 2 |
 | [agent-orchestration](skills/development/agent-orchestration/) | development | seqis | ★ 0 |
 | [agent-orchestration](skills/ai-agents/agent-orchestration/) | ai-agents | seqis | ★ 0 |
@@ -2064,213 +2216,299 @@
 | [agent-orchestration-multi-agent-optimize](skills/ai-agents/agent-orchestration-multi-agent-optimize/) | ai-agents | sickn33 | ★ 16.7k |
 | [agent-orchestration-multi-agent-optimize](skills/development/agent-orchestration-multi-agent-optimize/) | development | sickn33 | ★ 15.4k |
 | [agent-orchestration-multi-agent-optimize](skills/development/agent-orchestration-multi-agent-optimize/) | development | majiayu000 | ★ 2 |
+| [agent-orchestration-patterns](skills/ai-agents/agent-orchestration-patterns/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-orchestration-patterns](skills/ai-agents/agent-orchestration-patterns/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-orchestration-planner](skills/ai-agents/agent-orchestration-planner/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-orchestration-planner](skills/data-ai/agent-orchestration-planner/) | data-ai | majiayu000 | ★ 2 |
+| [agent-orchestrator-manager](skills/ai-agents/agent-orchestrator-manager/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-orchestrator-manager](skills/data-ai/agent-orchestrator-manager/) | data-ai | majiayu000 | ★ 2 |
+| [agent-organizer](skills/ai-agents/agent-organizer/) | ai-agents | majiayu000 | ★ 95 |
+| [agent-organizer](skills/ai-agents/agent-organizer/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-organizer](skills/data-ai/agent-organizer/) | data-ai | majiayu000 | ★ 2 |
-| [agent-organizer](skills/ai-agents/agent-organizer/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-os-framework](skills/product/agent-os-framework/) | product | majiayu000 | ★ 95 |
 | [agent-os-framework](skills/product/agent-os-framework/) | product | majiayu000 | ★ 2 |
+| [agent-parser](skills/ai-agents/agent-parser/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-parser](skills/data-ai/agent-parser/) | data-ai | majiayu000 | ★ 2 |
+| [agent-payment-integration](skills/ai-agents/agent-payment-integration/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-payment-integration](skills/data-ai/agent-payment-integration/) | data-ai | majiayu000 | ★ 2 |
+| [agent-penetration-tester](skills/testing-security/agent-penetration-tester/) | testing-security | majiayu000 | ★ 95 |
 | [agent-penetration-tester](skills/testing-security/agent-penetration-tester/) | testing-security | majiayu000 | ★ 2 |
+| [agent-performance](skills/ai-agents/agent-performance/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-performance](skills/data-ai/agent-performance/) | data-ai | majiayu000 | ★ 2 |
+| [agent-performance-engineer](skills/backend/agent-performance-engineer/) | backend | majiayu000 | ★ 95 |
 | [agent-performance-engineer](skills/development/agent-performance-engineer/) | development | majiayu000 | ★ 2 |
+| [agent-performance-monitor](skills/backend/agent-performance-monitor/) | backend | majiayu000 | ★ 95 |
 | [agent-performance-monitor](skills/data-ai/agent-performance-monitor/) | data-ai | majiayu000 | ★ 2 |
+| [agent-permissions](skills/ai-agents/agent-permissions/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-permissions](skills/development/agent-permissions/) | development | majiayu000 | ★ 2 |
+| [agent-php-pro](skills/development/agent-php-pro/) | development | majiayu000 | ★ 95 |
 | [agent-php-pro](skills/development/agent-php-pro/) | development | majiayu000 | ★ 2 |
+| [agent-platform-engineer](skills/backend/agent-platform-engineer/) | backend | majiayu000 | ★ 95 |
 | [agent-platform-engineer](skills/development/agent-platform-engineer/) | development | majiayu000 | ★ 2 |
 | [agent-platforms](skills/data-ai/agent-platforms/) | data-ai | majiayu000 | ★ 0 |
 | [agent-platforms](skills/data-ai/agent-platforms/) | data-ai | gmh5225 | ★ 0 |
 | [agent-platforms](skills/data-ai/agent-platforms/) | data-ai | majiayu000 | ★ 0 |
 | [agent-platforms](skills/ai-agents/agent-platforms/) | ai-agents | majiayu000 | ★ 0 |
+| [agent-postgres-pro](skills/backend/agent-postgres-pro/) | backend | majiayu000 | ★ 95 |
 | [agent-postgres-pro](skills/data-ai/agent-postgres-pro/) | data-ai | majiayu000 | ★ 2 |
+| [agent-product-manager](skills/product/agent-product-manager/) | product | majiayu000 | ★ 95 |
 | [agent-product-manager](skills/product/agent-product-manager/) | product | majiayu000 | ★ 2 |
 | [agent-production-validator](skills/product/agent-production-validator/) | product | ruvnet | ★ 0 |
+| [agent-project-manager](skills/product/agent-project-manager/) | product | majiayu000 | ★ 95 |
 | [agent-project-manager](skills/data-ai/agent-project-manager/) | data-ai | majiayu000 | ★ 2 |
+| [agent-prompt](skills/ai-agents/agent-prompt/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-prompt](skills/data-ai/agent-prompt/) | data-ai | majiayu000 | ★ 2 |
+| [agent-prompt-design](skills/ai-agents/agent-prompt-design/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-prompt-design](skills/data-ai/agent-prompt-design/) | data-ai | majiayu000 | ★ 2 |
+| [agent-prompt-engineer](skills/ai-agents/agent-prompt-engineer/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-prompt-engineer](skills/data-ai/agent-prompt-engineer/) | data-ai | majiayu000 | ★ 2 |
+| [agent-prompts](skills/ai-agents/agent-prompts/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-prompts](skills/data-ai/agent-prompts/) | data-ai | majiayu000 | ★ 2 |
 | [agent-protocol](skills/data-ai/agent-protocol/) | data-ai | majiayu000 | ★ 0 |
 | [agent-protocol](skills/data-ai/agent-protocol/) | data-ai | majiayu000 | ★ 0 |
 | [agent-protocol](skills/ai-agents/agent-protocol/) | ai-agents | majiayu000 | ★ 0 |
+| [agent-python-pro](skills/development/agent-python-pro/) | development | majiayu000 | ★ 95 |
 | [agent-python-pro](skills/development/agent-python-pro/) | development | majiayu000 | ★ 2 |
 | [agent-qa-expert](skills/testing-security/agent-qa-expert/) | testing-security | majiayu000 | ★ 2 |
 | [agent-qa-expert](skills/testing-security/agent-qa-expert/) | testing-security | majiayu000 | ★ 0 |
+| [agent-quant-analyst](skills/business/agent-quant-analyst/) | business | majiayu000 | ★ 95 |
 | [agent-quant-analyst](skills/data-ai/agent-quant-analyst/) | data-ai | majiayu000 | ★ 2 |
+| [agent-rails-expert](skills/backend/agent-rails-expert/) | backend | majiayu000 | ★ 95 |
 | [agent-rails-expert](skills/development/agent-rails-expert/) | development | majiayu000 | ★ 2 |
 | [agent-rate-limiter](skills/data-ai/agent-rate-limiter/) | data-ai | openclaw | ★ 0 |
+| [agent-react-specialist](skills/frontend/agent-react-specialist/) | frontend | majiayu000 | ★ 95 |
 | [agent-react-specialist](skills/development/agent-react-specialist/) | development | majiayu000 | ★ 2 |
+| [agent-ready-eval](skills/ai-agents/agent-ready-eval/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-ready-eval](skills/data-ai/agent-ready-eval/) | data-ai | majiayu000 | ★ 2 |
+| [agent-registry](skills/backend/agent-registry/) | backend | majiayu000 | ★ 95 |
 | [agent-registry](skills/data-ai/agent-registry/) | data-ai | majiayu000 | ★ 2 |
 | [agent-release-swarm](skills/ai-agents/agent-release-swarm/) | ai-agents | ruvnet | ★ 0 |
+| [agent-repair](skills/ai-agents/agent-repair/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-repair](skills/data-ai/agent-repair/) | data-ai | majiayu000 | ★ 2 |
-| [agent-repair](skills/ai-agents/agent-repair/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-report](skills/ai-agents/agent-report/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-report](skills/data-ai/agent-report/) | data-ai | majiayu000 | ★ 2 |
+| [agent-research-analyst](skills/ai-agents/agent-research-analyst/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-research-analyst](skills/data-ai/agent-research-analyst/) | data-ai | majiayu000 | ★ 2 |
+| [agent-resources-vision](skills/ai-agents/agent-resources-vision/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-resources-vision](skills/data-ai/agent-resources-vision/) | data-ai | majiayu000 | ★ 2 |
+| [agent-review](skills/ai-agents/agent-review/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-review](skills/data-ai/agent-review/) | data-ai | majiayu000 | ★ 2 |
+| [agent-risk-manager](skills/testing-security/agent-risk-manager/) | testing-security | majiayu000 | ★ 95 |
 | [agent-risk-manager](skills/data-ai/agent-risk-manager/) | data-ai | majiayu000 | ★ 2 |
 | [agent-roles-core](skills/data-ai/agent-roles-core/) | data-ai | majiayu000 | ★ 0 |
+| [agent-run](skills/ai-agents/agent-run/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-run](skills/data-ai/agent-run/) | data-ai | majiayu000 | ★ 2 |
+| [agent-run-orchestrator](skills/ai-agents/agent-run-orchestrator/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-run-orchestrator](skills/ai-agents/agent-run-orchestrator/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-rust-engineer](skills/development/agent-rust-engineer/) | development | majiayu000 | ★ 95 |
 | [agent-rust-engineer](skills/development/agent-rust-engineer/) | development | majiayu000 | ★ 2 |
+| [agent-safety](skills/ai-agents/agent-safety/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-safety](skills/data-ai/agent-safety/) | data-ai | majiayu000 | ★ 2 |
+| [agent-sales-engineer](skills/business/agent-sales-engineer/) | business | majiayu000 | ★ 95 |
 | [agent-sales-engineer](skills/business/agent-sales-engineer/) | business | majiayu000 | ★ 2 |
+| [agent-scorer](skills/ai-agents/agent-scorer/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-scorer](skills/data-ai/agent-scorer/) | data-ai | majiayu000 | ★ 2 |
+| [agent-scrum-master](skills/ai-agents/agent-scrum-master/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-scrum-master](skills/development/agent-scrum-master/) | development | majiayu000 | ★ 2 |
+| [agent-sdk](skills/development/agent-sdk/) | development | majiayu000 | ★ 95 |
 | [agent-sdk](skills/development/agent-sdk/) | development | majiayu000 | ★ 2 |
 | [agent-sdk](skills/development/agent-sdk/) | development | majiayu000 | ★ 0 |
 | [agent-sdk](skills/development/agent-sdk/) | development | NeverSight | ★ 0 |
-| [agent-sdk](skills/development/agent-sdk/) | development | majiayu000 | ★ 0 |
+| [agent-sdk-definitions](skills/ai-agents/agent-sdk-definitions/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-sdk-definitions](skills/development/agent-sdk-definitions/) | development | majiayu000 | ★ 2 |
+| [agent-sdk-dev](skills/development/agent-sdk-dev/) | development | majiayu000 | ★ 95 |
 | [agent-sdk-dev](skills/development/agent-sdk-dev/) | development | majiayu000 | ★ 2 |
+| [agent-sdk-development](skills/ai-agents/agent-sdk-development/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-sdk-development](skills/development/agent-sdk-development/) | development | majiayu000 | ★ 2 |
+| [agent-search-specialist](skills/devops/agent-search-specialist/) | devops | majiayu000 | ★ 95 |
 | [agent-search-specialist](skills/devops/agent-search-specialist/) | devops | majiayu000 | ★ 2 |
+| [agent-security-auditor](skills/testing-security/agent-security-auditor/) | testing-security | majiayu000 | ★ 95 |
 | [agent-security-auditor](skills/testing-security/agent-security-auditor/) | testing-security | majiayu000 | ★ 2 |
+| [agent-security-engineer](skills/testing-security/agent-security-engineer/) | testing-security | majiayu000 | ★ 95 |
 | [agent-security-engineer](skills/testing-security/agent-security-engineer/) | testing-security | majiayu000 | ★ 2 |
 | [agent-security-manager](skills/testing-security/agent-security-manager/) | testing-security | ruvnet | ★ 0 |
 | [agent-security-manager](skills/testing-security/agent-security-manager/) | testing-security | NeverSight | ★ 0 |
 | [agent-security-manager](skills/testing-security/agent-security-manager/) | testing-security | majiayu000 | ★ 0 |
 | [agent-security-manager](skills/testing-security/agent-security-manager/) | testing-security | Finimo-Solutions | ★ 0 |
 | [agent-security-manager](skills/testing-security/agent-security-manager/) | testing-security | ruvnet | ★ 0 |
+| [agent-selecting-models](skills/ai-agents/agent-selecting-models/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-selecting-models](skills/data-ai/agent-selecting-models/) | data-ai | majiayu000 | ★ 2 |
+| [agent-selection](skills/development/agent-selection/) | development | majiayu000 | ★ 95 |
 | [agent-selection](skills/development/agent-selection/) | development | majiayu000 | ★ 2 |
+| [agent-seo-specialist](skills/business/agent-seo-specialist/) | business | majiayu000 | ★ 95 |
 | [agent-seo-specialist](skills/data-ai/agent-seo-specialist/) | data-ai | majiayu000 | ★ 2 |
 | [agent-sessions-layout](skills/design/agent-sessions-layout/) | design | microsoft | ★ 182.0k |
+| [agent-setup](skills/development/agent-setup/) | development | majiayu000 | ★ 95 |
 | [agent-setup](skills/data-ai/agent-setup/) | data-ai | majiayu000 | ★ 2 |
+| [agent-skill](skills/ai-agents/agent-skill/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-skill](skills/data-ai/agent-skill/) | data-ai | majiayu000 | ★ 2 |
+| [agent-skill-bridge](skills/ai-agents/agent-skill-bridge/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-skill-bridge](skills/data-ai/agent-skill-bridge/) | data-ai | majiayu000 | ★ 2 |
+| [agent-skill-creator](skills/ai-agents/agent-skill-creator/) | ai-agents | majiayu000 | ★ 95 |
+| [agent-skill-creator](skills/ai-agents/agent-skill-creator/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-skill-creator](skills/development/agent-skill-creator/) | development | majiayu000 | ★ 2 |
-| [agent-skill-creator](skills/ai-agents/agent-skill-creator/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-skill-mapping](skills/ai-agents/agent-skill-mapping/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-skill-mapping](skills/data-ai/agent-skill-mapping/) | data-ai | majiayu000 | ★ 2 |
+| [agent-skill-templates](skills/ai-agents/agent-skill-templates/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-skill-templates](skills/data-ai/agent-skill-templates/) | data-ai | majiayu000 | ★ 2 |
+| [agent-skill-use](skills/ai-agents/agent-skill-use/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-skill-use](skills/data-ai/agent-skill-use/) | data-ai | majiayu000 | ★ 2 |
+| [agent-skills](skills/ai-agents/agent-skills/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-skills](skills/data-ai/agent-skills/) | data-ai | majiayu000 | ★ 2 |
+| [agent-smith](skills/ai-agents/agent-smith/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-smith](skills/data-ai/agent-smith/) | data-ai | majiayu000 | ★ 2 |
+| [agent-spec-architect](skills/ai-agents/agent-spec-architect/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-spec-architect](skills/data-ai/agent-spec-architect/) | data-ai | majiayu000 | ★ 2 |
+| [agent-specialization](skills/ai-agents/agent-specialization/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-specialization](skills/data-ai/agent-specialization/) | data-ai | majiayu000 | ★ 2 |
 | [agent-specification](skills/devops/agent-specification/) | devops | ruvnet | ★ 0 |
+| [agent-spring-boot-engineer](skills/backend/agent-spring-boot-engineer/) | backend | majiayu000 | ★ 95 |
 | [agent-spring-boot-engineer](skills/development/agent-spring-boot-engineer/) | development | majiayu000 | ★ 2 |
+| [agent-sql-pro](skills/backend/agent-sql-pro/) | backend | majiayu000 | ★ 95 |
 | [agent-sql-pro](skills/development/agent-sql-pro/) | development | majiayu000 | ★ 2 |
+| [agent-sre-engineer](skills/tools/agent-sre-engineer/) | tools | majiayu000 | ★ 95 |
 | [agent-sre-engineer](skills/tools/agent-sre-engineer/) | tools | majiayu000 | ★ 2 |
+| [agent-swarm-orchestrator](skills/ai-agents/agent-swarm-orchestrator/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-swarm-orchestrator](skills/data-ai/agent-swarm-orchestrator/) | data-ai | majiayu000 | ★ 2 |
+| [agent-swift-expert](skills/backend/agent-swift-expert/) | backend | majiayu000 | ★ 95 |
 | [agent-swift-expert](skills/development/agent-swift-expert/) | development | majiayu000 | ★ 2 |
+| [agent-tailor](skills/ai-agents/agent-tailor/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-tailor](skills/data-ai/agent-tailor/) | data-ai | majiayu000 | ★ 2 |
+| [agent-task-conductor](skills/ai-agents/agent-task-conductor/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-task-conductor](skills/data-ai/agent-task-conductor/) | data-ai | majiayu000 | ★ 2 |
+| [agent-task-delegator](skills/ai-agents/agent-task-delegator/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-task-delegator](skills/data-ai/agent-task-delegator/) | data-ai | majiayu000 | ★ 2 |
+| [agent-task-distributor](skills/ai-agents/agent-task-distributor/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-task-distributor](skills/data-ai/agent-task-distributor/) | data-ai | majiayu000 | ★ 2 |
 | [agent-teams](skills/ai-agents/agent-teams/) | ai-agents | dundas | ★ 0 |
+| [agent-technical-writer](skills/documentation/agent-technical-writer/) | documentation | majiayu000 | ★ 95 |
 | [agent-technical-writer](skills/documentation/agent-technical-writer/) | documentation | majiayu000 | ★ 2 |
+| [agent-terraform-engineer](skills/devops/agent-terraform-engineer/) | devops | majiayu000 | ★ 95 |
 | [agent-terraform-engineer](skills/devops/agent-terraform-engineer/) | devops | majiayu000 | ★ 2 |
+| [agent-test-automator](skills/testing-security/agent-test-automator/) | testing-security | majiayu000 | ★ 95 |
 | [agent-test-automator](skills/testing-security/agent-test-automator/) | testing-security | majiayu000 | ★ 2 |
+| [agent-test-delegation](skills/ai-agents/agent-test-delegation/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-test-delegation](skills/ai-agents/agent-test-delegation/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-tool](skills/ai-agents/agent-tool/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-tool](skills/tools/agent-tool/) | tools | majiayu000 | ★ 2 |
 | [agent-tool-builder](skills/tools/agent-tool-builder/) | tools | sickn33 | ★ 16.7k |
 | [agent-tool-builder](skills/tools/agent-tool-builder/) | tools | sickn33 | ★ 15.4k |
+| [agent-tool-builder](skills/ai-agents/agent-tool-builder/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-tool-builder](skills/data-ai/agent-tool-builder/) | data-ai | majiayu000 | ★ 2 |
+| [agent-tooling-engineer](skills/tools/agent-tooling-engineer/) | tools | majiayu000 | ★ 95 |
 | [agent-tooling-engineer](skills/tools/agent-tooling-engineer/) | tools | majiayu000 | ★ 2 |
+| [agent-tools](skills/ai-agents/agent-tools/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-tools](skills/tools/agent-tools/) | tools | majiayu000 | ★ 2 |
 | [agent-tower-plugin](skills/data-ai/agent-tower-plugin/) | data-ai | NeverSight | ★ 0 |
+| [agent-trend-analyst](skills/development/agent-trend-analyst/) | development | majiayu000 | ★ 95 |
 | [agent-trend-analyst](skills/data-ai/agent-trend-analyst/) | data-ai | majiayu000 | ★ 2 |
 | [agent-trust](skills/ai-agents/agent-trust/) | ai-agents | ShivamSoni20 | ★ 0 |
+| [agent-tuning](skills/ai-agents/agent-tuning/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-tuning](skills/data-ai/agent-tuning/) | data-ai | majiayu000 | ★ 2 |
+| [agent-typescript-pro](skills/development/agent-typescript-pro/) | development | majiayu000 | ★ 95 |
 | [agent-typescript-pro](skills/development/agent-typescript-pro/) | development | majiayu000 | ★ 2 |
 | [agent-ui](skills/development/agent-ui/) | development | NeverSight | ★ 0 |
 | [agent-ui](skills/development/agent-ui/) | development | aiskillstore | ★ 0 |
 | [agent-ui](skills/development/agent-ui/) | development | inference-sh | ★ 0 |
 | [agent-ui](skills/ai-agents/agent-ui/) | ai-agents | NeverSight | ★ 0 |
+| [agent-ui-designer](skills/design/agent-ui-designer/) | design | majiayu000 | ★ 95 |
 | [agent-ui-designer](skills/design/agent-ui-designer/) | design | majiayu000 | ★ 2 |
+| [agent-ux-researcher](skills/design/agent-ux-researcher/) | design | majiayu000 | ★ 95 |
 | [agent-ux-researcher](skills/design/agent-ux-researcher/) | design | majiayu000 | ★ 2 |
+| [agent-validate-config](skills/ai-agents/agent-validate-config/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-validate-config](skills/ai-agents/agent-validate-config/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-vue-expert](skills/frontend/agent-vue-expert/) | frontend | majiayu000 | ★ 95 |
 | [agent-vue-expert](skills/development/agent-vue-expert/) | development | majiayu000 | ★ 2 |
+| [agent-websocket-engineer](skills/fullstack-web/agent-websocket-engineer/) | fullstack-web | majiayu000 | ★ 95 |
 | [agent-websocket-engineer](skills/development/agent-websocket-engineer/) | development | majiayu000 | ★ 2 |
+| [agent-wordpress-master](skills/development/agent-wordpress-master/) | development | majiayu000 | ★ 95 |
 | [agent-wordpress-master](skills/tools/agent-wordpress-master/) | tools | majiayu000 | ★ 2 |
 | [agent-worker](skills/data-ai/agent-worker/) | data-ai | lidessen | ★ 0 |
 | [agent-worker](skills/data-ai/agent-worker/) | data-ai | NeverSight | ★ 0 |
 | [agent-worker](skills/ai-agents/agent-worker/) | ai-agents | NeverSight | ★ 0 |
-| [agent-workflow](skills/ai-agents/agent-workflow/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-workflow](skills/ai-agents/agent-workflow/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-workflow](skills/ai-agents/agent-workflow/) | ai-agents | ruvnet | ★ 0 |
+| [agent-workflow-orchestrator](skills/design/agent-workflow-orchestrator/) | design | majiayu000 | ★ 95 |
 | [agent-workflow-orchestrator](skills/design/agent-workflow-orchestrator/) | design | majiayu000 | ★ 2 |
-| [agent-workflow-patterns](skills/ai-agents/agent-workflow-patterns/) | ai-agents | majiayu000 | ★ 2 |
-| [agent-workflow-playbook](skills/ai-agents/agent-workflow-playbook/) | ai-agents | majiayu000 | ★ 2 |
+| [agent-workflow-patterns](skills/ai-agents/agent-workflow-patterns/) | ai-agents | majiayu000 | ★ 95 |
+| [agent-workflow-playbook](skills/ai-agents/agent-workflow-playbook/) | ai-agents | majiayu000 | ★ 95 |
 | [agent-zero](skills/data-ai/agent-zero/) | data-ai | wheattoast11 | ★ 0 |
-| [agenta](skills/ai-agents/agenta/) | ai-agents | majiayu000 | ★ 2 |
-| [agentation](skills/frontend/agentation/) | frontend | majiayu000 | ★ 2 |
+| [agenta](skills/ai-agents/agenta/) | ai-agents | majiayu000 | ★ 95 |
+| [agentation](skills/frontend/agentation/) | frontend | majiayu000 | ★ 95 |
 | [agentation](skills/data-ai/agentation/) | data-ai | benjitaylor | ★ 0 |
 | [agentation](skills/data-ai/agentation/) | data-ai | yunfei07 | ★ 0 |
 | [agentation](skills/data-ai/agentation/) | data-ai | olzn | ★ 0 |
 | [agentbase](skills/development/agentbase/) | development | sidmohan0 | ★ 0 |
 | [agentbook](skills/data-ai/agentbook/) | data-ai | openclaw | ★ 0 |
 | [agentbook](skills/data-ai/agentbook/) | data-ai | NeverSight | ★ 0 |
-| [agentctl-cli](skills/cli-automation/agentctl-cli/) | cli-automation | majiayu000 | ★ 2 |
-| [AgentDB Advanced Features](skills/ai-agents/agentdb-advanced-features/) | ai-agents | majiayu000 | ★ 2 |
-| [AgentDB Learning Plugins](skills/tools/agentdb-learning-plugins/) | tools | majiayu000 | ★ 2 |
-| [AgentDB Memory Patterns](skills/ai-agents/agentdb-memory-patterns/) | ai-agents | majiayu000 | ★ 2 |
-| [AgentDB Performance Optimization](skills/ai-agents/agentdb-performance-optimization/) | ai-agents | majiayu000 | ★ 2 |
-| [AgentDB Vector Search](skills/ai-agents/agentdb-vector-search/) | ai-agents | majiayu000 | ★ 2 |
-| [agentdb-persistent-memory-patterns](skills/ai-agents/agentdb-persistent-memory-patterns/) | ai-agents | majiayu000 | ★ 2 |
-| [agentdb-reinforcement-learning-training](skills/ai-agents/agentdb-reinforcement-learning-training/) | ai-agents | majiayu000 | ★ 2 |
-| [agentdb-vector-search-optimization](skills/ai-agents/agentdb-vector-search-optimization/) | ai-agents | majiayu000 | ★ 2 |
-| [agentDevCoder](skills/ai-agents/agentdevcoder/) | ai-agents | majiayu000 | ★ 2 |
-| [agente-cientifico-ia](skills/ai-agents/agente-cientifico-ia/) | ai-agents | majiayu000 | ★ 2 |
-| [agentfolio](skills/ai-agents/agentfolio/) | ai-agents | sickn33 | ★ 16.7k |
+| [agentctl-cli](skills/cli-automation/agentctl-cli/) | cli-automation | majiayu000 | ★ 95 |
+| [AgentDB Advanced Features](skills/ai-agents/agentdb-advanced-features/) | ai-agents | majiayu000 | ★ 95 |
+| [AgentDB Learning Plugins](skills/tools/agentdb-learning-plugins/) | tools | majiayu000 | ★ 95 |
+| [AgentDB Memory Patterns](skills/ai-agents/agentdb-memory-patterns/) | ai-agents | majiayu000 | ★ 95 |
+| [AgentDB Performance Optimization](skills/ai-agents/agentdb-performance-optimization/) | ai-agents | majiayu000 | ★ 95 |
+| [AgentDB Vector Search](skills/ai-agents/agentdb-vector-search/) | ai-agents | majiayu000 | ★ 95 |
+| [agentdb-persistent-memory-patterns](skills/ai-agents/agentdb-persistent-memory-patterns/) | ai-agents | majiayu000 | ★ 95 |
+| [agentdb-reinforcement-learning-training](skills/ai-agents/agentdb-reinforcement-learning-training/) | ai-agents | majiayu000 | ★ 95 |
+| [agentdb-vector-search-optimization](skills/ai-agents/agentdb-vector-search-optimization/) | ai-agents | majiayu000 | ★ 95 |
+| [agentDevCoder](skills/ai-agents/agentdevcoder/) | ai-agents | majiayu000 | ★ 95 |
+| [agente-cientifico-ia](skills/ai-agents/agente-cientifico-ia/) | ai-agents | majiayu000 | ★ 95 |
+| [agentfolio](skills/ai-agents/agentfolio/) | ai-agents | sickn33 | ★ 17.3k |
 | [agentforce-2025](skills/ai-agents/agentforce-2025/) | ai-agents | majiayu000 | ★ 2 |
 | [agentforce-2025](skills/data-ai/agentforce-2025/) | data-ai | majiayu000 | ★ 0 |
 | [agentforce-2025](skills/data-ai/agentforce-2025/) | data-ai | JosiahSiegel | ★ 0 |
 | [agentforce-2025](skills/data-ai/agentforce-2025/) | data-ai | majiayu000 | ★ 0 |
 | [agentguard](skills/data-ai/agentguard/) | data-ai | NeverSight | ★ 0 |
-| [agenthero-ai](skills/ai-agents/agenthero-ai/) | ai-agents | majiayu000 | ★ 2 |
-| [Agentic Feature Design](skills/ai-agents/agentic-feature-design/) | ai-agents | majiayu000 | ★ 2 |
-| [agentic_architecture](skills/development/agentic_architecture/) | development | majiayu000 | ★ 2 |
-| [agentic_architecture](skills/development/agentic_architecture/) | development | majiayu000 | ★ 2 |
+| [agenthero-ai](skills/ai-agents/agenthero-ai/) | ai-agents | majiayu000 | ★ 95 |
+| [Agentic Feature Design](skills/ai-agents/agentic-feature-design/) | ai-agents | majiayu000 | ★ 95 |
+| [agentic_architecture](skills/development/agentic_architecture/) | development | majiayu000 | ★ 95 |
+| [agentic_architecture](skills/development/agentic_architecture/) | development | majiayu000 | ★ 95 |
 | [agentic-chat](skills/data-ai/agentic-chat/) | data-ai | majiayu000 | ★ 0 |
 | [agentic-chat](skills/data-ai/agentic-chat/) | data-ai | majiayu000 | ★ 0 |
 | [agentic-chat](skills/ai-agents/agentic-chat/) | ai-agents | majiayu000 | ★ 0 |
-| [agentic-coach](skills/ai-agents/agentic-coach/) | ai-agents | majiayu000 | ★ 2 |
-| [agentic-development](skills/ai-agents/agentic-development/) | ai-agents | majiayu000 | ★ 2 |
+| [agentic-coach](skills/ai-agents/agentic-coach/) | ai-agents | majiayu000 | ★ 95 |
+| [agentic-development](skills/ai-agents/agentic-development/) | ai-agents | majiayu000 | ★ 95 |
+| [agentic-docs](skills/ai-agents/agentic-docs/) | ai-agents | majiayu000 | ★ 95 |
 | [agentic-docs](skills/documentation/agentic-docs/) | documentation | majiayu000 | ★ 0 |
 | [agentic-docs](skills/documentation/agentic-docs/) | documentation | petekp | ★ 0 |
 | [agentic-docs](skills/documentation/agentic-docs/) | documentation | majiayu000 | ★ 0 |
 | [agentic-docs](skills/documentation/agentic-docs/) | documentation | petekp | ★ 0 |
 | [agentic-docs](skills/documentation/agentic-docs/) | documentation | NeverSight | ★ 0 |
-| [agentic-docs](skills/ai-agents/agentic-docs/) | ai-agents | majiayu000 | ★ 0 |
-| [agentic-engineering-workflow](skills/ai-agents/agentic-engineering-workflow/) | ai-agents | majiayu000 | ★ 2 |
+| [agentic-engineering-workflow](skills/ai-agents/agentic-engineering-workflow/) | ai-agents | majiayu000 | ★ 95 |
 | [agentic-issue-assistant](skills/data-ai/agentic-issue-assistant/) | data-ai | ephabe | ★ 0 |
-| [agentic-jujutsu](skills/ai-agents/agentic-jujutsu/) | ai-agents | majiayu000 | ★ 2 |
-| [agentic-jumpstart-architecture](skills/development/agentic-jumpstart-architecture/) | development | majiayu000 | ★ 2 |
-| [agentic-jumpstart-code-quality](skills/development/agentic-jumpstart-code-quality/) | development | majiayu000 | ★ 2 |
-| [agentic-jumpstart-dependency-management](skills/ai-agents/agentic-jumpstart-dependency-management/) | ai-agents | majiayu000 | ★ 2 |
+| [agentic-jujutsu](skills/ai-agents/agentic-jujutsu/) | ai-agents | majiayu000 | ★ 95 |
+| [agentic-jumpstart-architecture](skills/development/agentic-jumpstart-architecture/) | development | majiayu000 | ★ 95 |
+| [agentic-jumpstart-code-quality](skills/development/agentic-jumpstart-code-quality/) | development | majiayu000 | ★ 95 |
+| [agentic-jumpstart-dependency-management](skills/ai-agents/agentic-jumpstart-dependency-management/) | ai-agents | majiayu000 | ★ 95 |
 | [agentic-jumpstart-frontend](skills/development/agentic-jumpstart-frontend/) | development | webdevcody | ★ 0 |
 | [agentic-jumpstart-frontend](skills/development/agentic-jumpstart-frontend/) | development | damandeep611 | ★ 0 |
-| [agentic-jumpstart-performance](skills/tools/agentic-jumpstart-performance/) | tools | majiayu000 | ★ 2 |
-| [agentic-jumpstart-security](skills/ai-agents/agentic-jumpstart-security/) | ai-agents | majiayu000 | ★ 2 |
-| [agentic-jumpstart-testing](skills/ai-agents/agentic-jumpstart-testing/) | ai-agents | majiayu000 | ★ 2 |
-| [agentic-kpi-tracking](skills/ai-agents/agentic-kpi-tracking/) | ai-agents | majiayu000 | ★ 2 |
-| [agentic-layer-assessment](skills/ai-agents/agentic-layer-assessment/) | ai-agents | majiayu000 | ★ 2 |
-| [agentic-layer-audit](skills/ai-agents/agentic-layer-audit/) | ai-agents | majiayu000 | ★ 2 |
-| [agentic-orchestrating](skills/ai-agents/agentic-orchestrating/) | ai-agents | majiayu000 | ★ 2 |
-| [agentic-orchestration](skills/ai-agents/agentic-orchestration/) | ai-agents | majiayu000 | ★ 2 |
-| [agentic-patterns](skills/ai-agents/agentic-patterns/) | ai-agents | majiayu000 | ★ 2 |
-| [agentic-product-prototyping](skills/ai-agents/agentic-product-prototyping/) | ai-agents | majiayu000 | ★ 2 |
-| [agentic-quality-engineering](skills/ai-agents/agentic-quality-engineering/) | ai-agents | majiayu000 | ★ 2 |
+| [agentic-jumpstart-performance](skills/tools/agentic-jumpstart-performance/) | tools | majiayu000 | ★ 95 |
+| [agentic-jumpstart-security](skills/ai-agents/agentic-jumpstart-security/) | ai-agents | majiayu000 | ★ 95 |
+| [agentic-jumpstart-testing](skills/ai-agents/agentic-jumpstart-testing/) | ai-agents | majiayu000 | ★ 95 |
+| [agentic-kpi-tracking](skills/ai-agents/agentic-kpi-tracking/) | ai-agents | majiayu000 | ★ 95 |
+| [agentic-layer-assessment](skills/ai-agents/agentic-layer-assessment/) | ai-agents | majiayu000 | ★ 95 |
+| [agentic-layer-audit](skills/ai-agents/agentic-layer-audit/) | ai-agents | majiayu000 | ★ 95 |
+| [agentic-orchestrating](skills/ai-agents/agentic-orchestrating/) | ai-agents | majiayu000 | ★ 95 |
+| [agentic-orchestration](skills/ai-agents/agentic-orchestration/) | ai-agents | majiayu000 | ★ 95 |
+| [agentic-patterns](skills/ai-agents/agentic-patterns/) | ai-agents | majiayu000 | ★ 95 |
+| [agentic-product-prototyping](skills/ai-agents/agentic-product-prototyping/) | ai-agents | majiayu000 | ★ 95 |
+| [agentic-quality-engineering](skills/ai-agents/agentic-quality-engineering/) | ai-agents | majiayu000 | ★ 95 |
 | [agentic-rules-writer](skills/ai-agents/agentic-rules-writer/) | ai-agents | krzysztofsurdy | ★ 0 |
-| [agentic-structure](skills/development/agentic-structure/) | development | majiayu000 | ★ 2 |
-| [agentic-workflow-automation](skills/ai-agents/agentic-workflow-automation/) | ai-agents | majiayu000 | ★ 2 |
-| [agentic-workflow-guide](skills/ai-agents/agentic-workflow-guide/) | ai-agents | majiayu000 | ★ 2 |
-| [agentic-workflows](skills/ai-agents/agentic-workflows/) | ai-agents | majiayu000 | ★ 2 |
-| [agentica-claude-proxy](skills/ai-agents/agentica-claude-proxy/) | ai-agents | majiayu000 | ★ 2 |
-| [agentica-infrastructure](skills/ai-agents/agentica-infrastructure/) | ai-agents | majiayu000 | ★ 2 |
-| [agentica-prompts](skills/ai-agents/agentica-prompts/) | ai-agents | majiayu000 | ★ 2 |
-| [agentica-sdk](skills/ai-agents/agentica-sdk/) | ai-agents | majiayu000 | ★ 2 |
-| [agentica-server](skills/ai-agents/agentica-server/) | ai-agents | majiayu000 | ★ 2 |
-| [agentica-spawn](skills/ai-agents/agentica-spawn/) | ai-agents | majiayu000 | ★ 2 |
-| [agenticflow-skills](skills/ai-agents/agenticflow-skills/) | ai-agents | majiayu000 | ★ 2 |
+| [agentic-structure](skills/development/agentic-structure/) | development | majiayu000 | ★ 95 |
+| [agentic-workflow-automation](skills/ai-agents/agentic-workflow-automation/) | ai-agents | majiayu000 | ★ 95 |
+| [agentic-workflow-guide](skills/ai-agents/agentic-workflow-guide/) | ai-agents | majiayu000 | ★ 95 |
+| [agentic-workflows](skills/ai-agents/agentic-workflows/) | ai-agents | majiayu000 | ★ 95 |
+| [agentica-claude-proxy](skills/ai-agents/agentica-claude-proxy/) | ai-agents | majiayu000 | ★ 95 |
+| [agentica-infrastructure](skills/ai-agents/agentica-infrastructure/) | ai-agents | majiayu000 | ★ 95 |
+| [agentica-prompts](skills/ai-agents/agentica-prompts/) | ai-agents | majiayu000 | ★ 95 |
+| [agentica-sdk](skills/ai-agents/agentica-sdk/) | ai-agents | majiayu000 | ★ 95 |
+| [agentica-server](skills/ai-agents/agentica-server/) | ai-agents | majiayu000 | ★ 95 |
+| [agentica-spawn](skills/ai-agents/agentica-spawn/) | ai-agents | majiayu000 | ★ 95 |
+| [agenticflow-skills](skills/ai-agents/agenticflow-skills/) | ai-agents | majiayu000 | ★ 95 |
 | [agenticmail](skills/data-ai/agenticmail/) | data-ai | openclaw | ★ 0 |
 | [agenticmail](skills/data-ai/agenticmail/) | data-ai | agenticmail | ★ 0 |
-| [agentkit](skills/ai-agents/agentkit/) | ai-agents | majiayu000 | ★ 2 |
-| [agentlightning-skill](skills/ai-agents/agentlightning-skill/) | ai-agents | majiayu000 | ★ 2 |
-| [agentmail](skills/ai-agents/agentmail/) | ai-agents | majiayu000 | ★ 2 |
+| [agentkit](skills/ai-agents/agentkit/) | ai-agents | majiayu000 | ★ 95 |
+| [agentlightning-skill](skills/ai-agents/agentlightning-skill/) | ai-agents | majiayu000 | ★ 95 |
+| [agentmail](skills/ai-agents/agentmail/) | ai-agents | majiayu000 | ★ 95 |
 | [agentmail-mcp](skills/data-ai/agentmail-mcp/) | data-ai | NeverSight | ★ 0 |
 | [agentmail-mcp](skills/data-ai/agentmail-mcp/) | data-ai | agentmail-to | ★ 0 |
 | [agentMemory](skills/data-ai/agentmemory/) | data-ai | webzler | ★ 0 |
@@ -2278,29 +2516,29 @@
 | [agentpmt-tool-post-on-discord-channel-a58379](skills/data-ai/agentpmt-tool-post-on-discord-channel-a58379/) | data-ai | firef1ie | ★ 0 |
 | [agentproof](skills/data-ai/agentproof/) | data-ai | packtman | ★ 0 |
 | [agentql-automation](skills/data-ai/agentql-automation/) | data-ai | ComposioHQ | ★ 37.3k |
-| [agents](skills/ai-agents/agents/) | ai-agents | majiayu000 | ★ 2 |
+| [agents](skills/ai-agents/agents/) | ai-agents | majiayu000 | ★ 95 |
 | [agents](skills/data-ai/agents/) | data-ai | pingqLIN | ★ 0 |
 | [agents](skills/data-ai/agents/) | data-ai | medyll | ★ 0 |
 | [agents](skills/data-ai/agents/) | data-ai | GSU-FrankJ | ★ 0 |
 | [agents](skills/data-ai/agents/) | data-ai | medyll | ★ 0 |
 | [agents](skills/ai-agents/agents/) | ai-agents | GobbyAI | ★ 0 |
 | [Agents](skills/ai-agents/agents/) | ai-agents | majiayu000 | ★ 2 |
-| [agents-bootstrap](skills/ai-agents/agents-bootstrap/) | ai-agents | majiayu000 | ★ 2 |
-| [agents-manager](skills/ai-agents/agents-manager/) | ai-agents | majiayu000 | ★ 2 |
-| [agents-md](skills/ai-agents/agents-md/) | ai-agents | majiayu000 | ★ 2 |
-| [agents-md](skills/ai-agents/agents-md/) | ai-agents | majiayu000 | ★ 2 |
+| [agents-bootstrap](skills/ai-agents/agents-bootstrap/) | ai-agents | majiayu000 | ★ 95 |
+| [agents-manager](skills/ai-agents/agents-manager/) | ai-agents | majiayu000 | ★ 95 |
+| [agents-md](skills/ai-agents/agents-md/) | ai-agents | majiayu000 | ★ 95 |
+| [agents-md](skills/ai-agents/agents-md/) | ai-agents | majiayu000 | ★ 95 |
 | [agents-md](skills/data-ai/agents-md/) | data-ai | NeverSight | ★ 0 |
 | [agents-md](skills/ai-agents/agents-md/) | ai-agents | jscraik | ★ 0 |
-| [agents-md-authoring-majo](skills/ai-agents/agents-md-authoring-majo/) | ai-agents | majiayu000 | ★ 2 |
-| [agents-md-creator](skills/ai-agents/agents-md-creator/) | ai-agents | majiayu000 | ★ 2 |
-| [agents-md-generator](skills/ai-agents/agents-md-generator/) | ai-agents | majiayu000 | ★ 2 |
+| [agents-md-authoring-majo](skills/ai-agents/agents-md-authoring-majo/) | ai-agents | majiayu000 | ★ 95 |
+| [agents-md-creator](skills/ai-agents/agents-md-creator/) | ai-agents | majiayu000 | ★ 95 |
+| [agents-md-generator](skills/ai-agents/agents-md-generator/) | ai-agents | majiayu000 | ★ 95 |
 | [agents-md-generator](skills/tools/agents-md-generator/) | tools | NeverSight | ★ 0 |
 | [agents-md-generator](skills/tools/agents-md-generator/) | tools | jthoms1 | ★ 0 |
 | [agents-md-generator](skills/tools/agents-md-generator/) | tools | do-ob-io | ★ 0 |
-| [agents-md-guide](skills/ai-agents/agents-md-guide/) | ai-agents | majiayu000 | ★ 2 |
+| [agents-md-guide](skills/ai-agents/agents-md-guide/) | ai-agents | majiayu000 | ★ 95 |
 | [agents-md-guidelines](skills/tools/agents-md-guidelines/) | tools | drevantonder | ★ 0 |
-| [agents-md-improver](skills/ai-agents/agents-md-improver/) | ai-agents | majiayu000 | ★ 2 |
-| [agents-sdk](skills/ai-agents/agents-sdk/) | ai-agents | majiayu000 | ★ 2 |
+| [agents-md-improver](skills/ai-agents/agents-md-improver/) | ai-agents | majiayu000 | ★ 95 |
+| [agents-sdk](skills/ai-agents/agents-sdk/) | ai-agents | majiayu000 | ★ 95 |
 | [agents-v2-py](skills/ai-agents/agents-v2-py/) | ai-agents | sickn33 | ★ 16.7k |
 | [agents-v2-py](skills/data-ai/agents-v2-py/) | data-ai | sickn33 | ★ 15.4k |
 | [agentskb](skills/ai-agents/agentskb/) | ai-agents | majiayu000 | ★ 2 |
@@ -3122,6 +3360,7 @@
 | [analyzer-architecture-review](skills/development/analyzer-architecture-review/) | development | majiayu000 | ★ 2 |
 | [Analyzing AgentScope Library](skills/development/analyzing-agentscope-library/) | development | majiayu000 | ★ 2 |
 | [Analyzing Problems Deeply](skills/backend/analyzing-problems-deeply/) | backend | majiayu000 | ★ 2 |
+| [Analyzing Spreadsheets](skills/development/analyzing-spreadsheets/) | development | majiayu000 | ★ 2 |
 | [analyzing-api-layer](skills/development/analyzing-api-layer/) | development | cliftonc | ★ 0 |
 | [analyzing-apm-data](skills/backend/analyzing-apm-data/) | backend | majiayu000 | ★ 2 |
 | [analyzing-auto-insurance-data](skills/data-ai/analyzing-auto-insurance-data/) | data-ai | majiayu000 | ★ 2 |
@@ -3159,60 +3398,259 @@
 | [analyzing-requirements](skills/product/analyzing-requirements/) | product | majiayu000 | ★ 2 |
 | [analyzing-research-documents](skills/design/analyzing-research-documents/) | design | majiayu000 | ★ 2 |
 | [analyzing-research-papers](skills/development/analyzing-research-papers/) | development | majiayu000 | ★ 2 |
+| [analyzing-response-quality](skills/ai-agents/analyzing-response-quality/) | ai-agents | majiayu000 | ★ 2 |
+| [analyzing-session-management](skills/testing-security/analyzing-session-management/) | testing-security | majiayu000 | ★ 2 |
+| [analyzing-source](skills/devops/analyzing-source/) | devops | majiayu000 | ★ 2 |
+| [analyzing-specifications](skills/devops/analyzing-specifications/) | devops | majiayu000 | ★ 2 |
+| [analyzing-system-throughput](skills/tools/analyzing-system-throughput/) | tools | majiayu000 | ★ 2 |
+| [analyzing-taint-flow](skills/development/analyzing-taint-flow/) | development | majiayu000 | ★ 2 |
+| [analyzing-tdigest-metrics](skills/backend/analyzing-tdigest-metrics/) | backend | majiayu000 | ★ 2 |
+| [analyzing-test-coverage](skills/ai-agents/analyzing-test-coverage/) | ai-agents | majiayu000 | ★ 2 |
+| [analyzing-test-effectiveness](skills/testing-security/analyzing-test-effectiveness/) | testing-security | majiayu000 | ★ 2 |
+| [analyzing-test-quality](skills/testing-security/analyzing-test-quality/) | testing-security | majiayu000 | ★ 2 |
+| [analyzing-text-patterns](skills/development/analyzing-text-patterns/) | development | majiayu000 | ★ 2 |
+| [analyzing-unknown-codebases](skills/development/analyzing-unknown-codebases/) | development | majiayu000 | ★ 2 |
+| [analyzing-user-feedback](skills/development/analyzing-user-feedback/) | development | majiayu000 | ★ 2 |
+| [analyzing-user-feedback](skills/product/analyzing-user-feedback/) | product | majiayu000 | ★ 2 |
+| [analyzing-websites](skills/fullstack-web/analyzing-websites/) | fullstack-web | majiayu000 | ★ 2 |
+| [anaplan-planning](skills/backend/anaplan-planning/) | backend | majiayu000 | ★ 2 |
+| [anchor](skills/cli-automation/anchor/) | cli-automation | majiayu000 | ★ 2 |
+| [anchor-based-context-recovery](skills/development/anchor-based-context-recovery/) | development | majiayu000 | ★ 2 |
 | [anchor-browser-automation](skills/tools/anchor-browser-automation/) | tools | ComposioHQ | ★ 37.3k |
+| [anchor-expert-2026](skills/testing-security/anchor-expert-2026/) | testing-security | majiayu000 | ★ 2 |
+| [anchor-project-scaffold](skills/tools/anchor-project-scaffold/) | tools | majiayu000 | ★ 2 |
+| [anchor-suggester](skills/development/anchor-suggester/) | development | majiayu000 | ★ 2 |
+| [anchoring-effect](skills/backend/anchoring-effect/) | backend | majiayu000 | ★ 2 |
+| [ancient-greek](skills/devops/ancient-greek/) | devops | majiayu000 | ★ 2 |
+| [ancplua-docs](skills/documentation/ancplua-docs/) | documentation | majiayu000 | ★ 2 |
+| [andrew-kane-gem-writer](skills/development/andrew-kane-gem-writer/) | development | majiayu000 | ★ 2 |
+| [android](skills/development/android/) | development | majiayu000 | ★ 2 |
 | [android_ui_verification](skills/design/android_ui_verification/) | design | sickn33 | ★ 16.8k |
+| [android-adb](skills/development/android-adb/) | development | majiayu000 | ★ 2 |
+| [android-additional-tests](skills/testing-security/android-additional-tests/) | testing-security | majiayu000 | ★ 2 |
+| [android-admob](skills/development/android-admob/) | development | majiayu000 | ★ 2 |
 | [android-agent-skills](skills/development/android-agent-skills/) | development | devtrongle | ★ 0 |
+| [android-app-icon](skills/fullstack-web/android-app-icon/) | fullstack-web | majiayu000 | ★ 2 |
+| [android-architecture](skills/development/android-architecture/) | development | majiayu000 | ★ 2 |
+| [android-ci-tests](skills/devops/android-ci-tests/) | devops | majiayu000 | ★ 2 |
+| [android-code-review](skills/development/android-code-review/) | development | majiayu000 | ★ 2 |
+| [android-debug](skills/development/android-debug/) | development | majiayu000 | ★ 2 |
+| [android-deploy-usb](skills/devops/android-deploy-usb/) | devops | majiayu000 | ★ 2 |
+| [android-dev-core](skills/development/android-dev-core/) | development | majiayu000 | ★ 2 |
+| [android-dev-standards](skills/development/android-dev-standards/) | development | majiayu000 | ★ 2 |
+| [android-development](skills/development/android-development/) | development | majiayu000 | ★ 2 |
+| [android-e2e-testing-setup](skills/testing-security/android-e2e-testing-setup/) | testing-security | majiayu000 | ★ 2 |
+| [android-emulator-skill](skills/cli-automation/android-emulator-skill/) | cli-automation | majiayu000 | ★ 2 |
+| [android-engineering-core](skills/development/android-engineering-core/) | development | majiayu000 | ★ 2 |
+| [android-espresso-dependencies](skills/devops/android-espresso-dependencies/) | devops | majiayu000 | ★ 2 |
+| [android-expert](skills/development/android-expert/) | development | majiayu000 | ★ 2 |
+| [android-fastlane-setup](skills/devops/android-fastlane-setup/) | devops | majiayu000 | ★ 2 |
+| [android-firebase](skills/development/android-firebase/) | development | majiayu000 | ★ 2 |
+| [android-gradle](skills/development/android-gradle/) | development | majiayu000 | ★ 2 |
+| [android-java](skills/frontend/android-java/) | frontend | majiayu000 | ★ 2 |
 | [android-jetpack-compose-expert](skills/design/android-jetpack-compose-expert/) | design | sickn33 | ★ 16.7k |
 | [android-jetpack-compose-expert](skills/design/android-jetpack-compose-expert/) | design | sickn33 | ★ 15.4k |
+| [android-keystore-generation](skills/development/android-keystore-generation/) | development | majiayu000 | ★ 2 |
+| [android-kotlin](skills/development/android-kotlin/) | development | majiayu000 | ★ 2 |
+| [android-kotlin](skills/development/android-kotlin/) | development | majiayu000 | ★ 2 |
+| [android-kotlin-development](skills/development/android-kotlin-development/) | development | majiayu000 | ★ 2 |
+| [android-motion-specialist](skills/development/android-motion-specialist/) | development | majiayu000 | ★ 2 |
+| [android-notification-builder](skills/development/android-notification-builder/) | development | majiayu000 | ★ 2 |
+| [android-playstore-api-validation](skills/backend/android-playstore-api-validation/) | backend | majiayu000 | ★ 2 |
+| [android-playstore-pipeline](skills/devops/android-playstore-pipeline/) | devops | majiayu000 | ★ 2 |
+| [android-playstore-publishing](skills/cli-automation/android-playstore-publishing/) | cli-automation | majiayu000 | ★ 2 |
+| [android-playstore-scan](skills/tools/android-playstore-scan/) | tools | majiayu000 | ★ 2 |
+| [android-playstore-setup](skills/devops/android-playstore-setup/) | devops | majiayu000 | ★ 2 |
+| [android-product-shaping](skills/product/android-product-shaping/) | product | majiayu000 | ★ 2 |
+| [android-proguard-setup](skills/tools/android-proguard-setup/) | tools | majiayu000 | ★ 2 |
+| [android-project](skills/development/android-project/) | development | majiayu000 | ★ 2 |
+| [android-qa-verification](skills/backend/android-qa-verification/) | backend | majiayu000 | ★ 2 |
+| [android-release](skills/tools/android-release/) | tools | majiayu000 | ★ 2 |
+| [android-release-build-setup](skills/tools/android-release-build-setup/) | tools | majiayu000 | ★ 2 |
+| [android-release-notes-structure](skills/documentation/android-release-notes-structure/) | documentation | majiayu000 | ★ 2 |
+| [android-release-validation](skills/tools/android-release-validation/) | tools | majiayu000 | ★ 2 |
+| [android-restart-app](skills/backend/android-restart-app/) | backend | majiayu000 | ★ 2 |
+| [android-screen-capture](skills/devops/android-screen-capture/) | devops | majiayu000 | ★ 2 |
+| [android-screenshot-automation](skills/cli-automation/android-screenshot-automation/) | cli-automation | majiayu000 | ★ 2 |
+| [android-service-account-guide](skills/documentation/android-service-account-guide/) | documentation | majiayu000 | ★ 2 |
+| [android-signing-config](skills/tools/android-signing-config/) | tools | majiayu000 | ★ 2 |
+| [android-stop-app](skills/fullstack-web/android-stop-app/) | fullstack-web | majiayu000 | ★ 2 |
 | [android-stop-app](skills/development/android-stop-app/) | development | majiayu000 | ★ 0 |
-| [android-stop-app](skills/fullstack-web/android-stop-app/) | fullstack-web | majiayu000 | ★ 0 |
+| [android-store-listing](skills/product/android-store-listing/) | product | majiayu000 | ★ 2 |
+| [android-supabase](skills/development/android-supabase/) | development | majiayu000 | ★ 2 |
+| [android-test-runner](skills/testing-security/android-test-runner/) | testing-security | majiayu000 | ★ 2 |
+| [android-test-structure](skills/testing-security/android-test-structure/) | testing-security | majiayu000 | ★ 2 |
+| [android-ui-compose](skills/design/android-ui-compose/) | design | majiayu000 | ★ 2 |
+| [android-ui-design-guide](skills/design/android-ui-design-guide/) | design | majiayu000 | ★ 2 |
+| [android-unit-test](skills/testing-security/android-unit-test/) | testing-security | majiayu000 | ★ 2 |
 | [android-use](skills/development/android-use/) | development | NeverSight | ★ 0 |
 | [android-use](skills/development/android-use/) | development | shehbajdhillon | ★ 0 |
+| [android-ux-flows](skills/design/android-ux-flows/) | design | majiayu000 | ★ 2 |
+| [android-watch-logs](skills/development/android-watch-logs/) | development | majiayu000 | ★ 2 |
+| [android-workflow-beta](skills/cli-automation/android-workflow-beta/) | cli-automation | majiayu000 | ★ 2 |
+| [android-workflow-internal](skills/devops/android-workflow-internal/) | devops | majiayu000 | ★ 2 |
+| [android-workflow-production](skills/product/android-workflow-production/) | product | majiayu000 | ★ 2 |
+| [angle-generator](skills/tools/angle-generator/) | tools | majiayu000 | ★ 2 |
+| [angreal-patterns](skills/development/angreal-patterns/) | development | majiayu000 | ★ 2 |
+| [angular](skills/frontend/angular/) | frontend | majiayu000 | ★ 2 |
 | [angular](skills/frontend/angular/) | frontend | pingqLIN | ★ 0 |
 | [angular-app-setup](skills/development/angular-app-setup/) | development | cromesdk | ★ 0 |
+| [angular-architect](skills/frontend/angular-architect/) | frontend | majiayu000 | ★ 2 |
 | [angular-best-practices](skills/development/angular-best-practices/) | development | sickn33 | ★ 16.7k |
 | [angular-best-practices](skills/development/angular-best-practices/) | development | sickn33 | ★ 15.4k |
 | [angular-best-practices](skills/frontend/angular-best-practices/) | frontend | NeverSight | ★ 0 |
 | [angular-best-practices-spartan](skills/frontend/angular-best-practices-spartan/) | frontend | NeverSight | ★ 0 |
 | [angular-best-practices-transloco](skills/frontend/angular-best-practices-transloco/) | frontend | NeverSight | ★ 0 |
+| [angular-component](skills/frontend/angular-component/) | frontend | majiayu000 | ★ 2 |
+| [angular-component-generator](skills/frontend/angular-component-generator/) | frontend | majiayu000 | ★ 2 |
+| [angular-dependency-injection](skills/frontend/angular-dependency-injection/) | frontend | majiayu000 | ★ 2 |
+| [angular-developer](skills/frontend/angular-developer/) | frontend | majiayu000 | ★ 2 |
+| [angular-development](skills/development/angular-development/) | development | majiayu000 | ★ 2 |
+| [angular-di](skills/frontend/angular-di/) | frontend | majiayu000 | ★ 2 |
+| [angular-directives](skills/frontend/angular-directives/) | frontend | majiayu000 | ★ 2 |
+| [angular-expert](skills/frontend/angular-expert/) | frontend | majiayu000 | ★ 2 |
+| [angular-forms](skills/frontend/angular-forms/) | frontend | majiayu000 | ★ 2 |
 | [angular-forms](skills/development/angular-forms/) | development | ROU-Technology | ★ 0 |
 | [angular-forms](skills/development/angular-forms/) | development | walkingriver | ★ 0 |
 | [angular-forms](skills/development/angular-forms/) | development | majiayu000 | ★ 0 |
+| [angular-frontend](skills/frontend/angular-frontend/) | frontend | majiayu000 | ★ 2 |
+| [angular-material](skills/frontend/angular-material/) | frontend | majiayu000 | ★ 2 |
 | [angular-material](skills/development/angular-material/) | development | oguzhan18 | ★ 0 |
 | [angular-migration](skills/frontend/angular-migration/) | frontend | sickn33 | ★ 16.7k |
 | [angular-migration](skills/development/angular-migration/) | development | sickn33 | ★ 15.4k |
+| [angular-migration](skills/frontend/angular-migration/) | frontend | majiayu000 | ★ 2 |
+| [angular-migration](skills/frontend/angular-migration/) | frontend | majiayu000 | ★ 2 |
+| [angular-modernization](skills/frontend/angular-modernization/) | frontend | majiayu000 | ★ 2 |
+| [angular-module-design](skills/frontend/angular-module-design/) | frontend | majiayu000 | ★ 2 |
+| [angular-router](skills/frontend/angular-router/) | frontend | majiayu000 | ★ 2 |
+| [angular-rxjs-patterns](skills/frontend/angular-rxjs-patterns/) | frontend | majiayu000 | ★ 2 |
+| [angular-signals](skills/frontend/angular-signals/) | frontend | majiayu000 | ★ 2 |
+| [angular-ssr](skills/frontend/angular-ssr/) | frontend | majiayu000 | ★ 2 |
 | [angular-state-management](skills/frontend/angular-state-management/) | frontend | sickn33 | ★ 16.7k |
 | [angular-state-management](skills/development/angular-state-management/) | development | sickn33 | ★ 15.4k |
+| [angular-testing](skills/frontend/angular-testing/) | frontend | majiayu000 | ★ 2 |
+| [angular-tooling](skills/frontend/angular-tooling/) | frontend | majiayu000 | ★ 2 |
+| [angular-typescript-cursorrules-prompt-file-cursorrules](skills/frontend/angular-typescript-cursorrules-prompt-file-cursorrules/) | frontend | Tryboy869 | ★ 0 |
 | [angular-ui-patterns](skills/frontend/angular-ui-patterns/) | frontend | sickn33 | ★ 16.7k |
 | [angular-ui-patterns](skills/development/angular-ui-patterns/) | development | sickn33 | ★ 15.4k |
 | [angular-v17](skills/frontend/angular-v17/) | frontend | GoldenPanda1104 | ★ 0 |
+| [angular-v21-development](skills/frontend/angular-v21-development/) | frontend | majiayu000 | ★ 2 |
+| [anima-theory](skills/machine-learning/anima-theory/) | machine-learning | majiayu000 | ★ 2 |
+| [animate](skills/frontend/animate/) | frontend | majiayu000 | ★ 2 |
+| [animated-image](skills/content-media/animated-image/) | content-media | majiayu000 | ★ 2 |
+| [animating-advanced](skills/tools/animating-advanced/) | tools | majiayu000 | ★ 2 |
 | [animating-advanced](skills/development/animating-advanced/) | development | majiayu000 | ★ 0 |
-| [animating-advanced](skills/tools/animating-advanced/) | tools | majiayu000 | ★ 0 |
+| [animation](skills/frontend/animation/) | frontend | majiayu000 | ★ 2 |
 | [animation-best-practices](skills/development/animation-best-practices/) | development | sushichan044 | ★ 0 |
+| [animation-creator](skills/design/animation-creator/) | design | majiayu000 | ★ 2 |
+| [animation-designer](skills/design/animation-designer/) | design | majiayu000 | ★ 2 |
+| [animation-interaction-validator](skills/frontend/animation-interaction-validator/) | frontend | majiayu000 | ★ 2 |
+| [animation-motion](skills/frontend/animation-motion/) | frontend | majiayu000 | ★ 2 |
+| [animation-motion](skills/frontend/animation-motion/) | frontend | majiayu000 | ★ 2 |
+| [animation-principles](skills/design/animation-principles/) | design | majiayu000 | ★ 2 |
+| [animation-rigging](skills/cli-automation/animation-rigging/) | cli-automation | majiayu000 | ★ 2 |
+| [animation-skill](skills/cli-automation/animation-skill/) | cli-automation | majiayu000 | ★ 2 |
+| [animation-system](skills/content-media/animation-system/) | content-media | majiayu000 | ★ 2 |
+| [animations-motion](skills/cli-automation/animations-motion/) | cli-automation | majiayu000 | ★ 2 |
+| [animations-transitions](skills/design/animations-transitions/) | design | majiayu000 | ★ 2 |
+| [animator-skill](skills/content-media/animator-skill/) | content-media | majiayu000 | ★ 2 |
+| [animator-traditional](skills/fullstack-web/animator-traditional/) | fullstack-web | majiayu000 | ★ 2 |
 | [anime](skills/data-ai/anime/) | data-ai | jeffaf | ★ 0 |
+| [animejs-v4](skills/frontend/animejs-v4/) | frontend | majiayu000 | ★ 2 |
+| [anki-card-generator](skills/tools/anki-card-generator/) | tools | majiayu000 | ★ 2 |
+| [anki-card-generator](skills/tools/anki-card-generator/) | tools | majiayu000 | ★ 2 |
+| [annas-archive-ebooks](skills/testing-security/annas-archive-ebooks/) | testing-security | majiayu000 | ★ 2 |
 | [annas-to-notebooklm](skills/development/annas-to-notebooklm/) | development | zstmfhy | ★ 0 |
 | [annas-to-notebooklm](skills/development/annas-to-notebooklm/) | development | NeverSight | ★ 0 |
+| [anndata](skills/data-ai/anndata/) | data-ai | majiayu000 | ★ 2 |
+| [annotate](skills/ai-agents/annotate/) | ai-agents | majiayu000 | ★ 2 |
+| [annotate-talk](skills/content-media/annotate-talk/) | content-media | majiayu000 | ★ 2 |
 | [annotating-csv](skills/ai-agents/annotating-csv/) | ai-agents | brook-miller | ★ 0 |
+| [annotations](skills/backend/annotations/) | backend | majiayu000 | ★ 2 |
+| [Announcement Drafter](skills/communication/announcement-drafter/) | communication | majiayu000 | ★ 2 |
+| [AnnualReports](skills/testing-security/annualreports/) | testing-security | majiayu000 | ★ 2 |
 | [AnnualReports](skills/testing-security/annualreports/) | testing-security | phatblat | ★ 0 |
 | [AnnualReports](skills/testing-security/annualreports/) | testing-security | sangrokjung | ★ 0 |
 | [AnnualReports](skills/testing-security/annualreports/) | testing-security | majiayu000 | ★ 0 |
+| [anoma-intents](skills/development/anoma-intents/) | development | majiayu000 | ★ 2 |
+| [anomaly-detection](skills/product/anomaly-detection/) | product | majiayu000 | ★ 2 |
 | [anonyflow-automation](skills/tools/anonyflow-automation/) | tools | ComposioHQ | ★ 37.3k |
+| [anonymise](skills/backend/anonymise/) | backend | majiayu000 | ★ 2 |
+| [ansible](skills/devops/ansible/) | devops | majiayu000 | ★ 2 |
 | [ansible](skills/devops/ansible/) | devops | pingqLIN | ★ 0 |
+| [ansible-automation](skills/devops/ansible-automation/) | devops | majiayu000 | ★ 2 |
+| [ansible-automation](skills/devops/ansible-automation/) | devops | majiayu000 | ★ 2 |
+| [ansible-coder](skills/devops/ansible-coder/) | devops | majiayu000 | ★ 2 |
+| [ansible-deployment](skills/devops/ansible-deployment/) | devops | majiayu000 | ★ 2 |
+| [ansible-dev-setup](skills/devops/ansible-dev-setup/) | devops | majiayu000 | ★ 2 |
+| [ansible-expert](skills/devops/ansible-expert/) | devops | majiayu000 | ★ 2 |
+| [ansible-fix](skills/devops/ansible-fix/) | devops | majiayu000 | ★ 2 |
 | [ansible-generator](skills/tools/ansible-generator/) | tools | akin-ozer | ★ 77 |
+| [ansible-host-limiter](skills/devops/ansible-host-limiter/) | devops | majiayu000 | ★ 2 |
+| [ansible-inventory](skills/devops/ansible-inventory/) | devops | majiayu000 | ★ 2 |
+| [ansible-playbook](skills/devops/ansible-playbook/) | devops | majiayu000 | ★ 2 |
+| [ansible-playbooks](skills/devops/ansible-playbooks/) | devops | majiayu000 | ★ 2 |
+| [ansible-role-init](skills/devops/ansible-role-init/) | devops | majiayu000 | ★ 2 |
+| [ansible-roles](skills/devops/ansible-roles/) | devops | majiayu000 | ★ 2 |
+| [ansible-testinfra](skills/devops/ansible-testinfra/) | devops | majiayu000 | ★ 2 |
 | [ansible-validator](skills/devops/ansible-validator/) | devops | akin-ozer | ★ 77 |
+| [ansible-workflow](skills/devops/ansible-workflow/) | devops | majiayu000 | ★ 2 |
 | [answer](skills/development/answer/) | development | ajayjohn | ★ 0 |
+| [Answering Research Questions](skills/backend/answering-research-questions/) | backend | majiayu000 | ★ 2 |
+| [ant-design](skills/design/ant-design/) | design | majiayu000 | ★ 2 |
+| [ant-design-knowledge-base](skills/design/ant-design-knowledge-base/) | design | majiayu000 | ★ 2 |
+| [ant-design-mobile](skills/fullstack-web/ant-design-mobile/) | fullstack-web | majiayu000 | ★ 2 |
+| [ant-design-react](skills/design/ant-design-react/) | design | majiayu000 | ★ 2 |
+| [ant-design-vue](skills/frontend/ant-design-vue/) | frontend | majiayu000 | ★ 2 |
+| [antfu](skills/development/antfu/) | development | majiayu000 | ★ 2 |
 | [anthropic_administrator-automation](skills/development/anthropic_administrator-automation/) | development | ComposioHQ | ★ 37.3k |
 | [anthropic-administrator-automation](skills/tools/anthropic-administrator-automation/) | tools | ComposioHQ | ★ 37.3k |
+| [anthropic-algorithmic-art](skills/ai-agents/anthropic-algorithmic-art/) | ai-agents | majiayu000 | ★ 2 |
 | [anthropic-algorithmic-art](skills/development/anthropic-algorithmic-art/) | development | majiayu000 | ★ 0 |
-| [anthropic-algorithmic-art](skills/ai-agents/anthropic-algorithmic-art/) | ai-agents | davekilleen | ★ 0 |
+| [anthropic-api](skills/ai-agents/anthropic-api/) | ai-agents | majiayu000 | ★ 2 |
+| [anthropic-architect](skills/ai-agents/anthropic-architect/) | ai-agents | majiayu000 | ★ 2 |
+| [anthropic-brand-guidelines](skills/design/anthropic-brand-guidelines/) | design | majiayu000 | ★ 2 |
+| [anthropic-canvas-design](skills/design/anthropic-canvas-design/) | design | majiayu000 | ★ 2 |
+| [anthropic-design-canvas](skills/design/anthropic-design-canvas/) | design | majiayu000 | ★ 2 |
+| [anthropic-dev-tools-mcp-builder](skills/tools/anthropic-dev-tools-mcp-builder/) | tools | majiayu000 | ★ 2 |
+| [anthropic-doc-coauthoring](skills/testing-security/anthropic-doc-coauthoring/) | testing-security | majiayu000 | ★ 2 |
+| [anthropic-docx](skills/ai-agents/anthropic-docx/) | ai-agents | majiayu000 | ★ 2 |
+| [anthropic-evaluations](skills/ai-agents/anthropic-evaluations/) | ai-agents | majiayu000 | ★ 2 |
+| [anthropic-expert](skills/ai-agents/anthropic-expert/) | ai-agents | majiayu000 | ★ 2 |
+| [anthropic-frontend-design](skills/frontend/anthropic-frontend-design/) | frontend | majiayu000 | ★ 2 |
 | [anthropic-frontend-design](skills/frontend/anthropic-frontend-design/) | frontend | openclaw | ★ 0 |
 | [anthropic-frontend-design](skills/frontend/anthropic-frontend-design/) | frontend | nordeim | ★ 0 |
+| [anthropic-internal-comms](skills/ai-agents/anthropic-internal-comms/) | ai-agents | majiayu000 | ★ 2 |
+| [anthropic-mcp-builder](skills/tools/anthropic-mcp-builder/) | tools | majiayu000 | ★ 2 |
+| [anthropic-office-docx](skills/ai-agents/anthropic-office-docx/) | ai-agents | majiayu000 | ★ 2 |
+| [anthropic-office-pdf](skills/ai-agents/anthropic-office-pdf/) | ai-agents | majiayu000 | ★ 2 |
 | [anthropic-office-pdf](skills/development/anthropic-office-pdf/) | development | majiayu000 | ★ 0 |
 | [anthropic-office-pdf](skills/development/anthropic-office-pdf/) | development | majiayu000 | ★ 0 |
+| [anthropic-office-pptx](skills/ai-agents/anthropic-office-pptx/) | ai-agents | majiayu000 | ★ 2 |
+| [anthropic-office-xlsx](skills/ai-agents/anthropic-office-xlsx/) | ai-agents | majiayu000 | ★ 2 |
+| [anthropic-pdf](skills/ai-agents/anthropic-pdf/) | ai-agents | majiayu000 | ★ 2 |
+| [anthropic-pptx](skills/ai-agents/anthropic-pptx/) | ai-agents | majiayu000 | ★ 2 |
+| [anthropic-prompt-engineer](skills/ai-agents/anthropic-prompt-engineer/) | ai-agents | majiayu000 | ★ 2 |
+| [anthropic-skill-creator](skills/ai-agents/anthropic-skill-creator/) | ai-agents | majiayu000 | ★ 2 |
+| [anthropic-slack-gif-creator](skills/tools/anthropic-slack-gif-creator/) | tools | majiayu000 | ★ 2 |
+| [anthropic-streaming-patterns](skills/development/anthropic-streaming-patterns/) | development | majiayu000 | ★ 2 |
+| [anthropic-theme-factory](skills/tools/anthropic-theme-factory/) | tools | majiayu000 | ★ 2 |
 | [anthropic-token-refresh](skills/data-ai/anthropic-token-refresh/) | data-ai | jx1100370217 | ★ 0 |
 | [anthropic-usage](skills/development/anthropic-usage/) | development | shreyasgm | ★ 0 |
+| [anthropic-web-artifacts-builder](skills/frontend/anthropic-web-artifacts-builder/) | frontend | majiayu000 | ★ 2 |
+| [anthropic-web-frontend-design](skills/frontend/anthropic-web-frontend-design/) | frontend | majiayu000 | ★ 2 |
+| [anthropic-web-testing](skills/fullstack-web/anthropic-web-testing/) | fullstack-web | majiayu000 | ★ 2 |
+| [anthropic-webapp-testing](skills/fullstack-web/anthropic-webapp-testing/) | fullstack-web | majiayu000 | ★ 2 |
+| [anthropic-xlsx](skills/ai-agents/anthropic-xlsx/) | ai-agents | majiayu000 | ★ 2 |
+| [anti-ai-validator](skills/development/anti-ai-validator/) | development | majiayu000 | ★ 2 |
+| [anti-ai-writing](skills/development/anti-ai-writing/) | development | majiayu000 | ★ 2 |
+| [anti-cheat-systems](skills/development/anti-cheat-systems/) | development | majiayu000 | ★ 2 |
+| [anti-duplication](skills/development/anti-duplication/) | development | majiayu000 | ★ 2 |
+| [anti-fabrication](skills/development/anti-fabrication/) | development | majiayu000 | ★ 2 |
 | [anti-reversing-techniques](skills/development/anti-reversing-techniques/) | development | sickn33 | ★ 16.7k |
 | [anti-reversing-techniques](skills/testing-security/anti-reversing-techniques/) | testing-security | sickn33 | ★ 15.4k |
+| [anti-reversing-techniques](skills/development/anti-reversing-techniques/) | development | majiayu000 | ★ 2 |
+| [anti-reversing-techniques](skills/development/anti-reversing-techniques/) | development | majiayu000 | ★ 2 |
 | [anti-reversing-techniques](skills/testing-security/anti-reversing-techniques/) | testing-security | sla-te | ★ 0 |
 | [anti-reversing-techniques](skills/testing-security/anti-reversing-techniques/) | testing-security | ma1orek | ★ 0 |
 | [anti-reversing-techniques](skills/testing-security/anti-reversing-techniques/) | testing-security | majiayu000 | ★ 0 |
@@ -3222,55 +3660,121 @@
 | [anti-reversing-techniques](skills/testing-security/anti-reversing-techniques/) | testing-security | Iowa51 | ★ 0 |
 | [anti-reversing-techniques](skills/testing-security/anti-reversing-techniques/) | testing-security | majiayu000 | ★ 0 |
 | [anti-reversing-techniques](skills/testing-security/anti-reversing-techniques/) | testing-security | pelan05 | ★ 0 |
-| [anti-reversing-techniques](skills/development/anti-reversing-techniques/) | development | majiayu000 | ★ 0 |
+| [anti-scraping](skills/backend/anti-scraping/) | backend | majiayu000 | ★ 2 |
+| [antibody-design-agent](skills/design/antibody-design-agent/) | design | majiayu000 | ★ 2 |
+| [anticipation-mastery](skills/design/anticipation-mastery/) | design | majiayu000 | ★ 2 |
+| [anticipation-payoff](skills/design/anticipation-payoff/) | design | majiayu000 | ★ 2 |
 | [antigravity-frontend-dev](skills/development/antigravity-frontend-dev/) | development | abzhaw | ★ 0 |
 | [antigravity-workflows](skills/ai-agents/antigravity-workflows/) | ai-agents | sickn33 | ★ 16.7k |
 | [antigravity-workflows](skills/data-ai/antigravity-workflows/) | data-ai | sickn33 | ★ 15.4k |
+| [antipattern-catalog](skills/development/antipattern-catalog/) | development | majiayu000 | ★ 2 |
+| [antipattern-detector](skills/development/antipattern-detector/) | development | majiayu000 | ★ 2 |
 | [antiquities-extractor](skills/design/antiquities-extractor/) | design | majiayu000 | ★ 0 |
 | [antiquities-extractor](skills/design/antiquities-extractor/) | design | shawngraham | ★ 0 |
 | [antiquities-extractor](skills/design/antiquities-extractor/) | design | majiayu000 | ★ 0 |
+| [antlr4-dev](skills/tools/antlr4-dev/) | tools | majiayu000 | ★ 2 |
+| [anubis-windows-commands](skills/cli-automation/anubis-windows-commands/) | cli-automation | majiayu000 | ★ 2 |
+| [anvil-conflict-resolution](skills/machine-learning/anvil-conflict-resolution/) | machine-learning | majiayu000 | ★ 2 |
+| [anycable-coder](skills/development/anycable-coder/) | development | majiayu000 | ★ 2 |
 | [anydocs](skills/documentation/anydocs/) | documentation | openclaw | ★ 0 |
+| [anylist](skills/cli-automation/anylist/) | cli-automation | majiayu000 | ★ 2 |
 | [anysite-lead-generation](skills/development/anysite-lead-generation/) | development | anysiteio | ★ 0 |
 | [anysystem-design](skills/development/anysystem-design/) | development | NeverSight | ★ 0 |
-| [aoc](skills/development/aoc/) | development | majiayu000 | ★ 0 |
+| [anyway-config-coder](skills/development/anyway-config-coder/) | development | majiayu000 | ★ 2 |
+| [anywidget-marimo](skills/tools/anywidget-marimo/) | tools | majiayu000 | ★ 2 |
+| [aoc](skills/development/aoc/) | development | majiayu000 | ★ 2 |
+| [AOC Orchestrator](skills/cli-automation/aoc-orchestrator/) | cli-automation | majiayu000 | ★ 2 |
+| [aoc-solution-review](skills/development/aoc-solution-review/) | development | majiayu000 | ★ 2 |
 | [aos-constitutional-governance](skills/tools/aos-constitutional-governance/) | tools | genesalvatore | ★ 0 |
+| [aot-guru](skills/tools/aot-guru/) | tools | majiayu000 | ★ 2 |
+| [apache](skills/backend/apache/) | backend | majiayu000 | ★ 2 |
+| [apache-airflow-orchestration](skills/data-ai/apache-airflow-orchestration/) | data-ai | majiayu000 | ★ 2 |
+| [apache-nifi](skills/design/apache-nifi/) | design | majiayu000 | ★ 2 |
+| [apache-nifi-registry](skills/cli-automation/apache-nifi-registry/) | cli-automation | majiayu000 | ★ 2 |
+| [apache-spark-data-processing](skills/data-ai/apache-spark-data-processing/) | data-ai | majiayu000 | ★ 2 |
 | [apaleo-automation](skills/tools/apaleo-automation/) | tools | ComposioHQ | ★ 37.3k |
+| [apc-code-samples](skills/development/apc-code-samples/) | development | majiayu000 | ★ 2 |
 | [apex](skills/development/apex/) | development | pingqLIN | ★ 0 |
 | [apex](skills/business/apex/) | business | majiayu000 | ★ 0 |
 | [apex](skills/business/apex/) | business | majiayu000 | ★ 0 |
 | [apex](skills/business/apex/) | business | majiayu000 | ★ 0 |
+| [Apex Enterprise Patterns](skills/development/apex-enterprise-patterns/) | development | majiayu000 | ★ 2 |
+| [apex-evolve](skills/tools/apex-evolve/) | tools | majiayu000 | ★ 2 |
+| [apex-os-design](skills/design/apex-os-design/) | design | majiayu000 | ★ 2 |
+| [apex-video-generator](skills/content-media/apex-video-generator/) | content-media | majiayu000 | ★ 2 |
 | [apex27-automation](skills/tools/apex27-automation/) | tools | ComposioHQ | ★ 37.3k |
+| [Aphorisms](skills/documentation/aphorisms/) | documentation | majiayu000 | ★ 2 |
 | [api](skills/development/api/) | development | spaethtech | ★ 0 |
 | [api](skills/development/api/) | development | pluginagentmarketplace | ★ 0 |
+| [API Agent Development](skills/backend/api-agent-development/) | backend | majiayu000 | ★ 2 |
 | [API and Web Service - WebSocket](skills/development/api-and-web-service-websocket/) | development | duhd-vnpay | ★ 0 |
+| [API Async](skills/backend/api-async/) | backend | majiayu000 | ★ 2 |
+| [API Contract Sync Manager](skills/backend/api-contract-sync-manager/) | backend | majiayu000 | ★ 2 |
+| [API Contracts Generator](skills/backend/api-contracts-generator/) | backend | majiayu000 | ★ 2 |
 | [API Design](skills/development/api-design/) | development | Xmenq | ★ 0 |
 | [API Designer](skills/development/api-designer/) | development | majiayu000 | ★ 0 |
 | [API Designer](skills/development/api-designer/) | development | daffy0208 | ★ 0 |
 | [API Designer](skills/development/api-designer/) | development | NeverSight | ★ 0 |
 | [API Designer](skills/development/api-designer/) | development | majiayu000 | ★ 0 |
 | [API Development](skills/backend/api-development/) | backend | majiayu000 | ★ 0 |
+| [API Development Patterns](skills/backend/api-development-patterns/) | backend | majiayu000 | ★ 2 |
 | [API Documentation Generator](skills/development/api-documentation-generator/) | development | sethdford | ★ 0 |
 | [API Documentation Generator](skills/development/api-documentation-generator/) | development | openclaw | ★ 0 |
 | [API Documentation Lookup](skills/documentation/api-documentation-lookup/) | documentation | majiayu000 | ★ 0 |
 | [API Documentation Lookup](skills/documentation/api-documentation-lookup/) | documentation | majiayu000 | ★ 0 |
 | [API Documentation Lookup](skills/documentation/api-documentation-lookup/) | documentation | majiayu000 | ★ 0 |
+| [API Fuzzing for Bug Bounty](skills/backend/api-fuzzing-for-bug-bounty/) | backend | majiayu000 | ★ 2 |
 | [API Fuzzing for Bug Bounty](skills/development/api-fuzzing-for-bug-bounty/) | development | zebbern | ★ 0 |
 | [API Fuzzing for Bug Bounty](skills/development/api-fuzzing-for-bug-bounty/) | development | whodaniel | ★ 0 |
-| [API Fuzzing for Bug Bounty](skills/backend/api-fuzzing-for-bug-bounty/) | backend | PohLee | ★ 0 |
+| [API Integration Specialist](skills/backend/api-integration-specialist/) | backend | majiayu000 | ★ 2 |
+| [API JWT Authenticator](skills/testing-security/api-jwt-authenticator/) | testing-security | majiayu000 | ★ 2 |
+| [API Models](skills/backend/api-models/) | backend | majiayu000 | ★ 2 |
+| [API Pagination Debugging](skills/backend/api-pagination-debugging/) | backend | majiayu000 | ★ 2 |
 | [API Testing Expert](skills/development/api-testing-expert/) | development | willsigmon | ★ 0 |
+| [api_design](skills/development/api_design/) | development | majiayu000 | ★ 2 |
+| [api_feature](skills/backend/api_feature/) | backend | majiayu000 | ★ 2 |
 | [api-admin-ops](skills/development/api-admin-ops/) | development | majiayu000 | ★ 0 |
 | [api-admin-ops](skills/development/api-admin-ops/) | development | majiayu000 | ★ 0 |
+| [api-architect](skills/backend/api-architect/) | backend | majiayu000 | ★ 2 |
 | [api-architecture](skills/development/api-architecture/) | development | karchtho | ★ 0 |
 | [api-architecture](skills/development/api-architecture/) | development | majiayu000 | ★ 0 |
 | [api-architecture](skills/development/api-architecture/) | development | majiayu000 | ★ 0 |
 | [api-architecture](skills/development/api-architecture/) | development | pluginagentmarketplace | ★ 0 |
 | [api-architecture](skills/backend/api-architecture/) | backend | majiayu000 | ★ 0 |
 | [api-artifacts](skills/development/api-artifacts/) | development | navraj007in | ★ 0 |
+| [api-authentication](skills/backend/api-authentication/) | backend | majiayu000 | ★ 2 |
+| [api-authentication](skills/backend/api-authentication/) | backend | majiayu000 | ★ 2 |
+| [api-best-practices](skills/backend/api-best-practices/) | backend | majiayu000 | ★ 2 |
 | [api-bible-automation](skills/development/api-bible-automation/) | development | ComposioHQ | ★ 37.3k |
-| [api-client-patterns](skills/backend/api-client-patterns/) | backend | majiayu000 | ★ 0 |
+| [api-boilerplate](skills/backend/api-boilerplate/) | backend | majiayu000 | ★ 2 |
+| [api-builder](skills/backend/api-builder/) | backend | majiayu000 | ★ 2 |
+| [api-builder](skills/backend/api-builder/) | backend | majiayu000 | ★ 2 |
+| [api-check](skills/backend/api-check/) | backend | majiayu000 | ★ 2 |
+| [api-client](skills/backend/api-client/) | backend | majiayu000 | ★ 2 |
+| [api-client](skills/backend/api-client/) | backend | majiayu000 | ★ 2 |
+| [api-client-development](skills/backend/api-client-development/) | backend | majiayu000 | ★ 2 |
+| [api-client-patterns](skills/backend/api-client-patterns/) | backend | majiayu000 | ★ 2 |
+| [api-codegen](skills/backend/api-codegen/) | backend | majiayu000 | ★ 2 |
+| [api-codegen-runner](skills/development/api-codegen-runner/) | development | majiayu000 | ★ 2 |
+| [api-codegen-universal](skills/development/api-codegen-universal/) | development | majiayu000 | ★ 2 |
+| [api-connector](skills/backend/api-connector/) | backend | majiayu000 | ★ 2 |
 | [api-connector](skills/development/api-connector/) | development | GLINCKER | ★ 0 |
 | [api-connector](skills/development/api-connector/) | development | Lordjiggy | ★ 0 |
+| [api-contract-checker](skills/backend/api-contract-checker/) | backend | majiayu000 | ★ 2 |
+| [api-contract-design](skills/backend/api-contract-design/) | backend | majiayu000 | ★ 2 |
+| [api-contract-enforcement](skills/backend/api-contract-enforcement/) | backend | majiayu000 | ★ 2 |
+| [api-contract-normalizer](skills/backend/api-contract-normalizer/) | backend | majiayu000 | ★ 2 |
+| [api-contract-sync](skills/backend/api-contract-sync/) | backend | majiayu000 | ★ 2 |
+| [api-contract-testing](skills/backend/api-contract-testing/) | backend | majiayu000 | ★ 2 |
+| [api-contract-validation](skills/backend/api-contract-validation/) | backend | majiayu000 | ★ 2 |
+| [api-contract-validator](skills/backend/api-contract-validator/) | backend | majiayu000 | ★ 2 |
+| [api-contracts-and-validation](skills/backend/api-contracts-and-validation/) | backend | majiayu000 | ★ 2 |
+| [api-contracts-and-zod-validation](skills/backend/api-contracts-and-zod-validation/) | backend | majiayu000 | ★ 2 |
+| [api-controller](skills/backend/api-controller/) | backend | majiayu000 | ★ 2 |
+| [api-credentials](skills/ai-agents/api-credentials/) | ai-agents | majiayu000 | ★ 2 |
 | [api-debugging](skills/development/api-debugging/) | development | christianearle01 | ★ 0 |
+| [api-design](skills/backend/api-design/) | backend | majiayu000 | ★ 2 |
+| [api-design](skills/backend/api-design/) | backend | majiayu000 | ★ 2 |
 | [api-design](skills/backend/api-design/) | backend | yonatangross | ★ 0 |
 | [api-design](skills/development/api-design/) | development | majiayu000 | ★ 0 |
 | [api-design](skills/development/api-design/) | development | majiayu000 | ★ 0 |
@@ -3301,18 +3805,24 @@
 | [api-design-and-versioning](skills/backend/api-design-and-versioning/) | backend | majiayu000 | ★ 0 |
 | [api-design-and-versioning](skills/backend/api-design-and-versioning/) | backend | cornmanwtf | ★ 0 |
 | [api-design-and-versioning](skills/backend/api-design-and-versioning/) | backend | majiayu000 | ★ 0 |
+| [api-design-architect](skills/backend/api-design-architect/) | backend | majiayu000 | ★ 2 |
 | [api-design-expert](skills/backend/api-design-expert/) | backend | majiayu000 | ★ 0 |
 | [api-design-expert](skills/backend/api-design-expert/) | backend | NeverSight | ★ 0 |
 | [api-design-expert](skills/backend/api-design-expert/) | backend | majiayu000 | ★ 0 |
 | [api-design-expert](skills/backend/api-design-expert/) | backend | personamanagmentlayer | ★ 0 |
 | [api-design-expert](skills/backend/api-design-expert/) | backend | majiayu000 | ★ 0 |
+| [api-design-framework](skills/backend/api-design-framework/) | backend | majiayu000 | ★ 2 |
 | [api-design-framework](skills/development/api-design-framework/) | development | NeverSight | ★ 0 |
+| [api-design-fundamentals](skills/backend/api-design-fundamentals/) | backend | majiayu000 | ★ 2 |
+| [api-design-mode](skills/backend/api-design-mode/) | backend | majiayu000 | ★ 2 |
+| [api-design-patterns](skills/backend/api-design-patterns/) | backend | majiayu000 | ★ 2 |
 | [api-design-patterns](skills/development/api-design-patterns/) | development | benshapyro | ★ 0 |
 | [api-design-patterns](skills/development/api-design-patterns/) | development | organvm-iv-taxis | ★ 0 |
 | [api-design-patterns](skills/development/api-design-patterns/) | development | sraloff | ★ 0 |
 | [api-design-principles](skills/backend/api-design-principles/) | backend | sickn33 | ★ 16.7k |
 | [api-design-principles](skills/development/api-design-principles/) | development | sickn33 | ★ 15.4k |
 | [api-design-principles](skills/development/api-design-principles/) | development | majiayu000 | ★ 92 |
+| [api-design-principles](skills/backend/api-design-principles/) | backend | majiayu000 | ★ 2 |
 | [api-design-principles](skills/development/api-design-principles/) | development | majiayu000 | ★ 1 |
 | [api-design-principles](skills/development/api-design-principles/) | development | wshobson | ★ 0 |
 | [api-design-principles](skills/development/api-design-principles/) | development | B4san | ★ 0 |
@@ -3321,10 +3831,13 @@
 | [api-design-principles](skills/development/api-design-principles/) | development | jhonatan-cyber | ★ 0 |
 | [api-design-principles](skills/development/api-design-principles/) | development | coolguy1771 | ★ 0 |
 | [api-design-principles](skills/development/api-design-principles/) | development | Microck | ★ 0 |
-| [api-design-principles](skills/backend/api-design-principles/) | backend | B4san | ★ 0 |
 | [api-design-principles](skills/development/api-design-principles/) | development | NeverSight | ★ 0 |
+| [api-design-restful](skills/backend/api-design-restful/) | backend | majiayu000 | ★ 2 |
 | [api-design-skill](skills/development/api-design-skill/) | development | majiayu000 | ★ 0 |
 | [api-design-skill](skills/development/api-design-skill/) | development | majiayu000 | ★ 0 |
+| [api-designer](skills/backend/api-designer/) | backend | majiayu000 | ★ 2 |
+| [api-designer](skills/backend/api-designer/) | backend | majiayu000 | ★ 2 |
+| [api-designer](skills/backend/api-designer/) | backend | majiayu000 | ★ 2 |
 | [api-designer](skills/development/api-designer/) | development | NeverSight | ★ 0 |
 | [api-designer](skills/development/api-designer/) | development | zhaono1 | ★ 0 |
 | [api-designer](skills/development/api-designer/) | development | omer-metin | ★ 0 |
@@ -3335,24 +3848,35 @@
 | [api-designer](skills/development/api-designer/) | development | k1lgor | ★ 0 |
 | [api-designer](skills/development/api-designer/) | development | farabi1038 | ★ 0 |
 | [api-dev](skills/backend/api-dev/) | backend | jiao360124 | ★ 0 |
+| [api-developer](skills/backend/api-developer/) | backend | majiayu000 | ★ 2 |
 | [api-development](skills/development/api-development/) | development | majiayu000 | ★ 0 |
 | [api-development](skills/development/api-development/) | development | majiayu000 | ★ 0 |
 | [api-development](skills/development/api-development/) | development | openclaw | ★ 0 |
+| [api-development-expert](skills/development/api-development-expert/) | development | majiayu000 | ★ 2 |
+| [api-digest](skills/backend/api-digest/) | backend | majiayu000 | ★ 2 |
+| [api-doc-generation](skills/backend/api-doc-generation/) | backend | majiayu000 | ★ 2 |
+| [api-doc-generator](skills/backend/api-doc-generator/) | backend | majiayu000 | ★ 2 |
 | [api-doc-generator](skills/development/api-doc-generator/) | development | Greenmamba29 | ★ 0 |
+| [api-doc-writer](skills/documentation/api-doc-writer/) | documentation | majiayu000 | ★ 2 |
 | [api-docs](skills/documentation/api-docs/) | documentation | ljchg12-hue | ★ 0 |
 | [api-docs](skills/documentation/api-docs/) | documentation | majiayu000 | ★ 0 |
 | [api-docs](skills/documentation/api-docs/) | documentation | majiayu000 | ★ 0 |
 | [api-docs](skills/documentation/api-docs/) | documentation | majiayu000 | ★ 0 |
+| [api-docs-generator](skills/backend/api-docs-generator/) | backend | majiayu000 | ★ 2 |
+| [api-docs-generator](skills/documentation/api-docs-generator/) | documentation | majiayu000 | ★ 2 |
 | [api-docs-generator](skills/development/api-docs-generator/) | development | majiayu000 | ★ 0 |
 | [api-docs-generator](skills/development/api-docs-generator/) | development | NeverSight | ★ 0 |
 | [api-docs-generator](skills/development/api-docs-generator/) | development | ntaksh42 | ★ 0 |
 | [api-docs-generator](skills/development/api-docs-generator/) | development | majiayu000 | ★ 0 |
 | [api-docs-generator](skills/development/api-docs-generator/) | development | armanzeroeight | ★ 0 |
-| [api-docs-generator](skills/backend/api-docs-generator/) | backend | majiayu000 | ★ 0 |
+| [api-docs-writing](skills/backend/api-docs-writing/) | backend | majiayu000 | ★ 2 |
+| [api-document-generator](skills/backend/api-document-generator/) | backend | majiayu000 | ★ 2 |
 | [api-documentation](skills/documentation/api-documentation/) | documentation | sickn33 | ★ 16.7k |
 | [api-documentation](skills/documentation/api-documentation/) | documentation | sickn33 | ★ 15.4k |
+| [api-documentation](skills/backend/api-documentation/) | backend | majiayu000 | ★ 2 |
 | [api-documentation](skills/backend/api-documentation/) | backend | pluginagentmarketplace | ★ 0 |
 | [api-documentation](skills/development/api-documentation/) | development | brendendurham | ★ 0 |
+| [api-documentation-discovery](skills/documentation/api-documentation-discovery/) | documentation | majiayu000 | ★ 2 |
 | [api-documentation-generator](skills/backend/api-documentation-generator/) | backend | sickn33 | ★ 16.7k |
 | [api-documentation-generator](skills/development/api-documentation-generator/) | development | sickn33 | ★ 15.4k |
 | [api-documentation-generator](skills/development/api-documentation-generator/) | development | ngxtm | ★ 0 |
@@ -3361,25 +3885,45 @@
 | [api-documentation-generator](skills/development/api-documentation-generator/) | development | sonson0910 | ★ 0 |
 | [api-documentation-generator](skills/development/api-documentation-generator/) | development | haotool | ★ 0 |
 | [api-documentation-generator](skills/development/api-documentation-generator/) | development | javiertarazon | ★ 0 |
+| [api-documentation-question](skills/backend/api-documentation-question/) | backend | majiayu000 | ★ 2 |
+| [api-documentation-verify](skills/documentation/api-documentation-verify/) | documentation | majiayu000 | ★ 2 |
+| [api-documentation-writer](skills/backend/api-documentation-writer/) | backend | majiayu000 | ★ 2 |
 | [api-documentation-writer](skills/backend/api-documentation-writer/) | backend | majiayu000 | ★ 0 |
 | [api-documenter](skills/development/api-documenter/) | development | sickn33 | ★ 15.4k |
+| [api-documenter](skills/backend/api-documenter/) | backend | majiayu000 | ★ 2 |
+| [api-documenter](skills/backend/api-documenter/) | backend | majiayu000 | ★ 2 |
 | [api-documenter](skills/documentation/api-documenter/) | documentation | alirezarezvani | ★ 0 |
 | [api-documenter](skills/documentation/api-documenter/) | documentation | majiayu000 | ★ 0 |
 | [api-documenter](skills/documentation/api-documenter/) | documentation | NeverSight | ★ 0 |
 | [api-documenter](skills/documentation/api-documenter/) | documentation | majiayu000 | ★ 0 |
 | [api-documenter](skills/development/api-documenter/) | development | angga30 | ★ 0 |
+| [api-documentor](skills/backend/api-documentor/) | backend | majiayu000 | ★ 2 |
 | [api-documentor](skills/development/api-documentor/) | development | majiayu000 | ★ 0 |
 | [api-documentor](skills/development/api-documentor/) | development | majiayu000 | ★ 0 |
+| [api-endpoint](skills/backend/api-endpoint/) | backend | majiayu000 | ★ 2 |
 | [api-endpoint](skills/development/api-endpoint/) | development | majiayu000 | ★ 0 |
 | [api-endpoint](skills/development/api-endpoint/) | development | NeverSight | ★ 0 |
 | [api-endpoint](skills/development/api-endpoint/) | development | majiayu000 | ★ 0 |
+| [api-endpoint-builder](skills/backend/api-endpoint-builder/) | backend | majiayu000 | ★ 2 |
 | [api-endpoint-creator](skills/backend/api-endpoint-creator/) | backend | majiayu000 | ★ 0 |
 | [api-endpoint-creator](skills/backend/api-endpoint-creator/) | backend | majiayu000 | ★ 0 |
+| [api-endpoint-design](skills/backend/api-endpoint-design/) | backend | majiayu000 | ★ 2 |
+| [api-endpoint-generator](skills/backend/api-endpoint-generator/) | backend | majiayu000 | ★ 2 |
 | [api-endpoint-guardian](skills/backend/api-endpoint-guardian/) | backend | majiayu000 | ★ 0 |
+| [api-endpoint-pattern](skills/backend/api-endpoint-pattern/) | backend | majiayu000 | ★ 2 |
+| [api-endpoint-scaffold](skills/backend/api-endpoint-scaffold/) | backend | majiayu000 | ★ 2 |
+| [api-envelope-pattern](skills/backend/api-envelope-pattern/) | backend | majiayu000 | ★ 2 |
+| [api-error-handling](skills/backend/api-error-handling/) | backend | majiayu000 | ★ 2 |
+| [api-error-handling](skills/backend/api-error-handling/) | backend | majiayu000 | ★ 2 |
+| [api-error-taxonomy](skills/backend/api-error-taxonomy/) | backend | majiayu000 | ★ 2 |
+| [api-examples](skills/backend/api-examples/) | backend | majiayu000 | ★ 2 |
 | [api-examples](skills/development/api-examples/) | development | majiayu000 | ★ 0 |
 | [api-examples](skills/development/api-examples/) | development | majiayu000 | ★ 0 |
 | [api-examples](skills/development/api-examples/) | development | manastalukdar | ★ 0 |
-| [api-examples](skills/backend/api-examples/) | backend | majiayu000 | ★ 0 |
+| [api-expert](skills/backend/api-expert/) | backend | majiayu000 | ★ 2 |
+| [api-extend](skills/backend/api-extend/) | backend | majiayu000 | ★ 2 |
+| [api-fetch-with-auth](skills/frontend/api-fetch-with-auth/) | frontend | majiayu000 | ★ 2 |
+| [api-first-design](skills/backend/api-first-design/) | backend | majiayu000 | ★ 2 |
 | [api-framework-express](skills/development/api-framework-express/) | development | agents-inc | ★ 0 |
 | [api-framework-hono](skills/backend/api-framework-hono/) | backend | agents-inc | ★ 0 |
 | [api-fuzzing-bug-bounty](skills/backend/api-fuzzing-bug-bounty/) | backend | sickn33 | ★ 16.7k |
@@ -3389,12 +3933,21 @@
 | [api-fuzzing-bug-bounty](skills/development/api-fuzzing-bug-bounty/) | development | javiertarazon | ★ 0 |
 | [api-fuzzing-bug-bounty](skills/development/api-fuzzing-bug-bounty/) | development | rootcastleco | ★ 0 |
 | [api-fuzzing-bug-bounty](skills/development/api-fuzzing-bug-bounty/) | development | sonson0910 | ★ 0 |
+| [api-gateway](skills/backend/api-gateway/) | backend | majiayu000 | ★ 2 |
 | [api-gateway-configuration](skills/backend/api-gateway-configuration/) | backend | aj-geddes | ★ 0 |
+| [api-gateway-configurator](skills/backend/api-gateway-configurator/) | backend | majiayu000 | ★ 2 |
 | [api-gateway-configurator](skills/development/api-gateway-configurator/) | development | majiayu000 | ★ 0 |
 | [api-gateway-configurator](skills/development/api-gateway-configurator/) | development | mattnigh | ★ 0 |
 | [api-gateway-configurator](skills/development/api-gateway-configurator/) | development | Dexploarer | ★ 0 |
 | [api-gateway-configurator](skills/development/api-gateway-configurator/) | development | majiayu000 | ★ 0 |
+| [api-gateway-patterns](skills/backend/api-gateway-patterns/) | backend | majiayu000 | ★ 2 |
+| [api-generation](skills/backend/api-generation/) | backend | majiayu000 | ★ 2 |
 | [api-guide](skills/development/api-guide/) | development | lablup | ★ 0 |
+| [api-handler](skills/backend/api-handler/) | backend | majiayu000 | ★ 2 |
+| [api-handoff](skills/backend/api-handoff/) | backend | majiayu000 | ★ 2 |
+| [api-implementer](skills/backend/api-implementer/) | backend | majiayu000 | ★ 2 |
+| [api-integration](skills/backend/api-integration/) | backend | majiayu000 | ★ 2 |
+| [api-integration](skills/backend/api-integration/) | backend | majiayu000 | ★ 2 |
 | [api-integration](skills/development/api-integration/) | development | Kaakati | ★ 0 |
 | [api-integration](skills/development/api-integration/) | development | doitsu2014 | ★ 0 |
 | [api-integration](skills/development/api-integration/) | development | doitsu2014 | ★ 0 |
@@ -3404,13 +3957,27 @@
 | [api-integration](skills/backend/api-integration/) | backend | majiayu000 | ★ 0 |
 | [api-integration](skills/development/api-integration/) | development | huhuimike85 | ★ 0 |
 | [api-integration](skills/backend/api-integration/) | backend | huhuimike85 | ★ 0 |
+| [api-integration-architect](skills/backend/api-integration-architect/) | backend | majiayu000 | ★ 2 |
+| [api-integration-builder](skills/backend/api-integration-builder/) | backend | majiayu000 | ★ 2 |
+| [api-integration-patterns](skills/backend/api-integration-patterns/) | backend | majiayu000 | ★ 2 |
+| [api-integration-specialist](skills/backend/api-integration-specialist/) | backend | majiayu000 | ★ 2 |
 | [api-integration-specialist](skills/development/api-integration-specialist/) | development | YPYT1 | ★ 0 |
+| [api-integration-test-scaffolder](skills/backend/api-integration-test-scaffolder/) | backend | majiayu000 | ★ 2 |
+| [api-integration-testing](skills/backend/api-integration-testing/) | backend | majiayu000 | ★ 2 |
+| [api-integrator](skills/backend/api-integrator/) | backend | majiayu000 | ★ 2 |
+| [api-investigator](skills/backend/api-investigator/) | backend | majiayu000 | ★ 2 |
 | [api-labz-automation](skills/development/api-labz-automation/) | development | ComposioHQ | ★ 37.3k |
 | [api-lifecycle](skills/development/api-lifecycle/) | development | doancan | ★ 0 |
 | [api-mock](skills/development/api-mock/) | development | majiayu000 | ★ 0 |
 | [api-mock](skills/development/api-mock/) | development | majiayu000 | ★ 0 |
 | [api-mock](skills/backend/api-mock/) | backend | majiayu000 | ★ 0 |
+| [api-mock-server](skills/backend/api-mock-server/) | backend | majiayu000 | ★ 2 |
+| [api-mocking-server](skills/backend/api-mocking-server/) | backend | majiayu000 | ★ 2 |
+| [api-new](skills/backend/api-new/) | backend | majiayu000 | ★ 2 |
 | [api-ninjas-automation](skills/development/api-ninjas-automation/) | development | ComposioHQ | ★ 37.3k |
+| [api-organization](skills/backend/api-organization/) | backend | majiayu000 | ★ 2 |
+| [api-pagination](skills/backend/api-pagination/) | backend | majiayu000 | ★ 2 |
+| [api-pattern](skills/frontend/api-pattern/) | frontend | majiayu000 | ★ 2 |
 | [api-patterns](skills/backend/api-patterns/) | backend | sickn33 | ★ 16.7k |
 | [api-patterns](skills/development/api-patterns/) | development | sickn33 | ★ 15.4k |
 | [api-patterns](skills/development/api-patterns/) | development | gonzoblasco | ★ 0 |
@@ -3556,7 +4123,7 @@
 | [app-store-optimization](skills/fullstack-web/app-store-optimization/) | fullstack-web | sickn33 | ★ 16.7k |
 | [app-store-optimization](skills/development/app-store-optimization/) | development | sickn33 | ★ 15.4k |
 | [appcircle-automation](skills/development/appcircle-automation/) | development | ComposioHQ | ★ 37.3k |
-| [appdeploy](skills/backend/appdeploy/) | backend | sickn33 | ★ 16.7k |
+| [appdeploy](skills/backend/appdeploy/) | backend | sickn33 | ★ 17.3k |
 | [appdrag-automation](skills/development/appdrag-automation/) | development | ComposioHQ | ★ 37.3k |
 | [Appium Mobile Testing](skills/development/appium-mobile-testing/) | development | omarrohit20 | ★ 0 |
 | [Apple Health](skills/fullstack-web/apple-health/) | fullstack-web | openclaw | ★ 0 |
@@ -3604,6 +4171,7 @@
 | [arch-database](skills/data-ai/arch-database/) | data-ai | alphaonedev | ★ 0 |
 | [arch-design](skills/design/arch-design/) | design | andreibesleaga | ★ 0 |
 | [arch-microservices](skills/backend/arch-microservices/) | backend | alphaonedev | ★ 0 |
+| [arch-performance-optimization](skills/backend/arch-performance-optimization/) | backend | duc01226 | ★ 0 |
 | [arch-review](skills/data-ai/arch-review/) | data-ai | andreibesleaga | ★ 0 |
 | [arch-review](skills/data-ai/arch-review/) | data-ai | majiayu000 | ★ 0 |
 | [arch-security-review](skills/testing-security/arch-security-review/) | testing-security | majiayu000 | ★ 0 |
@@ -3636,6 +4204,7 @@
 | [architecture](skills/product/architecture/) | product | leonardoFu | ★ 0 |
 | [architecture](skills/development/architecture/) | development | majiayu000 | ★ 0 |
 | [architecture](skills/development/architecture/) | development | majiayu000 | ★ 0 |
+| [architecture](skills/development/architecture/) | development | pluginagentmarketplace | ★ 0 |
 | [Architecture Decision Records (ADR)](skills/development/architecture-decision-records-adr/) | development | majiayu000 | ★ 0 |
 | [Architecture Decision Records (ADR)](skills/development/architecture-decision-records-adr/) | development | majiayu000 | ★ 0 |
 | [Architecture Decision Records (ADR)](skills/backend/architecture-decision-records-adr/) | backend | majiayu000 | ★ 0 |
@@ -3869,7 +4438,7 @@
 | [Authorization Matrix](skills/testing-security/authorization-matrix/) | testing-security | cdalsoniii | ★ 0 |
 | [autobound-automation](skills/tools/autobound-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [autofix-skill](skills/tools/autofix-skill/) | tools | hyz0906 | ★ 0 |
-| [autogpt-agents](skills/ai-agents/autogpt-agents/) | ai-agents | majiayu000 | ★ 2 |
+| [autogpt-agents](skills/ai-agents/autogpt-agents/) | ai-agents | majiayu000 | ★ 95 |
 | [autogpt-agents](skills/development/autogpt-agents/) | development | Orchestra-Research | ★ 0 |
 | [autogpt-agents](skills/development/autogpt-agents/) | development | tianhao909 | ★ 0 |
 | [autogpt-agents](skills/development/autogpt-agents/) | development | Datakult0r | ★ 0 |
@@ -3885,6 +4454,8 @@
 | [autonomous-agent-readiness](skills/development/autonomous-agent-readiness/) | development | majiayu000 | ★ 0 |
 | [autonomous-agents](skills/ai-agents/autonomous-agents/) | ai-agents | sickn33 | ★ 16.7k |
 | [autonomous-agents](skills/data-ai/autonomous-agents/) | data-ai | sickn33 | ★ 15.4k |
+| [autonomous-agents](skills/ai-agents/autonomous-agents/) | ai-agents | majiayu000 | ★ 2 |
+| [autonomous-dev-agent](skills/product/autonomous-dev-agent/) | product | asmortongpt | ★ 0 |
 | [autonomous-loop](skills/product/autonomous-loop/) | product | majiayu000 | ★ 0 |
 | [autonomous-loop](skills/development/autonomous-loop/) | development | majiayu000 | ★ 0 |
 | [auxiliary-scripts](skills/cli-automation/auxiliary-scripts/) | cli-automation | majiayu000 | ★ 0 |
@@ -3978,6 +4549,7 @@
 | [aws-security-audit](skills/testing-security/aws-security-audit/) | testing-security | sickn33 | ★ 15.5k |
 | [aws-serverless](skills/devops/aws-serverless/) | devops | sickn33 | ★ 16.7k |
 | [aws-serverless](skills/devops/aws-serverless/) | devops | sickn33 | ★ 15.4k |
+| [aws-serverless](skills/devops/aws-serverless/) | devops | majiayu000 | ★ 2 |
 | [aws-serverless-eda](skills/development/aws-serverless-eda/) | development | Microck | ★ 0 |
 | [aws-serverless-eda](skills/development/aws-serverless-eda/) | development | leegonzales | ★ 0 |
 | [aws-serverless-eda](skills/development/aws-serverless-eda/) | development | NeverSight | ★ 0 |
@@ -3997,6 +4569,9 @@
 | [aws-solution-architect](skills/devops/aws-solution-architect/) | devops | openclaw | ★ 0 |
 | [aws-solution-architect](skills/devops/aws-solution-architect/) | devops | mcauduro0 | ★ 0 |
 | [aws-solution-architect](skills/devops/aws-solution-architect/) | devops | duclm1x1 | ★ 0 |
+| [aws-solution-architect](skills/devops/aws-solution-architect/) | devops | adamtasteslikegood | ★ 0 |
+| [aws-solution-architect](skills/devops/aws-solution-architect/) | devops | Haseeb-Arshad | ★ 0 |
+| [aws-solution-architect](skills/devops/aws-solution-architect/) | devops | Haseeb-Arshad | ★ 0 |
 | [Axe-core Accessibility](skills/testing-security/axe-core-accessibility/) | testing-security | omarrohit20 | ★ 0 |
 | [axiom-app-composition](skills/development/axiom-app-composition/) | development | megastep | ★ 0 |
 | [axiom-extensions-widgets-ref](skills/tools/axiom-extensions-widgets-ref/) | tools | CharlesWiltgen | ★ 0 |
@@ -4079,6 +4654,7 @@
 | [azure-eventhub-ts](skills/development/azure-eventhub-ts/) | development | sickn33 | ★ 15.4k |
 | [azure-functions](skills/development/azure-functions/) | development | sickn33 | ★ 16.7k |
 | [azure-functions](skills/development/azure-functions/) | development | sickn33 | ★ 15.4k |
+| [azure-functions](skills/development/azure-functions/) | development | majiayu000 | ★ 2 |
 | [azure-functions](skills/development/azure-functions/) | development | majiayu000 | ★ 0 |
 | [azure-functions](skills/development/azure-functions/) | development | majiayu000 | ★ 0 |
 | [azure-functions](skills/backend/azure-functions/) | backend | majiayu000 | ★ 0 |
@@ -4478,8 +5054,7 @@
 | [better-leetcode](skills/data-ai/better-leetcode/) | data-ai | ChambersXDU | ★ 0 |
 | [better-proposals-automation](skills/tools/better-proposals-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [better-stack-automation](skills/tools/better-stack-automation/) | tools | ComposioHQ | ★ 37.3k |
-| [bevy-ecs-expert](skills/development/bevy-ecs-expert/) | development | sickn33 | ★ 16.7k |
-| [bevy-ecs-expert](skills/tools/bevy-ecs-expert/) | tools | sickn33 | ★ 15.4k |
+| [bevy-ecs-expert](skills/development/bevy-ecs-expert/) | development | sickn33 | ★ 17.3k |
 | [bexio](skills/business/bexio/) | business | majiayu000 | ★ 0 |
 | [bexio](skills/business/bexio/) | business | majiayu000 | ★ 0 |
 | [bexio](skills/business/bexio/) | business | YPYT1 | ★ 0 |
@@ -4488,6 +5063,7 @@
 | [bexio](skills/business/bexio/) | business | openclaw | ★ 0 |
 | [bexio](skills/business/bexio/) | business | kbarbel640-del | ★ 0 |
 | [bexio](skills/business/bexio/) | business | majiayu000 | ★ 0 |
+| [bexio](skills/business/bexio/) | business | decimasudo | ★ 0 |
 | [bg-remover](skills/cli-automation/bg-remover/) | cli-automation | majiayu000 | ★ 0 |
 | [bgo](skills/tools/bgo/) | tools | Yuru778 | ★ 0 |
 | [bicep](skills/devops/bicep/) | devops | majiayu000 | ★ 0 |
@@ -4581,6 +5157,7 @@
 | [blocknative-automation](skills/tools/blocknative-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [blockrun](skills/ai-agents/blockrun/) | ai-agents | sickn33 | ★ 16.7k |
 | [blockrun](skills/data-ai/blockrun/) | data-ai | sickn33 | ★ 15.4k |
+| [blockrun](skills/ai-agents/blockrun/) | ai-agents | majiayu000 | ★ 2 |
 | [blog-experiential](skills/content-media/blog-experiential/) | content-media | tikazyq | ★ 0 |
 | [blog-smoke-tests](skills/development/blog-smoke-tests/) | development | majiayu000 | ★ 0 |
 | [blog-smoke-tests](skills/development/blog-smoke-tests/) | development | openhive-network | ★ 0 |
@@ -4588,6 +5165,7 @@
 | [blog-smoke-tests](skills/testing-security/blog-smoke-tests/) | testing-security | majiayu000 | ★ 0 |
 | [blog-voice-analyzer](skills/content-media/blog-voice-analyzer/) | content-media | Abhi5415 | ★ 0 |
 | [blog-writing](skills/content-media/blog-writing/) | content-media | jcanizalez | ★ 0 |
+| [blong-layer](skills/frontend/blong-layer/) | frontend | feasibleone | ★ 0 |
 | [bloom](skills/tools/bloom/) | tools | openclaw | ★ 0 |
 | [bloom](skills/tools/bloom/) | tools | kbarbel640-del | ★ 0 |
 | [blueprint-discovery](skills/product/blueprint-discovery/) | product | majiayu000 | ★ 0 |
@@ -4724,6 +5302,7 @@
 | [browser-api-usage-rules](skills/frontend/browser-api-usage-rules/) | frontend | oimiragieo | ★ 0 |
 | [browser-automation](skills/cli-automation/browser-automation/) | cli-automation | sickn33 | ★ 16.7k |
 | [browser-automation](skills/development/browser-automation/) | development | sickn33 | ★ 15.4k |
+| [browser-automation](skills/cli-automation/browser-automation/) | cli-automation | majiayu000 | ★ 2 |
 | [browser-automation](skills/cli-automation/browser-automation/) | cli-automation | drshailesh88 | ★ 0 |
 | [browser-debugger](skills/design/browser-debugger/) | design | majiayu000 | ★ 0 |
 | [browser-debugger](skills/design/browser-debugger/) | design | majiayu000 | ★ 0 |
@@ -4866,6 +5445,7 @@
 | [build-things](skills/development/build-things/) | development | GigantHead | ★ 0 |
 | [BuildAgent](skills/tools/buildagent/) | tools | N4M3Z | ★ 0 |
 | [builder-workflow](skills/tools/builder-workflow/) | tools | darraghh1 | ★ 0 |
+| [Building Agent Skills](skills/design/building-agent-skills/) | design | majiayu000 | ★ 95 |
 | [Building Agent Skills](skills/design/building-agent-skills/) | design | majiayu000 | ★ 2 |
 | [building-a-work-plan](skills/design/building-a-work-plan/) | design | cyarie | ★ 0 |
 | [building-agents](skills/data-ai/building-agents/) | data-ai | majiayu000 | ★ 0 |
@@ -4911,9 +5491,11 @@
 | [bun-deploy](skills/devops/bun-deploy/) | devops | majiayu000 | ★ 0 |
 | [bun-development](skills/development/bun-development/) | development | sickn33 | ★ 16.7k |
 | [bun-development](skills/development/bun-development/) | development | sickn33 | ★ 15.4k |
+| [bun-development](skills/development/bun-development/) | development | majiayu000 | ★ 2 |
 | [bun-publish](skills/tools/bun-publish/) | tools | laurigates | ★ 0 |
 | [bun-testing](skills/development/bun-testing/) | development | SlavaMelanko | ★ 0 |
 | [bunnycdn-automation](skills/devops/bunnycdn-automation/) | devops | ComposioHQ | ★ 37.3k |
+| [Burp Suite Web Application Testing](skills/testing-security/burp-suite-web-application-testing/) | testing-security | majiayu000 | ★ 2 |
 | [burp-suite-testing](skills/testing-security/burp-suite-testing/) | testing-security | sickn33 | ★ 16.7k |
 | [burp-suite-testing](skills/testing-security/burp-suite-testing/) | testing-security | sickn33 | ★ 15.4k |
 | [business](skills/product/business/) | product | majiayu000 | ★ 0 |
@@ -4951,6 +5533,7 @@
 | [c4-container](skills/devops/c4-container/) | devops | itsimonfredlingjack | ★ 0 |
 | [c4-container](skills/development/c4-container/) | development | haniakrim21 | ★ 0 |
 | [c4-context](skills/development/c4-context/) | development | sickn33 | ★ 15.4k |
+| [c4-context](skills/devops/c4-context/) | devops | majiayu000 | ★ 2 |
 | [c4-modeling-process](skills/development/c4-modeling-process/) | development | a-scolan | ★ 0 |
 | [cabinpanda-automation](skills/tools/cabinpanda-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [cachibot-frontend-view](skills/frontend/cachibot-frontend-view/) | frontend | jhd3197 | ★ 0 |
@@ -5082,6 +5665,7 @@
 | [centralstationcrm-automation](skills/business/centralstationcrm-automation/) | business | ComposioHQ | ★ 37.3k |
 | [ceo-advisor](skills/development/ceo-advisor/) | development | majiayu000 | ★ 93 |
 | [ceo-advisor](skills/development/ceo-advisor/) | development | majiayu000 | ★ 2 |
+| [cep-v8](skills/machine-learning/cep-v8/) | machine-learning | majiayu000 | ★ 95 |
 | [cep-v8](skills/data-ai/cep-v8/) | data-ai | majiayu000 | ★ 2 |
 | [cerebras-api](skills/development/cerebras-api/) | development | diskd-ai | ★ 0 |
 | [cerebras-api](skills/development/cerebras-api/) | development | NeverSight | ★ 0 |
@@ -5264,13 +5848,16 @@
 | [class-based-state-management](skills/frontend/class-based-state-management/) | frontend | majiayu000 | ★ 0 |
 | [class-organization-and-layout](skills/design/class-organization-and-layout/) | design | majiayu000 | ★ 0 |
 | [classmarker-automation](skills/tools/classmarker-automation/) | tools | ComposioHQ | ★ 37.3k |
+| [Claude Code Guide](skills/ai-agents/claude-code-guide/) | ai-agents | majiayu000 | ★ 2 |
 | [Claude Code Skill](skills/development/claude-code-skill/) | development | ScrapeGraphAI | ★ 0 |
 | [Claude Code Spawning](skills/development/claude-code-spawning/) | development | nomeforme | ★ 0 |
 | [claude-a11y-audit](skills/testing-security/claude-a11y-audit/) | testing-security | majiayu000 | ★ 92 |
 | [claude-a11y-audit](skills/testing-security/claude-a11y-audit/) | testing-security | majiayu000 | ★ 1 |
+| [claude-agent-sdk](skills/ai-agents/claude-agent-sdk/) | ai-agents | majiayu000 | ★ 95 |
 | [claude-agent-sdk](skills/development/claude-agent-sdk/) | development | majiayu000 | ★ 2 |
 | [claude-agent-sdk](skills/development/claude-agent-sdk/) | development | mattnigh | ★ 0 |
 | [claude-agent-sdk](skills/development/claude-agent-sdk/) | development | jeongsk | ★ 0 |
+| [claude-agent-sdk-agent-creation](skills/ai-agents/claude-agent-sdk-agent-creation/) | ai-agents | majiayu000 | ★ 95 |
 | [claude-agent-sdk-agent-creation](skills/data-ai/claude-agent-sdk-agent-creation/) | data-ai | majiayu000 | ★ 2 |
 | [claude-agent-sdk-builder](skills/development/claude-agent-sdk-builder/) | development | dwfennell | ★ 0 |
 | [claude-agent-sdk-ts](skills/development/claude-agent-sdk-ts/) | development | olaservo | ★ 0 |
@@ -5384,6 +5971,7 @@
 | [clavix-refine](skills/product/clavix-refine/) | product | majiayu000 | ★ 0 |
 | [clavix-refine](skills/product/clavix-refine/) | product | majiayu000 | ★ 0 |
 | [clavix-refine](skills/product/clavix-refine/) | product | alysonhower | ★ 0 |
+| [clavix-refine](skills/product/clavix-refine/) | product | majiayu000 | ★ 0 |
 | [claw](skills/data-ai/claw/) | data-ai | mateffy | ★ 0 |
 | [claw](skills/ai-agents/claw/) | ai-agents | mateffy | ★ 0 |
 | [claw-chat](skills/data-ai/claw-chat/) | data-ai | koushikxd | ★ 0 |
@@ -5445,6 +6033,7 @@
 | [clawtoclaw](skills/data-ai/clawtoclaw/) | data-ai | openclaw | ★ 0 |
 | [clean-code](skills/development/clean-code/) | development | sickn33 | ★ 16.7k |
 | [clean-code](skills/development/clean-code/) | development | sickn33 | ★ 15.4k |
+| [clean-code](skills/development/clean-code/) | development | majiayu000 | ★ 2 |
 | [clean-code-reviewer](skills/data-ai/clean-code-reviewer/) | data-ai | allofmeng | ★ 0 |
 | [clearout-automation](skills/tools/clearout-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [clerk-auth](skills/backend/clerk-auth/) | backend | sickn33 | ★ 16.7k |
@@ -5521,6 +6110,7 @@
 | [cloud-storage-web](skills/development/cloud-storage-web/) | development | majiayu000 | ★ 0 |
 | [cloud-storage-web](skills/development/cloud-storage-web/) | development | majiayu000 | ★ 0 |
 | [cloud-storage-web](skills/fullstack-web/cloud-storage-web/) | fullstack-web | TencentCloudBase | ★ 0 |
+| [cloudbase-agent-ts](skills/ai-agents/cloudbase-agent-ts/) | ai-agents | TencentCloudBase | ★ 0 |
 | [cloudbase-guidelines](skills/development/cloudbase-guidelines/) | development | TencentCloudBase | ★ 0 |
 | [cloudbase-guidelines](skills/development/cloudbase-guidelines/) | development | TencentCloudBase | ★ 0 |
 | [cloudbase-platform](skills/development/cloudbase-platform/) | development | majiayu000 | ★ 0 |
@@ -5544,7 +6134,7 @@
 | [cloudflare-deploy](skills/devops/cloudflare-deploy/) | devops | davila7 | ★ 0 |
 | [cloudflare-deploy](skills/devops/cloudflare-deploy/) | devops | rustykuntz | ★ 0 |
 | [cloudflare-workers](skills/devops/cloudflare-workers/) | devops | majiayu000 | ★ 0 |
-| [cloudflare-workers-expert](skills/devops/cloudflare-workers-expert/) | devops | sickn33 | ★ 16.7k |
+| [cloudflare-workers-expert](skills/devops/cloudflare-workers-expert/) | devops | sickn33 | ★ 17.3k |
 | [cloudformation-best-practices](skills/devops/cloudformation-best-practices/) | devops | sickn33 | ★ 16.7k |
 | [cloudformation-best-practices](skills/devops/cloudformation-best-practices/) | devops | sickn33 | ★ 15.4k |
 | [Cloudinary Automation](skills/devops/cloudinary-automation/) | devops | ComposioHQ | ★ 37.3k |
@@ -5685,6 +6275,7 @@
 | [codebase-cleanup-refactor-clean](skills/design/codebase-cleanup-refactor-clean/) | design | sickn33 | ★ 15.4k |
 | [codebase-cleanup-tech-debt](skills/development/codebase-cleanup-tech-debt/) | development | sickn33 | ★ 16.7k |
 | [codebase-cleanup-tech-debt](skills/devops/codebase-cleanup-tech-debt/) | devops | sickn33 | ★ 15.4k |
+| [codebase-context](skills/development/codebase-context/) | development | airowe | ★ 0 |
 | [codebase-mapper](skills/development/codebase-mapper/) | development | darthmolen | ★ 0 |
 | [codegen-sync](skills/development/codegen-sync/) | development | matteing | ★ 0 |
 | [codeinterpreter-automation](skills/tools/codeinterpreter-automation/) | tools | ComposioHQ | ★ 37.3k |
@@ -5720,6 +6311,7 @@
 | [codex-cli-bridge](skills/data-ai/codex-cli-bridge/) | data-ai | chaorenex1 | ★ 0 |
 | [codex-cli-bridge](skills/data-ai/codex-cli-bridge/) | data-ai | BbgnsurfTech | ★ 0 |
 | [codex-cli-bridge](skills/data-ai/codex-cli-bridge/) | data-ai | majiayu000 | ★ 0 |
+| [codex-cli-bridge](skills/ai-agents/codex-cli-bridge/) | ai-agents | majiayu000 | ★ 0 |
 | [codex-code-review](skills/tools/codex-code-review/) | tools | iiitong | ★ 0 |
 | [codex-code-review](skills/tools/codex-code-review/) | tools | ZenRay | ★ 0 |
 | [codex-delegator](skills/development/codex-delegator/) | development | majiayu000 | ★ 0 |
@@ -5789,6 +6381,7 @@
 | [command-sub-agent](skills/development/command-sub-agent/) | development | NeverSight | ★ 0 |
 | [command-sub-agent](skills/ai-agents/command-sub-agent/) | ai-agents | majiayu000 | ★ 0 |
 | [command-to-subagent](skills/data-ai/command-to-subagent/) | data-ai | patrickclery | ★ 0 |
+| [comment-usage](skills/development/comment-usage/) | development | oimiragieo | ★ 0 |
 | [commit](skills/development/commit/) | development | sickn33 | ★ 16.7k |
 | [commit](skills/tools/commit/) | tools | sickn33 | ★ 15.4k |
 | [commit](skills/development/commit/) | development | thoreinstein | ★ 0 |
@@ -5874,10 +6467,12 @@
 | [comprehensive-review-pr-enhance](skills/devops/comprehensive-review-pr-enhance/) | devops | majiayu000 | ★ 0 |
 | [comprehensive-review-pr-enhance](skills/devops/comprehensive-review-pr-enhance/) | devops | duckonthemic | ★ 0 |
 | [comprehensive-review-pr-enhance](skills/development/comprehensive-review-pr-enhance/) | development | majiayu000 | ★ 0 |
+| [comprehensive-type-annotations](skills/development/comprehensive-type-annotations/) | development | oimiragieo | ★ 0 |
 | [comprehensive-unit-testing-with-pytest](skills/testing-security/comprehensive-unit-testing-with-pytest/) | testing-security | oimiragieo | ★ 0 |
 | [compute-token-stats-rust-ultra](skills/tools/compute-token-stats-rust-ultra/) | tools | tankygranny05 | ★ 0 |
 | [computer-use-agents](skills/ai-agents/computer-use-agents/) | ai-agents | sickn33 | ★ 16.7k |
 | [computer-use-agents](skills/data-ai/computer-use-agents/) | data-ai | sickn33 | ★ 15.4k |
+| [computer-use-agents](skills/ai-agents/computer-use-agents/) | ai-agents | majiayu000 | ★ 2 |
 | [computer-vision-expert](skills/machine-learning/computer-vision-expert/) | machine-learning | sickn33 | ★ 16.7k |
 | [computer-vision-expert](skills/data-ai/computer-vision-expert/) | data-ai | sickn33 | ★ 15.4k |
 | [concept-to-canvas](skills/data-ai/concept-to-canvas/) | data-ai | un1crom | ★ 0 |
@@ -5894,6 +6489,7 @@
 | [conductor-revert](skills/cli-automation/conductor-revert/) | cli-automation | sickn33 | ★ 16.7k |
 | [conductor-revert](skills/tools/conductor-revert/) | tools | sickn33 | ★ 15.4k |
 | [conductor-setup](skills/tools/conductor-setup/) | tools | sickn33 | ★ 15.4k |
+| [conductor-setup](skills/product/conductor-setup/) | product | majiayu000 | ★ 2 |
 | [conductor-setup](skills/tools/conductor-setup/) | tools | majiayu000 | ★ 0 |
 | [conductor-setup](skills/tools/conductor-setup/) | tools | milosriki | ★ 0 |
 | [conductor-setup](skills/tools/conductor-setup/) | tools | bhaumikgohel | ★ 0 |
@@ -5907,7 +6503,6 @@
 | [conductor-setup](skills/tools/conductor-setup/) | tools | rmyndharis | ★ 0 |
 | [conductor-setup](skills/tools/conductor-setup/) | tools | aiskillstore | ★ 0 |
 | [conductor-setup](skills/tools/conductor-setup/) | tools | duclm1x1 | ★ 0 |
-| [conductor-setup](skills/product/conductor-setup/) | product | Sorawittj | ★ 0 |
 | [conductor-status](skills/tools/conductor-status/) | tools | sickn33 | ★ 16.7k |
 | [conductor-status](skills/development/conductor-status/) | development | sickn33 | ★ 15.4k |
 | [conductor-validator](skills/data-ai/conductor-validator/) | data-ai | sickn33 | ★ 15.4k |
@@ -5965,6 +6560,7 @@
 | [content-creation-flow](skills/content-media/content-creation-flow/) | content-media | OutSystems | ★ 0 |
 | [content-creator](skills/business/content-creator/) | business | sickn33 | ★ 16.7k |
 | [content-creator](skills/business/content-creator/) | business | sickn33 | ★ 15.4k |
+| [content-creator](skills/business/content-creator/) | business | majiayu000 | ★ 2 |
 | [content-marketer](skills/content-media/content-marketer/) | content-media | sickn33 | ★ 15.4k |
 | [content-marketer](skills/business/content-marketer/) | business | majiayu000 | ★ 0 |
 | [content-marketer](skills/business/content-marketer/) | business | 404kidwiz | ★ 0 |
@@ -5999,6 +6595,7 @@
 | [context-engineering](skills/data-ai/context-engineering/) | data-ai | NeverSight | ★ 0 |
 | [context-engineering](skills/development/context-engineering/) | development | get-caio | ★ 0 |
 | [context-engineering](skills/development/context-engineering/) | development | addyosmani | ★ 0 |
+| [context-engineering-collection](skills/ai-agents/context-engineering-collection/) | ai-agents | majiayu000 | ★ 95 |
 | [context-engineering-collection](skills/data-ai/context-engineering-collection/) | data-ai | majiayu000 | ★ 2 |
 | [context-fundamentals](skills/ai-agents/context-fundamentals/) | ai-agents | sickn33 | ★ 16.7k |
 | [context-fundamentals](skills/data-ai/context-fundamentals/) | data-ai | sickn33 | ★ 15.4k |
@@ -6010,6 +6607,7 @@
 | [context-management-context-save](skills/ai-agents/context-management-context-save/) | ai-agents | sickn33 | ★ 16.7k |
 | [context-management-context-save](skills/data-ai/context-management-context-save/) | data-ai | sickn33 | ★ 15.4k |
 | [context-manager](skills/data-ai/context-manager/) | data-ai | sickn33 | ★ 15.4k |
+| [context-manager](skills/ai-agents/context-manager/) | ai-agents | majiayu000 | ★ 2 |
 | [context-memory](skills/development/context-memory/) | development | gnufoo | ★ 0 |
 | [context-optimization](skills/fullstack-web/context-optimization/) | fullstack-web | sickn33 | ★ 16.7k |
 | [context-optimization](skills/development/context-optimization/) | development | sickn33 | ★ 15.4k |
@@ -6172,6 +6770,7 @@
 | [copilotkit-pitch-deck](skills/ai-agents/copilotkit-pitch-deck/) | ai-agents | majiayu000 | ★ 0 |
 | [copy-editing](skills/business/copy-editing/) | business | sickn33 | ★ 16.7k |
 | [copy-editing](skills/development/copy-editing/) | development | sickn33 | ★ 15.4k |
+| [copy-editing](skills/tools/copy-editing/) | tools | majiayu000 | ★ 2 |
 | [copywriter](skills/documentation/copywriter/) | documentation | xiangteng007 | ★ 0 |
 | [copywriter](skills/documentation/copywriter/) | documentation | xiangteng007 | ★ 0 |
 | [copywriting](skills/communication/copywriting/) | communication | sickn33 | ★ 16.8k |
@@ -6292,6 +6891,7 @@
 | [create-feature-branch](skills/product/create-feature-branch/) | product | majiayu000 | ★ 0 |
 | [create-feature-branch](skills/product/create-feature-branch/) | product | BerryKuipers | ★ 0 |
 | [create-feature-branch](skills/product/create-feature-branch/) | product | majiayu000 | ★ 0 |
+| [create-hook](skills/ai-agents/create-hook/) | ai-agents | danalexilewis | ★ 0 |
 | [create-issue](skills/cli-automation/create-issue/) | cli-automation | rivie13 | ★ 0 |
 | [create-issue](skills/cli-automation/create-issue/) | cli-automation | rivie13 | ★ 0 |
 | [create-issues](skills/tools/create-issues/) | tools | majiayu000 | ★ 0 |
@@ -6365,6 +6965,7 @@
 | [creating-bookmarklets](skills/development/creating-bookmarklets/) | development | majiayu000 | ★ 0 |
 | [creating-bookmarklets](skills/development/creating-bookmarklets/) | development | NeverSight | ★ 0 |
 | [creating-bookmarklets](skills/development/creating-bookmarklets/) | development | majiayu000 | ★ 0 |
+| [creating-bookmarklets](skills/cli-automation/creating-bookmarklets/) | cli-automation | majiayu000 | ★ 0 |
 | [creating-chatgpt-widgets](skills/development/creating-chatgpt-widgets/) | development | Rehan-Ul-Haq | ★ 0 |
 | [creating-claude-rules](skills/ai-agents/creating-claude-rules/) | ai-agents | aiskillstore | ★ 0 |
 | [creating-continue-packages](skills/development/creating-continue-packages/) | development | majiayu000 | ★ 0 |
@@ -6481,6 +7082,7 @@
 | [customer-health-scorecard](skills/tools/customer-health-scorecard/) | tools | majiayu000 | ★ 0 |
 | [customer-meeting-intelligence](skills/development/customer-meeting-intelligence/) | development | team-telnyx | ★ 0 |
 | [customer-support](skills/data-ai/customer-support/) | data-ai | sickn33 | ★ 15.4k |
+| [customer-support](skills/cli-automation/customer-support/) | cli-automation | majiayu000 | ★ 2 |
 | [customer-support-builder](skills/tools/customer-support-builder/) | tools | nbashaw | ★ 0 |
 | [Customer.io Automation](skills/business/customer.io-automation/) | business | ComposioHQ | ★ 37.3k |
 | [customgpt-automation](skills/tools/customgpt-automation/) | tools | ComposioHQ | ★ 37.3k |
@@ -6502,6 +7104,7 @@
 | [d2-diagram](skills/design/d2-diagram/) | design | majiayu000 | ★ 0 |
 | [d2-diagram](skills/design/d2-diagram/) | design | majiayu000 | ★ 0 |
 | [d2lbrightspace-automation](skills/tools/d2lbrightspace-automation/) | tools | ComposioHQ | ★ 37.3k |
+| [d3-viz](skills/frontend/d3-viz/) | frontend | majiayu000 | ★ 2 |
 | [d3-viz](skills/development/d3-viz/) | development | Lionad-Morotar | ★ 0 |
 | [dacon-research](skills/ai-agents/dacon-research/) | ai-agents | gamma4638 | ★ 0 |
 | [dadata-ru-automation](skills/data-ai/dadata-ru-automation/) | data-ai | ComposioHQ | ★ 37.3k |
@@ -6510,6 +7113,7 @@
 | [daggerheart-core-rules](skills/tools/daggerheart-core-rules/) | tools | NeverSight | ★ 0 |
 | [daily-news-report](skills/backend/daily-news-report/) | backend | sickn33 | ★ 16.7k |
 | [daily-news-report](skills/data-ai/daily-news-report/) | data-ai | sickn33 | ★ 15.4k |
+| [daily-news-report](skills/documentation/daily-news-report/) | documentation | majiayu000 | ★ 2 |
 | [daily-work-tracker](skills/data-ai/daily-work-tracker/) | data-ai | xiqiuqiu | ★ 0 |
 | [dailybot-automation](skills/data-ai/dailybot-automation/) | data-ai | ComposioHQ | ★ 37.3k |
 | [daisyui-5](skills/design/daisyui-5/) | design | hk-vk | ★ 0 |
@@ -6544,6 +7148,7 @@
 | [data-designer](skills/data-ai/data-designer/) | data-ai | majiayu000 | ★ 0 |
 | [data-encryption](skills/testing-security/data-encryption/) | testing-security | aj-geddes | ★ 0 |
 | [data-engineer](skills/data-ai/data-engineer/) | data-ai | sickn33 | ★ 15.4k |
+| [data-engineer](skills/data-ai/data-engineer/) | data-ai | majiayu000 | ★ 2 |
 | [data-engineering-backend-architect](skills/development/data-engineering-backend-architect/) | development | sla-te | ★ 0 |
 | [data-engineering-data-driven-feature](skills/product/data-engineering-data-driven-feature/) | product | sickn33 | ★ 16.7k |
 | [data-engineering-data-driven-feature](skills/data-ai/data-engineering-data-driven-feature/) | data-ai | sickn33 | ★ 15.4k |
@@ -6571,6 +7176,7 @@
 | [data-quality-frameworks](skills/data-ai/data-quality-frameworks/) | data-ai | sickn33 | ★ 15.4k |
 | [data-quality-frameworks](skills/data-ai/data-quality-frameworks/) | data-ai | ranbot-ai | ★ 0 |
 | [data-scientist](skills/data-ai/data-scientist/) | data-ai | sickn33 | ★ 15.4k |
+| [data-scientist](skills/data-ai/data-scientist/) | data-ai | majiayu000 | ★ 2 |
 | [data-scientist](skills/data-ai/data-scientist/) | data-ai | harshahosur81 | ★ 0 |
 | [data-scientist](skills/data-ai/data-scientist/) | data-ai | chicanoandres702 | ★ 0 |
 | [data-scientist](skills/data-ai/data-scientist/) | data-ai | imranstein | ★ 0 |
@@ -6605,6 +7211,7 @@
 | [Database](skills/backend/database/) | backend | majiayu000 | ★ 0 |
 | [Database Design](skills/development/database-design/) | development | fabioc-aloha | ★ 0 |
 | [database-admin](skills/devops/database-admin/) | devops | sickn33 | ★ 15.4k |
+| [database-admin](skills/backend/database-admin/) | backend | majiayu000 | ★ 2 |
 | [database-admin](skills/devops/database-admin/) | devops | herdiansah | ★ 0 |
 | [database-admin](skills/devops/database-admin/) | devops | fakhriaditiarahman | ★ 0 |
 | [database-admin](skills/devops/database-admin/) | devops | sla-te | ★ 0 |
@@ -6620,7 +7227,6 @@
 | [database-admin](skills/devops/database-admin/) | devops | javiertarazon | ★ 0 |
 | [database-admin](skills/devops/database-admin/) | devops | ngxtm | ★ 0 |
 | [database-admin](skills/devops/database-admin/) | devops | corsal2025 | ★ 0 |
-| [database-admin](skills/backend/database-admin/) | backend | majiayu000 | ★ 0 |
 | [database-advanced-optimization](skills/backend/database-advanced-optimization/) | backend | majiayu000 | ★ 0 |
 | [database-advanced-optimization](skills/backend/database-advanced-optimization/) | backend | majiayu000 | ★ 0 |
 | [database-architect](skills/development/database-architect/) | development | sickn33 | ★ 15.4k |
@@ -6862,6 +7468,7 @@
 | [deep-reading](skills/development/deep-reading/) | development | NeverSight | ★ 0 |
 | [deep-research](skills/backend/deep-research/) | backend | sickn33 | ★ 16.7k |
 | [deep-research](skills/development/deep-research/) | development | sickn33 | ★ 15.4k |
+| [deep-research](skills/backend/deep-research/) | backend | majiayu000 | ★ 2 |
 | [deep-research](skills/data-ai/deep-research/) | data-ai | standardhuman | ★ 0 |
 | [deep-research](skills/data-ai/deep-research/) | data-ai | ThepExcel | ★ 0 |
 | [deep-research](skills/development/deep-research/) | development | lodekeeper | ★ 0 |
@@ -7113,6 +7720,7 @@
 | [development-router](skills/development/development-router/) | development | Zpankz | ★ 0 |
 | [devops](skills/devops/devops/) | devops | NeverSight | ★ 0 |
 | [devops](skills/devops/devops/) | devops | majiayu000 | ★ 0 |
+| [devops](skills/devops/devops/) | devops | duc01226 | ★ 0 |
 | [devops](skills/devops/devops/) | devops | tomas-u | ★ 0 |
 | [devops](skills/devops/devops/) | devops | leovido | ★ 0 |
 | [devops](skills/devops/devops/) | devops | pluginagentmarketplace | ★ 0 |
@@ -7347,8 +7955,8 @@
 | [docker-deployment](skills/devops/docker-deployment/) | devops | gazolla | ★ 0 |
 | [docker-expert](skills/devops/docker-expert/) | devops | sickn33 | ★ 16.7k |
 | [docker-expert](skills/devops/docker-expert/) | devops | sickn33 | ★ 15.4k |
+| [docker-expert](skills/devops/docker-expert/) | devops | majiayu000 | ★ 2 |
 | [docker-expert](skills/devops/docker-expert/) | devops | majiayu000 | ★ 0 |
-| [docker-expert](skills/devops/docker-expert/) | devops | Dokhacgiakhoa | ★ 0 |
 | [docker-expert](skills/devops/docker-expert/) | devops | majiayu000 | ★ 0 |
 | [docker-expert](skills/devops/docker-expert/) | devops | traylinx | ★ 0 |
 | [docker-expert](skills/devops/docker-expert/) | devops | corsal2025 | ★ 0 |
@@ -7386,6 +7994,7 @@
 | [docs-ai-prd](skills/documentation/docs-ai-prd/) | documentation | vasilyu1983 | ★ 0 |
 | [docs-ai-prd](skills/ai-agents/docs-ai-prd/) | ai-agents | majiayu000 | ★ 0 |
 | [docs-architect](skills/documentation/docs-architect/) | documentation | sickn33 | ★ 15.4k |
+| [docs-architect](skills/documentation/docs-architect/) | documentation | majiayu000 | ★ 2 |
 | [docs-as-code](skills/documentation/docs-as-code/) | documentation | majiayu000 | ★ 0 |
 | [docs-as-code](skills/documentation/docs-as-code/) | documentation | melodic-software | ★ 0 |
 | [docs-codebase](skills/documentation/docs-codebase/) | documentation | majiayu000 | ★ 0 |
@@ -7533,6 +8142,7 @@
 | [duplicati](skills/development/duplicati/) | development | Demerzels-lab | ★ 0 |
 | [duplicati](skills/backend/duplicati/) | backend | decimasudo | ★ 0 |
 | [dx-optimizer](skills/tools/dx-optimizer/) | tools | sickn33 | ★ 15.4k |
+| [dx-optimizer](skills/tools/dx-optimizer/) | tools | majiayu000 | ★ 2 |
 | [dyad:swarm-pr-review](skills/development/dyad-swarm-pr-review/) | development | dyad-sh | ★ 0 |
 | [dynamic-application-security-testing](skills/development/dynamic-application-security-testing/) | development | seb1n | ★ 0 |
 | [Dynamics 365 Automation](skills/development/dynamics-365-automation/) | development | ComposioHQ | ★ 37.3k |
@@ -7606,8 +8216,10 @@
 | [email-notifications](skills/business/email-notifications/) | business | splits-network | ★ 0 |
 | [email-sequence](skills/business/email-sequence/) | business | sickn33 | ★ 16.7k |
 | [email-sequence](skills/business/email-sequence/) | business | sickn33 | ★ 15.4k |
+| [email-sequence](skills/business/email-sequence/) | business | majiayu000 | ★ 2 |
 | [email-systems](skills/business/email-systems/) | business | sickn33 | ★ 16.7k |
 | [email-systems](skills/business/email-systems/) | business | sickn33 | ★ 15.4k |
+| [email-systems](skills/business/email-systems/) | business | majiayu000 | ★ 2 |
 | [email-triage-draft-replies](skills/data-ai/email-triage-draft-replies/) | data-ai | majiayu000 | ★ 0 |
 | [email-triage-draft-replies](skills/data-ai/email-triage-draft-replies/) | data-ai | majiayu000 | ★ 0 |
 | [email-triage-draft-replies](skills/business/email-triage-draft-replies/) | business | majiayu000 | ★ 0 |
@@ -7718,6 +8330,7 @@
 | [error-debugging-multi-agent-review](skills/data-ai/error-debugging-multi-agent-review/) | data-ai | imranstein | ★ 0 |
 | [error-debugging-multi-agent-review](skills/development/error-debugging-multi-agent-review/) | development | chicanoandres702 | ★ 0 |
 | [error-detective](skills/data-ai/error-detective/) | data-ai | sickn33 | ★ 15.4k |
+| [error-detective](skills/development/error-detective/) | development | majiayu000 | ★ 2 |
 | [error-diagnostics-error-analysis](skills/development/error-diagnostics-error-analysis/) | development | sickn33 | ★ 16.7k |
 | [error-diagnostics-error-analysis](skills/tools/error-diagnostics-error-analysis/) | tools | sickn33 | ★ 15.4k |
 | [error-diagnostics-error-analysis](skills/tools/error-diagnostics-error-analysis/) | tools | sla-te | ★ 0 |
@@ -8019,6 +8632,7 @@
 | [feature-dev](skills/development/feature-dev/) | development | COG-GTM | ★ 0 |
 | [feature-dev-workflow](skills/product/feature-dev-workflow/) | product | Powerful-Systems | ★ 0 |
 | [feature-engineering](skills/product/feature-engineering/) | product | root-5 | ★ 0 |
+| [feature-investigation](skills/product/feature-investigation/) | product | duc01226 | ★ 0 |
 | [feature-sliced-design](skills/development/feature-sliced-design/) | development | NeverSight | ★ 0 |
 | [feature-slicing](skills/development/feature-slicing/) | development | majiayu000 | ★ 0 |
 | [feature-slicing](skills/development/feature-slicing/) | development | majiayu000 | ★ 0 |
@@ -8062,6 +8676,7 @@
 | [figma-make-website-builder](skills/design/figma-make-website-builder/) | design | 0xkynz | ★ 0 |
 | [figma-use](skills/design/figma-use/) | design | NeverSight | ★ 0 |
 | [File Handling - File Upload and Content](skills/testing-security/file-handling-file-upload-and-content/) | testing-security | duhd-vnpay | ★ 0 |
+| [File Path Traversal Testing](skills/testing-security/file-path-traversal-testing/) | testing-security | majiayu000 | ★ 2 |
 | [file-archiver](skills/development/file-archiver/) | development | AIDotNet | ★ 0 |
 | [file-archiver](skills/development/file-archiver/) | development | majiayu000 | ★ 0 |
 | [file-archiver](skills/development/file-archiver/) | development | majiayu000 | ★ 0 |
@@ -8070,6 +8685,7 @@
 | [file-organizer](skills/content-media/file-organizer/) | content-media | sickn33 | ★ 16.7k |
 | [file-organizer](skills/content-media/file-organizer/) | content-media | sickn33 | ★ 15.4k |
 | [file-organizer](skills/tools/file-organizer/) | tools | majiayu000 | ★ 92 |
+| [file-organizer](skills/backend/file-organizer/) | backend | majiayu000 | ★ 2 |
 | [file-organizer](skills/tools/file-organizer/) | tools | majiayu000 | ★ 1 |
 | [file-path-traversal](skills/fullstack-web/file-path-traversal/) | fullstack-web | sickn33 | ★ 16.7k |
 | [file-path-traversal](skills/development/file-path-traversal/) | development | sickn33 | ★ 15.4k |
@@ -8158,6 +8774,7 @@
 | [Fixed Video Format (9:16)](skills/development/fixed-video-format-9-16/) | development | majiayu000 | ★ 0 |
 | [fixer-automation](skills/tools/fixer-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [fixer-io-automation](skills/tools/fixer-io-automation/) | tools | ComposioHQ | ★ 37.3k |
+| [flame-game-dev](skills/development/flame-game-dev/) | development | miles990 | ★ 0 |
 | [flask](skills/backend/flask/) | backend | bobmatnyc | ★ 0 |
 | [flask-api-development](skills/development/flask-api-development/) | development | majiayu000 | ★ 0 |
 | [flask-api-development](skills/development/flask-api-development/) | development | aj-geddes | ★ 0 |
@@ -8206,6 +8823,7 @@
 | [flutter-app-builder](skills/development/flutter-app-builder/) | development | nodelabstudio | ★ 0 |
 | [flutter-dev](skills/fullstack-web/flutter-dev/) | fullstack-web | calvingit | ★ 0 |
 | [flutter-expert](skills/development/flutter-expert/) | development | sickn33 | ★ 15.4k |
+| [flutter-expert](skills/fullstack-web/flutter-expert/) | fullstack-web | majiayu000 | ★ 2 |
 | [flutter-expert](skills/development/flutter-expert/) | development | itsimonfredlingjack | ★ 0 |
 | [flutter-expert](skills/fullstack-web/flutter-expert/) | fullstack-web | itsimonfredlingjack | ★ 0 |
 | [flutter-expert](skills/development/flutter-expert/) | development | rootcastleco | ★ 0 |
@@ -8237,6 +8855,7 @@
 | [form_builder](skills/design/form_builder/) | design | majiayu000 | ★ 0 |
 | [form_builder](skills/design/form_builder/) | design | vuralserhat86 | ★ 0 |
 | [form_builder](skills/design/form_builder/) | design | majiayu000 | ★ 0 |
+| [form-and-actions-in-sveltekit](skills/backend/form-and-actions-in-sveltekit/) | backend | oimiragieo | ★ 0 |
 | [format-euler-code](skills/development/format-euler-code/) | development | brucehart | ★ 0 |
 | [format-figure](skills/development/format-figure/) | development | helblazer811 | ★ 0 |
 | [formbricks-automation](skills/development/formbricks-automation/) | development | ComposioHQ | ★ 37.3k |
@@ -8340,6 +8959,9 @@
 | [frontend-analyzer](skills/development/frontend-analyzer/) | development | majiayu000 | ★ 0 |
 | [frontend-analyzer](skills/development/frontend-analyzer/) | development | majiayu000 | ★ 0 |
 | [frontend-analyzer](skills/frontend/frontend-analyzer/) | frontend | majiayu000 | ★ 0 |
+| [frontend-angular-api-service](skills/frontend/frontend-angular-api-service/) | frontend | majiayu000 | ★ 2 |
+| [frontend-angular-form](skills/frontend/frontend-angular-form/) | frontend | majiayu000 | ★ 2 |
+| [frontend-angular-store](skills/frontend/frontend-angular-store/) | frontend | majiayu000 | ★ 2 |
 | [frontend-architect](skills/frontend/frontend-architect/) | frontend | majiayu000 | ★ 0 |
 | [frontend-architecture-vue-typescript](skills/development/frontend-architecture-vue-typescript/) | development | shapestone | ★ 0 |
 | [frontend-build](skills/development/frontend-build/) | development | abdullah1854 | ★ 0 |
@@ -8359,6 +8981,7 @@
 | [frontend-design](skills/development/frontend-design/) | development | sickn33 | ★ 15.4k |
 | [frontend-design](skills/development/frontend-design/) | development | majiayu000 | ★ 94 |
 | [frontend-design](skills/development/frontend-design/) | development | majiayu000 | ★ 2 |
+| [frontend-design](skills/frontend/frontend-design/) | frontend | majiayu000 | ★ 2 |
 | [frontend-design](skills/frontend/frontend-design/) | frontend | majiayu000 | ★ 2 |
 | [frontend-design](skills/development/frontend-design/) | development | rafaelramosdf | ★ 0 |
 | [frontend-design](skills/frontend/frontend-design/) | frontend | rafaelramosdf | ★ 0 |
@@ -8703,6 +9326,8 @@
 | [genderize-automation](skills/tools/genderize-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [general-best-practices](skills/development/general-best-practices/) | development | Mindrally | ★ 0 |
 | [general-best-practices](skills/development/general-best-practices/) | development | NeverSight | ★ 0 |
+| [general-principles](skills/development/general-principles/) | development | Tryboy869 | ★ 0 |
+| [Generate multilingual sentences with contextual definitions](skills/tools/generate-multilingual-sentences-with-contextual-definitions/) | tools | ECNU-ICALK | ★ 0 |
 | [generate_quiz_batch](skills/design/generate_quiz_batch/) | design | BlindsidedGames | ★ 0 |
 | [generate-agent-docs](skills/documentation/generate-agent-docs/) | documentation | Alzakath | ★ 0 |
 | [generate-component-story](skills/communication/generate-component-story/) | communication | longbridge | ★ 0 |
@@ -8868,6 +9493,7 @@
 | [git-pr-workflows-pr-enhance](skills/tools/git-pr-workflows-pr-enhance/) | tools | sickn33 | ★ 15.4k |
 | [git-pushing](skills/cli-automation/git-pushing/) | cli-automation | sickn33 | ★ 16.7k |
 | [git-pushing](skills/tools/git-pushing/) | tools | sickn33 | ★ 15.4k |
+| [git-pushing](skills/cli-automation/git-pushing/) | cli-automation | majiayu000 | ★ 2 |
 | [git-sw](skills/tools/git-sw/) | tools | thansetan | ★ 0 |
 | [git-workflow](skills/tools/git-workflow/) | tools | majiayu000 | ★ 92 |
 | [git-workflow](skills/tools/git-workflow/) | tools | majiayu000 | ★ 1 |
@@ -9021,6 +9647,7 @@
 | [gitops-workflow](skills/devops/gitops-workflow/) | devops | sickn33 | ★ 16.7k |
 | [gitops-workflow](skills/devops/gitops-workflow/) | devops | sickn33 | ★ 15.4k |
 | [gitops-workflow](skills/devops/gitops-workflow/) | devops | majiayu000 | ★ 92 |
+| [gitops-workflow](skills/devops/gitops-workflow/) | devops | majiayu000 | ★ 2 |
 | [gitops-workflow](skills/devops/gitops-workflow/) | devops | majiayu000 | ★ 1 |
 | [givebutter-automation](skills/tools/givebutter-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [gke-deployment](skills/devops/gke-deployment/) | devops | jander99 | ★ 0 |
@@ -9052,6 +9679,7 @@
 | [gmail-automation](skills/cli-automation/gmail-automation/) | cli-automation | sickn33 | ★ 16.7k |
 | [gmail-automation](skills/data-ai/gmail-automation/) | data-ai | sickn33 | ★ 15.4k |
 | [GMCLAW](skills/ai-agents/gmclaw/) | ai-agents | 1dolinski | ★ 0 |
+| [go-backend-scalability-cursorrules-prompt-file-cursorrules](skills/backend/go-backend-scalability-cursorrules-prompt-file-cursorrules/) | backend | Tryboy869 | ★ 0 |
 | [go-backend-tool](skills/backend/go-backend-tool/) | backend | yasinnerten | ★ 0 |
 | [go-concurrency-patterns](skills/development/go-concurrency-patterns/) | development | sickn33 | ★ 16.7k |
 | [go-concurrency-patterns](skills/tools/go-concurrency-patterns/) | tools | sickn33 | ★ 15.4k |
@@ -9060,6 +9688,7 @@
 | [go-functional-options](skills/development/go-functional-options/) | development | cxuu | ★ 0 |
 | [go-functional-options](skills/development/go-functional-options/) | development | NeverSight | ★ 0 |
 | [go-functional-options](skills/development/go-functional-options/) | development | majiayu000 | ★ 0 |
+| [go-functional-options](skills/backend/go-functional-options/) | backend | rondevz | ★ 0 |
 | [go-goose](skills/development/go-goose/) | development | majiayu000 | ★ 0 |
 | [go-microservice](skills/design/go-microservice/) | design | Conte777 | ★ 0 |
 | [go-microservices](skills/devops/go-microservices/) | devops | majiayu000 | ★ 0 |
@@ -9071,6 +9700,7 @@
 | [go-project-overview](skills/development/go-project-overview/) | development | pixb | ★ 0 |
 | [go-rod-master](skills/frontend/go-rod-master/) | frontend | sickn33 | ★ 16.7k |
 | [go-rod-master](skills/development/go-rod-master/) | development | sickn33 | ★ 15.4k |
+| [go-servemux-rest-api-cursorrules-prompt-file](skills/backend/go-servemux-rest-api-cursorrules-prompt-file/) | backend | Tryboy869 | ★ 0 |
 | [go-services](skills/devops/go-services/) | devops | majiayu000 | ★ 0 |
 | [go-services](skills/devops/go-services/) | devops | omer-metin | ★ 0 |
 | [go-services](skills/devops/go-services/) | devops | majiayu000 | ★ 0 |
@@ -9206,7 +9836,7 @@
 | [gRPC Integration](skills/development/grpc-integration/) | development | majiayu000 | ★ 0 |
 | [gRPC Integration](skills/development/grpc-integration/) | development | majiayu000 | ★ 0 |
 | [gRPC Integration](skills/backend/grpc-integration/) | backend | majiayu000 | ★ 0 |
-| [grpc-golang](skills/backend/grpc-golang/) | backend | sickn33 | ★ 16.7k |
+| [grpc-golang](skills/backend/grpc-golang/) | backend | sickn33 | ★ 17.3k |
 | [grpc-python](skills/development/grpc-python/) | development | NeverSight | ★ 0 |
 | [grpc-python](skills/backend/grpc-python/) | backend | majiayu000 | ★ 0 |
 | [gsap](skills/development/gsap/) | development | Hendo10X | ★ 0 |
@@ -9392,6 +10022,7 @@
 | [hubspot-automation](skills/business/hubspot-automation/) | business | javiertarazon | ★ 0 |
 | [hubspot-integration](skills/backend/hubspot-integration/) | backend | sickn33 | ★ 16.7k |
 | [hubspot-integration](skills/development/hubspot-integration/) | development | sickn33 | ★ 15.5k |
+| [hubspot-integration](skills/backend/hubspot-integration/) | backend | majiayu000 | ★ 2 |
 | [hubspot-integration](skills/development/hubspot-integration/) | development | ngxtm | ★ 0 |
 | [hubspot-integration](skills/development/hubspot-integration/) | development | sonson0910 | ★ 0 |
 | [hubspot-integration](skills/development/hubspot-integration/) | development | corsal2025 | ★ 0 |
@@ -9517,6 +10148,7 @@
 | [Implementing Observability](skills/development/implementing-observability/) | development | 7a336e6e | ★ 0 |
 | [Implementing Observability](skills/development/implementing-observability/) | development | 7a336e6e | ★ 0 |
 | [implementing-android-code](skills/development/implementing-android-code/) | development | bitwarden | ★ 0 |
+| [implementing-api-patterns](skills/backend/implementing-api-patterns/) | backend | majiayu000 | ★ 0 |
 | [implementing-aqua-security-for-container-scanning](skills/devops/implementing-aqua-security-for-container-scanning/) | devops | mukul975 | ★ 0 |
 | [implementing-e2e-testing](skills/testing-security/implementing-e2e-testing/) | testing-security | WesleySmits | ★ 0 |
 | [implementing-end-to-end-encryption-for-messaging](skills/testing-security/implementing-end-to-end-encryption-for-messaging/) | testing-security | mukul975 | ★ 0 |
@@ -9527,6 +10159,7 @@
 | [implementing-rapid7-insightvm-for-scanning](skills/backend/implementing-rapid7-insightvm-for-scanning/) | backend | mukul975 | ★ 0 |
 | [implementing-search-filter](skills/development/implementing-search-filter/) | development | ancoleman | ★ 0 |
 | [implementing-service-mesh](skills/devops/implementing-service-mesh/) | devops | ancoleman | ★ 0 |
+| [implementing-tls](skills/testing-security/implementing-tls/) | testing-security | majiayu000 | ★ 0 |
 | [import-existing-ai-config](skills/data-ai/import-existing-ai-config/) | data-ai | fabis94 | ★ 0 |
 | [import-existing-ai-config](skills/data-ai/import-existing-ai-config/) | data-ai | specklesystems | ★ 0 |
 | [import-existing-ai-config](skills/data-ai/import-existing-ai-config/) | data-ai | fabis94 | ★ 0 |
@@ -9730,12 +10363,15 @@
 | [java-dev](skills/development/java-dev/) | development | majiayu000 | ★ 0 |
 | [java-doctor](skills/development/java-doctor/) | development | NeverSight | ★ 0 |
 | [java-pro](skills/development/java-pro/) | development | sickn33 | ★ 15.5k |
+| [java-pro](skills/development/java-pro/) | development | majiayu000 | ★ 2 |
 | [java-pro](skills/development/java-pro/) | development | itsimonfredlingjack | ★ 0 |
 | [java-pro](skills/backend/java-pro/) | backend | itsimonfredlingjack | ★ 0 |
 | [javascript](skills/development/javascript/) | development | kprsnt2 | ★ 0 |
 | [javascript-mastery](skills/cli-automation/javascript-mastery/) | cli-automation | sickn33 | ★ 16.7k |
 | [javascript-mastery](skills/development/javascript-mastery/) | development | sickn33 | ★ 15.5k |
+| [javascript-mastery](skills/development/javascript-mastery/) | development | majiayu000 | ★ 2 |
 | [javascript-pro](skills/development/javascript-pro/) | development | sickn33 | ★ 15.5k |
+| [javascript-pro](skills/development/javascript-pro/) | development | majiayu000 | ★ 2 |
 | [javascript-testing-patterns](skills/development/javascript-testing-patterns/) | development | sickn33 | ★ 16.7k |
 | [javascript-testing-patterns](skills/development/javascript-testing-patterns/) | development | sickn33 | ★ 15.5k |
 | [javascript-testing-patterns](skills/development/javascript-testing-patterns/) | development | futuregerald | ★ 0 |
@@ -9816,6 +10452,7 @@
 | [jules-api](skills/development/jules-api/) | development | mattnigh | ★ 0 |
 | [jules-audit-request](skills/testing-security/jules-audit-request/) | testing-security | majiayu000 | ★ 0 |
 | [julia-pro](skills/tools/julia-pro/) | tools | sickn33 | ★ 15.5k |
+| [julia-pro](skills/tools/julia-pro/) | tools | majiayu000 | ★ 2 |
 | [julien-infra-hostinger-database](skills/devops/julien-infra-hostinger-database/) | devops | majiayu000 | ★ 0 |
 | [julien-infra-hostinger-database](skills/devops/julien-infra-hostinger-database/) | devops | majiayu000 | ★ 0 |
 | [julien-workflow-advice-codex](skills/data-ai/julien-workflow-advice-codex/) | data-ai | majiayu000 | ★ 0 |
@@ -9955,6 +10592,7 @@
 | [known-motif-enrichment](skills/development/known-motif-enrichment/) | development | majiayu000 | ★ 1 |
 | [ko-fi-automation](skills/tools/ko-fi-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [koan-ai-integration](skills/ai-agents/koan-ai-integration/) | ai-agents | majiayu000 | ★ 2 |
+| [koan-api-building](skills/backend/koan-api-building/) | backend | majiayu000 | ★ 2 |
 | [koan-entity-first](skills/development/koan-entity-first/) | development | majiayu000 | ★ 0 |
 | [koan-entity-first](skills/development/koan-entity-first/) | development | majiayu000 | ★ 0 |
 | [koan-entity-first](skills/development/koan-entity-first/) | development | sylin-org | ★ 0 |
@@ -10058,6 +10696,7 @@
 | [language-framework-specialist](skills/development/language-framework-specialist/) | development | majiayu000 | ★ 0 |
 | [language-framework-specialist](skills/development/language-framework-specialist/) | development | majiayu000 | ★ 0 |
 | [laravel](skills/development/laravel/) | development | v24kuon | ★ 0 |
+| [Laravel API](skills/backend/laravel-api/) | backend | majiayu000 | ★ 2 |
 | [laravel-12-best-practices](skills/development/laravel-12-best-practices/) | development | mbuyco | ★ 0 |
 | [laravel-12-best-practices](skills/development/laravel-12-best-practices/) | development | mbuyco | ★ 0 |
 | [laravel-expert](skills/development/laravel-expert/) | development | sickn33 | ★ 16.7k |
@@ -10065,6 +10704,7 @@
 | [laravel-inertia-isolated-plugin-architect](skills/development/laravel-inertia-isolated-plugin-architect/) | development | clonio-dev | ★ 0 |
 | [laravel-security-audit](skills/testing-security/laravel-security-audit/) | testing-security | sickn33 | ★ 16.7k |
 | [laravel-security-audit](skills/testing-security/laravel-security-audit/) | testing-security | sickn33 | ★ 15.5k |
+| [laravel-tall-stack-best-practices-cursorrules-prom-cursorrules](skills/backend/laravel-tall-stack-best-practices-cursorrules-prom-cursorrules/) | backend | Tryboy869 | ★ 0 |
 | [laravel-type-bridge-development](skills/development/laravel-type-bridge-development/) | development | GaiaTools | ★ 0 |
 | [laravel-vite](skills/development/laravel-vite/) | development | uniespacos | ★ 0 |
 | [large-data-with-dask](skills/data-ai/large-data-with-dask/) | data-ai | oimiragieo | ★ 0 |
@@ -10097,6 +10737,7 @@
 | [launch_darkly-automation](skills/tools/launch_darkly-automation/) | tools | ComposioHQ | ★ 37.3k |
 | [launch-strategy](skills/business/launch-strategy/) | business | sickn33 | ★ 16.7k |
 | [launch-strategy](skills/business/launch-strategy/) | business | sickn33 | ★ 15.5k |
+| [launch-strategy](skills/business/launch-strategy/) | business | majiayu000 | ★ 2 |
 | [LaunchDarkly Automation](skills/product/launchdarkly-automation/) | product | ComposioHQ | ★ 37.3k |
 | [LAYER_01_MOTIV](skills/data-ai/layer_01_motiv/) | data-ai | majiayu000 | ★ 0 |
 | [LAYER_01_MOTIV](skills/data-ai/layer_01_motiv/) | data-ai | majiayu000 | ★ 0 |
@@ -10157,6 +10798,7 @@
 | [ledger](skills/data-ai/ledger/) | data-ai | alsk1992 | ★ 0 |
 | [legacy-modernizer](skills/development/legacy-modernizer/) | development | sickn33 | ★ 15.5k |
 | [legal-advisor](skills/data-ai/legal-advisor/) | data-ai | sickn33 | ★ 15.5k |
+| [legal-advisor](skills/devops/legal-advisor/) | devops | majiayu000 | ★ 2 |
 | [legal-advisor](skills/data-ai/legal-advisor/) | data-ai | techwavedev | ★ 0 |
 | [legal-compliance-agent](skills/testing-security/legal-compliance-agent/) | testing-security | Odiabackend099 | ★ 0 |
 | [legal-ocr](skills/cli-automation/legal-ocr/) | cli-automation | majiayu000 | ★ 0 |
@@ -10220,7 +10862,7 @@
 | [linkedin](skills/development/linkedin/) | development | skillhq | ★ 0 |
 | [linkedin-automation](skills/cli-automation/linkedin-automation/) | cli-automation | sickn33 | ★ 16.7k |
 | [linkedin-automation](skills/content-media/linkedin-automation/) | content-media | sickn33 | ★ 15.5k |
-| [linkedin-cli](skills/cli-automation/linkedin-cli/) | cli-automation | sickn33 | ★ 16.7k |
+| [linkedin-cli](skills/cli-automation/linkedin-cli/) | cli-automation | sickn33 | ★ 17.3k |
 | [linkerd-patterns](skills/development/linkerd-patterns/) | development | sickn33 | ★ 16.7k |
 | [linkerd-patterns](skills/devops/linkerd-patterns/) | devops | sickn33 | ★ 15.5k |
 | [linkhut-automation](skills/tools/linkhut-automation/) | tools | ComposioHQ | ★ 37.3k |
@@ -10230,6 +10872,7 @@
 | [lint-and-format](skills/backend/lint-and-format/) | backend | matteing | ★ 0 |
 | [lint-and-validate](skills/backend/lint-and-validate/) | backend | sickn33 | ★ 16.7k |
 | [lint-and-validate](skills/development/lint-and-validate/) | development | sickn33 | ★ 15.5k |
+| [lint-and-validate](skills/backend/lint-and-validate/) | backend | majiayu000 | ★ 2 |
 | [linuse](skills/development/linuse/) | development | nedos | ★ 0 |
 | [linux-shell-scripting](skills/cli-automation/linux-shell-scripting/) | cli-automation | sickn33 | ★ 16.7k |
 | [linux-shell-scripting](skills/design/linux-shell-scripting/) | design | sickn33 | ★ 15.5k |
@@ -10254,7 +10897,7 @@
 | [livekit-nextjs-frontend](skills/development/livekit-nextjs-frontend/) | development | majiayu000 | ★ 0 |
 | [livekit-nextjs-frontend](skills/frontend/livekit-nextjs-frontend/) | frontend | majiayu000 | ★ 0 |
 | [livesession-automation](skills/tools/livesession-automation/) | tools | ComposioHQ | ★ 37.3k |
-| [llamaindex](skills/ai-agents/llamaindex/) | ai-agents | majiayu000 | ★ 2 |
+| [llamaindex](skills/ai-agents/llamaindex/) | ai-agents | majiayu000 | ★ 95 |
 | [llm](skills/data-ai/llm/) | data-ai | ZealousEar | ★ 0 |
 | [LLM](skills/development/llm/) | development | AnswerZhao | ★ 0 |
 | [LLM](skills/ai-agents/llm/) | ai-agents | lucasmattosped | ★ 0 |
@@ -10262,6 +10905,7 @@
 | [Llm Local Deployment](skills/backend/llm-local-deployment/) | backend | AmnadTaowsoam | ★ 0 |
 | [llm-app-patterns](skills/ai-agents/llm-app-patterns/) | ai-agents | sickn33 | ★ 16.7k |
 | [llm-app-patterns](skills/data-ai/llm-app-patterns/) | data-ai | sickn33 | ★ 15.5k |
+| [llm-app-patterns](skills/ai-agents/llm-app-patterns/) | ai-agents | majiayu000 | ★ 2 |
 | [llm-app-patterns](skills/data-ai/llm-app-patterns/) | data-ai | whodaniel | ★ 0 |
 | [llm-application-dev-ai-assistant](skills/ai-agents/llm-application-dev-ai-assistant/) | ai-agents | sickn33 | ★ 16.7k |
 | [llm-application-dev-ai-assistant](skills/data-ai/llm-application-dev-ai-assistant/) | data-ai | sickn33 | ★ 15.5k |
@@ -10284,6 +10928,7 @@
 | [llm-evaluate](skills/data-ai/llm-evaluate/) | data-ai | lucidlabs-hq | ★ 0 |
 | [llm-evaluation](skills/ai-agents/llm-evaluation/) | ai-agents | sickn33 | ★ 16.7k |
 | [llm-evaluation](skills/data-ai/llm-evaluation/) | data-ai | sickn33 | ★ 15.5k |
+| [llm-evaluation](skills/ai-agents/llm-evaluation/) | ai-agents | majiayu000 | ★ 2 |
 | [llm-fmt](skills/backend/llm-fmt/) | backend | SerPeter | ★ 0 |
 | [llm-icon-finder](skills/data-ai/llm-icon-finder/) | data-ai | daymade | ★ 0 |
 | [llm-manager](skills/data-ai/llm-manager/) | data-ai | majiayu000 | ★ 0 |
@@ -10418,6 +11063,7 @@
 | [makepad-skills](skills/development/makepad-skills/) | development | sickn33 | ★ 16.7k |
 | [makepad-skills](skills/development/makepad-skills/) | development | sickn33 | ★ 15.5k |
 | [malware-analyst](skills/devops/malware-analyst/) | devops | sickn33 | ★ 15.5k |
+| [malware-analyst](skills/devops/malware-analyst/) | devops | majiayu000 | ★ 2 |
 | [malware-analyst](skills/devops/malware-analyst/) | devops | techwavedev | ★ 0 |
 | [manage-agents](skills/data-ai/manage-agents/) | data-ai | majiayu000 | ★ 0 |
 | [manage-agents](skills/data-ai/manage-agents/) | data-ai | majiayu000 | ★ 0 |
@@ -10537,6 +11183,7 @@
 | [math-router](skills/tools/math-router/) | tools | NeverSight | ★ 0 |
 | [math-router](skills/tools/math-router/) | tools | majiayu000 | ★ 0 |
 | [mathem-shopping](skills/data-ai/mathem-shopping/) | data-ai | Malm | ★ 0 |
+| [MATLAB离散点Hough变换直线检测](skills/development/matlab-hough/) | development | ECNU-ICALK | ★ 0 |
 | [maven-build](skills/tools/maven-build/) | tools | majiayu000 | ★ 0 |
 | [maven-build](skills/tools/maven-build/) | tools | majiayu000 | ★ 0 |
 | [maven-build](skills/tools/maven-build/) | tools | majiayu000 | ★ 0 |
@@ -10667,8 +11314,10 @@
 | [mermaid-diagram-generator](skills/development/mermaid-diagram-generator/) | development | nasher721 | ★ 0 |
 | [mermaid-diagram-generator](skills/development/mermaid-diagram-generator/) | development | patricio0312rev | ★ 0 |
 | [mermaid-diagram-generator](skills/development/mermaid-diagram-generator/) | development | patricio0312rev | ★ 0 |
+| [mermaid-diagram-generator](skills/backend/mermaid-diagram-generator/) | backend | monkey1sai | ★ 0 |
 | [mermaid-diagrams](skills/backend/mermaid-diagrams/) | backend | majiayu000 | ★ 0 |
 | [mermaid-expert](skills/data-ai/mermaid-expert/) | data-ai | sickn33 | ★ 15.5k |
+| [mermaid-expert](skills/design/mermaid-expert/) | design | majiayu000 | ★ 2 |
 | [mermaid-generator](skills/tools/mermaid-generator/) | tools | unix2dos | ★ 0 |
 | [mermaid-studio](skills/devops/mermaid-studio/) | devops | tech-leads-club | ★ 0 |
 | [mesh-security](skills/testing-security/mesh-security/) | testing-security | majiayu000 | ★ 0 |
@@ -10698,6 +11347,7 @@
 | [mhc](skills/data-ai/mhc/) | data-ai | yonesuke | ★ 0 |
 | [micro-saas-launcher](skills/development/micro-saas-launcher/) | development | sickn33 | ★ 16.7k |
 | [micro-saas-launcher](skills/development/micro-saas-launcher/) | development | sickn33 | ★ 15.5k |
+| [micro-saas-launcher](skills/development/micro-saas-launcher/) | development | majiayu000 | ★ 2 |
 | [Microservices Communication](skills/backend/microservices-communication/) | backend | tuyenht | ★ 0 |
 | [microservices-architecture](skills/design/microservices-architecture/) | design | majiayu000 | ★ 0 |
 | [microservices-architecture](skills/design/microservices-architecture/) | design | majiayu000 | ★ 0 |
@@ -10795,6 +11445,7 @@
 | [mlops](skills/data-ai/mlops/) | data-ai | pluginagentmarketplace | ★ 0 |
 | [mlops](skills/data-ai/mlops/) | data-ai | NeverSight | ★ 0 |
 | [mlops-engineer](skills/devops/mlops-engineer/) | devops | sickn33 | ★ 15.5k |
+| [mlops-engineer](skills/devops/mlops-engineer/) | devops | majiayu000 | ★ 2 |
 | [mlx-audio](skills/cli-automation/mlx-audio/) | cli-automation | IntelliSoins | ★ 0 |
 | [mnemonic](skills/data-ai/mnemonic/) | data-ai | Napageneral | ★ 0 |
 | [moai-alfred-language-detection](skills/data-ai/moai-alfred-language-detection/) | data-ai | kivo360 | ★ 0 |
@@ -10942,6 +11593,7 @@
 | [mobile-app-testing](skills/development/mobile-app-testing/) | development | majiayu000 | ★ 0 |
 | [mobile-design](skills/fullstack-web/mobile-design/) | fullstack-web | sickn33 | ★ 16.7k |
 | [mobile-design](skills/development/mobile-design/) | development | sickn33 | ★ 15.5k |
+| [mobile-design](skills/fullstack-web/mobile-design/) | fullstack-web | majiayu000 | ★ 2 |
 | [mobile-developer](skills/development/mobile-developer/) | development | sickn33 | ★ 15.5k |
 | [mobile-developer](skills/development/mobile-developer/) | development | harshahosur81 | ★ 0 |
 | [mobile-developer](skills/development/mobile-developer/) | development | sergioP1991 | ★ 0 |
@@ -11293,6 +11945,7 @@
 | [Neon Automation](skills/development/neon-automation/) | development | majiayu000 | ★ 0 |
 | [neon-postgres](skills/backend/neon-postgres/) | backend | sickn33 | ★ 16.7k |
 | [neon-postgres](skills/development/neon-postgres/) | development | sickn33 | ★ 15.5k |
+| [neon-postgres](skills/backend/neon-postgres/) | backend | majiayu000 | ★ 2 |
 | [neotex-init](skills/tools/neotex-init/) | tools | majiayu000 | ★ 0 |
 | [neotex-init](skills/tools/neotex-init/) | tools | majiayu000 | ★ 0 |
 | [nerdzao-elite](skills/development/nerdzao-elite/) | development | sickn33 | ★ 16.7k |
@@ -11314,8 +11967,10 @@
 | [nestjs-backend](skills/development/nestjs-backend/) | development | codewizwit | ★ 0 |
 | [nestjs-expert](skills/development/nestjs-expert/) | development | sickn33 | ★ 16.7k |
 | [nestjs-expert](skills/development/nestjs-expert/) | development | sickn33 | ★ 15.5k |
+| [nestjs-expert](skills/development/nestjs-expert/) | development | majiayu000 | ★ 2 |
 | [nestjs-setup-guide](skills/development/nestjs-setup-guide/) | development | khw1031 | ★ 0 |
 | [NetSuite Automation](skills/business/netsuite-automation/) | business | ComposioHQ | ★ 37.7k |
+| [Network 101](skills/backend/network-101/) | backend | majiayu000 | ★ 2 |
 | [network-101](skills/backend/network-101/) | backend | sickn33 | ★ 16.7k |
 | [network-101](skills/development/network-101/) | development | sickn33 | ★ 15.5k |
 | [network-engineer](skills/devops/network-engineer/) | devops | sickn33 | ★ 15.5k |
@@ -11373,6 +12028,7 @@
 | [nextjs-tanstack-form](skills/development/nextjs-tanstack-form/) | development | majiayu000 | ★ 0 |
 | [nextjs-tanstack-form](skills/development/nextjs-tanstack-form/) | development | majiayu000 | ★ 0 |
 | [nextjs-tanstack-form](skills/frontend/nextjs-tanstack-form/) | frontend | majiayu000 | ★ 0 |
+| [nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file-cursorrules](skills/frontend/nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file-cursorrules/) | frontend | Tryboy869 | ★ 0 |
 | [nextlevelbuilder/ui-ux-pro-max-skill](skills/design/nextlevelbuilder-ui-ux-pro-max-skill/) | design | nguyenvanduocit | ★ 0 |
 | [Nexus UI Developer](skills/frontend/nexus-ui-developer/) | frontend | majiayu000 | ★ 0 |
 | [nexus-bootstrap](skills/data-ai/nexus-bootstrap/) | data-ai | majiayu000 | ★ 0 |
@@ -11381,6 +12037,7 @@
 | [nf-to-galaxy](skills/documentation/nf-to-galaxy/) | documentation | galaxyproject | ★ 0 |
 | [nft-standards](skills/tools/nft-standards/) | tools | sickn33 | ★ 16.7k |
 | [nft-standards](skills/tools/nft-standards/) | tools | sickn33 | ★ 15.5k |
+| [nft-standards](skills/tools/nft-standards/) | tools | majiayu000 | ★ 2 |
 | [nginx](skills/backend/nginx/) | backend | RepairYourTech | ★ 0 |
 | [nginx-to-higress-migration](skills/tools/nginx-to-higress-migration/) | tools | alibaba | ★ 0 |
 | [ngrok-automation](skills/tools/ngrok-automation/) | tools | ComposioHQ | ★ 37.7k |
@@ -11622,6 +12279,7 @@
 | [Onboarding Guide Generator](skills/documentation/onboarding-guide-generator/) | documentation | cdalsoniii | ★ 0 |
 | [onboarding-cro](skills/fullstack-web/onboarding-cro/) | fullstack-web | sickn33 | ★ 16.7k |
 | [onboarding-cro](skills/development/onboarding-cro/) | development | sickn33 | ★ 15.5k |
+| [onboarding-cro](skills/business/onboarding-cro/) | business | majiayu000 | ★ 2 |
 | [onboarding-kickoff](skills/cli-automation/onboarding-kickoff/) | cli-automation | aiagentwithdhruv | ★ 0 |
 | [oncehub-automation](skills/tools/oncehub-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [one-drive-automation](skills/cli-automation/one-drive-automation/) | cli-automation | sickn33 | ★ 16.7k |
@@ -11800,6 +12458,7 @@
 | [Oracle Agent Spec Expert](skills/ai-agents/oracle-agent-spec-expert/) | ai-agents | frankxai | ★ 0 |
 | [Oracle IP Intelligence](skills/data-ai/oracle-ip-intelligence/) | data-ai | NeverSight | ★ 0 |
 | [oracle-cloud](skills/devops/oracle-cloud/) | devops | majiayu000 | ★ 0 |
+| [oracle-path](skills/development/oracle-path/) | development | majiayu000 | ★ 0 |
 | [oracle-path](skills/development/oracle-path/) | development | majiayu000 | ★ 0 |
 | [oracle-path](skills/development/oracle-path/) | development | majiayu000 | ★ 0 |
 | [oracle-sentinel](skills/data-ai/oracle-sentinel/) | data-ai | oraclesentinel | ★ 0 |
@@ -11983,10 +12642,12 @@
 | [pcf-tooling](skills/frontend/pcf-tooling/) | frontend | pingqLIN | ★ 0 |
 | [pci-compliance](skills/testing-security/pci-compliance/) | testing-security | sickn33 | ★ 16.7k |
 | [pci-compliance](skills/testing-security/pci-compliance/) | testing-security | sickn33 | ★ 15.5k |
+| [pci-compliance](skills/testing-security/pci-compliance/) | testing-security | majiayu000 | ★ 2 |
 | [pci-compliance](skills/testing-security/pci-compliance/) | testing-security | techwavedev | ★ 0 |
 | [pci-compliance](skills/testing-security/pci-compliance/) | testing-security | peixotorms | ★ 0 |
 | [pdf](skills/development/pdf/) | development | ComposioHQ | ★ 37.7k |
 | [pdf](skills/development/pdf/) | development | majiayu000 | ★ 92 |
+| [pdf](skills/tools/pdf/) | tools | majiayu000 | ★ 2 |
 | [pdf](skills/development/pdf/) | development | majiayu000 | ★ 1 |
 | [pdf](skills/development/pdf/) | development | rafaelramosdf | ★ 0 |
 | [pdf](skills/backend/pdf/) | backend | rafaelramosdf | ★ 0 |
@@ -12017,6 +12678,8 @@
 | [pearl](skills/development/pearl/) | development | open-wisdom | ★ 0 |
 | [pencil-design](skills/design/pencil-design/) | design | chiroro-jr | ★ 0 |
 | [pencil-design](skills/design/pencil-design/) | design | NeverSight | ★ 0 |
+| [Pentest Checklist](skills/testing-security/pentest-checklist/) | testing-security | majiayu000 | ★ 2 |
+| [Pentest Commands](skills/testing-security/pentest-commands/) | testing-security | majiayu000 | ★ 2 |
 | [pentest-checklist](skills/testing-security/pentest-checklist/) | testing-security | sickn33 | ★ 16.7k |
 | [pentest-checklist](skills/testing-security/pentest-checklist/) | testing-security | sickn33 | ★ 15.5k |
 | [pentest-commands](skills/testing-security/pentest-commands/) | testing-security | sickn33 | ★ 16.7k |
@@ -12138,6 +12801,7 @@
 | [plaid-accounts-expert](skills/data-ai/plaid-accounts-expert/) | data-ai | majiayu000 | ★ 1 |
 | [plaid-fintech](skills/testing-security/plaid-fintech/) | testing-security | sickn33 | ★ 16.7k |
 | [plaid-fintech](skills/development/plaid-fintech/) | development | sickn33 | ★ 15.5k |
+| [plaid-fintech](skills/testing-security/plaid-fintech/) | testing-security | majiayu000 | ★ 2 |
 | [plain-automation](skills/data-ai/plain-automation/) | data-ai | ComposioHQ | ★ 37.7k |
 | [plan](skills/development/plan/) | development | ferdiangunawan | ★ 0 |
 | [plan](skills/development/plan/) | development | overthestream | ★ 0 |
@@ -12153,6 +12817,7 @@
 | [plan-maker](skills/development/plan-maker/) | development | KjellKod | ★ 0 |
 | [plan-maker](skills/development/plan-maker/) | development | KjellKod | ★ 0 |
 | [plan-reduce-max-lines](skills/tools/plan-reduce-max-lines/) | tools | CodySwannGT | ★ 0 |
+| [plan-reduce-max-lines](skills/development/plan-reduce-max-lines/) | development | CodySwannGT | ★ 0 |
 | [plan-refine-codex](skills/ai-agents/plan-refine-codex/) | ai-agents | machow | ★ 0 |
 | [plan-refiner](skills/data-ai/plan-refiner/) | data-ai | NeverSight | ★ 0 |
 | [plan-writing](skills/frontend/plan-writing/) | frontend | sickn33 | ★ 16.7k |
@@ -12172,6 +12837,7 @@
 | [planning-with-files](skills/tools/planning-with-files/) | tools | sickn33 | ★ 16.7k |
 | [planning-with-files](skills/tools/planning-with-files/) | tools | sickn33 | ★ 15.5k |
 | [planning-with-files](skills/development/planning-with-files/) | development | majiayu000 | ★ 92 |
+| [planning-with-files](skills/tools/planning-with-files/) | tools | majiayu000 | ★ 2 |
 | [planning-with-files](skills/development/planning-with-files/) | development | majiayu000 | ★ 1 |
 | [plans-management](skills/development/plans-management/) | development | majiayu000 | ★ 0 |
 | [plasmic-automation](skills/tools/plasmic-automation/) | tools | ComposioHQ | ★ 37.7k |
@@ -12189,6 +12855,7 @@
 | [platxa-skill-generator](skills/tools/platxa-skill-generator/) | tools | platxa | ★ 0 |
 | [platxa-skill-generator](skills/tools/platxa-skill-generator/) | tools | majiayu000 | ★ 0 |
 | [platxa-skill-generator](skills/tools/platxa-skill-generator/) | tools | majiayu000 | ★ 0 |
+| [plaud](skills/cli-automation/plaud/) | cli-automation | danielgwilson | ★ 0 |
 | [playerhoods-database](skills/backend/playerhoods-database/) | backend | dongsis | ★ 0 |
 | [playwright](skills/testing-security/playwright/) | testing-security | a5c-ai | ★ 0 |
 | [playwright](skills/testing-security/playwright/) | testing-security | majiayu000 | ★ 0 |
@@ -12203,6 +12870,7 @@
 | [playwright-skill](skills/testing-security/playwright-skill/) | testing-security | sickn33 | ★ 16.7k |
 | [playwright-skill](skills/testing-security/playwright-skill/) | testing-security | sickn33 | ★ 15.5k |
 | [playwright-skill](skills/development/playwright-skill/) | development | majiayu000 | ★ 92 |
+| [playwright-skill](skills/testing-security/playwright-skill/) | testing-security | majiayu000 | ★ 2 |
 | [playwright-skill](skills/development/playwright-skill/) | development | majiayu000 | ★ 1 |
 | [playwright-skill](skills/development/playwright-skill/) | development | testdino-hq | ★ 0 |
 | [playwright-skill](skills/development/playwright-skill/) | development | NeverSight | ★ 0 |
@@ -12268,6 +12936,7 @@
 | [portfolio-strategy](skills/tools/portfolio-strategy/) | tools | pingwu | ★ 0 |
 | [positioning-icp](skills/tools/positioning-icp/) | tools | chadboyda | ★ 0 |
 | [posix-shell-pro](skills/development/posix-shell-pro/) | development | sickn33 | ★ 15.5k |
+| [posix-shell-pro](skills/cli-automation/posix-shell-pro/) | cli-automation | majiayu000 | ★ 2 |
 | [postgres-best-practices](skills/backend/postgres-best-practices/) | backend | sickn33 | ★ 16.7k |
 | [postgres-best-practices](skills/development/postgres-best-practices/) | development | sickn33 | ★ 15.5k |
 | [postgres-expert](skills/development/postgres-expert/) | development | cin12211 | ★ 0 |
@@ -12590,11 +13259,12 @@
 | [prompt-architect](skills/development/prompt-architect/) | development | majiayu000 | ★ 1 |
 | [prompt-caching](skills/ai-agents/prompt-caching/) | ai-agents | sickn33 | ★ 16.7k |
 | [prompt-caching](skills/data-ai/prompt-caching/) | data-ai | sickn33 | ★ 15.5k |
+| [prompt-caching](skills/ai-agents/prompt-caching/) | ai-agents | majiayu000 | ★ 2 |
 | [prompt-engineer](skills/cli-automation/prompt-engineer/) | cli-automation | sickn33 | ★ 16.7k |
 | [prompt-engineer](skills/cli-automation/prompt-engineer/) | cli-automation | sickn33 | ★ 15.5k |
+| [prompt-engineer](skills/ai-agents/prompt-engineer/) | ai-agents | majiayu000 | ★ 2 |
 | [prompt-engineer](skills/cli-automation/prompt-engineer/) | cli-automation | Dhavanesh24cs412 | ★ 0 |
 | [prompt-engineer](skills/data-ai/prompt-engineer/) | data-ai | repo-phuocdt | ★ 0 |
-| [prompt-engineer](skills/ai-agents/prompt-engineer/) | ai-agents | rmyndharis | ★ 0 |
 | [prompt-engineer-llm](skills/data-ai/prompt-engineer-llm/) | data-ai | majiayu000 | ★ 0 |
 | [prompt-engineer-llm](skills/data-ai/prompt-engineer-llm/) | data-ai | DonNigami | ★ 0 |
 | [prompt-engineer-llm](skills/data-ai/prompt-engineer-llm/) | data-ai | majiayu000 | ★ 0 |
@@ -12633,6 +13303,7 @@
 | [prompt-improver](skills/ai-agents/prompt-improver/) | ai-agents | ils15 | ★ 0 |
 | [prompt-library](skills/development/prompt-library/) | development | sickn33 | ★ 16.7k |
 | [prompt-library](skills/development/prompt-library/) | development | sickn33 | ★ 15.5k |
+| [prompt-library](skills/development/prompt-library/) | development | majiayu000 | ★ 2 |
 | [prompt-library](skills/development/prompt-library/) | development | jmead | ★ 0 |
 | [prompt-master](skills/ai-agents/prompt-master/) | ai-agents | openclaw | ★ 0 |
 | [prompt-optimization](skills/data-ai/prompt-optimization/) | data-ai | cnyet | ★ 0 |
@@ -12692,6 +13363,7 @@
 | [prototype-to-production](skills/design/prototype-to-production/) | design | majiayu000 | ★ 0 |
 | [prototype-to-production](skills/design/prototype-to-production/) | design | aiskillstore | ★ 0 |
 | [prototype-to-production](skills/frontend/prototype-to-production/) | frontend | majiayu000 | ★ 0 |
+| [prove-your-worth](skills/tools/prove-your-worth/) | tools | majiayu000 | ★ 95 |
 | [prove-your-worth](skills/tools/prove-your-worth/) | tools | majiayu000 | ★ 2 |
 | [provide-real-file-links-rule](skills/tools/provide-real-file-links-rule/) | tools | oimiragieo | ★ 0 |
 | [provide-real-file-links-rule](skills/tools/provide-real-file-links-rule/) | tools | Finimo-Solutions | ★ 0 |
@@ -12823,6 +13495,7 @@
 | [python-development-python-scaffold](skills/development/python-development-python-scaffold/) | development | tibom2020 | ★ 0 |
 | [python-development-python-scaffold](skills/development/python-development-python-scaffold/) | development | nkhcloud | ★ 0 |
 | [python-development-python-scaffold](skills/development/python-development-python-scaffold/) | development | Juarezroncalli | ★ 0 |
+| [python-django-best-practices-cursorrules-prompt-fi](skills/backend/python-django-best-practices-cursorrules-prompt-fi/) | backend | Tryboy869 | ★ 0 |
 | [python-doctor](skills/development/python-doctor/) | development | ragnarok22 | ★ 0 |
 | [python-engineer](skills/development/python-engineer/) | development | kuroRy | ★ 0 |
 | [python-env](skills/development/python-env/) | development | majiayu000 | ★ 0 |
@@ -12840,6 +13513,8 @@
 | [python-fastapi](skills/backend/python-fastapi/) | backend | majiayu000 | ★ 0 |
 | [python-fastapi-development](skills/backend/python-fastapi-development/) | backend | sickn33 | ★ 16.7k |
 | [python-fastapi-development](skills/backend/python-fastapi-development/) | backend | sickn33 | ★ 15.5k |
+| [python-fastapi-scalable-api-cursorrules-prompt-fil](skills/backend/python-fastapi-scalable-api-cursorrules-prompt-fil/) | backend | Tryboy869 | ★ 0 |
+| [python-fastapi-scalable-api-cursorrules-prompt-fil-cursorrules](skills/development/python-fastapi-scalable-api-cursorrules-prompt-fil-cursorrules/) | development | Tryboy869 | ★ 0 |
 | [python-github-actions](skills/tools/python-github-actions/) | tools | majiayu000 | ★ 0 |
 | [python-github-actions](skills/tools/python-github-actions/) | tools | majiayu000 | ★ 0 |
 | [python-github-actions](skills/tools/python-github-actions/) | tools | JosiahSiegel | ★ 0 |
@@ -12850,6 +13525,7 @@
 | [python-packaging](skills/tools/python-packaging/) | tools | sickn33 | ★ 15.5k |
 | [python-patterns](skills/development/python-patterns/) | development | sickn33 | ★ 16.7k |
 | [python-patterns](skills/development/python-patterns/) | development | sickn33 | ★ 15.5k |
+| [python-patterns](skills/development/python-patterns/) | development | majiayu000 | ★ 2 |
 | [python-patterns](skills/development/python-patterns/) | development | inacio2345 | ★ 0 |
 | [python-patterns](skills/development/python-patterns/) | development | mashkurulalamohi37 | ★ 0 |
 | [python-patterns](skills/development/python-patterns/) | development | dev-junior-coelho | ★ 0 |
@@ -12874,7 +13550,6 @@
 | [python-patterns](skills/development/python-patterns/) | development | xfstudio | ★ 0 |
 | [python-patterns](skills/development/python-patterns/) | development | lucasfdigital | ★ 0 |
 | [python-patterns](skills/development/python-patterns/) | development | paulojalowyj | ★ 0 |
-| [python-patterns](skills/development/python-patterns/) | development | AtilaMedeiros | ★ 0 |
 | [python-patterns](skills/backend/python-patterns/) | backend | majiayu000 | ★ 0 |
 | [python-patterns](skills/development/python-patterns/) | development | Dokhacgiakhoa | ★ 0 |
 | [python-patterns](skills/development/python-patterns/) | development | darthlinuxer | ★ 0 |
@@ -12998,6 +13673,7 @@
 | [quality-standards](skills/testing-security/quality-standards/) | testing-security | VilnaCRM-Org | ★ 0 |
 | [quality-standards](skills/testing-security/quality-standards/) | testing-security | majiayu000 | ★ 0 |
 | [quant-analyst](skills/data-ai/quant-analyst/) | data-ai | sickn33 | ★ 15.5k |
+| [quant-analyst](skills/tools/quant-analyst/) | tools | majiayu000 | ★ 2 |
 | [quant-plan-reviewer](skills/data-ai/quant-plan-reviewer/) | data-ai | nandkapadia | ★ 0 |
 | [quarkus-mcp-server-sse](skills/backend/quarkus-mcp-server-sse/) | backend | pingqLIN | ★ 0 |
 | [query-expert](skills/development/query-expert/) | development | majiayu000 | ★ 0 |
@@ -13058,6 +13734,7 @@
 | [rag-engineer](skills/data-ai/rag-engineer/) | data-ai | sickn33 | ★ 15.5k |
 | [rag-implementation](skills/ai-agents/rag-implementation/) | ai-agents | sickn33 | ★ 16.7k |
 | [rag-implementation](skills/ai-agents/rag-implementation/) | ai-agents | sickn33 | ★ 15.5k |
+| [rag-implementation](skills/ai-agents/rag-implementation/) | ai-agents | majiayu000 | ★ 2 |
 | [ragic-automation](skills/tools/ragic-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [rails-admin-scaffold](skills/development/rails-admin-scaffold/) | development | r3cha | ★ 0 |
 | [rails-architecture](skills/data-ai/rails-architecture/) | data-ai | dchuk | ★ 0 |
@@ -13233,6 +13910,7 @@
 | [recruitee-automation](skills/design/recruitee-automation/) | design | ComposioHQ | ★ 37.7k |
 | [recursive-context-coding-agent](skills/data-ai/recursive-context-coding-agent/) | data-ai | NeverSight | ★ 0 |
 | [recursive-context-coding-agent](skills/data-ai/recursive-context-coding-agent/) | data-ai | petermcneil | ★ 0 |
+| [Red Team Tools and Methodology](skills/tools/red-team-tools-and-methodology/) | tools | majiayu000 | ★ 2 |
 | [red-team-tactics](skills/development/red-team-tactics/) | development | sickn33 | ★ 16.7k |
 | [red-team-tactics](skills/devops/red-team-tactics/) | devops | sickn33 | ★ 15.5k |
 | [red-team-tools](skills/tools/red-team-tools/) | tools | sickn33 | ★ 16.7k |
@@ -13264,6 +13942,7 @@
 | [reference-builder](skills/tools/reference-builder/) | tools | sickn33 | ★ 15.5k |
 | [referral-program](skills/business/referral-program/) | business | sickn33 | ★ 16.7k |
 | [referral-program](skills/business/referral-program/) | business | sickn33 | ★ 15.5k |
+| [referral-program](skills/business/referral-program/) | business | majiayu000 | ★ 2 |
 | [refiner-automation](skills/tools/refiner-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [reflect](skills/development/reflect/) | development | jmblab | ★ 0 |
 | [reflect-codex-skills](skills/tools/reflect-codex-skills/) | tools | olliepro | ★ 0 |
@@ -13370,6 +14049,7 @@
 | [research-documentation](skills/documentation/research-documentation/) | documentation | seungwonme | ★ 0 |
 | [research-engineer](skills/backend/research-engineer/) | backend | sickn33 | ★ 16.7k |
 | [research-engineer](skills/development/research-engineer/) | development | sickn33 | ★ 15.5k |
+| [research-engineer](skills/backend/research-engineer/) | backend | majiayu000 | ★ 2 |
 | [research-first-principle-deconstructor](skills/development/research-first-principle-deconstructor/) | development | Xuanxuana1 | ★ 0 |
 | [research-free](skills/development/research-free/) | development | majiayu000 | ★ 0 |
 | [research-free](skills/development/research-free/) | development | majiayu000 | ★ 0 |
@@ -13484,6 +14164,7 @@
 | [risk-based-testing](skills/testing-security/risk-based-testing/) | testing-security | mattnigh | ★ 0 |
 | [risk-management](skills/data-ai/risk-management/) | data-ai | alphaonedev | ★ 0 |
 | [risk-manager](skills/data-ai/risk-manager/) | data-ai | sickn33 | ★ 15.5k |
+| [risk-manager](skills/tools/risk-manager/) | tools | majiayu000 | ★ 2 |
 | [risk-metrics-calculation](skills/tools/risk-metrics-calculation/) | tools | sickn33 | ★ 16.7k |
 | [risk-metrics-calculation](skills/tools/risk-metrics-calculation/) | tools | sickn33 | ★ 15.5k |
 | [risk-metrics-calculation](skills/tools/risk-metrics-calculation/) | tools | majiayu000 | ★ 0 |
@@ -13603,6 +14284,7 @@
 | [Sales Lead Enrichment](skills/business/sales-lead-enrichment/) | business | SixtySecondsApp | ★ 0 |
 | [Sales Operations Automation](skills/backend/sales-operations-automation/) | backend | AmnadTaowsoam | ★ 0 |
 | [sales-automator](skills/business/sales-automator/) | business | sickn33 | ★ 15.5k |
+| [sales-automator](skills/business/sales-automator/) | business | majiayu000 | ★ 2 |
 | [sales-motion-design](skills/design/sales-motion-design/) | design | chadboyda | ★ 0 |
 | [salesforce](skills/business/salesforce/) | business | Jewish-Federation-of-San-Diego | ★ 0 |
 | [salesforce-automation](skills/business/salesforce-automation/) | business | sickn33 | ★ 16.7k |
@@ -13707,6 +14389,7 @@
 | [script-executor](skills/cli-automation/script-executor/) | cli-automation | majiayu000 | ★ 0 |
 | [scroll-experience](skills/fullstack-web/scroll-experience/) | fullstack-web | sickn33 | ★ 16.7k |
 | [scroll-experience](skills/development/scroll-experience/) | development | sickn33 | ★ 15.5k |
+| [scroll-experience](skills/fullstack-web/scroll-experience/) | fullstack-web | majiayu000 | ★ 2 |
 | [sdd](skills/tools/sdd/) | tools | SpillwaveSolutions | ★ 0 |
 | [sdd](skills/tools/sdd/) | tools | majiayu000 | ★ 0 |
 | [sdd](skills/tools/sdd/) | tools | majiayu000 | ★ 0 |
@@ -13786,6 +14469,7 @@
 | [Security Logging and Error Handling - Error Handling](skills/testing-security/security-logging-and-error-handling-error-handling/) | testing-security | duhd-vnpay | ★ 0 |
 | [Security Logging and Error Handling - General Logging](skills/testing-security/security-logging-and-error-handling-general-logging/) | testing-security | duhd-vnpay | ★ 0 |
 | [Security Patterns and Practices](skills/development/security-patterns-and-practices/) | development | forepath | ★ 0 |
+| [Security Scanning Tools](skills/testing-security/security-scanning-tools/) | testing-security | majiayu000 | ★ 2 |
 | [Security Specialist](skills/testing-security/security-specialist/) | testing-security | majiayu000 | ★ 92 |
 | [Security Specialist](skills/testing-security/security-specialist/) | testing-security | majiayu000 | ★ 1 |
 | [security-analysis](skills/testing-security/security-analysis/) | testing-security | majiayu000 | ★ 0 |
@@ -13968,6 +14652,7 @@
 | [sendspark-automation](skills/tools/sendspark-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [senior-architect](skills/backend/senior-architect/) | backend | sickn33 | ★ 16.7k |
 | [senior-architect](skills/development/senior-architect/) | development | sickn33 | ★ 15.5k |
+| [senior-architect](skills/backend/senior-architect/) | backend | majiayu000 | ★ 2 |
 | [senior-architect](skills/development/senior-architect/) | development | NeverSight | ★ 0 |
 | [senior-architect](skills/development/senior-architect/) | development | alirezarezvani | ★ 0 |
 | [senior-architect](skills/development/senior-architect/) | development | borghei | ★ 0 |
@@ -14026,6 +14711,7 @@
 | [senior-devops](skills/devops/senior-devops/) | devops | ngxtm | ★ 0 |
 | [senior-devops](skills/devops/senior-devops/) | devops | aiskillstore | ★ 0 |
 | [senior-django-architect](skills/development/senior-django-architect/) | development | openclaw | ★ 0 |
+| [senior-dotnet](skills/backend/senior-dotnet/) | backend | arielperez82 | ★ 0 |
 | [senior-frontend](skills/development/senior-frontend/) | development | NeverSight | ★ 0 |
 | [senior-frontend](skills/development/senior-frontend/) | development | majiayu000 | ★ 0 |
 | [senior-frontend](skills/development/senior-frontend/) | development | majiayu000 | ★ 0 |
@@ -14038,6 +14724,7 @@
 | [senior-frontend-expert](skills/development/senior-frontend-expert/) | development | EvanAgee | ★ 0 |
 | [senior-fullstack](skills/backend/senior-fullstack/) | backend | sickn33 | ★ 16.7k |
 | [senior-fullstack](skills/development/senior-fullstack/) | development | sickn33 | ★ 15.5k |
+| [senior-fullstack](skills/backend/senior-fullstack/) | backend | majiayu000 | ★ 2 |
 | [senior-fullstack](skills/development/senior-fullstack/) | development | arielperez82 | ★ 0 |
 | [senior-fullstack](skills/development/senior-fullstack/) | development | NeverSight | ★ 0 |
 | [senior-fullstack](skills/development/senior-fullstack/) | development | the-sniper | ★ 0 |
@@ -14054,6 +14741,7 @@
 | [senior-fullstack](skills/development/senior-fullstack/) | development | salamientark | ★ 0 |
 | [senior-fullstack](skills/development/senior-fullstack/) | development | YPYT1 | ★ 0 |
 | [senior-fullstack-ai-engineer](skills/development/senior-fullstack-ai-engineer/) | development | cosmos-dx | ★ 0 |
+| [senior-java](skills/backend/senior-java/) | backend | arielperez82 | ★ 0 |
 | [senior-ml-engineer](skills/data-ai/senior-ml-engineer/) | data-ai | davila7 | ★ 0 |
 | [senior-ml-engineer](skills/data-ai/senior-ml-engineer/) | data-ai | openclaw | ★ 0 |
 | [senior-ml-engineer](skills/data-ai/senior-ml-engineer/) | data-ai | fabioeducacross | ★ 0 |
@@ -14326,6 +15014,7 @@
 | [signpath-automation](skills/tools/signpath-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [signup-flow-cro](skills/testing-security/signup-flow-cro/) | testing-security | sickn33 | ★ 16.7k |
 | [signup-flow-cro](skills/testing-security/signup-flow-cro/) | testing-security | sickn33 | ★ 15.5k |
+| [signup-flow-cro](skills/backend/signup-flow-cro/) | backend | majiayu000 | ★ 2 |
 | [signwell-automation](skills/tools/signwell-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [silent-failure-hunter](skills/development/silent-failure-hunter/) | development | ngx-signal-forms | ★ 0 |
 | [simd-optimize](skills/data-ai/simd-optimize/) | data-ai | ahrav | ★ 0 |
@@ -14466,6 +15155,7 @@
 | [skill-creator-thepexcel](skills/tools/skill-creator-thepexcel/) | tools | NeverSight | ★ 0 |
 | [skill-developer](skills/development/skill-developer/) | development | sickn33 | ★ 16.7k |
 | [skill-developer](skills/development/skill-developer/) | development | sickn33 | ★ 15.5k |
+| [skill-developer](skills/development/skill-developer/) | development | majiayu000 | ★ 2 |
 | [skill-development](skills/tools/skill-development/) | tools | majiayu000 | ★ 0 |
 | [skill-elevenlabs-tts-tool](skills/tools/skill-elevenlabs-tts-tool/) | tools | majiayu000 | ★ 0 |
 | [skill-evaluator](skills/data-ai/skill-evaluator/) | data-ai | lhohan | ★ 0 |
@@ -14555,12 +15245,14 @@
 | [slack-automation](skills/development/slack-automation/) | development | sickn33 | ★ 15.5k |
 | [slack-bot-builder](skills/testing-security/slack-bot-builder/) | testing-security | sickn33 | ★ 16.7k |
 | [slack-bot-builder](skills/development/slack-bot-builder/) | development | sickn33 | ★ 15.5k |
+| [slack-bot-builder](skills/testing-security/slack-bot-builder/) | testing-security | majiayu000 | ★ 2 |
 | [slack-bot-builder](skills/development/slack-bot-builder/) | development | jmead | ★ 0 |
 | [slack-chat](skills/data-ai/slack-chat/) | data-ai | mikesmullin | ★ 0 |
 | [slack-gif-creator](skills/tools/slack-gif-creator/) | tools | ComposioHQ | ★ 37.3k |
 | [slack-gif-creator](skills/tools/slack-gif-creator/) | tools | sickn33 | ★ 16.7k |
 | [slack-gif-creator](skills/tools/slack-gif-creator/) | tools | sickn33 | ★ 15.5k |
 | [slack-gif-creator](skills/tools/slack-gif-creator/) | tools | majiayu000 | ★ 92 |
+| [slack-gif-creator](skills/tools/slack-gif-creator/) | tools | majiayu000 | ★ 2 |
 | [slack-gif-creator](skills/tools/slack-gif-creator/) | tools | majiayu000 | ★ 1 |
 | [slack-gif-creator](skills/tools/slack-gif-creator/) | tools | rafaelramosdf | ★ 0 |
 | [slack-gif-creator](skills/tools/slack-gif-creator/) | tools | rafaelramosdf | ★ 0 |
@@ -14599,6 +15291,7 @@
 | [sns-patterns](skills/business/sns-patterns/) | business | taiyousan15 | ★ 0 |
 | [social-content](skills/content-media/social-content/) | content-media | sickn33 | ★ 16.7k |
 | [social-content](skills/content-media/social-content/) | content-media | sickn33 | ★ 15.5k |
+| [social-content](skills/content-media/social-content/) | content-media | majiayu000 | ★ 2 |
 | [social-media](skills/development/social-media/) | development | majiayu000 | ★ 0 |
 | [social-media](skills/development/social-media/) | development | NeverSight | ★ 0 |
 | [social-media](skills/development/social-media/) | development | majiayu000 | ★ 0 |
@@ -14606,6 +15299,7 @@
 | [social-media-scheduler](skills/content-media/social-media-scheduler/) | content-media | openclaw | ★ 0 |
 | [sockethub](skills/development/sockethub/) | development | lachthox | ★ 0 |
 | [socratic-tutor](skills/tools/socratic-tutor/) | tools | harvard-lil | ★ 0 |
+| [softskill](skills/frontend/softskill/) | frontend | majiayu000 | ★ 0 |
 | [software-architecture](skills/development/software-architecture/) | development | sickn33 | ★ 16.7k |
 | [software-architecture](skills/design/software-architecture/) | design | sickn33 | ★ 15.5k |
 | [software-architecture](skills/development/software-architecture/) | development | ManzarIMalik | ★ 0 |
@@ -14751,6 +15445,7 @@
 | [spring-boot-performance](skills/development/spring-boot-performance/) | development | majiayu000 | ★ 0 |
 | [spring-boot-performance](skills/development/spring-boot-performance/) | development | ductringuyen0186 | ★ 0 |
 | [spring-boot-performance](skills/backend/spring-boot-performance/) | backend | majiayu000 | ★ 0 |
+| [spring-boot-project-creator](skills/backend/spring-boot-project-creator/) | backend | giuseppe-trisciuoglio | ★ 0 |
 | [spring-boot-rest-api-standards](skills/backend/spring-boot-rest-api-standards/) | backend | NeverSight | ★ 0 |
 | [spring-boot-testing](skills/development/spring-boot-testing/) | development | jhs88 | ★ 0 |
 | [spring-reactive](skills/development/spring-reactive/) | development | majiayu000 | ★ 0 |
@@ -14836,6 +15531,7 @@
 | [starting-milestones](skills/tools/starting-milestones/) | tools | majiayu000 | ★ 0 |
 | [starton-automation](skills/tools/starton-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [startup-analyst](skills/business/startup-analyst/) | business | sickn33 | ★ 15.5k |
+| [startup-analyst](skills/business/startup-analyst/) | business | majiayu000 | ★ 2 |
 | [startup-business-analyst-business-case](skills/business/startup-business-analyst-business-case/) | business | sickn33 | ★ 15.5k |
 | [startup-business-analyst-financial-projections](skills/devops/startup-business-analyst-financial-projections/) | devops | sickn33 | ★ 15.5k |
 | [startup-business-analyst-market-opportunity](skills/development/startup-business-analyst-market-opportunity/) | development | sickn33 | ★ 15.5k |
@@ -14911,6 +15607,7 @@
 | [stripe-integration](skills/fullstack-web/stripe-integration/) | fullstack-web | sickn33 | ★ 16.8k |
 | [stripe-integration](skills/development/stripe-integration/) | development | sickn33 | ★ 15.5k |
 | [stripe-integration](skills/development/stripe-integration/) | development | majiayu000 | ★ 92 |
+| [stripe-integration](skills/backend/stripe-integration/) | backend | majiayu000 | ★ 2 |
 | [stripe-integration](skills/development/stripe-integration/) | development | majiayu000 | ★ 1 |
 | [Strong's Concordance Lookup](skills/tools/strong-s-concordance-lookup/) | tools | majiayu000 | ★ 0 |
 | [structure](skills/development/structure/) | development | Objective-Arts | ★ 0 |
@@ -14935,6 +15632,7 @@
 | [subgraph-explorer](skills/data-ai/subgraph-explorer/) | data-ai | majiayu000 | ★ 0 |
 | [subgraph-explorer](skills/data-ai/subgraph-explorer/) | data-ai | majiayu000 | ★ 0 |
 | [summarize](skills/data-ai/summarize/) | data-ai | abhaymundhara | ★ 4 |
+| [summarize_text_with_key_details](skills/backend/summarize_text_with_key_details/) | backend | ECNU-ICALK | ★ 0 |
 | [summarize-experiment](skills/machine-learning/summarize-experiment/) | machine-learning | niznik-dev | ★ 0 |
 | [summarize-session](skills/development/summarize-session/) | development | lbb00 | ★ 0 |
 | [sumo-core](skills/cli-automation/sumo-core/) | cli-automation | XRDS76354 | ★ 0 |
@@ -15080,6 +15778,7 @@
 | [tailwind-optimizer](skills/development/tailwind-optimizer/) | development | Sebastienpanda | ★ 0 |
 | [tailwind-patterns](skills/frontend/tailwind-patterns/) | frontend | sickn33 | ★ 16.8k |
 | [tailwind-patterns](skills/development/tailwind-patterns/) | development | sickn33 | ★ 15.5k |
+| [tailwind-patterns](skills/frontend/tailwind-patterns/) | frontend | majiayu000 | ★ 2 |
 | [tailwind-setup](skills/development/tailwind-setup/) | development | majiayu000 | ★ 0 |
 | [tailwind-setup](skills/development/tailwind-setup/) | development | majiayu000 | ★ 0 |
 | [tailwind-setup](skills/frontend/tailwind-setup/) | frontend | majiayu000 | ★ 0 |
@@ -15212,6 +15911,7 @@
 | [tech-specification](skills/development/tech-specification/) | development | d4rkNinja | ★ 0 |
 | [tech-specification](skills/development/tech-specification/) | development | majiayu000 | ★ 0 |
 | [tech-specification](skills/backend/tech-specification/) | backend | majiayu000 | ★ 0 |
+| [tech-stack](skills/backend/tech-stack/) | backend | oimiragieo | ★ 0 |
 | [tech-stack-evaluator](skills/development/tech-stack-evaluator/) | development | majiayu000 | ★ 0 |
 | [tech-stack-evaluator](skills/development/tech-stack-evaluator/) | development | matteocervelli | ★ 0 |
 | [tech-stack-evaluator](skills/development/tech-stack-evaluator/) | development | NeverSight | ★ 0 |
@@ -15246,6 +15946,7 @@
 | [telegram-bot-creator](skills/development/telegram-bot-creator/) | development | 0-CYBERDYNE-SYSTEMS-0 | ★ 0 |
 | [telegram-mini-app](skills/fullstack-web/telegram-mini-app/) | fullstack-web | sickn33 | ★ 16.8k |
 | [telegram-mini-app](skills/development/telegram-mini-app/) | development | sickn33 | ★ 15.5k |
+| [telegram-mini-app](skills/fullstack-web/telegram-mini-app/) | fullstack-web | majiayu000 | ★ 2 |
 | [telegram-reminders](skills/devops/telegram-reminders/) | devops | NeverSight | ★ 0 |
 | [telegram-reminders](skills/devops/telegram-reminders/) | devops | AlexSKuznetsov | ★ 0 |
 | [telegram-telethon](skills/development/telegram-telethon/) | development | glebis | ★ 0 |
@@ -15257,6 +15958,7 @@
 | [template-mason-brick](skills/tools/template-mason-brick/) | tools | majiayu000 | ★ 0 |
 | [template-skill](skills/cli-automation/template-skill/) | cli-automation | kks0488 | ★ 0 |
 | [templated-automation](skills/tools/templated-automation/) | tools | ComposioHQ | ★ 37.7k |
+| [templates](skills/fullstack-web/templates/) | fullstack-web | sickn33 | ★ 17.3k |
 | [templates](skills/development/templates/) | development | sickn33 | ★ 15.5k |
 | [templates](skills/development/templates/) | development | QuantumSolver | ★ 0 |
 | [temporal-golang-pro](skills/development/temporal-golang-pro/) | development | sickn33 | ★ 16.8k |
@@ -15351,6 +16053,7 @@
 | [testing](skills/testing-security/testing/) | testing-security | majiayu000 | ★ 0 |
 | [testing](skills/testing-security/testing/) | testing-security | 5t111111 | ★ 0 |
 | [testing](skills/testing-security/testing/) | testing-security | majiayu000 | ★ 0 |
+| [Testing Anti-Patterns](skills/testing-security/testing-anti-patterns/) | testing-security | majiayu000 | ★ 2 |
 | [Testing Anti-Patterns](skills/development/testing-anti-patterns/) | development | ChunkyTortoise | ★ 0 |
 | [Testing Skill](skills/development/testing-skill/) | development | AIDORA28 | ★ 0 |
 | [testing-automation](skills/devops/testing-automation/) | devops | majiayu000 | ★ 0 |
@@ -15435,6 +16138,7 @@
 | [third-party-risk-review](skills/testing-security/third-party-risk-review/) | testing-security | wassemgtk | ★ 0 |
 | [thirdweb](skills/development/thirdweb/) | development | majiayu000 | ★ 0 |
 | [thirdweb](skills/development/thirdweb/) | development | 0xkemcho | ★ 0 |
+| [this-sample-workflow-execute-3-steps-in-sequence](skills/fullstack-web/this-sample-workflow-execute-3-steps-in-sequence/) | fullstack-web | Tryboy869 | ★ 0 |
 | [thoroughness](skills/documentation/thoroughness/) | documentation | majiayu000 | ★ 0 |
 | [thoroughness](skills/documentation/thoroughness/) | documentation | majiayu000 | ★ 0 |
 | [thoroughness](skills/documentation/thoroughness/) | documentation | pr-pm | ★ 0 |
@@ -15457,6 +16161,7 @@
 | [threejs-game](skills/development/threejs-game/) | development | majiayu000 | ★ 0 |
 | [threejs-skills](skills/fullstack-web/threejs-skills/) | fullstack-web | sickn33 | ★ 16.8k |
 | [threejs-skills](skills/development/threejs-skills/) | development | sickn33 | ★ 15.5k |
+| [threejs-skills](skills/cli-automation/threejs-skills/) | cli-automation | majiayu000 | ★ 2 |
 | [ticket-pipeline](skills/cli-automation/ticket-pipeline/) | cli-automation | OmniNode-ai | ★ 0 |
 | [ticketmaster-automation](skills/tools/ticketmaster-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [ticktick-automation](skills/tools/ticktick-automation/) | tools | ComposioHQ | ★ 37.7k |
@@ -15576,6 +16281,7 @@
 | [triatu-architecture](skills/devops/triatu-architecture/) | devops | majiayu000 | ★ 0 |
 | [trigger-dev](skills/cli-automation/trigger-dev/) | cli-automation | sickn33 | ★ 16.8k |
 | [trigger-dev](skills/development/trigger-dev/) | development | sickn33 | ★ 15.5k |
+| [trigger-dev](skills/cli-automation/trigger-dev/) | cli-automation | majiayu000 | ★ 2 |
 | [triggercmd-automation](skills/tools/triggercmd-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [trinity-auto-boot-validator](skills/data-ai/trinity-auto-boot-validator/) | data-ai | majiayu000 | ★ 93 |
 | [trinity-auto-boot-validator](skills/data-ai/trinity-auto-boot-validator/) | data-ai | majiayu000 | ★ 2 |
@@ -15640,11 +16346,11 @@
 | [typescript-hook-writer](skills/development/typescript-hook-writer/) | development | pr-pm | ★ 0 |
 | [typescript-hook-writer](skills/development/typescript-hook-writer/) | development | majiayu000 | ★ 0 |
 | [typescript-pro](skills/development/typescript-pro/) | development | sickn33 | ★ 15.5k |
+| [typescript-pro](skills/cli-automation/typescript-pro/) | cli-automation | majiayu000 | ★ 2 |
 | [typescript-pro](skills/development/typescript-pro/) | development | majiayu000 | ★ 0 |
 | [typescript-pro](skills/development/typescript-pro/) | development | 404kidwiz | ★ 0 |
 | [typescript-pro](skills/development/typescript-pro/) | development | majiayu000 | ★ 0 |
 | [typescript-pro](skills/development/typescript-pro/) | development | majiayu000 | ★ 0 |
-| [typescript-pro](skills/cli-automation/typescript-pro/) | cli-automation | Dokhacgiakhoa | ★ 0 |
 | [typescript-strict](skills/development/typescript-strict/) | development | citypaul | ★ 0 |
 | [typescript-testing](skills/development/typescript-testing/) | development | MLGBJDLW | ★ 0 |
 | [typespec-create-agent](skills/data-ai/typespec-create-agent/) | data-ai | github | ★ 0 |
@@ -15772,6 +16478,7 @@
 | [ui-skills](skills/tools/ui-skills/) | tools | sickn33 | ★ 15.5k |
 | [ui-skills](skills/development/ui-skills/) | development | michaelshimeles | ★ 0 |
 | [ui-skills](skills/development/ui-skills/) | development | quanphm | ★ 0 |
+| [ui-skills](skills/design/ui-skills/) | design | enisbudancamanak | ★ 0 |
 | [ui-ux](skills/development/ui-ux/) | development | kieutrongthien | ★ 0 |
 | [ui-ux](skills/development/ui-ux/) | development | NeverSight | ★ 0 |
 | [ui-ux](skills/design/ui-ux/) | design | SharafMawjood | ★ 0 |
@@ -15782,6 +16489,7 @@
 | [ui-ux-design](skills/design/ui-ux-design/) | design | majiayu000 | ★ 0 |
 | [ui-ux-design-system](skills/design/ui-ux-design-system/) | design | amintai | ★ 0 |
 | [ui-ux-designer](skills/design/ui-ux-designer/) | design | sickn33 | ★ 15.5k |
+| [ui-ux-designer](skills/design/ui-ux-designer/) | design | majiayu000 | ★ 2 |
 | [ui-ux-improve](skills/design/ui-ux-improve/) | design | majiayu000 | ★ 0 |
 | [ui-ux-improve](skills/design/ui-ux-improve/) | design | majiayu000 | ★ 0 |
 | [ui-ux-principles](skills/design/ui-ux-principles/) | design | majiayu000 | ★ 0 |
@@ -15790,6 +16498,7 @@
 | [ui-ux-pro-max](skills/frontend/ui-ux-pro-max/) | frontend | sickn33 | ★ 16.8k |
 | [ui-ux-pro-max](skills/design/ui-ux-pro-max/) | design | sickn33 | ★ 15.5k |
 | [ui-ux-pro-max](skills/development/ui-ux-pro-max/) | development | majiayu000 | ★ 92 |
+| [ui-ux-pro-max](skills/frontend/ui-ux-pro-max/) | frontend | majiayu000 | ★ 2 |
 | [ui-ux-pro-max](skills/development/ui-ux-pro-max/) | development | majiayu000 | ★ 1 |
 | [ui-ux-pro-max](skills/development/ui-ux-pro-max/) | development | Galaxy-Dawn | ★ 0 |
 | [ui-ux-pro-max](skills/development/ui-ux-pro-max/) | development | Geargrindadmin | ★ 0 |
@@ -15958,7 +16667,6 @@
 | [ui-ux-pro-max](skills/frontend/ui-ux-pro-max/) | frontend | NeverSight | ★ 0 |
 | [ui-ux-pro-max](skills/frontend/ui-ux-pro-max/) | frontend | NeverSight | ★ 0 |
 | [ui-ux-pro-max](skills/frontend/ui-ux-pro-max/) | frontend | AndyMarigoldLabs | ★ 0 |
-| [ui-ux-pro-max](skills/frontend/ui-ux-pro-max/) | frontend | NeverSight | ★ 0 |
 | [ui-ux-pro-max](skills/frontend/ui-ux-pro-max/) | frontend | ccmilu | ★ 0 |
 | [ui-ux-pro-max](skills/frontend/ui-ux-pro-max/) | frontend | huynhyohan-ops | ★ 0 |
 | [ui-ux-pro-max](skills/frontend/ui-ux-pro-max/) | frontend | NeverSight | ★ 0 |
@@ -15998,6 +16706,7 @@
 | [UI/UX Intelligence Expert](skills/design/ui-ux-intelligence-expert/) | design | majiayu000 | ★ 0 |
 | [uloop-execute-dynamic-code](skills/tools/uloop-execute-dynamic-code/) | tools | majiayu000 | ★ 0 |
 | [uloop-execute-dynamic-code](skills/tools/uloop-execute-dynamic-code/) | tools | majiayu000 | ★ 0 |
+| [Ultimate Assistant Comprehensive Response](skills/ai-agents/ultimate-assistant-comprehensive-response/) | ai-agents | ECNU-ICALK | ★ 0 |
 | [ultraplan](skills/data-ai/ultraplan/) | data-ai | definite-app | ★ 0 |
 | [ultrathink](skills/testing-security/ultrathink/) | testing-security | YPYT1 | ★ 0 |
 | [umbraco-development](skills/frontend/umbraco-development/) | frontend | twofoldtech-dakota | ★ 0 |
@@ -16023,6 +16732,7 @@
 | [unit-testing-test-generate](skills/testing-security/unit-testing-test-generate/) | testing-security | sickn33 | ★ 16.8k |
 | [unit-testing-test-generate](skills/testing-security/unit-testing-test-generate/) | testing-security | sickn33 | ★ 15.5k |
 | [unity-developer](skills/tools/unity-developer/) | tools | sickn33 | ★ 15.5k |
+| [unity-developer](skills/development/unity-developer/) | development | majiayu000 | ★ 2 |
 | [unity-ecs-patterns](skills/development/unity-ecs-patterns/) | development | sickn33 | ★ 16.8k |
 | [unity-ecs-patterns](skills/tools/unity-ecs-patterns/) | tools | sickn33 | ★ 15.5k |
 | [unity-review-quality](skills/testing-security/unity-review-quality/) | testing-security | cuozg | ★ 0 |
@@ -16060,6 +16770,7 @@
 | [Uploadcare Automation](skills/development/uploadcare-automation/) | development | ComposioHQ | ★ 37.7k |
 | [upskill](skills/documentation/upskill/) | documentation | dpreil-ydlp | ★ 0 |
 | [upstash-qstash](skills/devops/upstash-qstash/) | devops | sickn33 | ★ 15.5k |
+| [upstash-qstash](skills/backend/upstash-qstash/) | backend | majiayu000 | ★ 2 |
 | [upstash-qstash](skills/devops/upstash-qstash/) | devops | mustaphaelou | ★ 0 |
 | [upstash-qstash](skills/backend/upstash-qstash/) | backend | sickn33 | ★ 0 |
 | [upstash/search TypeScript SDK](skills/cli-automation/upstash-search-typescript-sdk/) | cli-automation | upstash | ★ 0 |
@@ -16187,6 +16898,7 @@
 | [vector-database-engineer](skills/data-ai/vector-database-engineer/) | data-ai | sickn33 | ★ 15.5k |
 | [vector-index-tuning](skills/ai-agents/vector-index-tuning/) | ai-agents | sickn33 | ★ 16.9k |
 | [vector-index-tuning](skills/data-ai/vector-index-tuning/) | data-ai | sickn33 | ★ 15.5k |
+| [vega](skills/data-ai/vega/) | data-ai | markdown-viewer | ★ 0 |
 | [velvet-unicorn](skills/data-ai/velvet-unicorn/) | data-ai | Velvet-Capital | ★ 0 |
 | [venice-router](skills/development/venice-router/) | development | openclaw | ★ 0 |
 | [venice-router](skills/development/venice-router/) | development | PlusOne | ★ 0 |
@@ -16246,6 +16958,7 @@
 | [vercel-deploy-claimable](skills/frontend/vercel-deploy-claimable/) | frontend | sickn33 | ★ 0 |
 | [vercel-deployment](skills/devops/vercel-deployment/) | devops | sickn33 | ★ 16.9k |
 | [vercel-deployment](skills/devops/vercel-deployment/) | devops | sickn33 | ★ 15.5k |
+| [vercel-deployment](skills/devops/vercel-deployment/) | devops | majiayu000 | ★ 2 |
 | [vercel-deployment](skills/development/vercel-deployment/) | development | majiayu000 | ★ 0 |
 | [vercel-kv-database-rules](skills/backend/vercel-kv-database-rules/) | backend | oimiragieo | ★ 0 |
 | [vercel-react-best-practices](skills/development/vercel-react-best-practices/) | development | majiayu000 | ★ 92 |
@@ -16300,6 +17013,7 @@
 | [vibe-security](skills/development/vibe-security/) | development | majiayu000 | ★ 0 |
 | [vibe-security](skills/development/vibe-security/) | development | majiayu000 | ★ 0 |
 | [vibe-security](skills/development/vibe-security/) | development | NeverSight | ★ 0 |
+| [vibe-techdesign](skills/design/vibe-techdesign/) | design | KhazP | ★ 0 |
 | [vibecoder-guide-legacy](skills/development/vibecoder-guide-legacy/) | development | majiayu000 | ★ 0 |
 | [vibecoder-guide-legacy](skills/development/vibecoder-guide-legacy/) | development | majiayu000 | ★ 0 |
 | [vicplan-assessment-waterways](skills/data-ai/vicplan-assessment-waterways/) | data-ai | OliverKulinski | ★ 0 |
@@ -16340,6 +17054,7 @@
 | [vloj](skills/tools/vloj/) | tools | majiayu000 | ★ 0 |
 | [voice-agents](skills/ai-agents/voice-agents/) | ai-agents | sickn33 | ★ 16.9k |
 | [voice-agents](skills/data-ai/voice-agents/) | data-ai | sickn33 | ★ 15.5k |
+| [voice-agents](skills/ai-agents/voice-agents/) | ai-agents | majiayu000 | ★ 2 |
 | [voice-agents](skills/data-ai/voice-agents/) | data-ai | rootcastleco | ★ 0 |
 | [voice-ai-development](skills/backend/voice-ai-development/) | backend | sickn33 | ★ 16.9k |
 | [voice-ai-development](skills/data-ai/voice-ai-development/) | data-ai | sickn33 | ★ 15.5k |
@@ -16364,6 +17079,7 @@
 | [vr-ar](skills/development/vr-ar/) | development | sickn33 | ★ 15.5k |
 | [vscode-copilot-instructions](skills/ai-agents/vscode-copilot-instructions/) | ai-agents | featbit | ★ 0 |
 | [vue](skills/development/vue/) | development | TTT1231 | ★ 0 |
+| [vue-3-nuxt-3-development-cursorrules-prompt-file-cursorrules](skills/frontend/vue-3-nuxt-3-development-cursorrules-prompt-file-cursorrules/) | frontend | Tryboy869 | ★ 0 |
 | [vue-playwright-testing](skills/development/vue-playwright-testing/) | development | majiayu000 | ★ 0 |
 | [vue-playwright-testing](skills/development/vue-playwright-testing/) | development | majiayu000 | ★ 0 |
 | [vue-playwright-testing](skills/testing-security/vue-playwright-testing/) | testing-security | majiayu000 | ★ 0 |
@@ -16602,10 +17318,12 @@
 | [windsurf-cascade](skills/ai-agents/windsurf-cascade/) | ai-agents | openclaw | ★ 0 |
 | [winston-ai-automation](skills/data-ai/winston-ai-automation/) | data-ai | ComposioHQ | ★ 37.7k |
 | [winuse](skills/development/winuse/) | development | nedos | ★ 0 |
+| [Wireshark Network Traffic Analysis](skills/devops/wireshark-network-traffic-analysis/) | devops | majiayu000 | ★ 2 |
 | [wireshark-analysis](skills/data-ai/wireshark-analysis/) | data-ai | sickn33 | ★ 16.9k |
 | [wireshark-analysis](skills/development/wireshark-analysis/) | development | sickn33 | ★ 15.5k |
 | [wirex-baas-overview](skills/development/wirex-baas-overview/) | development | wirexapp | ★ 0 |
 | [wiro-image-fill](skills/content-media/wiro-image-fill/) | content-media | AndacGuven | ★ 0 |
+| [wise](skills/cli-automation/wise/) | cli-automation | lucasmeijer | ★ 0 |
 | [wit-ai-automation](skills/data-ai/wit-ai-automation/) | data-ai | ComposioHQ | ★ 37.7k |
 | [wiz-automation](skills/tools/wiz-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [wolf](skills/data-ai/wolf/) | data-ai | majiayu000 | ★ 0 |
@@ -16646,6 +17364,7 @@
 | [workflow-automate](skills/devops/workflow-automate/) | devops | itsimonfredlingjack | ★ 0 |
 | [workflow-automation](skills/cli-automation/workflow-automation/) | cli-automation | sickn33 | ★ 16.9k |
 | [workflow-automation](skills/data-ai/workflow-automation/) | data-ai | sickn33 | ★ 15.5k |
+| [workflow-automation](skills/cli-automation/workflow-automation/) | cli-automation | majiayu000 | ★ 2 |
 | [workflow-automation](skills/data-ai/workflow-automation/) | data-ai | majiayu000 | ★ 0 |
 | [workflow-automation](skills/development/workflow-automation/) | development | NeverSight | ★ 0 |
 | [workflow-automation](skills/data-ai/workflow-automation/) | data-ai | majiayu000 | ★ 0 |
@@ -16704,6 +17423,7 @@
 | [worktree-setup](skills/data-ai/worktree-setup/) | data-ai | barikata1984 | ★ 0 |
 | [worktree-tending](skills/tools/worktree-tending/) | tools | majiayu000 | ★ 0 |
 | [worktree-tending](skills/tools/worktree-tending/) | tools | majiayu000 | ★ 0 |
+| [worktree-tending](skills/cli-automation/worktree-tending/) | cli-automation | majiayu000 | ★ 0 |
 | [worktree-wizard-integration](skills/development/worktree-wizard-integration/) | development | asabedia | ★ 0 |
 | [worktrees](skills/tools/worktrees/) | tools | tbdng | ★ 0 |
 | [wp-incident-scan](skills/tools/wp-incident-scan/) | tools | bhendo | ★ 0 |
@@ -16852,6 +17572,7 @@
 | [yeet](skills/tools/yeet/) | tools | NeverSight | ★ 0 |
 | [yeet](skills/tools/yeet/) | tools | majiayu000 | ★ 0 |
 | [yelp-automation](skills/tools/yelp-automation/) | tools | ComposioHQ | ★ 37.7k |
+| [ynab](skills/backend/ynab/) | backend | Mezzle | ★ 0 |
 | [ynab-automation](skills/tools/ynab-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [yousearch-automation](skills/tools/yousearch-automation/) | tools | ComposioHQ | ★ 37.7k |
 | [youtube-ai-digest](skills/data-ai/youtube-ai-digest/) | data-ai | yizhiyanhua-ai | ★ 0 |
@@ -16879,6 +17600,7 @@
 |-------|----------|--------|-------|
 | [zapier-make-patterns](skills/backend/zapier-make-patterns/) | backend | sickn33 | ★ 16.9k |
 | [zapier-make-patterns](skills/development/zapier-make-patterns/) | development | sickn33 | ★ 15.5k |
+| [zapier-make-patterns](skills/development/zapier-make-patterns/) | development | majiayu000 | ★ 2 |
 | [zdev](skills/development/zdev/) | development | NeverSight | ★ 0 |
 | [zdev](skills/development/zdev/) | development | 5hanth | ★ 0 |
 | [zeabur](skills/devops/zeabur/) | devops | kcchien | ★ 0 |

@@ -1,7 +1,6 @@
 ---
 name: startup-analyst
-description: |
-  Expert startup business analyst specializing in market sizing,
+description: Expert startup business analyst specializing in market sizing,
   financial modeling, competitive analysis, and strategic planning for
   early-stage companies. Use PROACTIVELY when the user asks about market
   opportunity, TAM/SAM/SOM, financial projections, unit economics, competitive
@@ -9,8 +8,6 @@ description: |
   through Series A startups.
 metadata:
   model: inherit
-risk: unknown
-source: community
 ---
 
 ## Use this skill when

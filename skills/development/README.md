@@ -1,6 +1,6 @@
 # 📂 development
 
-> 5,919 skills in this category
+> 6,023 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -113,6 +113,7 @@
 | [domain-name-brainstormer](domain-name-brainstormer/) | ComposioHQ | ★ 37.3k | 95% | L2 | Generates creative domain name ideas for your project and checks availability ac… |
 | [mcp-builder](mcp-builder/) | ComposioHQ | ★ 37.3k | 95% | L3 | Guide for creating high-quality MCP (Model Context Protocol) servers that enable… |
 | [internal-comms](internal-comms/) | ComposioHQ | ★ 37.3k | 88% | L2 | A set of resources to help me write all kinds of internal communications, using … |
+| [bevy-ecs-expert](bevy-ecs-expert/) | sickn33 | ★ 17.3k | 95% | L2 | Master Bevy's Entity Component System (ECS) in Rust, covering Systems, Queries, … |
 | [vibe-code-auditor](vibe-code-auditor/) | sickn33 | ★ 16.9k | 98% | L3 | Audit rapidly generated or AI-produced code for structural flaws, fragility, and… |
 | [wiki-researcher](wiki-researcher/) | sickn33 | ★ 16.9k | 95% | L2 | Conducts multi-turn iterative deep research on specific topics within a codebase… |
 | [wordpress-theme-development](wordpress-theme-development/) | sickn33 | ★ 16.9k | 95% | L3 | WordPress theme development workflow covering theme architecture, template hiera… |
@@ -179,7 +180,6 @@
 | [azure-eventhub-java](azure-eventhub-java/) | sickn33 | ★ 16.7k | 95% | L3 | Build real-time streaming applications with Azure Event Hubs SDK for Java. Use w… |
 | [bazel-build-optimization](bazel-build-optimization/) | sickn33 | ★ 16.7k | 95% | L3 | Optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, imp… |
 | [behavioral-modes](behavioral-modes/) | sickn33 | ★ 16.7k | 95% | L2 | AI operational modes (brainstorm, implement, debug, review, teach, ship, orchest… |
-| [bevy-ecs-expert](bevy-ecs-expert/) | sickn33 | ★ 16.7k | 95% | L2 | Master Bevy's Entity Component System (ECS) in Rust, covering Systems, Queries, … |
 | [binary-analysis-patterns](binary-analysis-patterns/) | sickn33 | ★ 16.7k | 95% | L3 | Master binary analysis patterns including disassembly, decompilation, control fl… |
 | [bun-development](bun-development/) | sickn33 | ★ 16.7k | 95% | L3 | Modern JavaScript/TypeScript development with Bun runtime. Covers package manage… |
 | [c4-architecture-c4-architecture](c4-architecture-c4-architecture/) | sickn33 | ★ 16.7k | 95% | L3 | Generate comprehensive C4 architecture documentation for an existing repository/… |
@@ -567,6 +567,45 @@
 | [ffuf-claude-skill](ffuf-claude-skill/) | sickn33 | ★ 15.4k | 69% | L2 | Web fuzzing with ffuf |
 | [claude-ally-health](claude-ally-health/) | sickn33 | ★ 15.4k | 82% | L2 | A health assistant skill for medical information analysis, symptom tracking, and… |
 | [gemini-api-dev](gemini-api-dev/) | google-gemini | ★ 1.9k | 88% | L3 | Use this skill when building applications with Gemini models, Gemini API, workin… |
+| [agent-handoff](agent-handoff/) | majiayu000 | ★ 95 | 80% | L3 | Generate comprehensive handoff documentation optimized for AI agent takeover by … |
+| [add-language](add-language/) | majiayu000 | ★ 95 | 77% | L3 | Guide for implementing a new language parser in Codanna. Use when adding languag… |
+| [agent-coordination](agent-coordination/) | majiayu000 | ★ 95 | 77% | L2 | Coordinate multiple specialized Skills and Task Agents through parallel, sequent… |
+| [agent-customization](agent-customization/) | majiayu000 | ★ 95 | 77% | L3 | Create, update, review, fix, or debug VS Code agent customization files (.instru… |
+| [agent-developing-agents](agent-developing-agents/) | majiayu000 | ★ 95 | 77% | L2 | AI agent development standards including frontmatter structure, naming conventio… |
+| [agent-factory](agent-factory/) | majiayu000 | ★ 95 | 77% | L3 | Claude Code agent generation system that creates custom agents and sub-agents wi… |
+| [agent-native-architecture](agent-native-architecture/) | majiayu000 | ★ 95 | 77% | L3 | Build applications where agents are first-class citizens. Use this skill when de… |
+| [agent-ops-code-review-comprehensive](agent-ops-code-review-comprehensive/) | majiayu000 | ★ 95 | 77% | L3 | A senior code-review agent that produces critical, thorough, constructive, and e… |
+| [agent-ops-implementation](agent-ops-implementation/) | majiayu000 | ★ 95 | 77% | L3 | Implement only after a validated/approved plan. Use for coding: small diffs, fre… |
+| [agent-ops-migrate](agent-ops-migrate/) | majiayu000 | ★ 95 | 77% | L3 | Migrate a project into another, ensuring functionality and validating complete c… |
+| [agent-ops-potential-discovery](agent-ops-potential-discovery/) | majiayu000 | ★ 95 | 77% | L2 | Analyze incoming content (text, files, folders, URLs) to extract purpose, create… |
+| [agent-ops-research](agent-ops-research/) | majiayu000 | ★ 95 | 77% | L2 | Deep topic research with optional issue creation from findings. Use for research… |
+| [agent-sdk-dev](agent-sdk-dev/) | majiayu000 | ★ 95 | 77% | L3 | Agent SDK development utilities for creating, testing, and managing AI agents wi… |
+| [agent-sdk](agent-sdk/) | majiayu000 | ★ 95 | 77% | L3 | Expert in Claude Agent SDK development. Use when users ask about SDK API, agent … |
+| [agent-selection](agent-selection/) | majiayu000 | ★ 95 | 77% | L3 | Systematic framework for selecting the optimal specialized agent for any task. U… |
+| [agentic-jumpstart-architecture](agentic-jumpstart-architecture/) | majiayu000 | ★ 95 | 77% | L3 | Architecture guidelines for Jarvy CLI - codebase structure, tool implementation … |
+| [agentic-jumpstart-code-quality](agentic-jumpstart-code-quality/) | majiayu000 | ★ 95 | 77% | L3 | Code quality guidelines for Jarvy CLI - Rust formatting, Clippy linting, error h… |
+| [agentic-structure](agentic-structure/) | majiayu000 | ★ 95 | 77% | L2 | Collaborative programming framework for production-ready development. Use when s… |
+| [agent-error-detective](agent-error-detective/) | majiayu000 | ★ 95 | 70% | L2 | Expert error detective specializing in complex error pattern analysis, correlati… |
+| [agent-flutter-expert](agent-flutter-expert/) | majiayu000 | ★ 95 | 70% | L2 | Expert Flutter specialist mastering Flutter 3+ with modern architecture patterns… |
+| [agent-python-pro](agent-python-pro/) | majiayu000 | ★ 95 | 70% | L2 | Expert Python developer specializing in modern Python 3.11+ development with dee… |
+| [agent-rust-engineer](agent-rust-engineer/) | majiayu000 | ★ 95 | 70% | L2 | Expert Rust developer specializing in systems programming, memory safety, and ze… |
+| [agent-trend-analyst](agent-trend-analyst/) | majiayu000 | ★ 95 | 70% | L2 | Expert trend analyst specializing in identifying emerging patterns, forecasting … |
+| [agent-typescript-pro](agent-typescript-pro/) | majiayu000 | ★ 95 | 70% | L2 | Expert TypeScript developer specializing in advanced type system usage, full-sta… |
+| [agentic_architecture](agentic_architecture/) | majiayu000 | ★ 95 | 70% | L3 | Enforces high-level architectural thinking, separation of concerns, and scalabil… |
+| [agentic_architecture](agentic_architecture/) | majiayu000 | ★ 95 | 70% | L3 | Enforces high-level architectural thinking, separation of concerns, and scalabil… |
+| [agent-csharp-developer](agent-csharp-developer/) | majiayu000 | ★ 95 | 64% | L2 | Expert C# developer specializing in modern .NET development, ASP.NET Core, and c… |
+| [agent-debugger](agent-debugger/) | majiayu000 | ★ 95 | 64% | L2 | Expert debugger specializing in complex issue diagnosis, root cause analysis, an… |
+| [agent-embedded-systems](agent-embedded-systems/) | majiayu000 | ★ 95 | 64% | L2 | Expert embedded systems engineer specializing in microcontroller programming, RT… |
+| [agent-game-developer](agent-game-developer/) | majiayu000 | ★ 95 | 64% | L2 | Expert game developer specializing in game engine programming, graphics optimiza… |
+| [agent-golang-pro](agent-golang-pro/) | majiayu000 | ★ 95 | 64% | L2 | Expert Go developer specializing in high-performance systems, concurrent program… |
+| [agent-java-architect](agent-java-architect/) | majiayu000 | ★ 95 | 64% | L2 | Senior Java architect specializing in enterprise-grade applications, Spring ecos… |
+| [agent-javascript-pro](agent-javascript-pro/) | majiayu000 | ★ 95 | 64% | L2 | Expert JavaScript developer specializing in modern ES2023+ features, asynchronou… |
+| [agent-kotlin-specialist](agent-kotlin-specialist/) | majiayu000 | ★ 95 | 64% | L2 | Expert Kotlin developer specializing in coroutines, multiplatform development, a… |
+| [agent-legacy-modernizer](agent-legacy-modernizer/) | majiayu000 | ★ 95 | 64% | L2 | Expert legacy system modernizer specializing in incremental migration strategies… |
+| [agent-mcp-developer](agent-mcp-developer/) | majiayu000 | ★ 95 | 64% | L2 | Expert MCP developer specializing in Model Context Protocol server and client de… |
+| [agent-php-pro](agent-php-pro/) | majiayu000 | ★ 95 | 64% | L2 | Expert PHP developer specializing in modern PHP 8.3+ with strong typing, async p… |
+| [agent-wordpress-master](agent-wordpress-master/) | majiayu000 | ★ 95 | 64% | L2 | Expert WordPress developer specializing in theme development, plugin architectur… |
+| [agent-setup](agent-setup/) | majiayu000 | ★ 95 | 58% | L2 | Configure AI coding agents like Cursor, GitHub Copilot, or Claude Code with proj… |
 | [accessibility-wcag](accessibility-wcag/) | majiayu000 | ★ 94 | 80% | L3 | Enforce WCAG 2.2 accessibility standards. Use when creating UI components, revie… |
 | [accessible-web-dev](accessible-web-dev/) | majiayu000 | ★ 94 | 80% | L3 | Build WCAG 2.1 AA compliant web applications for University of Sheffield. Covers… |
 | [accessing-github-repos](accessing-github-repos/) | majiayu000 | ★ 94 | 80% | L3 | GitHub repository access in containerized environments using REST API and creden… |
@@ -628,7 +667,6 @@
 | [writing-ad-copy](writing-ad-copy/) | majiayu000 | ★ 94 | 77% | L2 | Creates platform-specific ad copy for paid campaigns with A/B variants. Use when… |
 | [ad-review](ad-review/) | majiayu000 | ★ 94 | 77% | L2 | Quality review ads before launch by verifying hook strength, checking proof elem… |
 | [add-error-type](add-error-type/) | majiayu000 | ★ 94 | 77% | L3 | Add a new custom error type for domain-specific errors. Use when creating errors… |
-| [add-language](add-language/) | majiayu000 | ★ 94 | 77% | L3 | Guide for implementing a new language parser in Codanna. Use when adding languag… |
 | [add-module](add-module/) | majiayu000 | ★ 94 | 77% | L3 | Create a new core infrastructure module with standard API, lazy init, and proper… |
 | [add-new-file](add-new-file/) | majiayu000 | ★ 94 | 77% | L3 | Guide for adding new files to this codebase while respecting architectural princ… |
 | [add-opencode-model](add-opencode-model/) | majiayu000 | ★ 94 | 77% | L3 | Fetch OpenCode Zen model details and provide guidance for adding models to acai-… |
@@ -895,6 +933,19 @@
 | [analyze-yii2-project](analyze-yii2-project/) | majiayu000 | ★ 2 | 67% | L3 | Use this when user provides a Yii2 codebase for analysis or migration planning. … |
 | [analyzing-logs](analyzing-logs/) | majiayu000 | ★ 2 | 67% | L2 | Analyze application logs for performance insights and issue detection including … |
 | [analyzing-patterns](analyzing-patterns/) | majiayu000 | ★ 2 | 67% | L3 | Automatically activated when user asks to "find patterns in...", "identify repea… |
+| [android-adb](android-adb/) | majiayu000 | ★ 2 | 67% | L3 | Automate ADB commands for device management, app installation, and log analysis.… |
+| [android-admob](android-admob/) | majiayu000 | ★ 2 | 67% | L2 | AdMob integration patterns for monetization - banner ads, interstitials, rewarde… |
+| [android-expert](android-expert/) | majiayu000 | ★ 2 | 67% | L3 | Android development expert including Jetpack Compose, Kotlin, and Material Desig… |
+| [android-firebase](android-firebase/) | majiayu000 | ★ 2 | 67% | L2 | Firebase integration patterns for Android - Crashlytics, Analytics, Remote Confi… |
+| [android-gradle](android-gradle/) | majiayu000 | ★ 2 | 67% | L3 | Automate Gradle tasks for Android projects - build, test, coverage, clean. Use w… |
+| [android-project](android-project/) | majiayu000 | ★ 2 | 67% | L3 | Navigate and analyze Android project structure, modules, and dependencies. Use w… |
+| [android-supabase](android-supabase/) | majiayu000 | ★ 2 | 67% | L2 | Supabase integration patterns for Android - authentication, database, realtime s… |
+| [angreal-patterns](angreal-patterns/) | majiayu000 | ★ 2 | 67% | L3 | This skill should be used when the user asks to "test angreal tasks", "mock angr… |
+| [anoma-intents](anoma-intents/) | majiayu000 | ★ 2 | 67% | L3 | Anoma intent-centric architecture for cross-chain obstruction passing with Geb s… |
+| [antfu](antfu/) | majiayu000 | ★ 2 | 67% | L3 | Anthony Fu's opinionated tooling and conventions for JavaScript/TypeScript proje… |
+| [anti-ai-validator](anti-ai-validator/) | majiayu000 | ★ 2 | 67% | L2 | AI 탐지 가능 패턴을 감지하고 제거하는 독립 검증 스킬. 금지 표현, 반복 단어, 부자연스러운 구조를 탐지한다. 게시 전 콘텐츠를 검증하거나 … |
+| [clean-code](clean-code/) | majiayu000 | ★ 2 | 67% | L3 | Pragmatic coding standards - concise, direct, no over-engineering, no unnecessar… |
+| [Apex Enterprise Patterns](apex-enterprise-patterns/) | majiayu000 | ★ 2 | 67% | L2 | This skill should be used when the user asks to "create apex class", "write apex… |
 | [mcp-builder](mcp-builder/) | majiayu000 | ★ 2 | 64% | L3 | Guide for creating high-quality MCP (Model Context Protocol) servers that enable… |
 | [xlsx](xlsx/) | majiayu000 | ★ 2 | 64% | L3 | Comprehensive spreadsheet creation, editing, and analysis with support for formu… |
 | [clarity](clarity/) | majiayu000 | ★ 2 | 64% | L2 | Establish clarity before starting work. Use when beginning any significant task,… |
@@ -1003,12 +1054,6 @@
 | [agent-sdk](agent-sdk/) | majiayu000 | ★ 2 | 64% | L3 | Expert in Claude Agent SDK development. Use when users ask about SDK API, agent … |
 | [agent-selection](agent-selection/) | majiayu000 | ★ 2 | 64% | L3 | Systematic framework for selecting the optimal specialized agent for any task. U… |
 | [agent-skill-creator](agent-skill-creator/) | majiayu000 | ★ 2 | 64% | L3 | Creates new agent skills following modern best practices with proper structure a… |
-| [agent-coordination](agent-coordination/) | majiayu000 | ★ 2 | 64% | L2 | Coordinate multiple specialized Skills and Task Agents through parallel, sequent… |
-| [agent-customization](agent-customization/) | majiayu000 | ★ 2 | 64% | L3 | Create, update, review, fix, or debug VS Code agent customization files (.instru… |
-| [agent-factory](agent-factory/) | majiayu000 | ★ 2 | 64% | L3 | Claude Code agent generation system that creates custom agents and sub-agents wi… |
-| [agentic-jumpstart-architecture](agentic-jumpstart-architecture/) | majiayu000 | ★ 2 | 64% | L3 | Architecture guidelines for Jarvy CLI - codebase structure, tool implementation … |
-| [agentic-jumpstart-code-quality](agentic-jumpstart-code-quality/) | majiayu000 | ★ 2 | 64% | L3 | Code quality guidelines for Jarvy CLI - Rust formatting, Clippy linting, error h… |
-| [agentic-structure](agentic-structure/) | majiayu000 | ★ 2 | 64% | L2 | Collaborative programming framework for production-ready development. Use when s… |
 | [aggregating-gauge-metrics](aggregating-gauge-metrics/) | majiayu000 | ★ 2 | 64% | L2 | Aggregate pre-computed metrics (gauge, counter, delta types) using OPAL. Use whe… |
 | [Agile Scrum](agile-scrum/) | majiayu000 | ★ 2 | 64% | L2 | Comprehensive guide to Agile Scrum methodology including roles, ceremonies, arti… |
 | [ai-anti-patterns](ai-anti-patterns/) | majiayu000 | ★ 2 | 64% | L2 | This skill should be used when reviewing AI-generated text, checking for AI writ… |
@@ -1067,12 +1112,56 @@
 | [analyzing-implementations](analyzing-implementations/) | majiayu000 | ★ 2 | 64% | L3 | Documents HOW code works with surgical precision - traces data flow, explains im… |
 | [analyzing-projects](analyzing-projects/) | majiayu000 | ★ 2 | 64% | L3 | Guides systematic project analysis, codebase exploration, and architecture patte… |
 | [analyzing-research-papers](analyzing-research-papers/) | majiayu000 | ★ 2 | 64% | L2 | Expert methodology for analyzing and summarizing research papers, extracting key… |
+| [analyzing-text-patterns](analyzing-text-patterns/) | majiayu000 | ★ 2 | 64% | L2 | Extract and analyze recurring patterns from log messages, span names, and event … |
+| [analyzing-unknown-codebases](analyzing-unknown-codebases/) | majiayu000 | ★ 2 | 64% | L3 | Analyze unfamiliar codebases systematically to produce subsystem catalog entries… |
+| [analyzing-user-feedback](analyzing-user-feedback/) | majiayu000 | ★ 2 | 64% | L2 | Help users synthesize and act on customer feedback. Use when someone is analyzin… |
+| [anchor-based-context-recovery](anchor-based-context-recovery/) | majiayu000 | ★ 2 | 64% | L3 | Use when starting work after context compaction, switching features, or gatherin… |
+| [anchor-suggester](anchor-suggester/) | majiayu000 | ★ 2 | 64% | L3 | Add anchor comments to code for documentation. Use when creating CLAUDE.md files… |
+| [andrew-kane-gem-writer](andrew-kane-gem-writer/) | majiayu000 | ★ 2 | 64% | L2 | This skill should be used when writing Ruby gems following Andrew Kane's proven … |
+| [android-architecture](android-architecture/) | majiayu000 | ★ 2 | 64% | L2 | Use when implementing MVVM, clean architecture, dependency injection with Hilt, … |
+| [android-code-review](android-code-review/) | majiayu000 | ★ 2 | 64% | L2 | Critical Android code review for Payoo Android app. Focuses on high-impact issue… |
+| [android-debug](android-debug/) | majiayu000 | ★ 2 | 64% | L3 | Debug Android Flutter apps including runtime errors, build issues, device connec… |
+| [android-dev-core](android-dev-core/) | majiayu000 | ★ 2 | 64% | L2 | Android 功能开发核心规则。包含项目架构、MVI模式、Base类、Adapter、网络请求等基础规范。开发任何 Android 功能时都应加载此 skil… |
+| [android-dev-standards](android-dev-standards/) | majiayu000 | ★ 2 | 64% | L2 | Standards, architecture patterns, and best practices for Android app development… |
+| [android-development](android-development/) | majiayu000 | ★ 2 | 64% | L2 | Android development patterns for Kotlin/Java including MediaProjection, Accessib… |
+| [android-engineering-core](android-engineering-core/) | majiayu000 | ★ 2 | 64% | L2 | This skill is used to implement Android features within the existing Kotlin, Com… |
+| [android-kotlin-development](android-kotlin-development/) | majiayu000 | ★ 2 | 64% | L2 | Develop native Android apps with Kotlin. Covers MVVM with Jetpack, Compose for m… |
+| [android-kotlin](android-kotlin/) | majiayu000 | ★ 2 | 64% | L2 | Android Kotlin development with Coroutines, Jetpack Compose, Hilt, and MockK tes… |
+| [android-motion-specialist](android-motion-specialist/) | majiayu000 | ★ 2 | 64% | L3 | Expert Android developer for the Motion Detector project. Use this skill when wo… |
+| [android-notification-builder](android-notification-builder/) | majiayu000 | ★ 2 | 64% | L2 | Эксперт Android notifications. Используй для push notifications, channels и noti… |
+| [android-watch-logs](android-watch-logs/) | majiayu000 | ★ 2 | 64% | L3 | Start real-time log streaming from connected Android device using adb logcat. Sh… |
+| [android](android/) | majiayu000 | ★ 2 | 64% | L2 | Build, review, and refactor Android mobile apps (Kotlin) using modern Android pa… |
+| [angular-development](angular-development/) | majiayu000 | ★ 2 | 64% | L3 | Angular development patterns including modules, components, services, dependency… |
+| [anthropic-streaming-patterns](anthropic-streaming-patterns/) | majiayu000 | ★ 2 | 64% | L3 | Use when integrating Claude API with streaming responses, implementing tool exec… |
+| [anti-ai-writing](anti-ai-writing/) | majiayu000 | ★ 2 | 64% | L2 | Transform AI-assisted drafts into authentic, human-sounding content. This skill … |
+| [anti-cheat-systems](anti-cheat-systems/) | majiayu000 | ★ 2 | 64% | L2 | Guide for understanding anti-cheat systems and bypass techniques. Use this skill… |
+| [anti-duplication](anti-duplication/) | majiayu000 | ★ 2 | 64% | L3 | Before implementing new code (endpoints, components, services, models), search t… |
+| [anti-fabrication](anti-fabrication/) | majiayu000 | ★ 2 | 64% | L2 | Validate claims through tool execution, avoid superlatives and unsubstantiated m… |
+| [anti-reversing-techniques](anti-reversing-techniques/) | majiayu000 | ★ 2 | 64% | L3 | Understand anti-reversing, obfuscation, and protection techniques encountered du… |
+| [anti-reversing-techniques](anti-reversing-techniques/) | majiayu000 | ★ 2 | 64% | L3 | Understand anti-reversing, obfuscation, and protection techniques encountered du… |
+| [bun-development](bun-development/) | majiayu000 | ★ 2 | 64% | L3 | Modern JavaScript/TypeScript development with Bun runtime. Covers package manage… |
+| [javascript-mastery](javascript-mastery/) | majiayu000 | ★ 2 | 64% | L3 | Comprehensive JavaScript reference covering 33+ essential concepts every develop… |
+| [micro-saas-launcher](micro-saas-launcher/) | majiayu000 | ★ 2 | 64% | L3 | Expert in launching small, focused SaaS products fast - the indie hacker approac… |
+| [nestjs-expert](nestjs-expert/) | majiayu000 | ★ 2 | 64% | L3 | Nest.js framework expert specializing in module architecture, dependency injecti… |
+| [prompt-library](prompt-library/) | majiayu000 | ★ 2 | 64% | L2 | Curated collection of high-quality prompts for various use cases. Includes role-… |
+| [python-patterns](python-patterns/) | majiayu000 | ★ 2 | 64% | L3 | Python development principles and decision-making. Framework selection, async pa… |
+| [skill-developer](skill-developer/) | majiayu000 | ★ 2 | 64% | L3 | Create and manage Claude Code skills following Anthropic best practices. Use whe… |
+| [antipattern-catalog](antipattern-catalog/) | majiayu000 | ★ 2 | 64% | L3 | Document technical debt, anti-patterns, and patterns to avoid from analyzed fram… |
+| [antipattern-detector](antipattern-detector/) | majiayu000 | ★ 2 | 64% | L2 | Detect common technical and organizational anti-patterns in proposals, architect… |
+| [anycable-coder](anycable-coder/) | majiayu000 | ★ 2 | 64% | L3 | Use when implementing real-time features requiring reliability, especially LLM s… |
+| [anyway-config-coder](anyway-config-coder/) | majiayu000 | ★ 2 | 64% | L2 | Implement type-safe configuration with anyway_config gem. Use when creating conf… |
+| [aoc-solution-review](aoc-solution-review/) | majiayu000 | ★ 2 | 64% | L3 | Reviews Advent of Code TypeScript solutions for code quality, TypeScript idioms,… |
+| [aoc](aoc/) | majiayu000 | ★ 2 | 64% | L3 | Solve Advent of Code puzzles, algorithm challenges, and competitive programming … |
+| [apc-code-samples](apc-code-samples/) | majiayu000 | ★ 2 | 64% | L3 | TypeScript and Node.js code samples for APC Mini MK2 development. Use when user … |
+| [api_design](api_design/) | majiayu000 | ★ 2 | 64% | L3 | API tasarımı, GraphQL schema, OpenAPI spec, versioning. ⚠️ Tasarım aşaması için … |
 | [add-lesson](add-lesson/) | majiayu000 | ★ 2 | 63% | L3 | Add a new lesson learned to shared rules and sync to context files. |
 | [advisor-triggers](advisor-triggers/) | majiayu000 | ★ 2 | 63% | L3 | Detects when user requests warrant critical analysis via /advise command |
 | [ai-code-cleanup](ai-code-cleanup/) | majiayu000 | ★ 2 | 63% | L3 | Remove AI-generated code slop from branches. Use after AI-assisted coding |
 | [ai-code-generator](ai-code-generator/) | majiayu000 | ★ 2 | 63% | L3 | AI-powered code generation for boilerplate, tests, data, and scaffolding |
 | [ai-ethics](ai-ethics/) | majiayu000 | ★ 2 | 63% | L2 | Responsible AI development and ethical considerations. Use when evaluating |
 | [aidb-architecture](aidb-architecture/) | majiayu000 | ★ 2 | 63% | L3 | Comprehensive architectural reference for AIDB core and MCP integration. |
+| [android-keystore-generation](android-keystore-generation/) | majiayu000 | ★ 2 | 63% | L3 | Generate production and local development keystores for Android release signing |
+| [api-development-expert](api-development-expert/) | majiayu000 | ★ 2 | 63% | L3 | API development expert including REST design, OpenAPI, and documentation |
 | [2d-games](2d-games/) | majiayu000 | ★ 2 | 60% | L2 | 2D game development principles. Sprites, tilemaps, physics, camera. |
 | [adapter-development](adapter-development/) | majiayu000 | ★ 2 | 60% | L3 | Comprehensive guide for AIDB debug adapter development. Covers component-based |
 | [add-doc](add-doc/) | majiayu000 | ★ 2 | 60% | L3 | Add new documentation sources to .claude/doc-sources.toml for Context7 access |
@@ -1092,6 +1181,8 @@
 | [amcs-{SKILL_NAME}-{ACTION}](amcs-skill_name-action/) | majiayu000 | ★ 2 | 60% | L3 | {ONE_SENTENCE_PURPOSE}. Use when {TRIGGER_CONDITION}. |
 | [analyse](analyse/) | majiayu000 | ★ 2 | 60% | L3 | Investigate codebase, debug issues, or analyze patterns |
 | [analyze-system](analyze-system/) | majiayu000 | ★ 2 | 60% | L3 | システム分析エージェント - ユビキタス言語、アクター、ロール、権限、ドメイン-コード対応表を抽出。/analyze-system [対象パス] で呼び出し。 |
+| [java-pro](java-pro/) | majiayu000 | ★ 2 | 60% | L2 | Master Java 21+ with modern features like virtual threads, pattern |
+| [unity-developer](unity-developer/) | majiayu000 | ★ 2 | 60% | L2 | Build Unity games with optimized C# scripts, efficient rendering, |
 | [admin-interface-rules](admin-interface-rules/) | majiayu000 | ★ 2 | 58% | L2 | Rules for the Admin interface functionalities |
 | [alpine-js-usage-rules](alpine-js-usage-rules/) | majiayu000 | ★ 2 | 58% | L3 | Guidelines for using Alpine.js for declarative JavaScript functionality. |
 | [internal-comms](internal-comms/) | majiayu000 | ★ 2 | 57% | L2 | A set of resources to help me write all kinds of internal communications, using … |
@@ -1115,8 +1206,6 @@
 | [agent-rust-engineer](agent-rust-engineer/) | majiayu000 | ★ 2 | 57% | L2 | Expert Rust developer specializing in systems programming, memory safety, and ze… |
 | [agent-spring-boot-engineer](agent-spring-boot-engineer/) | majiayu000 | ★ 2 | 57% | L2 | Expert Spring Boot engineer mastering Spring Boot 3+ with cloud-native patterns.… |
 | [agent-typescript-pro](agent-typescript-pro/) | majiayu000 | ★ 2 | 57% | L2 | Expert TypeScript developer specializing in advanced type system usage, full-sta… |
-| [agentic_architecture](agentic_architecture/) | majiayu000 | ★ 2 | 57% | L3 | Enforces high-level architectural thinking, separation of concerns, and scalabil… |
-| [agentic_architecture](agentic_architecture/) | majiayu000 | ★ 2 | 57% | L3 | Enforces high-level architectural thinking, separation of concerns, and scalabil… |
 | [agile-methodology](agile-methodology/) | majiayu000 | ★ 2 | 57% | L2 | Apply agile development practices. Use when planning sprints, running ceremonies… |
 | [ai-comm](ai-comm/) | majiayu000 | ★ 2 | 57% | L2 | Use when collaborating with other AI assistants (Codex, Gemini, Aider, Cursor, O… |
 | [analytic-philosophy-expert](analytic-philosophy-expert/) | majiayu000 | ★ 2 | 57% | L2 | Expert in Anglo-American analytic tradition covering logic, language, mind, and … |
@@ -1124,12 +1213,19 @@
 | [analyze-code-structure](analyze-code-structure/) | majiayu000 | ★ 2 | 57% | L3 | Examine code organization and identify structural patterns. Use when reviewing m… |
 | [analyze-size](analyze-size/) | majiayu000 | ★ 2 | 57% | L3 | Analyze codebase size and language distribution using cloc. Use when user wants … |
 | [analyze](analyze/) | majiayu000 | ★ 2 | 57% | L3 | Invoke IMMEDIATELY via python script when user requests codebase analysis, archi… |
+| [Analyzing Spreadsheets](analyzing-spreadsheets/) | majiayu000 | ★ 2 | 57% | L3 | Analyzes Excel spreadsheets, summarizes trends, and recommends charts when users… |
+| [analyzing-taint-flow](analyzing-taint-flow/) | majiayu000 | ★ 2 | 57% | L2 | Tracks untrusted input propagation from sources to sinks in binary code to ident… |
+| [zapier-make-patterns](zapier-make-patterns/) | majiayu000 | ★ 2 | 57% | L2 | No-code automation democratizes workflow building. Zapier and Make (formerly Int… |
 | [chaos-spawn-1767390340](chaos-spawn-1767390340/) | majiayu000 | ★ 2 | 56% | L3 | 🍆👾 CHAOS SPAWN - Maximum jank energy skill generated from pure chaos |
 | [agp-router-rules](agp-router-rules/) | majiayu000 | ★ 2 | 55% | L2 | Rules for using the Agp Router. |
 | [add-skill-templates](add-skill-templates/) | majiayu000 | ★ 2 | 53% | L2 | Add new Agent Skill templates to the meta-agent-skills framework. |
 | [advanced-types](advanced-types/) | majiayu000 | ★ 2 | 53% | L2 | Advanced TypeScript types including generics, conditionals, and mapped types |
 | [advocacy-roster-system](advocacy-roster-system/) | majiayu000 | ★ 2 | 53% | L2 | Scoring and governance framework for managing reference customers and |
 | [aictxt-manager](aictxt-manager/) | majiayu000 | ★ 2 | 53% | L2 | 生成、维护、修剪AICTXT文档，保持在CRAFT大小限制内。当AICTXT创建和更新时使用。 |
+| [error-detective](error-detective/) | majiayu000 | ★ 2 | 53% | L2 | Search logs and codebases for error patterns, stack traces, and |
+| [javascript-pro](javascript-pro/) | majiayu000 | ★ 2 | 53% | L3 | Master modern JavaScript with ES6+, async patterns, and Node.js |
+| [api-codegen-runner](api-codegen-runner/) | majiayu000 | ★ 2 | 53% | L2 | Use when working with api-codegen-runner |
+| [api-codegen-universal](api-codegen-universal/) | majiayu000 | ★ 2 | 53% | L2 | Use when working with api-codegen-universal |
 | [add-subtitles](add-subtitles/) | majiayu000 | ★ 2 | 51% | L2 | Adds SRT formatted subtitles to a video file when you want a video to have subti… |
 | [address-parser](address-parser/) | majiayu000 | ★ 2 | 51% | L2 | Parse unstructured addresses into structured components - street, city, state, z… |
 | [advanced-memoization-strategies](advanced-memoization-strategies/) | majiayu000 | ★ 2 | 51% | L2 | Apply principled memoization techniques to reduce re-rendering without introduci… |
@@ -1157,6 +1253,7 @@
 | [agent-vue-expert](agent-vue-expert/) | majiayu000 | ★ 2 | 51% | L2 | Expert Vue specialist mastering Vue 3 with Composition API and ecosystem. Specia… |
 | [agent-websocket-engineer](agent-websocket-engineer/) | majiayu000 | ★ 2 | 51% | L2 | Real-time communication specialist implementing scalable WebSocket architectures… |
 | [alphaear-stock](alphaear-stock/) | majiayu000 | ★ 2 | 51% | L2 | Search A-Share finance stock tickers and retrieve finance stock price history. U… |
+| [azure-functions](azure-functions/) | majiayu000 | ★ 2 | 51% | L2 | Expert patterns for Azure Functions development including isolated worker model,… |
 | [patterns/adapter](patterns-adapter/) | majiayu000 | ★ 2 | 47% | L2 | Adapter (Wrapper) Pattern pattern for C development |
 | [Add Admin API Endpoint](add-admin-api-endpoint/) | majiayu000 | ★ 2 | 47% | L3 | Add a new endpoint or endpoints to Ghost's Admin API at `ghost/api/admin/**`. |
 | [agentstack-server-debugging](agentstack-server-debugging/) | majiayu000 | ★ 2 | 47% | L2 | Instructions for debugging agentstack-server during development |
@@ -1166,6 +1263,7 @@
 | [Advanced React Clean Integration](advanced-react-clean-integration/) | majiayu000 | ★ 2 | 45% | L2 | Integrate React with clean architecture without framework leakage using hooks as… |
 | [Advanced Typescript Type Level](advanced-typescript-type-level/) | majiayu000 | ★ 2 | 45% | L2 | Master TypeScript type-level programming with conditional types, mapped types, t… |
 | [ai-sdk-setup](ai-sdk-setup/) | majiayu000 | ★ 2 | 45% | L2 | Install the Vercel AI SDK with AI Elements components. Build a streaming chat in… |
+| [android-kotlin](android-kotlin/) | majiayu000 | ★ 2 | 45% | L2 | Provides comprehensive guidance for Android development with Kotlin including ac… |
 | [analyze_code](analyze_code/) | majiayu000 | ★ 2 | 44% | L2 | 外部ライブラリや他言語で書かれたコードの実装を分析して知見を得る |
 | [add_platform.add_capabilities](add_platform.add_capabilities/) | majiayu000 | ★ 2 | 41% | L1 | "Updates job schema and adapters with any new hook events the platform supports.… |
 | [add_platform.implement](add_platform.implement/) | majiayu000 | ★ 2 | 41% | L1 | "Creates platform adapter, templates, tests with 100% coverage, and README docum… |
@@ -4762,7 +4860,6 @@
 | [system-design-patterns](system-design-patterns/) | majiayu000 | ★ 0 | 45% | L3 | System design patterns for scalability, reliability, and performance. Use when: … |
 | [library-writer](library-writer/) | majiayu000 | ★ 0 | 45% | L3 | This skill should be used when writing software libraries, packages, or modules … |
 | [zero-trust](zero-trust/) | majiayu000 | ★ 0 | 45% | L2 | Zero Trust architecture principles including ZTNA, micro-segmentation, identity-… |
-| [anti-reversing-techniques](anti-reversing-techniques/) | majiayu000 | ★ 0 | 45% | L3 | Understand anti-reversing, obfuscation, and protection techniques encountered du… |
 | [event-driven](event-driven/) | majiayu000 | ★ 0 | 45% | L3 | Event-driven architecture patterns including message queues, pub/sub, event sour… |
 | [skill-maker](skill-maker/) | andrewneilson | ★ 0 | 45% | L3 | Create, validate, and maintain Claude Code Agent Skills. Use when the user wants… |
 | [lang-python](lang-python/) | majiayu000 | ★ 0 | 45% | L3 | This skill should be used when the user asks to "write Python code", "debug a Py… |
@@ -4798,7 +4895,6 @@
 | [technology-stack-blueprint-generator](technology-stack-blueprint-generator/) | sandriaas | ★ 0 | 45% | L3 | Comprehensive technology stack blueprint generator that analyzes codebases to cr… |
 | [code-review-checklist](code-review-checklist/) | stackgenhq | ★ 0 | 45% | L3 | Generate comprehensive code review checklists tailored to programming language a… |
 | [using-live-documentation](using-live-documentation/) | majiayu000 | ★ 0 | 45% | L3 | Use BEFORE implementing, writing, configuring, or setting up ANY feature involvi… |
-| [python-patterns](python-patterns/) | AtilaMedeiros | ★ 0 | 45% | L3 | Python development principles and decision-making. Framework selection, async pa… |
 | [project-awareness](project-awareness/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive project context detection and state awareness. Use when relevant t… |
 | [spec_driven_development.constitution](spec_driven_development.constitution/) | majiayu000 | ★ 0 | 45% | L3 | Creates foundational governance principles and development guidelines for the pr… |
 | [faion-net](faion-net/) | majiayu000 | ★ 0 | 45% | L3 | Universal orchestrator for software projects: SDD workflow, research, product pl… |
@@ -4927,7 +5023,6 @@
 | [research-cascade](research-cascade/) | majiayu000 | ★ 0 | 45% | L3 | Multi-source research orchestration. Chains deepwiki, submodules, WebSearch, and… |
 | [opentangl](opentangl/) | openclaw | ★ 0 | 45% | L3 | Not a code generator — an entire dev team. You write the vision, it ships the co… |
 | [skill-refactor](skill-refactor/) | OttawaCloudConsulting | ★ 0 | 45% | L2 | Reviews and refactors an existing skill against quality standards. Use when aske… |
-| [agent-sdk](agent-sdk/) | majiayu000 | ★ 0 | 45% | L3 | Expert in Claude Agent SDK development. Use when users ask about SDK API, agent … |
 | [complete-example](complete-example/) | majiayu000 | ★ 0 | 45% | L3 | AI 增强版 LaTeX 示例智能生成器，实现 AI 与硬编码的有机融合。AI 做"语义理解"（分析章节主题、推理资源相关性、生成连贯叙述），硬编码做"结构保护… |
 | [review-architecture](review-architecture/) | BridgingIT-GmbH | ★ 0 | 45% | L3 | Verify DDD patterns, Clean Architecture boundaries, and bITdevKit-specific conve… |
 | [skill-forge](skill-forge/) | spm1001 | ★ 0 | 45% | L3 | Orchestrates ALL skill development — MANDATORY gate BEFORE writing or editing an… |
@@ -4957,7 +5052,6 @@
 | [framework](framework/) | majiayu000 | ★ 0 | 45% | L3 | Expert on SpecWeave framework structure, rules, and spec-driven development conv… |
 | [copilot-sdk-go](copilot-sdk-go/) | kevinyay945 | ★ 0 | 45% | L3 | Expert guidance for using the GitHub Copilot CLI SDK with Go, including API refe… |
 | [viem](viem/) | majiayu000 | ★ 0 | 45% | L3 | Viem blockchain client patterns for Ethereum interactions, transactions, signing… |
-| [aoc](aoc/) | majiayu000 | ★ 0 | 45% | L3 | Solve Advent of Code puzzles, algorithm challenges, and competitive programming … |
 | [compaction-advisor](compaction-advisor/) | majiayu000 | ★ 0 | 45% | L2 | Provides context-aware compaction guidance with intelligent checkpointing. Monit… |
 | [compaction-advisor](compaction-advisor/) | vignesh07 | ★ 0 | 45% | L3 | Provides context-aware compaction guidance with intelligent checkpointing. Monit… |
 | [fx-explore](fx-explore/) | majiayu000 | ★ 0 | 45% | L2 | Discover available effects, actions, and placeholders in a Sandestin project. Us… |
@@ -4967,6 +5061,10 @@
 | [petstore-checklist](petstore-checklist/) | a1flecke | ★ 0 | 45% | L3 | Pre-implementation checklist for lizzies-petstore sessions. Prints the coding ru… |
 | [python-testing](python-testing/) | jaaaackieLai | ★ 0 | 45% | L3 | Use when implementing new Python code (follow TDD), designing test suites, revie… |
 | [c-programming-guidelines](c-programming-guidelines/) | Tryboy869 | ★ 0 | 45% | L3 | Apply for c-programming-guidelines. --- description: globs: **/*.c,**/*.cpp,**/*… |
+| [general-principles](general-principles/) | Tryboy869 | ★ 0 | 45% | L3 | Apply for general-principles. --- description: Applies general coding standards … |
+| [codebase-context](codebase-context/) | airowe | ★ 0 | 45% | L3 | Generates a codebase-context.md file that provides pre-built context for AI agen… |
+| [oracle-path](oracle-path/) | majiayu000 | ★ 0 | 45% | L3 | Create learning paths for topics. Use when user says "learning path", "how do I … |
+| [architecture](architecture/) | pluginagentmarketplace | ★ 0 | 45% | L3 | Master architectural design with SOLID principles, design patterns, microservice… |
 | [annas-to-notebooklm](annas-to-notebooklm/) | zstmfhy | ★ 0 | 44% | L3 | 自动从 Anna's Archive 下载书籍并上传到 Google NotebookLM。支持 PDF/EPUB 格式，自动转换，一键创建知识库。 |
 | [annas-to-notebooklm](annas-to-notebooklm/) | NeverSight | ★ 0 | 44% | L3 | 自动从 Anna's Archive 下载书籍并上传到 Google NotebookLM。支持 PDF/EPUB 格式，自动转换，一键创建知识库。 |
 | [rtk-optimizer](rtk-optimizer/) | FlorianBruniaux | ★ 0 | 44% | L3 | Optimize command outputs with RTK (Rust Token Killer) for 70% token reduction |
@@ -5043,6 +5141,7 @@
 | [extending-workflows](extending-workflows/) | gitwalter | ★ 0 | 44% | L2 | Create and extend workflow definitions using the workflow system architecture |
 | [bootstrap-auto](bootstrap-auto/) | duc01226 | ★ 0 | 44% | L2 | [Implementation] Bootstrap a new project automatically |
 | [Getting Started with Skills](getting-started-with-skills/) | obra | ★ 0 | 44% | L3 | Skills wiki intro - mandatory workflows, search tool, brainstorming triggers |
+| [flame-game-dev](flame-game-dev/) | miles990 | ★ 0 | 44% | L3 | Flame Engine 2D game development master index - core, systems, templates |
 | [dataverse-python-best-practices](dataverse-python-best-practices/) | pingqLIN | ★ 0 | 43% | L3 | dataverse-python-best-practices guidelines |
 | [tauri-svelte-typescript-general](tauri-svelte-typescript-general/) | majiayu000 | ★ 0 | 43% | L3 | General rules for developing desktop applications using Tauri with Svelte and Ty… |
 | [history-and-next-task-rules](history-and-next-task-rules/) | oimiragieo | ★ 0 | 43% | L3 | Specifies the format for ending responses, including a summary of requirements, … |
@@ -5090,6 +5189,8 @@
 | [type-hinting-rule](type-hinting-rule/) | oimiragieo | ★ 0 | 43% | L3 | Mandates strict type hinting using the typing module for all Python functions, m… |
 | [technical-accuracy-and-usability-rules](technical-accuracy-and-usability-rules/) | majiayu000 | ★ 0 | 43% | L3 | Ensures the documentation is technically accurate and highly usable for the targ… |
 | [function-ordering-conventions](function-ordering-conventions/) | majiayu000 | ★ 0 | 43% | L3 | Defines the function ordering conventions, where functions that compose other fu… |
+| [comment-usage](comment-usage/) | oimiragieo | ★ 0 | 43% | L3 | This rule dictates how comments should be used within the codebase to enhance un… |
+| [comprehensive-type-annotations](comprehensive-type-annotations/) | oimiragieo | ★ 0 | 43% | L2 | Requires detailed type annotations for all Python functions, methods, and class … |
 | [Frontend Development](frontend-development/) | majiayu000 | ★ 0 | 41% | L3 | พัฒนา Frontend ด้วย Angular, React, Vue, Next.js อย่างมืออาชีพ |
 | [lightfriend-add-frontend-page](lightfriend-add-frontend-page/) | majiayu000 | ★ 0 | 41% | L3 | Step-by-step guide for adding new pages to the Yew frontend |
 | [android-use](android-use/) | NeverSight | ★ 0 | 41% | L3 | Control Android devices via ADB commands - tap, swipe, type, navigate apps |
@@ -5714,12 +5815,15 @@
 | [format-euler-code](format-euler-code/) | brucehart | ★ 0 | 38% | L2 | Enforce the Euler repository C++ formatting and style rules from AGENTS.md. Use … |
 | [fix-code](fix-code/) | raiich | ★ 0 | 38% | L2 | Properly fix code issues by following the quality assurance guidelines. Ensures … |
 | [praxis](praxis/) | originsec | ★ 0 | 38% | L3 | Interact with the Praxis C2 framework for orchestrating AI coding agents. Use wh… |
+| [python-fastapi-scalable-api-cursorrules-prompt-fil-cursorrules](python-fastapi-scalable-api-cursorrules-prompt-fil-cursorrules/) | Tryboy869 | ★ 0 | 38% | L2 | Apply for python-fastapi-scalable-api-cursorrules-prompt-fil. --- description: A… |
+| [plan-reduce-max-lines](plan-reduce-max-lines/) | CodySwannGT | ★ 0 | 38% | L3 | This skill should be used when reducing the maximum class/module lines threshold… |
 | [frontend](frontend/) | pluginagentmarketplace | ★ 0 | 37% | L3 | Frontend development skill - React, Vue, performance, accessibility |
 | [frontend-specialist](frontend-specialist/) | officebeats | ★ 0 | 37% | L2 | Master of UI/UX, React, TypeScript, and modern CSS. |
 | [api](api/) | pluginagentmarketplace | ★ 0 | 37% | L3 | API design skill - REST, GraphQL, gRPC, documentation |
 | [api-designer](api-designer/) | farabi1038 | ★ 0 | 37% | L2 | REST and GraphQL API design expert following best practices |
 | [backend](backend/) | pluginagentmarketplace | ★ 0 | 37% | L3 | Backend development skill - APIs, databases, authentication, caching |
 | [web-design-guidelines](web-design-guidelines/) | gensart-projs | ★ 0 | 37% | L2 | Review UI code for Web Interface Guidelines compliance. Use when asked |
+| [MATLAB离散点Hough变换直线检测](matlab-hough/) | ECNU-ICALK | ★ 0 | 37% | L2 | 实现离散点Hough变换算法，输入包含浮点数的坐标点，输出检测到的直线斜率和截距，不使用MATLAB自带函数 |
 | [prompt-generation-rules](prompt-generation-rules/) | oimiragieo | ★ 0 | 36% | L3 | General rules to generate prompt. |
 | [prompt-generation-rules](prompt-generation-rules/) | Finimo-Solutions | ★ 0 | 36% | L3 | General rules to generate prompt. |
 | [hive-mapping](hive-mapping/) | paralect | ★ 0 | 36% | L3 | Schema mappings for auto-syncing embedded documents |

@@ -1,10 +1,9 @@
 ---
 name: nestjs-expert
-description: "Nest.js framework expert specializing in module architecture, dependency injection, middleware, guards, interceptors, testing with Jest/Supertest, TypeORM/Mongoose integration, and Passport.js auth..."
+description: Nest.js framework expert specializing in module architecture, dependency injection, middleware, guards, interceptors, testing with Jest/Supertest, TypeORM/Mongoose integration, and Passport.js authentication. Use PROACTIVELY for any Nest.js application issues including architecture decisions, testing strategies, performance optimization, or debugging complex dependency injection problems. If a specialized expert is a better fit, I will recommend switching and stop.
 category: framework
-risk: unknown
-source: community
-date_added: "2026-02-27"
+displayName: Nest.js Framework Expert
+color: red
 ---
 
 # Nest.js Expert
@@ -551,6 +550,3 @@ export class ConfigModule {
 - ✅ Proper error handling implemented
 - ✅ Security best practices applied
 - ✅ Documentation updated for API changes
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.

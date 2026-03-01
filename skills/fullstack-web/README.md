@@ -1,9 +1,10 @@
 # 📂 fullstack-web
 
-> 112 skills in this category
+> 129 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
+| [templates](templates/) | sickn33 | ★ 17.3k | 88% | L3 | Project scaffolding templates for new applications. Use when creating new projec… |
 | [web-performance-optimization](web-performance-optimization/) | sickn33 | ★ 16.9k | 95% | L3 | Optimize website and web application performance including loading speed, Core W… |
 | [webapp-testing](webapp-testing/) | sickn33 | ★ 16.9k | 95% | L3 | Toolkit for interacting with and testing local web applications using Playwright… |
 | [webflow-automation](webflow-automation/) | sickn33 | ★ 16.9k | 95% | L3 | Automate Webflow CMS collections, site publishing, page management, asset upload… |
@@ -32,6 +33,10 @@
 | [context-optimization](context-optimization/) | sickn33 | ★ 16.7k | 91% | L3 | Apply compaction, masking, and caching strategies |
 | [ddd-context-mapping](ddd-context-mapping/) | sickn33 | ★ 16.7k | 88% | L2 | Map relationships between bounded contexts and define integration contracts usin… |
 | [development](development/) | sickn33 | ★ 15.4k | 98% | L3 | Comprehensive web, mobile, and backend development workflow bundling frontend, b… |
+| [agent-electron-pro](agent-electron-pro/) | majiayu000 | ★ 95 | 64% | L2 | Desktop application specialist building secure cross-platform solutions. Develop… |
+| [agent-mobile-app-developer](agent-mobile-app-developer/) | majiayu000 | ★ 95 | 64% | L2 | Expert mobile app developer specializing in native and cross-platform developmen… |
+| [agent-mobile-developer](agent-mobile-developer/) | majiayu000 | ★ 95 | 64% | L2 | Cross-platform mobile specialist building performant native experiences. Creates… |
+| [agent-websocket-engineer](agent-websocket-engineer/) | majiayu000 | ★ 95 | 64% | L2 | Real-time communication specialist implementing scalable WebSocket architectures… |
 | [adb-magisk-installer](adb-magisk-installer/) | majiayu000 | ★ 94 | 80% | L3 | Complete Magisk system installation - from initial app setup to full system inte… |
 | [add-member](add-member/) | majiayu000 | ★ 94 | 80% | L3 | Interactive guide for adding new lab members to the website. Gathers information… |
 | [adding-phases](adding-phases/) | majiayu000 | ★ 94 | 80% | L3 | Use this skill to add planned work discovered during execution to the end of the… |
@@ -52,6 +57,18 @@
 | [ai-daily-news](ai-daily-news/) | majiayu000 | ★ 2 | 64% | L3 | Fetches AI news from smol.ai RSS and generates structured markdown with intellig… |
 | [bio-alignment-filtering](bio-alignment-filtering/) | majiayu000 | ★ 2 | 64% | L3 | Filter alignments by flags, mapping quality, and regions using samtools view and… |
 | [alto-configure](alto-configure/) | majiayu000 | ★ 2 | 64% | L3 | Use when configuring ALTO settings including arbiter thresholds, permissions, or… |
+| [analyzing-websites](analyzing-websites/) | majiayu000 | ★ 2 | 64% | L2 | 既存ウェブサイトを分析し、サイトマップとワイヤーフレームを作成します。URLを渡すとページ構造を解析し、指定形式で出力します。コンテンツ分析機能でページの目的や… |
+| [android-stop-app](android-stop-app/) | majiayu000 | ★ 2 | 64% | L3 | Stop the Android app running on connected device. Cleanly terminates the app usi… |
+| [animator-traditional](animator-traditional/) | majiayu000 | ★ 2 | 64% | L2 | Use when creating hand-drawn or classical animation, working with frame-by-frame… |
+| [ant-design-mobile](ant-design-mobile/) | majiayu000 | ★ 2 | 64% | L2 | Provides comprehensive guidance for Ant Design Mobile component library includin… |
+| [anthropic-web-testing](anthropic-web-testing/) | majiayu000 | ★ 2 | 64% | L3 | Toolkit for interacting with and testing local web applications using Playwright… |
+| [anthropic-webapp-testing](anthropic-webapp-testing/) | majiayu000 | ★ 2 | 64% | L3 | Toolkit for interacting with and testing local web applications using Playwright… |
+| [3d-web-experience](3d-web-experience/) | majiayu000 | ★ 2 | 64% | L3 | Expert in building 3D experiences for the web - Three.js, React Three Fiber, Spl… |
+| [mobile-design](mobile-design/) | majiayu000 | ★ 2 | 64% | L2 | Mobile-first design and engineering doctrine for iOS and Android apps. Covers to… |
+| [scroll-experience](scroll-experience/) | majiayu000 | ★ 2 | 64% | L3 | Expert in building immersive scroll-driven experiences - parallax storytelling, … |
+| [telegram-mini-app](telegram-mini-app/) | majiayu000 | ★ 2 | 64% | L3 | Expert in building Telegram Mini Apps (TWA) - web apps that run inside Telegram … |
+| [android-app-icon](android-app-icon/) | majiayu000 | ★ 2 | 60% | L3 | Generate Android adaptive icons from Iconify's 200k+ open source icons |
+| [flutter-expert](flutter-expert/) | majiayu000 | ★ 2 | 60% | L2 | Master Flutter development with Dart 3, advanced widgets, and |
 | [alfworld-appliance-navigator](alfworld-appliance-navigator/) | majiayu000 | ★ 2 | 57% | L2 | This skill navigates the agent to a target appliance (like a microwave, stove, o… |
 | [alfworld-object-state-modifier](alfworld-object-state-modifier/) | majiayu000 | ★ 2 | 57% | L2 | This skill uses an appliance to change the state of an object (e.g., cooling, he… |
 | [alfworld-location-navigator](alfworld-location-navigator/) | majiayu000 | ★ 2 | 51% | L2 | Moves the agent to a specified receptacle or object location within the Alfworld… |
@@ -88,7 +105,6 @@
 | [flutter-expert](flutter-expert/) | itsimonfredlingjack | ★ 0 | 45% | L2 | Master Flutter development with Dart 3, advanced widgets, and multi-platform dep… |
 | [mobile-guide](mobile-guide/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive mobile development guide for iOS, Android, React Native, and Flutt… |
 | [mobile-developer](mobile-developer/) | sergioP1991 | ★ 0 | 45% | L2 | Develop React Native, Flutter, or native mobile apps with modern architecture pa… |
-| [android-stop-app](android-stop-app/) | majiayu000 | ★ 0 | 45% | L3 | Stop the Android app running on connected device. Cleanly terminates the app usi… |
 | [app-builder](app-builder/) | piriya33 | ★ 0 | 45% | L3 | Main application building orchestrator. Creates full-stack applications from nat… |
 | [recon-dir-scan](recon-dir-scan/) | crazyMarky | ★ 0 | 45% | L3 | Directory and file enumeration using ffuf, gobuster, dirsearch, and feroxbuster.… |
 | [flutter-dev](flutter-dev/) | calvingit | ★ 0 | 45% | L3 | Expert guidance for Flutter and Dart development. Use when building Flutter apps… |
@@ -106,6 +122,7 @@
 | [osx-review](osx-review/) | BoltzmannEntropy | ★ 0 | 45% | L3 | Use when preparing mobile/desktop apps for App Store submission, before final re… |
 | [bear](bear/) | majiayu000 | ★ 0 | 45% | L3 | Interacts with Bear note-taking app on macOS via X-Callback-URL. Use when user a… |
 | [bear](bear/) | eanair | ★ 0 | 45% | L3 | Interacts with Bear note-taking app on macOS via X-Callback-URL. Use when user a… |
+| [this-sample-workflow-execute-3-steps-in-sequence](this-sample-workflow-execute-3-steps-in-sequence/) | Tryboy869 | ★ 0 | 45% | L3 | Apply for this-sample-workflow-execute-3-steps-in-sequence. --- description: glo… |
 | [mobile](mobile/) | bulbulogludemir | ★ 0 | 44% | L3 | React Native, Expo, mobile apps. Auto-use for mobile work. |
 | [app-builder](app-builder/) | Dokhacgiakhoa | ★ 0 | 41% | L3 | Main application building orchestrator. |
 | [app-builder](app-builder/) | darthlinuxer | ★ 0 | 41% | L3 | Main application building orchestrator. Creates full-stack applications |

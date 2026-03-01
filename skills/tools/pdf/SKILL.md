@@ -1,15 +1,6 @@
 ---
 name: pdf
 description: Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.
-triggers:
-  - "pdf"
-  - "fill pdf form"
-  - "extract pdf"
-  - "merge pdf"
-  - "split pdf"
-  - ".pdf"
-allowed-tools: Read, Write, Edit, Bash, Glob
-version: 1.0.0
 license: Proprietary. LICENSE.txt has complete terms
 ---
 

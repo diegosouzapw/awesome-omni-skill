@@ -1,6 +1,6 @@
 # 📂 frontend
 
-> 339 skills in this category
+> 389 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -40,6 +40,10 @@
 | [algolia-search](algolia-search/) | sickn33 | ★ 16.7k | 88% | L3 | Expert patterns for Algolia search implementation, indexing strategies, React In… |
 | [cc-skill-project-guidelines-example](cc-skill-project-guidelines-example/) | sickn33 | ★ 16.7k | 88% | L3 | Project Guidelines Skill (Example) |
 | [react-nextjs-development](react-nextjs-development/) | sickn33 | ★ 15.5k | 98% | L3 | React and Next.js 14+ application development with App Router, Server Components… |
+| [agent-nextjs-developer](agent-nextjs-developer/) | majiayu000 | ★ 95 | 70% | L2 | Expert Next.js developer mastering Next.js 14+ with App Router and full-stack fe… |
+| [agentation](agentation/) | majiayu000 | ★ 95 | 66% | L3 | Add Agentation visual feedback toolbar to a Next.js project |
+| [agent-react-specialist](agent-react-specialist/) | majiayu000 | ★ 95 | 64% | L2 | Expert React specialist mastering React 18+ with modern patterns and ecosystem. … |
+| [agent-vue-expert](agent-vue-expert/) | majiayu000 | ★ 95 | 64% | L2 | Expert Vue specialist mastering Vue 3 with Composition API and ecosystem. Specia… |
 | [accessibility-engineer](accessibility-engineer/) | majiayu000 | ★ 94 | 77% | L2 | セマンティックHTML/JSXとWAI-ARIAを「最小で正しく」適用し、キーボード操作・スクリーンリーダ・コントラスト等を満たす実装を作るための判断軸。ネイテ… |
 | [adaptive-rejection-sampler](adaptive-rejection-sampler/) | majiayu000 | ★ 94 | 77% | L2 | Guidance for implementing adaptive rejection sampling (ARS) algorithms for gener… |
 | [add-bc-contract](add-bc-contract/) | majiayu000 | ★ 94 | 77% | L2 | Add Contract for inter-BC communication using Provider pattern. Use when one Bou… |
@@ -69,6 +73,8 @@
 | [Advanced React Clean Integration](advanced-react-clean-integration/) | majiayu000 | ★ 94 | 58% | L2 | Integrate React with clean architecture without framework leakage using hooks as… |
 | [ai-ad-spec-kit](ai-ad-spec-kit/) | majiayu000 | ★ 2 | 67% | L3 | <skill> <name>ai-ad-spec-kit</name> <version>1.0</version> <domain>AI_AD_SYSTEM … |
 | [ai-elements-chatbot](ai-elements-chatbot/) | majiayu000 | ★ 2 | 67% | L3 | shadcn/ui AI chat components for conversational interfaces. Use for streaming ch… |
+| [angular-architect](angular-architect/) | majiayu000 | ★ 2 | 67% | L2 | Use when building Angular 17+ applications with standalone components or signals… |
+| [angular-expert](angular-expert/) | majiayu000 | ★ 2 | 67% | L3 | Angular framework expert including components, services, RxJS, templates, and te… |
 | [frontend-design](frontend-design/) | majiayu000 | ★ 2 | 64% | L2 | Create distinctive, production-grade frontend interfaces with high design qualit… |
 | [ahooks](ahooks/) | majiayu000 | ★ 2 | 64% | L3 | Comprehensive ahooks React hooks library specialist. Expert in all 76+ ahooks ho… |
 | [ai-chapter-consolidate](ai-chapter-consolidate/) | majiayu000 | ★ 2 | 64% | L3 | Use AI to merge individual page HTML files into a unified chapter document. Crea… |
@@ -81,11 +87,51 @@
 | [aksel-spacing](aksel-spacing/) | majiayu000 | ★ 2 | 64% | L3 | Responsive layout patterns using Aksel spacing tokens with Box, VStack, HStack, … |
 | [alpine-js](alpine-js/) | majiayu000 | ★ 2 | 64% | L3 | Adds reactive and declarative behavior to HTML with minimal JavaScript using Alp… |
 | [analogjs-development](analogjs-development/) | majiayu000 | ★ 2 | 64% | L3 | Develop with Analogjs 2.x file-based routing, markdown content management, and S… |
+| [frontend-angular-api-service](frontend-angular-api-service/) | majiayu000 | ★ 2 | 64% | L3 | Use when creating API services for backend communication with proper patterns fo… |
+| [angular-component](angular-component/) | majiayu000 | ★ 2 | 64% | L3 | Create modern Angular standalone components following v20+ best practices. Use f… |
+| [angular-dependency-injection](angular-dependency-injection/) | majiayu000 | ★ 2 | 64% | L3 | Use when building modular Angular applications requiring dependency injection wi… |
+| [angular-developer](angular-developer/) | majiayu000 | ★ 2 | 64% | L3 | [Extends frontend-developer] Angular 21 specialist. Use for Angular-specific fea… |
+| [angular-di](angular-di/) | majiayu000 | ★ 2 | 64% | L3 | Implement dependency injection in Angular v20+ using inject(), injection tokens,… |
+| [angular-directives](angular-directives/) | majiayu000 | ★ 2 | 64% | L3 | Create custom directives in Angular v20+ for DOM manipulation and behavior exten… |
+| [frontend-angular-form](frontend-angular-form/) | majiayu000 | ★ 2 | 64% | L3 | Use when creating reactive forms with validation, async validators, dependent va… |
+| [angular-forms](angular-forms/) | majiayu000 | ★ 2 | 64% | L3 | Build signal-based forms in Angular v21+ using the new Signal Forms API. Use for… |
+| [angular-frontend](angular-frontend/) | majiayu000 | ★ 2 | 64% | L3 | Build and implement Angular 18 standalone components, TypeScript services with S… |
+| [angular-material](angular-material/) | majiayu000 | ★ 2 | 64% | L3 | Use when working with Angular Material components, theming, or styling. Triggers… |
+| [angular-migration](angular-migration/) | majiayu000 | ★ 2 | 64% | L3 | Migrate from AngularJS to Angular using hybrid mode, incremental component rewri… |
+| [angular-migration](angular-migration/) | majiayu000 | ★ 2 | 64% | L3 | Migrate from AngularJS to Angular using hybrid mode, incremental component rewri… |
+| [angular-modernization](angular-modernization/) | majiayu000 | ★ 2 | 64% | L3 | Modernizes Angular code such as components and directives to follow best practic… |
+| [angular-module-design](angular-module-design/) | majiayu000 | ★ 2 | 64% | L3 | Design Angular modules using feature modules, lazy loading, and dependency injec… |
+| [angular-router](angular-router/) | majiayu000 | ★ 2 | 64% | L3 | Angular Router for navigation, routing configuration, route guards, lazy loading… |
+| [angular-rxjs-patterns](angular-rxjs-patterns/) | majiayu000 | ★ 2 | 64% | L3 | Use when handling async operations in Angular applications with observables, ope… |
+| [angular-signals](angular-signals/) | majiayu000 | ★ 2 | 64% | L3 | Implement signal-based reactive state management in Angular v20+. Use for creati… |
+| [angular-ssr](angular-ssr/) | majiayu000 | ★ 2 | 64% | L3 | Implement server-side rendering and hydration in Angular v20+ using @angular/ssr… |
+| [frontend-angular-store](frontend-angular-store/) | majiayu000 | ★ 2 | 64% | L3 | Use when implementing state management with PlatformVmStore for complex componen… |
+| [angular-testing](angular-testing/) | majiayu000 | ★ 2 | 64% | L3 | Write unit and integration tests for Angular v21+ applications using Vitest or J… |
+| [angular-tooling](angular-tooling/) | majiayu000 | ★ 2 | 64% | L3 | Use Angular CLI and development tools effectively in Angular v20+ projects. Use … |
+| [angular-v21-development](angular-v21-development/) | majiayu000 | ★ 2 | 64% | L3 | Develop Angular v21 components, services, and directives with signals. Use when … |
+| [animate](animate/) | majiayu000 | ★ 2 | 64% | L2 | User interface animations and transitions. When Claude needs to create performan… |
+| [animation-interaction-validator](animation-interaction-validator/) | majiayu000 | ★ 2 | 64% | L2 | Ensures engaging user experience through validation of animations, transitions, … |
+| [animation-motion](animation-motion/) | majiayu000 | ★ 2 | 64% | L2 | Create smooth animations and micro-interactions with Framer Motion and CSS. Cove… |
+| [animation-motion](animation-motion/) | majiayu000 | ★ 2 | 64% | L3 | Create smooth animations and micro-interactions with Framer Motion and CSS. Cove… |
+| [animation](animation/) | majiayu000 | ★ 2 | 64% | L3 | Expert guidance for creating premium, performant animations in React using Motio… |
+| [animejs-v4](animejs-v4/) | majiayu000 | ★ 2 | 64% | L3 | Anime.js 4.0 animations for Web Components — drag-drop, click feedback, swaps, c… |
+| [anthropic-frontend-design](anthropic-frontend-design/) | majiayu000 | ★ 2 | 64% | L2 | Create distinctive, production-grade frontend interfaces with high design qualit… |
+| [anthropic-web-artifacts-builder](anthropic-web-artifacts-builder/) | majiayu000 | ★ 2 | 64% | L3 | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts … |
+| [anthropic-web-frontend-design](anthropic-web-frontend-design/) | majiayu000 | ★ 2 | 64% | L2 | Create distinctive, production-grade frontend interfaces with high design qualit… |
+| [d3-viz](d3-viz/) | majiayu000 | ★ 2 | 64% | L3 | Creating interactive data visualisations using d3.js. This skill should be used … |
+| [frontend-design](frontend-design/) | majiayu000 | ★ 2 | 64% | L2 | Create distinctive, production-grade frontend interfaces with intentional aesthe… |
+| [tailwind-patterns](tailwind-patterns/) | majiayu000 | ★ 2 | 64% | L3 | Tailwind CSS v4 principles. CSS-first configuration, container queries, modern p… |
+| [ui-ux-pro-max](ui-ux-pro-max/) | majiayu000 | ★ 2 | 64% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
+| [api-pattern](api-pattern/) | majiayu000 | ★ 2 | 64% | L2 | Provides Vue component structure templates for Composition API and Options API. … |
 | [ai-analyzer](ai-analyzer/) | majiayu000 | ★ 2 | 60% | L3 | AI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。 |
 | [ai-output-validator](ai-output-validator/) | majiayu000 | ★ 2 | 60% | L3 | AI出力の品質を自動検証するスキル。事実確認、論理性、一貫性、幻覚（ハルシネーション）検出、バイアス分析、安全性チェックを実施し、改善提案を提供。 |
+| [android-java](android-java/) | majiayu000 | ★ 2 | 60% | L2 | Android Java development with MVVM, ViewBinding, and Espresso testing |
 | [aio-seo](aio-seo/) | majiayu000 | ★ 2 | 57% | L3 | AI Search Engine Optimization。JSON-LD構造化データ、Schema.org、AIクローラー対応。ランディングページ、製品ページ… |
-| [agentation](agentation/) | majiayu000 | ★ 2 | 53% | L3 | Add Agentation visual feedback toolbar to a Next.js project |
+| [angular](angular/) | majiayu000 | ★ 2 | 57% | L2 | Angular is opinionated and comprehensive - it gives you everything: routing, for… |
 | [alfworld-object-locator](alfworld-object-locator/) | majiayu000 | ★ 2 | 51% | L2 | This skill scans the current environment observation to identify the presence an… |
+| [api-fetch-with-auth](api-fetch-with-auth/) | majiayu000 | ★ 2 | 47% | L2 | Create authenticated API fetch function in Next.js. Use for frontend API calls. |
+| [angular-component-generator](angular-component-generator/) | majiayu000 | ★ 2 | 45% | L2 | Generate Angular components with TypeScript, templates, and styles. Triggers on … |
+| [ant-design-vue](ant-design-vue/) | majiayu000 | ★ 2 | 45% | L2 | Provides comprehensive guidance for Ant Design Vue component library including c… |
 | [accessibility-engineer](accessibility-engineer/) | majiayu000 | ★ 1 | 62% | L2 | セマンティックHTML/JSXとWAI-ARIAを「最小で正しく」適用し、キーボード操作・スクリーンリーダ・コントラスト等を満たす実装を作るための判断軸。ネイテ… |
 | [frontend-design](frontend-design/) | rafaelramosdf | ★ 0 | 59% | L2 | Crie interfaces frontend distintas e de nível de produção com alta qualidade de … |
 | [web-artifacts-builder](web-artifacts-builder/) | rafaelramosdf | ★ 0 | 59% | L3 | Conjunto de ferramentas para criar artefatos HTML claude.ai elaborados e multi-c… |
@@ -228,7 +274,6 @@
 | [ui-ux-pro-max](ui-ux-pro-max/) | NeverSight | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
 | [ui-ux-pro-max](ui-ux-pro-max/) | NeverSight | ★ 0 | 45% | L3 | Use when designing, building, or refining frontend UI/UX: layouts, components, v… |
 | [ui-ux-pro-max](ui-ux-pro-max/) | AndyMarigoldLabs | ★ 0 | 45% | L3 | UI/UX design intelligence. 67 styles, 96 palettes, 56 font pairings, 25 charts, … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | NeverSight | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
 | [ui-ux-pro-max](ui-ux-pro-max/) | ccmilu | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
 | [ui-ux-pro-max](ui-ux-pro-max/) | huynhyohan-ops | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
 | [ui-ux-pro-max](ui-ux-pro-max/) | NeverSight | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
@@ -295,6 +340,7 @@
 | [nuxt-ui](nuxt-ui/) | hk-vk | ★ 0 | 45% | L3 | A comprehensive Vue UI component library (Nuxt optional) with 125+ accessible, p… |
 | [react-fluent-ui-patterns](react-fluent-ui-patterns/) | MaxBush6299 | ★ 0 | 45% | L3 | Skill for React TypeScript frontend development with Fluent UI Copilot component… |
 | [marimo](marimo/) | maragudk | ★ 0 | 45% | L3 | Guide for creating and working with marimo notebooks, the reactive Python notebo… |
+| [blong-layer](blong-layer/) | feasibleone | ★ 0 | 45% | L3 | Organize handlers into named functional groups within a Blong realm. Layers incl… |
 | [frontend-nuxt](frontend-nuxt/) | ydnikolaev | ★ 0 | 44% | L3 | Nuxt 4 & TailwindCSS expert for modern web applications (SSR, SPA, Hybrid). |
 | [passwordless-docs](passwordless-docs/) | majiayu000 | ★ 0 | 44% | L3 | Bitwarden Passwordless.dev documentation, SDKs, and React examples |
 | [marp-pitch-creator](marp-pitch-creator/) | NextMed-main | ★ 0 | 44% | L2 | Create high-quality pitch decks using Marp and Tailwind CSS |
@@ -330,6 +376,9 @@
 | [tailwind-css](tailwind-css/) | majiayu000 | ★ 0 | 38% | L2 | Tailwind CSS changed how we write styles. Instead of naming things and writing C… |
 | [frontend-design](frontend-design/) | majiayu000 | ★ 0 | 38% | L2 | Create distinctive, production-grade frontend interfaces with high design qualit… |
 | [frontend-layout](frontend-layout/) | Abeersk | ★ 0 | 38% | L2 | Build responsive pages, components, and layouts with proper styling. Use for web… |
+| [nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file-cursorrules](nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file-cursorrules/) | Tryboy869 | ★ 0 | 38% | L3 | Apply for nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file. --- descri… |
+| [angular-typescript-cursorrules-prompt-file-cursorrules](angular-typescript-cursorrules-prompt-file-cursorrules/) | Tryboy869 | ★ 0 | 38% | L3 | Apply for angular-typescript-cursorrules-prompt-file. --- description: General r… |
+| [vue-3-nuxt-3-development-cursorrules-prompt-file-cursorrules](vue-3-nuxt-3-development-cursorrules-prompt-file-cursorrules/) | Tryboy869 | ★ 0 | 38% | L3 | Apply for vue-3-nuxt-3-development-cursorrules-prompt-file. --- description: App… |
 | [长列表虚拟滚动优化方案](unnamed/) | majiayu000 | ★ 0 | 34% | L2 | 处理超过 1000 条数据的大型列表渲染时的性能优化方案，包含定高和不定高两种策略。 |
 | [长列表虚拟滚动优化方案](unnamed/) | majiayu000 | ★ 0 | 34% | L2 | 处理超过 1000 条数据的大型列表渲染时的性能优化方案，包含定高和不定高两种策略。 |
 | [Skill Synchronizer](skill-synchronizer/) | majiayu000 | ★ 0 | 34% | L2 | Lee los metadatos de todas las skills y actualiza el índice en AGENTS.md. |
@@ -342,6 +391,7 @@
 | [frontend-component](frontend-component/) | majiayu000 | ★ 0 | 28% | L3 | Create React components following project standards. |
 | [angular-best-practices-transloco](angular-best-practices-transloco/) | NeverSight | ★ 0 | 27% | L3 | Transloco i18n best practices for Angular. Install alongside angular-best-practi… |
 | [angular-best-practices-spartan](angular-best-practices-spartan/) | NeverSight | ★ 0 | 27% | L3 | Spartan UI (shadcn for Angular) best practices. Install alongside angular-best-p… |
+| [softskill](softskill/) | majiayu000 | ★ 0 | 26% | L2 | <div > <ul class="posts"> {% for post in site.posts %} {% if post.categories con… |
 | [angular-v17](angular-v17/) | GoldenPanda1104 | ★ 0 | 24% | L2 | Angular 17. Proyecto usa este skill; contenido canónico en .ai-system. |
 
 ---

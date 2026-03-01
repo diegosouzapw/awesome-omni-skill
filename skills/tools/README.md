@@ -1,6 +1,6 @@
 # 📂 tools
 
-> 2,348 skills in this category
+> 2,393 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -724,7 +724,6 @@
 | [monorepo-architect](monorepo-architect/) | sickn33 | ★ 15.5k | 88% | L2 | Expert in monorepo architecture, build systems, and dependency management at sca… |
 | [hybrid-search-implementation](hybrid-search-implementation/) | sickn33 | ★ 15.5k | 82% | L2 | Combine vector and keyword search for improved retrieval. Use when implementing … |
 | [monorepo-management](monorepo-management/) | sickn33 | ★ 15.5k | 82% | L2 | Master monorepo management with Turborepo, Nx, and pnpm workspaces to build effi… |
-| [bevy-ecs-expert](bevy-ecs-expert/) | sickn33 | ★ 15.4k | 95% | L2 | Master Bevy's Entity Component System (ECS) in Rust, covering Systems, Queries, … |
 | [convertkit-automation](convertkit-automation/) | sickn33 | ★ 15.4k | 95% | L2 | Automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tag… |
 | [defi-protocol-templates](defi-protocol-templates/) | sickn33 | ★ 15.4k | 95% | L2 | Implement DeFi protocols with production-ready templates for staking, AMMs, gove… |
 | [docusign-automation](docusign-automation/) | sickn33 | ★ 15.4k | 95% | L2 | Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signature… |
@@ -782,6 +781,24 @@
 | [clarity-gate](clarity-gate/) | sickn33 | ★ 15.4k | 82% | L2 | Pre-ingestion verification for epistemic quality in RAG systems with 9-point ver… |
 | [claude-speed-reader](claude-speed-reader/) | sickn33 | ★ 15.4k | 82% | L2 | -Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP high… |
 | [claude-win11-speckit-update-skill](claude-win11-speckit-update-skill/) | sickn33 | ★ 15.4k | 69% | L2 | Windows 11 system management |
+| [agent-ops-build](agent-ops-build/) | majiayu000 | ★ 95 | 77% | L3 | Language-aware build orchestration that detects project language and runs approp… |
+| [agent-ops-create-python-project](agent-ops-create-python-project/) | majiayu000 | ★ 95 | 77% | L3 | Create a plan and issues for implementation of a production-ready Python project… |
+| [agent-ops-debugging](agent-ops-debugging/) | majiayu000 | ★ 95 | 77% | L3 | Systematic debugging approaches for isolating and fixing software defects. Use w… |
+| [agent-ops-dependencies](agent-ops-dependencies/) | majiayu000 | ★ 95 | 77% | L3 | Dependency management, updates, and security advisory handling. Use when adding,… |
+| [agent-ops-guide](agent-ops-guide/) | majiayu000 | ★ 95 | 77% | L2 | Interactive workflow guide. Use when user is unsure what to do next, needs help … |
+| [agent-ops-idea](agent-ops-idea/) | majiayu000 | ★ 95 | 77% | L2 | Capture loosely structured ideas, enrich with research, and create backlog issue… |
+| [agent-ops-interview](agent-ops-interview/) | majiayu000 | ★ 95 | 77% | L2 | Conduct structured interviews with the user. Use when multiple decisions need us… |
+| [agent-ops-planning](agent-ops-planning/) | majiayu000 | ★ 95 | 77% | L3 | Produce a thorough plan before implementation. Use for planning tasks: clarify u… |
+| [prove-your-worth](prove-your-worth/) | majiayu000 | ★ 95 | 77% | L3 | Ruthlessly audit project features for justification. Challenge every feature to … |
+| [agent-ops-tools](agent-ops-tools/) | majiayu000 | ★ 95 | 77% | L3 | Detect available development tools at session start. Saves to .agent/tools.json … |
+| [AgentDB Learning Plugins](agentdb-learning-plugins/) | majiayu000 | ★ 95 | 77% | L3 | Create and train AI learning plugins with AgentDB's 9 reinforcement learning alg… |
+| [agentic-jumpstart-performance](agentic-jumpstart-performance/) | majiayu000 | ★ 95 | 77% | L2 | Performance optimization guidelines for Rust CLI tools. Covers efficient command… |
+| [agent-guidelines](agent-guidelines/) | majiayu000 | ★ 95 | 70% | L3 | When you need to understand the project's core mandate, operational rules, or "C… |
+| [agent-ide](agent-ide/) | majiayu000 | ★ 95 | 66% | L3 | TS/JS 程式碼智能重構工具。重命名、移動檔案、清理 dead code、修改函式簽章時自動更新所有引用。 |
+| [agent-dx-optimizer](agent-dx-optimizer/) | majiayu000 | ★ 95 | 64% | L2 | Expert developer experience optimizer specializing in build performance, tooling… |
+| [agent-market-researcher](agent-market-researcher/) | majiayu000 | ★ 95 | 64% | L2 | Expert market researcher specializing in market analysis, consumer insights, and… |
+| [agent-sre-engineer](agent-sre-engineer/) | majiayu000 | ★ 95 | 64% | L2 | Expert Site Reliability Engineer balancing feature velocity with system stabilit… |
+| [agent-tooling-engineer](agent-tooling-engineer/) | majiayu000 | ★ 95 | 64% | L2 | Expert tooling engineer specializing in developer tool creation, CLI development… |
 | [acf-block-registration](acf-block-registration/) | majiayu000 | ★ 94 | 80% | L3 | Guide for creating ACF PRO blocks with field groups in Oh My Brand! FSE theme. U… |
 | [open-eth-terminal-action-generator](open-eth-terminal-action-generator/) | majiayu000 | ★ 94 | 80% | L3 | You are an expert action generator for the open-eth-terminal application. Your g… |
 | [adb-builder](adb-builder/) | majiayu000 | ★ 94 | 80% | L3 | **Tier**: Tier 0 (Meta-Generation Framework) **Purpose**: Automated scaffolding … |
@@ -933,6 +950,14 @@
 | [agent-client-protocol](agent-client-protocol/) | majiayu000 | ★ 2 | 67% | L3 | Agent Client Protocol (ACP) - Standardized communication between code editors an… |
 | [ai-tool-assessment](ai-tool-assessment/) | majiayu000 | ★ 2 | 67% | L3 | Assess and report on AI tool subscriptions, usage patterns, and cost-effectivene… |
 | [analyzing-component-quality](analyzing-component-quality/) | majiayu000 | ★ 2 | 67% | L3 | Expert at analyzing the quality and effectiveness of Claude Code components (age… |
+| [analyzing-system-throughput](analyzing-system-throughput/) | majiayu000 | ★ 2 | 67% | L2 | Analyze and optimize system throughput including request handling, data processi… |
+| [android-playstore-scan](android-playstore-scan/) | majiayu000 | ★ 2 | 67% | L3 | Scan Android project and generate Play Console setup checklist (analysis only, n… |
+| [android-release-build-setup](android-release-build-setup/) | majiayu000 | ★ 2 | 67% | L3 | Complete Android release build configuration - orchestrates keystore, ProGuard, … |
+| [android-release-validation](android-release-validation/) | majiayu000 | ★ 2 | 67% | L3 | Validate Android release builds before publishing to ensure quality and catch Pr… |
+| [android-release](android-release/) | majiayu000 | ★ 2 | 67% | L3 | App signing, bundling, and Play Store deployment automation. Use when signing AP… |
+| [android-signing-config](android-signing-config/) | majiayu000 | ★ 2 | 67% | L3 | Configure Android release build signing with dual-source credentials (env vars +… |
+| [planning-with-files](planning-with-files/) | majiayu000 | ★ 2 | 67% | L3 | Implements Manus-style file-based planning for complex tasks. Creates task_plan.… |
+| [Red Team Tools and Methodology](red-team-tools-and-methodology/) | majiayu000 | ★ 2 | 67% | L3 | This skill should be used when the user asks to "follow red team methodology", "… |
 | [Build Your Pipecat Skill](build-your-pipecat-skill/) | majiayu000 | ★ 2 | 64% | L3 | Create your Pipecat skill from official documentation, then learn to improve it … |
 | [second-brain](second-brain/) | majiayu000 | ★ 2 | 64% | L3 | Personal knowledge base powered by Ensue for capturing and retrieving understand… |
 | [identify](identify/) | majiayu000 | ★ 2 | 64% | L3 | Identify friction points, bottlenecks, bugs, and technical debt. Use for audits,… |
@@ -984,8 +1009,6 @@
 | [agent-tools](agent-tools/) | majiayu000 | ★ 2 | 64% | L3 | Reference for configuring tool permissions when launching Claude Code agents. Us… |
 | [mcp-builder](mcp-builder/) | majiayu000 | ★ 2 | 64% | L3 | Guide for creating high-quality MCP (Model Context Protocol) servers that enable… |
 | [Build Your Pipecat Skill](build-your-pipecat-skill/) | majiayu000 | ★ 2 | 64% | L3 | Create your Pipecat skill from official documentation, then learn to improve it … |
-| [AgentDB Learning Plugins](agentdb-learning-plugins/) | majiayu000 | ★ 2 | 64% | L3 | Create and train AI learning plugins with AgentDB's 9 reinforcement learning alg… |
-| [agentic-jumpstart-performance](agentic-jumpstart-performance/) | majiayu000 | ★ 2 | 64% | L2 | Performance optimization guidelines for Rust CLI tools. Covers efficient command… |
 | [ai-brand-kit](ai-brand-kit/) | majiayu000 | ★ 2 | 64% | L2 | Build comprehensive AI-native brand asset systems that maintain consistency acro… |
 | [ai-engineering-guide](ai-engineering-guide/) | majiayu000 | ★ 2 | 64% | L2 | Practical guide for building production ML systems based on Chip Huyen's AI Engi… |
 | [ai-image-tools](ai-image-tools/) | majiayu000 | ★ 2 | 64% | L3 | Generate and edit images using either OpenAI GPT Image 1.5 or Google's Nano Bana… |
@@ -1003,8 +1026,23 @@
 | [bio-epidemiological-genomics-amr-surveillance](bio-epidemiological-genomics-amr-surveillance/) | majiayu000 | ★ 2 | 64% | L3 | Detect and track antimicrobial resistance genes using AMRFinderPlus and ResFinde… |
 | [analysis-spec-builder](analysis-spec-builder/) | majiayu000 | ★ 2 | 64% | L2 | Build and iteratively refine physics analysis specifications using analysis-spec… |
 | [analyze-video-performance-skill](analyze-video-performance-skill/) | majiayu000 | ★ 2 | 64% | L3 | Analyze your uploaded YouTube videos' performance against competitor benchmarks … |
+| [anchor-project-scaffold](anchor-project-scaffold/) | majiayu000 | ★ 2 | 64% | L2 | Set up a production-ready Anchor workspace: program/client layout, env config, t… |
+| [angle-generator](angle-generator/) | majiayu000 | ★ 2 | 64% | L2 | Generate 10-20 ad angles for an offer using direct response principles and cross… |
+| [animating-advanced](animating-advanced/) | majiayu000 | ★ 2 | 64% | L3 | Creates Awwwards-level, high-performance animations using industry-standard tool… |
+| [anki-card-generator](anki-card-generator/) | majiayu000 | ★ 2 | 64% | L2 | 生成 Anki 闪卡，输出 simple-anki-sync 兼容格式。当用户说「生成 Anki 卡片」「做卡片」「帮我记忆」「做闪卡」「学习卡片」「背诵卡」「… |
+| [anki-card-generator](anki-card-generator/) | majiayu000 | ★ 2 | 64% | L3 | Generate and manage Anki flashcards in Markdown format. Trigger when user asks t… |
+| [anthropic-dev-tools-mcp-builder](anthropic-dev-tools-mcp-builder/) | majiayu000 | ★ 2 | 64% | L3 | Guide for creating high-quality MCP (Model Context Protocol) servers that enable… |
+| [anthropic-mcp-builder](anthropic-mcp-builder/) | majiayu000 | ★ 2 | 64% | L3 | Guide for creating high-quality MCP (Model Context Protocol) servers that enable… |
+| [slack-gif-creator](slack-gif-creator/) | majiayu000 | ★ 2 | 64% | L3 | Knowledge and utilities for creating animated GIFs optimized for Slack. Provides… |
+| [anthropic-slack-gif-creator](anthropic-slack-gif-creator/) | majiayu000 | ★ 2 | 64% | L3 | Knowledge and utilities for creating animated GIFs optimized for Slack. Provides… |
+| [anthropic-theme-factory](anthropic-theme-factory/) | majiayu000 | ★ 2 | 64% | L2 | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs,… |
+| [copy-editing](copy-editing/) | majiayu000 | ★ 2 | 64% | L2 | When the user wants to edit, review, or improve existing marketing copy. Also us… |
+| [nft-standards](nft-standards/) | majiayu000 | ★ 2 | 64% | L3 | Implement NFT standards (ERC-721, ERC-1155) with proper metadata handling, minti… |
+| [pdf](pdf/) | majiayu000 | ★ 2 | 64% | L3 | Comprehensive PDF manipulation toolkit for extracting text and tables, creating … |
+| [aot-guru](aot-guru/) | majiayu000 | ★ 2 | 64% | L3 | Specialized Native AOT, trimming, and optimization expert for morphir-dotnet. Ex… |
 | [adb-skill-generator](adb-skill-generator/) | majiayu000 | ★ 2 | 63% | L3 | Meta-tool for rapid adb-* skill creation from templates |
 | [ai-runtime-toolkit](ai-runtime-toolkit/) | majiayu000 | ★ 2 | 63% | L3 | AI Runtime工具装备系统，支持8个内部专业工具和10+个外部CLI工具的整合管理，提供工具发现、执行和配置功能，遵循整合优于创造的设计理念 |
+| [android-proguard-setup](android-proguard-setup/) | majiayu000 | ★ 2 | 63% | L3 | Configure ProGuard/R8 for Android release builds with safe defaults |
 | [additional-htmx-and-flask-instructions](additional-htmx-and-flask-instructions/) | majiayu000 | ★ 2 | 62% | L3 | Provides additional instructions for HTMX and Flask, primarily related to templa… |
 | [3d-games](3d-games/) | majiayu000 | ★ 2 | 60% | L2 | 3D game development principles. Rendering, shaders, physics, cameras. |
 | [add-deferred-debt](add-deferred-debt/) | majiayu000 | ★ 2 | 60% | L3 | Add deferred technical debt items identified during PR review |
@@ -1016,6 +1054,10 @@
 | [analytic-functions](analytic-functions/) | majiayu000 | ★ 2 | 60% | L3 | Problem-solving strategies for analytic functions in complex analysis |
 | [analytics-dashboard-generator](analytics-dashboard-generator/) | majiayu000 | ★ 2 | 60% | L2 | Create dashboards with KPIs and real-time metrics. |
 | [analyze-copper-inventory-rebuild-signal](analyze-copper-inventory-rebuild-signal/) | majiayu000 | ★ 2 | 60% | L3 | 用「庫存快速回補」作為短期警戒訊號，評估銅價是否接近短線高點，同時給出一個「長期是否偏便宜」的歷史分位數判讀。 |
+| [dx-optimizer](dx-optimizer/) | majiayu000 | ★ 2 | 60% | L2 | Developer Experience specialist. Improves tooling, setup, and |
+| [julia-pro](julia-pro/) | majiayu000 | ★ 2 | 60% | L2 | Master Julia 1.10+ with modern features, performance optimization, |
+| [antlr4-dev](antlr4-dev/) | majiayu000 | ★ 2 | 60% | L3 | ANTLR4前端开发专家，专注于词法/语法分析、AST构建、访问者模式。 |
+| [apex-evolve](apex-evolve/) | majiayu000 | ★ 2 | 60% | L2 | Build and maintain apex articles—human-readable synthesis pieces. |
 | [1password](1password/) | majiayu000 | ★ 2 | 57% | L3 | Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop… |
 | [add-fish-alias](add-fish-alias/) | majiayu000 | ★ 2 | 57% | L3 | Use when creating a new fish shell alias, function, or command shortcut, or when… |
 | [add-mcp-primitive](add-mcp-primitive/) | majiayu000 | ★ 2 | 57% | L3 | Add new MCP primitives (Tool, Resource, Prompt). Use when asked to add a new too… |
@@ -1032,6 +1074,9 @@
 | [advocate-sourcing](advocate-sourcing/) | majiayu000 | ★ 2 | 53% | L2 | Use to identify, score, and prioritize customer advocates for programs. |
 | [agent-ide](agent-ide/) | majiayu000 | ★ 2 | 53% | L3 | TS/JS 程式碼智能重構工具。重命名、移動檔案、清理 dead code、修改函式簽章時自動更新所有引用。 |
 | [ai-testcase-generator-mcp](ai-testcase-generator-mcp/) | majiayu000 | ★ 2 | 53% | L2 | GitHub repository skill for Mallikarjun-Roddannavar/ai-testcase-generator-mcp |
+| [quant-analyst](quant-analyst/) | majiayu000 | ★ 2 | 53% | L2 | Build financial models, backtest trading strategies, and analyze |
+| [risk-manager](risk-manager/) | majiayu000 | ★ 2 | 53% | L2 | Monitor portfolio risk, R-multiples, and position limits. Creates |
+| [anywidget-marimo](anywidget-marimo/) | majiayu000 | ★ 2 | 53% | L2 | Toolkit for generating custom widgets from scratch for Marimo. |
 | [add-check](add-check/) | majiayu000 | ★ 2 | 51% | L2 | Add a new code quality check to CI, justfile, and pre-commit hooks. Use when add… |
 | [aesthetic-critic-historian](aesthetic-critic-historian/) | majiayu000 | ★ 2 | 51% | L2 | [Aesthetics] Positions aesthetics within art/design history, identifies what tra… |
 | [agent-build-engineer](agent-build-engineer/) | majiayu000 | ★ 2 | 51% | L2 | Expert build engineer specializing in build system optimization, compilation str… |
@@ -2044,7 +2089,6 @@
 | [create-spec](create-spec/) | sequenzia | ★ 0 | 45% | L3 | Optional context — a file path (.md, .txt) to read or inline text describing wha… |
 | [uv-priority](uv-priority/) | openclaw | ★ 0 | 45% | L3 | Prioritize uv over pip for all Python package management and execution. When run… |
 | [ralph-prompt-builder](ralph-prompt-builder/) | adaptationio | ★ 0 | 45% | L3 | Master orchestrator for generating Ralph Wiggum-compatible prompts. Analyzes tas… |
-| [animating-advanced](animating-advanced/) | majiayu000 | ★ 0 | 45% | L3 | Creates Awwwards-level, high-performance animations using industry-standard tool… |
 | [babel-config](babel-config/) | majiayu000 | ★ 0 | 45% | L3 | Generates Babel configuration for JavaScript transpilation in tests. Creates bab… |
 | [u08009-creative-ideation-facilitation-for-family-caregiving-systems](u08009-creative-ideation-facilitation-for-family-caregiving-systems/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Creative Ideation Facilitation for family caregiving systems" capab… |
 | [mess-mcp](mess-mcp/) | teaguesterling | ★ 0 | 45% | L3 | MCP server tools for creating and managing MESS physical-world task requests. Pr… |
@@ -2211,6 +2255,7 @@
 | [HexCore Binary Analysis](hexcore-binary-analysis/) | AkashaCorporation | ★ 0 | 41% | L3 | Skill para analise de binarios com ferramentas HexCore integradas ao editor |
 | [6-build-instructions](6-build-instructions/) | majiayu000 | ★ 0 | 41% | L3 | Final step in building instruction context for codebase |
 | [behavioral-modes](behavioral-modes/) | Dokhacgiakhoa | ★ 0 | 41% | L2 | AI operational modes (brainstorm, implement, debug, review, teach, ship, orchest… |
+| [Generate multilingual sentences with contextual definitions](generate-multilingual-sentences-with-contextual-definitions/) | ECNU-ICALK | ★ 0 | 41% | L2 | Generates a set of sentences using a specific target word with varying meanings,… |
 | [jj-vcs-workflow](jj-vcs-workflow/) | UtakataKyosui | ★ 0 | 40% | L2 | Jujutsu (jj) VCS の総合ガイド。基本コマンド・Git移行・並列開発・履歴操作・PRレビュー・安全な push ワークフローをカバー。以下の場合に… |
 | [Incident Response](incident-response/) | cdalsoniii | ★ 0 | 39% | L2 | Guide structured incident response following severity-based protocols |
 | [pca-skill-manager](pca-skill-manager/) | majiayu000 | ★ 0 | 38% | L3 | Acelera a criacao e manutencao de skills do Claude. Automatiza o scaffolding de … |
