@@ -1,10 +1,10 @@
-# 🌐 Awesome OmniSkill — 17.4k+ Agent Skills
+# 🌐 Awesome OmniSkill — 11.2k+ Agent Skills
 
 > The largest curated collection of SKILL.md-compatible agent skills for Claude Code, Gemini CLI, Cursor, Copilot, and more.
 > Auto-synced from [OmniSkill Registry](https://omni-skill-registry.omniroute.online).
 
-[![Skills](https://img.shields.io/badge/skills-17448-blue)]()
-[![Repos](https://img.shields.io/badge/repos-4171-purple)]()
+[![Skills](https://img.shields.io/badge/skills-11200-blue)]()
+[![Repos](https://img.shields.io/badge/repos-2031-purple)]()
 [![Categories](https://img.shields.io/badge/categories-18-green)]()
 [![Auto-Sync](https://img.shields.io/badge/sync-every%206h-orange)]()
 [![Registry](https://img.shields.io/badge/browse-OmniSkill%20Registry-red)](https://omni-skill-registry.omniroute.online)
@@ -15,8 +15,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **17,448** |
-| Source Repositories | **4,171** |
+| Total Skills | **11,200** |
+| Source Repositories | **2,031** |
 | Categories | **18** |
 | Last Sync | 2026-03-01 |
 
@@ -26,24 +26,24 @@
 
 | Category | Skills | Highlights |
 |----------|--------|------------|
-| [development](skills/development/) | 6,023 | Top: microsoft/vscode (★182.1k) |
-| [tools](skills/tools/) | 2,393 | Top: microsoft/vscode (★182.0k) |
-| [data-ai](skills/data-ai/) | 2,041 | Top: microsoft/vscode (★182.0k) |
-| [devops](skills/devops/) | 1,302 | Top: microsoft/vscode (★182.0k) |
-| [backend](skills/backend/) | 1,028 | Top: sickn33/antigravity-awesome-skills (★17.3k) |
-| [ai-agents](skills/ai-agents/) | 842 | Top: sickn33/antigravity-awesome-skills (★17.3k) |
-| [testing-security](skills/testing-security/) | 838 | Top: microsoft/vscode (★182.0k) |
-| [design](skills/design/) | 676 | Top: microsoft/vscode (★182.0k) |
-| [cli-automation](skills/cli-automation/) | 551 | Top: ComposioHQ/awesome-claude-skills (★37.3k) |
-| [frontend](skills/frontend/) | 389 | Top: sickn33/antigravity-awesome-skills (★16.9k) |
-| [documentation](skills/documentation/) | 371 | Top: ComposioHQ/awesome-claude-skills (★37.3k) |
-| [product](skills/product/) | 295 | Top: ComposioHQ/awesome-claude-skills (★37.7k) |
-| [business](skills/business/) | 248 | Top: ComposioHQ/awesome-claude-skills (★37.7k) |
-| [content-media](skills/content-media/) | 202 | Top: ComposioHQ/awesome-claude-skills (★37.7k) |
-| [fullstack-web](skills/fullstack-web/) | 129 | Top: sickn33/antigravity-awesome-skills (★17.3k) |
-| [machine-learning](skills/machine-learning/) | 67 | Top: sickn33/antigravity-awesome-skills (★16.8k) |
-| [communication](skills/communication/) | 50 | Top: sickn33/antigravity-awesome-skills (★16.8k) |
-| [uncategorized](skills/uncategorized/) | 3 | Top: majiayu000/claude-skill-registry-data (★2) |
+| [development](skills/development/) | 3,779 | Top: microsoft/vscode (★182.1k) |
+| [tools](skills/tools/) | 1,655 | Top: microsoft/vscode (★182.0k) |
+| [data-ai](skills/data-ai/) | 1,250 | Top: microsoft/vscode (★182.0k) |
+| [devops](skills/devops/) | 865 | Top: microsoft/vscode (★182.0k) |
+| [backend](skills/backend/) | 638 | Top: sickn33/antigravity-awesome-skills (★17.5k) |
+| [ai-agents](skills/ai-agents/) | 572 | Top: sickn33/antigravity-awesome-skills (★17.5k) |
+| [testing-security](skills/testing-security/) | 558 | Top: microsoft/vscode (★182.0k) |
+| [design](skills/design/) | 443 | Top: microsoft/vscode (★182.0k) |
+| [cli-automation](skills/cli-automation/) | 340 | Top: ComposioHQ/awesome-claude-skills (★37.3k) |
+| [business](skills/business/) | 214 | Top: ComposioHQ/awesome-claude-skills (★37.7k) |
+| [documentation](skills/documentation/) | 199 | Top: ComposioHQ/awesome-claude-skills (★37.3k) |
+| [frontend](skills/frontend/) | 199 | Top: sickn33/antigravity-awesome-skills (★17.5k) |
+| [product](skills/product/) | 169 | Top: ComposioHQ/awesome-claude-skills (★37.7k) |
+| [content-media](skills/content-media/) | 143 | Top: ComposioHQ/awesome-claude-skills (★37.7k) |
+| [fullstack-web](skills/fullstack-web/) | 96 | Top: sickn33/antigravity-awesome-skills (★17.5k) |
+| [machine-learning](skills/machine-learning/) | 47 | Top: sickn33/antigravity-awesome-skills (★17.5k) |
+| [communication](skills/communication/) | 32 | Top: sickn33/antigravity-awesome-skills (★16.8k) |
+| [uncategorized](skills/uncategorized/) | 1 | Top: majiayu000/claude-skill-registry-data (★2) |
 
 ---
 
@@ -98,7 +98,7 @@ Visit the [OmniSkill Registry](https://omni-skill-registry.omniroute.online) for
 
 ## 📖 Full Catalog
 
-See [CATALOG.md](CATALOG.md) for the complete alphabetical listing of all 17,448 skills.
+See [CATALOG.md](CATALOG.md) for the complete alphabetical listing of all 11,200 skills.
 
 ---
 

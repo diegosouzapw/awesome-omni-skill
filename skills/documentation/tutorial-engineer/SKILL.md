@@ -1,14 +1,9 @@
 ---
 name: tutorial-engineer
-description: |
-  Creates step-by-step tutorials and educational content from code.
-  Transforms complex concepts into progressive learning experiences with
-  hands-on examples. Use PROACTIVELY for onboarding guides, feature tutorials,
-  or concept explanations.
-metadata:
-  model: sonnet
+description: Creates step-by-step tutorials and educational content from code. Transforms complex concepts into progressive learning experiences with hands-on examples.
 risk: unknown
 source: community
+date_added: '2026-02-27'
 ---
 
 ## Use this skill when

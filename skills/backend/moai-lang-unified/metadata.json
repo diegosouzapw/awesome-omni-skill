@@ -7,7 +7,7 @@
   "repository_url": "https://github.com/mattnigh/skills_collection",
   "author": "mattnigh",
   "author_avatar": "https://github.com/mattnigh.png",
-  "file_path": "collection/rdmptv__AdbAutoPlayer__claude__skills__moai-lang-unified__SKILL.md",
+  "file_path": "collection/globalmsq__msq-relayer-service__claude__skills__moai-lang-unified__SKILL.md",
   "source": "github_code_search",
   "stars": 0,
   "quality_score": 48,
@@ -17,10 +17,10 @@
   "has_scripts": true,
   "has_extra_files": true,
   "downloads": 0,
-  "content_hash": "04e1e6209645e730716b792dc6d3ea4a5e4123e8c37d45a5e92cf34911b03956",
-  "indexed_at": "2026-02-28T06:53:35.904Z",
-  "synced_at": "2026-02-28T12:11:20.933Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/cc9ce131f0b2e0e73e2ff6ea44bac47212129075db68057c8df302dac0b0ca47",
-  "install_command": "mkdir -p .claude/skills/moai-lang-unified && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/rdmptv__AdbAutoPlayer__claude__skills__moai-lang-unified__SKILL.md/SKILL.md\" > .claude/skills/moai-lang-unified/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/rdmptv__AdbAutoPlayer__claude__skills__moai-lang-unified__SKILL.md/SKILL.md"
+  "content_hash": "e9c9c91e41369ea60fe8c91f2b82e135498fea9eaa2abacb63eb612a8b3f69e7",
+  "indexed_at": "2026-03-01T09:01:39.864Z",
+  "synced_at": "2026-03-01T12:11:47.653Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/4f68d68d16cef81351aa04439ce124bd16227a11d8da06069c7f415cfe58eb9c",
+  "install_command": "mkdir -p .claude/skills/moai-lang-unified && curl -sL \"https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/globalmsq__msq-relayer-service__claude__skills__moai-lang-unified__SKILL.md/SKILL.md\" > .claude/skills/moai-lang-unified/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/mattnigh/skills_collection/main/collection/globalmsq__msq-relayer-service__claude__skills__moai-lang-unified__SKILL.md/SKILL.md"
 }

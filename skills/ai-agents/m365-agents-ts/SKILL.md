@@ -1,12 +1,10 @@
 ---
 name: m365-agents-ts
-description: Microsoft 365 Agents SDK for TypeScript/Node.js. Build multichannel agents for Teams/M365/Copilot Studio with AgentApplication routing, Express hosting, streaming responses, and Copilot Studio client 
-category: AI & Agents
-source: antigravity
-tags: [javascript, typescript, node, api, mcp, ai, agent, gpt, workflow, template]
-url: https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/m365-agents-ts
+description: Microsoft 365 Agents SDK for TypeScript/Node.js.
+risk: unknown
+source: community
+date_added: '2026-02-27'
 ---
-
 
 # Microsoft 365 Agents SDK (TypeScript)
 
@@ -171,4 +169,18 @@ window.WebChat.renderWebChat({
 
 | File | Contents |
 | --- | --- |
-| references/acceptance-criteria.md | Import paths, hosting p
+| references/acceptance-criteria.md | Import paths, hosting pipeline, streaming, and Copilot Studio patterns |
+
+## Reference Links
+
+| Resource | URL |
+| --- | --- |
+| Microsoft 365 Agents SDK | https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/ |
+| JavaScript SDK overview | https://learn.microsoft.com/en-us/javascript/api/overview/agents-overview?view=agents-sdk-js-latest |
+| @microsoft/agents-hosting-express | https://learn.microsoft.com/en-us/javascript/api/%40microsoft/agents-hosting-express?view=agents-sdk-js-latest |
+| @microsoft/agents-copilotstudio-client | https://learn.microsoft.com/en-us/javascript/api/%40microsoft/agents-copilotstudio-client?view=agents-sdk-js-latest |
+| Integrate with Copilot Studio | https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/integrate-with-mcs |
+| GitHub samples | https://github.com/microsoft/Agents/tree/main/samples/nodejs |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

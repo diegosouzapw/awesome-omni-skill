@@ -1,6 +1,6 @@
 # 📂 business
 
-> 248 skills in this category
+> 214 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -34,13 +34,32 @@
 | [espocrm-automation](espocrm-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | Automate Espocrm tasks via Rube MCP (Composio). Always search tools first for cu… |
 | [FreshBooks Automation](freshbooks-automation/) | ComposioHQ | ★ 37.3k | 95% | L2 | FreshBooks Automation: manage businesses, projects, time tracking, and billing i… |
 | [invoice-organizer](invoice-organizer/) | ComposioHQ | ★ 37.3k | 95% | L3 | Automatically organizes invoices and receipts for tax preparation by reading mes… |
+| [market-sizing-analysis](market-sizing-analysis/) | sickn33 | ★ 17.5k | 95% | L2 | This skill should be used when the user asks to \\\"calculate TAM\\\", "determin… |
+| [programmatic-seo](programmatic-seo/) | sickn33 | ★ 17.5k | 95% | L2 | Design and evaluate programmatic SEO strategies for creating SEO-driven pages at… |
+| [seo-audit](seo-audit/) | sickn33 | ★ 17.5k | 95% | L2 | Diagnose and audit SEO issues affecting crawlability, indexation, rankings, and … |
+| [seo-cannibalization-detector](seo-cannibalization-detector/) | sickn33 | ★ 17.5k | 95% | L2 | Analyzes multiple provided pages to identify keyword overlap and potential canni… |
+| [seo-content-auditor](seo-content-auditor/) | sickn33 | ★ 17.5k | 95% | L2 | Analyzes provided content for quality, E-E-A-T signals, and SEO best practices. … |
+| [seo-fundamentals](seo-fundamentals/) | sickn33 | ★ 17.5k | 95% | L2 | Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations… |
+| [seo-meta-optimizer](seo-meta-optimizer/) | sickn33 | ★ 17.5k | 95% | L3 | Creates optimized meta titles, descriptions, and URL suggestions based on charac… |
+| [seo-structure-architect](seo-structure-architect/) | sickn33 | ★ 17.5k | 95% | L2 | Analyzes and optimizes content structure including header hierarchy, suggests sc… |
+| [startup-analyst](startup-analyst/) | sickn33 | ★ 17.5k | 95% | L2 | Expert startup business analyst specializing in market sizing, financial modelin… |
+| [startup-financial-modeling](startup-financial-modeling/) | sickn33 | ★ 17.5k | 95% | L2 | This skill should be used when the user asks to \\\"create financial projections… |
+| [seo-content-planner](seo-content-planner/) | sickn33 | ★ 17.5k | 91% | L2 | 'Creates comprehensive content outlines and topic clusters for SEO. |
+| [startup-business-analyst-business-case](startup-business-analyst-business-case/) | sickn33 | ★ 17.5k | 91% | L2 | 'Generate comprehensive investor-ready business case document with |
+| [startup-business-analyst-market-opportunity](startup-business-analyst-market-opportunity/) | sickn33 | ★ 17.5k | 91% | L2 | 'Generate comprehensive market opportunity analysis with TAM/SAM/SOM |
+| [sales-automator](sales-automator/) | sickn33 | ★ 17.5k | 84% | L2 | 'Draft cold emails, follow-ups, and proposal templates. Creates |
+| [startup-metrics-framework](startup-metrics-framework/) | sickn33 | ★ 17.5k | 82% | L2 | This skill should be used when the user asks about \\\"key startup metrics", "Sa… |
+| [azure-ai-textanalytics-py](azure-ai-textanalytics-py/) | sickn33 | ★ 17.4k | 95% | L3 | Azure AI Text Analytics SDK for sentiment analysis, entity recognition, key phra… |
+| [competitor-alternatives](competitor-alternatives/) | sickn33 | ★ 17.4k | 95% | L2 | When the user wants to create competitor comparison or alternative pages for SEO… |
+| [content-marketer](content-marketer/) | sickn33 | ★ 17.4k | 95% | L2 | Elite content marketing strategist specializing in AI-powered content creation, … |
+| [energy-procurement](energy-procurement/) | sickn33 | ★ 17.4k | 95% | L3 | Codified expertise for electricity and gas procurement, tariff optimisation, dem… |
+| [email-systems](email-systems/) | sickn33 | ★ 17.4k | 88% | L2 | Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet … |
 | [zoho-crm-automation](zoho-crm-automation/) | sickn33 | ★ 16.9k | 95% | L2 | Automate Zoho CRM tasks via Rube MCP (Composio): create/update records, search c… |
 | [marketing-ideas](marketing-ideas/) | sickn33 | ★ 16.7k | 95% | L2 | Provide proven marketing strategies and growth ideas for SaaS and software produ… |
 | [marketing-psychology](marketing-psychology/) | sickn33 | ★ 16.7k | 95% | L2 | Apply behavioral science and mental models to marketing decisions, prioritized u… |
 | [referral-program](referral-program/) | sickn33 | ★ 16.7k | 95% | L2 | When the user wants to create, optimize, or analyze a referral program, affiliat… |
 | [salesforce-automation](salesforce-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, op… |
 | [sendgrid-automation](sendgrid-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate SendGrid email operations including sending emails, managing contacts/l… |
-| [competitor-alternatives](competitor-alternatives/) | sickn33 | ★ 16.7k | 95% | L2 | When the user wants to create competitor comparison or alternative pages for SEO… |
 | [content-creator](content-creator/) | sickn33 | ★ 16.7k | 95% | L3 | Create SEO-optimized marketing content with consistent brand voice. Includes bra… |
 | [copy-editing](copy-editing/) | sickn33 | ★ 16.7k | 95% | L2 | When the user wants to edit, review, or improve existing marketing copy. Also us… |
 | [email-sequence](email-sequence/) | sickn33 | ★ 16.7k | 95% | L2 | When the user wants to create or optimize an email sequence, drip campaign, auto… |
@@ -48,7 +67,6 @@
 | [local-legal-seo-audit](local-legal-seo-audit/) | sickn33 | ★ 16.7k | 95% | L2 | Audit and improve local SEO for law firms, attorneys, forensic experts and legal… |
 | [mailchimp-automation](mailchimp-automation/) | sickn33 | ★ 16.7k | 95% | L2 | Automate Mailchimp email marketing including campaigns, audiences, subscribers, … |
 | [billing-automation](billing-automation/) | sickn33 | ★ 16.7k | 88% | L2 | Build automated billing systems for recurring payments, invoicing, subscription … |
-| [email-systems](email-systems/) | sickn33 | ★ 16.7k | 88% | L2 | Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet … |
 | [zoho-crm-automation](zoho-crm-automation/) | sickn33 | ★ 15.5k | 95% | L2 | Automate Zoho CRM tasks via Rube MCP (Composio): create/update records, search c… |
 | [referral-program](referral-program/) | sickn33 | ★ 15.5k | 95% | L2 | When the user wants to create, optimize, or analyze a referral program, affiliat… |
 | [salesforce-automation](salesforce-automation/) | sickn33 | ★ 15.5k | 95% | L2 | Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, op… |
@@ -200,58 +218,6 @@
 | [create-an-asset](create-an-asset/) | lohasle | ★ 0 | 45% | L3 | Generate tailored sales assets (landing pages, decks, one-pagers, workflow demos… |
 | [create-an-asset](create-an-asset/) | fergupa | ★ 0 | 45% | L3 | Generate tailored sales assets (landing pages, decks, one-pagers, workflow demos… |
 | [create-an-asset](create-an-asset/) | SKSDesignNew | ★ 0 | 45% | L3 | Generate tailored sales assets (landing pages, decks, one-pagers, workflow demos… |
-| [capsule_crm-automation](capsule_crm-automation/) | haniakrim21 | ★ 0 | 45% | L2 | Automate Capsule CRM tasks via Rube MCP (Composio): contacts, opportunities, cas… |
-| [capsule_crm-automation](capsule_crm-automation/) | boisenoise | ★ 0 | 45% | L2 | Automate Capsule CRM tasks via Rube MCP (Composio): contacts, opportunities, cas… |
-| [capsule_crm-automation](capsule_crm-automation/) | jarbitechture | ★ 0 | 45% | L2 | Automate Capsule CRM tasks via Rube MCP (Composio): contacts, opportunities, cas… |
-| [marketing-seo-complete](marketing-seo-complete/) | vasilyu1983 | ★ 0 | 45% | L3 | Use when running SEO audits, keyword research, content planning, or fixing techn… |
-| [GHL Reporting & Analytics](ghl-reporting-analytics/) | Justin322322 | ★ 0 | 45% | L2 | Guide for GoHighLevel dashboards and analytics — dashboard widgets, custom repor… |
-| [lead-research-assistant](lead-research-assistant/) | davepoon | ★ 0 | 45% | L2 | Identifies high-quality leads for your product or service by analyzing your busi… |
-| [Lead Research Assistant](lead-research-assistant/) | ChatAndBuild | ★ 0 | 45% | L2 | Identifies high-quality leads for your product or service by analyzing your busi… |
-| [cold-email](cold-email/) | inkeep | ★ 0 | 45% | L2 | Generate cold emails for B2B personas. Use when asked to write cold outreach, sa… |
-| [Capsule CRM Automation](capsule-crm-automation/) | haniakrim21 | ★ 0 | 45% | L2 | Automate Capsule CRM operations -- manage contacts (parties), run structured fil… |
-| [newsletter-curation](newsletter-curation/) | inference-sh | ★ 0 | 45% | L3 | Newsletter curation with content sourcing, editorial structure, and subscriber g… |
-| [u08872-ethical-dilemma-navigation-for-marketing-and-storytelling](u08872-ethical-dilemma-navigation-for-marketing-and-storytelling/) | zwright8 | ★ 0 | 45% | L2 | Build and operate the "Ethical Dilemma Navigation for marketing and storytelling… |
-| [u07820-attention-management-architecture-for-personal-finance-management](u07820-attention-management-architecture-for-personal-finance-management/) | zwright8 | ★ 0 | 45% | L2 | Build and operate the "Attention Management Architecture for personal finance ma… |
-| [u08871-ethical-dilemma-navigation-for-marketing-and-storytelling](u08871-ethical-dilemma-navigation-for-marketing-and-storytelling/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Ethical Dilemma Navigation for marketing and storytelling" capabili… |
-| [create-an-asset](create-an-asset/) | w95 | ★ 0 | 45% | L3 | Generate tailored sales assets (landing pages, decks, one-pagers, workflow demos… |
-| [analytics-tracking](analytics-tracking/) | jmead | ★ 0 | 45% | L3 | When the user wants to set up, improve, or audit analytics tracking and measurem… |
-| [hubspot-automation](hubspot-automation/) | DarkThreat74 | ★ 0 | 45% | L2 | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties… |
-| [hubspot-automation](hubspot-automation/) | boisenoise | ★ 0 | 45% | L2 | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties… |
-| [hubspot-automation](hubspot-automation/) | javiertarazon | ★ 0 | 45% | L2 | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties… |
-| [seo-content-optimizer](seo-content-optimizer/) | benjaminreder | ★ 0 | 45% | L3 | Analysiert und optimiert bestehende Ratgeber-Artikel durch DataForSEO-Analyse mi… |
-| [edocode-monthly-accounting](edocode-monthly-accounting/) | YMD7 | ★ 0 | 45% | L3 | EDOCODE 株式会社の毎月の経理処理（証憑ファイル回収）を行うスキル。ユーザーから「EDOCODE の経理処理を始めよう」「EDOCODE の月次精算をお願… |
-| [seo-domination](seo-domination/) | Vibe-Marketer | ★ 0 | 45% | L3 | Complete search visibility command center for SaaS companies. Covers SEO, AEO (A… |
-| [content-marketer](content-marketer/) | majiayu000 | ★ 0 | 45% | L2 | Expert in content strategy, SEO-driven storytelling, and developer advocacy. Bri… |
-| [salesforce](salesforce/) | Jewish-Federation-of-San-Diego | ★ 0 | 45% | L3 | Query and manage Salesforce CRM data for Jewish Federation of San Diego (JFSD). … |
-| [lead-research-assistant](lead-research-assistant/) | NeverSight | ★ 0 | 45% | L2 | Identifies high-quality leads for your product or service by analyzing your busi… |
-| [seo-writing](seo-writing/) | jcanizalez | ★ 0 | 45% | L2 | Optimize written content for search engines — keyword placement, meta descriptio… |
-| [u09470-negotiation-strategy-crafting-for-sales-and-client-success](u09470-negotiation-strategy-crafting-for-sales-and-client-success/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Negotiation Strategy Crafting for sales and client success" capabil… |
-| [apex](apex/) | majiayu000 | ★ 0 | 45% | L2 | Apex - Senior Product Marketing Manager & CSO specializing in B2B/B2C IT Product… |
-| [Define Product](define-product/) | majiayu000 | ★ 0 | 45% | L3 | Create user-centric product definitions by analyzing the repository, inferring p… |
-| [u01874-handoff-contracting-for-marketing-and-storytelling](u01874-handoff-contracting-for-marketing-and-storytelling/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Handoff Contracting for marketing and storytelling" capability in p… |
-| [marketing-ai-search-optimization](marketing-ai-search-optimization/) | majiayu000 | ★ 0 | 45% | L3 | Modern search visibility optimization covering traditional search fundamentals, … |
-| [sla-management-framework](sla-management-framework/) | juandaniel190 | ★ 0 | 45% | L2 | SLAs for rev ops: response times, escalation, enforcement. Use when defining or … |
-| [data-governance-enrichment](data-governance-enrichment/) | juandaniel190 | ★ 0 | 45% | L2 | Enrich CRM data: tools, waterfall approach, automation, quality control. Use whe… |
-| [u01419-constraint-compilation-for-personal-finance-management](u01419-constraint-compilation-for-personal-finance-management/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Constraint Compilation for personal finance management" capability … |
-| [seo-meta-optimizer](seo-meta-optimizer/) | ranbot-ai | ★ 0 | 45% | L3 | You are a meta tag optimization specialist creating compelling metadata within b… |
-| [analytics-tracking](analytics-tracking/) | whodaniel | ★ 0 | 45% | L3 | You are an expert in analytics implementation and measurement. Your goal is to h… |
-| [grey-haven-seo-geo-optimization](grey-haven-seo-geo-optimization/) | greyhaven-ai | ★ 0 | 45% | L3 | Use when optimizing web content for search engine visibility, improving AI searc… |
-| [performance-analytics](performance-analytics/) | propane-ai | ★ 0 | 45% | L2 | Analyze marketing performance with key metrics, trend analysis, and optimization… |
-| [solo-founder-gtm](solo-founder-gtm/) | chadboyda | ★ 0 | 45% | L2 | When the user is a solo founder building their GTM motion, wants to scale withou… |
-| [bexio](bexio/) | majiayu000 | ★ 0 | 45% | L3 | Bexio Swiss business software API for managing contacts, quotes/offers, invoices… |
-| [seo-geo-aeo](seo-geo-aeo/) | ashishgurprit | ★ 0 | 45% | L2 | Comprehensive search optimization skill covering SEO (Search Engine Optimization… |
-| [bexio](bexio/) | decimasudo | ★ 0 | 45% | L3 | Bexio Swiss business software API for managing contacts, quotes/offers, invoices… |
-| [Sales Lead Enrichment](sales-lead-enrichment/) | SixtySecondsApp | ★ 0 | 44% | L2 | All sources consulted with data freshness timestamps |
-| [cfo](cfo/) | jforksy | ★ 0 | 44% | L2 | CFO Co-Pilot - strategic finance, valuation narrative, and VC readiness |
-| [Onboarding Check-in Drafter](onboarding-check-in-drafter/) | SixtySecondsApp | ★ 0 | 44% | L2 | Recommended date for next check-in milestone |
-| [metadata-and-seo-rules](metadata-and-seo-rules/) | majiayu000 | ★ 0 | 43% | L3 | Focuses on optimizing metadata and SEO to improve discoverability of the documen… |
-| [caching-strategy](caching-strategy/) | yeeehaooo | ★ 0 | 41% | L2 | Define explicit caching strategies for different data access patterns and consis… |
-| [email-notifications](email-notifications/) | splits-network | ★ 0 | 41% | L3 | Email template and notification patterns using Resend |
-| [crm-integration](crm-integration/) | a5c-ai | ★ 0 | 41% | L3 | Deep integration with CRM platforms for customer data and actions |
-| [email-triage-draft-replies](email-triage-draft-replies/) | majiayu000 | ★ 0 | 32% | L2 | Review unread email, categorize it, and draft replies (no sending without approv… |
-| [pagen](pagen/) | harperreed | ★ 0 | 32% | L2 | Personal CRM and contact management - manage contacts, relationships, and intera… |
-| [sns-patterns](sns-patterns/) | taiyousan15 | ★ 0 | 19% | L2 | SNS posting patterns and strategy |
-| [startup-go-to-market](startup-go-to-market/) | amo-tech-ai | ★ 0 | 18% | L1 | Merged into go-to-market. Use that skill instead. |
 
 ---
 
