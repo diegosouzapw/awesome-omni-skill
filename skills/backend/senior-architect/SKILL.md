@@ -1,9 +1,6 @@
 ---
 name: senior-architect
-description: "Comprehensive software architecture skill for designing scalable, maintainable systems using ReactJS, NextJS, NodeJS, Express, React Native, Swift, Kotlin, Flutter, Postgres, GraphQL, Go, Python. I..."
-risk: unknown
-source: community
-date_added: "2026-02-27"
+description: Comprehensive software architecture skill for designing scalable, maintainable systems using ReactJS, NextJS, NodeJS, Express, React Native, Swift, Kotlin, Flutter, Postgres, GraphQL, Go, Python. Includes architecture diagram generation, system design patterns, tech stack decision frameworks, and dependency analysis. Use when designing system architecture, making technical decisions, creating architecture diagrams, evaluating trade-offs, or defining integration patterns.
 ---
 
 # Senior Architect
@@ -210,6 +207,3 @@ Check the comprehensive troubleshooting section in `references/tech_decision_gui
 - Workflow Guide: `references/system_design_workflows.md`
 - Technical Guide: `references/tech_decision_guide.md`
 - Tool Scripts: `scripts/` directory
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.

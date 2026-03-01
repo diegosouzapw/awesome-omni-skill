@@ -7,9 +7,9 @@
   "repository_url": "https://github.com/sickn33/antigravity-awesome-skills",
   "author": "sickn33",
   "author_avatar": "https://github.com/sickn33.png",
-  "file_path": "skills/20-andruia-niche-intelligence/SKILL.md",
+  "file_path": "web-app/public/skills/20-andruia-niche-intelligence/SKILL.md",
   "source": "github_curated_repos",
-  "stars": 15442,
+  "stars": 17332,
   "quality_score": 95,
   "best_practices_score": 45,
   "skill_level": 2,
@@ -17,10 +17,10 @@
   "has_scripts": false,
   "has_extra_files": false,
   "downloads": 0,
-  "content_hash": "1317e9b749fb0e698739f8acf7cd1e2410f74739d1758892b0cb4a5f2e56cd3a",
-  "indexed_at": "2026-02-25T16:15:40.329Z",
-  "synced_at": "2026-02-28T04:04:48.304Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/ff51b82c6ab391672498f20b60cd7319b6f6683e1760c5175a1ba9d2cf54a05c",
-  "install_command": "mkdir -p .claude/skills/20-andruia-niche-intelligence && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/20-andruia-niche-intelligence/SKILL.md\" > .claude/skills/20-andruia-niche-intelligence/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/20-andruia-niche-intelligence/SKILL.md"
+  "content_hash": "687b7832868840bda8a8fabb93f39454f5cfb9a7774d2c463b42a4dd7505a967",
+  "indexed_at": "2026-03-01T05:03:19.963Z",
+  "synced_at": "2026-03-01T06:20:25.073Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/3c730597f6d22b63ccc5c0d313946db81ced6a3a1407b4cfe4dbece8801db2af",
+  "install_command": "mkdir -p .claude/skills/20-andruia-niche-intelligence && curl -sL \"https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/20-andruia-niche-intelligence/SKILL.md\" > .claude/skills/20-andruia-niche-intelligence/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/web-app/public/skills/20-andruia-niche-intelligence/SKILL.md"
 }

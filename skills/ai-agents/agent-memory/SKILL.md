@@ -1,485 +1,386 @@
 ---
 name: agent-memory
-description: Long-term memory store for AI agents - save, search, and manage persistent memories across sessions. Load this skill for complete command reference.
-version: 0.4.0
+description: "Retain and recall work context across sessions. Use when user asks to remember something, recall previous work, or reference past discussions. Triggered by phrases like 'remember this', 'save for later', 'recall', 'what did we discuss about'."
+enabled: true
+visibility: default
+allowedTools: ["read", "write", "grep", "glob", "bash"]
 ---
 
-# Agent Memory - Full Reference
+# Agent Memory Skill
 
-This skill provides complete documentation for the `agent-memory` CLI. Core behaviors (startup, auto-save, session end) are handled by the rules file which is always loaded.
+Enable context retention across Claude Code sessions by saving and recalling work memories.
 
-## Setup
+## Purpose
 
-The agent-memory CLI must be installed and accessible:
+This skill allows Claude to:
+- **Remember** important context, decisions, and work items
+- **Recall** previous discussions and findings
+- **Maintain continuity** across multiple sessions
+- **Reduce repetition** by referencing past work
+
+## When to Use
+
+Automatically triggered by phrases like:
+- "Remember this for later"
+- "Save this information"
+- "Recall what we discussed about X"
+- "What was our approach for Y?"
+- "Retrieve memory about Z"
+
+## Memory Operations
+
+### 1. Saving Memories
+
+When the user asks to remember something, create a new memory file:
+
+**Process**:
+1. Identify the topic/context to remember
+2. Generate a descriptive memory ID (e.g., `issue-123`, `feature-auth`, `bug-database`)
+3. Create markdown file in `memories/` directory
+4. Include YAML frontmatter with metadata
+5. Write detailed context in markdown body
+
+**File Format**:
+```yaml
+---
+summary: "Brief one-line description"
+topic: "Main topic or feature"
+created: "2026-01-14"
+tags: ["tag1", "tag2"]
+related: ["other-memory-id"]
+---
+
+# Detailed Context
+
+## Background
+[What led to this discussion]
+
+## Key Points
+- Important point 1
+- Important point 2
+- Decision made
+
+## Next Steps
+- [ ] Action item 1
+- [ ] Action item 2
+
+## References
+- File: `src/module.js:42`
+- PR: #123
+- Issue: #456
+```
+
+**Example Memory Creation**:
+```bash
+# Create memory file
+cat > .claude/skills/agent-memory/memories/database-migration.md << 'EOF'
+---
+summary: "Database migration strategy for user profiles"
+topic: "database"
+created: "2026-01-14"
+tags: ["database", "migration", "users"]
+---
+
+# Database Migration Strategy
+
+## Context
+We need to add a `preferences` column to the users table to support
+dark mode and notification settings.
+
+## Decisions Made
+- Use Alembic for migrations
+- Add JSONB column for flexibility
+- Default value: `{}`
+- Backfill existing users in separate migration
+
+## Code Location
+- Migration script: `migrations/versions/add_user_preferences.py`
+- Model: `src/models/user.py:15`
+
+## Next Steps
+- [ ] Create migration script
+- [ ] Test on staging database
+- [ ] Deploy during maintenance window
+EOF
+```
+
+### 2. Recalling Memories
+
+When asked to recall information:
+
+**Progressive Disclosure Search**:
+
+1. **Quick scan** - Search summaries first:
+   ```bash
+   # Search memory summaries
+   grep -r "^summary:" .claude/skills/agent-memory/memories/ | \
+     grep -i "search_term"
+   ```
+
+2. **Detailed search** - If needed, search full content:
+   ```bash
+   # Full-text search across memories
+   grep -r "search_term" .claude/skills/agent-memory/memories/ \
+     --include="*.md"
+   ```
+
+3. **Read relevant memories** - Load matching files:
+   ```bash
+   # Read specific memory
+   cat .claude/skills/agent-memory/memories/topic-name.md
+   ```
+
+**Search Strategy**:
+- First, scan summaries to identify relevant memories
+- Then, read only the most relevant files in detail
+- Report findings in a structured format
+
+### 3. Listing Memories
+
+Show available memories:
 
 ```bash
-# Check if installed
-agent-memory --version
+# List all memories
+find .claude/skills/agent-memory/memories/ -name "*.md" -type f
 
-# If not in PATH, activate it
-source ~/.agent-memory/bin/activate-memory
+# Show summaries
+for file in .claude/skills/agent-memory/memories/*.md; do
+  echo "Memory: $(basename $file .md)"
+  grep "^summary:" "$file" || echo "  (no summary)"
+done
 ```
 
-## Memory Scopes (Three-Scope Model)
+### 4. Updating Memories
 
-| Scope | Storage | Visibility | Use Case |
-|-------|---------|------------|----------|
-| **project** | Project DB | Current project only | Project-specific decisions, patterns (default) |
-| **group** | Global DB | Projects with matching `--groups` flag | Team conventions, shared patterns |
-| **global** | Global DB | All projects, always | User preferences, cross-cutting concerns |
-
-## Commands
-
-### Save a Memory
+When new information relates to existing memory:
 
 ```bash
-# Save to current project (default scope)
-agent-memory save "authentication uses JWT tokens stored in httpOnly cookies"
+# Append to existing memory
+cat >> .claude/skills/agent-memory/memories/topic.md << 'EOF'
 
-# Save with group scope (visible to projects using --groups=backend)
-agent-memory save --group=backend "API versioning pattern for all services"
+## Update: $(date +%Y-%m-%d)
 
-# Save globally (visible to all projects always)
-agent-memory save --global "user prefers functional components over classes"
-
-# Save and pin (always loaded at startup)
-agent-memory save --pin "CRITICAL: never modify the legacy payment module"
-
-# Save with explicit category
-agent-memory save --category=decision "rejected Redux, using Zustand instead"
-
-# Save with structured metadata (repeatable --meta key=value)
-agent-memory save --meta rationale="simpler API" --meta alternatives="Redux,MobX" \
-  --category=decision "Using Zustand for state management"
-
-# Save an error-fix pattern with metadata
-agent-memory save --meta error="ECONNREFUSED on port 6379" --meta root_cause="Redis not running" \
-  "Fix ECONNREFUSED in tests: run 'docker compose up redis' before test suite"
+New information or progress update:
+- Updated point
+EOF
 ```
 
-**`--meta` flag:** Attach arbitrary key=value metadata to any memory. Use multiple `--meta` flags for multiple pairs. Metadata is stored as JSON, searchable, and included in all outputs (JSON, startup, get).
+### 5. Organizing Memories
 
-### Search Memories
+Optionally organize into subdirectories:
+
+```
+memories/
+├── features/
+│   ├── auth-system.md
+│   └── payment-flow.md
+├── bugs/
+│   ├── issue-123.md
+│   └── memory-leak.md
+├── decisions/
+│   └── architecture-choice.md
+└── investigations/
+    └── performance-analysis.md
+```
+
+## Memory Content Guidelines
+
+### What to Remember
+
+✅ **Do Save**:
+- Design decisions and rationale
+- Investigation findings
+- Approaches tried (what worked/didn't work)
+- Key conversation insights
+- Important file locations
+- Configuration details
+- Action items and next steps
+- Links to related issues/PRs
+
+❌ **Don't Save**:
+- Entire code files (reference them instead)
+- Trivial information
+- Easily searchable facts
+- Sensitive credentials (never!)
+- Temporary debugging notes
+
+### Writing Good Memories
+
+**Be Specific**:
+```markdown
+# Good
+summary: "JWT token expiration issue - increased from 1h to 24h based on user feedback"
+
+# Too Vague
+summary: "Changed some settings"
+```
+
+**Include Context**:
+```markdown
+# Good
+## Background
+Users complained about frequent re-logins. Analytics showed
+average session length is 6 hours. Increased token TTL to 24h
+with sliding window refresh.
+
+# Incomplete
+## Background
+Increased token expiration.
+```
+
+**Reference Code Locations**:
+```markdown
+# Good
+- Implementation: `src/auth/jwt.js:45-67`
+- Config: `config/auth.json`
+- Tests: `tests/auth.test.js:120`
+
+# Less Useful
+- Changed auth code
+```
+
+## Usage Examples
+
+### Example 1: Saving Investigation Results
+
+**User**: "Remember our findings about the performance issue"
+
+**Claude Response**:
+```
+I'll save our investigation findings about the performance issue.
+
+[Creates memory file: performance-investigation.md]
+
+Saved memory: "Performance bottleneck in database queries - added indexes"
+Location: .claude/skills/agent-memory/memories/performance-investigation.md
+
+Key points saved:
+- Identified N+1 query problem in user dashboard
+- Added composite index on (user_id, created_at)
+- Reduced query time from 2.5s to 80ms
+- Next: Monitor production metrics
+```
+
+### Example 2: Recalling Previous Work
+
+**User**: "What did we decide about the authentication approach?"
+
+**Claude Response**:
+```
+Let me search our memories about authentication...
+
+[Searches summaries, finds auth-strategy.md]
+
+Found memory from 2026-01-10:
+
+Summary: "OAuth 2.0 with PKCE for authentication"
+
+Key decisions:
+- Use OAuth 2.0 with PKCE flow (more secure than implicit)
+- Support Google and GitHub providers initially
+- Store tokens in httpOnly cookies
+- Session duration: 7 days with refresh
+
+Implementation status:
+- ✅ OAuth integration complete
+- ✅ Google provider working
+- 🔄 GitHub provider in progress
+- ⏳ Token refresh mechanism pending
+
+Would you like me to continue work on the GitHub provider?
+```
+
+### Example 3: Creating Feature Memory
+
+**User**: "Save our plan for the notification system"
+
+**Claude Response**:
+```
+I'll create a memory for the notification system plan.
+
+[Creates: notification-system.md]
+
+Memory created: "notification-system"
+
+Saved details:
+- Architecture: Event-driven with message queue
+- Tech stack: Redis pub/sub + WebSockets
+- Notification types: Email, push, in-app
+- Priority levels: urgent, normal, low
+- User preferences: per-channel opt-in/out
+
+Next steps saved:
+- [ ] Set up Redis pub/sub
+- [ ] Implement WebSocket server
+- [ ] Create notification preferences UI
+- [ ] Email template system
+- [ ] Push notification service (FCM)
+
+This memory is available for future sessions.
+```
+
+## Memory Management
+
+### Periodic Cleanup
+
+Suggest cleanup when memories accumulate:
 
 ```bash
-# Semantic search (if enabled)
-agent-memory search "how does authentication work"
+# List old memories (>90 days)
+find .claude/skills/agent-memory/memories/ -name "*.md" -mtime +90
 
-# With stricter threshold
-agent-memory search "auth" --threshold=0.8
-
-# Include global memories
-agent-memory search "coding style" --global
-
-# Include group memories (works from any directory)
-agent-memory search "api pattern" --group=backend-team
-
-# Search across all projects (user visibility only)
-agent-memory search "api pattern" --all-projects
+# Archive completed work
+mkdir -p .claude/skills/agent-memory/archive/
+mv memories/completed-*.md archive/
 ```
 
-### List Memories
-
-```bash
-# List project memories
-agent-memory list
-
-# List only pinned memories
-agent-memory list --pinned
-
-# List by category
-agent-memory list --category=decision
-
-# List global memories only
-agent-memory list --global
-
-# List global + group-scoped memories
-agent-memory list --global --include-group-owned
-
-# List group-scoped memories only
-agent-memory list --group-owned
-
-# List memories owned by a specific group
-agent-memory list --owned-by=backend-team
-
-# List memories by group name (works from any directory)
-agent-memory list --group=backend-team
-agent-memory list --group=all  # all groups
-
-# List from all projects (user visibility only)
-agent-memory list --all-projects
-```
-
-### Quick Group Access
-
-View group info and memories quickly from anywhere:
-
-```bash
-# Quick view of group info + its memories
-agent-memory groups backend-team
-
-# View all group memories
-agent-memory groups all
-
-# Pinned only
-agent-memory groups backend-team --pinned
-```
-
-### Manage Memories
-
-```bash
-# Get specific memory (verbose, includes metadata)
-agent-memory get mem_abc123
-agent-memory show mem_abc123  # alias for get
-
-# Pin/unpin a memory
-agent-memory pin mem_abc123
-agent-memory unpin mem_abc123
-
-# Delete a memory
-agent-memory forget mem_abc123
-
-# Delete memories matching a pattern
-agent-memory forget --search "old pattern"
-```
-
-### Group Management for Memories
-
-Manage owner groups for group-scoped memories:
-
-```bash
-# Add owner groups to a group-scoped memory
-agent-memory add-groups mem_abc123 backend-team frontend-team
-
-# Remove owner groups from a group-scoped memory
-agent-memory remove-groups mem_abc123 frontend-team
-
-# Replace all owner groups
-agent-memory set-groups mem_abc123 backend-team devops
-
-# Change scope of a memory
-agent-memory set-scope mem_abc123 global                     # → global scope
-agent-memory set-scope mem_abc123 group --group=backend      # → group scope
-agent-memory set-scope mem_abc123 project --to-project /path # → project scope
-```
-
-### Session Management
-
-```bash
-# Start a new session
-agent-memory session start
-
-# Add a session summary
-agent-memory session summarize "Implemented user authentication with JWT"
-
-# End session
-agent-memory session end
-
-# List sessions
-agent-memory session list
-
-# Load last session context
-agent-memory session load --last
-```
-
-### Session Analysis (Error-Fix Pattern Extraction)
-
-Automatically extract error-fix patterns from session content using LLM:
-
-```bash
-# Analyze inline text describing errors and fixes
-agent-memory session analyze "Hit TypeError in auth.ts, null check missing, fixed with optional chaining"
-
-# Analyze the last session's summaries
-agent-memory session analyze --last
-
-# Analyze a specific session
-agent-memory session analyze --session sess_abc123
-
-# Preview patterns without saving (dry run)
-agent-memory session analyze --last --dry-run
-
-# Output as JSON
-agent-memory session analyze --last --json
-
-# Combine dry-run and JSON for preview
-agent-memory session analyze --last --dry-run --json
-```
-
-Each extracted pattern is saved as a memory with structured metadata:
-- `error`: The error message or symptom
-- `cause`: The root cause
-- `fix`: How it was fixed
-- `context`: Where it occurred
-- `analyzed_from`: Source (session ID or "text")
-
-### Error-Detection Hooks
-
-When enabled, error-detection hooks monitor command output and remind you to save error-fix patterns:
-
-```bash
-# Enable error-detection hooks
-agent-memory config set hooks.error_nudge=true
-
-# Disable error-detection hooks
-agent-memory config set hooks.error_nudge=false
-```
-
-When enabled and an error is detected in a command's output, you'll see:
-```
-[agent-memory] Error detected in command output. If you resolved this error, consider saving the pattern:
-  agent-memory save --meta error="..." --meta root_cause="..." "Description of the fix"
-```
-
-The hook never blocks command execution and exits silently when disabled.
-
-### Workspace Groups
-
-**Workspace groups are collections of PROJECTS that can share memories with each other.**
-
-When a user mentions creating a "group with projects", they want to:
-1. Create the workspace group
-2. Add the listed project directories to it
-
-```bash
-# Create a group
-agent-memory group create backend-team
-
-# Delete a group
-agent-memory group delete backend-team
-
-# Add current project to a group
-agent-memory group join backend-team
-
-# Add a specific project to a group
-agent-memory group join backend-team --project /path/to/project
-
-# Remove project from a group
-agent-memory group leave backend-team
-
-# List all groups
-agent-memory group list
-
-# Show group details (includes project list)
-agent-memory group show backend-team
-```
-
-#### Interpreting User Requests About Groups
-
-| User says | Meaning | Action |
-|-----------|---------|--------|
-| "Create a group X with projects A, B, C" | Create group and add projects | `group create X` then `group join X --project <path>` for each |
-| "Add project Y to group X" | Add a project to existing group | `group join X --project <path>` |
-| "Share this memory with group X" | Save with group scope | `save --group=X "content"` |
-| "Create a memory for group X" | Save with group scope | `save --group=X "content"` |
-
-### Promote/Unpromote
-
-Move memories between scopes:
-
-```bash
-# Promote project memory to global (default)
-agent-memory promote mem_abc123
-
-# Promote project memory to group scope
-agent-memory promote mem_abc123 --to-group=backend-team
-
-# Promote from a specific project
-agent-memory promote mem_abc123 --from-project /path/to/project
-
-# Move a global/group memory to a project (unpromote)
-agent-memory unpromote mem_abc123 --to-project /path/to/project
-```
-
-### Configuration
-
-```bash
-# Show config
-agent-memory config show
-
-# Enable/disable semantic search
-agent-memory config set semantic.enabled=true
-
-# Set similarity threshold
-agent-memory config set semantic.threshold=0.7
-
-# Enable/disable autosave
-agent-memory config set autosave.enabled=true
-
-# Enable/disable error-detection hooks
-agent-memory config set hooks.error_nudge=true
-```
-
-### Cross-Project Visibility (Users Only)
-
-View memories across all projects (for users, not agents):
-
-```bash
-# List all tracked projects
-agent-memory projects
-
-# List memories from all projects
-agent-memory list --all-projects
-
-# Search across all projects
-agent-memory search "pattern" --all-projects
-
-# Export from all projects
-agent-memory export --all-projects
-```
-
-## Startup Behavior
-
-At the beginning of each session:
-
-1. **Pinned project memories are automatically loaded**
-2. **Pinned global memories are automatically loaded**
-3. **Group-scoped memories are NOT loaded by default** - Use `--groups` to opt-in
-4. **Ask the user about previous session** - "Would you like me to load the previous session context?"
-
-Use this command to get startup context:
-
-```bash
-# Default: project + global memories only (no groups)
-agent-memory startup --json
-
-# Include specific groups
-agent-memory startup --json --groups=backend-team
-
-# Include multiple specific groups
-agent-memory startup --json --groups=backend-team,shared-libs
-
-# Include all groups
-agent-memory startup --json --groups=all
-
-# Include all groups except one
-agent-memory startup --json --groups=all --exclude-groups=legacy-team
-```
-
-## Memory Categories
-
-| Category | When to Use |
-|----------|-------------|
-| `factual` | Facts about codebase architecture, patterns, how things work |
-| `decision` | User preferences, rejected options, chosen approaches |
-| `task_history` | What was completed, implementation details |
-| `session_summary` | Condensed summaries of work sessions |
-
-## Structured Metadata
-
-Use `--meta key=value` to attach structured data to memories. This is especially useful for:
-
-### Decision Records (ADR-lite)
-
-Record architectural decisions with full context:
-
-```bash
-agent-memory save --category=decision \
-  --meta rationale="Need real-time updates without polling overhead" \
-  --meta alternatives="polling,SSE,WebSockets" \
-  --meta status=accepted \
-  "Use WebSockets via Socket.IO for real-time dashboard updates"
-
-agent-memory save --category=decision \
-  --meta rationale="Team familiar with PostgreSQL, need JSONB support" \
-  --meta alternatives="MongoDB,DynamoDB" \
-  --meta decided_by=user \
-  "Use PostgreSQL as primary database"
-```
-
-### Error-Fix Patterns
-
-Save debugging knowledge so it's never lost:
-
-```bash
-agent-memory save \
-  --meta error="TypeError: Cannot read properties of undefined (reading 'map')" \
-  --meta root_cause="API returns null instead of empty array when no results" \
-  --meta file="src/components/UserList.tsx" \
-  "UserList crashes on empty search — API returns null for items, fix: use items ?? [] before .map()"
-
-agent-memory save \
-  --meta error="ECONNREFUSED 127.0.0.1:5432" \
-  --meta root_cause="PostgreSQL not started" \
-  "Database connection fails in dev — run 'brew services start postgresql@16' first"
-```
-
-### Workflow Annotations
-
-```bash
-agent-memory save --pin \
-  --meta trigger="after changing .proto files" \
-  --meta command="make proto" \
-  "Run 'make proto' after modifying any .proto file to regenerate Go bindings"
-```
-
-## Writing Good Memories
-
-### Be Specific and Searchable
-
-| Quality | Example |
-|---------|---------|
-| Good | `"Auth middleware in src/middleware/auth.ts validates JWT from Authorization header, returns 401 on expiry"` |
-| Bad | `"There's auth stuff somewhere"` |
-
-### Include the Why
-
-| Quality | Example |
-|---------|---------|
-| Good | `"Using Zustand over Redux — simpler API, less boilerplate for our small state"` |
-| Bad | `"We use Zustand"` |
-
-### Save Error-Fix Patterns with Context
-
-| Quality | Example |
-|---------|---------|
-| Good | `"'Cannot read property of undefined' in UserProfile — API returns null when user has no avatar. Fix: optional chaining user.avatar?.url"` |
-| Bad | `"Fixed a bug"` |
-
-### What NOT to Save
-
-- **Transient state** — Current branch name, temporary debugging flags
-- **Obvious facts** — Things clear from package.json, README, or file structure
-- **Exact code snippets** — Describe the pattern; code will change but patterns persist
-- **Every small action** — Save learnings and decisions, not a log of every command run
+### Memory Hygiene
+
+- Review and update memories when context changes
+- Archive completed work
+- Consolidate related memories
+- Remove obsolete information
 
 ## Best Practices
 
-1. **Search before starting work** — Check memory for prior decisions, patterns, and context
-2. **Save decisions with rationale** — "Chose X because Y, rejected Z" is more valuable than just "using X"
-3. **Use `--meta` for structured data** — Especially for decisions (alternatives, rationale) and errors (error, root_cause, file)
-4. **Pin critical memories** — Things that should always be loaded at startup
-5. **Save error-fix patterns** — Debugging knowledge is expensive to re-derive
-6. **Be specific** — Include file paths, function names, exact error messages
-7. **Maintain memory hygiene** — Forget outdated memories when you notice them
-8. **Summarize sessions** — Good summaries create searchable history for future sessions
-9. **Don't over-save** — Quality over quantity; every memory costs context window space
-10. **Don't create groups without permission** — Only manage groups when user explicitly asks
+1. **Be Proactive**: Suggest saving important context without being asked
+2. **Use Clear Names**: Memory IDs should be descriptive (`auth-oauth-impl`, not `temp-123`)
+3. **Link Related Memories**: Cross-reference related work
+4. **Update, Don't Duplicate**: Add to existing memories when relevant
+5. **Progressive Detail**: Summaries for scanning, details for deep reading
+6. **Action-Oriented**: Include clear next steps
+7. **Context-Rich**: Explain "why", not just "what"
 
-## Example Workflow
+## Tips for Users
 
-```bash
-# At session start
-agent-memory startup --json
+- Ask Claude to "remember this" for important discussions
+- Request "recall memories about X" to continue previous work
+- Use "list all memories" to see what's been saved
+- Say "update memory about X" to add new information
 
-# Search for relevant context before starting work
-agent-memory search "payments webhook"
+## Technical Notes
 
-# During work - save learnings
-agent-memory save "The billing service uses Stripe webhooks at /api/webhooks/stripe"
-agent-memory save --category=decision --meta rationale="cleaner error boundaries" \
-  "User prefers error handling with Result types over exceptions"
+- Memories are stored as markdown files (human-readable)
+- `.gitignore` excludes `memories/` (private workspace)
+- Uses ripgrep for fast searching
+- YAML frontmatter for structured metadata
+- Works across Claude Code sessions
+- Repository-scoped (each project has own memories)
 
-# Save debugging discovery
-agent-memory save --meta error="webhook signature verification failed" \
-  --meta root_cause="clock skew in Docker container" \
-  "Stripe webhook sig verification fails in Docker — fix: sync container clock with host"
+## Limitations
 
-# If user asks to share across team projects:
-agent-memory save --pin --group=backend-team "All services must use structured logging with correlation IDs"
+- Not suitable for very large codebases (use search instead)
+- Manual memory creation (not automatic)
+- Local only (not synced across machines)
+- Requires user to explicitly save/recall
 
-# Before ending
-agent-memory session summarize "Implemented Stripe webhook handler with signature verification. \
-Chose Result types for error handling (cleaner boundaries). \
-Discovered Docker clock skew issue with webhook verification — documented fix."
-```
+## Integration
+
+Works with other skills:
+- **code-review**: Save review findings for future reference
+- **systematic-debugging**: Remember investigation results
+- **testing-patterns**: Store testing decisions and approaches
+
+---
+
+**Remember**: This skill helps maintain continuity and reduces context-switching overhead. Use it liberally to preserve valuable discussions and decisions.

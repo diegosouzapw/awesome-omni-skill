@@ -7,9 +7,9 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/adaptyv-majiayu000-claude-skill-registr/SKILL.md",
+  "file_path": "skills/data/adaptyv/SKILL.md",
   "source": "github_curated_repos",
-  "stars": 94,
+  "stars": 95,
   "quality_score": 77,
   "best_practices_score": 80,
   "skill_level": 3,
@@ -18,9 +18,9 @@
   "has_extra_files": true,
   "downloads": 0,
   "content_hash": "45997ae88b1c6ffb6f1a11a5c421e154d933bbc867d200210ac749b5d046265d",
-  "indexed_at": "2026-02-28T00:32:28.665Z",
-  "synced_at": "2026-02-28T04:27:12.542Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/a583f54f7d9887d84f5107c9116e81c70e025492c8abc34f3f7fb8ce9b8f0157",
-  "install_command": "mkdir -p .claude/skills/adaptyv && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/adaptyv-majiayu000-claude-skill-registr/SKILL.md\" > .claude/skills/adaptyv/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/adaptyv-majiayu000-claude-skill-registr/SKILL.md"
+  "indexed_at": "2026-03-01T01:01:55.133Z",
+  "synced_at": "2026-03-01T06:20:10.287Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/f1cd10d68ed21b2fed2605bfdbdf0f190135031c2016617da0a613e8219afb67",
+  "install_command": "mkdir -p .claude/skills/adaptyv && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/adaptyv/SKILL.md\" > .claude/skills/adaptyv/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/adaptyv/SKILL.md"
 }

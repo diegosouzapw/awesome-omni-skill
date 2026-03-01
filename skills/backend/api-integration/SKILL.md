@@ -1,451 +1,251 @@
 ---
 name: api-integration
-slug: api-integration
-version: 1.0.0
-category: core
-description: Generate Next.js App Router API routes with Zod validation and TypeScript types
-triggers:
-  - pattern: "api|endpoint|route|fetch|request|rest|graphql"
-    confidence: 0.6
-    examples:
-      - "create an API endpoint"
-      - "build a REST API"
-      - "I need API routes for CRUD"
-      - "generate endpoint for users"
-      - "create a fetch request handler"
-      - "create endpoints to fetch data"
-mcp_dependencies:
-  - server: context7
-    required: false
-    capabilities:
-      - "search"
-  - server: exa
-    required: false
-    capabilities:
-      - "search"
+description: Integrate external REST APIs with proper authentication, rate limiting, error handling, and caching patterns. Use when working with external APIs, building API clients, or fetching data from third-party services.
 ---
 
 # API Integration Skill
 
-Automatically generate production-ready Next.js 15 App Router API routes with Zod validation, TypeScript types, and comprehensive error handling. This skill transforms natural language API requirements into fully functional RESTful endpoints following Next.js best practices.
+## When to Activate
 
-## Overview
+Activate this skill when:
+- Integrating external APIs
+- Building API clients or wrappers
+- Handling API authentication
+- Implementing rate limiting
+- Caching API responses
 
-This skill generates:
-- **Next.js App Router API routes** (TypeScript)
-- **Zod validation schemas** for request/response
-- **TypeScript type definitions** (auto-inferred from Zod)
-- **Error handling utilities** (consistent error responses)
-- **RESTful conventions** (proper HTTP methods and status codes)
+## Core Principles
 
-## When to Use This Skill
+1. **Respect rate limits** - APIs are shared resources
+2. **Secure authentication** - Keys in secrets.json, never in code
+3. **Handle errors gracefully** - Implement retries and backoff
+4. **Cache responses** - Reduce redundant requests
 
-Activate this skill when the user requests:
-- API endpoint creation
-- REST API development
-- Route handlers
-- CRUD operations
-- HTTP request/response handling
-- Data validation for APIs
-- GraphQL resolvers (basic)
+## Authentication Setup
 
-## Key Features
+### secrets.json
 
-### 1. Automatic Route Generation
-
-Generates Next.js 15 App Router route handlers:
-
-```typescript
-// app/api/posts/route.ts
-import { NextRequest, NextResponse } from 'next/server'
-import { postSchema } from '@/lib/validations/post'
-import { handleAPIError } from '@/lib/api/errors'
-
-export async function GET(request: NextRequest) {
-  try {
-    const { searchParams } = new URL(request.url)
-    const page = parseInt(searchParams.get('page') || '1')
-    const limit = parseInt(searchParams.get('limit') || '10')
-
-    // Fetch posts from database
-    const posts = await db.query.posts.findMany({
-      limit,
-      offset: (page - 1) * limit,
-    })
-
-    return NextResponse.json({ posts, page, limit })
-  } catch (error) {
-    return handleAPIError(error)
-  }
-}
-
-export async function POST(request: NextRequest) {
-  try {
-    const body = await request.json()
-    const validated = postSchema.parse(body)
-
-    // Create post in database
-    const post = await db.insert(posts).values(validated).returning()
-
-    return NextResponse.json(post, { status: 201 })
-  } catch (error) {
-    return handleAPIError(error)
-  }
-}
-```
-
-### 2. CRUD Operations Mapping
-
-Automatically maps CRUD operations to HTTP methods:
-
-| Operation | HTTP Method | Route Pattern | Description |
-|-----------|-------------|---------------|-------------|
-| List | GET | `/api/posts` | Get all resources |
-| Get | GET | `/api/posts/[id]` | Get single resource |
-| Create | POST | `/api/posts` | Create new resource |
-| Update | PUT/PATCH | `/api/posts/[id]` | Update existing resource |
-| Delete | DELETE | `/api/posts/[id]` | Delete resource |
-
-### 3. Zod Validation Schemas
-
-Generates type-safe validation schemas:
-
-```typescript
-// lib/validations/post.ts
-import { z } from 'zod'
-
-export const postSchema = z.object({
-  title: z.string().min(1).max(200),
-  content: z.string().min(1),
-  published: z.boolean().default(false),
-  authorId: z.string().uuid(),
-  tags: z.array(z.string()).optional(),
-  publishedAt: z.date().optional(),
-})
-
-export const createPostSchema = postSchema.omit({ id: true })
-export const updatePostSchema = postSchema.partial()
-
-export type Post = z.infer<typeof postSchema>
-export type CreatePost = z.infer<typeof createPostSchema>
-export type UpdatePost = z.infer<typeof updatePostSchema>
-```
-
-### 4. Field Type Inference
-
-Automatically infers Zod types from field names and context:
-
-| Field Pattern | Zod Schema | Validation |
-|---------------|------------|------------|
-| `email` | `z.string().email()` | Email format |
-| `url`, `website` | `z.string().url()` | URL format |
-| `age`, `count` | `z.number().int().positive()` | Positive integer |
-| `price`, `amount` | `z.number().positive()` | Positive number |
-| `password` | `z.string().min(8)` | Minimum length |
-| `isActive`, `hasPermission` | `z.boolean()` | Boolean |
-| `tags`, `categories` | `z.array(z.string())` | String array |
-| `createdAt`, `updatedAt` | `z.date()` | Date object |
-
-### 5. Error Handling Utilities
-
-Generates comprehensive error handling:
-
-```typescript
-// lib/api/errors.ts
-import { NextResponse } from 'next/server'
-import { ZodError } from 'zod'
-
-export class APIError extends Error {
-  constructor(
-    message: string,
-    public statusCode: number = 500
-  ) {
-    super(message)
-    this.name = 'APIError'
-  }
-}
-
-export class NotFoundError extends APIError {
-  constructor(resource: string) {
-    super(`${resource} not found`, 404)
-    this.name = 'NotFoundError'
-  }
-}
-
-export class ValidationError extends APIError {
-  constructor(message: string) {
-    super(message, 400)
-    this.name = 'ValidationError'
-  }
-}
-
-export class UnauthorizedError extends APIError {
-  constructor(message: string = 'Unauthorized') {
-    super(message, 401)
-    this.name = 'UnauthorizedError'
-  }
-}
-
-export function handleAPIError(error: unknown) {
-  console.error('API Error:', error)
-
-  if (error instanceof ZodError) {
-    return NextResponse.json(
-      {
-        error: 'Validation failed',
-        issues: error.issues,
-      },
-      { status: 400 }
-    )
-  }
-
-  if (error instanceof APIError) {
-    return NextResponse.json(
-      {
-        error: error.message,
-      },
-      { status: error.statusCode }
-    )
-  }
-
-  return NextResponse.json(
-    {
-      error: 'Internal server error',
-    },
-    { status: 500 }
-  )
-}
-```
-
-### 6. Request/Response Types
-
-Generates consistent API response types:
-
-```typescript
-// lib/api/types.ts
-export interface APIResponse<T = unknown> {
-  data?: T
-  error?: string
-  message?: string
-}
-
-export interface PaginatedResponse<T> {
-  data: T[]
-  page: number
-  limit: number
-  total: number
-  hasMore: boolean
-}
-
-export interface APIErrorResponse {
-  error: string
-  issues?: Array<{
-    path: string[]
-    message: string
-  }>
-}
-```
-
-## Execution Steps
-
-When this skill is activated:
-
-1. **Parse API Requirements**
-   - Extract resource name from prompt
-   - Identify CRUD operations needed
-   - Detect field types and validation rules
-   - Determine authentication requirements
-
-2. **Generate Route Structure**
-   - Create appropriate directory structure
-   - Generate route.ts files for each endpoint
-   - Add dynamic route segments for single resources
-   - Include middleware for auth if needed
-
-3. **Create Validation Schemas**
-   - Generate Zod schemas for each resource
-   - Add field-specific validations
-   - Create create/update schema variants
-   - Export TypeScript types
-
-4. **Add Error Handling**
-   - Generate error classes
-   - Create handleAPIError utility
-   - Add try-catch blocks in routes
-   - Include proper status codes
-
-5. **Generate Type Definitions**
-   - Create TypeScript interfaces
-   - Export request/response types
-   - Generate pagination types if needed
-   - Add JSDoc comments
-
-6. **Write Output Files**
-   - `app/api/{resource}/route.ts` - List and Create operations
-   - `app/api/{resource}/[id]/route.ts` - Get, Update, Delete operations
-   - `lib/validations/{resource}.ts` - Zod schemas
-   - `lib/api/errors.ts` - Error handling utilities
-   - `lib/api/types.ts` - Shared TypeScript types
-
-## Usage Examples
-
-### Example 1: Simple CRUD API
-
-**User Prompt:**
-"Create a REST API for managing blog posts with CRUD operations"
-
-**Generated Output:**
-- `app/api/posts/route.ts` - GET (list) and POST (create)
-- `app/api/posts/[id]/route.ts` - GET (single), PUT (update), DELETE
-- `lib/validations/post.ts` - Zod schemas
-- All routes with error handling and validation
-
-### Example 2: API with Custom Fields
-
-**User Prompt:**
-"Create an API endpoint for users with email, name, age, and avatar URL"
-
-**Generated Output:**
-```typescript
-// Zod schema with field-specific validations
-const userSchema = z.object({
-  email: z.string().email(),
-  name: z.string().min(1).max(100),
-  age: z.number().int().positive().max(150),
-  avatarUrl: z.string().url().optional(),
-})
-```
-
-### Example 3: Authenticated API
-
-**User Prompt:**
-"Create protected API routes for managing user profiles with authentication"
-
-**Generated Output:**
-- Routes with auth middleware
-- Session validation
-- User-scoped queries
-- Proper 401 error handling
-
-## RESTful Conventions
-
-### HTTP Status Codes
-
-The skill uses proper status codes:
-
-- `200 OK` - Successful GET, PUT, PATCH
-- `201 Created` - Successful POST
-- `204 No Content` - Successful DELETE
-- `400 Bad Request` - Validation errors
-- `401 Unauthorized` - Authentication required
-- `403 Forbidden` - Insufficient permissions
-- `404 Not Found` - Resource not found
-- `500 Internal Server Error` - Server errors
-
-### Response Formats
-
-Consistent JSON responses:
-
-```typescript
-// Success response
+```json
 {
-  "data": { ... }
-}
-
-// Error response
-{
-  "error": "Error message",
-  "issues": [ ... ] // For validation errors
-}
-
-// Paginated response
-{
-  "data": [ ... ],
-  "page": 1,
-  "limit": 10,
-  "total": 50,
-  "hasMore": true
+  "github_token": "ghp_your_token_here",
+  "openweather_api_key": "your_key_here",
+  "comment": "Never commit this file"
 }
 ```
 
-## MCP Integration
+### Python Loading
 
-### Context7 (Optional)
+```python
+import os
+import json
+from pathlib import Path
 
-When Context7 MCP is available:
-- Search Next.js documentation for latest patterns
-- Find existing API route examples in codebase
-- Reference authentication patterns
+def load_secrets():
+    secrets_path = Path(__file__).parent / "secrets.json"
+    try:
+        with open(secrets_path) as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
 
-### Exa (Optional)
+secrets = load_secrets()
+API_KEY = secrets.get("github_token", os.getenv("GITHUB_TOKEN", ""))
 
-When Exa MCP is available:
-- Search for Next.js 15 App Router best practices
-- Find Zod validation examples
-- Discover error handling patterns
+if not API_KEY:
+    raise ValueError("No API key found")
+```
+
+## Request Patterns
+
+### Basic GET (Python)
+
+```python
+import requests
+
+def api_request(url: str, api_key: str) -> dict:
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Accept": "application/json"
+    }
+    response = requests.get(url, headers=headers, timeout=10)
+    response.raise_for_status()
+    return response.json()
+```
+
+### With Retry and Backoff
+
+```python
+import time
+from typing import Optional
+
+def api_request_with_retry(
+    url: str,
+    api_key: str,
+    max_retries: int = 3
+) -> Optional[dict]:
+    headers = {"Authorization": f"Bearer {api_key}"}
+    wait_time = 1
+
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(url, headers=headers, timeout=10)
+
+            if response.status_code == 200:
+                return response.json()
+            elif response.status_code == 429:
+                print(f"Rate limited. Waiting {wait_time}s...")
+                time.sleep(wait_time)
+                wait_time *= 2
+            else:
+                print(f"Error: HTTP {response.status_code}")
+                return None
+        except requests.exceptions.RequestException as e:
+            print(f"Request failed: {e}")
+            time.sleep(wait_time)
+            wait_time *= 2
+
+    return None
+```
+
+### Bash Request
+
+```bash
+#!/bin/bash
+API_KEY=$(python3 -c "import json; print(json.load(open('secrets.json'))['github_token'])")
+
+curl -s -H "Authorization: Bearer $API_KEY" \
+  -H "Accept: application/json" \
+  "https://api.github.com/user" | jq '.'
+```
+
+## Error Handling
+
+```python
+try:
+    response = requests.get(url, headers=headers, timeout=10)
+    response.raise_for_status()
+    data = response.json()
+except requests.exceptions.HTTPError as e:
+    if e.response.status_code == 429:
+        print("Rate limited - waiting")
+    elif e.response.status_code == 401:
+        print("Unauthorized - check API key")
+    else:
+        print(f"HTTP error: {e}")
+except requests.exceptions.ConnectionError:
+    print("Connection error")
+except requests.exceptions.Timeout:
+    print("Request timeout")
+```
+
+## HTTP Status Codes
+
+| Code | Meaning | Action |
+|------|---------|--------|
+| 200 | Success | Process response |
+| 401 | Unauthorized | Check API key |
+| 403 | Forbidden | Check permissions |
+| 404 | Not found | Verify endpoint |
+| 429 | Rate limited | Wait and retry |
+| 5xx | Server error | Retry with backoff |
+
+## Caching
+
+```python
+import time
+
+cache = {}
+CACHE_TTL = 3600  # 1 hour
+
+def cached_request(url: str, api_key: str) -> dict:
+    now = time.time()
+
+    if url in cache:
+        data, timestamp = cache[url]
+        if now - timestamp < CACHE_TTL:
+            return data
+
+    data = api_request(url, api_key)
+    cache[url] = (data, now)
+    return data
+```
+
+## Rate Limiting
+
+### Check Headers
+
+```bash
+curl -I -H "Authorization: Bearer $API_KEY" "https://api.github.com/user" | grep -i rate
+# x-ratelimit-limit: 5000
+# x-ratelimit-remaining: 4999
+```
+
+### Implement Delays
+
+```python
+import time
+
+def bulk_requests(urls: list, api_key: str, delay: float = 1.0):
+    results = []
+    for url in urls:
+        result = api_request(url, api_key)
+        results.append(result)
+        time.sleep(delay)
+    return results
+```
+
+## Pagination
+
+```python
+def fetch_all_pages(base_url: str, api_key: str) -> list:
+    all_items = []
+    page = 1
+
+    while True:
+        url = f"{base_url}?page={page}&per_page=100"
+        data = api_request(url, api_key)
+
+        if not data:
+            break
+
+        all_items.extend(data)
+        page += 1
+        time.sleep(1)  # Respect rate limits
+
+    return all_items
+```
 
 ## Best Practices
 
-### Route Organization
+### DO ✅
+- Store keys in secrets.json
+- Implement retry with exponential backoff
+- Cache responses when appropriate
+- Respect rate limits
+- Handle errors gracefully
+- Log requests (without sensitive data)
 
-```
-app/api/
-  ├── posts/
-  │   ├── route.ts           # GET, POST
-  │   └── [id]/
-  │       └── route.ts       # GET, PUT, DELETE
-  ├── users/
-  │   ├── route.ts
-  │   └── [id]/
-  │       └── route.ts
-  └── auth/
-      └── callback/
-          └── route.ts
-```
+### DON'T ❌
+- Hardcode API keys
+- Ignore rate limits
+- Skip error handling
+- Make requests in tight loops
+- Log API keys
 
-### Validation Strategy
+## API Etiquette Checklist
 
-- Validate all input data with Zod
-- Use `.parse()` for strict validation (throws on error)
-- Use `.safeParse()` for custom error handling
-- Create separate schemas for create/update operations
-- Add custom refinements for complex validations
+- [ ] Read API documentation and ToS
+- [ ] Check rate limits
+- [ ] Store keys securely
+- [ ] Implement rate limiting
+- [ ] Add error handling
+- [ ] Cache appropriately
+- [ ] Monitor usage
 
-### Error Handling
+## Related Resources
 
-- Always use try-catch in route handlers
-- Use custom error classes for different error types
-- Log errors server-side
-- Never expose sensitive error details to client
-- Return consistent error response format
-
-### Type Safety
-
-- Export types from Zod schemas using `z.infer`
-- Use TypeScript strict mode
-- Add JSDoc comments for better IDE support
-- Create shared types for common patterns
-
-## Limitations
-
-- Next.js App Router only (not Pages Router)
-- REST APIs (GraphQL requires additional setup)
-- PostgreSQL assumed (can be adapted for other databases)
-- Authentication requires additional configuration
-
-## Future Enhancements
-
-- GraphQL schema generation
-- OpenAPI/Swagger documentation generation
-- API rate limiting middleware
-- Request caching strategies
-- Webhook handlers
-- Real-time API support (Server-Sent Events)
-- API versioning support
-- Automated API testing generation
-
----
-
-**Skill Version:** 1.0.0
-**Last Updated:** 2026-01-04
-**Maintainer:** Turbocat Agent System
+See `AgentUsage/api_usage.md` for complete documentation including:
+- Bash request patterns
+- Conditional requests (ETags)
+- Advanced caching strategies
+- Specific API examples (GitHub, OpenWeather)

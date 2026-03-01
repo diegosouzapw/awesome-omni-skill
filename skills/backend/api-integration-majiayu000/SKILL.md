@@ -1,451 +1,404 @@
 ---
 name: api-integration
-slug: api-integration
-version: 1.0.0
-category: core
-description: Generate Next.js App Router API routes with Zod validation and TypeScript types
-triggers:
-  - pattern: "api|endpoint|route|fetch|request|rest|graphql"
-    confidence: 0.6
-    examples:
-      - "create an API endpoint"
-      - "build a REST API"
-      - "I need API routes for CRUD"
-      - "generate endpoint for users"
-      - "create a fetch request handler"
-      - "create endpoints to fetch data"
-mcp_dependencies:
-  - server: context7
-    required: false
-    capabilities:
-      - "search"
-  - server: exa
-    required: false
-    capabilities:
-      - "search"
+description: Integrate Apidog + OpenAPI specifications with your React app. Covers MCP server setup, type generation, and query layer integration. Use when setting up API clients, generating types from OpenAPI, or integrating with Apidog MCP.
 ---
 
-# API Integration Skill
+# API Integration (Apidog + MCP)
 
-Automatically generate production-ready Next.js 15 App Router API routes with Zod validation, TypeScript types, and comprehensive error handling. This skill transforms natural language API requirements into fully functional RESTful endpoints following Next.js best practices.
+Integrate OpenAPI specifications with your frontend using Apidog MCP for single source of truth.
 
-## Overview
+## Goal
 
-This skill generates:
-- **Next.js App Router API routes** (TypeScript)
-- **Zod validation schemas** for request/response
-- **TypeScript type definitions** (auto-inferred from Zod)
-- **Error handling utilities** (consistent error responses)
-- **RESTful conventions** (proper HTTP methods and status codes)
+The AI agent always uses the latest API specification to generate types and implement features correctly.
 
-## When to Use This Skill
+## Architecture
 
-Activate this skill when the user requests:
-- API endpoint creation
-- REST API development
-- Route handlers
-- CRUD operations
-- HTTP request/response handling
-- Data validation for APIs
-- GraphQL resolvers (basic)
+```
+Apidog (or Backend)
+  → OpenAPI 3.0/3.1 Spec
+    → MCP Server (apidog-mcp-server)
+      → AI Agent reads spec
+        → Generate TypeScript types
+          → TanStack Query hooks
+            → React Components
+```
 
-## Key Features
+## Process
 
-### 1. Automatic Route Generation
+### 1. Expose OpenAPI from Apidog
 
-Generates Next.js 15 App Router route handlers:
+**Option A: Remote URL**
+- Export OpenAPI spec from Apidog
+- Host at a URL (e.g., `https://api.example.com/openapi.json`)
 
-```typescript
-// app/api/posts/route.ts
-import { NextRequest, NextResponse } from 'next/server'
-import { postSchema } from '@/lib/validations/post'
-import { handleAPIError } from '@/lib/api/errors'
+**Option B: Local File**
+- Export OpenAPI spec to file
+- Place in project (e.g., `./api-spec/openapi.json`)
 
-export async function GET(request: NextRequest) {
-  try {
-    const { searchParams } = new URL(request.url)
-    const page = parseInt(searchParams.get('page') || '1')
-    const limit = parseInt(searchParams.get('limit') || '10')
+### 2. Wire MCP Server
 
-    // Fetch posts from database
-    const posts = await db.query.posts.findMany({
-      limit,
-      offset: (page - 1) * limit,
-    })
-
-    return NextResponse.json({ posts, page, limit })
-  } catch (error) {
-    return handleAPIError(error)
-  }
-}
-
-export async function POST(request: NextRequest) {
-  try {
-    const body = await request.json()
-    const validated = postSchema.parse(body)
-
-    // Create post in database
-    const post = await db.insert(posts).values(validated).returning()
-
-    return NextResponse.json(post, { status: 201 })
-  } catch (error) {
-    return handleAPIError(error)
+```json
+// .claude/mcp.json or settings
+{
+  "mcpServers": {
+    "API specification": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "apidog-mcp-server@latest",
+        "--oas=https://api.example.com/openapi.json"
+      ]
+    }
   }
 }
 ```
 
-### 2. CRUD Operations Mapping
+**With Local File:**
+```json
+{
+  "mcpServers": {
+    "API specification": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "apidog-mcp-server@latest",
+        "--oas=./api-spec/openapi.json"
+      ]
+    }
+  }
+}
+```
 
-Automatically maps CRUD operations to HTTP methods:
+**Multiple APIs:**
+```json
+{
+  "mcpServers": {
+    "Main API": {
+      "command": "npx",
+      "args": ["-y", "apidog-mcp-server@latest", "--oas=https://api.main.com/openapi.json"]
+    },
+    "Auth API": {
+      "command": "npx",
+      "args": ["-y", "apidog-mcp-server@latest", "--oas=https://api.auth.com/openapi.json"]
+    }
+  }
+}
+```
 
-| Operation | HTTP Method | Route Pattern | Description |
-|-----------|-------------|---------------|-------------|
-| List | GET | `/api/posts` | Get all resources |
-| Get | GET | `/api/posts/[id]` | Get single resource |
-| Create | POST | `/api/posts` | Create new resource |
-| Update | PUT/PATCH | `/api/posts/[id]` | Update existing resource |
-| Delete | DELETE | `/api/posts/[id]` | Delete resource |
+### 3. Generate Types & Client
 
-### 3. Zod Validation Schemas
+Create `/src/api` directory for all API-related code:
 
-Generates type-safe validation schemas:
+```
+/src/api/
+  ├── types.ts          # Generated from OpenAPI
+  ├── client.ts         # HTTP client (axios/fetch)
+  ├── queries/          # TanStack Query hooks
+  │   ├── users.ts
+  │   ├── posts.ts
+  │   └── ...
+  └── mutations/        # TanStack Mutation hooks
+      ├── users.ts
+      ├── posts.ts
+      └── ...
+```
 
+**Option A: Hand-Written Types (Lightweight)**
 ```typescript
-// lib/validations/post.ts
+// src/api/types.ts
 import { z } from 'zod'
 
-export const postSchema = z.object({
-  title: z.string().min(1).max(200),
-  content: z.string().min(1),
-  published: z.boolean().default(false),
-  authorId: z.string().uuid(),
-  tags: z.array(z.string()).optional(),
-  publishedAt: z.date().optional(),
+// Define schemas from OpenAPI
+export const UserSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  email: z.string().email(),
+  createdAt: z.string().datetime(),
 })
 
-export const createPostSchema = postSchema.omit({ id: true })
-export const updatePostSchema = postSchema.partial()
+export type User = z.infer<typeof UserSchema>
 
-export type Post = z.infer<typeof postSchema>
-export type CreatePost = z.infer<typeof createPostSchema>
-export type UpdatePost = z.infer<typeof updatePostSchema>
+export const CreateUserSchema = UserSchema.omit({ id: true, createdAt: true })
+export type CreateUserDTO = z.infer<typeof CreateUserSchema>
 ```
 
-### 4. Field Type Inference
+**Option B: Code Generation (Recommended for large APIs)**
+```bash
+# Using openapi-typescript
+pnpm add -D openapi-typescript
+npx openapi-typescript https://api.example.com/openapi.json -o src/api/types.ts
 
-Automatically infers Zod types from field names and context:
+# Using orval
+pnpm add -D orval
+npx orval --input https://api.example.com/openapi.json --output src/api
+```
 
-| Field Pattern | Zod Schema | Validation |
-|---------------|------------|------------|
-| `email` | `z.string().email()` | Email format |
-| `url`, `website` | `z.string().url()` | URL format |
-| `age`, `count` | `z.number().int().positive()` | Positive integer |
-| `price`, `amount` | `z.number().positive()` | Positive number |
-| `password` | `z.string().min(8)` | Minimum length |
-| `isActive`, `hasPermission` | `z.boolean()` | Boolean |
-| `tags`, `categories` | `z.array(z.string())` | String array |
-| `createdAt`, `updatedAt` | `z.date()` | Date object |
-
-### 5. Error Handling Utilities
-
-Generates comprehensive error handling:
+### 4. Create HTTP Client
 
 ```typescript
-// lib/api/errors.ts
-import { NextResponse } from 'next/server'
-import { ZodError } from 'zod'
+// src/api/client.ts
+import axios from 'axios'
+import createAuthRefreshInterceptor from 'axios-auth-refresh'
 
-export class APIError extends Error {
-  constructor(
-    message: string,
-    public statusCode: number = 500
-  ) {
-    super(message)
-    this.name = 'APIError'
+export const apiClient = axios.create({
+  baseURL: import.meta.env.VITE_API_URL,
+  headers: {
+    'Content-Type': 'application/json',
+  },
+})
+
+// Request interceptor - add auth token
+apiClient.interceptors.request.use((config) => {
+  const token = localStorage.getItem('accessToken')
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`
+  }
+  return config
+})
+
+// Response interceptor - handle token refresh
+const refreshAuth = async (failedRequest: any) => {
+  try {
+    const refreshToken = localStorage.getItem('refreshToken')
+    const response = await axios.post('/auth/refresh', { refreshToken })
+
+    const { accessToken } = response.data
+    localStorage.setItem('accessToken', accessToken)
+
+    failedRequest.response.config.headers.Authorization = `Bearer ${accessToken}`
+    return Promise.resolve()
+  } catch (error) {
+    localStorage.removeItem('accessToken')
+    localStorage.removeItem('refreshToken')
+    window.location.href = '/login'
+    return Promise.reject(error)
   }
 }
 
-export class NotFoundError extends APIError {
-  constructor(resource: string) {
-    super(`${resource} not found`, 404)
-    this.name = 'NotFoundError'
-  }
+createAuthRefreshInterceptor(apiClient, refreshAuth, {
+  statusCodes: [401],
+  pauseInstanceWhileRefreshing: true,
+})
+```
+
+### 5. Build Query Layer
+
+**Feature-based query organization:**
+
+```typescript
+// src/api/queries/users.ts
+import { queryOptions } from '@tanstack/react-query'
+import { apiClient } from '../client'
+import { User, UserSchema } from '../types'
+
+// Query key factory
+export const usersKeys = {
+  all: ['users'] as const,
+  lists: () => [...usersKeys.all, 'list'] as const,
+  list: (filters: string) => [...usersKeys.lists(), { filters }] as const,
+  details: () => [...usersKeys.all, 'detail'] as const,
+  detail: (id: string) => [...usersKeys.details(), id] as const,
 }
 
-export class ValidationError extends APIError {
-  constructor(message: string) {
-    super(message, 400)
-    this.name = 'ValidationError'
-  }
+// API functions
+async function fetchUsers(): Promise<User[]> {
+  const response = await apiClient.get('/users')
+  return z.array(UserSchema).parse(response.data)
 }
 
-export class UnauthorizedError extends APIError {
-  constructor(message: string = 'Unauthorized') {
-    super(message, 401)
-    this.name = 'UnauthorizedError'
-  }
+async function fetchUser(id: string): Promise<User> {
+  const response = await apiClient.get(`/users/${id}`)
+  return UserSchema.parse(response.data)
 }
 
-export function handleAPIError(error: unknown) {
-  console.error('API Error:', error)
+// Query options
+export function usersListQueryOptions() {
+  return queryOptions({
+    queryKey: usersKeys.lists(),
+    queryFn: fetchUsers,
+    staleTime: 30_000,
+  })
+}
 
-  if (error instanceof ZodError) {
-    return NextResponse.json(
-      {
-        error: 'Validation failed',
-        issues: error.issues,
-      },
-      { status: 400 }
-    )
-  }
+export function userQueryOptions(id: string) {
+  return queryOptions({
+    queryKey: usersKeys.detail(id),
+    queryFn: () => fetchUser(id),
+    staleTime: 60_000,
+  })
+}
 
-  if (error instanceof APIError) {
-    return NextResponse.json(
-      {
-        error: error.message,
-      },
-      { status: error.statusCode }
-    )
-  }
+// Hooks
+export function useUsers() {
+  return useQuery(usersListQueryOptions())
+}
 
-  return NextResponse.json(
-    {
-      error: 'Internal server error',
+export function useUser(id: string) {
+  return useQuery(userQueryOptions(id))
+}
+```
+
+**Mutations:**
+
+```typescript
+// src/api/mutations/users.ts
+import { useMutation, useQueryClient } from '@tanstack/react-query'
+import { apiClient } from '../client'
+import { CreateUserDTO, User, UserSchema } from '../types'
+import { usersKeys } from '../queries/users'
+
+async function createUser(data: CreateUserDTO): Promise<User> {
+  const response = await apiClient.post('/users', data)
+  return UserSchema.parse(response.data)
+}
+
+export function useCreateUser() {
+  const queryClient = useQueryClient()
+
+  return useMutation({
+    mutationFn: createUser,
+    onSuccess: (newUser) => {
+      // Add to cache
+      queryClient.setQueryData(usersKeys.detail(newUser.id), newUser)
+
+      // Invalidate list
+      queryClient.invalidateQueries({ queryKey: usersKeys.lists() })
     },
-    { status: 500 }
+  })
+}
+```
+
+## Validation Strategy
+
+**Always validate API responses:**
+
+```typescript
+import { z } from 'zod'
+
+// Runtime validation
+async function fetchUser(id: string): Promise<User> {
+  const response = await apiClient.get(`/users/${id}`)
+
+  try {
+    return UserSchema.parse(response.data)
+  } catch (error) {
+    console.error('API response validation failed:', error)
+    throw new Error('Invalid API response format')
+  }
+}
+```
+
+**Or use safe parse:**
+```typescript
+const result = UserSchema.safeParse(response.data)
+
+if (!result.success) {
+  console.error('Validation errors:', result.error.errors)
+  throw new Error('Invalid user data')
+}
+
+return result.data
+```
+
+## Error Handling
+
+**Global error handling:**
+```typescript
+import { QueryCache } from '@tanstack/react-query'
+
+const queryCache = new QueryCache({
+  onError: (error, query) => {
+    if (axios.isAxiosError(error)) {
+      if (error.response?.status === 404) {
+        toast.error('Resource not found')
+      } else if (error.response?.status === 500) {
+        toast.error('Server error. Please try again.')
+      }
+    }
+  },
+})
+```
+
+## Best Practices
+
+1. **Single Source of Truth** - OpenAPI spec via MCP is authoritative
+2. **Validate Responses** - Use Zod schemas for runtime validation
+3. **Encapsulation** - Keep all API details in `/src/api`
+4. **Type Safety** - Export types from generated/hand-written schemas
+5. **Error Handling** - Handle auth errors, network errors, validation errors
+6. **Query Key Factories** - Hierarchical keys for flexible invalidation
+7. **Feature-Based Organization** - Group queries/mutations by feature
+
+## Workflow with AI Agent
+
+1. **Agent reads latest OpenAPI spec** via Apidog MCP
+2. **Agent generates or updates** types in `/src/api/types.ts`
+3. **Agent implements queries** following established patterns
+4. **Agent creates mutations** with proper invalidation
+5. **Agent updates components** to use new API hooks
+
+## Example: Full Feature Implementation
+
+```typescript
+// 1. Types (generated or hand-written)
+// src/api/types.ts
+export const TodoSchema = z.object({
+  id: z.string(),
+  text: z.string(),
+  completed: z.boolean(),
+})
+export type Todo = z.infer<typeof TodoSchema>
+
+// 2. Queries
+// src/api/queries/todos.ts
+export const todosKeys = {
+  all: ['todos'] as const,
+  lists: () => [...todosKeys.all, 'list'] as const,
+}
+
+export function todosQueryOptions() {
+  return queryOptions({
+    queryKey: todosKeys.lists(),
+    queryFn: async () => {
+      const response = await apiClient.get('/todos')
+      return z.array(TodoSchema).parse(response.data)
+    },
+  })
+}
+
+// 3. Mutations
+// src/api/mutations/todos.ts
+export function useCreateTodo() {
+  const queryClient = useQueryClient()
+
+  return useMutation({
+    mutationFn: async (text: string) => {
+      const response = await apiClient.post('/todos', { text })
+      return TodoSchema.parse(response.data)
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: todosKeys.lists() })
+    },
+  })
+}
+
+// 4. Component
+// src/features/todos/TodoList.tsx
+export function TodoList() {
+  const { data: todos } = useQuery(todosQueryOptions())
+  const createTodo = useCreateTodo()
+
+  return (
+    <div>
+      {todos?.map(todo => <TodoItem key={todo.id} {...todo} />)}
+      <AddTodoForm onSubmit={(text) => createTodo.mutate(text)} />
+    </div>
   )
 }
 ```
 
-### 6. Request/Response Types
+## Related Skills
 
-Generates consistent API response types:
-
-```typescript
-// lib/api/types.ts
-export interface APIResponse<T = unknown> {
-  data?: T
-  error?: string
-  message?: string
-}
-
-export interface PaginatedResponse<T> {
-  data: T[]
-  page: number
-  limit: number
-  total: number
-  hasMore: boolean
-}
-
-export interface APIErrorResponse {
-  error: string
-  issues?: Array<{
-    path: string[]
-    message: string
-  }>
-}
-```
-
-## Execution Steps
-
-When this skill is activated:
-
-1. **Parse API Requirements**
-   - Extract resource name from prompt
-   - Identify CRUD operations needed
-   - Detect field types and validation rules
-   - Determine authentication requirements
-
-2. **Generate Route Structure**
-   - Create appropriate directory structure
-   - Generate route.ts files for each endpoint
-   - Add dynamic route segments for single resources
-   - Include middleware for auth if needed
-
-3. **Create Validation Schemas**
-   - Generate Zod schemas for each resource
-   - Add field-specific validations
-   - Create create/update schema variants
-   - Export TypeScript types
-
-4. **Add Error Handling**
-   - Generate error classes
-   - Create handleAPIError utility
-   - Add try-catch blocks in routes
-   - Include proper status codes
-
-5. **Generate Type Definitions**
-   - Create TypeScript interfaces
-   - Export request/response types
-   - Generate pagination types if needed
-   - Add JSDoc comments
-
-6. **Write Output Files**
-   - `app/api/{resource}/route.ts` - List and Create operations
-   - `app/api/{resource}/[id]/route.ts` - Get, Update, Delete operations
-   - `lib/validations/{resource}.ts` - Zod schemas
-   - `lib/api/errors.ts` - Error handling utilities
-   - `lib/api/types.ts` - Shared TypeScript types
-
-## Usage Examples
-
-### Example 1: Simple CRUD API
-
-**User Prompt:**
-"Create a REST API for managing blog posts with CRUD operations"
-
-**Generated Output:**
-- `app/api/posts/route.ts` - GET (list) and POST (create)
-- `app/api/posts/[id]/route.ts` - GET (single), PUT (update), DELETE
-- `lib/validations/post.ts` - Zod schemas
-- All routes with error handling and validation
-
-### Example 2: API with Custom Fields
-
-**User Prompt:**
-"Create an API endpoint for users with email, name, age, and avatar URL"
-
-**Generated Output:**
-```typescript
-// Zod schema with field-specific validations
-const userSchema = z.object({
-  email: z.string().email(),
-  name: z.string().min(1).max(100),
-  age: z.number().int().positive().max(150),
-  avatarUrl: z.string().url().optional(),
-})
-```
-
-### Example 3: Authenticated API
-
-**User Prompt:**
-"Create protected API routes for managing user profiles with authentication"
-
-**Generated Output:**
-- Routes with auth middleware
-- Session validation
-- User-scoped queries
-- Proper 401 error handling
-
-## RESTful Conventions
-
-### HTTP Status Codes
-
-The skill uses proper status codes:
-
-- `200 OK` - Successful GET, PUT, PATCH
-- `201 Created` - Successful POST
-- `204 No Content` - Successful DELETE
-- `400 Bad Request` - Validation errors
-- `401 Unauthorized` - Authentication required
-- `403 Forbidden` - Insufficient permissions
-- `404 Not Found` - Resource not found
-- `500 Internal Server Error` - Server errors
-
-### Response Formats
-
-Consistent JSON responses:
-
-```typescript
-// Success response
-{
-  "data": { ... }
-}
-
-// Error response
-{
-  "error": "Error message",
-  "issues": [ ... ] // For validation errors
-}
-
-// Paginated response
-{
-  "data": [ ... ],
-  "page": 1,
-  "limit": 10,
-  "total": 50,
-  "hasMore": true
-}
-```
-
-## MCP Integration
-
-### Context7 (Optional)
-
-When Context7 MCP is available:
-- Search Next.js documentation for latest patterns
-- Find existing API route examples in codebase
-- Reference authentication patterns
-
-### Exa (Optional)
-
-When Exa MCP is available:
-- Search for Next.js 15 App Router best practices
-- Find Zod validation examples
-- Discover error handling patterns
-
-## Best Practices
-
-### Route Organization
-
-```
-app/api/
-  ├── posts/
-  │   ├── route.ts           # GET, POST
-  │   └── [id]/
-  │       └── route.ts       # GET, PUT, DELETE
-  ├── users/
-  │   ├── route.ts
-  │   └── [id]/
-  │       └── route.ts
-  └── auth/
-      └── callback/
-          └── route.ts
-```
-
-### Validation Strategy
-
-- Validate all input data with Zod
-- Use `.parse()` for strict validation (throws on error)
-- Use `.safeParse()` for custom error handling
-- Create separate schemas for create/update operations
-- Add custom refinements for complex validations
-
-### Error Handling
-
-- Always use try-catch in route handlers
-- Use custom error classes for different error types
-- Log errors server-side
-- Never expose sensitive error details to client
-- Return consistent error response format
-
-### Type Safety
-
-- Export types from Zod schemas using `z.infer`
-- Use TypeScript strict mode
-- Add JSDoc comments for better IDE support
-- Create shared types for common patterns
-
-## Limitations
-
-- Next.js App Router only (not Pages Router)
-- REST APIs (GraphQL requires additional setup)
-- PostgreSQL assumed (can be adapted for other databases)
-- Authentication requires additional configuration
-
-## Future Enhancements
-
-- GraphQL schema generation
-- OpenAPI/Swagger documentation generation
-- API rate limiting middleware
-- Request caching strategies
-- Webhook handlers
-- Real-time API support (Server-Sent Events)
-- API versioning support
-- Automated API testing generation
-
----
-
-**Skill Version:** 1.0.0
-**Last Updated:** 2026-01-04
-**Maintainer:** Turbocat Agent System
+- **tanstack-query** - Query and mutation patterns
+- **tooling-setup** - TypeScript configuration for generated types
+- **core-principles** - Project structure with `/src/api` directory

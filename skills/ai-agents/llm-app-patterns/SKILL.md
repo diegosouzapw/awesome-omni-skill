@@ -1,9 +1,6 @@
 ---
 name: llm-app-patterns
-description: "Production-ready patterns for building LLM applications. Covers RAG pipelines, agent architectures, prompt IDEs, and LLMOps monitoring. Use when designing AI applications, implementing RAG, buildin..."
-risk: unknown
-source: community
-date_added: "2026-02-27"
+description: "Production-ready patterns for building LLM applications. Covers RAG pipelines, agent architectures, prompt IDEs, and LLMOps monitoring. Use when designing AI applications, implementing RAG, building agents, or setting up LLM observability."
 ---
 
 # 🤖 LLM Application Patterns
@@ -477,7 +474,7 @@ class PromptChain:
 
             # Parse output if needed
             if step.get("parser"):
-                output = step"parser"
+                output = step["parser"](output)
 
             context[step["output_key"]] = output
             results.append({

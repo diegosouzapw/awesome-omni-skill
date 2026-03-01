@@ -7,9 +7,9 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/add-admin-api-endpoint-tryghost-ghost/SKILL.md",
+  "file_path": "skills/data/add-admin-api-endpoint/SKILL.md",
   "source": "github_curated_repos",
-  "stars": 94,
+  "stars": 95,
   "quality_score": 60,
   "best_practices_score": 55,
   "skill_level": 3,
@@ -18,9 +18,9 @@
   "has_extra_files": true,
   "downloads": 0,
   "content_hash": "b0989868e4d8f9237b391746995629836682d08fb05b3a0f09c3b0e6b9c303cd",
-  "indexed_at": "2026-02-28T00:32:50.764Z",
-  "synced_at": "2026-02-28T04:27:22.859Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/c3ca42436e691847ce45909e223b0d87a02ba083238f5b084c0f428105662812",
-  "install_command": "mkdir -p .claude/skills/add-admin-api-endpoint && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/add-admin-api-endpoint-tryghost-ghost/SKILL.md\" > .claude/skills/add-admin-api-endpoint/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/add-admin-api-endpoint-tryghost-ghost/SKILL.md"
+  "indexed_at": "2026-03-01T01:01:58.966Z",
+  "synced_at": "2026-03-01T06:20:12.452Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b5609391a343660fbcc87ac7fec1fe40b06ca03aea37d4eec5b65f242f2acc18",
+  "install_command": "mkdir -p .claude/skills/add-admin-api-endpoint && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/add-admin-api-endpoint/SKILL.md\" > .claude/skills/add-admin-api-endpoint/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/add-admin-api-endpoint/SKILL.md"
 }

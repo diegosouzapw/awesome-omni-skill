@@ -1,9 +1,7 @@
 ---
 name: aws-serverless
-description: "Specialized skill for building production-ready serverless applications on AWS. Covers Lambda functions, API Gateway, DynamoDB, SQS/SNS event-driven patterns, SAM/CDK deployment, and cold start opt..."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
-date_added: "2026-02-27"
+description: "Specialized skill for building production-ready serverless applications on AWS. Covers Lambda functions, API Gateway, DynamoDB, SQS/SNS event-driven patterns, SAM/CDK deployment, and cold start optimization."
+source: vibeship-spawner-skills (Apache 2.0)
 ---
 
 # AWS Serverless
@@ -323,6 +321,3 @@ Blocking DNS lookups or connections worsen cold starts.
 | Issue | medium | ## Tell Lambda not to wait for event loop |
 | Issue | medium | ## For large file uploads |
 | Issue | high | ## Use different buckets/prefixes |
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.

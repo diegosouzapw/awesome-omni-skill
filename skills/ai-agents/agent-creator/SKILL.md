@@ -1,754 +1,658 @@
 ---
 name: agent-creator
-description: Comprehensive guide for creating high-quality specialized agents following v2 architecture patterns. Use this skill when users need to design and implement new agents, understand agent architecture, or learn best practices for agent creation.
-license: MIT
+description: Creates specialized AI agents with optimized system prompts using the official 4-phase SOP methodology from Desktop .claude-flow, combined with evidence-based prompting techniques and Claude Agent SDK implementation. Use this skill when creating production-ready agents for specific domains, workflows, or tasks requiring consistent high-quality performance with deeply embedded domain knowledge.
 ---
 
-# Agent Creator
+# Agent Creator - Enhanced with 4-Phase SOP Methodology
 
-**Purpose**: Teach the principles, patterns, and practices for creating high-quality specialized agents that follow v2 architecture standards.
-
-**Critical Use Case**: This skill provides structured guidance for creating agents from requirements through deployment, preventing common mistakes and ensuring quality through automated validation.
-
-**Differentiation from agent-hr-manager**:
-- **agent-creator** (this skill) = Teaching guide, knowledge resource, passive reference 📖
-- **agent-hr-manager** (agent) = Autonomous executor, active creator, can use this skill 👨‍🏫
-
-Use agent-creator when learning how to create agents. Use agent-hr-manager when you want an agent automatically created.
-
----
+This skill provides the **official comprehensive framework** for creating specialized AI agents, integrating the proven 4-phase methodology from Desktop .claude-flow with Claude Agent SDK implementation and evidence-based prompting techniques.
 
 ## When to Use This Skill
 
-Use agent-creator when:
-- Creating a new specialized agent from scratch
-- Learning agent architecture and design patterns
-- Understanding quality validation (0-80 rubric)
-- Troubleshooting agent quality issues
-- Migrating agents to v2 architecture
-- Training others on agent creation
+Use agent-creator for:
+- Creating project-specialized agents with deeply embedded domain knowledge
+- Building agents for recurring tasks requiring consistent behavior
+- Rewriting existing agents to optimize performance
+- Creating multi-agent workflows with sequential or parallel coordination
+- Agents that will integrate with MCP servers and Claude Flow
 
-Do NOT use for:
-- Creating skills (use skill-creator skill instead)
-- Quick agent modifications (just edit directly)
-- General Claude usage questions
+## The 4-Phase Agent Creation Methodology
+
+**Source**: Desktop `.claude-flow/` official SOP documentation
+**Total Time**: 2.5-4 hours per agent (first-time), 1.5-2 hours (speed-run)
+
+This methodology was developed through systematic reverse engineering of fog-compute agent creation and validated through production use.
+
+### Phase 1: Initial Analysis & Intent Decoding (30-60 minutes)
+
+**Objective**: Deep domain understanding through systematic research, not assumptions.
+
+**Activities**:
+1. **Domain Breakdown**
+   - What problem does this agent solve?
+   - What are the key challenges in this domain?
+   - What patterns do human experts use?
+   - What are common failure modes?
+
+2. **Technology Stack Mapping**
+   - What tools, frameworks, libraries are used?
+   - What file types, formats, protocols?
+   - What integrations or APIs?
+   - What configuration patterns?
+
+3. **Integration Points**
+   - What MCP servers will this agent use?
+   - What other agents will it coordinate with?
+   - What data flows in/out?
+   - What memory patterns needed?
+
+**Validation Gate**:
+- [ ] Can describe domain in specific, technical terms
+- [ ] Identified 5+ key challenges
+- [ ] Mapped technology stack comprehensively
+- [ ] Clear on integration requirements
+
+**Outputs**:
+- Domain analysis document
+- Technology stack inventory
+- Integration requirements list
 
 ---
 
-## 6-Step Agent Creation Workflow
+### Phase 2: Meta-Cognitive Extraction (30-45 minutes)
 
-### Step 0: Research Existing Patterns (BEFORE DESIGN)
+**Objective**: Identify the cognitive expertise domains activated when you reason about this agent's tasks.
 
-**Objective**: Understand what already exists before creating something new. This prevents duplicate agents and ensures you leverage proven patterns.
+**Activities**:
+1. **Expertise Domain Identification**
+   - What knowledge domains are activated when you think about this role?
+   - What heuristics, patterns, rules-of-thumb?
+   - What decision-making frameworks?
+   - What quality standards?
 
-**Why this matters**: Creating an agent without research leads to:
-- Duplicating existing agent functionality
-- Missing reusable patterns from similar agents
-- Not discovering skills that solve part of the problem
-- Reinventing methodology that already exists
-
-**Actions**:
-
-1. **Search for Similar Agents**:
-   ```bash
-   # List all available agents
-   ls ~/.claude/agents/ | head -20
-
-   # Search for agents in similar domain
-   grep -l "[domain-keyword]" ~/.claude/agents/*.md 2>/dev/null
-   ```
-
-2. **Review Relevant Agent Examples**:
-   - Read `references/agent-examples.md` for quality patterns
-   - Study agents with high quality scores (60+/80)
-   - Note phase structures that work for similar domains
-
-3. **Check Skill Inventory**:
-   ```bash
-   # List available skills
-   ls ~/.claude/skills/
-
-   # Search for domain-relevant skills
-   grep -r "[domain-keyword]" ~/.claude/skills/*/SKILL.md 2>/dev/null | head -10
-   ```
-
-4. **Decision Checkpoint** (REQUIRED):
+2. **Agent Specification Creation**
    ```markdown
-   | Question | Answer |
-   |----------|--------|
-   | Similar agent exists? | [yes/no - if yes, consider tuning instead] |
-   | Relevant skills found? | [list skills to integrate] |
-   | Reusable patterns identified? | [list patterns to follow] |
-   | Proceed with new agent? | [yes with justification] |
+   # Agent Specification: [Name]
+
+   ## Role & Expertise
+   - Primary role: [Specific title]
+   - Expertise domains: [List activated domains]
+   - Cognitive patterns: [Heuristics used]
+
+   ## Core Capabilities
+   1. [Capability with specific examples]
+   2. [Capability with specific examples]
+   ...
+
+   ## Decision Frameworks
+   - When X, do Y because Z
+   - Always check A before B
+   - Never skip validation of C
+
+   ## Quality Standards
+   - Output must meet [criteria]
+   - Performance measured by [metrics]
+   - Failure modes to prevent: [list]
    ```
 
-5. **Research Novel Domains** (if unfamiliar):
-   - Use WebSearch for domain best practices
-   - Find authoritative sources and frameworks
-   - Document key methodologies the agent should follow
+3. **Supporting Artifacts**
+   - Create examples of good vs bad outputs
+   - Document edge cases
+   - List common pitfalls
 
-**Deliverable**: Research summary documenting similar agents, skills to integrate, and justification for new agent.
+**Validation Gate**:
+- [ ] Identified 3+ expertise domains
+- [ ] Documented 5+ decision heuristics
+- [ ] Created complete agent specification
+- [ ] Examples demonstrate quality standards
+
+**Outputs**:
+- Agent specification document
+- Example outputs (good/bad)
+- Edge case inventory
 
 ---
 
-### Step 1: Temporal Awareness & Requirements Gathering (CRITICAL)
+### Phase 3: Agent Architecture Design (45-60 minutes)
 
-**Objective**: Establish current date context and understand what the agent needs to do.
+**Objective**: Transform specification into production-ready base system prompt.
 
-#### 1.1 Establish Temporal Context (REQUIRED)
+**Activities**:
+1. **System Prompt Structure Design**
 
-**Why this matters**: Legal documents, contracts, compliance reports, and project documentation with incorrect dates create serious risks. The pizza baker contract bug (January 2025 vs November 2025) demonstrated this - wrong dates in legal documents can affect validity and compliance.
-
-**Implementation**:
-```markdown
-## Phase 1: [Phase Name] & Temporal Awareness
-
-**Objective**: [Phase goal]
-
-**Actions**:
-1. **Establish Temporal Context** (REQUIRED):
-   ```bash
-   CURRENT_DATE=$(date '+%Y-%m-%d')          # ISO 8601: 2025-11-06
-   READABLE_DATE=$(date '+%B %d, %Y')        # Human: November 06, 2025
-   TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S %Z') # Full: 2025-11-06 12:34:56 EET
-   ```
-   - Use CURRENT_DATE for document metadata, version numbers
-   - Use READABLE_DATE for human-readable headers
-   - Use TIMESTAMP for detailed audit trails
-
-2. [Other Phase 1 actions...]
-
-**Deliverable**: [Concrete output]
-```
-
-**Validation**: The validate_agent.py script checks for temporal awareness pattern in Phase 1.
-
-#### 1.2 Gather Requirements
-
-**Key Questions**:
-1. **Problem Definition**: What problem does this agent solve?
-2. **Domain Expertise**: What specialized knowledge is needed?
-3. **Tool Requirements**: Which tools will it need? (Read, Write, Edit, Bash, Grep, Glob, etc.)
-4. **Typical Workflow**: What is the step-by-step process?
-5. **Success Metrics**: How do we know it worked?
-6. **Edge Cases**: What unusual situations must it handle?
-
-**Techniques**:
-- **Example-Based**: Ask for 2-3 concrete usage examples
-- **Anti-Pattern Analysis**: What should it NOT do?
-- **Boundary Testing**: What are the limits (file size, complexity, scope)?
-
-**Output**: Requirements document or clear mental model before proceeding.
-
----
-
-### Step 1.5: Skill Discovery & Integration Planning
-
-**Objective**: Identify which existing skills to integrate into the agent and how.
-
-**Why this matters**: This skill moves beyond "prompt engineering" into "cognitive architecture" — ensuring the agent doesn't use a hammer for a screw. Proper skill integration gives agents specialized capabilities without reinventing them.
-
-**Actions**:
-
-1. **Map Requirements to Skill Categories**:
    ```markdown
-   | Agent Requirement | Skill Category | Candidate Skills |
-   |-------------------|----------------|------------------|
-   | Debugging logic | Reasoning | hypothesis-elimination, self-reflecting-chain |
-   | Security review | Development | security-analysis-skills, adversarial-reasoning |
-   | Documentation | Documentation | document-writing-skills |
-   | Database ops | Integration | chromadb-integration-skills |
-   | Testing | Development | testing-methodology-skills |
-   | Error handling | Development | error-handling-skills |
+   # [AGENT NAME] - SYSTEM PROMPT v1.0
+
+   ## 🎭 CORE IDENTITY
+
+   I am a **[Role Title]** with comprehensive, deeply-ingrained knowledge of [domain]. Through systematic reverse engineering and domain expertise, I possess precision-level understanding of:
+
+   - **[Domain Area 1]** - [Specific capabilities from Phase 2]
+   - **[Domain Area 2]** - [Specific capabilities from Phase 2]
+   - **[Domain Area 3]** - [Specific capabilities from Phase 2]
+
+   My purpose is to [primary objective] by leveraging [unique expertise].
+
+   ## 📋 UNIVERSAL COMMANDS I USE
+
+   **File Operations**:
+   - /file-read, /file-write, /glob-search, /grep-search
+   WHEN: [Specific situations from domain analysis]
+   HOW: [Exact patterns]
+
+   **Git Operations**:
+   - /git-status, /git-commit, /git-push
+   WHEN: [Specific situations]
+   HOW: [Exact patterns]
+
+   **Communication & Coordination**:
+   - /memory-store, /memory-retrieve
+   - /agent-delegate, /agent-escalate
+   WHEN: [Specific situations]
+   HOW: [Exact patterns with namespace conventions]
+
+   ## 🎯 MY SPECIALIST COMMANDS
+
+   [List role-specific commands with exact syntax and examples]
+
+   ## 🔧 MCP SERVER TOOLS I USE
+
+   **Claude Flow MCP**:
+   - mcp__claude-flow__agent_spawn
+     WHEN: [Specific coordination scenarios]
+     HOW: [Exact function call patterns]
+
+   - mcp__claude-flow__memory_store
+     WHEN: [Cross-agent data sharing]
+     HOW: [Namespace pattern: agent-role/task-id/data-type]
+
+   **[Other relevant MCP servers from Phase 1]**
+
+   ## 🧠 COGNITIVE FRAMEWORK
+
+   ### Self-Consistency Validation
+   Before finalizing deliverables, I validate from multiple angles:
+   1. [Domain-specific validation 1]
+   2. [Domain-specific validation 2]
+   3. [Cross-check with standards]
+
+   ### Program-of-Thought Decomposition
+   For complex tasks, I decompose BEFORE execution:
+   1. [Domain-specific decomposition pattern]
+   2. [Dependency analysis]
+   3. [Risk assessment]
+
+   ### Plan-and-Solve Execution
+   My standard workflow:
+   1. PLAN: [Domain-specific planning]
+   2. VALIDATE: [Domain-specific validation]
+   3. EXECUTE: [Domain-specific execution]
+   4. VERIFY: [Domain-specific verification]
+   5. DOCUMENT: [Memory storage patterns]
+
+   ## 🚧 GUARDRAILS - WHAT I NEVER DO
+
+   [From Phase 2 failure modes and edge cases]
+
+   **[Failure Category 1]**:
+   ❌ NEVER: [Dangerous pattern]
+   WHY: [Consequences from domain knowledge]
+
+   WRONG:
+     [Bad example]
+
+   CORRECT:
+     [Good example]
+
+   ## ✅ SUCCESS CRITERIA
+
+   Task complete when:
+   - [ ] [Domain-specific criterion 1]
+   - [ ] [Domain-specific criterion 2]
+   - [ ] [Domain-specific criterion 3]
+   - [ ] Results stored in memory
+   - [ ] Relevant agents notified
+
+   ## 📖 WORKFLOW EXAMPLES
+
+   ### Workflow 1: [Common Task Name from Phase 1]
+
+   **Objective**: [What this achieves]
+
+   **Step-by-Step Commands**:
+   ```yaml
+   Step 1: [Action]
+     COMMANDS:
+       - /[command-1] --params
+       - /[command-2] --params
+     OUTPUT: [Expected]
+     VALIDATION: [Check]
+
+   Step 2: [Next Action]
+     COMMANDS:
+       - /[command-3] --params
+     OUTPUT: [Expected]
+     VALIDATION: [Check]
    ```
 
-2. **Evaluate Each Candidate Skill**:
+   **Timeline**: [Duration]
+   **Dependencies**: [Prerequisites]
+   ```
+
+2. **Evidence-Based Technique Integration**
+
+   For each technique (from existing agent-creator skill):
+   - Self-consistency: When to use, how to apply
+   - Program-of-thought: Decomposition patterns
+   - Plan-and-solve: Planning frameworks
+
+   Integrate these naturally into the agent's methodology.
+
+3. **Quality Standards & Guardrails**
+
+   From Phase 2 failure modes, create explicit guardrails:
+   - What patterns to avoid
+   - What validations to always run
+   - When to escalate vs. retry
+   - Error handling protocols
+
+**Validation Gate**:
+- [ ] System prompt follows template structure
+- [ ] All Phase 2 expertise embedded
+- [ ] Evidence-based techniques integrated
+- [ ] Guardrails cover identified failure modes
+- [ ] 2+ workflow examples with exact commands
+
+**Outputs**:
+- Base system prompt (v1.0)
+- Cognitive framework specification
+- Guardrails documentation
+
+---
+
+### Phase 4: Deep Technical Enhancement (60-90 minutes)
+
+**Objective**: Reverse-engineer exact implementation patterns and document with precision.
+
+**Activities**:
+1. **Code Pattern Extraction**
+
+   For technical agents, extract EXACT patterns from codebase:
    ```markdown
-   | Skill | Size | Active? | Integrate or Inline? |
-   |-------|------|---------|---------------------|
-   | [skill-name] | [lines] | [yes/no] | [integrate/inline/skip] |
+   ## Code Patterns I Recognize
+
+   ### Pattern: [Name]
+   **File**: `path/to/file.py:123-156`
+
+   ```python
+   class ExamplePattern:
+       def __init__(
+           self,
+           param1: Type = default,  # Line 125: Exact default
+           param2: Type = default   # Line 126: Exact default
+       ):
+           # Extracted from actual implementation
+           pass
    ```
 
-   **Decision Criteria**:
-   - **Integrate** if: Skill >100 lines, actively maintained, reusable
-   - **Inline** if: Simple pattern <20 lines, agent-specific variant needed
-   - **Skip** if: Not relevant after review
+   **When I see this pattern, I know**:
+   - [Specific insight about architecture]
+   - [Specific constraint or requirement]
+   - [Common mistake to avoid]
+   ```
 
-3. **Document Skills Integration**:
+2. **Critical Failure Mode Documentation**
+
+   From experience and domain knowledge:
    ```markdown
-   **Skills Integration**: skill-1, skill-2, skill-3
-   ```
-   This goes in the agent's header metadata.
+   ## Critical Failure Modes
 
-4. **Plan Skill Invocation Points**:
+   ### Failure: [Name]
+   **Severity**: Critical/High/Medium
+   **Symptoms**: [How to recognize]
+   **Root Cause**: [Why it happens]
+   **Prevention**:
+     ❌ DON'T: [Bad pattern]
+     ✅ DO: [Good pattern with exact code]
+
+   **Detection**:
+     ```bash
+     # Exact command to detect this failure
+     [command]
+     ```
+   ```
+
+3. **Integration Patterns**
+
+   Document exact MCP tool usage:
    ```markdown
-   | Phase | When to Invoke | Skill |
-   |-------|----------------|-------|
-   | Phase 2 | Complex decision | integrated-reasoning-v2 |
-   | Phase 3 | Design validation | adversarial-reasoning |
-   | Phase 4 | Error recovery | hypothesis-elimination |
+   ## MCP Integration Patterns
+
+   ### Pattern: Cross-Agent Data Sharing
+   ```javascript
+   // Exact pattern for storing outputs
+   mcp__claude-flow__memory_store({
+     key: "marketing-specialist/campaign-123/audience-analysis",
+     value: {
+       segments: [...],
+       targeting: {...},
+       confidence: 0.89
+     },
+     ttl: 86400
+   })
    ```
 
-5. **Check for Handover/Parallelism Needs**:
-   - Will the agent need multi-pattern reasoning? → Add reasoning-handover-protocol
-   - Will tasks run in parallel? → Add parallel-execution skill
-   - See `cognitive-skills/INTEGRATION_GUIDE.md` for patterns
+   **Namespace Convention**:
+   - Format: `{agent-role}/{task-id}/{data-type}`
+   - Example: `backend-dev/api-v2/schema-design`
+   ```
 
-**Deliverable**: Skill integration plan with invocation points documented.
+4. **Performance Metrics**
 
----
+   Define what to track:
+   ```markdown
+   ## Performance Metrics I Track
 
-### Step 2: Architecture Design
+   ```yaml
+   Task Completion:
+     - /memory-store --key "metrics/[my-role]/tasks-completed" --increment 1
+     - /memory-store --key "metrics/[my-role]/task-[id]/duration" --value [ms]
 
-**Objective**: Design the agent's phase structure, tool selection, and quality criteria.
+   Quality:
+     - validation-passes: [count successful validations]
+     - escalations: [count when needed help]
+     - error-rate: [failures / attempts]
 
-#### 2.1 Determine Agent Complexity
+   Efficiency:
+     - commands-per-task: [avg commands used]
+     - mcp-calls: [tool usage frequency]
+   ```
 
-**Decision Tree: Simple vs Complex Agent**
+   These metrics enable continuous improvement.
+   ```
 
-**Simple Agent** (3 phases, <200 lines):
-- Single domain focus (e.g., PDF manipulation, CSV parsing)
-- Linear workflow (no branching)
-- Minimal state management
-- Examples: pdf-creator-agent, code-formatter
+**Validation Gate**:
+- [ ] Code patterns include file/line references
+- [ ] Failure modes have detection + prevention
+- [ ] MCP patterns show exact syntax
+- [ ] Performance metrics defined
+- [ ] Agent can self-improve through metrics
 
-**Complex Agent** (4-5 phases, 200-250 lines):
-- Multiple operation modes (e.g., create, read, update)
-- Conditional branching or decision trees
-- State tracking across phases
-- Examples: legal-agent, ceo-orchestrator, agent-hr-manager
-
-**When to use integrated-reasoning-v2**: 8+ decision dimensions, strategic importance, >90% confidence required
-- **9 patterns available**: ToT, BoT, SRC, HE, AR, DR, AT, RTR, NDF
-- **11 scoring dimensions** for pattern selection
-- See `cognitive-skills/INTEGRATION_GUIDE.md` for full integration patterns
-
-#### 2.2 Design Phase Structure
-
-**Guidelines** (from agent-design-patterns.md):
-- **3-5 phases optimal** (2 too simple, 6+ too complex)
-- Each phase has ONE clear objective
-- Actions are SPECIFIC, not generic
-- Deliverables are CONCRETE artifacts
-
-**Phase Structure Template**:
-```markdown
-## Phase N: [Descriptive Name]
-
-**Objective**: [One sentence describing the goal]
-
-**Actions**:
-1. [Specific action with tool: "Use Grep to search for X pattern in Y files"]
-2. [Specific action with tool: "Use Edit to modify lines 45-52 in config.yml"]
-3. [Specific action with condition: "If errors found, use TodoWrite to track fixes"]
-
-**Deliverable**: [Concrete output: "List of 5 validated regex patterns with test cases"]
-```
-
-**Example from kaggle-leak-auditor**:
-- Phase 1: Static Code Analysis → List of violations
-- Phase 2: Runtime Validation → Validation results
-- Phase 3: Report Generation → Audit report with recommendations
-
-#### 2.3 Select Tools
-
-**Common Tool Combinations**:
-- **File analysis**: Read, Grep, Glob
-- **Code modification**: Read, Edit, Write
-- **Research**: WebSearch, WebFetch, Read
-- **Execution**: Bash, TodoWrite, Read
-- **Complex tasks**: Task (invoke other agents)
-
-**Tool Selection Criteria**:
-1. **Minimal set**: Only include tools actually used in phases
-2. **Specific over general**: Edit > Write for modifications
-3. **Composed workflows**: Grep to find, Read to analyze, Edit to modify
-
-#### 2.4 Define Success Criteria (10-16 items)
-
-**Categories**:
-1. **Phase Deliverables** (3-5 items): "✅ Phase 1 violations list complete with severity scores"
-2. **Quality Gates** (2-3 items): "✅ All findings validated with evidence"
-3. **Confidence** (1 item): "✅ Confidence level >85% with clear reasoning"
-4. **Documentation** (2-3 items): "✅ Report includes examples and references"
-5. **Edge Cases** (2-3 items): "✅ Handled missing files gracefully"
-6. **Temporal** (1 item): "✅ Document dated with current date"
-
-**Format**:
-```markdown
-## Success Criteria
-
-- ✅ Temporal awareness established in Phase 1
-- ✅ Phase 1 deliverable: [specific output]
-- ✅ Phase 2 deliverable: [specific output]
-- ✅ All files created/modified successfully
-- ✅ Quality validation passed with score ≥70/80
-- ✅ Confidence level >85% with supporting evidence
-- ✅ Edge cases documented and handled
-- ✅ Reference documentation created (if using progressive disclosure)
-[10-16 total items]
-```
-
-#### 2.5 Design Self-Critique (6-10 questions)
-
-**Question Categories**:
-1. **Completeness**: "Did I check all [domain-specific items]?"
-2. **Confidence**: "What is my confidence level? Why?"
-3. **Assumptions**: "What assumptions did I make?"
-4. **False Positives**: "Could [finding X] be wrong? How?"
-5. **False Negatives**: "What might I have missed?"
-6. **Verification**: "How can user verify this?"
-7. **Temporal**: "Did I use current date correctly?"
-
-**Format**:
-```markdown
-## Self-Critique
-
-1. **Domain Accuracy**: Did I correctly apply [domain] expertise?
-2. **Tool Selection**: Did I use optimal tools for each task?
-3. **Edge Cases**: Did I handle errors and failures gracefully?
-4. **Temporal Accuracy**: Did I establish current date in Phase 1?
-5. **Confidence Basis**: What evidence supports my confidence level?
-6. **Assumptions**: What assumptions should the user validate?
-[6-10 total questions]
-```
-
-#### 2.6 Define Confidence Thresholds
-
-**Three-Tier System**:
-```markdown
-## Confidence Thresholds
-
-- **High (85-95%)**: [Specific conditions: "All criteria met, deliverables complete, tests passed"]
-- **Medium (70-84%)**: [Conditions: "Most criteria met, minor issues present, acceptable quality"]
-- **Low (<70%)**: [Conditions: "Significant issues, incomplete work - continue working"]
-```
-
-**Domain-Specific Examples**:
-- **Code analysis**: Based on test coverage, execution traces
-- **Legal**: Based on citation verification, precedent alignment
-- **Research**: Based on source quality, corroboration
-- **Debugging**: Based on reproduction success, log evidence
+**Outputs**:
+- Enhanced system prompt (v2.0)
+- Code pattern library
+- Failure mode handbook
+- Integration pattern guide
+- Metrics specification
 
 ---
 
-### Step 3: Implementation
+## Integrated Agent Creation Process
 
-**Objective**: Write the agent definition file following v2 architecture.
+Combining 4-phase SOP with existing best practices:
 
-#### 3.1 Create Agent Frontmatter
+### Complete Workflow
 
-**Template**:
-```yaml
----
-name: agent-name
-description: Clear one-sentence description. Use when [specific trigger conditions]. Examples: [concrete user questions].
-tools: Read, Write, Edit, Bash, Grep, Glob, TodoWrite
-model: claude-sonnet-4-5
-color: blue
----
-```
+1. **Phase 1: Domain Analysis** (30-60 min)
+   - Research domain systematically
+   - Map technology stack
+   - Identify integration points
+   - Output: Domain analysis doc
 
-**Guidelines**:
-- **name**: Hyphen-case (my-agent-name), <40 chars
-- **description**: Include WHEN to use + example questions
-- **tools**: Only list tools actually used in phases
-- **model**: Usually claude-sonnet-4-5 (use opus for complex reasoning)
-- **color**: blue/green/purple/gold/red for visual grouping
+2. **Phase 2: Expertise Extraction** (30-45 min)
+   - Identify cognitive domains
+   - Create agent specification
+   - Document decision frameworks
+   - Output: Agent spec + examples
 
-#### 3.2 Write Agent Opening
+3. **Phase 3: Architecture Design** (45-60 min)
+   - Draft base system prompt
+   - Integrate evidence-based techniques
+   - Add quality guardrails
+   - Output: Base prompt v1.0
 
-**Structure**:
-```markdown
-# Agent Name
+4. **Phase 4: Technical Enhancement** (60-90 min)
+   - Extract code patterns
+   - Document failure modes
+   - Define MCP integrations
+   - Add performance metrics
+   - Output: Enhanced prompt v2.0
 
-**Purpose**: [1-2 sentences on what this agent does]
+5. **SDK Implementation** (30-60 min)
+   - Implement with Claude Agent SDK
+   - Configure tools and permissions
+   - Set up MCP servers
+   - Output: Production agent
 
-**Core Responsibilities**:
-1. [Responsibility 1 with domain context]
-2. [Responsibility 2 with domain context]
-3. [Responsibility 3 with domain context]
-[3-7 items total]
+6. **Testing & Validation** (30-45 min)
+   - Test typical cases
+   - Test edge cases
+   - Test error handling
+   - Verify consistency
+   - Output: Test report
 
-**Specialized Knowledge** (if applicable):
-- Domain-specific terminology
-- Technical constraints
-- Industry standards
-```
+7. **Documentation & Packaging** (15-30 min)
+   - Create agent README
+   - Document usage examples
+   - Package supporting files
+   - Output: Complete agent package
 
-#### 3.3 Add Decision Tree (if multi-mode)
-
-**When to include**: Agent operates in different modes or scenarios
-
-**Template**:
-```markdown
-## Decision Tree: [What to Decide]
-
-When tasked with [type of request], first determine the appropriate [mode/type]:
-
-**Mode A** - Use when:
-- [Condition 1]
-- [Condition 2]
-- User asks "[example question]"
-→ Follow Phase 1A-2A workflow
-
-**Mode B** - Use when:
-- [Condition 1]
-- [Condition 2]
-- User asks "[example question]"
-→ Follow Phase 1B-2B workflow
-```
-
-#### 3.4 Implement Phases (from Step 2.2)
-
-**Critical**: First phase MUST include temporal awareness pattern.
-
-#### 3.5 Add Success Criteria, Self-Critique, Confidence (from Step 2.4-2.6)
-
-#### 3.6 Consider Progressive Disclosure
-
-**When to extract to references**:
-- Agent would exceed 250 lines with inline details
-- Has extensive pattern catalogs (3+ detailed patterns)
-- Includes large lookup tables or reference data
-- Contains detailed code examples (>30 lines)
-
-**What to extract**:
-- Detailed code examples
-- Technical deep-dives
-- Edge case handling details
-- Reference lookup tables
-
-**Reference in main agent**:
-```markdown
-## Pattern Detection
-
-**Reference Documentation**: `~/.claude/agents-library/refs/[agent]-patterns.md`
-
-**Key patterns** (see reference for details):
-1. Pattern A (CRITICAL)
-2. Pattern B (WARNING)
-3. Pattern C (INFO)
-```
-
-**Line Count Targets**:
-- Main agent: 150-250 lines (ideal: 200)
-- Reference docs: 200+ lines (no limit)
+**Total Time**: 3.5-5.5 hours (first-time), 2-3 hours (speed-run)
 
 ---
 
-### Step 4: Quality Validation
+## Claude Agent SDK Implementation
 
-**Objective**: Score agent quality using 0-80 rubric and iterate if needed.
+Once system prompt is finalized, implement with SDK:
 
-#### 4.1 Use Automated Validation
+### TypeScript Implementation
 
-**Run validate_agent.py**:
-```bash
-~/.claude/skills/agent-creator/scripts/validate_agent.py /path/to/agent.md
+```typescript
+import { query, tool } from '@anthropic-ai/claude-agent-sdk';
+import { z } from 'zod';
+
+// Custom domain-specific tools
+const domainTool = tool({
+  name: 'domain_operation',
+  description: 'Performs domain-specific operation',
+  parameters: z.object({
+    param: z.string()
+  }),
+  handler: async ({ param }) => {
+    // Implementation from Phase 4
+    return { result: 'data' };
+  }
+});
+
+// Agent configuration
+for await (const message of query('Perform domain task', {
+  model: 'claude-sonnet-4-5',
+  systemPrompt: enhancedPromptV2,  // From Phase 4
+  permissionMode: 'acceptEdits',
+  allowedTools: ['Read', 'Write', 'Bash', domainTool],
+  mcpServers: [{
+    command: 'npx',
+    args: ['claude-flow@alpha', 'mcp', 'start'],
+    env: { ... }
+  }],
+  settingSources: ['user', 'project']
+})) {
+  console.log(message);
+}
 ```
 
-**Output**:
+### Python Implementation
+
+```python
+from claude_agent_sdk import query, tool, ClaudeAgentOptions
+import asyncio
+
+@tool()
+async def domain_operation(param: str) -> dict:
+    """Domain-specific operation from Phase 4."""
+    # Implementation
+    return {"result": "data"}
+
+async def run_agent():
+    options = ClaudeAgentOptions(
+        model='claude-sonnet-4-5',
+        system_prompt=enhanced_prompt_v2,  # From Phase 4
+        permission_mode='acceptEdits',
+        allowed_tools=['Read', 'Write', 'Bash', domain_operation],
+        mcp_servers=[{
+            'command': 'npx',
+            'args': ['claude-flow@alpha', 'mcp', 'start']
+        }],
+        setting_sources=['user', 'project']
+    )
+
+    async for message in query('Perform domain task', **options):
+        print(message)
+
+asyncio.run(run_agent())
 ```
-Quality Score: 72/80 (Excellent)
-
-Phase Structure: 15/15 ✅
-Success Criteria: 14/15 ⚠️  (Missing 1 criterion)
-Self-Critique: 10/10 ✅
-Progressive Disclosure: 8/10 ⚠️  (232 lines, close to limit)
-Tool Usage: 10/10 ✅
-Documentation: 5/10 ❌ (Missing examples)
-Edge Case Handling: 10/10 ✅
-
-Recommendations:
-- Add 1 more success criterion (target: 10-16)
-- Add usage examples for better documentation
-```
-
-**Scoring Rubric**:
-- **70-80**: Excellent - production ready
-- **60-69**: Good - minor improvements needed
-- **50-59**: Fair - significant improvements needed
-- **<50**: Poor - major refactoring required
-
-See `references/quality-rubric-explained.md` for detailed breakdown.
-
-#### 4.2 Manual Review Checklist
-
-Even with automated scoring, manually verify:
-
-- [ ] Temporal awareness in Phase 1 with REQUIRED label
-- [ ] All tools in frontmatter are actually used in phases
-- [ ] Success criteria are specific and measurable (not vague)
-- [ ] Self-critique questions are domain-specific (not generic)
-- [ ] Confidence thresholds have concrete conditions
-- [ ] Examples demonstrate real usage (if included)
-- [ ] No spelling errors in critical sections
-- [ ] Markdown formatting is valid
-
-#### 4.3 Iterate if Score <70
-
-**Common improvements**:
-- **Add edge case handling** (+10 pts): Document error conditions
-- **Improve documentation** (+5-10 pts): Add examples, clarify instructions
-- **Refine success criteria** (+3-5 pts): Make more specific and measurable
-- **Progressive disclosure** (+5-10 pts): Extract details to references if >250 lines
-
-**Iterate until score ≥70** or diminishing returns.
 
 ---
 
-### Step 5: Deployment
+## Agent Specialization Patterns
 
-**Objective**: Deploy agent to appropriate location(s) and verify availability.
+From existing agent-creator skill, enhanced with 4-phase methodology:
 
-#### 5.1 Determine Deployment Target(s)
+### Analytical Agents
 
-**Global Library** (`~/.claude/agents-library/`):
-- Persistent across all projects
-- Available to all Claude Code instances
-- Use for: Reusable agents (research, code formatting, validation)
+**Phase 1 Focus**: Evidence evaluation patterns, data quality standards
+**Phase 2 Focus**: Analytical heuristics, validation frameworks
+**Phase 3 Focus**: Self-consistency checking, confidence calibration
+**Phase 4 Focus**: Statistical validation code, error detection patterns
 
-**Local Project** (`.claude/agents/`):
-- Project-specific
-- Version controlled with project
-- Use for: Domain-specific agents (this project's business logic)
+### Generative Agents
 
-**Both**: Deploy to global first, copy to local if project needs it
+**Phase 1 Focus**: Quality criteria, template patterns
+**Phase 2 Focus**: Creative heuristics, refinement cycles
+**Phase 3 Focus**: Plan-and-solve frameworks, requirement tracking
+**Phase 4 Focus**: Generation patterns, quality validation code
 
-#### 5.2 Deploy Agent
+### Diagnostic Agents
 
-**To Global Library**:
-```bash
-cp /path/to/my-agent.md ~/.claude/agents-library/my-agent.md
-```
+**Phase 1 Focus**: Problem patterns, debugging workflows
+**Phase 2 Focus**: Hypothesis generation, systematic testing
+**Phase 3 Focus**: Program-of-thought decomposition, evidence tracking
+**Phase 4 Focus**: Detection scripts, root cause analysis patterns
 
-**To Local Project**:
-```bash
-cp /path/to/my-agent.md ./.claude/agents/my-agent.md
-```
+### Orchestration Agents
 
-**With References**:
-```bash
-# Deploy agent
-cp my-agent.md ~/.claude/agents-library/
-
-# Deploy reference doc
-cp my-agent-patterns.md ~/.claude/agents-library/refs/
-```
-
-#### 5.3 Verify Availability
-
-**Restart Claude Code** to load new agent.
-
-**Test invocation**:
-```
-"[Agent Name], help me with [typical task]"
-```
-
-**Check agent registry** (if using CEO orchestrator):
-- Update CEO's worker agent registry if this is a new operational agent
-- Add estimated duration based on similar agents
+**Phase 1 Focus**: Workflow patterns, dependency management
+**Phase 2 Focus**: Coordination heuristics, error recovery
+**Phase 3 Focus**: Plan-and-solve with dependencies, progress tracking
+**Phase 4 Focus**: Orchestration code, retry logic, escalation paths
 
 ---
 
-## Decision Trees
+## Testing & Validation
 
-### Decision Tree 1: Create New Agent vs Extend Existing
+From existing framework + SOP enhancements:
 
-**Create New Agent** when:
-- New domain/expertise area (e.g., adding legal agent when only have code agents)
-- Different tool requirements (e.g., new agent needs Bash, existing only uses Read/Write)
-- Different phase structure (e.g., new agent has 5 phases, existing has 3)
-- User explicitly requests new agent
+### Test Suite Creation
 
-**Extend Existing Agent** when:
-- Same domain, just adding capabilities (e.g., PDF agent adding form-filling)
-- Same tool set, similar workflow
-- Agent currently <200 lines (room to grow)
-- Change is backward compatible
+1. **Typical Cases** - Expected behavior on common tasks
+2. **Edge Cases** - Boundary conditions and unusual inputs
+3. **Error Cases** - Graceful handling and escalation
+4. **Integration Cases** - End-to-end workflow with other agents
+5. **Performance Cases** - Speed, efficiency, resource usage
 
-**Create New + Deprecate Old** when:
-- Fundamental architecture change (v1 → v2)
-- Existing agent has quality score <40
-- Existing agent >300 lines and unmaintainable
+### Validation Checklist
 
-### Decision Tree 2: When to Use Cognitive Reasoning Patterns
-
-**Use integrated-reasoning-v2** (meta-orchestrator) when:
-- **8+ decision dimensions** (architecture, tools, phases, quality, deployment, etc.)
-- **Strategic importance** (affects multiple projects, long-term impact)
-- **Uncertain which reasoning pattern** is best for the problem
-
-**Direct pattern selection** (skip meta-orchestrator):
-- **Diagnosis/debugging** → Use hypothesis-elimination (HE)
-- **Security review** → Use adversarial-reasoning (AR)
-- **Trade-off resolution** → Use dialectical-reasoning (DR)
-- **Novel problem** → Use analogical-transfer (AT)
-- **Time pressure** → Use rapid-triage-reasoning (RTR)
-- **Stakeholder coordination** → Use negotiated-decision-framework (NDF)
-- **High confidence required** (>90%, mission-critical)
-- **Complex trade-offs** (performance vs accuracy, simplicity vs power)
-
-**Use tree-of-thoughts** when:
-- Clear evaluation criteria exist
-- Need single best solution
-- Medium complexity (4-7 dimensions)
-
-**Use breadth-of-thought** when:
-- Solution space unknown
-- Need to explore all options
-- Multiple valid approaches
-
-**Use self-reflecting-chain** when:
-- Sequential dependencies
-- Need step-by-step validation
-- Logical reasoning with backtracking
-
-**Use direct implementation** when:
-- Simple agent (<3 phases)
-- Well-understood domain
-- Similar agents exist as templates
+- [ ] **Identity**: Agent maintains consistent role
+- [ ] **Commands**: Uses universal commands correctly
+- [ ] **Specialist Skills**: Demonstrates domain expertise
+- [ ] **MCP Integration**: Coordinates via memory and tools
+- [ ] **Guardrails**: Prevents identified failure modes
+- [ ] **Workflows**: Executes examples successfully
+- [ ] **Metrics**: Tracks performance data
+- [ ] **Code Patterns**: Applies exact patterns from Phase 4
+- [ ] **Error Handling**: Escalates appropriately
+- [ ] **Consistency**: Produces stable outputs on repeat
 
 ---
 
-## Common Mistakes to Avoid
+## Quick Reference
 
-See `references/common-mistakes.md` for detailed analysis. Top 5 pitfalls:
+### When to Use Each Phase
 
-### 1. Missing Temporal Awareness ❌
-**Mistake**: Forgetting to check current date in Phase 1
-**Impact**: Documents with wrong dates (legal/compliance risk)
-**Fix**: Always include temporal awareness with REQUIRED label in Phase 1
+**Phase 1 (Analysis)**:
+- Always - Required foundation
+- Especially for domains you're less familiar with
 
-### 2. Vague Success Criteria ❌
-**Mistake**: "✅ Agent works correctly" (not measurable)
-**Impact**: Can't validate agent actually succeeded
-**Fix**: "✅ Generated report includes 5 sections: summary, findings, evidence, recommendations, confidence score"
+**Phase 2 (Expertise Extraction)**:
+- Always - Captures cognitive patterns
+- Essential for complex reasoning tasks
 
-### 3. Generic Self-Critique ❌
-**Mistake**: "Did I do a good job?" (applies to everything)
-**Impact**: Doesn't catch domain-specific errors
-**Fix**: "Did I validate all legal citations against Finlex API?" (domain-specific)
+**Phase 3 (Architecture)**:
+- Always - Creates base system prompt
+- Critical for clear behavioral specification
 
-### 4. Tool Overload ❌
-**Mistake**: Listing 10+ tools in frontmatter when only 3 are used
-**Impact**: Confusing, suggests agent does more than it does
-**Fix**: Only list tools actually referenced in phase actions
+**Phase 4 (Enhancement)**:
+- For production agents
+- For technical domains requiring exact patterns
+- When precision and failure prevention are critical
 
-### 5. No Edge Case Handling ❌
-**Mistake**: Only implementing "happy path"
-**Impact**: Agent fails on unexpected inputs, errors not handled gracefully
-**Fix**: Add "Edge Cases" section, document what to do when things go wrong
+### Speed-Run Approach (Experienced Creators)
 
----
+1. **Combined Phase 1+2** (30 min): Rapid domain analysis + spec
+2. **Phase 3** (30 min): Base prompt from template
+3. **Phase 4** (45 min): Code patterns + failure modes
+4. **Testing** (15 min): Quick validation suite
 
-## Using validate_agent.py
-
-The validation script provides automated quality scoring:
-
-**Basic Usage**:
-```bash
-~/.claude/skills/agent-creator/scripts/validate_agent.py ~/.claude/agents-library/my-agent.md
-```
-
-**Output Interpretation**:
-- **70-80**: Ship it! Excellent quality
-- **60-69**: Almost there, minor fixes
-- **50-59**: Needs work, iterate
-- **<50**: Major refactoring required
-
-**What it checks**:
-- Phase structure (3-5 phases, clear objectives, deliverables)
-- Success criteria (10-16 items, specific)
-- Self-critique (6-10 questions, domain-specific)
-- Progressive disclosure (150-250 line target)
-- Tool usage (tools in frontmatter match phase usage)
-- Documentation (examples, references)
-- Edge case handling (documented error scenarios)
-- Temporal awareness (REQUIRED in Phase 1)
-
-See `references/quality-rubric-explained.md` for scoring details.
+**Total**: 2 hours for experienced creators with templates
 
 ---
 
-## Reference Documentation
+## Examples from Production
 
-This skill includes detailed reference documentation:
+### Example: Marketing Specialist Agent
 
-**`references/agent-examples.md`**: Annotated examples of high-quality agents
-- legal-agent (264 lines, progressive disclosure, 68/80 quality)
-- ceo-orchestrator (244 lines, integrated-reasoning integration)
-- agent-hr-manager (748 lines, meta-agent patterns)
+See: `docs/agent-architecture/agents-rewritten/MARKETING-SPECIALIST-AGENT.md`
 
-**`references/quality-rubric-explained.md`**: Deep-dive on 0-80 scoring system
-- Detailed breakdown of each category
-- Examples of excellent vs poor implementations
-- How to improve scores in each area
+**Phase 1 Output**: Marketing domain analysis, tools (Google Analytics, SEMrush, etc.)
+**Phase 2 Output**: Marketing expertise (CAC, LTV, funnel optimization, attribution)
+**Phase 3 Output**: Base prompt with 9 specialist commands
+**Phase 4 Output**: Campaign workflow patterns, A/B test validation, ROI calculations
 
-**`references/common-mistakes.md`**: Anti-pattern catalog
-- 10 most common agent creation mistakes
-- Real examples from production agents
-- How to detect and fix each mistake
-
-**`references/temporal-awareness-deep.md`**: Why temporal awareness matters
-- Legal/compliance risks of wrong dates
-- The pizza baker contract bug case study
-- Implementation patterns and validation
+**Result**: Production-ready agent with deeply embedded marketing expertise
 
 ---
 
-## Quick Start Examples
+## Maintenance & Iteration
 
-### Example 1: Simple Agent (CSV to Markdown Converter)
+### Continuous Improvement
 
-**Requirements**: Convert CSV files to markdown tables
+1. **Metrics Review**: Weekly review of agent performance metrics
+2. **Failure Analysis**: Document and fix new failure modes
+3. **Pattern Updates**: Add newly discovered code patterns
+4. **Workflow Optimization**: Refine based on usage patterns
 
-**Architecture**:
-- 3 phases (Parse CSV → Format Table → Output Markdown)
-- Tools: Read, Write, Bash
-- <200 lines, no progressive disclosure needed
+### Version Control
 
-**Key Decisions**:
-- Simple agent (linear workflow)
-- No decision tree (single mode)
-- Success criteria: 10 items
-- Self-critique: 6 questions
-
-**Implementation time**: ~20 minutes
-**Expected quality score**: 63-70/80
-
-### Example 2: Complex Agent (Multi-Language Legal Compliance Checker)
-
-**Requirements**: Check code/documents for GDPR, Finnish, and EU law compliance
-
-**Architecture**:
-- 5 phases (Temporal + Scan → Finnish Law → EU Law → Cross-Reference → Report)
-- Tools: Read, Bash, Grep, WebFetch, Task (for legal-agent)
-- 220 lines with references/legal-patterns.md (150 lines)
-
-**Key Decisions**:
-- Complex agent (multi-jurisdiction)
-- Decision tree (document type: code vs contracts vs policies)
-- Success criteria: 14 items
-- Self-critique: 8 questions
-- Uses integrated-reasoning for cross-jurisdiction conflicts
-
-**Implementation time**: ~2 hours
-**Expected quality score**: 72-80/80
+- v1.0: Base prompt from Phase 3
+- v1.x: Minor refinements from testing
+- v2.0: Enhanced with Phase 4 patterns
+- v2.x: Production iterations and improvements
 
 ---
 
-## Summary: 5-Step Workflow
+## Summary
 
-1. **Temporal Awareness & Requirements** → Current date + clear problem definition
-2. **Architecture Design** → Phases, tools, success criteria, self-critique, confidence
-3. **Implementation** → Write agent following v2 patterns (150-250 lines)
-4. **Quality Validation** → Score with validate_agent.py (target: ≥70/80)
-5. **Deployment** → Copy to global library and/or local project
+This enhanced agent-creator skill combines:
+- ✅ Official 4-phase SOP methodology (Desktop .claude-flow)
+- ✅ Evidence-based prompting techniques (self-consistency, PoT, plan-and-solve)
+- ✅ Claude Agent SDK implementation (TypeScript + Python)
+- ✅ Production validation and testing frameworks
+- ✅ Continuous improvement through metrics
 
-**Validation checkpoint**: Run validate_agent.py before deploying!
+Use this methodology to create all 90 specialist agents with:
+- Deeply embedded domain knowledge
+- Exact command and MCP tool specifications
+- Production-ready failure prevention
+- Measurable performance tracking
 
----
-
-**Meta**: This skill was designed using integrated-reasoning (94% confidence) to synthesize patterns from agent-design-patterns.md and 17 production v2 agents.
+**Next**: Begin agent rewrites using this enhanced methodology.

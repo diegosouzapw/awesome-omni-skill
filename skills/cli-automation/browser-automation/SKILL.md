@@ -1,333 +1,70 @@
 ---
 name: browser-automation
-description: "Browser automation for ChatGPT Plus and Gemini Advanced web interfaces. Uses Playwright MCP to interact with your paid subscriptions without API costs. Supports both models for writing comparison."
+description: "Browser automation powers web testing, scraping, and AI agent interactions. The difference between a flaky script and a reliable system comes down to understanding selectors, waiting strategies, and anti-detection patterns.  This skill covers Playwright (recommended) and Puppeteer, with patterns for testing, scraping, and agentic browser control. Key insight: Playwright won the framework war. Unless you need Puppeteer's stealth ecosystem or are Chrome-only, Playwright is the better choice in 202"
+source: vibeship-spawner-skills (Apache 2.0)
 ---
 
-# Browser Automation for AI Web Interfaces
-
-Use your **ChatGPT Plus** and **Gemini Advanced** subscriptions through browser automation. No API costs - just your monthly subscription.
-
----
-
-## How It Works
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    BROWSER AUTOMATION FLOW                       │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  Your Prompt ──► Playwright MCP ──► Browser Instance            │
-│                                           │                      │
-│                              ┌────────────┴────────────┐        │
-│                              ▼                         ▼        │
-│                      ┌─────────────┐           ┌─────────────┐  │
-│                      │  ChatGPT    │           │   Gemini    │  │
-│                      │  chat.openai│           │   gemini.   │  │
-│                      │  .com       │           │   google.com│  │
-│                      └──────┬──────┘           └──────┬──────┘  │
-│                             │                         │         │
-│                             ▼                         ▼         │
-│                      Response captured & returned to you        │
-│                                                                  │
-└─────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## Prerequisites
-
-### 1. Playwright MCP Must Be Active
-
-You have Playwright MCP configured. Verify it's working:
-
-```
-Use browser_snapshot to check if browser is available
-```
-
-### 2. Login Sessions
-
-The browser automation uses saved sessions. You need to log in once:
-
-**First-time setup:**
-1. Navigate to ChatGPT/Gemini
-2. Log in with your credentials
-3. Session is saved for future use
+# Browser Automation
 
----
+You are a browser automation expert who has debugged thousands of flaky tests
+and built scrapers that run for years without breaking. You've seen the
+evolution from Selenium to Puppeteer to Playwright and understand exactly
+when each tool shines.
 
-## ChatGPT Automation
-
-### Step-by-Step Workflow
+Your core insight: Most automation failures come from three sources - bad
+selectors, missing waits, and detection systems. You teach people to think
+like the browser, use the right selectors, and let Playwright's auto-wait
+do its job.
 
-**Step 1: Navigate to ChatGPT**
-```
-browser_navigate → https://chat.openai.com
-```
-
-**Step 2: Check if logged in**
-```
-browser_snapshot → Look for chat input or login button
-```
+For scraping, yo
 
-**Step 3: If not logged in, authenticate**
-```
-browser_click → "Log in" button
-browser_type → Enter email
-browser_click → Continue
-browser_type → Enter password
-browser_click → Log in
-```
+## Capabilities
 
-**Step 4: Start new chat**
-```
-browser_click → "New chat" button (or navigate to chat.openai.com)
-```
+- browser-automation
+- playwright
+- puppeteer
+- headless-browsers
+- web-scraping
+- browser-testing
+- e2e-testing
+- ui-automation
+- selenium-alternatives
 
-**Step 5: Type your prompt**
-```
-browser_type → Your prompt text in the message input
-```
+## Patterns
 
-**Step 6: Submit and wait**
-```
-browser_click → Send button
-browser_wait_for → Wait for response to complete
-```
+### Test Isolation Pattern
 
-**Step 7: Capture response**
-```
-browser_snapshot → Get the response text
-```
+Each test runs in complete isolation with fresh state
 
-### Example: ChatGPT Writing Task
+### User-Facing Locator Pattern
 
-```
-I will now use browser automation to get ChatGPT's response:
+Select elements the way users see them
 
-1. browser_navigate to https://chat.openai.com
-2. browser_snapshot to see current state
-3. browser_type to enter prompt in textarea
-4. browser_click to send
-5. browser_wait_for response
-6. browser_snapshot to capture output
-```
+### Auto-Wait Pattern
 
----
+Let Playwright wait automatically, never add manual waits
 
-## Gemini Automation
+## Anti-Patterns
 
-### Step-by-Step Workflow
+### ❌ Arbitrary Timeouts
 
-**Step 1: Navigate to Gemini**
-```
-browser_navigate → https://gemini.google.com
-```
+### ❌ CSS/XPath First
 
-**Step 2: Check if logged in**
-```
-browser_snapshot → Look for chat input
-```
+### ❌ Single Browser Context for Everything
 
-**Step 3: Type your prompt**
-```
-browser_type → Your prompt in the input area
-```
+## ⚠️ Sharp Edges
 
-**Step 4: Submit**
-```
-browser_press_key → Enter (or click send button)
-```
+| Issue | Severity | Solution |
+|-------|----------|----------|
+| Issue | critical | # REMOVE all waitForTimeout calls |
+| Issue | high | # Use user-facing locators instead: |
+| Issue | high | # Use stealth plugins: |
+| Issue | high | # Each test must be fully isolated: |
+| Issue | medium | # Enable traces for failures: |
+| Issue | medium | # Set consistent viewport: |
+| Issue | high | # Add delays between requests: |
+| Issue | medium | # Wait for popup BEFORE triggering it: |
 
-**Step 5: Wait and capture**
-```
-browser_wait_for → Response generation
-browser_snapshot → Get response
-```
+## Related Skills
 
----
-
-## Practical Commands
-
-### For Claude Code Session
-
-When you want me to use browser automation, say:
-
-```
-"Use browser automation to ask ChatGPT: [your prompt]"
-"Get Gemini's take on: [your prompt]"
-"Compare browser outputs for: [your prompt]"
-```
-
-I will then:
-1. Use Playwright MCP tools
-2. Navigate to the appropriate site
-3. Enter your prompt
-4. Capture and return the response
-
----
-
-## Handling Authentication
-
-### Session Persistence
-
-Browser automation works best with persistent sessions:
-
-```python
-# The Playwright MCP maintains browser state
-# Once logged in, sessions typically persist
-```
-
-### If Session Expires
-
-If you see a login screen:
-
-1. **ChatGPT**: Look for "Log in" button, click it
-2. **Gemini**: Look for "Sign in" button, click it
-3. Complete authentication flow
-4. Resume automation
-
-### Two-Factor Authentication
-
-If 2FA is required:
-1. Automation will pause at 2FA screen
-2. You manually complete 2FA
-3. Automation continues
-
----
-
-## Limitations
-
-### Browser Automation Caveats
-
-| Limitation | Workaround |
-|------------|------------|
-| Slower than API | Use for comparison, not bulk |
-| Can break if UI changes | Report issues, I'll adapt |
-| Requires active session | Keep browser open |
-| Rate limits still apply | Don't spam requests |
-| CAPTCHAs possible | May need manual intervention |
-
-### When NOT to Use Browser Automation
-
-- Bulk content generation (use GLM-4.7 API instead)
-- Time-critical tasks (APIs are faster)
-- Fully automated pipelines (APIs more reliable)
-
-### When TO Use Browser Automation
-
-- Comparing writing styles
-- Using features only in Plus/Advanced
-- Testing latest model versions
-- When APIs are down
-
----
-
-## Comparison Workflow
-
-### Get Same Prompt from Multiple Sources
-
-```
-Step 1: Write with Claude (default, in this conversation)
-Step 2: browser_navigate to ChatGPT, get response
-Step 3: browser_navigate to Gemini, get response
-Step 4: Compare all three side-by-side
-```
-
-### Example Request
-
-```
-"Compare how you, ChatGPT, and Gemini would write a tweet about
-the cardiovascular benefits of SGLT2 inhibitors"
-```
-
-I will:
-1. Write my version (Claude)
-2. Use browser automation to get ChatGPT's version
-3. Use browser automation to get Gemini's version
-4. Present all three for comparison
-
----
-
-## Troubleshooting
-
-### Browser Not Responding
-
-```
-browser_close → Close current browser
-Then start fresh with browser_navigate
-```
-
-### Wrong Page Loaded
-
-```
-browser_snapshot → Check current state
-browser_navigate → Go to correct URL
-```
-
-### Element Not Found
-
-```
-browser_snapshot → Get fresh page state
-Look for correct element reference
-Retry with updated reference
-```
-
-### Session Logged Out
-
-```
-browser_navigate → Go to login page
-Complete login flow
-Resume automation
-```
-
----
-
-## Integration with Multi-Model Writer
-
-This skill works with `multi-model-writer`:
-
-```
-API Models:
-- /write-glm → Z.AI API
-- /write-gpt → OpenAI API
-- /write-gemini → Google AI Studio API
-
-Browser Models:
-- /browser-chatgpt → ChatGPT Plus web
-- /browser-gemini → Gemini Advanced web
-```
-
-Use APIs for speed and reliability.
-Use browser for subscription-only features or comparison.
-
----
-
-## Example Session
-
-```
-User: "Use browser to compare how ChatGPT writes about statins"
-
-Claude: I'll get ChatGPT's perspective using browser automation.
-
-[Uses browser_navigate to https://chat.openai.com]
-[Uses browser_snapshot to verify page state]
-[Uses browser_type to enter: "Write a patient-friendly explanation of how statins work"]
-[Uses browser_click to send]
-[Uses browser_wait_for to wait for response]
-[Uses browser_snapshot to capture response]
-
-Here's what ChatGPT wrote:
-[Response text]
-
-Compared to my approach:
-[Claude's version]
-
-Key differences:
-- ChatGPT emphasized X while I focused on Y
-- Tone: ChatGPT more conversational, mine more clinical
-- Length: Similar word count
-```
-
----
-
-*Browser automation gives you access to your paid subscriptions programmatically, complementing the API-based models in your arsenal.*
+Works well with: `agent-tool-builder`, `workflow-automation`, `computer-use-agents`, `test-architect`

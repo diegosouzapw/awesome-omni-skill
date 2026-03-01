@@ -1,9 +1,7 @@
 ---
 name: upstash-qstash
-description: "Upstash QStash expert for serverless message queues, scheduled jobs, and reliable HTTP-based task delivery without managing infrastructure. Use when: qstash, upstash queue, serverless cron, schedul..."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
-date_added: "2026-02-27"
+description: "Upstash QStash expert for serverless message queues, scheduled jobs, and reliable HTTP-based task delivery without managing infrastructure. Use when: qstash, upstash queue, serverless cron, scheduled http, message queue serverless."
+source: vibeship-spawner-skills (Apache 2.0)
 ---
 
 # Upstash QStash
@@ -68,6 +66,3 @@ Verifying QStash message signatures in your endpoint
 ## Related Skills
 
 Works well with: `vercel-deployment`, `nextjs-app-router`, `redis-specialist`, `email-systems`, `supabase-backend`, `cloudflare-workers`
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
