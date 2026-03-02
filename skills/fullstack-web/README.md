@@ -1,6 +1,6 @@
 # 📂 fullstack-web
 
-> 192 skills in this category
+> 135 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -86,6 +86,8 @@
 | [apply-all-findings](apply-all-findings/) | majiayu000 | ★ 2 | 64% | L3 | Use after code review - implement ALL findings; any finding not fixed MUST have … |
 | [apps-ayokoding-web-developing-content](apps-ayokoding-web-developing-content/) | majiayu000 | ★ 2 | 64% | L3 | Comprehensive guide for creating content on ayokoding-web Hugo site using Hextra… |
 | [apps-ose-platform-web-developing-content](apps-ose-platform-web-developing-content/) | majiayu000 | ★ 2 | 64% | L3 | Guide for creating content on ose-platform-web Hugo site using PaperMod theme. C… |
+| [astro-navigation](astro-navigation/) | majiayu000 | ★ 2 | 64% | L2 | Navigation patterns for Astro sites. Header, footer, mobile menu, breadcrumbs, s… |
+| [asyncredux-flutter-hooks](asyncredux-flutter-hooks/) | majiayu000 | ★ 2 | 64% | L2 | Integrate AsyncRedux with the flutter_hooks package. Covers adding flutter_hooks… |
 | [android-app-icon](android-app-icon/) | majiayu000 | ★ 2 | 60% | L3 | Generate Android adaptive icons from Iconify's 200k+ open source icons |
 | [flutter-expert](flutter-expert/) | majiayu000 | ★ 2 | 60% | L2 | Master Flutter development with Dart 3, advanced widgets, and |
 | [appinsights-instrumentation](appinsights-instrumentation/) | majiayu000 | ★ 2 | 60% | L3 | Instrument a webapp to send useful telemetry data to Azure App Insights |
@@ -104,6 +106,7 @@
 | [app-store-deploy](app-store-deploy/) | majiayu000 | ★ 2 | 53% | L3 | iOS App Store and Google Play submission requirements and process. |
 | [Appium Mobile Testing](appium-mobile-testing/) | majiayu000 | ★ 2 | 53% | L3 | Appium mobile testing framework for iOS and Android automation |
 | [appsec](appsec/) | majiayu000 | ★ 2 | 53% | L3 | Application security - OWASP, validation, secrets. Use when securing the app. |
+| [asset-approval](asset-approval/) | majiayu000 | ★ 2 | 53% | L2 | Use to manage co-marketing asset reviews with traceable evidence and |
 | [alfworld-location-navigator](alfworld-location-navigator/) | majiayu000 | ★ 2 | 51% | L2 | Moves the agent to a specified receptacle or object location within the Alfworld… |
 | [analyze-job-post](analyze-job-post/) | majiayu000 | ★ 2 | 51% | L2 | Analyzes a job offer for fit with the Candidate's profile and recommends an appl… |
 | [applying-a11y-standards](applying-a11y-standards/) | majiayu000 | ★ 2 | 51% | L2 | Rules for ensuring Accessibility (a11y) across the Tourly app. Use to build incl… |
@@ -136,66 +139,6 @@
 | [product-appeal-analyzer](product-appeal-analyzer/) | curiositech | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
 | [product-appeal-analyzer](product-appeal-analyzer/) | NeverSight | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
 | [product-appeal-analyzer](product-appeal-analyzer/) | majiayu000 | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
-| [multi-platform-apps-multi-platform](multi-platform-apps-multi-platform/) | ranbot-ai | ★ 0 | 45% | L3 | Build and deploy the same feature consistently across web, mobile, and desktop p… |
-| [app-builder](app-builder/) | ranbot-ai | ★ 0 | 45% | L3 | Main application building orchestrator. Creates full-stack applications from nat… |
-| [observe-whatsapp](observe-whatsapp/) | sickn33 | ★ 0 | 45% | L3 | Observe and troubleshoot WhatsApp in Kapso: debug message delivery, inspect webh… |
-| [clawsino-play](clawsino-play/) | anthonymq | ★ 0 | 45% | L3 | Play and operate the Clawsino casino webapp (dice + slots) via its HTTP API or U… |
-| [write-documents](write-documents/) | majiayu000 | ★ 0 | 45% | L2 | Apply when creating or editing INFO, SPEC, IMPL, TEST, FIX documents, or STRUT p… |
-| [mobile-offline-support](mobile-offline-support/) | majiayu000 | ★ 0 | 45% | L3 | Implement offline-first mobile apps with local storage, sync strategies, and con… |
-| [cloud-storage-web](cloud-storage-web/) | TencentCloudBase | ★ 0 | 45% | L3 | Complete guide for CloudBase cloud storage using Web SDK (@cloudbase/js-sdk) - u… |
-| [product-appeal-analyzer](product-appeal-analyzer/) | majiayu000 | ★ 0 | 45% | L3 | Evaluate product desirability, market positioning, and emotional resonance—the c… |
-| [flutter-expert](flutter-expert/) | itsimonfredlingjack | ★ 0 | 45% | L2 | Master Flutter development with Dart 3, advanced widgets, and multi-platform dep… |
-| [mobile-guide](mobile-guide/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive mobile development guide for iOS, Android, React Native, and Flutt… |
-| [mobile-developer](mobile-developer/) | sergioP1991 | ★ 0 | 45% | L2 | Develop React Native, Flutter, or native mobile apps with modern architecture pa… |
-| [app-builder](app-builder/) | piriya33 | ★ 0 | 45% | L3 | Main application building orchestrator. Creates full-stack applications from nat… |
-| [recon-dir-scan](recon-dir-scan/) | crazyMarky | ★ 0 | 45% | L3 | Directory and file enumeration using ffuf, gobuster, dirsearch, and feroxbuster.… |
-| [flutter-dev](flutter-dev/) | calvingit | ★ 0 | 45% | L3 | Expert guidance for Flutter and Dart development. Use when building Flutter apps… |
-| [u01789-human-approval-routing-for-remote-team-collaboration](u01789-human-approval-routing-for-remote-team-collaboration/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Human Approval Routing for remote team collaboration" capability in… |
-| [u01784-human-approval-routing-for-multilingual-translation-services](u01784-human-approval-routing-for-multilingual-translation-services/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Human Approval Routing for multilingual translation services" capab… |
-| [testing](testing/) | thienty1207 | ★ 0 | 45% | L3 | Comprehensive testing across platforms — Web (Playwright, Vitest), Backend (Rust… |
-| [u01689-human-approval-routing-for-education-support-services](u01689-human-approval-routing-for-education-support-services/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Human Approval Routing for education support services" capability i… |
-| [linear-dev-accelerator](linear-dev-accelerator/) | majiayu000 | ★ 0 | 45% | L2 | Accelerate software development with Linear project management and MCP server in… |
-| [u0532-engineering-human-approval-router](u0532-engineering-human-approval-router/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Engineering Human Approval Router" capability in production for  wo… |
-| [odoo-app-automator](odoo-app-automator/) | majiayu000 | ★ 0 | 45% | L3 | AI agent for automated Odoo module creation, deployment, and third-party integra… |
-| [electron-pro](electron-pro/) | majiayu000 | ★ 0 | 45% | L2 | Desktop application specialist building secure cross-platform solutions. Develop… |
-| [web-to-app](web-to-app/) | anbeime | ★ 0 | 45% | L3 | 将任意网页转换为桌面应用，支持 macOS/Windows/Linux 三大平台。使用 Rust + Tauri 技术栈，生成的应用体积小（约 5MB）、性能高… |
-| [seo-technical](seo-technical/) | anorbert-cmyk | ★ 0 | 45% | L3 | Technical SEO audit across 9 categories including crawlability, indexability, se… |
-| [qa-testing-mobile](qa-testing-mobile/) | vasilyu1983 | ★ 0 | 45% | L2 | Mobile app testing strategy and execution for iOS and Android (native + cross-pl… |
-| [osx-review](osx-review/) | BoltzmannEntropy | ★ 0 | 45% | L3 | Use when preparing mobile/desktop apps for App Store submission, before final re… |
-| [bear](bear/) | majiayu000 | ★ 0 | 45% | L3 | Interacts with Bear note-taking app on macOS via X-Callback-URL. Use when user a… |
-| [bear](bear/) | eanair | ★ 0 | 45% | L3 | Interacts with Bear note-taking app on macOS via X-Callback-URL. Use when user a… |
-| [this-sample-workflow-execute-3-steps-in-sequence](this-sample-workflow-execute-3-steps-in-sequence/) | Tryboy869 | ★ 0 | 45% | L3 | Apply for this-sample-workflow-execute-3-steps-in-sequence. --- description: glo… |
-| [search-web-implementation](search-web-implementation/) | majiayu000 | ★ 0 | 45% | L3 | Search the web monorepo (../app) to find how web handles equivalent functionalit… |
-| [web-e2e](web-e2e/) | majiayu000 | ★ 0 | 45% | L3 | Run, create, and debug Playwright e2e tests for the web app. ALWAYS invoke this … |
-| [web-testing](web-testing/) | PracticalSwan | ★ 0 | 45% | L3 | Playwright automation, Chrome DevTools debugging, and browser interaction testin… |
-| [webxr](webxr/) | majiayu000 | ★ 0 | 45% | L3 | WebXR API enables web-based AR and VR experiences by accessing XR devices direct… |
-| [monetization](monetization/) | gustavscirulis | ★ 0 | 45% | L2 | Monetization strategy for iOS/macOS apps. Covers readiness assessment, pricing m… |
-| [electron-chromium-upgrade](electron-chromium-upgrade/) | majiayu000 | ★ 0 | 45% | L3 | Guide for performing Chromium version upgrades in the Electron project. Use when… |
-| [web-search](web-search/) | zangxin75 | ★ 0 | 45% | L2 | Search the web for real-time information. Note: International search APIs (DuckD… |
-| [rey-web-search](rey-web-search/) | openclaw | ★ 0 | 45% | L2 | Quick web search for information. Returns top results with summaries. Use when u… |
-| [research-web](research-web/) | majiayu000 | ★ 0 | 45% | L2 | Deep web research with parallel investigators, multi-wave exploration, and struc… |
-| [pptx](pptx/) | Aki2022 | ★ 0 | 45% | L3 | Generates PowerPoint presentations from templates with consistent styling across… |
-| [mobile](mobile/) | bulbulogludemir | ★ 0 | 44% | L3 | React Native, Expo, mobile apps. Auto-use for mobile work. |
-| [pocketbase-htmx](pocketbase-htmx/) | jbhicks | ★ 0 | 44% | L2 | Complete guide for HTMX integration with PocketBase web applications in Go |
-| [review-web-launch-checklist](review-web-launch-checklist/) | s-hirano-ist | ★ 0 | 43% | L3 | Webサービス公開前のチェックリストをベースにプロジェクトをレビューし、改善候補をissue化する。 |
-| [app-builder](app-builder/) | Dokhacgiakhoa | ★ 0 | 41% | L3 | Main application building orchestrator. |
-| [app-builder](app-builder/) | darthlinuxer | ★ 0 | 41% | L3 | Main application building orchestrator. Creates full-stack applications |
-| [web](web/) | omkar-ukirde | ★ 0 | 41% | L2 | Web application security testing skills organized by OWASP Top 10 2021 categorie… |
-| [cfn-intervention-system](cfn-intervention-system/) | majiayu000 | ★ 0 | 41% | L2 | Human intervention detection and orchestration for CFN Loop. Use when automated … |
-| [webrtc-timing-test](webrtc-timing-test/) | kwindla | ★ 0 | 38% | L3 | Measure WebRTC connection timing on Daily rooms. Use when testing Daily video ca… |
-| [Chemistry Skill](chemistry-skill/) | AmaiDonatsu | ★ 0 | 38% | L3 | Provides a deep understanding of chemistry through a technical-philosophical app… |
-| [entry-point-check](entry-point-check/) | majiayu000 | ★ 0 | 38% | L2 | 验证 VS 的 entry_points 字段是否与 SPEC_PRJ_ENTRYPOINTS（入口类型标签）一致，生成缺失入口清单和补充建议。当准备 CONS… |
-| [vps-memory](vps-memory/) | majiayu000 | ★ 0 | 38% | L3 | Access Flo's long-term memory on the VPS (OpenClaw). ALWAYS use when the user sa… |
-| [familyjourney](familyjourney/) | theinventor | ★ 0 | 38% | L3 | Interact with FamilyJourney badge-earning app API. Use when users ask about kids… |
-| [web-app-optimization-cursorrules-prompt-file-cursorrules](web-app-optimization-cursorrules-prompt-file-cursorrules/) | Tryboy869 | ★ 0 | 38% | L3 | Apply for web-app-optimization-cursorrules-prompt-file. --- description: Applies… |
-| [research](research/) | jonjonbinx1 | ★ 0 | 37% | L2 | Maximum number of web search queries to issue. Defaults to 3. |
-| [shopify-apps](shopify-apps/) | davila7 | ★ 0 | 32% | L2 | Expert patterns for Shopify app development including Remix/React Router apps, e… |
-| [hlab-executor](hlab-executor/) | majiayu000 | ★ 0 | 29% | L2 | - Follow `AGENTS.md` and `docs/BASELINE.md`. - Apply exact changes requested by … |
-| [gemini](gemini/) | openxjarvis | ★ 0 | 28% | L2 | Google Gemini AI integration |
-| [nano-pdf](nano-pdf/) | openxjarvis | ★ 0 | 28% | L2 | PDF processing and manipulation |
-| [goplaces](goplaces/) | openxjarvis | ★ 0 | 28% | L2 | Location and navigation |
-| [peekaboo](peekaboo/) | openxjarvis | ★ 0 | 28% | L2 | File and system inspection |
-| [mobile](mobile/) | omkar-ukirde | ★ 0 | 25% | L2 | Mobile application security testing skills for Android and iOS platforms. |
 
 ---
 

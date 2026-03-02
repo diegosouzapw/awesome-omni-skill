@@ -1,120 +1,172 @@
 ---
 name: aspire
-description: "**WORKFLOW SKILL** - Orchestrates Aspire applications using the Aspire CLI and MCP tools for running, debugging, and managing distributed apps. USE FOR: aspire run, aspire stop, start aspire app, check aspire resources, list aspire integrations, debug aspire issues, view aspire logs, add aspire resource, aspire dashboard, update aspire apphost. DO NOT USE FOR: non-Aspire .NET apps (use dotnet CLI), container-only deployments (use docker/podman), Azure deployment after local testing (use azure-deploy skill). INVOKES: Aspire MCP tools (list_resources, list_integrations, list_structured_logs, get_doc, search_docs), bash for CLI commands. FOR SINGLE OPERATIONS: Use Aspire MCP tools directly for quick resource status or doc lookups."
+description: Aspire orchestration for cloud-native distributed applications in any language (C#, Python, Node.js, Go). Handles dependency management, local dev with Docker, Azure deployment, service discovery, and observability dashboards. Use when setting up microservices, containerized apps, or polyglot distributed systems.
+version: 1.0.0
+source_urls:
+  - https://learn.microsoft.com/dotnet/aspire/get-started/aspire-overview
+  - https://learn.microsoft.com/dotnet/aspire/fundamentals/setup-tooling
+  - https://github.com/dotnet/aspire
+  - https://learn.microsoft.com/dotnet/aspire/database/postgresql-component
+  - https://learn.microsoft.com/dotnet/aspire/caching/stackexchange-redis-component
+  - https://learn.microsoft.com/dotnet/aspire/deployment/azure/aca-deployment
+  - https://learn.microsoft.com/dotnet/aspire/service-discovery/overview
+  - https://learn.microsoft.com/dotnet/aspire/fundamentals/dashboard
+activation_keywords:
+  - aspire
+  - distributed app
+  - microservices
+  - service discovery
+  - apphost
+  - cloud-native
+  - orchestration
+auto_activate: true
+token_budget: 1800
 ---
 
-# Aspire Skill
+# Aspire Orchestration
 
-This repository is set up to use Aspire. Aspire is an orchestrator for the entire application and will take care of configuring dependencies, building, and running the application. The resources that make up the application are defined in `apphost.cs` including application code and external dependencies.
+## Overview
 
-## General recommendations for working with Aspire
+Code-first orchestration for polyglot distributed apps. AppHost defines topology, `aspire run` orchestrates locally, `azd deploy` deploys to Azure.
 
-1. Before making any changes always run the apphost using `aspire run` and inspect the state of resources to make sure you are building from a known state.
-2. Changes to the _apphost.cs_ file will require a restart of the application to take effect.
-3. Make changes incrementally and run the aspire application using the `aspire run` command to validate changes.
-4. Use the Aspire MCP tools to check the status of resources and debug issues.
+**Auto-activates** on keywords: aspire, microservices, distributed app, service discovery, orchestration
 
-## Running Aspire in agent environments
-
-Agent environments may terminate foreground processes when a command finishes. Use detached mode:
+## Quick Start
 
 ```bash
-aspire run --detach --isolated
+# Install .NET 8+ and Aspire workload
+# See: https://learn.microsoft.com/dotnet/aspire/fundamentals/setup-tooling
+dotnet workload update
+dotnet workload install aspire
+
+# Create AppHost (orchestrates services in ANY language)
+dotnet new aspire-apphost -n MyApp
+
+# Basic AppHost - orchestrate Python, Node.js, .NET services
+var builder = DistributedApplication.CreateBuilder(args);
+var redis = builder.AddRedis("cache");
+
+// Python service
+var pythonApi = builder.AddExecutable("python-api", "python", ".").WithArgs("app.py").WithReference(redis);
+
+// Node.js service
+var nodeApi = builder.AddExecutable("node-api", "node", ".").WithArgs("server.js").WithReference(redis);
+
+// .NET service
+var dotnetApi = builder.AddProject<Projects.Api>("api").WithReference(redis);
+
+builder.Build().Run();
+
+# Run (orchestrates ALL languages)
+aspire run  # Dashboard opens at http://localhost:15888
 ```
 
-This starts the AppHost in the background and returns immediately. The CLI will:
-- Automatically stop any existing running instance before starting a new one
-- Display a summary with the Dashboard URL and resource endpoints
+## Core Workflows
 
-### Stopping the application
-
-To stop a running AppHost:
+### Project Setup
 
 ```bash
-aspire stop
+dotnet new aspire-apphost -n MyApp
+dotnet new webapi -n MyApp.Api
+dotnet add MyApp.AppHost reference MyApp.Api
 ```
 
-This will scan for running AppHosts and stop them gracefully.
+**AppHost**: Resource topology in `Program.cs`
+**ServiceDefaults**: Shared config (logging, telemetry, resilience)
+**Services**: Your apps (APIs, workers, web apps)
 
-### Relaunch rules
+### Dependency Configuration
 
-- If AppHost code changes, run `aspire run --detach` again to restart with the new code.
-- Relaunching is safe: starting a new instance will automatically stop the previous instance.
-- Do not attempt to keep multiple instances running.
+```csharp
+// PostgreSQL
+var postgres = builder.AddPostgres("db").AddDatabase("mydb");
+var api = builder.AddProject<Projects.Api>("api").WithReference(postgres);
 
-## Running the application
+// Redis
+var redis = builder.AddRedis("cache").WithRedisCommander();
+var api = builder.AddProject<Projects.Api>("api").WithReference(redis);
 
-To run the application run the following command:
+// RabbitMQ
+var rabbitmq = builder.AddRabbitMQ("messaging");
+var worker = builder.AddProject<Projects.Worker>("worker").WithReference(rabbitmq);
+
+// Access in code (connection strings auto-injected)
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString("cache");
+});
+```
+
+### Local Development
 
 ```bash
-aspire run
+aspire run  # Starts all services
 ```
 
-If there is already an instance of the application running it will prompt to stop the existing instance. You only need to restart the application if code in `apphost.cs` is changed, but if you experience problems it can be useful to reset everything to the starting state.
+**Dashboard** (localhost:15888): Resources, logs, traces, metrics
+**Hot Reload**: Auto-rebuild on code changes
+**Debugging**: Attach to individual services via IDE
 
-## Checking resources
+### Cloud Deployment
 
-To check the status of resources defined in the app model use the _list resources_ tool. This will show you the current state of each resource and if there are any issues. If a resource is not running as expected you can use the _execute resource command_ tool to restart it or perform other actions.
-
-## Listing integrations
-
-IMPORTANT! When a user asks you to add a resource to the app model you should first use the _list integrations_ tool to get a list of the current versions of all the available integrations. You should try to use the version of the integration which aligns with the version of the Aspire.AppHost.Sdk. Some integration versions may have a preview suffix. Once you have identified the correct integration you should always use the _get integration docs_ tool to fetch the latest documentation for the integration and follow the links to get additional guidance.
-
-## Debugging issues
-
-IMPORTANT! Aspire is designed to capture rich logs and telemetry for all resources defined in the app model. Use the following diagnostic tools when debugging issues with the application before making changes to make sure you are focusing on the right things.
-
-1. _list structured logs_; use this tool to get details about structured logs.
-2. _list console logs_; use this tool to get details about console logs.
-3. _list traces_; use this tool to get details about traces.
-4. _list trace structured logs_; use this tool to get logs related to a trace
-
-## Other Aspire MCP tools
-
-1. _select apphost_; use this tool if working with multiple app hosts within a workspace.
-2. _list apphosts_; use this tool to get details about active app hosts.
-
-## Playwright MCP server
-
-The playwright MCP server has also been configured in this repository and you should use it to perform functional investigations of the resources defined in the app model as you work on the codebase. To get endpoints that can be used for navigation using the playwright MCP server use the list resources tool.
-
-## Updating the app host
-
-The user may request that you update the Aspire apphost. You can do this using the `aspire update` command. This will update the apphost to the latest version and some of the Aspire specific packages in referenced projects, however you may need to manually update other packages in the solution to ensure compatibility. You can consider using the `dotnet-outdated` with the users consent. To install the `dotnet-outdated` tool use the following command:
+See [Azure deployment guide](https://learn.microsoft.com/dotnet/aspire/deployment/azure/aca-deployment).
 
 ```bash
-dotnet tool install --global dotnet-outdated-tool
+azd init  # Initialize Azure Developer CLI
+azd up    # Deploy (generates Bicep → Azure Container Apps)
+azd deploy -e production  # Deploy to specific environment
 ```
 
-## Persistent containers
+**Generates:** Bicep → Container Apps + networking + managed identities
 
-IMPORTANT! Consider avoiding persistent containers early during development to avoid creating state management issues when restarting the app.
+## Navigation Guide
 
-## Aspire workload
+**When setting up projects:**
+- examples.md lines 8-31 → Minimal project
+- examples.md lines 518-608 → Add Python service
+- examples.md lines 610-669 → Add Node.js service
+- examples.md lines 671-768 → Add Go service
 
-IMPORTANT! The aspire workload is obsolete. You should never attempt to install or use the Aspire workload.
+**When adding infrastructure:**
+- reference.md lines 47-148 → Database APIs (PostgreSQL, Redis, MongoDB)
+- examples.md lines 39-95 → Redis integration
+- examples.md lines 102-176 → PostgreSQL integration
 
-## Aspire Documentation Tools
+**When deploying:**
+- commands.md lines 215-288 → Full azd workflow
+- examples.md lines 387-515 → Azure deployment walkthrough
+- patterns.md lines 5-42 → HA configuration
 
-IMPORTANT! The Aspire MCP server provides tools to search and retrieve official Aspire documentation directly. Use these tools to find accurate, up-to-date information about Aspire features, APIs, and integrations:
+**When debugging:**
+- troubleshooting.md lines 5-112 → Orchestration failures
+- troubleshooting.md lines 291-397 → Connection issues
+- commands.md lines 131-179 → Debug commands
 
-1. **list_docs**: Lists all available documentation pages from aspire.dev. Returns titles, slugs, and summaries. Use this to discover available topics.
+## Quick Reference
 
-2. **search_docs**: Searches the documentation using keywords. Returns ranked results with titles, slugs, and matched content. Use this when looking for specific features, APIs, or concepts.
+**Essential commands:** See commands.md for complete reference
 
-3. **get_doc**: Retrieves the full content of a documentation page by its slug. After using `list_docs` or `search_docs` to find a relevant page, pass the slug to `get_doc` to retrieve the complete documentation.
+**Polyglot patterns:**
+```csharp
+builder.AddProject<Projects.Api>("api");  // .NET
+builder.AddExecutable("python-api", "python", ".").WithArgs("app.py");  // Python
+builder.AddExecutable("node-api", "node", ".").WithArgs("server.js");  // Node.js
+builder.AddExecutable("go-svc", "go", ".").WithArgs("run", "main.go");  // Go
+```
 
-### Recommended workflow for documentation
+**Service discovery:** `.WithReference(redis)` in AppHost → `GetConnectionString("cache")` in service
 
-1. Use `search_docs` with relevant keywords to find documentation about a topic
-2. Review the search results - each result includes a **Slug** that identifies the page
-3. Use `get_doc` with the slug to retrieve the full documentation content
-4. Optionally use the `section` parameter with `get_doc` to retrieve only a specific section
+## Integration with Amplihack
 
-## Official documentation
+**Command**: `/ultrathink "Setup Aspire for microservices"`
+- prompt-writer clarifies requirements → architect uses reference.md for API design
+- builder uses examples.md for implementation → reviewer checks patterns.md for best practices
+- tester uses troubleshooting.md for validation
 
-IMPORTANT! Always prefer official documentation when available. The following sites contain the official documentation for Aspire and related components
+**Agent-Skill mapping**:
+- architect → reference.md (API design)
+- builder → examples.md (implementation)
+- reviewer → patterns.md (best practices)
+- tester → troubleshooting.md (validation)
+- all agents → commands.md (CLI operations)
 
-1. https://aspire.dev
-2. https://learn.microsoft.com/dotnet/aspire
-3. https://nuget.org (for specific integration package details)

@@ -1,15 +1,17 @@
 ---
 name: ask-questions-if-underspecified
-description: Clarify requirements before implementing. Use when serious doubts arise.
-use_when: >
-  When a request has multiple plausible interpretations or key details
-  (objective, scope, constraints, environment, or safety) are unclear,
-  load this skill before starting implementation.
-  Do NOT use when the request is already clear or when a quick, low-risk
-  discovery read can answer the missing details.
+description: Clarify requirements before implementing. Use when serious doubts araise.
 ---
 
 # Ask Questions If Underspecified
+
+## When to Use
+
+Use this skill when a request has multiple plausible interpretations or key details (objective, scope, constraints, environment, or safety) are unclear.
+
+## When NOT to Use
+
+Do not use this skill when the request is already clear, or when a quick, low-risk discovery read can answer the missing details.
 
 ## Goal
 
@@ -33,11 +35,14 @@ If multiple plausible interpretations exist, assume it is underspecified.
 
 Ask 1-5 questions in the first pass. Prefer questions that eliminate whole branches of work.
 
-Use the `question` tool to present structured choices:
-- Offer multiple-choice options with clear labels
-- Mark recommended defaults with "(Recommended)" in the label
-- Use `multiple: true` when the user can select several options
-- The user can always select "Other" for custom input
+Make questions easy to answer:
+- Optimize for scannability (short, numbered questions; avoid paragraphs)
+- Offer multiple-choice options when possible
+- Suggest reasonable defaults when appropriate (mark them clearly as the default/recommended choice; bold the recommended choice in the list, or if you present options in a code block, put a bold "Recommended" line immediately above the block and also tag defaults inside the block)
+- Include a fast-path response (e.g., reply `defaults` to accept all recommended/default choices)
+- Include a low-friction "not sure" option when helpful (e.g., "Not sure - use default")
+- Separate "Need to know" from "Nice to know" if that reduces friction
+- Structure options so the user can respond with compact decisions (e.g., `1b 2a 3c`); restate the chosen options in plain language to confirm
 
 ### 3) Pause before acting
 
@@ -52,6 +57,27 @@ If the user explicitly asks you to proceed without answers:
 ### 4) Confirm interpretation, then proceed
 
 Once you have answers, restate the requirements in 1-3 sentences (including key constraints and what success looks like), then start work.
+
+## Question templates
+
+- "Before I start, I need: (1) ..., (2) ..., (3) .... If you don't care about (2), I will assume ...."
+- "Which of these should it be? A) ... B) ... C) ... (pick one)"
+- "What would you consider 'done'? For example: ..."
+- "Any constraints I must follow (versions, performance, style, deps)? If none, I will target the existing project defaults."
+- Use numbered questions with lettered options and a clear reply format
+
+```text
+1) Scope?
+a) Minimal change (default)
+b) Refactor while touching the area
+c) Not sure - use default
+2) Compatibility target?
+a) Current project defaults (default)
+b) Also support older versions: <specify>
+c) Not sure - use default
+
+Reply with: defaults (or 1a 2a)
+```
 
 ## Anti-patterns
 

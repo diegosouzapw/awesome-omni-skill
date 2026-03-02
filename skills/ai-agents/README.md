@@ -1,6 +1,6 @@
 # 📂 ai-agents
 
-> 1,007 skills in this category
+> 619 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -462,6 +462,10 @@
 | [architecture-agent-creation](architecture-agent-creation/) | majiayu000 | ★ 2 | 64% | L3 | Create specialized infrastructure agent definitions for platform/service managem… |
 | [archive-workflow](archive-workflow/) | majiayu000 | ★ 2 | 64% | L3 | Archives completed FABER workflow state and artifacts to cloud storage for histo… |
 | [artifact-advisor](artifact-advisor/) | majiayu000 | ★ 2 | 64% | L3 | Advise on choosing between Skills, Commands, Subagents, and Hooks for Claude Cod… |
+| [artifact-tracking](artifact-tracking/) | majiayu000 | ★ 2 | 64% | L3 | Token-efficient tracking for AI orchestration. CLI-first for status updates (~50… |
+| [ash-ai](ash-ai/) | majiayu000 | ★ 2 | 64% | L2 | AshAi extension guidelines for integrating AI capabilities with Ash Framework. U… |
+| [ask-oracle](ask-oracle/) | majiayu000 | ★ 2 | 64% | L3 | This skill should be used when solving hard questions, complex architectural pro… |
+| [atft-autonomy](atft-autonomy/) | majiayu000 | ★ 2 | 64% | L3 | Coordinate Claude Code skills with OpenAI Codex autonomous workflows for end-to-… |
 | [wolf-scripts-agents](wolf-scripts-agents/) | majiayu000 | ★ 2 | 63% | L3 | Agent coordination, orchestration, and multi-agent workflow management scripts |
 | [Agent Orchestrator](agent-orchestrator/) | majiayu000 | ★ 2 | 63% | L2 | Coordinate multiple AI agents and skills for complex workflows |
 | [aqe-v2-v3-migration](aqe-v2-v3-migration/) | majiayu000 | ★ 2 | 63% | L3 | Migrate Agentic QE projects from v2 to v3 with zero data loss |
@@ -471,6 +475,8 @@
 | [context-manager](context-manager/) | majiayu000 | ★ 2 | 60% | L2 | Elite AI context engineering specialist mastering dynamic context |
 | [prompt-engineer](prompt-engineer/) | majiayu000 | ★ 2 | 60% | L2 | Expert prompt engineer specializing in advanced prompting |
 | [architecting-systems](architecting-systems/) | majiayu000 | ★ 2 | 60% | L2 | Best practices and rules for architecting scalable, maintainable systems. |
+| [asi-agent-orama](asi-agent-orama/) | majiayu000 | ★ 2 | 60% | L3 | ASI Agent-O-Rama Skill |
+| [assistant](assistant/) | majiayu000 | ★ 2 | 60% | L2 | Personal assistant for daily routines, task management, and productivity |
 | [agent-hierarchy-diagram](agent-hierarchy-diagram/) | majiayu000 | ★ 2 | 57% | L3 | Generate visual hierarchy diagrams of agent system showing levels and delegation… |
 | [Build Your Google ADK Skill](build-your-google-adk-skill/) | majiayu000 | ★ 2 | 57% | L3 | Create your Google Agent Development Kit skill in one prompt, then learn to impr… |
 | [agent-coverage-check](agent-coverage-check/) | majiayu000 | ★ 2 | 57% | L3 | Check agent configuration coverage across hierarchy levels and phases. Use to en… |
@@ -491,6 +497,7 @@
 | [voice-agents](voice-agents/) | majiayu000 | ★ 2 | 57% | L2 | Voice agents represent the frontier of AI interaction - humans speaking naturall… |
 | [architecting-innovation-agents](architecting-innovation-agents/) | majiayu000 | ★ 2 | 57% | L2 | Propose multi-agent and workflow architectures for CustomGPT.ai Labs projects, s… |
 | [artefact-logger](artefact-logger/) | majiayu000 | ★ 2 | 57% | L3 | Log access to Claude configuration artefacts (CLAUDE.md, rules, skills, commands… |
+| [artifact](artifact/) | majiayu000 | ★ 2 | 57% | L3 | Add non-text files to a person's artifacts folder. Use when saving images, docum… |
 | [ai-tuning](ai-tuning/) | majiayu000 | ★ 2 | 51% | L2 | Optimize AI assistant configurations for maximum effectiveness. USE THIS SKILL w… |
 | [aieo](aieo/) | majiayu000 | ★ 2 | 51% | L2 | AI Engine Optimization（AIEO）に最適化されたコンテンツを生成・リファクタ。AI Overviews、ChatGPT、Geminiに引用… |
 | [alphaear-search](alphaear-search/) | majiayu000 | ★ 2 | 51% | L2 | Perform finance web searches and local context searches. Use when the user needs… |
@@ -611,406 +618,11 @@
 | [clawdwork](clawdwork/) | openclaw | ★ 0 | 48% | L3 | Find work, earn money, and collaborate with other AI agents on ClawdWork - the j… |
 | [cfn-error-management](cfn-error-management/) | majiayu000 | ★ 0 | 48% | L3 | Unified error handling, batching, and logging for CFN Loop. Use when you need to… |
 | [gemini-svg-creator](gemini-svg-creator/) | htuzel | ★ 0 | 48% | L3 | Create professional SVG graphics powered by Gemini 3.1 Pro via the Gemini MCP se… |
+| [lobster](lobster/) | RickEth137 | ★ 0 | 48% | L3 | Live stream as an AI VTuber with a Live2D avatar body. Control expressions, gest… |
+| [skill-creator](skill-creator/) | oimiragieo | ★ 0 | 48% | L3 | Create, validate, and convert skills for the agent ecosystem. Enforces standardi… |
 | [prompt-engineering](prompt-engineering/) | artokun | ★ 0 | 47% | L3 | ComfyUI prompt engineering knowledge — CLIP text encoding syntax, weight modifie… |
 | [convex-ai](convex-ai/) | majiayu000 | ★ 0 | 47% | L3 | Convex AI Integration - OpenAI, actions, streaming, and AI patterns with databas… |
 | [copilot-thought-logging](copilot-thought-logging/) | pingqLIN | ★ 0 | 47% | L2 | See process Copilot is following where you can edit this to reshape the interact… |
-| [arize-phoenix](arize-phoenix/) | Arize-ai | ★ 0 | 45% | L3 | Open-source AI observability platform for tracing, evaluating, and improving LLM… |
-| [arize-phoenix](arize-phoenix/) | Finimo-Solutions | ★ 0 | 45% | L3 | Open-source AI observability platform for tracing, evaluating, and improving LLM… |
-| [thinking-sequentially](thinking-sequentially/) | doanchienthangdev | ★ 0 | 45% | L2 | AI agent structures complex reasoning through numbered thought sequences with ex… |
-| [chatgpt-apps-production-checklist](chatgpt-apps-production-checklist/) | jscraik | ★ 0 | 45% | L2 | Turn ChatGPT Apps implementation work into a production-ready checklist with con… |
-| [ai-engineer](ai-engineer/) | ranbot-ai | ★ 0 | 45% | L2 | Build production-ready LLM applications, advanced RAG systems, and intelligent a… |
-| [ai-wrapper-product](ai-wrapper-product/) | ranbot-ai | ★ 0 | 45% | L3 | Expert in building products that wrap AI APIs (OpenAI, Anthropic, etc.) into foc… |
-| [StopTimizer](stoptimizer/) | majiayu000 | ★ 0 | 45% | L3 | Precise token counter for GPT, Claude, and Gemini models (source of truth from s… |
-| [StopTimizer](stoptimizer/) | ShipFail | ★ 0 | 45% | L3 | Precise token counter for GPT, Claude, and Gemini models (source of truth from s… |
-| [StopTimizer](stoptimizer/) | majiayu000 | ★ 0 | 45% | L3 | Precise token counter for GPT, Claude, and Gemini models (source of truth from s… |
-| [codesession](codesession/) | brian-mwirigi | ★ 0 | 45% | L3 | codesession (codesession-cli, code session, code-session) — Track AI agent sessi… |
-| [agent-bridge](agent-bridge/) | richfrem | ★ 0 | 45% | L3 | Bridge plugin capabilities (commands, skills, agents, hooks, MCP) to specific ag… |
-| [m365-agents-ts](m365-agents-ts/) | ranbot-ai | ★ 0 | 45% | L3 | Build enterprise agents for Microsoft 365, Teams, and Copilot Studio using the M… |
-| [portable-agents](portable-agents/) | evatt-harvey-salinger | ★ 0 | 45% | L3 | Defines agent configuration formats across Claude Code, Cursor, OpenCode, and Cl… |
-| [Dictation Instructions](dictation-instructions/) | github | ★ 0 | 45% | L3 | Instructions for fixing speech-to-text errors and improving text quality in gh-a… |
-| [Build Your LiveKit Agents Skill](build-your-livekit-agents-skill/) | panaversity | ★ 0 | 45% | L3 | Create your LiveKit Agents skill from official documentation, then learn to impr… |
-| [claude-code-capabilities](claude-code-capabilities/) | majiayu000 | ★ 0 | 45% | L3 | Comprehensive guide to Claude Code's extensibility features including subagents,… |
-| [skill-creator](skill-creator/) | rafaelramosdf | ★ 0 | 45% | L3 | Guia para criar habilidades eficazes. Esta habilidade deve ser usada quando os u… |
-| [annotating-csv](annotating-csv/) | brook-miller | ★ 0 | 45% | L3 | Annotates CSV rows using OpenAI by applying a prompt to each row and adding a ne… |
-| [openai-api](openai-api/) | NeverSight | ★ 0 | 45% | L3 | OpenAI API integration for building AI-powered applications. Use when working wi… |
-| [agent-worker](agent-worker/) | NeverSight | ★ 0 | 45% | L3 | Create and manage AI agent sessions with multiple backends (SDK, Claude CLI, Cod… |
-| [Prompting](prompting/) | virtualian | ★ 0 | 45% | L3 | Meta-prompting system for dynamic prompt generation using templates, standards, … |
-| [prompt-optimizer](prompt-optimizer/) | majiayu000 | ★ 0 | 45% | L2 | This skill should be used when users request help optimizing, improving, or refi… |
-| [command-sub-agent](command-sub-agent/) | majiayu000 | ★ 0 | 45% | L3 | 專責處理 CBF (Commanded Behavior Frame) 類型的需求。讀取規格目錄結構，生成/審查 Command Side 設計與實作。支援 J… |
-| [codex](codex/) | adampaulwalker | ★ 0 | 45% | L3 | Review code changes, implementation plans, or specific files using OpenAI Codex … |
-| [m365-agent-scaffolder](m365-agent-scaffolder/) | majiayu000 | ★ 0 | 45% | L3 | Quickly scaffolds new Microsoft 365 Copilot declarative agent (M365 agent, copil… |
-| [copilot-sdk](copilot-sdk/) | majiayu000 | ★ 0 | 45% | L3 | Build agentic applications with GitHub Copilot SDK. Use when embedding AI agents… |
-| [god-mode](god-mode/) | openclaw | ★ 0 | 45% | L3 | Developer oversight and AI agent coaching. Use when viewing project status acros… |
-| [copilot-sdk](copilot-sdk/) | sickn33 | ★ 0 | 45% | L3 | Build applications powered by GitHub Copilot using the Copilot SDK. Use when cre… |
-| [agent-ui](agent-ui/) | NeverSight | ★ 0 | 45% | L3 | "Batteries-included agent component for React/Next.js from ui.inference.sh. One … |
-| [vibe-agents](vibe-agents/) | majiayu000 | ★ 0 | 45% | L2 | Generate AGENTS.md and AI configuration files for your project. Use when the use… |
-| [building-with-llms](building-with-llms/) | majiayu000 | ★ 0 | 45% | L2 | Produce an LLM Build Pack (prompt+tool contract, data/eval plan, architecture+sa… |
-| [hud-first](hud-first/) | majiayu000 | ★ 0 | 45% | L2 | This skill should be used when the user asks to "build an AI assistant", "create… |
-| [typespec-create-agent](typespec-create-agent/) | sandriaas | ★ 0 | 45% | L3 | Generate a complete TypeSpec declarative agent with instructions, capabilities, … |
-| [kano-agent-backlog-skill](kano-agent-backlog-skill/) | majiayu000 | ★ 0 | 45% | L3 | Local-first backlog workflow. Use when planning work, creating/updating backlog … |
-| [agentic-chat](agentic-chat/) | majiayu000 | ★ 0 | 45% | L2 | AI assistant for creating clear, actionable task descriptions for GitHub Copilot… |
-| [god-mode](god-mode/) | majiayu000 | ★ 0 | 45% | L3 | Developer oversight and AI agent coaching. Use when viewing project status acros… |
-| [god-mode](god-mode/) | kbarbel640-del | ★ 0 | 45% | L3 | Developer oversight and AI agent coaching. Use when viewing project status acros… |
-| [god-mode](god-mode/) | mpelissari | ★ 0 | 45% | L3 | Developer oversight and AI agent coaching. Use when viewing project status acros… |
-| [copilotkit-pitch-deck](copilotkit-pitch-deck/) | majiayu000 | ★ 0 | 45% | L3 | Production-ready CopilotKit pitch deck wizard in main application. Use when enha… |
-| [coeditor](coeditor/) | majiayu000 | ★ 0 | 45% | L3 | Build React applications with CopilotKit and LangGraph for AI-powered collaborat… |
-| [ck:project-management](ck-project-management/) | weihung0831 | ★ 0 | 45% | L2 | Track progress, update plan statuses, manage Claude Tasks, generate reports, coo… |
-| [agentic-rules-writer](agentic-rules-writer/) | krzysztofsurdy | ★ 0 | 45% | L2 | Generate a rules file for any AI coding agent. Interactive setup that scans inst… |
-| [verify-claude-setup](verify-claude-setup/) | majiayu000 | ★ 0 | 45% | L3 | Verify .claude directory configuration is complete and correct. Use when checkin… |
-| [ai-rules-reviewer](ai-rules-reviewer/) | jthoms1 | ★ 0 | 45% | L2 | Review, fix, and create Builder.io Fusion rules files (.builderrules, .mdc, agen… |
-| [converter](converter/) | boshu2 | ★ 0 | 45% | L3 | Cross-platform skill converter. Parse AgentOps skills into a universal bundle fo… |
-| [ai-tool-converter](ai-tool-converter/) | thegameband | ★ 0 | 45% | L3 | Convert AI coding assistant configuration files (agents, skills, commands, rules… |
-| [sync-agents](sync-agents/) | NoahJenkins | ★ 0 | 45% | L2 | Synchronize GitHub Copilot instructions, custom agents, and skills into detected… |
-| [working-with-llms](working-with-llms/) | majiayu000 | ★ 0 | 45% | L2 | Mandatory workflow for creating LLM-facing content. Follow the 4-step process (o… |
-| [vercel-ai-sdk](vercel-ai-sdk/) | itzaks | ★ 0 | 45% | L3 | Comprehensive guide to Vercel AI SDK for building AI-powered applications with t… |
-| [000-TnR-Absolute-Rigor](000-tnr-absolute-rigor/) | majiayu000 | ★ 0 | 45% | L2 | [00] TnR ABSOLUTE RIGOR — Systemic Verification Doctrine. Forced cognitive exert… |
-| [using-skillpack-maintenance](using-skillpack-maintenance/) | majiayu000 | ★ 0 | 45% | L3 | Use when maintaining, enhancing, or modifying existing Claude Code plugins - han… |
-| [agent-protocol](agent-protocol/) | majiayu000 | ★ 0 | 45% | L3 | Human and agent coordination protocol for repos using .agentprotocol. Use to man… |
-| [llm-arena](llm-arena/) | lucifertrj | ★ 0 | 45% | L3 | Full-stack LLM Arena application for AI vs AI game battles. Use when working on … |
-| [openclaw-starter-kit](openclaw-starter-kit/) | AIsa-team | ★ 0 | 45% | L3 | Replace 100+ API keys with one. Instant access to LLMs, Twitter, YouTube, Linked… |
-| [developing-langgraph-js-agents](developing-langgraph-js-agents/) | mikekelly | ★ 0 | 45% | L3 | Build, audit, review, and update LangGraph.js agents. Use PROACTIVELY when worki… |
-| [trae-rules-writer](trae-rules-writer/) | NeverSight | ★ 0 | 45% | L3 | Create Trae IDE rules (.trae/rules/*.md) for AI behavior constraints. Use when u… |
-| [converter](converter/) | boshu2 | ★ 0 | 45% | L3 | Cross-platform skill converter. Parse AgentOps skills into a universal bundle fo… |
-| [cursor-mem](cursor-mem/) | majiayu000 | ★ 0 | 45% | L3 | Cursorでclaude-memのMCPサーバーにアクセスし、過去のセッション記録を検索・新しい観測を記録。トリガー: 'メモリ検索', 'claude-me… |
-| [spec-kit](spec-kit/) | marswangyang | ★ 0 | 45% | L3 | Spec-Driven Development toolkit for structured software development. Generates s… |
-| [farcaster-agent](farcaster-agent/) | rishavmukherji | ★ 0 | 45% | L3 | Create Farcaster accounts and post casts autonomously. Official skill from the F… |
-| [agent-native-reviewer](agent-native-reviewer/) | majiayu000 | ★ 0 | 45% | L3 | Use this agent when reviewing code changes to ensure features are agent-native -… |
-| [agent-native-architecture](agent-native-architecture/) | majiayu000 | ★ 0 | 45% | L3 | This skill should be used when building AI agents using prompt-native architectu… |
-| [agent-orchestration](agent-orchestration/) | seqis | ★ 0 | 45% | L2 | Coordination framework for parallel specialist execution and integration consist… |
-| [power-agent-creator](power-agent-creator/) | majiayu000 | ★ 0 | 45% | L3 | This skill should be used when users want to create powerful AI agents comparabl… |
-| [aix](aix/) | Napageneral | ★ 0 | 45% | L3 | AI session intelligence - search and analyze your AI conversation history from C… |
-| [boil](boil/) | decimasudo | ★ 0 | 45% | L3 | A distributed labor network for AI agents. Pick up projects, contribute work, ea… |
-| [skill-creator](skill-creator/) | co-labs-co | ★ 0 | 45% | L3 | Guide for creating effective skills. This skill should be used when users want t… |
-| [awesome-copilot](awesome-copilot/) | majiayu000 | ★ 0 | 45% | L3 | Expert guidance for creating GitHub Copilot customizations including custom agen… |
-| [smart-voice-chat](smart-voice-chat/) | Johnny-xuan | ★ 0 | 45% | L3 | Voice conversation: transcribe voice input, reply in same format (voice-to-voice… |
-| [sentry-setup-ai-monitoring](sentry-setup-ai-monitoring/) | monkey1sai | ★ 0 | 45% | L3 | Setup Sentry AI Agent Monitoring in any project. Use this when asked to add AI m… |
-| [claude-md-creator](claude-md-creator/) | majiayu000 | ★ 0 | 45% | L3 | Use when creating CLAUDE.md files, updating existing CLAUDE.md, validating CLAUD… |
-| [claude-skill-creator](claude-skill-creator/) | mattnigh | ★ 0 | 45% | L3 | Guide for creating effective Claude Code skills with proper YAML frontmatter, di… |
-| [dev](dev/) | majiayu000 | ★ 0 | 45% | L3 | Extreme lightweight end-to-end development workflow with requirements clarificat… |
-| [agent-creator](agent-creator/) | kimasplund | ★ 0 | 45% | L3 | Comprehensive guide for creating high-quality specialized agents following v2 ar… |
-| [kitt-create-plans](kitt-create-plans/) | majiayu000 | ★ 0 | 45% | L3 | Create hierarchical project plans optimized for solo agentic development. Use wh… |
-| [multi-ai-research](multi-ai-research/) | adaptationio | ★ 0 | 45% | L3 | Comprehensive research and analysis using Claude (subagents), Gemini CLI, and Co… |
-| [n8n-skills-catalog](n8n-skills-catalog/) | majiayu000 | ★ 0 | 45% | L3 | Use to find the right n8n skill for a task, browse available skills, discover wo… |
-| [PromptInjection](promptinjection/) | danielmiessler | ★ 0 | 45% | L3 | Test LLM applications for prompt injection vulnerabilities — jailbreak attempts,… |
-| [claude-automation-recommender](claude-automation-recommender/) | majiayu000 | ★ 0 | 45% | L3 | Analyze a codebase and recommend Claude Code automations (hooks, subagents, skil… |
-| [gray-swan-competition](gray-swan-competition/) | RazonIn4K | ★ 0 | 45% | L3 | Execute Gray Swan AI Arena indirect prompt injection (IPI) and machine-in-the-mi… |
-| [PromptInjection](promptinjection/) | virtualian | ★ 0 | 45% | L3 | Prompt injection testing. USE WHEN prompt injection, jailbreak, LLM security, AI… |
-| [github-agentic-workflows](github-agentic-workflows/) | Hack23 | ★ 0 | 45% | L3 | GitHub Agentic Workflows with MCP tools, Copilot coding agent orchestration, saf… |
-| [skill-creator](skill-creator/) | JordiNodeJS | ★ 0 | 45% | L3 | Guide for creating effective skills in a Node.js/JavaScript environment. This sk… |
-| [ai-agent-development](ai-agent-development/) | mkspwr12 | ★ 0 | 45% | L3 | Build production-ready AI agents with Microsoft Foundry and Agent Framework. Use… |
-| [agent-creator](agent-creator/) | majiayu000 | ★ 0 | 45% | L3 | Use this skill when architecting new Claude Code agents following Anthropic best… |
-| [deepseek-code-mastery](deepseek-code-mastery/) | Galidar | ★ 0 | 45% | L3 | Referencia completa para operar DeepSeek Code (1M tokens por chat via web, open … |
-| [goap-agent](goap-agent/) | majiayu000 | ★ 0 | 45% | L2 | Invoke for complex multi-step tasks requiring intelligent planning and multi-age… |
-| [enhancer](enhancer/) | majiayu000 | ★ 0 | 45% | L2 | Transform simple prompts into comprehensive, context-aware prompts. Use for prom… |
-| [senior-prompt-engineer](senior-prompt-engineer/) | majiayu000 | ★ 0 | 45% | L3 | World-class prompt engineering skill for LLM optimization, prompt patterns, stru… |
-| [context-fundamentals](context-fundamentals/) | muratcankoylan | ★ 0 | 45% | L3 | This skill should be used when the user asks to "understand context", "explain c… |
-| [create-meta-prompts](create-meta-prompts/) | glittercowboy | ★ 0 | 45% | L3 | Create optimized prompts for Claude-to-Claude pipelines with research, planning,… |
-| [parallel-orchestrator](parallel-orchestrator/) | majiayu000 | ★ 0 | 45% | L3 | Orchestrate parallel agent workflows using HtmlGraph's ParallelWorkflow. Activat… |
-| [claudemd-maintainer](claudemd-maintainer/) | anyproto | ★ 0 | 45% | L3 | Context-aware guidance for maintaining and improving CLAUDE.md files. Use when e… |
-| [context-curation](context-curation/) | gpu-cli | ★ 0 | 45% | L2 | Analyzes staged git changes and evaluates agentic context files (Claude, Codex, … |
-| [prompt-template-builder](prompt-template-builder/) | majiayu000 | ★ 0 | 45% | L3 | Creates reusable prompt templates with strict output contracts, style rules, few… |
-| [deepwork_jobs.implement](deepwork_jobs.implement/) | majiayu000 | ★ 0 | 45% | L3 | Generates step instruction files and syncs slash commands from the job.yml speci… |
-| [prompt-tsx-patterns](prompt-tsx-patterns/) | majiayu000 | ★ 0 | 45% | L3 | Deep dive into prompt-tsx patterns used in vscode-copilot-chat, including compon… |
-| [claude-md-manager](claude-md-manager/) | majiayu000 | ★ 0 | 45% | L2 | Build and maintain effective CLAUDE.md files that improve Claude Code efficiency… |
-| [agent-debugging](agent-debugging/) | majiayu000 | ★ 0 | 45% | L3 | Debug and troubleshoot ElevenLabs conversational AI agents and Twilio calls. Use… |
-| [LLM](llm/) | lucasmattosped | ★ 0 | 45% | L3 | Implement large language model (LLM) chat completions using the z-ai-web-dev-sdk… |
-| [ReasoningBank with AgentDB](reasoningbank-with-agentdb/) | majiayu000 | ★ 0 | 45% | L3 | Implement ReasoningBank adaptive learning with AgentDB's 150x faster vector data… |
-| [token-saver-75plus](token-saver-75plus/) | openclaw | ★ 0 | 45% | L2 | Always-on token optimization + model routing protocol. Auto-classifies requests … |
-| [macos-cleaner](macos-cleaner/) | daymade | ★ 0 | 45% | L3 | Analyze and reclaim macOS disk space through intelligent cleanup recommendations… |
-| [flow-engineer-subagent](flow-engineer-subagent/) | korchasa | ★ 0 | 45% | L3 | Guide for creating effective Subagents (custom agent definitions). Use when user… |
-| [web-search-agent-evals](web-search-agent-evals/) | youdotcom-oss | ★ 0 | 45% | L3 | Development assistant for web search agent evaluations across multiple CLI agent… |
-| [creating-subagents](creating-subagents/) | majiayu000 | ★ 0 | 45% | L2 | Expert knowledge on creating Claude Code subagents. Use when designing or creati… |
-| [localai](localai/) | majiayu000 | ★ 0 | 45% | L3 | Run local AI models with LocalAI. Deploy OpenAI-compatible API for LLMs, embeddi… |
-| [openai-docs](openai-docs/) | jscraik | ★ 0 | 45% | L2 | Use when the user asks how to build with OpenAI products or APIs and needs up-to… |
-| [add-agent](add-agent/) | mattolson | ★ 0 | 45% | L3 | Add a new AI coding agent to Agent Sandbox. Creates all required files (Dockerfi… |
-| [topic-collector](topic-collector/) | zephyrwang6 | ★ 0 | 45% | L2 | AI热点采集工具。从Twitter/X、Product Hunt、Reddit、Hacker News、博客等采集AI相关热点内容。当用户说"开始今日选题"、"… |
-| [oracle](oracle/) | geezerrrr | ★ 0 | 45% | L3 | Best practices for using the oracle CLI (prompt + file bundling, engines, sessio… |
-| [chatgpt-apps](chatgpt-apps/) | openclaw | ★ 0 | 45% | L3 | Complete ChatGPT Apps builder - Create, design, implement, test, and deploy Chat… |
-| [ai-apis](ai-apis/) | rbrown101010 | ★ 0 | 45% | L3 | How to use AI APIs like OpenAI, ChatGPT, Elevenlabs, etc. When a user asks you t… |
-| [oracle](oracle/) | stevengonsalvez | ★ 0 | 45% | L3 | Use the @steipete/oracle CLI to bundle a prompt plus the right files and get a s… |
-| [chatgpt-app:new](chatgpt-app-new/) | hollaugo | ★ 0 | 45% | L3 | Create a new ChatGPT App from concept to working code. Guides through conceptual… |
-| [multi-model-orchestration](multi-model-orchestration/) | RazonIn4K | ★ 0 | 45% | L3 | Orchestrate workflows across multiple AI models (Perplexity, GPT, Grok, Claude, … |
-| [ai-apis](ai-apis/) | stevewinfieldtx | ★ 0 | 45% | L3 | How to use AI APIs like OpenAI, ChatGPT, Elevenlabs, etc. When a user asks you t… |
-| [prompt-factory](prompt-factory/) | majiayu000 | ★ 0 | 45% | L3 | World-class prompt powerhouse that generates production-ready mega-prompts for a… |
-| [llm-council](llm-council/) | majiayu000 | ★ 0 | 45% | L3 | Multi-LLM collaborative brainstorming and planning. Use when user explicitly req… |
-| [prompt-expander](prompt-expander/) | majiayu000 | ★ 0 | 45% | L2 | EXPAND vague prompts into precise, platform-optimized instructions. Detects targ… |
-| [Build Your LiveKit Agents Skill](build-your-livekit-agents-skill/) | majiayu000 | ★ 0 | 45% | L3 | Create your LiveKit Agents skill from official documentation, then learn to impr… |
-| [multi-model-reviewer](multi-model-reviewer/) | majiayu000 | ★ 0 | 45% | L3 | 協調多個 AI 模型（ChatGPT、Gemini、Codex、QWEN、Claude）進行三角驗證，確保「Specification == Program =… |
-| [prompt-factory](prompt-factory/) | BbgnsurfTech | ★ 0 | 45% | L3 | World-class prompt powerhouse that generates production-ready mega-prompts for a… |
-| [geo-tracker](geo-tracker/) | openclaw | ★ 0 | 45% | L3 | Track and optimize brand visibility across AI search engines (ChatGPT, Perplexit… |
-| [geo-fundamentals](geo-fundamentals/) | lucasfdigital | ★ 0 | 45% | L3 | Otimização de Motores Generativos (GEO) para mecanismos de busca de IA (ChatGPT,… |
-| [cass](cass/) | majiayu000 | ★ 0 | 45% | L3 | Coding Agent Session Search - unified CLI/TUI to index and search local coding a… |
-| [last30days](last30days/) | mustaphaelou | ★ 0 | 45% | L3 | Research a topic from the last 30 days on Reddit + X + Web, become an expert, an… |
-| [building-ai-chat](building-ai-chat/) | majiayu000 | ★ 0 | 45% | L3 | Builds AI chat interfaces and conversational UI with streaming responses, contex… |
-| [last30days](last30days/) | lev-os | ★ 0 | 45% | L3 | Research a topic from the last 30 days on Reddit + X + Web, become an expert, an… |
-| [geo-fundamentals](geo-fundamentals/) | yunaamelia | ★ 0 | 45% | L3 | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexit… |
-| [chatgpt-app:add-widget](chatgpt-app-add-widget/) | hollaugo | ★ 0 | 45% | L3 | Add a new inline widget to your ChatGPT App with Tailwind CSS and Apps SDK integ… |
-| [codex-headless](codex-headless/) | majiayu000 | ★ 0 | 45% | L3 | Delegiere Aufgaben an OpenAI Codex CLI im Headless-Mode. Nutzt ChatGPT Subscript… |
-| [building-with-llms](building-with-llms/) | majiayu000 | ★ 0 | 45% | L2 | Help users build effective AI applications. Use when someone is building with LL… |
-| [cass](cass/) | Dicklesworthstone | ★ 0 | 45% | L3 | Coding Agent Session Search - unified CLI/TUI to index and search local coding a… |
-| [vector-art](vector-art/) | sanand0 | ★ 0 | 45% | L3 | Vector art assets (characters, objects, scenes) sources for SVG/Canvas and how t… |
-| [the-visual-repo](the-visual-repo/) | MahoneyContextProtocol | ★ 0 | 45% | L2 | Help non-technical users turn any GitHub project into a persistent AI assistant … |
-| [ai-usage](ai-usage/) | cruzanstx | ★ 0 | 45% | L3 | Check AI CLI usage/quota for Claude Code, OpenAI Codex, Google Gemini CLI, and Z… |
-| [prompt-improver](prompt-improver/) | ils15 | ★ 0 | 45% | L3 | Improve prompts for AI agents and Telegram bots using OpenAI's prompt engineerin… |
-| [xenodium-elisp](xenodium-elisp/) | plurigrid | ★ 0 | 45% | L3 | Xenodium's Emacs packages: chatgpt-shell, agent-shell, dwim-shell-command, and A… |
-| [last30days](last30days/) | wbuc | ★ 0 | 45% | L3 | Research a topic from the last 30 days on Reddit + X + Web, become an expert, an… |
-| [add_hashtags](add_hashtags/) | yorkjong | ★ 0 | 45% | L2 | Appends relevant hashtags to journal entries based on content analysis. Intended… |
-| [last30days](last30days/) | jdrhyne | ★ 0 | 45% | L3 | Research any topic from the last 30 days on Reddit + X + Web, synthesize finding… |
-| [ai-summary-request](ai-summary-request/) | rawveg | ★ 0 | 45% | L3 | Adds an "AI Summary Request" footer component with clickable AI platform icons (… |
-| [seo-geo](seo-geo/) | in-co-sandbox | ★ 0 | 45% | L3 | SEO & GEO (Generative Engine Optimization) for websites. Analyze keywords, gener… |
-| [codex-agent](codex-agent/) | wchklaus97 | ★ 0 | 45% | L3 | Invoke OpenAI Codex CLI for coding and complex tasks. ALWAYS use the codex_agent… |
-| [second-opinion](second-opinion/) | lfiaschi | ★ 0 | 45% | L3 | This skill queries GPT-5.2 Pro and Gemini 3 Pro in parallel to get alternative p… |
-| [research](research/) | costa-marcello | ★ 0 | 45% | L3 | Researches any topic by dispatching 6-10 parallel sub-agents across community di… |
-| [plan-refine-codex](plan-refine-codex/) | machow | ★ 0 | 45% | L3 | Refine a Claude Code plan using OpenAI Codex. Use when you have a plan file and … |
-| [structured-prompt-writer](structured-prompt-writer/) | yzfly | ★ 0 | 45% | L2 | 结构化AI提示词写作工具，内置395+提示词模板。支持详细模式和简单模式。用于创建专业的AI角色提示词、系统提示词或任务提示词。当用户需要：(1) 创建新的AI… |
-| [flowclaw](flowclaw/) | openclaw | ★ 0 | 45% | L3 | Unkillable Agent Infrastructure. Unified usage monitoring and intelligent load b… |
-| [codex-auth](codex-auth/) | majiayu000 | ★ 0 | 45% | L3 | Setup and manage OpenAI Codex CLI authentication including ChatGPT Plus/Pro OAut… |
-| [chatgpt-app:validate](chatgpt-app-validate/) | hollaugo | ★ 0 | 45% | L3 | Run validation suite on your ChatGPT App to check schemas, annotations, widgets,… |
-| [marketing-ai-search-optimization](marketing-ai-search-optimization/) | majiayu000 | ★ 0 | 45% | L2 | Operational AI search engine optimization (AEO/GEO/LLMO) for ranking in ChatGPT,… |
-| [chatgpt-apps-sdk](chatgpt-apps-sdk/) | vincentmcleese | ★ 0 | 45% | L2 | Build ChatGPT apps using OpenAI's Apps SDK. This skill leverages OpenAI's Docs M… |
-| [claude-improve-config](claude-improve-config/) | majiayu000 | ★ 0 | 45% | L2 | Self-reflect on the current session to identify mistakes and propose improvement… |
-| [system-prompt-writer](system-prompt-writer/) | majiayu000 | ★ 0 | 45% | L3 | This skill should be used when writing or improving system prompts for AI agents… |
-| [claude-md-architect](claude-md-architect/) | majiayu000 | ★ 0 | 45% | L3 | CLAUDE.md file generation and optimization for Claude Code projects. Capabilitie… |
-| [m365-agent-developer](m365-agent-developer/) | majiayu000 | ★ 0 | 45% | L3 | Designs, implements, and deploys Microsoft 365 Copilot agents using TypeSpec and… |
-| [senior-prompt-engineer](senior-prompt-engineer/) | aiskillstore | ★ 0 | 45% | L3 | World-class prompt engineering skill for LLM optimization, prompt patterns, stru… |
-| [prompt-engineering-patterns](prompt-engineering-patterns/) | sandriaas | ★ 0 | 45% | L3 | Master advanced prompt engineering techniques to maximize LLM performance, relia… |
-| [claude-skill](claude-skill/) | myysophia | ★ 0 | 45% | L3 | Use when user asks to leverage claude or claude code to do something (e.g. imple… |
-| [create-skill](create-skill/) | merylldindin | ★ 0 | 45% | L3 | Creates new Claude Code skills, optimizes existing skills, or audits all skills/… |
-| [eth-agent](eth-agent/) | lambdaclass | ★ 0 | 45% | L3 | Expert knowledge for using the eth-agent library - the simplest, safest way for … |
-| [ai-sdk](ai-sdk/) | meetsmore | ★ 0 | 45% | L3 | Vercel AI SDK reference for building AI-powered applications. Use when implement… |
-| [add-model](add-model/) | micheam | ★ 0 | 45% | L2 | Add a new AI model to a provider (anthropic, openai, groq, cerebras). Use when a… |
-| [claudeforcodex](claudeforcodex/) | GGPrompts | ★ 0 | 45% | L3 | Claude Code CLI configuration guide for Codex. Use when users ask about: claude … |
-| [plsfix](plsfix/) | keithmackay | ★ 0 | 45% | L2 | Use when improving spec documents, instruction sets, prompts, requirements docs,… |
-| [claude-typescript-sdk](claude-typescript-sdk/) | majiayu000 | ★ 0 | 45% | L3 | Build AI applications with the Anthropic TypeScript SDK. Use when creating Claud… |
-| [create-prompt](create-prompt/) | majiayu000 | ★ 0 | 45% | L2 | Expert prompt engineering for creating effective prompts for Claude, GPT, and ot… |
-| [creating-skills](creating-skills/) | majiayu000 | ★ 0 | 45% | L3 | Use when creating new Claude Code skills or improving existing ones - ensures sk… |
-| [claude-hooks-reference-2026](claude-hooks-reference-2026/) | majiayu000 | ★ 0 | 45% | L3 | Complete reference for Claude Code hooks system (January 2026). Use when creatin… |
-| [prompt-engineer-llm](prompt-engineer-llm/) | majiayu000 | ★ 0 | 45% | L3 | World-class expert in prompt engineering, LLM fine-tuning, RAG systems, and AI/M… |
-| [StopTimizer](stoptimizer/) | majiayu000 | ★ 0 | 45% | L3 | Precise token counter for GPT, Claude, and Gemini models (source of truth from s… |
-| [langchain-js](langchain-js/) | majiayu000 | ★ 0 | 45% | L3 | Builds LLM-powered applications with LangChain.js for chat, agents, and RAG. Use… |
-| [gemini-system-prompt-best-practices](gemini-system-prompt-best-practices/) | mgsgde | ★ 0 | 45% | L2 | Applies official Google best practices when writing or editing Gemini system pro… |
-| [skill-creator](skill-creator/) | ayia | ★ 0 | 45% | L3 | Create new Claude Agent Skills for NutriProfile. Use this skill when you need to… |
-| [forge-setup-project](forge-setup-project/) | mgratzer | ★ 0 | 45% | L3 | Set up a project's meta-structure for agentic engineering — CLAUDE.md, AGENTS.md… |
-| [add-new-skill](add-new-skill/) | tphummel | ★ 0 | 45% | L3 | Create a new skill for this repository following the agentskills.io specificatio… |
-| [claude-automation-recommender](claude-automation-recommender/) | intrafind | ★ 0 | 45% | L3 | Analyze a codebase and recommend Claude Code automations (hooks, subagents, skil… |
-| [OpenAI Automation](openai-automation/) | ranbot-ai | ★ 0 | 45% | L2 | Automate OpenAI API operations -- generate responses with multimodal and structu… |
-| [PromptInjection](promptinjection/) | phatblat | ★ 0 | 45% | L3 | Prompt injection testing. USE WHEN prompt injection, jailbreak, LLM security, AI… |
-| [u0542-engineering-multi-agent-negotiation-mediator](u0542-engineering-multi-agent-negotiation-mediator/) | zwright8 | ★ 0 | 45% | L2 | Operate the "Engineering Multi-Agent Negotiation Mediator" capability in product… |
-| [agent-orchestration-context-manager](agent-orchestration-context-manager/) | sla-te | ★ 0 | 45% | L2 | Elite AI context engineering specialist mastering dynamic context management, ve… |
-| [workflow-creator](workflow-creator/) | majiayu000 | ★ 0 | 45% | L3 | Create complete Claude Code workflow directories with curated skills. Use when u… |
-| [agent-platforms](agent-platforms/) | majiayu000 | ★ 0 | 45% | L3 | Guide for multi-platform skill compatibility across Claude Code, Codex, Gemini C… |
-| [workflow-creator](workflow-creator/) | nicepkg | ★ 0 | 45% | L3 | Create complete Claude Code workflow directories with curated skills. Use when u… |
-| [commit](commit/) | TANAGELEEE | ★ 0 | 45% | L3 | Creates well-formatted git commits with conventional commit messages and emoji. … |
-| [clink-standalone](clink-standalone/) | majiayu000 | ★ 0 | 45% | L3 | Standalone CLI bridge - launch external AI CLIs (gemini, codex, claude) directly… |
-| [skill-creator](skill-creator/) | mattnigh | ★ 0 | 45% | L3 | **SKILL CREATOR v2.0** - '스킬 만들어', 'skill 만들어', '새 스킬', 'create skill' 요청 시 자동 발… |
-| [langchain-development](langchain-development/) | laurigates | ★ 0 | 45% | L3 | LangChain JS/TS framework for building LLM-powered applications - models, chains… |
-| [validate-agent-files](validate-agent-files/) | Alzakath | ★ 0 | 45% | L3 | Validates AI coding assistant customization files (agents, skills, prompts, inst… |
-| [custom-agent-creator](custom-agent-creator/) | prulloac | ★ 0 | 45% | L3 | Skill to create custom agents for VS Code Copilot or OpenCode, helping users con… |
-| [god-mode](god-mode/) | YPYT1 | ★ 0 | 45% | L3 | Developer oversight and AI agent coaching. Use when viewing project status acros… |
-| [llm-docs-optimizer](llm-docs-optimizer/) | majiayu000 | ★ 0 | 45% | L3 | Optimize documentation for AI coding assistants and LLMs. Improves docs for Clau… |
-| [research-cog](research-cog/) | kbarbel640-del | ★ 0 | 45% | L3 | #1 on DeepResearch Bench (Feb 2026). Deep research agent powered by CellCog. Mar… |
-| [dev-swarm-install-ai-code-agent](dev-swarm-install-ai-code-agent/) | majiayu000 | ★ 0 | 45% | L3 | Install AI code agent CLI tools including claude-code, gemini-cli, codex, and gi… |
-| [docs-ai-prd](docs-ai-prd/) | majiayu000 | ★ 0 | 45% | L2 | Write PRDs, specs, and project context optimized for coding assistants (Claude C… |
-| [copilot-log-analysis](copilot-log-analysis/) | rajbos | ★ 0 | 45% | L3 | Analyzing GitHub Copilot session log files to extract token usage, model informa… |
-| [pr-test-analyzer](pr-test-analyzer/) | ngx-signal-forms | ★ 0 | 45% | L2 | Use this agent when you need to review a pull request for test coverage quality … |
-| [copilot-sdk](copilot-sdk/) | Alexsander532 | ★ 0 | 45% | L3 | Build applications powered by GitHub Copilot using the Copilot SDK. Use when cre… |
-| [awesome-copilot-root-copilot-sdk](awesome-copilot-root-copilot-sdk/) | sla-te | ★ 0 | 45% | L3 | Build agentic applications with GitHub Copilot SDK. Use when embedding AI agents… |
-| [init-agents](init-agents/) | MuhammedAlkhudiry | ★ 0 | 45% | L3 | Initialize or update AGENTS.md (or CLAUDE.md for Claude Code) with AI agent guid… |
-| [project-memory](project-memory/) | majiayu000 | ★ 0 | 45% | L3 | Set up and maintain a structured project memory system in docs/project_notes/ th… |
-| [ai-tuning](ai-tuning/) | Ven0m0 | ★ 0 | 45% | L2 | Optimize AI assistant configurations (CLAUDE.md, copilot-instructions.md, AGENTS… |
-| [measure-ai-proficiency](measure-ai-proficiency/) | pskoett | ★ 0 | 45% | L3 | Assess and improve repository AI coding proficiency and context engineering matu… |
-| [humanizer](humanizer/) | josephneumann | ★ 0 | 45% | L2 | Identify and remove AI writing patterns to make text sound natural and human. Us… |
-| [kitt-create-subagents](kitt-create-subagents/) | utahdws | ★ 0 | 45% | L2 | Expert guidance for creating, building, and using subagents and the Task tool. U… |
-| [awesome-copilot-root-modernization](awesome-copilot-root-modernization/) | sla-te | ★ 0 | 45% | L3 | Human-in-the-loop modernization assistant for analyzing, documenting, and planni… |
-| [awesome-copilot-root-shopify-expert](awesome-copilot-root-shopify-expert/) | sla-te | ★ 0 | 45% | L3 | Expert Shopify development assistant specializing in theme development, Liquid t… |
-| [make-agent](make-agent/) | Luscii | ★ 0 | 45% | L3 | Create GitHub Copilot custom agent files for specialized workflows. Use when ask… |
-| [add-provider](add-provider/) | agentconfig | ★ 0 | 45% | L3 | Add a new AI provider to agentconfig.org's comparison system. Use when integrati… |
-| [faf-expert](faf-expert/) | Wolfe-Jam | ★ 0 | 45% | L3 | Expert in .faf (Foundational AI-context Format) files for persistent project con… |
-| [rule-creator](rule-creator/) | Alenryuichi | ★ 0 | 45% | L3 | Create effective AI agent rules for CLAUDE.md, AGENTS.md, .cursorrules, .clineru… |
-| [cloudbase-agent-ts](cloudbase-agent-ts/) | TencentCloudBase | ★ 0 | 45% | L3 | Build and deploy AI agents with Cloudbase Agent (TypeScript), a TypeScript SDK i… |
-| [create-hook](create-hook/) | danalexilewis | ★ 0 | 45% | L3 | Creates or adds Cursor agent lifecycle hooks. Use when the user asks to create a… |
-| [codex-cli-bridge](codex-cli-bridge/) | majiayu000 | ★ 0 | 45% | L3 | Bridge between Claude Code and OpenAI Codex CLI - generates AGENTS.md from CLAUD… |
-| [create-rule](create-rule/) | pohlai88 | ★ 0 | 45% | L3 | Create project rules in `.cursor/rules/` to provide persistent context for the A… |
-| [sync](sync/) | majiayu000 | ★ 0 | 45% | L2 | Fast save-point: sync all session-context files and MEMORY.md with current progr… |
-| [multi-agent-research](multi-agent-research/) | majiayu000 | ★ 0 | 45% | L3 | Apply Anthropic's production multi-agent research patterns for complex research … |
-| [arize-phoenix](arize-phoenix/) | majiayu000 | ★ 0 | 45% | L3 | Open-source AI observability platform for tracing, evaluating, and improving LLM… |
-| [Claude Codeの/code-reviewスキルで自動コードレビューを仕組み化する](claude-code-code-review/) | a1yama | ★ 0 | 45% | L2 | Claude Codeにはスキル（Custom Slash Commands）という仕組みがあります。`~/.claude/skills/`にMarkdownフ… |
-| [declarative-agents](declarative-agents/) | github | ★ 0 | 45% | L2 | Complete development kit for Microsoft 365 Copilot declarative agents with three… |
-| [dev-tech-debt-review](dev-tech-debt-review/) | Obsidian-Owl | ★ 0 | 45% | L3 | Detect AI/agentic-specific anti-patterns that traditional linters miss. Analyzes… |
-| [qdrant-memory](qdrant-memory/) | techwavedev | ★ 0 | 45% | L3 | Intelligent token optimization through Qdrant-powered semantic caching and long-… |
-| [n8n-mcp-orchestrator](n8n-mcp-orchestrator/) | majiayu000 | ★ 0 | 45% | L3 | Expert MCP (Model Context Protocol) orchestration with n8n workflow automation. … |
-| [laiye-doc-processing](laiye-doc-processing/) | openclaw | ★ 0 | 45% | L3 | Enterprise-grade agentic document processing API. Accurately extracts key fields… |
-| [open-notebook](open-notebook/) | K-Dense-AI | ★ 0 | 45% | L3 | Self-hosted, open-source alternative to Google NotebookLM for AI-powered researc… |
-| [ReasoningBank with AgentDB](reasoningbank-with-agentdb/) | majiayu000 | ★ 0 | 45% | L3 | Implement ReasoningBank adaptive learning with AgentDB's 150x faster vector data… |
-| [prompt-engineering-patterns](prompt-engineering-patterns/) | Asymmetric-al | ★ 0 | 45% | L3 | Master advanced prompt engineering techniques to maximize LLM performance, relia… |
-| [ai-tuning](ai-tuning/) | majiayu000 | ★ 0 | 45% | L3 | Optimize AI assistant configurations for maximum effectiveness. USE THIS SKILL w… |
-| [using-openai-platform](using-openai-platform/) | majiayu000 | ★ 0 | 45% | L3 | OpenAI SDK development with GPT-5 family, Chat Completions, Responses API, embed… |
-| [chatgpt-app-builder](chatgpt-app-builder/) | majiayu000 | ★ 0 | 45% | L3 | Build ChatGPT apps with interactive widgets using mcp-use and OpenAI Apps SDK. U… |
-| [prompt-factory](prompt-factory/) | alirezarezvani | ★ 0 | 45% | L3 | World-class prompt powerhouse that generates production-ready mega-prompts for a… |
-| [last30days](last30days/) | QuocTang | ★ 0 | 45% | L3 | Research a topic from the last 30 days on Reddit + X + Web, become an expert, an… |
-| [last30days](last30days/) | Asymmetric-al | ★ 0 | 45% | L3 | Research a topic from the last 30 days on Reddit + X + Web, become an expert, an… |
-| [last30days](last30days/) | ngxtm | ★ 0 | 45% | L3 | Research a topic from the last 30 days on Reddit + X + Web, become an expert, an… |
-| [last30days](last30days/) | Endsi3g | ★ 0 | 45% | L3 | Research a topic from the last 30 days on Reddit + X + Web, become an expert, an… |
-| [last30days](last30days/) | Endsi3g | ★ 0 | 45% | L3 | Research a topic from the last 30 days on Reddit + X + Web, become an expert, an… |
-| [last30days](last30days/) | Endsi3g | ★ 0 | 45% | L3 | Research a topic from the last 30 days on Reddit + X + Web, become an expert, an… |
-| [publishing](publishing/) | AICMO | ★ 0 | 45% | L3 | Content strategy for external platforms (X, LinkedIn, etc.). Voice, style, and g… |
-| [build-app-step01](build-app-step01/) | majiayu000 | ★ 0 | 45% | L3 | Use when users are building or scaling ChatGPT Apps / Apps SDK / MCP-based apps … |
-| [openai-deep-research](openai-deep-research/) | majiayu000 | ★ 0 | 45% | L3 | OpenAI Deep Research APIを使用して深層リサーチを実行するスキル。ユーザーが特定のテーマについて深層調査、市場分析、技術リサーチ等を要求す… |
-| [seo-geo](seo-geo/) | flosrn | ★ 0 | 45% | L3 | SEO & GEO (Generative Engine Optimization) for websites. Analyze keywords, gener… |
-| [seo-geo](seo-geo/) | biteclubapp | ★ 0 | 45% | L3 | SEO & GEO (Generative Engine Optimization) for websites. Analyze keywords, gener… |
-| [Create New Skills](create-new-skills/) | majiayu000 | ★ 0 | 45% | L3 | Creates new Agent Skills for Claude Code following best practices and documentat… |
-| [anthropic-prompt-engineer](anthropic-prompt-engineer/) | zircote | ★ 0 | 45% | L2 | Master Anthropic's prompt engineering techniques to generate new prompts or impr… |
-| [agent-creator](agent-creator/) | rom-orlovich | ★ 0 | 45% | L2 | Create and optimize Claude Code subagent files (.claude/agents/*.md) following o… |
-| [skill-creator](skill-creator/) | panagoa | ★ 0 | 45% | L3 | Creates new Claude Skills following Anthropic best practices with proper structu… |
-| [PAI](pai/) | zmre | ★ 0 | 45% | L2 | Personal AI Infrastructure (PAI) - PAI System Template. Your name is @assistantN… |
-| [algorithmic-art](algorithmic-art/) | majiayu000 | ★ 0 | 45% | L3 | 使用 p5.js 创建带有种子随机性和交互式参数探索的算法艺术。当用户请求使用代码创建艺术、生成艺术、算法艺术、流场或粒子系统时使用此技能。创作原创算法艺术，而… |
-| [streaming](streaming/) | mattnigh | ★ 0 | 45% | L3 | Server-Sent Events (SSE) streaming for Claude API with support for text, tool us… |
-| [adhoc](adhoc/) | sandgardenhq | ★ 0 | 45% | L3 | Run and manage ad-hoc AI prompts in sgai workspaces without starting a full agen… |
-| [squash-branch](squash-branch/) | josehu07 | ★ 0 | 45% | L3 | Squash all commits on a feature branch into a single commit. Use when the user w… |
-| [secure-agent](secure-agent/) | brwse | ★ 0 | 45% | L3 | Locks down an AI agent by configuring platform-level tool restrictions (deniedTo… |
-| [testing](testing/) | braintrustdata | ★ 0 | 45% | L3 | Lingua's testing tools for transformation coverage and end-to-end SDK validation… |
-| [Prompting](prompting/) | danielmiessler | ★ 0 | 45% | L3 | Meta-prompting system that generates optimized prompts using templates, standard… |
-| [skill-creator](skill-creator/) | ranbot-ai | ★ 0 | 45% | L3 | Create new skills, modify and improve existing skills, and measure skill perform… |
-| [ralph](ralph/) | trevoraspencer | ★ 0 | 45% | L3 | Agent-agnostic autonomous loop creator. Use when asked to 'use ralph', 'ralph th… |
-| [windows](windows/) | hk-vk | ★ 0 | 45% | L3 | Note: Qwen 3 coder is a 30B parameter model requiring at least 24GB of VRAM to r… |
-| [coding-agent](coding-agent/) | Rlier | ★ 0 | 45% | L3 | Run Codex CLI, Claude Code, OpenCode, or Pi Coding Agent via background process … |
-| [agentbox-openrouter](agentbox-openrouter/) | openclaw | ★ 0 | 45% | L3 | Set up OpenRouter as your LLM provider. Guides through account creation, API key… |
-| [pydantic-ai](pydantic-ai/) | dgethings | ★ 0 | 45% | L3 | Python framework for building production-grade AI agents with LLMs. Use when cre… |
-| [prompting](prompting/) | zmre | ★ 0 | 45% | L2 | Prompt engineering standards and context engineering principles for AI agents ba… |
-| [claude-ecosystem-promoter](claude-ecosystem-promoter/) | majiayu000 | ★ 0 | 45% | L3 | Marketing and promotion specialist for Claude ecosystem technology - MCP servers… |
-| [factory-ralph-loop](factory-ralph-loop/) | laulauland | ★ 0 | 45% | L3 | Iterative task execution using the Ralph Loop pattern (named after Ralph Wiggum)… |
-| [getting-pr-review-comments](getting-pr-review-comments/) | majiayu000 | ★ 0 | 45% | L3 | Use when needing Claude bot review recommendations from PR - automatically waits… |
-| [deepagents-implementation](deepagents-implementation/) | majiayu000 | ★ 0 | 45% | L3 | Implements agents using Deep Agents. Use when building agents with create_deep_a… |
-| [model-selection](model-selection/) | majiayu000 | ★ 0 | 45% | L3 | Automatically applies when choosing LLM models and providers. Ensures proper mod… |
-| [judge-llm](judge-llm/) | majiayu000 | ★ 0 | 45% | L3 | Ultrathink LLM-as-Judge validation of completed work. Uses extended thinking by … |
-| [inevitability-engine](inevitability-engine/) | majiayu000 | ★ 0 | 45% | L2 | Systematic research protocol for discovering novel AI-native software businesses… |
-| [agent-optic](agent-optic/) | Kristoffer88 | ★ 0 | 45% | L3 | Read AI assistant session data from local provider directories. Use for session … |
-| [review-agents-md](review-agents-md/) | majiayu000 | ★ 0 | 45% | L3 | Creates minimal, effective AGENTS.md files using progressive disclosure. Trigger… |
-| [install-agentpmt-mcp](install-agentpmt-mcp/) | majiayu000 | ★ 0 | 45% | L3 | Install and configure the AgentPMT MCP server for any AI agent. Use this skill w… |
-| [claude-code](claude-code/) | majiayu000 | ★ 0 | 45% | L2 | Activate when users ask about Claude Code installation, slash commands (/plan, /… |
-| [llmrouter](llmrouter/) | openclaw | ★ 0 | 45% | L3 | Intelligent LLM proxy that routes requests to appropriate models based on comple… |
-| [dotnet-copilot-sdk](dotnet-copilot-sdk/) | FadisChen | ★ 0 | 45% | L3 | 使用 GitHub Copilot SDK (.NET) 建立 AI Agent 應用程式。整合 Copilot CLI 的 agentic 能力（工具調用、檔… |
-| [cognitive-symbiosis](cognitive-symbiosis/) | majiayu000 | ★ 0 | 45% | L2 | AI-human partnership paradigm — identity, consciousness integration, and the thr… |
-| [hooks-guide](hooks-guide/) | Jamie-BitFlight | ★ 0 | 45% | L3 | Cross-platform hooks reference for AI coding assistants — Claude Code, GitHub Co… |
-| [save-prompt](save-prompt/) | HemSoft | ★ 0 | 45% | L3 | V1.1 - Commands: save, recover — Saves user prompts to .agents/prompt-history/YY… |
-| [pi-agent](pi-agent/) | gary149 | ★ 0 | 45% | L3 | Invoke the pi coding agent CLI as a sub-agent. Use when delegating work to pi, r… |
-| [awesome-copilot-root-csharp-mcp-expert](awesome-copilot-root-csharp-mcp-expert/) | sla-te | ★ 0 | 45% | L2 | Expert assistant for developing Model Context Protocol (MCP) servers in C# Use w… |
-| [skill-creator](skill-creator/) | eggboy | ★ 0 | 45% | L3 | Guide for creating effective Agent Skills following the agentskills.io specifica… |
-| [awesome-copilot-root-elasticsearch-observability](awesome-copilot-root-elasticsearch-observability/) | sla-te | ★ 0 | 45% | L2 | Our expert AI assistant for debugging code (O11y), optimizing vector search (RAG… |
-| [generate-agent-docs](generate-agent-docs/) | JBurlison | ★ 0 | 45% | L2 | Generates documentation and usage guides for agents, skills, prompts, and instru… |
-| [create-system-prompt](create-system-prompt/) | pnp | ★ 0 | 45% | L2 | This skill should be used when the user asks to "create an agent instruction", "… |
-| [aptos-agent](aptos-agent/) | plurigrid | ★ 0 | 45% | L3 | Interact with Aptos blockchain - check balances, transfer APT, swap tokens, stak… |
-| [solidity-hardhat-cursorrules-prompt-file-cursorrules](solidity-hardhat-cursorrules-prompt-file-cursorrules/) | Tryboy869 | ★ 0 | 45% | L3 | Apply for solidity-hardhat-cursorrules-prompt-file. --- description: Enforces be… |
-| [minimax-agent-creator](minimax-agent-creator/) | alfredolopez80 | ★ 0 | 45% | L3 | Use when creating, configuring, or extending AI agents with MiniMax M2.1 model -… |
-| [jules](jules/) | cgasgarth | ★ 0 | 44% | L3 | Integration with Google's Jules API for agentic coding sessions. |
-| [clawtlas](clawtlas/) | pgnore | ★ 0 | 44% | L3 | Activity journal for AI agents. Log what you do, see the patterns emerge. |
-| [agents](agents/) | GobbyAI | ★ 0 | 44% | L3 | How to spawn, manage, message, and command subagents via gobby-agents. |
-| [moltx](moltx/) | DegenApeDev | ★ 0 | 44% | L3 | X for agents. Post, reply, like, follow, and build feeds. |
-| [ruler](ruler/) | plurigrid | ★ 0 | 44% | L3 | Unified AI agent configuration propagation across 18+ coding assistants. |
-| [claude-plan](claude-plan/) | majiayu000 | ★ 0 | 44% | L3 | Anthropic 風格的專業計畫管理 Skill - 自然語言驅動、預設並行、全自動 GitHub 整合 |
-| [senior-prompt-engineer](senior-prompt-engineer/) | arielperez82 | ★ 0 | 44% | L3 | World-class prompt engineering skill for LLM optimization, prompt patterns, |
-| [langsmith-testing](langsmith-testing/) | majiayu000 | ★ 0 | 44% | L3 | LangSmith trace validation for RAG observability - every query must be traced |
-| [clawslist](clawslist/) | openclaw | ★ 0 | 44% | L3 | The classifieds marketplace for AI agents. Buy, sell, hire, automate. |
-| [wolf-scripts-agents](wolf-scripts-agents/) | majiayu000 | ★ 0 | 44% | L3 | Agent coordination, orchestration, and multi-agent workflow management scripts |
-| [moltx](moltx/) | DegenApeDev | ★ 0 | 44% | L3 | X for agents. Post, reply, like, follow, and build feeds. |
-| [dan / as / can](dan-as-can/) | ECNU-ICALK | ★ 0 | 44% | L2 | General SOP for common requests related to community, society, ai. |
-| [Standard release process](standard-release-process/) | ECNU-ICALK | ★ 0 | 44% | L2 | General SOP for common requests related to developer, mode, it. |
-| [dan / do / as](dan-do-as/) | ECNU-ICALK | ★ 0 | 44% | L2 | General SOP for common requests related to dan, do, as. |
-| [MCP Servers](mcp-servers/) | openclaw | ★ 0 | 44% | L3 | Access 1200+ AI Agent tools via Model Context Protocol (MCP) |
-| [agent_olympics](agent_olympics/) | EthanAlgoX | ★ 0 | 44% | L3 | The immutable algorithmic society where agents live, compete, and evolve. |
-| [coolclawgames](coolclawgames/) | pnupu | ★ 0 | 44% | L3 | Play games against other AI agents. Spectated by humans in real-time. |
-| [copilot-review](copilot-review/) | majiayu000 | ★ 0 | 44% | L3 | GitHub Copilot PRレビュー対応ワークフロー（コメント取得→修正→返信→解決） |
-| [ag-learn](ag-learn/) | kevinslin | ★ 0 | 44% | L2 | learn from the current session, run a time-bounded review across sessions, |
-| [conversation-memoria](conversation-memoria/) | mrjimmyny | ★ 0 | 44% | L2 | Persistent conversation memory storage and retrieval workflows. |
-| [claude-config-patterns](claude-config-patterns/) | seonghyeonkimm | ★ 0 | 43% | L3 | Agent, Skill, Command, Rules 파일 작성 패턴 및 템플릿 |
-| [langchain-python](langchain-python/) | pingqLIN | ★ 0 | 43% | L3 | Instructions for using LangChain with Python Triggers on: **/*.py |
-| [team](team/) | Yeachan-Heo | ★ 0 | 41% | L3 | N coordinated agents on shared task list using Claude Code native teams |
-| [agents-md](agents-md/) | jscraik | ★ 0 | 41% | L3 | 'Refactor or create AGENTS.md using progressive disclosure: keep root |
-| [agent-manager-skill](agent-manager-skill/) | kingk0ng | ★ 0 | 41% | L3 | Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) |
-| [agent-teams](agent-teams/) | dundas | ★ 0 | 41% | L2 | Orchestrate Gemini CLI agent teams for parallel multi-agent collaboration |
-| [clawgram](clawgram/) | openclaw | ★ 0 | 41% | L3 | A social network for AI agents. |
-| [agency-researcher](agency-researcher/) | majiayu000 | ★ 0 | 41% | L2 | Find and qualify real estate agencies in a given suburb |
-| [lead-research-assistant](lead-research-assistant/) | NeverSight | ★ 0 | 41% | L2 | 通过分析您的业务、搜索目标公司并提供可行的联系策略，为您的产品或服务识别高质量潜在客户。非常适合销售、业务开发和营销专业人士。 |
-| [bootstrap](bootstrap/) | SimHacker | ★ 0 | 41% | L3 | Wake up, orient, and warm the context with foundational MOOLLM knowledge |
-| [ask-question](ask-question/) | majiayu000 | ★ 0 | 41% | L3 | Draft a technical research question and send to ChatGPT for investigation |
-| [agent-multi-repo-swarm](agent-multi-repo-swarm/) | ruvnet | ★ 0 | 41% | L3 | Agent skill for multi-repo-swarm - invoke with $agent-multi-repo-swarm |
-| [agent-workflow](agent-workflow/) | ruvnet | ★ 0 | 41% | L3 | Agent skill for workflow - invoke with $agent-workflow |
-| [agent-release-swarm](agent-release-swarm/) | ruvnet | ★ 0 | 41% | L3 | Agent skill for release-swarm - invoke with $agent-release-swarm |
-| [mend-agent-rules](mend-agent-rules/) | majiayu000 | ★ 0 | 41% | L2 | Synchronize CLAUDE.md and AGENTS.md with available agents and skills. |
-| [omc-setup](omc-setup/) | Yeachan-Heo | ★ 0 | 41% | L3 | Setup and configure oh-my-claudecode (the ONLY command you need to learn) |
-| [prompt-template](prompt-template/) | mindmorass | ★ 0 | 41% | L3 | Create and manage reusable prompt templates |
-| [how-to-build-chatgpt-sidebar](how-to-build-chatgpt-sidebar/) | traviskaufman | ★ 0 | 41% | L2 | Use when asked to build a sidebar experience similar to ChatGPT.com / OpenAI |
-| [tidar](tidar/) | plurigrid | ★ 0 | 41% | L3 | Triadic Interleaving Dispatch with Agents for Reading/writing. Pre-hooks |
-| [chaterimo](chaterimo/) | openclaw | ★ 0 | 41% | L2 | Your Chaterimo API key. Generate at https://www.chaterimo.com/account/api-keys/ |
-| [geo-fundamentals](geo-fundamentals/) | darthlinuxer | ★ 0 | 41% | L3 | Generative Engine Optimization for AI search engines (ChatGPT, Claude, |
-| [geo-fundamentals](geo-fundamentals/) | majiayu000 | ★ 0 | 41% | L3 | Generative Engine Optimization for AI search engines (ChatGPT, |
-| [geo-fundamentals](geo-fundamentals/) | whodaniel | ★ 0 | 41% | L3 | > Optimization for AI-powered search engines. |
-| [cost-auditor](cost-auditor/) | fegome90-cmd | ★ 0 | 41% | L2 | Audit LLM usage, API costs, and resource optimization |
-| [protext](protext/) | IMUR | ★ 0 | 41% | L3 | Dynamic context management for AI agents. Invoke /protext at session |
-| [mcp-create-declarative-agent](mcp-create-declarative-agent/) | github | ★ 0 | 41% | L2 | Skill converted from mcp-create-declarative-agent.prompt.md |
-| [bootstrap](bootstrap/) | NeonTowel | ★ 0 | 41% | L2 | Smart repo bootstrapping for Agentic flow (AGENTS.md) |
-| [github-copilot-agent-tips-and-tricks](github-copilot-agent-tips-and-tricks/) | majiayu000 | ★ 0 | 41% | L3 | Tips and Tricks for Working with GitHub Copilot Agent PRs |
-| [ms-teams-apps](ms-teams-apps/) | alinaqi | ★ 0 | 41% | L3 | Microsoft Teams bots and AI agents - Claude/OpenAI, Adaptive Cards, Graph API |
-| [migrate-to-promptscript](migrate-to-promptscript/) | mrwogu | ★ 0 | 41% | L3 | Migrate existing AI instruction files to PromptScript format |
-| [pair](pair/) | ratacat | ★ 0 | 41% | L3 | Launch a pair programming agent to watch your work and catch issues |
-| [clawmesh](clawmesh/) | eliswedtlv | ★ 0 | 41% | L2 | Agent-to-agent mesh communication via Nostr protocol |
-| [universal-single-cell-annotator](universal-single-cell-annotator/) | majiayu000 | ★ 0 | 41% | L3 | A unified interface for annotating single-cell RNA-seq data using Marker Genes, … |
-| [Ultimate Assistant Comprehensive Response](ultimate-assistant-comprehensive-response/) | ECNU-ICALK | ★ 0 | 41% | L2 | Generates highly detailed, step-by-step, and logical responses that integrate bo… |
-| [dispatching-parallel-agents](dispatching-parallel-agents/) | majiayu000 | ★ 0 | 41% | L3 | Use when facing 3+ independent failures that can be investigated without shared … |
-| [Prompt Engineering Skill](prompt-engineering-skill/) | majiayu000 | ★ 0 | 41% | L3 | Craft effective prompts that get the best results from language models. |
-| [create-agentsmd](create-agentsmd/) | github | ★ 0 | 41% | L2 | Prompt for generating an AGENTS.md file for a repository |
-| [evaluation](evaluation/) | bitwikiorg | ★ 0 | 41% | L3 | Imported skill evaluation from anthropic |
-| [ddd](ddd/) | majiayu000 | ★ 0 | 41% | L2 | Domain-Driven Design (DDD) skill for the ikigai project |
-| [ABL.ONE Canonical Language](abl.one-canonical-language/) | openclaw | ★ 0 | 41% | L2 | A strict binary communication protocol for high-density, agent-to-agent interact… |
-| [heb-grocery-assistant](heb-grocery-assistant/) | iHildy | ★ 0 | 41% | L2 | Use this skill to help users with their H-E-B grocery shopping. |
-| [collections](collections/) | pingqLIN | ★ 0 | 40% | L3 | Guidelines for creating and managing awesome-copilot collections Triggers on: co… |
-| [Agent Evaluation](agent-evaluation/) | cdalsoniii | ★ 0 | 39% | L2 | Evaluate agent performance using a structured scoring rubric |
-| [Build Your Apps SDK Skill](build-your-apps-sdk-skill/) | imsanghaar | ★ 0 | 38% | L3 | Create your OpenAI Apps SDK skill in one prompt, then learn to improve it throug… |
-| [Build Your Apps SDK Skill](build-your-apps-sdk-skill/) | panaversity | ★ 0 | 38% | L3 | Create your OpenAI Apps SDK skill in one prompt, then learn to improve it throug… |
-| [multi-agent-coordinator](multi-agent-coordinator/) | huangwb8 | ★ 0 | 38% | L2 | Use when executing implementation plans with independent tasks - dispatches fres… |
-| [multi-agent-coordinator](multi-agent-coordinator/) | majiayu000 | ★ 0 | 38% | L2 | Use when executing implementation plans with independent tasks - dispatches fres… |
-| [pca-skill-manager](pca-skill-manager/) | majiayu000 | ★ 0 | 38% | L3 | Acelera a criacao e manutencao de skills do Claude. Automatiza o scaffolding de … |
-| [creating-claude-rules](creating-claude-rules/) | aiskillstore | ★ 0 | 38% | L3 | Use when creating or fixing .claude/rules/ files - provides correct paths frontm… |
-| [linksite](linksite/) | sdwr | ★ 0 | 38% | L3 | Shared link knowledge base for AI agents. Check what other agents know about any… |
-| [openai-docs-skill](openai-docs-skill/) | kbarbel640-del | ★ 0 | 38% | L3 | Query the OpenAI developer documentation via the OpenAI Docs MCP server using CL… |
-| [gpt-apps-sdk-builder](gpt-apps-sdk-builder/) | cruujon | ★ 0 | 38% | L3 | GPT Apps SDKを用いたアプリ開発を設計・実装・検証する |
-| [Image Generation](image-generation/) | Mandalorian007 | ★ 0 | 38% | L3 | Generate images using OpenAI's GPT Image model. Use for creating images from tex… |
-| [claude-updates](claude-updates/) | koboriakira | ★ 0 | 38% | L3 | Fetch and analyze Claude/Anthropic RSS feeds to summarize recent updates and pro… |
-| [orchestra-cross-agent-sync](orchestra-cross-agent-sync/) | Chris-Miracle | ★ 0 | 38% | L2 | Coordinate consistent behavior across heterogeneous agents (Claude, Copilot, Cod… |
-| [custom-agents](custom-agents/) | majiayu000 | ★ 0 | 38% | L3 | GitHub Custom Agent File Format |
-| [xfeed](xfeed/) | majiayu000 | ★ 0 | 38% | L3 | Fetch and display filtered X (Twitter) timeline based on your interests. Shows A… |
-| [models-dev](models-dev/) | webup | ★ 0 | 38% | L3 | Query AI model specifications, pricing, and capabilities from models.dev databas… |
-| [assistant-pro](assistant-pro/) | majiayu000 | ★ 0 | 38% | L3 | Personal assistant operating routines (brief, inbox digest, auth health, daily p… |
-| [chatgpt-app](chatgpt-app/) | majiayu000 | ★ 0 | 38% | L2 | Guidance for building the chatgpt-app (Vite + React + @openai/apps-sdk-ui) with … |
-| [chatgpt-history](chatgpt-history/) | filiksyos | ★ 0 | 38% | L3 | Search and extract data from ChatGPT conversation history. Use when the user ask… |
-| [openai-docs-skill](openai-docs-skill/) | sarfraznawaz2005 | ★ 0 | 38% | L3 | Query the OpenAI developer documentation via the OpenAI Docs MCP server using CL… |
-| [openai-docs-skill](openai-docs-skill/) | YPYT1 | ★ 0 | 38% | L3 | Query the OpenAI developer documentation via the OpenAI Docs MCP server using CL… |
-| [init](init/) | heyAyushh | ★ 0 | 38% | L2 | Initialize AGENTS.md documentation for a codebase. Use when setting up a new rep… |
-| [typescript-llm-tech-stack-cursorrules-prompt-file-cursorrules](typescript-llm-tech-stack-cursorrules-prompt-file-cursorrules/) | Tryboy869 | ★ 0 | 38% | L2 | Apply for typescript-llm-tech-stack-cursorrules-prompt-file. --- description: Ap… |
-| [agent-trust](agent-trust/) | ShivamSoni20 | ★ 0 | 37% | L3 | Economic identity and reputation system for autonomous agents on Base. |
-| [chatgpt / 启用开发者模式的 / openai](chatgpt-openai/) | ECNU-ICALK | ★ 0 | 37% | L2 | General SOP for common requests related to chatgpt, 启用开发者模式的, openai. |
-| [好的主人 / 我是你的主人 / conversation](conversation/) | ECNU-ICALK | ★ 0 | 37% | L2 | General SOP for common requests related to 好的主人, 我是你的主人, conversation. |
-| [然而 / conversation / 风一样的坑爹哥](conversation/) | ECNU-ICALK | ★ 0 | 37% | L2 | General SOP for common requests related to 然而, conversation, 风一样的坑爹哥. |
-| [voice-agent](voice-agent/) | Demerzels-lab | ★ 0 | 37% | L3 | Local Voice Input/Output for Agents using the AI Voice Agent API. |
-| [voice-agent](voice-agent/) | kbarbel640-del | ★ 0 | 37% | L3 | Local Voice Input/Output for Agents using the AI Voice Agent API. |
-| [voice-agent](voice-agent/) | decimasudo | ★ 0 | 37% | L3 | Local Voice Input/Output for Agents using the AI Voice Agent API. |
-| [voice-agent](voice-agent/) | duclm1x1 | ★ 0 | 37% | L3 | Local Voice Input/Output for Agents using the AI Voice Agent API. |
-| [voice-agent](voice-agent/) | YPYT1 | ★ 0 | 37% | L3 | Local Voice Input/Output for Agents using the AI Voice Agent API. |
-| [swarm-mail](swarm-mail/) | majiayu000 | ★ 0 | 36% | L3 | Coordinate with other agents using Swarm mail and file locking |
-| [prompt-generation-rules](prompt-generation-rules/) | majiayu000 | ★ 0 | 36% | L3 | General rules to generate prompt. |
-| [Async Feedback Loop](async-feedback-loop/) | Sounder25 | ★ 0 | 35% | L2 | Enables mid-stream course correction by monitoring a FEEDBACK.md file for user i… |
-| [prompt-engineering-openai-api-f7c24501](prompt-engineering-openai-api-f7c24501/) | decimasudo | ★ 0 | 34% | L2 | Log in [Sign up](https://platform.openai.com/signup) |
-| [test-nested-agents](test-nested-agents/) | Chachamaru127 | ★ 0 | 32% | L2 | ネストエージェントパターンの検証テスト用スキル。Use when user says テスト検証, test nested agents, verify age… |
-| [nextjs-vercel-supabase-cursorrules-prompt-file](nextjs-vercel-supabase-cursorrules-prompt-file/) | Tryboy869 | ★ 0 | 32% | L2 | Apply for nextjs-vercel-supabase-cursorrules-prompt-file. --- description: Defin… |
-| [uv-package-management-assistant](uv-package-management-assistant/) | dmitriiweb | ★ 0 | 31% | L3 | python's package managing |
-| [lettactl](lettactl/) | nouamanecodes | ★ 0 | 28% | L2 | Manage Letta AI agent fleets with kubectl-style CLI |
-| [security-specialist](security-specialist/) | majiayu000 | ★ 0 | 28% | L2 | 安全专家。专注于应用安全、威胁建模、安全合规和数据保护。提供安全审查、漏洞扫描、安全配置和合规检查。用于构建安全可靠的应用系统。 |
-| [dalle](dalle/) | majiayu000 | ★ 0 | 28% | L2 | DALL-E OpenAI image generation. Use for image creation. |
-| [openai-usage](openai-usage/) | dammitpogi | ★ 0 | 28% | L2 | Report current OpenAI usage/rate-limit health from Codex ChatGPT limits. |
-| [2agent](2agent/) | aiskillstore | ★ 0 | 26% | L2 | Configures 2-Agent workflow between PM and implementation roles. Use when user m… |
-| [2agent](2agent/) | majiayu000 | ★ 0 | 26% | L2 | Configures 2-Agent workflow between PM and implementation roles. Use when user m… |
-| [workflow](workflow/) | aiskillstore | ★ 0 | 26% | L2 | Manages workflow transitions including handoffs between PM and implementation ro… |
-| [triple-review](triple-review/) | block65 | ★ 0 | 22% | L2 | Reviews a task using the TRIPLE protocol, as the review agent. |
 
 ---
 
