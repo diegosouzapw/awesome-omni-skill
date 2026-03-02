@@ -7,9 +7,9 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/agentdb-vector-search-backup-dir/SKILL.md",
+  "file_path": "skills/data/agentdb-vector-search-dnyoussef-ai-chrome-extension/SKILL.md",
   "source": "github_curated_repos",
-  "stars": 95,
+  "stars": 97,
   "quality_score": 77,
   "best_practices_score": 65,
   "skill_level": 3,
@@ -18,9 +18,9 @@
   "has_extra_files": false,
   "downloads": 0,
   "content_hash": "4e80bb540fc0adab8efca719a9f3931ea6638a43f62f41b840b599776a7e4a10",
-  "indexed_at": "2026-03-01T01:10:30.416Z",
-  "synced_at": "2026-03-01T06:20:37.693Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/641f273e33dd254c3eb9ac998ae66d3a8333281eae9bedac241eb60b9f611c3e",
-  "install_command": "mkdir -p .claude/skills/agentdb-vector-search && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agentdb-vector-search-backup-dir/SKILL.md\" > .claude/skills/agentdb-vector-search/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agentdb-vector-search-backup-dir/SKILL.md"
+  "indexed_at": "2026-03-02T02:03:52.640Z",
+  "synced_at": "2026-03-02T06:25:29.934Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/03d3340d8f07ed8ebb6f978a8b99dfa892b96eac3ef93c909ccbd8507822d860",
+  "install_command": "mkdir -p .claude/skills/agentdb-vector-search && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agentdb-vector-search-dnyoussef-ai-chrome-extension/SKILL.md\" > .claude/skills/agentdb-vector-search/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agentdb-vector-search-dnyoussef-ai-chrome-extension/SKILL.md"
 }

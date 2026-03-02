@@ -7,9 +7,9 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/agent-evaluation-claude-code-communit-claude-code-resource/SKILL.md",
+  "file_path": "skills/data/agent-evaluation/SKILL.md",
   "source": "github_curated_repos",
-  "stars": 95,
+  "stars": 97,
   "quality_score": 70,
   "best_practices_score": 45,
   "skill_level": 2,
@@ -18,9 +18,9 @@
   "has_extra_files": false,
   "downloads": 0,
   "content_hash": "96a27dc92ce53020362715f309496dbabfd92fbb7fa5393a705f237238463908",
-  "indexed_at": "2026-03-01T01:04:41.938Z",
-  "synced_at": "2026-03-01T06:20:43.513Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/398c20bc3baa967932cee62a88191996617ff9d4febf558fbe2d21dc7d881848",
-  "install_command": "mkdir -p .claude/skills/agent-evaluation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agent-evaluation-claude-code-communit-claude-code-resource/SKILL.md\" > .claude/skills/agent-evaluation/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agent-evaluation-claude-code-communit-claude-code-resource/SKILL.md"
+  "indexed_at": "2026-03-02T02:03:07.601Z",
+  "synced_at": "2026-03-02T06:25:39.691Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/fd3ecc9e59b425f849fef8ab8904a6e18565e28d4741bc71aeee7d5b056603b4",
+  "install_command": "mkdir -p .claude/skills/agent-evaluation && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agent-evaluation/SKILL.md\" > .claude/skills/agent-evaluation/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agent-evaluation/SKILL.md"
 }

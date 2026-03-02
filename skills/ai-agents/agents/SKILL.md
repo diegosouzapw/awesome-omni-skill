@@ -1,348 +1,271 @@
 ---
-name: agents
-description: Patterns and architectures for building AI agents and workflows with LLMs. Use when designing systems that involve tool use, multi-step reasoning, autonomous decision-making, or orchestration of LLM-driven tasks.
+name: Agents
+description: Dynamic agent composition and management system. USE WHEN user says create custom agents, spin up custom agents, specialized agents, OR asks for agent personalities, available traits, agent voices. Handles custom agent creation, personality assignment, voice mapping, and parallel agent orchestration.
 ---
 
-# Building Agents
+## 🚨 MANDATORY: Voice Notification (REQUIRED BEFORE ANY ACTION)
 
-Agents are systems where LLMs dynamically direct their own processes and tool usage. This skill covers when to use agents vs workflows, common architectural patterns, and practical implementation guidance.
+**You MUST send this notification BEFORE doing anything else when this skill is invoked.**
 
-## Table of Contents
+1. **Send voice notification**:
+   ```bash
+   curl -s -X POST http://localhost:8888/notify \
+     -H "Content-Type: application/json" \
+     -d '{"message": "Running the WORKFLOWNAME workflow in the Agents skill to ACTION"}' \
+     > /dev/null 2>&1 &
+   ```
 
-- [Agents vs Workflows](#agents-vs-workflows)
-- [Workflow Patterns](#workflow-patterns)
-- [Agent Architectures](#agent-architectures)
-- [ReAct Pattern](#react-pattern)
-- [Tool Design](#tool-design)
-- [Best Practices](#best-practices)
-- [References](#references)
+2. **Output text notification**:
+   ```
+   Running the **WorkflowName** workflow in the **Agents** skill to ACTION...
+   ```
 
-## Agents vs Workflows
+**This is not optional. Execute this curl command immediately upon skill invocation.**
 
-| Aspect | Workflows | Agents |
-|--------|-----------|--------|
-| **Control flow** | Predefined code paths | LLM determines next step |
-| **Predictability** | High - deterministic steps | Lower - dynamic decisions |
-| **Complexity** | Simpler to debug and test | More complex, harder to predict |
-| **Best for** | Well-defined, repeatable tasks | Open-ended, adaptive problems |
+# Agents - Custom Agent Composition System
 
-**Key principle**: Start with the simplest solution. Use workflows when the task is predictable; use agents when flexibility is required.
+**Auto-routes when user mentions custom agents, agent creation, or specialized personalities.**
 
-## Workflow Patterns
+## Configuration: Base + User Merge
 
-### 1. Prompt Chaining
+The Agents skill uses the standard PAI SYSTEM/USER two-tier pattern:
 
-Decompose tasks into sequential LLM calls, where each step's output feeds the next.
+| Location | Purpose | Updates With PAI? |
+|----------|---------|-------------------|
+| `Data/Traits.yaml` | Base traits, example voices | Yes |
+| `USER/SKILLCUSTOMIZATIONS/Agents/Traits.yaml` | Your voices, prosody, agents | No |
 
-```python
-async def prompt_chain(input_text):
-    # Step 1: Extract key information
-    extracted = await llm.generate(
-        "Extract the main entities and relationships from: " + input_text
-    )
+**How it works:** ComposeAgent.ts loads base traits, then merges user customizations over them. Your customizations are never overwritten by PAI updates.
 
-    # Step 2: Analyze
-    analysis = await llm.generate(
-        "Analyze these entities for patterns: " + extracted
-    )
+### User Customization Directory
 
-    # Step 3: Generate output
-    return await llm.generate(
-        "Based on this analysis, provide recommendations: " + analysis
-    )
+Create your customizations at:
+```
+~/.claude/skills/CORE/USER/SKILLCUSTOMIZATIONS/Agents/
+├── Traits.yaml       # Your traits, voices, prosody settings
+├── NamedAgents.md    # Your named agent backstories (optional)
+└── VoiceConfig.json  # Voice server configuration (optional)
 ```
 
-**Use when**: Tasks naturally decompose into fixed sequential steps.
+## Voice Prosody Settings
 
-### 2. Routing
+Each voice can have prosody settings that control how it sounds. These are passed to ElevenLabs API.
 
-Classify inputs and direct them to specialized handlers.
+### Prosody Parameters
 
-```python
-async def route_request(user_input):
-    # Classify the input
-    category = await llm.generate(
-        f"Classify this request into one of: [billing, technical, general]\n{user_input}"
-    )
+| Parameter | Range | Default | Effect |
+|-----------|-------|---------|--------|
+| `stability` | 0.0-1.0 | 0.5 | Low = expressive/varied, High = consistent/monotone |
+| `similarity_boost` | 0.0-1.0 | 0.75 | Voice identity preservation |
+| `style` | 0.0-1.0 | 0.0 | Style exaggeration (higher = more dramatic) |
+| `speed` | 0.7-1.2 | 1.0 | Speech rate |
+| `use_speaker_boost` | boolean | true | Enhanced clarity (adds latency) |
 
-    handlers = {
-        "billing": handle_billing,
-        "technical": handle_technical,
-        "general": handle_general,
-    }
+### Example Voice Configuration
 
-    return await handlers[category.strip()](user_input)
+In your `USER/SKILLCUSTOMIZATIONS/Agents/Traits.yaml`:
+
+```yaml
+voice_mappings:
+  voice_registry:
+    # Add a new voice with full prosody settings
+    MyCustomVoice:
+      voice_id: "your-elevenlabs-voice-id"
+      characteristics: ["energetic", "warm", "professional"]
+      description: "Custom voice for enthusiastic agents"
+      prosody:
+        stability: 0.40
+        similarity_boost: 0.75
+        style: 0.30
+        speed: 1.05
+        use_speaker_boost: true
+
+    # Override prosody for an existing base voice
+    Daniel:
+      prosody:
+        stability: 0.65
+        style: 0.10
+        speed: 0.92
 ```
 
-**Use when**: Different input types need fundamentally different processing.
+### Personality → Prosody Guidelines
 
-### 3. Parallelization
+| Personality | stability | style | speed | Rationale |
+|-------------|-----------|-------|-------|-----------|
+| Skeptical | 0.60 | 0.10 | 0.95 | Measured, precise |
+| Enthusiastic | 0.35 | 0.40 | 1.10 | High energy |
+| Analytical | 0.65 | 0.08 | 0.95 | Clear, structured |
+| Bold | 0.45 | 0.35 | 1.05 | Confident, dynamic |
+| Cautious | 0.70 | 0.05 | 0.90 | Careful, deliberate |
 
-Run multiple LLM calls concurrently for independent subtasks.
 
-```python
-import asyncio
+## Overview
 
-async def parallel_analysis(document):
-    # Run independent analyses in parallel
-    results = await asyncio.gather(
-        llm.generate(f"Summarize: {document}"),
-        llm.generate(f"Extract key facts: {document}"),
-        llm.generate(f"Identify sentiment: {document}"),
-    )
+The Agents skill is a complete agent composition and management system:
+- Dynamic agent composition from traits (expertise + personality + approach)
+- Voice mappings with full prosody control
+- Custom agent creation with unique voices
+- Parallel agent orchestration patterns
 
-    summary, facts, sentiment = results
-    return {"summary": summary, "facts": facts, "sentiment": sentiment}
+## Workflow Routing
+
+**Available Workflows:**
+- **CREATECUSTOMAGENT** - Create specialized custom agents → `Workflows/CreateCustomAgent.md`
+- **LISTTRAITS** - Show available agent traits → `Workflows/ListTraits.md`
+- **SPAWNPARALLEL** - Launch parallel agents → `Workflows/SpawnParallelAgents.md`
+
+## Route Triggers
+
+**CRITICAL: The word "custom" is the KEY trigger for unique agent identities:**
+
+| User Says | What to Use | Why |
+|-----------|-------------|-----|
+| "**custom agents**", "create **custom** agents" | ComposeAgent + `general-purpose` | Unique personalities, voices, colors |
+| "agents", "launch agents", "bunch of agents" | SpawnParallel workflow | Same identity, parallel grunt work |
+| "use [named agent]" | Named agent | Pre-defined personality from USER config |
+
+**NEVER use static agent types (Intern, Architect, Engineer, etc.) for custom agents.**
+
+## Components
+
+### Data
+
+**Traits.yaml** (`Data/Traits.yaml`) - Base configuration:
+- Core expertise areas: security, technical, research
+- Core personalities: skeptical, analytical, enthusiastic
+- Core approaches: thorough, rapid, systematic
+- Example voice mappings with prosody
+
+### Tools
+
+**ComposeAgent.ts** (`Tools/ComposeAgent.ts`)
+- Dynamic agent composition engine
+- Merges base + user configurations
+- Outputs complete agent prompt with voice settings
+
+```bash
+# Usage examples
+bun run ~/.claude/skills/Agents/Tools/ComposeAgent.ts --task "Review security"
+bun run ~/.claude/skills/Agents/Tools/ComposeAgent.ts --traits "security,skeptical,thorough"
+bun run ~/.claude/skills/Agents/Tools/ComposeAgent.ts --list
+bun run ~/.claude/skills/Agents/Tools/ComposeAgent.ts --output json
 ```
 
-**Variants**:
-- **Sectioning**: Break task into parallel subtasks
-- **Voting**: Run same prompt multiple times, aggregate results
-
-### 4. Orchestrator-Workers
-
-Central LLM decomposes tasks and delegates to worker LLMs.
-
-```python
-class Orchestrator:
-    async def run(self, task):
-        # Break down the task
-        subtasks = await self.plan(task)
-
-        # Delegate to workers
-        results = []
-        for subtask in subtasks:
-            worker_result = await self.delegate(subtask)
-            results.append(worker_result)
-
-        # Synthesize results
-        return await self.synthesize(results)
-
-    async def plan(self, task):
-        response = await llm.generate(
-            f"Break this task into subtasks:\n{task}\n\nReturn as JSON array."
-        )
-        return json.loads(response)
-
-    async def delegate(self, subtask):
-        return await llm.generate(f"Complete this subtask:\n{subtask}")
-
-    async def synthesize(self, results):
-        return await llm.generate(
-            f"Combine these results into a coherent response:\n{results}"
-        )
+**JSON output includes:**
+```json
+{
+  "name": "Security Expert Skeptical Thorough",
+  "voice": "Daniel",
+  "voice_id": "onwK4e9ZLuTAKqWW03F9",
+  "voice_settings": {
+    "stability": 0.70,
+    "similarity_boost": 0.85,
+    "style": 0.05,
+    "speed": 0.95,
+    "use_speaker_boost": true
+  },
+  "prompt": "..."
+}
 ```
 
-**Use when**: Tasks require dynamic decomposition that can't be predetermined.
+### Templates
 
-### 5. Evaluator-Optimizer
+**DynamicAgent.hbs** (`Templates/DynamicAgent.hbs`)
+- Handlebars template for dynamic agent prompts
+- Composes: expertise + personality + approach + voice assignment
+- Includes operational guidelines and response format
 
-One LLM generates, another evaluates and requests improvements.
+## Architecture
 
-```python
-async def generate_with_feedback(task, max_iterations=3):
-    response = await llm.generate(f"Complete this task:\n{task}")
+### Hybrid Agent Model
 
-    for _ in range(max_iterations):
-        evaluation = await llm.generate(
-            f"Evaluate this response for quality and correctness:\n{response}\n"
-            "If improvements needed, specify them. Otherwise respond 'APPROVED'."
-        )
+| Type | Definition | Best For |
+|------|------------|----------|
+| **Named Agents** | Persistent identities defined in USER config | Recurring work, relationships |
+| **Dynamic Agents** | Task-specific specialists composed from traits | One-off tasks, parallel work |
 
-        if "APPROVED" in evaluation:
-            return response
+### The Agent Spectrum
 
-        response = await llm.generate(
-            f"Improve this response based on feedback:\n"
-            f"Original: {response}\nFeedback: {evaluation}"
-        )
-
-    return response
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│   NAMED AGENTS          HYBRID USE          DYNAMIC AGENTS          │
+│   (Relationship)        (Best of Both)      (Task-Specific)         │
+├──────────────────────────────────────────────────────────────────────┤
+│ Defined in USER     "Security expert       Ephemeral specialist     │
+│ NamedAgents.md      with [named agent]'s   composed from traits     │
+│                      skepticism"                                     │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
-**Use when**: Output quality is critical and can be objectively evaluated.
+## Examples
 
-## Agent Architectures
-
-### Autonomous Agent Loop
-
-Agents operate in a loop: observe, think, act, repeat.
-
-```python
-class Agent:
-    def __init__(self, tools: list, system_prompt: str):
-        self.tools = {t.name: t for t in tools}
-        self.system_prompt = system_prompt
-
-    async def run(self, task: str, max_steps: int = 10):
-        messages = [
-            {"role": "system", "content": self.system_prompt},
-            {"role": "user", "content": task},
-        ]
-
-        for step in range(max_steps):
-            response = await llm.generate(messages, tools=self.tools)
-            messages.append({"role": "assistant", "content": response})
-
-            if response.tool_calls:
-                for call in response.tool_calls:
-                    result = await self.execute_tool(call)
-                    messages.append({
-                        "role": "tool",
-                        "tool_call_id": call.id,
-                        "content": result
-                    })
-            else:
-                # No tool calls - agent is done
-                return response.content
-
-        return "Max steps reached"
-
-    async def execute_tool(self, call):
-        tool = self.tools[call.name]
-        return await tool.execute(**call.arguments)
+**Example 1: Create custom agents**
+```
+User: "Spin up 3 custom security agents"
+→ Invokes CREATECUSTOMAGENT workflow
+→ Runs ComposeAgent 3 times with DIFFERENT trait combinations
+→ Each agent gets unique personality + matched voice + prosody
+→ Launches agents in parallel
 ```
 
-### Human-in-the-Loop
-
-Pause for human approval at critical checkpoints.
-
-```python
-class HumanInLoopAgent(Agent):
-    def __init__(self, tools, system_prompt, approval_required: list):
-        super().__init__(tools, system_prompt)
-        self.approval_required = set(approval_required)
-
-    async def execute_tool(self, call):
-        if call.name in self.approval_required:
-            approved = await self.request_approval(call)
-            if not approved:
-                return "Action cancelled by user"
-
-        return await super().execute_tool(call)
-
-    async def request_approval(self, call):
-        print(f"Agent wants to execute: {call.name}({call.arguments})")
-        response = input("Approve? (y/n): ")
-        return response.lower() == "y"
+**Example 2: List available traits**
+```
+User: "What agent personalities can you create?"
+→ Invokes LISTTRAITS workflow
+→ Shows merged base + user traits
+→ Displays voices with prosody settings
 ```
 
-## ReAct Pattern
+## Extending the Skill
 
-ReAct (Reasoning and Acting) alternates between thinking and taking actions.
+### Adding Your Own Traits
 
-```python
-REACT_PROMPT = """Answer the question using the available tools.
+In `USER/SKILLCUSTOMIZATIONS/Agents/Traits.yaml`:
 
-For each step:
-1. Thought: Reason about what to do next
-2. Action: Choose a tool and inputs
-3. Observation: See the result
-4. Repeat until you have the answer
+```yaml
+# Add new expertise areas
+expertise:
+  marketing:
+    name: "Marketing Expert"
+    description: "Brand strategy, campaigns, market positioning"
+    keywords:
+      - marketing
+      - brand
+      - campaign
+      - positioning
 
-Available tools: {tools}
-
-Question: {question}
-"""
-
-async def react_agent(question, tools):
-    prompt = REACT_PROMPT.format(
-        tools=format_tools(tools),
-        question=question
-    )
-
-    messages = [{"role": "user", "content": prompt}]
-
-    while True:
-        response = await llm.generate(messages)
-        messages.append({"role": "assistant", "content": response})
-
-        if "Final Answer:" in response:
-            return extract_final_answer(response)
-
-        action = parse_action(response)
-        if action:
-            observation = await execute_tool(action, tools)
-            messages.append({
-                "role": "user",
-                "content": f"Observation: {observation}"
-            })
+# Add new personalities
+personality:
+  visionary:
+    name: "Visionary"
+    description: "Forward-thinking, sees the big picture"
+    prompt_fragment: |
+      You think in terms of future possibilities and long-term vision.
+      Connect today's work to tomorrow's potential.
 ```
 
-**Advantages**:
-- Explicit reasoning traces aid debugging
-- More interpretable decision-making
-- Better handling of complex multi-step tasks
+### Adding Named Agents
 
-## Tool Design
+In `USER/SKILLCUSTOMIZATIONS/Agents/NamedAgents.md`:
 
-### Principles
+```markdown
+## Alex - The Strategist
 
-1. **Self-contained**: Tools return complete, usable information
-2. **Scoped**: Each tool does one thing well
-3. **Descriptive**: Clear names and descriptions guide the LLM
-4. **Error-robust**: Return informative errors, not exceptions
+**Voice ID:** your-voice-id
+**Prosody:** stability: 0.55, style: 0.20, speed: 0.95
 
-### Tool Definition Pattern
-
-```python
-class Tool:
-    def __init__(self, name: str, description: str, parameters: dict, fn):
-        self.name = name
-        self.description = description
-        self.parameters = parameters
-        self.fn = fn
-
-    async def execute(self, **kwargs):
-        try:
-            return await self.fn(**kwargs)
-        except Exception as e:
-            return f"Error: {str(e)}"
-
-# Example tool
-search_tool = Tool(
-    name="search_database",
-    description="Search the database for records matching a query. "
-                "Returns up to 10 matching records with their IDs and summaries.",
-    parameters={
-        "query": {"type": "string", "description": "Search query"},
-        "limit": {"type": "integer", "description": "Max results (default 10)"},
-    },
-    fn=search_database
-)
+Alex is a strategic thinker who sees patterns others miss...
 ```
 
-### Tool Interface Guidelines
+## Model Selection
 
-- Prefer text inputs/outputs over complex structured data
-- Include usage examples in descriptions for ambiguous tools
-- Return truncated results when output could be large
-- Provide clear feedback on what the tool did
+| Task Type | Model | Speed |
+|-----------|-------|-------|
+| Grunt work, simple checks | `haiku` | 10-20x faster |
+| Standard analysis, research | `sonnet` | Balanced |
+| Deep reasoning, architecture | `opus` | Maximum quality |
 
-## Best Practices
+## Version History
 
-1. **Start simple**: Begin with the simplest architecture that could work. Add complexity only when it demonstrably improves outcomes.
-
-2. **Maintain transparency**: Ensure the agent's planning steps are visible. This aids debugging and builds user trust.
-
-3. **Design for failure**: Agents will make mistakes. Include guardrails, retries, and graceful degradation.
-
-4. **Test extensively**: Use sandboxed environments. Test edge cases and failure modes, not just happy paths.
-
-5. **Limit tool proliferation**: More tools means more confusion. Keep the tool set focused and well-documented.
-
-6. **Implement checkpoints**: For long-running tasks, save state periodically to enable recovery.
-
-7. **Set resource limits**: Cap iterations, token usage, and tool calls to prevent runaway agents.
-
-8. **Log everything**: Record all LLM calls, tool executions, and decisions for debugging and improvement.
-
-9. **Handle ambiguity**: When uncertain, have the agent ask for clarification rather than guessing.
-
-10. **Measure outcomes**: Track task completion rates, accuracy, and efficiency to guide improvements.
-
-## References
-
-- [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) - Anthropic's guide to agent patterns and best practices
-- [LangGraph Workflows & Agents](https://docs.langchain.com/oss/javascript/langgraph/workflows-agents) - LangGraph documentation on agent architectures
-- [ReAct: Synergizing Reasoning and Acting](https://arxiv.org/abs/2210.03629) - Paper introducing the ReAct prompting pattern
+- **v2.0.0** (2026-01): Restructured to base + user merge pattern, added prosody support
+- **v1.0.0** (2025-12): Initial creation

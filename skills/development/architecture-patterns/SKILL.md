@@ -1,580 +1,487 @@
 ---
 name: architecture-patterns
-description: Software architecture patterns and best practices
-domain: software-design
-version: 1.0.0
-tags: [architecture, microservices, monolithic, event-driven, serverless, ddd]
-triggers:
-  keywords:
-    primary: [architecture, microservices, monolith, serverless, event-driven, ddd]
-    secondary: [hexagonal, clean architecture, cqrs, saga, domain driven, modular]
-  context_boost: [design, structure, enterprise, scale]
-  context_penalty: [frontend, css, ui]
-  priority: high
+description: Implement proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design. Use when architecting complex backend systems or refactoring existing applications for better maintainability.
 ---
 
 # Architecture Patterns
 
-## Overview
+Master proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design to build maintainable, testable, and scalable systems.
 
-Architecture patterns provide proven solutions for structuring software systems. Choosing the right architecture is crucial for scalability, maintainability, and team productivity.
+## When to Use This Skill
 
-## Patterns
+- Designing new backend systems from scratch
+- Refactoring monolithic applications for better maintainability
+- Establishing architecture standards for your team
+- Migrating from tightly coupled to loosely coupled architectures
+- Implementing domain-driven design principles
+- Creating testable and mockable codebases
+- Planning microservices decomposition
 
-### Monolithic Architecture
+## Core Concepts
 
-**Description**: Single deployable unit containing all application functionality.
+### 1. Clean Architecture (Uncle Bob)
 
-**Key Features**:
-- Simple deployment and development
-- Shared database and memory
-- Straightforward debugging
+**Layers (dependency flows inward):**
+- **Entities**: Core business models
+- **Use Cases**: Application business rules
+- **Interface Adapters**: Controllers, presenters, gateways
+- **Frameworks & Drivers**: UI, database, external services
 
-**Use Cases**:
-- MVPs and startups
-- Small teams (< 10 developers)
-- Simple domain logic
+**Key Principles:**
+- Dependencies point inward
+- Inner layers know nothing about outer layers
+- Business logic independent of frameworks
+- Testable without UI, database, or external services
 
-**Best Practices**:
+### 2. Hexagonal Architecture (Ports and Adapters)
+
+**Components:**
+- **Domain Core**: Business logic
+- **Ports**: Interfaces defining interactions
+- **Adapters**: Implementations of ports (database, REST, message queue)
+
+**Benefits:**
+- Swap implementations easily (mock for testing)
+- Technology-agnostic core
+- Clear separation of concerns
+
+### 3. Domain-Driven Design (DDD)
+
+**Strategic Patterns:**
+- **Bounded Contexts**: Separate models for different domains
+- **Context Mapping**: How contexts relate
+- **Ubiquitous Language**: Shared terminology
+
+**Tactical Patterns:**
+- **Entities**: Objects with identity
+- **Value Objects**: Immutable objects defined by attributes
+- **Aggregates**: Consistency boundaries
+- **Repositories**: Data access abstraction
+- **Domain Events**: Things that happened
+
+## Clean Architecture Pattern
+
+### Directory Structure
 ```
-src/
-├── modules/          # Feature-based organization
-│   ├── users/
-│   ├── orders/
-│   └── products/
-├── shared/           # Cross-cutting concerns
-└── infrastructure/   # External services
-```
-
----
-
-### Microservices Architecture
-
-**Description**: Distributed system of independently deployable services.
-
-**Key Features**:
-- Independent deployment and scaling
-- Technology diversity per service
-- Fault isolation
-
-**Use Cases**:
-- Large teams needing autonomy
-- Complex domains with clear boundaries
-- High scalability requirements
-
-**Key Components**:
-| Component | Purpose | Tools |
-|-----------|---------|-------|
-| API Gateway | Entry point, routing | Kong, AWS API Gateway |
-| Service Discovery | Service registration | Consul, Kubernetes DNS |
-| Config Management | Centralized config | Spring Cloud Config, Consul |
-| Circuit Breaker | Fault tolerance | Resilience4j, Hystrix |
-
-**Best Practices**:
-1. Design around business capabilities
-2. Decentralize data management
-3. Design for failure
-4. Automate deployment
-
----
-
-### Event-Driven Architecture
-
-**Description**: Systems communicating through events.
-
-**Key Patterns**:
-
-| Pattern | Description | Use Case |
-|---------|-------------|----------|
-| Event Sourcing | Store state as events | Audit trails, temporal queries |
-| CQRS | Separate read/write models | High-read workloads |
-| Saga | Distributed transactions | Cross-service workflows |
-
-**Event Sourcing Example**:
-```typescript
-// Events are the source of truth
-interface OrderEvent {
-  id: string;
-  type: 'OrderCreated' | 'ItemAdded' | 'OrderShipped';
-  timestamp: Date;
-  payload: unknown;
-}
-
-// Rebuild state from events
-function rebuildOrder(events: OrderEvent[]): Order {
-  return events.reduce((order, event) => {
-    switch (event.type) {
-      case 'OrderCreated': return { ...event.payload };
-      case 'ItemAdded': return { ...order, items: [...order.items, event.payload] };
-      case 'OrderShipped': return { ...order, status: 'shipped' };
-    }
-  }, {} as Order);
-}
+app/
+├── domain/           # Entities & business rules
+│   ├── entities/
+│   │   ├── user.py
+│   │   └── order.py
+│   ├── value_objects/
+│   │   ├── email.py
+│   │   └── money.py
+│   └── interfaces/   # Abstract interfaces
+│       ├── user_repository.py
+│       └── payment_gateway.py
+├── use_cases/        # Application business rules
+│   ├── create_user.py
+│   ├── process_order.py
+│   └── send_notification.py
+├── adapters/         # Interface implementations
+│   ├── repositories/
+│   │   ├── postgres_user_repository.py
+│   │   └── redis_cache_repository.py
+│   ├── controllers/
+│   │   └── user_controller.py
+│   └── gateways/
+│       ├── stripe_payment_gateway.py
+│       └── sendgrid_email_gateway.py
+└── infrastructure/   # Framework & external concerns
+    ├── database.py
+    ├── config.py
+    └── logging.py
 ```
 
----
+### Implementation Example
 
-### Serverless Architecture
+```python
+# domain/entities/user.py
+from dataclasses import dataclass
+from datetime import datetime
+from typing import Optional
 
-**Description**: Cloud-managed execution without server management.
+@dataclass
+class User:
+    """Core user entity - no framework dependencies."""
+    id: str
+    email: str
+    name: str
+    created_at: datetime
+    is_active: bool = True
 
-**Key Features**:
-- Pay-per-execution pricing
-- Auto-scaling to zero
-- Reduced operational overhead
+    def deactivate(self):
+        """Business rule: deactivating user."""
+        self.is_active = False
 
-**Considerations**:
-| Aspect | Impact |
-|--------|--------|
-| Cold Start | 100ms-2s latency on first invocation |
-| Timeout | Usually 15-30 min max execution |
-| State | Must use external storage |
-| Vendor Lock-in | Platform-specific features |
+    def can_place_order(self) -> bool:
+        """Business rule: active users can order."""
+        return self.is_active
 
-**Best Practices**:
-1. Keep functions small and focused
-2. Minimize dependencies
-3. Use connection pooling for databases
-4. Implement proper error handling
+# domain/interfaces/user_repository.py
+from abc import ABC, abstractmethod
+from typing import Optional, List
+from domain.entities.user import User
 
----
+class IUserRepository(ABC):
+    """Port: defines contract, no implementation."""
 
-### Clean Architecture
+    @abstractmethod
+    async def find_by_id(self, user_id: str) -> Optional[User]:
+        pass
 
-**Description**: Dependency-inverted architecture with domain at center.
+    @abstractmethod
+    async def find_by_email(self, email: str) -> Optional[User]:
+        pass
 
-**Layer Structure**:
+    @abstractmethod
+    async def save(self, user: User) -> User:
+        pass
+
+    @abstractmethod
+    async def delete(self, user_id: str) -> bool:
+        pass
+
+# use_cases/create_user.py
+from domain.entities.user import User
+from domain.interfaces.user_repository import IUserRepository
+from dataclasses import dataclass
+from datetime import datetime
+import uuid
+
+@dataclass
+class CreateUserRequest:
+    email: str
+    name: str
+
+@dataclass
+class CreateUserResponse:
+    user: User
+    success: bool
+    error: Optional[str] = None
+
+class CreateUserUseCase:
+    """Use case: orchestrates business logic."""
+
+    def __init__(self, user_repository: IUserRepository):
+        self.user_repository = user_repository
+
+    async def execute(self, request: CreateUserRequest) -> CreateUserResponse:
+        # Business validation
+        existing = await self.user_repository.find_by_email(request.email)
+        if existing:
+            return CreateUserResponse(
+                user=None,
+                success=False,
+                error="Email already exists"
+            )
+
+        # Create entity
+        user = User(
+            id=str(uuid.uuid4()),
+            email=request.email,
+            name=request.name,
+            created_at=datetime.now(),
+            is_active=True
+        )
+
+        # Persist
+        saved_user = await self.user_repository.save(user)
+
+        return CreateUserResponse(
+            user=saved_user,
+            success=True
+        )
+
+# adapters/repositories/postgres_user_repository.py
+from domain.interfaces.user_repository import IUserRepository
+from domain.entities.user import User
+from typing import Optional
+import asyncpg
+
+class PostgresUserRepository(IUserRepository):
+    """Adapter: PostgreSQL implementation."""
+
+    def __init__(self, pool: asyncpg.Pool):
+        self.pool = pool
+
+    async def find_by_id(self, user_id: str) -> Optional[User]:
+        async with self.pool.acquire() as conn:
+            row = await conn.fetchrow(
+                "SELECT * FROM users WHERE id = $1", user_id
+            )
+            return self._to_entity(row) if row else None
+
+    async def find_by_email(self, email: str) -> Optional[User]:
+        async with self.pool.acquire() as conn:
+            row = await conn.fetchrow(
+                "SELECT * FROM users WHERE email = $1", email
+            )
+            return self._to_entity(row) if row else None
+
+    async def save(self, user: User) -> User:
+        async with self.pool.acquire() as conn:
+            await conn.execute(
+                """
+                INSERT INTO users (id, email, name, created_at, is_active)
+                VALUES ($1, $2, $3, $4, $5)
+                ON CONFLICT (id) DO UPDATE
+                SET email = $2, name = $3, is_active = $5
+                """,
+                user.id, user.email, user.name, user.created_at, user.is_active
+            )
+            return user
+
+    async def delete(self, user_id: str) -> bool:
+        async with self.pool.acquire() as conn:
+            result = await conn.execute(
+                "DELETE FROM users WHERE id = $1", user_id
+            )
+            return result == "DELETE 1"
+
+    def _to_entity(self, row) -> User:
+        """Map database row to entity."""
+        return User(
+            id=row["id"],
+            email=row["email"],
+            name=row["name"],
+            created_at=row["created_at"],
+            is_active=row["is_active"]
+        )
+
+# adapters/controllers/user_controller.py
+from fastapi import APIRouter, Depends, HTTPException
+from use_cases.create_user import CreateUserUseCase, CreateUserRequest
+from pydantic import BaseModel
+
+router = APIRouter()
+
+class CreateUserDTO(BaseModel):
+    email: str
+    name: str
+
+@router.post("/users")
+async def create_user(
+    dto: CreateUserDTO,
+    use_case: CreateUserUseCase = Depends(get_create_user_use_case)
+):
+    """Controller: handles HTTP concerns only."""
+    request = CreateUserRequest(email=dto.email, name=dto.name)
+    response = await use_case.execute(request)
+
+    if not response.success:
+        raise HTTPException(status_code=400, detail=response.error)
+
+    return {"user": response.user}
 ```
-┌──────────────────────────────────────┐
-│           Frameworks & Drivers       │  ← External (DB, Web, UI)
-├──────────────────────────────────────┤
-│           Interface Adapters         │  ← Controllers, Gateways
-├──────────────────────────────────────┤
-│           Application Business       │  ← Use Cases
-├──────────────────────────────────────┤
-│           Enterprise Business        │  ← Entities, Domain Rules
-└──────────────────────────────────────┘
+
+## Hexagonal Architecture Pattern
+
+```python
+# Core domain (hexagon center)
+class OrderService:
+    """Domain service - no infrastructure dependencies."""
+
+    def __init__(
+        self,
+        order_repository: OrderRepositoryPort,
+        payment_gateway: PaymentGatewayPort,
+        notification_service: NotificationPort
+    ):
+        self.orders = order_repository
+        self.payments = payment_gateway
+        self.notifications = notification_service
+
+    async def place_order(self, order: Order) -> OrderResult:
+        # Business logic
+        if not order.is_valid():
+            return OrderResult(success=False, error="Invalid order")
+
+        # Use ports (interfaces)
+        payment = await self.payments.charge(
+            amount=order.total,
+            customer=order.customer_id
+        )
+
+        if not payment.success:
+            return OrderResult(success=False, error="Payment failed")
+
+        order.mark_as_paid()
+        saved_order = await self.orders.save(order)
+
+        await self.notifications.send(
+            to=order.customer_email,
+            subject="Order confirmed",
+            body=f"Order {order.id} confirmed"
+        )
+
+        return OrderResult(success=True, order=saved_order)
+
+# Ports (interfaces)
+class OrderRepositoryPort(ABC):
+    @abstractmethod
+    async def save(self, order: Order) -> Order:
+        pass
+
+class PaymentGatewayPort(ABC):
+    @abstractmethod
+    async def charge(self, amount: Money, customer: str) -> PaymentResult:
+        pass
+
+class NotificationPort(ABC):
+    @abstractmethod
+    async def send(self, to: str, subject: str, body: str):
+        pass
+
+# Adapters (implementations)
+class StripePaymentAdapter(PaymentGatewayPort):
+    """Primary adapter: connects to Stripe API."""
+
+    def __init__(self, api_key: str):
+        self.stripe = stripe
+        self.stripe.api_key = api_key
+
+    async def charge(self, amount: Money, customer: str) -> PaymentResult:
+        try:
+            charge = self.stripe.Charge.create(
+                amount=amount.cents,
+                currency=amount.currency,
+                customer=customer
+            )
+            return PaymentResult(success=True, transaction_id=charge.id)
+        except stripe.error.CardError as e:
+            return PaymentResult(success=False, error=str(e))
+
+class MockPaymentAdapter(PaymentGatewayPort):
+    """Test adapter: no external dependencies."""
+
+    async def charge(self, amount: Money, customer: str) -> PaymentResult:
+        return PaymentResult(success=True, transaction_id="mock-123")
 ```
 
-**Dependency Rule**: Dependencies point inward. Inner layers know nothing about outer layers.
+## Domain-Driven Design Pattern
 
----
+```python
+# Value Objects (immutable)
+from dataclasses import dataclass
+from typing import Optional
 
-### Domain-Driven Design (DDD)
+@dataclass(frozen=True)
+class Email:
+    """Value object: validated email."""
+    value: str
 
-**Description**: Architecture aligned with business domain.
+    def __post_init__(self):
+        if "@" not in self.value:
+            raise ValueError("Invalid email")
 
-**Strategic Patterns**:
-| Pattern | Purpose |
-|---------|---------|
-| Bounded Context | Clear domain boundaries |
-| Context Map | Relationships between contexts |
-| Ubiquitous Language | Shared vocabulary |
+@dataclass(frozen=True)
+class Money:
+    """Value object: amount with currency."""
+    amount: int  # cents
+    currency: str
 
-**Tactical Patterns**:
-| Pattern | Purpose |
-|---------|---------|
-| Entity | Objects with identity |
-| Value Object | Immutable descriptors |
-| Aggregate | Consistency boundary |
-| Repository | Collection-like persistence |
-| Domain Event | Something that happened |
+    def add(self, other: "Money") -> "Money":
+        if self.currency != other.currency:
+            raise ValueError("Currency mismatch")
+        return Money(self.amount + other.amount, self.currency)
 
----
+# Entities (with identity)
+class Order:
+    """Entity: has identity, mutable state."""
 
-## Decision Guide
+    def __init__(self, id: str, customer: Customer):
+        self.id = id
+        self.customer = customer
+        self.items: List[OrderItem] = []
+        self.status = OrderStatus.PENDING
+        self._events: List[DomainEvent] = []
 
+    def add_item(self, product: Product, quantity: int):
+        """Business logic in entity."""
+        item = OrderItem(product, quantity)
+        self.items.append(item)
+        self._events.append(ItemAddedEvent(self.id, item))
+
+    def total(self) -> Money:
+        """Calculated property."""
+        return sum(item.subtotal() for item in self.items)
+
+    def submit(self):
+        """State transition with business rules."""
+        if not self.items:
+            raise ValueError("Cannot submit empty order")
+        if self.status != OrderStatus.PENDING:
+            raise ValueError("Order already submitted")
+
+        self.status = OrderStatus.SUBMITTED
+        self._events.append(OrderSubmittedEvent(self.id))
+
+# Aggregates (consistency boundary)
+class Customer:
+    """Aggregate root: controls access to entities."""
+
+    def __init__(self, id: str, email: Email):
+        self.id = id
+        self.email = email
+        self._addresses: List[Address] = []
+        self._orders: List[str] = []  # Order IDs, not full objects
+
+    def add_address(self, address: Address):
+        """Aggregate enforces invariants."""
+        if len(self._addresses) >= 5:
+            raise ValueError("Maximum 5 addresses allowed")
+        self._addresses.append(address)
+
+    @property
+    def primary_address(self) -> Optional[Address]:
+        return next((a for a in self._addresses if a.is_primary), None)
+
+# Domain Events
+@dataclass
+class OrderSubmittedEvent:
+    order_id: str
+    occurred_at: datetime = field(default_factory=datetime.now)
+
+# Repository (aggregate persistence)
+class OrderRepository:
+    """Repository: persist/retrieve aggregates."""
+
+    async def find_by_id(self, order_id: str) -> Optional[Order]:
+        """Reconstitute aggregate from storage."""
+        pass
+
+    async def save(self, order: Order):
+        """Persist aggregate and publish events."""
+        await self._persist(order)
+        await self._publish_events(order._events)
+        order._events.clear()
 ```
-START
-  │
-  ├─ Team size < 10? ──────────────────→ Monolith
-  │
-  ├─ Need independent deployments? ────→ Microservices
-  │
-  ├─ Audit trail required? ────────────→ Event Sourcing
-  │
-  ├─ Variable/unpredictable load? ─────→ Serverless
-  │
-  ├─ Complex business logic? ──────────→ Clean Architecture + DDD
-  │
-  └─ Default ──────────────────────────→ Modular Monolith
-```
+
+## Resources
+
+- **references/clean-architecture-guide.md**: Detailed layer breakdown
+- **references/hexagonal-architecture-guide.md**: Ports and adapters patterns
+- **references/ddd-tactical-patterns.md**: Entities, value objects, aggregates
+- **assets/clean-architecture-template/**: Complete project structure
+- **assets/ddd-examples/**: Domain modeling examples
+
+## Best Practices
+
+1. **Dependency Rule**: Dependencies always point inward
+2. **Interface Segregation**: Small, focused interfaces
+3. **Business Logic in Domain**: Keep frameworks out of core
+4. **Test Independence**: Core testable without infrastructure
+5. **Bounded Contexts**: Clear domain boundaries
+6. **Ubiquitous Language**: Consistent terminology
+7. **Thin Controllers**: Delegate to use cases
+8. **Rich Domain Models**: Behavior with data
 
 ## Common Pitfalls
 
-### 1. Premature Microservices
-**Problem**: Starting with microservices for a simple application
-**Solution**: Start monolithic, extract services when boundaries are clear
-
-### 2. Distributed Monolith
-**Problem**: Microservices that must deploy together
-**Solution**: Ensure services are truly independent with clear API contracts
-
-### 3. Ignoring Data Boundaries
-**Problem**: Shared database across services
-**Solution**: Each service owns its data, use events for synchronization
-
----
-
-### Hexagonal Architecture (Ports & Adapters)
-
-**Description**: Application core isolated from external concerns through ports (interfaces) and adapters (implementations).
-
-**Structure**:
-```
-┌─────────────────────────────────────────────────────────────┐
-│                      Driving Adapters                       │
-│    (REST API, CLI, GraphQL, Message Consumer)               │
-└──────────────────────────┬──────────────────────────────────┘
-                           │
-┌──────────────────────────▼──────────────────────────────────┐
-│                    Input Ports                              │
-│              (Use Case Interfaces)                          │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│                   APPLICATION CORE                          │
-│              (Domain Logic, Entities)                       │
-│                                                             │
-├─────────────────────────────────────────────────────────────┤
-│                   Output Ports                              │
-│           (Repository, Gateway Interfaces)                  │
-└──────────────────────────┬──────────────────────────────────┘
-                           │
-┌──────────────────────────▼──────────────────────────────────┐
-│                     Driven Adapters                         │
-│    (Database, External APIs, Message Publisher)             │
-└─────────────────────────────────────────────────────────────┘
-```
-
-**TypeScript Example**:
-```typescript
-// Port (Interface)
-interface OrderRepository {
-  save(order: Order): Promise<void>;
-  findById(id: string): Promise<Order | null>;
-}
-
-// Adapter (Implementation)
-class PostgresOrderRepository implements OrderRepository {
-  constructor(private db: Database) {}
-
-  async save(order: Order): Promise<void> {
-    await this.db.query('INSERT INTO orders...', [order]);
-  }
-
-  async findById(id: string): Promise<Order | null> {
-    const row = await this.db.query('SELECT * FROM orders WHERE id = $1', [id]);
-    return row ? this.toDomain(row) : null;
-  }
-}
-
-// Use Case (Application Core)
-class CreateOrderUseCase {
-  constructor(private orderRepo: OrderRepository) {} // Depends on Port, not Adapter
-
-  async execute(input: CreateOrderInput): Promise<Order> {
-    const order = new Order(input);
-    await this.orderRepo.save(order);
-    return order;
-  }
-}
-```
-
-**Benefits**:
-- Easy to swap implementations (DB, external services)
-- Highly testable (mock ports)
-- Framework-agnostic domain logic
-
----
-
-### Modular Monolith
-
-**Description**: Monolith with strict module boundaries, preparing for potential microservices extraction.
-
-**Key Features**:
-- Modules communicate via defined interfaces
-- Each module owns its data
-- Can be deployed as single unit or extracted
-
-**Structure**:
-```
-src/
-├── modules/
-│   ├── users/
-│   │   ├── api/           # Public API of module
-│   │   │   └── UserService.ts
-│   │   ├── internal/      # Private implementation
-│   │   │   ├── UserRepository.ts
-│   │   │   └── UserEntity.ts
-│   │   └── index.ts       # Only exports public API
-│   ├── orders/
-│   │   ├── api/
-│   │   │   └── OrderService.ts
-│   │   ├── internal/
-│   │   └── index.ts
-│   └── shared/            # Cross-cutting utilities
-├── infrastructure/
-│   ├── database/
-│   ├── messaging/
-│   └── http/
-└── main.ts
-```
-
-**Module Communication Rules**:
-```typescript
-// ✅ Good: Use public API
-import { UserService } from '@modules/users';
-const user = await userService.getById(id);
-
-// ❌ Bad: Direct access to internal
-import { UserRepository } from '@modules/users/internal/UserRepository';
-```
-
-**Enforcement**:
-```json
-// eslint rules or ts-paths to prevent internal imports
-{
-  "rules": {
-    "no-restricted-imports": ["error", {
-      "patterns": ["@modules/*/internal/*"]
-    }]
-  }
-}
-```
-
----
-
-### Strangler Fig Pattern
-
-**Description**: Gradually replace legacy system by routing traffic to new implementation.
-
-**Migration Process**:
-```
-Phase 1: Facade
-┌─────────┐     ┌─────────┐     ┌─────────────┐
-│ Client  │────→│ Facade  │────→│ Legacy      │
-└─────────┘     └─────────┘     │ System      │
-                                └─────────────┘
-
-Phase 2: Partial Migration
-┌─────────┐     ┌─────────┐     ┌─────────────┐
-│ Client  │────→│ Facade  │──┬─→│ Legacy      │
-└─────────┘     └─────────┘  │  └─────────────┘
-                             │  ┌─────────────┐
-                             └─→│ New System  │
-                                └─────────────┘
-
-Phase 3: Complete Migration
-┌─────────┐     ┌─────────┐     ┌─────────────┐
-│ Client  │────→│ Facade  │────→│ New System  │
-└─────────┘     └─────────┘     └─────────────┘
-```
-
-**Implementation**:
-```typescript
-class PaymentFacade {
-  constructor(
-    private legacyPayment: LegacyPaymentService,
-    private newPayment: NewPaymentService,
-    private featureFlags: FeatureFlags
-  ) {}
-
-  async processPayment(payment: Payment): Promise<Result> {
-    // Gradually migrate traffic
-    if (this.featureFlags.isEnabled('new-payment-system', payment.userId)) {
-      return this.newPayment.process(payment);
-    }
-    return this.legacyPayment.process(payment);
-  }
-}
-```
-
----
-
-### Backend for Frontend (BFF)
-
-**Description**: Dedicated backend for each frontend type (web, mobile, etc.).
-
-**Structure**:
-```
-                    ┌─────────────┐
-                    │ Web Client  │
-                    └──────┬──────┘
-                           │
-                    ┌──────▼──────┐
-                    │  Web BFF    │
-                    └──────┬──────┘
-                           │
-       ┌───────────────────┼───────────────────┐
-       │                   │                   │
-┌──────▼──────┐    ┌──────▼──────┐    ┌──────▼──────┐
-│ User Service│    │Order Service│    │Product Svc  │
-└─────────────┘    └─────────────┘    └─────────────┘
-       │                   │                   │
-       └───────────────────┼───────────────────┘
-                           │
-                    ┌──────▼──────┐
-                    │ Mobile BFF  │
-                    └──────┬──────┘
-                           │
-                    ┌──────▼──────┐
-                    │Mobile Client│
-                    └─────────────┘
-```
-
-**Benefits**:
-- Optimized payload for each client
-- Client-specific authentication
-- Independent deployment per frontend
-- Reduces over-fetching
-
-**When to Use**:
-| Scenario | Recommendation |
-|----------|----------------|
-| Single client type | Skip BFF |
-| Web + Mobile with same needs | Single API Gateway |
-| Different UX per platform | Separate BFFs |
-| Multiple teams per frontend | Dedicated BFFs |
-
----
-
-## Architecture Patterns Comparison
-
-| Pattern | Complexity | Scalability | Team Size | Best For |
-|---------|------------|-------------|-----------|----------|
-| Monolith | Low | Vertical | Small (2-10) | MVPs, Simple apps |
-| Modular Monolith | Medium | Vertical | Medium (5-20) | Growing apps |
-| Microservices | High | Horizontal | Large (20+) | Complex domains |
-| Serverless | Medium | Auto | Any | Event-driven, Variable load |
-| Event-Driven | High | Horizontal | Medium-Large | Async workflows |
-
----
-
-## Architecture Decision Record (ADR) Template
-
-When choosing an architecture, document decisions:
-
-```markdown
-# ADR-001: Choose Modular Monolith
-
-## Status
-Accepted
-
-## Context
-- Team of 8 developers
-- MVP deadline in 3 months
-- Uncertain about domain boundaries
-- Limited DevOps resources
-
-## Decision
-Adopt Modular Monolith with strict boundaries
-
-## Consequences
-### Positive
-- Faster initial development
-- Simpler deployment
-- Can extract services later
-
-### Negative
-- Single point of failure
-- Scaling limited to vertical
-- Need discipline for module boundaries
-
-## Alternatives Considered
-1. Microservices - Too complex for team size
-2. Traditional Monolith - No path to scale
-```
-
----
-
-## Evolution Path
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    Architecture Evolution                        │
-│                                                                 │
-│   Monolith ──→ Modular Monolith ──→ Microservices              │
-│      │              │                     │                     │
-│      │              │                     ▼                     │
-│      │              │            Event-Driven / CQRS            │
-│      │              │                     │                     │
-│      ▼              ▼                     ▼                     │
-│  [Simple]     [Growing]            [Complex/Scale]              │
-│                                                                 │
-│   Tip: Don't skip steps. Each stage teaches domain boundaries. │
-└─────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## Anti-Patterns to Avoid
-
-### 1. Big Ball of Mud
-**Symptom**: No clear structure, everything depends on everything
-**Fix**: Introduce module boundaries, apply Clean Architecture principles
-
-### 2. Golden Hammer
-**Symptom**: Using same architecture for every project
-**Fix**: Evaluate requirements, use decision guide
-
-### 3. Accidental Complexity
-**Symptom**: Architecture more complex than domain requires
-**Fix**: Start simple, add complexity only when needed
-
-### 4. Resume-Driven Development
-**Symptom**: Choosing tech for learning, not solving problems
-**Fix**: Align architecture with team skills and project needs
-
-### 5. Vendor Lock-In
-**Symptom**: Core logic tightly coupled to cloud provider
-**Fix**: Use Hexagonal Architecture, abstract vendor-specific code
-
----
-
-## Performance Considerations by Pattern
-
-| Pattern | Latency | Throughput | Cold Start |
-|---------|---------|------------|------------|
-| Monolith | Low | High | N/A |
-| Microservices | Medium (network) | High (distributed) | N/A |
-| Serverless | Variable | Auto-scale | 100ms-2s |
-| Event-Driven | Higher (async) | Very High | Depends |
-
----
-
-## Testing Strategies by Pattern
-
-### Monolith
-```
-Unit Tests → Integration Tests → E2E Tests
-    70%           20%              10%
-```
-
-### Microservices
-```
-Unit Tests → Contract Tests → Integration → E2E
-    60%           20%           15%         5%
-
-// Contract Test Example (Pact)
-const provider = new Pact({ consumer: 'OrderService', provider: 'UserService' });
-await provider.addInteraction({
-  state: 'user exists',
-  uponReceiving: 'get user request',
-  withRequest: { method: 'GET', path: '/users/123' },
-  willRespondWith: { status: 200, body: { id: '123', name: 'John' } }
-});
-```
-
-### Event-Driven
-- Test event producers and consumers independently
-- Use event schema validation
-- Test saga/workflow orchestration
-
----
-
-## Related Skills
-
-- [[api-design]] - API design for service communication
-- [[system-design]] - Large-scale system considerations
-- [[devops-cicd]] - Deployment strategies for each pattern
-- [[data-design]] - Database patterns for each architecture
+- **Anemic Domain**: Entities with only data, no behavior
+- **Framework Coupling**: Business logic depends on frameworks
+- **Fat Controllers**: Business logic in controllers
+- **Repository Leakage**: Exposing ORM objects
+- **Missing Abstractions**: Concrete dependencies in core
+- **Over-Engineering**: Clean architecture for simple CRUD

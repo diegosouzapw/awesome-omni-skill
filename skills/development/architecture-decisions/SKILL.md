@@ -1,197 +1,192 @@
 ---
 name: architecture-decisions
-description: "Architecture decision guides for Kailash SDK including framework selection (Core SDK vs DataFlow vs Nexus vs Kaizen), runtime selection (Async vs Sync), database selection (PostgreSQL vs SQLite), node selection, and test tier selection. Use when asking about 'which framework', 'choose framework', 'which runtime', 'which database', 'which node', 'architecture decision', 'when to use', 'Core SDK vs DataFlow', 'PostgreSQL vs SQLite', 'AsyncLocalRuntime vs LocalRuntime', or 'test tier selection'."
+description: Make and document architecture decisions using structured frameworks
+version: "2.0.0"
+sasmp_version: "1.3.0"
+bonded_agent: 01-architecture-fundamentals
+bond_type: PRIMARY_BOND
+last_updated: "2025-01"
 ---
 
-# Kailash Architecture Decisions
+# Architecture Decisions Skill
 
-Decision guides for selecting the right frameworks, runtimes, databases, nodes, and testing strategies for your Kailash application.
+## Purpose
+Enable structured architecture decision-making through quality attribute analysis, trade-off evaluation, and technology selection using industry-standard frameworks.
 
-## Overview
+---
 
-Comprehensive decision guides for:
-- Framework selection (Core SDK, DataFlow, Nexus, Kaizen)
-- Runtime selection (AsyncLocalRuntime vs LocalRuntime)
-- Database selection (PostgreSQL vs SQLite)
-- Node selection for specific tasks
-- Test tier selection (Unit, Integration, E2E)
+## Parameters
 
-## Reference Documentation
+| Parameter | Type | Required | Validation | Default |
+|-----------|------|----------|------------|---------|
+| `decision_context` | string | ✅ | min: 30 chars | - |
+| `decision_type` | enum | ⚪ | technology\|pattern\|tradeoff | `tradeoff` |
+| `quality_priorities` | array | ⚪ | max: 5 items | `["performance", "maintainability"]` |
+| `constraints` | object | ⚪ | valid JSON | `{}` |
+| `options` | array | ⚪ | min: 2 items | - |
 
-### Framework Selection
-- **[decide-framework](decide-framework.md)** - Choose the right framework
-  - Core SDK: Custom workflows with full control
-  - DataFlow: Database-first applications
-  - Nexus: Multi-channel platforms
-  - Kaizen: AI agent systems
-  - When to use each
-  - Combining frameworks
+---
 
-### Runtime Selection
-- **[decide-runtime](decide-runtime.md)** - AsyncLocalRuntime vs LocalRuntime
-  - Docker/FastAPI → AsyncLocalRuntime
-  - CLI/Scripts → LocalRuntime
-  - Performance implications
-  - Threading considerations
-  - Auto-detection with get_runtime()
-
-### Database Selection
-- **[decide-database-postgresql-sqlite](decide-database-postgresql-sqlite.md)** - PostgreSQL vs SQLite
-  - Production → PostgreSQL
-  - Development/Testing → SQLite
-  - Feature comparison
-  - Migration strategies
-  - Multi-database support
-
-### Node Selection
-- **[decide-node-for-task](decide-node-for-task.md)** - Choose the right node
-  - AI tasks → AI nodes
-  - API calls → API nodes
-  - Custom logic → PythonCodeNode
-  - Database → Database nodes or DataFlow
-  - File operations → File nodes
-  - Conditional logic → SwitchNode
-
-### Test Tier Selection
-- **[decide-test-tier](decide-test-tier.md)** - Unit vs Integration vs E2E
-  - Tier 1: Unit tests (fast, mocking allowed)
-  - Tier 2: Integration tests (real infrastructure)
-  - Tier 3: End-to-end tests (full system)
-  - When to use each tier
-  - Coverage targets
-
-## Key Decision Frameworks
-
-### Framework Selection Matrix
-
-| Need | Framework | Why |
-|------|-----------|-----|
-| **Custom workflows** | Core SDK | Full control, 110+ nodes |
-| **Database CRUD** | DataFlow | Auto-generated nodes |
-| **Multi-channel API** | Nexus | API + CLI + MCP instantly |
-| **AI agents** | Kaizen | Signature-based agents |
-| **All of above** | Combine them | They work together |
-
-### Runtime Selection Flow
+## Execution Flow
 
 ```
-Are you deploying to Docker/FastAPI/Kubernetes?
-  ├─ YES → AsyncLocalRuntime (async-first, no threads)
-  └─ NO → Is this a CLI/script?
-       ├─ YES → LocalRuntime (sync execution)
-       └─ NO → Use get_runtime() for auto-detection
+┌──────────────────────────────────────────────────────────┐
+│ 1. VALIDATE: Check input parameters                       │
+│ 2. CONTEXTUALIZE: Understand problem domain               │
+│ 3. IDENTIFY: List quality attributes and constraints      │
+│ 4. ANALYZE: Evaluate options against criteria             │
+│ 5. SCORE: Create decision matrix                          │
+│ 6. RECOMMEND: Provide primary + alternatives              │
+│ 7. DOCUMENT: Generate ADR content                         │
+└──────────────────────────────────────────────────────────┘
 ```
 
-### Database Selection Flow
+---
 
-```
-What's your use case?
-  ├─ Production deployment?
-  │   └─ YES → PostgreSQL (scalable, enterprise)
-  ├─ Development/testing?
-  │   └─ YES → SQLite (simple, fast setup)
-  └─ High concurrency?
-      └─ YES → PostgreSQL (better concurrency)
-```
+## Retry Logic
 
-### Node Selection Flow
+| Error | Retry | Backoff | Max Attempts |
+|-------|-------|---------|--------------|
+| `VALIDATION_ERROR` | No | - | 1 |
+| `CONTEXT_UNCLEAR` | Yes | 1s, 2s, 4s | 3 |
+| `INSUFFICIENT_OPTIONS` | Yes | - | 2 |
 
-```
-What task are you doing?
-  ├─ Custom Python logic → PythonCodeNode
-  ├─ LLM/AI tasks → LLMNode, OpenAINode, AnthropicNode
-  ├─ Database operations → DataFlow auto-generated nodes
-  ├─ HTTP API calls → APICallNode
-  ├─ File reading → FileReaderNode
-  ├─ Conditional routing → SwitchNode
-  └─ Not sure? → Check nodes-quick-index
-```
+---
 
-### Test Tier Flow
+## Logging & Observability
 
-```
-What are you testing?
-  ├─ Individual function → Tier 1 (Unit)
-  ├─ Workflow execution → Tier 2 (Integration)
-  ├─ Complete user flow → Tier 3 (E2E)
-  └─ All of above → Use all tiers
-```
+```yaml
+log_points:
+  - event: skill_invoked
+    level: info
+    data: [decision_type, quality_priorities]
+  - event: analysis_complete
+    level: info
+    data: [options_count, top_recommendation]
+  - event: error_occurred
+    level: error
+    data: [error_type, context]
 
-## Critical Decision Rules
-
-### Framework Decisions
-- ✅ Use Core SDK for custom workflows
-- ✅ Use DataFlow for database operations (don't use SQLAlchemy/Django ORM)
-- ✅ Use Nexus for multi-channel platforms (don't use FastAPI directly)
-- ✅ Use Kaizen for AI agents (don't build from scratch)
-- ✅ Combine frameworks as needed
-- ❌ NEVER use ORM when DataFlow can generate nodes
-- ❌ NEVER build API/CLI/MCP manually when Nexus can do it
-- ❌ NEVER skip framework evaluation
-
-### Runtime Decisions
-- ✅ Docker/FastAPI → AsyncLocalRuntime (mandatory)
-- ✅ CLI/Scripts → LocalRuntime
-- ✅ Use get_runtime() when unsure
-- ❌ NEVER use LocalRuntime in Docker (causes hangs)
-- ❌ NEVER mix runtimes in same application
-
-### Database Decisions
-- ✅ Production → PostgreSQL
-- ✅ Development → SQLite (for speed)
-- ✅ Testing → SQLite in Docker (for isolation)
-- ✅ Multi-instance → One DataFlow per database
-- ❌ NEVER use SQLite for production high-concurrency
-- ❌ NEVER skip connection pooling config
-
-## When to Use This Skill
-
-Use this skill when you need to:
-- Choose between Core SDK, DataFlow, Nexus, or Kaizen
-- Select AsyncLocalRuntime vs LocalRuntime
-- Decide between PostgreSQL and SQLite
-- Find the right node for a task
-- Determine test tier for a test case
-- Make architecture decisions
-- Understand trade-offs between options
-
-## Decision Templates
-
-### Starting a New Project
-```
-1. What's the primary use case?
-   - Database CRUD → Start with DataFlow
-   - Multi-channel API → Start with Nexus
-   - AI agents → Start with Kaizen
-   - Custom workflows → Start with Core SDK
-
-2. What's the deployment target?
-   - Docker/K8s → Use AsyncLocalRuntime
-   - CLI tool → Use LocalRuntime
-
-3. What's the database?
-   - Production → PostgreSQL
-   - Dev/Test → SQLite
-
-4. How to test?
-   - Tier 1: Fast unit tests
-   - Tier 2: Real infrastructure integration
-   - Tier 3: Full system E2E
+metrics:
+  - name: decision_time_ms
+    type: histogram
+  - name: options_evaluated
+    type: counter
+  - name: confidence_score
+    type: gauge
 ```
 
-## Related Skills
+---
 
-- **[01-core-sdk](../../01-core-sdk/SKILL.md)** - Core SDK fundamentals
-- **[02-dataflow](../../02-dataflow/SKILL.md)** - DataFlow framework
-- **[03-nexus](../../03-nexus/SKILL.md)** - Nexus framework
-- **[04-kaizen](../../04-kaizen/SKILL.md)** - Kaizen framework
-- **[08-nodes-reference](../../08-nodes-reference/SKILL.md)** - Node reference
-- **[12-testing-strategies](../../12-testing-strategies/SKILL.md)** - Testing strategies
+## Error Handling
 
-## Support
+| Error Code | Description | Recovery |
+|------------|-------------|----------|
+| `E001` | Missing decision context | Request clarification |
+| `E002` | Conflicting quality attributes | Prioritization dialog |
+| `E003` | Insufficient options to compare | Request more alternatives |
+| `E004` | Unknown technology domain | Defer to research |
 
-For architecture decisions, invoke:
-- `framework-advisor` - Framework selection and architecture
-- `deep-analyst` - Deep analysis for complex decisions
-- `requirements-analyst` - Requirements breakdown
-- `pattern-expert` - Pattern recommendations
+---
+
+## Unit Test Template
+
+```yaml
+test_cases:
+  - name: "Database selection decision"
+    input:
+      decision_context: "E-commerce order management system"
+      decision_type: "technology"
+      quality_priorities: ["reliability", "performance"]
+      options: ["PostgreSQL", "MongoDB"]
+    expected:
+      has_recommendation: true
+      has_rationale: true
+      confidence_gte: 0.7
+
+  - name: "Missing context error"
+    input:
+      decision_context: ""
+    expected:
+      error_code: "E001"
+
+  - name: "Microservices vs Monolith"
+    input:
+      decision_context: "Startup MVP with 4 developers"
+      decision_type: "pattern"
+      quality_priorities: ["deployability", "maintainability"]
+    expected:
+      has_trade_offs: true
+      alternatives_count_gte: 1
+```
+
+---
+
+## Troubleshooting
+
+### Common Issues
+
+| Symptom | Root Cause | Resolution |
+|---------|------------|------------|
+| Vague recommendation | Context too broad | Narrow scope, add constraints |
+| Analysis paralysis | Too many options | Limit to top 3-4 viable options |
+| Low confidence score | Missing information | Request specific metrics/requirements |
+
+### Debug Checklist
+```
+□ Is problem domain clearly defined?
+□ Are quality attributes prioritized?
+□ Are all options technically viable?
+□ Are constraints explicitly stated?
+□ Is success criteria measurable?
+```
+
+---
+
+## Examples
+
+### Example: Technology Selection
+```yaml
+Input:
+  decision_context: "Real-time inventory system for retail"
+  decision_type: "technology"
+  quality_priorities: ["performance", "scalability"]
+  options: ["Redis", "PostgreSQL", "MongoDB"]
+
+Output:
+  recommendation: "Redis for hot data + PostgreSQL for persistence"
+  confidence: 0.85
+  trade_offs:
+    - "Redis: Fast but requires cache invalidation strategy"
+    - "PostgreSQL: ACID compliant but higher latency"
+  adr_content: |
+    # ADR: Hybrid Redis + PostgreSQL for Inventory
+    ## Decision: Use Redis for real-time inventory counts, PostgreSQL for order data
+    ## Rationale: Balances performance needs with data durability
+```
+
+---
+
+## Integration
+
+| Component | Trigger | Data Flow |
+|-----------|---------|-----------|
+| Agent 01 | Decision request | Receives context, returns recommendation |
+| Agent 02 | ADR creation | Provides decision content for documentation |
+
+---
+
+## Quality Standards
+
+- **Atomic:** Single decision per invocation
+- **Traceable:** All decisions link to rationale
+- **Reversible:** Document rollback strategy when applicable
+
+---
+
+## Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 2.0.0 | 2025-01 | Production-grade: parameters, retry logic, tests |
+| 1.0.0 | 2024-12 | Initial release |

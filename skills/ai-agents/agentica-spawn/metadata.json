@@ -7,9 +7,9 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/agentica-spawn-namesreallyblank-clorch/SKILL.md",
+  "file_path": "skills/data/agentica-spawn/SKILL.md",
   "source": "github_curated_repos",
-  "stars": 95,
+  "stars": 97,
   "quality_score": 63,
   "best_practices_score": 60,
   "skill_level": 3,
@@ -18,9 +18,9 @@
   "has_extra_files": false,
   "downloads": 0,
   "content_hash": "506c8ee90ffd244c8d2c5f97d80e42865029cc488d1a604eadcf29a297a7dd8a",
-  "indexed_at": "2026-03-01T01:11:33.104Z",
-  "synced_at": "2026-03-01T06:20:46.303Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/0c705c67ec741b78c0f5763dff0b9857c181a7d4c167d501f051969ff613420a",
-  "install_command": "mkdir -p .claude/skills/agentica-spawn && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agentica-spawn-namesreallyblank-clorch/SKILL.md\" > .claude/skills/agentica-spawn/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agentica-spawn-namesreallyblank-clorch/SKILL.md"
+  "indexed_at": "2026-03-02T02:04:06.202Z",
+  "synced_at": "2026-03-02T06:25:41.347Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/58047b634c1b799b227103c2449b270370f2f2148131eb55acf3fdefaec3448e",
+  "install_command": "mkdir -p .claude/skills/agentica-spawn && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agentica-spawn/SKILL.md\" > .claude/skills/agentica-spawn/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agentica-spawn/SKILL.md"
 }

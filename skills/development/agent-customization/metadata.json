@@ -7,9 +7,9 @@
   "repository_url": "https://github.com/majiayu000/claude-skill-registry",
   "author": "majiayu000",
   "author_avatar": "https://github.com/majiayu000.png",
-  "file_path": "skills/data/agent-customization-kicey-ungithubbed-copilot/SKILL.md",
+  "file_path": "skills/data/agent-customization/SKILL.md",
   "source": "github_curated_repos",
-  "stars": 95,
+  "stars": 97,
   "quality_score": 77,
   "best_practices_score": 55,
   "skill_level": 3,
@@ -18,9 +18,9 @@
   "has_extra_files": true,
   "downloads": 0,
   "content_hash": "68d382289d033fdfb3ba2df3860ca0ded500b7311857f346b528f1f96b4e7b4b",
-  "indexed_at": "2026-03-01T01:03:59.141Z",
-  "synced_at": "2026-03-01T06:21:02.274Z",
-  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/b4bf37073d31fcbe46cb4e957ced531f0b695ab49878a761ba579efa58650bc7",
-  "install_command": "mkdir -p .claude/skills/agent-customization && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agent-customization-kicey-ungithubbed-copilot/SKILL.md\" > .claude/skills/agent-customization/SKILL.md",
-  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agent-customization-kicey-ungithubbed-copilot/SKILL.md"
+  "indexed_at": "2026-03-02T02:03:00.289Z",
+  "synced_at": "2026-03-02T06:26:17.250Z",
+  "omni_registry_url": "https://omni-skill-registry.omniroute.online/#/skill/7b190760282bc0f7734b2578535356d8ccc41ea4c409b27cab154ac793e8b223",
+  "install_command": "mkdir -p .claude/skills/agent-customization && curl -sL \"https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agent-customization/SKILL.md\" > .claude/skills/agent-customization/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/agent-customization/SKILL.md"
 }
