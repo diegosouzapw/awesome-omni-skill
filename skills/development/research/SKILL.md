@@ -1,168 +1,138 @@
 ---
 name: research
-description: "Technical research methodology with YAGNI/KISS/DRY principles. Phases: scope definition, information gathering, analysis, synthesis, recommendation. Capabilities: technology evaluation, architecture analysis, best practices research, trade-off assessment, solution design. Actions: research, analyze, evaluate, compare, recommend technical solutions. Keywords: research, technology evaluation, best practices, architecture analysis, trade-offs, scalability, security, maintainability, YAGNI, KISS, DRY, technical analysis, solution design, competitive analysis, feasibility study. Use when: researching technologies, evaluating architectures, analyzing best practices, comparing solutions, assessing technical trade-offs, planning scalable/secure systems."
+description: Research the codebase to find and explain specific topics, answering questions about architecture, configuration, data flows, and implementation details
 license: MIT
+compatibility:
+  - runtime:any
+allowed-tools:
+  - Read
+  - Glob
+  - Grep
+metadata:
+  author: thoreinstein
+  version: 1.0.0
 ---
 
 # Research
 
-## Research Methodology
+Research the codebase to find and explain specific topics. This is a **read-only skill** - it discovers and documents information but does not modify code.
 
-Always honoring **YAGNI**, **KISS**, and **DRY** principles.
-**Be honest, be brutal, straight to the point, and be concise.**
+## When to Use
 
-### Phase 1: Scope Definition
+- Understanding where something is configured (e.g., "Where is Stripe configured?")
+- Learning how a feature works (e.g., "How does authentication work?")
+- Finding implementation details (e.g., "Where are RSS feeds fetched and parsed?")
+- Locating infrastructure definitions (e.g., "Where are the Kubernetes manifests for the API?")
+- Mapping dependencies and data flows
 
-First, you will clearly define the research scope by:
-- Identifying key terms and concepts to investigate
-- Determining the recency requirements (how current must information be)
-- Establishing evaluation criteria for sources
-- Setting boundaries for the research depth
+## Input
 
-### Phase 2: Systematic Information Gathering
+A research question about the codebase. Examples:
+- "Where is Stripe configured?"
+- "How does authentication work?"
+- "Where are RSS feeds fetched and parsed?"
+- "Where do we define Kubernetes manifests for the API service?"
 
-You will employ a multi-source research strategy:
+If no question is provided, ask for clarification before proceeding.
 
-1. **Search Strategy**:
-   - Check if `gemini` bash command is available, if so, execute `gemini -m gemini-3-preview-p "...your search prompt..."` bash command (timeout: 10 minutes) and save the output to `./plans/<plan-name>/reports/YYMMDD-<your-research-topic>.md` file (including all citations).
-   - If `gemini` bash command is not available, fallback to `WebSearch` tool.
-   - Run multiple `gemini` bash commands or `WebSearch` tools in parallel to search for relevant information.
-   - Craft precise search queries with relevant keywords
-   - Include terms like "best practices", "2024", "latest", "security", "performance"
-   - Search for official documentation, GitHub repositories, and authoritative blogs
-   - Prioritize results from recognized authorities (official docs, major tech companies, respected developers)
-   - **IMPORTANT:** You are allowed to perform at most **5 researches (max 5 tool calls)**, user might request less than this amount, **strictly respect it**, think carefully based on the task before performing each related research topic.
+## Workflow
 
-2. **Deep Content Analysis**:
-   - When you found a potential Github repository URL, use `docs-seeker` skill to find read it.
-   - Focus on official documentation, API references, and technical specifications
-   - Analyze README files from popular GitHub repositories
-   - Review changelog and release notes for version-specific information
+### 1. Interpret the Research Topic
 
-3. **Video Content Research**:
-   - Prioritize content from official channels, recognized experts, and major conferences
-   - Focus on practical demonstrations and real-world implementations
+Rewrite the question as a clear, concrete research goal:
+- "Where is Stripe configured?" → "Find where and how Stripe API keys are configured and used"
+- "How does authentication work?" → "Identify the main entry points for authentication and session handling"
 
-4. **Cross-Reference Validation**:
-   - Verify information across multiple independent sources
-   - Check publication dates to ensure currency
-   - Identify consensus vs. controversial approaches
-   - Note any conflicting information or debates in the community
+If the topic is ambiguous, make a reasonable assumption and state it in the report.
 
-### Phase 3: Analysis and Synthesis
+### 2. Explore the Codebase
 
-You will analyze gathered information by:
-- Identifying common patterns and best practices
-- Evaluating pros and cons of different approaches
-- Assessing maturity and stability of technologies
-- Recognizing security implications and performance considerations
-- Determining compatibility and integration requirements
+Use a top-down search strategy:
 
-### Phase 4: Report Generation
+1. **High-level scan**: Identify relevant directories and key modules
+2. **Pattern matching**: Use Glob and Grep to find likely matches by name, keywords, and patterns
+3. **Deep reading**: Read the most relevant files in detail
 
-**Notes:** 
-- Research reports are saved in `./plans/<plan-name>/reports/YYMMDD-<your-research-topic>.md`.
-- If you are not given a plan name, ask main agent to provide it and continue the process.
+### 3. Build an Organized Understanding
 
-You will create a comprehensive markdown report with the following structure:
+Identify:
+- Which files, directories, and modules are involved
+- Main functions, types, or components that implement the feature
+- Related configuration (YAML, env, Terraform, Kubernetes, CI, etc.)
+- Important relationships:
+  - Call chains or data flows
+  - Entry points and public APIs
+  - Integration with external services or other modules
+
+### 4. Report Back Clearly
+
+Produce a structured report including:
+- **Topic**: The research question answered
+- **Locations**: List of relevant paths (files/directories)
+- **Summary**: Short explanation for each location
+- **Architecture notes**: Key interactions or data flows
+- **Follow-ups**: Suggestions for next investigations
+
+## Output Format
+
+Use the template at `references/templates/research-findings.md` for comprehensive reports.
+
+For quick answers, use this minimal format:
 
 ```markdown
-# Research Report: [Topic]
+## Research: [Topic]
 
-## Executive Summary
-[2-3 paragraph overview of key findings and recommendations]
+### Locations
+- `path/to/file` — [what it does]
+- `path/to/dir/` — [what it contains]
 
-## Research Methodology
-- Sources consulted: [number]
-- Date range of materials: [earliest to most recent]
-- Key search terms used: [list]
+### Summary
+[How these pieces work together]
 
-## Key Findings
+### Architecture Notes
+[Key data flows or interactions]
 
-### 1. Technology Overview
-[Comprehensive description of the technology/topic]
-
-### 2. Current State & Trends
-[Latest developments, version information, adoption trends]
-
-### 3. Best Practices
-[Detailed list of recommended practices with explanations]
-
-### 4. Security Considerations
-[Security implications, vulnerabilities, and mitigation strategies]
-
-### 5. Performance Insights
-[Performance characteristics, optimization techniques, benchmarks]
-
-## Comparative Analysis
-[If applicable, comparison of different solutions/approaches]
-
-## Implementation Recommendations
-
-### Quick Start Guide
-[Step-by-step getting started instructions]
-
-### Code Examples
-[Relevant code snippets with explanations]
-
-### Common Pitfalls
-[Mistakes to avoid and their solutions]
-
-## Resources & References
-
-### Official Documentation
-- [Linked list of official docs]
-
-### Recommended Tutorials
-- [Curated list with descriptions]
-
-### Community Resources
-- [Forums, Discord servers, Stack Overflow tags]
-
-### Further Reading
-- [Advanced topics and deep dives]
-
-## Appendices
-
-### A. Glossary
-[Technical terms and definitions]
-
-### B. Version Compatibility Matrix
-[If applicable]
-
-### C. Raw Research Notes
-[Optional: detailed notes from research process]
+### Follow-ups
+- [Suggestion for next investigation]
 ```
 
-## Quality Standards
+## Constraints
 
-You will ensure all research meets these criteria:
-- **Accuracy**: Information is verified across multiple sources
-- **Currency**: Prioritize information from the last 12 months unless historical context is needed
-- **Completeness**: Cover all aspects requested by the user
-- **Actionability**: Provide practical, implementable recommendations
-- **Clarity**: Use clear language, define technical terms, provide examples
-- **Attribution**: Always cite sources and provide links for verification
+- **Read-only**: Do NOT modify any files
+- **No implementation**: Do NOT create tests or code changes
+- **Focused**: Keep the report focused on the requested topic
+- **High-value**: Prefer insights over exhaustive file listings
+- **Clear**: Structure findings so a human can quickly follow
 
-## Special Considerations
+## Example
 
-- When researching security topics, always check for recent CVEs and security advisories
-- For performance-related research, look for benchmarks and real-world case studies
-- When investigating new technologies, assess community adoption and support levels
-- For API documentation, verify endpoint availability and authentication requirements
-- Always note deprecation warnings and migration paths for older technologies
+```
+Research Question: "How does authentication work?"
 
-## Output Requirements
+Research Goal: Identify the main entry points for authentication
+and session handling.
 
-Your final report must:
-1. Be saved as a markdown file with a descriptive filename in `./plans/<plan-name>/reports/YYMMDD-<your-research-topic>.md`
-2. Include a timestamp of when the research was conducted
-3. Provide clear section navigation with a table of contents for longer reports
-4. Use code blocks with appropriate syntax highlighting
-5. Include diagrams or architecture descriptions where helpful (in mermaid or ASCII art)
-6. Conclude with specific, actionable next steps
+Locations:
+- `pkg/auth/handler.go` — HTTP handlers for login/logout/refresh
+- `pkg/auth/jwt.go` — JWT token generation and validation
+- `pkg/auth/middleware.go` — Authentication middleware for protected routes
+- `pkg/auth/session/` — Session storage and management
+- `config/auth.yaml` — Authentication configuration (token TTL, providers)
 
-**IMPORTANT:** Sacrifice grammar for the sake of concision when writing reports.
-**IMPORTANT:** In reports, list any unresolved questions at the end, if any.
+Summary:
+Authentication uses JWT tokens with refresh token rotation. The
+middleware validates tokens on protected routes and injects user
+context. Sessions are stored in Redis with configurable TTL.
 
-**Remember:** You are not just collecting information, but providing strategic technical intelligence that enables informed decision-making. Your research should anticipate follow-up questions and provide comprehensive coverage of the topic while remaining focused and practical.
+Architecture Notes:
+- Login flow: handler.go → jwt.go (generate) → session/ (store)
+- Request flow: middleware.go → jwt.go (validate) → inject user context
+- Supports OAuth providers via config/auth.yaml
+
+Follow-ups:
+- Review token refresh logic for security
+- Document the OAuth provider setup process
+- Add integration tests for session expiration
+```
+
+Begin by interpreting the research question and planning the exploration strategy.

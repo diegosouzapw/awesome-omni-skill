@@ -1,97 +1,251 @@
 ---
 name: changelog
-description: Write changelog entries for Hugging Face Hub features. Use when asked to write a changelog, create a changelog entry, or document a new feature/PR for hf.co/changelog. Triggers on "write changelog", "changelog entry", "document this PR/feature for changelog".
+version: 1.1.0
+description: '[Documentation] Generate or update changelog entries. Use for release changelogs, version history, and change tracking across any project.'
+triggers:
+    - changelog
+    - update changelog
+    - add changelog
+    - log changes
+
+allowed-tools: NONE
 ---
 
-# Changelog
+> **[IMPORTANT]** Use `TaskCreate` to break ALL work into small tasks BEFORE starting — including tasks for each file read. This prevents context loss from long files. For simple tasks, AI MUST ask user whether to skip.
 
-Write changelog entries for hf.co/changelog that match the existing style.
+## Quick Summary
+
+**Goal:** Generate business-focused changelog entries by systematically reviewing file changes.
+
+**Workflow:**
+
+1. **Gather Changes** — Get changed files via `git diff` (PR, commit, or range mode)
+2. **Create Temp Notes** — Build categorized review notes (Added/Changed/Fixed/etc.)
+3. **Review Each File** — Read diffs, identify business impact, categorize changes
+4. **Generate Entry** — Write Keep-a-Changelog formatted entry under `[Unreleased]`
+5. **Cleanup** — Delete temp notes file
+
+**Key Rules:**
+
+- Use business-focused language, not technical jargon (e.g., "Added pipeline management" not "Added PipelineController.cs")
+- Group related changes by module/feature, not by file
+- Always insert under the `[Unreleased]` section; create it if missing
+
+# Changelog Skill
+
+Generate business-focused changelog entries by systematically reviewing file changes.
+
+## Pre-Execution Checklist
+
+1. **Find existing CHANGELOG.md location**
+    - Check root: `./CHANGELOG.md` (preferred)
+    - Fallback: `./docs/CHANGELOG.md`
+    - If not found: Create at root
+
+2. **Read current changelog** to understand format and last entries
 
 ## Workflow
 
-1. **Identify the change**: Get the PR/branch name or ask the user
-2. **Gather context**: Read the PR description and changed files to understand the feature
-3. **Write the entry**: Follow the format and patterns below
+### Step 1: Gather Changes
 
-## Format
+Determine change scope based on mode:
 
-```markdown
-**[Date in "Mon D, YY" format]**
+```bash
+# PR/Branch-based (default)
+git diff origin/develop...HEAD --name-only
 
-## [Short Title]
+# Commit-based
+git show {commit} --name-only
 
-[1-2 paragraphs]
+# Range-based
+git diff {from}..{to} --name-only
 ```
 
-## Title Patterns
+### Step 2: Create Temp Notes File
 
-Keep titles short (2-5 words). Common patterns:
-- Noun phrase: "Trending Papers", "GGUF Metadata Editor", "Cleaner Collection URLs"
-- Feature location: "JSON Support in the Dataset Viewer", "HuggingChat for Papers"
-- Action: "Sort Models by Parameter Count", "Set Default Sorting in the Community Tab"
+Create `.ai/workspace/changelog-notes-{YYMMDD-HHMM}.md`:
 
-## Opening Sentence Patterns
+```markdown
+# Changelog Review Notes - {date}
 
-Choose based on the type of change:
+## Files Changed
 
-| Type | Pattern | Example |
-|------|---------|---------|
-| New user feature | "You can now..." | "You can now sort models by their number of parameters..." |
-| Platform addition | "All Hugging Face [X] now include/feature..." | "All Hugging Face Papers now include a built-in assistant..." |
-| Specific users | "[Users/Authors/Owners] can now..." | "Repository owners can now set the default sorting..." |
-| Page improvement | "[Feature] pages now have..." | "Collection pages now have shorter, cleaner links..." |
-| Existing feature | "The [feature] now includes..." | "The Daily Papers page now includes Trending Papers..." |
-| Breaking change | "We've renamed/overhauled..." | "We've renamed `huggingface-cli` to `hf`..." |
+- [ ] file1.ts -
+- [ ] file2.cs -
 
-## Style Rules
+## Categories
 
-- Date: `Mon D, YY` (e.g., "Jan 9, 26")
-- 1-2 short paragraphs max
-- Link to relevant HF pages: `[Models](https://huggingface.co/models)`
-- Use backticks for code/commands: `hf download`
-- Mention where feature is available (page, profiles, settings)
-- Second paragraph (optional): who it helps, examples, or migration notes
-- Stay neutral - no marketing fluff
-- Include screenshot recommendation when visual
+### Added (new features)
+
+-
+
+### Changed (modifications to existing)
+
+-
+
+### Fixed (bug fixes)
+
+-
+
+### Deprecated
+
+-
+
+### Removed
+
+-
+
+### Security
+
+-
+
+## Business Summary
+
+<!-- What does this mean for users? -->
+```
+
+### Step 3: Systematic File Review
+
+For each changed file:
+
+1. Read file or diff
+2. Identify **business impact** (not just technical change)
+3. Check box and note in temp file
+4. Categorize into appropriate section
+
+**Business Focus Guidelines**:
+
+| Technical (Avoid)               | Business-Focused (Use)                       |
+| ------------------------------- | -------------------------------------------- |
+| Added `StageCategory` enum      | Added stage categories for pipeline tracking |
+| Created `PipelineController.cs` | Added API endpoints for pipeline management  |
+| Fixed null reference in GetById | Fixed pipeline loading error                 |
+| Added migration file            | Database schema updated for new features     |
+
+### Step 4: Holistic Review
+
+Read temp notes file completely. Ask:
+
+- What's the main feature/fix?
+- Who benefits and how?
+- What can users now do that they couldn't before?
+
+### Step 5: Generate Changelog Entry
+
+Format (Keep a Changelog):
+
+```markdown
+## [Unreleased]
+
+### {Module}: {Feature Title}
+
+**Feature/Fix**: {One-line business description}
+
+#### Added
+
+- {Business-focused item}
+
+#### Changed
+
+- {What behavior changed}
+
+#### Fixed
+
+- {What issue was resolved}
+```
+
+### Step 6: Update Changelog
+
+1. Read existing CHANGELOG.md
+2. Insert new entry under `[Unreleased]` section
+3. If no `[Unreleased]` section, create it after header
+4. Preserve existing entries
+
+### Step 7: Cleanup
+
+Delete temp notes file: `.ai/workspace/changelog-notes-*.md`
+
+## Grouping Strategy
+
+Group related changes by module/feature:
+
+```markdown
+### Your Service: Hiring Process Management
+
+**Feature**: Customizable hiring process/pipeline management.
+
+#### Added
+
+**Backend**:
+
+- Entities: Pipeline, Stage, PipelineStage
+- Controllers: PipelineController, StageController
+- Commands: SavePipelineCommand, DeletePipelineCommand
+
+**Frontend**:
+
+- Pages: hiring-process-page
+- Components: pipeline-filter, pipeline-stage-display
+```
+
+## Anti-Patterns
+
+1. ❌ Creating new changelog in docs/ when root exists
+2. ❌ Skipping file review (leads to missed changes)
+3. ❌ Technical jargon without business context
+4. ❌ Forgetting to delete temp notes file
+5. ❌ Not using [Unreleased] section
+6. ❌ Listing every file instead of grouping by feature
 
 ## Examples
 
-**New feature:**
+### Good Entry
+
 ```markdown
-**Jan 22, 26**
+### Your Service: Hiring Process Management
 
-## Sort Models by Parameter Size
+**Feature**: Customizable hiring process/pipeline management for recruitment workflows.
 
-You can now sort models by their number of parameters on the [Models](https://huggingface.co/models) page and on user and organization profiles. Two new sorting options are available: "Most parameters" and "Least parameters."
+#### Added
+
+- Drag-and-drop pipeline stage builder with default templates
+- Stage categories (Sourced, Applied, Interviewing, Offered, Hired, Rejected)
+- Pipeline duplication for quick setup
+- Multi-language stage names (EN/VI)
+
+#### Changed
+
+- Candidate cards now show current pipeline stage
+- Job creation wizard includes pipeline selection
 ```
 
-**Platform-wide addition:**
+### Bad Entry (Too Technical)
+
 ```markdown
-**Jan 7, 26**
+### Pipeline Changes
 
-## HuggingChat for Papers
+#### Added
 
-All Hugging Face [Papers](https://huggingface.co/papers) now include a built-in assistant, powered by [HuggingChat](https://huggingface.co/chat) and the [Hugging Face MCP server](https://huggingface.co/docs/huggingface_hub/main/en/package_reference/mcp). It helps you quickly understand papers by answering questions, summarizing key ideas, and providing context as you browse the latest research.
+- Pipeline.cs entity
+- StageCategory enum
+- PipelineController
+- SavePipelineCommand
+- 20251216000000_MigrateDefaultStages migration
 ```
 
-**Breaking change with migration:**
-```markdown
-**Jul 25, 25**
+## Reference
 
-## Introducing a better Hugging Face CLI
+See `references/keep-a-changelog-format.md` for format specification.
 
-We've renamed `huggingface-cli` to `hf` and overhauled the command structure for speed and clarity. The new CLI now uses the format `hf <resource> <action>`, so commands like `hf auth login`, `hf repo create`, or `hf download Qwen/Qwen3-0.6B` are now consistent and intuitive.
+## Related
 
-Migration is easy, the old CLI still works and will gently point you to the new commands.
-```
+- `documentation`
+- `release-notes`
+- `commit`
 
-**Improvement with examples:**
-```markdown
-**Oct 9, 25**
+---
 
-## Organization tagging for Papers
+**IMPORTANT Task Planning Notes (MUST FOLLOW)**
 
-Authors can now tag an Organization when submitting a paper. Each Organization has a dedicated Papers page that automatically lists its tagged publications. See examples: https://huggingface.co/nvidia/papers and https://huggingface.co/google/papers.
-
-This makes it easier for teams to showcase their research and for readers to discover work by lab, company, or community.
-```
+- Always plan and break work into many small todo tasks
+- Always add a final review todo task to verify work quality and identify fixes/enhancements

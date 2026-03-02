@@ -1,304 +1,268 @@
 ---
-name: prompt-engineering
-description: ComfyUI prompt engineering knowledge — CLIP text encoding syntax, weight modifiers, model-specific prompting strategies, and best practices
-globs:
-  - "**/*.json"
+name: "prompt-engineering"
+description: 'Write effective prompts for AI coding agents. Use when crafting system prompts, implementing chain-of-thought reasoning, building few-shot examples, adding guardrails, configuring tool use, or designing agentic prompt patterns. Covers CoT, few-shot, guardrails, and function calling.'
+metadata:
+  author: "AgentX"
+  version: "1.0.0"
+  created: "2025-01-15"
+  updated: "2025-01-15"
+compatibility:
+  frameworks: ["agentx", "copilot", "openai", "anthropic"]
 ---
 
-# ComfyUI Prompt Engineering
+# Prompt Engineering
 
-## CLIP Text Encoding Fundamentals
+> **Purpose**: Write effective prompts for AI coding agents and workflows.  
+> **Scope**: System prompts, reasoning patterns, guardrails, tool use, agentic workflows.
 
-ComfyUI uses CLIP (Contrastive Language-Image Pre-training) text encoders to convert text prompts into conditioning tensors. The `CLIPTextEncode` node takes a text string and a CLIP model, producing a `CONDITIONING` output for the KSampler.
+---
 
-### Token Limit
+## When to Use This Skill
 
-CLIP processes text in **77-token chunks**. Each word is typically 1-3 tokens. Prompts exceeding 77 tokens are silently truncated unless you use the BREAK token or a multi-clip encoding node.
+- Crafting system prompts for AI agents
+- Implementing chain-of-thought reasoning
+- Building few-shot prompt examples
+- Adding content guardrails and safety filters
+- Configuring tool/function calling patterns
 
-## Weight Syntax
+## Prerequisites
 
-### Emphasis (Attention Weights)
+- Understanding of LLM capabilities and limitations
+- Access to an AI model endpoint
 
-Adjust how strongly the model attends to specific words or phrases:
-
-| Syntax | Effect | Equivalent Weight |
-|--------|--------|-------------------|
-| `(word:1.3)` | Increase emphasis by 30% | Explicit weight 1.3 |
-| `(word:0.7)` | Decrease emphasis by 30% | Explicit weight 0.7 |
-| `(word)` | Slight increase | `(word:1.1)` |
-| `((word))` | Moderate increase | `(word:1.21)` — 1.1^2 |
-| `(((word)))` | Strong increase | `(word:1.331)` — 1.1^3 |
-| `[word]` | Slight decrease | `(word:0.9091)` — 1/1.1 |
-| `[[word]]` | Moderate decrease | `(word:0.8264)` — 1/1.1^2 |
-
-### Weight Rules
-
-- **Valid range**: 0.0 to 2.0 (going beyond 1.5 often causes artifacts)
-- **Default weight**: 1.0 for unmodified tokens
-- **Nesting stacks multiplicatively**: `((word))` = 1.1 * 1.1 = `(word:1.21)`
-- **Phrases**: `(red sports car:1.3)` applies weight to the entire phrase
-- **Mixing**: `(detailed face:1.4), (blurry background:0.6)` — combine in one prompt
-
-### Examples
+## Decision Tree
 
 ```
-a (beautiful:1.3) woman with (flowing red hair:1.2), wearing a blue dress, (sharp focus:1.1)
+Writing a prompt?
+├─ Simple, well-known task?
+│   └─ Zero-shot (just instructions)
+├─ Need specific output format?
+│   └─ Few-shot (2-3 examples of input → output)
+├─ Complex reasoning required?
+│   ├─ Step-by-step? → Chain-of-thought ("think step by step")
+│   └─ Multi-perspective? → Self-consistency (sample multiple paths)
+├─ Agent / tool-use scenario?
+│   ├─ Define tool schemas clearly
+│   ├─ Add guardrails (what NOT to do)
+│   └─ Include error recovery instructions
+├─ System prompt for coding agent?
+│   ├─ Role + constraints + format + examples
+│   └─ Keep under 4K tokens for efficiency
+└─ Prompt too long?
+    └─ Progressive disclosure: load details on demand
 ```
 
-```
-(masterpiece:1.4), (best quality:1.3), a knight in (ornate armor:1.2), standing on a cliff, (dramatic lighting:1.1), cinematic
-```
+## Quick Reference
 
-## BREAK Token
+| Pattern | When to Use | Token Cost |
+|---------|-------------|------------|
+| **Zero-Shot** | Simple tasks, well-known domains | Low |
+| **Few-Shot** | Consistent output format needed | Medium |
+| **Chain-of-Thought** | Multi-step reasoning, debugging | Medium |
+| **ReAct** | Tool use, agentic workflows | High |
+| **Reflection** | Self-correction, quality improvement | High |
 
-The `BREAK` keyword forces CLIP to end the current 77-token chunk and start processing subsequent text in a new chunk. This is critical for long prompts.
+---
 
-### When to Use BREAK
+## System Prompts
 
-- Prompt exceeds ~60 words (approaching the 77-token limit)
-- You want to separate conceptually distinct parts of the prompt
-- Certain details are being ignored (they may be past the 77-token cutoff)
+### Structure
 
-### BREAK Example
-
-```
-masterpiece, best quality, a beautiful Japanese garden with cherry blossoms,
-stone lanterns, koi pond, traditional wooden bridge, morning mist
-BREAK
-highly detailed, 8k uhd, photorealistic, volumetric lighting,
-depth of field, golden hour, award-winning photography
-```
-
-Each chunk is encoded independently and then concatenated as conditioning, ensuring all tokens are processed.
-
-## Embeddings / Textual Inversions
-
-Embeddings (textual inversions) are pre-trained token sets that encode complex concepts into a single trigger word.
-
-### Syntax
+Every system prompt should have four parts:
 
 ```
-embedding:easynegative
-embedding:badhandv4
-embedding:bad-image-v2-39000
+1. ROLE       → Who the AI is
+2. CONTEXT    → What it knows about the situation
+3. TASK       → What it should do
+4. CONSTRAINTS → What it must NOT do
 ```
 
-### Usage in Prompts
+### Good Example
 
-- Place embedding triggers directly in the prompt text
-- Most commonly used in **negative prompts** to improve quality
-- The embedding `.safetensors` or `.pt` file must be in `models/embeddings/`
+```text
+You are a senior Python engineer reviewing pull requests.
 
-### Common Negative Embeddings
+CONTEXT:
+- Project uses FastAPI + SQLAlchemy + pytest
+- Code follows PEP 8 and uses type hints
+- Test coverage target: 80%+
 
-| Embedding | Best For | Description |
-|-----------|----------|-------------|
-| `easynegative` | SD 1.5 | General quality improvement |
-| `badhandv4` | SD 1.5 | Fixes hand deformities |
-| `bad-image-v2-39000` | SD 1.5 | Reduces artifacts |
-| `negativeXL_D` | SDXL | SDXL-specific negative embedding |
-| `ac_neg1` | SDXL | Alternative SDXL negative |
+TASK:
+Review the code changes and provide:
+1. Security issues (critical)
+2. Bug risks (high)
+3. Style improvements (low)
 
-### Example with Embeddings
-
-Positive: `a portrait of a woman, masterpiece, best quality`
-Negative: `embedding:easynegative, embedding:badhandv4, worst quality, low quality`
-
-## Model-Specific Prompting
-
-### SD 1.5
-
-**Negative prompt: IMPORTANT — SD 1.5 is very sensitive to negatives.**
-
-Positive prompt structure:
-```
-(masterpiece:1.2), (best quality:1.2), subject description, details, style tags
+CONSTRAINTS:
+- Do NOT rewrite code, only point out issues
+- Do NOT suggest changes outside the diff
+- Rate each issue: critical / high / medium / low
 ```
 
-Recommended negative prompt:
-```
-worst quality, low quality, normal quality, lowres, watermark, signature,
-text, jpeg artifacts, blurry, bad anatomy, bad hands, extra fingers,
-missing fingers, extra limbs, deformed, disfigured, mutation, ugly
-```
+### Anti-Patterns
 
-Key notes:
-- Quality tags like `masterpiece, best quality` significantly affect output
-- Responds well to danbooru-style tags: `1girl, long hair, blue eyes, school uniform`
-- Embedding-based negatives (`easynegative`) are very effective
-- Keep prompts concise — 77 token limit per chunk
+| Don't | Do Instead |
+|-------|------------|
+| "Be helpful" | "You are a Python code reviewer" |
+| "Do your best" | "List exactly 3 issues per file" |
+| "Be careful" | "NEVER execute DELETE queries" |
+| Long paragraphs | Bullet points and numbered lists |
+| Vague instructions | Specific output format with examples |
+| Inline prompt strings in code | Load from `prompts/{agent}.md` file |
+| Inline output templates in code | Load from `templates/{name}.md` file |
 
-### SDXL (1.0 / Turbo / Lightning)
+---
 
-**Negative prompt: Moderate importance — SDXL is less sensitive to negatives than SD 1.5.**
+## File-Based Prompt Management
 
-Positive prompt structure:
-```
-subject description with natural language, detailed description of scene and style
-```
+> **RULE**: ALWAYS store prompts in separate files. NEVER embed multi-line prompts or output templates as string literals in code.
 
-Recommended negative prompt:
-```
-blurry, low quality, deformed, ugly, bad anatomy, disfigured, poorly drawn face,
-mutation, mutated, extra limbs, watermark, text
-```
-
-Key notes:
-- SDXL understands natural language better than tag-based prompts
-- Dual CLIP encoders (CLIP-L + CLIP-G) — use `CLIPTextEncodeSDXL` for separate control
-- `CLIPTextEncodeSDXL` has separate `text_g` (global description) and `text_l` (local details) fields
-- Supports longer prompts natively (two 77-token chunks via dual CLIP)
-- Quality tags are less critical but still helpful
-- **SDXL Turbo**: 1-4 steps, CFG 1.0-2.0, minimal negative prompt needed
-- **SDXL Lightning**: 4-8 steps, CFG 1.0-2.0, often works with empty negative
-
-### Flux (Flux.1 schnell / dev)
-
-**Negative prompt: NOT USED — Flux operates at CFG=1.0 with no negative conditioning.**
-
-Positive prompt structure:
-```
-Detailed natural language description. Flux excels with descriptive sentences
-rather than comma-separated tags. Describe the scene as if writing a paragraph.
-```
-
-Key notes:
-- **CFG must be 1.0** — higher values cause artifacts
-- **No negative prompt** — connect nothing or empty string to negative conditioning
-- T5-XXL encoder understands complex sentences and spatial relationships
-- Flux handles compositional prompts better than SD models
-- Longer prompts (200+ tokens) work well thanks to T5 encoder
-- Prompt structure: describe the scene naturally, like a caption
-- Schnell: 4 steps, simple scheduler
-- Dev: 20-50 steps, sgm_uniform scheduler
-
-### Flux Prompt Example
+### Directory Convention
 
 ```
-A serene Japanese garden in autumn. A stone path leads through a grove of maple
-trees with bright red and orange leaves. A small wooden bridge crosses a koi pond
-where golden fish swim beneath the surface. Morning mist rises from the water,
-and soft sunlight filters through the canopy. The scene is photorealistic with
-warm, natural lighting and shallow depth of field.
+project/
+  prompts/                    # System & agent prompts
+    assistant.md              # One file per agent/role
+    code-reviewer.md
+    researcher.md
+  templates/                  # Output format templates
+    review-report.md          # Structured output templates
+    analysis-summary.md
+  config/
+    models.yaml               # Model configuration
 ```
 
-### SD3 / SD3.5
+### Prompt File Format
 
-**Negative prompt: Minimal — SD3 needs very little negative guidance.**
+```markdown
+<!-- prompts/code-reviewer.md -->
+<!-- Purpose: System prompt for code review agent -->
+<!-- Model: gpt-5.1 | Max tokens: ~1500 -->
 
-Positive prompt structure:
-```
-Natural language description, supports very long detailed prompts thanks to T5-XXL
-```
+You are a senior Python engineer reviewing pull requests.
 
-Key notes:
-- Triple CLIP architecture: CLIP-L + CLIP-G + T5-XXL
-- Supports much longer prompts than SD 1.5 or SDXL
-- Natural language works better than tag-based prompting
-- CFG 4-7 (lower than SD 1.5)
-- Minimal negatives needed — `low quality, blurry` is usually sufficient
-- Use `CLIPTextEncodeSD3` node for model-specific encoding if available
+## Context
+- Project uses FastAPI + SQLAlchemy + pytest
+- Code follows PEP 8 and uses type hints
+- Test coverage target: 80%+
 
-## Prompt Structure Best Practices
+## Task
+Review the code changes and provide:
+1. Security issues (critical)
+2. Bug risks (high)
+3. Style improvements (low)
 
-### Recommended Order
-
-1. **Quality modifiers** (if SD 1.5/SDXL): `masterpiece, best quality, highly detailed`
-2. **Subject**: `a young woman, a cyberpunk cityscape, a golden retriever`
-3. **Subject details**: `with long flowing red hair, wearing a white dress`
-4. **Action/pose**: `standing in a field, looking at the camera, running`
-5. **Environment**: `in a sunlit meadow, at night in a neon-lit street`
-6. **Composition**: `close-up portrait, full body shot, wide angle`
-7. **Lighting**: `dramatic lighting, soft natural light, studio lighting, golden hour`
-8. **Style/medium**: `oil painting, photograph, digital art, watercolor, anime`
-9. **Technical quality**: `8k, uhd, photorealistic, sharp focus, depth of field`
-
-### Quality Boosters
-
-These tokens generally improve output quality across SD 1.5 and SDXL:
-
-```
-masterpiece, best quality, highly detailed, 8k, photorealistic,
-ultra-detailed, sharp focus, professional, award-winning
+## Constraints
+- Do NOT rewrite code, only point out issues
+- Do NOT suggest changes outside the diff
+- Rate each issue: critical / high / medium / low
 ```
 
-For photorealism specifically:
-```
-photorealistic, hyperrealistic, RAW photo, DSLR, 8k uhd,
-film grain, Fujifilm XT3, sharp focus, natural lighting
-```
+### Loading Pattern
 
-For anime/illustration:
-```
-masterpiece, best quality, highly detailed, anime,
-beautiful detailed eyes, detailed face, illustration
-```
+```python
+from pathlib import Path
 
-## LoRA Trigger Words
+# Load prompt from file
+prompt = Path("prompts/code-reviewer.md").read_text(encoding="utf-8")
 
-LoRA (Low-Rank Adaptation) models are fine-tuned on specific concepts and require their **trigger words** to activate the learned concept.
+# Load output template and combine
+template = Path("templates/review-report.md").read_text(encoding="utf-8")
+full_prompt = f"{prompt}\n\n## Output Format\n{template}"
+```
 
 ### Rules
 
-- Trigger words are **specific to each LoRA** — check the LoRA's model page for its triggers
-- Place trigger words in the prompt naturally: `a photo of ohwx woman in a garden` (where `ohwx` is the trigger)
-- Some LoRAs use style triggers: `in the style of pixar3d`
-- Multiple LoRAs can be stacked, but each needs its own trigger word in the prompt
-- LoRA strength (in the `LoraLoader` node) interacts with prompt weight — usually keep one at default
+- **MUST** store all prompts ≥2 lines in `prompts/` as `.md` files
+- **MUST** store output format templates in `templates/` as `.md` files
+- **MUST NOT** embed prompt text as multi-line strings in Python/C#/TS code
+- **SHOULD** use Markdown format (readable, supports headers/lists)
+- **SHOULD** name files after the agent role: `prompts/{role}.md`
+- **SHOULD** include a comment header: purpose, target model, token estimate
+- **MAY** use `{variable}` placeholders for runtime injection
 
-### Common Patterns
+### Why Separate Files?
 
-```
-# Character LoRA
-a photo of sks person, wearing casual clothes, in a park
+| Benefit | Explanation |
+|---------|-------------|
+| **Version control** | Git diffs show exactly what changed in a prompt |
+| **Non-dev editing** | PMs and prompt engineers edit without touching code |
+| **A/B testing** | Swap prompt files without code changes |
+| **Reuse** | Share prompts across agents, languages, and tests |
+| **Separation of concerns** | Logic (code) vs. content (prompts) stay independent |
 
-# Style LoRA
-a landscape painting, autumn forest, in the style of impressionism, masterpiece
+---
 
-# Concept LoRA
-a character wearing mecha_armor, standing in a battlefield, detailed
-```
-
-## Wildcards and Dynamic Prompts
-
-If **ComfyUI-Impact-Pack** or a wildcard node pack is installed, you can use dynamic prompt syntax:
-
-### Wildcard Syntax
-
-```
-a {red|blue|green|yellow} car parked on a {sunny|rainy|snowy} street
+## Rules
+1. All endpoints return ActionResult<T>
+2. Use [Authorize] on all non-public endpoints
+3. Validate input with FluentValidation
+4. Return Problem() for errors (RFC 7807)
 ```
 
-Each `{option1|option2|option3}` randomly selects one option per generation.
+---
 
-### Wildcard Files
+## Common Mistakes
 
-Wildcard `.txt` files (one option per line) can be referenced:
-```
-a __haircolor__ haired woman wearing a __clothing__ in __location__
-```
+| Mistake | Fix |
+|---------|-----|
+| Prompt too long (>2000 words) | Split into system prompt + user prompt |
+| No output format specified | Add "Respond in this format: ..." |
+| Contradictory instructions | Review and remove conflicts |
+| Assuming AI remembers context | Repeat key constraints in each message |
+| Over-constraining | Allow flexibility for edge cases |
+| No examples for complex formats | Add 2-3 few-shot examples |
+| Mixing multiple tasks | One prompt = one task |
 
-Where `haircolor.txt`, `clothing.txt`, and `location.txt` are in the wildcards directory.
+---
 
-## CLIPTextEncode Variants
+## Evaluation Checklist
 
-| Node | Use Case | Notes |
-|------|----------|-------|
-| `CLIPTextEncode` | Standard single-CLIP encoding | Works with all models |
-| `CLIPTextEncodeSDXL` | SDXL dual-CLIP with separate G/L fields | Better SDXL control |
-| `CLIPTextEncodeSD3` | SD3 triple-CLIP encoding | For SD3/SD3.5 models |
-| `CLIPTextEncodeFlux` | Flux T5-based encoding | For Flux models |
-| `ConditioningCombine` | Merge two conditionings | Stack different prompt aspects |
-| `ConditioningSetArea` | Regional prompting | Apply conditioning to specific image areas |
-| `ConditioningSetMask` | Mask-based conditioning | Apply prompt only where mask is active |
+Rate your prompt before using it:
 
-## Common Prompting Mistakes
+- [ ] **Clear role**: Does the AI know who it is?
+- [ ] **Specific task**: Is the desired output unambiguous?
+- [ ] **Output format**: Will responses be consistent?
+- [ ] **Constraints**: Are boundaries and safety rules defined?
+- [ ] **Examples**: Are few-shot examples provided where needed?
+- [ ] **Reasoning**: Is chain-of-thought requested for complex tasks?
+- [ ] **Verification**: Does the prompt include self-check steps?
+- [ ] **Stored externally**: Is the prompt in `prompts/` (not inline in code)?
+- [ ] **Template separated**: Is the output template in `templates/` (not inline)?
 
-1. **Using negative prompts with Flux**: Flux ignores negatives and CFG > 1 causes artifacts
-2. **Tag-based prompts for Flux/SD3**: These models prefer natural language descriptions
-3. **Exceeding 77 tokens without BREAK**: Tokens past the limit are silently dropped
-4. **Weight > 1.5**: Causes color bleeding, artifacts, and distortion
-5. **Conflicting terms**: `(bright:1.3) (dark:1.3)` confuses the model
-6. **Embedding without file**: Using `embedding:name` without the `.safetensors` file installed causes errors
-7. **Wrong LoRA trigger words**: The prompt must contain the exact trigger word(s) for the LoRA to activate
-8. **Quality tags in Flux prompts**: `masterpiece, best quality` are meaningless for Flux — describe quality naturally
+---
+
+## Resources
+
+- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)
+- [Anthropic Prompt Engineering](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering)
+- [Google Prompt Engineering](https://ai.google.dev/docs/prompt_best_practices)
+- [AgentX Agent Definitions](../../../../.github/agents/)
+- [AgentX Instruction Files](../../../../.github/instructions/)
+
+---
+
+**Related**: [AI Agent Development](../ai-agent-development/SKILL.md) for building agents • [Skills.md](../../../../Skills.md) for all skills
+
+**Last Updated**: February 7, 2026
+
+
+## Scripts
+
+| Script | Purpose | Usage |
+|--------|---------|-------|
+| [`scaffold-prompt.py`](scripts/scaffold-prompt.py) | Generate structured prompt template (ROLE/CONTEXT/TASK/CONSTRAINTS) | `python scripts/scaffold-prompt.py --name code-reviewer [--pattern cot] [--with-examples 3]` |
+
+## Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| Prompt too long / context exceeded | Reduce few-shot examples or split into sub-prompts |
+| Model ignores instructions | Move critical rules to top of system prompt with explicit constraints |
+| Inconsistent outputs | Add structured output format requirements and examples |
+
+## References
+
+- [Cot And Few Shot](references/cot-and-few-shot.md)
+- [Guardrails And Tool Use](references/guardrails-and-tool-use.md)
+- [Agentic Patterns](references/agentic-patterns.md)

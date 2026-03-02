@@ -1,6 +1,6 @@
 # 📂 content-media
 
-> 214 skills in this category
+> 147 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -105,6 +105,7 @@
 | [pptx](pptx/) | rafaelramosdf | ★ 0 | 59% | L3 | Presentation creation, editing, and analysis. When Claude needs to work with pre… |
 | [didactic-content-generator](didactic-content-generator/) | rafaelramosdf | ★ 0 | 59% | L2 | Gere conteúdo didático de alta qualidade em HTML/CSS com ilustrações SVG, usando… |
 | [docx](docx/) | rafaelramosdf | ★ 0 | 59% | L3 | Criação, edição e análise abrangente de documentos com suporte para alterações c… |
+| [gtse-social-content](gtse-social-content/) | mk-162 | ★ 0 | 50% | L2 | B2B social media content strategy for GTSE industrial supplies. Primary focus on… |
 | [x-image-cards](x-image-cards/) | NeverSight | ★ 0 | 48% | L3 | Create X/Twitter cards that look like images, not marketing banners. Use when as… |
 | [x-image-cards](x-image-cards/) | 0juano | ★ 0 | 48% | L3 | Create X/Twitter cards that look like images, not marketing banners. Use when as… |
 | [x-image-cards](x-image-cards/) | 0juano | ★ 0 | 48% | L3 | Create X/Twitter cards that look like images, not marketing banners. Use when as… |
@@ -125,6 +126,10 @@
 | [blog-experiential](blog-experiential/) | tikazyq | ★ 0 | 48% | L3 | Write experiential articles for marvinzhang.dev following 3-stage workflow (Outl… |
 | [Content Performance Explainer](content-performance-explainer/) | writer | ★ 0 | 48% | L2 | Diagnose and explain why e-commerce content is or isn't performing against KPIs,… |
 | [ai-digest](ai-digest/) | JayKim88 | ★ 0 | 48% | L3 | Digest AI/tech articles into structured learning documents. Use when user says "… |
+| [thumbnail-generator](thumbnail-generator/) | majiayu000 | ★ 0 | 48% | L2 | Generate prompts for dev.to blog thumbnail/cover images in hand-drawn infographi… |
+| [ffmpeg-media](ffmpeg-media/) | majiayu000 | ★ 0 | 48% | L3 | FFmpeg media processing. Video/audio transcoding, stream manipulation, and filte… |
+| [performing-steganography-detection](performing-steganography-detection/) | mukul975 | ★ 0 | 48% | L3 | Detect and extract hidden data embedded in images, audio, and other media files … |
+| [ltxv2-video](ltxv2-video/) | artokun | ★ 0 | 47% | L3 | Build LTX-V2 19B video workflows — text-to-video, image-to-video, distilled mode… |
 | [Tech Debt Triage](tech-debt-triage/) | cdalsoniii | ★ 0 | 46% | L2 | Score, prioritize, and plan technical debt remediation |
 | [instagram-social-media](instagram-social-media/) | rafaelramosdf | ★ 0 | 45% | L3 | Atua como um especialista em social media para Instagram, criando conteúdos alta… |
 | [publish](publish/) | majiayu000 | ★ 0 | 45% | L2 | Draft email and tweet for a new blog post. Reads the latest post from campederse… |
@@ -146,78 +151,6 @@
 | [seo-content-writer](seo-content-writer/) | pembee-app | ★ 0 | 45% | L2 | Creates high-quality, SEO-optimized content that ranks in search engines. Applie… |
 | [gemini-image-generator](gemini-image-generator/) | camronh | ★ 0 | 45% | L3 | Generate and edit images using Google Gemini. Use when the user asks to generate… |
 | [medium-posts-creator](medium-posts-creator/) | majiayu000 | ★ 0 | 45% | L2 | Transform arbitrary text into well-structured Medium article drafts following a … |
-| [xiaohongshu-publisher](xiaohongshu-publisher/) | openclaw | ★ 0 | 45% | L3 | Draft and publish posts to 小红书 (Xiaohongshu/RED). Use when creating content for … |
-| [nanobanana-image](nanobanana-image/) | inoue2002 | ★ 0 | 45% | L3 | Nano Banana (Google Gemini API) を使って画像を生成・編集するスキル。「画像を生成して」「イラストを作って」「○○の絵を描いて」「… |
-| [seedream-image-generator](seedream-image-generator/) | majiayu000 | ★ 0 | 45% | L3 | Generate images using the Doubao SeeDream API based on text prompts. Use this sk… |
-| [seedream-image-generator](seedream-image-generator/) | eze-is | ★ 0 | 45% | L3 | Generate images using the Doubao SeeDream API based on text prompts. Use this sk… |
-| [seedream-image-generator](seedream-image-generator/) | majiayu000 | ★ 0 | 45% | L3 | Generate images using the Doubao SeeDream API based on text prompts. Use this sk… |
-| [video](video/) | soliblue | ★ 0 | 45% | L3 | Generate videos using fal.ai (Wan, Kling) or Sora. Text-to-video and image-to-vi… |
-| [video-processing-editing](video-processing-editing/) | majiayu000 | ★ 0 | 45% | L3 | FFmpeg automation for cutting, trimming, concatenating videos. Audio mixing, tim… |
-| [website-content skill](website-content-skill/) | wchen02 | ★ 0 | 45% | L3 | I built a reusable agent skill that teaches Cursor how to write content for this… |
-| [xhs-images](xhs-images/) | manwithshit | ★ 0 | 45% | L3 | Xiaohongshu (Little Red Book) infographic series generator with multiple style o… |
-| [xhs-images](xhs-images/) | NeverSight | ★ 0 | 45% | L3 | Xiaohongshu (Little Red Book) infographic series generator with multiple style o… |
-| [seedance-20](seedance-20/) | Emily2040 | ★ 0 | 45% | L3 | Generate and direct cinematic AI videos with Seedance 2.0 (ByteDance/Dreamina/Ji… |
-| [blog-writing](blog-writing/) | jcanizalez | ★ 0 | 45% | L2 | Write compelling blog posts with proven structure — hook openings, scannable bod… |
-| [content-outlining](content-outlining/) | jcanizalez | ★ 0 | 45% | L2 | Create structured content outlines for articles, blog posts, documentation, and … |
-| [redbook-creator](redbook-creator/) | NeverSight | ★ 0 | 45% | L3 | Use this skill when the user wants to create Xiaohongshu (小红书/RedBook) posts. Tr… |
-| [ffmpeg-usage](ffmpeg-usage/) | ychoi-kr | ★ 0 | 45% | L3 | ffmpeg recipes and best practices: convert, concatenate, merge, resize, compress… |
-| [seo-content](seo-content/) | anorbert-cmyk | ★ 0 | 45% | L3 | Content quality and E-E-A-T assessment with AI citation readiness scoring. Evalu… |
-| [seedance-20](seedance-20/) | NeverSight | ★ 0 | 45% | L3 | Generate and direct cinematic AI videos with Seedance 2.0 (ByteDance/Dreamina/Ji… |
-| [media-generation](media-generation/) | majiayu000 | ★ 0 | 45% | L3 | Generate images, videos, and audio using Google's Gemini APIs. Use for image gen… |
-| [media-generation](media-generation/) | majiayu000 | ★ 0 | 45% | L3 | Generate images, videos, and audio using Google's Gemini APIs. Use for image gen… |
-| [video-toolkit](video-toolkit/) | fancyboi999 | ★ 0 | 45% | L3 | Intelligent video processor for downloading media and extracting transcripts fro… |
-| [voice-dna-creator](voice-dna-creator/) | majiayu000 | ★ 0 | 45% | L2 | Analyze writing samples to create a comprehensive voice DNA profile. Use when th… |
-| [wiro-image-fill](wiro-image-fill/) | AndacGuven | ★ 0 | 45% | L3 | Generate missing or placeholder images in a project by calling the Wiro image ge… |
-| [ai-avatar-video](ai-avatar-video/) | NeverSight | ★ 0 | 45% | L3 | Create AI avatar and talking head videos with OmniHuman, Fabric, PixVerse via in… |
-| [media-generation](media-generation/) | majiayu000 | ★ 0 | 45% | L3 | Generate images, videos, and audio using Google's Gemini APIs. Use for image gen… |
-| [publish](publish/) | majiayu000 | ★ 0 | 45% | L2 | Draft email and tweet for a new blog post. Reads the latest post from campederse… |
-| [gemini-api](gemini-api/) | majiayu000 | ★ 0 | 45% | L3 | Google Gemini API integration for building AI-powered applications. Use when wor… |
-| [editing-checklist](editing-checklist/) | jcanizalez | ★ 0 | 45% | L2 | Systematic editing and proofreading checklist for polishing written content. Use… |
-| [Media Uploader - R2/S3 with video download](media-uploader-r2-s3-with-video-download/) | sternelee | ★ 0 | 45% | L3 | Upload files or download videos from popular platforms (YouTube, Vimeo, Bilibili… |
-| [og-image-generator](og-image-generator/) | NeverSight | ★ 0 | 45% | L3 | Generate and optimize Open Graph meta images for social media sharing. Use this … |
-| [x-post](x-post/) | pravj | ★ 0 | 45% | L3 | Post to X (Twitter) - tweets, media, threads with history tracking. Use when the… |
-| [payload](payload/) | majiayu000 | ★ 0 | 45% | L3 | Builds full-stack applications with Payload CMS, the Next.js-native headless CMS… |
-| [veo-vibe-banana](veo-vibe-banana/) | artickc | ★ 0 | 45% | L3 | REQUIRED for all image generation requests. Generate and edit images using Veo V… |
-| [video-ingest](video-ingest/) | joelhooks | ★ 0 | 45% | L3 | Download, transcribe, and summarize videos via the Inngest pipeline. Use when th… |
-| [create-custom-hawk](create-custom-hawk/) | BoomerAng9 | ★ 0 | 45% | L2 | > Let users create their own Lil_Hawks — named, configured, and deployed by ACHE… |
-| [video-processing-editing](video-processing-editing/) | majiayu000 | ★ 0 | 45% | L3 | FFmpeg automation for cutting, trimming, concatenating videos. Audio mixing, tim… |
-| [ai-podcast-creation](ai-podcast-creation/) | journey247 | ★ 0 | 45% | L3 | Create AI-powered podcasts with text-to-speech, music, and audio editing. Tools:… |
-| [content-publisher](content-publisher/) | Acurioustractor | ★ 0 | 45% | L3 | Autonomous content creation, review, and multi-platform publishing for ACT ecosy… |
-| [ai-video-generation](ai-video-generation/) | RomainGRAS42 | ★ 0 | 45% | L3 | Generate AI videos with Google Veo, Seedance, Wan, Grok and 40+ models via infer… |
-| [marketing-social-media](marketing-social-media/) | majiayu000 | ★ 0 | 45% | L2 | Sustainable social media marketing and paid social: content systems, community m… |
-| [shorts-presentation-skill](shorts-presentation-skill/) | majiayu000 | ★ 0 | 45% | L3 | Create vertical (9:16) interactive presentations optimized for YouTube Shorts, T… |
-| [write-blog](write-blog/) | dagmawibabi | ★ 0 | 45% | L3 | Write and publish blog posts in the SvelteKit markdown blog with header images, … |
-| [bulk-cms-update](bulk-cms-update/) | webflow | ★ 0 | 45% | L2 | Create or update multiple CMS items in a Webflow collection with validation and … |
-| [ai-content-pipeline](ai-content-pipeline/) | openclaw | ★ 0 | 45% | L3 | Build multi-step AI content creation pipelines combining image, video, audio, an… |
-| [markitdown](markitdown/) | K-Dense-AI | ★ 0 | 45% | L3 | Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, … |
-| [markitdown](markitdown/) | Rowtion | ★ 0 | 45% | L3 | Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, … |
-| [markitdown](markitdown/) | majiayu000 | ★ 0 | 45% | L3 | Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, … |
-| [AudioEditor](audioeditor/) | danielmiessler | ★ 0 | 45% | L3 | AI-powered audio/video editing — transcription, intelligent cut detection, autom… |
-| [content-creation-flow](content-creation-flow/) | OutSystems | ★ 0 | 45% | L3 | Step-by-step content creation workflow for documentation and training materials.… |
-| [blog-voice-analyzer](blog-voice-analyzer/) | majiayu000 | ★ 0 | 45% | L3 | Run the AI Voice Analyzer on blog content to detect AI-sounding patterns and get… |
-| [nlm-skill](nlm-skill/) | jacob-bd | ★ 0 | 45% | L3 | Expert guide for the NotebookLM CLI (`nlm`) and MCP server - interfaces for Goog… |
-| [video-analyzer](video-analyzer/) | openclaw | ★ 0 | 44% | L3 | 鏅鸿兘鍒嗘瀽 Bilibili/YouTube/鏈湴瑙嗛锛岀敓鎴愯浆鍐欍€佽瘎浼板拰鎬荤粨銆傛敮鎸佸叧閿抚鎴浘鑷姩宓屽叆銆? |
-| [check-x-md-content-rule](check-x-md-content-rule/) | oimiragieo | ★ 0 | 43% | L3 | This rule reminds the AI to check the x.md file for the current file contents an… |
-| [vidu-video](vidu-video/) | openclaw | ★ 0 | 41% | L2 | 使用 Vidu Q3 Pro 模型生成视频。当用户想要文生视频、生成带音频的视频，或提到 vidu 时使用此 skill。 |
-| [placeholder-images](placeholder-images/) | oimiragieo | ★ 0 | 39% | L3 | Rule to use placekitten.com for placeholder images in seed data. |
-| [image-publisher](image-publisher/) | maoruibin | ★ 0 | 38% | L3 | Upload local images to image hosting services and get accessible URLs. Use this … |
-| [social-media-scheduler](social-media-scheduler/) | openclaw | ★ 0 | 38% | L3 | Generate a full week of social media content for any topic. Outputs platform-opt… |
-| [youtube-shorts-automation](youtube-shorts-automation/) | openclaw | ★ 0 | 38% | L3 | YouTube Shorts 자동 생성 및 업로드 파이프라인. Deevid AI Agent로 이미지→영상(BGM+음성 포함) 생성 후 YouTub… |
-| [stop](stop/) | terrylica | ★ 0 | 38% | L3 | Disable autonomous loop mode immediately. TRIGGERS - ru stop, stop autonomous, d… |
-| [wechat-content-skill](wechat-content-skill/) | CheeMao | ★ 0 | 38% | L3 | 公众号内容创作助手 - 帮助高效采集素材、筛选选题、创作优质文章 |
-| [writing-technical-blogs](writing-technical-blogs/) | junaidrahim | ★ 0 | 38% | L2 | Technical blogging for junaid.foo. Friday writing sessions, draft grooming, buil… |
-| [url-content-loading](url-content-loading/) | majiayu000 | ★ 0 | 38% | L3 | A URL content loading tool that extracts text or metadata from URLs across multi… |
-| [Automate YouTube Top-Ten Video Creation with OpenAI and Safe Image Search](automate-youtube-top-ten-video-creation-with-openai-and-safe-image-search/) | ECNU-ICALK | ★ 0 | 35% | L2 | Integrates OpenAI API for content generation, Bing Image Search API for safe ima… |
-| [refresh-content](refresh-content/) | airopshq | ★ 0 | 34% | L2 | Update existing content with fresh information and improvements. |
-| [refresh-content](refresh-content/) | majiayu000 | ★ 0 | 34% | L2 | Update existing content with fresh information and improvements. |
-| [veo](veo/) | MagicWifiMoney | ★ 0 | 32% | L2 | Generate video using Google Veo (Veo 3.1 / Veo 3.0). Use when: creating video cl… |
-| [imagegen-gemini](imagegen-gemini/) | bhaidar | ★ 0 | 32% | L3 | Generate/edit images via Gemini API (Nano Banana). Triggers: generate image, cre… |
-| [videocut:安装](videocut/) | majiayu000 | ★ 0 | 31% | L3 | 环境准备。安装依赖、下载模型。触发词：安装、环境准备、初始化 |
-| [videocut:安装](videocut/) | 0xFANGO | ★ 0 | 31% | L3 | 环境准备。安装依赖、下载模型。触发词：安装、环境准备、初始化 |
-| [extract-page](extract-page/) | majiayu000 | ★ 0 | 28% | L3 | Extract a single page from a PDF as a PNG image for quick preview. |
-| [bird](bird/) | openxjarvis | ★ 0 | 28% | L2 | Twitter/X social media integration |
-| [bird](bird/) | futurewithvibe | ★ 0 | 28% | L2 | Twitter/X social media integration |
-| [Skills](skills/) | Exile-MC | ★ 0 | 19% | L2 | Your content here |
 
 ---
 

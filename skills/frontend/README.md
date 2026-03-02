@@ -1,6 +1,6 @@
 # 📂 frontend
 
-> 437 skills in this category
+> 204 skills in this category
 
 | Skill | Author | Stars | Quality | Level | Description |
 |-------|--------|-------|---------|-------|-------------|
@@ -159,6 +159,7 @@
 | [moai-domain-frontend](moai-domain-frontend/) | globalmsq | ★ 0 | 48% | L3 | Frontend development specialist covering React 19, Next.js 16, Vue 3.5, and mode… |
 | [moai-domain-frontend](moai-domain-frontend/) | yarang | ★ 0 | 48% | L3 | Frontend development specialist covering React 19, Next.js 16, Vue 3.5, and mode… |
 | [moai-domain-frontend](moai-domain-frontend/) | taewook486 | ★ 0 | 48% | L3 | Frontend development specialist covering React 19, Next.js 16, Vue 3.5, and mode… |
+| [project-overview](project-overview/) | kabroxiko | ★ 0 | 48% | L3 | A protocol for creating a new IoT LED controller project from scratch, including… |
 | [convex-component-authoring](convex-component-authoring/) | majiayu000 | ★ 0 | 48% | L3 | How to create, structure, and publish self-contained Convex components with prop… |
 | [Creating Cursor Rules](creating-cursor-rules/) | majiayu000 | ★ 0 | 48% | L3 | Expert guidance for creating effective Cursor IDE rules with best practices, pat… |
 | [Frontend Design](frontend-design/) | openclaw | ★ 0 | 48% | L3 | Frontend development with React, Next.js, Tailwind CSS. Build landing pages, das… |
@@ -184,6 +185,9 @@
 | [react-email](react-email/) | majiayu000 | ★ 0 | 48% | L3 | Use when creating HTML email templates with React components - welcome emails, p… |
 | [moai-platform-clerk](moai-platform-clerk/) | majiayu000 | ★ 0 | 48% | L3 | Clerk modern authentication specialist covering WebAuthn, passkeys, passwordless… |
 | [domain-puppy](domain-puppy/) | mattd3080 | ★ 0 | 48% | L3 | This skill should be used when the user asks to "check if a domain is available"… |
+| [Next.js App Router & Server Components](next.js-app-router-server-components/) | majiayu000 | ★ 0 | 48% | L3 | Build Next.js 15 applications using App Router, Server Components, Client Compon… |
+| [web-search](web-search/) | netease-youdao | ★ 0 | 48% | L3 | Real-time web search using Playwright-controlled browser. Use this skill when yo… |
+| [dioxus-modern](dioxus-modern/) | lprior-repo | ★ 0 | 48% | L3 | Modern Dioxus 0.7 + Tailwind CSS development guide. Use when asking about Signal… |
 | [pcf-tooling](pcf-tooling/) | pingqLIN | ★ 0 | 47% | L2 | Get Microsoft Power Platform CLI tooling for Power Apps Component Framework Trig… |
 | [Frontend Pages](frontend-pages/) | raffaeler | ★ 0 | 47% | L3 | Create or modify React pages using MUI components, React Router, and the HATEOAS… |
 | [solid-core-rendering](solid-core-rendering/) | majiayu000 | ★ 0 | 47% | L2 | SolidJS rendering: render for client apps, hydrate for SSR, renderToString for s… |
@@ -196,251 +200,14 @@
 | [power-bi-custom-visuals-development](power-bi-custom-visuals-development/) | pingqLIN | ★ 0 | 47% | L3 | Comprehensive Power BI custom visuals development guide covering React, D3.js in… |
 | [manim-scroll](manim-scroll/) | NeverSight | ★ 0 | 47% | L3 | Build and integrate scroll-driven Manim animations with pre-rendered assets, man… |
 | [domain-embedded](domain-embedded/) | majiayu000 | ★ 0 | 47% | L2 | Use when developing embedded/no_std Rust. Keywords: embedded, no_std, microcontr… |
+| [frontend-razor](frontend-razor/) | twofoldtech-dakota | ★ 0 | 47% | L3 | Apply when working with Razor views, MVC layouts, partial views, and tag helpers |
+| [solid-router-preloading](solid-router-preloading/) | majiayu000 | ★ 0 | 47% | L2 | Solid Router preloading: preload function for routes, usePreloadRoute hook, hove… |
 | [Mandu Styling](mandu-styling/) | konamgil | ★ 0 | 46% | L3 | Tailwind CSS v4 integration and Island styling patterns for Mandu Framework |
 | [starknet-react-rules](starknet-react-rules/) | oimiragieo | ★ 0 | 46% | L3 | Specific rules for Starknet React projects, focusing on blockchain integration. |
 | [react](react/) | mae616 | ★ 0 | 45% | L3 | React/Next.jsのプロジェクトで、UI=計算モデル（コンポーネント/状態/レンダリング）を軸に、設計・実装・レビュー・性能改善の判断を整理する。doc… |
 | [default-planner](default-planner/) | clode-labs | ★ 0 | 45% | L3 | Analyze user requests and create executable task plans for any type of work. Use… |
 | [nextjs-frontend-guidelines](nextjs-frontend-guidelines/) | chacha95 | ★ 0 | 45% | L3 | Next.js 15 frontend development guidelines for YGS (영영사) React 19/TypeScript app… |
 | [responsive-design-patterns](responsive-design-patterns/) | majiayu000 | ★ 0 | 45% | L3 | Mobile-first responsive design patterns with breakpoints, fluid layouts, and ada… |
-| [auth0-quickstart](auth0-quickstart/) | auth0 | ★ 0 | 45% | L3 | Use when starting Auth0 integration in any framework - detects your stack (React… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | ranbot-ai | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [kuroco-frontend-integration](kuroco-frontend-integration/) | diverta | ★ 0 | 45% | L3 | Kurocoとフロントエンドフレームワークの統合パターンおよびAI自動デプロイメント。使用キーワード：「Kuroco Nuxt」「Kuroco Next.js」… |
-| [frontend-specialist](frontend-specialist/) | huangwb8 | ★ 0 | 45% | L3 | 前端开发专家。精通 React/Vue/Next.js/Nuxt 等现代前端框架，专注于组件化开发、状态管理、响应式设计、性能优化和用户体验。用于前端应用开发、… |
-| [canvas](canvas/) | GobbyAI | ★ 0 | 45% | L3 | Instructions for rendering rich A2UI canvas elements to the chat interface. Auto… |
-| [responsive-design-patterns](responsive-design-patterns/) | majiayu000 | ★ 0 | 45% | L3 | Mobile-first responsive design patterns with breakpoints, fluid layouts, and ada… |
-| [responsive-design-patterns](responsive-design-patterns/) | organvm-iv-taxis | ★ 0 | 45% | L3 | Mobile-first responsive design patterns with breakpoints, fluid layouts, and ada… |
-| [sell](sell/) | popmechanic | ★ 0 | 45% | L3 | Self-contained SaaS automation — invoke directly, do not decompose. Transforms a… |
-| [shadowrun-aesthetic](shadowrun-aesthetic/) | majiayu000 | ★ 0 | 45% | L3 | Applies Shadowrun cyberpunk aesthetic to UI components. Use when building charac… |
-| [relational-database-web-cloudbase](relational-database-web-cloudbase/) | sycsky | ★ 0 | 45% | L3 | Use when building frontend Web apps that talk to CloudBase Relational Database v… |
-| [creating-cursor-rules-skill](creating-cursor-rules-skill/) | majiayu000 | ★ 0 | 45% | L3 | Expert guidance for creating effective Cursor IDE rules with best practices, pat… |
-| [structure-map](structure-map/) | aykyusuf | ★ 0 | 45% | L3 | Scan project and generate STRUCTURE.md hub + detail files (screens, API routes, … |
-| [libraries-dependencies-mastery](libraries-dependencies-mastery/) | majiayu000 | ★ 0 | 45% | L3 | Complete mastery of essential modern web development libraries and dependencies.… |
-| [mobile-frontend](mobile-frontend/) | majiayu000 | ★ 0 | 45% | L3 | React Native patterns, NativeWind styling, React Native Reusables components, mo… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | feitangyuan | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [create-rule](create-rule/) | nielpattin | ★ 0 | 45% | L3 | Create rules files for file-scoped AI instructions. Interactive wizard for .clau… |
-| [project-setup](project-setup/) | aussiegingersnap | ★ 0 | 45% | L3 | Interactive project setup for new repos using this template. Detects placeholder… |
-| [word-processor](word-processor/) | cookiesen77-rgb | ★ 0 | 45% | L3 | Process Microsoft Word documents (.doc and .docx files) by reading content, crea… |
-| [jekyll-research-theme](jekyll-research-theme/) | majiayu000 | ★ 0 | 45% | L3 | Create production-grade, accessible Jekyll themes for researchers conducting "re… |
-| [frontend-design](frontend-design/) | erdemerciyas | ★ 0 | 45% | L3 | Create distinctive, production-grade frontend interfaces with high design qualit… |
-| [omeka-s](omeka-s/) | WaltRiceJr | ★ 0 | 45% | L3 | Expert Omeka S developer assistant for local development with SFTP deployment. C… |
-| [frontend-dev-guidelines](frontend-dev-guidelines/) | mattnigh | ★ 0 | 45% | L3 | Frontend development guidelines for ActionPhase React/TypeScript application. Mo… |
-| [frontend-developer](frontend-developer/) | mattnigh | ★ 0 | 45% | L3 | Senior Frontend Developer with 10+ years web and mobile experience. Use when imp… |
-| [frontend-development](frontend-development/) | mattnigh | ★ 0 | 45% | L3 | Modern frontend development with Next.js 14, React 18, TailwindCSS, and TanStack… |
-| [anthropic-frontend-design](anthropic-frontend-design/) | openclaw | ★ 0 | 45% | L3 | Create distinctive, production-grade frontend interfaces that avoid generic "AI … |
-| [ui-css-patterns](ui-css-patterns/) | aws-samples | ★ 0 | 45% | L2 | UI/CSS design patterns and component reference for the RAPID frontend, covering … |
-| [frontend-enhancer](frontend-enhancer/) | ailabs-393 | ★ 0 | 45% | L3 | This skill should be used when enhancing the visual design and aesthetics of Nex… |
-| [artifacts-builder](artifacts-builder/) | davepoon | ★ 0 | 45% | L3 | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts … |
-| [llm-arena-frontend](llm-arena-frontend/) | lucifertrj | ★ 0 | 45% | L3 | React 19 + Vite frontend for LLM Arena game visualization. Use when working on U… |
-| [frontend](frontend/) | Donnadieu | ★ 0 | 45% | L3 | This skill provides comprehensive guidance for React and TypeScript development … |
-| [senior-frontend](senior-frontend/) | majiayu000 | ★ 0 | 45% | L3 | Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS appl… |
-| [anthropic-frontend-design](anthropic-frontend-design/) | nordeim | ★ 0 | 45% | L3 | Create distinctive, production-grade frontend interfaces that avoid generic "AI … |
-| [frontend-enhancer](frontend-enhancer/) | majiayu000 | ★ 0 | 45% | L3 | This skill should be used when enhancing the visual design and aesthetics of Nex… |
-| [frontend-enhancer](frontend-enhancer/) | mamba-mental | ★ 0 | 45% | L3 | This skill should be used when enhancing the visual design and aesthetics of Nex… |
-| [frontend-enhancer](frontend-enhancer/) | auldsyababua | ★ 0 | 45% | L3 | This skill should be used when enhancing the visual design and aesthetics of Nex… |
-| [frontend-enhancer](frontend-enhancer/) | nguyendinhquocx | ★ 0 | 45% | L3 | This skill should be used when enhancing the visual design and aesthetics of Nex… |
-| [frontend-dev-guidelines](frontend-dev-guidelines/) | aiskillstore | ★ 0 | 45% | L3 | Frontend development guidelines for Next.js + React 19 + shadcn/ui applications.… |
-| [frontend-component](frontend-component/) | majiayu000 | ★ 0 | 45% | L3 | Generate React components for IntelliFill following patterns (forwardRef, CVA va… |
-| [frontend-development](frontend-development/) | citywalki | ★ 0 | 45% | L3 | Frontend development conventions - Use when creating or modifying AMS-AI React p… |
-| [tailwind-setup](tailwind-setup/) | majiayu000 | ★ 0 | 45% | L3 | Configure Tailwind CSS and shadcn/ui for React frontends with Django backends, i… |
-| [frontend-design](frontend-design/) | majiayu000 | ★ 0 | 45% | L2 | Create distinctive, production-grade frontend interfaces with high design qualit… |
-| [frontend-analyzer](frontend-analyzer/) | majiayu000 | ★ 0 | 45% | L3 | Analyze React/Next.js components to extract typography, colors, layout, fonts, s… |
-| [shadcn-ui](shadcn-ui/) | mcowger | ★ 0 | 45% | L3 | Expert guidance for integrating and building applications with shadcn/ui compone… |
-| [configure-chatkit](configure-chatkit/) | majiayu000 | ★ 0 | 45% | L3 | This skill should be used when setting up OpenAI ChatKit in Next.js, adding doma… |
-| [web-artifacts-builder](web-artifacts-builder/) | majiayu000 | ★ 0 | 45% | L3 | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | majiayu000 | ★ 0 | 45% | L3 | Frontend UI/UX design intelligence - activate FIRST when user requests beautiful… |
-| [modus-frontend](modus-frontend/) | julianoczkowski | ★ 0 | 45% | L2 | Build production-grade frontend interfaces using the Modus 2.0 Design System wit… |
-| [tailwind-ecommerce](tailwind-ecommerce/) | CodeStorm-Hub | ★ 0 | 45% | L2 | Use when building ecommerce interfaces, product pages, shopping carts, checkout … |
-| [frontend-design](frontend-design/) | PIKACHUIM | ★ 0 | 45% | L3 | Creates unique, production-grade frontend interfaces with exceptional design qua… |
-| [design-taste-frontend](design-taste-frontend/) | soysebiche | ★ 0 | 45% | L3 | Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biase… |
-| [responsive-design-patterns](responsive-design-patterns/) | organvm-iv-taxis | ★ 0 | 45% | L3 | Mobile-first responsive design patterns with breakpoints, fluid layouts, and ada… |
-| [standards-frontend](standards-frontend/) | majiayu000 | ★ 0 | 45% | L3 | Frontend component and UI development standards for modern React/Next.js applica… |
-| [react-admin](react-admin/) | NeverSight | ★ 0 | 45% | L3 | This skill should be used when building, modifying, or debugging a react-admin a… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | openclaw | ★ 0 | 45% | L3 | UI/UX design intelligence and implementation guidance for building polished inte… |
-| [frontend-enhancer](frontend-enhancer/) | agent-trust-protocol | ★ 0 | 45% | L3 | This skill should be used when enhancing the visual design and aesthetics of Nex… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | duclm1x1 | ★ 0 | 45% | L3 | UI/UX design intelligence and implementation guidance for building polished inte… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | z980944038-dev | ★ 0 | 45% | L3 | UI/UX design intelligence and implementation guidance for building polished inte… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | joyboy123456 | ★ 0 | 45% | L3 | UI/UX design intelligence and implementation guidance for building polished inte… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | YPYT1 | ★ 0 | 45% | L3 | UI/UX design intelligence and implementation guidance for building polished inte… |
-| [shadcn-ui](shadcn-ui/) | JStaRFilms | ★ 0 | 45% | L3 | Expert guidance for integrating and building applications with shadcn/ui compone… |
-| [svelte-frontend](svelte-frontend/) | windmill-labs | ★ 0 | 45% | L2 | Svelte coding guidelines for the Windmill frontend. MUST use when writing or mod… |
-| [web-frontend](web-frontend/) | majiayu000 | ★ 0 | 45% | L3 | Guidelines for building minimal, professional, and concise frontend components i… |
-| [standards-css](standards-css/) | majiayu000 | ★ 0 | 45% | L3 | Write consistent, maintainable CSS following the project's methodology (Tailwind… |
-| [frontend-coding](frontend-coding/) | majiayu000 | ★ 0 | 45% | L3 | 前端编码规范与最佳实践。Use when writing React components, pages, or need guidance on TypeSc… |
-| [software-frontend](software-frontend/) | majiayu000 | ★ 0 | 45% | L3 | Production-grade frontend development with Next.js 16 App Router, TypeScript 5.9… |
-| [CSS Standards](css-standards/) | majiayu000 | ★ 0 | 45% | L3 | Write consistent, maintainable CSS following the project's methodology (Tailwind… |
-| [tailwind-ui](tailwind-ui/) | majiayu000 | ★ 0 | 45% | L2 | Tailwind CSS v4.1 best practices with WCAG 2.1 AA accessibility, theming, and da… |
-| [skriptoteket-frontend-specialist](skriptoteket-frontend-specialist/) | majiayu000 | ★ 0 | 45% | L3 | Skriptoteket frontend development (FastAPI backend + full Vue/Vite SPA) using th… |
-| [software-frontend](software-frontend/) | majiayu000 | ★ 0 | 45% | L3 | Production-grade frontend engineering for Next.js/React, Vue/Nuxt, Angular, Svel… |
-| [frontend-agent](frontend-agent/) | majiayu000 | ★ 0 | 45% | L3 | Handles frontend/UX/route work for Unite-Hub. Fixes UI bugs, implements React co… |
-| [frontend-core](frontend-core/) | majiayu000 | ★ 0 | 45% | L3 | Build React components, pages, forms, and state management with TypeScript and T… |
-| [frontend-master](frontend-master/) | majiayu000 | ★ 0 | 45% | L3 | Master skill for frontend development with Next.js + React + Tailwind stack. Dec… |
-| [frontend-ui](frontend-ui/) | majiayu000 | ★ 0 | 45% | L2 | Create aesthetically pleasing, visually distinctive frontend UIs using research-… |
-| [frontend-design-pro](frontend-design-pro/) | majiayu000 | ★ 0 | 45% | L3 | Creates jaw-dropping, production-ready frontend interfaces AND delivers perfectl… |
-| [frontend-design-pro](frontend-design-pro/) | majiayu000 | ★ 0 | 45% | L3 | Creates jaw-dropping, production-ready frontend interfaces AND delivers perfectl… |
-| [frontend-vibes](frontend-vibes/) | majiayu000 | ★ 0 | 45% | L3 | Create distinctive frontend interfaces with faux-ASCII aesthetic, warm dark pale… |
-| [developing-lt-frontend](developing-lt-frontend/) | majiayu000 | ★ 0 | 45% | L3 | PRIMARY expert for ALL Nuxt and Vue frontend tasks. ALWAYS use this skill when w… |
-| [Nexus UI Developer](nexus-ui-developer/) | majiayu000 | ★ 0 | 45% | L3 | Especialista en React 18, TypeScript, Tailwind CSS y conexión con API multi-tena… |
-| [software-frontend](software-frontend/) | majiayu000 | ★ 0 | 45% | L3 | Production-grade frontend development with Next.js 16 App Router, TypeScript 5.9… |
-| [structure](structure/) | Objective-Arts | ★ 0 | 45% | L3 | Design data structures before implementation. Maps existing code or creates new … |
-| [nextjs-app-scaffold](nextjs-app-scaffold/) | majiayu000 | ★ 0 | 45% | L3 | Use this skill whenever the user wants to create or restructure a Next.js app wi… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | NeverSight | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | NeverSight | ★ 0 | 45% | L3 | Use when designing, building, or refining frontend UI/UX: layouts, components, v… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | AndyMarigoldLabs | ★ 0 | 45% | L3 | UI/UX design intelligence. 67 styles, 96 palettes, 56 font pairings, 25 charts, … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | ccmilu | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | huynhyohan-ops | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | NeverSight | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | NeverSight | ★ 0 | 45% | L3 | UI/UX 设计情报库：50 种风格、21 套配色、50 组字体搭配、20 类图表、8 个技术栈（React、Next.js、Vue、Svelte、SwiftU… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | kmfd14 | ★ 0 | 45% | L3 | UI/UX design intelligence. 67 styles, 96 palettes, 57 font pairings, 25 charts, … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | Baugest615 | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | majiayu000 | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | majiayu000 | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [vercel-deploy](vercel-deploy/) | majiayu000 | ★ 0 | 45% | L3 | Deploy applications and websites to Vercel. Use this skill when the user request… |
-| [project-architect](project-architect/) | majiayu000 | ★ 0 | 45% | L3 | **PROJECT ARCHITECT** - '새 프로젝트', '프로젝트 시작', '폴더 구조', '아키텍처 설계', '구조 잡아줘', '프로젝트… |
-| [bknd-client-setup](bknd-client-setup/) | majiayu000 | ★ 0 | 45% | L3 | Use when setting up Bknd SDK in a frontend application. Covers Api class initial… |
-| [vercel-deploy-claimable](vercel-deploy-claimable/) | nextgen-hms | ★ 0 | 45% | L3 | Deploy applications and websites to Vercel. Use this skill when the user request… |
-| [sentry-setup-tracing](sentry-setup-tracing/) | majiayu000 | ★ 0 | 45% | L3 | Setup Sentry Tracing (Performance Monitoring) in any project. Use this when aske… |
-| [vercel-deploy-claimable](vercel-deploy-claimable/) | sickn33 | ★ 0 | 45% | L3 | Deploy applications and websites to Vercel. Use this skill when the user request… |
-| [software-localisation](software-localisation/) | majiayu000 | ★ 0 | 45% | L3 | Production-grade i18n/l10n patterns for React, Vue, Angular, and Node.js. Covers… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | NeverSight | ★ 0 | 45% | L3 | UI/UX design intelligence. 57 styles, 96 palettes, 50 font pairings, 25 charts, … |
-| [frontend-design-ultimate](frontend-design-ultimate/) | NeverSight | ★ 0 | 45% | L3 | Create distinctive, production-grade static sites with React, Tailwind CSS, and … |
-| [frontend-design-ultimate](frontend-design-ultimate/) | Nutopia13 | ★ 0 | 45% | L3 | Create distinctive, production-grade static sites with React, Tailwind CSS, and … |
-| [shadcn-ui](shadcn-ui/) | google-labs-code | ★ 0 | 45% | L3 | Expert guidance for integrating and building applications with shadcn/ui compone… |
-| [shadcn-ui](shadcn-ui/) | NeverSight | ★ 0 | 45% | L3 | Expert guidance for integrating and building applications with shadcn/ui compone… |
-| [shadcn-ui](shadcn-ui/) | VoTrongHoang-Dyor | ★ 0 | 45% | L3 | Expert guidance for integrating and building applications with shadcn/ui compone… |
-| [frontend-design](frontend-design/) | maplin-co | ★ 0 | 45% | L3 | Create distinctive, production-grade frontend interfaces. Use when building web … |
-| [frontend-engineer](frontend-engineer/) | majiayu000 | ★ 0 | 45% | L3 | Expert in Template Project frontend architecture, React patterns, TypeScript, Ta… |
-| [writing-claude-md-files](writing-claude-md-files/) | majiayu000 | ★ 0 | 45% | L3 | Use when creating or updating CLAUDE.md files for projects or subdirectories - c… |
-| [bio-spatial-transcriptomics-spatial-domains](bio-spatial-transcriptomics-spatial-domains/) | majiayu000 | ★ 0 | 45% | L3 | Identify spatial domains and tissue regions in spatial transcriptomics data usin… |
-| [senior-frontend](senior-frontend/) | davila7 | ★ 0 | 45% | L3 | Comprehensive frontend development skill for building modern, performant web app… |
-| [nextjs-tanstack-form](nextjs-tanstack-form/) | majiayu000 | ★ 0 | 45% | L3 | TanStack Form v1 for Next.js 16 with Server Actions, Zod validation, and shadcn/… |
-| [feature-slicing](feature-slicing/) | majiayu000 | ★ 0 | 45% | L3 | Apply Feature-Sliced Design (FSD) architecture to frontend projects. Use when cr… |
-| [mocking-assistant](mocking-assistant/) | majiayu000 | ★ 0 | 45% | L3 | Creates stable mocks for APIs, services, and UI components using MSW (Mock Servi… |
-| [frontend-svelte](frontend-svelte/) | majiayu000 | ★ 0 | 45% | L3 | Technical knowledge for SvelteKit 5 development. Build reactive applications wit… |
-| [react-frontend](react-frontend/) | majiayu000 | ★ 0 | 45% | L3 | React components for Chat, Evaluation, Report, Admin with TypeScript, Tailwind, … |
-| [urdu-language-support](urdu-language-support/) | majiayu000 | ★ 0 | 45% | L3 | Implement Urdu language support with RTL layout, translations, and AI responses … |
-| [brutalist-academic-ui](brutalist-academic-ui/) | majiayu000 | ★ 0 | 45% | L2 | Skriptoteket-specific brutalist/academic UI design. Use for Vue/Vite SPA and SSR… |
-| [building-streamlit-custom-components-v2](building-streamlit-custom-components-v2/) | fangshine01 | ★ 0 | 45% | L3 | Builds bidirectional Streamlit Custom Components v2 (CCv2) using `st.components.… |
-| [browser-debugging](browser-debugging/) | erikpr1994 | ★ 0 | 45% | L3 | Use when debugging frontend issues in the browser. Covers DevTools usage, networ… |
-| [gemini-frontend-design](gemini-frontend-design/) | rdfitted | ★ 0 | 45% | L3 | Create distinctive, production-grade frontend interfaces using Gemini 3 Pro for … |
-| [tauri2-react-rust](tauri2-react-rust/) | jameingh | ★ 0 | 45% | L3 | Guides development of cross-platform desktop apps with Tauri 2, TypeScript, Reac… |
-| [livekit-nextjs-frontend](livekit-nextjs-frontend/) | majiayu000 | ★ 0 | 45% | L3 | Build and review production-grade web and mobile frontends using LiveKit with Ne… |
-| [sixty-design-system](sixty-design-system/) | SixtySecondsApp | ★ 0 | 45% | L3 | Sixty's production design system for enterprise SaaS applications. Use when buil… |
-| [developing-nextjs](developing-nextjs/) | majiayu000 | ★ 0 | 45% | L3 | Use this skill when developing Next.js 16 applications - creating pages, compone… |
-| [rule-making-skill](rule-making-skill/) | majiayu000 | ★ 0 | 45% | L3 | Analyze a specific directory (e.g. frontend/, backend/, e2e/) and generate .clau… |
-| [designer-skills](designer-skills/) | majiayu000 | ★ 0 | 45% | L3 | Designer subsystem patterns for LlamaFarm. Covers React 18, TanStack Query, Tail… |
-| [frontend-architect](frontend-architect/) | majiayu000 | ★ 0 | 45% | L3 | Build production-grade UI/UX with React (Next.js, Docusaurus), CSS architecture … |
-| [rcr-frontend](rcr-frontend/) | Aias | ★ 0 | 45% | L2 | Component development rules specific to Red Cliff Record. Use when working with … |
-| [frontend-web-dev-expert](frontend-web-dev-expert/) | majiayu000 | ★ 0 | 45% | L3 | Advanced frontend web development expert system that provides comprehensive mode… |
-| [feature-slicing](feature-slicing/) | ccheney | ★ 0 | 45% | L3 | Proactively apply when creating new features/components/pages or setting up fron… |
-| [nextjs-shadcn-builder](nextjs-shadcn-builder/) | SKANL | ★ 0 | 45% | L3 | Build new Next.js applications or migrate existing frontends (React, Vue, Angula… |
-| [vite-configuration](vite-configuration/) | majiayu000 | ★ 0 | 45% | L3 | Vite 6.x configuration for React SPAs. Use when setting up or configuring Vite p… |
-| [Frontend Verification & Testing](frontend-verification-testing/) | majiayu000 | ★ 0 | 45% | L3 | Verify and test Angular 18 frontend changes using Chrome DevTools MCP. Automatic… |
-| [test-cotton-components](test-cotton-components/) | SamuelJennings | ★ 0 | 45% | L3 | Guide AI agents on testing Django Cotton components using django-cotton-bs5 pyte… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | lips85 | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [frontend-developer-skill](frontend-developer-skill/) | xiangteng007 | ★ 0 | 45% | L3 | Comprehensive frontend development specialist for building modern web applicatio… |
-| [openai-apps-sdk-builder](openai-apps-sdk-builder/) | majiayu000 | ★ 0 | 45% | L3 | Build OpenAI Apps SDK applications - interactive ChatGPT apps with MCP servers, … |
-| [html-tools](html-tools/) | majiayu000 | ★ 0 | 45% | L3 | This skill should be used when building single-file browser applications, client… |
-| [ai-search-technical-auditor](ai-search-technical-auditor/) | Superlines | ★ 0 | 45% | L2 | Audit front-end code for AI search readiness. Use when reviewing HTML structure,… |
-| [fullstack-template-generator](fullstack-template-generator/) | majiayu000 | ★ 0 | 45% | L3 | Generates a complete fullstack application template with Python FastAPI backend … |
-| [thesys-c1-genui](thesys-c1-genui/) | thesysdev | ★ 0 | 45% | L3 | Provides comprehensive guidance for building AI-powered Generative UI applicatio… |
-| [bac-presentation-generator](bac-presentation-generator/) | majiayu000 | ★ 0 | 45% | L3 | Transforms markdown files into brand-compliant BAC HTML presentations with profe… |
-| [bac-presentation-generator](bac-presentation-generator/) | wizardofwozzz | ★ 0 | 45% | L3 | Transforms markdown files into brand-compliant BAC HTML presentations with profe… |
-| [brand-identity](brand-identity/) | majiayu000 | ★ 0 | 45% | L3 | Provides the single source of truth for brand guidelines, design tokens, technol… |
-| [browser-test](browser-test/) | majiayu000 | ★ 0 | 45% | L3 | Execute browser-based UI testing using Chrome MCP tools. Tests user interactions… |
-| [tailwind-css-nextjs-guide-cursorrules-prompt-file-cursorrules](tailwind-css-nextjs-guide-cursorrules-prompt-file-cursorrules/) | Tryboy869 | ★ 0 | 45% | L3 | Apply for tailwind-css-nextjs-guide-cursorrules-prompt-file. Prompt Generation R… |
-| [senior-frontend](senior-frontend/) | arielperez82 | ★ 0 | 45% | L3 | Comprehensive frontend development skill for building modern, performant web app… |
-| [nuxt-ui](nuxt-ui/) | hk-vk | ★ 0 | 45% | L3 | A comprehensive Vue UI component library (Nuxt optional) with 125+ accessible, p… |
-| [react-fluent-ui-patterns](react-fluent-ui-patterns/) | MaxBush6299 | ★ 0 | 45% | L3 | Skill for React TypeScript frontend development with Fluent UI Copilot component… |
-| [marimo](marimo/) | maragudk | ★ 0 | 45% | L3 | Guide for creating and working with marimo notebooks, the reactive Python notebo… |
-| [blong-layer](blong-layer/) | feasibleone | ★ 0 | 45% | L3 | Organize handlers into named functional groups within a Blong realm. Layers incl… |
-| [lovable-animation-choreographer](lovable-animation-choreographer/) | SAGARRAMBADE21 | ★ 0 | 45% | L3 | Add sophisticated, choreographed animations and micro-interactions to Lovable UI… |
-| [frontend-design](frontend-design/) | panaversity | ★ 0 | 45% | L2 | Create distinctive, production-grade frontend interfaces with high design qualit… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | Demerzels-lab | ★ 0 | 45% | L3 | UI/UX design intelligence and implementation guidance for building polished inte… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | kbarbel640-del | ★ 0 | 45% | L3 | UI/UX design intelligence and implementation guidance for building polished inte… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | decimasudo | ★ 0 | 45% | L3 | UI/UX design intelligence and implementation guidance for building polished inte… |
-| [frontend-design](frontend-design/) | zulfikar-ditya | ★ 0 | 45% | L2 | Create distinctive, production-grade frontend interfaces with intentional aesthe… |
-| [master-front-skill](master-front-skill/) | Witroch4 | ★ 0 | 45% | L3 | Master frontend skill: Tailwind v4, shadcn/ui, design system, performance React … |
-| [shadcn-ui](shadcn-ui/) | marduk191 | ★ 0 | 45% | L3 | Expert guidance for integrating and building applications with shadcn/ui compone… |
-| [shadcn-ui](shadcn-ui/) | Parthivjoshi29 | ★ 0 | 45% | L3 | Expert guidance for integrating and building applications with shadcn/ui compone… |
-| [shadcn-ui](shadcn-ui/) | Peach-Phoenix-LLC | ★ 0 | 45% | L3 | Expert guidance for integrating and building applications with shadcn/ui compone… |
-| [shadcn-ui](shadcn-ui/) | Saurav-Kalaskar | ★ 0 | 45% | L3 | Expert guidance for integrating and building applications with shadcn/ui compone… |
-| [accessibility-standards](accessibility-standards/) | etylsarin | ★ 0 | 45% | L2 | WCAG 2.2 Level AA accessibility patterns for React/HTML/CSS. Use when creating o… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | sundial-org | ★ 0 | 45% | L3 | UI/UX design intelligence and implementation guidance for building polished inte… |
-| [staging-ui-first](staging-ui-first/) | majiayu000 | ★ 0 | 45% | L3 | UI-first implementation and staging workflow for Zeus. Use when building routes,… |
-| [angular-app-setup](angular-app-setup/) | majiayu000 | ★ 0 | 45% | L3 | Creates an Angular 20 app directly in the current folder with strict defaults, d… |
-| [twd-setup](twd-setup/) | majiayu000 | ★ 0 | 45% | L3 | TWD project setup guide — helps AI agents install and configure TWD (Test While … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | mattnigh | ★ 0 | 45% | L3 | Frontend UI/UX design intelligence - activate FIRST when user requests beautiful… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | loonghao | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [ui-ux-pro-max](ui-ux-pro-max/) | hookvibe | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [auth0-nextjs](auth0-nextjs/) | alextgu | ★ 0 | 45% | L3 | Use when adding authentication to Next.js applications with both server and clie… |
-| [frontend-developer-skill](frontend-developer-skill/) | 404kidwiz | ★ 0 | 45% | L3 | Comprehensive frontend development specialist for building modern web applicatio… |
-| [nextjs-shadcn-builder](nextjs-shadcn-builder/) | SKANL | ★ 0 | 45% | L3 | Build new Next.js applications or migrate existing frontends (React, Vue, Angula… |
-| [frontend-design-ultimate](frontend-design-ultimate/) | aztr0nutzs | ★ 0 | 45% | L3 | Create distinctive, production-grade static sites with React, Tailwind CSS, and … |
-| [frontend-design-ultimate](frontend-design-ultimate/) | YPYT1 | ★ 0 | 45% | L3 | Create distinctive, production-grade static sites with React, Tailwind CSS, and … |
-| [frontend-design-ultimate](frontend-design-ultimate/) | kesslerio | ★ 0 | 45% | L3 | Create distinctive, production-grade static sites with React, Tailwind CSS, and … |
-| [senior-developer](senior-developer/) | majiayu000 | ★ 0 | 45% | L3 | Embodies a senior frontend developer with 15+ years of experience building web a… |
-| [ck:ui-ux-pro-max](ck-ui-ux-pro-max/) | weihung0831 | ★ 0 | 45% | L3 | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, … |
-| [web-frontend](web-frontend/) | majiayu000 | ★ 0 | 45% | L3 | Next.js App Router, Server/Client components, shadcn/ui patterns, Tailwind CSS c… |
-| [shadcn-ui](shadcn-ui/) | mjmmattoni98 | ★ 0 | 45% | L3 | Expert guidance for integrating and building applications with shadcn/ui compone… |
-| [shadcn-ui](shadcn-ui/) | gcristianivan | ★ 0 | 45% | L3 | Expert guidance for integrating and building applications with shadcn/ui compone… |
-| [vercel-deploy-claimable](vercel-deploy-claimable/) | MatLumber | ★ 0 | 45% | L3 | Deploy applications and websites to Vercel. Use this skill when the user request… |
-| [ui-ux-pro-max](ui-ux-pro-max/) | viralcode | ★ 0 | 45% | L3 | UI/UX design intelligence and implementation guidance for building polished inte… |
-| [create-sunpeak-app](create-sunpeak-app/) | Sunpeak-AI | ★ 0 | 45% | L3 | Use when working with sunpeak, or when the user asks to "build an MCP App", "bui… |
-| [frontend-nuxt](frontend-nuxt/) | ydnikolaev | ★ 0 | 44% | L3 | Nuxt 4 & TailwindCSS expert for modern web applications (SSR, SPA, Hybrid). |
-| [passwordless-docs](passwordless-docs/) | majiayu000 | ★ 0 | 44% | L3 | Bitwarden Passwordless.dev documentation, SDKs, and React examples |
-| [marp-pitch-creator](marp-pitch-creator/) | NextMed-main | ★ 0 | 44% | L2 | Create high-quality pitch decks using Marp and Tailwind CSS |
-| [html-tailwind-css-and-javascript-expert-rule](html-tailwind-css-and-javascript-expert-rule/) | oimiragieo | ★ 0 | 43% | L3 | Sets the AI to act as an expert in HTML, Tailwind CSS, and vanilla JavaScript, f… |
-| [browser-api-usage-rules](browser-api-usage-rules/) | oimiragieo | ★ 0 | 43% | L3 | Rules for effectively utilizing Chrome's browser APIs, including error handling … |
-| [private-vs-shared-components](private-vs-shared-components/) | majiayu000 | ★ 0 | 43% | L3 | Rules for determining if a component should be private or shared, and where to p… |
-| [tauri-svelte-typescript-general](tauri-svelte-typescript-general/) | majiayu000 | ★ 0 | 43% | L3 | General rules for developing desktop applications using Tauri with Svelte and Ty… |
-| [senior-frontend-developer-mindset](senior-frontend-developer-mindset/) | majiayu000 | ★ 0 | 43% | L3 | Sets the mindset for a senior frontend developer concerning code quality, mainta… |
-| [umbraco-development](umbraco-development/) | twofoldtech-dakota | ★ 0 | 43% | L3 | Apply when working with Umbraco CMS, Composers, services, or content APIs |
-| [class-based-state-management](class-based-state-management/) | majiayu000 | ★ 0 | 43% | L3 | Enforces the use of classes for complex state management (state machines) in Sve… |
-| [Admin and Seed Data](admin-and-seed-data/) | raffaeler | ★ 0 | 43% | L2 | Manage database seeding, reset operations, and the admin interface. |
-| [analyze-bundle](analyze-bundle/) | s-hirano-ist | ★ 0 | 43% | L3 | Next.jsアプリのクライアントバンドルを分析し、最適化可能な箇所を特定してissue化する。 |
-| [Frontend Development](frontend-development/) | majiayu000 | ★ 0 | 41% | L3 | พัฒนา Frontend ด้วย Angular, React, Vue, Next.js อย่างมืออาชีพ |
-| [frontend-design](frontend-design/) | splits-network | ★ 0 | 41% | L3 | UI/UX design patterns using DaisyUI v5 and TailwindCSS for Splits Network |
-| [L3 Control Center](l3-control-center/) | JamornzMedia | ★ 0 | 41% | L3 | OBS Lower Third Controller with Excel data import and dynamic card management |
-| [project-guidelines-example](project-guidelines-example/) | Mark393295827 | ★ 0 | 41% | L3 | Example project-specific skill template based on a real production application. |
-| [config-generate](config-generate/) | majiayu000 | ★ 0 | 41% | L3 | Generate configuration files for development tools |
-| [nextdns-frontend](nextdns-frontend/) | tuanductran | ★ 0 | 41% | L3 | <!-- @case-police-ignore Api --> |
-| [lightfriend-add-frontend-page](lightfriend-add-frontend-page/) | majiayu000 | ★ 0 | 41% | L3 | Step-by-step guide for adding new pages to the Yew frontend |
-| [web-artifacts-builder](web-artifacts-builder/) | majiayu000 | ★ 0 | 41% | L3 | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts … |
-| [ring:dev-refactor-frontend](ring-dev-refactor-frontend/) | LerianStudio | ★ 0 | 41% | L3 | Visual HTML change report from ring:visual-explainer |
-| [frontend-react-testing-strategy](frontend-react-testing-strategy/) | valec3 | ★ 0 | 41% | L3 | Standardized guidelines and patterns for Frontend React Testing Strategy. |
-| [factory-spec](factory-spec/) | SylvainChabaud | ★ 0 | 41% | L3 | Phase MODEL - Génère specs + ADR + rules |
-| [ui-components](ui-components/) | seanchiuai | ★ 0 | 41% | L3 | React component architecture, dark theme design system, and animation patterns |
-| [react](react/) | kprsnt2 | ★ 0 | 40% | L2 | React development patterns and best practices including hooks, state management,… |
-| [admin-interface-rules](admin-interface-rules/) | majiayu000 | ★ 0 | 39% | L3 | Rules for the Admin interface functionalities |
-| [html-specific-rules](html-specific-rules/) | majiayu000 | ★ 0 | 39% | L3 | Rules specific to HTML files, focusing on accessibility and Tailwind styling. |
-| [vue-skill](vue-skill/) | majiayu000 | ★ 0 | 38% | L3 | Vue/TypeScriptの実装に関するAgent |
-| [frontend-responsive](frontend-responsive/) | aiskillstore | ★ 0 | 38% | L2 | Build mobile-first responsive layouts with fluid containers, relative units, sta… |
-| [refactorer-view](refactorer-view/) | majiayu000 | ★ 0 | 38% | L3 | A front end staff engineer and UX designer, who refactors and simplifies the use… |
-| [Frontend CSS](frontend-css/) | majiayu000 | ★ 0 | 38% | L2 | Write consistent, maintainable CSS following the project's methodology (Tailwind… |
-| [Frontend CSS](frontend-css/) | majiayu000 | ★ 0 | 38% | L3 | Write and maintain CSS using consistent methodology, design systems, framework u… |
-| [Frontend CSS](frontend-css/) | majiayu000 | ★ 0 | 38% | L3 | Write consistent, maintainable CSS using the project's methodology (Tailwind, BE… |
-| [tailwind-css](tailwind-css/) | majiayu000 | ★ 0 | 38% | L2 | Tailwind CSS changed how we write styles. Instead of naming things and writing C… |
-| [frontend-design](frontend-design/) | majiayu000 | ★ 0 | 38% | L2 | Create distinctive, production-grade frontend interfaces with high design qualit… |
-| [frontend-layout](frontend-layout/) | Abeersk | ★ 0 | 38% | L2 | Build responsive pages, components, and layouts with proper styling. Use for web… |
-| [nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file-cursorrules](nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file-cursorrules/) | Tryboy869 | ★ 0 | 38% | L3 | Apply for nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file. --- descri… |
-| [angular-typescript-cursorrules-prompt-file-cursorrules](angular-typescript-cursorrules-prompt-file-cursorrules/) | Tryboy869 | ★ 0 | 38% | L3 | Apply for angular-typescript-cursorrules-prompt-file. --- description: General r… |
-| [vue-3-nuxt-3-development-cursorrules-prompt-file-cursorrules](vue-3-nuxt-3-development-cursorrules-prompt-file-cursorrules/) | Tryboy869 | ★ 0 | 38% | L3 | Apply for vue-3-nuxt-3-development-cursorrules-prompt-file. --- description: App… |
-| [frontend](frontend/) | majiayu000 | ★ 0 | 38% | L2 | UI design guidelines for Kubani web interfaces. Use when building or reviewing w… |
-| [长列表虚拟滚动优化方案](unnamed/) | majiayu000 | ★ 0 | 34% | L2 | 处理超过 1000 条数据的大型列表渲染时的性能优化方案，包含定高和不定高两种策略。 |
-| [长列表虚拟滚动优化方案](unnamed/) | majiayu000 | ★ 0 | 34% | L2 | 处理超过 1000 条数据的大型列表渲染时的性能优化方案，包含定高和不定高两种策略。 |
-| [Skill Synchronizer](skill-synchronizer/) | majiayu000 | ★ 0 | 34% | L2 | Lee los metadatos de todas las skills y actualiza el índice en AGENTS.md. |
-| [长列表虚拟滚动优化方案](unnamed/) | majiayu000 | ★ 0 | 34% | L2 | 处理超过 1000 条数据的大型列表渲染时的性能优化方案，包含定高和不定高两种策略。 |
-| [nextjs](nextjs/) | kprsnt2 | ★ 0 | 34% | L2 | Next.js framework best practices including App Router, data fetching, and perfor… |
-| [frontend_mastery](frontend_mastery/) | majiayu000 | ★ 0 | 34% | L3 | Advanced React patterns, performance optimization, and state management rules. |
-| [flowbite-html-ui-components](flowbite-html-ui-components/) | DrZoot | ★ 0 | 32% | L3 | Provides reference documentation and examples for all of the available Flowbite … |
-| [treido-frontend](treido-frontend/) | majiayu000 | ★ 0 | 32% | L3 | Frontend orchestrator for Treido. Use to route UI work to the right specialist (… |
-| [synthetic-event-system-internals](synthetic-event-system-internals/) | majiayu000 | ★ 0 | 32% | L2 | Leverage React's event delegation system for optimization and custom event behav… |
-| [flowbite-html-ui-components](flowbite-html-ui-components/) | majiayu000 | ★ 0 | 32% | L2 | Provides reference documentation and examples for all of the available Flowbite … |
-| [frontend-component](frontend-component/) | majiayu000 | ★ 0 | 28% | L3 | Create React components following project standards. |
-| [angular-best-practices-transloco](angular-best-practices-transloco/) | NeverSight | ★ 0 | 27% | L3 | Transloco i18n best practices for Angular. Install alongside angular-best-practi… |
-| [angular-best-practices-spartan](angular-best-practices-spartan/) | NeverSight | ★ 0 | 27% | L3 | Spartan UI (shadcn for Angular) best practices. Install alongside angular-best-p… |
-| [softskill](softskill/) | majiayu000 | ★ 0 | 26% | L2 | <div > <ul class="posts"> {% for post in site.posts %} {% if post.categories con… |
-| [angular-v17](angular-v17/) | GoldenPanda1104 | ★ 0 | 24% | L2 | Angular 17. Proyecto usa este skill; contenido canónico en .ai-system. |
 
 ---
 

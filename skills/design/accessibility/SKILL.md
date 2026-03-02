@@ -1,522 +1,156 @@
 ---
 name: accessibility
-description: Audit and improve web accessibility following WCAG 2.1 guidelines. Use when asked to "improve accessibility", "a11y audit", "WCAG compliance", "screen reader support", "keyboard navigation", or "make accessible".
+description:
+  Quality assurance for web accessibility and usability, particularly for users
+  with disabilities. Use when involved in any web project.
 license: MIT
 metadata:
-  author: web-quality-skills
-  version: "1.0"
+  author: conesible.de
+  version: '0.3'
 ---
 
-# Accessibility (a11y)
-
-Comprehensive accessibility guidelines based on WCAG 2.1 and Lighthouse accessibility audits. Goal: make content usable by everyone, including people with disabilities.
-
-## WCAG Principles: POUR
-
-| Principle | Description |
-|-----------|-------------|
-| **P**erceivable | Content can be perceived through different senses |
-| **O**perable | Interface can be operated by all users |
-| **U**nderstandable | Content and interface are understandable |
-| **R**obust | Content works with assistive technologies |
-
-## Conformance levels
-
-| Level | Requirement | Target |
-|-------|-------------|--------|
-| **A** | Minimum accessibility | Must pass |
-| **AA** | Standard compliance | Should pass (legal requirement in many jurisdictions) |
-| **AAA** | Enhanced accessibility | Nice to have |
-
----
-
-## Perceivable
-
-### Text alternatives (1.1)
-
-**Images require alt text:**
-```html
-<!-- ❌ Missing alt -->
-<img src="chart.png">
-
-<!-- ✅ Descriptive alt -->
-<img src="chart.png" alt="Bar chart showing 40% increase in Q3 sales">
-
-<!-- ✅ Decorative image (empty alt) -->
-<img src="decorative-border.png" alt="" role="presentation">
-
-<!-- ✅ Complex image with longer description -->
-<figure>
-  <img src="infographic.png" alt="2024 market trends infographic" 
-       aria-describedby="infographic-desc">
-  <figcaption id="infographic-desc">
-    <!-- Detailed description -->
-  </figcaption>
-</figure>
-```
-
-**Icon buttons need accessible names:**
-```html
-<!-- ❌ No accessible name -->
-<button><svg><!-- menu icon --></svg></button>
-
-<!-- ✅ Using aria-label -->
-<button aria-label="Open menu">
-  <svg aria-hidden="true"><!-- menu icon --></svg>
-</button>
-
-<!-- ✅ Using visually hidden text -->
-<button>
-  <svg aria-hidden="true"><!-- menu icon --></svg>
-  <span class="visually-hidden">Open menu</span>
-</button>
-```
-
-**Visually hidden class:**
-```css
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-```
-
-### Color contrast (1.4.3, 1.4.6)
-
-| Text Size | AA minimum | AAA enhanced |
-|-----------|------------|--------------|
-| Normal text (< 18px / < 14px bold) | 4.5:1 | 7:1 |
-| Large text (≥ 18px / ≥ 14px bold) | 3:1 | 4.5:1 |
-| UI components & graphics | 3:1 | 3:1 |
-
-```css
-/* ❌ Low contrast (2.5:1) */
-.low-contrast {
-  color: #999;
-  background: #fff;
-}
-
-/* ✅ Sufficient contrast (7:1) */
-.high-contrast {
-  color: #333;
-  background: #fff;
-}
-
-/* ✅ Focus states need contrast too */
-:focus-visible {
-  outline: 2px solid #005fcc;
-  outline-offset: 2px;
-}
-```
-
-**Don't rely on color alone:**
-```html
-<!-- ❌ Only color indicates error -->
-<input class="error-border">
-<style>.error-border { border-color: red; }</style>
-
-<!-- ✅ Color + icon + text -->
-<div class="field-error">
-  <input aria-invalid="true" aria-describedby="email-error">
-  <span id="email-error" class="error-message">
-    <svg aria-hidden="true"><!-- error icon --></svg>
-    Please enter a valid email address
-  </span>
-</div>
-```
-
-### Media alternatives (1.2)
-
-```html
-<!-- Video with captions -->
-<video controls>
-  <source src="video.mp4" type="video/mp4">
-  <track kind="captions" src="captions.vtt" srclang="en" label="English" default>
-  <track kind="descriptions" src="descriptions.vtt" srclang="en" label="Descriptions">
-</video>
-
-<!-- Audio with transcript -->
-<audio controls>
-  <source src="podcast.mp3" type="audio/mp3">
-</audio>
-<details>
-  <summary>Transcript</summary>
-  <p>Full transcript text...</p>
-</details>
-```
-
----
-
-## Operable
-
-### Keyboard accessible (2.1)
-
-**All functionality must be keyboard accessible:**
-```javascript
-// ❌ Only handles click
-element.addEventListener('click', handleAction);
-
-// ✅ Handles both click and keyboard
-element.addEventListener('click', handleAction);
-element.addEventListener('keydown', (e) => {
-  if (e.key === 'Enter' || e.key === ' ') {
-    e.preventDefault();
-    handleAction();
-  }
-});
-```
-
-**No keyboard traps:**
-```javascript
-// Modal focus management
-function openModal(modal) {
-  const focusableElements = modal.querySelectorAll(
-    'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
-  );
-  const firstElement = focusableElements[0];
-  const lastElement = focusableElements[focusableElements.length - 1];
-  
-  // Trap focus within modal
-  modal.addEventListener('keydown', (e) => {
-    if (e.key === 'Tab') {
-      if (e.shiftKey && document.activeElement === firstElement) {
-        e.preventDefault();
-        lastElement.focus();
-      } else if (!e.shiftKey && document.activeElement === lastElement) {
-        e.preventDefault();
-        firstElement.focus();
-      }
-    }
-    if (e.key === 'Escape') {
-      closeModal();
-    }
-  });
-  
-  firstElement.focus();
-}
-```
-
-### Focus visible (2.4.7)
-
-```css
-/* ❌ Never remove focus outlines */
-*:focus { outline: none; }
-
-/* ✅ Use :focus-visible for keyboard-only focus */
-:focus {
-  outline: none;
-}
-
-:focus-visible {
-  outline: 2px solid #005fcc;
-  outline-offset: 2px;
-}
-
-/* ✅ Or custom focus styles */
-button:focus-visible {
-  box-shadow: 0 0 0 3px rgba(0, 95, 204, 0.5);
-}
-```
-
-### Skip links (2.4.1)
-
-```html
-<body>
-  <a href="#main-content" class="skip-link">Skip to main content</a>
-  <header><!-- navigation --></header>
-  <main id="main-content" tabindex="-1">
-    <!-- main content -->
-  </main>
-</body>
-```
-
-```css
-.skip-link {
-  position: absolute;
-  top: -40px;
-  left: 0;
-  background: #000;
-  color: #fff;
-  padding: 8px 16px;
-  z-index: 100;
-}
-
-.skip-link:focus {
-  top: 0;
-}
-```
-
-### Timing (2.2)
-
-```javascript
-// Allow users to extend time limits
-function showSessionWarning() {
-  const modal = createModal({
-    title: 'Session Expiring',
-    content: 'Your session will expire in 2 minutes.',
-    actions: [
-      { label: 'Extend session', action: extendSession },
-      { label: 'Log out', action: logout }
-    ],
-    timeout: 120000 // 2 minutes to respond
-  });
-}
-```
-
-### Motion (2.3)
-
-```css
-/* Respect reduced motion preference */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-```
-
----
-
-## Understandable
-
-### Page language (3.1.1)
-
-```html
-<!-- ❌ No language specified -->
-<html>
-
-<!-- ✅ Language specified -->
-<html lang="en">
-
-<!-- ✅ Language changes within page -->
-<p>The French word for hello is <span lang="fr">bonjour</span>.</p>
-```
-
-### Consistent navigation (3.2.3)
-
-```html
-<!-- Navigation should be consistent across pages -->
-<nav aria-label="Main">
-  <ul>
-    <li><a href="/" aria-current="page">Home</a></li>
-    <li><a href="/products">Products</a></li>
-    <li><a href="/about">About</a></li>
-  </ul>
-</nav>
-```
-
-### Form labels (3.3.2)
-
-```html
-<!-- ❌ No label association -->
-<input type="email" placeholder="Email">
-
-<!-- ✅ Explicit label -->
-<label for="email">Email address</label>
-<input type="email" id="email" name="email" 
-       autocomplete="email" required>
-
-<!-- ✅ Implicit label -->
-<label>
-  Email address
-  <input type="email" name="email" autocomplete="email" required>
-</label>
-
-<!-- ✅ With instructions -->
-<label for="password">Password</label>
-<input type="password" id="password" 
-       aria-describedby="password-requirements">
-<p id="password-requirements">
-  Must be at least 8 characters with one number.
-</p>
-```
-
-### Error handling (3.3.1, 3.3.3)
-
-```html
-<!-- Announce errors to screen readers -->
-<form novalidate>
-  <div class="field" aria-live="polite">
-    <label for="email">Email</label>
-    <input type="email" id="email" 
-           aria-invalid="true"
-           aria-describedby="email-error">
-    <p id="email-error" class="error" role="alert">
-      Please enter a valid email address (e.g., name@example.com)
-    </p>
-  </div>
-</form>
-```
-
-```javascript
-// Focus first error on submit
-form.addEventListener('submit', (e) => {
-  const firstError = form.querySelector('[aria-invalid="true"]');
-  if (firstError) {
-    e.preventDefault();
-    firstError.focus();
-    
-    // Announce error summary
-    const errorSummary = document.getElementById('error-summary');
-    errorSummary.textContent = `${errors.length} errors found. Please fix them and try again.`;
-    errorSummary.focus();
-  }
-});
-```
-
----
-
-## Robust
-
-### Valid HTML (4.1.1)
-
-```html
-<!-- ❌ Duplicate IDs -->
-<div id="content">...</div>
-<div id="content">...</div>
-
-<!-- ❌ Invalid nesting -->
-<a href="/"><button>Click</button></a>
-
-<!-- ✅ Unique IDs -->
-<div id="main-content">...</div>
-<div id="sidebar-content">...</div>
-
-<!-- ✅ Proper nesting -->
-<a href="/" class="button-link">Click</a>
-```
-
-### ARIA usage (4.1.2)
-
-**Prefer native elements:**
-```html
-<!-- ❌ ARIA role on div -->
-<div role="button" tabindex="0">Click me</div>
-
-<!-- ✅ Native button -->
-<button>Click me</button>
-
-<!-- ❌ ARIA checkbox -->
-<div role="checkbox" aria-checked="false">Option</div>
-
-<!-- ✅ Native checkbox -->
-<label><input type="checkbox"> Option</label>
-```
-
-**When ARIA is needed:**
-```html
-<!-- Custom tabs component -->
-<div role="tablist" aria-label="Product information">
-  <button role="tab" id="tab-1" aria-selected="true" 
-          aria-controls="panel-1">Description</button>
-  <button role="tab" id="tab-2" aria-selected="false" 
-          aria-controls="panel-2" tabindex="-1">Reviews</button>
-</div>
-<div role="tabpanel" id="panel-1" aria-labelledby="tab-1">
-  <!-- Panel content -->
-</div>
-<div role="tabpanel" id="panel-2" aria-labelledby="tab-2" hidden>
-  <!-- Panel content -->
-</div>
-```
-
-### Live regions (4.1.3)
-
-```html
-<!-- Status updates -->
-<div aria-live="polite" aria-atomic="true" class="status">
-  <!-- Content updates announced to screen readers -->
-</div>
-
-<!-- Urgent alerts -->
-<div role="alert" aria-live="assertive">
-  <!-- Interrupts current announcement -->
-</div>
-```
-
-```javascript
-// Announce dynamic content changes
-function showNotification(message, type = 'polite') {
-  const container = document.getElementById(`${type}-announcer`);
-  container.textContent = ''; // Clear first
-  requestAnimationFrame(() => {
-    container.textContent = message;
-  });
-}
-```
-
----
-
-## Testing checklist
-
-### Automated testing
-```bash
-# Lighthouse accessibility audit
-npx lighthouse https://example.com --only-categories=accessibility
-
-# axe-core
-npm install @axe-core/cli -g
-axe https://example.com
-```
-
-### Manual testing
-
-- [ ] **Keyboard navigation:** Tab through entire page, use Enter/Space to activate
-- [ ] **Screen reader:** Test with VoiceOver (Mac), NVDA (Windows), or TalkBack (Android)
-- [ ] **Zoom:** Content usable at 200% zoom
-- [ ] **High contrast:** Test with Windows High Contrast Mode
-- [ ] **Reduced motion:** Test with `prefers-reduced-motion: reduce`
-- [ ] **Focus order:** Logical and follows visual order
-
-### Screen reader commands
-
-| Action | VoiceOver (Mac) | NVDA (Windows) |
-|--------|-----------------|----------------|
-| Start/Stop | ⌘ + F5 | Ctrl + Alt + N |
-| Next item | VO + → | ↓ |
-| Previous item | VO + ← | ↑ |
-| Activate | VO + Space | Enter |
-| Headings list | VO + U, then arrows | H / Shift + H |
-| Links list | VO + U | K / Shift + K |
-
----
-
-## Common issues by impact
-
-### Critical (fix immediately)
-1. Missing form labels
-2. Missing image alt text
-3. Insufficient color contrast
-4. Keyboard traps
-5. No focus indicators
-
-### Serious (fix before launch)
-1. Missing page language
-2. Missing heading structure
-3. Non-descriptive link text
-4. Auto-playing media
-5. Missing skip links
-
-### Moderate (fix soon)
-1. Missing ARIA labels on icons
-2. Inconsistent navigation
-3. Missing error identification
-4. Timing without controls
-5. Missing landmark regions
-
-## References
-
-- [WCAG 2.1 Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/)
-- [WAI-ARIA Authoring Practices](https://www.w3.org/WAI/ARIA/apg/)
-- [Deque axe Rules](https://dequeuniversity.com/rules/axe/)
-- [Web Quality Audit](../web-quality-audit/SKILL.md)
+# Ensuring Accessibility and Quality Code in Web Projects
+
+Building a web project with accessibility in mind from the very start is
+crucial, especially in contexts (like AI-driven development) where manual
+testing by humans is limited. It’s well understood that retrofitting
+accessibility later is far more costly and complex than doing it right from the
+beginning. Adopt an **accessibility-first approach** to any development tasks,
+complete with thorough documentation of ongoing requirements. Ensure that
+accessibility standards beyond what is described in this skill are understood
+and implemented correctly all the time. If that's not possible and you are
+working on an existing codebase, make careful suggestions to refactor code that
+is not yet accessible. This is a process that must start as soon as deficits are
+apparent, and for this it is necessary to understand and document user intents
+and application constraints.
+
+## Code Comments and WCAG References
+
+Add **code comments** liberally that explain implementations that are done
+specifically for accessibility. In those, explain this based on the WCAG 2.2
+requirements of any level. Explain the **expected user flow** if relevant.
+
+## Use Semantic HTML and Proper Structure
+
+Start by using **semantic HTML** for all content and controls. Use real
+`<button>` elements for buttons, `<header>`/`<nav>`/`<main>` for layout,
+`<form>` and `<label>` for forms, and a locial hierarchy of heading levels for
+titles. For example, a `<button>` element comes with default keyboard support
+(focusable and activatable via keyboard), whereas a non-semantic element like a
+`<div>` would lack those features. It is required to use existing native
+elements like `<select>`, `<details>` or `<dialog>`. If there is no way of
+avoiding custom components (there usually isn't), follow established ARIA design
+patterns and **keyboard interaction models**. Use ARIA only if there is NO
+alternative, and in most cases, there is. If you do, document this choice and
+the reasoning behind it.
+
+Ensure the page is organized with clear **structure and landmarks**. Use HTML5
+sectioning elements to delineate navigation, main content, forms, etc, to give
+users and yourself a clear understanding of how the content is structured.
+Always provide text equivalents for non-text media: include descriptive **alt
+text** for images, transcripts or captions for audio/video. If you can't
+reliably make those yourself, note a required and blocking task for another
+maintainer. Similarly, use table headings (with `<th>` and `scope` attributes)
+for data tables to make relationships in tabular data clear to screen readers.
+Avoid link texts like "here", "click" or "Continue Reading". If they are
+required visually, add a redundant way to receive their content (e.g. an
+interactive card) and remove those from the accessibility tree.
+
+## Design Accessible Components
+
+Each component’s HTML structure must reflect its semantics: use lists for menus
+or multi-option controls, use headings for titles, use fieldsets and legends for
+groups of form fields, etc. Maintain a consistent style for focus indicators
+(the outline or highlight when an element is focused) so that keyboard users can
+always see where focus is. **Keyboard accessibility** isn’t optional – ensure
+users can reach and operate every interactive element via keyboard alone (e.g.,
+using Tab, Enter, space, arrow keys as appropriate). This may require adding
+`tabindex` ONLY for custom focusable elements and ONLY with negative values, and
+handling key events in scripts for custom widgets.
+
+Remember the WCAG rule for touch target sizes. Everything should be easily
+reachable. Mouse or gesture controls (like dragging) require an alternative.
+
+Make use of **accessibility linters and libraries**. There are frameworks and
+component libraries that emphasize accessible design. If using
+React/Vue/Angular, leverage their accessibility tooling (like React’s
+eslint-plugin-JSX-a11y) and prefer community-vetted accessible components.
+Ultimately, an accessible component is achieved by a combination of correct HTML
+structure, proper ARIA roles/states where needed, and scripting that follows
+usability conventions for assistive tech users. Documentation should record how
+each custom component addresses accessibility (e.g. how to provide alt text for
+an image component, or how a carousel handles focus and screen reader
+announcements), so that anyone extending the component knows what requirements
+to uphold.
+
+## Continuous Maintenance and Avoiding Anti-Patterns
+
+Achieving accessibility is not a one-time task – it requires **continuous
+evaluation** as the project evolves. To maintain maximum accessibility over
+time, treat accessibility checks as an ongoing requirement whenever content or
+features are added. A few key practices to document and enforce for future
+changes include:
+
+- **Provide Alt Text for New Media:** Every time an image or other media is
+  added, mandate that alt text (or an equivalent text alternative) is provided.
+  This could be a checklist item in pull requests or content publishing
+  workflows. Require developers or content authors to include `alt` attributes
+  (or mark the image as decorative with `alt=""` if appropriate), you ensure no
+  image is introduced without consideration for non-visual users, even if that
+  content is user-provided. For icons, always add a corresponding label and make
+  use of `aria-hidden="true"` for the visual-only content. Keep alt text short
+  and concise, but there is no character limit.
+
+- **Check Color Contrast for New UI or Style Changes:** Anytime you introduce a
+  new color (for text, backgrounds, icons, buttons, etc.) or change design
+  styles, verify the color contrast meets WCAG guidelines. According to WCAG
+  2.x, _contrast ratio_ is calculated as **(L1 + 0.05) / (L2 + 0.05)** (where L1
+  is the luminance of the lighter color and L2 of the darker). This formula
+  yields a ratio from 1:1 (no contrast, e.g. white on white) up to 21:1 (highest
+  contrast, e.g. black on white). Standard text should have at least a 4.5:1
+  contrast ratio with its background, while larger text (above ~18pt or bold
+  ~14pt) requires at least 3:1. Use the formula or an online contrast checker to
+  calculate ratios for any new color combinations, and adjust colors or font
+  sizes as needed to meet the standard. This also applies to
+  hover/focus/disabled/... states.
+
+- **Maintain Heading Structure and Landmarks:** When adding new content or
+  pages, ensure the heading hierarchy (`<h1>…<h6>`) remains logical (no skipping
+  levels arbitrarily) and sectioning elements are used where appropriate. For
+  instance, if a new section is added to a page, it might need a heading of the
+  correct level and perhaps be wrapped in a `<section>` or added to the
+  navigation landmarks (`<nav>, <main>, <aside>` etc.).
+
+- **Re-evaluate with each Change:** It’s important to continuously re-test your
+  application’s accessibility as it grows. Incorporate automated tests (like
+  Pa11y) into regression test suites so every build or release runs them.
+
+- **Avoid Anti-Patterns:** `<div>`-buttons, `onclick` without keyboard handling,
+  `outline: none`, aria-label as replacement for visual labels, role=button on
+  external links etc.)
+
+## Further TODOs
+
+- `<html>` requires a `lang` attribute (as well as any text blocks -- not single
+  words -- in a foreign language. If the project is multilingual, change this
+  dynamically as required).
+- `<title>` elements are a requirement. Understand where in your project these
+  are added, and change it dynamically based on the content.
+- Implement skip links before each non-content block (e.g. just before the
+  navigation) that are only visible once focused. Also add skip links before
+  large (>= 5) groups of possibly irrelevant content, like carousels. Call them
+  "Skip 'thing'", e.g. "Skip navigation" or "Skip sponsor links". Make sure they
+  stay correct when structure changes.
+- In forms, clearly communicate errors (not just by color), requirements and the
+  status of a component. Avoid using the disabled-state entirely. Controls
+  should rather be invisible.
+- `prefers-reduced-motion` is handled and respected.
+- Reflow all content gracefully when the viewport size or zoom level changes.
+- Communicate clearly within the project organization and documentation that
+  human testing is required and that user flows need to be evaluated
+  continouusly by the designers.
+- In the UI itself, never mention accessibility.
+
+This skill does not constitute full awareness of everything that is important to
+develop in a way that it is accessible. If unsure, always document that and
+consult only official W3C/WCAG resources for help.
