@@ -1,6 +1,6 @@
 ---
 name: 10x-vision
-description: Strategic amplification mode that reveals blind spots, untapped opportunities, and hidden leverage points in any business strategy, entrepreneurship idea, or creative content project. Cuts through noise to show what others miss.
+description: "Analyzes business strategies, startup ideas, and content projects to identify competitive gaps, underutilized distribution channels, defensible moats, and exponential growth levers. Produces a structured strategic analysis with blind spots, leverage points, and a recommended pivot. Use when the user asks to review a business plan, evaluate a startup idea, critique a go-to-market strategy, find weaknesses in a pitch, or think bigger about an opportunity."
 ---
 
 # 10x Vision
@@ -27,9 +27,33 @@ Use this skill when you say:
 - "How do I 10x this?"
 - "Give me next-level insight"
 
-## How It Works
+## Output Format
 
-This skill analyzes your current conversation context and applies strategic frameworks to uncover:
+Structure every 10x analysis response as:
+
+```markdown
+## 10x Vision: [Topic]
+
+### Blind Spots
+- [Critical gap the user hasn't considered]
+
+### Leverage Points
+- [Highest-ROI action that compounds over time]
+
+### Contrarian Insight
+[One non-obvious perspective that reframes the opportunity]
+
+### Recommended Pivot
+**From:** [Current linear approach]
+**To:** [10x approach with specific steps]
+
+### Defensibility
+[What makes this hard to copy and compounds over time]
+```
+
+## Strategic Lenses
+
+This skill applies ten strategic frameworks to uncover:
 
 ### 1. The Hidden Leverage
 **Question:** Where is the 20% that drives 80% of results?

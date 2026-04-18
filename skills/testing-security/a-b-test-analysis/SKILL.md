@@ -1,6 +1,6 @@
 ---
-name: A/B Test Analysis
-description: Design and analyze A/B tests, calculate statistical significance, and determine sample sizes for conversion optimization and experiment validation
+name: a-b-test-analysis
+description: "Design and analyze A/B tests, calculate statistical significance, and determine sample sizes for conversion optimization and experiment validation. Use when the user asks about A/B testing, experiment design, statistical significance, sample size calculation, conversion rate optimization, or comparing two variants of a feature."
 ---
 
 # A/B Test Analysis
@@ -29,13 +29,13 @@ A/B testing is a statistical method to compare two variants and determine which 
 
 ## Analysis Steps
 
-1. Define success metric
-2. Calculate sample size
-3. Run experiment
-4. Check assumptions
-5. Perform statistical test
-6. Calculate effect size
-7. Interpret results
+1. Define success metric and hypothesis
+2. Calculate sample size → **checkpoint: verify sufficient data exists before analyzing**
+3. Run experiment with proper randomization
+4. Check assumptions → **checkpoint: test normality (Shapiro-Wilk); if violated, use Mann-Whitney U instead of t-test**
+5. Perform statistical test (chi-square for proportions, t-test for continuous metrics)
+6. Calculate effect size (Cohen's d) and confidence intervals
+7. Interpret results → **checkpoint: check if lift is practically significant, not just statistically significant**
 
 ## Implementation with Python
 

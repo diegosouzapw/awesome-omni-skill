@@ -1,6 +1,6 @@
 ---
 name: 5w1h-decision
-description: "5W1H Decision Framework Tool. Use for: (1) Systematic decision-making before creating todos, (2) Preventing duplicate implementation, (3) Detecting avoidance behavior, (4) Ensuring agile refactor compliance with executor/dispatcher separation"
+description: "5W1H (Who/What/When/Where/Why/How) decision framework for structured task planning. Asks six systematic questions before creating todos, checks for duplicate implementations, detects avoidance language, and enforces executor/dispatcher separation. Use when deciding what to build next, planning tasks, breaking down decisions, checking for duplicate work, or structuring implementation proposals."
 ---
 
 # 5W1H Decision Framework - Systematic Decision Making

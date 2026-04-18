@@ -1,22 +1,43 @@
 ---
 name: a2a-sdk
-description: Comprehensive Agent2Agent (A2A) JavaScript SDK skill for building A2A-compliant agents and clients. Use when implementing or integrating @a2a-js/sdk, creating A2A servers/clients, using JSON-RPC/REST/gRPC transports, streaming task updates, handling tasks/artifacts, authentication, or push notifications.
+description: "Comprehensive Agent2Agent (A2A) JavaScript SDK skill for building A2A-compliant agents and clients. Use when implementing or integrating @a2a-js/sdk, creating A2A servers/clients, using JSON-RPC/REST/gRPC transports, streaming task updates, handling tasks/artifacts, authentication, or push notifications."
 ---
 
 # A2A JavaScript SDK Skill
-
-## Overview
-
-Use this skill to implement A2A-compliant servers and clients with @a2a-js/sdk, including tasks, streaming, authentication, and transport selection. Follow A2A protocol v0.3.0.
 
 ## Core Workflows
 
 1. Select transport: JSON-RPC (default), REST, or gRPC.
 2. Define an AgentCard and AgentExecutor for server implementations.
-3. Use ClientFactory for client creation and message exchange.
-4. Add task handling and artifacts for long-running operations.
-5. Use streaming when real-time updates are required.
-6. Add authentication or push notifications when needed.
+3. Verify server responds to agent card discovery before adding task handling.
+4. Use ClientFactory for client creation and message exchange.
+5. Add task handling and artifacts for long-running operations.
+6. Use streaming when real-time updates are required.
+7. Add authentication or push notifications when needed.
+
+## Quick Start: Minimal Server
+
+```typescript
+import { AgentCard, A2AServer, AgentExecutor, MessageRequest } from '@a2a-js/sdk';
+
+const agentCard: AgentCard = {
+  name: 'my-agent',
+  description: 'A minimal A2A agent',
+  url: 'http://localhost:3000',
+  version: '0.3.0',
+  capabilities: { streaming: false },
+  skills: [{ id: 'echo', name: 'Echo', description: 'Echoes input back' }],
+};
+
+const executor: AgentExecutor = {
+  async execute(request: MessageRequest) {
+    return { type: 'message', content: request.message.parts };
+  },
+};
+
+const server = new A2AServer(agentCard, executor);
+server.start(3000);
+```
 
 ## Bundled Resources
 

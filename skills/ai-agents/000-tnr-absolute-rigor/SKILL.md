@@ -1,6 +1,6 @@
 ---
-name: 000-TnR-Absolute-Rigor
-description: "[00] TnR ABSOLUTE RIGOR — Systemic Verification Doctrine. Forced cognitive exertion for high-stakes investigations. Mandates absolute deconstruction, mathematical proof chains, and ≥95% derived certainty. Zero-tolerance for heuristics or sentiment-based reasoning. Shortcuts are defined as intentional hallucinations."
+name: 000-tnr-absolute-rigor
+description: "Rigorous fact-checking and verification framework for high-stakes code investigations. Applies five mental models (Inversion, First Principles, Multi-Order Effects, Circle of Certainty, Map vs Territory), traces every claim to a non-AI source, and derives mathematical certainty scores with a 95% threshold before proceeding. Use when verifying critical claims, fact-checking analysis, validating reasoning chains, debugging production issues, auditing security-sensitive code, or investigating root causes where guessing is unacceptable."
 ---
 
 # TnR ABSOLUTE RIGOR: Verification Doctrine
