@@ -1,7 +1,7 @@
 ---
 name: dioxus-modern
 description: Modern Dioxus 0.7 + Tailwind CSS development guide. Use when asking about Signals, Stores, ReadSignal props, async patterns, components, or Tailwind integration in Dioxus 0.7.
-argument-hint: [dioxus question, component pattern, state management, tailwind setup, async data fetching]
+argument-hint: "[dioxus question, component pattern, state management, tailwind setup, async data fetching]"
 allowed-tools:
   - Read
   - Write

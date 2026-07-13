@@ -1,7 +1,7 @@
 ---
 name: configuring-devenv
 description: Initializes and configures devenv development environments. Searches packages, sets up languages, services, scripts, git hooks, and processes. Use when setting up devenv, adding packages to devenv.nix, configuring languages, services, git hooks, or searching for devenv options.
-argument-hint: [action] [query]
+argument-hint: "[action] [query]"
 allowed-tools:
   - Bash
   - Read

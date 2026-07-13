@@ -1,7 +1,7 @@
 ---
 name: review
 description: Comprehensive code review with failure scenario analysis, security checks, and prioritized fix suggestions. Use after /execute to validate implementation quality.
-argument-hint: [optional: specific files/directories to review]
+argument-hint: "[optional: specific files/directories to review]"
 allowed-tools: Read, Grep, Glob, Edit, Bash, AskUserQuestion, Task
 ---
 

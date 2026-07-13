@@ -6,7 +6,7 @@ last-evolved: null
 evolution-count: 0
 feedback-count: 0
 description: Analyze feedback and evolve skills through structured improvement. The meta-skill that makes other skills better.
-argument-hint: [skill-name] or [--all] or [rollback skill-name] or [versions skill-name]
+argument-hint: "[skill-name] or [--all] or [rollback skill-name] or [versions skill-name]"
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash, AskUserQuestion
 ---
 

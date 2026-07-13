@@ -1,7 +1,7 @@
 ---
 name: api-controller
 description: Create a new Laravel API controller following this project's patterns. Use when creating new API endpoints, CRUD controllers, or backoffice controllers.
-argument-hint: [ResourceName]
+argument-hint: "[ResourceName]"
 disable-model-invocation: true
 ---
 

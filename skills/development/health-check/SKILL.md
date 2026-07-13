@@ -1,7 +1,7 @@
 ---
 name: health-check
 description: Check health status of all running services and dependencies. Use when verifying services are running, debugging connectivity issues, or monitoring system status.
-argument-hint: [service]
+argument-hint: "[service]"
 allowed-tools: Bash, Read, Glob
 ---
 

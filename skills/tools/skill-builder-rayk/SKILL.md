@@ -742,7 +742,7 @@ Template:
 ```yaml
 ---
 description: {Brief description of what the skill does}
-argument-hint: [{argument description}]
+argument-hint: "[{argument description}]"
 allowed-tools: Skill({skill-name})
 ---
 

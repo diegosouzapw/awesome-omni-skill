@@ -2,7 +2,7 @@
 name: gql:guide
 description: Interactive guide to soda-gql features and patterns
 user-invocable: true
-argument-hint: [topic or question]
+argument-hint: "[topic or question]"
 allowed-tools: Read, Grep, Glob, AskUserQuestion
 ---
 

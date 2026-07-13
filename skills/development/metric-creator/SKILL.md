@@ -1,7 +1,7 @@
 ---
 name: metric-creator
 description: Create new Fair-Forge metrics with proper structure, schema, tests, and fixtures. Use when adding a new evaluation metric to fair-forge.
-argument-hint: [metric-name] [optional description]
+argument-hint: "[metric-name] [optional description]"
 ---
 
 # Fair-Forge Metric Creator

@@ -1,7 +1,7 @@
 ---
 name: customer-health-scorecard
 description: Create or update a customer health scorecard
-argument-hint: [customer name or segment] or [update path/to/scorecard.md]
+argument-hint: "[customer name or segment] or [update path/to/scorecard.md]"
 ---
 
 ## Document Intelligence

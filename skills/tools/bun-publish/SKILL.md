@@ -3,7 +3,7 @@ model: haiku
 description: Publish package to npm with Bun build
 args: [--dry-run] [--access <level>] [--provenance]
 allowed-tools: Bash, Read
-argument-hint: [--dry-run] [--access public]
+argument-hint: "[--dry-run] [--access public]"
 disable-model-invocation: true
 created: 2025-12-21
 modified: 2025-12-21

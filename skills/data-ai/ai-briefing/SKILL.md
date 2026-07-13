@@ -1,7 +1,7 @@
 ---
 name: ai-briefing
 description: Generate a comprehensive AI Intelligence Brief covering the last 14 days of AI ecosystem developments relevant to a healthcare technology CTO. Creates a timestamped markdown file in the news/ directory.
-argument-hint: [optional focus area or date override]
+argument-hint: "[optional focus area or date override]"
 ---
 
 # AI Intelligence Briefing Skill

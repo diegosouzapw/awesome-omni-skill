@@ -3,7 +3,7 @@ name: done
 description: Finish a task by committing changes, rebasing on main, and creating a PR
 disable-model-invocation: true
 user-invocable: true
-argument-hint: [optional commit message]
+argument-hint: "[optional commit message]"
 allowed-tools: Bash(git:*), Bash(gh:*)
 ---
 

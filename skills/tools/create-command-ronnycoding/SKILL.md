@@ -144,7 +144,7 @@ allowed-tools: Bash(git add:*), Bash(git status:*), Bash(git commit:*)
 ```yaml
 argument-hint: <file-path>
 argument-hint: <pr-number> [priority] [assignee]
-argument-hint: [message]
+argument-hint: "[message]"
 ```
 
 **description:** Brief command description (overrides first line)
@@ -329,7 +329,7 @@ Usage: `/create-pr "Add user authentication" "Implements JWT-based authenticatio
 ```markdown
 ---
 allowed-tools: Bash, Read, Grep
-argument-hint: [file-pattern]
+argument-hint: "[file-pattern]"
 description: Run tests and analyze failures
 model: claude-3-5-haiku-20241022
 ---

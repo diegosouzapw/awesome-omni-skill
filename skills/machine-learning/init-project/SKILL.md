@@ -3,7 +3,7 @@ name: init-project
 description: Initialize a new ML project from this template
 disable-model-invocation: true
 allowed-tools: Bash(git *, python *, pip *, wandb *), Read, Edit, Write, Glob, Grep, AskUserQuestion
-argument-hint: [project-name] [description]
+argument-hint: "[project-name] [description]"
 ---
 
 # Initialize Project

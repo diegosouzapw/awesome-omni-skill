@@ -4,7 +4,7 @@ description: SQLite-based project documentation logger for tracking API referenc
 disable-model-invocation: false
 user-invocable: true
 allowed-tools: Bash(python:*), Read, Write
-argument-hint: [action] [type] [args...]
+argument-hint: "[action] [type] [args...]"
 ---
 
 # Project Logger Skill

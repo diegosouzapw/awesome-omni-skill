@@ -1,7 +1,7 @@
 ---
 name: eth-agent
 description: Expert knowledge for using the eth-agent library - the simplest, safest way for AI agents to send stablecoins on Ethereum. Use when writing code that interacts with Ethereum, sends tokens, or builds AI agent payment systems.
-argument-hint: [task description]
+argument-hint: "[task description]"
 ---
 
 # eth-agent Library Expert

@@ -2,7 +2,7 @@
 name: analyze-performance
 description: パフォーマンスボトルネックを特定し、最適化提案を提示
 user-invocable: true
-argument-hint: [ドメイン名またはファイルパス]
+argument-hint: "[ドメイン名またはファイルパス]"
 allowed-tools: Read, Grep, Glob, Bash
 context: fork
 ---

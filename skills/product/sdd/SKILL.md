@@ -1,7 +1,7 @@
 ---
 name: sdd
 description: Specification-driven development methodology coach. Guides through the full SDD workflow - from requirements gathering through specification, test derivation, implementation, and validation. Use when starting new features or when the user needs help following SDD discipline.
-argument-hint: [feature-description]
+argument-hint: "[feature-description]"
 allowed-tools: Read, Write, Edit, Bash, Glob, Grep, TodoWrite, AskUserQuestion
 ---
 

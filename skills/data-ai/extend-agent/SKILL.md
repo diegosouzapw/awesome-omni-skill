@@ -75,7 +75,7 @@ What would you like to create?
 ```yaml
 ---
 description: What this command does (appears in /help)
-argument-hint: [optional-arg]
+argument-hint: "[optional-arg]"
 allowed-tools: Bash(git add:*), Bash(git commit:*)  # Optional
 ---
 

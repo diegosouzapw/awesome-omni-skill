@@ -1,7 +1,7 @@
 ---
 name: commit
 description: Create a git commit with a well-formatted message. Use after completing changes that should be committed.
-argument-hint: [optional message hint]
+argument-hint: "[optional message hint]"
 disable-model-invocation: true
 ---
 

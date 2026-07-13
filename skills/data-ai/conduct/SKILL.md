@@ -1,7 +1,7 @@
 ---
 name: conduct
 allowed-tools: Bash(date -u +"%Y%m%dT%H%M%SZ"), Glob, Grep, MultiEdit, Read, Task, WebFetch, WebSearch, Write, mcp__firecrawl__firecrawl_scrape, mcp__firecrawl__firecrawl_search
-argument-hint: [research-topic] [thinking-mode]
+argument-hint: "[research-topic] [thinking-mode]"
 description: Research a topic comprehensively and create detailed research documentation
 model: claude-sonnet-4-5-20250929
 ---

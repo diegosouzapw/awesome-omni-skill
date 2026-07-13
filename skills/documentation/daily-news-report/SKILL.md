@@ -1,7 +1,7 @@
 ---
 name: daily-news-report
 description: 基于预设 URL 列表抓取内容，筛选高质量技术信息并生成每日 Markdown 报告。
-argument-hint: [可选: 日期]
+argument-hint: "[可选: 日期]"
 disable-model-invocation: false
 user-invocable: true
 allowed-tools: Task, WebFetch, Read, Write, Bash(mkdir*), Bash(date*), Bash(ls*), mcp__chrome-devtools__*

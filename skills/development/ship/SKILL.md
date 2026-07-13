@@ -1,7 +1,7 @@
 ---
 name: ship
 description: Review and finalize (REVIEWER + DOCUMENTER phases) - runs adversarial code review, commits changes, completes task, and submits reflection to update pattern trust scores.
-argument-hint: [task-identifier]
+argument-hint: "[task-identifier]"
 ---
 
 <skill name="apex:ship" phase="ship">

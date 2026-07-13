@@ -134,7 +134,7 @@ Use the `git-committer` subagent to create a well-formatted commit.
 ```yaml
 ---
 description: Generate a PRP
-argument-hint: [feature_name]
+argument-hint: "[feature_name]"
 allowed-tools: Task(prp-generator)
 ---
 

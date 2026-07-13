@@ -2,7 +2,7 @@
 name: resolve-issues
 allowed-tools: Bash(gh:*), Bash(git:*), Bash(cd:*), Bash(mkdir:*), Task
 description: Resolve GitHub issues using isolated worktrees and TDD
-argument-hint: [issue number or description]
+argument-hint: "[issue number or description]"
 user-invocable: true
 ---
 

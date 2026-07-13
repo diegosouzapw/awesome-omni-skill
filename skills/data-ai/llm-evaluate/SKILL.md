@@ -3,7 +3,7 @@ name: llm-evaluate
 description: Evaluate LLM models for cost/performance ratio. Fetches current pricing and recommends optimal model for your use case. Use during project init or when optimizing costs.
 disable-model-invocation: true
 allowed-tools: Read, WebFetch, WebSearch, AskUserQuestion
-argument-hint: [use-case]
+argument-hint: "[use-case]"
 ---
 
 # LLM Model Evaluation

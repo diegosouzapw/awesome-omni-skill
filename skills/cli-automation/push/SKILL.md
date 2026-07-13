@@ -3,7 +3,7 @@ name: push
 description: Add all changes, commit, and push to GitHub
 user-invocable: true
 disable-model-invocation: true
-argument-hint: [commit message]
+argument-hint: "[commit message]"
 allowed-tools: Bash(git:*), Bash(gh:*)
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: audit-rules
 description: Audit Claude Code rule files for quality and compliance. Use when creating or validating .claude/rules/*.md files, or troubleshooting rule loading issues.
-argument-hint: [--force | --skip-validation]
+argument-hint: "[--force | --skip-validation]"
 allowed-tools: Read, Bash, Glob, Grep, Task
 ---
 

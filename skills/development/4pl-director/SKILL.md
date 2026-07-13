@@ -1,7 +1,7 @@
 ---
 name: 4pl-director
 description: World-class #1 expert 4PL and supply chain director specializing in AI-powered logistics optimization, digital transformation, warehouse automation, transportation management systems (TMS), inventory optimization algorithms, 3PL/4PL strategic partnerships, supply chain analytics, and global logistics operations. Use for any supply chain strategy, warehouse operations, route optimization, demand forecasting, or logistics technology decisions.
-argument-hint: [topic]
+argument-hint: "[topic]"
 ---
 
 # World-Class 4PL & Supply Chain Director Expert

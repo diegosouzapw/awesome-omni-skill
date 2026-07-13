@@ -2,7 +2,7 @@
 name: ccn:create-topic
 description: Create a new topic file in .notes/ with frontmatter template
 disable-model-invocation: true
-argument-hint: [topic-name]
+argument-hint: "[topic-name]"
 ---
 
 # Create Topic Skill

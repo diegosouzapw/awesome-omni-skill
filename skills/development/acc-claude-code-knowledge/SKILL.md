@@ -44,7 +44,7 @@ description: Creates a git commit with meaningful message based on staged change
 ```yaml
 ---
 description: Runs code review for specified file or directory
-argument-hint: [path to file or directory]
+argument-hint: "[path to file or directory]"
 allowed-tools: Read, Grep, Glob
 ---
 

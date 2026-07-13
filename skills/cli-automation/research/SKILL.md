@@ -1,7 +1,7 @@
 ---
 name: research
 description: Research a topic across gopher-cli sources, read relevant documents, and save a structured summary to the vault
-argument-hint: [topic]
+argument-hint: "[topic]"
 ---
 
 Research the topic: **$ARGUMENTS**

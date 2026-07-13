@@ -1,7 +1,7 @@
 ---
 name: optim-pipeline
 description: Complete GPU optimization pipeline. Launches N agents, runs benchmarks, anti-triche verification, and generates report automatically. One command for everything.
-argument-hint: [N] [CHUNK_SIZE] [BUILD_JOBS] [TIMEOUT] [LOG_DIR]
+argument-hint: "[N] [CHUNK_SIZE] [BUILD_JOBS] [TIMEOUT] [LOG_DIR]"
 disable-model-invocation: true
 context: fork
 agent: general-purpose

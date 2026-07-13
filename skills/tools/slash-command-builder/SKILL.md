@@ -28,7 +28,7 @@ Activate this skill when:
 ```markdown
 ---
 description: Brief description shown in autocomplete
-argument-hint: [arg1] [arg2] <optional-arg>
+argument-hint: "[arg1] [arg2] <optional-arg>"
 allowed-tools: Bash(git *), Read, Write
 model: claude-3-5-sonnet-20241022
 disable-model-invocation: false
@@ -121,7 +121,7 @@ Create a $ARGUMENTS component following our style guide:
 ```markdown
 ---
 description: Review pull request
-argument-hint: [pr-number] [reviewer]
+argument-hint: "[pr-number] [reviewer]"
 ---
 
 Review PR #$1 and assign to @$2:
@@ -147,7 +147,7 @@ description: What this command does
 ```yaml
 ---
 description: Complete command with all options
-argument-hint: [required] <optional>
+argument-hint: "[required] <optional>"
 allowed-tools: Bash(git *), Read(**/*.ts), Write
 model: claude-3-5-sonnet-20241022
 disable-model-invocation: false
@@ -265,7 +265,7 @@ disable-model-invocation: true
 ```markdown
 ---
 description: Review code changes
-argument-hint: [file-or-pr]
+argument-hint: "[file-or-pr]"
 allowed-tools: Bash(git *), Read, Grep
 ---
 
@@ -421,7 +421,7 @@ Each command should do ONE thing well. Don't create Swiss Army knife commands.
 
 ### 2. Use Clear Argument Hints
 ```yaml
-argument-hint: [required] <optional> [choices: a|b|c]
+argument-hint: "[required] <optional> [choices: a|b|c]"
 ```
 
 ### 3. Document Expected Output

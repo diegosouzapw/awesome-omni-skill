@@ -123,7 +123,7 @@ Files created/modified:
 ---
 name: example-command
 description: Does something useful
-argument-hint: [input]
+argument-hint: "[input]"
 ---
 
 <objective>
@@ -485,7 +485,7 @@ Create a git commit for current changes following repository conventions.
 ```markdown
 ---
 description: Fix issue following coding standards
-argument-hint: [issue-number]
+argument-hint: "[issue-number]"
 ---
 
 <objective>
@@ -514,7 +514,7 @@ This ensures bugs are resolved systematically with proper testing.
 ```markdown
 ---
 description: Optimize code performance
-argument-hint: [file-path]
+argument-hint: "[file-path]"
 ---
 
 <objective>

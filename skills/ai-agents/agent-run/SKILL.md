@@ -3,7 +3,7 @@ name: agent-run
 description: Run prompt with OpenAI or Gemini provider via agent CLI
 user-invocable: true
 allowed-tools: Bash
-argument-hint: [provider] [prompt] [skills]
+argument-hint: "[provider] [prompt] [skills]"
 ---
 
 # Agent Run

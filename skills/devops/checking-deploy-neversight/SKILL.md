@@ -15,7 +15,7 @@ allowed-tools:
   - Grep
   - Glob
   - mcp__perplexity-ask__perplexity_ask
-argument-hint: [--background]
+argument-hint: "[--background]"
 ---
 
 # Deployment Validation

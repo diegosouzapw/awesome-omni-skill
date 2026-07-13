@@ -1,7 +1,7 @@
 ---
 name: tapestry
 description: Social graph protocol integration for Copium app using Tapestry API. Use when building social features - profiles, follows, content/posts, comments, likes, activity feeds, identity resolution, or trades. Covers all 41 Tapestry API endpoints.
-argument-hint: [feature-or-endpoint]
+argument-hint: "[feature-or-endpoint]"
 ---
 
 # Tapestry Social Graph Integration

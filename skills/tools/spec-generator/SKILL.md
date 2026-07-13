@@ -1,6 +1,6 @@
 ---
 name: spec-generator
-argument-hint: [instructions]
+argument-hint: "[instructions]"
 allowed-tools: AskUserQuestion, Write
 description: Interview user in-depth to create a detailed spec
 ---

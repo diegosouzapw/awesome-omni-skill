@@ -39,7 +39,7 @@ Your prompt instructions here.
 ```yaml
 ---
 allowed-tools: Bash(git:*), Read
-argument-hint: [filename] [options]
+argument-hint: "[filename] [options]"
 description: What this command does
 model: claude-3-5-haiku-20241022
 disable-model-invocation: false

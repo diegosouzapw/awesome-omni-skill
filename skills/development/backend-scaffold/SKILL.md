@@ -2,7 +2,7 @@
 name: backend-scaffold
 description: Generate production-ready backend code with routes, data models, service layers, and validation. Use when scaffolding backend from specs.
 allowed-tools: Read, Glob, Grep, Write($JAAN_OUTPUTS_DIR/backend/scaffold/**), Task, WebSearch, AskUserQuestion, Edit(jaan-to/config/settings.yaml)
-argument-hint: [backend-api-contract, backend-task-breakdown, backend-data-model]
+argument-hint: "[backend-api-contract, backend-task-breakdown, backend-data-model]"
 license: MIT
 compatibility: Designed for Claude Code with jaan-to plugin. Requires jaan-init setup.
 ---

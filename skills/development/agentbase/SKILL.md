@@ -4,7 +4,7 @@ description: Multi-agent orchestration system for coordinating parallel developm
 disable-model-invocation: false
 user-invocable: true
 allowed-tools: Read, Glob, Grep, Bash, Task, TodoWrite, Write
-argument-hint: [command] [args]
+argument-hint: "[command] [args]"
 ---
 
 # AgentBase: Multi-Agent Orchestration System
