@@ -1,0 +1,21 @@
+{
+  "name": "ecommerce-amazon-market-research",
+  "description": "Screen Amazon category markets with Nexscope market-research data (size, competition, new-product share, price/rating/margin filters).",
+  "category": "business",
+  "canonical_category": "business",
+  "repository": "nexscope-ai/nexscope-ecommerce-skills",
+  "repository_url": "https://github.com/nexscope-ai/nexscope-ecommerce-skills",
+  "author": "nexscope-ai",
+  "author_avatar": "https://github.com/nexscope-ai.png",
+  "file_path": "ecommerce-amazon-market-research/SKILL.md",
+  "source": "github_curated_repos",
+  "stars": 0,
+  "quality_score": 80,
+  "skill_level": 3,
+  "skill_level_label": "resources",
+  "has_scripts": true,
+  "has_extra_files": true,
+  "downloads": 0,
+  "install_command": "mkdir -p .claude/skills/ecommerce-amazon-market-research && curl -sL \"https://raw.githubusercontent.com/nexscope-ai/nexscope-ecommerce-skills/main/ecommerce-amazon-market-research/SKILL.md\" > .claude/skills/ecommerce-amazon-market-research/SKILL.md",
+  "raw_url": "https://raw.githubusercontent.com/nexscope-ai/nexscope-ecommerce-skills/main/ecommerce-amazon-market-research/SKILL.md"
+}
